@@ -14,11 +14,16 @@ def generate_with_retry(model, contents, max_retries=3):
             return response.text
         except Exception as e:
             error_msg = str(e)
-            if "429" in error_msg and i < max_retries - 1:
-                wait_time = 30  # Đợi 30 giây nếu bị quá tải
-                print(f"Bị quá tải (429). Đang đợi {wait_time}s trước khi thử lại lần {i+1}...")
-                time.sleep(wait_time)
-                continue
+            if "429" in error_msg:
+                if "limit: 0" in error_msg:
+                    print("!!! LỖI NGHIÊM TRỌNG: Hạn mức (Quota) của Key này đã bị Google đưa về 0.")
+                    print("!!! Vùi lòng ĐỔI API KEY mới từ một tài khoản/project khác để tiếp tục.")
+                    raise e
+                if i < max_retries - 1:
+                    wait_time = 30  # Đợi 30 giây nếu bị quá tải tạm thời
+                    print(f"Bị quá tải (429). Đang đợi {wait_time}s trước khi thử lại lần {i+1}...")
+                    time.sleep(wait_time)
+                    continue
             raise e
 
 def run_pipeline():
