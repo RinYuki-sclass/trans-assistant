@@ -31,26 +31,26 @@ def run_pipeline():
     with open('input/eng.txt', 'r', encoding='utf-8') as f: eng_text = f.read()
     with open('input/kor.txt', 'r', encoding='utf-8') as f: kor_text = f.read()
     
-    # 2. Bước 1: Dịch (Sử dụng Gemini 2.0 Flash)
-    print("Đang tiến hành dịch bản thảo (Gemini 2.0 Flash)...")
+    # 2. Bước 1: Dịch (Sử dụng Gemini 2.5 Flash Lite)
+    print("Đang tiến hành dịch bản thảo (Gemini 2.5 Flash Lite)...")
     draft = generate_with_retry(
-        model='gemini-2.0-flash', 
+        model='gemini-2.5-flash-lite', 
         contents=f"Translate to Vietnamese: {eng_text}"
     )
-    time.sleep(10)
+    time.sleep(7) # Giảm thời gian nghỉ xuống 7s vì RPM là 10
     
-    # 3. Bước 2: Review (Sử dụng Gemini 2.0 Flash)
+    # 3. Bước 2: Review (Sử dụng Gemini 2.5 Flash Lite)
     print("Đang tiến hành Review...")
     report = generate_with_retry(
-        model='gemini-2.0-flash', 
+        model='gemini-2.5-flash-lite', 
         contents=f"Review this translation: {draft} against {kor_text}"
     )
-    time.sleep(10)
+    time.sleep(7)
     
     # 4. Bước 3: Refine
     print("Đang hoàn tất bản dịch...")
     final = generate_with_retry(
-        model='gemini-2.0-flash', 
+        model='gemini-2.5-flash-lite', 
         contents=f"Fix this translation: {draft} based on this report: {report}"
     )
     
