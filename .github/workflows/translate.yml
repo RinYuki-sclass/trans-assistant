@@ -2,8 +2,13 @@ name: AI Translation Pipeline
 
 on:
   push:
+    branches:
+      - main
     paths:
-      - 'input/**' # Chỉ chạy khi có thay đổi trong thư mục input
+      - 'input/**'
+      - 'scripts/**'
+      - '.github/workflows/**'
+  workflow_dispatch:
 
 jobs:
   run-translation:
