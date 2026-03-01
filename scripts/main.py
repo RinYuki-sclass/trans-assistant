@@ -12,19 +12,19 @@ def run_pipeline():
     # 2. Bước 1: Dịch (Sử dụng Gemini Flash)
     # (Thêm logic prompt và glossary tại đây)
     draft = client.models.generate_content(
-        model='gemini-1.5-flash', 
+        model='gemini-2.0-flash', 
         contents=f"Translate to Vietnamese: {eng_text}"
     ).text
     
     # 3. Bước 2: Review (Sử dụng Gemini Pro)
     report = client.models.generate_content(
-        model='gemini-1.5-pro', 
+        model='gemini-2.0-pro', 
         contents=f"Review this translation: {draft} against {kor_text}"
     ).text
     
     # 4. Bước 3: Refine
     final = client.models.generate_content(
-        model='gemini-1.5-pro', 
+        model='gemini-2.0-pro', 
         contents=f"Fix this translation: {draft} based on this report: {report}"
     ).text
     
