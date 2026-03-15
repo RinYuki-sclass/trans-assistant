@@ -29,7 +29,13 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install google-genai pandas
+          pip install google-genai pandas gspread openpyxl
+          
+      - name: Update Glossary from Google Sheets
+        env:
+          GOOGLE_SERVICE_ACCOUNT: ${{ secrets.GOOGLE_SERVICE_ACCOUNT }}
+          GOOGLE_SHEET_URL: ${{ secrets.GOOGLE_SHEET_URL }}
+        run: python scripts/update_glossary.py
 
       - name: Execute Translation Script
         env:
