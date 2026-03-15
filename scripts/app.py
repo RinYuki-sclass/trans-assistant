@@ -30,6 +30,15 @@ def get_env(key: str, default=None):
     except Exception:
         return os.environ.get(key, default)
 
+def get_windows_sort_key(filename):
+    """Hỗ trợ sort Natural và format copy của Windows: '60.jpg' vs '60 (1).jpg'"""
+    m = re.match(r'^(.*?)(?: \(([0-9]+)\))?(\.[a-zA-Z0-9_]+)?$', filename)
+    if m:
+        base, dup_num, ext = m.groups()
+        base_parts = [int(c) if c.isdigit() else c.lower() for c in re.split(r'(\d+)', base or "")]
+        return base_parts + [int(dup_num) if dup_num else 0, ext or ""]
+    return [filename]
+
 # ============================================================
 # LOGGING SYSTEM  
 # ============================================================
@@ -233,11 +242,15 @@ st.markdown("""
 # API KEY ROTATOR + RPD TRACKER
 # ============================================================
 RPD_COUNTER_FILE = os.path.join(LOGS_DIR, "rpd_counter.json")
-_rpd_lock = threading.Lock()
+@st.cache_resource
+def get_rpd_lock():
+    return threading.Lock()
+
+_rpd_lock = get_rpd_lock()
 
 # RPD limits for each model per API key
 RPD_LIMITS = {
-    "gemini-3.1-flash-lite": 500,
+    "gemini-3.1-flash-lite-preview": 500,
     "gemini-2.5-flash": 20,
     "gemini-3-flash-preview": 20,
     "gemini-2.5-flash-lite": 20,
@@ -273,7 +286,8 @@ def increment_rpd(key_idx: int, model: str):
 
 def get_rpd_counts() -> dict:
     """Return counts dict for today."""
-    return _load_rpd_counter().get('counts', {})
+    with _rpd_lock:
+        return _load_rpd_counter().get('counts', {})
 
 
 class GeminiKeyRotator:
@@ -373,7 +387,7 @@ def generate_with_retry(model, contents, system_instruction, status_w=None, retr
     from google.genai import types
     config = types.GenerateContentConfig(system_instruction=system_instruction, temperature=0.3)
     
-    fallback_model = "gemini-3.1-flash-lite"
+    fallback_model = "gemini-3.1-flash-lite-preview"
     if rotator and rotator.is_exhausted(model) and model != fallback_model:
         if status_w:
             status_w.warning(f"⚠️ `{model}` đã hết RPD trên toàn bộ Key! Tự động fallback về `{fallback_model}`.")
@@ -397,15 +411,15 @@ def generate_with_retry(model, contents, system_instruction, status_w=None, retr
             return ""
         except Exception as e:
             err_str = str(e)
-            if "429" in err_str or "quota" in err_str.lower() or "resource_exhausted" in err_str.lower():
+            if "429" in err_str or "quota" in err_str.lower() or "resource_exhausted" in err_str.lower() or "permission_denied" in err_str.lower() or "403" in err_str:
                 if rotator.total > 1:
-                    new_idx = rotator.rotate(model, reason="429")
+                    new_idx = rotator.rotate(model, reason="429_or_403")
                     if status_w:
-                        status_w.warning(f"⚠️ [{key_label}] Rate limit! Chuyển sang Key {new_idx + 1}... (Lần {i+1}/{retries})")
+                        status_w.warning(f"⚠️ [{key_label}] Rate limit/Lỗi Key! Chuyển sang Key {new_idx + 1}... (Lần {i+1}/{retries})")
                     time.sleep(3)
                 else:
                     if status_w:
-                        status_w.warning(f"⚠️ Rate limit (Quá tải). Chờ 65s... (Lần {i+1}/{retries})")
+                        status_w.warning(f"⚠️ Quá tải API/Lỗi Key. Chờ 65s... (Lần {i+1}/{retries})")
                     time.sleep(65)
                 continue
             elif "payload" in err_str.lower() or "too large" in err_str.lower() or "400" in err_str:
@@ -543,7 +557,7 @@ with st.sidebar:
         "gemini-3-flash-preview": "📝 Dịch Thuật",
         "gemini-2.5-flash": "🔍 QC Review",
         "gemini-2.5-flash-lite": "🎨 Truyện Tranh",
-        "gemini-3.1-flash-lite": "🛡️ Trợ thủ Fallback (500 RPD)"
+        "gemini-3.1-flash-lite-preview": "🛡️ Trợ thủ Fallback (500 RPD)"
     }
     
     st.markdown("**🤖 AI Models / Tự động điều phối**")
@@ -617,7 +631,7 @@ with st.sidebar:
 # ============================================================
 # MAIN TABS
 # ============================================================
-tab_home, tab_trans, tab_qc, tab_diff, tab_sbs, tab_manhwa, tab_glossary = st.tabs(["🏠 Hướng dẫn", "📝 Dịch Thuật", "🔍 QC Review", "📊 So Sánh", "📖 Đối Chiếu", "🎨 Truyện Tranh", "📚 Glossary"])
+tab_home, tab_trans, tab_qc, tab_diff, tab_sbs, tab_manhwa, tab_dl, tab_glossary = st.tabs(["🏠 Hướng dẫn", "📝 Dịch Thuật", "🔍 QC Review", "📊 So Sánh", "📖 Đối Chiếu", "🎨 Truyện Tranh", "📥 Tải Truyện", "📚 Glossary"])
 
 # Log page visit (once per session)
 if 'session_logged' not in st.session_state:
@@ -1153,6 +1167,7 @@ with tab_manhwa:
                 final_sess_name = st.session_state['mh_new_sess_def']
             
             uploaded_files = st.file_uploader("🖼️ Chọn ảnh truyện tranh (JPG, PNG, WEBP)", type=["png", "jpg", "jpeg", "webp"], accept_multiple_files=True)
+            stitch_mh = st.checkbox("🧩 Tự động nối dải ảnh trước khi dịch", value=True, help="Nếu ảnh bị cắt ngắn, ghép chúng lại thành dải dài (Stitching) sẽ giúp AI đọc chuẩn xác không bị đứt câu.")
             
             c1, c2 = st.columns([1, 1])
             with c1:
@@ -1165,21 +1180,92 @@ with tab_manhwa:
                 log_action("Truyện Tranh", f"Ảnh: {len(uploaded_files)} | Session: {final_sess_name} | Model: AUTO")
                 import PIL.Image
                 
+                # --- STITCHING PRE-PROCESSING ---
+                files_to_process = []
+                if stitch_mh and len(uploaded_files) > 1:
+                    status_stitch = st.status("🧩 Đang phân tích và ghép nối ảnh...", expanded=True)
+                    # Sắp xếp thứ tự tự nhiên (Natural Sort) + xử lý Windows Duplicate (VD: ảnh (1) xếp sau ảnh gốc)
+                    uploaded_files = sorted(uploaded_files, key=lambda x: get_windows_sort_key(x.name))
+                    images = []
+                    for uf in uploaded_files:
+                        try:
+                            im = PIL.Image.open(uf).convert('RGB')
+                            images.append((uf.name, im))
+                        except Exception:
+                            pass
+                    
+                    if images:
+                        stitched_chunks = []
+                        current_chunk = []
+                        current_h = 0
+                        current_w = 0
+                        MAX_HEIGHT = 15000
+                        
+                        for f, img in images:
+                            if current_h + img.height > MAX_HEIGHT and current_chunk:
+                                stitched_chunks.append((current_chunk, current_w, current_h))
+                                current_chunk = [(f, img)]
+                                current_h = img.height
+                                current_w = img.width
+                            else:
+                                current_chunk.append((f, img))
+                                current_h += img.height
+                                current_w = max(current_w, img.width)
+                                
+                        if current_chunk:
+                            stitched_chunks.append((current_chunk, current_w, current_h))
+                            
+                        class StitchedImg:
+                            def __init__(self, name, img):
+                                self.name = name
+                                self.img = img
+                                
+                        for i, (chunk, w, h) in enumerate(stitched_chunks):
+                            canvas = PIL.Image.new('RGB', (w, h), (255, 255, 255))
+                            y_offset = 0
+                            for f, img in chunk:
+                                x_offset = (w - img.width) // 2
+                                canvas.paste(img, (x_offset, y_offset))
+                                y_offset += img.height
+                            
+                            fname = f"stitched_{i+1:03d}.jpg"
+                            files_to_process.append(StitchedImg(fname, canvas))
+                        
+                        status_stitch.update(label=f"✅ Nối ảnh xong! (Ghép thành {len(files_to_process)} dải dài)", state="complete")
+                
+                if not files_to_process:
+                    class RawImg:
+                        def __init__(self, name, uf):
+                            self.name = name
+                            self.img = PIL.Image.open(uf).convert('RGB')
+                    files_to_process = [RawImg(uf.name, uf) for uf in uploaded_files]
+                # --- TẠO THƯ MỤC VÀ LƯU ẢNH TRƯỚC ĐỂ BACKUP ---
+                sess_dir = os.path.join(mh_hist_dir, final_sess_name)
+                sess_img_dir = os.path.join(sess_dir, 'images')
+                os.makedirs(sess_img_dir, exist_ok=True)
+                
+                for fo in files_to_process:
+                    save_path = os.path.join(sess_img_dir, fo.name)
+                    if not os.path.exists(save_path):
+                        fo.img.save(save_path, quality=90)
+                
                 glossary = load_file(PATHS['glossary'])
                 notes = load_file(PATHS['notes'])
                 
-                status = st.status(f"🚀 Đang xử lý {len(uploaded_files)} ảnh...", expanded=True)
+                status = st.status(f"🚀 Đang xử lý {len(files_to_process)} ảnh/dải...", expanded=True)
                 bar = st.progress(0)
                 
                 all_results = []
                 t0 = time.time()
+                consecutive_errors = 0
                 
-                for i, file in enumerate(uploaded_files):
-                    bar.progress(i / len(uploaded_files), f"Đang quét ảnh {i+1}/{len(uploaded_files)}...")
-                    status.write(f"🖼️ Đang quét ảnh: `{file.name}`")
+                for i, file_obj in enumerate(files_to_process):
+                    fname = file_obj.name
+                    bar.progress(i / len(files_to_process), f"Đang quét ảnh {i+1}/{len(files_to_process)}...")
+                    status.write(f"🖼️ Đang quét ảnh: `{fname}`")
                     
                     try:
-                        img = PIL.Image.open(file)
+                        img = file_obj.img
                         # Tối ưu kích thước và dung lượng ảnh trước khi gửi
                         optimized_img = optimize_image_for_api(img)
                         
@@ -1201,32 +1287,36 @@ with tab_manhwa:
                         res = generate_with_retry(target_model, contents, sys_m, status)
                         
                         if res and res.strip():
-                            all_results.append(f"### 📄 ẢNH: {file.name}\n\n{res}\n")
-                        status.write(f"   ✅ Xong `{file.name}`")
-                        # Gemini 2.5 Flash free has 5 RPM, so sleep slightly longer to pace it if needed, 
-                        # but if it hits 429 it will backoff 65s anyway. Let's set 15s to be safe.
-                        time.sleep(15) 
+                            all_results.append(f"### 📄 ẢNH: {fname}\n\n{res}\n")
+                            consecutive_errors = 0
+                            status.write(f"   ✅ Xong `{fname}`")
+                            # Incremental progress save
+                            save_file(os.path.join(sess_dir, "script.txt"), "\n\n".join(all_results))
+                            time.sleep(15) 
+                        else:
+                            consecutive_errors += 1
+                            all_results.append(f"### 📄 ẢNH: {fname}\n\n[LỖI HOẶC HẾT TOKEN]\n")
+                            status.write(f"   ⚠️ Thất bại `{fname}`")
+                            save_file(os.path.join(sess_dir, "script.txt"), "\n\n".join(all_results))
+                            
+                            if consecutive_errors >= 2:
+                                status.error("🚨 Quá trình dịch liên tục thất bại do Rate Limit hoặc lỗi API! Dừng sớm để bảo toàn dữ liệu.")
+                                break
                     except Exception as e:
-                        status.write(f"   ❌ Lỗi `{file.name}`: {e}")
-                
-                # Save original images to disk for state persistence
-                sess_dir = os.path.join(mh_hist_dir, final_sess_name)
-                sess_img_dir = os.path.join(sess_dir, 'images')
-                os.makedirs(sess_img_dir, exist_ok=True)
-                
-                for file in uploaded_files:
-                    file.seek(0)
-                    with open(os.path.join(sess_img_dir, file.name), 'wb') as f:
-                        f.write(file.getbuffer())
+                        consecutive_errors += 1
+                        all_results.append(f"### 📄 ẢNH: {fname}\n\n[LỖI HỆ THỐNG: {e}]\n")
+                        status.write(f"   ❌ Lỗi `{fname}`: {e}")
+                        save_file(os.path.join(sess_dir, "script.txt"), "\n\n".join(all_results))
                         
-                bar.progress(1.0, "✅ Xong tất cả!")
-                status.update(label=f"✅ Đã quét xong trong {time.time()-t0:.0f}s!", state="complete")
+                        if consecutive_errors >= 2:
+                            status.error("🚨 Quá trình dịch liên tục thất bại do lỗi phần mềm! Dừng sớm để bảo toàn dữ liệu.")
+                            break
+                        
+                bar.progress(1.0, "✅ Hoàn tất tiến trình hiện tại!")
+                status.update(label=f"✅ Kết thúc quá trình quét (Save Backup) trong {time.time()-t0:.0f}s", state="complete")
                 
-                final_res = "\n\n".join(all_results)
-                save_file(os.path.join(sess_dir, "script.txt"), final_res)
                 st.balloons()
                 st.session_state['current_mh_sess'] = final_sess_name
-                # Reset the default name for the NEXT "new session" attempt
                 if 'mh_new_sess_def' in st.session_state: del st.session_state['mh_new_sess_def']
                 st.rerun()
             
@@ -1287,7 +1377,135 @@ with tab_manhwa:
             else:
                 st.error("Không tìm thấy thư mục ảnh cho phiên bản này.")
 
-# =================== TAB 6: GLOSSARY ===================
+# =================== TAB 6: TẢI TRUYỆN ===================
+with tab_dl:
+    st.markdown("#### 📥 Tải ảnh truyện tranh hàng loạt")
+    st.caption("Công cụ này sử dụng `gallery-dl` để tự động cào ảnh gốc từ các trang truyện (Naver, Kakao, Webtoons...) về rồi nén thành file ZIP cho bạn.")
+    
+    dl_url = st.text_input("🔗 Nhập Link Truyện (URL):", placeholder="https://comic.naver.com/webtoon/detail?titleId=...")
+    stitch_images = st.checkbox("🧩 Tự động nối các dải ảnh bị cắt đứt (Stitching)", value=True, help="Ghép nối liền mạch các ảnh bị cắt ngắn (VD: Webtoon) thành 1 dải ảnh dài. Giới hạn 15,000px cấu hình mỗi file ảnh để tránh quá khổ cho AI và trình xem.")
+    
+    c1, c2 = st.columns([1, 1])
+    with c1:
+        submit_dl = st.button("🚀 Bắt đầu Tải & Nén", type="primary", use_container_width=True)
+        
+    if submit_dl:
+        if not dl_url.strip():
+            st.error("❌ Link không được bỏ trống!")
+        else:
+            log_action("Tải Truyện", f"URL: {dl_url[:40]}...")
+            import tempfile, subprocess
+            
+            with st.spinner("⏳ Đang cào ảnh từ Web... Xin vui lòng đợi, quá trình này có thể mất vài phút! (Không F5 hay đóng trang)"):
+                tmp_dir = tempfile.mkdtemp()
+                zip_path = os.path.join(tempfile.gettempdir(), f"manhwa_{int(time.time())}")
+                try:
+                    # Execute gallery-dl module
+                    res = subprocess.run([sys.executable, "-m", "gallery_dl", "--directory", tmp_dir, dl_url], capture_output=True, text=True)
+                    
+                    # Optional stitching logic
+                    if stitch_images:
+                        import PIL.Image
+                        for root, dirs, files in os.walk(tmp_dir):
+                            img_files = [f for f in files if f.lower().endswith(('.png', '.jpg', '.jpeg', '.webp', '.gif'))]
+                            if not img_files:
+                                continue
+                            
+                            # Sort properly using natural sorting + Windows Duplicate handling
+                            img_files.sort(key=get_windows_sort_key)
+                            
+                            images = []
+                            for f in img_files:
+                                try:
+                                    img = PIL.Image.open(os.path.join(root, f))
+                                    if img.mode != 'RGB':
+                                        img = img.convert('RGB')
+                                    images.append((f, img))
+                                except Exception:
+                                    pass
+                            
+                            if not images:
+                                continue
+                            
+                            stitched_chunks = []
+                            current_chunk = []
+                            current_h = 0
+                            current_w = 0
+                            MAX_HEIGHT = 15000
+                            
+                            for f, img in images:
+                                if current_h + img.height > MAX_HEIGHT and current_chunk:
+                                    stitched_chunks.append((current_chunk, current_w, current_h))
+                                    current_chunk = [(f, img)]
+                                    current_h = img.height
+                                    current_w = img.width
+                                else:
+                                    current_chunk.append((f, img))
+                                    current_h += img.height
+                                    current_w = max(current_w, img.width)
+                                    
+                            if current_chunk:
+                                stitched_chunks.append((current_chunk, current_w, current_h))
+                                
+                            # Create new images and delete old ones
+                            for i, (chunk, w, h) in enumerate(stitched_chunks):
+                                canvas = PIL.Image.new('RGB', (w, h), (255, 255, 255))
+                                y_offset = 0
+                                for f, img in chunk:
+                                    x_offset = (w - img.width) // 2  # Center align
+                                    canvas.paste(img, (x_offset, y_offset))
+                                    y_offset += img.height
+                                
+                                save_path = os.path.join(root, f"stitched_{i+1:03d}.jpg")
+                                canvas.save(save_path, 'JPEG', quality=90)
+                                
+                            for f, img in images:
+                                img.close()
+                                try:
+                                    os.remove(os.path.join(root, f))
+                                except Exception:
+                                    pass
+
+                    # Count downloaded/stitched images
+                    total_files = 0
+                    for root, dirs, files in os.walk(tmp_dir):
+                        total_files += len([f for f in files if f.lower().endswith(('.png', '.jpg', '.jpeg', '.webp', '.gif'))])
+                        
+                    if total_files > 0:
+                        st.success(f"✅ Đã tải về thành công **{total_files}** ảnh. Đang nén thành Zip...")
+                        
+                        # Zip the directory
+                        shutil.make_archive(zip_path, 'zip', tmp_dir)
+                        
+                        with open(f"{zip_path}.zip", "rb") as f:
+                            zip_data = f.read()
+                            
+                        mb_size = f"{len(zip_data) / (1024 * 1024):.2f}"
+                        st.download_button(
+                            label=f"⬇️ TẢI FILE ZIP ({mb_size} MB)",
+                            data=zip_data,
+                            file_name=f"truyen_{int(time.time())}.zip",
+                            mime="application/zip",
+                            type="primary",
+                            use_container_width=True
+                        )
+                    else:
+                        st.error("❌ Không tải được ảnh nào. Có thể trang web này không được hỗ trợ hoặc cần đăng nhập (Trả phí).")
+                        if res.stderr or res.stdout:
+                            with st.expander("Xem bảng log hệ thống"):
+                                st.code(res.stderr + "\n" + res.stdout)
+                                
+                except Exception as e:
+                    st.error(f"❌ Có lỗi hệ thống bất ngờ xảy ra: {e}")
+                finally:
+                    # Cleanup generated files from server disk
+                    shutil.rmtree(tmp_dir, ignore_errors=True)
+                    try:
+                        os.remove(f"{zip_path}.zip")
+                    except Exception:
+                        pass
+
+# =================== TAB 7: GLOSSARY ===================
 with tab_glossary:
     st.markdown("#### 📚 Quản lý Glossary")
 
