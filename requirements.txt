@@ -1,0 +1,6 @@
+google-genai
+python-dotenv
+gspread
+pandas
+streamlit
+extra-streamlit-components
