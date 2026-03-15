@@ -32,10 +32,6 @@ Tạo file `.env` tại thư mục gốc (ngang hàng `README.md`) với format 
 GEMINI_API_KEY_1=your_api_key_1_here
 GEMINI_API_KEY_2=your_api_key_2_here
 
-# Giới hạn Request mỗi ngày cho mỗi Key (Auto Rotate khi chạm ngưỡng)
-GEMINI_RPD_KEY_1=1500
-GEMINI_RPD_KEY_2=1500
-
 # Ẩn nút chọn "Dữ liệu từ File" (chỉ cho phép Copy Paste) trên Web
 HIDE_LOCAL_FILE_OPTION=False
 ```
@@ -58,10 +54,7 @@ streamlit run scripts/app.py
 5. Trong cấu hình App trên Streamlit Dashboard, chọn **Settings** > **Secrets**. Dán cấu hình hệ thống bằng định dạng TOML:
    ```toml
    GEMINI_API_KEY_1="your_api_key_1_here"
-   GEMINI_RPD_KEY_1="1500"
-
    GEMINI_API_KEY_2="your_api_key_2_here"
-   GEMINI_RPD_KEY_2="1500"
 
    # Khi Host public cho Team, bật True để ép mọi người dùng chế độ Copy-Paste
    HIDE_LOCAL_FILE_OPTION="True"
