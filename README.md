@@ -1,59 +1,76 @@
-# AI Novel Translation Tool (Trans-Tool)
+# AI Novel Translation Tool (Trans-Tool) Web
 
-Công cụ hỗ trợ dịch thuật tiểu thuyết tự động sử dụng Google Gemini AI, tối ưu cho việc dịch từ tiếng Anh/Hàn sang tiếng Việt với hệ thống quản lý Thuật ngữ (Glossary) và Kiểm soát chất lượng (QC).
+Công cụ hỗ trợ dịch thuật tiểu thuyết tự động sử dụng sức mạnh của **Google Gemini AI**, được thiết kế thông minh với giao diện Web (Streamlit) để hoạt động hiệu quả cho làm việc nhóm. 
 
-## 🚀 Tính năng chính
-- **Dịch thuật 2 bước (Translate & Refine):** Dịch thô từ tiếng Anh, sau đó đối chiếu với bản gốc tiếng Hàn để tinh chỉnh câu từ.
-- **Quản lý Glossary:** Đảm bảo nhất quán tên nhân vật và thuật ngữ.
-- **Personal Notes:** Ưu tiên các điều chỉnh cá nhân (ví dụ: đổi tên nhân vật, cách xưng hô cụ thể).
-- **Hệ thống QC Review:** Tự động phát hiện lỗi dịch thuật, sai thuật ngữ hoặc thiếu sót so với bản gốc.
+Tối ưu cho việc dịch truyện chữ (từ tiếng Anh/Hàn) và truyện tranh (Manhwa) sang tiếng Việt, tích hợp hệ thống quản lý Thuật ngữ (Glossary) và Kiểm soát chất lượng (QC) nghiêm ngặt.
 
 ---
 
-## 🛠 Cấu hình hệ thống
+## 🚀 Tính năng nổi bật
+- **Dịch thuật 2 bước (Translate & Refine):** Nhận song song English & Korean để dịch và tinh chỉnh văn phong, cực kỳ chuẩn xác.
+- **Dịch Truyện Tranh (Manhwa OCR):** Quét bong bóng thoại từ hình ảnh, tự động dịch và trả về văn bản sắp xếp theo luồng đọc.
+- **Hệ thống QC Review:** AI tự check lỗi dịch thuật, sai Glossary, hoặc thiếu sót so với bản gốc. Tự động gợi ý Thuật ngữ mới.
+- **Trình Đối Chiếu (Side-by-Side):** Giao diện tương tác cho phép xem bản dịch song song với bản gốc và chỉnh sửa/lưu trực tiếp.
+- **Auto Model & Fallback (Thông minh):** Tự động điều phối các Model AI chuyên biệt (`gemini-3-flash-preview` cho Dịch, `gemini-2.5-flash` cho QC) và tự động Fallback về `gemini-3.1-flash-lite` (500 RPD) khi hết hạn mức để không cản trở công việc.
+- **Quản lý đa API Keys (Anti-Rate Limit):** Hỗ trợ khai báo tới 20 API Keys. Tự động chuyển Key khi một Key chạm mức RPD (Requests Per Day).
 
-### 1. Yêu cầu phần mềm
-- Đã cài đặt [Python 3.9+](https://www.python.org/downloads/).
-- Cài đặt thư viện cần thiết:
+---
+
+## 🛠 Cài đặt & Khởi chạy (Dành cho máy Local)
+
+### 1. Yêu cầu hệ thống
+- Cài đặt [Python 3.9+](https://www.python.org/downloads/).
+- Khởi chạy Terminal/CMD tại thư mục dự án và cài đặt thư viện:
   ```bash
-  pip install google-genai
+  pip install -r requirements.txt
   ```
 
-### 2. Cấu hình API Key
-Mở file `scripts/main.py` và `scripts/qc_review.py`, tìm dòng:
-```python
-local_key = "AIzaSy..." # Thay bằng API Key Gemini của bạn
+### 2. Cấu hình file `.env`
+Tạo file `.env` tại thư mục gốc (ngang hàng `README.md`) với format sau:
+```env
+# Mật khẩu API của bạn
+GEMINI_API_KEY_1=your_api_key_1_here
+GEMINI_API_KEY_2=your_api_key_2_here
+
+# Giới hạn Request mỗi ngày cho mỗi Key (Auto Rotate khi chạm ngưỡng)
+GEMINI_RPD_KEY_1=1500
+GEMINI_RPD_KEY_2=1500
+
+# Ẩn nút chọn "Dữ liệu từ File" (chỉ cho phép Copy Paste) trên Web
+HIDE_LOCAL_FILE_OPTION=False
 ```
-*Lưu ý: Bạn nên sử dụng Environment Variable `GEMINI_API_KEY` để bảo mật tốt hơn.*
+
+### 3. Chạy Website
+Gõ lệnh này vào Terminal để mở Web App:
+```bash
+streamlit run scripts/app.py
+```
 
 ---
 
-## 📖 Hướng dẫn sử dụng
+## 🌐 Hướng dẫn Host Website lên Streamlit Cloud (Miễn phí cho Team)
 
-### 1. Dịch thuật chương mới
-1. Copy nội dung tiếng Anh vào: `input/trans/eng.txt`
-2. Copy nội dung tiếng Hàn vào: `input/trans/kor.txt`
-3. Cập nhật thuật ngữ mới (nếu có) vào: `glossary/glossary.md` hoặc `glossary/personal_notes.md`
-4. Chạy file: **`CHAY_DICH_THUAT.bat`**
-5. Kết quả sẽ xuất hiện tại: `output/vi_final.txt`
+1. Push toàn bộ mã nguồn này lên một kho lưu trữ Github (Private/Public đều được).
+   > **Lưu ý:** KHÔNG push file `.env`. File này đã được đưa vào `.gitignore`.
+2. Truy cập [Streamlit Community Cloud](https://share.streamlit.io/), đăng nhập và liên kết với Github.
+3. Tạo New App -> Chọn repository của bạn -> Đặt `Main file path` là `scripts/app.py`.
+4. Nhấn **Deploy**.
+5. Trong cấu hình App trên Streamlit Dashboard, chọn **Settings** > **Secrets**. Dán cấu hình hệ thống bằng định dạng TOML:
+   ```toml
+   GEMINI_API_KEY_1="your_api_key_1_here"
+   GEMINI_RPD_KEY_1="1500"
 
-### 2. Kiểm tra chất lượng (QC)
-1. Copy bản dịch tiếng Việt cần kiểm tra vào: `input/qc/vi_to_qc.txt`
-2. Copy bản gốc tiếng Hàn vào: `input/qc/kor.txt`
-3. (Tùy chọn) Copy bản tiếng Anh tham chiếu vào: `input/qc/eng.txt`
-4. Chạy file: **`CHAY_KIEM_TRA_QC.bat`**
-5. Xem báo cáo lỗi tại: `output/qc_report.txt`
+   GEMINI_API_KEY_2="your_api_key_2_here"
+   GEMINI_RPD_KEY_2="1500"
 
----
-
-## 📂 Cấu trúc thư mục quan trọng
-- `/glossary`: Chứa file thuật ngữ (`glossary.md`) và ghi chú cá nhân (`personal_notes.md`).
-- `/input`: Nơi chứa dữ liệu đầu vào cho Dịch (`/trans`) và QC (`/qc`).
-- `/output`: Nơi chứa kết quả sau khi xử lý.
-- `/scripts`: Chứa các mã nguồn Python xử lý logic.
+   # Khi Host public cho Team, bật True để ép mọi người dùng chế độ Copy-Paste
+   HIDE_LOCAL_FILE_OPTION="True"
+   ```
+6. Bấm Save. Vậy là team bạn đã có một công cụ xịn sò, dùng chung dung lượng Rate Limit hiển thị mượt mà trên UI.
 
 ---
 
-## ⚠️ Lưu ý quan trọng về định dạng
-- **Hậu tố tên nhân vật:** Hệ thống được cấu hình để GIỮ NGUYÊN các hậu tố như `-ie, -ah, -ya` chỉ khi bản gốc có. AI sẽ không tự ý thêm vào.
-- **Hội thoại:** AI sẽ bám sát cấu trúc của tác giả, không tự động thêm các câu dẫn như "Park Yerim nói" trừ khi bản gốc có sẵn.
+## 📂 Cách cấu hình Từ Điển (Glossary)
+Từ điển (Glossary) dùng chung cực kỳ quan trọng, là "não bộ" của con AI.
+* `glossary.md`: Lưu định nghĩa Nhân vật, Phái, Tuyệt chiêu, Địa danh... Định dạng bảng hướng dẫn chi tiết nằm bên trong.
+* `personal_notes.md`: Nơi Lead quy định cách xưng hô đặc biệt hoặc văn phong bắt buộc (VD: Không được chêm quá nhiều từ Hán Việt, Xưng hô Anh - Em...).
