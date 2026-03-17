@@ -82,13 +82,29 @@ def update_glossary():
                         f.write("### Dai tu khi ke chuyen (Ngoi thu 3):\n")
                         f.write(", ".join(narration_pronouns) + "\n\n")
 
-                    f.write("### Cach goi nhau trong doi thoai (Ngoi 1 goi Ngoi 2):\n")
+                    f.write("### Cách gọi nhau trong đối thoại (Ngôi 1 gọi Ngôi 2):\n")
                     for speaker in df_xh.index:
                         for listener in df_xh.columns:
-                            if speaker == listener: continue # Da xu ly o tren
-                            call_name = df_xh.loc[speaker, listener]
-                            if call_name and str(call_name).strip() and call_name != '-':
-                                f.write(f"- {speaker} goi {listener} la: \"{call_name}\"\n")
+                            if speaker == listener: continue  # Da xu ly o tren
+                            call_name = str(df_xh.loc[speaker, listener]).strip()
+                            if call_name and call_name != '-' and call_name.lower() != 'nan':
+                                # Xu ly format "A - B" hoac "A-B" -> "xung A goi B"
+                                lines_raw = call_name.split('\n')
+                                processed_lines = []
+                                for ln in lines_raw:
+                                    ln = ln.strip()
+                                    if not ln:
+                                        continue
+                                    if ' - ' in ln:
+                                        parts = ln.split(' - ', 1)
+                                        processed_lines.append(f"xưng {parts[0].strip()} gọi {parts[1].strip()}")
+                                    elif '-' in ln:
+                                        parts = ln.split('-', 1)
+                                        processed_lines.append(f"xưng {parts[0].strip()} gọi {parts[1].strip()}")
+                                    else:
+                                        processed_lines.append(ln)
+                                final_call = ", ".join(processed_lines)
+                                f.write(f"- {speaker} gọi {listener} là: {final_call}\n")
                     f.write("\n")
                 except Exception as e: print(f"Loi sheet Xung ho: {e}")
 
