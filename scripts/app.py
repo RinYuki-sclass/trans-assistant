@@ -254,8 +254,14 @@ st.markdown("""
     [data-baseweb="tab-panel"],
     .main .block-container {
         overflow: visible !important;
+    /* Ngăn chặn chớp/mờ nháy khi click trên Streamlit (vô hiệu hóa Stale Dimming) */
+    [data-testid="stApp"] [data-stale="true"],
+    [data-stale="true"],
+    iframe {
+        opacity: 1 !important;
+        filter: none !important;
+        transition: none !important;
     }
-</style>
 </style>
 """, unsafe_allow_html=True)
 
@@ -648,7 +654,7 @@ with st.sidebar:
 # ============================================================
 # MAIN NAVIGATION (Persistent on F5)
 # ============================================================
-MENU_ITEMS = ["🏠 Hướng dẫn", "📝 Dịch Thuật", "🔍 QC Review", "📊 So Sánh", "📖 Đối Chiếu", "🎨 Truyện Tranh", "📥 Tải Truyện", "📚 Glossary"]
+MENU_ITEMS = ["🏠 Hướng dẫn", "📝 Dịch Thuật", "🔍 QC Review", "📊 So Sánh", "📖 Đối Chiếu", "🎨 Truyện Tranh", "📥 Tải Truyện", "📚 Glossary", "✂️ Cắt Ảnh"]
 
 tabs = st.tabs(MENU_ITEMS)
 current_menu = None # Not used
@@ -1670,3 +1676,153 @@ with tabs[7]:
                 else:
                     st.error("❌ Lỗi đồng bộ!")
                     st.code(result.stderr)
+
+# =================== TAB 8: CẮT ẢNH ===================
+with tabs[8]:
+    st.markdown("#### ✂️ Cắt Ảnh Dạng Strip (Giao diện Web)")
+    st.caption("Công cụ được tích hợp trực tiếp trên Web. Bạn chỉ cần tải ảnh lên và dùng chuột click vào ảnh để đánh dấu nét cắt.")
+    
+    try:
+        from streamlit_image_coordinates import streamlit_image_coordinates
+        import PIL.Image
+        from PIL import ImageDraw
+    except ImportError:
+        st.error("❌ Thiếu thư viện giao diện nâng cao.")
+        st.info("Mở Terminal và gõ lệnh sau để cài nhé:\n`pip install streamlit-image-coordinates Pillow`")
+        st.stop()
+        
+    upl_img = st.file_uploader("🖼️ Chọn ảnh manhwa dài để cắt", type=["png", "jpg", "jpeg", "webp"], key="cutter_uploader")
+    
+    if upl_img:
+        # State tracking points
+        if 'cut_points' not in st.session_state or st.session_state.get('last_upl_img') != upl_img.name:
+            st.session_state['cut_points'] = []
+            st.session_state['last_upl_img'] = upl_img.name
+            
+            # NÉN ẢNH ĐỂ HIỂN THỊ (Tránh làm lag giao diện Web)
+            # Chỉ nén giảm chất lượng (quality=30) nhưng giữ nguyên 100% kích thước tọa độ
+            sys_img = PIL.Image.open(upl_img)
+            if sys_img.mode != 'RGB':
+                sys_img = sys_img.convert('RGB')
+                
+            import io
+            buf = io.BytesIO()
+            sys_img.save(buf, format="JPEG", quality=30, optimize=True)
+            buf.seek(0)
+            st.session_state['disp_img_cache'] = PIL.Image.open(buf)
+            
+        original_img = PIL.Image.open(upl_img)
+        if original_img.mode != 'RGB':
+            original_img = original_img.convert('RGB')
+            
+        c1, c2 = st.columns([2, 1])
+        
+        with c2:
+            st.markdown("### 🎛️ Bảng Điều Khiển")
+            
+            cb1, cb2 = st.columns(2)
+            with cb1:
+                if st.button("⏪ Hoàn tác", use_container_width=True):
+                    if st.session_state['cut_points']:
+                        st.session_state['cut_points'].pop()
+                        st.rerun()
+            with cb2:
+                if st.button("🗑️ Xóa sạch", use_container_width=True):
+                    st.session_state['cut_points'] = []
+                    st.rerun()
+                    
+            st.write(f"📍 Đang có: **{len(st.session_state['cut_points'])} điểm cắt**")
+            # Hiển thị list vị trí cắt để User có cơ sở kiểm chứng
+            if st.session_state['cut_points']:
+                st.code(", ".join([str(y) for y in st.session_state['cut_points']]))
+            
+            st.divider()
+            if st.button("✂️ XÁC NHẬN CẮT VÀ LƯU", type="primary", use_container_width=True):
+                if not st.session_state['cut_points']:
+                    st.warning("⚠️ Bạn chưa click chọn điểm cắt nào trên ảnh!")
+                else:
+                    base_name = os.path.splitext(upl_img.name)[0]
+                    ext = os.path.splitext(upl_img.name)[1]
+                    
+                    # Lưu trong output/<tên-ảnh>_cut
+                    out_dir = os.path.join(BASE_DIR, 'output', f"{base_name}_cut")
+                    os.makedirs(out_dir, exist_ok=True)
+                    
+                    w, h = original_img.size
+                    pts = [0] + sorted(st.session_state['cut_points']) + [h]
+                    part_num = 1
+                    
+                    for i in range(len(pts) - 1):
+                        y1, y2 = pts[i], pts[i+1]
+                        if y2 <= y1: continue
+                        
+                        box = (0, y1, w, y2)
+                        cropped = original_img.crop(box)
+                        
+                        out_path = os.path.join(out_dir, f"{base_name}_{part_num:03d}{ext}")
+                        if ext.lower() in ['.jpg', '.jpeg']:
+                            cropped.save(out_path, quality=100, subsampling=0)
+                        elif ext.lower() in ['.webp']:
+                            cropped.save(out_path, quality=100, lossless=True)
+                        else:
+                            cropped.save(out_path)
+                            
+                        part_num += 1
+                        
+                    st.success(f"🎉 Thành công! Đã cắt thành **{part_num-1}** mảnh.")
+                    st.info(f"📂 Đã lưu tại thư mục nội bộ:\n`{out_dir}`")
+                    
+                    # Tạo file ZIP để User tải về máy luôn
+                    import shutil
+                    zip_name = f"{base_name}_cut_package"
+                    zip_path = os.path.join(BASE_DIR, 'output', zip_name)
+                    shutil.make_archive(zip_path, 'zip', out_dir)
+                    
+                    with open(f"{zip_path}.zip", "rb") as f:
+                        st.download_button(
+                            label="⬇️ TẢI FILE ZIP CÁC PHẦN ĐÃ CẮT",
+                            data=f.read(),
+                            file_name=f"{zip_name}.zip",
+                            mime="application/zip",
+                            type="primary",
+                            use_container_width=True
+                        )
+                    st.balloons()
+            
+            # Hiển thị list Preview các mảnh đã cắt nếu có
+            base_name_preview = os.path.splitext(upl_img.name)[0]
+            preview_dir = os.path.join(BASE_DIR, 'output', f"{base_name_preview}_cut")
+            if os.path.exists(preview_dir):
+                with st.expander("👁️ Xem trước các mảnh đã cắt"):
+                    files = sorted([f for f in os.listdir(preview_dir) if f.lower().endswith(('.png', '.jpg', '.jpeg', '.webp'))])
+                    for f in files:
+                        st.image(os.path.join(preview_dir, f), caption=f)
+            
+        with c1:
+            st.caption("👈 Trỏ chuột và click vào ảnh để thấy đường vạch đỏ đánh dấu.")
+            
+            # Khôi phục tính năng vẽ vệt đỏ:
+            # Vì ảnh hiển thị st.session_state['disp_img_cache'] đã bị nén xuống siêu nhẹ nên việc thêm vệt đỏ
+            # và load lại sẽ diễn ra chớp nhoáng (không còn làm đơ nghẽn cả web như ảnh vài MB nữa).
+            
+            from PIL import ImageDraw
+            disp_img = st.session_state['disp_img_cache'].copy()
+            draw = ImageDraw.Draw(disp_img)
+            
+            for y_pt in st.session_state['cut_points']:
+                # Vẽ khối line màu xuyên biên giới bằng nhảy pixel
+                draw.line([(0, y_pt), (disp_img.width, y_pt)], fill="red", width=12)
+                
+            # Đổi key theo số lượng mảng để Component chịu vẽ lại hình mới
+            value = streamlit_image_coordinates(
+                disp_img, 
+                key=f"img_cutter_stable_{len(st.session_state['cut_points'])}"
+            )
+            
+            if value is not None:
+                clicked_y = value['y']
+                # Kiểm tra tránh trùng điểm
+                if clicked_y not in st.session_state['cut_points']:
+                    st.session_state['cut_points'].append(clicked_y)
+                    st.session_state['cut_points'].sort()
+                    st.rerun()
