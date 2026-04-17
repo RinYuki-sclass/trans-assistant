@@ -277,10 +277,11 @@ _rpd_lock = get_rpd_lock()
 
 # RPD limits for each model per API key
 RPD_LIMITS = {
-    "gemini-3.1-flash-lite-preview": 500,
-    "gemini-2.5-flash": 20,
-    "gemini-3-flash-preview": 20,
-    "gemini-2.5-flash-lite": 20,
+    "gemini-2.5-flash": 1500,     
+    "gemini-2.5-pro": 50,         
+    "gemini-2.0-flash": 1500,     
+    "gemini-3.1-flash-lite-preview": 2000, 
+    "gemini-2.5-flash-lite": 2000, # Dự phòng cấp 1
 }
 
 def _load_rpd_counter() -> dict:
@@ -323,6 +324,7 @@ class GeminiKeyRotator:
         self._clients = clients
         self._idx = 0
         self._lock = threading.Lock()
+        self._blacklisted = set() # Store indices of permanently failed keys (e.g. leaked)
 
     @property
     def current(self):
@@ -343,16 +345,21 @@ class GeminiKeyRotator:
         return used >= lim * threshold
 
     def rotate(self, model: str, reason: str = ""):
-        """Rotate to next key. Skips keys near RPD limit for this model if alternatives exist."""
+        """Rotate to next key. Skips keys near RPD limit or blacklisted."""
         with self._lock:
             original = self._idx
             for _ in range(self.total):
                 self._idx = (self._idx + 1) % self.total
-                if not self.is_near_limit(self._idx, model):
+                if self._idx not in self._blacklisted and not self.is_near_limit(self._idx, model):
                     break
                 if self._idx == original:
-                    break  # all exhausted, stay
+                    break  # all exhausted or blacklisted, stay
         return self._idx
+        
+    def blacklist(self, idx: int):
+        """Permanently disable a key for this session (e.g. 403 Leaked)."""
+        with self._lock:
+            self._blacklisted.add(idx)
 
     def is_exhausted(self, model: str, threshold: float = 0.95) -> bool:
         """True if ALL keys have reached their RPD limit for this model."""
@@ -412,16 +419,34 @@ def save_file(path, content):
 
 def generate_with_retry(model, contents, system_instruction, status_w=None, retries=8):
     from google.genai import types
-    config = types.GenerateContentConfig(system_instruction=system_instruction, temperature=0.3)
     
-    fallback_model = "gemini-3.1-flash-lite-preview"
-    if rotator and rotator.is_exhausted(model) and model != fallback_model:
-        if status_w:
-            status_w.warning(f"⚠️ `{model}` đã hết RPD trên toàn bộ Key! Tự động fallback về `{fallback_model}`.")
-        model = fallback_model
+    # Cấu hình bỏ qua bộ lọc an toàn để tránh bị AI từ chối dịch truyện tranh
+    safety_settings = [
+        types.SafetySetting(category="HARM_CATEGORY_HARASSMENT", threshold="BLOCK_NONE"),
+        types.SafetySetting(category="HARM_CATEGORY_HATE_SPEECH", threshold="BLOCK_NONE"),
+        types.SafetySetting(category="HARM_CATEGORY_SEXUALLY_EXPLICIT", threshold="BLOCK_NONE"),
+        types.SafetySetting(category="HARM_CATEGORY_DANGEROUS_CONTENT", threshold="BLOCK_NONE"),
+    ]
+    
+    config = types.GenerateContentConfig(
+        system_instruction=system_instruction, 
+        temperature=0.3,
+        safety_settings=safety_settings
+    )
+    
+    # Chuỗi dự phòng thông minh
+    fallback_1 = "gemini-2.5-flash-lite"
+    fallback_2 = "gemini-2.0-flash"
+    
+    if rotator and rotator.is_exhausted(model):
+        if model == "gemini-3.1-flash-lite-preview":
+            if status_w: status_w.warning(f"⚠️ `{model}` hết lượt! Chuyển sang `{fallback_1}`.")
+            model = fallback_1
+        elif model == fallback_1:
+            if status_w: status_w.warning(f"⚠️ `{model}` cũng hết lượt! Chuyển sang `{fallback_2}`.")
+            model = fallback_2
 
     for i in range(retries):
-        # Proactively rotate if current key is near RPD limit for this specific model
         if rotator:
             rotator.ensure_best_key(model)
             active_client = rotator.current
@@ -429,32 +454,44 @@ def generate_with_retry(model, contents, system_instruction, status_w=None, retr
         else:
             return ""
 
-        key_label = f"Key {key_idx + 1}/{rotator.total}"
+        key_label = f"Key {key_idx + 1}"
         try:
             resp = active_client.models.generate_content(model=model, contents=contents, config=config)
             if resp and resp.text:
-                increment_rpd(key_idx, model)  # count only successful calls mapped to this model
+                increment_rpd(key_idx, model)
                 return resp.text
-            return ""
+            
+            # Nếu không có text, có thể do bị chặn bởi lý do khác (finish_reason)
+            if status_w: status_w.warning(f"⚠️ [{key_label}] AI không trả về text (Lần {i+1}). Đang thử lại...")
+            time.sleep(3)
         except Exception as e:
             err_str = str(e)
-            if "429" in err_str or "quota" in err_str.lower() or "resource_exhausted" in err_str.lower() or "permission_denied" in err_str.lower() or "403" in err_str:
+            if "leaked" in err_str.lower() or "permission_denied" in err_str.lower() or "403" in err_str:
+                # Bảo vệ chống lỗi Cache: Chỉ gọi blacklist nếu object đã được cập nhật
+                if rotator and hasattr(rotator, 'blacklist'):
+                    rotator.blacklist(key_idx)
+                
                 if rotator.total > 1:
-                    new_idx = rotator.rotate(model, reason="429_or_403")
+                    new_idx = rotator.rotate(model)
+                    if status_w: status_w.error(f"☠️ [{key_label}] Key bị khóa (Leaked)! Đã loại bỏ. Đang dùng Key {new_idx+1}...")
+                else:
+                    if status_w: status_w.error(f"☠️ [{key_label}] Key duy nhất đã bị khóa! Hãy thay Key mới.")
+                    return ""
+            elif "429" in err_str or "503" in err_str or "unavailable" in err_str.lower() or "quota" in err_str.lower() or "resource_exhausted" in err_str.lower():
+                if rotator.total > 1:
+                    new_idx = rotator.rotate(model)
                     if status_w:
-                        status_w.warning(f"⚠️ [{key_label}] Rate limit/Lỗi Key! Chuyển sang Key {new_idx + 1}... (Lần {i+1}/{retries})")
+                        status_w.warning(f"⚠️ [{key_label}] Server quá tải hoặc Hết lượt (503/429)! Đổi sang Key {new_idx + 1}... (Lần {i+1})")
                     time.sleep(3)
                 else:
-                    if status_w:
-                        status_w.warning(f"⚠️ Quá tải API/Lỗi Key. Chờ 65s... (Lần {i+1}/{retries})")
-                    time.sleep(65)
-                continue
-            elif "payload" in err_str.lower() or "too large" in err_str.lower() or "400" in err_str:
-                if status_w: status_w.warning(f"⚠️ Ảnh/Dữ liệu quá nặng. Đang thử lại... (Lần {i+1})")
-                time.sleep(5)
-                continue
-            if status_w: status_w.error(f"❌ Lỗi API [{key_label}]: {e}")
-            time.sleep(5)
+                    if status_w: status_w.warning(f"⚠️ Server Google đang quá tải. Đang thử lại sau 10s... (Lần {i+1})")
+                    time.sleep(10)
+            elif "safety" in err_str.lower():
+                if status_w: status_w.warning(f"⚠️ [{key_label}] Nội dung bị lọc an toàn. Đang thử lại với cấu hình khác...")
+                time.sleep(2)
+            else:
+                if status_w: status_w.error(f"❌ Lỗi API [{key_label}]: {err_str}")
+                time.sleep(4)
     return ""
 
 def optimize_image_for_api(img, max_dimension=2048):
@@ -731,8 +768,8 @@ with tabs[1]:
     mode = st.radio("Chế độ:", ["🔄 Dịch mới (Draft+Refine)", "✨ Re-Refine (chỉnh vi_final)"], horizontal=True, key="t_mode")
 
     if st.button("🚀 Bắt đầu dịch", type="primary"):
-        target_model = "gemini-3-flash-preview"
-        log_action("Dịch Thuật", f"Chế độ: {'Re-Refine' if mode.startswith('✨') else 'Dịch mới'} | EN: {len((eng_text or '').splitlines())} dòng | Model: AUTO")
+        target_model = "gemini-2.5-flash"
+        log_action("Dịch Thuật", f"Chế độ: {'Re-Refine' if mode.startswith('✨') else 'Dịch mới'} | EN: {len((eng_text or '').splitlines())} dòng | Model: {target_model}")
 
         if not eng_text.strip() and not kor_text.strip():
             st.error("❌ Thiếu dữ liệu EN hoặc KR! Vui lòng nhập ít nhất một ngôn ngữ nguồn.")
@@ -864,8 +901,8 @@ with tabs[2]:
             with c2: en_t = st.text_area("Tiếng Anh (tùy chọn)", height=200, key="q_en")
 
         if st.button("🔍 Chạy QC", type="primary"):
-            target_model = "gemini-2.5-flash"
-            log_action("QC Review", f"VI: {len((vi_t or '').splitlines())} dòng | KR: {len((kr_t or '').splitlines())} dòng | Model: AUTO")
+            target_model = "gemini-2.5-pro"
+            log_action("QC Review", f"VI: {len((vi_t or '').splitlines())} dòng | KR: {len((kr_t or '').splitlines())} dòng | Model: {target_model}")
             if not vi_t.strip():
                 st.error("❌ Thiếu Bản dịch VI để đối chiếu!")
                 st.stop()
@@ -1277,13 +1314,44 @@ with tabs[5]:
         with c_sess2:
             st.write(" ")
             if sess_choice != "+ TẠO PHIÊN BẢN MỚI":
-                if st.button("🗑️ Xóa Lịch sử này", use_container_width=True):
-                    import shutil
-                    shutil.rmtree(os.path.join(mh_hist_dir, sess_choice))
-                    st.success("✅ Đã xóa!")
-                    st.rerun()
+                # Create two small columns for Rename and Delete
+                cr1, cr2 = st.columns(2)
+                with cr2:
+                    if st.button("🗑️ Xóa", use_container_width=True, help="Xóa vĩnh viễn phiên bản này"):
+                        import shutil
+                        shutil.rmtree(os.path.join(mh_hist_dir, sess_choice))
+                        st.success("✅ Đã xóa!")
+                        st.rerun()
+                with cr1:
+                    if st.button("✏️ Đổi tên", use_container_width=True):
+                        st.session_state['mh_rename_mode'] = sess_choice
 
         st.divider()
+
+        # Logic đổi tên dùng session_state để không bị mất khi rerun
+        if sess_choice != "+ TẠO PHIÊN BẢN MỚI" and st.session_state.get('mh_rename_mode') == sess_choice:
+            with st.container(border=True):
+                new_n = st.text_input("Nhập tên mới cho folder:", value=sess_choice, key="rename_val_input")
+                c_rn1, c_rn2, c_rn3 = st.columns([1, 1, 3])
+                if c_rn1.button("Lưu ✅", type="primary"):
+                    new_n = new_n.strip().replace('/', '-').replace('\\', '-')
+                    if new_n and new_n != sess_choice:
+                        old_p = os.path.join(mh_hist_dir, sess_choice)
+                        new_p = os.path.join(mh_hist_dir, new_n)
+                        if os.path.exists(new_p):
+                            st.error("❌ Tên này đã tồn tại!")
+                        else:
+                            try:
+                                os.rename(old_p, new_p)
+                                st.session_state['current_mh_sess'] = new_n
+                                del st.session_state['mh_rename_mode']
+                                st.success(f"✅ Đã đổi tên thành `{new_n}`")
+                                st.rerun()
+                            except Exception as e:
+                                st.error(f"❌ Lỗi: {e}")
+                if c_rn2.button("Hủy ❌"):
+                    del st.session_state['mh_rename_mode']
+                    st.rerun()
 
         if sess_choice == "+ TẠO PHIÊN BẢN MỚI":
             # Initialize a stable default name if not exists
@@ -1299,18 +1367,98 @@ with tabs[5]:
             if not final_sess_name:
                 final_sess_name = st.session_state['mh_new_sess_def']
             
-            uploaded_files = st.file_uploader("🖼️ Chọn ảnh truyện tranh (JPG, PNG, WEBP)", type=["png", "jpg", "jpeg", "webp"], accept_multiple_files=True)
-            stitch_mh = st.checkbox("🧩 Tự động nối dải ảnh trước khi dịch", value=True, help="Nếu ảnh bị cắt ngắn, ghép chúng lại thành dải dài (Stitching) sẽ giúp AI đọc chuẩn xác không bị đứt câu.")
+            # --- CHỌN NGUỒN ẢNH: Upload hoặc Google Drive ---
+            try:
+                from scripts.google_helper import is_configured as _gd_configured
+                _has_gdrive = _gd_configured()
+            except Exception:
+                try:
+                    from google_helper import is_configured as _gd_configured
+                    _has_gdrive = _gd_configured()
+                except Exception:
+                    _has_gdrive = False
+
+            img_source_opts = ["📁 Upload ảnh"]
+            if _has_gdrive:
+                img_source_opts.append("☁️ Google Drive")
+            img_source = st.radio("Nguồn ảnh:", img_source_opts, horizontal=True, key="mh_img_source")
+            uploaded_files = None
+            drive_images_ready = False
+
+            if img_source == "📁 Upload ảnh":
+                uploaded_files = st.file_uploader("🖼️ Chọn ảnh truyện tranh (JPG, PNG, WEBP)", type=["png", "jpg", "jpeg", "webp"], accept_multiple_files=True)
+            elif img_source == "☁️ Google Drive":
+                try:
+                    from scripts.google_helper import list_images_in_folder, list_subfolders, download_file_to_bytes, parse_folder_id_from_url
+                except ImportError:
+                    from google_helper import list_images_in_folder, list_subfolders, download_file_to_bytes, parse_folder_id_from_url
+
+                drive_input = st.text_input("🔗 Link hoặc ID folder Google Drive chứa ảnh raw:", 
+                                            placeholder="https://drive.google.com/drive/folders/... hoặc Folder ID",
+                                            key="mh_drive_folder")
+                if st.button("🔍 Quét folder Drive", key="mh_scan_drive"):
+                    if not drive_input.strip():
+                        st.error("❌ Hãy nhập link hoặc ID folder!")
+                    else:
+                        try:
+                            fid = parse_folder_id_from_url(drive_input)
+                            with st.spinner("⏳ Đang quét folder..."):
+                                imgs = list_images_in_folder(fid)
+                                subs = list_subfolders(fid)
+                                # Also scan sub-folders for images
+                                for sub in subs:
+                                    sub_imgs = list_images_in_folder(sub["id"])
+                                    for si in sub_imgs:
+                                        si["_subfolder"] = sub["name"]
+                                    imgs.extend(sub_imgs)
+                            if imgs:
+                                st.session_state['mh_drive_images'] = imgs
+                                st.session_state['mh_drive_folder_id'] = fid
+                                st.success(f"✅ Tìm thấy **{len(imgs)}** ảnh trên Drive!")
+                            else:
+                                st.warning("⚠️ Không tìm thấy ảnh nào trong folder này.")
+                        except Exception as e:
+                            st.error(f"❌ Lỗi khi quét Drive: {e}")
+
+                if 'mh_drive_images' in st.session_state:
+                    imgs_list = st.session_state['mh_drive_images']
+                    st.caption(f"📋 {len(imgs_list)} ảnh: " + ", ".join([f"`{i['name']}`" for i in imgs_list[:10]]) + ("..." if len(imgs_list) > 10 else ""))
+                    drive_images_ready = True
+
+            stitch_mh = st.checkbox("🧩 Tự động nối dải ảnh trước khi dịch", value=False, help="Nếu ảnh bị cắt ngắn, ghép chúng lại thành dải dài (Stitching) sẽ giúp AI đọc chuẩn xác không bị đứt câu.")
             
-            c1, c2 = st.columns([1, 1])
+            c1, c2 = st.columns([2, 1])
             with c1:
-                st.info("Trình thông dịch AI: AUTO 🤖")
+                st.info("🤖 Model: gemini-3.1-flash-lite (Thế hệ 3 Mới nhất)")
             with c2:
                 process_btn = st.button("🚀 Bắt đầu Quét & Dịch", type="primary", use_container_width=True)
 
+            # --- TẢI ẢNH TỪ DRIVE NẾU CẦN ---
+            if process_btn and drive_images_ready and not uploaded_files:
+                import PIL.Image as _PILImg
+                import io as _io
+                drive_img_list = st.session_state.get('mh_drive_images', [])
+                if drive_img_list:
+                    status_dl = st.status(f"☁️ Đang tải {len(drive_img_list)} ảnh từ Drive...", expanded=True)
+                    class DriveImg:
+                        def __init__(self, name, img):
+                            self.name = name
+                            self.img = img
+                    uploaded_files = []
+                    for idx, dimg in enumerate(drive_img_list):
+                        status_dl.write(f"📥 [{idx+1}/{len(drive_img_list)}] `{dimg['name']}`")
+                        try:
+                            img_bytes = download_file_to_bytes(dimg["id"])
+                            pil_img = _PILImg.open(_io.BytesIO(img_bytes)).convert('RGB')
+                            uploaded_files.append(DriveImg(dimg["name"], pil_img))
+                        except Exception as e:
+                            status_dl.write(f"   ⚠️ Lỗi tải `{dimg['name']}`: {e}")
+                    status_dl.update(label=f"✅ Đã tải xong!", state="complete")
+                    st.session_state['_mh_drive_sourced'] = True
+
             if process_btn and uploaded_files:
-                target_model = "gemini-2.5-flash-lite"
-                log_action("Truyện Tranh", f"Ảnh: {len(uploaded_files)} | Session: {final_sess_name} | Model: AUTO")
+                target_model = "gemini-3.1-flash-lite-preview"
+                log_action("Truyện Tranh", f"Ảnh: {len(uploaded_files)} | Session: {final_sess_name}")
                 import PIL.Image
                 
                 # --- STITCHING PRE-PROCESSING ---
@@ -1367,11 +1515,15 @@ with tabs[5]:
                         status_stitch.update(label=f"✅ Nối ảnh xong! (Ghép thành {len(files_to_process)} dải dài)", state="complete")
                 
                 if not files_to_process:
-                    class RawImg:
-                        def __init__(self, name, uf):
-                            self.name = name
-                            self.img = PIL.Image.open(uf).convert('RGB')
-                    files_to_process = [RawImg(uf.name, uf) for uf in uploaded_files]
+                    if st.session_state.get('_mh_drive_sourced'):
+                        # Drive images are already PIL objects with .name and .img
+                        files_to_process = uploaded_files
+                    else:
+                        class RawImg:
+                            def __init__(self, name, uf):
+                                self.name = name
+                                self.img = PIL.Image.open(uf).convert('RGB')
+                        files_to_process = [RawImg(uf.name, uf) for uf in uploaded_files]
                 # --- TẠO THƯ MỤC VÀ LƯU ẢNH TRƯỚC ĐỂ BACKUP ---
                 sess_dir = os.path.join(mh_hist_dir, final_sess_name)
                 sess_img_dir = os.path.join(sess_dir, 'images')
@@ -1398,9 +1550,15 @@ with tabs[5]:
                     status.write(f"🖼️ Đang quét ảnh: `{fname}`")
                     
                     try:
-                        img = file_obj.img
+                        # Gửi prompt và ảnh
+                        # Kiểm tra xem có lấy được file không
+                        if hasattr(file_obj, 'img'):
+                            raw_img = file_obj.img
+                        else:
+                            raw_img = PIL.Image.open(file_obj).convert('RGB')
+                        
                         # Tối ưu kích thước và dung lượng ảnh trước khi gửi
-                        optimized_img = optimize_image_for_api(img)
+                        optimized_img = optimize_image_for_api(raw_img)
                         
                         sys_m = (
                             "You are an expert Manhwa/Webtoon translator and typesetter assistant. "
@@ -1408,9 +1566,9 @@ with tabs[5]:
                             "Ignore small background SFX (Sound Effects) unless they are crucial to the plot. "
                             "CRITICAL RULE: If a single speech bubble contains multiple lines of text, you MUST join them into a SINGLE line separated by a space in both the KR and VI output. Do NOT preserve line breaks within the same dialogue box.\n"
                             "Format your output cleanly and exactly like this:\n"
-                            "**[Khung thoại]**\n"
+                            "[Khung thoại]\n"
                             "KR: <Korean text in a SINGLE line>\n"
-                            "VI: <Vietnamese translation in a SINGLE line>\n\n"
+                            "<Vietnamese translation in a SINGLE line>\n\n"
                             "Rules: Follow the provided glossary. Ensure pronouns match the Korean nuances and glossary rules."
                         )
                         
@@ -1420,7 +1578,7 @@ with tabs[5]:
                         res = generate_with_retry(target_model, contents, sys_m, status)
                         
                         if res and res.strip():
-                            all_results.append(f"### 📄 ẢNH: {fname}\n\n{res}\n")
+                            all_results.append(f"📄 ẢNH: {fname}\n\n{res}\n")
                             consecutive_errors = 0
                             status.write(f"   ✅ Xong `{fname}`")
                             # Incremental progress save
@@ -1428,7 +1586,7 @@ with tabs[5]:
                             time.sleep(15) 
                         else:
                             consecutive_errors += 1
-                            all_results.append(f"### 📄 ẢNH: {fname}\n\n[LỖI HOẶC HẾT TOKEN]\n")
+                            all_results.append(f"📄 ẢNH: {fname}\n\n[LỖI HOẶC HẾT TOKEN]\n")
                             status.write(f"   ⚠️ Thất bại `{fname}`")
                             save_file(os.path.join(sess_dir, "script.txt"), "\n\n".join(all_results))
                             
@@ -1437,7 +1595,7 @@ with tabs[5]:
                                 break
                     except Exception as e:
                         consecutive_errors += 1
-                        all_results.append(f"### 📄 ẢNH: {fname}\n\n[LỖI HỆ THỐNG: {e}]\n")
+                        all_results.append(f"📄 ẢNH: {fname}\n\n[LỖI HỆ THỐNG: {e}]\n")
                         status.write(f"   ❌ Lỗi `{fname}`: {e}")
                         save_file(os.path.join(sess_dir, "script.txt"), "\n\n".join(all_results))
                         
@@ -1463,7 +1621,7 @@ with tabs[5]:
             
             # Helper: Parse master script into a dict of {filename: content}
             import re
-            parts = re.split(r'### 📄 ẢNH: (.*?)\n', mh_content)
+            parts = re.split(r'📄 ẢNH: (.*?)\n', mh_content)
             parsed_data = {}
             if len(parts) > 1:
                 for i in range(1, len(parts), 2):
@@ -1494,10 +1652,26 @@ with tabs[5]:
                         st.divider()
 
                     # Reconstruct script for saving/downloading
-                    reconstructed_script = "\n\n".join([f"### 📄 ẢNH: {n}\n\n{new_parsed_data.get(n, '')}\n" for n in saved_imgs])
+                    reconstructed_script = "\n\n".join([f"📄 ẢNH: {n}\n\n{new_parsed_data.get(n, '')}\n" for n in saved_imgs])
+
+                    # Check Google API availability
+                    try:
+                        from scripts.google_helper import is_configured as _gd_check, create_google_doc, get_root_folder_id, create_subfolder as _gd_mkdir
+                        _has_gdocs = _gd_check()
+                    except ImportError:
+                        try:
+                            from google_helper import is_configured as _gd_check, create_google_doc, get_root_folder_id, create_subfolder as _gd_mkdir
+                            _has_gdocs = _gd_check()
+                        except Exception:
+                            _has_gdocs = False
 
                     # Bottom Actions
-                    col_save, col_dl = st.columns([1, 1])
+                    if _has_gdocs:
+                        col_save, col_dl, col_gdoc = st.columns([1, 1, 1])
+                    else:
+                        col_save, col_dl = st.columns([1, 1])
+                        col_gdoc = None
+
                     with col_dl:
                          st.download_button("⬇️ Tải Kịch bản (.txt)", reconstructed_script, 
                                            f"{sess_choice}.txt", use_container_width=True)
@@ -1506,6 +1680,43 @@ with tabs[5]:
                             save_file(sess_script_path, reconstructed_script)
                             st.success("✅ Đã lưu toàn bộ bản dịch!")
                             st.rerun()
+
+                    if col_gdoc is not None:
+                        with col_gdoc:
+                            if st.button("📤 Đẩy lên Google Docs", use_container_width=True, key="mh_push_gdoc"):
+                                st.session_state['_show_gdoc_options'] = True
+
+                    if st.session_state.get('_show_gdoc_options'):
+                        try:
+                            from scripts.google_helper import parse_folder_id_from_url as _parse_fid
+                        except ImportError:
+                            from google_helper import parse_folder_id_from_url as _parse_fid
+                        gdoc_folder_input = st.text_input(
+                            "📂 Folder Drive của Chapter (VD: folder '156'):",
+                            placeholder="Paste link folder chapter trên Drive...",
+                            key="gdoc_folder_input",
+                            help="Doc sẽ được tạo trực tiếp trong folder này với tên '{chapter}'"
+                        )
+                        if st.button("✅ Xác nhận đẩy lên Docs", type="primary", key="gdoc_confirm"):
+                            with st.spinner("☁️ Đang tạo Google Doc..."):
+                                try:
+                                    if gdoc_folder_input.strip():
+                                        target_fid = _parse_fid(gdoc_folder_input)
+                                    else:
+                                        target_fid = get_root_folder_id()
+                                    # Đặt Doc trực tiếp trong folder chapter, tên "{chapter}"
+                                    result = create_google_doc(
+                                        title=f"{sess_choice}",
+                                        content=reconstructed_script,
+                                        folder_id=target_fid,
+                                    )
+                                    st.success(f"✅ Đã tạo Google Doc!")
+                                    st.markdown(f"🔗 [Mở Google Docs]({result['doc_url']})")
+                                    log_action("Google Docs", f"Tạo Doc: {sess_choice}")
+                                    st.session_state['_show_gdoc_options'] = False
+                                except Exception as e:
+                                    st.error(f"❌ Lỗi tạo Google Doc: {e}")
+
                 else:
                     st.info("Chưa có ảnh gốc nào được lưu lại cho Lịch sử này.")
             else:
@@ -1699,15 +1910,28 @@ with tabs[8]:
             st.session_state['cut_points'] = []
             st.session_state['last_upl_img'] = upl_img.name
             
-            # NÉN ẢNH ĐỂ HIỂN THỊ (Tránh làm lag giao diện Web)
-            # Chỉ nén giảm chất lượng (quality=30) nhưng giữ nguyên 100% kích thước tọa độ
+            # NÉN ẢNH VÀ RESIZE ĐỂ HIỂN THỊ (Giảm lag tối đa cho Web)
             sys_img = PIL.Image.open(upl_img)
             if sys_img.mode != 'RGB':
                 sys_img = sys_img.convert('RGB')
                 
+            orig_w, orig_h = sys_img.size
+            max_display_width = 1000
+            display_scale = 1.0
+            if orig_w > max_display_width:
+                display_scale = max_display_width / orig_w
+            
+            # Lưu tỷ lệ để tính toán tọa độ cắt sau này
+            st.session_state['disp_scale'] = display_scale
+            
+            if display_scale < 1.0:
+                new_size = (int(orig_w * display_scale), int(orig_h * display_scale))
+                # Dùng NEAREST cho tốc độ nhanh nhất như yêu cầu "giảm tối đa chất lượng"
+                sys_img = sys_img.resize(new_size, PIL.Image.NEAREST)
+                
             import io
             buf = io.BytesIO()
-            sys_img.save(buf, format="JPEG", quality=30, optimize=True)
+            sys_img.save(buf, format="JPEG", quality=40, optimize=True)
             buf.seek(0)
             st.session_state['disp_img_cache'] = PIL.Image.open(buf)
             
@@ -1772,6 +1996,11 @@ with tabs[8]:
                     st.success(f"🎉 Thành công! Đã cắt thành **{part_num-1}** mảnh.")
                     st.info(f"📂 Đã lưu tại thư mục nội bộ:\n`{out_dir}`")
                     
+                    # Lưu thông tin cắt vào session để dùng cho upload Drive
+                    st.session_state['_cut_out_dir'] = out_dir
+                    st.session_state['_cut_base_name'] = base_name
+                    st.session_state['_cut_part_count'] = part_num - 1
+                    
                     # Tạo file ZIP để User tải về máy luôn
                     import shutil
                     zip_name = f"{base_name}_cut_package"
@@ -1788,6 +2017,84 @@ with tabs[8]:
                             use_container_width=True
                         )
                     st.balloons()
+                    
+            # --- GOOGLE DRIVE UPLOAD ---
+            if '_cut_out_dir' in st.session_state and os.path.exists(st.session_state.get('_cut_out_dir', '')):
+                try:
+                    from scripts.google_helper import is_configured as _gc_check
+                    _has_gdrive_cut = _gc_check()
+                except ImportError:
+                    try:
+                        from google_helper import is_configured as _gc_check
+                        _has_gdrive_cut = _gc_check()
+                    except Exception:
+                        _has_gdrive_cut = False
+
+                if _has_gdrive_cut:
+                    st.divider()
+                    st.markdown("#### ☁️ Upload lên Google Drive")
+                    cut_dir = st.session_state['_cut_out_dir']
+                    cut_base = st.session_state.get('_cut_base_name', 'cut')
+                    cut_count = st.session_state.get('_cut_part_count', 0)
+                    st.caption(f"📂 `{cut_base}` — {cut_count} mảnh đã cắt. Sẽ tạo folder `chunks/page_01/`, `page_02/`... trong folder chapter.")
+                    
+                    try:
+                        from scripts.google_helper import parse_folder_id_from_url as _parse_fid_cut
+                    except ImportError:
+                        from google_helper import parse_folder_id_from_url as _parse_fid_cut
+                    
+                    cut_drive_folder = st.text_input(
+                        "📂 Folder Drive của Chapter (VD: folder '156'):",
+                        placeholder="Paste link folder chapter trên Drive...",
+                        key="cut_drive_folder_input",
+                        help="Ảnh sẽ được upload vào sub-folder 'chunks/page_XX/' bên trong folder này"
+                    )
+                    
+                    if st.button("☁️ Upload lên Google Drive", type="primary", use_container_width=True, key="cut_upload_drive"):
+                        try:
+                            from scripts.google_helper import get_root_folder_id, create_subfolder, upload_file_to_drive, get_folder_url
+                        except ImportError:
+                            from google_helper import get_root_folder_id, create_subfolder, upload_file_to_drive, get_folder_url
+                        
+                        try:
+                            if cut_drive_folder.strip():
+                                chapter_fid = _parse_fid_cut(cut_drive_folder)
+                            else:
+                                chapter_fid = get_root_folder_id()
+                            # Tạo folder 'chunks' bên trong folder chapter
+                            chunks_fid = create_subfolder(chapter_fid, "chunks")
+                            
+                            # Lấy danh sách file đã cắt
+                            cut_files = sorted([f for f in os.listdir(cut_dir) if f.lower().endswith(('.png', '.jpg', '.jpeg', '.webp'))])
+                            
+                            bar_up = st.progress(0, "Đang upload...")
+                            status_up = st.status(f"☁️ Upload {len(cut_files)} mảnh lên Drive...", expanded=True)
+                            
+                            for idx, fname in enumerate(cut_files):
+                                page_num = idx + 1
+                                page_folder_name = f"page_{page_num:02d}"
+                                
+                                # Tạo sub-folder chunks/page_XX
+                                page_fid = create_subfolder(chunks_fid, page_folder_name)
+                                
+                                # Upload ảnh
+                                local_path = os.path.join(cut_dir, fname)
+                                upload_file_to_drive(local_path, page_fid, fname)
+                                
+                                bar_up.progress((idx + 1) / len(cut_files), f"Đã upload {idx+1}/{len(cut_files)}")
+                                status_up.write(f"  ✅ `chunks/{page_folder_name}/{fname}`")
+                            
+                            bar_up.progress(1.0, "✅ Upload hoàn tất!")
+                            status_up.update(label="✅ Upload Google Drive hoàn tất!", state="complete")
+                            
+                            folder_url = get_folder_url(chapter_fid)
+                            st.success(f"🎉 Đã upload thành công {len(cut_files)} mảnh!")
+                            st.markdown(f"🔗 [Mở folder trên Google Drive]({folder_url})")
+                            log_action("Drive Upload", f"Upload {len(cut_files)} mảnh: {cut_base}")
+                            st.balloons()
+                            
+                        except Exception as e:
+                            st.error(f"❌ Lỗi upload Drive: {e}")
             
             # Hiển thị list Preview các mảnh đã cắt nếu có
             base_name_preview = os.path.splitext(upl_img.name)[0]
@@ -1799,29 +2106,55 @@ with tabs[8]:
                         st.image(os.path.join(preview_dir, f), caption=f)
             
         with c1:
-            st.caption("👈 Trỏ chuột và click vào ảnh để thấy đường vạch đỏ đánh dấu.")
+            st.info("👈 Click trực tiếp lên ảnh để đặt mốc. Vạch mốc sẽ hiện ở thanh Thước bên trái.")
             
-            # Khôi phục tính năng vẽ vệt đỏ:
-            # Vì ảnh hiển thị st.session_state['disp_img_cache'] đã bị nén xuống siêu nhẹ nên việc thêm vệt đỏ
-            # và load lại sẽ diễn ra chớp nhoáng (không còn làm đơ nghẽn cả web như ảnh vài MB nữa).
+            disp_img = st.session_state['disp_img_cache']
+            scale = st.session_state.get('disp_scale', 1.0)
             
-            from PIL import ImageDraw
-            disp_img = st.session_state['disp_img_cache'].copy()
-            draw = ImageDraw.Draw(disp_img)
+            # --- TỐI ƯU CỘT VỚI KÍCH THƯỚC CỐ ĐỊNH (FIXED PIXELS) ---
+            # Ép Ruler và Ảnh hiển thị đúng pixel gốc để không bao giờ bị lệch height
+            ruler_w = 50
+            r_col, i_col = st.columns([ruler_w, disp_img.width], gap="small")
             
-            for y_pt in st.session_state['cut_points']:
-                # Vẽ khối line màu xuyên biên giới bằng nhảy pixel
-                draw.line([(0, y_pt), (disp_img.width, y_pt)], fill="red", width=12)
+            with r_col:
+                # Tạo ảnh Ruler
+                ruler_img = PIL.Image.new("RGB", (ruler_w, disp_img.height), "#1a1b26")
+                r_draw = ImageDraw.Draw(ruler_img)
+                for y_pt in st.session_state['cut_points']:
+                    disp_y = int(y_pt * scale)
+                    r_draw.line([(5, disp_y), (ruler_w-5, disp_y)], fill="#3498db", width=12)
                 
-            # Đổi key theo số lượng mảng để Component chịu vẽ lại hình mới
-            value = streamlit_image_coordinates(
-                disp_img, 
-                key=f"img_cutter_stable_{len(st.session_state['cut_points'])}"
-            )
+                # CHUYỂN RULER SANG BASE64 ĐỂ SET HEIGHT CỐ ĐỊNH BẰNG HTML
+                import base64
+                from io import BytesIO
+                buffered = BytesIO()
+                ruler_img.save(buffered, format="PNG")
+                img_base64 = base64.b64encode(buffered.getvalue()).decode()
+                
+                # Ép trình duyệt hiển thị đúng pixel height bằng CSS
+                st.markdown(
+                    f'<img src="data:image/png;base64,{img_base64}" style="width:{ruler_w}px; height:{disp_img.height}px; display:block; border-radius:4px; margin-top: 1rem;">', 
+                    unsafe_allow_html=True
+                )
+                
+            with i_col:
+                # Ép ảnh chính cũng phải hiển thị đúng pixel đã tính toán
+                st.markdown(f"""
+                    <style>
+                        div[data-testid="stHorizontalBlock"] img {{
+                            height: {disp_img.height}px !important;
+                            max-width: none !important;
+                        }}
+                    </style>
+                """, unsafe_allow_html=True)
+                
+                value = streamlit_image_coordinates(
+                    disp_img, 
+                    key="img_cutter_permanent_display"
+                )
             
             if value is not None:
-                clicked_y = value['y']
-                # Kiểm tra tránh trùng điểm
+                clicked_y = int(value['y'] / scale)
                 if clicked_y not in st.session_state['cut_points']:
                     st.session_state['cut_points'].append(clicked_y)
                     st.session_state['cut_points'].sort()

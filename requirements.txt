@@ -8,3 +8,5 @@ extra-streamlit-components
 gallery-dl
 Pillow
 streamlit-image-coordinates
+google-api-python-client
+google-auth
