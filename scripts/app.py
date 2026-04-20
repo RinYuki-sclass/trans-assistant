@@ -136,6 +136,8 @@ def get_device_type() -> str:
 
 def log_action(feature: str, details: str = ""):
     """Append one line to the daily log file. Never crashes the app."""
+    if feature == "Truy cập":
+        return
     try:
         today_str = now_gmt7().strftime("%Y-%m-%d")
         log_file = os.path.join(LOGS_DIR, f"{today_str}.log")
@@ -675,8 +677,8 @@ with st.sidebar:
         log_path = os.path.join(LOGS_DIR, f"{selected_date}.log")
         if os.path.exists(log_path):
             with open(log_path, 'r', encoding='utf-8') as f:
-                lines = f.readlines()
-            st.caption(f"{len(lines)} sự kiện")
+                lines = [l for l in f if "Truy cập" not in l]
+            st.caption(f"{len(lines)} sự kiện (đã lọc Truy cập)")
             # Show last 50 entries, newest first
             log_text = "".join(reversed(lines[-50:]))
             st.code(log_text.strip(), language=None)
@@ -700,7 +702,7 @@ current_menu = None # Not used
 # Log page visit (once per session)
 if 'session_logged' not in st.session_state:
     st.session_state['session_logged'] = True
-    log_action("Truy cập", "Mở ứng dụng")
+    # log_action("Truy cập", "Mở ứng dụng")
 
 # =================== TAB 0: HOME / HƯỚNG DẪN ===================
 with tabs[0]:
