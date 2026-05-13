@@ -24,7 +24,7 @@ import shutil
 # CONFIG & PATHS
 # ============================================================
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-load_dotenv(os.path.join(BASE_DIR, '.env'))
+load_dotenv(os.path.join(BASE_DIR, '.env'), override=True)
 
 def get_env(key: str, default=None):
     """Read from st.secrets (Streamlit Cloud) first, then fall back to os.environ (local)."""
@@ -279,11 +279,11 @@ _rpd_lock = get_rpd_lock()
 
 # RPD limits for each model per API key
 RPD_LIMITS = {
-    "gemini-2.5-flash": 1500,     
+    "gemini-2.5-flash": 1500,     # Đây là bản 1.5 Flash (ổn định nhất)
     "gemini-2.5-pro": 50,         
     "gemini-2.0-flash": 1500,     
     "gemini-3.1-flash-lite-preview": 2000, 
-    "gemini-2.5-flash-lite": 2000, # Dự phòng cấp 1
+    "gemini-2.5-flash-lite": 2000, 
 }
 
 def _load_rpd_counter() -> dict:
@@ -419,7 +419,7 @@ def save_file(path, content):
     with open(path, 'w', encoding='utf-8') as f:
         f.write(content)
 
-def generate_with_retry(model, contents, system_instruction, status_w=None, retries=8):
+def generate_with_retry(model, contents, system_instruction, status_w=None, retries=8, temp=0.3):
     from google.genai import types
     
     # Cấu hình bỏ qua bộ lọc an toàn để tránh bị AI từ chối dịch truyện tranh
@@ -432,21 +432,19 @@ def generate_with_retry(model, contents, system_instruction, status_w=None, retr
     
     config = types.GenerateContentConfig(
         system_instruction=system_instruction, 
-        temperature=0.3,
+        temperature=temp,
         safety_settings=safety_settings
     )
     
-    # Chuỗi dự phòng thông minh
-    fallback_1 = "gemini-2.5-flash-lite"
-    fallback_2 = "gemini-2.0-flash"
+    # Chuỗi dự phòng thông minh (Waterfall)
+    model_chain = ["gemini-2.5-flash", "gemini-2.0-flash", "gemini-3.1-flash-lite-preview", "gemini-2.5-flash-lite"]
     
     if rotator and rotator.is_exhausted(model):
-        if model == "gemini-3.1-flash-lite-preview":
-            if status_w: status_w.warning(f"⚠️ `{model}` hết lượt! Chuyển sang `{fallback_1}`.")
-            model = fallback_1
-        elif model == fallback_1:
-            if status_w: status_w.warning(f"⚠️ `{model}` cũng hết lượt! Chuyển sang `{fallback_2}`.")
-            model = fallback_2
+        for fallback in model_chain:
+            if not rotator.is_exhausted(fallback):
+                if status_w: status_w.warning(f"⚠️ `{model}` hết lượt! Chuyển sang dự phòng `{fallback}`.")
+                model = fallback
+                break
 
     for i in range(retries):
         if rotator:
@@ -496,12 +494,12 @@ def generate_with_retry(model, contents, system_instruction, status_w=None, retr
                 time.sleep(4)
     return ""
 
-def optimize_image_for_api(img, max_dimension=2048):
+def optimize_image_for_api(img, max_dimension=3500):
     """
     Giảm kích thước ảnh và convert sang định dạng tối ưu để tránh lỗi payload/rate limit
     nhưng vẫn giữ độ nét tương đối cho OCR.
     """
-    import PIL.Image
+    import PIL.Image, PIL.ImageEnhance
     import io
     
     # Chỉ xử lý nếu ảnh tồn tại và là loại hình ảnh
@@ -512,26 +510,59 @@ def optimize_image_for_api(img, max_dimension=2048):
     if img.mode in ('RGBA', 'P'):
         img = img.convert('RGB')
         
+    # --- Cải thiện chất lượng ảnh cho OCR ---
+    # 1. Tăng độ tương phản để chữ đen trên nền trắng rõ hơn
+    enhancer = PIL.ImageEnhance.Contrast(img)
+    img = enhancer.enhance(1.2)
+    # 2. Tăng độ sắc nét để các nét chữ rời rạc dễ nhận diện hơn
+    enhancer = PIL.ImageEnhance.Sharpness(img)
+    img = enhancer.enhance(1.5)
+
+    # Resize thông minh cho Manhwa: Ưu tiên giữ Width khoảng 1000-1100px
+    # Google API hỗ trợ tốt nhất ở khoảng 3072px mỗi chiều, nhưng có thể nhận tới 5000px height.
+    max_w = 1100
+    max_h = 5000
     width, height = img.size
-    
-    # Resize nếu kích thước vượt ngưỡng (Manhwa dài thì height thường rất lớn)
-    if width > max_dimension or height > max_dimension:
-        # Tính tỷ lệ thu nhỏ
-        ratio = min(max_dimension / width, max_dimension / height)
+    if width > max_w or height > max_h:
+        ratio = min(max_w / width, max_h / height)
         new_width = int(width * ratio)
         new_height = int(height * ratio)
-        # Sử dụng LANCZOS để giữ nét chữ tốt nhất có thể
         img = img.resize((new_width, new_height), PIL.Image.Resampling.LANCZOS)
     
-    # Save qua bộ nhớ đệm dạng thư viện tối ưu BytesIO thay vì truyền thẳng object nặng nề
+    # Save qua bộ nhớ đệm
     img_byte_arr = io.BytesIO()
-    # Lưu dưới chuẩn chất lượng JPEG vừa phải để qua cửa Rate Limit (payload limit)
-    img.save(img_byte_arr, format='JPEG', quality=85)
+    # Lưu dưới chuẩn chất lượng JPEG tốt (88) để cân bằng giữa độ nét và dung lượng payload
+    img.save(img_byte_arr, format='JPEG', quality=88)
     
     # Load lại ảnh nhẹ từ bytes
     img_byte_arr.seek(0)
     optimized_img = PIL.Image.open(img_byte_arr)
     return optimized_img
+
+def split_long_image(img, max_h=5000, overlap=200):
+    """
+    Tự động cắt ảnh dài thành các phần nhỏ hơn với khoảng chồng lấp (overlap)
+    để AI không bị mất nội dung ở đường cắt.
+    """
+    w, h = img.size
+    if h <= max_h:
+        return [img]
+    
+    parts = []
+    y = 0
+    while y < h:
+        end_y = y + max_h
+        if end_y > h:
+            end_y = h
+        
+        box = (0, y, w, end_y)
+        parts.append(img.crop(box))
+        
+        if end_y == h:
+            break
+        y = end_y - overlap
+        if y < 0: y = 0
+    return parts
 
 def render_diff_html(text1, text2):
     """Render unified diff as colored HTML."""
@@ -617,6 +648,10 @@ with st.sidebar:
             st.success(f"🟢 {rotator.total} API Keys — Key {rotator.current_idx + 1} đang dùng")
     else:
         st.error("🔴 Thiếu API Key!")
+        
+    if st.button("🔄 Tải lại API Keys", use_container_width=True, help="Click nếu bạn mới cập nhật file .env"):
+        init_rotator.clear()
+        st.rerun()
 
     # User-facing Model Selection & RPD guide
     model_guide = {
@@ -820,7 +855,8 @@ with tabs[1]:
                 sys_d = (
                     "You are a professional novel translator. Translate English into natural Vietnamese. "
                     "STRICT RULE: ONLY include suffixes (-ie,-ah,-ya) IF present in source. "
-                    "Output ONLY the translation."
+                    "CRITICAL RULE: Translate line by line. DO NOT skip, merge, or omit any paragraphs. The number of output paragraphs MUST exactly match the 'TRANSLATE THIS' input. "
+                    "Output ONLY the translation without any notes or confirmation."
                 )
                 prompt_d = f"--- PREVIOUS CONTEXT (For reference only) ---\n{prev_ec}\n\n--- TRANSLATE THIS ---\n{ec}" if prev_ec else ec
                 draft = generate_with_retry(target_model, prompt_d, sys_d, None)
@@ -829,9 +865,10 @@ with tabs[1]:
 
             sys_r = (
                 "You are a strict novel editor. Refine Vietnamese translation comparing EN and KR sources. "
-                "RULES: 1.Output ONLY final Vietnamese. 2.Follow source dialogue structure. "
+                "RULES: 1.Output ONLY final Vietnamese without any notes. 2.Follow source dialogue structure exactly. "
                 "3.Keep suffixes from EN source. 4.Keep ahjussi,-ssi,-nim,-gun. "
-                "5.Follow Glossary. 6.No creative rewriting."
+                "5.Follow Glossary. 6.No creative rewriting. "
+                "7.CRITICAL: DO NOT skip or merge any paragraphs. The number of output paragraphs MUST exactly match the input."
             )
             
             context_str = f"--- PREVIOUS CONTEXT (DO NOT TRANSLATE) ---\nEN: {prev_ec}\nKR: {prev_kc}\n\n" if prev_ec else ""
@@ -839,7 +876,7 @@ with tabs[1]:
             refined = generate_with_retry(target_model, pr, sys_r, None)
 
             lines = refined.strip().split('\n')
-            clean = [l for l in lines if not l.startswith(('*', 'Đây là', 'Bản dịch', 'Tuyệt vời', 'Đã sửa'))]
+            clean = [l for l in lines if not l.startswith(('Đây là', 'Bản dịch', 'Tuyệt vời', 'Đã sửa', 'Dưới đây là', 'Sau đây là', 'Sure'))]
             return idx, "\n".join(clean)
 
         import concurrent.futures
@@ -1431,7 +1468,9 @@ with tabs[5]:
             
             c1, c2 = st.columns([2, 1])
             with c1:
-                st.info("🤖 Model: gemini-3.1-flash-lite (Thế hệ 3 Mới nhất)")
+                target_model = st.selectbox("🤖 AI Model (Truyện tranh):", 
+                                          ["gemini-2.5-flash", "gemini-2.0-flash", "gemini-3.1-flash-lite-preview"], 
+                                          index=0, help="2.5-flash (tức 1.5-flash) thường ổn định và ít lỗi token nhất.")
             with c2:
                 process_btn = st.button("🚀 Bắt đầu Quét & Dịch", type="primary", use_container_width=True)
 
@@ -1459,8 +1498,8 @@ with tabs[5]:
                     st.session_state['_mh_drive_sourced'] = True
 
             if process_btn and uploaded_files:
-                target_model = "gemini-3.1-flash-lite-preview"
-                log_action("Truyện Tranh", f"Ảnh: {len(uploaded_files)} | Session: {final_sess_name}")
+                # target_model đã được lấy từ selectbox ở trên
+                log_action("Truyện Tranh", f"Ảnh: {len(uploaded_files)} | Session: {final_sess_name} | Model: {target_model}")
                 import PIL.Image
                 
                 # --- STITCHING PRE-PROCESSING ---
@@ -1482,7 +1521,7 @@ with tabs[5]:
                         current_chunk = []
                         current_h = 0
                         current_w = 0
-                        MAX_HEIGHT = 15000
+                        MAX_HEIGHT = 5000
                         
                         for f, img in images:
                             if current_h + img.height > MAX_HEIGHT and current_chunk:
@@ -1526,7 +1565,8 @@ with tabs[5]:
                                 self.name = name
                                 self.img = PIL.Image.open(uf).convert('RGB')
                         files_to_process = [RawImg(uf.name, uf) for uf in uploaded_files]
-                # --- TẠO THƯ MỤC VÀ LƯU ẢNH TRƯỚC ĐỂ BACKUP ---
+                
+                # --- TẠO THƯ MỤC VÀ LƯU ẢNH GỐC ĐỂ BACKUP ---
                 sess_dir = os.path.join(mh_hist_dir, final_sess_name)
                 sess_img_dir = os.path.join(sess_dir, 'images')
                 os.makedirs(sess_img_dir, exist_ok=True)
@@ -1539,71 +1579,77 @@ with tabs[5]:
                 glossary = load_file(PATHS['glossary'])
                 notes = load_file(PATHS['notes'])
                 
-                status = st.status(f"🚀 Đang xử lý {len(files_to_process)} ảnh/dải...", expanded=True)
+                status = st.status(f"🚀 Đang xử lý {len(files_to_process)} ảnh...", expanded=True)
                 bar = st.progress(0)
                 
                 all_results = []
                 t0 = time.time()
-                consecutive_errors = 0
                 
                 for i, file_obj in enumerate(files_to_process):
                     fname = file_obj.name
                     bar.progress(i / len(files_to_process), f"Đang quét ảnh {i+1}/{len(files_to_process)}...")
-                    status.write(f"🖼️ Đang quét ảnh: `{fname}`")
                     
-                    try:
-                        # Gửi prompt và ảnh
-                        # Kiểm tra xem có lấy được file không
-                        if hasattr(file_obj, 'img'):
-                            raw_img = file_obj.img
-                        else:
-                            raw_img = PIL.Image.open(file_obj).convert('RGB')
+                    # --- XỬ LÝ SLICING NỘI BỘ CHO ẢNH QUÁ DÀI ---
+                    MAX_H_LIMIT = 5000
+                    raw_img = file_obj.img
+                    if raw_img.height > MAX_H_LIMIT:
+                        slices = split_long_image(raw_img, max_h=MAX_H_LIMIT, overlap=250)
+                        status.write(f"✂️ Ảnh `{fname}` quá dài, chia làm {len(slices)} phần để OCR...")
+                    else:
+                        slices = [raw_img]
+                    
+                    combined_texts = []
+                    for s_idx, slc_img in enumerate(slices):
+                        part_info = f" (Phần {s_idx+1}/{len(slices)})" if len(slices) > 1 else ""
+                        status.write(f"🖼️ Đang quét: `{fname}`{part_info}")
                         
-                        # Tối ưu kích thước và dung lượng ảnh trước khi gửi
-                        optimized_img = optimize_image_for_api(raw_img)
+                        max_attempts = 3
+                        slice_res = ""
+                        for attempt in range(1, max_attempts + 1):
+                            try:
+                                optimized_img = optimize_image_for_api(slc_img)
+                                sys_m = (
+                                    "You are an expert Manhwa/Webtoon translator and typesetter assistant. "
+                                    "Your primary task is to accurately OCR the Korean text from speech bubbles and translate it into natural Vietnamese. "
+                                    "Ignore small background SFX (Sound Effects) unless they are crucial to the plot. "
+                                    "CRITICAL OCR RULE: You must be extremely precise with Korean transcription. Look for every small dash or dot. Do not guess or hallucinate based on context if the text is clear. "
+                                    "CRITICAL FORMAT RULE: If a single speech bubble contains multiple lines of text, you MUST join them into a SINGLE line separated by a space in both the KR and VI output. Do NOT preserve line breaks within the same dialogue box.\n"
+                                    "Format your output cleanly and exactly like this:\n"
+                                    "[Khung thoại]\n"
+                                    "KR: <Exact Korean transcription in a SINGLE line>\n"
+                                    "<Natural Vietnamese translation in a SINGLE line>\n\n"
+                                    "Rules: Follow the provided glossary. Ensure pronouns match the Korean nuances and glossary rules."
+                                )
+                                prompt = f"--- GLOSSARY ---\n{glossary}\n\n--- NOTES ---\n{notes}\n\n--- TASK ---\nExtract dialogues from this image and translate them to Vietnamese. Keep them in reading order (top to bottom, right to left generally)."
+                                contents = [optimized_img, prompt]
+                                res = generate_with_retry(target_model, contents, sys_m, status, temp=0.1)
+                                
+                                if res and res.strip():
+                                    slice_res = res.strip()
+                                    status.write(f"   ✅ Xong {part_info}")
+                                    time.sleep(12) 
+                                    break 
+                                else:
+                                    if attempt < max_attempts:
+                                        status.write(f"   ⚠️ Thất bại {part_info} (Lần {attempt}/{max_attempts}). Thử lại...")
+                                        time.sleep(20)
+                                    else:
+                                        slice_res = f"[LỖI: AI KHÔNG TRẢ VỀ KẾT QUẢ PHẦN {s_idx+1}]"
+                            except Exception as e:
+                                if attempt < max_attempts:
+                                    status.write(f"   ⚠️ Lỗi {part_info}: {e}. Thử lại...")
+                                    time.sleep(20)
+                                else:
+                                    slice_res = f"[LỖI HỆ THỐNG PHẦN {s_idx+1}: {e}]"
                         
-                        sys_m = (
-                            "You are an expert Manhwa/Webtoon translator and typesetter assistant. "
-                            "You extract Korean text strictly from speech bubbles or important narrative boxes and translate it into natural, flowing Vietnamese. "
-                            "Ignore small background SFX (Sound Effects) unless they are crucial to the plot. "
-                            "CRITICAL RULE: If a single speech bubble contains multiple lines of text, you MUST join them into a SINGLE line separated by a space in both the KR and VI output. Do NOT preserve line breaks within the same dialogue box.\n"
-                            "Format your output cleanly and exactly like this:\n"
-                            "[Khung thoại]\n"
-                            "KR: <Korean text in a SINGLE line>\n"
-                            "<Vietnamese translation in a SINGLE line>\n\n"
-                            "Rules: Follow the provided glossary. Ensure pronouns match the Korean nuances and glossary rules."
-                        )
-                        
-                        prompt = f"--- GLOSSARY ---\n{glossary}\n\n--- NOTES ---\n{notes}\n\n--- TASK ---\nExtract dialogues from this image and translate them to Vietnamese. Keep them in reading order (top to bottom, right to left generally)."
-                        
-                        contents = [optimized_img, prompt]
-                        res = generate_with_retry(target_model, contents, sys_m, status)
-                        
-                        if res and res.strip():
-                            all_results.append(f"📄 ẢNH: {fname}\n\n{res}\n")
-                            consecutive_errors = 0
-                            status.write(f"   ✅ Xong `{fname}`")
-                            # Incremental progress save
-                            save_file(os.path.join(sess_dir, "script.txt"), "\n\n".join(all_results))
-                            time.sleep(15) 
-                        else:
-                            consecutive_errors += 1
-                            all_results.append(f"📄 ẢNH: {fname}\n\n[LỖI HOẶC HẾT TOKEN]\n")
-                            status.write(f"   ⚠️ Thất bại `{fname}`")
-                            save_file(os.path.join(sess_dir, "script.txt"), "\n\n".join(all_results))
-                            
-                            if consecutive_errors >= 2:
-                                status.error("🚨 Quá trình dịch liên tục thất bại do Rate Limit hoặc lỗi API! Dừng sớm để bảo toàn dữ liệu.")
-                                break
-                    except Exception as e:
-                        consecutive_errors += 1
-                        all_results.append(f"📄 ẢNH: {fname}\n\n[LỖI HỆ THỐNG: {e}]\n")
-                        status.write(f"   ❌ Lỗi `{fname}`: {e}")
-                        save_file(os.path.join(sess_dir, "script.txt"), "\n\n".join(all_results))
-                        
-                        if consecutive_errors >= 2:
-                            status.error("🚨 Quá trình dịch liên tục thất bại do lỗi phần mềm! Dừng sớm để bảo toàn dữ liệu.")
-                            break
+                        combined_texts.append(slice_res)
+                    
+                    # Gộp kết quả của tất cả các slice vào 1 entry duy nhất cho ảnh gốc
+                    final_image_text = "\n\n".join(combined_texts)
+                    all_results.append(f"📄 ẢNH: {fname}\n\n{final_image_text}\n")
+                    
+                    # Lưu backup sau mỗi ảnh gốc hoàn tất
+                    save_file(os.path.join(sess_dir, "script.txt"), "\n\n".join(all_results))
                         
                 bar.progress(1.0, "✅ Hoàn tất tiến trình hiện tại!")
                 status.update(label=f"✅ Kết thúc quá trình quét (Save Backup) trong {time.time()-t0:.0f}s", state="complete")
@@ -1635,6 +1681,82 @@ with tabs[5]:
             
             if os.path.exists(sess_img_dir):
                 saved_imgs = sorted(os.listdir(sess_img_dir))
+                
+                # Tính năng: Dịch lại các ảnh lỗi
+                failed_imgs = []
+                for img_name in saved_imgs:
+                    text = parsed_data.get(img_name, "").strip()
+                    if "[LỖI" in text or text == "":
+                        failed_imgs.append(img_name)
+                        
+                if failed_imgs and saved_imgs:
+                    st.warning(f"⚠️ Phát hiện {len(failed_imgs)} ảnh bị lỗi trong quá trình dịch.")
+                    if st.button("🔄 Dịch lại các ảnh bị lỗi", type="primary", use_container_width=True):
+                        import PIL.Image
+                        glossary = load_file(PATHS['glossary'])
+                        notes = load_file(PATHS['notes'])
+                        target_model = "gemini-3.1-flash-lite-preview"
+                        
+                        status_retry = st.status(f"🚀 Đang dịch lại {len(failed_imgs)} ảnh lỗi...", expanded=True)
+                        bar_retry = st.progress(0)
+                        
+                        for i, fname in enumerate(failed_imgs):
+                            bar_retry.progress(i / len(failed_imgs), f"Đang quét lại ảnh {i+1}/{len(failed_imgs)}...")
+                            status_retry.write(f"🖼️ Đang quét lại: `{fname}`")
+                            
+                            img_path = os.path.join(sess_img_dir, fname)
+                            if not os.path.exists(img_path):
+                                status_retry.write(f"   ❌ Không tìm thấy file gốc `{fname}`.")
+                                continue
+                                
+                            max_attempts = 3
+                            for attempt in range(1, max_attempts + 1):
+                                try:
+                                    raw_img = PIL.Image.open(img_path).convert('RGB')
+                                    optimized_img = optimize_image_for_api(raw_img)
+                                    
+                                    sys_m = (
+                                        "You are an expert Manhwa/Webtoon translator and typesetter assistant. "
+                                        "You extract Korean text strictly from speech bubbles or important narrative boxes and translate it into natural, flowing Vietnamese. "
+                                        "Ignore small background SFX (Sound Effects) unless they are crucial to the plot. "
+                                        "CRITICAL RULE: If a single speech bubble contains multiple lines of text, you MUST join them into a SINGLE line separated by a space in both the KR and VI output. Do NOT preserve line breaks within the same dialogue box.\n"
+                                        "Format your output cleanly and exactly like this:\n"
+                                        "[Khung thoại]\n"
+                                        "KR: <Korean text in a SINGLE line>\n"
+                                        "<Vietnamese translation in a SINGLE line>\n\n"
+                                        "Rules: Follow the provided glossary. Ensure pronouns match the Korean nuances and glossary rules."
+                                    )
+                                    
+                                    prompt = f"--- GLOSSARY ---\n{glossary}\n\n--- NOTES ---\n{notes}\n\n--- TASK ---\nExtract dialogues from this image and translate them to Vietnamese. Keep them in reading order (top to bottom, right to left generally)."
+                                    
+                                    contents = [optimized_img, prompt]
+                                    res = generate_with_retry(target_model, contents, sys_m, status_retry)
+                                    
+                                    if res and res.strip() and "[LỖI" not in res:
+                                        parsed_data[fname] = res.strip()
+                                        status_retry.write(f"   ✅ Xong `{fname}`")
+                                        # Cập nhật master script ngay lập tức
+                                        reconstructed = "\n\n".join([f"📄 ẢNH: {n}\n\n{parsed_data.get(n, '')}\n" for n in saved_imgs])
+                                        save_file(sess_script_path, reconstructed)
+                                        time.sleep(15) 
+                                        break # Thành công
+                                    else:
+                                        if attempt < max_attempts:
+                                            status_retry.write(f"   ⚠️ Thất bại `{fname}` (Lần {attempt}/{max_attempts}). Đang thử lại sau 20s...")
+                                            time.sleep(20)
+                                        else:
+                                            status_retry.write(f"   ❌ Bỏ qua `{fname}` sau {max_attempts} lần thử.")
+                                except Exception as e:
+                                    if attempt < max_attempts:
+                                        status_retry.write(f"   ⚠️ Lỗi `{fname}` (Lần {attempt}/{max_attempts}): {e}. Đang thử lại sau 20s...")
+                                        time.sleep(20)
+                                    else:
+                                        status_retry.write(f"   ❌ Bỏ qua `{fname}` do lỗi hệ thống.")
+                                        
+                        bar_retry.progress(1.0, "✅ Hoàn tất dịch lại!")
+                        status_retry.update(label=f"✅ Đã xử lý xong các ảnh lỗi", state="complete")
+                        st.rerun()
+
                 if saved_imgs:
                     st.divider()
                     
@@ -1706,10 +1828,37 @@ with tabs[5]:
                                         target_fid = _parse_fid(gdoc_folder_input)
                                     else:
                                         target_fid = get_root_folder_id()
+                                        
+                                    import re
+                                    gdoc_script = reconstructed_script
+                                    # 1. Bỏ "KR: " và "VI: "
+                                    gdoc_script = re.sub(r'^(?:KR|VI):\s*', '', gdoc_script, flags=re.MULTILINE | re.IGNORECASE)
+                                    
+                                    # 2. Rút gọn ghi chú ẢNH
+                                    parts = gdoc_script.split("📄 ẢNH: ")
+                                    if len(parts) > 1:
+                                        processed_gdoc = parts[0]
+                                        current_group = None
+                                        for part in parts[1:]:
+                                            lines = part.split('\n', 1)
+                                            img_name = lines[0].strip()
+                                            content = lines[1] if len(lines) > 1 else ""
+                                            
+                                            group_name = img_name.split('_')[0] if '_' in img_name else img_name.rsplit('.', 1)[0]
+                                            
+                                            if group_name != current_group:
+                                                processed_gdoc += f"\n📄 ẢNH: {group_name}\n"
+                                                current_group = group_name
+                                            
+                                            processed_gdoc += content
+                                        
+                                        # Cleanup multiple newlines
+                                        gdoc_script = re.sub(r'\n{3,}', '\n\n', processed_gdoc).strip()
+
                                     # Đặt Doc trực tiếp trong folder chapter, tên "{chapter}"
                                     result = create_google_doc(
                                         title=f"{sess_choice}",
-                                        content=reconstructed_script,
+                                        content=gdoc_script,
                                         folder_id=target_fid,
                                     )
                                     st.success(f"✅ Đã tạo Google Doc!")
@@ -1998,11 +2147,6 @@ with tabs[8]:
                     st.success(f"🎉 Thành công! Đã cắt thành **{part_num-1}** mảnh.")
                     st.info(f"📂 Đã lưu tại thư mục nội bộ:\n`{out_dir}`")
                     
-                    # Lưu thông tin cắt vào session để dùng cho upload Drive
-                    st.session_state['_cut_out_dir'] = out_dir
-                    st.session_state['_cut_base_name'] = base_name
-                    st.session_state['_cut_part_count'] = part_num - 1
-                    
                     # Tạo file ZIP để User tải về máy luôn
                     import shutil
                     zip_name = f"{base_name}_cut_package"
@@ -2019,84 +2163,6 @@ with tabs[8]:
                             use_container_width=True
                         )
                     st.balloons()
-                    
-            # --- GOOGLE DRIVE UPLOAD ---
-            if '_cut_out_dir' in st.session_state and os.path.exists(st.session_state.get('_cut_out_dir', '')):
-                try:
-                    from scripts.google_helper import is_configured as _gc_check
-                    _has_gdrive_cut = _gc_check()
-                except ImportError:
-                    try:
-                        from google_helper import is_configured as _gc_check
-                        _has_gdrive_cut = _gc_check()
-                    except Exception:
-                        _has_gdrive_cut = False
-
-                if _has_gdrive_cut:
-                    st.divider()
-                    st.markdown("#### ☁️ Upload lên Google Drive")
-                    cut_dir = st.session_state['_cut_out_dir']
-                    cut_base = st.session_state.get('_cut_base_name', 'cut')
-                    cut_count = st.session_state.get('_cut_part_count', 0)
-                    st.caption(f"📂 `{cut_base}` — {cut_count} mảnh đã cắt. Sẽ tạo folder `chunks/page_01/`, `page_02/`... trong folder chapter.")
-                    
-                    try:
-                        from scripts.google_helper import parse_folder_id_from_url as _parse_fid_cut
-                    except ImportError:
-                        from google_helper import parse_folder_id_from_url as _parse_fid_cut
-                    
-                    cut_drive_folder = st.text_input(
-                        "📂 Folder Drive của Chapter (VD: folder '156'):",
-                        placeholder="Paste link folder chapter trên Drive...",
-                        key="cut_drive_folder_input",
-                        help="Ảnh sẽ được upload vào sub-folder 'chunks/page_XX/' bên trong folder này"
-                    )
-                    
-                    if st.button("☁️ Upload lên Google Drive", type="primary", use_container_width=True, key="cut_upload_drive"):
-                        try:
-                            from scripts.google_helper import get_root_folder_id, create_subfolder, upload_file_to_drive, get_folder_url
-                        except ImportError:
-                            from google_helper import get_root_folder_id, create_subfolder, upload_file_to_drive, get_folder_url
-                        
-                        try:
-                            if cut_drive_folder.strip():
-                                chapter_fid = _parse_fid_cut(cut_drive_folder)
-                            else:
-                                chapter_fid = get_root_folder_id()
-                            # Tạo folder 'chunks' bên trong folder chapter
-                            chunks_fid = create_subfolder(chapter_fid, "chunks")
-                            
-                            # Lấy danh sách file đã cắt
-                            cut_files = sorted([f for f in os.listdir(cut_dir) if f.lower().endswith(('.png', '.jpg', '.jpeg', '.webp'))])
-                            
-                            bar_up = st.progress(0, "Đang upload...")
-                            status_up = st.status(f"☁️ Upload {len(cut_files)} mảnh lên Drive...", expanded=True)
-                            
-                            for idx, fname in enumerate(cut_files):
-                                page_num = idx + 1
-                                page_folder_name = f"page_{page_num:02d}"
-                                
-                                # Tạo sub-folder chunks/page_XX
-                                page_fid = create_subfolder(chunks_fid, page_folder_name)
-                                
-                                # Upload ảnh
-                                local_path = os.path.join(cut_dir, fname)
-                                upload_file_to_drive(local_path, page_fid, fname)
-                                
-                                bar_up.progress((idx + 1) / len(cut_files), f"Đã upload {idx+1}/{len(cut_files)}")
-                                status_up.write(f"  ✅ `chunks/{page_folder_name}/{fname}`")
-                            
-                            bar_up.progress(1.0, "✅ Upload hoàn tất!")
-                            status_up.update(label="✅ Upload Google Drive hoàn tất!", state="complete")
-                            
-                            folder_url = get_folder_url(chapter_fid)
-                            st.success(f"🎉 Đã upload thành công {len(cut_files)} mảnh!")
-                            st.markdown(f"🔗 [Mở folder trên Google Drive]({folder_url})")
-                            log_action("Drive Upload", f"Upload {len(cut_files)} mảnh: {cut_base}")
-                            st.balloons()
-                            
-                        except Exception as e:
-                            st.error(f"❌ Lỗi upload Drive: {e}")
             
             # Hiển thị list Preview các mảnh đã cắt nếu có
             base_name_preview = os.path.splitext(upl_img.name)[0]
