@@ -282,7 +282,7 @@ RPD_LIMITS = {
     "gemini-2.5-flash": 1500,     # Đây là bản 1.5 Flash (ổn định nhất)
     "gemini-2.5-pro": 50,         
     "gemini-2.0-flash": 1500,     
-    "gemini-3.1-flash-lite-preview": 2000, 
+    "gemini-3.1-flash-lite": 2000, 
     "gemini-2.5-flash-lite": 2000, 
 }
 
@@ -437,7 +437,7 @@ def generate_with_retry(model, contents, system_instruction, status_w=None, retr
     )
     
     # Chuỗi dự phòng thông minh (Waterfall)
-    model_chain = ["gemini-2.5-flash", "gemini-2.0-flash", "gemini-3.1-flash-lite-preview", "gemini-2.5-flash-lite"]
+    model_chain = ["gemini-2.5-flash", "gemini-2.0-flash", "gemini-3.1-flash-lite", "gemini-2.5-flash-lite"]
     
     if rotator and rotator.is_exhausted(model):
         for fallback in model_chain:
@@ -658,7 +658,7 @@ with st.sidebar:
         "gemini-3-flash-preview": "📝 Dịch Thuật",
         "gemini-2.5-flash": "🔍 QC Review",
         "gemini-2.5-flash-lite": "🎨 Truyện Tranh",
-        "gemini-3.1-flash-lite-preview": "🛡️ Trợ thủ Fallback (500 RPD)"
+        "gemini-3.1-flash-lite": "🛡️ Trợ thủ Fallback (500 RPD)"
     }
     
     st.markdown("**🤖 AI Models / Tự động điều phối**")
@@ -1469,7 +1469,7 @@ with tabs[5]:
             c1, c2 = st.columns([2, 1])
             with c1:
                 target_model = st.selectbox("🤖 AI Model (Truyện tranh):", 
-                                          ["gemini-2.5-flash", "gemini-2.0-flash", "gemini-3.1-flash-lite-preview"], 
+                                          ["gemini-2.5-flash", "gemini-2.0-flash", "gemini-3.1-flash-lite"], 
                                           index=0, help="2.5-flash (tức 1.5-flash) thường ổn định và ít lỗi token nhất.")
             with c2:
                 process_btn = st.button("🚀 Bắt đầu Quét & Dịch", type="primary", use_container_width=True)
@@ -1695,7 +1695,7 @@ with tabs[5]:
                         import PIL.Image
                         glossary = load_file(PATHS['glossary'])
                         notes = load_file(PATHS['notes'])
-                        target_model = "gemini-3.1-flash-lite-preview"
+                        target_model = "gemini-3.1-flash-lite"
                         
                         status_retry = st.status(f"🚀 Đang dịch lại {len(failed_imgs)} ảnh lỗi...", expanded=True)
                         bar_retry = st.progress(0)
