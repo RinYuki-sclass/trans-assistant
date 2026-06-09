@@ -728,7 +728,7 @@ with st.sidebar:
 # ============================================================
 # MAIN NAVIGATION (Persistent on F5)
 # ============================================================
-MENU_ITEMS = ["🏠 Hướng dẫn", "📝 Dịch Thuật", "🔍 QC Review", "📊 So Sánh", "📖 Đối Chiếu", "🎨 Truyện Tranh", "📥 Tải Truyện", "📚 Glossary", "✂️ Cắt Ảnh"]
+MENU_ITEMS = ["🏠 Hướng dẫn", "📝 Dịch Thuật", "🔍 QC Review", "📊 So Sánh", "📖 Đối Chiếu", "🎨 Truyện Tranh", "📥 Tải Truyện", "📚 Glossary", "✂️ Cắt Ảnh", "📋 Reformat Script"]
 
 tabs = st.tabs(MENU_ITEMS)
 current_menu = None # Not used
@@ -2227,3 +2227,51 @@ with tabs[8]:
                     st.session_state['cut_points'].append(clicked_y)
                     st.session_state['cut_points'].sort()
                     st.rerun()
+
+# =================== TAB 9: REFORMAT SCRIPT ===================
+with tabs[9]:
+    st.subheader("📋 Reformat Script")
+    st.caption("Lọc script dịch: giữ lại chỉ phần dịch tiếng Việt, bỏ header [Khung thoại] và dòng KR:.")
+
+    def reformat_translation_script(raw: str) -> str:
+        import re
+        result = []
+        for line in raw.splitlines():
+            stripped = line.strip()
+            if not stripped:
+                continue
+            if re.match(r'^\[.*\]', stripped):
+                continue
+            if re.match(r'^KR\s*:', stripped):
+                continue
+            result.append(line)
+        return '\n'.join(result)
+
+    rf_input = st.text_area(
+        "Dán script dịch vào đây:",
+        height=350,
+        key="reformat_input",
+        placeholder="[Khung thoại]\nKR: 화염 저항 아이템 협찬 성현제\nTrang bị kháng lửa\nNgười tài trợ\nSung Hyunjae\n\n[Khung thoại]\nKR: 지나간 자리마다 폐허!\nNơi cô đi qua đều trở thành phế tích!"
+    )
+
+    if st.button("▶ Reformat", key="reformat_btn", type="primary"):
+        if rf_input.strip():
+            reformatted = reformat_translation_script(rf_input)
+            st.session_state['reformat_output'] = reformatted
+        else:
+            st.warning("Vui lòng dán script vào ô trên.")
+
+    if st.session_state.get('reformat_output'):
+        st.text_area(
+            "Kết quả:",
+            value=st.session_state['reformat_output'],
+            height=350,
+            key="reformat_output_area"
+        )
+        st.download_button(
+            label="⬇ Tải xuống .txt",
+            data=st.session_state['reformat_output'],
+            file_name="script_vi.txt",
+            mime="text/plain",
+            key="reformat_download"
+        )
