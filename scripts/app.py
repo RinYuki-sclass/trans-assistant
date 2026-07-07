@@ -728,7 +728,7 @@ with st.sidebar:
 # ============================================================
 # MAIN NAVIGATION (Persistent on F5)
 # ============================================================
-MENU_ITEMS = ["🏠 Hướng dẫn", "📝 Dịch Thuật", "🔍 QC Review", "📊 So Sánh", "📖 Đối Chiếu", "🎨 Truyện Tranh", "📥 Tải Truyện", "📚 Glossary", "✂️ Cắt Ảnh", "📋 Reformat Script"]
+MENU_ITEMS = ["🏠 Hướng dẫn", "📝 Dịch Thuật", "🔍 QC Review", "📊 So Sánh", "📖 Đối Chiếu", "🎨 Truyện Tranh", "📥 Tải Truyện", "📚 Glossary", "✂️ Cắt Ảnh", "📋 Reformat Script", "🤖 Novel Agent"]
 
 tabs = st.tabs(MENU_ITEMS)
 current_menu = None # Not used
@@ -2275,3 +2275,1423 @@ with tabs[9]:
             mime="text/plain",
             key="reformat_download"
         )
+
+# =================== TAB 10: NOVEL AGENT ===================
+# ============================================================
+# NOVEL AGENT — Helper functions (isolated, no global glossary)
+# ============================================================
+NOVEL_PROJECTS_DIR = os.path.join(BASE_DIR, 'novel_projects')
+os.makedirs(NOVEL_PROJECTS_DIR, exist_ok=True)
+
+def na_project_dir(slug: str) -> str:
+    return os.path.join(NOVEL_PROJECTS_DIR, slug)
+
+def na_load_json(path: str, default=None):
+    if os.path.exists(path):
+        try:
+            with open(path, 'r', encoding='utf-8') as f:
+                return json.load(f)
+        except Exception:
+            pass
+    return default if default is not None else {}
+
+def na_save_json(path: str, data):
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    with open(path, 'w', encoding='utf-8') as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+
+def na_list_projects() -> list:
+    if not os.path.exists(NOVEL_PROJECTS_DIR):
+        return []
+    result = []
+    for name in sorted(os.listdir(NOVEL_PROJECTS_DIR)):
+        cfg_path = os.path.join(NOVEL_PROJECTS_DIR, name, 'config.json')
+        if os.path.exists(cfg_path):
+            result.append(name)
+    return result
+
+def na_load_config(slug: str) -> dict:
+    return na_load_json(os.path.join(na_project_dir(slug), 'config.json'), {})
+
+def na_save_config(slug: str, cfg: dict):
+    na_save_json(os.path.join(na_project_dir(slug), 'config.json'), cfg)
+
+def na_chapter_dir(slug: str, chapter_id: str) -> str:
+    return os.path.join(na_project_dir(slug), 'chapters', chapter_id)
+
+def na_list_chapters(slug: str) -> list:
+    ch_root = os.path.join(na_project_dir(slug), 'chapters')
+    if not os.path.exists(ch_root):
+        return []
+    return sorted([d for d in os.listdir(ch_root)
+                   if os.path.isdir(os.path.join(ch_root, d))])
+
+def na_load_memory(slug: str) -> dict:
+    mem_dir = os.path.join(na_project_dir(slug), 'memory')
+    return {
+        'characters': na_load_json(os.path.join(mem_dir, 'characters.json'), []),
+        'glossary':   na_load_json(os.path.join(mem_dir, 'glossary.json'), []),
+        'timeline':   na_load_json(os.path.join(mem_dir, 'timeline.json'), []),
+        'relationships': na_load_json(os.path.join(mem_dir, 'relationships.json'), []),
+    }
+
+def na_save_memory(slug: str, memory: dict):
+    mem_dir = os.path.join(na_project_dir(slug), 'memory')
+    os.makedirs(mem_dir, exist_ok=True)
+    for key in ['characters', 'glossary', 'timeline', 'relationships']:
+        if key in memory:
+            na_save_json(os.path.join(mem_dir, f'{key}.json'), memory[key])
+
+def na_slugify(title: str) -> str:
+    import re
+    s = title.strip().lower()
+    s = re.sub(r'[^\w\s-]', '', s)
+    s = re.sub(r'[\s_-]+', '-', s)
+    return s[:48] or 'novel'
+
+def na_format_memory_for_prompt(memory: dict) -> str:
+    lines = []
+    if memory.get('characters'):
+        lines.append('=== CHARACTERS ===')
+        for c in memory['characters'][:30]:  # cap to avoid huge prompts
+            aliases = ', '.join(c.get('aliases', []))
+            lines.append(f"- {c.get('name','')} ({c.get('gender','')}) | Aliases: {aliases} | Speech: {c.get('speech_style','')} | Honorifics: {c.get('honorifics','')}")
+    if memory.get('glossary'):
+        lines.append('\n=== PROJECT GLOSSARY ===')
+        for g in memory['glossary'][:60]:
+            lines.append(f"- {g.get('original','')} → {g.get('translation','')} [{g.get('category','')}]")
+    return '\n'.join(lines)
+
+def na_format_clarifications_for_prompt(clarifications: dict) -> str:
+    answers = clarifications.get('answers', {})
+    questions = clarifications.get('questions', [])
+    lines = []
+    for q in questions:
+        qid = q.get('id', '')
+        if qid in answers:
+            ans = answers[qid]
+            chosen = ans.get('custom') or ans.get('choice', '')
+            lines.append(f"- [{q.get('category','').upper()}] \"{q.get('original','')}\" → Use: {chosen}")
+    return '\n'.join(lines) if lines else 'None'
+
+def na_build_translation_prompt(cfg: dict, memory: dict, prev_summary: str,
+                                 curr_analysis: dict, clarifications: dict,
+                                 prev_chunk_tail: str, chunk_text: str) -> str:
+    target_lang = cfg.get('target_lang', 'Vietnamese')
+    style_guide = cfg.get('style_guide', '')
+    mem_str = na_format_memory_for_prompt(memory)
+    clar_str = na_format_clarifications_for_prompt(clarifications)
+    ch_summary = curr_analysis.get('chapter_summary', '') if curr_analysis else ''
+
+    parts = []
+    if style_guide:
+        parts.append(f"=== STYLE GUIDE ===\n{style_guide}")
+    if prev_summary:
+        parts.append(f"=== PREVIOUS CHAPTER SUMMARY ===\n{prev_summary}")
+    if ch_summary:
+        parts.append(f"=== CURRENT CHAPTER CONTEXT ===\n{ch_summary}")
+    if mem_str:
+        parts.append(f"=== NOVEL MEMORY ===\n{mem_str}")
+    if clar_str and clar_str != 'None':
+        parts.append(f"=== USER DECISIONS (Clarifications) ===\n{clar_str}")
+    if prev_chunk_tail:
+        parts.append(f"=== PREVIOUS CONTEXT (DO NOT RETRANSLATE) ===\n{prev_chunk_tail}")
+    parts.append(f"=== TRANSLATE TO {target_lang.upper()} ===\n{chunk_text}")
+    return '\n\n'.join(parts)
+
+def na_get_prev_chapter_summary(slug: str, chapter_id: str) -> str:
+    chapters = na_list_chapters(slug)
+    if chapter_id not in chapters:
+        return ''
+    idx = chapters.index(chapter_id)
+    if idx == 0:
+        return ''
+    prev_ch = chapters[idx - 1]
+    summary = na_load_json(os.path.join(na_chapter_dir(slug, prev_ch), 'summary.json'), {})
+    return summary.get('summary', '')
+
+def na_save_chapter_as_md(slug: str, chapter_id: str, content: str):
+    """Save translated chapter as .md with frontmatter."""
+    cfg = na_load_config(slug)
+    title = f"{cfg.get('title', slug)} — {chapter_id}"
+    md_content = f"---\ntitle: {title}\n---\n\n{content}"
+    out_path = os.path.join(na_chapter_dir(slug, chapter_id), 'translation.md')
+    os.makedirs(os.path.dirname(out_path), exist_ok=True)
+    with open(out_path, 'w', encoding='utf-8') as f:
+        f.write(md_content)
+    return out_path
+
+# =================== TAB 10 RENDERING ===================
+with tabs[10]:
+    if not client:
+        st.warning("⚠️ Cấu hình API Key trong `.env` trước.")
+        st.stop()
+
+    st.markdown("""
+    <div style='background:linear-gradient(135deg,#1e1e2e 0%,#2a1f3d 100%);
+         border:1px solid #6c5fc7;border-radius:12px;padding:1.2rem 1.6rem;margin-bottom:1rem'>
+      <h2 style='margin:0;color:#c8b8ff;font-size:1.5rem'>🤖 Novel Agent</h2>
+      <p style='margin:0.3rem 0 0;color:#a09cc0;font-size:0.9rem'>
+        AI dịch tiểu thuyết — Ghi nhớ dài hạn · Human-in-the-loop · Nhất quán xuyên suốt
+      </p>
+    </div>
+    """, unsafe_allow_html=True)
+
+    na_sub = st.tabs(["📁 Projects", "📥 Import Chapter", "🔬 Analyze",
+                      "❓ Clarifications", "🌐 Translate", "🧠 Memory"])
+
+    # ── Helper: project selector (persistent) ──
+    all_projects = na_list_projects()
+    _na_proj_opts = ["(Chưa chọn project)"] + all_projects
+    _na_proj_default = 0
+    if st.session_state.get('na_project') in all_projects:
+        _na_proj_default = _na_proj_opts.index(st.session_state['na_project'])
+
+    # ===================== SUB-TAB 0: PROJECTS =====================
+    with na_sub[0]:
+        st.markdown("### 📁 Quản lý Projects")
+
+        col_list, col_create = st.columns([2, 3])
+
+        with col_list:
+            st.markdown("**Projects hiện có:**")
+            if not all_projects:
+                st.info("Chưa có project nào. Tạo mới ở bên phải.")
+            else:
+                for p in all_projects:
+                    pcfg = na_load_config(p)
+                    n_ch = len(na_list_chapters(p))
+                    active = (st.session_state.get('na_project') == p)
+                    border_color = '#6c5fc7' if active else '#414559'
+                    st.markdown(f"""
+                    <div style='border:1px solid {border_color};border-radius:8px;
+                         padding:0.7rem 1rem;margin-bottom:0.5rem;
+                         background:{'rgba(108,95,199,0.1)' if active else '#232634'}'>
+                      <b style='color:#c6d0f5'>{pcfg.get('title', p)}</b>
+                      <span style='float:right;color:#737994;font-size:12px'>{n_ch} chương</span><br>
+                      <span style='color:#a5adce;font-size:12px'>{pcfg.get('source_lang','?')} → {pcfg.get('target_lang','?')}</span>
+                    </div>
+                    """, unsafe_allow_html=True)
+                    c_sel, c_del = st.columns([3, 1])
+                    with c_sel:
+                        if st.button(f"✅ Chọn", key=f"na_sel_{p}", use_container_width=True):
+                            st.session_state['na_project'] = p
+                            st.rerun()
+                    with c_del:
+                        if st.button("🗑️", key=f"na_del_{p}", use_container_width=True,
+                                     help="Xóa project này"):
+                            st.session_state[f'na_del_confirm_{p}'] = True
+                    if st.session_state.get(f'na_del_confirm_{p}'):
+                        st.warning(f"Xóa project **{p}**? Không thể hoàn tác!")
+                        c1d, c2d = st.columns(2)
+                        if c1d.button("✅ Xác nhận xóa", key=f"na_del_ok_{p}", type="primary"):
+                            import shutil as _shutil
+                            _shutil.rmtree(na_project_dir(p), ignore_errors=True)
+                            if st.session_state.get('na_project') == p:
+                                del st.session_state['na_project']
+                            del st.session_state[f'na_del_confirm_{p}']
+                            st.rerun()
+                        if c2d.button("❌ Hủy", key=f"na_del_cancel_{p}"):
+                            del st.session_state[f'na_del_confirm_{p}']
+                            st.rerun()
+
+        with col_create:
+            st.markdown("**Tạo project mới:**")
+            with st.form("na_create_form"):
+                na_title = st.text_input("Tên tiểu thuyết *", placeholder="VD: Thiên Đạo Đồ Thư Quán")
+                c1f, c2f = st.columns(2)
+                with c1f:
+                    na_src_lang = st.selectbox("Ngôn ngữ gốc",
+                        ["Chinese", "Korean", "Japanese", "English", "Other"])
+                with c2f:
+                    na_tgt_lang = st.selectbox("Ngôn ngữ dịch",
+                        ["Vietnamese", "English"])
+                na_style = st.text_area("Style Guide (tùy chọn)",
+                    placeholder="VD: Dịch văn xuôi trang trọng. Giữ nguyên tên nhân vật phiên âm. Xưng hô theo cấp bậc võ lâm...",
+                    height=100)
+                na_threshold = st.slider(
+                    "Ngưỡng tự động dịch (%)",
+                    min_value=50, max_value=95, value=80,
+                    help="AI sẽ hỏi khi confidence < ngưỡng này. ≥95% = tự dịch. 80-95% = đánh dấu review."
+                )
+                na_chunk_sz = st.slider("Kích thước chunk (đoạn văn/chunk)",
+                                        5, 50, 20, 5,
+                                        help="Số đoạn văn trong mỗi đơn vị dịch. Novel dài nên để 15-25.")
+                submitted = st.form_submit_button("🚀 Tạo Project", type="primary", use_container_width=True)
+                if submitted:
+                    if not na_title.strip():
+                        st.error("❌ Tên tiểu thuyết không được để trống!")
+                    else:
+                        slug = na_slugify(na_title)
+                        if os.path.exists(na_project_dir(slug)):
+                            slug = slug + f"-{int(time.time()) % 10000}"
+                        cfg_new = {
+                            'title': na_title.strip(),
+                            'slug': slug,
+                            'source_lang': na_src_lang,
+                            'target_lang': na_tgt_lang,
+                            'style_guide': na_style.strip(),
+                            'confidence_threshold': na_threshold / 100,
+                            'chunk_size': na_chunk_sz,
+                            'created_at': now_gmt7().isoformat(),
+                            'chapters_count': 0,
+                        }
+                        na_save_config(slug, cfg_new)
+                        # Init empty memory
+                        na_save_memory(slug, {'characters':[], 'glossary':[], 'timeline':[], 'relationships':[]})
+                        st.session_state['na_project'] = slug
+                        log_action("Novel Agent", f"Tạo project: {na_title}")
+                        st.success(f"✅ Đã tạo project **{na_title}**!")
+                        st.rerun()
+
+        # Show active project banner
+        if st.session_state.get('na_project') in all_projects:
+            ap = st.session_state['na_project']
+            apcfg = na_load_config(ap)
+            st.success(f"🎯 Project đang chọn: **{apcfg.get('title', ap)}** ({apcfg.get('source_lang')} → {apcfg.get('target_lang')})")
+
+    # ── Guard: require project selected for other tabs ──
+    def _na_require_project():
+        p = st.session_state.get('na_project')
+        if p not in na_list_projects():
+            st.warning("⚠️ Chọn hoặc tạo project ở tab **📁 Projects** trước.")
+            return None
+        return p
+
+    # ===================== SUB-TAB 1: IMPORT CHAPTER =====================
+    with na_sub[1]:
+        st.markdown("### 📥 Import Chapter")
+        na_proj = _na_require_project()
+        if na_proj:
+            na_cfg = na_load_config(na_proj)
+
+            existing_chs = na_list_chapters(na_proj)
+            # Auto chapter ID
+            next_ch_num = len(existing_chs) + 1
+            default_ch_id = f"ch_{next_ch_num:03d}"
+
+            col_imp1, col_imp2 = st.columns([1, 2])
+            with col_imp1:
+                ch_id_input = st.text_input("Chapter ID", value=default_ch_id,
+                                            help="VD: ch_001, ch_012, prologue")
+                ch_id_input = ch_id_input.strip().replace(' ', '_')
+            with col_imp2:
+                ch_title_input = st.text_input("Tiêu đề chương (tùy chọn)",
+                                               placeholder="VD: Chương 1 — Khởi Đầu")
+
+            import_src = st.radio("Nguồn văn bản:",
+                                  ["📋 Paste", "📄 Upload file (.txt / .md)"],
+                                  horizontal=True, key="na_imp_src")
+
+            raw_text = ""
+            if import_src.startswith("📋"):
+                raw_text = st.text_area("Dán nội dung chương:", height=300,
+                                        key="na_imp_paste",
+                                        placeholder="Paste văn bản gốc vào đây...")
+            else:
+                upl = st.file_uploader("Chọn file", type=["txt", "md"],
+                                       key="na_imp_file")
+                if upl:
+                    import re as _re
+                    raw_text = upl.read().decode('utf-8', errors='replace')
+                    # Strip .md frontmatter if present
+                    raw_text = _re.sub(r'^---[\s\S]*?---\s*', '', raw_text, count=1).strip()
+                    st.success(f"✅ Đọc được {len(raw_text)} ký tự từ `{upl.name}`")
+
+            if raw_text:
+                # Preview stats
+                paras = [p.strip() for p in raw_text.split('\n') if p.strip()]
+                chunk_sz = na_cfg.get('chunk_size', 20)
+                n_chunks = (len(paras) + chunk_sz - 1) // chunk_sz
+                st.info(f"📊 {len(paras)} đoạn văn → {n_chunks} chunks (chunk_size={chunk_sz})")
+
+                if st.button("💾 Lưu Chapter & Tạo Chunks", type="primary", key="na_imp_save"):
+                    if not ch_id_input:
+                        st.error("❌ Chapter ID không được để trống!")
+                    else:
+                        ch_dir = na_chapter_dir(na_proj, ch_id_input)
+                        chunks_dir = os.path.join(ch_dir, 'chunks')
+                        os.makedirs(chunks_dir, exist_ok=True)
+
+                        # Save source as .md with frontmatter
+                        title_str = ch_title_input.strip() or f"{na_cfg.get('title', na_proj)} — {ch_id_input}"
+                        source_md = f"---\ntitle: {title_str}\n---\n\n{raw_text}"
+                        with open(os.path.join(ch_dir, 'source.md'), 'w', encoding='utf-8') as _f:
+                            _f.write(source_md)
+
+                        # Save chunks
+                        for ci in range(n_chunks):
+                            s, e = ci * chunk_sz, (ci + 1) * chunk_sz
+                            chunk_text = '\n'.join(paras[s:e])
+                            with open(os.path.join(chunks_dir, f'chunk_{ci+1:03d}.md'), 'w', encoding='utf-8') as _f:
+                                _f.write(f"---\ntitle: {title_str} — Chunk {ci+1}/{n_chunks}\n---\n\n{chunk_text}")
+
+                        # Save chapter metadata
+                        na_save_json(os.path.join(ch_dir, 'meta.json'), {
+                            'chapter_id': ch_id_input,
+                            'title': title_str,
+                            'imported_at': now_gmt7().isoformat(),
+                            'n_paragraphs': len(paras),
+                            'n_chunks': n_chunks,
+                            'chunk_size': chunk_sz,
+                        })
+
+                        log_action("Novel Agent", f"Import chapter: {ch_id_input} | {len(paras)} đoạn | {n_chunks} chunks")
+                        st.success(f"✅ Đã lưu **{ch_id_input}** — {len(paras)} đoạn / {n_chunks} chunks")
+                        st.rerun()
+
+            # Show existing chapters
+            if existing_chs:
+                st.divider()
+                st.markdown("**Chapters đã import:**")
+                for ch in existing_chs:
+                    meta = na_load_json(os.path.join(na_chapter_dir(na_proj, ch), 'meta.json'), {})
+                    has_analysis = os.path.exists(os.path.join(na_chapter_dir(na_proj, ch), 'analysis.json'))
+                    has_trans = os.path.exists(os.path.join(na_chapter_dir(na_proj, ch), 'translation.md'))
+                    badges = (" ✅ Phân tích" if has_analysis else "") + (" 🌐 Dịch xong" if has_trans else "")
+                    st.markdown(f"- **{ch}** — {meta.get('title', ch)} | {meta.get('n_paragraphs',0)} đoạn | {meta.get('n_chunks',0)} chunks{badges}")
+
+    # ===================== SUB-TAB 2: ANALYZE =====================
+    with na_sub[2]:
+        st.markdown("### 🔬 Context Analyzer")
+        st.caption("AI đọc toàn bộ chương để phát hiện nhân vật mới, thuật ngữ, xưng hô, tham chiếu mơ hồ — TRƯỚC khi dịch.")
+        na_proj = _na_require_project()
+        if na_proj:
+            na_cfg = na_load_config(na_proj)
+            chapters_av = na_list_chapters(na_proj)
+            if not chapters_av:
+                st.info("Chưa có chapter nào. Import chapter trước ở tab **📥 Import Chapter**.")
+            else:
+                sel_ch_a = st.selectbox("Chọn chapter:", chapters_av, key="na_ana_ch")
+                ch_dir_a = na_chapter_dir(na_proj, sel_ch_a)
+                source_path_a = os.path.join(ch_dir_a, 'source.md')
+                analysis_path_a = os.path.join(ch_dir_a, 'analysis.json')
+
+                if not os.path.exists(source_path_a):
+                    st.error("❌ Không tìm thấy source.md. Hãy import lại chapter này.")
+                else:
+                    # Load source (strip frontmatter)
+                    with open(source_path_a, 'r', encoding='utf-8') as _f:
+                        src_full = _f.read()
+                    import re as _re
+                    src_body = _re.sub(r'^---[\s\S]*?---\s*', '', src_full, count=1).strip()
+
+                    existing_analysis = na_load_json(analysis_path_a, None)
+                    if existing_analysis:
+                        st.success("✅ Đã có kết quả phân tích. Có thể chạy lại để cập nhật.")
+
+                    threshold = na_cfg.get('confidence_threshold', 0.8)
+                    st.info(f"Ngưỡng tự động dịch: **{int(threshold*100)}%** — AI sẽ đặt câu hỏi khi confidence < {int(threshold*100)}%")
+
+                    if st.button("🔬 Chạy Context Analysis", type="primary", key="na_run_analysis"):
+                        memory = na_load_memory(na_proj)
+                        existing_chars = [c.get('name','') for c in memory.get('characters', [])]
+                        existing_terms = [g.get('original','') for g in memory.get('glossary', [])]
+
+                        sys_ana = (
+                            f"You are an expert literary analyst and translation consultant for {na_cfg.get('source_lang','Chinese')} to {na_cfg.get('target_lang','Vietnamese')} novel translation.\n"
+                            "Your ONLY task is to ANALYZE, not translate. Read the entire chapter and detect:\n"
+                            "1. New characters (not in existing memory)\n"
+                            "2. New locations\n"
+                            "3. New organizations/factions\n"
+                            "4. New skills/techniques/items\n"
+                            "5. New terminology\n"
+                            "6. Honorifics and pronouns with ambiguity\n"
+                            "7. Relationship changes\n"
+                            "8. Important timeline events\n"
+                            "9. Ambiguous references that need user clarification (with your confidence 0-100%)\n"
+                            "Output ONLY valid JSON in this exact schema:\n"
+                            "{\"chapter_summary\": \"...\", \"new_characters\": [{\"name\": \"\", \"gender\": \"\", \"role\": \"\", \"description\": \"\"}], "
+                            "\"new_locations\": [{\"name\": \"\", \"description\": \"\"}], "
+                            "\"new_terms\": [{\"original\": \"\", \"suggested\": \"\", \"category\": \"skill|location|item|faction|other\", \"confidence\": 0.0}], "
+                            "\"ambiguous\": [{\"id\": \"amb_001\", \"original\": \"\", \"suggested\": \"\", \"confidence\": 0.0, "
+                            "\"question\": \"\", \"options\": [], \"category\": \"honorific|pronoun|name|term|relationship\"}]}"
+                        )
+                        prompt_ana = (
+                            f"=== KNOWN CHARACTERS ===\n{', '.join(existing_chars) or 'None'}\n\n"
+                            f"=== KNOWN GLOSSARY ===\n{', '.join(existing_terms) or 'None'}\n\n"
+                            f"=== CHAPTER TEXT ===\n{src_body[:12000]}"
+                        )
+
+                        with st.spinner("🔬 AI đang phân tích chương... (30-60 giây)"):
+                            raw_ana = generate_with_retry(
+                                "gemini-2.5-flash", prompt_ana, sys_ana,
+                                None, retries=3, temp=0.2
+                            )
+
+                        if raw_ana:
+                            # Parse JSON (may have markdown fences)
+                            import re as _re
+                            json_match = _re.search(r'```(?:json)?\s*([\s\S]*?)```', raw_ana)
+                            json_str = json_match.group(1) if json_match else raw_ana
+                            # Remove trailing commas before } or ]
+                            json_str = _re.sub(r',\s*([}\]])', r'\1', json_str.strip())
+                            try:
+                                analysis_data = json.loads(json_str)
+                                analysis_data['chapter_id'] = sel_ch_a
+                                analysis_data['analyzed_at'] = now_gmt7().isoformat()
+                                na_save_json(analysis_path_a, analysis_data)
+                                log_action("Novel Agent", f"Analysis: {sel_ch_a} | {len(analysis_data.get('ambiguous',[]))} ambiguous")
+                                st.success("✅ Phân tích hoàn tất! Xem kết quả bên dưới.")
+                                st.rerun()
+                            except json.JSONDecodeError as je:
+                                st.error(f"❌ AI không trả về JSON hợp lệ: {je}")
+                                with st.expander("Xem raw output"):
+                                    st.code(raw_ana)
+                        else:
+                            st.error("❌ AI không trả về kết quả. Thử lại.")
+
+                    # Display existing analysis
+                    if existing_analysis:
+                        st.divider()
+                        st.markdown("#### 📋 Kết quả phân tích")
+
+                        with st.expander(f"📝 Tóm tắt chương", expanded=True):
+                            st.markdown(existing_analysis.get('chapter_summary', '_Không có_'))
+
+                        new_chars = existing_analysis.get('new_characters', [])
+                        if new_chars:
+                            with st.expander(f"🧑 Nhân vật mới ({len(new_chars)})"):
+                                for c in new_chars:
+                                    st.markdown(f"- **{c.get('name','')}** ({c.get('gender','?')}) — {c.get('role','')} | {c.get('description','')}")
+
+                        new_locs = existing_analysis.get('new_locations', [])
+                        if new_locs:
+                            with st.expander(f"📍 Địa điểm mới ({len(new_locs)})"):
+                                for loc in new_locs:
+                                    st.markdown(f"- **{loc.get('name','')}** — {loc.get('description','')}")
+
+                        new_terms = existing_analysis.get('new_terms', [])
+                        if new_terms:
+                            with st.expander(f"📖 Thuật ngữ mới ({len(new_terms)})"):
+                                for t in new_terms:
+                                    conf = int(t.get('confidence', 0) * 100)
+                                    color = '#51cf66' if conf >= 80 else ('#f0a500' if conf >= 60 else '#ff6b6b')
+                                    st.markdown(
+                                        f"- `{t.get('original','')}` → **{t.get('suggested','')}** "
+                                        f"[{t.get('category','')}] "
+                                        f"<span style='color:{color}'>{conf}%</span>",
+                                        unsafe_allow_html=True
+                                    )
+
+                        ambiguous = existing_analysis.get('ambiguous', [])
+                        threshold_pct = int(na_cfg.get('confidence_threshold', 0.8) * 100)
+                        need_qa = [a for a in ambiguous if int(a.get('confidence', 1.0) * 100) < threshold_pct]
+                        if need_qa:
+                            with st.expander(f"❓ Cần làm rõ ({len(need_qa)}) — confidence < {threshold_pct}%", expanded=True):
+                                for a in need_qa:
+                                    conf = int(a.get('confidence', 0) * 100)
+                                    st.markdown(
+                                        f"<span style='color:#f0a500'>⚠️</span> **{a.get('original','')}** "
+                                        f"→ *{a.get('suggested','')}* ({conf}%) — {a.get('category','')}",
+                                        unsafe_allow_html=True
+                                    )
+                        elif ambiguous:
+                            st.success(f"✅ Tất cả {len(ambiguous)} thuật ngữ có confidence ≥ {threshold_pct}% — không cần hỏi.")
+
+    # ===================== SUB-TAB 3: CLARIFICATIONS =====================
+    with na_sub[3]:
+        st.markdown("### ❓ Clarification Center")
+        st.caption("Trả lời các câu hỏi của AI trước khi dịch. Chỉ hiển thị các mục có confidence thấp.")
+        na_proj = _na_require_project()
+        if na_proj:
+            na_cfg = na_load_config(na_proj)
+            chapters_av = na_list_chapters(na_proj)
+            if not chapters_av:
+                st.info("Chưa có chapter nào.")
+            else:
+                sel_ch_q = st.selectbox("Chọn chapter:", chapters_av, key="na_q_ch")
+                analysis_path_q = os.path.join(na_chapter_dir(na_proj, sel_ch_q), 'analysis.json')
+                clar_path_q = os.path.join(na_chapter_dir(na_proj, sel_ch_q), 'clarifications.json')
+
+                if not os.path.exists(analysis_path_q):
+                    st.warning("⚠️ Chưa có kết quả phân tích. Chạy **🔬 Analyze** trước.")
+                else:
+                    analysis_q = na_load_json(analysis_path_q, {})
+                    clar_q = na_load_json(clar_path_q, {'chapter_id': sel_ch_q, 'questions': [], 'answers': {}})
+
+                    threshold_q = na_cfg.get('confidence_threshold', 0.8)
+                    ambiguous_q = analysis_q.get('ambiguous', [])
+                    # Phase 2: Auto-learning — skip terms already approved in project glossary
+                    memory_q = na_load_memory(na_proj)
+                    approved_originals = {
+                        g['original'] for g in memory_q.get('glossary', [])
+                        if g.get('approved', False)
+                    }
+                    need_qa = [
+                        a for a in ambiguous_q
+                        if a.get('confidence', 1.0) < threshold_q
+                        and a.get('original', '') not in approved_originals
+                    ]
+                    if approved_originals:
+                        skipped = [
+                            a for a in ambiguous_q
+                            if a.get('original', '') in approved_originals
+                        ]
+                        if skipped:
+                            _skip_names = ', '.join(
+                                '`' + a.get('original', '') + '`' for a in skipped[:5]
+                            )
+                            _ellipsis = '...' if len(skipped) > 5 else ''
+                            st.info(
+                                f'🧠 Bỏ qua {len(skipped)} thuật ngữ '
+                                f'đã được học (approved trong Glossary): '
+                                f'{_skip_names}{_ellipsis}'
+                            )
+
+                    # Sync questions list
+                    existing_q_ids = {q['id'] for q in clar_q.get('questions', [])}
+                    for a in need_qa:
+                        if a.get('id') not in existing_q_ids:
+                            clar_q.setdefault('questions', []).append(a)
+
+                    existing_answers = clar_q.get('answers', {})
+                    pending = [q for q in clar_q.get('questions', []) if q['id'] not in existing_answers]
+                    done = [q for q in clar_q.get('questions', []) if q['id'] in existing_answers]
+
+                    if not clar_q.get('questions'):
+                        st.success("✅ Không có câu hỏi nào — tất cả thuật ngữ đều có confidence cao. Có thể dịch ngay!")
+                    else:
+                        # Progress
+                        n_total = len(clar_q.get('questions', []))
+                        n_done = len(done)
+                        st.progress(n_done / n_total if n_total else 1,
+                                    f"Đã trả lời: {n_done}/{n_total} câu")
+
+                        if pending:
+                            st.markdown(f"**{len(pending)} câu hỏi chờ trả lời:**")
+                            new_answers = dict(existing_answers)
+
+                            for q in pending:
+                                qid = q['id']
+                                conf_pct = int(q.get('confidence', 0) * 100)
+                                color = '#f0a500' if conf_pct >= 60 else '#ff6b6b'
+                                cat_icon = {'honorific': '🎭', 'pronoun': '👤', 'name': '🏷️',
+                                            'term': '📖', 'relationship': '🤝'}.get(q.get('category', ''), '❓')
+
+                                with st.container():
+                                    st.markdown(
+                                        f"<div style='border:1px solid {color};border-radius:10px;"
+                                        f"padding:1rem;margin-bottom:0.8rem;background:#1e1e2e'>"
+                                        f"<div style='display:flex;justify-content:space-between;align-items:center'>"
+                                        f"<span style='font-size:0.9rem;color:#a5adce'>{cat_icon} {q.get('category','').upper()}</span>"
+                                        f"<span style='color:{color};font-weight:600'>{conf_pct}% confidence</span></div>"
+                                        f"<p style='margin:0.5rem 0;font-size:1.1rem;color:#e5e9f0'>原文: "
+                                        f"<code style='background:#292c3c;padding:2px 6px;border-radius:4px'>{q.get('original','')}</code></p>"
+                                        f"<p style='margin:0;color:#c8b8ff'>💡 Gợi ý: <b>{q.get('suggested','')}</b></p>"
+                                        f"<p style='margin:0.3rem 0 0;color:#a5adce;font-size:0.88rem'>{q.get('question','')}</p>"
+                                        f"</div>",
+                                        unsafe_allow_html=True
+                                    )
+                                    opts = q.get('options', []) + ["✏️ Nhập tay"]
+                                    chosen = st.radio(
+                                        "Chọn cách dịch:", opts,
+                                        key=f"na_q_{qid}_radio",
+                                        horizontal=True,
+                                        label_visibility="collapsed"
+                                    )
+                                    custom_val = ""
+                                    if chosen == "✏️ Nhập tay":
+                                        custom_val = st.text_input(
+                                            "Nhập bản dịch:", key=f"na_q_{qid}_custom",
+                                            placeholder=f"Dịch cho '{q.get('original','')}'..."
+                                        )
+                                    new_answers[qid] = {
+                                        'choice': chosen if chosen != "✏️ Nhập tay" else 'Custom',
+                                        'custom': custom_val or None
+                                    }
+
+                            if st.button("✅ Lưu tất cả câu trả lời", type="primary", key="na_q_submit"):
+                                clar_q['answers'] = new_answers
+                                clar_q['answered_at'] = now_gmt7().isoformat()
+                                na_save_json(clar_path_q, clar_q)
+                                log_action("Novel Agent", f"Clarifications: {sel_ch_q} | {len(new_answers)} câu")
+                                st.success("✅ Đã lưu câu trả lời!")
+                                st.rerun()
+
+                        if done:
+                            with st.expander(f"✅ Đã trả lời ({len(done)} câu)"):
+                                for q in done:
+                                    ans = existing_answers[q['id']]
+                                    chosen_disp = ans.get('custom') or ans.get('choice', '')
+                                    st.markdown(f"- `{q.get('original','')}` → **{chosen_disp}**")
+
+    # ===================== SUB-TAB 4: TRANSLATE =====================
+    with na_sub[4]:
+        st.markdown("### 🌐 Translation Engine")
+        na_proj = _na_require_project()
+        if na_proj:
+            na_cfg = na_load_config(na_proj)
+            chapters_av = na_list_chapters(na_proj)
+            if not chapters_av:
+                st.info("Chưa có chapter nào.")
+            else:
+                sel_ch_t = st.selectbox("Chọn chapter:", chapters_av, key="na_t_ch")
+                ch_dir_t = na_chapter_dir(na_proj, sel_ch_t)
+                chunks_dir_t = os.path.join(ch_dir_t, 'chunks')
+                clar_path_t = os.path.join(ch_dir_t, 'clarifications.json')
+                analysis_path_t = os.path.join(ch_dir_t, 'analysis.json')
+                trans_path_t = os.path.join(ch_dir_t, 'translation.md')
+                review_path_t = os.path.join(ch_dir_t, 'review_report.json')
+
+                # Pre-flight checks
+                has_chunks = os.path.exists(chunks_dir_t) and bool(os.listdir(chunks_dir_t))
+                has_analysis = os.path.exists(analysis_path_t)
+                has_clar = os.path.exists(clar_path_t)
+                has_trans = os.path.exists(trans_path_t)
+
+                c1pf, c2pf, c3pf = st.columns(3)
+                c1pf.metric("Chunks", "✅" if has_chunks else "❌", "Import OK" if has_chunks else "Cần import")
+                c2pf.metric("Analysis", "✅" if has_analysis else "⚠️", "OK" if has_analysis else "Nên chạy")
+                c3pf.metric("Clarifications", "✅" if has_clar else "⚠️", "OK" if has_clar else "Tùy chọn")
+
+                if not has_chunks:
+                    st.error("❌ Chưa có chunks. Hãy import chapter trước.")
+                else:
+                    # Load chunks
+                    chunk_files = sorted(os.listdir(chunks_dir_t))
+                    n_chunks_t = len(chunk_files)
+
+                    target_model_t = st.selectbox(
+                        "AI Model (dịch):",
+                        ["gemini-2.5-flash", "gemini-2.5-pro", "gemini-2.0-flash"],
+                        key="na_t_model"
+                    )
+
+                    if not has_analysis:
+                        st.warning("⚠️ Chưa phân tích chương. Context sẽ thiếu chi tiết — nên chạy Analyze trước.")
+
+                    col_t1, col_t2, col_t3 = st.columns([1, 1, 1])
+                    with col_t1:
+                        run_translate = st.button(
+                            f"🌐 Dịch {n_chunks_t} chunks", type="primary",
+                            key="na_run_trans", use_container_width=True
+                        )
+                    with col_t2:
+                        if has_trans:
+                            st.download_button(
+                                "⬇️ Tải bản dịch (.md)",
+                                open(trans_path_t, 'r', encoding='utf-8').read(),
+                                file_name=f"{sel_ch_t}_translation.md",
+                                mime="text/markdown",
+                                key="na_dl_trans",
+                                use_container_width=True
+                            )
+                    with col_t3:
+                        # Phase 2: Batch translate all pending chapters
+                        pending_chapters = [
+                            ch for ch in chapters_av
+                            if not os.path.exists(os.path.join(na_chapter_dir(na_proj, ch), 'translation.md'))
+                            and os.path.exists(os.path.join(na_chapter_dir(na_proj, ch), 'chunks'))
+                            and bool(os.listdir(os.path.join(na_chapter_dir(na_proj, ch), 'chunks')))
+                        ]
+                        run_batch = st.button(
+                            f"⚡ Batch: {len(pending_chapters)} chương chờ",
+                            key="na_run_batch", use_container_width=True,
+                            disabled=len(pending_chapters) == 0,
+                            help="Dịch tuần tự tất cả các chương chưa có bản dịch"
+                        )
+
+                    if run_batch and pending_chapters:
+                        log_action("Novel Agent", f"Batch translate: {len(pending_chapters)} chapters")
+                        memory_batch = na_load_memory(na_proj)
+                        batch_status = st.status(
+                            f"⚡ Batch dịch {len(pending_chapters)} chương...", expanded=True
+                        )
+                        batch_bar = st.progress(0)
+                        sys_trans_batch = (
+                            f"You are a professional literary translator specializing in "
+                            f"{na_cfg.get('source_lang','Chinese')} to {na_cfg.get('target_lang','Vietnamese')} novel translation.\n"
+                            "RULES:\n"
+                            "1. Output ONLY the translation. No notes, no commentary, no extra text.\n"
+                            "2. Preserve paragraph structure exactly — same number of paragraphs as input.\n"
+                            "3. Follow all style guide rules, character names, and glossary entries provided.\n"
+                            "4. Apply all user clarification decisions exactly as specified.\n"
+                            "5. DO NOT translate the 'PREVIOUS CONTEXT' section."
+                        )
+                        for b_idx, b_ch in enumerate(pending_chapters):
+                            batch_status.write(f"📖 [{b_idx+1}/{len(pending_chapters)}] Đang dịch `{b_ch}`...")
+                            b_ch_dir = na_chapter_dir(na_proj, b_ch)
+                            b_chunks_dir = os.path.join(b_ch_dir, 'chunks')
+                            b_chunk_files = sorted([
+                                f for f in os.listdir(b_chunks_dir)
+                                if f.endswith('.md') and '_trans' not in f
+                            ])
+                            b_analysis = na_load_json(os.path.join(b_ch_dir, 'analysis.json'), {})
+                            b_clar = na_load_json(os.path.join(b_ch_dir, 'clarifications.json'),
+                                                   {'answers': {}, 'questions': []})
+                            b_prev_summary = na_get_prev_chapter_summary(na_proj, b_ch)
+                            b_translated = []
+                            for ci, cf in enumerate(b_chunk_files):
+                                with open(os.path.join(b_chunks_dir, cf), 'r', encoding='utf-8') as _f:
+                                    _raw = _f.read()
+                                import re as _re
+                                _body = _re.sub(r'^---[\s\S]*?---\s*', '', _raw, count=1).strip()
+                                _tail = ''
+                                if b_translated:
+                                    _tail_lines = [l for l in b_translated[-1].split('\n') if l.strip()]
+                                    _tail = '\n'.join(_tail_lines[-2:])
+                                _prompt = na_build_translation_prompt(
+                                    na_cfg, memory_batch, b_prev_summary,
+                                    b_analysis, b_clar, _tail, _body
+                                )
+                                _res = generate_with_retry(
+                                    target_model_t, _prompt, sys_trans_batch,
+                                    batch_status, retries=5, temp=0.3
+                                )
+                                _trans_path = os.path.join(b_chunks_dir, cf.replace('.md', '_trans.md'))
+                                with open(_trans_path, 'w', encoding='utf-8') as _f:
+                                    _f.write(f"---\ntitle: {b_ch} chunk {ci+1}\n---\n\n{_res}")
+                                b_translated.append(_res)
+                            # Merge & save
+                            b_merged = '\n\n'.join(b_translated)
+                            na_save_chapter_as_md(na_proj, b_ch, b_merged)
+                            batch_status.write(f"   ✅ `{b_ch}` xong ({len(b_chunk_files)} chunks)")
+                            batch_bar.progress((b_idx + 1) / len(pending_chapters))
+                        batch_status.update(label="✅ Batch hoàn tất!", state="complete")
+                        st.balloons()
+                        st.rerun()
+
+                    if run_translate:
+                        log_action("Novel Agent", f"Translate: {sel_ch_t} | {n_chunks_t} chunks | {target_model_t}")
+                        memory_t = na_load_memory(na_proj)
+                        analysis_t = na_load_json(analysis_path_t, {}) if has_analysis else {}
+                        clar_t = na_load_json(clar_path_t, {'answers': {}, 'questions': []}) if has_clar else {'answers': {}, 'questions': []}
+                        prev_summary_t = na_get_prev_chapter_summary(na_proj, sel_ch_t)
+
+                        sys_trans = (
+                            f"You are a professional literary translator specializing in {na_cfg.get('source_lang','Chinese')} to {na_cfg.get('target_lang','Vietnamese')} novel translation.\n"
+                            "RULES:\n"
+                            "1. Output ONLY the translation. No notes, no commentary, no extra text.\n"
+                            "2. Preserve paragraph structure exactly — same number of paragraphs as input.\n"
+                            "3. Follow all style guide rules, character names, and glossary entries provided.\n"
+                            "4. Apply all user clarification decisions exactly as specified.\n"
+                            "5. DO NOT translate the 'PREVIOUS CONTEXT' section."
+                        )
+
+                        translated_chunks = []
+                        bar_t = st.progress(0, "Chuẩn bị dịch...")
+                        status_t = st.status(f"🌐 Đang dịch {n_chunks_t} chunks...", expanded=True)
+
+                        for ci, cf in enumerate(chunk_files):
+                            chunk_path = os.path.join(chunks_dir_t, cf)
+                            with open(chunk_path, 'r', encoding='utf-8') as _f:
+                                chunk_raw = _f.read()
+                            # Strip frontmatter
+                            import re as _re
+                            chunk_body = _re.sub(r'^---[\s\S]*?---\s*', '', chunk_raw, count=1).strip()
+
+                            # Previous chunk tail (last 2 paragraphs)
+                            prev_tail = ""
+                            if translated_chunks:
+                                tail_lines = [l for l in translated_chunks[-1].split('\n') if l.strip()]
+                                prev_tail = '\n'.join(tail_lines[-2:])
+
+                            prompt_t = na_build_translation_prompt(
+                                na_cfg, memory_t, prev_summary_t,
+                                analysis_t, clar_t, prev_tail, chunk_body
+                            )
+
+                            status_t.write(f"📄 Đang dịch chunk {ci+1}/{n_chunks_t}...")
+                            result_t = generate_with_retry(
+                                target_model_t, prompt_t, sys_trans,
+                                status_t, retries=5, temp=0.3
+                            )
+
+                            # Save individual chunk translation
+                            chunk_trans_path = os.path.join(chunks_dir_t, cf.replace('.md', '_trans.md'))
+                            trans_title = f"{sel_ch_t} — Chunk {ci+1}/{n_chunks_t} [TRANSLATED]"
+                            with open(chunk_trans_path, 'w', encoding='utf-8') as _f:
+                                _f.write(f"---\ntitle: {trans_title}\n---\n\n{result_t}")
+
+                            translated_chunks.append(result_t)
+                            bar_t.progress((ci + 1) / n_chunks_t,
+                                           f"✅ {ci+1}/{n_chunks_t} chunks")
+
+                        # Merge all chunks
+                        merged_trans = '\n\n'.join(translated_chunks)
+                        out_md_path = na_save_chapter_as_md(na_proj, sel_ch_t, merged_trans)
+
+                        status_t.update(label=f"✅ Dịch xong! Đang chạy Consistency Review...", state="running")
+
+                        # ── Consistency Review agent ──
+                        sys_rev = (
+                            f"You are a strict literary editor reviewing a {na_cfg.get('target_lang','Vietnamese')} translation.\n"
+                            "Review the translation for:\n"
+                            "1. Terminology consistency (same terms translated the same way)\n"
+                            "2. Character name consistency\n"
+                            "3. Honorific consistency\n"
+                            "4. Pronoun consistency\n"
+                            "5. Missing or repeated sentences\n"
+                            "6. Natural flow and readability\n"
+                            "7. Any mistranslations based on the glossary provided\n"
+                            "Output a structured report in Markdown with section headers. List each issue with line reference and suggested fix."
+                        )
+                        mem_str_rev = na_format_memory_for_prompt(memory_t)
+                        prompt_rev = (
+                            f"=== NOVEL MEMORY ===\n{mem_str_rev}\n\n"
+                            f"=== TRANSLATION TO REVIEW ===\n{merged_trans[:8000]}"
+                        )
+                        review_result = generate_with_retry(
+                            "gemini-2.5-flash", prompt_rev, sys_rev,
+                            status_t, retries=3, temp=0.1
+                        )
+                        if review_result:
+                            na_save_json(review_path_t, {
+                                'chapter_id': sel_ch_t,
+                                'reviewed_at': now_gmt7().isoformat(),
+                                'report': review_result
+                            })
+
+                        status_t.update(label=f"✅ Hoàn tất!", state="complete")
+                        st.session_state[f'na_trans_{sel_ch_t}'] = merged_trans
+                        st.session_state[f'na_review_{sel_ch_t}'] = review_result
+                        log_action("Novel Agent", f"Trans done: {sel_ch_t}")
+                        st.balloons()
+
+                    # ── Display results ──
+                    if has_trans or st.session_state.get(f'na_trans_{sel_ch_t}'):
+                        st.divider()
+                        trans_content = st.session_state.get(f'na_trans_{sel_ch_t}')
+                        if not trans_content and has_trans:
+                            with open(trans_path_t, 'r', encoding='utf-8') as _f:
+                                trans_content = _f.read()
+
+                        with st.expander("📄 Xem bản dịch", expanded=False):
+                            st.text_area("Bản dịch:", trans_content,
+                                         height=400, key="na_trans_view")
+
+                        # Review report
+                        review_data = None
+                        if os.path.exists(review_path_t):
+                            review_data = na_load_json(review_path_t, {})
+                        if review_data or st.session_state.get(f'na_review_{sel_ch_t}'):
+                            report_text = review_data.get('report', '') if review_data else st.session_state.get(f'na_review_{sel_ch_t}', '')
+                            with st.expander("🔍 Báo cáo Consistency Review", expanded=True):
+                                st.markdown(report_text)
+
+                        # ── Accept & Update Memory ──
+                        st.divider()
+                        st.markdown("#### 💾 Cập nhật Memory")
+                        st.caption("Sau khi review và chỉnh sửa xong, bấm để AI trích xuất thuật ngữ mới và cập nhật bộ nhớ dài hạn của novel.")
+
+                        if st.button("🧠 Accept & Update Memory", type="primary", key="na_update_mem",
+                                     help="AI trích xuất thuật ngữ mới và tự động đánh dấu approved để không hỏi lại sau"):
+                            memory_upd = na_load_memory(na_proj)
+                            analysis_upd = na_load_json(analysis_path_t, {})
+
+                            sys_mem = (
+                                "You are a memory manager for a novel translation project.\n"
+                                "Extract from the analysis and translation:\n"
+                                "1. All new characters with their details\n"
+                                "2. All new glossary terms with suggested translations\n"
+                                "3. Timeline events (chapter_id, event description)\n"
+                                "Output ONLY valid JSON:\n"
+                                "{\"new_characters\": [{\"name\":\"\",\"gender\":\"\",\"aliases\":[],\"speech_style\":\"\",\"honorifics\":\"\",\"notes\":\"\"}],"
+                                "\"new_glossary\": [{\"original\":\"\",\"translation\":\"\",\"category\":\"\",\"confidence\":0.9}],"
+                                "\"new_timeline\": [{\"chapter_id\":\"\",\"event\":\"\"}]}"
+                            )
+                            prompt_mem = (
+                                f"=== CHAPTER ID ===\n{sel_ch_t}\n\n"
+                                f"=== ANALYSIS ===\n{json.dumps(analysis_upd, ensure_ascii=False)[:4000]}\n\n"
+                                f"=== TRANSLATION SAMPLE ===\n{(trans_content or '')[:3000]}"
+                            )
+
+                            with st.spinner("🧠 AI đang cập nhật memory..."):
+                                mem_raw = generate_with_retry(
+                                    "gemini-2.5-flash", prompt_mem, sys_mem,
+                                    None, retries=3, temp=0.2
+                                )
+
+                            if mem_raw:
+                                import re as _re
+                                jm = _re.search(r'```(?:json)?\s*([\s\S]*?)```', mem_raw)
+                                js = (jm.group(1) if jm else mem_raw).strip()
+                                js = _re.sub(r',\s*([}\]])', r'\1', js)
+                                try:
+                                    new_mem_data = json.loads(js)
+
+                                    # Merge characters
+                                    existing_char_names = {c['name'] for c in memory_upd['characters']}
+                                    for nc in new_mem_data.get('new_characters', []):
+                                        if nc.get('name') and nc['name'] not in existing_char_names:
+                                            memory_upd['characters'].append(nc)
+
+                                    # Merge glossary
+                                    existing_gl_orig = {g['original'] for g in memory_upd['glossary']}
+                                    for ng in new_mem_data.get('new_glossary', []):
+                                        if ng.get('original') and ng['original'] not in existing_gl_orig:
+                                            ng['chapter_first_seen'] = sel_ch_t
+                                            ng['approved'] = False
+                                            memory_upd['glossary'].append(ng)
+
+                                    # Merge timeline
+                                    for ev in new_mem_data.get('new_timeline', []):
+                                        memory_upd['timeline'].append(ev)
+
+                                    # Phase 2: Auto-approve new glossary terms for confidence learning
+                                    for g in memory_upd['glossary']:
+                                        if g.get('chapter_first_seen') == sel_ch_t and not g.get('approved'):
+                                            g['approved'] = True  # mark learned
+
+                                    na_save_memory(na_proj, memory_upd)
+
+                                    # Generate and save chapter summary
+                                    summary_text = analysis_upd.get('chapter_summary', '')
+                                    na_save_json(os.path.join(ch_dir_t, 'summary.json'), {
+                                        'chapter_id': sel_ch_t,
+                                        'summary': summary_text,
+                                        'generated_at': now_gmt7().isoformat()
+                                    })
+
+                                    n_new_c = len(new_mem_data.get('new_characters', []))
+                                    n_new_g = len(new_mem_data.get('new_glossary', []))
+                                    log_action("Novel Agent", f"Memory update: {sel_ch_t} | +{n_new_c} chars | +{n_new_g} terms")
+                                    st.success(f"✅ Memory cập nhật: +{n_new_c} nhân vật, +{n_new_g} thuật ngữ")
+                                    st.rerun()
+                                except json.JSONDecodeError as je:
+                                    st.error(f"❌ Lỗi parse JSON memory: {je}")
+                                    with st.expander("Raw output"):
+                                        st.code(mem_raw)
+
+    # ===================== SUB-TAB 5: MEMORY =====================
+    with na_sub[5]:
+        st.markdown("### 🧠 Novel Memory")
+        na_proj = _na_require_project()
+        if na_proj:
+            na_cfg = na_load_config(na_proj)
+            memory_v = na_load_memory(na_proj)
+
+            mem_tabs = st.tabs(["🧑 Nhân vật", "📖 Glossary", "📅 Timeline", "🕸️ Quan hệ", "📊 Arc Summary", "⚙️ Cấu hình Project"])
+
+            with mem_tabs[0]:
+                chars = memory_v.get('characters', [])
+                if not chars:
+                    st.info("Chưa có nhân vật nào trong memory. Dịch một chapter và bấm 'Accept & Update Memory'.")
+                else:
+                    st.caption(f"{len(chars)} nhân vật")
+                    import pandas as pd
+                    char_df = pd.DataFrame([{
+                        'Tên': c.get('name',''),
+                        'Giới tính': c.get('gender',''),
+                        'Bí danh': ', '.join(c.get('aliases', [])),
+                        'Xưng hô': c.get('honorifics',''),
+                        'Phong cách': c.get('speech_style',''),
+                        'Ghi chú': c.get('notes','')
+                    } for c in chars])
+                    edited_chars = st.data_editor(char_df, use_container_width=True,
+                                                   num_rows="dynamic", key="na_mem_chars")
+                    if st.button("💾 Lưu Nhân vật", key="na_save_chars"):
+                        new_chars = []
+                        for _, row in edited_chars.iterrows():
+                            new_chars.append({
+                                'name': row['Tên'], 'gender': row['Giới tính'],
+                                'aliases': [a.strip() for a in str(row['Bí danh']).split(',') if a.strip()],
+                                'honorifics': row['Xưng hô'],
+                                'speech_style': row['Phong cách'], 'notes': row['Ghi chú']
+                            })
+                        memory_v['characters'] = new_chars
+                        na_save_memory(na_proj, memory_v)
+                        st.success("✅ Đã lưu!")
+
+            with mem_tabs[1]:
+                glossary_v = memory_v.get('glossary', [])
+                if not glossary_v:
+                    st.info("Chưa có thuật ngữ nào. Dịch chapter và bấm 'Accept & Update Memory'.")
+                else:
+                    st.caption(f"{len(glossary_v)} thuật ngữ")
+                    import pandas as pd
+                    gl_df = pd.DataFrame([{
+                        'Gốc': g.get('original',''),
+                        'Dịch': g.get('translation',''),
+                        'Loại': g.get('category',''),
+                        'Confidence': f"{int(g.get('confidence',0)*100)}%",
+                        'Approved': g.get('approved', False),
+                        'Lần đầu thấy': g.get('chapter_first_seen',''),
+                        'Ghi chú': g.get('notes','')
+                    } for g in glossary_v])
+                    edited_gl = st.data_editor(gl_df, use_container_width=True,
+                                                num_rows="dynamic", key="na_mem_gl")
+                    if st.button("💾 Lưu Glossary", key="na_save_gl"):
+                        new_gl = []
+                        for _, row in edited_gl.iterrows():
+                            try:
+                                conf_val = float(str(row['Confidence']).replace('%','').strip()) / 100
+                            except Exception:
+                                conf_val = 0.9
+                            new_gl.append({
+                                'original': row['Gốc'], 'translation': row['Dịch'],
+                                'category': row['Loại'], 'confidence': conf_val,
+                                'approved': bool(row['Approved']),
+                                'chapter_first_seen': row['Lần đầu thấy'],
+                                'notes': row['Ghi chú']
+                            })
+                        memory_v['glossary'] = new_gl
+                        na_save_memory(na_proj, memory_v)
+                        st.success("✅ Đã lưu!")
+                    # Download as MD
+                    if st.button("⬇️ Xuất Glossary (.md)", key="na_dl_gl"):
+                        lines = ["# Project Glossary\n"]
+                        for g in glossary_v:
+                            lines.append(f"- {g.get('original','')} → {g.get('translation','')} [{g.get('category','')}]")
+                        st.download_button(
+                            "Tải về", '\n'.join(lines),
+                            f"{na_proj}_glossary.md", "text/markdown",
+                            key="na_dl_gl_btn"
+                        )
+
+            with mem_tabs[2]:
+                timeline_v = memory_v.get('timeline', [])
+                if not timeline_v:
+                    st.info("Chưa có sự kiện nào trong timeline.")
+                else:
+                    st.caption(f"{len(timeline_v)} sự kiện")
+                    import pandas as pd
+                    tl_df = pd.DataFrame([{
+                        'Chapter': t.get('chapter_id',''),
+                        'Sự kiện': t.get('event','')
+                    } for t in timeline_v])
+                    edited_tl = st.data_editor(tl_df, use_container_width=True,
+                                                num_rows="dynamic", key="na_mem_tl")
+                    if st.button("💾 Lưu Timeline", key="na_save_tl"):
+                        new_tl = [{'chapter_id': row['Chapter'], 'event': row['Sự kiện']}
+                                   for _, row in edited_tl.iterrows()]
+                        memory_v['timeline'] = new_tl
+                        na_save_memory(na_proj, memory_v)
+                        st.success("✅ Đã lưu!")
+
+            # ===================== MEMORY TAB 3: RELATIONSHIP GRAPH =====================
+            with mem_tabs[3]:
+                st.markdown("### 🕸️ Relationship Graph")
+                st.caption("Biểu đồ quan hệ giữa các nhân vật. Chỉnh sửa trong bảng rồi bấm Lưu.")
+
+                rels_v = memory_v.get('relationships', [])
+                chars_v_for_rel = memory_v.get('characters', [])
+                char_names_rel = [c.get('name','') for c in chars_v_for_rel if c.get('name')]
+
+                if not rels_v and not char_names_rel:
+                    st.info("Chưa có nhân vật nào. Dịch ít nhất 1 chapter và Accept Memory.")
+                else:
+                    # Editable relationship table
+                    import pandas as pd
+                    rel_df = pd.DataFrame(rels_v if rels_v else [],
+                                          columns=['Nhân vật A', 'Quan hệ', 'Nhân vật B', 'Ghi chú'])
+                    if rel_df.empty:
+                        rel_df = pd.DataFrame([{
+                            'Nhân vật A': char_names_rel[0] if char_names_rel else '',
+                            'Quan hệ': '',
+                            'Nhân vật B': char_names_rel[1] if len(char_names_rel) > 1 else '',
+                            'Ghi chú': ''
+                        }])
+                    edited_rel = st.data_editor(
+                        rel_df, use_container_width=True,
+                        num_rows="dynamic", key="na_mem_rel"
+                    )
+                    if st.button("💾 Lưu Quan hệ", key="na_save_rel"):
+                        new_rels = []
+                        for _, row in edited_rel.iterrows():
+                            if str(row.get('Nhân vật A','')).strip() and str(row.get('Nhân vật B','')).strip():
+                                new_rels.append({
+                                    'Nhân vật A': row['Nhân vật A'],
+                                    'Quan hệ': row['Quan hệ'],
+                                    'Nhân vật B': row['Nhân vật B'],
+                                    'Ghi chú': row.get('Ghi chú','')
+                                })
+                        memory_v['relationships'] = new_rels
+                        na_save_memory(na_proj, memory_v)
+                        st.success("✅ Đã lưu!")
+                        st.rerun()
+
+                    # Auto-extract relationships from analysis
+                    chapters_for_rel = na_list_chapters(na_proj)
+                    if chapters_for_rel and st.button("🤖 AI tự trích xuất quan hệ từ Analysis",
+                                                       key="na_auto_rel"):
+                        sys_rel = (
+                            "You are a relationship extractor for a novel translation project.\n"
+                            "Based on character information, extract relationships.\n"
+                            "Output ONLY valid JSON array:\n"
+                            "[{\"Nhân vật A\": \"\", \"Quan hệ\": \"\", \"Nhân vật B\": \"\", \"Ghi chú\": \"\"}]"
+                        )
+                        all_chars_info = json.dumps(chars_v_for_rel, ensure_ascii=False)[:4000]
+                        # Gather chapter summaries
+                        all_summaries = []
+                        for _ch in chapters_for_rel[-5:]:  # last 5 chapters
+                            _s = na_load_json(os.path.join(na_chapter_dir(na_proj, _ch), 'summary.json'), {})
+                            if _s.get('summary'):
+                                all_summaries.append(f"{_ch}: {_s['summary']}")
+                        prompt_rel = (
+                            f"=== CHARACTERS ===\n{all_chars_info}\n\n"
+                            f"=== RECENT SUMMARIES ===\n{'\n'.join(all_summaries)}"
+                        )
+                        with st.spinner("🤖 AI đang phân tích quan hệ..."):
+                            rel_raw = generate_with_retry(
+                                "gemini-2.5-flash", prompt_rel, sys_rel, None, retries=3, temp=0.2
+                            )
+                        if rel_raw:
+                            import re as _re
+                            _jm = _re.search(r'```(?:json)?\s*([\s\S]*?)```', rel_raw)
+                            _js = (_jm.group(1) if _jm else rel_raw).strip()
+                            _js = _re.sub(r',\s*([}\]])', r'\1', _js)
+                            try:
+                                extracted_rels = json.loads(_js)
+                                memory_v['relationships'] = extracted_rels
+                                na_save_memory(na_proj, memory_v)
+                                st.success(f"✅ Trích xuất {len(extracted_rels)} quan hệ!")
+                                st.rerun()
+                            except Exception:
+                                st.error("❌ Lỗi parse JSON")
+                                st.code(rel_raw)
+
+                    # Visual graph rendering using HTML/CSS/JS
+                    st.divider()
+                    st.markdown("**📊 Biểu đồ quan hệ:**")
+                    saved_rels = memory_v.get('relationships', [])
+                    if saved_rels:
+                        # Build nodes and edges for visualization
+                        all_nodes = set()
+                        for r in saved_rels:
+                            all_nodes.add(str(r.get('Nhân vật A', '')))
+                            all_nodes.add(str(r.get('Nhân vật B', '')))
+                        all_nodes = sorted([n for n in all_nodes if n])
+
+                        # Assign stable positions in a circle
+                        import math
+                        n_nodes = len(all_nodes)
+                        cx, cy, radius = 400, 280, 220
+                        node_positions = {}
+                        for i, name in enumerate(all_nodes):
+                            angle = (2 * math.pi * i / n_nodes) - math.pi / 2
+                            node_positions[name] = (
+                                int(cx + radius * math.cos(angle)),
+                                int(cy + radius * math.sin(angle))
+                            )
+
+                        # Pastel color palette for nodes
+                        palette = ['#8be9fd','#50fa7b','#ffb86c','#ff79c6',
+                                   '#bd93f9','#f1fa8c','#ff5555','#6272a4']
+
+                        # Build SVG
+                        svg_parts = [
+                            '<svg xmlns="http://www.w3.org/2000/svg" width="800" height="560" '
+                            'style="background:#1e1e2e;border-radius:12px;font-family:Inter,sans-serif">',
+                            '<defs><marker id="arr" markerWidth="8" markerHeight="6" '
+                            'refX="8" refY="3" orient="auto">'
+                            '<polygon points="0 0, 8 3, 0 6" fill="#6272a4"/>'
+                            '</marker></defs>'
+                        ]
+
+                        # Draw edges first
+                        for r in saved_rels:
+                            a = str(r.get('Nhân vật A', ''))
+                            b = str(r.get('Nhân vật B', ''))
+                            label = str(r.get('Quan hệ', ''))
+                            if a in node_positions and b in node_positions:
+                                x1, y1 = node_positions[a]
+                                x2, y2 = node_positions[b]
+                                mx, my = (x1+x2)//2, (y1+y2)//2
+                                svg_parts.append(
+                                    f'<line x1="{x1}" y1="{y1}" x2="{x2}" y2="{y2}" '
+                                    f'stroke="#6272a4" stroke-width="1.5" stroke-dasharray="4,3" '
+                                    f'marker-end="url(#arr)"/>'
+                                )
+                                if label:
+                                    svg_parts.append(
+                                        f'<text x="{mx}" y="{my-6}" text-anchor="middle" '
+                                        f'fill="#a5adce" font-size="10" '
+                                        f'style="paint-order:stroke" stroke="#1e1e2e" stroke-width="3">'
+                                        f'{label[:18]}</text>'
+                                    )
+
+                        # Draw nodes
+                        for i, name in enumerate(all_nodes):
+                            x, y = node_positions[name]
+                            color = palette[i % len(palette)]
+                            short = name[:12] + ('…' if len(name) > 12 else '')
+                            svg_parts.append(
+                                f'<circle cx="{x}" cy="{y}" r="28" fill="{color}" '
+                                f'fill-opacity="0.18" stroke="{color}" stroke-width="2"/>'
+                            )
+                            svg_parts.append(
+                                f'<text x="{x}" y="{y+5}" text-anchor="middle" '
+                                f'fill="{color}" font-size="11" font-weight="600" '
+                                f'style="paint-order:stroke" stroke="#1e1e2e" stroke-width="3">'
+                                f'{short}</text>'
+                            )
+
+                        svg_parts.append('</svg>')
+                        svg_html = ''.join(svg_parts)
+                        st.markdown(
+                            f'<div style="overflow-x:auto;border-radius:12px">{svg_html}</div>',
+                            unsafe_allow_html=True
+                        )
+                    else:
+                        st.info("Thêm quan hệ vào bảng bên trên hoặc dùng nút AI tự trích xuất.")
+
+            # ===================== MEMORY TAB 4: ARC SUMMARY =====================
+            with mem_tabs[4]:
+                st.markdown("### 📊 Arc Summary Generator")
+                st.caption(
+                    "Tạo tóm tắt cho nhiều chương liên tiếp (Arc/Volume). "
+                    "Giúp AI trong các chương sau có ngữ cảnh tổng quan mà không cần nạp từng chương."
+                )
+                chapters_arc = na_list_chapters(na_proj)
+                arcs_path = os.path.join(na_project_dir(na_proj), 'memory', 'arcs.json')
+                existing_arcs = na_load_json(arcs_path, [])
+
+                if not chapters_arc:
+                    st.info("Chưa có chapter nào.")
+                else:
+                    col_arc1, col_arc2 = st.columns(2)
+                    with col_arc1:
+                        arc_name = st.text_input("Tên Arc/Volume",
+                                                  placeholder="VD: Volume 1 — Khởi Đầu",
+                                                  key="na_arc_name")
+                    with col_arc2:
+                        chapters_with_summary = [
+                            ch for ch in chapters_arc
+                            if os.path.exists(os.path.join(na_chapter_dir(na_proj, ch), 'summary.json'))
+                        ]
+                        arc_chapters = st.multiselect(
+                            "Chọn các chương thuộc Arc:",
+                            chapters_arc,
+                            default=chapters_with_summary,
+                            key="na_arc_chs"
+                        )
+
+                    if st.button("📊 Tạo Arc Summary", type="primary", key="na_gen_arc",
+                                  disabled=not arc_name or not arc_chapters):
+                        # Gather chapter summaries
+                        ch_summaries = []
+                        for ch in arc_chapters:
+                            s = na_load_json(
+                                os.path.join(na_chapter_dir(na_proj, ch), 'summary.json'), {}
+                            )
+                            if s.get('summary'):
+                                ch_summaries.append(f"**{ch}**: {s['summary']}")
+                            else:
+                                ch_summaries.append(f"**{ch}**: (chưa có summary)")
+
+                        if not any('summary' in s for s in
+                                   [na_load_json(os.path.join(na_chapter_dir(na_proj, ch), 'summary.json'), {})
+                                    for ch in arc_chapters]):
+                            st.warning(
+                                "⚠️ Chưa có chapter summary nào. "
+                                "Dịch chapter và bấm 'Accept & Update Memory' để tạo summary."
+                            )
+                        else:
+                            sys_arc = (
+                                "You are a novel editor creating an arc summary for a novel translation project.\n"
+                                "Based on the provided chapter summaries, write a comprehensive arc summary that:\n"
+                                "1. Covers the main plot points and events\n"
+                                "2. Highlights character development\n"
+                                "3. Notes important relationships and changes\n"
+                                "4. Summarizes the overall arc theme and progression\n"
+                                "Write in a clear, structured format. Be thorough but concise."
+                            )
+                            prompt_arc = (
+                                f"=== ARC NAME ===\n{arc_name}\n\n"
+                                f"=== CHAPTER SUMMARIES ===\n" +
+                                "\n\n".join(ch_summaries)
+                            )
+                            with st.spinner("📊 AI đang tạo Arc Summary..."):
+                                arc_result = generate_with_retry(
+                                    "gemini-2.5-flash", prompt_arc, sys_arc,
+                                    None, retries=3, temp=0.2
+                                )
+                            if arc_result:
+                                new_arc = {
+                                    'name': arc_name,
+                                    'chapters': arc_chapters,
+                                    'summary': arc_result,
+                                    'generated_at': now_gmt7().isoformat()
+                                }
+                                # Update or append
+                                arc_idx = next(
+                                    (i for i, a in enumerate(existing_arcs) if a['name'] == arc_name),
+                                    None
+                                )
+                                if arc_idx is not None:
+                                    existing_arcs[arc_idx] = new_arc
+                                else:
+                                    existing_arcs.append(new_arc)
+                                na_save_json(arcs_path, existing_arcs)
+                                log_action("Novel Agent",
+                                           f"Arc summary: {arc_name} | {len(arc_chapters)} chapters")
+                                st.success(f"✅ Đã tạo Arc Summary cho **{arc_name}**!")
+                                st.rerun()
+
+                    # Display existing arcs
+                    if existing_arcs:
+                        st.divider()
+                        st.markdown("**Arcs đã tạo:**")
+                        for arc in existing_arcs:
+                            with st.expander(
+                                f"📊 {arc['name']} ({len(arc.get('chapters',[]))} chương)",
+                                expanded=False
+                            ):
+                                st.caption(
+                                    f"Chương: {', '.join(arc.get('chapters',[]))} | "
+                                    f"Tạo lúc: {arc.get('generated_at','')[:16]}"
+                                )
+                                st.markdown(arc.get('summary',''))
+                                c_dl_arc, c_del_arc = st.columns([3, 1])
+                                with c_dl_arc:
+                                    arc_md = (
+                                        f"---\ntitle: {arc['name']}\n"
+                                        f"chapters: {', '.join(arc.get('chapters',[]))}\n---\n\n"
+                                        + arc.get('summary', '')
+                                    )
+                                    st.download_button(
+                                        "⬇️ Tải Arc (.md)", arc_md,
+                                        f"{na_slugify(arc['name'])}_arc_summary.md",
+                                        "text/markdown",
+                                        key=f"na_dl_arc_{arc['name']}"
+                                    )
+                                with c_del_arc:
+                                    if st.button("🗑️", key=f"na_del_arc_{arc['name']}",
+                                                  help="Xóa arc này"):
+                                        existing_arcs = [a for a in existing_arcs
+                                                          if a['name'] != arc['name']]
+                                        na_save_json(arcs_path, existing_arcs)
+                                        st.rerun()
+
+            # ===================== MEMORY TAB 5: PROJECT CONFIG =====================
+            with mem_tabs[5]:
+                st.markdown("**Cấu hình project hiện tại:**")
+                st.json(na_cfg)
+                st.divider()
+                st.markdown("**Chỉnh sửa Style Guide:**")
+                new_style = st.text_area("Style Guide:", na_cfg.get('style_guide',''),
+                                          height=200, key="na_cfg_style")
+                new_thresh = st.slider("Ngưỡng confidence (%)",
+                                       50, 95,
+                                       int(na_cfg.get('confidence_threshold', 0.8) * 100),
+                                       key="na_cfg_thresh")
+                new_chunk = st.slider("Chunk size (đoạn/chunk)",
+                                       5, 50,
+                                       na_cfg.get('chunk_size', 20),
+                                       5, key="na_cfg_chunk")
+
+                # Phase 2: Stats panel
+                st.divider()
+                st.markdown("**📈 Thống kê project:**")
+                all_chs_cfg = na_list_chapters(na_proj)
+                mem_cfg = na_load_memory(na_proj)
+                translated_chs = sum(
+                    1 for ch in all_chs_cfg
+                    if os.path.exists(os.path.join(na_chapter_dir(na_proj, ch), 'translation.md'))
+                )
+                approved_terms = sum(1 for g in mem_cfg.get('glossary', []) if g.get('approved'))
+                c_s1, c_s2, c_s3, c_s4 = st.columns(4)
+                c_s1.metric("📖 Chapters", len(all_chs_cfg))
+                c_s2.metric("🌐 Đã dịch", translated_chs)
+                c_s3.metric("🧑 Nhân vật", len(mem_cfg.get('characters', [])))
+                c_s4.metric("📚 Thuật ngữ", f"{approved_terms}/{len(mem_cfg.get('glossary', []))} ✅")
+
+                if st.button("💾 Lưu cấu hình", key="na_save_cfg"):
+                    na_cfg['style_guide'] = new_style
+                    na_cfg['confidence_threshold'] = new_thresh / 100
+                    na_cfg['chunk_size'] = new_chunk
+                    na_save_config(na_proj, na_cfg)
+                    st.success("✅ Đã lưu cấu hình project!")
+                    st.rerun()
