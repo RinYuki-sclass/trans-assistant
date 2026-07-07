@@ -1,0 +1,11 @@
+{
+  "title": "Trash verification",
+  "slug": "trash-verification",
+  "source_lang": "Korean",
+  "target_lang": "English",
+  "style_guide": "Genre is boy love.\nWorld building is guideverse (esper x guide).\nBoth top and bottom are the same age",
+  "confidence_threshold": 0.8,
+  "chunk_size": 20,
+  "created_at": "2026-07-07T13:21:52.932449+07:00",
+  "chapters_count": 0
+}
