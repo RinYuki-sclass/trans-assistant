@@ -3893,9 +3893,16 @@ with tabs[10]:
         if conf >= 70: return '#a6701e'
         return '#c62828'
 
-    # ── Helper: save/load QC Diff session ──
     def qcd_save_session(data: dict):
         os.makedirs(PATHS['qc_diff_dir'], exist_ok=True)
+        # Preserve text inputs in session data
+        if 'vi_text' not in data:
+            data['vi_text'] = st.session_state.get('qcd_vi_input', '')
+        if 'kr_text' not in data:
+            data['kr_text'] = st.session_state.get('qcd_kr_input', '')
+        if 'en_text' not in data:
+            data['en_text'] = st.session_state.get('qcd_en_input', '')
+
         ts = now_gmt7().strftime('%Y%m%d_%H%M%S')
         path = os.path.join(PATHS['qc_diff_dir'], f'session_{ts}.json')
         with open(path, 'w', encoding='utf-8') as f:
@@ -3912,6 +3919,82 @@ with tabs[10]:
             with open(latest, 'r', encoding='utf-8') as f:
                 return json.load(f)
         return {}
+
+    def qcd_add_to_glossary(speaker: str, target: str, term: str) -> bool:
+        glossary_path = PATHS['glossary']
+        if not os.path.exists(glossary_path):
+            return False
+        with open(glossary_path, 'r', encoding='utf-8') as f:
+            lines = f.readlines()
+        
+        import re
+        # Match: "- [speaker] goi [target] la:" case-insensitive, ignoring accents in "goi" and "la"
+        pattern_str = rf"-\s+{re.escape(speaker)}\s+goi\s+{re.escape(target)}\s+la:"
+        pattern = re.compile(pattern_str, re.IGNORECASE)
+        
+        found_idx = -1
+        for i, line in enumerate(lines):
+            if pattern.search(line):
+                found_idx = i
+                break
+                
+        if found_idx == -1:
+            return False
+            
+        # Find the end of this block
+        end_idx = found_idx
+        for j in range(found_idx + 1, len(lines)):
+            next_line = lines[j].strip()
+            if next_line.startswith('-') or next_line.startswith('#') or not next_line:
+                break
+            end_idx = j
+            
+        # Check if term already exists in this block
+        term_clean = term.strip().lower()
+        for k in range(found_idx, end_idx + 1):
+            line_clean = lines[k].replace('"', '').strip().lower()
+            if line_clean == term_clean or line_clean.endswith(f" {term_clean}"):
+                return True
+                
+        # Modify the last line of the block to remove the closing quote
+        last_line = lines[end_idx].rstrip('\r\n')
+        if last_line.endswith('"'):
+            lines[end_idx] = last_line[:-1] + '\n'
+        else:
+            lines[end_idx] = last_line + '\n'
+            
+        # Append the new term with the closing quote
+        lines.insert(end_idx + 1, f"{term}\"\n")
+        
+        # Save back
+        with open(glossary_path, 'w', encoding='utf-8') as f:
+            f.writelines(lines)
+        return True
+
+    def qcd_extract_discard_action(reason: str, original_text: str) -> dict:
+        """Use Gemini to check if the discarded warning is about a name/term/calling rule
+        not being in the allowed list, and extract the details to update the glossary.
+        """
+        sys_extract = (
+            "You are an expert NLP parser. Analyze the given error reason from a QC report.\n"
+            "If the reason is about a nickname, name, or term not being in the allowed list for a specific speaker and target, "
+            "extract the Speaker Name, Target Name, and the Term being used.\n"
+            "Return a JSON object with: 'update_required' (bool), 'speaker' (string), 'target' (string), 'term' (string).\n"
+            "Names should be standard characters from the glossary (e.g. 'Yoo Myungwoo', 'Han Yoojin', 'Park Yerim', 'Sung Hyunjae', 'Noah Rugir', 'Liette Rugir', 'Song Taewon', 'Moon Hyuna', 'Kang Soyoung').\n"
+            "If it is not a glossary list violation, return {'update_required': false}.\n"
+            "Output ONLY valid JSON. No markdown."
+        )
+        prompt = f"Reason: {reason}\nOriginal Text: {original_text}"
+        raw = generate_with_retry(model='gemini-2.5-flash', contents=prompt, system_instruction=sys_extract, temp=0.0)
+        if raw and raw.strip():
+            import re
+            json_match = re.search(r'```(?:json)?\s*([\s\S]*?)```', raw)
+            json_str = json_match.group(1) if json_match else raw.strip()
+            try:
+                return json.loads(json_str)
+            except Exception:
+                pass
+        return {'update_required': False}
 
     # ── Header ──
     st.markdown("""
@@ -3932,9 +4015,25 @@ with tabs[10]:
             st.session_state['qcd_accepted_rules'] = prev_session.get('accepted_rules', [])
             st.session_state['qcd_vi_paragraphs'] = prev_session.get('vi_paragraphs', [])
             st.session_state['qcd_metadata'] = prev_session.get('metadata', {})
+            if 'vi_text' in prev_session:
+                st.session_state['qcd_vi_input'] = prev_session['vi_text']
+            if 'kr_text' in prev_session:
+                st.session_state['qcd_kr_input'] = prev_session['kr_text']
+            if 'en_text' in prev_session:
+                st.session_state['qcd_en_input'] = prev_session['en_text']
 
     # ── Input Section ──
     st.markdown("#### 📥 Dữ liệu QC Diff")
+
+    # Quick action buttons for input
+    col_in_btn1, col_in_btn2 = st.columns([1, 3])
+    with col_in_btn1:
+        if st.button("📂 Nạp file hệ thống", key="qcd_load_files_btn", help="Nạp nội dung từ các file vi_final.txt, kor.txt, eng.txt"):
+            st.session_state['qcd_vi_input'] = load_file(PATHS['output']) or load_file(PATHS['vi_qc'])
+            st.session_state['qcd_kr_input'] = load_file(PATHS['kor_trans']) or load_file(PATHS['kor_qc'])
+            st.session_state['qcd_en_input'] = load_file(PATHS['eng_trans']) or load_file(PATHS['eng_qc'])
+            st.success("✅ Đã nạp dữ liệu từ file hệ thống!")
+            st.rerun()
 
     qcd_vi = st.text_area("Bản dịch Tiếng Việt:", height=200, key="qcd_vi_input",
                            placeholder="Dán toàn bộ bản dịch tiếng Việt cần QC vào đây...")
@@ -4461,13 +4560,25 @@ with tabs[10]:
         if st.session_state.get('qcd_corrected'):
             st.text_area("Bản dịch đã sửa:", value=st.session_state['qcd_corrected'],
                          height=300, key="qcd_corrected_area")
-            st.download_button(
-                "⬇ Tải xuống bản sửa (.txt)",
-                data=st.session_state['qcd_corrected'],
-                file_name=f"vi_qc_corrected_{now_gmt7().strftime('%Y%m%d_%H%M')}.txt",
-                mime="text/plain",
-                key="qcd_download"
-            )
+            c_d1, c_d2 = st.columns(2)
+            with c_d1:
+                st.download_button(
+                    "⬇ Tải xuống bản sửa (.txt)",
+                    data=st.session_state.get('qcd_corrected_area', st.session_state['qcd_corrected']),
+                    file_name=f"vi_qc_corrected_{now_gmt7().strftime('%Y%m%d_%H%M')}.txt",
+                    mime="text/plain",
+                    key="qcd_download",
+                    use_container_width=True
+                )
+            with c_d2:
+                if st.button("💾 Lưu đè vào vi_final.txt", key="qcd_save_to_final", type="primary", use_container_width=True):
+                    final_text = st.session_state.get('qcd_corrected_area', st.session_state['qcd_corrected'])
+                    # Backup old vi_final.txt if exists
+                    if os.path.exists(PATHS['output']):
+                        import shutil
+                        shutil.copy(PATHS['output'], PATHS['output_prev'])
+                    save_file(PATHS['output'], final_text)
+                    st.success("💾 Đã lưu đè vào `output/vi_final.txt`! (Bản cũ đã lưu tại `vi_previous.txt`)")
 
         # ══════════════════════════════════════════════════════════════
         # PHASE 3: CHAPTER SYNCHRONIZATION
@@ -4533,12 +4644,13 @@ with tabs[10]:
                             continue
 
                         for old_frag, new_frag in change_pairs:
-                            # Case-insensitive search
-                            if old_frag.lower() in para.lower():
-                                # Apply replacement (preserve case of surrounding text)
-                                pattern = _re.compile(_re.escape(old_frag), _re.IGNORECASE)
+                            # Case-insensitive search with word boundary boundaries
+                            left_boundary = r'\b' if old_frag[0].isalnum() else ''
+                            right_boundary = r'\b' if old_frag[-1].isalnum() else ''
+                            pattern = _re.compile(left_boundary + _re.escape(old_frag) + right_boundary, _re.IGNORECASE)
+                            
+                            if pattern.search(para):
                                 new_text = pattern.sub(new_frag, para)
-
                                 if new_text != para:
                                     # Check for conflict
                                     conflict = pidx in approved_para_indices
@@ -4889,6 +5001,12 @@ with tabs[10]:
         # ── Clear session ──
         st.divider()
         if st.button("🗑️ Xóa session QC Diff hiện tại", key="qcd_clear"):
+            latest = os.path.join(PATHS['qc_diff_dir'], 'latest_session.json')
+            if os.path.exists(latest):
+                try:
+                    os.remove(latest)
+                except Exception:
+                    pass
             for k in list(st.session_state.keys()):
                 if k.startswith('qcd_'):
                     del st.session_state[k]

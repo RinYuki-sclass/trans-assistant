@@ -44,7 +44,7 @@ Kang Soyoung-ssi"
 Trưởng nhóm Seok"
 - Han Yoojin goi Seok Hayan la: "tôi - cô"
 - Han Yoojin goi Yoon Yoon la: "tôi - cậu"
-- Han Yoojin goi Yoo Myungwoo la: "tôi - cậu
+- Han Yoojin goi Yoo Myungwoo la: "tớ - cậu
 Myungwoo-yah"
 - Han Yoojin goi Ma thú con la: "ta - con"
 - Han Yoojin goi Do Hamin la: "tôi - anh"
@@ -239,7 +239,7 @@ Han Yoojin-ssi"
 Đại ca Kim"
 - Yoon Yoon goi Park Yerim la: "tôi - cô"
 - Yoon Yoon goi Noah Rugir la: "tôi - cậu"
-- Yoo Myungwoo goi Han Yoojin la: "tôi - cậu
+- Yoo Myungwoo goi Han Yoojin la: "tớ - cậu
 Yoojin-ahi"
 - Yoo Myungwoo goi Han Yoohyun la: "tôi - cậu
 Thợ săn Han Yoohyun"
