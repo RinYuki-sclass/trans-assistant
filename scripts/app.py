@@ -342,6 +342,14 @@ def increment_rpd(key_idx: int, model: str):
         data['counts'][k] = data['counts'].get(k, 0) + 1
         _save_rpd_counter(data)
 
+def increment_rpd_to_limit(key_idx: int, model: str, limit: int):
+    """Set request count to limit to mark it as exhausted. Thread-safe."""
+    with _rpd_lock:
+        data = _load_rpd_counter()
+        k = f"{key_idx}_{model}"
+        data['counts'][k] = max(data['counts'].get(k, 0), limit)
+        _save_rpd_counter(data)
+
 def get_rpd_counts() -> dict:
     """Return counts dict for today."""
     with _rpd_lock:
@@ -390,6 +398,11 @@ class GeminiKeyRotator:
         """Permanently disable a key for this session (e.g. 403 Leaked)."""
         with self._lock:
             self._blacklisted.add(idx)
+
+    def mark_exhausted(self, idx: int, model: str):
+        """Set request count in RPD file to the limit so it's skipped for this model."""
+        lim = RPD_LIMITS.get(model, 20)
+        increment_rpd_to_limit(idx, model, lim)
 
     def is_exhausted(self, model: str, threshold: float = 0.95) -> bool:
         """True if ALL keys have reached their RPD limit for this model."""
@@ -476,6 +489,13 @@ def generate_with_retry(model, contents, system_instruction, status_w=None, retr
 
     for i in range(retries):
         if rotator:
+            # Check if model has become exhausted dynamically
+            if rotator.is_exhausted(model):
+                for fallback in model_chain:
+                    if not rotator.is_exhausted(fallback):
+                        if status_w: status_w.warning(f"⚠️ `{model}` hết lượt! Chuyển sang dự phòng `{fallback}`.")
+                        model = fallback
+                        break
             rotator.ensure_best_key(model)
             active_client = rotator.current
             key_idx = rotator.current_idx
@@ -506,6 +526,10 @@ def generate_with_retry(model, contents, system_instruction, status_w=None, retr
                     if status_w: status_w.error(f"☠️ [{key_label}] Key duy nhất đã bị khóa! Hãy thay Key mới.")
                     return ""
             elif "429" in err_str or "503" in err_str or "unavailable" in err_str.lower() or "quota" in err_str.lower() or "resource_exhausted" in err_str.lower():
+                # Mark this key/model as exhausted if it's a quota / resource exhausted error
+                if rotator and hasattr(rotator, 'mark_exhausted'):
+                    if "quota" in err_str.lower() or "429" in err_str or "resource_exhausted" in err_str.lower():
+                        rotator.mark_exhausted(key_idx, model)
                 if rotator.total > 1:
                     new_idx = rotator.rotate(model)
                     if status_w:
@@ -1031,8 +1055,16 @@ with tabs[2]:
             with c1: kr_t = st.text_area("Tiếng Hàn", height=200, key="q_kr")
             with c2: en_t = st.text_area("Tiếng Anh (tùy chọn)", height=200, key="q_en")
 
+        qc_model = st.selectbox(
+            "🤖 AI Model (QC):",
+            ["gemini-2.5-flash", "gemini-2.0-flash", "gemini-3.1-flash-lite"],
+            index=0,
+            key="q_model_sel",
+            help="gemini-2.5-flash (tức 1.5-flash) thường ổn định và ít lỗi token nhất."
+        )
+
         if st.button("🔍 Chạy QC", type="primary"):
-            target_model = "gemini-2.5-pro"
+            target_model = qc_model
             log_action("QC Review", f"VI: {len((vi_t or '').splitlines())} dòng | KR: {len((kr_t or '').splitlines())} dòng | Model: {target_model}")
             if not vi_t.strip():
                 st.error("❌ Thiếu Bản dịch VI để đối chiếu!")
@@ -3913,7 +3945,7 @@ with tabs[10]:
         qcd_en = st.text_area("Tiếng Anh (tùy chọn):", height=180, key="qcd_en_input")
 
     # ── Settings ──
-    qcd_s1, qcd_s2 = st.columns(2)
+    qcd_s1, qcd_s2, qcd_s3 = st.columns([1, 1, 1])
     with qcd_s1:
         qcd_auto_threshold = st.slider(
             "Auto-approve threshold (%)", 90, 100, 97, 1, key="qcd_auto_thresh",
@@ -3923,6 +3955,14 @@ with tabs[10]:
         qcd_chunk_size = st.slider(
             "Đoạn văn / chunk", 10, 40, 20, 5, key="qcd_chunk_sz",
             help="Số đoạn văn gửi cho AI mỗi lần. Nhỏ hơn = chính xác hơn nhưng chậm hơn."
+        )
+    with qcd_s3:
+        qcd_model = st.selectbox(
+            "🤖 AI Model (QC):",
+            ["gemini-2.5-flash", "gemini-2.0-flash", "gemini-3.1-flash-lite"],
+            index=0,
+            key="qcd_model_sel",
+            help="gemini-2.5-flash (tức 1.5-flash) thường ổn định và ít lỗi token nhất."
         )
 
     # ══════════════════════════════════════════════════════════════
@@ -3947,7 +3987,7 @@ with tabs[10]:
         chunk_sz = qcd_chunk_size
         n_chunks = (n_paras + chunk_sz - 1) // chunk_sz
 
-        target_model = "gemini-2.5-pro"
+        target_model = qcd_model
         log_action("QC Diff", f"VI: {n_paras} đoạn | {n_chunks} chunks | Model: {target_model}")
 
         all_suggestions = []
