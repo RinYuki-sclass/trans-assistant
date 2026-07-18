@@ -2325,7 +2325,7 @@ with tabs[9]:
     st.subheader("📋 Reformat Script")
     st.caption("Lọc script dịch: giữ lại chỉ phần dịch tiếng Việt, bỏ header [Khung thoại] và dòng KR:.")
 
-    def reformat_translation_script(raw: str) -> str:
+    def reformat_translation_script(raw: str, case_mode: str) -> str:
         import re
         result = []
         for line in raw.splitlines():
@@ -2336,8 +2336,29 @@ with tabs[9]:
                 continue
             if re.match(r'^KR\s*:', stripped):
                 continue
+            
+            # Xử lý viết hoa theo chế độ được chọn
+            if case_mode == "VIẾT HOA TOÀN BỘ":
+                line = line.upper()
+            elif case_mode == "Viết hoa chữ cái đầu câu":
+                parts = re.split(r'((?<=[.!?])\s+)', line)
+                for i in range(0, len(parts), 2):
+                    s = parts[i]
+                    if s.isupper():
+                        s = s.lower()
+                    parts[i] = re.sub(r'([^\W\d_])', lambda m: m.group(1).upper(), s, count=1)
+                line = "".join(parts)
+                
             result.append(line)
         return '\n'.join(result)
+
+    case_mode = st.radio(
+        "Chế độ viết hoa (Case Mode):",
+        options=["Giữ nguyên (As-is)", "VIẾT HOA TOÀN BỘ", "Viết hoa chữ cái đầu câu"],
+        index=0,
+        horizontal=True,
+        key="reformat_case_mode"
+    )
 
     rf_input = st.text_area(
         "Dán script dịch vào đây:",
@@ -2348,7 +2369,7 @@ with tabs[9]:
 
     if st.button("▶ Reformat", key="reformat_btn", type="primary"):
         if rf_input.strip():
-            reformatted = reformat_translation_script(rf_input)
+            reformatted = reformat_translation_script(rf_input, case_mode)
             st.session_state['reformat_output'] = reformatted
         else:
             st.warning("Vui lòng dán script vào ô trên.")
