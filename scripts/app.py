@@ -169,6 +169,7 @@ PATHS = {
     'output_prev': os.path.join(BASE_DIR, 'output', 'vi_previous.txt'),
     'qc_report': os.path.join(BASE_DIR, 'output', 'qc_report.txt'),
     'new_terms': os.path.join(BASE_DIR, 'output', 'new_glossary_terms.txt'),
+    'qc_diff_dir': os.path.join(BASE_DIR, 'output', 'qc_diff'),
 }
 
 HIDE_LOCAL_FILE_OPTION = str(get_env("HIDE_LOCAL_FILE_OPTION")).strip().lower() in ("true", "1", "yes")
@@ -265,6 +266,32 @@ st.markdown("""
         filter: none !important;
         transition: none !important;
     }
+    /* QC Diff Review cards */
+    .qcd-card {
+        border: 1px solid #D1CFC7; border-radius: 12px; padding: 1rem 1.2rem;
+        margin-bottom: 0.8rem; background: #F8F6F0; transition: border-color 0.2s;
+    }
+    .qcd-card:hover { border-color: #0D9488; }
+    .qcd-card-approved { border-color: #2e7d32; background: rgba(46,125,50,0.04); }
+    .qcd-card-discarded { border-color: #c62828; background: rgba(198,40,40,0.04); opacity: 0.6; }
+    .qcd-card-edited { border-color: #a6701e; background: rgba(166,112,30,0.04); }
+    .qcd-card-manual { border-color: #d08400; background: rgba(208,132,0,0.06); }
+    .qcd-diff-del { background: rgba(198,40,40,0.12); color: #c62828; text-decoration: line-through; padding: 1px 3px; border-radius: 3px; }
+    .qcd-diff-add { background: rgba(46,125,50,0.12); color: #2e7d32; padding: 1px 3px; border-radius: 3px; font-weight: 500; }
+    .qcd-badge {
+        display: inline-block; padding: 2px 8px; border-radius: 10px; font-size: 11px;
+        font-weight: 600; letter-spacing: 0.3px;
+    }
+    .qcd-badge-name { background: rgba(30,136,229,0.15); color: #1e88e5; }
+    .qcd-badge-glossary { background: rgba(92,86,77,0.15); color: #5c564d; }
+    .qcd-badge-honorific { background: rgba(166,112,30,0.15); color: #a6701e; }
+    .qcd-badge-pronoun { background: rgba(138,59,168,0.15); color: #8a3ba8; }
+    .qcd-badge-typo { background: rgba(198,40,40,0.15); color: #c62828; }
+    .qcd-badge-grammar { background: rgba(46,125,50,0.15); color: #2e7d32; }
+    .qcd-badge-spacing { background: rgba(140,130,115,0.15); color: #8c8273; }
+    .qcd-badge-punctuation { background: rgba(216,67,21,0.15); color: #d84315; }
+    .qcd-badge-consistency { background: rgba(13,148,136,0.15); color: #0D9488; }
+    .qcd-badge-needs_manual_review { background: rgba(208,132,0,0.2); color: #d08400; }
 </style>
 """, unsafe_allow_html=True)
 
@@ -729,7 +756,7 @@ with st.sidebar:
 # ============================================================
 # MAIN NAVIGATION (Persistent on F5)
 # ============================================================
-MENU_ITEMS = ["🏠 Hướng dẫn", "📝 Dịch Thuật", "🔍 QC Review", "📊 So Sánh", "📖 Đối Chiếu", "🎨 Truyện Tranh", "📥 Tải Truyện", "📚 Glossary", "✂️ Cắt Ảnh", "📋 Reformat Script", "🤖 Novel Agent"]
+MENU_ITEMS = ["🏠 Hướng dẫn", "📝 Dịch Thuật", "🔍 QC Review", "📊 So Sánh", "📖 Đối Chiếu", "🎨 Truyện Tranh", "📥 Tải Truyện", "📚 Glossary", "✂️ Cắt Ảnh", "📋 Reformat Script", "🔎 QC Diff", "🤖 Novel Agent"]
 
 tabs = st.tabs(MENU_ITEMS)
 current_menu = None # Not used
@@ -769,6 +796,70 @@ with tabs[0]:
     #### **4. 📖 Đối Chiếu (Side-by-Side Review)**
     - Hỗ trợ dàn trang **Bản Dịch Tiếng Việt** nằm CẠNH **Bản Dịch Tiếng Anh/Hàn** để Edit/QC tự soát.
     - *Có tích hợp Highlight màu* cho những từ ngữ thuộc phạm vi Glossary, giúp bạn soi lỗi thuật ngữ siêu dễ.
+
+    #### **5. 🤖 Novel Agent (Dịch Tiểu Thuyết Thông Minh)**
+    - Hệ thống dịch tiểu thuyết dài hạn với **bộ nhớ xuyên suốt** — AI ghi nhớ nhân vật, thuật ngữ, mối quan hệ qua từng chương.
+    - Quy trình **Human-in-the-loop**: AI phân tích trước, hỏi bạn những chỗ mơ hồ, rồi mới dịch — đảm bảo chất lượng cao nhất.
+    - Gồm **6 sub-tab** với luồng làm việc tuần tự:
+
+    **📁 Projects** — Tạo & quản lý project tiểu thuyết  
+    - Bấm **🚀 Tạo Project** để tạo mới: đặt tên, chọn ngôn ngữ gốc/dịch, viết Style Guide (tùy chọn).  
+    - Điều chỉnh **Ngưỡng tự động dịch (%)**: AI sẽ hỏi bạn khi confidence thấp hơn ngưỡng này.  
+    - Chọn **Kích thước chunk** (số đoạn/chunk) — tiểu thuyết dài nên để 15-25.  
+    - Bấm **✅ Chọn** để kích hoạt project trước khi sang các tab khác.
+
+    **📥 Import Chapter** — Nhập chương mới vào project  
+    - Đặt Chapter ID (tự động tăng: ch_001, ch_002...) và tiêu đề chương (tùy chọn).  
+    - Dán văn bản gốc hoặc upload file .txt/.md → Hệ thống tự cắt thành chunks.  
+    - Bấm **💾 Lưu Chapter & Tạo Chunks** để hoàn tất.
+
+    **🔬 Analyze** — AI phân tích chương TRƯỚC khi dịch  
+    - Chọn chapter rồi bấm **🔬 Chạy Context Analysis**.  
+    - AI sẽ phát hiện: nhân vật mới, địa điểm, thuật ngữ, xưng hô mơ hồ, sự kiện timeline.  
+    - Những mục có confidence thấp sẽ hiện ở mục **❓ Cần làm rõ** → Chuyển sang tab Clarifications.
+
+    **❓ Clarifications** — Trả lời câu hỏi của AI  
+    - AI liệt kê các thuật ngữ/xưng hô cần bạn chọn cách dịch (radio button hoặc nhập tay).  
+    - Thuật ngữ đã được **approved** trong Glossary Memory sẽ tự động bỏ qua — AI đã học!  
+    - Bấm **✅ Lưu tất cả câu trả lời** khi xong.
+
+    **🌐 Translate** — Dịch chapter  
+    - Kiểm tra pre-flight (Chunks ✅, Analysis ✅, Clarifications ✅) rồi chọn AI Model.  
+    - Bấm **🌐 Dịch N chunks** để bắt đầu — AI dịch song song, có context chéo giữa các chunk.  
+    - Sau khi dịch xong: review bản dịch, tải về .md, và bấm **🧠 Accept & Update Memory** để AI cập nhật bộ nhớ.  
+    - Hỗ trợ **Batch translate** nhiều chapter cùng lúc.
+
+    **🧠 Memory** — Bộ nhớ dài hạn của novel  
+    - **Nhân vật**: Tên, giới tính, bí danh, xưng hô, phong cách nói — chỉnh sửa trực tiếp trong bảng.  
+    - **Glossary**: Thuật ngữ gốc → dịch, loại, confidence, trạng thái Approved — có thể xuất ra .md.  
+    - **Timeline**: Các sự kiện quan trọng theo chapter.  
+    - **Quan hệ**: Biểu đồ quan hệ giữa các nhân vật.  
+    - **Arc Summary**: Tóm tắt các arc/chương đã dịch.  
+    - **Cấu hình Project**: Chỉnh Style Guide, ngưỡng confidence, chunk size...  
+    - *Lưu ý: Memory được tích lũy qua từng chapter — càng dịch nhiều, AI càng chính xác!*
+
+    #### **6. 🔎 QC Diff Review (Sửa lỗi dịch kiểu Git Diff)**
+    - AI **không viết lại** cả đoạn — chỉ đề xuất **sửa tối thiểu** (minimal patch) giống Git diff.
+    - Mỗi đoạn văn hiện dưới dạng **review card** với: diff inline (đỏ = xóa, xanh = thêm), loại lỗi, confidence, lý do.
+    - Quy trình sử dụng:
+
+    **Bước 1 — Nhập dữ liệu:**  
+    - Dán bản dịch VI, source KR và EN (tùy chọn) vào các ô tương ứng.  
+    - Điều chỉnh **Auto-approve threshold** (mặc định 97%): sửa lỗi Typo/Spacing có confidence ≥ ngưỡng sẽ tự động approve.
+
+    **Bước 2 — Chạy QC Diff:**  
+    - Bấm **🔬 Chạy QC Diff** → AI phân tích từng chunk, trả về danh sách sửa lỗi dạng JSON.  
+    - Nếu >30% đoạn cần thay đổi → AI đánh dấu "⚠️ Cần kiểm tra thủ công" thay vị sửa.
+
+    **Bước 3 — Duyệt sửa lỗi:**  
+    - Mỗi card có 3 nút: **✅ Approve** / **❌ Discard** / **✏️ Edit** (sửa tay).  
+    - Lọc theo: trạng thái (Pending/Approved/Discarded), loại lỗi (Tên/Glossary/Typo/...), confidence.  
+    - **Batch approve**: bấm "Approve tất cả đang hiển thị" hoặc "Áp dụng cho N đoạn tương tự".
+
+    **Bước 4 — Xuất bản dịch đã sửa:**  
+    - Bấm **📥 Tạo bản dịch đã sửa** → áp dụng tất cả sửa lỗi đã Approve/Edit vào bản gốc.  
+    - Tải xuống file .txt đã sửa.  
+    - Mục **📋 Quy tắc đã học** hiển thị các quy tắc AI đã học từ reviewer (icon 👤 = sửa tay của bạn).
 
     ---
 
@@ -2422,8 +2513,8 @@ def na_save_chapter_as_md(slug: str, chapter_id: str, content: str):
         f.write(md_content)
     return out_path
 
-# =================== TAB 10 RENDERING ===================
-with tabs[10]:
+# =================== TAB 11 RENDERING ===================
+with tabs[11]:
     if not client:
         st.warning("⚠️ Cấu hình API Key trong `.env` trước.")
         st.stop()
@@ -3696,3 +3787,1048 @@ with tabs[10]:
                     na_save_config(na_proj, na_cfg)
                     st.success("✅ Đã lưu cấu hình project!")
                     st.rerun()
+
+                    na_cfg['chunk_size'] = new_chunk
+                    na_save_config(na_proj, na_cfg)
+                    st.success("✅ Đã lưu cấu hình project!")
+                    st.rerun()
+
+# =================== TAB 10: QC DIFF REVIEW ===================
+# ================================================================
+with tabs[10]:
+    if not client:
+        st.warning("⚠️ Cấu hình API Key trong `.env` trước.")
+        st.stop()
+
+    # ── Helper: word-level inline diff ──
+    def qcd_render_word_diff(original: str, suggested: str) -> str:
+        """Render word-level inline diff as HTML with red/green highlights."""
+        import difflib as _dl
+        import html as _html
+        orig_words = original.split()
+        sugg_words = suggested.split()
+        sm = _dl.SequenceMatcher(None, orig_words, sugg_words)
+        parts = []
+        for op, i1, i2, j1, j2 in sm.get_opcodes():
+            if op == 'equal':
+                parts.append(_html.escape(' '.join(orig_words[i1:i2])))
+            elif op == 'delete':
+                parts.append(f"<span class='qcd-diff-del'>{_html.escape(' '.join(orig_words[i1:i2]))}</span>")
+            elif op == 'insert':
+                parts.append(f"<span class='qcd-diff-add'>{_html.escape(' '.join(sugg_words[j1:j2]))}</span>")
+            elif op == 'replace':
+                parts.append(f"<span class='qcd-diff-del'>{_html.escape(' '.join(orig_words[i1:i2]))}</span>")
+                parts.append(f"<span class='qcd-diff-add'>{_html.escape(' '.join(sugg_words[j1:j2]))}</span>")
+        return ' '.join(parts)
+
+    # ── Helper: category badge ──
+    def qcd_badge(category: str) -> str:
+        import html as _html
+        cat_labels = {
+            'name': '🏷️ Tên', 'glossary': '📖 Glossary', 'honorific': '🎭 Xưng hô',
+            'pronoun': '👤 Đại từ', 'typo': '✏️ Typo', 'grammar': '📝 Ngữ pháp',
+            'spacing': '⬜ Khoảng cách', 'punctuation': '❗ Dấu câu',
+            'consistency': '🔄 Nhất quán', 'needs_manual_review': '⚠️ Cần kiểm tra thủ công',
+        }
+        label = cat_labels.get(category, f'❓ {category}')
+        safe_cls = _html.escape(category.lower().replace(' ', '_'))
+        return f"<span class='qcd-badge qcd-badge-{safe_cls}'>{label}</span>"
+
+    # ── Helper: confidence color ──
+    def qcd_conf_color(conf: int) -> str:
+        if conf >= 90: return '#2e7d32'
+        if conf >= 70: return '#a6701e'
+        return '#c62828'
+
+    # ── Helper: save/load QC Diff session ──
+    def qcd_save_session(data: dict):
+        os.makedirs(PATHS['qc_diff_dir'], exist_ok=True)
+        ts = now_gmt7().strftime('%Y%m%d_%H%M%S')
+        path = os.path.join(PATHS['qc_diff_dir'], f'session_{ts}.json')
+        with open(path, 'w', encoding='utf-8') as f:
+            json.dump(data, f, ensure_ascii=False, indent=2)
+        # Also save as latest
+        latest = os.path.join(PATHS['qc_diff_dir'], 'latest_session.json')
+        with open(latest, 'w', encoding='utf-8') as f:
+            json.dump(data, f, ensure_ascii=False, indent=2)
+        return path
+
+    def qcd_load_latest_session() -> dict:
+        latest = os.path.join(PATHS['qc_diff_dir'], 'latest_session.json')
+        if os.path.exists(latest):
+            with open(latest, 'r', encoding='utf-8') as f:
+                return json.load(f)
+        return {}
+
+    # ── Header ──
+    st.markdown("""
+    <div style='background:linear-gradient(135deg,#0D9488 0%,#0B7A70 100%);
+         border:1px solid #D1CFC7;color:#ffffff;border-radius:12px;padding:1.2rem 1.6rem;margin-bottom:1rem'>
+      <h2 style='margin:0;color:#ffffff;font-size:1.5rem'>🔎 QC Diff Review</h2>
+      <p style='margin:0.3rem 0 0;color:rgba(255,255,255,0.85);font-size:0.9rem'>
+        AI tạo bản sửa tối thiểu (minimal patch) · Duyệt từng đoạn · Batch approve · Học từ reviewer
+      </p>
+    </div>
+    """, unsafe_allow_html=True)
+
+    # ── Load previous session into session_state if not already loaded ──
+    if 'qcd_suggestions' not in st.session_state:
+        prev_session = qcd_load_latest_session()
+        if prev_session.get('suggestions'):
+            st.session_state['qcd_suggestions'] = prev_session['suggestions']
+            st.session_state['qcd_accepted_rules'] = prev_session.get('accepted_rules', [])
+            st.session_state['qcd_vi_paragraphs'] = prev_session.get('vi_paragraphs', [])
+            st.session_state['qcd_metadata'] = prev_session.get('metadata', {})
+
+    # ── Input Section ──
+    st.markdown("#### 📥 Dữ liệu QC Diff")
+
+    qcd_vi = st.text_area("Bản dịch Tiếng Việt:", height=200, key="qcd_vi_input",
+                           placeholder="Dán toàn bộ bản dịch tiếng Việt cần QC vào đây...")
+    qcd_c1, qcd_c2 = st.columns(2)
+    with qcd_c1:
+        qcd_kr = st.text_area("Tiếng Hàn (source):", height=180, key="qcd_kr_input")
+    with qcd_c2:
+        qcd_en = st.text_area("Tiếng Anh (tùy chọn):", height=180, key="qcd_en_input")
+
+    # ── Settings ──
+    qcd_s1, qcd_s2 = st.columns(2)
+    with qcd_s1:
+        qcd_auto_threshold = st.slider(
+            "Auto-approve threshold (%)", 90, 100, 97, 1, key="qcd_auto_thresh",
+            help="Tự động approve các sửa lỗi Typo/Spacing có confidence ≥ ngưỡng này"
+        )
+    with qcd_s2:
+        qcd_chunk_size = st.slider(
+            "Đoạn văn / chunk", 10, 40, 20, 5, key="qcd_chunk_sz",
+            help="Số đoạn văn gửi cho AI mỗi lần. Nhỏ hơn = chính xác hơn nhưng chậm hơn."
+        )
+
+    # ══════════════════════════════════════════════════════════════
+    # RUN QC DIFF
+    # ══════════════════════════════════════════════════════════════
+    if st.button("🔬 Chạy QC Diff", type="primary", key="qcd_run_btn"):
+        if not qcd_vi.strip():
+            st.error("❌ Thiếu bản dịch VI!")
+            st.stop()
+        if not qcd_kr.strip() and not qcd_en.strip():
+            st.error("❌ Cần ít nhất KR hoặc EN source!")
+            st.stop()
+
+        glossary = load_file(PATHS['glossary'])
+        notes = load_file(PATHS['notes'])
+
+        vi_paragraphs = [p.strip() for p in qcd_vi.split('\n') if p.strip()]
+        kr_text = qcd_kr.strip()
+        en_text = qcd_en.strip()
+
+        n_paras = len(vi_paragraphs)
+        chunk_sz = qcd_chunk_size
+        n_chunks = (n_paras + chunk_sz - 1) // chunk_sz
+
+        target_model = "gemini-2.5-pro"
+        log_action("QC Diff", f"VI: {n_paras} đoạn | {n_chunks} chunks | Model: {target_model}")
+
+        all_suggestions = []
+        bar = st.progress(0, "Chuẩn bị...")
+        status = st.status(f"🔬 QC Diff — {n_chunks} chunks", expanded=True)
+
+        sys_prompt = (
+            "You are a strict QC editor for Vietnamese novel translation. "
+            "Compare the Vietnamese translation against Korean/English sources and the glossary.\n\n"
+            "CRITICAL RULES:\n"
+            "1. NEVER rewrite an entire paragraph. Only propose MINIMAL, TARGETED edits.\n"
+            "2. Only fix: glossary violations, character names, pronouns, typos, spacing, grammar, honorific consistency, terminology, punctuation.\n"
+            "3. Preserve sentence order and punctuation unless incorrect.\n"
+            "4. If >30% of a paragraph needs changing, set category to 'needs_manual_review' and leave suggested_text same as original.\n"
+            "5. Keep all suffixes (-ie, -ah, -ya, -ssi, -nim, -gun) if present in source.\n"
+            "6. Do NOT add speaker tags not present in source.\n"
+            "7. Output ONLY a valid JSON array. No markdown fences, no explanation.\n\n"
+            "OUTPUT FORMAT — JSON array of objects, one per paragraph that has issues. Skip correct paragraphs.\n"
+            "[\n"
+            "  {\n"
+            '    "paragraph_idx": 1,\n'
+            '    "original_text": "exact original text",\n'
+            '    "suggested_text": "text with minimal fixes applied",\n'
+            '    "category": "name|glossary|honorific|pronoun|typo|grammar|spacing|punctuation|consistency|needs_manual_review",\n'
+            '    "confidence": 96,\n'
+            '    "reason": "Brief explanation referencing glossary/source"\n'
+            "  }\n"
+            "]\n"
+            "If no issues found, return an empty array: []"
+        )
+
+        for ci in range(n_chunks):
+            s, e = ci * chunk_sz, min((ci + 1) * chunk_sz, n_paras)
+            bar.progress(ci / n_chunks, f"Chunk {ci+1}/{n_chunks}...")
+            status.write(f"📋 Chunk {ci+1}/{n_chunks} — đoạn {s+1}~{e}")
+
+            # Build numbered VI chunk
+            vi_chunk_numbered = ""
+            for idx in range(s, e):
+                vi_chunk_numbered += f"{idx+1}: {vi_paragraphs[idx]}\n"
+
+            # KR/EN chunks (best-effort line alignment)
+            kr_lines = kr_text.split('\n') if kr_text else []
+            en_lines = en_text.split('\n') if en_text else []
+            kr_chunk = '\n'.join(kr_lines[s:e]) if kr_lines else "(không có)"
+            en_ref = ""
+            if en_lines:
+                en_ref = f"\n==== EN ====\n{chr(10).join(en_lines[s:e])}\n"
+
+            user_prompt = (
+                f"==== GLOSSARY ====\n{glossary[:3000]}\n\n"
+                f"==== NOTES ====\n{notes[:1500]}\n\n"
+                f"==== KR ====\n{kr_chunk}\n"
+                f"{en_ref}\n"
+                f"==== VI (with paragraph numbers) ====\n{vi_chunk_numbered}"
+            )
+
+            raw = generate_with_retry(target_model, user_prompt, sys_prompt, status, retries=3, temp=0.2)
+
+            if raw and raw.strip():
+                import re as _re
+                # Strip markdown fences if present
+                json_match = _re.search(r'```(?:json)?\s*([\s\S]*?)```', raw)
+                json_str = json_match.group(1) if json_match else raw.strip()
+                # Remove trailing commas
+                json_str = _re.sub(r',\s*([}\]])', r'\1', json_str)
+                try:
+                    chunk_suggestions = json.loads(json_str)
+                    if isinstance(chunk_suggestions, list):
+                        for sug in chunk_suggestions:
+                            sug['id'] = f"sug_{len(all_suggestions)+1:04d}"
+                            sug['status'] = 'pending'
+                            sug['reviewer_edit'] = None
+                            # Ensure confidence is int
+                            sug['confidence'] = int(sug.get('confidence', 80))
+                            all_suggestions.append(sug)
+                        status.write(f"  ⚠️ {len(chunk_suggestions)} sửa lỗi ở chunk {ci+1}")
+                    else:
+                        status.write(f"  ⚠️ Chunk {ci+1}: AI trả về không phải array")
+                except json.JSONDecodeError:
+                    status.write(f"  ❌ Chunk {ci+1}: Lỗi parse JSON")
+                    # Store raw for debugging
+                    all_suggestions.append({
+                        'id': f"sug_err_{ci}", 'paragraph_idx': s+1,
+                        'original_text': f'[Parse error chunk {ci+1}]',
+                        'suggested_text': raw[:500], 'category': 'needs_manual_review',
+                        'confidence': 0, 'reason': 'JSON parse error from AI',
+                        'status': 'pending', 'reviewer_edit': None
+                    })
+            else:
+                status.write(f"  ✅ Chunk {ci+1} — không có lỗi")
+
+            time.sleep(1)
+
+        bar.progress(1.0, "✅ QC Diff hoàn tất!")
+        status.update(label=f"✅ Xong — {len(all_suggestions)} sửa lỗi", state="complete")
+
+        # Auto-approve high-confidence typo/spacing fixes
+        auto_count = 0
+        for sug in all_suggestions:
+            if (sug['confidence'] >= qcd_auto_threshold
+                    and sug.get('category', '') in ('typo', 'spacing', 'punctuation')
+                    and sug['status'] == 'pending'):
+                sug['status'] = 'approved'
+                auto_count += 1
+        if auto_count:
+            st.info(f"🤖 Tự động approve {auto_count} sửa lỗi typo/spacing/punctuation (confidence ≥ {qcd_auto_threshold}%)")
+
+        # Save to session state
+        st.session_state['qcd_suggestions'] = all_suggestions
+        st.session_state['qcd_accepted_rules'] = []
+        st.session_state['qcd_vi_paragraphs'] = vi_paragraphs
+        st.session_state['qcd_metadata'] = {
+            'created_at': now_gmt7().isoformat(),
+            'n_paragraphs': n_paras,
+            'model': target_model,
+        }
+
+        # Save session to file
+        qcd_save_session({
+            'metadata': st.session_state['qcd_metadata'],
+            'suggestions': all_suggestions,
+            'accepted_rules': [],
+            'vi_paragraphs': vi_paragraphs,
+        })
+        st.rerun()
+
+    # ══════════════════════════════════════════════════════════════
+    # DISPLAY RESULTS
+    # ══════════════════════════════════════════════════════════════
+    if st.session_state.get('qcd_suggestions') is not None and len(st.session_state.get('qcd_suggestions', [])) > 0:
+        suggestions = st.session_state['qcd_suggestions']
+        accepted_rules = st.session_state.get('qcd_accepted_rules', [])
+        vi_paragraphs = st.session_state.get('qcd_vi_paragraphs', [])
+        meta = st.session_state.get('qcd_metadata', {})
+
+        # ── Statistics Dashboard ──
+        st.divider()
+        st.markdown("#### 📊 Tổng quan QC Diff")
+
+        total = len(suggestions)
+        n_pending = sum(1 for s in suggestions if s['status'] == 'pending')
+        n_approved = sum(1 for s in suggestions if s['status'] == 'approved')
+        n_discarded = sum(1 for s in suggestions if s['status'] == 'discarded')
+        n_edited = sum(1 for s in suggestions if s['status'] == 'edited')
+        n_manual = sum(1 for s in suggestions if s.get('category') == 'needs_manual_review')
+
+        mc1, mc2, mc3, mc4, mc5 = st.columns(5)
+        mc1.metric("📝 Tổng sửa", total)
+        mc2.metric("⏳ Chờ duyệt", n_pending)
+        mc3.metric("✅ Đã duyệt", n_approved)
+        mc4.metric("❌ Bỏ qua", n_discarded)
+        mc5.metric("✏️ Sửa tay", n_edited)
+
+        # Category breakdown
+        cat_counts = {}
+        for s in suggestions:
+            cat = s.get('category', 'other')
+            cat_counts[cat] = cat_counts.get(cat, 0) + 1
+        if cat_counts:
+            with st.expander("📂 Phân loại chi tiết"):
+                cat_cols = st.columns(min(len(cat_counts), 5))
+                for i, (cat, cnt) in enumerate(sorted(cat_counts.items(), key=lambda x: -x[1])):
+                    cat_labels = {
+                        'name': '🏷️ Tên', 'glossary': '📖 Glossary', 'honorific': '🎭 Xưng hô',
+                        'pronoun': '👤 Đại từ', 'typo': '✏️ Typo', 'grammar': '📝 Ngữ pháp',
+                        'spacing': '⬜ Spacing', 'punctuation': '❗ Dấu câu',
+                        'consistency': '🔄 Nhất quán', 'needs_manual_review': '⚠️ Manual',
+                    }
+                    cat_cols[i % len(cat_cols)].metric(cat_labels.get(cat, cat), cnt)
+
+        # Progress bar
+        if total > 0:
+            reviewed = n_approved + n_discarded + n_edited
+            st.progress(reviewed / total, f"Đã duyệt: {reviewed}/{total} ({reviewed*100//total}%)")
+
+        # ── Filters ──
+        st.divider()
+        fc1, fc2, fc3 = st.columns(3)
+        with fc1:
+            filter_status = st.multiselect(
+                "Lọc theo trạng thái:",
+                ["pending", "approved", "discarded", "edited", "needs_manual_review"],
+                default=["pending"],
+                key="qcd_filter_status",
+                format_func=lambda x: {'pending': '⏳ Chờ duyệt', 'approved': '✅ Đã duyệt',
+                                        'discarded': '❌ Bỏ qua', 'edited': '✏️ Sửa tay',
+                                        'needs_manual_review': '⚠️ Cần kiểm tra'}.get(x, x)
+            )
+        with fc2:
+            all_cats = sorted(set(s.get('category', 'other') for s in suggestions))
+            filter_cats = st.multiselect(
+                "Lọc theo loại:",
+                all_cats,
+                default=[],
+                key="qcd_filter_cats",
+                format_func=lambda x: {
+                    'name': '🏷️ Tên', 'glossary': '📖 Glossary', 'honorific': '🎭 Xưng hô',
+                    'pronoun': '👤 Đại từ', 'typo': '✏️ Typo', 'grammar': '📝 Ngữ pháp',
+                    'spacing': '⬜ Spacing', 'punctuation': '❗ Dấu câu',
+                    'consistency': '🔄 Nhất quán', 'needs_manual_review': '⚠️ Manual',
+                }.get(x, x)
+            )
+        with fc3:
+            filter_conf_min = st.slider("Confidence tối thiểu:", 0, 100, 0, 5, key="qcd_filter_conf")
+
+        # Apply filters
+        filtered = suggestions
+        if filter_status:
+            filtered = [s for s in filtered if s['status'] in filter_status
+                        or (s.get('category') == 'needs_manual_review' and 'needs_manual_review' in filter_status)]
+        if filter_cats:
+            filtered = [s for s in filtered if s.get('category', 'other') in filter_cats]
+        if filter_conf_min > 0:
+            filtered = [s for s in filtered if s.get('confidence', 0) >= filter_conf_min]
+
+        st.caption(f"Hiển thị {len(filtered)}/{total} sửa lỗi")
+
+        # ── Batch Operations ──
+        batch_c1, batch_c2, batch_c3 = st.columns(3)
+        with batch_c1:
+            if st.button("✅ Approve tất cả đang hiển thị", key="qcd_batch_approve"):
+                for s in filtered:
+                    if s['status'] == 'pending':
+                        s['status'] = 'approved'
+                        # Create accepted rule
+                        if s.get('original_text') != s.get('suggested_text'):
+                            accepted_rules.append({
+                                'id': f"rule_{len(accepted_rules)+1:04d}",
+                                'type': s.get('category', 'other'),
+                                'source': s.get('original_text', ''),
+                                'target': s.get('suggested_text', ''),
+                                'created_from_paragraph': s.get('paragraph_idx', 0),
+                                'created_at': now_gmt7().isoformat(),
+                            })
+                st.session_state['qcd_accepted_rules'] = accepted_rules
+                qcd_save_session({
+                    'metadata': meta, 'suggestions': suggestions,
+                    'accepted_rules': accepted_rules, 'vi_paragraphs': vi_paragraphs,
+                })
+                st.rerun()
+        with batch_c2:
+            if st.button("❌ Discard tất cả đang hiển thị", key="qcd_batch_discard"):
+                for s in filtered:
+                    if s['status'] == 'pending':
+                        s['status'] = 'discarded'
+                qcd_save_session({
+                    'metadata': meta, 'suggestions': suggestions,
+                    'accepted_rules': accepted_rules, 'vi_paragraphs': vi_paragraphs,
+                })
+                st.rerun()
+        with batch_c3:
+            if st.button("🔄 Reset tất cả về Pending", key="qcd_batch_reset"):
+                for s in suggestions:
+                    s['status'] = 'pending'
+                    s['reviewer_edit'] = None
+                st.session_state['qcd_accepted_rules'] = []
+                qcd_save_session({
+                    'metadata': meta, 'suggestions': suggestions,
+                    'accepted_rules': [], 'vi_paragraphs': vi_paragraphs,
+                })
+                st.rerun()
+
+        # ── Review Cards ──
+        st.divider()
+        st.markdown(f"#### 📋 Duyệt sửa lỗi ({len(filtered)})")
+
+        for si, sug in enumerate(filtered):
+            sug_id = sug['id']
+            status_val = sug['status']
+            category = sug.get('category', 'other')
+            confidence = sug.get('confidence', 0)
+            conf_color = qcd_conf_color(confidence)
+            para_idx = sug.get('paragraph_idx', '?')
+            original = sug.get('original_text', '')
+            suggested = sug.get('suggested_text', '')
+            reason = sug.get('reason', '')
+
+            # Card CSS class
+            card_class = {
+                'approved': 'qcd-card-approved', 'discarded': 'qcd-card-discarded',
+                'edited': 'qcd-card-edited',
+            }.get(status_val, '')
+            if category == 'needs_manual_review':
+                card_class = 'qcd-card-manual'
+
+            # Status icon
+            status_icon = {
+                'pending': '⏳', 'approved': '✅', 'discarded': '❌', 'edited': '✏️'
+            }.get(status_val, '❓')
+
+            # Render inline diff
+            if category == 'needs_manual_review':
+                diff_html = f"<em style='color:#d08400'>⚠️ Đoạn này cần kiểm tra thủ công — thay đổi quá 30%</em>"
+            elif original == suggested:
+                diff_html = f"<em style='color:#5c564d'>Không có thay đổi</em>"
+            else:
+                diff_html = qcd_render_word_diff(original, suggested)
+
+            st.markdown(f"""
+            <div class='qcd-card {card_class}'>
+              <div style='display:flex;justify-content:space-between;align-items:center;margin-bottom:0.5rem'>
+                <span style='font-weight:600;color:#2D2A26'>Đoạn {para_idx} {status_icon}</span>
+                <div>
+                  {qcd_badge(category)}
+                  <span style='margin-left:8px;color:{conf_color};font-weight:600;font-size:13px'>{confidence}%</span>
+                </div>
+              </div>
+              <div style='font-size:0.92rem;line-height:1.7;color:#2D2A26;margin-bottom:0.3rem'>
+                {diff_html}
+              </div>
+              <div style='font-size:0.8rem;color:#5c564d;margin-top:0.4rem'>
+                💡 {reason}
+              </div>
+            </div>
+            """, unsafe_allow_html=True)
+
+            # Action buttons (only for pending items)
+            if status_val == 'pending':
+                btn_cols = st.columns([1, 1, 1, 3])
+                with btn_cols[0]:
+                    if st.button("✅", key=f"qcd_appr_{sug_id}", help="Approve",
+                                 use_container_width=True):
+                        sug['status'] = 'approved'
+                        # Create accepted rule
+                        if original != suggested:
+                            accepted_rules.append({
+                                'id': f"rule_{len(accepted_rules)+1:04d}",
+                                'type': category,
+                                'source': original,
+                                'target': suggested,
+                                'created_from_paragraph': para_idx,
+                                'created_at': now_gmt7().isoformat(),
+                            })
+                            st.session_state['qcd_accepted_rules'] = accepted_rules
+                        qcd_save_session({
+                            'metadata': meta, 'suggestions': suggestions,
+                            'accepted_rules': accepted_rules, 'vi_paragraphs': vi_paragraphs,
+                        })
+                        st.rerun()
+                with btn_cols[1]:
+                    if st.button("❌", key=f"qcd_disc_{sug_id}", help="Discard",
+                                 use_container_width=True):
+                        sug['status'] = 'discarded'
+                        qcd_save_session({
+                            'metadata': meta, 'suggestions': suggestions,
+                            'accepted_rules': accepted_rules, 'vi_paragraphs': vi_paragraphs,
+                        })
+                        st.rerun()
+                with btn_cols[2]:
+                    if st.button("✏️", key=f"qcd_edit_toggle_{sug_id}", help="Sửa tay",
+                                 use_container_width=True):
+                        st.session_state[f'qcd_editing_{sug_id}'] = True
+
+                # Manual edit input
+                if st.session_state.get(f'qcd_editing_{sug_id}'):
+                    edit_val = st.text_area(
+                        f"Sửa đoạn {para_idx}:",
+                        value=suggested,
+                        height=80,
+                        key=f"qcd_edit_val_{sug_id}"
+                    )
+                    ec1, ec2 = st.columns(2)
+                    with ec1:
+                        if st.button("💾 Lưu sửa", key=f"qcd_edit_save_{sug_id}",
+                                     type="primary", use_container_width=True):
+                            sug['status'] = 'edited'
+                            sug['reviewer_edit'] = edit_val
+                            # Create rule from manual edit (learning from reviewer)
+                            accepted_rules.append({
+                                'id': f"rule_{len(accepted_rules)+1:04d}",
+                                'type': category,
+                                'source': original,
+                                'target': edit_val,
+                                'created_from_paragraph': para_idx,
+                                'reviewer_override': True,
+                                'created_at': now_gmt7().isoformat(),
+                            })
+                            st.session_state['qcd_accepted_rules'] = accepted_rules
+                            del st.session_state[f'qcd_editing_{sug_id}']
+                            qcd_save_session({
+                                'metadata': meta, 'suggestions': suggestions,
+                                'accepted_rules': accepted_rules, 'vi_paragraphs': vi_paragraphs,
+                            })
+                            st.rerun()
+                    with ec2:
+                        if st.button("❌ Hủy", key=f"qcd_edit_cancel_{sug_id}",
+                                     use_container_width=True):
+                            del st.session_state[f'qcd_editing_{sug_id}']
+                            st.rerun()
+
+            # Batch apply option for approved items
+            elif status_val == 'approved' and original != suggested:
+                # Check if there are other paragraphs with the same original text pattern
+                same_pattern_count = sum(
+                    1 for s2 in suggestions
+                    if s2['id'] != sug_id
+                    and s2['status'] == 'pending'
+                    and s2.get('original_text', '') != s2.get('suggested_text', '')
+                    and original in s2.get('original_text', '')
+                )
+                if same_pattern_count > 0:
+                    if st.button(
+                        f"🔄 Áp dụng cho {same_pattern_count} đoạn tương tự",
+                        key=f"qcd_batch_{sug_id}",
+                        help="Approve tất cả các đoạn có cùng lỗi"
+                    ):
+                        for s2 in suggestions:
+                            if (s2['id'] != sug_id
+                                    and s2['status'] == 'pending'
+                                    and original in s2.get('original_text', '')):
+                                s2['status'] = 'approved'
+                        qcd_save_session({
+                            'metadata': meta, 'suggestions': suggestions,
+                            'accepted_rules': accepted_rules, 'vi_paragraphs': vi_paragraphs,
+                        })
+                        st.rerun()
+
+        # ── Accepted Rules ──
+        if accepted_rules:
+            st.divider()
+            with st.expander(f"📋 Quy tắc đã học ({len(accepted_rules)})", expanded=False):
+                for rule in accepted_rules:
+                    override_badge = " 👤" if rule.get('reviewer_override') else ""
+                    cat_labels = {
+                        'name': '🏷️', 'glossary': '📖', 'honorific': '🎭',
+                        'pronoun': '👤', 'typo': '✏️', 'grammar': '📝',
+                    }
+                    icon = cat_labels.get(rule.get('type', ''), '❓')
+                    st.markdown(
+                        f"- {icon} `{rule.get('source', '')[:50]}` → "
+                        f"**{rule.get('target', '')[:50]}** "
+                        f"(đoạn {rule.get('created_from_paragraph', '?')}){override_badge}"
+                    )
+
+                # ── Apply & Export ──
+        st.divider()
+        st.markdown("#### 📥 Áp dụng & Xuất bản dịch đã sửa")
+
+        if st.button("📥 Tạo bản dịch đã sửa", type="primary", key="qcd_apply_btn"):
+            if not vi_paragraphs:
+                st.error("❌ Không có dữ liệu bản dịch gốc!")
+            else:
+                corrected = list(vi_paragraphs)  # copy
+
+                # Apply approved and edited suggestions
+                applied_count = 0
+                for sug in suggestions:
+                    if sug['status'] in ('approved', 'edited'):
+                        pidx = sug.get('paragraph_idx', 0)
+                        if 1 <= pidx <= len(corrected):
+                            if sug['status'] == 'edited' and sug.get('reviewer_edit'):
+                                corrected[pidx - 1] = sug['reviewer_edit']
+                            elif sug.get('suggested_text') and sug['original_text'] != sug['suggested_text']:
+                                corrected[pidx - 1] = sug['suggested_text']
+                            applied_count += 1
+
+                # Also apply approved sync candidates
+                sync_cands = st.session_state.get('qcd_sync_candidates', [])
+                for sc in sync_cands:
+                    if sc.get('status') == 'approved':
+                        pidx = sc.get('paragraph_idx', 0)
+                        if 1 <= pidx <= len(corrected):
+                            corrected[pidx - 1] = sc.get('new_text', corrected[pidx - 1])
+                            applied_count += 1
+
+                corrected_text = '\n'.join(corrected)
+                st.session_state['qcd_corrected'] = corrected_text
+                st.success(f"✅ Đã áp dụng {applied_count} sửa lỗi (bao gồm sync)!")
+
+        if st.session_state.get('qcd_corrected'):
+            st.text_area("Bản dịch đã sửa:", value=st.session_state['qcd_corrected'],
+                         height=300, key="qcd_corrected_area")
+            st.download_button(
+                "⬇ Tải xuống bản sửa (.txt)",
+                data=st.session_state['qcd_corrected'],
+                file_name=f"vi_qc_corrected_{now_gmt7().strftime('%Y%m%d_%H%M')}.txt",
+                mime="text/plain",
+                key="qcd_download"
+            )
+
+        # ══════════════════════════════════════════════════════════════
+        # PHASE 3: CHAPTER SYNCHRONIZATION
+        # ══════════════════════════════════════════════════════════════
+        if accepted_rules:
+            st.divider()
+            st.markdown("""
+            <div style='background:linear-gradient(135deg,#e0f2f1 0%,#b2dfdb 100%);
+                 border:1px solid #0D9488;border-radius:12px;padding:1rem 1.4rem;margin-bottom:1rem'>
+              <h4 style='margin:0;color:#0B7A70;font-size:1.2rem'>🔄 Chapter Synchronization</h4>
+              <p style='margin:0.3rem 0 0;color:#5c564d;font-size:0.85rem'>
+                Áp dụng các quy tắc đã duyệt vào toàn bộ chương — phát hiện xung đột, xem trước trước khi sửa
+              </p>
+            </div>
+            """, unsafe_allow_html=True)
+
+            # Helper: find all occurrences in paragraphs using accepted rules
+            def qcd_find_sync_candidates(paragraphs, rules, existing_suggestions):
+                import re as _re
+                candidates = []
+                # Build set of paragraph indices that have already been reviewed
+                reviewed_para_indices = set()
+                for s in existing_suggestions:
+                    if s.get('status') in ('approved', 'edited', 'discarded'):
+                        reviewed_para_indices.add(s.get('paragraph_idx', 0))
+
+                # Build set of paragraph indices with approved suggestions (for conflict detection)
+                approved_para_indices = set()
+                for s in existing_suggestions:
+                    if s.get('status') in ('approved', 'edited'):
+                        approved_para_indices.add(s.get('paragraph_idx', 0))
+
+                for rule in rules:
+                    source = rule.get('source', '')
+                    target = rule.get('target', '')
+                    rule_type = rule.get('type', 'other')
+                    if not source or not target or source == target:
+                        continue
+
+                    # Extract the key diff pattern from rule
+                    # For short rules (single word/phrase), search directly
+                    # For full paragraph rules, use word-level extraction
+                    import difflib as _dl
+                    src_words = source.split()
+                    tgt_words = target.split()
+                    sm = _dl.SequenceMatcher(None, src_words, tgt_words)
+
+                    # Extract changed word pairs
+                    change_pairs = []
+                    for op, i1, i2, j1, j2 in sm.get_opcodes():
+                        if op in ('replace', 'delete', 'insert'):
+                            old_frag = ' '.join(src_words[i1:i2]) if i1 < i2 else ''
+                            new_frag = ' '.join(tgt_words[j1:j2]) if j1 < j2 else ''
+                            if old_frag:  # Only search for fragments that exist
+                                change_pairs.append((old_frag, new_frag))
+
+                    if not change_pairs:
+                        continue
+
+                    for pidx, para in enumerate(paragraphs, 1):
+                        # Skip the paragraph that created this rule
+                        if pidx == rule.get('created_from_paragraph', -1):
+                            continue
+
+                        for old_frag, new_frag in change_pairs:
+                            # Case-insensitive search
+                            if old_frag.lower() in para.lower():
+                                # Apply replacement (preserve case of surrounding text)
+                                pattern = _re.compile(_re.escape(old_frag), _re.IGNORECASE)
+                                new_text = pattern.sub(new_frag, para)
+
+                                if new_text != para:
+                                    # Check for conflict
+                                    conflict = pidx in approved_para_indices
+                                    # Confidence: higher if exact case match
+                                    conf = 95 if old_frag in para else 85
+
+                                    cand_id = f"sync_{len(candidates)+1:04d}"
+                                    candidates.append({
+                                        'id': cand_id,
+                                        'paragraph_idx': pidx,
+                                        'matched_rule': rule['id'],
+                                        'rule_type': rule_type,
+                                        'old_fragment': old_frag,
+                                        'new_fragment': new_frag,
+                                        'old_text': para,
+                                        'new_text': new_text,
+                                        'confidence': conf,
+                                        'conflict': conflict,
+                                        'status': 'pending',
+                                    })
+
+                # Deduplicate by paragraph_idx + old_fragment
+                seen = set()
+                deduped = []
+                for c in candidates:
+                    key = (c['paragraph_idx'], c['old_fragment'])
+                    if key not in seen:
+                        seen.add(key)
+                        deduped.append(c)
+
+                return deduped
+
+            # Run sync button
+            if st.button("🔄 Quét Synchronization", type="primary", key="qcd_run_sync",
+                         help="Tìm tất cả đoạn trong chương có cùng lỗi với các quy tắc đã duyệt"):
+                sync_candidates = qcd_find_sync_candidates(vi_paragraphs, accepted_rules, suggestions)
+                st.session_state['qcd_sync_candidates'] = sync_candidates
+
+                # Save to session
+                session_data = {
+                    'metadata': meta, 'suggestions': suggestions,
+                    'accepted_rules': accepted_rules, 'vi_paragraphs': vi_paragraphs,
+                    'sync_candidates': sync_candidates,
+                    'revisions': st.session_state.get('qcd_revisions', []),
+                }
+                qcd_save_session(session_data)
+
+                if sync_candidates:
+                    st.success(f"🔍 Tìm thấy **{len(sync_candidates)}** đoạn cần đồng bộ!")
+                else:
+                    st.info("✅ Không tìm thấy đoạn nào cần đồng bộ thêm.")
+                st.rerun()
+
+            # Display sync candidates
+            sync_candidates = st.session_state.get('qcd_sync_candidates', [])
+            if sync_candidates:
+                n_sync_total = len(sync_candidates)
+                n_sync_pending = sum(1 for c in sync_candidates if c['status'] == 'pending')
+                n_sync_approved = sum(1 for c in sync_candidates if c['status'] == 'approved')
+                n_sync_skipped = sum(1 for c in sync_candidates if c['status'] == 'skipped')
+                n_sync_conflict = sum(1 for c in sync_candidates if c.get('conflict'))
+
+                sc1, sc2, sc3, sc4 = st.columns(4)
+                sc1.metric("🔍 Tìm thấy", n_sync_total)
+                sc2.metric("⏳ Chờ duyệt", n_sync_pending)
+                sc3.metric("✅ Đã duyệt", n_sync_approved)
+                sc4.metric("⚠️ Xung đột", n_sync_conflict)
+
+                if n_sync_total > 0:
+                    st.progress(
+                        (n_sync_approved + n_sync_skipped) / n_sync_total,
+                        f"Đồng bộ: {n_sync_approved + n_sync_skipped}/{n_sync_total}"
+                    )
+
+                # Sync filter
+                sync_fc1, sync_fc2 = st.columns(2)
+                with sync_fc1:
+                    sync_filter_status = st.multiselect(
+                        "Lọc sync:",
+                        ["pending", "approved", "skipped"],
+                        default=["pending"],
+                        key="qcd_sync_filter",
+                        format_func=lambda x: {'pending': '⏳ Chờ', 'approved': '✅ Đã duyệt',
+                                                'skipped': '⏭️ Bỏ qua'}.get(x, x)
+                    )
+                with sync_fc2:
+                    sync_show_conflicts = st.checkbox("Chỉ hiện xung đột", key="qcd_sync_conflicts_only")
+
+                filtered_sync = sync_candidates
+                if sync_filter_status:
+                    filtered_sync = [c for c in filtered_sync if c['status'] in sync_filter_status]
+                if sync_show_conflicts:
+                    filtered_sync = [c for c in filtered_sync if c.get('conflict')]
+
+                # Batch sync operations
+                sync_bc1, sync_bc2 = st.columns(2)
+                with sync_bc1:
+                    if st.button("✅ Approve tất cả (không xung đột)", key="qcd_sync_batch_approve"):
+                        rev_batch = []
+                        for c in sync_candidates:
+                            if c['status'] == 'pending' and not c.get('conflict'):
+                                c['status'] = 'approved'
+                                rev_batch.append({
+                                    'action': 'sync_approve',
+                                    'candidate_id': c['id'],
+                                    'paragraph_idx': c['paragraph_idx'],
+                                    'old_text': c['old_text'],
+                                    'new_text': c['new_text'],
+                                    'timestamp': now_gmt7().isoformat(),
+                                })
+                        if rev_batch:
+                            revisions = st.session_state.get('qcd_revisions', [])
+                            revisions.extend(rev_batch)
+                            st.session_state['qcd_revisions'] = revisions
+                        qcd_save_session({
+                            'metadata': meta, 'suggestions': suggestions,
+                            'accepted_rules': accepted_rules, 'vi_paragraphs': vi_paragraphs,
+                            'sync_candidates': sync_candidates,
+                            'revisions': st.session_state.get('qcd_revisions', []),
+                        })
+                        st.rerun()
+                with sync_bc2:
+                    if st.button("⏭️ Bỏ qua tất cả đang hiển thị", key="qcd_sync_batch_skip"):
+                        for c in filtered_sync:
+                            if c['status'] == 'pending':
+                                c['status'] = 'skipped'
+                        qcd_save_session({
+                            'metadata': meta, 'suggestions': suggestions,
+                            'accepted_rules': accepted_rules, 'vi_paragraphs': vi_paragraphs,
+                            'sync_candidates': sync_candidates,
+                            'revisions': st.session_state.get('qcd_revisions', []),
+                        })
+                        st.rerun()
+
+                # Sync candidate cards
+                st.markdown(f"##### 🔄 Preview đồng bộ ({len(filtered_sync)})")
+
+                for sci, sc in enumerate(filtered_sync):
+                    sc_id = sc['id']
+                    sc_status = sc['status']
+                    sc_conflict = sc.get('conflict', False)
+                    sc_pidx = sc['paragraph_idx']
+                    sc_conf = sc.get('confidence', 85)
+                    sc_rule_type = sc.get('rule_type', 'other')
+
+                    # Card border color
+                    if sc_conflict:
+                        sc_border = '#d08400'
+                        sc_bg = 'rgba(208,132,0,0.04)'
+                    elif sc_status == 'approved':
+                        sc_border = '#2e7d32'
+                        sc_bg = 'rgba(46,125,50,0.04)'
+                    elif sc_status == 'skipped':
+                        sc_border = '#D1CFC7'
+                        sc_bg = 'rgba(140,130,115,0.04)'
+                    else:
+                        sc_border = '#0D9488'
+                        sc_bg = '#F8F6F0'
+
+                    sc_status_icon = {'pending': '⏳', 'approved': '✅', 'skipped': '⏭️'}.get(sc_status, '❓')
+                    conflict_badge = " <span style='color:#d08400;font-weight:600;font-size:11px'>⚠️ XUNG ĐỘT — đoạn đã được duyệt trước</span>" if sc_conflict else ""
+
+                    # Inline diff for the change
+                    sc_diff = qcd_render_word_diff(sc['old_text'], sc['new_text'])
+
+                    st.markdown(f"""
+                    <div style='border:1px solid {sc_border};border-radius:10px;padding:0.8rem 1rem;
+                         margin-bottom:0.6rem;background:{sc_bg}'>
+                      <div style='display:flex;justify-content:space-between;align-items:center;margin-bottom:0.4rem'>
+                        <span style='font-weight:600;color:#2D2A26'>Đoạn {sc_pidx} {sc_status_icon}</span>
+                        <div>
+                          {qcd_badge(sc_rule_type)}
+                          <span style='margin-left:6px;color:{qcd_conf_color(sc_conf)};font-weight:600;font-size:12px'>{sc_conf}%</span>
+                        </div>
+                      </div>
+                      {conflict_badge}
+                      <div style='font-size:0.88rem;line-height:1.6;color:#2D2A26;margin:0.3rem 0'>
+                        {sc_diff}
+                      </div>
+                      <div style='font-size:0.78rem;color:#8c8273'>
+                        Quy tắc: <code>{sc.get('old_fragment','')}</code> → <code>{sc.get('new_fragment','')}</code>
+                      </div>
+                    </div>
+                    """, unsafe_allow_html=True)
+
+                    if sc_status == 'pending':
+                        sc_btn1, sc_btn2, sc_btn3 = st.columns([1, 1, 4])
+                        with sc_btn1:
+                            btn_label = "✅ Approve" if not sc_conflict else "✅ Override"
+                            if st.button(btn_label, key=f"qcd_sync_appr_{sc_id}",
+                                         use_container_width=True):
+                                sc['status'] = 'approved'
+                                # Record revision
+                                revisions = st.session_state.get('qcd_revisions', [])
+                                revisions.append({
+                                    'action': 'sync_approve',
+                                    'candidate_id': sc_id,
+                                    'paragraph_idx': sc_pidx,
+                                    'old_text': sc['old_text'],
+                                    'new_text': sc['new_text'],
+                                    'conflict_override': sc_conflict,
+                                    'timestamp': now_gmt7().isoformat(),
+                                })
+                                st.session_state['qcd_revisions'] = revisions
+                                qcd_save_session({
+                                    'metadata': meta, 'suggestions': suggestions,
+                                    'accepted_rules': accepted_rules, 'vi_paragraphs': vi_paragraphs,
+                                    'sync_candidates': sync_candidates,
+                                    'revisions': revisions,
+                                })
+                                st.rerun()
+                        with sc_btn2:
+                            if st.button("⏭️ Bỏ qua", key=f"qcd_sync_skip_{sc_id}",
+                                         use_container_width=True):
+                                sc['status'] = 'skipped'
+                                qcd_save_session({
+                                    'metadata': meta, 'suggestions': suggestions,
+                                    'accepted_rules': accepted_rules, 'vi_paragraphs': vi_paragraphs,
+                                    'sync_candidates': sync_candidates,
+                                    'revisions': st.session_state.get('qcd_revisions', []),
+                                })
+                                st.rerun()
+
+        # ══════════════════════════════════════════════════════════════
+        # PHASE 4: UNDO / REVISION HISTORY
+        # ══════════════════════════════════════════════════════════════
+        revisions = st.session_state.get('qcd_revisions', [])
+        if revisions or any(s['status'] != 'pending' for s in suggestions):
+            st.divider()
+            st.markdown("""
+            <div style='background:linear-gradient(135deg,#f3e5f5 0%,#e1bee7 100%);
+                 border:1px solid #8a3ba8;border-radius:12px;padding:1rem 1.4rem;margin-bottom:1rem'>
+              <h4 style='margin:0;color:#8a3ba8;font-size:1.2rem'>⏪ Revision History & Undo</h4>
+              <p style='margin:0.3rem 0 0;color:#5c564d;font-size:0.85rem'>
+                Mỗi hành động được lưu lại — có thể hoàn tác từng bước
+              </p>
+            </div>
+            """, unsafe_allow_html=True)
+
+            # Build revision list from all actions
+            all_revisions = list(revisions)
+
+            # Also build revisions from suggestion status changes (if not already tracked)
+            for sug in suggestions:
+                if sug['status'] in ('approved', 'discarded', 'edited'):
+                    # Check if this suggestion already has a revision entry
+                    existing_rev_ids = {r.get('suggestion_id') for r in all_revisions if r.get('suggestion_id')}
+                    if sug['id'] not in existing_rev_ids:
+                        rev_entry = {
+                            'action': f"qc_{sug['status']}",
+                            'suggestion_id': sug['id'],
+                            'paragraph_idx': sug.get('paragraph_idx', '?'),
+                            'old_text': sug.get('original_text', '')[:60],
+                            'new_text': (sug.get('reviewer_edit') or sug.get('suggested_text', ''))[:60],
+                            'category': sug.get('category', ''),
+                            'timestamp': meta.get('created_at', ''),
+                        }
+                        all_revisions.append(rev_entry)
+
+            n_revisions = len(all_revisions)
+
+            with st.expander(f"📜 Lịch sử thay đổi ({n_revisions} hành động)", expanded=False):
+                if not all_revisions:
+                    st.info("Chưa có hành động nào.")
+                else:
+                    # Show in reverse chronological order
+                    for ri, rev in enumerate(reversed(all_revisions)):
+                        rev_idx = n_revisions - ri
+                        action = rev.get('action', '?')
+                        action_labels = {
+                            'qc_approved': '✅ Approve', 'qc_discarded': '❌ Discard',
+                            'qc_edited': '✏️ Edit', 'sync_approve': '🔄 Sync Approve',
+                            'undo': '⏪ Undo',
+                        }
+                        action_label = action_labels.get(action, action)
+                        pidx = rev.get('paragraph_idx', '?')
+                        old_snip = rev.get('old_text', '')[:40]
+                        new_snip = rev.get('new_text', '')[:40]
+                        ts = rev.get('timestamp', '')[:19]
+                        conflict_tag = " ⚠️" if rev.get('conflict_override') else ""
+
+                        st.markdown(
+                            f"**#{rev_idx}** {action_label}{conflict_tag} — "
+                            f"Đoạn {pidx} — "
+                            f"`{old_snip}` → `{new_snip}` "
+                            f"<span style='color:#8c8273;font-size:11px'>{ts}</span>",
+                            unsafe_allow_html=True
+                        )
+
+                        # Undo button for each revision (only for non-undo actions)
+                        if action != 'undo':
+                            if st.button(f"⏪ Undo", key=f"qcd_undo_{ri}_{rev_idx}",
+                                         help=f"Hoàn tác hành động #{rev_idx}"):
+                                # Find the suggestion or sync candidate and revert
+                                undone = False
+
+                                # Undo QC suggestion
+                                sug_id = rev.get('suggestion_id')
+                                if sug_id:
+                                    for sug in suggestions:
+                                        if sug['id'] == sug_id:
+                                            sug['status'] = 'pending'
+                                            sug['reviewer_edit'] = None
+                                            undone = True
+                                            break
+                                    # Also remove the corresponding accepted rule
+                                    st.session_state['qcd_accepted_rules'] = [
+                                        r for r in accepted_rules
+                                        if r.get('created_from_paragraph') != rev.get('paragraph_idx')
+                                        or r.get('type') != rev.get('category')
+                                    ]
+                                    accepted_rules = st.session_state['qcd_accepted_rules']
+
+                                # Undo sync candidate
+                                cand_id = rev.get('candidate_id')
+                                if cand_id:
+                                    for sc in st.session_state.get('qcd_sync_candidates', []):
+                                        if sc['id'] == cand_id:
+                                            sc['status'] = 'pending'
+                                            undone = True
+                                            break
+
+                                if undone:
+                                    # Record undo as a revision
+                                    revisions_updated = st.session_state.get('qcd_revisions', [])
+                                    revisions_updated.append({
+                                        'action': 'undo',
+                                        'undone_revision': rev_idx,
+                                        'paragraph_idx': pidx,
+                                        'old_text': new_snip,
+                                        'new_text': old_snip,
+                                        'timestamp': now_gmt7().isoformat(),
+                                    })
+                                    st.session_state['qcd_revisions'] = revisions_updated
+
+                                    qcd_save_session({
+                                        'metadata': meta, 'suggestions': suggestions,
+                                        'accepted_rules': accepted_rules,
+                                        'vi_paragraphs': vi_paragraphs,
+                                        'sync_candidates': st.session_state.get('qcd_sync_candidates', []),
+                                        'revisions': revisions_updated,
+                                    })
+                                    st.success(f"⏪ Đã hoàn tác hành động #{rev_idx}!")
+                                    st.rerun()
+                                else:
+                                    st.warning("Không tìm thấy mục để hoàn tác.")
+
+        # ── Clear session ──
+        st.divider()
+        if st.button("🗑️ Xóa session QC Diff hiện tại", key="qcd_clear"):
+            for k in list(st.session_state.keys()):
+                if k.startswith('qcd_'):
+                    del st.session_state[k]
+            st.rerun()
