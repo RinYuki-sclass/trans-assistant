@@ -181,47 +181,47 @@ st.markdown("""
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
     .stApp { font-family: 'Inter', sans-serif; }
     .app-header {
-        background: linear-gradient(135deg, #4f5b93 0%, #685b8c 100%);
-        padding: 1.5rem 2rem; border-radius: 12px; margin-bottom: 1.5rem; color: #e5e9f0;
+        background: linear-gradient(135deg, #0D9488 0%, #0B7A70 100%);
+        padding: 1.5rem 2rem; border-radius: 12px; margin-bottom: 1.5rem; color: #ffffff;
     }
     .app-header h1 { margin: 0; font-size: 1.8rem; font-weight: 700; }
     .app-header p { margin: 0.3rem 0 0; opacity: 0.85; font-size: 0.95rem; }
     .diff-container {
         font-family: 'Consolas', 'Courier New', monospace; font-size: 13px;
         line-height: 1.6; border-radius: 10px; overflow: hidden;
-        border: 1px solid #414559; max-height: 600px; overflow-y: auto;
+        border: 1px solid #D1CFC7; max-height: 600px; overflow-y: auto;
     }
-    .diff-add { background: rgba(81,207,102,0.12); color: #51cf66; padding: 3px 12px; border-left: 3px solid #51cf66; }
-    .diff-del { background: rgba(255,107,107,0.12); color: #ff6b6b; padding: 3px 12px; border-left: 3px solid #ff6b6b; }
-    .diff-info { background: rgba(140,170,238,0.1); color: #8caaee; padding: 3px 12px; font-weight: 600; }
-    .diff-ctx { color: #a5adce; padding: 3px 12px; }
+    .diff-add { background: rgba(46,125,50,0.08); color: #2e7d32; padding: 3px 12px; border-left: 3px solid #2e7d32; }
+    .diff-del { background: rgba(198,40,40,0.08); color: #c62828; padding: 3px 12px; border-left: 3px solid #c62828; }
+    .diff-info { background: rgba(13,148,136,0.1); color: #0D9488; padding: 3px 12px; font-weight: 600; }
+    .diff-ctx { color: #5c564d; padding: 3px 12px; }
     .glossary-box {
-        background: #292c3c; border: 1px solid #414559; border-radius: 10px;
+        background: #EFECE6; border: 1px solid #D1CFC7; border-radius: 10px;
         padding: 1rem; max-height: 500px; overflow-y: auto;
     }
     /* Side-by-side comparison */
     .sbs-table { width: 100%; border-collapse: collapse; font-size: 14px; line-height: 1.7; }
     .sbs-table th {
-        background: linear-gradient(135deg, #51576d, #414559); color: #c6d0f5;
+        background: #0D9488; color: #ffffff;
         padding: 10px 14px; text-align: left; position: sticky; top: 0; z-index: 1;
     }
     .sbs-table td {
-        padding: 8px 14px; border-bottom: 1px solid #414559;
+        padding: 8px 14px; border-bottom: 1px solid #D1CFC7;
         vertical-align: top; word-wrap: break-word;
     }
-    .sbs-table tr:hover td { background: rgba(140,170,238,0.08); }
-    .sbs-num { color: #737994; font-size: 12px; text-align: center; min-width: 35px; user-select: none; }
-    .sbs-src { color: #a5adce; max-width: 45%; }
-    .sbs-vi { color: #e5c890; max-width: 45%; }
-    .sbs-empty { color: #51576d; font-style: italic; }
+    .sbs-table tr:hover td { background: rgba(13,148,136,0.08); }
+    .sbs-num { color: #8c8273; font-size: 12px; text-align: center; min-width: 35px; user-select: none; }
+    .sbs-src { color: #5c564d; max-width: 45%; }
+    .sbs-vi { color: #a6701e; max-width: 45%; }
+    .sbs-empty { color: #8c8273; font-style: italic; }
     .sbs-wrap {
         max-height: 650px; overflow-y: auto; border-radius: 10px;
-        border: 1px solid #414559; background: #232634;
+        border: 1px solid #D1CFC7; background: #F8F6F0;
     }
     .term-hl {
-        background-color: rgba(229, 200, 144, 0.15);
-        color: #e5c890;
-        border-bottom: 1px dashed #e5c890;
+        background-color: rgba(166, 112, 30, 0.1);
+        color: #a6701e;
+        border-bottom: 1px dashed #a6701e;
         border-radius: 2px;
         padding: 0 2px;
         cursor: help;
@@ -240,11 +240,11 @@ st.markdown("""
         position: sticky !important;
         top: 80px !important;
         z-index: 999;
-        background: #1a1b26; /* Dark theme background */
+        background: #EFECE6; /* Light theme secondary background */
         padding: 15px;
         border-radius: 12px;
-        box-shadow: 0 8px 32px rgba(0,0,0,0.3);
-        border: 1px solid #414559;
+        box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+        border: 1px solid #D1CFC7;
         height: auto !important;
         width: 100% !important; /* Ensure it fills the column width */
     }
@@ -256,6 +256,7 @@ st.markdown("""
     [data-baseweb="tab-panel"],
     .main .block-container {
         overflow: visible !important;
+    }
     /* Ngăn chặn chớp/mờ nháy khi click trên Streamlit (vô hiệu hóa Stale Dimming) */
     [data-testid="stApp"] [data-stale="true"],
     [data-stale="true"],
@@ -677,17 +678,17 @@ with st.sidebar:
                         label = f"Key {idx+1}"
                         pct = min(used / lim, 1.0) if lim > 0 else 0
                         if pct >= 0.95:
-                            color = "#ff6b6b"   # đỏ
+                            color = "#c62828"   # đỏ
                         elif pct >= 0.75:
-                            color = "#f0a500"   # cam
+                            color = "#d08400"   # cam
                         else:
-                            color = "#51cf66"   # xanh
+                            color = "#2f9e44"   # xanh
                         st.markdown(
                             f"""
                             <div style='margin-bottom:6px'>
-                            <div style='font-size:11px;color:#a5adce;display:flex;justify-content:space-between'>
+                            <div style='font-size:11px;color:#5c564d;display:flex;justify-content:space-between'>
                                 <span>{label}</span><span style='color:{color}'>{used:,} / {lim:,}</span></div>
-                            <div style='background:#292c3c;border-radius:4px;height:4px;overflow:hidden'>
+                            <div style='background:#D1CFC7;border-radius:4px;height:4px;overflow:hidden'>
                                 <div style='width:{pct*100:.1f}%;background:{color};height:100%;border-radius:4px;
                                 transition:width 0.3s'></div></div></div>
                             """,
@@ -2428,10 +2429,10 @@ with tabs[10]:
         st.stop()
 
     st.markdown("""
-    <div style='background:linear-gradient(135deg,#1e1e2e 0%,#2a1f3d 100%);
-         border:1px solid #6c5fc7;border-radius:12px;padding:1.2rem 1.6rem;margin-bottom:1rem'>
-      <h2 style='margin:0;color:#c8b8ff;font-size:1.5rem'>🤖 Novel Agent</h2>
-      <p style='margin:0.3rem 0 0;color:#a09cc0;font-size:0.9rem'>
+    <div style='background:linear-gradient(135deg,#0D9488 0%,#0B7A70 100%);
+         border:1px solid #D1CFC7;border-radius:12px;padding:1.2rem 1.6rem;margin-bottom:1rem;color:#ffffff'>
+      <h2 style='margin:0;color:#ffffff;font-size:1.5rem'>🤖 Novel Agent</h2>
+      <p style='margin:0.3rem 0 0;color:rgba(255,255,255,0.85);font-size:0.9rem'>
         AI dịch tiểu thuyết — Ghi nhớ dài hạn · Human-in-the-loop · Nhất quán xuyên suốt
       </p>
     </div>
@@ -2462,14 +2463,14 @@ with tabs[10]:
                     pcfg = na_load_config(p)
                     n_ch = len(na_list_chapters(p))
                     active = (st.session_state.get('na_project') == p)
-                    border_color = '#6c5fc7' if active else '#414559'
+                    border_color = '#0D9488' if active else '#D1CFC7'
                     st.markdown(f"""
                     <div style='border:1px solid {border_color};border-radius:8px;
                          padding:0.7rem 1rem;margin-bottom:0.5rem;
-                         background:{'rgba(108,95,199,0.1)' if active else '#232634'}'>
-                      <b style='color:#c6d0f5'>{pcfg.get('title', p)}</b>
-                      <span style='float:right;color:#737994;font-size:12px'>{n_ch} chương</span><br>
-                      <span style='color:#a5adce;font-size:12px'>{pcfg.get('source_lang','?')} → {pcfg.get('target_lang','?')}</span>
+                         background:{'rgba(13, 148, 136, 0.08)' if active else '#F8F6F0'}'>
+                      <b style='color:#2D2A26'>{pcfg.get('title', p)}</b>
+                      <span style='float:right;color:#8c8273;font-size:12px'>{n_ch} chương</span><br>
+                      <span style='color:#5c564d;font-size:12px'>{pcfg.get('source_lang','?')} → {pcfg.get('target_lang','?')}</span>
                     </div>
                     """, unsafe_allow_html=True)
                     c_sel, c_del = st.columns([3, 1])
@@ -2865,21 +2866,21 @@ with tabs[10]:
                             for q in pending:
                                 qid = q['id']
                                 conf_pct = int(q.get('confidence', 0) * 100)
-                                color = '#f0a500' if conf_pct >= 60 else '#ff6b6b'
+                                color = '#d08400' if conf_pct >= 60 else '#c62828'
                                 cat_icon = {'honorific': '🎭', 'pronoun': '👤', 'name': '🏷️',
                                             'term': '📖', 'relationship': '🤝'}.get(q.get('category', ''), '❓')
 
                                 with st.container():
                                     st.markdown(
                                         f"<div style='border:1px solid {color};border-radius:10px;"
-                                        f"padding:1rem;margin-bottom:0.8rem;background:#1e1e2e'>"
+                                        f"padding:1rem;margin-bottom:0.8rem;background:#EFECE6'>"
                                         f"<div style='display:flex;justify-content:space-between;align-items:center'>"
-                                        f"<span style='font-size:0.9rem;color:#a5adce'>{cat_icon} {q.get('category','').upper()}</span>"
+                                        f"<span style='font-size:0.9rem;color:#5c564d'>{cat_icon} {q.get('category','').upper()}</span>"
                                         f"<span style='color:{color};font-weight:600'>{conf_pct}% confidence</span></div>"
-                                        f"<p style='margin:0.5rem 0;font-size:1.1rem;color:#e5e9f0'>原文: "
-                                        f"<code style='background:#292c3c;padding:2px 6px;border-radius:4px'>{q.get('original','')}</code></p>"
-                                        f"<p style='margin:0;color:#c8b8ff'>💡 Gợi ý: <b>{q.get('suggested','')}</b></p>"
-                                        f"<p style='margin:0.3rem 0 0;color:#a5adce;font-size:0.88rem'>{q.get('question','')}</p>"
+                                        f"<p style='margin:0.5rem 0;font-size:1.1rem;color:#2D2A26'>原文: "
+                                        f"<code style='background:#D1CFC7;padding:2px 6px;border-radius:4px'>{q.get('original','')}</code></p>"
+                                        f"<p style='margin:0;color:#0D9488'>💡 Gợi ý: <b>{q.get('suggested','')}</b></p>"
+                                        f"<p style='margin:0.3rem 0 0;color:#5c564d;font-size:0.88rem'>{q.get('question','')}</p>"
                                         f"</div>",
                                         unsafe_allow_html=True
                                     )
@@ -3466,17 +3467,17 @@ with tabs[10]:
                                 int(cy + radius * math.sin(angle))
                             )
 
-                        # Pastel color palette for nodes
-                        palette = ['#8be9fd','#50fa7b','#ffb86c','#ff79c6',
-                                   '#bd93f9','#f1fa8c','#ff5555','#6272a4']
+                        # Theme-appropriate palette for nodes
+                        palette = ['#0D9488', '#1e88e5', '#d84315', '#8a3ba8',
+                                   '#2e7d32', '#d08400', '#c62828', '#5c564d']
 
                         # Build SVG
                         svg_parts = [
                             '<svg xmlns="http://www.w3.org/2000/svg" width="800" height="560" '
-                            'style="background:#1e1e2e;border-radius:12px;font-family:Inter,sans-serif">',
+                            'style="background:#F8F6F0;border-radius:12px;font-family:Inter,sans-serif">',
                             '<defs><marker id="arr" markerWidth="8" markerHeight="6" '
                             'refX="8" refY="3" orient="auto">'
-                            '<polygon points="0 0, 8 3, 0 6" fill="#6272a4"/>'
+                            '<polygon points="0 0, 8 3, 0 6" fill="#8c8273"/>'
                             '</marker></defs>'
                         ]
 
@@ -3491,14 +3492,14 @@ with tabs[10]:
                                 mx, my = (x1+x2)//2, (y1+y2)//2
                                 svg_parts.append(
                                     f'<line x1="{x1}" y1="{y1}" x2="{x2}" y2="{y2}" '
-                                    f'stroke="#6272a4" stroke-width="1.5" stroke-dasharray="4,3" '
+                                    f'stroke="#8c8273" stroke-width="1.5" stroke-dasharray="4,3" '
                                     f'marker-end="url(#arr)"/>'
                                 )
                                 if label:
                                     svg_parts.append(
                                         f'<text x="{mx}" y="{my-6}" text-anchor="middle" '
-                                        f'fill="#a5adce" font-size="10" '
-                                        f'style="paint-order:stroke" stroke="#1e1e2e" stroke-width="3">'
+                                        f'fill="#5c564d" font-size="10" '
+                                        f'style="paint-order:stroke" stroke="#F8F6F0" stroke-width="3">'
                                         f'{label[:18]}</text>'
                                     )
 
@@ -3509,12 +3510,12 @@ with tabs[10]:
                             short = name[:12] + ('…' if len(name) > 12 else '')
                             svg_parts.append(
                                 f'<circle cx="{x}" cy="{y}" r="28" fill="{color}" '
-                                f'fill-opacity="0.18" stroke="{color}" stroke-width="2"/>'
+                                f'fill-opacity="0.15" stroke="{color}" stroke-width="2"/>'
                             )
                             svg_parts.append(
                                 f'<text x="{x}" y="{y+5}" text-anchor="middle" '
                                 f'fill="{color}" font-size="11" font-weight="600" '
-                                f'style="paint-order:stroke" stroke="#1e1e2e" stroke-width="3">'
+                                f'style="paint-order:stroke" stroke="#F8F6F0" stroke-width="3">'
                                 f'{short}</text>'
                             )
 
