@@ -970,6 +970,7 @@ with tabs[1]:
             if not is_refine:
                 sys_d = (
                     "You are a professional novel translator. Translate English into natural Vietnamese. "
+                    "VIETNAMESE FLOW: Avoid overusing commas and clause-splitting pauses. Write smooth, cohesive sentences without unnecessary commas or fragmented clauses. "
                     "STRICT RULE: ONLY include suffixes (-ie,-ah,-ya) IF present in source. "
                     "CRITICAL RULE: Translate line by line. DO NOT skip, merge, or omit any paragraphs. The number of output paragraphs MUST exactly match the 'TRANSLATE THIS' input. "
                     "Output ONLY the translation without any notes or confirmation."
@@ -984,7 +985,8 @@ with tabs[1]:
                 "RULES: 1.Output ONLY final Vietnamese without any notes. 2.Follow source dialogue structure exactly. "
                 "3.Keep suffixes from EN source. 4.Keep ahjussi,-ssi,-nim,-gun. "
                 "5.Follow Glossary. 6.No creative rewriting. "
-                "7.CRITICAL: DO NOT skip or merge any paragraphs. The number of output paragraphs MUST exactly match the input."
+                "7.CRITICAL: DO NOT skip or merge any paragraphs. The number of output paragraphs MUST exactly match the input. "
+                "8.Vietnamese Flow: Reduce excess commas and pauses. Make sentences flow naturally, smoothly, and fluidly without unnecessary pauses or fragmented clauses."
             )
             
             context_str = f"--- PREVIOUS CONTEXT (DO NOT TRANSLATE) ---\nEN: {prev_ec}\nKR: {prev_kc}\n\n" if prev_ec else ""
@@ -1742,7 +1744,7 @@ with tabs[5]:
                                     "[Khung thoại]\n"
                                     "KR: <Exact Korean transcription in a SINGLE line>\n"
                                     "<Natural Vietnamese translation in a SINGLE line>\n\n"
-                                    "Rules: Follow the provided glossary. Ensure pronouns match the Korean nuances and glossary rules."
+                                    "Rules: Follow the provided glossary. Ensure pronouns match the Korean nuances and glossary rules. Avoid excessive commas and pauses in Vietnamese translations; make sentences flow naturally."
                                 )
                                 prompt = f"--- GLOSSARY ---\n{glossary}\n\n--- NOTES ---\n{notes}\n\n--- TASK ---\nExtract dialogues from this image and translate them to Vietnamese. Keep them in reading order (top to bottom, right to left generally)."
                                 contents = [optimized_img, prompt]
@@ -1848,7 +1850,7 @@ with tabs[5]:
                                         "[Khung thoại]\n"
                                         "KR: <Korean text in a SINGLE line>\n"
                                         "<Vietnamese translation in a SINGLE line>\n\n"
-                                        "Rules: Follow the provided glossary. Ensure pronouns match the Korean nuances and glossary rules."
+                                        "Rules: Follow the provided glossary. Ensure pronouns match the Korean nuances and glossary rules. Avoid excessive commas and pauses in Vietnamese translations; make sentences flow naturally."
                                     )
                                     
                                     prompt = f"--- GLOSSARY ---\n{glossary}\n\n--- NOTES ---\n{notes}\n\n--- TASK ---\nExtract dialogues from this image and translate them to Vietnamese. Keep them in reading order (top to bottom, right to left generally)."
@@ -2357,7 +2359,7 @@ with tabs[9]:
     st.subheader("📋 Reformat Script")
     st.caption("Lọc script dịch: giữ lại chỉ phần dịch tiếng Việt, bỏ header [Khung thoại] và dòng KR:.")
 
-    def reformat_translation_script(raw: str, case_mode: str) -> str:
+    def reformat_translation_script(raw: str, case_mode: str, remove_empty_and_double_space: bool = False) -> str:
         import re
         result = []
         for line in raw.splitlines():
@@ -2382,7 +2384,9 @@ with tabs[9]:
                 line = "".join(parts)
                 
             result.append(line)
-        return '\n'.join(result)
+        
+        join_char = '\n\n' if remove_empty_and_double_space else '\n'
+        return join_char.join(result)
 
     case_mode = st.radio(
         "Chế độ viết hoa (Case Mode):",
@@ -2390,6 +2394,13 @@ with tabs[9]:
         index=0,
         horizontal=True,
         key="reformat_case_mode"
+    )
+
+    remove_empty_and_double_space = st.checkbox(
+        "🧹 Xóa toàn bộ dòng trống và cách 1 dòng trống giữa các đoạn",
+        value=False,
+        help="Loại bỏ toàn bộ dòng trống trong input, sau đó thêm đúng 1 dòng trống phân cách giữa các dòng/đoạn văn dịch.",
+        key="reformat_remove_empty_and_double_space"
     )
 
     rf_input = st.text_area(
@@ -2401,7 +2412,7 @@ with tabs[9]:
 
     if st.button("▶ Reformat", key="reformat_btn", type="primary"):
         if rf_input.strip():
-            reformatted = reformat_translation_script(rf_input, case_mode)
+            reformatted = reformat_translation_script(rf_input, case_mode, remove_empty_and_double_space)
             st.session_state['reformat_output'] = reformatted
         else:
             st.warning("Vui lòng dán script vào ô trên.")
@@ -3149,10 +3160,11 @@ with tabs[11]:
                             f"{na_cfg.get('source_lang','Chinese')} to {na_cfg.get('target_lang','Vietnamese')} novel translation.\n"
                             "RULES:\n"
                             "1. Output ONLY the translation. No notes, no commentary, no extra text.\n"
-                            "2. Preserve paragraph structure exactly — same number of paragraphs as input.\n"
+                            "2. Dialogue (direct speech starting/ending with quotation marks or starting with dashes) and non-dialogue (narratives, descriptions) must NEVER share the same paragraph. Always split them into separate, distinct paragraphs. For example, if a paragraph in the source text contains both dialogue and narrative, split it so they are on separate lines/paragraphs.\n"
                             "3. Follow all style guide rules, character names, and glossary entries provided.\n"
                             "4. Apply all user clarification decisions exactly as specified.\n"
-                            "5. DO NOT translate the 'PREVIOUS CONTEXT' section."
+                            "5. DO NOT translate the 'PREVIOUS CONTEXT' section.\n"
+                            "6. Style & Flow: Write smooth, natural Vietnamese. Avoid excessive commas and pauses. Make sentences flow fluidly without unnecessary clause fragmentation or choppy grammar."
                         )
                         for b_idx, b_ch in enumerate(pending_chapters):
                             batch_status.write(f"📖 [{b_idx+1}/{len(pending_chapters)}] Đang dịch `{b_ch}`...")
@@ -3208,10 +3220,11 @@ with tabs[11]:
                             f"You are a professional literary translator specializing in {na_cfg.get('source_lang','Chinese')} to {na_cfg.get('target_lang','Vietnamese')} novel translation.\n"
                             "RULES:\n"
                             "1. Output ONLY the translation. No notes, no commentary, no extra text.\n"
-                            "2. Preserve paragraph structure exactly — same number of paragraphs as input.\n"
+                            "2. Dialogue (direct speech starting/ending with quotation marks or starting with dashes) and non-dialogue (narratives, descriptions) must NEVER share the same paragraph. Always split them into separate, distinct paragraphs. For example, if a paragraph in the source text contains both dialogue and narrative, split it so they are on separate lines/paragraphs.\n"
                             "3. Follow all style guide rules, character names, and glossary entries provided.\n"
                             "4. Apply all user clarification decisions exactly as specified.\n"
-                            "5. DO NOT translate the 'PREVIOUS CONTEXT' section."
+                            "5. DO NOT translate the 'PREVIOUS CONTEXT' section.\n"
+                            "6. Style & Flow: Write smooth, natural Vietnamese. Avoid excessive commas and pauses. Make sentences flow fluidly without unnecessary clause fragmentation or choppy grammar."
                         )
 
                         translated_chunks = []
