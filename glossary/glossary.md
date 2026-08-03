@@ -1,289 +1,169 @@
 # TAI LIEU THAM KHAO DICH THUAT
 
-> **[HƯỚNG DẪN CHO AI QC]**
-> Khi kiểm tra bản dịch, bắt buộc kiểm tra các quy tắc xưng hô theo bảng dưới đây:
->
-> **Phần "Đại từ khi kể chuyện"**: Khi văn bản MIÊU TẢ nhân vật (ngôi thứ 3), phải dùng đúng đại từ được liệt kê (cậu/anh/cô/hắn/ông).
->
-> **Phần "Cách gọi nhau trong đối thoại"**: Khi nhân vật A NÓI CHUYỆN trực tiếp với nhân vật B:
-> - Phần trước dấu `-` là đại từ NGÔI 1 mà A tự xưng
-> - Phần sau dấu `-` là đại từ NGÔI 2 mà A dùng để gọi B
-> - Các dòng tiếp theo là các TÊN GỌI THAY THẾ được phép dùng (ví dụ: "Yoohyun-ah", "hyung", "ahjussi"...)
->
-> **Lỗi xưng hô thường gặp cần báo cáo:**
-> - Dùng sai đại từ ngôi 3 (ví dụ: gọi Sung Hyunjae là "cô" thay vì "anh")
-> - Dùng sai cặp ngôi 1-2 trong hội thoại (ví dụ: Yoohyun gọi Yoojin là "tôi/anh" thay vì "em/anh")  
-> - Dùng cách gọi tên không có trong danh sách được phép
-
 ## 1. QUY TAC XUNG HO
 ### Dai tu khi ke chuyen (Ngoi thu 3):
 Han Yoojin: cậu, Han Yoohyun: cậu, Park Yerim: cô, Sung Hyunjae: anh, Noah Rugir: cậu, Liette Rugir: cô, Song Taewon: anh, Moon Hyuna: cô, Kim Sunghan: anh, Kang Soyoung: cô, Seok Simyung: ông, Seok Hayan: cô, Yoon Yoon: cậu, Yoo Myungwoo: cậu, Do Hamin: anh, Min Jisoo: cô, Kim Minee: cậu, Shishio: anh, Sigma: hắn, Evelyn: cô, Newbie: cậu, Young Chaos: ông, Jellyfish: cô, Hoàng Lâm: anh, Sở Hoa Vân: hắn, Han Yoojin (tiền hồi quy): cậu, Han Yoohyun (tiền hồi quy): cậu
 
-### Cach goi nhau trong doi thoai (Ngoi 1 goi Ngoi 2):
-- Han Yoojin goi Han Yoohyun la: "anh - em
-Yoohyun-ah
-Em trai"
-- Han Yoojin goi Park Yerim la: "tôi - nhóc
-Yerim-ah"
-- Han Yoojin goi Sung Hyunjae la: "tôi - anh
-Ngài hội trưởng hội Sesung
-Sung Hyunjae-ssi
-Hyunjae-ssi"
-- Han Yoojin goi Noah Rugir la: "tôi - cậu
-Noah-ssi"
-- Han Yoojin goi Liette Rugir la: "tôi - cô"
-- Han Yoojin goi Song Taewon la: "tôi - anh
-Ngài cục trưởng Song
-Song Taewon-ssi"
-- Han Yoojin goi Moon Hyuna la: "tôi - cô
-Hyuna-ssi"
-- Han Yoojin goi Kim Sunghan la: "tôi - anh"
-- Han Yoojin goi Kang Soyoung la: "tôi - cô
-Kang Soyoung-ssi"
-- Han Yoojin goi Seok Simyung la: "tôi - anh
-Trưởng nhóm Seok"
-- Han Yoojin goi Seok Hayan la: "tôi - cô"
-- Han Yoojin goi Yoon Yoon la: "tôi - cậu"
-- Han Yoojin goi Yoo Myungwoo la: "tớ - cậu
-Myungwoo-yah"
-- Han Yoojin goi Ma thú con la: "ta - con"
-- Han Yoojin goi Do Hamin la: "tôi - anh"
-- Han Yoojin goi Min Jisoo la: "tôi - bà"
-- Han Yoojin goi Kim Minee la: "tôi - cậu"
-- Han Yoojin goi Shishio la: "tôi - anh
-Ngài hội trưởng hội Amaterasu"
-- Han Yoojin goi Sigma la: "tôi - anh
-Sigma-ssi"
-- Han Yoojin goi Evelyn la: "tôi - cô"
-- Han Yoojin goi Newbie la: "tôi - cậu"
-- Han Yoojin goi Young Chaos la: "tôi - ông
-Tiên sinh"
-- Han Yoojin goi Jellyfish la: "ta - ngươi"
-- Han Yoojin goi Hoàng Lâm la: "tôi - anh"
-- Han Yoojin goi Sở Hoa Vân la: "tôi - anh
-ta - ngươi"
-- Han Yoojin goi Han Yoojin (tiền hồi quy) la: "tôi - cậu"
-- Han Yoojin goi Han Yoohyun (tiền hồi quy) la: "anh - em"
-- Han Yoohyun goi Han Yoojin la: "em - anh
-hyung"
-- Han Yoohyun goi Park Yerim la: "tôi - cô
-Thợ săn Park Yerim"
-- Han Yoohyun goi Sung Hyunjae la: "tôi - anh
-Hội trưởng hội Sesung"
-- Han Yoohyun goi Noah Rugir la: "tôi - cậu
-Thợ săn Noah"
-- Han Yoohyun goi Liette Rugir la: "tôi - cô
-Thợ săn Liette"
-- Han Yoohyun goi Song Taewon la: "tôi - anh
-Cục trưởng Song"
-- Han Yoohyun goi Moon Hyuna la: "tôi - cô
-Hyuna-ssi"
-- Han Yoohyun goi Kim Sunghan la: "tôi - anh"
-- Han Yoohyun goi Kang Soyoung la: "tôi - cô"
-- Han Yoohyun goi Seok Simyung la: "tôi - anh"
-- Han Yoohyun goi Seok Hayan la: "tôi - cô"
-- Han Yoohyun goi Yoo Myungwoo la: "tôi - anh
-Thợ săn Yoo Myungwoo"
-- Han Yoohyun goi Kim Minee la: "tôi - cậu"
-- Han Yoohyun goi Shishio la: "tôi - anh
-Hội trưởng hội Amaterasu"
-- Han Yoohyun goi Sigma la: "tôi - anh"
-- Han Yoohyun goi Evelyn la: "tôi - cô"
-- Han Yoohyun goi Young Chaos la: "tôi - ông
-Tiên sinh"
-- Han Yoohyun goi Sở Hoa Vân la: "ta - ngươi"
-- Han Yoohyun goi Han Yoojin (tiền hồi quy) la: "em - anh
-hyung"
-- Park Yerim goi Han Yoojin la: "tôi - chú
-Ahjussi"
-- Park Yerim goi Han Yoohyun la: "tôi - anh
-Hội trưởng"
-- Park Yerim goi Sung Hyunjae la: "cháu - chú
-Ông chú Sesung
-Hội trưởng hội Sesung
-"
-- Park Yerim goi Noah Rugir la: "tôi - anh
-Anh Noah"
-- Park Yerim goi Liette Rugir la: "em - chị"
-- Park Yerim goi Song Taewon la: "cháu - chú
-Cục trưởng Song"
-- Park Yerim goi Moon Hyuna la: "em - chị"
-- Park Yerim goi Kim Sunghan la: "tôi - anh"
-- Park Yerim goi Kang Soyoung la: "em - chị"
-- Park Yerim goi Seok Simyung la: "tôi - anh"
-- Park Yerim goi Seok Hayan la: "em - chị"
-- Park Yerim goi Yoon Yoon la: "tôi - cậu"
-- Park Yerim goi Yoo Myungwoo la: "em - anh
-Anh Myungwoo"
-- Park Yerim goi Shishio la: "tôi - anh
-Hội trưởng hội Amaterasu"
-- Park Yerim goi Sigma la: "ta - ngươi"
-- Sung Hyunjae goi Han Yoojin la: "tôi - cậu
-Han Yoojin-gun
-Yoojin-ah"
-- Sung Hyunjae goi Han Yoohyun la: "tôi - cậu
-Thiếu gia"
-- Sung Hyunjae goi Park Yerim la: "tôi - cô
-Tiểu thư"
-- Sung Hyunjae goi Noah Rugir la: "tôi - cậu
-Thợ săn Noah"
-- Sung Hyunjae goi Liette Rugir la: "tôi - cô
-Thợ săn Liette
-Liette-yang"
-- Sung Hyunjae goi Song Taewon la: "tôi - anh
-Cục trưởng Song
-Song Taewon-ssi"
-- Sung Hyunjae goi Moon Hyuna la: "tôi - cô"
-- Sung Hyunjae goi Kang Soyoung la: "tôi - cô
-Thợ săn Kang Soyoung"
-- Sung Hyunjae goi Seok Simyung la: "tôi - anh
-Trưởng nhóm Seok"
-- Sung Hyunjae goi Yoo Myungwoo la: "tôi - cậu
-Thợ săn Yoo Myungwoo"
-- Sung Hyunjae goi Shishio la: "tôi - anh
-Hội trưởng hội Amaterasu"
-- Sung Hyunjae goi Sigma la: "tôi - cậu"
-- Sung Hyunjae goi Evelyn la: "tôi - cô
-Thợ săn Evelyn"
-- Sung Hyunjae goi Young Chaos la: "tôi - ông
-Tiên sinh"
-- Sung Hyunjae goi Hoàng Lâm la: "tôi - anh (mới gặp)
-tôi - cậu"
-- Sung Hyunjae goi Sở Hoa Vân la: "tôi - anh
-ta - ngươi"
-- Sung Hyunjae goi Han Yoojin (tiền hồi quy) la: "tôi - cậu"
-- Noah Rugir goi Han Yoojin la: "tôi - cậu
-Yoojin-ssi"
-- Noah Rugir goi Han Yoohyun la: "tôi - cậu"
-- Noah Rugir goi Park Yerim la: "anh - em"
-- Noah Rugir goi Sung Hyunjae la: "tôi - anh"
-- Noah Rugir goi Liette Rugir la: "em - chị"
-- Noah Rugir goi Song Taewon la: "tôi - anh"
-- Noah Rugir goi Moon Hyuna la: "tôi - cô"
-- Noah Rugir goi Kang Soyoung la: "tôi - cô
-Thợ săn Kang Soyoung"
-- Noah Rugir goi Yoon Yoon la: "tôi - cậu"
-- Noah Rugir goi Yoo Myungwoo la: "tôi - cậu
-Thợ săn Yoo Myungwoo"
-- Liette Rugir goi Han Yoojin la: "tôi - cậu
-Cục cưng"
-- Liette Rugir goi Sung Hyunjae la: "tôi - anh"
-- Liette Rugir goi Noah Rugir la: "chị - em
-Faible
-Noah"
-- Liette Rugir goi Song Taewon la: "tôi - anh"
-- Liette Rugir goi Moon Hyuna la: "tôi - cô"
-- Liette Rugir goi Kang Soyoung la: "tôi - cô"
-- Song Taewon goi Han Yoojin la: "tôi - cậu
-Han Yoojin-ssi"
-- Song Taewon goi Han Yoohyun la: "tôi - cậu
-Thợ săn Han Yoohyun"
-- Song Taewon goi Park Yerim la: "tôi - cô
-Thợ săn Park Yerim"
-- Song Taewon goi Sung Hyunjae la: "tôi - anh
-Thợ săn Sung Hyunjae"
-- Song Taewon goi Noah Rugir la: "tôi - cậu
-Thợ săn Noah"
-- Song Taewon goi Liette Rugir la: "tôi - cô
-Thợ săn Liette"
-- Song Taewon goi Moon Hyuna la: "tôi - cô
-Thợ săn Moon Hyuna"
-- Song Taewon goi Kang Soyoung la: "tôi - cô
-Thợ săn Kang Soyoung"
-- Song Taewon goi Yoo Myungwoo la: "tôi - cậu
-Thợ săn Yoo Myungwoo"
-- Moon Hyuna goi Han Yoojin la: "tôi - cậu
-Hyung-nim"
-- Moon Hyuna goi Han Yoohyun la: "tôi - cậu
-Thiếu gia"
-- Moon Hyuna goi Park Yerim la: "chị - em
-Tiểu thư"
-- Moon Hyuna goi Sung Hyunjae la: "tôi - anh
-Hội trưởng hội Sesung"
-- Moon Hyuna goi Liette Rugir la: "tôi - cô
-Thợ săn Liette"
-- Moon Hyuna goi Song Taewon la: "tôi - anh
-Cục trưởng Song
-Song Taewon-ssi"
-- Moon Hyuna goi Kang Soyoung la: "chị - em"
-- Moon Hyuna goi Evelyn la: "tôi - cô
-Thợ săn Evelyn"
-- Kim Sunghan goi Han Yoojin la: "tôi - cậu
-Han Yoojin-ssi"
-- Kim Sunghan goi Han Yoohyun la: "tôi - cậu
-Hội trưởng"
-- Kang Soyoung goi Han Yoojin la: "tôi - anh
-Han Yoojin-ssi"
-- Kang Soyoung goi Han Yoohyun la: "tôi - anh
-Thợ săn Han Yoohyun
-Hội trưởng hội Haeyeon"
-- Kang Soyoung goi Park Yerim la: "chị - em"
-- Kang Soyoung goi Sung Hyunjae la: "tôi - anh
-Hội trưởng"
-- Kang Soyoung goi Noah Rugir la: "tôi - cậu
-Thợ săn Noah"
-- Kang Soyoung goi Liette Rugir la: "tôi - cô
-Thợ săn Liette"
-- Kang Soyoung goi Song Taewon la: "tôi - anh
-Cục trưởng Song"
-- Kang Soyoung goi Moon Hyuna la: "em - chị"
-- Seok Simyung goi Han Yoojin la: "tôi - cậu
-Han Yoojin-ssi"
-- Seok Simyung goi Han Yoohyun la: "tôi - cậu
-Hội trưởng"
-- Seok Simyung goi Sung Hyunjae la: "tôi - anh
-Ngài hội trưởng hội Sesung"
-- Seok Hayan goi Han Yoojin la: "tôi - cậu
-Han Yoojin-ssi"
-- Yoon Yoon goi Han Yoojin la: "tôi - cậu
-Đại ca Kim"
-- Yoon Yoon goi Park Yerim la: "tôi - cô"
-- Yoon Yoon goi Noah Rugir la: "tôi - cậu"
-- Yoo Myungwoo goi Han Yoojin la: "tớ - cậu
-Yoojin-ahi"
-- Yoo Myungwoo goi Han Yoohyun la: "tôi - cậu
-Thợ săn Han Yoohyun"
-- Yoo Myungwoo goi Park Yerim la: "anh - em"
-- Yoo Myungwoo goi Sung Hyunjae la: "tôi - anh
-Hội trưởng hội Sesung"
-- Yoo Myungwoo goi Noah Rugir la: "tôi - cậu"
-- Do Hamin goi Han Yoojin la: "tôi - cậu"
-- Min Jisoo goi Han Yoojin la: "tôi - cậu"
-- Kim Minee goi Han Yoojin la: "tôi - cậu"
-- Shishio goi Han Yoojin la: "tôi - cậu"
-- Shishio goi Han Yoohyun la: "tôi - cậu"
-- Shishio goi Park Yerim la: "tôi - cô"
-- Shishio goi Sung Hyunjae la: "tôi - anh"
-- Shishio goi Moon Hyuna la: "tôi - cô"
-- Sigma goi Han Yoojin la: "tôi - anh
-Cấp C"
-- Sigma goi Han Yoohyun la: "ta - ngươi"
-- Evelyn goi Han Yoojin la: "tôi - cậu
-Han Yoojin-ssi"
-- Evelyn goi Sung Hyunjae la: "tôi - anh
-Hội trưởng"
-- Evelyn goi Moon Hyuna la: "tôi - cô
-Thợ săn Moon Hyuna"
-- Young Chaos goi Han Yoojin la: "ta - ngươi
-Con cả"
-- Young Chaos goi Han Yoohyun la: "ta - ngươi
-Con thứ"
-- Young Chaos goi Park Yerim la: "ta - ngươi
-Con út"
-- Young Chaos goi Sung Hyunjae la: "ta - ngươi"
-- Jellyfish goi Han Yoojin la: "ta - cậu"
-- Hoàng Lâm goi Han Yoojin la: "tôi - cậu
-Jin-ah"
-- Hoàng Lâm goi Sung Hyunjae la: "tôi - anh"
-- Hoàng Lâm goi Song Taewon la: "tôi - anh
-em - anh
-Anh trai / Hyung-ah"
-- Sở Hoa Vân goi Han Yoojin la: "ta - ngươi"
-- Sở Hoa Vân goi Han Yoohyun la: "ta - ngươi"
-- Han Yoojin (tiền hồi quy) goi Han Yoojin la: "tôi - cậu"
-- Han Yoohyun (tiền hồi quy) goi Han Yoojin la: "em - anh
-Hyung"
-- Han Yoohyun (tiền hồi quy) goi Han Yoohyun la: "ta - ngươi"
+### Cách gọi nhau trong đối thoại (Ngôi 1 gọi Ngôi 2):
+- Han Yoojin gọi Han Yoohyun là: xưng anh gọi em, xưng Yoohyun gọi ah, Em trai
+- Han Yoojin gọi Park Yerim là: xưng tôi gọi nhóc, xưng Yerim gọi ah
+- Han Yoojin gọi Sung Hyunjae là: xưng tôi gọi anh, Ngài hội trưởng hội Sesung, xưng Sung Hyunjae gọi ssi, xưng Hyunjae gọi ssi
+- Han Yoojin gọi Noah Rugir là: xưng tôi gọi cậu, xưng Noah gọi ssi
+- Han Yoojin gọi Liette Rugir là: xưng tôi gọi cô
+- Han Yoojin gọi Song Taewon là: xưng tôi gọi anh, Ngài cục trưởng Song, xưng Song Taewon gọi ssi
+- Han Yoojin gọi Moon Hyuna là: xưng tôi gọi cô, xưng Hyuna gọi ssi
+- Han Yoojin gọi Kim Sunghan là: xưng tôi gọi anh
+- Han Yoojin gọi Kang Soyoung là: xưng tôi gọi cô, xưng Kang Soyoung gọi ssi
+- Han Yoojin gọi Seok Simyung là: xưng tôi gọi anh, Trưởng nhóm Seok
+- Han Yoojin gọi Seok Hayan là: xưng tôi gọi cô
+- Han Yoojin gọi Yoon Yoon là: xưng tôi gọi cậu
+- Han Yoojin gọi Yoo Myungwoo là: xưng tớ gọi cậu, xưng Myungwoo gọi yah
+- Han Yoojin gọi Ma thú con là: xưng ta gọi con
+- Han Yoojin gọi Do Hamin là: xưng tôi gọi anh
+- Han Yoojin gọi Min Jisoo là: xưng tôi gọi bà
+- Han Yoojin gọi Kim Minee là: xưng tôi gọi cậu
+- Han Yoojin gọi Shishio là: xưng tôi gọi anh, Ngài hội trưởng hội Amaterasu
+- Han Yoojin gọi Sigma là: xưng tôi gọi anh, xưng Sigma gọi ssi
+- Han Yoojin gọi Evelyn là: xưng tôi gọi cô
+- Han Yoojin gọi Newbie là: xưng tôi gọi cậu
+- Han Yoojin gọi Young Chaos là: xưng tôi gọi ông, Tiên sinh
+- Han Yoojin gọi Jellyfish là: xưng ta gọi ngươi
+- Han Yoojin gọi Hoàng Lâm là: xưng tôi gọi anh
+- Han Yoojin gọi Sở Hoa Vân là: xưng tôi gọi anh, xưng ta gọi ngươi
+- Han Yoojin gọi Han Yoojin (tiền hồi quy) là: xưng tôi gọi cậu
+- Han Yoojin gọi Han Yoohyun (tiền hồi quy) là: xưng anh gọi em
+- Han Yoohyun gọi Han Yoojin là: xưng em gọi anh, hyung
+- Han Yoohyun gọi Park Yerim là: xưng tôi gọi cô, Thợ săn Park Yerim
+- Han Yoohyun gọi Sung Hyunjae là: xưng tôi gọi anh, Hội trưởng hội Sesung
+- Han Yoohyun gọi Noah Rugir là: xưng tôi gọi cậu, Thợ săn Noah
+- Han Yoohyun gọi Liette Rugir là: xưng tôi gọi cô, Thợ săn Liette
+- Han Yoohyun gọi Song Taewon là: xưng tôi gọi anh, Cục trưởng Song
+- Han Yoohyun gọi Moon Hyuna là: xưng tôi gọi cô, xưng Hyuna gọi ssi
+- Han Yoohyun gọi Kim Sunghan là: xưng tôi gọi anh
+- Han Yoohyun gọi Kang Soyoung là: xưng tôi gọi cô
+- Han Yoohyun gọi Seok Simyung là: xưng tôi gọi anh
+- Han Yoohyun gọi Seok Hayan là: xưng tôi gọi cô
+- Han Yoohyun gọi Yoo Myungwoo là: xưng tôi gọi anh, Thợ săn Yoo Myungwoo
+- Han Yoohyun gọi Kim Minee là: xưng tôi gọi cậu
+- Han Yoohyun gọi Shishio là: xưng tôi gọi anh, Hội trưởng hội Amaterasu
+- Han Yoohyun gọi Sigma là: xưng tôi gọi anh
+- Han Yoohyun gọi Evelyn là: xưng tôi gọi cô
+- Han Yoohyun gọi Young Chaos là: xưng tôi gọi ông, Tiên sinh
+- Han Yoohyun gọi Sở Hoa Vân là: xưng ta gọi ngươi
+- Han Yoohyun gọi Han Yoojin (tiền hồi quy) là: xưng em gọi anh, hyung
+- Park Yerim gọi Han Yoojin là: xưng tôi gọi chú, Ahjussi
+- Park Yerim gọi Han Yoohyun là: xưng tôi gọi anh, Hội trưởng
+- Park Yerim gọi Sung Hyunjae là: xưng cháu gọi chú, Ông chú Sesung, Hội trưởng hội Sesung
+- Park Yerim gọi Noah Rugir là: xưng tôi gọi anh, Anh Noah
+- Park Yerim gọi Liette Rugir là: xưng em gọi chị
+- Park Yerim gọi Song Taewon là: xưng cháu gọi chú, Cục trưởng Song
+- Park Yerim gọi Moon Hyuna là: xưng em gọi chị
+- Park Yerim gọi Kim Sunghan là: xưng tôi gọi anh
+- Park Yerim gọi Kang Soyoung là: xưng em gọi chị
+- Park Yerim gọi Seok Simyung là: xưng tôi gọi anh
+- Park Yerim gọi Seok Hayan là: xưng em gọi chị
+- Park Yerim gọi Yoon Yoon là: xưng tôi gọi cậu
+- Park Yerim gọi Yoo Myungwoo là: xưng em gọi anh, Anh Myungwoo
+- Park Yerim gọi Shishio là: xưng tôi gọi anh, Hội trưởng hội Amaterasu
+- Park Yerim gọi Sigma là: xưng ta gọi ngươi
+- Sung Hyunjae gọi Han Yoojin là: xưng tôi gọi cậu, xưng Han Yoojin gọi gun, xưng Yoojin gọi ah
+- Sung Hyunjae gọi Han Yoohyun là: xưng tôi gọi cậu, Thiếu gia
+- Sung Hyunjae gọi Park Yerim là: xưng tôi gọi cô, Tiểu thư
+- Sung Hyunjae gọi Noah Rugir là: xưng tôi gọi cậu, Thợ săn Noah
+- Sung Hyunjae gọi Liette Rugir là: xưng tôi gọi cô, Thợ săn Liette, xưng Liette gọi yang
+- Sung Hyunjae gọi Song Taewon là: xưng tôi gọi anh, Cục trưởng Song, xưng Song Taewon gọi ssi
+- Sung Hyunjae gọi Moon Hyuna là: xưng tôi gọi cô
+- Sung Hyunjae gọi Kang Soyoung là: xưng tôi gọi cô, Thợ săn Kang Soyoung
+- Sung Hyunjae gọi Seok Simyung là: xưng tôi gọi anh, Trưởng nhóm Seok
+- Sung Hyunjae gọi Yoo Myungwoo là: xưng tôi gọi cậu, Thợ săn Yoo Myungwoo
+- Sung Hyunjae gọi Shishio là: xưng tôi gọi anh, Hội trưởng hội Amaterasu
+- Sung Hyunjae gọi Sigma là: xưng tôi gọi cậu
+- Sung Hyunjae gọi Evelyn là: xưng tôi gọi cô, Thợ săn Evelyn
+- Sung Hyunjae gọi Young Chaos là: xưng tôi gọi ông, Tiên sinh
+- Sung Hyunjae gọi Hoàng Lâm là: xưng tôi gọi anh (mới gặp), xưng tôi gọi cậu
+- Sung Hyunjae gọi Sở Hoa Vân là: xưng tôi gọi anh, xưng ta gọi ngươi
+- Sung Hyunjae gọi Han Yoojin (tiền hồi quy) là: xưng tôi gọi cậu
+- Noah Rugir gọi Han Yoojin là: xưng tôi gọi cậu, xưng Yoojin gọi ssi
+- Noah Rugir gọi Han Yoohyun là: xưng tôi gọi cậu
+- Noah Rugir gọi Park Yerim là: xưng anh gọi em
+- Noah Rugir gọi Sung Hyunjae là: xưng tôi gọi anh
+- Noah Rugir gọi Liette Rugir là: xưng em gọi chị
+- Noah Rugir gọi Song Taewon là: xưng tôi gọi anh
+- Noah Rugir gọi Moon Hyuna là: xưng tôi gọi cô
+- Noah Rugir gọi Kang Soyoung là: xưng tôi gọi cô, Thợ săn Kang Soyoung
+- Noah Rugir gọi Yoon Yoon là: xưng tôi gọi cậu
+- Noah Rugir gọi Yoo Myungwoo là: xưng tôi gọi cậu, Thợ săn Yoo Myungwoo
+- Liette Rugir gọi Han Yoojin là: xưng tôi gọi cậu, Cục cưng
+- Liette Rugir gọi Sung Hyunjae là: xưng tôi gọi anh
+- Liette Rugir gọi Noah Rugir là: xưng chị gọi em, Faible, Noah
+- Liette Rugir gọi Song Taewon là: xưng tôi gọi anh
+- Liette Rugir gọi Moon Hyuna là: xưng tôi gọi cô
+- Liette Rugir gọi Kang Soyoung là: xưng tôi gọi cô
+- Song Taewon gọi Han Yoojin là: xưng tôi gọi cậu, xưng Han Yoojin gọi ssi
+- Song Taewon gọi Han Yoohyun là: xưng tôi gọi cậu, Thợ săn Han Yoohyun
+- Song Taewon gọi Park Yerim là: xưng tôi gọi cô, Thợ săn Park Yerim
+- Song Taewon gọi Sung Hyunjae là: xưng tôi gọi anh, Thợ săn Sung Hyunjae
+- Song Taewon gọi Noah Rugir là: xưng tôi gọi cậu, Thợ săn Noah
+- Song Taewon gọi Liette Rugir là: xưng tôi gọi cô, Thợ săn Liette
+- Song Taewon gọi Moon Hyuna là: xưng tôi gọi cô, Thợ săn Moon Hyuna
+- Song Taewon gọi Kang Soyoung là: xưng tôi gọi cô, Thợ săn Kang Soyoung
+- Song Taewon gọi Yoo Myungwoo là: xưng tôi gọi cậu, Thợ săn Yoo Myungwoo
+- Moon Hyuna gọi Han Yoojin là: xưng tôi gọi cậu, xưng Hyung gọi nim
+- Moon Hyuna gọi Han Yoohyun là: xưng tôi gọi cậu, Thiếu gia
+- Moon Hyuna gọi Park Yerim là: xưng chị gọi em, Tiểu thư
+- Moon Hyuna gọi Sung Hyunjae là: xưng tôi gọi anh, Hội trưởng hội Sesung
+- Moon Hyuna gọi Liette Rugir là: xưng tôi gọi cô, Thợ săn Liette
+- Moon Hyuna gọi Song Taewon là: xưng tôi gọi anh, Cục trưởng Song, xưng Song Taewon gọi ssi
+- Moon Hyuna gọi Kang Soyoung là: xưng chị gọi em
+- Moon Hyuna gọi Evelyn là: xưng tôi gọi cô, Thợ săn Evelyn
+- Kim Sunghan gọi Han Yoojin là: xưng tôi gọi cậu, xưng Han Yoojin gọi ssi
+- Kim Sunghan gọi Han Yoohyun là: xưng tôi gọi cậu, Hội trưởng
+- Kang Soyoung gọi Han Yoojin là: xưng tôi gọi anh, xưng Han Yoojin gọi ssi
+- Kang Soyoung gọi Han Yoohyun là: xưng tôi gọi anh, Thợ săn Han Yoohyun, Hội trưởng hội Haeyeon
+- Kang Soyoung gọi Park Yerim là: xưng chị gọi em
+- Kang Soyoung gọi Sung Hyunjae là: xưng tôi gọi anh, Hội trưởng
+- Kang Soyoung gọi Noah Rugir là: xưng tôi gọi cậu, Thợ săn Noah
+- Kang Soyoung gọi Liette Rugir là: xưng tôi gọi cô, Thợ săn Liette
+- Kang Soyoung gọi Song Taewon là: xưng tôi gọi anh, Cục trưởng Song
+- Kang Soyoung gọi Moon Hyuna là: xưng em gọi chị
+- Seok Simyung gọi Han Yoojin là: xưng tôi gọi cậu, xưng Han Yoojin gọi ssi
+- Seok Simyung gọi Han Yoohyun là: xưng tôi gọi cậu, Hội trưởng
+- Seok Simyung gọi Sung Hyunjae là: xưng tôi gọi anh, Ngài hội trưởng hội Sesung
+- Seok Hayan gọi Han Yoojin là: xưng tôi gọi cậu, xưng Han Yoojin gọi ssi
+- Yoon Yoon gọi Han Yoojin là: xưng tôi gọi cậu, Đại ca Kim
+- Yoon Yoon gọi Park Yerim là: xưng tôi gọi cô
+- Yoon Yoon gọi Noah Rugir là: xưng tôi gọi cậu
+- Yoo Myungwoo gọi Han Yoojin là: xưng tớ gọi cậu, xưng Yoojin gọi ahi
+- Yoo Myungwoo gọi Han Yoohyun là: xưng tôi gọi cậu, Thợ săn Han Yoohyun
+- Yoo Myungwoo gọi Park Yerim là: xưng anh gọi em
+- Yoo Myungwoo gọi Sung Hyunjae là: xưng tôi gọi anh, Hội trưởng hội Sesung
+- Yoo Myungwoo gọi Noah Rugir là: xưng tôi gọi cậu
+- Do Hamin gọi Han Yoojin là: xưng tôi gọi cậu
+- Min Jisoo gọi Han Yoojin là: xưng tôi gọi cậu
+- Kim Minee gọi Han Yoojin là: xưng tôi gọi cậu
+- Shishio gọi Han Yoojin là: xưng tôi gọi cậu
+- Shishio gọi Han Yoohyun là: xưng tôi gọi cậu
+- Shishio gọi Park Yerim là: xưng tôi gọi cô
+- Shishio gọi Sung Hyunjae là: xưng tôi gọi anh
+- Shishio gọi Moon Hyuna là: xưng tôi gọi cô
+- Sigma gọi Han Yoojin là: xưng tôi gọi anh, Cấp C
+- Sigma gọi Han Yoohyun là: xưng ta gọi ngươi
+- Evelyn gọi Han Yoojin là: xưng tôi gọi cậu, xưng Han Yoojin gọi ssi
+- Evelyn gọi Sung Hyunjae là: xưng tôi gọi anh, Hội trưởng
+- Evelyn gọi Moon Hyuna là: xưng tôi gọi cô, Thợ săn Moon Hyuna
+- Young Chaos gọi Han Yoojin là: xưng ta gọi ngươi, Con cả
+- Young Chaos gọi Han Yoohyun là: xưng ta gọi ngươi, Con thứ
+- Young Chaos gọi Park Yerim là: xưng ta gọi ngươi, Con út
+- Young Chaos gọi Sung Hyunjae là: xưng ta gọi ngươi
+- Jellyfish gọi Han Yoojin là: xưng ta gọi cậu
+- Hoàng Lâm gọi Han Yoojin là: xưng tôi gọi cậu, xưng Jin gọi ah
+- Hoàng Lâm gọi Sung Hyunjae là: xưng tôi gọi anh
+- Hoàng Lâm gọi Song Taewon là: xưng tôi gọi anh, xưng em gọi anh, xưng Anh trai / Hyung gọi ah
+- Sở Hoa Vân gọi Han Yoojin là: xưng ta gọi ngươi
+- Sở Hoa Vân gọi Han Yoohyun là: xưng ta gọi ngươi
+- Han Yoojin (tiền hồi quy) gọi Han Yoojin là: xưng tôi gọi cậu
+- Han Yoohyun (tiền hồi quy) gọi Han Yoojin là: xưng em gọi anh, Hyung
+- Han Yoohyun (tiền hồi quy) gọi Han Yoohyun là: xưng ta gọi ngươi
 
 ## 2. THONG TIN NHAN VAT
 - Han Yoojin (25 tuổi) [Skill: 정신력 업(E) / Mental strength UP / -> Tinh thần lực UP]
@@ -634,7 +514,7 @@ attack skills -> kỹ năng sát thương
 - 숨어있는 별의 조각 | Shard of a Hidden Star -> 
 - 과자의 집 | Gingerbread House -> 
 - 침묵의 암실 | Darkroom of Silence -> 
-- 이스무아르 | Ismual -> 
+- 이스무아르 | Ismual -> Ismuar
 - 정령 | elemental -> Tinh linh
 - 살라만더 | salamanders -> 
 - 실프 | sylphs -> 
@@ -829,7 +709,7 @@ attack skills -> kỹ năng sát thương
 -  |  -> Tuần lộc tuyết
 -  |  -> Lướt vào
 -  |  -> Thương sừng
-- 스베일 양의 털실 |  -> Sợi cừu Sveil
+- 스베일 양의 털실 |  -> Len Cừu Sveil
 - 얼음나무 | Frost Tree Spear -> Thương Băng Thụ
 -  |  -> Bậc thầy Rèn
 -  | Black Bison Forest -> Hắc Ngưu Lâm
@@ -929,4 +809,5 @@ attack skills -> kỹ năng sát thương
 -  | Point store -> Cửa hàng điểm
 -  | Final Gate -> Chung Môn
 - 하얀 새 | White Bird -> Chim Trắng
+-  | Seo Kyeonghoon -> Seo Kyeonghoon
 
