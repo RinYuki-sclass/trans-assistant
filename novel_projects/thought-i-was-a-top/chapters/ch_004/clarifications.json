@@ -1,0 +1,59 @@
+{
+  "chapter_id": "ch_004",
+  "questions": [
+    {
+      "id": "amb_005",
+      "original": "민지현 헌터",
+      "suggested": "Hunter Min Ji-hyun",
+      "confidence": 0.7,
+      "question": "The gender of Min Ji-hyun is not explicitly stated, though 'Ji-hyun' is a common name for both genders in Korea, it leans slightly female. Given the lack of explicit gender markers, should the translation assume a gender or keep it ambiguous?",
+      "options": [
+        "Assume Female",
+        "Assume Male",
+        "Keep ambiguous"
+      ],
+      "category": "gender"
+    },
+    {
+      "id": "amb_006",
+      "original": "조민찬",
+      "suggested": "Jo Min-chan",
+      "confidence": 0.7,
+      "question": "The gender of Jo Min-chan is not explicitly stated. 'Min-chan' is a common name for both genders in Korea, though it leans slightly male. Given the lack of explicit gender markers, should the translation assume a gender or keep it ambiguous?",
+      "options": [
+        "Assume Female",
+        "Assume Male",
+        "Keep ambiguous"
+      ],
+      "category": "gender"
+    },
+    {
+      "id": "amb_007",
+      "original": "정윤섭",
+      "suggested": "Jung Yoon-seop",
+      "confidence": 0.7,
+      "question": "The gender of Jung Yoon-seop is not explicitly stated. 'Yoon-seop' is a common name for both genders in Korea, though it leans slightly male. Given the lack of explicit gender markers, should the translation assume a gender or keep it ambiguous?",
+      "options": [
+        "Assume Female",
+        "Assume Male",
+        "Keep ambiguous"
+      ],
+      "category": "gender"
+    }
+  ],
+  "answers": {
+    "amb_005": {
+      "choice": "Assume Female",
+      "custom": null
+    },
+    "amb_006": {
+      "choice": "Assume Female",
+      "custom": null
+    },
+    "amb_007": {
+      "choice": "Assume Female",
+      "custom": null
+    }
+  },
+  "answered_at": "2026-07-31T22:06:31.052946+07:00"
+}

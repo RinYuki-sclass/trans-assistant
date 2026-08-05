@@ -1,0 +1,38 @@
+[
+  {
+    "name": "남자",
+    "gender": "male",
+    "aliases": [],
+    "speech_style": "",
+    "honorifics": "",
+    "notes": "Villain / victim. An unnamed member of a vicious criminal organization (Tribula), terrified and ultimately killed by Liam Carter."
+  },
+  {
+    "name": "리암 카터",
+    "gender": "male",
+    "aliases": [
+      "Liam Carter"
+    ],
+    "speech_style": "",
+    "honorifics": "",
+    "notes": "Protagonist / regressor / magic-user. A powerful magic-user affiliated with the Magic Tower. He is a regressor, having returned from a past timeline to prevent Caden's death. He has a brutal, efficient killing method but often feigns innocence. He is deeply in love with Caden."
+  },
+  {
+    "name": "케이든",
+    "gender": "male",
+    "aliases": [
+      "Caden"
+    ],
+    "speech_style": "",
+    "honorifics": "",
+    "notes": "Duke / Liam's love interest / investigator. A Duke who leads an investigation into criminal organizations. He is intelligent, observant, and initially intrigued by Liam before falling in love with him. He is Liam's superior and is both annoyed and endeared by Liam's actions."
+  },
+  {
+    "name": "라비 플레어",
+    "gender": "male",
+    "aliases": [],
+    "speech_style": "",
+    "honorifics": "",
+    "notes": "Caden's subordinate. A subordinate of Caden who was rescued by Liam. He appears somewhat timid and uncomfortable around Liam."
+  }
+]

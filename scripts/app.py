@@ -780,7 +780,7 @@ with st.sidebar:
 # ============================================================
 # MAIN NAVIGATION (Persistent on F5)
 # ============================================================
-MENU_ITEMS = ["🏠 Hướng dẫn", "📝 Dịch Thuật", "🔍 QC Review", "📊 So Sánh", "📖 Đối Chiếu", "🎨 Truyện Tranh", "📥 Tải Truyện", "📚 Glossary", "✂️ Cắt Ảnh", "📋 Reformat Script", "🔎 QC Diff", "🤖 Novel Agent"]
+MENU_ITEMS = ["🏠 Hướng dẫn", "📝 Dịch Thuật", "🔍 QC Review", "📊 So Sánh", "📖 Đối Chiếu", "🎨 Truyện Tranh", "📥 Tải Truyện", "📚 Glossary", "✂️ Cắt Ảnh", "📋 Reformat Script", "🔎 QC Diff", "🤖 Novel Agent", "🎧 Audio Converter"]
 
 tabs = st.tabs(MENU_ITEMS)
 current_menu = None # Not used
@@ -5024,3 +5024,553 @@ with tabs[10]:
                 if k.startswith('qcd_'):
                     del st.session_state[k]
             st.rerun()
+
+# ============================================================
+# TAB 12 – 🎧 AUDIO CONVERTER
+# ============================================================
+with tabs[12]:
+    import sys as _sys
+    _audio_mod_dir = os.path.join(BASE_DIR, 'scripts')
+    if _audio_mod_dir not in _sys.path:
+        _sys.path.insert(0, _audio_mod_dir)
+
+    try:
+        from audio.db          import init_db, upsert_project, save_chapter, list_projects, list_chapters, save_playback_state, get_playback_state, delete_chapter, delete_project
+        from audio.tts_engine  import synthesize_text, synthesize_sample, VOICE_NAMES, VOICES
+        from audio.crawler     import crawl_chapter
+        from audio.r2_uploader import upload_mp3, delete_mp3, ensure_playable_url
+        _audio_imports_ok = True
+    except ImportError as _e:
+        _audio_imports_ok = False
+        _audio_import_err = str(_e)
+
+    st.markdown("""
+    <div style='background:linear-gradient(135deg,#1a1a2e 0%,#16213e 60%,#0f3460 100%);
+         border-radius:14px;padding:1.4rem 1.8rem;margin-bottom:1.2rem;color:#fff'>
+      <h2 style='margin:0;font-size:1.6rem'>🎧 Audio Converter</h2>
+      <p style='margin:0.3rem 0 0;color:rgba(255,255,255,0.75);font-size:0.9rem'>
+        Crawl story chapters → Google Cloud TTS → Cloudflare R2 → Stream anywhere
+      </p>
+    </div>
+    """, unsafe_allow_html=True)
+
+    if not _audio_imports_ok:
+        st.error(f"❌ Không load được module Audio: `{_audio_import_err}`")
+        st.info("Chạy: `pip install beautifulsoup4 httpx boto3 sqlalchemy` rồi restart app.")
+        st.stop()
+
+    # Init DB (create tables if needed)
+    try:
+        init_db()
+    except Exception as _dbe:
+        st.warning(f"⚠️ Không thể khởi tạo Audio DB: {_dbe}")
+
+    # ── Helper: slugify ──────────────────────────────────────────────
+    def _slugify(text: str) -> str:
+        import re as _re
+        s = text.lower().strip()
+        s = _re.sub(r'[^\w\s-]', '', s)
+        s = _re.sub(r'[\s_]+', '-', s)
+        return s[:80]
+
+    # ── Helper: estimate MP3 duration (bytes / ~16kBps CBR 128kbps) ──
+    def _estimate_duration(mp3_bytes: bytes) -> float:
+        return round(len(mp3_bytes) / 16000, 1)
+
+    def _fmt_duration(secs: float) -> str:
+        m, s = divmod(int(secs), 60)
+        return f"{m}:{s:02d}"
+
+    # ── Sub-tabs ─────────────────────────────────────────────────────
+    aud_sub = st.tabs(["🌐 Crawl & Generate", "📻 Playlist & Player", "🗂️ Manage Projects"])
+
+    # ╔══════════════════════════════════════════════════════════════╗
+    # ║  SUB-TAB 0 – CRAWL & GENERATE                              ║
+    # ╚══════════════════════════════════════════════════════════════╝
+    with aud_sub[0]:
+        st.markdown("### 🌐 Crawl & Generate Audio")
+
+        # ── Source selection ─────────────────────────────────────────
+        src_type = st.radio(
+            "Nguồn văn bản:",
+            ["🌐 Web URL (Crawl)", "🤖 Novel Agent (Translated)"],
+            horizontal=True,
+            key="aud_src_type",
+        )
+
+        crawl_text  = ""
+        crawl_title = ""
+        crawl_url   = ""
+        na_proj_slug = ""
+
+        if src_type == "🌐 Web URL (Crawl)":
+            crawl_url = st.text_input(
+                "URL chương truyện:",
+                value="https://hyacinthbloom.com/earth-heros-retirement-project/earth-heros-retirement-project-122/",
+                key="aud_crawl_url",
+            )
+            if st.button("🔍 Preview & Crawl", key="aud_preview_crawl"):
+                with st.spinner("Đang crawl nội dung…"):
+                    try:
+                        result = crawl_chapter(crawl_url)
+                        st.session_state['aud_crawl_result'] = result
+                        st.success(f"✅ Crawl thành công! **{result['title']}** – {result['word_count']:,} từ")
+                    except Exception as _ce:
+                        st.error(f"❌ Crawl thất bại: {_ce}")
+
+            if 'aud_crawl_result' in st.session_state:
+                r = st.session_state['aud_crawl_result']
+                crawl_title = r['title']
+                crawl_text  = r['full_text']
+                crawl_url   = r['url']
+                with st.expander(f"📄 Preview: {crawl_title} ({r['word_count']:,} từ)", expanded=False):
+                    st.text(crawl_text[:1500] + ("…" if len(crawl_text) > 1500 else ""))
+
+        else:  # Novel Agent
+            na_all_proj = na_list_projects()
+            if not na_all_proj:
+                st.warning("⚠️ Chưa có Novel Agent project nào. Tạo project ở tab 🤖 Novel Agent trước.")
+            else:
+                na_proj_slug = st.selectbox("Chọn project:", na_all_proj, key="aud_na_proj")
+                if na_proj_slug:
+                    na_cfg      = na_load_config(na_proj_slug)
+                    na_chapters = na_list_chapters(na_proj_slug)
+                    na_chapters_with_trans = [
+                        ch for ch in na_chapters
+                        if os.path.exists(os.path.join(na_chapter_dir(na_proj_slug, ch), 'translation.md'))
+                    ]
+                    if not na_chapters_with_trans:
+                        st.info("Chưa có chương nào được dịch trong project này.")
+                    else:
+                        sel_chs = st.multiselect(
+                            "Chọn chương muốn convert sang audio:",
+                            na_chapters_with_trans,
+                            key="aud_na_sel_chapters",
+                        )
+                        if sel_chs:
+                            # Read selected chapter translation
+                            all_texts = []
+                            for ch in sel_chs:
+                                tp = os.path.join(na_chapter_dir(na_proj_slug, ch), 'translation.md')
+                                with open(tp, 'r', encoding='utf-8') as _f:
+                                    all_texts.append((ch, _f.read()))
+                            st.session_state['aud_na_texts'] = all_texts
+                            st.success(f"✅ Đã load {len(sel_chs)} chương từ **{na_cfg.get('title', na_proj_slug)}**")
+
+        st.divider()
+
+        # ── TTS Settings ─────────────────────────────────────────────
+        st.markdown("#### ⚙️ Cài đặt Giọng đọc (Google Cloud TTS)")
+
+        col_v, col_r, col_p = st.columns([3, 1, 1])
+        with col_v:
+            aud_voice = st.selectbox("Giọng đọc:", VOICE_NAMES, index=0, key="aud_voice_sel")
+        with col_r:
+            aud_rate  = st.slider("Tốc độ:", 0.5, 2.0, 1.0, 0.05, key="aud_rate")
+        with col_p:
+            aud_pitch = st.slider("Cao độ:", -10.0, 10.0, 0.0, 0.5, key="aud_pitch")
+
+        lang_code, voice_name, _ = VOICES[aud_voice]
+        
+        # ── Pronunciation Mapping Expander ───────────────────────────
+        with st.expander("🗣️ Sửa Phát Âm Tên Nhân Vật Hàn Quốc (Pronunciation Map)", expanded=False):
+            use_korean_rules = st.checkbox(
+                "Tự động tối ưu các âm tiết tiếng Hàn dễ đọc sai (Hyun→Hyeon, Cheon→Chun, Seong→Sung, Eun→Un...)",
+                value=True,
+                key="aud_use_korean_rules",
+            )
+            st.caption("Bảng thay thế phát âm tên riêng (Mỗi dòng một cặp: `TênGốc => CáchĐọcĐúng`):")
+
+            default_map_text = "Hyunjae => Hyeon-jae\nTaewon => Tae-won\nCheon => Chun\nAhin => Ah-hin"
+            if src_type == "🤖 Novel Agent (Translated)" and na_proj_slug:
+                try:
+                    mem = na_load_memory(na_proj_slug)
+                    chars = mem.get("characters", [])
+                    if chars:
+                        lines = [f"{c.get('name','')} => {c.get('name','')}" for c in chars if c.get('name')]
+                        if lines:
+                            default_map_text = "\n".join(lines)
+                except Exception:
+                    pass
+
+            custom_name_map_raw = st.text_area(
+                "Định dạng: `TênGốc => CáchĐọcPhátÂm`",
+                value=default_map_text,
+                height=120,
+                key="aud_custom_name_map_raw",
+            )
+
+        def _parse_custom_name_map(raw_text: str) -> dict[str, str]:
+            mapping = {}
+            if not raw_text:
+                return mapping
+            for line in raw_text.splitlines():
+                line = line.strip()
+                if not line or line.startswith("#"):
+                    continue
+                parts = None
+                for sep in ["=>", "->", ":"]:
+                    if sep in line:
+                        parts = line.split(sep, 1)
+                        break
+                if parts and len(parts) == 2:
+                    k, v = parts[0].strip(), parts[1].strip()
+                    if k and v:
+                        mapping[k] = v
+            return mapping
+
+        custom_name_map = _parse_custom_name_map(custom_name_map_raw)
+
+        c_info, c_test = st.columns([3, 2])
+        with c_info:
+            st.caption(f"🎤 Model: `{voice_name}` · Rate: `{aud_rate}x` · Pitch: `{aud_pitch:+.1f}st`")
+        with c_test:
+            if st.button("🔊 Nghe thử giọng (Voice Test)", key="aud_test_voice_btn", use_container_width=True):
+                with st.spinner("Đang tạo sample voice..."):
+                    try:
+                        sample_bytes = synthesize_sample(
+                            voice_label=aud_voice,
+                            speaking_rate=aud_rate,
+                            pitch=aud_pitch,
+                            custom_map=custom_name_map,
+                            use_default_korean=use_korean_rules,
+                        )
+                        st.session_state["aud_sample_audio"] = sample_bytes
+                    except Exception as _ste:
+                        st.error(f"❌ Lỗi thử giọng: {_ste}")
+
+        if "aud_sample_audio" in st.session_state:
+            st.markdown("**🔊 Bản nghe thử (Voice Sample Preview):**")
+            st.audio(st.session_state["aud_sample_audio"], format="audio/mp3")
+
+        st.divider()
+
+        # ── Project slug for saving ──────────────────────────────────
+        if src_type == "🌐 Web URL (Crawl)":
+            default_proj_title = crawl_title or "Untitled Crawl"
+        else:
+            na_cfg_t = na_load_config(na_proj_slug) if na_proj_slug else {}
+            default_proj_title = na_cfg_t.get('title', na_proj_slug or "Novel Agent")
+
+        proj_title_input = st.text_input(
+            "Tên Project Audio:",
+            value=default_proj_title,
+            key="aud_proj_title",
+        )
+
+        # ── Generate button ──────────────────────────────────────────
+        can_generate = False
+        if src_type == "🌐 Web URL (Crawl)" and crawl_text:
+            can_generate = True
+        elif src_type == "🤖 Novel Agent (Translated)" and st.session_state.get('aud_na_texts'):
+            can_generate = True
+
+        if st.button("🎙️ Synthesize & Upload to R2", disabled=not can_generate,
+                     type="primary", key="aud_gen_btn", use_container_width=True):
+
+            proj_slug = _slugify(proj_title_input or "audio-project")
+
+            # Determine source_type value
+            db_src_type = "web_crawler" if src_type == "🌐 Web URL (Crawl)" else "novel_agent"
+            db_src_url  = crawl_url if db_src_type == "web_crawler" else None
+
+            try:
+                proj = upsert_project(
+                    title=proj_title_input,
+                    source_type=db_src_type,
+                    source_url=db_src_url,
+                    project_slug=proj_slug,
+                )
+            except Exception as _dbe:
+                st.error(f"DB error: {_dbe}")
+                st.stop()
+
+            # Build list of (chapter_slug, chapter_title, text)
+            if db_src_type == "web_crawler":
+                tasks = [(_slugify(crawl_title or "chapter-1"), crawl_title or "Chapter 1", crawl_text)]
+            else:
+                tasks = [
+                    (_slugify(ch_id), ch_id.replace('_', ' ').title(), text)
+                    for ch_id, text in st.session_state.get('aud_na_texts', [])
+                ]
+
+            total_tasks = len(tasks)
+            prog_bar = st.progress(0, text="Bắt đầu synthesis…")
+
+            for idx, (ch_slug, ch_title, ch_text) in enumerate(tasks):
+                prog_bar.progress(idx / total_tasks, text=f"🔊 Synthesizing: {ch_title}…")
+                try:
+                    mp3_bytes = synthesize_text(
+                        text=ch_text,
+                        voice_label=aud_voice,
+                        speaking_rate=aud_rate,
+                        pitch=aud_pitch,
+                        custom_map=custom_name_map,
+                        use_default_korean=use_korean_rules,
+                    )
+                except Exception as _te:
+                    st.error(f"❌ TTS thất bại cho `{ch_title}`: {_te}")
+                    continue
+
+                prog_bar.progress((idx + 0.6) / total_tasks, text=f"☁️ Uploading to R2: {ch_title}…")
+                try:
+                    audio_url = upload_mp3(mp3_bytes, proj_slug, ch_slug)
+                except Exception as _r2e:
+                    st.error(f"❌ Upload R2 thất bại cho `{ch_title}`: {_r2e}")
+                    continue
+
+                duration = _estimate_duration(mp3_bytes)
+                try:
+                    save_chapter(
+                        project_id=proj.id,
+                        chapter_number=idx + 1,
+                        chapter_slug=ch_slug,
+                        title=ch_title,
+                        audio_url=audio_url,
+                        duration_seconds=duration,
+                        text_content=ch_text[:5000],  # truncate for DB
+                        voice_label=aud_voice,
+                        word_count=len(ch_text.split()),
+                    )
+                except Exception as _se:
+                    st.warning(f"⚠️ Không lưu được metadata cho `{ch_title}`: {_se}")
+
+                prog_bar.progress((idx + 1) / total_tasks, text=f"✅ Xong: {ch_title}")
+
+            prog_bar.progress(1.0, text="✅ Hoàn thành tất cả!")
+            st.success(f"🎉 Đã tạo audio cho **{total_tasks}** chương và lưu lên Cloudflare R2!")
+            st.info("👉 Chuyển sang tab **📻 Playlist & Player** để nghe.")
+            # Clear crawl cache
+            st.session_state.pop('aud_crawl_result', None)
+            st.session_state.pop('aud_na_texts', None)
+
+    # ╔══════════════════════════════════════════════════════════════╗
+    # ║  SUB-TAB 1 – PLAYLIST & PLAYER                             ║
+    # ╚══════════════════════════════════════════════════════════════╝
+    with aud_sub[1]:
+        st.markdown("### 📻 Audio Playlist & Player")
+
+        all_audio_projects = list_projects()
+        if not all_audio_projects:
+            st.info("Chưa có audio project nào. Tạo project ở tab **🌐 Crawl & Generate** trước.")
+        else:
+            proj_labels = [f"{p.title} ({p.source_type})" for p in all_audio_projects]
+            sel_proj_idx = st.selectbox(
+                "Chọn project:",
+                range(len(all_audio_projects)),
+                format_func=lambda i: proj_labels[i],
+                key="aud_player_proj",
+            )
+            sel_proj = all_audio_projects[sel_proj_idx]
+            chapters  = list_chapters(sel_proj.id)
+
+            if not chapters:
+                st.info("Project này chưa có chương nào.")
+            else:
+                # ── Chapter selection ────────────────────────────────
+                ch_labels = [f"#{ch.chapter_number} – {ch.title}" for ch in chapters]
+                sel_ch_idx = st.selectbox(
+                    "Chọn chương để phát:",
+                    range(len(chapters)),
+                    format_func=lambda i: ch_labels[i],
+                    key="aud_sel_chapter",
+                )
+                sel_ch = chapters[sel_ch_idx]
+                resume_pos = get_playback_state(sel_ch.id)
+                audio_playable_url = ensure_playable_url(sel_ch.audio_url, sel_proj.project_slug, sel_ch.chapter_slug)
+
+                # ── Custom HTML5 Audio Player ────────────────────────
+                player_html = f"""
+<style>
+  .aud-player-wrap {{
+    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+    border-radius: 16px;
+    padding: 1.5rem 2rem;
+    color: #fff;
+    font-family: 'Segoe UI', sans-serif;
+    margin-bottom: 1.2rem;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+  }}
+  .aud-chapter-title {{
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 0.3rem;
+    color: #e0d7ff;
+  }}
+  .aud-chapter-meta {{
+    font-size: 0.78rem;
+    color: rgba(255,255,255,0.5);
+    margin-bottom: 1rem;
+  }}
+  #aud-audio-el {{
+    width: 100%;
+    outline: none;
+    border-radius: 8px;
+    margin-bottom: 0.8rem;
+  }}
+  .aud-controls {{
+    display: flex;
+    gap: 0.7rem;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 0.5rem;
+  }}
+  .aud-btn {{
+    background: rgba(255,255,255,0.12);
+    border: 1px solid rgba(255,255,255,0.2);
+    border-radius: 8px;
+    color: #fff;
+    padding: 0.35rem 0.85rem;
+    cursor: pointer;
+    font-size: 0.82rem;
+    transition: background 0.2s;
+  }}
+  .aud-btn:hover {{ background: rgba(255,255,255,0.22); }}
+  .aud-resume-badge {{
+    font-size: 0.75rem;
+    color: #a78bfa;
+    margin-left: auto;
+  }}
+</style>
+
+<div class="aud-player-wrap">
+  <div class="aud-chapter-title">🎵 {sel_ch.title}</div>
+  <div class="aud-chapter-meta">
+    🎤 {sel_ch.voice_label or '—'} &nbsp;·&nbsp;
+    ⏱ {_fmt_duration(sel_ch.duration_seconds)} &nbsp;·&nbsp;
+    📝 {sel_ch.word_count:,} từ
+    {f'&nbsp;·&nbsp; <span style="color:#a78bfa">▶ Resume: {_fmt_duration(resume_pos)}</span>' if resume_pos > 2 else ''}
+  </div>
+  <audio id="aud-audio-el" controls preload="metadata"
+         src="{audio_playable_url or ''}">
+    Trình duyệt của bạn không hỗ trợ audio HTML5.
+  </audio>
+  <div class="aud-controls">
+    <button class="aud-btn" onclick="document.getElementById('aud-audio-el').currentTime -= 15">⏮ -15s</button>
+    <button class="aud-btn" onclick="document.getElementById('aud-audio-el').currentTime += 30">+30s ⏭</button>
+    <button class="aud-btn" onclick="var a=document.getElementById('aud-audio-el');a.playbackRate=Math.max(0.5,a.playbackRate-0.1).toFixed(1);this.textContent='🐢 '+a.playbackRate+'x'">🐢 -Speed</button>
+    <button class="aud-btn" onclick="var a=document.getElementById('aud-audio-el');a.playbackRate=Math.min(3,+(a.playbackRate+0.1).toFixed(1));this.textContent='🐇 '+a.playbackRate+'x'">🐇 +Speed</button>
+    <a class="aud-btn" href="{audio_playable_url or '#'}" target="_blank" download>⬇ Download MP3</a>
+  </div>
+</div>
+<script>
+  (function() {{
+    var audio = document.getElementById('aud-audio-el');
+    if (!audio) return;
+    // Resume from last position
+    var resume = {resume_pos:.1f};
+    if (resume > 2) {{ audio.currentTime = resume; }}
+  }})();
+</script>
+"""
+                st.components.v1.html(player_html, height=250)
+
+                # ── Save position button (manual) ────────────────────
+                save_col, _ = st.columns([2, 4])
+                with save_col:
+                    if st.button("💾 Lưu vị trí hiện tại", key="aud_save_pos",
+                                 help="Lưu vị trí phát hiện tại vào DB để resume sau"):
+                        pos = st.session_state.get(f"aud_pos_{sel_ch.id}", resume_pos)
+                        save_playback_state(sel_ch.id, pos)
+                        st.success("✅ Đã lưu vị trí phát!")
+
+                st.divider()
+
+                # ── Playlist table ───────────────────────────────────
+                st.markdown(f"#### 🗒️ Playlist – {sel_proj.title}")
+                for i, ch in enumerate(chapters):
+                    is_active = (ch.id == sel_ch.id)
+                    bg = "rgba(99,102,241,0.12)" if is_active else "transparent"
+                    border = "1px solid #6366f1" if is_active else "1px solid rgba(0,0,0,0.07)"
+                    ps = get_playback_state(ch.id)
+                    prog_pct = int((ps / ch.duration_seconds * 100)) if ch.duration_seconds > 0 else 0
+                    ch_playable_url = ensure_playable_url(ch.audio_url, sel_proj.project_slug, ch.chapter_slug)
+
+                    st.markdown(f"""
+<div style='display:flex;align-items:center;gap:0.8rem;padding:0.6rem 0.8rem;
+     border-radius:8px;background:{bg};border:{border};margin-bottom:0.35rem;'>
+  <span style='font-size:1rem;min-width:1.5rem'>{'▶️' if is_active else '🎵'}</span>
+  <div style='flex:1;min-width:0'>
+    <div style='font-weight:{"600" if is_active else "400"};font-size:0.85rem;
+         white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:{"#6366f1" if is_active else "#2D2A26"}'>
+      #{ch.chapter_number} {ch.title}
+    </div>
+    <div style='font-size:0.72rem;color:#8c8273;margin-top:2px'>
+      ⏱ {_fmt_duration(ch.duration_seconds)} &nbsp;·&nbsp; 📝 {ch.word_count:,} từ
+      {f'&nbsp;·&nbsp; <span style="color:#6366f1">{prog_pct}% nghe</span>' if ps > 2 else ''}
+    </div>
+    {'<div style="height:3px;background:rgba(99,102,241,0.15);border-radius:2px;margin-top:4px"><div style="height:3px;background:#6366f1;border-radius:2px;width:'+str(prog_pct)+'%"></div></div>' if ps > 2 else ''}
+  </div>
+  <a href='{ch_playable_url or "#"}' style='font-size:0.75rem;color:#6366f1;text-decoration:none'
+     target="_blank" download>⬇MP3</a>
+</div>
+""", unsafe_allow_html=True)
+
+    # ╔══════════════════════════════════════════════════════════════╗
+    # ║  SUB-TAB 2 – MANAGE PROJECTS                               ║
+    # ╚══════════════════════════════════════════════════════════════╝
+    with aud_sub[2]:
+        st.markdown("### 🗂️ Quản lý Audio Projects")
+
+        mgr_projects = list_projects()
+        if not mgr_projects:
+            st.info("Chưa có audio project nào.")
+        else:
+            for proj in mgr_projects:
+                proj_chapters = list_chapters(proj.id)
+                total_dur = sum(ch.duration_seconds for ch in proj_chapters)
+                with st.expander(
+                    f"{'🌐' if proj.source_type == 'web_crawler' else '🤖'} "
+                    f"**{proj.title}** – {len(proj_chapters)} chương · {_fmt_duration(total_dur)}",
+                    expanded=False
+                ):
+                    col_info, col_del = st.columns([4, 1])
+                    with col_info:
+                        st.caption(f"Slug: `{proj.project_slug}` · Type: `{proj.source_type}`")
+                        if proj.source_url:
+                            st.caption(f"URL: {proj.source_url}")
+                        st.caption(f"Tạo lúc: {proj.created_at.strftime('%d/%m/%Y %H:%M') if proj.created_at else '—'}")
+
+                    with col_del:
+                        if st.button("🗑️ Xóa project", key=f"aud_del_proj_{proj.id}",
+                                     type="secondary", use_container_width=True):
+                            st.session_state[f'aud_del_proj_confirm_{proj.id}'] = True
+
+                    if st.session_state.get(f'aud_del_proj_confirm_{proj.id}'):
+                        st.warning("⚠️ Xác nhận xóa project và toàn bộ chapters?")
+                        c1, c2 = st.columns(2)
+                        with c1:
+                            if st.button("✅ Xác nhận xóa", key=f"aud_del_proj_ok_{proj.id}",
+                                         type="primary"):
+                                for ch in proj_chapters:
+                                    try:
+                                        delete_mp3(proj.project_slug, ch.chapter_slug)
+                                    except Exception:
+                                        pass
+                                delete_project(proj.id)
+                                st.session_state.pop(f'aud_del_proj_confirm_{proj.id}', None)
+                                st.success("Đã xóa project!")
+                                st.rerun()
+                        with c2:
+                            if st.button("❌ Huỷ", key=f"aud_del_proj_cancel_{proj.id}"):
+                                st.session_state.pop(f'aud_del_proj_confirm_{proj.id}', None)
+                                st.rerun()
+
+                    if proj_chapters:
+                        st.markdown("**Chapters:**")
+                        for ch in proj_chapters:
+                            c_title, c_url, c_del = st.columns([4, 3, 1])
+                            with c_title:
+                                st.markdown(f"**#{ch.chapter_number}** {ch.title} · _{_fmt_duration(ch.duration_seconds)}_")
+                            with c_url:
+                                if ch.audio_url:
+                                    st.markdown(f"[🔗 R2 URL]({ch.audio_url})")
+                            with c_del:
+                                if st.button("🗑️", key=f"aud_del_ch_{ch.id}",
+                                             help="Xóa chapter này"):
+                                    try:
+                                        delete_mp3(proj.project_slug, ch.chapter_slug)
+                                    except Exception:
+                                        pass
+                                    delete_chapter(ch.id)
+                                    st.rerun()

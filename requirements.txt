@@ -10,3 +10,8 @@ Pillow
 streamlit-image-coordinates
 google-api-python-client
 google-auth
+# ── Audio Converter ──
+beautifulsoup4
+httpx
+boto3
+sqlalchemy
