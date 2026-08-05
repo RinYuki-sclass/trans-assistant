@@ -1,0 +1,34 @@
+[
+  {
+    "original": "실장님",
+    "translation": "Chief / Section Chief",
+    "category": "honorific",
+    "confidence": 1.0,
+    "chapter_first_seen": "When_A_Misunderstanding_Arises",
+    "approved": true
+  },
+  {
+    "original": "길드장님",
+    "translation": "Guild Master",
+    "category": "honorific",
+    "confidence": 1.0,
+    "chapter_first_seen": "When_A_Misunderstanding_Arises",
+    "approved": true
+  },
+  {
+    "original": "쓰리피스 수트",
+    "translation": "Three-piece suit",
+    "category": "item",
+    "confidence": 1.0,
+    "chapter_first_seen": "When_A_Misunderstanding_Arises",
+    "approved": true
+  },
+  {
+    "original": "각관실",
+    "translation": "Administrative/Reporting Office",
+    "category": "location",
+    "confidence": 0.8,
+    "chapter_first_seen": "When_A_Misunderstanding_Arises",
+    "approved": true
+  }
+]

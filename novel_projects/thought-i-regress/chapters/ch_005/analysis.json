@@ -1,0 +1,143 @@
+{
+  "chapter_summary": "The chapter opens with a villain, a member of a notorious criminal organization called Tribula, terrified and hiding as his comrades are brutally massacred by an unknown assailant. The assailant is revealed to be Liam Carter, who executes the villain with a chilling smile. Liam reflects on this event, which is a repeat of a past life where his carelessness led to the death of Caden, a man he loved. Liam, a 'regressor,' is determined to prevent that outcome this time, even if it means deviating slightly from the 'original' timeline.\n\nThe narrative then shifts to Caden, a Duke, who receives a report about the massacre. He immediately suspects Liam due to the distinctive method of killing. Caden reflects on his complex relationship with Liam, recalling their first meeting where Liam, despite his innocent demeanor, displayed a brutal efficiency in killing. Caden initially found Liam strange, then realized Liam had feelings for him, which he found amusing. However, Caden soon found himself falling for Liam too. The chapter culminates in a flashback to Liam's drunken confession and their first sexual encounter, where Liam's unexpected assertiveness and a cryptic statement about 'going back tomorrow' leave Caden both aroused and bewildered.",
+  "new_characters": [
+    {
+      "name": "남자",
+      "gender": "male",
+      "role": "villain / victim",
+      "description": "An unnamed member of a vicious criminal organization, terrified and ultimately killed by Liam Carter."
+    },
+    {
+      "name": "리암 카터",
+      "gender": "male",
+      "role": "protagonist / regressor / magic-user",
+      "description": "A powerful magic-user affiliated with the Magic Tower. He is a regressor, having returned from a past timeline to prevent Caden's death. He has a brutal, efficient killing method but often feigns innocence. He is deeply in love with Caden."
+    },
+    {
+      "name": "케이든",
+      "gender": "male",
+      "role": "Duke / Liam's love interest / investigator",
+      "description": "A Duke who leads an investigation into criminal organizations. He is intelligent, observant, and initially intrigued by Liam before falling in love with him. He is Liam's superior and is both annoyed and endeared by Liam's actions."
+    },
+    {
+      "name": "라비 플레어",
+      "gender": "male",
+      "role": "Caden's subordinate",
+      "description": "A subordinate of Caden who was rescued by Liam. He appears somewhat timid and uncomfortable around Liam."
+    }
+  ],
+  "new_locations": [
+    {
+      "name": "뒷골목",
+      "description": "General term for back alleys, often associated with criminal activities."
+    },
+    {
+      "name": "트리불라 아지트",
+      "description": "A hideout belonging to the criminal organization Tribula, which was the site of Liam's massacre."
+    },
+    {
+      "name": "집무실",
+      "description": "Caden's private office where he conducts official business and receives reports."
+    }
+  ],
+  "new_terms": [
+    {
+      "original": "흉악 조직",
+      "suggested": "Vicious Organization",
+      "category": "faction",
+      "confidence": 1.0
+    },
+    {
+      "original": "트리불라",
+      "suggested": "Tribula",
+      "category": "faction",
+      "confidence": 1.0
+    },
+    {
+      "original": "마탑",
+      "suggested": "Magic Tower",
+      "category": "faction",
+      "confidence": 1.0
+    },
+    {
+      "original": "마법진",
+      "suggested": "Magic Circle",
+      "category": "skill",
+      "confidence": 1.0
+    },
+    {
+      "original": "마력저항석 반지",
+      "suggested": "Magic Resistance Stone Ring",
+      "category": "item",
+      "confidence": 1.0
+    },
+    {
+      "original": "회귀",
+      "suggested": "Regression",
+      "category": "skill",
+      "confidence": 1.0
+    },
+    {
+      "original": "솔로몬 그런디",
+      "suggested": "Solomon Grundy",
+      "category": "other",
+      "confidence": 1.0
+    },
+    {
+      "original": "원작",
+      "suggested": "The Original / Source Material",
+      "category": "other",
+      "confidence": 1.0
+    },
+    {
+      "original": "가을의 수선화",
+      "suggested": "Autumn Daffodil",
+      "category": "other",
+      "confidence": 1.0
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "원작",
+      "suggested": "The Original / Source Material",
+      "confidence": 95.0,
+      "question": "The term '원작' (wonjak) implies a pre-existing story or timeline that Liam is aware of. Is this 'original' a novel, a game, a historical record, or something else entirely within the narrative's context?",
+      "category": "term"
+    },
+    {
+      "id": "amb_002",
+      "original": "돌아간다",
+      "suggested": "going back / returning",
+      "confidence": 90.0,
+      "question": "Liam states, '내일이면 전 돌아갈 텐데.' (Tomorrow, I'll be going back.) Given his 'regression' ability, does 'going back' refer to returning to his original timeline, returning to a specific point in time, or simply leaving Caden's side/returning to his own residence?",
+      "category": "term"
+    },
+    {
+      "id": "amb_003",
+      "original": "생일이 지난 지도 얼마 안 돼서 피곤할 텐데",
+      "suggested": "It hasn't been long since your birthday, so you must be tired",
+      "confidence": 80.0,
+      "question": "Liam's supposed excuse for acting alone is that Caden 'must be tired because it hasn't been long since your birthday.' Is this a direct reference to Caden's actual recent birthday, or is it a generic, possibly fabricated, excuse Liam would use?",
+      "category": "relationship"
+    },
+    {
+      "id": "amb_004",
+      "original": "마탑 소속",
+      "suggested": "Magic Tower affiliation",
+      "confidence": 95.0,
+      "question": "Is '마탑' (Magic Tower) primarily an organization, a physical location (like a building or institution), or both? The context suggests it's an organization Liam is affiliated with, but it could also imply a specific place of residence or work.",
+      "category": "faction"
+    },
+    {
+      "id": "amb_005",
+      "original": "어린 애를 놀리는 기분",
+      "suggested": "feeling like teasing a child",
+      "confidence": 90.0,
+      "question": "Caden frequently refers to Liam as '어린 애' (child/young one) or '꼬마' (kid/little one) and feels like he's 'teasing a child.' Is there a significant actual age difference between Caden and Liam, or is this more about Liam's perceived innocence, demeanor, or lack of experience in certain areas (like relationships/sex)?",
+      "category": "relationship"
+    }
+  ],
+  "chapter_id": "ch_005",
+  "analyzed_at": "2026-07-31T22:49:16.084749+07:00"
+}

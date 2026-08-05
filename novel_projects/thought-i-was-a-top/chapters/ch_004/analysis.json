@@ -1,0 +1,253 @@
+{
+  "chapter_summary": "The chapter introduces Cheon Kang-hyun, the ambitious Hunter Association President and former President of South Korea, who resents S-class Hunter Won Hwi-do for overshadowing his adopted son, Cheon Sang-hyun. Cheon Kang-hyun confronts Cheon Sang-hyun about his frequent meetings with Won Hwi-do, accusing him of being useless and warning him to stay away from Won Hwi-do. Cheon Sang-hyun, usually stoic, subtly defies his father, claiming Won Hwi-do's recent 'calmness' is his own will, not due to Cheon Sang-hyun's influence. Meanwhile, Won Hwi-do, who had impulsively kissed Cheon Sang-hyun a week prior and then told him to stay away, finds himself increasingly agitated by Cheon Sang-hyun's sudden absence and unresponsiveness. His frustration escalates when he goes to Delta Guild to confront Cheon Sang-hyun but is told Cheon Sang-hyun is busy and doesn't want to see him. Overhearing guild members speculating about a fight between them, Won Hwi-do decides to find Cheon Sang-hyun in the dungeon. However, he encounters Moon Yeo-kyung, a Delta Guild trainee whom Cheon Sang-hyun had brought in, and impulsively takes him away, possibly out of spite or a developing interest. Alpha Guild members Jo Min-chan and Min Ji-hyun observe this, confused by Won Hwi-do's actions and speculating about his true intentions, wondering if Moon Yeo-kyung was his target all along instead of Cheon Sang-hyun.",
+  "new_characters": [
+    {
+      "name": "천강현",
+      "gender": "Male",
+      "role": "Hunter Association President, former President of South Korea",
+      "description": "An ambitious and ruthless man who holds immense power. He resents Won Hwi-do for surpassing his adopted son, Cheon Sang-hyun, and is abusive towards Cheon Sang-hyun, viewing him as a tool for his own ambition."
+    },
+    {
+      "name": "원휘도",
+      "gender": "Male",
+      "role": "S-class Hunter, Alpha Guild Leader",
+      "description": "The first S-class Hunter in Korea, appearing at age 14. He is incredibly powerful, independent, and usually indifferent to others. However, he shows unexpected emotional turmoil and possessiveness regarding Cheon Sang-hyun, especially when Cheon Sang-hyun avoids him."
+    },
+    {
+      "name": "천상현",
+      "gender": "Male",
+      "role": "S-class Hunter, Delta Guild Leader, adopted son of Cheon Kang-hyun",
+      "description": "The second-best Hunter in Korea. He is stoic, calm, and seemingly obedient to his adoptive father, Cheon Kang-hyun, but shows subtle signs of defiance. He has a complex and possibly strained relationship with Won Hwi-do."
+    },
+    {
+      "name": "강태신",
+      "gender": "Male",
+      "role": "S-class Hunter",
+      "description": "An S-class Hunter whose appearance is noted after Alpha Guild's establishment, but Alpha Guild maintained its top position. Implied to be a prominent figure, possibly in Alpha Guild."
+    },
+    {
+      "name": "하성일",
+      "gender": "Male",
+      "role": "S-class Hunter",
+      "description": "An S-class Hunter mentioned alongside Kang Tae-shin, appearing after Alpha Guild's establishment. Implied to be a prominent figure, possibly in Alpha Guild."
+    },
+    {
+      "name": "민지현",
+      "gender": "Female",
+      "role": "Alpha Guild member",
+      "description": "An Alpha Guild member who is called by Won Hwi-do and observes his actions with Jo Min-chan, expressing confusion about his relationship with Cheon Sang-hyun and Moon Yeo-kyung."
+    },
+    {
+      "name": "조민찬",
+      "gender": "Male",
+      "role": "Alpha Guild member",
+      "description": "An Alpha Guild member who interacts with Won Hwi-do and Min Ji-hyun. He is confused by Won Hwi-do's behavior and receives a call from Jung Yoon-seop of Delta Guild."
+    },
+    {
+      "name": "정윤섭",
+      "gender": "Male",
+      "role": "Delta Guild staff/secretary",
+      "description": "A Delta Guild staff member who informs Won Hwi-do that Cheon Sang-hyun is busy and does not wish to see him. He later calls Jo Min-chan looking for Moon Yeo-kyung."
+    },
+    {
+      "name": "문여경",
+      "gender": "Male",
+      "role": "Delta Guild trainee",
+      "description": "A slender-armed trainee at Delta Guild, brought in by Cheon Sang-hyun. He is aware that Cheon Sang-hyun dislikes him. Won Hwi-do encounters him and takes him away."
+    }
+  ],
+  "new_locations": [
+    {
+      "name": "대한민국 헌터 협회",
+      "description": "The Hunter Association of the Republic of Korea, led by Cheon Kang-hyun. It oversees Hunters and Guilds."
+    },
+    {
+      "name": "알파 길드",
+      "description": "The number one Guild in Korea, founded and led by S-class Hunter Won Hwi-do. Known for its high gate clearance rate."
+    },
+    {
+      "name": "델타 길드",
+      "description": "A Guild led by S-class Hunter Cheon Sang-hyun, ranked second in Korea. It is closely associated with the Hunter Association."
+    },
+    {
+      "name": "던전",
+      "description": "Dangerous areas accessed through 'Gates' where Hunters fight monsters. Cheon Sang-hyun is mentioned to be in a 3rd-grade dungeon."
+    },
+    {
+      "name": "집무실",
+      "description": "An office, specifically mentioned as Cheon Kang-hyun's and Cheon Sang-hyun's private offices."
+    },
+    {
+      "name": "휴게실",
+      "description": "A lounge or rest area, specifically mentioned within the Alpha Guild building."
+    }
+  ],
+  "new_terms": [
+    {
+      "original": "헌터",
+      "suggested": "Hunter",
+      "category": "other",
+      "confidence": 1.0
+    },
+    {
+      "original": "각성",
+      "suggested": "Awakening",
+      "category": "other",
+      "confidence": 1.0
+    },
+    {
+      "original": "S급 헌터",
+      "suggested": "S-class Hunter",
+      "category": "other",
+      "confidence": 1.0
+    },
+    {
+      "original": "게이트",
+      "suggested": "Gate",
+      "category": "other",
+      "confidence": 1.0
+    },
+    {
+      "original": "길드",
+      "suggested": "Guild",
+      "category": "other",
+      "confidence": 1.0
+    },
+    {
+      "original": "길드장",
+      "suggested": "Guild Leader",
+      "category": "other",
+      "confidence": 1.0
+    },
+    {
+      "original": "협회장",
+      "suggested": "Association President",
+      "category": "other",
+      "confidence": 1.0
+    },
+    {
+      "original": "부협회장",
+      "suggested": "Vice President of Association",
+      "category": "other",
+      "confidence": 1.0
+    },
+    {
+      "original": "훈련생",
+      "suggested": "Trainee",
+      "category": "other",
+      "confidence": 1.0
+    },
+    {
+      "original": "텔레포트",
+      "suggested": "Teleport",
+      "category": "skill",
+      "confidence": 1.0
+    },
+    {
+      "original": "마석",
+      "suggested": "Magic Stone",
+      "category": "item",
+      "confidence": 1.0
+    },
+    {
+      "original": "수습률",
+      "suggested": "Clearance Rate",
+      "category": "other",
+      "confidence": 0.9
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "그",
+      "suggested": "he/him/that person",
+      "confidence": 0.9,
+      "question": "The pronoun '그' (geu) is used frequently. While often referring to Won Hwi-do or Cheon Sang-hyun depending on context, its general ambiguity in Korean could lead to confusion if not carefully managed in translation. For example, '그 자식' (geu jashik) and '그놈' (geunom) are derogatory forms used by Cheon Kang-hyun for Won Hwi-do. Should these be translated consistently with a specific derogatory term or varied based on context?",
+      "options": [],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_002",
+      "original": "입을 맞춘 날",
+      "suggested": "the day they kissed",
+      "confidence": 0.8,
+      "question": "Won Hwi-do mentions '충동적으로 천상현에게 입을 맞춘 날' (the day he impulsively kissed Cheon Sang-hyun). The nature of this 'kiss' (입을 맞추다) is unclear. Was it romantic, aggressive, a gesture of dominance, or something else entirely? This significantly impacts the interpretation of their relationship.",
+      "options": [
+        "Romantic kiss",
+        "Aggressive/Dominant kiss",
+        "Accidental/Impulsive contact",
+        "Other (please specify)"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_003",
+      "original": "천상현이 3급 던전을 수임했다는 정보를 미리 확인하긴 했다.",
+      "suggested": "Cheon Sang-hyun had taken on a 3rd-grade dungeon.",
+      "confidence": 0.9,
+      "question": "The term '수임했다' (suim-haetda) usually means 'undertook' or 'was entrusted with'. In the context of dungeons, it implies taking on a mission or clearing a dungeon. Is 'taken on' or 'undertook' the best fit, or should it be more specific like 'was assigned to clear' or 'was clearing'?",
+      "options": [
+        "Taken on",
+        "Undertook",
+        "Was assigned to clear",
+        "Was clearing"
+      ],
+      "category": "term"
+    },
+    {
+      "id": "amb_004",
+      "original": "쓸모없는 새끼",
+      "suggested": "useless bastard/son of a bitch",
+      "confidence": 0.9,
+      "question": "Cheon Kang-hyun calls Cheon Sang-hyun '쓸모없는 새끼' (sseulmo-eomneun saekki). '새끼' (saekki) is a highly derogatory term, often translated as 'bastard' or 'son of a bitch'. Given the abusive nature of their relationship, how strong should this derogatory term be translated to convey the full impact of Cheon Kang-hyun's contempt?",
+      "options": [
+        "Useless bastard",
+        "Useless punk",
+        "Useless good-for-nothing",
+        "Useless son of a bitch"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_005",
+      "original": "민지현 헌터",
+      "suggested": "Hunter Min Ji-hyun",
+      "confidence": 0.7,
+      "question": "The gender of Min Ji-hyun is not explicitly stated, though 'Ji-hyun' is a common name for both genders in Korea, it leans slightly female. Given the lack of explicit gender markers, should the translation assume a gender or keep it ambiguous?",
+      "options": [
+        "Assume Female",
+        "Assume Male",
+        "Keep ambiguous"
+      ],
+      "category": "gender"
+    },
+    {
+      "id": "amb_006",
+      "original": "조민찬",
+      "suggested": "Jo Min-chan",
+      "confidence": 0.7,
+      "question": "The gender of Jo Min-chan is not explicitly stated. 'Min-chan' is a common name for both genders in Korea, though it leans slightly male. Given the lack of explicit gender markers, should the translation assume a gender or keep it ambiguous?",
+      "options": [
+        "Assume Female",
+        "Assume Male",
+        "Keep ambiguous"
+      ],
+      "category": "gender"
+    },
+    {
+      "id": "amb_007",
+      "original": "정윤섭",
+      "suggested": "Jung Yoon-seop",
+      "confidence": 0.7,
+      "question": "The gender of Jung Yoon-seop is not explicitly stated. 'Yoon-seop' is a common name for both genders in Korea, though it leans slightly male. Given the lack of explicit gender markers, should the translation assume a gender or keep it ambiguous?",
+      "options": [
+        "Assume Female",
+        "Assume Male",
+        "Keep ambiguous"
+      ],
+      "category": "gender"
+    }
+  ],
+  "chapter_id": "ch_004",
+  "analyzed_at": "2026-07-31T22:03:07.215419+07:00"
+}

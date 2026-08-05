@@ -1,0 +1,74 @@
+[
+  {
+    "original": "흉악 조직",
+    "translation": "Vicious Organization",
+    "category": "faction",
+    "confidence": 1.0,
+    "chapter_first_seen": "ch_005",
+    "approved": true
+  },
+  {
+    "original": "트리불라",
+    "translation": "Tribula",
+    "category": "faction",
+    "confidence": 1.0,
+    "chapter_first_seen": "ch_005",
+    "approved": true
+  },
+  {
+    "original": "마탑",
+    "translation": "Magic Tower",
+    "category": "faction",
+    "confidence": 1.0,
+    "chapter_first_seen": "ch_005",
+    "approved": true
+  },
+  {
+    "original": "마법진",
+    "translation": "Magic Circle",
+    "category": "skill",
+    "confidence": 1.0,
+    "chapter_first_seen": "ch_005",
+    "approved": true
+  },
+  {
+    "original": "마력저항석 반지",
+    "translation": "Magic Resistance Stone Ring",
+    "category": "item",
+    "confidence": 1.0,
+    "chapter_first_seen": "ch_005",
+    "approved": true
+  },
+  {
+    "original": "회귀",
+    "translation": "Regression",
+    "category": "skill",
+    "confidence": 1.0,
+    "chapter_first_seen": "ch_005",
+    "approved": true
+  },
+  {
+    "original": "솔로몬 그런디",
+    "translation": "Solomon Grundy",
+    "category": "other",
+    "confidence": 1.0,
+    "chapter_first_seen": "ch_005",
+    "approved": true
+  },
+  {
+    "original": "원작",
+    "translation": "The Original / Source Material",
+    "category": "other",
+    "confidence": 1.0,
+    "chapter_first_seen": "ch_005",
+    "approved": true
+  },
+  {
+    "original": "가을의 수선화",
+    "translation": "Autumn Daffodil",
+    "category": "other",
+    "confidence": 1.0,
+    "chapter_first_seen": "ch_005",
+    "approved": true
+  }
+]
