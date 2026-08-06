@@ -5195,7 +5195,8 @@ with tabs[12]:
         with col_p:
             aud_pitch = st.slider("Cao độ:", -10.0, 10.0, 0.0, 0.5, key="aud_pitch")
 
-        lang_code, voice_name, _ = VOICES[aud_voice]
+        lang_code, google_voice_name, edge_voice_name = VOICES[aud_voice]
+        active_voice_name = google_voice_name or edge_voice_name
         
         # ── Pronunciation Mapping Expander ───────────────────────────
         with st.expander("🗣️ Sửa Phát Âm Tên Nhân Vật Hàn Quốc (Pronunciation Map)", expanded=False):
@@ -5257,7 +5258,7 @@ with tabs[12]:
 
         c_info, c_test = st.columns([3, 2])
         with c_info:
-            st.caption(f"🎤 Model: `{voice_name}` · Rate: `{aud_rate}x` · Pitch: `{aud_pitch:+.1f}st`")
+            st.caption(f"🎤 Model: `{active_voice_name}` · Rate: `{aud_rate}x` · Pitch: `{aud_pitch:+.1f}st`")
         with c_test:
             if st.button("🔊 Nghe thử giọng (Voice Test)", key="aud_test_voice_btn", use_container_width=True):
                 with st.spinner("Đang tạo sample voice..."):

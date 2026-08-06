@@ -8,10 +8,16 @@ import unittest
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(BASE_DIR, "scripts"))
 
-from audio.tts_engine import apply_expressive_speech
+from audio.tts_engine import VOICES, apply_expressive_speech
 
 
 class ExpressiveSpeechTests(unittest.TestCase):
+    def test_brian_multilingual_voice_uses_edge_without_google_substitution(self):
+        self.assertEqual(
+            VOICES["🌐 Brian (Multilingual, US)"],
+            ("en-US", "", "en-US-BrianMultilingualNeural"),
+        )
+
     def test_expands_initial_sound_stutter(self):
         self.assertEqual(
             apply_expressive_speech("W-wait for me."),
