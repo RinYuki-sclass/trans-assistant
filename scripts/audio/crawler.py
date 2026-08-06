@@ -9,7 +9,9 @@ import httpx
 from bs4 import BeautifulSoup
 
 
-# ── CSS selectors for hyacinthbloom.com (WordPress + GeneratePress) ──
+# ── CSS selectors supports ── 
+# hyacinthbloom.com (WordPress + GeneratePress)
+# mistminthaven.com ()
 _CONTENT_SELECTORS = [
     "div.entry-content",
     "div.post-content",
@@ -17,6 +19,7 @@ _CONTENT_SELECTORS = [
     "article .content",
     "div#content article",
     "article",
+    "div.chapter-content-text",
 ]
 
 _NOISE_TAGS = [
