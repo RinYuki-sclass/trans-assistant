@@ -171,7 +171,7 @@ def init_db() -> None:
 # ── CRUD helpers ─────────────────────────────────────────────────────
 
 def upsert_project(title: str, source_type: str, source_url: str | None, project_slug: str) -> AudioProject:
-    """Get or create an AudioProject by slug."""
+    """Get or create an AudioProject by slug. If slug already exists, updates its metadata."""
     with get_session() as session:
         proj = session.query(AudioProject).filter_by(project_slug=project_slug).first()
         if not proj:
@@ -182,8 +182,45 @@ def upsert_project(title: str, source_type: str, source_url: str | None, project
                 project_slug=project_slug,
             )
             session.add(proj)
-            session.commit()
-            session.refresh(proj)
+        else:
+            # Update existing project's metadata
+            proj.title = title
+            proj.source_type = source_type
+            if source_url is not None:
+                proj.source_url = source_url
+        session.commit()
+        session.refresh(proj)
+        return proj
+
+
+def create_project(title: str, source_type: str = "pasted_text", source_url: str | None = None, project_slug: str | None = None) -> AudioProject:
+    """Always create a new AudioProject with a guaranteed-unique slug."""
+    import re as _re
+
+    def _slugify(s: str) -> str:
+        s = s.lower().strip()
+        s = _re.sub(r'[^\w\s-]', '', s)
+        s = _re.sub(r'[\s_]+', '-', s)
+        return s[:80] or 'audio-project'
+
+    with get_session() as session:
+        # Build base slug
+        base_slug = project_slug or _slugify(title) or 'audio-project'
+        candidate = base_slug
+        suffix = 2
+        while session.query(AudioProject).filter_by(project_slug=candidate).first() is not None:
+            candidate = f"{base_slug}-{suffix}"
+            suffix += 1
+
+        proj = AudioProject(
+            title=title,
+            source_type=source_type,
+            source_url=source_url,
+            project_slug=candidate,
+        )
+        session.add(proj)
+        session.commit()
+        session.refresh(proj)
         return proj
 
 
