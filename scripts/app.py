@@ -5093,7 +5093,7 @@ with tabs[12]:
         # ── Source selection ─────────────────────────────────────────
         src_type = st.radio(
             "Nguồn văn bản:",
-            ["🌐 Web URL (Crawl)", "🤖 Novel Agent (Translated)"],
+            ["🌐 Web URL (Crawl)", "✍️ Dán văn bản", "🤖 Novel Agent (Translated)"],
             horizontal=True,
             key="aud_src_type",
         )
@@ -5125,6 +5125,21 @@ with tabs[12]:
                 crawl_url   = r['url']
                 with st.expander(f"📄 Preview: {crawl_title} ({r['word_count']:,} từ)", expanded=False):
                     st.text(crawl_text[:1500] + ("…" if len(crawl_text) > 1500 else ""))
+
+        elif src_type == "✍️ Dán văn bản":
+            crawl_title = st.text_input(
+                "Tên chương / tiêu đề audio:",
+                placeholder="Ví dụ: Earth Hero’s Retirement Project 123",
+                key="aud_paste_title",
+            ).strip()
+            crawl_text = st.text_area(
+                "Dán nội dung cần chuyển thành audio:",
+                height=300,
+                placeholder="Dán văn bản vào đây…",
+                key="aud_paste_text",
+            ).strip()
+            if crawl_text:
+                st.caption(f"📝 {len(crawl_text.split()):,} từ")
 
         else:  # Novel Agent
             na_all_proj = na_list_projects()
@@ -5245,22 +5260,46 @@ with tabs[12]:
 
         st.divider()
 
-        # ── Project slug for saving ──────────────────────────────────
+        # ── Audio project destination ────────────────────────────────
         if src_type == "🌐 Web URL (Crawl)":
             default_proj_title = crawl_title or "Untitled Crawl"
+        elif src_type == "✍️ Dán văn bản":
+            default_proj_title = crawl_title or "Pasted Audio"
         else:
             na_cfg_t = na_load_config(na_proj_slug) if na_proj_slug else {}
             default_proj_title = na_cfg_t.get('title', na_proj_slug or "Novel Agent")
 
-        proj_title_input = st.text_input(
-            "Tên Project Audio:",
-            value=default_proj_title,
-            key="aud_proj_title",
+        save_projects = list_projects()
+        save_modes = ["➕ Tạo project mới"]
+        if save_projects:
+            save_modes.append("📂 Lưu vào project có sẵn")
+        save_mode = st.radio(
+            "Lưu audio vào:",
+            save_modes,
+            horizontal=True,
+            key="aud_save_mode",
         )
+        selected_save_project = None
+        proj_title_input = default_proj_title
+        if save_mode == "📂 Lưu vào project có sẵn":
+            selected_save_project = st.selectbox(
+                "Chọn Audio Project:",
+                save_projects,
+                format_func=lambda p: f"{p.title} ({len(list_chapters(p.id))} audio)",
+                key="aud_existing_project",
+            )
+            if selected_save_project:
+                st.caption(f"Audio mới sẽ được thêm vào **{selected_save_project.title}**.")
+        else:
+            proj_title_input = st.text_input(
+                "Tên Project Audio:",
+                value=default_proj_title,
+                key="aud_proj_title",
+            )
 
         # ── Generate button ──────────────────────────────────────────
         can_generate = False
-        if src_type == "🌐 Web URL (Crawl)" and crawl_text:
+        if src_type in ("🌐 Web URL (Crawl)", "✍️ Dán văn bản") and crawl_text:
             can_generate = True
         elif src_type == "🤖 Novel Agent (Translated)" and st.session_state.get('aud_na_texts'):
             can_generate = True
@@ -5268,31 +5307,59 @@ with tabs[12]:
         if st.button("🎙️ Synthesize & Upload to R2", disabled=not can_generate,
                      type="primary", key="aud_gen_btn", use_container_width=True):
 
-            proj_slug = _slugify(proj_title_input or "audio-project")
-
             # Determine source_type value
-            db_src_type = "web_crawler" if src_type == "🌐 Web URL (Crawl)" else "novel_agent"
+            db_src_type = {
+                "🌐 Web URL (Crawl)": "web_crawler",
+                "✍️ Dán văn bản": "pasted_text",
+                "🤖 Novel Agent (Translated)": "novel_agent",
+            }[src_type]
             db_src_url  = crawl_url if db_src_type == "web_crawler" else None
 
-            try:
-                proj = upsert_project(
-                    title=proj_title_input,
-                    source_type=db_src_type,
-                    source_url=db_src_url,
-                    project_slug=proj_slug,
-                )
-            except Exception as _dbe:
-                st.error(f"DB error: {_dbe}")
-                st.stop()
+            if selected_save_project is not None:
+                proj = selected_save_project
+                proj_slug = proj.project_slug
+            else:
+                base_slug = _slugify(proj_title_input or "audio-project") or "audio-project"
+                used_project_slugs = {p.project_slug for p in save_projects}
+                proj_slug = base_slug
+                suffix = 2
+                while proj_slug in used_project_slugs:
+                    proj_slug = f"{base_slug}-{suffix}"
+                    suffix += 1
+                try:
+                    proj = upsert_project(
+                        title=proj_title_input,
+                        source_type=db_src_type,
+                        source_url=db_src_url,
+                        project_slug=proj_slug,
+                    )
+                except Exception as _dbe:
+                    st.error(f"DB error: {_dbe}")
+                    st.stop()
 
             # Build list of (chapter_slug, chapter_title, text)
-            if db_src_type == "web_crawler":
+            if db_src_type in ("web_crawler", "pasted_text"):
                 tasks = [(_slugify(crawl_title or "chapter-1"), crawl_title or "Chapter 1", crawl_text)]
             else:
                 tasks = [
                     (_slugify(ch_id), ch_id.replace('_', ' ').title(), text)
                     for ch_id, text in st.session_state.get('aud_na_texts', [])
                 ]
+
+            existing_chapters = list_chapters(proj.id)
+            next_chapter_number = max((ch.chapter_number for ch in existing_chapters), default=0) + 1
+            used_chapter_slugs = {ch.chapter_slug for ch in existing_chapters}
+            unique_tasks = []
+            for ch_slug, ch_title, ch_text in tasks:
+                base_ch_slug = ch_slug or "chapter"
+                unique_ch_slug = base_ch_slug
+                suffix = 2
+                while unique_ch_slug in used_chapter_slugs:
+                    unique_ch_slug = f"{base_ch_slug}-{suffix}"
+                    suffix += 1
+                used_chapter_slugs.add(unique_ch_slug)
+                unique_tasks.append((unique_ch_slug, ch_title, ch_text))
+            tasks = unique_tasks
 
             total_tasks = len(tasks)
             prog_bar = st.progress(0, text="Bắt đầu synthesis…")
@@ -5323,7 +5390,7 @@ with tabs[12]:
                 try:
                     save_chapter(
                         project_id=proj.id,
-                        chapter_number=idx + 1,
+                        chapter_number=next_chapter_number + idx,
                         chapter_slug=ch_slug,
                         title=ch_title,
                         audio_url=audio_url,
@@ -5480,31 +5547,27 @@ with tabs[12]:
                 st.markdown(f"#### 🗒️ Playlist – {sel_proj.title}")
                 for i, ch in enumerate(chapters):
                     is_active = (ch.id == sel_ch.id)
-                    bg = "rgba(99,102,241,0.12)" if is_active else "transparent"
-                    border = "1px solid #6366f1" if is_active else "1px solid rgba(0,0,0,0.07)"
                     ps = get_playback_state(ch.id)
-                    prog_pct = int((ps / ch.duration_seconds * 100)) if ch.duration_seconds > 0 else 0
+                    prog_pct = min(100, int((ps / ch.duration_seconds * 100))) if ch.duration_seconds > 0 else 0
                     ch_playable_url = ensure_playable_url(ch.audio_url, sel_proj.project_slug, ch.chapter_slug)
 
-                    st.markdown(f"""
-<div style='display:flex;align-items:center;gap:0.8rem;padding:0.6rem 0.8rem;
-     border-radius:8px;background:{bg};border:{border};margin-bottom:0.35rem;'>
-  <span style='font-size:1rem;min-width:1.5rem'>{'▶️' if is_active else '🎵'}</span>
-  <div style='flex:1;min-width:0'>
-    <div style='font-weight:{"600" if is_active else "400"};font-size:0.85rem;
-         white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:{"#6366f1" if is_active else "#2D2A26"}'>
-      #{ch.chapter_number} {ch.title}
-    </div>
-    <div style='font-size:0.72rem;color:#8c8273;margin-top:2px'>
-      ⏱ {_fmt_duration(ch.duration_seconds)} &nbsp;·&nbsp; 📝 {ch.word_count:,} từ
-      {f'&nbsp;·&nbsp; <span style="color:#6366f1">{prog_pct}% nghe</span>' if ps > 2 else ''}
-    </div>
-    {'<div style="height:3px;background:rgba(99,102,241,0.15);border-radius:2px;margin-top:4px"><div style="height:3px;background:#6366f1;border-radius:2px;width:'+str(prog_pct)+'%"></div></div>' if ps > 2 else ''}
-  </div>
-  <a href='{ch_playable_url or "#"}' style='font-size:0.75rem;color:#6366f1;text-decoration:none'
-     target="_blank" download>⬇MP3</a>
-</div>
-""", unsafe_allow_html=True)
+                    with st.container(border=True):
+                        icon_col, info_col, download_col = st.columns([0.5, 6, 1.2])
+                        with icon_col:
+                            st.markdown("▶️" if is_active else "🎵")
+                        with info_col:
+                            title_prefix = "**" if is_active else ""
+                            st.markdown(f"{title_prefix}#{ch.chapter_number} {ch.title}{title_prefix}")
+                            progress_text = f" · {prog_pct}% đã nghe" if ps > 2 else ""
+                            st.caption(
+                                f"⏱ {_fmt_duration(ch.duration_seconds)} · "
+                                f"📝 {ch.word_count:,} từ{progress_text}"
+                            )
+                            if ps > 2:
+                                st.progress(prog_pct / 100)
+                        with download_col:
+                            if ch_playable_url:
+                                st.link_button("⬇ MP3", ch_playable_url, use_container_width=True)
 
     # ╔══════════════════════════════════════════════════════════════╗
     # ║  SUB-TAB 2 – MANAGE PROJECTS                               ║
