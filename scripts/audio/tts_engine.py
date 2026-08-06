@@ -22,6 +22,8 @@ VOICES = {
     "🇺🇸 Christopher (US)":           ("en-US", "en-US-Journey-D", "en-US-ChristopherNeural"),
     "🇺🇸 Michelle (US)":              ("en-US", "en-US-Studio-O",  "en-US-MichelleNeural"),
     "🇺🇸 Eric (US)":                  ("en-US", "en-US-Wavenet-D", "en-US-EricNeural"),
+    # Microsoft multilingual voice (Edge only; no Google substitution)
+    "🌐 Brian (Multilingual, US)":    ("en-US", "", "en-US-BrianMultilingualNeural"),
     # UK English – Neural
     "🇬🇧 Sonia (Neural, UK)":         ("en-GB", "en-GB-Neural2-A", "en-GB-SoniaNeural"),
     "🇬🇧 Ryan (Neural, UK)":          ("en-GB", "en-GB-Neural2-B", "en-GB-RyanNeural"),
@@ -186,7 +188,7 @@ def _synthesize_chunk(
     """Try Google Cloud TTS first; fall back to edge-tts if API returns 403 Forbidden or fails."""
     api_key = _get_api_key()
 
-    if api_key:
+    if api_key and google_voice:
         try:
             return _synthesize_google_cloud(
                 text, language_code, google_voice, speaking_rate, pitch, api_key
