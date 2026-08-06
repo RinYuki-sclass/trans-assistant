@@ -211,6 +211,49 @@ DEFAULT_KOREAN_PRONUNCIATIONS = {
 }
 
 
+_LETTER = r"[^\W\d_]"
+_STUTTER_PATTERN = re.compile(
+    rf"(?<![\w-])(?P<prefixes>(?:{_LETTER}+-)+)(?P<word>{_LETTER}+)(?![\w-])",
+    re.UNICODE,
+)
+_GASP_CUE = (
+    r"(?:gasps?|gasping|sharp(?:ly)?\s+inhales?|inhales?\s+sharply|"
+    r"catches?\s+(?:(?:his|her|their)\s+)?breath)"
+)
+_GASP_CUE_PATTERN = re.compile(
+    rf"(?:\*{{1,2}}\s*{_GASP_CUE}\s*\*{{1,2}}|"
+    rf"\(\s*{_GASP_CUE}\s*\)|\[\s*{_GASP_CUE}\s*\])",
+    re.IGNORECASE,
+)
+
+
+def apply_expressive_speech(text: str, language_code: str = "en-US") -> str:
+    """Make common gasp cues and written stutters sound natural in plain-text TTS.
+
+    Only hyphenated repetitions whose leading fragments prefix the final word are
+    changed, so normal compounds and names such as ``well-being`` and
+    ``Hyun-jae`` remain intact.
+    """
+    if not text:
+        return ""
+
+    gasp_interjection = "Á!" if language_code.startswith("vi") else "Ah!"
+    processed = _GASP_CUE_PATTERN.sub(gasp_interjection, text)
+
+    def _expand_stutter(match: re.Match[str]) -> str:
+        prefixes = match.group("prefixes")[:-1].split("-")
+        word = match.group("word")
+        if not all(word.casefold().startswith(prefix.casefold()) for prefix in prefixes):
+            return match.group(0)
+
+        repetitions = [word] * (len(prefixes) + 1)
+        if match.group(0)[0].isupper():
+            repetitions[0] = repetitions[0][:1].upper() + repetitions[0][1:]
+        return "… ".join(repetitions)
+
+    return _STUTTER_PATTERN.sub(_expand_stutter, processed)
+
+
 def apply_pronunciation_map(
     text: str,
     custom_map: dict[str, str] | None = None,
@@ -246,6 +289,7 @@ def synthesize_text(
     pitch: float = 0.0,
     custom_map: dict[str, str] | None = None,
     use_default_korean: bool = True,
+    enhance_expressive_speech: bool = True,
     progress_callback: Callable[[int, int, str], None] | None = None,
 ) -> bytes:
     """Synthesize full text into MP3 bytes with chunking and pronunciation mapping."""
@@ -253,8 +297,14 @@ def synthesize_text(
         voice_label = VOICE_NAMES[0]
     language_code, google_voice, edge_voice = VOICES[voice_label]
 
-    # Pre-process text for pronunciation accuracy
-    processed_text = apply_pronunciation_map(text, custom_map, use_default_korean)
+    # Expand performance cues before name replacement (e.g. H-Hyunjae).
+    expressive_text = (
+        apply_expressive_speech(text, language_code)
+        if enhance_expressive_speech else text
+    )
+    processed_text = apply_pronunciation_map(
+        expressive_text, custom_map, use_default_korean
+    )
 
     chunks = _chunk_text(processed_text)
     total = len(chunks)
@@ -282,6 +332,7 @@ def synthesize_sample(
     pitch: float = 0.0,
     custom_map: dict[str, str] | None = None,
     use_default_korean: bool = True,
+    enhance_expressive_speech: bool = True,
 ) -> bytes:
     """Synthesize short preview sample audio clip with pronunciation mapping."""
     if voice_label not in VOICES:
@@ -296,7 +347,13 @@ def synthesize_sample(
         else:
             sample_text = "Hello! This is a preview of the American English voice selection for your audio book."
 
-    processed_sample = apply_pronunciation_map(sample_text, custom_map, use_default_korean)
+    expressive_sample = (
+        apply_expressive_speech(sample_text, language_code)
+        if enhance_expressive_speech else sample_text
+    )
+    processed_sample = apply_pronunciation_map(
+        expressive_sample, custom_map, use_default_korean
+    )
 
     return _synthesize_chunk(
         processed_sample, language_code, google_voice, edge_voice, speaking_rate, pitch
