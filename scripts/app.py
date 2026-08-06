@@ -5035,7 +5035,7 @@ with tabs[12]:
         _sys.path.insert(0, _audio_mod_dir)
 
     try:
-        from audio.db          import init_db, upsert_project, save_chapter, list_projects, list_chapters, save_playback_state, get_playback_state, delete_chapter, delete_project
+        from audio.db          import init_db, upsert_project, create_project, save_chapter, list_projects, list_chapters, save_playback_state, get_playback_state, delete_chapter, delete_project
         from audio.tts_engine  import synthesize_text, synthesize_sample, VOICE_NAMES, VOICES
         from audio.crawler     import crawl_chapter
         from audio.r2_uploader import upload_mp3, delete_mp3, ensure_playable_url
@@ -5340,22 +5340,15 @@ with tabs[12]:
                 proj = selected_save_project
                 proj_slug = proj.project_slug
             else:
-                base_slug = _slugify(proj_title_input or "audio-project") or "audio-project"
-                used_project_slugs = {p.project_slug for p in save_projects}
-                proj_slug = base_slug
-                suffix = 2
-                while proj_slug in used_project_slugs:
-                    proj_slug = f"{base_slug}-{suffix}"
-                    suffix += 1
                 try:
-                    proj = upsert_project(
-                        title=proj_title_input,
+                    proj = create_project(
+                        title=proj_title_input or "Audio Project",
                         source_type=db_src_type,
                         source_url=db_src_url,
-                        project_slug=proj_slug,
                     )
+                    proj_slug = proj.project_slug
                 except Exception as _dbe:
-                    st.error(f"DB error: {_dbe}")
+                    st.error(f"DB error khi tạo project: {_dbe}")
                     st.stop()
 
             # Build list of (chapter_slug, chapter_title, text)
@@ -5596,6 +5589,44 @@ with tabs[12]:
     # ╚══════════════════════════════════════════════════════════════╝
     with aud_sub[2]:
         st.markdown("### 🗂️ Quản lý Audio Projects")
+
+        # ── Create New Project Form ───────────────────────────────────
+        with st.expander("➕ Tạo Audio Project Mới", expanded=False):
+            with st.form("aud_create_proj_form", clear_on_submit=True):
+                new_proj_title = st.text_input(
+                    "Tên project:",
+                    placeholder="Ví dụ: Earth Hero's Retirement Project",
+                    key="aud_new_proj_title_input",
+                )
+                new_proj_type = st.selectbox(
+                    "Loại nguồn:",
+                    ["web_crawler", "pasted_text", "novel_agent"],
+                    key="aud_new_proj_type_input",
+                )
+                new_proj_url = st.text_input(
+                    "Source URL (tùy chọn):",
+                    placeholder="https://...",
+                    key="aud_new_proj_url_input",
+                )
+                submitted_new = st.form_submit_button(
+                    "🚀 Tạo Project", type="primary", use_container_width=True
+                )
+            if submitted_new:
+                if not new_proj_title.strip():
+                    st.warning("⚠️ Vui lòng nhập tên project.")
+                else:
+                    try:
+                        _new_proj = create_project(
+                            title=new_proj_title.strip(),
+                            source_type=new_proj_type,
+                            source_url=new_proj_url.strip() or None,
+                        )
+                        st.success(f"✅ Đã tạo project **{_new_proj.title}** (slug: `{_new_proj.project_slug}`)")
+                        st.rerun()
+                    except Exception as _cpe:
+                        st.error(f"❌ Lỗi tạo project: {_cpe}")
+
+        st.divider()
 
         mgr_projects = list_projects()
         if not mgr_projects:
