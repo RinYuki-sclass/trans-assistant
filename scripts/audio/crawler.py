@@ -1,25 +1,23 @@
-"""
-🌐 crawler.py – Novel Web Crawler
-Crawls novel chapters from hyacinthbloom.com (WordPress-based).
-Returns clean text with chapter title and segmented paragraphs.
-"""
+"""Novel chapter crawler for supported WordPress and Next.js sites."""
 
+import json
 import re
+from urllib.parse import urlparse
+
 import httpx
 from bs4 import BeautifulSoup
 
 
-# ── CSS selectors supports ── 
-# hyacinthbloom.com (WordPress + GeneratePress)
-# mistminthaven.com ()
+# ── CSS selectors ────────────────────────────────────────────────────
 _CONTENT_SELECTORS = [
+    "div#chapter-content-text",  # Mistmint Haven hydrated DOM
+    "div.chapter-content-text",
     "div.entry-content",
     "div.post-content",
     "div.novel-content",
     "article .content",
     "div#content article",
     "article",
-    "div.chapter-content-text",
 ]
 
 _NOISE_TAGS = [
@@ -61,6 +59,41 @@ def _extract_content(soup: BeautifulSoup) -> BeautifulSoup | None:
         if el and len(el.get_text(strip=True)) > 200:
             return el
     return None
+
+
+def _extract_mistmint_next_content(soup: BeautifulSoup) -> BeautifulSoup | None:
+    """Extract chapter HTML embedded in Mistmint Haven's Next.js flight data.
+
+    The initial HTTP response contains the chapter as an encoded HTML string;
+    ``#chapter-content-text`` is created only after JavaScript hydration.
+    """
+    best_fragment = None
+    best_paragraph_count = 0
+
+    for script in soup.find_all("script"):
+        raw = script.string or script.get_text()
+        if "self.__next_f.push(" not in raw:
+            continue
+        match = re.search(r"self\.__next_f\.push\((\[.*\])\)\s*$", raw, re.DOTALL)
+        if not match:
+            continue
+        try:
+            flight_entry = json.loads(match.group(1))
+        except (json.JSONDecodeError, TypeError):
+            continue
+        if len(flight_entry) < 2 or not isinstance(flight_entry[1], str):
+            continue
+
+        payload = flight_entry[1]
+        if "<p" not in payload:
+            continue
+        fragment = BeautifulSoup(payload, "html.parser")
+        paragraph_count = len(fragment.find_all("p"))
+        if paragraph_count > best_paragraph_count:
+            best_fragment = fragment
+            best_paragraph_count = paragraph_count
+
+    return best_fragment if best_paragraph_count else None
 
 
 def _clean_element(content_el: BeautifulSoup) -> None:
@@ -133,7 +166,11 @@ def crawl_chapter(url: str) -> dict:
 
     title = _extract_title(soup, url)
 
-    content_el = _extract_content(soup)
+    hostname = (urlparse(url).hostname or "").lower()
+    if hostname == "mistminthaven.com" or hostname.endswith(".mistminthaven.com"):
+        content_el = _extract_mistmint_next_content(soup) or _extract_content(soup)
+    else:
+        content_el = _extract_content(soup)
     if content_el is None:
         raise ValueError(
             f"Could not find main content block on page: {url}\n"

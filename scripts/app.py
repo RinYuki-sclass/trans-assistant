@@ -5104,10 +5104,20 @@ with tabs[12]:
         na_proj_slug = ""
 
         if src_type == "🌐 Web URL (Crawl)":
+            crawl_site = st.selectbox(
+                "Website:",
+                ["Hyacinth Bloom", "Mistmint Haven", "URL tùy chỉnh"],
+                key="aud_crawl_site",
+            )
+            crawl_presets = {
+                "Hyacinth Bloom": "https://hyacinthbloom.com/earth-heros-retirement-project/earth-heros-retirement-project-122/",
+                "Mistmint Haven": "https://www.mistminthaven.com/novels/rolling-in-bed-with-the-male-lead/chapter-1",
+                "URL tùy chỉnh": "",
+            }
             crawl_url = st.text_input(
                 "URL chương truyện:",
-                value="https://hyacinthbloom.com/earth-heros-retirement-project/earth-heros-retirement-project-122/",
-                key="aud_crawl_url",
+                value=crawl_presets[crawl_site],
+                key=f"aud_crawl_url_{crawl_site}",
             )
             if st.button("🔍 Preview & Crawl", key="aud_preview_crawl"):
                 with st.spinner("Đang crawl nội dung…"):
@@ -5189,6 +5199,15 @@ with tabs[12]:
         
         # ── Pronunciation Mapping Expander ───────────────────────────
         with st.expander("🗣️ Sửa Phát Âm Tên Nhân Vật Hàn Quốc (Pronunciation Map)", expanded=False):
+            enhance_expressive_speech = st.checkbox(
+                "Diễn cảm tiếng thở gấp và lời nói lắp",
+                value=True,
+                key="aud_enhance_expressive_speech",
+                help=(
+                    "Chuyển các cue như *gasp*, (gasps) thành tiếng cảm thán và "
+                    "đọc W-wait / I-I-I thành lời lặp có khoảng nghỉ tự nhiên."
+                ),
+            )
             use_korean_rules = st.checkbox(
                 "Tự động tối ưu các âm tiết tiếng Hàn dễ đọc sai (Hyun→Hyeon, Cheon→Chun, Seong→Sung, Eun→Un...)",
                 value=True,
@@ -5249,6 +5268,7 @@ with tabs[12]:
                             pitch=aud_pitch,
                             custom_map=custom_name_map,
                             use_default_korean=use_korean_rules,
+                            enhance_expressive_speech=enhance_expressive_speech,
                         )
                         st.session_state["aud_sample_audio"] = sample_bytes
                     except Exception as _ste:
@@ -5374,6 +5394,7 @@ with tabs[12]:
                         pitch=aud_pitch,
                         custom_map=custom_name_map,
                         use_default_korean=use_korean_rules,
+                        enhance_expressive_speech=enhance_expressive_speech,
                     )
                 except Exception as _te:
                     st.error(f"❌ TTS thất bại cho `{ch_title}`: {_te}")
