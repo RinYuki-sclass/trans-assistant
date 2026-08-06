@@ -5452,137 +5452,126 @@ with tabs[12]:
                 # ── Chapter selection ────────────────────────────────
                 ch_labels = [f"#{ch.chapter_number} – {ch.title}" for ch in chapters]
                 sel_ch_idx = st.selectbox(
-                    "Chọn chương để phát:",
+                    "Bắt đầu từ chương:",
                     range(len(chapters)),
                     format_func=lambda i: ch_labels[i],
                     key="aud_sel_chapter",
                 )
-                sel_ch = chapters[sel_ch_idx]
-                resume_pos = get_playback_state(sel_ch.id)
-                audio_playable_url = ensure_playable_url(sel_ch.audio_url, sel_proj.project_slug, sel_ch.chapter_slug)
 
-                # ── Custom HTML5 Audio Player ────────────────────────
-                player_html = f"""
-<style>
-  .aud-player-wrap {{
-    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
-    border-radius: 16px;
-    padding: 1.5rem 2rem;
-    color: #fff;
-    font-family: 'Segoe UI', sans-serif;
-    margin-bottom: 1.2rem;
-    box-shadow: 0 8px 32px rgba(0,0,0,0.4);
-  }}
-  .aud-chapter-title {{
-    font-size: 1.1rem;
-    font-weight: 600;
-    margin-bottom: 0.3rem;
-    color: #e0d7ff;
-  }}
-  .aud-chapter-meta {{
-    font-size: 0.78rem;
-    color: rgba(255,255,255,0.5);
-    margin-bottom: 1rem;
-  }}
-  #aud-audio-el {{
-    width: 100%;
-    outline: none;
-    border-radius: 8px;
-    margin-bottom: 0.8rem;
-  }}
-  .aud-controls {{
-    display: flex;
-    gap: 0.7rem;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-top: 0.5rem;
-  }}
-  .aud-btn {{
-    background: rgba(255,255,255,0.12);
-    border: 1px solid rgba(255,255,255,0.2);
-    border-radius: 8px;
-    color: #fff;
-    padding: 0.35rem 0.85rem;
-    cursor: pointer;
-    font-size: 0.82rem;
-    transition: background 0.2s;
-  }}
-  .aud-btn:hover {{ background: rgba(255,255,255,0.22); }}
-  .aud-resume-badge {{
-    font-size: 0.75rem;
-    color: #a78bfa;
-    margin-left: auto;
-  }}
-</style>
+                # ── Build playlist JSON for JS ────────────────────────
+                import json as _json
+                _ch_playlist = []
+                for _ch in chapters:
+                    _ch_url = ensure_playable_url(_ch.audio_url, sel_proj.project_slug, _ch.chapter_slug)
+                    _ch_resume = get_playback_state(_ch.id)
+                    _ch_playlist.append({
+                        "idx":      chapters.index(_ch),
+                        "id":       _ch.id,
+                        "title":    _ch.title,
+                        "url":      _ch_url or "",
+                        "duration": _ch.duration_seconds,
+                        "words":    _ch.word_count,
+                        "voice":    _ch.voice_label or "—",
+                        "resume":   _ch_resume,
+                        "num":      _ch.chapter_number,
+                    })
+                _playlist_json = _json.dumps(_ch_playlist)
+                _proj_title_js = sel_proj.title.replace("'", "\\'")
 
-<div class="aud-player-wrap">
-  <div class="aud-chapter-title">🎵 {sel_ch.title}</div>
-  <div class="aud-chapter-meta">
-    🎤 {sel_ch.voice_label or '—'} &nbsp;·&nbsp;
-    ⏱ {_fmt_duration(sel_ch.duration_seconds)} &nbsp;·&nbsp;
-    📝 {sel_ch.word_count:,} từ
-    {f'&nbsp;·&nbsp; <span style="color:#a78bfa">▶ Resume: {_fmt_duration(resume_pos)}</span>' if resume_pos > 2 else ''}
-  </div>
-  <audio id="aud-audio-el" controls preload="metadata"
-         src="{audio_playable_url or ''}">
-    Trình duyệt của bạn không hỗ trợ audio HTML5.
-  </audio>
-  <div class="aud-controls">
-    <button class="aud-btn" onclick="document.getElementById('aud-audio-el').currentTime -= 15">⏮ -15s</button>
-    <button class="aud-btn" onclick="document.getElementById('aud-audio-el').currentTime += 30">+30s ⏭</button>
-    <button class="aud-btn" onclick="var a=document.getElementById('aud-audio-el');a.playbackRate=Math.max(0.5,a.playbackRate-0.1).toFixed(1);this.textContent='🐢 '+a.playbackRate+'x'">🐢 -Speed</button>
-    <button class="aud-btn" onclick="var a=document.getElementById('aud-audio-el');a.playbackRate=Math.min(3,+(a.playbackRate+0.1).toFixed(1));this.textContent='🐇 '+a.playbackRate+'x'">🐇 +Speed</button>
-    <a class="aud-btn" href="{audio_playable_url or '#'}" target="_blank" download>⬇ Download MP3</a>
+
+                # ── Unified Player + Playlist component ──────────────
+                player_html = f"""<!DOCTYPE html>
+<html><head><meta charset="utf-8"><style>
+*{{box-sizing:border-box;margin:0;padding:0}}
+body{{font-family:'Segoe UI',sans-serif;background:transparent;color:#fff;padding:2px}}
+.player-card{{background:linear-gradient(135deg,#0f0c29,#302b63,#24243e);border-radius:16px;padding:1.2rem 1.5rem 1rem;margin-bottom:.9rem;box-shadow:0 8px 32px rgba(0,0,0,.45)}}
+.now-label{{font-size:.65rem;letter-spacing:.12em;text-transform:uppercase;color:#a78bfa;margin-bottom:.2rem}}
+.np-title{{font-size:1rem;font-weight:700;color:#e0d7ff;margin-bottom:.15rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}}
+.np-meta{{font-size:.72rem;color:rgba(255,255,255,.45);margin-bottom:.75rem}}
+audio{{width:100%;border-radius:8px;outline:none;margin-bottom:.6rem;accent-color:#a78bfa}}
+.controls{{display:flex;gap:.4rem;flex-wrap:wrap;align-items:center}}
+.btn{{background:rgba(255,255,255,.10);border:1px solid rgba(255,255,255,.18);border-radius:8px;color:#fff;padding:.28rem .7rem;cursor:pointer;font-size:.76rem;transition:background .15s;white-space:nowrap}}
+.btn:hover{{background:rgba(255,255,255,.22)}}
+.btn:disabled{{opacity:.35;cursor:not-allowed}}
+.autoplay-wrap{{margin-left:auto;display:flex;align-items:center;gap:.35rem;font-size:.75rem;color:rgba(255,255,255,.6);cursor:pointer;user-select:none}}
+.autoplay-wrap input{{accent-color:#a78bfa;cursor:pointer}}
+.section-label{{font-size:.65rem;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.35);margin:.5rem 0 .3rem}}
+.playlist{{display:flex;flex-direction:column;gap:.3rem}}
+.pl-item{{display:flex;align-items:center;gap:.6rem;padding:.45rem .75rem;border-radius:10px;cursor:pointer;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);transition:background .13s,border-color .13s}}
+.pl-item:hover{{background:rgba(255,255,255,.10);border-color:rgba(167,139,250,.4)}}
+.pl-item.active{{background:rgba(167,139,250,.18);border-color:#a78bfa}}
+.pl-icon{{font-size:.95rem;min-width:1.1rem;text-align:center}}
+.pl-info{{flex:1;min-width:0}}
+.pl-name{{font-size:.8rem;font-weight:600;color:#e0d7ff;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}}
+.pl-sub{{font-size:.68rem;color:rgba(255,255,255,.4);margin-top:.03rem}}
+.pl-dl{{font-size:.68rem;background:rgba(167,139,250,.22);color:#c4b5fd;border-radius:5px;padding:.1rem .4rem;white-space:nowrap;text-decoration:none}}
+.pl-dl:hover{{background:rgba(167,139,250,.4)}}
+</style></head><body>
+<div class="player-card">
+  <div class="now-label">▶ NOW PLAYING</div>
+  <div class="np-title" id="np-title">—</div>
+  <div class="np-meta" id="np-meta">—</div>
+  <audio id="aud" controls preload="auto"></audio>
+  <div class="controls">
+    <button class="btn" onclick="seek(-15)">⏮ -15s</button>
+    <button class="btn" id="btn-prev" onclick="playPrev()">⏪ Prev</button>
+    <button class="btn" id="btn-next" onclick="playNext()">Next ⏩</button>
+    <button class="btn" onclick="seek(30)">+30s ⏭</button>
+    <button class="btn" id="btn-speed" onclick="cycleSpeed()">🐇 1.0×</button>
+    <a class="btn" id="btn-dl" href="#" target="_blank" download>⬇ MP3</a>
+    <label class="autoplay-wrap"><input type="checkbox" id="chk-auto" checked> Auto-next</label>
   </div>
 </div>
+<div class="section-label">📋 Playlist — {_proj_title_js}</div>
+<div class="playlist" id="playlist"></div>
 <script>
-  (function() {{
-    var audio = document.getElementById('aud-audio-el');
-    if (!audio) return;
-    // Resume from last position
-    var resume = {resume_pos:.1f};
-    if (resume > 2) {{ audio.currentTime = resume; }}
-  }})();
+(function(){{
+  var PL={_playlist_json};
+  var cur={sel_ch_idx};
+  var aud=document.getElementById('aud');
+  function fmt(s){{s=Math.round(s||0);var m=Math.floor(s/60),r=s%60;return m+':'+(r<10?'0':'')+r;}}
+  function loadTrack(idx,play){{
+    if(idx<0||idx>=PL.length)return;
+    cur=idx;
+    var ch=PL[idx];
+    document.getElementById('np-title').textContent='#'+ch.num+' '+ch.title;
+    document.getElementById('np-meta').textContent='🎤 '+ch.voice+'  ·  ⏱ '+fmt(ch.duration)+'  ·  📝 '+ch.words.toLocaleString()+' từ'+(ch.resume>2?'  ·  ▶ Resume: '+fmt(ch.resume):'');
+    document.getElementById('btn-dl').href=ch.url||'#';
+    aud.src=ch.url;aud.load();
+    if(ch.resume>2){{aud.addEventListener('loadedmetadata',function h(){{aud.currentTime=ch.resume;aud.removeEventListener('loadedmetadata',h);}});}}
+    if(play){{aud.play().catch(function(){{}});}}
+    document.getElementById('btn-prev').disabled=(idx===0);
+    document.getElementById('btn-next').disabled=(idx===PL.length-1);
+    document.querySelectorAll('.pl-item').forEach(function(el,i){{el.classList.toggle('active',i===idx);el.querySelector('.pl-icon').textContent=i===idx?'▶️':'🎵';}});
+    // Scroll active item into view
+    var active=document.querySelector('.pl-item.active');
+    if(active){{active.scrollIntoView({{block:'nearest',behavior:'smooth'}});}}
+  }}
+  function playPrev(){{if(cur>0)loadTrack(cur-1,true);}}
+  function playNext(){{if(cur<PL.length-1)loadTrack(cur+1,true);}}
+  function seek(s){{aud.currentTime=Math.max(0,aud.currentTime+s);}}
+  var speeds=[0.75,1.0,1.25,1.5,1.75,2.0],si=1;
+  function cycleSpeed(){{si=(si+1)%speeds.length;aud.playbackRate=speeds[si];document.getElementById('btn-speed').textContent='🐇 '+speeds[si]+'×';}}
+  aud.addEventListener('ended',function(){{if(document.getElementById('chk-auto').checked)playNext();}});
+  var pl=document.getElementById('playlist');
+  PL.forEach(function(ch,i){{
+    var el=document.createElement('div');
+    el.className='pl-item';
+    el.innerHTML='<div class="pl-icon">🎵</div>'
+      +'<div class="pl-info"><div class="pl-name">#'+ch.num+' '+ch.title+'</div>'
+      +'<div class="pl-sub">⏱ '+fmt(ch.duration)+' · 📝 '+ch.words.toLocaleString()+' từ'+(ch.resume>2?' · ▶ '+fmt(ch.resume):'')+' </div></div>'
+      +(ch.url?'<a class="pl-dl" href="'+ch.url+'" target="_blank" download onclick="event.stopPropagation()">⬇</a>':'');
+    el.addEventListener('click',function(){{loadTrack(i,true);}});
+    pl.appendChild(el);
+  }});
+  loadTrack(cur,false);
+}})();
 </script>
-"""
-                st.components.v1.html(player_html, height=250)
+</body></html>"""
+                _player_h = min(720, 310 + len(chapters) * 58)
+                st.components.v1.html(player_html, height=_player_h, scrolling=True)
 
-                # ── Save position button (manual) ────────────────────
-                save_col, _ = st.columns([2, 4])
-                with save_col:
-                    if st.button("💾 Lưu vị trí hiện tại", key="aud_save_pos",
-                                 help="Lưu vị trí phát hiện tại vào DB để resume sau"):
-                        pos = st.session_state.get(f"aud_pos_{sel_ch.id}", resume_pos)
-                        save_playback_state(sel_ch.id, pos)
-                        st.success("✅ Đã lưu vị trí phát!")
 
-                st.divider()
-
-                # ── Playlist table ───────────────────────────────────
-                st.markdown(f"#### 🗒️ Playlist – {sel_proj.title}")
-                for i, ch in enumerate(chapters):
-                    is_active = (ch.id == sel_ch.id)
-                    ps = get_playback_state(ch.id)
-                    prog_pct = min(100, int((ps / ch.duration_seconds * 100))) if ch.duration_seconds > 0 else 0
-                    ch_playable_url = ensure_playable_url(ch.audio_url, sel_proj.project_slug, ch.chapter_slug)
-
-                    with st.container(border=True):
-                        icon_col, info_col, download_col = st.columns([0.5, 6, 1.2])
-                        with icon_col:
-                            st.markdown("▶️" if is_active else "🎵")
-                        with info_col:
-                            title_prefix = "**" if is_active else ""
-                            st.markdown(f"{title_prefix}#{ch.chapter_number} {ch.title}{title_prefix}")
-                            progress_text = f" · {prog_pct}% đã nghe" if ps > 2 else ""
-                            st.caption(
-                                f"⏱ {_fmt_duration(ch.duration_seconds)} · "
-                                f"📝 {ch.word_count:,} từ{progress_text}"
-                            )
-                            if ps > 2:
-                                st.progress(prog_pct / 100)
-                        with download_col:
-                            if ch_playable_url:
-                                st.link_button("⬇ MP3", ch_playable_url, use_container_width=True)
 
     # ╔══════════════════════════════════════════════════════════════╗
     # ║  SUB-TAB 2 – MANAGE PROJECTS                               ║
