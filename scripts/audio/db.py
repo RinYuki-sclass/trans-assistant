@@ -1,27 +1,31 @@
 """
 🗄️ db.py – Audio Metadata Database (Turso DB / SQLite)
 Stores AudioProject, AudioChapter, and PlaybackState records.
-Follows the same Turso DB connection pattern as D:\\Nhung\\Rin Anki\\services\\database.py.
+
+Backend selection (automatic):
+  - TURSO_DATABASE_URL + TURSO_AUTH_TOKEN set → Turso via HTTP (hrana) using httpx
+  - Otherwise → local SQLite (data/audio_database.db)
+
+No native Rust/C compilation required – httpx is used for all Turso calls.
 """
 
 from __future__ import annotations
 
+import json
 import os
+import re
+import sqlite3
+from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
+from typing import Any
 
+# ── Auto-load .env so Turso credentials are available everywhere ──────
 try:
-    import libsql
-    _LIBSQL_AVAILABLE = True
-except ImportError:
-    import sqlite3 as _sqlite3
-    _LIBSQL_AVAILABLE = False
-
-from sqlalchemy import (
-    Column, DateTime, Float, ForeignKey, Integer, String, Text,
-    create_engine, text,
-)
-from sqlalchemy.orm import DeclarativeBase, Mapped, Session, mapped_column, relationship, sessionmaker
+    from dotenv import load_dotenv as _load_dotenv
+    _load_dotenv(Path(__file__).resolve().parents[2] / '.env', override=False)
+except Exception:
+    pass
 
 BASE_DIR = Path(__file__).resolve().parents[2]  # trans-tool root
 DATA_DIR = BASE_DIR / "data"
@@ -34,195 +38,395 @@ def _get_env(key: str) -> str:
         import streamlit as st
         val = st.secrets.get(key)
         if val:
-            return val
+            return str(val)
     except Exception:
         pass
     return os.environ.get(key, "")
 
 
-# ── SQLAlchemy Base ─────────────────────────────────────────────────
-class Base(DeclarativeBase):
-    pass
+# ═══════════════════════════════════════════════════════════════════════
+# 1. DATA CLASSES  (returned by all CRUD helpers)
+# ═══════════════════════════════════════════════════════════════════════
+
+@dataclass
+class AudioProject:
+    id: int
+    title: str
+    source_type: str
+    source_url: str | None
+    project_slug: str
+    created_at: datetime | None = None
 
 
-# ── Models ──────────────────────────────────────────────────────────
-
-class AudioProject(Base):
-    """Represents a crawl / novel-agent audio project."""
-    __tablename__ = "audio_projects"
-
-    id: Mapped[int]         = mapped_column(Integer, primary_key=True)
-    title: Mapped[str]      = mapped_column(String(255), nullable=False)
-    source_type: Mapped[str] = mapped_column(String(32), nullable=False, default="web_crawler")
-    # "web_crawler" | "pasted_text" | "novel_agent"
-    source_url: Mapped[str | None] = mapped_column(Text, nullable=True)
-    project_slug: Mapped[str]      = mapped_column(String(120), nullable=False, unique=True)
-    created_at: Mapped[datetime]   = mapped_column(
-        DateTime(timezone=True), default=lambda: datetime.now(timezone.utc)
-    )
-
-    chapters: Mapped[list["AudioChapter"]] = relationship(
-        back_populates="project", cascade="all, delete"
-    )
+@dataclass
+class AudioChapter:
+    id: int
+    project_id: int
+    chapter_number: int
+    chapter_slug: str
+    title: str
+    audio_url: str | None
+    duration_seconds: float
+    text_content: str | None
+    voice_label: str | None
+    word_count: int
+    created_at: datetime | None = None
+    playback: Any = None  # PlaybackState or None
 
 
-class AudioChapter(Base):
-    """A single synthesized chapter / section."""
-    __tablename__ = "audio_chapters"
-
-    id: Mapped[int]            = mapped_column(Integer, primary_key=True)
-    project_id: Mapped[int]    = mapped_column(ForeignKey("audio_projects.id"), nullable=False)
-    chapter_number: Mapped[int] = mapped_column(Integer, nullable=False, default=0)
-    chapter_slug: Mapped[str]  = mapped_column(String(120), nullable=False)
-    title: Mapped[str]         = mapped_column(String(255), nullable=False)
-    audio_url: Mapped[str | None]     = mapped_column(Text, nullable=True)  # Cloudflare R2 URL
-    duration_seconds: Mapped[float]   = mapped_column(Float, default=0.0)
-    text_content: Mapped[str | None]  = mapped_column(Text, nullable=True)
-    voice_label: Mapped[str | None]   = mapped_column(String(120), nullable=True)
-    word_count: Mapped[int]           = mapped_column(Integer, default=0)
-    created_at: Mapped[datetime]      = mapped_column(
-        DateTime(timezone=True), default=lambda: datetime.now(timezone.utc)
-    )
-
-    project: Mapped[AudioProject] = relationship(back_populates="chapters")
-    playback: Mapped["PlaybackState | None"] = relationship(
-        back_populates="chapter", cascade="all, delete", uselist=False
-    )
+@dataclass
+class PlaybackState:
+    id: int
+    chapter_id: int
+    last_position_sec: float
+    updated_at: datetime | None = None
 
 
-class PlaybackState(Base):
-    """Persists last playback position per chapter."""
-    __tablename__ = "audio_playback_state"
+# ═══════════════════════════════════════════════════════════════════════
+# 2. TURSO HTTP CLIENT
+# ═══════════════════════════════════════════════════════════════════════
 
-    id: Mapped[int]          = mapped_column(Integer, primary_key=True)
-    chapter_id: Mapped[int]  = mapped_column(
-        ForeignKey("audio_chapters.id"), unique=True, nullable=False
-    )
-    last_position_sec: Mapped[float] = mapped_column(Float, default=0.0)
-    updated_at: Mapped[datetime]     = mapped_column(
-        DateTime(timezone=True), default=lambda: datetime.now(timezone.utc)
-    )
+class _TursoClient:
+    """Thin wrapper around the Turso hrana-over-HTTP REST API."""
 
-    chapter: Mapped[AudioChapter] = relationship(back_populates="playback")
+    def __init__(self, db_url: str, auth_token: str):
+        import httpx
+        self._db_url  = db_url.rstrip("/")
+        self._token   = auth_token
+        self._http    = httpx.Client(
+            timeout=30,
+            headers={
+                "Authorization": f"Bearer {auth_token}",
+                "Content-Type": "application/json",
+            },
+        )
+
+    def execute(self, sql: str, args: list | None = None) -> dict:
+        payload = {
+            "requests": [
+                {
+                    "type": "execute",
+                    "stmt": {
+                        "sql": sql,
+                        "args": [self._encode(a) for a in (args or [])],
+                    },
+                },
+                {"type": "close"},
+            ]
+        }
+        resp = self._http.post(f"{self._db_url}/v2/pipeline", content=json.dumps(payload))
+        resp.raise_for_status()
+        data = resp.json()
+        result = data["results"][0]
+        if result.get("type") == "error":
+            raise RuntimeError(result["error"]["message"])
+        return result.get("response", {}).get("result", {})
+
+    @staticmethod
+    def _encode(v: Any) -> dict:
+        if v is None:
+            return {"type": "null"}
+        if isinstance(v, bool):
+            return {"type": "integer", "value": str(int(v))}
+        if isinstance(v, int):
+            return {"type": "integer", "value": str(v)}
+        if isinstance(v, float):
+            return {"type": "float", "value": v}
+        return {"type": "text", "value": str(v)}
+
+    @staticmethod
+    def _decode_rows(result: dict) -> list[dict]:
+        cols = [c["name"] for c in result.get("cols", [])]
+        rows = []
+        for row in result.get("rows", []):
+            record = {}
+            for col, cell in zip(cols, row):
+                t = cell.get("type", "null")
+                if t == "null":
+                    record[col] = None
+                elif t == "integer":
+                    record[col] = int(cell["value"])
+                elif t == "float":
+                    record[col] = float(cell["value"])
+                else:
+                    record[col] = cell.get("value")
+            rows.append(record)
+        return rows
+
+    def fetch(self, sql: str, args: list | None = None) -> list[dict]:
+        result = self.execute(sql, args)
+        return self._decode_rows(result)
+
+    def fetch_one(self, sql: str, args: list | None = None) -> dict | None:
+        rows = self.fetch(sql, args)
+        return rows[0] if rows else None
+
+    def last_insert_rowid(self) -> int:
+        r = self.fetch_one("SELECT last_insert_rowid() AS id")
+        return int(r["id"]) if r else 0
 
 
-# ── LibSQL proxy (same as Rin Anki pattern) ─────────────────────────
-class _LibSQLConnectionProxy:
-    def __init__(self, conn):
-        self._conn = conn
+# ═══════════════════════════════════════════════════════════════════════
+# 3. SQLITE LOCAL CLIENT
+# ═══════════════════════════════════════════════════════════════════════
 
-    def __getattr__(self, name):
-        return getattr(self._conn, name)
+class _SQLiteClient:
+    """Thin wrapper around stdlib sqlite3 for local use."""
 
-    def create_function(self, *args, **kwargs):
-        return None
-
-
-def _get_connection():
-    db_url    = _get_env("TURSO_DATABASE_URL")
-    auth_token = _get_env("TURSO_AUTH_TOKEN")
-
-    if _LIBSQL_AVAILABLE:
-        if db_url and auth_token:
-            conn = libsql.connect(database=db_url, auth_token=auth_token)
-        else:
-            DATA_DIR.mkdir(exist_ok=True)
-            conn = libsql.connect(str(DB_PATH))
-    else:
+    def __init__(self, db_path: Path):
         DATA_DIR.mkdir(exist_ok=True)
-        conn = _sqlite3.connect(str(DB_PATH), check_same_thread=False)
+        self._path = db_path
+        self._conn: sqlite3.Connection | None = None
 
-    return _LibSQLConnectionProxy(conn)
+    def _get_conn(self) -> sqlite3.Connection:
+        if self._conn is None:
+            self._conn = sqlite3.connect(str(self._path), check_same_thread=False)
+            self._conn.row_factory = sqlite3.Row
+        return self._conn
+
+    def execute(self, sql: str, args: list | None = None) -> sqlite3.Cursor:
+        return self._get_conn().execute(sql, args or [])
+
+    def fetch(self, sql: str, args: list | None = None) -> list[dict]:
+        cur = self.execute(sql, args)
+        return [dict(row) for row in cur.fetchall()]
+
+    def fetch_one(self, sql: str, args: list | None = None) -> dict | None:
+        rows = self.fetch(sql, args)
+        return rows[0] if rows else None
+
+    def commit(self) -> None:
+        if self._conn:
+            self._conn.commit()
+
+    def last_insert_rowid(self) -> int:
+        r = self.fetch_one("SELECT last_insert_rowid() AS id")
+        return int(r["id"]) if r else 0
 
 
-def _get_engine():
+# ═══════════════════════════════════════════════════════════════════════
+# 4. DB SINGLETON
+# ═══════════════════════════════════════════════════════════════════════
+
+_db_client = None
+
+
+def _get_db() -> "_TursoClient | _SQLiteClient":
+    global _db_client
     try:
         import streamlit as st
 
         @st.cache_resource
-        def _cached():
-            return create_engine(
-                "sqlite://",
-                creator=_get_connection,
-                pool_pre_ping=True,
-                future=True,
-            )
-        return _cached()
+        def _cached_db():
+            return _build_db()
+        return _cached_db()
     except Exception:
-        # Outside Streamlit (e.g. tests)
-        return create_engine(
-            "sqlite://",
-            creator=_get_connection,
-            pool_pre_ping=True,
-            future=True,
-        )
+        pass
+
+    if _db_client is None:
+        _db_client = _build_db()
+    return _db_client
 
 
-def get_session() -> Session:
-    return sessionmaker(bind=_get_engine(), future=True)()
+def _build_db() -> "_TursoClient | _SQLiteClient":
+    db_url     = _get_env("TURSO_DATABASE_URL")
+    auth_token = _get_env("TURSO_AUTH_TOKEN")
+    if db_url and auth_token:
+        # Convert libsql:// → https:// for the HTTP API
+        http_url = db_url.replace("libsql://", "https://")
+        try:
+            client = _TursoClient(http_url, auth_token)
+            client.fetch("SELECT 1")  # connectivity check
+            return client
+        except Exception as e:
+            import warnings
+            warnings.warn(f"[audio/db] Turso connection failed ({e}), falling back to SQLite.")
+    return _SQLiteClient(DB_PATH)
+
+
+# ═══════════════════════════════════════════════════════════════════════
+# 5. SCHEMA INIT
+# ═══════════════════════════════════════════════════════════════════════
+
+_DDL = [
+    """CREATE TABLE IF NOT EXISTS audio_projects (
+        id           INTEGER PRIMARY KEY AUTOINCREMENT,
+        title        TEXT    NOT NULL,
+        source_type  TEXT    NOT NULL DEFAULT 'web_crawler',
+        source_url   TEXT,
+        project_slug TEXT    NOT NULL UNIQUE,
+        created_at   TEXT    DEFAULT (strftime('%Y-%m-%dT%H:%M:%SZ','now'))
+    )""",
+    """CREATE TABLE IF NOT EXISTS audio_chapters (
+        id               INTEGER PRIMARY KEY AUTOINCREMENT,
+        project_id       INTEGER NOT NULL REFERENCES audio_projects(id) ON DELETE CASCADE,
+        chapter_number   INTEGER NOT NULL DEFAULT 0,
+        chapter_slug     TEXT    NOT NULL,
+        title            TEXT    NOT NULL,
+        audio_url        TEXT,
+        duration_seconds REAL    NOT NULL DEFAULT 0.0,
+        text_content     TEXT,
+        voice_label      TEXT,
+        word_count       INTEGER NOT NULL DEFAULT 0,
+        created_at       TEXT    DEFAULT (strftime('%Y-%m-%dT%H:%M:%SZ','now'))
+    )""",
+    """CREATE TABLE IF NOT EXISTS audio_playback_state (
+        id                INTEGER PRIMARY KEY AUTOINCREMENT,
+        chapter_id        INTEGER NOT NULL UNIQUE REFERENCES audio_chapters(id) ON DELETE CASCADE,
+        last_position_sec REAL    NOT NULL DEFAULT 0.0,
+        updated_at        TEXT    DEFAULT (strftime('%Y-%m-%dT%H:%M:%SZ','now'))
+    )""",
+]
 
 
 def init_db() -> None:
     """Create all tables if they don't exist."""
-    engine = _get_engine()
-    Base.metadata.create_all(engine)
+    db = _get_db()
+    for ddl in _DDL:
+        db.execute(ddl)
+    if isinstance(db, _SQLiteClient):
+        db.commit()
 
 
-# ── CRUD helpers ─────────────────────────────────────────────────────
+# ═══════════════════════════════════════════════════════════════════════
+# 6. ROW → DATACLASS HELPERS
+# ═══════════════════════════════════════════════════════════════════════
 
-def upsert_project(title: str, source_type: str, source_url: str | None, project_slug: str) -> AudioProject:
-    """Get or create an AudioProject by slug. If slug already exists, updates its metadata."""
-    with get_session() as session:
-        proj = session.query(AudioProject).filter_by(project_slug=project_slug).first()
-        if not proj:
-            proj = AudioProject(
-                title=title,
-                source_type=source_type,
-                source_url=source_url,
-                project_slug=project_slug,
-            )
-            session.add(proj)
-        else:
-            # Update existing project's metadata
-            proj.title = title
-            proj.source_type = source_type
-            if source_url is not None:
-                proj.source_url = source_url
-        session.commit()
-        session.refresh(proj)
-        return proj
+def _parse_dt(s: str | None) -> datetime | None:
+    if not s:
+        return None
+    for fmt in ("%Y-%m-%dT%H:%M:%SZ", "%Y-%m-%dT%H:%M:%S", "%Y-%m-%d %H:%M:%S"):
+        try:
+            return datetime.strptime(s, fmt).replace(tzinfo=timezone.utc)
+        except ValueError:
+            continue
+    return None
 
 
-def create_project(title: str, source_type: str = "pasted_text", source_url: str | None = None, project_slug: str | None = None) -> AudioProject:
-    """Always create a new AudioProject with a guaranteed-unique slug."""
-    import re as _re
+def _row_to_project(row: dict) -> AudioProject:
+    return AudioProject(
+        id=int(row["id"]),
+        title=row["title"],
+        source_type=row["source_type"],
+        source_url=row.get("source_url"),
+        project_slug=row["project_slug"],
+        created_at=_parse_dt(row.get("created_at")),
+    )
 
-    def _slugify(s: str) -> str:
-        s = s.lower().strip()
-        s = _re.sub(r'[^\w\s-]', '', s)
-        s = _re.sub(r'[\s_]+', '-', s)
-        return s[:80] or 'audio-project'
 
-    with get_session() as session:
-        # Build base slug
-        base_slug = project_slug or _slugify(title) or 'audio-project'
-        candidate = base_slug
-        suffix = 2
-        while session.query(AudioProject).filter_by(project_slug=candidate).first() is not None:
-            candidate = f"{base_slug}-{suffix}"
-            suffix += 1
+def _row_to_chapter(row: dict) -> AudioChapter:
+    return AudioChapter(
+        id=int(row["id"]),
+        project_id=int(row["project_id"]),
+        chapter_number=int(row.get("chapter_number", 0)),
+        chapter_slug=row["chapter_slug"],
+        title=row["title"],
+        audio_url=row.get("audio_url"),
+        duration_seconds=float(row.get("duration_seconds", 0.0)),
+        text_content=row.get("text_content"),
+        voice_label=row.get("voice_label"),
+        word_count=int(row.get("word_count", 0)),
+        created_at=_parse_dt(row.get("created_at")),
+    )
 
-        proj = AudioProject(
-            title=title,
-            source_type=source_type,
-            source_url=source_url,
-            project_slug=candidate,
+
+# ═══════════════════════════════════════════════════════════════════════
+# 7. CRUD HELPERS
+# ═══════════════════════════════════════════════════════════════════════
+
+def _slugify(s: str) -> str:
+    s = s.lower().strip()
+    s = re.sub(r'[^\w\s-]', '', s)
+    s = re.sub(r'[\s_]+', '-', s)
+    return s[:80] or 'audio-project'
+
+
+def _unique_slug(base: str) -> str:
+    db = _get_db()
+    candidate = base
+    suffix = 2
+    while True:
+        row = db.fetch_one(
+            "SELECT id FROM audio_projects WHERE project_slug = ?", [candidate]
         )
-        session.add(proj)
-        session.commit()
-        session.refresh(proj)
-        return proj
+        if row is None:
+            return candidate
+        candidate = f"{base}-{suffix}"
+        suffix += 1
 
+
+# ── Projects ──────────────────────────────────────────────────────────
+
+def upsert_project(
+    title: str,
+    source_type: str,
+    source_url: str | None,
+    project_slug: str,
+) -> AudioProject:
+    """Get or create an AudioProject by slug. Updates metadata if slug already exists."""
+    db = _get_db()
+    row = db.fetch_one(
+        "SELECT * FROM audio_projects WHERE project_slug = ?", [project_slug]
+    )
+    if row:
+        db.execute(
+            "UPDATE audio_projects SET title=?, source_type=?, source_url=? WHERE project_slug=?",
+            [title, source_type, source_url, project_slug],
+        )
+        if isinstance(db, _SQLiteClient):
+            db.commit()
+        row = db.fetch_one(
+            "SELECT * FROM audio_projects WHERE project_slug = ?", [project_slug]
+        )
+    else:
+        now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+        db.execute(
+            "INSERT INTO audio_projects (title, source_type, source_url, project_slug, created_at) VALUES (?,?,?,?,?)",
+            [title, source_type, source_url, project_slug, now],
+        )
+        if isinstance(db, _SQLiteClient):
+            db.commit()
+        rowid = db.last_insert_rowid()
+        row = db.fetch_one("SELECT * FROM audio_projects WHERE id=?", [rowid])
+    return _row_to_project(row)
+
+
+def create_project(
+    title: str,
+    source_type: str = "pasted_text",
+    source_url: str | None = None,
+    project_slug: str | None = None,
+) -> AudioProject:
+    """Always create a brand-new AudioProject with a guaranteed-unique slug."""
+    db = _get_db()
+    base = project_slug or _slugify(title) or 'audio-project'
+    slug = _unique_slug(base)
+    now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    db.execute(
+        "INSERT INTO audio_projects (title, source_type, source_url, project_slug, created_at) VALUES (?,?,?,?,?)",
+        [title, source_type, source_url, slug, now],
+    )
+    if isinstance(db, _SQLiteClient):
+        db.commit()
+    rowid = db.last_insert_rowid()
+    row = db.fetch_one("SELECT * FROM audio_projects WHERE id=?", [rowid])
+    return _row_to_project(row)
+
+
+def list_projects() -> list[AudioProject]:
+    db = _get_db()
+    rows = db.fetch("SELECT * FROM audio_projects ORDER BY created_at DESC")
+    return [_row_to_project(r) for r in rows]
+
+
+def delete_project(project_id: int) -> None:
+    db = _get_db()
+    db.execute("DELETE FROM audio_projects WHERE id=?", [project_id])
+    if isinstance(db, _SQLiteClient):
+        db.commit()
+
+
+# ── Chapters ──────────────────────────────────────────────────────────
 
 def save_chapter(
     project_id: int,
@@ -236,78 +440,75 @@ def save_chapter(
     word_count: int,
 ) -> AudioChapter:
     """Insert or update an AudioChapter record."""
-    with get_session() as session:
-        ch = session.query(AudioChapter).filter_by(
-            project_id=project_id, chapter_slug=chapter_slug
-        ).first()
-        if ch:
-            ch.audio_url        = audio_url
-            ch.duration_seconds = duration_seconds
-            ch.text_content     = text_content
-            ch.voice_label      = voice_label
-            ch.word_count       = word_count
-        else:
-            ch = AudioChapter(
-                project_id=project_id,
-                chapter_number=chapter_number,
-                chapter_slug=chapter_slug,
-                title=title,
-                audio_url=audio_url,
-                duration_seconds=duration_seconds,
-                text_content=text_content,
-                voice_label=voice_label,
-                word_count=word_count,
-            )
-            session.add(ch)
-        session.commit()
-        session.refresh(ch)
-        return ch
-
-
-def list_projects() -> list[AudioProject]:
-    with get_session() as session:
-        return session.query(AudioProject).order_by(AudioProject.created_at.desc()).all()
+    db = _get_db()
+    row = db.fetch_one(
+        "SELECT id FROM audio_chapters WHERE project_id=? AND chapter_slug=?",
+        [project_id, chapter_slug],
+    )
+    if row:
+        db.execute(
+            "UPDATE audio_chapters SET audio_url=?, duration_seconds=?, text_content=?, voice_label=?, word_count=? WHERE id=?",
+            [audio_url, duration_seconds, text_content, voice_label, word_count, row["id"]],
+        )
+        if isinstance(db, _SQLiteClient):
+            db.commit()
+        updated = db.fetch_one("SELECT * FROM audio_chapters WHERE id=?", [row["id"]])
+        return _row_to_chapter(updated)
+    else:
+        now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+        db.execute(
+            "INSERT INTO audio_chapters (project_id, chapter_number, chapter_slug, title, audio_url, duration_seconds, text_content, voice_label, word_count, created_at) VALUES (?,?,?,?,?,?,?,?,?,?)",
+            [project_id, chapter_number, chapter_slug, title, audio_url, duration_seconds, text_content, voice_label, word_count, now],
+        )
+        if isinstance(db, _SQLiteClient):
+            db.commit()
+        rowid = db.last_insert_rowid()
+        new_row = db.fetch_one("SELECT * FROM audio_chapters WHERE id=?", [rowid])
+        return _row_to_chapter(new_row)
 
 
 def list_chapters(project_id: int) -> list[AudioChapter]:
-    with get_session() as session:
-        return (
-            session.query(AudioChapter)
-            .filter_by(project_id=project_id)
-            .order_by(AudioChapter.chapter_number)
-            .all()
-        )
-
-
-def save_playback_state(chapter_id: int, position_sec: float) -> None:
-    with get_session() as session:
-        ps = session.query(PlaybackState).filter_by(chapter_id=chapter_id).first()
-        if ps:
-            ps.last_position_sec = position_sec
-            ps.updated_at = datetime.now(timezone.utc)
-        else:
-            ps = PlaybackState(chapter_id=chapter_id, last_position_sec=position_sec)
-            session.add(ps)
-        session.commit()
-
-
-def get_playback_state(chapter_id: int) -> float:
-    with get_session() as session:
-        ps = session.query(PlaybackState).filter_by(chapter_id=chapter_id).first()
-        return ps.last_position_sec if ps else 0.0
+    db = _get_db()
+    rows = db.fetch(
+        "SELECT * FROM audio_chapters WHERE project_id=? ORDER BY chapter_number",
+        [project_id],
+    )
+    return [_row_to_chapter(r) for r in rows]
 
 
 def delete_chapter(chapter_id: int) -> None:
-    with get_session() as session:
-        ch = session.query(AudioChapter).get(chapter_id)
-        if ch:
-            session.delete(ch)
-            session.commit()
+    db = _get_db()
+    db.execute("DELETE FROM audio_chapters WHERE id=?", [chapter_id])
+    if isinstance(db, _SQLiteClient):
+        db.commit()
 
 
-def delete_project(project_id: int) -> None:
-    with get_session() as session:
-        proj = session.query(AudioProject).get(project_id)
-        if proj:
-            session.delete(proj)
-            session.commit()
+# ── Playback State ────────────────────────────────────────────────────
+
+def save_playback_state(chapter_id: int, position_sec: float) -> None:
+    db = _get_db()
+    row = db.fetch_one(
+        "SELECT id FROM audio_playback_state WHERE chapter_id=?", [chapter_id]
+    )
+    now_str = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    if row:
+        db.execute(
+            "UPDATE audio_playback_state SET last_position_sec=?, updated_at=? WHERE chapter_id=?",
+            [position_sec, now_str, chapter_id],
+        )
+    else:
+        db.execute(
+            "INSERT INTO audio_playback_state (chapter_id, last_position_sec, updated_at) VALUES (?,?,?)",
+            [chapter_id, position_sec, now_str],
+        )
+    if isinstance(db, _SQLiteClient):
+        db.commit()
+
+
+def get_playback_state(chapter_id: int) -> float:
+    db = _get_db()
+    row = db.fetch_one(
+        "SELECT last_position_sec FROM audio_playback_state WHERE chapter_id=?",
+        [chapter_id],
+    )
+    return float(row["last_position_sec"]) if row else 0.0
