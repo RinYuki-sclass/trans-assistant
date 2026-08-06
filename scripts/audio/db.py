@@ -54,7 +54,7 @@ class AudioProject(Base):
     id: Mapped[int]         = mapped_column(Integer, primary_key=True)
     title: Mapped[str]      = mapped_column(String(255), nullable=False)
     source_type: Mapped[str] = mapped_column(String(32), nullable=False, default="web_crawler")
-    # "web_crawler" | "novel_agent"
+    # "web_crawler" | "pasted_text" | "novel_agent"
     source_url: Mapped[str | None] = mapped_column(Text, nullable=True)
     project_slug: Mapped[str]      = mapped_column(String(120), nullable=False, unique=True)
     created_at: Mapped[datetime]   = mapped_column(
