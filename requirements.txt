@@ -15,3 +15,5 @@ beautifulsoup4
 httpx
 boto3
 sqlalchemy
+edge-tts
+nest-asyncio

@@ -134,7 +134,13 @@ def _synthesize_edge_tts(
     pitch: float,
 ) -> bytes:
     """Synthesize audio using edge-tts (asynchronous stream)."""
-    import edge_tts
+    try:
+        import edge_tts
+    except ImportError as exc:
+        raise RuntimeError(
+            "Thiếu thư viện edge-tts cho voice fallback. "
+            "Hãy chạy `pip install -r requirements.txt` rồi khởi động lại ứng dụng."
+        ) from exc
 
     rate_pct = int(round((speaking_rate - 1.0) * 100))
     rate_str = f"{rate_pct:+d}%" if rate_pct != 0 else "+0%"
@@ -156,7 +162,13 @@ def _synthesize_edge_tts(
         loop = None
 
     if loop and loop.is_running():
-        import nest_asyncio
+        try:
+            import nest_asyncio
+        except ImportError as exc:
+            raise RuntimeError(
+                "Thiếu thư viện nest-asyncio. "
+                "Hãy chạy `pip install -r requirements.txt` rồi khởi động lại ứng dụng."
+            ) from exc
         nest_asyncio.apply()
         return loop.run_until_complete(_synth())
     else:
