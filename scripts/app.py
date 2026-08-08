@@ -2472,6 +2472,24 @@ def na_load_config(slug: str) -> dict:
 def na_save_config(slug: str, cfg: dict):
     na_save_json(os.path.join(na_project_dir(slug), 'config.json'), cfg)
 
+def na_load_pronunciation_map(slug: str) -> str:
+    """Load the saved pronunciation map text for a project, or '' if none exists."""
+    path = os.path.join(na_project_dir(slug), 'pronunciation_map.txt')
+    if os.path.exists(path):
+        try:
+            with open(path, 'r', encoding='utf-8') as f:
+                return f.read().strip()
+        except Exception:
+            pass
+    return ""
+
+def na_save_pronunciation_map(slug: str, text: str):
+    """Persist the pronunciation map text for a project."""
+    path = os.path.join(na_project_dir(slug), 'pronunciation_map.txt')
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    with open(path, 'w', encoding='utf-8') as f:
+        f.write(text)
+
 def na_chapter_dir(slug: str, chapter_id: str) -> str:
     return os.path.join(na_project_dir(slug), 'chapters', chapter_id)
 
@@ -5216,24 +5234,60 @@ with tabs[12]:
             )
             st.caption("Bảng thay thế phát âm tên riêng (Mỗi dòng một cặp: `TênGốc => CáchĐọcĐúng`):")
 
-            default_map_text = "Hyunjae => Hyeon-jae\nTaewon => Tae-won\nCheon => Chun\nAhin => Ah-hin"
-            if src_type == "🤖 Novel Agent (Translated)" and na_proj_slug:
-                try:
-                    mem = na_load_memory(na_proj_slug)
-                    chars = mem.get("characters", [])
-                    if chars:
-                        lines = [f"{c.get('name','')} => {c.get('name','')}" for c in chars if c.get('name')]
-                        if lines:
-                            default_map_text = "\n".join(lines)
-                except Exception:
-                    pass
+            # ── Determine default map text (per-project if Novel Agent) ──
+            _is_na = src_type == "🤖 Novel Agent (Translated)" and na_proj_slug
+            if _is_na:
+                # 1) Try loading saved pronunciation map for this project
+                _saved_map = na_load_pronunciation_map(na_proj_slug)
+                if _saved_map:
+                    default_map_text = _saved_map
+                    _map_is_new = False
+                else:
+                    # 2) First-time: seed from character memory
+                    _map_is_new = True
+                    default_map_text = ""
+                    try:
+                        mem = na_load_memory(na_proj_slug)
+                        chars = mem.get("characters", [])
+                        if chars:
+                            _seed_lines = [f"{c.get('name','')} => {c.get('name','')}" for c in chars if c.get('name')]
+                            if _seed_lines:
+                                default_map_text = "\n".join(_seed_lines)
+                    except Exception:
+                        pass
+                    if not default_map_text:
+                        default_map_text = "Hyunjae => Hyeon-jae\nTaewon => Tae-won\nCheon => Chun\nAhin => Ah-hin"
+            else:
+                default_map_text = "Hyunjae => Hyeon-jae\nTaewon => Tae-won\nCheon => Chun\nAhin => Ah-hin"
+                _map_is_new = False
+
+            # Use a per-project widget key so switching projects resets the textarea
+            _map_widget_key = f"aud_custom_name_map_raw_{na_proj_slug}" if _is_na else "aud_custom_name_map_raw"
+
+            if _is_na and _map_is_new:
+                st.info("💡 Chưa có pronunciation map cho project này. Đã seed từ danh sách nhân vật — chỉnh sửa rồi nhấn **Lưu** để lưu lại.")
 
             custom_name_map_raw = st.text_area(
                 "Định dạng: `TênGốc => CáchĐọcPhátÂm`",
                 value=default_map_text,
-                height=120,
-                key="aud_custom_name_map_raw",
+                height=150,
+                key=_map_widget_key,
             )
+
+            if _is_na:
+                _proj_label = na_load_config(na_proj_slug).get('title', na_proj_slug)
+                _save_col, _status_col = st.columns([2, 3])
+                with _save_col:
+                    if st.button(
+                        "💾 Lưu pronunciation map",
+                        key=f"aud_save_pron_map_{na_proj_slug}",
+                        use_container_width=True,
+                    ):
+                        na_save_pronunciation_map(na_proj_slug, custom_name_map_raw)
+                        st.success(f"✅ Đã lưu pronunciation map cho **{_proj_label}**")
+                with _status_col:
+                    if not _map_is_new:
+                        st.caption(f"📂 Map đã lưu · project: **{_proj_label}**")
 
         def _parse_custom_name_map(raw_text: str) -> dict[str, str]:
             mapping = {}
