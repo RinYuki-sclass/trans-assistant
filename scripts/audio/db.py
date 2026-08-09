@@ -512,3 +512,51 @@ def get_playback_state(chapter_id: int) -> float:
         [chapter_id],
     )
     return float(row["last_position_sec"]) if row else 0.0
+
+
+def get_latest_listened_chapter(project_id: int) -> tuple[AudioChapter | None, float]:
+    """Return (AudioChapter, position_sec) for the most recently listened chapter in a project."""
+    db = _get_db()
+    sql = """
+        SELECT c.*, s.last_position_sec
+        FROM audio_playback_state s
+        JOIN audio_chapters c ON s.chapter_id = c.id
+        WHERE c.project_id = ?
+        ORDER BY s.updated_at DESC
+        LIMIT 1
+    """
+    row = db.fetch_one(sql, [project_id])
+    if not row:
+        return None, 0.0
+    ch = _row_to_chapter(row)
+    pos = float(row.get("last_position_sec", 0.0))
+    return ch, pos
+
+
+def get_latest_listened_all_projects() -> dict[int, tuple[int, str, float]]:
+    """Return map of project_id -> (chapter_number, chapter_title, position_sec) for all projects."""
+    db = _get_db()
+    sql = """
+        SELECT c.project_id, c.chapter_number, c.title, s.last_position_sec
+        FROM audio_playback_state s
+        JOIN audio_chapters c ON s.chapter_id = c.id
+        WHERE s.updated_at = (
+            SELECT MAX(s2.updated_at)
+            FROM audio_playback_state s2
+            JOIN audio_chapters c2 ON s2.chapter_id = c2.id
+            WHERE c2.project_id = c.project_id
+        )
+    """
+    try:
+        rows = db.fetch(sql)
+        res = {}
+        for r in rows:
+            res[int(r["project_id"])] = (
+                int(r.get("chapter_number", 0)),
+                r.get("title", ""),
+                float(r.get("last_position_sec", 0.0)),
+            )
+        return res
+    except Exception:
+        return {}
+
