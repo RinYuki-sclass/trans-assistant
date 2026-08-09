@@ -423,16 +423,24 @@ def crawl_chapter(url: str) -> dict:
     else:
         content_el = _extract_content(soup)
     if content_el is None:
+        if "fictioneerExtendedMembership" in html or "Membership Warning" in html or "oauth2" in html:
+            raise ValueError(
+                f"Chương truyện tại {url} bị khóa hoặc yêu cầu đăng nhập thành viên (Subscriber/Patreon) trên {hostname}."
+            )
         raise ValueError(
-            f"Could not find main content block on page: {url}\n"
-            "Try adding a new selector to _CONTENT_SELECTORS."
+            f"Không tìm thấy khối nội dung chính trên trang: {url}\n"
+            "Chương truyện có thể bị khóa, chưa phát hành hoặc cần quyền truy cập."
         )
 
     _clean_element(content_el)
     paragraphs = _extract_paragraphs(content_el)
 
     if not paragraphs:
-        raise ValueError(f"No readable paragraphs extracted from: {url}")
+        if "fictioneerExtendedMembership" in html or "Membership Warning" in html or "oauth2" in html:
+            raise ValueError(
+                f"Chương truyện tại {url} bị khóa hoặc yêu cầu đăng nhập thành viên (Subscriber/Patreon) trên {hostname}."
+            )
+        raise ValueError(f"Không trích xuất được đoạn văn bản đọc được từ: {url}")
 
     full_text = "\n\n".join(paragraphs)
     word_count = len(full_text.split())
