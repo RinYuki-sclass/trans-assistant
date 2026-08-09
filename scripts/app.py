@@ -5124,10 +5124,11 @@ with tabs[12]:
         if src_type == "🌐 Web URL (Crawl)":
             crawl_site = st.selectbox(
                 "Website:",
-                ["ZenithTL", "Hyacinth Bloom", "Mistmint Haven", "URL tùy chỉnh"],
+                ["Cherry Mist", "ZenithTL", "Hyacinth Bloom", "Mistmint Haven", "URL tùy chỉnh"],
                 key="aud_crawl_site",
             )
             crawl_presets = {
+                "Cherry Mist": "https://cherrymist.cafe/story/the-unruly-hero-became-younger/",
                 "ZenithTL": "https://zenithtls.com/series/69c05aa00db09eb6934e5625",
                 "Hyacinth Bloom": "https://hyacinthbloom.com/earth-heros-retirement-project/earth-heros-retirement-project-122/",
                 "Mistmint Haven": "https://www.mistminthaven.com/novels/rolling-in-bed-with-the-male-lead/chapter-1",
@@ -5213,14 +5214,13 @@ with tabs[12]:
                             ch_info = ch_mapping[k]
                             status_txt.text(f"Đang crawl [{idx+1}/{len(selected_keys)}]: {ch_info['title']}…")
                             try:
-                                title, paragraphs = _fetch_zenith_chapter_by_id_or_slug(ch_info['id'] or ch_info['slug'])
-                                full_text = "\n\n".join(paragraphs)
+                                c_res = crawl_chapter(ch_info['url'])
                                 crawled_list.append({
                                     'id': ch_info['id'],
                                     'chapter_number': ch_info['chapter_number'],
-                                    'title': f"Ch {ch_info['chapter_number']} - {title}",
-                                    'full_text': full_text,
-                                    'word_count': len(full_text.split()),
+                                    'title': f"Ch {ch_info['chapter_number']} - {c_res['title']}" if "Ch " not in c_res['title'] else c_res['title'],
+                                    'full_text': c_res['full_text'],
+                                    'word_count': c_res['word_count'],
                                     'url': ch_info['url'],
                                 })
                             except Exception as _e:
