@@ -5053,7 +5053,7 @@ with tabs[12]:
         _sys.path.insert(0, _audio_mod_dir)
 
     try:
-        from audio.db          import init_db, upsert_project, create_project, save_chapter, list_projects, list_chapters, save_playback_state, get_playback_state, delete_chapter, delete_project
+        from audio.db          import init_db, upsert_project, create_project, save_chapter, list_projects, list_chapters, save_playback_state, get_playback_state, get_latest_listened_chapter, get_latest_listened_all_projects, delete_chapter, delete_project
         from audio.tts_engine  import synthesize_text, synthesize_sample, VOICE_NAMES, VOICES
         from audio.crawler     import crawl_chapter, fetch_series_chapters, _fetch_zenith_chapter_by_id_or_slug
         from audio.r2_uploader import upload_mp3, delete_mp3, ensure_playable_url
@@ -5601,7 +5601,15 @@ with tabs[12]:
         if not all_audio_projects:
             st.info("Chưa có audio project nào. Tạo project ở tab **🌐 Crawl & Generate** trước.")
         else:
-            proj_labels = [f"{p.title} ({p.source_type})" for p in all_audio_projects]
+            latest_map = get_latest_listened_all_projects()
+            proj_labels = []
+            for p in all_audio_projects:
+                if p.id in latest_map:
+                    num, title, pos = latest_map[p.id]
+                    proj_labels.append(f"{p.title} ({p.source_type}) ── 🎧 Đã nghe: #{num} - {title}")
+                else:
+                    proj_labels.append(f"{p.title} ({p.source_type})")
+
             sel_proj_idx = st.selectbox(
                 "Chọn project:",
                 range(len(all_audio_projects)),
@@ -5609,19 +5617,39 @@ with tabs[12]:
                 key="aud_player_proj",
             )
             sel_proj = all_audio_projects[sel_proj_idx]
-            chapters  = list_chapters(sel_proj.id)
+            chapters = list_chapters(sel_proj.id)
 
             if not chapters:
                 st.info("Project này chưa có chương nào.")
             else:
-                # ── Chapter selection ────────────────────────────────
+                # ── Chapter selection & latest listened record ───────
+                latest_ch, latest_pos = get_latest_listened_chapter(sel_proj.id)
+                default_ch_idx = 0
+                if latest_ch:
+                    for idx, c in enumerate(chapters):
+                        if c.id == latest_ch.id:
+                            default_ch_idx = idx
+                            break
+
                 ch_labels = [f"#{ch.chapter_number} – {ch.title}" for ch in chapters]
+                sel_ch_key = f"aud_sel_chapter_{sel_proj.id}"
                 sel_ch_idx = st.selectbox(
                     "Bắt đầu từ chương:",
                     range(len(chapters)),
+                    index=default_ch_idx,
                     format_func=lambda i: ch_labels[i],
-                    key="aud_sel_chapter",
+                    key=sel_ch_key,
                 )
+
+                active_ch = chapters[sel_ch_idx]
+                curr_pos = latest_pos if (latest_ch and latest_ch.id == active_ch.id) else 0.0
+                save_playback_state(active_ch.id, curr_pos)
+
+                if latest_ch:
+                    pos_m = int(latest_pos // 60)
+                    pos_s = int(latest_pos % 60)
+                    pos_str = f"{pos_m}:{pos_s:02d}" if latest_pos > 2 else "Đầu chương"
+                    st.info(f"🎧 **Lần nghe gần nhất của project này:** Chương #{latest_ch.chapter_number} – **{latest_ch.title}** (Vị trí: `{pos_str}`)")
 
                 # ── Build playlist JSON for JS ────────────────────────
                 import json as _json
@@ -5786,6 +5814,7 @@ audio{{width:100%;border-radius:8px;outline:none;margin-bottom:.6rem;accent-colo
         if not mgr_projects:
             st.info("Chưa có audio project nào.")
         else:
+            mgr_latest_map = get_latest_listened_all_projects()
             for proj in mgr_projects:
                 proj_chapters = list_chapters(proj.id)
                 total_dur = sum(ch.duration_seconds for ch in proj_chapters)
@@ -5800,6 +5829,11 @@ audio{{width:100%;border-radius:8px;outline:none;margin-bottom:.6rem;accent-colo
                         if proj.source_url:
                             st.caption(f"URL: {proj.source_url}")
                         st.caption(f"Tạo lúc: {proj.created_at.strftime('%d/%m/%Y %H:%M') if proj.created_at else '—'}")
+                        if proj.id in mgr_latest_map:
+                            num, title, pos = mgr_latest_map[proj.id]
+                            pos_m, pos_s = int(pos // 60), int(pos % 60)
+                            pos_str = f"{pos_m}:{pos_s:02d}" if pos > 2 else "Đầu chương"
+                            st.caption(f"🎧 Lần nghe gần nhất: **Chương #{num} – {title}** (`{pos_str}`)")
 
                     with col_del:
                         if st.button("🗑️ Xóa project", key=f"aud_del_proj_{proj.id}",
