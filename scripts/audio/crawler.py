@@ -12,6 +12,9 @@ from bs4 import BeautifulSoup
 _CONTENT_SELECTORS = [
     "div#chapter-content-text",  # Mistmint Haven hydrated DOM
     "div.chapter-content-text",
+    "div.chapter__content",      # Cherry Mist / Fictioneer
+    "div#chapter-content",
+    "div.fictioneer-chapter-text",
     "div.entry-content",
     "div.post-content",
     "div.novel-content",
@@ -209,9 +212,54 @@ def _fetch_zenith_chapter_by_id_or_slug(chapter_id_or_slug: str) -> tuple[str, l
         raise ValueError(f"Could not fetch ZenithTL chapter for '{chapter_id_or_slug}'")
 
 
+def _fetch_cherrymist_series_chapters(url: str) -> dict:
+    """Fetch story series metadata and complete chapter list from Cherry Mist (Fictioneer theme)."""
+    html = _fetch_html(url, timeout=25)
+    soup = BeautifulSoup(html, "html.parser")
+
+    h1 = soup.select_one("h1.story__title") or soup.select_one("h1.entry-title") or soup.find("h1")
+    series_title = (h1.get_text(strip=True) if h1 else "Cherry Mist Story").strip()
+
+    chapters = []
+    seen_urls = set()
+
+    groups = soup.select(".chapter-group, .story-chapters, .chapter-list")
+    if not groups:
+        groups = [soup]
+
+    for group in groups:
+        for a in group.find_all("a", href=True):
+            ch_url = a["href"]
+            if ch_url in seen_urls:
+                continue
+            if "/chapter/" in ch_url or "fcn_chapter" in ch_url or ("/story/" in url and "/story/" not in ch_url and "fictioneer" not in ch_url):
+                seen_urls.add(ch_url)
+                ch_title = a.get_text(strip=True)
+                if not ch_title:
+                    continue
+
+                num_match = re.search(r"\d+", ch_title)
+                ch_num = int(num_match.group()) if num_match else len(chapters) + 1
+
+                chapters.append({
+                    "id": ch_url,
+                    "chapter_number": ch_num,
+                    "title": ch_title,
+                    "slug": ch_url.rstrip("/").split("/")[-1],
+                    "price": 0,
+                    "url": ch_url,
+                })
+
+    return {
+        "series_title": series_title,
+        "series_id": url,
+        "chapters": chapters,
+    }
+
+
 def fetch_series_chapters(url_or_identifier: str) -> dict:
     """
-    Fetch series metadata and complete chapter list from ZenithTL.
+    Fetch series metadata and complete chapter list from ZenithTL, Cherry Mist, or supported sites.
 
     Returns:
         {
@@ -229,6 +277,10 @@ def fetch_series_chapters(url_or_identifier: str) -> dict:
             ]
         }
     """
+    hostname = (urlparse(url_or_identifier).hostname or "").lower()
+    if hostname == "cherrymist.cafe" or hostname.endswith(".cherrymist.cafe"):
+        return _fetch_cherrymist_series_chapters(url_or_identifier)
+
     parsed = urlparse(url_or_identifier)
     path_parts = [p for p in parsed.path.split("/") if p]
 
@@ -318,6 +370,16 @@ def crawl_chapter(url: str) -> dict:
     """
     hostname = (urlparse(url).hostname or "").lower()
 
+    if hostname == "cherrymist.cafe" or hostname.endswith(".cherrymist.cafe"):
+        parsed = urlparse(url)
+        path_parts = [p for p in parsed.path.split("/") if p]
+        if "story" in path_parts and not any(k in path_parts for k in ("chapter", "ch")):
+            series_info = _fetch_cherrymist_series_chapters(url)
+            if not series_info["chapters"]:
+                raise ValueError(f"No chapters found for Cherry Mist story: {url}")
+            first_ch = series_info["chapters"][0]
+            return crawl_chapter(first_ch["url"])
+
     if hostname == "zenithtls.com" or hostname.endswith(".zenithtls.com"):
         parsed = urlparse(url)
         path_parts = [p for p in parsed.path.split("/") if p]
@@ -382,4 +444,5 @@ def crawl_chapter(url: str) -> dict:
         "full_text": full_text,
         "word_count": word_count,
     }
+
 
