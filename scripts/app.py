@@ -5055,7 +5055,7 @@ with tabs[12]:
     try:
         from audio.db          import init_db, upsert_project, create_project, save_chapter, list_projects, list_chapters, save_playback_state, get_playback_state, delete_chapter, delete_project
         from audio.tts_engine  import synthesize_text, synthesize_sample, VOICE_NAMES, VOICES
-        from audio.crawler     import crawl_chapter
+        from audio.crawler     import crawl_chapter, fetch_series_chapters, _fetch_zenith_chapter_by_id_or_slug
         from audio.r2_uploader import upload_mp3, delete_mp3, ensure_playable_url
         _audio_imports_ok = True
     except ImportError as _e:
@@ -5124,29 +5124,124 @@ with tabs[12]:
         if src_type == "🌐 Web URL (Crawl)":
             crawl_site = st.selectbox(
                 "Website:",
-                ["Hyacinth Bloom", "Mistmint Haven", "URL tùy chỉnh"],
+                ["ZenithTL", "Hyacinth Bloom", "Mistmint Haven", "URL tùy chỉnh"],
                 key="aud_crawl_site",
             )
             crawl_presets = {
+                "ZenithTL": "https://zenithtls.com/series/69c05aa00db09eb6934e5625",
                 "Hyacinth Bloom": "https://hyacinthbloom.com/earth-heros-retirement-project/earth-heros-retirement-project-122/",
                 "Mistmint Haven": "https://www.mistminthaven.com/novels/rolling-in-bed-with-the-male-lead/chapter-1",
                 "URL tùy chỉnh": "",
             }
             crawl_url = st.text_input(
-                "URL chương truyện:",
+                "URL truyện / chương truyện:",
                 value=crawl_presets[crawl_site],
                 key=f"aud_crawl_url_{crawl_site}",
             )
-            if st.button("🔍 Preview & Crawl", key="aud_preview_crawl"):
-                with st.spinner("Đang crawl nội dung…"):
+
+            col_b1, col_b2 = st.columns(2)
+            with col_b1:
+                btn_single = st.button("🔍 Crawl 1 Chương", key="aud_preview_crawl", use_container_width=True)
+            with col_b2:
+                btn_series = st.button("📋 Lấy Danh Sách Chương", key="aud_fetch_series_list", use_container_width=True)
+
+            if btn_single:
+                with st.spinner("Đang crawl nội dung chương…"):
                     try:
                         result = crawl_chapter(crawl_url)
                         st.session_state['aud_crawl_result'] = result
+                        st.session_state.pop('aud_series_data', None)
+                        st.session_state.pop('aud_crawled_chapters_list', None)
                         st.success(f"✅ Crawl thành công! **{result['title']}** – {result['word_count']:,} từ")
                     except Exception as _ce:
                         st.error(f"❌ Crawl thất bại: {_ce}")
 
-            if 'aud_crawl_result' in st.session_state:
+            if btn_series:
+                with st.spinner("Đang tải danh sách chương từ series…"):
+                    try:
+                        series_data = fetch_series_chapters(crawl_url)
+                        st.session_state['aud_series_data'] = series_data
+                        st.session_state.pop('aud_crawl_result', None)
+                        st.session_state.pop('aud_crawled_chapters_list', None)
+                        st.success(f"✅ Tìm thấy **{len(series_data['chapters'])}** chương trong series **{series_data['series_title']}**!")
+                    except Exception as _se:
+                        st.error(f"❌ Lấy danh sách chương thất bại: {_se}")
+
+            # Render Chapter Selection UI if series data is loaded
+            if 'aud_series_data' in st.session_state:
+                s_data = st.session_state['aud_series_data']
+                st.markdown(f"#### 📖 Series: **{s_data['series_title']}** ({len(s_data['chapters'])} chương)")
+
+                ch_options = [
+                    f"[Ch {c['chapter_number']}] {c['title']}" + (" (Locked)" if c.get('price', 0) > 0 else "")
+                    for c in s_data['chapters']
+                ]
+                ch_mapping = {
+                    f"[Ch {c['chapter_number']}] {c['title']}" + (" (Locked)" if c.get('price', 0) > 0 else ""): c
+                    for c in s_data['chapters']
+                }
+
+                sel_col1, sel_col2, sel_col3 = st.columns(3)
+                with sel_col1:
+                    if st.button("Chọn 5 chương đầu", key="aud_sel_top5"):
+                        st.session_state['aud_selected_ch_keys'] = ch_options[:5]
+                with sel_col2:
+                    if st.button("Chọn 10 chương đầu", key="aud_sel_top10"):
+                        st.session_state['aud_selected_ch_keys'] = ch_options[:10]
+                with sel_col3:
+                    if st.button("Chọn tất cả chương", key="aud_sel_all"):
+                        st.session_state['aud_selected_ch_keys'] = ch_options
+
+                default_sel = st.session_state.get('aud_selected_ch_keys', ch_options[:3] if ch_options else [])
+
+                selected_keys = st.multiselect(
+                    "Chọn các chương muốn crawl text để tạo audio:",
+                    ch_options,
+                    default=default_sel,
+                    key="aud_sel_chapters_multiselect",
+                )
+
+                if st.button("📥 Crawl Nội Dung Các Chương Đã Chọn", key="aud_crawl_selected_chs_btn", type="primary"):
+                    if not selected_keys:
+                        st.warning("⚠️ Vui lòng chọn ít nhất 1 chương!")
+                    else:
+                        crawled_list = []
+                        prog_bar = st.progress(0)
+                        status_txt = st.empty()
+
+                        for idx, k in enumerate(selected_keys):
+                            ch_info = ch_mapping[k]
+                            status_txt.text(f"Đang crawl [{idx+1}/{len(selected_keys)}]: {ch_info['title']}…")
+                            try:
+                                title, paragraphs = _fetch_zenith_chapter_by_id_or_slug(ch_info['id'] or ch_info['slug'])
+                                full_text = "\n\n".join(paragraphs)
+                                crawled_list.append({
+                                    'id': ch_info['id'],
+                                    'chapter_number': ch_info['chapter_number'],
+                                    'title': f"Ch {ch_info['chapter_number']} - {title}",
+                                    'full_text': full_text,
+                                    'word_count': len(full_text.split()),
+                                    'url': ch_info['url'],
+                                })
+                            except Exception as _e:
+                                st.error(f"❌ Lỗi crawl {ch_info['title']}: {str(_e)[:200]}")
+                            prog_bar.progress((idx + 1) / len(selected_keys))
+
+                        status_txt.empty()
+                        prog_bar.empty()
+                        if crawled_list:
+                            st.session_state['aud_crawled_chapters_list'] = crawled_list
+                            st.success(f"🎉 Đã crawl thành công **{len(crawled_list)}** chương!")
+
+            if 'aud_crawled_chapters_list' in st.session_state:
+                c_list = st.session_state['aud_crawled_chapters_list']
+                total_words = sum(item['word_count'] for item in c_list)
+                st.markdown(f"### 📦 Đã sẵn sàng {len(c_list)} chương ({total_words:,} từ)")
+                for item in c_list:
+                    with st.expander(f"📄 {item['title']} ({item['word_count']:,} từ)", expanded=False):
+                        st.text(item['full_text'][:1000] + ("…" if len(item['full_text']) > 1000 else ""))
+
+            elif 'aud_crawl_result' in st.session_state:
                 r = st.session_state['aud_crawl_result']
                 crawl_title = r['title']
                 crawl_text  = r['full_text']
@@ -5337,7 +5432,10 @@ with tabs[12]:
 
         # ── Audio project destination ────────────────────────────────
         if src_type == "🌐 Web URL (Crawl)":
-            default_proj_title = crawl_title or "Untitled Crawl"
+            if 'aud_series_data' in st.session_state:
+                default_proj_title = st.session_state['aud_series_data'].get('series_title') or (crawl_title or "Crawled Series")
+            else:
+                default_proj_title = crawl_title or "Untitled Crawl"
         elif src_type == "✍️ Dán văn bản":
             default_proj_title = crawl_title or "Pasted Audio"
         else:
@@ -5374,7 +5472,10 @@ with tabs[12]:
 
         # ── Generate button ──────────────────────────────────────────
         can_generate = False
-        if src_type in ("🌐 Web URL (Crawl)", "✍️ Dán văn bản") and crawl_text:
+        if src_type == "🌐 Web URL (Crawl)":
+            if st.session_state.get('aud_crawled_chapters_list') or crawl_text.strip():
+                can_generate = True
+        elif src_type == "✍️ Dán văn bản" and crawl_text.strip():
             can_generate = True
         elif src_type == "🤖 Novel Agent (Translated)" and st.session_state.get('aud_na_texts'):
             can_generate = True
@@ -5406,7 +5507,15 @@ with tabs[12]:
                     st.stop()
 
             # Build list of (chapter_slug, chapter_title, text)
-            if db_src_type in ("web_crawler", "pasted_text"):
+            if db_src_type == "web_crawler":
+                if st.session_state.get('aud_crawled_chapters_list'):
+                    tasks = [
+                        (_slugify(item['title']), item['title'], item['full_text'])
+                        for item in st.session_state['aud_crawled_chapters_list']
+                    ]
+                else:
+                    tasks = [(_slugify(crawl_title or "chapter-1"), crawl_title or "Chapter 1", crawl_text)]
+            elif db_src_type == "pasted_text":
                 tasks = [(_slugify(crawl_title or "chapter-1"), crawl_title or "Chapter 1", crawl_text)]
             else:
                 tasks = [
@@ -5478,6 +5587,8 @@ with tabs[12]:
             st.info("👉 Chuyển sang tab **📻 Playlist & Player** để nghe.")
             # Clear crawl cache
             st.session_state.pop('aud_crawl_result', None)
+            st.session_state.pop('aud_series_data', None)
+            st.session_state.pop('aud_crawled_chapters_list', None)
             st.session_state.pop('aud_na_texts', None)
 
     # ╔══════════════════════════════════════════════════════════════╗
