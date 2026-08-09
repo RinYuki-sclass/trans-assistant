@@ -1,8 +1,10 @@
 """Novel chapter crawler for supported WordPress and Next.js sites."""
 
+import base64
+import codecs
 import json
 import re
-from urllib.parse import urlparse
+from urllib.parse import urlparse, unquote
 
 import httpx
 from bs4 import BeautifulSoup
@@ -355,6 +357,62 @@ def fetch_series_chapters(url_or_identifier: str) -> dict:
         }
 
 
+def _decode_cherrymist_ghost_content(soup: BeautifulSoup) -> BeautifulSoup | None:
+    """Decode Cherry Mist's \"ghost\" content protection.
+
+    The Fictioneer theme stores chapter content as an obfuscated payload
+    inside ``<script type="application/json">`` tags:
+
+    1. The HTML is URI-encoded (``encodeURIComponent``).
+    2. Then base64-encoded (``btoa``).
+    3. Then ROT13-rotated.
+    4. Split across ``data-<poly>-0``, ``data-<poly>-1``, … attributes.
+
+    The client-side JS reverses this on page load. We replicate that here.
+    """
+    ghost_script = None
+    for tag in soup.find_all("script", type="application/json"):
+        tag_id = tag.get("id") or ""
+        if tag_id.startswith("ghost_") and tag.get("data-poly"):
+            ghost_script = tag
+            break
+
+    if ghost_script is None:
+        return None
+
+    poly = ghost_script["data-poly"]
+    total = int(ghost_script.get("data-total", 0))
+    if total == 0:
+        return None
+
+    # Concatenate all data chunks
+    encoded = ""
+    for i in range(total):
+        chunk = ghost_script.get(f"data-{poly}-{i}", "")
+        encoded += chunk
+
+    if not encoded:
+        return None
+
+    try:
+        # Step 1: ROT13 decode
+        rot13_decoded = codecs.decode(encoded, "rot_13")
+
+        # Step 2: base64 decode
+        raw_bytes = base64.b64decode(rot13_decoded)
+
+        # Step 3: URI decode (the bytes are a percent-encoded UTF-8 string)
+        html_str = unquote(raw_bytes.decode("latin-1"))
+
+        fragment = BeautifulSoup(html_str, "html.parser")
+        if len(fragment.get_text(strip=True)) > 50:
+            return fragment
+    except Exception:
+        pass
+
+    return None
+
+
 def crawl_chapter(url: str) -> dict:
     """
     Crawl a single chapter page and return a clean structured dict.
@@ -413,12 +471,16 @@ def crawl_chapter(url: str) -> dict:
             "word_count": len(full_text.split()),
         }
 
-    html = _fetch_html(url)
+    html = _fetch_html(url, timeout=60)
     soup = BeautifulSoup(html, "html.parser")
 
     title = _extract_title(soup, url)
 
-    if hostname == "mistminthaven.com" or hostname.endswith(".mistminthaven.com"):
+    # Cherry Mist / Fictioneer "ghost" content protection:
+    # Content is ROT13 + base64 + URI-encoded, stored in data-a4f-N attributes
+    if hostname == "cherrymist.cafe" or hostname.endswith(".cherrymist.cafe"):
+        content_el = _decode_cherrymist_ghost_content(soup) or _extract_content(soup)
+    elif hostname == "mistminthaven.com" or hostname.endswith(".mistminthaven.com"):
         content_el = _extract_mistmint_next_content(soup) or _extract_content(soup)
     else:
         content_el = _extract_content(soup)
