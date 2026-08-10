@@ -5053,7 +5053,7 @@ with tabs[12]:
         _sys.path.insert(0, _audio_mod_dir)
 
     try:
-        from audio.db          import init_db, upsert_project, create_project, save_chapter, list_projects, list_chapters, save_playback_state, get_playback_state, get_latest_listened_chapter, get_latest_listened_all_projects, delete_chapter, delete_project
+        from audio.db          import init_db, upsert_project, create_project, update_project_source_url, save_chapter, list_projects, list_chapters, save_playback_state, get_playback_state, get_latest_listened_chapter, get_latest_listened_all_projects, delete_chapter, delete_project
         from audio.tts_engine  import synthesize_text, synthesize_sample, VOICE_NAMES, VOICES
         from audio.crawler     import crawl_chapter, fetch_series_chapters, _fetch_zenith_chapter_by_id_or_slug
         from audio.r2_uploader import upload_mp3, delete_mp3, ensure_playable_url
@@ -5153,6 +5153,7 @@ with tabs[12]:
                         st.session_state['aud_crawl_result'] = result
                         st.session_state.pop('aud_series_data', None)
                         st.session_state.pop('aud_crawled_chapters_list', None)
+                        st.session_state.pop('aud_chapter_list_source_url', None)
                         st.success(f"✅ Crawl thành công! **{result['title']}** – {result['word_count']:,} từ")
                     except Exception as _ce:
                         st.error(f"❌ Crawl thất bại: {_ce}")
@@ -5161,7 +5162,10 @@ with tabs[12]:
                 with st.spinner("Đang tải danh sách chương từ series…"):
                     try:
                         series_data = fetch_series_chapters(crawl_url)
+                        chapter_list_source_url = crawl_url.strip()
+                        series_data['source_url'] = chapter_list_source_url
                         st.session_state['aud_series_data'] = series_data
+                        st.session_state['aud_chapter_list_source_url'] = chapter_list_source_url
                         st.session_state.pop('aud_crawl_result', None)
                         st.session_state.pop('aud_crawled_chapters_list', None)
                         st.success(f"✅ Tìm thấy **{len(series_data['chapters'])}** chương trong series **{series_data['series_title']}**!")
@@ -5489,10 +5493,22 @@ with tabs[12]:
                 "✍️ Dán văn bản": "pasted_text",
                 "🤖 Novel Agent (Translated)": "novel_agent",
             }[src_type]
-            db_src_url  = crawl_url if db_src_type == "web_crawler" else None
+            # Save only the URL explicitly used by "Lấy Danh Sách Chương".
+            # A single crawled chapter URL is not a project-level source URL.
+            db_src_url = (
+                st.session_state.get('aud_chapter_list_source_url')
+                if db_src_type == "web_crawler"
+                else None
+            )
 
             if selected_save_project is not None:
                 proj = selected_save_project
+                if db_src_url:
+                    try:
+                        proj = update_project_source_url(proj.id, db_src_url)
+                    except Exception as _dbe:
+                        st.error(f"DB error khi lưu URL danh sách chương: {_dbe}")
+                        st.stop()
                 proj_slug = proj.project_slug
             else:
                 try:
@@ -5589,6 +5605,7 @@ with tabs[12]:
             st.session_state.pop('aud_crawl_result', None)
             st.session_state.pop('aud_series_data', None)
             st.session_state.pop('aud_crawled_chapters_list', None)
+            st.session_state.pop('aud_chapter_list_source_url', None)
             st.session_state.pop('aud_na_texts', None)
 
     # ╔══════════════════════════════════════════════════════════════╗
