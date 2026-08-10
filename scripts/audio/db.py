@@ -419,6 +419,25 @@ def list_projects() -> list[AudioProject]:
     return [_row_to_project(r) for r in rows]
 
 
+def update_project_source_url(project_id: int, source_url: str) -> AudioProject:
+    """Save the chapter-list source URL associated with an existing project."""
+    source_url = source_url.strip()
+    if not source_url:
+        raise ValueError("source_url must not be empty")
+
+    db = _get_db()
+    db.execute(
+        "UPDATE audio_projects SET source_url=? WHERE id=?",
+        [source_url, project_id],
+    )
+    if isinstance(db, _SQLiteClient):
+        db.commit()
+    row = db.fetch_one("SELECT * FROM audio_projects WHERE id=?", [project_id])
+    if row is None:
+        raise ValueError(f"Audio project not found: {project_id}")
+    return _row_to_project(row)
+
+
 def delete_project(project_id: int) -> None:
     db = _get_db()
     db.execute("DELETE FROM audio_projects WHERE id=?", [project_id])
