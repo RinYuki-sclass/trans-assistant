@@ -380,14 +380,15 @@ def upsert_project(
         )
     else:
         now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
-        db.execute(
-            "INSERT INTO audio_projects (title, source_type, source_url, project_slug, created_at) VALUES (?,?,?,?,?)",
+        row = db.fetch_one(
+            "INSERT INTO audio_projects (title, source_type, source_url, project_slug, created_at) "
+            "VALUES (?,?,?,?,?) RETURNING *",
             [title, source_type, source_url, project_slug, now],
         )
         if isinstance(db, _SQLiteClient):
             db.commit()
-        rowid = db.last_insert_rowid()
-        row = db.fetch_one("SELECT * FROM audio_projects WHERE id=?", [rowid])
+        if row is None:
+            raise RuntimeError("Database did not return the newly created audio project")
     return _row_to_project(row)
 
 
@@ -402,14 +403,15 @@ def create_project(
     base = project_slug or _slugify(title) or 'audio-project'
     slug = _unique_slug(base)
     now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
-    db.execute(
-        "INSERT INTO audio_projects (title, source_type, source_url, project_slug, created_at) VALUES (?,?,?,?,?)",
+    row = db.fetch_one(
+        "INSERT INTO audio_projects (title, source_type, source_url, project_slug, created_at) "
+        "VALUES (?,?,?,?,?) RETURNING *",
         [title, source_type, source_url, slug, now],
     )
     if isinstance(db, _SQLiteClient):
         db.commit()
-    rowid = db.last_insert_rowid()
-    row = db.fetch_one("SELECT * FROM audio_projects WHERE id=?", [rowid])
+    if row is None:
+        raise RuntimeError("Database did not return the newly created audio project")
     return _row_to_project(row)
 
 
@@ -475,14 +477,16 @@ def save_chapter(
         return _row_to_chapter(updated)
     else:
         now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
-        db.execute(
-            "INSERT INTO audio_chapters (project_id, chapter_number, chapter_slug, title, audio_url, duration_seconds, text_content, voice_label, word_count, created_at) VALUES (?,?,?,?,?,?,?,?,?,?)",
+        new_row = db.fetch_one(
+            "INSERT INTO audio_chapters "
+            "(project_id, chapter_number, chapter_slug, title, audio_url, duration_seconds, text_content, voice_label, word_count, created_at) "
+            "VALUES (?,?,?,?,?,?,?,?,?,?) RETURNING *",
             [project_id, chapter_number, chapter_slug, title, audio_url, duration_seconds, text_content, voice_label, word_count, now],
         )
         if isinstance(db, _SQLiteClient):
             db.commit()
-        rowid = db.last_insert_rowid()
-        new_row = db.fetch_one("SELECT * FROM audio_chapters WHERE id=?", [rowid])
+        if new_row is None:
+            raise RuntimeError("Database did not return the newly saved audio chapter")
         return _row_to_chapter(new_row)
 
 
