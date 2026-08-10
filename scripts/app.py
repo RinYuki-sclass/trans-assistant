@@ -5120,6 +5120,7 @@ with tabs[12]:
         crawl_title = ""
         crawl_url   = ""
         na_proj_slug = ""
+        selected_web_chapter_ids = None
 
         if src_type == "🌐 Web URL (Crawl)":
             crawl_site = st.selectbox(
@@ -5154,6 +5155,8 @@ with tabs[12]:
                         st.session_state['aud_crawl_result'] = result
                         st.session_state.pop('aud_series_data', None)
                         st.session_state.pop('aud_crawled_chapters_list', None)
+                        st.session_state.pop('aud_crawled_chapter_ids', None)
+                        st.session_state.pop('aud_sel_chapters_multiselect', None)
                         st.session_state.pop('aud_chapter_list_source_url', None)
                         st.success(f"✅ Crawl thành công! **{result['title']}** – {result['word_count']:,} từ")
                     except Exception as _ce:
@@ -5169,6 +5172,8 @@ with tabs[12]:
                         st.session_state['aud_chapter_list_source_url'] = chapter_list_source_url
                         st.session_state.pop('aud_crawl_result', None)
                         st.session_state.pop('aud_crawled_chapters_list', None)
+                        st.session_state.pop('aud_crawled_chapter_ids', None)
+                        st.session_state.pop('aud_sel_chapters_multiselect', None)
                         st.success(f"✅ Tìm thấy **{len(series_data['chapters'])}** chương trong series **{series_data['series_title']}**!")
                     except Exception as _se:
                         st.error(f"❌ Lấy danh sách chương thất bại: {_se}")
@@ -5190,15 +5195,17 @@ with tabs[12]:
                 sel_col1, sel_col2, sel_col3 = st.columns(3)
                 with sel_col1:
                     if st.button("Chọn 5 chương đầu", key="aud_sel_top5"):
-                        st.session_state['aud_selected_ch_keys'] = ch_options[:5]
+                        # Update the widget's own state. A separate key leaves the
+                        # multiselect stuck on its previous value after reruns.
+                        st.session_state['aud_sel_chapters_multiselect'] = ch_options[:5]
                 with sel_col2:
                     if st.button("Chọn 10 chương đầu", key="aud_sel_top10"):
-                        st.session_state['aud_selected_ch_keys'] = ch_options[:10]
+                        st.session_state['aud_sel_chapters_multiselect'] = ch_options[:10]
                 with sel_col3:
                     if st.button("Chọn tất cả chương", key="aud_sel_all"):
-                        st.session_state['aud_selected_ch_keys'] = ch_options
+                        st.session_state['aud_sel_chapters_multiselect'] = ch_options
 
-                default_sel = st.session_state.get('aud_selected_ch_keys', ch_options[:3] if ch_options else [])
+                default_sel = ch_options[:3] if ch_options else []
 
                 selected_keys = st.multiselect(
                     "Chọn các chương muốn crawl text để tạo audio:",
@@ -5206,6 +5213,7 @@ with tabs[12]:
                     default=default_sel,
                     key="aud_sel_chapters_multiselect",
                 )
+                selected_web_chapter_ids = [ch_mapping[k]['id'] for k in selected_keys]
 
                 if st.button("📥 Crawl Nội Dung Các Chương Đã Chọn", key="aud_crawl_selected_chs_btn", type="primary"):
                     if not selected_keys:
@@ -5236,6 +5244,9 @@ with tabs[12]:
                         prog_bar.empty()
                         if crawled_list:
                             st.session_state['aud_crawled_chapters_list'] = crawled_list
+                            st.session_state['aud_crawled_chapter_ids'] = [
+                                item['id'] for item in crawled_list
+                            ]
                             st.success(f"🎉 Đã crawl thành công **{len(crawled_list)}** chương!")
 
             if 'aud_crawled_chapters_list' in st.session_state:
@@ -5299,6 +5310,10 @@ with tabs[12]:
                                     all_texts.append((ch, _f.read()))
                             st.session_state['aud_na_texts'] = all_texts
                             st.success(f"✅ Đã load {len(sel_chs)} chương từ **{na_cfg.get('title', na_proj_slug)}**")
+                        else:
+                            # Do not synthesize a stale selection from a previous
+                            # project or an earlier multiselect value.
+                            st.session_state.pop('aud_na_texts', None)
 
         st.divider()
 
@@ -5478,7 +5493,15 @@ with tabs[12]:
         # ── Generate button ──────────────────────────────────────────
         can_generate = False
         if src_type == "🌐 Web URL (Crawl)":
-            if st.session_state.get('aud_crawled_chapters_list') or crawl_text.strip():
+            crawled_chapters = st.session_state.get('aud_crawled_chapters_list')
+            crawled_ids = st.session_state.get('aud_crawled_chapter_ids')
+            selection_matches_crawl = (
+                selected_web_chapter_ids is None
+                or crawled_ids == selected_web_chapter_ids
+            )
+            if crawled_chapters and not selection_matches_crawl:
+                st.warning("⚠️ Danh sách chương đã chọn đã thay đổi. Hãy crawl lại các chương đã chọn trước khi synthesize.")
+            if (crawled_chapters and selection_matches_crawl) or crawl_text.strip():
                 can_generate = True
         elif src_type == "✍️ Dán văn bản" and crawl_text.strip():
             can_generate = True
@@ -5557,6 +5580,8 @@ with tabs[12]:
 
             total_tasks = len(tasks)
             prog_bar = st.progress(0, text="Bắt đầu synthesis…")
+            completed_tasks = 0
+            failed_tasks = []
 
             for idx, (ch_slug, ch_title, ch_text) in enumerate(tasks):
                 prog_bar.progress(idx / total_tasks, text=f"🔊 Synthesizing: {ch_title}…")
@@ -5572,6 +5597,7 @@ with tabs[12]:
                     )
                 except Exception as _te:
                     st.error(f"❌ TTS thất bại cho `{ch_title}`: {_te}")
+                    failed_tasks.append(ch_title)
                     continue
 
                 prog_bar.progress((idx + 0.6) / total_tasks, text=f"☁️ Uploading to R2: {ch_title}…")
@@ -5579,13 +5605,14 @@ with tabs[12]:
                     audio_url = upload_mp3(mp3_bytes, proj_slug, ch_slug)
                 except Exception as _r2e:
                     st.error(f"❌ Upload R2 thất bại cho `{ch_title}`: {_r2e}")
+                    failed_tasks.append(ch_title)
                     continue
 
                 duration = _estimate_duration(mp3_bytes)
                 try:
                     save_chapter(
                         project_id=proj.id,
-                        chapter_number=next_chapter_number + idx,
+                        chapter_number=next_chapter_number + completed_tasks,
                         chapter_slug=ch_slug,
                         title=ch_title,
                         audio_url=audio_url,
@@ -5595,19 +5622,30 @@ with tabs[12]:
                         word_count=len(ch_text.split()),
                     )
                 except Exception as _se:
-                    st.warning(f"⚠️ Không lưu được metadata cho `{ch_title}`: {_se}")
+                    st.error(f"❌ Không lưu được metadata cho `{ch_title}`: {_se}")
+                    failed_tasks.append(ch_title)
+                    continue
 
+                completed_tasks += 1
                 prog_bar.progress((idx + 1) / total_tasks, text=f"✅ Xong: {ch_title}")
 
-            prog_bar.progress(1.0, text="✅ Hoàn thành tất cả!")
-            st.success(f"🎉 Đã tạo audio cho **{total_tasks}** chương và lưu lên Cloudflare R2!")
-            st.info("👉 Chuyển sang tab **📻 Playlist & Player** để nghe.")
-            # Clear crawl cache
-            st.session_state.pop('aud_crawl_result', None)
-            st.session_state.pop('aud_series_data', None)
-            st.session_state.pop('aud_crawled_chapters_list', None)
-            st.session_state.pop('aud_chapter_list_source_url', None)
-            st.session_state.pop('aud_na_texts', None)
+            if failed_tasks:
+                prog_bar.progress(1.0, text=f"⚠️ Hoàn thành {completed_tasks}/{total_tasks} chương")
+                st.warning(
+                    f"Đã tạo **{completed_tasks}/{total_tasks}** chương. "
+                    f"Thất bại: {', '.join(failed_tasks)}."
+                )
+            else:
+                prog_bar.progress(1.0, text="✅ Hoàn thành tất cả!")
+                st.success(f"🎉 Đã tạo audio cho **{completed_tasks}** chương và lưu lên Cloudflare R2!")
+                st.info("👉 Chuyển sang tab **📻 Playlist & Player** để nghe.")
+                # Only clear the batch after every selected chapter succeeds.
+                st.session_state.pop('aud_crawl_result', None)
+                st.session_state.pop('aud_series_data', None)
+                st.session_state.pop('aud_crawled_chapters_list', None)
+                st.session_state.pop('aud_crawled_chapter_ids', None)
+                st.session_state.pop('aud_chapter_list_source_url', None)
+                st.session_state.pop('aud_na_texts', None)
 
     # ╔══════════════════════════════════════════════════════════════╗
     # ║  SUB-TAB 1 – PLAYLIST & PLAYER                             ║
