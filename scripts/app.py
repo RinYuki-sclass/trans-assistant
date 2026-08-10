@@ -5124,7 +5124,7 @@ with tabs[12]:
         if src_type == "🌐 Web URL (Crawl)":
             crawl_site = st.selectbox(
                 "Website:",
-                ["Cherry Mist", "ZenithTL", "Hyacinth Bloom", "Mistmint Haven", "URL tùy chỉnh"],
+                ["Cherry Mist", "ZenithTL", "Hyacinth Bloom", "Mistmint Haven", "PIE NOVELS", "URL tùy chỉnh"],
                 key="aud_crawl_site",
             )
             crawl_presets = {
@@ -5132,6 +5132,7 @@ with tabs[12]:
                 "ZenithTL": "https://zenithtls.com/series/69c05aa00db09eb6934e5625",
                 "Hyacinth Bloom": "https://hyacinthbloom.com/series/earth-heros-retirement-project/",
                 "Mistmint Haven": "https://www.mistminthaven.com/novels/rolling-in-bed-with-the-male-lead",
+                "PIE NOVELS": "https://pienovels.com/novels/ill-raise-the-villain-who-killed-me/",
                 "URL tùy chỉnh": "",
             }
             crawl_url = st.text_input(
