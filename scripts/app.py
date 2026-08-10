@@ -5705,17 +5705,20 @@ audio{{width:100%;border-radius:8px;outline:none;margin-bottom:.6rem;accent-colo
 .btn:disabled{{opacity:.35;cursor:not-allowed}}
 .autoplay-wrap{{margin-left:auto;display:flex;align-items:center;gap:.35rem;font-size:.75rem;color:rgba(255,255,255,.6);cursor:pointer;user-select:none}}
 .autoplay-wrap input{{accent-color:#a78bfa;cursor:pointer}}
-.section-label{{font-size:.65rem;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.35);margin:.5rem 0 .3rem}}
+.section-label{{font-size:.65rem;letter-spacing:.1em;text-transform:uppercase;color:#64748b;margin:.5rem 0 .3rem}}
 .playlist{{display:flex;flex-direction:column;gap:.3rem}}
-.pl-item{{display:flex;align-items:center;gap:.6rem;padding:.45rem .75rem;border-radius:10px;cursor:pointer;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);transition:background .13s,border-color .13s}}
-.pl-item:hover{{background:rgba(255,255,255,.10);border-color:rgba(167,139,250,.4)}}
-.pl-item.active{{background:rgba(167,139,250,.18);border-color:#a78bfa}}
-.pl-icon{{font-size:.95rem;min-width:1.1rem;text-align:center}}
+.pl-item{{display:flex;align-items:center;gap:.6rem;padding:.45rem .75rem;border-radius:10px;background:#f8fafc;border:1px solid #e2e8f0;transition:background .13s,border-color .13s}}
+.pl-item:hover{{background:#f1f5f9;border-color:#c4b5fd}}
+.pl-item.active{{background:#ede9fe;border-color:#8b5cf6}}
+.pl-play{{display:inline-flex;align-items:center;justify-content:center;width:1.8rem;height:1.8rem;flex:0 0 1.8rem;border:1px solid #c4b5fd;border-radius:999px;background:#fff;color:#6d28d9;font-size:.78rem;cursor:pointer;transition:background .13s,color .13s,border-color .13s}}
+.pl-play:hover{{background:#7c3aed;color:#fff;border-color:#7c3aed}}
+.pl-play:focus-visible{{outline:2px solid #7c3aed;outline-offset:2px}}
+.pl-item.active .pl-play{{background:#7c3aed;color:#fff;border-color:#7c3aed}}
 .pl-info{{flex:1;min-width:0}}
-.pl-name{{font-size:.8rem;font-weight:600;color:#e0d7ff;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}}
-.pl-sub{{font-size:.68rem;color:rgba(255,255,255,.4);margin-top:.03rem}}
-.pl-dl{{font-size:.68rem;background:rgba(167,139,250,.22);color:#c4b5fd;border-radius:5px;padding:.1rem .4rem;white-space:nowrap;text-decoration:none}}
-.pl-dl:hover{{background:rgba(167,139,250,.4)}}
+.pl-name{{font-size:.8rem;font-weight:650;color:#1e293b;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}}
+.pl-sub{{font-size:.68rem;color:#64748b;margin-top:.03rem}}
+.pl-dl{{font-size:.68rem;background:#ede9fe;color:#6d28d9;border-radius:5px;padding:.1rem .4rem;white-space:nowrap;text-decoration:none}}
+.pl-dl:hover{{background:#ddd6fe}}
 </style></head><body>
 <div class="player-card">
   <div class="now-label">▶ NOW PLAYING</div>
@@ -5740,6 +5743,15 @@ audio{{width:100%;border-radius:8px;outline:none;margin-bottom:.6rem;accent-colo
   var cur={sel_ch_idx};
   var aud=document.getElementById('aud');
   function fmt(s){{s=Math.round(s||0);var m=Math.floor(s/60),r=s%60;return m+':'+(r<10?'0':'')+r;}}
+  function syncPlayButtons(){{
+    document.querySelectorAll('.pl-item').forEach(function(el,i){{
+      el.classList.toggle('active',i===cur);
+      var button=el.querySelector('.pl-play');
+      var isPlaying=i===cur&&!aud.paused;
+      button.textContent=isPlaying?'❚❚':'▶';
+      button.setAttribute('aria-label',(isPlaying?'Pause ':'Play ')+PL[i].title);
+    }});
+  }}
   function loadTrack(idx,play){{
     if(idx<0||idx>=PL.length)return;
     cur=idx;
@@ -5752,34 +5764,39 @@ audio{{width:100%;border-radius:8px;outline:none;margin-bottom:.6rem;accent-colo
     if(play){{aud.play().catch(function(){{}});}}
     document.getElementById('btn-prev').disabled=(idx===0);
     document.getElementById('btn-next').disabled=(idx===PL.length-1);
-    document.querySelectorAll('.pl-item').forEach(function(el,i){{el.classList.toggle('active',i===idx);el.querySelector('.pl-icon').textContent=i===idx?'▶️':'🎵';}});
-    // Scroll active item into view
-    var active=document.querySelector('.pl-item.active');
-    if(active){{active.scrollIntoView({{block:'nearest',behavior:'smooth'}});}}
+    syncPlayButtons();
   }}
   function playPrev(){{if(cur>0)loadTrack(cur-1,true);}}
   function playNext(){{if(cur<PL.length-1)loadTrack(cur+1,true);}}
   function seek(s){{aud.currentTime=Math.max(0,aud.currentTime+s);}}
   var speeds=[0.75,1.0,1.25,1.5,1.75,2.0],si=1;
   function cycleSpeed(){{si=(si+1)%speeds.length;aud.playbackRate=speeds[si];document.getElementById('btn-speed').textContent='🐇 '+speeds[si]+'×';}}
+  aud.addEventListener('play',syncPlayButtons);
+  aud.addEventListener('pause',syncPlayButtons);
   aud.addEventListener('ended',function(){{if(document.getElementById('chk-auto').checked)playNext();}});
   var pl=document.getElementById('playlist');
   PL.forEach(function(ch,i){{
     var el=document.createElement('div');
     el.className='pl-item';
-    el.innerHTML='<div class="pl-icon">🎵</div>'
+    el.innerHTML='<button type="button" class="pl-play">▶</button>'
       +'<div class="pl-info"><div class="pl-name">#'+ch.num+' '+ch.title+'</div>'
       +'<div class="pl-sub">⏱ '+fmt(ch.duration)+' · 📝 '+ch.words.toLocaleString()+' từ'+(ch.resume>2?' · ▶ '+fmt(ch.resume):'')+' </div></div>'
       +(ch.url?'<a class="pl-dl" href="'+ch.url+'" target="_blank" download onclick="event.stopPropagation()">⬇</a>':'');
-    el.addEventListener('click',function(){{loadTrack(i,true);}});
+    el.querySelector('.pl-play').setAttribute('aria-label','Play '+ch.title);
+    el.querySelector('.pl-play').addEventListener('click',function(){{
+      if(cur===i&&!aud.paused){{aud.pause();}}
+      else if(cur===i&&aud.src){{aud.play().catch(function(){{}});}}
+      else{{loadTrack(i,true);}}
+    }});
     pl.appendChild(el);
   }});
   loadTrack(cur,false);
 }})();
 </script>
 </body></html>"""
-                _player_h = min(720, 310 + len(chapters) * 58)
-                st.components.v1.html(player_html, height=_player_h, scrolling=True)
+                # Expand to the complete playlist instead of nesting a scrolling list.
+                _player_h = 310 + len(chapters) * 58
+                st.components.v1.html(player_html, height=_player_h, scrolling=False)
 
 
 
