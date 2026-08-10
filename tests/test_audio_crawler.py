@@ -10,7 +10,12 @@ from bs4 import BeautifulSoup
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(BASE_DIR, "scripts"))
 
-from audio.crawler import _extract_mistmint_next_content, _extract_paragraphs
+from audio.crawler import (
+    _extract_mistmint_next_content,
+    _extract_paragraphs,
+    _parse_hyacinth_series_chapters,
+    MistmintHavenCrawler,
+)
 
 
 class MistmintCrawlerTests(unittest.TestCase):
@@ -35,6 +40,89 @@ class MistmintCrawlerTests(unittest.TestCase):
         html = '<script>self.__next_f.push([1,"metadata only"])</script>'
         content = _extract_mistmint_next_content(BeautifulSoup(html, "html.parser"))
         self.assertIsNone(content)
+
+    def test_extracts_only_links_for_the_requested_novel(self):
+        crawler = MistmintHavenCrawler("rolling-in-bed-with-the-male-lead")
+        soup = BeautifulSoup(
+            """
+            <a href="/novels/rolling-in-bed-with-the-male-lead/chapter-2">Second</a>
+            <a href="/novels/another-novel/chapter-1">Wrong novel</a>
+            <a href="/novels/rolling-in-bed-with-the-male-lead/chapter-1"> Chapter 1 </a>
+            <a href="/novels/rolling-in-bed-with-the-male-lead/chapter-2">Duplicate</a>
+            """,
+            "html.parser",
+        )
+
+        chapters = crawler.extract_chapters_from_links(soup)
+
+        self.assertEqual([chapter["chapter_number"] for chapter in chapters], [1, 2])
+        self.assertEqual(chapters[0]["title"], "Chapter 1")
+        self.assertTrue(chapters[1]["url"].endswith("/chapter-2"))
+
+    def test_parses_volume_grouped_api_and_skips_hidden_or_non_numeric_entries(self):
+        crawler = MistmintHavenCrawler("rolling-in-bed-with-the-male-lead")
+        payload = {
+            "data": [{
+                "chapters": [
+                    {"slug": "chapter-prologue", "title": None, "isHidden": False},
+                    {"slug": "chapter-2", "title": "A New Day", "isHidden": False},
+                    {"slug": "chapter-1", "title": None, "isHidden": False},
+                    {"slug": "chapter-3", "title": None, "isHidden": True},
+                ]
+            }]
+        }
+
+        chapters = crawler._chapters_from_api_payload(payload)
+
+        self.assertEqual(
+            chapters,
+            [
+                {
+                    "chapter_number": 1,
+                    "title": "Chapter 1",
+                    "url": f"{crawler.novel_url}/chapter-1",
+                },
+                {
+                    "chapter_number": 2,
+                    "title": "Chapter 2: A New Day",
+                    "url": f"{crawler.novel_url}/chapter-2",
+                },
+            ],
+        )
+
+
+class HyacinthBloomSeriesTests(unittest.TestCase):
+    def test_extracts_deduplicates_and_sorts_chapter_links(self):
+        html = """
+        <html><body>
+          <h1 class="entry-title">Earth Hero's Retirement Project</h1>
+          <a href="/novel/chapter-2/">Ch. 2 The Second Chapter</a>
+          <a href="/novel/side-story-10/">Ch. Side Story 10 Rehabilitation (10)</a>
+          <a href="/novel/chapter-1/">Ch. 1 The First Chapter</a>
+          <a href="/novel/chapter-2/">Ch. 2 The Second Chapter</a>
+          <a href="/about/">About us</a>
+        </body></html>
+        """
+
+        result = _parse_hyacinth_series_chapters(
+            html,
+            "https://hyacinthbloom.com/series/earth-heros-retirement-project/",
+        )
+
+        self.assertEqual(result["series_title"], "Earth Hero's Retirement Project")
+        self.assertEqual(
+            [(chapter["chapter_number"], chapter["title"]) for chapter in result["chapters"]],
+            [
+                (1, "Ch. 1 The First Chapter"),
+                (2, "Ch. 2 The Second Chapter"),
+                (10, "Ch. Side Story 10 Rehabilitation (10)"),
+            ],
+        )
+        self.assertEqual(
+            result["chapters"][0]["url"],
+            "https://hyacinthbloom.com/novel/chapter-1/",
+        )
+        self.assertEqual(result["chapters"][2]["slug"], "side-story-10")
 
 
 if __name__ == "__main__":
