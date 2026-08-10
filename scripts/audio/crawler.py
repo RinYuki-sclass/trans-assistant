@@ -4,7 +4,8 @@ import base64
 import codecs
 import json
 import re
-from urllib.parse import urlparse, unquote
+import warnings
+from urllib.parse import urljoin, urlparse, unquote
 
 import httpx
 from bs4 import BeautifulSoup
@@ -259,6 +260,266 @@ def _fetch_cherrymist_series_chapters(url: str) -> dict:
     }
 
 
+_HYACINTH_CHAPTER_TITLE = re.compile(
+    r"^Ch\.\s*(?:(\d+)|Side Story\s+(\d+))\b",
+    re.IGNORECASE,
+)
+
+
+def _parse_hyacinth_series_chapters(html: str, series_url: str) -> dict:
+    """Parse a Hyacinth Bloom series page into the common chapter schema."""
+    soup = BeautifulSoup(html, "html.parser")
+    heading = (
+        soup.select_one("h1.entry-title")
+        or soup.select_one("h1.post-title")
+        or soup.find("h1")
+    )
+    series_title = heading.get_text(" ", strip=True) if heading else "Hyacinth Bloom Series"
+
+    chapters = []
+    seen_urls = set()
+    for link in soup.select("a[href]"):
+        title = link.get_text(" ", strip=True)
+        match = _HYACINTH_CHAPTER_TITLE.match(title)
+        if not match:
+            continue
+
+        chapter_url = urljoin(series_url, link["href"])
+        if chapter_url in seen_urls:
+            continue
+        seen_urls.add(chapter_url)
+
+        is_side_story = match.group(1) is None
+        chapter_number = int(match.group(1) or match.group(2))
+        chapters.append({
+            "id": chapter_url,
+            "chapter_number": chapter_number,
+            "title": title,
+            "slug": urlparse(chapter_url).path.rstrip("/").split("/")[-1],
+            "price": 0,
+            "url": chapter_url,
+            "_sort_key": (1 if is_side_story else 0, chapter_number),
+        })
+
+    chapters.sort(key=lambda chapter: chapter.pop("_sort_key"))
+    return {
+        "series_title": series_title.strip(),
+        "series_id": series_url,
+        "chapters": chapters,
+    }
+
+
+def _fetch_hyacinth_series_chapters(url: str) -> dict:
+    """Fetch a Hyacinth Bloom series page and its regular/side-story links."""
+    html = _fetch_html(url, timeout=30)
+    return _parse_hyacinth_series_chapters(html, url)
+
+
+class MistmintHavenCrawler:
+    """Discover and fetch the numeric chapter list for a Mistmint Haven novel."""
+
+    BASE_URL = "https://www.mistminthaven.com"
+    API_BASE_URL = "https://api.mistminthaven.com"
+
+    def __init__(self, novel_slug: str):
+        novel_slug = novel_slug.strip().strip("/")
+        if not novel_slug or "/" in novel_slug:
+            raise ValueError(f"Invalid Mistmint Haven novel slug: {novel_slug!r}")
+        self.novel_slug = novel_slug
+        self.novel_url = f"{self.BASE_URL}/novels/{novel_slug}"
+        self.headers = {
+            "User-Agent": (
+                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                "AppleWebKit/537.36 (KHTML, like Gecko) "
+                "Chrome/151.0.0.0 Safari/537.36"
+            ),
+            "Accept": "text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.8",
+            "Accept-Language": "en-US,en;q=0.9",
+            "type": "reader",
+        }
+
+    def fetch(self) -> str:
+        """Fetch the novel landing page for source inspection and title metadata."""
+        with httpx.Client(
+            headers=self.headers,
+            follow_redirects=True,
+            timeout=30.0,
+        ) as client:
+            response = client.get(self.novel_url)
+            response.raise_for_status()
+            return response.text
+
+    def inspect_html(self, html: str) -> tuple[str, object]:
+        """Select the best available chapter source in the required priority order."""
+        soup = BeautifulSoup(html, "html.parser")
+        chapters = self.extract_chapters_from_links(soup)
+        if chapters:
+            return "links", chapters
+
+        chapters = self.extract_chapters_from_embedded_data(soup)
+        if chapters:
+            return "embedded", chapters
+
+        return "api", self.discover_api(soup)
+
+    def extract_chapters_from_links(self, soup: BeautifulSoup) -> list[dict]:
+        """Extract confirmed numeric chapter links belonging to this novel only."""
+        chapters_by_url = {}
+        path_pattern = re.compile(
+            rf"^/novels/{re.escape(self.novel_slug)}/chapter-(\d+)/?$",
+            re.IGNORECASE,
+        )
+        for link in soup.select("a[href]"):
+            chapter_url = urljoin(self.BASE_URL, link["href"])
+            parsed = urlparse(chapter_url)
+            if parsed.scheme != "https" or parsed.netloc.lower() != "www.mistminthaven.com":
+                continue
+            match = path_pattern.match(parsed.path)
+            if not match:
+                continue
+            chapter_number = int(match.group(1))
+            title = " ".join(link.get_text(" ", strip=True).split())
+            chapters_by_url[chapter_url] = {
+                "chapter_number": chapter_number,
+                "title": title or f"Chapter {chapter_number}",
+                "url": chapter_url,
+            }
+        return sorted(chapters_by_url.values(), key=lambda chapter: chapter["chapter_number"])
+
+    def extract_chapters_from_embedded_data(self, soup: BeautifulSoup) -> list[dict]:
+        """Extract chapter URLs if a future site build embeds them in script data."""
+        candidates = []
+        escaped_slug = re.escape(self.novel_slug)
+        pattern = re.compile(
+            rf"(?:https://www\.mistminthaven\.com)?"
+            rf"(/novels/{escaped_slug}/chapter-(\d+)/?)",
+            re.IGNORECASE,
+        )
+        for script in soup.find_all("script"):
+            raw = script.string or script.get_text()
+            if not raw:
+                continue
+            raw = raw.replace(r"\/", "/")
+            for match in pattern.finditer(raw):
+                number = int(match.group(2))
+                candidates.append({
+                    "chapter_number": number,
+                    "title": f"Chapter {number}",
+                    "url": urljoin(self.BASE_URL, match.group(1)),
+                })
+        return self._deduplicate(candidates)
+
+    def discover_api(self, soup: BeautifulSoup | None = None) -> str:
+        """Return the public endpoint used by Mistmint Haven's novel-page client."""
+        return f"{self.API_BASE_URL}/api/novels/slug/{self.novel_slug}/chapters"
+
+    def extract_chapters_from_api(self, api_url: str) -> list[dict]:
+        """Fetch and normalize the volume-grouped chapter response from the site API."""
+        with httpx.Client(
+            headers=self.headers,
+            follow_redirects=True,
+            timeout=30.0,
+        ) as client:
+            response = client.get(
+                api_url,
+                headers={
+                    "Origin": self.BASE_URL,
+                    "Referer": f"{self.BASE_URL}/",
+                },
+            )
+            response.raise_for_status()
+            payload = response.json()
+        return self._chapters_from_api_payload(payload)
+
+    def _chapters_from_api_payload(self, payload: object) -> list[dict]:
+        chapters = []
+        volumes = payload.get("data", []) if isinstance(payload, dict) else []
+        for volume in volumes if isinstance(volumes, list) else []:
+            if not isinstance(volume, dict):
+                continue
+            for chapter in volume.get("chapters", []):
+                if not isinstance(chapter, dict) or chapter.get("isHidden"):
+                    continue
+                slug = str(chapter.get("slug") or "")
+                match = re.fullmatch(r"chapter-(\d+)", slug, re.IGNORECASE)
+                if not match:
+                    continue
+                chapter_number = int(match.group(1))
+                subtitle = " ".join(str(chapter.get("title") or "").split())
+                title = f"Chapter {chapter_number}"
+                if subtitle:
+                    title = f"{title}: {subtitle}"
+                chapters.append({
+                    "chapter_number": chapter_number,
+                    "title": title,
+                    "url": f"{self.novel_url}/{slug}",
+                })
+        return self._deduplicate(chapters)
+
+    @staticmethod
+    def _deduplicate(chapters: list[dict]) -> list[dict]:
+        chapters_by_url = {chapter["url"]: chapter for chapter in chapters}
+        return sorted(chapters_by_url.values(), key=lambda chapter: chapter["chapter_number"])
+
+    def validate(self, chapters: list[dict]) -> None:
+        if not chapters:
+            raise ValueError(f"No numeric chapters found for Mistmint Haven novel: {self.novel_slug}")
+
+        numbers = [chapter["chapter_number"] for chapter in chapters]
+        duplicate_numbers = sorted({number for number in numbers if numbers.count(number) > 1})
+        if duplicate_numbers:
+            warnings.warn(
+                "Duplicate chapter number(s): " + ", ".join(map(str, duplicate_numbers)),
+                stacklevel=2,
+            )
+
+        present = set(numbers)
+        missing = [number for number in range(min(numbers), max(numbers) + 1) if number not in present]
+        if missing:
+            warnings.warn(
+                "Missing chapter(s): " + ", ".join(map(str, missing)),
+                stacklevel=2,
+            )
+
+    def crawl(self) -> list[dict]:
+        html = self.fetch()
+        source, data = self.inspect_html(html)
+        chapters = data if source != "api" else self.extract_chapters_from_api(data)
+        self.validate(chapters)
+        return chapters
+
+
+def _fetch_mistmint_series_chapters(url: str) -> dict:
+    parsed = urlparse(url)
+    path_parts = [part for part in parsed.path.split("/") if part]
+    if "novels" not in path_parts or path_parts.index("novels") + 1 >= len(path_parts):
+        raise ValueError(f"Invalid Mistmint Haven novel URL: {url}")
+    slug = path_parts[path_parts.index("novels") + 1]
+    crawler = MistmintHavenCrawler(slug)
+    html = crawler.fetch()
+    soup = BeautifulSoup(html, "html.parser")
+    page_title = soup.title.get_text(" ", strip=True) if soup.title else slug.replace("-", " ").title()
+    series_title = re.sub(r"\s*\|\s*Mistmint Haven\s*$", "", page_title).strip()
+    source, data = crawler.inspect_html(html)
+    chapters = data if source != "api" else crawler.extract_chapters_from_api(data)
+    crawler.validate(chapters)
+    return {
+        "series_title": series_title,
+        "series_id": slug,
+        "chapters": [
+            {
+                "id": chapter["url"],
+                "chapter_number": chapter["chapter_number"],
+                "title": chapter["title"],
+                "slug": chapter["url"].rstrip("/").split("/")[-1],
+                "price": 0,
+                "url": chapter["url"],
+            }
+            for chapter in chapters
+        ],
+    }
+
+
 def fetch_series_chapters(url_or_identifier: str) -> dict:
     """
     Fetch series metadata and complete chapter list from ZenithTL, Cherry Mist, or supported sites.
@@ -282,6 +543,10 @@ def fetch_series_chapters(url_or_identifier: str) -> dict:
     hostname = (urlparse(url_or_identifier).hostname or "").lower()
     if hostname == "cherrymist.cafe" or hostname.endswith(".cherrymist.cafe"):
         return _fetch_cherrymist_series_chapters(url_or_identifier)
+    if hostname == "hyacinthbloom.com" or hostname.endswith(".hyacinthbloom.com"):
+        return _fetch_hyacinth_series_chapters(url_or_identifier)
+    if hostname == "mistminthaven.com" or hostname.endswith(".mistminthaven.com"):
+        return _fetch_mistmint_series_chapters(url_or_identifier)
 
     parsed = urlparse(url_or_identifier)
     path_parts = [p for p in parsed.path.split("/") if p]

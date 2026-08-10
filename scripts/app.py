@@ -5130,8 +5130,8 @@ with tabs[12]:
             crawl_presets = {
                 "Cherry Mist": "https://cherrymist.cafe/story/the-unruly-hero-became-younger/",
                 "ZenithTL": "https://zenithtls.com/series/69c05aa00db09eb6934e5625",
-                "Hyacinth Bloom": "https://hyacinthbloom.com/earth-heros-retirement-project/earth-heros-retirement-project-122/",
-                "Mistmint Haven": "https://www.mistminthaven.com/novels/rolling-in-bed-with-the-male-lead/chapter-1",
+                "Hyacinth Bloom": "https://hyacinthbloom.com/series/earth-heros-retirement-project/",
+                "Mistmint Haven": "https://www.mistminthaven.com/novels/rolling-in-bed-with-the-male-lead",
                 "URL tùy chỉnh": "",
             }
             crawl_url = st.text_input(
