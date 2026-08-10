@@ -14,6 +14,7 @@ from audio.crawler import (
     _extract_mistmint_next_content,
     _extract_paragraphs,
     _parse_hyacinth_series_chapters,
+    _parse_pienovels_series_chapters,
     MistmintHavenCrawler,
 )
 
@@ -123,6 +124,38 @@ class HyacinthBloomSeriesTests(unittest.TestCase):
             "https://hyacinthbloom.com/novel/chapter-1/",
         )
         self.assertEqual(result["chapters"][2]["slug"], "side-story-10")
+
+
+class PieNovelsSeriesTests(unittest.TestCase):
+    def test_extracts_paid_and_free_chapters_in_numeric_order(self):
+        html = """
+        <h1 class="single-novel-title">A Test Novel</h1>
+        <a class="paid-class2" href="/chapters/chapter-2-second-title/">
+          <span class="paid-span">160</span>
+          <p>Chapter 2: Second Title</p>
+          <span>6 months ago</span>
+        </a>
+        <a class="free-class" href="https://pienovels.com/chapters/chapter-1-first-title/">
+          <span>Free</span><p>Chapter 1: First Title</p>
+        </a>
+        <a href="https://other.example/chapters/chapter-3-wrong-site/">
+          <p>Chapter 3: Wrong Site</p>
+        </a>
+        <a href="/chapters/chapter-2-second-title/"><p>Chapter 2: Second Title</p></a>
+        """
+
+        result = _parse_pienovels_series_chapters(
+            html,
+            "https://pienovels.com/novels/a-test-novel/",
+        )
+
+        self.assertEqual(result["series_title"], "A Test Novel")
+        self.assertEqual(
+            [(chapter["chapter_number"], chapter["title"]) for chapter in result["chapters"]],
+            [(1, "First Title"), (2, "Second Title")],
+        )
+        self.assertEqual(result["chapters"][0]["price"], 0)
+        self.assertEqual(result["chapters"][1]["slug"], "chapter-2-second-title")
 
 
 if __name__ == "__main__":

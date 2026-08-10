@@ -15,6 +15,7 @@ from bs4 import BeautifulSoup
 _CONTENT_SELECTORS = [
     "div#chapter-content-text",  # Mistmint Haven hydrated DOM
     "div.chapter-content-text",
+    "div#chapterText",           # PIE NOVELS
     "div.chapter__content",      # Cherry Mist / Fictioneer
     "div#chapter-content",
     "div.fictioneer-chapter-text",
@@ -315,6 +316,85 @@ def _fetch_hyacinth_series_chapters(url: str) -> dict:
     return _parse_hyacinth_series_chapters(html, url)
 
 
+def _parse_pienovels_series_chapters(html: str, novel_url: str) -> dict:
+    """Parse a PIE NOVELS novel page into the common chapter schema."""
+    soup = BeautifulSoup(html, "html.parser")
+    heading = soup.select_one("h1.single-novel-title") or soup.find("h1")
+    series_title = (
+        heading.get_text(" ", strip=True)
+        if heading
+        else "PIE NOVELS Series"
+    )
+
+    chapters_by_url = {}
+    for link in soup.select('a[href*="/chapters/"]'):
+        chapter_url = urljoin(novel_url, link.get("href", "").strip())
+        parsed = urlparse(chapter_url)
+        if parsed.scheme != "https" or parsed.netloc.lower() != "pienovels.com":
+            continue
+        if not parsed.path.lower().startswith("/chapters/"):
+            continue
+
+        label_element = link.find("p")
+        label = (
+            label_element.get_text(" ", strip=True)
+            if label_element
+            else link.get_text(" ", strip=True)
+        )
+        number_match = re.search(r"\bChapter\s+(\d+)\b", label, re.IGNORECASE)
+        if not number_match:
+            number_match = re.search(
+                r"/chapters/chapter-(\d+)(?:-|/|$)",
+                chapter_url,
+                re.IGNORECASE,
+            )
+        if not number_match:
+            continue
+
+        chapter_number = int(number_match.group(1))
+        title = re.sub(
+            rf"^\s*Chapter\s+{chapter_number}\s*:?\s*",
+            "",
+            label,
+            flags=re.IGNORECASE,
+        ).strip()
+        if not title:
+            title = f"Chapter {chapter_number}"
+
+        paid_label = link.select_one(".paid-span")
+        price_match = re.search(r"\d+(?:\.\d+)?", paid_label.get_text(" ", strip=True)) if paid_label else None
+        price = float(price_match.group()) if price_match else 0
+        if price.is_integer():
+            price = int(price)
+
+        chapters_by_url[chapter_url] = {
+            "id": chapter_url,
+            "chapter_number": chapter_number,
+            "title": title,
+            "slug": parsed.path.rstrip("/").split("/")[-1],
+            "price": price,
+            "url": chapter_url,
+        }
+
+    chapters = sorted(
+        chapters_by_url.values(),
+        key=lambda chapter: chapter["chapter_number"],
+    )
+    if not chapters:
+        raise ValueError(f"No PIE NOVELS chapters found on: {novel_url}")
+    return {
+        "series_title": series_title.strip(),
+        "series_id": novel_url,
+        "chapters": chapters,
+    }
+
+
+def _fetch_pienovels_series_chapters(url: str) -> dict:
+    """Fetch a PIE NOVELS novel page and its server-rendered chapter list."""
+    html = _fetch_html(url, timeout=30)
+    return _parse_pienovels_series_chapters(html, url)
+
+
 class MistmintHavenCrawler:
     """Discover and fetch the numeric chapter list for a Mistmint Haven novel."""
 
@@ -547,6 +627,8 @@ def fetch_series_chapters(url_or_identifier: str) -> dict:
         return _fetch_hyacinth_series_chapters(url_or_identifier)
     if hostname == "mistminthaven.com" or hostname.endswith(".mistminthaven.com"):
         return _fetch_mistmint_series_chapters(url_or_identifier)
+    if hostname == "pienovels.com" or hostname.endswith(".pienovels.com"):
+        return _fetch_pienovels_series_chapters(url_or_identifier)
 
     parsed = urlparse(url_or_identifier)
     path_parts = [p for p in parsed.path.split("/") if p]
@@ -692,6 +774,13 @@ def crawl_chapter(url: str) -> dict:
         }
     """
     hostname = (urlparse(url).hostname or "").lower()
+
+    if hostname == "pienovels.com" or hostname.endswith(".pienovels.com"):
+        parsed = urlparse(url)
+        path_parts = [part for part in parsed.path.split("/") if part]
+        if "novels" in path_parts:
+            series_info = _fetch_pienovels_series_chapters(url)
+            return crawl_chapter(series_info["chapters"][0]["url"])
 
     if hostname == "cherrymist.cafe" or hostname.endswith(".cherrymist.cafe"):
         parsed = urlparse(url)
