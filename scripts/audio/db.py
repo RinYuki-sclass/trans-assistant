@@ -568,6 +568,31 @@ def delete_chapter(chapter_id: int) -> None:
         db.commit()
 
 
+def delete_chapters(project_id: int, chapter_ids: list[int]) -> int:
+    """Delete multiple chapters after verifying they all belong to the project."""
+    normalized_ids = list(dict.fromkeys(int(chapter_id) for chapter_id in chapter_ids))
+    if not normalized_ids:
+        return 0
+
+    db = _get_db()
+    placeholders = ",".join("?" for _ in normalized_ids)
+    rows = db.fetch(
+        f"SELECT id FROM audio_chapters WHERE project_id=? AND id IN ({placeholders})",
+        [project_id, *normalized_ids],
+    )
+    found_ids = {int(row["id"]) for row in rows}
+    if found_ids != set(normalized_ids):
+        raise ValueError("One or more chapters do not belong to this project")
+
+    db.execute(
+        f"DELETE FROM audio_chapters WHERE project_id=? AND id IN ({placeholders})",
+        [project_id, *normalized_ids],
+    )
+    if isinstance(db, _SQLiteClient):
+        db.commit()
+    return len(normalized_ids)
+
+
 # ── Playback State ────────────────────────────────────────────────────
 
 def save_playback_state(chapter_id: int, position_sec: float) -> None:
