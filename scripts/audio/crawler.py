@@ -53,9 +53,18 @@ def _fetch_html(url: str, timeout: int = 20) -> str:
             "Chrome/125.0.0.0 Safari/537.36"
         ),
         "Accept-Language": "en-US,en;q=0.9",
+        # PIE NOVELS/LiteSpeed occasionally leaves a stale keep-alive socket.
+        # Force each retry onto a fresh TCP/TLS connection.
+        "Connection": "close",
+        "Cache-Control": "no-cache",
     }
     timeout_config = httpx.Timeout(max(float(timeout), 60.0), connect=15.0)
-    with httpx.Client(follow_redirects=True, timeout=timeout_config) as client:
+    connection_limits = httpx.Limits(max_keepalive_connections=0, max_connections=10)
+    with httpx.Client(
+        follow_redirects=True,
+        timeout=timeout_config,
+        limits=connection_limits,
+    ) as client:
         resp = _get_with_retry(client, url, headers=headers)
         resp.raise_for_status()
         return resp.text
