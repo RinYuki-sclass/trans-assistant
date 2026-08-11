@@ -5056,7 +5056,7 @@ with tabs[12]:
         _sys.path.insert(0, _audio_mod_dir)
 
     try:
-        from audio.db          import init_db, upsert_project, create_project, update_project_source_url, save_chapter, save_chapter_summary, list_projects, list_chapters, save_playback_state, get_playback_state, get_latest_listened_chapter, get_latest_listened_all_projects, delete_chapter, delete_project
+        from audio.db          import init_db, upsert_project, create_project, update_project_source_url, save_chapter, save_chapter_summary, list_projects, list_chapters, save_playback_state, get_playback_state, get_latest_listened_chapter, get_latest_listened_all_projects, delete_chapter, delete_chapters, delete_project
         from audio.tts_engine  import synthesize_text, synthesize_sample, VOICE_NAMES, VOICES
         from audio.crawler     import crawl_chapter, fetch_series_chapters, _fetch_zenith_chapter_by_id_or_slug
         from audio.r2_uploader import upload_mp3, delete_mp3, ensure_playable_url
@@ -5922,6 +5922,12 @@ audio{{width:100%;border-radius:8px;outline:none;margin-bottom:.6rem;accent-colo
     # ╚══════════════════════════════════════════════════════════════╝
     with aud_sub[2]:
         st.markdown("### 🗂️ Quản lý Audio Projects")
+        bulk_delete_notice = st.session_state.pop("aud_bulk_delete_notice", None)
+        if bulk_delete_notice:
+            st.success(bulk_delete_notice)
+        bulk_delete_warning = st.session_state.pop("aud_bulk_delete_warning", None)
+        if bulk_delete_warning:
+            st.warning(bulk_delete_warning)
 
         # ── Create New Project Form ───────────────────────────────────
         with st.expander("➕ Tạo Audio Project Mới", expanded=False):
@@ -6012,6 +6018,89 @@ audio{{width:100%;border-radius:8px;outline:none;margin-bottom:.6rem;accent-colo
                                 st.rerun()
 
                     if proj_chapters:
+                        st.markdown("**Xóa nhiều chapters:**")
+                        bulk_select_key = f"aud_bulk_chapters_{proj.id}"
+                        bulk_chapter_ids = [ch.id for ch in proj_chapters]
+                        bulk_chapter_map = {ch.id: ch for ch in proj_chapters}
+                        bulk_col1, bulk_col2 = st.columns(2)
+                        with bulk_col1:
+                            if st.button("Chọn tất cả", key=f"aud_bulk_select_all_{proj.id}", use_container_width=True):
+                                st.session_state[bulk_select_key] = bulk_chapter_ids
+                        with bulk_col2:
+                            if st.button("Bỏ chọn", key=f"aud_bulk_clear_{proj.id}", use_container_width=True):
+                                st.session_state[bulk_select_key] = []
+
+                        selected_bulk_ids = st.multiselect(
+                            "Chọn chapters cần xóa:",
+                            bulk_chapter_ids,
+                            default=[],
+                            format_func=lambda chapter_id: (
+                                f"#{bulk_chapter_map[chapter_id].chapter_number} — "
+                                f"{bulk_chapter_map[chapter_id].title}"
+                            ),
+                            key=bulk_select_key,
+                        )
+                        confirm_bulk_key = f"aud_bulk_delete_confirm_{proj.id}"
+                        if st.button(
+                            f"🗑️ Xóa {len(selected_bulk_ids)} chapters đã chọn",
+                            key=f"aud_bulk_delete_{proj.id}",
+                            disabled=not selected_bulk_ids,
+                            use_container_width=True,
+                        ):
+                            st.session_state[confirm_bulk_key] = list(selected_bulk_ids)
+
+                        pending_bulk_ids = st.session_state.get(confirm_bulk_key, [])
+                        if pending_bulk_ids:
+                            pending_bulk_ids = [
+                                chapter_id for chapter_id in pending_bulk_ids
+                                if chapter_id in bulk_chapter_map
+                            ]
+                            st.warning(
+                                f"⚠️ Xác nhận xóa vĩnh viễn **{len(pending_bulk_ids)} chapters** "
+                                f"khỏi project **{proj.title}** và Cloudflare R2?"
+                            )
+                            confirm_col1, confirm_col2 = st.columns(2)
+                            with confirm_col1:
+                                if st.button(
+                                    "✅ Xác nhận xóa chapters",
+                                    key=f"aud_bulk_delete_ok_{proj.id}",
+                                    type="primary",
+                                    use_container_width=True,
+                                ):
+                                    r2_delete_failures = []
+                                    for chapter_id in pending_bulk_ids:
+                                        chapter = bulk_chapter_map[chapter_id]
+                                        try:
+                                            delete_mp3(proj.project_slug, chapter.chapter_slug)
+                                        except Exception as r2_delete_error:
+                                            r2_delete_failures.append(
+                                                f"{chapter.title}: {str(r2_delete_error)[:100]}"
+                                            )
+                                    try:
+                                        deleted_count = delete_chapters(proj.id, pending_bulk_ids)
+                                        st.session_state.pop(confirm_bulk_key, None)
+                                        st.session_state.pop(bulk_select_key, None)
+                                        st.session_state["aud_bulk_delete_notice"] = (
+                                            f"Đã xóa {deleted_count} chapters khỏi project {proj.title}."
+                                        )
+                                        if r2_delete_failures:
+                                            st.session_state["aud_bulk_delete_warning"] = (
+                                                "Metadata DB đã xóa nhưng một số file R2 không xóa được: "
+                                                + "; ".join(r2_delete_failures)
+                                            )
+                                        st.rerun()
+                                    except Exception as bulk_delete_error:
+                                        st.error(f"Không thể xóa chapters trong DB: {bulk_delete_error}")
+                            with confirm_col2:
+                                if st.button(
+                                    "❌ Hủy",
+                                    key=f"aud_bulk_delete_cancel_{proj.id}",
+                                    use_container_width=True,
+                                ):
+                                    st.session_state.pop(confirm_bulk_key, None)
+                                    st.rerun()
+
+                        st.divider()
                         st.markdown("**Chapters:**")
                         for ch in proj_chapters:
                             c_title, c_url, c_del = st.columns([4, 3, 1])

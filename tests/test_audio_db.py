@@ -136,6 +136,37 @@ class AudioProjectSourceUrlTests(unittest.TestCase):
             self.assertIsNotNone(updated.summarized_at)
             db._conn.close()
 
+    def test_bulk_delete_is_scoped_to_project(self):
+        with tempfile.TemporaryDirectory() as temp_dir:
+            db = audio_db._SQLiteClient(Path(temp_dir) / "audio.db")
+            with patch.object(audio_db, "_get_db", return_value=db):
+                audio_db.init_db()
+                project_a = audio_db.create_project("Project A", "web_crawler")
+                project_b = audio_db.create_project("Project B", "web_crawler")
+                chapter_a1 = audio_db.save_chapter(
+                    project_a.id, 1, "a-1", "A1", "https://a1", 10, "Text", "Voice", 1
+                )
+                chapter_a2 = audio_db.save_chapter(
+                    project_a.id, 2, "a-2", "A2", "https://a2", 10, "Text", "Voice", 1
+                )
+                chapter_b1 = audio_db.save_chapter(
+                    project_b.id, 1, "b-1", "B1", "https://b1", 10, "Text", "Voice", 1
+                )
+
+                with self.assertRaises(ValueError):
+                    audio_db.delete_chapters(project_a.id, [chapter_a1.id, chapter_b1.id])
+
+                deleted = audio_db.delete_chapters(
+                    project_a.id, [chapter_a1.id, chapter_a2.id, chapter_a1.id]
+                )
+                remaining_a = audio_db.list_chapters(project_a.id)
+                remaining_b = audio_db.list_chapters(project_b.id)
+
+            self.assertEqual(deleted, 2)
+            self.assertEqual(remaining_a, [])
+            self.assertEqual([chapter.id for chapter in remaining_b], [chapter_b1.id])
+            db._conn.close()
+
 
 if __name__ == "__main__":
     unittest.main()
