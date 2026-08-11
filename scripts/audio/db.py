@@ -55,7 +55,9 @@ class AudioProject:
     source_type: str
     source_url: str | None
     project_slug: str
+    pronunciation_map: str | None = None
     created_at: datetime | None = None
+
 
 
 @dataclass
@@ -254,12 +256,13 @@ def _build_db() -> "_TursoClient | _SQLiteClient":
 
 _DDL = [
     """CREATE TABLE IF NOT EXISTS audio_projects (
-        id           INTEGER PRIMARY KEY AUTOINCREMENT,
-        title        TEXT    NOT NULL,
-        source_type  TEXT    NOT NULL DEFAULT 'web_crawler',
-        source_url   TEXT,
-        project_slug TEXT    NOT NULL UNIQUE,
-        created_at   TEXT    DEFAULT (strftime('%Y-%m-%dT%H:%M:%SZ','now'))
+        id                INTEGER PRIMARY KEY AUTOINCREMENT,
+        title             TEXT    NOT NULL,
+        source_type       TEXT    NOT NULL DEFAULT 'web_crawler',
+        source_url        TEXT,
+        project_slug      TEXT    NOT NULL UNIQUE,
+        pronunciation_map TEXT,
+        created_at        TEXT    DEFAULT (strftime('%Y-%m-%dT%H:%M:%SZ','now'))
     )""",
     """CREATE TABLE IF NOT EXISTS audio_chapters (
         id               INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -292,7 +295,7 @@ def init_db() -> None:
     db = _get_db()
     for ddl in _DDL:
         db.execute(ddl)
-    # Lightweight forward migration for databases created before summaries.
+    # Lightweight forward migration for databases created before summaries / pronunciation.
     chapter_columns = {row["name"] for row in db.fetch("PRAGMA table_info(audio_chapters)")}
     for column_name, column_type in (
         ("summary_text", "TEXT"),
@@ -304,9 +307,17 @@ def init_db() -> None:
             try:
                 db.execute(f"ALTER TABLE audio_chapters ADD COLUMN {column_name} {column_type}")
             except Exception as exc:
-                # Another Streamlit session may have completed the same migration.
                 if "duplicate column" not in str(exc).lower():
                     raise
+
+    project_columns = {row["name"] for row in db.fetch("PRAGMA table_info(audio_projects)")}
+    if "pronunciation_map" not in project_columns:
+        try:
+            db.execute("ALTER TABLE audio_projects ADD COLUMN pronunciation_map TEXT")
+        except Exception as exc:
+            if "duplicate column" not in str(exc).lower():
+                raise
+
     if isinstance(db, _SQLiteClient):
         db.commit()
 
@@ -333,8 +344,10 @@ def _row_to_project(row: dict) -> AudioProject:
         source_type=row["source_type"],
         source_url=row.get("source_url"),
         project_slug=row["project_slug"],
+        pronunciation_map=row.get("pronunciation_map"),
         created_at=_parse_dt(row.get("created_at")),
     )
+
 
 
 def _row_to_chapter(row: dict) -> AudioChapter:
@@ -467,11 +480,27 @@ def update_project_source_url(project_id: int, source_url: str) -> AudioProject:
     return _row_to_project(row)
 
 
+def update_project_pronunciation_map(project_id: int, pronunciation_map: str) -> AudioProject:
+    """Save custom pronunciation map text for an audio project."""
+    db = _get_db()
+    db.execute(
+        "UPDATE audio_projects SET pronunciation_map=? WHERE id=?",
+        [pronunciation_map, project_id],
+    )
+    if isinstance(db, _SQLiteClient):
+        db.commit()
+    row = db.fetch_one("SELECT * FROM audio_projects WHERE id=?", [project_id])
+    if row is None:
+        raise ValueError(f"Audio project not found: {project_id}")
+    return _row_to_project(row)
+
+
 def delete_project(project_id: int) -> None:
     db = _get_db()
     db.execute("DELETE FROM audio_projects WHERE id=?", [project_id])
     if isinstance(db, _SQLiteClient):
         db.commit()
+
 
 
 # ── Chapters ──────────────────────────────────────────────────────────

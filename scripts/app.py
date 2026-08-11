@@ -5056,7 +5056,7 @@ with tabs[12]:
         _sys.path.insert(0, _audio_mod_dir)
 
     try:
-        from audio.db          import init_db, upsert_project, create_project, update_project_source_url, save_chapter, save_chapter_summary, list_projects, list_chapters, save_playback_state, get_playback_state, get_latest_listened_chapter, get_latest_listened_all_projects, delete_chapter, delete_chapters, delete_project
+        from audio.db          import init_db, upsert_project, create_project, update_project_source_url, update_project_pronunciation_map, save_chapter, save_chapter_summary, list_projects, list_chapters, save_playback_state, get_playback_state, get_latest_listened_chapter, get_latest_listened_all_projects, delete_chapter, delete_chapters, delete_project
         from audio.tts_engine  import synthesize_text, synthesize_sample, VOICE_NAMES, VOICES
         from audio.crawler     import crawl_chapter, fetch_series_chapters, _fetch_zenith_chapter_by_id_or_slug
         from audio.r2_uploader import upload_mp3, delete_mp3, ensure_playable_url
@@ -5353,10 +5353,13 @@ with tabs[12]:
             )
             st.caption("Bảng thay thế phát âm tên riêng (Mỗi dòng một cặp: `TênGốc => CáchĐọcĐúng`):")
 
-            # ── Determine default map text (per-project if Novel Agent) ──
+            # ── Determine default map text (per-project if Novel Agent or Audio Project) ──
             _is_na = src_type == "🤖 Novel Agent (Translated)" and na_proj_slug
+            _aud_projs = list_projects() if not _is_na else []
+            _aud_map_proj = None
+
             if _is_na:
-                # 1) Try loading saved pronunciation map for this project
+                # 1) Try loading saved pronunciation map for Novel Agent project
                 _saved_map = na_load_pronunciation_map(na_proj_slug)
                 if _saved_map:
                     default_map_text = _saved_map
@@ -5376,15 +5379,28 @@ with tabs[12]:
                         pass
                     if not default_map_text:
                         default_map_text = "Hyunjae => Hyeon-jae\nTaewon => Tae-won\nCheon => Chun\nAhin => Ah-hin"
+                _map_widget_key = f"aud_custom_name_map_raw_na_{na_proj_slug}"
+            elif _aud_projs:
+                _selected_proj_idx = st.selectbox(
+                    "Lưu / tải Pronunciation Map cho Audio Project:",
+                    range(len(_aud_projs)),
+                    format_func=lambda i: f"📂 {_aud_projs[i].title}" + (" (Đã lưu map)" if _aud_projs[i].pronunciation_map else " (Chưa có map)"),
+                    key="aud_map_proj_selector",
+                )
+                _aud_map_proj = _aud_projs[_selected_proj_idx]
+                _saved_map = _aud_map_proj.pronunciation_map
+                _map_is_new = not bool(_saved_map)
+                default_map_text = _saved_map if _saved_map else "Hyunjae => Hyeon-jae\nTaewon => Tae-won\nCheon => Chun\nAhin => Ah-hin"
+                _map_widget_key = f"aud_custom_name_map_raw_ap_{_aud_map_proj.id}"
             else:
                 default_map_text = "Hyunjae => Hyeon-jae\nTaewon => Tae-won\nCheon => Chun\nAhin => Ah-hin"
                 _map_is_new = False
-
-            # Use a per-project widget key so switching projects resets the textarea
-            _map_widget_key = f"aud_custom_name_map_raw_{na_proj_slug}" if _is_na else "aud_custom_name_map_raw"
+                _map_widget_key = "aud_custom_name_map_raw"
 
             if _is_na and _map_is_new:
                 st.info("💡 Chưa có pronunciation map cho project này. Đã seed từ danh sách nhân vật — chỉnh sửa rồi nhấn **Lưu** để lưu lại.")
+            elif not _is_na and _aud_map_proj and _map_is_new:
+                st.info(f"💡 Chưa có pronunciation map riêng cho Audio Project **{_aud_map_proj.title}**. Chỉnh sửa rồi nhấn **Lưu** để lưu lại.")
 
             custom_name_map_raw = st.text_area(
                 "Định dạng: `TênGốc => CáchĐọcPhátÂm`",
@@ -5407,6 +5423,20 @@ with tabs[12]:
                 with _status_col:
                     if not _map_is_new:
                         st.caption(f"📂 Map đã lưu · project: **{_proj_label}**")
+            elif _aud_map_proj:
+                _save_col, _status_col = st.columns([2, 3])
+                with _save_col:
+                    if st.button(
+                        "💾 Lưu pronunciation map",
+                        key=f"aud_save_pron_map_ap_{_aud_map_proj.id}",
+                        use_container_width=True,
+                    ):
+                        update_project_pronunciation_map(_aud_map_proj.id, custom_name_map_raw)
+                        st.success(f"✅ Đã lưu pronunciation map cho Audio Project **{_aud_map_proj.title}**")
+                        st.rerun()
+                with _status_col:
+                    if not _map_is_new:
+                        st.caption(f"📂 Map đã lưu · Audio Project: **{_aud_map_proj.title}**")
 
         def _parse_custom_name_map(raw_text: str) -> dict[str, str]:
             mapping = {}
@@ -5570,6 +5600,12 @@ with tabs[12]:
                 except Exception as _dbe:
                     st.error(f"DB error khi tạo project: {_dbe}")
                     st.stop()
+
+            if custom_name_map_raw and proj:
+                try:
+                    update_project_pronunciation_map(proj.id, custom_name_map_raw)
+                except Exception:
+                    pass
 
             # Build list of (chapter_slug, chapter_title, text)
             if db_src_type == "web_crawler":
@@ -5991,6 +6027,18 @@ audio{{width:100%;border-radius:8px;outline:none;margin-bottom:.6rem;accent-colo
                             pos_m, pos_s = int(pos // 60), int(pos % 60)
                             pos_str = f"{pos_m}:{pos_s:02d}" if pos > 2 else "Đầu chương"
                             st.caption(f"🎧 Lần nghe gần nhất: **Chương #{num} – {title}** (`{pos_str}`)")
+
+                    with st.expander("🗣️ Sửa phát âm tên nhân vật (Pronunciation Map)", expanded=False):
+                        proj_map_text = st.text_area(
+                            "Quy tắc thay thế phát âm (`TênGốc => CáchĐọcPhátÂm`):",
+                            value=proj.pronunciation_map or "",
+                            height=120,
+                            key=f"mgr_pron_map_{proj.id}",
+                        )
+                        if st.button("💾 Lưu pronunciation map", key=f"mgr_save_pron_map_{proj.id}"):
+                            update_project_pronunciation_map(proj.id, proj_map_text)
+                            st.success(f"✅ Đã lưu pronunciation map cho **{proj.title}**")
+                            st.rerun()
 
                     with col_del:
                         if st.button("🗑️ Xóa project", key=f"aud_del_proj_{proj.id}",
