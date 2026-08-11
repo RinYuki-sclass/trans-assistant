@@ -3,7 +3,9 @@
 import os
 import sys
 import unittest
+from unittest.mock import Mock, patch
 
+import httpx
 from bs4 import BeautifulSoup
 
 
@@ -13,10 +15,49 @@ sys.path.insert(0, os.path.join(BASE_DIR, "scripts"))
 from audio.crawler import (
     _extract_mistmint_next_content,
     _extract_paragraphs,
+    _get_with_retry,
     _parse_hyacinth_series_chapters,
     _parse_pienovels_series_chapters,
     MistmintHavenCrawler,
 )
+
+
+class HttpRetryTests(unittest.TestCase):
+    @patch("audio.crawler.time.sleep")
+    def test_retries_timeout_then_returns_response(self, sleep_mock):
+        response = Mock(status_code=200, headers={})
+        client = Mock()
+        client.get.side_effect = [
+            httpx.ReadTimeout("timed out"),
+            httpx.ConnectError("temporary network error"),
+            response,
+        ]
+
+        result = _get_with_retry(client, "https://example.com/chapters")
+
+        self.assertIs(result, response)
+        self.assertEqual(client.get.call_count, 3)
+        self.assertEqual(sleep_mock.call_count, 2)
+
+    @patch("audio.crawler.time.sleep")
+    def test_retries_transient_http_status(self, sleep_mock):
+        busy = Mock(status_code=503, headers={})
+        success = Mock(status_code=200, headers={})
+        client = Mock()
+        client.get.side_effect = [busy, success]
+
+        result = _get_with_retry(client, "https://example.com/chapters")
+
+        self.assertIs(result, success)
+        sleep_mock.assert_called_once()
+
+    @patch("audio.crawler.time.sleep")
+    def test_timeout_error_identifies_host_and_attempt_count(self, _sleep_mock):
+        client = Mock()
+        client.get.side_effect = httpx.ReadTimeout("timed out")
+
+        with self.assertRaisesRegex(TimeoutError, r"example\.com.*3 lần thử"):
+            _get_with_retry(client, "https://example.com/chapters")
 
 
 class MistmintCrawlerTests(unittest.TestCase):

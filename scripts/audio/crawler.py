@@ -4,6 +4,7 @@ import base64
 import codecs
 import json
 import re
+import time
 import warnings
 from urllib.parse import urljoin, urlparse, unquote
 
@@ -53,8 +54,9 @@ def _fetch_html(url: str, timeout: int = 20) -> str:
         ),
         "Accept-Language": "en-US,en;q=0.9",
     }
-    with httpx.Client(follow_redirects=True, timeout=timeout) as client:
-        resp = client.get(url, headers=headers)
+    timeout_config = httpx.Timeout(max(float(timeout), 60.0), connect=15.0)
+    with httpx.Client(follow_redirects=True, timeout=timeout_config) as client:
+        resp = _get_with_retry(client, url, headers=headers)
         resp.raise_for_status()
         return resp.text
 
@@ -195,10 +197,14 @@ def parse_lexical(node: dict) -> list[str]:
 def _fetch_zenith_chapter_by_id_or_slug(chapter_id_or_slug: str) -> tuple[str, list[str]]:
     """Fetch ZenithTL chapter title and paragraphs by ID or slug."""
     headers = {"User-Agent": "Mozilla/5.0"}
-    with httpx.Client(headers=headers, timeout=20) as client:
+    with httpx.Client(
+        headers=headers,
+        follow_redirects=True,
+        timeout=httpx.Timeout(60.0, connect=15.0),
+    ) as client:
         # Direct ID endpoint
         if re.match(r"^[a-f0-9]{24}$", chapter_id_or_slug, re.IGNORECASE):
-            r = client.get(f"https://zenithtls.com/api/chapters/{chapter_id_or_slug}")
+            r = _get_with_retry(client, f"https://zenithtls.com/api/chapters/{chapter_id_or_slug}")
             if r.status_code == 200:
                 d = r.json()
                 title = d.get("title") or f"Chapter {d.get('chapterNumber', '')}"
@@ -206,7 +212,7 @@ def _fetch_zenith_chapter_by_id_or_slug(chapter_id_or_slug: str) -> tuple[str, l
                 return title, paragraphs
 
         # Slug endpoint
-        r = client.get(f"https://zenithtls.com/api/chapters?where[slug][equals]={chapter_id_or_slug}")
+        r = _get_with_retry(client, f"https://zenithtls.com/api/chapters?where[slug][equals]={chapter_id_or_slug}")
         if r.status_code == 200 and r.json().get("docs"):
             d = r.json()["docs"][0]
             title = d.get("title") or f"Chapter {d.get('chapterNumber', '')}"
@@ -265,6 +271,44 @@ _HYACINTH_CHAPTER_TITLE = re.compile(
     r"^Ch\.\s*(?:(\d+)|Side Story\s+(\d+))\b",
     re.IGNORECASE,
 )
+
+_RETRYABLE_STATUS_CODES = {429, 500, 502, 503, 504}
+
+
+def _get_with_retry(
+    client: httpx.Client,
+    url: str,
+    *,
+    attempts: int = 3,
+    **kwargs,
+) -> httpx.Response:
+    """GET with short backoff for transient network/server failures."""
+    if attempts < 1:
+        raise ValueError("attempts must be at least 1")
+
+    hostname = urlparse(url).hostname or url
+    last_error: Exception | None = None
+    for attempt in range(attempts):
+        try:
+            response = client.get(url, **kwargs)
+            if response.status_code not in _RETRYABLE_STATUS_CODES or attempt == attempts - 1:
+                return response
+            retry_after = response.headers.get("Retry-After", "")
+            try:
+                wait_seconds = min(5.0, max(0.0, float(retry_after)))
+            except ValueError:
+                wait_seconds = 0.75 * (2 ** attempt)
+        except (httpx.TimeoutException, httpx.NetworkError) as exc:
+            last_error = exc
+            if attempt == attempts - 1:
+                raise TimeoutError(
+                    f"{hostname} không phản hồi sau {attempts} lần thử. "
+                    "Vui lòng thử lại sau hoặc kiểm tra website nguồn."
+                ) from exc
+            wait_seconds = 0.75 * (2 ** attempt)
+        time.sleep(wait_seconds)
+
+    raise TimeoutError(f"Không thể kết nối tới {hostname}") from last_error
 
 
 def _parse_hyacinth_series_chapters(html: str, series_url: str) -> dict:
@@ -423,9 +467,9 @@ class MistmintHavenCrawler:
         with httpx.Client(
             headers=self.headers,
             follow_redirects=True,
-            timeout=30.0,
+            timeout=httpx.Timeout(60.0, connect=15.0),
         ) as client:
-            response = client.get(self.novel_url)
+            response = _get_with_retry(client, self.novel_url)
             response.raise_for_status()
             return response.text
 
@@ -498,9 +542,10 @@ class MistmintHavenCrawler:
         with httpx.Client(
             headers=self.headers,
             follow_redirects=True,
-            timeout=30.0,
+            timeout=httpx.Timeout(60.0, connect=15.0),
         ) as client:
-            response = client.get(
+            response = _get_with_retry(
+                client,
                 api_url,
                 headers={
                     "Origin": self.BASE_URL,
@@ -645,18 +690,22 @@ def fetch_series_chapters(url_or_identifier: str) -> dict:
         series_id = url_or_identifier.strip()
 
     headers = {"User-Agent": "Mozilla/5.0"}
-    with httpx.Client(headers=headers, timeout=20) as client:
+    with httpx.Client(
+        headers=headers,
+        follow_redirects=True,
+        timeout=httpx.Timeout(60.0, connect=15.0),
+    ) as client:
         novel_data = None
 
         # Lookup by 24-char hex ID
         if re.match(r"^[a-f0-9]{24}$", series_id, re.IGNORECASE):
-            r = client.get(f"https://zenithtls.com/api/novels/{series_id}")
+            r = _get_with_retry(client, f"https://zenithtls.com/api/novels/{series_id}")
             if r.status_code == 200:
                 novel_data = r.json()
 
         # Search by slug
         if not novel_data:
-            r = client.get(f"https://zenithtls.com/api/novels?where[slug][equals]={series_id}")
+            r = _get_with_retry(client, f"https://zenithtls.com/api/novels?where[slug][equals]={series_id}")
             if r.status_code == 200 and r.json().get("docs"):
                 novel_data = r.json()["docs"][0]
 
@@ -669,7 +718,7 @@ def fetch_series_chapters(url_or_identifier: str) -> dict:
         all_chapters = []
         page = 1
         while True:
-            r = client.get(f"https://zenithtls.com/api/chapters?where[novel][equals]={novel_id}&limit=100&page={page}")
+            r = _get_with_retry(client, f"https://zenithtls.com/api/chapters?where[novel][equals]={novel_id}&limit=100&page={page}")
             r.raise_for_status()
             data = r.json()
             docs = data.get("docs", [])
