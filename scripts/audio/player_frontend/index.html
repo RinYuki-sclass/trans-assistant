@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <style>
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{font-family:'Segoe UI',sans-serif;background:transparent;color:#fff;padding:2px}
+    .player-card{background:linear-gradient(135deg,#0f0c29,#302b63,#24243e);border-radius:16px;padding:1.2rem 1.5rem 1rem;margin-bottom:.9rem;box-shadow:0 8px 32px rgba(0,0,0,.45)}
+    .now-label{font-size:.65rem;letter-spacing:.12em;text-transform:uppercase;color:#a78bfa;margin-bottom:.2rem}
+    .np-title{font-size:1rem;font-weight:700;color:#e0d7ff;margin-bottom:.15rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+    .np-meta{font-size:.72rem;color:rgba(255,255,255,.45);margin-bottom:.75rem}
+    audio{width:100%;border-radius:8px;outline:none;margin-bottom:.6rem;accent-color:#a78bfa}
+    .controls{display:flex;gap:.4rem;flex-wrap:wrap;align-items:center}
+    .btn{background:rgba(255,255,255,.10);border:1px solid rgba(255,255,255,.18);border-radius:8px;color:#fff;padding:.28rem .7rem;cursor:pointer;font-size:.76rem;transition:background .15s;white-space:nowrap;text-decoration:none}
+    .btn:hover{background:rgba(255,255,255,.22)}
+    .btn:disabled{opacity:.35;cursor:not-allowed}
+    .autoplay-wrap{margin-left:auto;display:flex;align-items:center;gap:.35rem;font-size:.75rem;color:rgba(255,255,255,.6);cursor:pointer;user-select:none}
+    .autoplay-wrap input{accent-color:#a78bfa;cursor:pointer}
+    .section-label{font-size:.65rem;letter-spacing:.1em;text-transform:uppercase;color:#64748b;margin:.5rem 0 .3rem}
+    .playlist{display:flex;flex-direction:column;gap:.3rem}
+    .pl-item{display:flex;align-items:center;gap:.6rem;padding:.45rem .75rem;border-radius:10px;background:#f8fafc;border:1px solid #e2e8f0;transition:background .13s,border-color .13s}
+    .pl-item:hover{background:#f1f5f9;border-color:#c4b5fd}
+    .pl-item.active{background:#ede9fe;border-color:#8b5cf6}
+    .pl-play{display:inline-flex;align-items:center;justify-content:center;width:1.8rem;height:1.8rem;flex:0 0 1.8rem;border:1px solid #c4b5fd;border-radius:999px;background:#fff;color:#6d28d9;font-size:.78rem;cursor:pointer}
+    .pl-item.active .pl-play,.pl-play:hover{background:#7c3aed;color:#fff;border-color:#7c3aed}
+    .pl-info{flex:1;min-width:0}
+    .pl-name{font-size:.8rem;font-weight:650;color:#1e293b;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+    .pl-sub{font-size:.68rem;color:#64748b;margin-top:.03rem}
+    .pl-dl{font-size:.68rem;background:#ede9fe;color:#6d28d9;border-radius:5px;padding:.1rem .4rem;white-space:nowrap;text-decoration:none}
+  </style>
+</head>
+<body>
+  <div class="player-card">
+    <div class="now-label">▶ NOW PLAYING</div>
+    <div class="np-title" id="np-title">—</div>
+    <div class="np-meta" id="np-meta">—</div>
+    <audio id="aud" controls preload="auto"></audio>
+    <div class="controls">
+      <button class="btn" id="seek-back">⏮ -15s</button>
+      <button class="btn" id="btn-prev">⏪ Prev</button>
+      <button class="btn" id="btn-next">Next ⏩</button>
+      <button class="btn" id="seek-forward">+30s ⏭</button>
+      <button class="btn" id="btn-speed">🐇 1.0×</button>
+      <a class="btn" id="btn-dl" href="#" target="_blank" download>⬇ MP3</a>
+      <label class="autoplay-wrap"><input type="checkbox" id="chk-auto" checked> Auto-next</label>
+    </div>
+  </div>
+  <div class="section-label" id="section-label">📋 Playlist</div>
+  <div class="playlist" id="playlist"></div>
+
+  <script>
+    const aud = document.getElementById('aud');
+    let playlist = [];
+    let cur = 0;
+    let signature = '';
+    let serverInitialIndex = null;
+    let lastReportedAt = 0;
+    let speeds = [0.75,1,1.25,1.5,1.75,2];
+    let speedIndex = 1;
+
+    function send(type, payload) {
+      window.parent.postMessage(Object.assign({isStreamlitMessage:true,type:type}, payload || {}), '*');
+    }
+    function setValue(value) { send('streamlit:setComponentValue', {value:value}); }
+    function setHeight() { send('streamlit:setFrameHeight', {height:document.documentElement.scrollHeight + 4}); }
+    function fmt(value) {
+      const s = Math.round(Number(value) || 0), m = Math.floor(s / 60), r = s % 60;
+      return m + ':' + (r < 10 ? '0' : '') + r;
+    }
+    function report(reason, force) {
+      if (!playlist[cur]) return;
+      const now = Date.now();
+      if (!force && now - lastReportedAt < 10000) return;
+      lastReportedAt = now;
+      playlist[cur].resume = Number(aud.currentTime) || 0;
+      setValue({chapterId:playlist[cur].id, positionSec:playlist[cur].resume, reason:reason, eventId:now + '-' + Math.random()});
+      updateLabels();
+    }
+    function syncButtons() {
+      document.querySelectorAll('.pl-item').forEach((el, i) => {
+        el.classList.toggle('active', i === cur);
+        const button = el.querySelector('.pl-play');
+        const playing = i === cur && !aud.paused;
+        button.textContent = playing ? '❚❚' : '▶';
+        button.setAttribute('aria-label', (playing ? 'Pause ' : 'Play ') + playlist[i].title);
+      });
+    }
+    function updateLabels() {
+      const ch = playlist[cur];
+      if (!ch) return;
+      document.getElementById('np-title').textContent = '#' + ch.num + ' ' + ch.title;
+      document.getElementById('np-meta').textContent = '🎤 ' + ch.voice + ' · ⏱ ' + fmt(ch.duration) + ' · 📝 ' + Number(ch.words || 0).toLocaleString() + ' từ' + (ch.resume > 2 ? ' · ▶ Resume: ' + fmt(ch.resume) : '');
+    }
+    function loadTrack(index, play, reportPrevious) {
+      if (index < 0 || index >= playlist.length) return;
+      if (reportPrevious && playlist[cur] && aud.src) report('track-change', true);
+      cur = index;
+      const ch = playlist[cur];
+      updateLabels();
+      document.getElementById('btn-dl').href = ch.url || '#';
+      aud.src = ch.url || '';
+      aud.load();
+      if (ch.resume > 2) {
+        aud.addEventListener('loadedmetadata', function resume() {
+          aud.currentTime = Math.min(ch.resume, Number.isFinite(aud.duration) ? aud.duration : ch.resume);
+          aud.removeEventListener('loadedmetadata', resume);
+        });
+      }
+      if (play) aud.play().catch(() => {});
+      document.getElementById('btn-prev').disabled = index === 0;
+      document.getElementById('btn-next').disabled = index === playlist.length - 1;
+      syncButtons();
+    }
+    function render(args) {
+      const nextPlaylist = args.playlist || [];
+      const nextSignature = JSON.stringify(nextPlaylist.map(ch => [ch.id, ch.url]));
+      const nextInitialIndex = Math.max(0, Math.min(Number(args.initialIndex) || 0, nextPlaylist.length - 1));
+      if (signature === nextSignature) {
+        if (serverInitialIndex !== nextInitialIndex) {
+          serverInitialIndex = nextInitialIndex;
+          loadTrack(nextInitialIndex, false, true);
+        }
+        return setHeight();
+      }
+      signature = nextSignature;
+      playlist = nextPlaylist;
+      serverInitialIndex = nextInitialIndex;
+      cur = nextInitialIndex;
+      document.getElementById('section-label').textContent = '📋 Playlist — ' + (args.projectTitle || '');
+      const list = document.getElementById('playlist');
+      list.replaceChildren();
+      playlist.forEach((ch, i) => {
+        const el = document.createElement('div');
+        el.className = 'pl-item';
+        const playButton = document.createElement('button');
+        playButton.type = 'button'; playButton.className = 'pl-play'; playButton.textContent = '▶';
+        playButton.addEventListener('click', () => {
+          if (cur === i && !aud.paused) aud.pause();
+          else if (cur === i && aud.src) aud.play().catch(() => {});
+          else loadTrack(i, true, true);
+        });
+        const info = document.createElement('div'); info.className = 'pl-info';
+        const name = document.createElement('div'); name.className = 'pl-name'; name.textContent = '#' + ch.num + ' ' + ch.title;
+        const sub = document.createElement('div'); sub.className = 'pl-sub'; sub.textContent = '⏱ ' + fmt(ch.duration) + ' · 📝 ' + Number(ch.words || 0).toLocaleString() + ' từ' + (ch.resume > 2 ? ' · ▶ ' + fmt(ch.resume) : '');
+        info.append(name, sub); el.append(playButton, info);
+        if (ch.url) { const dl = document.createElement('a'); dl.className='pl-dl'; dl.href=ch.url; dl.target='_blank'; dl.download=''; dl.textContent='⬇'; dl.addEventListener('click', e => e.stopPropagation()); el.append(dl); }
+        list.append(el);
+      });
+      if (playlist.length) loadTrack(cur, false, false);
+      setHeight();
+    }
+
+    document.getElementById('seek-back').addEventListener('click', () => { aud.currentTime=Math.max(0,aud.currentTime-15); report('seek',true); });
+    document.getElementById('seek-forward').addEventListener('click', () => { aud.currentTime=Math.max(0,aud.currentTime+30); report('seek',true); });
+    document.getElementById('btn-prev').addEventListener('click', () => loadTrack(cur-1,true,true));
+    document.getElementById('btn-next').addEventListener('click', () => loadTrack(cur+1,true,true));
+    document.getElementById('btn-speed').addEventListener('click', () => { speedIndex=(speedIndex+1)%speeds.length; aud.playbackRate=speeds[speedIndex]; document.getElementById('btn-speed').textContent='🐇 '+speeds[speedIndex]+'×'; });
+    aud.addEventListener('play', () => { syncButtons(); report('play',true); });
+    aud.addEventListener('pause', () => { syncButtons(); if (!aud.ended) report('pause',true); });
+    aud.addEventListener('timeupdate', () => report('progress',false));
+    aud.addEventListener('seeked', () => report('seek',true));
+    aud.addEventListener('ended', () => { report('ended',true); if(document.getElementById('chk-auto').checked) loadTrack(cur+1,true,false); });
+    window.addEventListener('message', event => { if(event.data && event.data.type === 'streamlit:render') render(event.data.args || {}); });
+    send('streamlit:componentReady', {apiVersion:1});
+  </script>
+</body>
+</html>

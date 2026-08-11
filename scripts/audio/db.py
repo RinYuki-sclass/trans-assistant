@@ -70,6 +70,10 @@ class AudioChapter:
     text_content: str | None
     voice_label: str | None
     word_count: int
+    summary_text: str | None = None
+    summary_model: str | None = None
+    summary_source_hash: str | None = None
+    summarized_at: datetime | None = None
     created_at: datetime | None = None
     playback: Any = None  # PlaybackState or None
 
@@ -268,6 +272,10 @@ _DDL = [
         text_content     TEXT,
         voice_label      TEXT,
         word_count       INTEGER NOT NULL DEFAULT 0,
+        summary_text     TEXT,
+        summary_model    TEXT,
+        summary_source_hash TEXT,
+        summarized_at    TEXT,
         created_at       TEXT    DEFAULT (strftime('%Y-%m-%dT%H:%M:%SZ','now'))
     )""",
     """CREATE TABLE IF NOT EXISTS audio_playback_state (
@@ -284,6 +292,21 @@ def init_db() -> None:
     db = _get_db()
     for ddl in _DDL:
         db.execute(ddl)
+    # Lightweight forward migration for databases created before summaries.
+    chapter_columns = {row["name"] for row in db.fetch("PRAGMA table_info(audio_chapters)")}
+    for column_name, column_type in (
+        ("summary_text", "TEXT"),
+        ("summary_model", "TEXT"),
+        ("summary_source_hash", "TEXT"),
+        ("summarized_at", "TEXT"),
+    ):
+        if column_name not in chapter_columns:
+            try:
+                db.execute(f"ALTER TABLE audio_chapters ADD COLUMN {column_name} {column_type}")
+            except Exception as exc:
+                # Another Streamlit session may have completed the same migration.
+                if "duplicate column" not in str(exc).lower():
+                    raise
     if isinstance(db, _SQLiteClient):
         db.commit()
 
@@ -295,7 +318,7 @@ def init_db() -> None:
 def _parse_dt(s: str | None) -> datetime | None:
     if not s:
         return None
-    for fmt in ("%Y-%m-%dT%H:%M:%SZ", "%Y-%m-%dT%H:%M:%S", "%Y-%m-%d %H:%M:%S"):
+    for fmt in ("%Y-%m-%dT%H:%M:%S.%fZ", "%Y-%m-%dT%H:%M:%SZ", "%Y-%m-%dT%H:%M:%S", "%Y-%m-%d %H:%M:%S"):
         try:
             return datetime.strptime(s, fmt).replace(tzinfo=timezone.utc)
         except ValueError:
@@ -326,6 +349,10 @@ def _row_to_chapter(row: dict) -> AudioChapter:
         text_content=row.get("text_content"),
         voice_label=row.get("voice_label"),
         word_count=int(row.get("word_count", 0)),
+        summary_text=row.get("summary_text"),
+        summary_model=row.get("summary_model"),
+        summary_source_hash=row.get("summary_source_hash"),
+        summarized_at=_parse_dt(row.get("summarized_at")),
         created_at=_parse_dt(row.get("created_at")),
     )
 
@@ -459,6 +486,9 @@ def save_chapter(
     text_content: str,
     voice_label: str,
     word_count: int,
+    summary_text: str | None = None,
+    summary_model: str | None = None,
+    summary_source_hash: str | None = None,
 ) -> AudioChapter:
     """Insert or update an AudioChapter record."""
     db = _get_db()
@@ -467,27 +497,59 @@ def save_chapter(
         [project_id, chapter_slug],
     )
     if row:
-        db.execute(
-            "UPDATE audio_chapters SET audio_url=?, duration_seconds=?, text_content=?, voice_label=?, word_count=? WHERE id=?",
-            [audio_url, duration_seconds, text_content, voice_label, word_count, row["id"]],
-        )
+        if summary_text is None:
+            db.execute(
+                "UPDATE audio_chapters SET audio_url=?, duration_seconds=?, text_content=?, voice_label=?, word_count=? WHERE id=?",
+                [audio_url, duration_seconds, text_content, voice_label, word_count, row["id"]],
+            )
+        else:
+            summarized_at = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%S.%fZ")
+            db.execute(
+                "UPDATE audio_chapters SET audio_url=?, duration_seconds=?, text_content=?, voice_label=?, word_count=?, summary_text=?, summary_model=?, summary_source_hash=?, summarized_at=? WHERE id=?",
+                [audio_url, duration_seconds, text_content, voice_label, word_count, summary_text, summary_model, summary_source_hash, summarized_at, row["id"]],
+            )
         if isinstance(db, _SQLiteClient):
             db.commit()
         updated = db.fetch_one("SELECT * FROM audio_chapters WHERE id=?", [row["id"]])
         return _row_to_chapter(updated)
     else:
         now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+        summarized_at = now if summary_text else None
         new_row = db.fetch_one(
             "INSERT INTO audio_chapters "
-            "(project_id, chapter_number, chapter_slug, title, audio_url, duration_seconds, text_content, voice_label, word_count, created_at) "
-            "VALUES (?,?,?,?,?,?,?,?,?,?) RETURNING *",
-            [project_id, chapter_number, chapter_slug, title, audio_url, duration_seconds, text_content, voice_label, word_count, now],
+            "(project_id, chapter_number, chapter_slug, title, audio_url, duration_seconds, text_content, voice_label, word_count, created_at, summary_text, summary_model, summary_source_hash, summarized_at) "
+            "VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?) RETURNING *",
+            [project_id, chapter_number, chapter_slug, title, audio_url, duration_seconds, text_content, voice_label, word_count, now, summary_text, summary_model, summary_source_hash, summarized_at],
         )
         if isinstance(db, _SQLiteClient):
             db.commit()
         if new_row is None:
             raise RuntimeError("Database did not return the newly saved audio chapter")
         return _row_to_chapter(new_row)
+
+
+def save_chapter_summary(
+    chapter_id: int,
+    summary_text: str,
+    summary_model: str,
+    summary_source_hash: str,
+) -> AudioChapter:
+    """Persist an AI summary and the source hash used to produce it."""
+    summary_text = summary_text.strip()
+    if not summary_text:
+        raise ValueError("summary_text must not be empty")
+    db = _get_db()
+    summarized_at = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%S.%fZ")
+    db.execute(
+        "UPDATE audio_chapters SET summary_text=?, summary_model=?, summary_source_hash=?, summarized_at=? WHERE id=?",
+        [summary_text, summary_model, summary_source_hash, summarized_at, chapter_id],
+    )
+    if isinstance(db, _SQLiteClient):
+        db.commit()
+    row = db.fetch_one("SELECT * FROM audio_chapters WHERE id=?", [chapter_id])
+    if row is None:
+        raise ValueError(f"Audio chapter not found: {chapter_id}")
+    return _row_to_chapter(row)
 
 
 def list_chapters(project_id: int) -> list[AudioChapter]:
@@ -513,7 +575,9 @@ def save_playback_state(chapter_id: int, position_sec: float) -> None:
     row = db.fetch_one(
         "SELECT id FROM audio_playback_state WHERE chapter_id=?", [chapter_id]
     )
-    now_str = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    # Sub-second precision matters when the listener changes tracks quickly;
+    # second-only timestamps can make two chapters both look "latest".
+    now_str = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%S.%fZ")
     if row:
         db.execute(
             "UPDATE audio_playback_state SET last_position_sec=?, updated_at=? WHERE chapter_id=?",
