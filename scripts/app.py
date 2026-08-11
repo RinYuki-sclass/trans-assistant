@@ -460,7 +460,7 @@ def save_file(path, content):
     with open(path, 'w', encoding='utf-8') as f:
         f.write(content)
 
-def generate_with_retry(model, contents, system_instruction, status_w=None, retries=8, temp=0.3):
+def generate_with_retry(model, contents, system_instruction, status_w=None, retries=8, temp=0.3, max_output_tokens=None):
     from google.genai import types
     
     # Cấu hình bỏ qua bộ lọc an toàn để tránh bị AI từ chối dịch truyện tranh
@@ -471,11 +471,14 @@ def generate_with_retry(model, contents, system_instruction, status_w=None, retr
         types.SafetySetting(category="HARM_CATEGORY_DANGEROUS_CONTENT", threshold="BLOCK_NONE"),
     ]
     
-    config = types.GenerateContentConfig(
-        system_instruction=system_instruction, 
-        temperature=temp,
-        safety_settings=safety_settings
-    )
+    config_kwargs = {
+        "system_instruction": system_instruction,
+        "temperature": temp,
+        "safety_settings": safety_settings,
+    }
+    if max_output_tokens is not None:
+        config_kwargs["max_output_tokens"] = max_output_tokens
+    config = types.GenerateContentConfig(**config_kwargs)
     
     # Chuỗi dự phòng thông minh (Waterfall)
     model_chain = ["gemini-2.5-flash", "gemini-2.0-flash", "gemini-3.1-flash-lite", "gemini-2.5-flash-lite"]
@@ -5053,10 +5056,11 @@ with tabs[12]:
         _sys.path.insert(0, _audio_mod_dir)
 
     try:
-        from audio.db          import init_db, upsert_project, create_project, update_project_source_url, save_chapter, list_projects, list_chapters, save_playback_state, get_playback_state, get_latest_listened_chapter, get_latest_listened_all_projects, delete_chapter, delete_project
+        from audio.db          import init_db, upsert_project, create_project, update_project_source_url, save_chapter, save_chapter_summary, list_projects, list_chapters, save_playback_state, get_playback_state, get_latest_listened_chapter, get_latest_listened_all_projects, delete_chapter, delete_project
         from audio.tts_engine  import synthesize_text, synthesize_sample, VOICE_NAMES, VOICES
         from audio.crawler     import crawl_chapter, fetch_series_chapters, _fetch_zenith_chapter_by_id_or_slug
         from audio.r2_uploader import upload_mp3, delete_mp3, ensure_playable_url
+        from audio.summarizer  import estimate_tokens, summarize_chapter, summary_source_hash
         _audio_imports_ok = True
     except ImportError as _e:
         _audio_imports_ok = False
@@ -5100,7 +5104,7 @@ with tabs[12]:
         return f"{m}:{s:02d}"
 
     # ── Sub-tabs ─────────────────────────────────────────────────────
-    aud_sub = st.tabs(["🌐 Crawl & Generate", "📻 Playlist & Player", "🗂️ Manage Projects"])
+    aud_sub = st.tabs(["🌐 Crawl & Generate", "📻 Playlist & Player", "🗂️ Manage Projects", "📝 Chapter Summaries"])
 
     # ╔══════════════════════════════════════════════════════════════╗
     # ║  SUB-TAB 0 – CRAWL & GENERATE                              ║
@@ -5490,6 +5494,27 @@ with tabs[12]:
                 key="aud_proj_title",
             )
 
+        with st.expander("📝 AI Chapter Summary", expanded=False):
+            aud_generate_summaries = st.checkbox(
+                "Tạo summary và lưu vào DB cho từng chapter",
+                value=True,
+                key="aud_generate_summaries",
+            )
+            sum_col1, sum_col2 = st.columns(2)
+            with sum_col1:
+                aud_summary_model = st.selectbox(
+                    "Model:",
+                    ["gemini-2.5-flash-lite", "gemini-2.5-flash", "gemini-2.0-flash"],
+                    key="aud_summary_model",
+                )
+            with sum_col2:
+                aud_summary_language = st.selectbox(
+                    "Ngôn ngữ summary:",
+                    ["Tiếng Việt", "English"],
+                    key="aud_summary_language",
+                )
+            st.caption("Chapter ngắn dùng 1 AI call; chapter dài tự chia phần và hợp nhất. Hash nội dung giúp tránh tạo lại summary không cần thiết.")
+
         # ── Generate button ──────────────────────────────────────────
         can_generate = False
         if src_type == "🌐 Web URL (Crawl)":
@@ -5582,6 +5607,8 @@ with tabs[12]:
             prog_bar = st.progress(0, text="Bắt đầu synthesis…")
             completed_tasks = 0
             failed_tasks = []
+            summary_completed = 0
+            summary_failed = []
 
             for idx, (ch_slug, ch_title, ch_text) in enumerate(tasks):
                 prog_bar.progress(idx / total_tasks, text=f"🔊 Synthesizing: {ch_title}…")
@@ -5609,6 +5636,34 @@ with tabs[12]:
                     continue
 
                 duration = _estimate_duration(mp3_bytes)
+                chapter_summary = None
+                chapter_summary_hash = None
+                if aud_generate_summaries:
+                    prog_bar.progress((idx + 0.8) / total_tasks, text=f"📝 Summarizing: {ch_title}…")
+                    try:
+                        chapter_summary_hash = summary_source_hash(ch_text)
+
+                        def _summary_generate(prompt, max_tokens):
+                            return generate_with_retry(
+                                aud_summary_model,
+                                prompt,
+                                "You are a precise novel chapter summarizer. Return only the requested summary.",
+                                status_w=st,
+                                retries=5,
+                                temp=0.2,
+                                max_output_tokens=max_tokens,
+                            )
+
+                        chapter_summary, _summary_stats = summarize_chapter(
+                            ch_text,
+                            ch_title,
+                            _summary_generate,
+                            language=aud_summary_language,
+                        )
+                        summary_completed += 1
+                    except Exception as _sum_error:
+                        summary_failed.append(ch_title)
+                        st.warning(f"⚠️ Không tạo được summary cho `{ch_title}`: {_sum_error}")
                 try:
                     save_chapter(
                         project_id=proj.id,
@@ -5617,9 +5672,12 @@ with tabs[12]:
                         title=ch_title,
                         audio_url=audio_url,
                         duration_seconds=duration,
-                        text_content=ch_text[:5000],  # truncate for DB
+                        text_content=ch_text,
                         voice_label=aud_voice,
                         word_count=len(ch_text.split()),
+                        summary_text=chapter_summary,
+                        summary_model=aud_summary_model if chapter_summary else None,
+                        summary_source_hash=chapter_summary_hash if chapter_summary else None,
                     )
                 except Exception as _se:
                     st.error(f"❌ Không lưu được metadata cho `{ch_title}`: {_se}")
@@ -5638,6 +5696,10 @@ with tabs[12]:
             else:
                 prog_bar.progress(1.0, text="✅ Hoàn thành tất cả!")
                 st.success(f"🎉 Đã tạo audio cho **{completed_tasks}** chương và lưu lên Cloudflare R2!")
+                if aud_generate_summaries:
+                    st.success(f"📝 Đã tạo và lưu **{summary_completed}/{total_tasks}** chapter summaries vào DB.")
+                    if summary_failed:
+                        st.warning(f"Summary thất bại: {', '.join(summary_failed)}. Có thể tạo lại trong tab **📝 Chapter Summaries**.")
                 st.info("👉 Chuyển sang tab **📻 Playlist & Player** để nghe.")
                 # Only clear the batch after every selected chapter succeeds.
                 st.session_state.pop('aud_crawl_result', None)
@@ -5699,7 +5761,6 @@ with tabs[12]:
 
                 active_ch = chapters[sel_ch_idx]
                 curr_pos = latest_pos if (latest_ch and latest_ch.id == active_ch.id) else 0.0
-                save_playback_state(active_ch.id, curr_pos)
 
                 if latest_ch:
                     pos_m = int(latest_pos // 60)
@@ -5835,7 +5896,24 @@ audio{{width:100%;border-radius:8px;outline:none;margin-bottom:.6rem;accent-colo
 </body></html>"""
                 # Expand to the complete playlist instead of nesting a scrolling list.
                 _player_h = 310 + len(chapters) * 58
-                st.components.v1.html(player_html, height=_player_h, scrolling=False)
+                from audio.player_component import render_audio_player
+                _player_event = render_audio_player(
+                    playlist=_ch_playlist,
+                    initial_index=sel_ch_idx,
+                    project_title=sel_proj.title,
+                    project_id=sel_proj.id,
+                )
+                if isinstance(_player_event, dict):
+                    _event_id = str(_player_event.get("eventId", ""))
+                    _event_state_key = f"aud_player_event_{sel_proj.id}"
+                    if _event_id and st.session_state.get(_event_state_key) != _event_id:
+                        _event_chapter_id = int(_player_event.get("chapterId", 0))
+                        _valid_chapter_ids = {ch.id for ch in chapters}
+                        if _event_chapter_id in _valid_chapter_ids:
+                            _event_position = max(0.0, float(_player_event.get("positionSec", 0.0)))
+                            save_playback_state(_event_chapter_id, _event_position)
+                            st.session_state[_event_state_key] = _event_id
+                            st.rerun()
 
 
 
@@ -5951,3 +6029,159 @@ audio{{width:100%;border-radius:8px;outline:none;margin-bottom:.6rem;accent-colo
                                         pass
                                     delete_chapter(ch.id)
                                     st.rerun()
+
+    # ── SUB-TAB 3 – CHAPTER SUMMARIES ───────────────────────────────
+    with aud_sub[3]:
+        st.markdown("### 📝 AI Chapter Summaries")
+        st.caption("Chọn nhiều chapter trong một project để tạo hoặc cập nhật summary. Nội dung và metadata được lưu trực tiếp trong DB.")
+
+        summary_projects = list_projects()
+        if not summary_projects:
+            st.info("Chưa có Audio Project nào.")
+        else:
+            summary_project = st.selectbox(
+                "Chọn project:",
+                summary_projects,
+                format_func=lambda p: p.title,
+                key="aud_summary_project",
+            )
+            project_chapters = list_chapters(summary_project.id)
+            if not project_chapters:
+                st.info("Project này chưa có chapter nào.")
+            else:
+                chapter_by_id = {ch.id: ch for ch in project_chapters}
+                all_summary_ids = [ch.id for ch in project_chapters]
+                missing_summary_ids = [
+                    ch.id for ch in project_chapters
+                    if not ch.summary_text or ch.summary_source_hash != summary_source_hash(ch.text_content or "")
+                ]
+                summary_selection_key = f"aud_summary_chapters_{summary_project.id}"
+
+                pick_col1, pick_col2, pick_col3 = st.columns(3)
+                with pick_col1:
+                    if st.button("Chọn 5 chapter thiếu", key=f"aud_sum_pick5_{summary_project.id}", use_container_width=True):
+                        st.session_state[summary_selection_key] = missing_summary_ids[:5]
+                with pick_col2:
+                    if st.button("Chọn tất cả chapter thiếu", key=f"aud_sum_pick_missing_{summary_project.id}", use_container_width=True):
+                        st.session_state[summary_selection_key] = missing_summary_ids
+                with pick_col3:
+                    if st.button("Chọn tất cả", key=f"aud_sum_pick_all_{summary_project.id}", use_container_width=True):
+                        st.session_state[summary_selection_key] = all_summary_ids
+
+                selected_summary_ids = st.multiselect(
+                    "Chapters cần summary:",
+                    all_summary_ids,
+                    default=missing_summary_ids[:5],
+                    format_func=lambda chapter_id: (
+                        f"{'✅' if chapter_by_id[chapter_id].summary_text else '⬜'} "
+                        f"#{chapter_by_id[chapter_id].chapter_number} — {chapter_by_id[chapter_id].title}"
+                    ),
+                    key=summary_selection_key,
+                )
+
+                option_col1, option_col2, option_col3 = st.columns([2, 2, 1])
+                with option_col1:
+                    batch_summary_model = st.selectbox(
+                        "Model:",
+                        ["gemini-2.5-flash-lite", "gemini-2.5-flash", "gemini-2.0-flash"],
+                        key="aud_batch_summary_model",
+                    )
+                with option_col2:
+                    batch_summary_language = st.selectbox(
+                        "Ngôn ngữ:",
+                        ["Tiếng Việt", "English"],
+                        key="aud_batch_summary_language",
+                    )
+                with option_col3:
+                    force_summary = st.checkbox("Tạo lại", value=False, key="aud_force_summary")
+
+                estimated_batch_tokens = sum(
+                    estimate_tokens(chapter_by_id[chapter_id].text_content or "")
+                    for chapter_id in selected_summary_ids
+                )
+                st.caption(f"Ước tính input: ~{estimated_batch_tokens:,} tokens cho {len(selected_summary_ids)} chapter. Chapter không đổi sẽ được bỏ qua trừ khi bật **Tạo lại**.")
+
+                if st.button(
+                    "✨ Generate & Save Summaries",
+                    type="primary",
+                    use_container_width=True,
+                    disabled=not selected_summary_ids,
+                    key="aud_batch_generate_summaries",
+                ):
+                    if not rotator:
+                        st.error("Chưa cấu hình GEMINI_API_KEY để tạo summary.")
+                    else:
+                        summary_progress = st.progress(0, text="Bắt đầu tạo summary…")
+                        generated_count = 0
+                        skipped_count = 0
+                        failed_summaries = []
+                        total_selected = len(selected_summary_ids)
+
+                        for summary_index, chapter_id in enumerate(selected_summary_ids):
+                            chapter = chapter_by_id[chapter_id]
+                            chapter_text = chapter.text_content or ""
+                            summary_progress.progress(
+                                summary_index / total_selected,
+                                text=f"📝 [{summary_index + 1}/{total_selected}] {chapter.title}",
+                            )
+                            if not chapter_text.strip():
+                                failed_summaries.append(f"{chapter.title} (không có text)")
+                                continue
+
+                            source_hash = summary_source_hash(chapter_text)
+                            if (
+                                not force_summary
+                                and chapter.summary_text
+                                and chapter.summary_source_hash == source_hash
+                            ):
+                                skipped_count += 1
+                                continue
+
+                            try:
+                                def _batch_summary_generate(prompt, max_tokens):
+                                    return generate_with_retry(
+                                        batch_summary_model,
+                                        prompt,
+                                        "You are a precise novel chapter summarizer. Return only the requested summary.",
+                                        status_w=st,
+                                        retries=5,
+                                        temp=0.2,
+                                        max_output_tokens=max_tokens,
+                                    )
+
+                                summary_result, _batch_stats = summarize_chapter(
+                                    chapter_text,
+                                    chapter.title,
+                                    _batch_summary_generate,
+                                    language=batch_summary_language,
+                                )
+                                save_chapter_summary(
+                                    chapter.id,
+                                    summary_result,
+                                    batch_summary_model,
+                                    source_hash,
+                                )
+                                generated_count += 1
+                            except Exception as summary_error:
+                                failed_summaries.append(f"{chapter.title} ({str(summary_error)[:120]})")
+
+                        summary_progress.progress(1.0, text="✅ Hoàn tất chapter summaries")
+                        st.success(f"Đã lưu **{generated_count}** summary; bỏ qua **{skipped_count}** chapter không đổi.")
+                        if failed_summaries:
+                            st.warning("Không thể tạo: " + "; ".join(failed_summaries))
+                        project_chapters = list_chapters(summary_project.id)
+
+                st.divider()
+                st.markdown("#### Summaries đã lưu")
+                for chapter in project_chapters:
+                    status_icon = "✅" if chapter.summary_text else "⬜"
+                    with st.expander(
+                        f"{status_icon} #{chapter.chapter_number} — {chapter.title}",
+                        expanded=False,
+                    ):
+                        if chapter.summary_text:
+                            st.markdown(chapter.summary_text)
+                            summary_time = chapter.summarized_at.strftime('%d/%m/%Y %H:%M') if chapter.summarized_at else "—"
+                            st.caption(f"Model: `{chapter.summary_model or '—'}` · Cập nhật: {summary_time}")
+                        else:
+                            st.caption("Chưa có summary.")
