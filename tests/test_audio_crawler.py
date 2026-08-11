@@ -15,6 +15,7 @@ sys.path.insert(0, os.path.join(BASE_DIR, "scripts"))
 from audio.crawler import (
     _extract_mistmint_next_content,
     _extract_paragraphs,
+    _fetch_html,
     _get_with_retry,
     _parse_hyacinth_series_chapters,
     _parse_pienovels_series_chapters,
@@ -23,6 +24,24 @@ from audio.crawler import (
 
 
 class HttpRetryTests(unittest.TestCase):
+    @patch("audio.crawler.time.sleep")
+    @patch("audio.crawler.httpx.Client")
+    def test_html_retry_uses_fresh_connections(self, client_class, _sleep_mock):
+        response = Mock(status_code=200, headers={}, text="<html>chapters</html>")
+        response.raise_for_status = Mock()
+        client = Mock()
+        client.get.side_effect = [httpx.ReadTimeout("stale socket"), response]
+        client_class.return_value.__enter__.return_value = client
+
+        html = _fetch_html("https://pienovels.com/novels/test/")
+
+        self.assertEqual(html, "<html>chapters</html>")
+        self.assertEqual(client.get.call_count, 2)
+        request_headers = client.get.call_args.kwargs["headers"]
+        self.assertEqual(request_headers["Connection"], "close")
+        limits = client_class.call_args.kwargs["limits"]
+        self.assertEqual(limits.max_keepalive_connections, 0)
+
     @patch("audio.crawler.time.sleep")
     def test_retries_timeout_then_returns_response(self, sleep_mock):
         response = Mock(status_code=200, headers={})
