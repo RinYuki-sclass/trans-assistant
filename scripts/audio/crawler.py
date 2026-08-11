@@ -45,14 +45,26 @@ _AD_PATTERNS = re.compile(
 
 
 def _fetch_html(url: str, timeout: int = 20) -> str:
-    """Fetch raw HTML from URL using httpx."""
+    """Fetch raw HTML from URL using httpx with fallback to curl_cffi / cloudscraper if available."""
     headers = {
         "User-Agent": (
             "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
             "AppleWebKit/537.36 (KHTML, like Gecko) "
             "Chrome/125.0.0.0 Safari/537.36"
         ),
+        "Accept": (
+            "text/html,application/xhtml+xml,application/xml;q=0.9,"
+            "image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+        ),
         "Accept-Language": "en-US,en;q=0.9",
+        "Sec-Ch-Ua": '"Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"',
+        "Sec-Ch-Ua-Mobile": "?0",
+        "Sec-Ch-Ua-Platform": '"Windows"',
+        "Sec-Fetch-Dest": "document",
+        "Sec-Fetch-Mode": "navigate",
+        "Sec-Fetch-Site": "none",
+        "Sec-Fetch-User": "?1",
+        "Upgrade-Insecure-Requests": "1",
         # PIE NOVELS/LiteSpeed occasionally leaves a stale keep-alive socket.
         # Force each retry onto a fresh TCP/TLS connection.
         "Connection": "close",
@@ -60,14 +72,54 @@ def _fetch_html(url: str, timeout: int = 20) -> str:
     }
     timeout_config = httpx.Timeout(max(float(timeout), 60.0), connect=15.0)
     connection_limits = httpx.Limits(max_keepalive_connections=0, max_connections=10)
-    with httpx.Client(
-        follow_redirects=True,
-        timeout=timeout_config,
-        limits=connection_limits,
-    ) as client:
-        resp = _get_with_retry(client, url, headers=headers)
-        resp.raise_for_status()
-        return resp.text
+
+    # 1. Try standard httpx with modern browser headers
+    try:
+        with httpx.Client(
+            follow_redirects=True,
+            timeout=timeout_config,
+            limits=connection_limits,
+        ) as client:
+            resp = _get_with_retry(client, url, headers=headers)
+            if resp.status_code == 403 or resp.status_code == 503:
+                # WAF / Cloudflare challenge triggered
+                raise httpx.HTTPStatusError(
+                    f"HTTP {resp.status_code} WAF / Bot protection challenge",
+                    request=resp.request,
+                    response=resp,
+                )
+            resp.raise_for_status()
+            return resp.text
+    except Exception as httpx_err:
+        hostname = urlparse(url).hostname or url
+        # 2. Try curl_cffi fallback if installed (bypasses TLS fingerprinting & Cloudflare/Hostinger WAF)
+        try:
+            import curl_cffi.requests as curl_req
+            c_resp = curl_req.get(url, headers=headers, impersonate="chrome120", timeout=timeout, follow_redirects=True)
+            if c_resp.status_code == 200:
+                return c_resp.text
+        except Exception:
+            pass
+
+        # 3. Try cloudscraper fallback if installed
+        try:
+            import cloudscraper
+            scraper = cloudscraper.create_scraper()
+            s_resp = scraper.get(url, headers=headers, timeout=timeout)
+            if s_resp.status_code == 200:
+                return s_resp.text
+        except Exception:
+            pass
+
+        # If WAF / 403 / 503 was received and no fallback worked:
+        if isinstance(httpx_err, httpx.HTTPStatusError) and httpx_err.response.status_code in (403, 503):
+            raise PermissionError(
+                f"Website {hostname} đã chặn kết nối từ máy chủ Streamlit (HTTP {httpx_err.response.status_code} WAF/Cloudflare Block). "
+                f"Vui lòng cài đặt `cloudscraper` hoặc `curl_cffi` trên Streamlit Cloud để vượt qua WAF anti-bot."
+            ) from httpx_err
+        raise httpx_err
+
+
 
 
 def _extract_content(soup: BeautifulSoup) -> BeautifulSoup | None:
