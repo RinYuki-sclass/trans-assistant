@@ -296,6 +296,27 @@ def apply_pronunciation_map(
     return processed
 
 
+def prepare_text_for_speech(
+    text: str,
+    language_code: str = "en-US",
+    custom_map: dict[str, str] | None = None,
+    use_default_korean: bool = True,
+    enhance_expressive_speech: bool = True,
+) -> str:
+    """Return the final text that will be sent to the TTS provider.
+
+    Keeping this preprocessing in one public helper lets the Audio Converter
+    show an accurate pronunciation preview before spending a TTS request.
+    """
+    expressive_text = (
+        apply_expressive_speech(text, language_code)
+        if enhance_expressive_speech else text
+    )
+    return apply_pronunciation_map(
+        expressive_text, custom_map, use_default_korean
+    )
+
+
 def synthesize_text(
     text: str,
     voice_label: str = "🇺🇸 Jenny (Neural, US)",
@@ -312,12 +333,12 @@ def synthesize_text(
     language_code, google_voice, edge_voice = VOICES[voice_label]
 
     # Expand performance cues before name replacement (e.g. H-Hyunjae).
-    expressive_text = (
-        apply_expressive_speech(text, language_code)
-        if enhance_expressive_speech else text
-    )
-    processed_text = apply_pronunciation_map(
-        expressive_text, custom_map, use_default_korean
+    processed_text = prepare_text_for_speech(
+        text,
+        language_code,
+        custom_map,
+        use_default_korean,
+        enhance_expressive_speech,
     )
 
     chunks = _chunk_text(processed_text)
@@ -361,12 +382,12 @@ def synthesize_sample(
         else:
             sample_text = "Hello! This is a preview of the American English voice selection for your audio book."
 
-    expressive_sample = (
-        apply_expressive_speech(sample_text, language_code)
-        if enhance_expressive_speech else sample_text
-    )
-    processed_sample = apply_pronunciation_map(
-        expressive_sample, custom_map, use_default_korean
+    processed_sample = prepare_text_for_speech(
+        sample_text,
+        language_code,
+        custom_map,
+        use_default_korean,
+        enhance_expressive_speech,
     )
 
     return _synthesize_chunk(

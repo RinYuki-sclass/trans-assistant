@@ -8,7 +8,7 @@ import unittest
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(BASE_DIR, "scripts"))
 
-from audio.tts_engine import VOICES, apply_expressive_speech
+from audio.tts_engine import VOICES, apply_expressive_speech, prepare_text_for_speech
 
 
 class ExpressiveSpeechTests(unittest.TestCase):
@@ -46,6 +46,28 @@ class ExpressiveSpeechTests(unittest.TestCase):
 
     def test_empty_text(self):
         self.assertEqual(apply_expressive_speech(""), "")
+
+    def test_pronunciation_preview_matches_tts_preprocessing(self):
+        self.assertEqual(
+            prepare_text_for_speech(
+                "H-Hyunjae met Cheon.",
+                custom_map={"Hyunjae": "Hyeon-jae"},
+                use_default_korean=True,
+            ),
+            "Hyeon-jae… Hyeon-jae met Chun.",
+        )
+
+    def test_pronunciation_preview_can_disable_optional_processing(self):
+        source = "H-Hyunjae met Cheon."
+        self.assertEqual(
+            prepare_text_for_speech(
+                source,
+                custom_map={"Hyunjae": "Hyeon-jae"},
+                use_default_korean=False,
+                enhance_expressive_speech=False,
+            ),
+            "H-Hyeon-jae met Cheon.",
+        )
 
 
 if __name__ == "__main__":
