@@ -37,11 +37,11 @@
     <div class="np-meta" id="np-meta">—</div>
     <audio id="aud" controls preload="auto"></audio>
     <div class="controls">
-      <button class="btn" id="seek-back">⏮ -15s</button>
-      <button class="btn" id="btn-prev">⏪ Prev</button>
-      <button class="btn" id="btn-next">Next ⏩</button>
-      <button class="btn" id="seek-forward">+30s ⏭</button>
-      <button class="btn" id="btn-speed">🐇 1.0×</button>
+      <button type="button" class="btn" id="seek-back">⏮ -15s</button>
+      <button type="button" class="btn" id="btn-prev">⏪ Prev</button>
+      <button type="button" class="btn" id="btn-next">Next ⏩</button>
+      <button type="button" class="btn" id="seek-forward">+30s ⏭</button>
+      <button type="button" class="btn" id="btn-speed">🐇 1.0×</button>
       <a class="btn" id="btn-dl" href="#" target="_blank" download>⬇ MP3</a>
       <label class="autoplay-wrap"><input type="checkbox" id="chk-auto" checked> Auto-next</label>
     </div>
@@ -55,26 +55,35 @@
     let cur = 0;
     let signature = '';
     let serverInitialIndex = null;
-    let lastReportedAt = 0;
+    let projectId = 0;
+    let lastSavedAt = 0;
     let speeds = [0.75,1,1.25,1.5,1.75,2];
     let speedIndex = 1;
 
     function send(type, payload) {
       window.parent.postMessage(Object.assign({isStreamlitMessage:true,type:type}, payload || {}), '*');
     }
-    function setValue(value) { send('streamlit:setComponentValue', {value:value}); }
     function setHeight() { send('streamlit:setFrameHeight', {height:document.documentElement.scrollHeight + 4}); }
     function fmt(value) {
       const s = Math.round(Number(value) || 0), m = Math.floor(s / 60), r = s % 60;
       return m + ':' + (r < 10 ? '0' : '') + r;
     }
-    function report(reason, force) {
+    function storageKey() { return 'audio-player-state:' + projectId; }
+    function readState() {
+      try { return JSON.parse(localStorage.getItem(storageKey()) || '{}'); }
+      catch (_) { return {}; }
+    }
+    function saveProgress(force) {
       if (!playlist[cur]) return;
       const now = Date.now();
-      if (!force && now - lastReportedAt < 10000) return;
-      lastReportedAt = now;
+      if (!force && now - lastSavedAt < 10000) return;
+      lastSavedAt = now;
       playlist[cur].resume = Number(aud.currentTime) || 0;
-      setValue({chapterId:playlist[cur].id, positionSec:playlist[cur].resume, reason:reason, eventId:now + '-' + Math.random()});
+      const state = readState();
+      state.chapterId = playlist[cur].id;
+      state.positions = state.positions || {};
+      state.positions[playlist[cur].id] = playlist[cur].resume;
+      try { localStorage.setItem(storageKey(), JSON.stringify(state)); } catch (_) {}
       updateLabels();
     }
     function syncButtons() {
@@ -92,9 +101,9 @@
       document.getElementById('np-title').textContent = '#' + ch.num + ' ' + ch.title;
       document.getElementById('np-meta').textContent = '🎤 ' + ch.voice + ' · ⏱ ' + fmt(ch.duration) + ' · 📝 ' + Number(ch.words || 0).toLocaleString() + ' từ' + (ch.resume > 2 ? ' · ▶ Resume: ' + fmt(ch.resume) : '');
     }
-    function loadTrack(index, play, reportPrevious) {
+    function loadTrack(index, play, savePrevious) {
       if (index < 0 || index >= playlist.length) return;
-      if (reportPrevious && playlist[cur] && aud.src) report('track-change', true);
+      if (savePrevious && playlist[cur] && aud.src) saveProgress(true);
       cur = index;
       const ch = playlist[cur];
       updateLabels();
@@ -116,6 +125,7 @@
       const nextPlaylist = args.playlist || [];
       const nextSignature = JSON.stringify(nextPlaylist.map(ch => [ch.id, ch.url]));
       const nextInitialIndex = Math.max(0, Math.min(Number(args.initialIndex) || 0, nextPlaylist.length - 1));
+      projectId = Number(args.projectId) || 0;
       if (signature === nextSignature) {
         if (serverInitialIndex !== nextInitialIndex) {
           serverInitialIndex = nextInitialIndex;
@@ -126,7 +136,14 @@
       signature = nextSignature;
       playlist = nextPlaylist;
       serverInitialIndex = nextInitialIndex;
-      cur = nextInitialIndex;
+      const savedState = readState();
+      const savedPositions = savedState.positions || {};
+      playlist.forEach(ch => {
+        const savedPosition = Number(savedPositions[ch.id]);
+        if (Number.isFinite(savedPosition) && savedPosition >= 0) ch.resume = savedPosition;
+      });
+      const savedIndex = playlist.findIndex(ch => ch.id === Number(savedState.chapterId));
+      cur = savedIndex >= 0 ? savedIndex : nextInitialIndex;
       document.getElementById('section-label').textContent = '📋 Playlist — ' + (args.projectTitle || '');
       const list = document.getElementById('playlist');
       list.replaceChildren();
@@ -151,16 +168,16 @@
       setHeight();
     }
 
-    document.getElementById('seek-back').addEventListener('click', () => { aud.currentTime=Math.max(0,aud.currentTime-15); report('seek',true); });
-    document.getElementById('seek-forward').addEventListener('click', () => { aud.currentTime=Math.max(0,aud.currentTime+30); report('seek',true); });
+    document.getElementById('seek-back').addEventListener('click', () => { aud.currentTime=Math.max(0,aud.currentTime-15); saveProgress(true); });
+    document.getElementById('seek-forward').addEventListener('click', () => { aud.currentTime=Math.max(0,aud.currentTime+30); saveProgress(true); });
     document.getElementById('btn-prev').addEventListener('click', () => loadTrack(cur-1,true,true));
     document.getElementById('btn-next').addEventListener('click', () => loadTrack(cur+1,true,true));
     document.getElementById('btn-speed').addEventListener('click', () => { speedIndex=(speedIndex+1)%speeds.length; aud.playbackRate=speeds[speedIndex]; document.getElementById('btn-speed').textContent='🐇 '+speeds[speedIndex]+'×'; });
-    aud.addEventListener('play', () => { syncButtons(); report('play',true); });
-    aud.addEventListener('pause', () => { syncButtons(); if (!aud.ended) report('pause',true); });
-    aud.addEventListener('timeupdate', () => report('progress',false));
-    aud.addEventListener('seeked', () => report('seek',true));
-    aud.addEventListener('ended', () => { report('ended',true); if(document.getElementById('chk-auto').checked) loadTrack(cur+1,true,false); });
+    aud.addEventListener('play', syncButtons);
+    aud.addEventListener('pause', () => { syncButtons(); if (!aud.ended) saveProgress(true); });
+    aud.addEventListener('timeupdate', () => saveProgress(false));
+    aud.addEventListener('seeked', () => saveProgress(true));
+    aud.addEventListener('ended', () => { saveProgress(true); if(document.getElementById('chk-auto').checked) loadTrack(cur+1,true,false); });
     window.addEventListener('message', event => { if(event.data && event.data.type === 'streamlit:render') render(event.data.args || {}); });
     send('streamlit:componentReady', {apiVersion:1});
   </script>
