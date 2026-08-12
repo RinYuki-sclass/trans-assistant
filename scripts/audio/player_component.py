@@ -1,4 +1,4 @@
-"""Bidirectional Streamlit component used by the audio playlist player."""
+"""Streamlit component used by the audio playlist player."""
 
 from __future__ import annotations
 
@@ -20,12 +20,13 @@ def render_audio_player(
     initial_index: int,
     project_title: str,
     project_id: int,
-) -> dict[str, Any] | None:
-    """Render the player and return its latest playback event, if any."""
-    return _audio_player(
+) -> None:
+    """Render a player whose playback state stays entirely in the browser."""
+    _audio_player(
         playlist=playlist,
         initialIndex=initial_index,
         projectTitle=project_title,
+        projectId=project_id,
         key=f"audio_playlist_player_{project_id}",
         default=None,
     )
