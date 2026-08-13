@@ -311,7 +311,7 @@ RPD_LIMITS = {
     "gemini-2.5-pro": 50,         
     "gemini-2.0-flash": 1500,     
     "gemini-3.1-flash-lite": 2000, 
-    "gemini-2.5-flash-lite": 2000, 
+    "gemini-3.5-flash-lite": 2000, 
 }
 
 def _load_rpd_counter() -> dict:
@@ -481,7 +481,7 @@ def generate_with_retry(model, contents, system_instruction, status_w=None, retr
     config = types.GenerateContentConfig(**config_kwargs)
     
     # Chuỗi dự phòng thông minh (Waterfall)
-    model_chain = ["gemini-2.5-flash", "gemini-2.0-flash", "gemini-3.1-flash-lite", "gemini-2.5-flash-lite"]
+    model_chain = ["gemini-2.5-flash", "gemini-2.0-flash", "gemini-3.1-flash-lite", "gemini-3.5-flash-lite"]
     
     if rotator and rotator.is_exhausted(model):
         for fallback in model_chain:
@@ -712,7 +712,7 @@ with st.sidebar:
     model_guide = {
         "gemini-3-flash-preview": "📝 Dịch Thuật",
         "gemini-2.5-flash": "🔍 QC Review",
-        "gemini-2.5-flash-lite": "🎨 Truyện Tranh",
+        "gemini-3.5-flash-lite": "🎨 Truyện Tranh",
         "gemini-3.1-flash-lite": "🛡️ Trợ thủ Fallback (500 RPD)"
     }
     
@@ -5534,7 +5534,7 @@ with tabs[12]:
             with sum_col1:
                 aud_summary_model = st.selectbox(
                     "Model:",
-                    ["gemini-2.5-flash-lite", "gemini-2.5-flash", "gemini-2.0-flash"],
+                    ["gemini-3.1-flash-lite", "gemini-3.5-flash-lite", "gemini-2.5-flash", "gemini-2.0-flash"],
                     key="aud_summary_model",
                 )
             with sum_col2:
@@ -6220,7 +6220,7 @@ audio{{width:100%;border-radius:8px;outline:none;margin-bottom:.6rem;accent-colo
                 with option_col1:
                     batch_summary_model = st.selectbox(
                         "Model:",
-                        ["gemini-2.5-flash-lite", "gemini-2.5-flash", "gemini-2.0-flash"],
+                        ["gemini-3.1-flash-lite", "gemini-3.5-flash-lite", "gemini-2.5-flash", "gemini-2.0-flash"],
                         key="aud_batch_summary_model",
                     )
                 with option_col2:
