@@ -528,14 +528,14 @@ def save_chapter(
     if row:
         if summary_text is None:
             db.execute(
-                "UPDATE audio_chapters SET audio_url=?, duration_seconds=?, text_content=?, voice_label=?, word_count=? WHERE id=?",
-                [audio_url, duration_seconds, text_content, voice_label, word_count, row["id"]],
+                "UPDATE audio_chapters SET chapter_number=?, title=?, audio_url=?, duration_seconds=?, text_content=?, voice_label=?, word_count=? WHERE id=?",
+                [chapter_number, title, audio_url, duration_seconds, text_content, voice_label, word_count, row["id"]],
             )
         else:
             summarized_at = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%S.%fZ")
             db.execute(
-                "UPDATE audio_chapters SET audio_url=?, duration_seconds=?, text_content=?, voice_label=?, word_count=?, summary_text=?, summary_model=?, summary_source_hash=?, summarized_at=? WHERE id=?",
-                [audio_url, duration_seconds, text_content, voice_label, word_count, summary_text, summary_model, summary_source_hash, summarized_at, row["id"]],
+                "UPDATE audio_chapters SET chapter_number=?, title=?, audio_url=?, duration_seconds=?, text_content=?, voice_label=?, word_count=?, summary_text=?, summary_model=?, summary_source_hash=?, summarized_at=? WHERE id=?",
+                [chapter_number, title, audio_url, duration_seconds, text_content, voice_label, word_count, summary_text, summary_model, summary_source_hash, summarized_at, row["id"]],
             )
         if isinstance(db, _SQLiteClient):
             db.commit()
@@ -552,6 +552,8 @@ def save_chapter(
         )
         if isinstance(db, _SQLiteClient):
             db.commit()
+        if new_row is None:
+            new_row = db.fetch_one("SELECT * FROM audio_chapters WHERE project_id=? AND chapter_slug=?", [project_id, chapter_slug])
         if new_row is None:
             raise RuntimeError("Database did not return the newly saved audio chapter")
         return _row_to_chapter(new_row)
