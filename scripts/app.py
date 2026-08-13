@@ -5224,6 +5224,7 @@ with tabs[12]:
                         st.warning("⚠️ Vui lòng chọn ít nhất 1 chương!")
                     else:
                         crawled_list = []
+                        failed_crawls = []
                         prog_bar = st.progress(0)
                         status_txt = st.empty()
 
@@ -5241,6 +5242,7 @@ with tabs[12]:
                                     'url': ch_info['url'],
                                 })
                             except Exception as _e:
+                                failed_crawls.append(ch_info['title'])
                                 st.error(f"❌ Lỗi crawl {ch_info['title']}: {str(_e)[:200]}")
                             prog_bar.progress((idx + 1) / len(selected_keys))
 
@@ -5251,7 +5253,9 @@ with tabs[12]:
                             st.session_state['aud_crawled_chapter_ids'] = [
                                 item['id'] for item in crawled_list
                             ]
-                            st.success(f"🎉 Đã crawl thành công **{len(crawled_list)}** chương!")
+                            st.success(f"🎉 Đã crawl thành công **{len(crawled_list)}/{len(selected_keys)}** chương!")
+                        if failed_crawls:
+                            st.error(f"⚠️ **Crawl thất bại {len(failed_crawls)} chương**: {', '.join(failed_crawls)}. Các chương này CHƯA được thêm vào danh sách tạo audio.")
 
             if 'aud_crawled_chapters_list' in st.session_state:
                 c_list = st.session_state['aud_crawled_chapters_list']
@@ -5686,18 +5690,43 @@ with tabs[12]:
                 ]
 
             existing_chapters = list_chapters(proj.id)
+            existing_by_slug = {ch.chapter_slug: ch for ch in existing_chapters}
+            existing_by_title_slug = {_slugify(ch.title): ch for ch in existing_chapters}
+            existing_by_num = {ch.chapter_number: ch for ch in existing_chapters}
+
             next_chapter_number = max((ch.chapter_number for ch in existing_chapters), default=0) + 1
-            used_chapter_slugs = {ch.chapter_slug for ch in existing_chapters}
+            allocated_slugs = set(existing_by_slug.keys())
+
             unique_tasks = []
-            for ch_slug, ch_title, ch_text in tasks:
-                base_ch_slug = ch_slug or "chapter"
-                unique_ch_slug = base_ch_slug
-                suffix = 2
-                while unique_ch_slug in used_chapter_slugs:
-                    unique_ch_slug = f"{base_ch_slug}-{suffix}"
-                    suffix += 1
-                used_chapter_slugs.add(unique_ch_slug)
-                unique_tasks.append((unique_ch_slug, ch_title, ch_text))
+            for raw_slug, ch_title, ch_text in tasks:
+                base_slug = raw_slug or "chapter"
+                matched_ch = None
+
+                if base_slug in existing_by_slug:
+                    matched_ch = existing_by_slug[base_slug]
+                elif _slugify(ch_title) in existing_by_title_slug:
+                    matched_ch = existing_by_title_slug[_slugify(ch_title)]
+                else:
+                    num_match = _re.search(r'(?:ch(?:apter)?\.?\s*|#\s*)(\d+)', ch_title, _re.IGNORECASE)
+                    if num_match:
+                        ch_num = int(num_match.group(1))
+                        if ch_num in existing_by_num:
+                            matched_ch = existing_by_num[ch_num]
+
+                if matched_ch:
+                    target_slug = matched_ch.chapter_slug
+                    target_num = matched_ch.chapter_number
+                else:
+                    target_slug = base_slug
+                    suffix = 2
+                    while target_slug in allocated_slugs:
+                        target_slug = f"{base_slug}-{suffix}"
+                        suffix += 1
+                    target_num = next_chapter_number
+                    next_chapter_number += 1
+
+                allocated_slugs.add(target_slug)
+                unique_tasks.append((target_slug, target_num, ch_title, ch_text))
             tasks = unique_tasks
 
             total_tasks = len(tasks)
@@ -5707,8 +5736,8 @@ with tabs[12]:
             summary_completed = 0
             summary_failed = []
 
-            for idx, (ch_slug, ch_title, ch_text) in enumerate(tasks):
-                prog_bar.progress(idx / total_tasks, text=f"🔊 Synthesizing: {ch_title}…")
+            for idx, (ch_slug, ch_number, ch_title, ch_text) in enumerate(tasks):
+                prog_bar.progress(min(1.0, idx / total_tasks), text=f"🔊 Synthesizing: {ch_title}…")
                 try:
                     mp3_bytes = synthesize_text(
                         text=ch_text,
@@ -5724,7 +5753,7 @@ with tabs[12]:
                     failed_tasks.append(ch_title)
                     continue
 
-                prog_bar.progress((idx + 0.6) / total_tasks, text=f"☁️ Uploading to R2: {ch_title}…")
+                prog_bar.progress(min(1.0, (idx + 0.6) / total_tasks), text=f"☁️ Uploading to R2: {ch_title}…")
                 try:
                     audio_url = upload_mp3(mp3_bytes, proj_slug, ch_slug)
                 except Exception as _r2e:
@@ -5736,7 +5765,7 @@ with tabs[12]:
                 chapter_summary = None
                 chapter_summary_hash = None
                 if aud_generate_summaries:
-                    prog_bar.progress((idx + 0.8) / total_tasks, text=f"📝 Summarizing: {ch_title}…")
+                    prog_bar.progress(min(1.0, (idx + 0.8) / total_tasks), text=f"📝 Summarizing: {ch_title}…")
                     try:
                         chapter_summary_hash = summary_source_hash(ch_text)
 
@@ -5764,7 +5793,7 @@ with tabs[12]:
                 try:
                     save_chapter(
                         project_id=proj.id,
-                        chapter_number=next_chapter_number + completed_tasks,
+                        chapter_number=ch_number,
                         chapter_slug=ch_slug,
                         title=ch_title,
                         audio_url=audio_url,
@@ -5782,7 +5811,7 @@ with tabs[12]:
                     continue
 
                 completed_tasks += 1
-                prog_bar.progress((idx + 1) / total_tasks, text=f"✅ Xong: {ch_title}")
+                prog_bar.progress(min(1.0, (idx + 1) / total_tasks), text=f"✅ Xong: {ch_title}")
 
             if failed_tasks:
                 prog_bar.progress(1.0, text=f"⚠️ Hoàn thành {completed_tasks}/{total_tasks} chương")
