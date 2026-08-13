@@ -5056,8 +5056,8 @@ with tabs[12]:
         _sys.path.insert(0, _audio_mod_dir)
 
     try:
-        from audio.db          import init_db, upsert_project, create_project, update_project_source_url, update_project_pronunciation_map, save_chapter, save_chapter_summary, list_projects, list_chapters, save_playback_state, get_playback_state, get_latest_listened_chapter, get_latest_listened_all_projects, delete_chapter, delete_chapters, delete_project
-        from audio.tts_engine  import synthesize_text, synthesize_sample, VOICE_NAMES, VOICES
+        from audio.db          import init_db, upsert_project, create_project, update_project_source_url, update_project_pronunciation_map, save_chapter, save_chapter_summary, list_projects, list_chapters, get_playback_state, get_latest_listened_chapter, get_latest_listened_all_projects, delete_chapter, delete_chapters, delete_project
+        from audio.tts_engine  import synthesize_text, synthesize_sample, prepare_text_for_speech, VOICE_NAMES, VOICES
         from audio.crawler     import crawl_chapter, fetch_series_chapters, _fetch_zenith_chapter_by_id_or_slug
         from audio.r2_uploader import upload_mp3, delete_mp3, ensure_playable_url
         from audio.summarizer  import estimate_tokens, summarize_chapter, summary_source_hash
@@ -5459,6 +5459,67 @@ with tabs[12]:
 
         custom_name_map = _parse_custom_name_map(custom_name_map_raw)
 
+        # Let users audition the exact names/phrases they are tuning instead of
+        # relying only on the generic voice sample below.
+        _pronunciation_seed = ", ".join(list(custom_name_map)[:4])
+        _pronunciation_test_key = f"{_map_widget_key}_pronunciation_test"
+        _pronunciation_result_key = f"{_map_widget_key}_pronunciation_result"
+        with st.container(border=True):
+            st.markdown("##### 🎧 Kiểm tra phát âm")
+            st.caption(
+                "Nhập tên hoặc một câu ngắn để nghe với pronunciation map và cài đặt giọng hiện tại."
+            )
+            pronunciation_test_text = st.text_input(
+                "Nội dung cần nghe thử:",
+                value=_pronunciation_seed,
+                placeholder="Ví dụ: Hyunjae called Taewon.",
+                key=_pronunciation_test_key,
+            ).strip()
+
+            if pronunciation_test_text:
+                pronunciation_processed_text = prepare_text_for_speech(
+                    pronunciation_test_text,
+                    language_code=lang_code,
+                    custom_map=custom_name_map,
+                    use_default_korean=use_korean_rules,
+                    enhance_expressive_speech=enhance_expressive_speech,
+                )
+                st.caption("TTS sẽ đọc:")
+                st.code(pronunciation_processed_text, language=None)
+
+            if st.button(
+                "🔊 Nghe thử phát âm",
+                key=f"{_pronunciation_test_key}_button",
+                use_container_width=True,
+                disabled=not bool(pronunciation_test_text),
+            ):
+                with st.spinner("Đang tạo bản nghe thử phát âm..."):
+                    try:
+                        pronunciation_audio = synthesize_sample(
+                            voice_label=aud_voice,
+                            sample_text=pronunciation_test_text,
+                            speaking_rate=aud_rate,
+                            pitch=aud_pitch,
+                            custom_map=custom_name_map,
+                            use_default_korean=use_korean_rules,
+                            enhance_expressive_speech=enhance_expressive_speech,
+                        )
+                        st.session_state[_pronunciation_result_key] = {
+                            "audio": pronunciation_audio,
+                            "source": pronunciation_test_text,
+                            "processed": pronunciation_processed_text,
+                        }
+                    except Exception as _pte:
+                        st.error(f"❌ Lỗi thử phát âm: {_pte}")
+
+            pronunciation_result = st.session_state.get(_pronunciation_result_key)
+            if pronunciation_result:
+                st.audio(pronunciation_result["audio"], format="audio/mp3")
+                if pronunciation_result["source"] != pronunciation_test_text:
+                    st.caption(
+                        f"Bản audio phía trên được tạo từ: {pronunciation_result['source']}"
+                    )
+
         c_info, c_test = st.columns([3, 2])
         with c_info:
             st.caption(f"🎤 Model: `{active_voice_name}` · Rate: `{aud_rate}x` · Pitch: `{aud_pitch:+.1f}st`")
@@ -5737,13 +5798,9 @@ with tabs[12]:
                     if summary_failed:
                         st.warning(f"Summary thất bại: {', '.join(summary_failed)}. Có thể tạo lại trong tab **📝 Chapter Summaries**.")
                 st.info("👉 Chuyển sang tab **📻 Playlist & Player** để nghe.")
-                # Only clear the batch after every selected chapter succeeds.
-                st.session_state.pop('aud_crawl_result', None)
-                st.session_state.pop('aud_series_data', None)
-                st.session_state.pop('aud_crawled_chapters_list', None)
-                st.session_state.pop('aud_crawled_chapter_ids', None)
-                st.session_state.pop('aud_chapter_list_source_url', None)
-                st.session_state.pop('aud_na_texts', None)
+                # Keep the complete input batch and selection in session state.
+                # This lets the user continue from the successful conversion
+                # without having to crawl, paste, or select the chapters again.
 
     # ╔══════════════════════════════════════════════════════════════╗
     # ║  SUB-TAB 1 – PLAYLIST & PLAYER                             ║
@@ -5933,23 +5990,15 @@ audio{{width:100%;border-radius:8px;outline:none;margin-bottom:.6rem;accent-colo
                 # Expand to the complete playlist instead of nesting a scrolling list.
                 _player_h = 310 + len(chapters) * 58
                 from audio.player_component import render_audio_player
-                _player_event = render_audio_player(
+                # Playback progress is persisted by the component in browser
+                # storage. It deliberately sends no component-value events, so
+                # listening never triggers a Streamlit rerun/loading cycle.
+                render_audio_player(
                     playlist=_ch_playlist,
                     initial_index=sel_ch_idx,
                     project_title=sel_proj.title,
                     project_id=sel_proj.id,
                 )
-                if isinstance(_player_event, dict):
-                    _event_id = str(_player_event.get("eventId", ""))
-                    _event_state_key = f"aud_player_event_{sel_proj.id}"
-                    if _event_id and st.session_state.get(_event_state_key) != _event_id:
-                        _event_chapter_id = int(_player_event.get("chapterId", 0))
-                        _valid_chapter_ids = {ch.id for ch in chapters}
-                        if _event_chapter_id in _valid_chapter_ids:
-                            _event_position = max(0.0, float(_player_event.get("positionSec", 0.0)))
-                            save_playback_state(_event_chapter_id, _event_position)
-                            st.session_state[_event_state_key] = _event_id
-                            st.rerun()
 
 
 
