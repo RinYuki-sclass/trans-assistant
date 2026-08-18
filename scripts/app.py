@@ -18,6 +18,7 @@ def now_gmt7():
     return datetime.now(timezone(timedelta(hours=7)))
 from dotenv import load_dotenv
 import re
+_re = re
 import shutil
 
 # ============================================================
