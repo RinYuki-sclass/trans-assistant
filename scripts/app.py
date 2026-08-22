@@ -20,6 +20,41 @@ from dotenv import load_dotenv
 import re
 _re = re
 import shutil
+from PIL import Image, ImageFile
+ImageFile.LOAD_TRUNCATED_IMAGES = True
+Image.MAX_IMAGE_PIXELS = None
+
+def render_safe_image(image_input, caption=None, use_container_width=True):
+    """
+    Safely renders an image in Streamlit, automatically handling images exceeding
+    Pillow JPEG 65,500px dimension limits (common in long manhwa strips).
+    """
+    try:
+        if isinstance(image_input, str) and os.path.exists(image_input):
+            with Image.open(image_input) as img:
+                w, h = img.size
+                if max(w, h) > 60000:
+                    scale = 60000.0 / max(w, h)
+                    new_size = (max(1, int(w * scale)), max(1, int(h * scale)))
+                    resized_img = img.resize(new_size, Image.Resampling.BILINEAR)
+                    st.image(resized_img, caption=caption, use_container_width=use_container_width)
+                    return
+        st.image(image_input, caption=caption, use_container_width=use_container_width)
+    except Exception as e:
+        try:
+            if isinstance(image_input, str) and os.path.exists(image_input):
+                with Image.open(image_input) as img:
+                    w, h = img.size
+                    max_dim = 40000
+                    if max(w, h) > max_dim:
+                        scale = float(max_dim) / max(w, h)
+                        new_size = (max(1, int(w * scale)), max(1, int(h * scale)))
+                        img = img.resize(new_size, Image.Resampling.BILINEAR)
+                    st.image(img, caption=caption, use_container_width=use_container_width, output_format="PNG")
+            else:
+                st.error(f"Không thể hiển thị ảnh: {e}")
+        except Exception as err2:
+            st.error(f"⚠️ Lỗi hiển thị ảnh ({os.path.basename(str(image_input))}): {err2}")
 
 # ============================================================
 # CONFIG & PATHS
@@ -308,9 +343,8 @@ _rpd_lock = get_rpd_lock()
 
 # RPD limits for each model per API key
 RPD_LIMITS = {
-    "gemini-2.5-flash": 1500,     # Đây là bản 1.5 Flash (ổn định nhất)
+    "gemini-2.5-flash": 1500,     # Đây là bản Flash ổn định nhất
     "gemini-2.5-pro": 50,         
-    "gemini-2.0-flash": 1500,     
     "gemini-3.1-flash-lite": 2000, 
     "gemini-3.5-flash-lite": 2000, 
 }
@@ -482,7 +516,7 @@ def generate_with_retry(model, contents, system_instruction, status_w=None, retr
     config = types.GenerateContentConfig(**config_kwargs)
     
     # Chuỗi dự phòng thông minh (Waterfall)
-    model_chain = ["gemini-2.5-flash", "gemini-2.0-flash", "gemini-3.1-flash-lite", "gemini-3.5-flash-lite"]
+    model_chain = ["gemini-2.5-flash", "gemini-3.1-flash-lite", "gemini-3.5-flash-lite", "gemini-2.5-pro"]
     
     if rotator and rotator.is_exhausted(model):
         for fallback in model_chain:
@@ -529,6 +563,14 @@ def generate_with_retry(model, contents, system_instruction, status_w=None, retr
                 else:
                     if status_w: status_w.error(f"☠️ [{key_label}] Key duy nhất đã bị khóa! Hãy thay Key mới.")
                     return ""
+            elif "404" in err_str or "not_found" in err_str.lower() or "no longer available" in err_str.lower():
+                # Model không còn tồn tại / bị khai tử, tự động chuyển model khả dụng trong model_chain
+                for fallback in model_chain:
+                    if fallback != model:
+                        if status_w: status_w.warning(f"⚠️ Model `{model}` không còn khả dụng (404). Tự động chuyển sang `{fallback}`...")
+                        model = fallback
+                        break
+                time.sleep(1)
             elif "429" in err_str or "503" in err_str or "unavailable" in err_str.lower() or "quota" in err_str.lower() or "resource_exhausted" in err_str.lower():
                 # Mark this key/model as exhausted if it's a quota / resource exhausted error
                 if rotator and hasattr(rotator, 'mark_exhausted'):
@@ -1063,7 +1105,7 @@ with tabs[2]:
 
         qc_model = st.selectbox(
             "🤖 AI Model (QC):",
-            ["gemini-2.5-flash", "gemini-2.0-flash", "gemini-3.1-flash-lite"],
+            ["gemini-2.5-flash", "gemini-3.1-flash-lite", "gemini-3.5-flash-lite"],
             index=0,
             key="q_model_sel",
             help="gemini-2.5-flash (tức 1.5-flash) thường ổn định và ít lỗi token nhất."
@@ -1599,7 +1641,7 @@ with tabs[5]:
             c1, c2 = st.columns([2, 1])
             with c1:
                 target_model = st.selectbox("🤖 AI Model (Truyện tranh):", 
-                                          ["gemini-2.5-flash", "gemini-2.0-flash", "gemini-3.1-flash-lite"], 
+                                          ["gemini-2.5-flash", "gemini-3.1-flash-lite", "gemini-3.5-flash-lite"], 
                                           index=0, help="2.5-flash (tức 1.5-flash) thường ổn định và ít lỗi token nhất.")
             with c2:
                 process_btn = st.button("🚀 Bắt đầu Quét & Dịch", type="primary", use_container_width=True)
@@ -1745,10 +1787,20 @@ with tabs[5]:
                                     "CRITICAL OCR RULE: You must be extremely precise with Korean transcription. Look for every small dash or dot. Do not guess or hallucinate based on context if the text is clear. "
                                     "CRITICAL FORMAT RULE: If a single speech bubble contains multiple lines of text, you MUST join them into a SINGLE line separated by a space in both the KR and VI output. Do NOT preserve line breaks within the same dialogue box.\n"
                                     "Format your output cleanly and exactly like this:\n"
-                                    "[Khung thoại]\n"
+                                    "[]\n"
                                     "KR: <Exact Korean transcription in a SINGLE line>\n"
                                     "<Natural Vietnamese translation in a SINGLE line>\n\n"
-                                    "Rules: Follow the provided glossary. Ensure pronouns match the Korean nuances and glossary rules. Avoid excessive commas and pauses in Vietnamese translations; make sentences flow naturally."
+                                    "CRITICAL RULES:\n"
+                                    "1. Punctuation Matching (SUPREME RULE): Ensure punctuation marks and counts (!, ?, ..., ~, commas, quotes, ending marks) in the Vietnamese translation strictly match the Korean KR line.\n"
+                                    "2. '형' (Hyung): When Han Yoohyun addresses Han Yoojin as '형', always preserve it as 'Hyung' in Vietnamese.\n"
+                                    "3. Name Suffixes: Keep Korean name suffixes attached as romanized forms: '-아'/'-야' -> '-ah'/'-yah' (e.g. '유현아' -> 'Yoohyun-ah'), '-씨' -> '-ssi' (e.g. '성현제 씨' -> 'Sung Hyunjae-ssi', '성모 씨' -> 'Sungmo-ssi', '한유진 씨' -> 'Han Yoojin-ssi'), '-군' -> '-gun' (e.g. '한유진 군' -> 'Han Yoojin-gun').\n"
+                                    "4. Politeness & Nuance: For sentences ending in -요, do not overuse 'ạ'; keep Vietnamese natural. For formal honorifics like -했습니까, -하십시오, use complete subject-predicate structure and polite phrasing instead of adding 'ạ'.\n"
+                                    "5. Pronouns:\n"
+                                    "   - Han Yoojin (YJ) <-> Han Yoohyun (YH): Anh - Em (Yoohyun-ah / em trai) & Em - Anh (Hyung).\n"
+                                    "   - Sung Hyunjae (HJ) -> Han Yoojin (YJ): Tôi - Cậu (Han Yoojin-gun). Han Yoojin -> Sung Hyunjae: Tôi - Anh (Sung Hyunjae-ssi / Sungmo-ssi).\n"
+                                    "   - Park Yerim (YR) -> Han Yoojin (YJ): Tôi/Bọn mình - Chú/Ahjussi. Park Yerim -> Han Yoohyun: Tôi - Anh. Park Yerim -> Sung Hyunjae: Cháu - Chú.\n"
+                                    "   - Song Taewon (TW) <-> Han Yoojin (YJ): Tôi - Cậu (Han Yoojin-ssi) & Tôi - Anh.\n"
+                                    "   - Yoo Myungwoo (YMW): Tự xưng 'Tôi'."
                                 )
                                 prompt = f"--- GLOSSARY ---\n{glossary}\n\n--- NOTES ---\n{notes}\n\n--- TASK ---\nExtract dialogues from this image and translate them to Vietnamese. Keep them in reading order (top to bottom, right to left generally)."
                                 contents = [optimized_img, prompt]
@@ -1849,12 +1901,23 @@ with tabs[5]:
                                         "You are an expert Manhwa/Webtoon translator and typesetter assistant. "
                                         "You extract Korean text strictly from speech bubbles or important narrative boxes and translate it into natural, flowing Vietnamese. "
                                         "Ignore small background SFX (Sound Effects) unless they are crucial to the plot. "
-                                        "CRITICAL RULE: If a single speech bubble contains multiple lines of text, you MUST join them into a SINGLE line separated by a space in both the KR and VI output. Do NOT preserve line breaks within the same dialogue box.\n"
+                                        "CRITICAL OCR RULE: You must be extremely precise with Korean transcription. Look for every small dash or dot. Do not guess or hallucinate based on context if the text is clear. "
+                                        "CRITICAL FORMAT RULE: If a single speech bubble contains multiple lines of text, you MUST join them into a SINGLE line separated by a space in both the KR and VI output. Do NOT preserve line breaks within the same dialogue box.\n"
                                         "Format your output cleanly and exactly like this:\n"
-                                        "[Khung thoại]\n"
-                                        "KR: <Korean text in a SINGLE line>\n"
-                                        "<Vietnamese translation in a SINGLE line>\n\n"
-                                        "Rules: Follow the provided glossary. Ensure pronouns match the Korean nuances and glossary rules. Avoid excessive commas and pauses in Vietnamese translations; make sentences flow naturally."
+                                        "[]\n"
+                                        "KR: <Exact Korean transcription in a SINGLE line>\n"
+                                        "<Natural Vietnamese translation in a SINGLE line>\n\n"
+                                        "CRITICAL RULES:\n"
+                                        "1. Punctuation Matching (SUPREME RULE): Ensure punctuation marks and counts (!, ?, ..., ~, commas, quotes, ending marks) in the Vietnamese translation strictly match the Korean KR line.\n"
+                                        "2. '형' (Hyung): When Han Yoohyun addresses Han Yoojin as '형', always preserve it as 'Hyung' in Vietnamese.\n"
+                                        "3. Name Suffixes: Keep Korean name suffixes attached as romanized forms: '-아'/'-야' -> '-ah'/'-yah' (e.g. '유현아' -> 'Yoohyun-ah'), '-씨' -> '-ssi' (e.g. '성현제 씨' -> 'Sung Hyunjae-ssi', '성모 씨' -> 'Sungmo-ssi', '한유진 씨' -> 'Han Yoojin-ssi'), '-군' -> '-gun' (e.g. '한유진 군' -> 'Han Yoojin-gun').\n"
+                                        "4. Politeness & Nuance: For sentences ending in -요, do not overuse 'ạ'; keep Vietnamese natural. For formal honorifics like -했습니까, -하십시오, use complete subject-predicate structure and polite phrasing instead of adding 'ạ'.\n"
+                                        "5. Pronouns:\n"
+                                        "   - Han Yoojin (YJ) <-> Han Yoohyun (YH): Anh - Em (Yoohyun-ah / em trai) & Em - Anh (Hyung).\n"
+                                        "   - Sung Hyunjae (HJ) -> Han Yoojin (YJ): Tôi - Cậu (Han Yoojin-gun). Han Yoojin -> Sung Hyunjae: Tôi - Anh (Sung Hyunjae-ssi / Sungmo-ssi).\n"
+                                        "   - Park Yerim (YR) -> Han Yoojin (YJ): Tôi/Bọn mình - Chú/Ahjussi. Park Yerim -> Han Yoohyun: Tôi - Anh. Park Yerim -> Sung Hyunjae: Cháu - Chú.\n"
+                                        "   - Song Taewon (TW) <-> Han Yoojin (YJ): Tôi - Cậu (Han Yoojin-ssi) & Tôi - Anh.\n"
+                                        "   - Yoo Myungwoo (YMW): Tự xưng 'Tôi'."
                                     )
                                     
                                     prompt = f"--- GLOSSARY ---\n{glossary}\n\n--- NOTES ---\n{notes}\n\n--- TASK ---\nExtract dialogues from this image and translate them to Vietnamese. Keep them in reading order (top to bottom, right to left generally)."
@@ -1896,7 +1959,7 @@ with tabs[5]:
                         st.markdown(f"🖼️ **{img_name}**")
                         c1, c2 = st.columns([1, 1])
                         with c1:
-                            st.image(os.path.join(sess_img_dir, img_name), use_container_width=True)
+                            render_safe_image(os.path.join(sess_img_dir, img_name), use_container_width=True)
                         with c2:
                             st.markdown('<div class="sticky-anchor"></div>', unsafe_allow_html=True)
                             current_val = parsed_data.get(img_name, "")
@@ -2301,7 +2364,7 @@ with tabs[8]:
                 with st.expander("👁️ Xem trước các mảnh đã cắt"):
                     files = sorted([f for f in os.listdir(preview_dir) if f.lower().endswith(('.png', '.jpg', '.jpeg', '.webp'))])
                     for f in files:
-                        st.image(os.path.join(preview_dir, f), caption=f)
+                        render_safe_image(os.path.join(preview_dir, f), caption=f)
             
         with c1:
             st.info("👈 Click trực tiếp lên ảnh để đặt mốc. Vạch mốc sẽ hiện ở thanh Thước bên trái.")
@@ -3132,7 +3195,7 @@ with tabs[11]:
 
                     target_model_t = st.selectbox(
                         "AI Model (dịch):",
-                        ["gemini-2.5-flash", "gemini-2.5-pro", "gemini-2.0-flash"],
+                        ["gemini-2.5-flash", "gemini-2.5-pro", "gemini-3.1-flash-lite"],
                         key="na_t_model"
                     )
 
@@ -4093,7 +4156,7 @@ with tabs[10]:
     with qcd_s3:
         qcd_model = st.selectbox(
             "🤖 AI Model (QC):",
-            ["gemini-2.5-flash", "gemini-2.0-flash", "gemini-3.1-flash-lite"],
+            ["gemini-2.5-flash", "gemini-3.1-flash-lite", "gemini-3.5-flash-lite"],
             index=0,
             key="qcd_model_sel",
             help="gemini-2.5-flash (tức 1.5-flash) thường ổn định và ít lỗi token nhất."
@@ -5600,7 +5663,7 @@ with tabs[12]:
             with sum_col1:
                 aud_summary_model = st.selectbox(
                     "Model:",
-                    ["gemini-3.1-flash-lite", "gemini-3.5-flash-lite", "gemini-2.5-flash", "gemini-2.0-flash"],
+                    ["gemini-3.1-flash-lite", "gemini-3.5-flash-lite", "gemini-2.5-flash"],
                     key="aud_summary_model",
                 )
             with sum_col2:
@@ -6299,7 +6362,7 @@ audio{{width:100%;border-radius:8px;outline:none;margin-bottom:.6rem;accent-colo
                 with option_col1:
                     batch_summary_model = st.selectbox(
                         "Model:",
-                        ["gemini-3.1-flash-lite", "gemini-3.5-flash-lite", "gemini-2.5-flash", "gemini-2.0-flash"],
+                        ["gemini-3.1-flash-lite", "gemini-3.5-flash-lite", "gemini-2.5-flash"],
                         key="aud_batch_summary_model",
                     )
                 with option_col2:
