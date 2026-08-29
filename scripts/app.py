@@ -2248,19 +2248,28 @@ with tabs[8]:
         
     upl_img = st.file_uploader("🖼️ Chọn ảnh manhwa dài để cắt", type=["png", "jpg", "jpeg", "webp"], key="cutter_uploader")
     
-    if upl_img:
+    @st.fragment
+    def render_manhwa_cutter(uploaded_file):
+        if not uploaded_file:
+            return
+            
         # State tracking points
-        if 'cut_points' not in st.session_state or st.session_state.get('last_upl_img') != upl_img.name:
+        img_id = f"{uploaded_file.name}_{getattr(uploaded_file, 'size', '')}"
+        if 'cut_points' not in st.session_state or st.session_state.get('last_upl_img_id') != img_id:
             st.session_state['cut_points'] = []
-            st.session_state['last_upl_img'] = upl_img.name
+            st.session_state['last_upl_img_id'] = img_id
+            st.session_state['last_coord_click'] = None
+            st.session_state['cutter_widget_ver'] = st.session_state.get('cutter_widget_ver', 0) + 1
             
             # NÉN ẢNH VÀ RESIZE ĐỂ HIỂN THỊ (Giảm lag tối đa cho Web)
-            sys_img = PIL.Image.open(upl_img)
+            sys_img = PIL.Image.open(uploaded_file)
             if sys_img.mode != 'RGB':
                 sys_img = sys_img.convert('RGB')
                 
             orig_w, orig_h = sys_img.size
-            max_display_width = 1000
+            st.session_state['orig_img_size'] = (orig_w, orig_h)
+            
+            max_display_width = 800
             display_scale = 1.0
             if orig_w > max_display_width:
                 display_scale = max_display_width / orig_w
@@ -2270,18 +2279,13 @@ with tabs[8]:
             
             if display_scale < 1.0:
                 new_size = (int(orig_w * display_scale), int(orig_h * display_scale))
-                # Dùng NEAREST cho tốc độ nhanh nhất như yêu cầu "giảm tối đa chất lượng"
-                sys_img = sys_img.resize(new_size, PIL.Image.NEAREST)
+                sys_img = sys_img.resize(new_size, PIL.Image.BILINEAR)
                 
             import io
             buf = io.BytesIO()
-            sys_img.save(buf, format="JPEG", quality=40, optimize=True)
+            sys_img.save(buf, format="JPEG", quality=55, optimize=True)
             buf.seek(0)
             st.session_state['disp_img_cache'] = PIL.Image.open(buf)
-            
-        original_img = PIL.Image.open(upl_img)
-        if original_img.mode != 'RGB':
-            original_img = original_img.convert('RGB')
             
         c1, c2 = st.columns([2, 1])
         
@@ -2293,11 +2297,15 @@ with tabs[8]:
                 if st.button("⏪ Hoàn tác", use_container_width=True):
                     if st.session_state['cut_points']:
                         st.session_state['cut_points'].pop()
-                        st.rerun()
+                        st.session_state['last_coord_click'] = None
+                        st.session_state['cutter_widget_ver'] = st.session_state.get('cutter_widget_ver', 0) + 1
+                        st.rerun(scope="fragment")
             with cb2:
                 if st.button("🗑️ Xóa sạch", use_container_width=True):
                     st.session_state['cut_points'] = []
-                    st.rerun()
+                    st.session_state['last_coord_click'] = None
+                    st.session_state['cutter_widget_ver'] = st.session_state.get('cutter_widget_ver', 0) + 1
+                    st.rerun(scope="fragment")
                     
             st.write(f"📍 Đang có: **{len(st.session_state['cut_points'])} điểm cắt**")
             # Hiển thị list vị trí cắt để User có cơ sở kiểm chứng
@@ -2309,56 +2317,46 @@ with tabs[8]:
                 if not st.session_state['cut_points']:
                     st.warning("⚠️ Bạn chưa click chọn điểm cắt nào trên ảnh!")
                 else:
-                    base_name = os.path.splitext(upl_img.name)[0]
-                    ext = os.path.splitext(upl_img.name)[1]
-                    
-                    # Lưu trong output/<tên-ảnh>_cut
-                    out_dir = os.path.join(BASE_DIR, 'output', f"{base_name}_cut")
-                    os.makedirs(out_dir, exist_ok=True)
-                    
-                    w, h = original_img.size
-                    pts = [0] + sorted(st.session_state['cut_points']) + [h]
-                    part_num = 1
-                    
-                    for i in range(len(pts) - 1):
-                        y1, y2 = pts[i], pts[i+1]
-                        if y2 <= y1: continue
-                        
-                        box = (0, y1, w, y2)
-                        cropped = original_img.crop(box)
-                        
-                        out_path = os.path.join(out_dir, f"{base_name}_{part_num:03d}{ext}")
-                        if ext.lower() in ['.jpg', '.jpeg']:
-                            cropped.save(out_path, quality=100, subsampling=0)
-                        elif ext.lower() in ['.webp']:
-                            cropped.save(out_path, quality=100, lossless=True)
-                        else:
-                            cropped.save(out_path)
+                    with st.spinner("⏳ Đang tải ảnh gốc và cắt các mảnh..."):
+                        # CHỈ LOAD ẢNH GỐC FULL ĐỘ PHÂN GIẢI KHI THỰC SỰ BẮT ĐẦU CẮT
+                        original_img = PIL.Image.open(uploaded_file)
+                        if original_img.mode != 'RGB':
+                            original_img = original_img.convert('RGB')
                             
-                        part_num += 1
+                        base_name = os.path.splitext(uploaded_file.name)[0]
+                        ext = os.path.splitext(uploaded_file.name)[1]
                         
-                    st.success(f"🎉 Thành công! Đã cắt thành **{part_num-1}** mảnh.")
-                    st.info(f"📂 Đã lưu tại thư mục nội bộ:\n`{out_dir}`")
-                    
-                    # Tạo file ZIP để User tải về máy luôn
-                    import shutil
-                    zip_name = f"{base_name}_cut_package"
-                    zip_path = os.path.join(BASE_DIR, 'output', zip_name)
-                    shutil.make_archive(zip_path, 'zip', out_dir)
-                    
-                    with open(f"{zip_path}.zip", "rb") as f:
-                        st.download_button(
-                            label="⬇️ TẢI FILE ZIP CÁC PHẦN ĐÃ CẮT",
-                            data=f.read(),
-                            file_name=f"{zip_name}.zip",
-                            mime="application/zip",
-                            type="primary",
-                            use_container_width=True
-                        )
-                    st.balloons()
+                        # Lưu trong output/<tên-ảnh>_cut
+                        out_dir = os.path.join(BASE_DIR, 'output', f"{base_name}_cut")
+                        os.makedirs(out_dir, exist_ok=True)
+                        
+                        w, h = original_img.size
+                        pts = [0] + sorted(st.session_state['cut_points']) + [h]
+                        part_num = 1
+                        
+                        for i in range(len(pts) - 1):
+                            y1, y2 = pts[i], pts[i+1]
+                            if y2 <= y1: continue
+                            
+                            box = (0, y1, w, y2)
+                            cropped = original_img.crop(box)
+                            
+                            out_path = os.path.join(out_dir, f"{base_name}_{part_num:03d}{ext}")
+                            if ext.lower() in ['.jpg', '.jpeg']:
+                                cropped.save(out_path, quality=100, subsampling=0)
+                            elif ext.lower() in ['.webp']:
+                                cropped.save(out_path, quality=100, lossless=True)
+                            else:
+                                cropped.save(out_path)
+                                
+                            part_num += 1
+                            
+                        st.success(f"🎉 Thành công! Đã cắt thành **{part_num-1}** mảnh.")
+                        st.info(f"📂 Đã lưu tại thư mục nội bộ:\n`{out_dir}`")
+                        st.balloons()
             
             # Hiển thị list Preview các mảnh đã cắt nếu có
-            base_name_preview = os.path.splitext(upl_img.name)[0]
+            base_name_preview = os.path.splitext(uploaded_file.name)[0]
             preview_dir = os.path.join(BASE_DIR, 'output', f"{base_name_preview}_cut")
             if os.path.exists(preview_dir):
                 with st.expander("👁️ Xem trước các mảnh đã cắt"):
@@ -2409,17 +2407,22 @@ with tabs[8]:
                     </style>
                 """, unsafe_allow_html=True)
                 
+                cutter_key = f"img_cutter_{st.session_state.get('last_upl_img_id', 'none')}_{st.session_state.get('cutter_widget_ver', 0)}"
                 value = streamlit_image_coordinates(
                     disp_img, 
-                    key="img_cutter_permanent_display"
+                    key=cutter_key
                 )
             
-            if value is not None:
+            if value is not None and value != st.session_state.get('last_coord_click'):
+                st.session_state['last_coord_click'] = value
                 clicked_y = int(value['y'] / scale)
                 if clicked_y not in st.session_state['cut_points']:
                     st.session_state['cut_points'].append(clicked_y)
                     st.session_state['cut_points'].sort()
-                    st.rerun()
+                    st.rerun(scope="fragment")
+
+    if upl_img:
+        render_manhwa_cutter(upl_img)
 
 # =================== TAB 9: REFORMAT SCRIPT ===================
 with tabs[9]:
