@@ -550,8 +550,8 @@ class MistmintHavenCrawler:
     def extract_chapters_from_links(self, soup: BeautifulSoup) -> list[dict]:
         """Extract confirmed numeric chapter links belonging to this novel only."""
         chapters_by_url = {}
-        path_pattern = re.compile(
-            rf"^/novels/{re.escape(self.novel_slug)}/chapter-(\d+)/?$",
+        path_prefix_pattern = re.compile(
+            rf"^/novels/{re.escape(self.novel_slug)}/(.+?)/?$",
             re.IGNORECASE,
         )
         for link in soup.select("a[href]"):
@@ -559,10 +559,21 @@ class MistmintHavenCrawler:
             parsed = urlparse(chapter_url)
             if parsed.scheme != "https" or parsed.netloc.lower() != "www.mistminthaven.com":
                 continue
-            match = path_pattern.match(parsed.path)
+            match = path_prefix_pattern.match(parsed.path)
             if not match:
                 continue
-            chapter_number = int(match.group(1))
+            chapter_slug = match.group(1)
+            num_match = re.search(r"(?:chapter|ch)[-_](\d+(?:\.\d+)?)", chapter_slug, re.IGNORECASE)
+            if not num_match:
+                num_match = re.search(r"(\d+(?:\.\d+)?)", chapter_slug)
+            if not num_match:
+                link_text = link.get_text(" ", strip=True)
+                num_match = re.search(r"(?:chapter|ch\.?)\s*(\d+(?:\.\d+)?)", link_text, re.IGNORECASE)
+            if not num_match:
+                continue
+
+            val = float(num_match.group(1))
+            chapter_number = int(val) if val.is_integer() else val
             title = " ".join(link.get_text(" ", strip=True).split())
             chapters_by_url[chapter_url] = {
                 "chapter_number": chapter_number,
@@ -577,7 +588,7 @@ class MistmintHavenCrawler:
         escaped_slug = re.escape(self.novel_slug)
         pattern = re.compile(
             rf"(?:https://www\.mistminthaven\.com)?"
-            rf"(/novels/{escaped_slug}/chapter-(\d+)/?)",
+            rf"(/novels/{escaped_slug}/([a-zA-Z0-9_-]*?(?:chapter|ch)[-_](\d+(?:\.\d+)?)[a-zA-Z0-9_-]*)/?)",
             re.IGNORECASE,
         )
         for script in soup.find_all("script"):
@@ -586,7 +597,8 @@ class MistmintHavenCrawler:
                 continue
             raw = raw.replace(r"\/", "/")
             for match in pattern.finditer(raw):
-                number = int(match.group(2))
+                val = float(match.group(3))
+                number = int(val) if val.is_integer() else val
                 candidates.append({
                     "chapter_number": number,
                     "title": f"Chapter {number}",
@@ -627,19 +639,50 @@ class MistmintHavenCrawler:
                 if not isinstance(chapter, dict) or chapter.get("isHidden"):
                     continue
                 slug = str(chapter.get("slug") or "")
-                match = re.fullmatch(r"chapter-(\d+)", slug, re.IGNORECASE)
-                if not match:
+                raw_num = chapter.get("chapterNumber")
+                chapter_number = None
+                if raw_num is not None:
+                    try:
+                        val = float(str(raw_num).strip())
+                        chapter_number = int(val) if val.is_integer() else val
+                    except ValueError:
+                        pass
+
+                if chapter_number is None and slug:
+                    match = re.search(r"(?:chapter|ch)[-_](\d+(?:\.\d+)?)", slug, re.IGNORECASE)
+                    if not match:
+                        match = re.search(r"(\d+(?:\.\d+)?)", slug)
+                    if match:
+                        val = float(match.group(1))
+                        chapter_number = int(val) if val.is_integer() else val
+
+                if chapter_number is None:
                     continue
-                chapter_number = int(match.group(1))
-                subtitle = " ".join(str(chapter.get("title") or "").split())
-                title = f"Chapter {chapter_number}"
-                if subtitle:
-                    title = f"{title}: {subtitle}"
-                chapters.append({
+
+                raw_title = chapter.get("title")
+                subtitle = " ".join(str(raw_title).split()) if raw_title else ""
+                if subtitle and subtitle.lower() != "none":
+                    if re.match(rf"^(?:chapter|ch\.?)\s*{re.escape(str(chapter_number))}\b", subtitle, re.IGNORECASE):
+                        title = subtitle
+                    else:
+                        title = f"Chapter {chapter_number}: {subtitle}"
+                else:
+                    title = f"Chapter {chapter_number}"
+
+                item = {
                     "chapter_number": chapter_number,
                     "title": title,
                     "url": f"{self.novel_url}/{slug}",
-                })
+                }
+                if "price" in chapter:
+                    try:
+                        price = float(chapter.get("price") or 0)
+                        if price.is_integer():
+                            price = int(price)
+                        item["price"] = price
+                    except (ValueError, TypeError):
+                        pass
+                chapters.append(item)
         return self._deduplicate(chapters)
 
     @staticmethod
@@ -659,13 +702,15 @@ class MistmintHavenCrawler:
                 stacklevel=2,
             )
 
-        present = set(numbers)
-        missing = [number for number in range(min(numbers), max(numbers) + 1) if number not in present]
-        if missing:
-            warnings.warn(
-                "Missing chapter(s): " + ", ".join(map(str, missing)),
-                stacklevel=2,
-            )
+        int_numbers = [n for n in numbers if isinstance(n, int)]
+        if int_numbers:
+            present = set(int_numbers)
+            missing = [number for number in range(min(int_numbers), max(int_numbers) + 1) if number not in present]
+            if missing:
+                warnings.warn(
+                    "Missing chapter(s): " + ", ".join(map(str, missing)),
+                    stacklevel=2,
+                )
 
     def crawl(self) -> list[dict]:
         html = self.fetch()
@@ -698,7 +743,7 @@ def _fetch_mistmint_series_chapters(url: str) -> dict:
                 "chapter_number": chapter["chapter_number"],
                 "title": chapter["title"],
                 "slug": chapter["url"].rstrip("/").split("/")[-1],
-                "price": 0,
+                "price": chapter.get("price", 0),
                 "url": chapter["url"],
             }
             for chapter in chapters
