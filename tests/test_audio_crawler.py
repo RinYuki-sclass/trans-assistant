@@ -151,6 +151,48 @@ class MistmintCrawlerTests(unittest.TestCase):
             ],
         )
 
+    def test_parses_multivolume_and_side_story_slugs(self):
+        crawler = MistmintHavenCrawler("the-second-prince-wants-to-read-romance-novels")
+        payload = {
+            "data": [
+                {
+                    "volumeTitle": "Volume 1",
+                    "chapters": [
+                        {"slug": "volume-1-chapter-1", "chapterNumber": "1", "title": None, "price": 0, "isHidden": False},
+                        {"slug": "volume-1-chapter-30", "chapterNumber": "30", "title": "End of Volume 1", "price": 0, "isHidden": False},
+                    ]
+                },
+                {
+                    "volumeTitle": "Side Story",
+                    "chapters": [
+                        {"slug": "side-story-chapter-116", "chapterNumber": "116", "title": None, "price": 8, "isHidden": False},
+                        {"slug": "side-story-chapter-120", "chapterNumber": "120", "title": "End of Side Story", "price": 10, "isHidden": False},
+                    ]
+                }
+            ]
+        }
+
+        chapters = crawler._chapters_from_api_payload(payload)
+
+        self.assertEqual(len(chapters), 4)
+        self.assertEqual(chapters[0]["chapter_number"], 1)
+        self.assertEqual(chapters[0]["title"], "Chapter 1")
+        self.assertEqual(chapters[0]["url"], f"{crawler.novel_url}/volume-1-chapter-1")
+        self.assertEqual(chapters[0]["price"], 0)
+
+        self.assertEqual(chapters[1]["chapter_number"], 30)
+        self.assertEqual(chapters[1]["title"], "Chapter 30: End of Volume 1")
+        self.assertEqual(chapters[1]["price"], 0)
+
+        self.assertEqual(chapters[2]["chapter_number"], 116)
+        self.assertEqual(chapters[2]["title"], "Chapter 116")
+        self.assertEqual(chapters[2]["price"], 8)
+
+        self.assertEqual(chapters[3]["chapter_number"], 120)
+        self.assertEqual(chapters[3]["title"], "Chapter 120: End of Side Story")
+        self.assertEqual(chapters[3]["price"], 10)
+
+
 
 class HyacinthBloomSeriesTests(unittest.TestCase):
     def test_extracts_deduplicates_and_sorts_chapter_links(self):
