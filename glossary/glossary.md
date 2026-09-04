@@ -209,605 +209,619 @@ Kẻ trị thuỷ]
 - Hoàng Lâm (20-30 tuổi)
 - Sở Hoa Vân (20-30 tuổi)
 
-## 3. THUAT NGU VA TEN RIENG
-- 완벽한 양육자 | Perfect Caregiver -> Người nuôi dưỡng hoàn hảo
-- 라우치타스 | Lauchitas -> Rauchitas
-- 게이트석 | Gate Stone -> Môn thạch
-- 양육자 | Caregiver -> Người nuôi dưỡng
-- 부가스킬 | supplementary skill -> Kỹ năng bổ sung
-- 각성자 | Awakened -> Thức tỉnh giả
-- 마지막 보답 | Last Compensation -> Báo Đáp Lần Cuối
-- 버프 | buff -> buff
-- 효율 | effectiveness -> Hiệu quả
-- 힐러 | healer support -> Trị liệu sư
-- 흑혈염제 | Black Blood Flame Emperor -> Hắc Huyết Diễm Đế
-- 흑혈염 | Black Blood Flame -> Hắc Huyết Diễm Đế
-- 기간트 실드 | Gigante Shield -> Lá Chắn Khổng Lồ
-- 용종 | Dragon species -> Long chủng
-- 엘릭서 | elixir -> Thuốc tiên
-- 포션 | potion -> Thuốc trị thương, thuốc hồi phục
-- 칭호 | title -> Danh hiệu
-- 푸른 버들잎 | Azure Willow Leaves -> Lam Liễu Diệp
-- 드래곤 슬레이어 | Dragon Slayer -> Sát Long Nhân
-- 부여액 | Granting Potion -> Tiền thưởng
-- 대검 | Greatsword -> Đại kiếm
-- 붉은 용의 대검 | Red Dragon’s Greatsword -> Đại kiếm của Xích Long
-- 소원석 | Wish Stone -> Đá Ước Nguyện
-- 전설 | Legendary-rank -> Huyền thoại
-- 신화 | Myth-rank -> Thần thoại
-- 인벤토리 | inventory -> kho đồ
-- 상태창 | status window -> Cửa sổ trạng thái
-- 길드장 | guild leader -> Hội trưởng
-- 해연(垓) | Haeyeon -> Haeyeon
-- 길드 | guild -> công hội
-- 각성 브로커 | Awakening broker -> môi giới thức tỉnh
-- 비각성자 | Unawakened -> Phi thức tỉnh giả
-- 던전 | dungeons -> hầm ngục
-- 한국 헌터 협회 | Korean Hunter Association -> Hiệp hội Thợ săn Hàn Quốc
-- 각성시설 | Awakening facilities -> Cơ sở thức tỉnh
-- 내 새끼가 최고 | My Brat Is The Best -> Đứa Nhỏ Của Tôi Là Nhất
-- 체력 | Stamina -> Thể lực
-- 근력 | Strength -> Sức mạnh
-- 민첩 | Agility -> Nhanh nhẹn
-- 정신력 | Mentality -> Tinh thần
-- 마력 | Mana -> Mana/Ma lực
-- 정신력 업 | Mentality Up(E) -> Tăng Cường Tinh Thần
-- 민첩 업 | Agility Up(E) -> Tăng Cường Nhanh Nhẹn
-- 성녀 | The Saintess -> Thánh nữ
-- 에밀리 스펜스 | Emily Spence -> Emily Spence
-- 스탯 칭호 | Stat titles -> Danh hiệu chỉ số
-- 스킬 칭호 | skill titles -> Danh hiệu kỹ năng
-- 독 저항 | Poison Resistance(L) -> Kháng Độc
-- 저주 저항 | Curse Resistance(L) -> Kháng Nguyền
-- 공포 저항 | Fear Resistance(L) -> Kháng Sợ Hãi
-- 라우치타스의 천적 | Lauchitas’ Natural Enemy(SS) -> Thiên Địch Của Rauchitas
-- 마지막 보은 | Last Repayment(L) -> Sự đền đáp cuối cùng
-- 될성부른 떡잎 | Promising Sprout(S) -> Mầm non triển vọng
-- 방어 스킬 | defensive skills -> kỹ năng phòng thủ
-- 보조 스킬 | support skills -> kỹ năng hỗ trợ, phụ trợ
-- 현재 스탯 등급 | Current stat rank -> Cấp bậc chỉ số hiện tại
-- 성장 가능 스탯 등급 | Awakening possible to stat rank -> Triển vọng thức tỉnh
-- 김성한 | Kim Sunghan -> Kim Sunghan
-- 불굴의 육체 | Indomitable Body(S) -> Cơ Thể Bất Khuất
-- 재생력 | Regeneration(S) -> Sức Mạnh Phục Hồi
-- 대지의 방패 | Shield Of Earth(A) -> Lá Chắn Đất
-- 얼음마녀 | Ice Witch -> Phù Thủy Băng
-- 박예림 | Bak Yerim -> Park Yerim
-- 명동역 | Myeongdong Station -> Ga Myeongdong
-- 마석 | Magic stones -> Ma thạch
-- 부산품 | byproducts -> phụ phẩm
-- 포털 | portal -> thông đạo
-- 해독 / 解毒 | detoxification -> giải độc, khử độc
-- 해주 | de-cursing -> giải nguyền
-- 각성센터 | Awakening Center -> Trung tâm thức tỉnh
-- 각성자 등록소 | Awakened Person Registry -> Cơ quan Đăng ký Thức tỉnh
-- 신민호 | Shin Minho -> Shin Minho
-- 빠른 발 | Fleet-Footed(E) -> Bàn chân nhanh nhẹn
-- 뜀뛰기 | Jumping(E) -> Nhảy
-- 던지기 | Throwing(F) -> Ném
-- 패시브 스킬 | passive skill -> kỹ năng bị động
-- 헌터협회 각성자 등록담당부 부장 | Registration Department Head -> trưởng phòng đăng ký của Hiệp hội Thợ săn
-- 석기명 | Seok Gimyeong -> Seok Kimgyeong
-- 신인 | Novice hunter -> tân thợ săn
-- 헌터 쇼핑몰 | Hunter Shopping Mall -> Khu Thương Mại Thợ Săn
-- 계약 | contracts -> Hợp đồng, Khế ước
-- 기윤서 | Ki Yunseo -> Ki Yoonseo
-- 광대인형 마누엘라 슈슬러 | Clown Doll Manuela Schüssler -> Clown Marionette Manuela Schüssler
-- 박지연 | Bak Jiyeon -> Park Jiyeon
-- 붉은 루메루스 반지 | Red Lumerus Ring -> Nhẫn đỏ Lumerus
-- 아우리스 홀의 팔찌 | Bracelet of Auris Hall -> Vòng tay của Auris Hall
-- 검은 요정의 이어링 | Black Fairy’s Earrings(A) -> Khuyên Tai Tiên Đen
-- 맨티코어의 가죽 장갑 | Manticore’s Leather Gloves(A) -> Găng Tay Da Manticore
-- 가벼운 천 허리띠 | Light Fabric Belt(B) -> Thắt Lưng Nhẹ
-- 저주류 | Curse-types -> Dạng lời nguyền
-- 독왕 런루이한 | Poison King Lun Ruihan -> Độc Vương Leon Louis Han
-- 흑독무환 | Black Poison Fog Ring -> Hắc Độc Sương
-- 유명우 | Yoo Myeongwoo -> Yoo Myungwoo
-- 황금대장간의 주인 | Gold Forge’s Owner(SS) -> Chủ Nhân Của Lò Rèn Vàng
-- 칼 갈아요 | Sharpen Blades(A) -> Mài dao
-- 숫돌 | Whetstone (E) -> Đá mài
-- 김승준 | Kim Seungjoon -> Kim Seungjoon
-- 박해신 | Bak Haeshin -> Park Haeshin
-- 유니콘아종 | Unicorn species -> Phân nhánh họ Kỳ Lân
-- 화염 뿔사자 | Horned Flame Lion -> Độc Giác Hỏa Sư
-- 유체 | Juvenile -> Trẻ con
-- 화염 브레스 | Flame Breath(S) -> Hơi Thở của Lửa
-- 불길 질주 | Blaze Run(A) -> Liệt Hỏa Vụt Lao
-- 거대화 | Giganticize(A) -> Hóa Khổng Lồ
-- 화염 저항 | Flame Resistance(A) -> Kháng Lửa
-- 기승수 - 騎乘獸 | kiseungsu -> Thú cưỡi
-- 마수 | beast -> Ma thú
-- 보조 | support -> hỗ trợ, bổ trợ, phụ trợ
-- 드래곤 브레스 | Dragon Breath -> Hơi Thở Rồng
-- 드래곤 스케일 | Dragon Scales -> Vảy Rồng
-- 주인의 증표 | Owner’s Token -> Chứng nhận Chủ nhân
-- 펜던트 | pendant -> mề đay
-- 마수목종 | Magic Tree species -> Chủng cây ác ma
-- 길로티네 | Gillotinae -> Gillotinae
-- 신호그룹 눈꽃나비 | Shinho Group Snowflake Butterfly -> Tuyết Hoa Hồ Điệp của tập đoàn Shinho
-- 마수사 | Magic Beast Specialist -> Thuần Thú Sư
-- 피스 | Peace -> Peace
-- 박수천 | Bak Soocheon -> Park Soochun
-- 그림자 없는 낮 | Shadowless Day(SS) -> Vô Ảnh Nhật
-- 헤르메스의 신발 | Hermes’ Sandals(S) -> Đôi Giày Của Hermes
-- 하얀 사체 | White Corpse(S) -> Bạch Tử Thi
-- 헌터 자격증 | Hunter license -> Bằng thợ săn
-- 키워드 | keyword -> tư khóa
-- 신체능력 | physical abilities -> năng lực thể chất
-- 저주 | curse -> lời nguyền
-- 석시명 | Seok Simyeong -> Seok Simyung
-- 해연 길드 인사팀장 | head of Haeyeon Guild’s human resources team -> Trưởng nhóm quản lý nhân sự Haeyeon
-- 김하연 | Kim Hayeon -> Kim Hayeon
-- 법무팀장 | head of the legal team -> trưởng nhóm pháp lý
-- 광역 | wide-ranged -> trên phạm vi rộng
-- 지정 스탯 | designated stat -> Chỉ số được chỉ định
-- 속성 | attribute -> Thuộc tính
-- 지정 속성 스킬 | designated attribute-type skill -> kỹ năng theo thuộc tính được chỉ định
-- 디버프 | debuffs -> debuff
-- 중첩 | stacked -> chồng chéo
+## 3. THUAT NGU VA TEN RIENG (SAP XEP THEO THU TU CHAP)
+> 💡 **Quy tắc thứ tự Chap:** Khi dịch hoặc QC cho Chap N, hệ thống sẽ ưu tiên tối đa các thuật ngữ có Chap <= N đã được QC Chốt.
+
+### 3.1. Thuật ngữ Chính thức (Đã qua QC duyệt - Chốt = TRUE):
+- [Chap 1] 완벽한 양육자 | Perfect Caregiver -> Người nuôi dưỡng hoàn hảo (Tên title/skill)
+- [Chap 2] 푸른 버들잎 | Azure Willow Leaves -> Lam Liễu Diệp (Tên title/skill)
+- [Chap 3] 인벤토리 | inventory -> kho đồ (Thuật ngữ)
+- [Chap 4] 체력 | Stamina -> Thể lực (Thuật ngữ)
+- [Chap 5] 방어 스킬 | defensive skills -> kỹ năng phòng thủ (Thuật ngữ)
+- [Chap 6] 마석 | Magic stones -> Ma thạch (Thuật ngữ)
+- [Chap 7] 각성자 등록소 | Awakened Person Registry -> Cơ quan Đăng ký Thức tỉnh (Địa điểm)
+- [Chap 8] 기윤서 | Ki Yunseo -> Ki Yoonseo (Tên nhân vật)
+- [Chap 9] 숫돌 | Whetstone (E) -> Đá mài (Tên title/skill) - tăng 2% độ sắc bén cho những vũ khí có lưỡi
+- [Chap 10] 김승준 | Kim Seungjoon -> Kim Seungjoon (Tên nhân vật)
+- [Chap 11] 보조 | support -> hỗ trợ, bổ trợ, phụ trợ (Thuật ngữ)
+- [Chap 12] 박수천 | Bak Soocheon -> Park Soochun (Tên nhân vật) - Em họ Yerim
+- [Chap 13] 키워드 | keyword -> tư khóa (Thuật ngữ)
+- [Chap 15] 석시명 | Seok Simyeong -> Seok Simyung (Tên nhân vật)
+- [Chap 16] 김하연 | Kim Hayeon -> Kim Hayeon (Tên nhân vật)
+- [Chap 17] 전투 적성 헌터 | combat-aptitude Hunter -> Thợ Săn tấn công (Thuật ngữ)
+- [Chap 18] 공략 팀 | raiding teams -> Tổ đội tấn công (Thuật ngữ)
+- [Chap 19] 박성태 | Bak Sungtae -> Park Sungtae (Tên nhân vật) - Chú Yerim
+- [Chap 21] 햄스터 흥신소 | Hamster Detective Agency -> Văn Phòng Thám Tử Hamster (Địa điểm)
+- [Chap 22] 김덕수 | Kim Deoksu -> Kim Deoksu (Tên nhân vật)
+- [Chap 23] 인벤토리 봉인 팔찌 | inventory-sealing bracelet -> vòng tay phong ấn kho đồ (Tên vật phẩm)
+- [Chap 24] 슬라임 | slime -> slime (Thuật ngữ)
+- [Chap 25] 헌톡 | HunTalk -> HunTalk (Thuật ngữ)
+- [Chap 26] 각성 초기 스킬 | Initial Awakening skills -> kỹ năng thức tỉnh ban đầu (Thuật ngữ)
+- [Chap 29] 도깨비 | Dokkaebi -> Dokkaebi (Thuật ngữ)
+- [Chap 30] 포화 | saturation levels -> trạng thái bão hoà (Thuật ngữ)
+- [Chap 31] 무기 | weapons -> vũ khí (Thuật ngữ)
+- [Chap 34] 비행스킬 | flight skill -> Kỹ năng bay (bay lượn) (Thuật ngữ)
+- [Chap 37] 던전 브레이크 | dungeon break -> Bùng nổ hầm ngục (Thuật ngữ)
+- 한신 길드 | Hanshin Guild -> Hội Hanshin (Địa điểm)
+- 세성 길드 | Seseong Guild -> Hội Sesung (Địa điểm)
+- 브레이커 길드 | Breaker Guild -> Hội Breaker (Địa điểm)
+- [Chap 42] 박민규 | Bak Mingyu -> Park Mingyu (Tên nhân vật)
+- 문현아 | Moon Hyuna -> Moon Hyuna (Tên nhân vật)
+- 도련님 | young master -> Thiếu gia (Thuật ngữ) - Biệt danh Hyuna và Hyunjae dùng để gọi Yoohyun
+- [Chap 47] 보스 몬스터 | boss monster -> trùm (Thuật ngữ)
+- [Chap 51] 비룡종은 용종 | flying dragon species -> Chủng loài Phi Long (Thuật ngữ)
+- 가시날개암룡 | Thorn-Winged Dark Dragon -> Thích Dực Ám Long (Thuật ngữ)
+- 신입 | Newcomer -> Người Mới (Tên nhân vật)
+- 삐약 | Chirpie -> Chirpie (Tên ma thú)
+- [Chap 54] 미라클 루키 | Miracle Rookie(S) -> Tân Binh Kỳ Diệu (Tên title/skill)
+- 내려찍기 | Strike Down(D) -> Hạ Gục (Tên title/skill)
+- 꼭두각시의 줄 | Puppet’s Strings(C) -> Dây Rối (Tên title/skill)
+- 발차기 | Kicking(D) -> Quyền Cước (Tên title/skill)
+- 이스무아르 | Ismual -> Ismuar (Tên nhân vật)
+- 정령 | elemental -> Tinh linh (Thuật ngữ)
+- 수담 | Soodam -> Soodam (Địa điểm)
+- 허니 | Honey -> Cục cưng (Tên nhân vật)
+- 사슴 | Deer -> Nai (Tên nhân vật)
+- [Chap 66] 아성체 | Adolescent -> Vị thành niên (Thuật ngữ)
+- 패륜아들 | immoral people -> những kẻ Phản Luân (Thuật ngữ)
+- 바람의 지배자 | Ruler Of Wind(S) -> Kẻ Thống Trị Gió (Tên title/skill)
+- 황금 화살 | Gold Arrow(A) -> Mũi Tên Vàng (Tên title/skill)
+- 바람저항 | Wind Resistance(A) -> Kháng Gió (Tên title/skill)
+- 날카로운 포효 | Sharp Cry(B) -> Tiếng Hét Sắc Bén (Tên title/skill)
+- [Chap 76] 살벌한 병아리반 선생님 | Terrifying Hatchling Class Teacher -> Chủ nhiệm mầm non đáng sợ (Tên title/skill)
+- [Chap 78] 고상한 수색자의 사슬 | Refined Seeker’s Chains -> Dây Xích Của Người Tìm Kiếm Cao Quý (Tên vật phẩm)
+- 노아 루히르 | Noah Luire -> Noah Rugir (Tên nhân vật)
+- [Chap 82] 각성자관리실장 | Chief of Awakened People Management -> Cục trưởng Cục Quản lý Thức tỉnh giả (Thuật ngữ)
+- [Chap 85] 페블 | Faible -> Nhóc yếu đuối (Tên nhân vật) - Cách Liette gọi Noah
+- 축제의 흰고래 눈물 | Festival's Beluga Whale Tears -> Nước Mắt Cá Voi Trắng của Lễ Hội (Tên vật phẩm)
+- [Chap 105] 별을 헤아리는 새 | Bird Who Counts Stars -> Điểm Tinh Điểu (Tên nhân vật)
+- [Chap 109] 유은혜 | Yoo Eunhye ->  (Tên ma thú)
+- 드래곤 로드 | dragon lord -> Chúa tể rồng (Thuật ngữ)
+- [Chap 112] 물의 지배자 | Ruler Of Water -> Kẻ trị thủy (Tên title/skill)
+- 초승달 | crescent moon -> Trăng Lưỡi Liềm (Tên nhân vật)
+- 이린 | Irin -> Irin (Tên ma thú)
+- [Chap 133] 스며드는 약탈 | Pervasive Looting -> Ám Đoạt (Tên title/skill)
+- [Chap 139] 헌터 관련 사고 부서 | Hunter-related accident departments -> Bộ phận Sự cố liên quan đến Thợ săn (Thuật ngữ)
+- [Chap 145] 이어진 실타래 | Connecting Threads -> Sợi chỉ liên kết (Tên title/skill)
+- [Chap 146] 민지수 | Min Jisoo -> Min Jisoo (Tên nhân vật)
+- 김준배 | Kim Junbae -> Kim Junbae (Tên nhân vật)
+- [Chap 147] 동주로타리 길드 | Dongju Rotary Guild -> Dongju Rotary (Địa điểm)
+- [Chap 149] 래곤 라이더 | Dragon Rider -> Kỵ sĩ cưỡi rồng (Tên title/skill)
+- [Chap 150] 벨라레 | Bellaré -> Bellaré (Tên ma thú)
+- [Chap 154] 환상뱀종 | Illusion Snake species -> Chủng loại Rắn Huyễn Tưởng (Thuật ngữ)
+- [Chap 155] 황이경 | Hwang Yikyeong -> Hwang Yikyung (Tên nhân vật)
+- [Chap 156] 체인 | Chain -> Xích (Tên nhân vật) - Hyunjae
+- 해파리 | Jellyfish -> Sứa (Tên nhân vật) - Luga Peya
+- [Chap 157] 루가 폐야 | Ruka Feiya -> Luga Peya (Tên nhân vật)
+- [Chap 159] 무해의 일족 | Fog Sea Clan -> Chủng tộc Biển Sương Mù (Thuật ngữ)
+- [Chap 162] 장난감 기사단장님 | Toy Knight Captain -> Đồ chơi Chỉ huy Đội kỵ sĩ (Tên ma thú)
+- [Chap 163] 채터박스 | Chatterbox -> Chatterbox (Tên nhân vật)
+- [Chap 164] 사이비종교 | cults -> Dị giáo (Thuật ngữ)
+- [Chap 165] 붉은 모래섬 | Scarlet Sand Island -> Đảo Xích Sa (Địa điểm)
+- [Chap 169] 최동균 | Choi Dongkyun -> Choi Dongkyoon (Tên nhân vật)
+- [Chap 171] 마안 | Mystic Eyes -> Ma Nhãn (Thuật ngữ)
+- [Chap 173]  |  -> Bộ yên cương (Thuật ngữ)
+- [Chap 174] 고요한 상처(S) | Silent Wound -> Vết Thương Thầm Lặng (Tên title/skill)
+- [Chap 175] 보라색 숲의 링 | Purple Forest's Ring -> Tử Sắc Sâm Lâm Hoàn (Tên vật phẩm)
+- [Chap 177] 승리를 향한 심장 |  -> Trái tim hướng tới Chiến Thắng (Tên title/skill)
+- [Chap 181]  |  -> Chủng loại có sừng (Thuật ngữ)
+- [Chap 182] 스베일 양의 털실 |  -> Len Cừu Sveil (Tên vật phẩm)
+- [Chap 184] 얼음나무 | Frost Tree Spear -> Thương Băng Thụ (Tên vật phẩm)
+- [Chap 192]  |  -> Bậc thầy Rèn (Tên title/skill)
+- [Chap 196]  | Black Bison Forest -> Hắc Ngưu Lâm (Địa điểm)
+- [Chap 199] 이효연 | Lee Hyoyeon -> Lee Hyoyeon (Tên nhân vật)
+- [Chap 205] 푸른 천둥새의 예장 | Azure Thunderbird’s Yejang -> Lễ trang của Lam Lôi Điểu (Tên vật phẩm)
+- [Chap 218]  |  -> Nhiệt Núi Lửa (Thuật ngữ)
+- [Chap 220]  | Kiyoshi Sato -> Kiyoshi Sato (Tên nhân vật)
+- [Chap 221] 가모에아 | Gamoaeah -> Gamoea (Tên ma thú)
+- [Chap 222]  |  -> Hoàn thành nhiệm vụ đầu tiên (Thuật ngữ)
+- [Chap 223] 연료 | Fuel -> năng lượng (Thuật ngữ)
+- [Chap 224]  | Alpha -> Alpha (Tên nhân vật)
+- [Chap 225] 시그마 | Sigma -> Sigma (Tên nhân vật)
+- [Chap 226]  |  -> Bạn chính là Ông Hoàng Mua Sắm (Thuật ngữ)
+- [Chap 227]  |  -> Lễ rửa tội đặc biệt (Thuật ngữ)
+- [Chap 228]  |  -> Shalonaut (Địa điểm)
+- [Chap 230] 도플갱어 인형 | Doppelgänger Doll -> Búp bê Song trùng (Tên vật phẩm)
+- [Chap 231] 마나 회복 억제 |  -> ức chế hồi phục mana (Thuật ngữ)
+- [Chap 232]  | Dragon's breath bomb -> Bom hơi thở của rồng (Tên vật phẩm)
+- [Chap 233]  | Dasple -> Dasple (Tên nhân vật)
+- [Chap 237]  | Vitera -> Vitera (Tên nhân vật)
+- [Chap 238]  |  -> Mồi phạm vi rộng (Tên vật phẩm)
+- [Chap 250]  | reset -> tái thiết lập (Thuật ngữ)
+- [Chap 252]  |  -> Kẹo sao nóng hổi (Tên vật phẩm)
+- [Chap 257]  | Drosia -> Drosia (Địa điểm)
+- [Chap 264] 정령석 | elemental stones -> Tinh linh thạch (Thuật ngữ)
+- [Chap 267] 흰 꼬리 | White Tail -> Bạch Vĩ (Tên nhân vật)
+- [Chap 268] 천 개의 세계를 삼킨 달 | Moon Who Swallowed A Thousand Worlds -> Mặt Trăng Nuốt Chửng Một Ngàn Thế Giới (Tên title/skill)
+- [Chap 272] 요정용 | Fairy Dragon -> Tiên Long (Tên ma thú)
+- [Chap 280] 살쾡이 시리즈 | Leopard Cat Series -> Bộ Trang Bị Mèo Báo (Tên vật phẩm)
+- [Chap 286]  | Azure Dragon Crescent Blade -> Thanh Long Yển Nguyệt Đao (Tên vật phẩm)
+- [Chap 289] 토닥토닥(B) | Pat-Pat (B) -> Vỗ Về (Tên title/skill)
+- [Chap 291] 실랑스 강의 검 |  -> Tịch Hà Chi Kiếm (Tên vật phẩm)
+- [Chap 292]  | Attribute Optimization -> Tối Ưu Hóa Thuộc Tính (Tên title/skill)
+- [Chap 293] 원맥자 | Source's vein -> Nguyên Mạch Giả (Thuật ngữ)
+- [Chap 298] 화산흑양 | Volcanic Black Sheep -> Hoả Sơn Hắc Dương (Tên ma thú)
+- [Chap 299] 녹아내린 마지막 문 (SS) | Molten Final Gate -> Dung Hoá Chung Môn (Tên title/skill)
+- [Chap 303] 송이 | Songie -> Songie (Tên ma thú)
+-  | Point store -> Cửa hàng điểm (Tên title/skill)
+-  | Final Gate -> Chung Môn (Tên title/skill)
+- 하얀 새 | White Bird -> Chim Trắng (Tên nhân vật)
+- [Chap 335]  | magic beast combination skill -> Hợp Thể Ma Thú (Tên title/skill)
+- [Chap 337]  | Seo Kyeonghoon -> Seo Kyeonghoon (Tên nhân vật)
+
+### 3.2. Thuật ngữ Dự thảo (Do Trans tạm đặt ở các chap đi trước - Chờ QC duyệt):
+- 라우치타스 | Lauchitas -> Rauchitas (Tên ma thú)
+- 게이트석 | Gate Stone -> Môn thạch (Tên vật phẩm)
+- 양육자 | Caregiver -> Người nuôi dưỡng (Tên title/skill)
+- 부가스킬 | supplementary skill -> Kỹ năng bổ sung (Thuật ngữ)
+- 각성자 | Awakened -> Thức tỉnh giả (Thuật ngữ)
+- 마지막 보답 | Last Compensation -> Báo Đáp Lần Cuối (Tên title/skill)
+- 버프 | buff -> buff (Thuật ngữ)
+- 효율 | effectiveness -> Hiệu quả (Thuật ngữ)
+- 힐러 | healer support -> Trị liệu sư (Thuật ngữ)
+- 흑혈염제 | Black Blood Flame Emperor -> Hắc Huyết Diễm Đế (Thuật ngữ)
+- 흑혈염 | Black Blood Flame -> Hắc Huyết Diễm Đế (Tên title/skill)
+- 기간트 실드 | Gigante Shield -> Lá Chắn Khổng Lồ (Tên title/skill)
+- 용종 | Dragon species -> Long chủng (Thuật ngữ)
+- 엘릭서 | elixir -> Thuốc tiên (Thuật ngữ)
+- 포션 | potion -> Thuốc trị thương, thuốc hồi phục (Thuật ngữ)
+- 칭호 | title -> Danh hiệu (Thuật ngữ)
+- 드래곤 슬레이어 | Dragon Slayer -> Sát Long Nhân (Tên title/skill)
+- 부여액 | Granting Potion -> Tiền thưởng (Tên vật phẩm)
+- 대검 | Greatsword -> Đại kiếm (Thuật ngữ)
+- 붉은 용의 대검 | Red Dragon’s Greatsword -> Đại kiếm của Xích Long (Tên vật phẩm)
+- 소원석 | Wish Stone -> Đá Ước Nguyện (Tên vật phẩm)
+- 전설 | Legendary-rank -> Huyền thoại (Thuật ngữ)
+- 신화 | Myth-rank -> Thần thoại (Thuật ngữ)
+- 상태창 | status window -> Cửa sổ trạng thái (Thuật ngữ)
+- 길드장 | guild leader -> Hội trưởng (Thuật ngữ)
+- 해연(垓) | Haeyeon -> Haeyeon (Thuật ngữ)
+- 길드 | guild -> công hội (Thuật ngữ)
+- 각성 브로커 | Awakening broker -> môi giới thức tỉnh (Thuật ngữ)
+- 비각성자 | Unawakened -> Phi thức tỉnh giả (Thuật ngữ)
+- 던전 | dungeons -> hầm ngục (Thuật ngữ)
+- 한국 헌터 협회 | Korean Hunter Association -> Hiệp hội Thợ săn Hàn Quốc (Thuật ngữ)
+- 각성시설 | Awakening facilities -> Cơ sở thức tỉnh (Địa điểm)
+- 내 새끼가 최고 | My Brat Is The Best -> Đứa Nhỏ Của Tôi Là Nhất (Tên title/skill)
+- 근력 | Strength -> Sức mạnh (Thuật ngữ)
+- 민첩 | Agility -> Nhanh nhẹn (Thuật ngữ)
+- 정신력 | Mentality -> Tinh thần (Thuật ngữ)
+- 마력 | Mana -> Mana/Ma lực (Thuật ngữ)
+- 정신력 업 | Mentality Up(E) -> Tăng Cường Tinh Thần (Tên title/skill)
+- 민첩 업 | Agility Up(E) -> Tăng Cường Nhanh Nhẹn (Tên title/skill)
+- 성녀 | The Saintess -> Thánh nữ (Tên nhân vật)
+- 에밀리 스펜스 | Emily Spence -> Emily Spence (Tên nhân vật)
+- 스탯 칭호 | Stat titles -> Danh hiệu chỉ số (Thuật ngữ) - Buff chỉ số
+- 스킬 칭호 | skill titles -> Danh hiệu kỹ năng (Thuật ngữ) - Có thêm kỹ năng đi kèm
+- 독 저항 | Poison Resistance(L) -> Kháng Độc (Tên title/skill)
+- 저주 저항 | Curse Resistance(L) -> Kháng Nguyền (Tên title/skill)
+- 공포 저항 | Fear Resistance(L) -> Kháng Sợ Hãi (Tên title/skill)
+- 라우치타스의 천적 | Lauchitas’ Natural Enemy(SS) -> Thiên Địch Của Rauchitas (Tên title/skill)
+- 마지막 보은 | Last Repayment(L) -> Sự đền đáp cuối cùng (Tên title/skill) - Đền ơn lần cuối
+- 될성부른 떡잎 | Promising Sprout(S) -> Mầm non triển vọng (Tên title/skill)
+- 보조 스킬 | support skills -> kỹ năng hỗ trợ, phụ trợ (Thuật ngữ)
+- 현재 스탯 등급 | Current stat rank -> Cấp bậc chỉ số hiện tại (Thuật ngữ)
+- 성장 가능 스탯 등급 | Awakening possible to stat rank -> Triển vọng thức tỉnh (Thuật ngữ)
+- 김성한 | Kim Sunghan -> Kim Sunghan (Tên nhân vật)
+- 불굴의 육체 | Indomitable Body(S) -> Cơ Thể Bất Khuất (Tên title/skill)
+- 재생력 | Regeneration(S) -> Sức Mạnh Phục Hồi (Tên title/skill)
+- 대지의 방패 | Shield Of Earth(A) -> Lá Chắn Đất (Tên title/skill)
+- 얼음마녀 | Ice Witch -> Phù Thủy Băng (Tên nhân vật)
+- 박예림 | Bak Yerim -> Park Yerim (Tên nhân vật)
+- 명동역 | Myeongdong Station -> Ga Myeongdong (Địa điểm)
+- 부산품 | byproducts -> phụ phẩm (Thuật ngữ)
+- 포털 | portal -> thông đạo (Thuật ngữ)
+- 해독 / 解毒 | detoxification -> giải độc, khử độc (Thuật ngữ)
+- 해주 | de-cursing -> giải nguyền (Thuật ngữ)
+- 각성센터 | Awakening Center -> Trung tâm thức tỉnh (Địa điểm)
+- 신민호 | Shin Minho -> Shin Minho (Tên nhân vật)
+- 빠른 발 | Fleet-Footed(E) -> Bàn chân nhanh nhẹn (Tên title/skill)
+- 뜀뛰기 | Jumping(E) -> Nhảy (Tên title/skill)
+- 던지기 | Throwing(F) -> Ném (Tên title/skill)
+- 패시브 스킬 | passive skill -> kỹ năng bị động (Thuật ngữ)
+- 헌터협회 각성자 등록담당부 부장 | Registration Department Head -> trưởng phòng đăng ký của Hiệp hội Thợ săn (Thuật ngữ)
+- 석기명 | Seok Gimyeong -> Seok Kimgyeong (Tên nhân vật)
+- 신인 | Novice hunter -> tân thợ săn (Thuật ngữ)
+- 헌터 쇼핑몰 | Hunter Shopping Mall -> Khu Thương Mại Thợ Săn (Địa điểm)
+- 계약 | contracts -> Hợp đồng, Khế ước (Thuật ngữ)
+- 광대인형 마누엘라 슈슬러 | Clown Doll Manuela Schüssler -> Clown Marionette Manuela Schüssler (Tên nhân vật)
+- 박지연 | Bak Jiyeon -> Park Jiyeon (Tên nhân vật)
+- 붉은 루메루스 반지 | Red Lumerus Ring -> Nhẫn đỏ Lumerus (Tên vật phẩm)
+- 아우리스 홀의 팔찌 | Bracelet of Auris Hall -> Vòng tay của Auris Hall (Tên vật phẩm)
+- 검은 요정의 이어링 | Black Fairy’s Earrings(A) -> Khuyên Tai Tiên Đen (Tên vật phẩm)
+- 맨티코어의 가죽 장갑 | Manticore’s Leather Gloves(A) -> Găng Tay Da Manticore (Tên vật phẩm)
+- 가벼운 천 허리띠 | Light Fabric Belt(B) -> Thắt Lưng Nhẹ (Tên vật phẩm)
+- 저주류 | Curse-types -> Dạng lời nguyền (Thuật ngữ)
+- 독왕 런루이한 | Poison King Lun Ruihan -> Độc Vương Leon Louis Han (Tên nhân vật)
+- 흑독무환 | Black Poison Fog Ring -> Hắc Độc Sương (Tên vật phẩm)
+- 유명우 | Yoo Myeongwoo -> Yoo Myungwoo (Tên nhân vật)
+- 황금대장간의 주인 | Gold Forge’s Owner(SS) -> Chủ Nhân Của Lò Rèn Vàng (Tên title/skill)
+- 칼 갈아요 | Sharpen Blades(A) -> Mài dao (Tên title/skill)
+- 박해신 | Bak Haeshin -> Park Haeshin (Tên nhân vật)
+- 유니콘아종 | Unicorn species -> Phân nhánh họ Kỳ Lân (Thuật ngữ)
+- 화염 뿔사자 | Horned Flame Lion -> Độc Giác Hỏa Sư (Tên ma thú)
+- 유체 | Juvenile -> Trẻ con (Thuật ngữ)
+- 화염 브레스 | Flame Breath(S) -> Hơi Thở của Lửa (Tên title/skill)
+- 불길 질주 | Blaze Run(A) -> Liệt Hỏa Vụt Lao (Tên title/skill)
+- 거대화 | Giganticize(A) -> Hóa Khổng Lồ (Tên title/skill)
+- 화염 저항 | Flame Resistance(A) -> Kháng Lửa (Tên title/skill)
+- 기승수 - 騎乘獸 | kiseungsu -> Thú cưỡi (Thuật ngữ)
+- 마수 | beast -> Ma thú (Thuật ngữ)
+- 드래곤 브레스 | Dragon Breath -> Hơi Thở Rồng (Tên title/skill)
+- 드래곤 스케일 | Dragon Scales -> Vảy Rồng (Tên title/skill)
+- 주인의 증표 | Owner’s Token -> Chứng nhận Chủ nhân (Tên vật phẩm)
+- 펜던트 | pendant -> mề đay (Thuật ngữ)
+- 마수목종 | Magic Tree species -> Chủng cây ác ma (Thuật ngữ)
+- 길로티네 | Gillotinae -> Gillotinae (Tên ma thú)
+- 신호그룹 눈꽃나비 | Shinho Group Snowflake Butterfly -> Tuyết Hoa Hồ Điệp của tập đoàn Shinho (Thuật ngữ)
+- 마수사 | Magic Beast Specialist -> Thuần Thú Sư (Thuật ngữ)
+- 피스 | Peace -> Peace (Tên ma thú)
+- 그림자 없는 낮 | Shadowless Day(SS) -> Vô Ảnh Nhật (Tên title/skill)
+- 헤르메스의 신발 | Hermes’ Sandals(S) -> Đôi Giày Của Hermes (Tên title/skill)
+- 하얀 사체 | White Corpse(S) -> Bạch Tử Thi (Tên title/skill)
+- 헌터 자격증 | Hunter license -> Bằng thợ săn (Thuật ngữ)
+- 신체능력 | physical abilities -> năng lực thể chất (Thuật ngữ)
+- 저주 | curse -> lời nguyền (Thuật ngữ)
+- 해연 길드 인사팀장 | head of Haeyeon Guild’s human resources team -> Trưởng nhóm quản lý nhân sự Haeyeon (Thuật ngữ)
+- 법무팀장 | head of the legal team -> trưởng nhóm pháp lý (Thuật ngữ)
+- 광역 | wide-ranged -> trên phạm vi rộng (Thuật ngữ)
+- 지정 스탯 | designated stat -> Chỉ số được chỉ định (Thuật ngữ)
+- 속성 | attribute -> Thuộc tính (Thuật ngữ)
+- 지정 속성 스킬 | designated attribute-type skill -> kỹ năng theo thuộc tính được chỉ định (Thuật ngữ)
+- 디버프 | debuffs -> debuff (Thuật ngữ)
+- 중첩 | stacked -> chồng chéo (Thuật ngữ)
 - 공격 스킬 | damage skill
 /   
-attack skills -> kỹ năng sát thương
-- 단거리 | short-range -> khoảng cách ngắn
-- 순간이동 | instantaneous movement -> Dịch chuyển tức thời
-- 전투 적성 헌터 | combat-aptitude Hunter -> Thợ Săn tấn công
-- 전투 헌터 | combat Hunter -> Thợ Săn Chiến Đấu
-- 전투마법사 | combat mage -> Pháp sư chiến đấu
-- 빙계열 | ice-aptitude -> liên quan đến băng
-- 빙속성 | ice attribute -> thuộc tính băng
-- 프리헌터 | Freelance Hunters -> Thợ săn tự do
-- 던전 공략 | dungeon raids -> tấn công hầm ngục
-- 장비 | equipment -> trang bị
-- 공략 팀 | raiding teams -> Tổ đội tấn công
-- 팀 | team -> Tổ đội
-- 제작스킬 | production skill -> kỹ năng chế tạo
-- 박성태 | Bak Sungtae -> Park Sungtae
-- 햄스터 흥신소 | Hamster Detective Agency -> Văn Phòng Thám Tử Hamster
-- 도하민 | Do Hamin -> Do Hamin
-- 희망자원 | Hope Resources -> Tài Nguyên Hi Vọng
-- 면목동 | Myeonmok-dong -> quận Myeonmok
-- 김덕수 | Kim Deoksu -> Kim Deoksu
-- 하위 | low-grade -> cấp thấp
-- 인벤토리 봉인 팔찌 | inventory-sealing bracelet -> vòng tay phong ấn kho đồ
-- 슬라임 | slime -> slime
-- 헌톡 | HunTalk -> HunTalk
-- 김민의 | Kim Minee -> Kim Minee
-- 각성 초기 스킬 | Initial Awakening skills -> kỹ năng thức tỉnh ban đầu
-- 던전 쇼크 | Dungeon Shock -> Chấn động hầm ngục
-- 도깨비 | Dokkaebi -> Dokkaebi
-- 석하얀 | Seok Hayan -> Seok Hayan
-- 중거리 | Mid-range -> tầm trung
-- 공간이동 | teleportation -> Dịch chuyển không gian
-- 은신 | stealth -> ẩn thân
-- 포화 | saturation levels -> trạng thái bão hoà
-- 마나 분포도 | mana distribution -> sự phân phối mana
-- 초장거리 포탈 | ultra-long-distance portal -> cổng dịch chuyển tầm xa
-- 저항 스킬 | Resistance skills -> kỹ năng phòng kháng
-- 스탯 하락 계약 | stat-decrease contract -> Khế ước giảm chỉ số
-- 윤윤 | Yoon Yoon -> Yoon Yoon
-- 누구게 | Guess Who?(S) -> Đoán Xem
-- 구름 발걸음 | Cloud Steps(B) -> Bước Đi Trên Mây
-- 무기 | weapons -> vũ khí
-- 김지연 | Kim Jiyeon -> Kim Jiyeon
-- 이빨두더지 | Tooth Moles -> Chuột Chũi Răng
-- 습득 조건 | Acquisition conditions -> Điều kiện đạt được
-- 진행도 | Progress -> tiến độ
-- 잡다한 스킬 | miscellaneous skills -> kỹ năng linh tinh
-- 높은 | High-rank -> cấp cao
-- 소모품 | consumable -> tiêu hao
-- 방어 시설 | defense facility -> cơ sở quốc phòng
-- 록크산양 | Rock Goats -> Thạch Dương
-- 점프 박치기 | Jumping Headbutt -> Không Kích Thủ
-- 짓밟기 | Trample -> Giẫm Đạp
-- 화염저항 | Flame Resistance -> Kháng Viêm
-- 괴조종 | Mythical Bird species -> Quái Điểu Chủng
-- 황금부리 마이야 | The Gold Beak Maiya -> Maiya Mỏ Vàng
-- 비행스킬 | flight skill -> Kỹ năng bay (bay lượn)
-- 원거리 | long-ranged -> Tay dài
-- 스킬창 | skill window -> Cửa sổ kỹ năng
-- 특별한 스킬 | special skill -> Kĩ năng đặc thù/đặc biệt
-- 마수 사육사 | Magic Beast Rearer -> Người nuôi dưỡng ma thú
-- 던전 브레이크 | dungeon break -> Bùng nổ hầm ngục
-- 정수증가 | integer-increase -> trị số gia tăng
-- 무효화 | nullified -> Vô hiệu hóa
-- 대장 김서방 | Boss Kim -> Sếp Kim
-- 장비 관리팀 | equipment maintenance department -> Ban bảo trì trang bị
-- 이민석 | Lee Minseok -> 
-- 섬세한 땜질 | Delicate Soldering(B) -> Tinh Hàn Thuật
-- 두드리기 | Pounding(C) -> Nện Kích
-- 체력 업 | Stamina Up(D) -> Tăng cường thể lực
-- 수리관련 | repair-related -> hệ bảo trì
-- 감정사 | appraiser -> người giám định
-- 감정 스킬 | Appraisal skills -> kỹ năng giám định
-- 한신 길드 | Hanshin Guild -> Hội Hanshin
-- 세성 길드 | Seseong Guild -> Hội Sesung
-- 브레이커 길드 | Breaker Guild -> Hội Breaker
-- 박민규 | Bak Mingyu -> Park Mingyu
-- 문현아 | Moon Hyuna -> Moon Hyuna
-- 도련님 | young master -> Thiếu gia
-- 냉기저항 | Cold Resistance -> Kháng hàn
-- 협회장 | Association chairman -> Chủ tịch hiệp hội
-- 최석원 | Choi Sukwon -> 
-- 성현제 | Sung Hyunjae -> Sung Hyunjae
-- 형님 | hyung-nim -> hyung-nim
-- 박하율 | Bak Hayool -> 
-- 눈을 뗄 수 없는 | Can’t Look Away(A) -> 
-- 보고 있으면 편해져요 | Relaxing To Look At(A) -> 
-- 금상첨화 | Icing On The Cake(A) -> Dệt hoa trên gấm
-- 스탯 보정 | Stat correction -> hiệu chỉnh chỉ số
-- 몬스터 아빠 | monsters’ dad -> 
-- 공격계열 | melee attacker -> thợ săn cận chiến
-- 산하 길드 | affiliate guilds -> 
-- 브릭스 길드 | Bricks guild -> 
-- 흑진주 거미줄 반장갑 | Black Pearl Spidersilk fingerless gloves -> 
-- 서민성 | Seo Minseong -> 
-- 파수꾼의 열매 | Watchman’s Fruit -> 
-- 김우재 | Kim Woojae -> 
-- 크레케 | Krecke -> 
-- 깜둥아 | Blackie -> 
-- 보스 몬스터 | boss monster -> trùm
-- 가시 덫 | Thorn Trap(D) -> 
-- 마비시켜 | paralyzes -> 
-- 끈적이는 독 | Sticky Poison(C) -> 
-- 벽에 붙은 도마뱀 | Lizard Stuck To The Wall(D) -> 
-- 할퀴기 | Clawing(D) -> 
-- 늘어나는 촉수 | Stretching Tentacles(C) -> 
-- 약자의 예감 | The Weak’s Premonition(C) -> 
-- 박상훈 | Bak Sanghoon -> 
-- 아이템 | item -> 
-- 방어구 | armor -> 
-- 기간제 스킬 | fixed-time skill sealing -> 
-- 예감 스킬 | Premonition skill -> 
-- 비율증가 | proportional-increase -> 
-- 길드원 | guild member -> 
-- 하급 헌터 | Low-rank hunter -> 
-- 중급 헌터 | mid-rank hunter -> 
-- 상급 헌터 | high-rank hunter -> 
-- 강소영 | Kang Soyoung -> 
-- 비룡종은 용종 | flying dragon species -> Chủng loài Phi Long
-- 가시날개암룡 | Thorn-Winged Dark Dragon -> Thích Dực Ám Long
-- 이끼원숭 | Moss Monkeys -> 
-- 근력 증가 팔찌 | Strength-increasing bracelet -> 
-- 신입 | Newcomer -> Người Mới
-- 삐약 | Chirpie -> Chirpie
-- 미라클 루키 | Miracle Rookie(S) -> Tân Binh Kỳ Diệu
--  | system creator -> Nhà chế tác hệ thống
-- 대장장이 | blacksmith -> 
-- 칼 | knife -> 
-- 생명력 포션 | health potion -> thuốc hồi phục
-- 바퀴 둥지 | Roach’s Nest -> 
-- 검은 납작등벌레 | Black Flat-Backed Bug -> 
-- 베테랑 F급 | Veteran F-Rank -> 
-- 디오 발쉐시스 | Dio Valshesis -> 
-- 리에트 | Riette -> Liette
-- 영원의 단절 | Eternity’s Severance(SS) -> 
-- 칼의 길 | Way Of The Sword(S) -> 
-- 눈부신 오라 | Dazzling Aura(S) -> 
-- 흘러가는 구름 | Flowing Cloud(A) -> 
-- 근접 | close-range -> 
-- 절단스킬 | cutting skill -> 
-- 괴어종 | Mythical Fish species -> 
-- 수룡종 | Water Dragon species -> 
-- 푸른 뱀장어 | Azure Eel -> 
-- 물대포 | Water Cannon(C) -> 
-- 꼬리 파도치기 | Wave-Making Tail(C) -> 
-- 튼튼한 | Durable(S) -> 
-- 찾을 수 없는 | Can’t Be Found(S) -> 
-- 발빠른 | Swift-Footed(S) -> 
-- 숨은그림찾기 | Hidden Picture Puzzle(A) -> 
-- 덤으로 하나 더 | One More As A Freebie(S) -> 
-- 창수 | spearman -> 
-- 짐꾼 | porter -> 
-- 고산 | Gosan -> 
+attack skills -> kỹ năng sát thương (Thuật ngữ)
+- 단거리 | short-range -> khoảng cách ngắn (Thuật ngữ)
+- 순간이동 | instantaneous movement -> Dịch chuyển tức thời (Thuật ngữ) - Khác "dịch chuyển không gian", chi tiết xem ở list thuật ngữ chap 29
+- 전투 헌터 | combat Hunter -> Thợ Săn Chiến Đấu (Thuật ngữ)
+- 전투마법사 | combat mage -> Pháp sư chiến đấu (Thuật ngữ)
+- 빙계열 | ice-aptitude -> liên quan đến băng (Thuật ngữ)
+- 빙속성 | ice attribute -> thuộc tính băng (Thuật ngữ)
+- 프리헌터 | Freelance Hunters -> Thợ săn tự do (Thuật ngữ)
+- 던전 공략 | dungeon raids -> tấn công hầm ngục (Thuật ngữ)
+- 장비 | equipment -> trang bị (Thuật ngữ)
+- 팀 | team -> Tổ đội (Thuật ngữ)
+- 제작스킬 | production skill -> kỹ năng chế tạo (Thuật ngữ)
+- 도하민 | Do Hamin -> Do Hamin (Tên nhân vật)
+- 희망자원 | Hope Resources -> Tài Nguyên Hi Vọng (Địa điểm)
+- 면목동 | Myeonmok-dong -> quận Myeonmok (Địa điểm)
+- 하위 | low-grade -> cấp thấp (Thuật ngữ)
+- 김민의 | Kim Minee -> Kim Minee (Tên nhân vật)
+- 던전 쇼크 | Dungeon Shock -> Chấn động hầm ngục (Thuật ngữ)
+- 석하얀 | Seok Hayan -> Seok Hayan (Tên nhân vật)
+- 중거리 | Mid-range -> tầm trung (Thuật ngữ)
+- 공간이동 | teleportation -> Dịch chuyển không gian (Thuật ngữ) - Khác với dịch chuyển tức thời (không thể vượt qua được chướng ngại vật), dịch chuyển không gian có thể teleport đến mọi nơi. Không thợ săn nhân loại nào sở hữu skill này.
+- 은신 | stealth -> ẩn thân (Thuật ngữ)
+- 마나 분포도 | mana distribution -> sự phân phối mana (Thuật ngữ)
+- 초장거리 포탈 | ultra-long-distance portal -> cổng dịch chuyển tầm xa (Thuật ngữ)
+- 저항 스킬 | Resistance skills -> kỹ năng phòng kháng (Thuật ngữ)
+- 스탯 하락 계약 | stat-decrease contract -> Khế ước giảm chỉ số (Thuật ngữ)
+- 윤윤 | Yoon Yoon -> Yoon Yoon (Tên nhân vật)
+- 누구게 | Guess Who?(S) -> Đoán Xem (Tên title/skill)
+- 구름 발걸음 | Cloud Steps(B) -> Bước Đi Trên Mây (Tên title/skill)
+- 김지연 | Kim Jiyeon -> Kim Jiyeon (Tên nhân vật)
+- 이빨두더지 | Tooth Moles -> Chuột Chũi Răng (Tên ma thú)
+- 습득 조건 | Acquisition conditions -> Điều kiện đạt được (Thuật ngữ)
+- 진행도 | Progress -> tiến độ (Thuật ngữ)
+- 잡다한 스킬 | miscellaneous skills -> kỹ năng linh tinh (Thuật ngữ)
+- [Chap 32] 높은 | High-rank -> cấp cao (Thuật ngữ)
+- 소모품 | consumable -> tiêu hao (Thuật ngữ)
+- 방어 시설 | defense facility -> cơ sở quốc phòng (Thuật ngữ)
+- [Chap 33] 록크산양 | Rock Goats -> Thạch Dương (Tên ma thú)
+- 점프 박치기 | Jumping Headbutt -> Không Kích Thủ (Tên title/skill)
+- 짓밟기 | Trample -> Giẫm Đạp (Tên title/skill)
+- 화염저항 | Flame Resistance -> Kháng Viêm (Tên title/skill)
+- 괴조종 | Mythical Bird species -> Quái Điểu Chủng (Thuật ngữ)
+- 황금부리 마이야 | The Gold Beak Maiya -> Maiya Mỏ Vàng (Tên ma thú)
+- 원거리 | long-ranged -> Tay dài (Thuật ngữ)
+- 스킬창 | skill window -> Cửa sổ kỹ năng (Thuật ngữ)
+- [Chap 35] 특별한 스킬 | special skill -> Kĩ năng đặc thù/đặc biệt (Thuật ngữ)
+- [Chap 36] 마수 사육사 | Magic Beast Rearer -> Người nuôi dưỡng ma thú (Thuật ngữ)
+- 정수증가 | integer-increase -> trị số gia tăng (Thuật ngữ)
+- [Chap 38] 무효화 | nullified -> Vô hiệu hóa (Thuật ngữ)
+- 대장 김서방 | Boss Kim -> Sếp Kim (Thuật ngữ)
+- [Chap 39] 장비 관리팀 | equipment maintenance department -> Ban bảo trì trang bị (Địa điểm)
+- 이민석 | Lee Minseok ->  (Tên nhân vật)
+- 섬세한 땜질 | Delicate Soldering(B) -> Tinh Hàn Thuật (Tên title/skill)
+- 두드리기 | Pounding(C) -> Nện Kích (Tên title/skill)
+- 체력 업 | Stamina Up(D) -> Tăng cường thể lực (Tên title/skill)
+- 수리관련 | repair-related -> hệ bảo trì (Thuật ngữ)
+- [Chap 41] 감정사 | appraiser -> người giám định (Thuật ngữ)
+- 감정 스킬 | Appraisal skills -> kỹ năng giám định (Thuật ngữ)
+- 냉기저항 | Cold Resistance -> Kháng hàn (Tên title/skill)
+- 협회장 | Association chairman -> Chủ tịch hiệp hội (Thuật ngữ)
+- 최석원 | Choi Sukwon ->  (Tên nhân vật)
+- 성현제 | Sung Hyunjae -> Sung Hyunjae (Tên nhân vật)
+- [Chap 43] 형님 | hyung-nim -> hyung-nim (Thuật ngữ)
+- [Chap 44] 박하율 | Bak Hayool ->  (Tên nhân vật)
+- 눈을 뗄 수 없는 | Can’t Look Away(A) ->  (Tên title/skill)
+- 보고 있으면 편해져요 | Relaxing To Look At(A) ->  (Tên title/skill)
+- 금상첨화 | Icing On The Cake(A) -> Dệt hoa trên gấm (Tên title/skill)
+- 스탯 보정 | Stat correction -> hiệu chỉnh chỉ số (Thuật ngữ)
+- [Chap 45] 몬스터 아빠 | monsters’ dad ->  (Thuật ngữ) - Biệt danh của Yoojin
+- 공격계열 | melee attacker -> thợ săn cận chiến (Thuật ngữ)
+- 산하 길드 | affiliate guilds ->  (Thuật ngữ)
+- [Chap 46] 브릭스 길드 | Bricks guild ->  (Địa điểm)
+- 흑진주 거미줄 반장갑 | Black Pearl Spidersilk fingerless gloves ->  (Tên vật phẩm)
+- 서민성 | Seo Minseong ->  (Tên nhân vật)
+- 파수꾼의 열매 | Watchman’s Fruit ->  (Tên vật phẩm)
+- 김우재 | Kim Woojae ->  (Tên nhân vật)
+- 크레케 | Krecke ->  (Tên ma thú)
+- 깜둥아 | Blackie ->  (Tên ma thú)
+- 가시 덫 | Thorn Trap(D) ->  (Tên title/skill)
+- 마비시켜 | paralyzes ->  (Thuật ngữ)
+- 끈적이는 독 | Sticky Poison(C) ->  (Tên title/skill)
+- 벽에 붙은 도마뱀 | Lizard Stuck To The Wall(D) ->  (Tên title/skill)
+- 할퀴기 | Clawing(D) ->  (Tên title/skill)
+- 늘어나는 촉수 | Stretching Tentacles(C) ->  (Tên title/skill)
+- 약자의 예감 | The Weak’s Premonition(C) ->  (Tên title/skill)
+- [Chap 48] 박상훈 | Bak Sanghoon ->  (Tên nhân vật)
+- 아이템 | item ->  (Thuật ngữ)
+- 방어구 | armor ->  (Thuật ngữ)
+- 기간제 스킬 | fixed-time skill sealing ->  (Thuật ngữ)
+- [Chap 49] 예감 스킬 | Premonition skill ->  (Thuật ngữ)
+- 비율증가 | proportional-increase ->  (Thuật ngữ)
+- [Chap 50] 길드원 | guild member ->  (Thuật ngữ)
+- 하급 헌터 | Low-rank hunter ->  (Thuật ngữ)
+- 중급 헌터 | mid-rank hunter ->  (Thuật ngữ)
+- 상급 헌터 | high-rank hunter ->  (Thuật ngữ)
+- 강소영 | Kang Soyoung ->  (Tên nhân vật)
+- [Chap 52] 이끼원숭 | Moss Monkeys ->  (Tên ma thú)
+- [Chap 53] 근력 증가 팔찌 | Strength-increasing bracelet ->  (Tên vật phẩm)
+-  | system creator -> Nhà chế tác hệ thống (Thuật ngữ)
+- [Chap 55] 대장장이 | blacksmith ->  (Thuật ngữ)
+- [Chap 56] 칼 | knife ->  (Thuật ngữ)
+- 생명력 포션 | health potion -> thuốc hồi phục (Tên vật phẩm)
+- 바퀴 둥지 | Roach’s Nest ->  (Địa điểm)
+- 검은 납작등벌레 | Black Flat-Backed Bug ->  (Thuật ngữ)
+- 베테랑 F급 | Veteran F-Rank ->  (Tên title/skill)
+- 디오 발쉐시스 | Dio Valshesis ->  (Tên ma thú)
+- [Chap 57] 리에트 | Riette -> Liette (Tên nhân vật)
+- 영원의 단절 | Eternity’s Severance(SS) ->  (Tên title/skill)
+- 칼의 길 | Way Of The Sword(S) ->  (Tên title/skill)
+- 눈부신 오라 | Dazzling Aura(S) ->  (Tên title/skill)
+- 흘러가는 구름 | Flowing Cloud(A) ->  (Tên title/skill)
+- 근접 | close-range ->  (Thuật ngữ)
+- 절단스킬 | cutting skill ->  (Thuật ngữ)
+- [Chap 58] 괴어종 | Mythical Fish species ->  (Thuật ngữ)
+- 수룡종 | Water Dragon species ->  (Thuật ngữ)
+- 푸른 뱀장어 | Azure Eel ->  (Tên ma thú)
+- 물대포 | Water Cannon(C) ->  (Tên title/skill)
+- 꼬리 파도치기 | Wave-Making Tail(C) ->  (Tên title/skill)
+- 튼튼한 | Durable(S) ->  (Tên title/skill)
+- 찾을 수 없는 | Can’t Be Found(S) ->  (Tên title/skill)
+- 발빠른 | Swift-Footed(S) ->  (Tên title/skill)
+- 숨은그림찾기 | Hidden Picture Puzzle(A) ->  (Tên title/skill)
+- 덤으로 하나 더 | One More As A Freebie(S) ->  (Tên title/skill)
+- [Chap 59] 창수 | spearman ->  (Thuật ngữ)
+- 짐꾼 | porter ->  (Thuật ngữ)
+- 고산 | Gosan ->  (Thuật ngữ)
 - 김용진 | Kim Yongjin -> 
-- 내려찍기 | Strike Down(D) -> Hạ Gục
-- 꼭두각시의 줄 | Puppet’s Strings(C) -> Dây Rối
-- 발차기 | Kicking(D) -> Quyền Cước
-- 환상미로 | Illusion Maze -> 
-- 몬스터 사육 시설 | monster rearing facility -> Cơ Sở Nuôi Dưỡng Quái Vật
-- 던전 펄슨즈 | Dungeon Persons -> 
-- 제이든 | Jayden -> 
-- 장신구류 | accessories -> 
-- 초보 대장장이를 위한 제작백과 | The Beginner Blacksmith’s Crafting Encyclopedia -> 
-- 아공간 | subspace -> 
-- 천 년 유니콘 뿔 | Thousand-Year Unicorn Horn -> 
-- 숨어있는 별의 조각 | Shard of a Hidden Star -> 
-- 과자의 집 | Gingerbread House -> 
-- 침묵의 암실 | Darkroom of Silence -> 
-- 이스무아르 | Ismual -> Ismuar
-- 정령 | elemental -> Tinh linh
-- 살라만더 | salamanders -> 
-- 실프 | sylphs -> 
-- 수담 | Soodam -> Soodam
--  | Nice-To-Hear Eloquence -> 
-- 가로수길 | Garosu-gil -> 
-- 올고 | Olgors -> 
-- 허니 | Honey -> Cục cưng
-- 사슴 | Deer -> Nai
-- 나무 | Tree -> 
-- 늑대 | Wolf -> 
-- 물방울 | Water Droplet -> 
-- 아성체 | Adolescent -> Vị thành niên
-- 바다 루툼 | Sea Rutum -> 
-- 나례드 파사무하 | Nared Pasamuha -> 
-- 샬로스 | Shalos -> 
-- 패륜아들 | immoral people -> những kẻ Phản Luân
-- 유니콘종 | Unicorn species -> 
-- 백색 그림자 유니콘 | White Shadow Unicorn -> 
-- 그림자 달리기 | Shadow Running(A) -> 
-- 강력한 들이받기 | Powerful Ramming(A) -> 
-- 질주 강화 | Galloping Reinforcement(B) -> 
-- 그리폰종 | Gryphon species -> 
-- 황금 그리폰 | Gold Gryphon -> 
-- 바람의 지배자 | Ruler Of Wind(S) -> Kẻ Thống Trị Gió
-- 황금 화살 | Gold Arrow(A) -> Mũi Tên Vàng
-- 바람저항 | Wind Resistance(A) -> Kháng Gió
-- 날카로운 포효 | Sharp Cry(B) -> Tiếng Hét Sắc Bén
-- 블랙 | Black -> 
-- 화이트 | White -> 
-- 블루 | Blue -> 
-- 안전한 사육목걸이 | Safe Rearing Necklace -> 
-- 흰둥이 | Whitey -> 
-- 검둥이 | Blacky -> 
-- 파르미니의 얼음나무 창 | Parmini’s Ice Wood Spear -> Thương Băng Thụ Của Parmini
-- 얼음나무 가지 | Ice Tree branch -> 
-- 빙속성강화 | Ice Attribute Reinforcement -> 
-- 헌터마켓 | Hunter market -> 
-- 암룡 | Dark Dragon -> 
-- 망치질의 대가 | Hammering Master(A) -> 
-- 섬세한 손끝 | Delicate Fingertips(A) -> 
-- 금속 분류 | Metal Classification(A) -> 
-- 이름 없는 팔찌 | Unnamed Bracelet -> 
-- 검은 골렘의 도시 | Black Golem’s City -> 
-- 비 내리는 화산 | Raining Volcano -> 
-- 화룡 실레키아의 날개 | Fire Dragon Sillekia’s Wings -> 
-- 골렘 | golems -> 
-- 언데드 | undead -> 
-- 살벌한 병아리반 선생님 | Terrifying Hatchling Class Teacher -> Chủ nhiệm mầm non đáng sợ
-- 공간의 지배자 | Ruler Of Space(L) -> 
-- 거대두꺼비종 | Giant Toad species -> 
-- 산을 삼킨 바바르 | Mountain-Swallowing Babar -> 
-- 작은 산 | Small Mountain(SS) -> 
-- 끝없는 소화력 | Endless Digestion(SS) -> 
-- 녹아내리는 독액 | Melting Venom(S) -> 
-- 돌격력 | rushing power -> 
-- 고상한 수색자의 사슬 | Refined Seeker’s Chains -> Dây Xích Của Người Tìm Kiếm Cao Quý
-- 마왕의 물레바퀴 | Demon King’s Spinning Wheel -> Guồng Quay Tơ của Quỷ vương
-- 창랑(滄浪)의 인어여왕 귀걸이 | Mermaid Queen of Sea Waves Earrings -> 
-- 이름 없는 마왕의 오래 된 물레바퀴 | Nameless Demon King’s Old Spinning Wheel -> Guồng quay tơ của Quỷ vương Vô danh
-- 대기시간 | cooldown -> Thời gian hồi chiêu
--  | Dead Tree Swamp -> 
-- 노아 루히르 | Noah Luire -> Noah Rugir
--  | Corvo Guild -> 
-- 아크 길드 | Ark Guild -> 
-- 마족 | Demon race -> 
-- 마왕 | Demon King -> 
-- 도깨비대왕 | dokkaebi king -> 
-- 도깨비족의 시조 | Progenitor Of The Dokkaebi Race(L) -> 
-- 도깨비문 | Dokkaebi Door(SS) -> 
-- 사라진 마왕의 오른쪽 뿔 | Vanished Demon King’s Right Horn -> 
-- 도깨비탈 | Dokkaebi Mask -> 
-- 각성자관리실장 | Chief of Awakened People Management -> Cục trưởng Cục Quản lý Thức tỉnh giả
-- 행정안전부 | Ministry of Public Administration and Security -> Bộ Hành chính và An ninh
-- 송태원 | Song Taewon -> Song Taewon
-- 산성 브레스 | Acid Breath(S) -> Hơi Thở Acid
-- 가시 갑옷 | Thorn Armor(A) -> Áo Giáp Gai
-- 고속 비행 | High-Speed Flight(A) -> Bay Tốc Độ Cao
-- 독 비늘 | Poison Scales(A) -> Vảy Độc
-- 코메트 | Comet -> Comet
-- 페블 | Faible -> Nhóc yếu đuối
-- 소리 없는 비명 | Soundless Scream(S) -> 
-- 스탯 대여 | Stat Rental(A) -> 
-- 치유하는 손 | Healing Hands(B) -> 
-- 붉은색 알 | Red Egg -> 
-- 수화 스킬 | beast transformation -> 
-- 계약자 | Contractor -> 
-- 에블린 밀러 | Evelyn Miller -> 
-- 원거리 특화 | long-distance-specialized -> 
-- 특수격리소 | special isolation center -> 
-- 보석뱀 | Jewel Snake -> 
-- 샬로스의 구슬 | Shalos’ Bead -> 
-- 스킬 부여 | skill-granting -> 
-- 백색 산크로스 방패 | White Sancross Shield -> 
-- 자장가를 부르는 책 | Lullaby-Singing Book -> 
-- 바람을 이끄는 활 | Wind-Commanding Bow -> 
-- 축제의 흰고래 눈물 | Festival's Beluga Whale Tears -> Nước Mắt Cá Voi Trắng của Lễ Hội
-- 장난감 병정 | Toy Soldier -> 
-- 호수의 성 | Lake Castle -> 
-- 윤경수 | Yoon Kyeongsoo -> Yoon Kyungsoo
-- 속성 봉인 | attribute-sealing -> 
-- 전투예지 스킬 | Combat Foresight -> Dự đoán Chiến đấu
-- 朴刀 | bakdo -> 
-- 효도중독자들 | filial duty addicts -> Những Kẻ Hiếu Đạo
-- 저주독룡왕의 주인 | curse and poison dragon king’s master -> 
-- 용인 | dragon-human -> 
-- 독과 저주의 고대용인종 | Ancient Dragon-Human of Poison and Curses species -> 
-- 비쿠스 | Vicus -> Vikusse
-- 용의 비늘 | Dragon Scales(SS) -> 
-- 녹아내린 도시 | Molten City(SS) -> 
-- 전룡화 | Full Dragon Transformation(SS) -> 
-- 그림자 주술 | Shadow Spell(S) -> 
-- 전투 고양 | Combat Boost(S) -> 
-- 별을 헤아리는 새 | Bird Who Counts Stars -> Điểm Tinh Điểu
-- 가장 깊은 샘 | Deepest Spring -> Suối Nguồn Sâu Nhất
-- 눈이 내리는 나무 | Snowing Tree -> Cây Tuyết Phủ
-- 디아르마 | Diarma -> Diarma
-- 인어여왕 | Mermaid Queen -> Nữ Vương Nhân Ngư
-- 금이 간 마석 | Cracked Magic Stone -> 
-- 유은혜 | Yoo Eunhye -> 
-- 드래곤 로드 | dragon lord -> Chúa tể rồng
-- 아이템 제작 스킬 | item-crafting skill -> 
-- 물의 지배자 | Ruler Of Water -> Kẻ trị thủy
-- 전준환 | Jeon Junhwan -> 
-- 행복한 햄스터네 | Happy Hamsters -> 
-- 헨리 그렉슨 | Henry Gregson -> 
-- 허니팟 | Honeypot -> 
-- 이안 홀튼 | Ian Holton -> 
-- 물결의 마고스 숄 | Magus Shawl of Waves -> Khăn choàng gợn sóng Magus
-- 키이라 그레이 | Kiera Gray -> 
-- 마르셀 바르도 | Marcel Bardot -> 
-- 르게이 아르샤빈 | Sergei Arshavin -> 
--  | Giant Sea Beast species -> 
-- 크라켄 | Kraken -> 
-- 초승달 | crescent moon -> Trăng Lưỡi Liềm
-- 이린 | Irin -> Irin
-- 최초의 불의 정령 | First Flame Elemental -> 
-- 정령의 계약 | Elemental’s Contract(L) -> 
-- 그리폰의 깃털 | Gold Gryphon’s Feathers -> 
-- 서동백 | Seo Dongbaek -> 
-- 붉은 픽스 벌 | Red Pix Bees -> 
-- 라이칸스로프 | Lycanthrope -> 
-- 검은 바위의 왕 | Black Boulder King -> 
-- 흑암모 | Black Boulder Fur(SS) -> 
-- 절단하는 발톱 | Severing Claw(S) -> 
-- 탐식의 늑대 | Voracious Wolf -> 
-- 스며드는 약탈 | Pervasive Looting -> Ám Đoạt
-- 헌터 관련 사고 부서 | Hunter-related accident departments -> Bộ phận Sự cố liên quan đến Thợ săn
-- 이어진 실타래 | Connecting Threads -> Sợi chỉ liên kết
-- 황금색 햄스터 | Gold Hamster -> Hamster hoàng kim
-- 민지수 | Min Jisoo -> Min Jisoo
-- 김준배 | Kim Junbae -> Kim Junbae
-- 주님 | Lord -> 
-- 동주로타리 길드 | Dongju Rotary Guild -> Dongju Rotary
-- 던전 관리본부장 | Chief Director-nim of Dungeon Management -> Giám đốc Trụ sở Quản lý Hầm ngục
-- 최영준 | Choi Yeongjun -> Choi Youngjoon
-- 유오찬 | Yoo Ochan -> Yoo Ochan
-- 헌터마켓 담당 | Hunter Market manager -> Thị Trường Thợ Săn
-- 최은영 | Choi Eunyeong -> Choi Eunyoung
-- 던전 관리 담당 | Dungeon Management -> phụ trách quản lý hầm ngục
-- 래곤 라이더 | Dragon Rider -> Kỵ sĩ cưỡi rồng
-- 벨라레 | Bellaré -> Bellaré
-- 환상뱀종 | Illusion Snake species -> Chủng loại Rắn Huyễn Tưởng
-- 붉은 보석뱀 | Red Jewel Snake -> Rắn Bảo Thạch Đỏ
-- 보석 무기화 | Jewel Weaponization(SS) -> Vũ Khí Hóa Bảo Thạch
-- 맹독니 | Venomous Fang(A) -> Nanh Độc
-- 비늘 강화 | Hardened Scales(B) -> Cường Hóa Vảy
-- 황이경 | Hwang Yikyeong -> Hwang Yikyung
-- 체인 | Chain -> Xích
-- 해파리 | Jellyfish -> Sứa
-- 루가 폐야 | Ruka Feiya -> Luga Peya
-- 무해의 일족 | Fog Sea Clan -> Chủng tộc Biển Sương Mù
-- 반원 검(S) | Semicircular Sword -> Bán Nguyệt Đao
-- 길 위의 선(S) | Line On The Road -> Tuyến Trên Đường
-- 소리 낚기(A) | Sound Catching -> Lưới Âm Thanh
-- 캔디박스 | Candy Box -> 
-- 장난감 기사단장님 | Toy Knight Captain -> Đồ chơi Chỉ huy Đội kỵ sĩ
-- 무해의 왕 | Ruler of the Fog Sea -> Vua Biển Sương Mù
-- 육지늑대종 | Land Wolf species -> Chủng loại Sói đất liền
-- 긴이빨늑대 | Long Tooth Wolf -> Sói nanh dài
-- 채터박스 | Chatterbox -> Chatterbox
-- 사이비종교 | cults -> Dị giáo
-- 붉은 모래섬 | Scarlet Sand Island -> Đảo Xích Sa
-- 스태미너 포션 | stamina potion -> Thuốc thể lực
-- 최동균 | Choi Dongkyun -> Choi Dongkyoon
-- 마안 | Mystic Eyes -> Ma Nhãn
--  |  -> Bộ yên cương
-- 고요한 상처(S) | Silent Wound -> Vết Thương Thầm Lặng
-- 보라색 숲의 링 | Purple Forest's Ring -> Tử Sắc Sâm Lâm Hoàn
-- 승리를 향한 심장 |  -> Trái tim hướng tới Chiến Thắng
--  |  -> Chủng loại có sừng
--  |  -> Tuần lộc tuyết
--  |  -> Lướt vào
--  |  -> Thương sừng
-- 스베일 양의 털실 |  -> Len Cừu Sveil
-- 얼음나무 | Frost Tree Spear -> Thương Băng Thụ
--  |  -> Bậc thầy Rèn
--  | Black Bison Forest -> Hắc Ngưu Lâm
-- 이효연 | Lee Hyoyeon -> Lee Hyoyeon
--  | Bak Bora -> Park Bora
-- 푸른 천둥새의 예장 | Azure Thunderbird’s Yejang -> Lễ trang của Lam Lôi Điểu
-- 천둥새의 예장 | Thunderbird’s Yejang -> Lễ trang của Lôi Điểu
-- 익룡 | pterosaur-like monster -> Dực Long
-- 로디티의 팔찌 | Roditi’s Bracelet -> Vòng tay của Roditi
-- 시스템 마스터 | System Master -> Bậc thầy hệ thống
--  |  -> Nhiệt Núi Lửa
--  | Kiyoshi Sato -> Kiyoshi Sato
-- 가모에아 | Gamoaeah -> Gamoea
-- 생명력 | Health -> Máu
--  |  -> Hoàn thành nhiệm vụ đầu tiên
--  |  -> Mua hàng lần đầu tiên
--  |  -> Săn quái vật cho Người mới bắt đầu
--  |  -> Có người ở đây
--  |  -> Bước đầu tiên để trở thành Vệ binh
--  | Defense Agency -> Bộ Tư lệnh Thành phố
-- 꿰뚫어보는 눈 | All-Seeing Eye -> Ánh nhìn xuyên thấu
-- 하얀 살쾡이의 마탄총 | White Leopard Cat’s Mana Gun -> Súng ma thuật của Mèo Báo Trắng
-- 검은 살쾡이의 재킷 | Black Leopard Cat’s Jacket -> Áo Khoác Mèo Báo Đen
-- 고양이 발걸음 | Cat’s Gait -> Bước chân của mèo
-- 모리 원숭이 | Mori Monkey -> Khỉ Mori
-- 연료 | Fuel -> năng lượng
-- 도시 통행증 | City Pass -> Thẻ Thông hành thành phố
--  |  -> Sorgoné
-- 메드상 | Médecin -> Médecin
-- 가드 | guard -> vệ binh
-- 각인 | inscription -> khắc ấn
--  | Alpha -> Alpha
--  | Achates -> Achates
-- 마나 흡수 각문(刻文) | mana absorption engraving -> Khắc văn hấp thụ mana
-- 시그마 | Sigma -> Sigma
-- 솔렘니스 | Sollemnis -> Sollemnis
-- 람다 | Lambda -> Lambda
-- 란체아 | Lancea -> Lancea
-- 마나홀 | mana hole -> hố mana
-- 첫 번째 외출 | First Outing -> Lần ra ngoài đầu tiên
-- 오늘의 아르바이트생 | Part-Timer For A Day -> Nhân viên bán thời gian của hôm nay
--  |  -> Bạn chính là Ông Hoàng Mua Sắm
--  |  -> Đã Lừa Thì Phải Lừa Cả Trăm Triệu
--  |  -> Giày Mèo Báo Vàng
--  |  -> Độ bám dính Adroit
--  |  -> Lễ rửa tội đặc biệt
--  |  -> Khắc Ấn Mana
--  |  -> Khắc Ấn Bảo Vệ
--  |  -> Shalonaut
-- 바깥 |  -> Ngoại giới
-- 도플갱어 인형 | Doppelgänger Doll -> Búp bê Song trùng
-- 만능열쇠 | Master Key -> Chìa khoá vạn năng
-- 미니미니 쿠키 | Mini-Mini Cookie -> Bánh quy Mini-Mini
-- 글러토드의 보조진흙 | Glow Toad’s Assistive Mud -> Bùn hỗ trợ của Glow Toad
-- 마나 회복 억제 |  -> ức chế hồi phục mana
--  | Dragon's breath bomb -> Bom hơi thở của rồng
--  | Dasple -> Dasple
--  | Mindiba -> Mindiva
--  | Vitera -> Vitera
--  | Gnosi -> Gnosi
--  | inscription practitioner -> khắc ấn viên
--  | Iriko -> Iriko
--  | Kubils -> Kubils
--  | Legless Horse’s Run -> Ngựa phi không chân
--  |  -> Mồi phạm vi rộng
--  |  -> Ở Đây
--  | reset -> tái thiết lập
--  |  -> Kẹo sao nóng hổi
--  | Drosia -> Drosia
--  | Delta -> Delta
-- 정령석 | elemental stones -> Tinh linh thạch
-- 흰 꼬리 | White Tail -> Bạch Vĩ
-- 천 개의 세계를 삼킨 달 | Moon Who Swallowed A Thousand Worlds -> Mặt Trăng Nuốt Chửng Một Ngàn Thế Giới
-- 초월자들의 요람 | Cradle of Transcendents -> Cái Nôi Của Siêu Việt Giả
-- 스카우터 | Scout -> Trinh Sát
-- 초승달의 여섯 번째 조각 | Sixth Fragment of Crescent Moon -> Mảnh Trăng Lưỡi Liềm Thứ Sáu
-- 요정용 | Fairy Dragon -> Tiên Long
-- 환상 요정용종 | Illusion Fairy Dragon -> Tiên Long Huyễn Tưởng
-- 체인질링 | Changeling -> Changeling
-- 살쾡이 시리즈 | Leopard Cat Series -> Bộ Trang Bị Mèo Báo
--  | Azure Dragon Crescent Blade -> Thanh Long Yển Nguyệt Đao
--  | Sword Predator -> Gươm Săn Mồi
-- 토닥토닥(B) | Pat-Pat (B) -> Vỗ Về
-- 자장자장(A) | Rockabye (A) -> Hát Ru
-- 실랑스 강의 검 |  -> Tịch Hà Chi Kiếm
-- 저항 |  -> kháng thuộc tính
--  | Attribute Optimization -> Tối Ưu Hóa Thuộc Tính
--  | Black Dragon’s Tail -> Đuôi Của Hắc Long
--  | No Eyes, No Ears -> Vô Nhãn, Vô Nhĩ
-- 원맥자 | Source's vein -> Nguyên Mạch Giả
-- 어린혼돈 | Young Chaos -> Hỗn Độn Nguyên Sơ
-- 군림자의 검 | Encroaching Ruler’s Sword -> Quân Lâm Chi Kiếm
-- 흑룡의 심장 조각 | Black Dragon’s Heart Fragment -> Mảnh Tim Hắc Long
-- 화산흑양 | Volcanic Black Sheep -> Hoả Sơn Hắc Dương
-- 녹아내린 마지막 문 (SS) | Molten Final Gate -> Dung Hoá Chung Môn
-- 송이 | Songie -> Songie
--  | Point store -> Cửa hàng điểm
--  | Final Gate -> Chung Môn
-- 하얀 새 | White Bird -> Chim Trắng
--  | Seo Kyeonghoon -> Seo Kyeonghoon
+- [Chap 61] 환상미로 | Illusion Maze ->  (Tên vật phẩm)
+- [Chap 62] 몬스터 사육 시설 | monster rearing facility -> Cơ Sở Nuôi Dưỡng Quái Vật (Địa điểm)
+- 던전 펄슨즈 | Dungeon Persons ->  (Thuật ngữ)
+- 제이든 | Jayden ->  (Tên nhân vật)
+- [Chap 63] 장신구류 | accessories ->  (Thuật ngữ)
+- 초보 대장장이를 위한 제작백과 | The Beginner Blacksmith’s Crafting Encyclopedia ->  (Tên vật phẩm)
+- 아공간 | subspace ->  (Thuật ngữ)
+- 천 년 유니콘 뿔 | Thousand-Year Unicorn Horn ->  (Tên vật phẩm)
+- 숨어있는 별의 조각 | Shard of a Hidden Star ->  (Tên vật phẩm)
+- [Chap 64] 과자의 집 | Gingerbread House ->  (Tên vật phẩm)
+- 침묵의 암실 | Darkroom of Silence ->  (Tên vật phẩm)
+- 살라만더 | salamanders ->  (Thuật ngữ)
+- 실프 | sylphs ->  (Thuật ngữ)
+-  | Nice-To-Hear Eloquence ->  (Tên title/skill)
+- [Chap 65] 가로수길 | Garosu-gil ->  (Địa điểm)
+- 올고 | Olgors ->  (Tên ma thú)
+- 나무 | Tree ->  (Tên nhân vật)
+- 늑대 | Wolf ->  (Tên nhân vật)
+- 물방울 | Water Droplet ->  (Tên nhân vật)
+- [Chap 67] 바다 루툼 | Sea Rutum ->  (Tên ma thú)
+- [Chap 68] 나례드 파사무하 | Nared Pasamuha ->  (Tên nhân vật)
+- 샬로스 | Shalos ->  (Tên nhân vật)
+- [Chap 69] 유니콘종 | Unicorn species ->  (Thuật ngữ)
+- 백색 그림자 유니콘 | White Shadow Unicorn ->  (Tên ma thú)
+- 그림자 달리기 | Shadow Running(A) ->  (Tên title/skill)
+- 강력한 들이받기 | Powerful Ramming(A) ->  (Tên title/skill)
+- 질주 강화 | Galloping Reinforcement(B) ->  (Tên title/skill)
+- 그리폰종 | Gryphon species ->  (Thuật ngữ)
+- 황금 그리폰 | Gold Gryphon ->  (Tên ma thú)
+- 블랙 | Black ->  (Tên ma thú)
+- 화이트 | White ->  (Tên ma thú)
+- 블루 | Blue ->  (Tên ma thú)
+- [Chap 70] 안전한 사육목걸이 | Safe Rearing Necklace ->  (Tên vật phẩm)
+- [Chap 71] 흰둥이 | Whitey ->  (Tên ma thú)
+- 검둥이 | Blacky ->  (Tên ma thú)
+- 파르미니의 얼음나무 창 | Parmini’s Ice Wood Spear -> Thương Băng Thụ Của Parmini (Tên vật phẩm)
+- 얼음나무 가지 | Ice Tree branch ->  (Tên vật phẩm)
+- 빙속성강화 | Ice Attribute Reinforcement ->  (Tên title/skill)
+- [Chap 72] 헌터마켓 | Hunter market ->  (Thuật ngữ)
+- 암룡 | Dark Dragon ->  (Tên ma thú)
+- [Chap 73] 망치질의 대가 | Hammering Master(A) ->  (Tên title/skill)
+- 섬세한 손끝 | Delicate Fingertips(A) ->  (Tên title/skill)
+- 금속 분류 | Metal Classification(A) ->  (Tên title/skill)
+- [Chap 74] 이름 없는 팔찌 | Unnamed Bracelet ->  (Tên vật phẩm)
+- [Chap 75] 검은 골렘의 도시 | Black Golem’s City ->  (Địa điểm)
+- 비 내리는 화산 | Raining Volcano ->  (Địa điểm)
+- 화룡 실레키아의 날개 | Fire Dragon Sillekia’s Wings ->  (Tên vật phẩm)
+- 골렘 | golems ->  (Tên ma thú)
+- 언데드 | undead ->  (Tên ma thú)
+- 공간의 지배자 | Ruler Of Space(L) ->  (Tên title/skill)
+- [Chap 77] 거대두꺼비종 | Giant Toad species ->  (Thuật ngữ)
+- 산을 삼킨 바바르 | Mountain-Swallowing Babar ->  (Tên ma thú)
+- 작은 산 | Small Mountain(SS) ->  (Tên title/skill)
+- 끝없는 소화력 | Endless Digestion(SS) ->  (Tên title/skill)
+- 녹아내리는 독액 | Melting Venom(S) ->  (Tên title/skill)
+- 돌격력 | rushing power ->  (Thuật ngữ)
+- [Chap 80] 마왕의 물레바퀴 | Demon King’s Spinning Wheel -> Guồng Quay Tơ của Quỷ vương (Tên vật phẩm)
+- 창랑(滄浪)의 인어여왕 귀걸이 | Mermaid Queen of Sea Waves Earrings ->  (Tên vật phẩm)
+- 이름 없는 마왕의 오래 된 물레바퀴 | Nameless Demon King’s Old Spinning Wheel -> Guồng quay tơ của Quỷ vương Vô danh (Tên vật phẩm)
+- 대기시간 | cooldown -> Thời gian hồi chiêu (Thuật ngữ)
+-  | Dead Tree Swamp ->  (Địa điểm)
+-  | Corvo Guild ->  (Địa điểm)
+- 아크 길드 | Ark Guild ->  (Địa điểm)
+- [Chap 81] 마족 | Demon race ->  (Thuật ngữ)
+- 마왕 | Demon King ->  (Tên ma thú)
+- 도깨비대왕 | dokkaebi king ->  (Tên ma thú)
+- 도깨비족의 시조 | Progenitor Of The Dokkaebi Race(L) ->  (Tên title/skill)
+- 도깨비문 | Dokkaebi Door(SS) ->  (Tên title/skill)
+- 사라진 마왕의 오른쪽 뿔 | Vanished Demon King’s Right Horn ->  (Tên vật phẩm)
+- 도깨비탈 | Dokkaebi Mask ->  (Tên title/skill)
+- 행정안전부 | Ministry of Public Administration and Security -> Bộ Hành chính và An ninh (Thuật ngữ)
+- 송태원 | Song Taewon -> Song Taewon (Tên nhân vật)
+- 산성 브레스 | Acid Breath(S) -> Hơi Thở Acid (Tên title/skill)
+- 가시 갑옷 | Thorn Armor(A) -> Áo Giáp Gai (Tên title/skill)
+- 고속 비행 | High-Speed Flight(A) -> Bay Tốc Độ Cao (Tên title/skill)
+- 독 비늘 | Poison Scales(A) -> Vảy Độc (Tên title/skill)
+- 코메트 | Comet -> Comet (Tên ma thú)
+- 소리 없는 비명 | Soundless Scream(S) ->  (Tên title/skill)
+- 스탯 대여 | Stat Rental(A) ->  (Tên title/skill)
+- 치유하는 손 | Healing Hands(B) ->  (Tên title/skill)
+- [Chap 88] 붉은색 알 | Red Egg ->  (Tên vật phẩm)
+- [Chap 90] 수화 스킬 | beast transformation ->  (Thuật ngữ)
+- [Chap 92] 계약자 | Contractor ->  (Thuật ngữ)
+- 에블린 밀러 | Evelyn Miller ->  (Tên nhân vật)
+- 원거리 특화 | long-distance-specialized ->  (Thuật ngữ)
+- [Chap 93] 특수격리소 | special isolation center ->  (Địa điểm)
+- 보석뱀 | Jewel Snake ->  (Tên ma thú)
+- [Chap 95] 샬로스의 구슬 | Shalos’ Bead ->  (Tên vật phẩm)
+- 스킬 부여 | skill-granting ->  (Thuật ngữ)
+- 백색 산크로스 방패 | White Sancross Shield ->  (Tên vật phẩm)
+- 자장가를 부르는 책 | Lullaby-Singing Book ->  (Tên vật phẩm)
+- 바람을 이끄는 활 | Wind-Commanding Bow ->  (Tên vật phẩm)
+- [Chap 96] 장난감 병정 | Toy Soldier ->  (Tên ma thú)
+- [Chap 97] 호수의 성 | Lake Castle ->  (Địa điểm)
+- 윤경수 | Yoon Kyeongsoo -> Yoon Kyungsoo (Tên nhân vật)
+- [Chap 99] 속성 봉인 | attribute-sealing ->  (Thuật ngữ)
+- 전투예지 스킬 | Combat Foresight -> Dự đoán Chiến đấu (Tên title/skill)
+- 朴刀 | bakdo ->  (Thuật ngữ)
+- [Chap 102] 효도중독자들 | filial duty addicts -> Những Kẻ Hiếu Đạo (Thuật ngữ)
+- 저주독룡왕의 주인 | curse and poison dragon king’s master ->  (Thuật ngữ)
+- 용인 | dragon-human ->  (Thuật ngữ)
+- 독과 저주의 고대용인종 | Ancient Dragon-Human of Poison and Curses species ->  (Thuật ngữ)
+- 비쿠스 | Vicus -> Vikusse (Tên ma thú)
+- 용의 비늘 | Dragon Scales(SS) ->  (Tên title/skill)
+- 녹아내린 도시 | Molten City(SS) ->  (Tên title/skill)
+- 전룡화 | Full Dragon Transformation(SS) ->  (Tên title/skill)
+- 그림자 주술 | Shadow Spell(S) ->  (Tên title/skill)
+- 전투 고양 | Combat Boost(S) ->  (Tên title/skill)
+- 가장 깊은 샘 | Deepest Spring -> Suối Nguồn Sâu Nhất (Tên nhân vật)
+- 눈이 내리는 나무 | Snowing Tree -> Cây Tuyết Phủ (Tên nhân vật)
+- 디아르마 | Diarma -> Diarma (Tên nhân vật)
+- 인어여왕 | Mermaid Queen -> Nữ Vương Nhân Ngư (Tên nhân vật)
+- [Chap 106] 금이 간 마석 | Cracked Magic Stone ->  (Tên vật phẩm)
+- 아이템 제작 스킬 | item-crafting skill ->  (Thuật ngữ)
+- [Chap 118] 전준환 | Jeon Junhwan ->  (Tên nhân vật)
+- [Chap 120] 행복한 햄스터네 | Happy Hamsters ->  (Địa điểm)
+- 헨리 그렉슨 | Henry Gregson ->  (Tên nhân vật)
+- [Chap 121] 허니팟 | Honeypot ->  (Thuật ngữ)
+- [Chap 123] 이안 홀튼 | Ian Holton ->  (Tên nhân vật)
+- 물결의 마고스 숄 | Magus Shawl of Waves -> Khăn choàng gợn sóng Magus (Tên vật phẩm)
+- 키이라 그레이 | Kiera Gray ->  (Tên nhân vật)
+- 마르셀 바르도 | Marcel Bardot ->  (Tên nhân vật)
+- 르게이 아르샤빈 | Sergei Arshavin ->  (Tên nhân vật)
+- [Chap 124]  | Giant Sea Beast species ->  (Thuật ngữ)
+- 크라켄 | Kraken ->  (Tên ma thú)
+- [Chap 125] 최초의 불의 정령 | First Flame Elemental ->  (Thuật ngữ)
+- 정령의 계약 | Elemental’s Contract(L) ->  (Tên title/skill)
+- 그리폰의 깃털 | Gold Gryphon’s Feathers ->  (Tên vật phẩm)
+- [Chap 131] 서동백 | Seo Dongbaek ->  (Tên nhân vật)
+- [Chap 132] 붉은 픽스 벌 | Red Pix Bees ->  (Tên ma thú)
+- 라이칸스로프 | Lycanthrope ->  (Tên ma thú)
+- 검은 바위의 왕 | Black Boulder King ->  (Thuật ngữ)
+- 흑암모 | Black Boulder Fur(SS) ->  (Tên title/skill)
+- 절단하는 발톱 | Severing Claw(S) ->  (Tên title/skill)
+- 탐식의 늑대 | Voracious Wolf ->  (Thuật ngữ)
+- 황금색 햄스터 | Gold Hamster -> Hamster hoàng kim (Tên ma thú)
+- 주님 | Lord ->  (Thuật ngữ)
+- 던전 관리본부장 | Chief Director-nim of Dungeon Management -> Giám đốc Trụ sở Quản lý Hầm ngục (Thuật ngữ)
+- 최영준 | Choi Yeongjun -> Choi Youngjoon (Tên nhân vật)
+- 유오찬 | Yoo Ochan -> Yoo Ochan (Tên nhân vật)
+- 헌터마켓 담당 | Hunter Market manager -> Thị Trường Thợ Săn (Thuật ngữ)
+- 최은영 | Choi Eunyeong -> Choi Eunyoung (Tên nhân vật)
+- 던전 관리 담당 | Dungeon Management -> phụ trách quản lý hầm ngục (Thuật ngữ)
+- 붉은 보석뱀 | Red Jewel Snake -> Rắn Bảo Thạch Đỏ (Thuật ngữ)
+- 보석 무기화 | Jewel Weaponization(SS) -> Vũ Khí Hóa Bảo Thạch (Tên title/skill)
+- 맹독니 | Venomous Fang(A) -> Nanh Độc (Tên title/skill)
+- 비늘 강화 | Hardened Scales(B) -> Cường Hóa Vảy (Tên title/skill)
+- 반원 검(S) | Semicircular Sword -> Bán Nguyệt Đao (Tên title/skill)
+- 길 위의 선(S) | Line On The Road -> Tuyến Trên Đường (Tên title/skill)
+- 소리 낚기(A) | Sound Catching -> Lưới Âm Thanh (Tên title/skill)
+- 캔디박스 | Candy Box ->  (Thuật ngữ)
+- 무해의 왕 | Ruler of the Fog Sea -> Vua Biển Sương Mù (Tên nhân vật)
+- 육지늑대종 | Land Wolf species -> Chủng loại Sói đất liền (Thuật ngữ)
+- 긴이빨늑대 | Long Tooth Wolf -> Sói nanh dài (Tên ma thú)
+- 스태미너 포션 | stamina potion -> Thuốc thể lực (Thuật ngữ)
+-  |  -> Tuần lộc tuyết (Tên title/skill)
+-  |  -> Lướt vào (Tên title/skill)
+-  |  -> Thương sừng (Tên title/skill)
+-  | Bak Bora -> Park Bora (Tên nhân vật)
+- 천둥새의 예장 | Thunderbird’s Yejang -> Lễ trang của Lôi Điểu (Tên vật phẩm)
+- 익룡 | pterosaur-like monster -> Dực Long (Thuật ngữ)
+- 로디티의 팔찌 | Roditi’s Bracelet -> Vòng tay của Roditi (Tên vật phẩm)
+- 시스템 마스터 | System Master -> Bậc thầy hệ thống (Thuật ngữ)
+- 생명력 | Health -> Máu (Thuật ngữ)
+-  |  -> Mua hàng lần đầu tiên (Thuật ngữ)
+-  |  -> Săn quái vật cho Người mới bắt đầu (Thuật ngữ)
+-  |  -> Có người ở đây (Thuật ngữ)
+-  |  -> Bước đầu tiên để trở thành Vệ binh (Thuật ngữ)
+-  | Defense Agency -> Bộ Tư lệnh Thành phố (Thuật ngữ)
+- 꿰뚫어보는 눈 | All-Seeing Eye -> Ánh nhìn xuyên thấu (Thuật ngữ)
+- 하얀 살쾡이의 마탄총 | White Leopard Cat’s Mana Gun -> Súng ma thuật của Mèo Báo Trắng (Tên vật phẩm)
+- 검은 살쾡이의 재킷 | Black Leopard Cat’s Jacket -> Áo Khoác Mèo Báo Đen (Tên vật phẩm)
+- 고양이 발걸음 | Cat’s Gait -> Bước chân của mèo (Tên vật phẩm)
+- 모리 원숭이 | Mori Monkey -> Khỉ Mori (Tên ma thú)
+- 도시 통행증 | City Pass -> Thẻ Thông hành thành phố (Thuật ngữ)
+-  |  -> Sorgoné (Địa điểm)
+- 메드상 | Médecin -> Médecin (Địa điểm)
+- 가드 | guard -> vệ binh (Thuật ngữ)
+- 각인 | inscription -> khắc ấn (Thuật ngữ)
+-  | Achates -> Achates (Địa điểm)
+- 마나 흡수 각문(刻文) | mana absorption engraving -> Khắc văn hấp thụ mana (Thuật ngữ)
+- 솔렘니스 | Sollemnis -> Sollemnis (Địa điểm)
+- 람다 | Lambda -> Lambda (Tên nhân vật)
+- 란체아 | Lancea -> Lancea (Địa điểm)
+- 마나홀 | mana hole -> hố mana (Thuật ngữ)
+- 첫 번째 외출 | First Outing -> Lần ra ngoài đầu tiên (Thuật ngữ)
+- 오늘의 아르바이트생 | Part-Timer For A Day -> Nhân viên bán thời gian của hôm nay (Thuật ngữ)
+-  |  -> Đã Lừa Thì Phải Lừa Cả Trăm Triệu (Thuật ngữ)
+-  |  -> Giày Mèo Báo Vàng (Tên vật phẩm)
+-  |  -> Độ bám dính Adroit (Thuật ngữ)
+-  |  -> Khắc Ấn Mana (Thuật ngữ)
+-  |  -> Khắc Ấn Bảo Vệ (Thuật ngữ)
+- 바깥 |  -> Ngoại giới (Thuật ngữ)
+- 만능열쇠 | Master Key -> Chìa khoá vạn năng (Tên vật phẩm)
+- 미니미니 쿠키 | Mini-Mini Cookie -> Bánh quy Mini-Mini (Tên vật phẩm)
+- 글러토드의 보조진흙 | Glow Toad’s Assistive Mud -> Bùn hỗ trợ của Glow Toad (Tên vật phẩm)
+-  | Mindiba -> Mindiva (Tên nhân vật)
+-  | Gnosi -> Gnosi (Tên nhân vật)
+-  | inscription practitioner -> khắc ấn viên (Thuật ngữ)
+-  | Iriko -> Iriko (Tên nhân vật)
+-  | Kubils -> Kubils (Tên nhân vật)
+-  | Legless Horse’s Run -> Ngựa phi không chân (Tên vật phẩm)
+-  |  -> Ở Đây (Tên vật phẩm)
+-  | Delta -> Delta (Tên nhân vật)
+- 초월자들의 요람 | Cradle of Transcendents -> Cái Nôi Của Siêu Việt Giả (Tên title/skill)
+- 스카우터 | Scout -> Trinh Sát (Tên title/skill)
+- 초승달의 여섯 번째 조각 | Sixth Fragment of Crescent Moon -> Mảnh Trăng Lưỡi Liềm Thứ Sáu (Tên title/skill)
+- 환상 요정용종 | Illusion Fairy Dragon -> Tiên Long Huyễn Tưởng (Tên ma thú)
+- 체인질링 | Changeling -> Changeling (Tên nhân vật)
+-  | Sword Predator -> Gươm Săn Mồi (Tên vật phẩm)
+- 자장자장(A) | Rockabye (A) -> Hát Ru (Tên title/skill)
+- 저항 |  -> kháng thuộc tính (Thuật ngữ)
+-  | Black Dragon’s Tail -> Đuôi Của Hắc Long (Tên title/skill)
+-  | No Eyes, No Ears -> Vô Nhãn, Vô Nhĩ (Tên title/skill)
+- 어린혼돈 | Young Chaos -> Hỗn Độn Nguyên Sơ (Tên nhân vật)
+- 군림자의 검 | Encroaching Ruler’s Sword -> Quân Lâm Chi Kiếm (Tên vật phẩm)
+- 흑룡의 심장 조각 | Black Dragon’s Heart Fragment -> Mảnh Tim Hắc Long (Tên vật phẩm)
+- [Chap 359] 황림 | Hwang Rim -> Hoàng Lâm (Tên nhân vật) - Thợ săn cấp S Trung Quốc
+- [Chap 359] 초화운 | Cho Hwa-woon -> Sở Hoa Vân (Tên nhân vật) - Thợ săn cấp S Trung Quốc
+- [Chap 359] 운이 | Woon-ie -> A Vân (Tên nhân vật) - Cách Hoàng Lâm gọi Sở Hoa Vân
+- [Chap 359] 관 낭자 | Guan Lang-ja -> Quan Nương Tử (Tên nhân vật) - Nữ thợ săn cấp S Trung Quốc
+- [Chap 359] 수룡 | Water Dragon -> Thủy Long (Tên ma thú) - Rồng nước ở bể nuôi
+- [Chap 359] 무림맹 | Murim Alliance -> Võ Lâm Minh (Địa điểm) - Thế lực bang hội đối lập tại TQ
+- [Chap 359] 김 서방 | Kim Seobang -> đại ca Kim (Thuật ngữ) - Dokkaebi gọi Yoojin
+- [Chap 359] 도깨비왕 | Dokkaebi King -> Vua Dokkaebi (Tên nhân vật) - Danh hiệu của Yoon Yoon
 

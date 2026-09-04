@@ -20,6 +20,8 @@ from dotenv import load_dotenv
 import re
 _re = re
 import shutil
+import requests
+import base64
 from PIL import Image, ImageFile
 ImageFile.LOAD_TRUNCATED_IMAGES = True
 Image.MAX_IMAGE_PIXELS = None
@@ -826,9 +828,60 @@ with st.sidebar:
 # ============================================================
 # MAIN NAVIGATION (Persistent on F5)
 # ============================================================
-MENU_ITEMS = ["🏠 Hướng dẫn", "📝 Dịch Thuật", "🔍 QC Review", "📊 So Sánh", "📖 Đối Chiếu", "🎨 Truyện Tranh", "📥 Tải Truyện", "📚 Glossary", "✂️ Cắt Ảnh", "📋 Reformat Script", "🔎 QC Diff", "🤖 Novel Agent", "🎧 Audio Converter"]
+# Danh sách MENU_ITEMS bạn muốn hiển thị trên thanh điều hướng:
+MENU_ITEMS = [
+    "🏠 Hướng dẫn",
+    "🎧 Audio Converter",
+    "🎨 Truyện Tranh",
+    "📋 Reformat Script",
+    "✂️ Cắt Ảnh",
+    "📖 Novel Workflow",
+    "🤖 Novel Agent",
+    "🌐 Đăng WordPress"
+]
 
-tabs = st.tabs(MENU_ITEMS)
+# Ánh xạ index gốc của các tab code để không bị lỗi khi bạn thay đổi / ẩn bớt tab trong MENU_ITEMS
+TAB_NAMES_MAP = {
+    0: "🏠 Hướng dẫn",
+    1: "📝 Dịch Thuật",
+    2: "🔍 QC Review",
+    3: "📊 So Sánh",
+    4: "📖 Đối Chiếu",
+    5: "🎨 Truyện Tranh",
+    6: "📥 Tải Truyện",
+    7: "📚 Glossary",
+    8: "✂️ Cắt Ảnh",
+    9: "📋 Reformat Script",
+    10: "🔎 QC Diff",
+    11: "🤖 Novel Agent",
+    12: "🎧 Audio Converter",
+    13: "🌐 Đăng WordPress",
+    14: "📖 Novel Workflow"
+}
+
+_raw_tabs = st.tabs(MENU_ITEMS)
+_tab_dict = {name: tab for name, tab in zip(MENU_ITEMS, _raw_tabs)}
+
+class _HiddenTabContext:
+    def __enter__(self):
+        self.c = st.empty()
+        return self.c.__enter__()
+    def __exit__(self, exc_type, exc_val, exc_tb):
+        res = self.c.__exit__(exc_type, exc_val, exc_tb)
+        self.c.empty()
+        return res
+
+class _SmartTabProxy:
+    def __init__(self, tab_dict, name_map):
+        self._tab_dict = tab_dict
+        self._name_map = name_map
+    def __getitem__(self, idx):
+        name = self._name_map.get(idx) if isinstance(idx, int) else idx
+        if name and name in self._tab_dict:
+            return self._tab_dict[name]
+        return _HiddenTabContext()
+
+tabs = _SmartTabProxy(_tab_dict, TAB_NAMES_MAP)
 current_menu = None # Not used
 
 
@@ -929,7 +982,10 @@ with tabs[0]:
     **Bước 4 — Xuất bản dịch đã sửa:**  
     - Bấm **📥 Tạo bản dịch đã sửa** → áp dụng tất cả sửa lỗi đã Approve/Edit vào bản gốc.  
     - Tải xuống file .txt đã sửa.  
-    - Mục **📋 Quy tắc đã học** hiển thị các quy tắc AI đã học từ reviewer (icon 👤 = sửa tay của bạn).
+    #### **7. 🌐 Đăng WordPress (Tự động hóa đăng bài)**
+    - Tự động chuẩn hóa văn bản copy từ Notepad++ sang định dạng HTML WordPress.
+    - Giữ nguyên dấu gạch đầu dòng `-` cho lời thoại, tách từng đoạn `<p>`, bọc chú thích footnotes `[1], [2]`.
+    - Tự động gán Chuyên mục (Category `S-class`), Ảnh đại diện (Thumbnail) và đăng thẳng lên `lazyhowlteam.com`.
 
     ---
 
@@ -6467,3 +6523,1003 @@ audio{{width:100%;border-radius:8px;outline:none;margin-bottom:.6rem;accent-colo
                             st.caption(f"Model: `{chapter.summary_model or '—'}` · Cập nhật: {summary_time}")
                         else:
                             st.caption("Chưa có summary.")
+
+# =================== TAB 13: ĐĂNG WORDPRESS ===================
+with tabs[13]:
+    st.markdown("### 🌐 Đăng Bài Lên WordPress (`lazyhowlteam.com`)")
+    st.caption("Tự động chuẩn hóa nội dung từ Notepad++, giữ nguyên gạch đầu dòng `-`, tách đoạn chuẩn `<p>`, bọc chú thích footnotes `[1], [2]` và tự động gắn category / thumbnail chuẩn của truyện.")
+
+    def format_chapter_for_wordpress(
+        raw_text: str,
+        custom_title: str = "",
+        trans_name: str = "",
+        beta_name: str = ""
+    ):
+        """
+        Chuẩn hóa text chương từ Notepad++ sang HTML WordPress:
+        - Nhận diện hoặc dùng tiêu đề chương tùy chỉnh
+        - Nhận diện Trans & Beta thành <p><em>Trans: ...<br>Beta: ...</em></p>
+        - Giữ nguyên dấu gạch đầu dòng '-' cho lời thoại (không tự chuyển sang bullet list)
+        - Tách mỗi đoạn thành 1 thẻ <p>
+        - Nhận diện các chú thích [1], [2] và gom thành khối Footnotes chuẩn cuối bài
+        """
+        if not raw_text or not raw_text.strip():
+            return "", "", {"title": "", "trans": "", "beta": "", "footnotes_count": 0, "paragraphs_count": 0}
+
+        lines = raw_text.strip().splitlines()
+        title = custom_title.strip()
+        
+        extracted_trans = trans_name.strip()
+        extracted_beta = beta_name.strip()
+        
+        start_idx = 0
+        
+        # 1. Tự động nhận diện tiêu đề từ dòng đầu tiên nếu chưa nhập
+        if not title and len(lines) > 0:
+            first_line = lines[0].strip()
+            if re.match(r'^(Chương|Chapter|\d+|Hồi)\s*\d*', first_line, re.IGNORECASE):
+                title = first_line
+                start_idx = 1
+
+        # 2. Tự động nhận diện Trans / Beta ở các dòng đầu
+        i = start_idx
+        while i < len(lines):
+            line = lines[i].strip()
+            if not line:
+                i += 1
+                continue
+            
+            m_trans = re.match(r'^(?:Trans|Translator|Dịch|Dịch giả)\s*:\s*(.+)$', line, re.IGNORECASE)
+            if m_trans and not extracted_trans:
+                extracted_trans = m_trans.group(1).strip()
+                i += 1
+                continue
+                
+            m_beta = re.match(r'^(?:Beta|Editor|Edit|Biên tập)\s*:\s*(.+)$', line, re.IGNORECASE)
+            if m_beta and not extracted_beta:
+                extracted_beta = m_beta.group(1).strip()
+                i += 1
+                continue
+                
+            m_comb = re.match(r'^Trans\s*:\s*(.+?)\s*[-|–/]\s*Beta\s*:\s*(.+)$', line, re.IGNORECASE)
+            if m_comb and not extracted_trans and not extracted_beta:
+                extracted_trans = m_comb.group(1).strip()
+                extracted_beta = m_comb.group(2).strip()
+                i += 1
+                continue
+
+            break
+
+        remaining_lines = lines[i:]
+        
+        # 3. Phân tách chú thích (Footnotes) ở cuối bài
+        footnote_defs = {}
+        fn_section = False
+        temp_body = []
+        
+        for l in remaining_lines:
+            trimmed = l.strip()
+            if not trimmed:
+                continue
+                
+            # Dấu hiệu bắt đầu khu vực chú thích
+            if re.match(r'^(?:Chú thích|Ghi chú|Footnotes|Notes?)\s*:\s*$', trimmed, re.IGNORECASE):
+                fn_section = True
+                continue
+                
+            m_fn = re.match(r'^(?:\[(\d+)\]|(\d+)\.)\s*(.+)$', trimmed)
+            if m_fn and (fn_section or len(temp_body) > 10):
+                fn_num = int(m_fn.group(1) or m_fn.group(2))
+                fn_text = m_fn.group(3).strip()
+                footnote_defs[fn_num] = fn_text
+                fn_section = True
+                continue
+                
+            if fn_section:
+                if footnote_defs:
+                    last_k = max(footnote_defs.keys())
+                    footnote_defs[last_k] += " " + trimmed
+                continue
+                
+            temp_body.append(trimmed)
+
+        # 4. Tạo các khối HTML
+        html_parts = []
+        
+        # Header Trans & Beta
+        header_items = []
+        if extracted_trans:
+            header_items.append(f"Trans: {html_lib.escape(extracted_trans, quote=False)}")
+        if extracted_beta:
+            header_items.append(f"Beta: {html_lib.escape(extracted_beta, quote=False)}")
+            
+        if header_items:
+            html_parts.append(f'<p><em>{"<br>".join(header_items)}</em></p>')
+            
+        # Thân bài
+        for p in temp_body:
+            escaped_p = html_lib.escape(p, quote=False)
+            
+            # Gắn link vào các thẻ [1], [2] trong đoạn văn
+            def replace_fn_ref(match):
+                num = match.group(1)
+                return f'<sup class="fn"><a href="#fn-{num}" id="fnref-{num}">[{num}]</a></sup>'
+                
+            escaped_p = re.sub(r'\[(\d+)\]', replace_fn_ref, escaped_p)
+            html_parts.append(f"<p>{escaped_p}</p>")
+            
+        # 5. Khối chú thích cuối bài (nếu có)
+        if footnote_defs:
+            html_parts.append("<hr />")
+            html_parts.append("<p><strong>Chú thích:</strong></p>")
+            html_parts.append('<ol class="wp-block-footnotes">')
+            for k in sorted(footnote_defs.keys()):
+                fn_content = html_lib.escape(footnote_defs[k], quote=False)
+                html_parts.append(f'  <li id="fn-{k}">{fn_content} <a href="#fnref-{k}" aria-label="Quay lại đoạn văn">↩</a></li>')
+            html_parts.append("</ol>")
+            
+        final_html = "\n\n".join(html_parts)
+        meta = {
+            "title": title,
+            "trans": extracted_trans,
+            "beta": extracted_beta,
+            "footnotes_count": len(footnote_defs),
+            "paragraphs_count": len(temp_body),
+            "paragraphs": temp_body
+        }
+        return title, final_html, meta
+
+    def generate_facebook_post(
+        chapter_title: str,
+        trans_name: str = "",
+        beta_name: str = "",
+        paragraphs: list = None,
+        post_link: str = ""
+    ) -> str:
+        """Tự động tạo nội dung bài đăng Facebook theo đúng mẫu chuẩn của Howl Team."""
+        # Trích xuất số chương hoặc khoảng chương (vd: 325 hoặc 325-327)
+        m_chap = re.search(r'(?:chương|chap|chapter)?\s*(\d+(?:\s*[-–]\s*\d+)?)', chapter_title, re.IGNORECASE)
+        if m_chap:
+            chap_num_str = m_chap.group(1).replace(' ', '')
+            header_line = f"S-Classes That I Raised chương {chap_num_str}:"
+        elif chapter_title.strip():
+            header_line = f"S-Classes That I Raised {chapter_title.strip()}:"
+        else:
+            header_line = "S-Classes That I Raised chương mới:"
+
+        link_display = post_link if post_link else "https://lazyhowlteam.com/ (Link chương sau khi đăng)"
+
+        caption = (
+            f"{header_line}\n"
+            f"{link_display}\n"
+            f"________________________________________\n"
+            f"Bản dịch thuộc về Howl Team. Vui lòng không reup dưới mọi hình thức. (¬_¬)"
+        )
+        return caption
+
+    def wp_get_auth_header(username, app_password):
+        clean_pwd = app_password.replace(" ", "").strip()
+        credentials = f"{username.strip()}:{clean_pwd}"
+        token = base64.b64encode(credentials.encode("utf-8")).decode("utf-8")
+        return {"Authorization": f"Basic {token}"}
+
+    def wp_test_connection(site_url, username, app_password):
+        api_url = f"{site_url.rstrip('/')}/wp-json/wp/v2/users/me"
+        headers = wp_get_auth_header(username, app_password)
+        try:
+            res = requests.get(api_url, headers=headers, timeout=10)
+            if res.status_code == 200:
+                user_info = res.json()
+                return True, f"Kết nối thành công! Đăng nhập với tài khoản: **{user_info.get('name', username)}** (ID: {user_info.get('id')})"
+            else:
+                return False, f"Lỗi xác thực ({res.status_code}): {res.text[:200]}"
+        except Exception as e:
+            return False, f"Lỗi kết nối tới {site_url}: {str(e)}"
+
+    def wp_publish_post(site_url, username, app_password, title, html_content, category_id=2, featured_media_id=2930, status="publish"):
+        api_url = f"{site_url.rstrip('/')}/wp-json/wp/v2/posts"
+        headers = wp_get_auth_header(username, app_password)
+        headers["Content-Type"] = "application/json"
+        
+        payload = {
+            "title": title,
+            "content": html_content,
+            "status": status,
+        }
+        if category_id:
+            try:
+                payload["categories"] = [int(category_id)]
+            except Exception:
+                pass
+        if featured_media_id:
+            try:
+                payload["featured_media"] = int(featured_media_id)
+            except Exception:
+                pass
+
+        res = requests.post(api_url, json=payload, headers=headers, timeout=20)
+        return res
+
+    # --- CẤU HÌNH KẾT NỐI WORDPRESS ---
+    env_site_url = get_env("WP_SITE_URL", "https://lazyhowlteam.com")
+    env_username = get_env("WP_USERNAME", "thuynhungp24@gmail.com")
+    env_app_pass = get_env("WP_APP_PASSWORD", "")
+
+    with st.expander("⚙️ Cấu Hình Kết Nối WordPress", expanded=not bool(env_app_pass)):
+        col_c1, col_c2 = st.columns([1, 1])
+        with col_c1:
+            wp_site = st.text_input("🌐 Website URL:", value=env_site_url, key="wp_input_site")
+            wp_user = st.text_input("👤 Username / Email:", value=env_username, key="wp_input_user")
+        with col_c2:
+            wp_pass = st.text_input(
+                "🔑 Application Password:", 
+                value=env_app_pass, 
+                type="password", 
+                help="Vào WP Admin > Hồ sơ (Users > Profile) > Application Passwords để tạo mật khẩu ứng dụng", 
+                key="wp_input_pass"
+            )
+            col_id1, col_id2 = st.columns(2)
+            with col_id1:
+                wp_cat_id = st.number_input("🏷️ Category ID (S-class):", value=2, min_value=1, key="wp_input_cat")
+            with col_id2:
+                wp_media_id = st.number_input("🖼️ Thumbnail Media ID:", value=2930, min_value=0, key="wp_input_media")
+
+        c_btn1, c_btn2 = st.columns([1, 2])
+        with c_btn1:
+            if st.button("🔌 Kiểm tra kết nối", key="wp_test_btn", use_container_width=True):
+                if not wp_pass:
+                    st.warning("⚠️ Vui lòng nhập Application Password trước khi kiểm tra.")
+                else:
+                    with st.spinner("Đang kiểm tra kết nối tới WordPress..."):
+                        is_ok, msg = wp_test_connection(wp_site, wp_user, wp_pass)
+                        if is_ok:
+                            st.success(f"✅ {msg}")
+                        else:
+                            st.error(f"❌ {msg}")
+        with c_btn2:
+            if st.button("💾 Lưu mật khẩu vào file .env", key="wp_save_env_btn", help="Lưu thông tin đăng nhập để không phải nhập lại mỗi lần mở app"):
+                dotenv_path = os.path.join(BASE_DIR, '.env')
+                env_content = load_file(dotenv_path)
+                lines = env_content.splitlines()
+                new_lines = []
+                keys_updated = {"WP_SITE_URL": False, "WP_USERNAME": False, "WP_APP_PASSWORD": False}
+                for l in lines:
+                    if l.startswith("WP_SITE_URL="):
+                        new_lines.append(f"WP_SITE_URL={wp_site}")
+                        keys_updated["WP_SITE_URL"] = True
+                    elif l.startswith("WP_USERNAME="):
+                        new_lines.append(f"WP_USERNAME={wp_user}")
+                        keys_updated["WP_USERNAME"] = True
+                    elif l.startswith("WP_APP_PASSWORD="):
+                        new_lines.append(f"WP_APP_PASSWORD={wp_pass}")
+                        keys_updated["WP_APP_PASSWORD"] = True
+                    else:
+                        new_lines.append(l)
+                if not keys_updated["WP_SITE_URL"]: new_lines.append(f"WP_SITE_URL={wp_site}")
+                if not keys_updated["WP_USERNAME"]: new_lines.append(f"WP_USERNAME={wp_user}")
+                if not keys_updated["WP_APP_PASSWORD"]: new_lines.append(f"WP_APP_PASSWORD={wp_pass}")
+                save_file(dotenv_path, "\n".join(new_lines) + "\n")
+                st.success("✅ Đã lưu cấu hình vào `.env`!")
+
+    st.divider()
+
+    # --- NHẬP VĂN BẢN CHƯƠNG ---
+    st.markdown("#### 📥 Nhập Nội Dung Chương Truyện (Copy từ Notepad++)")
+    
+    col_opt1, col_opt2 = st.columns([3, 1])
+    with col_opt1:
+        st.caption("Dán nguyên văn file text từ Notepad++ vào ô dưới đây. Hệ thống sẽ tự lọc tiêu đề, Trans, Beta, tách đoạn và gom chú thích.")
+    with col_opt2:
+        # Tùy chọn nạp nhanh từ vi_final.txt nếu có
+        if st.button("📂 Nạp từ vi_final.txt", key="wp_load_vifinal_btn", use_container_width=True, help="Tự động lấy bản dịch từ tab Dịch thuật"):
+            current_vifinal = load_file(PATHS.get('output', ''))
+            if current_vifinal:
+                st.session_state["wp_raw_text_input"] = current_vifinal
+                st.success("✅ Đã nạp nội dung từ vi_final.txt")
+                st.rerun()
+            else:
+                st.info("Chưa có file vi_final.txt trong output.")
+
+    raw_text = st.text_area(
+        "Nội dung từ Notepad++:",
+        value=st.session_state.get("wp_raw_text_input", ""),
+        height=320,
+        placeholder="Chương 326: Anh em giao chiến (6)\nTrans: Y.Chi\nBeta: Myfamilytwo\n\n\"Em đang làm gì vậy?!\"\n\nTôi cố gắng chạy đến...\n\n- Chết tiệt [1], Hát Ru...\n\nChú thích:\n[1] Giải thích...",
+        key="wp_raw_text_area"
+    )
+    st.session_state["wp_raw_text_input"] = raw_text
+
+    # Xử lý format tức thời
+    parsed_title, parsed_html, parsed_meta = format_chapter_for_wordpress(raw_text)
+
+    # CÁC TRƯỜNG THÔNG TIN TÙY CHỈNH
+    col_t1, col_t2, col_t3 = st.columns([2, 1, 1])
+    with col_t1:
+        post_title = st.text_input("📝 Tiêu đề bài viết:", value=parsed_meta.get("title", ""), placeholder="Chương 326: Tên chương", key="wp_post_title")
+    with col_t2:
+        post_trans = st.text_input("Trans:", value=parsed_meta.get("trans", ""), placeholder="Y.Chi", key="wp_post_trans")
+    with col_t3:
+        post_beta = st.text_input("Beta:", value=parsed_meta.get("beta", ""), placeholder="Myfamilytwo", key="wp_post_beta")
+
+    # Tạo lại HTML theo thông tin tùy chỉnh nếu người dùng sửa ô tiêu đề/trans/beta
+    final_title, final_html, final_meta = format_chapter_for_wordpress(
+        raw_text,
+        custom_title=post_title,
+        trans_name=post_trans,
+        beta_name=post_beta
+    )
+
+    # Hiển thị thống kê
+    st.markdown(
+        f"📊 **Thống kê:** `{final_meta.get('paragraphs_count', 0)}` đoạn văn | "
+        f"`{final_meta.get('footnotes_count', 0)}` chú thích (footnotes) | "
+        f"Trans: `{final_meta.get('trans') or '—'}` | Beta: `{final_meta.get('beta') or '—'}`"
+    )
+
+    # Tạo nội dung Facebook post sẵn sàng
+    fb_preview_caption = generate_facebook_post(
+        chapter_title=final_title,
+        trans_name=final_meta.get("trans", ""),
+        beta_name=final_meta.get("beta", ""),
+        paragraphs=final_meta.get("paragraphs", []),
+        post_link=""
+    )
+
+    # --- TAB XEM TRƯỚC (PREVIEW) ---
+    pv_tab1, pv_tab2, pv_tab3 = st.tabs([
+        "👁️ Xem trước giao diện Web (Preview)",
+        "📢 Bài đăng Facebook (Copy 1-Click)",
+        "📄 Mã nguồn HTML sẽ gửi lên WordPress"
+    ])
+    
+    with pv_tab1:
+        if final_html:
+            st.caption("📖 Giao diện đọc truyện chuẩn web `lazyhowlteam.com` (Nền sáng)")
+            st.markdown(
+                f"""
+                <div style="background-color: #ffffff; color: #1a202c; border: 1px solid #e2e8f0; border-radius: 12px; padding: 32px 36px; box-shadow: 0 4px 14px rgba(0,0,0,0.06); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; line-height: 1.85; margin-bottom: 15px;">
+                    <h2 style="margin-top: 0; margin-bottom: 16px; color: #0f172a; font-size: 22px; font-weight: 700; border-bottom: 2px solid #e2e8f0; padding-bottom: 12px;">
+                        {final_title or '(Chưa có tiêu đề)'}
+                    </h2>
+                    <div class="wp-reading-preview" style="font-size: 16px; color: #24292f;">
+                        <style>
+                            .wp-reading-preview p {{ margin-bottom: 1.25em !important; color: #24292f !important; line-height: 1.85 !important; }}
+                            .wp-reading-preview em {{ color: #64748b !important; font-style: italic; }}
+                            .wp-reading-preview a {{ color: #0284c7 !important; text-decoration: none; }}
+                            .wp-reading-preview a:hover {{ text-decoration: underline; }}
+                            .wp-reading-preview hr {{ border: none; border-top: 1px solid #e2e8f0; margin: 24px 0; }}
+                            .wp-reading-preview .wp-block-footnotes {{ font-size: 14.5px; color: #64748b !important; padding-left: 20px; }}
+                            .wp-reading-preview .wp-block-footnotes li {{ margin-bottom: 6px; color: #64748b !important; }}
+                        </style>
+                        {final_html}
+                    </div>
+                </div>
+                """,
+                unsafe_allow_html=True
+            )
+        else:
+            st.info("Chưa có nội dung để xem trước. Hãy dán bài viết vào ô phía trên.")
+
+    with pv_tab2:
+        if final_title or final_html:
+            st.caption("✨ Tự động tạo caption Facebook bắt mắt kèm teaser thoại hay & bộ hashtag chuẩn:")
+            st.text_area(
+                "📋 Nội dung bài đăng Facebook (có thể sửa trực tiếp):",
+                value=fb_preview_caption,
+                height=260,
+                key="wp_fb_preview_caption_area"
+            )
+            col_fb1, col_fb2 = st.columns([3, 1])
+            with col_fb1:
+                st.info("💡 Mẹo: Khi bấm đăng bài lên WordPress thành công, link thật của bài viết trên web sẽ tự động được cập nhật vào caption này.")
+            with col_fb2:
+                st.markdown("[🔗 **Mở Facebook**](https://www.facebook.com)")
+        else:
+            st.info("Chưa có nội dung để tạo bài đăng Facebook. Hãy dán bài viết vào ô phía trên.")
+
+    with pv_tab3:
+        if final_html:
+            st.code(final_html, language="html")
+        else:
+            st.caption("Chưa có mã HTML.")
+
+    st.divider()
+
+    # --- ĐĂNG BÀI LÊN WORDPRESS ---
+    col_act1, col_act2 = st.columns([1, 2])
+    with col_act1:
+        post_status = st.radio(
+            "Trạng thái xuất bản:",
+            ["publish", "draft"],
+            format_func=lambda x: "🟢 Đăng công khai ngay (Publish)" if x == "publish" else "🟡 Lưu bản nháp (Draft)",
+            horizontal=True,
+            key="wp_post_status"
+        )
+
+    with col_act2:
+        st.write("")
+        st.write("")
+        publish_btn = st.button("🚀 Xuất bản bài viết lên WordPress", type="primary", use_container_width=True, key="wp_submit_publish")
+
+    if publish_btn:
+        effective_pass = wp_pass or env_app_pass
+        if not effective_pass:
+            st.error("❌ Vui lòng nhập Application Password trong phần Cấu Hình Kết Nối trước khi đăng bài!")
+        elif not final_title.strip():
+            st.error("❌ Vui lòng nhập Tiêu đề bài viết!")
+        elif not final_html.strip():
+            st.error("❌ Nội dung bài viết đang trống!")
+        else:
+            with st.spinner(f"Đang gửi bài viết '{final_title}' lên {wp_site}..."):
+                try:
+                    resp = wp_publish_post(
+                        site_url=wp_site,
+                        username=wp_user,
+                        app_password=effective_pass,
+                        title=final_title,
+                        html_content=final_html,
+                        category_id=wp_cat_id,
+                        featured_media_id=wp_media_id,
+                        status=post_status
+                    )
+                    if resp.status_code in [200, 201]:
+                        res_data = resp.json()
+                        post_link = res_data.get("link", "")
+                        post_id = res_data.get("id", "")
+                        status_text = "công khai" if post_status == "publish" else "bản nháp"
+                        
+                        log_action("WordPress", f"Đăng thành công bài '{final_title}' (ID: {post_id}, status: {post_status})")
+                        
+                        st.balloons()
+                        st.success(f"🎉 **Đăng bài thành công ({status_text})!** (ID: `{post_id}`)")
+                        if post_link:
+                            st.markdown(f"👉 **Xem bài viết trực tiếp tại:** [{post_link}]({post_link})")
+                        
+                        # Khung bài đăng Facebook sẵn link thật
+                        st.markdown("#### 📢 Bài Đăng Facebook Đã Cập Nhật Link Web")
+                        fb_final_caption = generate_facebook_post(
+                            chapter_title=final_title,
+                            trans_name=final_meta.get("trans", ""),
+                            beta_name=final_meta.get("beta", ""),
+                            paragraphs=final_meta.get("paragraphs", []),
+                            post_link=post_link
+                        )
+                        st.text_area(
+                            "📋 Copy bài đăng Facebook dưới đây:",
+                            value=fb_final_caption,
+                            height=240,
+                            key="wp_fb_success_caption"
+                        )
+                        st.markdown("[🚀 **Mở Facebook để dán và đăng ngay**](https://www.facebook.com)")
+                    else:
+                        st.error(f"❌ Lỗi đăng bài từ WordPress ({resp.status_code}):")
+                        st.code(resp.text)
+                except Exception as ex:
+                    st.error(f"❌ Lỗi kết nối khi gửi bài: {str(ex)}")
+
+
+# ============================================================
+# =================== TAB 14: NOVEL WORKFLOW =================
+# ============================================================
+with tabs[14]:
+    st.markdown("""
+    <div style='background:linear-gradient(135deg,#4F46E5 0%,#7C3AED 100%);
+         border:1px solid #C7D2FE;border-radius:12px;padding:1.2rem 1.6rem;margin-bottom:1rem;color:#ffffff'>
+      <h2 style='margin:0;color:#ffffff;font-size:1.5rem'>📖 Novel Workflow SOP</h2>
+      <p style='margin:0.3rem 0 0;color:rgba(255,255,255,0.9);font-size:0.92rem'>
+        Quy trình Dịch & QC Tiểu Thuyết 1:1 liền mạch · Công cụ chuẩn xác 100% tích hợp theo từng bước · Đồng bộ Long-term Memory
+      </p>
+    </div>
+    """, unsafe_allow_html=True)
+
+    def _nw_get_input_files():
+        files = []
+        for root in [os.path.join(BASE_DIR, 'input'), os.path.join(BASE_DIR, 'input', 'qc')]:
+            if os.path.exists(root):
+                for f in sorted(os.listdir(root)):
+                    if f.endswith(('.txt', '.md')) and not f.startswith('.'):
+                        rel = os.path.relpath(os.path.join(root, f), BASE_DIR).replace('\\', '/')
+                        files.append(rel)
+        return files
+
+    def _nw_split_paras(text):
+        if not text:
+            return []
+        return [p.strip() for p in text.split('\n') if p.strip()]
+
+    def _nw_parse_novel_file(text):
+        if not text:
+            return {"headers": [], "body": [], "footers": [], "has_dense_spacing": False, "normalized_text": ""}
+        import re as _re
+        raw_lines = text.splitlines()
+        non_empty = [l.strip() for l in raw_lines if l.strip()]
+        
+        blank_line_count = sum(1 for l in raw_lines if not l.strip())
+        has_dense_spacing = (blank_line_count < len(non_empty) * 0.4) and len(non_empty) > 10
+
+        headers = []
+        header_indices = set()
+        for idx in range(min(8, len(non_empty))):
+            l = non_empty[idx]
+            if _re.match(r'^(Trans|Beta|Edit|Editor|Dịch|Nguồn|Tác giả|Author)\s*[:\-]', l, _re.I):
+                headers.append(l)
+                header_indices.add(idx)
+
+        content_lines = [l for idx, l in enumerate(non_empty) if idx not in header_indices]
+
+        footers = []
+        end_idx = len(content_lines)
+        while end_idx > 0:
+            l = content_lines[end_idx - 1]
+            if _re.match(r'^\[\d+\]\s+', l):
+                footers.insert(0, l)
+                end_idx -= 1
+            else:
+                break
+
+        body = content_lines[:end_idx]
+        
+        parts = []
+        if headers:
+            parts.append("\n".join(headers))
+        parts.extend(body)
+        if footers:
+            parts.append("\n".join(footers))
+        normalized_text = "\n\n".join(parts) + "\n"
+
+        return {
+            "headers": headers,
+            "body": body,
+            "footers": footers,
+            "has_dense_spacing": has_dense_spacing,
+            "normalized_text": normalized_text
+        }
+
+    def _nw_clean_vi(result_text):
+        if not result_text:
+            return ""
+        import re as _re
+        lines = result_text.splitlines()
+        clean = []
+        for l in lines:
+            s = l.strip()
+            if s.startswith('KR:') or s.startswith('EN:'):
+                continue
+            clean.append(l)
+        res = '\n'.join(clean)
+        res = _re.sub(r'\n{3,}', '\n\n', res).strip()
+        return res
+
+    char_mem_path = os.path.join(BASE_DIR, 'memory', 'characters.md')
+    time_mem_path = os.path.join(BASE_DIR, 'memory', 'timeline_summary.md')
+
+    nw_tabs = st.tabs([
+        "🅰️ Luồng 1: Tự Dịch (Trans)",
+        "🅱️ Luồng 2: QC Lead",
+        "🧠 Quản Lý Memory Tổng Thể"
+    ])
+
+    # ============================================================
+    # ==================== LUỒNG 1: TỰ DỊCH ======================
+    # ============================================================
+    with nw_tabs[0]:
+        st.markdown("### 🅰️ Luồng 1: Tự Dịch Từ Raw (Dành Cho Dịch Giả)")
+        st.caption("Quy trình 5 bước tích hợp công cụ chuẩn: Nạp Raw ➔ Lập QA ➔ Dịch ➔ Ghép Xen Kẽ 1:1 bằng Tool ➔ Trau chuốt Notepad++ ➔ Lọc sạch & Cập nhật Memory.")
+
+        # --- BƯỚC 1 ---
+        st.markdown("#### 🔹 Bước 1: Nạp Raw & Đối Chiếu Bộ Nhớ Dài Hạn")
+        in_files_1 = _nw_get_input_files()
+        c_raw1, c_raw2 = st.columns([3, 1])
+        with c_raw1:
+            sel_raw_1 = st.selectbox("Chọn file raw trong thư mục input/:", in_files_1 or ["(Chưa có file trong input/)"], key="nw_raw_sel_1")
+        with c_raw2:
+            if st.button("🔄 Tải lại", key="nw_refresh_1"):
+                st.rerun()
+
+        raw_text_1 = ""
+        raw_paras_1 = []
+        if sel_raw_1 and sel_raw_1 != "(Chưa có file trong input/)":
+            full_r1 = os.path.join(BASE_DIR, sel_raw_1)
+            if os.path.exists(full_r1):
+                raw_text_1 = load_file(full_r1)
+                raw_paras_1 = _nw_split_paras(raw_text_1)
+                st.caption(f"📊 Đã nạp `{sel_raw_1}` — Tổng cộng: **{len(raw_paras_1)}** đoạn văn.")
+
+        with st.expander("👁️ Xem trước Hồ Sơ Nhân Vật từ memory/characters.md", expanded=False):
+            if os.path.exists(char_mem_path):
+                st.markdown(load_file(char_mem_path))
+            else:
+                st.info("Chưa có file `memory/characters.md`.")
+
+        prompt_1_1 = f"""Tôi vừa nạp file raw ở [{sel_raw_1}].
+Hãy đọc file raw, đối chiếu với [glossary/glossary.md] và [memory/characters.md] để xuất:
+1. BẢNG A: Cặp nhân vật và đề xuất xưng hô đối thoại trong ngữ cảnh chương.
+2. BẢNG B: Các glossary/thuật ngữ mới (tên nhân vật mới, địa danh, kỹ năng, quái vật) kèm phân loại và phương án dịch đề xuất.
+(LƯU Ý: Chỉ xuất 2 bảng QA, CHƯA dịch toàn văn cho đến khi tôi duyệt)."""
+
+        st.text_area("📋 Prompt Lệnh 1.1 (Copy dán vào Chat IDE):", value=prompt_1_1, height=135, key="nw_p11")
+
+        st.divider()
+
+        # --- BƯỚC 2 ---
+        st.markdown("#### 🔹 Bước 2: Chốt QA & AI Dịch Toàn Văn")
+        qa_notes_1 = st.text_area("Nhập ghi chú duyệt QA của bạn:", placeholder="VD: Duyệt toàn bộ đề xuất của AI. Hwang Rim dịch là Hoàng Lâm...", height=80, key="nw_qa_notes_1")
+        
+        base_name_1 = os.path.basename(sel_raw_1).rsplit('.', 1)[0] if sel_raw_1 and sel_raw_1 != "(Chưa có file trong input/)" else "ten_file"
+        prompt_1_2 = f"""Tôi chốt QA như sau: {qa_notes_1 or '[GHI CHÚ DUYỆT CỦA BẠN]'}
+1. Tự động đẩy các thuật ngữ mới đã duyệt lên Google Sheet 'Thuật ngữ chi tiết' và cập nhật [glossary/glossary.md] (bảo vệ tuyệt đối các dòng đã Chốt=TRUE).
+2. Dịch toàn văn theo nguyên tắc BẢO TOÀN 1:1 (ZERO ADDITION, ZERO OMISSION) và xuất bản dịch tiếng Việt để tôi ghép nối."""
+
+        st.text_area("📋 Prompt Lệnh 1.2 (Copy dán vào Chat IDE):", value=prompt_1_2, height=125, key="nw_p12")
+
+        st.divider()
+
+        # --- BƯỚC 3 (INTEGRATED TOOL) ---
+        st.markdown("#### ⚡ Bước 3: Ghép File Xen Kẽ 1:1 Bằng Tool Chuẩn (Loại Bỏ Lỗi AI)")
+        st.caption("Dùng thuật toán Python ghép cặp `KR: ...` và câu dịch 1:1, tự động kiểm tra assert độ dài để tuyệt đối không bị rớt dòng.")
+
+        l1_trans_text = st.text_area("Dán toàn văn bản dịch tiếng Việt của AI vừa dịch vào đây:", height=180, key="nw_l1_trans_input", placeholder="Dán các đoạn văn tiếng Việt của AI vào đây...")
+        l1_footer = st.text_input("Ghi chú chân trang (tùy chọn):", placeholder="VD: --- \n[1] Quân đội nhà Đường: Thành ngữ chỉ quân đội vô kỷ luật...", key="nw_l1_footer")
+
+        if l1_trans_text:
+            v_p1 = _nw_split_paras(l1_trans_text)
+            c_st1, c_st2 = st.columns(2)
+            c_st1.metric("Số đoạn Bản Gốc (KR)", f"{len(raw_paras_1)} đoạn")
+            c_st2.metric("Số đoạn Bản Dịch (VI)", f"{len(v_p1)} đoạn")
+            if len(raw_paras_1) != len(v_p1) and len(raw_paras_1) > 0:
+                st.warning(f"⚠️ Chênh lệch {abs(len(raw_paras_1) - len(v_p1))} đoạn văn! Hãy kiểm tra xem AI có gộp hoặc bỏ sót đoạn nào không.")
+
+        if st.button("🚀 Ghép File Xen Kẽ 1:1 & Lưu output/", type="primary", key="nw_l1_btn_merge"):
+            v_list1 = _nw_split_paras(l1_trans_text)
+            if not raw_paras_1:
+                st.error("❌ Chưa nạp được nội dung Bản gốc từ Bước 1!")
+            elif not v_list1:
+                st.error("❌ Chưa dán nội dung Bản dịch tiếng Việt!")
+            elif len(raw_paras_1) != len(v_list1):
+                st.error(f"❌ Lệch số đoạn: Bản gốc có {len(raw_paras_1)} đoạn, Bản dịch có {len(v_list1)} đoạn! Không thể ghép 1:1.")
+            else:
+                lines_out = []
+                for k, v in zip(raw_paras_1, v_list1):
+                    lines_out.append(f"KR: {k}")
+                    lines_out.append(v)
+                    lines_out.append("")
+                out_content_1 = "\n".join(lines_out).rstrip() + ("\n\n" + l1_footer.strip() if l1_footer.strip() else "") + "\n"
+                
+                out_path_1 = os.path.join(BASE_DIR, 'output', f'result_{base_name_1}.txt')
+                os.makedirs(os.path.dirname(out_path_1), exist_ok=True)
+                save_file(out_path_1, out_content_1)
+                log_action("Novel Workflow", f"Ghép 1:1 thành công file {out_path_1}")
+                st.success(f"🎉 Đã ghép chuẩn 100% {len(raw_paras_1)} cặp đoạn vào `{out_path_1}`!")
+                st.download_button("⬇️ Tải file xen kẽ (.txt)", out_content_1, file_name=f"result_{base_name_1}.txt", mime="text/plain", key="nw_dl_l1")
+
+        st.divider()
+
+        # --- BƯỚC 4 ---
+        st.markdown("#### 🔹 Bước 4: Mở Notepad++ Tự Tay Trau Chuốt")
+        st.info(f"📂 Hãy mở file `output/result_{base_name_1}.txt` bằng **Notepad++** (mắt nhìn dòng `KR:` ở trên, tay sửa câu dịch ở dưới). Sửa xong nhấn `Ctrl + S` để lưu.")
+
+        st.divider()
+
+        # --- BƯỚC 5 (INTEGRATED TOOL & MEMORY UPDATE) ---
+        st.markdown("#### ✂️ Bước 5: Lọc Tiếng Việt Sạch & Cập Nhật Dòng Thời Gian")
+        st.caption("Sau khi lưu file trong Notepad++, lọc lấy tiếng Việt sạch để đăng WordPress và ghi nhận tóm tắt vào Memory.")
+
+        c_cl1, c_cl2 = st.columns([1, 1])
+        with c_cl1:
+            if st.button("✂️ Lọc Tiếng Việt Sạch Tức Thì", type="primary", key="nw_l1_run_clean"):
+                target_f1 = os.path.join(BASE_DIR, 'output', f'result_{base_name_1}.txt')
+                if os.path.exists(target_f1):
+                    c_txt = load_file(target_f1)
+                    clean_res1 = _nw_clean_vi(c_txt)
+                    st.session_state['nw_l1_clean_res'] = clean_res1
+                    st.success(f"✅ Đã trích xuất sạch {len(_nw_split_paras(clean_res1))} đoạn tiếng Việt!")
+                else:
+                    st.warning(f"⚠️ Chưa tìm thấy file `{target_f1}`. Hãy thực hiện Bước 3 trước.")
+
+        if st.session_state.get('nw_l1_clean_res'):
+            st.text_area("📄 Bản dịch sạch (Sẵn sàng nạp sang tab Đăng WordPress):", value=st.session_state['nw_l1_clean_res'], height=220, key="nw_l1_clean_view")
+            st.download_button("⬇️ Tải bản dịch sạch (.txt)", st.session_state['nw_l1_clean_res'], file_name=f"clean_{base_name_1}.txt", mime="text/plain", key="nw_dl_clean_l1")
+
+        st.markdown("##### 💾 Cập nhật Dòng Thời Gian (Memory Timeline)")
+        with st.form("nw_l1_mem_form"):
+            c_m1, c_m2 = st.columns([1, 2])
+            with c_m1:
+                ch_tag_1 = st.text_input("Mã chương:", value=f"Chap {base_name_1.replace('chap_', '').replace('ch_', '').replace('-kr', '')}")
+                ch_loc_1 = st.text_input("Địa điểm & Bối cảnh:", placeholder="VD: Bể bơi huấn luyện thú")
+            with c_m2:
+                ch_plot_1 = st.text_area("Diễn biến chính (2-3 câu):", placeholder="VD: Yoojin gặp Thợ săn cấp S Hwang Rim. Yoojin phát hiện âm mưu bắt sống Yoohyun làm con tin...", height=80)
+                ch_sta_1 = st.text_input("Trạng thái nhân vật:", placeholder="VD: Chân Yoojin gãy đang chống nạng; Yoohyun sắp tới ứng cứu...")
+            submit_mem_1 = st.form_submit_button("💾 Lưu Vào memory/timeline_summary.md", type="secondary")
+            if submit_mem_1:
+                if not ch_plot_1.strip():
+                    st.error("❌ Chưa nhập diễn biến chính!")
+                else:
+                    entry = f"\n\n### [{ch_tag_1}]\n- **Địa điểm & Bối cảnh:** {ch_loc_1.strip()}\n- **Diễn biến chính:** {ch_plot_1.strip()}\n- **Trạng thái nhân vật:** {ch_sta_1.strip()}"
+                    os.makedirs(os.path.dirname(time_mem_path), exist_ok=True)
+                    with open(time_mem_path, 'a', encoding='utf-8') as _mf:
+                        _mf.write(entry)
+                    log_action("Novel Workflow", f"Cập nhật timeline_summary.md [{ch_tag_1}]")
+                    st.success(f"✅ Đã ghi nhận thành công `[{ch_tag_1}]` vào `memory/timeline_summary.md`!")
+
+    # ============================================================
+    # ==================== LUỒNG 2: QC LEAD ======================
+    # ============================================================
+    with nw_tabs[1]:
+        st.markdown("### 🅱️ Luồng 2: QC Lead Biên Tập Bài Thành Viên")
+        st.caption("Quy trình 5 bước tích hợp công cụ chuẩn: Nạp bài ➔ Đo đếm lệch đoạn ➔ AI Audit Đa Tầng ➔ Lead duyệt sửa & ghép xen kẽ bằng Tool ➔ Trau chuốt Notepad++ ➔ Lọc sạch & Cập nhật Memory.")
+
+        # --- BƯỚC 1 (INTEGRATED TOOL & PRE-CHECK) ---
+        st.markdown("#### 🔹 Bước 1: Nạp Bài & Kiểm Tra Độ Lệch Đoạn Bằng Tool")
+        in_files_2 = _nw_get_input_files()
+        c2_1, c2_2 = st.columns(2)
+        with c2_1:
+            sel_raw_2 = st.selectbox("1. Bản gốc (KR/EN):", in_files_2 or ["(Chưa có file raw)"], key="nw_raw_sel_2")
+        with c2_2:
+            sel_vi_2 = st.selectbox("2. Bản dịch của Trans:", in_files_2 or ["(Chưa có file trans)"], key="nw_vi_sel_2")
+
+        raw_parsed = {"headers": [], "body": [], "footers": [], "has_dense_spacing": False, "normalized_text": ""}
+        vi_parsed = {"headers": [], "body": [], "footers": [], "has_dense_spacing": False, "normalized_text": ""}
+        
+        if sel_raw_2 and sel_raw_2 != "(Chưa có file raw)":
+            full_r2 = os.path.join(BASE_DIR, sel_raw_2)
+            if os.path.exists(full_r2):
+                raw_parsed = _nw_parse_novel_file(load_file(full_r2))
+        if sel_vi_2 and sel_vi_2 != "(Chưa có file trans)":
+            full_v2 = os.path.join(BASE_DIR, sel_vi_2)
+            if os.path.exists(full_v2):
+                vi_parsed = _nw_parse_novel_file(load_file(full_v2))
+
+        raw_paras_2 = raw_parsed["body"]
+        vi_paras_2 = vi_parsed["body"]
+        raw_p2_count = len(raw_paras_2)
+        vi_p2_count = len(vi_paras_2)
+
+        # Thông báo nhận diện Header / Footnotes tự động
+        if vi_parsed["headers"]:
+            st.info(f"💡 **Tự động bóc tách Header**: `{', '.join(vi_parsed['headers'])}` ➔ Đã loại trừ khỏi nội dung truyện để không bị lệch pha số đoạn.")
+        if raw_parsed["footers"] or vi_parsed["footers"]:
+            n_ft = len(raw_parsed["footers"]) or len(vi_parsed["footers"])
+            st.caption(f"📌 Đã bóc tách **{n_ft}** chú thích cuối bài `[1], [2]...` sang chân trang.")
+
+        # Cảnh báo và nút chuẩn hóa cách dòng nếu file đang dính liền
+        if vi_parsed["has_dense_spacing"]:
+            c_dn1, c_dn2 = st.columns([3, 1])
+            with c_dn1:
+                st.warning(f"⚠️ Bản dịch `{sel_vi_2}` đang có các đoạn văn dính liền kề (chưa có dòng trống `\\n\\n`). Khuyên dùng định dạng cách dòng để dễ đối chiếu.")
+            with c_dn2:
+                if st.button("🪄 Chuẩn Hóa Cách Dòng", key="nw_btn_normalize_vi", type="primary"):
+                    save_file(full_v2, vi_parsed["normalized_text"])
+                    log_action("Novel Workflow", f"Chuẩn hóa cách dòng file {sel_vi_2}")
+                    st.success("✅ Đã chuẩn hóa cách dòng thành công!")
+                    st.rerun()
+
+        m1, m2, m3 = st.columns(3)
+        m1.metric("Số đoạn Bản gốc (Nội dung)", f"{raw_p2_count} đoạn")
+        m2.metric("Số đoạn Bản dịch (Nội dung)", f"{vi_p2_count} đoạn")
+        if raw_p2_count > 0 and vi_p2_count > 0:
+            if raw_p2_count == vi_p2_count:
+                m3.metric("Khớp 1:1", "✅ Chuẩn 100%", "Không lệch đoạn")
+            else:
+                m3.metric("Khớp 1:1", f"⚠️ Lệch {abs(raw_p2_count - vi_p2_count)} đoạn", "Cần AI audit bắt sót", delta_color="inverse")
+                with st.expander("🔍 Xem so sánh đối chiếu để tìm vị trí lệch đoạn", expanded=False):
+                    c_d1, c_d2 = st.columns(2)
+                    with c_d1:
+                        st.write("**5 đoạn đầu Bản gốc:**")
+                        for idx, p in enumerate(raw_paras_2[:5]):
+                            st.code(f"[{idx + 1}] {p}")
+                        st.write("**3 đoạn cuối Bản gốc:**")
+                        for idx, p in enumerate(raw_paras_2[-3:]):
+                            st.code(f"[{raw_p2_count - 3 + idx + 1}] {p}")
+                    with c_d2:
+                        st.write("**5 đoạn đầu Bản dịch:**")
+                        for idx, p in enumerate(vi_paras_2[:5]):
+                            st.code(f"[{idx + 1}] {p}")
+                        st.write("**3 đoạn cuối Bản dịch:**")
+                        for idx, p in enumerate(vi_paras_2[-3:]):
+                            st.code(f"[{vi_p2_count - 3 + idx + 1}] {p}")
+
+        with st.expander("👁️ Xem Bối Cảnh Lịch Sử & Xưng Hô (Memory)", expanded=False):
+            t_mem1, t_mem2 = st.tabs(["Hồ sơ nhân vật", "Dòng thời gian gần nhất"])
+            with t_mem1:
+                st.markdown(load_file(char_mem_path) if os.path.exists(char_mem_path) else "_Chưa có_")
+            with t_mem2:
+                st.markdown(load_file(time_mem_path) if os.path.exists(time_mem_path) else "_Chưa có_")
+
+        st.divider()
+
+        # --- BƯỚC 2 ---
+        st.markdown("#### 🔹 Bước 2: Lệnh 2.1 — AI QC Audit Đa Tầng")
+        st.caption("AI Gemini 3.8 Flash quét 5 tiêu chí: Nghĩa gốc, Sót/Thừa, Character Drift, Timeline Conflict, Glossary Chốt.")
+
+        prompt_2_1 = f"""Tôi là QC Lead đang kiểm duyệt bài nộp của thành viên dịch trong nhóm.
+Dưới đây là các tài liệu đối chiếu:
+- Bản gốc (KR/EN): [{sel_raw_2}]
+- Bản dịch của thành viên: [{sel_vi_2}]
+- Từ điển thuật ngữ chuẩn: [glossary/glossary.md]
+- Hồ sơ nhân vật & xưng hô lịch sử: [memory/characters.md]
+- Bối cảnh & tóm tắt các chap trước: [memory/timeline_summary.md]
+
+Hãy đối chiếu chi tiết từng câu của bản dịch với bản gốc và các tài liệu trên để lập BÁO CÁO QC:
+
+1. ĐÁNH GIÁ TỔNG QUAN:
+   - Điểm đánh giá chất lượng dịch (thang điểm 10).
+   - Nhận xét ưu điểm & các lỗi thường gặp của thành viên.
+
+2. BẢNG PHÁT HIỆN LỖI CHI TIẾT THEO TỪNG ĐOẠN:
+   - Lỗi Nghiêm Trọng: Dịch sai nghĩa gốc, dịch thiếu câu/ý (Omission), tự ý phóng tác/thêm thắt (Addition).
+   - Lỗi Lệch Nhân Vật & Xưng Hô (Character Drift): Nhảy xưng hô lệch so với hồ sơ trong [memory/characters.md] hoặc đổi đại từ ngôi 3 không nhất quán.
+   - Lỗi Mâu Thuẫn Diễn Biến (Timeline / State Conflict): Dịch sai ngữ cảnh, trái ngược với trạng thái nhân vật / thương tích / địa điểm được tóm tắt trong [memory/timeline_summary.md].
+   - Lỗi Quy Ước: Sai lệch thuật ngữ so với các dòng đã Chốt=TRUE trong Google Sheet / Glossary.
+   - Gợi ý Diễn Đạt: Câu văn thô, lạm dụng cấu trúc bị động (bị/được/bởi).
+   * Format bảng: [Đoạn số] | [Câu gốc KR/EN] | [Câu trans dịch] | [Vấn đề phát hiện] | [Đề xuất sửa tối thiểu (Minimal Patch)]
+
+3. DANH SÁCH THUẬT NGỮ & NHÂN VẬT MỚI:
+   - Thuật ngữ mới đề xuất thêm vào Glossary.
+   - Nhân vật mới hoặc bước tiến quan hệ mới cần ghi nhận vào Memory.
+
+(CHỈ XUẤT BÁO CÁO VÀ BẢNG LỖI, CHƯA XUẤT TOÀN VĂN)."""
+
+        st.text_area("📋 Prompt Lệnh 2.1 (Copy dán vào Chat IDE):", value=prompt_2_1, height=200, key="nw_p21")
+
+        st.divider()
+
+        # --- BƯỚC 3 (INTEGRATED MERGER TOOL) ---
+        st.markdown("#### ⚡ Bước 3: Lead Duyệt Sửa & Ghép File Xen Kẽ result_qc Bằng Tool")
+        st.caption("Sau khi xem bảng lỗi của AI, Lead nhập ghi chú duyệt. Bạn có thể để AI patch hoặc dùng Tool bên dưới để ghép xen kẽ ngay lập tức.")
+
+        lead_notes_2 = st.text_area("Ghi chú duyệt của Lead:", placeholder="VD: Duyệt toàn bộ đề xuất của AI. Đoạn 14 giữ nguyên của trans, đoạn 20 sửa theo ý tôi...", height=80, key="nw_lead_notes_2")
+        base_name_2 = os.path.basename(sel_vi_2).rsplit('.', 1)[0] if sel_vi_2 and sel_vi_2 != "(Chưa có file trans)" else "ten_file"
+
+        prompt_2_2 = f"""Tôi duyệt các đề xuất sửa sau: {lead_notes_2 or '[GHI CHÚ DUYỆT CỦA LEAD]'}
+
+1. CẬP NHẬT GLOSSARY:
+   - Tự động đẩy thuật ngữ mới được duyệt lên Google Sheet và cập nhật [glossary/glossary.md].
+
+2. CẬP NHẬT BỘ NHỚ DÀI HẠN (LONG-TERM MEMORY):
+   - Nếu có nhân vật mới hoặc mối quan hệ xưng hô mới được xác nhận: Bổ sung dòng mới vào bảng [memory/characters.md].
+   - Tóm tắt 2-3 câu ngắn gọn về diễn biến cốt lõi chương này (ai làm gì, đang ở đâu, trạng thái ra sao) và nối tiếp vào cuối file [memory/timeline_summary.md] (ghi rõ [Chap X]).
+
+3. SINH BẢN DỊCH TIẾNG VIỆT ĐÃ SỬA (PATCHED TRANSLATION):
+   - Áp dụng các sửa đổi đã duyệt vào bản dịch của trans và xuất bản dịch tiếng Việt hoàn chỉnh để tôi ghép file xen kẽ."""
+
+        st.text_area("📋 Prompt Lệnh 2.2 (Copy dán vào Chat IDE):", value=prompt_2_2, height=160, key="nw_p22")
+
+        st.markdown("##### 🛠️ Ghép Nhanh File Xen Kẽ output/result_qc_*.txt Bằng Tool")
+        l2_patched_trans = st.text_area("Dán nội dung bản dịch tiếng Việt sau khi AI đã patch (hoặc bài dịch của trans nếu sửa ít):", height=150, key="nw_l2_patched_input", placeholder="Dán bản dịch tiếng Việt vào đây...")
+        
+        if st.button("🚀 Ghép File Xen Kẽ result_qc 1:1 & Lưu output/", type="primary", key="nw_l2_btn_merge"):
+            parsed_patched = _nw_parse_novel_file(l2_patched_trans)
+            v_list2 = parsed_patched["body"]
+            if not raw_paras_2:
+                st.error("❌ Chưa nạp được nội dung Bản gốc từ Bước 1!")
+            elif not v_list2:
+                st.error("❌ Chưa dán nội dung Bản dịch tiếng Việt!")
+            elif len(raw_paras_2) != len(v_list2):
+                st.error(f"❌ Lệch số đoạn nội dung: Bản gốc có {len(raw_paras_2)} đoạn, Bản dịch có {len(v_list2)} đoạn! (Lệch {abs(len(raw_paras_2)-len(v_list2))} đoạn)")
+            else:
+                lines_qc = []
+                for k, v in zip(raw_paras_2, v_list2):
+                    lines_qc.append(f"KR: {k}")
+                    lines_qc.append(v)
+                    lines_qc.append("")
+                
+                header_prefix = ""
+                act_headers = parsed_patched["headers"] or vi_parsed["headers"]
+                if act_headers:
+                    header_prefix = "\n".join(act_headers) + "\n\n"
+
+                footer_suffix = ""
+                act_footers = parsed_patched["footers"] or raw_parsed["footers"] or vi_parsed["footers"]
+                if act_footers:
+                    footer_suffix = "\n\n---\n" + "\n".join(act_footers)
+
+                out_content_2 = header_prefix + "\n".join(lines_qc).rstrip() + footer_suffix + "\n"
+                out_path_2 = os.path.join(BASE_DIR, 'output', f'result_qc_{base_name_2}.txt')
+                os.makedirs(os.path.dirname(out_path_2), exist_ok=True)
+                save_file(out_path_2, out_content_2)
+                log_action("Novel Workflow", f"QC Lead ghép 1:1 thành công {out_path_2}")
+                st.success(f"🎉 Đã ghép thành công file `{out_path_2}` với {len(raw_paras_2)} cặp đoạn 1:1!")
+                st.download_button("⬇️ Tải file xen kẽ result_qc (.txt)", out_content_2, file_name=f"result_qc_{base_name_2}.txt", mime="text/plain", key="nw_dl_qc_2")
+
+        st.divider()
+
+        # --- BƯỚC 4 ---
+        st.markdown("#### 🔹 Bước 4: Lead Mở Notepad++ Tự Tay Biên Tập")
+        st.info(f"📂 Hãy mở file `output/result_qc_{base_name_2}.txt` bằng **Notepad++**. Tự tay trau chuốt từng câu chữ theo đúng giọng văn mong muốn, sau đó nhấn `Ctrl + S` để lưu.")
+
+        st.divider()
+
+        # --- BƯỚC 5 (INTEGRATED TOOL & LONG-TERM MEMORY UPDATE) ---
+        st.markdown("#### ✂️ Bước 5: Lọc Tiếng Việt Sạch & Cập Nhật Long-Term Memory")
+        st.caption("Trích xuất bản dịch sạch từ file result_qc vừa sửa để đăng web, đồng thời lưu trữ bộ nhớ dài hạn cho các chương kế tiếp.")
+
+        if st.button("✂️ Lọc Lấy Bản Dịch Sạch Từ file result_qc", type="primary", key="nw_l2_run_clean"):
+            target_f2 = os.path.join(BASE_DIR, 'output', f'result_qc_{base_name_2}.txt')
+            if os.path.exists(target_f2):
+                c_txt2 = load_file(target_f2)
+                clean_res2 = _nw_clean_vi(c_txt2)
+                st.session_state['nw_l2_clean_res'] = clean_res2
+                st.success(f"✅ Đã trích xuất sạch {len(_nw_split_paras(clean_res2))} đoạn tiếng Việt!")
+            else:
+                st.warning(f"⚠️ Chưa tìm thấy file `{target_f2}` trên máy.")
+
+        if st.session_state.get('nw_l2_clean_res'):
+            st.text_area("📄 Bản dịch sạch chuẩn bị đăng:", value=st.session_state['nw_l2_clean_res'], height=220, key="nw_l2_clean_view")
+            st.download_button("⬇️ Tải bản dịch sạch (.txt)", st.session_state['nw_l2_clean_res'], file_name=f"clean_qc_{base_name_2}.txt", mime="text/plain", key="nw_dl_clean_l2")
+
+        st.markdown("##### 💾 Cập nhật Long-Term Memory Chương Này")
+        mem_f_tab1, mem_f_tab2 = st.tabs(["1. Ghi nhận Dòng Thời Gian (Timeline)", "2. Bổ sung Nhân Vật Mới (Characters)"])
+        
+        with mem_f_tab1:
+            with st.form("nw_l2_time_form"):
+                ct1, ct2 = st.columns([1, 2])
+                with ct1:
+                    qc_ch_tag = st.text_input("Mã chương:", value=f"Chap {base_name_2.replace('chap_', '').replace('ch_', '').replace('-kr', '')}", key="nw_qc_ch_tag")
+                    qc_ch_loc = st.text_input("Địa điểm & Bối cảnh:", placeholder="VD: Sảnh chính Hội Haeyeon", key="nw_qc_ch_loc")
+                with ct2:
+                    qc_ch_plot = st.text_area("Diễn biến chính (2-3 câu):", placeholder="VD: Sung Hyunjae đến gặp Yoojin bàn về việc cứu viện...", height=80, key="nw_qc_ch_plot")
+                    qc_ch_sta = st.text_input("Trạng thái nhân vật:", placeholder="VD: Yoojin đã hồi phục thể lực; Hyunjae nắm tình hình", key="nw_qc_ch_sta")
+                sub_time_2 = st.form_submit_button("💾 Nối vào memory/timeline_summary.md", type="secondary")
+                if sub_time_2:
+                    if not qc_ch_plot.strip():
+                        st.error("❌ Chưa nhập diễn biến chính!")
+                    else:
+                        entry2 = f"\n\n### [{qc_ch_tag}]\n- **Địa điểm & Bối cảnh:** {qc_ch_loc.strip()}\n- **Diễn biến chính:** {qc_ch_plot.strip()}\n- **Trạng thái nhân vật:** {qc_ch_sta.strip()}"
+                        os.makedirs(os.path.dirname(time_mem_path), exist_ok=True)
+                        with open(time_mem_path, 'a', encoding='utf-8') as _mf:
+                            _mf.write(entry2)
+                        log_action("Novel Workflow", f"QC Lead cập nhật timeline [{qc_ch_tag}]")
+                        st.success(f"✅ Đã ghi nhận `[{qc_ch_tag}]` vào `memory/timeline_summary.md`!")
+
+        with mem_f_tab2:
+            with st.form("nw_l2_char_form"):
+                cc1, cc2, cc3 = st.columns(3)
+                with cc1:
+                    new_c_kr = st.text_input("Tên gốc (KR/EN):", placeholder="VD: 황림")
+                    new_c_vi = st.text_input("Tên dịch tiếng Việt:", placeholder="VD: Hoàng Lâm")
+                with cc2:
+                    new_c_gender = st.selectbox("Giới tính:", ["Nam", "Nữ", "Khác", "Không rõ"])
+                    new_c_pronoun = st.text_input("Đại từ ngôi 3:", value="anh / cậu / cô / hắn")
+                with cc3:
+                    new_c_role = st.text_input("Vai trò / Tổ chức:", placeholder="VD: Thợ săn cấp S Trung Quốc")
+                    new_c_speech = st.text_input("Xưng hô / Phong cách thoại:", placeholder="VD: Gọi Yoojin là 'cậu'")
+                new_c_notes = st.text_input("Ghi chú quan trọng:", placeholder="VD: Tính tình ôn hòa hơn Sở Hoa Vân")
+                sub_char_2 = st.form_submit_button("💾 Thêm Nhân Vật Vào memory/characters.md", type="secondary")
+                if sub_char_2:
+                    if not new_c_kr.strip() or not new_c_vi.strip():
+                        st.error("❌ Cần nhập Tên gốc và Tên dịch tiếng Việt!")
+                    else:
+                        row = f"| **{new_c_kr.strip()}** | **{new_c_vi.strip()}** | {new_c_gender} | {new_c_role.strip()} | {new_c_speech.strip()} | `{new_c_pronoun.strip()}` | {new_c_notes.strip()} |\n"
+                        os.makedirs(os.path.dirname(char_mem_path), exist_ok=True)
+                        with open(char_mem_path, 'a', encoding='utf-8') as _cf:
+                            _cf.write(row)
+                        log_action("Novel Workflow", f"QC Lead thêm nhân vật mới: {new_c_vi}")
+                        st.success(f"✅ Đã thêm **{new_c_vi}** vào `memory/characters.md`!")
+
+    # ============================================================
+    # =================== TAB 3: QUẢN LÝ MEMORY ===================
+    # ============================================================
+    with nw_tabs[2]:
+        st.markdown("### 🧠 Quản Lý Memory Toàn Thể")
+        st.caption("Xem, chỉnh sửa hoặc phục hồi toàn bộ nội dung của hai tệp bộ nhớ dài hạn.")
+
+        mem_all1, mem_all2 = st.tabs(["🧑 Hồ Sơ Nhân Vật (characters.md)", "📅 Dòng Thời Gian (timeline_summary.md)"])
+
+        with mem_all1:
+            char_full_c = load_file(char_mem_path) if os.path.exists(char_mem_path) else ""
+            char_all_edit = st.text_area("Toàn bộ nội dung characters.md:", value=char_full_c, height=450, key="nw_all_char_edit")
+            if st.button("💾 Lưu characters.md", type="primary", key="nw_btn_save_all_char"):
+                save_file(char_mem_path, char_all_edit)
+                log_action("Novel Workflow", "Lưu toàn thể characters.md")
+                st.success("✅ Đã lưu thành công `memory/characters.md`!")
+
+        with mem_all2:
+            time_full_c = load_file(time_mem_path) if os.path.exists(time_mem_path) else ""
+            time_all_edit = st.text_area("Toàn bộ nội dung timeline_summary.md:", value=time_full_c, height=450, key="nw_all_time_edit")
+            if st.button("💾 Lưu timeline_summary.md", type="primary", key="nw_btn_save_all_time"):
+                save_file(time_mem_path, time_all_edit)
+                log_action("Novel Workflow", "Lưu toàn thể timeline_summary.md")
+                st.success("✅ Đã lưu thành công `memory/timeline_summary.md`!")
+
+
+
