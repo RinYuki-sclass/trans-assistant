@@ -196,7 +196,7 @@ Hãy đọc file raw, đối chiếu với [glossary/glossary.md] và xuất:
 ### 🔹 Lệnh 1.2: Chốt QA $\rightarrow$ Ghi Glossary, Dịch 1:1 & Sinh File Xen Kẽ
 ```text
 Tôi chốt QA như sau: [GHI CHÚ DUYỆT CỦA BẠN].
-1. Tự động đẩy các thuật ngữ mới đã duyệt lên Google Sheet 'Thuật ngữ chi tiết' và cập nhật [glossary/glossary.md] (bảo vệ tuyệt đối các dòng đã Chốt=TRUE).
+1. Tự động đẩy các thuật ngữ mới đã duyệt lên Google Sheet 'Thuật ngữ chi tiết' (với cột Chap = '[SỐ CHAP]') và cập nhật [glossary/glossary.md] (bảo vệ tuyệt đối các dòng đã Chốt=TRUE).
 2. Dịch toàn văn theo nguyên tắc BẢO TOÀN 1:1 (ZERO ADDITION, ZERO OMISSION) và tạo trực tiếp file kết quả xen kẽ tại [output/result_tên_file.txt] theo định dạng 'KR: ...' / 'EN: ...' kèm bản dịch tiếng Việt bên dưới để tôi tự sửa tay.
 ```
 

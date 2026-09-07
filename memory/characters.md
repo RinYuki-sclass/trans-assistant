@@ -33,3 +33,5 @@
 
 ## 3. NHẬT KÝ BỔ SUNG NHÂN VẬT MỚI
 *(AI tự động ghi thêm các dòng mới vào đây sau mỗi lần QC Lead duyệt chương)*
+- **Park Hayool (박하율)** (Nam, 20 tuổi): Diễn viên / Thức tỉnh giả sở hữu 3 kỹ năng hệ tinh thần tối ưu hóa cấp A (*Không Thể Rời Mắt, Cảm Thấy Thoải Mái Khi Nhìn Vào, Dệt Hoa Trên Gấm*). Xưng hô với Yoojin: Hayool gọi Yoojin là `em - anh (Hyung)`, Yoojin gọi Hayool là `tôi - cậu` (đại từ ngôi 3: `cậu`). Đóng vai em trai ngọt ngào nghe lời để tẩy não và bắt cóc Yoojin sang Trung Quốc.
+

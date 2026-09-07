@@ -7012,14 +7012,19 @@ with tabs[14]:
     </div>
     """, unsafe_allow_html=True)
 
-    def _nw_get_input_files():
+    def _nw_get_input_files(subfolder=None):
         files = []
-        for root in [os.path.join(BASE_DIR, 'input'), os.path.join(BASE_DIR, 'input', 'qc')]:
+        if subfolder:
+            roots = [os.path.join(BASE_DIR, 'input', subfolder)]
+        else:
+            roots = [os.path.join(BASE_DIR, 'input'), os.path.join(BASE_DIR, 'input', 'trans'), os.path.join(BASE_DIR, 'input', 'qc')]
+        for root in roots:
             if os.path.exists(root):
                 for f in sorted(os.listdir(root)):
                     if f.endswith(('.txt', '.md')) and not f.startswith('.'):
                         rel = os.path.relpath(os.path.join(root, f), BASE_DIR).replace('\\', '/')
-                        files.append(rel)
+                        if rel not in files:
+                            files.append(rel)
         return files
 
     def _nw_split_paras(text):
@@ -7090,6 +7095,13 @@ with tabs[14]:
         res = _re.sub(r'\n{3,}', '\n\n', res).strip()
         return res
 
+    def _nw_extract_chap_num(filename: str) -> str:
+        if not filename or filename.startswith("("):
+            return "1"
+        base = os.path.basename(filename)
+        m = re.search(r'(\d+)', base)
+        return m.group(1) if m else "1"
+
     char_mem_path = os.path.join(BASE_DIR, 'memory', 'characters.md')
     time_mem_path = os.path.join(BASE_DIR, 'memory', 'timeline_summary.md')
 
@@ -7108,17 +7120,17 @@ with tabs[14]:
 
         # --- BƯỚC 1 ---
         st.markdown("#### 🔹 Bước 1: Nạp Raw & Đối Chiếu Bộ Nhớ Dài Hạn")
-        in_files_1 = _nw_get_input_files()
+        in_files_1 = _nw_get_input_files('trans')
         c_raw1, c_raw2 = st.columns([3, 1])
         with c_raw1:
-            sel_raw_1 = st.selectbox("Chọn file raw trong thư mục input/:", in_files_1 or ["(Chưa có file trong input/)"], key="nw_raw_sel_1")
+            sel_raw_1 = st.selectbox("Chọn file raw trong thư mục input/trans/:", in_files_1 or ["(Chưa có file trong input/trans/)"], key="nw_raw_sel_1")
         with c_raw2:
             if st.button("🔄 Tải lại", key="nw_refresh_1"):
                 st.rerun()
 
         raw_text_1 = ""
         raw_paras_1 = []
-        if sel_raw_1 and sel_raw_1 != "(Chưa có file trong input/)":
+        if sel_raw_1 and sel_raw_1 != "(Chưa có file trong input/trans/)":
             full_r1 = os.path.join(BASE_DIR, sel_raw_1)
             if os.path.exists(full_r1):
                 raw_text_1 = load_file(full_r1)
@@ -7143,14 +7155,97 @@ Hãy đọc file raw, đối chiếu với [glossary/glossary.md] và [memory/ch
 
         # --- BƯỚC 2 ---
         st.markdown("#### 🔹 Bước 2: Chốt QA & AI Dịch Toàn Văn")
+
+        default_chap_1 = _nw_extract_chap_num(sel_raw_1)
+        c_qachap1, c_qachap2 = st.columns([1, 2])
+        with c_qachap1:
+            chap_num_1 = st.text_input("🔢 Chọn / Nhập Số Chap (cập nhật Glossary):", value=default_chap_1, key="nw_chap_num_1", help="Nhập số chương (ví dụ: 80, 347) để ghi nhận vào cột Chap của Google Sheets.")
+        with c_qachap2:
+            st.caption("💡 Số chap này sẽ tự động ghép vào Prompt Lệnh 1.2 và bảng cập nhật Glossary bên dưới.")
+
         qa_notes_1 = st.text_area("Nhập ghi chú duyệt QA của bạn:", placeholder="VD: Duyệt toàn bộ đề xuất của AI. Hwang Rim dịch là Hoàng Lâm...", height=80, key="nw_qa_notes_1")
         
-        base_name_1 = os.path.basename(sel_raw_1).rsplit('.', 1)[0] if sel_raw_1 and sel_raw_1 != "(Chưa có file trong input/)" else "ten_file"
+        base_name_1 = os.path.basename(sel_raw_1).rsplit('.', 1)[0] if sel_raw_1 and sel_raw_1 != "(Chưa có file trong input/trans/)" else "ten_file"
         prompt_1_2 = f"""Tôi chốt QA như sau: {qa_notes_1 or '[GHI CHÚ DUYỆT CỦA BẠN]'}
-1. Tự động đẩy các thuật ngữ mới đã duyệt lên Google Sheet 'Thuật ngữ chi tiết' và cập nhật [glossary/glossary.md] (bảo vệ tuyệt đối các dòng đã Chốt=TRUE).
+1. Tự động đẩy các thuật ngữ mới đã duyệt lên Google Sheet 'Thuật ngữ chi tiết' (với cột Chap = '{chap_num_1}') và cập nhật [glossary/glossary.md] (bảo vệ tuyệt đối các dòng đã Chốt=TRUE).
 2. Dịch toàn văn theo nguyên tắc BẢO TOÀN 1:1 (ZERO ADDITION, ZERO OMISSION) và xuất bản dịch tiếng Việt để tôi ghép nối."""
 
-        st.text_area("📋 Prompt Lệnh 1.2 (Copy dán vào Chat IDE):", value=prompt_1_2, height=125, key="nw_p12")
+        st.text_area("📋 Prompt Lệnh 1.2 (Copy dán vào Chat IDE):", value=prompt_1_2, height=135, key="nw_p12")
+
+        # --- BẢNG CẬP NHẬT GLOSSARY TRỰC TIẾP TRÊN WEB INTERFACE ---
+        with st.expander(f"📚 Bảng Cập Nhật Glossary Cho Chap {chap_num_1} (Nhập & Đẩy Lên Google Sheet Trực Tiếp)", expanded=True):
+            st.caption("Xem, chỉnh sửa hoặc thêm thuật ngữ mới cho chương này để đẩy lên Google Sheets và cập nhật file local `glossary/glossary.md`.")
+            
+            import pandas as pd
+            if "nw_gl_editor_df_1" not in st.session_state:
+                st.session_state["nw_gl_editor_df_1"] = pd.DataFrame([
+                    {"Chap": chap_num_1, "Tiếng Hàn": "", "Tiếng Anh": "", "Dịch": "", "Phân loại": "Địa điểm", "Chọn": True},
+                    {"Chap": chap_num_1, "Tiếng Hàn": "", "Tiếng Anh": "", "Dịch": "", "Phân loại": "Tên nhân vật", "Chọn": True},
+                    {"Chap": chap_num_1, "Tiếng Hàn": "", "Tiếng Anh": "", "Dịch": "", "Phân loại": "Thuật ngữ", "Chọn": True},
+                ])
+
+            if "nw_gl_last_chap_1" not in st.session_state or st.session_state["nw_gl_last_chap_1"] != chap_num_1:
+                st.session_state["nw_gl_last_chap_1"] = chap_num_1
+                if not st.session_state["nw_gl_editor_df_1"].empty:
+                    st.session_state["nw_gl_editor_df_1"]["Chap"] = chap_num_1
+
+            edited_df_1 = st.data_editor(
+                st.session_state["nw_gl_editor_df_1"],
+                column_config={
+                    "Chap": st.column_config.TextColumn("Chap", width="small", required=True),
+                    "Tiếng Hàn": st.column_config.TextColumn("Tiếng Hàn", width="medium"),
+                    "Tiếng Anh": st.column_config.TextColumn("Tiếng Anh", width="medium"),
+                    "Dịch": st.column_config.TextColumn("Dịch Tiếng Việt", width="medium"),
+                    "Phân loại": st.column_config.SelectboxColumn(
+                        "Phân loại",
+                        options=['Tên nhân vật', 'Tên ma thú', 'Tên title/skill', 'Tên vật phẩm', 'Địa điểm', 'Thuật ngữ'],
+                        width="medium",
+                        required=True
+                    ),
+                    "Chọn": st.column_config.CheckboxColumn("Chọn", default=True, width="small")
+                },
+                num_rows="dynamic",
+                use_container_width=True,
+                key="nw_gl_table_1"
+            )
+
+            if st.button("🚀 Đẩy Thuật Ngữ Lên Google Sheet & Sync Local", type="primary", key="nw_gl_push_btn_1"):
+                items_to_push = []
+                for _, r in edited_df_1.iterrows():
+                    kr = str(r.get("Tiếng Hàn", "")).strip() if pd.notna(r.get("Tiếng Hàn")) else ""
+                    en = str(r.get("Tiếng Anh", "")).strip() if pd.notna(r.get("Tiếng Anh")) else ""
+                    vn = str(r.get("Dịch", "")).strip() if pd.notna(r.get("Dịch")) else ""
+                    c_val = str(r.get("Chap", chap_num_1)).strip() if pd.notna(r.get("Chap")) else chap_num_1
+                    cat = str(r.get("Phân loại", "Thuật ngữ")).strip() if pd.notna(r.get("Phân loại")) else "Thuật ngữ"
+                    chose = bool(r.get("Chọn", True)) if pd.notna(r.get("Chọn")) else False
+                    
+                    if chose and (kr or vn):
+                        items_to_push.append({
+                            "chap": c_val,
+                            "korean": kr,
+                            "english": en,
+                            "vietnamese": vn,
+                            "category": cat,
+                            "note": ""
+                        })
+                
+                if not items_to_push:
+                    st.warning("⚠️ Không có dòng thuật ngữ nào được chọn (hoặc tất cả đều để trống Tiếng Hàn và Dịch).")
+                else:
+                    try:
+                        from scripts.update_glossary import append_terms_to_sheet
+                        with st.spinner(f"Đang đẩy {len(items_to_push)} thuật ngữ lên Google Sheets..."):
+                            n_inserted, skipped_list = append_terms_to_sheet(items_to_push, is_qc_flow=False, auto_sync_local=True)
+                        if n_inserted > 0:
+                            st.success(f"🎉 Đã thêm thành công **{n_inserted}** thuật ngữ mới vào Chap {chap_num_1} trên Google Sheet & local `glossary/glossary.md`!")
+                        else:
+                            st.info("ℹ️ Các thuật ngữ đã chọn đã tồn tại hoặc đã được chốt từ trước.")
+                        if skipped_list:
+                            with st.expander("Chi tiết các dòng bị bỏ qua / đã tồn tại:"):
+                                for sk in skipped_list:
+                                    st.write(f"- {sk}")
+                    except Exception as ex_push:
+                        st.error(f"❌ Lỗi khi cập nhật Glossary: {ex_push}")
 
         st.divider()
 
@@ -7220,26 +7315,41 @@ Hãy đọc file raw, đối chiếu với [glossary/glossary.md] và [memory/ch
             st.text_area("📄 Bản dịch sạch (Sẵn sàng nạp sang tab Đăng WordPress):", value=st.session_state['nw_l1_clean_res'], height=220, key="nw_l1_clean_view")
             st.download_button("⬇️ Tải bản dịch sạch (.txt)", st.session_state['nw_l1_clean_res'], file_name=f"clean_{base_name_1}.txt", mime="text/plain", key="nw_dl_clean_l1")
 
-        st.markdown("##### 💾 Cập nhật Dòng Thời Gian (Memory Timeline)")
-        with st.form("nw_l1_mem_form"):
-            c_m1, c_m2 = st.columns([1, 2])
-            with c_m1:
-                ch_tag_1 = st.text_input("Mã chương:", value=f"Chap {base_name_1.replace('chap_', '').replace('ch_', '').replace('-kr', '')}")
-                ch_loc_1 = st.text_input("Địa điểm & Bối cảnh:", placeholder="VD: Bể bơi huấn luyện thú")
-            with c_m2:
-                ch_plot_1 = st.text_area("Diễn biến chính (2-3 câu):", placeholder="VD: Yoojin gặp Thợ săn cấp S Hwang Rim. Yoojin phát hiện âm mưu bắt sống Yoohyun làm con tin...", height=80)
-                ch_sta_1 = st.text_input("Trạng thái nhân vật:", placeholder="VD: Chân Yoojin gãy đang chống nạng; Yoohyun sắp tới ứng cứu...")
-            submit_mem_1 = st.form_submit_button("💾 Lưu Vào memory/timeline_summary.md", type="secondary")
-            if submit_mem_1:
-                if not ch_plot_1.strip():
-                    st.error("❌ Chưa nhập diễn biến chính!")
-                else:
-                    entry = f"\n\n### [{ch_tag_1}]\n- **Địa điểm & Bối cảnh:** {ch_loc_1.strip()}\n- **Diễn biến chính:** {ch_plot_1.strip()}\n- **Trạng thái nhân vật:** {ch_sta_1.strip()}"
-                    os.makedirs(os.path.dirname(time_mem_path), exist_ok=True)
-                    with open(time_mem_path, 'a', encoding='utf-8') as _mf:
-                        _mf.write(entry)
-                    log_action("Novel Workflow", f"Cập nhật timeline_summary.md [{ch_tag_1}]")
-                    st.success(f"✅ Đã ghi nhận thành công `[{ch_tag_1}]` vào `memory/timeline_summary.md`!")
+        st.markdown("##### 💾 Cập nhật Dòng Thời Gian (Memory Timeline) Bằng AI")
+        st.caption("AI trong Chat IDE sẽ tự động đọc bản dịch chương này, tóm tắt diễn biến cốt lõi và tự ghi trực tiếp vào `memory/timeline_summary.md`.")
+        
+        ch_tag_1_val = f"Chap {base_name_1.replace('chap_', '').replace('ch_', '').replace('-kr', '')}" if base_name_1 and base_name_1 != "ten_file" else "Chap X"
+        prompt_mem_1 = f"""Dựa vào nội dung bản dịch chương [{sel_raw_1}], hãy đọc và tự động tóm tắt rồi nối tiếp (append) vào cuối file [memory/timeline_summary.md] theo đúng cấu trúc chuẩn sau:
+
+### [{ch_tag_1_val}]
+- **Địa điểm & Bối cảnh:** [Vị trí, không gian diễn ra các sự kiện chính]
+- **Diễn biến chính:** [Tóm tắt 2-3 câu ngắn gọn diễn biến cốt lõi chương này]
+- **Trạng thái nhân vật:** [Tình trạng sức khỏe, tâm lý, đồ đạc hoặc đồng hành quan trọng]
+
+(LƯU Ý: Tự ghi/nối tiếp vào cuối file memory/timeline_summary.md, tuyệt đối không ghi đè làm mất nội dung các chương trước)."""
+
+        st.text_area("📋 Prompt Lệnh 5.1 (Copy dán vào Chat IDE để AI tự ghi Memory):", value=prompt_mem_1, height=165, key="nw_p51")
+
+        with st.expander("🛠️ Hoặc Tự Nhập / Chỉnh Sửa Thủ Công (Nếu Muốn)", expanded=False):
+            with st.form("nw_l1_mem_form"):
+                c_m1, c_m2 = st.columns([1, 2])
+                with c_m1:
+                    ch_tag_1 = st.text_input("Mã chương:", value=ch_tag_1_val, key="nw_ch_tag_1_manual")
+                    ch_loc_1 = st.text_input("Địa điểm & Bối cảnh:", placeholder="VD: Bể bơi huấn luyện thú", key="nw_ch_loc_1_manual")
+                with c_m2:
+                    ch_plot_1 = st.text_area("Diễn biến chính (2-3 câu):", placeholder="VD: Yoojin gặp Thợ săn cấp S Hwang Rim. Yoojin phát hiện âm mưu bắt sống Yoohyun làm con tin...", height=80, key="nw_ch_plot_1_manual")
+                    ch_sta_1 = st.text_input("Trạng thái nhân vật:", placeholder="VD: Chân Yoojin gãy đang chống nạng; Yoohyun sắp tới ứng cứu...", key="nw_ch_sta_1_manual")
+                submit_mem_1 = st.form_submit_button("💾 Lưu Vào memory/timeline_summary.md", type="secondary")
+                if submit_mem_1:
+                    if not ch_plot_1.strip():
+                        st.error("❌ Chưa nhập diễn biến chính!")
+                    else:
+                        entry = f"\n\n### [{ch_tag_1}]\n- **Địa điểm & Bối cảnh:** {ch_loc_1.strip()}\n- **Diễn biến chính:** {ch_plot_1.strip()}\n- **Trạng thái nhân vật:** {ch_sta_1.strip()}"
+                        os.makedirs(os.path.dirname(time_mem_path), exist_ok=True)
+                        with open(time_mem_path, 'a', encoding='utf-8') as _mf:
+                            _mf.write(entry)
+                        log_action("Novel Workflow", f"Cập nhật timeline_summary.md [{ch_tag_1}]")
+                        st.success(f"✅ Đã ghi nhận thành công `[{ch_tag_1}]` vào `memory/timeline_summary.md`!")
 
     # ============================================================
     # ==================== LUỒNG 2: QC LEAD ======================
@@ -7367,22 +7477,29 @@ Hãy đối chiếu chi tiết từng câu của bản dịch với bản gốc 
         st.markdown("#### ⚡ Bước 3: Lead Duyệt Sửa & Ghép File Xen Kẽ result_qc Bằng Tool")
         st.caption("Sau khi xem bảng lỗi của AI, Lead nhập ghi chú duyệt. Bạn có thể để AI patch hoặc dùng Tool bên dưới để ghép xen kẽ ngay lập tức.")
 
+        default_chap_2 = _nw_extract_chap_num(sel_vi_2 or sel_raw_2)
+        c_qcchap1, c_qcchap2 = st.columns([1, 2])
+        with c_qcchap1:
+            chap_num_2 = st.text_input("🔢 Chọn / Nhập Số Chap (cập nhật Glossary & Memory):", value=default_chap_2, key="nw_chap_num_2", help="Nhập số chương (ví dụ: 80, 347) để ghi nhận vào cột Chap của Google Sheets.")
+        with c_qcchap2:
+            st.caption("💡 Số chap này sẽ được ghép trực tiếp vào Prompt Lệnh 2.2 để AI ghi nhận Chap chuẩn.")
+
         lead_notes_2 = st.text_area("Ghi chú duyệt của Lead:", placeholder="VD: Duyệt toàn bộ đề xuất của AI. Đoạn 14 giữ nguyên của trans, đoạn 20 sửa theo ý tôi...", height=80, key="nw_lead_notes_2")
         base_name_2 = os.path.basename(sel_vi_2).rsplit('.', 1)[0] if sel_vi_2 and sel_vi_2 != "(Chưa có file trans)" else "ten_file"
 
         prompt_2_2 = f"""Tôi duyệt các đề xuất sửa sau: {lead_notes_2 or '[GHI CHÚ DUYỆT CỦA LEAD]'}
 
 1. CẬP NHẬT GLOSSARY:
-   - Tự động đẩy thuật ngữ mới được duyệt lên Google Sheet và cập nhật [glossary/glossary.md].
+   - Tự động đẩy thuật ngữ mới được duyệt lên Google Sheet với cột Chap = '{chap_num_2}' và cập nhật [glossary/glossary.md] (bảo vệ tuyệt đối các dòng đã Chốt=TRUE).
 
 2. CẬP NHẬT BỘ NHỚ DÀI HẠN (LONG-TERM MEMORY):
    - Nếu có nhân vật mới hoặc mối quan hệ xưng hô mới được xác nhận: Bổ sung dòng mới vào bảng [memory/characters.md].
-   - Tóm tắt 2-3 câu ngắn gọn về diễn biến cốt lõi chương này (ai làm gì, đang ở đâu, trạng thái ra sao) và nối tiếp vào cuối file [memory/timeline_summary.md] (ghi rõ [Chap X]).
+   - Tóm tắt 2-3 câu ngắn gọn về diễn biến cốt lõi chương này (ai làm gì, đang ở đâu, trạng thái ra sao) và nối tiếp vào cuối file [memory/timeline_summary.md] (ghi rõ [Chap {chap_num_2}]).
 
 3. SINH BẢN DỊCH TIẾNG VIỆT ĐÃ SỬA (PATCHED TRANSLATION):
    - Áp dụng các sửa đổi đã duyệt vào bản dịch của trans và xuất bản dịch tiếng Việt hoàn chỉnh để tôi ghép file xen kẽ."""
 
-        st.text_area("📋 Prompt Lệnh 2.2 (Copy dán vào Chat IDE):", value=prompt_2_2, height=160, key="nw_p22")
+        st.text_area("📋 Prompt Lệnh 2.2 (Copy dán vào Chat IDE):", value=prompt_2_2, height=175, key="nw_p22")
 
         st.markdown("##### 🛠️ Ghép Nhanh File Xen Kẽ output/result_qc_*.txt Bằng Tool")
         l2_patched_trans = st.text_area("Dán nội dung bản dịch tiếng Việt sau khi AI đã patch (hoặc bài dịch của trans nếu sửa ít):", height=150, key="nw_l2_patched_input", placeholder="Dán bản dịch tiếng Việt vào đây...")
@@ -7451,25 +7568,40 @@ Hãy đối chiếu chi tiết từng câu của bản dịch với bản gốc 
         mem_f_tab1, mem_f_tab2 = st.tabs(["1. Ghi nhận Dòng Thời Gian (Timeline)", "2. Bổ sung Nhân Vật Mới (Characters)"])
         
         with mem_f_tab1:
-            with st.form("nw_l2_time_form"):
-                ct1, ct2 = st.columns([1, 2])
-                with ct1:
-                    qc_ch_tag = st.text_input("Mã chương:", value=f"Chap {base_name_2.replace('chap_', '').replace('ch_', '').replace('-kr', '')}", key="nw_qc_ch_tag")
-                    qc_ch_loc = st.text_input("Địa điểm & Bối cảnh:", placeholder="VD: Sảnh chính Hội Haeyeon", key="nw_qc_ch_loc")
-                with ct2:
-                    qc_ch_plot = st.text_area("Diễn biến chính (2-3 câu):", placeholder="VD: Sung Hyunjae đến gặp Yoojin bàn về việc cứu viện...", height=80, key="nw_qc_ch_plot")
-                    qc_ch_sta = st.text_input("Trạng thái nhân vật:", placeholder="VD: Yoojin đã hồi phục thể lực; Hyunjae nắm tình hình", key="nw_qc_ch_sta")
-                sub_time_2 = st.form_submit_button("💾 Nối vào memory/timeline_summary.md", type="secondary")
-                if sub_time_2:
-                    if not qc_ch_plot.strip():
-                        st.error("❌ Chưa nhập diễn biến chính!")
-                    else:
-                        entry2 = f"\n\n### [{qc_ch_tag}]\n- **Địa điểm & Bối cảnh:** {qc_ch_loc.strip()}\n- **Diễn biến chính:** {qc_ch_plot.strip()}\n- **Trạng thái nhân vật:** {qc_ch_sta.strip()}"
-                        os.makedirs(os.path.dirname(time_mem_path), exist_ok=True)
-                        with open(time_mem_path, 'a', encoding='utf-8') as _mf:
-                            _mf.write(entry2)
-                        log_action("Novel Workflow", f"QC Lead cập nhật timeline [{qc_ch_tag}]")
-                        st.success(f"✅ Đã ghi nhận `[{qc_ch_tag}]` vào `memory/timeline_summary.md`!")
+            st.markdown("###### 🤖 Yêu cầu AI tự động tóm tắt & cập nhật Memory Timeline")
+            st.caption("Copy prompt bên dưới dán vào Chat IDE để AI tự đọc bài QC và ghi nhận vào `memory/timeline_summary.md`.")
+            qc_ch_tag_val = f"Chap {base_name_2.replace('chap_', '').replace('ch_', '').replace('-kr', '')}" if base_name_2 and base_name_2 != "ten_file" else "Chap X"
+            prompt_mem_2 = f"""Dựa vào bản dịch đã QC của [{sel_vi_2}], hãy đọc và tự động tóm tắt rồi nối tiếp (append) vào cuối file [memory/timeline_summary.md] theo đúng cấu trúc chuẩn sau:
+
+### [{qc_ch_tag_val}]
+- **Địa điểm & Bối cảnh:** [Vị trí, không gian diễn ra các sự kiện chính]
+- **Diễn biến chính:** [Tóm tắt 2-3 câu ngắn gọn diễn biến cốt lõi chương này]
+- **Trạng thái nhân vật:** [Tình trạng sức khỏe, tâm lý, đồ đạc hoặc đồng hành quan trọng]
+
+(LƯU Ý: Tự ghi/nối tiếp vào cuối file memory/timeline_summary.md, tuyệt đối không ghi đè làm mất nội dung các chương trước)."""
+
+            st.text_area("📋 Prompt Lệnh AI (Copy dán vào Chat IDE để AI tự cập nhật):", value=prompt_mem_2, height=165, key="nw_p52_qc")
+
+            with st.expander("🛠️ Hoặc Tự Nhập / Chỉnh Sửa Thủ Công (Nếu Muốn)", expanded=False):
+                with st.form("nw_l2_time_form"):
+                    ct1, ct2 = st.columns([1, 2])
+                    with ct1:
+                        qc_ch_tag = st.text_input("Mã chương:", value=qc_ch_tag_val, key="nw_qc_ch_tag")
+                        qc_ch_loc = st.text_input("Địa điểm & Bối cảnh:", placeholder="VD: Sảnh chính Hội Haeyeon", key="nw_qc_ch_loc")
+                    with ct2:
+                        qc_ch_plot = st.text_area("Diễn biến chính (2-3 câu):", placeholder="VD: Sung Hyunjae đến gặp Yoojin bàn về việc cứu viện...", height=80, key="nw_qc_ch_plot")
+                        qc_ch_sta = st.text_input("Trạng thái nhân vật:", placeholder="VD: Yoojin đã hồi phục thể lực; Hyunjae nắm tình hình", key="nw_qc_ch_sta")
+                    sub_time_2 = st.form_submit_button("💾 Nối vào memory/timeline_summary.md", type="secondary")
+                    if sub_time_2:
+                        if not qc_ch_plot.strip():
+                            st.error("❌ Chưa nhập diễn biến chính!")
+                        else:
+                            entry2 = f"\n\n### [{qc_ch_tag}]\n- **Địa điểm & Bối cảnh:** {qc_ch_loc.strip()}\n- **Diễn biến chính:** {qc_ch_plot.strip()}\n- **Trạng thái nhân vật:** {qc_ch_sta.strip()}"
+                            os.makedirs(os.path.dirname(time_mem_path), exist_ok=True)
+                            with open(time_mem_path, 'a', encoding='utf-8') as _mf:
+                                _mf.write(entry2)
+                            log_action("Novel Workflow", f"QC Lead cập nhật timeline [{qc_ch_tag}]")
+                            st.success(f"✅ Đã ghi nhận `[{qc_ch_tag}]` vào `memory/timeline_summary.md`!")
 
         with mem_f_tab2:
             with st.form("nw_l2_char_form"):
