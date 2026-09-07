@@ -248,6 +248,10 @@ Kẻ trị thuỷ]
 - [Chap 42] 박민규 | Bak Mingyu -> Park Mingyu (Tên nhân vật)
 - 문현아 | Moon Hyuna -> Moon Hyuna (Tên nhân vật)
 - 도련님 | young master -> Thiếu gia (Thuật ngữ) - Biệt danh Hyuna và Hyunjae dùng để gọi Yoohyun
+- [Chap 44] 박하율 | Bak Hayool -> Park Hayool (Tên nhân vật)
+- 눈을 뗄 수 없는 | Can’t Look Away(A) -> Không Thể Rời Mắt (Tên title/skill)
+- 보고 있으면 편해져요 | Relaxing To Look At(A) -> Cảm Thấy Thoải Mái Khi Nhìn Vào (Tên title/skill)
+- 금상첨화 | Icing On The Cake(A) -> Dệt Hoa Trên Gấm (Tên title/skill)
 - [Chap 47] 보스 몬스터 | boss monster -> trùm (Thuật ngữ)
 - [Chap 51] 비룡종은 용종 | flying dragon species -> Chủng loài Phi Long (Thuật ngữ)
 - 가시날개암룡 | Thorn-Winged Dark Dragon -> Thích Dực Ám Long (Thuật ngữ)
@@ -264,13 +268,16 @@ Kẻ trị thuỷ]
 - 사슴 | Deer -> Nai (Tên nhân vật)
 - [Chap 66] 아성체 | Adolescent -> Vị thành niên (Thuật ngữ)
 - 패륜아들 | immoral people -> những kẻ Phản Luân (Thuật ngữ)
+- 황금 그리폰 | Gold Gryphon -> Điểu Sư Hoàng Kim (Tên ma thú)
 - 바람의 지배자 | Ruler Of Wind(S) -> Kẻ Thống Trị Gió (Tên title/skill)
 - 황금 화살 | Gold Arrow(A) -> Mũi Tên Vàng (Tên title/skill)
 - 바람저항 | Wind Resistance(A) -> Kháng Gió (Tên title/skill)
 - 날카로운 포효 | Sharp Cry(B) -> Tiếng Hét Sắc Bén (Tên title/skill)
+- 블루 | Blue -> Blue (Tên ma thú)
 - [Chap 76] 살벌한 병아리반 선생님 | Terrifying Hatchling Class Teacher -> Chủ nhiệm mầm non đáng sợ (Tên title/skill)
 - [Chap 78] 고상한 수색자의 사슬 | Refined Seeker’s Chains -> Dây Xích Của Người Tìm Kiếm Cao Quý (Tên vật phẩm)
 - 노아 루히르 | Noah Luire -> Noah Rugir (Tên nhân vật)
+- 도깨비대왕 | dokkaebi king ->  (Tên ma thú)
 - [Chap 82] 각성자관리실장 | Chief of Awakened People Management -> Cục trưởng Cục Quản lý Thức tỉnh giả (Thuật ngữ)
 - [Chap 85] 페블 | Faible -> Nhóc yếu đuối (Tên nhân vật) - Cách Liette gọi Noah
 - 축제의 흰고래 눈물 | Festival's Beluga Whale Tears -> Nước Mắt Cá Voi Trắng của Lễ Hội (Tên vật phẩm)
@@ -348,6 +355,12 @@ Kẻ trị thuỷ]
 - 하얀 새 | White Bird -> Chim Trắng (Tên nhân vật)
 - [Chap 335]  | magic beast combination skill -> Hợp Thể Ma Thú (Tên title/skill)
 - [Chap 337]  | Seo Kyeonghoon -> Seo Kyeonghoon (Tên nhân vật)
+- [Chap 347] 올림픽 대로 | Olympic Boulevard -> Đại lộ Olympic (Địa điểm)
+- [Chap 347] 사평대로 | Sapyeong Road -> Đường Sapyeong (Địa điểm)
+- [Chap 347] 반포대교 | Banpo Bridge -> Cầu Banpo (Địa điểm)
+- [Chap 347] 강변북로 | Gangbyeon Expressway -> Đường cao tốc Gangbyeon (Địa điểm)
+- [Chap 347] 대련공항 | Dalian Airport -> Sân bay Đại Liên (Địa điểm)
+- [Chap 347] 단동 | Dandong -> Đan Đông (Địa điểm)
 
 ### 3.2. Thuật ngữ Dự thảo (Do Trans tạm đặt ở các chap đi trước - Chờ QC duyệt):
 - 라우치타스 | Lauchitas -> Rauchitas (Tên ma thú)
@@ -535,10 +548,6 @@ attack skills -> kỹ năng sát thương (Thuật ngữ)
 - 최석원 | Choi Sukwon ->  (Tên nhân vật)
 - 성현제 | Sung Hyunjae -> Sung Hyunjae (Tên nhân vật)
 - [Chap 43] 형님 | hyung-nim -> hyung-nim (Thuật ngữ)
-- [Chap 44] 박하율 | Bak Hayool ->  (Tên nhân vật)
-- 눈을 뗄 수 없는 | Can’t Look Away(A) ->  (Tên title/skill)
-- 보고 있으면 편해져요 | Relaxing To Look At(A) ->  (Tên title/skill)
-- 금상첨화 | Icing On The Cake(A) -> Dệt hoa trên gấm (Tên title/skill)
 - 스탯 보정 | Stat correction -> hiệu chỉnh chỉ số (Thuật ngữ)
 - [Chap 45] 몬스터 아빠 | monsters’ dad ->  (Thuật ngữ) - Biệt danh của Yoojin
 - 공격계열 | melee attacker -> thợ săn cận chiến (Thuật ngữ)
@@ -627,10 +636,8 @@ attack skills -> kỹ năng sát thương (Thuật ngữ)
 - 강력한 들이받기 | Powerful Ramming(A) ->  (Tên title/skill)
 - 질주 강화 | Galloping Reinforcement(B) ->  (Tên title/skill)
 - 그리폰종 | Gryphon species ->  (Thuật ngữ)
-- 황금 그리폰 | Gold Gryphon ->  (Tên ma thú)
 - 블랙 | Black ->  (Tên ma thú)
 - 화이트 | White ->  (Tên ma thú)
-- 블루 | Blue ->  (Tên ma thú)
 - [Chap 70] 안전한 사육목걸이 | Safe Rearing Necklace ->  (Tên vật phẩm)
 - [Chap 71] 흰둥이 | Whitey ->  (Tên ma thú)
 - 검둥이 | Blacky ->  (Tên ma thú)
@@ -664,7 +671,6 @@ attack skills -> kỹ năng sát thương (Thuật ngữ)
 - 아크 길드 | Ark Guild ->  (Địa điểm)
 - [Chap 81] 마족 | Demon race ->  (Thuật ngữ)
 - 마왕 | Demon King ->  (Tên ma thú)
-- 도깨비대왕 | dokkaebi king ->  (Tên ma thú)
 - 도깨비족의 시조 | Progenitor Of The Dokkaebi Race(L) ->  (Tên title/skill)
 - 도깨비문 | Dokkaebi Door(SS) ->  (Tên title/skill)
 - 사라진 마왕의 오른쪽 뿔 | Vanished Demon King’s Right Horn ->  (Tên vật phẩm)
@@ -821,7 +827,7 @@ attack skills -> kỹ năng sát thương (Thuật ngữ)
 - [Chap 359] 운이 | Woon-ie -> A Vân (Tên nhân vật) - Cách Hoàng Lâm gọi Sở Hoa Vân
 - [Chap 359] 관 낭자 | Guan Lang-ja -> Quan Nương Tử (Tên nhân vật) - Nữ thợ săn cấp S Trung Quốc
 - [Chap 359] 수룡 | Water Dragon -> Thủy Long (Tên ma thú) - Rồng nước ở bể nuôi
-- [Chap 359] 무림맹 | Murim Alliance -> Võ Lâm Minh (Địa điểm) - Thế lực bang hội đối lập tại TQ
+- [Chap 359] 무림맹 | Murim Alliance -> Võ Lâm Minh (Thuật ngữ) - Thế lực bang hội đối lập tại TQ
 - [Chap 359] 김 서방 | Kim Seobang -> đại ca Kim (Thuật ngữ) - Dokkaebi gọi Yoojin
-- [Chap 359] 도깨비왕 | Dokkaebi King -> Vua Dokkaebi (Tên nhân vật) - Danh hiệu của Yoon Yoon
+- [Chap 359] 도깨비왕 | Dokkaebi King -> Vua Dokkaebi (Tên title/skill) - Danh hiệu của Yoon Yoon
 

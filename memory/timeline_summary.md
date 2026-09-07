@@ -16,12 +16,7 @@ Mỗi chương khi được duyệt sẽ thêm một mục theo mẫu:
 
 ## NHẬT KÝ DIỄN BIẾN CÁC CHƯƠNG ĐÃ QC
 
-### [Chap 325] Anh em giao chiến (5)
-- **Địa điểm & Bối cảnh:** Không gian tiềm thức / Ảo cảnh hầm ngục.
-- **Diễn biến chính:** Han Yoojin và Han Yoohyun đối đầu trong tầng ý thức. Yoojin tìm cách tháo gỡ nút thắt tâm lý phòng vệ của Yoohyun để cứu em trai thoát khỏi trạng thái cuồng bạo.
-- **Trạng thái nhân vật:** Yoojin kiệt sức tinh thần; Yoohyun dần lấy lại nhận thức và nhận ra anh trai.
-
-### [Chap 326] (Ví dụ mẫu tiếp nối)
-- **Địa điểm & Bối cảnh:** Khu vực phong ấn hầm ngục bên ngoài.
-- **Diễn biến chính:** Cả hai thoát khỏi tiềm thức, Sung Hyunjae và Song Taewon tiếp ứng kịp thời để ổn định kết giới.
-- **Trạng thái nhân vật:** Yoohyun bất tỉnh được đưa về trung tâm y tế Haeyeon; Yoojin được Sung Hyunjae giám hộ tạm thời.
+### [Chap 347]
+- **Địa điểm & Bối cảnh:** Quán cà phê gần trụ sở, các tuyến đường di chuyển quanh Seoul (Đường Sapyeong, Cầu Banpo, Sông Hàn) và chân núi vắng gần Cơ sở nuôi dưỡng ma thú tỉnh Gyeonggi.
+- **Diễn biến chính:** Han Yoojin trúng chuỗi kỹ năng thao túng tinh thần cấp A cộng dồn của Park Hayool nên bị cậu ta dụ dỗ bắt cóc sang Trung Quốc; dù nhận thức được chân tướng và tự đâm vào tay để cảnh tỉnh, Yoojin vẫn bị ảnh hưởng tâm lý nên đã vạch kế hoạch đổi xe, nghi binh ra Sông Hàn rồi dẫn Hayool về cơ sở nuôi dưỡng để cưỡi Điểu Sư Blue bay tới Sân bay Đại Liên. Đúng lúc Yoojin vừa đưa Hayool lên lưng Blue tại chân núi, Sung Hyunjae bất ngờ tung xích trói chặt chân giữ Yoojin lại, còn Blue mang theo duy nhất một mình Hayool phóng vút lên trời.
+- **Trạng thái nhân vật:** Yoojin bị hiệu ứng kỹ năng tinh thần khiến không thể thù ghét hay làm hại Hayool, vết đâm ở lòng bàn tay đã được trị thương, cuối chương bị xích của Sung Hyunjae quấn chặt giữ lại chân; Park Hayool hoảng hốt bay lên trời một mình cùng Điểu Sư Blue; các Thợ săn cấp S (Song Taewon, Yerim, Yoohyun, Hyunjae) đang ráo riết chốt chặn phong tỏa khắp Seoul và các ngả đường ra biển.
