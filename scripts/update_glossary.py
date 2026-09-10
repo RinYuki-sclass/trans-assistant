@@ -170,6 +170,18 @@ def update_glossary():
                             else:
                                 draft_terms.append((chap, term_line))
                                 
+                        # Sắp xếp thuật ngữ theo thứ tự số của Chap (tăng dần)
+                        def parse_chap_num(c_str):
+                            try:
+                                import re
+                                m = re.search(r'\d+', str(c_str))
+                                return int(m.group()) if m else 999999
+                            except:
+                                return 999999
+                                
+                        official_terms.sort(key=lambda x: parse_chap_num(x[0]))
+                        draft_terms.sort(key=lambda x: parse_chap_num(x[0]))
+                                
                         if official_terms:
                             f.write("### 3.1. Thuật ngữ Chính thức (Đã qua QC duyệt - Chốt = TRUE):\n")
                             for _, line in official_terms:
@@ -182,6 +194,7 @@ def update_glossary():
                                 f.write(line + "\n")
                             f.write("\n")
                 except Exception as e: print(f"Lỗi sheet Thuật ngữ: {e}")
+
 
         print(f"[OK] Đã cập nhật thành công {output_md} từ Google Sheets!")
         return True
@@ -378,6 +391,58 @@ def append_terms_to_sheet(terms: list[dict], is_qc_flow: bool = True, auto_sync_
         print("💡 Lưu ý: Hãy chắc chắn email 's-class@s-class-488908.iam.gserviceaccount.com' đã được cấp quyền 'Editor' trên Google Sheet.")
         traceback.print_exc()
         return 0, []
+
+def filter_glossary_content(glossary_text: str, max_chap: int = None, search_keywords: list = None) -> str:
+    """
+    Lọc nội dung glossary.md để chống tràn token (overflow) khi nạp vào LLM Prompt.
+    - Luôn bảo toàn Phần 1 (Xưng hô) và Phần 2 (Nhân vật).
+    - Phần 3.1: Chỉ nạp các thuật ngữ có Chap <= max_chap.
+    - Phần 3.2: Lọc các thuật ngữ dự thảo theo từ khóa thực tế hoặc tinh giản.
+    """
+    if not glossary_text or (max_chap is None and not search_keywords):
+        return glossary_text
+
+    import re
+    lines = glossary_text.split('\n')
+    filtered_lines = []
+    current_section = None
+
+    for line in lines:
+        if line.startswith('## 1.') or line.startswith('## 2.'):
+            current_section = 'header'
+            filtered_lines.append(line)
+            continue
+        elif line.startswith('### 3.1.'):
+            current_section = 'official'
+            filtered_lines.append(line)
+            continue
+        elif line.startswith('### 3.2.'):
+            current_section = 'draft'
+            filtered_lines.append(line)
+            continue
+        elif line.startswith('## '):
+            current_section = 'other'
+            filtered_lines.append(line)
+            continue
+
+        if current_section in ['header', 'other', None]:
+            filtered_lines.append(line)
+        elif current_section == 'official':
+            if line.startswith('- [Chap '):
+                m = re.search(r'\[Chap\s+(\d+)\]', line)
+                if m and max_chap is not None:
+                    ch_num = int(m.group(1))
+                    if ch_num > max_chap:
+                        continue
+            filtered_lines.append(line)
+        elif current_section == 'draft':
+            if search_keywords and line.startswith('- '):
+                line_lower = line.lower()
+                if not any(kw.lower() in line_lower for kw in search_keywords if len(kw) > 1):
+                    continue
+            filtered_lines.append(line)
+
+    return '\n'.join(filtered_lines)
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Google Sheets Glossary Sync Tool (2-way)")

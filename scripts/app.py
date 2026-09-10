@@ -7128,6 +7128,39 @@ with tabs[14]:
             if st.button("🔄 Tải lại", key="nw_refresh_1"):
                 st.rerun()
 
+        # Tự động đồng bộ và reset các bước tiếp theo khi đổi file raw ở Bước 1
+        if "nw_prev_raw_1" not in st.session_state:
+            st.session_state["nw_prev_raw_1"] = sel_raw_1
+        elif st.session_state["nw_prev_raw_1"] != sel_raw_1:
+            st.session_state["nw_prev_raw_1"] = sel_raw_1
+            new_chap_1 = _nw_extract_chap_num(sel_raw_1)
+            new_base_1 = os.path.basename(sel_raw_1).rsplit('.', 1)[0] if sel_raw_1 and sel_raw_1 != "(Chưa có file trong input/trans/)" else "ten_file"
+            new_ch_tag_1 = f"Chap {new_base_1.replace('chap_', '').replace('ch_', '').replace('-kr', '').replace('-en', '').replace('-vi', '')}" if new_base_1 and new_base_1 != "ten_file" else "Chap X"
+
+            # 1. Cập nhật Số Chap cho Bước 2
+            st.session_state["nw_chap_num_1"] = new_chap_1
+            # 2. Xóa ghi chú QA Bước 2
+            st.session_state["nw_qa_notes_1"] = ""
+            # 3. Reset bảng Glossary editor Bước 2
+            import pandas as pd
+            st.session_state["nw_gl_last_chap_1"] = new_chap_1
+            st.session_state["nw_gl_editor_df_1"] = pd.DataFrame([
+                {"Chap": new_chap_1, "Tiếng Hàn": "", "Tiếng Anh": "", "Dịch": "", "Phân loại": "Địa điểm", "Chọn": True},
+                {"Chap": new_chap_1, "Tiếng Hàn": "", "Tiếng Anh": "", "Dịch": "", "Phân loại": "Tên nhân vật", "Chọn": True},
+                {"Chap": new_chap_1, "Tiếng Hàn": "", "Tiếng Anh": "", "Dịch": "", "Phân loại": "Thuật ngữ", "Chọn": True},
+            ])
+            # 4. Reset ô nhập bản dịch Bước 3 & footnote
+            st.session_state["nw_l1_trans_input"] = ""
+            st.session_state["nw_l1_footer"] = ""
+            # 5. Reset bản dịch sạch Bước 5
+            st.session_state["nw_l1_clean_res"] = ""
+            st.session_state.pop("nw_l1_clean_view", None)
+            # 6. Reset form Timeline thủ công Bước 5
+            st.session_state["nw_ch_tag_1_manual"] = new_ch_tag_1
+            st.session_state["nw_ch_loc_1_manual"] = ""
+            st.session_state["nw_ch_plot_1_manual"] = ""
+            st.session_state["nw_ch_sta_1_manual"] = ""
+
         raw_text_1 = ""
         raw_paras_1 = []
         if sel_raw_1 and sel_raw_1 != "(Chưa có file trong input/trans/)":
@@ -7149,6 +7182,7 @@ Hãy đọc file raw, đối chiếu với [glossary/glossary.md] và [memory/ch
 2. BẢNG B: Các glossary/thuật ngữ mới (tên nhân vật mới, địa danh, kỹ năng, quái vật) kèm phân loại và phương án dịch đề xuất.
 (LƯU Ý: Chỉ xuất 2 bảng QA, CHƯA dịch toàn văn cho đến khi tôi duyệt)."""
 
+        st.session_state["nw_p11"] = prompt_1_1
         st.text_area("📋 Prompt Lệnh 1.1 (Copy dán vào Chat IDE):", value=prompt_1_1, height=135, key="nw_p11")
 
         st.divider()
@@ -7170,6 +7204,7 @@ Hãy đọc file raw, đối chiếu với [glossary/glossary.md] và [memory/ch
 1. Tự động đẩy các thuật ngữ mới đã duyệt lên Google Sheet 'Thuật ngữ chi tiết' (với cột Chap = '{chap_num_1}') và cập nhật [glossary/glossary.md] (bảo vệ tuyệt đối các dòng đã Chốt=TRUE).
 2. Dịch toàn văn theo nguyên tắc BẢO TOÀN 1:1 (ZERO ADDITION, ZERO OMISSION) và xuất bản dịch tiếng Việt để tôi ghép nối."""
 
+        st.session_state["nw_p12"] = prompt_1_2
         st.text_area("📋 Prompt Lệnh 1.2 (Copy dán vào Chat IDE):", value=prompt_1_2, height=135, key="nw_p12")
 
         # --- BẢNG CẬP NHẬT GLOSSARY TRỰC TIẾP TRÊN WEB INTERFACE ---
@@ -7318,7 +7353,7 @@ Hãy đọc file raw, đối chiếu với [glossary/glossary.md] và [memory/ch
         st.markdown("##### 💾 Cập nhật Dòng Thời Gian (Memory Timeline) Bằng AI")
         st.caption("AI trong Chat IDE sẽ tự động đọc bản dịch chương này, tóm tắt diễn biến cốt lõi và tự ghi trực tiếp vào `memory/timeline_summary.md`.")
         
-        ch_tag_1_val = f"Chap {base_name_1.replace('chap_', '').replace('ch_', '').replace('-kr', '')}" if base_name_1 and base_name_1 != "ten_file" else "Chap X"
+        ch_tag_1_val = f"Chap {base_name_1.replace('chap_', '').replace('ch_', '').replace('-kr', '').replace('-en', '').replace('-vi', '')}" if base_name_1 and base_name_1 != "ten_file" else "Chap X"
         prompt_mem_1 = f"""Dựa vào nội dung bản dịch chương [{sel_raw_1}], hãy đọc và tự động tóm tắt rồi nối tiếp (append) vào cuối file [memory/timeline_summary.md] theo đúng cấu trúc chuẩn sau:
 
 ### [{ch_tag_1_val}]
@@ -7328,6 +7363,7 @@ Hãy đọc file raw, đối chiếu với [glossary/glossary.md] và [memory/ch
 
 (LƯU Ý: Tự ghi/nối tiếp vào cuối file memory/timeline_summary.md, tuyệt đối không ghi đè làm mất nội dung các chương trước)."""
 
+        st.session_state["nw_p51"] = prompt_mem_1
         st.text_area("📋 Prompt Lệnh 5.1 (Copy dán vào Chat IDE để AI tự ghi Memory):", value=prompt_mem_1, height=165, key="nw_p51")
 
         with st.expander("🛠️ Hoặc Tự Nhập / Chỉnh Sửa Thủ Công (Nếu Muốn)", expanded=False):
@@ -7366,6 +7402,29 @@ Hãy đọc file raw, đối chiếu với [glossary/glossary.md] và [memory/ch
             sel_raw_2 = st.selectbox("1. Bản gốc (KR/EN):", in_files_2 or ["(Chưa có file raw)"], key="nw_raw_sel_2")
         with c2_2:
             sel_vi_2 = st.selectbox("2. Bản dịch của Trans:", in_files_2 or ["(Chưa có file trans)"], key="nw_vi_sel_2")
+
+        # Tự động đồng bộ và reset các bước tiếp theo khi đổi file ở Bước 1
+        if "nw_prev_raw_2" not in st.session_state:
+            st.session_state["nw_prev_raw_2"] = sel_raw_2
+            st.session_state["nw_prev_vi_2"] = sel_vi_2
+        elif st.session_state["nw_prev_raw_2"] != sel_raw_2 or st.session_state["nw_prev_vi_2"] != sel_vi_2:
+            st.session_state["nw_prev_raw_2"] = sel_raw_2
+            st.session_state["nw_prev_vi_2"] = sel_vi_2
+            
+            chosen_file_2 = sel_vi_2 if (sel_vi_2 and sel_vi_2 != "(Chưa có file trans)") else (sel_raw_2 if (sel_raw_2 and sel_raw_2 != "(Chưa có file raw)") else "ten_file")
+            new_chap_2 = _nw_extract_chap_num(chosen_file_2)
+            new_base_2 = os.path.basename(chosen_file_2).rsplit('.', 1)[0]
+            new_qc_ch_tag = f"Chap {new_base_2.replace('chap_', '').replace('ch_', '').replace('-kr', '').replace('-en', '').replace('-vi', '')}" if new_base_2 != "ten_file" else "Chap X"
+
+            st.session_state["nw_chap_num_2"] = new_chap_2
+            st.session_state["nw_lead_notes_2"] = ""
+            st.session_state["nw_l2_patched_input"] = ""
+            st.session_state["nw_l2_clean_res"] = ""
+            st.session_state.pop("nw_l2_clean_view", None)
+            st.session_state["nw_qc_ch_tag"] = new_qc_ch_tag
+            st.session_state["nw_qc_ch_loc"] = ""
+            st.session_state["nw_qc_ch_plot"] = ""
+            st.session_state["nw_qc_ch_sta"] = ""
 
         raw_parsed = {"headers": [], "body": [], "footers": [], "has_dense_spacing": False, "normalized_text": ""}
         vi_parsed = {"headers": [], "body": [], "footers": [], "has_dense_spacing": False, "normalized_text": ""}
@@ -7469,6 +7528,7 @@ Hãy đối chiếu chi tiết từng câu của bản dịch với bản gốc 
 
 (CHỈ XUẤT BÁO CÁO VÀ BẢNG LỖI, CHƯA XUẤT TOÀN VĂN)."""
 
+        st.session_state["nw_p21"] = prompt_2_1
         st.text_area("📋 Prompt Lệnh 2.1 (Copy dán vào Chat IDE):", value=prompt_2_1, height=200, key="nw_p21")
 
         st.divider()
@@ -7499,6 +7559,7 @@ Hãy đối chiếu chi tiết từng câu của bản dịch với bản gốc 
 3. SINH BẢN DỊCH TIẾNG VIỆT ĐÃ SỬA (PATCHED TRANSLATION):
    - Áp dụng các sửa đổi đã duyệt vào bản dịch của trans và xuất bản dịch tiếng Việt hoàn chỉnh để tôi ghép file xen kẽ."""
 
+        st.session_state["nw_p22"] = prompt_2_2
         st.text_area("📋 Prompt Lệnh 2.2 (Copy dán vào Chat IDE):", value=prompt_2_2, height=175, key="nw_p22")
 
         st.markdown("##### 🛠️ Ghép Nhanh File Xen Kẽ output/result_qc_*.txt Bằng Tool")
@@ -7570,7 +7631,7 @@ Hãy đối chiếu chi tiết từng câu của bản dịch với bản gốc 
         with mem_f_tab1:
             st.markdown("###### 🤖 Yêu cầu AI tự động tóm tắt & cập nhật Memory Timeline")
             st.caption("Copy prompt bên dưới dán vào Chat IDE để AI tự đọc bài QC và ghi nhận vào `memory/timeline_summary.md`.")
-            qc_ch_tag_val = f"Chap {base_name_2.replace('chap_', '').replace('ch_', '').replace('-kr', '')}" if base_name_2 and base_name_2 != "ten_file" else "Chap X"
+            qc_ch_tag_val = f"Chap {base_name_2.replace('chap_', '').replace('ch_', '').replace('-kr', '').replace('-en', '').replace('-vi', '')}" if base_name_2 and base_name_2 != "ten_file" else "Chap X"
             prompt_mem_2 = f"""Dựa vào bản dịch đã QC của [{sel_vi_2}], hãy đọc và tự động tóm tắt rồi nối tiếp (append) vào cuối file [memory/timeline_summary.md] theo đúng cấu trúc chuẩn sau:
 
 ### [{qc_ch_tag_val}]
@@ -7580,6 +7641,7 @@ Hãy đối chiếu chi tiết từng câu của bản dịch với bản gốc 
 
 (LƯU Ý: Tự ghi/nối tiếp vào cuối file memory/timeline_summary.md, tuyệt đối không ghi đè làm mất nội dung các chương trước)."""
 
+            st.session_state["nw_p52_qc"] = prompt_mem_2
             st.text_area("📋 Prompt Lệnh AI (Copy dán vào Chat IDE để AI tự cập nhật):", value=prompt_mem_2, height=165, key="nw_p52_qc")
 
             with st.expander("🛠️ Hoặc Tự Nhập / Chỉnh Sửa Thủ Công (Nếu Muốn)", expanded=False):
