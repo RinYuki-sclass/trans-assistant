@@ -23,15 +23,19 @@
 | :--- | :--- | :--- | :--- |
 | **Yoojin ⇄ Yoohyun** | `anh - em` *(Yoohyun-ah)* | `em - anh` *(Hyung)* | Bất biến trong mọi hoàn cảnh |
 | **Yoojin ⇄ Sung Hyunjae** | `tôi - anh` *(Ngài hội trưởng / Sung Hyunjae-ssi)* | `tôi - cậu` *(Yoojin-gun)* | Thăm dò, vừa hợp tác vừa đề phòng |
-| **Yoojin ⇄ Park Yerim** | `tôi - nhóc` *(Yerim-ah)* | `tôi/cháu - chú` *(Ahjussi)* | Thân thiết gia đình |
-| **Yoojin ⇄ Noah Rugir** | `tôi - cậu` *(Noah-ssi)* | `tôi - ngài/anh` | Noah coi Yoojin là người bảo trợ |
+| **Yoojin ⇄ Park Yerim** | `tôi - nhóc` *(Yerim-ah)* | `tôi - chú` *(Ahjussi)* | Thân thiết gia đình (Yerim luôn xưng 'tôi', gọi Yoojin là 'chú') |
+| **Yoojin ⇄ Noah Rugir** | `tôi - cậu` *(Noah-ssi)* | `tôi - ngài/anh` | Noah coi Yoojin là người bảo trợ (Đại từ ngôi 3 của Noah: `cậu`) |
+| **Yoojin ⇄ Yoo Myungwoo** | `tôi/tớ - cậu` *(Myungwoo-yah)* | `tôi/tớ - cậu` *(Yoojin-ah)* | Bạn thân cùng tuổi; Myungwoo sẵn sàng trách phạt đánh đòn khi Yoojin liều mạng |
 | **Yoojin ⇄ Song Taewon** | `tôi - anh` *(Cục trưởng Song)* | `tôi - cậu` *(Thợ săn Han Yoojin)* | Quan hệ công vụ tôn trọng nhau |
 | **Yoohyun ⇄ Sung Hyunjae** | `tôi - anh` | `tôi - cậu` | Kình địch gay gắt, thù địch ngầm |
 | **Yerim ⇄ Sung Hyunjae** | `cháu - chú` *(Ông chú Sesung)* | `tôi - cô bé` | Yerim không hề sợ Hyunjae |
 
 ---
 
-## 3. NHẬT KÝ BỔ SUNG NHÂN VẬT MỚI
+## 3. NHẬT KÝ BỔ SUNG NHÂN VẬT MỚI & QUAN HỆ ĐẶC BIỆT
 *(AI tự động ghi thêm các dòng mới vào đây sau mỗi lần QC Lead duyệt chương)*
+- **[Chap 336] Yoo Myungwoo (유명우)**: Chế tạo vật phẩm điều chỉnh mạch mana kèm chốt an toàn khóa trên lưng Yoojin. Nuôi tham vọng học hỏi cách tạo hầm ngục từ Người Mới (Newcomer) để hỗ trợ Yoojin. Mối quan hệ bình đẳng, không vụ lợi.
+- **[Chap 336] Noah Rugir (노아 루기르)**: Chủ động xung phong làm vệ sĩ tháp tùng Yoojin đi tuyển dụng nhân sự. Quy chuẩn đại từ ngôi 3 là `cậu` (tuyệt đối không dùng `anh/anh ấy` vì Noah 19 tuổi, Yoojin 25 tuổi).
 - **Park Hayool (박하율)** (Nam, 20 tuổi): Diễn viên / Thức tỉnh giả sở hữu 3 kỹ năng hệ tinh thần tối ưu hóa cấp A (*Không Thể Rời Mắt, Cảm Thấy Thoải Mái Khi Nhìn Vào, Dệt Hoa Trên Gấm*). Xưng hô với Yoojin: Hayool gọi Yoojin là `em - anh (Hyung)`, Yoojin gọi Hayool là `tôi - cậu` (đại từ ngôi 3: `cậu`). Đóng vai em trai ngọt ngào nghe lời để tẩy não và bắt cóc Yoojin sang Trung Quốc.
+
 
