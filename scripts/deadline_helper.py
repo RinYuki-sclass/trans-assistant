@@ -44,13 +44,15 @@ class DeadlineConfig:
 
 
 def find_credentials_path() -> str:
-    """Tìm đường dẫn file credentials / service-account.json"""
+    """Tìm đường dẫn file credentials / service-account.json nếu có trên đĩa"""
     base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     candidates = [
         os.path.join(base_dir, "service-account.json"),
         os.path.join(base_dir, "credentials.json"),
         os.path.join(os.path.dirname(base_dir), "howl-manager", "credentials.json"),
         os.path.join(os.path.dirname(base_dir), "howl-manager", "service-account.json"),
+        "service-account.json",
+        "credentials.json"
     ]
     for p in candidates:
         if os.path.exists(p):
@@ -58,32 +60,81 @@ def find_credentials_path() -> str:
     return os.path.join(base_dir, "service-account.json")
 
 
-def get_service_account_email() -> str:
-    """Lấy email của service account từ file JSON"""
+def get_service_account_credentials_info() -> dict | None:
+    """
+    Lấy dictionary thông tin Service Account từ nhiều nguồn:
+    1. st.secrets (Streamlit Cloud Secrets)
+    2. Biến môi trường GOOGLE_SERVICE_ACCOUNT / GCP_SERVICE_ACCOUNT (JSON string)
+    3. File JSON trên đĩa cục bộ
+    """
+    # 1. Thử lấy từ st.secrets (Streamlit Cloud)
+    try:
+        if hasattr(st, "secrets"):
+            for sec_key in ["gcp_service_account", "google_service_account", "service_account", "GOOGLE_SERVICE_ACCOUNT", "credentials"]:
+                if sec_key in st.secrets:
+                    val = st.secrets[sec_key]
+                    if isinstance(val, dict) or hasattr(val, "to_dict"):
+                        return dict(val)
+                    elif isinstance(val, str) and val.strip().startswith("{"):
+                        return json.loads(val.strip())
+    except Exception:
+        pass
+
+    # 2. Thử lấy từ biến môi trường
+    for env_key in ["GOOGLE_SERVICE_ACCOUNT", "GCP_SERVICE_ACCOUNT", "GOOGLE_CREDENTIALS"]:
+        env_val = os.environ.get(env_key, "").strip()
+        if env_val.startswith("{"):
+            try:
+                return json.loads(env_val)
+            except Exception:
+                pass
+
+    # 3. Thử đọc từ file cục bộ
     creds_path = find_credentials_path()
-    if os.path.exists(creds_path):
+    if creds_path and os.path.exists(creds_path):
         try:
-            with open(creds_path, 'r', encoding='utf-8') as f:
-                data = json.load(f)
-                return data.get('client_email', 's-class@s-class-488908.iam.gserviceaccount.com')
+            with open(creds_path, "r", encoding="utf-8") as f:
+                return json.load(f)
         except Exception:
             pass
+
+    return None
+
+
+def get_service_account_credentials(scopes=None):
+    """Khởi tạo Google Credentials object từ service account info (hỗ trợ cả Secrets, Env & File)"""
+    if not GOOGLE_AVAILABLE:
+        return None
+    if scopes is None:
+        scopes = [
+            'https://www.googleapis.com/auth/spreadsheets.readonly',
+            'https://www.googleapis.com/auth/drive'
+        ]
+    info = get_service_account_credentials_info()
+    if info:
+        try:
+            return service_account.Credentials.from_service_account_info(info, scopes=scopes)
+        except Exception:
+            pass
+    return None
+
+
+def get_service_account_email() -> str:
+    """Lấy email của service account từ secrets, env hoặc file JSON"""
+    info = get_service_account_credentials_info()
+    if info:
+        return info.get('client_email', 's-class@s-class-488908.iam.gserviceaccount.com')
     return "s-class@s-class-488908.iam.gserviceaccount.com"
 
 
 def get_authenticated_drive_service():
     """Trả về Google Drive service v3 với đầy đủ quyền thao tác file"""
-    creds_path = find_credentials_path()
-    if not os.path.exists(creds_path) or not GOOGLE_AVAILABLE:
+    if not GOOGLE_AVAILABLE:
         return None
     try:
-        creds = service_account.Credentials.from_service_account_file(
-            creds_path,
-            scopes=[
-                'https://www.googleapis.com/auth/spreadsheets.readonly',
-                'https://www.googleapis.com/auth/drive'
-            ]
-        )
+        creds = get_service_account_credentials()
+        if not creds:
+            return None
         return build('drive', 'v3', credentials=creds, cache_discovery=False)
     except Exception:
         return None
@@ -695,22 +746,22 @@ def get_action_buttons_html(role: str, raw_en_url: str, raw_kr_url: str, trans_d
 
 
 @st.cache_data(ttl=43200, show_spinner=False)
-def get_cached_deadline_data(creds_path: str, spreadsheet_id: str, trans_fid: str, beta_fid: str) -> dict:
+def get_cached_deadline_data(cache_key: str, spreadsheet_id: str, trans_fid: str, beta_fid: str) -> dict:
     """Hàm lấy dữ liệu từ Google APIs có cache 12 giờ trong Streamlit"""
     if not GOOGLE_AVAILABLE:
         return {"error": "Chưa cài đặt thư viện `google-api-python-client` hoặc `google-auth`."}
 
-    if not os.path.exists(creds_path):
-        return {"error": f"Không tìm thấy file credentials tại `{creds_path}`."}
+    creds = get_service_account_credentials()
+    if not creds:
+        return {
+            "error": (
+                "Chưa tìm thấy thông tin xác thực Google Service Account!\n\n"
+                "👉 **Nếu deploy trên Streamlit Cloud:** Vào **App Settings ➔ Secrets**, tạo mục `[gcp_service_account]` và dán toàn bộ nội dung file `service-account.json` (hoặc `credentials.json`) vào đó.\n"
+                "👉 **Nếu chạy Local:** Hãy đảm bảo file `service-account.json` hoặc `credentials.json` nằm ở thư mục gốc của project."
+            )
+        }
 
     try:
-        creds = service_account.Credentials.from_service_account_file(
-            creds_path,
-            scopes=[
-                'https://www.googleapis.com/auth/spreadsheets.readonly',
-                'https://www.googleapis.com/auth/drive'
-            ]
-        )
         sheets_service = build('sheets', 'v4', credentials=creds, cache_discovery=False)
         drive_service = build('drive', 'v3', credentials=creds, cache_discovery=False)
     except Exception as e:
@@ -1064,12 +1115,13 @@ def get_cached_deadline_data(creds_path: str, spreadsheet_id: str, trans_fid: st
 
 def fetch_deadline_data(force_refresh: bool = False) -> dict:
     """Wrapper lấy data, hỗ trợ force refresh xóa cache"""
-    creds_path = find_credentials_path()
-    cfg = DeadlineConfig(credentials_path=creds_path)
+    info = get_service_account_credentials_info()
+    cache_key = info.get('client_email', '') if info else "no_creds"
+    cfg = DeadlineConfig(credentials_path=cache_key)
     if force_refresh:
         get_cached_deadline_data.clear()
     return get_cached_deadline_data(
-        cfg.credentials_path, cfg.spreadsheet_id, cfg.trans_folder_id, cfg.beta_folder_id
+        cache_key, cfg.spreadsheet_id, cfg.trans_folder_id, cfg.beta_folder_id
     )
 
 

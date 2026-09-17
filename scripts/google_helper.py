@@ -42,7 +42,7 @@ def _get_env(key: str, default=None):
 def get_credentials():
     """
     Return google.oauth2.service_account.Credentials.
-    Priority: local JSON file → env var GOOGLE_SERVICE_ACCOUNT (JSON string).
+    Priority: local JSON file → Streamlit Secrets → env var GOOGLE_SERVICE_ACCOUNT (JSON string).
     """
     from google.oauth2 import service_account
 
@@ -51,10 +51,26 @@ def get_credentials():
             _SERVICE_ACCOUNT_PATH, scopes=_SCOPES
         )
 
+    try:
+        import streamlit as st
+        if hasattr(st, "secrets"):
+            for k in ["gcp_service_account", "google_service_account", "service_account", "GOOGLE_SERVICE_ACCOUNT", "credentials"]:
+                if k in st.secrets:
+                    val = st.secrets[k]
+                    if isinstance(val, dict) or hasattr(val, "to_dict"):
+                        return service_account.Credentials.from_service_account_info(dict(val), scopes=_SCOPES)
+                    elif isinstance(val, str) and val.strip().startswith("{"):
+                        return service_account.Credentials.from_service_account_info(json.loads(val.strip()), scopes=_SCOPES)
+    except Exception:
+        pass
+
     sa_json = _get_env("GOOGLE_SERVICE_ACCOUNT")
     if sa_json:
-        info = json.loads(sa_json)
-        return service_account.Credentials.from_service_account_info(info, scopes=_SCOPES)
+        if isinstance(sa_json, dict) or hasattr(sa_json, "to_dict"):
+            return service_account.Credentials.from_service_account_info(dict(sa_json), scopes=_SCOPES)
+        elif isinstance(sa_json, str) and sa_json.strip().startswith("{"):
+            info = json.loads(sa_json)
+            return service_account.Credentials.from_service_account_info(info, scopes=_SCOPES)
 
     return None
 
