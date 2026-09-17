@@ -24,7 +24,7 @@ graph TD
     subgraph SG2 ["GIAI ĐOẠN 2: QC & TỰ SỬA TRÊN FILE RESULT"]
         A4 --> B1["4. QC Audit: Soát Sót/Thừa & Lỗi Nghĩa"]
         B1 --> B2["5. Bảng QC Clarification (Nếu có câu khó)"]
-        B2 --> B35["5.5. AI Sinh File output/result_*.txt (Xen Kẽ KR-VI)"]
+        B2 --> B35["5.5. AI Sinh File output/trans/result_*.txt (Xen Kẽ KR-VI)"]
         B35 --> B4["6. Bạn mở Notepad++ sửa trực tiếp trong file result"]
     end
 
@@ -121,11 +121,11 @@ AI tiến hành dịch toàn bộ file theo xưng hô và glossary đã cập nh
 
 ---
 
-## BƯỚC 5.5: SINH FILE KẾT QUẢ XEN KẼ TRONG `output/` 📝 ⚠️ *BƯỚC CỐT LÕI*
+## BƯỚC 5.5: SINH FILE KẾT QUẢ XEN KẼ TRONG `output/trans/` 📝 ⚠️ *BƯỚC CỐT LÕI*
 > 💡 **Khuyến nghị dùng Tool trên Web App (Tab 📖 Novel Workflow):**  
-> Thay vì để AI in lại cả ngàn dòng xen kẽ (dễ bị rớt dòng thoại ngắn hoặc cắt cụt giữa chừng), bạn chỉ cần dán bài dịch tiếng Việt của AI vào **Bước 3 trên Web App** ➔ Bấm nút **"🚀 Ghép File Xen Kẽ 1:1"**. Hệ thống Python sẽ tự động kiểm tra `len(kr) == len(vi)` và ghép chuẩn xác 100% vào `output/result_*.txt`.
+> Thay vì để AI in lại cả ngàn dòng xen kẽ (dễ bị rớt dòng thoại ngắn hoặc cắt cụt giữa chừng), bạn chỉ cần dán bài dịch tiếng Việt của AI vào **Bước 3 trên Web App** ➔ Bấm nút **"🚀 Ghép File Xen Kẽ 1:1"**. Hệ thống Python sẽ tự động kiểm tra `len(kr) == len(vi)` và ghép chuẩn xác 100% vào `output/trans/result_*.txt`.
 
-### 📋 Định dạng của file phát sinh `output/result_*.txt`:
+### 📋 Định dạng của file phát sinh `output/trans/result_*.txt`:
 Toàn bộ chương được dàn trang xen kẽ 1:1 theo chuẩn:
 * Mỗi đoạn gốc bắt đầu bằng `KR: ` (hoặc `EN: `).
 * Dòng ngay bên dưới là đoạn dịch tiếng Việt tương ứng.
@@ -144,8 +144,8 @@ KR: - 뀩!
 
 ---
 
-## BƯỚC 6: BẠN MỞ NOTEPAD++ SỬA TRỰC TIẾP TRONG FILE `output/result_*.txt` ✍️
-1. Mở file `output/result_...txt` vừa sinh ra bằng **Notepad++** (hoặc trình soạn thảo yêu thích của bạn).
+## BƯỚC 6: BẠN MỞ NOTEPAD++ SỬA TRỰC TIẾP TRONG FILE `output/trans/result_*.txt` ✍️
+1. Mở file `output/trans/result_...txt` vừa sinh ra bằng **Notepad++** (hoặc trình soạn thảo yêu thích của bạn).
 2. Bạn tự do đọc và trau chuốt câu từ:
    * Mắt bạn vừa nhìn câu gốc `KR:` ở dòng trên, tay vừa sửa trực tiếp câu tiếng Việt ở dòng dưới.
    * Chỉnh sửa bất kỳ từ ngữ nào theo phong cách cá nhân của bạn.
@@ -154,7 +154,7 @@ KR: - 뀩!
 ---
 
 ## BƯỚC 7: TRÍCH XUẤT BẢN DỊCH SẠCH & ĐĂNG LÊN WORDPRESS 🌐
-Sau khi bạn đã lưu file `output/result_...txt`:
+Sau khi bạn đã lưu file `output/trans/result_...txt`:
 
 1. **Lọc lấy bản dịch sạch (Bỏ các dòng `KR:` / `EN:`):**
    * **Cách 1 (Nhanh nhất & chuẩn 100%):** Mở tab **📖 Novel Workflow** trên Web App ➔ Tại Bước 5 bấm nút **"✂️ Lọc Tiếng Việt Sạch Tức Thì"** (hoàn toàn bằng code Regex, không qua AI nên không bao giờ làm mất chữ).
@@ -197,12 +197,12 @@ Hãy đọc file raw, đối chiếu với [glossary/glossary.md] và xuất:
 ```text
 Tôi chốt QA như sau: [GHI CHÚ DUYỆT CỦA BẠN].
 1. Tự động đẩy các thuật ngữ mới đã duyệt lên Google Sheet 'Thuật ngữ chi tiết' (với cột Chap = '[SỐ CHAP]') và cập nhật [glossary/glossary.md] (bảo vệ tuyệt đối các dòng đã Chốt=TRUE).
-2. Dịch toàn văn theo nguyên tắc BẢO TOÀN 1:1 (ZERO ADDITION, ZERO OMISSION) và tạo trực tiếp file kết quả xen kẽ tại [output/result_tên_file.txt] theo định dạng 'KR: ...' / 'EN: ...' kèm bản dịch tiếng Việt bên dưới để tôi tự sửa tay.
+2. Dịch toàn văn theo nguyên tắc BẢO TOÀN 1:1 (ZERO ADDITION, ZERO OMISSION) và tạo trực tiếp file kết quả xen kẽ tại [output/trans/result_tên_file.txt] theo định dạng 'KR: ...' / 'EN: ...' kèm bản dịch tiếng Việt bên dưới để tôi tự sửa tay.
 ```
 
 ### 🔹 Lệnh 1.3: Trích xuất bản dịch sạch sau khi sửa tay
 ```text
-Tôi đã chỉnh sửa xong file [output/result_tên_file.txt].
+Tôi đã chỉnh sửa xong file [output/trans/result_tên_file.txt].
 Hãy đọc file này và trích xuất bản dịch tiếng Việt sạch (đã lọc bỏ toàn bộ các dòng KR/EN), sẵn sàng để tôi nạp vào tab Đăng WordPress.
 ```
 
@@ -226,7 +226,7 @@ graph TD
 
     subgraph QC_ACTION ["LEAD TỰ TAY BIÊN TẬP & BẢO TOÀN DỮ LIỆU"]
         Q3 --> Q4["Lệnh 2.2: Lead duyệt các điểm sửa của AI"]
-        Q4 --> Q5["Sinh File Xen Kẽ output/result_qc_*.txt<br>(Lead mở Notepad++ tự tay trau chuốt hết)"]
+        Q4 --> Q5["Sinh File Xen Kẽ output/qc/result_qc_*.txt<br>(Lead mở Notepad++ tự tay trau chuốt hết)"]
         Q5 --> Q6["1. Cập nhật Glossary lên Google Sheet<br>2. Tự động Cập Nhật Long-term Memory (characters.md & timeline_summary.md)<br>3. Lọc sạch tiếng Việt & Đăng WordPress"]
     end
 ```
@@ -276,12 +276,12 @@ Tôi duyệt các đề xuất sửa sau: [GHI CHÚ DUYỆT: Vd "Duyệt toàn b
    - Tóm tắt 2-3 câu ngắn gọn về diễn biến cốt lõi chương này (ai làm gì, đang ở đâu, trạng thái ra sao) và nối tiếp vào cuối file [memory/timeline_summary.md] (ghi rõ [Chap X]).
 
 3. SINH FILE KẾT QUẢ XEN KẼ ĐỂ LEAD TỰ SỬA TOÀN VĂN:
-   - Áp dụng các sửa đổi đã duyệt vào bản dịch của trans và tạo file xen kẽ tại [output/result_qc_tên_file.txt] (gồm câu gốc KR: ... và câu dịch tiếng Việt đã patch) để tôi mở Notepad++ vừa đối chiếu raw vừa tự tay chuốt văn lần cuối.
+   - Áp dụng các sửa đổi đã duyệt vào bản dịch của trans và tạo file xen kẽ tại [output/qc/result_qc_tên_file.txt] (gồm câu gốc KR: ... và câu dịch tiếng Việt đã patch) để tôi mở Notepad++ vừa đối chiếu raw vừa tự tay chuốt văn lần cuối.
 ```
 
 ### 🔹 Lệnh 2.3: Trích xuất bản dịch sạch sau QC để đăng web
 ```text
-Tôi đã rà soát xong file [output/result_qc_tên_file.txt].
+Tôi đã rà soát xong file [output/qc/result_qc_tên_file.txt].
 Hãy trích xuất bản dịch tiếng Việt sạch (đã loại bỏ các dòng KR/EN), ghi rõ:
 - Tên chương: [Nhập tên chương nếu có]
 - Trans: [Tên thành viên dịch] | Beta: [Tên bạn]

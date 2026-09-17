@@ -2,7 +2,7 @@
 
 ## 1. QUY TAC XUNG HO
 ### Dai tu khi ke chuyen (Ngoi thu 3):
-Han Yoojin: cậu, Han Yoohyun: cậu, Park Yerim: cô, Sung Hyunjae: anh, Noah Rugir: cậu, Liette Rugir: cô, Song Taewon: anh, Moon Hyuna: cô, Kim Sunghan: anh, Kang Soyoung: cô, Seok Simyung: ông, Seok Hayan: cô, Yoon Yoon: cậu, Yoo Myungwoo: cậu, Do Hamin: anh, Min Jisoo: cô, Kim Minee: cậu, Shishio: anh, Sigma: hắn, Evelyn: cô, Newbie: cậu, Young Chaos: ông, Jellyfish: cô, Hoàng Lâm: anh, Sở Hoa Vân: hắn, Han Yoojin (tiền hồi quy): cậu, Han Yoohyun (tiền hồi quy): cậu
+Han Yoojin: cậu, Han Yoohyun: cậu, Park Yerim: cô, Sung Hyunjae: anh, Noah Rugir: cậu, Liette Rugir: cô, Song Taewon: anh, Moon Hyuna: cô, Kim Sunghan: anh, Seok Simyung: ông, Seok Hayan: cô, Yoon Yoon: cậu, Yoo Myungwoo: cậu, Do Hamin: anh, Min Jisoo: cô, Kim Minee: cậu, Shishio: anh, Sigma: hắn, Evelyn: cô, Newbie: cậu, Young Chaos: ông, Jellyfish: cô, Hoàng Lâm: anh, Sở Hoa Vân: hắn, Han Yoojin (tiền hồi quy): cậu, Han Yoohyun (tiền hồi quy): cậu
 
 ### Cách gọi nhau trong đối thoại (Ngôi 1 gọi Ngôi 2):
 - Han Yoojin gọi Han Yoohyun là: xưng anh gọi em, xưng Yoohyun gọi ah, Em trai
@@ -118,6 +118,7 @@ Han Yoojin: cậu, Han Yoohyun: cậu, Park Yerim: cô, Sung Hyunjae: anh, Noah 
 - Moon Hyuna gọi Evelyn là: xưng tôi gọi cô, Thợ săn Evelyn
 - Kim Sunghan gọi Han Yoojin là: xưng tôi gọi cậu, xưng Han Yoojin gọi ssi
 - Kim Sunghan gọi Han Yoohyun là: xưng tôi gọi cậu, Hội trưởng
+- Kim Sunghan gọi Kang Soyoung là: cô
 - Kang Soyoung gọi Han Yoojin là: xưng tôi gọi anh, xưng Han Yoojin gọi ssi
 - Kang Soyoung gọi Han Yoohyun là: xưng tôi gọi anh, Thợ săn Han Yoohyun, Hội trưởng hội Haeyeon
 - Kang Soyoung gọi Park Yerim là: xưng chị gọi em
@@ -317,15 +318,21 @@ Kẻ trị thuỷ]
 - [Chap 299] 녹아내린 마지막 문 (SS) | Molten Final Gate -> Dung Hoá Chung Môn (Tên title/skill)
 - [Chap 303] 송이 | Songie -> Songie (Tên ma thú)
 - [Chap 335]  | magic beast combination skill -> Hợp Thể Ma Thú (Tên title/skill)
-- [Chap 336] 마나 각인 | mana inscription -> Khắc ấn mana (Thuật ngữ) - Kỹ thuật tạo mạch mana trực tiếp lên vật phẩm hoặc cơ thể
 - [Chap 336] 마나 회로 | mana circuit -> Mạch mana (Thuật ngữ) - Hệ thống đường dẫn lưu chuyển mana trong chế tác vật phẩm và cơ thể thức tỉnh giả
 - [Chap 336] 조정 아이템 | adjustment item -> Vật phẩm điều chỉnh (Tên vật phẩm) - Vật phẩm đặc chế giúp người sử dụng thích nghi dần với mạch mana
 - [Chap 336] 마나 용광로 | mana furnace -> Lò mana (Tên vật phẩm) - Lò luyện kim dùng mana của thợ rèn
-- [Chap 336] 마나홀 | Mana Hole -> Hố Mana (Địa điểm) - Khu vực chứa nguồn ma thuật đậm đặc nơi Yoojin nhận khắc ấn
 - [Chap 336] 마나 샘 | mana spring -> Suối nguồn mana (Thuật ngữ) - Trạng thái của Thần thụ Eunhye sau khi hấp thụ Hố Mana
 - [Chap 336] 초월자 | transcendent -> Siêu Việt Giả (Thuật ngữ) - Những tồn tại vượt ngưỡng quy luật thế giới
 - [Chap 336] 작명소 | naming center -> Trung tâm đặt tên (Địa điểm) - Cơ sở dịch vụ đặt tên phong thủy
 - [Chap 337]  | Seo Kyeonghoon -> Seo Kyeonghoon (Tên nhân vật)
+- [Chap 338] 이유신 | Lee Yushin -> Lee Yooshin (Tên nhân vật) - Thợ săn nữ đồng đội cũ của Yoojin
+- [Chap 338] 최수련 | Choi Suryeon -> Choi Suryeon (Tên nhân vật) - Cựu thợ săn hỗ trợ cấp F có kỹ năng trị liệu cấp C
+- [Chap 338] 서경하 | Seo Kyeongha -> Seo Kyeongha (Tên nhân vật) - Em gái của Seo Kyeonghoon
+- [Chap 338] 김혜원 | Kim Hyewon -> Kim Hyewon (Tên nhân vật) - Tân binh đi cùng Lee Yooshin
+- [Chap 338] 위험수당 | hazard pay -> phụ cấp rủi ro (Thuật ngữ) - Phụ cấp làm việc cùng ma thú và thợ săn cấp cao
+- [Chap 338] 사택 | company housing -> nhà ở công ty (Thuật ngữ) - Phúc lợi nhà ở cho nhân viên cơ sở nuôi dưỡng
+- [Chap 338] 치료 스킬 | healing skill -> kỹ năng trị liệu (Tên title/skill) - Kỹ năng hồi máu/trị liệu
+- [Chap 338] 애견카페 | dog cafe -> quán cà phê chó (Địa điểm) - Nơi Choi Suryeon làm việc bán thời gian
 - [Chap 347] 올림픽 대로 | Olympic Boulevard -> Đại lộ Olympic (Địa điểm)
 - [Chap 354] 이완용 | Lee Wanyong -> Lee Wanyong (Tên nhân vật) - Cựu Trưởng phòng Nhân sự Hiệp hội phản quốc
 - 한신 길드 | Hanshin Guild -> Hội Hanshin (Địa điểm)
@@ -804,11 +811,13 @@ attack skills -> kỹ năng sát thương (Thuật ngữ)
 - 솔렘니스 | Sollemnis -> Sollemnis (Địa điểm)
 - 람다 | Lambda -> Lambda (Tên nhân vật)
 - 란체아 | Lancea -> Lancea (Địa điểm)
+- 마나홀 | Mana Hole -> Hố Mana (Địa điểm) - Khu vực chứa nguồn ma thuật đậm đặc nơi Yoojin nhận khắc ấn
 - 첫 번째 외출 | First Outing -> Lần ra ngoài đầu tiên (Thuật ngữ)
 - 오늘의 아르바이트생 | Part-Timer For A Day -> Nhân viên bán thời gian của hôm nay (Thuật ngữ)
 -  |  -> Đã Lừa Thì Phải Lừa Cả Trăm Triệu (Thuật ngữ)
 -  |  -> Giày Mèo Báo Vàng (Tên vật phẩm)
 -  |  -> Độ bám dính Adroit (Thuật ngữ)
+- 마나 각인 | mana inscription -> Khắc ấn mana (Thuật ngữ) - Kỹ thuật tạo mạch mana trực tiếp lên vật phẩm hoặc cơ thể
 -  |  -> Khắc Ấn Bảo Vệ (Thuật ngữ)
 - 바깥 |  -> Ngoại giới (Thuật ngữ)
 - 만능열쇠 | Master Key -> Chìa khoá vạn năng (Tên vật phẩm)
