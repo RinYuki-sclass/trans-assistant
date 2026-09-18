@@ -1421,14 +1421,14 @@ def render_deadline_dashboard():
         st.write("💡 *Dữ liệu được lưu trong 12–24h. Bấm nút bên cạnh để làm mới dữ liệu, đồng thời kích hoạt GitHub Action cập nhật Excel & gửi báo cáo.*")
     with c_top2:
         if st.button("🔄 Quét & Cập Nhật tiến độ", type="primary", use_container_width=True, help="Làm mới bảng tiến độ và gọi daily_report.yml trên GitHub Actions để cập nhật trạng thái 'Đã xong' vào Google Sheet"):
-            with st.spinner("⏳ Đang làm mới dữ liệu & gửi lệnh cập nhật tiến độ..."):
-                data = fetch_deadline_data(force_refresh=True)
+            import time
+            prev_run = get_latest_daily_report_run()
+            with st.spinner("⏳ Đang gửi lệnh cập nhật tiến độ tới GitHub Actions..."):
                 ok, msg = trigger_daily_report_workflow()
                 if ok:
-                    st.session_state["workflow_dispatch_status"] = (
-                        "success",
-                        "🚀 **Đã kích hoạt GitHub Action (`daily_report.yml`)!** Hệ thống đang tự động quét Drive, cập nhật trạng thái 'Đã xong' vào Google Sheet và gửi báo cáo Discord/Google Chat (hoàn tất sau ~30-60s)."
-                    )
+                    st.session_state["polling_github_action"] = True
+                    st.session_state["polling_start_time"] = time.time()
+                    st.session_state["polling_prev_run_id"] = prev_run.get("id") if prev_run else None
                 else:
                     st.session_state["workflow_dispatch_status"] = (
                         "warning",
@@ -1436,12 +1436,72 @@ def render_deadline_dashboard():
                     )
             st.rerun()
 
+    # Xử lý Auto-Polling để tự động làm mới giao diện khi GitHub Action hoàn tất
+    if st.session_state.get("polling_github_action", False):
+        import time
+        start_time = st.session_state.get("polling_start_time", time.time())
+        prev_id = st.session_state.get("polling_prev_run_id")
+        elapsed = int(time.time() - start_time)
+
+        if elapsed > 120:
+            st.session_state["polling_github_action"] = False
+            st.warning("⚠️ Đã chờ hơn 2 phút. GitHub Action có thể vẫn đang xử lý, bạn có thể kiểm tra trực tiếp trên tab Actions của GitHub.")
+        else:
+            latest_run = get_latest_daily_report_run()
+            curr_id = latest_run.get("id") if latest_run else None
+            r_status = latest_run.get("status") if latest_run else None
+            r_conc = latest_run.get("conclusion") if latest_run else None
+
+            # Trường hợp 1: Run mới chưa kịp xuất hiện trên GitHub API
+            if curr_id == prev_id and elapsed < 12:
+                st.info(
+                    f"⏳ **Đang khởi tạo GitHub Action ({elapsed}s)...** Runner đang được cấp phát trên GitHub.",
+                    icon="🔄"
+                )
+                time.sleep(3)
+                st.rerun()
+
+            # Trường hợp 2: Run mới đang chạy (in_progress / queued)
+            elif r_status in ["in_progress", "queued"]:
+                st.info(
+                    f"⏳ **GitHub Action đang thực thi ({elapsed}s)...** Đang quét Drive, cập nhật Google Sheet & gửi báo cáo. "
+                    "**Màn hình sẽ tự động làm mới ngay khi hoàn tất!**",
+                    icon="🔄"
+                )
+                time.sleep(4)
+                st.rerun()
+
+            # Trường hợp 3: Đã hoàn tất!
+            elif r_status == "completed":
+                st.session_state["polling_github_action"] = False
+                fetch_deadline_data(force_refresh=True)
+                if r_conc == "success":
+                    st.session_state["action_completed_msg"] = (
+                        "success",
+                        "🎉 **GitHub Action đã hoàn tất!** Dữ liệu Excel mới nhất đã được ghi vào Google Sheet và cập nhật ngay lên giao diện web."
+                    )
+                else:
+                    st.session_state["action_completed_msg"] = (
+                        "warning",
+                        f"⚠️ GitHub Action đã kết thúc với trạng thái: `{r_conc}`. Vui lòng xem chi tiết trên GitHub."
+                    )
+                st.rerun()
+
+    if "action_completed_msg" in st.session_state:
+        msg_type, msg_text = st.session_state.pop("action_completed_msg")
+        if msg_type == "success":
+            st.success(msg_text, icon="✅")
+            st.toast("🎉 Đã cập nhật Excel & Giao diện thành công!", icon="✅")
+        else:
+            st.warning(msg_text)
+
     if "workflow_dispatch_status" in st.session_state:
         status_type, status_text = st.session_state.pop("workflow_dispatch_status")
         if status_type == "success":
             st.success(status_text, icon="⚡")
         else:
             st.warning(status_text)
+
 
     data = fetch_deadline_data(force_refresh=False)
 
