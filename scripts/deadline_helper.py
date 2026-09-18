@@ -181,6 +181,144 @@ def save_upload_webhook_url(url: str):
         print(f"Error saving webhook to .env: {e}")
 
 
+def get_github_pat() -> str:
+    """Lấy GitHub Personal Access Token từ session_state, Streamlit secrets, hoặc .env"""
+    if 'github_pat' in st.session_state and st.session_state['github_pat']:
+        return st.session_state['github_pat'].strip()
+    try:
+        if hasattr(st, "secrets") and "GITHUB_PAT" in st.secrets:
+            return st.secrets["GITHUB_PAT"].strip()
+    except Exception:
+        pass
+    token = os.environ.get("GITHUB_PAT", "").strip()
+    if token:
+        return token
+    # Đọc trực tiếp từ file .env nếu chưa được load vào os.environ
+    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    env_path = os.path.join(base_dir, '.env')
+    if os.path.exists(env_path):
+        try:
+            with open(env_path, 'r', encoding='utf-8') as f:
+                for line in f:
+                    if line.strip().startswith("GITHUB_PAT="):
+                        val = line.strip().split("=", 1)[1].strip()
+                        return val.strip('"').strip("'")
+        except Exception:
+            pass
+    return ""
+
+
+def get_howl_manager_repo() -> str:
+    """Lấy tên repo howl-manager mục tiêu (mặc định RinYuki-sclass/howl-manager)"""
+    if 'github_howl_repo' in st.session_state and st.session_state['github_howl_repo']:
+        return st.session_state['github_howl_repo'].strip()
+    try:
+        if hasattr(st, "secrets") and "GITHUB_HOWL_REPO" in st.secrets:
+            return st.secrets["GITHUB_HOWL_REPO"].strip()
+    except Exception:
+        pass
+    repo = os.environ.get("GITHUB_HOWL_REPO", "").strip()
+    if repo:
+        return repo
+    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    env_path = os.path.join(base_dir, '.env')
+    if os.path.exists(env_path):
+        try:
+            with open(env_path, 'r', encoding='utf-8') as f:
+                for line in f:
+                    if line.strip().startswith("GITHUB_HOWL_REPO="):
+                        val = line.strip().split("=", 1)[1].strip()
+                        return val.strip('"').strip("'")
+        except Exception:
+            pass
+    return "RinYuki-sclass/howl-manager"
+
+
+def trigger_daily_report_workflow() -> tuple[bool, str]:
+    """
+    Gửi lệnh workflow_dispatch tới GitHub Actions để chạy daily_report.yml:
+    - Quét Google Drive
+    - Cập nhật Google Sheets / Excel
+    - Gửi thông báo Discord & Google Chat
+    """
+    import requests
+    token = get_github_pat()
+    if not token:
+        return False, "Chưa cấu hình GITHUB_PAT trong .env hoặc st.secrets!"
+
+    repo = get_howl_manager_repo()
+    workflow_file = "daily_report.yml"
+    url = f"https://api.github.com/repos/{repo}/actions/workflows/{workflow_file}/dispatches"
+
+    headers = {
+        "Accept": "application/vnd.github+json",
+        "Authorization": f"Bearer {token}",
+        "X-GitHub-Api-Version": "2022-11-28"
+    }
+    payload = {
+        "ref": "main"
+    }
+
+    try:
+        resp = requests.post(url, headers=headers, json=payload, timeout=15)
+        if resp.status_code == 204:
+            return True, "Đã kích hoạt daily_report.yml trên GitHub Actions thành công!"
+        elif resp.status_code == 401:
+            return False, "GITHUB_PAT không hợp lệ hoặc đã hết hạn (401 Unauthorized)."
+        elif resp.status_code == 403:
+            return False, f"GITHUB_PAT không đủ quyền Actions: Read and write cho repo {repo} (403 Forbidden)."
+        elif resp.status_code == 404:
+            return False, f"Không tìm thấy repo hoặc file workflow ({url})."
+        else:
+            return False, f"GitHub API trả về lỗi ({resp.status_code}): {resp.text}"
+    except Exception as e:
+        return False, f"Lỗi kết nối khi gọi GitHub API: {str(e)}"
+
+
+def get_latest_daily_report_run() -> dict:
+    """Lấy trạng thái lần chạy gần nhất của daily_report.yml trên GitHub Actions"""
+    import requests
+    token = get_github_pat()
+    if not token:
+        return {}
+
+    repo = get_howl_manager_repo()
+    workflow_file = "daily_report.yml"
+    url = f"https://api.github.com/repos/{repo}/actions/workflows/{workflow_file}/runs?per_page=1"
+
+    headers = {
+        "Accept": "application/vnd.github+json",
+        "Authorization": f"Bearer {token}",
+        "X-GitHub-Api-Version": "2022-11-28"
+    }
+
+    try:
+        resp = requests.get(url, headers=headers, timeout=8)
+        if resp.status_code == 200:
+            runs = resp.json().get("workflow_runs", [])
+            if runs:
+                r = runs[0]
+                created_dt_str = r.get("created_at", "")
+                created_vn = created_dt_str
+                if created_dt_str:
+                    try:
+                        dt = datetime.strptime(created_dt_str, "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=timezone.utc)
+                        created_vn = (dt + timedelta(hours=7)).strftime("%H:%M:%S %d/%m/%Y")
+                    except Exception:
+                        pass
+                return {
+                    "id": r.get("id"),
+                    "status": r.get("status"), # in_progress, completed, queued
+                    "conclusion": r.get("conclusion"), # success, failure
+                    "event": r.get("event"),
+                    "html_url": r.get("html_url"),
+                    "created_at": created_vn
+                }
+    except Exception:
+        pass
+    return {}
+
+
 def upload_file_to_google_drive(file_data: bytes, original_filename: str, target_filename: str, folder_id: str, convert_to_gdoc: bool = True) -> tuple[bool, str, str]:
     """
     Tải tập tin lên Google Drive vào folder_id chỉ định.
@@ -1278,14 +1416,32 @@ def render_deadline_dashboard():
     st.markdown("## ⏰ Báo Cáo & Quản Lý Tiến Độ Deadline")
     st.caption("Dữ liệu được đồng bộ trực tiếp từ Google Sheet 'Mục lục chương truyện' và 2 folder Google Drive (Trans & Beta).")
 
-    c_top1, c_top2 = st.columns([3, 1])
+    c_top1, c_top2 = st.columns([2.6, 1.4])
     with c_top1:
-        st.write("💡 *Dữ liệu được lưu trong 12–24h. Bấm 'Quét tiến độ mới nhất' bất cứ khi nào bạn muốn cập nhật ngay.*")
+        st.write("💡 *Dữ liệu được lưu trong 12–24h. Bấm nút bên cạnh để làm mới dữ liệu, đồng thời kích hoạt GitHub Action cập nhật Excel & gửi báo cáo.*")
     with c_top2:
-        if st.button("🔄 Quét Tiến Độ Mới Nhất", type="primary", use_container_width=True):
-            data = fetch_deadline_data(force_refresh=True)
-            st.toast("✅ Đã cập nhật tiến độ mới nhất từ Google Drive & Sheets!", icon="🔄")
+        if st.button("🔄 Quét & Cập Nhật tiến độ", type="primary", use_container_width=True, help="Làm mới bảng tiến độ và gọi daily_report.yml trên GitHub Actions để cập nhật trạng thái 'Đã xong' vào Google Sheet"):
+            with st.spinner("⏳ Đang làm mới dữ liệu & gửi lệnh cập nhật tiến độ..."):
+                data = fetch_deadline_data(force_refresh=True)
+                ok, msg = trigger_daily_report_workflow()
+                if ok:
+                    st.session_state["workflow_dispatch_status"] = (
+                        "success",
+                        "🚀 **Đã kích hoạt GitHub Action (`daily_report.yml`)!** Hệ thống đang tự động quét Drive, cập nhật trạng thái 'Đã xong' vào Google Sheet và gửi báo cáo Discord/Google Chat (hoàn tất sau ~30-60s)."
+                    )
+                else:
+                    st.session_state["workflow_dispatch_status"] = (
+                        "warning",
+                        f"⚠️ Đã làm mới giao diện nhưng không thể kích hoạt GitHub Action: {msg}"
+                    )
             st.rerun()
+
+    if "workflow_dispatch_status" in st.session_state:
+        status_type, status_text = st.session_state.pop("workflow_dispatch_status")
+        if status_type == "success":
+            st.success(status_text, icon="⚡")
+        else:
+            st.warning(status_text)
 
     data = fetch_deadline_data(force_refresh=False)
 
@@ -1302,7 +1458,28 @@ def render_deadline_dashboard():
     m3.metric("⏳ Chưa Xong (Pending)", f"{data['not_found_count']} chap")
     m4.metric("🚨 File Mất Trên Drive", f"{len(data['missing_drive'])} chap", delta_color="inverse")
 
-    st.caption(f"🕒 Lần quét gần nhất: **{data.get('timestamp', 'N/A')}**")
+    # Status row: Lần quét giao diện + Trạng thái GitHub Action
+    c_status1, c_status2 = st.columns([1, 1])
+    with c_status1:
+        st.caption(f"🕒 Giao diện web cập nhật lúc: **{data.get('timestamp', 'N/A')}**")
+    with c_status2:
+        latest_run = get_latest_daily_report_run()
+        if latest_run:
+            r_status = latest_run.get("status")
+            r_conc = latest_run.get("conclusion")
+            r_time = latest_run.get("created_at")
+            r_url = latest_run.get("html_url", "https://github.com/RinYuki-sclass/howl-manager/actions/workflows/daily_report.yml")
+            if r_status in ["in_progress", "queued"]:
+                st.caption(f"🟡 **GitHub Action:** Đang chạy cập nhật Excel... ({r_time}) • [Xem log ↗]({r_url})")
+            elif r_conc == "success":
+                st.caption(f"🟢 **GitHub Action:** Excel & Báo cáo đã cập nhật lúc **{r_time}** • [Xem log ↗]({r_url})")
+            elif r_conc == "failure":
+                st.caption(f"🔴 **GitHub Action:** Lỗi lúc **{r_time}** • [Xem chi tiết ↗]({r_url})")
+            else:
+                st.caption(f"🤖 **GitHub Action:** Lần chạy gần nhất: **{r_time}** • [Xem log ↗]({r_url})")
+        else:
+            st.caption("🤖 **GitHub Action:** Sẵn sàng kết nối")
+
 
     # Accordion Guide
     with st.expander("📖 Hướng Dẫn Nhanh: Cách Xem Bảng Phân Công & Tiến Độ", expanded=False):
