@@ -4,6 +4,7 @@ AI Novel Translation Tool with Diff View
 """
 
 import streamlit as st
+import streamlit.components.v1 as components
 import difflib
 import os
 import sys
@@ -195,6 +196,75 @@ st.set_page_config(
     initial_sidebar_state="collapsed"
 )
 
+# ============================================================
+# CHẶN POPUP CLEAR CACHE KHI BẤM CTRL + C HOẶC C
+# ============================================================
+components.html("""
+<script>
+(function() {
+    try {
+        const parentDoc = window.parent.document;
+        const parentWin = window.parent;
+        if (!parentDoc || parentWin._clearCacheShortcutBlocked) return;
+        parentWin._clearCacheShortcutBlocked = true;
+
+        function interceptKey(e) {
+            // Khi nhấn phím C (code 67 hoặc key 'c'/'C')
+            if (e.key === 'c' || e.key === 'C' || e.keyCode === 67) {
+                if (e.ctrlKey || e.metaKey) {
+                    // Thao tác Copy (Ctrl+C / Cmd+C):
+                    // Chặn ngay lập tức không cho Streamlit Hotkeys bắt được sự kiện này
+                    // để KHÔNG bật popup Clear Cache, nhưng KHÔNG gọi preventDefault() để trình duyệt vẫn copy bình thường!
+                    e.stopImmediatePropagation();
+                    return;
+                }
+                // Nếu bấm phím C đơn lẻ bên ngoài ô nhập liệu
+                const target = e.target;
+                const isInput = target && (
+                    target.tagName === 'INPUT' ||
+                    target.tagName === 'TEXTAREA' ||
+                    target.isContentEditable ||
+                    (target.closest && target.closest('input, textarea, [contenteditable="true"]'))
+                );
+                if (!isInput) {
+                    // Chặn triệt để shortcut 'C' mở Clear Cache modal của Streamlit
+                    e.stopImmediatePropagation();
+                    e.preventDefault();
+                }
+            }
+        }
+
+        // Đăng ký ở chế độ CAPTURING (true) để chạy trước mọi event listener của React/Streamlit
+        parentWin.addEventListener('keydown', interceptKey, true);
+        parentDoc.addEventListener('keydown', interceptKey, true);
+
+        // Lớp bảo vệ bổ sung: Ẩn và tự động đóng modal Clear Cache nếu bằng cách nào đó xuất hiện
+        const style = parentDoc.createElement('style');
+        style.innerHTML = `
+            [data-testid="stClearCacheDialog"],
+            div[role="dialog"]:has([data-testid="stClearCacheDialog"]) {
+                display: none !important;
+                visibility: hidden !important;
+                pointer-events: none !important;
+            }
+        `;
+        parentDoc.head.appendChild(style);
+
+        const observer = new MutationObserver(function() {
+            const dialog = parentDoc.querySelector('[data-testid="stClearCacheDialog"]');
+            if (dialog) {
+                const cancelBtn = dialog.querySelector('button');
+                if (cancelBtn) cancelBtn.click();
+                const parentModal = dialog.closest('[role="dialog"]') || dialog.parentElement;
+                if (parentModal) parentModal.style.display = 'none';
+            }
+        });
+        observer.observe(parentDoc.documentElement, { childList: true, subtree: true });
+    } catch (err) {}
+})();
+</script>
+""", height=0, width=0)
+
 PATHS = {
     'eng_trans': os.path.join(BASE_DIR, 'input', 'trans', 'eng.txt'),
     'kor_trans': os.path.join(BASE_DIR, 'input', 'trans', 'kor.txt'),
@@ -218,6 +288,13 @@ HIDE_LOCAL_FILE_OPTION = str(get_env("HIDE_LOCAL_FILE_OPTION")).strip().lower() 
 st.markdown("""
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+    /* Chặn triệt để popup Clear Cache */
+    [data-testid="stClearCacheDialog"],
+    div[role="dialog"]:has([data-testid="stClearCacheDialog"]) {
+        display: none !important;
+        visibility: hidden !important;
+        pointer-events: none !important;
+    }
     .stApp { font-family: 'Inter', sans-serif; }
     .app-header {
         background: linear-gradient(135deg, #0D9488 0%, #0B7A70 100%);
