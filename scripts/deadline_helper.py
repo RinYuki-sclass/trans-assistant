@@ -639,10 +639,95 @@ def merge_interleaved_text(raw_text: str, trans_text: str, custom_raw_tag: str =
     return "\n".join(merged_lines).strip(), num_raw, num_trans, warning_msg
 
 
+# ============================================================================
+# LANGUAGE DETECTION & RAW FILTER ENGINE (XÓA RAW: CHỈ NHẬN DIỆN TIẾNG HÀN & TIẾNG ANH)
+# ============================================================================
+
+VI_DIACRITICS_REGEX = re.compile(
+    r'[àáảãạăằắẳẵặâầấẩẫậèéẻẽẹêềếểễệìíỉĩịòóỏõọôồốổỗộơờớởỡợùúủũụưừứửữựỳýỷỹỵđ'
+    r'ÀÁẢÃẠĂẰẮẲẴẶÂẦẤẨẪẬÈÉẺẼẸÊỀẾỂỄỆÌÍỈĨỊÒÓỎÕỌÔỒỐỔỖỘƠỜỚỞỠỢÙÚỦŨỤƯỪỨỬỮỰỲÝỶỸỴĐ]'
+)
+KOREAN_CHAR_REGEX = re.compile(r'[\uac00-\ud7af\u1100-\u11ff\u3130-\u318f]')
+RAW_TAG_PREFIX_REGEX = re.compile(
+    r'^(?:\[\s*)?(?:raw|kr|en|kor|eng|korean|english|bản raw|tiếng hàn|tiếng anh|bản gốc)\s*(?:\]\s*)?:?',
+    re.IGNORECASE
+)
+
+ENGLISH_COMMON_WORDS = {
+    'the', 'be', 'to', 'of', 'and', 'a', 'in', 'that', 'have', 'i', 'it', 'for', 'not', 'on', 'with',
+    'he', 'as', 'you', 'do', 'at', 'this', 'but', 'his', 'by', 'from', 'they', 'we', 'say', 'her',
+    'she', 'or', 'an', 'will', 'my', 'one', 'all', 'would', 'there', 'their', 'what', 'so', 'up',
+    'out', 'if', 'about', 'who', 'get', 'which', 'go', 'me', 'when', 'make', 'can', 'like', 'time',
+    'no', 'just', 'him', 'know', 'take', 'people', 'into', 'year', 'your', 'good', 'some', 'could',
+    'them', 'see', 'other', 'than', 'then', 'now', 'look', 'only', 'come', 'its', 'over', 'think',
+    'also', 'back', 'after', 'use', 'two', 'how', 'our', 'work', 'first', 'well', 'way', 'even',
+    'new', 'want', 'because', 'any', 'these', 'give', 'day', 'most', 'us', 'was', 'were', 'had',
+    'been', 'said', 'did', 'got', 'told', 'asked', 'replied', 'looked', 'seemed', 'turned', 'felt',
+    'eyes', 'man', 'door', 'room', 'hand', 'head', 'body', 'voice', 'face', 'boy', 'guy', 'dungeon',
+    'chapter', 'part', 'scene', 'around', 'down', 'again', 'still', 'off', 'went', 'came', 'heard',
+    'saw', 'thought', 'knew', 'felt', 'stood', 'stepped', 'smiled', 'shook', 'nodded', 'walked'
+}
+
+
+def is_raw_or_foreign_line(line: str) -> bool:
+    """
+    Nhận diện dòng Raw ngoại ngữ (CHỈ nhận diện Tiếng Hàn và Tiếng Anh):
+    1. Dòng có tiền tố tag Raw (Raw:, KR:, EN:, [Raw], [KR], [EN], vv)
+    2. Dòng chứa ký tự tiếng Hàn (Hangul: \uac00-\ud7af) -> Xóa
+    3. Dòng tiếng Anh thuần (không có dấu tiếng Việt, chứa từ vựng/cấu trúc tiếng Anh) -> Xóa
+    Trả về: True nếu là dòng Raw tiếng Hàn / tiếng Anh cần xóa, False nếu là tiếng Việt cần giữ lại.
+    """
+    clean = line.strip()
+    if not clean:
+        return False
+
+    # 1. Bỏ qua các dòng phân cách, ký hiệu, số thứ tự, dấu câu (cần giữ lại trong văn bản)
+    # Ví dụ: '***', '---', '===', '1.', '(1)', '...', '"!"'
+    if re.fullmatch(r'[\d\s\.\,\:\;\-\_\=\*\~\|\/\(\)\[\]\{\}\"\'\`\<\>\!\?\…\–\—\•\★\☆]+', clean):
+        return False
+
+    # 2. Phát hiện tag tiền tố Raw/KR/EN...
+    if RAW_TAG_PREFIX_REGEX.match(clean):
+        return True
+
+    # 3. Tiếng Hàn: Có bất kỳ ký tự Hangul nào -> 100% Raw tiếng Hàn
+    if KOREAN_CHAR_REGEX.search(clean):
+        return True
+
+    # 4. Có dấu tiếng Việt -> 100% là câu dịch tiếng Việt (giữ lại)
+    if VI_DIACRITICS_REGEX.search(clean):
+        return False
+
+    # 5. Tiếng Anh (không có dấu tiếng Việt): Kiểm tra xem có phải câu tiếng Anh không
+    words = re.findall(r'[a-zA-Z]+', clean.lower())
+    if not words:
+        return False
+
+    # Kiểm tra viết tắt tiếng Anh (didn't, don't, it's, you're, that's, he's, wasn't...)
+    has_en_contraction = bool(re.search(r"\b[a-zA-Z]+['’](?:t|s|re|ve|ll|d|m)\b", clean, re.IGNORECASE))
+    en_matched_words = [w for w in words if w in ENGLISH_COMMON_WORDS]
+
+    if has_en_contraction and len(en_matched_words) >= 1:
+        return True
+
+    # Câu có từ 3 từ trở lên và chứa từ 2 từ vựng tiếng Anh thông dụng trở lên
+    if len(words) >= 3 and len(en_matched_words) >= 2:
+        return True
+
+    # Câu ngắn từ 2 từ và tỷ lệ từ tiếng Anh >= 50%
+    if len(words) >= 2 and (len(en_matched_words) / len(words)) >= 0.5:
+        return True
+
+    return False
+
+
 def clean_interleaved_raw_text(text: str) -> str:
     """
-    Loại bỏ tất cả các dòng bắt đầu bằng 'Raw:', 'KR:', 'EN:', 'KOR:', 'ENG:', '[Raw]', '[KR]'...
-    để trích xuất bản dịch Tiếng Việt sạch 100%.
+    Xóa toàn bộ dòng Raw (chỉ nhận diện Tiếng Hàn và Tiếng Anh):
+    - Dòng có tag (Raw:, KR:, EN:...)
+    - Dòng tiếng Hàn (chữ Hangul)
+    - Dòng câu tiếng Anh thuần
+    Giữ lại 100% bản dịch tiếng Việt sạch, các dòng thoại ngắn, tiêu đề và dải phân cách.
     """
     if not text:
         return ""
@@ -650,14 +735,17 @@ def clean_interleaved_raw_text(text: str) -> str:
     clean_lines = []
     for line in lines:
         stripped = line.strip()
-        # Bỏ qua các dòng gắn tag Raw: hoặc KR:, EN:, vv
-        if re.match(r'^(?:\[\s*)?(?:raw|kr|en|kor|eng)\s*(?:\]\s*)?:?', stripped, flags=re.IGNORECASE):
+        if not stripped:
+            clean_lines.append("")
+            continue
+        if is_raw_or_foreign_line(stripped):
             continue
         clean_lines.append(line)
-    
+
     res = "\n".join(clean_lines)
     res = re.sub(r'\n{3,}', '\n\n', res)
     return res.strip()
+
 
 
 def extract_chapter_title_from_text(text: str) -> str:
@@ -2301,33 +2389,39 @@ def render_interleaved_merger_tool():
 
 def render_clean_raw_tool():
     """
-    Giao diện công cụ bóc tách làm sạch văn bản, loại bỏ toàn bộ tag/dòng Raw (Raw:, KR:, EN:, vv)
-    để xuất ra 100% bản dịch tiếng Việt sạch.
+    Giao diện công cụ Xóa Raw: loại bỏ toàn bộ tag/dòng Raw (có tag như Raw:, KR:, EN: hoặc
+    không tag như tiếng Hàn, Anh, Trung, Nhật...) để xuất ra 100% bản dịch tiếng Việt sạch.
     Flow độc lập riêng biệt.
     """
-    st.markdown("#### 🧹 Bóc Tách Bản Dịch Sạch (Loại Bỏ Dòng Raw / Tag)")
-    st.caption("Công cụ chuyên dụng để bóc tách, loại bỏ toàn bộ các dòng `Raw:`, `KR:`, `EN:`, `[Raw]`, `[KR]`... khỏi bản dịch để thu được 100% tiếng Việt thuần sạch.")
+    st.markdown("#### 🧹 Xóa Raw")
+    st.caption("Công cụ thông minh tự động nhận diện ngôn ngữ từng dòng để loại bỏ toàn bộ các dòng Raw (kể cả có tag `Raw:`, `KR:`, `EN:` hoặc **không có tag** của **Tiếng Hàn** và **Tiếng Anh**) để thu được 100% bản dịch tiếng Việt thuần sạch.")
 
-    with st.expander("📖 Hướng Dẫn Thao Tác: Cách Bóc Tách Bản Dịch Sạch", expanded=False):
+    with st.expander("📖 Hướng Dẫn Thao Tác: Cách Dùng Công Cụ Xóa Raw", expanded=False):
         st.markdown("""
-        1. **Dán Văn Bản**: Dán toàn bộ file/văn bản song ngữ còn dính dòng `Raw:`, `KR:`, `EN:` hoặc các tiền tố gốc.
-        2. **Thao Tác Điều Khiển**:
-           - Bấm **`🧹 Bóc Tách Bản Dịch Sạch`** để lọc bỏ toàn bộ các dòng Raw và giữ lại 100% bản dịch tiếng Việt.
+        1. **Dán Văn Bản**: Dán toàn bộ file/văn bản song ngữ xen kẽ (dù có tag `Raw:` hay không có tag đều hoạt động).
+        2. **Tính Năng Nhận Diện Ngôn Ngữ Tự Động (Chỉ Tiếng Hàn & Tiếng Anh)**:
+           - **Có tag**: Tự động lọc sạch các dòng bắt đầu bằng `Raw:`, `KR:`, `EN:`, `[Raw]`, `[KR]`, `[EN]`, `Bản raw:`, v.v.
+           - **Không có tag**:
+             - 🇰🇷 **Tiếng Hàn**: Tự động nhận diện ký tự chữ Hàn (Hangul) để xóa sạch.
+             - 🇬🇧 **Tiếng Anh**: Tự động nhận diện câu tiếng Anh thuần (không dấu tiếng Việt, chứa từ vựng/ngữ pháp tiếng Anh) để xóa sạch.
+           - **Bảo toàn tiếng Việt**: Giữ lại trọn vẹn 100% câu dịch tiếng Việt, lời thoại ngắn, dấu câu, số thứ tự và đường phân cách (`***`, `---`).
+        3. **Thao Tác Điều Khiển**:
+           - Bấm **`🧹 Xóa Raw`** để lọc bỏ toàn bộ các dòng ngoại ngữ/raw.
            - Bấm **`⚡ Đồng Bộ Format`** nếu muốn chuẩn hóa các đoạn cách nhau đúng 1 dòng trống.
            - Bấm **`🗑️ Xóa Trắng`** để làm sạch khung nhập và bắt đầu lại.
-        3. **Tải File**: Bấm nút **`⬇️ Tải bản dịch tiếng Việt sạch`** để tải về file `.txt`.
+        4. **Tải File**: Bấm nút **`⬇️ Tải bản dịch sạch`** để tải về file `.txt`.
         """)
 
     dirty_input = st.text_area(
-        "Dán văn bản cần bóc tách / loại bỏ dòng Raw:",
+        "Dán văn bản cần xóa dòng Raw / ngoại ngữ:",
         height=300,
-        placeholder="Dán nội dung có gắn các tag Raw: / KR: / EN: tại đây...\nVD:\nRaw: 어제 밤에 무슨 일이 있었는지...\nKhông một ai biết chuyện gì đã xảy ra vào đêm qua...\n\nRaw: 그는 조용히 문을 열었다.\nHắn lặng lẽ mở cánh cửa.",
+        placeholder="Dán nội dung có gắn tag Raw: hoặc văn bản xen kẽ không tag tại đây...\nVD (Có tag):\nRaw: 어제 밤에 무슨 일이 있었는지...\nKhông một ai biết chuyện gì đã xảy ra vào đêm qua...\n\nVD (Không tag):\n그는 조용히 문을 열었다.\nHắn lặng lẽ mở cánh cửa.\n\nHe looked around the room.\nHắn đảo mắt nhìn quanh căn phòng.",
         key="dl_standalone_dirty_raw_input"
     )
 
     col_c1, col_c2, col_c3 = st.columns([1.6, 1.6, 1.2])
     with col_c1:
-        btn_do_clean = st.button("🧹 Bóc Tách Bản Dịch Sạch", type="primary", use_container_width=True, key="btn_clean_standalone_do")
+        btn_do_clean = st.button("🧹 Xóa Raw", type="primary", use_container_width=True, key="btn_clean_standalone_do")
     with col_c2:
         btn_clean_sync_fmt = st.button("⚡ Đồng Bộ Format (1 Dòng Trống)", type="secondary", use_container_width=True, key="btn_clean_sync_fmt")
     with col_c3:
@@ -2350,13 +2444,13 @@ def render_clean_raw_tool():
     if btn_do_clean:
         curr_txt = st.session_state.get("dl_standalone_dirty_raw_input", "").strip()
         if not curr_txt:
-            st.warning("⚠️ Vui lòng dán văn bản cần làm sạch vào ô trên.")
+            st.warning("⚠️ Vui lòng dán văn bản cần xóa raw vào ô trên.")
         else:
             cleaned_txt = clean_interleaved_raw_text(curr_txt)
             total_lines = len([l for l in curr_txt.splitlines() if l.strip()])
             clean_paras = split_paragraphs_for_merge(cleaned_txt, mode="line")
             raw_lines_removed = total_lines - len(clean_paras)
-            
+
             st.session_state["dl_standalone_clean_output"] = cleaned_txt
             st.session_state["dl_clean_num_raw_removed"] = max(0, raw_lines_removed)
             st.session_state["dl_clean_num_trans_kept"] = len(clean_paras)
@@ -2373,9 +2467,9 @@ def render_clean_raw_tool():
 
         st.markdown("---")
         c_m1, c_m2, c_m3 = st.columns(3)
-        c_m1.metric("Số dòng Raw đã lọc bỏ", f"{num_removed} dòng")
-        c_m2.metric("Số đoạn Bản Dịch sạch", f"{num_kept} đoạn")
-        c_m3.success("✨ Đã bóc tách 100% Tiếng Việt sạch")
+        c_m1.metric("Số dòng Raw đã xóa", f"{num_removed} dòng")
+        c_m2.metric("Số đoạn Bản Dịch giữ lại", f"{num_kept} đoạn")
+        c_m3.success("✨ Đã xóa Raw - 100% Tiếng Việt sạch")
 
         if detected_clean_name and detected_clean_name != "Ban_dich_sach":
             st.markdown(f"""
@@ -2384,7 +2478,7 @@ def render_clean_raw_tool():
             </div>
             """, unsafe_allow_html=True)
 
-        st.markdown("##### ✅ Kết quả Bản dịch tiếng Việt sạch (100% không còn dòng Raw):")
+        st.markdown("##### ✅ Kết quả Bản dịch tiếng Việt sạch (đã xóa toàn bộ dòng Raw):")
         st.text_area("Bản dịch tiếng Việt sạch:", value=cleaned_result, height=320, key="dl_standalone_clean_output_view", label_visibility="collapsed")
         st.download_button(
             label=f"⬇️ Tải bản dịch tiếng Việt sạch: {clean_title_fn}_clean.txt",
