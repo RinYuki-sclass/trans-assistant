@@ -889,7 +889,7 @@ if is_rin_mode:
         "📋 Reformat Script",
         "🌐 Đăng WordPress",
         "🔀 Ghép Xen Kẽ Song Ngữ",
-        "🧹 Bóc Tách Bản Dịch Sạch",
+        "🧹 Xóa Raw",
         "🦉 Howl Team Tracker"
     ]
     TAB_NAMES_MAP = {
@@ -911,7 +911,7 @@ if is_rin_mode:
         15: "🦉 Howl Team Tracker",
         16: "🔀 Ghép Xen Kẽ Song Ngữ",
         17: "📤 Nộp File Lên Drive",
-        18: "🧹 Bóc Tách Bản Dịch Sạch"
+        18: "🧹 Xóa Raw"
     }
 else:
     MENU_ITEMS = [
@@ -919,14 +919,14 @@ else:
         "⏰ Báo Cáo & Quản Lý Tiến Độ",
         "📤 Nộp File Lên Drive",
         "🔀 Ghép Xen Kẽ Song Ngữ",
-        "🧹 Bóc Tách Bản Dịch Sạch"
+        "🧹 Xóa Raw"
     ]
     TAB_NAMES_MAP = {
         0: "🏠 Hướng Dẫn Howl",
         15: "⏰ Báo Cáo & Quản Lý Tiến Độ",
         16: "🔀 Ghép Xen Kẽ Song Ngữ",
         17: "📤 Nộp File Lên Drive",
-        18: "🧹 Bóc Tách Bản Dịch Sạch"
+        18: "🧹 Xóa Raw"
     }
 
 # Deadline Notification Helper
@@ -7920,7 +7920,7 @@ if tabs.is_active(17):
     with tabs[17]:
         render_drive_uploader_tool()
 
-# =================== TAB 18: BÓC TÁCH BẢN DỊCH SẠCH ===================
+# =================== TAB 18: XÓA RAW ===================
 if tabs.is_active(18):
     with tabs[18]:
         render_clean_raw_tool()
