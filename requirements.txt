@@ -17,4 +17,7 @@ sqlalchemy
 edge-tts
 nest-asyncio
 cloudscraper
+ebooklib
+json-repair
+
 

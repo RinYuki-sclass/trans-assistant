@@ -1,0 +1,71 @@
+{
+  "chapter_summary": "Shen Feizhi settles a dispute with C2, receiving a 'Main Star pass' intended for Gu Suizhou to protect him from the world's rules. Shen Feizhi remains focused on his goal of obtaining medicine for Gu Suizhou's upcoming differentiation period. Back in their room, Gu Suizhou acts clingy and attempts to initiate intimacy, which Shen Feizhi rebuffs. During a dressing change, Shen Feizhi notices a mysterious tattoo on Gu Suizhou's thigh, but chooses not to question him about it, leading to Gu Suizhou feeling insecure about his importance to Shen Feizhi. Later, Shen Feizhi begins discreetly investigating the tattoo by asking Leapton for a recommendation for a tattoo artist.",
+  "new_characters": [
+    {
+      "name": "C2",
+      "gender": "male",
+      "role": "Associate/Entity",
+      "description": "An entity or person with knowledge of the 'world's rules' and the ability to provide items like the Main Star pass. He seems to have a history with Shen Feizhi."
+    },
+    {
+      "name": "Leapton",
+      "gender": "male",
+      "role": "Acquaintance",
+      "description": "An acquaintance of Shen Feizhi who shares meals with him and has connections to tattoo artists."
+    }
+  ],
+  "new_locations": [
+    {
+      "name": "Main Star",
+      "description": "A location or status associated with a 'pass' that grants immunity or special standing regarding the world's rules."
+    }
+  ],
+  "new_terms": [
+    {
+      "original": "Main Star pass",
+      "suggested": "Thẻ thông hành Main Star",
+      "category": "item",
+      "confidence": 0.9
+    },
+    {
+      "original": "differentiation period",
+      "suggested": "thời kỳ phân hóa",
+      "category": "other",
+      "confidence": 1.0
+    },
+    {
+      "original": "world's rules",
+      "suggested": "quy tắc thế giới",
+      "category": "other",
+      "confidence": 0.9
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "that one of yours",
+      "suggested": "người của cậu",
+      "confidence": 0.9,
+      "question": "Does 'that one of yours' refer specifically to Gu Suizhou, or is it a broader term for his 'possession'?",
+      "options": [
+        "Gu Suizhou",
+        "His partner"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_002",
+      "original": "Old Gu",
+      "suggested": "Lão Gu",
+      "confidence": 0.8,
+      "question": "Is 'Old Gu' a reference to Gu Suizhou or a different character (perhaps a relative)?",
+      "options": [
+        "Gu Suizhou",
+        "A different character"
+      ],
+      "category": "name"
+    }
+  ],
+  "chapter_id": "ch_052",
+  "analyzed_at": "2026-09-19T11:31:28.699923+07:00"
+}

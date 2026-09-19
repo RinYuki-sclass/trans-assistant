@@ -1,0 +1,230 @@
+{
+  "chapter_summary": "Shen Feizhi and Gu Suizhou arrive at Shen Feizhi's supposed home, a small, dilapidated attic on Lanxie Road. They are surprised to learn it's rented, not owned, shattering Shen Feizhi's plans. They encounter a noblewoman neighbor who showers Gu Suizhou with gifts and disdain for Shen Feizhi. Gu Suizhou reveals he's seeking refuge from his brother, Lin Sui, and moves in with Shen Feizhi. Shen Feizhi establishes ground rules and takes on a guardian role, while secretly observing Gu Suizhou. Gu Suizhou, in turn, attempts to investigate Shen Feizhi and notices a mysterious mark on his chest. Shen Feizhi deduces Gu Suizhou is faking his Omega status. The next morning, Gu Suizhou leaves for boarding school, and Shen Feizhi begins a difficult job search.",
+  "new_characters": [
+    {
+      "name": "Gu Suizhou",
+      "gender": "Male",
+      "role": "Student, Shen Feizhi's temporary ward",
+      "description": "A younger man, described as 'flawlessly beautiful'. He is seeking refuge from his brother, Lin Sui, and moves in with Shen Feizhi. He is sensitive to pheromones and is faking his secondary gender as an Omega. He is observant and cunning, but also prone to dramatic expressions of frustration."
+    },
+    {
+      "name": "Shen Feizhi",
+      "gender": "Male",
+      "role": "Protagonist, transmigrator",
+      "description": "The protagonist, who has transmigrated into the body of a broke individual. He is perceptive, cautious, and pragmatic, with a dry wit. He takes on a reluctant guardian role for Gu Suizhou and is struggling to find a job due to lack of qualifications. He emits 'bitter coffee pheromones' and is implied to be an Alpha."
+    },
+    {
+      "name": "Noblewoman",
+      "gender": "Female",
+      "role": "Neighbor",
+      "description": "An older woman living across the hall on the floor below. She is fond of Gu Suizhou, showering him with gifts, but holds strong disdain for the original owner of Shen Feizhi's body, viewing him as a freeloader."
+    },
+    {
+      "name": "Lin Sui",
+      "gender": "Male",
+      "role": "Gu Suizhou's older brother",
+      "description": "Gu Suizhou's older brother, who is neglectful and possibly dangerous. Gu Suizhou believes Lin Sui is trying to harm him and doesn't even know Gu Suizhou's real name, calling him 'Lin Zhou'."
+    },
+    {
+      "name": "Gu Suizhou's mother",
+      "gender": "Female",
+      "role": "Deceased parent",
+      "description": "Gu Suizhou's deceased mother, who changed his name before she passed away."
+    },
+    {
+      "name": "Doctor Lin",
+      "gender": "Unknown",
+      "role": "Medical professional",
+      "description": "A doctor whom Gu Suizhou has deceived into believing he is an Omega."
+    },
+    {
+      "name": "Landlord",
+      "gender": "Unknown",
+      "role": "Owner of the attic",
+      "description": "The owner of the attic Shen Feizhi is renting, who is demanding rent payment."
+    }
+  ],
+  "new_locations": [
+    {
+      "name": "Lanxie Road",
+      "description": "A high-value residential area within Blue Star's First District, known for expensive properties like single-story flats, duplexes, or villas. Shen Feizhi's attic is located here."
+    },
+    {
+      "name": "Blue Star's First District",
+      "description": "A wealthy and prestigious district on Blue Star, where land is extremely valuable and property prices are exorbitant. Jobs are scarce for those without qualifications."
+    },
+    {
+      "name": "Fifth District",
+      "description": "Another district on Blue Star, implied to be less affluent than the First District, as its annual living expenses are used as a benchmark for property prices in the First District."
+    },
+    {
+      "name": "Attic (on Lanxie Road)",
+      "description": "Shen Feizhi's current residence, a small, sparsely furnished, 50-square-meter space that he rents. It is described as dilapidated and shabby."
+    },
+    {
+      "name": "School gate",
+      "description": "The entrance to Gu Suizhou's boarding high school, where he will wait for Shen Feizhi on Fridays."
+    }
+  ],
+  "new_organizations_factions": [
+    {
+      "name": "Shen family",
+      "description": "The family of the original owner of Shen Feizhi's body, from whom the original owner received a meager allowance. Implied to be a family of some standing, given the allowance and the original owner's background."
+    }
+  ],
+  "new_skills_techniques_items": [
+    {
+      "original": "gold pendant",
+      "suggested": "mặt dây chuyền vàng",
+      "category": "item",
+      "confidence": 1.0
+    },
+    {
+      "original": "jade ring",
+      "suggested": "nhẫn ngọc",
+      "category": "item",
+      "confidence": 1.0
+    },
+    {
+      "original": "smartphone",
+      "suggested": "điện thoại thông minh",
+      "category": "item",
+      "confidence": 1.0
+    }
+  ],
+  "new_terminology": [
+    {
+      "original": "original owner",
+      "suggested": "chủ nhân cũ",
+      "category": "other",
+      "confidence": 1.0
+    },
+    {
+      "original": "noblewoman",
+      "suggested": "phu nhân quý tộc",
+      "category": "other",
+      "confidence": 0.9
+    },
+    {
+      "original": "landlord",
+      "suggested": "chủ nhà",
+      "category": "other",
+      "confidence": 1.0
+    },
+    {
+      "original": "boarding high school",
+      "suggested": "trường cấp ba nội trú",
+      "category": "location",
+      "confidence": 1.0
+    },
+    {
+      "original": "pheromones",
+      "suggested": "pheromone",
+      "category": "other",
+      "confidence": 1.0
+    },
+    {
+      "original": "bitter coffee pheromones",
+      "suggested": "pheromone cà phê đắng",
+      "category": "other",
+      "confidence": 1.0
+    },
+    {
+      "original": "gland",
+      "suggested": "tuyến thể",
+      "category": "other",
+      "confidence": 1.0
+    },
+    {
+      "original": "presented",
+      "suggested": "phân hóa (giới tính phụ)",
+      "category": "other",
+      "confidence": 0.9
+    },
+    {
+      "original": "naturally sensitive to pheromones",
+      "suggested": "nhạy cảm tự nhiên với pheromone",
+      "category": "other",
+      "confidence": 1.0
+    },
+    {
+      "original": "Alpha",
+      "suggested": "Alpha",
+      "category": "other",
+      "confidence": 1.0
+    },
+    {
+      "original": "Omega",
+      "suggested": "Omega",
+      "category": "other",
+      "confidence": 1.0
+    },
+    {
+      "original": "three ground rules",
+      "suggested": "ba quy tắc cơ bản",
+      "category": "other",
+      "confidence": 1.0
+    },
+    {
+      "original": "karma for the next life",
+      "suggested": "nghiệp báo kiếp sau",
+      "category": "other",
+      "confidence": 1.0
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "Big Sister",
+      "suggested": "Đại Tỷ",
+      "confidence": 90.0,
+      "question": "Gu Suizhou uses 'Big Sister' to flatter the noblewoman. While 'Đại Tỷ' is a direct translation, it can imply a certain level of familiarity and respect, often for someone older but not elderly, or someone with influence. Should this be translated literally as 'Đại Tỷ' to convey the flattery and slight informality, or a more generally respectful term like 'Cô' or 'Bác gái' which are more common for older women, but might lose the nuance of Gu Suizhou's calculated charm?",
+      "options": [
+        "Đại Tỷ",
+        "Cô",
+        "Bác gái"
+      ],
+      "category": "honorific"
+    },
+    {
+      "id": "amb_002",
+      "original": "Earning money with my face",
+      "suggested": "Kiếm tiền bằng nhan sắc",
+      "confidence": 95.0,
+      "question": "This phrase implies using one's good looks to gain financial benefits, often with a slightly negative connotation (like a gigolo or gold-digger, but here it's more about flattery and taking advantage). 'Kiếm tiền bằng nhan sắc' is a direct translation. Should the nuance of 'chī ruǎnfàn' (eating soft rice, a common Chinese idiom for living off a woman's money/looks) be conveyed, or is the direct meaning sufficient?",
+      "options": [
+        "Kiếm tiền bằng nhan sắc",
+        "Ăn bám",
+        "Dùng sắc đẹp để trục lợi"
+      ],
+      "category": "term"
+    },
+    {
+      "id": "amb_003",
+      "original": "future flower of the motherland",
+      "suggested": "Mầm non của đất nước",
+      "confidence": 95.0,
+      "question": "This is a common idiom in Chinese culture (祖国的花朵) for children or youth, implying they are the future. 'Mầm non của đất nước' (seedlings of the nation) is a direct Vietnamese equivalent. Should this be translated literally to maintain the idiomatic expression, or paraphrased to a more general 'thế hệ tương lai của đất nước' (future generation of the nation)?",
+      "options": [
+        "Mầm non của đất nước",
+        "Thế hệ tương lai của đất nước"
+      ],
+      "category": "term"
+    },
+    {
+      "id": "amb_004",
+      "original": "striking mark on the man's chest",
+      "suggested": "Dấu vết nổi bật trên ngực",
+      "confidence": 80.0,
+      "question": "The 'striking mark' on Shen Feizhi's chest is ambiguous. Gu Suizhou's internal thought, 'What a ruthless bastard, getting a tattoo in such a dangerous spot,' suggests he *thinks* it's a tattoo, but it's not explicitly confirmed. It could be a tattoo, a birthmark, or a significant scar. This detail might be important for future plot points.",
+      "options": [
+        "Tattoo",
+        "Birthmark",
+        "Scar"
+      ],
+      "category": "term"
+    }
+  ],
+  "chapter_id": "ch_005",
+  "analyzed_at": "2026-09-19T10:17:29.685169+07:00"
+}

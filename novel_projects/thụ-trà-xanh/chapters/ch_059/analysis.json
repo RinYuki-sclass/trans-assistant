@@ -1,0 +1,47 @@
+{
+  "chapter_summary": "Gu Suizhou and Shen Feizhi leave the hospital and wander through District Seven, where they realize they are being followed. Shen Feizhi reveals he has been orchestrating their movements to draw out potential threats and investigate a specific woman linked to bank surveillance. Gu Suizhou attempts to flirt and play the gentleman to assist the woman with her flat tire, but his lack of experience with manual labor forces Shen Feizhi to step in. The chapter ends with Gu Suizhou admiring Shen Feizhi as he prepares to change the tire.",
+  "new_characters": [
+    {
+      "name": "The woman",
+      "gender": "female",
+      "role": "Target/Person of Interest",
+      "description": "A woman spotted on surveillance at an ATM, currently stranded in District Seven with a flat tire."
+    }
+  ],
+  "new_locations": [
+    {
+      "name": "District Seven",
+      "description": "A dangerous, gritty area described as being 'crawling with mercenaries' and where people are cold and focused on survival."
+    }
+  ],
+  "new_terms": [
+    {
+      "original": "tanghulu",
+      "suggested": "kẹo hồ lô",
+      "category": "item",
+      "confidence": 1.0
+    },
+    {
+      "original": "Blue Star ID cards",
+      "suggested": "Thẻ căn cước Hành tinh Xanh",
+      "category": "other",
+      "confidence": 0.9
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "Brother Shen",
+      "suggested": "Anh Shen",
+      "confidence": 0.9,
+      "question": "Should 'Brother' be translated as a literal familial term or a respectful/intimate honorific?",
+      "options": [
+        "Anh Shen",
+        "Shen ca"
+      ],
+      "category": "honorific"
+    }
+  ],
+  "chapter_id": "ch_059",
+  "analyzed_at": "2026-09-19T11:31:54.569373+07:00"
+}

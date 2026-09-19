@@ -1,0 +1,73 @@
+{
+  "chapter_summary": "Shen Feizhi and Gu Suizhou infiltrate a secret, man-made facility disguised as a cave system. Gu Suizhou, acting shamelessly, forces Shen Feizhi to carry him and later uses a ruse involving feigned heat and pheromones to bypass security guards. They successfully enter an internal office space, where Shen Feizhi struggles to maintain his composure against Gu Suizhou's provocative behavior, eventually threatening him when Gu Suizhou pushes his limits regarding Shen Feizhi's emotional reactions.",
+  "new_characters": [
+    {
+      "name": "Leapton",
+      "gender": "male",
+      "role": "Technician/Hacker",
+      "description": "An ally who provides remote surveillance support, hacking, and technical assistance to Shen Feizhi and Gu Suizhou. Referred to as 'Lai Gou' by Gu Suizhou."
+    }
+  ],
+  "new_locations": [
+    {
+      "name": "Herb Field",
+      "description": "A location associated with the facility; staff from here frequent the cave system."
+    },
+    {
+      "name": "Approaching Science",
+      "description": "A highly secretive program/facility that uses high-tech surveillance and internal office spaces hidden within natural-looking environments."
+    },
+    {
+      "name": "Blue Star First District",
+      "description": "A region mentioned in the context of statistical data regarding Alpha physical qualities."
+    }
+  ],
+  "new_terms": [
+    {
+      "original": "Lai Gou",
+      "suggested": "Lai Gou",
+      "category": "other",
+      "confidence": 0.9
+    },
+    {
+      "original": "isolator",
+      "suggested": "thuốc ức chế",
+      "category": "item",
+      "confidence": 1.0
+    },
+    {
+      "original": "scent glands",
+      "suggested": "tuyến mùi",
+      "category": "other",
+      "confidence": 1.0
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "Lai Gou",
+      "suggested": "Nickname for Leapton",
+      "confidence": 0.9,
+      "question": "Is 'Lai Gou' a derogatory nickname or a term of endearment used by Gu Suizhou for Leapton?",
+      "options": [
+        "Derogatory nickname",
+        "Playful/Endearing nickname"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_002",
+      "original": "Brother Shen",
+      "suggested": "Anh Shen",
+      "confidence": 0.9,
+      "question": "Should 'Brother' be translated as a literal familial term or a respectful/flirtatious honorific?",
+      "options": [
+        "Anh (standard)",
+        "Ca (more intimate/flirtatious)"
+      ],
+      "category": "honorific"
+    }
+  ],
+  "chapter_id": "ch_028",
+  "analyzed_at": "2026-09-19T11:29:50.255951+07:00"
+}

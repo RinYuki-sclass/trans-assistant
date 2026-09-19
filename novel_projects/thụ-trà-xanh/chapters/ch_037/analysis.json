@@ -1,0 +1,86 @@
+{
+  "chapter_summary": "Shen Feizhi navigates his complex relationship with the Shen family, manipulating Elder Master Shen while secretly orchestrating a public scandal regarding the W.N Research Institute. He uses his connection with Lu Qian to prepare for a decisive strike against the Shen family's reputation. Meanwhile, Shen Feizhi attends Gu Suizhou's graduation ceremony, wearing clothes provided by Gu Suizhou, and the two share a moment of intimacy as Gu Suizhou introduces him as his guardian.",
+  "new_characters": [
+    {
+      "name": "Lin Zizhuo",
+      "gender": "male",
+      "role": "Deceased scientist",
+      "description": "A former medical scientist at W.N, deceased, parent of Lin Sui."
+    },
+    {
+      "name": "Gu Lang",
+      "gender": "male",
+      "role": "Deceased scientist",
+      "description": "A former medical scientist at W.N, deceased, parent of Lin Sui."
+    },
+    {
+      "name": "Lu Qian",
+      "gender": "female",
+      "role": "Associate/Conspirator",
+      "description": "An associate of Shen Feizhi who helps him manage the Shen family scandal and is involved in a fake engagement plan."
+    },
+    {
+      "name": "Lu Fan",
+      "gender": "unknown",
+      "role": "Antagonist/Target",
+      "description": "A person involved in suspicious financial transactions with the Shen family and the destruction of a basement."
+    }
+  ],
+  "new_locations": [
+    {
+      "name": "Blue Star",
+      "description": "The primary planet where the characters reside and where the story takes place."
+    },
+    {
+      "name": "Energy Storm Eye",
+      "description": "A location Shen Feizhi intends to visit to resolve his physical decline."
+    },
+    {
+      "name": "First High School",
+      "description": "The location of Gu Suizhou's graduation ceremony."
+    }
+  ],
+  "new_terms": [
+    {
+      "original": "W.N",
+      "suggested": "W.N",
+      "category": "faction",
+      "confidence": 1.0
+    },
+    {
+      "original": "Energy Storm Eye",
+      "suggested": "Mắt Bão Năng Lượng",
+      "category": "location",
+      "confidence": 0.9
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "Uncle",
+      "suggested": "Chú",
+      "confidence": 0.8,
+      "question": "Gu Suizhou calls Shen Feizhi 'Uncle' to the guard. Is this a literal familial term or a social roleplay to establish guardianship?",
+      "options": [
+        "Literal uncle",
+        "Social roleplay for guardianship"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_002",
+      "original": "Scoundrel",
+      "suggested": "Tiểu tử / Tên nhóc",
+      "confidence": 0.9,
+      "question": "The contact name for Gu Suizhou in Shen Feizhi's phone is 'Scoundrel'. Should this be translated as a playful nickname or a literal insult?",
+      "options": [
+        "Tiểu tử",
+        "Tên khốn",
+        "Nhóc con"
+      ],
+      "category": "name"
+    }
+  ],
+  "chapter_id": "ch_037",
+  "analyzed_at": "2026-09-19T11:30:29.208892+07:00"
+}

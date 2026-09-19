@@ -1,0 +1,82 @@
+{
+  "chapter_summary": "Shen Feizhi and Gu Suizhou deal with the aftermath of their intimate encounter. Gu Suizhou, feeling insecure and possessive, handcuffs Shen Feizhi to a nightstand before leaving for work. Shen Feizhi, needing to investigate his and Gu Suizhou's abnormal physical states, manages to bring the nightstand handle with him to meet his associate, C2. They visit a private hospital owned by Professor Ritter to analyze Shen Feizhi's pheromones. Meanwhile, Gu Suizhou grows suspicious of Shen Feizhi's whereabouts after receiving a tip from Ritter, leading to a tense exchange of messages between the two.",
+  "new_characters": [
+    {
+      "name": "C2",
+      "gender": "male",
+      "role": "Associate/Investigator",
+      "description": "An associate of Shen Feizhi who helps him investigate the 'Main Star' and pheromone anomalies. He is currently posing as a department director at a private hospital."
+    },
+    {
+      "name": "Professor Ritter",
+      "gender": "male",
+      "role": "Academic/Hospital Owner",
+      "description": "A professor who knows Shen Feizhi and owns the private hospital where C2 is currently operating. He is acquainted with Gu Suizhou."
+    },
+    {
+      "name": "Lucky Dog",
+      "gender": "unknown",
+      "role": "Pet",
+      "description": "A dog belonging to Gu Suizhou/Shen Feizhi, brought by a caregiver to keep Shen Feizhi company."
+    }
+  ],
+  "new_locations": [
+    {
+      "name": "Private Hospital",
+      "description": "A hospital owned by Professor Ritter's family, where C2 has forged an identity as a department director."
+    },
+    {
+      "name": "W.N",
+      "description": "The company where Gu Suizhou works as a CEO."
+    }
+  ],
+  "new_terms": [
+    {
+      "original": "Main Star",
+      "suggested": "Tinh cầu chính",
+      "category": "other",
+      "confidence": 0.9
+    },
+    {
+      "original": "energy channel",
+      "suggested": "kênh năng lượng",
+      "category": "skill",
+      "confidence": 0.95
+    },
+    {
+      "original": "light computer",
+      "suggested": "máy tính bảng/thiết bị trình chiếu",
+      "category": "item",
+      "confidence": 0.85
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "Scumbag",
+      "suggested": "Tra nam",
+      "confidence": 0.9,
+      "question": "The contact name for Gu Suizhou in Shen Feizhi's phone is 'Scumbag'. Should this be translated literally or kept as a nickname?",
+      "options": [
+        "Tra nam",
+        "Đồ tồi",
+        "Giữ nguyên"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_002",
+      "original": "Little Shen baby",
+      "suggested": "Tiểu Thẩm bảo bối",
+      "confidence": 0.95,
+      "question": "Ritter uses 'Little Shen baby' to address Shen Feizhi. Is this intended to be flirtatious or just a quirky habit of the professor?",
+      "options": [
+        "Giữ nguyên sắc thái cợt nhả",
+        "Dịch trang trọng hơn"
+      ],
+      "category": "honorific"
+    }
+  ],
+  "chapter_id": "ch_054",
+  "analyzed_at": "2026-09-19T11:31:35.592750+07:00"
+}

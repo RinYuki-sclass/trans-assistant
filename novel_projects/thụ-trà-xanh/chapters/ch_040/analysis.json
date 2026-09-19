@@ -1,0 +1,75 @@
+{
+  "chapter_summary": "The chapter reveals the dark history of Lin Sui, who confesses during a public trial that he harbored murderous intent toward his adoptive parents' biological son, Lin Zhou (later known as Gu Suizhou), since childhood. Lin Sui recounts his failed attempts to kill his younger brother, including a near-drowning incident, and his eventual betrayal of his adoptive parents to the Shen family in exchange for the elimination of Lin Zhou. The revelation leaves Gu Suizhou devastated as he realizes his parents' health issues and his own traumatic past were direct consequences of Lin Sui's malice.",
+  "new_characters": [
+    {
+      "name": "Lin Zizhuo",
+      "gender": "male",
+      "role": "Adoptive father",
+      "description": "A researcher and adoptive father to Lin Sui and Gu Suizhou. He was imprisoned by the Shen family."
+    },
+    {
+      "name": "Gu Lang",
+      "gender": "female",
+      "role": "Adoptive mother",
+      "description": "A researcher and adoptive mother to Lin Sui and Gu Suizhou. She suffered health issues after a fall caused by Lin Sui during her pregnancy."
+    },
+    {
+      "name": "Elder Master Shen",
+      "gender": "male",
+      "role": "Antagonist",
+      "description": "The head of the Shen family who coerced Lin Sui into providing research on directional differentiation drugs in exchange for eliminating Lin Zhou."
+    },
+    {
+      "name": "Lu Qian",
+      "gender": "unknown",
+      "role": "Associate",
+      "description": "Present with Shen Feizhi and Gu Suizhou during the broadcast of the trial."
+    }
+  ],
+  "new_locations": [
+    {
+      "name": "W.N press conference",
+      "description": "The venue for the public trial where Lin Sui confesses his crimes."
+    },
+    {
+      "name": "Orphanage",
+      "description": "The place where Lin Zizhuo and Gu Lang originally adopted Lin Sui."
+    }
+  ],
+  "new_terms": [
+    {
+      "original": "W.N",
+      "suggested": "W.N",
+      "category": "item",
+      "confidence": 1.0
+    },
+    {
+      "original": "directional differentiation",
+      "suggested": "phân hóa định hướng",
+      "category": "skill",
+      "confidence": 0.9
+    },
+    {
+      "original": "Top Tier Alpha",
+      "suggested": "Alpha cấp cao",
+      "category": "other",
+      "confidence": 0.9
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "Lin Zhou",
+      "suggested": "Gu Suizhou",
+      "confidence": 0.95,
+      "question": "Is it confirmed that Lin Zhou is the birth name of Gu Suizhou?",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "category": "name"
+    }
+  ],
+  "chapter_id": "ch_040",
+  "analyzed_at": "2026-09-19T11:30:38.259447+07:00"
+}

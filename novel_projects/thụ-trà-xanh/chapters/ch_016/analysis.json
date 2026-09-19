@@ -1,0 +1,88 @@
+{
+  "chapter_summary": "Shen Feizhi and Gu Suizhou attend a graduation banquet for Shen Wei. Shen Feizhi establishes a transactional 'kept pretty boy' dynamic with Gu Suizhou to maintain a cover while investigating Shen Wei's acquisition of shares and potential links to W.N. research. Shen Feizhi tasks Gu Suizhou with acting as a 'shield' against Lu Qian, a character with a glandular disorder seeking pheromone guidance. The chapter highlights the evolving, manipulative, and slightly intimate power dynamic between the two leads.",
+  "new_characters": [
+    {
+      "name": "Shen Wei",
+      "gender": "male",
+      "role": "Protagonist/Target",
+      "description": "The Shen family's only son; the focus of the graduation banquet and the target of Shen Feizhi's investigation regarding share acquisitions."
+    },
+    {
+      "name": "Uncle Liao",
+      "gender": "male",
+      "role": "Butler/Staff",
+      "description": "A butler or long-time staff member of the Shen family who greets guests at the banquet."
+    },
+    {
+      "name": "Old Master Shen",
+      "gender": "male",
+      "role": "Patriarch",
+      "description": "The head of the Shen family, currently overseeing the banquet."
+    },
+    {
+      "name": "Madam Shen",
+      "gender": "female",
+      "role": "Matriarch",
+      "description": "Wife of Old Master Shen, co-host of the banquet."
+    },
+    {
+      "name": "Lu Qian",
+      "gender": "female",
+      "role": "Supporting character",
+      "description": "Shen Wei's childhood sweetheart who suffers from a glandular disorder and requires pheromone guidance from an Alpha."
+    },
+    {
+      "name": "Ritter",
+      "gender": "unknown",
+      "role": "Unknown",
+      "description": "An individual Shen Feizhi is actively avoiding."
+    }
+  ],
+  "new_locations": [
+    {
+      "name": "Shen Wei's graduation banquet",
+      "description": "A high-profile event hosted by the Shen family to introduce Shen Wei to society and consolidate assets."
+    },
+    {
+      "name": "W.N.",
+      "description": "An organization or research facility linked to the past, currently under investigation by Shen Feizhi."
+    }
+  ],
+  "new_terms": [
+    {
+      "original": "Pheromone guidance",
+      "suggested": "Pheromone guidance",
+      "category": "skill",
+      "confidence": 1.0
+    },
+    {
+      "original": "Glandular disorder",
+      "suggested": "Glandular disorder",
+      "category": "other",
+      "confidence": 0.9
+    },
+    {
+      "original": "Guidance Alpha",
+      "suggested": "Guidance Alpha",
+      "category": "other",
+      "confidence": 0.9
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "Brother Shen",
+      "suggested": "Brother Shen",
+      "confidence": 0.8,
+      "question": "Is 'Brother Shen' used as a genuine honorific, a sarcastic jab, or a specific role-play requirement for their 'kept pretty boy' dynamic?",
+      "options": [
+        "Genuine respect",
+        "Sarcastic/Mocking",
+        "Role-play requirement"
+      ],
+      "category": "honorific"
+    }
+  ],
+  "chapter_id": "ch_016",
+  "analyzed_at": "2026-09-19T11:29:01.965595+07:00"
+}

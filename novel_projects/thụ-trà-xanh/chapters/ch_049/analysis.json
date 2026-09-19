@@ -1,0 +1,94 @@
+{
+  "chapter_summary": "Shen Feizhi continues to monitor Gu Suizhou's progress while maintaining a professional distance. Gu Suizhou, meanwhile, is orchestrating a fake romance with 'Number 9' to manipulate Shen Feizhi's attention, though his attempts at 'romance reports' via social media are largely ignored by Shen. Gu Suizhou reveals a manipulative and cold side when dealing with Number 9, using the man's debt to force him into a charade. The chapter ends with Gu Suizhou asking to move into Shen Feizhi's villa, prompting Shen to question his true intentions with his associate, C2.",
+  "new_characters": [
+    {
+      "name": "C2",
+      "gender": "male",
+      "role": "Associate/Friend",
+      "description": "An associate of Shen Feizhi who is aware of the 'Small Worlds' and the 'original plot'. He acts as a sounding board for Shen."
+    },
+    {
+      "name": "Number 9",
+      "gender": "male",
+      "role": "Fake partner",
+      "description": "A young man with significant debt whom Gu Suizhou recruits to play the role of his romantic partner to deceive Shen Feizhi."
+    },
+    {
+      "name": "Lin Zizhuo",
+      "gender": "unknown",
+      "role": "Historical figure",
+      "description": "Mentioned as someone who, along with Gu Lang, burned down the Research Institute."
+    },
+    {
+      "name": "Gu Lang",
+      "gender": "unknown",
+      "role": "Historical figure",
+      "description": "Mentioned as someone who, along with Lin Zizhuo, burned down the Research Institute."
+    }
+  ],
+  "new_locations": [
+    {
+      "name": "Research Institute",
+      "description": "A facility that was burned down years ago by Lin Zizhuo and Gu Lang; it is now developing normally again."
+    },
+    {
+      "name": "Small Worlds",
+      "description": "A term used by C2 to describe different dimensions or realities they travel to."
+    }
+  ],
+  "new_terms": [
+    {
+      "original": "W.N",
+      "suggested": "W.N",
+      "category": "faction",
+      "confidence": 1.0
+    },
+    {
+      "original": "Leapton",
+      "suggested": "Leapton",
+      "category": "other",
+      "confidence": 0.9
+    },
+    {
+      "original": "original plot",
+      "suggested": "cốt truyện gốc",
+      "category": "other",
+      "confidence": 1.0
+    },
+    {
+      "original": "differentiation",
+      "suggested": "phân hóa",
+      "category": "skill",
+      "confidence": 1.0
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "Bastard",
+      "suggested": "Thằng nhóc/Tên khốn",
+      "confidence": 0.8,
+      "question": "How should the contact name 'Bastard' be localized to reflect the dynamic between Gu Suizhou and Shen Feizhi?",
+      "options": [
+        "Thằng nhóc",
+        "Tên khốn",
+        "Tiểu tử"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_002",
+      "original": "Brother Shen",
+      "suggested": "Anh Shen",
+      "confidence": 0.9,
+      "question": "Is 'Brother Shen' intended to be a respectful term or a manipulative one given Gu Suizhou's dual personality?",
+      "options": [
+        "Anh Shen",
+        "Shen ca"
+      ],
+      "category": "honorific"
+    }
+  ],
+  "chapter_id": "ch_049",
+  "analyzed_at": "2026-09-19T11:31:17.086816+07:00"
+}

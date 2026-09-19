@@ -1,0 +1,77 @@
+{
+  "chapter_summary": "Gu Suizhou experiences a milder-than-usual episode of his pheromone-related illness, which he suspects is linked to Shen Feizhi's presence. Xu Zhong, his associate, is relieved but concerned, rushing to procure more medication. Meanwhile, Leapton (Lai Gou) attempts to care for Shen Feizhi with a special meal, which Gu Suizhou ends up eating himself. Gu Suizhou observes the sleeping Shen Feizhi, noting his exceptional control over his pheromones and his high-level combat instincts, leading to a mix of suspicion and intrigue regarding Shen Feizhi's true background.",
+  "new_characters": [
+    {
+      "name": "Xu Zhong",
+      "gender": "male",
+      "role": "Associate/Subordinate",
+      "description": "An older man who acts as a caretaker or assistant to Gu Suizhou, deeply concerned for his health and well-being."
+    },
+    {
+      "name": "Leapton (Lai Gou)",
+      "gender": "male",
+      "role": "Acquaintance/Associate",
+      "description": "A character who seems to be trying to curry favor with Shen Feizhi; Gu Suizhou views him as somewhat foolish and prone to 'shady' behavior."
+    }
+  ],
+  "new_locations": [
+    {
+      "name": "Federation's Tenth Star System",
+      "description": "A location mentioned as the source of illicit, rare injectable drugs for Gu Suizhou's condition."
+    }
+  ],
+  "new_terms": [
+    {
+      "original": "debridement",
+      "suggested": "cắt lọc vết thương",
+      "category": "other",
+      "confidence": 1.0
+    },
+    {
+      "original": "honey trap",
+      "suggested": "bẫy tình",
+      "category": "other",
+      "confidence": 0.9
+    },
+    {
+      "original": "preservation chamber",
+      "suggested": "buồng bảo quản thực phẩm",
+      "category": "item",
+      "confidence": 0.9
+    },
+    {
+      "original": "tsukkomi",
+      "suggested": "tự nhủ/bình luận mỉa mai",
+      "category": "other",
+      "confidence": 0.8
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "Lai Gou",
+      "suggested": "Lai Cẩu",
+      "confidence": 0.8,
+      "question": "Is 'Lai Gou' a nickname for Leapton or a separate character? The text uses them interchangeably in the context of the noodles.",
+      "options": [
+        "Nickname for Leapton",
+        "Separate character"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_002",
+      "original": "Uncle Zhong",
+      "suggested": "Chú Zhong",
+      "confidence": 0.9,
+      "question": "Should 'Uncle' be translated as a literal familial term or a respectful social honorific?",
+      "options": [
+        "Chú",
+        "Bác"
+      ],
+      "category": "honorific"
+    }
+  ],
+  "chapter_id": "ch_021",
+  "analyzed_at": "2026-09-19T11:29:21.155504+07:00"
+}

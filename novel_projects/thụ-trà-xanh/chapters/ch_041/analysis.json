@@ -1,0 +1,95 @@
+{
+  "chapter_summary": "Shen Feizhi is released from the Investigation Bureau after a week, thanks to Gu Suizhou's influence. He visits the Shen family's old mansion to investigate a mysterious basement, discovering a peculiar two-room isolation cell. Meanwhile, Shen Feizhi's health continues to decline due to a mysterious condition linked to his transdimensional origins, causing frequent blackouts and high fevers. While Gu Suizhou is busy managing the fallout of his parents' cases and public affairs, Shen Feizhi breaks into Gu Suizhou's room to use his medication. The chapter concludes with a tense dynamic: Shen Feizhi is increasingly impatient with Gu Suizhou's persistent attempts to socialize, while Gu Suizhou maintains a facade of respectability in public but struggles with his own internal frustrations and secrets regarding his mother's disk.",
+  "new_characters": [
+    {
+      "name": "Lu Fan",
+      "gender": "male",
+      "role": "Confessor/Prisoner",
+      "description": "An individual arrested in connection with the Shen family scandal who confessed to the existence of the private basement prison."
+    },
+    {
+      "name": "Ritter",
+      "gender": "unknown",
+      "role": "Colleague/Researcher",
+      "description": "A researcher working with Shen Feizhi on Energy Field Science; appears to be close to Shen Feizhi and is protective of him."
+    },
+    {
+      "name": "Xu Zhong",
+      "gender": "male",
+      "role": "Subordinate/Assistant",
+      "description": "An associate of Gu Suizhou who assists him with his affairs and questions his continued kindness toward Shen Feizhi."
+    },
+    {
+      "name": "Lin Zizhuo",
+      "gender": "unknown",
+      "role": "Deceased/Parent",
+      "description": "One of Gu Suizhou's parents; their case is being overturned."
+    },
+    {
+      "name": "Gu Lang",
+      "gender": "unknown",
+      "role": "Deceased/Parent",
+      "description": "One of Gu Suizhou's parents; their case is being overturned."
+    }
+  ],
+  "new_locations": [
+    {
+      "name": "Investigation Bureau",
+      "description": "The facility where Shen Feizhi was held for interrogation."
+    },
+    {
+      "name": "Shen family's old mansion",
+      "description": "The site of the investigation, containing a high-tech, labyrinthine basement prison."
+    },
+    {
+      "name": "Main Star",
+      "description": "A location referenced as the potential source of Shen Feizhi's current health crisis."
+    },
+    {
+      "name": "Blue Star",
+      "description": "The current planet where the characters reside, noted for its cold climate in October."
+    }
+  ],
+  "new_terms": [
+    {
+      "original": "Energy Field Science",
+      "suggested": "Khoa học Trường Năng lượng",
+      "category": "skill",
+      "confidence": 0.9
+    },
+    {
+      "original": "Energy Storm Eye",
+      "suggested": "Mắt Bão Năng lượng",
+      "category": "skill",
+      "confidence": 0.85
+    },
+    {
+      "original": "W.N",
+      "suggested": "W.N",
+      "category": "other",
+      "confidence": 0.9
+    },
+    {
+      "original": "suppressants",
+      "suggested": "thuốc ức chế",
+      "category": "item",
+      "confidence": 1.0
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "Brother Shen",
+      "suggested": "Anh Shen",
+      "confidence": 0.9,
+      "question": "Gu Suizhou calls Shen Feizhi 'Brother Shen'. Is this a respectful term or a manipulative/affectionate one given their dynamic?",
+      "options": [
+        "Anh Shen",
+        "Shen ca"
+      ],
+      "category": "honorific"
+    }
+  ],
+  "chapter_id": "ch_041",
+  "analyzed_at": "2026-09-19T11:30:43.041733+07:00"
+}

@@ -1,0 +1,86 @@
+{
+  "chapter_summary": "The timeline shifts to one day prior, revealing Leapton's failed attempt to retrieve orphanage records from the Director, who is revealed to be a traitor working for Professor Ritter. Leapton is poisoned and captured. In the present, Gu Suizhou confronts Ritter at a hotel. Gu Suizhou negotiates a temporary alliance, offering funding and research rights in exchange for his parents' remains, while deceptively claiming he has abandoned Shen Feizhi. It is revealed that Ritter has been manipulating energy channels for fifteen years, and the conflict stems from a deeper conspiracy involving the Energy Storm Eye and the W.N research project.",
+  "new_characters": [
+    {
+      "name": "Leapton",
+      "gender": "male",
+      "role": "Associate/Informant",
+      "description": "An associate of Gu Suizhou and Shen Feizhi who was raised in the same orphanage. He is a tech-savvy individual who attempts to gather intelligence but is poisoned by the Director."
+    },
+    {
+      "name": "The Director",
+      "gender": "male",
+      "role": "Antagonist",
+      "description": "The former director of the orphanage where Gu Suizhou and Leapton grew up. He lives in seclusion on Changyu Snow Mountain and is a subordinate of Professor Ritter."
+    },
+    {
+      "name": "Professor Ritter",
+      "gender": "male",
+      "role": "Primary Antagonist",
+      "description": "A high-ranking researcher/professor associated with the Energy Group. He is obsessed with his research project and seeks to eliminate Shen Feizhi."
+    },
+    {
+      "name": "C2",
+      "gender": "unknown",
+      "role": "Technical Support",
+      "description": "An individual or entity providing technical analysis regarding signal towers and energy channels for Shen Feizhi."
+    }
+  ],
+  "new_locations": [
+    {
+      "name": "Changyu Snow Mountain",
+      "description": "A remote, snowy location where the Director lives in a small villa."
+    },
+    {
+      "name": "First District",
+      "description": "The location of the high-end hotel where Professor Ritter is staying."
+    },
+    {
+      "name": "District Seven",
+      "description": "The location where Ritter's anonymous accounts were tracked."
+    }
+  ],
+  "new_terms": [
+    {
+      "original": "Rapid Data Network",
+      "suggested": "Mạng Dữ liệu Tốc độ cao",
+      "category": "other",
+      "confidence": 0.9
+    },
+    {
+      "original": "W.N",
+      "suggested": "W.N",
+      "category": "other",
+      "confidence": 1.0
+    },
+    {
+      "original": "Energy Storm Eye",
+      "suggested": "Nhãn Bão Năng lượng",
+      "category": "other",
+      "confidence": 0.8
+    },
+    {
+      "original": "Energy Group",
+      "suggested": "Tập đoàn Năng lượng",
+      "category": "faction",
+      "confidence": 0.9
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "Hela",
+      "suggested": "Hela",
+      "confidence": 0.5,
+      "question": "Is 'Hela' a nickname for Gu Suizhou, a third party, or a typo in the source text?",
+      "options": [
+        "Nickname for Gu Suizhou",
+        "A separate character",
+        "Typo"
+      ],
+      "category": "name"
+    }
+  ],
+  "chapter_id": "ch_061",
+  "analyzed_at": "2026-09-19T11:32:03.040681+07:00"
+}

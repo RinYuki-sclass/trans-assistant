@@ -1,0 +1,70 @@
+{
+  "chapter_summary": "Shen Feizhi takes Gu Suizhou to the Underground City to show him his workplace, W.N headquarters, revealing he works there as a cleaning supervisor under the name 'Shen Zhi'. Gu Suizhou, still suspicious, visits his friend Leapton (Guinness Dan Leapton) at an internet cafe to investigate Shen Feizhi. Shen Feizhi arrives, and it is revealed that Leapton is a significant character from the original plot—a future victim of Pheromone Dysregulation Syndrome. Shen Feizhi warns Gu Suizhou against investigating him and reveals his connection to the powerful 'Shen family' before returning to work.",
+  "new_characters": [
+    {
+      "name": "Leapton (Guinness Dan Leapton)",
+      "gender": "male",
+      "role": "Internet cafe owner / Original owner's harem member",
+      "description": "A blonde, flirtatious Omega who is a childhood friend of Gu Suizhou. He is 25 years old and destined to die from Pheromone Dysregulation Syndrome at 27."
+    }
+  ],
+  "new_locations": [
+    {
+      "name": "Underground City",
+      "description": "A location housing the W.N headquarters and an internet cafe."
+    },
+    {
+      "name": "W.N Headquarters",
+      "description": "A high-security facility where Shen Feizhi works as a cleaning supervisor."
+    }
+  ],
+  "new_terms": [
+    {
+      "original": "W.N",
+      "suggested": "W.N",
+      "category": "faction",
+      "confidence": 1.0
+    },
+    {
+      "original": "Pheromone Dysregulation Syndrome",
+      "suggested": "Hội chứng rối loạn pheromone",
+      "category": "other",
+      "confidence": 1.0
+    },
+    {
+      "original": "Shen Zhi",
+      "suggested": "Thẩm Triết",
+      "category": "other",
+      "confidence": 0.9
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "sugar daddy",
+      "suggested": "người bao nuôi",
+      "confidence": 0.9,
+      "question": "Gu Suizhou uses this term to describe Shen Feizhi to Leapton. Should it be translated literally or as a more formal 'người bao nuôi' to reflect the power dynamic?",
+      "options": [
+        "sugar daddy",
+        "người bao nuôi",
+        "kim chủ"
+      ],
+      "category": "term"
+    },
+    {
+      "id": "amb_002",
+      "original": "Lai Gou",
+      "suggested": "Lai Cẩu",
+      "confidence": 0.8,
+      "question": "Is 'Lai Gou' a nickname for Leapton or a derogatory term used by Gu Suizhou?",
+      "options": [
+        "Nickname",
+        "Derogatory term"
+      ],
+      "category": "name"
+    }
+  ],
+  "chapter_id": "ch_010",
+  "analyzed_at": "2026-09-19T11:28:34.770306+07:00"
+}

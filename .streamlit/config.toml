@@ -9,3 +9,4 @@ font = "sans serif"
 headless = true
 maxMessageSize = 500
 maxUploadSize = 500
+enableStaticServing = true

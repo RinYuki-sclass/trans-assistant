@@ -1,0 +1,57 @@
+{
+  "chapter_summary": "Shen Feizhi and his fiancée Lu Qian visit a property on Lanxie Road, located conveniently below his former residence. During the visit, they encounter a noblewoman who recognizes Shen Feizhi and expresses disapproval of Lu Qian, comparing her unfavorably to Gu Suizhou. Shen Feizhi manages to appease the woman with a calculated display of politeness. Later, they meet with Lu Fan, a reclusive and traumatized designer, to discuss renovations. Shen Feizhi uses his connection to the Elder Master Shen to coerce Lu Fan into revealing information about a past trauma involving the Shen family, suggesting a deeper, darker history behind the family's influence.",
+  "new_characters": [
+    {
+      "name": "Lu Fan",
+      "gender": "male",
+      "role": "Designer",
+      "description": "A gaunt, dispirited, and traumatized elderly man who retired from design work due to a past incident involving the Shen family."
+    },
+    {
+      "name": "Elder Master Shen",
+      "gender": "male",
+      "role": "Patriarch/Grandfather",
+      "description": "Shen Feizhi's grandfather, a powerful figure who appears to have a history of intimidating or traumatizing those around him, including Lu Fan."
+    }
+  ],
+  "new_locations": [
+    {
+      "name": "Lanxie Road",
+      "description": "An exclusive, high-end residential area where properties are in high demand among the wealthy elite."
+    },
+    {
+      "name": "Apartment 102, Building 6",
+      "description": "The specific unit Shen Feizhi purchased, located at the intersection of Street 2023 and Lanxie Road."
+    }
+  ],
+  "new_terms": [
+    {
+      "original": "Pheromone Isolation Patch",
+      "suggested": "Miếng dán cách ly pheromone",
+      "category": "item",
+      "confidence": 1.0
+    },
+    {
+      "original": "indwelling needle",
+      "suggested": "kim luồn",
+      "category": "item",
+      "confidence": 0.9
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "Big Sister",
+      "suggested": "Chị",
+      "confidence": 0.9,
+      "question": "Shen Feizhi calls the noblewoman 'Big Sister' to manipulate her. Should this be translated as a literal familial term or a social honorific?",
+      "options": [
+        "Chị (socially polite)",
+        "Bà (formal/distanced)"
+      ],
+      "category": "honorific"
+    }
+  ],
+  "chapter_id": "ch_033",
+  "analyzed_at": "2026-09-19T11:30:12.033156+07:00"
+}

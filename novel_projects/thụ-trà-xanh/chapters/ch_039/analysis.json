@@ -1,0 +1,76 @@
+{
+  "chapter_summary": "Shen Feizhi survives a car crash and tracks Lu Qian to a Black Market Bar, where Lin Sui has taken her. Shen Feizhi infiltrates the club by adopting a new identity ('Shen Zhi'), obtaining a VIP membership, and securing a private room with a 'voyeurism' mode to monitor Lin Sui's activities on the second floor. Meanwhile, Leapton and Xu Zhong provide support from the outside, and it is revealed that Gu Suizhou is currently in the Baicheng District.",
+  "new_characters": [
+    {
+      "name": "Leapton",
+      "gender": "male",
+      "role": "Ally/Informant",
+      "description": "An associate of Shen Feizhi and Gu Suizhou who handles technical support and surveillance."
+    },
+    {
+      "name": "Xu Zhong",
+      "gender": "male",
+      "role": "Subordinate/Bodyguard",
+      "description": "A man who previously worked for Gu Lang; he is currently assisting in the search for Gu Suizhou."
+    },
+    {
+      "name": "Lu Qian",
+      "gender": "female",
+      "role": "Witness",
+      "description": "A key witness being held/transported by Lin Sui; she is currently wrapped in a blanket."
+    }
+  ],
+  "new_locations": [
+    {
+      "name": "Black Market Bar",
+      "description": "An underground club known for chaotic, illicit activities, pheromone-heavy atmosphere, and S/M culture."
+    },
+    {
+      "name": "Baicheng District",
+      "description": "The location where Gu Suizhou is currently located."
+    }
+  ],
+  "new_terms": [
+    {
+      "original": "Shen Zhi",
+      "suggested": "Shen Zhi",
+      "category": "other",
+      "confidence": 1.0
+    },
+    {
+      "original": "Black Market Bar",
+      "suggested": "Quán bar chợ đen",
+      "category": "location",
+      "confidence": 1.0
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "Little lunatic",
+      "suggested": "Thằng nhóc điên rồ",
+      "confidence": 0.9,
+      "question": "Is 'Little lunatic' a term of endearment or genuine insult in this context?",
+      "options": [
+        "Endearment",
+        "Insult",
+        "Neutral observation"
+      ],
+      "category": "term"
+    },
+    {
+      "id": "amb_002",
+      "original": "Brother Zhou",
+      "suggested": "Anh Chu",
+      "confidence": 0.9,
+      "question": "Does 'Brother Zhou' refer to Gu Suizhou or a different character?",
+      "options": [
+        "Gu Suizhou",
+        "A new character"
+      ],
+      "category": "name"
+    }
+  ],
+  "chapter_id": "ch_039",
+  "analyzed_at": "2026-09-19T11:30:35.298599+07:00"
+}

@@ -1,0 +1,75 @@
+{
+  "chapter_summary": "Following the burial of Gu Suizhou's parents, Lin Zizhuo and Gu Lang, Shen Feizhi and Gu Suizhou focus on the release of the medical drug 'W.N.' which mitigates the dangers of secondary gender differentiation. Shen Feizhi successfully coordinates the distribution, leading to a celebratory gala where he is recognized for his contributions. Despite being slightly tipsy, Shen Feizhi maintains his composure while Gu Suizhou continues to pursue him romantically. The chapter concludes with the two preparing for an internal quarterly review meeting, with their relationship becoming more openly acknowledged.",
+  "new_characters": [
+    {
+      "name": "Lin Zizhuo",
+      "gender": "male",
+      "role": "Deceased parent of Gu Suizhou",
+      "description": "A brilliant man of science who taught Shen Feizhi aeronautical knowledge, which eventually allowed Shen to save Gu Suizhou's life."
+    },
+    {
+      "name": "Gu Lang",
+      "gender": "female",
+      "role": "Deceased parent of Gu Suizhou",
+      "description": "Gu Suizhou's mother who cared for Shen Feizhi and encouraged him to live a good life."
+    },
+    {
+      "name": "Federation’s Supreme Executive Officer",
+      "gender": "unknown",
+      "role": "Political leader",
+      "description": "An official who wrote a hymn for the deceased parents, which Gu Suizhou found perfunctory."
+    },
+    {
+      "name": "Director",
+      "gender": "unknown",
+      "role": "Superior/Administrator",
+      "description": "An administrator at the research institute who oversees Shen Feizhi's work and is often the target of Shen's annoyance."
+    }
+  ],
+  "new_locations": [
+    {
+      "name": "Gu family garden",
+      "description": "A complex, labyrinthine garden containing the burial site of Lin Zizhuo and Gu Lang, protected by architectural mechanisms."
+    },
+    {
+      "name": "Research Institute",
+      "description": "The facility where Shen Feizhi and the Biotech Team conduct their research and hold meetings."
+    }
+  ],
+  "new_terms": [
+    {
+      "original": "W.N.",
+      "suggested": "W.N.",
+      "category": "item",
+      "confidence": 1.0
+    },
+    {
+      "original": "secondary gender differentiation",
+      "suggested": "phân hóa giới tính thứ hai",
+      "category": "other",
+      "confidence": 1.0
+    },
+    {
+      "original": "faineant",
+      "suggested": "lười biếng/vô dụng",
+      "category": "other",
+      "confidence": 0.9
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "faineant emperor",
+      "suggested": "ông vua bù nhìn/ông vua lười biếng",
+      "confidence": 0.8,
+      "question": "Should the translation emphasize the 'lazy' aspect or the 'powerless/puppet' aspect of the historical term?",
+      "options": [
+        "Vua bù nhìn",
+        "Vua lười biếng"
+      ],
+      "category": "term"
+    }
+  ],
+  "chapter_id": "ch_069",
+  "analyzed_at": "2026-09-19T11:32:27.067369+07:00"
+}

@@ -1,0 +1,66 @@
+{
+  "chapter_summary": "Shen Feizhi and Gu Suizhou infiltrate the Shen family dormitory to manipulate Shen Wei. Shen Feizhi aims to secure a research and development permit for his project (W.N.) by leveraging Shen Wei's insecurity regarding his position in the family and his rivalry with his cousin, Shen Jiang. Shen Feizhi successfully coerces Shen Wei into signing a contract by offering a 2% stake in the company and using high-pressure tactics. Gu Suizhou remains hidden under the bed, providing technical support and engaging in playful, clandestine physical contact with Shen Feizhi.",
+  "new_characters": [
+    {
+      "name": "Shen Wei",
+      "gender": "male",
+      "role": "Shen family heir/rival",
+      "description": "A member of the Shen family who is described as dense and easily manipulated. He is currently competing for influence within the family against his cousin, Shen Jiang, and is being pressured by Elder Master Shen."
+    },
+    {
+      "name": "Shen Jiang",
+      "gender": "male",
+      "role": "Shen family member",
+      "description": "A cousin of Shen Wei and a potential rival for the Shen family inheritance, used by Shen Feizhi as a bargaining chip."
+    },
+    {
+      "name": "Gu Lang",
+      "gender": "unknown",
+      "role": "Researcher/Predecessor",
+      "description": "Mentioned as the source of a formula used in W.N.'s research; associated with a decade-old scandal."
+    },
+    {
+      "name": "Lin Zizhuo",
+      "gender": "unknown",
+      "role": "Historical figure",
+      "description": "Mentioned in connection to a decade-old scandal involving Gu Lang."
+    }
+  ],
+  "new_locations": [
+    {
+      "name": "Shen family dormitory area",
+      "description": "A courtyard at the westernmost edge of the cemetery where the Shen family resides during ancestral rites."
+    }
+  ],
+  "new_terms": [
+    {
+      "original": "Mechanical Bird",
+      "suggested": "Chim cơ khí",
+      "category": "item",
+      "confidence": 0.95
+    },
+    {
+      "original": "W.N.",
+      "suggested": "W.N.",
+      "category": "other",
+      "confidence": 1.0
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "Bro",
+      "suggested": "Anh/Cậu",
+      "confidence": 0.7,
+      "question": "Gu Suizhou calls Shen Feizhi 'Bro' in a casual/teasing manner. Should this be translated as a friendly term or a mocking one?",
+      "options": [
+        "Anh (respectful/close)",
+        "Cậu (neutral/peer)",
+        "Ông anh (teasing)"
+      ],
+      "category": "pronoun"
+    }
+  ],
+  "chapter_id": "ch_036",
+  "analyzed_at": "2026-09-19T11:30:25.153624+07:00"
+}

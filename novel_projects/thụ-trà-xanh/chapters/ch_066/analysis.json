@@ -1,0 +1,70 @@
+{
+  "chapter_summary": "Shen Feizhi attends a dinner with Lan Luozhi, a 100% pheromone-matched Omega, arranged by their families. Throughout the meal, Gu Suizhou bombards Shen with jealous text messages. After the meal, Shen declines to exchange contact info with Lan, citing his partner's jealousy. Gu Suizhou arrives at the scene, visibly agitated and acting possessive. Shen dismisses his friend Leapton and leaves with Gu Suizhou in his sports car.",
+  "new_characters": [
+    {
+      "name": "Lan Luozhi",
+      "gender": "female",
+      "role": "Blind date / 100% pheromone match",
+      "description": "An Omega who is a 100% pheromone match for Shen Feizhi. She is independent, dislikes the Federation's forced matching system, and prefers 'obedient little puppies' as partners."
+    }
+  ],
+  "new_locations": [
+    {
+      "name": "Blue Star",
+      "description": "The planet where the story takes place, home to the Federation."
+    },
+    {
+      "name": "Administrative District",
+      "description": "The area where Gu Suizhou works, located 30 minutes away from the restaurant."
+    }
+  ],
+  "new_terms": [
+    {
+      "original": "Population Bureau",
+      "suggested": "Cục Dân số",
+      "category": "faction",
+      "confidence": 1.0
+    },
+    {
+      "original": "100% perfect match",
+      "suggested": "Độ tương thích 100%",
+      "category": "other",
+      "confidence": 1.0
+    },
+    {
+      "original": "W.N.",
+      "suggested": "W.N.",
+      "category": "faction",
+      "confidence": 0.9
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "Big Baby",
+      "suggested": "Bé cưng / Cục cưng",
+      "confidence": 0.9,
+      "question": "The contact name Shen Feizhi sees for Gu Suizhou. Needs a consistent translation that reflects the 'thụ trà xanh' (green tea bottom) dynamic.",
+      "options": [
+        "Bé cưng",
+        "Cục cưng",
+        "Bảo bối"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_002",
+      "original": "Brother Shen",
+      "suggested": "Anh Thẩm",
+      "confidence": 0.9,
+      "question": "Leapton refers to Shen Feizhi as 'Brother Shen'. Need to ensure this honorific remains consistent with the established relationship dynamic.",
+      "options": [
+        "Anh Thẩm",
+        "Thẩm ca"
+      ],
+      "category": "honorific"
+    }
+  ],
+  "chapter_id": "ch_066",
+  "analyzed_at": "2026-09-19T11:32:17.339662+07:00"
+}

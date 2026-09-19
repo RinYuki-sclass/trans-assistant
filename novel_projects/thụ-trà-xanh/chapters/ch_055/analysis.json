@@ -1,0 +1,66 @@
+{
+  "chapter_summary": "Shen Feizhi deals with the aftermath of his intimate encounter with Gu Suizhou, who continues to exhibit possessive and clingy behavior, including shackling Shen Feizhi at night. Gu Suizhou reveals he has discovered their pheromone compatibility is 100%, which causes him internal turmoil as he feels Shen Feizhi does not reciprocate his feelings. Gu Suizhou seeks advice from his friend Leapton on how to be more direct. Shen Feizhi prepares to visit the Prosecutor's Office to claim his inheritance, specifically looking for scientific equipment for Gu Suizhou's company, while struggling with the increasingly blurred boundaries of their relationship.",
+  "new_characters": [
+    {
+      "name": "Leapton",
+      "gender": "male",
+      "role": "Friend/Confidant",
+      "description": "A close friend of Gu Suizhou who is aware of Gu's feelings for Shen Feizhi and provides advice on their relationship."
+    }
+  ],
+  "new_locations": [
+    {
+      "name": "Federation Prosecutor's Office",
+      "description": "The government institution where Shen Feizhi's inherited assets and documents are currently being held."
+    }
+  ],
+  "new_terms": [
+    {
+      "original": "Leapton",
+      "suggested": "Leapton",
+      "category": "other",
+      "confidence": 1.0
+    },
+    {
+      "original": "Dog-Leap",
+      "suggested": "Dog-Leap",
+      "category": "other",
+      "confidence": 0.9
+    },
+    {
+      "original": "100% pheromone compatibility",
+      "suggested": "độ tương thích pheromone 100%",
+      "category": "other",
+      "confidence": 1.0
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "Bro",
+      "suggested": "Anh",
+      "confidence": 0.9,
+      "question": "Gu Suizhou frequently calls Shen Feizhi 'Bro'. Given their complex, non-familial romantic dynamic, should this be translated as a respectful 'Anh' or a more intimate term?",
+      "options": [
+        "Anh",
+        "Anh trai",
+        "Cưng (too informal)"
+      ],
+      "category": "honorific"
+    },
+    {
+      "id": "amb_002",
+      "original": "Brother Shen",
+      "suggested": "Anh Shen",
+      "confidence": 0.9,
+      "question": "Gu Suizhou uses 'Brother Shen' to address him. Should this remain 'Anh Shen' to maintain the distance/respect dynamic?",
+      "options": [
+        "Anh Shen",
+        "Shen ca"
+      ],
+      "category": "honorific"
+    }
+  ],
+  "chapter_id": "ch_055",
+  "analyzed_at": "2026-09-19T11:31:38.918572+07:00"
+}

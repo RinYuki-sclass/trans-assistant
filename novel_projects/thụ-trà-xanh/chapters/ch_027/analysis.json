@@ -1,0 +1,73 @@
+{
+  "chapter_summary": "Shen Feizhi and Gu Suizhou, accompanied by their tech support Leapton, arrive at the Herb Garden to scout for a data theft mission. They encounter unexpected complications when a film crew for the show 'Approaching Science' occupies the main entrance. To avoid being caught on camera, Gu Suizhou drags Shen Feizhi off a cliff, aiming for a cave twenty meters below. Shen Feizhi, displaying superior physical control, maneuvers them to land safely in the cave, despite Gu Suizhou's constant flirtatious behavior and attempts to act as a 'meat cushion'.",
+  "new_characters": [
+    {
+      "name": "Leapton",
+      "gender": "male",
+      "role": "Tech support / Hacker",
+      "description": "A young man who provides surveillance and technical support for Shen Feizhi and Gu Suizhou. He is often the target of Gu Suizhou's jealousy and is referred to as 'Lai Gou' by Gu Suizhou."
+    }
+  ],
+  "new_locations": [
+    {
+      "name": "Herb Garden",
+      "description": "A massive, rustic farmland facility that is actually a high-security area containing an experimental zone."
+    },
+    {
+      "name": "Blue Star First District People's Hospital",
+      "description": "A medical facility mentioned by the tour guide."
+    },
+    {
+      "name": "Pashimi",
+      "description": "A planet characterized by extreme temperature swings between day and night."
+    }
+  ],
+  "new_terms": [
+    {
+      "original": "Pheromone Storage Sphere",
+      "suggested": "Cầu Lưu Trữ Pheromone",
+      "category": "item",
+      "confidence": 1.0
+    },
+    {
+      "original": "Approaching Science",
+      "suggested": "Tiệm Cận Khoa Học",
+      "category": "other",
+      "confidence": 0.9
+    },
+    {
+      "original": "Lai Gou",
+      "suggested": "Lai Cẩu",
+      "category": "other",
+      "confidence": 0.8
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "Brother Shen",
+      "suggested": "Anh Shen",
+      "confidence": 0.9,
+      "question": "Is 'Brother Shen' a literal familial term or an honorific used by Gu Suizhou to flirt/mock Shen Feizhi?",
+      "options": [
+        "Anh Shen",
+        "Shen ca"
+      ],
+      "category": "honorific"
+    },
+    {
+      "id": "amb_002",
+      "original": "Lai Gou",
+      "suggested": "Lai Cẩu",
+      "confidence": 0.7,
+      "question": "Is 'Lai Gou' a nickname for Leapton or a specific term for a type of device/AI?",
+      "options": [
+        "Nickname",
+        "Device name"
+      ],
+      "category": "name"
+    }
+  ],
+  "chapter_id": "ch_027",
+  "analyzed_at": "2026-09-19T11:29:47.394184+07:00"
+}

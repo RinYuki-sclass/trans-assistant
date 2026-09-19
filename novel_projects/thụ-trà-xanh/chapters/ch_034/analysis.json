@@ -1,0 +1,91 @@
+{
+  "chapter_summary": "Gu Suizhou returns home early from school to find Shen Feizhi recovering from a particularly brutal and prolonged estrus period. Shen Feizhi reveals he has been using his isolation time to study blueprints of a secret underground chamber belonging to the Shen family, which he believes holds the key to clearing Gu Suizhou's parents' names. The chapter highlights the growing bond between them, Shen Feizhi's self-sacrificial nature, and the mystery surrounding the Shen family's past.",
+  "new_characters": [
+    {
+      "name": "Old Man Shen",
+      "gender": "male",
+      "role": "Antagonist",
+      "description": "Likely the head of the Shen family; he has men tailing Shen Feizhi."
+    },
+    {
+      "name": "Lu Qian",
+      "gender": "unknown",
+      "role": "Acquaintance",
+      "description": "Someone Gu Suizhou added as a friend, causing Shen Feizhi to react with extreme jealousy."
+    },
+    {
+      "name": "Ritter",
+      "gender": "unknown",
+      "role": "Acquaintance",
+      "description": "Sent a pheromone isolation device to Shen Feizhi."
+    },
+    {
+      "name": "Professor Lin",
+      "gender": "unknown",
+      "role": "Historical figure",
+      "description": "Associated with Gu Lang; their interactions are suspected to be linked to the Shen family's underground chamber."
+    },
+    {
+      "name": "Professor Gu",
+      "gender": "unknown",
+      "role": "Historical figure",
+      "description": "Likely related to Gu Suizhou; suspected to have been imprisoned in the Shen family's underground chamber."
+    }
+  ],
+  "new_locations": [
+    {
+      "name": "Shen family's underground chamber",
+      "description": "A secret facility built by the Shen family for 'unsavory schemes', now a target for investigation."
+    }
+  ],
+  "new_terms": [
+    {
+      "original": "estrus period",
+      "suggested": "kỳ phát tình",
+      "category": "other",
+      "confidence": 1.0
+    },
+    {
+      "original": "pheromone isolation device",
+      "suggested": "thiết bị cách ly pheromone",
+      "category": "item",
+      "confidence": 0.95
+    },
+    {
+      "original": "W.N",
+      "suggested": "W.N",
+      "category": "faction",
+      "confidence": 1.0
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "Brother Shen",
+      "suggested": "Anh Shen",
+      "confidence": 0.9,
+      "question": "Should the translation maintain the 'Brother' honorific as a sign of intimacy/respect, or use a more standard Vietnamese pronoun?",
+      "options": [
+        "Anh Shen",
+        "Shen ca",
+        "Anh"
+      ],
+      "category": "honorific"
+    },
+    {
+      "id": "amb_002",
+      "original": "Little Brat",
+      "suggested": "Nhóc con",
+      "confidence": 0.85,
+      "question": "Shen Feizhi uses this term for Gu Suizhou. Is it meant to be affectionate or derogatory in this context?",
+      "options": [
+        "Nhóc con",
+        "Thằng nhóc",
+        "Tiểu tử"
+      ],
+      "category": "pronoun"
+    }
+  ],
+  "chapter_id": "ch_034",
+  "analyzed_at": "2026-09-19T11:30:16.013426+07:00"
+}

@@ -1,0 +1,77 @@
+{
+  "chapter_summary": "Gu Suizhou is taken into custody by the Administration Department for investigation regarding the W.N drug and alleged illegal human experiments. Despite his calm demeanor and insistence that he is innocent of the charges, Shen Feizhi later discovers from his associate C2 that Gu Suizhou's high pheromone compatibility with him was artificially engineered by Gu himself. The chapter reveals through a flashback that Gu Suizhou suffered severe health complications and 'pseudo-heat' after Shen Feizhi left five years ago, forcing him to take extreme measures to survive and continue his plans.",
+  "new_characters": [
+    {
+      "name": "C2",
+      "gender": "male",
+      "role": "Associate/Colleague of Shen Feizhi",
+      "description": "A talkative individual who works in the same field as Shen Feizhi and possesses insider knowledge about Gu Suizhou's past and the 'World's Will'."
+    },
+    {
+      "name": "Xu Zhong",
+      "gender": "male",
+      "role": "Subordinate/Associate of Gu Suizhou",
+      "description": "Appears in a flashback; he is deeply concerned about Gu Suizhou's health and his transition into an Omega-like state."
+    },
+    {
+      "name": "Lin Zizhuo",
+      "gender": "unknown",
+      "role": "Antagonist/Debtor",
+      "description": "Mentioned as someone Gu Suizhou has a debt to settle with."
+    },
+    {
+      "name": "Gu Lang",
+      "gender": "unknown",
+      "role": "Antagonist/Debtor",
+      "description": "Mentioned as someone Gu Suizhou has a debt to settle with."
+    },
+    {
+      "name": "A11",
+      "gender": "unknown",
+      "role": "Colleague/Associate",
+      "description": "Mentioned by C2 as a high-level professional who rarely uses 'fragrant language' (swears)."
+    }
+  ],
+  "new_locations": [
+    {
+      "name": "Administrative Office",
+      "description": "The government or regulatory body responsible for investigating the W.N drug and Gu Suizhou."
+    }
+  ],
+  "new_terms": [
+    {
+      "original": "W.N drug",
+      "suggested": "Thuốc W.N",
+      "category": "item",
+      "confidence": 1.0
+    },
+    {
+      "original": "pseudo-heat",
+      "suggested": "kỳ phát tình giả",
+      "category": "other",
+      "confidence": 0.95
+    },
+    {
+      "original": "Administration Department",
+      "suggested": "Cục Hành chính",
+      "category": "faction",
+      "confidence": 0.9
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "husband",
+      "suggested": "chồng",
+      "confidence": 0.9,
+      "question": "Gu Suizhou calls Shen Feizhi 'husband' in front of others. Is this a formal title in their relationship or a playful/teasing term?",
+      "options": [
+        "Formal",
+        "Playful/Teasing"
+      ],
+      "category": "honorific"
+    }
+  ],
+  "chapter_id": "ch_070",
+  "analyzed_at": "2026-09-19T11:32:30.733147+07:00"
+}

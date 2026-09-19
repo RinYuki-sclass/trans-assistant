@@ -1,0 +1,58 @@
+{
+  "chapter_summary": "Following their marriage registration, Gu Suizhou and Shen Feizhi navigate their professional lives while planning a trip. Shen Feizhi experiences uncharacteristic emotional volatility and possessiveness, which he identifies as the onset of his Alpha estrus period. Gu Suizhou is secretly managing a project involving 'samples' that he is desperate to hide from Shen Feizhi, leading to a tense misunderstanding when Shen Feizhi leaves abruptly after a cold interaction with Gu's assistant. The chapter ends with Shen Feizhi demanding Gu Suizhou return home within half an hour, leaving Gu in a state of panic.",
+  "new_characters": [
+    {
+      "name": "Mr. Zhang",
+      "gender": "male",
+      "role": "Business Partner",
+      "description": "A client who is partnering with Gu Suizhou's company (W.N.) and is eager to provide samples of his company's products."
+    }
+  ],
+  "new_locations": [
+    {
+      "name": "Main Star",
+      "description": "The central planet or hub of the Federation from which rare raw stones were sourced."
+    },
+    {
+      "name": "W.N.",
+      "description": "The company or organization owned/managed by Gu Suizhou."
+    }
+  ],
+  "new_terms": [
+    {
+      "original": "Same-Sex Marriage Law",
+      "suggested": "Luật Hôn nhân Đồng giới",
+      "category": "other",
+      "confidence": 1.0
+    },
+    {
+      "original": "estrus period",
+      "suggested": "kỳ phát tình",
+      "category": "other",
+      "confidence": 1.0
+    },
+    {
+      "original": "Alpha pheromone fluctuation",
+      "suggested": "biến động pheromone Alpha",
+      "category": "other",
+      "confidence": 1.0
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "Bro",
+      "suggested": "Anh",
+      "confidence": 0.9,
+      "question": "Gu Suizhou calls Shen Feizhi 'Bro'. In a romantic/marriage context, should this be translated as a literal 'anh' (standard for partners) or a more playful/specific term to reflect the 'Brother Shen' dynamic?",
+      "options": [
+        "Anh",
+        "Anh yêu",
+        "Anh Shen"
+      ],
+      "category": "honorific"
+    }
+  ],
+  "chapter_id": "ch_072",
+  "analyzed_at": "2026-09-19T11:32:36.448663+07:00"
+}

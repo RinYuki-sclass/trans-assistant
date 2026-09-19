@@ -1,0 +1,85 @@
+{
+  "chapter_summary": "Shen Feizhi and Gu Suizhou execute a plan to sabotage Ritter's shuttle flight. While Ritter, a conceited scientist, prepares to launch his shuttle to reach a 'high-dimensional world,' Gu Suizhou and Shen Feizhi watch from a shielded observation deck. Gu Suizhou uses an ion launcher to destroy the shuttle's control panel at the moment of ignition. Simultaneously, Gu Suizhou orchestrates a media strike, having the Central News Channel broadcast Ritter's crimes live, effectively stripping him of his status and legal protection before he can escape. The chapter ends with Ritter in shock, realizing his plans are unraveling.",
+  "new_characters": [
+    {
+      "name": "C2",
+      "gender": "male",
+      "role": "Agent/Subordinate",
+      "description": "A member of the group working with Shen Feizhi and Gu Suizhou; seems to be an operative who reports to a 'big boss' on the Main Star."
+    },
+    {
+      "name": "A11",
+      "gender": "male",
+      "role": "Agent/Subordinate",
+      "description": "A stoic, reliable operative who takes the fall for the group's unauthorized actions; described as a 'model employee'."
+    },
+    {
+      "name": "Ritter Naons",
+      "gender": "male",
+      "role": "Antagonist/Scientist",
+      "description": "A brilliant but arrogant scientist obsessed with reaching a 'high-dimensional world.' He views others as inferior and has been planning his departure for 15 years."
+    },
+    {
+      "name": "Lin Zizhuo",
+      "gender": "unknown",
+      "role": "Historical figure/Elite",
+      "description": "Mentioned by Ritter as part of the elite circle he surrounds himself with."
+    },
+    {
+      "name": "Gu Lang",
+      "gender": "unknown",
+      "role": "Historical figure/Elite",
+      "description": "Mentioned by Ritter as part of the elite circle he surrounds himself with."
+    }
+  ],
+  "new_locations": [
+    {
+      "name": "Main Star",
+      "description": "The central hub of authority where the 'big boss' resides."
+    },
+    {
+      "name": "Underground City",
+      "description": "The location of Ritter’s test site."
+    },
+    {
+      "name": "Energy Storm Eye",
+      "description": "The destination Ritter is attempting to reach with his shuttle."
+    }
+  ],
+  "new_terms": [
+    {
+      "original": "ion launcher",
+      "suggested": "súng phóng ion",
+      "category": "item",
+      "confidence": 0.9
+    },
+    {
+      "original": "Energy Orb",
+      "suggested": "Quả cầu năng lượng",
+      "category": "item",
+      "confidence": 0.8
+    },
+    {
+      "original": "citizen rights actions",
+      "suggested": "hành động tước quyền công dân",
+      "category": "other",
+      "confidence": 0.7
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "Big Brother",
+      "suggested": "Anh",
+      "confidence": 0.9,
+      "question": "Shen Feizhi is addressed as 'Big Brother' by Gu Suizhou. Is this a literal familial term or a term of endearment/respect between partners?",
+      "options": [
+        "Anh (affectionate/respectful)",
+        "Đại ca (gang-related/subordinate)"
+      ],
+      "category": "honorific"
+    }
+  ],
+  "chapter_id": "ch_063",
+  "analyzed_at": "2026-09-19T11:32:10.168303+07:00"
+}

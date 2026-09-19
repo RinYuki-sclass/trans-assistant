@@ -1,5 +1,7 @@
 """Novel chapter crawler for supported WordPress and Next.js sites."""
 
+import os
+import hashlib
 import base64
 import codecs
 import json
@@ -326,6 +328,55 @@ def _fetch_cherrymist_series_chapters(url: str) -> dict:
         "series_id": url,
         "chapters": chapters,
     }
+
+
+def _fetch_novelib_series_chapters(url: str) -> dict:
+    """Fetch story series metadata and complete chapter list from Novelib (Fictioneer theme)."""
+    html = _fetch_html(url, timeout=25)
+    soup = BeautifulSoup(html, "html.parser")
+
+    h1 = soup.select_one("h1.story__title") or soup.select_one("h1.entry-title") or soup.find("h1")
+    series_title = (h1.get_text(strip=True) if h1 else "Novelib Story").strip()
+
+    chapters = []
+    seen_urls = set()
+    clean_series_url = url.rstrip("/")
+
+    groups = soup.select(".chapter-group, .story-chapters, .chapter-list, .story-chapter-list, .fictioneer-chapter-list")
+    if not groups:
+        groups = [soup]
+
+    for group in groups:
+        for a in group.find_all("a", href=True):
+            ch_url = urljoin(url, a["href"])
+            if ch_url in seen_urls:
+                continue
+
+            clean_ch_url = ch_url.rstrip("/")
+            if clean_ch_url.startswith(clean_series_url) and clean_ch_url != clean_series_url:
+                seen_urls.add(ch_url)
+                ch_title = a.get_text(strip=True)
+                if not ch_title:
+                    continue
+
+                num_match = re.search(r"\d+", ch_title)
+                ch_num = int(num_match.group()) if num_match else len(chapters) + 1
+
+                chapters.append({
+                    "id": ch_url,
+                    "chapter_number": ch_num,
+                    "title": ch_title,
+                    "slug": clean_ch_url.split("/")[-1],
+                    "price": 0,
+                    "url": ch_url,
+                })
+
+    return {
+        "series_title": series_title,
+        "series_id": url,
+        "chapters": chapters,
+    }
+
 
 
 _HYACINTH_CHAPTER_TITLE = re.compile(
@@ -751,7 +802,50 @@ def _fetch_mistmint_series_chapters(url: str) -> dict:
     }
 
 
-def fetch_series_chapters(url_or_identifier: str) -> dict:
+SERIES_CACHE_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), "data", "cache_series")
+
+def _get_series_cache(url_clean: str) -> dict:
+    try:
+        os.makedirs(SERIES_CACHE_DIR, exist_ok=True)
+        url_hash = hashlib.md5(url_clean.encode('utf-8')).hexdigest()
+        cache_path = os.path.join(SERIES_CACHE_DIR, f"{url_hash}.json")
+        if os.path.exists(cache_path):
+            with open(cache_path, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+                if data and isinstance(data, dict) and data.get('chapters'):
+                    return data
+    except Exception as e:
+        print(f"[crawler] Read series cache error: {e}")
+    return None
+
+def _save_series_cache(url_clean: str, data: dict):
+    if not data or not isinstance(data, dict) or not data.get('chapters'):
+        return
+    try:
+        os.makedirs(SERIES_CACHE_DIR, exist_ok=True)
+        url_hash = hashlib.md5(url_clean.encode('utf-8')).hexdigest()
+        cache_path = os.path.join(SERIES_CACHE_DIR, f"{url_hash}.json")
+        with open(cache_path, 'w', encoding='utf-8') as f:
+            json.dump(data, f, ensure_ascii=False, indent=2)
+    except Exception as e:
+        print(f"[crawler] Write series cache error: {e}")
+
+def fetch_series_chapters(url_or_identifier: str, force_refresh: bool = False) -> dict:
+    url_clean = (url_or_identifier or "").strip()
+    if not url_clean:
+        return {"series_title": "", "series_id": "", "chapters": []}
+
+    if not force_refresh:
+        cached = _get_series_cache(url_clean)
+        if cached:
+            return cached
+
+    res = _fetch_series_chapters_impl(url_clean)
+    if res and isinstance(res, dict) and res.get('chapters'):
+        _save_series_cache(url_clean, res)
+    return res
+
+def _fetch_series_chapters_impl(url_or_identifier: str) -> dict:
     """
     Fetch series metadata and complete chapter list from ZenithTL, Cherry Mist, or supported sites.
 
@@ -780,6 +874,8 @@ def fetch_series_chapters(url_or_identifier: str) -> dict:
         return _fetch_mistmint_series_chapters(url_or_identifier)
     if hostname == "pienovels.com" or hostname.endswith(".pienovels.com"):
         return _fetch_pienovels_series_chapters(url_or_identifier)
+    if hostname == "novelib.com" or hostname.endswith(".novelib.com"):
+        return _fetch_novelib_series_chapters(url_or_identifier)
 
     parsed = urlparse(url_or_identifier)
     path_parts = [p for p in parsed.path.split("/") if p]
@@ -947,6 +1043,16 @@ def crawl_chapter(url: str) -> dict:
             first_ch = series_info["chapters"][0]
             return crawl_chapter(first_ch["url"])
 
+    if hostname == "novelib.com" or hostname.endswith(".novelib.com"):
+        parsed = urlparse(url)
+        path_parts = [p for p in parsed.path.split("/") if p]
+        if "story" in path_parts and len(path_parts) <= 2 and not any(k in path_parts for k in ("chapter", "ch")) and not re.search(r"\d+-[a-z0-9]+", path_parts[-1]):
+            series_info = _fetch_novelib_series_chapters(url)
+            if not series_info["chapters"]:
+                raise ValueError(f"No chapters found for Novelib story: {url}")
+            first_ch = series_info["chapters"][0]
+            return crawl_chapter(first_ch["url"])
+
     if hostname == "zenithtls.com" or hostname.endswith(".zenithtls.com"):
         parsed = urlparse(url)
         path_parts = [p for p in parsed.path.split("/") if p]
@@ -985,9 +1091,8 @@ def crawl_chapter(url: str) -> dict:
 
     title = _extract_title(soup, url)
 
-    # Cherry Mist / Fictioneer "ghost" content protection:
-    # Content is ROT13 + base64 + URI-encoded, stored in data-a4f-N attributes
-    if hostname == "cherrymist.cafe" or hostname.endswith(".cherrymist.cafe"):
+    # Cherry Mist & Novelib / Fictioneer content decoding:
+    if hostname in ("cherrymist.cafe", "novelib.com") or hostname.endswith(".cherrymist.cafe") or hostname.endswith(".novelib.com"):
         content_el = _decode_cherrymist_ghost_content(soup) or _extract_content(soup)
     elif hostname == "mistminthaven.com" or hostname.endswith(".mistminthaven.com"):
         content_el = _extract_mistmint_next_content(soup) or _extract_content(soup)

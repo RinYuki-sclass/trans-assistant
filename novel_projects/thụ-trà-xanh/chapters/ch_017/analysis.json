@@ -1,0 +1,59 @@
+{
+  "chapter_summary": "Shen Feizhi and Gu Suizhou attend a Shen family banquet. Shen Feizhi is approached by Lu Qian, a woman betrothed to Shen Wei, who is openly attracted to him. Despite the awkwardness, Shen Feizhi uses the interaction to gain information about the Shen family's estate, specifically learning that the third floor is a restricted area of significance. After successfully navigating the social encounter and protecting Lu Qian from strong alcohol, Shen Feizhi and Gu Suizhou prepare to infiltrate the third floor to gather intelligence, with Shen Feizhi planning to hack the security system to provide Gu Suizhou a window of opportunity.",
+  "new_characters": [
+    {
+      "name": "Lu Qian",
+      "gender": "female",
+      "role": "Socialite / Shen Wei's date",
+      "description": "A woman of high status who is betrothed to Shen Wei but dislikes him. She is bold, confident, and attracted to Shen Feizhi."
+    },
+    {
+      "name": "Shen Wei",
+      "gender": "male",
+      "role": "Shen family heir / Shen Feizhi's rival",
+      "description": "The evening's protagonist and Shen Feizhi's brother. He is portrayed as arrogant, hot-tempered, and holds a grudge against Shen Feizhi."
+    },
+    {
+      "name": "Elder Shen",
+      "gender": "male",
+      "role": "Patriarch of the Shen family",
+      "description": "A powerful figure in the Shen family who commands authority over the banquet guests."
+    }
+  ],
+  "new_locations": [
+    {
+      "name": "Shen family's third floor",
+      "description": "A restricted area in the Shen family mansion, identified by Lu Qian as the 'real feng shui treasure spot'."
+    }
+  ],
+  "new_terms": [
+    {
+      "original": "baijiu",
+      "suggested": "baijiu",
+      "category": "item",
+      "confidence": 1.0
+    },
+    {
+      "original": "feng shui treasure spot",
+      "suggested": "vị trí phong thủy đắc địa",
+      "category": "other",
+      "confidence": 0.9
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "Brother Shen",
+      "suggested": "Anh Shen",
+      "confidence": 0.9,
+      "question": "Is 'Brother Shen' used as a genuine familial term or a sarcastic/manipulative endearment between the two leads?",
+      "options": [
+        "Anh Shen",
+        "Shen ca"
+      ],
+      "category": "honorific"
+    }
+  ],
+  "chapter_id": "ch_017",
+  "analyzed_at": "2026-09-19T11:29:05.801218+07:00"
+}

@@ -1,0 +1,74 @@
+{
+  "chapter_summary": "Shen Feizhi and Gu Suizhou travel to the chaotic and impoverished District Seven for a business investigation. Before leaving, they move into a new villa near the Research Institute and W.N. offices. Gu Suizhou displays possessive behavior toward Shen Feizhi, particularly regarding their neighbor C2. Upon arriving in District Seven, they find the environment worse than expected, characterized by industrial pollution and underground criminal activity. They identify a suspicious, dilapidated ATM at a guesthouse as a potential hub for the illicit transactions they are investigating and deploy a mechanical mouse for surveillance.",
+  "new_characters": [
+    {
+      "name": "C2",
+      "gender": "male",
+      "role": "Neighbor/Acquaintance",
+      "description": "A resident of the same area as Shen Feizhi and Gu Suizhou, originally from the Main Star. Gu Suizhou views him with hostility and jealousy."
+    },
+    {
+      "name": "Lu Fan",
+      "gender": "unknown",
+      "role": "Antagonist/Target",
+      "description": "An individual involved in suspicious financial transactions that Shen Feizhi and Gu Suizhou are investigating."
+    }
+  ],
+  "new_locations": [
+    {
+      "name": "District Seven",
+      "description": "A harsh, high-pollution, and chaotic industrial region known for underground trades and poor infrastructure."
+    },
+    {
+      "name": "Blue Star",
+      "description": "The planet where the story takes place."
+    },
+    {
+      "name": "Main Star",
+      "description": "The origin point of C2 and likely a central, more developed region."
+    }
+  ],
+  "new_terms": [
+    {
+      "original": "W.N.",
+      "suggested": "W.N.",
+      "category": "faction",
+      "confidence": 1.0
+    },
+    {
+      "original": "mechanical mouse",
+      "suggested": "chuột máy",
+      "category": "item",
+      "confidence": 0.9
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "Hubby",
+      "suggested": "Ông xã",
+      "confidence": 0.9,
+      "question": "Gu Suizhou uses 'Hubby' to tease Shen Feizhi. Should this be translated as a literal 'Ông xã' or a more sarcastic/playful term to reflect the power dynamic?",
+      "options": [
+        "Ông xã",
+        "Anh xã",
+        "Chồng yêu"
+      ],
+      "category": "honorific"
+    },
+    {
+      "id": "amb_002",
+      "original": "Brother",
+      "suggested": "Anh",
+      "confidence": 0.9,
+      "question": "Gu Suizhou calls Shen Feizhi 'Brother' after being scolded. Is this a genuine familial address or a submissive/teasing term?",
+      "options": [
+        "Anh",
+        "Anh trai"
+      ],
+      "category": "honorific"
+    }
+  ],
+  "chapter_id": "ch_058",
+  "analyzed_at": "2026-09-19T11:31:52.048960+07:00"
+}
