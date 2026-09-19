@@ -1,0 +1,85 @@
+{
+  "chapter_summary": "Gu Suizhou is frustrated after being blocked by Shen Feizhi and uses his friend Leapton to communicate with him. Shen Feizhi remains cold toward Gu Suizhou but maintains a friendly, ambiguous relationship with Leapton. Shen Feizhi reflects on his identity as a 'Manager' of time and space, his lack of personal history, and a mysterious cross-shaped scar on his chest. The chapter concludes with Gu Suizhou unexpectedly showing up at Shen Feizhi's home, leading to a tense but domestic interaction.",
+  "new_characters": [
+    {
+      "name": "Song Zhe",
+      "gender": "male",
+      "role": "Friend/Associate",
+      "description": "A friend of Gu Suizhou who acts as a 'mascot' alongside Leapton."
+    },
+    {
+      "name": "Leapton",
+      "gender": "male",
+      "role": "Friend/Associate",
+      "description": "A friend of Gu Suizhou who has a close, ambiguous relationship with Shen Feizhi."
+    },
+    {
+      "name": "Jiang Che",
+      "gender": "unknown",
+      "role": "Teacher/Contact",
+      "description": "A person Gu Suizhou uses to try and contact Shen Feizhi; currently on break."
+    }
+  ],
+  "new_locations": [
+    {
+      "name": "Underground City",
+      "description": "A location mentioned by Shen Feizhi as a destination."
+    },
+    {
+      "name": "W.N",
+      "description": "The workplace where Shen Feizhi is employed."
+    },
+    {
+      "name": "Main Star",
+      "description": "The central hub for 'Managers' where they supposedly take holidays."
+    }
+  ],
+  "new_terms": [
+    {
+      "original": "Manager",
+      "suggested": "Người quản lý / Quản lý viên",
+      "category": "other",
+      "confidence": 0.9
+    },
+    {
+      "original": "Small Worlds",
+      "suggested": "Tiểu thế giới",
+      "category": "other",
+      "confidence": 1.0
+    },
+    {
+      "original": "Nexus point",
+      "suggested": "Điểm mấu chốt / Điểm nút",
+      "category": "other",
+      "confidence": 0.8
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "Brother Shen",
+      "suggested": "Anh Thẩm",
+      "confidence": 0.9,
+      "question": "Should 'Brother' be translated as a literal familial term or a social honorific?",
+      "options": [
+        "Anh",
+        "Huynh"
+      ],
+      "category": "honorific"
+    },
+    {
+      "id": "amb_002",
+      "original": "Your Leapy is online",
+      "suggested": "Leapy của bạn đang online",
+      "confidence": 0.7,
+      "question": "Is 'Leapy' a nickname that should be kept or localized?",
+      "options": [
+        "Leapy",
+        "Tiểu Leapy"
+      ],
+      "category": "name"
+    }
+  ],
+  "chapter_id": "ch_014",
+  "analyzed_at": "2026-09-19T11:28:49.361601+07:00"
+}

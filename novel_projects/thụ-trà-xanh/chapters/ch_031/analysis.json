@@ -1,0 +1,98 @@
+{
+  "chapter_summary": "Shen Feizhi tests Gu Suizhou's resilience through a high-pressure password decryption task, which Gu Suizhou fails, leading to a self-harming attempt to break his handcuffs. Shen Feizhi treats his injuries, revealing a shared history of self-destructive tendencies. Gu Suizhou continues to aggressively pursue a closer relationship with Shen Feizhi, who remains emotionally distant and physically repulsed by intimacy. Shen Feizhi returns to his work at W.N., investigating the mysterious fire caused by Professor Gu and Professor Lin, while also discovering that his associate, Leapton, has been secretly investigating his personal life.",
+  "new_characters": [
+    {
+      "name": "Ritter",
+      "gender": "male",
+      "role": "Researcher/Colleague",
+      "description": "A colleague of Shen Feizhi at W.N. who assumes Shen Feizhi is still part of his research team."
+    },
+    {
+      "name": "The Director",
+      "gender": "unknown",
+      "role": "Head of W.N.",
+      "description": "An eccentric individual who wears voluminous ballgowns and is investigating the past research of Professor Gu and Professor Lin."
+    },
+    {
+      "name": "Leapton",
+      "gender": "male",
+      "role": "Information Broker/Associate",
+      "description": "Works at an internet cafe and has been secretly investigating Shen Feizhi's background and preferences."
+    },
+    {
+      "name": "Professor Gu",
+      "gender": "male",
+      "role": "Deceased Researcher",
+      "description": "A former researcher involved in a fire at the Research Institute; potentially related to Gu Suizhou."
+    },
+    {
+      "name": "Professor Lin",
+      "gender": "unknown",
+      "role": "Deceased Researcher",
+      "description": "A former researcher involved in the same fire as Professor Gu."
+    }
+  ],
+  "new_locations": [
+    {
+      "name": "W.N.",
+      "description": "A research organization/facility where Shen Feizhi works."
+    },
+    {
+      "name": "Research Institute",
+      "description": "The site of a past fire involving Professor Gu and Professor Lin."
+    },
+    {
+      "name": "Main Star",
+      "description": "A location or entity Shen Feizhi is attempting to make contact with."
+    }
+  ],
+  "new_terms": [
+    {
+      "original": "W.N.",
+      "suggested": "W.N.",
+      "category": "faction",
+      "confidence": 1.0
+    },
+    {
+      "original": "reboot project",
+      "suggested": "dự án tái khởi động",
+      "category": "other",
+      "confidence": 0.9
+    },
+    {
+      "original": "desensitization therapy",
+      "suggested": "liệu pháp giải mẫn cảm",
+      "category": "other",
+      "confidence": 1.0
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "Bro/Brother Shen",
+      "suggested": "Anh/Anh Shen",
+      "confidence": 0.9,
+      "question": "Gu Suizhou uses 'Bro'/'Brother' to address Shen Feizhi. Should this be translated as a formal 'Anh' or a more intimate/teasing term to reflect their power dynamic?",
+      "options": [
+        "Anh",
+        "Anh Shen",
+        "Người anh tốt"
+      ],
+      "category": "honorific"
+    },
+    {
+      "id": "amb_002",
+      "original": "The Director",
+      "suggested": "Viện trưởng",
+      "confidence": 0.8,
+      "question": "The Director is described as wearing a ballgown. Is this a stylistic choice or a specific character trait that requires a gender-neutral or specific honorific in Vietnamese?",
+      "options": [
+        "Viện trưởng",
+        "Ngài Viện trưởng"
+      ],
+      "category": "honorific"
+    }
+  ],
+  "chapter_id": "ch_031",
+  "analyzed_at": "2026-09-19T11:30:03.457519+07:00"
+}

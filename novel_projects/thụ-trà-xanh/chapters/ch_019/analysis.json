@@ -1,0 +1,71 @@
+{
+  "chapter_summary": "Shen Feizhi returns home in a drunken, disoriented state, displaying uncharacteristic behavior such as physical aggression and a loss of his usual OCD-like cleanliness. Gu Suizhou attempts to manage the situation by claiming to be Shen Feizhi's 'little lover' to prevent being kicked out. Shen Feizhi, despite his intoxication, maintains his core personality traits—stubbornness, frugality, and a cold demeanor. He attempts to 'get his money's worth' by assigning Gu Suizhou menial household chores, leading to a humorous power struggle between the two.",
+  "new_characters": [
+    {
+      "name": "Shen Feizhi",
+      "gender": "male",
+      "role": "Protagonist / Alpha",
+      "description": "An Alpha who is usually cold, aloof, and suffers from OCD regarding cleanliness. When drunk, he becomes physically aggressive, curious, and retains a strong sense of frugality."
+    },
+    {
+      "name": "Gu Suizhou",
+      "gender": "male",
+      "role": "Protagonist / 'Little Lover'",
+      "description": "A character who claims to be Shen Feizhi's lover. He is manipulative, quick-witted, and enjoys teasing Shen Feizhi, though he is wary of his temper."
+    }
+  ],
+  "new_locations": [
+    {
+      "name": "Shen Feizhi's apartment",
+      "description": "The residence where the confrontation takes place; it is the location where Gu Suizhou claims to be staying as a 'little lover'."
+    }
+  ],
+  "new_terms": [
+    {
+      "original": "bitter coffee pheromone",
+      "suggested": "pheromones mùi cà phê đắng",
+      "category": "other",
+      "confidence": 1.0
+    },
+    {
+      "original": "Overlord Tickets",
+      "suggested": "Vé Bá Vương",
+      "category": "other",
+      "confidence": 0.9
+    },
+    {
+      "original": "nutrient solution",
+      "suggested": "dung dịch dinh dưỡng",
+      "category": "other",
+      "confidence": 0.9
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "Brother Shen",
+      "suggested": "Anh Shen",
+      "confidence": 0.9,
+      "question": "Should 'Brother Shen' be translated as a literal familial term or a social honorific? Given the context of their 'game', it carries a specific power dynamic.",
+      "options": [
+        "Anh Shen",
+        "Shen ca"
+      ],
+      "category": "honorific"
+    },
+    {
+      "id": "amb_002",
+      "original": "little lover",
+      "suggested": "người tình nhỏ",
+      "confidence": 0.95,
+      "question": "Is this a formal arrangement or a derogatory term in this setting?",
+      "options": [
+        "người tình nhỏ",
+        "tình nhân nhỏ"
+      ],
+      "category": "relationship"
+    }
+  ],
+  "chapter_id": "ch_019",
+  "analyzed_at": "2026-09-19T11:29:14.025487+07:00"
+}

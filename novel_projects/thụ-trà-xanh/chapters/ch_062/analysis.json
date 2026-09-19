@@ -1,0 +1,82 @@
+{
+  "chapter_summary": "Shen Feizhi and C2 successfully manipulate Ritter by faking Shen Feizhi's death using photoshopped evidence, causing Ritter to believe his plan is succeeding. Gu Suizhou, struggling with the separation and the emotional toll of his parents' (Gu Lang and Lin Zizhuo) cremation, maintains his cover while secretly working to undermine Ritter. Shen Feizhi reveals he had already rescued the remains of Gu Suizhou's parents from Ritter's hospital. The chapter concludes with Gu Suizhou, overwhelmed by anxiety and longing, seeking comfort in a Pheromone Storage Sphere while Ritter remains oblivious to the trap closing in on him.",
+  "new_characters": [
+    {
+      "name": "Gu Lang",
+      "gender": "male",
+      "role": "Deceased parent",
+      "description": "Gu Suizhou's father, deceased, formerly involved in a conflict involving Ritter."
+    },
+    {
+      "name": "Lin Zizhuo",
+      "gender": "female",
+      "role": "Deceased parent",
+      "description": "Gu Suizhou's mother, deceased, formerly involved in a conflict involving Ritter."
+    },
+    {
+      "name": "Leapton",
+      "gender": "male",
+      "role": "Ally",
+      "description": "An associate of Shen Feizhi who is currently recovering in a hospital; holds items for Shen Feizhi."
+    }
+  ],
+  "new_locations": [
+    {
+      "name": "Crematorium",
+      "description": "The facility where Gu Suizhou cremated his parents' remains."
+    },
+    {
+      "name": "W.N Company",
+      "description": "The company where Gu Suizhou has a sunroom and office."
+    }
+  ],
+  "new_terms": [
+    {
+      "original": "Energy Vortex",
+      "suggested": "Vòng Xoáy Năng Lượng",
+      "category": "other",
+      "confidence": 0.9
+    },
+    {
+      "original": "Pheromone Storage Spheres",
+      "suggested": "Cầu Lưu Trữ Pheromone",
+      "category": "item",
+      "confidence": 1.0
+    },
+    {
+      "original": "micro-device",
+      "suggested": "thiết bị vi mô",
+      "category": "item",
+      "confidence": 0.9
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "C2",
+      "suggested": "C2",
+      "confidence": 0.8,
+      "question": "Is C2 an AI, a robot, or a codename for a human operative?",
+      "options": [
+        "AI/Robot",
+        "Human operative"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_002",
+      "original": "Old Gu",
+      "suggested": "Lão Gu",
+      "confidence": 0.9,
+      "question": "Leapton calls Gu Suizhou 'Old Gu'. Is this a term of endearment, mockery, or a sign of their age gap?",
+      "options": [
+        "Endearment",
+        "Mockery",
+        "Age-related"
+      ],
+      "category": "honorific"
+    }
+  ],
+  "chapter_id": "ch_062",
+  "analyzed_at": "2026-09-19T11:32:06.508373+07:00"
+}

@@ -1,0 +1,146 @@
+{
+  "chapter_summary": "Gu Suizhou informs Shen Feizhi of Yang Rui's five-year sentence. Shen Feizhi is discharged from the hospital and moves into a new apartment in District Six. He confronts Gu Suizhou about the fight, who admits to provoking Yang Rui and expresses fear of abandonment. Shen Feizhi reluctantly commits to his guardian role, setting rules and adding Gu Suizhou as a contact. The next morning, Gu Suizhou's disastrous breakfast attempt annoys Shen Feizhi. At work in the Underground City, Shen Feizhi learns from a guard that the powerful Research Institute is privately owned by an unnamed family, not the Federation.",
+  "new_characters": [
+    {
+      "name": "Yang Rui",
+      "gender": "Male",
+      "role": "Antagonist",
+      "description": "Sentenced to five years in prison for assaulting Shen Feizhi. His family used to be suppliers for the Gu family."
+    },
+    {
+      "name": "Gu Suizhou's uncle",
+      "gender": "Male",
+      "role": "Family connection, legal helper",
+      "description": "An old friend of Gu Suizhou's dad who helped with the legal case against Yang Rui."
+    },
+    {
+      "name": "Guard",
+      "gender": "Male",
+      "role": "Security personnel",
+      "description": "A guard on duty at the entrance to the Underground City/Research Institute, who provides information to Shen Feizhi."
+    },
+    {
+      "name": "The two founders",
+      "gender": "Unknown",
+      "role": "Founders of the Research Institute",
+      "description": "Died suddenly, leading to the Institute's shares falling into the hands of 'that family'."
+    }
+  ],
+  "new_locations": [
+    {
+      "name": "District Six",
+      "description": "A district in the city, closest to the main station leading to the Underground City, and where the High School bus stops. Shen Feizhi rents a new apartment here."
+    },
+    {
+      "name": "Underground City",
+      "description": "A significant subterranean location accessible via a main station, where Shen Feizhi works and the Research Institute is located."
+    }
+  ],
+  "new_terms": [
+    {
+      "original": "Minor Protection Law",
+      "suggested": "",
+      "category": "other",
+      "confidence": 1.0
+    },
+    {
+      "original": "Starnet",
+      "suggested": "",
+      "category": "other",
+      "confidence": 1.0
+    },
+    {
+      "original": "hovercar",
+      "suggested": "",
+      "category": "item",
+      "confidence": 1.0
+    },
+    {
+      "original": "hovering alarm clock",
+      "suggested": "",
+      "category": "item",
+      "confidence": 1.0
+    },
+    {
+      "original": "floor-cleaning robot",
+      "suggested": "",
+      "category": "item",
+      "confidence": 1.0
+    },
+    {
+      "original": "smartphone",
+      "suggested": "",
+      "category": "item",
+      "confidence": 1.0
+    },
+    {
+      "original": "QR code",
+      "suggested": "",
+      "category": "other",
+      "confidence": 1.0
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "sheep",
+      "suggested": "",
+      "confidence": 0.9,
+      "question": "Shen Feizhi refers to Yang Rui as a 'sheep'. Does this imply weakness, being easily exploited, or is it a pun on Yang Rui's surname 'Yang' (which means sheep in Chinese), or a general derogatory term?",
+      "options": [
+        "Weakness/Easily exploited",
+        "Pun on surname 'Yang'",
+        "General derogatory term",
+        "Combination of the above"
+      ],
+      "category": "term"
+    }
+  ],
+  "relationship_changes": [
+    {
+      "description": "Gu Suizhou admits to provoking Yang Rui by 'teasing him a little bit,' adding nuance to his character and the cause of the fight, suggesting he wasn't entirely innocent."
+    },
+    {
+      "description": "Shen Feizhi's internal monologue reveals his belief that Gu Suizhou's attachment is primarily due to the 'original owner's identity' and the 'Shen family,' rather than personal affection for Shen Feizhi himself."
+    },
+    {
+      "description": "Gu Suizhou expresses vulnerability and fear of abandonment ('I thought… you didn't want me anymore'), indicating a deeper emotional reliance on Shen Feizhi than previously shown."
+    },
+    {
+      "description": "Shen Feizhi's response 'Abandonment is illegal' signifies a reluctant but firm commitment to his guardian role, taking responsibility for Gu Suizhou."
+    },
+    {
+      "description": "Shen Feizhi sets clear rules for Gu Suizhou regarding fighting ('you can throw punches, but you can't get hit'), indicating a protective stance and establishing boundaries in their dynamic."
+    },
+    {
+      "description": "Gu Suizhou's playful and provocative statement 'You love me so much~' pushes the boundaries of their relationship, hinting at a deeper, possibly romantic or highly affectionate, dynamic from his side, which Shen Feizhi clearly finds uncomfortable."
+    }
+  ],
+  "important_timeline_events": [
+    {
+      "event": "Yang Rui is sentenced to five years in prison for assaulting Shen Feizhi."
+    },
+    {
+      "event": "Shen Feizhi is discharged from the hospital on Sunday evening."
+    },
+    {
+      "event": "Shen Feizhi promises to pick Gu Suizhou up from school on Friday."
+    }
+  ],
+  "new_organizations_factions": [
+    {
+      "name": "The Institute / Research Institute",
+      "description": "The most authoritative and capable research institute on the entire planet, located in the Underground City. Its largest shareholder is an individual/family, not the Federation."
+    },
+    {
+      "name": "The Federation",
+      "description": "A governing body or political entity that controls the planet, but surprisingly is not the largest shareholder of the Research Institute."
+    },
+    {
+      "name": "'that family'",
+      "description": "A powerful, unnamed family that became the largest shareholder of the Research Institute after its founders died, effectively controlling it."
+    }
+  ],
+  "chapter_id": "ch_007",
+  "analyzed_at": "2026-09-19T11:27:29.806942+07:00"
+}

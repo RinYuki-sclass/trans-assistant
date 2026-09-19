@@ -1,0 +1,2293 @@
+[
+  {
+    "original": "Gu Lang",
+    "translation": "Cố Lãng",
+    "hanviet": "Cố Lãng",
+    "category": "Character",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Nữ, mẹ quá cố của Cố Tùy Châu",
+    "chapter_first_seen": "ch_005"
+  },
+  {
+    "original": "Thụ trà xanh",
+    "translation": "Green Tea Uke / Green Tea Bottom",
+    "hanviet": "",
+    "category": "Slang / Character Archetype",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_005"
+  },
+  {
+    "original": "Blondie",
+    "translation": "Tóc Vàng",
+    "hanviet": "",
+    "category": "Character",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Biệt danh của Leapton (Lai Cẩu), cậu trai tóc vàng thu ngân kiêm chủ quán net đối diện W.N",
+    "chapter_first_seen": "ch_006"
+  },
+  {
+    "original": "Omega",
+    "translation": "Omega",
+    "hanviet": "Âu-mễ-già",
+    "category": "ABO Dynamics",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_005"
+  },
+  {
+    "original": "Alpha",
+    "translation": "Alpha",
+    "hanviet": "",
+    "category": "ABO Dynamics",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_005"
+  },
+  {
+    "original": "Pheromones",
+    "translation": "Pheromones",
+    "hanviet": "信息素",
+    "category": "ABO Dynamics",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_005"
+  },
+  {
+    "original": "tấc đất tấc vàng",
+    "translation": "Every inch of land is as precious as gold / Land is extremely valuable",
+    "hanviet": "",
+    "category": "Idiom / Proverb",
+    "confidence": 0.8,
+    "approved": true,
+    "chapter_first_seen": "ch_005"
+  },
+  {
+    "original": "ăn bám",
+    "translation": "Freeloader",
+    "hanviet": "",
+    "category": "Social Term",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_005"
+  },
+  {
+    "original": "Lan Tạ",
+    "translation": "Lanxie",
+    "hanviet": "",
+    "category": "Location",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_005"
+  },
+  {
+    "original": "Lam Tinh",
+    "translation": "Blue Star",
+    "hanviet": "Lam Tinh",
+    "category": "Location",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_005"
+  },
+  {
+    "original": "Khu vực thứ nhất",
+    "translation": "First District",
+    "hanviet": "Đệ nhất khu vực",
+    "category": "Location",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_005"
+  },
+  {
+    "original": "Lanxie Road",
+    "translation": "Đường Lan Tạ",
+    "hanviet": "Lan Tạ lộ",
+    "category": "Location",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_005"
+  },
+  {
+    "original": "Blue Star",
+    "translation": "Lam Tinh",
+    "hanviet": "Lam Tinh",
+    "category": "Location",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_005"
+  },
+  {
+    "original": "First District",
+    "translation": "Khu vực thứ nhất",
+    "hanviet": "",
+    "category": "Location",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_005"
+  },
+  {
+    "original": "Cleaning Supervisors",
+    "translation": "Giám sát viên vệ sinh",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_006"
+  },
+  {
+    "original": "ID badge",
+    "translation": "Thẻ ID",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_006"
+  },
+  {
+    "original": "Blue Star's Personnel Data Collection Network System",
+    "translation": "Hệ thống Mạng lưới Thu thập Dữ liệu Nhân sự của Blue Star",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_006"
+  },
+  {
+    "original": "T+0 trading system",
+    "translation": "Hệ thống giao dịch T+0",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_006"
+  },
+  {
+    "original": "Smart device",
+    "translation": "Thiết bị thông minh",
+    "hanviet": "Thông minh thiết bị",
+    "category": "item",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_006"
+  },
+  {
+    "original": "Credit card",
+    "translation": "Thẻ tín dụng",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_006"
+  },
+  {
+    "original": "Interstellar future",
+    "translation": "Tương lai liên sao",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_006"
+  },
+  {
+    "original": "Human agency",
+    "translation": "Quyền tự chủ của con người",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_006"
+  },
+  {
+    "original": "Confidentiality protocols",
+    "translation": "Quy trình bảo mật",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_006"
+  },
+  {
+    "original": "Network technology training",
+    "translation": "Huấn luyện công nghệ mạng",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_006"
+  },
+  {
+    "original": "Unemployed status",
+    "translation": "Tình trạng thất nghiệp",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_006"
+  },
+  {
+    "original": "Stock market system",
+    "translation": "Hệ thống thị trường chứng khoán",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_006"
+  },
+  {
+    "original": "Same-day settlement",
+    "translation": "Thanh toán trong ngày",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_006"
+  },
+  {
+    "original": "Private booth",
+    "translation": "Phòng riêng",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_006"
+  },
+  {
+    "original": "Red and green curves",
+    "translation": "Đường cong đỏ và xanh",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_006"
+  },
+  {
+    "original": "Dead weight",
+    "translation": "Gánh nặng",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_006"
+  },
+  {
+    "original": "Childhood friend",
+    "translation": "Bạn thời thơ ấu",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_006"
+  },
+  {
+    "original": "Helpless waste",
+    "translation": "Kẻ vô dụng bất lực",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_006"
+  },
+  {
+    "original": "Minor",
+    "translation": "Người chưa thành niên",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_006"
+  },
+  {
+    "original": "Guardianship",
+    "translation": "Quyền giám hộ",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_006"
+  },
+  {
+    "original": "Estate",
+    "translation": "Tài sản thừa kế",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_006"
+  },
+  {
+    "original": "Legal relative",
+    "translation": "Người thân hợp pháp",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_006"
+  },
+  {
+    "original": "Mercury in retrograde",
+    "translation": "Sao Thủy nghịch hành",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_006"
+  },
+  {
+    "original": "Good karma",
+    "translation": "Nghiệp tốt",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_006"
+  },
+  {
+    "original": "Little stray dog",
+    "translation": "Chó hoang nhỏ",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_006"
+  },
+  {
+    "original": "Utility pole",
+    "translation": "Cột điện",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_006"
+  },
+  {
+    "original": "W.N.",
+    "translation": "W.N.",
+    "hanviet": "N/A",
+    "category": "faction",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_006"
+  },
+  {
+    "original": "Shen family",
+    "translation": "Gia tộc Shen",
+    "hanviet": "Thẩm gia",
+    "category": "faction",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_006"
+  },
+  {
+    "original": "Gu family",
+    "translation": "Gia tộc Gu",
+    "hanviet": "",
+    "category": "faction",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_006"
+  },
+  {
+    "original": "Giám sát viên Vệ sinh",
+    "translation": "Cleaning Supervisor",
+    "hanviet": "Vệ sinh Giám sát viên",
+    "category": "Nghề nghiệp",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_006"
+  },
+  {
+    "original": "W.N",
+    "translation": "W.N",
+    "hanviet": "W.N",
+    "category": "Tổ chức",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_006"
+  },
+  {
+    "original": "Thành phố Ngầm",
+    "translation": "Underground City",
+    "hanviet": "Ngầm Thành thị",
+    "category": "Địa danh",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_006"
+  },
+  {
+    "original": "Khu Một",
+    "translation": "District One",
+    "hanviet": "Nhất Khu",
+    "category": "Địa danh",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_006"
+  },
+  {
+    "original": "Minor Protection Law",
+    "translation": "Minor Protection Law",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_007"
+  },
+  {
+    "original": "Starnet",
+    "translation": "Starnet",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_007"
+  },
+  {
+    "original": "hovercar",
+    "translation": "hovercar",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_007"
+  },
+  {
+    "original": "hovering alarm clock",
+    "translation": "hovering alarm clock",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_007"
+  },
+  {
+    "original": "floor-cleaning robot",
+    "translation": "floor-cleaning robot",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_007"
+  },
+  {
+    "original": "smartphone",
+    "translation": "smartphone",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_007"
+  },
+  {
+    "original": "QR code",
+    "translation": "QR code",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_007"
+  },
+  {
+    "original": "Khu Sáu",
+    "translation": "District Six",
+    "hanviet": "Lục khu",
+    "category": "Địa danh",
+    "confidence": 0.95,
+    "approved": true,
+    "chapter_first_seen": "ch_007"
+  },
+  {
+    "original": "Luật Bảo vệ Người chưa thành niên",
+    "translation": "Juvenile Protection Law",
+    "hanviet": "Vị thành niên bảo hộ pháp",
+    "category": "Pháp luật",
+    "confidence": 0.98,
+    "approved": true,
+    "chapter_first_seen": "ch_007"
+  },
+  {
+    "original": "宾至如归",
+    "translation": "cảm giác như ở nhà",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_008"
+  },
+  {
+    "original": "key turning points",
+    "translation": "bước ngoặt quan trọng",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_008"
+  },
+  {
+    "original": "C1907",
+    "translation": "C1907",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_008"
+  },
+  {
+    "original": "beautiful poppy",
+    "translation": "bông anh túc xinh đẹp",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_008"
+  },
+  {
+    "original": "Mr. Shen",
+    "translation": "Anh Shen / Quý khách Shen",
+    "hanviet": "",
+    "category": "honorific",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_008"
+  },
+  {
+    "original": "Brother Zhou",
+    "translation": "Anh Zhou",
+    "hanviet": "",
+    "category": "honorific",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_008"
+  },
+  {
+    "original": "figures and merch",
+    "translation": "mô hình và vật phẩm sưu tầm",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_008"
+  },
+  {
+    "original": "circle lenses",
+    "translation": "kính áp tròng giãn tròng",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_008"
+  },
+  {
+    "original": "fake eyelashes",
+    "translation": "lông mi giả",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_008"
+  },
+  {
+    "original": "data disk",
+    "translation": "đĩa dữ liệu",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_008"
+  },
+  {
+    "original": "miniature earpiece",
+    "translation": "tai nghe mini",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_008"
+  },
+  {
+    "original": "smart system",
+    "translation": "hệ thống thông minh",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_008"
+  },
+  {
+    "original": "speed-tapping",
+    "translation": "gõ nhanh",
+    "hanviet": "",
+    "category": "skill",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_008"
+  },
+  {
+    "original": "Lâm Tuy",
+    "translation": "Lâm Tuy",
+    "hanviet": "",
+    "category": "Nhân vật",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_008"
+  },
+  {
+    "original": "Cố Lang",
+    "translation": "Cố Lãng",
+    "hanviet": "Cố Lãng",
+    "category": "Character",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Nữ, mẹ quá cố của Cố Tùy Châu",
+    "chapter_first_seen": "ch_008"
+  },
+  {
+    "original": "blue-chip stocks",
+    "translation": "cổ phiếu blue-chip",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_009"
+  },
+  {
+    "original": "market prediction skills",
+    "translation": "kỹ năng dự đoán thị trường",
+    "hanviet": "",
+    "category": "skill",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_009"
+  },
+  {
+    "original": "coffee-scented pheromone",
+    "translation": "pheromone mùi cà phê",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_009"
+  },
+  {
+    "original": "hoverbike",
+    "translation": "xe bay",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_009"
+  },
+  {
+    "original": "social media",
+    "translation": "mạng xã hội",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_009"
+  },
+  {
+    "original": "blue-chip",
+    "translation": "cổ phiếu blue-chip (cổ phiếu của các công ty lớn, uy tín)",
+    "hanviet": "",
+    "category": "Tài chính",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_009"
+  },
+  {
+    "original": "pheromone",
+    "translation": "pheromone (hóa chất tín hiệu)",
+    "hanviet": "phí-rô-môn",
+    "category": "Sinh học/Giả tưởng",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_009"
+  },
+  {
+    "original": "Pheromone Dysregulation Syndrome",
+    "translation": "Hội chứng rối loạn pheromone",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_010"
+  },
+  {
+    "original": "Shen Zhi",
+    "translation": "Thẩm Triết",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_010"
+  },
+  {
+    "original": "Giám sát vệ sinh",
+    "translation": "Sanitation Supervisor",
+    "hanviet": "Vệ sinh giám sát",
+    "category": "Chức vụ",
+    "confidence": 0.95,
+    "approved": true,
+    "chapter_first_seen": "ch_010"
+  },
+  {
+    "original": "Spatial Energetics",
+    "translation": "Năng lượng không gian",
+    "hanviet": "",
+    "category": "skill",
+    "confidence": 0.95,
+    "approved": true,
+    "chapter_first_seen": "ch_011"
+  },
+  {
+    "original": "Energy Storm Eye",
+    "translation": "Mắt bão năng lượng",
+    "hanviet": "Năng Lượng Bão Nhãn",
+    "category": "Địa danh/Hiện tượng",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_011"
+  },
+  {
+    "original": "Auditing pass",
+    "translation": "Thẻ dự thính",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_011"
+  },
+  {
+    "original": "Nhóm A",
+    "translation": "Nhóm A",
+    "hanviet": "",
+    "category": "Tổ chức",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_011"
+  },
+  {
+    "original": "Năng lượng học Không gian",
+    "translation": "Năng lượng học Không gian",
+    "hanviet": "Không gian Năng lượng học",
+    "category": "Khoa học/Thuật ngữ",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_011"
+  },
+  {
+    "original": "Phòng thí nghiệm 7",
+    "translation": "Phòng thí nghiệm 7",
+    "hanviet": "",
+    "category": "Địa điểm",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_011"
+  },
+  {
+    "original": "Research assistant",
+    "translation": "Trợ lý nghiên cứu",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_012"
+  },
+  {
+    "original": "shared hovercar",
+    "translation": "xe bay công cộng",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_013"
+  },
+  {
+    "original": "Leapton",
+    "translation": "Leapton",
+    "hanviet": "Lai Cẩu",
+    "category": "Character",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_013",
+    "notes": "Guinness Dan Leapton / Lai Cẩu / Tóc Vàng (Blondie), chủ quán net kiêm thu ngân đối diện W.N, bạn thân Thẩm Phi Triết"
+  },
+  {
+    "original": "Manager",
+    "translation": "Người quản lý / Quản lý viên",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_014"
+  },
+  {
+    "original": "Small Worlds",
+    "translation": "Tiểu thế giới",
+    "hanviet": "Tiểu thế giới",
+    "category": "Thuật ngữ hệ thống/cốt truyện",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_014"
+  },
+  {
+    "original": "Nexus point",
+    "translation": "Điểm mấu chốt / Điểm nút",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 0.8,
+    "approved": true,
+    "chapter_first_seen": "ch_014"
+  },
+  {
+    "original": "trà xanh",
+    "translation": "green tea (slang: chỉ người tỏ vẻ ngây thơ, trong sáng nhưng thực chất đầy toan tính)",
+    "hanviet": "trà xanh",
+    "category": "Slang",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_014"
+  },
+  {
+    "original": "dạ tiệc",
+    "translation": "banquet / gala",
+    "hanviet": "",
+    "category": "Event",
+    "confidence": 0.95,
+    "approved": true,
+    "chapter_first_seen": "ch_014"
+  },
+  {
+    "original": "General Principles of Blue Star Criminal Law and Crime Analysis",
+    "translation": "General Principles of Blue Star Criminal Law and Crime Analysis",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_015"
+  },
+  {
+    "original": "Sao Xanh",
+    "translation": "Sao Xanh",
+    "hanviet": "Thanh Tinh",
+    "category": "Địa danh/Thế giới",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_015"
+  },
+  {
+    "original": "Nguyên tắc chung của Luật Hình sự Sao Xanh và Phân tích Tội phạm",
+    "translation": "Nguyên tắc chung của Luật Hình sự Sao Xanh và Phân tích Tội phạm",
+    "hanviet": "",
+    "category": "Tài liệu/Sách",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_015"
+  },
+  {
+    "original": "Pheromone guidance",
+    "translation": "Pheromone guidance",
+    "hanviet": "",
+    "category": "skill",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_016"
+  },
+  {
+    "original": "Glandular disorder",
+    "translation": "Glandular disorder",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_016"
+  },
+  {
+    "original": "Guidance Alpha",
+    "translation": "Guidance Alpha",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_016"
+  },
+  {
+    "original": "Omega định mệnh",
+    "translation": "Omega định mệnh",
+    "hanviet": "Omega định mệnh",
+    "category": "Thuật ngữ thế giới ABO",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_016"
+  },
+  {
+    "original": "Chàng trai xinh đẹp của tôi",
+    "translation": "Chàng trai xinh đẹp của tôi",
+    "hanviet": "",
+    "category": "Danh xưng/Vai trò",
+    "confidence": 0.95,
+    "approved": true,
+    "chapter_first_seen": "ch_016"
+  },
+  {
+    "original": "baijiu",
+    "translation": "baijiu",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_017"
+  },
+  {
+    "original": "feng shui treasure spot",
+    "translation": "vị trí phong thủy đắc địa",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_017"
+  },
+  {
+    "original": "cún con",
+    "translation": "chàng trai trẻ/người non nớt",
+    "hanviet": "",
+    "category": "từ lóng",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_017"
+  },
+  {
+    "original": "chó săn",
+    "translation": "kẻ bám đuôi/kẻ săn đuổi",
+    "hanviet": "",
+    "category": "từ lóng",
+    "confidence": 0.85,
+    "approved": true,
+    "chapter_first_seen": "ch_017"
+  },
+  {
+    "original": "Lin Zhou",
+    "translation": "Lin Zhou",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_018"
+  },
+  {
+    "original": "Top Tier Alpha",
+    "translation": "Alpha cấp cao",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_018"
+  },
+  {
+    "original": "Thẩm gia",
+    "translation": "Gia tộc họ Thẩm",
+    "hanviet": "Thẩm gia",
+    "category": "Địa điểm/Tổ chức",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_018"
+  },
+  {
+    "original": "hậu viên",
+    "translation": "Khu vườn phía sau",
+    "hanviet": "",
+    "category": "Địa điểm",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_018"
+  },
+  {
+    "original": "bitter coffee pheromone",
+    "translation": "pheromones mùi cà phê đắng",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_019"
+  },
+  {
+    "original": "Overlord Tickets",
+    "translation": "Vé Bá Vương",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_019"
+  },
+  {
+    "original": "nutrient solution",
+    "translation": "dung dịch dinh dưỡng",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_019"
+  },
+  {
+    "original": "OCD",
+    "translation": "Rối loạn ám ảnh cưỡng chế",
+    "hanviet": "Cường bách chứng",
+    "category": "Y tế/Tâm lý",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_019"
+  },
+  {
+    "original": "người-chó",
+    "translation": "người-chó",
+    "hanviet": "",
+    "category": "Biệt danh/Ẩn dụ",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_019"
+  },
+  {
+    "original": "Bringing You into the Gray Zone Between Dreams and Reality",
+    "translation": "Bringing You into the Gray Zone Between Dreams and Reality",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_020"
+  },
+  {
+    "original": "robotic maid",
+    "translation": "robot giúp việc",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_020"
+  },
+  {
+    "original": "Tu sĩ khổ hạnh",
+    "translation": "ascetic monk",
+    "hanviet": "tu sĩ khổ hạnh",
+    "category": "Tính cách",
+    "confidence": 0.95,
+    "approved": true,
+    "chapter_first_seen": "ch_020"
+  },
+  {
+    "original": "Xuyên không",
+    "translation": "Transmigration",
+    "hanviet": "xuyên không",
+    "category": "Thể loại/Khái niệm",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_020"
+  },
+  {
+    "original": "debridement",
+    "translation": "cắt lọc vết thương",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_021"
+  },
+  {
+    "original": "honey trap",
+    "translation": "bẫy tình",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_021"
+  },
+  {
+    "original": "preservation chamber",
+    "translation": "buồng bảo quản thực phẩm",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_021"
+  },
+  {
+    "original": "tsukkomi",
+    "translation": "tự nhủ/bình luận mỉa mai",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 0.8,
+    "approved": true,
+    "chapter_first_seen": "ch_021"
+  },
+  {
+    "original": "Hệ thống Ngôi sao thứ mười của Liên bang",
+    "translation": "Hệ thống Ngôi sao thứ mười của Liên bang",
+    "hanviet": "Liên bang Thập tinh hệ",
+    "category": "Địa danh/Bối cảnh",
+    "confidence": 0.95,
+    "approved": true,
+    "chapter_first_seen": "ch_021"
+  },
+  {
+    "original": "madness",
+    "translation": "cơn điên/phát điên",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_022"
+  },
+  {
+    "original": "pheromone drainage",
+    "translation": "liệu pháp rút pheromone",
+    "hanviet": "",
+    "category": "skill",
+    "confidence": 0.95,
+    "approved": true,
+    "chapter_first_seen": "ch_022"
+  },
+  {
+    "original": "C1907 Shuttle",
+    "translation": "Phi thuyền C1907",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_022"
+  },
+  {
+    "original": "ABO",
+    "translation": "Hệ thống phân loại giới tính phụ (Alpha, Beta, Omega)",
+    "hanviet": "",
+    "category": "Thuật ngữ thế giới",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_022"
+  },
+  {
+    "original": "Dẫn lưu pheromone",
+    "translation": "Pheromone drainage",
+    "hanviet": "",
+    "category": "Y tế",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_022"
+  },
+  {
+    "original": "ancestral rites",
+    "translation": "lễ tế tổ",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_023"
+  },
+  {
+    "original": "white flower",
+    "translation": "bạch liên hoa",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_023"
+  },
+  {
+    "original": "Hệ thống sao thứ ba",
+    "translation": "Third Star System",
+    "hanviet": "Đệ tam tinh hệ",
+    "category": "Location",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_023"
+  },
+  {
+    "original": "Lễ tế tổ",
+    "translation": "Ancestral rites",
+    "hanviet": "Tế tổ",
+    "category": "Culture",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_023"
+  },
+  {
+    "original": "Quận 1",
+    "translation": "District 1",
+    "hanviet": "Nhất khu",
+    "category": "Location",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_023"
+  },
+  {
+    "original": "Bai Shi Herb",
+    "translation": "Thảo dược Bạch Thạch",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_024"
+  },
+  {
+    "original": "Federation Standard",
+    "translation": "Tiếng Liên Bang",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_024"
+  },
+  {
+    "original": "Pami-10",
+    "translation": "Pami-10",
+    "hanviet": "",
+    "category": "Địa danh",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_024"
+  },
+  {
+    "original": "thảo mộc Bạch Thạch",
+    "translation": "Bạch Thạch thảo",
+    "hanviet": "",
+    "category": "Thực vật/Dược liệu",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_024"
+  },
+  {
+    "original": "orthopedic",
+    "translation": "loạn luân (nghĩa lóng)",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 0.95,
+    "approved": true,
+    "chapter_first_seen": "ch_026"
+  },
+  {
+    "original": "Child of Destiny",
+    "translation": "Con cưng của thế giới / Thiên mệnh chi tử",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_026"
+  },
+  {
+    "original": "Đứa con của định mệnh",
+    "translation": "Đứa con của định mệnh",
+    "hanviet": "Đích tử của vận mệnh",
+    "category": "Thuật ngữ cốt truyện",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_026"
+  },
+  {
+    "original": "Pheromone Storage Sphere",
+    "translation": "Cầu Lưu Trữ Pheromone",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_027"
+  },
+  {
+    "original": "Approaching Science",
+    "translation": "Tiệm Cận Khoa Học",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_027"
+  },
+  {
+    "original": "Lai Gou",
+    "translation": "Lai Cẩu",
+    "hanviet": "Lai Cẩu",
+    "category": "Character",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_027",
+    "notes": "Lai Cẩu / Leapton / Tóc Vàng (Blondie), chủ quán net kiêm thu ngân đối diện W.N"
+  },
+  {
+    "original": "Vườn Thảo mộc",
+    "translation": "Herb Garden",
+    "hanviet": "Thảo Mộc Viên",
+    "category": "Địa điểm",
+    "confidence": 0.95,
+    "approved": true,
+    "chapter_first_seen": "ch_027"
+  },
+  {
+    "original": "Bệnh viện Nhân dân Quận 1 Blue Star",
+    "translation": "Blue Star District 1 People's Hospital",
+    "hanviet": "Lam Tinh Đệ Nhất Khu Nhân Dân Y Viện",
+    "category": "Địa điểm",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_027"
+  },
+  {
+    "original": "isolator",
+    "translation": "thuốc ức chế",
+    "hanviet": "ức chế tề",
+    "category": "item",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_028"
+  },
+  {
+    "original": "scent glands",
+    "translation": "tuyến mùi",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_028"
+  },
+  {
+    "original": "Herb Field",
+    "translation": "Cánh đồng thảo dược / Khu vực trồng thảo dược",
+    "hanviet": "Dược Điền",
+    "category": "Địa điểm",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_028"
+  },
+  {
+    "original": "Shuttle",
+    "translation": "Phi thuyền/Tàu con thoi",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_029"
+  },
+  {
+    "original": "Cố thiếu",
+    "translation": "Thiếu gia họ Cố",
+    "hanviet": "",
+    "category": "Danh xưng",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_029"
+  },
+  {
+    "original": "electronic password handcuffs",
+    "translation": "còng tay mật mã điện tử",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_030"
+  },
+  {
+    "original": "gigolo",
+    "translation": "trai bao",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_030"
+  },
+  {
+    "original": "Thảo Dược Viên",
+    "translation": "Vườn thảo dược",
+    "hanviet": "Thảo Dược Viên",
+    "category": "Địa điểm",
+    "confidence": 0.95,
+    "approved": true,
+    "chapter_first_seen": "ch_030"
+  },
+  {
+    "original": "figure",
+    "translation": "mô hình nhân vật",
+    "hanviet": "",
+    "category": "Vật phẩm",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_008"
+  },
+  {
+    "original": "merch",
+    "translation": "đồ lưu niệm/vật phẩm ăn theo",
+    "hanviet": "",
+    "category": "Vật phẩm",
+    "confidence": 0.95,
+    "approved": true,
+    "chapter_first_seen": "ch_008"
+  },
+  {
+    "original": "Xe bay",
+    "translation": "Flying vehicle",
+    "hanviet": "Phi xa",
+    "category": "Công nghệ",
+    "confidence": 0.95,
+    "approved": true,
+    "chapter_first_seen": "ch_013"
+  },
+  {
+    "original": "Tiệc tốt nghiệp",
+    "translation": "Tiệc tốt nghiệp",
+    "hanviet": "Tốt nghiệp yến",
+    "category": "Sự kiện",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_016"
+  },
+  {
+    "original": "Original work",
+    "translation": "Nguyên tác",
+    "hanviet": "Nguyên tác",
+    "category": "literary/meta",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_017"
+  },
+  {
+    "original": "Thẩm trưởng lão",
+    "translation": "Trưởng lão họ Thẩm",
+    "hanviet": "Thẩm trưởng lão",
+    "category": "Chức danh",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_018"
+  },
+  {
+    "original": "tửu lượng",
+    "translation": "khả năng uống rượu",
+    "hanviet": "tửu lượng",
+    "category": "Đời sống",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_019"
+  },
+  {
+    "original": "Beta",
+    "translation": "Beta",
+    "hanviet": "",
+    "category": "Giới tính phụ",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_022"
+  },
+  {
+    "original": "Bạch Thạch",
+    "translation": "Thảo mộc Bạch Thạch",
+    "hanviet": "Bạch Thạch",
+    "category": "Thảo dược",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_024"
+  },
+  {
+    "original": "reboot project",
+    "translation": "dự án tái khởi động",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_031"
+  },
+  {
+    "original": "desensitization therapy",
+    "translation": "liệu pháp giải mẫn cảm",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_031"
+  },
+  {
+    "original": "mật mã học",
+    "translation": "cryptography",
+    "hanviet": "mật mã học",
+    "category": "kỹ thuật",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_031"
+  },
+  {
+    "original": "mã Morse",
+    "translation": "Morse code",
+    "hanviet": "mã Morse",
+    "category": "kỹ thuật",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_031"
+  },
+  {
+    "original": "smart screen",
+    "translation": "màn hình thông minh",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_032"
+  },
+  {
+    "original": "Thẩm lão gia chủ",
+    "translation": "Người đứng đầu gia tộc họ Thẩm",
+    "hanviet": "Thẩm lão gia chủ",
+    "category": "Danh xưng",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_032"
+  },
+  {
+    "original": "Chính thất",
+    "translation": "Vợ chính thức / Người có vị thế cao nhất",
+    "hanviet": "Chính thất",
+    "category": "Thuật ngữ",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_032"
+  },
+  {
+    "original": "Tư gia",
+    "translation": "Nhà riêng",
+    "hanviet": "Tư gia",
+    "category": "Địa điểm",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_032"
+  },
+  {
+    "original": "Pheromone Isolation Patch",
+    "translation": "Miếng dán cách ly pheromone",
+    "hanviet": "Phí-lô-môn cách ly thiếp",
+    "category": "item",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_033"
+  },
+  {
+    "original": "indwelling needle",
+    "translation": "kim luồn",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_033"
+  },
+  {
+    "original": "kim lưu",
+    "translation": "kim lưu",
+    "hanviet": "kim lưu",
+    "category": "Y tế/Thiết bị",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_033"
+  },
+  {
+    "original": "tuyến pheromone",
+    "translation": "tuyến pheromone",
+    "hanviet": "tuyến phí-lô-môn",
+    "category": "Sinh học",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_033"
+  },
+  {
+    "original": "Khoảnh khắc",
+    "translation": "Khoảnh khắc (Moments)",
+    "hanviet": "Khoảnh khắc",
+    "category": "Công nghệ",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_033"
+  },
+  {
+    "original": "estrus period",
+    "translation": "kỳ phát tình",
+    "hanviet": "phát tình kỳ",
+    "category": "Sinh học/Omegaverse",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_034"
+  },
+  {
+    "original": "pheromone isolation device",
+    "translation": "thiết bị cách ly pheromone",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 0.95,
+    "approved": true,
+    "chapter_first_seen": "ch_034"
+  },
+  {
+    "original": "White Swan Lake",
+    "translation": "Hồ Thiên Nga Trắng",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_035"
+  },
+  {
+    "original": "Federation Premier Science Military Academy",
+    "translation": "Học viện Quân sự Khoa học Thủ phủ Liên bang",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 0.8,
+    "approved": true,
+    "chapter_first_seen": "ch_035"
+  },
+  {
+    "original": "Federation Supreme Mecha Institute",
+    "translation": "Học viện Cơ giáp Tối cao Liên bang",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 0.8,
+    "approved": true,
+    "chapter_first_seen": "ch_035"
+  },
+  {
+    "original": "Liên đoàn",
+    "translation": "Liên đoàn",
+    "hanviet": "Liên đoàn",
+    "category": "Cơ quan quản lý",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_035"
+  },
+  {
+    "original": "giấy phép phát triển",
+    "translation": "giấy phép phát triển",
+    "hanviet": "phát triển hứa khả chứng",
+    "category": "Hành chính/Pháp lý",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_035"
+  },
+  {
+    "original": "Mechanical Bird",
+    "translation": "Chim cơ khí",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 0.95,
+    "approved": true,
+    "chapter_first_seen": "ch_036"
+  },
+  {
+    "original": "Bai Shi",
+    "translation": "Bạch Thạch",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_038"
+  },
+  {
+    "original": "Black Market Bar",
+    "translation": "Quán bar chợ đen",
+    "hanviet": "",
+    "category": "location",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_039"
+  },
+  {
+    "original": "Chợ Đen",
+    "translation": "Chợ Đen",
+    "hanviet": "Hắc Thị",
+    "category": "Địa điểm",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_039"
+  },
+  {
+    "original": "directional differentiation",
+    "translation": "phân hóa định hướng",
+    "hanviet": "",
+    "category": "skill",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_040"
+  },
+  {
+    "original": "Energy Field Science",
+    "translation": "Khoa học Trường Năng lượng",
+    "hanviet": "",
+    "category": "skill",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_041"
+  },
+  {
+    "original": "Prosecutor's Office",
+    "translation": "Văn phòng Công tố",
+    "hanviet": "Kiểm sát viện",
+    "category": "Organization",
+    "confidence": 0.95,
+    "approved": true,
+    "chapter_first_seen": "ch_041"
+  },
+  {
+    "original": "Bureau of Investigation",
+    "translation": "Cục Điều tra",
+    "hanviet": "Điều tra cục",
+    "category": "Organization",
+    "confidence": 0.95,
+    "approved": true,
+    "chapter_first_seen": "ch_041"
+  },
+  {
+    "original": "defective serum",
+    "translation": "huyết thanh lỗi",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_042"
+  },
+  {
+    "original": "high-density synthetic shuttle",
+    "translation": "phi thuyền tổng hợp mật độ cao",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 0.85,
+    "approved": true,
+    "chapter_first_seen": "ch_042"
+  },
+  {
+    "original": "quantum card reader",
+    "translation": "đầu đọc thẻ lượng tử",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_042"
+  },
+  {
+    "original": "Gia tộc Shen",
+    "translation": "Gia tộc Thẩm",
+    "hanviet": "Thẩm thị",
+    "category": "Tổ chức",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_042"
+  },
+  {
+    "original": "Trại tạm giam",
+    "translation": "Trại tạm giam",
+    "hanviet": "Trại tạm giam",
+    "category": "Địa điểm",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_042"
+  },
+  {
+    "original": "Order Maintainers",
+    "translation": "Người duy trì trật tự",
+    "hanviet": "",
+    "category": "faction",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_043"
+  },
+  {
+    "original": "Special Professions",
+    "translation": "Chức nghiệp đặc biệt",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_043"
+  },
+  {
+    "original": "Energy Orb",
+    "translation": "Quả cầu năng lượng",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_043"
+  },
+  {
+    "original": "Ngôi sao chính",
+    "translation": "Ngôi sao chính",
+    "hanviet": "Chủ Tinh",
+    "category": "Địa điểm",
+    "confidence": 0.95,
+    "approved": true,
+    "chapter_first_seen": "ch_043"
+  },
+  {
+    "original": "Vòng xoáy năng lượng",
+    "translation": "Vòng xoáy năng lượng",
+    "hanviet": "Năng lượng xoáy",
+    "category": "Thuật ngữ",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_043"
+  },
+  {
+    "original": "Đứa con định mệnh",
+    "translation": "Đứa con định mệnh",
+    "hanviet": "Thiên mệnh chi tử",
+    "category": "Thuật ngữ",
+    "confidence": 0.95,
+    "approved": true,
+    "chapter_first_seen": "ch_043"
+  },
+  {
+    "original": "Main Star",
+    "translation": "Chủ Tinh",
+    "hanviet": "Chủ Tinh",
+    "category": "other",
+    "confidence": 0.8,
+    "approved": true,
+    "chapter_first_seen": "ch_044"
+  },
+  {
+    "original": "Main Star inhabitant",
+    "translation": "Người từ Tinh cầu Chính",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_045"
+  },
+  {
+    "original": "laws of the world's order",
+    "translation": "quy tắc trật tự thế giới",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 0.95,
+    "approved": true,
+    "chapter_first_seen": "ch_045"
+  },
+  {
+    "original": "differentiation",
+    "translation": "phân hóa",
+    "hanviet": "phân hóa",
+    "category": "Sinh học/ABO",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_045"
+  },
+  {
+    "original": "1642",
+    "translation": "1642",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 0.7,
+    "approved": true,
+    "chapter_first_seen": "ch_045"
+  },
+  {
+    "original": "không gian túi",
+    "translation": "không gian túi",
+    "hanviet": "túi không gian",
+    "category": "Vật phẩm/Khái niệm",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_045"
+  },
+  {
+    "original": "Imperial Concubine Gu",
+    "translation": "Quý phi Gu",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 0.8,
+    "approved": true,
+    "chapter_first_seen": "ch_046"
+  },
+  {
+    "original": "Attendant Cha",
+    "translation": "Trà thị",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 0.7,
+    "approved": true,
+    "chapter_first_seen": "ch_046"
+  },
+  {
+    "original": "gland",
+    "translation": "tuyến thể",
+    "hanviet": "tuyến thể",
+    "category": "Sinh học/ABO",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_046"
+  },
+  {
+    "original": "S and M",
+    "translation": "Sadist and Masochist",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_047"
+  },
+  {
+    "original": "lazy, celibate-chic",
+    "translation": "lazy, celibate-chic",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_047"
+  },
+  {
+    "original": "Narcissus trope",
+    "translation": "Narcissus trope",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_047"
+  },
+  {
+    "original": "Nhóm Dược lý",
+    "translation": "Pharmacology Group",
+    "hanviet": "Dược lý tổ",
+    "category": "Department",
+    "confidence": 0.95,
+    "approved": true,
+    "chapter_first_seen": "ch_047"
+  },
+  {
+    "original": "secondary gender differentiation",
+    "translation": "phân hóa giới tính thứ hai",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_048"
+  },
+  {
+    "original": "original plot",
+    "translation": "cốt truyện gốc",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_049"
+  },
+  {
+    "original": "PUA",
+    "translation": "Pick-up Artist (manipulation tactics)",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_050"
+  },
+  {
+    "original": "pseudo-heat",
+    "translation": "kỳ phát tình giả",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_050"
+  },
+  {
+    "original": "Tinh Cầu Chính",
+    "translation": "Hành tinh trung tâm/chính",
+    "hanviet": "Tinh Cầu Chính",
+    "category": "Địa danh",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_050"
+  },
+  {
+    "original": "infinite-flow",
+    "translation": "vô hạn lưu",
+    "hanviet": "vô hạn lưu",
+    "category": "Thể loại văn học",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_051"
+  },
+  {
+    "original": "dog-blood romance",
+    "translation": "cẩu huyết",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_051"
+  },
+  {
+    "original": "cremation-trope",
+    "translation": "truy thê hỏa táng tràng",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_051"
+  },
+  {
+    "original": "truy thê hỏa táng",
+    "translation": "truy thê hỏa táng",
+    "hanviet": "truy thê hỏa táng",
+    "category": "Thể loại văn học",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_051"
+  },
+  {
+    "original": "Main Star pass",
+    "translation": "Thẻ thông hành Main Star",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_052"
+  },
+  {
+    "original": "differentiation period",
+    "translation": "thời kỳ phân hóa",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_052"
+  },
+  {
+    "original": "world's rules",
+    "translation": "quy tắc thế giới",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_052"
+  },
+  {
+    "original": "pheromone riot",
+    "translation": "bạo loạn pheromone",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 0.95,
+    "approved": true,
+    "chapter_first_seen": "ch_053"
+  },
+  {
+    "original": "C2",
+    "translation": "thuốc C2",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_053"
+  },
+  {
+    "original": "inhibitor collar",
+    "translation": "vòng ức chế",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 0.95,
+    "approved": true,
+    "chapter_first_seen": "ch_053"
+  },
+  {
+    "original": "kỳ phân hóa",
+    "translation": "differentiation period",
+    "hanviet": "phân hóa kỳ",
+    "category": "ABO terminology",
+    "confidence": 0.95,
+    "approved": true,
+    "chapter_first_seen": "ch_053"
+  },
+  {
+    "original": "kênh dẫn",
+    "translation": "conduit/channel",
+    "hanviet": "kênh dẫn",
+    "category": "Technical",
+    "confidence": 0.85,
+    "approved": true,
+    "chapter_first_seen": "ch_053"
+  },
+  {
+    "original": "energy channel",
+    "translation": "kênh năng lượng",
+    "hanviet": "",
+    "category": "skill",
+    "confidence": 0.95,
+    "approved": true,
+    "chapter_first_seen": "ch_054"
+  },
+  {
+    "original": "light computer",
+    "translation": "máy tính bảng/thiết bị trình chiếu",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 0.85,
+    "approved": true,
+    "chapter_first_seen": "ch_054"
+  },
+  {
+    "original": "Dog-Leap",
+    "translation": "Dog-Leap",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_055"
+  },
+  {
+    "original": "100% pheromone compatibility",
+    "translation": "độ tương thích pheromone 100%",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_055"
+  },
+  {
+    "original": "Pharmacology Team",
+    "translation": "Nhóm Dược lý",
+    "hanviet": "",
+    "category": "faction",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_056"
+  },
+  {
+    "original": "mechanical claw",
+    "translation": "cánh tay máy",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_056"
+  },
+  {
+    "original": "W.N drug experiment report",
+    "translation": "Báo cáo thí nghiệm thuốc W.N",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_057"
+  },
+  {
+    "original": "Spacetime Planes",
+    "translation": "Các diện không thời gian",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_057"
+  },
+  {
+    "original": "World's Will",
+    "translation": "Ý chí thế giới",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_057"
+  },
+  {
+    "original": "Viện kiểm sát",
+    "translation": "Viện kiểm sát",
+    "hanviet": "Viện kiểm sát",
+    "category": "organization",
+    "confidence": 0.95,
+    "approved": true,
+    "chapter_first_seen": "ch_057"
+  },
+  {
+    "original": "mechanical mouse",
+    "translation": "chuột máy",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_058"
+  },
+  {
+    "original": "Khu Bảy",
+    "translation": "Khu Bảy",
+    "hanviet": "Thất Khu",
+    "category": "location",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_058"
+  },
+  {
+    "original": "tanghulu",
+    "translation": "kẹo hồ lô",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_059"
+  },
+  {
+    "original": "Blue Star ID cards",
+    "translation": "Thẻ căn cước Hành tinh Xanh",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_059"
+  },
+  {
+    "original": "kẹo hồ lô",
+    "translation": "candied fruit skewer",
+    "hanviet": "",
+    "category": "Food/Snack",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_059"
+  },
+  {
+    "original": "kẹo sơn trà",
+    "translation": "candied hawthorn skewer",
+    "hanviet": "",
+    "category": "Food/Snack",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_059"
+  },
+  {
+    "original": "portable brain",
+    "translation": "thiết bị não bộ di động",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_060"
+  },
+  {
+    "original": "Federation General Administration Department",
+    "translation": "Cục Quản lý Tổng hợp Liên bang",
+    "hanviet": "",
+    "category": "faction",
+    "confidence": 0.95,
+    "approved": true,
+    "chapter_first_seen": "ch_060"
+  },
+  {
+    "original": "Underground Energy Test Site",
+    "translation": "Khu thử nghiệm năng lượng ngầm",
+    "hanviet": "",
+    "category": "location",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_060"
+  },
+  {
+    "original": "Rapid Data Network",
+    "translation": "Mạng Dữ liệu Tốc độ cao",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_061"
+  },
+  {
+    "original": "Energy Group",
+    "translation": "Tập đoàn Năng lượng",
+    "hanviet": "",
+    "category": "faction",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_061"
+  }
+]

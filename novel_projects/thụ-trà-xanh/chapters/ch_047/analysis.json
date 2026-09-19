@@ -1,0 +1,97 @@
+{
+  "chapter_summary": "Shen Feizhi returns to the W.N research institute, where he learns that Gu Suizhou has cut funding for their projects. Shen suspects this is a continuation of the original professors' (Lin and Gu) intentions. Later, Shen goes to a social club called 'Feiya' with his acquaintance C2 to scout for someone who matches Gu Suizhou's ideal type. While there, Shen's appearance draws significant attention, and he begins playing dice with a group of strangers, unaware that he is being observed by a shocked Leapton.",
+  "new_characters": [
+    {
+      "name": "Luvi Tisqi",
+      "gender": "female",
+      "role": "Director of the W.N research institute",
+      "description": "Stressed, overworked director dealing with board disagreements and funding cuts."
+    },
+    {
+      "name": "Ritter",
+      "gender": "male",
+      "role": "Team Leader at W.N",
+      "description": "A balding colleague who flirts with Shen Feizhi."
+    },
+    {
+      "name": "Big Baldy",
+      "gender": "male",
+      "role": "Biotech Team Lead",
+      "description": "A colleague at the research institute."
+    },
+    {
+      "name": "C2",
+      "gender": "male",
+      "role": "Acquaintance/Fashion consultant",
+      "description": "A stylish, flirtatious Alpha who helps Shen Feizhi dress for the club."
+    },
+    {
+      "name": "Number 9",
+      "gender": "male",
+      "role": "Club patron",
+      "description": "A lean, attractive man with a beauty mark who invites Shen Feizhi to play dice."
+    }
+  ],
+  "new_locations": [
+    {
+      "name": "W.N",
+      "description": "A research institute where Shen Feizhi works."
+    },
+    {
+      "name": "Feiya",
+      "description": "A high-end social club/mixer venue."
+    },
+    {
+      "name": "Energy Test Site",
+      "description": "A high-radiation area associated with the research institute."
+    }
+  ],
+  "new_terms": [
+    {
+      "original": "S and M",
+      "suggested": "Sadist and Masochist",
+      "category": "other",
+      "confidence": 1.0
+    },
+    {
+      "original": "lazy, celibate-chic",
+      "suggested": "lazy, celibate-chic",
+      "category": "other",
+      "confidence": 0.9
+    },
+    {
+      "original": "Narcissus trope",
+      "suggested": "Narcissus trope",
+      "category": "other",
+      "confidence": 0.9
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "Bastard",
+      "suggested": "Gu Suizhou",
+      "confidence": 0.9,
+      "question": "Is 'Bastard' the contact name Shen Feizhi has saved for Gu Suizhou in his phone?",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_002",
+      "original": "Gege",
+      "suggested": "Older brother/term of endearment",
+      "confidence": 0.95,
+      "question": "Is Gu Suizhou using 'Gege' as a playful, intimate term for Shen Feizhi?",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "category": "honorific"
+    }
+  ],
+  "chapter_id": "ch_047",
+  "analyzed_at": "2026-09-19T11:31:09.852433+07:00"
+}

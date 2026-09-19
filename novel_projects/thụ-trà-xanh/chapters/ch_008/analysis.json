@@ -1,0 +1,177 @@
+{
+  "chapter_summary": "Gu Suizhou visits Leapton at his internet cafe, revealing he has run away from Lin Sui's home and is now freeloading off someone (implied to be Shen Feizhi). Leapton, a flamboyant character, is also revealed to be Gu Suizhou's partner in an ongoing investigation. Shen Feizhi arrives at the internet cafe, needing a private room for two hours. It's revealed he arrived in 'this world' a week ago and is gathering information about key figures like Lin Sui, Gu Suizhou, and Lin Zhou, and the organization W.N. He is also implied to be working under a tight schedule, possibly as a janitor at W.N. Gu Suizhou tasks Leapton with investigating the Shen family's financial transactions related to drug funding and finding his parents' bodies, who died in an accident years ago, implicating the Shen family. Gu Suizhou also reveals he has made advances on Shen Feizhi, who was indifferent, and plans a new approach. Leapton, meanwhile, is smitten with Shen Feizhi.",
+  "new_characters": [
+    {
+      "name": "Leapton",
+      "gender": "Male",
+      "role": "Internet cafe owner/worker, Gu Suizhou's partner/friend",
+      "description": "A blond-haired youth, flamboyant and stylish, who runs an internet cafe. He is easily intimidated by Gu Suizhou and has a string of male companions. He is also involved in Gu Suizhou's investigations."
+    },
+    {
+      "name": "Song Zhe",
+      "gender": "Male",
+      "role": "Acquaintance of Gu Suizhou",
+      "description": "Gu Suizhou went to his place to grab food after skipping breakfast."
+    },
+    {
+      "name": "Aunt Gu Lang",
+      "gender": "Female",
+      "role": "Gu Suizhou's aunt or other relative",
+      "description": "A relative who left belongings to Gu Suizhou."
+    },
+    {
+      "name": "Lin Zhou",
+      "gender": "Unknown",
+      "role": "Key figure in Shen Feizhi's research",
+      "description": "A name that appears alongside Lin Sui, W.N., and Gu Suizhou in Shen Feizhi's gathered information."
+    }
+  ],
+  "new_locations": [
+    {
+      "name": "Internet cafe",
+      "description": "Leapton's workplace, featuring private rooms and a break room. Gu Suizhou and Shen Feizhi both visit it."
+    },
+    {
+      "name": "Underground City",
+      "description": "A location where Gu Suizhou believes he is not known, possibly implying a less reputable or distinct part of the city."
+    },
+    {
+      "name": "Break room",
+      "description": "A room located within Leapton's internet cafe."
+    },
+    {
+      "name": "Leapton's room",
+      "description": "A private room within the internet cafe, where Leapton keeps his collectible figures and merchandise."
+    },
+    {
+      "name": "Underground parking garage of W.N.",
+      "description": "A parking area located beneath the W.N. organization building."
+    }
+  ],
+  "new_terms": [
+    {
+      "original": "宾至如归",
+      "suggested": "cảm giác như ở nhà",
+      "category": "other",
+      "confidence": 1.0
+    },
+    {
+      "original": "key turning points",
+      "suggested": "bước ngoặt quan trọng",
+      "category": "other",
+      "confidence": 1.0
+    },
+    {
+      "original": "C1907",
+      "suggested": "C1907",
+      "category": "other",
+      "confidence": 1.0
+    },
+    {
+      "original": "beautiful poppy",
+      "suggested": "bông anh túc xinh đẹp",
+      "category": "other",
+      "confidence": 1.0
+    },
+    {
+      "original": "Mr. Shen",
+      "suggested": "Anh Shen / Quý khách Shen",
+      "category": "honorific",
+      "confidence": 1.0
+    },
+    {
+      "original": "Brother Zhou",
+      "suggested": "Anh Zhou",
+      "category": "honorific",
+      "confidence": 1.0
+    },
+    {
+      "original": "figures and merch",
+      "suggested": "mô hình và vật phẩm sưu tầm",
+      "category": "item",
+      "confidence": 1.0
+    },
+    {
+      "original": "circle lenses",
+      "suggested": "kính áp tròng giãn tròng",
+      "category": "item",
+      "confidence": 1.0
+    },
+    {
+      "original": "fake eyelashes",
+      "suggested": "lông mi giả",
+      "category": "item",
+      "confidence": 1.0
+    },
+    {
+      "original": "data disk",
+      "suggested": "đĩa dữ liệu",
+      "category": "item",
+      "confidence": 1.0
+    },
+    {
+      "original": "smartphone",
+      "suggested": "điện thoại thông minh",
+      "category": "item",
+      "confidence": 1.0
+    },
+    {
+      "original": "miniature earpiece",
+      "suggested": "tai nghe mini",
+      "category": "item",
+      "confidence": 1.0
+    },
+    {
+      "original": "smart system",
+      "suggested": "hệ thống thông minh",
+      "category": "item",
+      "confidence": 1.0
+    },
+    {
+      "original": "speed-tapping",
+      "suggested": "gõ nhanh",
+      "category": "skill",
+      "confidence": 1.0
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "Aunt Gu Lang",
+      "suggested": null,
+      "confidence": 0.7,
+      "question": "Is 'Gu Lang' the full name of 'Gu Suizhou's mother' (who is a known character), or is this a different aunt/relative?",
+      "options": [],
+      "category": "name"
+    },
+    {
+      "id": "amb_002",
+      "original": "that little brat at home",
+      "suggested": null,
+      "confidence": 0.8,
+      "question": "Who is 'that little brat at home' that Shen Feizhi is referring to?",
+      "options": [],
+      "category": "name"
+    },
+    {
+      "id": "amb_003",
+      "original": "W.N.'s janitorial staff",
+      "suggested": null,
+      "confidence": 0.9,
+      "question": "Is Shen Feizhi actually part of W.N.'s janitorial staff, or is he using this as a cover/excuse for his limited time?",
+      "options": [],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_004",
+      "original": "funding the drugs for him",
+      "suggested": null,
+      "confidence": 0.85,
+      "question": "Who is the 'him' for whom the Shen family is funding drugs?",
+      "options": [],
+      "category": "pronoun"
+    }
+  ],
+  "chapter_id": "ch_008",
+  "analyzed_at": "2026-09-19T11:28:03.303200+07:00"
+}

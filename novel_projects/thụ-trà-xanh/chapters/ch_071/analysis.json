@@ -1,0 +1,57 @@
+{
+  "chapter_summary": "Gu Suizhou and Shen Feizhi attend an exclusive, high-stakes immersive treasure hunt event hosted by the Federation aboard a cruise ship. The event is a 'cash grab' requiring a 50-million-dollar entry fee per person. Participants are ranked by wealth, with Shen Feizhi ranked 6th and Gu Suizhou 9th. The event features a supernatural, horror-themed stage play where participants must complete side quests to unlock treasure chests. Gu Suizhou, who has a severe phobia of ghosts, struggles to navigate the ship, while Shen Feizhi spends hours completing tasks only to find empty chests. The chapter ends with Shen Feizhi searching for Gu Suizhou and running into Leapton.",
+  "new_characters": [
+    {
+      "name": "Leapton",
+      "gender": "male",
+      "role": "Participant",
+      "description": "An acquaintance of Gu Suizhou who is also participating in the treasure hunt. He is ranked 124th based on his wealth."
+    }
+  ],
+  "new_locations": [
+    {
+      "name": "Blue Star",
+      "description": "The planet where the story takes place."
+    },
+    {
+      "name": "Cruise Ship",
+      "description": "The venue for the Federation's immersive treasure hunt event."
+    }
+  ],
+  "new_terms": [
+    {
+      "original": "Federation",
+      "suggested": "Liên bang",
+      "category": "faction",
+      "confidence": 1.0
+    },
+    {
+      "original": "Identity cards",
+      "suggested": "Thẻ định danh",
+      "category": "item",
+      "confidence": 0.9
+    },
+    {
+      "original": "Miniature crystal",
+      "suggested": "Tinh thể thu nhỏ",
+      "category": "item",
+      "confidence": 0.9
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "Old Gu",
+      "suggested": "Lão Cố",
+      "confidence": 0.9,
+      "question": "Is 'Old Gu' a friendly nickname or a formal address? Given the context of Leapton and Gu Suizhou's relationship, 'Lão Cố' is appropriate.",
+      "options": [
+        "Lão Cố",
+        "Cố lão"
+      ],
+      "category": "honorific"
+    }
+  ],
+  "chapter_id": "ch_071",
+  "analyzed_at": "2026-09-19T11:32:33.423005+07:00"
+}

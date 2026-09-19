@@ -1,0 +1,99 @@
+{
+  "chapter_summary": "Gu Suizhou and Shen Feizhi navigate the aftermath of Lin Sui's death, which is ruled an accident despite their suspicions. Shen Feizhi learns through his contact, C2, that the death was orchestrated by someone using advanced technology from 'World Number 69' to bypass local security. It is revealed that someone has discovered the 'Main Star' and is communicating with it. Shen Feizhi, realizing the gravity of the situation and the potential danger to Gu Suizhou, decides to disclose the truth about spacetime planes, the Main Star, and his own nature to Gu Suizhou, who has been revealed to have made a 'compromise' with the World's Will.",
+  "new_characters": [
+    {
+      "name": "Luvi Tisqi",
+      "gender": "female",
+      "role": "Informant/Associate",
+      "description": "Mentioned as having tattled on Gu Suizhou regarding the W.N drug experiment report."
+    },
+    {
+      "name": "Lu Fan",
+      "gender": "male",
+      "role": "Designer",
+      "description": "Designer of the Shen family's old mansion; currently in a detention center and linked to a suspicious financial transaction."
+    },
+    {
+      "name": "C2",
+      "gender": "unknown",
+      "role": "Technological contact/Ally",
+      "description": "A highly skilled individual with access to advanced technology, likely an entity or hacker operating beyond standard authority."
+    },
+    {
+      "name": "A11",
+      "gender": "unknown",
+      "role": "Authority figure/Overseer",
+      "description": "Mentioned by C2 as someone who might report unauthorized activities."
+    }
+  ],
+  "new_locations": [
+    {
+      "name": "District Seven",
+      "description": "A remote and secluded area used for facilitating illicit financial transfers."
+    },
+    {
+      "name": "World Number 69",
+      "description": "A location associated with cutting-edge computer technology that surpasses the current world's capabilities."
+    },
+    {
+      "name": "Main Star",
+      "description": "A higher-dimensional or central hub of existence/technology that is being targeted by unknown actors."
+    }
+  ],
+  "new_terms": [
+    {
+      "original": "W.N drug experiment report",
+      "suggested": "Báo cáo thí nghiệm thuốc W.N",
+      "category": "item",
+      "confidence": 1.0
+    },
+    {
+      "original": "Spacetime Planes",
+      "suggested": "Các diện không thời gian",
+      "category": "other",
+      "confidence": 0.9
+    },
+    {
+      "original": "World's Will",
+      "suggested": "Ý chí thế giới",
+      "category": "other",
+      "confidence": 1.0
+    },
+    {
+      "original": "Pharmacology Team",
+      "suggested": "Đội Dược lý",
+      "category": "faction",
+      "confidence": 1.0
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "Big Brother~",
+      "suggested": "Anh trai~",
+      "confidence": 0.8,
+      "question": "Is this a literal familial term or a playful/flirtatious nickname used by Gu Suizhou?",
+      "options": [
+        "Anh trai",
+        "Anh yêu",
+        "Anh"
+      ],
+      "category": "honorific"
+    },
+    {
+      "id": "amb_002",
+      "original": "harmful to heaven and reason",
+      "suggested": "táng tận lương tâm",
+      "confidence": 0.9,
+      "question": "The text uses this as a category for serious crimes. Should it be translated as a set phrase or descriptive?",
+      "options": [
+        "táng tận lương tâm",
+        "trái với đạo lý",
+        "vi phạm pháp luật"
+      ],
+      "category": "term"
+    }
+  ],
+  "chapter_id": "ch_057",
+  "analyzed_at": "2026-09-19T11:31:48.676518+07:00"
+}

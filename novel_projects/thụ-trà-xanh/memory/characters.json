@@ -1,0 +1,337 @@
+[
+  {
+    "name": "Gu Suizhou",
+    "hanviet_name": "Cố Tùy Châu",
+    "gender": "Nam",
+    "aliases": [
+      "Lâm Châu",
+      "Cố Tùy Châu",
+      "Tiểu Châu",
+      "Anh Cố"
+    ],
+    "honorifics": "em - anh Thẩm",
+    "speech_style": "Thẳng thắn, nhạy bén, kịch tính, xưng em gọi anh Thẩm",
+    "notes": "Học sinh, Omega giả định (thực chất Alpha), nhạy cảm với pheromone. Em trai cùng cha khác mẹ với Lâm Tùy."
+  },
+  {
+    "name": "Shen Feizhi",
+    "hanviet_name": "Thẩm Phi Triết",
+    "gender": "Nam",
+    "aliases": [
+      "Thẩm Triết",
+      "Thẩm Phi Triết",
+      "Anh Thẩm"
+    ],
+    "honorifics": "tôi - cậu/anh",
+    "speech_style": "Lạnh lùng, điềm tĩnh, sắc bén, chuyên nghiệp",
+    "notes": "Nam chính xuyên sách, hacker tài năng, cải trang thành Thẩm Triết. Pheromone vị cà phê đắng."
+  },
+  {
+    "name": "Lin Sui",
+    "hanviet_name": "Lâm Tùy",
+    "gender": "Nam",
+    "aliases": [
+      "Bác sĩ Lâm",
+      "Lâm Tùy"
+    ],
+    "honorifics": "anh",
+    "speech_style": "Lịch sự, giả tạo",
+    "notes": "Anh trai của Cố Tùy Châu, là bác sĩ."
+  },
+  {
+    "name": "Leapton",
+    "hanviet_name": "Lai Cẩu",
+    "gender": "Nam",
+    "aliases": [
+      "Guinness Dan Leapton",
+      "Lai Cẩu",
+      "Lai Gou",
+      "Blondie",
+      "Tóc Vàng",
+      "cậu trai tóc vàng"
+    ],
+    "honorifics": "với Thẩm Phi Triết: tôi - anh; với Cố Tùy Châu: tôi - sếp (hoặc Cố thiếu / lão Cố)",
+    "speech_style": "Thoải mái, suồng sã, nhiệt tình",
+    "notes": "Lớn hơn Cố Tùy Châu 9 tuổi nhưng làm việc dưới trướng Cố Tùy Châu (Cố Tùy Châu là sếp). Chủ quán net đối diện W.N kiêm thu ngân (tóc vàng). Bạn thân của Thẩm Phi Triết. Thường được gọi là Tóc Vàng / Blondie."
+  },
+  {
+    "name": "Gu Lang",
+    "hanviet_name": "Cố Lãng",
+    "gender": "Nữ",
+    "aliases": [
+      "Cố Lãng",
+      "Cố Lang"
+    ],
+    "honorifics": "bà",
+    "speech_style": "Chưa rõ",
+    "notes": "Mẹ quá cố của Cố Tùy Châu, để lại toàn bộ tài sản cho Cố Tùy Châu."
+  },
+  {
+    "name": "Song Zhe",
+    "hanviet_name": "Tống Triết",
+    "gender": "Nam",
+    "aliases": [
+      "Tống Triết"
+    ],
+    "honorifics": "cậu - tớ",
+    "speech_style": "Nhiệt tình, trung thành",
+    "notes": "Bạn từ nhỏ trung thành của Cố Tùy Châu."
+  },
+  {
+    "name": "Jiang Che",
+    "hanviet_name": "Giang Triệt",
+    "gender": "Nam",
+    "aliases": [
+      "Giang Triệt",
+      "Thầy Giang"
+    ],
+    "honorifics": "thầy - em",
+    "speech_style": "Nghiêm túc, quan tâm học sinh",
+    "notes": "Giáo viên chủ nhiệm của Cố Tùy Châu tại trường nội trú."
+  },
+  {
+    "name": "Shen Wei",
+    "hanviet_name": "Thẩm Vĩ",
+    "gender": "Nam",
+    "aliases": [
+      "Thẩm Vĩ",
+      "Thẩm Nguy"
+    ],
+    "honorifics": "tôi - anh",
+    "speech_style": "Ngốc nghếch, nông cạn",
+    "notes": "Thành viên Thẩm gia vừa tốt nghiệp thạc sĩ W.N."
+  },
+  {
+    "name": "Lu Qian",
+    "hanviet_name": "Lục Khiêm",
+    "gender": "Nam",
+    "aliases": [
+      "Lục Khiêm"
+    ],
+    "honorifics": "tôi - anh",
+    "speech_style": "Yếu ớt, dịu dàng",
+    "notes": "Thanh mai trúc mã của Thẩm Vĩ, vị hôn thê giả của Thẩm Phi Triết, mắc bệnh tim."
+  },
+  {
+    "name": "Xu Zhong",
+    "hanviet_name": "Từ Trọng",
+    "gender": "Nam",
+    "aliases": [
+      "Từ Trọng",
+      "Hứa Trọng",
+      "Chú Trọng"
+    ],
+    "honorifics": "tôi - Cố thiếu gia",
+    "speech_style": "Kính cẩn, cẩn trọng",
+    "notes": "Trợ lý riêng của Cố Tùy Châu, nguyên là thuộc hạ của Cố Lãng."
+  },
+  {
+    "name": "Lin Zizhuo",
+    "hanviet_name": "Lâm Tử Trác",
+    "gender": "Nam",
+    "aliases": [
+      "Lâm Tử Trác"
+    ],
+    "honorifics": "ông",
+    "speech_style": "Nghiêm túc",
+    "notes": "Cha của Cố Tùy Châu (Lâm Tử Trác), nhà khoa học y tế tự sát 10 năm trước liên quan đến vụ bê bối W.N."
+  },
+  {
+    "name": "Yang Rui",
+    "hanviet_name": "Dương Thụy",
+    "gender": "Nam",
+    "aliases": [
+      "Dương Thụy"
+    ],
+    "honorifics": "mày - tao",
+    "speech_style": "Hống hách, thô lỗ",
+    "notes": "Kẻ từng gây hấn với Cố Tùy Châu, bị phạt."
+  },
+  {
+    "name": "Noblewoman",
+    "hanviet_name": "Quý phu nhân",
+    "gender": "Nữ",
+    "aliases": [
+      "Quý nữ",
+      "Quý phu nhân hàng xóm"
+    ],
+    "honorifics": "bà - cháu",
+    "speech_style": "Khinh khỉnh với Thẩm Phi Triết, cưng chiều Cố Tùy Châu",
+    "notes": "Hàng xóm tầng dưới của căn hộ gác mái Lanxie Road."
+  },
+  {
+    "name": "Old Master Shen",
+    "hanviet_name": "Thẩm lão gia chủ",
+    "gender": "Nam",
+    "aliases": [
+      "Lão gia chủ Shen",
+      "Thẩm lão gia chủ",
+      "Elder Shen",
+      "Elder Master Shen"
+    ],
+    "honorifics": "ông - cháu",
+    "speech_style": "Bảo thủ, cáo già xảo quyệt, uy áp",
+    "notes": "Gia chủ Thẩm gia, ông nội của Thẩm Phi Triết."
+  },
+  {
+    "name": "Ritter Naons",
+    "hanviet_name": "Ritter Naons",
+    "gender": "Nam",
+    "aliases": [
+      "Ritter",
+      "Giáo sư Ritter",
+      "Lý Đặc"
+    ],
+    "honorifics": "tôi - cậu",
+    "speech_style": "Chuyên nghiệp, nghiêm túc",
+    "notes": "Trưởng nhóm A tại Viện nghiên cứu W.N, đồng nghiệp của Thẩm Phi Triết."
+  },
+  {
+    "name": "Gu Suizhou's mother",
+    "hanviet_name": "Mẹ Cố Tùy Châu",
+    "gender": "Nữ",
+    "aliases": [],
+    "honorifics": "mẹ",
+    "speech_style": "Chưa rõ",
+    "notes": "Mẹ quá cố của Cố Tùy Châu."
+  },
+  {
+    "name": "Landlord",
+    "hanviet_name": "Chủ nhà",
+    "gender": "Nam/Nữ",
+    "aliases": [],
+    "honorifics": "tôi - anh",
+    "speech_style": "Gắt gao",
+    "notes": "Chủ căn hộ gác mái Shen Feizhi đang thuê."
+  },
+  {
+    "name": "Director",
+    "hanviet_name": "Viện trưởng W.N",
+    "gender": "Chưa rõ",
+    "aliases": [
+      "The Director"
+    ],
+    "honorifics": "ngài",
+    "speech_style": "Kỳ dị, bí ẩn",
+    "notes": "Viện trưởng Viện nghiên cứu W.N."
+  },
+  {
+    "name": "Professor Gu",
+    "hanviet_name": "Giáo sư Cố",
+    "gender": "Nam",
+    "aliases": [],
+    "honorifics": "ông",
+    "speech_style": "Nghiêm túc",
+    "notes": "Cựu nhà nghiên cứu liên quan đến vụ hỏa hoạn W.N."
+  },
+  {
+    "name": "Professor Lin",
+    "hanviet_name": "Giáo sư Lâm",
+    "gender": "Nam",
+    "aliases": [],
+    "honorifics": "ông",
+    "speech_style": "Nghiêm túc",
+    "notes": "Cựu nhà nghiên cứu liên quan đến vụ hỏa hoạn W.N."
+  },
+  {
+    "name": "Lu Fan",
+    "hanviet_name": "Lục Phàm",
+    "gender": "Nam",
+    "aliases": [
+      "Lu Fan",
+      "Lục Phàm"
+    ],
+    "honorifics": "tôi - anh",
+    "speech_style": "Cẩn trọng",
+    "notes": "Người được Thẩm Phi Triết dặn Cố Tùy Châu liên lạc."
+  },
+  {
+    "name": "Shen Jiang",
+    "hanviet_name": "Thẩm Giang",
+    "gender": "Nam",
+    "aliases": [
+      "Shen Jiang"
+    ],
+    "honorifics": "tôi - anh",
+    "speech_style": "Tham vọng",
+    "notes": "Em họ của Thẩm Vĩ, đối thủ cạnh tranh quyền lực trong Thẩm gia."
+  },
+  {
+    "name": "G",
+    "hanviet_name": "G (AI phi thuyền)",
+    "gender": "Chưa rõ",
+    "aliases": [
+      "G"
+    ],
+    "honorifics": "tôi - ngài",
+    "speech_style": "Máy móc, hỗ trợ",
+    "notes": "Trợ lý AI thông minh trên phi thuyền của Thẩm Phi Triết."
+  },
+  {
+    "name": "A11",
+    "hanviet_name": "A11",
+    "gender": "Chưa rõ",
+    "aliases": [
+      "A11"
+    ],
+    "honorifics": "tôi",
+    "speech_style": "Hệ thống",
+    "notes": "Thực thể cao chiều / quản lý hệ thống."
+  },
+  {
+    "name": "C2",
+    "hanviet_name": "C2",
+    "gender": "Nam",
+    "aliases": [
+      "C2"
+    ],
+    "honorifics": "tôi",
+    "speech_style": "Trẻ trung, trung tính",
+    "notes": "Alpha có ngoại hình trung tính, trẻ trung."
+  },
+  {
+    "name": "Luvi Tisqi",
+    "hanviet_name": "Lư Vi Đề Tư Kỳ",
+    "gender": "Nữ",
+    "aliases": [
+      "Luvi Tisqi",
+      "Lư Vi Đề Tư Kỳ"
+    ],
+    "honorifics": "tôi - các cậu",
+    "speech_style": "Trẻ trung, thẳng thắn",
+    "notes": "Nữ giám đốc loli, nhà sáng lập viện W.N."
+  },
+  {
+    "name": "Big Baldy",
+    "hanviet_name": "Đại Đầu Trọc",
+    "gender": "Nam",
+    "aliases": [],
+    "honorifics": "tôi - anh",
+    "speech_style": "Bỗ bã",
+    "notes": "Đồng nghiệp tại viện nghiên cứu."
+  },
+  {
+    "name": "Number 9",
+    "hanviet_name": "Anh đẹp trai Số 9",
+    "gender": "Nam",
+    "aliases": [
+      "Number 9 Handsome Guy"
+    ],
+    "honorifics": "tôi - anh",
+    "speech_style": "Lôi cuốn",
+    "notes": "Người nam cao gầy, hấp dẫn có nốt ruồi duyên rủ Thẩm Phi Triết chơi đổ xí ngầu."
+  },
+  {
+    "name": "Lucky",
+    "hanviet_name": "Chú chó May Mắn",
+    "gender": "Chó",
+    "aliases": [
+      "Fluke",
+      "Lucky Dog",
+      "Chú chó may mắn"
+    ],
+    "honorifics": "nó",
+    "speech_style": "Gâu gâu",
+    "notes": "Chú chó cún của Cố Tùy Châu và Thẩm Phi Triết."
+  }
+]

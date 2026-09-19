@@ -1,0 +1,255 @@
+{
+  "chapter_summary": "Shen Feizhi successfully secures a job as a \"Cleaning Supervisor\" at the W.N. research institute using a fabricated identity, \"Shen Zhi.\" He then makes a significant amount of money through short-term stock market trading. Realizing it's Friday and he's forgotten about Gu Suizhou, who is now out of school, he rushes back to the First District. Meanwhile, Gu Suizhou, abandoned by Shen Feizhi, is waiting outside his school, High Tier High School, with his friend Song Zhe. His backstory reveals he's playing the role of a \"helpless waste\" to protect his inheritance from his deceased father, Gu Lang, which is currently under the guardianship of Lin Sui. Gu Suizhou is confronted by a bully, Yang Rui. Shen Feizhi arrives just in time to intervene, stopping Yang Rui from hitting Gu Suizhou and then stomping on Yang Rui's injured hand.",
+  "new_characters": [
+    {
+      "name": "Shen Zhi",
+      "gender": "Male",
+      "role": "Fake identity",
+      "description": "A fabricated identity created by Shen Feizhi to secure a job at W.N., portrayed as an orphan with minimal education."
+    },
+    {
+      "name": "Blondie",
+      "gender": "Male",
+      "role": "Internet cafe staff",
+      "description": "A handsome blond young man working at the counter of an internet cafe in the Underground City."
+    },
+    {
+      "name": "Song Zhe",
+      "gender": "Male",
+      "role": "Gu Suizhou's childhood friend",
+      "description": "A simple-minded but loyal childhood friend of Gu Suizhou, who secretly supports him despite his family's downfall."
+    },
+    {
+      "name": "Yang Rui",
+      "gender": "Male",
+      "role": "Bully",
+      "description": "An antagonist who confronts and attempts to bully Gu Suizhou outside High Tier High School."
+    },
+    {
+      "name": "Gu Lang",
+      "gender": "Male",
+      "role": "Gu Suizhou's deceased father",
+      "description": "Gu Suizhou's late father, who left all his personal assets to Gu Suizhou. His death led to Lin Sui becoming Gu Suizhou's guardian."
+    }
+  ],
+  "new_locations": [
+    {
+      "name": "W.N.",
+      "description": "A research institute with strict confidentiality protocols, where Shen Feizhi secures a job as a Cleaning Supervisor."
+    },
+    {
+      "name": "Underground City",
+      "description": "A district characterized by casinos and internet cafes, seemingly distinct from the 'First District' and possibly less affluent or regulated."
+    },
+    {
+      "name": "First District",
+      "description": "A district where Gu Suizhou's school and rental apartment are located, implied to be more upscale or regulated than the Underground City."
+    },
+    {
+      "name": "High Tier High School",
+      "description": "The school attended by Gu Suizhou, located in the First District."
+    },
+    {
+      "name": "Vocational boarding school",
+      "description": "A boarding school located next door to the internet cafe in the Underground City, whose students frequent the cafe on weekends."
+    }
+  ],
+  "new_terms": [
+    {
+      "original": "Cleaning Supervisors",
+      "suggested": "Giám sát viên vệ sinh",
+      "category": "other",
+      "confidence": 1.0
+    },
+    {
+      "original": "ID badge",
+      "suggested": "Thẻ ID",
+      "category": "item",
+      "confidence": 1.0
+    },
+    {
+      "original": "Blue Star's Personnel Data Collection Network System",
+      "suggested": "Hệ thống Mạng lưới Thu thập Dữ liệu Nhân sự của Blue Star",
+      "category": "other",
+      "confidence": 1.0
+    },
+    {
+      "original": "T+0 trading system",
+      "suggested": "Hệ thống giao dịch T+0",
+      "category": "other",
+      "confidence": 1.0
+    },
+    {
+      "original": "Smart device",
+      "suggested": "Thiết bị thông minh",
+      "category": "item",
+      "confidence": 1.0
+    },
+    {
+      "original": "Credit card",
+      "suggested": "Thẻ tín dụng",
+      "category": "item",
+      "confidence": 1.0
+    },
+    {
+      "original": "Interstellar future",
+      "suggested": "Tương lai liên sao",
+      "category": "other",
+      "confidence": 1.0
+    },
+    {
+      "original": "Human agency",
+      "suggested": "Quyền tự chủ của con người",
+      "category": "other",
+      "confidence": 1.0
+    },
+    {
+      "original": "Confidentiality protocols",
+      "suggested": "Quy trình bảo mật",
+      "category": "other",
+      "confidence": 1.0
+    },
+    {
+      "original": "Network technology training",
+      "suggested": "Huấn luyện công nghệ mạng",
+      "category": "other",
+      "confidence": 1.0
+    },
+    {
+      "original": "Unemployed status",
+      "suggested": "Tình trạng thất nghiệp",
+      "category": "other",
+      "confidence": 1.0
+    },
+    {
+      "original": "Stock market system",
+      "suggested": "Hệ thống thị trường chứng khoán",
+      "category": "other",
+      "confidence": 1.0
+    },
+    {
+      "original": "Same-day settlement",
+      "suggested": "Thanh toán trong ngày",
+      "category": "other",
+      "confidence": 1.0
+    },
+    {
+      "original": "Private booth",
+      "suggested": "Phòng riêng",
+      "category": "other",
+      "confidence": 1.0
+    },
+    {
+      "original": "Red and green curves",
+      "suggested": "Đường cong đỏ và xanh",
+      "category": "other",
+      "confidence": 1.0
+    },
+    {
+      "original": "Dead weight",
+      "suggested": "Gánh nặng",
+      "category": "other",
+      "confidence": 1.0
+    },
+    {
+      "original": "Childhood friend",
+      "suggested": "Bạn thời thơ ấu",
+      "category": "other",
+      "confidence": 1.0
+    },
+    {
+      "original": "Helpless waste",
+      "suggested": "Kẻ vô dụng bất lực",
+      "category": "other",
+      "confidence": 1.0
+    },
+    {
+      "original": "Minor",
+      "suggested": "Người chưa thành niên",
+      "category": "other",
+      "confidence": 1.0
+    },
+    {
+      "original": "Guardianship",
+      "suggested": "Quyền giám hộ",
+      "category": "other",
+      "confidence": 1.0
+    },
+    {
+      "original": "Estate",
+      "suggested": "Tài sản thừa kế",
+      "category": "other",
+      "confidence": 1.0
+    },
+    {
+      "original": "Legal relative",
+      "suggested": "Người thân hợp pháp",
+      "category": "other",
+      "confidence": 1.0
+    },
+    {
+      "original": "Inheritance",
+      "suggested": "Tài sản thừa kế",
+      "category": "other",
+      "confidence": 1.0
+    },
+    {
+      "original": "Mercury in retrograde",
+      "suggested": "Sao Thủy nghịch hành",
+      "category": "other",
+      "confidence": 1.0
+    },
+    {
+      "original": "Good karma",
+      "suggested": "Nghiệp tốt",
+      "category": "other",
+      "confidence": 1.0
+    },
+    {
+      "original": "Little stray dog",
+      "suggested": "Chó hoang nhỏ",
+      "category": "other",
+      "confidence": 1.0
+    },
+    {
+      "original": "Utility pole",
+      "suggested": "Cột điện",
+      "category": "item",
+      "confidence": 1.0
+    },
+    {
+      "original": "W.N.",
+      "suggested": "W.N.",
+      "category": "faction",
+      "confidence": 1.0
+    },
+    {
+      "original": "Shen family",
+      "suggested": "Gia tộc Shen",
+      "category": "faction",
+      "confidence": 1.0
+    },
+    {
+      "original": "Gu family",
+      "suggested": "Gia tộc Gu",
+      "category": "faction",
+      "confidence": 1.0
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "Brother Zhou / Brother",
+      "suggested": "Anh Châu / Anh",
+      "confidence": 0.8,
+      "question": "When Song Zhe refers to Gu Suizhou as 'Brother Zhou' or 'Brother', does it imply a literal sibling relationship or is it an informal term of respect/close friendship, common among peers or subordinates to a leader figure?",
+      "options": [
+        "Literal brother",
+        "Close friend/leader (informal honorific)"
+      ],
+      "category": "honorific"
+    }
+  ],
+  "chapter_id": "ch_006",
+  "analyzed_at": "2026-09-19T11:26:50.672910+07:00"
+}

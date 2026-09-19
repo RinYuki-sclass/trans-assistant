@@ -1,0 +1,46 @@
+{
+  "chapter_summary": "Gu Suizhou and Shen Feizhi visit Gu's former home to collect his belongings. Gu Suizhou confronts his adoptive brother, Lin Sui, destroying a sentimental glass door that symbolized his past ties to his parents. After the confrontation, Gu Suizhou reunites with Shen Feizhi, feigning injury to gain affection. The duo decides to travel to Pashimi Star and recruits Leapton to meet the travel agency's three-person requirement. The chapter concludes with the trio meeting at the airport for their departure, following a chaotic morning where Gu Suizhou lost his luggage.",
+  "new_characters": [
+    {
+      "name": "Leapton",
+      "gender": "Male",
+      "role": "Travel companion / Acquaintance",
+      "description": "An acquaintance of Gu Suizhou who is familiar with W.N. He joins Gu and Shen on their trip to Pashimi Star."
+    }
+  ],
+  "new_locations": [
+    {
+      "name": "Pashimi Star",
+      "description": "The destination for the trio's one-way trip."
+    },
+    {
+      "name": "Third District airport",
+      "description": "The departure point for the group's flight."
+    }
+  ],
+  "new_terms": [
+    {
+      "original": "W.N",
+      "suggested": "W.N",
+      "category": "other",
+      "confidence": 0.9
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "W.N",
+      "suggested": "W.N (Organization/Location)",
+      "confidence": 0.6,
+      "question": "Is W.N an organization, a region, or a specific facility? The text mentions 'familiar with W.N and its inner workings', implying an organization or restricted area.",
+      "options": [
+        "Organization",
+        "Facility",
+        "Region"
+      ],
+      "category": "term"
+    }
+  ],
+  "chapter_id": "ch_025",
+  "analyzed_at": "2026-09-19T11:29:38.209402+07:00"
+}

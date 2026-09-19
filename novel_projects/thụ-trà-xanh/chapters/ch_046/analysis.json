@@ -1,0 +1,88 @@
+{
+  "chapter_summary": "Shen Feizhi and Gu Suizhou leave C2's residence after Gu Suizhou recovers from a manic state triggered by his differentiation. It is revealed that Shen Feizhi previously acted as a mentor/guide for Gu Suizhou during his differentiation on a deserted island years ago. Shen Feizhi denies being responsible for the pheromone-blocking drugs injected into Gu Suizhou in the past. Gu Suizhou, displaying a clingy and manipulative personality, follows Shen Feizhi to his own apartment, which has been kept exactly as it was before Shen Feizhi disappeared four years ago.",
+  "new_characters": [
+    {
+      "name": "C2",
+      "gender": "male",
+      "role": "Acquaintance/Host",
+      "description": "An Alpha who knows Shen Feizhi and helped him survive after he left the deserted island. He is currently being used as a temporary host by Shen Feizhi and Gu Suizhou."
+    },
+    {
+      "name": "Lin Zizhuo",
+      "gender": "unknown",
+      "role": "Parent",
+      "description": "One of Gu Suizhou's parents; mentioned as a reason for Shen Feizhi's protective attitude."
+    },
+    {
+      "name": "Gu Lang",
+      "gender": "unknown",
+      "role": "Parent",
+      "description": "One of Gu Suizhou's parents; mentioned as a reason for Shen Feizhi's protective attitude."
+    }
+  ],
+  "new_locations": [
+    {
+      "name": "Deserted Island",
+      "description": "The location where Shen Feizhi and Gu Suizhou first met and where Shen Feizhi guided Gu Suizhou through his initial differentiation."
+    },
+    {
+      "name": "First District",
+      "description": "A location mentioned in the context of where wealthy people might buy property."
+    }
+  ],
+  "new_terms": [
+    {
+      "original": "Top Tier Alpha",
+      "suggested": "Alpha cấp cao",
+      "category": "other",
+      "confidence": 0.9
+    },
+    {
+      "original": "Imperial Concubine Gu",
+      "suggested": "Quý phi Gu",
+      "category": "other",
+      "confidence": 0.8
+    },
+    {
+      "original": "Attendant Cha",
+      "suggested": "Trà thị",
+      "category": "other",
+      "confidence": 0.7
+    },
+    {
+      "original": "Main Star",
+      "suggested": "Chủ tinh",
+      "category": "other",
+      "confidence": 0.8
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "Big Brother",
+      "suggested": "Anh",
+      "confidence": 0.9,
+      "question": "Gu Suizhou calls Shen Feizhi 'Big Brother'. Should this be translated as a literal familial term or a respectful/intimate term?",
+      "options": [
+        "Anh",
+        "Đại ca",
+        "Anh Shen"
+      ],
+      "category": "honorific"
+    },
+    {
+      "id": "amb_002",
+      "original": "C2",
+      "suggested": "C2",
+      "confidence": 0.9,
+      "question": "Is 'C2' a name, a codename, or a designation?",
+      "options": [
+        "C2",
+        "Xê Hai"
+      ],
+      "category": "name"
+    }
+  ],
+  "chapter_id": "ch_046",
+  "analyzed_at": "2026-09-19T11:31:05.563671+07:00"
+}

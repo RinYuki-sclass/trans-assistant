@@ -1,0 +1,61 @@
+{
+  "chapter_summary": "Gu Suizhou confesses to stealing Shen Feizhi's clothes, revealing his obsessive attachment. Meanwhile, Lin Sui, plagued by nightmares of his past involvement in a deadly drug scandal, attempts to destroy evidence by setting his residence on fire. Shen Feizhi and Gu Suizhou, initially planning to confront Lin Sui, realize the fire is a distraction. Shen Feizhi takes control of the car to reach the Lu estate, only to discover Lu Qian has gone missing while searching for them. The chapter ends with the realization that Lin Sui's actions are part of a larger, more sinister plot involving the W.N drug trials.",
+  "new_characters": [
+    {
+      "name": "Xu Zhong",
+      "gender": "male",
+      "role": "Assistant/Subordinate",
+      "description": "Delivers documents left by Ms. Gu to Gu Suizhou."
+    },
+    {
+      "name": "Lu Qian",
+      "gender": "female",
+      "role": "Ally/Target",
+      "description": "A person Shen Feizhi intended to meet to stir up trouble for the Shen family; currently missing."
+    }
+  ],
+  "new_locations": [
+    {
+      "name": "Lin estate",
+      "description": "The residence of Lin Sui, which is set on fire by him to destroy evidence."
+    },
+    {
+      "name": "Lu family estate",
+      "description": "The home of Lu Qian, where Shen Feizhi and Gu Suizhou arrive to find her."
+    },
+    {
+      "name": "W.N",
+      "description": "A site associated with a massive fire ten years ago and the origin of the drug trials."
+    }
+  ],
+  "new_terms": [
+    {
+      "original": "Bai Shi",
+      "suggested": "Bạch Thạch",
+      "category": "item",
+      "confidence": 0.9
+    },
+    {
+      "original": "W.N",
+      "suggested": "W.N",
+      "category": "location",
+      "confidence": 1.0
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "Bro",
+      "suggested": "Anh",
+      "confidence": 0.9,
+      "question": "Gu Suizhou calls Shen Feizhi 'Bro'. Given their complex, potentially romantic/obsessive dynamic, should this be translated as a familial 'anh' or a more intimate term?",
+      "options": [
+        "Anh",
+        "Anh trai"
+      ],
+      "category": "honorific"
+    }
+  ],
+  "chapter_id": "ch_038",
+  "analyzed_at": "2026-09-19T11:30:32.144621+07:00"
+}

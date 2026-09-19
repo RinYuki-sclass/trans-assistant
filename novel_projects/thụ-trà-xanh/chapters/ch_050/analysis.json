@@ -1,0 +1,91 @@
+{
+  "chapter_summary": "Shen Feizhi confronts Gu Suizhou about his manipulative behavior, but Gu Suizhou successfully plays the victim, leading Shen to agree to a beach trip. Shen discovers inconsistencies in the medical records of Gu's dog, 'Fluke,' suggesting the dog was acquired much earlier than Gu claimed. Meanwhile, Shen observes Gu Suizhou's aggressive and authoritative demeanor during a high-stakes corporate meeting at W.N company.",
+  "new_characters": [
+    {
+      "name": "Xu Zhong",
+      "gender": "male",
+      "role": "Associate/Doctor",
+      "description": "An acquaintance of Gu Suizhou who handles medical records and pet care; he seems to be involved in Gu's schemes."
+    },
+    {
+      "name": "Leapton",
+      "gender": "male",
+      "role": "Associate/Companion",
+      "description": "A young man who accompanies Shen Feizhi and is fond of the dog, Fluke."
+    },
+    {
+      "name": "C2",
+      "gender": "male",
+      "role": "Associate/Contact",
+      "description": "An individual Shen Feizhi plans to consult regarding 'differentiation' and business matters; described as having rigid principles."
+    },
+    {
+      "name": "Fluke",
+      "gender": "male",
+      "role": "Pet",
+      "description": "A dog owned by Gu Suizhou; Shen suspects its medical history is a fabrication or a clue to Gu's past actions."
+    }
+  ],
+  "new_locations": [
+    {
+      "name": "Blue Star",
+      "description": "The current planet where the characters reside; described as having an 'ugly' ocean."
+    },
+    {
+      "name": "Main Star",
+      "description": "A more advanced or central planet that likely holds solutions to the characters' medical/biological issues."
+    },
+    {
+      "name": "W.N",
+      "description": "The company where Gu Suizhou serves as President."
+    }
+  ],
+  "new_terms": [
+    {
+      "original": "PUA",
+      "suggested": "Pick-up Artist (manipulation tactics)",
+      "category": "other",
+      "confidence": 1.0
+    },
+    {
+      "original": "differentiation",
+      "suggested": "phân hóa (biological/Omegaverse term)",
+      "category": "other",
+      "confidence": 0.9
+    },
+    {
+      "original": "pseudo-heat",
+      "suggested": "kỳ phát tình giả",
+      "category": "other",
+      "confidence": 0.9
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "Number 9 Handsome Guy",
+      "suggested": "Người đẹp số 9",
+      "confidence": 0.6,
+      "question": "Is this a specific nickname for a person Shen Feizhi knows, or a sarcastic reference to a previous romantic interest?",
+      "options": [
+        "Nickname",
+        "Sarcastic reference"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_002",
+      "original": "differentiation",
+      "suggested": "phân hóa",
+      "confidence": 0.8,
+      "question": "In the context of Omegaverse, does this refer to the biological transition of an Omega/Alpha, or a specific medical condition?",
+      "options": [
+        "Biological transition",
+        "Medical condition"
+      ],
+      "category": "term"
+    }
+  ],
+  "chapter_id": "ch_050",
+  "analyzed_at": "2026-09-19T11:31:21.252353+07:00"
+}

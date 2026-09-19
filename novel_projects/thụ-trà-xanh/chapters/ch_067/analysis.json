@@ -1,0 +1,73 @@
+{
+  "chapter_summary": "The Federation concludes its investigation into the W.N Research Institute scandal. Ritter Naons is sentenced and subjected to public humiliation and experimentation in the Main Star's black market. Gu Suizhou and Shen Feizhi navigate their busy lives, eventually finding closure for the deaths of Gu Lang and Lin Zizhuo through a public obituary and plans for a memorial garden. The chapter ends with a domestic scene at a supermarket where Gu Suizhou attempts to purchase intimacy-related items, followed by Shen Feizhi receiving a mysterious package for 'G' from a man associated with Leapton.",
+  "new_characters": [
+    {
+      "name": "Ritter Naons",
+      "gender": "male",
+      "role": "Antagonist",
+      "description": "A criminal responsible for intentional homicide, kidnapping, and other crimes; formerly a high-status individual now suffering in the Main Star's black market."
+    },
+    {
+      "name": "Gu Lang",
+      "gender": "female",
+      "role": "Deceased Researcher",
+      "description": "Former Director of W.N Research Institute, mother of Gu Suizhou, posthumously exonerated."
+    },
+    {
+      "name": "Lin Zizhuo",
+      "gender": "unknown",
+      "role": "Deceased Researcher",
+      "description": "Former Vice Director of W.N Research Institute, posthumously exonerated."
+    }
+  ],
+  "new_locations": [
+    {
+      "name": "Blue Star",
+      "description": "The primary setting where the recent legal crackdown and social upheaval are taking place."
+    },
+    {
+      "name": "Main Star",
+      "description": "The central hub of the Federation, home to the black market and humanitarian regulatory bodies."
+    },
+    {
+      "name": "W.N Research Institute Ruins",
+      "description": "Located in the Underground City; now a site of public repentance and memorial statues."
+    }
+  ],
+  "new_terms": [
+    {
+      "original": "W.N",
+      "suggested": "Viện Nghiên cứu W.N",
+      "category": "faction",
+      "confidence": 1.0
+    },
+    {
+      "original": "C2",
+      "suggested": "C2 (Cơ quan/Đơn vị quản lý)",
+      "category": "faction",
+      "confidence": 0.8
+    },
+    {
+      "original": "A11",
+      "suggested": "A11 (Hệ thống/Đơn vị cung cấp)",
+      "category": "item",
+      "confidence": 0.7
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "G",
+      "suggested": "Gu Suizhou",
+      "confidence": 0.9,
+      "question": "Is 'G' definitely a reference to Gu Suizhou?",
+      "options": [
+        "Gu Suizhou",
+        "Another character with initial G"
+      ],
+      "category": "name"
+    }
+  ],
+  "chapter_id": "ch_067",
+  "analyzed_at": "2026-09-19T11:32:20.489001+07:00"
+}

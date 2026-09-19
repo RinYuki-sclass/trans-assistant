@@ -1,0 +1,81 @@
+{
+  "chapter_summary": "Shen Feizhi and Gu Suizhou continue their uneasy alliance, with Shen Feizhi gaining contact information for a business partner. Gu Suizhou reveals the tragic history of his parents' suicides, which occurred on the same day as the tenth anniversary. Shen Feizhi apologizes for his prior investigation into Gu Suizhou's background. Gu Suizhou reveals he had a confrontation with Lin Sui at his parents' graves. The chapter ends with Shen Feizhi questioning Gu Suizhou's hidden connections at school, followed by an interruption from an unidentified person.",
+  "new_characters": [
+    {
+      "name": "Lin Zizhuo",
+      "gender": "male",
+      "role": "Deceased parent",
+      "description": "Gu Suizhou's father, committed suicide ten years ago."
+    },
+    {
+      "name": "Gu Lang",
+      "gender": "female",
+      "role": "Deceased parent",
+      "description": "Gu Suizhou's mother, committed suicide ten years ago."
+    },
+    {
+      "name": "Jiang Che",
+      "gender": "male",
+      "role": "Teacher",
+      "description": "A teacher at the High School who shows unusual tolerance toward Gu Suizhou."
+    }
+  ],
+  "new_locations": [
+    {
+      "name": "Underground City",
+      "description": "A location mentioned as a place Gu Suizhou might visit."
+    },
+    {
+      "name": "High School",
+      "description": "The educational institution where Shen Feizhi and Gu Suizhou interact."
+    }
+  ],
+  "new_terms": [
+    {
+      "original": "W.N.",
+      "suggested": "W.N.",
+      "category": "other",
+      "confidence": 0.9
+    },
+    {
+      "original": "Blue Star",
+      "suggested": "Hành tinh Xanh",
+      "category": "location",
+      "confidence": 1.0
+    },
+    {
+      "original": "shared hovercar",
+      "suggested": "xe bay công cộng",
+      "category": "item",
+      "confidence": 0.9
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "Brother Shen",
+      "suggested": "Anh Shen",
+      "confidence": 0.9,
+      "question": "Should this be translated as a literal 'Brother' or a social honorific? Gu Suizhou uses it to be flirtatious/affectionate.",
+      "options": [
+        "Anh Shen",
+        "Shen ca"
+      ],
+      "category": "honorific"
+    },
+    {
+      "id": "amb_002",
+      "original": "Lin Sui",
+      "suggested": "Lin Sui",
+      "confidence": 0.8,
+      "question": "Is Lin Sui the same person as the 'Doctor Lin' mentioned in the known characters list? The text implies he is a doctor for the Shen family.",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "category": "name"
+    }
+  ],
+  "chapter_id": "ch_013",
+  "analyzed_at": "2026-09-19T11:28:45.124933+07:00"
+}

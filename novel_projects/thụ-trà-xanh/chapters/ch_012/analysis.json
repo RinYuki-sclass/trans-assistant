@@ -1,0 +1,69 @@
+{
+  "chapter_summary": "Shen Feizhi takes Gu Suizhou to an upscale restaurant to celebrate his promotion to a research assistant at W.N. During the meal, Shen Feizhi reveals he has been investigating Gu Suizhou's background and points out a major shareholder of W.N. present in the restaurant, pressuring Gu Suizhou to obtain the man's contact information. The chapter highlights the shifting power dynamic and Shen Feizhi's hidden agenda regarding Gu Suizhou's family legacy.",
+  "new_characters": [
+    {
+      "name": "Xu Zhong",
+      "gender": "male",
+      "role": "Antagonist/Former associate",
+      "description": "Allegedly diverted Gu Suizhou's inheritance for overseas ventures."
+    },
+    {
+      "name": "Gu Lang",
+      "gender": "male",
+      "role": "Deceased relative",
+      "description": "The person from whom Gu Suizhou is set to inherit a legacy upon coming of age."
+    },
+    {
+      "name": "Lai Gou",
+      "gender": "unknown",
+      "role": "Acquaintance",
+      "description": "Mentioned as someone who was 'blind' to fall for Shen Feizhi."
+    },
+    {
+      "name": "Leapton",
+      "gender": "male",
+      "role": "Acquaintance",
+      "description": "Works at an internet cafe; previously tried to win Shen Feizhi over with coffee."
+    }
+  ],
+  "new_locations": [
+    {
+      "name": "W.N.",
+      "description": "An organization/company where Shen Feizhi has been hired as a research assistant."
+    },
+    {
+      "name": "First District",
+      "description": "The location of a renowned century-old restaurant."
+    }
+  ],
+  "new_terms": [
+    {
+      "original": "W.N.",
+      "suggested": "W.N.",
+      "category": "faction",
+      "confidence": 1.0
+    },
+    {
+      "original": "Research assistant",
+      "suggested": "Trợ lý nghiên cứu",
+      "category": "other",
+      "confidence": 1.0
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "Brother Shen",
+      "suggested": "Anh Shen",
+      "confidence": 0.9,
+      "question": "Is 'Brother Shen' (Shen ge) used as a genuine term of endearment, a manipulative tactic, or a mocking honorific?",
+      "options": [
+        "Anh Shen",
+        "Shen ca"
+      ],
+      "category": "honorific"
+    }
+  ],
+  "chapter_id": "ch_012",
+  "analyzed_at": "2026-09-19T11:28:41.486670+07:00"
+}

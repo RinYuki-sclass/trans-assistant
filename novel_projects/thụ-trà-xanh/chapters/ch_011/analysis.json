@@ -1,0 +1,85 @@
+{
+  "chapter_summary": "Shen Feizhi, a janitor at the W.N Research Institute, successfully ingratiates himself with Professor Ritter of Group A by demonstrating knowledge of 'Spatial Energetics'. Ritter, impressed by Shen's potential, arranges for him to audit classes at Blue Star High School to build his academic foundation. Shen discovers that the school is the same one attended by Gu Suizhou, who is currently being taught by Director Jiang Che. The chapter concludes with Shen Feizhi arriving at Blue Star High School as an auditing student, immediately asserting dominance by slapping Gu Suizhou on the head while he is sleeping in class.",
+  "new_characters": [
+    {
+      "name": "Ritter Naons",
+      "gender": "male",
+      "role": "Professor / Head of Group A",
+      "description": "A scholarly, middle-aged researcher at W.N Research Institute who is easily impressed by talent and prone to dramatic, affectionate outbursts."
+    },
+    {
+      "name": "Jiang Che",
+      "gender": "male",
+      "role": "Director / Teacher",
+      "description": "The director of Blue Star High School and Gu Suizhou's homeroom teacher."
+    },
+    {
+      "name": "Leapton (Lai Gou)",
+      "gender": "unknown",
+      "role": "Gu Suizhou's contact",
+      "description": "An associate of Gu Suizhou tasked with investigating digital identities."
+    }
+  ],
+  "new_locations": [
+    {
+      "name": "W.N Research Institute",
+      "description": "A high-stakes research facility focused on drug development and energy research."
+    },
+    {
+      "name": "Blue Star High School",
+      "description": "The school where Gu Suizhou studies and where Shen Feizhi begins his auditing program."
+    },
+    {
+      "name": "Laboratory 7",
+      "description": "A specific lab within the W.N Research Institute where Ritter works."
+    }
+  ],
+  "new_terms": [
+    {
+      "original": "Spatial Energetics",
+      "suggested": "Năng lượng không gian",
+      "category": "skill",
+      "confidence": 0.95
+    },
+    {
+      "original": "Energy Storm Eye",
+      "suggested": "Mắt bão năng lượng",
+      "category": "other",
+      "confidence": 0.9
+    },
+    {
+      "original": "Auditing pass",
+      "suggested": "Thẻ dự thính",
+      "category": "item",
+      "confidence": 1.0
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "Little Brat",
+      "suggested": "Nhóc con",
+      "confidence": 0.9,
+      "question": "Is 'Little Brat' a nickname Shen Feizhi uses for Gu Suizhou, or is it a contact name in his device?",
+      "options": [
+        "Nickname",
+        "Contact name"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_002",
+      "original": "Brother Shen",
+      "suggested": "Anh Shen",
+      "confidence": 0.95,
+      "question": "Gu Suizhou uses this term repeatedly. Does he use it genuinely or mockingly?",
+      "options": [
+        "Genuine respect",
+        "Sarcastic/Mocking"
+      ],
+      "category": "honorific"
+    }
+  ],
+  "chapter_id": "ch_011",
+  "analyzed_at": "2026-09-19T11:28:38.484486+07:00"
+}

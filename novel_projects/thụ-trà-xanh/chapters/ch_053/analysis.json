@@ -1,0 +1,72 @@
+{
+  "chapter_summary": "Shen Feizhi returns to find Gu Suizhou undergoing his 'differentiation' process. Shen Feizhi is suffering from his own unstable estrus period, which he attempts to hide. While assisting Gu Suizhou with medical equipment to stabilize his pheromones, Gu Suizhou experiences a traumatic flashback to a past life where Shen Feizhi seemingly sacrificed himself during a similar process. As Gu Suizhou stabilizes, he senses Shen Feizhi's own impending estrus and bites his gland, leading to a volatile confrontation where Shen Feizhi struggles to maintain control over his aggression and keep Gu Suizhou at a distance.",
+  "new_characters": [
+    {
+      "name": "Xu Zhong",
+      "gender": "male",
+      "role": "Subordinate/Assistant",
+      "description": "An associate of Shen Feizhi who handles logistics, such as clearing out the flat and preparing medical equipment for Gu Suizhou's differentiation."
+    }
+  ],
+  "new_locations": [
+    {
+      "name": "Safety Pod",
+      "description": "A sterile environment used for the final, vulnerable stage of the differentiation process to prevent infection."
+    }
+  ],
+  "new_terms": [
+    {
+      "original": "differentiation",
+      "suggested": "phân hóa",
+      "category": "other",
+      "confidence": 1.0
+    },
+    {
+      "original": "estrus period",
+      "suggested": "kỳ phát tình",
+      "category": "other",
+      "confidence": 1.0
+    },
+    {
+      "original": "pheromone riot",
+      "suggested": "bạo loạn pheromone",
+      "category": "other",
+      "confidence": 0.95
+    },
+    {
+      "original": "C2",
+      "suggested": "thuốc C2",
+      "category": "item",
+      "confidence": 0.9
+    },
+    {
+      "original": "gland",
+      "suggested": "tuyến thể",
+      "category": "other",
+      "confidence": 1.0
+    },
+    {
+      "original": "inhibitor collar",
+      "suggested": "vòng ức chế",
+      "category": "item",
+      "confidence": 0.95
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "Bro",
+      "suggested": "Anh/Cậu",
+      "confidence": 0.7,
+      "question": "Gu Suizhou calls Shen Feizhi 'Bro' (ge) in a moment of aggression. Should this be translated as a respectful term or a mocking/intimate one given their complex history?",
+      "options": [
+        "Anh (respectful/intimate)",
+        "Cậu (equal/distant)",
+        "Huynh (archaic/dramatic)"
+      ],
+      "category": "honorific"
+    }
+  ],
+  "chapter_id": "ch_053",
+  "analyzed_at": "2026-09-19T11:31:31.859105+07:00"
+}

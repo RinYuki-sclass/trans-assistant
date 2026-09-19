@@ -1,0 +1,65 @@
+{
+  "chapter_summary": "Gu Suizhou navigates his complex dynamic with Shen Feizhi, who maintains a facade of an ascetic, studious intellectual. Gu Suizhou enlists his associates, Xu Zhong and Leapton, to handle domestic tasks while he focuses on surveillance of the Shen family mansion. The chapter reveals Gu Suizhou's hidden vulnerability—a broken wooden fox carving linked to a past trauma involving Lin Sui—and discloses that Gu Suizhou suffers from a rare, memory-wiping mental illness, for which he requires medication.",
+  "new_characters": [
+    {
+      "name": "Xu Zhong",
+      "gender": "male",
+      "role": "Associate/Subordinate",
+      "description": "Works for Gu Suizhou; described as 'Uncle Zhong'. He wears a thick mask and glasses, keeping his appearance hidden."
+    },
+    {
+      "name": "Leapton",
+      "gender": "male",
+      "role": "Associate/Subordinate",
+      "description": "Works for Gu Suizhou; assists with tasks and is tasked with cooking for Shen Feizhi."
+    }
+  ],
+  "new_locations": [
+    {
+      "name": "Shen family old mansion",
+      "description": "The ancestral home of the Shen family; Gu Suizhou is currently conducting surveillance on it."
+    }
+  ],
+  "new_terms": [
+    {
+      "original": "Bringing You into the Gray Zone Between Dreams and Reality",
+      "suggested": "Bringing You into the Gray Zone Between Dreams and Reality",
+      "category": "item",
+      "confidence": 1.0
+    },
+    {
+      "original": "robotic maid",
+      "suggested": "robot giúp việc",
+      "category": "item",
+      "confidence": 1.0
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "Brother Shen",
+      "suggested": "Anh Shen",
+      "confidence": 0.9,
+      "question": "Is 'Brother Shen' used as a genuine term of respect, or is it sarcastic/manipulative given Gu Suizhou's internal monologue?",
+      "options": [
+        "Anh Shen",
+        "Shen ca"
+      ],
+      "category": "honorific"
+    },
+    {
+      "id": "amb_002",
+      "original": "that person",
+      "suggested": "người đó",
+      "confidence": 0.8,
+      "question": "The text refers to 'that person' in relation to the wooden fox carving. Is this Lin Sui or someone else?",
+      "options": [
+        "Lin Sui",
+        "A past lover/figure not yet named"
+      ],
+      "category": "relationship"
+    }
+  ],
+  "chapter_id": "ch_020",
+  "analyzed_at": "2026-09-19T11:29:16.842355+07:00"
+}

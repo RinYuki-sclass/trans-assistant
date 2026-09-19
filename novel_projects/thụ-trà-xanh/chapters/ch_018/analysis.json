@@ -1,0 +1,70 @@
+{
+  "chapter_summary": "Shen Feizhi deals with a security guard at the Shen family villa and discovers bloodstains in the garden, confirming a confrontation between Gu Suizhou and Lin Sui. He encounters Shen Wei, who is furious about Gu Suizhou (using the alias Lin Zhou), but is interrupted by Elder Shen. Elder Shen attempts to manipulate Shen Feizhi into a political marriage, hinting at past grudges between the Shen and Lin families. Meanwhile, Gu Suizhou is cornered by a group of gossiping Omegas and their partners; in a fit of annoyance, he boasts about Shen Feizhi's prowess, leading to an unwanted drinking challenge for Shen Feizhi upon his arrival.",
+  "new_characters": [
+    {
+      "name": "Liao Chen",
+      "gender": "male",
+      "role": "Elder Shen's right-hand man",
+      "description": "A man of considerable skill and influence who has served Elder Shen for years."
+    },
+    {
+      "name": "Lu Qian",
+      "gender": "female",
+      "role": "Potential marriage partner",
+      "description": "A woman Shen Feizhi mentions to Elder Shen as a strategic distraction."
+    }
+  ],
+  "new_locations": [
+    {
+      "name": "Shen family's electronic equipment control room",
+      "description": "A room containing surveillance monitors for the villa."
+    },
+    {
+      "name": "Rear garden (Shen villa)",
+      "description": "A secluded area with miniature rock formations where a confrontation occurred."
+    }
+  ],
+  "new_terms": [
+    {
+      "original": "Lin Zhou",
+      "suggested": "Lin Zhou",
+      "category": "other",
+      "confidence": 1.0
+    },
+    {
+      "original": "Top Tier Alpha",
+      "suggested": "Alpha cấp cao",
+      "category": "other",
+      "confidence": 0.9
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "South Wind Knows My Intent",
+      "suggested": "N/A",
+      "confidence": 0.4,
+      "question": "Is this a poetic reference to the bloodstains or a mistranslation/glitch in the source text?",
+      "options": [
+        "Metaphor for the blood",
+        "Title of a work",
+        "Error in source"
+      ],
+      "category": "term"
+    },
+    {
+      "id": "amb_002",
+      "original": "Feizhi-gege",
+      "suggested": "Anh Feizhi",
+      "confidence": 0.9,
+      "question": "Should the honorific 'gege' be kept as a loanword or localized to 'anh' to reflect the shift in Gu Suizhou's tone?",
+      "options": [
+        "Keep as 'Feizhi-gege'",
+        "Translate to 'Anh Feizhi'"
+      ],
+      "category": "honorific"
+    }
+  ],
+  "chapter_id": "ch_018",
+  "analyzed_at": "2026-09-19T11:29:10.411574+07:00"
+}

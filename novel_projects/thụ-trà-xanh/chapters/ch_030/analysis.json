@@ -1,0 +1,82 @@
+{
+  "chapter_summary": "Gu Suizhou returns to Shen Feizhi after a three-day absence, attempting to reconcile after a falling out. Gu Suizhou reveals he has been investigating the suspicious deaths of his parents and has identified Lin Sui as a key figure involved in the Shen family's orbit. Despite Gu Suizhou's attempts to manipulate or appease him, Shen Feizhi remains cold and calculating. The chapter concludes with a tense scene where Shen Feizhi injects Gu Suizhou with an unknown substance and produces electronic handcuffs, signaling a shift toward a more controlling and potentially dangerous dynamic.",
+  "new_characters": [
+    {
+      "name": "Lin Sui",
+      "gender": "male",
+      "role": "Antagonist/Former foster brother",
+      "description": "Adopted by Gu Suizhou's parents; skilled in medicine and pharmacology. He currently works for the Shen family and has been actively trying to stop Gu Suizhou from investigating his parents' deaths."
+    },
+    {
+      "name": "Lin Zizhuo",
+      "gender": "male",
+      "role": "Deceased parent",
+      "description": "One of Gu Suizhou's parents; worked in fields related to medicine/pharmacology."
+    },
+    {
+      "name": "Gu Lang",
+      "gender": "male",
+      "role": "Deceased parent",
+      "description": "One of Gu Suizhou's parents; worked in fields related to medicine/pharmacology."
+    },
+    {
+      "name": "Lai Gou",
+      "gender": "unknown",
+      "role": "Informant/Associate",
+      "description": "An individual who uncovered surveillance footage regarding Lin Sui."
+    },
+    {
+      "name": "Xu Zhong (Uncle Zhong)",
+      "gender": "male",
+      "role": "Former employee",
+      "description": "Worked for Gu Suizhou's parents; currently disfigured and seemingly involved in the recent conflict."
+    },
+    {
+      "name": "Elder Shen",
+      "gender": "male",
+      "role": "Antagonist/Authority figure",
+      "description": "A powerful figure within the Shen family, described as capable of crushing others like ants."
+    }
+  ],
+  "new_locations": [
+    {
+      "name": "Blue Star",
+      "description": "A location Gu Suizhou recently returned from."
+    },
+    {
+      "name": "Herb Garden",
+      "description": "A place where Gu Suizhou, Lin Sui, and his parents used to spend time."
+    }
+  ],
+  "new_terms": [
+    {
+      "original": "electronic password handcuffs",
+      "suggested": "còng tay mật mã điện tử",
+      "category": "item",
+      "confidence": 1.0
+    },
+    {
+      "original": "gigolo",
+      "suggested": "trai bao",
+      "category": "other",
+      "confidence": 0.9
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "Bro",
+      "suggested": "Anh",
+      "confidence": 0.9,
+      "question": "Gu Suizhou uses 'Bro' to address Shen Feizhi. Given their complex, potentially romantic/power-dynamic relationship, should this be translated as a familial 'anh' or something more distant/subservient?",
+      "options": [
+        "Anh",
+        "Ngài",
+        "Anh Shen"
+      ],
+      "category": "honorific"
+    }
+  ],
+  "chapter_id": "ch_030",
+  "analyzed_at": "2026-09-19T11:29:58.120770+07:00"
+}

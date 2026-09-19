@@ -1,0 +1,95 @@
+{
+  "chapter_summary": "Gu Suizhou undergoes a painful, recurring medical procedure (pheromone drainage) administered by Xu Zhong to manage his 'madness' caused by an Alpha-Omega physiological mismatch. Gu Suizhou investigates Shen Feizhi, discovering evidence that links him to a stock market manipulation, and begins to suspect Shen Feizhi is far more capable than his background suggests. During his treatment, Gu Suizhou falls into a drug-induced sleep and experiences a vivid flashback to a shuttle crash ten years ago (C1907 Shuttle), where he was rescued by a mysterious older boy on a barren planet. This memory reveals the origin of his trauma and his deep, unresolved connection to his unknown savior.",
+  "new_characters": [
+    {
+      "name": "Xu Zhong",
+      "gender": "male",
+      "role": "Medical attendant/Caregiver",
+      "description": "A loyal subordinate who has known Gu Suizhou since childhood; he performs the painful pheromone drainage procedures."
+    },
+    {
+      "name": "Leapton",
+      "gender": "unknown",
+      "role": "Information broker/Hacker",
+      "description": "An associate of Gu Suizhou who tracks digital footprints and handles sensitive intelligence."
+    },
+    {
+      "name": "Ritter",
+      "gender": "unknown",
+      "role": "Mentor",
+      "description": "A person who provided tutelage to Gu Suizhou in various skills."
+    },
+    {
+      "name": "Shen Wei",
+      "gender": "male",
+      "role": "Shen family member",
+      "description": "A target of Gu Suizhou's surveillance, considered a 'point of entry' into the Shen family."
+    },
+    {
+      "name": "Lin Zizhuo",
+      "gender": "male",
+      "role": "Former colleague/Parental figure",
+      "description": "One of Gu Suizhou's parents' old colleagues who taught him survival skills."
+    },
+    {
+      "name": "Gu Lang",
+      "gender": "male",
+      "role": "Former colleague/Parental figure",
+      "description": "One of Gu Suizhou's parents' old colleagues."
+    }
+  ],
+  "new_locations": [
+    {
+      "name": "Blue Star",
+      "description": "The primary planet where the story takes place."
+    },
+    {
+      "name": "Lai Gou's internet cafe",
+      "description": "The location identified as the source of the stock market manipulation."
+    },
+    {
+      "name": "Tenth Star System",
+      "description": "The destination of the ill-fated C1907 Shuttle."
+    },
+    {
+      "name": "Unnamed Barren Planet",
+      "description": "The location where Gu Suizhou was stranded and lived for a year after the shuttle crash."
+    }
+  ],
+  "new_terms": [
+    {
+      "original": "madness",
+      "suggested": "cơn điên/phát điên",
+      "category": "other",
+      "confidence": 0.9
+    },
+    {
+      "original": "pheromone drainage",
+      "suggested": "liệu pháp rút pheromone",
+      "category": "skill",
+      "confidence": 0.95
+    },
+    {
+      "original": "C1907 Shuttle",
+      "suggested": "Phi thuyền C1907",
+      "category": "item",
+      "confidence": 1.0
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "the man",
+      "suggested": "người đàn ông/cậu thiếu niên đó",
+      "confidence": 0.7,
+      "question": "The savior from the flashback is described as 'five years older' than the 6-year-old Gu Suizhou. Should the translation use a term implying a teenager or an adult?",
+      "options": [
+        "Thiếu niên (teenager)",
+        "Người đàn ông (man)"
+      ],
+      "category": "pronoun"
+    }
+  ],
+  "chapter_id": "ch_022",
+  "analyzed_at": "2026-09-19T11:29:25.384735+07:00"
+}

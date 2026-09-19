@@ -1,0 +1,97 @@
+{
+  "chapter_summary": "Shen Feizhi and Gu Suizhou investigate a suspicious ATM facility in the Ninth District, discovering it serves as a front for a massive, illicit operation. After gathering data, they retreat to Gu Suizhou's villa to analyze the findings with the help of C2. The investigation points to Shen Wei as a key figure behind the recent schemes. Shen Feizhi returns to the First District to handle Research Institute affairs, specifically assisting Ritter, who is struggling with manpower and project progress.",
+  "new_characters": [
+    {
+      "name": "C2",
+      "gender": "unknown",
+      "role": "Hacker/Information Specialist",
+      "description": "An associate of Shen Feizhi and Gu Suizhou who handles data analysis and digital infiltration."
+    },
+    {
+      "name": "Shen Wei",
+      "gender": "male",
+      "role": "Antagonist/Pawn",
+      "description": "A relative of Shen Feizhi recently released from a Detention Center; suspected of being manipulated to act against Shen Feizhi."
+    },
+    {
+      "name": "Ritter",
+      "gender": "male",
+      "role": "Researcher",
+      "description": "A high-standard researcher at the W.N Research Institute currently struggling with project resources and staffing."
+    },
+    {
+      "name": "Director",
+      "gender": "female",
+      "role": "Administrator",
+      "description": "The director of the W.N Research Institute, currently overwhelmed by internal conflicts and personnel issues."
+    },
+    {
+      "name": "Lu Fan",
+      "gender": "unknown",
+      "role": "Involved Party",
+      "description": "Mentioned in relation to transfer records; appears to be a target of the investigation."
+    },
+    {
+      "name": "Lin Zizhuo",
+      "gender": "male",
+      "role": "Victim",
+      "description": "Previously imprisoned by Elder Master Shen and Madam Shen."
+    }
+  ],
+  "new_locations": [
+    {
+      "name": "District Seven",
+      "description": "A district Shen Feizhi is investigating and reporting on to the Federation General Administration Department."
+    },
+    {
+      "name": "Ninth District",
+      "description": "A poorer, rural-leaning district where Gu Suizhou owns a minimalist villa."
+    },
+    {
+      "name": "W.N Research Institute",
+      "description": "The facility where Shen Feizhi, Ritter, and the Director work."
+    }
+  ],
+  "new_terms": [
+    {
+      "original": "portable brain",
+      "suggested": "thiết bị não bộ di động",
+      "category": "item",
+      "confidence": 0.9
+    },
+    {
+      "original": "Federation General Administration Department",
+      "suggested": "Cục Quản lý Tổng hợp Liên bang",
+      "category": "faction",
+      "confidence": 0.95
+    },
+    {
+      "original": "Leapton",
+      "suggested": "Leapton",
+      "category": "other",
+      "confidence": 0.8
+    },
+    {
+      "original": "Underground Energy Test Site",
+      "suggested": "Khu thử nghiệm năng lượng ngầm",
+      "category": "location",
+      "confidence": 0.9
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "Brother Shen",
+      "suggested": "Anh Shen",
+      "confidence": 0.9,
+      "question": "Gu Suizhou calls Shen Feizhi 'Brother Shen'. Should this be translated as a literal 'Anh' or a more intimate term given their relationship?",
+      "options": [
+        "Anh Shen",
+        "Shen ca"
+      ],
+      "category": "honorific"
+    }
+  ],
+  "chapter_id": "ch_060",
+  "analyzed_at": "2026-09-19T11:31:58.438745+07:00"
+}

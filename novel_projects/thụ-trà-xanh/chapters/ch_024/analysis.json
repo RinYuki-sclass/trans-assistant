@@ -1,0 +1,75 @@
+{
+  "chapter_summary": "Shen Feizhi and Gu Suizhou spend a week cramming for final exams. During the history exam, they attempt to cheat, leading to a chaotic scene where Gu Suizhou injures his hip. After the exams, they encounter Lin Sui outside the school gate. Gu Suizhou maintains a facade of intimacy with Shen Feizhi to manipulate the situation, while Shen Feizhi remains cold and detached, correcting Lin Sui's attempt to address him by his former title.",
+  "new_characters": [
+    {
+      "name": "Jiang Che",
+      "gender": "male",
+      "role": "Teacher/Supervisor",
+      "description": "A visiting student's supervisor who encourages Shen Feizhi to take the final exams and offers to help him obtain a diploma."
+    },
+    {
+      "name": "Lin Sui",
+      "gender": "male",
+      "role": "Antagonist/Acquaintance",
+      "description": "Someone from Gu Suizhou's past who appears at the school gate; he seems to have a history with Gu Suizhou and attempts to address Shen Feizhi with a formal title."
+    }
+  ],
+  "new_locations": [
+    {
+      "name": "Pami-10",
+      "description": "The sixth planet of the Federation's star system, known for the highest concentration of medicinal herb cultivation."
+    },
+    {
+      "name": "High School",
+      "description": "The educational institution where Shen Feizhi and Gu Suizhou take their final exams."
+    }
+  ],
+  "new_terms": [
+    {
+      "original": "Bai Shi Herb",
+      "suggested": "Thảo dược Bạch Thạch",
+      "category": "item",
+      "confidence": 0.9
+    },
+    {
+      "original": "W.N.",
+      "suggested": "W.N.",
+      "category": "other",
+      "confidence": 1.0
+    },
+    {
+      "original": "Federation Standard",
+      "suggested": "Tiếng Liên Bang",
+      "category": "other",
+      "confidence": 0.9
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "Shen Second Young Master",
+      "suggested": "Thẩm nhị thiếu",
+      "confidence": 1.0,
+      "question": "Should this be translated as a formal title or kept as a literal address to reflect the protagonist's discomfort with his past identity?",
+      "options": [
+        "Thẩm nhị thiếu",
+        "Nhị thiếu gia nhà họ Thẩm"
+      ],
+      "category": "honorific"
+    },
+    {
+      "id": "amb_002",
+      "original": "Brother Shen",
+      "suggested": "Anh Thẩm",
+      "confidence": 0.8,
+      "question": "Gu Suizhou uses 'Brother Shen' (Brother/Bro) to manipulate Shen Feizhi. Should the translation maintain the 'Brother' prefix or use a more intimate/mocking tone?",
+      "options": [
+        "Anh Thẩm",
+        "Thẩm ca"
+      ],
+      "category": "honorific"
+    }
+  ],
+  "chapter_id": "ch_024",
+  "analyzed_at": "2026-09-19T11:29:33.668044+07:00"
+}

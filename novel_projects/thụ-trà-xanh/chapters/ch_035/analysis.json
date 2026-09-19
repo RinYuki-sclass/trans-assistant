@@ -1,0 +1,86 @@
+{
+  "chapter_summary": "Shen Feizhi confronts Lin Sui at a gala regarding his withdrawal of funding from W.N. and his betrayal of his adoptive parents, the late Professor Lin and Professor Gu. It is revealed that the Shen family is sabotaging W.N. and that Lin Sui may have been involved in the slander that led to the deaths of Gu Suizhou's parents. Shen Feizhi plans to overturn the case against Gu Suizhou's parents and intends to confront Elder Master Shen. Gu Suizhou, who is revealed to be applying to the Federation Research Institute, accompanies Shen Feizhi to the Shen family cemetery, where he displays a surprising fear of the supernatural.",
+  "new_characters": [
+    {
+      "name": "Professor Ritter",
+      "gender": "male",
+      "role": "Academic/Researcher",
+      "description": "A former colleague of Gu Suizhou's parents who seems to have a connection to the research rights at W.N."
+    },
+    {
+      "name": "Lu Qian",
+      "gender": "unknown",
+      "role": "Subordinate/Agent",
+      "description": "An individual tasked by Shen Feizhi to scout the Shen family's basement for evidence."
+    },
+    {
+      "name": "Elder Master Shen",
+      "gender": "male",
+      "role": "Antagonist/Patriarch",
+      "description": "A high-ranking member of the Shen family currently at the ancestral rites; Shen Feizhi plans to confront him."
+    }
+  ],
+  "new_locations": [
+    {
+      "name": "W.N. Headquarters",
+      "description": "A research institute currently facing a funding and authorization crisis."
+    },
+    {
+      "name": "Federation Research Institute",
+      "description": "One of the three most prestigious institutions in the Federation, located in the Three-Star System."
+    },
+    {
+      "name": "Shen family cemetery",
+      "description": "A large, dark, and eerie burial ground where the Shen family holds ancestral rites."
+    }
+  ],
+  "new_terms": [
+    {
+      "original": "White Swan Lake",
+      "suggested": "Hồ Thiên Nga Trắng",
+      "category": "item",
+      "confidence": 0.9
+    },
+    {
+      "original": "Federation Premier Science Military Academy",
+      "suggested": "Học viện Quân sự Khoa học Thủ phủ Liên bang",
+      "category": "other",
+      "confidence": 0.8
+    },
+    {
+      "original": "Federation Supreme Mecha Institute",
+      "suggested": "Học viện Cơ giáp Tối cao Liên bang",
+      "category": "other",
+      "confidence": 0.8
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "Bro",
+      "suggested": "Anh",
+      "confidence": 0.9,
+      "question": "Gu Suizhou uses 'Bro' to address Shen Feizhi. Given their complex relationship, should this be translated as a respectful 'Anh' or a more intimate/teasing term?",
+      "options": [
+        "Anh",
+        "Ca",
+        "Người anh em"
+      ],
+      "category": "honorific"
+    },
+    {
+      "id": "amb_002",
+      "original": "white lotus",
+      "suggested": "bạch liên hoa",
+      "confidence": 1.0,
+      "question": "Used by Gu Suizhou to describe Lin Sui. This is a common trope term for someone who acts innocent/pure but is manipulative.",
+      "options": [
+        "bạch liên hoa",
+        "kẻ giả tạo"
+      ],
+      "category": "term"
+    }
+  ],
+  "chapter_id": "ch_035",
+  "analyzed_at": "2026-09-19T11:30:21.390075+07:00"
+}

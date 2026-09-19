@@ -1,0 +1,99 @@
+{
+  "chapter_summary": "Shen Feizhi wakes up in a hotel suite under the care of Xu Zhong, Gu Suizhou's assistant. After realizing he was being kept in the dark, Shen Feizhi escapes by jumping out a window, leaving Gu Suizhou distraught and injured. Gu Suizhou, now highly motivated to resolve the mystery of 'W.N' and secure his inheritance, begins taking aggressive steps to protect Shen Feizhi's reputation. Meanwhile, Shen Feizhi returns to Blue Star after being summoned by Elder Master Shen to assist his 'fiancée', Lu Qian, who is suffering from a pheromone-related medical crisis. Madam Lu proposes an engagement between them to facilitate treatment, which Shen Feizhi cautiously accepts.",
+  "new_characters": [
+    {
+      "name": "Xu Zhong",
+      "gender": "male",
+      "role": "Butler/Assistant",
+      "description": "Gu Suizhou's personal assistant and former right-hand man to Gu Lang. He is highly competent and skilled in combat."
+    },
+    {
+      "name": "Leapton",
+      "gender": "male",
+      "role": "Associate",
+      "description": "Referred to as 'Young Mr. Leapton', he is an associate of Gu Suizhou and is involved in the search for Shen Feizhi."
+    },
+    {
+      "name": "Lu Qian",
+      "gender": "female",
+      "role": "Fiancée",
+      "description": "Shen Feizhi's fiancée who is currently suffering from a medical condition involving her pheromones."
+    },
+    {
+      "name": "Madam Lu",
+      "gender": "female",
+      "role": "Mother of Lu Qian",
+      "description": "Lu Qian's mother who is desperate for Shen Feizhi to help her daughter."
+    },
+    {
+      "name": "Madam Shen",
+      "gender": "female",
+      "role": "Family member",
+      "description": "A member of the Shen household who is present during the discussion regarding Lu Qian."
+    },
+    {
+      "name": "Elder Master Shen",
+      "gender": "male",
+      "role": "Patriarch",
+      "description": "The head of the Shen family who summoned Shen Feizhi back to Blue Star."
+    }
+  ],
+  "new_locations": [
+    {
+      "name": "Pashimi",
+      "description": "The city where the hotel suite is located."
+    },
+    {
+      "name": "Blue Star",
+      "description": "The home planet/location of the Shen family estate."
+    }
+  ],
+  "new_terms": [
+    {
+      "original": "W.N",
+      "suggested": "W.N",
+      "category": "other",
+      "confidence": 0.8
+    },
+    {
+      "original": "Shuttle",
+      "suggested": "Phi thuyền/Tàu con thoi",
+      "category": "item",
+      "confidence": 0.9
+    },
+    {
+      "original": "Top Tier Alpha",
+      "suggested": "Alpha cấp cao",
+      "category": "other",
+      "confidence": 1.0
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "Brother Shen",
+      "suggested": "Anh Shen",
+      "confidence": 0.9,
+      "question": "Gu Suizhou uses 'Brother Shen' (Brother Shen) to address Shen Feizhi. Should this be translated as a respectful term or a romanticized one given their complex dynamic?",
+      "options": [
+        "Anh Shen",
+        "Shen ca"
+      ],
+      "category": "honorific"
+    },
+    {
+      "id": "amb_002",
+      "original": "Young Master",
+      "suggested": "Thiếu gia",
+      "confidence": 1.0,
+      "question": "Xu Zhong refers to Gu Suizhou as 'Young Master'. Is this a formal title or a sign of their specific hierarchy?",
+      "options": [
+        "Thiếu gia",
+        "Cậu chủ"
+      ],
+      "category": "honorific"
+    }
+  ],
+  "chapter_id": "ch_029",
+  "analyzed_at": "2026-09-19T11:29:54.119353+07:00"
+}
