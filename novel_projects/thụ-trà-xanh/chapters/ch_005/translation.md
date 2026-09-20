@@ -118,7 +118,7 @@ Cố Tùy Châu kìm nén ý muốn nhào tới.
 
 Thẩm Phi Triết chống cằm, cúi đầu khẽ cười.
 
-Trên đường tới đây, thằng nhóc đã nói với anh: "Lâm Tuỳ có thể đang muốn hại em. Hiện tại em không thể về được. Anh Thẩm, xin hãy cho em ở nhờ."
+Trên đường tới đây, thằng nhóc đã nói với anh: "Lâm Tùy có thể đang muốn hại em. Hiện tại em không thể về được. Anh Thẩm, xin hãy cho em ở nhờ."
 
 Vì Thẩm Phi Triết đã quyết định cho cậu ở lại, anh đương nhiên đã lường trước tình huống "ăn ở cùng nhau" này và sẵn lòng đồng ý.
 

@@ -159,7 +159,7 @@ Anh hạ thấp giọng: "Mục tiêu chính của tôi đêm nay là Thẩm Vĩ
 
 Cố Tùy Châu mím môi, khóe miệng vẫn còn đau rát vì cái lau mạnh tay của anh. "Anh nói đi."
 
-"Lu Qian, người yêu thời thơ ấu của Thẩm Vĩ, đang mắc chứng rối loạn tuyến và cần gấp một Alpha để thực hiện dẫn truyền pheromone."
+"Lục Khiêm, người yêu thời thơ ấu của Thẩm Vĩ, đang mắc chứng rối loạn tuyến và cần gấp một Alpha để thực hiện dẫn truyền pheromone."
 
 Những Alpha mạnh mẽ có thể dùng năng lực của mình để dẫn truyền cho người khác thông qua việc điều tiết và giải phóng pheromone, bất kể người nhận là Alpha hay Omega. Tất nhiên, quá trình này tiêu tốn rất nhiều năng lượng và thể lực của Alpha, nếu sơ suất có thể gây tổn hại đến chính cơ thể họ. Thông thường, chẳng có Alpha nào tình nguyện làm việc này cả.
 
@@ -169,7 +169,7 @@ Tuyệt đối không! Kế hoạch "bẫy mật" của chúng ta vẫn chưa ho
 
 "Không có chuyện đó đâu." Thẩm Phi Triết lắc đầu, giọng điệu khô khốc: "Quan điểm của tôi là, nếu cô ta đã để mắt tới tôi, cậu phải đảm bảo giữ chặt lấy tôi—tuyệt đối không cho cô ta dù chỉ là một cơ hội nhỏ nhất!"
 
-Trong nguyên tác, Lục Thiển chỉ là một nhân vật phụ làm nền trong hậu cung. Dưới góc nhìn của Thẩm Phi Triết, cô ta chẳng hề liên quan đến bất kỳ tình tiết cốt lõi nào. Để tránh những rắc rối không đáng có, anh quyết tâm cắt đứt mọi mối liên hệ với cô ta, bóp chết ý định lãng mạn vừa chớm nở này ngay từ trong trứng nước.
+Trong nguyên tác, Lục Khiêm chỉ là một nhân vật phụ làm nền trong hậu cung. Dưới góc nhìn của Thẩm Phi Triết, cô ta chẳng hề liên quan đến bất kỳ tình tiết cốt lõi nào. Để tránh những rắc rối không đáng có, anh quyết tâm cắt đứt mọi mối liên hệ với cô ta, bóp chết ý định lãng mạn vừa chớm nở này ngay từ trong trứng nước.
 
 Một Cố Tùy Châu "miễn phí" ư? Dùng cũng tốt. Dù tính cách có phần khó chịu, nhưng Cố Tùy Châu lại là tấm lá chắn hoàn hảo để ngăn chặn những kẻ đeo bám phiền phức.
 
@@ -193,7 +193,7 @@ Anh thầm nghĩ, gương mặt này vốn dĩ chẳng phải diện mạo thậ
 
 Cố Tùy Châu "À" một tiếng, rồi khéo léo chuyển chủ đề: "Chị gái à, cô gái bên cạnh Thẩm Vĩ cứ nhìn anh chằm chằm kìa."
 
-"Tôi để ý thấy rồi." Thẩm Phi Triết bình thản đáp, "Đó là cô Lữ."
+"Tôi để ý thấy rồi." Thẩm Phi Triết bình thản đáp, "Đó là cô Lục."
 
 Cố Tùy Châu: "?"
 

@@ -440,7 +440,7 @@ Chưa kịp để từ đó dứt khỏi môi, Cố Tùy Châu đã nở một n
 
 Đây không còn là sự chạm nhẹ thăm dò nữa; mà là một cuộc xâm lấn toàn diện.
 
-Thẩm Phi Triết cắn mạnh vào cậu vì bực bội. "Giờ em đã học được cách chơi trò này với tôi rồi sao?"
+Thẩm Phi Triết cắn mạnh vào cậu vì bực bội. "Giờ cậu đã học được cách chơi trò này với tôi rồi sao?"
 
 "Là anh dạy em đấy thôi—phải dùng mọi thủ đoạn để đạt được thứ mình muốn. Lời của anh mà." Cố Tùy Châu không hề lùi lại khi nói, giọng cậu nghẹn lại nơi lồng ngực anh. "Em biết anh không ghét. Nếu ghét, anh đã tự bẻ gãy tay mình để đẩy em ra rồi đánh chết em luôn rồi. Nhưng dù có thế cũng chẳng sao cả; ngay cả khi anh thực sự ghét, em cũng sẽ không buông tay."
 
@@ -521,10 +521,6 @@ Thẩm Phi Triết nhìn Cố Tùy Châu – người lúc này đã quỳ một
 Cố Tùy Châu sững sờ, nhìn anh đầy hoài nghi: "Anh nghiêm túc đấy à?"
 
 Thú thật, cậu đã định dùng tay. Cậu thực sự không ngờ tới…
-
-Cố Tùy Châu đứng hình một lúc lâu, nhìn anh đầy hoài nghi: "Anh nghiêm túc đấy à?"
-
-Thú thật, cậu đã định dùng tay; cậu thực sự không ngờ tới…
 
 Thẩm Phi Triết nói: "Vậy thì thôi."
 

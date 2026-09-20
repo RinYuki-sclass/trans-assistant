@@ -185,7 +185,7 @@ Thẩm Phi Triết gật đầu: “Cứ để đó. Khi nào tôi về sẽ đi
 
 Anh luôn là người hành động nhanh chóng. Vừa nói sẽ xem xét, anh liền đi thẳng đến Viện Nghiên cứu ngay khi bước xuống tàu con thoi.
 
-Cố Tùy Châu không phải kẻ bất tài; anh không cần phải lo lắng về mọi chuyện nhỏ nhặt. Anh tin rằng người đàn ông đó có thể xử lý tình huống với Thẩm Vĩ một cách hoàn hảo.
+Cố Tùy Châu không phải kẻ bất tài; anh không cần phải lo lắng về mọi chuyện nhỏ nhặt. Anh tin rằng cậu có thể xử lý tình huống với Thẩm Vĩ một cách hoàn hảo.
 
 Bên trong W.N, văn phòng của Giám đốc đang đứng trước bờ vực bùng nổ.
 

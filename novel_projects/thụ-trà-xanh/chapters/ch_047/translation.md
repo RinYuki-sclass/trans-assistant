@@ -196,7 +196,7 @@ Anh lắc cốc xúc xắc trên tay: "Chúng ta chơi thế nào? Đoán tổng
 
 Thẩm Phi Triết nhập cuộc rất nhanh, đã thành công thâm nhập vào vòng trong của đối phương. Anh không hề hay biết rằng ở một góc trên tầng hai, một người quen đang nhìn mình với ánh mắt kinh hãi.
 
-Leapton là thành viên của hội Shen Wei Fei Ya và là khách quen của cơ sở này, nhưng gã chưa bao giờ dám mơ trong một triệu năm tới sẽ gặp được Thẩm Phi Triết ở đây. Trong ký ức của gã, Thẩm Phi Triết là một "đóa hoa trên đỉnh núi" — xa cách, không thể chạm tới và dường như tách biệt hoàn toàn với những ham muốn phàm trần.
+Leapton là thành viên của hội Thẩm Vĩ Fei Ya và là khách quen của cơ sở này, nhưng gã chưa bao giờ dám mơ trong một triệu năm tới sẽ gặp được Thẩm Phi Triết ở đây. Trong ký ức của gã, Thẩm Phi Triết là một "đóa hoa trên đỉnh núi" — xa cách, không thể chạm tới và dường như tách biệt hoàn toàn với những ham muốn phàm trần.
 
 Vậy mà giờ đây? Đóa hoa không thể chạm tới ấy lại đang ngồi chơi xúc xắc với một kẻ chuyên giao du tiệc tùng?!
 
@@ -212,8 +212,8 @@ Leapton nuốt khan, uống vội vài ngụm nước lạnh để dập tắt n
 
 Khi Cố Tùy Châu nhận được tin nhắn của Leapton, anh đang định từ chối lời chúc mừng từ một vị CEO bụng phệ. Anh ra hiệu rằng mình có việc bận, rồi mở điện thoại ra—
 
-[Lai Gou: Đẹp trai quá đi mất. Chết tiệt, tôi thực sự muốn sinh con cho anh ấy luôn rồi ToT]
-[Lai Gou: Lão Cố, đại ca của mày nóng bỏng thật đấy.]
+[Lai Cẩu: Đẹp trai quá đi mất. Chết tiệt, tôi thực sự muốn sinh con cho anh ấy luôn rồi ToT]
+[Lai Cẩu: Lão Cố, đại ca của mày nóng bỏng thật đấy.]
 
 Cố Tùy Châu: "..."
 

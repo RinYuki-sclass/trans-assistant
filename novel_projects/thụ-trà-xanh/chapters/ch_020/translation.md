@@ -126,11 +126,11 @@ Cố Tùy Châu đau lòng vuốt ve vết gãy, thậm chí còn cúi người 
 
 Thực chất, bức tượng đã hỏng từ lâu nhưng anh vẫn luôn tỉ mỉ sửa chữa, những phần được phục hồi trông vẫn vẹn nguyên như mới. Đây là sợi dây liên kết duy nhất còn sót lại giữa anh và người đó.
 
-Lần trước, anh bị buộc phải rời đi gấp gáp đến mức không kịp mang theo nó. Anh chưa từng nghĩ Lin Sui sẽ tìm thấy và cố tình đập vỡ nó.
+Lần trước, anh bị buộc phải rời đi gấp gáp đến mức không kịp mang theo nó. Anh chưa từng nghĩ Lâm Tùy sẽ tìm thấy và cố tình đập vỡ nó.
 
 Nghĩ đến đây, đôi mắt cáo vốn luôn dịu dàng, đa tình thường ngày bỗng trở nên lạnh lẽo và tàn nhẫn, hàng mi khẽ chớp.
 
-Hôm nay anh đã quá khoan dung với Lin Sui rồi. Lần tới gặp mặt, ít nhất anh phải đánh gãy một cánh tay của cậu ta.
+Hôm nay anh đã quá khoan dung với Lâm Tùy rồi. Lần tới gặp mặt, ít nhất anh phải đánh gãy một cánh tay của cậu ta.
 
 Hài lòng vì bức tượng chỉ bị nứt chứ không hư hại hoàn toàn, Cố Tùy Châu thở phào nhẹ nhõm. Anh cẩn thận gói ghém nó lại rồi nhét vào túi ngực áo sơ mi, áp sát vào trái tim mình.
 

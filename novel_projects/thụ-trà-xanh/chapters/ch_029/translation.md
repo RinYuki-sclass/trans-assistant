@@ -164,7 +164,7 @@ Thẩm Phi Triết từng nói anh ấy quan tâm đến những gì đã xảy 
 
 Sự trả thù có thể đợi, nhưng việc của Thẩm Phi Triết thì không; cậu chẳng còn thời gian để lãng phí.
 
-"Chú Trung, chú có thể tác động để đẩy nhanh quá trình xử lý giấy tờ tùy thân và công chứng thừa kế của cháu không? Cháu không thể chờ đợi thêm được nữa."
+"Chú Trọng, chú có thể tác động để đẩy nhanh quá trình xử lý giấy tờ tùy thân và công chứng thừa kế của cháu không? Cháu không thể chờ đợi thêm được nữa."
 
 Từ Trọng gật đầu: "Như ngài mong muốn, Thiếu gia."
 
@@ -188,11 +188,11 @@ Môi bà Lữ run rẩy: "Phi Chi, là con phải không? Trưởng lão Thẩm 
 
 "Vâng." Thẩm Phi Triết gật đầu.
 
-"Ôi, tạ ơn trời đất! Ơn trời..." Bà Lữ xúc động đến mức suýt bật khóc lần nữa. "Pheromones của Thiến Thiến không tiết ra, cơ thể con bé đang có phản ứng đào thải! Tiểu Thẩm, xin hãy giúp con bé! Ta với tư cách là dì của nó, cầu xin con!"
+"Ôi, tạ ơn trời đất! Ơn trời..." Bà Lục xúc động đến mức suýt bật khóc lần nữa. "Pheromones của Khiêm Khiêm không tiết ra, cơ thể con bé đang có phản ứng đào thải! Tiểu Thẩm, xin hãy giúp con bé! Ta với tư cách là dì của nó, cầu xin con!"
 
 "Đương nhiên là được." Thẩm Phi Triết liếc nhìn bà, trấn an: "Nhưng với sự khác biệt về giới tính của chúng ta, điều này chẳng phải sẽ ảnh hưởng đến danh tiếng của cô Lữ sao?"
 
-Bà Lữ lắc đầu kịch liệt: "Không! Tuyệt đối không! Tiểu Thẩm, tình trạng của Thiến Thiến không thể cải thiện chỉ sau một hay hai buổi điều trị. Nếu con thực sự lo lắng về dư luận, ta có thể sắp xếp để con và Thiến Thiến đính hôn càng sớm càng tốt!"
+Bà Lục lắc đầu kịch liệt: "Không! Tuyệt đối không! Tiểu Thẩm, tình trạng của Khiêm Khiêm không thể cải thiện chỉ sau một hay hai buổi điều trị. Nếu con thực sự lo lắng về dư luận, ta có thể sắp xếp để con và Khiêm Khiêm đính hôn càng sớm càng tốt!"
 
 Đại sảnh Thẩm gia im bặt trong vài giây.
 
@@ -200,7 +200,7 @@ Vẻ mặt của Thẩm phu nhân trên ghế sofa tối sầm lại.
 
 Thẩm Phi Triết rũ mắt, giấu đi vẻ thích thú trong đáy mắt: "Không sao đâu dì. Nếu cô Lục không ngại, con chắc chắn sẽ không từ chối. Còn về chuyện đính hôn, cứ để sau hãy bàn. Người chịu ảnh hưởng nặng nề nhất chính là cô Lục, con tôn trọng mong muốn của cô ấy."
 
-Bà Lữ cười rạng rỡ đầy biết ơn: "Tiểu Thâm, con cứ yên tâm. Thiên Thiên đã nói với dì rồi, con bé có tình cảm với con, hai đứa cứ chăm sóc lẫn nhau! Phải, thật sự phải chăm sóc lẫn nhau đấy!"
+Bà Lục cười rạng rỡ đầy biết ơn: "Tiểu Thẩm, con cứ yên tâm. Khiêm Khiêm đã nói với dì rồi, con bé có tình cảm với con, hai đứa cứ chăm sóc lẫn nhau! Phải, thật sự phải chăm sóc lẫn nhau đấy!"
 
 Thẩm Phi Triết vẫn giữ thái độ không cam kết: "Con có nên vào gặp cô ấy bây giờ không ạ?"
 
@@ -216,11 +216,11 @@ Tiếng đồ vật rơi xuống sàn vang lên từ phía sau cánh cửa. Ngay
 
 Thẩm Phi Triết nhanh chóng bước vào, đóng cửa lại, cau mày nhìn mùi mật ong nồng nặc đang tràn ngập căn phòng. Anh lấy từ trong túi ra một chiếc mặt nạ đã chuẩn bị sẵn rồi đeo lên: "Màn kịch cô diễn xuất sắc thật đấy."
 
-"Anh cá là vậy," Lục Thiên trả lời, cô vắt chéo chân trên giường, vẻ yếu đuối biến mất, thay vào đó là ánh nhìn đắc ý hướng về phía anh. "Nếu không diễn cho thuyết phục, làm sao tôi lừa được mấy lão già hồ đồ đó gọi anh về? Anh đúng là giỏi thật đấy, biến mất cả ngày trời mà chẳng cách nào liên lạc được."
+"Anh cá là vậy," Lục Khiêm trả lời, cô vắt chéo chân trên giường, vẻ yếu đuối biến mất, thay vào đó là ánh nhìn đắc ý hướng về phía anh. "Nếu không diễn cho thuyết phục, làm sao tôi lừa được mấy lão già hồ đồ đó gọi anh về? Anh đúng là giỏi thật đấy, biến mất cả ngày trời mà chẳng cách nào liên lạc được."
 
 Nhớ lại khoảng thời gian hôn mê bất tỉnh, tâm trạng Thẩm Phi Triết chùng xuống như đáy biển sâu: "Có chuyện gì gấp mà cô phải gọi tôi về bằng được?" Anh hỏi, giọng trầm xuống.
 
-"Lại đây xem cái này." Lục Thiên ra hiệu cho anh lại gần, cẩn thận kìm nén pheromone của mình. "Kiểm tra hồ sơ của nhà thiết kế này đi."
+"Lại đây xem cái này." Lục Khiêm ra hiệu cho anh lại gần, cẩn thận kìm nén pheromone của mình. "Kiểm tra hồ sơ của nhà thiết kế này đi."
 
 Thẩm Phi Triết tiến lại gần, cầm lấy chiếc máy tính bảng từ tay cô.
 
@@ -234,7 +234,7 @@ Kể từ khi Kỷ nguyên Mới bắt đầu, tuổi thọ trung bình của co
 
 Tất nhiên, vẫn có những trường hợp lão hóa sớm, nhưng nhìn thấy một người già nua đến mức này… quả thực rất hiếm gặp.
 
-“Trông ông ta chẳng giống tuổi thật chút nào, phải không?” Lục Thiển chỉ vào bức ảnh bên cạnh. “Cậu có tin được không? Bức ảnh này được chụp cách đây mười năm đấy.”
+“Trông ông ta chẳng giống tuổi thật chút nào, phải không?” Lục Khiêm chỉ vào bức ảnh bên cạnh. “Cậu có tin được không? Bức ảnh này được chụp cách đây mười năm đấy.”
 
 Chỉ mới mười năm, mà ông ta đã già đi như thể cả thế kỷ vừa trôi qua.
 
@@ -242,9 +242,9 @@ Thẩm Phi Triết chăm chú xem xét sơ yếu lý lịch cùng các công tr�
 
 Nếu không phải do áp lực công việc hay khó khăn tài chính, thì chỉ có thể là sự dằn vặt tinh thần mà bản thân tự chuốc lấy.
 
-Lục Thiển búng tay cái “tách”. “Chuẩn xác!”
+Lục Khiêm búng tay cái “tách”. “Chuẩn xác!”
 
-Cô hạ giọng nói tiếp: “Phi Chi, điền trang của gia tộc Thẩm vốn là một khu phức hợp sân vườn rộng lớn. Hai mươi lăm năm trước, để bắt kịp thời đại, Thẩm trưởng lão đã cho phá bỏ và xây dựng lại, thuê chính người đàn ông này làm kiến trúc sư.”
+Cô hạ giọng nói tiếp: “Phi Triết, điền trang của gia tộc Thẩm vốn là một khu phức hợp sân vườn rộng lớn. Hai mươi lăm năm trước, để bắt kịp thời đại, Thẩm trưởng lão đã cho phá bỏ và xây dựng lại, thuê chính người đàn ông này làm kiến trúc sư.”
 
 “Biệt thự đó vô cùng tráng lệ, thiết kế của nó đã đưa tên tuổi vị kiến trúc sư này lên hàng danh giá. Với kỹ thuật chính xác, công trình lẽ ra phải giữ được cấu trúc vững chãi trong hàng thế kỷ. Thế nhưng, đúng mười năm trước, Thẩm trưởng lão đột nhiên mời ông ta quay lại, tuyên bố là để ‘kiểm tra định kỳ’.”
 
@@ -252,33 +252,33 @@ Mười năm? Lại là mốc thời gian đó.
 
 Thẩm Phi Triết hiểu ý, gật đầu: “Tôi hiểu rồi.”
 
-Lục Thiển hỏi: “Tôi không chắc tin tức này có liên quan đến giao dịch của nhà họ Thẩm với W.N mười năm trước hay không, nhưng tôi nghĩ chúng ta nên tiếp cận vị kiến trúc sư này để thăm dò. Cậu định dùng lý do gì?”
+Lục Khiêm hỏi: “Tôi không chắc tin tức này có liên quan đến giao dịch của nhà họ Thẩm với W.N mười năm trước hay không, nhưng tôi nghĩ chúng ta nên tiếp cận vị kiến trúc sư này để thăm dò. Cậu định dùng lý do gì?”
 
 Thẩm Phi Triết hạ tầm mắt: “Giả vờ như muốn cải tạo ‘phòng tân hôn’ của chúng ta. Cậu thấy sao?”
 
-Lục Thiển sững sờ, rồi buột miệng: “Mẹ kiếp.”
+Lục Khiêm sững sờ, rồi buột miệng: “Mẹ kiếp.”
 
-Gân xanh trên thái dương Thẩm Phi Triết giật giật. Anh vốn không ưa những lời tục tĩu, nhưng vì là Lục Thiển nên anh đành im lặng. Nếu là Cố Tùy Châu, anh đã chẳng ngần ngại mà tát thẳng vào mặt hắn rồi.
+Gân xanh trên thái dương Thẩm Phi Triết giật giật. Anh vốn không ưa những lời tục tĩu, nhưng vì là Lục Khiêm nên anh đành im lặng. Nếu là Cố Tùy Châu, anh đã chẳng ngần ngại mà tát thẳng vào mặt hắn rồi.
 
 Khuôn mặt cười toe toét đầy quỷ dị của tên “Green Tea Uke” đó bất chợt hiện lên trong tâm trí anh. Thẩm Phi Triết bất lực day day sống mũi.
 
 “Dựa vào lý lịch, những năm gần đây Lục Phàm rất ít khi nhận dự án. Là một chuyên gia thiết kế kết cấu không gian danh tiếng, việc yêu cầu ông ta thiết kế một căn hộ vài trăm mét vuông chẳng khác nào dùng búa tạ để đập hạt dẻ. Rất có thể ông ta sẽ phái một đồ đệ đến làm cho có lệ.”
 
-Trí tuệ của Lục Thiển lại bộc lộ rõ ràng: “Vậy phải làm sao? Chẳng lẽ lại dâng cả gia tài cho ông ta?”
+Trí tuệ của Lục Khiêm lại bộc lộ rõ ràng: “Vậy phải làm sao? Chẳng lẽ lại dâng cả gia tài cho ông ta?”
 
 “Có lộc thì ắt có tiền.” Thẩm Phi Triết đáp. “Hơn nữa, ‘phòng tân hôn’ của chúng ta không thể là một căn hộ tầm thường. Thuê một kiến trúc sư tầm cỡ như Lục Phàm cho một không gian nhỏ hẹp như vậy thì quá lộ liễu. Tôi sẽ sớm mua một căn biệt thự trên đường Lanxie. Sắp xếp thời gian đi, chúng ta cùng đến ký giấy tờ sở hữu.”
 
-“Mẹ kiếp!” Lục Thiển nhảy dựng lên. “Ký khế ước với tôi? Cậu thực sự định đứng tên tôi sao?!”
+“Mẹ kiếp!” Lục Khiêm nhảy dựng lên. “Ký khế ước với tôi? Cậu thực sự định đứng tên tôi sao?!”
 
-Gia đình Lữ tuy giàu có, nhưng cô chỉ nhận được một khoản trợ cấp ít ỏi. Đối với cô, một căn biệt thự trên đường Lanxie vốn là giấc mơ xa vời.
+Gia đình họ Lục tuy giàu có, nhưng cô chỉ nhận được một khoản trợ cấp ít ỏi. Đối với cô, một căn biệt thự trên đường Lanxie vốn là giấc mơ xa vời.
 
 Thẩm Phi Triết nhìn cô bằng ánh mắt như muốn nói "cô đang mơ giữa ban ngày". "Đừng hy vọng quá nhiều, cô chỉ đến đây để giúp tôi lựa chọn thôi. Chúng ta cần phải giữ gìn thể diện."
 
-Lục Thiển ngượng ngùng gãi mũi: "Ồ, tôi hiểu rồi. Ai mà biết cậu lại bận rộn đến thế chứ?"
+Lục Khiêm ngượng ngùng gãi mũi: "Ồ, tôi hiểu rồi. Ai mà biết cậu lại bận rộn đến thế chứ?"
 
 "Tôi không giàu," Thẩm Phi Triết thản nhiên đáp.
 
-Lục Thiển: "?"
+Lục Khiêm: "?"
 
 Thẩm Phi Triết tiếp lời: "Nhưng trưởng lão nhà họ Thẩm thì có."
 
@@ -288,27 +288,27 @@ Lão Thẩm muốn hắn tiếp quản công việc kinh doanh của gia đình 
 
 Ba ngày—đúng bằng khoảng thời gian nghỉ phép cuối cùng của Thẩm Phi Triết tại W.N.
 
-Trong ba ngày đó, Thẩm Phi Triết cùng Lục Thiển ở trong phòng, giả vờ như đang giúp cô điều chỉnh Pheromones.
+Trong ba ngày đó, Thẩm Phi Triết cùng Lục Khiêm ở trong phòng, giả vờ như đang giúp cô điều chỉnh Pheromones.
 
 Trưởng lão Thẩm đã giữ đúng thỏa thuận, chuyển một tỷ nhân dân tệ vào tài khoản của hắn. Thẩm Phi Triết nhanh chóng đầu tư vào thị trường chứng khoán, số tiền tăng gần gấp đôi—đủ để mua một căn biệt thự song lập.
 
 Tối ngày thứ ba.
 
-Lục Thiển chỉnh đốn lại dáng vẻ, tiễn hắn ra cửa: "Tôi đã liên lạc với trợ lý của Lục Phàm rồi, một hai ngày nữa sẽ có phản hồi."
+Lục Khiêm chỉnh đốn lại dáng vẻ, tiễn hắn ra cửa: "Tôi đã liên lạc với trợ lý của Lục Phàm rồi, một hai ngày nữa sẽ có phản hồi."
 
 "Được, tôi cũng đang theo dõi tình hình trong nhà," Thẩm Phi Triết gật đầu. "Tôi đi đây."
 
-"Được rồi." Lục Thiển đột nhiên khoác tay hắn, nháy mắt tinh nghịch: "Gặp lại sau nhé, cưng à~"
+"Được rồi." Lục Khiêm đột nhiên khoác tay hắn, nháy mắt tinh nghịch: "Gặp lại sau nhé, cưng à~"
 
 Thẩm Phi Triết lập tức nổi da gà.
 
 Nhưng nhìn thấy vẻ mặt không hài lòng của Thẩm phu nhân cùng ánh mắt lo lắng của Lục phu nhân, hắn đành phải nhẫn nhịn: "Ừ, gặp lại sau."
 
-Lục Thiển nhìn hắn đầy chờ đợi.
+Lục Khiêm nhìn hắn đầy chờ đợi.
 
 Tuy nhiên, Thẩm Phi Triết không tài nào thốt nổi hai chữ "anh yêu", đành quay người rời đi với vẻ hoàn toàn thiếu lãng mạn.
 
-Lục Thiển: “……”
+Lục Khiêm: “……”
 Đúng là đồ khốn kiếp! Làm sao mà cậu Omega bé nhỏ xinh đẹp kia của anh lại có thể chịu đựng nổi anh cơ chứ?!
 
 Ngay khi vừa rời khỏi tầm mắt của nhà họ Lục, Thẩm Phi Triết lập tức cởi phăng chiếc áo khoác mà Lục Khiêm vừa chạm vào. Ngoài làn da nhạy cảm, bản chất anh còn là một kẻ mắc chứng sạch sẽ thái quá — ngoại trừ một ngoại lệ duy nhất: cái tên Cố Tùy Châu chết tiệt kia.

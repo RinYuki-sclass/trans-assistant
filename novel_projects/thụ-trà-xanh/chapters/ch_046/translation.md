@@ -334,7 +334,7 @@ Tuy gọi là hộp đêm, nhưng nơi này không hề "tạp nham"; nó sạch
 
 Tại nơi đó, Alpha và Omega đều là những kẻ đứng đầu. Danh sách khách mời thay đổi theo từng đêm, không thiếu những nhân vật giàu có tìm đến để tiêu khiển. Nó không đơn thuần là một hộp đêm, mà giống như một câu lạc bộ kết nối quy mô lớn dành cho những Alpha tuấn tú và Omega xinh đẹp.
 
-Giăng lưới rộng để chọn ra người giỏi nhất—có lẽ anh ta có thể gài bẫy Cố Tùy Châu.
+Giăng lưới rộng để chọn ra người giỏi nhất—có lẽ anh có thể chọn được một người cho Cố Tùy Châu.
 
 Thẩm Phi Triết cảm thấy lòng mình trĩu nặng; anh chưa bao giờ ngờ rằng sẽ có ngày mình lại làm một việc như thế này.
 
@@ -344,9 +344,9 @@ Sau một hồi đắn đo, anh gửi tin nhắn cho Cố Tùy Châu.
 
 Trên tầng cao nhất của tập đoàn W.N., Cố Tùy Châu đang trong cuộc họp, nghe thấy âm thanh thông báo đặc biệt từ chiếc điện thoại thông minh liền lén nhìn xuống.
 
-Khi đọc được nội dung tin nhắn, mắt anh suýt chút nữa đã rơi ra ngoài.
+Khi đọc được nội dung tin nhắn, mắt cậu suýt chút nữa đã rơi cả ra ngoài.
 
-Anh mím môi, gõ vài dòng đáp lại.
+Cậu mím môi, gõ vài dòng đáp lại.
 
 [G: Nam, cao trên 180cm, da trắng, vóc dáng mảnh khảnh nhưng ẩn chứa cơ bắp. Phải có mắt đen và tóc đen. Cần có kỹ năng chiến đấu—đủ để đấu vài hiệp với em. Không chửi thề. Biết nấu ăn. Am hiểu nghiên cứu khoa học và chơi chứng khoán. Cần có khả năng giao dịch nhạy bén cho mọi thứ khác… Vâng, chỉ vậy thôi.]
 

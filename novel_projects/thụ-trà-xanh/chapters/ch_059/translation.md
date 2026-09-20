@@ -285,7 +285,7 @@ Chết tiệt, cảm giác… thật tuyệt.
 Thẩm Phi Triết quay người lại, vẻ mặt không cảm xúc.
 "Cậu có thể đừng cản đường tôi được không?"
 
-Cố Tùy Châu khẽ cười. Liếc thấy người phụ nữ đang đi ra, anh vội vàng khoác lại áo khoác lên vai Thẩm Phi Triết.
+Cố Tùy Châu khẽ cười. Liếc thấy người phụ nữ đang đi ra, cậu vội vàng khoác lại áo khoác lên vai Thẩm Phi Triết.
 "Em không muốn cô ấy nhìn thấy."
 
 Thẩm Phi Triết: "..."

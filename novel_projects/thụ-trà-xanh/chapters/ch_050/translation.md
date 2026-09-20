@@ -104,7 +104,7 @@ Nghe tiếng bước chân bên ngoài xa dần, Thẩm Phi Triết rốt cục 
 
 Hắn giơ năm ngón tay lên, khẽ cong chúng lại đầy vẻ đáng thương.
 
-Thẩm Phi Triết nghe hắn nhắc đến con số năm năm, trong lòng không khỏi mềm nhũn: "Được."
+Thẩm Phi Triết nghe cậu nhắc đến con số năm năm, trong lòng không khỏi mềm nhũn: "Được."
 
 Đôi mắt Cố Tùy Châu sáng rực lên: "Vậy chúng ta sẽ—"
 
@@ -122,7 +122,7 @@ Cố Tùy Châu giận dữ đi đi lại lại trong phòng, trong lòng thầm
 
 Sự hiện diện của C2 quá mức áp đảo, và không thể phủ nhận rằng anh ta rất đẹp trai. Thẩm Phi Triết liệu có nhìn anh ta bằng ánh mắt khác biệt nào không…?
 
-"Có chuyện gì sao?" Thẩm Phi Triết tưởng rằng hắn không thích đi ba người, liền nói thêm: "Nếu vậy, chúng ta có thể mang theo cả Leapton nữa."
+"Có chuyện gì sao?" Thẩm Phi Triết tưởng rằng cậu không thích đi ba người, liền nói thêm: "Nếu vậy, chúng ta có thể mang theo cả Leapton nữa."
 
 Bốn người. Như thế thì sẽ không ai phải lẻ loi cả.
 
@@ -132,7 +132,7 @@ Bây giờ anh còn muốn mang theo tận hai người?!
 
 Kế hoạch cho chuyến đi cứ thế mà định đoạt. Những ngày sau đó, Cố Tùy Châu bận rộn xử lý công việc tại công ty, nên Thẩm Phi Triết phải gánh vác trọng trách lớn lao là dắt chó đi dạo.
 
-Anh cũng nhân cơ hội này dọn dẹp mớ hỗn độn mà "Anh chàng đẹp trai số 9" để lại.
+Cậu cũng nhân cơ hội này dọn dẹp mớ hỗn độn mà "Anh chàng đẹp trai số 9" để lại.
 
 Một ngày trước khi khởi hành, anh và Leapton mang con chó đến gửi nhờ nhà Từ Trọng.
 
@@ -322,17 +322,17 @@ C2: “Nhưng mà… vẫn không ổn lắm…”
 
 Thẩm Phi Triết: "Cậu không cần tiền?"
 
-Cố Tùy Châu: "Nhưng mà..."
+C2: "Nhưng mà..."
 
 Thẩm Phi Triết: "Gấp đôi tiêu chuẩn thế giới."
 
-Cố Tùy Châu: "Thỏa thuận."
+C2: "Thỏa thuận."
 
 Cậu lập tức thông báo cho A11 chuẩn bị danh sách rút gọn số liệu, hào hứng hỏi: "Khi nào thì xuất phát?"
 
 "Sau chuyến đi này." Thẩm Phi Triết đáp. "Tôi đã hứa với người ta một kỳ nghỉ, bỏ dở giữa chừng thì không hay lắm."
 
-"Anh ta lừa dối cậu mà cậu vẫn còn tìm anh ta sao?" Cố Tùy Châu bối rối hỏi. "Sức chịu đựng của cậu đối với anh ta chẳng phải là quá mức rồi sao?"
+"Cậu ta lừa dối anh mà anh vẫn còn quan tâm đến cậu ta sao?" C2 bối rối hỏi. "Sự khoan dung của anh đối với cậu ta chẳng phải là quá mức rồi sao?"
 
 "Không phải là khoan dung." Thẩm Phi Triết đeo bịt mắt lên, chuẩn bị chợp mắt một lát. "Tôi chỉ tò mò rốt cuộc đứa trẻ này đang giở trò gì thôi."
 

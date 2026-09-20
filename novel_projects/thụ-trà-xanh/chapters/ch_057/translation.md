@@ -290,7 +290,7 @@ Cố Tùy Châu nhanh như chớp hôn lên nốt ruồi ở chóp mũi anh.
 
 Thẩm Phi Triết từ chối.
 
-Cố Suizhou vẫn giữ nguyên tư thế chóp mũi chạm chóp mũi với anh, ra vẻ đau khổ nói: "Thật á? Anh đang lừa em đúng không? Anh không muốn chịu trách nhiệm với em phải không? Có phải để đến một ngày nào đó khi chán rồi, anh có thể phủi tay quay về cái gọi là Tinh Cầu Chủ hay gì đó không?"
+Cố Tùy Châu vẫn giữ nguyên tư thế chóp mũi chạm chóp mũi với anh, ra vẻ đau khổ nói: "Thật á? Anh đang lừa em đúng không? Anh không muốn chịu trách nhiệm với em phải không? Có phải để đến một ngày nào đó khi chán rồi, anh có thể phủi tay quay về cái gọi là Tinh Cầu Chủ hay gì đó không?"
 
 "Đây là thế giới của tôi. Tôi còn đi đâu được nữa?" 
 

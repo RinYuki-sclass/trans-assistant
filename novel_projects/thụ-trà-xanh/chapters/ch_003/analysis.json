@@ -1,0 +1,261 @@
+{
+  "chapter_summary": "Thẩm Phi Trĩ cho phép Lâm Chu thực hiện kiểm tra sức khỏe, nghi ngờ cậu ta không đơn giản như vẻ ngoài. Anh thử Lâm Chu, và cậu ta nhanh chóng bộc lộ sự tinh ranh của mình. Thẩm Phi Trĩ nhận ra Lâm Chu là một 'tiểu hỗn đản' chứ không phải 'tiểu bạch thỏ' ngây thơ. Anh cũng nhận thấy sự khác biệt giữa hành vi của Lâm Chu và thông tin hạn chế trong hồ sơ. Khi Thẩm Phi Trĩ cố gắng dò hỏi tên Lâm Chu, cậu ta bất ngờ tiêm thuốc mê và trói anh lại bằng dây trói. Trong lúc Thẩm Phi Trĩ bất tỉnh, Lâm Chu suy ngẫm về quá khứ: Thẩm gia đã đẩy gia đình cậu ta đến phá sản, khiến cha mẹ cậu ta tự sát. Cậu ta đã thu thập thông tin về Thẩm Phi Trĩ, tin rằng anh là một kẻ vô dụng, nhưng khi gặp mặt, Lâm Chu nhận ra thông tin đó sai lệch. Cậu ta quyết định chuyển mục tiêu từ Thẩm Vĩ sang Thẩm Phi Trĩ, tin rằng một người 'giả ngu' sẽ mang lại nhiều thông tin hơn, dù rủi ro cao hơn. Lâm Chu cho rằng Thẩm Phi Trĩ là một kẻ háo sắc, thèm muốn cơ thể mình. Sau đó, Lâm Chu kiểm tra dữ liệu y tế của Thẩm Phi Trĩ và sốc khi thấy nồng độ pheromone của anh cực kỳ cao, không phải là 'chưa phân hóa' như dự kiến. Cậu ta cố gắng di chuyển Thẩm Phi Trĩ đang bất tỉnh, nhưng Thẩm Phi Trĩ, do thể chất vượt trội, đã tỉnh dậy sớm hơn nhiều. Tức giận vì bị chạm vào, Thẩm Phi Trĩ đe dọa Lâm Chu. Ngay khi Thẩm Phi Trĩ chuẩn bị 'nói chuyện đàng hoàng', Lâm Chu bám chặt lấy anh khi Lâm Tuy và Thẩm lão gia chủ xông vào phòng. Lâm Tuy sốc, còn Thẩm lão gia chủ gọi Thẩm Phi Trĩ là 'nghịch tử'. Trong khoảnh khắc đó, Lâm Chu cắn vào cổ Thẩm Phi Trĩ.",
+  "new_characters": [
+    {
+      "name": "Shen Father",
+      "hanviet_name": "Thẩm phụ",
+      "gender": "male",
+      "role": "Father of Shen Feizhi and Shen Wei",
+      "description": "Father of Shen Feizhi (illegitimate son) and Shen Wei (legitimate son). His affair with a model resulted in Shen Feizhi's birth."
+    },
+    {
+      "name": "Shen Feizhi's birth mother",
+      "hanviet_name": "Mẫu thân của Thẩm Phi Trĩ",
+      "gender": "female",
+      "role": "Birth mother of Shen Feizhi",
+      "description": "A model who had an affair with Shen Father, giving birth to Shen Feizhi. She died when Shen Feizhi was five."
+    }
+  ],
+  "new_locations": [],
+  "new_terms": [
+    {
+      "original": "restraints",
+      "suggested": "dây trói",
+      "hanviet": null,
+      "category": "item",
+      "confidence": 1.0
+    },
+    {
+      "original": "anesthetic",
+      "suggested": "thuốc mê",
+      "hanviet": null,
+      "category": "item",
+      "confidence": 1.0
+    },
+    {
+      "original": "automated medical equipment",
+      "suggested": "thiết bị y tế tự động",
+      "hanviet": null,
+      "category": "item",
+      "confidence": 1.0
+    },
+    {
+      "original": "Pheromone concentration",
+      "suggested": "nồng độ pheromone",
+      "hanviet": null,
+      "category": "terminology",
+      "confidence": 1.0
+    },
+    {
+      "original": "undifferentiated",
+      "suggested": "chưa phân hóa",
+      "hanviet": null,
+      "category": "terminology",
+      "confidence": 1.0
+    },
+    {
+      "original": "restraint collar",
+      "suggested": "vòng cổ hạn chế",
+      "hanviet": null,
+      "category": "item",
+      "confidence": 1.0
+    },
+    {
+      "original": "integration into this reality",
+      "suggested": "hòa nhập vào thực tại này",
+      "hanviet": null,
+      "category": "terminology",
+      "confidence": 0.9
+    },
+    {
+      "original": "sadist",
+      "suggested": "kẻ bạo dâm",
+      "hanviet": null,
+      "category": "other",
+      "confidence": 0.9
+    },
+    {
+      "original": "germaphobe",
+      "suggested": "người mắc chứng sợ vi trùng",
+      "hanviet": null,
+      "category": "other",
+      "confidence": 0.9
+    },
+    {
+      "original": "weakened basic abilities",
+      "suggested": "năng lực cơ bản suy yếu",
+      "hanviet": null,
+      "category": "terminology",
+      "confidence": 1.0
+    },
+    {
+      "original": "apocalyptic scenarios",
+      "suggested": "kịch bản tận thế",
+      "hanviet": null,
+      "category": "other",
+      "confidence": 1.0
+    },
+    {
+      "original": "infinite flow scenarios",
+      "suggested": "kịch bản luân hồi vô hạn",
+      "hanviet": null,
+      "category": "other",
+      "confidence": 1.0
+    },
+    {
+      "original": "leveling-up and farming simulators",
+      "suggested": "giả lập thăng cấp và cày cuốc",
+      "hanviet": null,
+      "category": "other",
+      "confidence": 1.0
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "his younger brother",
+      "suggested": "Lâm Chu",
+      "confidence": 1.0,
+      "question": "Who is 'his younger brother'?",
+      "options": [],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_002",
+      "original": "The little white rabbit",
+      "suggested": "Lâm Chu",
+      "confidence": 1.0,
+      "question": "Who is 'The little white rabbit'?",
+      "options": [],
+      "category": "name"
+    },
+    {
+      "id": "amb_003",
+      "original": "this difficult character",
+      "suggested": "Thẩm Phi Trĩ",
+      "confidence": 1.0,
+      "question": "Who is 'this difficult character'?",
+      "options": [],
+      "category": "name"
+    },
+    {
+      "id": "amb_004",
+      "original": "Second Young Master",
+      "suggested": "Thẩm Phi Trĩ",
+      "confidence": 1.0,
+      "question": "Who is 'Second Young Master'?",
+      "options": [],
+      "category": "honorific"
+    },
+    {
+      "id": "amb_005",
+      "original": "the teenager",
+      "suggested": "Lâm Chu",
+      "confidence": 1.0,
+      "question": "Who is 'the teenager'?",
+      "options": [],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_006",
+      "original": "little bastard",
+      "suggested": "Lâm Chu",
+      "confidence": 1.0,
+      "question": "Who is 'little bastard'?",
+      "options": [],
+      "category": "name"
+    },
+    {
+      "id": "amb_007",
+      "original": "Second Young Master Shen",
+      "suggested": "Thẩm Phi Trĩ",
+      "confidence": 1.0,
+      "question": "Who is 'Second Young Master Shen'?",
+      "options": [],
+      "category": "honorific"
+    },
+    {
+      "id": "amb_008",
+      "original": "your brother",
+      "suggested": "Lâm Tuy",
+      "confidence": 1.0,
+      "question": "Who is 'your brother' (spoken by Shen Feizhi to Lin Zhou)?",
+      "options": [],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_009",
+      "original": "their sole illegitimate son",
+      "suggested": "Thẩm Phi Trĩ",
+      "confidence": 1.0,
+      "question": "Who is 'their sole illegitimate son'?",
+      "options": [],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_010",
+      "original": "legitimate young master",
+      "suggested": "Thẩm Vĩ",
+      "confidence": 1.0,
+      "question": "Who is 'legitimate young master'?",
+      "options": [],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_011",
+      "original": "his brother's designated doctor",
+      "suggested": "Lâm Tuy",
+      "confidence": 1.0,
+      "question": "Who is 'his brother's designated doctor' (referring to Shen Feizhi's brother)?",
+      "options": [],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_012",
+      "original": "this guy",
+      "suggested": "Thẩm Phi Trĩ",
+      "confidence": 1.0,
+      "question": "Who is 'this guy' (in Lin Zhou's thoughts)?",
+      "options": [],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_013",
+      "original": "that idiot Shen Wei",
+      "suggested": "Thẩm Vĩ",
+      "confidence": 1.0,
+      "question": "Who is 'that idiot Shen Wei'?",
+      "options": [],
+      "category": "name"
+    },
+    {
+      "id": "amb_014",
+      "original": "The man",
+      "suggested": "Thẩm Phi Trĩ",
+      "confidence": 1.0,
+      "question": "Who is 'The man' (who woke up)?",
+      "options": [],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_015",
+      "original": "the boy",
+      "suggested": "Lâm Chu",
+      "confidence": 1.0,
+      "question": "Who is 'the boy'?",
+      "options": [],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_016",
+      "original": "Unfilial son!",
+      "suggested": "Nghịch tử!",
+      "confidence": 1.0,
+      "question": "Who is 'Unfilial son!' (spoken by Elder Shen)?",
+      "options": [],
+      "category": "honorific"
+    }
+  ],
+  "chapter_id": "ch_003",
+  "analyzed_at": "2026-09-20T15:36:22.092825+07:00"
+}
