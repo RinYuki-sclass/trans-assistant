@@ -1,9 +1,9 @@
 {
-  "chapter_summary": "Chương này kể về cuộc gặp gỡ đầu tiên của Thẩm Phi Trĩ với Lâm Tuy và em trai của Lâm Tuy, Lâm Chu, tại tư gia Thẩm gia. Thẩm Phi Trĩ quan sát phong thái ôn hòa của Lâm Tuy và vẻ đẹp nổi bật của Lâm Chu, đồng thời nhận thấy sự chiếm hữu của Lâm Tuy đối với em trai mình. Thẩm lão gia chủ và Thẩm phu nhân (mẹ kế của Thẩm Phi Trĩ) tỏ ra thù địch với Thẩm Phi Trĩ vì thân phận con ngoài giá thú của anh. Lâm Tuy, với tư cách là \"Bác sĩ Lâm\", cố gắng tiến hành kiểm tra cho Thẩm Phi Trĩ, yêu cầu anh cởi áo. Thẩm Phi Trĩ, nhận ra ý định \"yêu từ cái nhìn đầu tiên\" của Lâm Tuy và muốn kiểm tra các nút cố định của thế giới, đã khiêu khích từ chối cởi áo trước mặt mọi người, buộc cuộc kiểm tra phải chuyển vào một căn phòng riêng. Anh cũng nhận thấy \"ham muốn biến thái\" của Lâm Tuy. Trong khi chờ Lâm Tuy di chuyển thiết bị, Thẩm Phi Trĩ chứng kiến cuộc đối thoại giữa Lâm Tuy và Lâm Chu, nơi Lâm Chu ngầm chế nhạo Lâm Tuy. Lâm Chu sau đó đề nghị giúp hiệu chỉnh thiết bị, khiến Thẩm Phi Trĩ ngạc nhiên và thu hút sự chú ý của anh.",
+  "chapter_summary": "Chương này kể về cuộc gặp gỡ đầu tiên của Thẩm Phi Trĩ với Lâm Tuỳ và em trai của Lâm Tuỳ, Lâm Châu, tại tư gia Thẩm gia. Thẩm Phi Trĩ quan sát phong thái ôn hòa của Lâm Tuỳ và vẻ đẹp nổi bật của Lâm Châu, đồng thời nhận thấy sự chiếm hữu của Lâm Tuỳ đối với em trai mình. Thẩm lão gia chủ và Thẩm phu nhân (mẹ kế của Thẩm Phi Trĩ) tỏ ra thù địch với Thẩm Phi Trĩ vì thân phận con ngoài giá thú của anh. Lâm Tuỳ, với tư cách là \"Bác sĩ Lâm\", cố gắng tiến hành kiểm tra cho Thẩm Phi Trĩ, yêu cầu anh cởi áo. Thẩm Phi Trĩ, nhận ra ý định \"yêu từ cái nhìn đầu tiên\" của Lâm Tuỳ và muốn kiểm tra các nút cố định của thế giới, đã khiêu khích từ chối cởi áo trước mặt mọi người, buộc cuộc kiểm tra phải chuyển vào một căn phòng riêng. Anh cũng nhận thấy \"ham muốn biến thái\" của Lâm Tuỳ. Trong khi chờ Lâm Tuỳ di chuyển thiết bị, Thẩm Phi Trĩ chứng kiến cuộc đối thoại giữa Lâm Tuỳ và Lâm Châu, nơi Lâm Châu ngầm chế nhạo Lâm Tuỳ. Lâm Châu sau đó đề nghị giúp hiệu chỉnh thiết bị, khiến Thẩm Phi Trĩ ngạc nhiên và thu hút sự chú ý của anh.",
   "new_characters": [
     {
       "name": "Lin Zhou",
-      "hanviet_name": "Lâm Chu",
+      "hanviet_name": "Lâm Châu",
       "gender": "male",
       "role": "Lin Sui's younger brother",
       "description": "A strikingly beautiful boy, described as ethereally androgynous, with aggressive fox eyes that appear docile. He silently mocks Lin Sui and offers to help calibrate equipment."
@@ -79,33 +79,33 @@
     {
       "id": "amb_001",
       "original": "his brother",
-      "suggested": "Lâm Chu",
+      "suggested": "Lâm Châu",
       "confidence": 1.0,
       "question": "Who is 'his brother' referring to in 'Lin Sui despised his younger brother'?",
       "options": [
-        "Lâm Chu"
+        "Lâm Châu"
       ],
       "category": "name"
     },
     {
       "id": "amb_002",
       "original": "the boy",
-      "suggested": "Lâm Chu",
+      "suggested": "Lâm Châu",
       "confidence": 1.0,
       "question": "Who is 'the boy' referring to in 'The boy in the school uniform beside him must be his brother'?",
       "options": [
-        "Lâm Chu"
+        "Lâm Châu"
       ],
       "category": "name"
     },
     {
       "id": "amb_003",
       "original": "his brother",
-      "suggested": "Lâm Tuy",
+      "suggested": "Lâm Tuỳ",
       "confidence": 1.0,
       "question": "Who is 'his brother' referring to in 'no wonder his brother bullied him'?",
       "options": [
-        "Lâm Tuy"
+        "Lâm Tuỳ"
       ],
       "category": "name"
     },
@@ -134,11 +134,11 @@
     {
       "id": "amb_006",
       "original": "the kid",
-      "suggested": "Lâm Chu",
+      "suggested": "Lâm Châu",
       "confidence": 1.0,
       "question": "Who is 'the kid' referring to in 'pounce on the kid' (butler's thoughts)?",
       "options": [
-        "Lâm Chu"
+        "Lâm Châu"
       ],
       "category": "name"
     },
@@ -211,11 +211,11 @@
     {
       "id": "amb_013",
       "original": "Doctor Lin",
-      "suggested": "Lâm Tuy",
+      "suggested": "Lâm Tuỳ",
       "confidence": 1.0,
       "question": "Who is 'Doctor Lin' referring to?",
       "options": [
-        "Lâm Tuy"
+        "Lâm Tuỳ"
       ],
       "category": "honorific"
     },
@@ -233,11 +233,11 @@
     {
       "id": "amb_015",
       "original": "Big Brother",
-      "suggested": "Lâm Tuy",
+      "suggested": "Lâm Tuỳ",
       "confidence": 1.0,
-      "question": "Who is 'Big Brother' referring to when Lâm Chu addresses him?",
+      "question": "Who is 'Big Brother' referring to when Lâm Châu addresses him?",
       "options": [
-        "Lâm Tuy"
+        "Lâm Tuỳ"
       ],
       "category": "honorific"
     }

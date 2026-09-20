@@ -10,7 +10,7 @@ Bên cạnh, Tống Triết nhìn thấy khí chất của Cố Tùy Châu dần
 
 "Về cái đầu anh."
 Cố Tùy Châu trừng mắt nhìn người bạn thanh mai trúc mã đã theo cậu như hình với bóng từ nhỏ.
-"Anh muốn tôi về đó để Lâm Tuy đánh chết tôi à?"
+"Anh muốn tôi về đó để Lâm Tuỳ đánh chết tôi à?"
 
 Tống Triết rụt cổ lại, lẩm bẩm.
 "Đâu phải anh không đánh lại hắn ta…"
@@ -19,13 +19,13 @@ Tống Triết rụt cổ lại, lẩm bẩm.
 Cố Tùy Châu day day thái dương đang giật thình thịch.
 "Nhưng bây giờ không phải lúc."
 
-Cho đến khi giành được toàn quyền kiểm soát tài sản lẽ ra thuộc về mình, cậu phải thể hiện hoàn hảo vai trò một "kẻ vô dụng" trước mặt Lâm Tuy.
+Cho đến khi giành được toàn quyền kiểm soát tài sản lẽ ra thuộc về mình, cậu phải thể hiện hoàn hảo vai trò một "kẻ vô dụng" trước mặt Lâm Tuỳ.
 
-Trước khi Cố Lang qua đời, ông đã để lại toàn bộ tài sản cá nhân cho Cố Tùy Châu. Đáng tiếc, vì Cố Tùy Châu vẫn còn là trẻ vị thành niên, tòa án đã trao quyền giám hộ toàn bộ tài sản cho người thân hợp pháp duy nhất của cậu – Lâm Tuy.
+Trước khi Cố Lang qua đời, ông đã để lại toàn bộ tài sản cá nhân cho Cố Tùy Châu. Đáng tiếc, vì Cố Tùy Châu vẫn còn là trẻ vị thành niên, tòa án đã trao quyền giám hộ toàn bộ tài sản cho người thân hợp pháp duy nhất của cậu – Lâm Tuỳ.
 
-Nếu Cố Tùy Châu đóng vai một kẻ ngốc vô dụng, Lâm Tuy sẽ không coi cậu là mối đe dọa. Một khi cậu đến tuổi trưởng thành, Lâm Tuy có thể sẽ giao lại tài sản thừa kế như ban phát bố thí. Nhưng nếu Cố Tùy Châu chứng tỏ mình có năng lực hơn, mọi chuyện sẽ trở nên phức tạp.
+Nếu Cố Tùy Châu đóng vai một kẻ ngốc vô dụng, Lâm Tuỳ sẽ không coi cậu là mối đe dọa. Một khi cậu đến tuổi trưởng thành, Lâm Tuỳ có thể sẽ giao lại tài sản thừa kế như ban phát bố thí. Nhưng nếu Cố Tùy Châu chứng tỏ mình có năng lực hơn, mọi chuyện sẽ trở nên phức tạp.
 
-Với sự hậu thuẫn của nhà họ Thẩm, Lâm Tuy đã tạo dựng được tên tuổi. Hắn ta sẽ không khó để thao túng tài sản thừa kế.
+Với sự hậu thuẫn của nhà họ Thẩm, Lâm Tuỳ đã tạo dựng được tên tuổi. Hắn ta sẽ không khó để thao túng tài sản thừa kế.
 
 Cố Tùy Châu thực ra không quan tâm đến số tiền Cố Lang để lại cho cậu. Điều quan trọng là…
 

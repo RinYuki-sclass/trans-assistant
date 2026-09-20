@@ -2,34 +2,40 @@
 title: ch_001 chunk 2
 ---
 
-Kênh năng lượng sụp đổ không phải là chuyện chưa từng xảy ra, nhưng việc chủ nhân ban đầu của một cơ thể lại hoàn toàn biến mất thì đây là lần đầu tiên trong lịch sử được ghi nhận.
-Lý do tại sao có thể tìm hiểu sau. Ưu tiên hàng đầu hiện tại là ngăn chặn bất kỳ ai phát hiện ra rằng chủ sở hữu ban đầu đã bị "thay đổi hoàn toàn".
-Thẩm Phi Triết rất nghi ngờ Thẩm Phi Triết nguyên bản có được dung mạo đẹp trai đến mức tàn khốc như mình hiện tại.
+Kênh năng lượng sụp đổ không phải là chuyện chưa từng nghe thấy, nhưng chủ nhân ban đầu của một cơ thể hoàn toàn biến mất? Đó là lần đầu tiên trong lịch sử được ghi nhận.
+
+Lý do có thể tìm hiểu sau. Hiện tại, ưu tiên hàng đầu là ngăn chặn bất cứ ai phát hiện ra rằng chủ nhân ban đầu đã bị "thay đổi triệt để".
+
+Anh rất nghi ngờ Thẩm Phi Triết nguyên bản sở hữu một khuôn mặt đẹp đến mức khuynh thành như của mình.
 
 "Nhị thiếu gia."
 
-Người vừa bước vào di chuyển nhẹ nhàng như một con mèo, hầu như không gây ra tiếng động nào.
-"Có vẻ như cậu không được khỏe."
+Người bước vào di chuyển nhẹ nhàng như mèo, hầu như không gây ra tiếng động nào.
 
-Không sao đâu, Thẩm Phi Triết thầm nghĩ. Cứ thử đứng trong căn phòng âm 20 độ C không có máy sưởi, chỉ mặc độc một chiếc áo sơ mi mỏng xem, rồi sẽ biết cảm giác "sống động" là thế nào.
+"Trông cậu không được khỏe."
 
-Không ngẩng đầu, Thẩm Phi Triết liếc mắt sang một bên, để lộ một con ngươi đen như mực. "Chú Liao, chú cần cháu làm gì sao?"
+Thẩm Phi Triết thầm nghĩ, vớ vẩn. Cứ thử đứng trong căn phòng -20°C không có hệ thống sưởi, chỉ mặc một chiếc áo mỏng xem, rồi sẽ biết cảm giác sống động là thế nào.
 
-Ngay khi người đàn ông cất lời, cậu đã nhận ra.
-Quản gia Liêu Thần – người duy nhất trong gia tộc Shen đối xử tử tế với nguyên chủ.
+Không ngẩng đầu, Thẩm Phi Triết liếc mắt sang một bên, để lộ một con mắt đen như mực. "Chú Liêu, chú tìm tôi có việc gì không?"
 
-Quản gia Liêu Thần dường như hoàn toàn không hay biết gì về nỗ lực cố ý che giấu khuôn mặt của Thẩm Phi Triết. Ánh mắt ông lo lắng dán chặt vào bộ quần áo mỏng manh của chàng trai trẻ. Những lời quan tâm lơ lửng trên môi ông, nhưng ông nuốt chúng lại, ưu tiên giải quyết vấn đề cấp bách trước mắt.
+Anh đã nhận ra người đàn ông ngay khi ông ta cất lời.
 
-"Nhị thiếu gia, Thẩm lão gia chủ và Thẩm phu nhân đang đợi cậu ở dưới lầu."
+Quản gia Liêu Thần — người duy nhất trong Thẩm gia đối xử tử tế với nguyên chủ.
 
-Những sinh vật đến từ Thế giới cấp cao sở hữu kiến thức toàn diện về quá khứ và tương lai của Thế giới cấp thấp. Họ biên soạn thông tin này thành tiểu thuyết dưới góc nhìn của Những Đứa Trẻ Định Mệnh, gọi chúng đơn giản là "Sách".
-"Quyển 9/6" ghi lại câu chuyện về Đứa Con Định Mệnh có cùng họ và tên với cậu. Sau khi thức tỉnh trở thành một Alpha, Thẩm Phi Triết này đã chìm đắm giữa dàn Omega và Beta chất lượng cao, biến đổi từ một đứa con ngoài giá thú bị mọi người coi thường thành một người chiến thắng đắc thắng trong cuộc đời.
+Vị quản gia dường như hoàn toàn không để ý đến việc Thẩm Phi Triết cố tình che mặt. Ánh mắt ông lo lắng nhìn chằm chằm vào bộ quần áo mỏng manh của chàng trai trẻ. Những lời quan tâm chực chờ trên môi, nhưng ông nuốt chúng trở lại để giải quyết vấn đề cấp bách trước.
 
-Thẩm Phi Triết hồi tưởng khá rõ ràng gia cảnh của Đứa Con Định Mệnh.
-Cha ruột của nguyên chủ, Mạnh Lãng, đã hủy hoại sức khỏe do thói trụy lạc quá mức và chết trẻ. Quyền lực thực sự trong gia tộc Shen giờ thuộc về người vợ đầu tiên của cha Thẩm và Thẩm lão gia chủ.
+"Nhị thiếu gia, Thẩm lão gia chủ và Thẩm phu nhân đang đợi cậu ở dưới nhà."
 
-Và bây giờ cả hai đều có mặt ở đây sao?
+Những sinh vật đến từ Thế giới cấp cao sở hữu kiến thức toàn diện về quá khứ và tương lai của các Tiểu thế giới cấp thấp hơn. Họ biên soạn thông tin này thành tiểu thuyết từ góc nhìn của những Đứa con của định mệnh, gọi chúng đơn giản là "Sách".
 
-Thẩm Phi Triết dùng đầu ngón tay gõ gõ đùi, trong lòng giả vờ đã hiểu rõ. Cậu lại để lộ nửa khuôn mặt. "Tôi sẽ xuống sau."
+"Quyển 6/9" ghi lại câu chuyện về một Đứa con của định mệnh trùng tên trùng họ với anh. Sau khi phân hóa thành Alpha, Thẩm Phi Triết này đã ngủ với một loạt Omega và Beta chất lượng cao, biến từ một đứa con ngoài giá thú bị khinh ghét khắp nơi thành một người chiến thắng vẻ vang trong cuộc đời.
 
-Quản gia Liêu Thần vẫn không hề lay động trước nửa khuôn mặt thanh tú, hoàn hảo ấy, giọng điệu bối rối. "Nhị thiếu gia, việc này... Bác sĩ Lâm đã đến rồi."
+Thẩm Phi Triết nhớ lại gia cảnh của Đứa con của định mệnh khá rõ ràng.
+
+Cha ruột của nguyên chủ, Mạnh Lãng, đã hủy hoại sức khỏe vì trụy lạc quá độ và chết trẻ. Quyền lực thực sự trong Thẩm gia giờ đây nằm trong tay người vợ cả của Thẩm phụ và Thẩm lão gia chủ.
+
+Và bây giờ cả hai người họ đều ở đây?
+
+Thẩm Phi Triết dùng đầu ngón tay gõ gõ vào đùi, giả vờ hiểu chuyện nhưng trong lòng lại bối rối. Anh lại để lộ nửa khuôn mặt. "Tôi sẽ xuống sau."
+
+Quản gia Liêu vẫn không hề lay chuyển trước nửa khuôn mặt tinh xảo, hoàn mỹ đó, giọng ông đầy vẻ lo lắng. "Nhị thiếu gia, chuyện này… Bác sĩ Lâm đã đến rồi."

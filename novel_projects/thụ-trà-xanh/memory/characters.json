@@ -7,7 +7,8 @@
       "Lâm Châu",
       "Cố Tùy Châu",
       "Tiểu Châu",
-      "Anh Cố"
+      "Anh Cố",
+      "Lâm Châu"
     ],
     "honorifics": "em - anh Thẩm",
     "speech_style": "Thẳng thắn, nhạy bén, kịch tính, xưng em gọi anh Thẩm",
@@ -20,7 +21,11 @@
     "aliases": [
       "Thẩm Triết",
       "Thẩm Phi Triết",
-      "Anh Thẩm"
+      "Anh Thẩm",
+      "Shen Feizhe",
+      "Quản lý viên",
+      "Nhị thiếu gia",
+      "nguyên chủ"
     ],
     "honorifics": "tôi - cậu/anh",
     "speech_style": "Lạnh lùng, điềm tĩnh, sắc bén, chuyên nghiệp",
@@ -167,7 +172,11 @@
       "Lão gia chủ Shen",
       "Thẩm lão gia chủ",
       "Elder Shen",
-      "Elder Master Shen"
+      "Elder Master Shen",
+      "Shen Laojiazhu",
+      "Lão gia",
+      "ông nội",
+      "Thẩm (family name)"
     ],
     "honorifics": "ông - cháu",
     "speech_style": "Bảo thủ, cáo già xảo quyệt, uy áp",
@@ -341,7 +350,9 @@
     "aliases": [
       "Thẩm lão phu nhân",
       "Bà Thẩm",
-      "Thẩm phu nhân"
+      "Thẩm phu nhân",
+      "Shen Furen",
+      "Madam Shen"
     ],
     "honorifics": "phu nhân",
     "speech_style": "Trang trọng, quý phái",
@@ -367,7 +378,10 @@
     "aliases": [
       "Chú Liễu",
       "Liêu Thần",
-      "Uncle Liao"
+      "Uncle Liao",
+      "Liao Chen",
+      "Quản gia Liêu Thần",
+      "Chú Liêu"
     ],
     "honorifics": "chú Liễu",
     "speech_style": "Điềm đạm, khiêm nhường nhưng uy nghiêm",
@@ -407,5 +421,89 @@
     "honorifics": "ông / tiên sinh",
     "speech_style": "Lịch thiệp, thương nghiệp",
     "notes": "Khách hàng / đối tác cung cấp mẫu sản phẩm hợp tác với W.N của Cố Tùy Châu."
+  },
+  {
+    "name": "Meng Lang",
+    "hanviet_name": "Mạnh Lãng",
+    "gender": "Male",
+    "aliases": [
+      "Meng Lang",
+      "Mạnh Lãng"
+    ],
+    "honorifics": "",
+    "speech_style": "",
+    "notes": ""
+  },
+  {
+    "name": "Eldest Young Master",
+    "hanviet_name": "",
+    "gender": "Male",
+    "aliases": [
+      "Eldest Young Master"
+    ],
+    "honorifics": "",
+    "speech_style": "",
+    "notes": ""
+  },
+  {
+    "name": "Doctor Lin's younger brother",
+    "hanviet_name": "",
+    "gender": "Male",
+    "aliases": [
+      "Doctor Lin's younger brother"
+    ],
+    "honorifics": "",
+    "speech_style": "",
+    "notes": ""
+  },
+  {
+    "name": "Lin Zhou",
+    "hanviet_name": "Lâm Châu",
+    "gender": "male",
+    "aliases": [
+      "Lin Zhou",
+      "Lâm Châu",
+      "tiểu bạch thỏ",
+      "tiểu hỗn đản"
+    ],
+    "honorifics": "cậu ta, cậu bé, thiếu niên (from others); Nhị thiếu gia (to Thẩm Phi Triết)",
+    "speech_style": "polite, reserved",
+    "notes": "Lâm Tùy's younger brother. Appears innocent but is cunning. Around 16-17 years old. Skilled in medicine/anatomy."
+  },
+  {
+    "name": "Quản gia Liêu",
+    "hanviet_name": "",
+    "gender": "Male",
+    "aliases": [
+      "Quản gia Liêu",
+      "Quản gia"
+    ],
+    "honorifics": "ông",
+    "speech_style": "cung kính",
+    "notes": "The butler of the Thẩm family, concerned about Thẩm Phi Triết's behavior."
+  },
+  {
+    "name": "Shen Father",
+    "hanviet_name": "Thẩm phụ",
+    "gender": "male",
+    "aliases": [
+      "Shen Father",
+      "Thẩm phụ"
+    ],
+    "honorifics": "",
+    "speech_style": "",
+    "notes": ""
+  },
+  {
+    "name": "Shen Feizhi's birth mother",
+    "hanviet_name": "Mẫu thân của Thẩm Phi Trĩ",
+    "gender": "female",
+    "aliases": [
+      "Shen Feizhi's birth mother",
+      "Mẫu thân của Thẩm Phi Trĩ"
+    ],
+    "honorifics": "",
+    "speech_style": "",
+    "notes": ""
   }
 ]

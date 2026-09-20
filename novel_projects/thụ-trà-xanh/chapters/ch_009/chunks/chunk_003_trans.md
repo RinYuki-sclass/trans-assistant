@@ -6,7 +6,7 @@ Cậu quay người lại, ánh mắt rực lửa nhìn chằm chằm người �
 
 Leapton rùng mình. “Anh ơi, ánh mắt anh… hơi đáng sợ đó.”
 
-Cố Tùy Châu siết chặt vai anh ta. “Nhanh lên! Gọi điện cho Lâm Tuy!”
+Cố Tùy Châu siết chặt vai anh ta. “Nhanh lên! Gọi điện cho Lâm Tuỳ!”
 
 Leapton: “?”
 
@@ -14,7 +14,7 @@ Cố Tùy Châu: “Chỉ cần nói Thẩm Phi Triết đang ở cổng trườ
 
 Nói rồi, cậu giật lấy áo khoác và lao ra khỏi cửa.
 
-Chỉ còn lại Leapton trong căn phòng riêng nhỏ, chớp mắt bối rối khi gọi số liên lạc của Lâm Tuy. Anh ta không thể gạt bỏ suy nghĩ dai dẳng:
+Chỉ còn lại Leapton trong căn phòng riêng nhỏ, chớp mắt bối rối khi gọi số liên lạc của Lâm Tuỳ. Anh ta không thể gạt bỏ suy nghĩ dai dẳng:
 
 Sao cái tên Cố Tùy Châu vừa nói lại nghe giống tên crush của mình đến thế nhỉ?
 

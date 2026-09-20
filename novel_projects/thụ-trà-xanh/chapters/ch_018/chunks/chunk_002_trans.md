@@ -26,7 +26,7 @@ Nếu để Thẩm Vĩ bắt được, thì nửa đời người của anh coi 
 
 "Đừng có giả ngu với tao, Thẩm Phi Triết!" Khuôn mặt Thẩm Vĩ vặn vẹo vì tức giận sau cú đánh hụt. "Ông nội hành động quá nhanh, đã đuổi mày ra ngoài trước khi tao kịp tính toán! Mày lấy tư cách gì mà dám động vào người của tao?"
 
-"Chính xác thì 'người của cậu' là ai?" Thẩm Phi Triết giữ khoảng cách an toàn. "Lâm Chu sao?"
+"Chính xác thì 'người của cậu' là ai?" Thẩm Phi Triết giữ khoảng cách an toàn. "Lâm Châu sao?"
 
 Anh vẫn không quên bảo vệ bí danh cho chú gấu con của mình.
 

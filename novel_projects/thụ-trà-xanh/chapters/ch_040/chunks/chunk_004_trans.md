@@ -3,13 +3,13 @@ title: ch_040 chunk 4
 ---
 
 Lâm Tùy không tìm thấy cơ hội để ra tay.
-Cứ như vậy, Lâm Chu dần dần lớn lên.
+Cứ như vậy, Lâm Châu dần dần lớn lên.
 
 Trên thực tế, Lâm Tử Trác và Cố Lãng vẫn tổ chức sinh nhật cho Lâm Tùy, đưa anh đi mua sắm, dạo phố và ghé thăm các khu vui chơi như mọi khi. Ngoài việc gia đình đột nhiên có thêm một thành viên mới, mọi thứ dường như chẳng có gì thay đổi.
 
 Lâm Tùy cũng biết, hai người họ thực sự rất chú trọng đến sự công bằng.
 
-Ví dụ, nếu Lâm Chu muốn ăn kem, Cố Lãng và Lâm Tử Trác chắc chắn sẽ mua cho Lâm Tùy một phần tương tự; nếu Lâm Chu có một vườn ươm rộng hai mươi mét vuông, thì Lâm Tùy sẽ có một phòng ngủ rộng bốn mươi mét vuông…
+Ví dụ, nếu Lâm Châu muốn ăn kem, Cố Lãng và Lâm Tử Trác chắc chắn sẽ mua cho Lâm Tùy một phần tương tự; nếu Lâm Châu có một vườn ươm rộng hai mươi mét vuông, thì Lâm Tùy sẽ có một phòng ngủ rộng bốn mươi mét vuông…
 
 Có thể nói, Lâm Tùy không những không bị bỏ rơi, mà thậm chí còn được quan tâm hơn trước.
 
@@ -33,6 +33,6 @@ Cũng vào thời điểm đó, anh tình cờ phát hiện ra nghiên cứu c�
 
 Lâm Tùy cảm thấy như thế giới của mình đang sụp đổ. Giờ đây, anh cho rằng mọi thứ đã quá rõ ràng: cha mẹ nuôi của anh vốn coi thường những Omega "vô dụng"; họ không hề thờ ơ với giới tính thứ hai như vẻ ngoài họ vẫn thể hiện.
 
-Cuối tuần đó, Lâm Tùy lần đầu tiên trở nên bạo dạn và ra tay với Lâm Chu.
+Cuối tuần đó, Lâm Tùy lần đầu tiên trở nên bạo dạn và ra tay với Lâm Châu.
 
 Nhân lúc Lâm Tử Trác và Cố Lãng đang ngủ trưa, anh bế em trai vào phòng tắm.

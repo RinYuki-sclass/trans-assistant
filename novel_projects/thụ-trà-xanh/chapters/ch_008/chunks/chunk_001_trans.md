@@ -18,9 +18,9 @@ Cậu ta lập tức vuốt lại tóc, đứng thẳng người, nhưng ngay kh
 
 "Ai quan tâm chứ? Dù sao cũng chẳng ai quản tôi, mà ở Thành phố Ngầm này cũng chẳng ai biết tôi là ai." Cố Tùy Châu nhún vai, đôi chân dài thẳng tắp sải một bước đã vượt qua quầy phục vụ. "Chỗ cậu có đồ ăn không? Tôi bỏ bữa sáng, phải chạy sang chỗ Tống Triết kiếm chút gì đó. Đói chết tôi rồi."
 
-"Sao cậu không ăn sáng? Lâm Tuy đuổi việc quản gia rồi à?"
+"Sao cậu không ăn sáng? Lâm Tuỳ đuổi việc quản gia rồi à?"
 
-"Không, tôi bỏ nhà đi rồi. Không ở với Lâm Tuy nữa." Cố Tùy Châu thản nhiên buông một câu động trời.
+"Không, tôi bỏ nhà đi rồi. Không ở với Lâm Tuỳ nữa." Cố Tùy Châu thản nhiên buông một câu động trời.
 
 Leapton sặc nước bọt. "Đậu má?! Cậu bỏ nhà đi thật à? Cậu không sợ hắn ta giận quá mà phá hết đồ dì Cố Lang để lại cho cậu sao?"
 

@@ -34,7 +34,7 @@ Cố Tùy Châu nói một ngày sẽ về, nhưng cả cuối tuần đó cậu
 
 "Trông cậu như sắp chết đến nơi rồi," Thẩm Phi Triết nói, nhìn quầng thâm dưới mắt cậu, khẽ gõ bàn. "Cả cuối tuần thức trắng à?"
 
-"Anh ơi, em mệt rã rời hai ngày nay rồi," Cố Tùy Châu rên rỉ, nằm vật ra bàn như một con vật không xương. "Anh không thể thông cảm cho em trước à? Em bị Lâm Tuy bắt được rồi."
+"Anh ơi, em mệt rã rời hai ngày nay rồi," Cố Tùy Châu rên rỉ, nằm vật ra bàn như một con vật không xương. "Anh không thể thông cảm cho em trước à? Em bị Lâm Tuỳ bắt được rồi."
 
 Thẩm Phi Triết lập tức ngồi thẳng dậy.
 
