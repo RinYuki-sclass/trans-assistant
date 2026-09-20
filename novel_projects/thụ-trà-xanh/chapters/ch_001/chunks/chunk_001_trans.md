@@ -2,28 +2,38 @@
 title: ch_001 chunk 1
 ---
 
-【 Kỷ nguyên mới, tháng 12 năm 2022. Lam Tinh vừa bước vào mùa đông sâu sắc.
-Tại Khu vực thứ nhất giàu có đến khó tin, hầu hết các hộ gia đình đã bật máy sưởi từ lâu. Ngay cả khi mặc quần đùi và áo phông, người ta cũng không cảm thấy lạnh. 】
-Đây là trích dẫn trực tiếp từ tệp dữ liệu "Thế giới 9/6".
+Kỷ Nguyên Mới, tháng 12 năm 2022. Lam Tinh vừa bước vào mùa đông sâu sắc. Tại Khu vực thứ nhất giàu có đến mức lố bịch, hầu hết các gia đình đã bật hệ thống sưởi từ lâu. Dù chỉ mặc quần đùi và áo phông, người ta cũng sẽ không cảm thấy lạnh.
 
-Thẩm Phi Triết quấn chăn dày trên giường, nhìn chằm chằm vào những bông tuyết bay qua ô cửa kính sát đất và hình ảnh phản chiếu mờ nhạt của khuôn mặt mình trên đó. Anh hít hà một hơi thật mạnh.
-Lạnh đến thấu xương.
-Dù đã quấn chặt trong chăn bông, anh vẫn lạnh cóng đến mức tưởng chừng sắp chết!
+Đây là một đoạn trích nguyên văn từ tệp dữ liệu "Thế giới Quyển 6/9".
 
-Đã hai giờ trôi qua kể từ khi anh đặt chân đến Thế giới liên sao ABO này, và anh vẫn không thể chấp nhận sự thật rằng mình đã vĩnh viễn bị mắc kẹt, trở thành một con ngựa giống trong một cuốn tiểu thuyết tục tĩu…
-Đúng vậy. "Thẩm Phi Triết" đang sụt sịt trên giường lúc này không phải là người bản xứ của thế giới này. Anh là một "Người quản lý" đến từ một cấp độ cao hơn.
+Thẩm Phi Triết, đang cuộn mình trong chăn dày trên giường, nhìn chằm chằm vào những bông tuyết trôi lướt qua cửa sổ sát đất và bóng phản chiếu mờ nhạt của chính mình trên tấm kính. Anh khụt khịt mũi một tiếng rõ rệt.
 
-Trên cùng một mặt phẳng, vô số Thế giới nhỏ tồn tại. Những xung đột năng lượng không lường trước được có thể ngăn cản các "bước ngoặt quan trọng" xuất hiện, khiến những thế giới này sụp đổ và ngừng hoạt động.
-Công việc của Người quản lý là tạm thời chiếm giữ cơ thể của "Đứa con định mệnh" cho đến khi bước ngoặt quan trọng được xác nhận là đã xuất hiện.
+Lạnh cái quái gì.
 
-Nhưng hai giờ trước, ngay khi Thẩm Phi Triết vừa đến thế giới này, kênh năng lượng mà anh dùng để đi xuống đột nhiên sụp đổ.
-Điều này có nghĩa là anh đã hoàn toàn bị cắt đứt khỏi Ngôi sao chính, bị mắc kẹt ở đây mãi mãi.
+Anh ta gần như chết cóng dù đã trùm kín chăn!
 
-Sắc mặt Thẩm Phi Triết tối sầm lại. Trước khi kịp bắt đầu làm sáng tỏ nguyên nhân và kết quả của cốt truyện, một luồng khí lạnh đột ngột luồn thẳng vào sau cổ áo anh, khiến anh rùng mình dữ dội.
+Đã hai tiếng kể từ khi anh đến Thế giới ABO Liên sao này, và anh vẫn không thể chấp nhận sự thật rằng mình giờ đây đã vĩnh viễn bị mắc kẹt với vai trò kẻ chuyên đi gieo giống trong một tiểu thuyết H nặng…
 
-Anh cau mày nhưng vẫn bất động, thậm chí còn hơi cúi đầu xuống, để phần tóc mái che gần hết khuôn mặt, khiến người đối diện không thể nhìn rõ anh.
+Đúng vậy. "Thẩm Phi Triết" đang khụt khịt mũi trên giường lúc này không phải là người bản địa của thế giới này. Anh là một "Quản lý viên" đến từ một không gian cấp cao hơn.
 
-Thông thường, tình trạng khó khăn chính của anh là bị mắc kẹt trong cơ thể người khác mà không có lối thoát.
-Nhưng tình trạng này lại khác xa mức bình thường.
+Trong cùng một bình diện không gian, vô số Tiểu Thế giới tồn tại. Những xung đột năng lượng không thể lường trước có thể ngăn cản các "bước ngoặt quan trọng" biểu hiện, khiến những thế giới này sụp đổ và ngừng vận hành.
+
+Công việc của một Quản lý viên là tạm thời chiếm giữ thân thể của một "Đứa con của định mệnh" cho đến khi bước ngoặt quan trọng được xác nhận là đã xảy ra.
+
+Nhưng hai tiếng trước, ngay khi Thẩm Phi Triết vừa đến thế giới này, kênh năng lượng mà anh dùng để giáng lâm đột nhiên sụp đổ.
+
+Điều này có nghĩa là anh hoàn toàn bị cắt đứt liên lạc với Tinh Cầu Chính, bị mắc kẹt ở đây vĩnh viễn.
+
+Sắc mặt Thẩm Phi Triết tối sầm lại. Anh còn chưa kịp bắt đầu gỡ rối nhân quả của cốt truyện thì một luồng khí lạnh đột ngột xộc xuống sau gáy, khiến anh rùng mình dữ dội.
+
+Có người đã mở cửa phía sau anh.
+
+Anh nhíu mày nhưng vẫn bất động, thậm chí còn hơi cúi đầu để mái tóc phủ bóng lên phần lớn khuôn mặt, đảm bảo người kia không thể nhìn rõ anh.
+
+Thông thường, tình cảnh chính của anh sẽ là bị mắc kẹt trong thân thể người khác mà không có lối thoát.
+
+Nhưng tình huống này lại khác xa bình thường.
+
 Bởi vì thân thể này…
-…dường như là của chính anh.
+
+…dường như là của chính mình.

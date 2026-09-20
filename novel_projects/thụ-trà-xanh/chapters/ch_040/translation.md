@@ -105,13 +105,13 @@ Thế nhưng, Lâm Tử Trác và Cố Lãng đã bảo vệ đứa trẻ rất 
 Lâm Tử Trác vô cùng yêu quý đứa bé, không thể rời xa nửa bước, luôn túc trực bên cạnh và không ngừng đưa đứa trẻ đến chơi với Lâm Tùy.
 
 Lâm Tùy không tìm thấy cơ hội để ra tay.
-Cứ như vậy, Lâm Chu dần dần lớn lên.
+Cứ như vậy, Lâm Châu dần dần lớn lên.
 
 Trên thực tế, Lâm Tử Trác và Cố Lãng vẫn tổ chức sinh nhật cho Lâm Tùy, đưa anh đi mua sắm, dạo phố và ghé thăm các khu vui chơi như mọi khi. Ngoài việc gia đình đột nhiên có thêm một thành viên mới, mọi thứ dường như chẳng có gì thay đổi.
 
 Lâm Tùy cũng biết, hai người họ thực sự rất chú trọng đến sự công bằng.
 
-Ví dụ, nếu Lâm Chu muốn ăn kem, Cố Lãng và Lâm Tử Trác chắc chắn sẽ mua cho Lâm Tùy một phần tương tự; nếu Lâm Chu có một vườn ươm rộng hai mươi mét vuông, thì Lâm Tùy sẽ có một phòng ngủ rộng bốn mươi mét vuông…
+Ví dụ, nếu Lâm Châu muốn ăn kem, Cố Lãng và Lâm Tử Trác chắc chắn sẽ mua cho Lâm Tùy một phần tương tự; nếu Lâm Châu có một vườn ươm rộng hai mươi mét vuông, thì Lâm Tùy sẽ có một phòng ngủ rộng bốn mươi mét vuông…
 
 Có thể nói, Lâm Tùy không những không bị bỏ rơi, mà thậm chí còn được quan tâm hơn trước.
 
@@ -135,7 +135,7 @@ Cũng vào thời điểm đó, anh tình cờ phát hiện ra nghiên cứu c�
 
 Lâm Tùy cảm thấy như thế giới của mình đang sụp đổ. Giờ đây, anh cho rằng mọi thứ đã quá rõ ràng: cha mẹ nuôi của anh vốn coi thường những Omega "vô dụng"; họ không hề thờ ơ với giới tính thứ hai như vẻ ngoài họ vẫn thể hiện.
 
-Cuối tuần đó, Lâm Tùy lần đầu tiên trở nên bạo dạn và ra tay với Lâm Chu.
+Cuối tuần đó, Lâm Tùy lần đầu tiên trở nên bạo dạn và ra tay với Lâm Châu.
 
 Nhân lúc Lâm Tử Trác và Cố Lãng đang ngủ trưa, anh bế em trai vào phòng tắm.
 
@@ -201,9 +201,9 @@ Nhưng anh không ngờ rằng, gia tộc Shen lại đi xa đến mức giam c�
 
 Anh bàng hoàng nhìn đám côn đồ xông vào nhà, lôi xềnh xệch cả hai người đi.
 
-Lâm Chu khóc lóc không ngừng, tiếng khóc chói tai càng khiến hắn thêm bực bội. Không kiềm chế được cơn giận, hắn vung tay tát mạnh vào mặt Lâm Chu.
+Lâm Châu khóc lóc không ngừng, tiếng khóc chói tai càng khiến hắn thêm bực bội. Không kiềm chế được cơn giận, hắn vung tay tát mạnh vào mặt Lâm Châu.
 
-Anh đã tận mắt chứng kiến Lâm Tử Trác và Cố Lãng bị kéo đi, nhưng thì đã sao? Một khi Lâm Chu chết đi, hắn vẫn sẽ là đứa con duy nhất của họ.
+Anh đã tận mắt chứng kiến Lâm Tử Trác và Cố Lãng bị kéo đi, nhưng thì đã sao? Một khi Lâm Châu chết đi, hắn vẫn sẽ là đứa con duy nhất của họ.
 
 Sau cú sốc ban đầu, Lâm Tùy chọn cách thờ ơ lạnh lùng. Anh biết Lâm Tử Trác và Cố Lãng chắc chắn đang phải chịu khổ trong gia tộc Shen, nhưng điều đó lại có lợi cho họ. Tại sao họ phải có thêm một đứa con? Một mình anh không phải là đã đủ rồi sao?
 

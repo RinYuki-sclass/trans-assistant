@@ -36,6 +36,6 @@ Chỉ một tuần trước, anh sẽ không bao giờ tưởng tượng đượ
 
 Các ký tự trên màn hình mờ nhòe thành một mớ hỗn độn, nhưng nhìn kỹ hơn, chúng chỉ gói gọn trong một vài thuật ngữ chính:
 
-"Lâm Tuy," "W.N," "Cố Tùy Châu," "Lâm Chu"...
+"Lâm Tuỳ," "W.N," "Cố Tùy Châu," "Lâm Châu"...
 
 Ban đầu anh cho rằng nhà họ Lâm chỉ là một tình tiết phụ nhỏ trong thế giới này, nhưng trong một tuần kể từ khi anh đến, tên tuổi và sự hiện diện của họ đã xuất hiện gần như khắp mọi nơi. Liệu đây có thực sự chỉ là sự trùng hợp ngẫu nhiên?

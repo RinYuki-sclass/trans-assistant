@@ -2,40 +2,52 @@
 title: ch_001 chunk 5
 ---
 
-Thẩm Phi Triết tự nhận trách nhiệm, xua tay. "Đi thôi, chú Trọng."
+Thẩm Phi Triết, trong sự cam chịu và tự trách, phất tay.
 
-Nếu không tránh được thì đành phải đối mặt trực diện.
+"Đi thôi, chú Liêu."
 
-Có lẽ đối phương không thích vẻ ngoài điển trai nói chung, mà chỉ thích vẻ ngoài đặc trưng của nguyên chủ thôi sao?
+Nếu không thể tránh được, vậy thì cứ đối mặt trực diện.
 
-Anh cố gắng tự an ủi mình.
+Có lẽ đối phương không thích mặt đẹp nói chung, mà chỉ thích vẻ ngoài đặc trưng của nguyên chủ?
 
-Anh liếc nhìn vẻ mặt không đổi của Từ Trọng, khẽ cụp mi xuống.
+Anh tự an ủi mình.
 
-Là một người quen thuộc với "Thẩm Phi Triết" nguyên bản, người quản gia không hề có bất kỳ phản ứng nào, ngoài sự kinh ngạc trước vẻ đẹp của anh, khi đối mặt với một khuôn mặt hoàn toàn khác biệt so với nguyên chủ.
+Anh liếc nhìn Liêu Thần, thấy vẻ mặt ông vẫn không đổi, bèn khẽ cụp mắt xuống.
 
-Có vẻ như cơ thể anh đã tự động hòa nhập vào tiểu thế giới này, thay thế sự tồn tại của nguyên chủ và thay đổi ký ức của mọi người.
+Là người quen thuộc với "Thẩm Phi Triết" nguyên bản, khi đối mặt với một khuôn mặt hoàn toàn khác biệt so với nguyên chủ, quản gia không hề có phản ứng nào khác ngoài sự kinh ngạc trước vẻ đẹp của anh.
 
-Thẩm Phi Triết bình tĩnh lại, đầu óc lơ đãng, vẫn giữ vẻ mặt điềm tĩnh đi theo quản gia xuống lầu. Thỉnh thoảng anh thăm dò thông tin, cố gắng xâu chuỗi mọi thứ lại với nhau.
+Dường như cơ thể anh đã tự động hòa nhập vào Tiểu Thế giới này, thay thế sự tồn tại của nguyên chủ và thay đổi ký ức của mọi người.
 
-Vì Hệ thống không thể cung cấp cho anh dữ liệu thế giới, anh đành phải tự mình tìm hiểu.
+Thẩm Phi Triết giữ vẻ mặt bình tĩnh, tâm trí lơ đãng, duy trì vẻ ngoài điềm đạm, thanh lịch khi theo quản gia xuống lầu. Anh thỉnh thoảng dò hỏi thông tin, cố gắng xâu chuỗi mọi chuyện lại.
 
-Sau khi đi xuống một tầng cầu thang, anh vẫn giữ vẻ bình tĩnh.
+Vì Tinh Cầu Chính không thể cung cấp dữ liệu thế giới cho anh, anh đành phải tự mình tìm hiểu.
 
-Sau ba tầng cầu thang, vẻ mặt anh vẫn bình thản.
+Sau khi xuống một tầng cầu thang, anh vẫn bình tĩnh, tự chủ.
 
-Sau năm tầng cầu thang…
+Sau ba tầng, vẻ mặt anh vẫn không hề xáo động.
 
-Anh không thể giữ được nữa.
+Sau năm tầng…
 
-"Xin lỗi, tôi biết điều này hơi đột ngột," Thẩm Phi Triết nói, giọng điệu lạnh lùng nhưng vẫn giữ phép lịch sự, "Nhưng... cái cầu thang chết tiệt này có bao nhiêu đường xoắn ốc vậy?"
+Anh không thể nhịn được nữa.
 
-Chú Trọng có vẻ hết sức ngạc nhiên. "Nhị thiếu gia, sao ngài lại quên được? Biệt thự cổ của Gia tộc Shen là biệt thự cao nhất Khu vực thứ nhất! Có đến tám tầng lận!"
+"Xin lỗi, tôi biết điều này hơi đột ngột,"
+
+Thẩm Phi Triết nói, giọng điệu lạnh lùng nhưng lịch sự,
+
+"nhưng… cái cầu thang này rốt cuộc có bao nhiêu vòng xoắn vậy?"
+
+Chú Liêu trông vô cùng kinh ngạc.
+
+"Nhị thiếu gia, sao cậu lại quên được? Cổ trạch Thẩm gia là biệt thự cao nhất ở Khu vực thứ nhất đó! Nó có đủ tám tầng lận!"
 
 Tám… tầng?
 
-Đây là biệt thự hay tháp dân cư?!
+Đây là biệt thự hay là một tòa tháp dân cư vậy?!
 
-Tất nhiên, nếu giàu có nghĩa là muốn làm gì thì làm, nhưng vẫn còn một vấn đề khác nữa.
+Dĩ nhiên, nếu giàu có nghĩa là muốn làm gì thì làm, thì vẫn còn một vấn đề khác.
 
-"Tám tầng, không cho phép thang máy." Thẩm Phi Triết vỗ tay chế nhạo. "Có phải ông nội đang cố gắng huấn luyện tôi trở thành một ngôi sao thể thao không?"
+"Tám tầng, mà không cho phép dùng thang máy,"
+
+Thẩm Phi Triết nói, vỗ tay vào nhau vẻ ngưỡng mộ giả tạo.
+
+"Ông nội đang cố gắng đào tạo cháu thành một ngôi sao thể thao à?"

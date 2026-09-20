@@ -518,7 +518,7 @@
     "original": "key turning points",
     "translation": "bước ngoặt quan trọng",
     "hanviet": "",
-    "category": "other",
+    "category": "Plot device / Concept",
     "confidence": 1.0,
     "approved": true,
     "chapter_first_seen": "ch_008"
@@ -817,8 +817,8 @@
   {
     "original": "Manager",
     "translation": "Người quản lý / Quản lý viên",
-    "hanviet": "",
-    "category": "other",
+    "hanviet": "Quản lý viên",
+    "category": "Role / Title",
     "confidence": 0.9,
     "approved": true,
     "chapter_first_seen": "ch_014"
@@ -2630,5 +2630,563 @@
     "approved": true,
     "notes": "Khách hàng / đối tác liên kết cung cấp sản phẩm với công ty W.N của Cố Tùy Châu",
     "chapter_first_seen": "ch_072"
+  },
+  {
+    "original": "key nodes",
+    "translation": "điểm nút then chốt",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_001"
+  },
+  {
+    "original": "high-smut novel",
+    "translation": "tiểu thuyết H nặng",
+    "hanviet": "",
+    "category": "Genre",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_001"
+  },
+  {
+    "original": "stud horse",
+    "translation": "ngựa giống",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_001"
+  },
+  {
+    "original": "corporal punishment",
+    "translation": "thể phạt",
+    "hanviet": "thể phạt",
+    "category": "other",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_001"
+  },
+  {
+    "original": "Thế giới Quyển 6/9",
+    "translation": "World Volume 6/9",
+    "hanviet": "",
+    "category": "Meta-narrative / File reference",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_001"
+  },
+  {
+    "original": "Thế giới ABO Liên sao",
+    "translation": "Interstellar ABO World",
+    "hanviet": "",
+    "category": "Genre / Setting",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_001"
+  },
+  {
+    "original": "kẻ chuyên đi gieo giống",
+    "translation": "seed-sower / progenitor",
+    "hanviet": "",
+    "category": "Role / ABO term",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_001"
+  },
+  {
+    "original": "không gian cấp cao hơn",
+    "translation": "higher-level space",
+    "hanviet": "",
+    "category": "World-building / Concept",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_001"
+  },
+  {
+    "original": "giáng lâm",
+    "translation": "descend / incarnate",
+    "hanviet": "",
+    "category": "Action / Concept",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_001"
+  },
+  {
+    "original": "gỡ rối nhân quả của cốt truyện",
+    "translation": "untangle the causality of the plot",
+    "hanviet": "",
+    "category": "Action / Concept",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_001"
+  },
+  {
+    "original": "chủ nhân ban đầu",
+    "translation": "original owner",
+    "hanviet": "",
+    "category": "Concept",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_001"
+  },
+  {
+    "original": "thay đổi triệt để",
+    "translation": "fundamentally changed / completely replaced",
+    "hanviet": "",
+    "category": "Concept",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_001"
+  },
+  {
+    "original": "Nhị thiếu gia",
+    "translation": "Second Young Master",
+    "hanviet": "Er Shaoye",
+    "category": "Honorific / Title",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_001"
+  },
+  {
+    "original": "Quản gia",
+    "translation": "Butler",
+    "hanviet": "Guanjia",
+    "category": "Role / Title",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_001"
+  },
+  {
+    "original": "medical chair",
+    "translation": "ghế y tế",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_002"
+  },
+  {
+    "original": "wrist straps",
+    "translation": "dây đeo cổ tay",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_002"
+  },
+  {
+    "original": "language textbook",
+    "translation": "sách giáo khoa ngôn ngữ",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_002"
+  },
+  {
+    "original": "low-level world",
+    "translation": "thế giới cấp thấp",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_002"
+  },
+  {
+    "original": "fixed nodes",
+    "translation": "nút cố định",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_002"
+  },
+  {
+    "original": "energy field",
+    "translation": "trường năng lượng",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_002"
+  },
+  {
+    "original": "plot deviation",
+    "translation": "lệch cốt truyện",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_002"
+  },
+  {
+    "original": "nguyên chủ",
+    "translation": "original host/protagonist",
+    "hanviet": "",
+    "category": "literary/novel term",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_002"
+  },
+  {
+    "original": "khí chất thư sinh, ôn hòa",
+    "translation": "scholarly, gentle demeanor/aura",
+    "hanviet": "",
+    "category": "descriptive",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_002"
+  },
+  {
+    "original": "phi giới tính thoát tục",
+    "translation": "ethereal, gender-neutral beauty",
+    "hanviet": "",
+    "category": "descriptive",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_002"
+  },
+  {
+    "original": "đôi mắt cáo hung hãn, đầy tính săn mồi",
+    "translation": "fierce, predatory fox eyes",
+    "hanviet": "",
+    "category": "descriptive",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_002"
+  },
+  {
+    "original": "lão gia",
+    "translation": "old master/patriarch",
+    "hanviet": "lão gia (老爺)",
+    "category": "title/social",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_002"
+  },
+  {
+    "original": "phu nhân",
+    "translation": "madam/lady",
+    "hanviet": "phu nhân (夫人)",
+    "category": "title/social",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_002"
+  },
+  {
+    "original": "con ngoài giá thú",
+    "translation": "illegitimate child",
+    "hanviet": "",
+    "category": "social/legal",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_002"
+  },
+  {
+    "original": "restraints",
+    "translation": "dây trói",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_003"
+  },
+  {
+    "original": "anesthetic",
+    "translation": "thuốc mê",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_003"
+  },
+  {
+    "original": "automated medical equipment",
+    "translation": "thiết bị y tế tự động",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_003"
+  },
+  {
+    "original": "Pheromone concentration",
+    "translation": "nồng độ pheromone",
+    "hanviet": "",
+    "category": "terminology",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_003"
+  },
+  {
+    "original": "undifferentiated",
+    "translation": "chưa phân hóa",
+    "hanviet": "",
+    "category": "terminology",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_003"
+  },
+  {
+    "original": "restraint collar",
+    "translation": "vòng cổ hạn chế",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_003"
+  },
+  {
+    "original": "integration into this reality",
+    "translation": "hòa nhập vào thực tại này",
+    "hanviet": "",
+    "category": "terminology",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_003"
+  },
+  {
+    "original": "sadist",
+    "translation": "kẻ bạo dâm",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_003"
+  },
+  {
+    "original": "germaphobe",
+    "translation": "người mắc chứng sợ vi trùng",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_003"
+  },
+  {
+    "original": "weakened basic abilities",
+    "translation": "năng lực cơ bản suy yếu",
+    "hanviet": "",
+    "category": "terminology",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_003"
+  },
+  {
+    "original": "apocalyptic scenarios",
+    "translation": "kịch bản tận thế",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_003"
+  },
+  {
+    "original": "infinite flow scenarios",
+    "translation": "kịch bản luân hồi vô hạn",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_003"
+  },
+  {
+    "original": "leveling-up and farming simulators",
+    "translation": "giả lập thăng cấp và cày cuốc",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_003"
+  },
+  {
+    "original": "tiểu bạch thỏ",
+    "translation": "little white rabbit",
+    "hanviet": "",
+    "category": "nickname/metaphor",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_003"
+  },
+  {
+    "original": "tiểu hỗn đản",
+    "translation": "little rascal / scoundrel",
+    "hanviet": "",
+    "category": "nickname/metaphor",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_003"
+  },
+  {
+    "original": "giới giải trí",
+    "translation": "entertainment industry",
+    "hanviet": "",
+    "category": "general",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_003"
+  },
+  {
+    "original": "xương cụt",
+    "translation": "coccyx / tailbone",
+    "hanviet": "",
+    "category": "anatomy",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_003"
+  },
+  {
+    "original": "Cursed Star of Solitude",
+    "translation": "Thiên Sát Cô Tinh",
+    "hanviet": "Thiên Sát Cô Tinh",
+    "category": "Trope/Mythology",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_004"
+  },
+  {
+    "original": "Immortal Lord",
+    "translation": "Tiên Quân",
+    "hanviet": "Tiên Quân",
+    "category": "other",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_004"
+  },
+  {
+    "original": "Body of Extreme Yin",
+    "translation": "Cực Âm Chi Thể",
+    "hanviet": "Cực Âm Chi Thể",
+    "category": "other",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_004"
+  },
+  {
+    "original": "sister-in-law fiction",
+    "translation": "tẩu tẩu văn",
+    "hanviet": "tẩu tẩu văn",
+    "category": "other",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_004"
+  },
+  {
+    "original": "minor cannon fodder",
+    "translation": "pháo hôi phụ",
+    "hanviet": "pháo hôi phụ",
+    "category": "other",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_004"
+  },
+  {
+    "original": "BDSM",
+    "translation": "BDSM",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_004"
+  },
+  {
+    "original": "mì gói",
+    "translation": "instant noodles",
+    "hanviet": "",
+    "category": "Food",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_004"
+  },
+  {
+    "original": "trứng kho",
+    "translation": "braised egg",
+    "hanviet": "",
+    "category": "Food",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_004"
+  },
+  {
+    "original": "dao mổ",
+    "translation": "scalpel",
+    "hanviet": "",
+    "category": "Medical",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_004"
+  },
+  {
+    "original": "gáy",
+    "translation": "nape (of the neck)",
+    "hanviet": "",
+    "category": "Anatomy",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_004"
+  },
+  {
+    "original": "thẩm vấn thất",
+    "translation": "interrogation room",
+    "hanviet": "",
+    "category": "Location",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_004"
+  },
+  {
+    "original": "lão gia chủ",
+    "translation": "old master / head of the family",
+    "hanviet": "Lão Gia Chủ (老家主)",
+    "category": "Title",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_004"
+  },
+  {
+    "original": "nghiệt súc",
+    "translation": "unfilial beast / scoundrel",
+    "hanviet": "Nghiệt Súc (孽畜)",
+    "category": "Insult",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_004"
+  },
+  {
+    "original": "phát tình",
+    "translation": "heat / rut (ABO dynamics)",
+    "hanviet": "Phát Tình (发情)",
+    "category": "Biology/ABO",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_004"
+  },
+  {
+    "original": "Chuyển thế của Tiên Quân",
+    "translation": "Reincarnation of an Immortal Lord",
+    "hanviet": "Chuyển Thế của Tiên Quân (转世的仙君)",
+    "category": "Trope/Mythology",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_004"
+  },
+  {
+    "original": "thể chất Cực Âm",
+    "translation": "Extreme Yin constitution",
+    "hanviet": "Thể Chất Cực Âm (体质极阴)",
+    "category": "Trope/Mythology",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_004"
+  },
+  {
+    "original": "thuốc trợ tim cấp tốc",
+    "translation": "emergency heart medication",
+    "hanviet": "",
+    "category": "Medical",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_004"
   }
 ]

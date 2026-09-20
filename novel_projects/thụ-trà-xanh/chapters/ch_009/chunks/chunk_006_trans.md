@@ -43,4 +43,4 @@ Thẩm Phi Triết nhếch mép cười, hài lòng khi Cố Tùy Châu đã nu�
 Cố Tùy Châu nghiến răng.
 "Sao anh lại có thông tin liên lạc của giáo viên tôi?"
 
-"Sáng nay tôi đã tra rồi. Một giáo viên xuất sắc như của cậu thì dễ tìm thôi," Thẩm Phi Triết nói, khoanh tay sau lưng với nụ cười đầy ẩn ý. "Hay là… tôi biết cậu đã gọi cho Lâm Tuy để câu giờ?"
+"Sáng nay tôi đã tra rồi. Một giáo viên xuất sắc như của cậu thì dễ tìm thôi," Thẩm Phi Triết nói, khoanh tay sau lưng với nụ cười đầy ẩn ý. "Hay là… tôi biết cậu đã gọi cho Lâm Tuỳ để câu giờ?"

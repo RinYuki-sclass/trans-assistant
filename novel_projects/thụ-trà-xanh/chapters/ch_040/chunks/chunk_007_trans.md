@@ -4,9 +4,9 @@ title: ch_040 chunk 7
 
 Anh bàng hoàng nhìn đám côn đồ xông vào nhà, lôi xềnh xệch cả hai người đi.
 
-Lâm Chu khóc lóc không ngừng, tiếng khóc chói tai càng khiến hắn thêm bực bội. Không kiềm chế được cơn giận, hắn vung tay tát mạnh vào mặt Lâm Chu.
+Lâm Châu khóc lóc không ngừng, tiếng khóc chói tai càng khiến hắn thêm bực bội. Không kiềm chế được cơn giận, hắn vung tay tát mạnh vào mặt Lâm Châu.
 
-Anh đã tận mắt chứng kiến Lâm Tử Trác và Cố Lãng bị kéo đi, nhưng thì đã sao? Một khi Lâm Chu chết đi, hắn vẫn sẽ là đứa con duy nhất của họ.
+Anh đã tận mắt chứng kiến Lâm Tử Trác và Cố Lãng bị kéo đi, nhưng thì đã sao? Một khi Lâm Châu chết đi, hắn vẫn sẽ là đứa con duy nhất của họ.
 
 Sau cú sốc ban đầu, Lâm Tùy chọn cách thờ ơ lạnh lùng. Anh biết Lâm Tử Trác và Cố Lãng chắc chắn đang phải chịu khổ trong gia tộc Shen, nhưng điều đó lại có lợi cho họ. Tại sao họ phải có thêm một đứa con? Một mình anh không phải là đã đủ rồi sao?
 

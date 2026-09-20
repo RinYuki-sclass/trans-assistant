@@ -28,7 +28,7 @@ Hồ sơ chỉ vỏn vẹn vài dòng ngắn gọn.
 
 Dòng cuối cùng ghi rằng một thập kỷ trước, kết quả nghiên cứu được tiếp thị trái phép của họ đã bị phát hiện gây ra tổn hại không thể phục hồi cho cơ thể con người. Danh tiếng của W.N. vĩnh viễn bị hủy hoại, và hai nhà sáng lập, bị đè nặng bởi sức nặng của hành động mình, đã thanh lý toàn bộ tài sản để bồi thường trước khi tự kết liễu đời mình, để lại hai đứa con chưa đủ tuổi vị thành niên.
 
-—Một người tên là Lâm Tuy.
+—Một người tên là Lâm Tuỳ.
 
 —Người còn lại chỉ mới năm tuổi.
 

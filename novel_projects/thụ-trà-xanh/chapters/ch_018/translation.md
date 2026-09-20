@@ -64,7 +64,7 @@ Nếu để Thẩm Vĩ bắt được, thì nửa đời người của anh coi 
 
 "Đừng có giả ngu với tao, Thẩm Phi Triết!" Khuôn mặt Thẩm Vĩ vặn vẹo vì tức giận sau cú đánh hụt. "Ông nội hành động quá nhanh, đã đuổi mày ra ngoài trước khi tao kịp tính toán! Mày lấy tư cách gì mà dám động vào người của tao?"
 
-"Chính xác thì 'người của cậu' là ai?" Thẩm Phi Triết giữ khoảng cách an toàn. "Lâm Chu sao?"
+"Chính xác thì 'người của cậu' là ai?" Thẩm Phi Triết giữ khoảng cách an toàn. "Lâm Châu sao?"
 
 Anh vẫn không quên bảo vệ bí danh cho chú gấu con của mình.
 
@@ -92,7 +92,7 @@ Thẩm Vĩ kinh ngạc nhìn hai người họ: "Ông nội! Ông—"
 
 "Ông nội, ông định nói gì với anh ta chứ?" Thẩm Vĩ cố gắng thoát khỏi sự kìm kẹp của Liêu Thần nhưng vô ích. Liêu Thần vốn là cánh tay phải đắc lực của Trưởng lão Thẩm bao năm nay, một người có kỹ năng và tầm ảnh hưởng không hề nhỏ.
 
-Bị ép phải bước đi, Thẩm Vĩ oán hận trừng mắt nhìn lại: "Thẩm Phi Triết, đồ khốn kiếp! Ngươi tưởng cưới Lâm Chu thì đã sao? Ngươi nghĩ Lâm gia vẫn còn như xưa à? Họ đã sớm—"
+Bị ép phải bước đi, Thẩm Vĩ oán hận trừng mắt nhìn lại: "Thẩm Phi Triết, đồ khốn kiếp! Ngươi tưởng cưới Lâm Châu thì đã sao? Ngươi nghĩ Lâm gia vẫn còn như xưa à? Họ đã sớm—"
 
 "Thẩm Vĩ!"
 
@@ -106,7 +106,7 @@ Trưởng lão Thẩm nhìn Thẩm Phi Triết, người đang đứng trước 
 
 Cố Tùy Châu chắc chắn đang đợi mình ở đâu đó, Thẩm Phi Triết thầm nghĩ, rồi thúc giục: "Ở đây chỉ có hai người chúng ta, ông nội, ông có chuyện gì cứ nói thẳng đi."
 
-Trưởng lão Thẩm thở dài: "Con còn nhớ trước đây ta đã nói gì về việc phải chịu trách nhiệm với Lâm Chu không?"
+Trưởng lão Thẩm thở dài: "Con còn nhớ trước đây ta đã nói gì về việc phải chịu trách nhiệm với Lâm Châu không?"
 
 "Con nhớ rõ." Thẩm Phi Triết đáp. "Chẳng phải đó chính là điều con đang làm sao? Con đang nghiêm túc phát triển mối quan hệ của chúng con."
 
