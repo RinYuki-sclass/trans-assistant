@@ -84,7 +84,7 @@ Cố Tùy Châu đã phải tốn không ít công sức, giật dây đủ đư
 
 Thẩm Phi Triết nghe xong, khác với mọi khi, anh không phản ứng ngay. Anh chống cằm, trầm ngâm suy nghĩ. Sự im lặng ấy khiến Cố Tùy Châu không khỏi nghi ngại. Anh thận trọng hỏi: "Anh... anh thấy thế vẫn chưa đủ sao?"
 
-"Không." Thẩm Phi Triết đáp, "Tôi đang tự hỏi liệu Lin Sui đang bảo vệ cậu hay đang cố tình hại cậu."
+"Không." Thẩm Phi Triết đáp, "Tôi đang tự hỏi liệu Lâm Tùy đang bảo vệ cậu hay đang cố tình hại cậu."
 
 "Liệu hắn có thể lấy tiền của nhà họ Thẩm để bù đắp cho nhà họ không?"
 
@@ -94,11 +94,11 @@ Thẩm Phi Triết vốn chỉ nói nhiều khi bàn chuyện nghiêm túc. Vậ
 
 Cố Tùy Châu nghiến nhẹ hàm răng trắng đều. Anh ấy đã tha thứ cho mình chưa nhỉ?
 
-Thẩm Phi Triết nhìn thẳng vào mắt cậu: "Chính xác thì mối quan hệ giữa cậu và Lin Sui là gì?"
+Thẩm Phi Triết nhìn thẳng vào mắt cậu: "Chính xác thì mối quan hệ giữa cậu và Lâm Tùy là gì?"
 
-Lin Sui là một nguồn rắc rối không hồi kết. Ngay cả khi Cố Tùy Châu không tự nguyện khai báo, Thẩm Phi Triết cũng đã dự định sẽ tự mình điều tra hắn.
+Lâm Tùy là một nguồn rắc rối không hồi kết. Ngay cả khi Cố Tùy Châu không tự nguyện khai báo, Thẩm Phi Triết cũng đã dự định sẽ tự mình điều tra hắn.
 
-May thay, Cố Tùy Châu lúc này đã hoàn toàn cởi mở: "Lin Sui là đứa trẻ mà cha mẹ tôi nhận nuôi từ trại trẻ mồ côi."
+May thay, Cố Tùy Châu lúc này đã hoàn toàn cởi mở: "Lâm Tùy là đứa trẻ mà cha mẹ tôi nhận nuôi từ trại trẻ mồ côi."
 
 "Khi họ tìm thấy cậu ta, cậu ta mới sáu tuổi nhưng đã bộc lộ sự nhạy bén lạ thường với y học và dược lý. Anh biết cha mẹ tôi là người thế nào rồi đấy, anh Thẩm – họ dành cả đời cho lĩnh vực này. Thấy cậu ta có tài, họ liền nhận nuôi ngay."
 

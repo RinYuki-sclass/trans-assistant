@@ -32,7 +32,7 @@ Anh ta cười gượng gạo: "K-không, anh Shen, tất nhiên là tôi không
 
 "Không sao đâu." Thẩm Phi Triết thờ ơ đáp, hất cằm ra hiệu. "Đi thôi."
 
-Lu Fan, sau khi bị bắt đã hoàn toàn tuyệt vọng và thú nhận mọi chuyện. Tầng hầm này vốn là nhà tù riêng của gia tộc Shen, được xây dựng bằng công nghệ tiên tiến nhất của Liên bang.
+Lục Phàm, sau khi bị bắt đã hoàn toàn tuyệt vọng và thú nhận mọi chuyện. Tầng hầm này vốn là nhà tù riêng của gia tộc Shen, được xây dựng bằng công nghệ tiên tiến nhất của Liên bang.
 
 "Mẹ kiếp."
 

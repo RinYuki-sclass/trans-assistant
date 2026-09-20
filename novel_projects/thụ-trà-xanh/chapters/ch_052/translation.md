@@ -196,7 +196,7 @@ Cố Tùy Châu lên tiếng: "Nếu anh muốn xem, cứ nói một tiếng. Em
 
 "…Không cần. Cậu cứ giữ lấy mà tự chiêm ngưỡng đi," Thẩm Phi Triết đáp, không chút cảm kích.
 
-Cố Tùy Châu không hề ngạc nhiên trước câu trả lời đó, nhưng anh vẫn mỉm cười. "Vậy anh không có gì muốn hỏi em sao? Ví dụ như..."
+Cố Tùy Châu không hề ngạc nhiên trước câu trả lời đó, nhưng cậu vẫn mỉm cười. "Vậy anh không có gì muốn hỏi em sao? Ví dụ như..."
 
 "Cố Tùy Châu," Thẩm Phi Triết ngắt lời, giọng bình thản, "tránh ra. Tự thay băng gạc đi. Tôi đi ra ngoài đây."
 
@@ -408,7 +408,7 @@ Năm ngày sau, tầng thượng của Bệnh viện tư nhân Lam Tinh.
 
 Từ Trọng xông cửa bước vào. "Thuốc! Đưa cho tôi tất cả thuốc ức chế liều cao mà các người có!"
 
-Giám đốc bệnh viện, cũng là bác sĩ riêng của Cố Tùy Châu, sững sờ nhìn anh ta. "Chủ tịch Cố xảy ra chuyện gì rồi?"
+Giám đốc bệnh viện, cũng là bác sĩ riêng của Cố Tùy Châu, sững sờ nhìn anh. "Chủ tịch Cố xảy ra chuyện gì rồi?"
 
 "Còn có thể xảy ra chuyện gì nữa?" Từ Trọng cắn môi, quay sang nhìn Lai Cẩu. "Cậu đã liên lạc được với anh Thẩm Phi Triết chưa?"
 

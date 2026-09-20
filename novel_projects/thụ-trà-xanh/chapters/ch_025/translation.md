@@ -4,39 +4,39 @@ title: Thụ trà xanh — ch_025
 
 Chương 25
 
-Gu Suizhou và Shen Feizhi đến khu chung cư chỉ sau Lin Sui một bước.
+Cố Tùy Châu và Thẩm Phi Triết đến khu chung cư chỉ sau Lâm Tùy một bước.
 
-Lin Zizhuo và Gu Lang vốn không phải người phô trương. Căn hộ tầng áp mái rộng 260 mét vuông là quá đủ cho một gia đình bốn người, nhất là khi còn có thêm tầng gác mái phía trên; họ chưa bao giờ thấy cần thiết phải chuyển đến biệt thự.
+Lâm Tử Trác và Gu Lang vốn không phải người phô trương. Căn hộ tầng áp mái rộng 260 mét vuông là quá đủ cho một gia đình bốn người, nhất là khi còn có thêm tầng gác mái phía trên; họ chưa bao giờ thấy cần thiết phải chuyển đến biệt thự.
 
-Trước khi gặp Shen Feizhi, Gu Suizhou thường ở lại trường, hiếm khi về nhà. Những lần hiếm hoi trở về, anh thường bắt gặp Lin Sui đang tụ tập cùng đám Alpha khác làm loạn nơi này. Vì chán ghét, anh dần không còn quay lại nữa. Giờ đây nhìn căn hộ này, anh lại thấy một cảm giác xa lạ đến lạ lùng.
+Trước khi gặp Thẩm Phi Triết, Cố Tùy Châu thường ở lại trường, hiếm khi về nhà. Những lần hiếm hoi trở về, cậu thường bắt gặp Lâm Tùy đang tụ tập cùng đám Alpha khác làm loạn nơi này. Vì chán ghét, cậu dần không còn quay lại nữa. Giờ đây nhìn căn hộ này, cậu lại thấy một cảm giác xa lạ đến lạ lùng.
 
-Shen Feizhi đứng cách đó một mét, khoanh tay lướt điện thoại, vẻ mặt lạnh nhạt.
+Thẩm Phi Triết đứng cách đó một mét, khoanh tay lướt điện thoại, vẻ mặt lạnh nhạt.
 
 "Một tiếng. Nhanh lên."
 
-"Hiểu rồi, anh Shen." Gu Suizhou dùng ống tay áo che đi miếng gạc quấn trên cổ tay phải, mỉm cười dịu dàng. "Dư dả thời gian mà, tôi sẽ không mất lâu đến thế đâu."
+"Hiểu rồi, anh Thẩm." Cố Tùy Châu dùng ống tay áo che đi miếng gạc quấn trên cổ tay phải, mỉm cười dịu dàng. "Dư dả thời gian mà, tôi sẽ không mất lâu đến thế đâu."
 
-Lin Sui liếc nhìn hai người, thoáng chút bối rối. Chỉ mới vài giờ trôi qua kể từ lần cuối gặp mặt, vậy mà bầu không khí giữa họ lại có cảm giác… kỳ lạ. Họ cãi nhau sao?
+Lâm Tùy liếc nhìn hai người, thoáng chút bối rối. Chỉ mới vài giờ trôi qua kể từ lần cuối gặp mặt, vậy mà bầu không khí giữa họ lại có cảm giác… kỳ lạ. Họ cãi nhau sao?
 
-Anh thận trọng hỏi Shen Feizhi: “Anh Shen, anh có muốn ngồi xuống uống chút cà phê không?”
+Anh thận trọng hỏi Thẩm Phi Triết: “Anh Shen, anh có muốn ngồi xuống uống chút cà phê không?”
 
-Shen Feizhi lắc đầu: "Không, cảm ơn."
+Thẩm Phi Triết lắc đầu: "Không, cảm ơn."
 
-Lin Sui không ép, thay vào đó bước tới gần Shen Feizhi, bắt chuyện một cách tự nhiên: "Anh Shen và Tiểu Chu cãi nhau à?"
+Lâm Tùy không ép, thay vào đó bước tới gần Thẩm Phi Triết, bắt chuyện một cách tự nhiên: "Anh Shen và Tiểu Chu cãi nhau à?"
 
-Shen Feizhi đáp thẳng thừng: “Có chuyện gì thì cứ nói thẳng đi.”
+Thẩm Phi Triết đáp thẳng thừng: “Có chuyện gì thì cứ nói thẳng đi.”
 
-Lin Sui đột nhiên thở dài: “Anh thực sự không thích tôi lắm, phải không?”
+Lâm Tùy đột nhiên thở dài: “Anh thực sự không thích tôi lắm, phải không?”
 
-Shen Feizhi buông lời sắc bén: "Tự biết thân biết phận là tốt."
+Thẩm Phi Triết buông lời sắc bén: "Tự biết thân biết phận là tốt."
 
-Lin Sui cười khổ: "Tôi hiểu ý anh, nhưng tôi không đến đây để gây sự, tôi chỉ muốn nói về Tiểu Chu. Dù sao anh ấy cũng là anh trai tôi, tôi chỉ muốn anh ấy được hạnh phúc."
+Lâm Tùy cười khổ: "Tôi hiểu ý anh, nhưng tôi không đến đây để gây sự, tôi chỉ muốn nói về Tiểu Chu. Dù sao anh ấy cũng là anh trai tôi, tôi chỉ muốn anh ấy được hạnh phúc."
 
-Thật là một cách nói thú vị, Shen Feizhi thầm nghĩ. Nếu không biết sự thật, có lẽ anh đã tin Lin Sui là một người em trai tốt bụng, bất lực trước sự nổi loạn của anh mình.
+Thật là một cách nói thú vị, Thẩm Phi Triết thầm nghĩ. Nếu không biết sự thật, có lẽ anh đã tin Lâm Tùy là một người em trai tốt bụng, bất lực trước sự nổi loạn của anh mình.
 
-Anh không vạch trần những lời giả tạo của Lin Sui mà chỉ gật đầu: "Tôi sẽ làm vậy."
+Anh không vạch trần những lời giả tạo của Lâm Tùy mà chỉ gật đầu: "Tôi sẽ làm vậy."
 
-"Tôi tin anh, anh Shen. Tiểu Chu thật may mắn khi có anh," Lin Sui nói, cúi đầu, mũi chân khẽ gõ xuống sàn. "Anh trai tôi vẫn còn trẻ và chưa trưởng thành. Cha mẹ chúng tôi mất sớm, chưa bao giờ dạy anh ấy cách cư xử đúng mực. Xin anh hãy bao dung cho những sự thô lỗ của anh ấy."
+"Tôi tin anh, anh Shen. Tiểu Chu thật may mắn khi có anh," Lâm Tùy nói, cúi đầu, mũi chân khẽ gõ xuống sàn. "Anh trai tôi vẫn còn trẻ và chưa trưởng thành. Cha mẹ chúng tôi mất sớm, chưa bao giờ dạy anh ấy cách cư xử đúng mực. Xin anh hãy bao dung cho những sự thô lỗ của anh ấy."
 
 Vậy ra anh ta đang gián tiếp chê Cố Tùy Châu là kẻ thiếu lịch sự sao?
 
@@ -72,7 +72,7 @@ Lâm Tùy: "..."
 
 Dù có ngưỡng mộ vẻ ngoài của Thẩm Phi Triết đến đâu, anh cũng không thể nào nuốt trôi được lời nói dối rằng gã đó là người dịu dàng.
 
-Cố Tùy Châu chẳng bận tâm Lâm Tùy có tin hay không. Hắn đưa mắt nhìn quanh căn phòng, rồi dừng lại ở cánh cửa kính dẫn ra ban công.
+Cố Tùy Châu chẳng bận tâm Lâm Tùy có tin hay không. Cậu đưa mắt nhìn quanh căn phòng, rồi dừng lại ở cánh cửa kính dẫn ra ban công.
 
 "Anh đã tân trang lại hầu hết mọi thứ trong căn hộ này, ngoại trừ cánh cửa này. Bố tôi đã đặt làm riêng nó cho ngày sinh nhật của mẹ tôi."
 
@@ -108,15 +108,15 @@ Khi món đồ cuối cùng còn sót lại của Lâm Tử Trác và Cố Lãng
 
 “Từ giờ trở đi, hãy tránh xa tôi ra, tôi sẽ không làm phiền cậu nữa.”
 
-“Ồ, còn một điều nữa.” Trước khi mở cửa, anh liếc nhìn Lin Sui bằng ánh mắt lạnh lùng. “Tránh xa Thẩm Phi Triết ra, đừng để tôi bắt gặp cậu còn bám lấy hắn.”
+“Ồ, còn một điều nữa.” Trước khi mở cửa, cậu liếc nhìn Lâm Tùy bằng ánh mắt lạnh lùng. “Tránh xa Thẩm Phi Triết ra, đừng để tôi bắt gặp cậu còn bám lấy hắn.”
 
 Nói đoạn, anh đóng sầm cửa lại.
 
-Anh không hề nói dối. Điều kiện để anh không ra tay với Lin Sui chính là việc Lin Sui không bị xử tử. Thế nhưng, hiểu rõ bản chất thật sự của Lin Sui, anh không thể tin nổi kẻ này sẽ chịu ngoan ngoãn sống những ngày còn lại mà không giở trò. Hơn nữa, Lin Sui cũng chẳng hề vô tội trong vụ việc mười năm trước.
+Anh không hề nói dối. Điều kiện để anh không ra tay với Lâm Tùy chính là việc Lâm Tùy không bị xử tử. Thế nhưng, hiểu rõ bản chất thật sự của Lâm Tùy, anh không thể tin nổi kẻ này sẽ chịu ngoan ngoãn sống những ngày còn lại mà không giở trò. Hơn nữa, Lâm Tùy cũng chẳng hề vô tội trong vụ việc mười năm trước.
 
-Cố Tùy Châu đưa tay vuốt tóc, tâm trạng càng lúc càng kích động. Nhưng khi vòng qua góc đường và nhìn thấy Thẩm Phi Triết ở cuối hành lang, gương mặt anh lập tức nở một nụ cười.
+Cố Tùy Châu đưa tay vuốt tóc, tâm trạng càng lúc càng kích động. Nhưng khi vòng qua góc đường và nhìn thấy Thẩm Phi Triết ở cuối hành lang, gương mặt cậu lập tức nở một nụ cười.
 
-Anh chạy tới, dùng tay che mắt Thẩm Phi Triết khỏi ánh sáng chói từ màn hình.
+Cậu chạy tới, dùng tay che mắt Thẩm Phi Triết khỏi ánh sáng chói từ màn hình.
 
 Thẩm Phi Triết ngẩng đầu nhìn.
 
@@ -124,9 +124,9 @@ Cố Tùy Châu bĩu môi, vẫy vẫy bàn tay trái đang rướm máu: “Anh
 
 Vì Cố Tùy Châu không có pheromone, nên mùi hương duy nhất tỏa ra từ vết thương chỉ là mùi máu tanh nồng.
 
-Thẩm Phi Triết dùng đầu lưỡi đẩy nhẹ chiếc răng nanh ẩn hiện. “Là do Lin Sui gây ra?”
+Thẩm Phi Triết dùng đầu lưỡi đẩy nhẹ chiếc răng nanh ẩn hiện. “Là do Lâm Tùy gây ra?”
 
-Ở bên nhau lâu như vậy, Cố Tùy Châu đã quá hiểu tính tình của Thẩm Phi Triết. Giở trò đáng thương sẽ chẳng có tác dụng gì, thậm chí còn có thể khiến anh bị đá văng xuống đất và bị mắng là thảm hại.
+Ở bên nhau lâu như vậy, Cố Tùy Châu đã quá hiểu tính tình của Thẩm Phi Triết. Giở trò đáng thương sẽ chẳng có tác dụng gì, thậm chí còn có thể khiến cậu bị đá văng xuống đất và bị mắng là thảm hại.
 
 Vì thế, anh ưỡn ngực, đắc ý nói: “Sao phải để hắn làm gì? Chính tôi đã đánh hắn đấy!”
 
@@ -178,7 +178,7 @@ Mười phút sau.
 
 Thẩm Phi Triết và Cố Tùy Châu đến điểm hẹn đúng giờ. Nhìn mái tóc rối bời hiếm thấy của Thẩm Phi Triết, ánh mắt tò mò của Leapton gần như dán chặt vào anh: "Khoan đã, anh Thẩm... hai người chạy bộ đến đây à?"
 
-Thẩm Phi Triết phóng một ánh nhìn sắc lẹm như muốn giết người về phía Cố Tùy Châu: "Cậu hỏi anh ta đi."
+Thẩm Phi Triết phóng một ánh nhìn sắc lẹm như muốn giết người về phía Cố Tùy Châu: "Cậu hỏi cậu ta đi."
 
 Cố Tùy Châu hắng giọng: "Chúng tôi bắt taxi, nhưng lại để quên hành lý trên xe nên phải đuổi theo năm cây số."
 
@@ -214,7 +214,7 @@ Một báo động giả. Leapton và người hướng dẫn nhanh chóng gạt
 
 Chỉ riêng Cố Tùy Châu là vẫn dán chặt ánh mắt vào cổ tay Thẩm Phi Triết, vẻ mặt đầy phức tạp.
 
-Sau khi ổn định chỗ ngồi và thắt dây an toàn, Cố Tùy Châu mạnh dạn đặt lòng bàn tay lên cổ tay trái của Thẩm Phi Triết: “Anh Thẩm, anh mua chiếc vòng này ở đâu vậy? Đẹp quá! Tôi xem kỹ hơn một chút được không?”
+Sau khi ổn định chỗ ngồi và thắt dây an toàn, Cố Tùy Châu mạnh dạn đặt lòng bàn tay lên cổ tay trái của Thẩm Phi Triết: “Anh Thẩm, anh mua chiếc vòng này ở đâu vậy? Đẹp quá! Em xem kỹ hơn một chút được không?”
 
 Thẩm Phi Triết khựng lại.
 
@@ -222,7 +222,7 @@ Anh nhìn Cố Tùy Châu với vẻ mặt hoàn toàn ngơ ngác: “Đẹp?”
 
 Sao đứa trẻ này có thể nói dối trơn tru như vậy được nhỉ? Ngay cả bản thân Thẩm Phi Triết còn thấy tay nghề của mình thật thảm họa.
 
-Thế nhưng, Cố Tùy Châu vẫn gật đầu đầy nghiêm túc: “Cho tôi xem đi! Tôi cũng muốn có một cái.”
+Thế nhưng, Cố Tùy Châu vẫn gật đầu đầy nghiêm túc: “Cho em xem đi! Em cũng muốn có một cái.”
 
 “Nó không phải hàng mua ở cửa hàng, tôi tự làm đấy.” Dù nhận được lời khen hiếm hoi, Thẩm Phi Triết vẫn chẳng hề lay chuyển trước sự nịnh nọt. “Đây là vật phòng thân, tôi không thể tùy tiện cho người khác được.”
 
@@ -232,47 +232,47 @@ Anh nói rất thật lòng, chẳng có lý do gì để giấu giếm Cố Tù
 
 “Còn tùy vào việc ai là người cầm nó.” Thẩm Phi Triết đáp, đoạn kéo bịt mắt xuống để ngủ tiếp. Đêm qua anh không ngủ ngon, giờ đã bắt đầu thiếp đi. “Với họ, nó chỉ là món đồ chơi hay vật trang trí. Nhưng trong tay tôi, nó có thể lấy mạng người.”
 
-“Tôi hiểu rồi…” Cố Tùy Châu nhìn bàn tay mình trượt khỏi cổ tay Thẩm Phi Triết. Một ý nghĩ chợt lóe lên, cậu hạ giọng hỏi, gần như chỉ là tiếng thì thầm: “Anh Thẩm, anh đã từng giết người chưa?”
+“Em hiểu rồi…” Cố Tùy Châu nhìn bàn tay mình trượt khỏi cổ tay Thẩm Phi Triết. Một ý nghĩ chợt lóe lên, cậu hạ giọng hỏi, gần như chỉ là tiếng thì thầm: “Anh Thẩm, anh đã từng giết người chưa?”
 
 Thẩm Phi Triết không đáp, dường như đã chìm vào giấc ngủ.
 
 Động cơ gầm rú khi con tàu vũ trụ chuẩn bị cất cánh.
 
-Cố Tùy Châu đeo tai nghe chống ồn vào, ánh mắt do dự nhìn Thẩm Phi Triết đang để đầu trần. Sau một thoáng ngập ngừng, anh nhặt cặp tai nghe còn lại lên, nhẹ nhàng đeo vào cho đối phương.
+Cố Tùy Châu đeo tai nghe chống ồn vào, ánh mắt do dự nhìn Thẩm Phi Triết đang để đầu trần. Sau một thoáng ngập ngừng, cậu nhặt cặp tai nghe còn lại lên, nhẹ nhàng đeo vào cho đối phương.
 
 Anh di chuyển vô cùng cẩn trọng, sợ rằng bất kỳ cử động đột ngột nào cũng sẽ đánh thức người đang say giấc. Đến khi hoàn thành, cả người anh đã ướt đẫm mồ hôi.
 
-Cố Tùy Châu xoay người, định trở về chỗ ngồi của mình. Đúng lúc này, Thẩm Phi Triết vốn đang ngủ say bỗng nhiên mở miệng, lẩm bẩm hai chữ. Cố Tùy Châu sững sờ, động tác khựng lại. Vì đeo tai nghe chống ồn nên anh không nghe rõ Thẩm Phi Triết vừa nói gì, nhưng anh lại đọc được khẩu hình của đối phương.
+Cố Tùy Châu xoay người, định trở về chỗ ngồi của mình. Đúng lúc này, Thẩm Phi Triết vốn đang ngủ say bỗng nhiên mở miệng, lẩm bẩm hai chữ. Cố Tùy Châu sững sờ, động tác khựng lại. Vì đeo tai nghe chống ồn nên cậu không nghe rõ Thẩm Phi Triết vừa nói gì, nhưng cậu lại đọc được khẩu hình của đối phương.
 
 Thẩm Phi Triết đã nói—
 
 "Tôi từng giết người."
 
-Cố Tùy Châu ngồi xuống ghế. Sau một thoáng ngẩn ngơ, anh lại đưa tay chạm vào cổ tay trái của Thẩm Phi Triết. Thẩm Phi Triết sao có thể không nhận ra hành động của anh? Nhưng vì quá kiệt sức, lại tin rằng Cố Tùy Châu sẽ không làm chuyện gì dại dột, nên hắn mặc kệ, phối hợp kéo tay áo lên để anh tùy ý làm càn.
+Cố Tùy Châu ngồi xuống ghế. Sau một thoáng ngẩn ngơ, cậu lại đưa tay chạm vào cổ tay trái của Thẩm Phi Triết. Thẩm Phi Triết sao có thể không nhận ra hành động của cậu? Nhưng vì quá kiệt sức, lại tin rằng Cố Tùy Châu sẽ không làm chuyện gì dại dột, nên anh mặc kệ, phối hợp kéo tay áo lên để cậu tùy ý làm càn.
 
-Đạt được mục đích, đôi mắt Cố Tùy Châu cong lên, nụ cười rạng rỡ như đứa trẻ được cho kẹo. Anh xoay con dao nhỏ thô sơ giữa những đầu ngón tay, rồi chạm nhẹ vào ngực mình, nơi nửa còn lại của bức tượng cáo bằng gỗ đang treo lủng lẳng.
+Đạt được mục đích, đôi mắt Cố Tùy Châu cong lên, nụ cười rạng rỡ như đứa trẻ được cho kẹo. Cậu xoay con dao nhỏ thô sơ giữa những đầu ngón tay, rồi chạm nhẹ vào ngực mình, nơi nửa còn lại của bức tượng cáo bằng gỗ đang treo lủng lẳng.
 
 "Hai người bọn họ thật sự xấu xí như nhau," anh thầm nghĩ.
 
 Khoang hạng nhất của tàu vũ trụ có cả phòng đơn lẫn phòng đôi. Leapton và người hướng dẫn đã chọn phòng đơn, trong khi Cố Tùy Châu và Thẩm Phi Triết chọn phòng đôi để tiện bề liên lạc. Với những vách ngăn bao quanh và người duy nhất còn lại trong phòng đang đeo bịt mắt, Cố Tùy Châu trơ tráo cởi cúc áo sơ mi, để lộ cơ ngực săn chắc, mịn màng.
 
-Cố Tùy Châu nhẹ nhàng đặt mặt dây chuyền hình con cáo sang một bên, rồi khéo léo xoay chuyển con dao gỗ trong tay. Mũi dao cùn giờ đã ấn thẳng vào ngực anh.
+Cố Tùy Châu nhẹ nhàng đặt mặt dây chuyền hình con cáo sang một bên, rồi khéo léo xoay chuyển con dao gỗ trong tay. Mũi dao cùn giờ đã ấn thẳng vào ngực cậu.
 
-Trong khoảnh khắc tiếp theo, anh tàn nhẫn đâm mạnh xuống!
+Trong khoảnh khắc tiếp theo, cậu tàn nhẫn đâm mạnh xuống!
 
 Những ngón tay nắm chặt cán dao trắng bệch vì căng thẳng khi mũi dao cùn ấn sâu vào lồng ngực. Cố Tùy Châu rũ mắt, vẻ mặt thản nhiên nhìn con dao nhỏ tạo nên một vết hằn mờ nhạt trên vùng da phía trên trái tim mình. Chỉ đến khi tấm gỗ lung lay bấp bênh, chực chờ gãy vụn, cậu mới thương xót rút tay lại.
 
-Con dao nhỏ nằm gọn trong lòng bàn tay anh, hoàn toàn nguyên vẹn.
+Con dao nhỏ nằm gọn trong lòng bàn tay cậu, hoàn toàn nguyên vẹn.
 
-Trên ngực anh, ngoại trừ một vết chích nhỏ đang rỉ máu, chẳng hề có lấy một tổn thương nào khác.
+Trên ngực cậu, ngoại trừ một vết chích nhỏ đang rỉ máu, chẳng hề có lấy một tổn thương nào khác.
 
-Cố Tùy Châu nhếch mép, khóe miệng cong lên một nụ cười hài lòng, rồi tỉ mỉ vuốt phẳng lại vạt áo. Anh cẩn thận lau sạch con dao gỗ từ trong ra ngoài, sau đó đeo lại vào cổ Thẩm Phi Triết.
+Cố Tùy Châu nhếch mép, khóe miệng cong lên một nụ cười hài lòng, rồi tỉ mỉ vuốt phẳng lại vạt áo. Cậu cẩn thận lau sạch con dao gỗ từ trong ra ngoài, sau đó đeo lại vào cổ Thẩm Phi Triết.
 
 Anh Thẩm đang nói nhảm rồi.
 
 Con dao nhỏ này làm sao có thể giết người được chứ?
 
-Anh bướng bỉnh nghĩ: Cho dù có kẻ chết đi, thì đó cũng là do họ đáng đời—vì họ tự nguyện lựa chọn cái chết, tích cực tìm đến cái chết cho chính mình.
+Cậu bướng bỉnh nghĩ: Cho dù có kẻ chết đi, thì đó cũng là do họ đáng đời—vì họ tự nguyện lựa chọn cái chết, tích cực tìm đến cái chết cho chính mình.
 
 Dù thế nào đi nữa, chuyện đó cũng chẳng liên quan gì đến Thẩm Phi Triết.
 

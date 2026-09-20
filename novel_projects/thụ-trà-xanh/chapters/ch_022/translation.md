@@ -48,27 +48,27 @@ Thị trường chứng khoán, dữ liệu trường năng lượng, thuật to
 Chẳng thể có ai đạt đến trình độ tinh thông sâu sắc ở nhiều lĩnh vực đa dạng như vậy nếu không có sự dẫn dắt bài bản.
 Ngay cả bản thân Cố Tùy Châu cũng phải nhờ đến sự chỉ dạy của Ritter cùng bạn bè của cha mẹ mới có được trình độ như hiện tại. Làm sao Thẩm Phi Triết – một kẻ không có bất kỳ mối quan hệ nào – lại có thể đạt được tất cả những điều này chỉ bằng cách tự học?
 Hoặc là người đàn ông này có một cố vấn với kỹ năng phi thường, hoặc anh ta đã gặp được một cơ duyên hiếm có nào đó trong quá khứ.
-Đầu ngón tay Cố Tùy Châu lướt trên tờ giấy một lúc, rồi anh lấy chiếc bật lửa của Thẩm Phi Triết – thứ mà anh đã tiện tay bỏ vào túi khi rời đi – ra và châm lửa đốt tờ giấy.
+Đầu ngón tay Cố Tùy Châu lướt trên tờ giấy một lúc, rồi cậu lấy chiếc bật lửa của Thẩm Phi Triết – thứ mà cậu đã tiện tay bỏ vào túi khi rời đi – ra và châm lửa đốt tờ giấy.
 Trong thế giới kỹ thuật số siêu kết nối ngày nay, giấy vẫn là phương pháp an toàn nhất để liên lạc bí mật. Đốt bỏ chứng cứ không để lại dấu vết, cho phép họ chia sẻ những thông tin nhạy cảm bằng phương thức nguyên thủy nhất.
-Khi đám tro tàn cuối cùng bay theo cơn gió lạnh ra ngoài cửa sổ, anh thu tay lại rồi gửi tin nhắn cho Leapton.
+Khi đám tro tàn cuối cùng bay theo cơn gió lạnh ra ngoài cửa sổ, cậu thu tay lại rồi gửi tin nhắn cho Leapton.
 
-G: Trong lúc tôi vắng mặt, hãy để mắt đến Lin Sui. Đừng để hắn gây chuyện hay khiêu khích Thẩm Phi Triết nữa.
+G: Trong lúc tôi vắng mặt, hãy để mắt đến Lâm Tùy. Đừng để hắn gây chuyện hay khiêu khích Thẩm Phi Triết nữa.
 G: Chúng ta cũng không thể lơ là nhà họ Thẩm, đặc biệt là Thẩm Vĩ. Mọi hành động, mọi mối quan hệ của anh ta đều cần được theo dõi chặt chẽ. Anh ta chính là điểm đột phá tốt nhất của chúng ta.
 G: [Đã chuyển khoản] Cảm ơn vì đã vất vả.
 
 Thấy Leapton lập tức xác nhận bằng một chữ "Được", Cố Tùy Châu cười khẽ, tắt màn hình điện thoại.
 "Chú Trọng, chúng ta bắt đầu thôi."
-Mũi tiêm đầu tiên vào cột sống thắt lưng là thuốc gây mê, cây kim dài và dày khiến đôi chân anh chỉ nhìn thôi đã thấy run rẩy.
+Mũi tiêm đầu tiên vào cột sống thắt lưng là thuốc gây mê, cây kim dài và dày khiến đôi chân chỉ nhìn thôi đã thấy run rẩy.
 
 Tuy nhiên, đây chỉ là gây mê cục bộ, bởi lẽ cần sự hợp tác của bệnh nhân để bài tiết pheromone.
 
-Cây kim dài đâm sâu vào cơ thể, vậy mà Cố Tùy Châu chẳng mảy may phản ứng. Anh đã quá quen với kiểu đối đãi này.
+Cây kim dài đâm sâu vào cơ thể, vậy mà Cố Tùy Châu chẳng mảy may phản ứng. Cậu đã quá quen với kiểu đối đãi này.
 
-Lời nói dối đầu tiên anh thốt ra với Thẩm Phi Triết chính là việc anh thiếu kinh nghiệm lâm sàng. Sự thật lại hoàn toàn trái ngược. Kinh nghiệm lâm sàng của anh vượt xa hầu hết mọi người, bởi chính bản thân anh vốn là một vật thí nghiệm lý tưởng.
+Lời nói dối đầu tiên cậu thốt ra với Thẩm Phi Triết chính là việc mình thiếu kinh nghiệm lâm sàng. Sự thật lại hoàn toàn trái ngược. Kinh nghiệm lâm sàng của cậu vượt xa hầu hết mọi người, bởi chính bản thân cậu vốn là một vật thí nghiệm lý tưởng.
 
 Mũi tiêm đầu tiên kết thúc êm thấm.
 
-Điều thực sự không thể chịu nổi là mũi tiêm thứ hai nhắm thẳng vào tuyến mùi hương. Mũi tiêm này sử dụng một cây kim cực nhỏ, gần như không để lại dấu vết sau gáy. Thế nhưng, tuyến mùi lại là nơi nhạy cảm nhất. Dù cây kim chỉ dài chưa đầy một đốt ngón tay, anh vẫn không kìm được mà rên khẽ khi nó đâm xuyên qua da thịt.
+Điều thực sự không thể chịu nổi là mũi tiêm thứ hai nhắm thẳng vào tuyến mùi hương. Mũi tiêm này sử dụng một cây kim cực nhỏ, gần như không để lại dấu vết sau gáy. Thế nhưng, tuyến mùi lại là nơi nhạy cảm nhất. Dù cây kim chỉ dài chưa đầy một đốt ngón tay, cậu vẫn không kìm được mà rên khẽ khi nó đâm xuyên qua da thịt.
 
 Chết tiệt.
 
@@ -80,13 +80,13 @@ Từ Trọng nhìn lòng bàn tay đẫm máu của Cố Tùy Châu, nếu nói 
 
 Từ Trọng thở dài, buộc mình phải siết chặt tay.
 
-Cố Tùy Châu suýt nữa đã gầm lên một tiếng chửi thề, nhưng theo bản năng, anh kịp ngậm miệng lại trước khi thốt ra trọn vẹn. Một lúc sau, anh mới sực nhớ ra Thẩm Phi Triết không có ở đây. Giờ đây, chẳng còn ai mắng anh vì thói quen văng tục ấy nữa.
+Cố Tùy Châu suýt nữa đã gầm lên một tiếng chửi thề, nhưng theo bản năng, cậu kịp ngậm miệng lại trước khi thốt ra trọn vẹn. Một lúc sau, anh mới sực nhớ ra Thẩm Phi Triết không có ở đây. Giờ đây, chẳng còn ai mắng anh vì thói quen văng tục ấy nữa.
 
 Cố Tùy Châu cong môi, đột nhiên cảm thấy lòng mình chùng xuống, đầy vẻ chán chường.
 
 Giờ đầu tiên trị liệu bằng pheromone luôn là khoảng thời gian đau đớn nhất. Một khi vượt qua được rào cản ấy, mười tiếng còn lại của quá trình điều trị sẽ diễn ra tương đối suôn sẻ. Thông thường, Cố Tùy Châu sẽ cứ thế mà chìm vào giấc ngủ.
 
-Đúng như dự đoán, dưới tác động của thuốc, cơn buồn ngủ nhanh chóng bủa vây lấy anh. Mí mắt Cố Tùy Châu bắt đầu nặng trĩu, khẽ rung lên.
+Đúng như dự đoán, dưới tác động của thuốc, cơn buồn ngủ nhanh chóng bủa vây lấy cậu. Mí mắt Cố Tùy Châu bắt đầu nặng trĩu, khẽ rung lên.
 
 Ngay trước khi hoàn toàn chìm vào giấc mộng, anh chợt nhớ đến cuốn sách khoa học phổ thông về giấc mơ mà mình đã thấy trên bàn làm việc của Thẩm Phi Triết vào tối hôm trước. Sách viết rằng, nếu một người liên tục tự ám thị về một chủ đề cụ thể trước khi ngủ, khả năng cao họ sẽ mơ về chủ đề đó.
 
@@ -110,7 +110,7 @@ Thế nhưng, giọng nói kia vẫn vang lên vô cùng rõ ràng:
 
 "Đừng hoảng sợ," người đó trấn an. "Tôi không phải người xấu. Hãy bình tĩnh lại."
 
-Cố Tùy Châu sững sờ. Anh cảm thấy khung cảnh này quen thuộc một cách kỳ lạ.
+Cố Tùy Châu sững sờ. Cậu cảm thấy khung cảnh này quen thuộc một cách kỳ lạ.
 
 Cảm giác này... thật quá đỗi quen thuộc.
 
@@ -148,9 +148,9 @@ Anh thực sự rất sợ hãi.
 
 Những giọt nước mắt kinh hoàng lăn dài trên gương mặt, anh dùng hết sức bình sinh nắm chặt dây an toàn và gọi tên cha mẹ. Anh thậm chí đã quên mất rằng, họ sẽ chẳng bao giờ có thể đáp lại anh nữa.
 
-Cố Tùy Huệ bất lực nhìn những mảnh vụn không gian đập mạnh vào thân tàu, khiến cả con tàu rung chuyển dữ dội.
+Cố Tùy Châu bất lực nhìn những mảnh vụn không gian đập mạnh vào thân tàu, khiến cả con tàu rung chuyển dữ dội.
 
-Dựa trên những kỹ năng sinh tồn mà Lin Zizhuo đã truyền dạy, Cố Tùy Châu mò mẫm tìm đường đến khoang thoát hiểm trên tàu con thoi. Thế nhưng, những hành khách đang hoảng loạn chen chúc khiến thân hình nhỏ bé của anh hoàn toàn bị kẹt cứng, không thể nhúc nhích.
+Dựa trên những kỹ năng sinh tồn mà Lâm Tử Trác đã truyền dạy, Cố Tùy Châu mò mẫm tìm đường đến khoang thoát hiểm trên tàu con thoi. Thế nhưng, những hành khách đang hoảng loạn chen chúc khiến thân hình nhỏ bé của anh hoàn toàn bị kẹt cứng, không thể nhúc nhích.
 
 Khi các thành viên phi hành đoàn cũng bị cuốn vào cơn hỗn loạn, thảm họa đã lên đến đỉnh điểm.
 
@@ -206,9 +206,9 @@ Anh nắm chặt tay Cố Tùy Châu, vẽ những vòng tròn xung quanh dấu 
 
 "Em phải sống, Cố Tùy Châu."
 
-Cố Tùy Châu không nhận ra họa tiết đó; anh chỉ nhìn thấy nó một lần duy nhất và ký ức đã sớm nhạt nhòa. Tất cả những gì anh biết là sau đó, họ đã thực sự quay trở về.
+Cố Tùy Châu không nhận ra họa tiết đó; cậu chỉ nhìn thấy nó một lần duy nhất và ký ức đã sớm nhạt nhòa. Tất cả những gì anh biết là sau đó, họ đã thực sự quay trở về.
 
-Sau một thời gian dài, anh trở lại Blue Star trong tình trạng hôn mê vì bạo bệnh. Khi tỉnh dậy, anh thấy mình đang nằm ở lối vào khu chung cư của Thẩm Phi Trì.
+Sau một thời gian dài, anh trở lại Blue Star trong tình trạng hôn mê vì bạo bệnh. Khi tỉnh dậy, anh thấy mình đang nằm ở lối vào khu chung cư của Thẩm Phi Triết.
 
 Dù phải đối mặt với những vấn đề sức khỏe mãn tính cùng sự phân hóa thất bại, anh vẫn cố gắng bám víu lấy sự sống.
 
@@ -228,29 +228,29 @@ Một đường ngang…
 
 Một đường thẳng đứng…
 
-Những ngón tay của Gu Suizhou bất giác co giật.
+Những ngón tay của Cố Tùy Châu bất giác co giật.
 
 "Thiếu gia!"
 
-Giọng nói lo lắng của Shen Feizhi vang lên bên tai anh.
+Giọng nói lo lắng của Từ Trọng vang lên bên tai cậu.
 
-Đôi mắt Gu Suizhou mở to.
+Đôi mắt Cố Tùy Châu mở to.
 
-Shen Feizhi lập tức thở phào nhẹ nhõm: "Thiếu gia! Cậu làm tôi sợ chết khiếp! Việc bài tiết pheromone lần này đã khiến cậu hôn mê sâu đấy!"
+Từ Trọng lập tức thở phào nhẹ nhõm: "Thiếu gia! Cậu làm tôi sợ chết khiếp! Việc bài tiết pheromone lần này đã khiến cậu hôn mê sâu đấy!"
 
-Gu Suizhou bật dậy ngay lập tức: "Mấy giờ rồi?"
+Cố Tùy Châu bật dậy ngay lập tức: "Mấy giờ rồi?"
 
 "Đã nửa tháng trôi qua kể từ khi cậu đến đây."
 
 Suốt hai tuần đó, tim Từ Trọng gần như ngừng đập vì lo lắng. "May mắn thay, thuốc đã có tác dụng phần nào. Lần này cậu đã đào thải được khoảng 80% rồi."
 
-Đôi môi Cố Tùy Châu khẽ run rẩy, những ngón tay vẫn điên cuồng vuốt ve một thứ gì đó. Ngay khoảnh khắc tiếp theo, anh loạng choạng rời khỏi giường.
+Đôi môi Cố Tùy Châu khẽ run rẩy, những ngón tay vẫn điên cuồng vuốt ve một thứ gì đó. Ngay khoảnh khắc tiếp theo, cậu loạng choạng rời khỏi giường.
 
 "Điện thoại của tôi! Điện thoại của tôi đâu? Chú Từ! Điện thoại của tôi đâu rồi?"
 
-"Đây, đây." Từ Trọng tuy bối rối nhưng vẫn phản ứng nhanh nhạy, lập tức tìm thấy thiết bị đưa cho anh. "Đã sạc đầy rồi. Cậu có khá nhiều cuộc gọi nhỡ..."
+"Đây, đây." Từ Trọng tuy bối rối nhưng vẫn phản ứng nhanh nhạy, lập tức tìm thấy thiết bị đưa cho cậu. "Đã sạc đầy rồi. Cậu có khá nhiều cuộc gọi nhỡ..."
 
-Cố Tùy Châu thậm chí chẳng buồn nghe ông nói. Đôi mắt đẹp của anh đỏ ngầu đến mức đáng sợ, chân tay tê dại. Chẳng buồn liếc nhìn những tin nhắn hay cuộc gọi nhỡ, những ngón tay lạnh buốt, run rẩy của anh liên tục lướt trên màn hình cho đến khi tìm thấy số liên lạc của Leapton.
+Cố Tùy Châu thậm chí chẳng buồn nghe ông nói. Đôi mắt đẹp của cậu đỏ ngầu đến mức đáng sợ, chân tay tê dại. Chẳng buồn liếc nhìn những tin nhắn hay cuộc gọi nhỡ, những ngón tay lạnh buốt, run rẩy của cậu liên tục lướt trên màn hình cho đến khi tìm thấy số liên lạc của Leapton.
 
 Cuộc gọi được kết nối gần như ngay lập tức. "Alo? Cố Tùy Châu, cuối cùng cậu cũng chịu nghe máy—"
 
@@ -270,7 +270,7 @@ Bàn tay cầm điện thoại của Cố Tùy Châu run lên không ngừng, đ
 
 Leapton không khỏi gặng hỏi: "Này? Cậu còn đó không? Hình xăm đó bị làm sao vậy?"
 
-"Không có gì," Cố Tùy Châu cố gắng thốt lên, giọng nói lạc đi, gần như chính anh cũng chẳng nghe rõ mình đang nói gì. "Tôi lỡ lời thôi. Đó không phải là hình xăm."
+"Không có gì," Cố Tùy Châu cố gắng thốt lên, giọng nói lạc đi, gần như chính cậu cũng chẳng nghe rõ mình đang nói gì. "Tôi lỡ lời thôi. Đó không phải là hình xăm."
 
 "Đó là một vết sẹo."
 

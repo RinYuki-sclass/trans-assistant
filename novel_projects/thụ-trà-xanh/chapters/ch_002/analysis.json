@@ -1,0 +1,247 @@
+{
+  "chapter_summary": "Chương này kể về cuộc gặp gỡ đầu tiên của Thẩm Phi Trĩ với Lâm Tuy và em trai của Lâm Tuy, Lâm Chu, tại tư gia Thẩm gia. Thẩm Phi Trĩ quan sát phong thái ôn hòa của Lâm Tuy và vẻ đẹp nổi bật của Lâm Chu, đồng thời nhận thấy sự chiếm hữu của Lâm Tuy đối với em trai mình. Thẩm lão gia chủ và Thẩm phu nhân (mẹ kế của Thẩm Phi Trĩ) tỏ ra thù địch với Thẩm Phi Trĩ vì thân phận con ngoài giá thú của anh. Lâm Tuy, với tư cách là \"Bác sĩ Lâm\", cố gắng tiến hành kiểm tra cho Thẩm Phi Trĩ, yêu cầu anh cởi áo. Thẩm Phi Trĩ, nhận ra ý định \"yêu từ cái nhìn đầu tiên\" của Lâm Tuy và muốn kiểm tra các nút cố định của thế giới, đã khiêu khích từ chối cởi áo trước mặt mọi người, buộc cuộc kiểm tra phải chuyển vào một căn phòng riêng. Anh cũng nhận thấy \"ham muốn biến thái\" của Lâm Tuy. Trong khi chờ Lâm Tuy di chuyển thiết bị, Thẩm Phi Trĩ chứng kiến cuộc đối thoại giữa Lâm Tuy và Lâm Chu, nơi Lâm Chu ngầm chế nhạo Lâm Tuy. Lâm Chu sau đó đề nghị giúp hiệu chỉnh thiết bị, khiến Thẩm Phi Trĩ ngạc nhiên và thu hút sự chú ý của anh.",
+  "new_characters": [
+    {
+      "name": "Lin Zhou",
+      "hanviet_name": "Lâm Chu",
+      "gender": "male",
+      "role": "Lin Sui's younger brother",
+      "description": "A strikingly beautiful boy, described as ethereally androgynous, with aggressive fox eyes that appear docile. He silently mocks Lin Sui and offers to help calibrate equipment."
+    },
+    {
+      "name": "Madam Shen",
+      "hanviet_name": "Thẩm phu nhân",
+      "gender": "female",
+      "role": "Shen Feizhi's stepmother",
+      "description": "Hostile towards Shen Feizhi due to his illegitimate status, often enjoying his reprimands."
+    },
+    {
+      "name": "Uncle Liao",
+      "hanviet_name": "Chú Liêu",
+      "gender": "male",
+      "role": "Butler of the Shen family",
+      "description": "Observes the interactions, relieved when Shen Feizhi doesn't act out like Shen Wei."
+    }
+  ],
+  "new_locations": [],
+  "new_terms": [
+    {
+      "original": "medical chair",
+      "suggested": "ghế y tế",
+      "hanviet": null,
+      "category": "item",
+      "confidence": 1.0
+    },
+    {
+      "original": "wrist straps",
+      "suggested": "dây đeo cổ tay",
+      "hanviet": null,
+      "category": "item",
+      "confidence": 1.0
+    },
+    {
+      "original": "language textbook",
+      "suggested": "sách giáo khoa ngôn ngữ",
+      "hanviet": null,
+      "category": "item",
+      "confidence": 1.0
+    },
+    {
+      "original": "low-level world",
+      "suggested": "thế giới cấp thấp",
+      "hanviet": null,
+      "category": "other",
+      "confidence": 1.0
+    },
+    {
+      "original": "fixed nodes",
+      "suggested": "nút cố định",
+      "hanviet": null,
+      "category": "other",
+      "confidence": 1.0
+    },
+    {
+      "original": "energy field",
+      "suggested": "trường năng lượng",
+      "hanviet": null,
+      "category": "other",
+      "confidence": 1.0
+    },
+    {
+      "original": "plot deviation",
+      "suggested": "lệch cốt truyện",
+      "hanviet": null,
+      "category": "other",
+      "confidence": 1.0
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "his brother",
+      "suggested": "Lâm Chu",
+      "confidence": 1.0,
+      "question": "Who is 'his brother' referring to in 'Lin Sui despised his younger brother'?",
+      "options": [
+        "Lâm Chu"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_002",
+      "original": "the boy",
+      "suggested": "Lâm Chu",
+      "confidence": 1.0,
+      "question": "Who is 'the boy' referring to in 'The boy in the school uniform beside him must be his brother'?",
+      "options": [
+        "Lâm Chu"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_003",
+      "original": "his brother",
+      "suggested": "Lâm Tuy",
+      "confidence": 1.0,
+      "question": "Who is 'his brother' referring to in 'no wonder his brother bullied him'?",
+      "options": [
+        "Lâm Tuy"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_004",
+      "original": "profligate",
+      "suggested": "Thẩm Phi Trĩ",
+      "confidence": 0.9,
+      "question": "Who is 'that profligate' referring to in the butler's thoughts?",
+      "options": [
+        "Thẩm Phi Trĩ"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_005",
+      "original": "his brother",
+      "suggested": "Thẩm Vĩ",
+      "confidence": 1.0,
+      "question": "Who is 'his brother' referring to in 'follow his brother's example' (butler's thoughts)?",
+      "options": [
+        "Thẩm Vĩ"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_006",
+      "original": "the kid",
+      "suggested": "Lâm Chu",
+      "confidence": 1.0,
+      "question": "Who is 'the kid' referring to in 'pounce on the kid' (butler's thoughts)?",
+      "options": [
+        "Lâm Chu"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_007",
+      "original": "Elder",
+      "suggested": "Thẩm lão gia chủ",
+      "confidence": 1.0,
+      "question": "Who is 'Elder' referring to when Uncle Liao addresses him?",
+      "options": [
+        "Thẩm lão gia chủ"
+      ],
+      "category": "honorific"
+    },
+    {
+      "id": "amb_008",
+      "original": "Second Young Master",
+      "suggested": "Thẩm Phi Trĩ",
+      "confidence": 1.0,
+      "question": "Who is 'Second Young Master' referring to?",
+      "options": [
+        "Thẩm Phi Trĩ"
+      ],
+      "category": "honorific"
+    },
+    {
+      "id": "amb_009",
+      "original": "Madam Shen",
+      "suggested": "Thẩm phu nhân",
+      "confidence": 1.0,
+      "question": "Who is 'Madam Shen' referring to?",
+      "options": [
+        "Thẩm phu nhân"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_010",
+      "original": "Grandpa",
+      "suggested": "Thẩm lão gia chủ",
+      "confidence": 1.0,
+      "question": "Who is 'Grandpa' referring to when Shen Feizhi addresses him?",
+      "options": [
+        "Thẩm lão gia chủ"
+      ],
+      "category": "honorific"
+    },
+    {
+      "id": "amb_011",
+      "original": "Dad",
+      "suggested": "Thẩm lão gia chủ",
+      "confidence": 1.0,
+      "question": "Who is 'Dad' referring to when Madam Shen addresses him?",
+      "options": [
+        "Thẩm lão gia chủ"
+      ],
+      "category": "honorific"
+    },
+    {
+      "id": "amb_012",
+      "original": "Elder Master Shen",
+      "suggested": "Thẩm lão gia chủ",
+      "confidence": 1.0,
+      "question": "Who is 'Elder Master Shen' referring to?",
+      "options": [
+        "Thẩm lão gia chủ"
+      ],
+      "category": "honorific"
+    },
+    {
+      "id": "amb_013",
+      "original": "Doctor Lin",
+      "suggested": "Lâm Tuy",
+      "confidence": 1.0,
+      "question": "Who is 'Doctor Lin' referring to?",
+      "options": [
+        "Lâm Tuy"
+      ],
+      "category": "honorific"
+    },
+    {
+      "id": "amb_014",
+      "original": "the Patriarch",
+      "suggested": "Thẩm lão gia chủ",
+      "confidence": 1.0,
+      "question": "Who is 'the Patriarch' referring to?",
+      "options": [
+        "Thẩm lão gia chủ"
+      ],
+      "category": "honorific"
+    },
+    {
+      "id": "amb_015",
+      "original": "Big Brother",
+      "suggested": "Lâm Tuy",
+      "confidence": 1.0,
+      "question": "Who is 'Big Brother' referring to when Lâm Chu addresses him?",
+      "options": [
+        "Lâm Tuy"
+      ],
+      "category": "honorific"
+    }
+  ],
+  "chapter_id": "ch_002",
+  "analyzed_at": "2026-09-20T15:35:41.392767+07:00"
+}

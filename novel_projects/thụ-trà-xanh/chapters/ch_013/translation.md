@@ -144,7 +144,7 @@ Cố Tùy Châu nói một ngày sẽ về, nhưng cả cuối tuần đó cậu
 
 "Trông cậu như sắp chết đến nơi rồi," Thẩm Phi Triết nói, nhìn quầng thâm dưới mắt cậu, khẽ gõ bàn. "Cả cuối tuần thức trắng à?"
 
-"Anh ơi, em mệt rã rời hai ngày nay rồi," Cố Tùy Châu rên rỉ, nằm vật ra bàn như một con vật không xương. "Anh không thể thông cảm cho em trước à? Em bị Lâm Tuỳ bắt được rồi."
+"Anh ơi, em mệt rã rời hai ngày nay rồi," Cố Tùy Châu rên rỉ, nằm vật ra bàn như một con vật không xương. "Anh không thể thông cảm cho em trước à? Em bị Lâm Tùy bắt được rồi."
 
 Thẩm Phi Triết lập tức ngồi thẳng dậy.
 
@@ -347,30 +347,30 @@ Mộng tỉnh, ác mộng, mộng thức, mộng ngủ, mộng vui, mộng sợ 
 Người giải mộng có thể giải mã những bí mật ẩn giấu trong giấc mơ, khám phá những điềm báo của chúng.
 Thuê một người giải mộng chân chính không hề dễ dàng; trước tiên, người đó phải sở hữu khối tài sản khổng lồ.
 Người bình thường chỉ có thể ngắm nhìn từ xa với ánh mắt thèm muốn.
-Nhưng Lâm Tuỳ Ý, xuất thân từ một gia đình bình thường, đã từng gặp một người giải mộng chân chính.
+Nhưng Lâm Tùy Ý, xuất thân từ một gia đình bình thường, đã từng gặp một người giải mộng chân chính.
 Người giải mộng đó mở một cửa tiệm ở cuối con phố cậu sống, nơi mà hôm nay có khách hàng là người nổi tiếng, ngày mai lại là tài phiệt giàu có, xe sang xếp hàng dài trước cửa mỗi ngày.
-Lâm Tuỳ Ý thỉnh thoảng lại lén nhìn vào cửa tiệm và bắt gặp hình ảnh người giải mộng—nhợt nhạt, xa cách và tan vỡ…
-Đêm đó, Lâm Tuỳ Ý gặp ác mộng. Trong mơ, người giải mộng đã làm những chuyện không thể nói thành lời với cậu, những lời cầu xin tha thứ trong nước mắt của cậu đều bị bỏ ngoài tai.
-Giật mình tỉnh giấc từ cơn ác mộng, tay Lâm Tuỳ Ý khẽ run lên khi cậu vươn tay lấy một điếu thuốc.
+Lâm Tùy Ý thỉnh thoảng lại lén nhìn vào cửa tiệm và bắt gặp hình ảnh người giải mộng—nhợt nhạt, xa cách và tan vỡ…
+Đêm đó, Lâm Tùy Ý gặp ác mộng. Trong mơ, người giải mộng đã làm những chuyện không thể nói thành lời với cậu, những lời cầu xin tha thứ trong nước mắt của cậu đều bị bỏ ngoài tai.
+Giật mình tỉnh giấc từ cơn ác mộng, tay Lâm Tùy Ý khẽ run lên khi cậu vươn tay lấy một điếu thuốc.
 
 Cậu lập tức gom hết tiền tiết kiệm, tìm đến người giải mộng để được giải đáp.
 
 Một người khác, mặt mũi kinh hoàng, kêu lên:
 "Sư phụ! Con mơ thấy một con rắn quấn quanh người con, nuốt chửng đầu con chỉ trong một ngụm!"
 
-Lâm Tuỳ Ý cũng sợ hãi không kém, lắp bắp nói:
+Lâm Tùy Ý cũng sợ hãi không kém, lắp bắp nói:
 "S-sư phụ, con mơ thấy người nhốt con… rồi nuốt chửng cả người con chỉ trong một ngụm!"
 
 Người giải mộng đối xử với tất cả khách hàng như nhau. Giấc mơ đầy rẫy hiểm nguy, nhưng không phải là hoàn toàn không thể giải mã. Ông ta sẽ không tùy tiện bước vào một giấc mơ nào.
 
-Khi ông ta nhìn Lâm Tuỳ Ý…
+Khi ông ta nhìn Lâm Tùy Ý…
 
 "Ta phải đi vào giấc mơ của cậu."
 
-Lâm Tuỳ Ý sợ hãi hỏi:
+Lâm Tùy Ý sợ hãi hỏi:
 "C-có tốn tiền không ạ?"
 
 Người giải mộng đáp:
 "Cậu định trả bao nhiêu?"
 
-Lâm Tuỳ Ý: "…?" Khoan đã, có gì đó không đúng ở đây.
+Lâm Tùy Ý: "…?" Khoan đã, có gì đó không đúng ở đây.

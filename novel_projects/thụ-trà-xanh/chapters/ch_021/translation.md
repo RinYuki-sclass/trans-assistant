@@ -14,7 +14,7 @@ Từ Trọng đã phải tốn bao công sức để tìm mua đủ loại thu�
 
 Nghe tin Cố Tùy Châu tái phát, giọng điệu bình tĩnh thường ngày của Từ Trọng lập tức trở nên cảnh giác: "Chuyện gì đã xảy ra? Khi nào? Cậu có làm mình bị thương không?"
 
-"Chú Hứa đừng lo, cháu không sao cả." Cố Tùy Châu đáp, giọng điệu vẫn ôn hòa như mọi khi. "Đêm hôm nọ, đột nhiên mất điện khiến căn phòng chìm trong bóng tối. Cháu không phản ứng kịp, lại thêm việc đã lâu không dùng thuốc nên mới mất kiểm soát."
+"Chú Trọng đừng lo, cháu không sao cả." Cố Tùy Châu đáp, giọng điệu vẫn ôn hòa như mọi khi. "Đêm hôm nọ, đột nhiên mất điện khiến căn phòng chìm trong bóng tối. Cháu không phản ứng kịp, lại thêm việc đã lâu không dùng thuốc nên mới mất kiểm soát."
 
 Từ Trọng sững sờ: "Không còn chuyện gì khác xảy ra sao?"
 
@@ -94,29 +94,29 @@ Cố Tùy Châu không nghe rõ, nghiêng đầu hỏi: "Anh lầm bầm cái g�
 
 "Không có gì," Lai Cẩu đáp nhanh, thừa biết không nên lặp lại lời tự sát vừa rồi. "Chỉ đang khen cậu đẹp trai thôi."
 
-Sau khi dọn dẹp nhà bếp thêm một chút và thấy trời đã khuya, Lai Cẩu chào tạm biệt để rời đi. Trước khi bước ra cửa, anh cố liếc nhìn Thẩm Phi Triết lần cuối, nhưng Cố Tùy Châu đã chặn đứng tầm mắt anh, cảnh báo rằng Thẩm Phi Triết vốn là người rất khó ngủ.
+Sau khi dọn dẹp nhà bếp thêm một chút và thấy trời đã khuya, Lai Cẩu chào tạm biệt để rời đi. Trước khi bước ra cửa, cậu ta cố liếc nhìn Thẩm Phi Triết lần cuối, nhưng Cố Tùy Châu đã chặn đứng tầm mắt, cảnh báo rằng Thẩm Phi Triết vốn là người rất khó ngủ.
 
 Hai người họ đến vội vàng rồi cũng rời đi nhanh chóng.
 
 Giờ đây, ngoài bóng người đang say giấc nồng bên trong, Cố Tùy Châu thực sự chỉ còn lại một mình.
 
-Anh nhìn chằm chằm vào hộp giữ nhiệt, cảm thấy nó ngày càng trở nên thừa thãi. "Lai Cẩu nói đây là chứa đựng tình yêu của cậu ta," Cố Tùy Châu nghĩ thầm. Nếu Thẩm Phi Triết thực sự tỉnh dậy vì đói, mình nhất định phải đảm bảo anh ta ăn hết sạch miếng "tình yêu" đó.
+Cậu nhìn chằm chằm vào hộp giữ nhiệt, cảm thấy nó ngày càng trở nên thừa thãi. "Lai Cẩu nói đây là chứa đựng tình yêu của cậu ta," Cố Tùy Châu nghĩ thầm. Nếu Thẩm Phi Triết thực sự tỉnh dậy vì đói, mình nhất định phải đảm bảo anh ấy ăn hết sạch miếng "tình yêu" đó.
 
 Cố Tùy Châu không khỏi thầm mắng, tên này đúng là có lỗi với Thẩm Phi Triết! Nhưng nghĩ lại thì thật nực cười, kiểu "yêu" này chỉ tổ rước thêm phiền phức!
 
-Để đáp lại thứ tình cảm đặt sai chỗ của Lai Cẩu, Cố Tùy Châu quyết tâm với tinh thần hy sinh cao cả, anh vơ lấy sợi mì rồi vội vàng nuốt chửng trong vài ngụm. Ăn xong, anh chụp lại cái bát trống không gửi cho Lai Cẩu, sau đó tắt thông báo rồi ném điện thoại sang một bên đầy thỏa mãn.
+Để đáp lại thứ tình cảm đặt sai chỗ của Lai Cẩu, Cố Tùy Châu quyết tâm với tinh thần hy sinh cao cả, cậu vơ lấy sợi mì rồi vội vàng nuốt chửng trong vài ngụm. Ăn xong, cậu chụp lại cái bát trống không gửi cho Lai Cẩu, sau đó tắt thông báo rồi ném điện thoại sang một bên đầy thỏa mãn.
 
 Chuyện Thẩm Phi Triết cần ăn uống mà cũng phải ồn ào đến mức này sao? Nếu anh ấy tỉnh dậy đói bụng, mình chẳng phải có thể nấu mì gói cho anh ấy sao? Mình cũng biết nấu ăn mà!
 
 Hài lòng với bữa ăn "cứu vớt" của mình, tâm trạng Cố Tùy Châu vui vẻ hẳn lên.
 
-Suy nghĩ một lát, anh lại bước vào phòng ngủ của Thẩm Phi Triết, lặng lẽ ngồi xổm bên giường, ánh mắt nóng rực dán chặt vào gáy người đàn ông đang vùi đầu vào gối.
+Suy nghĩ một lát, cậu lại bước vào phòng ngủ của Thẩm Phi Triết, lặng lẽ ngồi xổm bên giường, ánh mắt nóng rực dán chặt vào gáy người đàn ông đang vùi đầu vào gối.
 
 Có người tắm rửa gội đầu xong là leo thẳng lên giường mà chẳng thèm sấy khô, như thể không sợ sáng mai thức dậy đầu đau như búa bổ, chẳng thể rời khỏi giường. Những sợi tóc ẩm ướt rũ xuống cổ, nước từ cổ áo chảy tràn, thấm đẫm bộ đồ ngủ cotton trắng. Lớp vải mỏng dính sát vào da thịt, làm lộ ra làn da nhợt nhạt bên dưới.
 
 Cố Tùy Châu nán lại ánh mắt.
 
-Anh thầm nghĩ, mấy gã Alpha kiêu ngạo này lúc nào cũng chỉ mặc độc hai màu đen trắng, thật là nhàm chán! Đặc biệt là Thẩm Phi Triết, sở hữu gương mặt như vậy mà ngày thường lại ăn mặc giản dị đến mức lãng phí.
+Cậu thầm nghĩ, mấy gã Alpha kiêu ngạo này lúc nào cũng chỉ mặc độc hai màu đen trắng, thật là nhàm chán! Đặc biệt là Thẩm Phi Triết, sở hữu gương mặt như vậy mà ngày thường lại ăn mặc giản dị đến mức lãng phí.
 
 Cố Tùy Châu thầm "tsukkomi" trong lòng một câu, rồi vươn tay vặn chỉnh máy điều nhiệt tăng thêm một độ.
 
@@ -134,9 +134,9 @@ Khả năng ấy không bao giờ là bẩm sinh; ngay cả những Alpha cấp 
 
 Một tia cảm xúc thoáng qua trong mắt Cố Tùy Châu.
 
-Bàn tay giấu trong túi áo anh lặng lẽ nắm chặt món đồ chơi bằng gỗ đã tách làm hai nửa. Anh khẽ xoa nhẹ nó hai cái rồi mới từ từ thả lỏng tay.
+Bàn tay giấu trong túi áo cậu lặng lẽ nắm chặt món đồ chơi bằng gỗ đã tách làm hai nửa. Cậu khẽ xoa nhẹ nó hai cái rồi mới từ từ thả lỏng tay.
 
-Anh không thể nhớ lại chuyện gì đã xảy ra vào cái đêm mình bị loạn thần, nhưng anh nhớ rất rõ mùi cà phê đắng của pheromone tràn ngập căn phòng sau khi tỉnh lại—thứ mùi hương không thể nhầm lẫn.
+Cậu không thể nhớ lại chuyện gì đã xảy ra vào cái đêm mình bị loạn thần, nhưng cậu nhớ rất rõ mùi cà phê đắng của pheromone tràn ngập căn phòng sau khi tỉnh lại—thứ mùi hương không thể nhầm lẫn.
 
 *Lần này tình trạng của mình nhẹ nhàng hơn, liệu có phải là nhờ pheromone của người đàn ông này?*
 
@@ -146,25 +146,25 @@ Chỉ cách mặt Thẩm Phi Triết một nắm tay, Cố Tùy Châu đột nhi
 
 Đây là phản xạ bản năng – cơ thể tự bỏ qua mệnh lệnh của não bộ để phản ứng tức thì trước mối nguy hiểm cận kề. Ngoài những nhân viên đặc nhiệm, hiếm có ai sở hữu phản xạ căng thẳng cấp tính đến thế.
 
-Cố Tùy Châu không hề nghi ngờ, chỉ cần anh nhích lại gần thêm một milimet, người đàn ông trước mặt sẽ lập tức tỉnh giấc, thậm chí có thể khiến anh bị đánh tơi tả.
+Cố Tùy Châu không hề nghi ngờ, chỉ cần cậu nhích lại gần thêm một milimet, người đàn ông trước mặt sẽ lập tức tỉnh giấc, thậm chí có thể khiến cậu bị đánh tơi tả.
 
-Anh khôn ngoan thay đổi hướng đi, thay vào đó chỉ vuốt thẳng tấm chăn bên cạnh cánh tay và vai Thẩm Phi Triết, cẩn thận chèn lại cho kín.
+Cậu khôn ngoan thay đổi hướng đi, thay vào đó chỉ vuốt thẳng tấm chăn bên cạnh cánh tay và vai Thẩm Phi Triết, cẩn thận chèn lại cho kín.
 
 Thẩm Phi Triết nguy hiểm hơn bất kỳ ai mà Cố Tùy Châu từng gặp. Lúc này, hành động liều lĩnh là điều không thể.
 
-Cố Tùy Châu đứng dậy, tùy ý lật qua cuốn sách đang đọc dở trên bàn. Sau khi xác nhận nội dung của nó hoàn toàn vô hại, anh mới đặt nó về vị trí cũ.
+Cố Tùy Châu đứng dậy, tùy ý lật qua cuốn sách đang đọc dở trên bàn. Sau khi xác nhận nội dung của nó hoàn toàn vô hại, cậu mới đặt nó về vị trí cũ.
 
 Tôi thực sự lo ngại rằng gã này có thể đang đọc mấy thứ đồi trụy về giết người phóng hỏa trong lúc say khướt.
 
-Nhớ lại những hành động của Thẩm Phi Triết tối nay, khóe mắt Cố Tùy Châu cong lên một nụ cười thầm lặng. Sau khi liếc nhìn Thẩm Phi Triết lần cuối, anh quay người rời khỏi phòng.
+Nhớ lại những hành động của Thẩm Phi Triết tối nay, khóe mắt Cố Tùy Châu cong lên một nụ cười thầm lặng. Sau khi liếc nhìn Thẩm Phi Triết lần cuối, cậu quay người rời khỏi phòng.
 
 Cố Tùy Châu không hề hay biết.
 
 Khoảnh khắc cánh cửa vừa khép lại, người nằm trên giường đã mở bừng mắt.
 
-Hắn cử động cánh tay, rút nó ra khỏi mép chăn mà Cố Tùy Châu đã cẩn thận chèn kỹ, rồi khéo léo giấu con dao khắc gỗ nhỏ vào trong tay áo.
+Anh cử động cánh tay, rút nó ra khỏi mép chăn mà Cố Tùy Châu đã cẩn thận chèn kỹ, rồi khéo léo giấu con dao khắc gỗ nhỏ vào trong tay áo.
 
-Sau khi mọi thứ đã được thu xếp gọn gàng, hắn điều chỉnh lại tư thế ngủ ban đầu và nhẹ nhàng nhắm mắt lại lần nữa.
+Sau khi mọi thứ đã được thu xếp gọn gàng, anh điều chỉnh lại tư thế ngủ ban đầu và nhẹ nhàng nhắm mắt lại lần nữa.
 
 Khi Thẩm Phi Triết thức dậy vào lúc bảy giờ rưỡi sáng hôm sau, Cố Tùy Châu đã đi từ lúc nào.
 
@@ -188,7 +188,7 @@ Anh nhớ lại cảnh tượng trên đường phố trước khi loạng cho�
 
 "Có lẽ là một trong những người thân tín của Cố Tùy Châu," Thẩm Phi Triết trầm ngâm.
 
-Mặc dù Lin Zizhuo và Gu Lang đã qua đời, nhưng họ chắc chắn đã để lại mạng lưới quan hệ cho con mình.
+Mặc dù Lâm Tử Trác và Gu Lang đã qua đời, nhưng họ chắc chắn đã để lại mạng lưới quan hệ cho con mình.
 
 Trong cốt truyện gốc, gia đình họ có một người quản gia lâu năm đã chăm sóc họ từ nhỏ. Anh tự hỏi liệu người đó có phải là ông ta hay không.
 
@@ -365,17 +365,17 @@ Thẩm Phi Triết nhàn nhã quan sát từng biến chuyển tinh vi trên gư
 
 Vị giám đốc cứng giọng đáp: "Không phải!"
 
-"Vậy thì giải quyết đi thôi." Thẩm Phi Triết gật đầu. "Để tôi đoán lại lần nữa: người tố cáo tôi chính là đại diện cổ đông lớn nhất của W.N, Lin Sui, đúng không?"
+"Vậy thì giải quyết đi thôi." Thẩm Phi Triết gật đầu. "Để tôi đoán lại lần nữa: người tố cáo tôi chính là đại diện cổ đông lớn nhất của W.N, Lâm Tùy, đúng không?"
 
 Vị giám đốc lại im lặng.
 
 Nàng từ chối phản hồi.
 
-Lý do Lin Sui tố cáo anh rất đơn giản.
+Lý do Lâm Tùy tố cáo anh rất đơn giản.
 
-Những "mong muốn" của gã kia chẳng qua chỉ là những ảo tưởng về dục vọng và chiếm hữu. Nếu trong ảnh không có Cố Tùy Châu, khả năng chịu đựng của Lin Sui đối với anh có lẽ vẫn còn cao. Nhưng một khi Thẩm Phi Triết đe dọa đến lợi ích của Lin Sui, những "mong muốn" đó lập tức trở nên vô giá trị.
+Những "mong muốn" của gã kia chẳng qua chỉ là những ảo tưởng về dục vọng và chiếm hữu. Nếu trong ảnh không có Cố Tùy Châu, khả năng chịu đựng của Lâm Tùy đối với anh có lẽ vẫn còn cao. Nhưng một khi Thẩm Phi Triết đe dọa đến lợi ích của Lâm Tùy, những "mong muốn" đó lập tức trở nên vô giá trị.
 
-Nếu như trước đây, rơi vào tay Lin Sui chỉ đồng nghĩa với việc trở thành một món đồ chơi trên giường, ít nhất về thể xác vẫn còn nguyên vẹn, thì giờ đây, điều đó có khả năng dẫn đến kết cục mà Cố Tùy Châu từng mô tả: biến thành một con búp bê sống dở chết dở.
+Nếu như trước đây, rơi vào tay Lâm Tùy chỉ đồng nghĩa với việc trở thành một món đồ chơi trên giường, ít nhất về thể xác vẫn còn nguyên vẹn, thì giờ đây, điều đó có khả năng dẫn đến kết cục mà Cố Tùy Châu từng mô tả: biến thành một con búp bê sống dở chết dở.
 
 Thẩm Phi Triết xác nhận lại nghi vấn của mình: "Đúng như tôi nghĩ. Vậy để tôi thử đoán tiếp—"
 
@@ -446,11 +446,11 @@ Cùng lúc đó, tại một phòng vệ sinh đơn, Ritter đang thực hiện 
 
 "Alo? Bác Ritter?" Giọng nói cố tình trầm xuống của chàng trai vang lên qua tai nghe.
 
-"Ừm, ta nghe đây," Ritter đáp, giọng cũng hạ thấp xuống. "Chu Châu bảo bối, đừng lo lắng. Người mà em nhờ ta để mắt tới chắc chắn sẽ ổn thôi. Ngay cả Giám đốc cũng đánh giá rất cao năng lực của cậu ta."
+"Ừm, ta nghe đây," Ritter đáp, giọng cũng hạ thấp xuống. "Châu Châu bảo bối, đừng lo lắng. Người mà em nhờ ta để mắt tới chắc chắn sẽ ổn thôi. Ngay cả Giám đốc cũng đánh giá rất cao năng lực của cậu ta."
 
-Cách đó hàng dặm, tại khu biệt thự quận 9 Blue Star, trong một căn biệt thự nằm ở góc khuất, Cố Tùy Châu siết chặt thiết bị thông minh trong tay đến mức nổi rõ gân xanh trên mu bàn tay. Biểu cảm của anh vặn vẹo dữ dội.
+Cách đó hàng dặm, tại khu biệt thự quận 9 Blue Star, trong một căn biệt thự nằm ở góc khuất, Cố Tùy Châu siết chặt thiết bị thông minh trong tay đến mức nổi rõ gân xanh trên mu bàn tay. Biểu cảm của cậu vặn vẹo dữ dội.
 
-Chết tiệt! Sau ngần ấy thời gian, anh vẫn không sao quen được với những cái tên thân mật mà Ritter đặt cho mọi người.
+Chết tiệt! Sau ngần ấy thời gian, cậu vẫn không sao quen được với những cái tên thân mật mà Ritter đặt cho mọi người.
 
 Cố Tùy Châu mím môi, đè nén ý muốn phản bác, lễ phép đáp: "Cảm ơn bác, lại làm phiền bác rồi."
 
@@ -458,11 +458,11 @@ Cố Tùy Châu mím môi, đè nén ý muốn phản bác, lễ phép đáp: "C
 
 "Thật sao?" Cố Tùy Châu đáp lại một cách mơ hồ.
 
-Cách đây không lâu, anh bất ngờ được Ritter thông báo rằng một trợ lý nghiên cứu mới tên là Thẩm Triết vừa gia nhập viện, còn bản thân Thẩm Phi Triết thì vừa mới được thăng chức.
+Cách đây không lâu, cậu bất ngờ được Ritter thông báo rằng một trợ lý nghiên cứu mới tên là Thẩm Triết vừa gia nhập viện, còn bản thân Thẩm Phi Triết thì vừa mới được thăng chức.
 
 Thật là một sự trùng hợp đầy may mắn.
 
-"Tuyệt đối!" Ritter phấn khích kêu lên. "Chu Châu bảo bối, em không thể tin được tiểu Thẩm lại có sức quyến rũ đến thế đâu! Cậu ta chính là viên ngọc sáng nhất mà ta từng thấy!"
+"Tuyệt đối!" Ritter phấn khích kêu lên. "Châu Châu bảo bối, em không thể tin được tiểu Thẩm lại có sức quyến rũ đến thế đâu! Cậu ta chính là viên ngọc sáng nhất mà ta từng thấy!"
 
 "Chú Ritter, khi nào rảnh chú thực sự nên ôn lại tiếng Trung của mình đi," Cố Tùy Châu thở dài, "Được rồi, tôi hiểu rồi. Từ giờ trở đi, phiền chú chăm sóc anh Thẩm thật tốt giúp tôi nhé."
 
@@ -472,7 +472,7 @@ Cố Tùy Châu rùng mình trong lòng: "......"
 
 Thật sự không cần thiết phải ví von như vậy.
 
-Sau vài câu xã giao vui vẻ, Cố Tùy Châu kết thúc cuộc gọi. Khi màn hình quay lại giao diện chính, anh thấy tin nhắn mới từ Thẩm Phi Triết.
+Sau vài câu xã giao vui vẻ, Cố Tùy Châu kết thúc cuộc gọi. Khi màn hình quay lại giao diện chính, cậu thấy tin nhắn mới từ Thẩm Phi Triết.
 
 Không thể liên lạc trong vài ngày?
 
@@ -480,23 +480,23 @@ Ritter vừa nói anh ấy vẫn ổn, vậy nên chắc chắn không phải ta
 
 Cố Tùy Châu thở phào nhẹ nhõm.
 
-Hoàn hảo. Dù sao mấy ngày tới anh cũng bận, chẳng cần phải tìm lý do thoái thác.
+Hoàn hảo. Dù sao mấy ngày tới cậu cũng bận, chẳng cần phải tìm lý do thoái thác.
 
-Nắm được tình hình, anh không gặng hỏi chi tiết. Thay vào đó, anh nhanh chóng tìm và tải xuống bộ sticker "Cáo nhỏ gật đầu hôn gió", gửi kèm một loạt tin nhắn: Hôn hôn, Nổi giận, Lăn lộn, Bướng bỉnh. Sau đó, anh tắt màn hình.
+Nắm được tình hình, cậu không gặng hỏi chi tiết. Thay vào đó, cậu nhanh chóng tìm và tải xuống bộ sticker "Cáo nhỏ gật đầu hôn gió", gửi kèm một loạt tin nhắn: Hôn hôn, Nổi giận, Lăn lộn, Bướng bỉnh. Sau đó, cậu tắt màn hình.
 
 "Chú Trọng, thuốc chuẩn bị xong chưa?"
 
 "Sắp rồi, Thiếu gia. Đợi thêm một lát nữa thôi."
 
-Xu Zhong vẫn trầm mặc như mọi khi, đứng trước dãy chai lọ ngổn ngang, tỉ mỉ thao tác với các ống tiêm, tiếng thủy tinh va chạm lanh lảnh vang lên.
+Từ Trọng vẫn trầm mặc như mọi khi, đứng trước dãy chai lọ ngổn ngang, tỉ mỉ thao tác với các ống tiêm, tiếng thủy tinh va chạm lanh lảnh vang lên.
 
-Cố Tùy Châu nằm ngửa trên ghế y tế, mùi thuốc sát trùng nồng nặc xộc thẳng vào mũi khiến anh thấy khó chịu. Anh với lấy một viên kẹo cao su vị chanh muối biển trên đĩa gần đó, dùng một tay xé vỏ rồi nhét vào miệng. Vị cam quýt sảng khoái lan tỏa trên đầu lưỡi, đánh thức vị giác và xoa dịu thần kinh, cuối cùng mang lại cảm giác dễ chịu hơn đôi chút.
+Cố Tùy Châu nằm ngửa trên ghế y tế, mùi thuốc sát trùng nồng nặc xộc thẳng vào mũi khiến cậu thấy khó chịu. Cậu với lấy một viên kẹo cao su vị chanh muối biển trên đĩa gần đó, dùng một tay xé vỏ rồi nhét vào miệng. Vị cam quýt sảng khoái lan tỏa trên đầu lưỡi, đánh thức vị giác và xoa dịu thần kinh, cuối cùng mang lại cảm giác dễ chịu hơn đôi chút.
 
-Sáng nay, trước khi Thẩm Phi Triết tỉnh lại, anh đã cố tình dậy từ lúc bình minh, bắt chuyến tàu tốc hành đầy rủi ro đến quận Chín chỉ để thử loại thuốc mới mà Xu Zhong nhắc đến—nghe nói có tác dụng điều hòa pheromone.
+Sáng nay, trước khi Thẩm Phi Triết tỉnh lại, cậu đã cố tình dậy từ lúc bình minh, bắt chuyến tàu tốc hành đầy rủi ro đến quận Chín chỉ để thử loại thuốc mới mà Từ Trọng nhắc đến—nghe nói có tác dụng điều hòa pheromone.
 
-Nguyên liệu thô vừa được mua về gần đây, bác sĩ riêng của anh đã dành hàng tuần để tinh chỉnh thành phiên bản mới nhất này, được thiết kế riêng cho nhu cầu của anh. Cũng vì loại thuốc này mà Xu Zhong, người vốn đang trên đường đến hệ thống sao thứ mười, đã phải quay trở lại giữa chừng.
+Nguyên liệu thô vừa được mua về gần đây, bác sĩ riêng của cậu đã dành hàng tuần để tinh chỉnh thành phiên bản mới nhất này, được thiết kế riêng cho nhu cầu của cậu. Cũng vì loại thuốc này mà Từ Trọng, người vốn đang trên đường đến hệ thống sao thứ mười, đã phải quay trở lại giữa chừng.
 
-Xu Zhong nhìn Cố Tùy Châu thản nhiên cởi áo, để lộ sống lưng chi chít vết kim, không giấu nổi vẻ xót xa trong ánh mắt.
+Từ Trọng nhìn Cố Tùy Châu thản nhiên cởi áo, để lộ sống lưng chi chít vết kim, không giấu nổi vẻ xót xa trong ánh mắt.
 
 Cố Tùy Châu vốn dĩ không phải là kẻ vô dụng, chỉ là mọi chuyện đều có nguyên do của nó.
 
@@ -504,7 +504,7 @@ Chẳng ai hay biết Cố Tùy Châu thực chất là một thiên tài. Ngay 
 
 Vị thiếu gia trẻ tuổi rơi vào cảnh mồ côi, cuộc đời tan nát. Trong một phút giây lầm lỡ, cậu bỏ trốn biệt tăm hơn nửa năm trời, để rồi khi trở về, chẳng còn là vị thiếu gia kiêu hãnh ngày nào.
 
-Xu Zhong vẫn nhớ như in ngày tìm thấy cậu cách đây chín năm. Đó là một ngày mưa tầm tã, gương mặt cậu lấm lem bùn đất, khắp người gần như chẳng còn lấy một tấc da lành lặn, ngay cả… ngay cả phần gáy sưng tấy và tổn thương nghiêm trọng kia.
+Từ Trọng vẫn nhớ như in ngày tìm thấy cậu cách đây chín năm. Đó là một ngày mưa tầm tã, gương mặt cậu lấm lem bùn đất, khắp người gần như chẳng còn lấy một tấc da lành lặn, ngay cả… ngay cả phần gáy sưng tấy và tổn thương nghiêm trọng kia.
 
 Cố Tùy Châu rõ ràng đã khác xưa. Nhưng dường như, sự thay đổi ấy lại là một thất bại ê chề.
 

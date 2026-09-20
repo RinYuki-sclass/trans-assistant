@@ -118,13 +118,13 @@ Như thể đang trốn tránh điều gì đó, Thẩm lão gia nói xong liề
 
 Thẩm Phi Triết đứng bất động, thong thả chỉnh lại cổ áo, cất giọng bình thản: "Lý do?"
 
-"Bởi vì Thẩm gia cần con." Anh cả Thẩm tuyên bố, giọng điệu không cho phép tranh cãi. "Thẩm Phi Triết, con không còn đường lui đâu. Nếu con bằng lòng, cánh cửa Thẩm gia sẽ luôn rộng mở đón con trở về. Trong di sản của gia tộc, chắc chắn sẽ có một phần dành cho con."
+"Bởi vì Thẩm gia cần con." Trưởng lão Thẩm tuyên bố, giọng điệu không cho phép tranh cãi. "Thẩm Phi Triết, con không còn đường lui đâu. Nếu con bằng lòng, cánh cửa Thẩm gia sẽ luôn rộng mở đón con trở về. Trong di sản của gia tộc, chắc chắn sẽ có một phần dành cho con."
 
 Sự thay đổi thái độ đột ngột này thật… thú vị.
 
 "Con phải đánh đổi điều gì?" anh hỏi.
 
-"Không cần đánh đổi gì cả," Anh cả Thẩm nói, giọng điệu như đang trấn an. "Đừng kết hôn với tiểu tử nhà họ Lâm đó. Tiểu Chỉ, nhà họ Thẩm và nhà họ Lâm vốn có mối thâm thù từ trước. Hai người không hợp nhau, không thể ở bên nhau được. Chờ con trở về, ta sẽ sắp xếp cho con một mối hôn nhân xứng đáng hơn."
+"Không cần đánh đổi gì cả," Trưởng lão Thẩm nói, giọng điệu như đang trấn an. "Đừng kết hôn với tiểu tử nhà họ Lâm đó. Tiểu Chỉ, nhà họ Thẩm và nhà họ Lâm vốn có mối thâm thù từ trước. Hai người không hợp nhau, không thể ở bên nhau được. Chờ con trở về, ta sẽ sắp xếp cho con một mối hôn nhân xứng đáng hơn."
 
 Nói cách khác, họ muốn dùng anh làm quân cờ cho một cuộc hôn nhân chính trị?
 
@@ -136,23 +136,23 @@ Nghiêng người nhìn qua vai Thẩm lão gia, anh thấy Cố Tùy Châu đan
 
 *Đồ khốn kiếp! Đây chính là cách cốt truyện bắt đầu khi mọi thứ dần đi vào quỹ đạo sao!*
 
-Thẩm Phi Triết không còn tâm trí nào để diễn kịch với Anh cả Thẩm nữa. "Tôi cần thời gian để cân nhắc việc này."
+Thẩm Phi Triết không còn tâm trí nào để diễn kịch với Trưởng lão Thẩm nữa. "Tôi cần thời gian để cân nhắc việc này."
 
-Câu trả lời của anh không hẳn là điều Anh cả Thẩm mong đợi, nhưng cũng coi như có thể chấp nhận được. "Một tháng. Ta sẽ đợi câu trả lời của con."
+Câu trả lời của anh không hẳn là điều Trưởng lão Thẩm mong đợi, nhưng cũng coi như có thể chấp nhận được. "Một tháng. Ta sẽ đợi câu trả lời của con."
 
 Thẩm Phi Triết gật đầu. "Nhưng thưa ông, nếu con đồng ý, liệu con có được quyền bày tỏ ý kiến trong việc lựa chọn bạn đời của mình không?"
 
 Thẩm lão gia tò mò hỏi: "Ý con là sao? Tối nay ở đây có ai lọt vào mắt xanh của con à?"
 
-"Cũng không hẳn." Thẩm Phi Triết khẽ vân vê ngón tay, giọng điệu đầy ẩn ý. "Đã lâu rồi con mới gặp lại cô Lục Thiến, con nhận thấy cô ấy thậm chí còn xinh đẹp hơn cả thời chúng ta còn nhỏ."
+"Cũng không hẳn." Thẩm Phi Triết khẽ vân vê ngón tay, giọng điệu đầy ẩn ý. "Đã lâu rồi con mới gặp lại cô Lục Khiêm, con nhận thấy cô ấy thậm chí còn xinh đẹp hơn cả thời chúng ta còn nhỏ."
 
-Anh cả Thẩm sững người một lúc trước khi hiểu ra ý tứ của anh. "Ta sẽ cân nhắc."
+Trưởng lão Thẩm sững người một lúc trước khi hiểu ra ý tứ của anh. "Ta sẽ cân nhắc."
 
 "Vậy thì một tháng nữa, con sẽ liên lạc với ông."
 
 Cố Tùy Châu đã bị đám người này quấy rầy gần một tiếng đồng hồ.
 
-Vốn dĩ hắn định ngoan ngoãn đứng ở cửa chờ Thẩm Phi Triết, nhưng mục tiêu còn chưa tới, hắn đã bị một nhóm người khác phục kích. Mọi chuyện bắt đầu từ việc vài Omega cảm thấy ngứa mắt trước ánh nhìn của đối phương, thế là họ tìm đến gây sự. Sau vài lần bị "chiếc lưỡi bạc" huyền thoại của Cố Tùy Châu vặn cho cứng họng, họ liền gọi cả đám Alpha và Beta của mình tới tiếp viện.
+Vốn dĩ cậu định ngoan ngoãn đứng ở cửa chờ Thẩm Phi Triết, nhưng mục tiêu còn chưa tới, cậu đã bị một nhóm người khác phục kích. Mọi chuyện bắt đầu từ việc vài Omega cảm thấy ngứa mắt trước ánh nhìn của đối phương, thế là họ tìm đến gây sự. Sau vài lần bị "chiếc lưỡi bạc" huyền thoại của Cố Tùy Châu vặn cho cứng họng, họ liền gọi cả đám Alpha và Beta của mình tới tiếp viện.
 
 Một Omega không ngừng huyên thuyên, miệng lưỡi chẳng hề nghỉ ngơi: “Nói thật nhé, nhìn cái bản mặt hồ ly tinh kia kìa, chắc lại vừa chộp được ông bố nhếch nhác nào rồi.”
 
@@ -164,9 +164,9 @@ Cố Tùy Châu: “……”
 
 Các người không thể tự tổ chức một cuộc thi “khoe chồng” mà không làm phiền đến tôi sao? So sánh đàn ông với nhau thì có gì đáng tự hào? Trước khi có quyền lên tiếng, chẳng phải các người nên tự đấu tranh với chính mình trước à? Omega không thể có chút lòng tự trọng nào sao?
 
-Hắn không hiểu. Hắn thực sự, thực sự không thể hiểu nổi.
+Cậu không hiểu. Cậu thực sự, thực sự không thể hiểu nổi.
 
-Điều khiến hắn khó hiểu hơn nữa là tại sao mấy gã Alpha hôi hám đang được tán tụng kia lại mang vẻ mặt kiêu ngạo kiểu “làm cha thiên hạ” như vậy! Hắn thậm chí còn chẳng buồn cạnh tranh. Nếu hắn mà phải cạnh tranh…
+Điều khiến cậu khó hiểu hơn nữa là tại sao mấy gã Alpha hôi hám đang được tán tụng kia lại mang vẻ mặt kiêu ngạo kiểu “làm cha thiên hạ” như vậy! Cậu thậm chí còn chẳng buồn cạnh tranh. Nếu cậu mà phải cạnh tranh…
 
 “Lục đại ca của tôi còn có thể thổi vòng khói hoàn hảo đấy!”
 
@@ -174,7 +174,7 @@ Cố Tùy Châu: “……”
 
 Mẹ kiếp! Đám này điên hết rồi à?!
 
-Cuối cùng, hắn cũng mất kiên nhẫn: “Các người có thể ngừng làm trò cười vì mấy thứ vô nghĩa này được không? Anh trai tôi là Alpha cấp cao nhất — trên người có hình xăm Thanh Long Bạch Hổ, thu nhập tám con số mỗi tháng, sở hữu biệt thự cùng xe sang, uống liền hai mươi chai Soju mà chẳng đổ một giọt mồ hôi!”
+Cuối cùng, cậu cũng mất kiên nhẫn: “Các người có thể ngừng làm trò cười vì mấy thứ vô nghĩa này được không? Anh trai tôi là Alpha cấp cao nhất — trên người có hình xăm Thanh Long Bạch Hổ, thu nhập tám con số mỗi tháng, sở hữu biệt thự cùng xe sang, uống liền hai mươi chai Soju mà chẳng đổ một giọt mồ hôi!”
 
 Lời vừa dứt, cả căn phòng chìm vào im lặng như tờ.
 
@@ -182,11 +182,11 @@ Thẩm Phi Triết vừa tới nơi, bỏ lỡ mất màn kịch hay nhất. Nh�
 
 Vừa nhìn thấy anh, trong lòng Cố Tùy Châu bỗng chốc dâng lên nỗi hoảng hốt: “Anh… Anh Thẩm.”
 
-Thẩm Phi Triết còn chưa kịp phản ứng, hàng chục ánh mắt đầy sát khí lẫn kinh ngạc đã đồng loạt đổ dồn về phía hắn.
+Thẩm Phi Triết còn chưa kịp phản ứng, hàng chục ánh mắt đầy sát khí lẫn kinh ngạc đã đồng loạt đổ dồn về phía anh.
 
-Cố Tùy Châu lao tới, bám lấy cánh tay anh với vẻ nũng nịu đầy giả tạo: "Feizhi-gege~"
+Cố Tùy Châu lao tới, bám lấy cánh tay anh với vẻ nũng nịu đầy giả tạo: "Anh Phi Triết~"
 
-"Biến đi. Đừng có bám lấy tôi, cậu làm tôi nổi da gà đấy." Thẩm Phi Triết đẩy hắn ra, thoáng chốc ngẩn người: "Họ là ai vậy…?"
+"Biến đi. Đừng có bám lấy tôi, cậu làm tôi nổi da gà đấy." Thẩm Phi Triết đẩy cậu ra, thoáng chốc ngẩn người: "Họ là ai vậy…?"
 
 "Ồ?" Một gã đàn ông với mái tóc nhuộm màu sặc sỡ cười khẩy: "Hai mươi chai, là cậu đúng không?"
 
@@ -220,7 +220,7 @@ Thẩm Phi Triết nghiến răng: "Cố Tùy Châu, cậu—"
 
 Thẩm Phi Triết hít sâu một hơi.
 
-Cố Tùy Châu vẫn không dừng lại, anh ta giật lấy ly rượu từ tay Thẩm Phi Triết, lấy hết can đảm tuyên bố: "Nhìn này, đừng lo lắng. Để tôi uống. Tôi sẽ đối đầu với bọn họ. Còn cậu..."
+Cố Tùy Châu vẫn không dừng lại, cậu giật lấy ly rượu từ tay Thẩm Phi Triết, lấy hết can đảm tuyên bố: "Nhìn này, đừng lo lắng. Để em uống. Em sẽ đối đầu với bọn họ. Còn anh..."
 
 "Ồ, sợ rồi à? Định để cục cưng uống thay cho mình sao?"
 
@@ -236,17 +236,17 @@ Thẩm Phi Triết dùng một tay ngăn Cố Tùy Châu đưa ly rượu lên m
 
 Khi anh hơi ngửa đầu ra sau, một giọt rượu tràn ra từ khóe môi, trượt dài xuống đường quai hàm sắc sảo.
 
-Như bị một lực vô hình thôi thúc, Cố Tùy Châu đưa ngón cái ra lau đi giọt rượu ấy. Anh chợt thấy hối hận vì hôm nay mình lại đeo găng tay.
+Như bị một lực vô hình thôi thúc, Cố Tùy Châu đưa ngón cái ra lau đi giọt rượu ấy. Cậu chợt thấy hối hận vì hôm nay mình lại đeo găng tay.
 
 "Mẹ kiếp, tiếp tục đi—"
 
-"Không cần tiếp tục nữa." Thẩm Phi Triết cau mày cắt ngang những tiếng ồn ào xung quanh. Những ngón tay mảnh khảnh của anh cong lên, giật mạnh chiếc cà vạt trên cổ Cố Tùy Châu rồi ném về phía anh. "Buộc nó vào cổ tay tôi đi."
+"Không cần tiếp tục nữa." Thẩm Phi Triết cau mày cắt ngang những tiếng ồn ào xung quanh. Những ngón tay mảnh khảnh của anh cong lên, giật mạnh chiếc cà vạt trên cổ Cố Tùy Châu rồi ném về phía cậu. "Buộc nó vào cổ tay tôi đi."
 
 "Uống rượu chẳng giải quyết được vấn đề gì cả. Để tôi giải quyết chuyện này bằng nắm đấm."
 
 Một giờ sau.
 
-"Chúa ơi, anh Shen, lúc nãy ở ngoài đó anh ngầu quá đi mất!"
+"Chúa ơi, anh Thẩm, lúc nãy ở ngoài đó anh ngầu quá đi mất!"
 
 Nếu không phải Cố Tùy Châu phản ứng nhanh, kịp thời kéo Thẩm Phi Triết ra khỏi cuộc ẩu đả, thì hôm nay gia đình Thẩm chắc chắn phải cần đến ít nhất ba chiếc xe cứu thương mới đủ.
 
@@ -258,7 +258,7 @@ Tất nhiên, chẳng ai trong số họ dành sự chú ý cho Thẩm Phi Tri�
 
 Phản ứng của Thẩm Phi Triết vẫn hoàn toàn lãnh đạm: “Ừm.”
 
-"Cậu bình tĩnh thật đấy," Cố Tùy Châu nhận xét, vẻ đầy ấn tượng. "Chắc hẳn trước đây cậu từng đánh nhau nhiều lắm phải không? À, cũng may là cậu đã quấn cà vạt quanh tay, nếu không thì chắc chắn đã bị thương rồi."
+"Anh bình tĩnh thật đấy," Cố Tùy Châu nhận xét, vẻ đầy ấn tượng. "Chắc hẳn trước đây anh từng đánh nhau nhiều lắm phải không? À, cũng may là anh đã quấn cà vạt quanh tay, nếu không thì chắc chắn đã bị thương rồi."
 
 Thẩm Phi Triết vẫn giữ nguyên vẻ lạnh lùng: “Ừm.”
 
@@ -266,7 +266,7 @@ Thẩm Phi Triết vẫn giữ nguyên vẻ lạnh lùng: “Ừm.”
 
 "Anh Thẩm."
 
-“Anh đã ra mặt vì em, đúng không~?” Thấy Thẩm Phi Triết không hề phản kháng, Cố Tùy Châu được đà lấn tới. Chiếc răng khểnh của hắn lấp lánh, hắn hào hứng nũng nịu: "Em yêu anh nhiều lắm~"
+“Anh đã ra mặt vì em, đúng không~?” Thấy Thẩm Phi Triết không hề phản kháng, Cố Tùy Châu được đà lấn tới. Chiếc răng khểnh của cậu lấp lánh, cậu hào hứng nũng nịu: "Em yêu anh nhiều lắm~"
 
 Thẩm Phi Triết: “Ừm.”
 

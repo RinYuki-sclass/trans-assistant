@@ -1,0 +1,162 @@
+{
+  "chapter_summary": "Thẩm Phi Trĩ, một \"Quản lý viên\" từ một không gian cấp cao hơn, bất ngờ bị mắc kẹt vĩnh viễn trong cơ thể của một \"Đứa con của định mệnh\" tại một Thế giới ABO Liên sao. Kênh năng lượng của anh đã sụp đổ, cắt đứt liên lạc với Tinh Cầu Chính. Anh nhận ra mình đang ở trong một tiểu thuyết H nặng, \"Quyển 6/9\", nơi Thẩm Phi Trĩ nguyên bản là một người con ngoài giá thú của Mạnh Lãng, trở thành một Alpha thành công nhờ quan hệ với nhiều Omega và Beta. Hiện tại, anh đang ở trong Thẩm gia cổ trạch không có hệ thống sưởi giữa mùa đông lạnh giá. Quản gia Liêu Thần thông báo rằng Thẩm lão gia và phu nhân đang đợi anh ở tầng dưới cùng với Bác sĩ Lâm Tuy để kiểm tra kỳ phân hóa. Thẩm Phi Trĩ nhớ lại Lâm Tuy là thành viên hậu cung đầu tiên của nguyên chủ và cảm thấy ghê tởm với những mô tả S/M trong truyện. Anh nhận ra vẻ ngoài cực kỳ đẹp trai của mình có thể sẽ thu hút Lâm Tuy giống như nguyên chủ. Khi xuống cầu thang xoắn ốc tám tầng (một hình thức \"thể phạt\" từ Thẩm lão gia), Quản gia Liêu tiết lộ rằng thang máy bị hỏng do một \"tai nạn\" liên quan đến Đại thiếu gia và em trai của Bác sĩ Lâm Tuy, ngụ ý một vụ tấn công tình dục hoặc hành vi không phù hợp. Thẩm Phi Trĩ bày tỏ sự ghê tởm trước sự thiếu kiểm soát của Đại thiếu gia.",
+  "new_characters": [
+    {
+      "name": "Liao Chen",
+      "hanviet_name": "Liêu Thần",
+      "gender": "Male",
+      "role": "Butler",
+      "description": "The butler of the Shen family, referred to as 'Uncle Liao'. He is the only person in the Shen family who treats the original owner with decency."
+    },
+    {
+      "name": "Meng Lang",
+      "hanviet_name": "Mạnh Lãng",
+      "gender": "Male",
+      "role": "Biological father of the original Shen Feizhi",
+      "description": "Deceased, ruined his health through excessive debauchery."
+    },
+    {
+      "name": "Eldest Young Master",
+      "hanviet_name": null,
+      "gender": "Male",
+      "role": "Eldest son of the Shen family",
+      "description": "Implied to be promiscuous and lacking self-control, involved in an 'accident' with Lin Sui's younger brother."
+    },
+    {
+      "name": "Doctor Lin's younger brother",
+      "hanviet_name": null,
+      "gender": "Male",
+      "role": "Lin Sui's younger brother",
+      "description": "Described as having an 'exquisite' face, involved in an 'accident' with the Eldest Young Master."
+    }
+  ],
+  "new_locations": [
+    {
+      "name": "Shen family's old mansion",
+      "hanviet": "Thẩm gia cổ trạch",
+      "description": "The tallest villa in the First District, with eight floors and a spiral staircase, currently unheated. It serves as the main setting for the current events."
+    }
+  ],
+  "new_terms": [
+    {
+      "original": "Manager",
+      "suggested": "Quản lý viên",
+      "hanviet": "Quản lý viên",
+      "category": "other",
+      "confidence": 1.0
+    },
+    {
+      "original": "key nodes",
+      "suggested": "điểm nút then chốt",
+      "hanviet": null,
+      "category": "other",
+      "confidence": 1.0
+    },
+    {
+      "original": "present",
+      "suggested": "phân hóa",
+      "hanviet": "phân hóa",
+      "category": "terminology",
+      "confidence": 1.0
+    },
+    {
+      "original": "high-smut novel",
+      "suggested": "tiểu thuyết H nặng",
+      "hanviet": null,
+      "category": "other",
+      "confidence": 1.0
+    },
+    {
+      "original": "stud horse",
+      "suggested": "ngựa giống",
+      "hanviet": null,
+      "category": "other",
+      "confidence": 1.0
+    },
+    {
+      "original": "corporal punishment",
+      "suggested": "thể phạt",
+      "hanviet": "thể phạt",
+      "category": "other",
+      "confidence": 1.0
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "Second Young Master",
+      "suggested": "Nhị thiếu gia",
+      "confidence": 1.0,
+      "question": "How should 'Second Young Master' be consistently translated?",
+      "options": [
+        "Nhị thiếu gia",
+        "Cậu chủ hai",
+        "Thiếu gia thứ hai"
+      ],
+      "category": "honorific"
+    },
+    {
+      "id": "amb_002",
+      "original": "Elder Shen and the Madam",
+      "suggested": "Thẩm lão gia và phu nhân",
+      "confidence": 1.0,
+      "question": "How should 'Elder Shen' and 'Madam' be translated in this context?",
+      "options": [
+        "Thẩm lão gia, Lão gia Thẩm",
+        "Phu nhân, Thẩm phu nhân"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_003",
+      "original": "Elder Master Shen",
+      "suggested": "Thẩm lão gia",
+      "confidence": 1.0,
+      "question": "How should 'Elder Master Shen' be consistently translated?",
+      "options": [
+        "Thẩm lão gia",
+        "Lão gia Thẩm"
+      ],
+      "category": "honorific"
+    },
+    {
+      "id": "amb_004",
+      "original": "Shen Father's first wife",
+      "suggested": "Chính thất của Thẩm phụ",
+      "confidence": 1.0,
+      "question": "How to refer to this character consistently?",
+      "options": [
+        "Chính thất của Thẩm phụ",
+        "Thẩm phu nhân"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_005",
+      "original": "Eldest Young Master",
+      "suggested": "Đại thiếu gia",
+      "confidence": 1.0,
+      "question": "How should 'Eldest Young Master' be consistently translated?",
+      "options": [
+        "Đại thiếu gia",
+        "Cậu chủ lớn",
+        "Thiếu gia cả"
+      ],
+      "category": "honorific"
+    },
+    {
+      "id": "amb_006",
+      "original": "Doctor Lin",
+      "suggested": "Bác sĩ Lâm",
+      "confidence": 1.0,
+      "question": "How should 'Doctor Lin' be consistently translated?",
+      "options": [
+        "Bác sĩ Lâm",
+        "Lâm bác sĩ"
+      ],
+      "category": "honorific"
+    }
+  ],
+  "chapter_id": "ch_001",
+  "analyzed_at": "2026-09-20T15:34:59.735605+07:00"
+}

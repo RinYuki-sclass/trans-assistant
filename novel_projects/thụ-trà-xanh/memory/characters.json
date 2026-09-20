@@ -104,13 +104,13 @@
   {
     "name": "Lu Qian",
     "hanviet_name": "Lục Khiêm",
-    "gender": "Nam",
+    "gender": "Nữ",
     "aliases": [
       "Lục Khiêm"
     ],
-    "honorifics": "tôi - anh",
+    "honorifics": "tôi - anh / em - anh",
     "speech_style": "Yếu ớt, dịu dàng",
-    "notes": "Thanh mai trúc mã của Thẩm Vĩ, vị hôn thê giả của Thẩm Phi Triết, mắc bệnh tim."
+    "notes": "Thanh mai trúc mã của Thẩm Vĩ, vị hôn thê giả của Thẩm Phi Triết, Omega nữ mắc chứng rối loạn tuyến mùi/bệnh tim."
   },
   {
     "name": "Xu Zhong",
@@ -333,5 +333,79 @@
     "honorifics": "nó",
     "speech_style": "Gâu gâu",
     "notes": "Chú chó cún của Cố Tùy Châu và Thẩm Phi Triết."
+  },
+  {
+    "name": "Madam Shen",
+    "hanviet_name": "Thẩm phu nhân",
+    "gender": "Nữ",
+    "aliases": [
+      "Thẩm lão phu nhân",
+      "Bà Thẩm",
+      "Thẩm phu nhân"
+    ],
+    "honorifics": "phu nhân",
+    "speech_style": "Trang trọng, quý phái",
+    "notes": "Vợ của Thẩm lão gia chủ, mẹ của Thẩm Vĩ, chủ mẫu Thẩm gia."
+  },
+  {
+    "name": "Madam Lu",
+    "hanviet_name": "Lục phu nhân",
+    "gender": "Nữ",
+    "aliases": [
+      "Lục phu nhân",
+      "Bà Lục",
+      "Mẹ Lục Khiêm"
+    ],
+    "honorifics": "bà / phu nhân",
+    "speech_style": "Lo lắng, cảm xúc",
+    "notes": "Mẹ ruột của Lục Khiêm, đến cầu cứu Thẩm Phi Triết chữa trị cho con gái."
+  },
+  {
+    "name": "Liao Chen",
+    "hanviet_name": "Liêu Thần",
+    "gender": "Nam",
+    "aliases": [
+      "Chú Liễu",
+      "Liêu Thần",
+      "Uncle Liao"
+    ],
+    "honorifics": "chú Liễu",
+    "speech_style": "Điềm đạm, khiêm nhường nhưng uy nghiêm",
+    "notes": "Quản gia / người hầu cận thân tín lâu năm của Thẩm lão gia chủ."
+  },
+  {
+    "name": "K7",
+    "hanviet_name": "K7",
+    "gender": "Nam",
+    "aliases": [
+      "K7"
+    ],
+    "honorifics": "ngài",
+    "speech_style": "Thực dụng, quyền uy",
+    "notes": "Viên chức cấp cao từ Tổng cục Hành chính Sao Chính, cấp trên trực tiếp của C2 và A11."
+  },
+  {
+    "name": "Lan Luozhi",
+    "hanviet_name": "Lam Lạc Chi",
+    "gender": "Nữ",
+    "aliases": [
+      "Lan Luozhi",
+      "Lam Lạc Chi"
+    ],
+    "honorifics": "cô",
+    "speech_style": "Độc lập, cá tính",
+    "notes": "Nữ Omega có độ tương thích pheromone 100% với Thẩm Phi Triết theo hệ thống ghép đôi Liên Bang."
+  },
+  {
+    "name": "Mr. Zhang",
+    "hanviet_name": "Trương tiên sinh",
+    "gender": "Nam",
+    "aliases": [
+      "Trương tiên sinh",
+      "Mr. Zhang"
+    ],
+    "honorifics": "ông / tiên sinh",
+    "speech_style": "Lịch thiệp, thương nghiệp",
+    "notes": "Khách hàng / đối tác cung cấp mẫu sản phẩm hợp tác với W.N của Cố Tùy Châu."
   }
 ]

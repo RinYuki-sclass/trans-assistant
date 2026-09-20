@@ -102,7 +102,7 @@ Cậu quay người lại, ánh mắt rực lửa nhìn chằm chằm người �
 
 Leapton rùng mình. “Lão Cố, ánh mắt cậu… hơi đáng sợ đấy.”
 
-Cố Tùy Châu siết chặt vai anh ta. “Nhanh lên! Gọi điện cho Lâm Tuỳ!”
+Cố Tùy Châu siết chặt vai anh ta. “Nhanh lên! Gọi điện cho Lâm Tùy!”
 
 Leapton: “?”
 
@@ -110,7 +110,7 @@ Cố Tùy Châu: “Chỉ cần nói Thẩm Phi Triết đang ở cổng trườ
 
 Nói rồi, cậu giật lấy áo khoác và lao ra khỏi cửa.
 
-Chỉ còn lại Leapton trong căn phòng riêng nhỏ, chớp mắt bối rối khi gọi số liên lạc của Lâm Tuỳ. Anh ta không thể gạt bỏ suy nghĩ dai dẳng:
+Chỉ còn lại Leapton trong căn phòng riêng nhỏ, chớp mắt bối rối khi gọi số liên lạc của Lâm Tùy. Anh ta không thể gạt bỏ suy nghĩ dai dẳng:
 
 Sao cái tên Cố Tùy Châu vừa nói lại nghe giống tên crush của mình đến thế nhỉ?
 
@@ -139,32 +139,32 @@ Thẩm Phi Triết khẽ nhíu mày khi nghe thấy âm thanh đó. Anh xoay đi
 Anh khoanh tay, khẽ xoay người.
 "Bác sĩ Lâm, trùng hợp thật."
 
-"Đúng vậy, trùng hợp thật!" Lâm Tuỳ thở hổn hển chạy tới, đôi mắt lấp lánh như sao sáng rực nhìn Thẩm Phi Triết. "Tôi thật không ngờ lại gặp được cậu ở đây."
+"Đúng vậy, trùng hợp thật!" Lâm Tùy thở hổn hển chạy tới, đôi mắt lấp lánh như sao sáng rực nhìn Thẩm Phi Triết. "Tôi thật không ngờ lại gặp được cậu ở đây."
 
-Khi nhận được tin nhắn bí ẩn kia, ban đầu anh ta không tin. Nhưng sau đó anh ta nghĩ: người gửi tin nhắn bằng cách nào đó đã có được thông tin liên lạc của mình và biết tên Thẩm Phi Triết, lại còn cố tình thông báo cho anh ta. Chắc hẳn họ phải có thủ đoạn khác thường. Lâm Tuỳ không có thời gian suy nghĩ về động cơ của người gửi tin. Anh ta chỉ biết rằng nếu không gặp lại Thẩm Phi Triết, trạng thái tinh thần của mình sẽ hoàn toàn sụp đổ. Dù sao đi nữa, trong căn hầm kia còn có mấy người trông giống Thẩm Phi Triết đến kinh ngạc, số phận của họ vẫn chưa rõ.
+Khi nhận được tin nhắn bí ẩn kia, ban đầu anh ta không tin. Nhưng sau đó anh ta nghĩ: người gửi tin nhắn bằng cách nào đó đã có được thông tin liên lạc của mình và biết tên Thẩm Phi Triết, lại còn cố tình thông báo cho anh ta. Chắc hẳn họ phải có thủ đoạn khác thường. Lâm Tùy không có thời gian suy nghĩ về động cơ của người gửi tin. Anh ta chỉ biết rằng nếu không gặp lại Thẩm Phi Triết, trạng thái tinh thần của mình sẽ hoàn toàn sụp đổ. Dù sao đi nữa, trong căn hầm kia còn có mấy người trông giống Thẩm Phi Triết đến kinh ngạc, số phận của họ vẫn chưa rõ.
 
 Khi Thẩm Phi Triết chạm mắt với anh ta, những lời của Cố Tùy Châu chợt lóe lên trong đầu anh. Anh lùi lại một bước, giọng nói đầy vẻ khinh thường.
 "Anh muốn gì?"
 
-Lâm Tuỳ xoa xoa hai bàn tay lạnh ngắt vào nhau.
+Lâm Tùy xoa xoa hai bàn tay lạnh ngắt vào nhau.
 "Chỉ là đi ngang qua thôi. Thấy cậu ở đây nên muốn chào hỏi một tiếng."
 
 "Chúng ta chưa thân thiết đến mức đó," Thẩm Phi Triết lạnh lùng nói, lời lẽ tàn nhẫn hết mức có thể, cốt để anh ta hiểu rõ ý mình. "Anh có thể đi được rồi."
 
 Thẩm Phi Triết nghĩ, thằng nhóc Cố Tùy Châu chắc chắn đang vội vã quay về trường sau khi thấy tin nhắn của mình. Sẽ tệ lắm nếu bọn họ chạm mặt nhau.
 
-Lâm Tuỳ giả vờ như không nghe thấy, tò mò nhìn cổng trường.
+Lâm Tùy giả vờ như không nghe thấy, tò mò nhìn cổng trường.
 "Nhị thiếu gia đến trường muộn thế này là có việc gì sao?"
 
 Thẩm Phi Triết gõ gõ vào cánh tay mình.
 "Đến để đắm mình trong bầu không khí tri thức."
 
-Có vẻ như Lâm Tuỳ không biết Cố Tùy Châu học ở trường này. Điều gì đã khiến hai anh em này trở nên thù hằn sâu sắc đến vậy?
+Có vẻ như Lâm Tùy không biết Cố Tùy Châu học ở trường này. Điều gì đã khiến hai anh em này trở nên thù hằn sâu sắc đến vậy?
 
 Thẩm Phi Triết cụp mi mắt, đột nhiên cúi người sát lại gần, cho đến khi ánh mắt hai người chạm nhau.
 "Nhắc mới nhớ, hôm nay tôi có ghé qua Thành phố Ngầm và thấy một người trông giống hệt bác sĩ Lâm."
 
-Ngay khi những lời đó thốt ra, đồng tử của Lâm Tuỳ co rút lại rõ rệt. Anh ta cố gắng giữ giọng bình tĩnh.
+Ngay khi những lời đó thốt ra, đồng tử của Lâm Tùy co rút lại rõ rệt. Anh ta cố gắng giữ giọng bình tĩnh.
 "Nhị thiếu gia, chắc cậu đã nhận nhầm người rồi."
 
 "Nhận nhầm người sao?" Thẩm Phi Triết không truy hỏi thêm, chỉ khẽ khàng nhắc đến rồi lại bỏ qua. "Có lẽ vậy."
@@ -254,7 +254,7 @@ Thẩm Phi Triết nhếch mép cười, hài lòng khi Cố Tùy Châu đã nu�
 Cố Tùy Châu nghiến răng.
 "Sao anh lại có thông tin liên lạc của giáo viên tôi?"
 
-"Sáng nay tôi đã tra rồi. Một giáo viên xuất sắc như của cậu thì dễ tìm thôi," Thẩm Phi Triết nói, khoanh tay sau lưng với nụ cười đầy ẩn ý. "Hay là… tôi biết cậu đã gọi cho Lâm Tuỳ để câu giờ?"
+"Sáng nay tôi đã tra rồi. Một giáo viên xuất sắc như của cậu thì dễ tìm thôi," Thẩm Phi Triết nói, khoanh tay sau lưng với nụ cười đầy ẩn ý. "Hay là… tôi biết cậu đã gọi cho Lâm Tùy để câu giờ?"
 
 Trường cấp Ba nằm ở một vùng hẻo lánh, đặc biệt rợn người vào ban đêm. Ngoài tiếng động cơ của bảo vệ AI ở cổng chính, sự tĩnh lặng đáng sợ như một cảnh trong phim kinh dị.
 

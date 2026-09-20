@@ -72,31 +72,31 @@ Vậy tại sao không đặt mục tiêu cao hơn?
 
 Cố Tùy Châu đột nhiên cảm thấy tràn đầy tham vọng. Anh muốn trở thành học sinh đứng đầu toàn khối! Và chướng ngại vật lớn nhất trên con đường này chính là môn Lịch sử. Nếu không chinh phục được nó, anh sẽ chẳng bao giờ chạm tay vào vị trí đầu bảng.
 
-Cố Tùy Châu hít một hơi thật sâu, giả vờ đánh rơi bút. Anh cúi người xuống, những ngón tay khéo léo lướt qua chạm vào mắt cá chân của Thẩm Phi Triết.
+Cố Tùy Châu hít một hơi thật sâu, giả vờ đánh rơi bút. Cậu cúi người xuống, những ngón tay khéo léo lướt qua chạm vào mắt cá chân của Thẩm Phi Triết.
 
-Thẩm Phi Triết hạ tầm mắt, liếc nhìn anh bằng ánh mắt trịch thượng. Tên nhóc này rốt cuộc lại đang giở trò quỷ gì?
+Thẩm Phi Triết hạ tầm mắt, liếc nhìn cậu bằng ánh mắt trịch thượng. Tên nhóc này rốt cuộc lại đang giở trò quỷ gì?
 
-Vẫn giữ tư thế cúi người, Cố Tùy Châu tận dụng góc khuất tầm nhìn của giám thị, ngẩng đầu lên, trầm giọng hỏi: "Chị gái à, chị có biết hết đáp án không?"
+Vẫn giữ tư thế cúi người, Cố Tùy Châu tận dụng góc khuất tầm nhìn của giám thị, ngẩng đầu lên, trầm giọng hỏi: "Anh ơi, anh có biết hết đáp án không?"
 
 Thẩm Phi Triết gật đầu đầy thẳng thắn: "Dễ ợt."
 
 Cố Tùy Châu nhìn chằm chằm vào đối phương với vẻ hoài nghi. Anh chàng này mới học được bảy ngày! Tại sao khoảng cách giữa người với người lại có thể lớn đến thế cơ chứ?!
 
-Anh nở một nụ cười ngoan ngoãn, ngọt xớt: "Chị gái ơi, em có thể chép bài của chị không?"
+Cậu nở một nụ cười ngoan ngoãn, ngọt xớt: "Anh ơi, em có thể chép bài của anh không?"
 
 Thẩm Phi Triết lạnh lùng quay mặt đi, chẳng buồn đoái hoài.
 
 Cố Tùy Châu: "..."
 
-Không chịu bỏ cuộc, anh nắm lấy mắt cá chân của Thẩm Phi Triết qua lớp vải quần rồi lắc nhẹ. Anh chàng này gầy quá—dù đang mặc quần, anh gần như có thể vòng tay ôm trọn lấy mắt cá chân mảnh khảnh ấy.
+Không chịu bỏ cuộc, cậu nắm lấy mắt cá chân của Thẩm Phi Triết qua lớp vải quần rồi lắc nhẹ. Người này gầy quá—dù đang mặc quần, cậu gần như có thể vòng tay ôm trọn lấy mắt cá chân mảnh khảnh ấy.
 
-Thẩm Phi Triết mất kiên nhẫn, đá tay anh ra.
+Thẩm Phi Triết mất kiên nhẫn, đá tay cậu ra.
 
 "Cút đi, không tôi báo cáo đấy."
 
 Cố Tùy Châu hừ một tiếng, phồng má ra vẻ giận dỗi: "Anh thật vô tâm!"
 
-Thẩm Phi Triết hoàn toàn ngó lơ hắn.
+Thẩm Phi Triết hoàn toàn ngó lơ cậu.
 
 Cố Tùy Châu tặc lưỡi, những ngón tay nhanh nhẹn luồn vào dưới ống quần Thẩm Phi Triết, đầu ngón tay vẽ những vòng tròn vô tận quanh xương mắt cá chân anh.
 
@@ -104,9 +104,9 @@ Thẩm Phi Triết: “……”
 
 Một cảm giác mát lạnh, mỏng manh râm ran truyền đến từ mắt cá chân. Anh hạ tầm mắt xuống, nheo mắt cảnh cáo.
 
-Không hề nản lòng, Cố Tùy Châu cười toe toét: "Anh Thẩm, anh có biết sắp tới có kỳ thi ngoại ngữ không? Tôi thực sự rất cần môn đó. Lần trước tôi nộp giấy trắng, lần này lại bị kẹt đúng phòng thi cũ. Hay là chúng ta lập nhóm đi?"
+Không hề nản lòng, Cố Tùy Châu cười toe toét: "Anh Thẩm, anh có biết sắp tới có kỳ thi ngoại ngữ không? Em thực sự rất cần môn đó. Lần trước em nộp giấy trắng, lần này lại bị kẹt đúng phòng thi cũ. Hay là chúng ta lập nhóm đi?"
 
-Hắn biết Thẩm Phi Triết không thể nói được tiếng Liên bang chuẩn, vì chính người này mới đây còn hỏi mượn hắn cuốn sách giáo khoa lớp một.
+Cậu biết Thẩm Phi Triết không thể nói được tiếng Liên bang chuẩn, vì chính người này mới đây còn hỏi mượn cậu cuốn sách giáo khoa lớp một.
 
 Với trí óc nhạy bén và trí nhớ siêu phàm, có lẽ Thẩm Phi Triết có thể nhồi nhét lịch sử trong bảy ngày mất ngủ. Nhưng ngoại ngữ không phải là thứ có thể học cấp tốc trong phút chốc.
 
@@ -122,7 +122,7 @@ Sau hai giây cân nhắc ngắn gọn, anh quyết đoán gõ lên mặt bàn: 
 
 Cố Tùy Châu cười đắc thắng.
 
-Hắn chỉnh lại tư thế, dùng người học sinh ngồi phía trước làm tấm chắn, thận trọng đưa tay về phía Thẩm Phi Triết.
+Cậu chỉnh lại tư thế, dùng người học sinh ngồi phía trước làm tấm chắn, thận trọng đưa tay về phía Thẩm Phi Triết.
 
 Thẩm Phi Triết đẩy tờ đáp án đã hoàn thành của mình sang.
 
@@ -156,7 +156,7 @@ May mắn thay, kỳ thi vẫn còn chút thời gian. Cố Tùy Châu nhăn nh�
 
 Bài thi ngoại ngữ chiều hôm đó là môn cuối cùng. Khi chuông reo, Thẩm Phi Triết và Cố Tùy Châu đồng thời bước ra khỏi phòng thi.
 
-—Bởi lẽ sau khi Cố Tùy Châu bị chấn thương đùi trong bài kiểm tra lịch sử buổi sáng, anh đã nhất quyết yêu cầu Thẩm Phi Triết phải chịu trách nhiệm dìu mình.
+—Bởi lẽ sau khi Cố Tùy Châu bị chấn thương đùi trong bài kiểm tra lịch sử buổi sáng, cậu đã nhất quyết yêu cầu Thẩm Phi Triết phải chịu trách nhiệm dìu mình.
 
 Thẩm Phi Triết khinh khỉnh một tay chống đỡ cánh tay Cố Tùy Châu: "Chỉ ngã đơn giản thôi mà cậu cũng bị thương nặng thế này à? Mười bảy tuổi đầu mà cơ thể cứ như ông lão bảy mươi mốt vậy."
 
@@ -164,11 +164,11 @@ Vẻ mặt Cố Tùy Châu vừa nhếch mép vừa nhăn nhó: "Chỉ là một
 
 Thẩm Phi Triết suy nghĩ một lát, rồi im lặng.
 
-Tuần trước, sau khi Cố Tùy Châu ngu ngốc chen vào khung cửa, Thẩm Phi Triết đã cho anh một trận. Trong lúc xô xát, Cố Tùy Châu đã vấp phải bàn cà phê, để lại một vết bầm tím từ thắt lưng trái xuống tận đùi — một cú va chạm suýt chút nữa đã khiến anh phải nhập viện.
+Tuần trước, sau khi Cố Tùy Châu ngu ngốc chen vào khung cửa, Thẩm Phi Triết đã cho cậu một trận. Trong lúc xô xát, Cố Tùy Châu đã vấp phải bàn cà phê, để lại một vết bầm tím từ thắt lưng trái xuống tận đùi — một cú va chạm suýt chút nữa đã khiến cậu phải nhập viện.
 
 Cố Tùy Châu nghiêng người lại gần, giọng đầy ẩn ý: "Bây giờ nhớ ra chưa?"
 
-Thẩm Phi Triết liếc hắn một cái lạnh lùng: "Muốn ăn thêm một bài học nữa à?"
+Thẩm Phi Triết liếc cậu một cái lạnh lùng: "Muốn ăn thêm một bài học nữa à?"
 
 Cố Tùy Châu hừ nhẹ một tiếng, thẳng lưng đứng dậy.
 
@@ -178,7 +178,7 @@ Chẳng lẽ cuối cùng hắn cũng tra ra được trường học của Cố
 
 Chân mày Thẩm Phi Triết hơi nhíu lại.
 
-Cố Tùy Châu phản ứng cực nhanh, lập tức vòng tay ôm lấy Thẩm Phi Triết đầy tình tứ. Trước khi đối phương kịp phản xạ đẩy ra, hắn đã ghé sát tai anh thì thầm: "Anh! Giữ nguyên tư thế nhé!"
+Cố Tùy Châu phản ứng cực nhanh, lập tức vòng tay ôm lấy Thẩm Phi Triết đầy tình tứ. Trước khi đối phương kịp phản xạ đẩy ra, cậu đã ghé sát tai anh thì thầm: "Anh! Giữ nguyên tư thế nhé!"
 
 Tư thế chết tiệt này!
 
@@ -194,11 +194,11 @@ Hắn lặng lẽ nhe răng, ánh mắt dán chặt vào hai vết răng nanh h�
 
 Thẩm Phi Triết ghê tởm đến mức suýt chút nữa đã đập đầu Cố Tùy Châu vào cổ mình.
 
-Sau khi cả hai trấn tĩnh lại, họ đồng loạt quay sang nhìn Lin Sui với vẻ mặt chân thành giả tạo.
+Sau khi cả hai trấn tĩnh lại, họ đồng loạt quay sang nhìn Lâm Tùy với vẻ mặt chân thành giả tạo.
 
 Thẩm Phi Triết khẽ gật đầu: "Đã lâu không gặp."
 
-Trong mắt Lin Sui, màn tương tác vừa rồi rõ ràng là một cuộc cãi vã tình tứ của đôi tình nhân.
+Trong mắt Lâm Tùy, màn tương tác vừa rồi rõ ràng là một cuộc cãi vã tình tứ của đôi tình nhân.
 
 Khả năng kiểm soát biểu cảm của anh ta đã cải thiện rõ rệt kể từ lần gặp cuối.
 
@@ -234,7 +234,7 @@ Lồng ngực Lâm Tùy phập phồng dữ dội. Anh cố gắng giữ bình t
 
 "Tố cáo?" Vẻ ngạc nhiên của Lâm Tùy nghe giả tạo đến mức cường điệu. "Anh bị tố cáo sao?"
 
-"Ừ, đúng vậy," Cố Tùy Châu chen vào, giọng điệu đầy mỉa mai. "Chẳng biết tên khốn nào lại đi tố cáo cậu nữa~"
+"Ừ, đúng vậy," Cố Tùy Châu chen vào, giọng điệu đầy mỉa mai. "Chẳng biết tên khốn nào lại đi tố cáo anh nữa~"
 
 Một đường gân xanh nổi lên trên trán Lâm Tùy.
 
@@ -252,7 +252,7 @@ Cố Tùy Châu thu lại vẻ diễn kịch, đáp: "Vâng."
 
 Dù sao bây giờ mình cũng đã có một "ông bố đường" rồi!
 
-Trước đây, anh từng lo lắng Lâm Tùy sẽ can thiệp vào khối tài sản thừa kế mà Cố Lãng để lại. Nhưng giờ có Thẩm Phi Triết ở bên cạnh, anh có thể mặt dày mà làm nũng. Anh không tin đồng minh này sẽ đứng nhìn mình bị người ta bắt nạt.
+Trước đây, cậu từng lo lắng Lâm Tùy sẽ can thiệp vào khối tài sản thừa kế mà Cố Lãng để lại. Nhưng giờ có Thẩm Phi Triết ở bên cạnh, anh có thể mặt dày mà làm nũng. Anh không tin đồng minh này sẽ đứng nhìn mình bị người ta bắt nạt.
 
 Mặc dù Thẩm Phi Triết cũng chỉ có một mình, nhưng Cố Tùy Châu tin chắc bản thân sẽ luôn tìm ra cách.
 
@@ -278,7 +278,7 @@ Một đôi tay bất chợt nắm chặt lấy cánh tay anh, mười ngón tay
 
 "Anh Thẩm~~~" Giọng Cố Tùy Châu run rẩy, nghe như sắp rơi nước mắt đến nơi.
 
-Thẩm Phi Triết khựng lại, khẽ gỡ tay hắn ra.
+Thẩm Phi Triết khựng lại, khẽ gỡ tay cậu ra.
 
 Cố Tùy Châu than thở: "Lâm Tùy, tên khốn vô liêm sỉ đó, hắn đang muốn 'trộm nhà' của tôi!"
 
@@ -296,35 +296,35 @@ Cố Tùy Châu ranh mãnh nháy mắt, bàn tay lén lút trượt về phía c
 
 Cảm ơn trời đất đây là taxi tự lái, Thẩm Phi Triết nghĩ. Nếu không, tài xế chắc chắn sẽ tố cáo anh là kẻ biến thái đang quấy rối trẻ vị thành niên.
 
-Thẩm Phi Triết xuyên qua lớp vải nắm chặt lấy cổ tay hắn, lực tay dần siết mạnh.
+Thẩm Phi Triết xuyên qua lớp vải nắm chặt lấy cổ tay cậu, lực tay dần siết mạnh.
 
-Nụ cười của Cố Tùy Châu vỡ vụn khi hắn khẽ rên lên vì đau đớn.
+Nụ cười của Cố Tùy Châu vỡ vụn khi cậu khẽ rên lên vì đau đớn.
 
 "Tôi không biết cậu có tâm tư gì mà muốn cởi quần áo của tôi," giọng Thẩm Phi Triết lạnh như mưa tháng Hai, "nhưng nếu cậu còn thử lại lần nữa, cậu sẽ mất cái tay này đấy."
 
-Gần đây con nhóc này ngày càng trở nên quá trớn.
+Dạo gần đây thằng nhóc này ngày càng trở nên quá trớn.
 
 Anh tự hỏi liệu tính khí mềm mỏng của mình có khiến cậu ta đánh giá quá cao vị trí của bản thân hay không.
 
-Thẩm Phi Triết siết chặt không chút thương tiếc, không còn lấy một chút tình cảm. Bàn tay đang bị Cố Tùy Châu nắm giữ hơi run lên, những ngón tay của hắn trở nên tái nhợt và lạnh lẽo do máu lưu thông bị hạn chế.
+Thẩm Phi Triết siết chặt không chút thương tiếc, không còn lấy một chút tình cảm. Cổ tay đang bị anh siết chặt khẽ run lên, những ngón tay của Cố Tùy Châu trở nên tái nhợt và lạnh lẽo do máu khó lưu thông.
 
-Cố Tùy Châu dù đang chịu đựng cơn đau thấu xương, vẫn khựng lại một nhịp rồi bất chợt bật cười. Sự thích thú trong lòng hắn lớn dần, không sao kiềm chế nổi.
+Cố Tùy Châu dù đang chịu đựng cơn đau thấu xương, vẫn khựng lại một nhịp rồi bất chợt bật cười. Sự thích thú trong lòng cậu lớn dần, không sao kiềm chế nổi.
 
-Phải mất một lúc lâu hắn mới lấy lại được vẻ bình thản. Thẩm Phi Triết còn chưa kịp phản ứng, hắn đã đột ngột nghiêng người tới trước, duy trì tư thế bị khống chế, tựa đầu vào ngực đối phương.
+Phải mất một lúc lâu cậu mới lấy lại được vẻ bình thản. Thẩm Phi Triết còn chưa kịp phản ứng, cậu đã đột ngột nghiêng người tới trước, duy trì tư thế bị khống chế, tựa đầu vào ngực đối phương.
 
-Cổ tay Thẩm Phi Triết đang bị vặn ở một góc độ không tự nhiên. Dù xương cốt chưa gãy, nhưng tình trạng trật khớp đã cận kề.
+Cổ tay Cố Tùy Châu đang bị vặn ở một góc độ không tự nhiên. Dù xương cốt chưa gãy, nhưng tình trạng trật khớp đã cận kề.
 
-Như thể chẳng hề hay biết đến cơn đau, Cố Tùy Châu càng rướn người lại gần hơn, dùng răng nhẹ nhàng kéo chiếc cúc áo đầu tiên trên cổ áo sơ mi của Thẩm Phi Triết. Hắn khẽ cử động cổ, cởi bỏ chiếc cúc đang che khuất yết hầu của Thẩm Phi Triết.
+Như thể chẳng hề hay biết đến cơn đau, Cố Tùy Châu càng rướn người lại gần hơn, dùng răng nhẹ nhàng kéo chiếc cúc áo đầu tiên trên cổ áo sơ mi của Thẩm Phi Triết. Cậu khẽ cử động cổ, cởi bỏ chiếc cúc đang che khuất yết hầu của Thẩm Phi Triết.
 
-"Nhìn xem, chị gái," hắn cười đầy ranh mãnh, "ngay cả khi không dùng tay, tôi vẫn có thể tháo nó ra."
+"Nhìn xem, anh trai," cậu cười đầy ranh mãnh, "ngay cả khi không dùng tay, em vẫn có thể tháo nó ra."
 
 Xương quai xanh sắc sảo cùng yết hầu gợi cảm của Thẩm Phi Triết giờ đã lộ ra ngoài không khí. Có lẽ vì trong xe quá nóng, anh không hề cảm thấy lạnh.
 
-"Cho nên, chị nhất định phải tự bảo vệ mình cho tốt."
+"Cho nên, anh nhất định phải tự bảo vệ mình cho tốt."
 
-Hàng mi Cố Tùy Châu khẽ rủ xuống, hơi thở ấm nóng phả lên làn da Thẩm Phi Triết. Giọng hắn trầm thấp, khàn đặc và dịu dàng như lời thì thầm của người tình.
+Hàng mi Cố Tùy Châu khẽ rủ xuống, hơi thở ấm nóng phả lên làn da Thẩm Phi Triết. Giọng cậu trầm thấp, khàn đặc và dịu dàng như lời thì thầm của người tình.
 
-"Đừng để tôi thành công."
+"Đừng để em thành công."
 
 ***
 

@@ -341,7 +341,7 @@ Sau đó cánh cửa sập lại.
 
 Thẩm Phi Triết đứng đờ người, từ từ thở ra một hơi dài nặng nề.
 
-Sao lại là Lâm Tuỳ?!
+Sao lại là Lâm Tùy?!
 
 Trong khi đó, Cố Tùy Châu đã xuống xe buýt trường học giữa chừng.
 

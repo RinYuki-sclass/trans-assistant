@@ -184,7 +184,7 @@ Cố Tùy Châu thay giày xong xuôi rồi quay lại. Lúc này, Thẩm Phi Tr
 
 Cậu bước tới, đưa cho anh một tách ca cao nóng vừa pha. "Đây là gì vậy?"
 
-"Căn hầm bí mật của gia tộc Thẩm," Thẩm Phi Triết đáp, nhấp một ngụm ca cao ấm nóng lan tỏa khắp cơ thể. "Tôi đã hỏi Lu Fan về chuyện này, dù anh ta không nói thẳng nhưng phản ứng của anh ta đã nói lên tất cả. Nhiều năm trước, gia tộc Thẩm đã xây dựng một căn hầm bí mật để thực hiện những âm mưu đen tối."
+"Căn hầm bí mật của gia tộc Thẩm," Thẩm Phi Triết đáp, nhấp một ngụm ca cao ấm nóng lan tỏa khắp cơ thể. "Tôi đã hỏi Lục Phàm về chuyện này, dù anh ta không nói thẳng nhưng phản ứng của anh ta đã nói lên tất cả. Nhiều năm trước, gia tộc Thẩm đã xây dựng một căn hầm bí mật để thực hiện những âm mưu đen tối."
 
 Cố Tùy Châu ngồi xuống cạnh anh. "Vậy... có phải khoảng thời gian cha mẹ em thường xuyên đi công tác xa, họ đã bị giam giữ ở đó không?"
 

@@ -104,9 +104,9 @@ Cố Tùy Châu và Thẩm Phi Triết nhìn nhau, rồi đồng loạt quay san
 
 Thấy sự nhiệt tình của họ, người hướng dẫn viên nhanh chóng giải thích: "Vườn thảo mộc không mở cửa cho công chúng. Dù có đến đó, chúng ta cũng chỉ có thể đi vòng quanh phía ngoài những bức tường kính sinh học. Chẳng có gì đáng xem cả nên tôi đã không đưa nó vào hành trình."
 
-Đôi mắt Gu Suizhou cong lại thành một nụ cười: "Vậy anh có thể điều chỉnh hành trình giúp chúng tôi được không? Chỉ cần được nhìn thoáng qua thôi cũng đủ mãn nguyện rồi. Anh trai tôi vốn có niềm đam mê lớn với nghiên cứu dược liệu, nếu không được đi, anh ấy chắc chắn sẽ thất vọng lắm."
+Đôi mắt Cố Tùy Châu cong lại thành một nụ cười: "Vậy anh có thể điều chỉnh hành trình giúp chúng tôi được không? Chỉ cần được nhìn thoáng qua thôi cũng đủ mãn nguyện rồi. Anh trai tôi vốn có niềm đam mê lớn với nghiên cứu dược liệu, nếu không được đi, anh ấy chắc chắn sẽ thất vọng lắm."
 
-Shen Feizhi im lặng, ngầm đồng ý.
+Thẩm Phi Triết im lặng, ngầm đồng ý.
 
 Người hướng dẫn viên vui vẻ đáp: "Được thôi, Vườn thảo mộc nằm trên núi, tôi sẽ đặt vé cáp treo ngay."
 
@@ -114,29 +114,29 @@ Hóa ra, chi thêm tiền cho hướng dẫn viên cũng có những đặc quy�
 
 Cáp treo ở đây là loại cabin hai chỗ ngồi, mỗi cabin đều yêu cầu xác thực danh tính để đảm bảo an toàn cho hành khách trong trường hợp khẩn cấp.
 
-Ngay khi Gu Suizhou quẹt thẻ và tự nhiên định ngồi cạnh Shen Feizhi, một nhân viên đã chặn anh lại và dẫn sang hàng ghế phía sau.
+Ngay khi Cố Tùy Châu quẹt thẻ và tự nhiên định ngồi cạnh Thẩm Phi Triết, một nhân viên đã chặn anh lại và dẫn sang hàng ghế phía sau.
 
-Gu Suizhou: "?"
+Cố Tùy Châu: "?"
 
 Nhân viên thấy vẻ mặt ngơ ngác của anh liền lắc đầu không tán thành: "Này cậu nhóc, dù có thân thiết với anh trai đến đâu thì cũng đừng làm kỳ đà cản mũi buổi hẹn hò của người ta chứ!"
 
-Gu Suizhou "Ha!" một tiếng, theo bản năng liếc nhìn Shen Feizhi và Leapton.
+Cố Tùy Châu "Ha!" một tiếng, theo bản năng liếc nhìn Thẩm Phi Triết và Leapton.
 
-Ngay khi Leapton quẹt thẻ xong, cậu ta liền xông tới kéo Gu Suizhou ra khỏi nhân viên kia, thì thầm: "Tôi vừa nói với anh ta rằng tôi và anh Shen đang trong giai đoạn 'tìm hiểu', nên bảo anh ta xếp chúng tôi ngồi chung một chỗ."
+Ngay khi Leapton quẹt thẻ xong, cậu ta liền xông tới kéo Cố Tùy Châu ra khỏi nhân viên kia, thì thầm: "Tôi vừa nói với anh ta rằng tôi và anh Thẩm đang trong giai đoạn 'tìm hiểu', nên bảo anh ta xếp chúng tôi ngồi chung một chỗ."
 
-Gu Suizhou: "?"
+Cố Tùy Châu: "?"
 
-"Chẳng phải hai người đã đăng ký là anh em sao?" Leapton không mảy may để ý đến vẻ mặt tối sầm của Gu Suizhou, tiếp tục thao thao bất tuyệt: "Tôi đã dặn nhân viên kỹ rồi. Đừng lo, kế hoạch 'trà xanh' của anh chắc chắn sẽ thành công mỹ mãn! Chúng ta một mũi tên trúng hai đích—anh lấy được sổ sách, còn tôi thì có được Shen Feizhi!"
+"Chẳng phải hai người đã đăng ký là anh em sao?" Leapton không mảy may để ý đến vẻ mặt tối sầm của Cố Tùy Châu, tiếp tục thao thao bất tuyệt: "Tôi đã dặn nhân viên kỹ rồi. Đừng lo, kế hoạch 'trà xanh' của anh chắc chắn sẽ thành công mỹ mãn! Chúng ta một mũi tên trúng hai đích—anh lấy được sổ sách, còn tôi thì có được Thẩm Phi Triết!"
 
-Gu Suizhou: "......"
+Cố Tùy Châu: "......"
 
 Trong khoảnh khắc, anh hoàn toàn cạn lời.
 
-Sau đó, tên ngốc không biết nhìn sắc mặt này còn dám cả gan vỗ vai anh đầy chính trực, nháy mắt trấn an trước khi lao tới chỗ Shen Feizhi.
+Sau đó, tên ngốc không biết nhìn sắc mặt này còn dám cả gan vỗ vai anh đầy chính trực, nháy mắt trấn an trước khi lao tới chỗ Thẩm Phi Triết.
 
-Khi Shen Feizhi quay lại, anh không thấy gương mặt quen thuộc như mình mong đợi: "Cậu làm gì ở đây?"
+Khi Thẩm Phi Triết quay lại, anh không thấy gương mặt quen thuộc như mình mong đợi: "Cậu làm gì ở đây?"
 
-Leapton bẽn lẽn đáp: "Gu Suizhou muốn đổi chỗ với tôi. Anh ấy nói cần hỏi người hướng dẫn vài câu nên nhờ tôi ngồi đây bầu bạn với anh."
+Leapton bẽn lẽn đáp: "Cố Tùy Châu muốn đổi chỗ với tôi. Anh ấy nói cần hỏi người hướng dẫn vài câu nên nhờ tôi ngồi đây bầu bạn với anh."
 
 Thẩm Phi Triết không chút nghi ngờ, đáp: “Được rồi, cậu ngồi vào phía trong đi.”
 
@@ -178,7 +178,7 @@ Phía công ty du lịch đã được thông báo trước rằng danh tính c�
 
 Đúng là cái miệng của hướng dẫn viên, nói không biết mệt, Cố Tùy Châu thầm nghĩ.
 
-Đầu óc Cố Tùy Châu ong ong vì bài giáo huấn dài lê thê. Anh mất kiên nhẫn ngắt lời: "Ai nói với anh là chúng tôi có quan hệ huyết thống?"
+Đầu óc Cố Tùy Châu ong ong vì bài giáo huấn dài lê thê. Cậu mất kiên nhẫn ngắt lời: "Ai nói với anh là chúng tôi có quan hệ huyết thống?"
 
 Người hướng dẫn sững sờ, ngơ ngác: "Hả?"
 
@@ -206,7 +206,7 @@ Thẩm Phi Triết gật đầu: "Cứ để hướng dẫn viên xử lý đi."
 
 Cáp treo bỗng chao đảo dữ dội.
 
-Leapton giật mình, lập tức nắm chặt lấy cánh tay Thẩm Phi Triết: "A... anh Shen!"
+Leapton giật mình, lập tức nắm chặt lấy cánh tay Thẩm Phi Triết: "A... anh Thẩm!"
 
 Thẩm Phi Triết cau mày, không mấy hài lòng trước cái nắm tay chặt cứng của đối phương. Thế nhưng, sắc mặt nhợt nhạt đến mức đáng sợ của Omega này trông không giống như đang giả vờ, nên anh đành miễn cưỡng chịu đựng.
 
@@ -230,7 +230,7 @@ Thay vì tin rằng Cố Tùy Châu đã sát hại Leapton, Thẩm Phi Triết 
 
 Thằng nhóc đó tuy có thể là một kẻ gây rối, nhưng chắc chắn sẽ không bao giờ nhúng tay vào hành động tàn ác như vậy.
 
-Có vẻ như họ cần tập trung thắt chặt an ninh quanh Lin Sui và gia đình nhà họ Thẩm.
+Có vẻ như họ cần tập trung thắt chặt an ninh quanh Lâm Tùy và gia đình nhà họ Thẩm.
 
 Thấy Leapton lấy từ trong túi ra một chiếc hộp nhỏ, Thẩm Phi Triết hỏi: "Đó là gì?"
 
@@ -252,9 +252,9 @@ Mùi cà phê thoang thoảng khiến Thẩm Phi Triết khẽ cau mày. "Làm s
 
 Leapton nói những lời này mà không hề lộ chút oán giận.
 
-Thẩm Phi Triết gật đầu: "Thật ra anh ta cũng khá tốt bụng."
+Thẩm Phi Triết gật đầu: "Thật ra cậu ta cũng khá tốt bụng."
 
-Anh im lặng, hiểu rõ rằng nếu Cố Tùy Châu không muốn anh biết điều gì, chắc chắn hắn đã dặn dò Leapton từ trước. Hỏi thêm cũng chỉ vô ích.
+Anh im lặng, hiểu rõ rằng nếu Cố Tùy Châu không muốn anh biết điều gì, chắc chắn cậu đã dặn dò Leapton từ trước. Hỏi thêm cũng chỉ vô ích.
 
 Lúc này, Leapton đang nhẩm tính trong đầu cách đối phó nếu gặp phải câu hỏi mình không thể trả lời. Đột nhiên, người đàn ông bên cạnh quay đầu đi, lặng lẽ nhìn ra ngoài cửa sổ ngắm cảnh.
 
@@ -299,7 +299,7 @@ Cậu lắc lắc cánh tay yếu ớt của mình, cố nén tiếng nức nở
 
 Cố Tùy Châu tựa vào vai Thẩm Phi Triết để đứng dậy: "Em sợ đến mức không thốt nên lời."
 
-"Tôi chưa bao giờ thấy em rụt rè như vậy trước đây." Thẩm Phi Triết không tin vào lời nói nhảm này, nhưng cũng chẳng buồn vạch trần. Anh liếc sang người hướng dẫn viên đang đứng ngẩn ngơ bên cạnh: "Còn cậu? Tại sao cậu cũng không nhấn nút khẩn cấp?"
+"Tôi chưa bao giờ thấy cậu rụt rè như vậy trước đây." Thẩm Phi Triết không tin vào lời nói nhảm này, nhưng cũng chẳng buồn vạch trần. Anh liếc sang người hướng dẫn viên đang đứng ngẩn ngơ bên cạnh: "Còn cậu? Tại sao cậu cũng không nhấn nút khẩn cấp?"
 
 "A? À, thật xin lỗi, Thẩm tiên sinh! Tôi... ừm..." Người hướng dẫn viên biết rõ "lý do thực sự", lắp bắp không thành lời, lén lút liếc nhìn Cố Tùy Châu.
 
@@ -321,7 +321,7 @@ Nhân viên nghe đến khóa an toàn thì giật mình: "Khóa an toàn ư?! A
 
 "May quá, cậu không sao là tốt rồi! Tôi sẽ liên hệ với bộ phận y tế trên lầu kiểm tra lại ngay!" Nhân viên thở phào nhẹ nhõm, đoạn nói tiếp: "Đổi chỗ không thành vấn đề. Anh là anh Thẩm phải không? Anh chỉ cần ký vào đây để xác minh lại giấy tờ tùy thân là được. Chàng trai trẻ có thể đợi ở đây."
 
-"Được thôi," Cố Tùy Châu cười tươi rói, vẫy tay chào Thẩm Phi Triết. Anh đợi cho đến khi bóng dáng đối phương khuất sau cổng soát vé, thần thái liền thay đổi hoàn toàn. Anh khoanh tay lại, vẻ yếu đuối giả tạo ban nãy đã biến mất không dấu vết.
+"Được thôi," Cố Tùy Châu cười tươi rói, vẫy tay chào Thẩm Phi Triết. Cậu đợi cho đến khi bóng dáng đối phương khuất sau cổng soát vé, thần thái liền thay đổi hoàn toàn. Anh khoanh tay lại, vẻ yếu đuối giả tạo ban nãy đã biến mất không dấu vết.
 
 Leapton, người đi cùng đến buổi biểu diễn, nghẹn họng trân trối. Anh ta hạ thấp giọng, rít qua kẽ răng: "Rốt cuộc cậu đang giở trò gì vậy hả?!"
 
@@ -333,7 +333,7 @@ Leapton, người đi cùng đến buổi biểu diễn, nghẹn họng trân tr
 
 Leapton vẫn chưa thông suốt: "Chính xác thì cậu đang định làm gì?!"
 
-Cố Tùy Châu nheo mắt, vẻ mặt lộ rõ sự đắc ý: "Chẳng có gì to tát cả. Tôi chỉ muốn lột trần anh ta thôi."
+Cố Tùy Châu nheo mắt, vẻ mặt lộ rõ sự đắc ý: "Chẳng có gì to tát cả. Tôi chỉ muốn lột trần anh ấy thôi."
 
 "Mẹ kiếp!" Mắt Leapton như muốn rớt ra ngoài. Thế này mà gọi là "chẳng có gì to tát" sao?!
 
@@ -345,7 +345,7 @@ Leapton thực sự hoang mang trước thế giới quan của đối phương:
 
 "Không," Cố Tùy Châu trả lời không chút do dự. "Nhưng có lẽ anh ấy rất quan trọng với tôi."
 
-Hiện tại, Cố Tùy Châu đã chắc chắn đến tám phần Thẩm Phi Triết chính là người mà anh đã tìm kiếm suốt mười năm qua.
+Hiện tại, Cố Tùy Châu đã chắc chắn đến tám phần Thẩm Phi Triết chính là người mà cậu đã tìm kiếm suốt mười năm qua.
 
 Nhưng nếu không tận mắt nhìn thấy vết sẹo hình chữ thập đó, anh vẫn chưa thể khẳng định một trăm phần trăm.
 
@@ -353,19 +353,19 @@ Leapton tỏ vẻ hoài nghi: "Thật sao? Trông cậu có vẻ hơi... khác l
 
 "Anh đang tưởng tượng đấy thôi. Tình cảm của tôi dành cho Thẩm Phi Triết bây giờ giống như..." Cố Tùy Châu tìm từ thích hợp, "Giống như cảm nhận của anh về tôi vậy — một trái tim tràn đầy lòng biết ơn."
 
-"Tsk, cái mông của anh thì có," Cố Tùy Huệ vặn lại. "Quên người mà tôi nhờ cậu điều tra trước đó đi. Hãy tập trung vào việc khác."
+"Tsk, cái mông của anh thì có," Cố Tùy Châu vặn lại. "Quên người mà tôi nhờ cậu điều tra trước đó đi. Hãy tập trung vào việc khác."
 
 "Hả? Việc gì?"
 
-"Tôi không thể tìm thấy bất kỳ thông tin nào về Thẩm Phi Triết trước năm cậu ấy mười tuổi. Tôi nghi ngờ có người đã xóa sạch dấu vết. Cậu xem có tìm thấy gì không, dù chỉ là một mẩu tin nhỏ."
+"Tôi không thể tìm thấy bất kỳ thông tin nào về Thẩm Phi Triết trước năm anh ấy mười tuổi. Tôi nghi ngờ có người đã xóa sạch dấu vết. Cậu xem có tìm thấy gì không, dù chỉ là một mẩu tin nhỏ."
 
 Leapton cảm thấy có điều gì đó không ổn: "Có thể nào là—"
 
-Chưa kịp nói hết câu, Cố Tùy Châu đã nhìn thấy Thẩm Phi Triết đi làm về. Với phản xạ chớp nhoáng, anh ta lập tức đi khập khiễng: "Agh! Anh Thẩm, hình như chân em cũng bị trẹo rồi! Đau muốn chết đi được~"
+Chưa kịp nói hết câu, Cố Tùy Châu đã nhìn thấy Thẩm Phi Triết đi làm về. Với phản xạ chớp nhoáng, cậu lập tức đi khập khiễng: "Agh! Anh Thẩm, hình như chân em cũng bị trẹo rồi! Đau muốn chết đi được~"
 
 Leapton chỉ kịp thấy bóng dáng Thẩm Phi Triết lướt qua trước mắt.
 
-Thẩm Phi Triết giữ vẻ mặt thản nhiên, túm lấy cổ áo Cố Tùy Châu rồi kéo hắn đứng thẳng dậy: "Đáng thương hại."
+Thẩm Phi Triết giữ vẻ mặt thản nhiên, túm lấy cổ áo Cố Tùy Châu rồi kéo cậu đứng thẳng dậy: "Đáng thương hại."
 
 Động tác của anh không hề nhẹ nhàng, gần như là khinh khỉnh và thô bạo.
 

@@ -222,47 +222,47 @@ Hai mươi mét.
 
 Thế nhưng, Thẩm Phi Triết không phải người thường.
 
-Tất nhiên, anh ta không hề có ý định đè chết Cố Tùy Châu. Khi cả hai lao qua thân cây gỗ gụ, anh đã chủ động xoay người, lấy lưng mình làm tấm đệm va đập vào thân cây để triệt tiêu lực rơi.
+Tất nhiên, anh không hề có ý định đè chết Cố Tùy Châu. Khi cả hai lao qua thân cây gỗ gụ, anh đã chủ động xoay người, lấy lưng mình làm tấm đệm va đập vào thân cây để triệt tiêu lực rơi.
 
-Cố Tùy Châu thậm chí còn chẳng kịp nhìn rõ động tĩnh. Anh chỉ cảm thấy một cơn đau nhói truyền đến từ sau lưng khi cả người đập mạnh xuống đất.
+Cố Tùy Châu thậm chí còn chẳng kịp nhìn rõ động tĩnh. Cậu chỉ cảm thấy một cơn đau nhói truyền đến từ sau lưng khi cả người đập mạnh xuống đất.
 
-May mắn thay, đầu anh đã chạm phải thứ gì đó mềm mại nên không bị chấn động. Dẫu vậy, tầm nhìn của anh vẫn tối sầm lại, anh thở dốc đầy yếu ớt: "Anh à... tôi sắp chết rồi..."
+May mắn thay, đầu cậu đã chạm phải thứ gì đó mềm mại nên không bị chấn động. Dẫu vậy, tầm nhìn của cậu vẫn tối sầm lại, cậu thở dốc đầy yếu ớt: "Anh à... em sắp chết rồi..."
 
 Thẩm Phi Triết đứng dậy, vẻ mặt đầy chán ghét: "Vô dụng."
 
-Anh ta trông chẳng hề hấn gì, chỉ có mái tóc hơi rối, cứ như thể vừa trải qua một chuyến tàu lượn siêu tốc đầy ngẫu hứng.
+Anh trông chẳng hề hấn gì, chỉ có mái tóc hơi rối, cứ như thể vừa trải qua một chuyến tàu lượn siêu tốc đầy ngẫu hứng.
 
-Cố Tùy Châu nằm bẹp dưới đất, nhắm nghiền mắt, đưa tay xoa cái đầu đang choáng váng. Toàn thân anh đau nhức như sắp vỡ vụn.
+Cố Tùy Châu nằm bẹp dưới đất, nhắm nghiền mắt, đưa tay xoa cái đầu đang choáng váng. Toàn thân cậu đau nhức như sắp vỡ vụn.
 
-Anh không hề phàn nàn về việc mình bị dùng làm tấm đệm thịt. Suy cho cùng, nếu Thẩm Phi Triết thực sự là người đó, thì dù có phải chết dưới tay hắn, Cố Tùy Châu cũng chẳng hề chớp mắt.
+Cậu không hề phàn nàn về việc mình bị dùng làm tấm đệm thịt. Suy cho cùng, nếu Thẩm Phi Triết thực sự là người đó, thì dù có phải chết dưới tay anh, Cố Tùy Châu cũng chẳng hề chớp mắt.
 
-Thế nhưng, nhìn vị "Đại ca" từng dịu dàng, tốt bụng với mình nay lại biến thành một Ma vương máu lạnh, tàn nhẫn và khó lường, anh không khỏi thở dài đầy cảm thán: "Thật độc ác, Đại ca à."
+Thế nhưng, nhìn vị "Đại ca" từng dịu dàng, tốt bụng với mình nay lại biến thành một Ma vương máu lạnh, tàn nhẫn và khó lường, cậu không khỏi thở dài đầy cảm thán: "Thật độc ác, Đại ca à."
 
-Thẩm Phi Triết chẳng buồn để tâm đến anh, chỉ lẳng lặng mò mẫm trong bóng tối.
+Thẩm Phi Triết chẳng buồn để tâm đến cậu, chỉ lẳng lặng mò mẫm trong bóng tối.
 
 Mí mắt Cố Tùy Châu như bị dán chặt, cậu vẫn không dám mở mắt. Cậu vốn sợ bóng tối, nhưng bóng tối sau mí mắt còn dễ chịu hơn nhiều so với việc phải đối diện với khoảng không vô tận ngoài kia.
 
-Tuy nhiên, khoảnh khắc tiếp theo, bóng tối trước mắt anh bỗng chuyển động, ấm áp dần lên nhờ ánh sáng dịu nhẹ.
+Tuy nhiên, khoảnh khắc tiếp theo, bóng tối trước mắt cậu bỗng chuyển động, ấm áp dần lên nhờ ánh sáng dịu nhẹ.
 
 Đôi môi xinh đẹp của Cố Tùy Châu hơi hé mở, cậu chớp mắt, ngạc nhiên nhìn.
 
-Chiếc áo khoác giữ nhiệt màu đen của Thẩm Phi Triết đang khoác trên người anh. Bản thân người đàn ông kia chỉ còn mặc một chiếc sơ mi mỏng, đôi tay đang bận rộn chất củi vào đống lửa vừa nhóm.
+Chiếc áo khoác giữ nhiệt màu đen của Thẩm Phi Triết đang khoác trên người cậu. Bản thân người đàn ông kia chỉ còn mặc một chiếc sơ mi mỏng, đôi tay đang bận rộn chất củi vào đống lửa vừa nhóm.
 
 Trong ánh lửa bập bùng, Cố Tùy Châu nhìn rõ mu bàn tay phải của Thẩm Phi Triết bị rách toạc, đặc biệt là gần ngón đeo nhẫn, vết thương sâu đến mức lộ cả xương.
 
-Một ký ức mơ hồ hiện lên: khi họ ngã xuống, đầu anh đã được đệm bởi một thứ gì đó mềm mại.
+Một ký ức mơ hồ hiện lên: khi họ ngã xuống, đầu cậu đã được đệm bởi một thứ gì đó mềm mại.
 
 Thấy sắc môi Cố Tùy Châu đã hồng hào trở lại, Thẩm Phi Triết dời ánh mắt đi, tiện tay làm một bó đuốc đơn giản.
 
 Anh giơ một ngón tay lên: "Cậu có mười phút để lấy lại tinh thần."
 
-Hắn đã nhóm lửa bằng cách khoan gỗ khô với con dao gỗ nhỏ vẫn luôn đeo trên cổ tay. Giờ đây, cơn đau nhức từ cổ tay truyền đến khiến tâm trạng hắn trở nên tồi tệ.
+Anh đã nhóm lửa bằng cách khoan gỗ khô với con dao gỗ nhỏ vẫn luôn đeo trên cổ tay. Giờ đây, cơn đau nhức từ cổ tay truyền đến khiến tâm trạng anh trở nên tồi tệ.
 
-Giọng điệu của hắn cũng khó chịu không kém.
+Giọng điệu của anh cũng khó chịu không kém.
 
-Ngọn lửa bập bùng cháy rực, chiếu sáng hang cạn như ban ngày. Ít nhất, hắn không còn phải sợ bóng tối nữa.
+Ngọn lửa bập bùng cháy rực, chiếu sáng hang cạn như ban ngày. Ít nhất, cậu không còn phải sợ bóng tối nữa.
 
-Cố Tùy Châu xoa xoa lỗ tai. Một tiếng chuông bắt đầu vang lên trong đầu hắn. Hắn không thể nghe rõ Thẩm Phi Triết đang nói gì, chỉ thấy nét mặt người đàn ông dịu đi dưới ánh lửa. Gương mặt ấy có đường nét sắc sảo, hoàn hảo như được điêu khắc, đẹp trai đến mức phi thực tế.
+Cố Tùy Châu xoa xoa lỗ tai. Một tiếng chuông bắt đầu vang lên trong đầu cậu. Cậu không thể nghe rõ Thẩm Phi Triết đang nói gì, chỉ thấy nét mặt người đàn ông dịu đi dưới ánh lửa. Gương mặt ấy có đường nét sắc sảo, hoàn hảo như được điêu khắc, đẹp trai đến mức phi thực tế.
 
 Cố Tùy Châu buột miệng: "Thẩm ca, gương mặt này của anh thật đáng chết."
 
@@ -270,9 +270,9 @@ Cố Tùy Châu buột miệng: "Thẩm ca, gương mặt này của anh thật 
 
 Thật tuyệt vời. Chưa đầy hai phút trôi qua, cái miệng không biết giữ kẽ đó lại bắt đầu thốt ra những lời vô nghĩa.
 
-Cố Tùy Châu gồng mình ngồi dậy, đưa tay ôm lấy mặt. Giọng điệu hắn bỗng chốc trở nên ngoan ngoãn: "Anh ơi, anh có nghĩ em mắc hội chứng Stockholm không? Rõ ràng anh đã đè nát em lúc rơi xuống, nhưng khi nhìn thấy bàn tay anh, em lại thực sự cảm thấy... xúc động."
+Cố Tùy Châu gồng mình ngồi dậy, đưa tay ôm lấy mặt. Giọng điệu cậu bỗng chốc trở nên ngoan ngoãn: "Anh ơi, anh có nghĩ em mắc hội chứng Stockholm không? Rõ ràng anh đã đè nát em lúc rơi xuống, nhưng khi nhìn thấy bàn tay anh, em lại thực sự cảm thấy... xúc động."
 
-Thẩm Phi Triết ném cành củi vào người hắn. "Vậy để tôi chữa bệnh cho cậu nhé."
+Thẩm Phi Triết ném cành củi vào người cậu. "Vậy để tôi chữa bệnh cho cậu nhé."
 
 "Thứ nhất," Thẩm Phi Triết bắt đầu, giọng lạnh băng liệt kê lý do, "tôi đè lên cậu lúc ngã là vì cổ tay trái và hông của cậu đã bị thương. Nếu tôi đau đến mức không cử động được, cậu sẽ không thể cõng tôi. Hơn nữa, nói cho cùng thì tôi không thích bị ai cõng."
 
@@ -322,7 +322,7 @@ Cố Tùy Châu đã đoán ra nguyên nhân gây nên chứng sợ tiếp xúc 
 
 Cố Tùy Châu duy trì khoảng cách đúng một centimet, hơi thở ấm nóng phả vào vành tai Thẩm Phi Triết: "Thẩm Phi Triết, trên đời này sao lại có người vô tâm đến thế chứ?"
 
-Thẩm Phi Triết quả nhiên không đánh hắn, chỉ cứng ngắc quay cổ lại, lạnh lùng đáp: "Không chịu nổi thì cút."
+Thẩm Phi Triết quả nhiên không đánh cậu, chỉ cứng ngắc quay cổ lại, lạnh lùng đáp: "Không chịu nổi thì cút."
 
 "Tôi không sao mà," Cố Tùy Châu nói, giọng điệu đầy vẻ đau lòng, đoạn cúi đầu nhẹ nhàng thổi vào vết thương đang rỉ máu trên lưng Thẩm Phi Triết, "Bởi vì tôi chính là kẻ vô liêm sỉ nhất thế gian này!"
 

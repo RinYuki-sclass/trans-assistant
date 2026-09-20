@@ -623,13 +623,14 @@
     "chapter_first_seen": "ch_008"
   },
   {
-    "original": "Lâm Tuy",
-    "translation": "Lâm Tuy",
-    "hanviet": "",
-    "category": "Nhân vật",
+    "original": "Lin Sui",
+    "translation": "Lâm Tùy",
+    "hanviet": "Lâm Tùy",
+    "category": "Character",
     "confidence": 1.0,
     "approved": true,
-    "chapter_first_seen": "ch_008"
+    "chapter_first_seen": "ch_008",
+    "notes": "Anh trai Cố Tùy Châu, bác sĩ"
   },
   {
     "original": "Cố Lang",
@@ -2289,5 +2290,345 @@
     "confidence": 0.9,
     "approved": true,
     "chapter_first_seen": "ch_061"
+  },
+  {
+    "original": "Gu Suizhou",
+    "translation": "Cố Tùy Châu",
+    "hanviet": "Cố Tùy Châu",
+    "category": "Character",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Nam chính, học sinh, Omega giả định (thực chất Alpha), em trai cùng cha khác mẹ với Lâm Tùy",
+    "chapter_first_seen": "ch_005"
+  },
+  {
+    "original": "Shen Feizhi",
+    "translation": "Thẩm Phi Triết",
+    "hanviet": "Thẩm Phi Triết",
+    "category": "Character",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Nam chính xuyên sách, hacker tài năng, cải trang thành Thẩm Triết, Alpha pheromone vị cà phê đắng",
+    "chapter_first_seen": "ch_005"
+  },
+  {
+    "original": "Lin Sui",
+    "translation": "Lâm Tùy",
+    "hanviet": "Lâm Tùy",
+    "category": "Character",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Anh trai của Cố Tùy Châu, là bác sĩ",
+    "chapter_first_seen": "ch_005"
+  },
+  {
+    "original": "Song Zhe",
+    "translation": "Tống Triết",
+    "hanviet": "Tống Triết",
+    "category": "Character",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Bạn từ nhỏ trung thành của Cố Tùy Châu",
+    "chapter_first_seen": "ch_006"
+  },
+  {
+    "original": "Jiang Che",
+    "translation": "Giang Triệt",
+    "hanviet": "Giang Triệt",
+    "category": "Character",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Giáo viên chủ nhiệm của Cố Tùy Châu tại trường nội trú (Thầy Giang)",
+    "chapter_first_seen": "ch_008"
+  },
+  {
+    "original": "Shen Wei",
+    "translation": "Thẩm Vĩ",
+    "hanviet": "Thẩm Vĩ",
+    "category": "Character",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Thành viên Thẩm gia vừa tốt nghiệp thạc sĩ W.N",
+    "chapter_first_seen": "ch_015"
+  },
+  {
+    "original": "Lu Qian",
+    "translation": "Lục Khiêm",
+    "hanviet": "Lục Khiêm",
+    "category": "Character",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Thanh mai trúc mã của Thẩm Vĩ, vị hôn thê giả của Thẩm Phi Triết, Omega nữ mắc bệnh tim/rối loạn tuyến mùi",
+    "chapter_first_seen": "ch_016"
+  },
+  {
+    "original": "Xu Zhong",
+    "translation": "Từ Trọng",
+    "hanviet": "Từ Trọng",
+    "category": "Character",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Trợ lý riêng của Cố Tùy Châu, nguyên thuộc hạ của Cố Lãng (Chú Trọng / Chú Từ)",
+    "chapter_first_seen": "ch_012"
+  },
+  {
+    "original": "Lin Zizhuo",
+    "translation": "Lâm Tử Trác",
+    "hanviet": "Lâm Tử Trác",
+    "category": "Character",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Cha của Cố Tùy Châu, nhà khoa học y tế W.N",
+    "chapter_first_seen": "ch_013"
+  },
+  {
+    "original": "Yang Rui",
+    "translation": "Dương Thụy",
+    "hanviet": "Dương Thụy",
+    "category": "Character",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Kẻ từng gây hấn với Cố Tùy Châu, bị phạt tù 5 năm",
+    "chapter_first_seen": "ch_006"
+  },
+  {
+    "original": "Noblewoman",
+    "translation": "Quý phu nhân",
+    "hanviet": "Quý phu nhân",
+    "category": "Character",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Hàng xóm tầng dưới của căn hộ gác mái Lanxie Road",
+    "chapter_first_seen": "ch_005"
+  },
+  {
+    "original": "Madam Shen",
+    "translation": "Thẩm phu nhân",
+    "hanviet": "Thẩm phu nhân",
+    "category": "Character",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Vợ của Thẩm lão gia chủ, mẹ của Thẩm Vĩ, chủ mẫu Thẩm gia (Thẩm lão phu nhân)",
+    "chapter_first_seen": "ch_016"
+  },
+  {
+    "original": "Madam Lu",
+    "translation": "Bà Lục",
+    "hanviet": "Lục phu nhân",
+    "category": "Character",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Mẹ của Lục Khiêm, đến cầu cứu Thẩm Phi Triết chữa trị cho con gái",
+    "chapter_first_seen": "ch_016"
+  },
+  {
+    "original": "Uncle Liao",
+    "translation": "Chú Liễu",
+    "hanviet": "Liêu Thần",
+    "category": "Character",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Quản gia / người hầu cận đắc lực và lâu năm của Thẩm lão gia chủ (Liao Chen / Liêu Thần)",
+    "chapter_first_seen": "ch_016"
+  },
+  {
+    "original": "Liao Chen",
+    "translation": "Liêu Thần",
+    "hanviet": "Liêu Thần",
+    "category": "Character",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Người hầu cận thân tín của Thẩm lão gia chủ, Chú Liễu",
+    "chapter_first_seen": "ch_016"
+  },
+  {
+    "original": "Lu Fan",
+    "translation": "Lục Phàm",
+    "hanviet": "Lục Phàm",
+    "category": "Character",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Kiến trúc sư thiết kế cải tạo dinh thự cũ nhà họ Thẩm (Thầy Lục / Ông Lục)",
+    "chapter_first_seen": "ch_032"
+  },
+  {
+    "original": "Shen Jiang",
+    "translation": "Thẩm Giang",
+    "hanviet": "Thẩm Giang",
+    "category": "Character",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Em họ của Thẩm Vĩ, đối thủ cạnh tranh quyền lực trong Thẩm gia",
+    "chapter_first_seen": "ch_036"
+  },
+  {
+    "original": "Ritter Naons",
+    "translation": "Ritter Naons",
+    "hanviet": "Ritter Naons",
+    "category": "Character",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Trưởng nhóm A tại Viện nghiên cứu W.N, Giáo sư Ritter / Lý Đặc",
+    "chapter_first_seen": "ch_011"
+  },
+  {
+    "original": "Professor Ritter",
+    "translation": "Giáo sư Ritter",
+    "hanviet": "Giáo sư Ritter",
+    "category": "Character",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Ritter Naons, đồng nghiệp Thẩm Phi Triết tại W.N",
+    "chapter_first_seen": "ch_011"
+  },
+  {
+    "original": "Luvi Tisqi",
+    "translation": "Lư Vi Đề Tư Kỳ",
+    "hanviet": "Lư Vi Đề Tư Kỳ",
+    "category": "Character",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Nữ giám đốc loli, nhà sáng lập kiêm Giám đốc Viện nghiên cứu W.N",
+    "chapter_first_seen": "ch_044"
+  },
+  {
+    "original": "Big Baldy",
+    "translation": "Đại Đầu Trọc",
+    "hanviet": "Đại Đầu Trọc",
+    "category": "Character",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Đồng nghiệp tại viện nghiên cứu W.N",
+    "chapter_first_seen": "ch_047"
+  },
+  {
+    "original": "Number 9",
+    "translation": "Anh đẹp trai Số 9",
+    "hanviet": "Anh đẹp trai Số 9",
+    "category": "Character",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Người nam cao gầy hấp dẫn có nốt ruồi duyên rủ Thẩm Phi Triết chơi đổ xí ngầu (Number 9 Handsome Guy)",
+    "chapter_first_seen": "ch_047"
+  },
+  {
+    "original": "Lucky",
+    "translation": "May Mắn",
+    "hanviet": "May Mắn",
+    "category": "Character",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Chú chó cún của Cố Tùy Châu và Thẩm Phi Triết (Lucky Dog / Fluke / Chú chó May Mắn)",
+    "chapter_first_seen": "ch_050"
+  },
+  {
+    "original": "G",
+    "translation": "G",
+    "hanviet": "G",
+    "category": "Character",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Trợ lý AI thông minh trên phi thuyền của Thẩm Phi Triết",
+    "chapter_first_seen": "ch_054"
+  },
+  {
+    "original": "A11",
+    "translation": "A11",
+    "hanviet": "A11",
+    "category": "Character",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Thực thể cao chiều / quản lý hệ thống",
+    "chapter_first_seen": "ch_054"
+  },
+  {
+    "original": "C2 (Alpha)",
+    "translation": "C2",
+    "hanviet": "C2",
+    "category": "Character",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Alpha có ngoại hình trung tính, trẻ trung, thuộc cấp của K7 (phân biệt với thuốc C2)",
+    "chapter_first_seen": "ch_053"
+  },
+  {
+    "original": "K7",
+    "translation": "K7",
+    "hanviet": "K7",
+    "category": "Character",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Viên chức cấp cao từ Tổng cục Hành chính Sao Chính, cấp trên của C2 và A11",
+    "chapter_first_seen": "ch_064"
+  },
+  {
+    "original": "Lan Luozhi",
+    "translation": "Lam Lạc Chi",
+    "hanviet": "Lam Lạc Chi",
+    "category": "Character",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Nữ Omega có độ tương thích pheromone 100% với Thẩm Phi Triết theo hệ thống ghép đôi Liên Bang",
+    "chapter_first_seen": "ch_066"
+  },
+  {
+    "original": "The Director",
+    "translation": "Viện trưởng W.N",
+    "hanviet": "Viện trưởng W.N",
+    "category": "Character",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Cựu viện trưởng viện mồ côi nơi Cố Tùy Châu và Leapton lớn lên, ẩn cư trên núi tuyết / Viện trưởng W.N",
+    "chapter_first_seen": "ch_031"
+  },
+  {
+    "original": "Professor Gu",
+    "translation": "Giáo sư Cố",
+    "hanviet": "Giáo sư Cố",
+    "category": "Character",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Cựu nhà nghiên cứu liên quan đến vụ hỏa hoạn W.N",
+    "chapter_first_seen": "ch_031"
+  },
+  {
+    "original": "Professor Lin",
+    "translation": "Giáo sư Lâm",
+    "hanviet": "Giáo sư Lâm",
+    "category": "Character",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Cựu nhà nghiên cứu liên quan đến vụ hỏa hoạn W.N",
+    "chapter_first_seen": "ch_031"
+  },
+  {
+    "original": "Gu Suizhou's mother",
+    "translation": "Mẹ Cố Tùy Châu",
+    "hanviet": "Mẹ Cố Tùy Châu",
+    "category": "Character",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Mẹ quá cố của Cố Tùy Châu (Cố Lãng)",
+    "chapter_first_seen": "ch_005"
+  },
+  {
+    "original": "Landlord",
+    "translation": "Chủ nhà",
+    "hanviet": "Chủ nhà",
+    "category": "Character",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Chủ căn hộ gác mái Thẩm Phi Triết đang thuê",
+    "chapter_first_seen": "ch_005"
+  },
+  {
+    "original": "Mr. Zhang",
+    "translation": "Trương tiên sinh",
+    "hanviet": "Trương tiên sinh",
+    "category": "Character",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Khách hàng / đối tác liên kết cung cấp sản phẩm với công ty W.N của Cố Tùy Châu",
+    "chapter_first_seen": "ch_072"
   }
 ]

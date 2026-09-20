@@ -122,7 +122,7 @@ Ngay sau đó, một cơ thể ấm áp áp sát lại.
 
 Thẩm Phi Triết giật lại tấm chăn. "Cút ra. Về phòng cậu mà ngủ."
 
-"Em không muốn." Cố Suizhou cố cạy tấm chăn ra khỏi kẽ ngón tay anh nhưng không thành. Dù vậy, cậu cũng chẳng vội; ra vẻ rất tự nhiên như ở nhà, cậu kéo một chiếc áo khoác mùa đông dày cộm của Thẩm Phi Triết ra khỏi tủ để đắp rồi nằm xuống lại. "Cùng ngủ đi."
+"Em không muốn." Cố Tùy Châu cố cạy tấm chăn ra khỏi kẽ ngón tay anh nhưng không thành. Dù vậy, cậu cũng chẳng vội; ra vẻ rất tự nhiên như ở nhà, cậu kéo một chiếc áo khoác mùa đông dày cộm của Thẩm Phi Triết ra khỏi tủ để đắp rồi nằm xuống lại. "Cùng ngủ đi."
 
 "…" Thẩm Phi Triết xoay người sang một bên, quay lưng về phía cậu.
 

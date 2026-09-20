@@ -18,9 +18,9 @@ Cậu ta lập tức vuốt lại tóc, đứng thẳng người, nhưng ngay kh
 
 "Ai quan tâm chứ? Dù sao cũng chẳng ai quản tôi, mà ở Thành phố Ngầm này cũng chẳng ai biết tôi là ai." Cố Tùy Châu nhún vai, đôi chân dài thẳng tắp sải một bước đã vượt qua quầy phục vụ. "Chỗ cậu có đồ ăn không? Tôi bỏ bữa sáng, phải chạy sang chỗ Tống Triết kiếm chút gì đó. Đói chết tôi rồi."
 
-"Sao cậu không ăn sáng? Lâm Tuỳ đuổi việc quản gia rồi à?"
+"Sao cậu không ăn sáng? Lâm Tùy đuổi việc quản gia rồi à?"
 
-"Không, tôi bỏ nhà đi rồi. Không ở với Lâm Tuỳ nữa." Cố Tùy Châu thản nhiên buông một câu động trời.
+"Không, tôi bỏ nhà đi rồi. Không ở với Lâm Tùy nữa." Cố Tùy Châu thản nhiên buông một câu động trời.
 
 Leapton sặc nước bọt. "Đậu má?! Cậu bỏ nhà đi thật à? Cậu không sợ hắn ta giận quá mà phá hết đồ dì Cố Lãng để lại cho cậu sao?"
 
@@ -113,7 +113,7 @@ Chỉ một tuần trước, anh sẽ không bao giờ tưởng tượng đượ
 
 Các ký tự trên màn hình mờ nhòe thành một mớ hỗn độn, nhưng nhìn kỹ hơn, chúng chỉ gói gọn trong một vài thuật ngữ chính:
 
-"Lâm Tuỳ," "W.N," "Cố Tùy Châu," "Lâm Chu"...
+"Lâm Tùy," "W.N," "Cố Tùy Châu," "Lâm Chu"...
 
 Ban đầu anh cho rằng nhà họ Lâm chỉ là một tình tiết phụ nhỏ trong thế giới này, nhưng trong một tuần kể từ khi anh đến, tên tuổi và sự hiện diện của họ đã xuất hiện gần như khắp mọi nơi. Liệu đây có thực sự chỉ là sự trùng hợp ngẫu nhiên?
 
@@ -270,7 +270,7 @@ Hồ sơ chỉ vỏn vẹn vài dòng ngắn gọn.
 
 Dòng cuối cùng ghi rằng một thập kỷ trước, kết quả nghiên cứu được tiếp thị trái phép của họ đã bị phát hiện gây ra tổn hại không thể phục hồi cho cơ thể con người. Danh tiếng của W.N. vĩnh viễn bị hủy hoại, và hai nhà sáng lập, bị đè nặng bởi sức nặng của hành động mình, đã thanh lý toàn bộ tài sản để bồi thường trước khi tự kết liễu đời mình, để lại hai đứa con chưa đủ tuổi vị thành niên.
 
-—Một người tên là Lâm Tuỳ.
+—Một người tên là Lâm Tùy.
 
 —Người còn lại chỉ mới năm tuổi.
 
@@ -286,7 +286,7 @@ Thẩm Phi Triết không thể đảm bảo rằng việc liên lạc với Tin
 
 Anh không muốn đến đây chỉ để chết.
 
-Tiếng bước chân nhẹ nhàng vọng đến từ phía sau. Nhắm mắt lại, Thẩm Phi Triết nhận ra một trong những giọng nói trong cuộc trò chuyện nghe rất giống Lâm Tuỳ.
+Tiếng bước chân nhẹ nhàng vọng đến từ phía sau. Nhắm mắt lại, Thẩm Phi Triết nhận ra một trong những giọng nói trong cuộc trò chuyện nghe rất giống Lâm Tùy.
 
 Anh nhét tai nghe trở lại túi và đá nhẹ con robot nhỏ dưới chân.
 
@@ -298,7 +298,7 @@ Quả nhiên, hai bóng người phía sau không hề nhận ra điều bất t
 
 Biết rằng không nên vội vàng, anh dành phần còn lại của ngày để hoàn thành vai trò Giám đốc Vệ sinh một cách tận tụy, tránh gây thêm bất kỳ rắc rối nào.
 
-Chỉ sau khi nhìn Lâm Tuỳ rời khỏi W.N vào giờ tan tầm, anh mới thong thả ăn hết một chiếc macaron, vắt túi lên vai và bước ra ngoài.
+Chỉ sau khi nhìn Lâm Tùy rời khỏi W.N vào giờ tan tầm, anh mới thong thả ăn hết một chiếc macaron, vắt túi lên vai và bước ra ngoài.
 
 Đêm ở Thành Phố Ngầm kéo dài hơn so với ở Khu Dân Cư Lam Tinh.
 

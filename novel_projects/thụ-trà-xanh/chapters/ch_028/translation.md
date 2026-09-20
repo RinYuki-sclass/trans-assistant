@@ -122,9 +122,9 @@ Cố Tùy Châu khúc khích cười, quay sang hỏi: "Anh Thẩm, kế hoạch
 
 "Vào trong rồi tính tiếp," Thẩm Phi Triết thản nhiên đáp, mũi ủng tiện đà đá văng một viên sỏi.
 
-"Được lắm, đại ca, anh ngầu thật đấy." Cố Tùy Châu nói, vươn vai giãn gân cốt. Sau khi chỉnh đốn lại tư thế, hắn tiến về phía sau Thẩm Phi Triết. "Nhưng anh không thể đảm bảo là họ sẽ không kích hoạt báo động trong lúc bảo vệ tôi đâu."
+"Được lắm, đại ca, anh ngầu thật đấy." Cố Tùy Châu nói, vươn vai giãn gân cốt. Sau khi chỉnh đốn lại tư thế, cậu tiến về phía sau Thẩm Phi Triết. "Nhưng anh không thể đảm bảo là họ sẽ không kích hoạt báo động trong lúc bảo vệ tôi đâu."
 
-"Anh biết thừa là mình chỉ tổ làm vướng chân thôi mà." Thẩm Phi Triết vặn lại. "Vậy, rốt cuộc cậu muốn gì?"
+"Cậu biết thừa là mình chỉ tổ làm vướng chân thôi mà." Thẩm Phi Triết vặn lại. "Vậy, rốt cuộc cậu muốn gì?"
 
 Cố Tùy Châu không đáp, chỉ nhìn anh bằng đôi mắt cún con rồi mỉm cười.
 
@@ -132,9 +132,9 @@ Thẩm Phi Triết: "?"
 
 Sao tự nhiên mình lại có linh cảm chẳng lành thế này?
 
-Anh vừa định mở miệng hỏi, nhưng linh cảm ấy đã nhanh chóng trở thành hiện thực. Cố Tùy Châu bất ngờ vòng tay ôm lấy anh, vùi mặt vào hõm cổ anh. Hơi thở nóng hổi của hắn táo bạo tấn công tuyến mùi của anh.
+Anh vừa định mở miệng hỏi, nhưng linh cảm ấy đã nhanh chóng trở thành hiện thực. Cố Tùy Châu bất ngờ vòng tay ôm lấy anh, vùi mặt vào hõm cổ anh. Hơi thở nóng hổi của cậu táo bạo tấn công tuyến mùi của anh.
 
-Cùng lúc đó, bàn tay còn lại của hắn ấn mở cánh cửa ẩn phía sau, khiến những người bên trong giật bắn mình.
+Cùng lúc đó, bàn tay còn lại của cậu ấn mở cánh cửa ẩn phía sau, khiến những người bên trong giật bắn mình.
 
 "Chúa ơi! Các người là ai?!"
 
@@ -142,13 +142,13 @@ Cùng lúc đó, bàn tay còn lại của hắn ấn mở cánh cửa ẩn phí
 
 "Trời đất! Pheromone mạnh quá! Tôi sắp ngạt thở rồi! Mau lấy thiết bị cách ly cho tôi!"
 
-Trước khi ánh sáng trắng từ bên trong cánh cửa kịp tràn ra, Cố Tùy Châu đã ra hiệu cho Leapton cắt điện ở cầu dao chính. Thẩm Phi Triết lập tức hiểu ra ý đồ của hắn:
+Trước khi ánh sáng trắng từ bên trong cánh cửa kịp tràn ra, Cố Tùy Châu đã ra hiệu cho Leapton cắt điện ở cầu dao chính. Thẩm Phi Triết lập tức hiểu ra ý đồ của cậu:
 
 Giả vờ mất kiểm soát, xông vào trong rồi nhân tiện cắt điện để tạo sự hỗn loạn.
 
 Phải nói thật, đây đúng là một ý tưởng tồi tệ.
 
-Tệ hơn nữa, tên khốn đó thậm chí còn chẳng buồn hỏi ý kiến anh, cứ thế "gạo nấu thành cơm" mà không cho anh lấy một cơ hội phản kháng.
+Tệ hơn nữa, tên nhóc đó thậm chí còn chẳng buồn hỏi ý kiến anh, cứ thế "gạo nấu thành cơm" mà không cho anh lấy một cơ hội phản kháng.
 
 Bóng tối bất ngờ ập đến khiến cả căn phòng rơi vào hỗn loạn.
 
@@ -228,29 +228,29 @@ Làn da của anh cực kỳ nhạy cảm. Các thử nghiệm tại Main Star c
 
 Kể từ đó, để ngăn chặn những sự cố ngoài ý muốn, anh gần như tránh mọi tiếp xúc trực tiếp với người khác. Đây không đơn thuần chỉ là vấn đề sạch sẽ. Ngay cả những tương tác trước đây của anh cũng được điều chỉnh cẩn thận, giữ ở mức độ “đau đớn” thay vì “xúc chạm”.
 
-Điều này cũng áp dụng với Gu Suizhou. Mọi va chạm thể xác đều được anh cố tình làm cho thô bạo, tránh để đối phương vô tình cảm nhận được những rung động đa sắc thái.
+Điều này cũng áp dụng với Cố Tùy Châu. Mọi va chạm thể xác đều được anh cố tình làm cho thô bạo, tránh để đối phương vô tình cảm nhận được những rung động đa sắc thái.
 
-Đáng tiếc, Gu Suizhou không hề hay biết điều này.
+Đáng tiếc, Cố Tùy Châu không hề hay biết điều này.
 
-Sau khi Shen Feizhi hướng dẫn Leapton thắp đèn, họ mới nắm bắt được bố cục của căn phòng. Trái ngược với giả định ban đầu về việc nơi này chia thành nhiều gian nhỏ, họ phát hiện ra một thư viện mở, rộng lớn và thông suốt. Dù có nhiều cửa, không gian vẫn kết nối liền mạch, giải thích lý do tại sao tiếng bước chân vội vã họ nghe thấy trước đó lại vang vọng xa xôi dù hoạt động bên trong rất nhộn nhịp.
+Sau khi Thẩm Phi Triết hướng dẫn Leapton thắp đèn, họ mới nắm bắt được bố cục của căn phòng. Trái ngược với giả định ban đầu về việc nơi này chia thành nhiều gian nhỏ, họ phát hiện ra một thư viện mở, rộng lớn và thông suốt. Dù có nhiều cửa, không gian vẫn kết nối liền mạch, giải thích lý do tại sao tiếng bước chân vội vã họ nghe thấy trước đó lại vang vọng xa xôi dù hoạt động bên trong rất nhộn nhịp.
 
-Shen Feizhi chỉ về phía những giá sách tràn ngập tài liệu và mẫu vật, gọi Gu Suizhou lại: “Nhìn đây – những hồ sơ này ghi lại tổng sản lượng và doanh số bán từng loại cây thuốc của Vườn Thảo mộc kể từ khi thành lập. Hãy tìm bất cứ thứ gì từ mười năm trước.”
+Thẩm Phi Triết chỉ về phía những giá sách tràn ngập tài liệu và mẫu vật, gọi Cố Tùy Châu lại: “Nhìn đây – những hồ sơ này ghi lại tổng sản lượng và doanh số bán từng loại cây thuốc của Vườn Thảo mộc kể từ khi thành lập. Hãy tìm bất cứ thứ gì từ mười năm trước.”
 
-Nhận thấy vẻ mặt tái nhợt của Shen Feizhi, Gu Suizhou khôn ngoan kiềm chế không hỏi thêm câu nào.
+Nhận thấy vẻ mặt tái nhợt của Thẩm Phi Triết, Cố Tùy Châu khôn ngoan kiềm chế không hỏi thêm câu nào.
 
-Sau khi giao nhiệm vụ tìm kiếm, Shen Feizhi tập trung sự chú ý vào các loại dược liệu.
+Sau khi giao nhiệm vụ tìm kiếm, Thẩm Phi Triết tập trung sự chú ý vào các loại dược liệu.
 
-Bai Shi, một đặc sản của Pashimi, được trưng bày tự nhiên trong các mẫu vật. Mặc dù sách giáo khoa sinh học trung học có đề cập sơ lược, nhưng thông tin chi tiết lại rất ít ỏi. Shen Feizhi nhanh chóng quét qua tài liệu, sau nhiều vòng đối chiếu, anh phát hiện ra đây hiện là loại thảo mộc có tác động mạnh nhất đến việc tiết Pheromones của con người. Nhiều loại thuốc ức chế và chất cô lập đều sử dụng nó làm thành phần chính.
+Bai Shi, một đặc sản của Pashimi, được trưng bày tự nhiên trong các mẫu vật. Mặc dù sách giáo khoa sinh học trung học có đề cập sơ lược, nhưng thông tin chi tiết lại rất ít ỏi. Thẩm Phi Triết nhanh chóng quét qua tài liệu, sau nhiều vòng đối chiếu, anh phát hiện ra đây hiện là loại thảo mộc có tác động mạnh nhất đến việc tiết Pheromones của con người. Nhiều loại thuốc ức chế và chất cô lập đều sử dụng nó làm thành phần chính.
 
 Nhắc đến thuốc ức chế…
 
 Tính toán thời gian, chu kỳ phát tình của anh sắp đến gần.
 
-Shen Feizhi mệt mỏi xoa thái dương, cơn đau đầu âm ỉ khiến anh bất an. Alpha càng mạnh thì kỳ phát tình càng mãnh liệt. Việc lạm dụng thuốc ức chế có thể dẫn đến phản ứng ngược và tổn hại thể chất, vì vậy Shen Feizhi thường chọn cách tự mình chịu đựng.
+Thẩm Phi Triết mệt mỏi xoa thái dương, cơn đau đầu âm ỉ khiến anh bất an. Alpha càng mạnh thì kỳ phát tình càng mãnh liệt. Việc lạm dụng thuốc ức chế có thể dẫn đến phản ứng ngược và tổn hại thể chất, vì vậy Thẩm Phi Triết thường chọn cách tự mình chịu đựng.
 
 *Mình sẽ phải đuổi Nhóc Nhỏ ra ngoài và ẩn náu một mình trong vài ngày,* anh thầm nghĩ.
 
-Tận dụng khoảnh khắc anh mất tập trung, Gu Suizhou đã lấy được dữ liệu.
+Tận dụng khoảnh khắc anh mất tập trung, Cố Tùy Châu đã lấy được dữ liệu.
 
 “Anh Shen, nhìn này – đây là hồ sơ giao dịch giữa W.N và Vườn Thảo mộc từ mười năm trước. Mọi thứ từ thời kỳ đó đều ở đây cả.”
 
@@ -280,11 +280,11 @@ Nếu các tài khoản thực sự không khớp, thì họ đã phát hiện r
 
 Thay vì đưa ra lời an ủi, Thẩm Phi Triết lắc lắc chiếc máy tính bảng: "Cậu có nhận ra không?"
 
-Cố Tùy Châu dường như chẳng hề bận tâm, hắn bước lại gần, tay vung vẩy chiếc bình xịt. "Anh Thẩm, em tìm thấy thứ này hay lắm—thuốc hỗ trợ giấc ngủ. Chúng ta cùng dùng thử chút nhé?"
+Cố Tùy Châu dường như chẳng hề bận tâm, cậu bước lại gần, tay vung vẩy chiếc bình xịt. "Anh Thẩm, em tìm thấy thứ này hay lắm—thuốc hỗ trợ giấc ngủ. Chúng ta cùng dùng thử chút nhé?"
 
 Thẩm Phi Triết cau mày: "Đừng đánh trống lảng. Điều tôi đang nói rất quan trọng. Cậu không thấy hoạt động này diễn ra suôn sẻ một cách bất thường sao?"
 
-"Thuốc xịt này vô hại, nhưng giá trị của nó thì tấc đất tấc vàng. Nếu lấy được một ít, chúng ta sẽ kiếm được một khoản kha khá đấy." Cố Tùy Châu vẫn kiên trì, phớt lờ câu hỏi của anh. Chỉ đến khi đứng cách Thẩm Phi Triết chưa đầy một thước, hắn mới dừng lại, khẽ gọi: "Anh Thẩm."
+"Thuốc xịt này vô hại, nhưng giá trị của nó thì tấc đất tấc vàng. Nếu lấy được một ít, chúng ta sẽ kiếm được một khoản kha khá đấy." Cố Tùy Châu vẫn kiên trì, phớt lờ câu hỏi của anh. Chỉ đến khi đứng cách Thẩm Phi Triết chưa đầy một thước, cậu mới dừng lại, khẽ gọi: "Anh Thẩm."
 
 Thẩm Phi Triết sững người trong giây lát, rồi nhanh chóng vung tay định đánh Cố Tùy Châu.
 
@@ -322,21 +322,21 @@ Kể từ khi chương trình thực tế bắt đầu cho đến lúc họ “v
 
 Cảm giác bất an ấy lên đến đỉnh điểm khi mọi người bắt đầu bỏ chạy như thể đã được diễn tập từ trước, ngay khoảnh khắc họ vừa bước vào.
 
-Vốn dĩ vận xui luôn đeo bám Cố Tùy Châu, ngay cả việc bám theo Thẩm Phi Triết cũng chẳng cải thiện được bao nhiêu. Vì vậy, thay vì tin vào vận may, anh nghi ngờ có kẻ đã cố tình sắp xếp để anh tìm thấy những hồ sơ này.
+Vốn dĩ vận xui luôn đeo bám Cố Tùy Châu, ngay cả việc bám theo Thẩm Phi Triết cũng chẳng cải thiện được bao nhiêu. Vì vậy, thay vì tin vào vận may, cậu nghi ngờ có kẻ đã cố tình sắp xếp để cậu tìm thấy những hồ sơ này.
 
-"Lai Câu."
+"Lai Cẩu."
 
-Lai Câu đã theo dõi mọi hành động của họ qua camera giám sát, nhưng anh vẫn không thể hiểu nổi những sự kiện đang diễn ra. Vì hoàn toàn tin tưởng Cố Tùy Châu, anh kiềm chế không can thiệp khi thấy Cố Tùy Châu đối đầu với Thẩm Phi Triết.
+Lai Cẩu đã theo dõi mọi hành động của họ qua camera giám sát, nhưng cậu ta vẫn không thể hiểu nổi những sự kiện đang diễn ra. Vì hoàn toàn tin tưởng Cố Tùy Châu, cậu ta kiềm chế không can thiệp khi thấy Cố Tùy Châu đối đầu với Thẩm Phi Triết.
 
-Nghe đối phương cuối cùng cũng lên tiếng gọi mình, anh ngơ ngác đáp: "Sao vậy?"
+Nghe đối phương cuối cùng cũng lên tiếng gọi mình, cậu ta ngơ ngác đáp: "Sao vậy?"
 
 "Kiểm tra lại đoạn phim giám sát của Herb Garden trong vài ngày qua – tất cả các góc máy," Cố Tùy Châu nói. "Ngoài ra, hãy điều tra xem gần đây các thành viên trong nhóm quản lý đã gặp gỡ những ai. Có khả năng ai đó đã đến đây trước chúng ta."
 
-Lai Câu kinh ngạc: "Anh có nghi phạm nào không?"
+Lai Cẩu kinh ngạc: "Cậu có nghi phạm nào không?"
 
-Sắc mặt Cố Tùy Châu u ám đáng ngại, dường như trong đầu hắn đã hiện lên một cái tên. "Tôi biết. Cứ kiểm tra đoạn phim trước đã. Họ vẫn chưa đạt đến trình độ xóa sạch mọi dấu vết đâu. Chúng ta chắc chắn sẽ tìm ra thứ gì đó."
+Sắc mặt Cố Tùy Châu u ám đáng ngại, dường như trong đầu cậu đã hiện lên một cái tên. "Tôi biết. Cứ kiểm tra đoạn phim trước đã. Họ vẫn chưa đạt đến trình độ xóa sạch mọi dấu vết đâu. Chúng ta chắc chắn sẽ tìm ra thứ gì đó."
 
-"Hiểu rồi," Lai Câu nhanh chóng đồng ý, đoạn liếc nhìn tình thế khó khăn hiện tại của họ rồi hỏi: "Nếu có kẻ cố tình muốn anh nhìn thấy những thứ này, việc thoát thân hẳn sẽ dễ dàng. Không cần phải giấu anh Thẩm điều đó, tại sao anh lại đánh ngất anh ấy?"
+"Hiểu rồi," Lai Cẩu nhanh chóng đồng ý, đoạn liếc nhìn tình thế khó khăn hiện tại của họ rồi hỏi: "Nếu có kẻ cố tình muốn cậu nhìn thấy những thứ này, việc thoát thân hẳn sẽ dễ dàng. Không cần phải giấu anh Thẩm điều đó, tại sao cậu lại đánh ngất anh ấy?"
 
 "Tôi đánh ngất anh ấy, nhưng không phải để giấu giếm bất cứ điều gì." Ánh mắt Cố Tùy Châu lập tức dịu lại khi nhìn Thẩm Phi Triết, khóe môi khẽ nở một nụ cười nhàn nhạt. "Tôi chỉ nghĩ, nên nắm bắt thời cơ này thôi."
 
@@ -398,25 +398,25 @@ Kích thước bằng lòng bàn tay.
 
 Mọi số đo đều khớp hoàn hảo.
 
-Hơi thở Cố Tùy Châu trở nên dồn dập. Anh vội vã nhắm nghiền mắt, gạt bỏ mọi sự kiềm chế, dùng lực xoa xoa những đầu ngón tay đang tê dại trước khi run rẩy chạm vào vết sẹo ấy.
+Hơi thở Cố Tùy Châu trở nên dồn dập. Cậu vội vã nhắm nghiền mắt, gạt bỏ mọi sự kiềm chế, dùng lực xoa xoa những đầu ngón tay đang tê dại trước khi run rẩy chạm vào vết sẹo ấy.
 
-Dẫu trong lòng đã chắc chắn đến tám phần, nhưng khi ngón trỏ lần theo hình dáng quen thuộc mà anh từng vẽ vô số lần trong tâm trí, nước mắt anh vẫn trào ra không kiểm soát.
+Dẫu trong lòng đã chắc chắn đến tám phần, nhưng khi ngón trỏ lần theo hình dáng quen thuộc mà cậu từng vẽ vô số lần trong tâm trí, nước mắt cậu vẫn trào ra không kiểm soát.
 
-"Thẩm Phi Triết... quả nhiên là ngươi."
+"Thẩm Phi Triết... quả nhiên là anh."
 
-Cố Tùy Châu vốn có ngưỡng chịu đựng cao, nhưng tuyến lệ lại vô cùng nhạy cảm. Anh thường rơi vào trạng thái khóc không tự chủ—chỉ cần dây thần kinh bên phải bị tác động, nước mắt sẽ lập tức tuôn rơi.
+Cố Tùy Châu vốn có ngưỡng chịu đựng cao, nhưng tuyến lệ lại vô cùng nhạy cảm. Cậu thường rơi vào trạng thái khóc không tự chủ—chỉ cần dây thần kinh bên phải bị tác động, nước mắt sẽ lập tức tuôn rơi.
 
-Anh vội vàng rút tay lại, điên cuồng lau đi những giọt lệ trên má.
+Cậu vội vàng rút tay lại, điên cuồng lau đi những giọt lệ trên má.
 
 Trong cơn phấn khích tột độ, một làn sóng oán giận bất chợt dâng trào.
 
-Nhiều năm trước, Thẩm Phi Triết từng thề thốt rằng hắn biết tên anh, nhận ra anh, thấu hiểu anh, và hứa sẽ đối xử tốt với anh...
+Nhiều năm trước, Thẩm Phi Triết từng thề thốt rằng anh biết tên cậu, nhận ra cậu, thấu hiểu cậu, và hứa sẽ đối xử tốt với cậu...
 
-Tại sao bây giờ, hắn lại tỏ ra như thể cả hai chỉ mới gặp nhau lần đầu?
+Tại sao bây giờ, anh lại tỏ ra như thể cả hai chỉ mới gặp nhau lần đầu?
 
-Anh không tin rằng có kẻ nào lại có thể quên đi người đồng đội đã cùng mình vào sinh ra tử!
+Cậu không tin rằng có kẻ nào lại có thể quên đi người đồng đội đã cùng mình vào sinh ra tử!
 
-Cố Tùy Châu cúi đầu, tiếng nức nở nghẹn ngào vùi sâu vào hõm cổ và bờ vai Thẩm Phi Triết. Giọng anh khàn đặc:
+Cố Tùy Châu cúi đầu, tiếng nức nở nghẹn ngào vùi sâu vào hõm cổ và bờ vai Thẩm Phi Triết. Giọng cậu khàn đặc:
 
 "Anh Thẩm, sao anh lại giấu em?"
 
@@ -426,15 +426,15 @@ Cố Tùy Châu cúi đầu, tiếng nức nở nghẹn ngào vùi sâu vào hõ
 
 Cố Tùy Châu càng nói càng đau lòng, suýt chút nữa là bật khóc nức nở. 
 
-Trong thâm tâm, anh thậm chí đã tính toán rằng, nếu Thẩm Phi Triết thừa nhận: "Đúng, tôi thất vọng về cậu", anh sẽ giam cầm người này lại, nhốt chặt lấy anh, rồi ép anh phải dạy cho mình biết chính xác anh muốn anh trở thành loại người nào.
+Trong thâm tâm, cậu thậm chí đã tính toán rằng, nếu Thẩm Phi Triết thừa nhận: "Đúng, tôi thất vọng về cậu", cậu sẽ giam cầm người này lại, nhốt chặt lấy anh, rồi ép anh phải dạy cho mình biết chính xác anh muốn cậu trở thành loại người nào.
 
 *Chỉ cần anh nói thôi, em sẽ thay đổi!*
 
 Cố Tùy Châu run rẩy dữ dội, cơ bắp trên cánh tay căng cứng như thể đang muốn khảm Thẩm Phi Triết vào cơ thể mình. 
 
-Nhưng thực tế, anh chẳng dám gây ra chút áp lực nào. Thẩm Phi Triết vẫn đang say ngủ trong lòng anh, hàng chân mày không hề nhíu lại.
+Nhưng thực tế, cậu chẳng dám gây ra chút áp lực nào. Thẩm Phi Triết vẫn đang say ngủ trong lòng cậu, hàng chân mày không hề nhíu lại.
 
-Mãi đến khi những giọt nước mắt dần khô, cảm xúc của Cố Tùy Châu mới lắng xuống. Anh lúng túng lau tay vào vạt áo, cẩn thận lau đi cả vệt nước mắt còn vương trên cổ Thẩm Phi Triết.
+Mãi đến khi những giọt nước mắt dần khô, cảm xúc của Cố Tùy Châu mới lắng xuống. Cậu lúng túng lau tay vào vạt áo, cẩn thận lau đi cả vệt nước mắt còn vương trên cổ Thẩm Phi Triết.
 
 *Không sao, không sao cả.*
 
