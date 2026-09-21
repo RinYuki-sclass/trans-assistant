@@ -10,8 +10,8 @@
       "Anh Cố",
       "Lâm Châu"
     ],
-    "honorifics": "em - anh Thẩm",
-    "speech_style": "Thẳng thắn, nhạy bén, kịch tính, xưng em gọi anh Thẩm",
+    "honorifics": "em - Thẩm ca",
+    "speech_style": "Thẳng thắn, nhạy bén, kịch tính, xưng em gọi Thẩm ca, thích làm nũng tỏ vẻ trà xanh ngoan ngoãn",
     "notes": "Học sinh, Omega giả định (thực chất Alpha), nhạy cảm với pheromone. Em trai cùng cha khác mẹ với Lâm Tùy."
   },
   {
@@ -19,6 +19,7 @@
     "hanviet_name": "Thẩm Phi Triết",
     "gender": "Nam",
     "aliases": [
+      "Thẩm ca",
       "Thẩm Triết",
       "Thẩm Phi Triết",
       "Anh Thẩm",
@@ -27,7 +28,7 @@
       "Nhị thiếu gia",
       "nguyên chủ"
     ],
-    "honorifics": "tôi - cậu/anh",
+    "honorifics": "tôi - cậu (với Cố Tùy Châu: xưng tôi, gọi cậu hoặc nhóc con)",
     "speech_style": "Lạnh lùng, điềm tĩnh, sắc bén, chuyên nghiệp",
     "notes": "Nam chính xuyên sách, hacker tài năng, cải trang thành Thẩm Triết. Pheromone vị cà phê đắng."
   },
@@ -57,7 +58,7 @@
     ],
     "honorifics": "với Thẩm Phi Triết: tôi - anh; với Cố Tùy Châu: tôi - sếp (hoặc Cố thiếu / lão Cố)",
     "speech_style": "Thoải mái, suồng sã, nhiệt tình",
-    "notes": "Lớn hơn Cố Tùy Châu 9 tuổi nhưng làm việc dưới trướng Cố Tùy Châu (Cố Tùy Châu là sếp). Chủ quán net đối diện W.N kiêm thu ngân (tóc vàng). Bạn thân của Thẩm Phi Triết. Thường được gọi là Tóc Vàng / Blondie."
+    "notes": "Lớn hơn Cố Tùy Châu 7 tuổi nhưng làm việc dưới trướng Cố Tùy Châu (Cố Tùy Châu là sếp). Chủ quán net đối diện W.N kiêm thu ngân (tóc vàng). Bạn thân của Thẩm Phi Triết. Thường được gọi là Tóc Vàng / Blondie."
   },
   {
     "name": "Gu Lang",
