@@ -10,7 +10,7 @@ Sau khi Cố Tùy Châu giở trò ăn vạ đến lần thứ một trăm, Th�
 
 Cố Tùy Châu hậm hực suốt cả chặng đường, đến tận khi về đến nhà vẫn nhất quyết không chịu mở cửa cho Thẩm Phi Triết.
 
-"Ồ, vậy ra lời hứa giúp anh tỉa bớt hoa đào coi như bỏ đi rồi nhỉ? Chậc chậc, xem ra anh Thẩm đây cũng chẳng phải người giữ lời cho lắm."
+"Ồ, vậy ra lời hứa giúp anh tỉa bớt hoa đào coi như bỏ đi rồi nhỉ? Chậc chậc, xem ra Thẩm ca đây cũng chẳng phải người giữ lời cho lắm."
 
 Thẩm Phi Triết đã cố kìm nén cơn giận từ lúc rời đi.
 
@@ -24,7 +24,7 @@ Tất nhiên, Cố Tùy Châu không đời nào chịu nhúc nhích: "Thứ B�
 
 "Đi làm gì?" Thẩm Phi Triết nhíu mày. "Trong mắt bọn họ, cậu vẫn là người yêu cũ của tôi đấy."
 
-Dẫn người yêu cũ đi mua nhà tân hôn với vị hôn thê ư? Chuyện điên rồ như vậy anh không bao giờ làm.
+Dẫn người yêu cũ đi mua nhà tân hôn với vị hôn thê ư? Chuyện quái đản cỡ đó có đánh chết anh cũng không làm.
 
 Cố Tùy Châu gắt gỏng: "Em phải đi để xác lập vị thế chính thất của mình!"
 
@@ -48,7 +48,7 @@ Cố Tùy Châu chớp chớp mắt: "Anh muốn em đi cùng ạ?"
 
 "Tôi tiện đường đưa cậu về," Thẩm Phi Triết đáp.
 
-"Thật là thất vọng quá đi," Cố Tùy Châu nói vậy, nhưng tay đã nhanh thoăn thoắt mở cửa xe. Ngay trước khi bước vào, cậu cố tình dừng lại, làm bộ do dự: "Anh Thẩm, như vậy có làm trễ việc của anh không? Có hơi phiền phức quá không ạ?"
+"Thật là thất vọng quá đi," Cố Tùy Châu nói vậy, nhưng tay đã nhanh thoăn thoắt mở cửa xe. Ngay trước khi bước vào, cậu cố tình dừng lại, làm bộ do dự: "Thẩm ca, như vậy có làm trễ việc của anh không? Có hơi phiền phức quá không ạ?"
 
 Cậu vốn mong chờ Thẩm Phi Triết sẽ trấn an mình bằng một câu đầy bá đạo: "Đừng bận tâm."
 
@@ -86,8 +86,8 @@ Thằng nhóc hỗn xược: ?
 Thằng nhóc hỗn xược: /Cáo nhỏ tủi thân/
 S: Nếu cậu còn bắt tôi đợi một tiếng nữa, cậu chết chắc rồi.
 Thằng nhóc hỗn xược: ? Lục Khiêm bắt anh đợi một tiếng sao?
-Thằng nhóc hỗn xược: Thật quá đáng! Nếu là em, em tuyệt đối sẽ không bao giờ để anh Thẩm phải đợi một tiếng, dù chỉ một giây cũng không! Tiếc là hôm nay em không phải nhân vật chính, nếu không em nhất định sẽ không để anh Thẩm phải chịu uất ức thế này đâu.
-"Đồ nhóc con hỗn xược này! /Cáo nhỏ đáng thương của tôi ơi!/"
+Thằng nhóc hỗn xược: Thật quá đáng! Nếu là em, em tuyệt đối sẽ không bao giờ để Thẩm ca phải đợi một tiếng, dù chỉ một giây cũng không! Tiếc là hôm nay em không phải nhân vật chính, nếu không em nhất định sẽ không để Thẩm ca phải chịu uất ức thế này đâu.
+Thằng nhóc hỗn xược: /Bé cáo đáng thương của tôi ơi!/
 
 Thẩm Phi Triết nhìn dòng tin nhắn dồn dập mà Cố Tùy Châu gửi tới, khẽ mím môi.
 Anh biết Cố Tùy Châu đang diễn kịch, nhưng trong lòng vẫn cảm thấy… thật dễ chịu.
@@ -147,13 +147,14 @@ Nụ cười trên môi cậu nhạt dần, cậu nhấn mở nó ra.
 Đó là một bức ảnh dài dằng dặc, được ghép lại từ vô số tấm ảnh chụp màn hình nhỏ. Nội dung bên trong là toàn bộ lịch sử dùng emoji qua lại giữa Thẩm Phi Triết và Lai Cẩu. Từng tấm ảnh đều hiển thị rõ tên người liên lạc ở phía trên, không chút nghi ngờ về danh tính của hai nhân vật chính.
 
 Lai Cẩu: Một cái emoji thôi mà? Có đáng để làm quá lên vậy không?
-Lai Cẩu: Anh Thẩm của tôi với tôi mà ghép lại thì thành cả một album meme phản ứng luôn ấy chứ! /ngại ngùng/
+Lai Cẩu: Thẩm ca với tôi mà ghép lại thì thành cả một album meme luôn ấy chứ! /ngại ngùng/
+
 Cố Tùy Châu: ?
 
-Đồ Lai Cẩu chết tiệt, gan mày to lắm!
-Anh ấy là của riêng mình ta!
+Đồ Lai Cẩu chết tiệt, gan anh to bằng trời rồi!
+Bổn cung mới là chính thất!
 
-Gương mặt Cố Tùy Châu đỏ bừng vì tức giận, cơn ghen tuông khiến tầm mắt cậu nhòe đi. Cậu lưu tấm ảnh dài đó lại rồi bắt tay vào "công việc", tỉ mỉ cắt bỏ mọi dấu vết của Lai Cẩu, đồng thời đổi biệt danh "Anh Thẩm" thành "Anh Thẩm của Cố Tùy Châu~".
+Gương mặt Cố Tùy Châu đỏ bừng vì tức giận, cơn ghen tuông khiến tầm mắt cậu nhòe đi. Cậu lưu tấm ảnh dài đó lại rồi bắt tay vào "công việc", tỉ mỉ cắt bỏ mọi dấu vết của Lai Cẩu, đồng thời đổi biệt danh "Thẩm tiên sinh" thành "Thẩm ca của Cố Tùy Châu~".
 
 Bức ảnh dài đến mức khiến mắt cậu hoa lên, cổ cũng mỏi nhừ vì chỉnh sửa. Thế nhưng, ngay khoảnh khắc hoàn thành, cảm giác thỏa mãn và vui sướng dâng trào trong lòng cậu còn lớn hơn bất cứ niềm vui nào suốt mấy ngày qua.
 
@@ -172,7 +173,7 @@ G: Con người mà, phải biết tự làm mình vui chứ.
 
 Vậy thì đã sao nếu cậu đang tự lừa dối chính mình?
 Chỉnh sửa ảnh thì có phạm pháp không cơ chứ?
-Cậu khẽ ngân nga một điệu nhạc, rồi đột nhiên nhớ ra điều gì đó. Cậu lao vào phòng làm việc, gõ phím điên cuồng trên màn hình thông minh, xâm nhập vào Starnet, phá vỡ tường lửa của hệ thống dữ liệu Blue Star, và…
+Cậu khẽ ngân nga một điệu nhạc, rồi đột nhiên nhớ ra điều gì đó. Cậu lao vào phòng làm việc, gõ phím điên cuồng trên màn hình thông minh, xâm nhập vào Starnet, phá vỡ tường lửa của hệ thống dữ liệu Lam Tinh, và…
 …đánh cắp thông tin liên lạc của Lục Khiêm.
 
 Lục Khiêm đang ngồi ở ghế sau chiếc hovercar, vui vẻ mua sắm trực tuyến thì một lời mời kết bạn từ số lạ hiện lên.
@@ -187,20 +188,20 @@ Cái cảm giác muốn mặc định mình là "tiểu tam" và sắp bị "ch�
 Cô do dự đúng ba phút.
 Nhưng đối phương rõ ràng là không đủ kiên nhẫn, lại gửi thêm một lời mời kết bạn nữa.
 Lục Khiêm: "……"
-Nếu mình không chấp nhận, chắc chắn bông anh túc xinh đẹp kia sẽ gửi yêu cầu đến mức điện thoại mình sập nguồn mất.
+Nếu mình không chấp nhận, chắc chắn bông hoa anh túc xinh đẹp kia sẽ gửi yêu cầu đến mức điện thoại mình sập nguồn mất.
 Cô miễn cưỡng nhấn đồng ý.
 Ngay lập tức, một tin nhắn hiện lên.
 G: Chào buổi chiều, chị gái ^ ^
 
-"No Romance, Just Love": Bé cưng à?
+[Không màng yêu đương]: Bé cưng à?
 
-G: Là em đây ^ ^ Em đã thấy chị từ trước và nghĩ rằng chị đẹp vô cùng. Em lấy thông tin liên lạc của chị từ chỗ anh Thẩm. Xin lỗi vì đã đột ngột kết bạn, hy vọng chị không phiền nhé?
+G: Là em đây ^ ^ Em đã thấy chị từ trước và nghĩ rằng chị đẹp vô cùng. Em lấy thông tin liên lạc của chị từ chỗ Thẩm ca. Xin lỗi vì đã đột ngột kết bạn, hy vọng chị không phiền nhé?
 
 Những kẻ thù cấp cao thường là bậc thầy trong việc dùng lời lẽ ngọt ngào, Lục Khiêm tự cảnh báo bản thân trong lòng, nhắc nhở mình phải luôn cảnh giác.
 
 Thế nhưng, một nụ cười rạng rỡ vẫn không kìm được mà lan tỏa trên gương mặt cô.
 
-"No Dates, Just Love": Tất nhiên là chị không phiền rồi! Chị rất vui khi em kết bạn, bé cưng à!
+[Không màng yêu đương]: Tất nhiên là chị không phiền rồi! Chị rất vui khi em kết bạn, bé cưng à!
 
 G: Tuyệt quá~
 
@@ -210,11 +211,11 @@ Nụ cười của Lục Khiêm gần như kéo tận mang tai. Thẩm Phi Tri�
 
 Họ đang trò chuyện gì mà vui vẻ đến thế?
 
-Lần cuối cùng anh thấy Lục Khiêm cười tươi tắn như vậy là tại buổi dạ tiệc của Thẩm gia, khi cô đang trò chuyện cùng Cố Tùy Châu. Lời lẽ của nhóc đó còn ngọt hơn cả mật ong.
+Lần cuối cùng anh thấy Lục Khiêm cười tươi tắn như vậy là tại buổi dạ tiệc của Thẩm gia, khi cô đang trò chuyện cùng Cố Tùy Châu. Lời lẽ của cậu nhóc đó còn ngọt hơn cả mật ong.
 
 Lục Khiêm hoàn toàn không để tâm đến Thẩm Phi Triết.
 
-"No Dates, Just Love": Cái miệng nhỏ này thật khéo nói! Chị cũng mê gương mặt của em lắm! Nhớ đăng thêm ảnh nhé! Nếu em không biết chỉnh sửa, chị có thể giúp. Chúng ta là Omega thì phải xinh đẹp như hoa! Để lũ Alpha khốn kiếp đó không bao giờ xứng đáng với chúng ta!
+[Không màng yêu đương]: Cái miệng nhỏ này thật khéo nói! Chị cũng mê gương mặt của em lắm! Nhớ đăng thêm ảnh nhé! Nếu em không biết chỉnh sửa, chị có thể giúp. Chúng ta là Omega thì phải xinh đẹp như hoa! Để lũ Alpha khốn kiếp đó không bao giờ xứng đáng với chúng ta!
 
 G: Chị Khiêm Khiêm nói đúng lắm ^ ^
 
@@ -252,17 +253,17 @@ Sau khi soi xét kỹ lưỡng, cuối cùng cô cũng ghép được những m�
 
 Lục Khiêm cố nén nụ cười đắc thắng, gửi đoạn ghi âm cho Cố Tùy Châu.
 
-[Yêu không ràng buộc: Vừa trò chuyện với Phi Triết xong. Không muốn em phải suy nghĩ nhiều nên chị công khai chia sẻ cuộc hội thoại này với em nhé~]
+[Không màng yêu đương]: Vừa trò chuyện với Phi Triết xong. Không muốn em phải suy nghĩ nhiều nên chị công khai chia sẻ cuộc hội thoại này với em nhé~
 
-[Yêu không ràng buộc: Đừng lo lắng, dù Phi Triết cực kỳ lịch thiệp và ngọt ngào với chị, nhưng chị sẽ không "tự mình đa tình" đâu, được chứ?~]
+[Không màng yêu đương]: Đừng lo lắng, dù Phi Triết cực kỳ lịch thiệp và ngọt ngào với chị, nhưng chị sẽ không "tự mình đa tình" đâu, được chứ?~
 
 Đầu dây bên kia im lặng hồi lâu, không khí trở nên căng thẳng.
 
 Ngay khi Lục Khiêm tưởng rằng cậu sẽ không trả lời, một tin nhắn đầy vẻ kiên định và vui vẻ cuối cùng cũng được gửi đến.
 
-[G: Chị đang nói gì vậy? Sao em có thể lo lắng về chị được chứ, chị Khiêm Khiêm? ^_^]
+G: Chị đang nói gì vậy? Sao em có thể lo lắng về chị được chứ, chị Khiêm Khiêm? ^_^
 
-[G: Chúc chị chơi vui vẻ với anh Thẩm của em nhé!~]
+G: Chúc chị chơi vui vẻ với Thẩm ca của em nhé!~
 
 Đầu ngón tay Cố Tùy Châu siết chặt, suýt chút nữa đã làm vỡ nát bàn phím.
 
@@ -279,7 +280,7 @@ Cố Tùy Châu đi lại không ngừng, cuối cùng ánh mắt cậu dừng l
 
 Cố Tùy Châu nheo mắt, siết chặt cuốn sổ vào lòng.
 
-Để tránh việc anh Thẩm lại giở mấy trò quái đản đó ra vào lần tới, cậu nhất định phải nghiên cứu kỹ mấy thứ kỳ quặc này mới được.
+Để tránh việc Thẩm ca lại giở mấy trò quái đản đó ra vào lần tới, cậu nhất định phải nghiên cứu kỹ mấy thứ kỳ quặc này mới được.
 
 Mùi cà phê thoang thoảng tỏa ra từ cuốn sổ khiến tâm trạng cậu dịu lại đôi chút.
 
@@ -288,7 +289,7 @@ Ngay sau đó, cậu chuyển tiếp đoạn ghi âm cho Lai Cẩu.
 G: Tự lừa dối bản thân đấy.
 
 Lai Cẩu: ?
-Lai Cẩu: Trong đoạn ghi âm là giọng phụ nữ à? Sao không phải là mày?
+Lai Cẩu: Trong đoạn ghi âm là giọng phụ nữ à? Sao không phải là sếp?
 
 Cố Tùy Châu: "……"
 
@@ -308,7 +309,7 @@ Trong một tiệm internet tại Thành phố Ngầm, Lai Cẩu nằm dài trê
 
 Rốt cuộc là ai chứ? Tại sao Cố Tùy Châu lại không trả lời?
 
-Cậu ta gửi một tin nhắn: "Mày đang ở đâu?"
+Cậu ta gửi một tin nhắn: "Sếp đang ở đâu thế?"
 
 Kết quả nhận được là...
 
@@ -316,22 +317,21 @@ Kết quả nhận được là...
 
 Lai Cẩu: "?"
 
-***
+---
 
-**Lời tác giả:**
+### Lời tác giả
 
-Lai Cẩu: Mẹ kiếp, đồ mê trai!
+**Lai Cẩu:** Mẹ kiếp, đồ mê trai!
 
 Cảm ơn mọi người đã ủng hộ! Yêu tất cả các bạn!
 
 Cảm ơn các thiên thần đã tặng vé bá vương hoặc tưới dịch dinh dưỡng cho truyện của tôi trong khoảng thời gian từ 18:36:42 ngày 24/02/2023 đến 16:46:09 ngày 25/02/2023!
 
 Cảm ơn các thiên thần đã tưới dịch dinh dưỡng:
-
-"Năm nay tôi cũng sẽ cố gắng ăn ngon": 23 bình
-"Bách Ngọc": 6 bình
-"Disy", "CP phụ là thuốc độc": 5 bình
-"Cá mặn giảm giá 20%": 3 bình
-"CP của tôi ngày nào cũng làm*", "Venaes", "Ngũ Lương Dịch", "Nhóp nhép", "Hình Cửu Yến": mỗi người 1 bình
+- "Năm nay tôi cũng sẽ cố gắng ăn ngon": 23 bình
+- "Bách Ngọc": 6 bình
+- "Disy", "CP phụ là thuốc độc": 5 bình
+- "Cá mặn giảm giá 20%": 3 bình
+- "CP của tôi ngày nào cũng làm*", "Venaes", "Ngũ Lương Dịch", "Nhóp nhép", "Hình Cửu Yến": mỗi người 1 bình
 
 Cảm ơn sự ủng hộ của mọi người rất nhiều! Tôi sẽ tiếp tục cố gắng!

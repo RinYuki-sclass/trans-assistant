@@ -58,7 +58,7 @@ Nếu anh nhớ không lầm, chỉ những người bạn chung mới có thể
 
 Một đường cong nguy hiểm khẽ hiện lên trên môi Thẩm Phi Triết.
 
-Cố Tùy Châu, em tiêu đời rồi.
+Cố Tùy Châu, cậu tiêu đời rồi.
 
 Sau khi gửi đường link, Lục Khiêm ngẩng đầu lên và bắt gặp Thẩm Phi Triết đang tỏa ra một luồng khí lạnh thấu xương.
 
@@ -224,13 +224,13 @@ Vì vậy, khi đối mặt với sự chất vấn bình thản, tự tin của
 
 Làm sao một người không biết gì lại có thể nói chuyện với vẻ tự tin tuyệt đối như vậy được chứ?
 
-Đôi môi hắn run rẩy: "Anh… anh muốn gì?"
+Đôi môi ông ta run rẩy: "Anh… anh muốn gì?"
 
-"Chúng tôi sẽ không làm hại cậu," Thẩm Phi Triết điềm tĩnh đáp. "Tôi biết cậu chỉ là kẻ làm thuê đang thực hiện nhiệm vụ của mình. Vậy nên, nếu hôm nay cậu vẽ lại sơ đồ mặt bằng của tòa dinh thự cũ nhà họ Thẩm cho tôi, tôi sẽ để cậu đi."
+"Chúng tôi sẽ không làm hại ông," Thẩm Phi Triết điềm tĩnh đáp. "Tôi biết ông chỉ là kẻ làm thuê đang thực hiện nhiệm vụ của mình. Vậy nên, nếu hôm nay ông vẽ lại sơ đồ mặt bằng của tòa dinh thự cũ nhà họ Thẩm cho tôi, tôi sẽ để ông đi."
 
 Lục Phàm lắc đầu nguầy nguậy: "Không! Tuyệt đối không! Không thể nào! Đừng hòng nghĩ đến chuyện đó! Tôi sẽ chết mất! Ông ta sẽ giết tôi mất!"
 
-"Đó là chuyện của sau này," Thẩm Phi Triết nói, gã đã khóa chặt cửa từ trước để ngăn đối phương bỏ trốn. "Điều cậu cần hiểu ngay lúc này là nếu không vẽ cho tôi, tôi sẽ giết cậu ngay tại đây."
+"Đó là chuyện của sau này," Thẩm Phi Triết nói, anh đã khóa chặt cửa từ trước để ngăn đối phương bỏ trốn. "Điều ông cần hiểu ngay lúc này là nếu không vẽ cho tôi, tôi sẽ giết ông ngay tại đây."
 
 Tay Lục Khiêm run lên khi nhấp một ngụm mocha.
 
@@ -248,19 +248,19 @@ Lịch sử từng ghi lại những trường hợp tóc bạc trắng chỉ sa
 
 Lục Phàm buông xuôi phó mặc cho số phận.
 
-Với tử khí bao trùm, hắn phác thảo một bản vẽ sơ sài. Tuy nhiên, hắn vẫn ngoan cố từ chối trả lời bất kỳ câu hỏi nào khác, ngay cả khi bị đe dọa bằng cái chết.
+Với tử khí bao trùm, ông ta phác thảo một bản vẽ sơ sài. Tuy nhiên, ông ta vẫn ngoan cố từ chối trả lời bất kỳ câu hỏi nào khác, ngay cả khi bị đe dọa bằng cái chết.
 
 "Tôi hy vọng anh giữ lời," Lục Phàm lẩm bẩm sau khi đặt bút nét cuối cùng, tinh thần hoàn toàn sụp đổ. "Tôi thực sự không muốn chết."
 
-Thẩm Phi Triết không để tâm đến hắn, chỉ chăm chú nghiên cứu bản vẽ. Đột nhiên, anh khẽ cười, những ngón tay thanh mảnh gõ nhẹ vào khu vực bên dưới căn bếp tầng trệt. "Cậu chắc chắn là đã vẽ hết rồi chứ?"
+Thẩm Phi Triết không để tâm đến ông ta, chỉ chăm chú nghiên cứu bản vẽ. Đột nhiên, anh khẽ cười, những ngón tay thanh mảnh gõ nhẹ vào khu vực bên dưới căn bếp tầng trệt. "Ông chắc chắn là đã vẽ hết rồi chứ?"
 
 Đồng tử Lục Phàm co rút, cổ cứng đờ gật đầu: "Phải."
 
-"Xem ra cậu không coi trọng mạng sống của mình như những gì đã nói," Thẩm Phi Triết nhận xét. "Cậu chắc chắn rằng ngôi nhà sẽ không sụp đổ nếu không có thứ gì chống đỡ ở đây sao?"
+"Xem ra ông không coi trọng mạng sống của mình như những gì đã nói," Thẩm Phi Triết nhận xét. "Ông chắc chắn rằng ngôi nhà sẽ không sụp đổ nếu không có thứ gì chống đỡ ở đây sao?"
 
 Lục Phàm không bao giờ ngờ rằng đối thủ của mình lại am hiểu đến thế.
 
-Nụ cười trên môi Thẩm Phi Triết hoàn toàn biến mất. "Cậu chắc chắn là không còn gì để bổ sung nữa chứ?"
+Nụ cười trên môi Thẩm Phi Triết hoàn toàn biến mất. "Ông chắc chắn là không còn gì để bổ sung nữa chứ?"
 
 Sau một thoáng im lặng, Lục Phàm đột ngột đứng dậy rồi quỳ sụp xuống với một tiếng "bịch" khô khốc. "Xin anh! Xin Nhị thiếu gia! Tôi không thể nói! Tôi thực sự không thể nói!"
 
@@ -272,13 +272,13 @@ Thẩm Phi Triết: "Còn vấn đề gì sao?"
 
 "Không! Không có ạ!" Lục Phàm vội vã đứng dậy, khúm núm vì sợ hãi rồi chạy biến ra cửa như một con thú bị săn đuổi.
 
-Lục Khiêm nhìn Thẩm Phi Triết đang thản nhiên thao tác trên hệ thống chứng khoán, sự tò mò trỗi dậy: "Anh cứ để hắn đi như vậy sao?"
+Lục Khiêm nhìn Thẩm Phi Triết đang thản nhiên thao tác trên hệ thống chứng khoán, sự tò mò trỗi dậy: "Anh cứ để ông ta đi như vậy sao?"
 
 "Giờ có ép cũng chẳng khai thác được gì thêm," Thẩm Phi Triết đáp. "Để một thời gian nữa rồi tính tiếp."
 
 Dù sao thì họ vẫn phải duy trì vỏ bọc này—căn nhà của họ vẫn còn cần tu sửa.
 
-Thẩm Phi Triết quay sang Lục Khiêm: "Người của cô có đảm bảo được an toàn cho hắn không?"
+Thẩm Phi Triết quay sang Lục Khiêm: "Người của cô có đảm bảo được an toàn cho ông ta không?"
 
 Lục Khiêm cân nhắc một lát: "Bảo vệ một người à? Không thành vấn đề."
 
@@ -286,7 +286,7 @@ Thẩm Phi Triết gõ nhẹ ngón tay lên mặt bàn.
 
 Anh hiểu rõ ẩn ý của Lục Khiêm.
 
-Sự phục tùng của Lục Phàm đối với Thẩm lão gia chủ có lẽ bắt nguồn từ một thứ gì đó mà lão dùng để khống chế hắn. Nếu "thứ đó" liên quan đến gia đình hắn, tình hình sẽ trở nên vô cùng phức tạp.
+Sự phục tùng của Lục Phàm đối với Thẩm lão gia chủ có lẽ bắt nguồn từ một thứ gì đó mà lão dùng để khống chế ông ta. Nếu "thứ đó" liên quan đến gia đình ông ta, tình hình sẽ trở nên vô cùng phức tạp.
 
 Mặc dù Thẩm Phi Triết sở hữu tầm ảnh hưởng không nhỏ, nhưng mạng lưới quan hệ cá nhân của anh lại quá mỏng. Anh không thể xây dựng được những đồng minh thực sự đáng tin cậy trong khoảng thời gian ngắn ngủi này.
 
@@ -386,7 +386,7 @@ Thẩm Phi Triết cười lạnh: "Cút."
 
 Người phục vụ nuốt khan, giọng run rẩy: "Thưa anh, có chỗ nào khiến anh không hài lòng sao…?"
 
-Thẩm Phi Triết liếc nhìn gã bằng ánh mắt lạnh lẽo như băng giá.
+Thẩm Phi Triết liếc nhìn anh ta bằng ánh mắt lạnh lẽo như băng giá.
 
 Người phục vụ: "…Được rồi, tôi đi ngay đây."
 
@@ -404,7 +404,7 @@ Chưa kịp để cô nói hết câu, Thẩm Phi Triết đã gập tay, dùng 
 
 "Trời đất ơi!" Lục Khiêm kinh ngạc thốt lên. "Phi Triết! Sao anh lại giết hại một sinh linh vô tội như vậy?"
 
-"Giết hại?" Thẩm Phi Triết mỉm cười đầy ẩn ý. "Tôi chỉ có thể giết thứ gì đó còn sống thôi. Ăn cơm trước đã, lát nữa tôi đưa em về."
+"Giết hại?" Thẩm Phi Triết mỉm cười đầy ẩn ý. "Tôi chỉ có thể giết thứ gì đó còn sống thôi. Ăn cơm trước đã, lát nữa tôi đưa cô về."
 
 Lục Khiêm không hiểu ý anh, nhưng cô đủ tin tưởng để không truy hỏi thêm. Sau khi dùng bữa xong, cô cùng anh sánh bước rời khỏi quán cà phê.
 
@@ -412,7 +412,7 @@ Ngay khoảnh khắc bước ra ngoài, họ nhìn thấy một người không 
 
 Thẩm Phi Triết nhíu mày: "Cố Tùy Châu."
 
-Người đàn ông đang ngồi xổm dưới gốc cây nghịch bùn, nghe thấy tiếng gọi tên mình liền ngẩng phắt đầu lên, nhanh như một chú chó lớn chộp được khúc xương, lao thẳng về phía họ.
+Thiếu niên đang ngồi xổm dưới gốc cây nghịch bùn, nghe thấy tiếng gọi tên mình liền ngẩng phắt đầu lên, nhanh như một chú chó lớn chộp được khúc xương, lao thẳng về phía họ.
 
 Vì quá vội vàng, cậu còn suýt vấp ngã.
 
@@ -456,19 +456,19 @@ Thẩm Phi Triết không đáp, anh nắm lấy cổ tay Cố Tùy Châu kéo �
 
 Cố Tùy Châu: "……"
 
-Cậu miễn cưỡng bước tới nhặt con chim lên, giả vờ ngạc nhiên: "Anh Thẩm! Con chim này không có máu!"
+Cậu miễn cưỡng bước tới nhặt con chim lên, giả vờ ngạc nhiên: "Thẩm ca! Con chim này không có máu!"
 
 "Chưa hết đâu," Thẩm Phi Triết thong thả bước tới đứng cạnh cậu. "Không chỉ không có máu, mà mắt của nó còn là camera thu nhỏ nữa."
 
 Tim Cố Tùy Châu khẽ run lên.
 
-Cậu đã vất vả lần theo dấu vết để tìm đến tận cửa quán cà phê cùng chiếc drone giám sát hình chim mới chế tạo, chỉ để chứng kiến hai người họ đang dùng bữa thân mật. Cơn giận bốc lên đầu khiến Cố Tùy Châu mất bình tĩnh, cậu đã hối lộ một nhân viên để liên tục quấy rối họ.
+Cậu đã vất vả lần theo dấu vết để tìm đến tận cửa quán cà phê cùng chiếc drone giám sát hình chim mới chế tạo, chỉ để chứng kiến hai người họ đang dùng bữa thân mật. Cơn giận bốc lên đầu khiến Cố Tùy Châu mất bình tĩnh, cậu đã hối lộ nhân viên để liên tục quấy rối họ.
 
 Nhìn đôi môi hơi hé mở của Cố Tùy Châu, Thẩm Phi Triết khẽ cười: "Nói xem, em nghĩ ai là chủ nhân của chiếc drone giám sát này?"
 
 "Em không biết ạ," Cố Tùy Châu mỉm cười đáp.
 
-Thẩm Phi Triết không khẳng định cũng chẳng phủ nhận, anh đổi giọng: "Sao em tìm được tôi?"
+Thẩm Phi Triết không khẳng định cũng chẳng phủ nhận, anh đổi giọng: "Sao cậu tìm được tôi?"
 
 Đôi mắt Cố Tùy Châu đảo quanh: "Thần giao cách cảm, là định mệnh đấy ạ. Chúng ta là tri kỷ, là một cặp trời sinh."
 
@@ -478,11 +478,11 @@ Cố Tùy Châu: "……"
 
 Ánh mắt Thẩm Phi Triết sắc lạnh như hai lưỡi dao băng: "Vị hôn phu nào?"
 
-Ông lão tặc lưỡi, tấm tắc khen ngợi gương mặt của Thẩm Phi Triết: "Vừa nãy có một cô gái trẻ đã đi bộ cả ngàn dặm, tất cả chỉ để tìm vị hôn phu ngây thơ, khờ khạo không biết sự đời của mình đấy!"
+Ông lão tặc lưỡi, tấm tắc khen ngợi gương mặt của Thẩm Phi Triết: "Vừa nãy có một người trẻ tuổi đã đi bộ cả ngàn dặm, tất cả chỉ để tìm vị hôn phu ngây thơ, khờ khạo không biết sự đời của mình đấy!"
 
 Thẩm Phi Triết: "?"
 
-Ông lão quay sang Cố Tùy Châu: "Cô ấy còn mang theo vật đính ước của hai người — nếu ta nhớ không nhầm thì là một con chim nhỏ màu xanh lục bảo… À! Giống hệt con chim chết này này!"
+Ông lão quay sang Cố Tùy Châu: "Cậu ta còn mang theo vật đính ước của hai người — nếu ta nhớ không nhầm thì là một con chim nhỏ màu xanh lục bảo… À! Giống hệt con chim chết này này!"
 
 Thẩm Phi Triết: "."
 
@@ -490,19 +490,19 @@ Thẩm Phi Triết: "."
 
 Thế nhưng, người trong cuộc không biết là do thần kinh thép hay bản tính gan lì, vẫn bình thản đáp: "Ông nội, ông nhận nhầm người rồi."
 
-"Không thể nào! Không chỉ giống hệt mấy con chim kia, mà cậu còn y hệt người trong ảnh nữa!" Thị lực của ông lão quả thực đã suy giảm, nhưng tính khí thì vẫn cố chấp như xưa. "Cậu chắc chắn người đàn ông cầm ảnh khóc lóc ngoài phố kia không phải là cậu chứ?"
+"Không thể nào! Không chỉ giống hệt mấy con chim kia, mà cậu còn y hệt người trong ảnh nữa!" Thị lực của ông lão quả thực đã suy giảm, nhưng tính khí thì vẫn cố chấp như xưa. "Cậu chắc chắn người cầm ảnh khóc lóc ngoài phố kia không phải là cậu chứ?"
 
 Còn nói nữa?!
 
 Ông lão này không biết nhìn sắc mặt người khác sao?!
 
-Cố Tùy Châu vẫn giữ vẻ lịch thiệp: "Không phải tôi."
+Cố Tùy Châu vẫn giữ vẻ lịch thiệp: "Không phải cháu."
 
 Ông lão vẫn ép hỏi: "Cậu chắc chắn mình không phải là đứa trẻ ngoan, cùng bạn trai tay trắng làm nên cơ nghiệp suốt mười năm, rồi bị người ta 'giàu đổi bạn, sang đổi vợ' mà không hề oán trách chứ?"
 
 Ông ấy không ngửi thấy mùi cà phê nồng nặc sát khí trong không khí sao?!
 
-Pheromones của Thẩm Phi Triết sắp tràn ra ngoài rồi kìa!
+Pheromone của Thẩm Phi Triết sắp tràn ra ngoài rồi kìa!
 
 Biểu cảm của Cố Tùy Châu vẫn không chút gợn sóng: "Không phải."
 
@@ -511,9 +511,15 @@ Biểu cảm của Cố Tùy Châu vẫn không chút gợn sóng: "Không phả
 "Thưa ông," Cố Tùy Châu ngắt lời bằng phong thái chuẩn mực, nụ cười trên môi có chút gượng gạo. "Nếu ông còn hỏi tiếp thì sẽ hơi bất lịch sự đấy ạ."
 
 ---
-Lời tác giả:
+
+### Lời tác giả
+
 Tối nay tôi có việc bận nên đăng chương sớm nhé! Hì hì~
+
 Cảm ơn mọi người đã ủng hộ! Yêu mọi người! ( ̄3 ̄)♡
+
 Cảm ơn các thiên thần nhỏ đã ném vé bá vương hoặc tưới dung dịch dinh dưỡng cho tôi trong khoảng thời gian từ 16:02:30 ngày 25/02/2023 đến 11:06:32 ngày 26/02/2023!
+
 Đặc biệt cảm ơn các thiên thần nhỏ đã tưới dung dịch dinh dưỡng: The Chen (10 bình), Chen Nuo (7 bình), Bệnh nhân mắc chứng lo âu xã hội (5 bình), CP của tôi ngày nào cũng làm, Munch Munch (mỗi người 1 bình).
+
 Tôi vô cùng biết ơn sự ủng hộ của mọi người! Tôi sẽ tiếp tục cố gắng!

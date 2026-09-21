@@ -3,7 +3,7 @@
   "slug": "thụ-trà-xanh",
   "source_lang": "English",
   "target_lang": "Vietnamese",
-  "style_guide": "Truyện đam mỹ Trung Quốc bối cảnh hiện đại, có yếu tố alpha - beta - omega. Tên cặp nam chính là Thẩm Phi Triết, Cố Thụy Châu",
+  "style_guide": "Truyện đam mỹ Trung Quốc bối cảnh hiện đại / ABO tinh tế. Cặp nam chính: Thẩm Phi Triết (công, xưng tôi - cậu, ngôi kể: anh), Cố Tùy Châu (thụ trà xanh làm nũng, xưng em - Thẩm ca, ngôi kể: cậu).",
   "confidence_threshold": 0.8,
   "chunk_size": 20,
   "created_at": "2026-09-19T10:10:31.023280+07:00",
