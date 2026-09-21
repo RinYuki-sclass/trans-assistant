@@ -2735,12 +2735,15 @@ if tabs.is_active(8):
             from streamlit_image_coordinates import streamlit_image_coordinates
             import PIL.Image
             from PIL import ImageDraw
-        except ImportError:
-            st.error("❌ Thiếu thư viện giao diện nâng cao.")
-            st.info("Mở Terminal và gõ lệnh sau để cài nhé:\n`pip install streamlit-image-coordinates Pillow`")
-            st.stop()
+            _cutter_ok = True
+        except ImportError as _cutter_err:
+            _cutter_ok = False
+            st.error(f"❌ Thư viện `streamlit-image-coordinates` không tương thích với Streamlit hiện tại.")
+            st.info("Chạy lệnh sau để cập nhật:\n```\npip install --upgrade streamlit-image-coordinates\n```")
+            st.caption(f"Chi tiết lỗi: `{_cutter_err}`")
         
-        upl_img = st.file_uploader("🖼️ Chọn ảnh manhwa dài để cắt", type=["png", "jpg", "jpeg", "webp"], key="cutter_uploader")
+        if _cutter_ok:
+            upl_img = st.file_uploader("🖼️ Chọn ảnh manhwa dài để cắt", type=["png", "jpg", "jpeg", "webp"], key="cutter_uploader")
     
         @st.fragment
         def render_manhwa_cutter(uploaded_file):
@@ -2915,7 +2918,7 @@ if tabs.is_active(8):
                         st.session_state['cut_points'].sort()
                         st.rerun(scope="fragment")
 
-        if upl_img:
+        if _cutter_ok and upl_img:
             render_manhwa_cutter(upl_img)
 
     # =================== TAB 9: REFORMAT SCRIPT ===================
@@ -6286,13 +6289,12 @@ if tabs.is_active(12):
         if not _audio_imports_ok:
             st.error(f"❌ Không load được module Audio: `{_audio_import_err}`")
             st.info("Chạy: `pip install beautifulsoup4 httpx boto3 sqlalchemy` rồi restart app.")
-            st.stop()
-
+        else:
         # Init DB (create tables if needed)
-        try:
-            init_db()
-        except Exception as _dbe:
-            st.warning(f"⚠️ Không thể khởi tạo Audio DB: {_dbe}")
+            try:
+                init_db()
+            except Exception as _dbe:
+                st.warning(f"⚠️ Không thể khởi tạo Audio DB: {_dbe}")
 
         # ── Helper: slugify ──────────────────────────────────────────────
         def _slugify(text: str) -> str:
