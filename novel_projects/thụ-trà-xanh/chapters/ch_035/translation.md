@@ -96,7 +96,7 @@ Cố Tùy Châu cười vô sỉ: "Anh mua cho em đi~"
 
 Thẩm Phi Triết im lặng nhìn cậu, mặc cho cậu diễn trò.
 
-Cố Tùy Châu cúi đầu, vẻ mặt ỉu xìu: "Được rồi, em hiểu mà. Nếu anh Thẩm không muốn thì thôi vậy. Chắc là hôm nay em làm gì sai nên mới khiến anh giận. Nếu anh không muốn mua, em cũng không uống nữa. Để dịp khác vậy."
+Cố Tùy Châu cúi đầu, vẻ mặt ỉu xìu: "Được rồi, em hiểu mà. Nếu Thẩm ca không muốn thì thôi vậy. Chắc là hôm nay em làm gì sai nên mới khiến anh giận. Nếu anh không muốn mua, em cũng không uống nữa. Để dịp khác vậy."
 
 Thẩm Phi Triết: "……"
 
@@ -180,7 +180,7 @@ Cố Tùy Châu hăng hái xung phong: "Vậy em đi cùng anh!"
 
 "Em chắc chứ?" Thẩm Phi Triết hỏi.
 
-Cố Tùy Châu vỗ ngực bồm bộp: "Dù sao em cũng hết tiết học rồi! Anh Thẩm, anh cứ yên tâm, em sẽ bảo vệ anh!"
+Cố Tùy Châu vỗ ngực bồm bộp: "Dù sao em cũng hết tiết học rồi! Thẩm ca, anh cứ yên tâm, em sẽ bảo vệ anh!"
 
 Một tuần sau, Thẩm Phi Triết đã cài câu nói đó làm nhạc chuông điện thoại của Cố Tùy Châu.
 
@@ -188,7 +188,7 @@ Lúc này, họ đang đứng trước nghĩa trang của Thẩm gia, và nhóc 
 
 Thẩm Phi Triết không chút biểu cảm, lạnh lùng lên tiếng: "Tôi đưa cậu đến đây là để bảo vệ tôi, chứ không phải để mang theo một gánh nặng."
 
-Cố Tùy Châu nuốt khan, lắp bắp: "Kh-không phải mà, anh Thẩm... Anh đâu có nói nghĩa trang này lại rộng đến thế..."
+Cố Tùy Châu nuốt khan, lắp bắp: "Kh-không phải mà, Thẩm ca... Anh đâu có nói nghĩa trang này lại rộng đến thế..."
 
 Đã vậy còn là vào ban đêm!
 
@@ -206,7 +206,7 @@ Mới vài ngày trước anh mới nhận ra thằng nhóc đáng ghét này đ
 
 Cũng may anh không phải kiểu người coi chiều cao là thước đo phẩm giá, nên chẳng mấy bận tâm.
 
-Cố Tùy Châu bám chặt lấy anh, cười hì hì: "Chỉ cần anh Thẩm có gan là được, em cứ làm một cây tầm gửi vô dụng cũng chẳng sao~"
+Cố Tùy Châu bám chặt lấy anh, cười hì hì: "Chỉ cần Thẩm ca có gan là được, em cứ làm một cây tầm gửi vô dụng cũng chẳng sao~"
 
 Tầm gửi cái nỗi gì.
 
@@ -236,7 +236,7 @@ Từ nhỏ cậu đã sợ ma, chuyện này Lâm Tử Trác vẫn luôn lấy r
 
 Ai mà ngờ được, có ngày cậu lại phải nằm trong một cái hố huyệt với một Alpha đẹp trai cơ chứ?
 
-Lắng nghe tiếng bước chân bên ngoài, Cố Tùy Châu thì thầm, giọng nhỏ đến mức gần như không nghe thấy: "Anh Thẩm, đây có phải gọi là… sống chung giường, chết chung huyệt không nhỉ?"
+Lắng nghe tiếng bước chân bên ngoài, Cố Tùy Châu thì thầm, giọng nhỏ đến mức gần như không nghe thấy: "Thẩm ca, đây có phải gọi là… sống chung giường, chết chung huyệt không nhỉ?"
 
 Cậu khựng lại một chút rồi bồi thêm: "Khoan đã, hình như chúng ta còn chưa từng chung giường. Em phải cố gắng hơn mới được."
 
@@ -262,7 +262,7 @@ Sắc mặt Cố Tùy Châu tái nhợt như xác chết trong quan tài, cậu 
 
 Thẩm Phi Triết đứng dậy, chẳng mảy may thương xót: "Vậy cậu định nằm đây chờ tôi quay lại à?"
 
-"Tuyệt đối không!" Cố Tùy Châu thà chết chứ không chịu ở lại nơi này một mình. Cậu chật vật đứng dậy, lần này không bám lấy cánh tay Thẩm Phi Triết nữa mà vòng tay ôm chặt lấy eo anh như chú gấu túi bám vào thân cây: "Anh Thẩm ơi, đừng đẩy em ra mà! Anh phải bảo vệ em!"
+"Tuyệt đối không!" Cố Tùy Châu thà chết chứ không chịu ở lại nơi này một mình. Cậu chật vật đứng dậy, lần này không bám lấy cánh tay Thẩm Phi Triết nữa mà vòng tay ôm chặt lấy eo anh như chú gấu túi bám vào thân cây: "Thẩm ca ơi, đừng đẩy em ra mà! Anh phải bảo vệ em!"
 
 Thẩm Phi Triết: "..."
 
@@ -282,7 +282,7 @@ Chẳng ngờ Cố Tùy Châu quá hoảng sợ nên sức lực chẳng còn ba
 
 Theo bản năng, Thẩm Phi Triết rụt tay lại.
 
-Cố Tùy Châu hoảng loạn: "Anh Thẩm, em không cố ý đâu! Đừng bỏ rơi em!"
+Cố Tùy Châu hoảng loạn: "Thẩm ca, em không cố ý đâu! Đừng bỏ rơi em!"
 
 Thẩm Phi Triết mím chặt môi dưới: "Tôi không bỏ rơi cậu. Đừng lải nhải nữa, nhanh lên."
 
@@ -292,7 +292,7 @@ Cái chạm thoáng qua ấy khiến sống lưng anh run lên bần bật.
 
 May mà trời tối, nếu không đôi tai đỏ bừng kia chắc chắn đã bán đứng anh.
 
-Lần này, để tránh xảy ra sai sót, anh chủ động nắm chặt lấy tay Cố Tùy Châu, siết mạnh đến mức cậu phải kêu lên: "Á á á! Anh Thẩm ơi, nhẹ tay thôi!"
+Lần này, để tránh xảy ra sai sót, anh chủ động nắm chặt lấy tay Cố Tùy Châu, siết mạnh đến mức cậu phải kêu lên: "Á á á! Thẩm ca ơi, nhẹ tay thôi!"
 
 "Yếu ớt thật đấy," Thẩm Phi Triết càu nhàu, kéo mạnh Cố Tùy Châu đứng dậy. Anh buông một câu như vậy rồi sải bước đi thẳng về phía trước.
 
@@ -316,7 +316,7 @@ Sau một thoáng suy ngẫm, Thẩm Phi Triết nhận ra Cố Tùy Châu nói 
 
 "Vậy theo cậu, tôi nên dùng cách nào?" Anh hỏi.
 
-Cố Tùy Châu ngạc nhiên nhìn anh: "Anh Thẩm, anh thực sự đang hỏi ý kiến em sao?"
+Cố Tùy Châu ngạc nhiên nhìn anh: "Thẩm ca, anh thực sự đang hỏi ý kiến em sao?"
 
 Cậu vốn luôn nghĩ một người như Thẩm Phi Triết sẽ chẳng bao giờ hành động mà không có sự chuẩn bị kỹ lưỡng.
 
@@ -336,7 +336,7 @@ Anh thích những đòn chí mạng dứt khoát—thứ có thể nghiền ná
 
 Ngay khi nhìn thấy biểu cảm đó, Cố Tùy Châu đã biết Thẩm Phi Triết sắp sửa giở trò rồi.
 
-Cậu tò mò ghé sát lại gần: "Anh Thẩm, anh định làm gì thế?"
+Cậu tò mò ghé sát lại gần: "Thẩm ca, anh định làm gì thế?"
 
 Thẩm Phi Triết mấp máy môi, nhưng chưa kịp lên tiếng thì giọng nói sang sảng của Thẩm lão gia chủ đã vang vọng khắp không gian: "Tổ tiên linh thiêng! Xin hãy phù hộ độ trì cho chúng con từ nơi chín suối!"
 
@@ -366,7 +366,7 @@ Chỉ có Thẩm Phi Triết...
 
 Cố Tùy Châu cười tươi, chỉ vào một chú chim nhỏ màu xanh lục đang đậu phía sau ngôi mộ.
 
-"Em sửa được rồi! Em giỏi không anh Thẩm? Nó không chỉ có thể giám sát, mà còn đổi được giọng và làm loa phóng thanh nữa đấy!"
+"Em sửa được rồi! Em giỏi không Thẩm ca? Nó không chỉ có thể giám sát, mà còn đổi được giọng và làm loa phóng thanh nữa đấy!"
 
 Thẩm Phi Triết giơ ngón cái tán thưởng cậu.
 
@@ -394,7 +394,7 @@ Anh khẽ bật cười trong lòng.
 
 Nhóc con này thú vị thật. Phản ứng của đám người kia cũng rất đáng xem.
 
-Đôi mắt sắc bén của Cố Tùy Châu bắt trọn nụ cười ấy: "Anh Thẩm! Anh đang cười đấy à!"
+Đôi mắt sắc bén của Cố Tùy Châu bắt trọn nụ cười ấy: "Thẩm ca! Anh đang cười đấy à!"
 
 "Ừm." Lần này Thẩm Phi Triết không phủ nhận, anh mỉm cười đáp: "Nhanh lên, tiếp tục đi. Ông nội sắp lên tiếng rồi kìa."
 
@@ -422,9 +422,11 @@ Trời đất ơi!
 
 Ngay cả tổ tông cũng tức giận đến mức chửi thề rồi!
 
-***
 
-Lời tác giả:
+---
+
+### Lời tác giả
+
 Hì hì, chương mới đã được "ship" đến sớm cho mọi người đây!
 Dạo này lịch trình công việc của tôi bận tối tăm mặt mũi, nên tạm thời tôi sẽ chuyển giờ đăng sang khoảng nửa đêm nhé QwQ. Sau khi qua đợt deadline này, tôi sẽ quay lại khung giờ cũ!
 Cảm ơn sự ủng hộ của mọi người! Khi nào bình luận đạt mốc 1.5k, tôi sẽ tặng thêm một chương ngoại truyện. Yêu mọi người nhiều!
