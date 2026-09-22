@@ -82,7 +82,7 @@ Cố Tùy Châu khẽ hít một hơi đau đớn.
 
 Thẩm Phi Triết sửng sốt, khó tin nhìn cậu: "Cậu..."
 
-"Tôi làm sao?" Cố Tùy Châu nghe có vẻ bất lực. "Tôi cũng là một người đàn ông bình thường mà."
+"Em làm sao chứ?" Cố Tùy Châu nghe có vẻ bất lực. "Em cũng là một người đàn ông bình thường mà."
 
 Thẩm Phi Triết vẫn còn trong trạng thái choáng váng, chưa kịp hoàn hồn: "Một người đàn ông bình thường lại có phản ứng khi bị va phải chỗ đó sao?"
 
@@ -92,7 +92,7 @@ Nhìn vẻ mặt của anh, Cố Tùy Châu biết anh đã hiểu lầm. Khóe 
 
 Chẳng lẽ lại bảo rằng cậu đã có phản ứng ngay từ lúc Thẩm Phi Triết bước vào sao? Nếu nói ra, chắc cậu cũng nên chuẩn bị tinh thần mà "hôn tạm biệt" cuộc đời mình luôn đi là vừa.
 
-Cậu hắng giọng: "Có lẽ... kỳ giả nhiệt của em sắp tới rồi."
+Cậu hắng giọng: "Có lẽ... kỳ phát tình giả của em sắp tới rồi."
 
 Nhắc đến chuyện này, sự chú ý của Thẩm Phi Triết lập tức thay đổi: "Ngày mai chúng ta sẽ tới bệnh viện."
 
@@ -102,7 +102,7 @@ Nghe tiếng bước chân bên ngoài xa dần, Thẩm Phi Triết rốt cục 
 
 "Chúng ta đi biển đi." Cố Tùy Châu cười nói. "Đại dương trên Lam Tinh thật xấu xí. Đã gần năm năm rồi em chưa từng được nhìn thấy biển xanh."
 
-Hắn giơ năm ngón tay lên, khẽ cong chúng lại đầy vẻ đáng thương.
+Cậu giơ năm ngón tay lên, khẽ cong chúng lại đầy vẻ đáng thương.
 
 Thẩm Phi Triết nghe cậu nhắc đến con số năm năm, trong lòng không khỏi mềm nhũn: "Được."
 
@@ -122,7 +122,7 @@ Cố Tùy Châu giận dữ đi đi lại lại trong phòng, trong lòng thầm
 
 Sự hiện diện của C2 quá mức áp đảo, và không thể phủ nhận rằng anh ta rất đẹp trai. Thẩm Phi Triết liệu có nhìn anh ta bằng ánh mắt khác biệt nào không…?
 
-"Có chuyện gì sao?" Thẩm Phi Triết tưởng rằng cậu không thích đi ba người, liền nói thêm: "Nếu vậy, chúng ta có thể mang theo cả Leapton nữa."
+"Có chuyện gì sao?" Thẩm Phi Triết tưởng rằng cậu không thích đi ba người, liền nói thêm: "Nếu vậy, chúng ta có thể mang theo cả Lai Cẩu nữa."
 
 Bốn người. Như thế thì sẽ không ai phải lẻ loi cả.
 
@@ -134,31 +134,31 @@ Kế hoạch cho chuyến đi cứ thế mà định đoạt. Những ngày sau 
 
 Cậu cũng nhân cơ hội này dọn dẹp mớ hỗn độn mà "Anh chàng đẹp trai số 9" để lại.
 
-Một ngày trước khi khởi hành, anh và Leapton mang con chó đến gửi nhờ nhà Từ Trọng.
+Một ngày trước khi khởi hành, anh và Lai Cẩu mang con chó đến gửi nhờ nhà Từ Trọng.
 
-Đây là lần đầu tiên Leapton gặp con chó và anh ta hoàn toàn bị mê hoặc: "Ông Shen, con chó này tên là gì vậy?"
+Đây là lần đầu tiên Lai Cẩu gặp con chó và cậu ta hoàn toàn bị mê hoặc: "Anh Thẩm, con chó này tên là gì vậy?"
 
-Thẩm Phi Triết mấp máy môi, phải chật vật lắm mới thốt ra được ba chữ đó.
+Thẩm Phi Triết mấp máy môi, phải chật vật lắm mới thốt ra được hai chữ đó.
 
-“Fluke” — anh thực sự không muốn gọi cái tên này chút nào.
+“May Mắn” — anh thực sự không muốn gọi cái tên này chút nào.
 
-Ngày Cố Tùy Châu ngạo nghễ giới thiệu tên con chó, anh gần như muốn xé xác cậu ra. Nhưng vì tôn trọng quyền tự do đặt tên thú cưng của người khác, anh đã kiên nhẫn hỏi: “Tại sao lại đặt tên như vậy?”
+Ngày Cố Tùy Châu đắc ý giới thiệu tên con chó, anh gần như muốn xé xác cậu ra. Nhưng vì tôn trọng quyền tự do đặt tên thú cưng của người khác, anh đã kiên nhẫn hỏi: “Tại sao lại đặt tên như vậy?”
 
-Cố Tùy Châu đáp: “Việc nó gặp được cậu rồi được tôi nhận nuôi, chẳng phải là nhờ vận may sao?”
+Cố Tùy Châu đáp: “Việc nó gặp được anh rồi được em nhận nuôi, chẳng phải là nhờ may mắn sao?”
 
 Thẩm Phi Triết lập tức xoay người bỏ đi.
 
-May mắn thay, Leapton không hề bận tâm về cái tên này. Anh ta gọi “Fluke” liên hồi bằng giọng điệu sảng khoái, dứt khoát, chẳng chút do dự.
+May thay, Lai Cẩu không hề bận tâm về cái tên này. Cậu ta gọi “May Mắn” liên hồi bằng giọng điệu sảng khoái, dứt khoát, chẳng chút do dự.
 
-Dưới căn hộ của Từ Trọng có một khu chợ ẩm thực đường phố. Leapton vì đói bụng nên đã ở lại tầng dưới ăn cơm, để Thẩm Phi Triết một mình đưa con chó lên.
+Dưới căn hộ của Từ Trọng có một khu chợ ẩm thực đường phố. Lai Cẩu vì đói bụng nên đã ở lại tầng dưới ăn cơm, để Thẩm Phi Triết một mình dắt con chó lên.
 
-Từ Trọng niềm nở chào đón: “Thật tình cờ, hôm nay Fluke phải chụp ảnh hồ sơ. Anh đưa nó đến đúng lúc lắm.”
+Từ Trọng niềm nở chào đón: “Thật tình cờ, hôm nay May Mắn phải chụp ảnh làm hồ sơ. Anh đưa nó đến đúng lúc lắm.”
 
-“Ừ.” Thẩm Phi Triết thản nhiên dựa vào khung cửa, nhìn Từ Trọng đang chĩa súng tiêm về phía Fluke. Trong lúc chờ đợi, anh cầm hồ sơ chẩn đoán trên tủ lên xem qua.
+“Ừ.” Thẩm Phi Triết thản nhiên dựa vào khung cửa, nhìn Từ Trọng đang chuẩn bị tiêm cho May Mắn. Trong lúc chờ đợi, anh cầm hồ sơ chẩn đoán trên tủ lên xem qua.
 
-Vì có ý định nuôi con chó lâu dài, Cố Tùy Châu đã đăng ký gói thành viên thường niên tại bệnh viện thú cưng cho Fluke. Hồ sơ ghi chép chi tiết từng loại thuốc và tần suất tiêm chủng.
+Vì có ý định nuôi con chó lâu dài, Cố Tùy Châu đã đăng ký gói thành viên thường niên tại bệnh viện thú cưng cho May Mắn. Hồ sơ ghi chép chi tiết từng loại thuốc và tần suất tiêm chủng.
 
-Mỗi thú cưng đều có những mũi tiêm bắt buộc. Trên biểu đồ của Fluke, chỉ còn lại hai mũi cuối cùng.
+Mỗi thú cưng đều có những mũi tiêm bắt buộc. Trên biểu đồ của May Mắn, chỉ còn lại hai mũi cuối cùng.
 
 …Loại chó nào đủ sức khỏe để hoàn thành gần như toàn bộ quá trình tiêm chủng chỉ trong một tháng?
 
@@ -174,7 +174,7 @@ Nghe thấy tiếng cười, Từ Trọng đang thắt dây xích cho chó bỗn
 
 Tại sao anh lại có cảm giác… vị Thiếu gia nhà họ Cố kia sắp gặp rắc rối lớn rồi nhỉ?
 
-Thẩm Phi Triết đã hứa với Cố Tùy Châu rằng sau khi thả chó xong sẽ đến công ty đón em. Anh vốn là người giữ chữ tín, nên đã có mặt tại W.N đúng giờ hẹn, sải bước tiến về phía tầng cao nhất dưới những ánh mắt tò mò và ngưỡng mộ của các nhân viên.
+Thẩm Phi Triết đã hứa với Cố Tùy Châu rằng sau khi gửi chó xong sẽ đến công ty đón cậu. Anh vốn là người giữ chữ tín, nên đã có mặt tại W.N đúng giờ hẹn, sải bước tiến về phía tầng cao nhất dưới những ánh mắt tò mò và ngưỡng mộ của các nhân viên.
 
 Vì Cố Tùy Châu vẫn đang họp, anh được dẫn đến phòng tiếp khách. Với địa vị đặc biệt của mình, thư ký thông báo rằng anh có thể tùy ý bật màn hình để theo dõi cuộc họp của Chủ tịch Cố nếu muốn.
 
@@ -186,23 +186,23 @@ Cố Tùy Châu đang mặc một bộ vest đen, trông có vẻ kém ung dung 
 
 Thẩm Phi Triết khẽ nhướng mày.
 
-Ngay cả bộ âu phục chỉn chu cũng không thể che giấu được nét tinh quái đó; cách nói chuyện của em vẫn thô thiển và sắc bén như ngày nào.
+Ngay cả bộ âu phục chỉn chu cũng không thể che giấu được nét tinh quái đó; cách nói chuyện của cậu vẫn sắc sảo và cay độc như ngày nào.
 
-Người bị Cố Tùy Châu chế giễu trông vô cùng khó coi, ngay cả khi cuộc họp tạm dừng, gã vẫn trừng mắt nhìn theo bóng lưng đang rời đi của Cố Tùy Châu với vẻ đầy hằn học.
+Người bị Cố Tùy Châu chế giễu mặt mày vô cùng khó coi, ngay cả khi cuộc họp tạm dừng, gã vẫn trừng mắt nhìn theo bóng lưng đang rời đi của Cố Tùy Châu với vẻ đầy hằn học.
 
-Thẩm Phi Triết thu hồi ánh mắt, tắt màn hình rồi bước ra ngoài chờ em.
+Thẩm Phi Triết thu hồi ánh mắt, tắt màn hình rồi bước ra ngoài chờ cậu.
 
 Ban giám đốc gồm đủ các thành viên từ trẻ đến già, việc xung đột quan điểm là điều khó tránh khỏi. Giữa đám đông ồn ào, những cuộc tranh cãi cứ thế nối tiếp nhau. Cố Tùy Châu đang đau đầu thì bất chợt nhìn thấy Thẩm Phi Triết ở phía thang máy.
 
-Đôi mắt em lập tức sáng rực lên. Phớt lờ người phụ nữ đang cố bắt chuyện, em rảo bước chạy tới.
+Đôi mắt cậu lập tức sáng rực lên. Phớt lờ người phụ nữ đang cố bắt chuyện, cậu rảo bước chạy tới.
 
 "Anh đợi lâu chưa?"
 
-"Vừa mới tới thôi." Thẩm Phi Triết nhấn nút thang máy cho em. "Tôi đến đón em tan làm."
+"Vừa mới tới thôi." Thẩm Phi Triết nhấn nút thang máy cho cậu. "Tôi đến đón em tan làm."
 
-Niềm vui trong mắt Cố Tùy Châu càng thêm đậm nét, em quay sang nói với đám đông đang im lặng: "Mọi người đi thang máy sau đi."
+Niềm vui trong mắt Cố Tùy Châu càng thêm đậm nét, cậu quay sang nói với đám đông đang im lặng: "Mọi người đi thang máy sau đi."
 
-Nói đoạn, em nhanh chóng đẩy Thẩm Phi Triết vào trong rồi đóng cửa lại.
+Nói đoạn, cậu nhanh chóng đẩy Thẩm Phi Triết vào trong rồi đóng cửa lại.
 
 Cả nhóm: “…”
 
@@ -218,37 +218,37 @@ Thẩm Phi Triết lặng lẽ lắng nghe. Mãi đến khi Cố Tùy Châu trú
 
 “Tất nhiên là được rồi. Nếu muốn, anh có thể tự mình chủ trì cuộc họp mà.” Cố Tùy Châu nói vậy, nhưng trong lòng lại đang đánh trống liên hồi.
 
-Anh không hề nói điều gì bất lợi trong cuộc họp đó chứ?
+Mình không hề nói điều gì bất lợi trong cuộc họp đó chứ?
 
 Sự lo lắng lộ rõ trên gương mặt khiến Thẩm Phi Triết cảm thấy buồn cười. “Vậy cậu định đối phó với hắn thế nào?”
 
-Cố Tùy Châu cẩn thận cân nhắc câu chữ: “Ai cơ? Tên họ Hứa đó sao? Có lẽ… là những lời khuyên chân thành cùng sự hướng dẫn tỉ mỉ. Tôi sẽ phân tích cho anh ta thấy rõ những ưu và nhược điểm.”
+Cố Tùy Châu cẩn thận cân nhắc câu chữ: “Ai cơ? Tên họ Hứa đó sao? Có lẽ… là những lời khuyên chân thành cùng sự hướng dẫn tỉ mỉ. Em sẽ phân tích cho gã thấy rõ những ưu và nhược điểm.”
 
 Thẩm Phi Triết: “…”
 
 Ánh mắt anh nhìn cậu như muốn nói: *Cậu có thể nói ra những lời đó mà không thấy cắn rứt lương tâm sao?*
 
-Cố Tùy Châu chỉ trụ được hai giây trước khi đầu hàng: “Được rồi, tôi nói thật. Anh ta chưa bao giờ biết nghe lời, nên lần này tôi định thay thế anh ta. Tôi sẽ đưa cho anh ta hai tỷ, sau đó dùng một công ty khác mà tôi đã mua lại để nặc danh tấn công anh ta, nhân cơ hội này đá văng anh ta ra khỏi vị trí quản lý cấp cao.”
+Cố Tùy Châu chỉ trụ được hai giây trước khi đầu hàng: “Được rồi, em nói thật. Gã ta chưa bao giờ biết nghe lời, nên lần này em định thay thế gã luôn. Em sẽ đưa cho gã hai tỷ, sau đó dùng một công ty khác mà em đã mua lại để nặc danh tấn công gã, nhân cơ hội này đá văng gã ra khỏi vị trí quản lý cấp cao.”
 
 Tàn nhẫn, quyết đoán, đánh thẳng vào tử huyệt—đây chính là phong cách làm việc đặc trưng của Cố Tùy Châu.
 
-Anh cứ ngỡ mình sẽ bị Thẩm Phi Triết giáo huấn, nhưng thật bất ngờ, người đàn ông kia lại gật đầu tán thành. “Nếu là tôi, tôi sẽ không chỉ dừng lại ở việc đuổi anh ta khỏi ban quản lý.”
+Cậu cứ ngỡ mình sẽ bị Thẩm Phi Triết giáo huấn, nhưng thật bất ngờ, người đàn ông kia lại gật đầu tán thành. “Nếu là tôi, tôi sẽ không chỉ dừng lại ở việc đuổi gã khỏi ban quản lý.”
 
-Thẩm Phi Triết nói tiếp: “Tôi sẽ khiến anh ta không còn đường sống trong ngành này nữa, để tránh để lại những hậu họa về sau.”
+Thẩm Phi Triết nói tiếp: “Tôi sẽ khiến gã không còn đường sống trong ngành này nữa, để tránh để lại những hậu họa về sau.”
 
 Cố Tùy Châu sững người, rồi đột nhiên cúi đầu cười khẽ.
 
-Anh suýt chút nữa thì quên mất; khi nói đến sự máu lạnh và tàn nhẫn, anh Thẩm của anh đây chẳng hề thua kém bất kỳ ai.
+Cậu suýt chút nữa thì quên mất; khi nói đến sự máu lạnh và tàn nhẫn, anh Thẩm của cậu đây chẳng hề thua kém bất kỳ ai.
 
 “Cố Tùy Châu, cậu nên nhớ, tôi luôn là người quyết định xem có nên cho người khác một cơ hội hay không. Nếu tôi đã cho mà họ không biết nắm bắt, thì sau này cũng chẳng cần phải đền bù gì nữa.”
 
 Thẩm Phi Triết đột nhiên nói đầy ẩn ý.
 
-Về vấn đề “Fluke”, anh đã suy nghĩ kỹ và quyết định cho người đàn ông kia một cơ hội để tự mình làm rõ.
+Về vấn đề “May Mắn”, anh đã suy nghĩ kỹ và quyết định cho cậu một cơ hội để tự mình làm rõ.
 
 Bàn tay đang vươn tới cửa xe của Cố Tùy Châu khựng lại.
 
-Qua nóc xe, anh nhìn sang phía Thẩm Phi Triết: “…Ý anh là sao?”
+Qua nóc xe, cậu nhìn sang phía Thẩm Phi Triết: “…Ý anh là sao?”
 
 Thế nhưng, Thẩm Phi Triết lại đáp lại bằng một câu hoàn toàn khác: "Sự kiên nhẫn của tôi không phải là vô hạn. Nó chỉ kéo dài bằng thời gian chuyến bay đến đích, tối đa là mười tiếng. Hãy sử dụng nó cho khôn ngoan."
 
@@ -272,7 +272,7 @@ Chắc chắn là vậy rồi!
 
 Chắc chắn anh đã tìm thấy hồ sơ giao dịch với số 9!
 
-Trong khoảnh khắc bừng tỉnh, ngay khi Thẩm Phi Triết chuẩn bị ngồi xuống cạnh C1907, Cố Tùy Châu đã vội vàng nắm lấy cổ tay anh: "Em sai rồi."
+Trong khoảnh khắc bừng tỉnh, ngay khi Thẩm Phi Triết chuẩn bị ngồi xuống cạnh C2, Cố Tùy Châu đã vội vàng nắm lấy cổ tay anh: "Em sai rồi."
 
 Thẩm Phi Triết nghiêng đầu, ra hiệu cho cậu tiếp tục.
 
@@ -282,12 +282,12 @@ Cậu nói một cách nghiêm túc, trình bày tường tận nguyên nhân v�
 
 Trong giây lát, Thẩm Phi Triết không nói nên lời.
 
-C1907 nhìn người này rồi lại nhìn người kia, chớp chớp mắt.
+C2 nhìn người này rồi lại nhìn người kia, chớp chớp mắt.
 
 Nhìn thấy vẻ mặt khó lường của Thẩm Phi Triết, Cố Tùy Châu nuốt khan một cái, yết hầu khẽ chuyển động: "Không phải chuyện đó sao? Vậy... chẳng lẽ là chuyện em bảo Lai Cẩu cố tình nhắn tin nói với anh là em say rượu?"
 
 Thẩm Phi Triết: “…”
-Leapton: “…”
+Lai Cẩu: “…”
 
 Sao anh ta có thể kéo cả người vô tội vào chuyện này chứ? Chẳng lẽ anh ta quyết tâm phải lôi bằng được một vật tế thần xuống nước cùng mình sao?
 
@@ -300,7 +300,7 @@ Sau một hồi im lặng kéo dài, khóe mắt Thẩm Phi Triết khẽ cong l
 Giọng anh nhẹ nhàng và chậm rãi đến lạ thường: “Em còn giấu anh bao nhiêu bất ngờ nho nhỏ nữa đây?”
 
 Cố Tùy Châu: “…”
-Leapton: “Ồ.”
+Lai Cẩu: “Ồ.”
 
 Cuối cùng, Thẩm Phi Triết không ngồi cùng Cố Tùy Châu.
 Sự tức giận chỉ là thứ yếu, lý do chính là anh thực sự có việc cần bàn bạc với C2.
@@ -352,11 +352,11 @@ Thẩm Phi Triết để mặc cho đối phương dẫn đi. Đương nhiên, h
 
 "Ừm." Cố Tùy Châu mím môi. Người đàn ông cao 1m87 này đi theo sau anh như một người vợ nhỏ bị ngược đãi. "Anh Thẩm, em biết tại sao bây giờ anh lại giận rồi."
 
-Cậu vừa được Từ Trọng cho biết rằng Thẩm Phi Triết đã nhìn thấy báo cáo y tế của Fluke khi anh thả con chó xuống, mọi nhân quả ngay lập tức khớp vào vị trí.
+Cậu vừa được Từ Trọng cho biết rằng Thẩm Phi Triết đã nhìn thấy báo cáo y tế của May Mắn khi anh gửi con chó xuống, mọi mắt xích ngay lập tức khớp vào vị trí.
 
-Nhớ lại những lời thú nhận không hề được yêu cầu của chính mình, Cố Tùy Châu cảm thấy một làn sóng hối hận trào dâng.
+Nhớ lại những lời tự thú không khảo mà xưng của chính mình lúc nãy, Cố Tùy Châu cảm thấy một làn sóng hối hận trào dâng.
 
-Anh thực sự đã thua cả trận đấu lẫn cuộc chiến này.
+Cậu thực sự đã thua cả chì lẫn chài trong ván cờ này.
 
 Thẩm Phi Triết đã dùng đòn tấn công cơ bản để rồi phản đòn bằng chiêu cuối.
 

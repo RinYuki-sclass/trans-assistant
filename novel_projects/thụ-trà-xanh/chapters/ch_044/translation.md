@@ -76,17 +76,17 @@ C2 nở một nụ cười bí ẩn: "Làm sao tôi có thể không biết ch�
 
 Thẩm Phi Triết xoay người, bước về phía biệt thự của họ. "Không vội, tôi muốn xem những năm tôi vắng mặt thế giới này đã thay đổi ra sao. Dù sao thì tôi cũng không thể vì mình còn trẻ mà để bản thân tụt hậu so với thời đại được."
 
-Cố Tùy Châu cong môi cười: "Nếu anh muốn xem, em có thể đưa tập tin đó cho anh."
+C2 cong môi: "Nếu anh muốn xem, tôi có thể đưa tập tin đó cho anh."
 
-"Tập tin" mà cậu nhắc đến, đương nhiên chính là "cốt truyện" của thế giới nhỏ này.
+"Tập tin" mà cậu ta nhắc đến, đương nhiên chính là "cốt truyện" của thế giới nhỏ này.
 
 Nhắc đến đây, Thẩm Phi Triết chợt nhớ ra điều gì đó: "Vậy nếu tôi không trở về, liệu cuộc đời của kẻ chiếm lấy thân phận tôi có diễn ra y hệt như cốt truyện mà tôi đã xem không?"
 
-"Đúng vậy." Cố Tùy Châu gật đầu. "Anh có muốn biết phiên bản đó kết thúc thế nào không?"
+"Đúng vậy." C2 gật đầu: "Anh có muốn biết phiên bản đó kết thúc thế nào không?"
 
 "Nói tôi nghe xem." Thẩm Phi Triết có chút tò mò liệu Cố Tùy Châu có xuất hiện lần nữa trong cốt truyện đó hay không.
 
-"Thật ra cũng chẳng có gì nhiều để nói." Cố Tùy Châu gãi đầu. "Về cơ bản, người bạn nhỏ của anh sau đó đã nổi cơn thịnh nộ, báo thù trong điên loạn. Cậu ta lợi dụng sự tận tâm tuyệt đối của 'Thẩm Phi Triết' dành cho mình để tiêu diệt toàn bộ gia tộc Thẩm cùng những người có liên quan vào thời điểm đó — bao gồm cả chính 'Thẩm Phi Triết'."
+"Thật ra cũng chẳng có gì nhiều để nói." C2 gãi đầu: "Về cơ bản, người bạn nhỏ của anh sau đó đã nổi cơn thịnh nộ, báo thù trong điên loạn. Cậu ta lợi dụng sự tận tâm tuyệt đối của 'Thẩm Phi Triết' dành cho mình để tiêu diệt toàn bộ gia tộc Thẩm cùng những người có liên quan vào thời điểm đó — bao gồm cả chính 'Thẩm Phi Triết'."
 
 Thẩm Phi Triết: "..."
 
@@ -94,25 +94,25 @@ Thẩm Phi Triết: "..."
 
 Anh không kìm được mà khẽ mỉm cười: "Không tệ."
 
-Đốt phá, giết người mà gọi là "không tệ"? Cố Tùy Châu nhìn anh như thể đang nhìn một kẻ tâm thần. "Vậy anh có muốn biết kết cục của chính mình không?"
+Đốt phá, giết người mà gọi là "không tệ"? C2 nhìn anh như thể đang nhìn một kẻ tâm thần: "Vậy anh có muốn biết kết cục của chính mình không?"
 
 "Không cần." Thẩm Phi Triết bình thản từ chối. "Biết rồi cũng chẳng vui vẻ gì. Đúng rồi, phía Ngôi sao chính từng đề cập đến việc đền bù cho tôi. Tôi còn một yêu cầu nữa."
 
 "Sau khi tôi rời đi, hãy xóa sạch mọi dữ liệu liên quan đến tôi trên thế giới này."
 
-Cố Tùy Châu kinh ngạc: "Tại sao?!"
+C2 kinh ngạc: "Tại sao?!"
 
 "Các người đã vạch ra cuộc đời của chúng tôi như lòng bàn tay. Tôi thấy điều đó thật khó chịu." Thẩm Phi Triết nói, "Có vấn đề gì sao?"
 
-Cố Tùy Châu bĩu môi: "...Được rồi, tôi sẽ xử lý việc đó."
+C2 bĩu môi: "...Được rồi, tôi sẽ xử lý việc đó."
 
 Thẩm Phi Triết hài lòng gật đầu. Khi đi ngang qua một bảng quảng cáo thương mại, anh đột nhiên dừng bước.
 
-Tò mò, Cố Tùy Châu nhìn theo ánh mắt của anh —
+Tò mò, C2 nhìn theo ánh mắt của anh —
 
 Và nhìn thấy một khuôn mặt xinh đẹp đầy kiêu sa.
 
-Anh thở dốc, thốt lên: "Đẹp thật! Người này là ai vậy?"
+Cậu ta thốt lên: "Đẹp thật! Người này là ai vậy?"
 
 Mái tóc hơi dài rủ xuống che khuất đôi mắt, khiến biểu cảm của Thẩm Phi Triết trở nên khó đoán. "Chẳng phải cậu vừa gọi tên cậu ta đó sao?"
 
@@ -140,19 +140,19 @@ Thẩm Phi Triết vẫn im lặng. Anh có linh cảm rằng, dù Cố Tùy Ch�
 
 Thẩm Phi Triết chợt tự hỏi liệu mình có nên thay đổi cách tiếp cận thoải mái hơn hay không. Anh không thể cứ mãi đóng vai cả cha lẫn mẹ, ngay cả khi thằng nhóc cuối cùng cũng đã bắt đầu hẹn hò.
 
-Không mảy may để tâm đến tâm trạng phức tạp của Thẩm Phi Triết, Cố Tùy Châu liếc thấy một tòa nhà với kiến trúc lòe loẹt, trang trí đầy phá cách giữa lòng thành phố. Anh hào hứng chỉ tay: "Anh Thẩm! Chúng ta tới đó được không? Đi xem thử đi!"
+Không mảy may để tâm đến tâm trạng phức tạp của Thẩm Phi Triết, C2 liếc thấy một tòa nhà với kiến trúc lòe loẹt, trang trí đầy phá cách giữa lòng thành phố. Cậu ta hào hứng chỉ tay: "Thẩm Phi Triết! Chúng ta tới đó được không? Đi xem thử đi!"
 
 Dòng suy nghĩ của Thẩm Phi Triết bị cắt ngang, anh liếc nhìn theo hướng tay cậu, đôi mày hơi nhíu lại: "Đó không phải nơi dành cho cậu."
 
-"Tại sao không?!" Cố Tùy Châu phản đối.
+"Tại sao không?!" C2 phản đối.
 
 Thẩm Phi Triết thản nhiên đáp: "Đó là quán bar."
 
-"Vậy thì tôi càng phải đi!" Cố Tùy Châu không hề có ý định lùi bước. "Tôi từng đọc trong hồ sơ, quán bar ở Lam Tinh rất mê hoặc. Tối nay tôi nhất định phải tận mắt chứng kiến! Anh Thẩm, đi với tôi nhé, làm ơn đi mà~~"
+"Vậy thì tôi càng phải đi!" C2 không hề có ý định lùi bước. "Tôi từng đọc trong hồ sơ, quán bar ở Lam Tinh rất mê hoặc. Tối nay tôi nhất định phải tận mắt chứng kiến! Thẩm Phi Triết, đi với tôi nhé, đi mà~~"
 
 Thẩm Phi Triết không chút hứng thú: "Không."
 
-"Anh Thẩm!!" Cố Tùy Châu nắm chặt lấy tay áo anh. "Đi với tôi đi! Đi với tôi, đi với tôi, đi với tôi mà! Nếu anh chịu đi cùng, tôi sẽ giúp anh điều tra chuyện đã xảy ra năm đó, được không?"
+"Thẩm Phi Triết!!" C2 nắm chặt lấy tay áo anh. "Đi với tôi đi! Đi với tôi, đi với tôi, đi với tôi mà! Nếu anh chịu đi cùng, tôi sẽ giúp anh điều tra chuyện đã xảy ra năm đó, được không?"
 
 Thẩm Phi Triết thoáng do dự.
 
@@ -160,33 +160,33 @@ Quả thực, anh vẫn luôn nghi ngờ sự việc năm đó không đơn gi�
 
 Nghĩ đến Cố Tùy Châu, anh miễn cưỡng gật đầu: "Được."
 
-"Tuyệt quá!!" Cố Tùy Châu nhảy cẫng lên vì sung sướng. "Chúng ta đi mua quần áo thôi!"
+"Tuyệt quá!!" C2 nhảy cẫng lên vì sung sướng. "Chúng ta đi mua quần áo thôi!"
 
 Cả hai vui vẻ rảo bước về phía trung tâm thương mại, hoàn toàn không nhận ra một người đàn ông cao lớn vừa lướt qua ngay khi họ bước vào cửa.
 
 Người đàn ông đó có khuôn mặt giống hệt nhân vật trên tấm biển quảng cáo.
 
-Tấm rèm cửa bay khẽ chạm vào mái tóc Cố Tùy Châu. Anh không hài lòng quay đầu lại, đúng lúc nhìn thấy người vừa bước vào đang mang một đôi giày thể thao giản dị.
+Tấm rèm cửa bay khẽ chạm vào mái tóc Cố Tùy Châu. Cậu không hài lòng quay đầu lại, đúng lúc nhìn thấy người vừa bước vào đang mang một đôi giày thể thao giản dị.
 
-Anh chợt nhớ ra mình từng có một đôi y hệt, do chính tay Thẩm Phi Triết mua cho.
+Cậu chợt nhớ ra mình từng có một đôi y hệt, do chính tay Thẩm Phi Triết mua cho.
 
-Hồi đó, họ đã để lại những dấu chân trên đôi giày ấy; lúc đó anh không nỡ xóa đi, và về sau, anh cũng chẳng bao giờ có cơ hội làm điều đó nữa.
+Hồi đó, họ đã để lại những dấu chân trên đôi giày ấy; lúc đó cậu không nỡ xóa đi, và về sau, cậu cũng chẳng bao giờ có cơ hội làm điều đó nữa.
 
 Cho đến tận bây giờ, chúng vẫn được cất giữ cẩn thận trong hộp giày.
 
-Người kia là ai? Làm sao họ xứng đáng có phong cách giống anh đến thế?
+Người kia là ai? Làm sao họ xứng đáng có phong cách giống cậu đến thế?
 
-Cố Tùy Châu không hài lòng vẫy tay ra hiệu cho người phía sau: "Leapton, tên kia ở bên trong, đi lấy giày của hắn..."
+Cố Tùy Châu không hài lòng vẫy tay ra hiệu cho người phía sau: "Lai Cẩu, tên kia ở bên trong, đi lấy giày của hắn..."
 
-Đi được nửa đường, có lẽ nhận ra sự trẻ con và vô lý của mình, anh đành ngậm ngùi im lặng. "Quên đi."
+Đi được nửa đường, có lẽ nhận ra sự trẻ con và vô lý của mình, cậu đành ngậm ngùi im lặng. "Quên đi."
 
-Leapton trông hoàn toàn choáng váng: "Lão Cố, cậu... có lẽ tuần này cậu nên đến gặp bác sĩ tâm lý một lần nữa đi? Để tôi đặt lịch cho cậu."
+Lai Cẩu trông hoàn toàn choáng váng: "Lão Cố, cậu... có lẽ tuần này cậu nên đến gặp bác sĩ tâm lý một lần nữa đi? Để tôi đặt lịch cho cậu."
 
-Nhiều người cho rằng anh bị điên và đã buộc anh phải đi gặp bác sĩ tâm lý.
+Nhiều người cho rằng cậu bị điên và đã buộc cậu phải đi gặp bác sĩ tâm lý.
 
 Cố Tùy Châu phản kháng kịch liệt: "Không, tôi không muốn."
 
-Càng nghĩ, anh càng trở nên cáu kỉnh: "Tối nay đi cùng tôi tới quán bar nhé."
+Càng nghĩ, cậu càng trở nên cáu kỉnh: "Tối nay đi cùng tôi tới quán bar nhé."
 
 Bắt đầu từ nửa đêm, đây chính là thời gian giải trí đích thực của giới thượng lưu ở Khu vực thứ nhất trên Lam Tinh.
 
@@ -268,7 +268,7 @@ Thẩm Phi Triết luôn bảo vệ lãnh địa của mình một cách quyết
 
 Chỉ đến khi nhìn thấy gã đàn ông nằm dài thảm hại bên bồn rửa, lắp bắp xin lỗi, anh mới tung một đòn đánh gã ngất lịm. Hài lòng, anh lùi lại rồi rời đi.
 
-Trò hề nhỏ này đã khiến anh chậm trễ. Khi quay lại chính điện, Thẩm Phi Triết không còn thấy bóng dáng Cố Tùy Châu đâu nữa.
+Trò hề nhỏ này đã khiến anh chậm trễ. Khi quay lại sảnh chính, Thẩm Phi Triết không còn thấy bóng dáng C2 đâu nữa.
 
 Tim anh thắt lại, một linh cảm chẳng lành dấy lên. Anh sải bước về phía người phục vụ rượu, hỏi: "Cậu thanh niên xinh đẹp vừa ở đây đâu rồi?"
 
@@ -284,7 +284,7 @@ Tay anh còn chưa kịp chạm vào mặt gỗ, một tiếng gầm giận dữ
 
 Thẩm Phi Triết: “…”
 
-Tuyệt thật. Anh suýt quên mất rằng bản thân Cố Tùy Châu vốn chẳng phải kẻ dễ bị bắt nạt; xem ra anh không cần phải lo lắng thái quá.
+Tuyệt thật. Anh suýt quên mất rằng bản thân C2 vốn chẳng phải kẻ dễ bị bắt nạt; xem ra anh không cần phải lo lắng thái quá.
 
 Anh rút tay lại, định để mặc cho cậu tự giải quyết thì nghe thấy một giọng nói khác từ bên trong – giọng nói này khá êm tai: "Giữ cái miệng cho sạch sẽ vào."
 
@@ -294,33 +294,33 @@ Cảm giác quen thuộc đó khiến Thẩm Phi Triết khựng lại.
 
 À… lại tình cờ gặp cậu ta ở đây sao?
 
-Cố Tùy Châu lên tiếng, giọng đầy vẻ khó tin: "Người đàn ông của cô đặt tay lên người tôi, cô không những không quan tâm mà còn đang khiển trách tôi?"
+C2 lên tiếng, giọng đầy vẻ khó tin: "Người của anh sàm sỡ đặt tay lên người tôi, anh không những không quản mà còn dạy đời tôi à?"
 
-Giọng nói kia đáp lại một cách thờ ơ: "Nó thực sự ghê tởm đến vậy sao? Người của tôi không hẳn là hạng dưới cùng đâu. Thế này nhé: chọn bất kỳ ai cô thích, tôi sẽ đưa anh ta cho cô như một lời xin lỗi."
+Giọng nói kia đáp lại một cách thờ ơ: "Thực sự ghê tởm đến vậy sao? Người của tôi cũng đâu phải hạng xoàng. Thế này nhé: chọn bất kỳ ai cậu thích, tôi sẽ cho cậu người đó coi như lời xin lỗi."
 
-Cố Tùy Châu nhếch mép lạnh lùng: "Cô đang đùa tôi à? Xung quanh tôi có nhiều anh chàng đẹp trai hơn cô có thể tưởng tượng đấy. Cô nghĩ bất kỳ kẻ đi lạc ngẫu nhiên nào cũng có thể so sánh với người đàn ông của tôi sao? Alpha hiện tại của tôi là đối tượng cuối cùng của giới Omega đấy!"
+C2 nhếch mép lạnh lùng: "Anh đang đùa tôi à? Xung quanh tôi đầy rẫy đàn ông đẹp trai hơn anh tưởng tượng nhiều. Anh nghĩ thứ mèo mả gà đồng tùy tiện nào cũng sánh được với người của tôi sao? Alpha hiện tại của tôi là cực phẩm đỉnh cấp trong giới đấy!"
 
 Khóe môi Thẩm Phi Triết giật giật.
 
-Có vẻ như Cố Tùy Châu lại bị nhầm là Omega rồi.
+Có vẻ như C2 lại bị nhầm là Omega rồi.
 
-Anh thực sự quên cả phản bác, tâm trí quá bận rộn với sự thôi thúc muốn thể hiện bản thân.
+Cậu ta thậm chí còn quên cả phản bác, mải mê khoe khoang người đàn ông của mình.
 
 Quả nhiên, những Alpha khác trong phòng đều không hài lòng.
 
-"Anh thật là khốn nạn."
+"Mày ăn nói xấc xược thật đấy."
 
 "Chu tổng của chúng ta đã đủ đẹp trai rồi. Ngoại trừ Cố tổng, còn ai có thể so sánh được với anh ấy?"
 
-Cố Tùy Châu chán ghét nói: "Hắn là loại rác rưởi gì vậy?"
+C2 chán ghét nói: "Hắn là loại rác rưởi gì chứ?"
 
-Giọng nói lạnh lùng ban đầu vang lên với vẻ khinh thường: "Cái gì? Alpha của cô là một loại thiên thể nào đó à?"
+Giọng nói lạnh lùng ban đầu (Cố Tùy Châu) vang lên đầy vẻ khinh thường: "Cái gì? Alpha của mày là thần thánh phương nào à?"
 
-Cố Tùy Châu lúc này có vẻ thực sự tức giận: "Mày nghĩ mày là cái quái gì vậy? Mày nghĩ mình xứng đáng để hỏi về anh ấy à?"
+C2 lúc này thực sự nổi giận: "Mày nghĩ mày là cái thớ gì? Xứng để hỏi về anh ấy à?"
 
 Tiếng thủy tinh vỡ vụn lập tức bao trùm căn phòng trong sự im lặng.
 
-Ngay sau đó, chính người đó bật cười khinh bỉ: "Chết tiệt, hôm nay tâm trạng tôi vốn đã tệ rồi, vậy mà cô lại tự mình đâm đầu vào họng súng, phải không?"
+Ngay sau đó, chính người đó (Cố Tùy Châu) bật cười khinh bỉ: "Mẹ kiếp, hôm nay tâm trạng tao vốn đã không tốt, mày lại cứ thích đâm đầu vào họng súng đúng không?"
 
 Sắc mặt Thẩm Phi Triết tối sầm lại.
 
@@ -362,35 +362,35 @@ Vậy là, anh ấy đã quay lại rồi sao?
 
 Dưới ánh đèn lờ mờ, Cố Tùy Châu không nhìn rõ gương mặt người đứng sau lưng mình.
 
-Nhưng anh có thể ngửi thấy mùi cà phê thoang thoảng ấy.
+Nhưng cậu có thể ngửi thấy mùi cà phê thoang thoảng ấy.
 
 Không thể nhầm lẫn được.
 
-Chính loại pheromone này đã dày vò anh suốt bốn năm ròng. Vì khao khát một mùi hương không thể chạm tới, anh chỉ biết không ngừng mua cà phê.
+Chính loại pheromone này đã dày vò cậu suốt bốn năm ròng. Vì khao khát một mùi hương không thể chạm tới, cậu chỉ biết không ngừng mua cà phê.
 
-Rõ ràng anh ghét cà phê nhất, nhưng suốt bốn năm qua, anh lại nghiện nó như thể mạng sống của mình phụ thuộc vào đó. Anh như kẻ điên cuồng đắm chìm trong những hạt cà phê — mua nó một cách bất chấp, uống nó một cách liều lĩnh, uống đến mức bị chứng mất ngủ hành hạ, đôi mắt mở trân trân chờ đợi bình minh của ngày hôm sau.
+Rõ ràng cậu ghét cà phê nhất, nhưng suốt bốn năm qua, cậu lại nghiện nó như thể mạng sống của mình phụ thuộc vào đó. Cậu như kẻ điên cuồng đắm chìm trong những hạt cà phê — mua nó một cách bất chấp, uống nó một cách liều lĩnh, uống đến mức bị chứng mất ngủ hành hạ, đôi mắt mở trân trân chờ đợi bình minh của ngày hôm sau.
 
-Nhưng mỗi buổi bình minh đều chỉ mang đến cho anh một kết quả: Thẩm Phi Triết vẫn chưa quay lại.
+Nhưng mỗi buổi bình minh đều chỉ mang đến cho cậu một kết quả: Thẩm Phi Triết vẫn chưa quay lại.
 
 Bình minh trên Lam Tinh không hề ấm áp. Tuy nhiên, đối với những cư dân Lam Tinh đã sống trong bóng tối quá lâu, những đốm sáng rơi xuống mặt đất chính là biểu tượng của hy vọng.
 
-Chỉ riêng Cố Tùy Châu, mỗi khi bước ra ngoài, anh lại cảm thấy như toàn thân bị kim châm.
+Chỉ riêng Cố Tùy Châu, mỗi khi bước ra ngoài, cậu lại cảm thấy như toàn thân bị kim châm.
 
 Đôi mắt Cố Tùy Châu bỗng cay xè.
 
-Trong khoảnh khắc ấy, ký ức về Thẩm Phi Triết ùa về trong tâm trí anh rõ ràng chưa từng có, diễn ra từng khung hình như một bộ phim câm. Mỗi trang ký ức lật mở đều tựa như một nhát dao cứa chậm vào trái tim anh.
+Trong khoảnh khắc ấy, ký ức về Thẩm Phi Triết ùa về trong tâm trí cậu rõ ràng chưa từng có, diễn ra từng khung hình như một bộ phim câm. Mỗi trang ký ức lật mở đều tựa như một nhát dao cứa chậm vào trái tim cậu.
 
 Trên thực tế, chỉ mới ba giây trôi qua.
 
-Anh nghe thấy người đàn ông lên tiếng: “Đánh nhau, chửi thề, dễ bị kích động… Trong thời gian tôi vắng mặt, cậu đã học được những thói hư tật xấu này từ ai vậy?”
+Cậu nghe thấy người đàn ông lên tiếng: “Đánh nhau, chửi thề, dễ bị kích động… Trong thời gian tôi vắng mặt, em đã học những thói hư tật xấu này từ ai vậy?”
 
-Tấm lưng vốn luôn thẳng tắp và kiên cường của anh lúc này bỗng chốc rũ xuống. Cứ như thể chỉ cần khom lưng lại, anh có thể xoa dịu cơn đau âm ỉ trong lồng ngực.
+Tấm lưng vốn luôn thẳng tắp và kiên cường của cậu lúc này bỗng chốc rũ xuống. Cứ như thể chỉ cần khom lưng lại, cậu có thể xoa dịu cơn đau âm ỉ trong lồng ngực.
 
-Dưới cái nhìn của đám thuộc hạ, đôi mắt Cố Tùy Châu đỏ hoe, nhưng anh chỉ biết bối rối cúi đầu. Anh không đủ can đảm để nhìn lại, sợ rằng nếu làm vậy, anh sẽ lại thấy một khoảng không trống rỗng.
+Dưới cái nhìn của đám thuộc hạ, đôi mắt Cố Tùy Châu đỏ hoe, nhưng cậu chỉ biết bối rối cúi đầu. Cậu không đủ can đảm để nhìn lại, sợ rằng nếu làm vậy, cậu sẽ lại thấy một khoảng không trống rỗng.
 
-Với một tia hy vọng mong manh, anh khẽ gọi: “Thẩm…”
+Với một tia hy vọng mong manh, cậu khẽ gọi: “Thẩm…”
 
-“Tao sẽ đập chết mày!” Chai rượu của C2 rơi xuống đầu anh vào thời điểm không thể tồi tệ hơn.
+“Tao sẽ đập chết mày!” Chai rượu của C2 rơi xuống đầu cậu vào thời điểm không thể tồi tệ hơn.
 
 Cả căn phòng im bặt, choáng váng trước sự việc bất ngờ.
 
@@ -398,7 +398,7 @@ Khi đám đông định xông tới ngăn cản hai kẻ đột nhập, họ đ
 
 Thẩm Phi Triết nhanh chân đỡ lấy thân hình mềm nhũn đang ngã xuống của Cố Tùy Châu, ánh mắt sắc lạnh như dao găm bắn thẳng về phía C2.
 
-Cố Tùy Châu chớp mắt, bắt gặp ánh mắt của anh. “…À, em không nghĩ là anh ta lại không né.”
+C2 chớp mắt, bắt gặp ánh mắt của anh: “…À, tôi không nghĩ là anh ta lại không né.”
 
 Thẩm Phi Triết thở dài, kéo người vào lòng, điều chỉnh tư thế cho thoải mái hơn rồi quay sang Từ Trọng: "Cậu có xe không?"
 
@@ -410,7 +410,7 @@ Từ Trọng mỉm cười gật đầu: "Thẩm tiên sinh, đã lâu không g�
 
 Ghi chú của tác giả:
 Nghe thử: Ai quên tình tiết đôi giày trắng có thể xem lại cốt truyện quanh mốc 77% của chương 29.
-Thẩm ca đương nhiên không nỡ để Tiểu Cốt ở lại đây một mình; anh ấy cưng chiều cậu ấy rất nhiều (không hẳn vậy)!
+Thẩm ca đương nhiên không nỡ để Tiểu Cố ở lại đây một mình; anh ấy cưng chiều cậu ấy rất nhiều (không hẳn vậy)!
 Cảm ơn sự ủng hộ của mọi người! Yêu tất cả các bạn~
 
 Cảm ơn các thiên thần nhỏ đã ném vé Bawang hoặc tưới dung dịch dinh dưỡng cho tôi trong khoảng thời gian từ 2023-03-05 23:56:06 đến 2023-03-06 23:42:09~
