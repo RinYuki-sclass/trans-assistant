@@ -32,7 +32,7 @@ Anh dựa lưng vào ghế, nheo mắt lại: "Việc này có liên quan tới 
 
 "Vâng!" Giám đốc gật đầu nhấn mạnh. "Anh ta đã cắt tài trợ cho Nhóm Dược lý của chúng tôi! Anh ta cũng không cho phép bất kỳ ai khác cung cấp tài chính; anh ta muốn đình chỉ nghiên cứu về W.N!"
 
-Điều này thực ra nằm trong dự đoán của Thẩm Phi Triết. Anh biết lý do Cố Tùy Châu làm như vậy. "Anh ấy là con trai của Giáo sư Lâm và Giáo sư Cố. Anh ấy làm vậy ắt có lý do."
+Điều này thực ra nằm trong dự đoán của Thẩm Phi Triết. Anh biết lý do Cố Tùy Châu làm như vậy. "Cậu ấy là con trai của Giáo sư Lâm và Giáo sư Cố. Cậu ấy làm vậy ắt có lý do."
 
 "Lý do gì chứ? Anh ta đang cản trở sự tiến bộ của y học!" Giám đốc không ngờ anh lại đứng về phía đối phương, cô đi tới đi lui trong sự kích động. "W.N là tâm huyết cả đời của Giáo sư Lâm và Giáo sư Cố. Làm sao anh ta có thể từ bỏ nó như thế này?"
 
@@ -42,13 +42,13 @@ Luvi Tisqi sững người.
 
 Cô thực sự chưa bao giờ nghĩ tới khả năng đó.
 
-Trong ký ức của anh, hai vị giáo sư đều là những người đam mê nghiên cứu cuồng nhiệt; anh không thể nào tưởng tượng nổi điều gì đã khiến họ nhẫn tâm thiêu rụi công sức cả đời mình thành tro bụi.
+Trong ký ức của cô, hai vị giáo sư đều là những người đam mê nghiên cứu cuồng nhiệt; cô không thể nào tưởng tượng nổi điều gì đã khiến họ nhẫn tâm thiêu rụi công sức cả đời mình thành tro bụi.
 
-Vì Thẩm Phi Triết không có chứng cứ xác thực, anh chỉ dừng lại ở đó: "Hãy suy nghĩ kỹ càng. Dù thế nào đi nữa, tôi cũng sẽ không giúp cậu thuyết phục Cố Tùy Châu đâu."
+Vì Thẩm Phi Triết không có chứng cứ xác thực, anh chỉ dừng lại ở đó: "Hãy suy nghĩ kỹ càng. Dù thế nào đi nữa, tôi cũng sẽ không giúp cô thuyết phục Cố Tùy Châu đâu."
 
 Giám đốc: "...Đợi đã, chính xác thì mối quan hệ giữa hai người là gì vậy? Cậu thực sự đang gọi sếp của mình bằng tên đầy đủ à?"
 
-"Không sao đâu, tôi muốn chửi anh ta cũng được." Thẩm Phi Triết xua tay một cái rồi ung dung bước đi.
+"Không sao đâu, tôi muốn mắng cậu ta cũng được." Thẩm Phi Triết xua tay một cái rồi ung dung bước đi.
 
 Vừa bước ra ngoài, anh đã chạm mặt Ritter, người đang đến báo cáo công việc.
 
@@ -74,7 +74,7 @@ Thẩm Phi Triết liếc nhìn đỉnh đầu của người đàn ông kia. H�
 
 Trưởng nhóm công nghệ sinh học: "?"
 
-Vì Thẩm Phi Triết vừa mới trở về nên công việc cũng chưa có nhiều. Sau vài vòng quanh viện, rồi ghé qua quán cà phê internet gặp Leapton, cuối cùng cũng đã đến giờ tan làm.
+Vì Thẩm Phi Triết vừa mới trở về nên công việc cũng chưa có nhiều. Sau vài vòng quanh viện, rồi ghé qua quán cà phê internet gặp Lai Cẩu, cuối cùng cũng đã đến giờ tan làm.
 
 Việc đầu tiên anh làm là gửi tin nhắn cho Cố Tùy Châu.
 
@@ -144,31 +144,31 @@ Anh đã đặt một ghế VIP ở tầng hai; nơi này vắng người hơn v
 
 Thẩm Phi Triết miêu tả chi tiết hình dáng lý tưởng của Cố Tùy Châu.
 
-C2 không biết nội tình, cứ ngỡ Thẩm Phi Triết đang tự mình chọn lựa đối tượng. Anh ta nghẹn lời một lúc, rồi thốt lên: "Cậu... định diễn lại câu chuyện của Narcissus đấy à?"
+C2 không biết nội tình, cứ ngỡ Thẩm Phi Triết đang tự mình chọn lựa đối tượng. Hắn nghẹn lời một lúc, rồi thốt lên: "Anh... định diễn lại câu chuyện của Narcissus đấy à?"
 
-"Hoa thủy tiên?" Thẩm Phi Triết nhất thời không theo kịp ý cậu.
+"Hoa thủy tiên?" Thẩm Phi Triết nhất thời không theo kịp ý cậu ta.
 
-Cố Tùy Châu lắc đầu: "Không có gì. Chỉ là mẫu người lý tưởng này của anh, trông rất giống em thôi."
+C2 lắc đầu: "Không có gì. Chỉ là cái mẫu người lý tưởng này của anh, trông y hệt bản thân anh vậy."
 
 Thẩm Phi Triết sững người trong giây lát.
 
-"Dù sao thì, với một người như anh, việc giữ chút tự chủ cũng là điều đương nhiên." Cố Tùy Châu thở dài cảm thán, rồi đột ngột đổi giọng: "Bắt đầu rồi, bắt đầu rồi! Anh chú ý xem."
+"Dù sao thì, với một người như anh, tự luyến một chút cũng là điều dễ hiểu." C2 thở dài cảm thán, rồi đột ngột đổi giọng: "Bắt đầu rồi, bắt đầu rồi! Anh mau chú ý xem kìa."
 
 Chất lượng của "dàn thí sinh" tối nay quả thực vượt trội. Sàn diễn ở sảnh chính tràn ngập những đôi chân dài và vóc dáng săn chắc, các nghệ sĩ biểu diễn nhiệt tình chào đón và giao lưu với những vị khách bên dưới.
 
 Thẩm Phi Triết chỉnh lại gọng kính trên sống mũi: "Có tương tác sao?"
 
-"Nếu không thì sao gọi là 'đại tiệc giao lưu' được?" Cố Tùy Châu hào hứng vẫy bảng số ghế, cố gắng thu hút sự chú ý của những mỹ nhân trên sân khấu.
+"Nếu không thì sao gọi là 'đại tiệc giao lưu' được?" C2 hào hứng vẫy bảng số ghế, cố gắng thu hút sự chú ý của những mỹ nhân trên sân khấu.
 
-Động tác của cậu vô cùng cuồng nhiệt, lại thêm việc họ đang ngồi ở khu vực VIP nên nhanh chóng thu hút ánh nhìn của mọi người.
+Động tác của cậu ta vô cùng nhiệt tình, lại thêm việc họ đang ngồi ở khu vực VIP nên nhanh chóng thu hút ánh nhìn của mọi người.
 
-Đôi mắt của nhiều Alpha hung hãn sáng rực lên ngay khi trông thấy cậu, họ bắt đầu chìa cành ô liu mời cậu khiêu vũ, trong khi một làn sóng Omega khác…
+Đôi mắt của nhiều Alpha hung hãn sáng rực lên ngay khi trông thấy cậu ta, họ bắt đầu chìa cành ô liu mời cậu ta khiêu vũ, trong khi một làn sóng Omega khác…
 
 Từng ánh mắt một đều dán chặt vào Thẩm Phi Triết.
 
 Thẩm Phi Triết: "..."
 
-Lẽ ra anh không nên mang Cố Tùy Châu theo mới phải.
+Lẽ ra anh không nên mang C2 theo mới phải.
 
 "Này, anh đẹp trai!" Một thanh niên gầy gò cầm bông hồng tiến lại gần. "Có hứng thú chơi vài ván xúc xắc không?"
 
@@ -196,46 +196,46 @@ Anh lắc cốc xúc xắc trên tay: "Chúng ta chơi thế nào? Đoán tổng
 
 Thẩm Phi Triết nhập cuộc rất nhanh, đã thành công thâm nhập vào vòng trong của đối phương. Anh không hề hay biết rằng ở một góc trên tầng hai, một người quen đang nhìn mình với ánh mắt kinh hãi.
 
-Leapton là thành viên của hội Thẩm Vĩ Fei Ya và là khách quen của cơ sở này, nhưng gã chưa bao giờ dám mơ trong một triệu năm tới sẽ gặp được Thẩm Phi Triết ở đây. Trong ký ức của gã, Thẩm Phi Triết là một "đóa hoa trên đỉnh núi" — xa cách, không thể chạm tới và dường như tách biệt hoàn toàn với những ham muốn phàm trần.
+Lai Cẩu là khách quen của Feiya, nhưng hắn chưa bao giờ dám mơ trong một triệu năm tới lại bắt gặp Thẩm Phi Triết ở đây. Trong ký ức của gã, Thẩm Phi Triết là một "đóa hoa trên đỉnh núi" — xa cách, không thể chạm tới và dường như tách biệt hoàn toàn với những ham muốn phàm trần.
 
 Vậy mà giờ đây? Đóa hoa không thể chạm tới ấy lại đang ngồi chơi xúc xắc với một kẻ chuyên giao du tiệc tùng?!
 
-Leapton cảm thấy thế giới quan của mình như đang sụp đổ. Gã thậm chí chẳng buồn tán tỉnh gã đàn ông bên cạnh, chỉ trân trối nhìn về phía đó.
+Lai Cẩu cảm thấy thế giới quan của mình như đang sụp đổ. Hắn thậm chí chẳng buồn tán tỉnh gã đàn ông bên cạnh, chỉ trân trối nhìn về phía đó.
 
-Gã thấy chàng trai tóc đen đưa điếu thuốc lên môi Thẩm Phi Triết. Vì đang bận lắc xúc xắc không rảnh tay, Thẩm Phi Triết hơi cúi đầu, dùng miệng nhận lấy điếu thuốc từ ngón tay người kia. Anh nghiêng cổ, dựa vào ngọn nến đặt trên bàn để châm lửa, một làn khói mỏng lập tức bốc lên.
+Hắn thấy chàng trai tóc đen đưa điếu thuốc lên môi Thẩm Phi Triết. Vì đang bận lắc xúc xắc không rảnh tay, Thẩm Phi Triết hơi cúi đầu, dùng miệng nhận lấy điếu thuốc từ ngón tay người kia. Anh nghiêng cổ, dựa vào ngọn nến đặt trên bàn để châm lửa, một làn khói mỏng lập tức bốc lên.
 
 Dưới lớp áo sơ mi xẻ sâu, cơ bụng của anh lộ rõ. Vết sẹo hình chữ thập trên ngực không hề làm giảm đi vẻ thẩm mỹ, trái lại còn tăng thêm nét gợi cảm đầy bản năng. Vạt áo sơ mi đung đưa theo chuyển động của cánh tay, khiến vòng eo anh thấp thoáng ẩn hiện.
 
 Thế nhưng, bản thân anh dường như hoàn toàn không hay biết. Hoặc có lẽ, anh biết nhưng chẳng hề bận tâm.
 
-Leapton nuốt khan, uống vội vài ngụm nước lạnh để dập tắt ngọn lửa đang bốc lên trong bụng dưới, rồi mới nhấc điện thoại thông minh lên.
+Lai Cẩu nuốt khan, uống vội vài ngụm nước lạnh để dập tắt ngọn lửa đang bốc lên trong bụng dưới, rồi mới nhấc điện thoại thông minh lên.
 
-Khi Cố Tùy Châu nhận được tin nhắn của Leapton, anh đang định từ chối lời chúc mừng từ một vị CEO bụng phệ. Anh ra hiệu rằng mình có việc bận, rồi mở điện thoại ra—
+Khi Cố Tùy Châu nhận được tin nhắn của Lai Cẩu, cậu đang định từ chối lời chúc mừng từ một vị CEO bụng phệ. Cậu ra hiệu rằng mình có việc bận, rồi mở điện thoại ra—
 
 [Lai Cẩu: Đẹp trai quá đi mất. Chết tiệt, tôi thực sự muốn sinh con cho anh ấy luôn rồi ToT]
 [Lai Cẩu: Lão Cố, đại ca của mày nóng bỏng thật đấy.]
 
 Cố Tùy Châu: "..."
 
-Anh nhìn chằm chằm vào bức ảnh, vào phần eo lộ ra khi Thẩm Phi Triết giơ tay hút thuốc, cùng cặp kính gọng bạc kia. Anh suýt chút nữa đã bóp nát chân ly rượu trên tay.
+Cậu nhìn chằm chằm vào bức ảnh, vào phần eo lộ ra khi Thẩm Phi Triết giơ tay hút thuốc, cùng cặp kính gọng bạc kia. Cậu suýt chút nữa đã bóp nát chân ly rượu trên tay.
 
-Chết tiệt, anh còn chưa giải quyết xong C2, giờ lại từ đâu chui ra một đám "trai bao" không rõ nguồn gốc thế này?!
+Chết tiệt, cậu còn chưa giải quyết xong C2, giờ lại từ đâu chui ra một đám "trai bao" không rõ nguồn gốc thế này?!
 
-Khi ngước mắt lên lần nữa, một nụ cười mỏng manh, lạnh lẽo đã hiện trên môi anh. Anh nhận lấy ly rượu từ tay vị CEO bụng phệ rồi uống cạn trong một hơi.
+Khi ngước mắt lên lần nữa, một nụ cười mỏng manh, lạnh lẽo đã hiện trên môi cậu. Cậu nhận lấy ly rượu từ tay vị CEO bụng phệ rồi uống cạn trong một hơi.
 
 Bữa tiệc này là sự kiện chung được tổ chức bởi các công ty nổi tiếng nhất trong giới Ngân hàng Đầu tư tại Lam Tinh; tất cả những người tham dự đều đã từng gặp Cố Tùy Châu trước đây.
 
 Họ chưa bao giờ thấy vị Chủ tịch trẻ họ Cố lại có tửu lượng đáng kinh ngạc đến thế.
 
-Anh không từ chối bất kỳ lời mời rượu nào, thậm chí còn chủ động cầm một ly rượu trắng lớn đi khắp nơi để nâng ly chúc mừng người khác!
+Cậu không từ chối bất kỳ lời mời rượu nào, thậm chí còn chủ động cầm một ly rượu trắng lớn đi khắp nơi để nâng ly chúc mừng người khác!
 
-Anh gần như đang uống đến chết!
+Cậu gần như đang uống đến liều mạng!
 
 Từ Trọng cũng hoang mang và lo lắng không kém. Thiếu gia của ông vốn có tửu lượng rất tốt, nhưng với đà này, hôm nay chắc chắn sẽ say khướt.
 
-Quả nhiên, khi bữa tiệc sắp kết thúc, Cố Tùy Châu tựa lưng vào ghế sofa trong phòng khách. Khóe mắt anh đỏ ửng vì rượu, khiến khuôn mặt vốn đã thanh tú nay lại càng thêm phần diễm lệ đến nghẹt thở.
+Quả nhiên, khi bữa tiệc sắp kết thúc, Cố Tùy Châu tựa lưng vào ghế sofa trong phòng khách. Khóe mắt cậu đỏ ửng vì rượu, khiến khuôn mặt vốn đã thanh tú nay lại càng thêm phần diễm lệ đến nghẹt thở.
 
-Nhắm mắt lại, anh cong ngón tay ra hiệu cho Từ Trọng: "Chú Trọng, gọi vài Alpha lực lưỡng tới giúp cháu."
+Nhắm mắt lại, cậu cong ngón tay ra hiệu cho Từ Trọng: "Chú Trọng, gọi vài Alpha lực lưỡng tới giúp cháu."
 
 Từ Trọng: "?"
 
@@ -249,7 +249,7 @@ Dù quẫn trí và choáng váng, ông vẫn vội vã lui ra để thực hi�
 
 Chẳng bao lâu sau, một vài người đàn ông đáp ứng đúng yêu cầu của cậu đã xuất hiện.
 
-Cố Tùy Châu khẽ nhấc mí mắt, quét qua đám người trước mặt bằng ánh nhìn lạnh lùng, dò xét, rồi không chút giấu giếm vẻ chán ghét và khinh khỉnh: "Bọn họ nhất định phải làm."
+Cố Tùy Châu khẽ nhấc mí mắt, quét qua đám người trước mặt bằng ánh nhìn lạnh lùng, dò xét, rồi không chút giấu giếm vẻ chán ghét và khinh khỉnh: "Đành dùng tạm vậy."
 
 Dứt lời, cậu cởi ba chiếc cúc áo sơ mi trên cùng, cầm chai rượu vang đỏ rót thẳng xuống cổ mình.
 
@@ -259,10 +259,10 @@ Cố Tùy Châu đưa hai ly rượu cho đám người đang ngơ ngác, đoạ
 
 ***
 
-Thẩm Phi Triết đang chấm điểm 7 cho anh chàng đẹp trai số 9 thì nhận được tin nhắn từ "chú chó" Leapton.
+Thẩm Phi Triết đang chấm điểm 7 cho anh chàng đẹp trai số 9 thì nhận được tin nhắn từ "chú chó" Lai Cẩu.
 
-[Leapton: Á á á, anh Thẩm, cứu với! Cố Tùy Châu say bí tỉ rồi, nhìn qua có vẻ sắp bị người ta giở trò!!]
-[Leapton: /Hình ảnh/]
+[Lai Cẩu: Á á á, anh Thẩm, cứu với! Cố Tùy Châu say bí tỉ rồi, nhìn qua có vẻ sắp bị người ta giở trò!!]
+[Lai Cẩu: /Hình ảnh/]
 
 Trong ảnh, Cố Tùy Châu đang ngồi dang rộng hai chân trên ghế sofa, dáng vẻ đầy sơ hở. Hai bên cậu là hai gã đàn ông, còn một kẻ khác đang quỳ dưới chân cậu, không biết đang làm trò gì.
 
@@ -282,7 +282,7 @@ Thẩm Phi Triết nhíu mày.
 
 Anh chàng này cười lên trông chẳng còn vẻ đẹp trai như lúc lạnh lùng nữa. Trừ điểm.
 
-Đêm ở Khu Một mờ ảo trong ánh đèn neon và dòng xe cộ đông đúc. Đường phố tắc nghẽn đến mức vô vọng, anh không còn cách nào khác ngoài việc thuê một chiếc xe máy ở lề đường, lao thẳng đến địa điểm Leapton đã gửi.
+Đêm ở Khu Một mờ ảo trong ánh đèn neon và dòng xe cộ đông đúc. Đường phố tắc nghẽn đến mức vô vọng, anh không còn cách nào khác ngoài việc thuê một chiếc xe máy ở lề đường, lao thẳng đến địa điểm Lai Cẩu đã gửi.
 
 Lúc Thẩm Phi Triết đến nơi, tay anh đã lạnh cóng vì gió đêm.
 
@@ -326,9 +326,9 @@ Thẩm Phi Triết đưa ra lời giải thích ngắn gọn: “Vừa rồi tô
 
 Cố Tùy Châu cụp mắt xuống, vẻ tin tưởng vào câu nói đó không mấy rõ ràng.
 
-“Bận à? Cậu đi gặp ai thế?”
+“Bận rộn thế cơ à? Cậu đi ăn uống với những ai thế?”
 
-Lời vừa dứt, anh bỗng cảm thấy như có kim châm vào nơi tay mình đang bị cắn. Anh theo bản năng định rút tay lại, nhưng Cố Tùy Châu lại càng cắn mạnh hơn.
+Lời vừa dứt, anh bỗng cảm thấy như có kim châm vào nơi ngón tay mình đang bị cắn. Anh theo bản năng định rút tay lại, nhưng Cố Tùy Châu lại càng cắn mạnh hơn.
 
 Sợ làm tổn thương răng của cậu, Thẩm Phi Triết cứng người, không dám cử động nữa.
 
@@ -353,7 +353,7 @@ Có lẽ nhận ra mình đã gây đau, Cố Tùy Châu cẩn thận nới lỏ
 Vẻ mặt Cố Tùy Châu cuối cùng cũng giãn ra. Như một chú mèo được vuốt ve đúng ý, cậu phục tùng cúi đầu, dụi trán vào mu bàn tay Thẩm Phi Triết: “Em biết mà. Anh vẫn là người quan tâm đến em nhất.”
 
 Ai thèm quan tâm đến C2 chứ?
-Anh ấy mới là người quan trọng nhất!
+Cậu mới là người quan trọng nhất!
 
 Mái tóc mềm mại cứ cọ vào da thịt khiến anh cảm thấy bồn chồn.
 Thẩm Phi Triết thở dài: "Ai cho phép cậu say đến mức này?"

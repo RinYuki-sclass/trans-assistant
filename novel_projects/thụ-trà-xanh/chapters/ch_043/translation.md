@@ -6,7 +6,7 @@ Chương 43
 
 Bên trong trạm vũ trụ tạm thời tại Ngôi sao chính.
 
-Thẩm Phi Triết nhìn chằm chằm vào ly cà phê trước mặt, không hề cử động. Anh cất giọng bình thản: "Em không nghĩ rằng ngay lúc này, em nợ anh một lời giải thích sao?"
+Thẩm Phi Triết nhìn chằm chằm vào ly cà phê trước mặt, không hề cử động. Anh cất giọng bình thản: "Anh không nghĩ rằng ngay lúc này, các người nợ tôi một lời giải thích sao?"
 
 Đã rất lâu rồi Thẩm Phi Triết mới tự hủy con thoi của mình để tiến vào Vòng xoáy năng lượng.
 
@@ -36,7 +36,7 @@ Nếu không phải vì biết tình trạng hiện tại khiến mình không c
 
 "Không rõ. Không có cách nào chắc chắn cả." A11 máy móc đáp. "Yên tâm đi, lần này chúng tôi chủ động liên lạc với cậu để khắc phục sai lầm. Chúng tôi sẽ không biến mất. Cậu có thể dành thời gian để hồi phục sức khỏe ở đây."
 
-Vẻ mặt Thẩm Phi Triết trở nên lạnh lẽo: "Trông tôi giống như là có thời gian để giết người lắm sao?"
+Vẻ mặt Thẩm Phi Triết trở nên lạnh lẽo: "Trông tôi giống kẻ thừa thãi thời gian để ngồi chơi xơi nước lắm sao?"
 
 Nơi này chẳng có gì cả—chỉ là một khoảng không trắng xóa, vô trùng trải dài vô tận.
 
@@ -46,7 +46,7 @@ A11 cân nhắc tính logic trong suy nghĩ của mình và cuối cùng đi đ�
 
 Chỉ cần một cái vẫy tay, không gian lập tức biến đổi thành một biệt thự rộng lớn với đầy đủ tiện nghi—hồ bơi, khu vườn, phòng tập thể dục và phòng trò chơi. Mọi thứ đều có đủ.
 
-“Còn yêu cầu nào khác không?” Nó hỏi.
+“Còn yêu cầu nào khác không?” Hắn hỏi.
 
 Thẩm Phi Triết: “…”
 
@@ -130,11 +130,11 @@ Ngay cả anh cũng không khỏi cảm thán: "Vậy ra bấy lâu nay tôi là
 
 Thảo nào những người khác đều có kỳ nghỉ, còn anh thì không; hóa ra anh thậm chí còn chẳng thuộc hệ thống nhân sự chính thức.
 
-A11 thoáng chút áy náy, nó xoa mũi, cúi đầu lí nhí: "Thật lòng xin lỗi."
+A11 thoáng chút áy náy, hắn xoa mũi, cúi đầu lí nhí: "Thật lòng xin lỗi."
 
 Thẩm Phi Triết tỏa ra khí tức lạnh lùng, không đáp.
 
-A11 dẫn anh đến một căn phòng chứa đầy các Quả cầu Năng lượng rồi rời đi. Nó dặn Thẩm Phi Triết hãy tìm số sê-ri của thế giới thuộc về anh—Số 69—và chỉ cần chạm nhẹ vào đó là được.
+A11 dẫn anh đến một căn phòng chứa đầy các Quả cầu Năng lượng rồi rời đi. Hắn dặn Thẩm Phi Triết hãy tìm số sê-ri của thế giới thuộc về anh—Số 69—và chỉ cần chạm nhẹ vào đó là được.
 
 Thẩm Phi Triết nhanh chóng xác định được quả cầu năng lượng của mình.
 
@@ -242,7 +242,7 @@ Thẩm Phi Triết: "?"
 
 Anh không nhịn được hỏi: “Sao thế?”
 
-A11 khác hẳn với thói quen giải đáp mọi thắc mắc thường ngày, nó lắc đầu kiên quyết: “Dù thế nào đi nữa, anh cũng không cần hỏi thêm nữa đâu.”
+A11 khác hẳn với thói quen giải đáp mọi thắc mắc thường ngày, hắn lắc đầu kiên quyết: “Dù thế nào đi nữa, cậu cũng không cần hỏi thêm nữa đâu.”
 
 Thẩm Phi Triết: “…”
 
@@ -254,7 +254,7 @@ Không nói nên lời, anh đẩy cửa bước vào “biệt thự”. “C2,
 
 A11, vốn đã quen với tiêu chuẩn kép của C2, bình thản đáp: “Thà rằng anh ấy không biết nhiều thì tốt hơn.”
 
-C2 nhún vai, ngạc nhiên thay, lần này nó không hề gây chiến. “Nói cũng đúng. Tên quản lý ngu ngốc đó—cậu đã đưa anh ta đến gặp à?”
+C2 nhún vai, ngạc nhiên thay, lần này cậu ta không hề gây chiến. “Nói cũng đúng. Tên quản lý ngu ngốc đó—cậu đã đưa anh ta đến gặp à?”
 
 “Tôi đã làm vậy. Để anh ấy tận mắt chứng kiến cảnh kẻ đó bị tiêu diệt, tro cốt tan biến trong gió.”
 
@@ -274,23 +274,23 @@ Ngôi sao chính đã cấp cho Thẩm Phi Triết một tấm thẻ đặc quy�
 
 Dẫu sao thì họ cũng đã bắt người đàn ông này làm việc không công suốt nhiều năm trời; Ngôi sao chính sẽ cảm thấy áy náy nếu bây giờ không cung cấp cho anh những dịch vụ hàng đầu.
 
-Cố Tùy Châu lại nở nụ cười rạng rỡ, chạy đến trước cánh cửa đang đóng chặt rồi gõ nhẹ: "Anh Thẩm! Em đi chuẩn bị đồ đạc đây! Vài ngày nữa anh khỏe lại, chúng ta sẽ cùng về!"
+C2 lại nở nụ cười rạng rỡ, chạy đến trước cánh cửa đang đóng chặt rồi gõ nhẹ: "Thẩm Phi Triết! Tôi đi chuẩn bị đồ đạc đây! Vài ngày nữa anh khỏe lại, chúng ta sẽ cùng về!"
 
 Một tiếng "Ừm" trầm đục vọng ra từ bên trong.
 
-Cố Tùy Châu nói thêm: "À, còn một chuyện nữa! Em sẽ đi cùng anh!"
+C2 nói thêm: "À, còn một chuyện nữa! Tôi sẽ đi cùng anh!"
 
 Cánh cửa đột ngột mở tung.
 
-Thẩm Phi Triết lạnh lùng nhìn cậu: "Cậu nghĩ mình đang làm gì vậy?"
+Thẩm Phi Triết lạnh lùng nhìn cậu ta: "Cậu nghĩ mình đang làm gì vậy?"
 
-"Biểu cảm đó của anh khiến em cảm thấy mình không được chào đón cho lắm." Cố Tùy Châu cong môi, "Anh mới hồi phục, cơ thể chắc chắn vẫn chưa ổn định. Ít nhất em phải ở lại một thời gian để đảm bảo anh không sao. Và nhân tiện thì..."
+"Biểu cảm đó của anh cứ như thể không chào đón tôi vậy." C2 bĩu môi, "Anh mới hồi phục, cơ thể chắc chắn vẫn chưa ổn định. Ít nhất tôi phải ở lại một thời gian để đảm bảo anh không sao. Và nhân tiện thì..."
 
 Thẩm Phi Triết khoanh tay trước ngực.
 
-Cố Tùy Châu lập tức "hiện nguyên hình", cười hì hì: "Được rồi, thực ra phần lớn là cái cớ để trốn việc đi du lịch thôi."
+C2 lập tức xìu xuống, cười trừ: "Được rồi, thực ra phần lớn là mượn cớ trốn việc đi du lịch thôi."
 
-Nói đoạn, cậu chớp chớp hàng mi dài: "Anh Thẩm à~ Anh sẽ không từ chối em đâu nhỉ?! Anh chắc chắn không nỡ nhìn em phải bán mạng theo lịch trình 996 đâu đúng không?!"
+Nói đoạn, cậu ta chớp chớp hàng mi: "Thẩm ca à~ Anh sẽ không từ chối tôi đâu nhỉ?! Anh chắc chắn không nỡ nhìn tôi phải bán mạng theo lịch trình 996 đâu đúng không?!"
 
 Trong khoảnh khắc đó, Thẩm Phi Triết cứ ngỡ mình đang nghe một đứa trẻ nào đó làm nũng.
 
@@ -302,17 +302,17 @@ Thế nhưng, không thể phủ nhận rằng chúng vẫn để lại những 
 
 Điển hình như lúc này, anh lại gật đầu đồng ý như thể bị ma xui quỷ khiến.
 
-Cố Tùy Châu vui mừng khôn xiết: "Ưm! Anh Thẩm, em yêu anh chết mất!"
+C2 vui mừng khôn xiết: "Yeah! Thẩm Phi Triết, tôi yêu anh chết mất!"
 
-Vừa nói, cậu vừa lao tới định ôm chầm lấy anh.
+Vừa nói, cậu ta vừa lao tới định ôm chầm lấy anh.
 
 Thẩm Phi Triết nhanh nhẹn né tránh: "Tránh xa tôi ra."
 
-Ở công ty, không ai có thể từ chối một Cố Tùy Châu xinh đẹp và khéo léo. Ngoài Thẩm Phi Triết ra, chẳng còn ai khác.
+Ở công ty, không ai có thể từ chối "bé cưng" C2 xinh xắn ngọt ngào. Ngoại trừ A11 ra, Thẩm Phi Triết là người thứ hai.
 
-Cậu bĩu môi chế giễu: "Hah! Anh đúng là người có trái tim sắt đá!"
+Cậu ta bĩu môi: "Hừ! Anh đúng là người có trái tim sắt đá!"
 
-Thẩm Phi Triết cũng chẳng mấy bận tâm: "Anh không phải người đầu tiên nói với tôi điều đó."
+Thẩm Phi Triết cũng chẳng mấy bận tâm: "Cậu không phải người đầu tiên nói với tôi điều đó."
 
 Lam Tinh, 2 giờ 19 phút sáng ngày 2 tháng 6 năm 2028.
 
@@ -320,17 +320,17 @@ Cố Tùy Châu vừa kết thúc công việc, lê tấm thân mệt mỏi tr�
 
 Nếu Thẩm Phi Triết có mặt ở đây, chắc chắn anh sẽ phải kinh ngạc. Bởi lẽ, cách bài trí căn hộ gần như y hệt thời điểm anh rời đi.
 
-Công ty của Cố Tùy Châu tọa lạc tại Khu Một, nhưng anh lại khăng khăng muốn sống trong căn nhà ở Khu Sáu này, chấp nhận mỗi ngày mất bốn tiếng đồng hồ để di chuyển. Tình trạng này đã kéo dài hơn bốn năm nay.
+Công ty của Cố Tùy Châu tọa lạc tại Khu Một, nhưng cậu lại khăng khăng muốn sống trong căn nhà ở Khu Sáu này, chấp nhận mỗi ngày mất bốn tiếng đồng hồ để di chuyển. Tình trạng này đã kéo dài hơn bốn năm nay.
 
 Điều kỳ lạ duy nhất là tay nắm cửa phòng ngủ của Cố Tùy Châu phủ đầy bụi, dường như đã rất lâu không có người bước vào.
 
-Cố Tùy Châu cởi bỏ bộ vest đen trắng, tháo đồng hồ cùng chiếc cà vạt màu xám bạc. Anh thậm chí chẳng buồn bật đèn, cứ thế lững thững bước vào phòng ngủ của Thẩm Phi Triết.
+Cố Tùy Châu cởi bỏ bộ vest đen trắng, tháo đồng hồ cùng chiếc cà vạt màu xám bạc. Cậu thậm chí chẳng buồn bật đèn, cứ thế lững thững bước vào phòng ngủ của Thẩm Phi Triết.
 
-Sau khi tắm rửa, anh theo thói quen lấy từ trong tủ ra một chiếc áo sơ mi trắng, khoác lên người rồi đổ ập xuống giường. Chiếc áo ôm sát lấy cơ thể anh, rõ ràng là không vừa vặn; chủ nhân của nó vốn chẳng phải là anh, mặc vào chẳng hề thoải mái chút nào.
+Sau khi tắm rửa, cậu theo thói quen lấy từ trong tủ ra một chiếc áo sơ mi trắng, khoác lên người rồi đổ ập xuống giường. Chiếc áo ôm sát lấy cơ thể cậu, rõ ràng là không vừa vặn; chủ nhân của nó vốn chẳng phải là cậu, mặc vào chẳng hề thoải mái chút nào.
 
-Thế nhưng, Cố Tùy Châu lại chẳng hề bận tâm. Ngay khoảnh khắc lớp vải chạm vào da thịt, đôi lông mày vốn nhíu chặt suốt bao năm của anh dần giãn ra.
+Thế nhưng, Cố Tùy Châu lại chẳng hề bận tâm. Ngay khoảnh khắc lớp vải chạm vào da thịt, đôi lông mày vốn nhíu chặt suốt bao năm của cậu dần giãn ra.
 
-Anh nhắm mắt lại, nằm bất động hồi lâu, trông như thể đã chìm vào giấc ngủ. Thế nhưng chẳng bao lâu sau, đôi mắt trong veo lạnh lùng ấy đột ngột mở ra. Anh ngồi dậy trong bóng tối, với lấy con dao gỗ nhỏ đặt trên tủ đầu giường.
+Cậu nhắm mắt lại, nằm bất động hồi lâu, trông như thể đã chìm vào giấc ngủ. Thế nhưng chẳng bao lâu sau, đôi mắt trong veo lạnh lùng ấy đột ngột mở ra. Cậu ngồi dậy trong bóng tối, với lấy con dao gỗ nhỏ đặt trên tủ đầu giường.
 
 Không giống như con dao gỗ của một người nào đó, con dao này tuy vẻ ngoài xấu xí nhưng lại cực kỳ sắc bén.
 
@@ -359,11 +359,3 @@ Cảm ơn thiên thần nhỏ đã ném mìn: 64562159 (1);
 Cảm ơn các thiên thần nhỏ đã tưới dung dịch dinh dưỡng: sarice (9 bình); Venees (5 chai); Vui lòng nhập nick 080912 (4 bình); Munch Munch, Muốn chơi trong nước với Hua Shaobei (1 chai);
 
 Cảm ơn mọi người rất nhiều vì đã ủng hộ, mình sẽ tiếp tục làm việc chăm chỉ!
-
-Hôm qua đọc bình luận, tôi mới nhận ra các bạn thực sự có tâm huyết để đạt được BE?!
-
-Tiểu Cốt thật sự sẽ chết đấy OwO
-
-Cảm ơn tất cả các bạn đã ủng hộ!
-
-Yêu tất cả các bạn~

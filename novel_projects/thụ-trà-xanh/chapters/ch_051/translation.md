@@ -18,13 +18,13 @@ Vừa ăn kem, C2 vừa nhìn Cố Tùy Châu đang đi mua ván lướt sóng, 
 
 C2 hít một hơi thật sâu.
 
-Cậu biết rằng khi Thẩm Phi Triết nói "ngủ", ý anh chính là ngủ theo nghĩa đen.
+C2 biết rằng khi Thẩm Phi Triết nói "ngủ", ý anh chính là ngủ theo nghĩa đen.
 
 "Tôi có thể mạn phép hỏi tại sao không?"
 
-Thẩm Phi Triết kể lại cho cậu nghe những sự kiện dẫn đến quyết định đó.
+Thẩm Phi Triết kể lại cho cậu ta nghe những sự kiện dẫn đến quyết định đó.
 
-Thực ra, những gợi ý và ý tưởng mà C2 đưa ra đôi khi khá hữu ích, nên anh không ngại việc giao tiếp và trao đổi suy nghĩ với cậu.
+Thực ra, những gợi ý và ý tưởng mà C2 đưa ra đôi khi khá hữu ích, nên anh không ngại việc giao tiếp và trao đổi suy nghĩ với cậu ta.
 
 Nghe xong, C2 im lặng hồi lâu.
 
@@ -32,19 +32,19 @@ Thẩm Phi Triết khiêm tốn hỏi: "Có vấn đề gì sao?"
 
 C2 lắc đầu thở dài đầy cảm xúc: "Không có gì. Tốt lắm. Cứ giữ như vậy đi."
 
-Cuối cùng, cậu nói thêm: "Cậu biết không? Nếu tôi biết đến sự tồn tại của cậu từ trước, và nếu cậu được phân vào nhóm của tôi, chắc chắn tôi sẽ không chỉ giao cho cậu những nhiệm vụ thế giới thuộc thể loại thăng cấp, vô hạn lưu hay tận thế đâu."
+Cuối cùng, C2 nói thêm: "Cậu biết không? Nếu tôi biết đến sự tồn tại của cậu từ trước, và nếu cậu được phân vào nhóm của tôi, chắc chắn tôi sẽ không chỉ giao cho cậu những nhiệm vụ thế giới thuộc thể loại thăng cấp, vô hạn lưu hay tận thế đâu."
 
-Cậu chắc chắn sẽ ném Thẩm Phi Triết vào đủ loại thế giới ngôn tình cẩu huyết và kịch bản truy thê hỏa táng để anh tích lũy kinh nghiệm!
+Cậu ta chắc chắn sẽ ném Thẩm Phi Triết vào đủ loại thế giới ngôn tình cẩu huyết và kịch bản truy thê hỏa táng tràng hào môn để anh tích lũy kinh nghiệm!
 
 Thẩm Phi Triết thông minh, sắc sảo và có trực giác nhạy bén; khuyết điểm duy nhất của anh là quản lý cảm xúc của bản thân quá tốt và quá dè dặt.
 
 Trong bất kỳ hoàn cảnh nào khác, trạng thái đó là một lợi thế, nhưng khi áp dụng lên chính bản thân mình, nó lại phản tác dụng—anh có thể bị lừa đến mức chẳng còn lại mảnh vụn nào.
 
-C2 không kìm được lòng mình; gã châm một điếu thuốc rồi nheo mắt nhìn qua làn khói về phía bóng lưng của Cố Tùy Châu.
+C2 không kìm được lòng mình; hắn châm một điếu thuốc rồi nheo mắt nhìn qua làn khói về phía bóng lưng của Cố Tùy Châu.
 
-*Tốt nhất là nhóc phải có điểm gì đó phi thường,* gã nghĩ, *nếu không thì tao sẽ không thể chịu nổi việc để một mẫu vật thượng hạng như thế này ở lại đây để nhóc hủy hoại.*
+*Tốt nhất là nhóc con phải có điểm gì đó phi thường,* hắn nghĩ, *nếu không thì tao sẽ không thể chịu nổi việc để một mẫu vật thượng hạng như thế này ở lại đây để nhóc làm hỏng đâu.*
 
-Khi Cố Tùy Châu và Lai Cẩu quay lại sau khi mua ván lướt sóng, thứ họ nhìn thấy là hai gã Alpha đang hành xử như hai cái ống khói.
+Khi Cố Tùy Châu và Lai Cẩu quay lại sau khi mua ván lướt sóng, thứ họ nhìn thấy là hai Alpha đang nhả khói như hai cái ống khói.
 
 Cố Tùy Châu giật lấy điếu thuốc từ tay Thẩm Phi Triết rồi dập tắt.
 
@@ -54,7 +54,7 @@ Thẩm Phi Triết cúi đầu một lát, sau đó vươn tay giật luôn đi�
 
 "Tôi chưa thỏa mãn, nên đừng hòng cậu được thỏa mãn." Thẩm Phi Triết dùng giọng điệu rất hợp tình hợp lý để bày tỏ sự vô lý của mình.
 
-C2 nhắm mắt lại vì thất vọng, thầm nhắc nhở bản thân không được làm hỏng hình tượng. Khi gã mở mắt ra lần nữa, vẻ mặt đã hoàn toàn bình thản. "Nhiều thiết bị thế này sao? Hai người có biết lướt sóng không đấy?"
+C2 nhắm mắt lại vì bất lực, thầm nhắc nhở bản thân không được làm hỏng hình tượng. Khi hắn mở mắt ra lần nữa, vẻ mặt đã hoàn toàn bình thản. "Nhiều thiết bị thế này sao? Mấy người có biết lướt sóng không đấy?"
 
 Lai Cẩu gật đầu đầy tự hào. "Người yêu cũ đời thứ ba của tôi từng là huấn luyện viên lướt sóng đấy."
 
@@ -70,17 +70,19 @@ Lai Cẩu không thể tin nổi. "Sao cậu làm được hay vậy? Tôi cảm
 
 Hai người họ lập tức trở nên tâm đầu ý hợp.
 
-Thẩm Phi Triết có chút cạn lời. Anh cảm nhận được ai đó đang lề mề tiến về phía mình. "Chà, lịch sử tình trường của họ phong phú thật đấy."
+Thẩm Phi Triết có chút cạn lời. Anh cảm nhận được có người đang lề mề tiến về phía mình.
+
+"Chà, lịch sử tình trường của hai người họ phong phú thật đấy."
 
 Thẩm Phi Triết liếc nhìn sang, chờ đợi câu tiếp theo.
 
-Quả nhiên, Cố Tùy Châu thở dài đầy cảm xúc. "Em thật sự ghen tị với họ. Không giống như em, em thậm chí còn chưa từng yêu đương với ai. Em trong sạch như một tờ giấy trắng vậy."
+Quả nhiên, Cố Tùy Châu cảm thán: "Em thật sự ngưỡng mộ họ. Không giống như em, em thậm chí còn chưa từng yêu đương với ai bao giờ. Em trong sạch như một tờ giấy trắng vậy."
 
 Thẩm Phi Triết nói đầy ẩn ý: "Chưa từng?"
 
 Chuyện về "Anh chàng đẹp trai số 9" có lẽ đã tạm lắng xuống, nhưng không có nghĩa là nó đã hoàn toàn biến mất.
 
-Cố Tùy Châu cảm thấy ngượng ngùng trong hai giây, rồi nhanh chóng giơ ba ngón tay lên thề thốt đầy trịnh trọng: "Đều là giả cả. Em chưa từng hẹn hò với anh ta, không kiểm tra thang máy, không nắm tay, cũng chẳng dắt chó đi dạo... Những bài đăng trên FriendCircle của em đều là do bộ phận nghệ thuật của công ty photoshop cả đấy."
+Cố Tùy Châu cảm thấy ngượng ngùng trong hai giây, rồi nhanh chóng giơ ba ngón tay lên thề thốt đầy trịnh trọng: "Đều là giả cả. Em chưa từng hẹn hò với anh ta, không kiểm tra thang máy, không nắm tay, cũng chẳng dắt chó đi dạo... Những bài đăng trên Vòng bạn bè của em đều là do bộ phận mỹ thuật của công ty photoshop cả đấy."
 
 Bộ phận nghệ thuật của W.N. quả thực phải chịu đựng quá nhiều rồi.
 
@@ -106,33 +108,33 @@ Mắt Cố Tùy Châu mở to: "Anh biết lướt sóng sao?"
 
 Thực ra, anh đang khiêm tốn đấy thôi. Ngoài những vấn đề về cảm xúc con người ra, Thẩm Phi Triết gần như là một người toàn năng.
 
-Leapton khẳng định mình biết lướt, nhưng kiến thức của anh ta chỉ là bề nổi, ngang hàng với một kẻ mới bắt đầu hoàn toàn như Cố Tùy Châu. Vì vậy, C2 và Thẩm Phi Triết mỗi người phụ trách một "tân binh".
+Lai Cẩu khẳng định mình biết lướt, nhưng kiến thức của cậu ta chỉ là bề nổi, ngang hàng với một kẻ mới bắt đầu hoàn toàn như Cố Tùy Châu. Vì vậy, C2 và Thẩm Phi Triết mỗi người phụ trách một "tân binh".
 
 Thẩm Phi Triết thay đồ rất nhanh. Trong khi Cố Tùy Châu vẫn đang loay hoay không biết mặc bộ đồ thế nào, thì Thẩm Phi Triết đã bước ra trong bộ đồ lướt sóng bó sát một mảnh.
 
 Anh có một vóc dáng hoàn hảo, không một chút mỡ thừa. Chất liệu vải ôm sát cơ thể, phác họa nên những đường nét tuyệt mỹ; từ cơ bắp ở tứ chi cho đến vòng ba săn chắc, tất cả đều đạt chuẩn người mẫu nam.
 
-Khoảnh khắc Cố Tùy Châu bước ra, đập vào mắt Thẩm Phi Triết là đôi chân dài thon thả với những đường nét cơ bắp săn chắc, uyển chuyển, cùng vòng eo thon gọn, khỏe khoắn.
+Khoảnh khắc Cố Tùy Châu bước ra, đập vào mắt cậu chính là đôi chân dài miên man với những đường nét cơ bắp săn chắc, uyển chuyển, cùng vòng eo thon gọn, khỏe khoắn của Thẩm Phi Triết.
 
 Thẩm Phi Triết cất điện thoại đi: "Đến đây—"
 
-Cánh cửa phòng thay đồ lại đóng sầm lại.
+Rầm! Cánh cửa phòng thay đồ lại đóng sầm lại.
 
 Thẩm Phi Triết: "?"
 
-Sau khi đợi thêm khoảng mười phút nữa, Cố Tùy Châu cuối cùng cũng chịu xuất hiện.
+Sau khi đợi thêm khoảng mười phút nữa, Cố Tùy Châu cuối cùng mới chịu xuất hiện.
 
-Thẩm Phi Triết quét ánh mắt đánh giá lên vóc dáng của đối phương, thầm nghĩ nếu đặt lên bàn cân, thân hình này cũng chẳng hề kém cạnh một Alpha cấp A11. "Vừa nãy xảy ra chuyện gì vậy?"
+Thẩm Phi Triết quét ánh mắt đánh giá lên vóc dáng của đối phương, thầm nghĩ nếu đem ra so sánh thì thân hình này cũng chẳng hề thua kém một Alpha cấp A11: "Vừa nãy xảy ra chuyện gì vậy?"
 
-Cố Tùy Châu bình thản đáp: "Không có gì. Quần áo của em chưa chỉnh lại cho ngay ngắn thôi." Nhân tiện, cậu cũng đã uống chút thuốc để hạ hỏa trong người.
+Cố Tùy Châu bình thản đáp: "Không có gì. Quần áo của em chưa chỉnh lại cho ngay ngắn thôi." Tiện thể, cậu cũng đã uống chút thuốc để hạ hỏa trong người.
 
 Thẩm Phi Triết không mảy may nghi ngờ: "Đi lấy ván đi."
 
 Hai người đàn ông cao lớn, điển trai, đều sở hữu chiều cao trên 1m8, sóng vai nhau tiến về phía bờ biển, mỗi người kẹp một chiếc ván lướt sóng. Tỷ lệ người ngoái nhìn đạt mức 100%.
 
-C2 và Leapton cũng chẳng buồn che giấu ánh mắt của mình.
+C2 và Lai Cẩu cũng chẳng buồn che giấu ánh mắt của mình.
 
-Ánh mắt của Leapton còn có chút kiềm chế, nhưng C2 thì chẳng hề kiêng dè. Hắn huýt sáo một tiếng rồi nói: "Mẹ kiếp! Thẩm Phi Triết, nếu tất cả người yêu cũ của tao đều trông như mày, thì cuộc đời này đúng là hoàn hảo."
+Ánh mắt của Lai Cẩu còn có chút kiềm chế, nhưng C2 thì chẳng hề kiêng dè. Hắn huýt sáo một tiếng rồi nói: "Mẹ kiếp! Thẩm Phi Triết, nếu tất cả người yêu cũ của tôi đều trông như cậu, thì cuộc đời này đúng là hoàn hảo."
 
 Sắc mặt Cố Tùy Châu lập tức tối sầm lại.
 
@@ -150,9 +152,9 @@ Biểu cảm của Cố Tùy Châu lập tức chuyển từ âm u sang nắng �
 
 "Vậy thì tốt rồi~"
 
-C2 không nhịn được mà đảo mắt nhìn cảnh tượng trước mặt. "Đi thôi, Leapy. Chúng ta đi tận hưởng thời gian riêng tư, không chơi với họ nữa!"
+C2 không nhịn được mà đảo mắt nhìn cảnh tượng trước mặt. "Đi thôi, Lai Cẩu. Chúng ta đi tận hưởng thời gian riêng tư, không chơi với họ nữa!"
 
-Leapton hăm hở chạy theo sau. "Đợi đã! Chúng ta còn chưa lấy áo phao mà!"
+Lai Cẩu hăm hở chạy theo sau: "Đợi đã! Chúng ta còn chưa lấy áo phao mà!"
 
 "Áo phao gì chứ? Chúng ta chơi là phải tìm cảm giác mạnh!"
 
@@ -164,7 +166,7 @@ Thái dương Thẩm Phi Triết giật giật. "…Mặc vào."
 
 Cố Tùy Châu đáp: "Mặc vào thì em trông không ngầu nữa."
 
-Thẩm Phi Triết: "…" Cậu ta có thể phù phiếm đến mức nào chứ?
+Thẩm Phi Triết: "…" Cậu có thể phù phiếm đến mức nào cơ chứ?
 
 Anh không ép buộc nữa. "Được thôi. Tôi tin là cậu sẽ còn 'ngầu' hơn khi bị sóng cuốn ra xa rồi không thể ngoi lên nổi, phải chờ nhân viên cứu hộ đến cứu đấy."
 
@@ -172,7 +174,7 @@ Cố Tùy Châu giằng co mất hai giây.
 
 Sau đó, cậu cúi người nhặt áo phao lên rồi mặc vào.
 
-Trong lúc cậu đang mặc áo phao, Thẩm Phi Triết quỳ một gối xuống dưới chân cậu để giúp buộc dây an toàn. "Độ chặt thế nào? Có thấy gò bó quá không?"
+Trong lúc cậu đang mặc áo phao, Thẩm Phi Triết quỳ một gối xuống dưới chân cậu để giúp buộc dây chân. "Độ chặt thế nào? Có thấy gò bó quá không?"
 
 "Vừa rồi ạ." Cố Tùy Châu nhấc chân lên. "Hơi lỏng một chút."
 
@@ -180,13 +182,13 @@ Dây đã quấn thêm gần một vòng rồi mà vẫn còn lỏng sao?
 
 Thẩm Phi Triết khẽ tặc lưỡi. "Sao cậu lại gầy thế?"
 
-"Vì nhớ anh quá nên em chẳng thiết ăn uống gì cả." Những lời tán tỉnh vô nghĩa của Cố Tùy Châu tuôn ra một cách tự nhiên, cậu cũng không quên nhân cơ hội này để tính toán lợi ích cho bản thân. "Nếu từ giờ anh nấu cơm cho em, chắc chắn em sẽ ăn ngon miệng rồi béo tốt lên ngay thôi~"
+"Vì nhớ anh quá nên em chẳng thiết ăn uống gì cả." Những lời tán tỉnh vô nghĩa của Cố Tùy Châu tuôn ra một cách tự nhiên, cậu cũng không quên nhân cơ hội này để tính toán lợi ích cho bản thân: "Nếu từ giờ anh nấu cơm cho em, chắc chắn em sẽ ngoan ngoãn ăn cơm cơm rồi béo tròn béo núc lên ngay thôi~"
 
-Cái kiểu "ăn ngon miệng rồi béo tốt lên" đó là cái quái gì chứ?
+Cái kiểu "ăn cơm cơm rồi béo núc" đó là cái quái gì chứ?
 
-"Bớt nói giọng trẻ con đó đi, nghe nổi da gà quá." Thẩm Phi Triết cảm thấy da gà da vịt trên người mình đều dựng cả lên.
+"Bớt nói giọng trẻ con đó đi, nghe nổi cả da gà." Thẩm Phi Triết cảm thấy da gà da vịt trên người mình đều dựng đứng cả lên.
 
-Anh lắp dây an toàn và vây lướt sóng xong xuôi, sau đó bôi một lớp sáp lên cả hai mặt ván. Sau khi xác nhận không có lỗi gì, anh đưa nó cho người kia: "Đi thôi. Trước tiên làm quen trên bờ đã."
+Anh lắp dây chân và vây lướt sóng xong xuôi, sau đó bôi một lớp sáp lên cả hai mặt ván. Sau khi xác nhận không có vấn đề gì, anh đưa nó cho cậu: "Đi thôi. Trước tiên làm quen trên bờ đã."
 
 "Đợi đã." Cố Tùy Châu cản anh lại, chỉ vào mái tóc mình: "Nó vướng víu quá."
 
@@ -260,9 +262,9 @@ Cố Tùy Châu vốn định tối đến sẽ gây chuyện, nhưng ai mà ng�
 
 Cậu và Thẩm Phi Triết chiếm lấy hai phía đối diện của chiếc giường rộng hai mét, một ranh giới rõ ràng được vạch ra giữa hai người.
 
-Những ngày tháng uất ức này kéo dài đến tận tuần thứ hai, khi Cố Tùy Châu cuối cùng cũng học được cách tự mình bắt lấy một con sóng xanh.
+Những ngày tháng nghẹn khuất này kéo dài đến tận tuần thứ hai, khi Cố Tùy Châu cuối cùng cũng học được cách tự mình bắt lấy một con sóng xanh.
 
-Cậu ta thông minh và học rất nhanh. Thẩm Phi Triết đứng quan sát một lúc, sau khi chắc chắn rằng cậu nhóc có thể tự xoay xở được, anh mới cầm ván của mình lên và đi tận hưởng không gian riêng.
+Cậu thông minh và học rất nhanh. Thẩm Phi Triết đứng quan sát một lúc, sau khi chắc chắn rằng cậu nhóc có thể tự xoay xở được, anh mới cầm ván của mình lên và đi tận hưởng không gian riêng.
 
 Đã lâu rồi anh không lướt sóng. Anh mất vài vòng để điều chỉnh lại cơ thể trước khi thực sự tìm thấy nhịp điệu của mình.
 
@@ -274,7 +276,7 @@ C2 cười lớn: "Vậy thì đi ra xa hơn với tôi không?"
 
 Thẩm Phi Triết không từ chối: "Đi thôi."
 
-Để giải tỏa căng thẳng, các Quản lý ở Hành tinh Chính đã thử qua đủ loại thể thao mạo hiểm, và Thẩm Phi Triết cũng không ngoại lệ. Anh đã học đủ thứ, từ nhảy dù, trượt tuyết cho đến lướt sóng.
+Để giải tỏa căng thẳng, các Quản lý ở Ngôi sao Chính đã thử qua đủ loại thể thao mạo hiểm, và Thẩm Phi Triết cũng không ngoại lệ. Anh đã học đủ thứ, từ nhảy dù, trượt tuyết cho đến lướt sóng.
 
 Nhưng môn anh yêu thích nhất vẫn là lướt sóng và trượt tuyết.
 
@@ -342,7 +344,7 @@ Mắt C2 suýt chút nữa rơi ra ngoài. Hắn không ngờ tên lính mới n
 
 Mặc dù hắn đã nhắm vào nó trước, nhưng hắn vẫn chưa chạm tới đỉnh sóng. Xét về mặt kỹ thuật, hành động của Cố Tùy Châu không hẳn là "cướp sóng".
 
-Nhưng dù nhìn thế nào đi nữa, gã kia rõ ràng đã thấy hắn nhắm vào con sóng đó trước khi chen ngang!
+Nhưng dù nhìn thế nào đi nữa, tên nhóc kia rõ ràng đã thấy hắn nhắm vào con sóng đó trước khi chen ngang!
 
 C2 bắt đầu hoảng loạn: "Không, không, cậu kia, xuống trước đi. Đừng bốc đồng, chuyện này nguy hiểm thật đấy!"
 
@@ -350,7 +352,7 @@ Mỗi năm, có không ít người mất mạng vì biển cả khi đang lư�
 
 Cố Tùy Châu nhìn xuống hắn. Gió biển gào thét, mái tóc dài quất vào mặt cậu, có lẽ rất đau, nhưng cậu dường như hoàn toàn không bận tâm. Với vẻ mặt vô cảm, cậu nói: "Cái gì khiến anh nghĩ mình có tư cách đặt tên mình cạnh Thẩm Phi Triết?"
 
-Cậu ta thực sự ghen tị đến mức này sao??
+Tên nhóc này thực sự ghen tuông đến mức này sao??
 
 Hắn không thể tin nổi: "Tôi chỉ nói tiện miệng thôi mà!"
 
@@ -358,7 +360,7 @@ Hắn không thể tin nổi: "Tôi chỉ nói tiện miệng thôi mà!"
 
 Cậu hoàn toàn không có ý định nhường nhịn.
 
-C2 sắp phát điên: "Đừng coi mạng sống như trò đùa! Cứ chờ xem Thẩm Phi Triết có cạo đầu cậu khi anh ấy quay lại không!"
+C2 sắp phát điên: "Đừng coi mạng sống như trò đùa! Cứ chờ xem Thẩm Phi Triết có mắng cho cậu một trận ra trò khi anh ấy quay lại không!"
 
 "Mắng tôi sao?" Cố Tùy Châu đột nhiên bật cười, hai chiếc răng khểnh lóe lên đầy khiêu khích. "Anh Thẩm chắc chắn biết tôi chỉ chơi vì anh khiêu khích tôi thôi. Đoán xem anh ấy sẽ mắng ai—tôi hay anh?"
 
@@ -388,9 +390,9 @@ Lần đầu tiên, Thẩm Phi Triết nhận ra rằng lướt sóng lại có 
 
 Nhìn những con sóng cuộn trào dần dần lặng xuống mà vẫn không thấy bóng dáng người hay ván lướt sóng nào bị đánh dạt ra, tim anh như thắt lại, đập liên hồi; ước chừng nhịp tim lúc này đã lên tới 140.
 
-Nếu Cố Tùy Châu thực sự xảy ra chuyện gì, anh sẽ san phẳng cái Tinh cầu Chính này cho đến khi họ buộc phải quay ngược thời gian!
+Nếu Cố Tùy Châu thực sự xảy ra chuyện gì, anh sẽ san phẳng cái Ngôi sao Chính này cho đến khi họ buộc phải quay ngược thời gian!
 
-Thẩm Phi Triết nhắm mắt lại, trong đầu đã bắt đầu vạch ra những kế hoạch và lộ trình để gây náo loạn Tinh cầu Chính.
+Thẩm Phi Triết nhắm mắt lại, trong đầu đã bắt đầu vạch ra những kế hoạch và lộ trình để gây náo loạn Ngôi sao Chính.
 
 Thế nhưng, ngay khi tay chân anh đang lạnh toát vì hoảng sợ, anh đột nhiên nghe thấy một tiếng gọi vô cùng quen thuộc—
 
@@ -422,7 +424,7 @@ Dù sao thì kỹ năng của cậu vẫn chưa tới nơi tới chốn; "phanh"
 
 Thẩm Phi Triết không kịp đề phòng, hứng trọn cái ôm ấy. Anh theo bản năng giơ tay lên, hờ hững vòng qua eo đối phương.
 
-Thanh niên ngoài hai mươi tuổi giống như một lò lửa tràn đầy sức sống; cả người cậu nóng rực. Khi bàn tay Thẩm Phi Triết chạm vào lưng cậu, cậu vẫn còn đang run rẩy nhẹ vì dư âm của sự phấn khích.
+Thanh niên ngoài hai mươi tuổi giống như một lò lửa tràn đầy sức sống; cả người nóng rực. Khi bàn tay Thẩm Phi Triết chạm vào lưng đối phương, cậu nhóc vẫn còn đang run nhẹ vì dư âm của sự phấn khích.
 
 Anh hiểu phản ứng đó.
 
@@ -436,11 +438,11 @@ Cậu vội vàng đứng thẳng dậy, lo lắng giải thích: "Em không ph�
 
 Cố Tùy Châu làm sao có thể nghe lọt tai, cậu càng thêm hoảng loạn: "Anh Thẩm!"
 
-"Tôi nói là không cần giải thích." Thẩm Phi Triết thở dài. Lần đầu tiên, anh nở một nụ cười chân thành, khóe miệng cong lên thành một đường cong tuyệt đẹp. Anh vươn tay gạt đi những sợi tóc ướt sũng dính trên mặt cậu. "Em làm rất tốt."
+"Tôi nói là không cần giải thích." Thẩm Phi Triết thở dài. Lần đầu tiên, anh nở một nụ cười chân thành, khóe miệng cong lên thành một đường cong tuyệt đẹp. Anh vươn tay gạt đi những lọn tóc ướt sũng đang dính trên mặt cậu: "Em làm rất tốt."
 
 Cơ thể Cố Tùy Châu cứng đờ.
 
-"Em làm rất tốt, rất xuất sắc," Thẩm Phi Triết tiếp tục. "Em rất ấn tượng, Cố Tùy Châu."
+"Em làm rất tốt, vô cùng xuất sắc," Thẩm Phi Triết tiếp tục nói: "Em rất cừ, Cố Tùy Châu."
 
 Anh chưa bao giờ keo kiệt lời khen ngợi dành cho những người xuất chúng.
 
@@ -448,18 +450,21 @@ Anh chưa bao giờ keo kiệt lời khen ngợi dành cho những người xu�
 
 "Hãy để nó là lần cuối cùng."
 
-Cảm ơn mọi người đã ủng hộ! Yêu các bạn~
+---
 
-Cảm ơn các thiên thần nhỏ đã ném vé Bá Vương hoặc tưới dung dịch dinh dưỡng cho tôi trong khoảng thời gian từ 2023-03-11 23:15:00 đến 2023-03-12 18:58:08~
+**Lời tác giả:**
 
-Cảm ơn các thiên thần nhỏ đã tặng dung dịch dinh dưỡng: Sữa đậu nành Vi Vi (21 bình); Drinker, Bạch Cổ (10 bình); Xuân Sơn (5 bình); Sadako không quên người đào giếng, G_NI (1 bình);
+Có người tuy ngoài mặt thì quậy phá phát điên, nhưng trong lòng lại vừa đau lòng vừa luống cuống cả lên. Tôi không nói là ai đâu nhé (đẩy gọng kính).
 
-Cảm ơn tất cả mọi người rất nhiều vì đã ủng hộ, tôi sẽ tiếp tục cố gắng!
+Chương này là chương bão cập nhật OvO.
 
-Sáng nay đi thi buồn ngủ quá, nên chương ngày mai sẽ đăng hơi muộn một chút—khoảng tầm trưa các bạn ghé qua nhé!
+Sáng nay đi thi buồn ngủ quá, nên chương ngày mai sẽ đăng hơi muộn một chút — khoảng tầm trưa các bạn ghé qua nhé!
 
-Chương sau nữa sẽ có sự phân hóa~
+Chương sau nữa sẽ phân hóa lần hai~
 
-Cảm ơn sự ủng hộ của mọi người!
+Cảm ơn sự ủng hộ của mọi người! Yêu tất cả các bạn~
 
-Yêu tất cả các bạn~
+***
+
+*Cảm ơn các thiên thần nhỏ đã ném vé Bá Vương hoặc tưới dung dịch dinh dưỡng (2023-03-11 23:15:00 ~ 2023-03-12 18:58:08):*
+- *Dung dịch dinh dưỡng: Sữa đậu nành Vi Vi (21 bình); Drinker, Bạch Cổ (10 bình); Xuân Sơn (5 bình); Sadako không quên người đào giếng, G_NI (1 bình).*

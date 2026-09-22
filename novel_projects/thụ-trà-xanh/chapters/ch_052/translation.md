@@ -4,7 +4,7 @@ title: Thụ trà xanh — ch_052
 
 Thẩm Phi Triết đã giải quyết xong chuyện với C2.
 
-Cuối cùng, C2 thành thật thừa nhận sai lầm, thừa nhận rằng chính mình là người đã gây chuyện trước, đồng thời bồi thường cho Thẩm Phi Triết một tấm thẻ thông hành Main Star.
+Cuối cùng, C2 thành thật thừa nhận sai lầm, thừa nhận rằng chính mình là người đã gây chuyện trước, đồng thời bồi thường cho Thẩm Phi Triết một tấm thẻ thông hành Ngôi sao Chính.
 
 Thẩm Phi Triết có chút khó hiểu: "Tôi đã có một tấm rồi."
 
@@ -220,27 +220,27 @@ Cậu không đủ quan trọng đối với Thẩm Phi Triết để khiến an
 
 Ngay khoảnh khắc nhận ra điều này, tâm trạng Cố Tùy Châu trở nên vô cùng tồi tệ.
 
-Ở phía bên kia, Thẩm Phi Triết trở về sau buổi chạy bộ sáng và gặp Leapton tại nhà hàng để dùng bữa.
+Ở phía bên kia, Thẩm Phi Triết trở về sau buổi chạy bộ sáng và gặp Lai Cẩu tại nhà hàng để dùng bữa.
 
-"Anh Thẩm, anh dậy sớm thật đấy." Leapton lảo đảo bước tới, ngáp một cái. "Sao hôm nay không rủ C2 đi cùng?"
+"Anh Thẩm, anh dậy sớm thật đấy." Lai Cẩu lảo đảo bước tới, ngáp một cái. "Sao hôm nay không rủ C2 đi cùng?"
 
 "Cậu ta bận rồi," Thẩm Phi Triết bịa ra một lý do ngay tại chỗ. "Hơn nữa, tôi có chuyện muốn hỏi cậu."
 
-"Ồ?" Hiếm khi nghe thấy Thẩm Phi Triết có điều muốn hỏi mình, Leapton suýt nữa làm rơi miếng bánh mì; cậu ta thậm chí còn chuyển sang dùng kính ngữ. "Xin cứ nói, thưa ngài."
+"Ồ?" Hiếm khi nghe thấy Thẩm Phi Triết có điều muốn hỏi mình, Lai Cẩu suýt nữa làm rơi miếng bánh mì; cậu ta thậm chí còn chuyển sang dùng kính ngữ: "Xin cứ nói, thưa ngài."
 
 Thẩm Phi Triết đi thẳng vào vấn đề: "Cậu có biết thợ xăm nào không?"
 
-"Anh muốn xăm hình à?" Leapton ngạc nhiên hỏi. "Tôi không nghĩ anh lại là kiểu người chạy theo xu hướng đấy."
+"Anh muốn xăm hình à?" Lai Cẩu ngạc nhiên hỏi: "Tôi không nghĩ anh lại là kiểu người chạy theo xu hướng đấy."
 
 Thẩm Phi Triết bắt được từ khóa: "'Lại'?"
 
-“Đúng là tôi có quen một thợ xăm. Là người yêu cũ đời thứ năm của tôi đấy. Hồi trước tôi từng giới thiệu cậu ta cho lão Cố.” Leapton vừa nhớ lại vừa nhấp một ngụm sữa. “Nhưng tôi không rõ lão Cố có thực sự xăm hay không. Người yêu cũ đời thứ năm của tôi bảo là lão Cố muốn tự học cách xăm. Cậu ta có học được hay không, hay lão Cố có xăm hay không thì tôi chịu—sau vụ đó chúng tôi chia tay trong êm đẹp. Nhưng kỹ thuật của cậu ta rất chắc tay. Nếu anh Thẩm muốn xăm, tôi có thể giới thiệu cho anh.”
+“Đúng là tôi có quen một thợ xăm. Là người yêu cũ đời thứ năm của tôi đấy. Hồi trước tôi từng giới thiệu cậu ta cho lão Cố.” Lai Cẩu vừa nhớ lại vừa nhấp một ngụm sữa. “Nhưng tôi không rõ lão Cố có thực sự xăm hay không. Người yêu cũ đời thứ năm của tôi bảo lão Cố muốn tự học cách xăm. Cậu ta có học được hay không, hay lão Cố có xăm hay không thì tôi chịu—sau vụ đó chúng tôi chia tay trong êm đẹp. Nhưng kỹ thuật của cậu ta rất chắc tay. Nếu anh Thẩm muốn xăm, tôi có thể giới thiệu cho anh.”
 
 Thẩm Phi Triết nhắm mắt lại trong giây lát, rồi bình thản đáp: “Vậy phiền cậu gửi thông tin liên lạc của người đó cho tôi.”
 
 Trong bốn người tham gia chuyến đi này, ngoại trừ C2 ra thì không ai là kẻ nhàn rỗi. Việc rời đi nửa tháng đã là một khoảng thời gian nghỉ ngơi hiếm hoi trong cuộc sống bận rộn của họ; họ còn chưa kịp đặt chân về Lam Tinh được một ngày thì ai nấy đều đã quay lại vị trí công tác của mình.
 
-Sau khi dự án W.N bị đình chỉ, công việc của Thẩm Phi Triết tại Viện Nghiên cứu trở nên nhẹ nhàng hơn đáng kể. Hơn nữa, vì không còn cần phải liên lạc với Main Star thông qua đội ngũ của Ritter, anh bỗng dưng có rất nhiều thời gian rảnh rỗi.
+Sau khi dự án W.N bị đình chỉ, công việc của Thẩm Phi Triết tại Viện Nghiên cứu trở nên nhẹ nhàng hơn đáng kể. Hơn nữa, vì không còn cần phải liên lạc với Ngôi sao Chính thông qua đội ngũ của Ritter, anh bỗng dưng có rất nhiều thời gian rảnh rỗi.
 
 Cố Tùy Châu đã sắp xếp cho anh một vị trí quản lý tại công ty, nên những lúc không có việc gì làm, anh thường qua đó hỗ trợ.
 
@@ -354,7 +354,7 @@ Thẩm Phi Triết nhìn mặt đất lùi xa dần. Từ khóe mắt, anh thoá
 
 Trước đây, anh luôn có thể hoàn thành tốt các nhiệm vụ một mình. Lần này, với sự hỗ trợ từ C2 và A11, quá trình thực hiện lại càng trôi chảy hơn.
 
-Mười năm ở thế giới thứ nhất trôi qua trong chớp mắt. Thẩm Phi Triết được đưa trở lại Main Star để trải qua quá trình phục hồi tâm lý.
+Mười năm ở thế giới thứ nhất trôi qua trong chớp mắt. Thẩm Phi Triết được đưa trở lại Ngôi sao Chính để trải qua quá trình phục hồi tâm lý.
 
 Ngay khi điểm số tâm lý vừa đủ đạt yêu cầu, anh đã nhanh chóng tiến vào thế giới thứ hai. Anh giải quyết mọi việc gọn lẹ rồi trở về, chỉ để rồi phải nằm trong phòng chăm sóc đặc biệt (ICU) suốt hai ngày.
 
@@ -384,7 +384,7 @@ Thẩm Phi Triết, người đang nhắm mắt nghỉ ngơi, lập tức mở b
 
 Đúng như dự đoán, điều tồi tệ nhất đã xảy ra.
 
-C2 vội vã nói: "Đừng hoảng! A11 đã đi điều tra nguyên nhân rồi. Có vẻ không phải vấn đề từ phía Main Star; nó liên quan đến nội bộ thế giới của cậu. Chết tiệt, sao thế giới của cậu lại xui xẻo đến vậy chứ?"
+C2 vội vã nói: "Đừng hoảng! A11 đã đi điều tra nguyên nhân rồi. Có vẻ không phải vấn đề từ phía Ngôi sao Chính; nó liên quan đến nội bộ thế giới của cậu. Chết tiệt, sao thế giới của cậu lại xui xẻo đến vậy chứ?"
 
 Xui xẻo sao?
 
@@ -436,7 +436,9 @@ Chẳng phải quá trình phân hóa vẫn đang diễn ra sao?
 
 "Đúng vậy." Giọng Thẩm Phi Triết nghe đầy mệt mỏi. "Là cho tôi."
 
-Lời tác giả:
+---
+
+**Lời tác giả:**
 
 Anh Thẩm sẽ không sớm nhìn thấy toàn bộ hình xăm đó đâu~
 
@@ -444,14 +446,9 @@ Tôi thực sự thấy có người hỏi khi nào anh Thẩm mới chịu yêu
 
 Mọi người không nhận ra là trái tim anh ấy đã nghiêng hẳn sang nửa bên kia Thái Bình Dương rồi sao!
 
-Cảm ơn các thiên thần nhỏ đã ném vé Bá Vương hoặc tưới dung dịch dinh dưỡng cho tôi trong khoảng thời gian từ 2023-03-12 17:06:33 đến 2023-03-13 09:54:53~
+***
 
-Cảm ơn các thiên thần nhỏ đã tưới dung dịch dinh dưỡng cho tôi: Nam Nam Vãn An (10 bình); Người uống rượu (5 bình); Uống một ly trà trái cây (3 bình); Venaes (2 bình); Bách Ngọc, Lý Xán, Nhai Nhai, G_NI (1 bình);
+*Cảm ơn các thiên thần nhỏ đã ném vé Bá Vương hoặc tưới dung dịch dinh dưỡng (2023-03-12 17:06:33 ~ 2023-03-13 09:54:53):*
+- *Dung dịch dinh dưỡng: Nam Nam Vãn An (10 bình); Người uống rượu (5 bình); Uống một ly trà trái cây (3 bình); Venaes (2 bình); Bách Ngọc, Lý Xán, Nhai Nhai, G_NI (1 bình).*
 
-Cảm ơn tất cả mọi người rất nhiều vì đã ủng hộ; tôi sẽ tiếp tục cố gắng!
-
-Anh Thẩm sẽ không sớm nhìn thấy toàn bộ hình xăm đó đâu~
-
-Tôi nhận ra thực sự có người hỏi khi nào anh Thẩm mới chịu yêu đương?
-
-Mọi người không nhận ra là trái tim anh ấy đã nghiêng hẳn sang nửa bên kia Thái Bình Dương rồi sao!
+*Cảm ơn tất cả mọi người rất nhiều vì đã ủng hộ; tôi sẽ tiếp tục cố gắng!*

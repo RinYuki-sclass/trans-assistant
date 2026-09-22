@@ -32,13 +32,13 @@ Khi tuổi thọ con người tăng lên, tuổi thọ của động vật cũng
 
 Tuy nhiên, hệ sinh thái tự nhiên của Lam Tinh khá khắc nghiệt. Nhiều con chó hoang bị bỏ rơi từ nhỏ thậm chí không sống nổi qua 5 tuổi.
 
-Cố Tùy Châu lảo đảo ngồi xổm xuống, xoa đầu con chó: "Nó mới sáu tuổi thôi, nhưng trước đó suýt chút nữa đã không qua khỏi. Ba năm trước, nó thua trong một trận chiến với con chó lớn hơn, chính tôi là người đã cứu nó!"
+Cố Tùy Châu lảo đảo ngồi xổm xuống, xoa đầu con chó: "Nó mới sáu tuổi thôi, nhưng trước đó suýt chút nữa đã không qua khỏi. Ba năm trước, nó thua trong một trận chiến với con chó lớn hơn, chính em là người đã cứu nó đấy!"
 
-Giọng điệu của anh mang theo vẻ đắc ý rõ rệt, như thể đang chờ đợi sự công nhận.
+Giọng điệu của cậu mang theo vẻ đắc ý rõ rệt, như thể đang chờ đợi sự công nhận.
 
-Thẩm Phi Triết xoa đầu anh, giống hệt cách Cố Tùy Châu đang xoa đầu con chó: "Tôi không biết nói gì hơn, nhưng cậu cũng khá nhân từ đấy."
+Thẩm Phi Triết xoa đầu cậu, giống hệt cách Cố Tùy Châu đang xoa đầu con chó: "Tôi không biết nói gì hơn, nhưng cậu cũng khá nhân từ đấy."
 
-Cố Tùy Châu thoải mái nheo mắt lại, không hề phản bác. Một lúc sau, anh đột nhiên lên tiếng: "Chúng ta có thể giữ nó lại không?"
+Cố Tùy Châu thoải mái nheo mắt lại, không hề phản bác. Một lúc sau, cậu đột nhiên lên tiếng: "Chúng ta giữ nó lại nuôi được không anh?"
 
 Thẩm Phi Triết lạnh lùng rút tay lại: "Không."
 
@@ -48,37 +48,37 @@ Cố Tùy Châu, nhờ có chút men rượu làm lá gan thêm lớn, thực s�
 
 Thẩm Phi Triết hoàn toàn ngó lơ tiếng rên rỉ đáng thương của con chó, nghiêm túc hỏi: "Cậu chắc là mình chăm sóc nổi nó chứ?"
 
-Cố Tùy Châu kiên quyết: "Tôi làm được."
+Cố Tùy Châu kiên quyết: "Em làm được mà."
 
-"Nói thì dễ hơn làm," Thẩm Phi Triết đáp. "Tiêm thuốc, cho ăn, dắt đi dạo rồi còn bao nhiêu việc vặt khác nữa – cậu lấy đâu ra thời gian?"
+"Nói thì dễ hơn làm," Thẩm Phi Triết đáp. "Tiêm phòng, cho ăn, dắt đi dạo rồi còn bao nhiêu việc vặt khác nữa – cậu lấy đâu ra thời gian?"
 
 Những lời anh nói đều là sự thật. Nếu không thể cam kết thực hiện những điều đó, thì việc can thiệp vào một sinh mạng chỉ vì sở thích nhất thời là hành động cực kỳ vô trách nhiệm. Thẩm Phi Triết chưa bao giờ là người tự chuốc lấy loại rắc rối này.
 
-Nhưng lần này, Cố Tùy Châu lại kiên trì đến cùng: "Tôi có thể thu xếp được. Hơn nữa, nếu thỉnh thoảng tôi phải đi công tác, anh Thẩm, chẳng lẽ anh thực sự đành lòng nhìn nó chết đói ở nhà sao?"
+Nhưng lần này, Cố Tùy Châu lại kiên trì đến cùng: "Em có thể thu xếp được mà. Hơn nữa, nếu thỉnh thoảng em phải đi công tác, anh Thẩm, chẳng lẽ anh thực sự đành lòng nhìn nó chết đói ở nhà sao?"
 
 Đúng lúc đó, con chó lại sủa một tiếng "gâu", cụp đuôi vào giữa hai chân đầy chán nản.
 
 Nắm đấm của Thẩm Phi Triết hơi siết chặt.
 
-Có phải người đàn ông này và con chó đang diễn một màn kịch đôi không? Tại sao họ lại khiến anh nghe như một kẻ phản diện ghê tởm thế này?
+Có phải tên nhóc này và con chó đang cùng nhau diễn kịch không? Tại sao họ lại khiến anh trông như một kẻ phản diện tàn nhẫn thế này?
 
 Không phải anh tuyệt đối không cho cậu nuôi nó, chỉ là lúc này Cố Tùy Châu đang say, suy nghĩ không được sáng suốt. Lỡ như ngày mai tỉnh dậy cậu hối hận thì sao? Nếu là một Cố Tùy Châu tỉnh táo, có lẽ còn có chỗ để thương lượng.
 
 Anh lại lắc đầu: "Không. Ngày mai rồi nói tiếp."
 
-Cố Tùy Châu cúi đầu, vẻ mặt hoàn toàn suy sụp. Cậu ôm lấy đầu con chó bằng cả hai tay, thì thầm: "Xin lỗi em nhé. Anh trai anh không cho phép anh giữ em lại."
+Cố Tùy Châu cúi đầu, vẻ mặt hoàn toàn suy sụp. Cậu ôm lấy đầu con chó bằng cả hai tay, thì thầm: "Xin lỗi mày nhé cún con. Anh trai tao không cho phép tao giữ mày lại."
 
 Con chó lại kêu lên một tiếng thê lương: "Gâu, gâu!"
 
 Thẩm Phi Triết khoanh tay, lặng lẽ đứng nhìn cậu diễn màn kịch này.
 
-Cố Tùy Châu nức nở nghẹn ngào: "Em hiểu rõ mà, anh trai em chỉ là cảm thấy giữ anh lại là trách nhiệm, chứ anh ấy chẳng hề muốn gánh vác trách nhiệm với anh đâu. Dù sao thì anh ấy cũng có thể đứng dậy rời đi bất cứ lúc nào mà không nói một lời, đến em anh ấy còn chẳng buồn chịu trách nhiệm, thì làm sao có thể chịu trách nhiệm với anh được!"
+Cố Tùy Châu nghẹn ngào: "Mày cũng hiểu mà, anh ấy cảm thấy việc giữ tao lại chỉ là một gánh nặng, chứ anh ấy chẳng hề muốn chịu trách nhiệm với tao đâu. Dù sao thì anh ấy cũng có thể đứng dậy bỏ đi bất cứ lúc nào mà không nói một lời, đến tao anh ấy còn chẳng buồn chịu trách nhiệm, thì làm sao có thể chịu trách nhiệm với mày được chứ!"
 
 Chú chó nhỏ nhẹ nhàng dụi đầu vào lòng bàn tay cậu, sau đó chạy đến bên Thẩm Phi Triết, thận trọng cắn nhẹ rồi kéo ống quần anh.
 
 Thẩm Phi Triết: “…”
 
-Cố Tùy Châu ép mình buông tay, dáng vẻ như một kẻ tử vì đạo đang bước lên đoạn đầu đài: "Đừng cắn nữa! Dù cậu có cắn bao nhiêu đi chăng nữa, chúng tôi cũng không nhận nuôi cậu đâu! Đi đi! Đi mau đi! Cậu đi trước đi, đợi khi nào tôi bị đá ra khỏi đây sẽ đi tìm cậu. Lúc đó chúng ta có thể làm anh em cùng nhau lang bạt!"
+Cố Tùy Châu ép mình buông tay, dáng vẻ như một kẻ tử vì đạo đang bước lên đoạn đầu đài: "Đừng cắn nữa! Dù mày có cắn rách quần anh ấy thì chúng ta cũng không nuôi mày được đâu! Đi đi! Mày mau đi đi! Mày đi trước đi, đợi khi nào tao bị đá ra khỏi đây sẽ đi tìm mày. Lúc đó hai ta làm anh em cùng nhau lang bạt đầu đường xó chợ!"
 
 Thái dương Thẩm Phi Triết giật giật, như thể sắp nổ tung đến nơi: “Cậu đủ rồi đấy.”
 
@@ -90,7 +90,7 @@ Và thế là bộ đôi của họ đã trở thành một bộ ba.
 
 Thẩm Phi Triết và chú chó phải tốn rất nhiều công sức mới đưa được Cố Tùy Châu về nhà an toàn. Khoảnh khắc vừa bước qua cửa, Cố Tùy Châu đã lao thẳng vào phòng ngủ của Thẩm Phi Triết, không gì ngăn cản nổi.
 
-Thẩm Phi Triết giữ vẻ mặt âm trầm, mặc kệ hắn muốn làm gì thì làm. Anh dẫn con chó ra ban công, đặt hai chiếc xúc xích xuống sàn.
+Thẩm Phi Triết giữ vẻ mặt âm trầm, mặc kệ cậu muốn làm gì thì làm. Anh dẫn con chó ra ban công, đặt hai chiếc xúc xích xuống sàn.
 
 Anh duy trì một khoảng cách lạnh lùng và an toàn với con vật: "Ngày mai, khi 'anh trai' của cậu ngủ say, chúng ta sẽ quyết định xem cậu ở lại hay đi."
 
@@ -104,13 +104,13 @@ Anh hít một hơi sâu, tự trấn an bản thân không được hành độ
 
 Người đang quằn quại như giòi trên giường nghe thấy giọng anh liền ngồi dậy, ôm chặt lấy gối: "Tại sao giường của anh lại không có mùi giống anh?"
 
-“Bởi vì hôm qua tôi ngủ trên ghế sofa.” Thẩm Phi Triết bước tới, vươn tay định cưỡng ép ném hắn vào phòng tắm.
+“Bởi vì hôm qua tôi ngủ trên ghế sofa.” Thẩm Phi Triết bước tới, vươn tay định túm cổ áo ném cậu vào phòng tắm.
 
-Nhưng Cố Tùy Châu vốn bản tính nổi loạn, cứ không ngừng vùng vẫy trong sự kìm kẹp của anh.
+Nhưng Cố Tùy Châu vốn bản tính ngỗ ngược, cứ không ngừng vùng vẫy trong sự kìm kẹp của anh.
 
-"Tôi không muốn tắm!"
+"Em không muốn tắm!"
 
-Chiếc sơ mi trắng của anh đã ướt đẫm rượu vang đỏ. Lo anh bị cảm lạnh, Thẩm Phi Triết đã thay áo cho cậu ngay trên xe. Giờ đây, lớp rượu dính dấp trên da khiến cậu cảm thấy vô cùng khó chịu, sự kiên nhẫn cũng dần cạn kiệt.
+Chiếc sơ mi trắng của cậu đã ướt đẫm rượu vang đỏ. Lo cậu bị cảm lạnh, Thẩm Phi Triết đã thay áo cho cậu ngay trên xe. Giờ đây, lớp rượu dính dấp trên da khiến cậu cảm thấy vô cùng khó chịu, sự kiên nhẫn cũng dần cạn kiệt.
 
 "Đi tắm đi, hoặc là cút ra ngoài."
 
@@ -186,7 +186,7 @@ Nhưng điều đó không có nghĩa là cậu mất đi nhận thức. Trên t
 
 Cố Tùy Châu giơ tay xoa xoa môi.
 
-Một lúc lâu sau, anh mới đưa tay vặn nhiệt độ nước xuống mức thấp nhất.
+Một lúc lâu sau, cậu mới đưa tay vặn nhiệt độ nước xuống mức thấp nhất.
 
 Sau khi tắm xong và bước ra ngoài, Thẩm Phi Triết tình cờ nhận được tin nhắn từ "anh chàng đẹp trai số 9".
 
@@ -202,15 +202,15 @@ Lúc Thẩm Phi Triết cúp máy, Cố Tùy Châu giật lấy thiết bị th�
 
 “Tối nay tôi gặp một người.” Thẩm Phi Triết trả lời, không thèm che giấu. "Từ Trọng nói nếu không sớm phân hóa, có thể sẽ tổn hại đến sức khỏe."
 
-Cố Tùy Châu quay đầu lại: "Tôi có thể sống cả đời mà không cần phân hóa!"
+Cố Tùy Châu quay đầu lại: "Em có thể sống cả đời mà không cần phân hóa!"
 
 Thẩm Phi Triết gõ gõ đầu giường, vẻ mặt không vui: “Đừng nói những điều vô nghĩa như vậy.”
 
-Cố Tùy Châu trở nên phẫn nộ: "Vậy là anh đang mở rộng công việc kinh doanh phụ của mình và định sắp xếp cho tôi những cuộc hẹn hò xem mắt sao?"
+Cố Tùy Châu trở nên phẫn nộ: "Vậy là anh đang mở rộng nghề tay trái và định sắp xếp cho em những cuộc hẹn hò xem mắt sao?"
 
 "Tôi chỉ đang cân nhắc đến sức khỏe của cậu thôi, nếu cậu không thích người này thì chúng ta chuyển sang người khác. Cậu không thể trì hoãn được nữa," Thẩm Phi Triết bình tĩnh nói. “Tôi không thể đứng nhìn cậu tự làm tổn thương chính mình vì chuyện này được.”
 
-Nghe thấy anh nói là vì mình, biểu cảm của Cố Tùy Châu dịu lại đôi chút: "Anh lo lắng cho tôi đến vậy sao?"
+Nghe thấy anh nói là vì mình, biểu cảm của Cố Tùy Châu dịu lại đôi chút: "Anh lo lắng cho em đến vậy sao?"
 
 Điều cậu thực sự muốn nói là: Nếu anh lo lắng như vậy, sao không tự mình giúp em đi?
 
@@ -220,13 +220,13 @@ Cố Tùy Châu: "..."
 
 Bầu không khí vừa mới bắt đầu tan băng lại lập tức đóng băng.
 
-Thẩm Phi Triết không biết trong lời nói của mình có phần nào khiến cậu động tâm, nhưng vẻ mặt Cố Tùy Châu trở nên chua chát, giống như có người nợ cậu tám mươi tỷ vậy.
+Thẩm Phi Triết không biết trong lời nói của mình có câu nào chạm vào vảy ngược của đối phương, nhưng vẻ mặt Cố Tùy Châu bỗng trở nên khó coi như thể bị ai nợ tám mươi tỷ vậy.
 
-Anh ta đổ lỗi cho người đàn ông kia cảm thấy không khỏe là do uống quá nhiều.
+Anh cho rằng cậu cảm thấy không khỏe là do uống quá nhiều rượu.
 
-"Mọi chuyện khác đều có thể thương lượng, nhưng riêng vấn đề này thì không có chỗ để bàn bạc. Tối nay em cứ nghỉ ngơi đi; ngày mai khi tỉnh táo, chúng ta sẽ nói tiếp về những chuyện khác." Thẩm Phi Triết vỗ vỗ vai cậu. "Đợi lát nữa anh sẽ đưa em quay lại bệnh viện kiểm tra lần nữa."
+"Mọi chuyện khác đều có thể thương lượng, nhưng riêng vấn đề này thì không có chỗ để bàn bạc. Tối nay cậu cứ nghỉ ngơi đi; ngày mai khi tỉnh táo, chúng ta sẽ nói tiếp." Thẩm Phi Triết vỗ vỗ vai cậu. "Đợi lát nữa tôi sẽ đưa cậu quay lại bệnh viện kiểm tra lần nữa."
 
-"À, đúng rồi." Trước khi bước ra ngoài, Thẩm Phi Triết dựa vào khung cửa, nói thêm: "Một khi đã phân hóa, em ở lại đây không còn thích hợp nữa, em phải dọn đi thôi. Cứ bắt đầu xem nhà đi, thấy chỗ nào ưng ý thì nói với anh, anh sẽ mua cho em."
+"À, đúng rồi." Trước khi bước ra ngoài, Thẩm Phi Triết dựa vào khung cửa, nói thêm: "Một khi đã phân hóa, cậu ở lại đây không còn thích hợp nữa, cậu phải dọn đi thôi. Cứ bắt đầu xem nhà đi, thấy chỗ nào ưng ý thì nói với tôi, tôi sẽ mua cho cậu."
 
 Phản ứng của Cố Tùy Châu đúng như anh dự đoán. Thằng nhóc này quá ỷ lại vào anh, lúc nào cũng muốn bám lấy ôm ấp—điều đó chẳng ra thể thống gì cả.
 
@@ -330,17 +330,17 @@ Cố Tùy Châu vẫn giữ vẻ bình tĩnh, giơ ngón cái có dính vệt tr
 
 "Được rồi, lần sau em sẽ sửa." Cố Tùy Châu mỉm cười, vui vẻ tiếp nhận lời giáo huấn.
 
-Khi cánh cửa khép lại, anh tựa lưng vào đó, lắng nghe tiếng bước chân dần xa trên hành lang. Lúc này, nụ cười trên gương mặt hắn mới đột ngột tan biến, thay vào đó là vẻ bất mãn cùng u ám.
+Khi cánh cửa khép lại, cậu tựa lưng vào đó, lắng nghe tiếng bước chân dần xa trên hành lang. Lúc này, nụ cười trên gương mặt cậu mới đột ngột tan biến, thay vào đó là vẻ bất mãn cùng u ám.
 
-Chết tiệt, mình đã cố nhịn cả buổi sáng để không ôm anh ấy. Thật là muốn chết đi được!
+Chết tiệt, mình đã cố nhịn cả buổi sáng để không ôm anh ấy. Thật là muốn nghẹn chết đi được!
 
-Bực dọc, anh ngồi phịch xuống chiếc ghế sofa vẫn còn vương mùi cà phê đắng. Anh ngây người nhìn bản tin trên TV với vẻ thích thú, một tay vuốt ve con chó, tay kia từ từ đưa lên môi.
+Bực dọc, cậu ngồi phịch xuống chiếc ghế sofa vẫn còn vương mùi cà phê đắng. Cậu ngây người nhìn bản tin trên TV trong sự buồn bực, một tay vuốt ve con chó, tay kia từ từ đưa lên môi.
 
-Anh dùng đầu lưỡi liếm nhẹ giọt sữa còn sót lại.
+Cậu dùng đầu lưỡi liếm nhẹ giọt sữa còn sót lại.
 
-Khi vị ngọt lan tỏa từ vị giác đến tận dây thần kinh, biểu cảm của anh cuối cùng cũng dịu lại đôi chút. Anh lười biếng gãi đầu con chó: "May mắn thay, làm tốt lắm."
+Khi vị ngọt lan tỏa từ vị giác đến tận dây thần kinh, biểu cảm của cậu cuối cùng cũng dịu lại đôi chút. Cậu lười biếng gãi đầu con chó: "May Mắn, làm tốt lắm."
 
-Nghe đến cái tên "Lucky Break", con chó sủa hai tiếng đầy phấn khích.
+Nghe thấy cái tên "May Mắn", con chó sủa hai tiếng đầy phấn khích.
 
 Rõ ràng, con chó này đã có tên từ khá lâu rồi.
 

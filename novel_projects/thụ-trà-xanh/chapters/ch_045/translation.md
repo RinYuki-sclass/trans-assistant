@@ -6,7 +6,7 @@ Chương 45
 
 Từ Trọng nhìn Thẩm Phi Triết – người đàn ông “cuối cùng đã trở về sau chuyến công tác bốn năm rưỡi” – và hiểu rõ vị thế của đối phương trong lòng Cố Tùy Châu, nên ông không hề nhấc một ngón tay ngăn cản.
 
-Thẩm Phi Triết đã thành công “bắt cóc” nhân vật cao cấp này và đưa anh về nhà.
+Thẩm Phi Triết đã thành công “bắt cóc” nhân vật cao cấp này và đưa cậu về nhà.
 
 Lúc lên xe, anh nhìn C2 với vẻ mặt u ám: “Sao cậu lại để mình bị lừa lên đó?”
 
@@ -24,13 +24,13 @@ Dựa vào tính cách của Cố Tùy Châu, chuyện cậu ra tay cứu ngư�
 
 Thẩm Phi Triết: “...”
 
-C2 phẫn uất nhìn người đang bất tỉnh ở hàng ghế sau: “Nhưng người đàn ông này của cậu có cái miệng thật khó ưa. Nếu không, tôi đã chẳng gây sự với hắn.”
+C2 phẫn uất nhìn người đang bất tỉnh ở hàng ghế sau: “Nhưng cái người này của anh mồm mép thật khó ưa. Nếu không, tôi đã chẳng thèm gây sự với cậu ta.”
 
 Thẩm Phi Triết nhìn sang hướng khác.
 
 Khó ưa? Tại sao mỗi khi ở gần anh, miệng lưỡi cậu lúc nào cũng như được bôi mật ngọt vậy?
 
-C2 bề ngoài nhỏ nhắn đáng yêu, nhưng thân là cư dân của Lam Tinh, thực lực của hắn thực chất không kém gì Thẩm Phi Triết; một đòn toàn lực đủ để khiến một kẻ như Cố Tùy Châu bất tỉnh suốt nửa đêm.
+C2 bề ngoài nhỏ nhắn đáng yêu, nhưng thân là cư dân của Ngôi Sao Chính, thực lực của cậu ta thực chất không kém gì Thẩm Phi Triết; một đòn toàn lực đủ để khiến một kẻ như Cố Tùy Châu bất tỉnh suốt nửa đêm.
 
 Thẩm Phi Triết kéo ghế ngồi bên giường, lòng có chút choáng váng.
 
@@ -38,39 +38,39 @@ Trong không gian túi, người ta không thể cảm nhận được thời gi
 
 Nhờ sự vô liêm sỉ của ai đó, nỗi sợ thần bí của Thẩm Phi Triết đã giảm ít nhất năm mươi phần trăm mỗi khi nhắc đến Cố Tùy Châu.
 
-Anh đưa tay vuốt mái tóc dài rối bù của Cố Tùy Châu, ngón tay gõ nhẹ vào gáy chàng trai trẻ.
+Anh đưa tay vuốt mái tóc dài rối bù của Cố Tùy Châu, ngón tay gõ nhẹ vào gáy cậu.
 
-Ở đó không có đường nét rõ ràng, nhưng anh có thể cảm nhận được những khối sẹo nhô lên dưới lớp da.
+Ở đó chưa hình thành tuyến thể rõ ràng, nhưng anh có thể lờ mờ cảm nhận được những chỗ gồ lên dưới da.
 
-Anh tự hỏi, rốt cuộc thì sự khác biệt này đã bắt đầu từ khi nào?
+Anh tự hỏi, rốt cuộc thì bao giờ cậu mới phân hóa?
 
-Cổ là vùng nhạy cảm và mỏng manh đối với bất kỳ ai. Dù đang nhắm nghiền mắt, Cố Tùy Châu vẫn cảm thấy khó chịu; em cau mày, đầu khẽ cử động, cánh tay giơ lên như muốn gạt bàn tay đang can thiệp ra.
+Cổ là vùng nhạy cảm và mỏng manh đối với bất kỳ ai. Dù đang nhắm nghiền mắt, Cố Tùy Châu vẫn cảm thấy khó chịu; cậu cau mày, đầu khẽ cử động, cánh tay giơ lên như muốn gạt bàn tay đang quấy rầy ra.
 
 Theo chuyển động đó, ống tay áo rộng trượt xuống tận khuỷu tay.
 
-Thẩm Phi Triết sững sờ, rồi đột ngột lao tới nắm chặt lấy cổ tay em.
+Thẩm Phi Triết sững sờ, rồi đột ngột lao tới nắm chặt lấy cổ tay cậu.
 
-Tại sao trên người em lại có nhiều vết sẹo đến thế?
+Tại sao trên người cậu lại có nhiều vết sẹo đến thế?
 
 Dấu vết của con số "1642" thậm chí vẫn còn rỉ máu!
 
-Những vết sẹo chằng chịt, lộn xộn này rõ ràng là do con người tạo ra. Ngoài em ra, chẳng ai có thể làm điều này với chính mình.
+Những vết sẹo chằng chịt, lộn xộn này rõ ràng là do con người tạo ra. Ngoài cậu ra, chẳng ai có thể làm điều này với chính mình.
 
-Đứa trẻ này đang chơi trò gì vậy? Chẳng lẽ trong vài năm qua, em đã học được cách tự làm hại bản thân sao?
+Đứa trẻ này đang chơi trò gì vậy? Chẳng lẽ trong vài năm qua, cậu đã học được cách tự làm hại bản thân sao?
 
-Thẩm Phi Triết siết chặt cổ tay gầy guộc của em, không buông ra cho đến khi bàn tay mình cũng nhuốm đỏ máu tươi. Lúc này, những ngón tay của em mới buông lỏng, để mặc bàn tay rắn chắc của anh vô hồn rơi xuống giường.
+Thẩm Phi Triết siết chặt cổ tay gầy guộc của cậu, không buông ra cho đến khi bàn tay mình cũng nhuốm đỏ máu tươi. Lúc này, những ngón tay của cậu mới buông lỏng, để mặc bàn tay rắn chắc của anh buông rơi xuống giường.
 
 Nhìn đứa trẻ – kẻ từng thút thít khóc vì đói – giờ đây lại hành hạ bản thân đến mức này, Thẩm Phi Triết không biết mình đang tức giận hay đau lòng hơn. Nhớ lại những lời Lâm Tử Trác và Cố Lãng đã nói trước khi chết, anh chỉ cảm thấy một nỗi thất vọng sâu sắc.
 
-Tự làm tổn thương mình mà không băng bó, để lại những vết sẹo mà chẳng bao giờ cố gắng xóa bỏ – đây chính là cái cách em thể hiện sự "ngoan ngoãn" của mình sao?
+Tự làm tổn thương mình mà không băng bó, để lại những vết sẹo mà chẳng bao giờ cố gắng xóa bỏ – đây chính là cái cách cậu thể hiện sự "ngoan ngoãn" của mình sao?
 
-Lần này, Thẩm Phi Triết không chỉ dừng lại ở việc quan sát. Giống như rất lâu về trước, anh cẩn thận chăm sóc vết thương cho em.
+Lần này, Thẩm Phi Triết không chỉ dừng lại ở việc quan sát. Giống như rất lâu về trước, anh cẩn thận chăm sóc vết thương cho cậu.
 
-Tiếng gõ cửa phòng ngủ vang lên, giọng nói nghèn nghẹt của C2 truyền vào: "Thẩm Phi Triết? Cậu có rảnh không? Tôi có chuyện muốn nói với cậu."
+Tiếng gõ cửa phòng ngủ vang lên, giọng nói nghèn nghẹt của C2 truyền vào: "Thẩm Phi Triết? Anh có rảnh không? Tôi có chuyện muốn nói với anh."
 
 Thẩm Phi Triết đáp khẽ: "Ừm. Chờ tôi một chút, chúng ta ra ngoài nói."
 
-Anh đặt cổ tay Cố Tùy Châu xuống, thắt nút lại theo cách mà chàng trai trẻ vẫn thích, rồi đi đến phòng của C2.
+Anh đặt cổ tay Cố Tùy Châu xuống, thắt nút nơ theo cách mà cậu vẫn thích, rồi đi đến phòng của C2.
 
 Phòng ngủ và phòng học của C2 được tích hợp trong cùng một không gian. Anh ta đang ngồi tại bàn làm việc, lơ đãng lật xem hướng dẫn cách buộc dây buộc tóc.
 
@@ -78,7 +78,7 @@ Phòng ngủ và phòng học của C2 được tích hợp trong cùng một kh
 
 "À, đúng rồi," C2 thu xếp lại suy nghĩ. "Cậu còn nhớ tôi đã nói với cậu rằng, những người ở thế giới này không thể biết được những điều thuộc về thế giới kia không?"
 
-Thẩm Phi Triết hỏi: "Vậy... cậu định giải thích thế nào với Cố Tùy Châu về việc 'anh' chính là người đã tiêm thuốc cho cậu ta?"
+C2 hỏi: "Vậy... anh định giải thích thế nào với Cố Tùy Châu về việc 'anh' chính là người đã tiêm thuốc cho cậu ta?"
 
 Thẩm Phi Triết dừng tay, lật một trang sách: "Trước tiên, chẳng phải cậu nên giải thích cho tôi tại sao người của cậu lại đánh thuốc mê Cố Tùy Châu trước sao?"
 
@@ -114,7 +114,7 @@ Ngay sau đó, Thẩm Phi Triết nghe thấy tiếng gõ cửa.
 
 Anh vừa định hỏi: "Sao em lại gõ cửa khi ra khỏi phòng tắm?" thì chợt nhận ra âm thanh đó phát ra từ cửa chính của căn phòng.
 
-Anh nhìn lên, nói: "Em... đợi một chút."
+Anh nhìn lên, nói: "Cậu... đợi một chút."
 
 Tiếng gõ cửa dừng lại.
 
@@ -122,7 +122,7 @@ Thẩm Phi Triết còn chưa kịp đứng dậy, đã nghe thấy giọng nói
 
 Thẩm Phi Triết: “…” Giọng điệu bình thản đến vậy sao? Anh vốn đã chuẩn bị tinh thần rằng cậu sẽ nổi cơn thịnh nộ ngay khi tỉnh dậy.
 
-Cửa phòng tắm hé mở, Cố Tùy Châu ra hiệu rằng anh có thể tùy ý, không cần phải lo lắng cho cậu.
+Cửa phòng tắm hé mở, C2 ra hiệu rằng anh cứ tự nhiên, không cần phải bận tâm đến mình.
 
 Thẩm Phi Triết lúc này mới lên tiếng: "Mời vào."
 
@@ -172,7 +172,7 @@ Lúc này, khoảng cách giữa gương mặt hai người chưa đầy một n
 
 Những đường gân trên mu bàn tay Thẩm Phi Triết nổi lên như sắp nổ tung: “Cố Tùy Châu, cậu có biết mình đang nói chuyện với ai không?”
 
-Cố Tùy Châu ngơ ngác nhìn anh, cổ tay khẽ động. Từ đâu đó, anh lấy ra một con dao gỗ nhỏ.
+Cố Tùy Châu ngơ ngác nhìn anh, cổ tay khẽ động. Từ đâu đó, cậu lấy ra một con dao gỗ nhỏ.
 
 Thẩm Phi Triết nheo mắt, nhận ra đó là con dao gỗ xấu xí mà anh đã bỏ qua lúc nãy.
 
@@ -180,13 +180,13 @@ Anh không biết Cố Tùy Châu định làm gì, chỉ thấy đối phương
 
 Thẩm Phi Triết giật thót, lập tức đưa tay ngăn lại: “Cậu làm cái quái gì vậy!”
 
-Nhưng Cố Tùy Châu hành động quá nhanh. Khi Thẩm Phi Triết tóm được tay anh thì con dao gỗ đã cứa một đường sâu hoắm vào lòng bàn tay, máu tươi rỉ ra.
+Nhưng Cố Tùy Châu hành động quá nhanh. Khi Thẩm Phi Triết tóm được tay cậu thì con dao gỗ đã cứa một đường sâu hoắm vào lòng bàn tay, máu tươi rỉ ra.
 
 Đôi mắt Cố Tùy Châu bỗng chốc đỏ hoe.
 
 Đau thật; đây không phải là mơ.
 
-Anh dùng bàn tay đang rỉ máu nắm chặt lấy cổ tay Thẩm Phi Triết, nước mắt bắt đầu rơi xuống không báo trước.
+Cậu dùng bàn tay đang rỉ máu nắm chặt lấy cổ tay Thẩm Phi Triết, nước mắt bắt đầu rơi xuống không báo trước.
 
 Lần này, đến lượt Thẩm Phi Triết cảm thấy bất lực.
 
@@ -288,7 +288,7 @@ Cố Tùy Châu rất nhanh đã thẳng thắn trả lời anh—
 
 "Vậy anh muốn tôi làm gì đây?" Khóe mắt Cố Tùy Châu đỏ ửng như sắp rỉ máu. "Tôi không ngừng suy nghĩ, từng vết cắt này đều là vì anh. Tôi biết chính anh là người đã tiêm cho tôi mũi tiêm đó, lẽ ra tôi phải hận anh đến tận xương tủy. Mỗi lần nhìn thấy những vết sẹo này, tôi lại nhớ đến sự tàn nhẫn của anh, tôi thật muốn xé xác anh ra thành từng mảnh!"
 
-Cậu nhóc này luôn là người ném bóng nhanh.
+Tiểu tử này trước giờ luôn là kẻ giỏi tung đòn phủ đầu.
 
 Cậu không giống những người khác, biết che giấu vết thương và giả vờ như không hề hấn gì. Cậu nhất quyết muốn xé toạc vết thương của chính mình ngay trước mặt người chịu trách nhiệm, phơi bày sự đẫm máu ấy ra.
 
@@ -298,15 +298,15 @@ Cố Tùy Châu không phải là một quý ông. Cậu không quan tâm đến
 
 Thẩm Phi Triết đương nhiên nhìn thấu tất cả, nhưng anh lại phát hiện bản thân chẳng thể nào thực sự phòng ngự.
 
-Mọi quân bài đều đã lật ngửa trên bàn. Những nước đi của Cố Tùy Châu vô cùng táo bạo và trắng trợn, khiến Thẩm Phi Triết chỉ còn biết chịu trận. Đúng như dự tính của em, Thẩm Phi Triết cảm thấy tim mình thắt lại, theo sau đó là một làn sóng tội lỗi dâng trào. Chẳng ai có thể thờ ơ khi chứng kiến một thiếu gia vốn được nuông chiều từ bé nay lại phải chịu cảnh khốn khổ vì mình.
+Mọi quân bài đều đã lật ngửa trên bàn. Những nước đi của Cố Tùy Châu vô cùng táo bạo và trắng trợn, khiến Thẩm Phi Triết chỉ còn biết chịu trận. Đúng như dự tính của cậu, Thẩm Phi Triết cảm thấy tim mình thắt lại, theo sau đó là một làn sóng tội lỗi dâng trào. Chẳng ai có thể thờ ơ khi chứng kiến một thiếu gia vốn được nuông chiều từ bé nay lại phải chịu cảnh khốn khổ vì mình.
 
 Nhìn vẻ mặt lo lắng của Cố Tùy Châu qua khóe mắt, Thẩm Phi Triết nhận ra mình không thể đưa ra bất kỳ lời giải thích nào. Anh không sợ ngày tận thế, anh chỉ sợ nếu nói ra sự thật, Cố Tùy Châu sẽ tan vỡ.
 
 Cố Tùy Châu nghiến chặt quai hàm, giọng nói đầy vẻ chán chường: "Nhưng em không làm được. Em phải làm sao bây giờ, anh Thẩm? Em nhớ anh lắm."
 
-Thẩm Phi Triết đưa tay che mắt người đàn ông lại.
+Thẩm Phi Triết đưa tay che mắt cậu lại.
 
-Anh thích nhìn Cố Tùy Châu khóc; người đàn ông này khóc rất đẹp, chẳng ai có thể cưỡng lại sức hút của một vẻ đẹp đang rơi lệ như thế. Nhưng không phải là lúc này, không phải theo cách này.
+Anh vốn thích nhìn Cố Tùy Châu khóc; cậu khóc rất đẹp, chẳng ai có thể cưỡng lại sức hút của một mỹ nhân đang rơi lệ như thế. Nhưng không phải là lúc này, không phải theo cách này.
 
 Tiếng khóc ấy khiến anh cảm thấy khó chịu. Nó chẳng hề đẹp đẽ chút nào.
 
@@ -314,23 +314,23 @@ Lòng bàn tay anh nhạy cảm vô cùng; anh có thể cảm nhận rõ hàng 
 
 "Em không thể làm được," Cố Tùy Châu nói. "Với mỗi vết cắt, em lại càng muốn gặp anh hơn."
 
-Em đã cố gắng làm tê liệt bản thân, cố thuyết phục chính mình rằng đây là cách duy nhất để quên đi người đàn ông này. Nhưng sự thật là, mỗi vết sẹo đều là minh chứng cho việc em nhớ anh đến nhường nào. Em nhớ anh nhiều đến mức có thể phớt lờ những loại thuốc đang tàn phá cơ thể mình, vi phạm mọi nguyên tắc mà em từng giữ vững, tất cả cũng chỉ để được gặp lại anh.
+Cậu đã cố gắng làm tê liệt bản thân, cố thuyết phục chính mình rằng đây là cách duy nhất để quên đi người đàn ông này. Nhưng sự thật là, mỗi vết sẹo đều là minh chứng cho việc cậu nhớ anh đến nhường nào. Cậu nhớ anh nhiều đến mức có thể phớt lờ những loại thuốc đang tàn phá cơ thể mình, vi phạm mọi nguyên tắc mà cậu từng giữ vững, tất cả cũng chỉ để được gặp lại anh.
 
 Thẩm Phi Triết muốn nói điều gì đó, nhưng lại phát hiện hơi thở phả vào gáy mình nóng như thiêu đốt.
 
 Ngón tay anh co giật—
 
-Cánh cửa phòng tắm mỏng manh cuối cùng cũng không chịu nổi sức nặng, đổ sập xuống cùng với Cố Tùy Châu.
+Cánh cửa phòng tắm mỏng manh cuối cùng cũng không chịu nổi sức nặng, đổ sập xuống cùng với C2.
 
 Thẩm Phi Triết: “…”
 
 Cố Tùy Châu ngẩng đầu, ánh mắt lạnh lẽo quét qua.
 
-Khăn tắm của C2 lỏng lẻo một cách khó coi. Anh vội vàng chỉnh lại, vẫy tay với nụ cười ngượng ngùng, vụng về: “Anh ấy… chào anh?”
+Khăn tắm của C2 xộc xệch một cách khó coi. Cậu ta vội vàng chỉnh lại, vẫy tay cười gượng gạo: “Hế... lô? Chào... chào hai người nha?”
 
 Thẩm Phi Triết che mặt, không thể chịu nổi cảnh tượng này.
 
-Cố Tùy Châu nhìn C2, rồi lại nhìn Thẩm Phi Triết cũng đang khoác áo choàng tắm. Gương mặt anh ẩn chứa sự điên cuồng, tựa như một cơn bão chực chờ ập đến.
+Cố Tùy Châu nhìn C2, rồi lại nhìn Thẩm Phi Triết cũng đang khoác áo choàng tắm. Gương mặt cậu ẩn chứa sự điên cuồng, tựa như một cơn bão chực chờ ập đến.
 
 “Anh ta là ai?”
 
@@ -340,41 +340,41 @@ Thẩm Phi Triết và C2 liếc nhìn nhau, đồng thanh đáp: “Là bạn.�
 
 Họ đã quen biết nhau từ lâu; xét theo một khía cạnh nào đó, họ đúng là bạn bè. Nhưng đây là lần đầu tiên Cố Tùy Châu nghe thấy Thẩm Phi Triết gọi ai đó là “bạn”.
 
-Cảm giác như thể anh vừa bị ném vào hầm băng. “Bạn bè… mà tắm chung kiểu gì thế này?”
+Cảm giác như thể cậu vừa bị ném vào hầm băng. “Bạn bè… mà tắm chung kiểu gì thế này?”
 
 C2 vội vàng giải thích: “Không, không, không! Chúng tôi không tắm chung, chỉ là hiện tại đang ở cùng nhau thôi!”
 
 Thẩm Phi Triết thầm nghĩ: Xong đời rồi.
 
-Quả nhiên, áp suất không khí xung quanh Cố Tùy Châu càng lúc càng thấp. Anh nghiến răng gằn từng chữ: “Đã sống… cùng… nhau rồi?”
+Quả nhiên, áp suất không khí xung quanh Cố Tùy Châu càng lúc càng thấp. Cậu nghiến răng gằn từng chữ: “Đã sống… cùng… nhau rồi?”
 
 Lần này, Thẩm Phi Triết không để C2 có cơ hội khiến mọi chuyện tồi tệ hơn nữa. Anh lên tiếng trước: “Chỉ một ngày thôi, cậu ấy định định cư ở đây nên tôi giúp cậu ấy chọn nhà.”
 
 Nhưng Cố Tùy Châu lúc này đã mất hết lý trí.
 
-Trong đầu anh tràn ngập hình ảnh C2 và Thẩm Phi Triết sống chung dưới một mái nhà.
+Trong đầu cậu tràn ngập hình ảnh C2 và Thẩm Phi Triết sống chung dưới một mái nhà.
 
-Trước đây anh từng sống với Thẩm Phi Triết; anh biết rõ cảm giác chia sẻ không gian với người đàn ông này là như thế nào.
+Trước đây cậu từng sống với Thẩm Phi Triết; cậu biết rõ cảm giác chia sẻ không gian với người đàn ông này là như thế nào.
 
-Vậy là tên phá hoại nhỏ này cũng được nhìn thấy Thẩm Phi Triết sau khi tắm xong trông ra sao ư? Sáng hôm sau thức dậy, hắn có nhìn thấy vẻ mặt điềm tĩnh của Thẩm Phi Triết không? Khi cùng nhau uống rượu, hắn có nhìn thấy dáng vẻ say sưa của Thẩm Phi Triết không?
+Vậy là tên phá hoại nhỏ này cũng được nhìn thấy Thẩm Phi Triết sau khi tắm xong trông ra sao ư? Sáng hôm sau thức dậy, cậu ta có nhìn thấy vẻ mặt điềm tĩnh của Thẩm Phi Triết không? Khi cùng nhau uống rượu, cậu ta có nhìn thấy dáng vẻ say sưa của Thẩm Phi Triết không?
 
 Liệu khi người kia đi làm, anh Thẩm cũng sẽ đưa đón cậu ta sao? Nếu cậu ta bị bắt nạt, anh Thẩm có đứng ra bảo vệ cậu ta không?
 
 Anh ấy sẽ làm vậy. Chắc chắn anh ấy sẽ làm vậy.
 
-Dù sao thì vừa rồi ở quán bar, anh Thẩm vì người đó mà mắng hắn, thậm chí còn để mặc cho người kia đánh hắn!
+Dù sao thì vừa rồi ở quán bar, anh Thẩm vì người đó mà mắng cậu, thậm chí còn để mặc cho người kia đánh cậu!
 
-Cố Tùy Châu đã mất đi lý trí, hắn cũng chẳng buồn làm người có lý làm gì.
+Cố Tùy Châu đã mất hết lý trí, cậu cũng chẳng buồn nói đạo lý nữa.
 
-Môi anh tái nhợt như người chết, trái tim như bị lưỡi dao vặn xoắn. Trạng thái cảm xúc sụp đổ đã tàn phá khả năng tiết pheromone của anh.
+Môi cậu tái nhợt như người chết, trái tim như bị lưỡi dao vặn xoắn. Trạng thái cảm xúc sụp đổ đã tàn phá khả năng tiết pheromone của cậu.
 
-Chỉ cần nghĩ đến việc anh Thẩm có thể sẽ lại vì người kia mà bỏ rơi mình, một làn sóng kinh hãi lại ập đến. Cơn đau khiến anh co rúm người lại dữ dội, đầu gối đập mạnh xuống sàn, phát ra tiếng "thịch" khô khốc đầy đau đớn.
+Chỉ cần nghĩ đến việc anh Thẩm có thể sẽ lại vì người kia mà bỏ rơi mình, một làn sóng kinh hãi lại ập đến. Cơn đau khiến cậu co rúm người lại dữ dội, đầu gối đập mạnh xuống sàn, phát ra tiếng "thịch" khô khốc đầy đau đớn.
 
-C2 ngơ ngác nhìn, không ngờ phản ứng của anh lại quyết liệt đến thế. Cậu đứng dậy định lấy thuốc cho anh.
+C2 ngơ ngác nhìn, không ngờ phản ứng của cậu lại dữ dội đến thế. Hắn lúng túng đứng dậy định đi lấy thuốc cho cậu.
 
 Nhưng ngay giây tiếp theo, một chuyện còn kinh hoàng hơn đã xảy ra—
 
-Thẩm Phi Triết, một Alpha đứng ở đỉnh cao tuyệt đối ngay cả trên Lam Tinh, vậy mà lại hạ mình quỳ xuống. Với một tiếng thở dài cam chịu, anh kéo cổ người đàn ông kia áp vào mình, chủ động để lộ tuyến thể dễ bị tổn thương nhất.
+Thẩm Phi Triết, một Alpha đứng ở đỉnh cao tuyệt đối ngay cả trên Ngôi Sao Chính, vậy mà lại hạ mình quỳ xuống. Với một tiếng thở dài cam chịu, anh kéo gáy cậu áp vào lòng mình, chủ động để lộ tuyến thể dễ bị tổn thương nhất.
 
 "Cắn tôi đi." Anh thì thầm.
 
@@ -384,7 +384,7 @@ Tác giả có lời muốn nói:
 
 C2: Alpha tỉnh táo kiểu gì mà lại để người khác cắn vào tuyến thể của mình chứ?!?
 
-Cố "Trà Xanh" có thể có ý đồ xấu gì cơ chứ? Anh ấy chỉ muốn lấy những ấm ức mình phải chịu đựng rồi phóng đại chúng lên gấp mười lần để kể cho anh Thẩm nghe thôi mà~
+Cố "Trà Xanh" có thể có ý đồ xấu gì cơ chứ? Cậu ấy chỉ muốn lấy những ấm ức mình phải chịu đựng rồi phóng đại chúng lên gấp mười lần để kể cho anh Thẩm nghe thôi mà~
 
 Cảm ơn sự ủng hộ của mọi người! Yêu tất cả các bạn~
 

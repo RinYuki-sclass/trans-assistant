@@ -6,21 +6,21 @@ Chương 49
 
 Sau khi Thẩm Phi Triết rời đi, Cố Tùy Châu sai Từ Trọng mang con chó về nuôi.
 
-Anh đang cố gắng giữ mọi thứ trên thế giới này có liên quan đến Thẩm Phi Triết trong tầm kiểm soát của mình.
+Cậu đang cố gắng giữ mọi thứ trên thế giới này có liên quan đến Thẩm Phi Triết trong tầm kiểm soát của mình.
 
-Thực ra, có một điều anh chưa từng nói với Thẩm Phi Triết: việc độc tố trong cơ thể anh không được đào thải sớm hơn một phần là do anh cố ý lựa chọn. Bởi vì loại thuốc này có liên quan đến người đàn ông đó, nên chỉ thông qua nỗi đau, anh mới có thể khắc sâu hình bóng người ấy vào tâm trí mình.
+Thực ra, có một điều cậu chưa từng nói với Thẩm Phi Triết: việc độc tố trong cơ thể cậu không được đào thải sớm hơn một phần là do cậu cố ý lựa chọn. Bởi vì loại thuốc này có liên quan đến người đàn ông đó, nên chỉ thông qua nỗi đau, cậu mới có thể khắc sâu hình bóng người ấy vào tâm trí mình.
 
-Chú chó may mắn đã được huấn luyện bài bản nhiều năm và rất biết nghe lời, trở thành công cụ hoàn hảo để anh lấy lòng Thẩm Phi Triết.
+Chú chó May Mắn đã được huấn luyện bài bản nhiều năm và rất biết nghe lời, trở thành công cụ hoàn hảo để cậu lấy lòng Thẩm Phi Triết.
 
-Cố Tùy Châu dựa vào con chó, đầu ngón tay nhàn rỗi lướt trên màn hình điện thoại thông minh. Trên đó là giao diện trò chuyện giữa anh và Thẩm Phi Triết; người đàn ông kia đã gửi qua một tấm danh thiếp, chính là của "chàng trai đẹp trai" mà anh đã gặp tối qua.
+Cố Tùy Châu dựa vào con chó, đầu ngón tay nhàn rỗi lướt trên màn hình điện thoại thông minh. Trên đó là giao diện trò chuyện giữa cậu và Thẩm Phi Triết; anh đã gửi qua một tấm danh thiếp, chính là của "anh chàng đẹp trai" mà anh đã gặp tối qua.
 
-Anh thì thầm: "Lucky, nhanh lên, chúc bố con sớm ngày theo đuổi được tình yêu nhé."
+Cậu thì thầm: "May Mắn, mau lên, chúc ba mày sớm ngày theo đuổi được tình yêu đi."
 
 Chú chó phối hợp bằng hai tiếng sủa.
 
-Dạo gần đây, Cố Tùy Châu tỏ ra vô cùng bận rộn; bóng dáng anh đã không xuất hiện trước mặt Thẩm Phi Triết suốt nhiều ngày liền.
+Dạo gần đây, Cố Tùy Châu tỏ ra vô cùng bận rộn; bóng dáng cậu đã không xuất hiện trước mặt Thẩm Phi Triết suốt nhiều ngày liền.
 
-Thẩm Phi Triết lặng lẽ quan sát hai ngày, phát hiện người đàn ông này thực sự chăm chỉ đi làm hơn hẳn. Hành động này không hề giống như đang diễn kịch, cho thấy những gì anh nói trước đó có lẽ là sự thật.
+Thẩm Phi Triết lặng lẽ quan sát hai ngày, phát hiện tiểu tử này thực sự chăm chỉ đi làm hơn hẳn. Hành động này không hề giống như đang diễn kịch, cho thấy những gì cậu nói trước đó có lẽ là sự thật.
 
 Thẩm Phi Triết vui mừng khi thấy sự thay đổi này. Anh thở phào nhẹ nhõm và dần giảm bớt sự chú ý dành cho Cố Tùy Châu.
 
@@ -36,7 +36,7 @@ Tống Triết không hỏi thêm nữa: "Thế còn việc điều tra của an
 
 Anh đang đề cập đến những vấn đề liên quan đến W.N. từ nhiều năm trước.
 
-"Tạm thời vẫn chưa có. Người đó ẩn nấp rất sâu, tôi vẫn chưa tìm ra manh mối." Thẩm Phi Triết đã thử bắt đầu từ phía Leapton.
+"Tạm thời vẫn chưa có. Người đó ẩn nấp rất sâu, tôi vẫn chưa tìm ra manh mối." Thẩm Phi Triết đã thử bắt đầu điều tra từ phía Lai Cẩu.
 
 Xét cho cùng, đứa trẻ đó đã không thể sống sót đến cuối cùng trong "cốt truyện gốc". Thật không may, kết quả không như ý muốn.
 
@@ -80,23 +80,23 @@ Cố Tùy Châu đang sánh vai cùng một chàng trai trẻ, họ ngồi đố
 
 Người đàn ông kia đang ra vẻ một quý ông hoàn hảo, cẩn thận cắt bít tết cho Cố Tùy Châu, chu đáo lau sạch dụng cụ ăn uống rồi rót rượu. Trong khi đó, Cố Tùy Châu ngồi đó như một vị vương tử được nuông chiều, lười biếng tựa đầu, chẳng buồn nhúc nhích. Cậu đón nhận sự phục vụ của đối phương như thể đó là đặc quyền hiển nhiên, thỉnh thoảng lại nở một nụ cười dịu dàng.
 
-Leapton quan sát cảnh tượng ấy với vẻ thích thú tột độ: "Cảm giác thế nào? Có giống như bắp cải mình tự tay vun trồng lại bị lợn ủi mất không?"
+C2 quan sát cảnh tượng ấy với vẻ thích thú tột độ: "Cảm giác thế nào? Có giống như bắp cải mình tự tay vun trồng lại bị lợn ủi mất không?"
 
 "Khó có thể nói là vậy." Thẩm Phi Triết bình thản đáp. "Dù tôi cho rằng tên đó mới là kẻ nằm dưới Cố Tùy Châu."
 
-"Nhận xét công bằng và chính xác đấy." Leapton gật đầu đồng ý. "Vậy tại sao cậu lại làm trò mai mối này?"
+"Nhận xét công bằng và chính xác đấy." C2 gật đầu đồng ý. "Vậy tại sao cậu lại làm trò mai mối này?"
 
-"Cậu ta có đủ tốt hay không không phải do tôi quyết định. Người trong cuộc phải thử mới biết được. Thà rằng cứ để cậu ấy tự do, nếu không cậu ấy sẽ thấy ngột ngạt mất." Thẩm Phi Triết nhấp một ngụm ca cao, nhíu mày: "Ca cao ở đây dở tệ."
+"Cậu ta có đủ tốt hay không không phải do tôi quyết định. Người trong cuộc phải thử mới biết được. Thà rằng cứ để cậu ấy tự do, nếu không đến lúc phân hóa chẳng có ai hỗ trợ cậu ấy sẽ ngột ngạt mất." Thẩm Phi Triết nhấp một ngụm ca cao, nhíu mày: "Ca cao ở đây dở tệ."
 
-"Hả?" Leapton nhìn cốc của mình, ngạc nhiên: "Anh đã làm xong mọi việc rồi mới nhận ra điều đó à?"
+"Hả?" C2 nhìn cốc của mình, ngạc nhiên: "Anh uống hết cả cốc rồi mới nhận ra điều đó à?"
 
 "Càng uống càng thấy vị tệ hại." Thẩm Phi Triết đứng dậy. "Đi thôi, tôi không có thói quen nhìn trộm người khác."
 
-"À..." Không còn được hóng chuyện, vẻ mặt Leapton lộ rõ vẻ thất vọng. "Này, ở lại ăn thêm vài miếng với tôi đi!"
+"À..." Không còn được hóng chuyện, vẻ mặt C2 lộ rõ vẻ thất vọng. "Này, ở lại ăn thêm vài miếng với tôi đi!"
 
-Thẩm Phi Triết lạnh lùng vạch trần ý đồ của hắn: "Anh ăn hết cả bàn rồi mà vẫn chưa no à?"
+Thẩm Phi Triết lạnh lùng vạch trần ý đồ của hắn: "Cậu ăn hết cả bàn rồi mà vẫn chưa no à?"
 
-Leapton kéo kéo cạp quần, cười hì hì: "Được thôi. Nếu là Cố Tùy Châu, cậu có nhẫn tâm để cậu ấy rời đi như vậy không?"
+C2 kéo kéo cạp quần, cười hì hì: "Được thôi. Nếu là Cố Tùy Châu, cậu có nhẫn tâm bắt cậu ấy rời đi như vậy không?"
 
 Thẩm Phi Triết trầm ngâm một chút, khóe miệng khẽ nhếch lên một tia ý cười: "Không. Tôi sẽ gọi thêm một bàn nữa và ép cậu ấy ăn hết. Nếu không ăn hết thì đừng hòng rời đi."
 
@@ -108,7 +108,7 @@ Trở lại trong góc.
 
 Chàng trai số 9 lên tiếng: “Thành thật mà nói, ban đầu tôi còn tưởng anh Thẩm có ý với mình, không ngờ rằng…”
 
-“Không ngờ rằng cậu đang mơ mộng hão huyền.” Cố Tùy Châu liếc nhìn hai người họ đang rời đi. Biểu cảm trên gương mặt anh thay đổi nhanh như lật một trang sách; chiếc mặt nạ lịch sự, dịu dàng và nhã nhặn hoàn toàn bị lột bỏ, thay vào đó là ánh nhìn vô cảm dành cho người đàn ông trước mặt.
+“Không ngờ rằng cậu đang mơ mộng hão huyền.” Cố Tùy Châu liếc nhìn hai người họ đang rời đi. Biểu cảm trên gương mặt cậu thay đổi nhanh như lật một trang sách; chiếc mặt nạ lịch sự, dịu dàng và nhã nhặn hoàn toàn bị lột bỏ, thay vào đó là ánh nhìn vô cảm dành cho người đàn ông trước mặt.
 
 “Là cậu đang tiếp cận Thẩm Phi Triết sao? Cậu lấy đâu ra can đảm vậy?”
 
@@ -136,21 +136,21 @@ Cố Tùy Châu nở một nụ cười rạng rỡ: “Cậu nghĩ sao?”
 
 Thẩm Phi Triết đã nhận được “báo cáo tình cảm” từ Cố Tùy Châu hơn nửa tháng nay.
 
-[Tiểu Châu: Anh Thẩm, hôm nay chúng ta đi xem phim đi. Chỗ ngồi tình yêu! /Hình ảnh/]
+[Tên khốn: Anh Thẩm, hôm nay chúng ta đi xem phim nè. Chỗ ngồi tình nhân! /Hình ảnh/]
 
 [Thẩm Phi Triết: …Một bộ phim lúc ba giờ sáng?]
 
 Cố Tùy Châu chụp vội hai tấm vé xem phim rồi gửi đi: "..."
 Một nước đi sai lầm.
 
-【Tên khốn: Anh Thẩm, hôm nay chúng ta đã nắm tay nhau! /Hình ảnh/】
-【S: Cậu có lạm dụng bộ lọc làm mịn da không? Bàn tay của anh ấy thậm chí chẳng còn chút kết cấu da nào nữa.】
+[Tên khốn: Anh Thẩm, hôm nay chúng ta đã nắm tay nhau! /Hình ảnh/]
+[S: Cậu có lạm dụng bộ lọc làm mịn da không? Bàn tay của người ta thậm chí chẳng còn chút vân da nào nữa.]
 
 Cố Tùy Châu nhìn bàn tay ma-nơ-canh mình vừa nắm trong cửa hàng quần áo: "..."
 Thật khó chịu.
 
-【Tên khốn: Anh Thẩm, hôm nay chúng ta cùng nhau dắt chó đi dạo! /Hình ảnh/】
-【S: Cả hai đều không dùng dây dắt. Cẩn thận kẻo bị bắt và phạt tiền đấy.】
+[Tên khốn: Anh Thẩm, hôm nay chúng ta cùng nhau dắt chó đi dạo! /Hình ảnh/]
+[S: Cả hai đều không dùng dây xích. Cẩn thận kẻo bị bắt và phạt tiền đấy.]
 
 Cố Tùy Châu – người vừa nộp phạt hai nghìn tệ vì chụp ảnh không dùng dây xích – câm nín: "..."
 Cậu… cậu đang đùa tôi đấy à??
@@ -170,21 +170,21 @@ Chỉ là mỗi khi vô tình lướt qua, anh đều nhanh chóng bỏ qua. Anh
 
 Sau một thời gian dài Cố Tùy Châu im hơi lặng tiếng, cuối cùng một ngày nọ, tin nhắn cũng được gửi đến.
 
-【Đồ khốn: Anh Thẩm à, chúng em định dọn về ở chung để vun đắp tình cảm, nhưng căn nhà vừa mua vẫn đang trong quá trình sửa sang. Anh cho chúng em ở nhờ chỗ anh một thời gian được không?】
+[Tên khốn: Anh Thẩm à, chúng em định dọn về ở chung để vun đắp tình cảm, nhưng căn nhà vừa mua vẫn đang trong quá trình sửa sang. Anh cho chúng em ở nhờ chỗ anh một thời gian được không?]
 
 Dạo gần đây, tin nhắn của Cố Tùy Châu hiếm khi còn xuất hiện những dấu ngã điệu đà như trước nữa.
 
-Thẩm Phi Triết nhìn chằm chằm vào dấu chấm hỏi vài giây rồi mới gõ chữ trả lời.
+Thẩm Phi Triết nhìn chằm chằm vào dòng tin nhắn vài giây rồi mới gõ chữ trả lời.
 
-【S: Được. Dùng căn biệt thự đi.】
+[S: Được. Cứ qua căn biệt thự đi.]
 
 Đó là căn biệt thự anh đã mua trước khi rời đi và vẫn chưa có ai dọn vào ở. Trong thâm tâm, anh thực sự không muốn người khác bước vào không gian riêng tư của mình, nên đã đề nghị dùng căn biệt thự thay thế.
 
-【Đồ khốn: Cảm ơn anh Thẩm.】
-【Đồ khốn: Anh Thẩm cũng ở đó luôn sao?】
-【S: Tại sao tôi phải ở đó? Để làm bóng đèn cho hai người à?】
+[Tên khốn: Cảm ơn anh Thẩm.]
+[Tên khốn: Anh Thẩm cũng ở đó luôn sao?]
+[S: Tại sao tôi phải ở đó? Để làm bóng đèn cho hai người à?]
 
-【Đồ khốn: Đúng vậy. Dù sao thì anh cũng bận rộn quá mà, anh Thẩm. Nếu dành thời gian cho chúng em thì thật lãng phí.】
+[Tên khốn: Đúng vậy. Dù sao thì anh cũng bận rộn quá mà, anh Thẩm. Nếu dành thời gian cho chúng em thì thật lãng phí.]
 
 Lúc đó, Thẩm Phi Triết đang chơi bài cùng C2. Nhìn thấy tin nhắn này, anh đột nhiên lên tiếng: "Nói xem, Cố Tùy Châu muốn dọn về ở cùng bạn tình, nhưng lại hỏi xem tôi có ở đó không. Cậu nghĩ ý cậu ta là gì?"
 
@@ -236,23 +236,23 @@ Lúc này anh mới nhận ra mình thậm chí còn chưa biết tên gã đàn
 
 Vẻ mặt Cố Tùy Châu khựng lại trong hai giây ngắn ngủi.
 
-Thú thật là anh đã quên mất tiêu rồi.
+Thú thật là cậu đã quên mất tiêu rồi.
 
-Sau khi lướt qua hồ sơ, anh đã ném tất cả ra sau đầu mà chẳng buồn liếc nhìn tên gã đàn ông đó lấy một lần thứ hai.
+Sau khi lướt qua hồ sơ, cậu đã ném tất cả ra sau đầu mà chẳng buồn liếc nhìn tên gã đàn ông đó lấy một lần thứ hai.
 
-Anh chỉ nhớ rằng một trong những họ của cha mẹ anh là Cheng.
+Cậu chỉ nhớ rằng một trong những họ của cha mẹ gã là họ Trình.
 
 Nhưng điều này không làm Cố Tùy Châu bối rối.
 
-Anh bình tĩnh véo tai cậu: "Tôi thường gọi anh ấy là anh Cheng."
+Cậu bình tĩnh đưa tay xoa tai mình: "Em thường gọi anh ấy là anh Trình."
 
 Thẩm Phi Triết khựng tay lại.
 
-Anh nhanh chóng trở lại vẻ bình thản thường ngày: "Vớ vẩn. Tôi đang hỏi tên thật của anh ta. Nếu không thì sao, tôi phải gọi anh ta là 'anh trai' giống như cậu à?"
+Anh nhanh chóng trở lại vẻ bình thản thường ngày: "Vớ vẩn. Tôi đang hỏi tên thật của anh ta. Nếu không thì sao, tôi phải gọi anh ta là 'anh Trình' giống như cậu à?"
 
-"Điều đó không được," Cố Tùy Châu nhanh nhảu đáp. "Chúng ta không thể để thứ bậc bị xáo trộn được."
+"Điều đó không được," Cố Tùy Châu nhanh nhảu đáp. "Chúng ta không thể để vai vế bị xáo trộn được."
 
-Trong khi khuôn mặt Thẩm Phi Triết vẫn bình thản như một con chó săn già, bàn tay sau lưng anh đang điên cuồng ra hiệu cho Số 9: *Nhanh lên! Mau đến cứu chủ nhân của cậu đi!*
+Trong khi khuôn mặt Cố Tùy Châu vẫn bình thản như không có chuyện gì, bàn tay sau lưng cậu đang điên cuồng ra hiệu cho Số 9: *Nhanh lên! Mau đến cứu ông chủ của cậu đi!*
 
 Số 9 hiểu ý, vội lên tiếng: "Anh Thẩm, bây giờ... chúng ta ở đâu ạ?"
 
@@ -266,9 +266,9 @@ Cố Tùy Châu chọn trước, lấy căn phòng ngay cạnh phòng ngủ chí
 
 Khi hai người dỡ đồ xong thì trời đã tối. Cố Tùy Châu nằm trên sô pha kêu đói, Số 9 liền vội vàng mượn phòng bếp nấu ăn cho cậu.
 
-Cố Tùy Châu kéo Thẩm Phi Triết ngồi trên sô pha xem phim, hào hứng khoe khoang với người bên cạnh: "Tôi nói cho anh biết, anh Cheng nấu ăn tuyệt lắm!"
+Cố Tùy Châu kéo Thẩm Phi Triết ngồi trên sô pha xem phim, hào hứng khoe khoang với anh: "Em nói cho anh biết, anh Trình nấu ăn tuyệt lắm đấy!"
 
-Thực ra, giọng anh có chút thiếu tự tin vì chính anh cũng không biết Số 9 có thực sự biết nấu ăn hay không.
+Thực ra, giọng cậu có chút thiếu tự tin vì chính anh cũng không biết Số 9 có thực sự biết nấu ăn hay không.
 
 Trong đầu Thẩm Phi Triết lúc này đang bận rộn với những từ khóa như "PUA" và "kiểm soát tâm trí" mà C2 đã đề cập. Anh không thể tiếp thu nổi một từ nào trong phim hay lời nói của Cố Tùy Châu; toàn bộ sự tập trung của anh đều đổ dồn vào Số 9.
 
@@ -284,7 +284,7 @@ Thẩm Phi Triết lạnh lùng lên tiếng: "Hãy tôn trọng bạn đời c�
 
 Cố Tùy Châu: "..."
 
-Giờ thì anh đã thực sự hiểu thế nào là tự mình hại mình. Anh bắt đầu hoài nghi liệu chiến thuật mình áp dụng gần đây có phải là một nước đi sai lầm hay không.
+Giờ thì cậu đã thực sự hiểu thế nào là tự lấy đá đập vào chân mình. Cậu bắt đầu hoài nghi liệu chiến thuật mình áp dụng gần đây có phải là một nước đi sai lầm hay không.
 
 Một lát sau, Số 9 bước tới gọi hai người: "Anh Thẩm, Cố... khụ, bữa tối đã sẵn sàng rồi ạ."
 
@@ -324,9 +324,9 @@ Sau khi tắm xong, Thẩm Phi Triết vẫn không thể rũ bỏ cảm giác c
 
 Khi hành lang trở nên yên tĩnh, anh lặng lẽ tiến đến cánh cửa bên cạnh rồi gõ nhẹ.
 
-Cảm thấy bữa ăn vừa rồi là một thử thách đau đớn, Cố Tùy Châu lúc này đang khom người bên bồn cầu, nôn khan dữ dội. Anh gần như nghẹn lại khi nghe thấy tiếng gõ cửa.
+Cảm thấy bữa ăn vừa rồi là một thử thách đau đớn, Cố Tùy Châu lúc này đang khom người bên bồn cầu, nôn khan dữ dội. Cậu gần như nghẹn lại khi nghe thấy tiếng gõ cửa.
 
-Anh vội vàng súc miệng rồi tạt nước lên mặt. "Anh Thẩm?" Anh hỏi vọng qua cửa. "Có chuyện gì vậy ạ?"
+Cậu vội vàng súc miệng rồi tạt nước lên mặt. "Anh Thẩm?" Cậu hỏi vọng qua cửa. "Có chuyện gì vậy ạ?"
 
 "Tôi vào được không?" Thẩm Phi Triết hỏi.
 
@@ -340,13 +340,13 @@ Sau một hồi im lặng, anh nghe thấy người đàn ông trước mặt đ
 
 Cố Tùy Châu bất ngờ cúi người, áp sát vào tai anh, hạ thấp giọng: "Anh định nói cho em nghe bí mật nào mà người khác không thể biết được à?"
 
-Thẩm Phi Triết đẩy mặt hắn ra. "Chuyện công việc."
+Thẩm Phi Triết đẩy mặt cậu ra. "Chuyện công việc."
 
-Cố Tùy Châu, kẻ hoàn toàn không biết đến ranh giới là gì, dụi mũi vào lòng bàn tay anh. Đã lâu không gặp, anh nhớ Thẩm Phi Triết đến phát điên. "Có chuyện gì quan trọng đến mức phải bàn trong phòng em vào lúc nửa đêm thế này?"
+Cố Tùy Châu, kẻ hoàn toàn không biết đến ranh giới là gì, dụi mũi vào lòng bàn tay anh. Đã lâu không gặp, cậu nhớ Thẩm Phi Triết đến phát điên. "Có chuyện gì quan trọng đến mức phải bàn trong phòng em vào lúc nửa đêm thế này?"
 
-“Anh có cho tôi vào không?” Thẩm Phi Triết không muốn lãng phí lời nói.
+“Cậu có cho tôi vào không?” Thẩm Phi Triết không muốn lãng phí lời nói.
 
-Cố Tùy Châu biết chừng mực, không còn táo bạo như trước, cậu tránh sang một bên nhường lối cho hắn bước vào.
+Cố Tùy Châu biết chừng mực, không còn táo bạo như trước, cậu tránh sang một bên nhường lối cho anh bước vào.
 
 Vừa vào đến nơi, cánh cửa đột ngột đóng sầm lại.
 
@@ -354,7 +354,7 @@ Trong phòng không bật đèn. Thẩm Phi Triết nhíu mày, nhớ tới vi�
 
 Theo phản xạ, Thẩm Phi Triết nắm lấy bàn tay đó, định tung một đòn quật ngã qua vai.
 
-Thế nhưng, Cố Tùy Châu lại tựa sát vào tai hắn, cổ tay khẽ run rẩy, giọng nói nghe vô cùng yếu ớt: “Quên bật đèn rồi, chân em nhũn ra cả.”
+Thế nhưng, Cố Tùy Châu lại tựa sát vào tai anh, cổ tay khẽ run rẩy, giọng nói nghe vô cùng yếu ớt: “Quên bật đèn rồi, chân em nhũn ra cả.”
 
 Thẩm Phi Triết nới lỏng vòng tay đang khống chế đối phương, đỡ lấy vai cậu: “Cậu không nghĩ đến việc kích hoạt Quản gia thông minh ngay khi bước vào sao? Đứng thẳng dậy đi. Bật nguồn cho cánh tay cơ khí phía sau lưng cậu lên, rồi bảo nó bật đèn.”
 
