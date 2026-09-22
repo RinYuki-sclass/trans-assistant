@@ -36,4 +36,4 @@ Cố Tùy Châu định mở miệng nói gì đó, thì đột nhiên từ phí
 
 Cả hai người đàn ông cùng nhìn về phía đó; Leapton đang điên cuồng đập tay vào lan can.
 
-Thẩm Phi Triết không thèm liếc nhìn hắn thêm một cái, chỉ nói: "Nếu tôi nói với cậu điều đó, cậu có tin tôi không?"
+Thẩm Phi Triết không thèm liếc nhìn cậu thêm một cái, chỉ nói: "Nếu tôi nói với cậu điều đó, cậu có tin tôi không?"

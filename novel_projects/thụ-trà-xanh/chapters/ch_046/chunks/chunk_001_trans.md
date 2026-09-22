@@ -10,15 +10,15 @@ Chương 46
 
 Thẩm Phi Triết đặt mạnh cốc nước xuống bàn, lạnh lùng lên tiếng: "Anh xem đủ chưa?"
 
-"Thật hiếm thấy. Để tôi xem kỹ thêm vài lần nữa." Lai Cẩu kinh ngạc nhìn vết thương quấn băng trên cổ mình, cảm thán: "Không ngờ ngoài kia lại có một Alpha hào phóng đến mức hiến tế tuyến thể của mình cho một kẻ thậm chí còn chưa phân hóa. Cậu là Bồ Tát sống hay sao vậy?"
+"Thật hiếm thấy. Để tôi xem kỹ thêm vài lần nữa." Lai Cẩu kinh ngạc nhìn vết thương quấn băng trên cổ mình, cảm thán: "Không ngờ ngoài kia lại có một Alpha hào phóng đến mức hiến tế tuyến thể của mình cho một kẻ thậm chí còn chưa phân hóa. Anh là Bồ Tát sống hay sao vậy?"
 
 Thẩm Phi Triết phản bác: "Còn cách nào khác? Để mặc cậu ta tự sinh tự diệt à?"
 
-Lai Cẩu nhướng mày: "Từ khi nào mà cậu trở nên tốt bụng thế? Vì Lâm Tử Trác và Cố Lãng sao?"
+Lai Cẩu nhướng mày: "Từ khi nào mà anh trở nên tốt bụng thế? Vì Lâm Tử Trác và Cố Lãng sao?"
 
 Thẩm Phi Triết không phủ nhận: "Dù sao cậu ta cũng là con của họ."
 
-"Tsk, đúng là đứa trẻ đầu thai vào nhà quyền quý có khác," Lai Cẩu nhận xét. "Nhưng tại sao cậu ta lại bình ổn nhanh như vậy ngay khi ngửi thấy pheromone của cậu?"
+"Tsk, đúng là đứa trẻ đầu thai vào nhà quyền quý có khác," Lai Cẩu nhận xét. "Nhưng tại sao cậu ta lại bình ổn nhanh như vậy ngay khi ngửi thấy pheromone của anh?"
 
 Cố Tùy Châu đã cắn vào gáy Thẩm Phi Triết đến mức trầy xước, nhưng hiệu quả lại vô cùng rõ rệt. Mùi cà phê nồng đậm tràn ngập căn phòng đóng vai trò như một liều thuốc an thần, giúp Cố Tùy Châu nhanh chóng lấy lại sự tỉnh táo rồi chìm vào giấc ngủ sâu.
 

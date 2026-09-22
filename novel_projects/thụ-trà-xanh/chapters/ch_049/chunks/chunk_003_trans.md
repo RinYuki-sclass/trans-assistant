@@ -2,7 +2,7 @@
 title: ch_049 chunk 3
 ---
 
-Vị trí anh ta vừa chỉ định đã bị chính đối tượng của cuộc trò chuyện chiếm giữ.
+Vị trí cậu ta vừa chỉ định đã bị chính đối tượng của cuộc trò chuyện chiếm giữ.
 
 Cố Tùy Châu đang sánh vai cùng một chàng trai trẻ, họ ngồi đối diện nhau trong một góc khuất. Thẩm Phi Triết nhận ra người kia, chính là Số 9. Anh nheo mắt, thản nhiên quan sát cặp đôi trước mặt mà chẳng mảy may cảm thấy áy náy.
 
@@ -12,7 +12,7 @@ Leapton quan sát cảnh tượng ấy với vẻ thích thú tột độ: "Cả
 
 "Khó có thể nói là vậy." Thẩm Phi Triết bình thản đáp. "Dù tôi cho rằng tên đó mới là kẻ nằm dưới Cố Tùy Châu."
 
-"Nhận xét công bằng và chính xác đấy." Leapton gật đầu đồng ý. "Vậy tại sao cậu lại làm trò mai mối này?"
+"Nhận xét công bằng và chính xác đấy." Leapton gật đầu đồng ý. "Vậy tại sao anh lại làm trò mai mối này?"
 
 "Cậu ta có đủ tốt hay không không phải do tôi quyết định. Người trong cuộc phải thử mới biết được. Thà rằng cứ để cậu ấy tự do, nếu không cậu ấy sẽ thấy ngột ngạt mất." Thẩm Phi Triết nhấp một ngụm ca cao, nhíu mày: "Ca cao ở đây dở tệ."
 
@@ -22,7 +22,7 @@ Leapton quan sát cảnh tượng ấy với vẻ thích thú tột độ: "Cả
 
 "À..." Không còn được hóng chuyện, vẻ mặt Leapton lộ rõ vẻ thất vọng. "Này, ở lại ăn thêm vài miếng với tôi đi!"
 
-Thẩm Phi Triết lạnh lùng vạch trần ý đồ của hắn: "Anh ăn hết cả bàn rồi mà vẫn chưa no à?"
+Thẩm Phi Triết lạnh lùng vạch trần ý đồ của cậu ta: "Anh ăn hết cả bàn rồi mà vẫn chưa no à?"
 
 Leapton kéo kéo cạp quần, cười hì hì: "Được thôi. Nếu là Cố Tùy Châu, cậu có nhẫn tâm để cậu ấy rời đi như vậy không?"
 

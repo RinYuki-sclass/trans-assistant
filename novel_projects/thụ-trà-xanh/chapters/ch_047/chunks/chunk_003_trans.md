@@ -22,15 +22,15 @@ Thẩm Phi Triết khẽ thở dài đầy cảm thán rồi bước ra ngoài l
 
 Anh đi đón C2 trước.
 
-Khoảnh khắc C2 nhìn thấy bộ trang phục chỉn chu của anh, hắn không khỏi nhức đầu: "Này, nghiêm túc đấy à? Anh định mặc thế này để đến Feiya sao?"
+Khoảnh khắc C2 nhìn thấy bộ trang phục chỉn chu của anh, cậu không khỏi nhức đầu: "Này, nghiêm túc đấy à? Anh định mặc thế này để đến Feiya sao?"
 
-"Chứ sao nữa?" Thẩm Phi Triết nhìn hắn từ đầu đến chân, "Mặc áo crop-top giống cậu à?"
+"Chứ sao nữa?" Thẩm Phi Triết nhìn cậu từ đầu đến chân, "Mặc áo crop-top giống cậu à?"
 
 "Không đẹp sao? Rất quyến rũ đấy!" C2 nháy mắt với anh.
 
 Thẩm Phi Triết chán ghét quay mặt đi.
 
-Không thể phủ nhận C2 mặc bộ đồ này trông rất thu hút. Vốn dĩ hắn đã sở hữu vẻ ngoài điển trai đầy đặc biệt, kết hợp với trang phục gợi cảm như vậy, tỷ lệ người ngoái nhìn gần như là một trăm phần trăm—một Alpha xinh đẹp, dễ thương và đầy tinh tế.
+Không thể phủ nhận C2 mặc bộ đồ này trông rất thu hút. Vốn dĩ cậu đã sở hữu vẻ ngoài điển trai đầy đặc biệt, kết hợp với trang phục gợi cảm như vậy, tỷ lệ người ngoái nhìn gần như là một trăm phần trăm—một Alpha xinh đẹp, dễ thương và đầy tinh tế.
 
 Đáng tiếc, Thẩm Phi Triết không có hứng thú với kiểu vẻ đẹp này. So ra, anh vẫn thích vẻ ngoài mạnh mẽ của người như Cố Tùy Châu hơn.
 

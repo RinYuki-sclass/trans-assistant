@@ -8,11 +8,11 @@ Thẩm Phi Triết là người giữ lời. Vì đã hứa sẽ chiều theo ý
 
 Dẫu cho việc ngủ chung đối với anh còn khó khăn hơn cả việc bị giết chết, anh vẫn đồng ý, khiến Cố Tùy Châu phấn chấn suốt cả buổi chiều.
 
-Vừa ăn kem, C2 vừa nhìn Cố Tùy Châu đang đi mua ván lướt sóng, rồi bối rối hỏi: "Cậu tiêm hormone cho cậu ta à?"
+Vừa ăn kem, C2 vừa nhìn Cố Tùy Châu đang đi mua ván lướt sóng, rồi bối rối hỏi: "Anh tiêm hormone cho cậu ta à?"
 
 "Không," Thẩm Phi Triết vô cảm đáp. "Tôi chỉ đồng ý ngủ cùng cậu ấy thôi."
 
-"Phụt— khụ khụ khụ!!" C2 suýt chút nữa thì nghẹn chết vì miếng kem. "Không, cậu đồng ý cái gì cơ?!"
+"Phụt— khụ khụ khụ!!" C2 suýt chút nữa thì nghẹn chết vì miếng kem. "Không, anh đồng ý cái gì cơ?!"
 
 "Ngủ cùng nhau," Thẩm Phi Triết lặp lại.
 
@@ -32,7 +32,7 @@ Thẩm Phi Triết khiêm tốn hỏi: "Có vấn đề gì sao?"
 
 C2 lắc đầu thở dài đầy cảm xúc: "Không có gì. Tốt lắm. Cứ giữ như vậy đi."
 
-Cuối cùng, cậu nói thêm: "Cậu biết không? Nếu tôi biết đến sự tồn tại của cậu từ trước, và nếu cậu được phân vào nhóm của tôi, chắc chắn tôi sẽ không chỉ giao cho cậu những nhiệm vụ thế giới thuộc thể loại thăng cấp, vô hạn lưu hay tận thế đâu."
+Cuối cùng, cậu nói thêm: "Anh biết không? Nếu tôi biết đến sự tồn tại của anh từ trước, và nếu anh được phân vào nhóm của tôi, chắc chắn tôi sẽ không chỉ giao cho anh những nhiệm vụ thế giới thuộc thể loại thăng cấp, vô hạn lưu hay tận thế đâu."
 
 Cậu chắc chắn sẽ ném Thẩm Phi Triết vào đủ loại thế giới ngôn tình cẩu huyết và kịch bản truy thê hỏa táng để anh tích lũy kinh nghiệm!
 

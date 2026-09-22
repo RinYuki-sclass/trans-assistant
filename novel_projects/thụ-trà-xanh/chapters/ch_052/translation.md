@@ -8,7 +8,7 @@ Cuối cùng, C2 thành thật thừa nhận sai lầm, thừa nhận rằng ch�
 
 Thẩm Phi Triết có chút khó hiểu: "Tôi đã có một tấm rồi."
 
-"Tấm này không phải cho cậu, là cho cái tên điên nhỏ của cậu đấy," C2 cáu kỉnh nói. "Cậu không nhận ra trước đó sao? Sau khi cậu rời đi, đứa nhóc đó là người duy nhất không bị ảnh hưởng bởi quy tắc của thế giới này."
+"Tấm này không phải cho anh, là cho cái tên điên nhỏ của anh đấy," C2 cáu kỉnh nói. "Anh không nhận ra trước đó sao? Sau khi anh rời đi, đứa nhóc đó là người duy nhất không bị ảnh hưởng bởi quy tắc của thế giới này."
 
 Thẩm Phi Triết im lặng.
 
@@ -26,13 +26,13 @@ Anh thở dài: "Để xem sao đã."
 
 Mặc dù nói vậy, anh vẫn không trả lại tấm thẻ.
 
-C2 nhún vai đầy thờ ơ: "Được rồi, tôi đã xin lỗi xong. Mau về phòng đi; nếu cậu còn nán lại lâu hơn nữa, tên nhóc kia sẽ phát điên mất."
+C2 nhún vai đầy thờ ơ: "Được rồi, tôi đã xin lỗi xong. Mau về phòng đi; nếu anh còn nán lại lâu hơn nữa, tên nhóc kia sẽ phát điên mất."
 
 "Cậu ấy không nhỏ nhen đến mức đó đâu," Thẩm Phi Triết nói.
 
 C2 đảo mắt một cái đầy vẻ khinh bỉ, không nói gì nhưng biểu cảm đã nói lên tất cả.
 
-Khi Thẩm Phi Triết đi đến cửa, người kia lên tiếng nhắc nhở: "Đừng quên những gì cậu đã hứa với tôi. Chúng ta sẽ rời đi ngay khi quay lại. Thế giới đó không trụ được bao lâu nữa đâu."
+Khi Thẩm Phi Triết đi đến cửa, người kia lên tiếng nhắc nhở: "Đừng quên những gì anh đã hứa với tôi. Chúng ta sẽ rời đi ngay khi quay lại. Thế giới đó không trụ được bao lâu nữa đâu."
 
 Thẩm Phi Triết phất tay ra hiệu rằng mình đã hiểu.
 
@@ -326,9 +326,9 @@ Cố Tùy Châu ghì răng vào hõm ngón cái của Thẩm Phi Triết rồi h
 
 Khi Thẩm Phi Triết gặp C2 vào buổi tối hôm đó, C2 nhìn anh đầy tò mò.
 
-"Có ai lừa tiền của cậu à?"
+"Có ai lừa tiền của anh à?"
 
-"Nhìn mặt cậu kìa. Đen như đít nồi, cứ như thể có ai nợ cậu tám mươi tỷ vậy."
+"Nhìn mặt anh kìa. Đen như đít nồi, cứ như thể có ai nợ anh tám mươi tỷ vậy."
 
 Thẩm Phi Triết day sống mũi.
 
@@ -366,25 +366,25 @@ Trong khoảng thời gian này, linh cảm chẳng lành kia chưa bao giờ xu
 
 Trên đường trở về, anh không nhịn được mà nhắc đến chuyện đó với C2.
 
-C2 nhíu mày: "Có phải cậu đang quá nhạy cảm rồi không?"
+C2 nhíu mày: "Có phải anh đang quá nhạy cảm rồi không?"
 
 "Tôi hy vọng là vậy." Ai cũng mong những linh cảm như thế là sai, và Thẩm Phi Triết cũng không ngoại lệ. "Quên đi, cứ quay về trước đã."
 
 Hai mươi ngày đã thỏa thuận sắp kết thúc.
 
-C2 gật đầu: "Cơ thể cậu ổn chứ?"
+C2 gật đầu: "Cơ thể anh ổn chứ?"
 
 "Tôi ổn." Thể chất của Thẩm Phi Triết vốn dĩ rất xuất sắc; anh chỉ bị hai viên đạn găm vào bụng, hai ngày nghỉ ngơi là đủ để anh cử động bình thường.
 
 "Vậy thì về thôi!"
 
-C2 kéo cần điều khiển của phi thuyền, sự vui vẻ của hắn chưa kéo dài được hai giây thì biểu cảm đã thay đổi đột ngột. Hắn nói với vẻ nghiêm trọng: "A11? Chuyện gì thế này? Kênh năng lượng dẫn đến Thế giới số 69 đâu rồi!"
+C2 kéo cần điều khiển của phi thuyền, sự vui vẻ của cậu chưa kéo dài được hai giây thì biểu cảm đã thay đổi đột ngột. Cậu nói với vẻ nghiêm trọng: "A11? Chuyện gì thế này? Kênh năng lượng dẫn đến Thế giới số 69 đâu rồi!"
 
 Thẩm Phi Triết, người đang nhắm mắt nghỉ ngơi, lập tức mở bừng mắt.
 
 Đúng như dự đoán, điều tồi tệ nhất đã xảy ra.
 
-C2 vội vã nói: "Đừng hoảng! A11 đã đi điều tra nguyên nhân rồi. Có vẻ không phải vấn đề từ phía Ngôi sao Chính; nó liên quan đến nội bộ thế giới của cậu. Chết tiệt, sao thế giới của cậu lại xui xẻo đến vậy chứ?"
+C2 vội vã nói: "Đừng hoảng! A11 đã đi điều tra nguyên nhân rồi. Có vẻ không phải vấn đề từ phía Ngôi sao Chính; nó liên quan đến nội bộ thế giới của anh. Chết tiệt, sao thế giới của anh lại xui xẻo đến vậy chứ?"
 
 Xui xẻo sao?
 
@@ -408,7 +408,7 @@ Năm ngày sau, tầng thượng của Bệnh viện tư nhân Lam Tinh.
 
 Từ Trọng xông cửa bước vào. "Thuốc! Đưa cho tôi tất cả thuốc ức chế liều cao mà các người có!"
 
-Giám đốc bệnh viện, cũng là bác sĩ riêng của Cố Tùy Châu, sững sờ nhìn anh. "Chủ tịch Cố xảy ra chuyện gì rồi?"
+Giám đốc bệnh viện, cũng là bác sĩ riêng của Cố Tùy Châu, sững sờ nhìn ông. "Chủ tịch Cố xảy ra chuyện gì rồi?"
 
 "Còn có thể xảy ra chuyện gì nữa?" Từ Trọng cắn môi, quay sang nhìn Lai Cẩu. "Cậu đã liên lạc được với anh Thẩm Phi Triết chưa?"
 
@@ -418,9 +418,9 @@ Chẳng phải sao?
 
 Từ Trọng cảm thấy đầu mình như sắp nổ tung. "Tôi—"
 
-Tiếng chuông thiết bị liên lạc sắc lẹm cắt ngang lời anh ta.
+Tiếng chuông thiết bị liên lạc sắc lẹm cắt ngang lời ông.
 
-Lai Cẩu chộp lấy thiết bị trước khi anh kịp phản ứng, mắt sáng rực lên. "Anh Thẩm!!"
+Lai Cẩu chộp lấy thiết bị trước khi ông kịp phản ứng, mắt sáng rực lên. "Anh Thẩm!!"
 
 Người ở đầu dây bên kia dường như giật mình trước giọng điệu kích động của cậu ta, gằn giọng hỏi: "Cố Tùy Châu xảy ra chuyện gì à?"
 

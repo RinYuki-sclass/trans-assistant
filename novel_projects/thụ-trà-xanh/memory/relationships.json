@@ -37,9 +37,9 @@
   },
   {
     "Nhân vật A": "Cố Tùy Châu",
-    "Quan hệ": "Chủ nhân",
+    "Quan hệ": "Thiếu gia - Quản gia",
     "Nhân vật B": "Từ Trọng",
-    "Ghi chú": "Từ Trọng là trợ lý riêng của Cố Tùy Châu."
+    "Ghi chú": "Từ Trọng (chú Trọng) lớn tuổi hơn, là quản gia của Cố Tùy Châu (từng là thuộc hạ thân tín của Cố Lãng). Cố Tùy Châu gọi là 'chú Trọng', xưng 'cháu' (hoặc 'tôi' khi ra lệnh). Chú Trọng xưng 'tôi', gọi Cố Tùy Châu là 'thiếu gia' / 'Cố tổng' / 'cậu'. Đại từ ngôi thứ 3 dùng 'ông'."
   },
   {
     "Nhân vật A": "Cố Tùy Châu",
@@ -106,5 +106,23 @@
     "Quan hệ": "Sếp - Cấp dưới / Bạn bè thân thiết",
     "Nhân vật B": "Lai Cẩu",
     "Ghi chú": "Cố Tùy Châu là sếp của Lai Cẩu (Leapton). Lai Cẩu lớn hơn Cố Tùy Châu 7 tuổi. Cố Tùy Châu gọi Lai Cẩu là 'anh - tôi' (hoặc gọi tên), Lai Cẩu gọi Cố Tùy Châu là 'sếp' / 'Cố thiếu' (thân mật gọi 'lão Cố' hoặc 'cậu'), xưng 'tôi'."
+  },
+  {
+    "Nhân vật A": "Từ Trọng",
+    "Quan hệ": "Quản gia lớn tuổi - Khách quý / Bạn của thiếu gia",
+    "Nhân vật B": "Thẩm Phi Triết",
+    "Ghi chú": "Từ Trọng (chú Trọng) lớn tuổi hơn, xưng 'tôi', gọi Thẩm Phi Triết là 'Thẩm tiên sinh' hoặc 'anh Thẩm'. Thẩm Phi Triết tôn trọng xưng 'tôi', gọi là 'chú Trọng' hoặc 'ông' (không gọi là cậu hay anh ta). Đại từ ngôi thứ 3 dùng 'ông'."
+  },
+  {
+    "Nhân vật A": "C2",
+    "Quan hệ": "Đồng nghiệp Ngôi sao Chính / Bạn bè",
+    "Nhân vật B": "Thẩm Phi Triết",
+    "Ghi chú": "C2 nhỏ tuổi hơn Thẩm Phi Triết. C2 xưng 'tôi - anh' với Thẩm Phi Triết (Thẩm Phi Triết xưng 'tôi - cậu' với C2). Đại từ ngôi thứ 3 dùng 'cậu', 'cậu ta' (tương tự Cố Tùy Châu, không dùng hắn/anh ta)."
+  },
+  {
+    "Nhân vật A": "C2",
+    "Quan hệ": "Khắc khẩu / Đối thủ ghen tuông",
+    "Nhân vật B": "Cố Tùy Châu",
+    "Ghi chú": "Cố Tùy Châu thù địch và ghen tuông vì C2 thân thiết với Thẩm Phi Triết. C2 coi Cố Tùy Châu là bạn nhỏ/nhóc con bướng bỉnh."
   }
 ]

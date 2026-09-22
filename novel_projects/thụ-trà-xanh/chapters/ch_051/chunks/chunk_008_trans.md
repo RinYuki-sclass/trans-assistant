@@ -6,7 +6,7 @@ Cậu ta thông minh và học rất nhanh. Thẩm Phi Triết đứng quan sát
 
 Đã lâu rồi anh không lướt sóng. Anh mất vài vòng để điều chỉnh lại cơ thể trước khi thực sự tìm thấy nhịp điệu của mình.
 
-"Yo?" C2 chèo ván lại gần từ lúc nào không hay. "Hôm nay không chơi ở vùng sóng trắng với bạn nhỏ của cậu à?"
+"Yo?" C2 chèo ván lại gần từ lúc nào không hay. "Hôm nay không chơi ở vùng sóng trắng với bạn nhỏ của anh à?"
 
 "Cậu ấy mới tập đứng ván, hiện tại làm khá tốt rồi," Thẩm Phi Triết nói, khéo léo giữ thể diện cho Cố Tùy Châu. "Hôm nay cậu ấy đang tự luyện tập."
 
@@ -24,7 +24,7 @@ Lướt sóng và trượt tuyết thì ổn hơn; chúng cho phép não bộ c�
 
 "Sóng tới kìa!" C2 hào hứng reo lên. "Chà! Con sóng này cao đấy. Thẩm—"
 
-Cậu ta quay đầu lại, chỉ để thấy Thẩm Phi Triết đã ở ngay trên đỉnh con sóng. "Mẹ kiếp! Sao cậu có thể nhanh thế chứ?!"
+Cậu ta quay đầu lại, chỉ để thấy Thẩm Phi Triết đã ở ngay trên đỉnh con sóng. "Mẹ kiếp! Sao anh có thể nhanh thế chứ?!"
 
 Người ở gần điểm sóng vỡ nhất có quyền bắt sóng và chọn đường đi của mình—đây được gọi là quyền ưu tiên trên sóng. Vào thời điểm này, nếu bất kỳ ai khác cố gắng chiếm cùng một vị trí, đó sẽ bị coi là "snaking" hoặc cướp sóng.
 

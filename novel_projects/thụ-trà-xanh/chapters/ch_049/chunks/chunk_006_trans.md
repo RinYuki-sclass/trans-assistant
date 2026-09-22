@@ -34,4 +34,4 @@ Thẩm Phi Triết nhướng mày: "Cái gì?"
 
 Thẩm Phi Triết: "..."
 
-C2 luôn là người đáng tin cậy trong các vấn đề tình cảm, vì vậy Thẩm Phi Triết quyết định tin tưởng anh ta một lần.
+C2 luôn là người đáng tin cậy trong các vấn đề tình cảm, vì vậy Thẩm Phi Triết quyết định tin tưởng cậu ta một lần.

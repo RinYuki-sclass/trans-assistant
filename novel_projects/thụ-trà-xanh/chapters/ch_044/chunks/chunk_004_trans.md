@@ -6,7 +6,7 @@ Anh thở dốc, thốt lên: "Đẹp thật! Người này là ai vậy?"
 
 Mái tóc hơi dài rủ xuống che khuất đôi mắt, khiến biểu cảm của Thẩm Phi Triết trở nên khó đoán. "Chẳng phải cậu vừa gọi tên cậu ta đó sao?"
 
-C2 chỉ nắm được tên tuổi và cốt truyện của các nhân vật trong thế giới này chứ không biết rõ ngoại hình của họ. Nó kinh ngạc kêu lên: "Cố Tùy Châu?"
+C2 chỉ nắm được tên tuổi và cốt truyện của các nhân vật trong thế giới này chứ không biết rõ ngoại hình của họ. Cậu kinh ngạc kêu lên: "Cố Tùy Châu?"
 
 "Phải." Thẩm Phi Triết giơ tay, những ngón tay lướt nhẹ trên đôi mắt của người đàn ông trên bảng quảng cáo, anh lẩm bẩm: "Cậu ấy thay đổi nhiều quá."
 

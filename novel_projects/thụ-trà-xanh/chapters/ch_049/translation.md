@@ -42,9 +42,9 @@ Xét cho cùng, đứa trẻ đó đã không thể sống sót đến cuối c�
 
 "Muốn nghe lời khuyên của tôi không?" C2 hỏi.
 
-Thẩm Phi Triết gọi cho hắn một ly. "Nói đi."
+Thẩm Phi Triết gọi cho cậu ta một ly. "Nói đi."
 
-C2 lên tiếng: "Lâm Tử Trác và Cố Lãng rất có thể vì người đó mà đốt cháy Viện nghiên cứu. Bây giờ Viện đang vận hành bình thường trở lại, số liệu mà người đó quan tâm có thể sẽ xuất hiện lần nữa, sớm muộn gì bọn họ cũng sẽ bồn chồn. Nếu hỏi tôi, hiện tại cậu cứ lo việc của mình đi, chờ cá cắn câu là được."
+C2 lên tiếng: "Lâm Tử Trác và Cố Lãng rất có thể vì người đó mà đốt cháy Viện nghiên cứu. Bây giờ Viện đang vận hành bình thường trở lại, số liệu mà người đó quan tâm có thể sẽ xuất hiện lần nữa, sớm muộn gì bọn họ cũng sẽ bồn chồn. Nếu hỏi tôi, hiện tại anh cứ lo việc của mình đi, chờ cá cắn câu là được."
 
 Đề xuất của C2 không phải không có cơ sở; bản thân Thẩm Phi Triết cũng đã nghĩ như vậy.
 
@@ -72,9 +72,9 @@ C2 cười khúc khích. "Tôi tưởng anh nói sẽ buông tay để cậu ta 
 
 "Dù sao thì việc cậu ta bị đánh thuốc mê cũng có liên quan đến tôi." Chỉ nghĩ đến việc Cố Tùy Châu thất bại trong quá trình phân hóa đã là điều mà anh không thể chấp nhận được.
 
-C2 mím môi, tầm mắt chợt bắt gặp thứ gì đó ở tầng dưới. Anh ta đột nhiên đưa tay ra, chọc chọc vào người Thẩm Phi Triết một cách điên cuồng. "Chết tiệt! Nhìn kìa! Người mà anh quan tâm cuối cùng cũng xuất hiện rồi! Hả? Người đối diện không phải là kẻ mà lần trước anh để ý sao? Hóa ra anh tìm kiếm bọn họ là vì chuyện này à?"
+C2 mím môi, tầm mắt chợt bắt gặp thứ gì đó ở tầng dưới. Cậu ta đột nhiên đưa tay ra, chọc chọc vào người Thẩm Phi Triết một cách điên cuồng. "Chết tiệt! Nhìn kìa! Người mà anh quan tâm cuối cùng cũng xuất hiện rồi! Hả? Người đối diện không phải là kẻ mà lần trước anh để ý sao? Hóa ra anh tìm kiếm bọn họ là vì chuyện này à?"
 
-Vị trí anh ta vừa chỉ định đã bị chính đối tượng của cuộc trò chuyện chiếm giữ.
+Vị trí cậu ta vừa chỉ định đã bị chính đối tượng của cuộc trò chuyện chiếm giữ.
 
 Cố Tùy Châu đang sánh vai cùng một chàng trai trẻ, họ ngồi đối diện nhau trong một góc khuất. Thẩm Phi Triết nhận ra người kia, chính là Số 9. Anh nheo mắt, thản nhiên quan sát cặp đôi trước mặt mà chẳng mảy may cảm thấy áy náy.
 
@@ -84,7 +84,7 @@ C2 quan sát cảnh tượng ấy với vẻ thích thú tột độ: "Cảm gi�
 
 "Khó có thể nói là vậy." Thẩm Phi Triết bình thản đáp. "Dù tôi cho rằng tên đó mới là kẻ nằm dưới Cố Tùy Châu."
 
-"Nhận xét công bằng và chính xác đấy." C2 gật đầu đồng ý. "Vậy tại sao cậu lại làm trò mai mối này?"
+"Nhận xét công bằng và chính xác đấy." C2 gật đầu đồng ý. "Vậy tại sao anh lại làm trò mai mối này?"
 
 "Cậu ta có đủ tốt hay không không phải do tôi quyết định. Người trong cuộc phải thử mới biết được. Thà rằng cứ để cậu ấy tự do, nếu không đến lúc phân hóa chẳng có ai hỗ trợ cậu ấy sẽ ngột ngạt mất." Thẩm Phi Triết nhấp một ngụm ca cao, nhíu mày: "Ca cao ở đây dở tệ."
 
@@ -94,9 +94,9 @@ C2 quan sát cảnh tượng ấy với vẻ thích thú tột độ: "Cảm gi�
 
 "À..." Không còn được hóng chuyện, vẻ mặt C2 lộ rõ vẻ thất vọng. "Này, ở lại ăn thêm vài miếng với tôi đi!"
 
-Thẩm Phi Triết lạnh lùng vạch trần ý đồ của hắn: "Cậu ăn hết cả bàn rồi mà vẫn chưa no à?"
+Thẩm Phi Triết lạnh lùng vạch trần ý đồ của cậu ta: "Cậu ăn hết cả bàn rồi mà vẫn chưa no à?"
 
-C2 kéo kéo cạp quần, cười hì hì: "Được thôi. Nếu là Cố Tùy Châu, cậu có nhẫn tâm bắt cậu ấy rời đi như vậy không?"
+C2 kéo kéo cạp quần, cười hì hì: "Được thôi. Nếu là Cố Tùy Châu, anh có nhẫn tâm bắt cậu ấy rời đi như vậy không?"
 
 Thẩm Phi Triết trầm ngâm một chút, khóe miệng khẽ nhếch lên một tia ý cười: "Không. Tôi sẽ gọi thêm một bàn nữa và ép cậu ấy ăn hết. Nếu không ăn hết thì đừng hòng rời đi."
 
@@ -200,7 +200,7 @@ Thẩm Phi Triết nhướng mày: "Cái gì?"
 
 Thẩm Phi Triết: "..."
 
-C2 luôn là người đáng tin cậy trong các vấn đề tình cảm, vì vậy Thẩm Phi Triết quyết định tin tưởng anh ta một lần.
+C2 luôn là người đáng tin cậy trong các vấn đề tình cảm, vì vậy Thẩm Phi Triết quyết định tin tưởng cậu ta một lần.
 
 [S: Không sao cả, chúng ta có thể ở cùng nhau. Dù sao thì tôi cũng đang ở Khu Một một thời gian.]
 

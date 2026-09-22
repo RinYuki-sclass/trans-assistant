@@ -116,7 +116,7 @@ Cậu ta thốt lên: "Đẹp thật! Người này là ai vậy?"
 
 Mái tóc hơi dài rủ xuống che khuất đôi mắt, khiến biểu cảm của Thẩm Phi Triết trở nên khó đoán. "Chẳng phải cậu vừa gọi tên cậu ta đó sao?"
 
-C2 chỉ nắm được tên tuổi và cốt truyện của các nhân vật trong thế giới này chứ không biết rõ ngoại hình của họ. Nó kinh ngạc kêu lên: "Cố Tùy Châu?"
+C2 chỉ nắm được tên tuổi và cốt truyện của các nhân vật trong thế giới này chứ không biết rõ ngoại hình của họ. Cậu kinh ngạc kêu lên: "Cố Tùy Châu?"
 
 "Phải." Thẩm Phi Triết giơ tay, những ngón tay lướt nhẹ trên đôi mắt của người đàn ông trên bảng quảng cáo, anh lẩm bẩm: "Cậu ấy thay đổi nhiều quá."
 
@@ -202,7 +202,7 @@ Biểu cảm lạnh nhạt của anh cũng lạc lõng không kém.
 
 C2 hưng phấn vặn eo, nhận lấy từng ly đồ uống được đưa tới.
 
-Dù thế nào đi nữa, anh ta miễn nhiễm với mọi loại chất kích thích trên thế giới này; anh ta chẳng sợ bị chuốc thuốc.
+Dù thế nào đi nữa, cậu miễn nhiễm với mọi loại chất kích thích trên thế giới này; cậu chẳng sợ bị chuốc thuốc.
 
 Thẩm Phi Triết biết rõ tửu lượng của mình. Sau khi từ chối lời mời gọi thứ hai mươi bảy, anh đứng dậy với vẻ mặt u ám: "Tôi đi vệ sinh."
 
@@ -398,13 +398,13 @@ Khi đám đông định xông tới ngăn cản hai kẻ đột nhập, họ đ
 
 Thẩm Phi Triết nhanh chân đỡ lấy thân hình mềm nhũn đang ngã xuống của Cố Tùy Châu, ánh mắt sắc lạnh như dao găm bắn thẳng về phía C2.
 
-C2 chớp mắt, bắt gặp ánh mắt của anh: “…À, tôi không nghĩ là anh ta lại không né.”
+C2 chớp mắt, bắt gặp ánh mắt của anh: “…À, tôi không nghĩ là cậu ta lại không né.”
 
-Thẩm Phi Triết thở dài, kéo người vào lòng, điều chỉnh tư thế cho thoải mái hơn rồi quay sang Từ Trọng: "Cậu có xe không?"
+Thẩm Phi Triết thở dài, kéo người vào lòng, điều chỉnh tư thế cho thoải mái hơn rồi quay sang Từ Trọng: "Chú có xe không?"
 
 Từ Trọng mỉm cười gật đầu: "Thẩm tiên sinh, đã lâu không gặp."
 
-"Ừm." Thẩm Phi Triết dễ dàng bế bổng Cố Tùy Châu lên theo kiểu công chúa, buông một câu thông báo đầy kiêu ngạo với vẻ thờ ơ thản nhiên: "Tôi đưa thiếu gia của cậu đi đây."
+"Ừm." Thẩm Phi Triết dễ dàng bế bổng Cố Tùy Châu lên theo kiểu công chúa, buông một câu thông báo đầy kiêu ngạo với vẻ thờ ơ thản nhiên: "Tôi đưa thiếu gia của chú đi đây."
 
 ***
 

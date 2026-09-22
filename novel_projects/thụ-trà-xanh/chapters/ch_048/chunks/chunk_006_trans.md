@@ -18,7 +18,7 @@ Vẻ mặt Cố Tùy Châu ngày càng trở nên dữ tợn khi nghe những l�
 
 Lúc Thẩm Phi Triết cúp máy, Cố Tùy Châu giật lấy thiết bị thông minh từ trong tay anh, ném lên giường. "Ai vậy, anh Thẩm? Hẹn hò à? Tuần sau?"
 
-“Tối nay tôi gặp một người.” Thẩm Phi Triết trả lời, không thèm che giấu. "Từ Trọng nói nếu không sớm phân hóa, có thể sẽ tổn hại đến sức khỏe."
+“Tối nay tôi gặp một người.” Thẩm Phi Triết trả lời, không thèm che giấu. "Chú Trọng nói nếu không sớm phân hóa, có thể sẽ tổn hại đến sức khỏe."
 
 Cố Tùy Châu quay đầu lại: "Tôi có thể sống cả đời mà không cần phân hóa!"
 

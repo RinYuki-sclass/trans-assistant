@@ -20,9 +20,9 @@ Cố Tùy Châu ghì răng vào hõm ngón cái của Thẩm Phi Triết rồi h
 
 Khi Thẩm Phi Triết gặp C2 vào buổi tối hôm đó, C2 nhìn anh đầy tò mò.
 
-"Có ai lừa tiền của cậu à?"
+"Có ai lừa tiền của anh à?"
 
-"Nhìn mặt cậu kìa. Đen như đít nồi, cứ như thể có ai nợ cậu tám mươi tỷ vậy."
+"Nhìn mặt cậu kìa. Đen như đít nồi, cứ như thể có ai nợ anh tám mươi tỷ vậy."
 
 Thẩm Phi Triết day sống mũi.
 
