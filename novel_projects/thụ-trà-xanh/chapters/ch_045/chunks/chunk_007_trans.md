@@ -34,6 +34,6 @@ Một tay anh vỗ vỗ lưng Cố Tùy Châu an ủi, ánh mắt xuyên qua vai
 
 C2 cũng đang rơi vào trạng thái nghi ngờ bản thân, lòng trĩu nặng cảm giác tội lỗi!
 
-Nhưng hắn thực sự bị oan! Hắn cũng đâu biết chuyện gì đang xảy ra!
+Nhưng cậu thực sự bị oan! Cậu cũng đâu biết chuyện gì đang xảy ra!
 
 Trong đầu C2 đã nguyền rủa tên khốn A11 không đáng tin cậy kia mười nghìn lần.

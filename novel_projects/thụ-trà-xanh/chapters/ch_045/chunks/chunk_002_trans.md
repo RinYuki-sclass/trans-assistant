@@ -34,8 +34,8 @@ Thẩm Phi Triết đáp khẽ: "Ừm. Chờ tôi một chút, chúng ta ra ngo�
 
 Anh đặt cổ tay Cố Tùy Châu xuống, thắt nút lại theo cách mà chàng trai trẻ vẫn thích, rồi đi đến phòng của C2.
 
-Phòng ngủ và phòng học của C2 được tích hợp trong cùng một không gian. Anh ta đang ngồi tại bàn làm việc, lơ đãng lật xem hướng dẫn cách buộc dây buộc tóc.
+Phòng ngủ và phòng học của C2 được tích hợp trong cùng một không gian. Cậu ta đang ngồi tại bàn làm việc, lơ đãng lật xem hướng dẫn cách buộc dây buộc tóc.
 
 "Không cần, cảm ơn." Thẩm Phi Triết chỉ liếc qua một cách ngẫu hứng, trong đầu chợt nghĩ đến mái tóc dài của Cố Tùy Châu. "Nói đi, cậu muốn bàn chuyện gì?"
 
-"À, đúng rồi," C2 thu xếp lại suy nghĩ. "Cậu còn nhớ tôi đã nói với cậu rằng, những người ở thế giới này không thể biết được những điều thuộc về thế giới kia không?"
+"À, đúng rồi," C2 thu xếp lại suy nghĩ. "Anh còn nhớ tôi đã nói với anh rằng, những người ở thế giới này không thể biết được những điều thuộc về thế giới kia không?"

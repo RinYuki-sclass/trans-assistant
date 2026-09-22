@@ -34,4 +34,4 @@ Thẩm Phi Triết để mặc cho đối phương dẫn đi. Đương nhiên, h
 
 "Ừm." Cố Tùy Châu mím môi. Người đàn ông cao 1m87 này đi theo sau anh như một người vợ nhỏ bị ngược đãi. "Anh Thẩm, em biết tại sao bây giờ anh lại giận rồi."
 
-Cậu vừa được Từ Trọng cho biết rằng Thẩm Phi Triết đã nhìn thấy báo cáo y tế của Fluke khi anh thả con chó xuống, mọi nhân quả ngay lập tức khớp vào vị trí.
+Cậu vừa được chú Trọng cho biết rằng Thẩm Phi Triết đã nhìn thấy báo cáo y tế của Fluke khi anh thả con chó xuống, mọi nhân quả ngay lập tức khớp vào vị trí.

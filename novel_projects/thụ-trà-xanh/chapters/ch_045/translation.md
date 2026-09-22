@@ -72,11 +72,11 @@ Thẩm Phi Triết đáp khẽ: "Ừm. Chờ tôi một chút, chúng ta ra ngo�
 
 Anh đặt cổ tay Cố Tùy Châu xuống, thắt nút nơ theo cách mà cậu vẫn thích, rồi đi đến phòng của C2.
 
-Phòng ngủ và phòng học của C2 được tích hợp trong cùng một không gian. Anh ta đang ngồi tại bàn làm việc, lơ đãng lật xem hướng dẫn cách buộc dây buộc tóc.
+Phòng ngủ và phòng học của C2 được tích hợp trong cùng một không gian. Cậu ta đang ngồi tại bàn làm việc, lơ đãng lật xem hướng dẫn cách buộc dây buộc tóc.
 
 "Không cần, cảm ơn." Thẩm Phi Triết chỉ liếc qua một cách ngẫu hứng, trong đầu chợt nghĩ đến mái tóc dài của Cố Tùy Châu. "Nói đi, cậu muốn bàn chuyện gì?"
 
-"À, đúng rồi," C2 thu xếp lại suy nghĩ. "Cậu còn nhớ tôi đã nói với cậu rằng, những người ở thế giới này không thể biết được những điều thuộc về thế giới kia không?"
+"À, đúng rồi," C2 thu xếp lại suy nghĩ. "Anh còn nhớ tôi đã nói với anh rằng, những người ở thế giới này không thể biết được những điều thuộc về thế giới kia không?"
 
 C2 hỏi: "Vậy... anh định giải thích thế nào với Cố Tùy Châu về việc 'anh' chính là người đã tiêm thuốc cho cậu ta?"
 
@@ -88,7 +88,7 @@ Thẩm Phi Triết cười lạnh: "Vậy điều gì khiến cậu nghĩ tôi p
 
 Anh hiếm khi gặp phải đối thủ xứng tầm; ngoài A11 ra, chỉ có người đàn ông trước mặt mới có thể liên tục dồn anh vào thế bí.
 
-C2 bất lực xoa mũi: "Trong mọi thế giới nhỏ mà chúng ta từng biết, một khi có người phát hiện ra sự tồn tại của chúng ta, họ sẽ không bao giờ tránh khỏi tổn thương. Những kẻ biết đến chúng ta sẽ nhanh chóng bị quy luật trật tự của thế giới xóa sổ. Nếu cậu nói cho Cố Tùy Châu biết, ngay cả khi chúng ta không tự tay ra tay, cũng chẳng có gì đảm bảo các quy tắc trật tự sẽ không tìm đến cậu ta."
+C2 bất lực xoa mũi: "Trong mọi thế giới nhỏ mà chúng ta từng biết, một khi có người phát hiện ra sự tồn tại của chúng ta, họ sẽ không bao giờ tránh khỏi tổn thương. Những kẻ biết đến chúng ta sẽ nhanh chóng bị quy luật trật tự của thế giới xóa sổ. Nếu anh nói cho Cố Tùy Châu biết, ngay cả khi chúng ta không tự tay ra tay, cũng chẳng có gì đảm bảo các quy tắc trật tự sẽ không tìm đến cậu ta."
 
 Đây quả là một vấn đề nan giải.
 
@@ -104,7 +104,7 @@ Nhưng nói dối lại là một yêu cầu quá cao đối với anh.
 
 Đặc biệt là khi muốn lừa gạt thằng nhóc Cố Tùy Châu, kẻ sắc bén hơn cả một con khỉ tinh ranh kia—một lời nói dối thông thường sẽ chẳng thể qua mắt được cậu ta.
 
-C2 biết anh đang bối rối nên không nói thêm gì nữa: "Tôi đi tắm trước đây, cậu cứ suy nghĩ đi, khi nào có quyết định thì nói với tôi, tôi cần phối hợp với cậu."
+C2 biết anh đang bối rối nên không nói thêm gì nữa: "Tôi đi tắm trước đây, anh cứ suy nghĩ đi, khi nào có quyết định thì nói với tôi, tôi cần phối hợp với anh."
 
 Cả hai đều là Alpha nên chẳng cần phải tránh mặt nhau chỉ vì chuyện tắm rửa. Thẩm Phi Triết thản nhiên đáp một tiếng "Ừm", tựa lưng vào ghế nhắm mắt nghỉ ngơi, dùng đốt ngón tay xoa xoa thái dương.
 
@@ -254,7 +254,7 @@ Một tay anh vỗ vỗ lưng Cố Tùy Châu an ủi, ánh mắt xuyên qua vai
 
 C2 cũng đang rơi vào trạng thái nghi ngờ bản thân, lòng trĩu nặng cảm giác tội lỗi!
 
-Nhưng hắn thực sự bị oan! Hắn cũng đâu biết chuyện gì đang xảy ra!
+Nhưng cậu thực sự bị oan! Cậu cũng đâu biết chuyện gì đang xảy ra!
 
 Trong đầu C2 đã nguyền rủa tên khốn A11 không đáng tin cậy kia mười nghìn lần.
 
@@ -370,7 +370,7 @@ Môi cậu tái nhợt như người chết, trái tim như bị lưỡi dao v�
 
 Chỉ cần nghĩ đến việc anh Thẩm có thể sẽ lại vì người kia mà bỏ rơi mình, một làn sóng kinh hãi lại ập đến. Cơn đau khiến cậu co rúm người lại dữ dội, đầu gối đập mạnh xuống sàn, phát ra tiếng "thịch" khô khốc đầy đau đớn.
 
-C2 ngơ ngác nhìn, không ngờ phản ứng của cậu lại dữ dội đến thế. Hắn lúng túng đứng dậy định đi lấy thuốc cho cậu.
+C2 ngơ ngác nhìn, không ngờ phản ứng của cậu lại dữ dội đến thế. Cậu ta lúng túng đứng dậy định đi lấy thuốc cho cậu.
 
 Nhưng ngay giây tiếp theo, một chuyện còn kinh hoàng hơn đã xảy ra—
 

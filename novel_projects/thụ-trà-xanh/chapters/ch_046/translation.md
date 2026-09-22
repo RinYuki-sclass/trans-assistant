@@ -10,15 +10,15 @@ Chương 46
 
 Thẩm Phi Triết đặt mạnh cốc nước xuống bàn, lạnh lùng lên tiếng: "Cậu xem đủ chưa?"
 
-"Thật hiếm thấy. Để tôi xem kỹ thêm vài lần nữa." C2 kinh ngạc nhìn vết thương quấn băng trên cổ anh, cảm thán: "Không ngờ ngoài kia lại có một Alpha hào phóng đến mức dâng hiến tuyến thể của mình cho một kẻ thậm chí còn chưa phân hóa. Cậu là Bồ Tát sống hay sao vậy?"
+"Thật hiếm thấy. Để tôi xem kỹ thêm vài lần nữa." C2 kinh ngạc nhìn vết thương quấn băng trên cổ anh, cảm thán: "Không ngờ ngoài kia lại có một Alpha hào phóng đến mức dâng hiến tuyến thể của mình cho một kẻ thậm chí còn chưa phân hóa. Anh là Bồ Tát sống hay sao vậy?"
 
 Thẩm Phi Triết phản bác: "Còn cách nào khác? Để mặc cậu ta tự sinh tự diệt à?"
 
-C2 nhướng mày: "Từ khi nào mà cậu trở nên tốt bụng thế? Vì Lâm Tử Trác và Cố Lãng sao?"
+C2 nhướng mày: "Từ khi nào mà anh trở nên tốt bụng thế? Vì Lâm Tử Trác và Cố Lãng sao?"
 
 Thẩm Phi Triết không phủ nhận: "Dù sao cậu ta cũng là con của họ."
 
-"Tsk, đúng là đứa trẻ đầu thai vào nhà quyền quý có khác," C2 nhận xét. "Nhưng tại sao cậu ta lại bình ổn nhanh như vậy ngay khi ngửi thấy pheromone của cậu?"
+"Tsk, đúng là đứa trẻ đầu thai vào nhà quyền quý có khác," C2 nhận xét. "Nhưng tại sao cậu ta lại bình ổn nhanh như vậy ngay khi ngửi thấy pheromone của anh?"
 
 Cố Tùy Châu đã cắn vào gáy Thẩm Phi Triết đến mức trầy xước, nhưng hiệu quả lại vô cùng rõ rệt. Mùi cà phê nồng đậm tràn ngập căn phòng đóng vai trò như một liều thuốc an thần, giúp Cố Tùy Châu nhanh chóng lấy lại sự tỉnh táo rồi chìm vào giấc ngủ sâu.
 
@@ -42,13 +42,13 @@ Nếu như lúc đó Thẩm Phi Triết chú ý hơn một chút, có lẽ anh �
 
 Thẩm Phi Triết nói với C2: “Đợi cậu ấy tỉnh lại, tôi sẽ đưa cậu ấy đi nơi khác, cậu cứ tự nhiên.”
 
-C2 kêu lên: “Thẩm Phi Triết! Sao cậu có thể là loại người vì một gương mặt xinh đẹp mà bỏ rơi bạn bè như vậy!”
+C2 kêu lên: “Thẩm Phi Triết! Sao anh có thể là loại người vì một gương mặt xinh đẹp mà bỏ rơi bạn bè như vậy!”
 
 “Không phải là trọng sắc khinh bạn,” Thẩm Phi Triết đáp. “Hay cậu muốn thấy cậu ta nổi điên thêm lần nữa?”
 
 Nhóc con kia rõ ràng đã mất lý trí, không thể nghe lọt bất cứ lời giải thích nào; cậu ta đang trong trạng thái kích động tột độ, sẵn sàng cắn bất cứ ai lọt vào tầm mắt.
 
-Tai C2 cụp xuống: “Được thôi. Tôi sẽ sắp xếp xe cho cậu. Cậu định đi đâu?”
+Tai C2 cụp xuống: “Được thôi. Tôi sẽ sắp xếp xe cho anh. Anh định đi đâu?”
 
 “Chưa biết. Đợi cậu ấy tỉnh rồi tính. Cậu về phòng trước đi, đừng ra ngoài cho đến khi chúng tôi rời khỏi đây.”
 
@@ -124,7 +124,7 @@ Thẩm Phi Triết đè nén cơn bực dọc, cúi đầu nhìn xuống: "Cậu
 
 C2 cảm thấy vô cùng oan ức: "Tôi chỉ ra ngoài rót ly nước, làm sao biết hai người cũng xuống? Chẳng phải anh bảo tôi không được để cậu ta nhìn thấy sao? Thế nên tôi mới trốn ở đây."
 
-Hắn hỏi: "Cậu ta đi chưa?"
+Cậu ta hỏi: "Cậu ta đi chưa?"
 
 "Cậu nóng lòng muốn tôi rời đi đến thế sao?"
 
@@ -134,7 +134,7 @@ Thẩm Phi Triết thấy nhức đầu: "Lên lầu đi. Tôi lấy chút đồ
 
 C2 "ồ" một tiếng, cúi đầu lách qua người hai người họ.
 
-Khi đến chân cầu thang, hắn nghe thấy Cố Tùy Châu hỏi: "Anh Thẩm, anh thật sự không thể nói cho em biết những năm gần đây đã xảy ra chuyện gì sao?"
+Khi đến chân cầu thang, cậu nghe thấy Cố Tùy Châu hỏi: "Anh Thẩm, anh thật sự không thể nói cho em biết những năm gần đây đã xảy ra chuyện gì sao?"
 
 Vì liên quan đến Ngôi Sao Chính, C2 khựng lại.
 
@@ -142,7 +142,7 @@ Thẩm Phi Triết vẫn giữ vẻ bình tĩnh, thậm chí chẳng buồn nói
 
 C2 cạn lời. Sao người đàn ông này đến cả việc bịa một lý do cũng chẳng buồn cố gắng vậy?
 
-Giây tiếp theo, lông tơ sau gáy hắn dựng đứng cả lên.
+Giây tiếp theo, lông tơ sau gáy cậu dựng đứng cả lên.
 
 Thẩm Phi Triết nói tiếp: "Nhưng tôi có thể nói cho em biết điều này: Tôi bị buộc phải rời đi. Còn một chuyện nữa, loại thuốc trong cơ thể em không phải do tôi tiêm vào."
 
@@ -150,7 +150,7 @@ Cố Tùy Châu định mở miệng nói gì đó, thì đột nhiên từ phí
 
 Cả hai người cùng nhìn về phía đó; C2 đang điên cuồng đập tay vào lan can.
 
-Thẩm Phi Triết không thèm liếc nhìn hắn thêm một cái, chỉ nói: "Nếu tôi nói với em điều đó, em có tin tôi không?"
+Thẩm Phi Triết không thèm liếc nhìn cậu thêm một cái, chỉ nói: "Nếu tôi nói với em điều đó, em có tin tôi không?"
 
 C2 thầm cười khẩy trong lòng. *Mày điên à? Cố Tùy Châu là kẻ ngốc sao? Mày chỉ cần phủ nhận đó không phải là mình mà cậu ta cũng tin chắc...*
 
@@ -298,9 +298,9 @@ Thẩm Phi Triết đóng sầm cửa lại.
 
 Sáng hôm sau, vừa tỉnh giấc, anh đã hẹn gặp Từ Trọng.
 
-Từ Trọng vẫn ăn vận kín mít, gương mặt giấu sau cặp kính râm và khẩu trang y tế. Để tránh gây chú ý, Thẩm Phi Triết chọn gặp anh ta tại một phòng riêng.
+Từ Trọng vẫn ăn vận kín mít, gương mặt giấu sau cặp kính râm và khẩu trang y tế. Để tránh gây chú ý, Thẩm Phi Triết chọn gặp ông tại một phòng riêng.
 
-Anh đi thẳng vào vấn đề: "Rốt cuộc chuyện cơ thể của Cố Tùy Châu là thế nào? Cậu vẫn chưa tìm ra cách để cậu ta phân hóa bình thường sao?"
+Anh đi thẳng vào vấn đề: "Rốt cuộc chuyện cơ thể của Cố Tùy Châu là thế nào? Chú vẫn chưa tìm ra cách để cậu ấy phân hóa bình thường sao?"
 
 Từ Trọng nhìn anh đầy ẩn ý: "Cố tổng không nói cho anh biết sao? Thuốc thực ra đã điều chế xong rồi, chỉ là cậu ấy không chịu dùng thôi."
 

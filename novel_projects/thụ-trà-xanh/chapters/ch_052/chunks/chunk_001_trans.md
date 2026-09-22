@@ -8,7 +8,7 @@ Cuối cùng, C2 thành thật thừa nhận sai lầm, thừa nhận rằng ch�
 
 Thẩm Phi Triết có chút khó hiểu: "Tôi đã có một tấm rồi."
 
-"Tấm này không phải cho cậu, là cho cái tên điên nhỏ của cậu đấy," C2 cáu kỉnh nói. "Cậu không nhận ra trước đó sao? Sau khi cậu rời đi, đứa nhóc đó là người duy nhất không bị ảnh hưởng bởi quy tắc của thế giới này."
+"Tấm này không phải cho anh, là cho cái tên điên nhỏ của anh đấy," C2 cáu kỉnh nói. "Anh không nhận ra trước đó sao? Sau khi anh rời đi, đứa nhóc đó là người duy nhất không bị ảnh hưởng bởi quy tắc của thế giới này."
 
 Thẩm Phi Triết im lặng.
 
@@ -26,13 +26,13 @@ Anh thở dài: "Để xem sao đã."
 
 Mặc dù nói vậy, anh vẫn không trả lại tấm thẻ.
 
-C2 nhún vai đầy thờ ơ: "Được rồi, tôi đã xin lỗi xong. Mau về phòng đi; nếu cậu còn nán lại lâu hơn nữa, tên nhóc kia sẽ phát điên mất."
+C2 nhún vai đầy thờ ơ: "Được rồi, tôi đã xin lỗi xong. Mau về phòng đi; nếu anh còn nán lại lâu hơn nữa, tên nhóc kia sẽ phát điên mất."
 
 "Cậu ấy không nhỏ nhen đến mức đó đâu," Thẩm Phi Triết nói.
 
 C2 đảo mắt một cái đầy vẻ khinh bỉ, không nói gì nhưng biểu cảm đã nói lên tất cả.
 
-Khi Thẩm Phi Triết đi đến cửa, người kia lên tiếng nhắc nhở: "Đừng quên những gì cậu đã hứa với tôi. Chúng ta sẽ rời đi ngay khi quay lại. Thế giới đó không trụ được bao lâu nữa đâu."
+Khi Thẩm Phi Triết đi đến cửa, người kia lên tiếng nhắc nhở: "Đừng quên những gì anh đã hứa với tôi. Chúng ta sẽ rời đi ngay khi quay lại. Thế giới đó không trụ được bao lâu nữa đâu."
 
 Thẩm Phi Triết phất tay ra hiệu rằng mình đã hiểu.
 

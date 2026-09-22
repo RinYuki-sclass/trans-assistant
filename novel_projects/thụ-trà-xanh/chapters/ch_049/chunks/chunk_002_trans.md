@@ -8,9 +8,9 @@ Xét cho cùng, đứa trẻ đó đã không thể sống sót đến cuối c�
 
 "Muốn nghe lời khuyên của tôi không?" C2 hỏi.
 
-Thẩm Phi Triết gọi cho hắn một ly. "Nói đi."
+Thẩm Phi Triết gọi cho cậu ta một ly. "Nói đi."
 
-C2 lên tiếng: "Lâm Tử Trác và Cố Lãng rất có thể vì người đó mà đốt cháy Viện nghiên cứu. Bây giờ Viện đang vận hành bình thường trở lại, số liệu mà người đó quan tâm có thể sẽ xuất hiện lần nữa, sớm muộn gì bọn họ cũng sẽ bồn chồn. Nếu hỏi tôi, hiện tại cậu cứ lo việc của mình đi, chờ cá cắn câu là được."
+C2 lên tiếng: "Lâm Tử Trác và Cố Lãng rất có thể vì người đó mà đốt cháy Viện nghiên cứu. Bây giờ Viện đang vận hành bình thường trở lại, số liệu mà người đó quan tâm có thể sẽ xuất hiện lần nữa, sớm muộn gì bọn họ cũng sẽ bồn chồn. Nếu hỏi tôi, hiện tại anh cứ lo việc của mình đi, chờ cá cắn câu là được."
 
 Đề xuất của C2 không phải không có cơ sở; bản thân Thẩm Phi Triết cũng đã nghĩ như vậy.
 

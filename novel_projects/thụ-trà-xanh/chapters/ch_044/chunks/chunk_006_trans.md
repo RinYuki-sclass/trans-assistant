@@ -28,7 +28,7 @@ Biểu cảm lạnh nhạt của anh cũng lạc lõng không kém.
 
 C2 hưng phấn vặn eo, nhận lấy từng ly đồ uống được đưa tới.
 
-Dù thế nào đi nữa, anh ta miễn nhiễm với mọi loại chất kích thích trên thế giới này; anh ta chẳng sợ bị chuốc thuốc.
+Dù thế nào đi nữa, cậu miễn nhiễm với mọi loại chất kích thích trên thế giới này; cậu chẳng sợ bị chuốc thuốc.
 
 Thẩm Phi Triết biết rõ tửu lượng của mình. Sau khi từ chối lời mời gọi thứ hai mươi bảy, anh đứng dậy với vẻ mặt u ám: "Tôi đi vệ sinh."
 

@@ -36,4 +36,4 @@ Anh nhìn chằm chằm vào đó một lúc, rồi đột nhiên bật cười 
 
 Nghe thấy tiếng cười, Từ Trọng đang thắt dây xích cho chó bỗng cảm thấy một cơn ớn lạnh chạy dọc sống lưng.
 
-Tại sao anh lại có cảm giác… vị Thiếu gia nhà họ Cố kia sắp gặp rắc rối lớn rồi nhỉ?
+Tại sao ông lại có cảm giác… vị Thiếu gia nhà họ Cố kia sắp gặp rắc rối lớn rồi nhỉ?

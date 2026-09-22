@@ -116,11 +116,11 @@ Cố Tùy Châu cố nặn ra một nụ cười gượng gạo không chạm t�
 
 "Tôi có việc cần giải quyết." Thẩm Phi Triết dường như hơi mất tập trung.
 
-C2 tuy vẻ ngoài trông có vẻ dễ tính, nhưng thực chất lại là người cực kỳ nguyên tắc; việc đàm phán các điều khoản với anh ta sẽ tiêu tốn không ít tế bào não.
+C2 tuy vẻ ngoài trông có vẻ dễ tính, nhưng thực chất lại là người cực kỳ nguyên tắc; việc đàm phán các điều khoản với cậu ta sẽ tiêu tốn không ít tế bào não.
 
 Cố Tùy Châu giận dữ đi đi lại lại trong phòng, trong lòng thầm mong có ai đó bắt cóc C2 rồi ném cho lũ chó hoang ăn thịt cho xong.
 
-Sự hiện diện của C2 quá mức áp đảo, và không thể phủ nhận rằng anh ta rất đẹp trai. Thẩm Phi Triết liệu có nhìn anh ta bằng ánh mắt khác biệt nào không…?
+Sự hiện diện của C2 quá mức áp đảo, và không thể phủ nhận rằng cậu ta rất đẹp trai. Thẩm Phi Triết liệu có nhìn cậu ta bằng ánh mắt khác biệt nào không…?
 
 "Có chuyện gì sao?" Thẩm Phi Triết tưởng rằng cậu không thích đi ba người, liền nói thêm: "Nếu vậy, chúng ta có thể mang theo cả Lai Cẩu nữa."
 
@@ -172,7 +172,7 @@ Anh nhìn chằm chằm vào đó một lúc, rồi đột nhiên bật cười 
 
 Nghe thấy tiếng cười, Từ Trọng đang thắt dây xích cho chó bỗng cảm thấy một cơn ớn lạnh chạy dọc sống lưng.
 
-Tại sao anh lại có cảm giác… vị Thiếu gia nhà họ Cố kia sắp gặp rắc rối lớn rồi nhỉ?
+Tại sao ông lại có cảm giác… vị Thiếu gia nhà họ Cố kia sắp gặp rắc rối lớn rồi nhỉ?
 
 Thẩm Phi Triết đã hứa với Cố Tùy Châu rằng sau khi gửi chó xong sẽ đến công ty đón cậu. Anh vốn là người giữ chữ tín, nên đã có mặt tại W.N đúng giờ hẹn, sải bước tiến về phía tầng cao nhất dưới những ánh mắt tò mò và ngưỡng mộ của các nhân viên.
 
@@ -352,7 +352,7 @@ Thẩm Phi Triết để mặc cho đối phương dẫn đi. Đương nhiên, h
 
 "Ừm." Cố Tùy Châu mím môi. Người đàn ông cao 1m87 này đi theo sau anh như một người vợ nhỏ bị ngược đãi. "Anh Thẩm, em biết tại sao bây giờ anh lại giận rồi."
 
-Cậu vừa được Từ Trọng cho biết rằng Thẩm Phi Triết đã nhìn thấy báo cáo y tế của May Mắn khi anh gửi con chó xuống, mọi mắt xích ngay lập tức khớp vào vị trí.
+Cậu vừa được chú Trọng cho biết rằng Thẩm Phi Triết đã nhìn thấy báo cáo y tế của May Mắn khi anh gửi con chó xuống, mọi mắt xích ngay lập tức khớp vào vị trí.
 
 Nhớ lại những lời tự thú không khảo mà xưng của chính mình lúc nãy, Cố Tùy Châu cảm thấy một làn sóng hối hận trào dâng.
 

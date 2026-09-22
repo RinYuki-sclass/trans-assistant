@@ -200,7 +200,7 @@ Vẻ mặt Cố Tùy Châu ngày càng trở nên dữ tợn khi nghe những l�
 
 Lúc Thẩm Phi Triết cúp máy, Cố Tùy Châu giật lấy thiết bị thông minh từ trong tay anh, ném lên giường. "Ai vậy, anh Thẩm? Hẹn hò à? Tuần sau?"
 
-“Tối nay tôi gặp một người.” Thẩm Phi Triết trả lời, không thèm che giấu. "Từ Trọng nói nếu không sớm phân hóa, có thể sẽ tổn hại đến sức khỏe."
+“Tối nay tôi gặp một người.” Thẩm Phi Triết trả lời, không thèm che giấu. "Chú Trọng nói nếu không sớm phân hóa, có thể sẽ tổn hại đến sức khỏe."
 
 Cố Tùy Châu quay đầu lại: "Em có thể sống cả đời mà không cần phân hóa!"
 
@@ -282,7 +282,7 @@ Thẩm Phi Triết nhướng mày: "Ồ? Vậy cậu dự định thay đổi th
 
 "Ít nhất, em không thể để anh vì em mà kiệt sức nữa," Cố Tùy Châu nói. "Anh cho em thông tin liên lạc của người mà anh đã nhắc đến đi. Tuần sau em sẽ đích thân đi, anh không cần phải tốn công thêm một chuyến nữa đâu."
 
-"Còn nữa, về chuyện nhà cửa, sáng nay em đã nhờ Từ Trọng xem xét rồi. Anh đừng lo, trong vòng một tháng tới em nhất định sẽ chuyển đi."
+"Còn nữa, về chuyện nhà cửa, sáng nay em đã nhờ chú Trọng xem xét rồi. Anh đừng lo, trong vòng một tháng tới em nhất định sẽ chuyển đi."
 
 Động tác uống sữa của Thẩm Phi Triết khựng lại hai giây, suýt chút nữa thì sặc.
 

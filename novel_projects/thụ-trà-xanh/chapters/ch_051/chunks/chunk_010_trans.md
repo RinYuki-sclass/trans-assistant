@@ -2,7 +2,7 @@
 title: ch_051 chunk 10
 ---
 
-Nhưng dù nhìn thế nào đi nữa, gã kia rõ ràng đã thấy hắn nhắm vào con sóng đó trước khi chen ngang!
+Nhưng dù nhìn thế nào đi nữa, gã kia rõ ràng đã thấy cậu nhắm vào con sóng đó trước khi chen ngang!
 
 C2 bắt đầu hoảng loạn: "Không, không, cậu kia, xuống trước đi. Đừng bốc đồng, chuyện này nguy hiểm thật đấy!"
 

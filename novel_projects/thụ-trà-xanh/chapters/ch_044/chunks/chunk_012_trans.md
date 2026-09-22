@@ -4,11 +4,11 @@ title: ch_044 chunk 12
 
 Cố Tùy Châu chớp mắt, bắt gặp ánh mắt của anh. “…À, em không nghĩ là anh ta lại không né.”
 
-Thẩm Phi Triết thở dài, kéo người vào lòng, điều chỉnh tư thế cho thoải mái hơn rồi quay sang Từ Trọng: "Cậu có xe không?"
+Thẩm Phi Triết thở dài, kéo người vào lòng, điều chỉnh tư thế cho thoải mái hơn rồi quay sang Từ Trọng: "Chú có xe không?"
 
 Từ Trọng mỉm cười gật đầu: "Thẩm tiên sinh, đã lâu không gặp."
 
-"Ừm." Thẩm Phi Triết dễ dàng bế bổng Cố Tùy Châu lên theo kiểu công chúa, buông một câu thông báo đầy kiêu ngạo với vẻ thờ ơ thản nhiên: "Tôi đưa thiếu gia của cậu đi đây."
+"Ừm." Thẩm Phi Triết dễ dàng bế bổng Cố Tùy Châu lên theo kiểu công chúa, buông một câu thông báo đầy kiêu ngạo với vẻ thờ ơ thản nhiên: "Tôi đưa thiếu gia của chú đi đây."
 
 ***
 

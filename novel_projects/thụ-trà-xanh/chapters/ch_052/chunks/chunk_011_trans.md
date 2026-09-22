@@ -30,8 +30,8 @@ Chẳng phải sao?
 
 Từ Trọng cảm thấy đầu mình như sắp nổ tung. "Tôi—"
 
-Tiếng chuông thiết bị liên lạc sắc lẹm cắt ngang lời anh ta.
+Tiếng chuông thiết bị liên lạc sắc lẹm cắt ngang lời ông.
 
-Lai Cẩu chộp lấy thiết bị trước khi anh kịp phản ứng, mắt sáng rực lên. "Anh Thẩm!!"
+Lai Cẩu chộp lấy thiết bị trước khi ông kịp phản ứng, mắt sáng rực lên. "Anh Thẩm!!"
 
 Người ở đầu dây bên kia dường như giật mình trước giọng điệu kích động của cậu ta, gằn giọng hỏi: "Cố Tùy Châu xảy ra chuyện gì à?"

@@ -26,7 +26,7 @@ C2 và Leapton cũng chẳng buồn che giấu ánh mắt của mình.
 
 Sắc mặt Cố Tùy Châu lập tức tối sầm lại.
 
-Thẩm Phi Triết tưởng cậu không hài lòng vì bị ngó lơ, liền lên tiếng an ủi: "Không sao đâu. C2 chỉ là không thích những người cao hơn hắn quá nhiều thôi. Vóc dáng của cậu vẫn rất tuyệt."
+Thẩm Phi Triết tưởng cậu không hài lòng vì bị ngó lơ, liền lên tiếng an ủi: "Không sao đâu. C2 chỉ là không thích những người cao hơn cậu ta quá nhiều thôi. Vóc dáng của cậu vẫn rất tuyệt."
 
 Cố Tùy Châu thì thầm: "Còn anh thì sao?"
 

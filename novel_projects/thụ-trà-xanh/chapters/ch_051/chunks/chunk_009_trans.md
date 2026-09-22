@@ -22,7 +22,7 @@ C2 đột ngột xuất hiện bên cạnh cậu.
 
 "Sao thế? Cậu cũng muốn thử một vòng à?"
 
-Cố Tùy Châu không buồn liếc nhìn hắn.
+Cố Tùy Châu không buồn liếc nhìn cậu ta.
 
 C2 vẫn không bỏ cuộc.
 

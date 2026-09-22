@@ -4,13 +4,13 @@ title: ch_046 chunk 2
 
 Thẩm Phi Triết nói với Lai Cẩu: “Đợi anh ấy tỉnh lại, tôi sẽ đưa anh ấy đi nơi khác, cậu cứ tùy ý đi.”
 
-Lai Cẩu kêu lên: “Thẩm Phi Triết! Sao cậu có thể là loại người vì một gương mặt xinh đẹp mà bỏ rơi bạn bè như vậy!”
+Lai Cẩu kêu lên: “Thẩm Phi Triết! Sao anh có thể là loại người vì một gương mặt xinh đẹp mà bỏ rơi bạn bè như vậy!”
 
 “Không phải là chọn sắc đẹp thay vì tình bạn,” Thẩm Phi Triết đáp. “Hay cậu muốn thấy anh ấy nổi điên thêm lần nữa?”
 
 Người kia rõ ràng đã mất lý trí, không thể nghe lọt bất cứ lời giải thích nào; anh ta đang trong trạng thái hưng phấn tột độ, sẵn sàng tấn công bất cứ ai lọt vào tầm mắt.
 
-Tai Lai Cẩu cụp xuống: “Được thôi. Tôi sẽ sắp xếp xe cho cậu. Cậu định đi đâu?”
+Tai Lai Cẩu cụp xuống: “Được thôi. Tôi sẽ sắp xếp xe cho anh. Anh định đi đâu?”
 
 “Chưa biết. Đợi anh ấy tỉnh rồi tính. Cậu về phòng trước đi, đừng ra ngoài cho đến khi chúng ta rời khỏi đây.”
 

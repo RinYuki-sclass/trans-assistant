@@ -30,7 +30,7 @@ Thẩm Phi Triết nhướng mày: "Ồ? Vậy cậu dự định thay đổi th
 
 "Ít nhất, em không thể để anh vì em mà kiệt sức nữa," Cố Tùy Châu nói. "Anh cho em thông tin liên lạc của người mà anh đã nhắc đến đi. Tuần sau em sẽ đích thân đi, anh không cần phải tốn công thêm một chuyến nữa đâu."
 
-"Còn nữa, về chuyện nhà cửa, sáng nay em đã nhờ Từ Trọng xem xét rồi. Anh đừng lo, trong vòng một tháng tới em nhất định sẽ chuyển đi."
+"Còn nữa, về chuyện nhà cửa, sáng nay em đã nhờ chú Trọng xem xét rồi. Anh đừng lo, trong vòng một tháng tới em nhất định sẽ chuyển đi."
 
 Động tác uống sữa của Thẩm Phi Triết khựng lại hai giây, suýt chút nữa thì sặc.
 

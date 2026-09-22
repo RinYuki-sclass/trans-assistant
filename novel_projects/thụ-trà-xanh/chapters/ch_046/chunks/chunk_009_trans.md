@@ -6,9 +6,9 @@ Thẩm Phi Triết đóng sầm cửa lại.
 
 Sáng hôm sau, vừa tỉnh giấc, anh đã hẹn gặp Từ Trọng.
 
-Từ Trọng vẫn ăn vận kín mít, gương mặt giấu sau cặp kính râm và khẩu trang y tế. Để tránh gây chú ý, Thẩm Phi Triết chọn gặp anh ta tại một phòng riêng.
+Từ Trọng vẫn ăn vận kín mít, gương mặt giấu sau cặp kính râm và khẩu trang y tế. Để tránh gây chú ý, Thẩm Phi Triết chọn gặp ông tại một phòng riêng.
 
-Anh đi thẳng vào vấn đề: "Rốt cuộc chuyện cơ thể của Cố Tùy Châu là thế nào? Cậu vẫn chưa tìm ra cách để cậu ta phân hóa bình thường sao?"
+Anh đi thẳng vào vấn đề: "Rốt cuộc chuyện cơ thể của Cố Tùy Châu là thế nào? Chú vẫn chưa tìm ra cách để cậu ấy phân hóa bình thường sao?"
 
 Từ Trọng nhìn anh đầy ẩn ý: "Cố tổng không nói cho anh biết sao? Thuốc thực ra đã điều chế xong rồi, chỉ là cậu ấy không chịu dùng thôi."
 

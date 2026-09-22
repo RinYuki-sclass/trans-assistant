@@ -127,9 +127,9 @@
       "Hứa Trọng",
       "Chú Trọng"
     ],
-    "honorifics": "tôi - Cố thiếu gia",
-    "speech_style": "Kính cẩn, cẩn trọng",
-    "notes": "Trợ lý riêng của Cố Tùy Châu, nguyên là thuộc hạ của Cố Lãng."
+    "honorifics": "với Cố Tùy Châu: tôi - thiếu gia/Cố tổng/cậu; với Thẩm Phi Triết: tôi - Thẩm tiên sinh/anh Thẩm; Thẩm Phi Triết gọi: chú Trọng/ông; ngôi thứ 3: ông, chú Trọng",
+    "speech_style": "Kính cẩn, cẩn trọng, đúng mực",
+    "notes": "Quản gia lớn tuổi của Cố Tùy Châu, nguyên là thuộc hạ thân tín của Cố Lãng. Lớn tuổi hơn Cố Tùy Châu và Thẩm Phi Triết."
   },
   {
     "name": "Lin Zizhuo",
@@ -295,9 +295,9 @@
     "aliases": [
       "C2"
     ],
-    "honorifics": "tôi",
-    "speech_style": "Trẻ trung, trung tính",
-    "notes": "Alpha có ngoại hình trung tính, trẻ trung."
+    "honorifics": "với Thẩm Phi Triết: tôi - anh (Thẩm Phi Triết gọi C2 là tôi - cậu); ngôi thứ 3: cậu, cậu ta (tương tự Cố Tùy Châu, không dùng hắn/anh ta)",
+    "speech_style": "Trẻ trung, tinh quái, suồng sã nhưng nể sợ Thẩm Phi Triết, xưng tôi gọi anh với Thẩm Phi Triết",
+    "notes": "Alpha từ Ngôi sao Chính, nhỏ tuổi hơn Thẩm Phi Triết, ngoại hình trung tính, trẻ trung. Đại từ nhân xưng trần thuật tương tự Cố Tùy Châu (cậu, cậu ta)."
   },
   {
     "name": "Luvi Tisqi",
