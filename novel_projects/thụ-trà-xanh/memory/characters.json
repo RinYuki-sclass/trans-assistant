@@ -8,7 +8,10 @@
       "Cố Tùy Châu",
       "Tiểu Châu",
       "Anh Cố",
-      "Lâm Châu"
+      "Lâm Châu",
+      "nhóc Cố",
+      "Lão Cố",
+      "Sếp"
     ],
     "honorifics": "em - Thẩm ca",
     "speech_style": "Thẳng thắn, nhạy bén, kịch tính, xưng em gọi Thẩm ca, thích làm nũng tỏ vẻ trà xanh ngoan ngoãn",
@@ -26,7 +29,10 @@
       "Shen Feizhe",
       "Quản lý viên",
       "Nhị thiếu gia",
-      "nguyên chủ"
+      "nguyên chủ",
+      "tên khốn lạnh lùng, vô tâm như anh",
+      "thằng nhóc đó",
+      "Thẩm tổng"
     ],
     "honorifics": "tôi - cậu (với Cố Tùy Châu: xưng tôi, gọi cậu hoặc nhóc con)",
     "speech_style": "Lạnh lùng, điềm tĩnh, sắc bén, chuyên nghiệp",
@@ -54,7 +60,9 @@
       "Lai Gou",
       "Blondie",
       "Tóc Vàng",
-      "cậu trai tóc vàng"
+      "cậu trai tóc vàng",
+      "Leapton",
+      "Leapy Quyến Rũ Đang Trò Chuyện Trực Tuyến"
     ],
     "honorifics": "với Thẩm Phi Triết: tôi - anh; với Cố Tùy Châu: tôi - sếp (hoặc Cố thiếu / lão Cố)",
     "speech_style": "Thoải mái, suồng sã, nhiệt tình",
@@ -66,7 +74,8 @@
     "gender": "Nữ",
     "aliases": [
       "Cố Lãng",
-      "Cố Lang"
+      "Cố Lang",
+      "Gu Lang"
     ],
     "honorifics": "bà",
     "speech_style": "Chưa rõ",
@@ -125,7 +134,8 @@
     "aliases": [
       "Từ Trọng",
       "Hứa Trọng",
-      "Chú Trọng"
+      "Chú Trọng",
+      "Xu Zhong"
     ],
     "honorifics": "với Cố Tùy Châu: tôi - thiếu gia/Cố tổng/cậu; với Thẩm Phi Triết: tôi - Thẩm tiên sinh/anh Thẩm; Thẩm Phi Triết gọi: chú Trọng/ông; ngôi thứ 3: ông, chú Trọng",
     "speech_style": "Kính cẩn, cẩn trọng, đúng mực",
@@ -136,7 +146,8 @@
     "hanviet_name": "Lâm Tử Trác",
     "gender": "Nam",
     "aliases": [
-      "Lâm Tử Trác"
+      "Lâm Tử Trác",
+      "Lin Zizhuo"
     ],
     "honorifics": "ông",
     "speech_style": "Nghiêm túc",
@@ -177,7 +188,8 @@
       "Shen Laojiazhu",
       "Lão gia",
       "ông nội",
-      "Thẩm (family name)"
+      "Thẩm (family name)",
+      "Thẩm lão gia"
     ],
     "honorifics": "ông - cháu",
     "speech_style": "Bảo thủ, cáo già xảo quyệt, uy áp",
@@ -190,7 +202,8 @@
     "aliases": [
       "Ritter",
       "Giáo sư Ritter",
-      "Lý Đặc"
+      "Lý Đặc",
+      "Ritter Naons"
     ],
     "honorifics": "tôi - cậu",
     "speech_style": "Chuyên nghiệp, nghiêm túc",
@@ -219,7 +232,8 @@
     "hanviet_name": "Viện trưởng W.N",
     "gender": "Chưa rõ",
     "aliases": [
-      "The Director"
+      "The Director",
+      "Director"
     ],
     "honorifics": "ngài",
     "speech_style": "Kỳ dị, bí ẩn",
@@ -393,7 +407,8 @@
     "hanviet_name": "K7",
     "gender": "Nam",
     "aliases": [
-      "K7"
+      "K7",
+      "Người đàn ông"
     ],
     "honorifics": "ngài",
     "speech_style": "Thực dụng, quyền uy",
@@ -433,29 +448,31 @@
     ],
     "honorifics": "",
     "speech_style": "",
-    "notes": ""
+    "notes": "Biological father of the original Thẩm Phi Trĩ. Deceased, ruined his health through excessive debauchery."
   },
   {
     "name": "Eldest Young Master",
     "hanviet_name": "",
     "gender": "Male",
     "aliases": [
-      "Eldest Young Master"
+      "Eldest Young Master",
+      "Đại thiếu gia"
     ],
-    "honorifics": "",
+    "honorifics": "Đại thiếu gia",
     "speech_style": "",
-    "notes": ""
+    "notes": "Eldest son of the Shen family. Implied to be promiscuous and lacking self-control, involved in an 'accident' with Doctor Lin's younger brother."
   },
   {
     "name": "Doctor Lin's younger brother",
     "hanviet_name": "",
     "gender": "Male",
     "aliases": [
-      "Doctor Lin's younger brother"
+      "Doctor Lin's younger brother",
+      "Em trai của Bác sĩ Lâm Tuỳ"
     ],
     "honorifics": "",
     "speech_style": "",
-    "notes": ""
+    "notes": "Described as having an 'exquisite' face, involved in an 'accident' with the Eldest Young Master."
   },
   {
     "name": "Lin Zhou",
@@ -502,6 +519,42 @@
     "aliases": [
       "Shen Feizhi's birth mother",
       "Mẫu thân của Thẩm Phi Trĩ"
+    ],
+    "honorifics": "",
+    "speech_style": "",
+    "notes": ""
+  },
+  {
+    "name": "Thẩm Phi Trĩ (Protagonist)",
+    "hanviet_name": "Thẩm Phi Trĩ",
+    "gender": "Male",
+    "aliases": [
+      "Thẩm Phi Trĩ (Protagonist)",
+      "Thẩm Phi Trĩ",
+      "Thẩm Phi Trĩ (Original Owner)"
+    ],
+    "honorifics": "",
+    "speech_style": "",
+    "notes": "A 'Manager' from a higher dimension, now permanently stuck in the body of the original Thẩm Phi Trĩ in an Interstellar ABO World. His energy channel collapsed, cutting off contact with the Main Planet. He finds himself in a high-smut novel, 'Volume 6/9'."
+  },
+  {
+    "name": "Doctor Lin Sui",
+    "hanviet_name": "Lâm Tuỳ",
+    "gender": "Male",
+    "aliases": [
+      "Doctor Lin Sui",
+      "Lâm Tuỳ"
+    ],
+    "honorifics": "Bác sĩ",
+    "speech_style": "",
+    "notes": "A doctor. The first member of the original owner's harem. He is waiting downstairs to perform the differentiation check."
+  },
+  {
+    "name": "Federation’s Supreme Executive Officer",
+    "hanviet_name": "",
+    "gender": "unknown",
+    "aliases": [
+      "Federation’s Supreme Executive Officer"
     ],
     "honorifics": "",
     "speech_style": "",
