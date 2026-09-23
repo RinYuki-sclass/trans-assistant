@@ -436,8 +436,8 @@
   {
     "original": "Starnet",
     "translation": "Starnet",
-    "hanviet": "",
-    "category": "other",
+    "hanviet": "Tinh Võng",
+    "category": "Technology",
     "confidence": 1.0,
     "approved": true,
     "chapter_first_seen": "ch_007"
@@ -1268,7 +1268,7 @@
     "original": "Child of Destiny",
     "translation": "Con cưng của thế giới / Thiên mệnh chi tử",
     "hanviet": "",
-    "category": "other",
+    "category": "character_role",
     "confidence": 1.0,
     "approved": true,
     "chapter_first_seen": "ch_026"
@@ -2069,7 +2069,7 @@
   {
     "original": "C2",
     "translation": "thuốc C2",
-    "hanviet": "",
+    "hanviet": "C2",
     "category": "item",
     "confidence": 0.9,
     "approved": true,
@@ -3188,5 +3188,329 @@
     "confidence": 0.9,
     "approved": true,
     "chapter_first_seen": "ch_004"
+  },
+  {
+    "original": "differentiation check",
+    "translation": "kiểm tra kỳ phân hóa",
+    "hanviet": "",
+    "category": "terminology",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_001"
+  },
+  {
+    "original": "micro-device",
+    "translation": "thiết bị vi mô",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_062"
+  },
+  {
+    "original": "ion launcher",
+    "translation": "súng phóng ion",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_063"
+  },
+  {
+    "original": "citizen rights actions",
+    "translation": "hành động tước quyền công dân",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 0.7,
+    "approved": true,
+    "chapter_first_seen": "ch_063"
+  },
+  {
+    "original": "Tinh Chủ",
+    "translation": "Star Domain / Star Command",
+    "hanviet": "Tinh Chủ",
+    "category": "Organization/Location",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_063"
+  },
+  {
+    "original": "tàu con thoi",
+    "translation": "space shuttle",
+    "hanviet": "",
+    "category": "Technology/Vehicle",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_063"
+  },
+  {
+    "original": "bộ điều khiển cần lái",
+    "translation": "flight stick controller",
+    "hanviet": "",
+    "category": "Technology",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_063"
+  },
+  {
+    "original": "thiết bị thu năng lượng",
+    "translation": "energy collection device",
+    "hanviet": "",
+    "category": "Technology",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_063"
+  },
+  {
+    "original": "bức xạ áp suất cao",
+    "translation": "high-pressure radiation",
+    "hanviet": "",
+    "category": "Science/Technology",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_063"
+  },
+  {
+    "original": "từ trường",
+    "translation": "magnetic field",
+    "hanviet": "Từ trường",
+    "category": "Science",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_063"
+  },
+  {
+    "original": "thế giới cao chiều",
+    "translation": "higher-dimensional world",
+    "hanviet": "Thế giới cao chiều",
+    "category": "Concept/Fantasy",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_063"
+  },
+  {
+    "original": "khoang chống bức xạ",
+    "translation": "radiation-proof compartment",
+    "hanviet": "",
+    "category": "Technology",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_063"
+  },
+  {
+    "original": "đài quan sát",
+    "translation": "observation deck",
+    "hanviet": "Đài quan sát",
+    "category": "Location/Structure",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_063"
+  },
+  {
+    "original": "K-tier",
+    "translation": "K-tier",
+    "hanviet": "",
+    "category": "faction",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_064"
+  },
+  {
+    "original": "key node",
+    "translation": "nút thắt quan trọng",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_064"
+  },
+  {
+    "original": "button communicator",
+    "translation": "thiết bị liên lạc dạng nút",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_064"
+  },
+  {
+    "original": "Tổng cục Hành chính Tinh cầu Chính",
+    "translation": "Main Planet Administrative Bureau",
+    "hanviet": "",
+    "category": "Organization",
+    "confidence": 0.95,
+    "approved": true,
+    "chapter_first_seen": "ch_064"
+  },
+  {
+    "original": "Cấp K",
+    "translation": "K-level / K-tier",
+    "hanviet": "",
+    "category": "Rank/Level",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_064"
+  },
+  {
+    "original": "Population Bureau",
+    "translation": "Cục Dân số",
+    "hanviet": "",
+    "category": "faction",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_066"
+  },
+  {
+    "original": "100% perfect match",
+    "translation": "Độ tương thích 100%",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_066"
+  },
+  {
+    "original": "hồ ly tinh",
+    "translation": "fox spirit (derogatory term for a seductive woman)",
+    "hanviet": "",
+    "category": "Insult/Nickname",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_066"
+  },
+  {
+    "original": "Lão Cố",
+    "translation": "Old Gu / Brother Gu (informal address for someone named Cố, implying familiarity or seniority in a group)",
+    "hanviet": "",
+    "category": "Address/Nickname",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_066"
+  },
+  {
+    "original": "A. Big Darling",
+    "translation": "A. Đại Bảo Bối",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_068"
+  },
+  {
+    "original": "gestation sac",
+    "translation": "túi thai",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 0.95,
+    "approved": true,
+    "chapter_first_seen": "ch_068"
+  },
+  {
+    "original": "faineant",
+    "translation": "lười biếng/vô dụng",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_069"
+  },
+  {
+    "original": "Quan điều hành tối cao",
+    "translation": "Supreme Executive",
+    "hanviet": "Tối cao chấp hành quan",
+    "category": "Chức danh",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_069"
+  },
+  {
+    "original": "Liên bang",
+    "translation": "Federation",
+    "hanviet": "Liên bang",
+    "category": "Tổ chức",
+    "confidence": 0.95,
+    "approved": true,
+    "chapter_first_seen": "ch_069"
+  },
+  {
+    "original": "W.N drug",
+    "translation": "Thuốc W.N",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_070"
+  },
+  {
+    "original": "Administration Department",
+    "translation": "Cục Hành chính",
+    "hanviet": "",
+    "category": "faction",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_070"
+  },
+  {
+    "original": "Bộ Hành chính",
+    "translation": "Bộ Hành chính",
+    "hanviet": "Bộ Hành chính",
+    "category": "Tổ chức",
+    "confidence": 0.95,
+    "approved": true,
+    "chapter_first_seen": "ch_070"
+  },
+  {
+    "original": "miếng dán ngăn mùi",
+    "translation": "miếng dán ngăn mùi / miếng dán cách ly",
+    "hanviet": "",
+    "category": "Vật phẩm",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_070"
+  },
+  {
+    "original": "Identity cards",
+    "translation": "Thẻ định danh",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_071"
+  },
+  {
+    "original": "Miniature crystal",
+    "translation": "Tinh thể thu nhỏ",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_071"
+  },
+  {
+    "original": "Same-Sex Marriage Law",
+    "translation": "Luật Hôn nhân Đồng giới",
+    "hanviet": "Luật Kết hôn Đồng giới",
+    "category": "Luật lệ",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_072"
+  },
+  {
+    "original": "Alpha pheromone fluctuation",
+    "translation": "biến động pheromone Alpha",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_072"
+  },
+  {
+    "original": "Phòng Pháp chế",
+    "translation": "Legal Department",
+    "hanviet": "Phòng Pháp chế",
+    "category": "Tổ chức",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_072"
   }
 ]

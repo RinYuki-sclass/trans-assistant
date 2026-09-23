@@ -1,53 +1,55 @@
 ---
-title: ch_001 chunk 4
+title: ch_001 — Chunk 7/14 [TRANSLATED]
 ---
 
-Còn nguyên chủ, một Alpha cấp cao nhất—tại sao lại là M?!
+Và nguyên chủ cậu, một Alpha đỉnh cấp – sao lại là M chứ?!
 
-Ký ức về những miêu tả đáng ghê tởm đó khiến dạ dày Thẩm Phi Triết cuộn trào. Anh cảm thấy một cơn buồn nôn.
+Những miêu tả ghê tởm đó khiến Thẩm Phi Triết buồn nôn, dạ dày anh cuộn thắt lại.
 
 Không. Tuyệt đối không.
 
-Anh đã giữ gìn thanh bạch suốt mấy chục năm. Anh từ chối trở thành một kẻ dâm đãng chỉ vì xuyên vào một cuốn tiểu thuyết rác rưởi!
+Anh đã giữ gìn trinh tiết suốt mấy chục năm. Tuyệt đối không thể vì xuyên vào một cuốn tiểu thuyết rác rưởi mà biến thành một kẻ lăng loàn!
 
-Anh đột ngột hất chăn ra và đứng dậy.
+“Chú Liêu.”
 
-"Chú Liêu." "Từ một đến mười, chú đánh giá khuôn mặt tôi hiện tại thế nào?"
+Anh đột ngột hất chăn ra, đứng dậy.
 
-Câu hỏi bất ngờ đến mức quản gia ngơ ngác nhìn anh vài giây.
+“Nếu chấm điểm từ một đến mười, chú đánh giá gương mặt tôi hiện tại được bao nhiêu điểm?”
 
-"Điểm tuyệt đối?" ông thăm dò đáp lại.
+Câu hỏi đột ngột khiến quản gia ngẩn người vài giây, sau đó dè dặt đáp:
+
+“Mười điểm tuyệt đối?”
 
 Thẩm Phi Triết nhìn thẳng vào mắt ông.
 
-"Chú Liêu, tôi nghiêm túc đấy."
+“Chú Liêu, tôi nghiêm túc đấy.”
 
-Giọng điệu của anh nghiêm trọng đến mức quản gia Liêu đang bối rối thực sự phải ghé sát lại để xem xét kỹ khuôn mặt anh.
+Giọng điệu anh quá đỗi nghiêm trọng, khiến Quản gia Liêu đang bối rối cũng phải ghé sát lại, cẩn thận quan sát gương mặt anh.
 
-Đường nét và cấu trúc khuôn mặt của chàng trai trẻ tinh xảo đến mức hoàn mỹ. Môi anh mỏng và nhợt nhạt, nhưng chính đôi đồng tử đen như đá vỏ chai—sâu thẳm và sắc bén—đã mang lại cho toàn bộ khuôn mặt anh một vẻ cao quý đặc biệt, xa cách. Làn da mịn màng, trắng trẻo của anh gần như không tì vết; ngay cả nốt ruồi nhỏ trên chóp mũi cũng trông như thể được cố ý đặt vào đó để làm điểm nhấn.
+Gương mặt và đường nét của chàng trai trẻ tinh xảo đến mức hoàn mỹ. Môi anh mỏng và nhợt nhạt, nhưng chính đôi con ngươi đen như đá vỏ chai, sâu thẳm và sắc bén, đã mang lại cho toàn bộ gương mặt anh một vẻ cao quý, xa cách đặc biệt. Làn da trắng mịn của anh gần như không tì vết; ngay cả nốt ruồi nhỏ trên chóp mũi cũng như được cố tình đặt vào để làm điểm nhấn.
 
-A! Sao trước đây mình chưa từng nhận ra Nhị thiếu gia lại đẹp đến kinh ngạc như vậy nhỉ?
+A! Sao trước đây mình chưa từng nhận ra Nhị thiếu gia lại đẹp đến thế nhỉ?
 
-Quản gia Liêu thở dài trong lòng, rồi một lần nữa đưa ra đánh giá chân thành của mình:
+Quản gia Liêu thầm thở dài, sau đó một lần nữa đưa ra đánh giá chân thành:
 
-"Điểm tuyệt đối!"
+“Mười điểm tuyệt đối!”
 
-Bất ngờ thay, người được khen lại nhắm mắt, đôi môi đẹp đẽ của anh chậm rãi thốt ra một từ:
+Bất ngờ thay, người được khen lại nhắm mắt, đôi môi đẹp đẽ từ từ thốt ra một từ:
 
-"Tiêu rồi."
+“Xong đời.”
 
-Quản gia Liêu nghĩ rằng tai già của mình đã lãng đi.
+Quản gia Liêu nghĩ tai mình đã lãng rồi.
 
-"Nhị thiếu gia, cậu nói gì cơ?"
+“Nhị thiếu gia, cậu nói gì cơ?”
 
-Thẩm Phi Triết mở mắt ra và bình tĩnh lặp lại:
+Thẩm Phi Triết mở mắt, bình tĩnh lặp lại:
 
-"Tiêu rồi."
+“Xong đời.”
 
-Chín phần mười, "tình yêu sét đánh" chỉ là ham muốn sét đánh mà thôi. Anh đã hy vọng rằng nếu khuôn mặt mình không đẹp trai bằng nguyên chủ, anh có thể tránh được tai họa mang tên Lâm Tùy.
+Chín phần mười cái gọi là “yêu từ cái nhìn đầu tiên” chẳng qua chỉ là ham muốn tình dục từ cái nhìn đầu tiên mà thôi. Anh đã hy vọng rằng nếu gương mặt mình không đẹp trai bằng nguyên chủ, anh có thể tránh được tai họa mang tên Lâm Tùy.
 
 Giờ đây, phản ứng của quản gia đã đập tan ảo tưởng đó.
 
-Là lỗi của chính anh.
+Là lỗi của anh.
 
-Anh ta chỉ là quá đẹp trai chết tiệt mà thôi.
+Anh quá đẹp trai chết tiệt.
