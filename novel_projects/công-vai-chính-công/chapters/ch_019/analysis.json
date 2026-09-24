@@ -1,0 +1,182 @@
+{
+  "chapter_summary": "Chương này mở đầu với đội tìm kiếm do Đội trưởng Scorpion dẫn đầu, đang truy lùng Quý Thần Hi và Trì Chước trong thời tiết cực lạnh. Phó Qua, một thành viên trẻ tuổi và độc lập, đề xuất chờ đến bình minh vì pheromone bị ảnh hưởng bởi cái lạnh, nhưng Scorpion kiên quyết tiếp tục. Phó Qua sau đó dẫn một nhóm nhỏ tách ra, tuyên bố tìm nơi trú ẩn nhưng thực chất là có mục đích riêng. Trong khi đó, Quý Thần Hi đang cố gắng giữ ấm cho Trì Chước trong một hang băng. Anh tò mò chạm vào tuyến thể sưng đỏ của Trì Chước, khiến Trì Chước khó chịu và Quý Thần Hi cảm thấy tội lỗi. Khi bình minh đến gần, cơn sốt của Trì Chước giảm đáng kể. Quý Thần Hi cảm nhận được một nhóm lớn đang tiếp cận và nhanh chóng thu hồi năng lượng tinh thần, nhận ra có thể đã bị phát hiện. Cách đó hai kilomet, Phó Qua nở nụ cười nguy hiểm, xác nhận đã tìm thấy mục tiêu.",
+  "new_characters": [
+    {
+      "name": "Deputy Ge",
+      "hanviet_name": "Phó Qua",
+      "gender": "Male",
+      "role": "Deputy, member of the Red Scorpion Star Bandits",
+      "description": "A young, independent, and skilled member of the search party. He seems to subtly challenge Captain Scorpion's authority but is effective in his actions."
+    },
+    {
+      "name": "Scorpion",
+      "hanviet_name": "Hạt Tử",
+      "gender": "Male",
+      "role": "Captain of the Red Scorpion Star Bandits",
+      "description": "A half-century-old captain, authoritative and strict, leading the search party. He demands absolute obedience from his subordinates."
+    }
+  ],
+  "new_locations": [],
+  "new_terms": [
+    {
+      "original": "Red Scorpion Star Bandits",
+      "suggested": "Băng cướp Sao Bò Cạp Đỏ",
+      "hanviet": "Hồng Hạt Tinh Đạo Đoàn",
+      "category": "faction",
+      "confidence": 0.7
+    },
+    {
+      "original": "Captain",
+      "suggested": "Đội trưởng",
+      "hanviet": "Đội trưởng",
+      "category": "other",
+      "confidence": 0.7
+    },
+    {
+      "original": "Pheromone detector",
+      "suggested": "Máy dò Pheromone",
+      "hanviet": "Thiết bị dò tìm tin tức tố",
+      "category": "item",
+      "confidence": 0.7
+    },
+    {
+      "original": "Mech",
+      "suggested": "Cơ giáp",
+      "hanviet": "Cơ giáp",
+      "category": "item",
+      "confidence": 0.7
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "Deputy Ge",
+      "suggested": "Phó Qua",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Deputy Ge?",
+      "options": [
+        "Phó Qua (giữ nguyên 'Ge' là họ/tên đệm)",
+        "Phó đội trưởng Qua (nếu 'Ge' là họ)",
+        "Phó đội trưởng (nếu 'Ge' là một phần của chức danh)",
+        "Phó Qua (dịch theo âm Hán-Việt)"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_002",
+      "original": "Deputy Ge (ngôi thứ 3)",
+      "suggested": "cậu ta",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Deputy Ge (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "cậu ta",
+        "hắn",
+        "y",
+        "anh ta",
+        "gã"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_003",
+      "original": "Scorpion",
+      "suggested": "Scorpion",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Scorpion?",
+      "options": [
+        "Scorpion (giữ nguyên tiếng Anh)",
+        "Đội trưởng Bò Cạp",
+        "Hạt Tử (âm Hán-Việt của 蝎子)",
+        "Hạt (rút gọn từ Hạt Tử)"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_004",
+      "original": "Scorpion (ngôi thứ 3)",
+      "suggested": "hắn",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Scorpion (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "hắn",
+        "y",
+        "gã",
+        "ông ta",
+        "lão ta"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_005",
+      "original": "Người đồng hành của Phó Qua (ngôi thứ 3)",
+      "suggested": "anh ta",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Người đồng hành của Phó Qua (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "anh ta",
+        "cậu ta",
+        "hắn",
+        "y"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_006",
+      "original": "Deputy Ge → Scorpion",
+      "suggested": "xưng Tôi - gọi Đội trưởng",
+      "confidence": 0.3,
+      "question": "Chiều 1: Deputy Ge xưng hô thế nào với Scorpion (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Đội trưởng",
+        "xưng Tôi - gọi Ngài",
+        "xưng Tôi - gọi Captain",
+        "xưng Tôi - gọi Ông"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_007",
+      "original": "Scorpion → Deputy Ge",
+      "suggested": "xưng Ta - gọi Phó Qua",
+      "confidence": 0.3,
+      "question": "Chiều 2: Scorpion xưng hô thế nào với Deputy Ge (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Ta - gọi Phó Qua",
+        "xưng Ta - gọi Cậu",
+        "xưng Ta - gọi Ngươi",
+        "xưng Tôi - gọi Phó Qua"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_008",
+      "original": "Deputy Ge → Người đồng hành của Phó Qua",
+      "suggested": "xưng Tôi - gọi Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Deputy Ge xưng hô thế nào với Người đồng hành của Phó Qua (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Cậu",
+        "xưng Ta - gọi Ngươi",
+        "xưng Tôi - gọi Đồng chí"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_009",
+      "original": "Người đồng hành của Phó Qua → Deputy Ge",
+      "suggested": "xưng Tôi - gọi Phó Qua",
+      "confidence": 0.3,
+      "question": "Chiều 2: Người đồng hành của Phó Qua xưng hô thế nào với Deputy Ge (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Phó Qua",
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Ngài",
+        "xưng Tôi - gọi Cậu"
+      ],
+      "category": "relationship"
+    }
+  ],
+  "chapter_id": "ch_019",
+  "analyzed_at": "2026-09-24T16:26:11.086925+07:00"
+}

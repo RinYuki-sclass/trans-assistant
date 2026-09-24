@@ -1,0 +1,267 @@
+{
+  "chapter_summary": "Ji Chenxi (Quý Thần Hi) and his companion Shadow find themselves on a starship owned by Chi Zhuo (Trì Chước), who is accompanied by Nether, a middle-aged man, and a younger man. Chi Zhuo, still holding a grudge from a past encounter, confronts Ji Chenxi with photon cannons. Ji Chenxi, revealed to be the Third Prince, attempts to manipulate Chi Zhuo with a pitiful act, calling him \"Brother Chi Zhuo\" and feigning apology for past actions, while Chi Zhuo mockingly addresses him as \"Your Highness.\" The tension escalates into a fight. Ji Chenxi unleashes his snow leopard spirit beast and uses pheromone-laced spiritual attacks to pin Chi Zhuo. However, Chi Zhuo reveals his own spirit beast, a black mamba, which coils around Ji Chenxi, creating a stalemate.",
+  "new_characters": [
+    {
+      "name": "Shadow",
+      "hanviet_name": "",
+      "gender": "Male",
+      "role": "Ji Chenxi's subordinate",
+      "description": "Ji Chenxi's companion, relieved when Chenxi knew the starship owner."
+    },
+    {
+      "name": "Nether",
+      "hanviet_name": "",
+      "gender": "Female",
+      "role": "Chi Zhuo's subordinate, beta",
+      "description": "Bespectacled female beta, rigid, tense, operates ship systems."
+    },
+    {
+      "name": "Middle-aged man",
+      "hanviet_name": "",
+      "gender": "Male",
+      "role": "Chi Zhuo's subordinate",
+      "description": "Scowled, barked orders, reacted instantly to protect Chi Zhuo."
+    },
+    {
+      "name": "Younger man",
+      "hanviet_name": "",
+      "gender": "Male",
+      "role": "Chi Zhuo's subordinate",
+      "description": "Reacted instantly, had a photon gun, stunned by Ji Chenxi's speed."
+    }
+  ],
+  "new_locations": [],
+  "new_terms": [
+    {
+      "original": "starship",
+      "suggested": "phi thuyền",
+      "hanviet": "tinh hạm",
+      "category": "item",
+      "confidence": 0.8
+    },
+    {
+      "original": "photon cannons",
+      "suggested": "pháo photon",
+      "hanviet": "",
+      "category": "item",
+      "confidence": 0.8
+    },
+    {
+      "original": "photon guns",
+      "suggested": "súng photon",
+      "hanviet": "",
+      "category": "item",
+      "confidence": 0.8
+    },
+    {
+      "original": "suppressant",
+      "suggested": "thuốc ức chế",
+      "hanviet": "ức chế tề",
+      "category": "item",
+      "confidence": 0.8
+    },
+    {
+      "original": "omega",
+      "suggested": "Omega",
+      "hanviet": "",
+      "category": "other",
+      "confidence": 0.8
+    },
+    {
+      "original": "mark",
+      "suggested": "đánh dấu",
+      "hanviet": "",
+      "category": "skill",
+      "confidence": 0.8
+    },
+    {
+      "original": "pheromones",
+      "suggested": "pheromone",
+      "hanviet": "",
+      "category": "other",
+      "confidence": 0.8
+    },
+    {
+      "original": "alpha",
+      "suggested": "Alpha",
+      "hanviet": "",
+      "category": "other",
+      "confidence": 0.8
+    },
+    {
+      "original": "earring",
+      "suggested": "khuyên tai",
+      "hanviet": "",
+      "category": "item",
+      "confidence": 0.8
+    },
+    {
+      "original": "black mask",
+      "suggested": "mặt nạ đen",
+      "hanviet": "",
+      "category": "item",
+      "confidence": 0.8
+    },
+    {
+      "original": "gland area",
+      "suggested": "tuyến thể",
+      "hanviet": "",
+      "category": "other",
+      "confidence": 0.8
+    },
+    {
+      "original": "rose scent",
+      "suggested": "hương hoa hồng",
+      "hanviet": "",
+      "category": "other",
+      "confidence": 0.8
+    },
+    {
+      "original": "3S",
+      "suggested": "cấp 3S",
+      "hanviet": "",
+      "category": "other",
+      "confidence": 0.8
+    },
+    {
+      "original": "Third Prince",
+      "suggested": "Tam hoàng tử",
+      "hanviet": "",
+      "category": "title",
+      "confidence": 0.8
+    },
+    {
+      "original": "spirit beast",
+      "suggested": "tinh thú",
+      "hanviet": "linh thú",
+      "category": "other",
+      "confidence": 0.8
+    },
+    {
+      "original": "spiritual attacks",
+      "suggested": "công kích tinh thần",
+      "hanviet": "linh hồn công kích",
+      "category": "skill",
+      "confidence": 0.8
+    },
+    {
+      "original": "photon fire",
+      "suggested": "hỏa lực photon",
+      "hanviet": "",
+      "category": "skill",
+      "confidence": 0.8
+    },
+    {
+      "original": "spirit power",
+      "suggested": "tinh thần lực",
+      "hanviet": "linh lực",
+      "category": "other",
+      "confidence": 0.8
+    },
+    {
+      "original": "beta",
+      "suggested": "Beta",
+      "hanviet": "",
+      "category": "other",
+      "confidence": 0.8
+    },
+    {
+      "original": "smoke bomb",
+      "suggested": "bom khói",
+      "hanviet": "",
+      "category": "item",
+      "confidence": 0.8
+    },
+    {
+      "original": "snow leopard",
+      "suggested": "báo tuyết",
+      "hanviet": "",
+      "category": "other",
+      "confidence": 0.8
+    },
+    {
+      "original": "jin",
+      "suggested": "cân",
+      "hanviet": "",
+      "category": "other",
+      "confidence": 0.8
+    },
+    {
+      "original": "black mamba",
+      "suggested": "rắn mamba đen",
+      "hanviet": "",
+      "category": "other",
+      "confidence": 0.8
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "Shadow",
+      "suggested": "Bóng",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Shadow?",
+      "options": [
+        "Shadow (giữ nguyên)",
+        "Ảnh (Hán-Việt của 'shadow')",
+        "Bóng (nghĩa tiếng Việt)"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_002",
+      "original": "Nether",
+      "suggested": "U Minh",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Nether?",
+      "options": [
+        "Nether (giữ nguyên)",
+        "U Minh (Hán-Việt của 'nether')",
+        "Âm Giới (nghĩa tiếng Việt)"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_003",
+      "original": "Middle-aged man",
+      "suggested": "Người đàn ông trung niên",
+      "confidence": 0.3,
+      "question": "Xác nhận cách gọi cho nhân vật 'middle-aged man'?",
+      "options": [
+        "Người đàn ông trung niên",
+        "Ông chú",
+        "Vị trung niên"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_004",
+      "original": "Younger man",
+      "suggested": "Chàng trai trẻ",
+      "confidence": 0.3,
+      "question": "Xác nhận cách gọi cho nhân vật 'younger man'?",
+      "options": [
+        "Chàng trai trẻ",
+        "Người đàn ông trẻ tuổi",
+        "Vị thanh niên"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_005",
+      "original": "Ji Chenxi and Chi Zhuo pronouns",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Xưng hô giữa Quý Thần Hi (công, nhỏ tuổi hơn, hoàng tộc) và Trì Chước (thụ, lớn tuổi hơn, đang nắm quyền, thù địch) khi giao tiếp và ngôi thứ ba?",
+      "options": [
+        "Trì Chước xưng: \"Điện hạ\" (gọi Quý Thần Hi), \"ta\" (xưng Trì Chước) | Quý Thần Hi xưng: \"Anh Trì Chước\" (gọi Trì Chước), \"em\" (xưng Quý Thần Hi)",
+        "Trì Chước xưng: \"Điện hạ\" (gọi Quý Thần Hi), \"tôi\" (xưng Trì Chước) | Quý Thần Hi xưng: \"Anh\" (gọi Trì Chước), \"tôi\" (xưng Quý Thần Hi)",
+        "Trì Chước xưng: \"Ngài\" (gọi Quý Thần Hi, có thể mỉa mai), \"tôi\" (xưng Trì Chước) | Quý Thần Hi xưng: \"Anh Trì Chước\" (gọi Trì Chước), \"em\" (xưng Quý Thần Hi)",
+        "Trì Chước xưng: \"Ngươi\" (gọi Quý Thần Hi), \"ta\" (xưng Trì Chước) | Quý Thần Hi xưng: \"Anh\" (gọi Trì Chước), \"tôi\" (xưng Quý Thần Hi)"
+      ],
+      "category": "pronoun"
+    }
+  ],
+  "chapter_id": "ch_007",
+  "analyzed_at": "2026-09-24T13:32:12.145198+07:00"
+}

@@ -45,6 +45,11 @@ class TestEpubGenerator(unittest.TestCase):
         self.assertIsInstance(epub_bytes, bytes)
         self.assertGreater(len(epub_bytes), 1000)
         self.assertTrue(epub_bytes.startswith(b"PK"))  # EPUB is a ZIP archive starting with PK signature
+        
+        # Verify description / văn án page is created inside archive
+        import zipfile, io
+        z = zipfile.ZipFile(io.BytesIO(epub_bytes))
+        self.assertTrue(any("description.xhtml" in n for n in z.namelist()))
 
     def test_create_epub_with_cover(self):
         # 1x1 transparent PNG bytes

@@ -1,0 +1,67 @@
+{
+  "chapter_summary": "Chương này bắt đầu với Trì Chước trêu chọc Quý Thần Hi về tên linh thể của cậu là 'Baby'. Quý Thần Hi sau đó phát hiện Trì Chước bị thương và đang bị truy đuổi bởi nhóm Bò Cạp Đỏ. Ban đầu, Quý Thần Hi từ chối hợp tác vì Trì Chước từng từ chối cậu trước đó, nhưng sau khi Trì Chước phân tích tình hình nguy hiểm sắp tới (đêm xuống và hành tinh yên tĩnh một cách kỳ lạ), Quý Thần Hi đã đồng ý. Hai người thiết lập một thỏa thuận hợp tác, trong đó Trì Chước hứa sẽ bảo vệ Quý Thần Hi nếu cậu chân thành. Quý Thần Hi, với đôi chân bị thương, yêu cầu Trì Chước cõng mình. Trì Chước đồng ý và Quý Thần Hi bắt đầu hướng dẫn đường đi cho Trì Chước, người đang bị mù.",
+  "new_characters": [],
+  "new_locations": [],
+  "new_terms": [
+    {
+      "original": "holo-brain",
+      "suggested": "não lập thể",
+      "hanviet": null,
+      "category": "item",
+      "confidence": 0.5
+    },
+    {
+      "original": "Red Scorpions",
+      "suggested": "Hồng Bò Cạp",
+      "hanviet": null,
+      "category": "faction",
+      "confidence": 0.5
+    },
+    {
+      "original": "empathic connection",
+      "suggested": "kết nối đồng cảm",
+      "hanviet": null,
+      "category": "other",
+      "confidence": 0.5
+    },
+    {
+      "original": "relocation beacon",
+      "suggested": "thiết bị định vị",
+      "hanviet": null,
+      "category": "item",
+      "confidence": 0.5
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Chi Zhuo xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 1: Chi Zhuo xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam hoàng tử",
+        "xưng Tôi - gọi Quý thiếu",
+        "xưng Tôi - gọi Cậu"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_002",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Chi Zhuo là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 2: Ji Chenxi xưng hô thế nào với Chi Zhuo (A tự xưng là gì và gọi B là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Trì ca",
+        "xưng Ta - gọi Trì Chước",
+        "xưng Tôi - gọi Cậu"
+      ],
+      "category": "relationship"
+    }
+  ],
+  "chapter_id": "ch_014",
+  "analyzed_at": "2026-09-24T16:24:03.951872+07:00"
+}

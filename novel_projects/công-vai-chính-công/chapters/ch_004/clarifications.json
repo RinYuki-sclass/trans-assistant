@@ -1,0 +1,129 @@
+{
+  "chapter_id": "ch_004",
+  "questions": [
+    {
+      "id": "amb_001",
+      "original": "Ji Chenxi",
+      "suggested": "Quý Thần Hi",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Ji Chenxi?",
+      "options": [
+        "Quý Thần Hi",
+        "Kỷ Thần Hi",
+        "Cơ Thần Hi"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_002",
+      "original": "Chi Zhou",
+      "suggested": "Trì Chước",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Chi Zhou?",
+      "options": [
+        "Trì Chước",
+        "Trì Chu",
+        "Chi Chu"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_004",
+      "original": "Su Nuan",
+      "suggested": "Tô Noãn",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Su Nuan?",
+      "options": [
+        "Tô Noãn",
+        "Tô Nhuận",
+        "Tô Loan"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_006",
+      "original": "Ji Chenxi and Chi Zhou dialogue",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Xưng hô giữa Ji Chenxi và Chi Zhou khi giao tiếp và ngôi thứ ba? (Bối cảnh ABO, công thụ, thụ lớn tuổi hơn, nhưng đây là đối thủ)",
+      "options": [
+        "Ngươi - Ta (thụ xưng Ta, công xưng Ngươi, ngôi thứ ba Hắn/Y)",
+        "Mày - Tao (ngôi thứ ba Hắn/Y)",
+        "Tôi - Cậu (ngôi thứ ba Hắn/Y)",
+        "Anh - Tôi (thụ xưng Anh, công xưng Tôi, ngôi thứ ba Hắn/Y)"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_007",
+      "original": "Ji Chenxi and Su Yu dialogue",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Xưng hô giữa Ji Chenxi và Su Yu khi giao tiếp và ngôi thứ ba? (Su Yu gọi Ji Chenxi là \"Tam Hoàng tử\")",
+      "options": [
+        "Tôi - Cậu (Ji Chenxi xưng Tôi, Su Yu xưng Cậu, ngôi thứ ba Hắn)",
+        "Ta - Ngươi (Ji Chenxi xưng Ta, Su Yu xưng Ngươi, ngôi thứ ba Hắn)",
+        "Anh - Tôi (Ji Chenxi xưng Anh, Su Yu xưng Tôi, ngôi thứ ba Hắn)",
+        "Tên - Tên (Ji Chenxi gọi Su Yu bằng tên, Su Yu gọi Ji Chenxi là Tam Hoàng tử, ngôi thứ ba Hắn)"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_008",
+      "original": "Su Yu and Su Nuan dialogue",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Xưng hô giữa Su Yu và Su Nuan khi giao tiếp và ngôi thứ ba? (Anh em ruột)",
+      "options": [
+        "Anh - Em (Su Yu xưng Anh, Su Nuan xưng Em, ngôi thứ ba Anh ấy/Cô ấy)",
+        "Tôi - Em (Su Yu xưng Tôi, Su Nuan xưng Em, ngôi thứ ba Anh ấy/Cô ấy)",
+        "Tên - Tên (Su Yu gọi Nuan Nuan, Nuan Nuan gọi Anh, ngôi thứ ba Anh ấy/Cô ấy)"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_009",
+      "original": "Chi Zhou and Shadowy Figure interaction",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Xưng hô giữa Chi Zhou và Shadowy Figure khi giao tiếp và ngôi thứ ba? (Chủ tớ)",
+      "options": [
+        "Ngài - Thuộc hạ (Chi Zhou xưng Ngài, thuộc hạ xưng Thuộc hạ, ngôi thứ ba Hắn/Y)",
+        "Chủ nhân - Tôi (Chi Zhou xưng Chủ nhân, thuộc hạ xưng Tôi, ngôi thứ ba Hắn/Y)",
+        "Mày - Tao (Chi Zhou xưng Mày, thuộc hạ xưng Tao, ngôi thứ ba Hắn/Y - nếu thân cận và Chi Zhou có tính cách bất cần)"
+      ],
+      "category": "pronoun"
+    }
+  ],
+  "answers": {
+    "amb_001": {
+      "choice": "Quý Thần Hi",
+      "custom": null
+    },
+    "amb_002": {
+      "choice": "Trì Chước",
+      "custom": null
+    },
+    "amb_004": {
+      "choice": "Tô Noãn",
+      "custom": null
+    },
+    "amb_006": {
+      "choice": "Ngươi - Ta (thụ xưng Ta, công xưng Ngươi, ngôi thứ ba Hắn/Y)",
+      "custom": null
+    },
+    "amb_007": {
+      "choice": "Custom",
+      "custom": "Ta - Cậu"
+    },
+    "amb_008": {
+      "choice": "Anh - Em (Su Yu xưng Anh, Su Nuan xưng Em, ngôi thứ ba Anh ấy/Cô ấy)",
+      "custom": null
+    },
+    "amb_009": {
+      "choice": "Chủ nhân - Tôi (Chi Zhou xưng Chủ nhân, thuộc hạ xưng Tôi, ngôi thứ ba Hắn/Y)",
+      "custom": null
+    }
+  },
+  "answered_at": "2026-09-24T16:34:23.667772+07:00"
+}

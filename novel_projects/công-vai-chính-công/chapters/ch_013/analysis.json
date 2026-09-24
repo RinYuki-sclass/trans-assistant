@@ -1,0 +1,289 @@
+{
+  "chapter_summary": "Sau cuộc đối đầu căng thẳng, Quý Thần Hi và Trì Chước tạm ngừng giao chiến khi phát hiện có người đang đến gần. Linh thú của Trì Chước (rắn mamba đen) có phản ứng kỳ lạ khi tương tác với báo tuyết của Quý Thần Hi, khiến Trì Chước bối rối. Quý Thần Hi sau đó dùng mưu kế vô hiệu hóa một tên lính trinh sát của băng Hải tặc Bò Cạp Đỏ, giả mạo tin nhắn để đánh lạc hướng chúng. Anh và Trì Chước quyết định tạm thời tách ra. Trong khi đó, Phó đội trưởng Tả Hiền của băng Hải tặc Bò Cạp Đỏ, dù nhận được tin nhắn giả, vẫn ra lệnh truy đuổi Trì Chước, tiết lộ mối liên hệ phức tạp giữa băng hải tặc và tình trạng pheromone bất ổn của Trì Chước. Cuối chương, Quý Thần Hi và Trì Chước đều đang ẩn mình và xử lý vết thương riêng.",
+  "new_characters": [
+    {
+      "name": "Thành",
+      "hanviet_name": "Thành",
+      "gender": "Male",
+      "role": "Lính trinh sát của băng Hải tặc Bò Cạp Đỏ",
+      "description": "Người đàn ông râu quai nón, một trong hai lính trinh sát đầu tiên phát hiện pheromone của Trì Chước."
+    },
+    {
+      "name": "Người đàn ông mũi khoằm",
+      "hanviet_name": "",
+      "gender": "Male",
+      "role": "Lính trinh sát của băng Hải tặc Bò Cạp Đỏ",
+      "description": "Người đàn ông có mũi khoằm, rất nhạy cảm với mùi hương, bị Quý Thần Hi phục kích."
+    },
+    {
+      "name": "Zuo Xian",
+      "hanviet_name": "Tả Hiền",
+      "gender": "Male",
+      "role": "Phó đội trưởng băng Hải tặc Bò Cạp Đỏ",
+      "description": "Người ra lệnh truy đuổi Trì Chước, có liên quan đến việc pheromone của Trì Chước trở nên bất ổn."
+    },
+    {
+      "name": "Amis",
+      "hanviet_name": "A Mễ Tư",
+      "gender": "Male",
+      "role": "Thuộc hạ của Zuo Xian",
+      "description": "Người báo cáo thông tin cho Phó đội trưởng Zuo Xian."
+    }
+  ],
+  "new_locations": [],
+  "new_terms": [
+    {
+      "original": "Red Scorpion Star Pirate gang",
+      "suggested": "Băng Hải tặc Bò Cạp Đỏ",
+      "hanviet": "Hồng Hạt Tinh Tặc Bang",
+      "category": "faction",
+      "confidence": 0.0
+    },
+    {
+      "original": "Photon cannon",
+      "suggested": "Pháo photon",
+      "hanviet": "",
+      "category": "item",
+      "confidence": 0.0
+    },
+    {
+      "original": "Mech",
+      "suggested": "Cơ giáp",
+      "hanviet": "",
+      "category": "item",
+      "confidence": 0.0
+    },
+    {
+      "original": "Holo-screen",
+      "suggested": "Màn hình ba chiều",
+      "hanviet": "",
+      "category": "item",
+      "confidence": 0.0
+    },
+    {
+      "original": "A-level alpha",
+      "suggested": "Alpha cấp A",
+      "hanviet": "",
+      "category": "other",
+      "confidence": 0.0
+    },
+    {
+      "original": "Light-brain",
+      "suggested": "Thiết bị quang não",
+      "hanviet": "",
+      "category": "item",
+      "confidence": 0.0
+    },
+    {
+      "original": "Pheromone detector",
+      "suggested": "Máy dò Pheromone",
+      "hanviet": "",
+      "category": "item",
+      "confidence": 0.0
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "Thành (tên dịch)",
+      "suggested": "Thành",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Thành?",
+      "options": [
+        "Thành",
+        "Trình",
+        "Trừng",
+        "Thịnh"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_002",
+      "original": "Thành (ngôi thứ 3)",
+      "suggested": "hắn",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Thành (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "hắn",
+        "y",
+        "anh",
+        "gã",
+        "cậu",
+        "chàng"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_003",
+      "original": "Người đàn ông mũi khoằm (tên dịch)",
+      "suggested": "Người đàn ông mũi khoằm",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Người đàn ông mũi khoằm (nếu có tên riêng)?",
+      "options": [
+        "Người đàn ông mũi khoằm",
+        "Tên riêng (cần xác nhận)",
+        "Không cần tên riêng, giữ nguyên mô tả"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_004",
+      "original": "Người đàn ông mũi khoằm (ngôi thứ 3)",
+      "suggested": "hắn",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Người đàn ông mũi khoằm (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "hắn",
+        "y",
+        "gã",
+        "tên này",
+        "người này"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_005",
+      "original": "Zuo Xian (tên dịch)",
+      "suggested": "Tả Hiền",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Zuo Xian?",
+      "options": [
+        "Tả Hiền",
+        "Tả Tiên",
+        "Tả Hiển",
+        "Tả Hãn"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_006",
+      "original": "Zuo Xian (ngôi thứ 3)",
+      "suggested": "y",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Zuo Xian (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "hắn",
+        "y",
+        "gã",
+        "ông ta",
+        "người này"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_007",
+      "original": "Amis (tên dịch)",
+      "suggested": "A Mễ Tư",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Amis?",
+      "options": [
+        "A Mễ Tư",
+        "A Mít",
+        "A Mĩ Tư",
+        "A Mễ Sĩ"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_008",
+      "original": "Amis (ngôi thứ 3)",
+      "suggested": "hắn",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Amis (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "hắn",
+        "y",
+        "cậu ta",
+        "anh ta",
+        "người này"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_009",
+      "original": "Người đàn ông mũi khoằm → Thành",
+      "suggested": "Người đàn ông mũi khoằm xưng Tôi - gọi Thành",
+      "confidence": 0.3,
+      "question": "Chiều 1: Người đàn ông mũi khoằm xưng hô thế nào với Thành (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Thành",
+        "xưng Tôi - gọi Cậu",
+        "xưng Tôi - gọi Đồng đội"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_010",
+      "original": "Thành → Người đàn ông mũi khoằm",
+      "suggested": "Thành xưng Tôi - gọi Cậu",
+      "confidence": 0.3,
+      "question": "Chiều 2: Thành xưng hô thế nào với Người đàn ông mũi khoằm (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Cậu",
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Đồng đội",
+        "xưng Anh - gọi Em"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_011",
+      "original": "Amis → Zuo Xian",
+      "suggested": "Amis xưng Tôi - gọi Phó đội trưởng",
+      "confidence": 0.3,
+      "question": "Chiều 1: Amis xưng hô thế nào với Zuo Xian (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Phó đội trưởng",
+        "xưng Tôi - gọi Ngài",
+        "xưng Tôi - gọi Zuo Xian",
+        "xưng Thần - gọi Phó đội trưởng"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_012",
+      "original": "Zuo Xian → Amis",
+      "suggested": "Zuo Xian xưng Ta - gọi Cậu",
+      "confidence": 0.3,
+      "question": "Chiều 2: Zuo Xian xưng hô thế nào với Amis (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Ta - gọi Cậu",
+        "xưng Tôi - gọi Cậu",
+        "xưng Ta - gọi Amis",
+        "xưng Tôi - gọi Amis"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_013",
+      "original": "Người đàn ông mũi khoằm → Zuo Xian",
+      "suggested": "Người đàn ông mũi khoằm xưng Tôi - gọi Phó đội trưởng",
+      "confidence": 0.3,
+      "question": "Chiều 1: Người đàn ông mũi khoằm xưng hô thế nào với Zuo Xian (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Phó đội trưởng",
+        "xưng Tôi - gọi Ngài",
+        "xưng Tôi - gọi Zuo Xian",
+        "xưng Thần - gọi Phó đội trưởng"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_014",
+      "original": "Zuo Xian → Người đàn ông mũi khoằm",
+      "suggested": "Zuo Xian xưng Ta - gọi Ngươi",
+      "confidence": 0.3,
+      "question": "Chiều 2: Zuo Xian xưng hô thế nào với Người đàn ông mũi khoằm (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Ta - gọi Ngươi",
+        "xưng Tôi - gọi Cậu",
+        "xưng Ta - gọi Tên kia",
+        "xưng Tôi - gọi Tên này"
+      ],
+      "category": "relationship"
+    }
+  ],
+  "chapter_id": "ch_013",
+  "analyzed_at": "2026-09-24T16:23:50.333868+07:00"
+}

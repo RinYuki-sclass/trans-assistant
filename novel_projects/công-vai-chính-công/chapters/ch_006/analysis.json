@@ -1,0 +1,184 @@
+{
+  "chapter_summary": "Ji Chenxi, despite his inexperience with real starships, is tasked with performing a critical FTL jump due to his S-class spiritual strength. He quickly adapts, executing daring maneuvers to evade the pursuing Red Scorpion pirates, led by their formidable deputy leader and a girl named Amis. After a tense chase and a last-second successful jump, Ji Chenxi proposes hijacking a top-tier personal ship to avoid detection. His crew reluctantly agrees, and he successfully intimidates the owner of the target ship into surrendering.",
+  "new_characters": [
+    {
+      "name": "Người đàn ông đeo kính gọng vàng",
+      "hanviet_name": "Kim Biên Nhãn Kính Nam",
+      "gender": "male",
+      "role": "Antagonist, Red Scorpion Deputy Leader",
+      "description": "A refined alpha, deputy leader of the Red Scorpion pirates, with S-class spiritual power and A+ physical strength. He pursues Ji Chenxi's ship."
+    },
+    {
+      "name": "Amis",
+      "hanviet_name": "A Mễ Tư",
+      "gender": "female",
+      "role": "Red Scorpion crew member",
+      "description": "A doll-faced girl with a cruel smile, part of the Red Scorpion pirate crew, assisting the deputy leader."
+    },
+    {
+      "name": "Chủ tàu trung niên",
+      "hanviet_name": "",
+      "gender": "male",
+      "role": "Owner of hijacked ship",
+      "description": "The owner of a top-tier personal ship, who surrenders to Ji Chenxi's demands after being threatened."
+    }
+  ],
+  "new_locations": [],
+  "new_terms": [
+    {
+      "original": "Red Scorpion",
+      "suggested": "Hải tặc Bò Cạp Đỏ",
+      "hanviet": "Xích Hạt",
+      "category": "faction",
+      "confidence": 0.0
+    },
+    {
+      "original": "Big Ten",
+      "suggested": "Thập Đại Hải Tặc",
+      "hanviet": "Thập Đại",
+      "category": "other",
+      "confidence": 0.0
+    },
+    {
+      "original": "starship",
+      "suggested": "phi thuyền",
+      "hanviet": "tinh thuyền",
+      "category": "item",
+      "confidence": 0.0
+    },
+    {
+      "original": "spiritual strength",
+      "suggested": "tinh thần lực",
+      "hanviet": "tinh thần lực",
+      "category": "skill",
+      "confidence": 0.0
+    },
+    {
+      "original": "photon cannons",
+      "suggested": "pháo photon",
+      "hanviet": "quang tử pháo",
+      "category": "item",
+      "confidence": 0.0
+    },
+    {
+      "original": "warp engine",
+      "suggested": "động cơ cong",
+      "hanviet": "khúc xạ động cơ",
+      "category": "item",
+      "confidence": 0.0
+    },
+    {
+      "original": "jump / faster-than-light",
+      "suggested": "nhảy không gian / siêu quang tốc",
+      "hanviet": "không gian khiêu dược / siêu quang tốc",
+      "category": "skill",
+      "confidence": 0.0
+    },
+    {
+      "original": "holo",
+      "suggested": "màn hình ba chiều / holo",
+      "hanviet": "",
+      "category": "item",
+      "confidence": 0.0
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "Man with gold-rimmed glasses",
+      "suggested": "Người đàn ông đeo kính gọng vàng",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật 'Man with gold-rimmed glasses'?",
+      "options": [
+        "Người đàn ông đeo kính gọng vàng",
+        "Phó thủ lĩnh Kính Vàng",
+        "Kim Kính Nam",
+        "Kim Biên Nam"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_002",
+      "original": "Amis",
+      "suggested": "Amis",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật 'Amis'?",
+      "options": [
+        "Amis",
+        "A Mễ Tư",
+        "Amy"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_003",
+      "original": "Middle-aged voice",
+      "suggested": "Chủ tàu trung niên",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật 'Middle-aged voice'?",
+      "options": [
+        "Chủ tàu trung niên",
+        "Người đàn ông trung niên",
+        "Chủ tàu bị cướp"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_004",
+      "original": "Ji Chenxi, Shadow, Nether interaction",
+      "suggested": "Quý Thần Hi (Tôi) - Shadow (Anh) - Nether (Tôi)",
+      "confidence": 0.3,
+      "question": "Xưng hô giữa Quý Thần Hi, Shadow và Nether khi giao tiếp và ngôi thứ ba?",
+      "options": [
+        "[Quý Thần Hi: Tôi, anh] - [Shadow: Anh, tôi] - [Nether: Tôi, anh/cô]",
+        "[Quý Thần Hi: Ta, ngươi] - [Shadow: Ngươi, ta] - [Nether: Ta, ngươi]",
+        "[Quý Thần Hi: Cậu, tôi] - [Shadow: Tôi, cậu] - [Nether: Tôi, cậu/cô]",
+        "[Ngôi thứ ba: Hắn/Y, Anh ta, Cô ấy]"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_005",
+      "original": "Man with gold-rimmed glasses, Amis interaction",
+      "suggested": "Người đàn ông đeo kính gọng vàng (Tôi) - Amis (Cô)",
+      "confidence": 0.3,
+      "question": "Xưng hô giữa Người đàn ông đeo kính gọng vàng và Amis khi giao tiếp và ngôi thứ ba?",
+      "options": [
+        "[Người đàn ông: Tôi, cô] - [Amis: Anh, tôi]",
+        "[Người đàn ông: Ta, ngươi] - [Amis: Ngươi, ta]",
+        "[Người đàn ông: Ông, cô] - [Amis: Ông, con]",
+        "[Ngôi thứ ba: Hắn, Cô ta]"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_006",
+      "original": "Ji Chenxi, Man with gold-rimmed glasses interaction",
+      "suggested": "Quý Thần Hi (Ta) - Người đàn ông đeo kính gọng vàng (Ngươi)",
+      "confidence": 0.3,
+      "question": "Xưng hô giữa Quý Thần Hi và Người đàn ông đeo kính gọng vàng khi giao tiếp và ngôi thứ ba?",
+      "options": [
+        "[Quý Thần Hi: Ta, ngươi] - [Người đàn ông: Ngươi, ta]",
+        "[Quý Thần Hi: Tôi, anh] - [Người đàn ông: Anh, tôi]",
+        "[Quý Thần Hi: Mày, tao] - [Người đàn ông: Tao, mày] (cực kỳ thù địch)",
+        "[Ngôi thứ ba: Hắn, Y]"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_007",
+      "original": "Ji Chenxi, Middle-aged voice interaction",
+      "suggested": "Quý Thần Hi (Ta) - Chủ tàu trung niên (Ngươi)",
+      "confidence": 0.3,
+      "question": "Xưng hô giữa Quý Thần Hi và Chủ tàu trung niên khi giao tiếp và ngôi thứ ba?",
+      "options": [
+        "[Quý Thần Hi: Ta, ngươi] - [Chủ tàu: Ngươi, ta/tôi]",
+        "[Quý Thần Hi: Tôi, ông] - [Chủ tàu: Anh, tôi]",
+        "[Quý Thần Hi: Hắn] - [Chủ tàu: Ông ta] (ngôi thứ ba)"
+      ],
+      "category": "pronoun"
+    }
+  ],
+  "chapter_id": "ch_006",
+  "analyzed_at": "2026-09-24T13:31:19.417607+07:00"
+}

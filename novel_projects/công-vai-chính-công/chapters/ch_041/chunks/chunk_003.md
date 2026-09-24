@@ -1,0 +1,24 @@
+---
+title: Chương 41: AMTPA Chapter 41 — Chunk 3/4
+---
+
+He was dressed casually, relaxed and understated. Lu Churan, on the other hand, was stunning — elegant outfit, light makeup, every detail just right. They drew plenty of glances as they walked, and even a few people secretly snapped photos. Yet the two covert bodyguards following her — there to protect this high-born omega’s safety and privacy — didn’t stop them.
+Amused, Ji Chenxi waited until they reached a quieter spot before turning to her with a half-smile.
+“Miss Lu,” he said, “don’t tell me you’ve fallen for me at first sight?”
+Lu Churan opened her folding fan, covering the lower half of her face as she smiled.
+“All this way,” she said playfully, “I thought Your Highness wasn’t going to ask. So tell me — do you think I am in love with you at first sight?”
+Ji Chenxi chuckled. “Doesn’t seem like it.”
+“But Manye Zhe seems to think so,” she said, eyes glinting. “He was so uneasy about me walking with you that he even told me you already have… someone special. That person — wouldn’t happen to be the one who gave you flowers yesterday, would it?”
+Ji Chenxi couldn’t help but laugh. He hadn’t even started questioning her, yet somehow, she’d turned the tables and was testing him first.
+“Hold on,” he said lightly, “maybe I should be the one asking the questions. You came here with Manye Zhe, yet once you met up with me, you found a way to send him off. That feels a bit unnecessary, doesn’t it? If you didn’t want him coming along, you could’ve just told him not to from the start. So how should I read this little setup of yours?”
+“With Your Highness’s sharp mind and skill at reading people,” Lu Churan said smoothly, “why don’t you take a guess?”
+Ji Chenxi’s brows drew together slightly. There was no way she’d suddenly developed romantic feelings for him — just yesterday, she’d been more interested in the person who’d sent him that flower.
+“Was this your family’s idea?” he asked. “Or Morning Star’s?” Then, after a pause, he added, “Though if I had to guess, I’d say Morning Star. On paper, you’re the heiress of the Twelfth Fairy Star’ most powerful family, but in truth, you’ve already taken control after that power struggle. Those old folks can’t exactly dictate who you marry. So, if you personally have no interest in me… there’s only one explanation left — Morning Star’s stirring the pot.”
+Morning Star — their little seven-person group’s leader — the true schemer among them.
+“‘Stirring the pot,’ hmm?” Lu Churan said with a soft laugh. “If Morning Star heard that, I think he’d be heartbroken. You’re the ruler he admires most, after all. Everything he’s done — gathering us, building this circle — it’s all to help you.”
+“So you’re admitting it then?” Ji Chenxi asked, smiling faintly.
+“The lake here is beautiful,” she said instead, deftly changing the subject. “Why don’t we take a boat out? We can talk more once we’re seated.”
+Ji Chenxi looked toward the lake — deep blue, calm, reflecting the sunlight like scattered glass — and nodded in agreement. Along the shore were rows of rental boats. The price was steep, but that didn’t stop plenty of people from lining up, eager to drift across the quiet water.
+When their little boat drifted to the middle of the lake, Lu Churan finally spoke, her tone soft and calm.
+“Actually, before we came here, I already told Manye Zhe about our plan,” she said. “He agreed. After all, it wouldn’t look proper if I’d met with you alone from the start. But if he suddenly had to leave midway, then the two of us — one Alpha, one Omega — spending the day together wouldn’t seem strange. Still, just wandering around together wouldn’t be enough to get the result we want. So next, I’ll ‘accidentally’ fall into the water. You’ll jump in without hesitation and save me. And after being rescued, I’ll naturally develop feelings for you. Out of gratitude, I’ll offer my full support — even bring my family’s influence to back you up. That part of the story makes perfect sense, doesn’t it?”
+She gave him a small, knowing smile before continuing. “At that point, Your Highness would have two choices. The first — we announce an engagement. As your fiance, my help would seem proper and legitimate. The second — you make it clear that you have no romantic feelings for me, but if I still choose to love you from afar, well… no one can stop that. Then, you could pick another bride from one of the four legions or the four great noble families. Morning Star prefers the second option. That way, you’d gain one more faction’s support. He’s even picked out a few suitable candidates already.”

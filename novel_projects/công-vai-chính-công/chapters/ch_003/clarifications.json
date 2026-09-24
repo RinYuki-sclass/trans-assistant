@@ -1,0 +1,26 @@
+{
+  "chapter_id": "ch_003",
+  "questions": [
+    {
+      "id": "amb_002",
+      "original": "Ji Chenxi and Chi Zhuo interaction",
+      "suggested": "",
+      "confidence": 0.3,
+      "question": "Xưng hô giữa Quý Thần Hi (Công, trẻ hơn) và Trì Chước (Thụ, lớn hơn) khi giao tiếp và ngôi thứ ba?",
+      "options": [
+        "Quý Thần Hi (xưng Tôi) - Trì Chước (xưng Anh) (ban đầu lịch sự, sau đó chuyển sang đối đầu nhưng vẫn giữ ngôi); Ngôi thứ ba: Hắn/Y.",
+        "Quý Thần Hi (xưng Ta) - Trì Chước (xưng Ngươi) (đối đầu, thách thức); Ngôi thứ ba: Hắn/Y.",
+        "Quý Thần Hi (xưng Mày) - Trì Chước (xưng Tao) (khiêu khích, gay gắt); Ngôi thứ ba: Hắn/Y.",
+        "Quý Thần Hi (xưng Cậu/Em) - Trì Chước (xưng Tôi/Anh) (khi Quý Thần Hi giả omega, Trì Chước lịch sự); Ngôi thứ ba: Hắn/Y."
+      ],
+      "category": "pronoun"
+    }
+  ],
+  "answers": {
+    "amb_002": {
+      "choice": "Custom",
+      "custom": " Quý Thần Hi (xưng Ta) - Trì Chước (xưng Ngài) (ban đầu lịch sự, sau đó chuyển sang đối đầu thì xưng Ta - Ngươi); Ngôi thứ ba: Hắn/Y."
+    }
+  },
+  "answered_at": "2026-09-24T16:32:57.796833+07:00"
+}

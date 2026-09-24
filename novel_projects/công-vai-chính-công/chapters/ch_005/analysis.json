@@ -1,0 +1,169 @@
+{
+  "chapter_summary": "Ji Chenxi (Quý Thần Hi) bắt đầu chuyến du hành giữa các vì sao và được đón bởi cặp song sinh lính đánh thuê Alpha cấp A là Nether (chị gái) và Shade (em trai). Họ lên một phi thuyền được che giấu kỹ càng. Shade cố gắng bắt chuyện với Ji Chenxi nhưng thấy cậu khá lạnh lùng. Trong chuyến đi, phi thuyền của họ bị một băng cướp biển chuyên nghiệp phục kích trong vùng đá trôi. Nether và Shade nhận ra cuộc tấn công nhắm thẳng vào Ji Chenxi, người sau đó thừa nhận mình có nhiều kẻ thù muốn hãm hại, và nghi ngờ anh trai Alpha của mình là thủ phạm do chiến thuật tấn công hung hãn.",
+  "new_characters": [
+    {
+      "name": "Nether",
+      "hanviet_name": "Nại Thư",
+      "gender": "Female",
+      "role": "Mercenary",
+      "description": "Chị gái của Shade, một Alpha cấp A điềm tĩnh và sắc sảo, là phi công chính của phi thuyền."
+    },
+    {
+      "name": "Shade",
+      "hanviet_name": "Sa Đức",
+      "gender": "Male",
+      "role": "Mercenary",
+      "description": "Em trai của Nether, một Alpha cấp A tinh ý, thích trêu chọc và có phần hung hăng, là phi công phụ."
+    },
+    {
+      "name": "Ji Chenxi's older brother",
+      "hanviet_name": "",
+      "gender": "Male",
+      "role": "Royal heir, Alpha",
+      "description": "Một trong những kẻ thù quyền lực của Ji Chenxi, bị nghi ngờ là người đứng sau vụ phục kích do chiến thuật hung hãn."
+    },
+    {
+      "name": "Ji Chenxi's second sister",
+      "hanviet_name": "",
+      "gender": "Female",
+      "role": "Royal heir, Alpha",
+      "description": "Một trong những kẻ thù tiềm năng của Ji Chenxi, nhưng ít khả năng là thủ phạm do phong cách hành động thực dụng của cô."
+    }
+  ],
+  "new_locations": [
+    {
+      "name": "Imperial Star",
+      "hanviet": "Đế Tinh",
+      "description": "Hành tinh quê hương của Ji Chenxi và cặp song sinh, nơi chuyến hành trình bắt đầu từ một điểm phóng bí mật."
+    },
+    {
+      "name": "Andromeda A-756",
+      "hanviet": "Thiên Hà Tiên Nữ A-756",
+      "description": "Điểm đến của chuyến du hành giữa các vì sao."
+    }
+  ],
+  "new_terms": [
+    {
+      "original": "photon cannon",
+      "suggested": "Pháo photon",
+      "hanviet": "Pháo quang tử",
+      "category": "skill",
+      "confidence": 0.0
+    },
+    {
+      "original": "floating-rock zone",
+      "suggested": "Vùng đá trôi",
+      "hanviet": "Vùng thiên thạch",
+      "category": "location",
+      "confidence": 0.0
+    },
+    {
+      "original": "Star Coins",
+      "suggested": "Tinh Tệ",
+      "hanviet": "Tệ Tinh Tế",
+      "category": "item",
+      "confidence": 0.0
+    },
+    {
+      "original": "mercenaries",
+      "suggested": "Lính đánh thuê",
+      "hanviet": "Dũng binh",
+      "category": "faction",
+      "confidence": 0.0
+    },
+    {
+      "original": "starship",
+      "suggested": "Phi thuyền",
+      "hanviet": "Tàu vũ trụ",
+      "category": "item",
+      "confidence": 0.0
+    },
+    {
+      "original": "A-level Alpha",
+      "suggested": "Alpha cấp A",
+      "hanviet": "",
+      "category": "other",
+      "confidence": 0.0
+    },
+    {
+      "original": "code name",
+      "suggested": "Mật danh",
+      "hanviet": "Biệt danh",
+      "category": "other",
+      "confidence": 0.0
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "Nether",
+      "suggested": "Nại Thư",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Nether?",
+      "options": [
+        "Nether (giữ nguyên)",
+        "Nại Thư (Hán-Việt)",
+        "Ninh Thư (Hán-Việt)",
+        "Hạ Thư (Hán-Việt)"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_002",
+      "original": "Shade",
+      "suggested": "Sa Đức",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Shade?",
+      "options": [
+        "Shade (giữ nguyên)",
+        "Sa Đức (Hán-Việt)",
+        "Thiệt Đức (Hán-Việt)",
+        "Sái Đức (Hán-Việt)"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_003",
+      "original": "Ji Chenxi and Nether interaction",
+      "suggested": "",
+      "confidence": 0.3,
+      "question": "Xưng hô giữa Ji Chenxi và Nether khi giao tiếp và ngôi thứ ba?",
+      "options": [
+        "Ji Chenxi: tôi - Nether: chị; Ngôi thứ ba: cậu ấy - chị ấy",
+        "Ji Chenxi: tôi - Nether: cô; Ngôi thứ ba: cậu ấy - cô ấy",
+        "Ji Chenxi: cậu - Nether: tôi; Ngôi thứ ba: cậu ấy - cô ấy",
+        "Ji Chenxi: tôi - Nether: quý cô; Ngôi thứ ba: cậu ấy - quý cô ấy"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_004",
+      "original": "Ji Chenxi and Shade interaction",
+      "suggested": "",
+      "confidence": 0.3,
+      "question": "Xưng hô giữa Ji Chenxi và Shade khi giao tiếp và ngôi thứ ba?",
+      "options": [
+        "Ji Chenxi: tôi - Shade: cậu; Ngôi thứ ba: cậu ấy - cậu ấy",
+        "Ji Chenxi: tôi - Shade: anh; Ngôi thứ ba: cậu ấy - anh ấy",
+        "Ji Chenxi: cậu - Shade: tôi; Ngôi thứ ba: cậu ấy - cậu ấy",
+        "Ji Chenxi: tôi - Shade: mày; Ngôi thứ ba: cậu ấy - hắn"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_005",
+      "original": "Nether and Shade interaction",
+      "suggested": "",
+      "confidence": 0.3,
+      "question": "Xưng hô giữa Nether và Shade khi giao tiếp và ngôi thứ ba?",
+      "options": [
+        "Nether: chị - Shade: em; Ngôi thứ ba: chị ấy - cậu ấy",
+        "Nether: tôi - Shade: cậu; Ngôi thứ ba: chị ấy - cậu ấy",
+        "Nether: chị - Shade: tôi; Ngôi thứ ba: chị ấy - cậu ấy"
+      ],
+      "category": "pronoun"
+    }
+  ],
+  "chapter_id": "ch_005",
+  "analyzed_at": "2026-09-24T13:30:43.728892+07:00"
+}

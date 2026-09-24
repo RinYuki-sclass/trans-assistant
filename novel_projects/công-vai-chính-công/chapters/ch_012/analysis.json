@@ -1,0 +1,46 @@
+{
+  "chapter_summary": "Quý Thần Hi phát hiện Trì Chước đang bất tỉnh trên cây, bị một con rắn mamba đen khổng lồ quấn quanh. Mùi pheromone của Trì Chước mạnh bất thường. Bất chấp vết thương ở mắt cá chân, Quý Thần Hi trèo lên cây. Trì Chước đột ngột tỉnh dậy, tấn công Quý Thần Hi bằng năng lượng tinh thần và thể chất, dường như bị mù và nhầm lẫn Quý Thần Hi là kẻ thù. Quý Thần Hi nhận ra Trì Chước bị mù và pheromone mất kiểm soát. Anh cố gắng đề nghị giúp đỡ, nhưng Trì Chước tỏ ra nghi ngờ, gọi Quý Thần Hi là 'Điện hạ' và cho rằng anh là 'Tam thiếu gia' nguy hiểm. Hai người giao chiến dữ dội cho đến khi cảm nhận được có người khác đang đến gần.",
+  "new_characters": [],
+  "new_locations": [],
+  "new_terms": [
+    {
+      "original": "Red Scorpion Pirates",
+      "suggested": "Hải tặc Bò Cạp Đỏ",
+      "hanviet": "Xích Hạt Hải Tặc",
+      "category": "faction",
+      "confidence": 0.7
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "Quý Thần Hi → Trì Chước",
+      "suggested": "Quý Thần Hi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Quý Thần Hi xưng hô thế nào với Trì Chước (Quý Thần Hi tự xưng là gì và gọi Trì Chước là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Huynh",
+        "xưng Ta - gọi Ngươi",
+        "xưng Tôi - gọi Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_002",
+      "original": "Trì Chước → Quý Thần Hi",
+      "suggested": "Trì Chước xưng Tôi - gọi Quý Thần Hi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Quý Thần Hi (Trì Chước tự xưng là gì và gọi Quý Thần Hi là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Quý Thần Hi",
+        "xưng Ta - gọi Ngươi",
+        "xưng Tôi - gọi Cậu"
+      ],
+      "category": "relationship"
+    }
+  ],
+  "chapter_id": "ch_012",
+  "analyzed_at": "2026-09-24T16:23:15.279599+07:00"
+}

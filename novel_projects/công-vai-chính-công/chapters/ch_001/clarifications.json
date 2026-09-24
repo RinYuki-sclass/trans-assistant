@@ -1,0 +1,209 @@
+{
+  "chapter_id": "ch_001",
+  "questions": [
+    {
+      "id": "amb_001",
+      "original": "Su Yu",
+      "suggested": "Tô Dục",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Su Yu (苏煜)?",
+      "options": [
+        "Tô Dục",
+        "Tô Vũ",
+        "Tô Dũ",
+        "Giữ nguyên Su Yu"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_002",
+      "original": "Bai Anran",
+      "suggested": "Bạch An Nhiên",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Bai Anran (白安然)?",
+      "options": [
+        "Bạch An Nhiên",
+        "Bạch An Nhiễm",
+        "Bạch An Nhàn",
+        "Giữ nguyên Bai Anran"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_003",
+      "original": "Bai Xinke",
+      "suggested": "Bạch Hân Khả",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Bai Xinke (白欣珂)?",
+      "options": [
+        "Bạch Hân Khả",
+        "Bạch Tâm Khả",
+        "Bạch Hân Kha",
+        "Giữ nguyên Bai Xinke"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_004",
+      "original": "Ji Chenxi, Su Yu",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Xưng hô giữa Quý Thần Hi và Tô Dục khi giao tiếp và ngôi thứ ba?",
+      "options": [
+        "Tôi - Cậu (thân mật, hiện đại)",
+        "Anh - Tôi (Su Yu gọi Quý Thần Hi là Anh, Quý Thần Hi gọi Su Yu là Tôi)",
+        "Mày - Tao (rất thân, suồng sã)",
+        "Hắn - Y (ngôi thứ ba, thân mật)",
+        "Quý Thần Hi - Su Yu (gọi thẳng tên)"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_005",
+      "original": "Ji Chenxi, Bai Anran",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Xưng hô giữa Quý Thần Hi và Bạch An Nhiên (vị hôn phu thời thơ ấu) khi giao tiếp và ngôi thứ ba?",
+      "options": [
+        "Anh - Em (Quý Thần Hi là Anh, Bạch An Nhiên là Em, xưng hô thân mật)",
+        "Tôi - Cậu (Quý Thần Hi là Tôi, Bạch An Nhiên là Cậu, xưng hô khách sáo, giữ khoảng cách)",
+        "Ta - Ngươi (Quý Thần Hi là Ta, Bạch An Nhiên là Ngươi, xưng hô cổ điển, có phần bề trên)",
+        "Hắn - Y (ngôi thứ ba, trung lập/xa cách)",
+        "Quý Thần Hi - An Nhiên (gọi thẳng tên, thân mật)"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_006",
+      "original": "Ji Chenxi, Chi Zhuo",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Xưng hô giữa Quý Thần Hi và Trì Chước (khi lần đầu gặp mặt và ngôi thứ ba)?",
+      "options": [
+        "Tôi - Anh (Quý Thần Hi là Tôi, Trì Chước là Anh, lịch sự, giữ khoảng cách)",
+        "Tôi - Cậu (Quý Thần Hi là Tôi, Trì Chước là Cậu, lịch sự nhưng có thể mang ý đánh giá, thăm dò)",
+        "Ngài - Tôi (Quý Thần Hi là Ngài, Trì Chước là Tôi, thể hiện sự tôn trọng hoặc địa vị)",
+        "Hắn - Y (ngôi thứ ba, trung lập/xa cách)",
+        "Quý Thần Hi - Trì Chước (gọi thẳng tên, có phần khiêu khích hoặc không kiêng nể)"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_007",
+      "original": "First Military Academy",
+      "suggested": "Học viện Quân sự Đệ Nhất",
+      "confidence": 0.3,
+      "question": "Xác nhận cách dịch thuật ngữ 'First Military Academy (第一军事学院)'?",
+      "options": [
+        "Học viện Quân sự Đệ Nhất",
+        "Học viện Quân sự Số Một",
+        "Học viện Quân sự Thứ Nhất",
+        "Học viện Quân sự Đầu Tiên"
+      ],
+      "category": "location"
+    },
+    {
+      "id": "amb_008",
+      "original": "underground kingdom",
+      "suggested": "Vương quốc ngầm",
+      "confidence": 0.3,
+      "question": "Xác nhận cách dịch thuật ngữ 'underground kingdom (地下王国)'?",
+      "options": [
+        "Vương quốc ngầm",
+        "Thế giới ngầm",
+        "Đế quốc ngầm",
+        "Vương triều dưới lòng đất"
+      ],
+      "category": "other"
+    },
+    {
+      "id": "amb_009",
+      "original": "cannon-fodder top",
+      "suggested": "Công pháo hôi",
+      "confidence": 0.3,
+      "question": "Xác nhận cách dịch thuật ngữ 'cannon-fodder top (炮灰攻)' trong truyện đam mỹ?",
+      "options": [
+        "Công pháo hôi",
+        "Pháo hôi công",
+        "Công bia đỡ đạn",
+        "Kẻ thế thân công"
+      ],
+      "category": "term"
+    },
+    {
+      "id": "amb_010",
+      "original": "protagonist shou",
+      "suggested": "Thụ chính",
+      "confidence": 0.3,
+      "question": "Xác nhận cách dịch thuật ngữ 'protagonist shou (主角受)' trong truyện đam mỹ?",
+      "options": [
+        "Thụ chính",
+        "Thụ chủ",
+        "Thụ vai chính",
+        "Nhân vật thụ chính"
+      ],
+      "category": "term"
+    },
+    {
+      "id": "amb_011",
+      "original": "protagonist gong",
+      "suggested": "Công chính",
+      "confidence": 0.3,
+      "question": "Xác nhận cách dịch thuật ngữ 'protagonist gong (主角攻)' trong truyện đam mỹ?",
+      "options": [
+        "Công chính",
+        "Công chủ",
+        "Công vai chính",
+        "Nhân vật công chính"
+      ],
+      "category": "term"
+    }
+  ],
+  "answers": {
+    "amb_001": {
+      "choice": "Tô Dục",
+      "custom": null
+    },
+    "amb_002": {
+      "choice": "Bạch An Nhiên",
+      "custom": null
+    },
+    "amb_003": {
+      "choice": "Bạch Hân Khả",
+      "custom": null
+    },
+    "amb_004": {
+      "choice": "Tôi - Cậu (thân mật, hiện đại)",
+      "custom": null
+    },
+    "amb_005": {
+      "choice": "Anh - Em (Quý Thần Hi là Anh, Bạch An Nhiên là Em, xưng hô thân mật)",
+      "custom": null
+    },
+    "amb_006": {
+      "choice": "Tôi - Anh (Quý Thần Hi là Tôi, Trì Chước là Anh, lịch sự, giữ khoảng cách)",
+      "custom": null
+    },
+    "amb_007": {
+      "choice": "Học viện Quân sự Số Một",
+      "custom": null
+    },
+    "amb_008": {
+      "choice": "Thế giới ngầm",
+      "custom": null
+    },
+    "amb_009": {
+      "choice": "Pháo hôi công",
+      "custom": null
+    },
+    "amb_010": {
+      "choice": "Thụ chính",
+      "custom": null
+    },
+    "amb_011": {
+      "choice": "Công chính",
+      "custom": null
+    }
+  },
+  "answered_at": "2026-09-24T13:53:11.870620+07:00"
+}

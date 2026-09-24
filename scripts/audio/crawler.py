@@ -24,6 +24,7 @@ _CONTENT_SELECTORS = [
     "div.chapter__content",      # Cherry Mist / Fictioneer
     "div#chapter-content",
     "div.fictioneer-chapter-text",
+    "div.epcontent",             # KnoxT / Lightnovel theme
     "div.entry-content",
     "div.post-content",
     "div.novel-content",
@@ -37,6 +38,7 @@ _NOISE_TAGS = [
     "aside", "noscript", "iframe", "form",
     ".sharedaddy", ".jp-relatedposts", ".adsbygoogle",
     ".nav-links", ".post-navigation", ".wp-block-separator",
+    ".kln", ".track-banner", ".code-block",
 ]
 
 _AD_PATTERNS = re.compile(
@@ -99,7 +101,8 @@ def _fetch_html(url: str, timeout: int = 20) -> str:
         # 2. Try curl_cffi fallback if installed (bypasses TLS fingerprinting & Cloudflare/Hostinger WAF)
         try:
             import curl_cffi.requests as curl_req
-            c_resp = curl_req.get(url, headers=headers, impersonate="chrome120", timeout=timeout, follow_redirects=True)
+            proxy = os.environ.get("HTTPS_PROXY") or os.environ.get("HTTP_PROXY") or os.environ.get("all_proxy")
+            c_resp = curl_req.get(url, headers=headers, impersonate="chrome120", timeout=timeout, follow_redirects=True, proxy=proxy)
             if c_resp.status_code == 200:
                 return c_resp.text
         except Exception:
@@ -118,8 +121,8 @@ def _fetch_html(url: str, timeout: int = 20) -> str:
         # If WAF / 403 / 503 was received and no fallback worked:
         if isinstance(httpx_err, httpx.HTTPStatusError) and httpx_err.response.status_code in (403, 503):
             raise PermissionError(
-                f"Website {hostname} đã chặn kết nối từ máy chủ Streamlit (HTTP {httpx_err.response.status_code} WAF/Cloudflare Block). "
-                f"Vui lòng cài đặt `cloudscraper` hoặc `curl_cffi` trên Streamlit Cloud để vượt qua WAF anti-bot."
+                f"Website {hostname} đã chặn kết nối (HTTP {httpx_err.response.status_code} WAF / Bot protection challenge). "
+                f"Nếu đang ở Việt Nam và website như knoxt.space chặn IP, vui lòng bật VPN (như 1.1.1.1 WARP) hoặc cấu hình HTTP_PROXY để tiếp tục."
             ) from httpx_err
         raise httpx_err
 
@@ -466,6 +469,117 @@ def _fetch_blreads_series_chapters(url: str) -> dict:
     story_url = _resolve_blreads_story_url(url)
     html = _fetch_html(story_url, timeout=30)
     return _parse_blreads_series_chapters(html, story_url)
+
+
+def _parse_knoxt_series_chapters(html: str, series_url: str) -> dict:
+    """Parse a KnoxT (Lightnovel theme) series page into the standard chapter schema."""
+    soup = BeautifulSoup(html, "html.parser")
+    h1 = soup.select_one(".infox h1") or soup.select_one("h1.entry-title") or soup.find("h1")
+    series_title = (h1.get_text(strip=True) if h1 else "KnoxT Novel").strip()
+
+    eplister = soup.select_one(".eplister") or soup.select_one("#chapterlist") or soup
+    raw_chapters = []
+    seen_urls = set()
+
+    for li in eplister.find_all("li"):
+        a = li.find("a", href=True)
+        if not a:
+            continue
+        ch_url = urljoin(series_url, a["href"])
+        if ch_url in seen_urls or "{{" in ch_url:
+            continue
+        seen_urls.add(ch_url)
+
+        span_num = li.select_one(".epl-num")
+        span_title = li.select_one(".epl-title")
+        num_txt = span_num.get_text(strip=True) if span_num else ""
+        title_txt = span_title.get_text(strip=True) if span_title else ""
+
+        # Check for extra
+        extra_match = re.search(r"extra\s*(\d+)", f"{num_txt} {title_txt} {ch_url}", re.IGNORECASE)
+        is_extra = bool(extra_match)
+        extra_num = int(extra_match.group(1)) if is_extra else 0
+
+        # Check for standard chapter number
+        ch_num = None
+        m = re.search(r"\b(?:chapter|ch\.?)\s*(\d+(?:\.\d+)?)", num_txt, re.IGNORECASE)
+        if not m:
+            m = re.search(r"\b(?:chapter|ch\.?)\s*(\d+(?:\.\d+)?)", title_txt, re.IGNORECASE)
+        if not m:
+            m = re.search(r"[-_](?:chapter|ch|c)[-_]?(\d+(?:\.\d+)?)(?:[-_/]|$)", ch_url, re.IGNORECASE)
+        if m and not is_extra:
+            val = float(m.group(1))
+            ch_num = int(val) if val.is_integer() else val
+
+        if num_txt and title_txt and (num_txt.lower() not in title_txt.lower()):
+            clean_title = f"{num_txt} - {title_txt}"
+        else:
+            clean_title = title_txt or num_txt or (f"Chapter {ch_num}" if ch_num else "Chapter")
+
+        raw_chapters.append({
+            "url": ch_url,
+            "title": clean_title,
+            "slug": urlparse(ch_url).path.rstrip("/").split("/")[-1],
+            "is_extra": is_extra,
+            "extra_num": extra_num,
+            "ch_num": ch_num,
+        })
+
+    # Sort regular chapters ascending
+    regular_chs = [c for c in raw_chapters if not c["is_extra"] and c["ch_num"] is not None]
+    regular_chs.sort(key=lambda c: c["ch_num"])
+    max_regular = regular_chs[-1]["ch_num"] if regular_chs else 0
+
+    # Sort extras ascending
+    extra_chs = [c for c in raw_chapters if c["is_extra"]]
+    extra_chs.sort(key=lambda c: c["extra_num"])
+
+    other_chs = [c for c in raw_chapters if not c["is_extra"] and c["ch_num"] is None]
+
+    formatted_chapters = []
+    for c in regular_chs:
+        formatted_chapters.append({
+            "id": c["url"],
+            "chapter_number": c["ch_num"],
+            "title": c["title"],
+            "slug": c["slug"],
+            "price": 0,
+            "url": c["url"],
+        })
+
+    for c in extra_chs:
+        num = (max_regular + c["extra_num"]) if isinstance(max_regular, int) else (len(formatted_chapters) + 1)
+        formatted_chapters.append({
+            "id": c["url"],
+            "chapter_number": num,
+            "title": c["title"],
+            "slug": c["slug"],
+            "price": 0,
+            "url": c["url"],
+        })
+
+    for c in other_chs:
+        num = len(formatted_chapters) + 1
+        formatted_chapters.append({
+            "id": c["url"],
+            "chapter_number": num,
+            "title": c["title"],
+            "slug": c["slug"],
+            "price": 0,
+            "url": c["url"],
+        })
+
+    return {
+        "series_title": series_title,
+        "series_id": series_url,
+        "chapters": formatted_chapters,
+    }
+
+
+def _fetch_knoxt_series_chapters(url: str) -> dict:
+    """Fetch story series metadata and complete chapter list from KnoxT."""
+    html = _fetch_html(url, timeout=30)
+    return _parse_knoxt_series_chapters(html, url)
 
 
 
@@ -969,6 +1083,8 @@ def _fetch_series_chapters_impl(url_or_identifier: str) -> dict:
         return _fetch_novelib_series_chapters(url_or_identifier)
     if hostname == "blreads.tech" or hostname.endswith(".blreads.tech"):
         return _fetch_blreads_series_chapters(url_or_identifier)
+    if hostname == "knoxt.space" or hostname.endswith(".knoxt.space"):
+        return _fetch_knoxt_series_chapters(url_or_identifier)
 
     parsed = urlparse(url_or_identifier)
     path_parts = [p for p in parsed.path.split("/") if p]
@@ -1153,6 +1269,16 @@ def crawl_chapter(url: str) -> dict:
             series_info = _fetch_blreads_series_chapters(url)
             if not series_info["chapters"]:
                 raise ValueError(f"No chapters found for BL Reads story: {url}")
+            first_ch = series_info["chapters"][0]
+            return crawl_chapter(first_ch["url"])
+
+    if hostname == "knoxt.space" or hostname.endswith(".knoxt.space"):
+        parsed = urlparse(url)
+        path_parts = [p for p in parsed.path.split("/") if p]
+        if path_parts and not any(k in path_parts[-1].lower() for k in ("chapter", "ch-", "ch.")):
+            series_info = _fetch_knoxt_series_chapters(url)
+            if not series_info["chapters"]:
+                raise ValueError(f"No chapters found for KnoxT series: {url}")
             first_ch = series_info["chapters"][0]
             return crawl_chapter(first_ch["url"])
 
