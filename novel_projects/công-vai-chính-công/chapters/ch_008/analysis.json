@@ -1,0 +1,139 @@
+{
+  "chapter_summary": "Ji Chenxi và Chi Zhuo bị hạm đội của Bò Cạp Đỏ bao vây. Ji Chenxi đề nghị hợp tác với Chi Zhuo để thoát hiểm. Trong lúc đó, Bạch Hàn (thuộc hạ của Chi Zhuo) tiêm thuốc cho Shadow (thuộc hạ khác) và tăng cường phòng thủ cho tàu. Chi Zhuo dùng năng lực tinh thần để dọa tinh linh thú báo tuyết của Ji Chenxi, tiết lộ bản tính nhút nhát của nó. Cuối cùng, Chi Zhuo đề nghị gác lại ân oán và liên minh tạm thời với Ji Chenxi để đối phó với Bò Cạp Đỏ, và Ji Chenxi đồng ý.",
+  "new_characters": [
+    {
+      "name": "Shadow",
+      "hanviet_name": "Ảnh",
+      "gender": "male",
+      "role": "subordinate",
+      "description": "Thuộc hạ của Trì Chước, bị Bạch Hàn tiêm thuốc."
+    },
+    {
+      "name": "Bai Han",
+      "hanviet_name": "Bạch Hàn",
+      "gender": "female",
+      "role": "subordinate",
+      "description": "Beta, thuộc hạ của Trì Chước, có kỹ năng về hệ thống."
+    }
+  ],
+  "new_locations": [],
+  "new_terms": [
+    {
+      "original": "Red Scorpion",
+      "suggested": "Bò Cạp Đỏ",
+      "hanviet": "Xích Hạt",
+      "category": "faction",
+      "confidence": 0.0
+    },
+    {
+      "original": "Spirit beast",
+      "suggested": "Tinh linh thú",
+      "hanviet": "Tinh linh thú",
+      "category": "other",
+      "confidence": 0.0
+    },
+    {
+      "original": "Snow leopard",
+      "suggested": "Báo tuyết",
+      "hanviet": "Tuyết báo",
+      "category": "other",
+      "confidence": 0.0
+    },
+    {
+      "original": "Black mamba",
+      "suggested": "Rắn Mamba đen",
+      "hanviet": "Hắc Mamba",
+      "category": "other",
+      "confidence": 0.0
+    },
+    {
+      "original": "Photon cannons",
+      "suggested": "Pháo photon",
+      "hanviet": "Quang tử pháo",
+      "category": "item",
+      "confidence": 0.0
+    },
+    {
+      "original": "Spiritual realm",
+      "suggested": "Linh giới",
+      "hanviet": "Linh giới",
+      "category": "location",
+      "confidence": 0.0
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "Ji Chenxi and Chi Zhuo's pronouns",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Xưng hô giữa Quý Thần Hi và Trì Chước khi giao tiếp và ngôi thứ ba?",
+      "options": [
+        "Quý Thần Hi: 'tôi' / Trì Chước: 'anh' (phổ biến, lịch sự)",
+        "Quý Thần Hi: 'ta' / Trì Chước: 'ngươi' (cổ điển, có chút khinh thường/ngang hàng)",
+        "Quý Thần Hi: 'cậu' / Trì Chước: 'tôi' (thân mật hơn, thụ lớn tuổi hơn)",
+        "Quý Thần Hi: 'tôi' / Trì Chước: 'ngài' (tôn trọng nhưng có thể mỉa mai)",
+        "Ngôi thứ ba: 'hắn' - 'y'"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_002",
+      "original": "Shadow",
+      "suggested": "Ảnh",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Shadow?",
+      "options": [
+        "Ảnh (Hán-Việt của Shadow, nghĩa là bóng)",
+        "Bóng (thuần Việt)",
+        "Shadow (giữ nguyên)",
+        "U Ảnh (thêm từ để tạo cảm giác tên)"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_003",
+      "original": "Bai Han",
+      "suggested": "Bạch Hàn",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Bai Han?",
+      "options": [
+        "Bạch Hàn",
+        "Bạch Hãn",
+        "Bạch Hàng",
+        "Bai Han (giữ nguyên)"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_004",
+      "original": "Chi Zhuo and Bai Han's pronouns",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Xưng hô giữa Trì Chước và Bạch Hàn khi giao tiếp và ngôi thứ ba?",
+      "options": [
+        "Trì Chước: 'ta' / Bạch Hàn: 'thuộc hạ' (xưng hô với chủ)",
+        "Trì Chước: 'tôi' / Bạch Hàn: 'cô' (lịch sự, chủ tớ hiện đại)",
+        "Trì Chước: 'ngươi' / Bạch Hàn: 'ta' (cổ điển, chủ tớ)",
+        "Ngôi thứ ba: 'hắn' - 'cô ta'"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_005",
+      "original": "Chi Zhuo and Shadow's pronouns",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Xưng hô giữa Trì Chước và Shadow khi giao tiếp và ngôi thứ ba?",
+      "options": [
+        "Trì Chước: 'ta' / Shadow: 'thuộc hạ' (xưng hô với chủ)",
+        "Trì Chước: 'ngươi' / Shadow: 'ta' (cổ điển, chủ tớ)",
+        "Trì Chước: 'tôi' / Shadow: 'cậu' (lịch sự, chủ tớ hiện đại)",
+        "Ngôi thứ ba: 'hắn' - 'y'"
+      ],
+      "category": "relationship"
+    }
+  ],
+  "chapter_id": "ch_008",
+  "analyzed_at": "2026-09-24T13:32:36.903292+07:00"
+}

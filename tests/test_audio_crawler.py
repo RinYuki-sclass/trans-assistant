@@ -21,6 +21,7 @@ from audio.crawler import (
     _parse_pienovels_series_chapters,
     _parse_blreads_series_chapters,
     _resolve_blreads_story_url,
+    _parse_knoxt_series_chapters,
     MistmintHavenCrawler,
 )
 
@@ -346,6 +347,58 @@ class BLReadsSeriesTests(unittest.TestCase):
         self.assertEqual(result["chapters"][0]["chapter_number"], 1)
         self.assertEqual(result["chapters"][0]["title"], "The Paper Character’s First Heartbeat")
         self.assertEqual(result["chapters"][1]["chapter_number"], 2)
+
+
+class KnoxTSeriesTests(unittest.TestCase):
+    def test_parse_knoxt_series_chapters(self):
+        html = """
+        <div class="infox">
+          <h1>After Marking the Protagonist A</h1>
+        </div>
+        <div class="eplister" id="chapterlist">
+          <ul class="clx">
+            <li>
+              <a href="https://knoxt.space/after-marking-the-protagonist-a-chapter-amtpa-extra-7-the-end/">
+                <div class="epl-num">Ch. AMTPA Extra 7 (The End)</div>
+                <div class="epl-title">IF Line: What If the Beginning of Their Meeting Was Different</div>
+              </a>
+            </li>
+            <li>
+              <a href="https://knoxt.space/after-marking-the-protagonist-a-chapter-extra-1/">
+                <div class="epl-num">Ch. Extra 1</div>
+                <div class="epl-title">AMTPA Extra 1</div>
+              </a>
+            </li>
+            <li>
+              <a href="https://knoxt.space/after-marking-the-protagonist-a-chapter-2/">
+                <div class="epl-num">Ch. 2</div>
+                <div class="epl-title">AMTPA Chapter 2</div>
+              </a>
+            </li>
+            <li>
+              <a href="https://knoxt.space/after-marking-the-protagonist-a-chapter-1/">
+                <div class="epl-num">Ch. 1</div>
+                <div class="epl-title">AMTPA Chapter 1</div>
+              </a>
+            </li>
+          </ul>
+        </div>
+        """
+        result = _parse_knoxt_series_chapters(
+            html,
+            "https://knoxt.space/after-marking-the-protagonist-a/",
+        )
+        self.assertEqual(result["series_title"], "After Marking the Protagonist A")
+        self.assertEqual(len(result["chapters"]), 4)
+        # Should be sorted: Ch. 1, Ch. 2, Extra 1, Extra 7
+        self.assertEqual(
+            [c["chapter_number"] for c in result["chapters"]],
+            [1, 2, 3, 9],  # max regular is 2 + extra 1 = 3; 2 + extra 7 = 9
+        )
+        self.assertEqual(result["chapters"][0]["url"], "https://knoxt.space/after-marking-the-protagonist-a-chapter-1/")
+        self.assertEqual(result["chapters"][1]["url"], "https://knoxt.space/after-marking-the-protagonist-a-chapter-2/")
+        self.assertEqual(result["chapters"][2]["url"], "https://knoxt.space/after-marking-the-protagonist-a-chapter-extra-1/")
+        self.assertEqual(result["chapters"][3]["url"], "https://knoxt.space/after-marking-the-protagonist-a-chapter-amtpa-extra-7-the-end/")
 
 
 if __name__ == "__main__":

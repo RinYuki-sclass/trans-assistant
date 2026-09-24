@@ -1,0 +1,117 @@
+{
+  "chapter_summary": "Quý Thần Hi (Công) phát hiện Trì Chước (Thụ) đang trong cơn phát tình do bị chuốc thuốc. Quý Thần Hi giả vờ là một omega yếu đuối để tiếp cận và khiêu khích Trì Chước, đồng thời kiểm tra khả năng tự chủ của anh. Mặc dù đang rất đau đớn và ham muốn, Trì Chước vẫn thể hiện sự kiềm chế đáng kinh ngạc và lịch sự với 'omega' Quý Thần Hi, thậm chí còn thổ lộ 'yêu từ cái nhìn đầu tiên'. Quý Thần Hi sau đó tiết lộ thân phận alpha thật sự của mình bằng cách giải phóng pheromone hoa hồng mạnh mẽ, đối chọi với mùi tequila của Trì Chước. Cảm thấy bị lừa dối và sỉ nhục, Trì Chước nổi giận, dẫn đến một cuộc chiến khốc liệt giữa hai alpha. Cuộc chiến bị gián đoạn bởi một âm thanh lạ.",
+  "new_characters": [
+    {
+      "name": "Bai Anran",
+      "hanviet_name": "Bạch An Nhiên",
+      "gender": "unknown",
+      "role": "character mentioned in the story's past",
+      "description": "A character mentioned as someone Chi Zhuo marked in the original story."
+    }
+  ],
+  "new_locations": [],
+  "new_terms": [
+    {
+      "original": "omega",
+      "suggested": "Omega",
+      "hanviet": "",
+      "category": "other",
+      "confidence": 1.0
+    },
+    {
+      "original": "alpha",
+      "suggested": "Alpha",
+      "hanviet": "",
+      "category": "other",
+      "confidence": 1.0
+    },
+    {
+      "original": "ABO",
+      "suggested": "ABO",
+      "hanviet": "",
+      "category": "other",
+      "confidence": 1.0
+    },
+    {
+      "original": "spirit beast",
+      "suggested": "Thú tinh thần",
+      "hanviet": "Tinh thú",
+      "category": "other",
+      "confidence": 0.8
+    },
+    {
+      "original": "alpha suppressant",
+      "suggested": "Thuốc ức chế Alpha",
+      "hanviet": "Alpha ức chế tề",
+      "category": "item",
+      "confidence": 0.9
+    },
+    {
+      "original": "pheromone",
+      "suggested": "Pheromone",
+      "hanviet": "Thông tin tố",
+      "category": "other",
+      "confidence": 1.0
+    },
+    {
+      "original": "spiritual realm",
+      "suggested": "Linh hồn cảnh giới",
+      "hanviet": "Linh hồn cảnh giới",
+      "category": "other",
+      "confidence": 0.8
+    },
+    {
+      "original": "suppressor ring",
+      "suggested": "Nhẫn ức chế",
+      "hanviet": "Ức chế giới chỉ",
+      "category": "item",
+      "confidence": 0.9
+    },
+    {
+      "original": "gland",
+      "suggested": "Tuyến thể",
+      "hanviet": "Tuyến thể",
+      "category": "other",
+      "confidence": 0.9
+    },
+    {
+      "original": "black mamba",
+      "suggested": "Rắn Mamba đen",
+      "hanviet": "",
+      "category": "other",
+      "confidence": 0.9
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "Bai Anran",
+      "suggested": "Bạch An Nhiên",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Bai Anran?",
+      "options": [
+        "Bạch An Nhiên",
+        "Bạch An Nhiễm",
+        "Bạch An Nhàn",
+        "Bai Anran"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_002",
+      "original": "Ji Chenxi and Chi Zhuo interaction",
+      "suggested": "",
+      "confidence": 0.3,
+      "question": "Xưng hô giữa Quý Thần Hi (Công, trẻ hơn) và Trì Chước (Thụ, lớn hơn) khi giao tiếp và ngôi thứ ba?",
+      "options": [
+        "Quý Thần Hi (xưng Tôi) - Trì Chước (xưng Anh) (ban đầu lịch sự, sau đó chuyển sang đối đầu nhưng vẫn giữ ngôi); Ngôi thứ ba: Hắn/Y.",
+        "Quý Thần Hi (xưng Ta) - Trì Chước (xưng Ngươi) (đối đầu, thách thức); Ngôi thứ ba: Hắn/Y.",
+        "Quý Thần Hi (xưng Mày) - Trì Chước (xưng Tao) (khiêu khích, gay gắt); Ngôi thứ ba: Hắn/Y.",
+        "Quý Thần Hi (xưng Cậu/Em) - Trì Chước (xưng Tôi/Anh) (khi Quý Thần Hi giả omega, Trì Chước lịch sự); Ngôi thứ ba: Hắn/Y."
+      ],
+      "category": "pronoun"
+    }
+  ],
+  "chapter_id": "ch_003",
+  "analyzed_at": "2026-09-24T13:28:52.351993+07:00"
+}

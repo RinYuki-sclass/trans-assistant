@@ -702,6 +702,7 @@ def generate_with_retry(model, contents, system_instruction, status_w=None, retr
     # Chuỗi dự phòng thông minh (Waterfall)
     model_chain = [
         "gemini-2.5-flash",
+        "gemini-2.5-flash-lite",
         "gemini-3.5-flash",
         "gemini-3.6-flash",
         "gemini-3-flash-preview",
@@ -745,7 +746,7 @@ def generate_with_retry(model, contents, system_instruction, status_w=None, retr
             
             # Nếu không có text, có thể do bị chặn bởi lý do khác (finish_reason)
             if status_w: status_w.warning(f"⚠️ [{key_label}] AI không trả về text (Lần {i+1}). Đang thử lại...")
-            time.sleep(3)
+            time.sleep(2)
         except Exception as e:
             err_str = str(e)
             if "leaked" in err_str.lower() or "permission_denied" in err_str.lower() or "403" in err_str:
@@ -780,14 +781,28 @@ def generate_with_retry(model, contents, system_instruction, status_w=None, retr
                 if rotator and hasattr(rotator, 'mark_exhausted'):
                     if "quota" in err_str.lower() or "429" in err_str or "resource_exhausted" in err_str.lower():
                         rotator.mark_exhausted(key_idx, model)
-                if rotator.total > 1:
+                
+                # Chuyển đổi model thông minh khi bị 503 quá tải hoặc hết quota
+                if "503" in err_str or "unavailable" in err_str.lower() or (rotator and rotator.is_exhausted(model)) or i >= 1:
+                    available = [m for m in model_chain if m != model and m not in st.session_state.get('invalid_models', set())]
+                    if available:
+                        next_model = available[0]
+                        for m in available:
+                            if not rotator or not rotator.is_exhausted(m):
+                                next_model = m
+                                break
+                        if status_w and model != next_model:
+                            status_w.warning(f"⚠️ Model `{model}` gặp lỗi quá tải (503/429). Tự động chuyển sang `{next_model}`...")
+                        model = next_model
+
+                if rotator and rotator.total > 1:
                     new_idx = rotator.rotate(model)
                     if status_w:
                         status_w.warning(f"⚠️ [{key_label}] Server quá tải hoặc Hết lượt (503/429)! Đổi sang Key {new_idx + 1}... (Lần {i+1})")
-                    time.sleep(3)
+                    time.sleep(2)
                 else:
-                    if status_w: status_w.warning(f"⚠️ Server Google đang quá tải. Đang thử lại sau 10s... (Lần {i+1})")
-                    time.sleep(10)
+                    if status_w: status_w.warning(f"⚠️ Server Google đang quá tải. Đang thử lại với `{model}`... (Lần {i+1})")
+                    time.sleep(2)
             elif "safety" in err_str.lower():
                 if status_w: status_w.warning(f"⚠️ [{key_label}] Nội dung bị lọc an toàn. Đang thử lại với cấu hình khác...")
                 time.sleep(2)
@@ -3136,6 +3151,8 @@ if tabs.is_active(9):
             
             if new_entry.get('gender') and not matched_entry.get('gender'):
                 matched_entry['gender'] = new_entry['gender']
+            if new_entry.get('third_person_pronoun'):
+                matched_entry['third_person_pronoun'] = new_entry['third_person_pronoun']
             if new_entry.get('honorifics') and not matched_entry.get('honorifics'):
                 matched_entry['honorifics'] = new_entry['honorifics']
             if new_entry.get('speech_style') and not matched_entry.get('speech_style'):
@@ -3149,6 +3166,7 @@ if tabs.is_active(9):
                 'name': c_name or c_hv,
                 'hanviet_name': c_hv,
                 'gender': new_entry.get('gender', ''),
+                'third_person_pronoun': new_entry.get('third_person_pronoun', ''),
                 'aliases': aliases,
                 'honorifics': new_entry.get('honorifics', ''),
                 'speech_style': new_entry.get('speech_style', ''),
@@ -3205,6 +3223,46 @@ if tabs.is_active(9):
                 entry['chapter_first_seen'] = new_entry['chapter_first_seen']
             glossary_list.append(entry)
             return entry
+
+    def na_merge_relationship_entry(rel_list: list, new_entry: dict) -> dict:
+        """Safely merge or append a character relationship / address entry."""
+        p_from = (new_entry.get('from') or '').strip()
+        p_to = (new_entry.get('to') or '').strip()
+        pair = (new_entry.get('pair') or '').strip()
+        address = (new_entry.get('address') or '').strip()
+
+        if not pair and p_from and p_to:
+            pair = f"{p_from} → {p_to}"
+        elif pair and (not p_from or not p_to):
+            import re
+            m = re.search(r'^(.*?)\s*(?:→|->)\s*(.*?)$', pair)
+            if m:
+                p_from = m.group(1).strip()
+                p_to = m.group(2).strip()
+
+        if not (pair or (p_from and p_to)):
+            return None
+
+        for r in rel_list:
+            if (r.get('pair', '').lower() == pair.lower()) or (
+                p_from and p_to and r.get('from', '').lower() == p_from.lower() and r.get('to', '').lower() == p_to.lower()
+            ):
+                if address:
+                    r['address'] = address
+                if p_from and not r.get('from'):
+                    r['from'] = p_from
+                if p_to and not r.get('to'):
+                    r['to'] = p_to
+                return r
+
+        entry = {
+            'pair': pair or f"{p_from} → {p_to}",
+            'from': p_from,
+            'to': p_to,
+            'address': address
+        }
+        rel_list.append(entry)
+        return entry
 
     def na_auto_update_memory_for_chapter(slug: str, chapter_id: str, translation_text: str, analysis_data: dict = None):
         """Auto extract characters, pronouns/honorifics and glossary terms after batch translation."""
@@ -3274,8 +3332,13 @@ if tabs.is_active(9):
             lines.append('=== CHARACTERS ===')
             for c in memory['characters'][:30]:  # cap to avoid huge prompts
                 hv_str = f" / Hán-Việt: {c['hanviet_name']}" if c.get('hanviet_name') else ""
+                pronoun_str = f" | Đại từ ngôi 3: {c['third_person_pronoun']}" if c.get('third_person_pronoun') else ""
                 aliases = ', '.join(c.get('aliases', []))
-                lines.append(f"- {c.get('name','')}{hv_str} ({c.get('gender','')}) | Aliases: {aliases} | Speech: {c.get('speech_style','')} | Honorifics: {c.get('honorifics','')}")
+                lines.append(f"- {c.get('name','')}{hv_str} ({c.get('gender','')}){pronoun_str} | Aliases: {aliases} | Speech: {c.get('speech_style','')} | Honorifics: {c.get('honorifics','')}")
+        if memory.get('relationships'):
+            lines.append('\n=== CHARACTER FORMS OF ADDRESS (Xưng hô đối thoại 2 chiều) ===')
+            for r in memory['relationships'][:40]:
+                lines.append(f"- {r.get('pair', '')}: {r.get('address', '')}")
         if memory.get('glossary'):
             lines.append('\n=== PROJECT GLOSSARY ===')
             for g in memory['glossary'][:60]:
@@ -3341,6 +3404,112 @@ if tabs.is_active(9):
         with open(out_path, 'w', encoding='utf-8') as f:
             f.write(md_content)
         return out_path
+
+    def na_run_consistency_review_for_chapter(slug: str, chapter_id: str, cfg: dict = None, memory: dict = None, stat_obj=None) -> str:
+        """Run consistency review for a single translated chapter and save review_report.json."""
+        ch_dir = na_chapter_dir(slug, chapter_id)
+        trans_path = os.path.join(ch_dir, 'translation.md')
+        if not os.path.exists(trans_path):
+            return None
+        with open(trans_path, 'r', encoding='utf-8') as _f:
+            raw_trans = _f.read()
+        import re as _re
+        clean_trans = _re.sub(r'^---[\s\S]*?---\s*', '', raw_trans, count=1).strip()
+        if not clean_trans:
+            return None
+
+        if not cfg:
+            cfg = na_load_config(slug)
+        if not memory:
+            memory = na_load_memory(slug)
+
+        sys_rev = (
+            f"You are a strict literary editor reviewing a {cfg.get('target_lang','Vietnamese')} translation.\n"
+            "Review the translation for:\n"
+            "1. Terminology consistency (same terms translated the same way)\n"
+            "2. Character name consistency\n"
+            "3. Honorific consistency\n"
+            "4. Pronoun consistency (đại từ ngôi 3 và xưng hô đối thoại 2 chiều)\n"
+            "5. Missing or repeated sentences\n"
+            "6. Natural flow and readability\n"
+            "7. Any mistranslations based on the glossary provided\n"
+            "Output a structured report in Markdown with section headers. List each issue with line reference and suggested fix."
+        )
+        mem_str_rev = na_format_memory_for_prompt(memory)
+        prompt_rev = (
+            f"=== NOVEL MEMORY ===\n{mem_str_rev}\n\n"
+            f"=== TRANSLATION TO REVIEW ===\n{clean_trans[:8000]}"
+        )
+        review_result = generate_with_retry(
+            "gemini-2.5-flash", prompt_rev, sys_rev,
+            stat_obj, retries=8, temp=0.1
+        )
+        if review_result:
+            review_path = os.path.join(ch_dir, 'review_report.json')
+            na_save_json(review_path, {
+                'chapter_id': chapter_id,
+                'reviewed_at': now_gmt7().isoformat(),
+                'report': review_result
+            })
+            return review_result
+        return None
+
+    def na_apply_review_fixes_for_chapter(slug: str, chapter_id: str, cfg: dict = None, memory: dict = None, stat_obj=None) -> str:
+        """Revise and fix a translated chapter according to its review_report.json."""
+        ch_dir = na_chapter_dir(slug, chapter_id)
+        trans_path = os.path.join(ch_dir, 'translation.md')
+        review_path = os.path.join(ch_dir, 'review_report.json')
+        if not os.path.exists(trans_path) or not os.path.exists(review_path):
+            return None
+
+        with open(trans_path, 'r', encoding='utf-8') as _f:
+            raw_trans = _f.read()
+        import re as _re
+        clean_trans = _re.sub(r'^---[\s\S]*?---\s*', '', raw_trans, count=1).strip()
+        if not clean_trans:
+            return None
+
+        review_data = na_load_json(review_path, {})
+        report_text = review_data.get('report', '').strip()
+        if not report_text:
+            return None
+
+        if not cfg:
+            cfg = na_load_config(slug)
+        if not memory:
+            memory = na_load_memory(slug)
+
+        sys_apply = (
+            f"You are an expert literary copyeditor specializing in {cfg.get('target_lang', 'Vietnamese')} translations.\n"
+            "Your task is to revise and correct a novel translation strictly addressing the issues identified in the Consistency Review Report.\n"
+            "RULES:\n"
+            "1. Correct all terminology inconsistencies, character names, honorifics, pronouns, and mistranslations pointed out in the report.\n"
+            "2. Strictly align with the Novel Memory & Glossary.\n"
+            "3. Maintain natural, fluent prose and keep dialogue and narrative formatting properly separated.\n"
+            "4. Output ONLY the complete revised translation text. Do NOT include any code block fences (```markdown), intro/outro remarks, or notes."
+        )
+        mem_rev_str = na_format_memory_for_prompt(memory)
+        prompt_apply = (
+            f"=== NOVEL MEMORY & GLOSSARY ===\n{mem_rev_str}\n\n"
+            f"=== CONSISTENCY REVIEW REPORT ===\n{report_text}\n\n"
+            f"=== BẢN DỊCH HIỆN TẠI CẦN CHỈNH SỬA ===\n{clean_trans}"
+        )
+        revised_text = generate_with_retry(
+            "gemini-2.5-flash", prompt_apply, sys_apply,
+            stat_obj, retries=8, temp=0.2
+        )
+        if revised_text:
+            revised_text = _re.sub(r'^```(?:markdown)?\s*', '', revised_text.strip(), flags=_re.IGNORECASE)
+            revised_text = _re.sub(r'\s*```$', '', revised_text).strip()
+            na_save_chapter_as_md(slug, chapter_id, revised_text)
+
+            fix_note = f"\n\n> 🛠️ **Đã tự động sửa bản dịch theo Review này vào lúc {now_gmt7().strftime('%H:%M:%S %d/%m/%Y')}.**"
+            updated_report = report_text + fix_note
+            review_data['report'] = updated_report
+            review_data['applied_at'] = now_gmt7().isoformat()
+            na_save_json(review_path, review_data)
+            return revised_text
+        return None
 
     def na_save_chapter(slug: str, chapter_id: str, title_str: str, raw_text: str, chunk_sz: int = 20) -> dict:
         """Save raw chapter and split into chunk files."""
@@ -3486,6 +3655,10 @@ if tabs.is_active(11):
                 st.markdown("**Tạo project mới:**")
                 with st.form("na_create_form"):
                     na_title = st.text_input("Tên tiểu thuyết *", placeholder="VD: Thiên Đạo Đồ Thư Quán")
+                    na_author = st.text_input("Tác giả / Nguồn", value="Web Novel / Rin Translation", placeholder="VD: Tên tác giả hoặc nguồn dịch")
+                    na_desc = st.text_area("Văn án / Tóm tắt truyện (Description)",
+                        placeholder="VD: Nhập văn án, tóm tắt nội dung, thiết lập nhân vật, thể loại... (sẽ được tự động đóng thành chương Văn Án ở đầu sách khi xuất file EPUB)",
+                        height=110)
                     c1f, c2f = st.columns(2)
                     with c1f:
                         na_src_lang = st.selectbox("Ngôn ngữ gốc",
@@ -3495,7 +3668,7 @@ if tabs.is_active(11):
                             ["Vietnamese", "English"])
                     na_style = st.text_area("Style Guide (tùy chọn)",
                         placeholder="VD: Dịch văn xuôi trang trọng. Giữ nguyên tên nhân vật phiên âm. Xưng hô theo cấp bậc võ lâm...",
-                        height=100)
+                        height=90)
                     na_threshold = st.slider(
                         "Ngưỡng tự động dịch (%)",
                         min_value=50, max_value=95, value=80,
@@ -3514,6 +3687,8 @@ if tabs.is_active(11):
                                 slug = slug + f"-{int(time.time()) % 10000}"
                             cfg_new = {
                                 'title': na_title.strip(),
+                                'author': na_author.strip() or "Web Novel / Rin Translation",
+                                'description': na_desc.strip(),
                                 'slug': slug,
                                 'source_lang': na_src_lang,
                                 'target_lang': na_tgt_lang,
@@ -3531,11 +3706,40 @@ if tabs.is_active(11):
                             st.success(f"✅ Đã tạo project **{na_title}**!")
                             st.rerun()
 
-            # Show active project banner
+            # Show active project banner & edit form
             if st.session_state.get('na_project') in all_projects:
                 ap = st.session_state['na_project']
                 apcfg = na_load_config(ap)
                 st.success(f"🎯 Project đang chọn: **{apcfg.get('title', ap)}** ({apcfg.get('source_lang')} → {apcfg.get('target_lang')})")
+
+                with st.expander(f"⚙️ Chỉnh Sửa Thông Tin & Văn Án Project: {apcfg.get('title', ap)}", expanded=False):
+                    with st.form(f"na_edit_cfg_form_{ap}"):
+                        edit_title = st.text_input("Tên tiểu thuyết:", value=apcfg.get('title', ap))
+                        edit_author = st.text_input("Tác giả / Nguồn:", value=apcfg.get('author', 'Web Novel / Rin Translation'))
+                        edit_desc = st.text_area("Văn án / Tóm tắt truyện (Description):", value=apcfg.get('description', ''), height=140,
+                                                 help="Phần văn án này sẽ được tự động xuất thành chương 'Văn Án' ở đầu sách khi xuất file EPUB.")
+                        col_e1, col_e2 = st.columns(2)
+                        with col_e1:
+                            _langs_s = ["Chinese", "Korean", "Japanese", "English", "Other"]
+                            src_idx = _langs_s.index(apcfg.get('source_lang')) if apcfg.get('source_lang') in _langs_s else 0
+                            edit_src = st.selectbox("Ngôn ngữ gốc:", _langs_s, index=src_idx)
+                        with col_e2:
+                            _langs_t = ["Vietnamese", "English"]
+                            tgt_idx = _langs_t.index(apcfg.get('target_lang')) if apcfg.get('target_lang') in _langs_t else 0
+                            edit_tgt = st.selectbox("Ngôn ngữ dịch:", _langs_t, index=tgt_idx)
+                        edit_style = st.text_area("Style Guide:", value=apcfg.get('style_guide', ''), height=80)
+                        
+                        btn_save_cfg = st.form_submit_button("💾 Lưu Cập Nhật Thông Tin Project", type="primary", use_container_width=True)
+                        if btn_save_cfg:
+                            apcfg['title'] = edit_title.strip() or ap
+                            apcfg['author'] = edit_author.strip() or "Web Novel / Rin Translation"
+                            apcfg['description'] = edit_desc.strip()
+                            apcfg['source_lang'] = edit_src
+                            apcfg['target_lang'] = edit_tgt
+                            apcfg['style_guide'] = edit_style.strip()
+                            na_save_config(ap, apcfg)
+                            st.success("✅ Đã cập nhật thông tin và văn án thành công!")
+                            st.rerun()
 
         # ── Guard: require project selected for other tabs ──
         def _na_require_project():
@@ -3565,7 +3769,7 @@ if tabs.is_active(11):
                 if import_src == "🌐 Crawl từ Web URL":
                     na_crawl_site = st.selectbox(
                         "Website nguồn:",
-                        ["Novelib", "Cherry Mist", "ZenithTL", "Hyacinth Bloom", "Mistmint Haven", "PIE NOVELS", "BL Reads", "URL tùy chỉnh"],
+                        ["Novelib", "Cherry Mist", "ZenithTL", "Hyacinth Bloom", "Mistmint Haven", "PIE NOVELS", "BL Reads", "KnoxT", "URL tùy chỉnh"],
                         key="na_crawl_site"
                     )
                     na_presets = {
@@ -3576,6 +3780,7 @@ if tabs.is_active(11):
                         "Mistmint Haven": "https://www.mistminthaven.com/novels/rolling-in-bed-with-the-male-lead",
                         "PIE NOVELS": "https://pienovels.com/novels/ill-raise-the-villain-who-killed-me/",
                         "BL Reads": "https://blreads.tech/story/the-demon-king-has-face-blindness-book/",
+                        "KnoxT": "https://knoxt.space/after-marking-the-protagonist-a/",
                         "URL tùy chỉnh": "",
                     }
                     na_crawl_url = st.text_input(
@@ -3754,8 +3959,16 @@ if tabs.is_active(11):
                         src_body = _re.sub(r'^---[\s\S]*?---\s*', '', src_full, count=1).strip()
 
                         existing_analysis = na_load_json(analysis_path_a, None)
+                        run_reanalyze = False
                         if existing_analysis:
-                            st.success("✅ Đã có kết quả phân tích. Có thể chạy lại để cập nhật.")
+                            c_stat1, c_stat2, c_stat3 = st.columns([3, 1, 1])
+                            with c_stat1:
+                                st.success("✅ Đã có kết quả phân tích. Có thể chạy lại để cập nhật.")
+                            with c_stat2:
+                                if st.button("🔄 Làm Mới (F5)", key="na_ana_refresh_btn", use_container_width=True, help="Làm mới lại dữ liệu trên trang mà không cần bấm F5"):
+                                    st.rerun()
+                            with c_stat3:
+                                run_reanalyze = st.button("⚡ Phân Tích Lại", type="primary", key="na_ana_reanalyze_btn", use_container_width=True, help="Chạy AI phân tích lại chương này để cập nhật tên nhân vật và xưng hô")
 
                         threshold = na_cfg.get('confidence_threshold', 0.8)
                         st.info(f"Ngưỡng tự động dịch: **{int(threshold*100)}%** — AI sẽ đặt câu hỏi khi confidence < {int(threshold*100)}%")
@@ -3785,7 +3998,8 @@ if tabs.is_active(11):
 
                         col_an1, col_an2 = st.columns([1, 1])
                         with col_an1:
-                            run_single_ana = st.button("🔬 Phân Tích Chapter Này", type="primary", key="na_run_analysis", use_container_width=True)
+                            single_ana_label = "🔄 Phân Tích Lại Chapter Này" if existing_analysis else "🔬 Phân Tích Chapter Này"
+                            run_single_ana = st.button(single_ana_label, type="primary", key="na_run_analysis", use_container_width=True)
                         with col_an2:
                             run_batch_ana = st.button(
                                 f"⚡ Batch Analyze: {len(analysis_to_run)}/{len(pending_analysis)} chương",
@@ -3797,16 +4011,36 @@ if tabs.is_active(11):
 
                         sys_ana = (
                             f"You are an expert literary analyst and translation consultant for {na_cfg.get('source_lang','English')} to {na_cfg.get('target_lang','Vietnamese')} novel translation.\n"
-                            "Your ONLY task is to ANALYZE, not translate. Read the entire chapter and detect:\n"
-                            "1. New characters (not in existing memory). For names with Chinese origins/Pinyin, provide Sino-Vietnamese (Hán-Việt) translation in hanviet_name.\n"
-                            "2. New locations, organizations/factions, skills, items, and terminology. For terms with Chinese origins, provide Sino-Vietnamese (Hán-Việt) translation in hanviet.\n"
-                            "3. Chapter summary using Sino-Vietnamese (Hán-Việt) names for Chinese-origin characters/places where applicable.\n"
-                            "4. Honorifics, pronouns, and ambiguous references.\n"
+                            "Your ONLY task is to ANALYZE context, characters, terminology, and forms of address (xưng hô) — DO NOT translate the story text.\n"
+                            "MANDATORY GUIDELINES:\n"
+                            "1. NEW CHARACTERS (Nhân vật mới) & ĐẠI TỪ NGÔI 3 (3rd-Person Pronoun in Narrative):\n"
+                            "   - Detect all newly appearing characters. For Chinese-origin / Pinyin / foreign names, provide Sino-Vietnamese (Hán-Việt) translation in hanviet_name.\n"
+                            "   - CRITICAL QUESTION 1 (Tên dịch / Hán-Việt): For EVERY new character, you MUST generate an item in 'ambiguous' with category='name', confidence=0.3. Set question='Xác nhận tên dịch / âm Hán-Việt cho nhân vật [Name]?' and provide 2-4 distinct options in 'options'. NEVER self-decide without asking.\n"
+                            "   - CRITICAL QUESTION 2 (Đại từ ngôi 3 trong văn kể): For EVERY new character, you MUST ALSO generate a separate item in 'ambiguous' with category='pronoun', confidence=0.3 to fix their third-person pronoun in narrative (đại từ ngôi 3 trong lời kể). Set original='[Name] (ngôi thứ 3)' and question='Đại từ ngôi 3 trong văn trần thuật cho nhân vật [Name] (hắn, y, anh, cậu, gã, nàng, cô...)?'. Provide 4-6 appropriate pronoun options based on gender/role (e.g. Male: ['hắn', 'y', 'anh', 'cậu', 'gã', 'chàng']; Female: ['cô', 'nàng', 'y', 'ả', 'chị', 'bà ta']).\n"
+                            "2. DIALOGUE FORMS OF ADDRESS (BẮT BUỘC HỎI ĐẦY ĐỦ CẢ 2 CHIỀU XƯNG HÔ ĐỐI THOẠI A ↔ B):\n"
+                            "   - Xưng hô đối thoại tiếng Việt mang tính đối xứng 2 chiều chặt chẽ: A gọi B là gì (A xưng gì) VÀ B gọi ngược lại A là gì (B xưng gì).\n"
+                            "   - TUYỆT ĐỐI KHÔNG ĐƯỢC CHỈ HỎI 1 CHIỀU (A -> B). Với BẤT KỲ cặp nhân vật nào có tương tác, trò chuyện, bạn BẮT BUỘC PHẢI TẠO ĐỦ 2 CÂU HỎI ĐỘC LẬP trong 'ambiguous' (category='relationship', confidence=0.3):\n"
+                            "     * CÂU HỎI 1 (Chiều A -> B):\n"
+                            "       - original: \"[Tên A] → [Tên B]\"\n"
+                            "       - suggested: \"[Tên A] xưng Tôi - gọi [Tên B] là Anh\"\n"
+                            "       - question: \"Chiều 1: [Tên A] xưng hô thế nào với [Tên B] (A tự xưng là gì và gọi B là gì khi nói chuyện)?\"\n"
+                            "       - options: 3-5 lựa chọn rõ ràng chỉ rõ ngôi xưng và gọi (ví dụ: [\"xưng Tôi - gọi Anh\", \"xưng Tôi - gọi Cậu\", \"xưng Em - gọi Anh\", \"xưng Ta - gọi Ngươi\", \"xưng Tôi - gọi Chi tổng\"])\n"
+                            "     * CÂU HỎI 2 (Chiều B -> A - CHIỀU NGƯỢC LẠI):\n"
+                            "       - original: \"[Tên B] → [Tên A]\"\n"
+                            "       - suggested: \"[Tên B] xưng Tôi - gọi [Tên A] là Cậu\"\n"
+                            "       - question: \"Chiều 2: [Tên B] xưng hô thế nào với [Tên A] (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?\"\n"
+                            "       - options: 3-5 lựa chọn rõ ràng tương ứng (ví dụ: [\"xưng Tôi - gọi Cậu\", \"xưng Anh - gọi Em\", \"xưng Tôi - gọi Ji thiếu\", \"xưng Ta - gọi Ngươi\"])\n"
+                            "   - NGAY CẢ KHI trong chương này mới chỉ có một nhân vật lên tiếng trước (ví dụ chỉ A nói, B chưa kịp đáp lời), bạn VẪN PHẢI TẠO CẢ 2 CÂU HỎI (cả chiều A -> B và B -> A) để người dịch thiết lập sẵn hệ quy chiếu xưng hô 2 chiều cho cả tác phẩm.\n"
+                            "   - NEVER assign confidence >= 0.8 to new character names, 3rd-person pronouns, or forms of address. Always force them to low confidence (0.3) so the user can review and approve in Clarification Center.\n"
+                            "3. NEW LOCATIONS & TERMS (Địa danh & Thuật ngữ):\n"
+                            "   - Extract locations, skills, factions, items. Provide suggested Vietnamese translation and Sino-Vietnamese (Hán-Việt) if applicable. If uncertain, add to 'ambiguous'.\n"
+                            "4. CHAPTER SUMMARY:\n"
+                            "   - Provide a concise summary of key plot points in chapter_summary.\n"
                             "Output ONLY valid JSON in this exact schema:\n"
                             "{\"chapter_summary\": \"...\", \"new_characters\": [{\"name\": \"\", \"hanviet_name\": \"\", \"gender\": \"\", \"role\": \"\", \"description\": \"\"}], "
                             "\"new_locations\": [{\"name\": \"\", \"hanviet\": \"\", \"description\": \"\"}], "
                             "\"new_terms\": [{\"original\": \"\", \"suggested\": \"\", \"hanviet\": \"\", \"category\": \"skill|location|item|faction|other\", \"confidence\": 0.0}], "
-                            "\"ambiguous\": [{\"id\": \"amb_001\", \"original\": \"\", \"suggested\": \"\", \"confidence\": 0.0, "
+                            "\"ambiguous\": [{\"id\": \"amb_001\", \"original\": \"\", \"suggested\": \"\", \"confidence\": 0.3, "
                             "\"question\": \"\", \"options\": [], \"category\": \"honorific|pronoun|name|term|relationship\"}]}"
                         )
 
@@ -3829,12 +4063,16 @@ if tabs.is_active(11):
                                 b_mem = na_load_memory(na_proj)
                                 b_ex_c = [c.get('name','') for c in b_mem.get('characters', [])]
                                 b_ex_t = [g.get('original','') for g in b_mem.get('glossary', [])]
+                                b_ex_r = [f"{r.get('pair','')}: {r.get('address','')}" for r in b_mem.get('relationships', []) if r.get('pair') and r.get('address')]
+                                b_style = na_cfg.get('style_guide', '')
                                 b_prompt_ana = (
+                                    f"=== STYLE GUIDE ===\n{b_style or 'None'}\n\n"
                                     f"=== KNOWN CHARACTERS ===\n{', '.join(b_ex_c) or 'None'}\n\n"
+                                    f"=== KNOWN RELATIONSHIPS & ADDRESS (Xưng hô 2 chiều đã biết) ===\n{', '.join(b_ex_r) or 'None'}\n\n"
                                     f"=== KNOWN GLOSSARY ===\n{', '.join(b_ex_t) or 'None'}\n\n"
                                     f"=== CHAPTER TEXT ===\n{b_src_text[:12000]}"
                                 )
-                                b_raw_ana = generate_with_retry("gemini-2.5-flash", b_prompt_ana, sys_ana, None, retries=2, temp=0.2)
+                                b_raw_ana = generate_with_retry("gemini-2.5-flash", b_prompt_ana, sys_ana, ana_status, retries=8, temp=0.2)
                                 b_ana_path = os.path.join(b_ch_dir, 'analysis.json')
                                 if b_raw_ana:
                                     try:
@@ -3849,21 +4087,25 @@ if tabs.is_active(11):
                             st.balloons()
                             st.rerun()
 
-                        if run_single_ana:
+                        if run_single_ana or run_reanalyze:
                             memory = na_load_memory(na_proj)
                             existing_chars = [c.get('name','') for c in memory.get('characters', [])]
                             existing_terms = [g.get('original','') for g in memory.get('glossary', [])]
+                            existing_rels = [f"{r.get('pair','')}: {r.get('address','')}" for r in memory.get('relationships', []) if r.get('pair') and r.get('address')]
+                            single_style = na_cfg.get('style_guide', '')
                             prompt_ana = (
+                                f"=== STYLE GUIDE ===\n{single_style or 'None'}\n\n"
                                 f"=== KNOWN CHARACTERS ===\n{', '.join(existing_chars) or 'None'}\n\n"
+                                f"=== KNOWN RELATIONSHIPS & ADDRESS (Xưng hô 2 chiều đã biết) ===\n{', '.join(existing_rels) or 'None'}\n\n"
                                 f"=== KNOWN GLOSSARY ===\n{', '.join(existing_terms) or 'None'}\n\n"
                                 f"=== CHAPTER TEXT ===\n{src_body[:12000]}"
                             )
 
-                            with st.spinner("🔬 AI đang phân tích chương... (10-30 giây)"):
-                                raw_ana = generate_with_retry(
-                                    "gemini-2.5-flash", prompt_ana, sys_ana,
-                                    None, retries=3, temp=0.2
-                                )
+                            ana_status_box = st.status("🔬 AI đang phân tích chương... (10-30 giây)", expanded=True)
+                            raw_ana = generate_with_retry(
+                                "gemini-2.5-flash", prompt_ana, sys_ana,
+                                ana_status_box, retries=8, temp=0.2
+                            )
 
                             if raw_ana:
                                 try:
@@ -3871,15 +4113,18 @@ if tabs.is_active(11):
                                     analysis_data['chapter_id'] = sel_ch_a
                                     analysis_data['analyzed_at'] = now_gmt7().isoformat()
                                     na_save_json(analysis_path_a, analysis_data)
+                                    ana_status_box.update(label="✅ Phân tích hoàn tất!", state="complete")
                                     log_action("Novel Agent", f"Analysis: {sel_ch_a} | {len(analysis_data.get('ambiguous',[]))} ambiguous")
                                     st.success("✅ Phân tích hoàn tất! Xem kết quả bên dưới.")
                                     st.rerun()
                                 except Exception as je:
+                                    ana_status_box.update(label="⚠️ Lỗi định dạng JSON!", state="error")
                                     st.error(f"❌ AI không trả về JSON hợp lệ: {je}")
                                     with st.expander("Xem raw output"):
                                         st.code(raw_ana)
                             else:
-                                st.error("❌ AI không trả về kết quả. Thử lại.")
+                                ana_status_box.update(label="❌ Phân tích thất bại!", state="error")
+                                st.error("❌ AI không trả về kết quả sau khi thử các model dự phòng. Vui lòng kiểm tra lại API Key hoặc mạng.")
 
                         # Display existing analysis
                         if existing_analysis:
@@ -3919,14 +4164,20 @@ if tabs.is_active(11):
 
                             ambiguous = existing_analysis.get('ambiguous', [])
                             threshold_pct = int(na_cfg.get('confidence_threshold', 0.8) * 100)
-                            need_qa = [a for a in ambiguous if int(a.get('confidence', 1.0) * 100) < threshold_pct]
+                            need_qa = [
+                                a for a in ambiguous
+                                if (int(a.get('confidence', 1.0) * 100) < threshold_pct
+                                    or a.get('category') in ('name', 'pronoun', 'relationship', 'honorific'))
+                            ]
                             if need_qa:
-                                with st.expander(f"❓ Cần làm rõ ({len(need_qa)}) — confidence < {threshold_pct}%", expanded=True):
+                                with st.expander(f"❓ Cần làm rõ ({len(need_qa)}) — Tên nhân vật, xưng hô & thuật ngữ cần duyệt", expanded=True):
                                     for a in need_qa:
                                         conf = int(a.get('confidence', 0) * 100)
+                                        cat_icon = {'honorific': '🎭', 'pronoun': '👤', 'name': '🏷️',
+                                                    'term': '📖', 'relationship': '🤝'}.get(a.get('category', ''), '❓')
                                         st.markdown(
-                                            f"<span style='color:#f0a500'>⚠️</span> **{a.get('original','')}** "
-                                            f"→ *{a.get('suggested','')}* ({conf}%) — {a.get('category','')}",
+                                            f"<span style='color:#f0a500'>⚠️</span> {cat_icon} **{a.get('original','')}** "
+                                            f"→ *{a.get('suggested','')}* ({conf}%) — {a.get('category','')}: {a.get('question','')}",
                                             unsafe_allow_html=True
                                         )
                             elif ambiguous:
@@ -3955,21 +4206,32 @@ if tabs.is_active(11):
 
                         threshold_q = na_cfg.get('confidence_threshold', 0.8)
                         ambiguous_q = analysis_q.get('ambiguous', [])
-                        # Phase 2: Auto-learning — skip terms already approved in project glossary
+                        # Phase 2: Auto-learning — skip terms already approved in project glossary or characters
                         memory_q = na_load_memory(na_proj)
                         approved_originals = {
                             g['original'] for g in memory_q.get('glossary', [])
                             if g.get('approved', False)
                         }
+                        approved_chars = {
+                            c['name'] for c in memory_q.get('characters', [])
+                            if c.get('name') and c.get('hanviet_name')
+                        }
+                        approved_rels = {
+                            r['pair'] for r in memory_q.get('relationships', [])
+                            if r.get('pair') and r.get('address')
+                        }
+                        approved_all = approved_originals | approved_chars | approved_rels
+
                         need_qa = [
                             a for a in ambiguous_q
-                            if a.get('confidence', 1.0) < threshold_q
-                            and a.get('original', '') not in approved_originals
+                            if (a.get('confidence', 1.0) < threshold_q
+                                or a.get('category') in ('name', 'pronoun', 'relationship', 'honorific'))
+                            and a.get('original', '') not in approved_all
                         ]
-                        if approved_originals:
+                        if approved_all:
                             skipped = [
                                 a for a in ambiguous_q
-                                if a.get('original', '') in approved_originals
+                                if a.get('original', '') in approved_all
                             ]
                             if skipped:
                                 _skip_names = ', '.join(
@@ -3977,8 +4239,8 @@ if tabs.is_active(11):
                                 )
                                 _ellipsis = '...' if len(skipped) > 5 else ''
                                 st.info(
-                                    f'🧠 Bỏ qua {len(skipped)} thuật ngữ '
-                                    f'đã được học (approved trong Glossary): '
+                                    f'🧠 Bỏ qua {len(skipped)} mục '
+                                    f'đã được xác nhận trước đó trong Memory: '
                                     f'{_skip_names}{_ellipsis}'
                                 )
 
@@ -3992,8 +4254,76 @@ if tabs.is_active(11):
                         pending = [q for q in clar_q.get('questions', []) if q['id'] not in existing_answers]
                         done = [q for q in clar_q.get('questions', []) if q['id'] in existing_answers]
 
+                        with st.expander("🤝 Quản lý & Bổ sung xưng hô 2 chiều (A ↔ B) vào Memory", expanded=False):
+                            st.caption("Xem danh sách hoặc chủ động lưu cặp xưng hô đối thoại 2 chiều mà không cần chờ AI phân tích.")
+                            rel_current = memory_q.get('relationships', [])
+                            if rel_current:
+                                st.markdown("**Các cặp xưng hô đã lưu trong Memory:**")
+                                for r in rel_current:
+                                    st.markdown(f"- **{r.get('pair', '')}**: `{r.get('address', '')}`")
+                                st.markdown("---")
+
+                            col_r1, col_r2 = st.columns(2)
+                            with col_r1:
+                                char_a = st.text_input("Nhân vật A:", placeholder="Ví dụ: Ji Chenxi / Kỷ Thần Hi", key=f"na_rel_char_a_{sel_ch_q}")
+                            with col_r2:
+                                char_b = st.text_input("Nhân vật B:", placeholder="Ví dụ: Chi Zhuo / Trì Trác", key=f"na_rel_char_b_{sel_ch_q}")
+
+                            col_r3, col_r4 = st.columns(2)
+                            with col_r3:
+                                addr_a_to_b = st.text_input(
+                                    "Chiều 1 (A xưng hô với B):",
+                                    placeholder="Ví dụ: xưng Tôi - gọi Anh (hoặc Tôi - Cậu)",
+                                    key=f"na_addr_a_to_b_{sel_ch_q}"
+                                )
+                            with col_r4:
+                                addr_b_to_a = st.text_input(
+                                    "Chiều 2 (B xưng hô với A - Ngược lại):",
+                                    placeholder="Ví dụ: xưng Tôi - gọi Cậu (hoặc Anh - Em)",
+                                    key=f"na_addr_b_to_a_{sel_ch_q}"
+                                )
+
+                            if st.button("💾 Lưu cả 2 chiều xưng hô vào Memory", key=f"na_save_rel_pair_{sel_ch_q}"):
+                                if char_a.strip() and char_b.strip() and (addr_a_to_b.strip() or addr_b_to_a.strip()):
+                                    mem_rel_save = na_load_memory(na_proj)
+                                    if addr_a_to_b.strip():
+                                        na_merge_relationship_entry(mem_rel_save.setdefault('relationships', []), {
+                                            'from': char_a.strip(),
+                                            'to': char_b.strip(),
+                                            'pair': f"{char_a.strip()} → {char_b.strip()}",
+                                            'address': addr_a_to_b.strip()
+                                        })
+                                        na_merge_glossary_entry(mem_rel_save.setdefault('glossary', []), {
+                                            'original': f"{char_a.strip()} → {char_b.strip()}",
+                                            'translation': addr_a_to_b.strip(),
+                                            'category': 'relationship',
+                                            'confidence': 1.0,
+                                            'approved': True,
+                                            'chapter_first_seen': sel_ch_q
+                                        })
+                                    if addr_b_to_a.strip():
+                                        na_merge_relationship_entry(mem_rel_save.setdefault('relationships', []), {
+                                            'from': char_b.strip(),
+                                            'to': char_a.strip(),
+                                            'pair': f"{char_b.strip()} → {char_a.strip()}",
+                                            'address': addr_b_to_a.strip()
+                                        })
+                                        na_merge_glossary_entry(mem_rel_save.setdefault('glossary', []), {
+                                            'original': f"{char_b.strip()} → {char_a.strip()}",
+                                            'translation': addr_b_to_a.strip(),
+                                            'category': 'relationship',
+                                            'confidence': 1.0,
+                                            'approved': True,
+                                            'chapter_first_seen': sel_ch_q
+                                        })
+                                    na_save_memory(na_proj, mem_rel_save)
+                                    st.success(f"✅ Đã lưu xưng hô 2 chiều giữa `{char_a.strip()}` và `{char_b.strip()}` vào Memory!")
+                                    st.rerun()
+                                else:
+                                    st.warning("⚠️ Vui lòng điền tên 2 nhân vật và ít nhất 1 chiều xưng hô.")
+
                         if not clar_q.get('questions'):
-                            st.success("✅ Không có câu hỏi nào — tất cả thuật ngữ đều có confidence cao. Có thể dịch ngay!")
+                            st.success("✅ Không có câu hỏi nào — tất cả nhân vật và thuật ngữ đã được xác nhận. Có thể dịch ngay!")
                         else:
                             # Progress
                             n_total = len(clar_q.get('questions', []))
@@ -4019,16 +4349,16 @@ if tabs.is_active(11):
                                             f"<div style='display:flex;justify-content:space-between;align-items:center'>"
                                             f"<span style='font-size:0.9rem;color:#5c564d'>{cat_icon} {q.get('category','').upper()}</span>"
                                             f"<span style='color:{color};font-weight:600'>{conf_pct}% confidence</span></div>"
-                                            f"<p style='margin:0.5rem 0;font-size:1.1rem;color:#2D2A26'>原文: "
+                                            f"<p style='margin:0.5rem 0;font-size:1.1rem;color:#2D2A26'>Gốc / Đối tượng: "
                                             f"<code style='background:#D1CFC7;padding:2px 6px;border-radius:4px'>{q.get('original','')}</code></p>"
-                                            f"<p style='margin:0;color:#0D9488'>💡 Gợi ý: <b>{q.get('suggested','')}</b></p>"
-                                            f"<p style='margin:0.3rem 0 0;color:#5c564d;font-size:0.88rem'>{q.get('question','')}</p>"
+                                            f"<p style='margin:0;color:#0D9488'>💡 Gợi ý AI: <b>{q.get('suggested','')}</b></p>"
+                                            f"<p style='margin:0.3rem 0 0;color:#5c564d;font-size:0.88rem'>❓ {q.get('question','')}</p>"
                                             f"</div>",
                                             unsafe_allow_html=True
                                         )
                                         opts = q.get('options', []) + ["✏️ Nhập tay"]
                                         chosen = st.radio(
-                                            "Chọn cách dịch:", opts,
+                                            "Chọn cách dịch / xưng hô:", opts,
                                             key=f"na_q_{qid}_radio",
                                             horizontal=True,
                                             label_visibility="collapsed"
@@ -4036,8 +4366,8 @@ if tabs.is_active(11):
                                         custom_val = ""
                                         if chosen == "✏️ Nhập tay":
                                             custom_val = st.text_input(
-                                                "Nhập bản dịch:", key=f"na_q_{qid}_custom",
-                                                placeholder=f"Dịch cho '{q.get('original','')}'..."
+                                                "Nhập bản dịch / xưng hô tự chọn:", key=f"na_q_{qid}_custom",
+                                                placeholder=f"Nhập cho '{q.get('original','')}'..."
                                             )
                                         new_answers[qid] = {
                                             'choice': chosen if chosen != "✏️ Nhập tay" else 'Custom',
@@ -4048,8 +4378,71 @@ if tabs.is_active(11):
                                     clar_q['answers'] = new_answers
                                     clar_q['answered_at'] = now_gmt7().isoformat()
                                     na_save_json(clar_path_q, clar_q)
-                                    log_action("Novel Agent", f"Clarifications: {sel_ch_q} | {len(new_answers)} câu")
-                                    st.success("✅ Đã lưu câu trả lời!")
+
+                                    # Đồng bộ câu trả lời đã xác nhận vào Memory dự án
+                                    mem_to_update = na_load_memory(na_proj)
+                                    for q in clar_q.get('questions', []):
+                                        qid = q.get('id', '')
+                                        if qid in new_answers:
+                                            ans_item = new_answers[qid]
+                                            val = ans_item.get('custom') or ans_item.get('choice')
+                                            if not val or val == 'Custom':
+                                                continue
+                                            q_cat = q.get('category', '')
+                                            q_orig = q.get('original', '')
+                                            if q_cat == 'name':
+                                                na_merge_character_entry(mem_to_update.setdefault('characters', []), {
+                                                    'name': q_orig,
+                                                    'hanviet_name': val,
+                                                    'role': 'Approved character'
+                                                })
+                                            elif q_cat in ('pronoun', 'relationship', 'honorific'):
+                                                import re as _re
+                                                m_p3 = _re.search(r'^(.*?)\s*\(ngôi(?:\s*thứ)?\s*3\)', q_orig, _re.IGNORECASE)
+                                                if m_p3:
+                                                    c_target = m_p3.group(1).strip()
+                                                    na_merge_character_entry(mem_to_update.setdefault('characters', []), {
+                                                        'name': c_target,
+                                                        'third_person_pronoun': val,
+                                                    })
+                                                # Check if directional address: A -> B or A → B
+                                                m_rel = _re.search(r'^(.*?)\s*(?:→|->)\s*(.*?)$', q_orig)
+                                                if m_rel or q_cat == 'relationship':
+                                                    if m_rel:
+                                                        p_from = m_rel.group(1).strip()
+                                                        p_to = m_rel.group(2).strip()
+                                                        na_merge_relationship_entry(mem_to_update.setdefault('relationships', []), {
+                                                            'from': p_from,
+                                                            'to': p_to,
+                                                            'pair': f"{p_from} → {p_to}",
+                                                            'address': val
+                                                        })
+                                                    else:
+                                                        na_merge_relationship_entry(mem_to_update.setdefault('relationships', []), {
+                                                            'pair': q_orig,
+                                                            'address': val
+                                                        })
+                                                na_merge_glossary_entry(mem_to_update.setdefault('glossary', []), {
+                                                    'original': q_orig,
+                                                    'translation': val,
+                                                    'category': 'pronoun' if m_p3 else 'relationship',
+                                                    'confidence': 1.0,
+                                                    'approved': True,
+                                                    'chapter_first_seen': sel_ch_q
+                                                })
+                                            elif q_cat == 'term':
+                                                na_merge_glossary_entry(mem_to_update.setdefault('glossary', []), {
+                                                    'original': q_orig,
+                                                    'translation': val,
+                                                    'category': 'term',
+                                                    'confidence': 1.0,
+                                                    'approved': True,
+                                                    'chapter_first_seen': sel_ch_q
+                                                })
+                                    na_save_memory(na_proj, mem_to_update)
+
+                                    log_action("Novel Agent", f"Clarifications: {sel_ch_q} | {len(new_answers)} câu (Đã đồng bộ Memory)")
+                                    st.success("✅ Đã lưu câu trả lời và đồng bộ vào Memory của Project!")
                                     st.rerun()
 
                             if done:
@@ -4363,18 +4756,79 @@ if tabs.is_active(11):
                                 with open(trans_path_t, 'r', encoding='utf-8') as _f:
                                     trans_content = _f.read()
 
-                            with st.expander("📄 Xem bản dịch", expanded=False):
-                                st.text_area("Bản dịch:", trans_content,
-                                             height=400, key="na_trans_view")
+                            import re as _re
+                            clean_trans = _re.sub(r'^---[\s\S]*?---\s*', '', trans_content or '', count=1).strip()
+
+                            with st.expander("📄 Xem & Chỉnh sửa bản dịch", expanded=False):
+                                edited_trans = st.text_area(
+                                    "Bản dịch:",
+                                    value=clean_trans,
+                                    height=400,
+                                    key=f"na_trans_view_{sel_ch_t}"
+                                )
+                                if st.button("💾 Lưu chỉnh sửa thủ công", key=f"btn_save_manual_{sel_ch_t}"):
+                                    na_save_chapter_as_md(na_proj, sel_ch_t, edited_trans)
+                                    st.session_state[f'na_trans_{sel_ch_t}'] = edited_trans
+                                    st.success("✅ Đã lưu chỉnh sửa bản dịch thành công!")
+                                    st.rerun()
 
                             # Review report
                             review_data = None
                             if os.path.exists(review_path_t):
                                 review_data = na_load_json(review_path_t, {})
-                            if review_data or st.session_state.get(f'na_review_{sel_ch_t}'):
-                                report_text = review_data.get('report', '') if review_data else st.session_state.get(f'na_review_{sel_ch_t}', '')
-                                with st.expander("🔍 Báo cáo Consistency Review", expanded=True):
+                            report_text = review_data.get('report', '') if review_data else st.session_state.get(f'na_review_{sel_ch_t}', '')
+
+                            with st.expander("🔍 Báo cáo Consistency Review & Sửa lỗi", expanded=bool(report_text)):
+                                if report_text:
                                     st.markdown(report_text)
+                                    st.markdown("---")
+                                    col_rev1, col_rev2 = st.columns([2, 1])
+                                    with col_rev1:
+                                        btn_apply_review = st.button(
+                                            "🛠️ Tự động sửa bản dịch theo Review này",
+                                            type="primary",
+                                            key=f"na_apply_review_{sel_ch_t}",
+                                            help="AI sẽ rà soát và chỉnh sửa lại bản dịch để khắc phục tất cả các lỗi được chỉ ra trong báo cáo Consistency Review"
+                                        )
+                                    with col_rev2:
+                                        btn_rerun_review = st.button(
+                                            "🔄 Chạy lại Consistency Review",
+                                            key=f"na_rerun_review_{sel_ch_t}",
+                                            help="Chạy lại kiểm tra tính nhất quán cho bản dịch hiện tại"
+                                        )
+
+                                    if btn_apply_review:
+                                        with st.spinner("🛠️ AI đang tự động sửa bản dịch theo báo cáo Review..."):
+                                            revised_text = na_apply_review_fixes_for_chapter(na_proj, sel_ch_t, na_cfg)
+                                            if revised_text:
+                                                st.session_state[f'na_trans_{sel_ch_t}'] = revised_text
+                                                r_data = na_load_json(review_path_t, {})
+                                                st.session_state[f'na_review_{sel_ch_t}'] = r_data.get('report', '')
+                                                st.success("✅ Đã tự động cập nhật bản dịch theo các góp ý trong Consistency Review!")
+                                                st.rerun()
+                                            else:
+                                                st.error("❌ Không thể sửa bản dịch lúc này. Vui lòng thử lại.")
+
+                                    if btn_rerun_review:
+                                        with st.spinner("🔍 Đang chạy lại Consistency Review..."):
+                                            new_rev_result = na_run_consistency_review_for_chapter(na_proj, sel_ch_t, na_cfg)
+                                            if new_rev_result:
+                                                st.session_state[f'na_review_{sel_ch_t}'] = new_rev_result
+                                                st.success("✅ Đã cập nhật Báo cáo Consistency Review mới!")
+                                                st.rerun()
+                                            else:
+                                                st.error("❌ Chạy review thất bại. Vui lòng thử lại.")
+                                else:
+                                    st.info("Chương này chưa có Báo cáo Consistency Review.")
+                                    if st.button("🔍 Chạy Consistency Review ngay", key=f"btn_run_rev_new_{sel_ch_t}"):
+                                        with st.spinner("🔍 Đang chạy Consistency Review..."):
+                                            new_rev_result = na_run_consistency_review_for_chapter(na_proj, sel_ch_t, na_cfg)
+                                            if new_rev_result:
+                                                st.session_state[f'na_review_{sel_ch_t}'] = new_rev_result
+                                                st.success("✅ Đã tạo Báo cáo Consistency Review thành công!")
+                                                st.rerun()
+                                            else:
+                                                st.error("❌ Chạy review thất bại. Vui lòng thử lại.")
 
                             # ── Accept & Update Memory ──
                             st.divider()
@@ -4455,6 +4909,183 @@ if tabs.is_active(11):
                                         with st.expander("Raw output"):
                                             st.code(mem_raw)
 
+                    # ── Batch Consistency Review & Sửa Lỗi Hàng Loạt ──
+                    st.divider()
+                    st.markdown("#### 🔍 Batch Consistency Review & Sửa Lỗi Bản Dịch Hàng Loạt")
+                    st.caption("Kiểm tra tính nhất quán (tên riêng, xưng hô 2 chiều, thuật ngữ) và tự động sửa chữa hàng loạt các chương đã dịch.")
+
+                    b_all_trans_chs = [
+                        ch for ch in chapters_av
+                        if os.path.exists(os.path.join(na_chapter_dir(na_proj, ch), 'translation.md'))
+                    ]
+
+                    if not b_all_trans_chs:
+                        st.info("Chưa có chương nào được dịch trong project để chạy Consistency Review.")
+                    else:
+                        b_no_rev_chs = []
+                        b_pending_fix_chs = []
+                        b_fixed_chs = []
+
+                        for ch in b_all_trans_chs:
+                            r_path = os.path.join(na_chapter_dir(na_proj, ch), 'review_report.json')
+                            if not os.path.exists(r_path):
+                                b_no_rev_chs.append(ch)
+                            else:
+                                r_json = na_load_json(r_path, {})
+                                if r_json.get('applied_at'):
+                                    b_fixed_chs.append(ch)
+                                else:
+                                    b_pending_fix_chs.append(ch)
+
+                        col_bm1, col_bm2, col_bm3, col_bm4 = st.columns(4)
+                        with col_bm1:
+                            st.metric("Tổng chương đã dịch", len(b_all_trans_chs))
+                        with col_bm2:
+                            st.metric("Chưa review", len(b_no_rev_chs))
+                        with col_bm3:
+                            st.metric("Đã review, chờ sửa", len(b_pending_fix_chs))
+                        with col_bm4:
+                            st.metric("Đã sửa hoàn tất", len(b_fixed_chs))
+
+                        col_bs1, col_bs2 = st.columns([2, 1])
+                        with col_bs1:
+                            scope_mode = st.radio(
+                                "Phạm vi chạy batch:",
+                                [
+                                    f"Chưa review ({len(b_no_rev_chs)} chương)",
+                                    f"Đã review nhưng chưa sửa ({len(b_pending_fix_chs)} chương)",
+                                    f"Tất cả chương đã dịch ({len(b_all_trans_chs)} chương)",
+                                    "Tùy chọn danh sách chương"
+                                ],
+                                index=0 if b_no_rev_chs else (1 if b_pending_fix_chs else 2),
+                                horizontal=True,
+                                key="na_batch_rev_scope_mode"
+                            )
+
+                        if "Chưa review" in scope_mode:
+                            selected_candidates = b_no_rev_chs
+                        elif "chưa sửa" in scope_mode:
+                            selected_candidates = b_pending_fix_chs
+                        elif "Tất cả" in scope_mode:
+                            selected_candidates = b_all_trans_chs
+                        else:
+                            selected_candidates = st.multiselect(
+                                "Chọn các chương cần xử lý:",
+                                b_all_trans_chs,
+                                default=b_no_rev_chs if b_no_rev_chs else b_all_trans_chs[:10],
+                                key="na_batch_rev_custom_chs"
+                            )
+
+                        if selected_candidates:
+                            with col_bs2:
+                                batch_rev_chunk = st.number_input(
+                                    "Số chương mỗi đợt:",
+                                    min_value=1,
+                                    max_value=max(1, len(selected_candidates)),
+                                    value=min(10, len(selected_candidates)),
+                                    step=1,
+                                    key="na_batch_rev_chunk_size",
+                                    help="Chạy batch theo từng đợt để dễ kiểm soát và tránh quá tải API"
+                                )
+                            final_batch_chs = selected_candidates[:batch_rev_chunk]
+                        else:
+                            final_batch_chs = []
+
+                        col_ba1, col_ba2, col_ba3 = st.columns(3)
+                        with col_ba1:
+                            btn_batch_rev = st.button(
+                                f"🔍 Batch Review ({len(final_batch_chs)} ch)",
+                                key="na_btn_batch_rev",
+                                use_container_width=True,
+                                disabled=len(final_batch_chs) == 0,
+                                help="Chỉ chạy phân tích Consistency Review và lưu báo cáo vào từng chương"
+                            )
+                        with col_ba2:
+                            btn_batch_fix = st.button(
+                                f"🛠️ Batch Sửa ({len(final_batch_chs)} ch)",
+                                key="na_btn_batch_fix",
+                                use_container_width=True,
+                                disabled=len(final_batch_chs) == 0,
+                                help="Tự động sửa lại bản dịch cho các chương đã có Báo cáo Consistency Review"
+                            )
+                        with col_ba3:
+                            btn_batch_pipeline = st.button(
+                                f"⚡ Review & Sửa Luôn ({len(final_batch_chs)} ch)",
+                                type="primary",
+                                key="na_btn_batch_pipeline",
+                                use_container_width=True,
+                                disabled=len(final_batch_chs) == 0,
+                                help="Quy trình khép kín: Tự động chạy Consistency Review rồi ngay lập tức áp dụng sửa bản dịch"
+                            )
+
+                        if btn_batch_rev and final_batch_chs:
+                            log_action("Novel Agent", f"Batch Consistency Review: {len(final_batch_chs)} chapters")
+                            mem_b = na_load_memory(na_proj)
+                            status_rev = st.status(f"🔍 Đang chạy Consistency Review cho {len(final_batch_chs)} chương...", expanded=True)
+                            prog_rev = st.progress(0)
+                            success_rev = 0
+                            for b_idx, b_ch in enumerate(final_batch_chs):
+                                status_rev.write(f"🔍 [{b_idx+1}/{len(final_batch_chs)}] Đang review `{b_ch}`...")
+                                res = na_run_consistency_review_for_chapter(na_proj, b_ch, na_cfg, mem_b, stat_obj=status_rev)
+                                if res:
+                                    success_rev += 1
+                                    status_rev.write(f"✅ Đã lưu review cho `{b_ch}`")
+                                else:
+                                    status_rev.write(f"⚠️ Thất bại hoặc bỏ qua `{b_ch}`")
+                                prog_rev.progress((b_idx + 1) / len(final_batch_chs))
+                            status_rev.update(label=f"✅ Hoàn tất Review: {success_rev}/{len(final_batch_chs)} chương thành công!", state="complete", expanded=False)
+                            st.success(f"Hoàn thành Batch Consistency Review: {success_rev}/{len(final_batch_chs)} chương!")
+                            st.rerun()
+
+                        if btn_batch_fix and final_batch_chs:
+                            log_action("Novel Agent", f"Batch Apply Review Fixes: {len(final_batch_chs)} chapters")
+                            mem_b = na_load_memory(na_proj)
+                            status_fix = st.status(f"🛠️ Đang tự động sửa bản dịch theo Review cho {len(final_batch_chs)} chương...", expanded=True)
+                            prog_fix = st.progress(0)
+                            success_fix = 0
+                            for b_idx, b_ch in enumerate(final_batch_chs):
+                                r_path_check = os.path.join(na_chapter_dir(na_proj, b_ch), 'review_report.json')
+                                if not os.path.exists(r_path_check):
+                                    status_fix.write(f"⏭️ Bỏ qua `{b_ch}` (Chưa có báo cáo Review)")
+                                    continue
+                                status_fix.write(f"🛠️ [{b_idx+1}/{len(final_batch_chs)}] Đang sửa bản dịch `{b_ch}`...")
+                                res_fix = na_apply_review_fixes_for_chapter(na_proj, b_ch, na_cfg, mem_b, stat_obj=status_fix)
+                                if res_fix:
+                                    success_fix += 1
+                                    status_fix.write(f"✅ Đã cập nhật bản dịch `{b_ch}`")
+                                else:
+                                    status_fix.write(f"⚠️ Không thể sửa `{b_ch}`")
+                                prog_fix.progress((b_idx + 1) / len(final_batch_chs))
+                            status_fix.update(label=f"✅ Hoàn tất Sửa lỗi: {success_fix}/{len(final_batch_chs)} chương!", state="complete", expanded=False)
+                            st.success(f"Hoàn thành Batch Sửa Theo Review: {success_fix}/{len(final_batch_chs)} chương!")
+                            st.rerun()
+
+                        if btn_batch_pipeline and final_batch_chs:
+                            log_action("Novel Agent", f"Batch Pipeline (Review & Fix): {len(final_batch_chs)} chapters")
+                            mem_b = na_load_memory(na_proj)
+                            status_pipe = st.status(f"⚡ Đang chạy quy trình Review & Sửa tự động cho {len(final_batch_chs)} chương...", expanded=True)
+                            prog_pipe = st.progress(0)
+                            success_pipe = 0
+                            for b_idx, b_ch in enumerate(final_batch_chs):
+                                status_pipe.write(f"🔍 [{b_idx+1}/{len(final_batch_chs)}] (1/2) Reviewing `{b_ch}`...")
+                                rev_res = na_run_consistency_review_for_chapter(na_proj, b_ch, na_cfg, mem_b, stat_obj=status_pipe)
+                                if not rev_res:
+                                    status_pipe.write(f"⚠️ Thất bại bước Review cho `{b_ch}`, bỏ qua sửa.")
+                                    prog_pipe.progress((b_idx + 1) / len(final_batch_chs))
+                                    continue
+
+                                status_pipe.write(f"🛠️ [{b_idx+1}/{len(final_batch_chs)}] (2/2) Fixing `{b_ch}` theo Review...")
+                                fix_res = na_apply_review_fixes_for_chapter(na_proj, b_ch, na_cfg, mem_b, stat_obj=status_pipe)
+                                if fix_res:
+                                    success_pipe += 1
+                                    status_pipe.write(f"✅ Hoàn tất Review & Sửa cho `{b_ch}`")
+                                else:
+                                    status_pipe.write(f"⚠️ Lỗi ở bước Sửa bản dịch cho `{b_ch}`")
+                                prog_pipe.progress((b_idx + 1) / len(final_batch_chs))
+                            status_pipe.update(label=f"✅ Hoàn tất Quy trình: {success_pipe}/{len(final_batch_chs)} chương thành công!", state="complete", expanded=False)
+                            st.success(f"Hoàn thành Batch Pipeline Review & Sửa: {success_pipe}/{len(final_batch_chs)} chương!")
+                            st.rerun()
+
                     # ── Export Project to EPUB Direct ──
                     st.divider()
                     st.markdown("#### 📚 Đóng Gói File EPUB Trực Tiếp")
@@ -4466,10 +5097,25 @@ if tabs.is_active(11):
                         st.info("Chưa có chương nào được dịch trong project này để xuất EPUB.")
                     else:
                         st.caption(f"Project **{na_cfg.get('title', na_proj)}** hiện có **{len(na_tr_chs)}** chương đã dịch.")
+
+                        col_dep1, col_dep2 = st.columns([1, 1])
+                        with col_dep1:
+                            na_dir_author = st.text_input("Tác giả / Nguồn (sẽ kèm vào EPUB):", value=na_cfg.get('author', 'Web Novel / Rin Translation'), key=f"na_dir_author_{na_proj}")
+                        with col_dep2:
+                            na_dir_desc = st.text_area("Văn án / Giới thiệu truyện (kèm vào đầu EPUB):", value=na_cfg.get('description', ''), height=90, key=f"na_dir_desc_{na_proj}",
+                                                       help="Văn án này sẽ được tạo thành trang 'Văn Án' riêng biệt ngay trước Chương 1 trong file EPUB.")
+
                         if st.button(f"⚡ Đóng Gói {len(na_tr_chs)} Chương Dịch Sang EPUB", key="na_direct_epub_btn", type="primary"):
                             with st.spinner("Đang đóng gói file EPUB..."):
                                 try:
                                     from epub_generator import create_epub
+
+                                    # Save updated author or description to config if modified
+                                    if na_dir_author.strip() != na_cfg.get('author', '') or na_dir_desc.strip() != na_cfg.get('description', ''):
+                                        na_cfg['author'] = na_dir_author.strip()
+                                        na_cfg['description'] = na_dir_desc.strip()
+                                        na_save_config(na_proj, na_cfg)
+
                                     na_crawled_list = []
                                     for ch in na_tr_chs:
                                         tp = os.path.join(na_chapter_dir(na_proj, ch), 'translation.md')
@@ -4491,18 +5137,20 @@ if tabs.is_active(11):
                                             'word_count': len(body.split())
                                         })
 
+                                    final_desc = na_dir_desc.strip() or f"Truyện dịch AI bởi Novel Agent. Tổng số chương: {len(na_crawled_list)}."
+
                                     direct_epub_bytes = create_epub(
                                         title=na_cfg.get('title', na_proj),
-                                        author="AI Novel Agent / Rin Translation",
+                                        author=na_dir_author.strip() or "AI Novel Agent / Rin Translation",
                                         chapters=na_crawled_list,
-                                        description=f"Truyện dịch AI bởi Novel Agent. Tổng số chương: {len(na_crawled_list)}.",
+                                        description=final_desc,
                                         language="vi"
                                     )
                                     st.session_state['na_direct_epub_bytes'] = direct_epub_bytes
                                     fname = f"{na_slugify(na_cfg.get('title', na_proj))}.epub"
                                     st.session_state['na_direct_epub_filename'] = fname
                                     st.session_state['na_direct_epub_info'] = na_save_and_get_epub_download_info(fname, direct_epub_bytes)
-                                    st.success("🎉 Đã đóng gói EPUB thành công!")
+                                    st.success("🎉 Đã đóng gói EPUB thành công (kèm Văn Án)!")
                                 except Exception as _ex_ep:
                                     st.error(f"❌ Lỗi đóng gói EPUB: {_ex_ep}")
 
@@ -6339,7 +6987,7 @@ if tabs.is_active(12):
             if src_type == "🌐 Web URL (Crawl)":
                 crawl_site = st.selectbox(
                     "Website:",
-                    ["Novelib", "Cherry Mist", "ZenithTL", "Hyacinth Bloom", "Mistmint Haven", "PIE NOVELS", "BL Reads", "URL tùy chỉnh"],
+                    ["Novelib", "Cherry Mist", "ZenithTL", "Hyacinth Bloom", "Mistmint Haven", "PIE NOVELS", "BL Reads", "KnoxT", "URL tùy chỉnh"],
                     key="aud_crawl_site",
                 )
                 crawl_presets = {
@@ -6350,6 +6998,7 @@ if tabs.is_active(12):
                     "Mistmint Haven": "https://www.mistminthaven.com/novels/rolling-in-bed-with-the-male-lead",
                     "PIE NOVELS": "https://pienovels.com/novels/ill-raise-the-villain-who-killed-me/",
                     "BL Reads": "https://blreads.tech/story/the-demon-king-has-face-blindness-book/",
+                    "KnoxT": "https://knoxt.space/after-marking-the-protagonist-a/",
                     "URL tùy chỉnh": "",
                 }
                 crawl_url = st.text_input(

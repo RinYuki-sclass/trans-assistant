@@ -1,0 +1,53 @@
+---
+title: Chương 76: AMTPA Chapter 76
+---
+
+Ji Chenxi obviously knew how to be subtle and low-key. It wasn’t like he couldn’t tone himself down a bit in front of Chen Xing. But right now, the person standing before him was Chen Xing—someone who could be a key ally when they were on the same side, and a deadly threat when they weren’t. Because of that, Ji Chenxi had no choice but to be extra careful. The other party’s attitude was a crucial piece of the puzzle.
+
+A perfectionist… but what even counted as “perfect”? That was hard to define. From what Ji Chenxi knew, quite a few people’s idea of “perfection” leaned toward something almost obsessive. And based on his understanding of Chen Xing, this guy shouldn’t be the type to accept a “flaw” like this so easily.
+
+Faced with Ji Chenxi’s blunt words, Chen Xing went quiet for a moment before repeating the same line, “As long as Your Highness doesn’t regret it in the future, that’s all that matters.”
+
+Ji Chenxi blinked lightly.
+
+Chen Xing wasn’t being sarcastic. His tone carried a kind of quiet certainty.
+
+As if he was completely sure that no alpha could stay in that kind of close relationship with another alpha for long—so before that point came, he was willing to step back first.
+
+Ji Chenxi almost couldn’t hold back a laugh. Chen Xing’s guess wasn’t wrong—alphas really did struggle to stay close with another alpha. A big reason for that was the natural clash between their pheromones. But… what if the other person didn’t reject his pheromones at all?
+
+In fact, Chi Zhuo seemed to have a kind of craving for his pheromones—something different from other alphas.
+
+“Your Highness, sometimes we can’t be too confident,” Chen Xing said calmly. “A person’s choice can be made in a single moment, but there are always countless people who regret what they chose just a second ago. Even I’m like that sometimes. What makes Your Highness think you’re the exception?”
+
+Ji Chenxi didn’t argue back. Instead, he said, “What you said makes sense. But even if he and I aren’t suited for each other, then we’re just not suited. It’s not really about regret or no regret.”
+
+Chen Xing’s gaze didn’t change. He even gave a faint nod. “Not regretting any decision you’ve made—that’s a good thing.”
+
+Chen Xing wasn’t rude enough to ask who that person was, and Ji Chenxi naturally didn’t bring it up either. He simply smiled and let the whole topic slide.
+
+After the freshman trial came official enrollment. After resting for a few days, Ji Chenxi finally stepped onto his campus.
+
+And Chen Xing—someone he had only brought back two days ago—already held the position of a professor at the Imperial Royal Academy. On the surface, Ji Chenxi curved his lips slightly, as if pleased that they would have more chances to interact. But deep down, he couldn’t help frowning at how deeply the other man had already worked his way in.
+
+The Imperial Royal Academy was, after all, a place where the empire’s elites were trained. The screening process for teachers and staff was extremely strict. Yet Chen Xing had managed to slip in and secure a professor’s identity so easily. That made Ji Chenxi wonder—if this could happen so openly, then in the places he couldn’t see, were there other forces quietly infiltrating as well? The human experimentation he and Su Yu had stumbled upon before definitely wasn’t an isolated case. Things like that were like cockroaches—spot one or two, and chances were there were plenty more hiding in the dark.
+
+The empire’s power was vast, but that very size made it riddled with holes, like a sieve full of weak points.
+
+As long as they didn’t bring up the matter of him choosing an alpha as his partner, Ji Chenxi and Chen Xing worked together with surprising ease. After meeting up, the first thing they did was carefully plan their next move regarding his second sister.
+
+To be honest, compared to his more predictable older brother, his second sister was the real danger. She stayed hidden in the shadows, quietly watching the two of them fight, ready to reap the benefits—or maybe waiting for the perfect moment to strike them both down. For now, Ji Chenxi couldn’t quite tell which. Back when he was “assassinated,” if not for the old man stepping in, he could’ve used his elder brother’s strength to test just how capable his second sister really was, and how many hidden cards she held. Unfortunately, plans rarely went as expected.
+
+So when Chen Xing suggested that, if they were going to take them down one by one, they should start with the Second Princess, Ji Chenxi didn’t even bother to argue.
+
+His second sister wasn’t the eldest nor born of the main wife, and she was a female alpha. In the fight for that position, she was already at a natural disadvantage. Since ancient times, the throne usually went to the eldest or the legitimate heir. So what exactly was her backup plan? What made her get close to the young master of the Second Legion, even putting up with his spoiled and overbearing temper? It had to mean she had something else up her sleeve—something that made her believe that with the support of two legions, she could move one step closer to that seat.
+
+If he couldn’t see through it, couldn’t guess it, then there was only one option—set a trap and force her hand. Let him see exactly where her confidence came from.
+
+While laying the trap for the Second Princess, Chen Xing had asked him, “Does the Third Prince not want to drag the First Prince into this as well?”
+
+At the time, Ji Chenxi was casually playing with his terminal. Hearing that, he only gave a faint smile. “Not pulling him in… is the same as pulling him in.”
+
+The more this trap looked like Ji Chenxi’s doing, the more his second sister would suspect their elder brother instead. After all, in the eyes of others, Ji Chenxi was only eighteen—still too young, too green. He hadn’t even built up his own power yet. A scheme this precise, something that required careful planning and investigation, couldn’t possibly be his work.
+
+And that impossibility… was exactly what Ji Chenxi was counting on.

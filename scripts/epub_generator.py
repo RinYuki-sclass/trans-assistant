@@ -127,7 +127,6 @@ def create_epub(
         <div style="text-align: center; padding-top: 20%;">
             <h1 class="book-title">{_escape_html(title)}</h1>
             <p class="author-name">Tác giả / Nguồn: {_escape_html(author)}</p>
-            {f'<div style="margin-top:3em; font-style:italic;">{_escape_html(description)}</div>' if description else ''}
         </div>
     </body>
     </html>
@@ -143,6 +142,36 @@ def create_epub(
 
     epub_chapters = []
     spine_items = ["nav", title_page]
+
+    # Description / Văn Án Page (if provided)
+    if description and description.strip():
+        desc_lines = [p.strip() for p in description.strip().split('\n') if p.strip()]
+        desc_html_body = ["<h2>Văn Án / Giới Thiệu</h2>"]
+        for dl in desc_lines:
+            desc_html_body.append(f"<p>{_escape_html(dl)}</p>")
+
+        desc_content = f"""
+        <!DOCTYPE html>
+        <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops">
+        <head>
+            <title>Văn Án</title>
+            <link rel="stylesheet" href="style/style.css" type="text/css"/>
+        </head>
+        <body>
+            {''.join(desc_html_body)}
+        </body>
+        </html>
+        """
+        desc_page = epub.EpubHtml(
+            title="Văn Án",
+            file_name="description.xhtml",
+            lang=language
+        )
+        desc_page.content = desc_content
+        desc_page.add_item(nav_css)
+        book.add_item(desc_page)
+        epub_chapters.append(desc_page)
+        spine_items.append(desc_page)
 
     # Process Chapters
     for idx, ch in enumerate(chapters, start=1):

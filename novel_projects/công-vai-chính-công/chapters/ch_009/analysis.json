@@ -1,0 +1,268 @@
+{
+  "chapter_summary": "Chi Zhuo và Ji Chenxi bị hải tặc Xích Hạt tấn công. Dù tàu của Chi Zhuo rất hiện đại, số lượng tàu địch áp đảo khiến họ gặp nguy hiểm. Người đàn ông trung niên lái tàu thoát khỏi vòng vây ban đầu, trong khi Chi Zhuo thể hiện kỹ năng chiến đấu ấn tượng, phá hủy hai tàu địch. Ji Chenxi nghi ngờ Chi Zhuo biết trước về cuộc tấn công, nhưng Chi Zhuo phủ nhận, nói rằng mình chỉ 'đi ngang qua'. Cuộc truy đuổi trở nên khốc liệt hơn khi hải tặc nhận lệnh từ Phó chỉ huy và sau đó là tin Thuyền trưởng Độc Hạt đích thân đến. Ji Chenxi và Chi Zhuo tiếp tục bặt thiệp trong khi đối mặt với tình thế ngày càng nguy cấp, đặc biệt khi trường từ bị nhiễu loạn khiến việc nhảy không gian thất bại.",
+  "new_characters": [
+    {
+      "name": "Bai Han",
+      "hanviet_name": "Bạch Hàn",
+      "gender": "female",
+      "role": "Chi Zhuo's subordinate",
+      "description": "Một Beta, trợ lý của Chi Zhuo, giỏi xử lý dữ liệu hệ thống. Cô ấy trông có vẻ yếu ớt nhưng rất thông minh."
+    },
+    {
+      "name": "Middle-aged man",
+      "hanviet_name": null,
+      "gender": "male",
+      "role": "Chi Zhuo's pilot",
+      "description": "Phi công chính của tàu Chi Zhuo, có kỹ năng lái tàu xuất sắc, được cho là một Alpha cấp S."
+    },
+    {
+      "name": "Younger man",
+      "hanviet_name": null,
+      "gender": "male",
+      "role": "Chi Zhuo's subordinate",
+      "description": "Một thuộc hạ của Chi Zhuo, phụ trách liên lạc và gửi tin nhắn."
+    },
+    {
+      "name": "Shadow",
+      "hanviet_name": "Ảnh",
+      "gender": "male",
+      "role": "Captured individual",
+      "description": "Một người đàn ông đang bị thương và co giật trên sàn tàu, được Bai Han tiêm thuốc giải độc."
+    },
+    {
+      "name": "Man with the golden-rimmed glasses",
+      "hanviet_name": null,
+      "gender": "male",
+      "role": "Red Scorpions' Deputy Commander",
+      "description": "Phó chỉ huy của hải tặc Xích Hạt, người ra lệnh truy đuổi Ji Chenxi."
+    },
+    {
+      "name": "Amis",
+      "hanviet_name": "A Mễ Tư",
+      "gender": "female",
+      "role": "Red Scorpions' subordinate",
+      "description": "Một thuộc hạ của Phó chỉ huy, phụ trách lái tàu và tăng hỏa lực cho hải tặc Xích Hạt."
+    },
+    {
+      "name": "Poison Scorpion",
+      "hanviet_name": "Độc Hạt",
+      "gender": "male",
+      "role": "Red Scorpions' Captain",
+      "description": "Thuyền trưởng của hải tặc Xích Hạt, người đã xây dựng băng hải tặc từ con số không và được coi là một nhân vật đáng sợ."
+    }
+  ],
+  "new_locations": [],
+  "new_terms": [
+    {
+      "original": "Red Scorpion pirates",
+      "suggested": "Hải tặc Xích Hạt",
+      "hanviet": "Xích Hạt Hải Tặc Đoàn (赤蝎海盗团)",
+      "category": "faction",
+      "confidence": 0.8
+    },
+    {
+      "original": "S-class alpha",
+      "suggested": "Alpha cấp S",
+      "hanviet": null,
+      "category": "other",
+      "confidence": 0.8
+    },
+    {
+      "original": "photon blasts",
+      "suggested": "Pháo quang tử",
+      "hanviet": "Quang tử pháo (光子炮)",
+      "category": "skill",
+      "confidence": 0.8
+    },
+    {
+      "original": "wrist console",
+      "suggested": "Bảng điều khiển cổ tay",
+      "hanviet": null,
+      "category": "item",
+      "confidence": 0.7
+    },
+    {
+      "original": "magnetic field",
+      "suggested": "Trường từ",
+      "hanviet": "Từ trường (磁场)",
+      "category": "other",
+      "confidence": 0.8
+    },
+    {
+      "original": "mecha",
+      "suggested": "Cơ giáp",
+      "hanviet": "Cơ giáp (机甲)",
+      "category": "item",
+      "confidence": 0.8
+    },
+    {
+      "original": "Empire",
+      "suggested": "Đế quốc",
+      "hanviet": "Đế quốc (帝国)",
+      "category": "location",
+      "confidence": 0.8
+    },
+    {
+      "original": "Deputy Commander",
+      "suggested": "Phó chỉ huy",
+      "hanviet": "Phó chỉ huy (副指挥)",
+      "category": "role",
+      "confidence": 0.8
+    },
+    {
+      "original": "Captain",
+      "suggested": "Thuyền trưởng",
+      "hanviet": "Thuyền trưởng (船长)",
+      "category": "role",
+      "confidence": 0.8
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "Bai Han",
+      "suggested": "Bạch Hàn",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Bai Han?",
+      "options": [
+        "Bạch Hàn (白寒)",
+        "Bạch Hãn (白汗)",
+        "Giữ nguyên 'Bai Han'"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_002",
+      "original": "Middle-aged man",
+      "suggested": "Người đàn ông trung niên",
+      "confidence": 0.3,
+      "question": "Xác nhận cách gọi cho nhân vật 'Middle-aged man' (phi công của Chi Zhuo)?",
+      "options": [
+        "Người đàn ông trung niên",
+        "Chú (nếu có mối quan hệ thân thiết hơn)",
+        "Bác (nếu có mối quan hệ thân thiết hơn)"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_003",
+      "original": "Younger man",
+      "suggested": "Người đàn ông trẻ tuổi",
+      "confidence": 0.3,
+      "question": "Xác nhận cách gọi cho nhân vật 'Younger man' (thuộc hạ của Chi Zhuo)?",
+      "options": [
+        "Người đàn ông trẻ tuổi",
+        "Cậu (nếu có mối quan hệ thân thiết hơn)",
+        "Anh (nếu có mối quan hệ thân thiết hơn)"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_004",
+      "original": "Shadow",
+      "suggested": "Ảnh",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Shadow?",
+      "options": [
+        "Ảnh (影)",
+        "Bóng Đêm",
+        "Giữ nguyên 'Shadow'"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_005",
+      "original": "Man with the golden-rimmed glasses",
+      "suggested": "Người đàn ông đeo kính gọng vàng",
+      "confidence": 0.3,
+      "question": "Xác nhận cách gọi cho nhân vật 'Man with the golden-rimmed glasses' (Phó chỉ huy hải tặc)?",
+      "options": [
+        "Người đàn ông đeo kính gọng vàng",
+        "Phó chỉ huy (nếu muốn gọi theo chức danh)",
+        "Kẻ đeo kính vàng"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_006",
+      "original": "Amis",
+      "suggested": "A Mễ Tư",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Amis?",
+      "options": [
+        "A Mễ Tư (阿米斯)",
+        "A Mễ",
+        "Giữ nguyên 'Amis'"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_007",
+      "original": "Poison Scorpion",
+      "suggested": "Độc Hạt",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Poison Scorpion (Thuyền trưởng hải tặc)?",
+      "options": [
+        "Độc Hạt (毒蝎)",
+        "Thuyền trưởng Độc Hạt",
+        "Giữ nguyên 'Poison Scorpion'"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_008",
+      "original": "Ji Chenxi and Chi Zhuo",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Xưng hô giữa Quý Thần Hi (công) và Trì Chước (thụ, lớn tuổi hơn) khi giao tiếp và ngôi thứ ba?",
+      "options": [
+        "Trì Chước: Anh - Quý Thần Hi: Tôi (phổ biến, tôn trọng từ công)",
+        "Trì Chước: Tôi - Quý Thần Hi: Cậu (thụ lớn tuổi hơn, có chút bỡn cợt)",
+        "Trì Chước: Ta - Quý Thần Hi: Ngươi (thể hiện sự mạnh mẽ, quyền lực của thụ)",
+        "Trì Chước: Anh - Quý Thần Hi: Em (thân mật hơn, có thể dùng khi quan hệ phát triển)"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_009",
+      "original": "Chi Zhuo and his subordinates (Bai Han, middle-aged man, younger man)",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Xưng hô giữa Trì Chước và các thuộc hạ của mình (Bạch Hàn, người đàn ông trung niên, người đàn ông trẻ tuổi) khi giao tiếp và ngôi thứ ba?",
+      "options": [
+        "Trì Chước: Ta / Tôi - Thuộc hạ: Thuộc hạ / Ngài / Thiếu gia",
+        "Trì Chước: Cậu - Thuộc hạ: Tôi / Ngài",
+        "Trì Chước: Anh - Thuộc hạ: Tôi / Ngài"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_010",
+      "original": "Man with golden-rimmed glasses (Deputy Commander) and Amis (subordinate)",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Xưng hô giữa Phó chỉ huy (người đàn ông đeo kính gọng vàng) và Amis khi giao tiếp và ngôi thứ ba?",
+      "options": [
+        "Phó chỉ huy: Ta / Tôi - Amis: Thuộc hạ / Ngài / Phó chỉ huy",
+        "Phó chỉ huy: Cậu - Amis: Tôi / Ngài",
+        "Phó chỉ huy: Anh - Amis: Tôi / Ngài"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_011",
+      "original": "Red Scorpions (Amis, Deputy Commander) and Poison Scorpion (Captain)",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Xưng hô giữa các thành viên hải tặc Xích Hạt (Amis, Phó chỉ huy) và Thuyền trưởng Độc Hạt khi giao tiếp và ngôi thứ ba?",
+      "options": [
+        "Thành viên: Thuyền trưởng / Đại ca - Độc Hạt: Hắn / Y",
+        "Thành viên: Ngài - Độc Hạt: Hắn / Y",
+        "Thành viên: Boss - Độc Hạt: Hắn / Y"
+      ],
+      "category": "pronoun"
+    }
+  ],
+  "chapter_id": "ch_009",
+  "analyzed_at": "2026-09-24T13:33:05.942319+07:00"
+}

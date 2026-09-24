@@ -1,0 +1,57 @@
+---
+title: Chương 100: AMTPA Chapter 100
+---
+
+The young man froze for a split second, then let out a mocking laugh.
+
+Did this really need permission? If he wanted to leave, he’d just leave.
+
+One failure meant nothing to him. He quickly stepped back several paces, stopping at a spot that wasn’t easy to attack, and pulled out a rather strange small control panel. Facing it, he entered a string of commands. The already reckless humanoids surged forward once more, closing in on Ji Chenxi.
+
+That was what made these humanoids truly terrifying. They were like unkillable monsters— even if you chopped off their limbs, they would still drag their broken bodies toward you.
+
+Ji Chenxi was already on the verge of losing it from all the filthy blood, especially those grotesque creatures fused with other animals. It was downright disgusting. Even their blood carried a nauseating stench. The fight had only just gone on for a short while, yet he was already reaching his limit.
+
+This felt like an attack deliberately designed to target him.
+
+After all, stuffing extra flesh into humanoids wasn’t exactly easy.
+
+Faced with such a targeted assault, Ji Chenxi didn’t even need to think much to know who was behind it. It was exactly who he had already suspected, and honestly, the result didn’t disappoint him in the slightest.
+
+Up against so many humanoids, Ji Chenxi wasn’t foolish enough to fight them head-on. For machines, the key was destroying their cores. As for those modified humans that seemed to feel no pain, the solution lay in the control panel in that person’s hands—the thing driving them into frenzy.
+
+After getting the answer he wanted, the young man still had other tasks to complete. Holding Ji Chenxi back was just one of them. His next mission was to destroy the control center and bring the palace’s defenses crashing down completely.
+
+Compared to outright destruction, seizing control for himself would have been the better option. But Ji Chenxi’s existence was a risk. Who knew when he might snatch control away? So the control center couldn’t be allowed to exist. And “not existing” required finesse—he had to lure the target into the control center and kill him there, all without raising suspicion.
+
+The young man pressed his lips together, then used the body of the giant robot as leverage to leap toward the interior of the control center.
+
+The control center was a white-gold tower, its defenses maxed out, housing the core systems of the entire palace within its innermost layer.
+
+He had long since obtained the biometric data of Ji Zhiqing and several senior researchers. Breaking through the tower’s outer system wasn’t difficult. He activated the outward attack system of the control center, then used his access privileges to take a special elevator down into the core control point—basically the underground level ten of the tower.
+
+He connected the external interface of his light screen to the verification system there.
+
+Blue and red lights flashed endlessly. On one hand, a correct verification popped up a fake identity that allowed access; on the other, red warning lights continuously denied his identity. Amid the alternating flashes of red and blue, the young man’s fingers flew across the controls. Just before the elevator’s self-destruct triggered, he finally stabilized it on blue. The elevator slowly descended to the tenth underground level.
+
+Ji Chenxi would never hand over the palace’s control system to anyone else. He first fired a signal flare into the sky to warn of an enemy attack, then turned to break through the humanoids blocking his way.
+
+After shattering the core of the first robot, dealing with the others became much easier. At this point, only the giant robot and countless disgusting, hard-to-kill modified humans remained. Some of those modified humans had probably been dead for quite a while—when Ji Chenxi sliced one apart with his mental power, wriggling maggots were still crawling inside the flesh. No wonder the smell was so revolting.
+
+Ji Chenxi clicked his tongue softly, dodging a tentacle from some octopus-like creature in a flash. He stopped wasting time fighting them and instead headed straight for the control center with a clear goal.
+
+The control center had clearly been taken over. It locked onto him instantly and fired countless attacks. Ji Chenxi moved with agile precision, dodging them one by one, even redirecting several attacks toward the humanoids. But while being chased by the barrage, he landed poorly. The moment his feet touched the ground, the giant robot—already halfway through its swing—brought its massive axe crashing down at him.
+
+Ji Chenxi’s brow twitched. With his current downward momentum, avoiding it would be difficult. Power gathered in his hand, and before the axe could reach him, countless chains suddenly appeared around the giant robot. The silver-white chains wrapped tightly around the monster. Ji Chenxi casually glanced back and, unsurprisingly, saw a familiar figure.
+
+At the other end of the chains was the guard squad that had been staying by his side recently—quiet, almost unnoticeable. Leading them was Wu Xiang. A giant crocodile swept its tail, sending two humanoids flying, and looked ready to continue attacking the more crowded areas.
+
+Ji Chenxi lightly tapped off the ground and flipped into the control center. The first thing he did after entering was check the situation outside. He revoked the commands that person had just issued, then forcibly shut down the outer systems of the control center.
+
+The outer defenses weren’t much use anymore. It was better to open them up openly and see just how many people would take advantage of the night to “admire the scenery” inside the palace.
+
+As Ji Chenxi made his way through the control center, he didn’t rush. Instead, he dismantled the control authority of various large-scale weapons, putting them into temporary dormancy.
+
+After a quick cleanup, he arrived at the elevator. This was the necessary access point for issuing commands within the control center. Before he could get too close, the elevator suddenly activated, and cannons hidden within the walls emerged, locking onto him.
+
+“I’ve been getting a bit tired of explosions lately.”

@@ -1,0 +1,94 @@
+{
+  "chapter_summary": "Quý Thần Hi chăm sóc Trì Chước đang bị sốt nặng trong hang động. Anh đưa nước ấm và dùng dải lụa làm khăn chườm nóng cho Trì Chước, dù ban đầu có vẻ miễn cưỡng. Trì Chước, dù yếu ớt, vẫn trò chuyện với Quý Thần Hi, hỏi về ý định giết người và lý do anh lại cứu mình. Quý Thần Hi trả lời một cách thờ ơ, nhưng cũng tiết lộ về một 'omega quan trọng' đã tặng anh hạt thủy tinh cá chép koi. Mùi pheromone rượu tequila của Trì Chước ngày càng nồng nặc, khiến Quý Thần Hi cảm thấy khó chịu nhưng cũng nhận ra một chút ngọt ngào như caramel. Cuối chương, Trì Chước tựa đầu vào vai Quý Thần Hi.",
+  "new_characters": [],
+  "new_locations": [
+    {
+      "name": "cave",
+      "hanviet": "Hang Động",
+      "description": "Nơi Quý Thần Hi và Trì Chước trú ẩn."
+    }
+  ],
+  "new_terms": [
+    {
+      "original": "black protective suit",
+      "suggested": "bộ đồ bảo hộ màu đen",
+      "hanviet": null,
+      "category": "item",
+      "confidence": 0.0
+    },
+    {
+      "original": "Adam's apple",
+      "suggested": "yết hầu",
+      "hanviet": null,
+      "category": "other",
+      "confidence": 0.0
+    },
+    {
+      "original": "snow leopard",
+      "suggested": "báo tuyết",
+      "hanviet": null,
+      "category": "other",
+      "confidence": 0.0
+    },
+    {
+      "original": "black decorative bow",
+      "suggested": "nơ trang trí màu đen",
+      "hanviet": null,
+      "category": "item",
+      "confidence": 0.0
+    },
+    {
+      "original": "silk strip",
+      "suggested": "dải lụa",
+      "hanviet": null,
+      "category": "item",
+      "confidence": 0.0
+    },
+    {
+      "original": "hot compress",
+      "suggested": "chườm nóng",
+      "hanviet": null,
+      "category": "other",
+      "confidence": 0.0
+    },
+    {
+      "original": "koi-glass bead",
+      "suggested": "hạt thủy tinh cá chép koi",
+      "hanviet": null,
+      "category": "item",
+      "confidence": 0.0
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Quý Thần Hi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Quý Thần Hi xưng hô thế nào với Trì Chước (Quý Thần Hi tự xưng là gì và gọi Trì Chước là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Ta - gọi Ngươi",
+        "xưng Tôi - gọi Cậu",
+        "xưng Ta - gọi Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_002",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Thần - gọi Quý Thần Hi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Quý Thần Hi (Trì Chước tự xưng là gì và gọi Quý Thần Hi là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Thần - gọi Điện hạ",
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Ngài",
+        "xưng Tôi - gọi Quý Thần Hi"
+      ],
+      "category": "relationship"
+    }
+  ],
+  "chapter_id": "ch_018",
+  "analyzed_at": "2026-09-24T16:25:52.203540+07:00"
+}

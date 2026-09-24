@@ -1,0 +1,300 @@
+{
+  "chapter_summary": "Chương này mô tả sự xuất hiện bất ngờ của Trì Chước, người đã hồi phục hoàn toàn sau khi bị đầu độc và nhanh chóng đánh bại kẻ thù (một alpha cấp S) bằng sức mạnh SSS-rank Alpha của mình và rắn hổ mang đen. Quý Thần Hi, dù bị thương nhẹ, vẫn quan sát Trì Chước và có cuộc đối thoại tinh tế về tình trạng của Trì Chước và bí mật về sự hiện diện của anh. Đội của Trì Chước sau đó đến để xóa sạch mọi dấu vết. Cuối cùng, anh trai của Quý Thần Hi đến đón, và Quý Thần Hi nhận được vô số tin nhắn từ Tô Vũ, chuẩn bị cho cuộc thẩm vấn sắp tới.",
+  "new_characters": [
+    {
+      "name": "Kẻ địch",
+      "hanviet_name": null,
+      "gender": "Male",
+      "role": "Antagonist, S-rank Alpha pirate",
+      "description": "Một alpha cấp S đã đầu độc Trì Chước và bị bất ngờ trước sự hồi phục của anh. Bị Trì Chước và rắn hổ mang đen của anh đánh bại."
+    },
+    {
+      "name": "Anh trai Quý Thần Hi",
+      "hanviet_name": null,
+      "gender": "Male",
+      "role": "Ji Chenxi's older brother, likely a high-ranking noble/royal",
+      "description": "Anh trai của Quý Thần Hi, người đích thân đến đón cậu sau sự cố. Rất quan tâm đến sự an toàn của Quý Thần Hi."
+    },
+    {
+      "name": "Bo Han",
+      "hanviet_name": "Bạc Hàn",
+      "gender": "Male",
+      "role": "Chi Zhou's subordinate",
+      "description": "Một thành viên trong đội của Trì Chước, được Quý Thần Hi nhắc đến."
+    }
+  ],
+  "new_locations": [],
+  "new_terms": [
+    {
+      "original": "photon cannon",
+      "suggested": "Pháo photon",
+      "hanviet": null,
+      "category": "item",
+      "confidence": 0.7
+    },
+    {
+      "original": "scent neutralizer / scent eraser",
+      "suggested": "Thuốc khử mùi pheromone / Bình xịt khử mùi",
+      "hanviet": null,
+      "category": "item",
+      "confidence": 0.7
+    },
+    {
+      "original": "bionic masks",
+      "suggested": "Mặt nạ sinh học",
+      "hanviet": null,
+      "category": "item",
+      "confidence": 0.7
+    },
+    {
+      "original": "spiritual form",
+      "suggested": "Dạng tinh thần / Linh thể",
+      "hanviet": null,
+      "category": "other",
+      "confidence": 0.6
+    },
+    {
+      "original": "gland",
+      "suggested": "Tuyến thể",
+      "hanviet": null,
+      "category": "other",
+      "confidence": 0.8
+    },
+    {
+      "original": "spiritual realm",
+      "suggested": "Thế giới tinh thần / Linh vực",
+      "hanviet": null,
+      "category": "other",
+      "confidence": 0.6
+    },
+    {
+      "original": "Nether",
+      "suggested": "Nether (U Minh)",
+      "hanviet": null,
+      "category": "other",
+      "confidence": 0.5
+    },
+    {
+      "original": "Shade",
+      "suggested": "Shade (Bóng Tối)",
+      "hanviet": null,
+      "category": "other",
+      "confidence": 0.5
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "Young man (kẻ địch)",
+      "suggested": "Kẻ địch",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / cách gọi cho nhân vật 'Young man' (kẻ địch)?",
+      "options": [
+        "Kẻ địch",
+        "Gã thanh niên",
+        "Tên cướp biển"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_002",
+      "original": "Kẻ địch (ngôi thứ 3)",
+      "suggested": "hắn",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Kẻ địch (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "hắn",
+        "y",
+        "gã",
+        "tên này"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_003",
+      "original": "Ji Chenxi's brother",
+      "suggested": "Anh trai Quý Thần Hi",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / cách gọi cho nhân vật 'Anh trai của Quý Thần Hi'?",
+      "options": [
+        "Hoàng huynh",
+        "Đại ca",
+        "Anh trai Quý Thần Hi"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_004",
+      "original": "Anh trai Quý Thần Hi (ngôi thứ 3)",
+      "suggested": "anh",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Anh trai Quý Thần Hi (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "anh",
+        "y",
+        "ngài",
+        "chàng"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_005",
+      "original": "Bo Han",
+      "suggested": "Bạc Hàn",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Bo Han?",
+      "options": [
+        "Bạc Hàn",
+        "Bạc Hãn",
+        "Bạc Hàng"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_006",
+      "original": "Bo Han (ngôi thứ 3)",
+      "suggested": "hắn",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Bo Han (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "hắn",
+        "y",
+        "anh ta",
+        "cậu ta"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_007",
+      "original": "Quý Thần Hi → Kẻ địch",
+      "suggested": "Quý Thần Hi xưng Ta - gọi Ngươi",
+      "confidence": 0.3,
+      "question": "Chiều 1: Quý Thần Hi xưng hô thế nào với Kẻ địch (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Ta - gọi Ngươi",
+        "xưng Tôi - gọi Ngươi",
+        "xưng Tôi - gọi Cậu"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_008",
+      "original": "Kẻ địch → Quý Thần Hi",
+      "suggested": "Kẻ địch xưng Tôi - gọi Ngươi",
+      "confidence": 0.3,
+      "question": "Chiều 2: Kẻ địch xưng hô thế nào với Quý Thần Hi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Ngươi",
+        "xưng Tôi - gọi Hắn",
+        "xưng Tôi - gọi Điện hạ"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_009",
+      "original": "Trì Chước → Kẻ địch",
+      "suggested": "Trì Chước xưng Ta - gọi Ngươi",
+      "confidence": 0.3,
+      "question": "Chiều 1: Trì Chước xưng hô thế nào với Kẻ địch (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Ta - gọi Ngươi",
+        "xưng Tôi - gọi Ngươi",
+        "xưng Tôi - gọi Cậu"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_010",
+      "original": "Kẻ địch → Trì Chước",
+      "suggested": "Kẻ địch xưng Tôi - gọi Ngươi",
+      "confidence": 0.3,
+      "question": "Chiều 2: Kẻ địch xưng hô thế nào với Trì Chước (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Ngươi",
+        "xưng Tôi - gọi Hắn",
+        "xưng Tôi - gọi Anh"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_011",
+      "original": "Quý Thần Hi → Trì Chước",
+      "suggested": "Quý Thần Hi xưng Tôi - gọi Anh (hoặc Đại ca)",
+      "confidence": 0.3,
+      "question": "Chiều 1: Quý Thần Hi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)? (Lưu ý: Quý Thần Hi gọi Trì Chước là 'big brother Chi Zhou' một lần)",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Đại ca",
+        "xưng Em - gọi Anh"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_012",
+      "original": "Trì Chước → Quý Thần Hi",
+      "suggested": "Trì Chước xưng Tôi - gọi Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Quý Thần Hi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)? (Lưu ý: Trì Chước gọi Quý Thần Hi là 'Your Highness')",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Thần - gọi Điện hạ",
+        "xưng Tôi - gọi Cậu"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_013",
+      "original": "Quý Thần Hi → Anh trai của Quý Thần Hi",
+      "suggested": "Quý Thần Hi xưng Em - gọi Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Quý Thần Hi xưng hô thế nào với anh trai mình?",
+      "options": [
+        "xưng Em - gọi Anh",
+        "xưng Tôi - gọi Anh",
+        "xưng Em - gọi Hoàng huynh"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_014",
+      "original": "Anh trai của Quý Thần Hi → Quý Thần Hi",
+      "suggested": "Anh trai xưng Anh - gọi Em",
+      "confidence": 0.3,
+      "question": "Chiều 2: Anh trai của Quý Thần Hi xưng hô thế nào với Quý Thần Hi?",
+      "options": [
+        "xưng Anh - gọi Em",
+        "xưng Ta - gọi Em",
+        "xưng Ta - gọi Hoàng đệ"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_015",
+      "original": "Quý Thần Hi → Su Yu",
+      "suggested": "Quý Thần Hi xưng Tôi - gọi Cậu",
+      "confidence": 0.3,
+      "question": "Chiều 1: Quý Thần Hi xưng hô thế nào với Su Yu?",
+      "options": [
+        "xưng Tôi - gọi Cậu",
+        "xưng Ta - gọi Ngươi",
+        "xưng Tôi - gọi Anh"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_016",
+      "original": "Su Yu → Quý Thần Hi",
+      "suggested": "Su Yu xưng Tôi - gọi Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Su Yu xưng hô thế nào với Quý Thần Hi?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Thần - gọi Điện hạ",
+        "xưng Tôi - gọi Cậu"
+      ],
+      "category": "relationship"
+    }
+  ],
+  "chapter_id": "ch_021",
+  "analyzed_at": "2026-09-24T16:27:29.222000+07:00"
+}

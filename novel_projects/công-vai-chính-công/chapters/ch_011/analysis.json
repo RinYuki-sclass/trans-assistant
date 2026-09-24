@@ -1,0 +1,334 @@
+{
+  "chapter_summary": "Chương này mô tả hai diễn biến song song. Thứ nhất, hệ thống tàu của Hải tặc Bò Cạp Đỏ bị tấn công, gây ra hỗn loạn và kích hoạt đếm ngược tự hủy. Phó chỉ huy Zuo Xian đã kịp thời vô hiệu hóa hệ thống. Thủ lĩnh của họ, Scorpion, tức giận vì những tổn thất khi truy đuổi Quý Thần Hi, ra lệnh cho Zuo Xian phải tiêu diệt toàn bộ phi hành đoàn của Quý Thần Hi trong hai giờ hoặc đối mặt với hậu quả. Zuo Xian sau đó chuẩn bị đổ bộ xuống một hành tinh gần đó. Thứ hai, Quý Thần Hi và phi hành đoàn của mình buộc phải bỏ con tàu bị hư hại và nhảy xuống cùng hành tinh nhỏ, chưa được khám phá. Quý Thần Hi, dù sợ đau, đã hạ cánh có kiểm soát xuống một khu rừng nhờ thú tinh thần báo tuyết của mình. Anh nhận ra pheromone của Trì Chước trong không khí, cho thấy Trì Chước đang bị thương, có thể do cú hạ cánh thô bạo vì hình thái tinh thần của anh ấy là rắn. Quý Thần Hi đi theo báo tuyết của mình, con vật kiên quyết cõng anh vì anh bị trẹo mắt cá chân, hướng về phía mùi hương của Trì Chước.",
+  "new_characters": [
+    {
+      "name": "Amis",
+      "hanviet_name": "A Mễ Tư",
+      "gender": "Female",
+      "role": "Thành viên phi hành đoàn hải tặc, chuyên gia công nghệ",
+      "description": "Một nữ thành viên phi hành đoàn hải tặc cố gắng ghi đè hệ thống tàu."
+    },
+    {
+      "name": "Scorpion",
+      "hanviet_name": "Bò Cạp",
+      "gender": "Male",
+      "role": "Thủ lĩnh Hải tặc Bò Cạp Đỏ",
+      "description": "Thủ lĩnh tàn nhẫn của Hải tặc Bò Cạp Đỏ, tức giận vì những tổn thất đã gánh chịu."
+    },
+    {
+      "name": "Zuo Xian",
+      "hanviet_name": "Tả Hiền",
+      "gender": "Male",
+      "role": "Phó chỉ huy Hải tặc Bò Cạp Đỏ",
+      "description": "Phó chỉ huy đeo kính gọng vàng, có kỹ năng hack, người đã cứu con tàu khỏi tự hủy."
+    },
+    {
+      "name": "Shadow",
+      "hanviet_name": "Ảnh",
+      "gender": "Male",
+      "role": "Thành viên phi hành đoàn của Quý Thần Hi",
+      "description": "Một thành viên phi hành đoàn của Quý Thần Hi, ngạc nhiên trước cú nhảy của Quý Thần Hi."
+    },
+    {
+      "name": "Bai Han",
+      "hanviet_name": "Bạch Hàn",
+      "gender": "Female",
+      "role": "Beta, thành viên phi hành đoàn của Quý Thần Hi",
+      "description": "Một nữ Beta, thành viên phi hành đoàn của Quý Thần Hi, người đã nhảy theo anh."
+    }
+  ],
+  "new_locations": [],
+  "new_terms": [
+    {
+      "original": "Red Scorpion Pirates",
+      "suggested": "Hải tặc Bò Cạp Đỏ",
+      "hanviet": "Hải tặc Xích Hạt",
+      "category": "faction",
+      "confidence": 0.7
+    },
+    {
+      "original": "Deputy commander",
+      "suggested": "Phó chỉ huy",
+      "hanviet": "Phó thống lĩnh",
+      "category": "other",
+      "confidence": 0.7
+    },
+    {
+      "original": "Self-destruct countdown",
+      "suggested": "Đếm ngược tự hủy",
+      "hanviet": null,
+      "category": "other",
+      "confidence": 0.7
+    },
+    {
+      "original": "Spiritual beast",
+      "suggested": "Thú tinh thần",
+      "hanviet": null,
+      "category": "other",
+      "confidence": 0.7
+    },
+    {
+      "original": "Snow leopard",
+      "suggested": "Báo tuyết",
+      "hanviet": null,
+      "category": "other",
+      "confidence": 0.7
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "Amis",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Amis?",
+      "options": [
+        "A Mễ Tư",
+        "A Mít",
+        "Amis (giữ nguyên)",
+        "A Mễ"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_002",
+      "original": "Amis (ngôi thứ 3)",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Amis (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "cô",
+        "nàng",
+        "y",
+        "ả"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_003",
+      "original": "Scorpion",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Scorpion?",
+      "options": [
+        "Bò Cạp",
+        "Thiên Yết",
+        "Scorpion (giữ nguyên)",
+        "Hạt"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_004",
+      "original": "Scorpion (ngôi thứ 3)",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Scorpion (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "hắn",
+        "y",
+        "gã",
+        "ông ta"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_005",
+      "original": "Zuo Xian",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Zuo Xian?",
+      "options": [
+        "Tả Hiền",
+        "Tả Tiên",
+        "Tả Hiển",
+        "Tả Hàm"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_006",
+      "original": "Zuo Xian (ngôi thứ 3)",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Zuo Xian (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "hắn",
+        "y",
+        "anh",
+        "cậu"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_007",
+      "original": "Shadow",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Shadow?",
+      "options": [
+        "Ảnh",
+        "Bóng",
+        "Shadow (giữ nguyên)",
+        "Ám"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_008",
+      "original": "Shadow (ngôi thứ 3)",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Shadow (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "hắn",
+        "y",
+        "anh",
+        "cậu"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_009",
+      "original": "Bai Han",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Bai Han? (Lưu ý: Có nhân vật Bạch An Nhiên và Bạch Tân Khả đã biết. Đây là nhân vật mới hay tên gọi khác?)",
+      "options": [
+        "Bạch Hàn",
+        "Bạch Hãn",
+        "Bạch Hán",
+        "Bai Han (giữ nguyên)"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_010",
+      "original": "Bai Han (ngôi thứ 3)",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Bai Han (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "cô",
+        "nàng",
+        "y",
+        "chị"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_011",
+      "original": "Scorpion → Zuo Xian",
+      "suggested": "Scorpion xưng Ta - gọi Zuo Xian là Ngươi/Ngươi",
+      "confidence": 0.3,
+      "question": "Chiều 1: Scorpion xưng hô thế nào với Zuo Xian (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Ta - gọi Ngươi",
+        "xưng Ta - gọi Zuo Xian",
+        "xưng Ta - gọi Phó quan",
+        "xưng Tôi - gọi Anh"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_012",
+      "original": "Zuo Xian → Scorpion",
+      "suggested": "Zuo Xian xưng Tôi - gọi Scorpion là Đại nhân/Thủ lĩnh",
+      "confidence": 0.3,
+      "question": "Chiều 2: Zuo Xian xưng hô thế nào với Scorpion (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Đại nhân",
+        "xưng Tôi - gọi Thủ lĩnh",
+        "xưng Thần - gọi Điện hạ",
+        "xưng Tôi - gọi Ngài"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_013",
+      "original": "Quý Thần Hi → Báo tuyết (thú tinh thần)",
+      "suggested": "Quý Thần Hi xưng Ta - gọi Báo tuyết là Ngươi/Mày",
+      "confidence": 0.3,
+      "question": "Chiều 1: Quý Thần Hi xưng hô thế nào với Báo tuyết (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Ta - gọi Ngươi",
+        "xưng Ta - gọi Mày",
+        "xưng Tôi - gọi Con",
+        "xưng Chủ nhân - gọi Ngươi"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_014",
+      "original": "Báo tuyết (thú tinh thần) → Quý Thần Hi",
+      "suggested": "Báo tuyết (giao tiếp phi ngôn ngữ) xưng Tôi - gọi Quý Thần Hi là Chủ nhân",
+      "confidence": 0.3,
+      "question": "Chiều 2: Báo tuyết giao tiếp (phi ngôn ngữ) xưng hô thế nào với Quý Thần Hi (B tự xưng là gì và gọi A là gì)?",
+      "options": [
+        "xưng Tôi - gọi Chủ nhân",
+        "xưng Ta - gọi Ngươi",
+        "xưng Em - gọi Anh",
+        "giao tiếp phi ngôn ngữ (không xưng hô rõ ràng)"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_015",
+      "original": "Bai Han → Quý Thần Hi",
+      "suggested": "Bai Han xưng Tôi - gọi Quý Thần Hi là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Bai Han xưng hô thế nào với Quý Thần Hi (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Em - gọi Anh",
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Cậu"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_016",
+      "original": "Quý Thần Hi → Bai Han",
+      "suggested": "Quý Thần Hi xưng Ta - gọi Bai Han là Cô",
+      "confidence": 0.3,
+      "question": "Chiều 2: Quý Thần Hi xưng hô thế nào với Bai Han (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Ta - gọi Cô",
+        "xưng Tôi - gọi Cô",
+        "xưng Anh - gọi Em",
+        "xưng Tôi - gọi Bai Han"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_017",
+      "original": "Bai Han → Shadow",
+      "suggested": "Bai Han xưng Tôi - gọi Shadow là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Bai Han xưng hô thế nào với Shadow (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Em - gọi Anh",
+        "xưng Tôi - gọi Cậu",
+        "xưng Tôi - gọi Shadow"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_018",
+      "original": "Shadow → Bai Han",
+      "suggested": "Shadow xưng Tôi - gọi Bai Han là Cô",
+      "confidence": 0.3,
+      "question": "Chiều 2: Shadow xưng hô thế nào với Bai Han (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Cô",
+        "xưng Anh - gọi Em",
+        "xưng Tôi - gọi Bai Han",
+        "xưng Cậu - gọi Cô"
+      ],
+      "category": "relationship"
+    }
+  ],
+  "chapter_id": "ch_011",
+  "analyzed_at": "2026-09-24T16:23:00.700442+07:00"
+}

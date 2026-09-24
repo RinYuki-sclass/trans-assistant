@@ -1,0 +1,82 @@
+{
+  "chapter_id": "ch_002",
+  "questions": [
+    {
+      "id": "amb_001",
+      "original": "Ji Chenxi - Chi Zhuo (đối thoại)",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Xưng hô đối thoại giữa Ji Chenxi và Chi Zhuo trong tình huống căng thẳng, đối đầu (Alpha vs Alpha, một người đang mất kiểm soát)?",
+      "options": [
+        "Ta - Ngươi",
+        "Tôi - Anh",
+        "Tôi - Cậu",
+        "Mày - Tao",
+        "Ngươi - Ta"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_002",
+      "original": "Ji Chenxi - Bai Anran (đối thoại)",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Xưng hô đối thoại giữa Ji Chenxi (Thái tử) và Bai Anran (bạn thuở nhỏ, nhưng Bai Anran giữ lễ nghi)?",
+      "options": [
+        "Điện hạ - Ta",
+        "Điện hạ - Tôi",
+        "Anh - Tôi",
+        "Cậu - Tôi",
+        "Điện hạ - Ngươi"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_003",
+      "original": "Bạch An Nhiên → Quý Thần Hi",
+      "suggested": "Bạch An Nhiên xưng Thần - gọi Quý Thần Hi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 1: Bạch An Nhiên xưng hô thế nào với Quý Thần Hi (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Thần - gọi Điện hạ",
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Ngài",
+        "xưng Em - gọi Anh"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_004",
+      "original": "Quý Thần Hi → Bạch An Nhiên",
+      "suggested": "Quý Thần Hi xưng Ta - gọi Bạch An Nhiên là Cậu",
+      "confidence": 0.3,
+      "question": "Chiều 2: Quý Thần Hi xưng hô thế nào với Bạch An Nhiên (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Ta - gọi Cậu",
+        "xưng Tôi - gọi Cậu",
+        "xưng Ta - gọi An Nhiên",
+        "xưng Anh - gọi Em"
+      ],
+      "category": "relationship"
+    }
+  ],
+  "answers": {
+    "amb_001": {
+      "choice": "Tôi - Anh",
+      "custom": null
+    },
+    "amb_002": {
+      "choice": "Điện hạ - Tôi",
+      "custom": null
+    },
+    "amb_003": {
+      "choice": "xưng Thần - gọi Điện hạ",
+      "custom": null
+    },
+    "amb_004": {
+      "choice": "xưng Ta - gọi Cậu",
+      "custom": null
+    }
+  },
+  "answered_at": "2026-09-24T15:43:49.281381+07:00"
+}

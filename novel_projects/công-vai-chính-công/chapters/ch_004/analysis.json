@@ -1,0 +1,229 @@
+{
+  "chapter_summary": "Ji Chenxi thực hiện hành vi đánh dấu sỉ nhục Chi Zhou, nhưng Chi Zhou, dù đau đớn và nhục nhã, vẫn thề sẽ trả thù. Ji Chenxi, với một chút lương tâm, đưa thuốc ức chế cho Chi Zhou rồi rời đi. Tuy nhiên, Chi Zhou ngay lập tức ra lệnh cho thuộc hạ bí ẩn của mình điều tra thế lực đứng sau loại thuốc đã làm anh mất khả năng phản kháng, ngụ ý rằng Ji Chenxi chỉ lợi dụng tình thế. Sau đó, Ji Chenxi gặp Su Yu và em gái Su Nuan, những người nhận thấy mùi rượu và pheromone nồng nặc trên người anh. Ngày hôm sau, Su Yu đến thăm Ji Chenxi, hỏi về việc Chi Zhou đang tìm kiếm một Alpha mùi hoa hồng. Ji Chenxi thản nhiên thừa nhận đã đánh dấu Chi Zhou, và đổi lại, Chi Zhou đã \"làm anh mất đi thứ quý giá nhất\" (chiếc khuyên tai gia truyền của anh).",
+  "new_characters": [
+    {
+      "name": "Su Yu",
+      "hanviet_name": "Tô Vũ",
+      "gender": "Male",
+      "role": "Friend/acquaintance of Ji Chenxi",
+      "description": "Một nhân vật tương tác với Ji Chenxi, gọi anh là \"Tam Hoàng tử\". Anh ta có vẻ tò mò và dễ bị kích động."
+    },
+    {
+      "name": "Su Nuan",
+      "hanviet_name": "Tô Noãn",
+      "gender": "Female",
+      "role": "Su Yu's sister, an omega",
+      "description": "Em gái của Su Yu, một Omega, rất tinh ý về mùi pheromone."
+    },
+    {
+      "name": "Bai Anran",
+      "hanviet_name": "Bạch An Nhiên",
+      "gender": "Unknown",
+      "role": "Mentioned character, possibly a rival or plot catalyst",
+      "description": "Một nhân vật được Ji Chenxi nhắc đến, người mà anh ban đầu định xóa bỏ cuộc gặp gỡ đầu tiên."
+    },
+    {
+      "name": "Shadowy Figure",
+      "hanviet_name": null,
+      "gender": "Unknown",
+      "role": "Chi Zhou's subordinate",
+      "description": "Một thuộc hạ trung thành và hiệu quả của Chi Zhou, xuất hiện lặng lẽ từ bóng tối và tuân lệnh không chút nghi ngờ."
+    }
+  ],
+  "new_locations": [],
+  "new_terms": [
+    {
+      "original": "mutual-marking-to-humiliate trick",
+      "suggested": "thủ đoạn đánh dấu sỉ nhục lẫn nhau",
+      "hanviet": null,
+      "category": "other",
+      "confidence": 0.7
+    },
+    {
+      "original": "spiritual shield",
+      "suggested": "khiên tinh thần",
+      "hanviet": null,
+      "category": "skill",
+      "confidence": 0.7
+    },
+    {
+      "original": "alpha suppressant",
+      "suggested": "thuốc ức chế Alpha",
+      "hanviet": null,
+      "category": "item",
+      "confidence": 0.7
+    },
+    {
+      "original": "yin-yang fish earring",
+      "suggested": "khuyên tai cá âm dương",
+      "hanviet": null,
+      "category": "item",
+      "confidence": 0.7
+    },
+    {
+      "original": "tassel earring",
+      "suggested": "khuyên tai tua rua",
+      "hanviet": null,
+      "category": "item",
+      "confidence": 0.7
+    },
+    {
+      "original": "koi fish",
+      "suggested": "cá chép koi",
+      "hanviet": null,
+      "category": "other",
+      "confidence": 0.7
+    },
+    {
+      "original": "teardrop-shaped earring",
+      "suggested": "khuyên tai hình giọt nước",
+      "hanviet": null,
+      "category": "item",
+      "confidence": 0.7
+    },
+    {
+      "original": "Imperial Rose",
+      "suggested": "Hồng Mân Côi Hoàng Gia",
+      "hanviet": "Hoàng Gia Hoa Hồng",
+      "category": "honorific",
+      "confidence": 0.6
+    },
+    {
+      "original": "hovering car",
+      "suggested": "xe bay",
+      "hanviet": null,
+      "category": "item",
+      "confidence": 0.7
+    },
+    {
+      "original": "gland",
+      "suggested": "tuyến thể",
+      "hanviet": null,
+      "category": "other",
+      "confidence": 0.7
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "Ji Chenxi",
+      "suggested": "Quý Thần Hi",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Ji Chenxi?",
+      "options": [
+        "Quý Thần Hi",
+        "Kỷ Thần Hi",
+        "Cơ Thần Hi"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_002",
+      "original": "Chi Zhou",
+      "suggested": "Trì Chước",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Chi Zhou?",
+      "options": [
+        "Trì Chước",
+        "Trì Chu",
+        "Chi Chu"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_003",
+      "original": "Su Yu",
+      "suggested": "Tô Vũ",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Su Yu?",
+      "options": [
+        "Tô Vũ",
+        "Tô Dục",
+        "Tô Du"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_004",
+      "original": "Su Nuan",
+      "suggested": "Tô Noãn",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Su Nuan?",
+      "options": [
+        "Tô Noãn",
+        "Tô Nhuận",
+        "Tô Loan"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_005",
+      "original": "Bai Anran",
+      "suggested": "Bạch An Nhiên",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Bai Anran?",
+      "options": [
+        "Bạch An Nhiên",
+        "Bạch An Nhiễm",
+        "Bạch An Nhiên (giữ nguyên âm Hán-Việt phổ biến)"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_006",
+      "original": "Ji Chenxi and Chi Zhou dialogue",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Xưng hô giữa Ji Chenxi và Chi Zhou khi giao tiếp và ngôi thứ ba? (Bối cảnh ABO, công thụ, thụ lớn tuổi hơn, nhưng đây là đối thủ)",
+      "options": [
+        "Ngươi - Ta (thụ xưng Ta, công xưng Ngươi, ngôi thứ ba Hắn/Y)",
+        "Mày - Tao (ngôi thứ ba Hắn/Y)",
+        "Tôi - Cậu (ngôi thứ ba Hắn/Y)",
+        "Anh - Tôi (thụ xưng Anh, công xưng Tôi, ngôi thứ ba Hắn/Y)"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_007",
+      "original": "Ji Chenxi and Su Yu dialogue",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Xưng hô giữa Ji Chenxi và Su Yu khi giao tiếp và ngôi thứ ba? (Su Yu gọi Ji Chenxi là \"Tam Hoàng tử\")",
+      "options": [
+        "Tôi - Cậu (Ji Chenxi xưng Tôi, Su Yu xưng Cậu, ngôi thứ ba Hắn)",
+        "Ta - Ngươi (Ji Chenxi xưng Ta, Su Yu xưng Ngươi, ngôi thứ ba Hắn)",
+        "Anh - Tôi (Ji Chenxi xưng Anh, Su Yu xưng Tôi, ngôi thứ ba Hắn)",
+        "Tên - Tên (Ji Chenxi gọi Su Yu bằng tên, Su Yu gọi Ji Chenxi là Tam Hoàng tử, ngôi thứ ba Hắn)"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_008",
+      "original": "Su Yu and Su Nuan dialogue",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Xưng hô giữa Su Yu và Su Nuan khi giao tiếp và ngôi thứ ba? (Anh em ruột)",
+      "options": [
+        "Anh - Em (Su Yu xưng Anh, Su Nuan xưng Em, ngôi thứ ba Anh ấy/Cô ấy)",
+        "Tôi - Em (Su Yu xưng Tôi, Su Nuan xưng Em, ngôi thứ ba Anh ấy/Cô ấy)",
+        "Tên - Tên (Su Yu gọi Nuan Nuan, Nuan Nuan gọi Anh, ngôi thứ ba Anh ấy/Cô ấy)"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_009",
+      "original": "Chi Zhou and Shadowy Figure interaction",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Xưng hô giữa Chi Zhou và Shadowy Figure khi giao tiếp và ngôi thứ ba? (Chủ tớ)",
+      "options": [
+        "Ngài - Thuộc hạ (Chi Zhou xưng Ngài, thuộc hạ xưng Thuộc hạ, ngôi thứ ba Hắn/Y)",
+        "Chủ nhân - Tôi (Chi Zhou xưng Chủ nhân, thuộc hạ xưng Tôi, ngôi thứ ba Hắn/Y)",
+        "Mày - Tao (Chi Zhou xưng Mày, thuộc hạ xưng Tao, ngôi thứ ba Hắn/Y - nếu thân cận và Chi Zhou có tính cách bất cần)"
+      ],
+      "category": "pronoun"
+    }
+  ],
+  "chapter_id": "ch_004",
+  "analyzed_at": "2026-09-24T13:29:45.659775+07:00"
+}

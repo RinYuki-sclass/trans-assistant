@@ -1,0 +1,153 @@
+{
+  "chapter_summary": "Chương này bắt đầu với việc Quý Thần Hi (Ji Chenxi) bị Trì Chước (Chi Zhuo) nhầm là Omega trong lúc Trì Chước đang trong cơn phát tình do pheromone. Mặc dù đối mặt với nguy hiểm, Quý Thần Hi vẫn giữ bình tĩnh và thậm chí cân nhắc ra tay với Trì Chước. Tuy nhiên, Trì Chước, do nhầm Quý Thần Hi là một Omega cấp cao (vì vẻ ngoài và mùi hương hoa hồng thoang thoảng từ vòng ức chế), đã buông tha và xin lỗi. Quý Thần Hi nhận ra cốt truyện đã thay đổi và quyết định can thiệp sâu hơn. Anh sau đó gặp lại Bạch An Nhiên (Bai Anran), người bạn thời thơ ấu, và đảm bảo an toàn cho cậu, ngăn chặn cuộc gặp gỡ định mệnh và sự đánh dấu tạm thời giữa Trì Chước và Bạch An Nhiên theo nguyên tác. Quý Thần Hi tin rằng mình đã thay đổi thành công cốt truyện, nhưng sau đó anh lại phát hiện Trì Chước vẫn còn ở gần đó, đang trong tình trạng hỗn loạn và ẩn mình giữa bụi hồng, với linh thú (rắn mamba đen) đã xuất hiện.",
+  "new_characters": [],
+  "new_locations": [
+    {
+      "name": "Royal Academy",
+      "hanviet": "Hoàng gia học viện",
+      "description": "Một trong hai trường đại học hàng đầu của Đế quốc, nơi dành cho con cái của giới quý tộc và người giàu có."
+    },
+    {
+      "name": "First Military Academy",
+      "hanviet": "Đệ nhất Quân sự học viện",
+      "description": "Một trong hai trường đại học hàng đầu của Đế quốc, nơi tập trung chủ yếu vào con em thường dân."
+    },
+    {
+      "name": "Rose Garden",
+      "hanviet": "Hoa hồng viên",
+      "description": "Một khu vườn trong khuôn viên bữa tiệc/biệt thự, nơi Trì Chước ẩn mình."
+    }
+  ],
+  "new_terms": [
+    {
+      "original": "Pheromone",
+      "suggested": "Pheromone",
+      "hanviet": null,
+      "category": "other",
+      "confidence": 0.0
+    },
+    {
+      "original": "Suppressor ring",
+      "suggested": "Vòng ức chế",
+      "hanviet": "Ức chế hoàn",
+      "category": "item",
+      "confidence": 0.0
+    },
+    {
+      "original": "Spiritual energy",
+      "suggested": "Năng lượng tinh thần",
+      "hanviet": "Tinh thần năng lượng",
+      "category": "skill",
+      "confidence": 0.0
+    },
+    {
+      "original": "Spiritual spike",
+      "suggested": "Gai tinh thần",
+      "hanviet": "Tinh thần thứ",
+      "category": "skill",
+      "confidence": 0.0
+    },
+    {
+      "original": "S-rank alpha",
+      "suggested": "Alpha cấp S",
+      "hanviet": null,
+      "category": "other",
+      "confidence": 0.0
+    },
+    {
+      "original": "SSS-rank",
+      "suggested": "Cấp SSS",
+      "hanviet": null,
+      "category": "other",
+      "confidence": 0.0
+    },
+    {
+      "original": "Temporary mark",
+      "suggested": "Đánh dấu tạm thời",
+      "hanviet": "Tạm thời tiêu ký",
+      "category": "other",
+      "confidence": 0.0
+    },
+    {
+      "original": "Death flag",
+      "suggested": "Cờ tử",
+      "hanviet": "Tử kỳ",
+      "category": "other",
+      "confidence": 0.0
+    },
+    {
+      "original": "Yin-yang fish earring",
+      "suggested": "Khuyên tai cá âm dương",
+      "hanviet": "Âm dương ngư nhĩ hoàn",
+      "category": "item",
+      "confidence": 0.0
+    },
+    {
+      "original": "Black mamba",
+      "suggested": "Rắn mamba đen",
+      "hanviet": "Hắc mamba xà",
+      "category": "other",
+      "confidence": 0.0
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "Quý Thần Hi → Trì Chước",
+      "suggested": "Quý Thần Hi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Quý Thần Hi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Ngài",
+        "xưng Tôi - gọi Gã",
+        "xưng Ta - gọi Ngươi"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_002",
+      "original": "Trì Chước → Quý Thần Hi",
+      "suggested": "Trì Chước xưng Ta - gọi Quý Thần Hi là Ngươi",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Quý Thần Hi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Ta - gọi Ngươi",
+        "xưng Tôi - gọi Cậu",
+        "xưng Tôi - gọi Anh",
+        "xưng Ta - gọi Tiểu tử"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_003",
+      "original": "Bạch An Nhiên → Quý Thần Hi",
+      "suggested": "Bạch An Nhiên xưng Thần - gọi Quý Thần Hi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 1: Bạch An Nhiên xưng hô thế nào với Quý Thần Hi (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Thần - gọi Điện hạ",
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Ngài",
+        "xưng Em - gọi Anh"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_004",
+      "original": "Quý Thần Hi → Bạch An Nhiên",
+      "suggested": "Quý Thần Hi xưng Ta - gọi Bạch An Nhiên là Cậu",
+      "confidence": 0.3,
+      "question": "Chiều 2: Quý Thần Hi xưng hô thế nào với Bạch An Nhiên (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Ta - gọi Cậu",
+        "xưng Tôi - gọi Cậu",
+        "xưng Ta - gọi An Nhiên",
+        "xưng Anh - gọi Em"
+      ],
+      "category": "relationship"
+    }
+  ],
+  "chapter_id": "ch_002",
+  "analyzed_at": "2026-09-24T15:39:14.548649+07:00"
+}

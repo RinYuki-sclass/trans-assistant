@@ -1,0 +1,97 @@
+{
+  "chapter_id": "ch_005",
+  "questions": [
+    {
+      "id": "amb_001",
+      "original": "Nether",
+      "suggested": "Nại Thư",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Nether?",
+      "options": [
+        "Nether (giữ nguyên)",
+        "Nại Thư (Hán-Việt)",
+        "Ninh Thư (Hán-Việt)",
+        "Hạ Thư (Hán-Việt)"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_002",
+      "original": "Shade",
+      "suggested": "Sa Đức",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Shade?",
+      "options": [
+        "Shade (giữ nguyên)",
+        "Sa Đức (Hán-Việt)",
+        "Thiệt Đức (Hán-Việt)",
+        "Sái Đức (Hán-Việt)"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_003",
+      "original": "Ji Chenxi and Nether interaction",
+      "suggested": "",
+      "confidence": 0.3,
+      "question": "Xưng hô giữa Ji Chenxi và Nether khi giao tiếp và ngôi thứ ba?",
+      "options": [
+        "Ji Chenxi: tôi - Nether: chị; Ngôi thứ ba: cậu ấy - chị ấy",
+        "Ji Chenxi: tôi - Nether: cô; Ngôi thứ ba: cậu ấy - cô ấy",
+        "Ji Chenxi: cậu - Nether: tôi; Ngôi thứ ba: cậu ấy - cô ấy",
+        "Ji Chenxi: tôi - Nether: quý cô; Ngôi thứ ba: cậu ấy - quý cô ấy"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_004",
+      "original": "Ji Chenxi and Shade interaction",
+      "suggested": "",
+      "confidence": 0.3,
+      "question": "Xưng hô giữa Ji Chenxi và Shade khi giao tiếp và ngôi thứ ba?",
+      "options": [
+        "Ji Chenxi: tôi - Shade: cậu; Ngôi thứ ba: cậu ấy - cậu ấy",
+        "Ji Chenxi: tôi - Shade: anh; Ngôi thứ ba: cậu ấy - anh ấy",
+        "Ji Chenxi: cậu - Shade: tôi; Ngôi thứ ba: cậu ấy - cậu ấy",
+        "Ji Chenxi: tôi - Shade: mày; Ngôi thứ ba: cậu ấy - hắn"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_005",
+      "original": "Nether and Shade interaction",
+      "suggested": "",
+      "confidence": 0.3,
+      "question": "Xưng hô giữa Nether và Shade khi giao tiếp và ngôi thứ ba?",
+      "options": [
+        "Nether: chị - Shade: em; Ngôi thứ ba: chị ấy - cậu ấy",
+        "Nether: tôi - Shade: cậu; Ngôi thứ ba: chị ấy - cậu ấy",
+        "Nether: chị - Shade: tôi; Ngôi thứ ba: chị ấy - cậu ấy"
+      ],
+      "category": "pronoun"
+    }
+  ],
+  "answers": {
+    "amb_001": {
+      "choice": "Nether (giữ nguyên)",
+      "custom": null
+    },
+    "amb_002": {
+      "choice": "Shade (giữ nguyên)",
+      "custom": null
+    },
+    "amb_003": {
+      "choice": "Custom",
+      "custom": "Ta - Cô"
+    },
+    "amb_004": {
+      "choice": "Custom",
+      "custom": "Ta - Cậu"
+    },
+    "amb_005": {
+      "choice": "Nether: chị - Shade: em; Ngôi thứ ba: chị ấy - cậu ấy",
+      "custom": null
+    }
+  },
+  "answered_at": "2026-09-24T16:36:42.868824+07:00"
+}

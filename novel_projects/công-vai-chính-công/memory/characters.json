@@ -1,0 +1,150 @@
+[
+  {
+    "name": "Su Yu",
+    "hanviet_name": "Tô Dục",
+    "gender": "Male",
+    "aliases": [
+      "Su Yu",
+      "Tô Dục",
+      "Tô Vũ"
+    ],
+    "honorifics": "Uses 'cậu' for Quý Thần Hi",
+    "speech_style": "Informal, teasing, slightly boisterous, direct",
+    "notes": "Self-identifies as an Alpha. Described as bồn chồn (restless) and somewhat clumsy."
+  },
+  {
+    "name": "Bai Anran",
+    "hanviet_name": "Bạch An Nhiên",
+    "gender": "unknown",
+    "aliases": [
+      "Bai Anran",
+      "Bạch An Nhiên"
+    ],
+    "honorifics": "",
+    "speech_style": "",
+    "notes": ""
+  },
+  {
+    "name": "Bai Xinke",
+    "hanviet_name": "Bạch Hân Khả",
+    "gender": "Female",
+    "aliases": [
+      "Bai Xinke",
+      "Bạch Hân Khả"
+    ],
+    "honorifics": "",
+    "speech_style": "",
+    "notes": ""
+  },
+  {
+    "name": "Chi Zhuo",
+    "hanviet_name": "Trì Chước",
+    "gender": "Male",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Chi Zhuo",
+      "Trì Chước",
+      "Chi Zhou",
+      "người đàn ông"
+    ],
+    "honorifics": "anh ta (third person), anh (used by Quý Thần Hi)",
+    "speech_style": "Aggressive, demanding, guttural, struggling with instinct",
+    "notes": "An Alpha with black hair and strong pheromones (tequila scent). Highly aggressive and instinct-driven, struggles to maintain lý trí (reason) when encountering Quý Thần Hi."
+  },
+  {
+    "name": "Quý Thần Hi",
+    "hanviet_name": "Quý Thần Hi",
+    "gender": "Male",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Quý Thần Hi",
+      "Tam thiếu gia",
+      "Ji Chenxi",
+      "chàng trai tóc bạc"
+    ],
+    "honorifics": "Uses 'cậu' for Tô Dục. Referred to as 'Tam thiếu gia của chúng ta' by Tô Dục.",
+    "speech_style": "Elegant, reserved, quiet, slightly cold/unimpressed",
+    "notes": "Described as a 'mỹ nhân' (beauty) with long silver hair and blue eyes. Confirmed to be an Alpha."
+  },
+  {
+    "name": "Su Nuan",
+    "hanviet_name": "Tô Noãn",
+    "gender": "Female",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Su Nuan",
+      "Tô Noãn"
+    ],
+    "honorifics": "",
+    "speech_style": "",
+    "notes": ""
+  },
+  {
+    "name": "Nether",
+    "hanviet_name": "Nether (giữ nguyên)",
+    "gender": "Female",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Nether",
+      "Nether (giữ nguyên)",
+      "Nại Thư",
+      "Nữ Alpha",
+      "chị"
+    ],
+    "honorifics": "chị (self-referential to Quý Thần Hi)",
+    "speech_style": "Calm, slightly hoarse, gentle, decisive, professional",
+    "notes": "Alpha cấp A, lính đánh thuê, chị gái của Shade, điềm tĩnh hơn trong cặp song sinh."
+  },
+  {
+    "name": "Shade",
+    "hanviet_name": "Shade (giữ nguyên)",
+    "gender": "Male",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Shade",
+      "Shade (giữ nguyên)",
+      "Sa Đức",
+      "Nam Alpha",
+      "em trai"
+    ],
+    "honorifics": "",
+    "speech_style": "Quiet, observant, polite (gật đầu lịch sự)",
+    "notes": "Alpha cấp A, lính đánh thuê, em trai của Nether, lặng lẽ quan sát."
+  },
+  {
+    "name": "Shadowy Figure",
+    "hanviet_name": "",
+    "gender": "Unknown",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Shadowy Figure"
+    ],
+    "honorifics": "",
+    "speech_style": "",
+    "notes": ""
+  },
+  {
+    "name": "Ji Chenxi's older brother",
+    "hanviet_name": "",
+    "gender": "Male",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Ji Chenxi's older brother"
+    ],
+    "honorifics": "",
+    "speech_style": "",
+    "notes": ""
+  },
+  {
+    "name": "Ji Chenxi's second sister",
+    "hanviet_name": "",
+    "gender": "Female",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Ji Chenxi's second sister"
+    ],
+    "honorifics": "",
+    "speech_style": "",
+    "notes": ""
+  }
+]

@@ -1,0 +1,175 @@
+{
+  "chapter_summary": "Chương này mở đầu với cảnh Quý Thần Hi đang đọc một cuốn sách lạ trong vườn, trong khi Tô Vũ cố gắng thu hút sự chú ý của anh. Quý Thần Hi tỏ ra không hài lòng với nội dung cuốn sách. Sau khi đọc xong, anh hỏi Tô Vũ về Trì Chước, một người con riêng của gia đình Trì, được mô tả là kỳ lạ và đáng sợ. Cuốn sách miêu tả Quý Thần Hi là một 'công pháo hôi' bắt nạt vị hôn phu Bạch An Nhiên và bị 'công chính' giết chết. Trì Chước trong sách được miêu tả là một alpha cấp SSS và là 'công chính'. Quý Thần Hi biết rằng hôm nay, ngày 29 tháng 4, là tiệc sinh nhật của Bạch Hân Khả, nơi 'thụ chính' (Bạch An Nhiên) và 'công chính' (Trì Chước) được cho là sẽ gặp nhau lần đầu. Mặc dù ban đầu không muốn tham dự các sự kiện liên quan đến 'vị hôn phu' Bạch An Nhiên, Quý Thần Hi quyết định đến bữa tiệc để gặp 'công chính' Trì Chước, người được định mệnh sẽ giết anh. Anh đến muộn và kín đáo, với Tô Vũ giúp anh tránh các khách mời khác.",
+  "new_characters": [
+    {
+      "name": "Su Yu",
+      "hanviet_name": "Tô Vũ",
+      "gender": "Male",
+      "role": "Friend of Ji Chenxi",
+      "description": "A young man, friend of Ji Chenxi, who is bored and tries to get Ji Chenxi's attention. He is cheeky and familiar with Ji Chenxi."
+    },
+    {
+      "name": "Bai Xinke",
+      "hanviet_name": "Bạch Hân Khả",
+      "gender": "Female",
+      "role": "Cousin of Bai Anran",
+      "description": "Bai Anran's cousin, whose birthday banquet is held today. She is mentioned as inviting many guests."
+    },
+    {
+      "name": "Chi Zhuo",
+      "hanviet_name": "Trì Chước",
+      "gender": "Male",
+      "role": "Illegitimate heir of the Chi family, protagonist gong in the book",
+      "description": "An illegitimate son of the Chi family, described as odd and feared. In the book, he is the ruler of an underground kingdom, a cruel lunatic, and the only SSS-rank alpha in the empire, fated to kill Ji Chenxi."
+    }
+  ],
+  "new_locations": [
+    {
+      "name": "First Military Academy",
+      "hanviet": "Học viện Quân sự Đệ Nhất",
+      "description": "The military academy where Bai Anran disguises himself as a beta to sneak in, according to the book's plot."
+    }
+  ],
+  "new_terms": [
+    {
+      "original": "SSS-rank alpha",
+      "suggested": "Alpha cấp SSS",
+      "hanviet": "",
+      "category": "other",
+      "confidence": 0.7
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "Su Yu",
+      "suggested": "Tô Vũ",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Su Yu?",
+      "options": [
+        "Tô Vũ",
+        "Tố Vũ",
+        "Tô Dụ",
+        "Tố Dụ"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_002",
+      "original": "Su Yu (ngôi thứ 3)",
+      "suggested": "cậu",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Su Yu (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "cậu",
+        "anh",
+        "gã",
+        "y",
+        "hắn",
+        "chàng"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_003",
+      "original": "Bai Xinke",
+      "suggested": "Bạch Hân Khả",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Bai Xinke?",
+      "options": [
+        "Bạch Hân Khả",
+        "Bạch Tân Khả",
+        "Bạch Hân Kha",
+        "Bạch Tân Kha"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_004",
+      "original": "Bai Xinke (ngôi thứ 3)",
+      "suggested": "cô",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Bai Xinke (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "cô",
+        "nàng",
+        "chị",
+        "ả",
+        "y"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_005",
+      "original": "Chi Zhuo",
+      "suggested": "Trì Chước",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Chi Zhuo?",
+      "options": [
+        "Trì Chước",
+        "Trì Trác",
+        "Trì Trạc",
+        "Trì Chước"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_006",
+      "original": "Chi Zhuo (ngôi thứ 3)",
+      "suggested": "y",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Chi Zhuo (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "y",
+        "hắn",
+        "gã",
+        "cậu",
+        "anh"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_007",
+      "original": "Su Yu → Ji Chenxi",
+      "suggested": "Su Yu xưng Tôi - gọi Ji Chenxi là Cậu",
+      "confidence": 0.3,
+      "question": "Chiều 1: Su Yu xưng hô thế nào với Ji Chenxi (Su Yu tự xưng là gì và gọi Ji Chenxi là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Cậu",
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Quý thiếu"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_008",
+      "original": "Ji Chenxi → Su Yu",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Su Yu là Cậu",
+      "confidence": 0.3,
+      "question": "Chiều 2: Ji Chenxi xưng hô thế nào với Su Yu (Ji Chenxi tự xưng là gì và gọi Su Yu là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Cậu",
+        "xưng Tôi - gọi Ngươi",
+        "xưng Ta - gọi Cậu",
+        "xưng Ta - gọi Ngươi"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_009",
+      "original": "First Military Academy",
+      "suggested": "Học viện Quân sự Đệ Nhất",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch cho địa danh 'First Military Academy'?",
+      "options": [
+        "Học viện Quân sự Đệ Nhất",
+        "Học viện Quân sự Số Một",
+        "Học viện Quân sự Thứ Nhất"
+      ],
+      "category": "location"
+    }
+  ],
+  "chapter_id": "ch_001",
+  "analyzed_at": "2026-09-24T15:59:07.237747+07:00"
+}
