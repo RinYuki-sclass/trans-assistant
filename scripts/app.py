@@ -3565,7 +3565,7 @@ if tabs.is_active(11):
                 if import_src == "🌐 Crawl từ Web URL":
                     na_crawl_site = st.selectbox(
                         "Website nguồn:",
-                        ["Novelib", "Cherry Mist", "ZenithTL", "Hyacinth Bloom", "Mistmint Haven", "PIE NOVELS", "URL tùy chỉnh"],
+                        ["Novelib", "Cherry Mist", "ZenithTL", "Hyacinth Bloom", "Mistmint Haven", "PIE NOVELS", "BL Reads", "URL tùy chỉnh"],
                         key="na_crawl_site"
                     )
                     na_presets = {
@@ -3575,6 +3575,7 @@ if tabs.is_active(11):
                         "Hyacinth Bloom": "https://hyacinthbloom.com/series/earth-heros-retirement-project/",
                         "Mistmint Haven": "https://www.mistminthaven.com/novels/rolling-in-bed-with-the-male-lead",
                         "PIE NOVELS": "https://pienovels.com/novels/ill-raise-the-villain-who-killed-me/",
+                        "BL Reads": "https://blreads.tech/story/the-demon-king-has-face-blindness-book/",
                         "URL tùy chỉnh": "",
                     }
                     na_crawl_url = st.text_input(
@@ -6338,7 +6339,7 @@ if tabs.is_active(12):
             if src_type == "🌐 Web URL (Crawl)":
                 crawl_site = st.selectbox(
                     "Website:",
-                    ["Novelib", "Cherry Mist", "ZenithTL", "Hyacinth Bloom", "Mistmint Haven", "PIE NOVELS", "URL tùy chỉnh"],
+                    ["Novelib", "Cherry Mist", "ZenithTL", "Hyacinth Bloom", "Mistmint Haven", "PIE NOVELS", "BL Reads", "URL tùy chỉnh"],
                     key="aud_crawl_site",
                 )
                 crawl_presets = {
@@ -6348,6 +6349,7 @@ if tabs.is_active(12):
                     "Hyacinth Bloom": "https://hyacinthbloom.com/series/earth-heros-retirement-project/",
                     "Mistmint Haven": "https://www.mistminthaven.com/novels/rolling-in-bed-with-the-male-lead",
                     "PIE NOVELS": "https://pienovels.com/novels/ill-raise-the-villain-who-killed-me/",
+                    "BL Reads": "https://blreads.tech/story/the-demon-king-has-face-blindness-book/",
                     "URL tùy chỉnh": "",
                 }
                 crawl_url = st.text_input(

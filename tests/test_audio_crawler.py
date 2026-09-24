@@ -19,6 +19,8 @@ from audio.crawler import (
     _get_with_retry,
     _parse_hyacinth_series_chapters,
     _parse_pienovels_series_chapters,
+    _parse_blreads_series_chapters,
+    _resolve_blreads_story_url,
     MistmintHavenCrawler,
 )
 
@@ -258,6 +260,92 @@ class PieNovelsSeriesTests(unittest.TestCase):
         )
         self.assertEqual(result["chapters"][0]["price"], 0)
         self.assertEqual(result["chapters"][1]["slug"], "chapter-2-second-title")
+
+
+class BLReadsSeriesTests(unittest.TestCase):
+    def test_resolve_blreads_story_url(self):
+        ch_url = "https://blreads.tech/chapter/the-demon-king-has-face-blindness-book-chapter-1/"
+        self.assertEqual(
+            _resolve_blreads_story_url(ch_url),
+            "https://blreads.tech/story/the-demon-king-has-face-blindness-book/",
+        )
+        nested_url = "https://blreads.tech/story/does-a-ceo-need-a-husband-too/does-a-ceo-need-a-husband-too-ch-1-ad1371/"
+        self.assertEqual(
+            _resolve_blreads_story_url(nested_url),
+            "https://blreads.tech/story/does-a-ceo-need-a-husband-too/",
+        )
+        story_url = "https://blreads.tech/story/the-demon-king-has-face-blindness-book/"
+        self.assertEqual(_resolve_blreads_story_url(story_url), story_url)
+
+    def test_parse_blreads_series_chapters_with_deduplication(self):
+        html = """
+        <h1 class="story__title">The Demon King Has Face Blindness [Book]</h1>
+        <ul class="chapter-group">
+          <li class="chapter-group__list-item">
+            <a class="chapter-group__list-item-link" href="https://blreads.tech/chapter/the-demon-king-has-face-blindness-book-chapter-1/">
+              The Demon King Has Face Blindness [Book] Chapter 1
+            </a>
+          </li>
+          <li class="chapter-group__list-item">
+            <a class="chapter-group__list-item-link" href="https://blreads.tech/chapter/the-demon-king-has-face-blindness-book-chapter-2/">
+              The Demon King Has Face Blindness [Book] Chapter 2
+            </a>
+          </li>
+          <!-- Duplicate chapter published twice -->
+          <li class="chapter-group__list-item">
+            <a class="chapter-group__list-item-link" href="https://blreads.tech/chapter/the-demon-king-has-face-blindness-book-chapter-2-2/">
+              The Demon King Has Face Blindness [Book] Chapter 2
+            </a>
+          </li>
+          <li class="chapter-group__list-item">
+            <a class="chapter-group__list-item-link" href="https://blreads.tech/chapter/the-demon-king-has-face-blindness-book-chapter-3/">
+              The Demon King Has Face Blindness [Book] Chapter 3
+            </a>
+          </li>
+        </ul>
+        """
+        result = _parse_blreads_series_chapters(
+            html,
+            "https://blreads.tech/story/the-demon-king-has-face-blindness-book/",
+        )
+        self.assertEqual(result["series_title"], "The Demon King Has Face Blindness [Book]")
+        self.assertEqual(len(result["chapters"]), 3)
+        self.assertEqual(
+            [c["chapter_number"] for c in result["chapters"]],
+            [1, 2, 3],
+        )
+        self.assertEqual(
+            result["chapters"][0]["url"],
+            "https://blreads.tech/chapter/the-demon-king-has-face-blindness-book-chapter-1/",
+        )
+        self.assertEqual(
+            result["chapters"][1]["url"],
+            "https://blreads.tech/chapter/the-demon-king-has-face-blindness-book-chapter-2/",
+        )
+
+    def test_parse_blreads_nested_story_chapters(self):
+        html = """
+        <h1 class="entry-title">Does a CEO Need a Husband Too?</h1>
+        <div class="story-chapters">
+          <a href="/story/does-a-ceo-need-a-husband-too/does-a-ceo-need-a-husband-too-ch-1-ad1371/">
+            <span class="chapter-group__list-item-title list-view">The Paper Character’s First Heartbeat</span>
+            <span class="grid-view">The Paper Character's First Heartbeat</span>
+          </a>
+          <a href="/story/does-a-ceo-need-a-husband-too/does-a-ceo-need-a-husband-too-ch-2-690e8e/">
+            <span class="chapter-group__list-item-title list-view">The Paper Character’s Second Heartbeat</span>
+            <span class="grid-view">The Paper Character's Second Heartbeat</span>
+          </a>
+        </div>
+        """
+        result = _parse_blreads_series_chapters(
+            html,
+            "https://blreads.tech/story/does-a-ceo-need-a-husband-too/",
+        )
+        self.assertEqual(result["series_title"], "Does a CEO Need a Husband Too?")
+        self.assertEqual(len(result["chapters"]), 2)
+        self.assertEqual(result["chapters"][0]["chapter_number"], 1)
+        self.assertEqual(result["chapters"][0]["title"], "The Paper Character’s First Heartbeat")
+        self.assertEqual(result["chapters"][1]["chapter_number"], 2)
 
 
 if __name__ == "__main__":

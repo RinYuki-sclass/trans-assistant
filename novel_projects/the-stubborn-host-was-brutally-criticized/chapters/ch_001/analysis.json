@@ -1,0 +1,112 @@
+{
+  "chapter_summary": "Thịnh Thanh (Sheng Qing) tỉnh dậy trong tủ quần áo và chứng kiến cảnh ngoại tình của mẹ Nữ chính. Anh được Hệ thống giao nhiệm vụ công lược Nam chính trong cuốn tiểu thuyết ngôn tình 'Hào Môn Đại Lão Chưởng Trung Kiều' (The Tycoon’s Palm-Sized Pet) để thu thập Mảnh vỡ phục sinh. Nguyên thân cũng tên Thịnh Thanh, là một 'Liếm cẩu' (Licking Dog) thảm hại, dành 12 năm đơn phương Nữ chính và cuối cùng chết vì hiến thận cho cô ta. Thịnh Thanh quyết định thay vì làm bạn trai Nữ chính, anh sẽ trở thành bạn trai của Nam chính.",
+  "new_characters": [
+    {
+      "name": "Sheng Qing",
+      "hanviet_name": "Thịnh Thanh",
+      "gender": "Male",
+      "role": "Protagonist",
+      "description": "A 18-year-old who died from staying up late playing games and transmigrated into a novel. He has amber eyes and is described as very handsome."
+    },
+    {
+      "name": "System",
+      "hanviet_name": "Hệ thống",
+      "gender": "Female (voice)",
+      "role": "Guide",
+      "description": "A novice system with only three months of experience, has a sweet voice and sometimes makes mistakes in teleportation."
+    },
+    {
+      "name": "Female Lead",
+      "hanviet_name": "Nữ chính",
+      "gender": "Female",
+      "role": "Supporting",
+      "description": "The original target of Sheng Qing's body's affection; she treated him as a loyal 'Licking Dog'."
+    },
+    {
+      "name": "Male Lead",
+      "hanviet_name": "Nam chính",
+      "gender": "Male",
+      "role": "Target",
+      "description": "The male protagonist of the novel 'The Tycoon’s Palm-Sized Pet', whom Sheng Qing must now seduce."
+    }
+  ],
+  "new_locations": [
+    {
+      "name": "Top high school",
+      "hanviet": "Trường trung học trọng điểm",
+      "description": "The school where the original Sheng Qing and the Female Lead studied."
+    }
+  ],
+  "new_terms": [
+    {
+      "original": "Strategy",
+      "suggested": "Công lược",
+      "hanviet": "Công lược",
+      "category": "other",
+      "confidence": 1.0
+    },
+    {
+      "original": "The Tycoon’s Palm-Sized Pet",
+      "suggested": "Hào Môn Đại Lão Chưởng Trung Kiều",
+      "hanviet": "Hào Môn Đại Lão Chưởng Trung Kiều",
+      "category": "other",
+      "confidence": 0.95
+    },
+    {
+      "original": "Flower Guardian",
+      "suggested": "Hộ hoa sứ giả",
+      "hanviet": "Hộ hoa sứ giả",
+      "category": "other",
+      "confidence": 1.0
+    },
+    {
+      "original": "Licking Dog",
+      "suggested": "Liếm cẩu",
+      "hanviet": "Liếm cẩu",
+      "category": "other",
+      "confidence": 1.0
+    },
+    {
+      "original": "Favorability Value",
+      "suggested": "Hảo cảm độ",
+      "hanviet": "Hảo cảm độ",
+      "category": "other",
+      "confidence": 1.0
+    },
+    {
+      "original": "Resurrection Shards",
+      "suggested": "Mảnh vỡ phục sinh",
+      "hanviet": "Phục sinh toái phiến",
+      "category": "item",
+      "confidence": 1.0
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "Dear",
+      "suggested": "Ký chủ / Thân ái",
+      "confidence": 0.9,
+      "question": "The System uses 'Dear' to address Sheng Qing. In Chinese webnovels, this is often 'Qin' (亲) or 'Host' (宿主).",
+      "options": [
+        "Ký chủ",
+        "Thân ái",
+        "Cưng"
+      ],
+      "category": "honorific"
+    },
+    {
+      "id": "amb_002",
+      "original": "Retired Emperor",
+      "suggested": "Thái thượng hoàng",
+      "confidence": 1.0,
+      "question": "Sheng Qing sarcastically calls the System 'Retired Emperor' (Tai Shang Huang).",
+      "options": [
+        "Thái thượng hoàng"
+      ],
+      "category": "honorific"
+    }
+  ],
+  "chapter_id": "ch_001",
+  "analyzed_at": "2026-09-23T18:03:08.078124+07:00"
+}

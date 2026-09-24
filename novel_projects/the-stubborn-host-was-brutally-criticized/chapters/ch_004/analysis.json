@@ -1,0 +1,98 @@
+{
+  "chapter_summary": "Thịnh Thanh đòi tiền công làm bài tập nhưng Phó Nam Ý tiết lộ đã trả cho Hạ Lị 20.000 tệ cho toàn bộ bài tập hè. Thịnh Thanh nhận ra mình bị Hạ Lị lợi dụng làm lao động miễn phí. Vì quá muộn, anh phải đi bộ về nhà và tranh luận với Hệ thống 0615. Hệ thống cho biết độ hảo cảm của Phó Nam Ý đối với anh là -10 và chức năng dịch chuyển chỉ mở khi đạt 70 điểm. Trưa hôm sau, Thịnh Thanh gặp Hạ Lị đang đi nhặt chai nhựa. Dù biết cô đã nhận một số tiền lớn từ Phó Nam Ý, anh vẫn đối chất về việc cô lừa anh làm bài hộ. Hạ Lị xin lỗi và đề nghị mua kem cho anh để tạ lỗi.",
+  "new_characters": [
+    {
+      "name": "Sheng Qing",
+      "hanviet_name": "Thịnh Thanh",
+      "gender": "Male",
+      "role": "Protagonist",
+      "description": "The host bound to the system, currently acting as a student who helps others with homework."
+    },
+    {
+      "name": "Fu Nanyi",
+      "hanviet_name": "Phó Nam Ý",
+      "gender": "Male",
+      "role": "Male Lead",
+      "description": "A wealthy, irritable student living in a villa; described as the 'landlord's silly son'."
+    },
+    {
+      "name": "Xia Li",
+      "hanviet_name": "Hạ Lị",
+      "gender": "Female",
+      "role": "Female Lead",
+      "description": "Sheng Qing's acquaintance who lied to him about the homework payment and collects plastic bottles."
+    },
+    {
+      "name": "System 0615",
+      "hanviet_name": "Hệ thống 0615",
+      "gender": "N/A",
+      "role": "Guide",
+      "description": "A virtual image/code that was once a human; guides Sheng Qing through his tasks."
+    }
+  ],
+  "new_locations": [
+    {
+      "name": "Villa district",
+      "hanviet": "Khu biệt thự",
+      "description": "The high-end residential area where Fu Nanyi lives."
+    }
+  ],
+  "new_terms": [
+    {
+      "original": "Favorability value",
+      "suggested": "Độ hảo cảm",
+      "hanviet": "Hảo cảm trị",
+      "category": "other",
+      "confidence": 1.0
+    },
+    {
+      "original": "Gaokao",
+      "suggested": "Kỳ thi đại học",
+      "hanviet": "Cao khảo",
+      "category": "other",
+      "confidence": 1.0
+    },
+    {
+      "original": "Teleportation function",
+      "suggested": "Chức năng dịch chuyển",
+      "hanviet": "Truyền tống công năng",
+      "category": "skill",
+      "confidence": 1.0
+    },
+    {
+      "original": "Landlord’s Silly Son",
+      "suggested": "Con trai ngốc của địa chủ",
+      "hanviet": "Địa chủ gia đích đãi nhi tử",
+      "category": "other",
+      "confidence": 0.9
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "Landlord’s Silly Son",
+      "suggested": "Con trai ngốc của địa chủ",
+      "confidence": 0.9,
+      "question": "This is a common Chinese internet trope for wealthy but naive characters. Should it be translated literally or kept as a trope reference?",
+      "options": [
+        "Con trai ngốc của địa chủ",
+        "Phú nhị đại ngốc nghếch"
+      ],
+      "category": "term"
+    },
+    {
+      "id": "amb_002",
+      "original": "City people really know how to play",
+      "suggested": "Người thành phố thật biết cách chơi",
+      "confidence": 0.8,
+      "question": "A popular internet slang (Cheng li ren zhen hui wan). Should it be translated to reflect the meme status?",
+      "options": [
+        "Người thành phố đúng là biết chơi",
+        "Đúng là người thành phố, thật biết hưởng thụ"
+      ],
+      "category": "term"
+    }
+  ],
+  "chapter_id": "ch_004",
+  "analyzed_at": "2026-09-23T18:03:56.022448+07:00"
+}
