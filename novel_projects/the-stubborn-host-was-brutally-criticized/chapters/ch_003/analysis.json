@@ -1,0 +1,86 @@
+{
+  "chapter_summary": "Thịnh Thanh (Sheng Qing) đến gặp nam chính Phó Nam Nhất (Fu Nanyi) để giao đề thi theo lời nhờ của Hạ Lị (Xia Li). Tại đây, một sự hiểu lầm tai hại xảy ra khi Thịnh Thanh tưởng Phó Nam Nhất muốn mình thực hiện \"dịch vụ đặc biệt\", nhưng thực chất anh chỉ bị coi là người viết bài tập hộ. Thịnh Thanh phải thức đêm hoàn thành bốn bộ đề thi trong khi Phó Nam Nhất đi ngủ. Trong quá trình làm bài, Thịnh Thanh nhớ lại kiếp trước mình qua đời ở tuổi 18 do làm việc quá sức và đã ký khế ước với Hệ thống để thu thập Mảnh vỡ hồi sinh. Cuối chương, khi Thịnh Thanh định vẽ bậy lên mặt Phó Nam Nhất lúc anh đang ngủ thì bị anh bất ngờ tỉnh dậy bắt quả tang.",
+  "new_characters": [
+    {
+      "name": "Sheng Qing",
+      "hanviet_name": "Thịnh Thanh",
+      "gender": "Male",
+      "role": "Protagonist",
+      "description": "A student who died of overwork and is now completing missions for a System to be resurrected."
+    },
+    {
+      "name": "Fu Nanyi",
+      "hanviet_name": "Phó Nam Nhất",
+      "gender": "Male",
+      "role": "Male Lead",
+      "description": "A wealthy, arrogant student with an oppressive presence; he forces Sheng Qing to do his homework."
+    },
+    {
+      "name": "Xia Li",
+      "hanviet_name": "Hạ Lị",
+      "gender": "Female",
+      "role": "Supporting",
+      "description": "A student who asked Sheng Qing to deliver papers to Fu Nanyi."
+    }
+  ],
+  "new_locations": [],
+  "new_terms": [
+    {
+      "original": "System",
+      "suggested": "Hệ thống",
+      "hanviet": "Hệ thống",
+      "category": "other",
+      "confidence": 1.0
+    },
+    {
+      "original": "Sanda",
+      "suggested": "Tán thủ",
+      "hanviet": "Tán thủ",
+      "category": "skill",
+      "confidence": 1.0
+    },
+    {
+      "original": "Resurrection Shards",
+      "suggested": "Mảnh vỡ hồi sinh",
+      "hanviet": "Phục hoạt toái phiến",
+      "category": "item",
+      "confidence": 1.0
+    },
+    {
+      "original": "gigolo",
+      "suggested": "trai bao",
+      "hanviet": "ngưu lang",
+      "category": "other",
+      "confidence": 0.9
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "You",
+      "suggested": "Cậu / Anh / Ngươi",
+      "confidence": 0.8,
+      "question": "The pronoun 'you' between Sheng Qing and Fu Nanyi depends on their perceived social standing and level of hostility.",
+      "options": [
+        "Cậu - Tôi (Neutral/Schoolmates)",
+        "Anh - Tôi (If one feels older/superior)",
+        "Ngươi - Ta (Hostile/Arrogant)"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_002",
+      "original": "male lead",
+      "suggested": "nam chính",
+      "confidence": 1.0,
+      "question": "Sheng Qing refers to Fu Nanyi as the 'male lead' because he knows he is in a story/mission.",
+      "options": [
+        "nam chính",
+        "nam chủ"
+      ],
+      "category": "term"
+    }
+  ],
+  "chapter_id": "ch_003",
+  "analyzed_at": "2026-09-23T18:03:35.658167+07:00"
+}

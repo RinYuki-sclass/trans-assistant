@@ -1,0 +1,89 @@
+{
+  "chapter_summary": "Thịnh Thanh biết được hoàn cảnh đáng thương của Hạ Ly khi toàn bộ số tiền cô kiếm được từ việc làm hộ bài tập cho Phó Nam Ý đã bị người cha cờ bạc lấy mất. Khi trường Nhất Trung khai giảng, Thịnh Thanh choáng ngợp trước sự giàu có của các học sinh khác. Tại đây, cậu gặp Lăng Vũ - bạn cùng bàn và cũng là đối thủ của Phó Nam Ý. Lăng Vũ có vẻ ngoài đào hoa và thường xuyên trêu chọc Thịnh Thanh bằng biệt danh 'Thanh Thanh'. Cuối chương, Thịnh Thanh tình cờ chạm mặt Phó Nam Ý trong nhà vệ sinh, dẫn đến một tình huống hiểu lầm dở khóc dở cười khi Phó Nam Ý mỉa mai cậu trông giống như 'trai bao'.",
+  "new_characters": [
+    {
+      "name": "Huang Xing",
+      "hanviet_name": "Hoàng Tinh",
+      "gender": "Male",
+      "role": "Minor character",
+      "description": "Một nam sinh bị Lăng Vũ dằn mặt tại cổng trường."
+    },
+    {
+      "name": "Ling Yu",
+      "hanviet_name": "Lăng Vũ",
+      "gender": "Male",
+      "role": "Supporting character / Rival",
+      "description": "Đối thủ của nam chính Phó Nam Ý, là bạn cùng bàn của Thịnh Thanh. Được mô tả là một 'tiếu diện hổ' (hổ cười) với đôi mắt đào hoa, hay trêu chọc Thịnh Thanh."
+    }
+  ],
+  "new_locations": [
+    {
+      "name": "No. 1 High School",
+      "hanviet": "Nhất Trung",
+      "description": "Trường trung học nơi các nhân vật theo học, tập trung nhiều con em gia đình quyền quý."
+    },
+    {
+      "name": "Class 1",
+      "hanviet": "Lớp 1",
+      "description": "Lớp học của Thịnh Thanh và Lăng Vũ."
+    }
+  ],
+  "new_terms": [
+    {
+      "original": "Little Pudding",
+      "suggested": "Tiểu Bố Đinh",
+      "hanviet": "Tiểu Bố Đinh",
+      "category": "item",
+      "confidence": 1.0
+    },
+    {
+      "original": "Smiling tiger",
+      "suggested": "Tiếu diện hổ",
+      "hanviet": "Tiếu diện hổ",
+      "category": "other",
+      "confidence": 1.0
+    },
+    {
+      "original": "Peach blossom eyes",
+      "suggested": "Mắt đào hoa",
+      "hanviet": "Đào hoa nhãn",
+      "category": "other",
+      "confidence": 1.0
+    },
+    {
+      "original": "Gigolo",
+      "suggested": "Trai bao / Ngưu lang",
+      "hanviet": "Ngưu lang",
+      "category": "other",
+      "confidence": 0.9
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "Qingqing",
+      "suggested": "Thanh Thanh",
+      "confidence": 0.9,
+      "question": "Lăng Vũ gọi Thịnh Thanh bằng biệt danh thân mật/trêu chọc.",
+      "options": [
+        "Thanh Thanh",
+        "A Thanh"
+      ],
+      "category": "honorific"
+    },
+    {
+      "id": "amb_002",
+      "original": "Deskmate",
+      "suggested": "Bạn cùng bàn",
+      "confidence": 1.0,
+      "question": "Mối quan hệ giữa Thịnh Thanh và Lăng Vũ ở trường.",
+      "options": [
+        "Bạn cùng bàn",
+        "Đồng bàn"
+      ],
+      "category": "relationship"
+    }
+  ],
+  "chapter_id": "ch_005",
+  "analyzed_at": "2026-09-23T18:04:07.094900+07:00"
+}

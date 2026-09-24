@@ -1,0 +1,11 @@
+{
+  "title": "The Stubborn Host Was Brutally Criticized",
+  "slug": "the-stubborn-host-was-brutally-criticized",
+  "source_lang": "Chinese",
+  "target_lang": "Vietnamese",
+  "style_guide": "Tên nhân vật chuyển sang Hán Việt, bối cảnh hiện đại.",
+  "confidence_threshold": 0.8,
+  "chunk_size": 20,
+  "created_at": "2026-09-23T18:02:14.835379+07:00",
+  "chapters_count": 0
+}

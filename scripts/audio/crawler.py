@@ -19,6 +19,8 @@ _CONTENT_SELECTORS = [
     "div#chapter-content-text",  # Mistmint Haven hydrated DOM
     "div.chapter-content-text",
     "div#chapterText",           # PIE NOVELS
+    "article.chapter__article",  # BL Reads / Fictioneer
+    "div.chapter__article",
     "div.chapter__content",      # Cherry Mist / Fictioneer
     "div#chapter-content",
     "div.fictioneer-chapter-text",
@@ -376,6 +378,95 @@ def _fetch_novelib_series_chapters(url: str) -> dict:
         "series_id": url,
         "chapters": chapters,
     }
+
+
+def _resolve_blreads_story_url(url: str) -> str:
+    """Normalize any BL Reads chapter or story URL into its canonical story URL."""
+    parsed = urlparse(url)
+    path_parts = [p for p in parsed.path.split("/") if p]
+    if not path_parts:
+        return url
+    if "chapter" in path_parts:
+        ch_slug = path_parts[-1]
+        story_slug = re.sub(r"[-_](?:chapter|ch|c)[-_]?\d+.*$", "", ch_slug, flags=re.IGNORECASE)
+        return f"{parsed.scheme}://{parsed.netloc}/story/{story_slug}/"
+    if "story" in path_parts and len(path_parts) > 2:
+        return f"{parsed.scheme}://{parsed.netloc}/story/{path_parts[1]}/"
+    return url
+
+
+def _parse_blreads_series_chapters(html: str, series_url: str) -> dict:
+    """Parse BL Reads story page into the standard series chapter dict."""
+    soup = BeautifulSoup(html, "html.parser")
+    h1 = soup.select_one("h1.story__title") or soup.select_one("h1.entry-title") or soup.find("h1")
+    series_title = (h1.get_text(strip=True) if h1 else "BL Reads Story").strip()
+
+    chapters = []
+    seen_urls = set()
+    seen_nums = {}
+
+    groups = soup.select(".chapter-group, .story-chapters, .chapter-list, .story-chapter-list, .fictioneer-chapter-list")
+    if not groups:
+        groups = [soup]
+
+    clean_series_url = series_url.rstrip("/")
+
+    for group in groups:
+        for a in group.find_all("a", href=True):
+            ch_url = urljoin(series_url, a["href"])
+            if ch_url in seen_urls:
+                continue
+
+            clean_ch_url = ch_url.rstrip("/")
+            is_chapter = ("/chapter/" in ch_url) or (clean_ch_url.startswith(clean_series_url) and clean_ch_url != clean_series_url)
+            if not is_chapter:
+                continue
+
+            seen_urls.add(ch_url)
+
+            span_title = a.select_one(".chapter-group__list-item-title, .list-view")
+            raw_title = span_title.get_text(strip=True) if span_title else a.get_text(strip=True)
+            if not raw_title:
+                continue
+
+            num = None
+            m = re.search(r"\b(?:chapter|ch\.?)\s*(\d+(?:\.\d+)?)", raw_title, re.IGNORECASE)
+            if m:
+                num = float(m.group(1))
+            if num is None:
+                m = re.search(r"[-_](?:chapter|ch|c)[-_]?(\d+(?:\.\d+)?)(?:[-_/]|$)", ch_url, re.IGNORECASE)
+                if m:
+                    num = float(m.group(1))
+
+            ch_num = int(num) if (num is not None and num.is_integer()) else (num if num is not None else len(chapters) + 1)
+
+            # Deduplicate duplicate entries published on the site
+            if ch_num in seen_nums and seen_nums[ch_num] == raw_title:
+                continue
+            seen_nums[ch_num] = raw_title
+
+            chapters.append({
+                "id": ch_url,
+                "chapter_number": ch_num,
+                "title": raw_title,
+                "slug": clean_ch_url.split("/")[-1],
+                "price": 0,
+                "url": ch_url,
+            })
+
+    return {
+        "series_title": series_title,
+        "series_id": series_url,
+        "chapters": chapters,
+    }
+
+
+def _fetch_blreads_series_chapters(url: str) -> dict:
+    """Fetch story series metadata and complete chapter list from BL Reads (Fictioneer theme)."""
+    story_url = _resolve_blreads_story_url(url)
+    html = _fetch_html(story_url, timeout=30)
+    return _parse_blreads_series_chapters(html, story_url)
+
 
 
 
@@ -876,6 +967,8 @@ def _fetch_series_chapters_impl(url_or_identifier: str) -> dict:
         return _fetch_pienovels_series_chapters(url_or_identifier)
     if hostname == "novelib.com" or hostname.endswith(".novelib.com"):
         return _fetch_novelib_series_chapters(url_or_identifier)
+    if hostname == "blreads.tech" or hostname.endswith(".blreads.tech"):
+        return _fetch_blreads_series_chapters(url_or_identifier)
 
     parsed = urlparse(url_or_identifier)
     path_parts = [p for p in parsed.path.split("/") if p]
@@ -1053,6 +1146,16 @@ def crawl_chapter(url: str) -> dict:
             first_ch = series_info["chapters"][0]
             return crawl_chapter(first_ch["url"])
 
+    if hostname == "blreads.tech" or hostname.endswith(".blreads.tech"):
+        parsed = urlparse(url)
+        path_parts = [p for p in parsed.path.split("/") if p]
+        if "story" in path_parts and len(path_parts) <= 2 and not any(k in path_parts for k in ("chapter", "ch")) and not re.search(r"\d+-[a-z0-9]+", path_parts[-1]):
+            series_info = _fetch_blreads_series_chapters(url)
+            if not series_info["chapters"]:
+                raise ValueError(f"No chapters found for BL Reads story: {url}")
+            first_ch = series_info["chapters"][0]
+            return crawl_chapter(first_ch["url"])
+
     if hostname == "zenithtls.com" or hostname.endswith(".zenithtls.com"):
         parsed = urlparse(url)
         path_parts = [p for p in parsed.path.split("/") if p]
@@ -1091,8 +1194,8 @@ def crawl_chapter(url: str) -> dict:
 
     title = _extract_title(soup, url)
 
-    # Cherry Mist & Novelib / Fictioneer content decoding:
-    if hostname in ("cherrymist.cafe", "novelib.com") or hostname.endswith(".cherrymist.cafe") or hostname.endswith(".novelib.com"):
+    # Cherry Mist, Novelib & BL Reads / Fictioneer content decoding:
+    if hostname in ("cherrymist.cafe", "novelib.com", "blreads.tech") or hostname.endswith((".cherrymist.cafe", ".novelib.com", ".blreads.tech")):
         content_el = _decode_cherrymist_ghost_content(soup) or _extract_content(soup)
     elif hostname == "mistminthaven.com" or hostname.endswith(".mistminthaven.com"):
         content_el = _extract_mistmint_next_content(soup) or _extract_content(soup)
