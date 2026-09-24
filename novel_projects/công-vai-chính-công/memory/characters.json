@@ -15,14 +15,15 @@
   {
     "name": "Bai Anran",
     "hanviet_name": "Bạch An Nhiên",
-    "gender": "unknown",
+    "gender": "Male",
+    "third_person_pronoun": "cậu",
     "aliases": [
       "Bai Anran",
       "Bạch An Nhiên"
     ],
-    "honorifics": "",
-    "speech_style": "",
-    "notes": ""
+    "honorifics": "cậu",
+    "speech_style": "Lịch sự, coi trọng lễ nghi, dịu dàng, điềm tĩnh",
+    "notes": "Nam (thụ chính nguyên tác), Omega, bạn thời thơ ấu của Quý Thần Hi."
   },
   {
     "name": "Bai Xinke",
@@ -40,14 +41,15 @@
     "name": "Chi Zhuo",
     "hanviet_name": "Trì Chước",
     "gender": "Male",
-    "third_person_pronoun": "",
+    "third_person_pronoun": "hắn ta / hắn (khi tường thuật), anh ta (khi được nhân vật khác nhắc đến)",
     "aliases": [
       "Chi Zhuo",
       "Trì Chước",
       "Chi Zhou",
-      "người đàn ông"
+      "người đàn ông",
+      "Trì Chước (池灼)"
     ],
-    "honorifics": "anh ta (third person), anh (used by Quý Thần Hi)",
+    "honorifics": "hắn ta / hắn (tường thuật), anh ta (nhân vật khác nhắc đến), anh (Quý Thần Hi gọi đối diện)",
     "speech_style": "Aggressive, demanding, guttural, struggling with instinct",
     "notes": "An Alpha with black hair and strong pheromones (tequila scent). Highly aggressive and instinct-driven, struggles to maintain lý trí (reason) when encountering Quý Thần Hi."
   },
@@ -55,14 +57,18 @@
     "name": "Quý Thần Hi",
     "hanviet_name": "Quý Thần Hi",
     "gender": "Male",
-    "third_person_pronoun": "",
+    "third_person_pronoun": "anh",
     "aliases": [
       "Quý Thần Hi",
       "Tam thiếu gia",
       "Ji Chenxi",
-      "chàng trai tóc bạc"
+      "chàng trai tóc bạc",
+      "Chenxi",
+      "Quý Thần Hi (季晨曦)",
+      "Điện hạ",
+      "Quý Thần Hi (季辰曦)"
     ],
-    "honorifics": "Uses 'cậu' for Tô Dục. Referred to as 'Tam thiếu gia của chúng ta' by Tô Dục.",
+    "honorifics": "anh (tường thuật), Tam thiếu gia (Tô Dục gọi)",
     "speech_style": "Elegant, reserved, quiet, slightly cold/unimpressed",
     "notes": "Described as a 'mỹ nhân' (beauty) with long silver hair and blue eyes. Confirmed to be an Alpha."
   },
@@ -142,6 +148,276 @@
     "third_person_pronoun": "",
     "aliases": [
       "Ji Chenxi's second sister"
+    ],
+    "honorifics": "",
+    "speech_style": "",
+    "notes": ""
+  },
+  {
+    "name": "Man with gold-rimmed glasses",
+    "hanviet_name": "Người đàn ông đeo kính gọng vàng",
+    "gender": "male",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Man with gold-rimmed glasses",
+      "Người đàn ông đeo kính gọng vàng",
+      "Man with the golden-rimmed glasses",
+      "Kim Biên Nhãn Kính Nam"
+    ],
+    "honorifics": "",
+    "speech_style": "Calm, commanding",
+    "notes": "Phó chỉ huy của hải tặc Xích Hạt, người ra lệnh truy đuổi Ji Chenxi."
+  },
+  {
+    "name": "Amis",
+    "hanviet_name": "Amis",
+    "gender": "female",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Amis",
+      "A Mễ Tư"
+    ],
+    "honorifics": "",
+    "speech_style": "",
+    "notes": ""
+  },
+  {
+    "name": "Middle-aged voice",
+    "hanviet_name": "Người đàn ông trung niên",
+    "gender": "Male",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Middle-aged voice",
+      "Người đàn ông trung niên",
+      "Middle-aged man"
+    ],
+    "honorifics": "",
+    "speech_style": "Respectful (to Trì Chước)",
+    "notes": "An S-rank Alpha, manages forces for Trì Chước, pilot of the spaceship."
+  },
+  {
+    "name": "Shadow",
+    "hanviet_name": "Shadow (giữ nguyên)",
+    "gender": "Male",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Shadow",
+      "Shadow (giữ nguyên)",
+      "Alpha vừa mới bình tĩnh và thể hiện sức mạnh cấp A",
+      "Ảnh",
+      "Ảnh Tử"
+    ],
+    "honorifics": "anh ta (narrator)",
+    "speech_style": "Loud, protesting, grumbling",
+    "notes": "Supports Nether, initially distrusts Quý Thần Hi's piloting, prone to panic."
+  },
+  {
+    "name": "Younger man",
+    "hanviet_name": "Chàng trai trẻ",
+    "gender": "Male",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Younger man",
+      "Chàng trai trẻ"
+    ],
+    "honorifics": "",
+    "speech_style": "Not specified",
+    "notes": "Interacts with a neural interface."
+  },
+  {
+    "name": "Ji Chenxi and Chi Zhuo's pronouns",
+    "hanviet_name": "",
+    "gender": "",
+    "third_person_pronoun": "Quý Thần Hi: 'tôi' / Trì Chước: 'anh' (phổ biến, lịch sự)",
+    "aliases": [
+      "Ji Chenxi and Chi Zhuo's pronouns"
+    ],
+    "honorifics": "",
+    "speech_style": "",
+    "notes": ""
+  },
+  {
+    "name": "Bai Han",
+    "hanviet_name": "Bạch Hàn",
+    "gender": "female",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Bai Han",
+      "Bạch Hàn",
+      "Bạch Hàn (白寒)"
+    ],
+    "honorifics": "",
+    "speech_style": "Factual, informative",
+    "notes": "Beta, thuộc hạ của Trì Chước, có kỹ năng về hệ thống."
+  },
+  {
+    "name": "Poison Scorpion",
+    "hanviet_name": "Độc Hạt (毒蝎)",
+    "gender": "male",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Poison Scorpion",
+      "Độc Hạt (毒蝎)",
+      "Độc Hạt"
+    ],
+    "honorifics": "",
+    "speech_style": "",
+    "notes": "Thuyền trưởng của hải tặc Xích Hạt, người đã xây dựng băng hải tặc từ con số không và được coi là một nhân vật đáng sợ."
+  },
+  {
+    "name": "Ji Chenxi and Chi Zhuo",
+    "hanviet_name": "",
+    "gender": "",
+    "third_person_pronoun": "Trì Chước: Tôi - Quý Thần Hi: Cậu (thụ lớn tuổi hơn, có chút bỡn cợt)",
+    "aliases": [
+      "Ji Chenxi and Chi Zhuo"
+    ],
+    "honorifics": "",
+    "speech_style": "",
+    "notes": ""
+  },
+  {
+    "name": "Chi Zhuo and his subordinates (Bai Han, middle-aged man, younger man)",
+    "hanviet_name": "",
+    "gender": "",
+    "third_person_pronoun": "Trì Chước: Ta / Tôi - Thuộc hạ: Thuộc hạ / Ngài / Thiếu gia",
+    "aliases": [
+      "Chi Zhuo and his subordinates (Bai Han, middle-aged man, younger man)"
+    ],
+    "honorifics": "",
+    "speech_style": "",
+    "notes": ""
+  },
+  {
+    "name": "Man with golden-rimmed glasses (Deputy Commander) and Amis (subordinate)",
+    "hanviet_name": "",
+    "gender": "",
+    "third_person_pronoun": "Phó chỉ huy: Ta / Tôi - Amis: Thuộc hạ / Ngài / Phó chỉ huy",
+    "aliases": [
+      "Man with golden-rimmed glasses (Deputy Commander) and Amis (subordinate)"
+    ],
+    "honorifics": "",
+    "speech_style": "",
+    "notes": ""
+  },
+  {
+    "name": "Red Scorpions (Amis, Deputy Commander) and Poison Scorpion (Captain)",
+    "hanviet_name": "",
+    "gender": "",
+    "third_person_pronoun": "Thành viên: Thuyền trưởng / Đại ca - Độc Hạt: Hắn / Y",
+    "aliases": [
+      "Red Scorpions (Amis, Deputy Commander) and Poison Scorpion (Captain)"
+    ],
+    "honorifics": "",
+    "speech_style": "",
+    "notes": ""
+  },
+  {
+    "name": "Mr. Hua",
+    "hanviet_name": "Hoa tiên sinh",
+    "gender": "Male",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Mr. Hua",
+      "Hoa tiên sinh"
+    ],
+    "honorifics": "",
+    "speech_style": "",
+    "notes": "Một trong những thuộc hạ đáng tin cậy nhất của Trì Chước, được liên lạc để hỗ trợ."
+  },
+  {
+    "name": "Chi Zhuo: \"Your Highness.\" Ji Chenxi: \"Brother Chi Zhuo.\"",
+    "hanviet_name": "",
+    "gender": "",
+    "third_person_pronoun": "Trì Chước: Tôi - Điện hạ; Quý Thần Hi: Tôi - Anh (ngôi thứ ba: hắn/y)",
+    "aliases": [
+      "Chi Zhuo: \"Your Highness.\" Ji Chenxi: \"Brother Chi Zhuo.\""
+    ],
+    "honorifics": "",
+    "speech_style": "",
+    "notes": ""
+  },
+  {
+    "name": "Poison Scorpion: \"Mr. Chi Zhuo.\" Chi Zhuo: \"Mr. Poison Scorpion\" / \"you.\"",
+    "hanviet_name": "",
+    "gender": "",
+    "third_person_pronoun": "Độc Hạt: Tôi - Trì tiên sinh; Trì Chước: Tôi - Độc Hạt tiên sinh (ngôi thứ ba: hắn/y)",
+    "aliases": [
+      "Poison Scorpion: \"Mr. Chi Zhuo.\" Chi Zhuo: \"Mr. Poison Scorpion\" / \"you.\""
+    ],
+    "honorifics": "",
+    "speech_style": "",
+    "notes": ""
+  },
+  {
+    "name": "Chủ tàu trung niên",
+    "hanviet_name": "",
+    "gender": "male",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Chủ tàu trung niên"
+    ],
+    "honorifics": "",
+    "speech_style": "",
+    "notes": ""
+  },
+  {
+    "name": "Cô gái đang lơ đãng xoắn tóc",
+    "hanviet_name": "",
+    "gender": "Female",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Cô gái đang lơ đãng xoắn tóc"
+    ],
+    "honorifics": "",
+    "speech_style": "Wild laughter",
+    "notes": "Antagonist, with the man in gold-rimmed glasses, finds Quý Thần Hi's skill amusing."
+  },
+  {
+    "name": "Scorpion",
+    "hanviet_name": "Bò Cạp",
+    "gender": "Male",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Scorpion",
+      "Bò Cạp"
+    ],
+    "honorifics": "",
+    "speech_style": "",
+    "notes": ""
+  },
+  {
+    "name": "Zuo Xian",
+    "hanviet_name": "Tả Hiền",
+    "gender": "Male",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Zuo Xian",
+      "Tả Hiền"
+    ],
+    "honorifics": "",
+    "speech_style": "",
+    "notes": ""
+  },
+  {
+    "name": "Thành",
+    "hanviet_name": "Thành",
+    "gender": "Male",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Thành"
+    ],
+    "honorifics": "",
+    "speech_style": "",
+    "notes": ""
+  },
+  {
+    "name": "Người đàn ông mũi khoằm",
+    "hanviet_name": "",
+    "gender": "Male",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Người đàn ông mũi khoằm"
     ],
     "honorifics": "",
     "speech_style": "",

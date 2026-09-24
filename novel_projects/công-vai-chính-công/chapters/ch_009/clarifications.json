@@ -1,0 +1,111 @@
+{
+  "chapter_id": "ch_009",
+  "questions": [
+    {
+      "id": "amb_005",
+      "original": "Man with the golden-rimmed glasses",
+      "suggested": "Người đàn ông đeo kính gọng vàng",
+      "confidence": 0.3,
+      "question": "Xác nhận cách gọi cho nhân vật 'Man with the golden-rimmed glasses' (Phó chỉ huy hải tặc)?",
+      "options": [
+        "Người đàn ông đeo kính gọng vàng",
+        "Phó chỉ huy (nếu muốn gọi theo chức danh)",
+        "Kẻ đeo kính vàng"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_007",
+      "original": "Poison Scorpion",
+      "suggested": "Độc Hạt",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Poison Scorpion (Thuyền trưởng hải tặc)?",
+      "options": [
+        "Độc Hạt (毒蝎)",
+        "Thuyền trưởng Độc Hạt",
+        "Giữ nguyên 'Poison Scorpion'"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_008",
+      "original": "Ji Chenxi and Chi Zhuo",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Xưng hô giữa Quý Thần Hi (công) và Trì Chước (thụ, lớn tuổi hơn) khi giao tiếp và ngôi thứ ba?",
+      "options": [
+        "Trì Chước: Anh - Quý Thần Hi: Tôi (phổ biến, tôn trọng từ công)",
+        "Trì Chước: Tôi - Quý Thần Hi: Cậu (thụ lớn tuổi hơn, có chút bỡn cợt)",
+        "Trì Chước: Ta - Quý Thần Hi: Ngươi (thể hiện sự mạnh mẽ, quyền lực của thụ)",
+        "Trì Chước: Anh - Quý Thần Hi: Em (thân mật hơn, có thể dùng khi quan hệ phát triển)"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_009",
+      "original": "Chi Zhuo and his subordinates (Bai Han, middle-aged man, younger man)",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Xưng hô giữa Trì Chước và các thuộc hạ của mình (Bạch Hàn, người đàn ông trung niên, người đàn ông trẻ tuổi) khi giao tiếp và ngôi thứ ba?",
+      "options": [
+        "Trì Chước: Ta / Tôi - Thuộc hạ: Thuộc hạ / Ngài / Thiếu gia",
+        "Trì Chước: Cậu - Thuộc hạ: Tôi / Ngài",
+        "Trì Chước: Anh - Thuộc hạ: Tôi / Ngài"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_010",
+      "original": "Man with golden-rimmed glasses (Deputy Commander) and Amis (subordinate)",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Xưng hô giữa Phó chỉ huy (người đàn ông đeo kính gọng vàng) và Amis khi giao tiếp và ngôi thứ ba?",
+      "options": [
+        "Phó chỉ huy: Ta / Tôi - Amis: Thuộc hạ / Ngài / Phó chỉ huy",
+        "Phó chỉ huy: Cậu - Amis: Tôi / Ngài",
+        "Phó chỉ huy: Anh - Amis: Tôi / Ngài"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_011",
+      "original": "Red Scorpions (Amis, Deputy Commander) and Poison Scorpion (Captain)",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Xưng hô giữa các thành viên hải tặc Xích Hạt (Amis, Phó chỉ huy) và Thuyền trưởng Độc Hạt khi giao tiếp và ngôi thứ ba?",
+      "options": [
+        "Thành viên: Thuyền trưởng / Đại ca - Độc Hạt: Hắn / Y",
+        "Thành viên: Ngài - Độc Hạt: Hắn / Y",
+        "Thành viên: Boss - Độc Hạt: Hắn / Y"
+      ],
+      "category": "pronoun"
+    }
+  ],
+  "answers": {
+    "amb_005": {
+      "choice": "Người đàn ông đeo kính gọng vàng",
+      "custom": null
+    },
+    "amb_007": {
+      "choice": "Độc Hạt (毒蝎)",
+      "custom": null
+    },
+    "amb_008": {
+      "choice": "Trì Chước: Tôi - Quý Thần Hi: Cậu (thụ lớn tuổi hơn, có chút bỡn cợt)",
+      "custom": null
+    },
+    "amb_009": {
+      "choice": "Trì Chước: Ta / Tôi - Thuộc hạ: Thuộc hạ / Ngài / Thiếu gia",
+      "custom": null
+    },
+    "amb_010": {
+      "choice": "Phó chỉ huy: Ta / Tôi - Amis: Thuộc hạ / Ngài / Phó chỉ huy",
+      "custom": null
+    },
+    "amb_011": {
+      "choice": "Thành viên: Thuyền trưởng / Đại ca - Độc Hạt: Hắn / Y",
+      "custom": null
+    }
+  },
+  "answered_at": "2026-09-24T22:55:23.205906+07:00"
+}

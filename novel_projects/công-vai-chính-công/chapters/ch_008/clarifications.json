@@ -1,0 +1,81 @@
+{
+  "chapter_id": "ch_008",
+  "questions": [
+    {
+      "id": "amb_001",
+      "original": "Ji Chenxi and Chi Zhuo's pronouns",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Xưng hô giữa Quý Thần Hi và Trì Chước khi giao tiếp và ngôi thứ ba?",
+      "options": [
+        "Quý Thần Hi: 'tôi' / Trì Chước: 'anh' (phổ biến, lịch sự)",
+        "Quý Thần Hi: 'ta' / Trì Chước: 'ngươi' (cổ điển, có chút khinh thường/ngang hàng)",
+        "Quý Thần Hi: 'cậu' / Trì Chước: 'tôi' (thân mật hơn, thụ lớn tuổi hơn)",
+        "Quý Thần Hi: 'tôi' / Trì Chước: 'ngài' (tôn trọng nhưng có thể mỉa mai)",
+        "Ngôi thứ ba: 'hắn' - 'y'"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_003",
+      "original": "Bai Han",
+      "suggested": "Bạch Hàn",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Bai Han?",
+      "options": [
+        "Bạch Hàn",
+        "Bạch Hãn",
+        "Bạch Hàng",
+        "Bai Han (giữ nguyên)"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_004",
+      "original": "Chi Zhuo and Bai Han's pronouns",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Xưng hô giữa Trì Chước và Bạch Hàn khi giao tiếp và ngôi thứ ba?",
+      "options": [
+        "Trì Chước: 'ta' / Bạch Hàn: 'thuộc hạ' (xưng hô với chủ)",
+        "Trì Chước: 'tôi' / Bạch Hàn: 'cô' (lịch sự, chủ tớ hiện đại)",
+        "Trì Chước: 'ngươi' / Bạch Hàn: 'ta' (cổ điển, chủ tớ)",
+        "Ngôi thứ ba: 'hắn' - 'cô ta'"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_005",
+      "original": "Chi Zhuo and Shadow's pronouns",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Xưng hô giữa Trì Chước và Shadow khi giao tiếp và ngôi thứ ba?",
+      "options": [
+        "Trì Chước: 'ta' / Shadow: 'thuộc hạ' (xưng hô với chủ)",
+        "Trì Chước: 'ngươi' / Shadow: 'ta' (cổ điển, chủ tớ)",
+        "Trì Chước: 'tôi' / Shadow: 'cậu' (lịch sự, chủ tớ hiện đại)",
+        "Ngôi thứ ba: 'hắn' - 'y'"
+      ],
+      "category": "relationship"
+    }
+  ],
+  "answers": {
+    "amb_001": {
+      "choice": "Quý Thần Hi: 'tôi' / Trì Chước: 'anh' (phổ biến, lịch sự)",
+      "custom": null
+    },
+    "amb_003": {
+      "choice": "Bạch Hàn",
+      "custom": null
+    },
+    "amb_004": {
+      "choice": "Trì Chước: 'ta' / Bạch Hàn: 'thuộc hạ' (xưng hô với chủ)",
+      "custom": null
+    },
+    "amb_005": {
+      "choice": "Trì Chước: 'ta' / Shadow: 'thuộc hạ' (xưng hô với chủ)",
+      "custom": null
+    }
+  },
+  "answered_at": "2026-09-24T22:54:13.050519+07:00"
+}

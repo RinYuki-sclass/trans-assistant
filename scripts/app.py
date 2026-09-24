@@ -3264,6 +3264,181 @@ if tabs.is_active(9):
         rel_list.append(entry)
         return entry
 
+    def na_extract_char_name_from_pronoun(orig_str: str) -> str:
+        """Strip '(ngôi thứ 3)', '(ngôi 3)', '(3rd person)', etc. from pronoun question string."""
+        import re as _re
+        return _re.sub(r'[\(\[\{]\s*(?:ngôi\s*(?:thứ\s*)?[123]|3rd\s*person|lời\s*kể|văn\s*kể|trần\s*thuật).*?[\)\]\}]', '', orig_str, flags=_re.IGNORECASE).strip()
+
+    def na_is_character_known(name_str: str, characters: list) -> dict | None:
+        """Check if a character name/alias is already recognized in characters list."""
+        if not name_str:
+            return None
+        target = name_str.strip().lower()
+        clean_target = na_extract_char_name_from_pronoun(target)
+        for c in characters:
+            names_to_check = [c.get('name', ''), c.get('hanviet_name', '')] + list(c.get('aliases', []))
+            for n in names_to_check:
+                if not n:
+                    continue
+                n_clean = n.strip().lower()
+                if n_clean == target or (clean_target and n_clean == clean_target):
+                    return c
+        return None
+
+    def na_format_known_characters_for_analysis(memory: dict) -> list[str]:
+        """Format known characters list comprehensively for LLM prompt with pronouns, Han-Viet and roles."""
+        result = []
+        for c in memory.get('characters', []):
+            name = (c.get('name') or '').strip()
+            hv = (c.get('hanviet_name') or '').strip()
+            pronoun = (c.get('third_person_pronoun') or '').strip()
+            gender = (c.get('gender') or '').strip()
+            role = (c.get('role') or c.get('speech_style') or '').strip()
+            aliases = [a for a in c.get('aliases', []) if a and a != name and a != hv]
+            
+            parts = [name]
+            if hv and hv != name:
+                parts.append(f"Hán-Việt: {hv}")
+            if pronoun:
+                parts.append(f"đại từ ngôi 3 kể chuyện: {pronoun}")
+            if gender:
+                parts.append(f"giới tính: {gender}")
+            if role:
+                parts.append(f"vai trò: {role}")
+            if aliases:
+                parts.append(f"bí danh/tên khác: {', '.join(aliases[:3])}")
+            result.append(" | ".join(parts))
+        return result
+
+    def na_load_all_project_clarifications(slug: str, exclude_chapter: str = None) -> dict:
+        """Load and aggregate all past clarification questions and their confirmed answers across all chapters."""
+        all_resolved = {}
+        for ch in na_list_chapters(slug):
+            if exclude_chapter and ch == exclude_chapter:
+                continue
+            clar_path = os.path.join(na_chapter_dir(slug, ch), 'clarifications.json')
+            if os.path.exists(clar_path):
+                c_data = na_load_json(clar_path, {})
+                answers = c_data.get('answers', {})
+                questions = {q.get('id'): q for q in c_data.get('questions', []) if q.get('id')}
+                for qid, ans in answers.items():
+                    val = (ans.get('custom') or ans.get('choice') or '').strip()
+                    if not val:
+                        continue
+                    q_obj = questions.get(qid)
+                    if q_obj:
+                        orig = (q_obj.get('original') or '').strip()
+                        cat = (q_obj.get('category') or '').strip()
+                        if orig:
+                            all_resolved[orig.lower()] = {'value': val, 'category': cat, 'chapter': ch}
+                            clean_orig = na_extract_char_name_from_pronoun(orig)
+                            if clean_orig and clean_orig.lower() != orig.lower():
+                                all_resolved[f"{clean_orig.lower()}_pronoun"] = {'value': val, 'category': 'pronoun', 'chapter': ch}
+        return all_resolved
+
+    def na_is_item_already_resolved(item: dict, memory: dict, all_past_answers: dict) -> bool:
+        """Check if an ambiguous item or clarification question has already been answered or established in memory."""
+        orig = (item.get('original') or '').strip()
+        cat = (item.get('category') or '').strip().lower()
+        if not orig:
+            return False
+
+        orig_lower = orig.lower()
+
+        # 1. Check if directly in past answers
+        if orig_lower in all_past_answers:
+            return True
+
+        # 2. Check pronoun questions
+        if cat == 'pronoun' or 'ngôi' in orig_lower:
+            clean_name = na_extract_char_name_from_pronoun(orig)
+            if f"{clean_name.lower()}_pronoun" in all_past_answers:
+                return True
+            matched_c = na_is_character_known(clean_name, memory.get('characters', []))
+            if matched_c and matched_c.get('third_person_pronoun'):
+                return True
+
+        # 3. Check character name questions
+        if cat == 'name':
+            matched_c = na_is_character_known(orig, memory.get('characters', []))
+            if matched_c and (matched_c.get('hanviet_name') or matched_c.get('name')):
+                return True
+
+        # 4. Check relationship questions (A → B)
+        if cat == 'relationship' or '→' in orig:
+            import re as _re
+            m = _re.search(r'(.+?)\s*(?:→|->)\s*(.+)', orig)
+            if m:
+                from_p = m.group(1).strip().lower()
+                to_p = m.group(2).strip().lower()
+                for r in memory.get('relationships', []):
+                    r_from = (r.get('from') or '').strip().lower()
+                    r_to = (r.get('to') or '').strip().lower()
+                    r_pair = (r.get('pair') or '').strip().lower()
+                    if (r_from == from_p and r_to == to_p) or (orig_lower == r_pair):
+                        if r.get('address'):
+                            return True
+
+        # 5. Check glossary
+        for g in memory.get('glossary', []):
+            if g.get('approved', False):
+                g_orig = (g.get('original') or '').strip().lower()
+                if g_orig == orig_lower:
+                    return True
+
+        return False
+
+    def na_find_character_context(item: dict, chapter_analysis: dict, memory: dict) -> list[dict]:
+        """Find character information (gender, role, description) for a question to display context in Clarification Center."""
+        orig = (item.get('original') or '').strip()
+        cat = (item.get('category') or '').strip().lower()
+        results = []
+
+        names_to_find = []
+        if cat == 'relationship' or '→' in orig:
+            import re as _re
+            m = _re.search(r'(.+?)\s*(?:→|->)\s*(.+)', orig)
+            if m:
+                names_to_find.append((m.group(1).strip(), "Người gọi"))
+                names_to_find.append((m.group(2).strip(), "Người được gọi"))
+            else:
+                names_to_find.append((orig, "Nhân vật"))
+        else:
+            clean_name = na_extract_char_name_from_pronoun(orig)
+            names_to_find.append((clean_name or orig, "Nhân vật"))
+
+        new_chars = chapter_analysis.get('new_characters', []) if isinstance(chapter_analysis, dict) else []
+        mem_chars = memory.get('characters', []) if isinstance(memory, dict) else []
+
+        for name_query, role_label in names_to_find:
+            q_clean = name_query.strip().lower()
+            found = None
+            is_new = False
+
+            # Search in new_characters first
+            for nc in new_chars:
+                nc_names = [nc.get('name', ''), nc.get('hanviet_name', '')] + list(nc.get('aliases', []))
+                if any(n and n.strip().lower() == q_clean for n in nc_names):
+                    found = dict(nc)
+                    is_new = True
+                    break
+
+            # Search in memory if not in new_characters
+            if not found:
+                for mc in mem_chars:
+                    mc_names = [mc.get('name', ''), mc.get('hanviet_name', '')] + list(mc.get('aliases', []))
+                    if any(n and n.strip().lower() == q_clean for n in mc_names):
+                        found = dict(mc)
+                        is_new = False
+                        break
+
+            if found:
+                found['query_role_label'] = role_label
+                found['is_new'] = is_new
+                results.append(found)
+
+        return results
+
     def na_auto_update_memory_for_chapter(slug: str, chapter_id: str, translation_text: str, analysis_data: dict = None):
         """Auto extract characters, pronouns/honorifics and glossary terms after batch translation."""
         try:
@@ -3423,6 +3598,7 @@ if tabs.is_active(9):
         if not memory:
             memory = na_load_memory(slug)
 
+        style_guide = cfg.get('style_guide', '') if cfg else ''
         sys_rev = (
             f"You are a strict literary editor reviewing a {cfg.get('target_lang','Vietnamese')} translation.\n"
             "Review the translation for:\n"
@@ -3433,13 +3609,19 @@ if tabs.is_active(9):
             "5. Missing or repeated sentences\n"
             "6. Natural flow and readability\n"
             "7. Any mistranslations based on the glossary provided\n"
+            "8. Sentence length & punctuation flow: Recommend lengthening choppy sentences into smooth compound sentences. Reduce excessive commas or dashes (-) that break reading flow.\n"
+            "9. Forms of address & age hierarchy: Verify dialogue carefully, especially between younger gong (công) and older shou (thụ). Flag any inverted or inappropriate address.\n"
+            "10. Hostile tone restriction: NEVER allow vulgar 'tao - mày' in hostile dialogue; strictly require refined 'ta - ngươi'.\n"
             "Output a structured report in Markdown with section headers. List each issue with line reference and suggested fix."
         )
         mem_str_rev = na_format_memory_for_prompt(memory)
-        prompt_rev = (
-            f"=== NOVEL MEMORY ===\n{mem_str_rev}\n\n"
-            f"=== TRANSLATION TO REVIEW ===\n{clean_trans[:8000]}"
-        )
+        prompt_rev_parts = []
+        if style_guide:
+            prompt_rev_parts.append(f"=== STYLE GUIDE & PROJECT RULES ===\n{style_guide}")
+        prompt_rev_parts.append(f"=== NOVEL MEMORY ===\n{mem_str_rev}")
+        prompt_rev_parts.append(f"=== TRANSLATION TO REVIEW ===\n{clean_trans[:8000]}")
+        prompt_rev = "\n\n".join(prompt_rev_parts)
+
         review_result = generate_with_retry(
             "gemini-2.5-flash", prompt_rev, sys_rev,
             stat_obj, retries=8, temp=0.1
@@ -3479,6 +3661,7 @@ if tabs.is_active(9):
         if not memory:
             memory = na_load_memory(slug)
 
+        style_guide = cfg.get('style_guide', '') if cfg else ''
         sys_apply = (
             f"You are an expert literary copyeditor specializing in {cfg.get('target_lang', 'Vietnamese')} translations.\n"
             "Your task is to revise and correct a novel translation strictly addressing the issues identified in the Consistency Review Report.\n"
@@ -3486,14 +3669,19 @@ if tabs.is_active(9):
             "1. Correct all terminology inconsistencies, character names, honorifics, pronouns, and mistranslations pointed out in the report.\n"
             "2. Strictly align with the Novel Memory & Glossary.\n"
             "3. Maintain natural, fluent prose and keep dialogue and narrative formatting properly separated.\n"
-            "4. Output ONLY the complete revised translation text. Do NOT include any code block fences (```markdown), intro/outro remarks, or notes."
+            "4. Lengthen choppy sentences into fluid, engaging prose. Minimize unnecessary commas and dashes (-) that fragment reading flow.\n"
+            "5. Correct all misaddressed dialogue, respecting younger gong (công) vs older shou (thụ) dynamics. Replace any 'tao - mày' with 'ta - ngươi'.\n"
+            "6. Output ONLY the complete revised translation text. Do NOT include any code block fences (```markdown), intro/outro remarks, or notes."
         )
         mem_rev_str = na_format_memory_for_prompt(memory)
-        prompt_apply = (
-            f"=== NOVEL MEMORY & GLOSSARY ===\n{mem_rev_str}\n\n"
-            f"=== CONSISTENCY REVIEW REPORT ===\n{report_text}\n\n"
-            f"=== BẢN DỊCH HIỆN TẠI CẦN CHỈNH SỬA ===\n{clean_trans}"
-        )
+        prompt_apply_parts = []
+        if style_guide:
+            prompt_apply_parts.append(f"=== STYLE GUIDE & PROJECT RULES ===\n{style_guide}")
+        prompt_apply_parts.append(f"=== NOVEL MEMORY & GLOSSARY ===\n{mem_rev_str}")
+        prompt_apply_parts.append(f"=== CONSISTENCY REVIEW REPORT ===\n{report_text}")
+        prompt_apply_parts.append(f"=== BẢN DỊCH HIỆN TẠI CẦN CHỈNH SỬA ===\n{clean_trans}")
+        prompt_apply = "\n\n".join(prompt_apply_parts)
+
         revised_text = generate_with_retry(
             "gemini-2.5-flash", prompt_apply, sys_apply,
             stat_obj, retries=8, temp=0.2
@@ -4032,8 +4220,9 @@ if tabs.is_active(11):
                             "       - options: 3-5 lựa chọn rõ ràng tương ứng (ví dụ: [\"xưng Tôi - gọi Cậu\", \"xưng Anh - gọi Em\", \"xưng Tôi - gọi Ji thiếu\", \"xưng Ta - gọi Ngươi\"])\n"
                             "   - NGAY CẢ KHI trong chương này mới chỉ có một nhân vật lên tiếng trước (ví dụ chỉ A nói, B chưa kịp đáp lời), bạn VẪN PHẢI TẠO CẢ 2 CÂU HỎI (cả chiều A -> B và B -> A) để người dịch thiết lập sẵn hệ quy chiếu xưng hô 2 chiều cho cả tác phẩm.\n"
                             "   - NEVER assign confidence >= 0.8 to new character names, 3rd-person pronouns, or forms of address. Always force them to low confidence (0.3) so the user can review and approve in Clarification Center.\n"
+                            "   - QUY TẮC CHỐNG TRÙNG LẶP: TUYỆT ĐỐI KHÔNG tạo câu hỏi tên, đại từ ngôi 3, hoặc xưng hô cho bất kỳ nhân vật nào ĐÃ CÓ trong danh sách KNOWN CHARACTERS hoặc KNOWN RELATIONSHIPS & ADDRESS. Chỉ hỏi về nhân vật MỚI chưa từng xuất hiện.\n"
                             "3. NEW LOCATIONS & TERMS (Địa danh & Thuật ngữ):\n"
-                            "   - Extract locations, skills, factions, items. Provide suggested Vietnamese translation and Sino-Vietnamese (Hán-Việt) if applicable. If uncertain, add to 'ambiguous'.\n"
+                            "   - Extract locations, skills, factions, items. Provide suggested Vietnamese translation and Sino-Vietnamese (Hán-Việt) if applicable. If uncertain, add to 'ambiguous'. Do not include terms already in KNOWN GLOSSARY.\n"
                             "4. CHAPTER SUMMARY:\n"
                             "   - Provide a concise summary of key plot points in chapter_summary.\n"
                             "Output ONLY valid JSON in this exact schema:\n"
@@ -4061,13 +4250,13 @@ if tabs.is_active(11):
                                     b_src_text += _re.sub(r'^---[\s\S]*?---\s*', '', _raw, count=1).strip() + "\n\n"
                                 
                                 b_mem = na_load_memory(na_proj)
-                                b_ex_c = [c.get('name','') for c in b_mem.get('characters', [])]
+                                b_ex_c = na_format_known_characters_for_analysis(b_mem)
                                 b_ex_t = [g.get('original','') for g in b_mem.get('glossary', [])]
                                 b_ex_r = [f"{r.get('pair','')}: {r.get('address','')}" for r in b_mem.get('relationships', []) if r.get('pair') and r.get('address')]
                                 b_style = na_cfg.get('style_guide', '')
                                 b_prompt_ana = (
                                     f"=== STYLE GUIDE ===\n{b_style or 'None'}\n\n"
-                                    f"=== KNOWN CHARACTERS ===\n{', '.join(b_ex_c) or 'None'}\n\n"
+                                    f"=== KNOWN CHARACTERS (Đã có trong hệ thống - TUYỆT ĐỐI KHÔNG hỏi lại tên/đại từ ngôi 3 của các nhân vật này) ===\n{'; '.join(b_ex_c) or 'None'}\n\n"
                                     f"=== KNOWN RELATIONSHIPS & ADDRESS (Xưng hô 2 chiều đã biết) ===\n{', '.join(b_ex_r) or 'None'}\n\n"
                                     f"=== KNOWN GLOSSARY ===\n{', '.join(b_ex_t) or 'None'}\n\n"
                                     f"=== CHAPTER TEXT ===\n{b_src_text[:12000]}"
@@ -4089,13 +4278,13 @@ if tabs.is_active(11):
 
                         if run_single_ana or run_reanalyze:
                             memory = na_load_memory(na_proj)
-                            existing_chars = [c.get('name','') for c in memory.get('characters', [])]
+                            existing_chars = na_format_known_characters_for_analysis(memory)
                             existing_terms = [g.get('original','') for g in memory.get('glossary', [])]
                             existing_rels = [f"{r.get('pair','')}: {r.get('address','')}" for r in memory.get('relationships', []) if r.get('pair') and r.get('address')]
                             single_style = na_cfg.get('style_guide', '')
                             prompt_ana = (
                                 f"=== STYLE GUIDE ===\n{single_style or 'None'}\n\n"
-                                f"=== KNOWN CHARACTERS ===\n{', '.join(existing_chars) or 'None'}\n\n"
+                                f"=== KNOWN CHARACTERS (Đã có trong hệ thống - TUYỆT ĐỐI KHÔNG hỏi lại tên/đại từ ngôi 3 của các nhân vật này) ===\n{'; '.join(existing_chars) or 'None'}\n\n"
                                 f"=== KNOWN RELATIONSHIPS & ADDRESS (Xưng hô 2 chiều đã biết) ===\n{', '.join(existing_rels) or 'None'}\n\n"
                                 f"=== KNOWN GLOSSARY ===\n{', '.join(existing_terms) or 'None'}\n\n"
                                 f"=== CHAPTER TEXT ===\n{src_body[:12000]}"
@@ -4164,10 +4353,11 @@ if tabs.is_active(11):
 
                             ambiguous = existing_analysis.get('ambiguous', [])
                             threshold_pct = int(na_cfg.get('confidence_threshold', 0.8) * 100)
+                            memory_ana = na_load_memory(na_proj)
+                            all_past_ana = na_load_all_project_clarifications(na_proj, exclude_chapter=sel_ch_a)
                             need_qa = [
                                 a for a in ambiguous
-                                if (int(a.get('confidence', 1.0) * 100) < threshold_pct
-                                    or a.get('category') in ('name', 'pronoun', 'relationship', 'honorific'))
+                                if not na_is_item_already_resolved(a, memory_ana, all_past_ana)
                             ]
                             if need_qa:
                                 with st.expander(f"❓ Cần làm rõ ({len(need_qa)}) — Tên nhân vật, xưng hô & thuật ngữ cần duyệt", expanded=True):
@@ -4181,7 +4371,7 @@ if tabs.is_active(11):
                                             unsafe_allow_html=True
                                         )
                             elif ambiguous:
-                                st.success(f"✅ Tất cả {len(ambiguous)} thuật ngữ có confidence ≥ {threshold_pct}% — không cần hỏi.")
+                                st.success(f"✅ Tất cả {len(ambiguous)} thuật ngữ đã có trong Memory hoặc confidence ≥ {threshold_pct}% — không cần hỏi.")
 
         # ===================== SUB-TAB 3: CLARIFICATIONS =====================
         with na_sub[3]:
@@ -4206,43 +4396,27 @@ if tabs.is_active(11):
 
                         threshold_q = na_cfg.get('confidence_threshold', 0.8)
                         ambiguous_q = analysis_q.get('ambiguous', [])
-                        # Phase 2: Auto-learning — skip terms already approved in project glossary or characters
                         memory_q = na_load_memory(na_proj)
-                        approved_originals = {
-                            g['original'] for g in memory_q.get('glossary', [])
-                            if g.get('approved', False)
-                        }
-                        approved_chars = {
-                            c['name'] for c in memory_q.get('characters', [])
-                            if c.get('name') and c.get('hanviet_name')
-                        }
-                        approved_rels = {
-                            r['pair'] for r in memory_q.get('relationships', [])
-                            if r.get('pair') and r.get('address')
-                        }
-                        approved_all = approved_originals | approved_chars | approved_rels
+                        all_past_answers = na_load_all_project_clarifications(na_proj, exclude_chapter=sel_ch_q)
 
-                        need_qa = [
-                            a for a in ambiguous_q
-                            if (a.get('confidence', 1.0) < threshold_q
-                                or a.get('category') in ('name', 'pronoun', 'relationship', 'honorific'))
-                            and a.get('original', '') not in approved_all
-                        ]
-                        if approved_all:
-                            skipped = [
-                                a for a in ambiguous_q
-                                if a.get('original', '') in approved_all
-                            ]
-                            if skipped:
-                                _skip_names = ', '.join(
-                                    '`' + a.get('original', '') + '`' for a in skipped[:5]
-                                )
-                                _ellipsis = '...' if len(skipped) > 5 else ''
-                                st.info(
-                                    f'🧠 Bỏ qua {len(skipped)} mục '
-                                    f'đã được xác nhận trước đó trong Memory: '
-                                    f'{_skip_names}{_ellipsis}'
-                                )
+                        need_qa = []
+                        skipped_items = []
+                        for a in ambiguous_q:
+                            if na_is_item_already_resolved(a, memory_q, all_past_answers):
+                                skipped_items.append(a)
+                            else:
+                                need_qa.append(a)
+
+                        if skipped_items:
+                            _skip_names = ', '.join(
+                                '`' + a.get('original', '') + '`' for a in skipped_items[:6]
+                            )
+                            _ellipsis = '...' if len(skipped_items) > 6 else ''
+                            st.info(
+                                f'🧠 Đã tự động bỏ qua {len(skipped_items)} câu hỏi trùng lặp '
+                                f'đã được xác nhận trước đó trong Memory hoặc chapter trước: '
+                                f'{_skip_names}{_ellipsis}'
+                            )
 
                         # Sync questions list
                         existing_q_ids = {q['id'] for q in clar_q.get('questions', [])}
@@ -4251,7 +4425,10 @@ if tabs.is_active(11):
                                 clar_q.setdefault('questions', []).append(a)
 
                         existing_answers = clar_q.get('answers', {})
-                        pending = [q for q in clar_q.get('questions', []) if q['id'] not in existing_answers]
+                        pending = [
+                            q for q in clar_q.get('questions', [])
+                            if q['id'] not in existing_answers and not na_is_item_already_resolved(q, memory_q, all_past_answers)
+                        ]
                         done = [q for q in clar_q.get('questions', []) if q['id'] in existing_answers]
 
                         with st.expander("🤝 Quản lý & Bổ sung xưng hô 2 chiều (A ↔ B) vào Memory", expanded=False):
@@ -4342,6 +4519,42 @@ if tabs.is_active(11):
                                     cat_icon = {'honorific': '🎭', 'pronoun': '👤', 'name': '🏷️',
                                                 'term': '📖', 'relationship': '🤝'}.get(q.get('category', ''), '❓')
 
+                                    char_contexts = na_find_character_context(q, analysis_q, memory_q)
+                                    char_badge_html = ""
+                                    for cc in char_contexts:
+                                        c_name = cc.get('name', '')
+                                        c_hv = cc.get('hanviet_name', '')
+                                        c_gender = cc.get('gender', 'Chưa rõ')
+                                        c_role = cc.get('role', '')
+                                        c_desc = cc.get('description', '')
+                                        is_new = cc.get('is_new', False)
+                                        role_lbl = cc.get('query_role_label', 'Nhân vật')
+
+                                        tag_type = "✨ NHÂN VẬT MỚI" if is_new else "👤 ĐÃ CÓ TRONG MEMORY"
+                                        tag_bg = "#0D9488" if is_new else "#4B5563"
+                                        
+                                        hv_display = f" (Hán-Việt: <b>{c_hv}</b>)" if c_hv and c_hv != c_name else ""
+                                        gender_role = []
+                                        if c_gender and c_gender != 'Chưa rõ':
+                                            gender_role.append(f"Giới tính: <b>{c_gender}</b>")
+                                        if c_role:
+                                            gender_role.append(f"Vai trò: <b>{c_role}</b>")
+                                        gr_text = " · ".join(gender_role)
+                                        if gr_text:
+                                            gr_text = f"<span style='color:#5c564d;'>({gr_text})</span>"
+
+                                        desc_line = ""
+                                        if c_desc:
+                                            desc_line = f"<div style='margin-top:4px;color:#374151;font-size:0.86rem;line-height:1.4;'>📝 <b>Mô tả:</b> {c_desc}</div>"
+
+                                        char_badge_html += (
+                                            f"<div style='margin:6px 0;padding:8px 12px;background:#F8F7F4;border-left:3px solid {tag_bg};border-radius:4px;font-size:0.9rem;'>"
+                                            f"<span style='background:{tag_bg};color:#ffffff;padding:1px 6px;border-radius:3px;font-size:0.75rem;font-weight:600;margin-right:6px;'>{tag_type}</span>"
+                                            f"<b>{role_lbl}:</b> <span style='font-size:0.95rem;color:#1F2937;'><b>{c_name}</b></span>{hv_display} {gr_text}"
+                                            f"{desc_line}"
+                                            f"</div>"
+                                        )
+
                                     with st.container():
                                         st.markdown(
                                             f"<div style='border:1px solid {color};border-radius:10px;"
@@ -4351,7 +4564,8 @@ if tabs.is_active(11):
                                             f"<span style='color:{color};font-weight:600'>{conf_pct}% confidence</span></div>"
                                             f"<p style='margin:0.5rem 0;font-size:1.1rem;color:#2D2A26'>Gốc / Đối tượng: "
                                             f"<code style='background:#D1CFC7;padding:2px 6px;border-radius:4px'>{q.get('original','')}</code></p>"
-                                            f"<p style='margin:0;color:#0D9488'>💡 Gợi ý AI: <b>{q.get('suggested','')}</b></p>"
+                                            f"{char_badge_html}"
+                                            f"<p style='margin:0.4rem 0 0;color:#0D9488'>💡 Gợi ý AI: <b>{q.get('suggested','')}</b></p>"
                                             f"<p style='margin:0.3rem 0 0;color:#5c564d;font-size:0.88rem'>❓ {q.get('question','')}</p>"
                                             f"</div>",
                                             unsafe_allow_html=True
@@ -4390,21 +4604,35 @@ if tabs.is_active(11):
                                                 continue
                                             q_cat = q.get('category', '')
                                             q_orig = q.get('original', '')
+                                            clean_c = na_extract_char_name_from_pronoun(q_orig)
+                                            # Lookup context from analysis new_characters
+                                            nc_info = next((nc for nc in analysis_q.get('new_characters', []) if nc.get('name') == clean_c or nc.get('hanviet_name') == clean_c or clean_c in nc.get('aliases', [])), None)
+
                                             if q_cat == 'name':
-                                                na_merge_character_entry(mem_to_update.setdefault('characters', []), {
-                                                    'name': q_orig,
+                                                c_entry = {
+                                                    'name': clean_c or q_orig,
                                                     'hanviet_name': val,
-                                                    'role': 'Approved character'
-                                                })
+                                                    'role': nc_info.get('role', 'Approved character') if nc_info else 'Approved character'
+                                                }
+                                                if nc_info:
+                                                    if nc_info.get('gender'): c_entry['gender'] = nc_info['gender']
+                                                    if nc_info.get('description'): c_entry['notes'] = nc_info['description']
+                                                na_merge_character_entry(mem_to_update.setdefault('characters', []), c_entry)
                                             elif q_cat in ('pronoun', 'relationship', 'honorific'):
                                                 import re as _re
-                                                m_p3 = _re.search(r'^(.*?)\s*\(ngôi(?:\s*thứ)?\s*3\)', q_orig, _re.IGNORECASE)
+                                                m_p3 = _re.search(r'^(.*?)\s*\(ngôi(?:\s*thứ)?\s*3\)', q_orig, _re.IGNORECASE) or (q_cat == 'pronoun')
                                                 if m_p3:
-                                                    c_target = m_p3.group(1).strip()
-                                                    na_merge_character_entry(mem_to_update.setdefault('characters', []), {
+                                                    c_target = clean_c or q_orig
+                                                    c_entry = {
                                                         'name': c_target,
                                                         'third_person_pronoun': val,
-                                                    })
+                                                    }
+                                                    if nc_info:
+                                                        if nc_info.get('hanviet_name'): c_entry['hanviet_name'] = nc_info['hanviet_name']
+                                                        if nc_info.get('gender'): c_entry['gender'] = nc_info['gender']
+                                                        if nc_info.get('role'): c_entry['role'] = nc_info['role']
+                                                        if nc_info.get('description'): c_entry['notes'] = nc_info['description']
+                                                    na_merge_character_entry(mem_to_update.setdefault('characters', []), c_entry)
                                                 # Check if directional address: A -> B or A → B
                                                 m_rel = _re.search(r'^(.*?)\s*(?:→|->)\s*(.*?)$', q_orig)
                                                 if m_rel or q_cat == 'relationship':

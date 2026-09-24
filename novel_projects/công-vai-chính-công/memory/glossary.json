@@ -1,7 +1,7 @@
 [
   {
     "original": "[Xưng hô] Ji Chenxi, Su Yu",
-    "translation": "Ta - Cậu (thân mật, hiện đại)",
+    "translation": "Tôi - Cậu (thân mật, hiện đại)",
     "hanviet": "",
     "category": "pronoun",
     "confidence": 1.0,
@@ -11,7 +11,7 @@
   },
   {
     "original": "[Xưng hô] Ji Chenxi, Bai Anran",
-    "translation": "Ta - Em (Quý Thần Hi là Anh, Bạch An Nhiên là Em, xưng hô thân mật)",
+    "translation": "Tôi - Cậu (Quý Thần Hi là Anh, Bạch An Nhiên là Em, xưng hô thân mật)",
     "hanviet": "",
     "category": "pronoun",
     "confidence": 1.0,
@@ -21,7 +21,7 @@
   },
   {
     "original": "[Xưng hô] Ji Chenxi, Chi Zhuo",
-    "translation": "Ta - Ngài (Quý Thần Hi là Tôi, Trì Chước là Anh, lịch sự, giữ khoảng cách)",
+    "translation": "Tôi - Anh (Quý Thần Hi là Tôi, Trì Chước là Anh, lịch sự, giữ khoảng cách)",
     "hanviet": "",
     "category": "pronoun",
     "confidence": 1.0,
@@ -61,7 +61,7 @@
   },
   {
     "original": "[Xưng hô] Ji Chenxi - Chi Zhuo (đối thoại)",
-    "translation": "Ta - Ngài",
+    "translation": "Tôi - Anh",
     "hanviet": "",
     "category": "pronoun",
     "confidence": 1.0,
@@ -71,7 +71,7 @@
   },
   {
     "original": "[Xưng hô] Ji Chenxi - Bai Anran (đối thoại)",
-    "translation": "Điện hạ - Thần",
+    "translation": "Điện hạ - Tôi",
     "hanviet": "",
     "category": "pronoun",
     "confidence": 1.0,
@@ -81,7 +81,7 @@
   },
   {
     "original": "Bạch An Nhiên → Quý Thần Hi",
-    "translation": "xưng Thần - gọi Điện hạ",
+    "translation": "xưng Tôi - gọi Điện hạ",
     "hanviet": "",
     "category": "relationship",
     "confidence": 1.0,
@@ -91,7 +91,7 @@
   },
   {
     "original": "Quý Thần Hi → Bạch An Nhiên",
-    "translation": "xưng Ta - gọi Cậu",
+    "translation": "xưng Tôi - gọi Cậu",
     "hanviet": "",
     "category": "relationship",
     "confidence": 1.0,
@@ -182,8 +182,8 @@
   {
     "original": "S-rank alpha",
     "translation": "Alpha cấp S",
-    "hanviet": "",
-    "category": "other",
+    "hanviet": "Alpha cấp S",
+    "category": "Rank/Classification",
     "confidence": 0.0,
     "approved": true,
     "chapter_first_seen": "ch_002",
@@ -233,7 +233,7 @@
     "original": "Black mamba",
     "translation": "Rắn mamba đen",
     "hanviet": "Hắc mamba xà",
-    "category": "other",
+    "category": "Animal/Spirit Animal",
     "confidence": 0.0,
     "approved": true,
     "chapter_first_seen": "ch_002",
@@ -242,7 +242,7 @@
   {
     "original": "Đánh dấu",
     "translation": "Mark/Bond (in ABO context, typically a bite to form a bond)",
-    "hanviet": "",
+    "hanviet": "ký hiệu",
     "category": "ABO Dynamics",
     "confidence": 1.0,
     "approved": true,
@@ -271,30 +271,33 @@
   },
   {
     "original": "Ji Chenxi and Chi Zhuo interaction",
-    "translation": "Quý Thần Hi (xưng Ta) - Trì Chước (xưng Ngài) (ban đầu lịch sự, sau đó chuyển sang đối đầu thì xưng Ta - Ngươi); Ngôi thứ ba: Hắn/Y.",
+    "translation": "Quý Thần Hi (xưng Tôi) - Trì Chước (xưng Anh) (ban đầu lịch sự, sau đó chuyển sang đối đầu thì xưng Ta - Ngươi); Ngôi thứ ba: Hắn.",
     "hanviet": "",
     "category": "relationship",
     "confidence": 1.0,
     "approved": true,
-    "chapter_first_seen": "ch_003"
+    "chapter_first_seen": "ch_003",
+    "notes": ""
   },
   {
     "original": "Ji Chenxi and Chi Zhou dialogue",
-    "translation": "Ngươi - Ta (thụ xưng Ta, công xưng Ngươi, ngôi thứ ba Hắn/Y)",
+    "translation": "Quý Thần Hi (xưng Tôi) - Trì Chước (xưng Anh) (ban đầu lịch sự, sau đó chuyển sang đối đầu thì xưng Ta - Ngươi); Ngôi thứ ba: Hắn.",
     "hanviet": "",
     "category": "relationship",
     "confidence": 1.0,
     "approved": true,
-    "chapter_first_seen": "ch_004"
+    "chapter_first_seen": "ch_004",
+    "notes": ""
   },
   {
     "original": "Ji Chenxi and Su Yu dialogue",
-    "translation": "Ta - Cậu",
+    "translation": "Tôi - Cậu",
     "hanviet": "",
     "category": "relationship",
     "confidence": 1.0,
     "approved": true,
-    "chapter_first_seen": "ch_004"
+    "chapter_first_seen": "ch_004",
+    "notes": ""
   },
   {
     "original": "Su Yu and Su Nuan dialogue",
@@ -303,25 +306,28 @@
     "category": "relationship",
     "confidence": 1.0,
     "approved": true,
-    "chapter_first_seen": "ch_004"
+    "chapter_first_seen": "ch_004",
+    "notes": ""
   },
   {
     "original": "Chi Zhou and Shadowy Figure interaction",
-    "translation": "Chủ nhân - Tôi (Chi Zhou xưng Chủ nhân, thuộc hạ xưng Tôi, ngôi thứ ba Hắn/Y)",
+    "translation": "Ngài - Tôi (Chi Zhou xưng Ngài , thuộc hạ xưng Tôi, ngôi thứ ba Hắn)",
     "hanviet": "",
     "category": "relationship",
     "confidence": 1.0,
     "approved": true,
-    "chapter_first_seen": "ch_004"
+    "chapter_first_seen": "ch_004",
+    "notes": ""
   },
   {
     "original": "Ji Chenxi and Nether interaction",
-    "translation": "Ta - Cô",
+    "translation": "Tôi - Cô",
     "hanviet": "",
     "category": "relationship",
     "confidence": 1.0,
     "approved": true,
-    "chapter_first_seen": "ch_005"
+    "chapter_first_seen": "ch_005",
+    "notes": ""
   },
   {
     "original": "Nether and Shade interaction",
@@ -330,7 +336,8 @@
     "category": "relationship",
     "confidence": 1.0,
     "approved": true,
-    "chapter_first_seen": "ch_005"
+    "chapter_first_seen": "ch_005",
+    "notes": ""
   },
   {
     "original": "ABO",
@@ -339,16 +346,18 @@
     "category": "other",
     "confidence": 1.0,
     "approved": true,
-    "chapter_first_seen": "ch_003"
+    "chapter_first_seen": "ch_003",
+    "notes": ""
   },
   {
     "original": "spirit beast",
     "translation": "Thú tinh thần",
     "hanviet": "Tinh thú",
-    "category": "other",
+    "category": "Supernatural/Fantasy",
     "confidence": 0.8,
     "approved": true,
-    "chapter_first_seen": "ch_003"
+    "chapter_first_seen": "ch_003",
+    "notes": ""
   },
   {
     "original": "alpha suppressant",
@@ -357,16 +366,18 @@
     "category": "item",
     "confidence": 0.9,
     "approved": true,
-    "chapter_first_seen": "ch_003"
+    "chapter_first_seen": "ch_003",
+    "notes": ""
   },
   {
     "original": "spiritual realm",
-    "translation": "Linh hồn cảnh giới",
+    "translation": "Linh Cảnh",
     "hanviet": "Linh hồn cảnh giới",
-    "category": "other",
+    "category": "location",
     "confidence": 0.8,
     "approved": true,
-    "chapter_first_seen": "ch_003"
+    "chapter_first_seen": "ch_003",
+    "notes": ""
   },
   {
     "original": "gland",
@@ -375,7 +386,8 @@
     "category": "Biology",
     "confidence": 0.9,
     "approved": true,
-    "chapter_first_seen": "ch_003"
+    "chapter_first_seen": "ch_003",
+    "notes": ""
   },
   {
     "original": "tinh thần thú",
@@ -384,7 +396,8 @@
     "category": "Fantasy/Supernatural",
     "confidence": 0.9,
     "approved": true,
-    "chapter_first_seen": "ch_003"
+    "chapter_first_seen": "ch_003",
+    "notes": ""
   },
   {
     "original": "tinh thần hải",
@@ -393,7 +406,8 @@
     "category": "Fantasy/Supernatural",
     "confidence": 0.9,
     "approved": true,
-    "chapter_first_seen": "ch_003"
+    "chapter_first_seen": "ch_003",
+    "notes": ""
   },
   {
     "original": "mutual-marking-to-humiliate trick",
@@ -402,7 +416,8 @@
     "category": "other",
     "confidence": 0.7,
     "approved": true,
-    "chapter_first_seen": "ch_004"
+    "chapter_first_seen": "ch_004",
+    "notes": ""
   },
   {
     "original": "spiritual shield",
@@ -411,7 +426,8 @@
     "category": "skill",
     "confidence": 0.7,
     "approved": true,
-    "chapter_first_seen": "ch_004"
+    "chapter_first_seen": "ch_004",
+    "notes": ""
   },
   {
     "original": "tassel earring",
@@ -420,7 +436,8 @@
     "category": "item",
     "confidence": 0.7,
     "approved": true,
-    "chapter_first_seen": "ch_004"
+    "chapter_first_seen": "ch_004",
+    "notes": ""
   },
   {
     "original": "koi fish",
@@ -429,7 +446,8 @@
     "category": "other",
     "confidence": 0.7,
     "approved": true,
-    "chapter_first_seen": "ch_004"
+    "chapter_first_seen": "ch_004",
+    "notes": ""
   },
   {
     "original": "teardrop-shaped earring",
@@ -438,7 +456,8 @@
     "category": "item",
     "confidence": 0.7,
     "approved": true,
-    "chapter_first_seen": "ch_004"
+    "chapter_first_seen": "ch_004",
+    "notes": ""
   },
   {
     "original": "Imperial Rose",
@@ -447,7 +466,8 @@
     "category": "honorific",
     "confidence": 0.6,
     "approved": true,
-    "chapter_first_seen": "ch_004"
+    "chapter_first_seen": "ch_004",
+    "notes": ""
   },
   {
     "original": "hovering car",
@@ -456,16 +476,18 @@
     "category": "item",
     "confidence": 0.7,
     "approved": true,
-    "chapter_first_seen": "ch_004"
+    "chapter_first_seen": "ch_004",
+    "notes": ""
   },
   {
     "original": "pheromone Alpha",
-    "translation": "Alpha pheromone",
+    "translation": "tin tức tố Alpha",
     "hanviet": "",
     "category": "Biology",
     "confidence": 0.9,
     "approved": true,
-    "chapter_first_seen": "ch_004"
+    "chapter_first_seen": "ch_004",
+    "notes": ""
   },
   {
     "original": "đánh dấu lẫn nhau",
@@ -474,7 +496,8 @@
     "category": "Social/Biology (world-specific concept)",
     "confidence": 0.9,
     "approved": true,
-    "chapter_first_seen": "ch_004"
+    "chapter_first_seen": "ch_004",
+    "notes": ""
   },
   {
     "original": "chuốc thuốc",
@@ -483,7 +506,8 @@
     "category": "Condition/Action",
     "confidence": 0.9,
     "approved": true,
-    "chapter_first_seen": "ch_004"
+    "chapter_first_seen": "ch_004",
+    "notes": ""
   },
   {
     "original": "thả hổ về rừng",
@@ -492,7 +516,8 @@
     "category": "Idiom",
     "confidence": 0.9,
     "approved": true,
-    "chapter_first_seen": "ch_004"
+    "chapter_first_seen": "ch_004",
+    "notes": ""
   },
   {
     "original": "photon cannon",
@@ -501,7 +526,8 @@
     "category": "skill",
     "confidence": 0.0,
     "approved": true,
-    "chapter_first_seen": "ch_005"
+    "chapter_first_seen": "ch_005",
+    "notes": ""
   },
   {
     "original": "floating-rock zone",
@@ -510,7 +536,8 @@
     "category": "location",
     "confidence": 0.0,
     "approved": true,
-    "chapter_first_seen": "ch_005"
+    "chapter_first_seen": "ch_005",
+    "notes": ""
   },
   {
     "original": "Star Coins",
@@ -519,7 +546,8 @@
     "category": "item",
     "confidence": 0.0,
     "approved": true,
-    "chapter_first_seen": "ch_005"
+    "chapter_first_seen": "ch_005",
+    "notes": ""
   },
   {
     "original": "mercenaries",
@@ -528,7 +556,8 @@
     "category": "faction",
     "confidence": 0.0,
     "approved": true,
-    "chapter_first_seen": "ch_005"
+    "chapter_first_seen": "ch_005",
+    "notes": ""
   },
   {
     "original": "starship",
@@ -537,7 +566,8 @@
     "category": "item",
     "confidence": 0.0,
     "approved": true,
-    "chapter_first_seen": "ch_005"
+    "chapter_first_seen": "ch_005",
+    "notes": ""
   },
   {
     "original": "A-level Alpha",
@@ -546,7 +576,8 @@
     "category": "Rank/Classification",
     "confidence": 0.0,
     "approved": true,
-    "chapter_first_seen": "ch_005"
+    "chapter_first_seen": "ch_005",
+    "notes": ""
   },
   {
     "original": "code name",
@@ -555,15 +586,593 @@
     "category": "other",
     "confidence": 0.0,
     "approved": true,
-    "chapter_first_seen": "ch_005"
+    "chapter_first_seen": "ch_005",
+    "notes": ""
   },
   {
-    "original": "Hoàng gia Tinh",
-    "translation": "Star Royal Family",
-    "hanviet": "Hoàng (Imperial/Royal) Gia (Family) Tinh (Star)",
+    "original": "Imperial Star",
+    "translation": "Đế Tinh",
+    "hanviet": "Đế Tinh (帝星)",
     "category": "Faction/Location",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_005",
+    "notes": "Hành tinh thủ đô của Đế quốc, nơi Hoàng tộc đóng đô"
+  },
+  {
+    "original": "Ji Chenxi, Shadow, Nether interaction",
+    "translation": "[Quý Thần Hi: Cậu, tôi] - [Shadow: Tôi, cậu] - [Nether: Tôi, cậu/cô]",
+    "hanviet": "",
+    "category": "relationship",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_006"
+  },
+  {
+    "original": "Man with gold-rimmed glasses, Amis interaction",
+    "translation": "[Người đàn ông: Tôi, cô] - [Amis: Anh, tôi]",
+    "hanviet": "",
+    "category": "relationship",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_006"
+  },
+  {
+    "original": "Ji Chenxi, Man with gold-rimmed glasses interaction",
+    "translation": "[Quý Thần Hi: Ta, ngươi] - [Người đàn ông: Ngươi, ta]",
+    "hanviet": "",
+    "category": "relationship",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_006"
+  },
+  {
+    "original": "Ji Chenxi, Middle-aged voice interaction",
+    "translation": "[Quý Thần Hi: Tôi, ông] - [Chủ tàu: Anh, tôi]",
+    "hanviet": "",
+    "category": "relationship",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_006"
+  },
+  {
+    "original": "Ji Chenxi and Chi Zhuo pronouns",
+    "translation": "Trì Chước xưng: \"Điện hạ\" (gọi Quý Thần Hi), \"tôi\" (xưng Trì Chước) | Quý Thần Hi xưng: \"Anh\" (gọi Trì Chước), \"tôi\" (xưng Quý Thần Hi)",
+    "hanviet": "",
+    "category": "relationship",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_007"
+  },
+  {
+    "original": "Ji Chenxi and Chi Zhuo's pronouns",
+    "translation": "Quý Thần Hi: 'tôi' / Trì Chước: 'anh' (phổ biến, lịch sự)",
+    "hanviet": "",
+    "category": "pronoun",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_008"
+  },
+  {
+    "original": "Chi Zhuo and Bai Han's pronouns",
+    "translation": "Trì Chước: 'ta' / Bạch Hàn: 'thuộc hạ' (xưng hô với chủ)",
+    "hanviet": "",
+    "category": "relationship",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_008"
+  },
+  {
+    "original": "Chi Zhuo and Shadow's pronouns",
+    "translation": "Trì Chước: 'ta' / Shadow: 'thuộc hạ' (xưng hô với chủ)",
+    "hanviet": "",
+    "category": "relationship",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_008"
+  },
+  {
+    "original": "Ji Chenxi and Chi Zhuo",
+    "translation": "Trì Chước: Tôi - Quý Thần Hi: Cậu (thụ lớn tuổi hơn, có chút bỡn cợt)",
+    "hanviet": "",
+    "category": "pronoun",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_009"
+  },
+  {
+    "original": "Chi Zhuo and his subordinates (Bai Han, middle-aged man, younger man)",
+    "translation": "Trì Chước: Ta / Tôi - Thuộc hạ: Thuộc hạ / Ngài / Thiếu gia",
+    "hanviet": "",
+    "category": "pronoun",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_009"
+  },
+  {
+    "original": "Man with golden-rimmed glasses (Deputy Commander) and Amis (subordinate)",
+    "translation": "Phó chỉ huy: Ta / Tôi - Amis: Thuộc hạ / Ngài / Phó chỉ huy",
+    "hanviet": "",
+    "category": "pronoun",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_009"
+  },
+  {
+    "original": "Red Scorpions (Amis, Deputy Commander) and Poison Scorpion (Captain)",
+    "translation": "Thành viên: Thuyền trưởng / Đại ca - Độc Hạt: Hắn / Y",
+    "hanviet": "",
+    "category": "pronoun",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_009"
+  },
+  {
+    "original": "Chi Zhuo: \"Your Highness.\" Ji Chenxi: \"Brother Chi Zhuo.\"",
+    "translation": "Trì Chước: Tôi - Điện hạ; Quý Thần Hi: Tôi - Anh (ngôi thứ ba: hắn/y)",
+    "hanviet": "",
+    "category": "pronoun",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_010"
+  },
+  {
+    "original": "Poison Scorpion: \"Mr. Chi Zhuo.\" Chi Zhuo: \"Mr. Poison Scorpion\" / \"you.\"",
+    "translation": "Độc Hạt: Tôi - Trì tiên sinh; Trì Chước: Tôi - Độc Hạt tiên sinh (ngôi thứ ba: hắn/y)",
+    "hanviet": "",
+    "category": "pronoun",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_010"
+  },
+  {
+    "original": "little rose of the empire",
+    "translation": "Bông hồng nhỏ của đế quốc",
+    "hanviet": "",
+    "category": "term",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_010"
+  },
+  {
+    "original": "Red Scorpion",
+    "translation": "Hải tặc Bò Cạp Đỏ",
+    "hanviet": "Xích Hạt",
+    "category": "faction",
+    "confidence": 0.0,
+    "approved": true,
+    "chapter_first_seen": "ch_006"
+  },
+  {
+    "original": "Big Ten",
+    "translation": "Thập Đại Hải Tặc",
+    "hanviet": "Thập Đại",
+    "category": "Organization/Group",
+    "confidence": 0.0,
+    "approved": true,
+    "chapter_first_seen": "ch_006"
+  },
+  {
+    "original": "warp engine",
+    "translation": "động cơ cong",
+    "hanviet": "khúc xạ động cơ",
+    "category": "item",
+    "confidence": 0.0,
+    "approved": true,
+    "chapter_first_seen": "ch_006"
+  },
+  {
+    "original": "jump / faster-than-light",
+    "translation": "nhảy không gian / siêu quang tốc",
+    "hanviet": "không gian khiêu dược / siêu quang tốc",
+    "category": "skill",
+    "confidence": 0.0,
+    "approved": true,
+    "chapter_first_seen": "ch_006"
+  },
+  {
+    "original": "holo",
+    "translation": "màn hình ba chiều / holo",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 0.0,
+    "approved": true,
+    "chapter_first_seen": "ch_006"
+  },
+  {
+    "original": "nhảy vọt",
+    "translation": "jump / warp jump",
+    "hanviet": "nhảy vọt",
+    "category": "Sci-fi Technology",
     "confidence": 0.9,
     "approved": true,
-    "chapter_first_seen": "ch_005"
+    "chapter_first_seen": "ch_006"
+  },
+  {
+    "original": "động cơ cong vênh",
+    "translation": "warp drive",
+    "hanviet": "động cơ cong vênh",
+    "category": "Sci-fi Technology",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_006"
+  },
+  {
+    "original": "tốc độ siêu ánh sáng",
+    "translation": "superluminal speed / faster-than-light speed (FTL)",
+    "hanviet": "tốc độ siêu ánh sáng",
+    "category": "Sci-fi Technology",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_006"
+  },
+  {
+    "original": "tàu cướp biển",
+    "translation": "pirate ship",
+    "hanviet": "tàu cướp biển",
+    "category": "Vehicle",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_006"
+  },
+  {
+    "original": "Độc Hạt",
+    "translation": "Poison Scorpion",
+    "hanviet": "Độc Hạt",
+    "category": "Organization/Group",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_006"
+  },
+  {
+    "original": "photon guns",
+    "translation": "súng photon",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 0.8,
+    "approved": true,
+    "chapter_first_seen": "ch_007"
+  },
+  {
+    "original": "suppressant",
+    "translation": "thuốc ức chế",
+    "hanviet": "ức chế tề",
+    "category": "item",
+    "confidence": 0.8,
+    "approved": true,
+    "chapter_first_seen": "ch_007"
+  },
+  {
+    "original": "earring",
+    "translation": "khuyên tai",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 0.8,
+    "approved": true,
+    "chapter_first_seen": "ch_007"
+  },
+  {
+    "original": "black mask",
+    "translation": "mặt nạ đen",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 0.8,
+    "approved": true,
+    "chapter_first_seen": "ch_007"
+  },
+  {
+    "original": "3S",
+    "translation": "cấp 3S",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 0.8,
+    "approved": true,
+    "chapter_first_seen": "ch_007"
+  },
+  {
+    "original": "Third Prince",
+    "translation": "Tam hoàng tử",
+    "hanviet": "",
+    "category": "title",
+    "confidence": 0.8,
+    "approved": true,
+    "chapter_first_seen": "ch_007"
+  },
+  {
+    "original": "spiritual attacks",
+    "translation": "công kích tinh thần",
+    "hanviet": "linh hồn công kích",
+    "category": "skill",
+    "confidence": 0.8,
+    "approved": true,
+    "chapter_first_seen": "ch_007"
+  },
+  {
+    "original": "photon fire",
+    "translation": "hỏa lực photon",
+    "hanviet": "",
+    "category": "skill",
+    "confidence": 0.8,
+    "approved": true,
+    "chapter_first_seen": "ch_007"
+  },
+  {
+    "original": "beta",
+    "translation": "Beta",
+    "hanviet": "",
+    "category": "ABO Dynamics",
+    "confidence": 0.8,
+    "approved": true,
+    "chapter_first_seen": "ch_007"
+  },
+  {
+    "original": "smoke bomb",
+    "translation": "bom khói",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 0.8,
+    "approved": true,
+    "chapter_first_seen": "ch_007"
+  },
+  {
+    "original": "snow leopard",
+    "translation": "báo tuyết",
+    "hanviet": "Tuyết báo",
+    "category": "other",
+    "confidence": 0.8,
+    "approved": true,
+    "chapter_first_seen": "ch_007"
+  },
+  {
+    "original": "jin",
+    "translation": "cân",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 0.8,
+    "approved": true,
+    "chapter_first_seen": "ch_007"
+  },
+  {
+    "original": "hạm đội",
+    "translation": "fleet",
+    "hanviet": "",
+    "category": "Military/Space Travel",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_008"
+  },
+  {
+    "original": "phi thuyền cướp biển",
+    "translation": "pirate spaceship",
+    "hanviet": "",
+    "category": "Space Travel/Vehicle",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_008"
+  },
+  {
+    "original": "Điện hạ",
+    "translation": "Your Highness",
+    "hanviet": "",
+    "category": "Title/Honorific",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_008"
+  },
+  {
+    "original": "Red Scorpion pirates",
+    "translation": "Hải tặc Xích Hạt",
+    "hanviet": "Xích Hạt Hải Tặc Đoàn (赤蝎海盗团)",
+    "category": "faction",
+    "confidence": 0.8,
+    "approved": true,
+    "chapter_first_seen": "ch_009"
+  },
+  {
+    "original": "wrist console",
+    "translation": "Bảng điều khiển cổ tay",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 0.7,
+    "approved": true,
+    "chapter_first_seen": "ch_009"
+  },
+  {
+    "original": "magnetic field",
+    "translation": "Trường từ",
+    "hanviet": "Từ trường (磁场)",
+    "category": "other",
+    "confidence": 0.8,
+    "approved": true,
+    "chapter_first_seen": "ch_009"
+  },
+  {
+    "original": "mecha",
+    "translation": "Cơ giáp",
+    "hanviet": "Cơ giáp (机甲)",
+    "category": "item",
+    "confidence": 0.8,
+    "approved": true,
+    "chapter_first_seen": "ch_009"
+  },
+  {
+    "original": "Empire",
+    "translation": "Đế quốc",
+    "hanviet": "Đế quốc (帝国)",
+    "category": "location",
+    "confidence": 0.8,
+    "approved": true,
+    "chapter_first_seen": "ch_009"
+  },
+  {
+    "original": "Deputy Commander",
+    "translation": "Phó chỉ huy",
+    "hanviet": "Phó chỉ huy (副指挥)",
+    "category": "role",
+    "confidence": 0.8,
+    "approved": true,
+    "chapter_first_seen": "ch_009"
+  },
+  {
+    "original": "Captain",
+    "translation": "Thuyền trưởng",
+    "hanviet": "Thuyền trưởng (船长)",
+    "category": "role",
+    "confidence": 0.8,
+    "approved": true,
+    "chapter_first_seen": "ch_009"
+  },
+  {
+    "original": "khiên chắn",
+    "translation": "shield",
+    "hanviet": "",
+    "category": "Technology",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_009"
+  },
+  {
+    "original": "nhảy không gian",
+    "translation": "space jump / warp jump",
+    "hanviet": "",
+    "category": "Technology",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_009"
+  },
+  {
+    "original": "buồng lái",
+    "translation": "cockpit",
+    "hanviet": "",
+    "category": "Technology",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_009"
+  },
+  {
+    "original": "Red Scorpions",
+    "translation": "Hải tặc Bọ Cạp Đỏ",
+    "hanviet": "Xích Hạt (Hải tặc Xích Hạt)",
+    "category": "faction",
+    "confidence": 0.5,
+    "approved": true,
+    "chapter_first_seen": "ch_010"
+  },
+  {
+    "original": "neural interface",
+    "translation": "Giao diện thần kinh",
+    "hanviet": "Thần kinh giao diện",
+    "category": "item",
+    "confidence": 0.6,
+    "approved": true,
+    "chapter_first_seen": "ch_010"
+  },
+  {
+    "original": "magnetic fields",
+    "translation": "Từ trường",
+    "hanviet": "Từ trường",
+    "category": "other",
+    "confidence": 0.7,
+    "approved": true,
+    "chapter_first_seen": "ch_010"
+  },
+  {
+    "original": "jump failed",
+    "translation": "Lỗi nhảy không gian",
+    "hanviet": "Khiêu dược thất bại",
+    "category": "other",
+    "confidence": 0.6,
+    "approved": true,
+    "chapter_first_seen": "ch_010"
+  },
+  {
+    "original": "Self-destruct countdown",
+    "translation": "Đếm ngược tự hủy",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 0.7,
+    "approved": true,
+    "chapter_first_seen": "ch_011"
+  },
+  {
+    "original": "Red Scorpion Star Pirate gang",
+    "translation": "Băng Hải tặc Bò Cạp Đỏ",
+    "hanviet": "Hồng Hạt Tinh Tặc Bang",
+    "category": "faction",
+    "confidence": 0.0,
+    "approved": true,
+    "chapter_first_seen": "ch_013"
+  },
+  {
+    "original": "Holo-screen",
+    "translation": "Màn hình ba chiều",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 0.0,
+    "approved": true,
+    "chapter_first_seen": "ch_013"
+  },
+  {
+    "original": "Light-brain",
+    "translation": "Thiết bị quang não",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 0.0,
+    "approved": true,
+    "chapter_first_seen": "ch_013"
+  },
+  {
+    "original": "Pheromone detector",
+    "translation": "Máy dò Pheromone",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 0.0,
+    "approved": true,
+    "chapter_first_seen": "ch_013"
+  },
+  {
+    "original": "holo-brain",
+    "translation": "não lập thể",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 0.5,
+    "approved": true,
+    "chapter_first_seen": "ch_014"
+  },
+  {
+    "original": "empathic connection",
+    "translation": "kết nối đồng cảm",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 0.5,
+    "approved": true,
+    "chapter_first_seen": "ch_014"
+  },
+  {
+    "original": "relocation beacon",
+    "translation": "thiết bị định vị",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 0.5,
+    "approved": true,
+    "chapter_first_seen": "ch_014"
+  },
+  {
+    "original": "spiritual whip",
+    "translation": "roi tinh thần",
+    "hanviet": "Tinh thần tiên",
+    "category": "skill",
+    "confidence": 0.7,
+    "approved": true,
+    "chapter_first_seen": "ch_015"
+  },
+  {
+    "original": "double-edged blade",
+    "translation": "lưỡi dao hai cạnh",
+    "hanviet": "Song nhận đao",
+    "category": "item",
+    "confidence": 0.7,
+    "approved": true,
+    "chapter_first_seen": "ch_015"
   }
 ]

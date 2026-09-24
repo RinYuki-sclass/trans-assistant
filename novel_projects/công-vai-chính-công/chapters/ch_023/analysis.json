@@ -1,0 +1,90 @@
+{
+  "chapter_summary": "Chương này tập trung vào cuộc đối đầu căng thẳng giữa Quý Thần Hi và Trì Chước sau khi Trì Chước bất ngờ cưỡng hôn Quý Thần Hi. Trì Chước, đang trong thời kỳ mẫn cảm và bị ảnh hưởng bởi pheromone của Quý Thần Hi, biện minh hành động của mình là do Quý Thần Hi không chịu phóng thích pheromone. Quý Thần Hi vô cùng tức giận, đặc biệt vì đây là nụ hôn đầu của mình, nhưng vẫn giữ được sự điềm tĩnh. Trì Chước tiếp tục khiêu khích, hỏi liệu đây có phải nụ hôn đầu của Quý Thần Hi không và thậm chí tiết lộ đó cũng là nụ hôn đầu của mình. Quý Thần Hi cố gắng tìm hiểu động cơ thực sự của Trì Chước khi anh ta khao khát pheromone của mình. Trì Chước cuối cùng thừa nhận đó là 'ham muốn'. Cuộc đối đầu leo thang với một nụ hôn thứ hai, mãnh liệt hơn. Dù tức giận, Quý Thần Hi vẫn nửa đùa nửa thật hướng dẫn Trì Chước cách lấy pheromone hiệu quả hơn (cắn tuyến thể thay vì môi). Chương kết thúc với việc Quý Thần Hi trêu chọc hỏi Trì Chước có muốn hôn nữa không.",
+  "new_characters": [
+    {
+      "name": "Bai Han",
+      "hanviet_name": "Bạch Hàn",
+      "gender": "Male",
+      "role": "Past antagonist/complication",
+      "description": "Một Alpha đã từng đánh dấu Trì Chước trong quá khứ, sau đó đã thú nhận và xin lỗi."
+    }
+  ],
+  "new_locations": [],
+  "new_terms": [
+    {
+      "original": "susceptibility period",
+      "suggested": "thời kỳ mẫn cảm",
+      "hanviet": "mẫn cảm kỳ",
+      "category": "other",
+      "confidence": 0.5
+    },
+    {
+      "original": "glands",
+      "suggested": "tuyến thể",
+      "hanviet": "tuyến thể",
+      "category": "other",
+      "confidence": 0.5
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "Bai Han",
+      "suggested": "Bạch Hàn",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Bai Han?",
+      "options": [
+        "Bạch Hàn",
+        "Bạch Hãn",
+        "Bái Hán",
+        "Bạch An"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_002",
+      "original": "Bai Han (ngôi thứ 3)",
+      "suggested": "hắn",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Bai Han (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "hắn",
+        "y",
+        "gã",
+        "anh ta",
+        "cậu ta"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_003",
+      "original": "Quý Thần Hi → Trì Chước",
+      "suggested": "Quý Thần Hi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Quý Thần Hi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Trì tổng",
+        "xưng Ta - gọi Ngươi",
+        "xưng Tôi - gọi Cậu"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_004",
+      "original": "Trì Chước → Quý Thần Hi",
+      "suggested": "Trì Chước xưng Tôi - gọi Quý Thần Hi là Điện hạ / Hoàng tử",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Quý Thần Hi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Hoàng tử",
+        "xưng Tôi - gọi Cậu",
+        "xưng Tôi - gọi Thiếu gia"
+      ],
+      "category": "relationship"
+    }
+  ],
+  "chapter_id": "ch_023",
+  "analyzed_at": "2026-09-24T22:27:10.479617+07:00"
+}
