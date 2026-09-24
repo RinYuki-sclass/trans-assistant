@@ -1,0 +1,82 @@
+{
+  "chapter_id": "ch_010",
+  "questions": [
+    {
+      "id": "amb_003",
+      "original": "Mr. Hua",
+      "suggested": "Hoa tiên sinh",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Mr. Hua?",
+      "options": [
+        "Hoa tiên sinh",
+        "Ông Hoa",
+        "Hoa",
+        "Giữ nguyên Mr. Hua"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_004",
+      "original": "Chi Zhuo: \"Your Highness.\" Ji Chenxi: \"Brother Chi Zhuo.\"",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Xưng hô giữa Trì Chước (thụ, lớn tuổi hơn) và Quý Thần Hi (công) khi giao tiếp và ngôi thứ ba?",
+      "options": [
+        "Trì Chước: Ta - Ngươi; Quý Thần Hi: Ta - Ngươi (ngôi thứ ba: hắn/y)",
+        "Trì Chước: Tôi - Cậu; Quý Thần Hi: Tôi - Anh (ngôi thứ ba: hắn/y)",
+        "Trì Chước: Ta - Điện hạ; Quý Thần Hi: Ta - Trì Chước (ngôi thứ ba: hắn/y)",
+        "Trì Chước: Tôi - Điện hạ; Quý Thần Hi: Tôi - Anh (ngôi thứ ba: hắn/y)",
+        "Trì Chước: Ngươi - Điện hạ; Quý Thần Hi: Ta - Trì Chước (ngôi thứ ba: hắn/y)"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_005",
+      "original": "Poison Scorpion: \"Mr. Chi Zhuo.\" Chi Zhuo: \"Mr. Poison Scorpion\" / \"you.\"",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Xưng hô giữa Độc Hạt (thủ lĩnh hải tặc) và Trì Chước (thủ lĩnh thế lực lớn) khi giao tiếp và ngôi thứ ba?",
+      "options": [
+        "Độc Hạt: Tôi - Ngài; Trì Chước: Tôi - Ngài (ngôi thứ ba: hắn/y)",
+        "Độc Hạt: Tôi - Anh; Trì Chước: Tôi - Anh (ngôi thứ ba: hắn/y)",
+        "Độc Hạt: Tôi - Ngươi; Trì Chước: Tôi - Ngươi (ngôi thứ ba: hắn/y)",
+        "Độc Hạt: Ta - Ngươi; Trì Chước: Ta - Ngươi (ngôi thứ ba: hắn/y)",
+        "Độc Hạt: Tôi - Trì tiên sinh; Trì Chước: Tôi - Độc Hạt tiên sinh (ngôi thứ ba: hắn/y)"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_007",
+      "original": "little rose of the empire",
+      "suggested": "Bông hồng nhỏ của đế quốc",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho danh xưng \"little rose of the empire\" (chỉ Quý Thần Hi)?",
+      "options": [
+        "Bông hồng nhỏ của đế quốc",
+        "Tiểu hồng hoa của đế quốc",
+        "Đế quốc tiểu hồng hoa",
+        "Tiểu hoa hồng của đế quốc"
+      ],
+      "category": "term"
+    }
+  ],
+  "answers": {
+    "amb_003": {
+      "choice": "Hoa tiên sinh",
+      "custom": null
+    },
+    "amb_004": {
+      "choice": "Trì Chước: Tôi - Điện hạ; Quý Thần Hi: Tôi - Anh (ngôi thứ ba: hắn/y)",
+      "custom": null
+    },
+    "amb_005": {
+      "choice": "Độc Hạt: Tôi - Trì tiên sinh; Trì Chước: Tôi - Độc Hạt tiên sinh (ngôi thứ ba: hắn/y)",
+      "custom": null
+    },
+    "amb_007": {
+      "choice": "Bông hồng nhỏ của đế quốc",
+      "custom": null
+    }
+  },
+  "answered_at": "2026-09-24T22:56:32.067034+07:00"
+}

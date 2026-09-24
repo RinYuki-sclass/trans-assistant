@@ -2,234 +2,244 @@
 title: Công vai chính công — ch_004
 ---
 
-Mùi rượu tequila bám riết giữa môi răng hắn, dòng pheromone Alpha khác tràn ngập khoang miệng khiến Quý Thần Hi nhất thời cảm thấy buồn nôn.
+Mùi rượu tequila bám riết nơi đầu lưỡi và kẽ răng, cùng với làn sóng pheromone của một Alpha khác tràn ngập khắp khoang miệng khiến Quý Thần Hi trong thoáng chốc dâng lên cảm giác buồn nôn mãnh liệt.
 
-Thật sự, cái **thủ đoạn đánh dấu sỉ nhục lẫn nhau** ngu ngốc này là do tên khốn nào nghĩ ra vậy? Thương địch một ngàn, tự tổn tám trăm – loại ngốc tử nào lại cho rằng nó đáng để lưu truyền?!
+Thật sự cái trò đánh dấu để sỉ nhục lẫn nhau ngu xuẩn này rốt cuộc là do tên khốn nào nghĩ ra vậy chứ? Đả thương địch một ngàn thì bản thân cũng tự tổn hại tám trăm, loại ngốc nghếch nào lại cho rằng thứ thủ đoạn tồi tệ này đáng để lưu truyền lại cơ chứ?!
 
-Lưỡi hắn lướt qua vị trí đánh dấu, cố gắng chà xát đi cái vị tequila nồng gắt, nhưng càng cố gắng, nó lại càng rõ ràng hơn. Càng nhận ra, hắn càng cảm thấy khó chịu.
+Đầu lưỡi anh khẽ lướt qua vị trí vừa đánh dấu nhằm gột rửa đi vị rượu tequila nồng gắt, thế nhưng càng cố chùi đi thì vị đắng chát ấy lại càng hiện lên rõ rệt, khiến lòng anh càng thêm phần bực bội và khó chịu.
 
-Thế nhưng, vì hắn là người đi sỉ nhục, Quý Thần Hi không thể để lộ dù chỉ một chút dấu hiệu rằng mình đang nghẹn đắng vì mùi rượu.
+Thế nhưng vì bản thân là kẻ đi áp chế đối phương, Quý Thần Hi tuyệt đối không thể để lộ ra bất kỳ sơ hở nào cho thấy mình đang bị mùi rượu làm cho nghẹn đắng cuống họng.
 
-Mùi rượu tequila và hương hoa hồng quấn quýt vào nhau, va chạm dữ dội, cho đến khi miễn cưỡng tạo thành một thứ gì đó gần như ngọt ngào. Nhưng nếu ngửi kỹ hơn, rõ ràng hai mùi hương vẫn cách biệt một trời một vực – chỉ là bị ép buộc hòa quyện, không hơn không kém.
+Làn hương rượu tequila và hoa hồng quấn quýt lấy nhau rồi va chạm dữ dội, cho đến khi miễn cưỡng dung hòa thành một thứ mùi vị gần như ngọt ngào. Dẫu vậy nếu ngửi kỹ lại thì hai mùi hương ấy vẫn cách biệt nhau một trời một vực, chẳng qua chỉ là bị cưỡng ép hòa lẫn vào nhau mà thôi.
 
-Lần đầu tiên đánh dấu người khác, Quý Thần Hi không khỏi cảm thấy toàn bộ quá trình không chỉ tàn nhẫn mà còn đau đớn vô cùng.
+Đây là lần đầu tiên Quý Thần Hi đánh dấu người khác, anh không khỏi cảm thấy cả quá trình này không chỉ tàn nhẫn mà còn đau đớn vô cùng.
 
-Và nếu hắn đã tệ đến mức này, thì Trì Chước – người đã trực tiếp nhận lấy vết đánh dấu – chắc chắn phải chịu đựng đau khổ gấp ngàn lần.
+Và nếu ngay cả bản thân anh còn cảm thấy tồi tệ đến nhường này, thì Trì Chước, kẻ trực tiếp phải gánh chịu vết cắn đánh dấu kia, chắc chắn đang phải chịu đựng nỗi thống khổ gấp bội lần.
 
-Sau khi hơi ngả người ra sau, Quý Thần Hi nhìn thấy tuyến thể sưng đỏ, gương mặt vặn vẹo cố gắng chịu đựng cơn đau, và đôi mắt độc địa, đầy hận thù đang trừng mắt nhìn lại hắn.
+Hơi ngả người ra sau, Quý Thần Hi nhìn thấy tuyến thể sưng đỏ tấy cùng gương mặt vặn vẹo đang gồng mình chịu đựng cơn đau của đối phương, đi kèm với đôi mắt ngập tràn vẻ độc địa và thù hận đang trừng trừng nhìn lại mình.
 
-Phớt lờ sự khó chịu đang gặm nhấm cơ thể mình, Quý Thần Hi cười khẽ và hỏi:
+Gạt phăng cảm giác khó chịu đang cào cấu trong cơ thể, Quý Thần Hi khẽ bật cười hỏi:
 
-“Ngươi nhìn Ta như vậy là có ý gì? Chẳng phải vừa rồi Ngươi còn nói thích Ta đến mức muốn đánh dấu Ta sao? Ta chỉ là đang cho Ngươi thứ Ngươi muốn mà thôi.”
+“Anh nhìn tôi như vậy là có ý gì chứ? Chẳng phải vừa rồi anh còn nói thích tôi đến mức muốn đánh dấu tôi sao? Tôi chỉ đang rộng lượng cho anh toại nguyện thứ anh muốn thôi mà.”
 
-“Ta thừa nhận, Ta đã đi sai một nước cờ.”
+“Ta thừa nhận, ta đã đi sai một nước cờ.”
 
-Gương mặt Trì Chước tối sầm như nước, giọng nói lạnh lẽo như dao cắt:
+Sắc mặt Trì Chước trầm xuống tựa đáy nước sâu, giọng nói lạnh lẽo tựa dao sắc cứa vào không gian:
 
-“Hoặc Ngươi giết Ta ngay tại đây, hoặc một ngày nào đó Ta sẽ khiến Ngươi phải cầu xin được chết.”
+“Hoặc là hôm nay ngươi giết ta ngay tại đây, hoặc sẽ có ngày ta khiến ngươi phải quỳ xuống cầu xin được chết.”
 
-Mùi rượu tequila nồng gắt đó đã thay đổi, được hương hoa hồng làm dịu đi, biến thành một thứ gì đó mới mẻ – như caramel và hoa hồng ngâm mật ong với một chút hương gỗ tinh tế, mùi rượu kỳ lạ thay lại trở nên ngọt ngào.
+Làn hương tequila nồng gắt kia đã có sự biến chuyển khi được hương hoa hồng làm dịu lại, hóa thành một phong vị hoàn toàn mới mẻ tựa như mật ong hoa hồng quyện cùng chút hương gỗ tinh tế, khiến mùi rượu nồng cay kỳ lạ thay lại trở nên ngọt ngào say đắm.
 
-Nó khiến hắn hơi nhớ đến mùi hương từng ngửi thấy trong vòng tay mẹ khi còn bé.
+Mùi hương ấy bỗng khiến anh nhớ lại thoáng chốc về hơi ấm thân thuộc từng ngửi thấy trong vòng tay mẹ lúc còn thơ ấu.
 
-Quý Thần Hi chỉ phân tâm trong một giây trước khi đáp lại một cách dửng dưng:
+Quý Thần Hi chỉ thoáng phân tâm trong chớp mắt rồi nhanh chóng đáp lại bằng giọng điệu hờ hững:
 
-“Vậy thì, Ta đoán giết Ngươi là lựa chọn duy nhất của Ta.”
+“Vậy xem ra giết anh là lựa chọn duy nhất của tôi rồi nhỉ.”
 
-Tất cả những gì hắn vừa làm đã hoàn toàn xúc phạm Trì Chước, và cách tốt nhất để tránh bị một con rắn độc săn đuổi suốt phần đời còn lại là cắt đứt vấn đề từ gốc rễ.
+Tất cả những gì anh vừa làm đã triệt để đắc tội với Trì Chước, mà cách tốt nhất để tránh khỏi việc bị một con rắn độc bám riết săn lùng suốt quãng đời còn lại chính là nhổ cỏ phải nhổ tận gốc.
 
-Quý Thần Hi tùy tiện lau vết máu trên mặt. Điều thực sự khiến hắn bận tâm, hơn cả những lời trong cuốn sách cổ mà hắn nửa tin nửa ngờ, là ý nghĩ rằng hắn có thể thực sự thua một Alpha khác.
+Quý Thần Hi tùy ý đưa tay lau đi vết máu vương trên mặt. Điều thực sự khiến anh bận lòng, hơn cả những lời tiên tri trong cuốn sách kỳ lạ kia, chính là ý nghĩ rằng bản thân có thể sẽ bại trận dưới tay một Alpha khác.
 
-Loại bỏ một đối thủ mạnh hơn trước thời hạn chắc chắn là nước đi thông minh nhất – nhưng tại sao lại cảm thấy như hắn chỉ đang lợi dụng một người đã bị chuốc thuốc? Giống như hắn đã giành được một chiến thắng rẻ tiền, rồi sau đó định kết liễu đối phương.
+Loại bỏ một đối thủ mạnh mẽ hơn ngay từ trong trứng nước chắc chắn là nước đi thông minh và an toàn nhất, thế nhưng tại sao cảm giác này lại giống như anh đang đê tiện lợi dụng lúc người ta trúng thuốc để trục lợi vậy? Chẳng khác nào vừa giành được một chiến thắng rẻ rúng rồi sau đó lại hèn hạ kết liễu đối phương.
 
-Lòng kiêu hãnh của một Alpha không thể chấp nhận điều đó.
+Lòng kiêu hãnh của một Alpha đỉnh cấp không cho phép anh làm ra chuyện như vậy.
 
-Và thành thật mà nói, nếu hắn thực sự làm như vậy… chẳng phải quá nhàm chán sao?
+Và thành thật mà nói, nếu mọi chuyện cứ thế kết thúc thì chẳng phải cuộc đời này sẽ tẻ nhạt lắm hay sao?
 
-Đối với Trì Chước, việc tuyến thể bị xé toạc và pheromone của một Alpha khác bị ép buộc vào cơ thể không khác gì sự sỉ nhục tột cùng. Thế nhưng thay vì đánh gục hắn, nỗi đau đớn lại mài giũa tâm trí hắn thêm sắc bén.
+Đối với Trì Chước, việc tuyến thể bị xé toạc và pheromone của một Alpha khác bị cưỡng ép rót vào cơ thể không khác gì một sự sỉ nhục tột cùng. Thế nhưng thay vì quật ngã hắn, nỗi đau đớn dữ dội ấy lại càng tôi luyện tâm trí hắn trở nên sắc bén và tỉnh táo hơn bao giờ hết.
 
-Thuốc đã khóa chặt sức mạnh của hắn, nhưng sự cận kề cái chết đã thúc đẩy cơ thể hắn bỏ qua những ràng buộc đó và khuấy động bản năng phản kháng.
+Dược tính của thuốc tuy đã phong tỏa phần lớn sức mạnh của hắn, nhưng cảm giác cận kề cái chết lại kích thích bản năng sinh tồn trỗi dậy, thúc giục cơ thể hắn phá vỡ xiềng xích để phản kháng.
 
-Trì Chước đã chắc chắn Quý Thần Hi sẽ không bao giờ "thả hổ về rừng". Nhưng trước sự kinh ngạc của hắn, Quý Thần Hi thực sự đã buông tha cho hắn.
+Trì Chước vốn đinh ninh Quý Thần Hi tuyệt đối sẽ không bao giờ "thả hổ về rừng", thế nhưng điều khiến hắn vô cùng kinh ngạc là Quý Thần Hi vậy mà thực sự lại buông tha cho hắn.
 
-Quý Thần Hi dùng khăn tay lau sạch hai bàn tay như không có chuyện gì, rồi quay người định trở về sảnh tiệc ồn ào. Hắn còn chưa đi được mấy bước, Trì Chước đã đột ngột lao tới. Quý Thần Hi kịp thời giơ lá chắn tinh thần lên, chặn đứng đòn tấn công, rồi quay lại nhìn **y**.
+Quý Thần Hi rút chiếc khăn tay ra lau sạch hai bàn tay như thể chẳng hề có chuyện gì xảy ra, sau đó xoay người thong thả chuẩn bị trở về sảnh tiệc ồn ào náo nhiệt. Thế nhưng anh còn chưa kịp cất bước thì Trì Chước đã đột ngột hung hãn lao tới. Quý Thần Hi nhanh như cắt dựng lên một lá chắn tinh thần lực chặn đứng đòn đánh lén hiểm hóc, rồi thong dong quay đầu lại nhìn đối phương.
 
-Hắn nửa cười nửa không, hỏi với vẻ không chắc chắn:
-"Đây là sao? Đừng nói Ngươi thật sự chán sống rồi đấy nhé?"
+Anh nở nụ cười nửa miệng đầy vẻ nghiền ngẫm:
 
-Hắn đã chủ động lùi bước, cho đối phương cơ hội trả thù sau này, nhưng không hiểu sao đối phương vẫn chưa thỏa mãn. Quý Thần Hi không thực sự hiểu rõ việc đánh dấu giữa hai Alpha diễn ra như thế nào; tất cả những gì hắn biết là nó mang ý nghĩa chinh phục và sỉ nhục. Theo lẽ thường, Trì Chước lúc này hẳn phải hận hắn thấu xương, chỉ mong hắn biến mất để **y** có thể lên kế hoạch trả thù. Vậy tại sao lại tấn công hắn ngay bây giờ? **Y** không sợ Quý Thần Hi có thể nổi giận và giết **y** ngay tại chỗ sao?
+“Thế này là có ý gì đây? Đừng nói là anh thật sự chán sống rồi đấy nhé?”
 
-Alpha cao ráo, mảnh khảnh, tóc đen, eo thon vai rộng không nói gì. **Y** chỉ im lặng nhìn chằm chằm Quý Thần Hi, ánh mắt độc địa, tàn nhẫn không hề dao động. **Y** thực sự không giống một người chán sống. Đôi mắt xanh sapphire của Quý Thần Hi khẽ cong lên khi hắn mỉm cười.
+Anh đã chủ động nhượng bộ lùi lại một bước để cho đối phương cơ hội báo thù về sau, vậy mà chẳng hiểu sao đối phương vẫn chưa chịu dừng lại. Quý Thần Hi kỳ thực không hiểu rõ lắm về cơ chế đánh dấu giữa hai Alpha với nhau, những gì anh biết chỉ dừng lại ở ý nghĩa chinh phục và sỉ nhục. Theo lẽ thường tình, Trì Chước lúc này ắt hẳn phải hận anh thấu xương tủy, chỉ mong anh mau chóng biến khuất mắt để bản thân có thời gian lên kế hoạch trả thù, cớ sao lại liều lĩnh tấn công ngay lúc này? Hắn không sợ Quý Thần Hi sẽ nổi giận rồi dứt khoát đoạt mạng hắn tại chỗ hay sao?
 
-"Ngươi không chán sống, cũng không bám víu Ta. Ngươi cũng không nghĩ một đòn đánh lén có thể làm Ta bị thương. Vậy… Ngươi chỉ đang cố chọc tức Ta thôi sao?"
+Alpha cao ráo với mái tóc đen, vóc người eo thon vai rộng không hề hé răng nửa lời, hắn ta chỉ im lặng nhìn trừng trừng Quý Thần Hi với ánh mắt u tối độc địa không hề dao động. Dáng vẻ ấy quả thực không giống một kẻ đang muốn tìm đến cái chết.
 
-Trước khi Trì Chước kịp trả lời, Quý Thần Hi đã tự mình đáp lời, chắc chắn:
-"Phải, Ngươi có âm mưu gì đó."
+Đôi mắt xanh biếc tựa sapphire của Quý Thần Hi khẽ cong lên trong một nụ cười:
 
-Trì Chước vẫn luôn nhíu chặt mày. Pheromone của một Alpha khác đang xâm chiếm tuyến thể của **y**, mùi hương hoa hồng nồng nặc tuôn trào ra khỏi **y** như thể đó là của chính **y**. Pheromone Alpha bên trong một Alpha khác – thật ghê tởm, kinh tởm. Nhưng vấn đề thực sự là… tuyến thể của **y** đang thích nghi. Đang chấp nhận nó. Sự bài xích ban đầu từng thiêu đốt giờ đã bắt đầu mờ đi, chuyển thành một thứ gì đó giống như… hòa nhập. Nhận thức đó còn đáng sợ hơn cả việc bị chuốc thuốc và bị một Alpha cưỡng chế đánh dấu.
+“Anh không chán sống, cũng chẳng bám riết lấy tôi, lại càng thừa hiểu một đòn đánh lén cỏn con không thể nào làm tôi bị thương được. Vậy rốt cuộc là anh chỉ đang cố tình chọc tức tôi thôi sao?”
 
-Quý Thần Hi không ngờ lời nói của mình lại khiến **y** bối rối, nhưng ánh mắt Trì Chước nhìn hắn lại rất lạ. Chuyện này thực sự có thể tệ hơn việc bị lóc thịt khỏi xương sao? Quý Thần Hi không hẳn là người tốt, nhưng hắn cũng không nghĩ mình là kẻ độc ác hoàn toàn. Gây ra loại giày vò này cho người khác chỉ vì một điều gì đó được viết trong sách – ừm, điều đó hơi quá đáng. Một chút lương tâm mỏng manh của hắn trỗi dậy, và sau một giây do dự, hắn ném viên thuốc ức chế Alpha của mình qua.
+Trước khi Trì Chước kịp lên tiếng trả lời, Quý Thần Hi đã tự mình khẳng định một cách chắc nịch:
 
-"Ta không thực sự định mọi chuyện sẽ diễn ra như thế này. Nhưng này, Ngươi là người nhắc đến việc đánh dấu trước, và Ngươi là người đã làm hỏng đồ của Ta. Cứ coi như huề nhau đi. Dĩ nhiên, nếu Ngươi vẫn muốn trả thù, Ta sẽ luôn có mặt bất cứ lúc nào."
+“Phải rồi, xem ra trong đầu anh đang toan tính điều gì đó.”
 
-Nói rồi, Quý Thần Hi phẩy tay rồi rời đi. Ban đầu, hắn chỉ định giết **y** ngay lập tức hoặc xóa bỏ cuộc gặp gỡ đầu tiên của **y** với Bạch An Nhiên. Nhưng bây giờ mọi chuyện đã đi chệch hướng quá xa. Tuy nhiên, không sao cả – Quý Thần Hi không ngại nuôi dưỡng một kẻ thù không đội trời chung nếu mọi chuyện đến mức đó.
+Chân mày Trì Chước từ đầu đến cuối vẫn luôn khóa chặt. Pheromone của một Alpha khác đang không ngừng xâm lấn vào tuyến thể hắn, hương hoa hồng nồng nặc tuôn trào ra từ chính cơ thể hắn như thể đó là mùi hương vốn có của bản thân. Pheromone Alpha tồn tại bên trong cơ thể một Alpha khác quả thực là thứ ghê tởm và kinh tởm tột cùng.
 
-Đôi mắt đen của Trì Chước tối sầm lại khi **y** nắm chặt viên thuốc ức chế màu xanh nhạt. Không khí xung quanh **y** đặc quánh sát ý.
+Thế nhưng vấn đề đáng sợ nhất lại nằm ở chỗ: tuyến thể của hắn đang dần thích nghi và tiếp nhận nó. Sự bài xích bỏng rát ban đầu giờ đây đã bắt đầu mờ nhạt đi, dần chuyển hóa thành một trạng thái gần như hòa làm một thể. Sự thật kinh hoàng ấy còn đáng sợ hơn cả việc bản thân bị trúng thuốc hay bị cưỡng chế đánh dấu gấp vạn lần.
 
-Tiếng lá khô khẽ xào xạc vang lên, và một bóng người không tiếng động xuất hiện từ trong bóng tối, đưa cho **y** một lọ thuốc màu vàng nhạt lấp lánh dưới ánh trăng. Trì Chước thờ ơ nhận lấy, vẻ đau đớn trên mặt **y** đã biến mất. **Y** ném viên thuốc ức chế màu xanh trở lại cho bóng người, tiêm chất lỏng màu vàng vào người, và lạnh lùng nói:
+Quý Thần Hi không ngờ lời nói bâng quơ của mình lại khiến đối phương rơi vào vẻ bàng hoàng thất thần như vậy, nhưng ánh mắt Trì Chước nhìn anh lúc này thực sự vô cùng kỳ lạ. Chuyện này chẳng lẽ còn tồi tệ hơn cả việc bị lóc thịt róc xương hay sao? Quý Thần Hi tự nhận mình không phải người lương thiện gì cho cam, nhưng cũng chưa từng nghĩ bản thân là một kẻ đại gian đại ác. Việc giáng loại dày vò nhục nhã này lên đầu người khác chỉ vì vài dòng viết trong một cuốn sách kỳ thực cũng có phần hơi quá đáng. Chút lương tâm hiếm hoi trong lòng khẽ cựa quậy, sau một giây chần chừ, anh liền ném tuýp thuốc ức chế Alpha của mình sang cho đối phương.
 
-"Kiểm tra thứ đó."
+“Tôi vốn không định để mọi chuyện diễn ra thế này đâu. Nhưng này, chính anh là người đề cập đến chuyện đánh dấu trước, và cũng chính anh là kẻ đã làm hỏng bảo bối của tôi, xem như đôi bên huề nhau nhé. Dĩ nhiên nếu anh vẫn muốn báo thù thì tôi luôn sẵn sàng tiếp đón bất cứ lúc nào.”
 
-Trước khi bóng người biến mất, một con rắn mamba đen xuất hiện dưới chân nó. Trì Chước tùy ý bóp nát lọ thủy tinh rỗng thành bột, và ra lệnh bằng giọng nói trầm thấp, lạnh lẽo:
+Dứt lời, Quý Thần Hi chỉ phẩy tay một cái rồi dứt khoát quay lưng rời đi. Ban đầu anh chỉ dự tính một là giết chết đối phương ngay tại chỗ, hai là chặt đứt cuộc hội ngộ đầu tiên giữa hắn và Bạch An Nhiên, thế nhưng giờ đây mọi chuyện đã trôi dạt quá xa so với dự tính ban đầu. Dẫu vậy cũng chẳng sao cả, Quý Thần Hi xưa nay vốn chẳng hề ngại việc tự tay bồi dưỡng nên một kẻ thù truyền kiếp nếu số phận đã an bài như thế.
 
-"Trước ngày mai, Ta muốn biết mọi thế lực đứng sau kẻ đã chuốc thuốc Ta."
+Đôi mắt đen kịt của Trì Chước tối sầm lại khi bàn tay hắn siết chặt tuýp thuốc ức chế màu xanh nhạt, sát khí tỏa ra quanh người hắn đặc quánh đến mức ngột ngạt.
 
-"Vâng." Giọng nói lại vang lên, đều đều và không cảm xúc, trước khi bóng người biến mất như chưa từng tồn tại.
+Tiếng lá khô khẽ xào xạc rất khẽ, một bóng đen không tiếng động lướt ra từ bóng tối rồi kính cẩn dâng lên một ống thuốc màu vàng nhạt lấp lánh dưới ánh trăng. Trì Chước thản nhiên đón lấy, vẻ đau đớn trên mặt hắn đã hoàn toàn tan biến. Hắn vứt trả tuýp thuốc ức chế màu xanh lại cho thuộc hạ rồi lập tức tiêm thứ chất lỏng màu vàng kia vào cơ thể, lạnh giọng ra lệnh:
 
-Trì Chước cắm ngón tay vào tuyến thể, kéo ra thêm mùi hương hoa hồng nồng nàn, nóng bỏng – đậm đặc và say đắm, cứ như thể y đã bị đánh dấu sâu sắc như một omega. Nhưng đối với y, đó chỉ là một dấu vết của sự sỉ nhục.
+“Đem thứ đó đi kiểm tra.”
 
-Chỉ đến khi y cào rách tuyến thể, máu chảy ra và pheromone của chính y tràn ngập, lấn át đi mùi hương kia, vẻ mặt y mới dịu đi đôi chút.
+Trước khi bóng đen kia biến mất, một con rắn mamba đen khổng lồ đã lẳng lặng xuất hiện dưới chân hắn. Trì Chước tùy tiện bóp nát ống thủy tinh rỗng thành bụi mịn, trầm giọng hạ lệnh với sự lạnh lẽo thấu xương:
 
-Ở một nơi khác, Quý Thần Hi đang có tâm trạng tốt đến lạ, khẽ ngân nga một giai điệu khi rời đi. Trời đã khuya, lẽ ra hắn phải đi ngủ từ nhiều giờ trước thay vì lãng phí thời gian ở một bữa tiệc nhàm chán.
+“Trước ngày mai, ta muốn biết toàn bộ các thế lực đứng sau kẻ đã to gan chuốc thuốc ta.”
 
-Trước khi rời đi, hắn tình cờ gặp Tô Dục.
+“Rõ.” Giọng nói kia lại vang lên đều đều không chút cảm xúc rồi bóng đen lập tức hòa vào màn đêm như thể chưa từng xuất hiện.
+
+Trì Chước cắm sâu mười đầu ngón tay vào vị trí tuyến thể sau gáy, kéo theo làn hương hoa hồng nóng rực nồng nàn tuôn trào ra ngoài, đậm đặc và mê muội tựa như hắn đã bị đánh dấu sâu sắc như một Omega thực thụ. Thế nhưng đối với hắn, đó chỉ là vết nhơ của sự sỉ nhục khắc cốt ghi tâm.
+
+Chỉ mãi cho đến khi hắn cào rách tuyến thể khiến máu tươi túa ra và pheromone của chính bản thân cuộn trào lấn át hoàn toàn mùi hương kia, sắc mặt hắn mới hơi dịu lại đôi chút.
+
+Ở một diễn biến khác, Quý Thần Hi lại đang có tâm trạng tốt đến lạ lùng, anh vừa khẽ ngân nga một giai điệu vui vẻ vừa thong thả rời khỏi bữa tiệc. Đêm đã về khuya, lẽ ra giờ này anh đã phải yên giấc trong phòng ngủ từ nhiều tiếng trước thay vì lãng phí thời gian quý báu ở chốn tiệc tùng tẻ nhạt này.
+
+Vừa bước ra tới cổng, anh tình cờ chạm mặt Tô Dục.
 
 “Tam thiếu gia, không ở lại chơi thêm chút nữa sao?”
 
-Tô Dục đang khoác tay một omega xinh đẹp. Omega tinh tế ấy tò mò nhìn chàng trai trẻ cao ráo và điển trai lạ thường, đôi mắt mở to đầy kinh ngạc.
+Tô Dục lúc này đang khoác tay một Omega vô cùng xinh đẹp, vị Omega thanh tú ấy đang tò mò nhìn chằm chằm vào chàng thanh niên cao ráo với dung mạo tuấn tú phi phàm trước mặt, đôi mắt mở to ngập tràn vẻ kinh diễm.
 
-Quý Thần Hi vẫy tay chào một cách tùy tiện.
+Quý Thần Hi chỉ thản nhiên vẫy tay chào:
 
-“Ta về đây. Hẹn lần sau.”
+“Tôi về trước đây, hẹn khi khác nhé.”
 
-“Ồ? Tam thiếu gia, khuyên tai của cậu rơi mất rồi sao?”
+“Ủa? Tam thiếu gia, khuyên tai của cậu rơi mất một bên rồi à?”
 
-Sao lại nhắc đến chuyện đó?
+Sao tự dưng lại nhắc đến chuyện đau lòng đó chứ?
 
-Quý Thần Hi, người vừa mới đây còn đang vui vẻ, chợt nhớ đến một chuyện khiến hắn nhói lòng. Hắn tùy ý tháo viên đá quý màu đen còn lại, và quả nhiên, tất cả những gì còn sót lại bên dưới chỉ là một sợi chỉ đen nhỏ xíu.
+Quý Thần Hi, người vừa mới vài giây trước còn đang vui vẻ, chợt nhớ đến tổn thất vừa rồi khiến lòng anh không khỏi nhói lên một cái. Anh tiện tay tháo nốt viên bảo thạch đen còn lại bên tai xuống, và quả nhiên bên dưới chỉ còn trơ trọi một đoạn chỉ đen nhỏ xíu.
 
-“Dù sao thì Ta cũng định đổi nó,” hắn nói, cụp mắt xuống che đi mọi sắc thái và sức sống trong đó. Lần này, hắn dứt khoát rời đi, không chút do dự.
+“Dù sao tôi cũng đang tính đổi kiểu khác,” anh khẽ cụp mi che đi ánh sáng sắc sảo trong đáy mắt rồi dứt khoát quay người rời đi không chút chần chừ.
 
-Tô Dục khẽ tựa đầu vào vai Tô Noãn.
+Tô Dục nhìn theo bóng lưng anh rồi tựa đầu vào vai Tô Noãn thì thầm:
 
-“Noãn Noãn, em nói xem – Tam thiếu gia có hơi lạ không? Trước đây cậu ấy có vẻ rất thích chiếc khuyên tai cá âm dương đó, đeo nó nhiều năm… Nếu anh nhớ không lầm, đó là một loại gia truyền.”
+“Noãn Noãn, em xem kìa, Tam thiếu gia hôm nay có hơi là lạ đúng không? Trước giờ cậu ấy quý chiếc khuyên tai cá âm dương đó lắm, đeo suốt bao nhiêu năm trời… Nếu anh nhớ không lầm thì đó hình như là đồ gia truyền đấy.”
 
-Tô Noãn, bị ép chặt và khó chịu, nói:
+Tô Noãn bị ông anh trai to xác đè nặng đến khó chịu liền càu nhàu:
 
-“Này, anh, đầu anh nặng thật đấy!”
+“Này anh, đầu anh nặng chết đi được ấy!”
 
-“Noãn Noãn, em không còn là em gái đáng yêu của anh nữa rồi. Em làm anh tổn thương đấy.”
+“Noãn Noãn à, em hết còn là cô em gái đáng yêu của anh rồi đấy nhé, em làm tổn thương trái tim anh rồi.”
 
-Trước khi Tô Dục kịp mắng thêm, Tô Noãn hỏi:
+Chưa đợi Tô Dục kịp mè nheo thêm, Tô Noãn đã nghiêm túc hỏi lại:
 
-“Anh, đó là Tam thiếu gia sao?”
+“Anh ơi, đó thực sự là Tam thiếu gia sao?”
 
-Tô Dục chớp mắt.
+Tô Dục chớp mắt ngơ ngác:
 
-“Hả? Có vấn đề gì sao?”
+“Hả? Có vấn đề gì sao em?”
 
-“Nhưng Tam thiếu gia không phải là alpha mùi hoa hồng sao?” Cái danh “Hoa hồng Hoàng gia” đâu phải chỉ để trưng bày.
+“Nhưng Tam thiếu gia chẳng phải là Alpha có pheromone mùi hoa hồng sao?” Cái danh hiệu "Đóa hồng Hoàng gia" đâu phải tự dưng mà có.
 
-Lời nhận xét đó khiến Tô Dục nhận ra điều gì đó.
+Lời nhắc nhở ấy khiến Tô Dục bừng tỉnh nhận ra điều bất thường:
 
-“Ừm… Tam thiếu gia vừa rồi đúng là có mùi rượu.”
+“Ừ nhỉ… Ban nãy trên người Tam thiếu gia đúng là có mùi rượu thoang thoảng.”
 
-“Một chút rượu?” Đó không chỉ là rượu. Mùi hương đó mang theo pheromone. Hắn vừa ở cùng một alpha có mùi rượu sao? Nhưng thông thường, việc ở gần ai đó sẽ không để lại mùi hương nồng nặc đến vậy.
+“Một chút mùi rượu thôi á?” Đó đâu chỉ đơn thuần là mùi rượu, làn hương ấy rõ ràng mang theo pheromone nồng đậm. Chẳng lẽ anh ấy vừa ở cạnh một Alpha có mùi rượu sao? Thế nhưng bình thường việc đứng gần một người đâu thể nào để lại mùi hương bám dai dẳng và nồng nặc đến mức độ này được.
 
-Quý Thần Hi, ngồi trong chiếc xe bay riêng với đôi mắt nhắm nghiền, cũng nhận ra điều này. Khó chịu, hắn mở mắt. Trong không gian chật hẹp, mùi rượu tequila còn vương vấn bám chặt, không chịu phai nhạt.
+Quý Thần Hi lúc này đang ngồi nhắm nghiền mắt trong chiếc phi xa bay cá nhân cũng đã sớm phát hiện ra điều này. Khó chịu ra mặt, anh mở mắt nhìn quanh không gian kín mít của chiếc xe bay, nơi tàn dư pheromone mùi rượu tequila vẫn bám riết không chịu tan đi.
 
-Nếu hậu quả mạnh mẽ đến vậy, có vẻ như sự trả thù của Trì Chước sẽ không mất nhiều thời gian để đến.
+Nếu tàn dư sau một lần đánh dấu còn dữ dội đến mức này, thì xem chừng sự trả thù của Trì Chước cũng sẽ không để anh phải đợi quá lâu đâu.
 
-Ngày hôm sau, Quý Thần Hi lục lọi một đống khuyên tai, cuối cùng tìm thấy một chiếc khuyên tai tua rua gần như y hệt chiếc khuyên tai cá âm dương. Chiếc tua rua có một hạt thủy tinh bên trong chứa một con cá chép koi. Hắn cẩn thận xem xét con cá chép nhỏ, rồi hài lòng đeo nó vào tai phải. Tai trái của hắn đeo chiếc còn lại, một chiếc khuyên tai hình giọt nước bằng vàng.
+Ngày hôm sau, Quý Thần Hi lục lọi trong đống phụ kiện của mình và cuối cùng tìm thấy một chiếc khuyên tai tua rua có kiểu dáng gần như y hệt chiếc khuyên tai cá âm dương trước đó. Chiếc tua rua này gắn một hạt ngọc lưu ly trong suốt, bên trong khảm một chú cá chép koi nhỏ nhắn. Anh cẩn thận ngắm nghía chú cá chép tinh xảo rồi hài lòng đeo nó lên tai phải, còn tai trái thì phối với một chiếc khuyên tai hình giọt nước bằng vàng ròng.
 
-Hắn tự ngắm mình từ trên xuống dưới.
+Anh đứng trước gương ngắm nghía bản thân từ trên xuống dưới một lượt.
 
-Hắn giơ ngón tay cái lên tự khen – chiếc này có thể thay thế món đồ quý giá nhất của hắn.
+Tự giơ ngón tay cái lên thầm khen ngợi chính mình, món đồ này hoàn toàn xứng đáng thay thế cho món bảo bối yêu thích nhất của anh.
 
-Khi Tô Dục đến, có người đang cắm hoa. Mỹ nhân tóc bạc bình tĩnh cắt tỉa cành hoa, người hầu dâng trà cho khách, rồi hắn mới thản nhiên hỏi:
+Khi Tô Dục ghé chơi, Quý Thần Hi đang ung dung cắm hoa. Mỹ nhân tóc bạc bình thản dùng kéo tỉa cành hoa trong khi người hầu bưng trà nước dâng lên cho khách, mãi sau đó anh mới lơ đãng cất tiếng hỏi:
 
-"Có chuyện gì vậy?"
+“Hôm nay có chuyện gì thế?”
 
-"Ta nghe nói dạo gần đây người kia đang tìm một Alpha mùi hoa hồng."
+“Tôi nghe ngóng được dạo gần đây người kia đang ráo riết truy lùng một Alpha có mùi hương hoa hồng đấy.”
 
-"Hửm?"
+“Hửm?”
 
-Quý Thần Hi không quá để tâm. Sẽ thật lạ nếu Trì Chước 'không' tìm hắn.
+Quý Thần Hi chẳng mấy bận tâm, nếu Trì Chước không thèm tìm anh thì đó mới là chuyện lạ.
 
-"Hửm? Cái này là đang tìm cậu đúng không? Alpha mùi hoa hồng đâu có nhiều."
+“Hửm cái gì mà hửm? Rõ ràng là anh ta đang tìm cậu còn gì nữa, Alpha có mùi hoa hồng trên đời này đếm được mấy người đâu!”
 
-"Có lẽ? Ý cậu là có lẽ? Chẳng trách đêm đó trên người cậu có mùi pheromone rượu nồng nặc như vậy… vậy là cậu đã ở cùng hắn, đúng không?"
+“Có lẽ vậy?”
 
-Quý Thần Hi ngừng tay giữa chừng khi đang cắt tỉa cành hoa, một nụ cười nhạt xuất hiện trên mặt hắn.
+“Cậu bảo có lẽ vậy là ý làm sao? Thảo nào đêm đó trên người cậu lại ám mùi pheromone nồng nặc vị rượu đến thế… Hóa ra đêm hôm đó cậu đã ở cùng với anh ta thật sao?”
 
-"Vậy… tình hình là sao? Cậu muốn biết à?"
+Động tác cắt tỉa cành hoa của Quý Thần Hi khẽ khựng lại giữa chừng, khóe môi anh nở một nụ cười nhàn nhạt:
 
-"Đương nhiên là ta muốn biết rồi," Tô Dục sốt sắng nói.
+“Sao nào? Cậu tò mò muốn biết nội tình lắm à?”
 
-Quý Thần Hi cố tình đợi thêm một lát, chỉ lên tiếng khi Tô Dục sắp thúc giục.
+“Đương nhiên là tôi muốn biết rồi!” Tô Dục sốt ruột thúc giục.
 
-"Ta… đã hy sinh nhan sắc của mình vì hắn."
+Quý Thần Hi cố tình kéo dài sự im lặng thêm chốc lát, đợi đến khi Tô Dục không nhịn nổi nữa mới chậm rãi mở lời:
 
-"Đổi lại, hắn đã khiến ta mất đi thứ quý giá nhất."
+“Tôi… đã phải hy sinh chút nhan sắc cho anh ta.”
 
-Tô Dục lập tức bắt đầu tưởng tượng đủ loại kịch bản dựa trên lời của Quý Thần Hi, run rẩy lắp bắp:
+“Và đổi lại, anh ta đã cướp đi thứ trân quý nhất của tôi.”
 
-"Thứ… quý giá nhất của cậu? Cái đó… không thể nào, đúng không? Hắn làm sao có thể táo tợn đến mức đó? Cậu đang đùa à?"
+Đầu óc Tô Dục lập tức liên tưởng đến đủ loại kịch bản kinh thiên động địa dựa trên từng câu từng chữ của Quý Thần Hi, cả người cậu ta run lên lắp bắp:
 
-Quý Thần Hi không bận tâm đến những gì Tô Dục đang tưởng tượng. Hắn chỉ bình tĩnh trả lời, dưới ánh mắt nghi ngờ và không tin của Tô Dục:
+“Thứ… thứ trân quý nhất của cậu á? Chuyện đó… không thể nào đúng không? Anh ta làm sao dám to gan lớn mật đến mức đấy chứ? Cậu đang đùa với tôi phải không?”
 
-"Vậy… không có gì để kể cả."
+Quý Thần Hi chẳng thèm bận tâm xem Tô Dục đang bay bổng ở phương trời nào, anh chỉ thản nhiên uống một ngụm trà dưới ánh mắt nửa tin nửa ngờ của bạn mình:
 
-Tô Dục im lặng, tự mình tiêu hóa thông tin đó. Mãi sau này, khi Quý Thần Hi đã cắm xong tất cả các bông hoa, Tô Dục cuối cùng cũng xâu chuỗi được mọi chuyện.
+“Thế nên mới chẳng có gì để kể cả.”
 
-"Thứ quý giá… là chiếc khuyên tai của cậu, đúng không?"
+Tô Dục im bặt, cố gắng tiêu hóa lượng thông tin chấn động vừa rồi. Mãi một hồi lâu sau, khi Quý Thần Hi đã tỉa xong bình hoa tuyệt đẹp thì Tô Dục mới vỡ lẽ xâu chuỗi lại mọi việc:
 
-Quý Thần Hi thản nhiên gật đầu, như thể điều đó chẳng quan trọng.
+“Cái thứ trân quý mà cậu nói… là chiếc khuyên tai đúng không?”
 
-"Vậy… cậu đã làm gì mà khiến hắn quay lại trả đũa cậu?"
+Quý Thần Hi thản nhiên gật đầu xem như thừa nhận.
 
-Tô Dục tự rót cho mình một tách trà và nhấp một ngụm lơ đãng.
+“Thế… rốt cuộc là cậu đã làm cái gì mà khiến anh ta tức tối đòi lùng sục trả đũa cậu đến thế?” Tô Dục tự rót cho mình một chén trà rồi nhấp một ngụm lơ đãng.
 
-"Ồ, hắn tìm ta à? Chuyện đó bình thường thôi. Ta đã đánh dấu hắn."
+“Ồ, anh ta tìm tôi à? Chuyện đó cũng bình thường thôi, tại tôi lỡ đánh dấu anh ta rồi.”
 
-Tô Dục phun trà ra khỏi miệng, suýt chút nữa bắn trúng những bông hoa Quý Thần Hi vừa cắm.
+Phụt!
 
-"Cậu suýt nữa thì tự tìm đường chết rồi," Quý Thần Hi lạnh nhạt nói, sắc mặt tối sầm.
+Ngụm trà trong miệng Tô Dục lập tức bắn tung tóe, suýt chút nữa là phun thẳng vào bình hoa mà Quý Thần Hi vừa dày công chăm chút.
 
-Tô Dục vẫn ho khan không ngừng, mãi đến khi lấy lại được hơi, cậu ta mới không thể tin nổi hỏi: "Thật sao? Cậu không nói dối chứ? Cho dù hắn làm hỏng vật gia truyền của cậu, cậu cũng không cần phải đánh dấu hắn! Ý ta là… tại sao lại đánh dấu hắn? Alpha với Alpha thì làm sao mà đánh dấu được chứ?"
+“Cậu suýt nữa là tự tìm đường chết rồi đấy,” Quý Thần Hi lạnh lùng lườm một cái khiến sắc mặt tối sầm lại.
 
-Quý Thần Hi vẫn còn mơ hồ cảm nhận được sự hiện diện của đối phương, hắn rút ra một cành cây quá dài và tỉa lại lần nữa. Hắn vốn không muốn trả lời, nhưng dưới ánh mắt mong chờ của Tô Dục, hắn nói ra một câu hỏi: "Bởi vì… hắn muốn đánh dấu ta?"
+Tô Dục ho sặc sụa không ngừng, mãi mới lấy lại được nhịp thở mà trố mắt kinh ngạc hỏi: “Thật đấy à? Cậu không lừa tôi đấy chứ? Dẫu anh ta có làm vỡ đồ gia truyền của cậu thì cậu cũng đâu cần phải đi đánh dấu anh ta làm gì! Ý tôi là… tại sao lại phải đánh dấu anh ta chứ? Giữa hai Alpha với nhau thì làm sao mà đánh dấu được cơ chứ?!”
 
-Thật ra, Quý Thần Hi giờ đây có chút hối hận. Đánh dấu một Alpha đã làm tăng tối đa sự sỉ nhục, nhưng ban đầu, hành động đánh dấu vẫn mang một chút ý nghĩa thân mật hoặc tán tỉnh.
+Quý Thần Hi dường như vẫn còn cảm nhận được dư âm của đối phương quanh quẩn đâu đây, anh rút một cành hoa hơi dài ra tỉa lại lần nữa. Vốn dĩ anh chẳng muốn nhiều lời giải thích, nhưng trước ánh mắt tha thiết chờ mong của Tô Dục, anh chỉ hờ hững buông một câu hỏi ngược lại:
 
-Đồng tử Tô Dục gần như run lên vì sốc. Cậu ta đã đánh giá thấp đứa con riêng của nhà họ Trì rồi, hắn ta vậy mà dám đánh dấu một hoàng tử của đế quốc.
+“Thì… tại vì anh ta muốn đánh dấu tôi trước?”
 
-Ngàn lời muốn nói chỉ có thể thốt ra từ miệng Tô Dục thành: "Làm tốt lắm!"
+Nói thật lòng thì lúc này Quý Thần Hi cũng có chút hối hận. Việc đánh dấu một Alpha quả thực đã đẩy sự sỉ nhục lên mức cao nhất, thế nhưng bản chất của hành động đánh dấu vốn dĩ vẫn mang theo chút hàm ý thân mật và mập mờ không đáng có.
 
-Quả thật, với một kẻ khốn nạn như vậy, cách duy nhất để đối phó là ăn miếng trả miếng.
+Đồng tử của Tô Dục rung lên bần bật vì chấn động. Cậu ta quả thực đã đánh giá quá thấp đứa con riêng của nhà họ Trì rồi, anh ta vậy mà dám to gan muốn đánh dấu cả một hoàng tử của đế quốc!
 
-Quý Thần Hi khẽ cười, cảm thấy Tô Dục đang hoàn toàn bối rối thật thú vị.
+Bao nhiêu lời muốn nói nghẹn lại nơi cổ họng cuối cùng chỉ thốt ra thành một câu đầy thán phục: “Làm tốt lắm!”
 
-Đã được tuyển thẳng vào Học viện Hoàng gia Đế quốc, Quý Thần Hi gần đây rảnh rỗi lạ thường. Lúc không cắm hoa uống trà ở nhà, hắn lại lấy ra những bức tranh sơn dầu đã nhiều năm không động đến. Hắn cố tình làm chậm nhịp sống của mình, tận hưởng sự nhàn nhã hiếm có này, trong khi vẫn nửa mong đợi sự trả thù của Trì Chước.
+Quả thực đối phó với hạng người càn rỡ như vậy thì chỉ có cách ăn miếng trả miếng mới là đích đáng nhất.
 
-Vấn đề là… đã mấy ngày trôi qua, mà không hề có dấu hiệu trả thù nào. Thay vào đó, thông báo về chuyến du hành liên hành tinh của hắn lại đến trước.
+Quý Thần Hi khẽ bật cười, cảm thấy dáng vẻ hoang mang tột độ của Tô Dục trông vô cùng thú vị.
 
-Ngày 10 tháng 5 – ngày khởi hành dự kiến ban đầu của hắn cho chuyến du hành liên hành tinh. Với một kẻ nguy hiểm đang theo dõi hắn, chuyến đi này chắc chắn sẽ cực kỳ rủi ro. Mặc dù hắn đã đặt một chuyến bay riêng tư cao cấp, nhưng ai có thể đảm bảo Trì Chước sẽ không theo dõi và can thiệp?
+Vì đã được tuyển thẳng vào Học viện Hoàng gia Đế quốc nên dạo gần đây Quý Thần Hi rảnh rỗi đến lạ thường. Những lúc không ngồi thưởng trà cắm hoa ở nhà thì anh lại lôi những bức tranh sơn dầu đã gác lại nhiều năm ra vẽ tiếp. Anh cố tình làm chậm lại nhịp sống thường nhật để tận hưởng những ngày tháng an nhàn hiếm hoi này, trong khi vẫn luôn nửa phần ngóng đợi sự trả thù của Trì Chước.
 
-Quý Thần Hi, vừa phết một mảng màu lớn lên bức vẽ của mình, liếc nhanh qua màn hình ba chiều và quyết định giữ nguyên kế hoạch ban đầu.
+Thế nhưng kỳ lạ thay, nhiều ngày trôi qua mà chẳng hề thấy tăm hơi bất kỳ động tĩnh trả đũa nào, ngược lại thông báo xuất phát của chuyến du hành giữa các vì sao lại gửi tới trước.
 
-Còn về sự trả thù của đối phương… thì, như hắn đã nói trước đó, hắn đang mong đợi nó.
+Ngày mười tháng năm, chính là ngày khởi hành theo kế hoạch ban đầu của chuyến thám hiểm liên hành tinh. Trong tình cảnh đang bị một kẻ nguy hiểm như Trì Chước theo dõi gắt gao, chuyến đi này chắc chắn sẽ tiềm ẩn vô vàn rủi ro khó lường. Dù rằng anh đã bao trọn một chuyến bay tư nhân cao cấp với độ bảo mật tuyệt đối, nhưng ai dám đảm bảo rằng Trì Chước sẽ không lần ra manh mối để nhúng tay can thiệp?
 
-Vào đêm trước ngày khởi hành, Tô Dục liên tục thúc giục Quý Thần Hi đừng ra ngoài. Có vẻ như cậu ta cuối cùng đã nắm được một số thông tin nội bộ từ những người thừa kế thế hệ thứ hai và thứ ba thân cận với gia tộc Trì.
+Quý Thần Hi phết một mảng màu lớn lên khung tranh rồi liếc mắt qua màn hình quang học ba chiều, cuối cùng dứt khoát quyết định giữ nguyên lộ trình ban đầu.
 
-Quý Thần Hi đáp lại một cách hờ hững, vừa đủ để cho thấy hắn đang lắng nghe.
+Còn về màn trả thù của đối phương… chẳng phải anh đã nói từ trước rồi sao, anh rất mong chờ nó là đằng khác.
 
-"Không, đừng có hờ hững như vậy! Ít nhất cũng phải tỏ ra là cậu đang thật sự nghe ta nói chứ!" Tô Dục bùng nổ qua thiết bị liên lạc.
+Vào đêm trước ngày xuất phát, Tô Dục liên tục nhắn tin gọi điện khuyên can Quý Thần Hi đừng nên rời khỏi thủ đô vào lúc này, xem chừng cậu ta đã nghe ngóng được chút tin tức nội bộ từ đám con ông cháu cha thân cận với gia tộc họ Trì.
 
-Quý Thần Hi, vừa thu dọn đồ đạc vừa khẽ cười, nói: "Được rồi, đừng lo lắng quá. Gặp lại sau nhé."
+Quý Thần Hi chỉ đáp lại vài câu hờ hững cho có lệ để đối phương biết mình vẫn đang nghe máy.
 
-Chuyến du hành liên hành tinh mà Quý Thần Hi không chịu từ bỏ này, không hề đơn giản là một kỳ nghỉ. Đó là một đội thám hiểm hành tinh, chủ yếu gồm các học giả uyên bác, lính đánh thuê dày dặn kinh nghiệm, và những người như hắn – giàu có và có nhiều thời gian rảnh rỗi.
+“Này, cậu đừng có cái thái độ dửng dưng như thế được không! Ít nhất cũng phải tỏ ra là cậu đang nghiêm túc nghe tôi nói chứ!” Tô Dục gắt lên qua thiết bị liên lạc.
 
-Chuyến thám hiểm sẽ kéo dài ba tháng, và chỉ riêng việc giành được một suất đã tốn của hắn hai năm. Bỏ lỡ một chuyến du hành liên hành tinh không ưu tiên, theo nguyên tắc ai đến trước được phục vụ trước như thế này có nghĩa là không biết khi nào hắn mới có cơ hội khác.
+Quý Thần Hi vừa ung dung thu dọn hành lý vừa khẽ cười: “Được rồi, cậu không cần phải lo lắng thái quá đâu. Hẹn gặp lại sau nhé.”
 
-Quý Thần Hi, người đã kiên quyết không chịu từ bỏ, sẽ sớm thầm nguyền rủa vận may của mình và hối hận vì đã rời khỏi nhà.
+Chuyến du hành liên hành tinh mà Quý Thần Hi nhất quyết không chịu từ bỏ này thực chất không đơn thuần chỉ là một kỳ nghỉ dưỡng thông thường, mà đó là một đoàn thám hiểm các hành tinh quy tụ phần lớn là những học giả uyên thâm, những lính đánh thuê dày dạn kinh nghiệm chiến trường, cùng những người giàu có lắm tiền nhiều thời gian rảnh rỗi như anh.
+
+Hành trình thám hiểm này sẽ kéo dài suốt ba tháng ròng rã, và để giành được một suất tham gia, anh đã phải tốn công xếp hàng chờ đợi suốt hai năm trời. Nếu bỏ lỡ một chuyến đi không có sự ưu tiên đặc quyền mà hoàn toàn tuân theo nguyên tắc ai đến trước phục vụ trước như thế này, thì chẳng biết đến bao giờ anh mới lại có cơ hội thứ hai.
+
+Quý Thần Hi, người kiên quyết không chịu lùi bước, sẽ sớm phải âm thầm than thở cho vận may đen đủi của mình và hối hận vì quyết định rời khỏi nhà ngày hôm nay.

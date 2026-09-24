@@ -1,0 +1,77 @@
+{
+  "chapter_id": "ch_007",
+  "questions": [
+    {
+      "id": "amb_001",
+      "original": "Shadow",
+      "suggested": "Bóng",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Shadow?",
+      "options": [
+        "Shadow (giữ nguyên)",
+        "Ảnh (Hán-Việt của 'shadow')",
+        "Bóng (nghĩa tiếng Việt)"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_003",
+      "original": "Middle-aged man",
+      "suggested": "Người đàn ông trung niên",
+      "confidence": 0.3,
+      "question": "Xác nhận cách gọi cho nhân vật 'middle-aged man'?",
+      "options": [
+        "Người đàn ông trung niên",
+        "Ông chú",
+        "Vị trung niên"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_004",
+      "original": "Younger man",
+      "suggested": "Chàng trai trẻ",
+      "confidence": 0.3,
+      "question": "Xác nhận cách gọi cho nhân vật 'younger man'?",
+      "options": [
+        "Chàng trai trẻ",
+        "Người đàn ông trẻ tuổi",
+        "Vị thanh niên"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_005",
+      "original": "Ji Chenxi and Chi Zhuo pronouns",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Xưng hô giữa Quý Thần Hi (công, nhỏ tuổi hơn, hoàng tộc) và Trì Chước (thụ, lớn tuổi hơn, đang nắm quyền, thù địch) khi giao tiếp và ngôi thứ ba?",
+      "options": [
+        "Trì Chước xưng: \"Điện hạ\" (gọi Quý Thần Hi), \"ta\" (xưng Trì Chước) | Quý Thần Hi xưng: \"Anh Trì Chước\" (gọi Trì Chước), \"em\" (xưng Quý Thần Hi)",
+        "Trì Chước xưng: \"Điện hạ\" (gọi Quý Thần Hi), \"tôi\" (xưng Trì Chước) | Quý Thần Hi xưng: \"Anh\" (gọi Trì Chước), \"tôi\" (xưng Quý Thần Hi)",
+        "Trì Chước xưng: \"Ngài\" (gọi Quý Thần Hi, có thể mỉa mai), \"tôi\" (xưng Trì Chước) | Quý Thần Hi xưng: \"Anh Trì Chước\" (gọi Trì Chước), \"em\" (xưng Quý Thần Hi)",
+        "Trì Chước xưng: \"Ngươi\" (gọi Quý Thần Hi), \"ta\" (xưng Trì Chước) | Quý Thần Hi xưng: \"Anh\" (gọi Trì Chước), \"tôi\" (xưng Quý Thần Hi)"
+      ],
+      "category": "pronoun"
+    }
+  ],
+  "answers": {
+    "amb_001": {
+      "choice": "Shadow (giữ nguyên)",
+      "custom": null
+    },
+    "amb_003": {
+      "choice": "Người đàn ông trung niên",
+      "custom": null
+    },
+    "amb_004": {
+      "choice": "Chàng trai trẻ",
+      "custom": null
+    },
+    "amb_005": {
+      "choice": "Trì Chước xưng: \"Điện hạ\" (gọi Quý Thần Hi), \"tôi\" (xưng Trì Chước) | Quý Thần Hi xưng: \"Anh\" (gọi Trì Chước), \"tôi\" (xưng Quý Thần Hi)",
+      "custom": null
+    }
+  },
+  "answered_at": "2026-09-24T22:38:59.767775+07:00"
+}

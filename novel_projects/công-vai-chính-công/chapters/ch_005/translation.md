@@ -2,193 +2,194 @@
 title: Công vai chính công — ch_005
 ---
 
-Trong đoàn du hành giữa các vì sao, những người đầu tiên Quý Thần Hi gặp không phải là các học giả nổi tiếng mà cậu mong đợi, mà là một cặp song sinh long phượng đến từ cùng một Hoàng gia Tinh.
+Trong đoàn thám hiểm du hành giữa các vì sao, những người đầu tiên Quý Thần Hi chạm mặt không phải là các học giả uyên bác nổi tiếng như anh hằng mong đợi, mà lại là một cặp song sinh long phượng đến từ cùng Đế Tinh.
 
-Hai người họ trông gần như giống hệt nhau, không chỉ ở đường nét khuôn mặt mà ngay cả vóc dáng cũng vậy. Cả hai đều có mái tóc dài, thẳng, đen tuyền pha lẫn một vệt xanh dương rực rỡ. Ngay khi Quý Thần Hi nhìn thấy họ, cậu biết đây chính là những người được cử đến đón mình.
+Hai người họ sở hữu diện mạo gần như giống hệt nhau, không chỉ ở từng đường nét trên khuôn mặt mà ngay cả vóc dáng cũng tương đồng đến kỳ lạ. Cả hai đều có mái tóc đen dài thẳng mượt điểm xuyết một vệt xanh dương rực rỡ vô cùng nổi bật, khiến Quý Thần Hi ngay khi vừa nhìn thấy đã biết đây chính là những người được phái tới đón mình.
 
-Chỉ một cái liếc mắt đã đủ để cậu đánh giá: ít nhất cả hai đều là Alpha cấp A. Có một luồng sát khí thô ráp, không che giấu toát ra từ họ, loại sát khí đến từ nhiều năm sống trên lưỡi dao.
+Chỉ qua một ánh mắt quan sát lướt qua cũng đủ để anh đưa ra đánh giá: ít nhất cả hai người bọn họ đều là Alpha cấp A. Từ trên người họ toát ra một luồng sát khí thô ráp không hề che giấu, thứ khí chất nguy hiểm chỉ có thể được tôi luyện qua nhiều năm sinh tử trên đầu lưỡi đao.
 
-Trong khi Quý Thần Hi đang quan sát cặp song sinh, họ cũng đang nhìn cậu. Chàng trai trước mặt họ có mái tóc bạc dài buông xõa, một chiếc khuyên tai tua rua tinh xảo, một chiếc khuyên vành tai độc đáo, một dây da có xích, và một chiếc áo phông đen với vài vết rách có chủ đích ở cổ áo, kết hợp với một chiếc áo khoác đen ngoại cỡ, toát lên vẻ "ngầu lòi".
+Trong khi Quý Thần Hi đang âm thầm quan sát cặp song sinh thì đối phương cũng đang tò mò đánh giá anh. Chàng thanh niên đứng trước mặt họ có mái tóc dài màu bạc buông xõa tự nhiên, bên tai phải đeo một chiếc khuyên tai tua rua tinh xảo, tai trái điểm một chiếc khuyên vành tai cá tính, cổ mang dây da có gắn xích bạc, diện chiếc áo thun đen có vài vết rách cố ý nơi cổ áo kết hợp cùng chiếc áo khoác đen rộng thùng thình, toát lên phong thái ngầu lòi đầy phóng khoáng.
 
-Ngay cả trong lần gặp đầu tiên, người em song sinh đã bị ấn tượng bởi vẻ ngầu lòi tự nhiên này.
+Ngay từ lần đầu gặp mặt, người em trai song sinh đã bị ấn tượng mạnh mẽ bởi khí chất ngầu lòi tự nhiên toát ra từ anh.
 
-Hiếm có Alpha nào thích phong cách này lại để tóc dài.
+Vốn dĩ rất hiếm có Alpha nào chuộng phong cách bụi bặm cá tính này mà lại để tóc dài như vậy.
 
-Còn về Alpha tóc bạc trước mặt họ, những chi tiết nhỏ cứ thế chồng chất: đôi mắt xanh biếc như sao trời, phần lớn bị che khuất bởi một chiếc mặt nạ đen, găng tay cụt ngón màu đen và vài chiếc vòng bạc quấn quanh cổ tay trái. Treo lủng lẳng từ chúng là những chiếc bùa bạc nhỏ hình mèo.
+Còn về Alpha tóc bạc trước mắt họ, từng chi tiết nhỏ trên người anh đều khiến người khác phải chú ý: đôi mắt xanh biếc lấp lánh như ánh sao trời dẫu phần lớn khuôn mặt đã bị che khuất sau lớp khẩu trang đen, bàn tay đeo găng tay cụt ngón màu đen, cùng vài chiếc vòng bạc mảnh quấn quanh cổ tay trái với những chiếc chuông bạc nhỏ xíu hình đầu mèo đung đưa theo từng cử động.
 
-Quý Thần Hi đã casually tung một đồng xu vàng trong tay ngay từ đầu. Giờ khi những người khác đã đến, cậu chỉ đơn giản ném đồng xu đánh dấu thẻ thành viên đoàn của mình cho người song sinh trông điềm tĩnh hơn.
+Ngay từ đầu, Quý Thần Hi đã nhàn nhã xoay tròn một đồng xu vàng trong lòng bàn tay. Giờ đây khi người đón đã đến nơi, anh chỉ đơn giản búng nhẹ đồng xu biểu trưng cho tư cách thành viên đoàn thám hiểm về phía người chị trông có vẻ điềm đạm hơn.
 
-Người đó bắt lấy đồng xu một cách mượt mà, kiểm tra danh tính của cậu, và một giọng nữ hơi khàn nhẹ nhàng hỏi: “Thần Hi?”
+Người đó giơ tay đón lấy đồng xu một cách chuẩn xác và mượt mà, sau khi kiểm tra xác nhận danh tính của anh, một giọng nữ hơi khàn khàn nhưng dịu dàng cất lên: “Thần Hi?”
 
-Quý Thần Hi gật đầu. “Thần Hi, chuyến bay KR4007.”
+Quý Thần Hi khẽ gật đầu: “Thần Hi, chuyến bay KR4007.”
 
-Nữ Alpha sắc sảo, dứt khoát gật đầu đáp lại. “Chúng tôi là lính đánh thuê trong đoàn. Tôi là chị, cứ gọi tôi là Nether. Đó là em trai tôi.”
+Nữ Alpha dứt khoát gật đầu đáp lại: “Chúng tôi là lính đánh thuê được thuê theo đoàn. Tôi là chị gái, cứ gọi tôi là Nether, còn kia là em trai tôi.”
 
-Nam Alpha, người nãy giờ vẫn lặng lẽ quan sát Quý Thần Hi, lịch sự gật đầu đáp lại. “Shade. Mật danh của tôi là Shade.”
+Nam Alpha nãy giờ vẫn im lặng chăm chú quan sát Quý Thần Hi lúc này mới lịch sự gật đầu: “Shade. Mật danh tác chiến của tôi là Shade.”
 
-Một khi Quý Thần Hi kết nối các mật danh của họ – Nether và Shade – cậu cuối cùng cũng bắt đầu hành trình giữa các vì sao mà mình đã chờ đợi.
+Sau khi Quý Thần Hi kết nối và ghi nhận mật danh của hai người họ là Nether và Shade, anh rốt cuộc cũng chính thức bắt đầu chuyến hành trình giữa các vì sao mà bản thân đã mong chờ bấy lâu.
 
-Chẳng trách phí tham gia đoàn lên tới 9.99 triệu Tinh Tệ mỗi người. Cậu đã mất hai năm trời mới giành được một suất.
+Chẳng trách mức phí gia nhập đoàn thám hiểm này lại đắt đỏ lên tới 9,99 triệu Tinh Tệ cho mỗi người, và bản thân anh cũng đã phải chờ đợi ròng rã suốt hai năm trời mới giành được một suất tham gia quý giá.
 
-Hai người này làm việc cực kỳ hiệu quả. Ngay sau khi gặp cậu, họ đã đưa cậu qua một mê cung đường đi và lên một phi thuyền được che giấu kỹ càng.
+Hai người này làm việc với hiệu suất cực kỳ nhanh chóng và dứt khoát, ngay sau khi tiếp nhận Quý Thần Hi, họ đã lập tức dẫn anh luồn lách qua một mê cung đường hầm bí mật rồi bước lên một chiếc phi thuyền cá nhân được ngụy trang vô cùng kỹ lưỡng.
 
-Lông mày Quý Thần Hi khẽ nhíu lại. Ngay cả ở rìa Hoàng gia Tinh cũng có những điểm xuất phát bí mật, tiện lợi như vậy sao? Hai người này còn có năng lực hơn cậu tưởng tượng. Không phải ai cũng có thể sử dụng một điểm cất cánh tránh được sự giám sát.
+Chân mày Quý Thần Hi khẽ nhíu lại. Ngay cả ở khu vực rìa ngoài của Đế Tinh mà cũng tồn tại những điểm xuất phát bí mật và thuận tiện đến nhường này sao? Năng lực của hai người này quả thực vượt xa so với những gì anh tưởng tượng, bởi lẽ không phải bất kỳ ai cũng có đủ quyền hạn và bản lĩnh để sử dụng một bãi đáp né tránh hoàn toàn hệ thống giám sát nghiêm ngặt của quân đội.
 
-Nhận thấy cậu nhíu mày, người chị, với vẻ điềm tĩnh hơn, khởi động phi thuyền trong khi nói: “Đừng lo. Chuyến đi của cậu hoàn toàn hợp pháp. Chỉ là đoàn của chúng tôi không thể công khai lộ trình, nên chúng tôi đi theo tuyến đường này. Còn về an toàn của cậu, nó được đảm bảo hoàn toàn. Gần một nửa số tiền 9.99 triệu đó dùng để chi trả cho những lính đánh thuê như chúng tôi để bảo vệ cậu.”
+Nhận thấy cái nhíu mày đầy cảnh giác của anh, người chị với phong thái điềm tĩnh hơn vừa khởi động động cơ phi thuyền vừa cất tiếng trấn an: “Đừng lo, chuyến đi của cậu hoàn toàn hợp pháp. Chỉ là do đoàn thám hiểm của chúng ta không tiện công khai lịch trình di chuyển ra bên ngoài nên mới buộc phải đi theo lộ trình bí mật này thôi. Còn về vấn đề an toàn tính mạng của cậu thì hãy cứ yên tâm, gần một nửa trong số tiền 9,99 triệu Tinh Tệ kia chính là chi phí trả cho những lính đánh thuê như chúng tôi để bảo vệ cậu chu toàn đấy.”
 
-Việc nó có hoàn toàn hợp pháp hay không không quan trọng; Quý Thần Hi chỉ cần gật đầu nếu cậu không muốn gặp rắc rối.
+Chuyến đi này có thực sự hợp pháp hay không đối với Quý Thần Hi vốn chẳng quan trọng, anh chỉ cần gật đầu đồng thuận để tránh vướng vào những rắc rối không cần thiết.
 
-Cậu đã biết rằng gần một nửa số phí của họ dùng để thuê lính đánh thuê. Dù sao, các học giả không cần kiếm tiền theo cách này. Nếu thiếu kinh phí, họ có thể yêu cầu các gia tộc tài chính lớn hỗ trợ. Những suất hiếm hoi, cạnh tranh cao này không phải về tiền bạc – chúng chủ yếu dành cho các học giả lớn tuổi đang tìm kiếm một vài người trẻ thực sự quan tâm đến nghiên cứu.
+Anh vốn dĩ đã biết rõ gần nửa số tiền mình bỏ ra được dùng để thuê lính đánh thuê hộ tống. Dù sao thì các học giả lớn tuổi kia cũng chẳng cần phải kiếm tiền bằng hình thức này, nếu thiếu thốn kinh phí nghiên cứu thì họ chỉ việc mở lời là các đại gia tộc tài phiệt sẽ tranh nhau rót vốn. Những suất tham gia hiếm hoi với tỉ lệ cạnh tranh khốc liệt này căn bản không nhắm vào tiền bạc, mà chủ yếu là để các bậc tiền bối tìm kiếm thêm vài gương mặt trẻ tuổi thực sự có đam mê và hứng thú với công việc khảo sát nghiên cứu.
 
-Phi thuyền cất cánh từ Hoàng gia Tinh và lướt vào không gian.
+Chiếc phi thuyền rời khỏi bề mặt Đế Tinh rồi êm ái lướt nhanh vào không gian vũ trụ bao la.
 
-Mọi việc diễn ra suôn sẻ. Quý Thần Hi chỉ cần đợi đến điểm hẹn rồi tận hưởng chuyến đi của mình.
+Mọi chuyện diễn ra vô cùng suôn sẻ, Quý Thần Hi chỉ việc nhắm mắt nghỉ ngơi chờ đến điểm hẹn tập kết rồi thỏa sức tận hưởng chuyến thám hiểm của mình.
 
-Đương nhiên, nếu mọi chuyện cứ suôn sẻ như vậy, cậu đã chẳng hối hận khi rời khỏi nhà.
+Dĩ nhiên nếu mọi chuyện cứ êm đềm trôi qua như thế thì anh đã chẳng có lý do gì để phải hối hận vì quyết định rời khỏi nhà ngày hôm nay.
 
-Ngay khi cậu nhắm mắt nghỉ ngơi, Shade – người vẫn luôn lặng lẽ quan sát cậu – ngồi xuống bên cạnh, ánh mắt suy tư.
+Ngay khi anh vừa nhắm mắt định chợp mắt một lát thì Shade, người vẫn luôn dùng ánh mắt dò xét quan sát anh từ nãy tới giờ, bỗng bước tới ngồi xuống bên cạnh với vẻ mặt đầy suy tư.
 
-Quý Thần Hi khẽ nâng mí mắt. “Có chuyện gì sao?”
+Quý Thần Hi khẽ nâng mí mắt liếc nhìn đối phương: “Có chuyện gì sao?”
 
-“Không có chuyện gì thì không thể ngồi đây sao?” Shade trêu chọc.
+“Không có việc gì thì không được phép ngồi đây à?” Shade cười trêu chọc.
 
-Lần này, Quý Thần Hi thậm chí còn chẳng buồn nâng mí mắt.
+Lần này Quý Thần Hi thậm chí còn chẳng buồn nhấc mi mắt lên nữa.
 
-Alpha nam tóc dài nở một nụ cười ranh mãnh pha chút nham hiểm. “Cậu là thiếu gia nào mà kiêu ngạo thế hả!? Không sợ chúng tôi lôi cậu đi bán sao?”
+Nam Alpha tóc dài nở một nụ cười ranh mãnh xen lẫn chút ý tứ xấu xa: “Cậu là thiếu gia nhà nào mà dám kiêu ngạo đến thế hả? Không sợ hai chị em tôi lừa đem cậu đi bán hay sao?”
 
-Quý Thần Hi nhìn cậu ta không chút biểu cảm.
+Quý Thần Hi nhìn chằm chằm đối phương bằng ánh mắt hoàn toàn vô cảm.
 
-Shade, người vừa cố gắng dọa cậu mà không thành công, tặc lưỡi tỏ vẻ hơi khó chịu. “Hừm... Tôi đã mong đợi lắm. Cứ nghĩ sẽ gặp được một thiếu gia vui vẻ, hoạt bát nào đó. Nhưng cậu... cậu thật nhàm chán.”
+Thấy màn dọa dẫm của mình không mang lại chút tác dụng nào, Shade tặc lưỡi có chút cụt hứng: “Haizz… Tôi đã mong đợi lắm đấy chứ, cứ ngỡ sẽ được gặp một cậu ấm nhà giàu tính tình vui vẻ hoạt bát cơ, ai ngờ cậu… cậu lại nhạt nhẽo đến mức này.”
 
-“Tại sao cậu lại nghĩ Ta vui vẻ?” Quý Thần Hi hỏi, thực sự bối rối – cậu ta hoàn toàn không toát ra vẻ gì như vậy.
+“Sao anh lại nghĩ tôi là người vui vẻ?” Quý Thần Hi hỏi lại với vẻ thực sự khó hiểu, bởi từ đầu đến chân anh đâu có toát ra chút biểu cảm nào như thế.
 
-“Thần Hi! Mật danh của cậu – sáng sủa và rạng rỡ như vậy! Không phải nó nên thuộc về một chú Golden Retriever nhỏ bé vui vẻ sao?”
+“Thần Hi! Mật danh của cậu sáng sủa và rạng rỡ như ánh bình minh thế cơ mà, chẳng phải cái tên đó nên thuộc về một chú cún Golden Retriever vui tươi hay sao?”
 
-Quý Thần Hi khoanh tay, hoàn toàn chấm dứt cuộc trò chuyện.
+Quý Thần Hi dứt khoát khoanh tay trước ngực, hoàn toàn chấm dứt cuộc trò chuyện vô nghĩa này.
 
-Ánh mắt Shade nán lại trên những chiếc bùa hình mèo nhỏ xíu trên sợi dây chuyền bạc quanh cổ tay Quý Thần Hi, không chắc chắn. “Khoan đã... cậu thực sự là... phong cách ngọt ngào và ngầu sao?”
+Ánh mắt của Shade lại dời xuống những chiếc bùa hình đầu mèo nhỏ xíu treo lủng lẳng trên sợi dây chuyền bạc nơi cổ tay Quý Thần Hi, ngập ngừng đoán mò: “Khoan đã… chẳng lẽ phong cách thực sự của cậu là… vừa ngọt ngào vừa ngầu lòi à?”
 
 Quý Thần Hi: “...”
 
-Cậu liếc nhìn hai chiếc khuyên lông mày và một hàng khuyên vành tai mà Alpha nam kia đeo, cuối cùng cũng hiểu tại sao Shade lại tiếp cận mình ngay từ đầu.
+Anh liếc nhìn hai chiếc khuyên lông mày cùng một hàng khuyên vành tai lấp lánh mà nam Alpha đối diện đang đeo, lúc này mới vỡ lẽ tại sao ngay từ đầu Shade lại chủ động tiếp cận bắt chuyện với mình.
 
-Shade chờ đợi câu trả lời từ Alpha tóc bạc lạnh lùng này, nhưng trước khi Quý Thần Hi kịp đáp lời, ánh mắt cậu đột nhiên tối sầm, nhìn chằm chằm ra ngoài cửa sổ.
+Shade vẫn đang kiên nhẫn chờ đợi câu trả lời từ vị Alpha tóc bạc lạnh lùng trước mặt, thế nhưng chưa kịp để Quý Thần Hi lên tiếng thì ánh mắt anh đột nhiên tối sầm lại, đăm đăm nhìn chằm chằm ra ngoài ô cửa sổ quan sát.
 
-Ban đầu Shade không hiểu chuyện gì đang xảy ra, nhưng cậu ta ngay lập tức cảm thấy phi thuyền xoay chuyển đột ngột, và ở đằng xa, một luồng sáng trắng khổng lồ bùng lên – giống như một phát pháo.
+Ban đầu Shade còn chưa hiểu chuyện gì đang xảy ra, nhưng ngay lập tức hắn ta cảm nhận được thân tàu đột ngột nghiêng mạnh một góc hiểm hóc, và từ đằng xa trong không gian tăm tối, một luồng ánh sáng trắng khổng lồ bỗng chốc bùng nổ dữ dội tựa như một phát đại bác năng lượng vừa được phóng ra.
 
-Tia sáng chói lóa trông thật đẹp, nhưng nếu nó bắn trúng phi thuyền của họ, ngay cả một phi thuyền cá nhân nhỏ như của họ cũng sẽ bị hư hại ít nhất 30%.
+Chùm sáng chói lòa ấy trông rực rỡ tuyệt đẹp nhưng nếu nó bắn trúng vào thân tàu, thì ngay cả một chiếc phi thuyền cá nhân kiên cố như của họ cũng sẽ bị phá hủy ít nhất ba mươi phần trăm cấu trúc.
 
-Shade, người trước đó còn thờ ơ, lập tức bật dậy và chạy đến bên Nether. “Chuyện gì đang xảy ra vậy? Tại sao lại có tấn công?”
+Shade vốn đang tỏ vẻ cợt nhả lập tức bật dậy lao nhanh về phía buồng lái cạnh Nether: “Chuyện gì xảy ra thế này? Tại sao lại có kẻ tấn công chúng ta?!”
 
-Phát pháo photon bất ngờ đó hoàn toàn xuất hiện từ hư không.
+Phát đại bác photon bất ngờ kia hoàn toàn xuất hiện từ cõi hư vô không một dấu hiệu báo trước.
 
-Nether, người vừa né tránh đòn tấn công, vẫn giữ bình tĩnh và tiếp tục điều khiển phi thuyền một cách ổn định.
+Nether, người vừa kịp thời điều khiển tàu né qua đòn hiểm, vẫn giữ vẻ mặt vô cùng bình tĩnh và tiếp tục duy trì quỹ đạo bay ổn định.
 
-“Ở đây có một vùng đá trôi khổng lồ, rất thích hợp để phục kích. Và bất cứ ai đi đến Andromeda A-756 đều phải đi qua điểm này. Khẩu pháo photon vừa rồi nhắm thẳng vào phi thuyền của chúng ta. Có vẻ như là cướp biển muốn cướp bóc hoặc một số dân định cư lạc loài,” Shade lẩm bẩm, nguyền rủa trong hơi thở.
+“Khu vực này có một vành đai thiên thạch trôi nổi khổng lồ, là địa hình hoàn hảo nhất để phục kích, mà bất kỳ ai muốn bay tới chòm sao Tiên Nữ A-756 đều bắt buộc phải đi qua tọa độ này. Phát đại bác photon vừa rồi nhắm thẳng vào phi thuyền của chúng ta, xem chừng là cướp biển vũ trụ muốn cướp hàng hoặc một nhóm lưu dân vũ trụ nào đó,” Shade vừa nghiến răng vừa lẩm bẩm chửi thề.
 
-Cướp biển có thể là một vấn đề nhỏ hoặc lớn. Nếu chỉ là một băng cướp biển nhỏ hoặc một nhóm lang thang từ hệ thống gần đó, họ thậm chí sẽ không quan tâm. Ngay cả hai người họ cùng nhau cũng có thể xử lý hàng chục kẻ tấn công. Điều đáng lo ngại thực sự là đụng độ một băng cướp biển lớn hơn. Trong các băng cướp biển lớn, luôn có một vài kẻ lão luyện có thể gây ra thiệt hại nghiêm trọng. Với đủ hỏa lực, phi thuyền cá nhân nhỏ bé của họ sẽ ở thế bất lợi nghiêm trọng. Hơn nữa, vì họ chỉ hộ tống một người, phi thuyền của họ không phải là loại hàng đầu. Đối mặt với cướp biển lớn hơn sẽ đồng nghĩa với cả số lượng ít hơn và trang bị yếu hơn.
+Đụng phải cướp biển vũ trụ có thể là chuyện nhỏ, nhưng cũng có thể là tai họa khôn lường. Nếu chỉ là một băng nhóm cướp biển quy mô nhỏ hoặc những kẻ lang bạt từ các hệ sao lân cận thì họ chẳng thèm bận tâm, bởi chỉ riêng hai chị em họ phối hợp lại cũng đủ sức dẹp gọn hàng chục kẻ tấn công. Thế nhưng điều đáng lo ngại nhất chính là chạm trán phải một hạm đội cướp biển cỡ lớn, nơi luôn có những tay lão luyện sở hữu hỏa lực cực mạnh đủ sức gây ra thiệt hại mang tính hủy diệt. Với một chiếc phi thuyền cá nhân nhỏ bé, họ sẽ rơi vào thế bất lợi tuyệt đối cả về số lượng lẫn trang bị vũ khí.
 
-Shade di chuyển đến ghế phi công phụ, điều chỉnh dữ liệu trong khi quét khu vực xung quanh bằng cảm biến thăm dò, cảnh giác với đòn tấn công tiếp theo.
+Shade nhanh chóng ngồi vào ghế lái phụ, vừa liên tục điều chỉnh các thông số dữ liệu vừa mở rộng cảm biến tầm quét để đề phòng đòn tấn công tiếp theo.
 
-“Em có thấy phát bắn đến từ đâu không?” Nether hỏi.
+“Có định vị được phát bắn vừa rồi xuất phát từ đâu không?” Nether hỏi dồn.
 
-“Đó là một điểm duy nhất. Chúng đang cố gắng dọa chúng ta và khiến chúng ta hoảng loạn,” Shade đáp.
+“Nó chỉ bắn từ một điểm duy nhất, mục đích là muốn hù dọa và khiến chúng ta hoảng loạn mà rối loạn đội hình thôi,” Shade đáp.
 
-Vẻ mặt của Nether tối sầm lại. Kiểu chiến thuật này – cố tình bắn để hù dọa chứ không phải để tấn công – chính xác là phong cách của một băng cướp biển lớn.
+Sắc mặt Nether trầm xuống. Kiểu chiến thuật bắn thăm dò để uy hiếp tinh thần thay vì dồn hỏa lực tiêu diệt ngay từ đầu này đích thị là phong cách tác chiến của một băng cướp biển quy mô lớn.
 
-Trong khi hai chị em cảnh giác và phòng thủ, Quý Thần Hi nhìn chằm chằm ra ngoài cửa sổ tròn, nơi tinh vân và những tảng đá trôi khổng lồ lướt qua, cảm thấy hơi bất an.
+Trong khi hai chị em đang tập trung cao độ để phòng thủ thì Quý Thần Hi lại đứng bên ô cửa sổ tròn nhìn ra tinh vân cùng những tảng đá thiên thạch khổng lồ đang vun vút lướt qua, trong lòng khẽ dâng lên một tia bất an.
 
-Đây là một vùng đá trôi khổng lồ. Nếu cướp biển ẩn nấp ở đây, chúng sẽ giống như những con chuột béo đang lang thang trước mặt mèo – một mục tiêu quá rõ ràng.
+Đây là một vùng thiên thạch dày đặc, nếu cướp biển ẩn nấp ở đây thì chẳng khác nào bầy chuột béo ngậy đang diễu hành trước mũi mèo, mục tiêu quá mức rõ ràng.
 
-Ban đầu, Quý Thần Hi tự hỏi liệu đây có phải là một kiểu trả thù nào đó từ Trì Chước không. Tuyến đường của chuyến du hành giữa các vì sao này là tuyệt mật, nhưng không phải là không thể để các thế lực ẩn giấu của Trì Chước tìm ra. Hợp tác với cướp biển để hạ sát một hoàng tử Đế quốc? Điều đó sẽ quá tiện lợi. Ngay cả khi lão gia điều tra sau đó, ông ta có lẽ cũng sẽ không khám phá ra bất cứ điều gì. Nhưng Quý Thần Hi nhanh chóng loại trừ khả năng này.
+Ban đầu Quý Thần Hi thoáng tự hỏi liệu đây có phải là đòn trả thù của Trì Chước hay không. Lộ trình của chuyến du hành này tuy được bảo mật rất cao nhưng cũng không hẳn là tuyệt mật đối với thế lực ngầm của Trì Chước. Mượn tay cướp biển để mưu sát một hoàng tử của đế quốc xem ra là một nước đi quá đỗi thuận tiện, dẫu cho sau này hoàng tộc có phái người điều tra thì e rằng cũng chẳng tra ra được manh mối gì. Thế nhưng Quý Thần Hi nhanh chóng gạt bỏ khả năng này.
 
-Không nên là Trì Chước.
+Không thể nào là Trì Chước được.
 
-Thủ đoạn của Trì Chước không hẳn là sạch sẽ, nhưng hắn có giới hạn. Hợp tác với cướp biển để giết một hoàng tử Đế quốc không phù hợp với phong cách thường thấy của hắn.
+Thủ đoạn của Trì Chước dẫu chẳng mấy trong sạch nhưng hắn vẫn luôn có giới hạn và nguyên tắc của riêng mình, việc cấu kết với lũ cướp biển ô hợp để trừ khử một hoàng tử đế quốc căn bản không phù hợp với tác phong ngạo nghễ thường thấy của hắn ta.
 
-Vậy thì… Quý Thần Hi chỉ đơn giản là không may mắn?
+Vậy thì… chỉ đơn thuần là do vận may của anh quá xui xẻo sao?
 
-Vùng đá trôi cực kỳ nguy hiểm. Bất kỳ tên cướp biển nào ẩn nấp ở đây cũng có thể dễ dàng tiêu diệt những người du hành. Đó là lý do tại sao thường có một tiền đồn quân sự nhỏ gần các vùng đá trôi lớn dọc theo các tuyến đường phổ biến. Hiện tại, có vẻ như tiền đồn này có thể tạm thời nằm dưới sự kiểm soát của cướp biển.
+Vành đai thiên thạch này vô cùng hiểm trở, bất kỳ toán cướp biển nào phục kích ở đây cũng có thể dễ dàng nuốt chửng những kẻ đi ngang qua. Đó là lý do tại sao quân đội thường thiết lập một tiền đồn quân sự nhỏ gần các vùng đá trôi dọc theo các tuyến hàng hải trọng điểm. Hiện tại rất có thể tiền đồn này đã tạm thời rơi vào tay bọn cướp biển rồi.
 
-Ngay cả việc kiểm soát tạm thời cũng chỉ có thể kéo dài nửa ngày. Sau đó, tiền đồn cần gửi mã bảo mật của mình. Cướp biển không thể bẻ khóa các mã đặc biệt, và bất kỳ sự chậm trễ hoặc truyền sai nào cũng sẽ kích hoạt báo động và cảnh báo các đơn vị quân sự gần đó. Điều này có nghĩa là những tên cướp biển đang ẩn nấp ở đây rất có thể đã hành động có chủ đích.
+Thế nhưng việc chiếm quyền kiểm soát tạm thời tối đa cũng chỉ kéo dài được nửa ngày, sau khoảng thời gian đó tiền đồn buộc phải gửi mã tín hiệu an toàn về căn cứ mẹ. Cướp biển không thể giải mã được mật mã quân sự đặc biệt, bất kỳ sự chậm trễ hay sai sót nào cũng sẽ kích hoạt còi báo động khẩn cấp và huy động các đơn vị quân đội gần đó tới tiếp ứng. Điều này đồng nghĩa với việc toán cướp biển đang mai phục ở đây nhất định là hành động có chủ đích từ trước.
 
-Shade đã bắt đầu chửi rủa ầm ĩ, rõ ràng là bực bội. “Cái quái gì thế… băng cướp biển nào vậy? Chúng bị điên à?”
+Shade lúc này đã bắt đầu chửi thề ầm ĩ đầy bực bội: “Cái quái gì thế này… Rốt cuộc là băng cướp biển nào vậy chứ? Bọn chúng điên hết cả lũ rồi à?!”
 
-Nether không nói một lời, chỉ cẩn thận điều khiển phi thuyền. Trong quá trình đó, chị ấy đã né tránh được vài đòn tấn công cực kỳ nguy hiểm. Ban đầu, các đòn đánh dường như gần như đùa giỡn, như mèo vờn chuột. Nhưng theo thời gian, rõ ràng là chúng không chỉ đùa giỡn – chúng thực sự muốn bẫy họ. Vì lý do nào đó, ngay cả sau nửa ngày, chúng vẫn không thể hạ gục được phi thuyền, và các đòn tấn công không còn giới hạn ở những thiệt hại nhỏ, chính xác nữa – giờ đây chúng là những mối đe dọa thực sự.
+Nether không nói một lời nào, chỉ tập trung toàn bộ tinh thần để điều khiển phi thuyền. Trong suốt quá trình đó, cô đã khéo léo lách qua nhiều đòn tập kích cực kỳ hiểm hóc. Ban đầu các đợt bắn dường như chỉ mang tính chất trêu đùa như mèo vờn chuột, nhưng càng về sau rõ ràng bọn chúng không còn đùa giỡn nữa mà thực sự muốn dồn họ vào chỗ chết. Dù đã qua nửa ngày mà vẫn chưa hạ gục được con mồi, các đòn tấn công của chúng không còn dè dặt gây thiệt hại nhỏ nữa mà đã biến thành những đòn hỏa lực hủy diệt thực sự.
 
-Shade, bị phân tâm bởi những thao tác khó khăn, thậm chí không còn sức để chửi rủa nữa. Cậu ấy làm việc cùng với Nether, điều khiển phi thuyền tốt nhất có thể trong khi nghĩ, ‘Chết tiệt, chúng ta thật không may.’
+Shade vừa phải căng mình hỗ trợ vừa không còn hơi sức đâu mà chửi rủa, trong lòng thầm than vãn: ‘Chết tiệt thật, hôm nay đúng là xui tận mạng rồi.’
 
-Phi thuyền càng bay xa và các đòn tấn công càng trở nên hung hãn, Shade bắt đầu cảm thấy có điều gì đó không ổn. “Những chiến thuật này… chúng quá chuyên nghiệp. Chúng ta thực sự đáng để bị săn lùng như thế này, trên một phi thuyền cá nhân nhỏ bé như vậy sao?”
+Càng bay sâu vào trong và các đợt tấn công càng trở nên điên cuồng, Shade bắt đầu nhận ra điểm bất thường: “Chiến thuật này… bọn chúng phối hợp quá chuyên nghiệp. Trên một chiếc phi thuyền cá nhân nhỏ bé thế này, chúng ta có cái gì đáng giá để bị một lực lượng tinh nhuệ như vậy săn đuổi gắt gao cơ chứ?”
 
-Tay Nether lướt trên bảng điều khiển, né tránh hai phát bắn photon nhắm gần như trực tiếp vào trung tâm chỉ huy.
+Đôi tay của Nether thoăn thoắt lướt trên bảng điều khiển, vừa vặn né tránh hai phát đại bác photon suýt chút nữa đã bắn thẳng vào buồng chỉ huy.
 
-“Đây không còn là chuyện cướp bóc nữa rồi,” Shade nói với một tiếng cười lạnh, liếc nhìn chàng trai tóc bạc ăn mặc lạnh lùng phía sau họ.
+“Mục tiêu của chúng căn bản không còn là cướp bóc nữa rồi,” Shade cười lạnh một tiếng, liếc mắt nhìn chàng thanh niên tóc bạc với bộ trang phục cá tính đang đứng phía sau.
 
-“Shade, chú ý xung quanh,” Nether nhắc nhở cậu.
+“Shade, tập trung quan sát xung quanh đi,” Nether nghiêm giọng nhắc nhở.
 
-“Chú ý cái gì? Rõ ràng chúng ta đang bị một đội tinh nhuệ của băng cướp biển lớn săn lùng. Các đòn tấn công của chúng rõ ràng đang cố gắng dồn chúng ta vào một chỗ. Mà chỗ đó có gì? Chúng không nhắm vào tiền bạc.”
+“Tập trung cái gì nữa chứ? Rõ ràng là chúng ta đang bị một đội tàu tinh nhuệ của băng cướp biển lớn săn đuổi, đòn đánh của chúng rõ ràng là đang cố tình dồn chúng ta vào một tọa độ chết. Mà ở đó thì có cái gì? Chúng đâu có nhắm vào tiền bạc!”
 
-Nếu không phải tiền, vậy đương nhiên là người.
-Đây không phải một cuộc phục kích cướp biển đơn giản.
+Nếu mục tiêu không phải là tiền của thì hiển nhiên chính là con người.
 
-Nether nhíu mày. Chị ấy cảm thấy Shade nói quá thẳng thừng, nhưng cũng nhận ra rằng số tiền tưởng chừng dễ kiếm này bỗng trở nên khó khăn hơn rất nhiều.
+Đây tuyệt đối không phải là một vụ cướp bóc thông thường trên đường hàng hải.
 
-Hai người họ đang lái một phi thuyền cá nhân bán cải tiến. Việc thoát khỏi các lớp phục kích của bọn cướp biển gần như là không thể. Lựa chọn tốt nhất của họ bây giờ là giao nộp chàng trai mà họ đang hộ tống.
+Chân mày Nether nhíu chặt lại. Cô cảm thấy Shade nói năng quá mức thẳng thừng, nhưng bản thân cô cũng nhận ra món tiền tưởng chừng dễ kiếm này giờ đây lại trở nên khó nhằn đến mức nào.
 
-Nhưng Nether không muốn làm vậy. Lính đánh thuê phải giữ uy tín. Nếu tin đồn họ giao nộp khách hàng hôm nay bị lộ ra, họ sẽ không bao giờ được tin tưởng trong giới lính đánh thuê nữa.
+Chiếc phi thuyền họ đang lái chỉ là loại bán cải tiến, việc thoát khỏi tầng tầng lớp lớp vòng vây phục kích của đối phương gần như là nhiệm vụ bất khả thi. Lựa chọn an toàn nhất lúc này cho hai người họ chính là giao nộp chàng trai mà họ đang nhận nhiệm vụ hộ tống ra ngoài.
 
-Ánh mắt của Shade nhìn Quý Thần Hi trở nên sắc bén. “Vậy… nhóc con, cậu có nợ tiền băng cướp biển nào không? Hay cậu là một thiếu gia giàu có nào đó bị lộ hành tung?”
+Thế nhưng Nether tuyệt đối không muốn làm ra loại chuyện phản trắc ấy. Lính đánh thuê lấy uy tín làm mạng sống, nếu tin đồn họ bán đứng khách hàng của mình bị truyền ra ngoài thì cái nghề lính đánh thuê của hai chị em xem như hoàn toàn chấm dứt.
 
-Quý Thần Hi, dường như không bị ảnh hưởng bởi giọng điệu hung hăng của Shade, vẫn giữ bình tĩnh. “Thứ nhất, Ta không nợ băng cướp biển nào cả. Thứ hai, Ta không phải thiếu gia giàu có nào. Cuối cùng, Ta thừa nhận — có khá nhiều người muốn Ta chết.”
+Ánh mắt Shade nhìn Quý Thần Hi bỗng chốc trở nên sắc lạnh: “Này cậu nhóc, rốt cuộc là cậu có nợ nần gì băng cướp biển nào không đấy? Hay cậu là thiếu gia của gia tộc lớn nào bị lộ hành tung ra ngoài?”
 
-Thực tế, Quý Thần Hi không có vô số kẻ thù. Gần đây, kẻ thù thực sự duy nhất mà Ta đã khiêu khích là Trì Chước. Trừ Ngài ấy ra, chỉ còn hai người khác: anh trai và chị gái Alpha của Ta, cùng với các thế lực đứng sau họ. Ta không biết ai trong số hai bên đã ra tay lần này, nhưng về cơ bản chỉ có thể là một trong hai.
+Quý Thần Hi dường như chẳng hề bị dao động bởi thái độ gay gắt của Shade, anh vẫn giữ vẻ bình thản đến lạ kỳ: “Thứ nhất, tôi không nợ nần gì bất kỳ băng cướp biển nào cả. Thứ hai, tôi cũng chẳng phải cậu ấm giàu có gì. Và cuối cùng, tôi thừa nhận là có khá nhiều người đang muốn lấy mạng tôi.”
 
-Các đòn tấn công thiếu kiên nhẫn, hung hăng này không phù hợp với phong cách thực dụng của người chị thứ hai, điều này khiến khả năng thủ phạm là anh trai Ta cao hơn.
+Trên thực tế Quý Thần Hi cũng chẳng có nhiều kẻ thù đến thế. Dạo gần đây kẻ thù thực sự duy nhất mà anh đắc tội chính là Trì Chước. Trừ hắn ta ra thì chỉ còn lại hai đối tượng khác: người anh trai và người chị gái Alpha cùng các thế lực hậu thuẫn đứng sau lưng họ. Anh không rõ bên nào trong hai thế lực đó đã ra tay trong lần này, nhưng về cơ bản chỉ có thể là một trong hai mà thôi.
 
-Trong số ba người thừa kế hoàng gia, Quý Thần Hi là con trai hợp pháp duy nhất, trong khi anh trai Ta là con trưởng. Anh trai Ta chưa bao giờ coi trọng người chị thứ hai. Mặc dù chị ấy là một Alpha, anh ta vẫn cho rằng cơ hội kế thừa ngai vàng của chị ấy là mong manh, nên anh ta tập trung vào Quý Thần Hi. Nhưng anh ta đã không tính đến việc người chị thứ hai của họ có một lực lượng quân sự khổng lồ ủng hộ. Gần đây, chị ấy cũng đã thân thiết với con trai duy nhất của một phe quân sự khác. Tổng cộng có bốn phe phái lớn. Nếu chị ấy dựa vào hai trong số đó, tương lai của ngai vàng vẫn có thể không chắc chắn. Tuy nhiên, anh trai Ta hoàn toàn phớt lờ chị ấy và nhắm vào Quý Thần Hi, người dù sao cũng ít quan tâm đến ngai vàng.
+Những đòn tấn công nóng vội và hung hãn này vốn không phù hợp với tác phong cẩn trọng thực dụng của người chị thứ hai, điều đó khiến khả năng kẻ chủ mưu là anh trai anh cao hơn rất nhiều.
 
-Đến lúc này, có vẻ như phe cánh của người chị thứ hai đang âm thầm hài lòng với diễn biến sự việc — thậm chí có thể còn thúc đẩy mọi thứ một chút.
+Trong số ba người thừa kế ngai vàng của hoàng gia, Quý Thần Hi là người con trai hợp pháp duy nhất, trong khi anh trai anh lại là con trưởng. Anh trai anh trước nay chưa từng xem người chị thứ hai ra gì, dẫu chị ấy là một Alpha nhưng anh ta luôn cho rằng cơ hội kế vị của chị ấy là vô cùng mong manh, thế nên mũi nhọn của anh ta luôn chĩa thẳng vào Quý Thần Hi. Thế nhưng anh ta lại không lường trước được rằng sau lưng người chị thứ hai là cả một lực lượng quân sự khổng lồ chống lưng, dạo gần đây chị ấy còn thân thiết với người con trai duy nhất của một phe phái quân sự khác. Toàn đế quốc tổng cộng có bốn đại quân đoàn lớn, nếu chị ấy nắm chắc trong tay hai phe thì cục diện tranh đoạt vương vị sau này sẽ rất khó đoán định. Ấy vậy mà anh trai anh lại hoàn toàn phớt lờ chị ấy mà dồn toàn lực nhắm vào Quý Thần Hi, người vốn chẳng hề có chút mảy may hứng thú nào với chiếc ngai vàng kia.
 
-Quý Thần Hi nhíu mày. Chuyến du hành giữa các vì sao tưởng chừng suôn sẻ bỗng trở nên khó chịu.
+Đến nước này, xem ra phe cánh của người chị thứ hai hẳn đang âm thầm mừng thầm trước diễn biến sự việc, thậm chí rất có thể còn ngấm ngầm đẩy thuyền thêm một tay.
 
-Trong khi đó, Shade đã gào lên không tin nổi. “Vậy ra cậu biết rõ từ đầu là có rất nhiều người muốn cậu chết sao?”
+Quý Thần Hi khẽ cau mày, chuyến du hành giữa các vì sao tưởng chừng êm đẹp bỗng chốc lại biến thành mớ bòng bong phiền toái.
 
-Quý Thần Hi “hừ” một tiếng thờ ơ.
+Trong khi đó, Shade đã gào lên đầy vẻ không thể tin nổi: “Vậy ra cậu biết tỏng từ đầu là có một đống người muốn lấy mạng cậu rồi sao?!”
 
-Ta di chuyển ra phía sau hai người họ, định trước tiên thăm dò sức mạnh của băng cướp biển muốn Ta chết.
+Quý Thần Hi chỉ hờ hững buông một tiếng "hừ" mũi.
 
-Shade, lúc này, không biết nói gì. ‘Hèn chi có nhiều người muốn cậu ta chết đến vậy... cậu ta bình tĩnh quá.’
+Anh thong thả bước ra phía sau hai người họ, dự định trước tiên sẽ thăm dò thực lực của toán cướp biển đang muốn đoạt mạng mình xem sao.
 
-Quý Thần Hi hỏi Nether: “Chúng ta có thoát được không?”
+Shade lúc này hoàn toàn cạn lời, trong lòng thầm nghĩ: ‘Hèn chi có nhiều kẻ muốn giết cậu ta đến thế… tên này bình tĩnh đến phát bực.’
 
-“Thoát ư? Tôi đã thử nhảy không gian ngay từ đầu rồi,” cô đáp.
+Quý Thần Hi quay sang hỏi Nether: “Chúng ta có thoát ra được không?”
 
-Với nhiều đợt tấn công bao vây như vậy, cách duy nhất để thoát thân là một cú nhảy tức thời.
+“Thoát ư? Tôi đã thử kích hoạt bước nhảy không gian ngay từ đầu rồi,” cô bình tĩnh đáp.
 
-“Nhảy không gian mà không có bộ đệm thì cần tinh thần lực cấp S,” Shade lẩm bẩm.
+Trước vòng vây hỏa lực dày đặc như thế này, cách duy nhất để thoát thân an toàn chính là thực hiện một cú nhảy không gian tức thời.
 
-Cấp độ Alpha được đánh giá dựa trên hai yếu tố: tinh thần lực và thể chất. Thông thường, hai yếu tố này được gộp lại thành một cấp độ duy nhất, vì hầu hết các Alpha đều có sức mạnh và khả năng tinh thần tương đồng. Tất nhiên, cũng có những người có tinh thần mạnh hơn thể chất, hoặc ngược lại.
+“Nhảy không gian trong tình trạng không có bộ đệm hấp thụ thì bắt buộc phải có tinh thần lực cấp S,” Shade lẩm bẩm giải thích.
 
-“Tôi là Alpha cấp A về thể chất, và tinh thần lực cấp A+. Tôi có thể thử nhảy không gian. Xác suất thành công… khoảng ba mươi phần trăm. Tùy cô quyết định có muốn đánh cược không.”
+Cấp bậc của một Alpha được đánh giá dựa trên hai tiêu chí cốt lõi: tinh thần lực và tố chất thể lực. Thông thường hai yếu tố này sẽ được gộp chung lại thành một cấp độ thống nhất vì hầu hết các Alpha đều có thể lực và tinh thần lực tương đương nhau, dĩ nhiên vẫn có những ngoại lệ sở hữu tinh thần lực vượt trội hơn thể chất hoặc ngược lại.
 
-“Tinh thần lực cấp A+ mà không cần bộ đệm thì xác suất nhảy không gian thành công phải khoảng sáu mươi phần trăm. Lý do cô nói ba mươi phần trăm là vì có khả năng cú nhảy sẽ không đưa chúng ta đi xa được.”
+Nether tiếp lời: “Tố chất thể lực của tôi đạt cấp A, còn tinh thần lực đạt cấp A+. Tôi có thể liều mình thử một cú nhảy không gian, xác suất thành công rơi vào khoảng ba mươi phần trăm, tùy cậu quyết định xem có muốn đánh cược mạng sống hay không.”
 
-Ánh mắt của Shade nhìn Quý Thần Hi trở nên sắc bén. Người đàn ông này quả thực không phải một Alpha bình thường.
+Quý Thần Hi thản nhiên phân tích: “Một Alpha có tinh thần lực cấp A+ khi thực hiện cú nhảy không gian không có bộ đệm thì xác suất thành công lẽ ra phải đạt khoảng sáu mươi phần trăm. Lý do cô nói ba mươi phần trăm là vì lo ngại cú nhảy này sẽ không thể đưa chúng ta đi đủ xa để thoát khỏi tầm quét của đối phương đúng không?”
 
-Biểu cảm của Nether không hề thay đổi. Cô tiếp tục điều khiển phi thuyền. Những cú né tránh liên tục gần như khiến con tàu xoay tròn 360°, vậy mà Quý Thần Hi vẫn vững vàng phía sau họ. Đôi mắt xanh lam của hắn lướt nhẹ qua màn hình hiển thị rộng lớn, tư thế không hề lay chuyển.
+Ánh mắt của Shade nhìn Quý Thần Hi lại càng thêm phần kinh ngạc và sắc bén. Người thanh niên trước mặt quả thực không phải là một Alpha bình thường.
 
-“Nếu cô đủ dũng cảm, cô có thể để ta thử. Ta có thể điều khiển phi thuyền,” Quý Thần Hi nói.
+Biểu cảm của Nether vẫn không hề lay chuyển, đôi tay cô tiếp tục thuần thục ghìm chặt cần điều khiển. Những cú bẻ lái né tránh liên tục gần như khiến thân tàu lộn nhào trọn vẹn 360 độ, vậy mà Quý Thần Hi đứng phía sau họ vẫn vững như bàn thạch, đôi mắt xanh thẳm của anh lướt nhanh qua màn hình quang học khổng lồ với tư thế hoàn toàn bất động.
 
-Shade sững sờ. “Cậu… tinh thần lực cấp S?”
+“Nếu cô đủ can đảm thì có thể để tôi thử xem sao, tôi có thể điều khiển được phi thuyền,” Quý Thần Hi chậm rãi mở lời.
 
-Quý Thần Hi gật đầu.
+Shade sững sờ trố mắt nhìn anh: “Cậu… tinh thần lực của cậu đạt cấp S sao?!”
 
-So với sự kinh ngạc của Shade, Nether vẫn giữ vẻ bình tĩnh. Cô nắm bắt được trọng điểm trong lời nói của hắn.
+Quý Thần Hi khẽ gật đầu xác nhận.
 
-“Tại sao lại chỉ khi cô đủ dũng cảm?”
+So với sự sửng sốt tột độ của Shade thì Nether vẫn giữ được vẻ điềm tĩnh đáng nể, cô lập tức nắm bắt được mấu chốt quan trọng nhất trong câu nói của anh:
 
-“Bởi vì ta vừa tròn mười tám tuổi. Ta chưa từng điều khiển phi thuyền thật sự. Tất cả những gì ta từng lái đều là ảo – chỉ là mô phỏng trên mạng mà thôi.”
+“Tại sao lại phải cần đến sự can đảm?”
 
-Shade, người vừa kinh ngạc và muốn lập tức để Quý Thần Hi vào buồng lái, chợt cứng đờ.
+Quý Thần Hi thản nhiên đáp: “Bởi vì tôi năm nay mới vừa tròn mười tám tuổi, trước giờ tôi chưa từng điều khiển một chiếc phi thuyền thật sự nào ngoài đời thực cả. Tất cả những gì tôi từng lái từ trước đến nay đều chỉ là mô phỏng ảo trên mạng lưới tinh thần mà thôi.”
 
-‘Khoan đã… tên này chưa từng điều khiển phi thuyền thật. Chẳng phải hắn sẽ hại chết tất cả chúng ta sao?’
+Shade, người vừa mới vài giây trước còn đang há hốc mồm kinh ngạc và định nhường ngay ghế lái cho Quý Thần Hi, bỗng chốc toàn thân cứng đờ như hóa đá.
+
+‘Khoan đã nào… Tên này chưa từng lái phi thuyền thật ngoài đời bao giờ, để cậu ta cầm lái thì chẳng phải là muốn kéo tất cả chúng ta cùng đi chôn chung hay sao?!’

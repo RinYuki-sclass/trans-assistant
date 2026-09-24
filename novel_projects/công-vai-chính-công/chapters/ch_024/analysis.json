@@ -1,0 +1,60 @@
+{
+  "chapter_summary": "Chương này tập trung vào một nụ hôn nồng nhiệt giữa Quý Thần Hi và Trì Chước. Ban đầu, Trì Chước chủ động, nhưng Quý Thần Hi nhanh chóng giành quyền kiểm soát, hướng dẫn và thậm chí chê bai kỹ năng hôn của Trì Chước. Quý Thần Hi tiết lộ sự khó chịu của mình về việc Trì Chước đã ra lệnh cho anh 'ngoan ngoãn' trước đó. Mặc dù Trì Chước cố gắng thấu hiểu cảm xúc của Quý Thần Hi, nhưng Quý Thần Hi vẫn giữ thái độ mơ hồ và trêu chọc. Đỉnh điểm của cảnh này là Quý Thần Hi bất ngờ cắn và đánh dấu Trì Chước vào yết hầu, giải phóng lượng lớn pheromone hương hoa hồng khiến Trì Chước choáng váng và bị 'tiểu Alpha' này đánh dấu một lần nữa. Quý Thần Hi kết thúc bằng một câu nói lấp lửng, ám chỉ hành động của mình là một 'món quà nhỏ' hoặc 'trò đùa nhỏ'.",
+  "new_characters": [],
+  "new_locations": [],
+  "new_terms": [
+    {
+      "original": "Adam's apple",
+      "suggested": "Yết hầu",
+      "hanviet": "Yết hầu",
+      "category": "other",
+      "confidence": 0.7
+    },
+    {
+      "original": "marking teeth",
+      "suggested": "Răng đánh dấu",
+      "hanviet": null,
+      "category": "other",
+      "confidence": 0.6
+    },
+    {
+      "original": "little alpha",
+      "suggested": "Tiểu Alpha",
+      "hanviet": null,
+      "category": "other",
+      "confidence": 0.6
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Chi Zhuo xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 1: Chi Zhuo xưng hô thế nào với Ji Chenxi (Chi Zhuo tự xưng là gì và gọi Ji Chenxi là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Anh",
+        "xưng Thần - gọi Điện hạ",
+        "xưng Tôi - gọi Cậu"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_002",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Ta - gọi Chi Zhuo là Cậu",
+      "confidence": 0.3,
+      "question": "Chiều 2: Ji Chenxi xưng hô thế nào với Chi Zhuo (Ji Chenxi tự xưng là gì và gọi Chi Zhuo là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Ta - gọi Cậu",
+        "xưng Ta - gọi Ngươi",
+        "xưng Tôi - gọi Chi tổng"
+      ],
+      "category": "relationship"
+    }
+  ],
+  "chapter_id": "ch_024",
+  "analyzed_at": "2026-09-24T22:27:32.808344+07:00"
+}
