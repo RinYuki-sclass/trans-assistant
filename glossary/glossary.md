@@ -335,6 +335,22 @@ Kẻ trị thuỷ]
 - [Chap 338] 애견카페 | dog cafe -> quán cà phê chó (Địa điểm) - Nơi Choi Suryeon làm việc bán thời gian
 - [Chap 347] 올림픽 대로 | Olympic Boulevard -> Đại lộ Olympic (Địa điểm)
 - [Chap 354] 이완용 | Lee Wanyong -> Lee Wanyong (Tên nhân vật) - Cựu Trưởng phòng Nhân sự Hiệp hội phản quốc
+- [Chap 356] 단운비 | Duan Yunfei -> Đoạn Vân Phi (Tên nhân vật) - Nữ Thức tỉnh giả ngoài 30 tuổi, Võ Lâm Minh Chủ
+- [Chap 356] 무림맹 맹주 | Wulin Alliance Leader -> Võ Lâm Minh Chủ (Thuật ngữ) - Thủ lĩnh Võ Lâm Minh
+- [Chap 356] 창파오 | Changpao -> Trường bào (Thuật ngữ) - Trang phục truyền thống Trung Hoa
+- [Chap 356] 장삼 | Changshan -> Trường sam (Thuật ngữ) - Áo dài truyền thống nam giới Trung Hoa
+- [Chap 356] 도포 | Daopao -> Đạo bào (Thuật ngữ) - Áo choàng đạo sĩ truyền thống
+- [Chap 356] 중국 군부 | Chinese military -> Quân đội Trung Quốc (Thuật ngữ) - Lực lượng quân sự chính quy Trung Quốc
+- [Chap 356] 대학수학능력시험 | CSAT -> CSAT (Thuật ngữ) - Kỳ thi tốt nghiệp / Đánh giá năng lực vào đại học của Hàn Quốc
+- [Chap 356] 자택 연금 | house arrest -> Quản thúc tại gia (Thuật ngữ) - Cấm túc tại nhà
+- [Chap 356] 세성 병원 | Seseong Hospital -> Bệnh viện Sesung (Địa điểm) - Bệnh viện thuộc sở hữu của Hội Sesung
+- [Chap 356] 무소속 각성자 무리 | Unaffiliated Awakener group -> Nhóm Thức tỉnh giả tự do (Thuật ngữ) - Thức tỉnh giả vô môn phái tại Trung Quốc
+- [Chap 356] 동방불패 | The Legend of the Swordsman -> Đông Phương Bất Bại (Thuật ngữ) - Tác phẩm phim điện ảnh kiếm hiệp
+- [Chap 356] 소오강호 | The Swordsman -> Tiếu Ngạo Giang Hồ (Thuật ngữ) - Tác phẩm điện ảnh / tiểu thuyết kiếm hiệp Kim Dung
+- [Chap 356] 사조영웅전 | The Legend of the Condor Heroes -> Anh Hùng Xạ Điêu (Thuật ngữ) - Phim truyền hình / tiểu thuyết kiếm hiệp Kim Dung
+- [Chap 356] 의천도룡기 | The Heaven Sword and Dragon Saber -> Ỷ Thiên Đồ Long Ký (Thuật ngữ) - Phim truyền hình / tiểu thuyết kiếm hiệp Kim Dung
+- [Chap 356] 무간도 | Infernal Affairs -> Vô Gian Đạo (Thuật ngữ) - Phim điện ảnh hình cảnh mafia Hồng Kông
+- [Chap 356] 새끼 양 | Lamb -> Cừu non / Hắc Dương non (Songie) (Tên ma thú) - Hoả Sơn Hắc Dương non, ma thú theo chân Song Taewon
 - 한신 길드 | Hanshin Guild -> Hội Hanshin (Địa điểm)
 - 세성 길드 | Seseong Guild -> Hội Sesung (Địa điểm)
 - 브레이커 길드 | Breaker Guild -> Hội Breaker (Địa điểm)
