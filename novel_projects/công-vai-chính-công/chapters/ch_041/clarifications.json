@@ -1,0 +1,204 @@
+{
+  "chapter_id": "ch_041",
+  "questions": [
+    {
+      "id": "amb_001",
+      "original": "Ji Chenxi",
+      "suggested": "Quý Thần Hi",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Ji Chenxi?",
+      "options": [
+        "Quý Thần Hi",
+        "Kỷ Thần Hi",
+        "Quý Thần Hỷ"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_002",
+      "original": "Ji Chenxi (ngôi thứ 3)",
+      "suggested": "anh",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Ji Chenxi (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "anh",
+        "cậu",
+        "hắn",
+        "y"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_003",
+      "original": "Manye Zhe → Ji Chenxi",
+      "suggested": "Mạn Dạ Triết xưng Tôi - gọi Quý Thần Hi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 1: Mạn Dạ Triết xưng hô thế nào với Quý Thần Hi (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Ta - gọi Cậu"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_004",
+      "original": "Ji Chenxi → Manye Zhe",
+      "suggested": "Quý Thần Hi xưng Tôi - gọi Mạn Dạ Triết là Cậu",
+      "confidence": 0.3,
+      "question": "Chiều 2: Quý Thần Hi xưng hô thế nào với Mạn Dạ Triết (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Cậu",
+        "xưng Tôi - gọi Anh",
+        "xưng Ta - gọi Ngươi"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_005",
+      "original": "Lu Churan",
+      "suggested": "Lục Sở Nhiên",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Lu Churan?",
+      "options": [
+        "Lục Sở Nhiên",
+        "Lục Sở Nhiễm",
+        "Lục Sở Nhiên"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_006",
+      "original": "Lu Churan (ngôi thứ 3)",
+      "suggested": "cô",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Lu Churan (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "cô",
+        "nàng",
+        "y",
+        "ả"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_007",
+      "original": "Lu Churan → Ji Chenxi",
+      "suggested": "Lục Sở Nhiên xưng Tôi - gọi Quý Thần Hi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 1: Lục Sở Nhiên xưng hô thế nào với Quý Thần Hi (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Em - gọi Anh"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_008",
+      "original": "Ji Chenxi → Lu Churan",
+      "suggested": "Quý Thần Hi xưng Tôi - gọi Lục Sở Nhiên là Cô",
+      "confidence": 0.3,
+      "question": "Chiều 2: Quý Thần Hi xưng hô thế nào với Lục Sở Nhiên (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Cô",
+        "xưng Anh - gọi Em",
+        "xưng Tôi - gọi Tiểu thư"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_009",
+      "original": "Morning Star",
+      "suggested": "Sáng Tinh",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho Morning Star?",
+      "options": [
+        "Sáng Tinh",
+        "Minh Tinh",
+        "Tinh Minh"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_010",
+      "original": "Morning Star (ngôi thứ 3)",
+      "suggested": "hắn",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Morning Star (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "hắn",
+        "y",
+        "người đó"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_011",
+      "original": "Morning Star → Ji Chenxi",
+      "suggested": "Sáng Tinh xưng Tôi - gọi Quý Thần Hi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 1: Sáng Tinh xưng hô thế nào với Quý Thần Hi (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Ta - gọi Cậu"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_012",
+      "original": "Ji Chenxi → Morning Star",
+      "suggested": "Quý Thần Hi xưng Tôi - gọi Sáng Tinh là Cậu",
+      "confidence": 0.3,
+      "question": "Chiều 2: Quý Thần Hi xưng hô thế nào với Sáng Tinh (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Cậu",
+        "xưng Tôi - gọi Ngươi",
+        "xưng Ta - gọi Hắn"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_013",
+      "original": "Manye Zhe → Lu Churan",
+      "suggested": "Mạn Dạ Triết xưng Tôi - gọi Lục Sở Nhiên là Cô",
+      "confidence": 0.3,
+      "question": "Chiều 1: Mạn Dạ Triết xưng hô thế nào với Lục Sở Nhiên (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Cô",
+        "xưng Anh - gọi Em",
+        "xưng Ta - gọi Ngươi"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_014",
+      "original": "Lu Churan → Manye Zhe",
+      "suggested": "Lục Sở Nhiên xưng Tôi - gọi Mạn Dạ Triết là Cậu",
+      "confidence": 0.3,
+      "question": "Chiều 2: Lục Sở Nhiên xưng hô thế nào với Mạn Dạ Triết (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Cậu",
+        "xưng Tôi - gọi Anh",
+        "xưng Em - gọi Anh"
+      ],
+      "category": "relationship"
+    }
+  ],
+  "answers": {
+    "amb_001": {
+      "choice": "Quý Thần Hi",
+      "custom": null,
+      "auto_propagated": true,
+      "propagated_from": "Chapter ch_044"
+    },
+    "amb_002": {
+      "choice": "Quý Thần Hi",
+      "custom": null,
+      "auto_propagated": true,
+      "propagated_from": "Chapter ch_044"
+    }
+  },
+  "updated_at": "2026-09-25T11:48:20.074681+07:00"
+}

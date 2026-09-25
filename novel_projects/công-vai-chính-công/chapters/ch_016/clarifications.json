@@ -1,0 +1,287 @@
+{
+  "chapter_id": "ch_016",
+  "questions": [
+    {
+      "id": "amb_001",
+      "original": "Zuo Xian",
+      "suggested": "Tả Hiền",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Zuo Xian?",
+      "options": [
+        "Tả Hiền",
+        "Tả Tiên",
+        "Tả Hiển"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_002",
+      "original": "Zuo Xian (ngôi thứ 3)",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Zuo Xian (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "hắn",
+        "y",
+        "gã",
+        "tên đó"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_003",
+      "original": "Ge",
+      "suggested": "Ca",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Ge?",
+      "options": [
+        "Ca",
+        "Cát",
+        "Cơ",
+        "Ghe"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_004",
+      "original": "Ge (ngôi thứ 3)",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Ge (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "hắn",
+        "y",
+        "cậu ta",
+        "gã",
+        "chàng"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_005",
+      "original": "Scorpion",
+      "suggested": "Bò Cạp",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Scorpion?",
+      "options": [
+        "Bò Cạp",
+        "Thiên Yết",
+        "Đội trưởng Bò Cạp"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_006",
+      "original": "Scorpion (ngôi thứ 3)",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Scorpion (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "hắn",
+        "y",
+        "ông ta",
+        "gã",
+        "lão"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_007",
+      "original": "Amis",
+      "suggested": "A Mễ Tư",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Amis?",
+      "options": [
+        "A Mễ Tư",
+        "A Mít",
+        "Amis"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_008",
+      "original": "Amis (ngôi thứ 3)",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Amis (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "hắn",
+        "y",
+        "tên đó",
+        "gã"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_009",
+      "original": "Ge → Scorpion",
+      "suggested": "Ge xưng Tôi - gọi Scorpion là Đội trưởng",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ge xưng hô thế nào với Scorpion (Ge tự xưng là gì và gọi Scorpion là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Đội trưởng",
+        "xưng Tôi - gọi Ngài",
+        "xưng Tôi - gọi Sếp"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_010",
+      "original": "Scorpion → Ge",
+      "suggested": "Scorpion xưng Ta - gọi Ge là Phó đội trưởng",
+      "confidence": 0.3,
+      "question": "Chiều 2: Scorpion xưng hô thế nào với Ge (Scorpion tự xưng là gì và gọi Ge là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Ta - gọi Phó đội trưởng Ge",
+        "xưng Ta - gọi Cậu",
+        "xưng Tôi - gọi Ge"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_011",
+      "original": "Quý Thần Hi → Trì Chước",
+      "suggested": "Quý Thần Hi xưng Tôi - gọi Trì Chước là Anh / Trì Chước ca ca",
+      "confidence": 0.3,
+      "question": "Chiều 1: Quý Thần Hi xưng hô thế nào với Trì Chước (Quý Thần Hi tự xưng là gì và gọi Trì Chước là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Trì Chước ca ca",
+        "xưng Em - gọi Anh",
+        "xưng Tôi - gọi Cậu"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_012",
+      "original": "Trì Chước → Quý Thần Hi",
+      "suggested": "Trì Chước xưng Tôi - gọi Quý Thần Hi là Điện hạ / Tam hoàng tử",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Quý Thần Hi (Trì Chước tự xưng là gì và gọi Quý Thần Hi là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam hoàng tử",
+        "xưng Tôi - gọi Cậu",
+        "xưng Tôi - gọi Quý Thần Hi"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_013",
+      "original": "Mamba",
+      "suggested": "Quý Thần Hi (công)",
+      "confidence": 0.3,
+      "question": "Xác nhận nhân vật được gọi là 'Mamba' là ai (Quý Thần Hi hay Trì Chước)?",
+      "options": [
+        "Quý Thần Hi",
+        "Trì Chước"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_014",
+      "original": "Little kitten",
+      "suggested": "Trì Chước (thụ)",
+      "confidence": 0.3,
+      "question": "Xác nhận nhân vật được gọi là 'little kitten' là ai (Quý Thần Hi hay Trì Chước)?",
+      "options": [
+        "Trì Chước",
+        "Quý Thần Hi"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_021",
+      "original": "Third Prince",
+      "suggested": "Tam hoàng tử",
+      "confidence": 0.3,
+      "question": "Xác nhận cách dịch danh xưng 'Third Prince' cho Quý Thần Hi?",
+      "options": [
+        "Tam hoàng tử",
+        "Tam thiếu gia",
+        "Điện hạ thứ ba"
+      ],
+      "category": "honorific"
+    }
+  ],
+  "answers": {
+    "amb_001": {
+      "choice": "hắn",
+      "custom": null,
+      "auto_propagated": true,
+      "propagated_from": "Chapter ch_016"
+    },
+    "amb_002": {
+      "choice": "hắn",
+      "custom": null,
+      "auto_propagated": true,
+      "propagated_from": "Chapter ch_016"
+    },
+    "amb_005": {
+      "choice": "hắn",
+      "custom": null,
+      "auto_propagated": true,
+      "propagated_from": "Chapter ch_020"
+    },
+    "amb_007": {
+      "choice": "hắn",
+      "custom": null,
+      "auto_propagated": true,
+      "propagated_from": "Chapter ch_016"
+    },
+    "amb_008": {
+      "choice": "hắn",
+      "custom": null,
+      "auto_propagated": true,
+      "propagated_from": "Chapter ch_016"
+    },
+    "amb_011": {
+      "choice": "Tôi - Anh",
+      "custom": null,
+      "auto_propagated": true,
+      "propagated_from": "Chapter ch_023"
+    },
+    "amb_012": {
+      "choice": "Tôi - Anh",
+      "custom": null,
+      "auto_propagated": true,
+      "propagated_from": "Chapter ch_023"
+    },
+    "amb_021": {
+      "choice": "Tam hoàng tử",
+      "custom": null,
+      "auto_propagated": true,
+      "propagated_from": "Chapter ch_016"
+    },
+    "amb_003": {
+      "choice": "Cơ",
+      "custom": null
+    },
+    "amb_004": {
+      "choice": "Custom",
+      "custom": "Ca ca"
+    },
+    "amb_006": {
+      "choice": "hắn",
+      "custom": null
+    },
+    "amb_009": {
+      "choice": "xưng Tôi - gọi Ngài",
+      "custom": null
+    },
+    "amb_010": {
+      "choice": "xưng Ta - gọi Phó đội trưởng Ge",
+      "custom": null
+    },
+    "amb_013": {
+      "choice": "Trì Chước",
+      "custom": null
+    },
+    "amb_014": {
+      "choice": "Quý Thần Hi",
+      "custom": null
+    }
+  },
+  "answered_at": "2026-09-25T11:42:38.623158+07:00",
+  "updated_at": "2026-09-25T11:48:19.323716+07:00"
+}

@@ -14,13 +14,34 @@
         "Quý Thần Hi (xưng Cậu/Em) - Trì Chước (xưng Tôi/Anh) (khi Quý Thần Hi giả omega, Trì Chước lịch sự); Ngôi thứ ba: Hắn/Y."
       ],
       "category": "pronoun"
+    },
+    {
+      "id": "amb_001",
+      "original": "Bai Anran",
+      "suggested": "Bạch An Nhiên",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Bai Anran?",
+      "options": [
+        "Bạch An Nhiên",
+        "Bạch An Nhiễm",
+        "Bạch An Nhàn",
+        "Bai Anran"
+      ],
+      "category": "name"
     }
   ],
   "answers": {
     "amb_002": {
       "choice": "Custom",
       "custom": " Quý Thần Hi (xưng Ta) - Trì Chước (xưng Ngài) (ban đầu lịch sự, sau đó chuyển sang đối đầu thì xưng Ta - Ngươi); Ngôi thứ ba: Hắn/Y."
+    },
+    "amb_001": {
+      "choice": "Bạch An Nhiên",
+      "custom": null,
+      "auto_propagated": true,
+      "propagated_from": "Chapter ch_004"
     }
   },
-  "answered_at": "2026-09-24T16:32:57.796833+07:00"
+  "answered_at": "2026-09-24T16:32:57.796833+07:00",
+  "updated_at": "2026-09-25T11:48:19.257715+07:00"
 }

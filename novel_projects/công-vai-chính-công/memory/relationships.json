@@ -34,5 +34,101 @@
     "from": "",
     "to": "",
     "address": "Trì Chước: 'ta' / Shadow: 'thuộc hạ' (xưng hô với chủ)"
+  },
+  {
+    "pair": "Người đàn ông mũi khoằm → Thành",
+    "from": "Người đàn ông mũi khoằm",
+    "to": "Thành",
+    "address": "xưng Tôi - gọi Anh"
+  },
+  {
+    "pair": "Thành → Người đàn ông mũi khoằm",
+    "from": "Thành",
+    "to": "Người đàn ông mũi khoằm",
+    "address": "xưng Tôi - gọi Cậu"
+  },
+  {
+    "pair": "Amis → Zuo Xian",
+    "from": "Amis",
+    "to": "Zuo Xian",
+    "address": "xưng Tôi - gọi Phó đội trưởng"
+  },
+  {
+    "pair": "Zuo Xian → Amis",
+    "from": "Zuo Xian",
+    "to": "Amis",
+    "address": "xưng Ta - gọi Cậu"
+  },
+  {
+    "pair": "Người đàn ông mũi khoằm → Zuo Xian",
+    "from": "Người đàn ông mũi khoằm",
+    "to": "Zuo Xian",
+    "address": "xưng Tôi - gọi Phó đội trưởng"
+  },
+  {
+    "pair": "Zuo Xian → Người đàn ông mũi khoằm",
+    "from": "Zuo Xian",
+    "to": "Người đàn ông mũi khoằm",
+    "address": "xưng Ta - gọi Ngươi"
+  },
+  {
+    "pair": "Ge → Scorpion",
+    "from": "Ge",
+    "to": "Scorpion",
+    "address": "xưng Tôi - gọi Ngài"
+  },
+  {
+    "pair": "Scorpion → Ge",
+    "from": "Scorpion",
+    "to": "Ge",
+    "address": "xưng Ta - gọi Phó đội trưởng Ge"
+  },
+  {
+    "pair": "Quý Thần Hi → Trì Chước",
+    "from": "Quý Thần Hi",
+    "to": "Trì Chước",
+    "address": "Tôi - Anh"
+  },
+  {
+    "pair": "Trì Chước → Quý Thần Hi",
+    "from": "Trì Chước",
+    "to": "Quý Thần Hi",
+    "address": "Tôi - Anh"
+  },
+  {
+    "pair": "Woman → Little Rose (Quý Thần Hi lúc nhỏ)",
+    "from": "Woman",
+    "to": "Little Rose (Quý Thần Hi lúc nhỏ)",
+    "address": "xưng Ta - gọi Con"
+  },
+  {
+    "pair": "Little Rose (Quý Thần Hi lúc nhỏ) → Woman",
+    "from": "Little Rose (Quý Thần Hi lúc nhỏ)",
+    "to": "Woman",
+    "address": "xưng Con - gọi Người"
+  },
+  {
+    "pair": "Deputy Ge → Scorpion",
+    "from": "Deputy Ge",
+    "to": "Scorpion",
+    "address": "xưng Tôi - gọi Đội trưởng"
+  },
+  {
+    "pair": "Scorpion → Deputy Ge",
+    "from": "Scorpion",
+    "to": "Deputy Ge",
+    "address": "xưng Ta - gọi Ngươi"
+  },
+  {
+    "pair": "Deputy Ge → Người đồng hành của Phó Qua",
+    "from": "Deputy Ge",
+    "to": "Người đồng hành của Phó Qua",
+    "address": "xưng Tôi - gọi Anh"
+  },
+  {
+    "pair": "Người đồng hành của Phó Qua → Deputy Ge",
+    "from": "Người đồng hành của Phó Qua",
+    "to": "Deputy Ge",
+    "address": "xưng Tôi - gọi Ngài"
   }
 ]

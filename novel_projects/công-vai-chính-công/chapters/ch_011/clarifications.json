@@ -1,0 +1,332 @@
+{
+  "chapter_id": "ch_011",
+  "questions": [
+    {
+      "id": "amb_001",
+      "original": "Amis",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Amis?",
+      "options": [
+        "A Mễ Tư",
+        "A Mít",
+        "Amis (giữ nguyên)",
+        "A Mễ"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_002",
+      "original": "Amis (ngôi thứ 3)",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Amis (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "cô",
+        "nàng",
+        "y",
+        "ả"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_003",
+      "original": "Scorpion",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Scorpion?",
+      "options": [
+        "Bò Cạp",
+        "Thiên Yết",
+        "Scorpion (giữ nguyên)",
+        "Hạt"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_004",
+      "original": "Scorpion (ngôi thứ 3)",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Scorpion (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "hắn",
+        "y",
+        "gã",
+        "ông ta"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_005",
+      "original": "Zuo Xian",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Zuo Xian?",
+      "options": [
+        "Tả Hiền",
+        "Tả Tiên",
+        "Tả Hiển",
+        "Tả Hàm"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_006",
+      "original": "Zuo Xian (ngôi thứ 3)",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Zuo Xian (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "hắn",
+        "y",
+        "anh",
+        "cậu"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_007",
+      "original": "Shadow",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Shadow?",
+      "options": [
+        "Ảnh",
+        "Bóng",
+        "Shadow (giữ nguyên)",
+        "Ám"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_008",
+      "original": "Shadow (ngôi thứ 3)",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Shadow (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "hắn",
+        "y",
+        "anh",
+        "cậu"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_009",
+      "original": "Bai Han",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Bai Han? (Lưu ý: Có nhân vật Bạch An Nhiên và Bạch Tân Khả đã biết. Đây là nhân vật mới hay tên gọi khác?)",
+      "options": [
+        "Bạch Hàn",
+        "Bạch Hãn",
+        "Bạch Hán",
+        "Bai Han (giữ nguyên)"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_010",
+      "original": "Bai Han (ngôi thứ 3)",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Bai Han (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "cô",
+        "nàng",
+        "y",
+        "chị"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_011",
+      "original": "Scorpion → Zuo Xian",
+      "suggested": "Scorpion xưng Ta - gọi Zuo Xian là Ngươi/Ngươi",
+      "confidence": 0.3,
+      "question": "Chiều 1: Scorpion xưng hô thế nào với Zuo Xian (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Ta - gọi Ngươi",
+        "xưng Ta - gọi Zuo Xian",
+        "xưng Ta - gọi Phó quan",
+        "xưng Tôi - gọi Anh"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_012",
+      "original": "Zuo Xian → Scorpion",
+      "suggested": "Zuo Xian xưng Tôi - gọi Scorpion là Đại nhân/Thủ lĩnh",
+      "confidence": 0.3,
+      "question": "Chiều 2: Zuo Xian xưng hô thế nào với Scorpion (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Đại nhân",
+        "xưng Tôi - gọi Thủ lĩnh",
+        "xưng Thần - gọi Điện hạ",
+        "xưng Tôi - gọi Ngài"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_013",
+      "original": "Quý Thần Hi → Báo tuyết (thú tinh thần)",
+      "suggested": "Quý Thần Hi xưng Ta - gọi Báo tuyết là Ngươi/Mày",
+      "confidence": 0.3,
+      "question": "Chiều 1: Quý Thần Hi xưng hô thế nào với Báo tuyết (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Ta - gọi Ngươi",
+        "xưng Ta - gọi Mày",
+        "xưng Tôi - gọi Con",
+        "xưng Chủ nhân - gọi Ngươi"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_014",
+      "original": "Báo tuyết (thú tinh thần) → Quý Thần Hi",
+      "suggested": "Báo tuyết (giao tiếp phi ngôn ngữ) xưng Tôi - gọi Quý Thần Hi là Chủ nhân",
+      "confidence": 0.3,
+      "question": "Chiều 2: Báo tuyết giao tiếp (phi ngôn ngữ) xưng hô thế nào với Quý Thần Hi (B tự xưng là gì và gọi A là gì)?",
+      "options": [
+        "xưng Tôi - gọi Chủ nhân",
+        "xưng Ta - gọi Ngươi",
+        "xưng Em - gọi Anh",
+        "giao tiếp phi ngôn ngữ (không xưng hô rõ ràng)"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_015",
+      "original": "Bai Han → Quý Thần Hi",
+      "suggested": "Bai Han xưng Tôi - gọi Quý Thần Hi là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Bai Han xưng hô thế nào với Quý Thần Hi (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Em - gọi Anh",
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Cậu"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_016",
+      "original": "Quý Thần Hi → Bai Han",
+      "suggested": "Quý Thần Hi xưng Ta - gọi Bai Han là Cô",
+      "confidence": 0.3,
+      "question": "Chiều 2: Quý Thần Hi xưng hô thế nào với Bai Han (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Ta - gọi Cô",
+        "xưng Tôi - gọi Cô",
+        "xưng Anh - gọi Em",
+        "xưng Tôi - gọi Bai Han"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_017",
+      "original": "Bai Han → Shadow",
+      "suggested": "Bai Han xưng Tôi - gọi Shadow là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Bai Han xưng hô thế nào với Shadow (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Em - gọi Anh",
+        "xưng Tôi - gọi Cậu",
+        "xưng Tôi - gọi Shadow"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_018",
+      "original": "Shadow → Bai Han",
+      "suggested": "Shadow xưng Tôi - gọi Bai Han là Cô",
+      "confidence": 0.3,
+      "question": "Chiều 2: Shadow xưng hô thế nào với Bai Han (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Cô",
+        "xưng Anh - gọi Em",
+        "xưng Tôi - gọi Bai Han",
+        "xưng Cậu - gọi Cô"
+      ],
+      "category": "relationship"
+    }
+  ],
+  "answers": {
+    "amb_001": {
+      "choice": "hắn",
+      "custom": null,
+      "auto_propagated": true,
+      "propagated_from": "Chapter ch_016"
+    },
+    "amb_002": {
+      "choice": "hắn",
+      "custom": null,
+      "auto_propagated": true,
+      "propagated_from": "Chapter ch_016"
+    },
+    "amb_003": {
+      "choice": "hắn",
+      "custom": null,
+      "auto_propagated": true,
+      "propagated_from": "Chapter ch_020"
+    },
+    "amb_004": {
+      "choice": "hắn",
+      "custom": null,
+      "auto_propagated": true,
+      "propagated_from": "Chapter ch_020"
+    },
+    "amb_005": {
+      "choice": "hắn",
+      "custom": null,
+      "auto_propagated": true,
+      "propagated_from": "Chapter ch_016"
+    },
+    "amb_006": {
+      "choice": "hắn",
+      "custom": null,
+      "auto_propagated": true,
+      "propagated_from": "Chapter ch_016"
+    },
+    "amb_007": {
+      "choice": "Shadow (giữ nguyên)",
+      "custom": null,
+      "auto_propagated": true,
+      "propagated_from": "Chapter ch_011"
+    },
+    "amb_008": {
+      "choice": "Shadow (giữ nguyên)",
+      "custom": null,
+      "auto_propagated": true,
+      "propagated_from": "Chapter ch_011"
+    },
+    "amb_009": {
+      "choice": "Bạch Hàn",
+      "custom": null,
+      "auto_propagated": true,
+      "propagated_from": "Chapter ch_031"
+    },
+    "amb_010": {
+      "choice": "Bạch Hàn",
+      "custom": null,
+      "auto_propagated": true,
+      "propagated_from": "Chapter ch_030"
+    },
+    "amb_011": {
+      "choice": "xưng Tôi - gọi Phó đội trưởng",
+      "custom": null,
+      "auto_propagated": true,
+      "propagated_from": "Chapter ch_011"
+    },
+    "amb_012": {
+      "choice": "xưng Ta - gọi Cậu",
+      "custom": null,
+      "auto_propagated": true,
+      "propagated_from": "Chapter ch_011"
+    }
+  },
+  "updated_at": "2026-09-25T11:48:19.300718+07:00"
+}

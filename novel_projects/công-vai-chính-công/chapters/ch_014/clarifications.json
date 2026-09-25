@@ -1,0 +1,48 @@
+{
+  "chapter_id": "ch_014",
+  "questions": [
+    {
+      "id": "amb_001",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Chi Zhuo xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 1: Chi Zhuo xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam hoàng tử",
+        "xưng Tôi - gọi Quý thiếu",
+        "xưng Tôi - gọi Cậu"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_002",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Chi Zhuo là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 2: Ji Chenxi xưng hô thế nào với Chi Zhuo (A tự xưng là gì và gọi B là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Trì ca",
+        "xưng Ta - gọi Trì Chước",
+        "xưng Tôi - gọi Cậu"
+      ],
+      "category": "relationship"
+    }
+  ],
+  "answers": {
+    "amb_001": {
+      "choice": "Tôi - Anh",
+      "custom": null,
+      "auto_propagated": true,
+      "propagated_from": "Chapter ch_044"
+    },
+    "amb_002": {
+      "choice": "Tôi - Anh",
+      "custom": null,
+      "auto_propagated": true,
+      "propagated_from": "Chapter ch_044"
+    }
+  },
+  "updated_at": "2026-09-25T11:48:19.312717+07:00"
+}

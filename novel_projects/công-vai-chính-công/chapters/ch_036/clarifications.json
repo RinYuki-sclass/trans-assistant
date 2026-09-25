@@ -1,0 +1,942 @@
+{
+  "chapter_id": "ch_036",
+  "questions": [
+    {
+      "id": "amb_001",
+      "original": "Manye Zhe",
+      "suggested": "Mạn Dạ Triết",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Manye Zhe?",
+      "options": [
+        "Mạn Dạ Triết",
+        "Mạn Dã Triết",
+        "Mạn Dạ",
+        "Dạ Triết"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_002",
+      "original": "Manye Zhe (ngôi thứ 3)",
+      "suggested": "anh ta",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Manye Zhe (hắn, y, anh, cậu, gã, chàng)?",
+      "options": [
+        "anh ta",
+        "cậu ta",
+        "hắn",
+        "y",
+        "chàng"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_003",
+      "original": "Bai Wei",
+      "suggested": "Bạch Vi",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Bai Wei?",
+      "options": [
+        "Bạch Vi",
+        "Bạch Vĩ",
+        "Bạch Vệ"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_004",
+      "original": "Bai Wei (ngôi thứ 3)",
+      "suggested": "anh ta",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Bai Wei (hắn, y, anh, cậu, gã, chàng)?",
+      "options": [
+        "anh ta",
+        "cậu ta",
+        "hắn",
+        "y",
+        "chàng"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_005",
+      "original": "Que Qi",
+      "suggested": "Khước Kỳ",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Que Qi?",
+      "options": [
+        "Khước Kỳ",
+        "Khước Khê",
+        "Kỳ Khước"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_006",
+      "original": "Que Qi (ngôi thứ 3)",
+      "suggested": "anh ta",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Que Qi (hắn, y, anh, cậu, gã, chàng)?",
+      "options": [
+        "anh ta",
+        "cậu ta",
+        "hắn",
+        "y",
+        "chàng"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_007",
+      "original": "Lu Churan",
+      "suggested": "Lục Sở Nhiên",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Lu Churan?",
+      "options": [
+        "Lục Sở Nhiên",
+        "Lục Sở Nhi",
+        "Lục Sở Nhiên Nữ"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_008",
+      "original": "Lu Churan (ngôi thứ 3)",
+      "suggested": "cô ta",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Lu Churan (hắn, y, anh, cô, nàng, ả)?",
+      "options": [
+        "cô ta",
+        "nàng",
+        "cô ấy",
+        "ả"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_009",
+      "original": "Crow",
+      "suggested": "Crow (giữ nguyên)",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Crow?",
+      "options": [
+        "Crow",
+        "Quạ",
+        "Kêu"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_010",
+      "original": "Crow (ngôi thứ 3)",
+      "suggested": "anh ta",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Crow (hắn, y, anh, cậu, gã, chàng)?",
+      "options": [
+        "anh ta",
+        "cậu ta",
+        "hắn",
+        "y",
+        "chàng"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_011",
+      "original": "Gu Hechuan",
+      "suggested": "Cố Hà Xuyên",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Gu Hechuan?",
+      "options": [
+        "Cố Hà Xuyên",
+        "Cố Hà Xuyên",
+        "Cố Hà Xuyên"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_012",
+      "original": "Gu Hechuan (ngôi thứ 3)",
+      "suggested": "anh ta",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Gu Hechuan (hắn, y, anh, cậu, gã, chàng)?",
+      "options": [
+        "anh ta",
+        "cậu ta",
+        "hắn",
+        "y",
+        "chàng"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_013",
+      "original": "Wild Fool",
+      "suggested": "Wild Fool (giữ nguyên)",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Wild Fool?",
+      "options": [
+        "Wild Fool",
+        "Kẻ Điên Hoang Dại",
+        "Kẻ Khờ Dại"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_014",
+      "original": "Wild Fool (ngôi thứ 3)",
+      "suggested": "anh ta",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Wild Fool (hắn, y, anh, cậu, gã, chàng)?",
+      "options": [
+        "anh ta",
+        "cậu ta",
+        "hắn",
+        "y",
+        "chàng"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_015",
+      "original": "Traveler",
+      "suggested": "Traveler (giữ nguyên)",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Traveler?",
+      "options": [
+        "Traveler",
+        "Kẻ Lữ Hành",
+        "Du Khách"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_016",
+      "original": "Traveler (ngôi thứ 3)",
+      "suggested": "anh ta",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Traveler (hắn, y, anh, cậu, gã, chàng)?",
+      "options": [
+        "anh ta",
+        "cậu ta",
+        "hắn",
+        "y",
+        "chàng"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_017",
+      "original": "Manye Zhe → Que Qi",
+      "suggested": "Manye Zhe xưng Tôi - gọi Que Qi là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Manye Zhe xưng hô thế nào với Que Qi (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Ta - gọi Ngươi",
+        "xưng Anh - gọi Em"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_018",
+      "original": "Que Qi → Manye Zhe",
+      "suggested": "Que Qi xưng Tôi - gọi Manye Zhe là Cậu",
+      "confidence": 0.3,
+      "question": "Chiều 2: Que Qi xưng hô thế nào với Manye Zhe (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Cậu",
+        "xưng Anh - gọi Em",
+        "xưng Ta - gọi Ngươi"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_019",
+      "original": "Que Qi → Bai Wei",
+      "suggested": "Que Qi xưng Tôi - gọi Bai Wei là Cậu",
+      "confidence": 0.3,
+      "question": "Chiều 1: Que Qi xưng hô thế nào với Bai Wei (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Cậu",
+        "xưng Ta - gọi Ngươi",
+        "xưng Anh - gọi Em"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_020",
+      "original": "Bai Wei → Que Qi",
+      "suggested": "Bai Wei xưng Tôi - gọi Que Qi là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 2: Bai Wei xưng hô thế nào với Que Qi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Anh - gọi Em",
+        "xưng Ta - gọi Ngươi"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_021",
+      "original": "Que Qi → Lu Churan",
+      "suggested": "Que Qi xưng Tôi - gọi Lu Churan là Cô",
+      "confidence": 0.3,
+      "question": "Chiều 1: Que Qi xưng hô thế nào với Lu Churan (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Cô",
+        "xưng Ta - gọi Ngươi",
+        "xưng Anh - gọi Cô"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_022",
+      "original": "Lu Churan → Que Qi",
+      "suggested": "Lu Churan xưng Tôi - gọi Que Qi là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 2: Lu Churan xưng hô thế nào với Que Qi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Em - gọi Anh",
+        "xưng Ta - gọi Ngươi"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_023",
+      "original": "Bai Wei → Lu Churan",
+      "suggested": "Bai Wei xưng Tôi - gọi Lu Churan là Cô",
+      "confidence": 0.3,
+      "question": "Chiều 1: Bai Wei xưng hô thế nào với Lu Churan (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Cô",
+        "xưng Ta - gọi Ngươi",
+        "xưng Anh - gọi Cô"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_024",
+      "original": "Lu Churan → Bai Wei",
+      "suggested": "Lu Churan xưng Tôi - gọi Bai Wei là Cậu",
+      "confidence": 0.3,
+      "question": "Chiều 2: Lu Churan xưng hô thế nào với Bai Wei (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Cậu",
+        "xưng Em - gọi Cậu",
+        "xưng Ta - gọi Ngươi"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_025",
+      "original": "Ji Chenxi → Gu Hechuan",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Gu Hechuan là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Gu Hechuan (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Ta - gọi Ngươi",
+        "xưng Em - gọi Anh"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_026",
+      "original": "Gu Hechuan → Ji Chenxi",
+      "suggested": "Gu Hechuan xưng Tôi - gọi Ji Chenxi là Cậu",
+      "confidence": 0.3,
+      "question": "Chiều 2: Gu Hechuan xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Cậu",
+        "xưng Anh - gọi Em",
+        "xưng Ta - gọi Ngươi"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_027",
+      "original": "Bai Wei → Crow",
+      "suggested": "Bai Wei xưng Tôi - gọi Crow là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Bai Wei xưng hô thế nào với Crow (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Ta - gọi Ngươi",
+        "xưng Em - gọi Anh"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_028",
+      "original": "Crow → Bai Wei",
+      "suggested": "Crow xưng Tôi - gọi Bai Wei là Cậu",
+      "confidence": 0.3,
+      "question": "Chiều 2: Crow xưng hô thế nào với Bai Wei (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Cậu",
+        "xưng Anh - gọi Em",
+        "xưng Ta - gọi Ngươi"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_029",
+      "original": "Bai Wei → Crow",
+      "suggested": "Bai Wei xưng Tôi - gọi Crow là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Bai Wei xưng hô thế nào với Crow (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Ta - gọi Ngươi",
+        "xưng Em - gọi Anh"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_030",
+      "original": "Crow → Bai Wei",
+      "suggested": "Crow xưng Tôi - gọi Bai Wei là Cậu",
+      "confidence": 0.3,
+      "question": "Chiều 2: Crow xưng hô thế nào với Bai Wei (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Cậu",
+        "xưng Anh - gọi Em",
+        "xưng Ta - gọi Ngươi"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_031",
+      "original": "Bai Wei → Crow",
+      "suggested": "Bai Wei xưng Tôi - gọi Crow là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Bai Wei xưng hô thế nào với Crow (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Ta - gọi Ngươi",
+        "xưng Em - gọi Anh"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_032",
+      "original": "Crow → Bai Wei",
+      "suggested": "Crow xưng Tôi - gọi Bai Wei là Cậu",
+      "confidence": 0.3,
+      "question": "Chiều 2: Crow xưng hô thế nào với Bai Wei (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Cậu",
+        "xưng Anh - gọi Em",
+        "xưng Ta - gọi Ngươi"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_033",
+      "original": "Bai Wei → Crow",
+      "suggested": "Bai Wei xưng Tôi - gọi Crow là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Bai Wei xưng hô thế nào với Crow (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Ta - gọi Ngươi",
+        "xưng Em - gọi Anh"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_034",
+      "original": "Crow → Bai Wei",
+      "suggested": "Crow xưng Tôi - gọi Bai Wei là Cậu",
+      "confidence": 0.3,
+      "question": "Chiều 2: Crow xưng hô thế nào với Bai Wei (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Cậu",
+        "xưng Anh - gọi Em",
+        "xưng Ta - gọi Ngươi"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_035",
+      "original": "Bai Wei → Crow",
+      "suggested": "Bai Wei xưng Tôi - gọi Crow là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Bai Wei xưng hô thế nào với Crow (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Ta - gọi Ngươi",
+        "xưng Em - gọi Anh"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_036",
+      "original": "Crow → Bai Wei",
+      "suggested": "Crow xưng Tôi - gọi Bai Wei là Cậu",
+      "confidence": 0.3,
+      "question": "Chiều 2: Crow xưng hô thế nào với Bai Wei (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Cậu",
+        "xưng Anh - gọi Em",
+        "xưng Ta - gọi Ngươi"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_037",
+      "original": "Bai Wei → Crow",
+      "suggested": "Bai Wei xưng Tôi - gọi Crow là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Bai Wei xưng hô thế nào với Crow (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Ta - gọi Ngươi",
+        "xưng Em - gọi Anh"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_038",
+      "original": "Crow → Bai Wei",
+      "suggested": "Crow xưng Tôi - gọi Bai Wei là Cậu",
+      "confidence": 0.3,
+      "question": "Chiều 2: Crow xưng hô thế nào với Bai Wei (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Cậu",
+        "xưng Anh - gọi Em",
+        "xưng Ta - gọi Ngươi"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_039",
+      "original": "Bai Wei → Crow",
+      "suggested": "Bai Wei xưng Tôi - gọi Crow là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Bai Wei xưng hô thế nào với Crow (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Ta - gọi Ngươi",
+        "xưng Em - gọi Anh"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_040",
+      "original": "Crow → Bai Wei",
+      "suggested": "Crow xưng Tôi - gọi Bai Wei là Cậu",
+      "confidence": 0.3,
+      "question": "Chiều 2: Crow xưng hô thế nào với Bai Wei (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Cậu",
+        "xưng Anh - gọi Em",
+        "xưng Ta - gọi Ngươi"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_041",
+      "original": "Bai Wei → Crow",
+      "suggested": "Bai Wei xưng Tôi - gọi Crow là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Bai Wei xưng hô thế nào với Crow (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Ta - gọi Ngươi",
+        "xưng Em - gọi Anh"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_042",
+      "original": "Crow → Bai Wei",
+      "suggested": "Crow xưng Tôi - gọi Bai Wei là Cậu",
+      "confidence": 0.3,
+      "question": "Chiều 2: Crow xưng hô thế nào với Bai Wei (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Cậu",
+        "xưng Anh - gọi Em",
+        "xưng Ta - gọi Ngươi"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_043",
+      "original": "Morning Star → Ji Chenxi",
+      "suggested": "Morning Star xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 1: Morning Star xưng hô thế nào với Ji Chenxi (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Ta - gọi Ngươi",
+        "xưng Anh - gọi Điện hạ"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_044",
+      "original": "Ji Chenxi → Morning Star",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Morning Star là Cậu",
+      "confidence": 0.3,
+      "question": "Chiều 2: Ji Chenxi xưng hô thế nào với Morning Star (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Cậu",
+        "xưng Anh - gọi Em",
+        "xưng Ta - gọi Ngươi"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_045",
+      "original": "Ji Chenxi → Bai Anran",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Bai Anran là Anran",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Bai Anran (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anran",
+        "xưng Ta - gọi Ngươi",
+        "xưng Anh - gọi Anran"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_046",
+      "original": "Bai Anran → Ji Chenxi",
+      "suggested": "Bai Anran xưng Tôi - gọi Ji Chenxi là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 2: Bai Anran xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Em - gọi Anh",
+        "xưng Ta - gọi Ngươi"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_047",
+      "original": "Su Yu → Ji Chenxi",
+      "suggested": "Su Yu xưng Tôi - gọi Ji Chenxi là Cậu",
+      "confidence": 0.3,
+      "question": "Chiều 1: Su Yu xưng hô thế nào với Ji Chenxi (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Cậu",
+        "xưng Anh - gọi Em",
+        "xưng Ta - gọi Ngươi"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_048",
+      "original": "Ji Chenxi → Su Yu",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Su Yu là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 2: Ji Chenxi xưng hô thế nào với Su Yu (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Em - gọi Anh",
+        "xưng Ta - gọi Ngươi"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_049",
+      "original": "Su Yu → Bai Anran",
+      "suggested": "Su Yu xưng Tôi - gọi Bai Anran là Tiểu Anran",
+      "confidence": 0.3,
+      "question": "Chiều 1: Su Yu xưng hô thế nào với Bai Anran (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Tiểu Anran",
+        "xưng Anh - gọi Anran",
+        "xưng Ta - gọi Ngươi"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_050",
+      "original": "Bai Anran → Su Yu",
+      "suggested": "Bai Anran xưng Tôi - gọi Su Yu là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 2: Bai Anran xưng hô thế nào với Su Yu (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Em - gọi Anh",
+        "xưng Ta - gọi Ngươi"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_051",
+      "original": "Bai Anran → Chi Zhuo",
+      "suggested": "Bai Anran xưng Tôi - gọi Chi Zhuo là Ngài Chi",
+      "confidence": 0.3,
+      "question": "Chiều 1: Bai Anran xưng hô thế nào với Chi Zhuo (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Ngài Chi",
+        "xưng Ta - gọi Ngươi",
+        "xưng Em - gọi Ngài Chi"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_052",
+      "original": "Chi Zhuo → Bai Anran",
+      "suggested": "Chi Zhuo xưng Tôi - gọi Bai Anran là Cậu",
+      "confidence": 0.3,
+      "question": "Chiều 2: Chi Zhuo xưng hô thế nào với Bai Anran (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Cậu",
+        "xưng Anh - gọi Em",
+        "xưng Ta - gọi Ngươi"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_053",
+      "original": "Ji Chenxi → Bai Anran",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Bai Anran là Anran",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Bai Anran (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anran",
+        "xưng Ta - gọi Ngươi",
+        "xưng Anh - gọi Anran"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_054",
+      "original": "Bai Anran → Ji Chenxi",
+      "suggested": "Bai Anran xưng Tôi - gọi Ji Chenxi là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 2: Bai Anran xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Em - gọi Anh",
+        "xưng Ta - gọi Ngươi"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_055",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Chi Zhuo là Ngài Chi",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Chi Zhuo (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Ngài Chi",
+        "xưng Ta - gọi Ngươi",
+        "xưng Anh - gọi Ngài Chi"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_056",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Chi Zhuo xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Chi Zhuo xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Ta - gọi Ngươi"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_057",
+      "original": "Ji Chenxi → Su Yu",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Su Yu là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Su Yu (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Em - gọi Anh",
+        "xưng Ta - gọi Ngươi"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_058",
+      "original": "Su Yu → Ji Chenxi",
+      "suggested": "Su Yu xưng Tôi - gọi Ji Chenxi là Cậu",
+      "confidence": 0.3,
+      "question": "Chiều 2: Su Yu xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Cậu",
+        "xưng Anh - gọi Em",
+        "xưng Ta - gọi Ngươi"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_059",
+      "original": "Ji Chenxi → Bai Anran",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Bai Anran là Anran",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Bai Anran (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anran",
+        "xưng Ta - gọi Ngươi",
+        "xưng Anh - gọi Anran"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_060",
+      "original": "Bai Anran → Ji Chenxi",
+      "suggested": "Bai Anran xưng Tôi - gọi Ji Chenxi là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 2: Bai Anran xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Em - gọi Anh",
+        "xưng Ta - gọi Ngươi"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_061",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Chi Zhuo là Ngài Chi",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Chi Zhuo (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Ngài Chi",
+        "xưng Ta - gọi Ngươi",
+        "xưng Anh - gọi Ngài Chi"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_062",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Chi Zhuo xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Chi Zhuo xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Ta - gọi Ngươi"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_063",
+      "original": "Ji Chenxi → Manye Zhe",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Manye Zhe là Cậu",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Manye Zhe (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Cậu",
+        "xưng Ta - gọi Ngươi",
+        "xưng Anh - gọi Cậu"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_064",
+      "original": "Manye Zhe → Ji Chenxi",
+      "suggested": "Manye Zhe xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Manye Zhe xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Ta - gọi Ngươi"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_065",
+      "original": "Ji Chenxi → Que Qi",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Que Qi là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Que Qi (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Ta - gọi Ngươi",
+        "xưng Em - gọi Anh"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_066",
+      "original": "Que Qi → Ji Chenxi",
+      "suggested": "Que Qi xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Que Qi xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Ta - gọi Ngươi"
+      ],
+      "category": "relationship"
+    }
+  ],
+  "answers": {
+    "amb_045": {
+      "choice": "Điện hạ - Tôi",
+      "custom": null,
+      "auto_propagated": true,
+      "propagated_from": "Chapter ch_036"
+    },
+    "amb_046": {
+      "choice": "xưng Thần - gọi Điện hạ",
+      "custom": null,
+      "auto_propagated": true,
+      "propagated_from": "Chapter ch_036"
+    },
+    "amb_053": {
+      "choice": "Điện hạ - Tôi",
+      "custom": null,
+      "auto_propagated": true,
+      "propagated_from": "Chapter ch_036"
+    },
+    "amb_054": {
+      "choice": "xưng Thần - gọi Điện hạ",
+      "custom": null,
+      "auto_propagated": true,
+      "propagated_from": "Chapter ch_036"
+    },
+    "amb_055": {
+      "choice": "Tôi - Anh",
+      "custom": null,
+      "auto_propagated": true,
+      "propagated_from": "Chapter ch_044"
+    },
+    "amb_056": {
+      "choice": "Tôi - Anh",
+      "custom": null,
+      "auto_propagated": true,
+      "propagated_from": "Chapter ch_044"
+    },
+    "amb_059": {
+      "choice": "Điện hạ - Tôi",
+      "custom": null,
+      "auto_propagated": true,
+      "propagated_from": "Chapter ch_036"
+    },
+    "amb_060": {
+      "choice": "xưng Thần - gọi Điện hạ",
+      "custom": null,
+      "auto_propagated": true,
+      "propagated_from": "Chapter ch_036"
+    },
+    "amb_061": {
+      "choice": "Tôi - Anh",
+      "custom": null,
+      "auto_propagated": true,
+      "propagated_from": "Chapter ch_044"
+    },
+    "amb_062": {
+      "choice": "Tôi - Anh",
+      "custom": null,
+      "auto_propagated": true,
+      "propagated_from": "Chapter ch_044"
+    }
+  },
+  "updated_at": "2026-09-25T11:48:19.852188+07:00"
+}

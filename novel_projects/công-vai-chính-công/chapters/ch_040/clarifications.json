@@ -1,0 +1,187 @@
+{
+  "chapter_id": "ch_040",
+  "questions": [
+    {
+      "id": "amb_001",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Chi Zhuo là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Chi Zhuo (Ji Chenxi tự xưng là gì và gọi Chi Zhuo là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_002",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Chi Zhuo xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Chi Zhuo xưng hô thế nào với Ji Chenxi (Chi Zhuo tự xưng là gì và gọi Ji Chenxi là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Ta - gọi Điện hạ",
+        "xưng Ta - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_003",
+      "original": "Ji Chenxi",
+      "suggested": "Ji Chenxi (anh)",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Ji Chenxi (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "anh",
+        "cậu",
+        "y",
+        "hắn"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_004",
+      "original": "Chi Zhuo",
+      "suggested": "Chi Zhuo (hắn ta)",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Chi Zhuo (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "hắn ta",
+        "hắn",
+        "y",
+        "anh ta"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_005",
+      "original": "Black mamba",
+      "suggested": "Rắn mamba đen (nó)",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Rắn mamba đen (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "nó",
+        "y",
+        "con rắn"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_006",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Chi Zhuo là Chi Zhuo",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Chi Zhuo (Ji Chenxi tự xưng là gì và gọi Chi Zhuo là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Chi Zhuo",
+        "xưng Tôi - gọi Trì Chước",
+        "xưng Ta - gọi Chi Zhuo",
+        "xưng Ta - gọi Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_007",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Chi Zhuo xưng Tôi - gọi Ji Chenxi là Ji Chenxi",
+      "confidence": 0.3,
+      "question": "Chiều 2: Chi Zhuo xưng hô thế nào với Ji Chenxi (Chi Zhuo tự xưng là gì và gọi Ji Chenxi là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Ji Chenxi",
+        "xưng Tôi - gọi Quý Thần Hi",
+        "xưng Ta - gọi Ji Chenxi",
+        "xưng Ta - gọi Quý Thần Hi"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_008",
+      "original": "Chi Zhuo",
+      "suggested": "Chi Zhuo (hắn)",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Chi Zhuo (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "hắn",
+        "hắn ta",
+        "y",
+        "anh ta"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_009",
+      "original": "Ji Chenxi",
+      "suggested": "Ji Chenxi (anh)",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Ji Chenxi (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "anh",
+        "cậu",
+        "y",
+        "hắn"
+      ],
+      "category": "pronoun"
+    }
+  ],
+  "answers": {
+    "amb_001": {
+      "choice": "Tôi - Anh",
+      "custom": null,
+      "auto_propagated": true,
+      "propagated_from": "Chapter ch_044"
+    },
+    "amb_002": {
+      "choice": "Tôi - Anh",
+      "custom": null,
+      "auto_propagated": true,
+      "propagated_from": "Chapter ch_044"
+    },
+    "amb_003": {
+      "choice": "Quý Thần Hi",
+      "custom": null,
+      "auto_propagated": true,
+      "propagated_from": "Chapter ch_044"
+    },
+    "amb_004": {
+      "choice": "hắn ta / hắn (khi tường thuật), anh ta (khi được nhân vật khác nhắc đến)",
+      "custom": null,
+      "auto_propagated": true,
+      "propagated_from": "Chapter ch_044"
+    },
+    "amb_005": {
+      "choice": "Rắn mamba đen",
+      "custom": null,
+      "auto_propagated": true,
+      "propagated_from": "Chapter ch_040"
+    },
+    "amb_006": {
+      "choice": "Tôi - Anh",
+      "custom": null,
+      "auto_propagated": true,
+      "propagated_from": "Chapter ch_044"
+    },
+    "amb_007": {
+      "choice": "Tôi - Anh",
+      "custom": null,
+      "auto_propagated": true,
+      "propagated_from": "Chapter ch_044"
+    },
+    "amb_008": {
+      "choice": "hắn ta / hắn (khi tường thuật), anh ta (khi được nhân vật khác nhắc đến)",
+      "custom": null,
+      "auto_propagated": true,
+      "propagated_from": "Chapter ch_044"
+    },
+    "amb_009": {
+      "choice": "Quý Thần Hi",
+      "custom": null,
+      "auto_propagated": true,
+      "propagated_from": "Chapter ch_044"
+    }
+  },
+  "updated_at": "2026-09-25T11:48:20.047867+07:00"
+}

@@ -3264,24 +3264,32 @@ if tabs.is_active(9):
         rel_list.append(entry)
         return entry
 
-    def na_extract_char_name_from_pronoun(orig_str: str) -> str:
-        """Strip '(ngôi thứ 3)', '(ngôi 3)', '(3rd person)', etc. from pronoun question string."""
+    def na_clean_entity_name(s: str) -> str:
+        """Strip parenthetical annotations like '(ngôi thứ 3)', '(tên dịch)', '(đối thoại)', '(thú tinh thần)', etc."""
+        if not s:
+            return ''
         import re as _re
-        return _re.sub(r'[\(\[\{]\s*(?:ngôi\s*(?:thứ\s*)?[123]|3rd\s*person|lời\s*kể|văn\s*kể|trần\s*thuật).*?[\)\]\}]', '', orig_str, flags=_re.IGNORECASE).strip()
+        cleaned = _re.sub(r'[\(\[\{]\s*(?:ngôi\s*(?:thứ\s*)?[123]|3rd\s*person|lời\s*kể|văn\s*kể|trần\s*thuật|tên\s*dịch|tên\s*nhân\s*vật|tên\s*gốc|đối\s*thoại|xưng\s*hô|nhân\s*vật|thú\s*tinh\s*thần).*?[\)\]\}]', '', s, flags=_re.IGNORECASE).strip()
+        return cleaned or s.strip()
+
+    def na_extract_char_name_from_pronoun(orig_str: str) -> str:
+        """Strip '(ngôi thứ 3)', '(ngôi 3)', '(3rd person)', etc. from pronoun/entity question string."""
+        return na_clean_entity_name(orig_str)
 
     def na_is_character_known(name_str: str, characters: list) -> dict | None:
         """Check if a character name/alias is already recognized in characters list."""
         if not name_str:
             return None
         target = name_str.strip().lower()
-        clean_target = na_extract_char_name_from_pronoun(target)
+        clean_target = na_clean_entity_name(target).lower()
         for c in characters:
             names_to_check = [c.get('name', ''), c.get('hanviet_name', '')] + list(c.get('aliases', []))
             for n in names_to_check:
                 if not n:
                     continue
                 n_clean = n.strip().lower()
-                if n_clean == target or (clean_target and n_clean == clean_target):
+                n_clean_sub = na_clean_entity_name(n_clean).lower()
+                if n_clean in (target, clean_target) or (n_clean_sub and n_clean_sub in (target, clean_target)):
                     return c
         return None
 
@@ -3313,6 +3321,7 @@ if tabs.is_active(9):
     def na_load_all_project_clarifications(slug: str, exclude_chapter: str = None) -> dict:
         """Load and aggregate all past clarification questions and their confirmed answers across all chapters."""
         all_resolved = {}
+        import re as _re
         for ch in na_list_chapters(slug):
             if exclude_chapter and ch == exclude_chapter:
                 continue
@@ -3323,7 +3332,7 @@ if tabs.is_active(9):
                 questions = {q.get('id'): q for q in c_data.get('questions', []) if q.get('id')}
                 for qid, ans in answers.items():
                     val = (ans.get('custom') or ans.get('choice') or '').strip()
-                    if not val:
+                    if not val or val == 'Custom':
                         continue
                     q_obj = questions.get(qid)
                     if q_obj:
@@ -3331,62 +3340,198 @@ if tabs.is_active(9):
                         cat = (q_obj.get('category') or '').strip()
                         if orig:
                             all_resolved[orig.lower()] = {'value': val, 'category': cat, 'chapter': ch}
-                            clean_orig = na_extract_char_name_from_pronoun(orig)
-                            if clean_orig and clean_orig.lower() != orig.lower():
+                            clean_orig = na_clean_entity_name(orig)
+                            if clean_orig:
+                                all_resolved[clean_orig.lower()] = {'value': val, 'category': cat, 'chapter': ch}
+                            if cat == 'pronoun' or 'ngôi' in orig.lower():
                                 all_resolved[f"{clean_orig.lower()}_pronoun"] = {'value': val, 'category': 'pronoun', 'chapter': ch}
+                            if cat == 'relationship' or '→' in orig or '->' in orig or '-' in orig:
+                                m = _re.search(r'(.+?)\s*(?:→|->|—|--|-)\s*(.+)', orig)
+                                if m:
+                                    rf = na_clean_entity_name(m.group(1)).lower()
+                                    rt = na_clean_entity_name(m.group(2)).lower()
+                                    if rf and rt:
+                                        all_resolved[f"rel::{rf}::{rt}"] = {'value': val, 'category': 'relationship', 'chapter': ch}
+                                        all_resolved[f"{rf} → {rt}"] = {'value': val, 'category': 'relationship', 'chapter': ch}
+                                        all_resolved[f"{rf} -> {rt}"] = {'value': val, 'category': 'relationship', 'chapter': ch}
         return all_resolved
 
-    def na_is_item_already_resolved(item: dict, memory: dict, all_past_answers: dict) -> bool:
-        """Check if an ambiguous item or clarification question has already been answered or established in memory."""
+    def na_get_resolved_answer(item: dict, memory: dict, all_past_answers: dict) -> dict | None:
+        """Find confirmed answer for an ambiguous item/question from past answers or project memory."""
         orig = (item.get('original') or '').strip()
         cat = (item.get('category') or '').strip().lower()
         if not orig:
-            return False
+            return None
 
+        import re as _re
         orig_lower = orig.lower()
+        clean_orig = na_clean_entity_name(orig)
+        clean_lower = clean_orig.lower()
 
-        # 1. Check if directly in past answers
+        # 1. Direct past answer match
         if orig_lower in all_past_answers:
-            return True
+            ans = all_past_answers[orig_lower]
+            return {'choice': ans['value'], 'source': f"Chapter {ans.get('chapter', '')}"}
+        if clean_lower in all_past_answers:
+            ans = all_past_answers[clean_lower]
+            return {'choice': ans['value'], 'source': f"Chapter {ans.get('chapter', '')}"}
 
-        # 2. Check pronoun questions
+        # 2. Pronoun match
         if cat == 'pronoun' or 'ngôi' in orig_lower:
-            clean_name = na_extract_char_name_from_pronoun(orig)
-            if f"{clean_name.lower()}_pronoun" in all_past_answers:
-                return True
-            matched_c = na_is_character_known(clean_name, memory.get('characters', []))
-            if matched_c and matched_c.get('third_person_pronoun'):
-                return True
+            if f"{clean_lower}_pronoun" in all_past_answers:
+                ans = all_past_answers[f"{clean_lower}_pronoun"]
+                return {'choice': ans['value'], 'source': f"Chapter {ans.get('chapter', '')}"}
+            matched_c = na_is_character_known(clean_orig, memory.get('characters', []))
+            if matched_c:
+                c_name = (matched_c.get('name') or '').lower()
+                c_hv = (matched_c.get('hanviet_name') or '').lower()
+                if f"{c_name}_pronoun" in all_past_answers:
+                    ans = all_past_answers[f"{c_name}_pronoun"]
+                    return {'choice': ans['value'], 'source': f"Chapter {ans.get('chapter', '')}"}
+                if c_hv and f"{c_hv}_pronoun" in all_past_answers:
+                    ans = all_past_answers[f"{c_hv}_pronoun"]
+                    return {'choice': ans['value'], 'source': f"Chapter {ans.get('chapter', '')}"}
+                if matched_c.get('third_person_pronoun'):
+                    return {'choice': matched_c['third_person_pronoun'], 'source': f"Memory: {matched_c.get('name')}"}
 
-        # 3. Check character name questions
+        # 3. Character name match
         if cat == 'name':
-            matched_c = na_is_character_known(orig, memory.get('characters', []))
+            matched_c = na_is_character_known(clean_orig, memory.get('characters', []))
             if matched_c and (matched_c.get('hanviet_name') or matched_c.get('name')):
-                return True
+                val = matched_c.get('hanviet_name') or matched_c.get('name')
+                return {'choice': val, 'source': f"Memory: {matched_c.get('name')}"}
 
-        # 4. Check relationship questions (A → B)
-        if cat == 'relationship' or '→' in orig:
-            import re as _re
-            m = _re.search(r'(.+?)\s*(?:→|->)\s*(.+)', orig)
+        # 4. Relationship match (directional & bidirectional alias cross-reference)
+        if cat == 'relationship' or '→' in orig or '->' in orig or '-' in orig:
+            m = _re.search(r'(.+?)\s*(?:→|->|—|--|-)\s*(.+)', orig)
             if m:
-                from_p = m.group(1).strip().lower()
-                to_p = m.group(2).strip().lower()
+                from_name = na_clean_entity_name(m.group(1))
+                to_name = na_clean_entity_name(m.group(2))
+                
+                c_from = na_is_character_known(from_name, memory.get('characters', []))
+                c_to = na_is_character_known(to_name, memory.get('characters', []))
+
+                from_aliases = {from_name.lower()}
+                if c_from:
+                    for a in [c_from.get('name'), c_from.get('hanviet_name')] + list(c_from.get('aliases', [])):
+                        if a:
+                            from_aliases.add(a.strip().lower())
+                
+                to_aliases = {to_name.lower()}
+                if c_to:
+                    for a in [c_to.get('name'), c_to.get('hanviet_name')] + list(c_to.get('aliases', [])):
+                        if a:
+                            to_aliases.add(a.strip().lower())
+
+                for fa in from_aliases:
+                    for ta in to_aliases:
+                        k1 = f"rel::{fa}::{ta}"
+                        if k1 in all_past_answers:
+                            ans = all_past_answers[k1]
+                            return {'choice': ans['value'], 'source': f"Chapter {ans.get('chapter', '')}"}
+                        if f"{fa} → {ta}" in all_past_answers:
+                            ans = all_past_answers[f"{fa} → {ta}"]
+                            return {'choice': ans['value'], 'source': f"Chapter {ans.get('chapter', '')}"}
+                        if f"{fa} -> {ta}" in all_past_answers:
+                            ans = all_past_answers[f"{fa} -> {ta}"]
+                            return {'choice': ans['value'], 'source': f"Chapter {ans.get('chapter', '')}"}
+
                 for r in memory.get('relationships', []):
-                    r_from = (r.get('from') or '').strip().lower()
-                    r_to = (r.get('to') or '').strip().lower()
-                    r_pair = (r.get('pair') or '').strip().lower()
-                    if (r_from == from_p and r_to == to_p) or (orig_lower == r_pair):
-                        if r.get('address'):
-                            return True
+                    if not r.get('address'):
+                        continue
+                    rf = (r.get('from') or '').strip().lower()
+                    rt = (r.get('to') or '').strip().lower()
+                    rp = (r.get('pair') or '').strip().lower()
+                    if rf in from_aliases and rt in to_aliases:
+                        return {'choice': r['address'], 'source': f"Memory: {r.get('pair', '')}"}
+                    m_r = _re.search(r'(.+?)\s*(?:→|->|—|--|-)\s*(.+)', rp)
+                    if m_r:
+                        r1 = na_clean_entity_name(m_r.group(1)).lower()
+                        r2 = na_clean_entity_name(m_r.group(2)).lower()
+                        if r1 in from_aliases and r2 in to_aliases:
+                            return {'choice': r['address'], 'source': f"Memory: {r.get('pair', '')}"}
+                        if '-' in rp and not ('→' in rp or '->' in rp):
+                            if r1 in to_aliases and r2 in from_aliases:
+                                return {'choice': r['address'], 'source': f"Memory (đối thoại 2 chiều): {r.get('pair', '')}"}
 
-        # 5. Check glossary
+        # 5. Glossary match
         for g in memory.get('glossary', []):
-            if g.get('approved', False):
+            if g.get('approved', False) or g.get('translation'):
                 g_orig = (g.get('original') or '').strip().lower()
-                if g_orig == orig_lower:
-                    return True
+                g_hv = (g.get('hanviet') or '').strip().lower()
+                if g_orig in (orig_lower, clean_lower) or (g_hv and g_hv in (orig_lower, clean_lower)):
+                    val = g.get('translation') or g.get('hanviet')
+                    return {'choice': val, 'source': 'Memory Glossary'}
 
-        return False
+        return None
+
+    def na_is_item_already_resolved(item: dict, memory: dict, all_past_answers: dict) -> bool:
+        """Check if an ambiguous item or clarification question has already been answered or established in memory."""
+        res = na_get_resolved_answer(item, memory, all_past_answers)
+        return bool(res)
+
+    def na_propagate_clarifications_to_all_chapters(slug: str, memory: dict = None) -> dict:
+        """
+        Auto-propagate confirmed clarifications and memory definitions
+        to all chapters across the project.
+        Ensures that once a question is answered in any chapter (e.g. ch 11),
+        all subsequent chapters (12, 13, 14, 15...) will have those questions
+        automatically answered / resolved without asking again.
+        """
+        if not memory:
+            memory = na_load_memory(slug)
+        all_past = na_load_all_project_clarifications(slug)
+        total_propagated = 0
+        affected_chapters = []
+
+        for ch in na_list_chapters(slug):
+            ch_dir = na_chapter_dir(slug, ch)
+            analysis_path = os.path.join(ch_dir, 'analysis.json')
+            clar_path = os.path.join(ch_dir, 'clarifications.json')
+
+            if not os.path.exists(analysis_path) and not os.path.exists(clar_path):
+                continue
+
+            analysis_data = na_load_json(analysis_path, {}) if os.path.exists(analysis_path) else {}
+            clar_data = na_load_json(clar_path, {'chapter_id': ch, 'questions': [], 'answers': {}})
+
+            questions = clar_data.setdefault('questions', [])
+            existing_q_ids = {q.get('id') for q in questions if q.get('id')}
+
+            for a in analysis_data.get('ambiguous', []):
+                if a.get('id') not in existing_q_ids:
+                    questions.append(a)
+                    existing_q_ids.add(a.get('id'))
+
+            answers = clar_data.setdefault('answers', {})
+            newly_resolved_in_ch = 0
+
+            for q in questions:
+                qid = q.get('id')
+                if not qid:
+                    continue
+                # If already manually answered, keep user's manual answer
+                if qid in answers and answers[qid].get('choice') and not answers[qid].get('auto_propagated'):
+                    continue
+
+                res = na_get_resolved_answer(q, memory, all_past)
+                if res and res.get('choice'):
+                    answers[qid] = {
+                        'choice': res['choice'],
+                        'custom': res.get('custom'),
+                        'auto_propagated': True,
+                        'propagated_from': res.get('source', 'Memory / Previous Chapter')
+                    }
+                    newly_resolved_in_ch += 1
+
+            if newly_resolved_in_ch > 0:
+                clar_data['answers'] = answers
+                clar_data['updated_at'] = now_gmt7().isoformat()
+                na_save_json(clar_path, clar_data)
+                total_propagated += newly_resolved_in_ch
+                affected_chapters.append(ch)
+
+        return {'total_propagated': total_propagated, 'affected_chapters': affected_chapters}
 
     def na_find_character_context(item: dict, chapter_analysis: dict, memory: dict) -> list[dict]:
         """Find character information (gender, role, description) for a question to display context in Clarification Center."""
@@ -3530,7 +3675,16 @@ if tabs.is_active(9):
             if qid in answers:
                 ans = answers[qid]
                 chosen = ans.get('custom') or ans.get('choice', '')
-                lines.append(f"- [{q.get('category','').upper()}] \"{q.get('original','')}\" → Use: {chosen}")
+                if not chosen:
+                    continue
+                if "Tự quyết" in str(chosen):
+                    sugg = q.get('suggested', '')
+                    if sugg:
+                        lines.append(f"- [{q.get('category','').upper()}] \"{q.get('original','')}\" → AI tự quyết định linh hoạt theo ngữ cảnh phù hợp nhất (Gợi ý tham khảo: {sugg})")
+                    else:
+                        lines.append(f"- [{q.get('category','').upper()}] \"{q.get('original','')}\" → AI tự quyết định linh hoạt theo ngữ cảnh phù hợp nhất")
+                else:
+                    lines.append(f"- [{q.get('category','').upper()}] \"{q.get('original','')}\" → Use: {chosen}")
         return '\n'.join(lines) if lines else 'None'
 
     def na_build_translation_prompt(cfg: dict, memory: dict, prev_summary: str,
@@ -4273,6 +4427,8 @@ if tabs.is_active(11):
                                         ana_status.write(f"⚠️ Lỗi parse JSON `{b_ch}`: {_b_ex}")
                                 ana_bar.progress((b_idx + 1) / len(analysis_to_run))
                             ana_status.update(label=f"✅ Hoàn tất đợt phân tích {len(analysis_to_run)} chương!", state="complete")
+                            # Tự động lan truyền các câu trả lời/định nghĩa đã có trong Memory sang các chapter mới phân tích
+                            na_propagate_clarifications_to_all_chapters(na_proj)
                             st.balloons()
                             st.rerun()
 
@@ -4302,6 +4458,8 @@ if tabs.is_active(11):
                                     analysis_data['chapter_id'] = sel_ch_a
                                     analysis_data['analyzed_at'] = now_gmt7().isoformat()
                                     na_save_json(analysis_path_a, analysis_data)
+                                    # Tự động kế thừa định nghĩa từ Memory cho chapter vừa phân tích
+                                    na_propagate_clarifications_to_all_chapters(na_proj)
                                     ana_status_box.update(label="✅ Phân tích hoàn tất!", state="complete")
                                     log_action("Novel Agent", f"Analysis: {sel_ch_a} | {len(analysis_data.get('ambiguous',[]))} ambiguous")
                                     st.success("✅ Phân tích hoàn tất! Xem kết quả bên dưới.")
@@ -4376,7 +4534,6 @@ if tabs.is_active(11):
         # ===================== SUB-TAB 3: CLARIFICATIONS =====================
         with na_sub[3]:
             st.markdown("### ❓ Clarification Center")
-            st.caption("Trả lời các câu hỏi của AI trước khi dịch. Chỉ hiển thị các mục có confidence thấp.")
             na_proj = _na_require_project()
             if na_proj:
                 na_cfg = na_load_config(na_proj)
@@ -4384,6 +4541,16 @@ if tabs.is_active(11):
                 if not chapters_av:
                     st.info("Chưa có chapter nào.")
                 else:
+                    col_top_cl1, col_top_cl2 = st.columns([3, 2])
+                    with col_top_cl1:
+                        st.caption("Trả lời các câu hỏi của AI trước khi dịch. Khi bạn chốt câu trả lời ở một chương, hệ thống sẽ tự động đồng bộ sang tất cả các chương khác.")
+                    with col_top_cl2:
+                        if st.button("⚡ Lan truyền câu trả lời sang mọi chapter", key="na_btn_force_propagate",
+                                     help="Tự động áp dụng tất cả các quyết định xưng hô, tên nhân vật, đại từ từ Memory & các chapter đã chốt sang toàn bộ các chapter đã phân tích."):
+                            prop_res = na_propagate_clarifications_to_all_chapters(na_proj)
+                            st.success(f"✅ Đã tự động áp dụng cho {prop_res['total_propagated']} câu hỏi trên {len(prop_res['affected_chapters'])} chapter!")
+                            st.rerun()
+
                     sel_ch_q = st.selectbox("Chọn chapter:", chapters_av, key="na_q_ch")
                     analysis_path_q = os.path.join(na_chapter_dir(na_proj, sel_ch_q), 'analysis.json')
                     clar_path_q = os.path.join(na_chapter_dir(na_proj, sel_ch_q), 'clarifications.json')
@@ -4399,32 +4566,38 @@ if tabs.is_active(11):
                         memory_q = na_load_memory(na_proj)
                         all_past_answers = na_load_all_project_clarifications(na_proj, exclude_chapter=sel_ch_q)
 
-                        need_qa = []
-                        skipped_items = []
+                        # Sync questions list from analysis
+                        existing_q_ids = {q['id'] for q in clar_q.get('questions', []) if q.get('id')}
                         for a in ambiguous_q:
-                            if na_is_item_already_resolved(a, memory_q, all_past_answers):
-                                skipped_items.append(a)
-                            else:
-                                need_qa.append(a)
-
-                        if skipped_items:
-                            _skip_names = ', '.join(
-                                '`' + a.get('original', '') + '`' for a in skipped_items[:6]
-                            )
-                            _ellipsis = '...' if len(skipped_items) > 6 else ''
-                            st.info(
-                                f'🧠 Đã tự động bỏ qua {len(skipped_items)} câu hỏi trùng lặp '
-                                f'đã được xác nhận trước đó trong Memory hoặc chapter trước: '
-                                f'{_skip_names}{_ellipsis}'
-                            )
-
-                        # Sync questions list
-                        existing_q_ids = {q['id'] for q in clar_q.get('questions', [])}
-                        for a in need_qa:
                             if a.get('id') not in existing_q_ids:
                                 clar_q.setdefault('questions', []).append(a)
+                                existing_q_ids.add(a.get('id'))
 
-                        existing_answers = clar_q.get('answers', {})
+                        # Auto-inherit any resolved items into answers if not manually answered yet
+                        existing_answers = clar_q.setdefault('answers', {})
+                        auto_applied_count = 0
+                        for q in clar_q.get('questions', []):
+                            qid = q.get('id')
+                            if not qid:
+                                continue
+                            if qid not in existing_answers or not existing_answers[qid].get('choice'):
+                                res = na_get_resolved_answer(q, memory_q, all_past_answers)
+                                if res and res.get('choice'):
+                                    existing_answers[qid] = {
+                                        'choice': res['choice'],
+                                        'custom': res.get('custom'),
+                                        'auto_propagated': True,
+                                        'propagated_from': res.get('source', 'Memory')
+                                    }
+                                    auto_applied_count += 1
+
+                        if auto_applied_count > 0:
+                            clar_q['answers'] = existing_answers
+                            na_save_json(clar_path_q, clar_q)
+                            st.info(
+                                f"🧠 Đã tự động kế thừa câu trả lời cho {auto_applied_count} mục từ Memory hoặc các chapter đã chốt trước đó!"
+                            )
+
                         pending = [
                             q for q in clar_q.get('questions', [])
                             if q['id'] not in existing_answers and not na_is_item_already_resolved(q, memory_q, all_past_answers)
@@ -4509,7 +4682,74 @@ if tabs.is_active(11):
                                         f"Đã trả lời: {n_done}/{n_total} câu")
 
                             if pending:
-                                st.markdown(f"**{len(pending)} câu hỏi chờ trả lời:**")
+                                col_hdr1, col_hdr2 = st.columns([3, 2])
+                                with col_hdr1:
+                                    st.markdown(f"**{len(pending)} câu hỏi chờ trả lời:**")
+                                with col_hdr2:
+                                    if st.button(f"🤖 Tự quyết tất cả ({len(pending)} câu)", key=f"na_auto_all_{sel_ch_q}",
+                                                 help="Đặt nhanh tất cả câu hỏi đang chờ thành 'Tự quyết' (AI tự linh hoạt chọn cách dịch phù hợp nhất theo ngữ cảnh) và lưu ngay"):
+                                        new_auto_ans = dict(existing_answers)
+                                        mem_to_update = na_load_memory(na_proj)
+                                        for q_auto in pending:
+                                            qid_a = q_auto['id']
+                                            sugg_a = (q_auto.get('suggested') or '').strip()
+                                            new_auto_ans[qid_a] = {
+                                                'choice': '🤖 Tự quyết',
+                                                'custom': None
+                                            }
+                                            if sugg_a:
+                                                q_cat = q_auto.get('category', '')
+                                                q_orig = q_auto.get('original', '')
+                                                clean_c = na_clean_entity_name(q_orig)
+                                                nc_info = next((nc for nc in analysis_q.get('new_characters', []) if nc.get('name') == clean_c or nc.get('hanviet_name') == clean_c or clean_c in nc.get('aliases', [])), None)
+
+                                                if q_cat == 'name':
+                                                    c_entry = {
+                                                        'name': clean_c or q_orig,
+                                                        'hanviet_name': sugg_a,
+                                                        'role': nc_info.get('role', 'Approved character') if nc_info else 'Approved character'
+                                                    }
+                                                    if nc_info:
+                                                        if nc_info.get('gender'): c_entry['gender'] = nc_info['gender']
+                                                        if nc_info.get('description'): c_entry['notes'] = nc_info['description']
+                                                    na_merge_character_entry(mem_to_update.setdefault('characters', []), c_entry)
+                                                elif q_cat in ('pronoun', 'relationship', 'honorific'):
+                                                    import re as _re
+                                                    m_p3 = _re.search(r'^(.*?)\s*\(ngôi(?:\s*thứ)?\s*3\)', q_orig, _re.IGNORECASE) or (q_cat == 'pronoun')
+                                                    if m_p3:
+                                                        c_target = clean_c or q_orig
+                                                        c_entry = {'name': c_target, 'third_person_pronoun': sugg_a}
+                                                        if nc_info:
+                                                            if nc_info.get('hanviet_name'): c_entry['hanviet_name'] = nc_info['hanviet_name']
+                                                            if nc_info.get('gender'): c_entry['gender'] = nc_info['gender']
+                                                        na_merge_character_entry(mem_to_update.setdefault('characters', []), c_entry)
+                                                    m_rel = _re.search(r'^(.*?)\s*(?:→|->)\s*(.*?)$', q_orig)
+                                                    if m_rel or q_cat == 'relationship':
+                                                        if m_rel:
+                                                            p_from = m_rel.group(1).strip()
+                                                            p_to = m_rel.group(2).strip()
+                                                            na_merge_relationship_entry(mem_to_update.setdefault('relationships', []), {
+                                                                'from': p_from, 'to': p_to, 'pair': f"{p_from} → {p_to}", 'address': sugg_a
+                                                            })
+                                                        else:
+                                                            na_merge_relationship_entry(mem_to_update.setdefault('relationships', []), {
+                                                                'pair': q_orig, 'address': sugg_a
+                                                            })
+                                                    na_merge_glossary_entry(mem_to_update.setdefault('glossary', []), {
+                                                        'original': q_orig, 'translation': sugg_a, 'category': 'pronoun' if m_p3 else 'relationship', 'confidence': 0.8, 'approved': True, 'chapter_first_seen': sel_ch_q
+                                                    })
+                                                elif q_cat in ('term', 'location'):
+                                                    na_merge_glossary_entry(mem_to_update.setdefault('glossary', []), {
+                                                        'original': q_orig, 'translation': sugg_a, 'category': q_cat, 'confidence': 0.8, 'approved': True, 'chapter_first_seen': sel_ch_q
+                                                    })
+                                        clar_q['answers'] = new_auto_ans
+                                        clar_q['answered_at'] = now_gmt7().isoformat()
+                                        na_save_json(clar_path_q, clar_q)
+                                        na_save_memory(na_proj, mem_to_update)
+                                        prop_res = na_propagate_clarifications_to_all_chapters(na_proj, mem_to_update)
+                                        st.success(f"🤖 Đã áp dụng 'Tự quyết' cho {len(pending)} câu hỏi thành công!")
+                                        st.rerun()
+
                                 new_answers = dict(existing_answers)
 
                                 for q in pending:
@@ -4570,7 +4810,7 @@ if tabs.is_active(11):
                                             f"</div>",
                                             unsafe_allow_html=True
                                         )
-                                        opts = q.get('options', []) + ["✏️ Nhập tay"]
+                                        opts = q.get('options', []) + ["🤖 Tự quyết", "✏️ Nhập tay"]
                                         chosen = st.radio(
                                             "Chọn cách dịch / xưng hô:", opts,
                                             key=f"na_q_{qid}_radio",
@@ -4583,6 +4823,13 @@ if tabs.is_active(11):
                                                 "Nhập bản dịch / xưng hô tự chọn:", key=f"na_q_{qid}_custom",
                                                 placeholder=f"Nhập cho '{q.get('original','')}'..."
                                             )
+                                        elif chosen == "🤖 Tự quyết":
+                                            sugg_disp = q.get('suggested', '')
+                                            if sugg_disp:
+                                                st.caption(f"🤖 AI sẽ tự động quyết định cách dịch phù hợp nhất theo ngữ cảnh (tham khảo gợi ý: **{sugg_disp}**).")
+                                            else:
+                                                st.caption("🤖 AI sẽ tự động quyết định cách dịch phù hợp nhất theo ngữ cảnh.")
+
                                         new_answers[qid] = {
                                             'choice': chosen if chosen != "✏️ Nhập tay" else 'Custom',
                                             'custom': custom_val or None
@@ -4602,16 +4849,22 @@ if tabs.is_active(11):
                                             val = ans_item.get('custom') or ans_item.get('choice')
                                             if not val or val == 'Custom':
                                                 continue
+                                            is_auto = (val == "🤖 Tự quyết" or "Tự quyết" in str(val))
+                                            sugg_val = (q.get('suggested') or '').strip()
+                                            effective_val = sugg_val if (is_auto and sugg_val) else val
+                                            if not effective_val:
+                                                continue
+
                                             q_cat = q.get('category', '')
                                             q_orig = q.get('original', '')
-                                            clean_c = na_extract_char_name_from_pronoun(q_orig)
+                                            clean_c = na_clean_entity_name(q_orig)
                                             # Lookup context from analysis new_characters
                                             nc_info = next((nc for nc in analysis_q.get('new_characters', []) if nc.get('name') == clean_c or nc.get('hanviet_name') == clean_c or clean_c in nc.get('aliases', [])), None)
 
                                             if q_cat == 'name':
                                                 c_entry = {
                                                     'name': clean_c or q_orig,
-                                                    'hanviet_name': val,
+                                                    'hanviet_name': effective_val,
                                                     'role': nc_info.get('role', 'Approved character') if nc_info else 'Approved character'
                                                 }
                                                 if nc_info:
@@ -4625,7 +4878,7 @@ if tabs.is_active(11):
                                                     c_target = clean_c or q_orig
                                                     c_entry = {
                                                         'name': c_target,
-                                                        'third_person_pronoun': val,
+                                                        'third_person_pronoun': effective_val,
                                                     }
                                                     if nc_info:
                                                         if nc_info.get('hanviet_name'): c_entry['hanviet_name'] = nc_info['hanviet_name']
@@ -4643,34 +4896,43 @@ if tabs.is_active(11):
                                                             'from': p_from,
                                                             'to': p_to,
                                                             'pair': f"{p_from} → {p_to}",
-                                                            'address': val
+                                                            'address': effective_val
                                                         })
                                                     else:
                                                         na_merge_relationship_entry(mem_to_update.setdefault('relationships', []), {
                                                             'pair': q_orig,
-                                                            'address': val
+                                                            'address': effective_val
                                                         })
                                                 na_merge_glossary_entry(mem_to_update.setdefault('glossary', []), {
                                                     'original': q_orig,
-                                                    'translation': val,
+                                                    'translation': effective_val,
                                                     'category': 'pronoun' if m_p3 else 'relationship',
-                                                    'confidence': 1.0,
+                                                    'confidence': 1.0 if not is_auto else 0.8,
                                                     'approved': True,
                                                     'chapter_first_seen': sel_ch_q
                                                 })
-                                            elif q_cat == 'term':
+                                            elif q_cat in ('term', 'location'):
                                                 na_merge_glossary_entry(mem_to_update.setdefault('glossary', []), {
                                                     'original': q_orig,
-                                                    'translation': val,
-                                                    'category': 'term',
-                                                    'confidence': 1.0,
+                                                    'translation': effective_val,
+                                                    'category': q_cat,
+                                                    'confidence': 1.0 if not is_auto else 0.8,
                                                     'approved': True,
                                                     'chapter_first_seen': sel_ch_q
                                                 })
                                     na_save_memory(na_proj, mem_to_update)
 
-                                    log_action("Novel Agent", f"Clarifications: {sel_ch_q} | {len(new_answers)} câu (Đã đồng bộ Memory)")
-                                    st.success("✅ Đã lưu câu trả lời và đồng bộ vào Memory của Project!")
+                                    # Tự động lan truyền sang tất cả các chapter đã bulk analyze
+                                    prop_res = na_propagate_clarifications_to_all_chapters(na_proj, mem_to_update)
+                                    n_prop = prop_res.get('total_propagated', 0)
+                                    chs_prop = prop_res.get('affected_chapters', [])
+
+                                    log_action("Novel Agent", f"Clarifications: {sel_ch_q} | {len(new_answers)} câu (Đã đồng bộ Memory & Lan truyền {n_prop} câu sang các chapter khác)")
+                                    if n_prop > 0:
+                                        chs_disp = ', '.join(chs_prop[:5]) + ('...' if len(chs_prop) > 5 else '')
+                                        st.success(f"✅ Đã lưu và tự động áp dụng cho {n_prop} câu hỏi ở các chapter tiếp theo ({chs_disp})!")
+                                    else:
+                                        st.success("✅ Đã lưu câu trả lời và đồng bộ vào Memory của Project!")
                                     st.rerun()
 
                             if done:
@@ -4678,7 +4940,8 @@ if tabs.is_active(11):
                                     for q in done:
                                         ans = existing_answers[q['id']]
                                         chosen_disp = ans.get('custom') or ans.get('choice', '')
-                                        st.markdown(f"- `{q.get('original','')}` → **{chosen_disp}**")
+                                        prop_tag = f" _(🧠 {ans.get('propagated_from', 'Tự động kế thừa')})_" if ans.get('auto_propagated') else ""
+                                        st.markdown(f"- `{q.get('original','')}` → **{chosen_disp}**{prop_tag}")
 
         # ===================== SUB-TAB 4: TRANSLATE =====================
         with na_sub[4]:

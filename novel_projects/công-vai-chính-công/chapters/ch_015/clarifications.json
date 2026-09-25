@@ -1,0 +1,169 @@
+{
+  "chapter_id": "ch_015",
+  "questions": [
+    {
+      "id": "amb_001",
+      "original": "Amis",
+      "suggested": "A Mễ Tư",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Amis?",
+      "options": [
+        "A Mễ Tư",
+        "A Mít",
+        "Amis (giữ nguyên)"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_002",
+      "original": "Amis (ngôi thứ 3)",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Amis (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "cô",
+        "nàng",
+        "ả",
+        "thị",
+        "y"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_003",
+      "original": "Zuo Xian",
+      "suggested": "Tả Hiền",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Zuo Xian?",
+      "options": [
+        "Tả Hiền",
+        "Tả Tiên",
+        "Tả Hiển",
+        "Zuo Xian (giữ nguyên)"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_004",
+      "original": "Zuo Xian (ngôi thứ 3)",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Zuo Xian (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "hắn",
+        "y",
+        "gã",
+        "tên này",
+        "ông ta"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_005",
+      "original": "Quý Thần Hi → Trì Chước",
+      "suggested": "Quý Thần Hi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Quý Thần Hi xưng hô thế nào với Trì Chước (Quý Thần Hi tự xưng là gì và gọi Trì Chước là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Cậu",
+        "xưng Em - gọi Anh",
+        "xưng Ta - gọi Ngươi"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_006",
+      "original": "Trì Chước → Quý Thần Hi",
+      "suggested": "Trì Chước xưng Tôi - gọi Quý Thần Hi là Cậu",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Quý Thần Hi (Trì Chước tự xưng là gì và gọi Quý Thần Hi là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Cậu",
+        "xưng Tôi - gọi Anh",
+        "xưng Ta - gọi Ngươi",
+        "xưng Tôi - gọi Điện hạ"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_007",
+      "original": "Zuo Xian → Amis",
+      "suggested": "Zuo Xian xưng Ta - gọi Amis là Ngươi",
+      "confidence": 0.3,
+      "question": "Chiều 1: Zuo Xian xưng hô thế nào với Amis (Zuo Xian tự xưng là gì và gọi Amis là gì khi nói chuyện)?",
+      "options": [
+        "xưng Ta - gọi Ngươi",
+        "xưng Tôi - gọi Cô",
+        "xưng Tôi - gọi Amis",
+        "xưng Ta - gọi Amis"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_008",
+      "original": "Amis → Zuo Xian",
+      "suggested": "Amis xưng Tôi - gọi Zuo Xian là Phó quan",
+      "confidence": 0.3,
+      "question": "Chiều 2: Amis xưng hô thế nào với Zuo Xian (Amis tự xưng là gì và gọi Zuo Xian là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Phó quan",
+        "xưng Tôi - gọi Ngài",
+        "xưng Tôi - gọi Zuo Xian",
+        "xưng Thuộc hạ - gọi Phó quan"
+      ],
+      "category": "relationship"
+    }
+  ],
+  "answers": {
+    "amb_001": {
+      "choice": "hắn",
+      "custom": null,
+      "auto_propagated": true,
+      "propagated_from": "Chapter ch_016"
+    },
+    "amb_002": {
+      "choice": "hắn",
+      "custom": null,
+      "auto_propagated": true,
+      "propagated_from": "Chapter ch_016"
+    },
+    "amb_003": {
+      "choice": "hắn",
+      "custom": null,
+      "auto_propagated": true,
+      "propagated_from": "Chapter ch_016"
+    },
+    "amb_004": {
+      "choice": "hắn",
+      "custom": null,
+      "auto_propagated": true,
+      "propagated_from": "Chapter ch_016"
+    },
+    "amb_005": {
+      "choice": "Tôi - Anh",
+      "custom": null,
+      "auto_propagated": true,
+      "propagated_from": "Chapter ch_023"
+    },
+    "amb_006": {
+      "choice": "Tôi - Anh",
+      "custom": null,
+      "auto_propagated": true,
+      "propagated_from": "Chapter ch_023"
+    },
+    "amb_007": {
+      "choice": "xưng Ta - gọi Cậu",
+      "custom": null,
+      "auto_propagated": true,
+      "propagated_from": "Chapter ch_015"
+    },
+    "amb_008": {
+      "choice": "xưng Tôi - gọi Phó đội trưởng",
+      "custom": null,
+      "auto_propagated": true,
+      "propagated_from": "Chapter ch_015"
+    }
+  },
+  "updated_at": "2026-09-25T11:48:19.318721+07:00"
+}

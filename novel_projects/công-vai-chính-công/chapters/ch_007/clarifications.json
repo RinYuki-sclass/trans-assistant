@@ -53,6 +53,19 @@
         "Trì Chước xưng: \"Ngươi\" (gọi Quý Thần Hi), \"ta\" (xưng Trì Chước) | Quý Thần Hi xưng: \"Anh\" (gọi Trì Chước), \"tôi\" (xưng Quý Thần Hi)"
       ],
       "category": "pronoun"
+    },
+    {
+      "id": "amb_002",
+      "original": "Nether",
+      "suggested": "U Minh",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Nether?",
+      "options": [
+        "Nether (giữ nguyên)",
+        "U Minh (Hán-Việt của 'nether')",
+        "Âm Giới (nghĩa tiếng Việt)"
+      ],
+      "category": "name"
     }
   ],
   "answers": {
@@ -71,7 +84,14 @@
     "amb_005": {
       "choice": "Trì Chước xưng: \"Điện hạ\" (gọi Quý Thần Hi), \"tôi\" (xưng Trì Chước) | Quý Thần Hi xưng: \"Anh\" (gọi Trì Chước), \"tôi\" (xưng Quý Thần Hi)",
       "custom": null
+    },
+    "amb_002": {
+      "choice": "Nether (giữ nguyên)",
+      "custom": null,
+      "auto_propagated": true,
+      "propagated_from": "Chapter ch_007"
     }
   },
-  "answered_at": "2026-09-24T22:38:59.767775+07:00"
+  "answered_at": "2026-09-24T22:38:59.767775+07:00",
+  "updated_at": "2026-09-25T11:48:19.272717+07:00"
 }

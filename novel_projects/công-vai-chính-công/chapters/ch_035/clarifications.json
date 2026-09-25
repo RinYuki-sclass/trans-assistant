@@ -1,0 +1,157 @@
+{
+  "chapter_id": "ch_035",
+  "questions": [
+    {
+      "id": "amb_001",
+      "original": "Su Yu",
+      "suggested": "Tô Dụ",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Su Yu?",
+      "options": [
+        "Tô Dụ",
+        "Tô Vũ",
+        "Tô Du"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_002",
+      "original": "Ji Chenxi (ngôi thứ 3)",
+      "suggested": "anh",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Ji Chenxi (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "anh",
+        "cậu",
+        "hắn",
+        "y"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_003",
+      "original": "Ji Chenxi → Su Yu",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Su Yu là Cậu",
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Su Yu (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Cậu",
+        "xưng Anh - gọi Em",
+        "xưng Ta - gọi Ngươi",
+        "xưng Tôi - gọi Bạn"
+      ],
+      "category": "relationship",
+      "confidence": 0.3
+    },
+    {
+      "id": "amb_004",
+      "original": "Su Yu → Ji Chenxi",
+      "suggested": "Su Yu xưng Tôi - gọi Ji Chenxi là Tam thiếu gia",
+      "question": "Chiều 2: Su Yu xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Anh - gọi Em",
+        "xưng Tôi - gọi Cậu"
+      ],
+      "category": "relationship",
+      "confidence": 0.3
+    },
+    {
+      "id": "amb_005",
+      "original": "Ji Chenxi → Abriana",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Abriana là Cô ấy",
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Abriana (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Cô ấy",
+        "xưng Anh - gọi Cô ấy",
+        "xưng Ta - gọi Nàng"
+      ],
+      "category": "relationship",
+      "confidence": 0.3
+    },
+    {
+      "id": "amb_006",
+      "original": "Abriana → Ji Chenxi",
+      "suggested": "Abriana xưng Tôi - gọi Ji Chenxi là Anh",
+      "question": "Chiều 2: Abriana xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Cậu"
+      ],
+      "category": "relationship",
+      "confidence": 0.3
+    },
+    {
+      "id": "amb_007",
+      "original": "Bai Wei (ngôi thứ 3)",
+      "suggested": "anh",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Bai Wei (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "anh",
+        "cậu",
+        "hắn",
+        "y"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_008",
+      "original": "Bai Wei → Morningstar",
+      "suggested": "Bai Wei xưng Tôi - gọi Morningstar là Ông",
+      "question": "Chiều 1: Bai Wei xưng hô thế nào với Morningstar (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Ông",
+        "xưng Tôi - gọi Ngài",
+        "xưng Ta - gọi Ngươi",
+        "xưng Tôi - gọi Bạn"
+      ],
+      "category": "relationship",
+      "confidence": 0.3
+    },
+    {
+      "id": "amb_009",
+      "original": "Morningstar → Bai Wei",
+      "suggested": "Morningstar xưng Tôi - gọi Bai Wei là Bạch Vĩ",
+      "question": "Chiều 2: Morningstar xưng hô thế nào với Bai Wei (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Bạch Vĩ",
+        "xưng Tôi - gọi Cậu",
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Ta - gọi Ngươi"
+      ],
+      "category": "relationship",
+      "confidence": 0.3
+    },
+    {
+      "id": "amb_010",
+      "original": "Abriana",
+      "suggested": "Abriana",
+      "hanviet_name": "A Bố Lợi Á Na",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Abriana?",
+      "options": [
+        "Abriana",
+        "A Bố Lợi Á Na",
+        "An Bố Lợi Á Na"
+      ],
+      "category": "name"
+    }
+  ],
+  "answers": {
+    "amb_001": {
+      "choice": "Tô Dục",
+      "custom": null,
+      "auto_propagated": true,
+      "propagated_from": "Chapter ch_044"
+    },
+    "amb_002": {
+      "choice": "Quý Thần Hi",
+      "custom": null,
+      "auto_propagated": true,
+      "propagated_from": "Chapter ch_044"
+    }
+  },
+  "updated_at": "2026-09-25T11:48:19.691663+07:00"
+}

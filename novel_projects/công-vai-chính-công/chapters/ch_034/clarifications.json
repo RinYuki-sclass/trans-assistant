@@ -1,0 +1,280 @@
+{
+  "chapter_id": "ch_034",
+  "questions": [
+    {
+      "id": "amb_001",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Chi Zhuo là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Chi Zhuo (Ji Chenxi tự xưng là gì và gọi Chi Zhuo là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Ta - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_002",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Chi Zhuo xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Chi Zhuo xưng hô thế nào với Ji Chenxi (Chi Zhuo tự xưng là gì và gọi Ji Chenxi là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_003",
+      "original": "Ji Chenxi (ngôi thứ 3)",
+      "suggested": "Ji Chenxi (anh)",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Ji Chenxi (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "anh",
+        "cậu",
+        "y",
+        "hắn"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_004",
+      "original": "Chi Zhuo (ngôi thứ 3)",
+      "suggested": "Chi Zhuo (hắn ta)",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Chi Zhuo (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "hắn ta",
+        "hắn",
+        "anh ta",
+        "y"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_005",
+      "original": "Night Wanderer → Bai Wei",
+      "suggested": "Night Wanderer xưng Tôi - gọi Bai Wei là Cậu",
+      "confidence": 0.3,
+      "question": "Chiều 1: Night Wanderer xưng hô thế nào với Bai Wei (Night Wanderer tự xưng là gì và gọi Bai Wei là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Cậu",
+        "xưng Ta - gọi Cậu",
+        "xưng Tôi - gọi Bạch Vi"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_006",
+      "original": "Bai Wei → Night Wanderer",
+      "suggested": "Bai Wei xưng Tôi - gọi Night Wanderer là Cậu",
+      "confidence": 0.3,
+      "question": "Chiều 2: Bai Wei xưng hô thế nào với Night Wanderer (Bai Wei tự xưng là gì và gọi Night Wanderer là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Cậu",
+        "xưng Tôi - gọi Dạ Hành Giả",
+        "xưng Ta - gọi Ngươi"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_007",
+      "original": "Traveler → Bai Wei",
+      "suggested": "Traveler xưng Tôi - gọi Bai Wei là Cậu",
+      "confidence": 0.3,
+      "question": "Chiều 1: Traveler xưng hô thế nào với Bai Wei (Traveler tự xưng là gì và gọi Bai Wei là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Cậu",
+        "xưng Ta - gọi Cậu",
+        "xưng Tôi - gọi Bạch Vi"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_008",
+      "original": "Bai Wei → Traveler",
+      "suggested": "Bai Wei xưng Tôi - gọi Traveler là Cậu",
+      "confidence": 0.3,
+      "question": "Chiều 2: Bai Wei xưng hô thế nào với Traveler (Bai Wei tự xưng là gì và gọi Traveler là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Cậu",
+        "xưng Tôi - gọi Lữ Khách",
+        "xưng Ta - gọi Ngươi"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_009",
+      "original": "Morning Star → Bai Wei",
+      "suggested": "Morning Star xưng Tôi - gọi Bai Wei là Cậu",
+      "confidence": 0.3,
+      "question": "Chiều 1: Morning Star xưng hô thế nào với Bai Wei (Morning Star tự xưng là gì và gọi Bai Wei là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Cậu",
+        "xưng Ta - gọi Cậu",
+        "xưng Tôi - gọi Bạch Vi"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_010",
+      "original": "Bai Wei → Morning Star",
+      "suggested": "Bai Wei xưng Tôi - gọi Morning Star là Cậu",
+      "confidence": 0.3,
+      "question": "Chiều 2: Bai Wei xưng hô thế nào với Morning Star (Bai Wei tự xưng là gì và gọi Morning Star là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Cậu",
+        "xưng Tôi - gọi Sao Mai",
+        "xưng Ta - gọi Ngươi"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_011",
+      "original": "Wild Follower → Bai Wei",
+      "suggested": "Wild Follower xưng Tôi - gọi Bai Wei là Cậu",
+      "confidence": 0.3,
+      "question": "Chiều 1: Wild Follower xưng hô thế nào với Bai Wei (Wild Follower tự xưng là gì và gọi Bai Wei là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Cậu",
+        "xưng Ta - gọi Cậu",
+        "xưng Tôi - gọi Bạch Vi"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_012",
+      "original": "Bai Wei → Wild Follower",
+      "suggested": "Bai Wei xưng Tôi - gọi Wild Follower là Cậu",
+      "confidence": 0.3,
+      "question": "Chiều 2: Bai Wei xưng hô thế nào với Wild Follower (Bai Wei tự xưng là gì và gọi Wild Follower là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Cậu",
+        "xưng Tôi - gọi Hoang Dã Theo Đuổi",
+        "xưng Ta - gọi Ngươi"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_013",
+      "original": "Bai Wei → Queqi",
+      "suggested": "Bai Wei xưng Tôi - gọi Queqi là Cậu",
+      "confidence": 0.3,
+      "question": "Chiều 1: Bai Wei xưng hô thế nào với Queqi (Bai Wei tự xưng là gì và gọi Queqi là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Cậu",
+        "xưng Ta - gọi Cậu",
+        "xưng Tôi - gọi Khước Khí"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_014",
+      "original": "Queqi → Bai Wei",
+      "suggested": "Queqi xưng Tôi - gọi Bai Wei là Cậu",
+      "confidence": 0.3,
+      "question": "Chiều 2: Queqi xưng hô thế nào với Bai Wei (Queqi tự xưng là gì và gọi Bai Wei là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Cậu",
+        "xưng Ta - gọi Cậu",
+        "xưng Tôi - gọi Bạch Vi"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_015",
+      "original": "Su Yu → Ji Chenxi",
+      "suggested": "Su Yu xưng Tôi - gọi Ji Chenxi là Cậu",
+      "confidence": 0.3,
+      "question": "Chiều 1: Su Yu xưng hô thế nào với Ji Chenxi (Su Yu tự xưng là gì và gọi Ji Chenxi là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Cậu",
+        "xưng Anh - gọi Cậu",
+        "xưng Tôi - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_016",
+      "original": "Ji Chenxi → Su Yu",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Su Yu là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 2: Ji Chenxi xưng hô thế nào với Su Yu (Ji Chenxi tự xưng là gì và gọi Su Yu là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Ta - gọi Anh",
+        "xưng Tôi - gọi Tô Dục"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_017",
+      "original": "Bai Wei (ngôi thứ 3)",
+      "suggested": "Bai Wei (anh)",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Bai Wei (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "anh",
+        "cậu",
+        "y",
+        "hắn"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_018",
+      "original": "the first prince",
+      "suggested": "Đệ nhất hoàng tử",
+      "hanviet_name": "Đệ nhất hoàng tử",
+      "gender": "Male",
+      "role": "Behind the assassination attempt on the Third Prince",
+      "description": "Được cho là chủ mưu đứng sau vụ ám sát Tam hoàng tử.",
+      "category": "name"
+    },
+    {
+      "id": "amb_019",
+      "original": "the first prince (ngôi thứ 3)",
+      "suggested": "Đệ nhất hoàng tử (hắn)",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Đệ nhất hoàng tử (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "hắn",
+        "y",
+        "anh ta",
+        "cậu ta"
+      ],
+      "category": "pronoun"
+    }
+  ],
+  "answers": {
+    "amb_001": {
+      "choice": "Tôi - Anh",
+      "custom": null,
+      "auto_propagated": true,
+      "propagated_from": "Chapter ch_044"
+    },
+    "amb_002": {
+      "choice": "Tôi - Anh",
+      "custom": null,
+      "auto_propagated": true,
+      "propagated_from": "Chapter ch_044"
+    },
+    "amb_003": {
+      "choice": "Quý Thần Hi",
+      "custom": null,
+      "auto_propagated": true,
+      "propagated_from": "Chapter ch_044"
+    },
+    "amb_004": {
+      "choice": "hắn ta / hắn (khi tường thuật), anh ta (khi được nhân vật khác nhắc đến)",
+      "custom": null,
+      "auto_propagated": true,
+      "propagated_from": "Chapter ch_044"
+    }
+  },
+  "updated_at": "2026-09-25T11:48:19.675598+07:00"
+}

@@ -57,6 +57,20 @@
         "Ngôi thứ ba: 'hắn' - 'y'"
       ],
       "category": "relationship"
+    },
+    {
+      "id": "amb_002",
+      "original": "Shadow",
+      "suggested": "Ảnh",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Shadow?",
+      "options": [
+        "Ảnh (Hán-Việt của Shadow, nghĩa là bóng)",
+        "Bóng (thuần Việt)",
+        "Shadow (giữ nguyên)",
+        "U Ảnh (thêm từ để tạo cảm giác tên)"
+      ],
+      "category": "name"
     }
   ],
   "answers": {
@@ -75,7 +89,14 @@
     "amb_005": {
       "choice": "Trì Chước: 'ta' / Shadow: 'thuộc hạ' (xưng hô với chủ)",
       "custom": null
+    },
+    "amb_002": {
+      "choice": "Shadow (giữ nguyên)",
+      "custom": null,
+      "auto_propagated": true,
+      "propagated_from": "Chapter ch_011"
     }
   },
-  "answered_at": "2026-09-24T22:54:13.050519+07:00"
+  "answered_at": "2026-09-24T22:54:13.050519+07:00",
+  "updated_at": "2026-09-25T11:48:19.277726+07:00"
 }
