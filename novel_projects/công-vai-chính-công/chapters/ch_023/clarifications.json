@@ -1,0 +1,89 @@
+{
+  "chapter_id": "ch_023",
+  "questions": [
+    {
+      "id": "amb_001",
+      "original": "Bai Han",
+      "suggested": "Bạch Hàn",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Bai Han?",
+      "options": [
+        "Bạch Hàn",
+        "Bạch Hãn",
+        "Bái Hán",
+        "Bạch An"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_002",
+      "original": "Bai Han (ngôi thứ 3)",
+      "suggested": "hắn",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Bai Han (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "hắn",
+        "y",
+        "gã",
+        "anh ta",
+        "cậu ta"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_003",
+      "original": "Quý Thần Hi → Trì Chước",
+      "suggested": "Quý Thần Hi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Quý Thần Hi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Trì tổng",
+        "xưng Ta - gọi Ngươi",
+        "xưng Tôi - gọi Cậu"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_004",
+      "original": "Trì Chước → Quý Thần Hi",
+      "suggested": "Trì Chước xưng Tôi - gọi Quý Thần Hi là Điện hạ / Hoàng tử",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Quý Thần Hi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Hoàng tử",
+        "xưng Tôi - gọi Cậu",
+        "xưng Tôi - gọi Thiếu gia"
+      ],
+      "category": "relationship"
+    }
+  ],
+  "answers": {
+    "amb_001": {
+      "choice": "Bạch Hàn",
+      "custom": null,
+      "auto_propagated": true,
+      "propagated_from": "Chapter ch_031"
+    },
+    "amb_002": {
+      "choice": "Bạch Hàn",
+      "custom": null,
+      "auto_propagated": true,
+      "propagated_from": "Chapter ch_030"
+    },
+    "amb_003": {
+      "choice": "Tôi - Anh",
+      "custom": null,
+      "auto_propagated": true,
+      "propagated_from": "Chapter ch_023"
+    },
+    "amb_004": {
+      "choice": "Tôi - Anh",
+      "custom": null,
+      "auto_propagated": true,
+      "propagated_from": "Chapter ch_023"
+    }
+  },
+  "updated_at": "2026-09-25T11:48:19.390476+07:00"
+}

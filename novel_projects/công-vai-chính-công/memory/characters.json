@@ -6,7 +6,8 @@
     "aliases": [
       "Su Yu",
       "Tô Dục",
-      "Tô Vũ"
+      "Tô Vũ",
+      "蘇宇"
     ],
     "honorifics": "Uses 'cậu' for Quý Thần Hi",
     "speech_style": "Informal, teasing, slightly boisterous, direct",
@@ -19,7 +20,9 @@
     "third_person_pronoun": "cậu",
     "aliases": [
       "Bai Anran",
-      "Bạch An Nhiên"
+      "Bạch An Nhiên",
+      "白安然",
+      "Anran"
     ],
     "honorifics": "cậu",
     "speech_style": "Lịch sự, coi trọng lễ nghi, dịu dàng, điềm tĩnh",
@@ -41,15 +44,22 @@
     "name": "Chi Zhuo",
     "hanviet_name": "Trì Chước",
     "gender": "Male",
-    "third_person_pronoun": "hắn ta / hắn (khi tường thuật), anh ta (khi được nhân vật khác nhắc đến)",
+    "third_person_pronoun": "hắn (khi kể chuyện/tường thuật, TUYỆT ĐỐI không dùng 'hắn ta'), gã đó / hắn ta / tên đó (khi kẻ thù nhắc đến)",
     "aliases": [
       "Chi Zhuo",
       "Trì Chước",
       "Chi Zhou",
       "người đàn ông",
-      "Trì Chước (池灼)"
+      "Trì Chước (池灼)",
+      "Mamba",
+      "Trì Trác",
+      "Xích Trác",
+      "遲卓",
+      "池卓",
+      "遲琢",
+      "赤卓"
     ],
-    "honorifics": "hắn ta / hắn (tường thuật), anh ta (nhân vật khác nhắc đến), anh (Quý Thần Hi gọi đối diện)",
+    "honorifics": "hắn (kể chuyện/tường thuật), gã đó / hắn ta / tên đó (khi thù địch), anh (Quý Thần Hi gọi đối diện)",
     "speech_style": "Aggressive, demanding, guttural, struggling with instinct",
     "notes": "An Alpha with black hair and strong pheromones (tequila scent). Highly aggressive and instinct-driven, struggles to maintain lý trí (reason) when encountering Quý Thần Hi."
   },
@@ -66,7 +76,17 @@
       "Chenxi",
       "Quý Thần Hi (季晨曦)",
       "Điện hạ",
-      "Quý Thần Hi (季辰曦)"
+      "Quý Thần Hi (季辰曦)",
+      "Little kitten",
+      "Kỷ Thần Hi",
+      "紀神熙",
+      "Cơ Thần Hi",
+      "Kỷ Trầm Hi",
+      "季辰熙",
+      "紀晨曦",
+      "姬辰熙",
+      "Tam hoàng tử",
+      "Bạch Vi"
     ],
     "honorifics": "anh (tường thuật), Tam thiếu gia (Tô Dục gọi)",
     "speech_style": "Elegant, reserved, quiet, slightly cold/unimpressed",
@@ -172,14 +192,21 @@
     "name": "Amis",
     "hanviet_name": "Amis",
     "gender": "female",
-    "third_person_pronoun": "",
+    "third_person_pronoun": "hắn",
     "aliases": [
       "Amis",
-      "A Mễ Tư"
+      "A Mễ Tư",
+      "Amis (tên dịch)",
+      "hắn",
+      "Scorpion",
+      "Hạt Tử",
+      "Bích Hạt",
+      "Poison Scorpion",
+      "Cát phó đội trưởng"
     ],
-    "honorifics": "",
-    "speech_style": "",
-    "notes": ""
+    "honorifics": "Thuyền trưởng (Captain)",
+    "speech_style": "Authoritative",
+    "notes": "Người báo cáo thông tin cho Phó đội trưởng Zuo Xian."
   },
   {
     "name": "Middle-aged voice",
@@ -218,9 +245,10 @@
     "third_person_pronoun": "",
     "aliases": [
       "Younger man",
-      "Chàng trai trẻ"
+      "Chàng trai trẻ",
+      "Young Man"
     ],
-    "honorifics": "",
+    "honorifics": "anh",
     "speech_style": "Not specified",
     "notes": "Interacts with a neural interface."
   },
@@ -246,7 +274,7 @@
       "Bạch Hàn",
       "Bạch Hàn (白寒)"
     ],
-    "honorifics": "",
+    "honorifics": "cô ấy",
     "speech_style": "Factual, informative",
     "notes": "Beta, thuộc hạ của Trì Chước, có kỹ năng về hệ thống."
   },
@@ -377,47 +405,505 @@
     "name": "Scorpion",
     "hanviet_name": "Bò Cạp",
     "gender": "Male",
-    "third_person_pronoun": "",
+    "third_person_pronoun": "hắn",
     "aliases": [
       "Scorpion",
       "Bò Cạp"
     ],
     "honorifics": "",
     "speech_style": "",
-    "notes": ""
+    "notes": "Đội trưởng của băng hải tặc tinh tế. Có phong thái uy quyền, điềm tĩnh nhưng cũng cảm thấy bất an về Ge."
   },
   {
     "name": "Zuo Xian",
     "hanviet_name": "Tả Hiền",
     "gender": "Male",
-    "third_person_pronoun": "",
+    "third_person_pronoun": "hắn",
     "aliases": [
       "Zuo Xian",
-      "Tả Hiền"
+      "Tả Hiền",
+      "Zuo Xian (tên dịch)",
+      "hắn"
     ],
     "honorifics": "",
     "speech_style": "",
-    "notes": ""
+    "notes": "Người ra lệnh truy đuổi Trì Chước, có liên quan đến việc pheromone của Trì Chước trở nên bất ổn."
   },
   {
     "name": "Thành",
     "hanviet_name": "Thành",
     "gender": "Male",
-    "third_person_pronoun": "",
+    "third_person_pronoun": "hắn",
     "aliases": [
       "Thành"
+    ],
+    "honorifics": "",
+    "speech_style": "",
+    "notes": "Người đàn ông râu quai nón, một trong hai lính trinh sát đầu tiên phát hiện pheromone của Trì Chước."
+  },
+  {
+    "name": "Người đàn ông mũi khoằm",
+    "hanviet_name": "Người đàn ông mũi khoằm",
+    "gender": "Male",
+    "third_person_pronoun": "hắn",
+    "aliases": [
+      "Người đàn ông mũi khoằm",
+      "Người đàn ông mũi khoằm (tên dịch)"
+    ],
+    "honorifics": "",
+    "speech_style": "",
+    "notes": "Người đàn ông có mũi khoằm, rất nhạy cảm với mùi hương, bị Quý Thần Hi phục kích."
+  },
+  {
+    "name": "Thành (tên dịch)",
+    "hanviet_name": "Trình",
+    "gender": "",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Thành (tên dịch)",
+      "Trình"
     ],
     "honorifics": "",
     "speech_style": "",
     "notes": ""
   },
   {
-    "name": "Người đàn ông mũi khoằm",
+    "name": "Ge",
+    "hanviet_name": "Cơ",
+    "gender": "Male",
+    "third_person_pronoun": "Ca ca",
+    "aliases": [
+      "Ge",
+      "Cơ",
+      "Ca",
+      "Cát"
+    ],
+    "honorifics": "",
+    "speech_style": "",
+    "notes": "Một thanh niên mới gia nhập băng hải tặc tinh tế, sau này là Phó đội trưởng. Ngoại hình sắc sảo, nổi loạn, tính cách xảo quyệt và có phần điên rồ."
+  },
+  {
+    "name": "Woman (unnamed)",
+    "hanviet_name": "Người phụ nữ",
+    "gender": "female",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Woman (unnamed)",
+      "Người phụ nữ"
+    ],
+    "honorifics": "",
+    "speech_style": "gentle, like the wind",
+    "notes": "Appears in Kỷ Thần Hi's memory, interacting with him when he was a child and found an injured sparrow."
+  },
+  {
+    "name": "Woman",
+    "hanviet_name": "",
+    "gender": "female",
+    "third_person_pronoun": "cô",
+    "aliases": [
+      "Woman"
+    ],
+    "honorifics": "",
+    "speech_style": "",
+    "notes": "A graceful, soft-voiced woman who was important to young Ji Chenxi. She called him 'Little Rose' and initially saw him as kind and gentle, but later saw through his facade, leading to a painful memory for Ji Chenxi."
+  },
+  {
+    "name": "Little Rose (nickname for young Ji Chenxi)",
+    "hanviet_name": "Tiểu Hoa Hồng",
+    "gender": "",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Little Rose (nickname for young Ji Chenxi)",
+      "Tiểu Hoa Hồng"
+    ],
+    "honorifics": "",
+    "speech_style": "",
+    "notes": ""
+  },
+  {
+    "name": "Little Rose",
+    "hanviet_name": "",
+    "gender": "male",
+    "third_person_pronoun": "cậu",
+    "aliases": [
+      "Little Rose"
+    ],
+    "honorifics": "",
+    "speech_style": "",
+    "notes": "The young version of Ji Chenxi, who appeared innocent and kind-hearted but was secretly calculating, trying to please the woman in his memories. This persona was later shattered."
+  },
+  {
+    "name": "Deputy Ge",
+    "hanviet_name": "Phó đội trưởng Cơ",
+    "gender": "Male",
+    "third_person_pronoun": "gã",
+    "aliases": [
+      "Deputy Ge",
+      "Phó đội trưởng Cơ",
+      "Phó Qua"
+    ],
+    "honorifics": "",
+    "speech_style": "",
+    "notes": "A young, independent, and skilled member of the search party. He seems to subtly challenge Captain Scorpion's authority but is effective in his actions."
+  },
+  {
+    "name": "Người đồng hành của Phó Qua",
+    "hanviet_name": "",
+    "gender": "",
+    "third_person_pronoun": "anh ta",
+    "aliases": [
+      "Người đồng hành của Phó Qua"
+    ],
+    "honorifics": "",
+    "speech_style": "",
+    "notes": ""
+  },
+  {
+    "name": "Phó Ge",
     "hanviet_name": "",
     "gender": "Male",
     "third_person_pronoun": "",
     "aliases": [
-      "Người đàn ông mũi khoằm"
+      "Phó Ge"
+    ],
+    "honorifics": "Phó Ge (Ge's subordinate/junior)",
+    "speech_style": "Slightly defiant, then cooperative",
+    "notes": "A young man, possibly a subordinate or associate of Scorpion. Skilled with pheromone detection. Seems to disregard authority initially but complies."
+  },
+  {
+    "name": "Cấp dưới khác",
+    "hanviet_name": "",
+    "gender": "Unknown",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Cấp dưới khác"
+    ],
+    "honorifics": "",
+    "speech_style": "Respectful",
+    "notes": "A subordinate of Scorpion, skilled in piloting, sits next to Scorpion in the machine."
+  },
+  {
+    "name": "Người bạn đồng hành",
+    "hanviet_name": "",
+    "gender": "Unknown",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Người bạn đồng hành"
+    ],
+    "honorifics": "",
+    "speech_style": "Respectful",
+    "notes": "Accompanies Phó Ge. Recognizes Phó Ge's purposeful actions."
+  },
+  {
+    "name": "Người quan sát",
+    "hanviet_name": "",
+    "gender": "Unknown",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Người quan sát"
+    ],
+    "honorifics": "Phó Ge",
+    "speech_style": "Whispering, questioning",
+    "notes": "Asks Phó Ge if he can sense the pheromone."
+  },
+  {
+    "name": "Operator",
+    "hanviet_name": "",
+    "gender": "Male",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Operator"
+    ],
+    "honorifics": "",
+    "speech_style": "",
+    "notes": ""
+  },
+  {
+    "name": "Kẻ địch",
+    "hanviet_name": "",
+    "gender": "Male",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Kẻ địch"
+    ],
+    "honorifics": "",
+    "speech_style": "",
+    "notes": ""
+  },
+  {
+    "name": "Anh trai Quý Thần Hi",
+    "hanviet_name": "",
+    "gender": "Male",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Anh trai Quý Thần Hi"
+    ],
+    "honorifics": "",
+    "speech_style": "",
+    "notes": ""
+  },
+  {
+    "name": "Bo Han",
+    "hanviet_name": "Bạc Hàn",
+    "gender": "Male",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Bo Han",
+      "Bạc Hàn"
+    ],
+    "honorifics": "",
+    "speech_style": "",
+    "notes": ""
+  },
+  {
+    "name": "Trì Châu",
+    "hanviet_name": "Xích Châu",
+    "gender": "male",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Trì Châu",
+      "Xích Châu",
+      "Xí Châu"
+    ],
+    "honorifics": "anh (to younger male), em (to Ji Chenxi)",
+    "speech_style": "calm, deep, even-toned",
+    "notes": "Referred to as 'alpha cấp SSS'. Wields a black mamba snake."
+  },
+  {
+    "name": "Ông nội của Bạch An Nhiên",
+    "hanviet_name": "Bạch An Nhiên gia gia",
+    "gender": "Male",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Ông nội của Bạch An Nhiên",
+      "Bạch An Nhiên gia gia"
+    ],
+    "honorifics": "",
+    "speech_style": "",
+    "notes": ""
+  },
+  {
+    "name": "Cha của Bạch An Nhiên",
+    "hanviet_name": "Bạch An Nhiên phụ thân",
+    "gender": "Male",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Cha của Bạch An Nhiên",
+      "Bạch An Nhiên phụ thân"
+    ],
+    "honorifics": "",
+    "speech_style": "",
+    "notes": ""
+  },
+  {
+    "name": "Cô của Bạch An Nhiên",
+    "hanviet_name": "Bạch An Nhiên cô cô",
+    "gender": "Female",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Cô của Bạch An Nhiên",
+      "Bạch An Nhiên cô cô"
+    ],
+    "honorifics": "",
+    "speech_style": "",
+    "notes": ""
+  },
+  {
+    "name": "Gu Hechuan",
+    "hanviet_name": "Cố Hách Xuyên",
+    "gender": "Male",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Gu Hechuan",
+      "Cố Hách Xuyên",
+      "顧合川",
+      "Cố Hợp Xuyên",
+      "Cố Hà Xuyên"
+    ],
+    "honorifics": "none",
+    "speech_style": "unknown",
+    "notes": "Close friend of Ji Chenxi and Su Yu. Fourth son of the Gu family, one of the four great families. Designated heir. Has two older brothers, an older sister, a beta, and two omegas above him. The youngest son."
+  },
+  {
+    "name": "The Emperor",
+    "hanviet_name": "Hoàng đế",
+    "gender": "Male",
+    "third_person_pronoun": "",
+    "aliases": [
+      "The Emperor",
+      "Hoàng đế"
+    ],
+    "honorifics": "",
+    "speech_style": "",
+    "notes": ""
+  },
+  {
+    "name": "Old Steward",
+    "hanviet_name": "Quản gia già",
+    "gender": "Male",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Old Steward",
+      "Quản gia già"
+    ],
+    "honorifics": "",
+    "speech_style": "",
+    "notes": ""
+  },
+  {
+    "name": "Night Wanderer",
+    "hanviet_name": "Dạ Hành Giả",
+    "gender": "Unknown",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Night Wanderer",
+      "Dạ Hành Giả"
+    ],
+    "honorifics": "",
+    "speech_style": "",
+    "notes": ""
+  },
+  {
+    "name": "Traveler",
+    "hanviet_name": "Lữ Khách",
+    "gender": "Unknown",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Traveler",
+      "Lữ Khách",
+      "Traveler (giữ nguyên)"
+    ],
+    "honorifics": "",
+    "speech_style": "",
+    "notes": ""
+  },
+  {
+    "name": "Morning Star",
+    "hanviet_name": "Sao Mai",
+    "gender": "Unknown",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Morning Star",
+      "Sao Mai"
+    ],
+    "honorifics": "",
+    "speech_style": "",
+    "notes": ""
+  },
+  {
+    "name": "Wild Follower",
+    "hanviet_name": "Hoang Dã Theo Đuổi",
+    "gender": "Unknown",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Wild Follower",
+      "Hoang Dã Theo Đuổi"
+    ],
+    "honorifics": "",
+    "speech_style": "",
+    "notes": ""
+  },
+  {
+    "name": "Queqi",
+    "hanviet_name": "Khước Khí",
+    "gender": "Unknown",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Queqi",
+      "Khước Khí"
+    ],
+    "honorifics": "",
+    "speech_style": "",
+    "notes": ""
+  },
+  {
+    "name": "Bai Wei",
+    "hanviet_name": "Bạch Vi",
+    "gender": "Male",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Bai Wei",
+      "Bạch Vi"
+    ],
+    "honorifics": "cậu (referring to Manye Zhe and Que Qi)",
+    "speech_style": "polite, reserved",
+    "notes": "Mysterious character. The person Quý Thần Hi is impersonating. Mentioned by Tô Dục as a wealthy Omega with South African lavender pheromones. Later revealed to be Quý Thần Hi."
+  },
+  {
+    "name": "The first prince",
+    "hanviet_name": "Đệ nhất hoàng tử",
+    "gender": "Male",
+    "third_person_pronoun": "",
+    "aliases": [
+      "The first prince",
+      "Đệ nhất hoàng tử"
+    ],
+    "honorifics": "",
+    "speech_style": "",
+    "notes": ""
+  },
+  {
+    "name": "Manye Zhe",
+    "hanviet_name": "Mạn Dạ Triết",
+    "gender": "Male",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Manye Zhe",
+      "Mạn Dạ Triết",
+      "Mãnh Dã Triết"
+    ],
+    "honorifics": "",
+    "speech_style": "enthusiastic, teasing",
+    "notes": "Part of the temporary small group with Bai Wei and Que Qi. Seems to know Que Qi and Bai Wei online."
+  },
+  {
+    "name": "Que Qi",
+    "hanviet_name": "Khước Kỳ",
+    "gender": "Unknown",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Que Qi",
+      "Khước Kỳ",
+      "Lục Sơ Nhiên"
+    ],
+    "honorifics": "anh (referring to Manye Zhe)",
+    "speech_style": "slightly annoyed, teasing, private",
+    "notes": "Part of the temporary small group. Revealed to be Lục Sơ Nhiên, from the twelfth Star Immortal, a female Omega. Knows Quý Thần Hi for many years and they have supported each other in family power struggles. Wealthy, with South African lavender pheromones. Tricked Manye Zhe into thinking Bai Wei was an Omega."
+  },
+  {
+    "name": "Lu Churan",
+    "hanviet_name": "Lục Sở Nhiên",
+    "gender": "Female",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Lu Churan",
+      "Lục Sở Nhiên"
+    ],
+    "honorifics": "",
+    "speech_style": "",
+    "notes": ""
+  },
+  {
+    "name": "Crow",
+    "hanviet_name": "Crow (giữ nguyên)",
+    "gender": "Male",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Crow",
+      "Crow (giữ nguyên)"
+    ],
+    "honorifics": "",
+    "speech_style": "",
+    "notes": ""
+  },
+  {
+    "name": "Wild Fool",
+    "hanviet_name": "Wild Fool (giữ nguyên)",
+    "gender": "Unknown",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Wild Fool",
+      "Wild Fool (giữ nguyên)"
     ],
     "honorifics": "",
     "speech_style": "",

@@ -1,0 +1,98 @@
+{
+  "chapter_id": "ch_030",
+  "questions": [
+    {
+      "id": "amb_001",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 1: Trì Chước xưng hô thế nào với Ji Chenxi (Trì Chước tự xưng là gì và gọi Ji Chenxi là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Ta - gọi Điện hạ",
+        "xưng Anh - gọi Cậu",
+        "xưng Ta - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_002",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 2: Ji Chenxi xưng hô thế nào với Trì Chước (Ji Chenxi tự xưng là gì và gọi Trì Chước là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Ta - gọi Anh",
+        "xưng Em - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_003",
+      "original": "Bai Han (ngôi thứ 3)",
+      "suggested": "Bạch Hàn (hắn)",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Bạch Hàn (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "cô",
+        "nàng",
+        "y",
+        "ả",
+        "chị",
+        "Bạch Hàn"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_004",
+      "original": "Bai Han → Ji Chenxi",
+      "suggested": "Bạch Hàn xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 1: Bạch Hàn xưng hô thế nào với Ji Chenxi (Bạch Hàn tự xưng là gì và gọi Ji Chenxi là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Cậu",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng thuộc hạ - gọi Điện hạ"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_005",
+      "original": "Ji Chenxi → Bai Han",
+      "suggested": "Ji Chenxi xưng Ta - gọi Bạch Hàn là Cô",
+      "confidence": 0.3,
+      "question": "Chiều 2: Ji Chenxi xưng hô thế nào với Bạch Hàn (Ji Chenxi tự xưng là gì và gọi Bạch Hàn là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Ta - gọi Cô",
+        "xưng Tôi - gọi Cô",
+        "xưng Ta - gọi Nàng",
+        "xưng Tôi - gọi Nàng"
+      ],
+      "category": "relationship"
+    }
+  ],
+  "answers": {
+    "amb_001": {
+      "choice": "Tôi - Anh",
+      "custom": null,
+      "auto_propagated": true,
+      "propagated_from": "Chapter ch_044"
+    },
+    "amb_002": {
+      "choice": "Tôi - Anh",
+      "custom": null,
+      "auto_propagated": true,
+      "propagated_from": "Chapter ch_044"
+    },
+    "amb_003": {
+      "choice": "Bạch Hàn",
+      "custom": null,
+      "auto_propagated": true,
+      "propagated_from": "Chapter ch_030"
+    }
+  },
+  "updated_at": "2026-09-25T11:48:19.466476+07:00"
+}

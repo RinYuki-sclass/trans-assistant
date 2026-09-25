@@ -103,7 +103,7 @@
     "original": "SSS-rank alpha",
     "translation": "Alpha cấp SSS",
     "hanviet": "",
-    "category": "other",
+    "category": "rank/status",
     "confidence": 0.7,
     "approved": true,
     "chapter_first_seen": "ch_001",
@@ -918,7 +918,7 @@
     "original": "snow leopard",
     "translation": "báo tuyết",
     "hanviet": "Tuyết báo",
-    "category": "other",
+    "category": "animal",
     "confidence": 0.8,
     "approved": true,
     "chapter_first_seen": "ch_007"
@@ -1115,7 +1115,7 @@
   {
     "original": "Light-brain",
     "translation": "Thiết bị quang não",
-    "hanviet": "",
+    "hanviet": "光脑",
     "category": "item",
     "confidence": 0.0,
     "approved": true,
@@ -1124,7 +1124,7 @@
   {
     "original": "Pheromone detector",
     "translation": "Máy dò Pheromone",
-    "hanviet": "",
+    "hanviet": "Thiết bị dò tìm tin tức tố",
     "category": "item",
     "confidence": 0.0,
     "approved": true,
@@ -1174,5 +1174,1157 @@
     "confidence": 0.7,
     "approved": true,
     "chapter_first_seen": "ch_015"
+  },
+  {
+    "original": "Thành (ngôi thứ 3)",
+    "translation": "hắn",
+    "hanviet": "",
+    "category": "pronoun",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_013"
+  },
+  {
+    "original": "Người đàn ông mũi khoằm → Thành",
+    "translation": "xưng Tôi - gọi Anh",
+    "hanviet": "",
+    "category": "relationship",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_013"
+  },
+  {
+    "original": "Amis → Zuo Xian",
+    "translation": "xưng Tôi - gọi Phó đội trưởng",
+    "hanviet": "",
+    "category": "relationship",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_013"
+  },
+  {
+    "original": "Zuo Xian → Amis",
+    "translation": "xưng Ta - gọi Cậu",
+    "hanviet": "",
+    "category": "relationship",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_013"
+  },
+  {
+    "original": "Zuo Xian → Người đàn ông mũi khoằm",
+    "translation": "xưng Ta - gọi Ngươi",
+    "hanviet": "",
+    "category": "relationship",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_013"
+  },
+  {
+    "original": "Ge (ngôi thứ 3)",
+    "translation": "Ca ca",
+    "hanviet": "",
+    "category": "pronoun",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_016"
+  },
+  {
+    "original": "Ge → Scorpion",
+    "translation": "xưng Tôi - gọi Ngài",
+    "hanviet": "",
+    "category": "relationship",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_016"
+  },
+  {
+    "original": "Scorpion → Ge",
+    "translation": "xưng Ta - gọi Phó đội trưởng Ge",
+    "hanviet": "",
+    "category": "relationship",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_016"
+  },
+  {
+    "original": "Woman (ngôi thứ 3)",
+    "translation": "cô",
+    "hanviet": "",
+    "category": "pronoun",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_017"
+  },
+  {
+    "original": "Little Rose (ngôi thứ 3)",
+    "translation": "cậu",
+    "hanviet": "",
+    "category": "pronoun",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_017"
+  },
+  {
+    "original": "Woman → Little Rose (Quý Thần Hi lúc nhỏ)",
+    "translation": "xưng Ta - gọi Con",
+    "hanviet": "",
+    "category": "relationship",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_017"
+  },
+  {
+    "original": "Little Rose (Quý Thần Hi lúc nhỏ) → Woman",
+    "translation": "xưng Con - gọi Người",
+    "hanviet": "",
+    "category": "relationship",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_017"
+  },
+  {
+    "original": "Deputy Ge (ngôi thứ 3)",
+    "translation": "gã",
+    "hanviet": "",
+    "category": "pronoun",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_019"
+  },
+  {
+    "original": "Người đồng hành của Phó Qua (ngôi thứ 3)",
+    "translation": "anh ta",
+    "hanviet": "",
+    "category": "pronoun",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_019"
+  },
+  {
+    "original": "Deputy Ge → Scorpion",
+    "translation": "xưng Tôi - gọi Đội trưởng",
+    "hanviet": "",
+    "category": "relationship",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_019"
+  },
+  {
+    "original": "spiritual body",
+    "translation": "linh thể",
+    "hanviet": "Linh thể",
+    "category": "concept",
+    "confidence": 0.7,
+    "approved": true,
+    "chapter_first_seen": "ch_017"
+  },
+  {
+    "original": "protective suit",
+    "translation": "bộ đồ bảo hộ",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 0.7,
+    "approved": true,
+    "chapter_first_seen": "ch_017"
+  },
+  {
+    "original": "quyến rũ",
+    "translation": "seduce",
+    "hanviet": "",
+    "category": "action",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_017"
+  },
+  {
+    "original": "nhãn kỳ quái",
+    "translation": "weird labels",
+    "hanviet": "",
+    "category": "concept",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_017"
+  },
+  {
+    "original": "linh lực",
+    "translation": "spiritual power",
+    "hanviet": "",
+    "category": "ability",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_017"
+  },
+  {
+    "original": "châu chấu",
+    "translation": "grasshopper",
+    "hanviet": "",
+    "category": "animal",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_017"
+  },
+  {
+    "original": "chim sẻ",
+    "translation": "sparrow",
+    "hanviet": "",
+    "category": "animal",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_017"
+  },
+  {
+    "original": "black protective suit",
+    "translation": "bộ đồ bảo hộ màu đen",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 0.0,
+    "approved": true,
+    "chapter_first_seen": "ch_018"
+  },
+  {
+    "original": "Adam's apple",
+    "translation": "yết hầu",
+    "hanviet": "Yết hầu",
+    "category": "other",
+    "confidence": 0.0,
+    "approved": true,
+    "chapter_first_seen": "ch_018"
+  },
+  {
+    "original": "black decorative bow",
+    "translation": "nơ trang trí màu đen",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 0.0,
+    "approved": true,
+    "chapter_first_seen": "ch_018"
+  },
+  {
+    "original": "silk strip",
+    "translation": "dải lụa",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 0.0,
+    "approved": true,
+    "chapter_first_seen": "ch_018"
+  },
+  {
+    "original": "hot compress",
+    "translation": "chườm nóng",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 0.0,
+    "approved": true,
+    "chapter_first_seen": "ch_018"
+  },
+  {
+    "original": "koi-glass bead",
+    "translation": "hạt thủy tinh cá chép koi",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 0.0,
+    "approved": true,
+    "chapter_first_seen": "ch_018"
+  },
+  {
+    "original": "Quả táo của Trì Trác",
+    "translation": "Trì Trác's Adam's apple",
+    "hanviet": "遲卓的喉結",
+    "category": "anatomy",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_018"
+  },
+  {
+    "original": "nơ trang trí",
+    "translation": "decorative bow",
+    "hanviet": "裝飾領結",
+    "category": "clothing accessory",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_018"
+  },
+  {
+    "original": "Red Scorpion Star Bandits",
+    "translation": "Băng cướp Sao Bò Cạp Đỏ",
+    "hanviet": "Hồng Hạt Tinh Đạo Đoàn",
+    "category": "faction",
+    "confidence": 0.7,
+    "approved": true,
+    "chapter_first_seen": "ch_019"
+  },
+  {
+    "original": "khuyên môi",
+    "translation": "lip piercing",
+    "hanviet": "",
+    "category": "Accessory",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_019"
+  },
+  {
+    "original": "Phó Ge",
+    "translation": "Ge's subordinate/junior",
+    "hanviet": "",
+    "category": "Title/Rank",
+    "confidence": 0.8,
+    "approved": true,
+    "chapter_first_seen": "ch_019"
+  },
+  {
+    "original": "Cướp Sao Bọ Cạp Đỏ",
+    "translation": "Red Scorpion Star Bands",
+    "hanviet": "",
+    "category": "Organization Name",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_019"
+  },
+  {
+    "original": "Spiritual threads",
+    "translation": "Linh tuyến",
+    "hanviet": "Linh tuyến",
+    "category": "skill",
+    "confidence": 0.7,
+    "approved": true,
+    "chapter_first_seen": "ch_020"
+  },
+  {
+    "original": "Photon strikes",
+    "translation": "Đòn tấn công photon",
+    "hanviet": "",
+    "category": "skill",
+    "confidence": 0.6,
+    "approved": true,
+    "chapter_first_seen": "ch_020"
+  },
+  {
+    "original": "Heavy weapons",
+    "translation": "Vũ khí hạng nặng",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 0.7,
+    "approved": true,
+    "chapter_first_seen": "ch_020"
+  },
+  {
+    "original": "Red Scorpion Star Thieves",
+    "translation": "Hải tặc Bích Hạt Đỏ",
+    "hanviet": "Hồng Hạt Tinh Tặc Đoàn",
+    "category": "faction",
+    "confidence": 0.6,
+    "approved": true,
+    "chapter_first_seen": "ch_020"
+  },
+  {
+    "original": "scent neutralizer / scent eraser",
+    "translation": "Thuốc khử mùi pheromone / Bình xịt khử mùi",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 0.7,
+    "approved": true,
+    "chapter_first_seen": "ch_021"
+  },
+  {
+    "original": "bionic masks",
+    "translation": "Mặt nạ sinh học",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 0.7,
+    "approved": true,
+    "chapter_first_seen": "ch_021"
+  },
+  {
+    "original": "spiritual form",
+    "translation": "Dạng tinh thần / Linh thể",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 0.6,
+    "approved": true,
+    "chapter_first_seen": "ch_021"
+  },
+  {
+    "original": "Nether",
+    "translation": "Nether (U Minh)",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 0.5,
+    "approved": true,
+    "chapter_first_seen": "ch_021"
+  },
+  {
+    "original": "Shade",
+    "translation": "Shade (Bóng Tối)",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 0.5,
+    "approved": true,
+    "chapter_first_seen": "ch_021"
+  },
+  {
+    "original": "alpha hạng S",
+    "translation": "S-class alpha",
+    "hanviet": "",
+    "category": "rank/status",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_021"
+  },
+  {
+    "original": "độc dược",
+    "translation": "poison",
+    "hanviet": "",
+    "category": "medicine",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_021"
+  },
+  {
+    "original": "động mạch cảnh",
+    "translation": "carotid artery",
+    "hanviet": "",
+    "category": "anatomy",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_021"
+  },
+  {
+    "original": "susceptibility period",
+    "translation": "thời kỳ mẫn cảm",
+    "hanviet": "mẫn cảm kỳ",
+    "category": "other",
+    "confidence": 0.5,
+    "approved": true,
+    "chapter_first_seen": "ch_023"
+  },
+  {
+    "original": "marking teeth",
+    "translation": "Răng đánh dấu",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 0.6,
+    "approved": true,
+    "chapter_first_seen": "ch_024"
+  },
+  {
+    "original": "little alpha",
+    "translation": "Tiểu Alpha",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 0.6,
+    "approved": true,
+    "chapter_first_seen": "ch_024"
+  },
+  {
+    "original": "dessert wine",
+    "translation": "rượu vang tráng miệng",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 0.0,
+    "approved": true,
+    "chapter_first_seen": "ch_025"
+  },
+  {
+    "original": "Four Great Legions",
+    "translation": "Tứ Đại Quân Đoàn",
+    "hanviet": "Tứ Đại Quân Đoàn",
+    "category": "faction",
+    "confidence": 0.0,
+    "approved": true,
+    "chapter_first_seen": "ch_025"
+  },
+  {
+    "original": "Four Great Noble Families",
+    "translation": "Tứ Đại Gia Tộc",
+    "hanviet": "Tứ Đại Gia Tộc",
+    "category": "faction",
+    "confidence": 0.0,
+    "approved": true,
+    "chapter_first_seen": "ch_025"
+  },
+  {
+    "original": "crown prince’s engagement",
+    "translation": "hôn ước của thái tử",
+    "hanviet": "Thái tử hôn ước",
+    "category": "other",
+    "confidence": 0.0,
+    "approved": true,
+    "chapter_first_seen": "ch_025"
+  },
+  {
+    "original": "mating season",
+    "translation": "kỳ phát tình",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 0.0,
+    "approved": true,
+    "chapter_first_seen": "ch_025"
+  },
+  {
+    "original": "scent remover",
+    "translation": "dung dịch khử mùi",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 0.0,
+    "approved": true,
+    "chapter_first_seen": "ch_025"
+  },
+  {
+    "original": "verbal engagement",
+    "translation": "hôn ước miệng",
+    "hanviet": "Khẩu đầu hôn ước",
+    "category": "other",
+    "confidence": 0.0,
+    "approved": true,
+    "chapter_first_seen": "ch_025"
+  },
+  {
+    "original": "tequila",
+    "translation": "tequila",
+    "hanviet": "",
+    "category": "drink",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_025"
+  },
+  {
+    "original": "dao găm",
+    "translation": "dagger",
+    "hanviet": "",
+    "category": "weapon",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_026"
+  },
+  {
+    "original": "Hoàng thượng",
+    "translation": "Your Majesty",
+    "hanviet": "",
+    "category": "title",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_026"
+  },
+  {
+    "original": "Gu family",
+    "translation": "Cố gia",
+    "hanviet": "Cố gia",
+    "category": "faction",
+    "confidence": 0.0,
+    "approved": true,
+    "chapter_first_seen": "ch_027"
+  },
+  {
+    "original": "Ruan family",
+    "translation": "Nguyễn gia",
+    "hanviet": "Nguyễn gia",
+    "category": "faction",
+    "confidence": 0.0,
+    "approved": true,
+    "chapter_first_seen": "ch_027"
+  },
+  {
+    "original": "gia tộc Nguyễn",
+    "translation": "Nguyễn family",
+    "hanviet": "阮",
+    "category": "family/organization",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_027"
+  },
+  {
+    "original": "hoàng tử",
+    "translation": "prince",
+    "hanviet": "",
+    "category": "title",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_027"
+  },
+  {
+    "original": "đại hoàng tử",
+    "translation": "first prince",
+    "hanviet": "",
+    "category": "title",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_027"
+  },
+  {
+    "original": "human-crocodile fusion",
+    "translation": "dung hợp người-cá sấu",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 0.7,
+    "approved": true,
+    "chapter_first_seen": "ch_028"
+  },
+  {
+    "original": "centipede fusion",
+    "translation": "dung hợp người-rết",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 0.7,
+    "approved": true,
+    "chapter_first_seen": "ch_028"
+  },
+  {
+    "original": "human experimentation lab",
+    "translation": "phòng thí nghiệm thí nghiệm trên người",
+    "hanviet": "",
+    "category": "location",
+    "confidence": 0.7,
+    "approved": true,
+    "chapter_first_seen": "ch_028"
+  },
+  {
+    "original": "photonic net",
+    "translation": "lưới photon",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 0.7,
+    "approved": true,
+    "chapter_first_seen": "ch_028"
+  },
+  {
+    "original": "signal blockers",
+    "translation": "bộ chặn tín hiệu",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 0.7,
+    "approved": true,
+    "chapter_first_seen": "ch_028"
+  },
+  {
+    "original": "nutrient tanks",
+    "translation": "bể dinh dưỡng",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 0.7,
+    "approved": true,
+    "chapter_first_seen": "ch_028"
+  },
+  {
+    "original": "fringe planet",
+    "translation": "hành tinh biên giới",
+    "hanviet": "",
+    "category": "location",
+    "confidence": 0.7,
+    "approved": true,
+    "chapter_first_seen": "ch_028"
+  },
+  {
+    "original": "outer arenas",
+    "translation": "đấu trường bên ngoài",
+    "hanviet": "",
+    "category": "location",
+    "confidence": 0.7,
+    "approved": true,
+    "chapter_first_seen": "ch_028"
+  },
+  {
+    "original": "kén điều trị",
+    "translation": "treatment cocoon",
+    "hanviet": "",
+    "category": "medical/biological",
+    "confidence": 0.8,
+    "approved": true,
+    "chapter_first_seen": "ch_028"
+  },
+  {
+    "original": "đấu trường",
+    "translation": "arena",
+    "hanviet": "",
+    "category": "location/activity",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_028"
+  },
+  {
+    "original": "combat drones",
+    "translation": "drone chiến đấu",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 0.0,
+    "approved": true,
+    "chapter_first_seen": "ch_029"
+  },
+  {
+    "original": "defense mechanisms",
+    "translation": "cơ chế phòng thủ",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 0.0,
+    "approved": true,
+    "chapter_first_seen": "ch_029"
+  },
+  {
+    "original": "light-screen interface",
+    "translation": "giao diện màn hình ánh sáng",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 0.0,
+    "approved": true,
+    "chapter_first_seen": "ch_029"
+  },
+  {
+    "original": "human modifications",
+    "translation": "cải tạo người",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 0.0,
+    "approved": true,
+    "chapter_first_seen": "ch_029"
+  },
+  {
+    "original": "poisonous gas",
+    "translation": "khí độc",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 0.0,
+    "approved": true,
+    "chapter_first_seen": "ch_029"
+  },
+  {
+    "original": "unseen mastermind",
+    "translation": "kẻ chủ mưu bí ẩn",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 0.0,
+    "approved": true,
+    "chapter_first_seen": "ch_029"
+  },
+  {
+    "original": "failed experimental subject",
+    "translation": "vật thí nghiệm thất bại",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 0.0,
+    "approved": true,
+    "chapter_first_seen": "ch_029"
+  },
+  {
+    "original": "armory",
+    "translation": "kho vũ khí",
+    "hanviet": "",
+    "category": "location",
+    "confidence": 0.0,
+    "approved": true,
+    "chapter_first_seen": "ch_029"
+  },
+  {
+    "original": "máy bay không người lái chiến đấu",
+    "translation": "combat drone",
+    "hanviet": "",
+    "category": "technology",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_029"
+  },
+  {
+    "original": "permission-based lock",
+    "translation": "khóa dựa trên quyền truy cập",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 0.0,
+    "approved": true,
+    "chapter_first_seen": "ch_030"
+  },
+  {
+    "original": "human modification experiments",
+    "translation": "thí nghiệm biến đổi con người",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 0.0,
+    "approved": true,
+    "chapter_first_seen": "ch_030"
+  },
+  {
+    "original": "test samples",
+    "translation": "mẫu thử nghiệm",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 0.0,
+    "approved": true,
+    "chapter_first_seen": "ch_030"
+  },
+  {
+    "original": "mechanical spider",
+    "translation": "nhện máy",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 0.0,
+    "approved": true,
+    "chapter_first_seen": "ch_030"
+  },
+  {
+    "original": "photon beams",
+    "translation": "tia photon",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 0.0,
+    "approved": true,
+    "chapter_first_seen": "ch_030"
+  },
+  {
+    "original": "weapon cabinets",
+    "translation": "tủ vũ khí",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 0.0,
+    "approved": true,
+    "chapter_first_seen": "ch_030"
+  },
+  {
+    "original": "combat-type mini-robots",
+    "translation": "robot mini chiến đấu",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 0.0,
+    "approved": true,
+    "chapter_first_seen": "ch_030"
+  },
+  {
+    "original": "spiritual body fusion",
+    "translation": "hợp nhất thể tinh thần",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 0.0,
+    "approved": true,
+    "chapter_first_seen": "ch_030"
+  },
+  {
+    "original": "gland problem",
+    "translation": "vấn đề tuyến thể",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 0.0,
+    "approved": true,
+    "chapter_first_seen": "ch_031"
+  },
+  {
+    "original": "fated",
+    "translation": "định mệnh",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 0.0,
+    "approved": true,
+    "chapter_first_seen": "ch_031"
+  },
+  {
+    "original": "silent cannons",
+    "translation": "pháo âm thanh",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 0.0,
+    "approved": true,
+    "chapter_first_seen": "ch_031"
+  },
+  {
+    "original": "cyber duel",
+    "translation": "đấu tay đôi trên mạng",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 0.0,
+    "approved": true,
+    "chapter_first_seen": "ch_031"
+  },
+  {
+    "original": "terminal",
+    "translation": "thiết bị đầu cuối",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 0.0,
+    "approved": true,
+    "chapter_first_seen": "ch_031"
+  },
+  {
+    "original": "military",
+    "translation": "quân đội",
+    "hanviet": "",
+    "category": "faction",
+    "confidence": 0.0,
+    "approved": true,
+    "chapter_first_seen": "ch_031"
+  },
+  {
+    "original": "vials",
+    "translation": "lọ",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 0.0,
+    "approved": true,
+    "chapter_first_seen": "ch_031"
+  },
+  {
+    "original": "experimental drugs",
+    "translation": "thuốc thử nghiệm",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 0.0,
+    "approved": true,
+    "chapter_first_seen": "ch_031"
+  },
+  {
+    "original": "trap",
+    "translation": "bẫy",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 0.0,
+    "approved": true,
+    "chapter_first_seen": "ch_031"
+  },
+  {
+    "original": "public record",
+    "translation": "hồ sơ công khai",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 0.0,
+    "approved": true,
+    "chapter_first_seen": "ch_031"
+  },
+  {
+    "original": "cỗ máy",
+    "translation": "machine",
+    "hanviet": "",
+    "category": "technology",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_031"
+  },
+  {
+    "original": "spiritual interference",
+    "translation": "can thiệp tinh thần",
+    "hanviet": "精神干涉",
+    "category": "skill",
+    "confidence": 0.0,
+    "approved": true,
+    "chapter_first_seen": "ch_032"
+  },
+  {
+    "original": "carnivorous flower",
+    "translation": "hoa ăn thịt",
+    "hanviet": "食肉花",
+    "category": "other",
+    "confidence": 0.0,
+    "approved": true,
+    "chapter_first_seen": "ch_032"
+  },
+  {
+    "original": "reproductive cavity",
+    "translation": "khoang sinh sản",
+    "hanviet": "",
+    "category": "biological term",
+    "confidence": 0.0,
+    "approved": true,
+    "chapter_first_seen": "ch_033"
+  },
+  {
+    "original": "Miracle",
+    "translation": "Kỳ Tích",
+    "hanviet": "Miracle",
+    "category": "other",
+    "confidence": 0.3,
+    "approved": true,
+    "chapter_first_seen": "ch_034"
+  },
+  {
+    "original": "dark web",
+    "translation": "web đen",
+    "hanviet": "web đen",
+    "category": "location",
+    "confidence": 0.0,
+    "approved": true,
+    "chapter_first_seen": "ch_034"
+  },
+  {
+    "original": "Night Auction",
+    "translation": "Đấu giá Đêm",
+    "hanviet": "",
+    "category": "other",
+    "confidence": 0.0,
+    "approved": true,
+    "chapter_first_seen": "ch_034"
+  },
+  {
+    "original": "Nanfei Star",
+    "translation": "Nam Phi Tinh",
+    "hanviet": "",
+    "category": "location",
+    "confidence": 0.0,
+    "approved": true,
+    "chapter_first_seen": "ch_034"
+  },
+  {
+    "original": "lightpad",
+    "translation": "bảng điện tử",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 0.0,
+    "approved": true,
+    "chapter_first_seen": "ch_035"
+  },
+  {
+    "original": "Ares",
+    "translation": "Ares",
+    "hanviet": "Ares",
+    "category": "other",
+    "confidence": 0.0,
+    "approved": true,
+    "chapter_first_seen": "ch_035"
+  },
+  {
+    "original": "Twelve Star Fairies",
+    "translation": "Mười hai Tiên Nữ Sao",
+    "hanviet": "Thập Nhị Tinh Tiên",
+    "category": "faction",
+    "confidence": 0.0,
+    "approved": true,
+    "chapter_first_seen": "ch_035"
+  },
+  {
+    "original": "Morningstar",
+    "translation": "Morningstar",
+    "hanviet": "Morningstar",
+    "category": "other",
+    "confidence": 0.0,
+    "approved": true,
+    "chapter_first_seen": "ch_035"
+  },
+  {
+    "original": "Bai Wei",
+    "translation": "Bạch Vĩ",
+    "hanviet": "Bạch Vĩ",
+    "category": "other",
+    "confidence": 0.0,
+    "approved": true,
+    "chapter_first_seen": "ch_035"
+  },
+  {
+    "original": "Night Wanderer",
+    "translation": "Kẻ Lang Thang Đêm",
+    "hanviet": "Dạ Lữ",
+    "category": "other",
+    "confidence": 0.0,
+    "approved": true,
+    "chapter_first_seen": "ch_035"
+  },
+  {
+    "original": "Queqi",
+    "translation": "Queqi",
+    "hanviet": "Khước Khí",
+    "category": "other",
+    "confidence": 0.0,
+    "approved": true,
+    "chapter_first_seen": "ch_035"
+  },
+  {
+    "original": "Mười Hai Tinh Tinh",
+    "translation": "Twelve Stars",
+    "hanviet": "",
+    "category": "group/organization",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_035"
+  },
+  {
+    "original": "omega S+",
+    "translation": "S+ omega",
+    "hanviet": "",
+    "category": "social rank",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_035"
+  },
+  {
+    "original": "star pirates",
+    "translation": "hải tặc không gian",
+    "hanviet": "",
+    "category": "faction",
+    "confidence": 0.0,
+    "approved": true,
+    "chapter_first_seen": "ch_036"
+  },
+  {
+    "original": "StarNet",
+    "translation": "Mạng Lưới Tinh Cầu",
+    "hanviet": "",
+    "category": "technology",
+    "confidence": 0.0,
+    "approved": true,
+    "chapter_first_seen": "ch_036"
+  },
+  {
+    "original": "Morning Star",
+    "translation": "Sao Mai",
+    "hanviet": "",
+    "category": "astronomy/metaphor",
+    "confidence": 0.0,
+    "approved": true,
+    "chapter_first_seen": "ch_036"
+  },
+  {
+    "original": "trang web đen",
+    "translation": "dark web site",
+    "hanviet": "",
+    "category": "technology",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_036"
+  },
+  {
+    "original": "Rakshasa painting",
+    "translation": "bức tranh La Sát",
+    "hanviet": "La Sát",
+    "category": "mythology",
+    "confidence": 0.8,
+    "approved": true,
+    "chapter_first_seen": "ch_037"
+  },
+  {
+    "original": "snow lotus",
+    "translation": "tuyết liên",
+    "hanviet": "Tuyết Liên",
+    "category": "other",
+    "confidence": 0.8,
+    "approved": true,
+    "chapter_first_seen": "ch_037"
+  },
+  {
+    "original": "Twelfth Fairy Star",
+    "translation": "Tinh tú Tiên Nữ thứ Mười Hai",
+    "hanviet": "Thập Nhị Tinh Tú Tiên Nữ",
+    "category": "other",
+    "confidence": 0.5,
+    "approved": true,
+    "chapter_first_seen": "ch_037"
+  },
+  {
+    "original": "freesia brooch",
+    "translation": "trâm cài freesia",
+    "hanviet": "trâm cài lan Nam Phi",
+    "category": "item",
+    "confidence": 0.8,
+    "approved": true,
+    "chapter_first_seen": "ch_037"
+  },
+  {
+    "original": "cõi tinh thần",
+    "translation": "mental realm",
+    "hanviet": "",
+    "category": "concept",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_037"
+  },
+  {
+    "original": "vật làm tin",
+    "translation": "token of promise",
+    "hanviet": "",
+    "category": "idiom",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_037"
   }
 ]

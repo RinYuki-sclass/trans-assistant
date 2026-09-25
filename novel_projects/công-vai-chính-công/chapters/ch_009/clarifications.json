@@ -79,6 +79,71 @@
         "Thành viên: Boss - Độc Hạt: Hắn / Y"
       ],
       "category": "pronoun"
+    },
+    {
+      "id": "amb_001",
+      "original": "Bai Han",
+      "suggested": "Bạch Hàn",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Bai Han?",
+      "options": [
+        "Bạch Hàn (白寒)",
+        "Bạch Hãn (白汗)",
+        "Giữ nguyên 'Bai Han'"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_002",
+      "original": "Middle-aged man",
+      "suggested": "Người đàn ông trung niên",
+      "confidence": 0.3,
+      "question": "Xác nhận cách gọi cho nhân vật 'Middle-aged man' (phi công của Chi Zhuo)?",
+      "options": [
+        "Người đàn ông trung niên",
+        "Chú (nếu có mối quan hệ thân thiết hơn)",
+        "Bác (nếu có mối quan hệ thân thiết hơn)"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_003",
+      "original": "Younger man",
+      "suggested": "Người đàn ông trẻ tuổi",
+      "confidence": 0.3,
+      "question": "Xác nhận cách gọi cho nhân vật 'Younger man' (thuộc hạ của Chi Zhuo)?",
+      "options": [
+        "Người đàn ông trẻ tuổi",
+        "Cậu (nếu có mối quan hệ thân thiết hơn)",
+        "Anh (nếu có mối quan hệ thân thiết hơn)"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_004",
+      "original": "Shadow",
+      "suggested": "Ảnh",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Shadow?",
+      "options": [
+        "Ảnh (影)",
+        "Bóng Đêm",
+        "Giữ nguyên 'Shadow'"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_006",
+      "original": "Amis",
+      "suggested": "A Mễ Tư",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Amis?",
+      "options": [
+        "A Mễ Tư (阿米斯)",
+        "A Mễ",
+        "Giữ nguyên 'Amis'"
+      ],
+      "category": "name"
     }
   ],
   "answers": {
@@ -105,7 +170,38 @@
     "amb_011": {
       "choice": "Thành viên: Thuyền trưởng / Đại ca - Độc Hạt: Hắn / Y",
       "custom": null
+    },
+    "amb_001": {
+      "choice": "Bạch Hàn",
+      "custom": null,
+      "auto_propagated": true,
+      "propagated_from": "Chapter ch_031"
+    },
+    "amb_002": {
+      "choice": "Người đàn ông trung niên",
+      "custom": null,
+      "auto_propagated": true,
+      "propagated_from": "Chapter ch_009"
+    },
+    "amb_003": {
+      "choice": "Chàng trai trẻ",
+      "custom": null,
+      "auto_propagated": true,
+      "propagated_from": "Chapter ch_009"
+    },
+    "amb_004": {
+      "choice": "Shadow (giữ nguyên)",
+      "custom": null,
+      "auto_propagated": true,
+      "propagated_from": "Chapter ch_011"
+    },
+    "amb_006": {
+      "choice": "hắn",
+      "custom": null,
+      "auto_propagated": true,
+      "propagated_from": "Chapter ch_016"
     }
   },
-  "answered_at": "2026-09-24T22:55:23.205906+07:00"
+  "answered_at": "2026-09-24T22:55:23.205906+07:00",
+  "updated_at": "2026-09-25T11:48:19.281719+07:00"
 }

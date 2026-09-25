@@ -58,6 +58,48 @@
         "Tiểu hoa hồng của đế quốc"
       ],
       "category": "term"
+    },
+    {
+      "id": "amb_001",
+      "original": "Bai Han",
+      "suggested": "Bạch Hàn",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Bai Han?",
+      "options": [
+        "Bạch Hàn",
+        "Bạch Hãn",
+        "Bái Hàn",
+        "Giữ nguyên Bai Han"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_002",
+      "original": "Shadow",
+      "suggested": "Ảnh Tử",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Shadow?",
+      "options": [
+        "Ảnh Tử",
+        "Ảnh",
+        "Bóng Đêm",
+        "Giữ nguyên Shadow"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_006",
+      "original": "Poison Scorpion",
+      "suggested": "Độc Hạt",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho danh xưng \"Poison Scorpion\" (thủ lĩnh hải tặc)?",
+      "options": [
+        "Độc Hạt",
+        "Bọ Cạp Độc",
+        "Độc Bọ Cạp",
+        "Giữ nguyên Poison Scorpion"
+      ],
+      "category": "term"
     }
   ],
   "answers": {
@@ -76,7 +118,26 @@
     "amb_007": {
       "choice": "Bông hồng nhỏ của đế quốc",
       "custom": null
+    },
+    "amb_001": {
+      "choice": "Bạch Hàn",
+      "custom": null,
+      "auto_propagated": true,
+      "propagated_from": "Chapter ch_031"
+    },
+    "amb_002": {
+      "choice": "Shadow (giữ nguyên)",
+      "custom": null,
+      "auto_propagated": true,
+      "propagated_from": "Chapter ch_011"
+    },
+    "amb_006": {
+      "choice": "Độc Hạt (毒蝎)",
+      "custom": null,
+      "auto_propagated": true,
+      "propagated_from": "Chapter ch_010"
     }
   },
-  "answered_at": "2026-09-24T22:56:32.067034+07:00"
+  "answered_at": "2026-09-24T22:56:32.067034+07:00",
+  "updated_at": "2026-09-25T11:48:19.285718+07:00"
 }

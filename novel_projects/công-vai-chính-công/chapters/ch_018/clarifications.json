@@ -1,0 +1,48 @@
+{
+  "chapter_id": "ch_018",
+  "questions": [
+    {
+      "id": "amb_001",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Quý Thần Hi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Quý Thần Hi xưng hô thế nào với Trì Chước (Quý Thần Hi tự xưng là gì và gọi Trì Chước là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Ta - gọi Ngươi",
+        "xưng Tôi - gọi Cậu",
+        "xưng Ta - gọi Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_002",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Thần - gọi Quý Thần Hi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Quý Thần Hi (Trì Chước tự xưng là gì và gọi Quý Thần Hi là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Thần - gọi Điện hạ",
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Ngài",
+        "xưng Tôi - gọi Quý Thần Hi"
+      ],
+      "category": "relationship"
+    }
+  ],
+  "answers": {
+    "amb_001": {
+      "choice": "Tôi - Anh",
+      "custom": null,
+      "auto_propagated": true,
+      "propagated_from": "Chapter ch_044"
+    },
+    "amb_002": {
+      "choice": "Tôi - Anh",
+      "custom": null,
+      "auto_propagated": true,
+      "propagated_from": "Chapter ch_044"
+    }
+  },
+  "updated_at": "2026-09-25T11:48:19.329731+07:00"
+}

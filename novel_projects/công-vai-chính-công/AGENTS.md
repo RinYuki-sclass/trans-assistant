@@ -14,7 +14,7 @@
 | Tên gốc | Tên Hán-Việt / Quy chuẩn | Thân phận / Vai trò | Quy chuẩn đại từ & Xưng hô |
 | :--- | :--- | :--- | :--- |
 | **Ji Chenxi** | **Quý Thần Hi** | Tam điện hạ, tiểu Alpha hoàng thất | **Công (nhỏ tuổi hơn)**. Ngôi kể thứ 3: **"anh"**. Xưng: tôi/ta, gọi Trì Chước là "anh" / "anh Trì Chước". |
-| **Chi Zhuo** | **Trì Chước** | Trùm thế giới ngầm, Alpha mãng xà | **Thụ (lớn tuổi hơn)**. Ngôi kể thứ 3: **"hắn ta" / "hắn"** (Tuyệt đối KHÔNG dùng "cậu ta"). Nhân vật khác nhắc: **"anh ta"**. Gọi Quý Thần Hi là "Điện hạ" / "cậu". |
+| **Chi Zhuo** | **Trì Chước** | Trùm thế giới ngầm, Alpha mãng xà | **Thụ (lớn tuổi hơn)**. Ngôi kể thứ 3 (lời kể chuyện): **"hắn"** (⚠️ Tuyệt đối KHÔNG dùng "hắn ta", KHÔNG dùng "cậu ta"). Khi nhân vật khác nhắc đến trong quan hệ thù địch: dùng **"gã đó / hắn ta / tên đó"** (KHÔNG dùng từ thân thiện như "anh ta", "cậu ta"). Gọi Quý Thần Hi là "Điện hạ" / "cậu". |
 | **Bai Anran** | **Bạch An Nhiên** | Nhân vật thụ chính trong nguyên tác | Giới tính: **Nam**. Ngôi kể thứ 3: **"cậu"**. Đối thoại với Quý Thần Hi: xưng Thần - gọi Điện hạ. |
 | **Bai Xinke** | **Bạch Hân Khả** | Em gái Bạch An Nhiên | Omega nữ. |
 | **Nether** | **Nether (giữ nguyên)** | Nữ Alpha cấp A, lính đánh thuê, chị gái của Shade | Giới tính: **Nữ**. Xưng **"chị"** với Quý Thần Hi và Shade; gọi Quý Thần Hi là "cậu / thiếu gia". Quý Thần Hi gọi là "chị Nether / chị". |
@@ -36,10 +36,11 @@
 
 ## 3. QUY TẮC ĐẠI TỪ NGÔI KỂ THỨ 3 (NARRATION)
 * **Quý Thần Hi (Công):** Luôn dùng đại từ **"anh"** trong lời kể trần thuật.
-* **Trì Chước (Thụ):** Dùng **"hắn ta"** hoặc **"hắn"** trong lời trần thuật của tác giả.
-  * ⚠️ **LƯU Ý NGHIÊM NGẶT:** Tuyệt đối **KHÔNG dùng "cậu ta"** cho Trì Chước (vì Trì Chước lớn tuổi hơn, là trùm mafia tàn bạo).
-  * Khi được các nhân vật khác nhắc đến trong câu thoại hoặc suy nghĩ: dùng **"anh ta"**.
+* **Trì Chước (Thụ):** Khi đang kể chuyện mà nhắc đến Trì Chước, **chỉ dùng "hắn"** (⚠️ Tuyệt đối **KHÔNG dùng "hắn ta"**, và **KHÔNG dùng "cậu ta"**).
 * **Bạch An Nhiên:** Dùng đại từ **"cậu"** (Bạch An Nhiên là nam, không dùng "cô").
+* **Quy tắc khi thù địch / đối đầu nhắc đến người khác:**
+  * Khi ở thế thù địch, đối đầu hoặc kẻ địch nhắc đến nhau (trong suy nghĩ hoặc câu thoại/kể): bắt buộc dùng các đại từ mang sắc thái thù địch, xa cách hoặc khinh miệt như **"gã đó"**, **"hắn ta"**, **"tên đó"**, **"kẻ đó"** (nếu là nữ: **"ả đó"**, **"người đàn bà đó"**).
+  * ⚠️ Tuyệt đối **KHÔNG dùng các từ thân thiện hoặc hòa nhã như "anh ta", "cậu ta"** khi đang trong bối cảnh thù địch/chiến đấu/truy sát.
 
 ---
 
@@ -55,6 +56,9 @@
 * ⚠️ **TUYỆT ĐỐI KHÔNG DÙNG "tao - mày"**:
   * Dù là Trì Chước đe dọa giết Quý Thần Hi ("Tin hay không ta vặn gãy cổ ngươi?"), hay giữa các bang phái thế giới ngầm đối đầu, hoàng thất tranh đoạt, **KHÔNG BAO GIỜ dùng "mày - tao"**.
   * Bắt buộc thay thế toàn bộ bằng cặp xưng hô **"ta - ngươi"** mang đậm sắc thái tinh tế, lạnh lùng, áp bức và quyền lực.
+* ⚠️ **KHI THÙ ĐỊCH NHẮC ĐẾN KẺ KHÁC**:
+  * Dùng **"gã đó"**, **"hắn ta"**, **"tên đó"** (hoặc **"ả đó"** đối với nữ).
+  * Tuyệt đối **KHÔNG dùng từ ngữ thân thiện như "anh ta", "cậu ta"** khi đang đối đầu, thù địch.
 
 ### C. Giữa hai chị em lính đánh thuê Nether & Shade:
 * **Nether là chị gái:** xưng **"chị"**, gọi Shade là **"em / em trai"**; xưng **"chị"** với Quý Thần Hi, gọi Quý Thần Hi là **"cậu / thiếu gia"**.
@@ -81,8 +85,9 @@
 - [ ] **3. Kiểm tra vai vế Công - Thụ:** Quý Thần Hi (nhỏ tuổi hơn) xưng hô với Trì Chước (lớn tuổi hơn) có đúng quy chuẩn không?
 - [ ] **4. Kiểm tra đại từ ngôi kể thứ 3:**
   - Quý Thần Hi = "anh"
-  - Trì Chước = "hắn ta" / "hắn" (nhân vật khác nhắc = "anh ta", KHÔNG dùng "cậu ta")
+  - Trì Chước = "hắn" khi kể chuyện (⚠️ Tuyệt đối KHÔNG dùng "hắn ta", KHÔNG dùng "cậu ta")
   - Bạch An Nhiên = "cậu"
+  - Khi thù địch/đối đầu nhắc đến người khác: dùng "gã đó, hắn ta, tên đó" (⚠️ Tuyệt đối KHÔNG dùng từ thân thiện như "anh ta, cậu ta")
 - [ ] **5. Kiểm tra phân định nhân vật:**
   - Nether (nữ Alpha, chị gái lính đánh thuê, xưng "chị") vs Người đàn ông trung niên (Alpha cấp S lái tàu của Trì Chước, gọi Trì Chước là "Thiếu gia").
   - Shade (nam Alpha lính đánh thuê) vs Chàng trai trẻ (thuộc hạ của Trì Chước).

@@ -1,0 +1,236 @@
+{
+  "chapter_id": "ch_039",
+  "questions": [
+    {
+      "id": "amb_001",
+      "original": "Manye Zhe (ngôi thứ 3)",
+      "suggested": "Mạn Dã Triết (ngôi thứ 3)",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Mạn Dã Triết (hắn, y, anh, cậu, gã, chàng...)?",
+      "options": [
+        "hắn",
+        "y",
+        "anh",
+        "cậu",
+        "gã",
+        "chàng"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_002",
+      "original": "Lu Churan (ngôi thứ 3)",
+      "suggested": "Lục Sở Nhiên (ngôi thứ 3)",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Lục Sở Nhiên (cô, nàng, y, ả, chị, bà ta...)?",
+      "options": [
+        "cô",
+        "nàng",
+        "y",
+        "ả",
+        "chị",
+        "bà ta"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_003",
+      "original": "Bai Wei (ngôi thứ 3)",
+      "suggested": "Bạch Vĩ (ngôi thứ 3)",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Bạch Vĩ (hắn, y, anh, cậu, gã, chàng...)?",
+      "options": [
+        "hắn",
+        "y",
+        "anh",
+        "cậu",
+        "gã",
+        "chàng"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_004",
+      "original": "Ji Chenxi → Lu Churan",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Lu Churan là Cô",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Lu Churan (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Cô",
+        "xưng Anh - gọi Cô",
+        "xưng Ta - gọi Cô",
+        "xưng Tôi - gọi Nữ sĩ"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_005",
+      "original": "Lu Churan → Ji Chenxi",
+      "suggested": "Lu Churan xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Lu Churan xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Em - gọi Anh",
+        "xưng Tôi - gọi Cậu"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_006",
+      "original": "Ji Chenxi → Bai Wei",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Bai Wei là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Bai Wei (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Cậu",
+        "xưng Ta - gọi Ngươi",
+        "xưng Tôi - gọi Bạch tiên sinh"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_007",
+      "original": "Bai Wei → Ji Chenxi",
+      "suggested": "Bai Wei xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Bai Wei xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Em",
+        "xưng Tôi - gọi Cậu"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_008",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Anh - gọi Chi Zhuo là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Chi Zhuo (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Anh - gọi Anh",
+        "xưng Tôi - gọi Anh",
+        "xưng Em - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_009",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Chi Zhuo xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Chi Zhuo xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Ta - gọi Ngươi",
+        "xưng Anh - gọi Em",
+        "xưng Tôi - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_010",
+      "original": "Ji Chenxi → Manye Zhe",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Manye Zhe là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Manye Zhe (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Cậu",
+        "xưng Ta - gọi Ngươi",
+        "xưng Tôi - gọi Mạn tiên sinh"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_011",
+      "original": "Manye Zhe → Ji Chenxi",
+      "suggested": "Manye Zhe xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Manye Zhe xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Em",
+        "xưng Tôi - gọi Cậu"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_012",
+      "original": "Ji Chenxi → attendant",
+      "suggested": "Ji Chenxi xưng Tôi - gọi attendant là Cậu",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với attendant (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Cậu",
+        "xưng Ta - gọi Ngươi",
+        "xưng Tôi - gọi Người làm",
+        "xưng Tôi - gọi Anh"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_013",
+      "original": "attendant → Ji Chenxi",
+      "suggested": "attendant xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: attendant xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Tôi - gọi Cậu",
+        "xưng Tôi - gọi Ngài"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_014",
+      "original": "Ji Chenxi → Bai Wei (ambiguous)",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Bai Wei là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Bai Wei (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Cậu",
+        "xưng Ta - gọi Ngươi",
+        "xưng Tôi - gọi Bạch tiên sinh"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_015",
+      "original": "Bai Wei → Ji Chenxi (ambiguous)",
+      "suggested": "Bai Wei xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Bai Wei xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Em",
+        "xưng Tôi - gọi Cậu"
+      ],
+      "category": "relationship"
+    }
+  ],
+  "answers": {
+    "amb_008": {
+      "choice": "Tôi - Anh",
+      "custom": null,
+      "auto_propagated": true,
+      "propagated_from": "Chapter ch_044"
+    },
+    "amb_009": {
+      "choice": "Tôi - Anh",
+      "custom": null,
+      "auto_propagated": true,
+      "propagated_from": "Chapter ch_044"
+    }
+  },
+  "updated_at": "2026-09-25T11:48:20.042868+07:00"
+}

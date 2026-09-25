@@ -93,6 +93,32 @@
         "Mày - Tao (Chi Zhou xưng Mày, thuộc hạ xưng Tao, ngôi thứ ba Hắn/Y - nếu thân cận và Chi Zhou có tính cách bất cần)"
       ],
       "category": "pronoun"
+    },
+    {
+      "id": "amb_003",
+      "original": "Su Yu",
+      "suggested": "Tô Vũ",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Su Yu?",
+      "options": [
+        "Tô Vũ",
+        "Tô Dục",
+        "Tô Du"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_005",
+      "original": "Bai Anran",
+      "suggested": "Bạch An Nhiên",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Bai Anran?",
+      "options": [
+        "Bạch An Nhiên",
+        "Bạch An Nhiễm",
+        "Bạch An Nhiên (giữ nguyên âm Hán-Việt phổ biến)"
+      ],
+      "category": "name"
     }
   ],
   "answers": {
@@ -123,7 +149,20 @@
     "amb_009": {
       "choice": "Chủ nhân - Tôi (Chi Zhou xưng Chủ nhân, thuộc hạ xưng Tôi, ngôi thứ ba Hắn/Y)",
       "custom": null
+    },
+    "amb_003": {
+      "choice": "Tô Dục",
+      "custom": null,
+      "auto_propagated": true,
+      "propagated_from": "Chapter ch_044"
+    },
+    "amb_005": {
+      "choice": "Bạch An Nhiên",
+      "custom": null,
+      "auto_propagated": true,
+      "propagated_from": "Chapter ch_004"
     }
   },
-  "answered_at": "2026-09-24T16:34:23.667772+07:00"
+  "answered_at": "2026-09-24T16:34:23.667772+07:00",
+  "updated_at": "2026-09-25T11:48:19.265716+07:00"
 }

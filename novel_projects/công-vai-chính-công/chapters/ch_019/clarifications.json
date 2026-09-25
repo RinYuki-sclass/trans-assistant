@@ -1,0 +1,177 @@
+{
+  "chapter_id": "ch_019",
+  "questions": [
+    {
+      "id": "amb_001",
+      "original": "Deputy Ge",
+      "suggested": "Phó Qua",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Deputy Ge?",
+      "options": [
+        "Phó Qua (giữ nguyên 'Ge' là họ/tên đệm)",
+        "Phó đội trưởng Qua (nếu 'Ge' là họ)",
+        "Phó đội trưởng (nếu 'Ge' là một phần của chức danh)",
+        "Phó Qua (dịch theo âm Hán-Việt)"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_002",
+      "original": "Deputy Ge (ngôi thứ 3)",
+      "suggested": "cậu ta",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Deputy Ge (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "cậu ta",
+        "hắn",
+        "y",
+        "anh ta",
+        "gã"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_003",
+      "original": "Scorpion",
+      "suggested": "Scorpion",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Scorpion?",
+      "options": [
+        "Scorpion (giữ nguyên tiếng Anh)",
+        "Đội trưởng Bò Cạp",
+        "Hạt Tử (âm Hán-Việt của 蝎子)",
+        "Hạt (rút gọn từ Hạt Tử)"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_004",
+      "original": "Scorpion (ngôi thứ 3)",
+      "suggested": "hắn",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Scorpion (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "hắn",
+        "y",
+        "gã",
+        "ông ta",
+        "lão ta"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_005",
+      "original": "Người đồng hành của Phó Qua (ngôi thứ 3)",
+      "suggested": "anh ta",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Người đồng hành của Phó Qua (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "anh ta",
+        "cậu ta",
+        "hắn",
+        "y"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_006",
+      "original": "Deputy Ge → Scorpion",
+      "suggested": "xưng Tôi - gọi Đội trưởng",
+      "confidence": 0.3,
+      "question": "Chiều 1: Deputy Ge xưng hô thế nào với Scorpion (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Đội trưởng",
+        "xưng Tôi - gọi Ngài",
+        "xưng Tôi - gọi Captain",
+        "xưng Tôi - gọi Ông"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_007",
+      "original": "Scorpion → Deputy Ge",
+      "suggested": "xưng Ta - gọi Phó Qua",
+      "confidence": 0.3,
+      "question": "Chiều 2: Scorpion xưng hô thế nào với Deputy Ge (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Ta - gọi Phó Qua",
+        "xưng Ta - gọi Cậu",
+        "xưng Ta - gọi Ngươi",
+        "xưng Tôi - gọi Phó Qua"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_008",
+      "original": "Deputy Ge → Người đồng hành của Phó Qua",
+      "suggested": "xưng Tôi - gọi Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Deputy Ge xưng hô thế nào với Người đồng hành của Phó Qua (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Cậu",
+        "xưng Ta - gọi Ngươi",
+        "xưng Tôi - gọi Đồng chí"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_009",
+      "original": "Người đồng hành của Phó Qua → Deputy Ge",
+      "suggested": "xưng Tôi - gọi Phó Qua",
+      "confidence": 0.3,
+      "question": "Chiều 2: Người đồng hành của Phó Qua xưng hô thế nào với Deputy Ge (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Phó Qua",
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Ngài",
+        "xưng Tôi - gọi Cậu"
+      ],
+      "category": "relationship"
+    }
+  ],
+  "answers": {
+    "amb_003": {
+      "choice": "hắn",
+      "custom": null,
+      "auto_propagated": true,
+      "propagated_from": "Chapter ch_020"
+    },
+    "amb_004": {
+      "choice": "hắn",
+      "custom": null,
+      "auto_propagated": true,
+      "propagated_from": "Chapter ch_020"
+    },
+    "amb_001": {
+      "choice": "Custom",
+      "custom": "Phó đội trưởng Cơ"
+    },
+    "amb_002": {
+      "choice": "gã",
+      "custom": null
+    },
+    "amb_005": {
+      "choice": "anh ta",
+      "custom": null
+    },
+    "amb_006": {
+      "choice": "xưng Tôi - gọi Đội trưởng",
+      "custom": null
+    },
+    "amb_007": {
+      "choice": "xưng Ta - gọi Ngươi",
+      "custom": null
+    },
+    "amb_008": {
+      "choice": "xưng Tôi - gọi Anh",
+      "custom": null
+    },
+    "amb_009": {
+      "choice": "xưng Tôi - gọi Ngài",
+      "custom": null
+    }
+  },
+  "updated_at": "2026-09-25T11:48:19.332718+07:00",
+  "answered_at": "2026-09-25T11:48:12.558847+07:00"
+}

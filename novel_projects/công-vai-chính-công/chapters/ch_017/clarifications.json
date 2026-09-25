@@ -1,0 +1,117 @@
+{
+  "chapter_id": "ch_017",
+  "questions": [
+    {
+      "id": "amb_001",
+      "original": "Woman (unnamed)",
+      "suggested": "Người phụ nữ",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật 'Người phụ nữ' (nếu có tên gốc tiếng Trung) hoặc cách gọi phù hợp trong văn kể?",
+      "options": [
+        "Người phụ nữ",
+        "Bà ấy",
+        "Mẫu thân (nếu là mẹ)",
+        "Cô ấy"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_002",
+      "original": "Woman (ngôi thứ 3)",
+      "suggested": "cô",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật 'Người phụ nữ' (hắn, y, anh, cậu, gã, nàng, cô...)? (Dựa trên vai trò và mối quan hệ với Quý Thần Hi)",
+      "options": [
+        "cô",
+        "nàng",
+        "bà",
+        "y",
+        "mụ ta"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_003",
+      "original": "Little Rose (nickname for young Ji Chenxi)",
+      "suggested": "Tiểu Hoa Hồng",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho biệt danh 'Little Rose' của Quý Thần Hi lúc nhỏ?",
+      "options": [
+        "Tiểu Hoa Hồng",
+        "Bé Hoa Hồng",
+        "Tiểu Thần Hi"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_004",
+      "original": "Little Rose (ngôi thứ 3)",
+      "suggested": "cậu",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật 'Little Rose' (tức Quý Thần Hi lúc nhỏ) (hắn, y, anh, cậu, gã, nàng, cô...)? (Dựa trên tuổi tác và vai trò)",
+      "options": [
+        "cậu",
+        "hắn",
+        "y",
+        "nhóc"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_005",
+      "original": "Woman → Little Rose (Quý Thần Hi lúc nhỏ)",
+      "suggested": "Người phụ nữ xưng Ta - gọi Tiểu Hoa Hồng là Con/Cháu",
+      "confidence": 0.3,
+      "question": "Chiều 1: Người phụ nữ xưng hô thế nào với Tiểu Hoa Hồng (Quý Thần Hi lúc nhỏ)?",
+      "options": [
+        "xưng Ta - gọi Con",
+        "xưng Ta - gọi Cháu",
+        "xưng Cô - gọi Con",
+        "xưng Mẹ - gọi Con",
+        "xưng Ta - gọi Tiểu Hoa Hồng"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_006",
+      "original": "Little Rose (Quý Thần Hi lúc nhỏ) → Woman",
+      "suggested": "Tiểu Hoa Hồng xưng Con - gọi Người phụ nữ là Mẹ/Cô",
+      "confidence": 0.3,
+      "question": "Chiều 2: Tiểu Hoa Hồng (Quý Thần Hi lúc nhỏ) xưng hô thế nào với Người phụ nữ?",
+      "options": [
+        "xưng Con - gọi Mẹ",
+        "xưng Con - gọi Cô",
+        "xưng Cháu - gọi Bà",
+        "xưng Con - gọi Người"
+      ],
+      "category": "relationship"
+    }
+  ],
+  "answers": {
+    "amb_001": {
+      "choice": "Người phụ nữ",
+      "custom": null
+    },
+    "amb_002": {
+      "choice": "cô",
+      "custom": null
+    },
+    "amb_003": {
+      "choice": "Tiểu Hoa Hồng",
+      "custom": null
+    },
+    "amb_004": {
+      "choice": "cậu",
+      "custom": null
+    },
+    "amb_005": {
+      "choice": "xưng Ta - gọi Con",
+      "custom": null
+    },
+    "amb_006": {
+      "choice": "xưng Con - gọi Người",
+      "custom": null
+    }
+  },
+  "answered_at": "2026-09-25T11:44:05.401580+07:00"
+}
