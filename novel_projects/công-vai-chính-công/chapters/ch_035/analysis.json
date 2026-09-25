@@ -1,0 +1,211 @@
+{
+  "chapter_summary": "Su Yu và Quý Thần Hi trò chuyện về đồ uống và sở thích cá nhân, trong đó Quý Thần Hi ám chỉ mình là một 'bông hoa'. Sau đó, Quý Thần Hi trở về dinh thự và tìm thấy một nhật ký cũ có tên 'Miracle', ghi lại quá trình tạo ra một sinh vật mạnh mẽ tên là Ares. Nhật ký hé lộ về một thí nghiệm tạo ra SSS-level alpha và những xung đột xoay quanh việc nuôi dưỡng Ares. Quý Thần Hi sau đó liên lạc với Morningstar qua một kênh mã hóa, thảo luận về một phòng thí nghiệm ngầm đang phát triển chip cấy ghép để ổn định và tăng cường sức mạnh cho alpha nhân tạo. Họ cũng đề cập đến việc lôi kéo một thế lực bí ẩn ra khỏi bóng tối. Cuối cùng, Morningstar hỏi Quý Thần Hi về kế hoạch tranh giành ngôi vị, và Quý Thần Hi đáp lại rằng anh đã tham gia vào cuộc chơi từ lâu.",
+  "new_characters": [],
+  "new_locations": [],
+  "new_terms": [
+    {
+      "original": "lightpad",
+      "suggested": "bảng điện tử",
+      "hanviet": "",
+      "category": "item",
+      "confidence": 0.0
+    },
+    {
+      "original": "Miracle",
+      "suggested": "Kỳ tích",
+      "hanviet": "",
+      "category": "other",
+      "confidence": 0.0
+    },
+    {
+      "original": "Ares",
+      "suggested": "Ares",
+      "hanviet": "Ares",
+      "category": "other",
+      "confidence": 0.0
+    },
+    {
+      "original": "Twelve Star Fairies",
+      "suggested": "Mười hai Tiên Nữ Sao",
+      "hanviet": "Thập Nhị Tinh Tiên",
+      "category": "faction",
+      "confidence": 0.0
+    },
+    {
+      "original": "Imperial Star",
+      "suggested": "Đế Tinh",
+      "hanviet": "Đế Tinh",
+      "category": "location",
+      "confidence": 0.0
+    },
+    {
+      "original": "Morningstar",
+      "suggested": "Morningstar",
+      "hanviet": "Morningstar",
+      "category": "other",
+      "confidence": 0.0
+    },
+    {
+      "original": "Bai Wei",
+      "suggested": "Bạch Vĩ",
+      "hanviet": "Bạch Vĩ",
+      "category": "other",
+      "confidence": 0.0
+    },
+    {
+      "original": "Night Wanderer",
+      "suggested": "Kẻ Lang Thang Đêm",
+      "hanviet": "Dạ Lữ",
+      "category": "other",
+      "confidence": 0.0
+    },
+    {
+      "original": "Queqi",
+      "suggested": "Queqi",
+      "hanviet": "Khước Khí",
+      "category": "other",
+      "confidence": 0.0
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "Su Yu",
+      "suggested": "Tô Dụ",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Su Yu?",
+      "options": [
+        "Tô Dụ",
+        "Tô Vũ",
+        "Tô Du"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_002",
+      "original": "Ji Chenxi (ngôi thứ 3)",
+      "suggested": "anh",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Ji Chenxi (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "anh",
+        "cậu",
+        "hắn",
+        "y"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_003",
+      "original": "Ji Chenxi → Su Yu",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Su Yu là Cậu",
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Su Yu (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Cậu",
+        "xưng Anh - gọi Em",
+        "xưng Ta - gọi Ngươi",
+        "xưng Tôi - gọi Bạn"
+      ],
+      "category": "relationship",
+      "confidence": 0.3
+    },
+    {
+      "id": "amb_004",
+      "original": "Su Yu → Ji Chenxi",
+      "suggested": "Su Yu xưng Tôi - gọi Ji Chenxi là Tam thiếu gia",
+      "question": "Chiều 2: Su Yu xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Anh - gọi Em",
+        "xưng Tôi - gọi Cậu"
+      ],
+      "category": "relationship",
+      "confidence": 0.3
+    },
+    {
+      "id": "amb_005",
+      "original": "Ji Chenxi → Abriana",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Abriana là Cô ấy",
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Abriana (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Cô ấy",
+        "xưng Anh - gọi Cô ấy",
+        "xưng Ta - gọi Nàng"
+      ],
+      "category": "relationship",
+      "confidence": 0.3
+    },
+    {
+      "id": "amb_006",
+      "original": "Abriana → Ji Chenxi",
+      "suggested": "Abriana xưng Tôi - gọi Ji Chenxi là Anh",
+      "question": "Chiều 2: Abriana xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Cậu"
+      ],
+      "category": "relationship",
+      "confidence": 0.3
+    },
+    {
+      "id": "amb_007",
+      "original": "Bai Wei (ngôi thứ 3)",
+      "suggested": "anh",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Bai Wei (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "anh",
+        "cậu",
+        "hắn",
+        "y"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_008",
+      "original": "Bai Wei → Morningstar",
+      "suggested": "Bai Wei xưng Tôi - gọi Morningstar là Ông",
+      "question": "Chiều 1: Bai Wei xưng hô thế nào với Morningstar (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Ông",
+        "xưng Tôi - gọi Ngài",
+        "xưng Ta - gọi Ngươi",
+        "xưng Tôi - gọi Bạn"
+      ],
+      "category": "relationship",
+      "confidence": 0.3
+    },
+    {
+      "id": "amb_009",
+      "original": "Morningstar → Bai Wei",
+      "suggested": "Morningstar xưng Tôi - gọi Bai Wei là Bạch Vĩ",
+      "question": "Chiều 2: Morningstar xưng hô thế nào với Bai Wei (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Bạch Vĩ",
+        "xưng Tôi - gọi Cậu",
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Ta - gọi Ngươi"
+      ],
+      "category": "relationship",
+      "confidence": 0.3
+    },
+    {
+      "id": "amb_010",
+      "original": "Abriana",
+      "suggested": "Abriana",
+      "hanviet_name": "A Bố Lợi Á Na",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Abriana?",
+      "options": [
+        "Abriana",
+        "A Bố Lợi Á Na",
+        "An Bố Lợi Á Na"
+      ],
+      "category": "name"
+    }
+  ],
+  "chapter_id": "ch_035",
+  "analyzed_at": "2026-09-25T09:49:16.116131+07:00"
+}

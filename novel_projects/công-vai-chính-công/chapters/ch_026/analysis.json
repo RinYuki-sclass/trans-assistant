@@ -1,0 +1,38 @@
+{
+  "chapter_summary": "Chương này tiếp tục cảnh Quý Thần Hi và Trì Chước đối đầu sau khi Trì Chước cắn Quý Thần Hi. Trì Chước cố gắng đánh dấu Quý Thần Hi, nhưng Quý Thần Hi đã chuẩn bị sẵn và dùng gai tinh thần tấn công. Sau một hồi giằng co, Quý Thần Hi đã dùng một loại thuốc ức chế đặc biệt khiến Trì Chước bị đau đớn và bất tỉnh. Quý Thần Hi trả đũa bằng cách tạo một vết cắt hình hoa hồng trên cổ Trì Chước và xóa sạch pheromone của hắn, sau đó rời đi. Sau đó, Quý Thần Hi gặp Tô Dục, người đã trêu chọc anh về mùi pheromone trên người, nghi ngờ anh vừa gặp một Omega xinh đẹp.",
+  "new_characters": [],
+  "new_locations": [],
+  "new_terms": [],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "Su Yu → Ji Chenxi",
+      "suggested": "Su Yu xưng Tôi - gọi Ji Chenxi là Điện hạ / Tam thiếu gia",
+      "confidence": 0.3,
+      "question": "Chiều 1: Su Yu xưng hô thế nào với Ji Chenxi (Su Yu tự xưng là gì và gọi Ji Chenxi là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Tôi - gọi Cậu",
+        "xưng Ta - gọi Ngươi"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_002",
+      "original": "Ji Chenxi → Su Yu",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Su Yu là Cậu",
+      "confidence": 0.3,
+      "question": "Chiều 2: Ji Chenxi xưng hô thế nào với Su Yu (Ji Chenxi tự xưng là gì và gọi Su Yu là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Cậu",
+        "xưng Tôi - gọi Anh",
+        "xưng Ta - gọi Ngươi",
+        "xưng Tôi - gọi Su Yu"
+      ],
+      "category": "relationship"
+    }
+  ],
+  "chapter_id": "ch_026",
+  "analyzed_at": "2026-09-25T09:43:18.168199+07:00"
+}

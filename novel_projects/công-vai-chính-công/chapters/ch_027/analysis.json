@@ -1,0 +1,228 @@
+{
+  "chapter_summary": "Ji Chenxi rời đi sau cuộc trò chuyện với Tô Dục, khéo léo che đi vết cắn trên cổ. Tô Dục, lo lắng về mối quan hệ của Quý Thần Hi với Trì Chước, cảnh báo về điều cấm kỵ giữa hai Alpha. Quý Thần Hi gạt bỏ lo lắng của bạn, đùa rằng có thể tìm thấy 'tình yêu đích thực'. Tô Dục cũng nhắc đến việc Cố Hách Xuyên sắp trở về và cảnh báo Quý Thần Hi về những âm mưu chính trị của anh trai cả và chị gái thứ hai, ám chỉ rằng vụ tấn công của hải tặc gần đây có thể không phải là ngẫu nhiên. Sau đó, Quý Thần Hi được cha mình, Hoàng đế, triệu về Hoàng cung. Trong cuộc gặp, Hoàng đế thăm dò Quý Thần Hi về vụ tấn công, ngụ ý rằng ông biết nhiều hơn và khuyến khích Quý Thần Hi tham gia tích cực hơn vào cuộc đấu tranh quyền lực. Quý Thần Hi giữ thái độ bình tĩnh, thờ ơ. Rời cung, Quý Thần Hi suy ngẫm về mối quan hệ phức tạp với cha và sự thiếu hứng thú với ngai vàng. Cuối ngày, anh đến một quán bar, gặp lại Tô Dục. Khi đi dạo, anh phát hiện một người quen cầm vũ khí, vẻ cảnh giác, điều này khiến anh nở một nụ cười điềm tĩnh.",
+  "new_characters": [
+    {
+      "name": "Gu Hechuan",
+      "hanviet_name": "Cố Hách Xuyên",
+      "gender": "Male",
+      "role": "Bạn thân của Quý Thần Hi, con trai thứ tư của Cố gia, người thừa kế được chỉ định."
+    },
+    {
+      "name": "The Emperor",
+      "hanviet_name": "Hoàng đế",
+      "gender": "Male",
+      "role": "Cha của Quý Thần Hi, người đứng đầu Đế quốc."
+    },
+    {
+      "name": "Old Steward",
+      "hanviet_name": "Quản gia già",
+      "gender": "Male",
+      "role": "Quản gia trong phủ của Quý Thần Hi."
+    }
+  ],
+  "new_locations": [
+    {
+      "name": "Imperial Palace",
+      "hanviet": "Hoàng Cung",
+      "description": "Khu phức hợp cung điện trung tâm trên Đế Tinh, là công trình đẹp nhất toàn đế quốc."
+    }
+  ],
+  "new_terms": [
+    {
+      "original": "Gu family",
+      "suggested": "Cố gia",
+      "hanviet": "Cố gia",
+      "category": "faction",
+      "confidence": 0.0
+    },
+    {
+      "original": "Ruan family",
+      "suggested": "Nguyễn gia",
+      "hanviet": "Nguyễn gia",
+      "category": "faction",
+      "confidence": 0.0
+    },
+    {
+      "original": "four major clans",
+      "suggested": "tứ đại gia tộc",
+      "hanviet": "Tứ đại gia tộc",
+      "category": "faction",
+      "confidence": 0.0
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "Gu Hechuan",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Gu Hechuan?",
+      "options": [
+        "Cố Hách Xuyên",
+        "Cố Hợp Xuyên",
+        "Cố Hà Xuyên",
+        "Cố Hách Xoan"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_002",
+      "original": "Gu Hechuan (ngôi thứ 3)",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Gu Hechuan (hắn, y, anh, cậu, gã, nàng, cô...)? (Là bạn thân của Quý Thần Hi)",
+      "options": [
+        "anh",
+        "cậu",
+        "y",
+        "hắn",
+        "chàng"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_003",
+      "original": "The Emperor (Ji Chenxi's father)",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật The Emperor (cha của Quý Thần Hi)? (Tên gốc không được nhắc đến, chỉ gọi là 'người đàn ông' hoặc 'cha')",
+      "options": [
+        "Hoàng đế",
+        "Phụ hoàng",
+        "Bệ hạ",
+        "Đức vua"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_004",
+      "original": "The Emperor (ngôi thứ 3)",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật The Emperor (cha của Quý Thần Hi) (hắn, y, anh, cậu, gã, nàng, cô...)? (Là người đứng đầu đế quốc, cha của nhân vật chính)",
+      "options": [
+        "ngài",
+        "ông ta",
+        "y",
+        "hắn",
+        "bệ hạ"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_005",
+      "original": "Old Steward",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Old Steward (quản gia của Quý Thần Hi)? (Tên gốc không được nhắc đến, chỉ gọi là 'quản gia già')",
+      "options": [
+        "Quản gia già",
+        "Lão quản gia",
+        "Ông quản gia",
+        "Quản sự"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_006",
+      "original": "Old Steward (ngôi thứ 3)",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Old Steward (quản gia của Quý Thần Hi) (hắn, y, anh, cậu, gã, nàng, cô...)? (Là người lớn tuổi, thuộc hạ)",
+      "options": [
+        "ông ta",
+        "lão",
+        "y",
+        "hắn",
+        "ngài"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_007",
+      "original": "Su Yu → Ji Chenxi",
+      "suggested": "Su Yu xưng Tôi - gọi Ji Chenxi là Điện hạ / Cậu",
+      "confidence": 0.3,
+      "question": "Chiều 1: Su Yu xưng hô thế nào với Ji Chenxi (Su Yu tự xưng là gì và gọi Ji Chenxi là gì khi nói chuyện)? (Bạn thân, nhưng Su Yu đôi khi dùng kính ngữ)",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Cậu",
+        "xưng Tôi - gọi Anh",
+        "xưng Ta - gọi Ngươi"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_008",
+      "original": "Ji Chenxi → Su Yu",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Su Yu là Cậu",
+      "confidence": 0.3,
+      "question": "Chiều 2: Ji Chenxi xưng hô thế nào với Su Yu (Ji Chenxi tự xưng là gì và gọi Su Yu là gì khi nói chuyện ngược lại)? (Bạn thân, Ji Chenxi có vẻ thoải mái hơn)",
+      "options": [
+        "xưng Tôi - gọi Cậu",
+        "xưng Tôi - gọi Anh",
+        "xưng Ta - gọi Ngươi",
+        "xưng Tôi - gọi Su Yu"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_009",
+      "original": "Ji Chenxi → The Emperor",
+      "suggested": "Ji Chenxi xưng Con - gọi The Emperor là Phụ hoàng / Bệ hạ",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với The Emperor (Ji Chenxi tự xưng là gì và gọi The Emperor là gì khi nói chuyện)? (Con trai với cha/Hoàng đế)",
+      "options": [
+        "xưng Con - gọi Phụ hoàng",
+        "xưng Thần - gọi Bệ hạ",
+        "xưng Con - gọi Bệ hạ",
+        "xưng Tôi - gọi Ngài"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_010",
+      "original": "The Emperor → Ji Chenxi",
+      "suggested": "The Emperor xưng Trẫm - gọi Ji Chenxi là Con / Xi'er",
+      "confidence": 0.3,
+      "question": "Chiều 2: The Emperor xưng hô thế nào với Ji Chenxi (The Emperor tự xưng là gì và gọi Ji Chenxi là gì khi nói chuyện ngược lại)? (Cha/Hoàng đế với con trai)",
+      "options": [
+        "xưng Trẫm - gọi Con",
+        "xưng Ta - gọi Con",
+        "xưng Ta - gọi Xi'er",
+        "xưng Trẫm - gọi Điện hạ"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_011",
+      "original": "Ji Chenxi → Old Steward",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Old Steward là Ông / Quản gia",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Old Steward (Ji Chenxi tự xưng là gì và gọi Old Steward là gì khi nói chuyện)? (Chủ với quản gia)",
+      "options": [
+        "xưng Tôi - gọi Ông",
+        "xưng Tôi - gọi Quản gia",
+        "xưng Ta - gọi Ngươi",
+        "xưng Tôi - gọi Lão"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_012",
+      "original": "Old Steward → Ji Chenxi",
+      "suggested": "Old Steward xưng Lão nô - gọi Ji Chenxi là Thiếu gia / Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Old Steward xưng hô thế nào với Ji Chenxi (Old Steward tự xưng là gì và gọi Ji Chenxi là gì khi nói chuyện ngược lại)? (Quản gia với chủ)",
+      "options": [
+        "xưng Lão nô - gọi Thiếu gia",
+        "xưng Lão nô - gọi Điện hạ",
+        "xưng Tôi - gọi Thiếu gia",
+        "xưng Tôi - gọi Điện hạ"
+      ],
+      "category": "relationship"
+    }
+  ],
+  "chapter_id": "ch_027",
+  "analyzed_at": "2026-09-25T09:43:57.947605+07:00"
+}

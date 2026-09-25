@@ -1,0 +1,179 @@
+{
+  "chapter_summary": "Ji Chenxi từ chối món quà hoa của Trì Chước, cho rằng không thể nhận quà vô cớ. Trì Chước đề nghị một nụ hôn để bù đắp, nhưng Ji Chenxi lại hỏi liệu nụ hôn của mình có đáng giá không. Sau đó, Trì Chước cố gắng hôn lên tuyến thể của Ji Chenxi, nhưng Ji Chenxi đã nhanh chóng rút lui và lấy đi đóa hoa khoáng. Cuối cùng, Ji Chenxi tặng lại Trì Chước một đóa hoa hồng trắng, được gọi là 'quà trả ơn'.",
+  "new_characters": [
+    {
+      "name": "Black mamba",
+      "hanviet_name": "Rắn mamba đen",
+      "gender": "Unknown",
+      "role": "Spiritual body of a snake, possibly a familiar or manifestation of spiritual energy.",
+      "description": "A black mamba snake that appears to be a spiritual manifestation. It coils around a mineral rose and attempts to approach Ji Chenxi, but is caught by Chi Zhuo. It later carries a white rose."
+    }
+  ],
+  "new_locations": [],
+  "new_terms": [
+    {
+      "original": "mineral rose",
+      "suggested": "hoa khoáng",
+      "hanviet": null,
+      "category": "item",
+      "confidence": 0.7
+    },
+    {
+      "original": "spiritual body",
+      "suggested": "thể linh hồn",
+      "hanviet": null,
+      "category": "other",
+      "confidence": 0.6
+    },
+    {
+      "original": "marking teeth",
+      "suggested": "răng đánh dấu",
+      "hanviet": null,
+      "category": "other",
+      "confidence": 0.7
+    },
+    {
+      "original": "glands",
+      "suggested": "tuyến thể",
+      "hanviet": null,
+      "category": "other",
+      "confidence": 0.8
+    },
+    {
+      "original": "neural interface",
+      "suggested": "giao diện thần kinh",
+      "hanviet": null,
+      "category": "item",
+      "confidence": 0.7
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Chi Zhuo là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Chi Zhuo (Ji Chenxi tự xưng là gì và gọi Chi Zhuo là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_002",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Chi Zhuo xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Chi Zhuo xưng hô thế nào với Ji Chenxi (Chi Zhuo tự xưng là gì và gọi Ji Chenxi là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Ta - gọi Điện hạ",
+        "xưng Ta - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_003",
+      "original": "Ji Chenxi",
+      "suggested": "Ji Chenxi (anh)",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Ji Chenxi (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "anh",
+        "cậu",
+        "y",
+        "hắn"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_004",
+      "original": "Chi Zhuo",
+      "suggested": "Chi Zhuo (hắn ta)",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Chi Zhuo (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "hắn ta",
+        "hắn",
+        "y",
+        "anh ta"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_005",
+      "original": "Black mamba",
+      "suggested": "Rắn mamba đen (nó)",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Rắn mamba đen (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "nó",
+        "y",
+        "con rắn"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_006",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Chi Zhuo là Chi Zhuo",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Chi Zhuo (Ji Chenxi tự xưng là gì và gọi Chi Zhuo là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Chi Zhuo",
+        "xưng Tôi - gọi Trì Chước",
+        "xưng Ta - gọi Chi Zhuo",
+        "xưng Ta - gọi Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_007",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Chi Zhuo xưng Tôi - gọi Ji Chenxi là Ji Chenxi",
+      "confidence": 0.3,
+      "question": "Chiều 2: Chi Zhuo xưng hô thế nào với Ji Chenxi (Chi Zhuo tự xưng là gì và gọi Ji Chenxi là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Ji Chenxi",
+        "xưng Tôi - gọi Quý Thần Hi",
+        "xưng Ta - gọi Ji Chenxi",
+        "xưng Ta - gọi Quý Thần Hi"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_008",
+      "original": "Chi Zhuo",
+      "suggested": "Chi Zhuo (hắn)",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Chi Zhuo (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "hắn",
+        "hắn ta",
+        "y",
+        "anh ta"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_009",
+      "original": "Ji Chenxi",
+      "suggested": "Ji Chenxi (anh)",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Ji Chenxi (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "anh",
+        "cậu",
+        "y",
+        "hắn"
+      ],
+      "category": "pronoun"
+    }
+  ],
+  "chapter_id": "ch_040",
+  "analyzed_at": "2026-09-25T09:52:19.373350+07:00"
+}

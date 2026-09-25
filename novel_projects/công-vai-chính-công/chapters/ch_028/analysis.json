@@ -1,0 +1,101 @@
+{
+  "chapter_summary": "Quý Thần Hi và Trì Chước đều có vết thương ở cổ từ hôm trước, nhưng chúng không đáng kể. Quý Thần Hi, với tâm trạng không tốt, đã rời khỏi tầm nhìn của Trì Chước và sau đó gặp Tô Dục. Tô Dục dẫn Quý Thần Hi đến một đấu trường ngầm bí mật, nơi diễn ra các trận chiến tay đôi sinh tử. Quý Thần Hi nhận thấy sự tàn khốc của nơi này và nghi ngờ về hoạt động của nó trên Đế Tinh. Anh cố gắng liên lạc với bên ngoài bằng máy tính quang học của mình, nhưng phát hiện ra hệ thống bị chặn tín hiệu. Sau khi vượt qua được bộ chặn, anh gửi tin nhắn trực tiếp cho hoàng đế. Ngay sau đó, một sự hỗn loạn xảy ra ở lối vào, và Quý Thần Hi nhận ra rằng 'ngay lập tức' có nghĩa là rất nhanh. Anh lẻn vào khu vực mà một người đàn ông trung niên đã ghé thăm và phát hiện ra một phòng thí nghiệm thí nghiệm trên người kinh hoàng, nơi các cơ thể được biến đổi thành những sinh vật ghê tởm. Khi cố gắng rời đi, anh bị một nữ Alpha phát hiện. Quý Thần Hi phải chạy trốn, sử dụng kỹ năng của mình để vượt qua hệ thống an ninh và các thiết bị phòng thủ. Trong lúc chạy trốn, anh phát hiện có một thế lực thứ ba cũng đang cố gắng giành quyền kiểm soát hệ thống, khiến anh nghĩ đến Bạch Hàn. Anh nhặt một khẩu súng photon để tự vệ, đồng thời cảnh giác cao độ với tinh thần lực của mình. Cuối cùng, anh bất ngờ bị ai đó kéo vào một cánh cửa ẩn.",
+  "new_characters": [],
+  "new_locations": [],
+  "new_terms": [
+    {
+      "original": "biological mask",
+      "suggested": "mặt nạ sinh học",
+      "hanviet": null,
+      "category": "item",
+      "confidence": 0.7
+    },
+    {
+      "original": "human-crocodile fusion",
+      "suggested": "dung hợp người-cá sấu",
+      "hanviet": null,
+      "category": "other",
+      "confidence": 0.7
+    },
+    {
+      "original": "centipede fusion",
+      "suggested": "dung hợp người-rết",
+      "hanviet": null,
+      "category": "other",
+      "confidence": 0.7
+    },
+    {
+      "original": "human experimentation lab",
+      "suggested": "phòng thí nghiệm thí nghiệm trên người",
+      "hanviet": null,
+      "category": "location",
+      "confidence": 0.7
+    },
+    {
+      "original": "photonic net",
+      "suggested": "lưới photon",
+      "hanviet": null,
+      "category": "item",
+      "confidence": 0.7
+    },
+    {
+      "original": "signal blockers",
+      "suggested": "bộ chặn tín hiệu",
+      "hanviet": null,
+      "category": "item",
+      "confidence": 0.7
+    },
+    {
+      "original": "nutrient tanks",
+      "suggested": "bể dinh dưỡng",
+      "hanviet": null,
+      "category": "item",
+      "confidence": 0.7
+    },
+    {
+      "original": "fringe planet",
+      "suggested": "hành tinh biên giới",
+      "hanviet": null,
+      "category": "location",
+      "confidence": 0.7
+    },
+    {
+      "original": "outer arenas",
+      "suggested": "đấu trường bên ngoài",
+      "hanviet": null,
+      "category": "location",
+      "confidence": 0.7
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "Quý Thần Hi → Tô Dục",
+      "suggested": "Quý Thần Hi xưng Tôi - gọi Cậu",
+      "confidence": 0.3,
+      "question": "Chiều 1: Quý Thần Hi xưng hô thế nào với Tô Dục (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Cậu",
+        "xưng Tôi - gọi Anh",
+        "xưng Ta - gọi Ngươi"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_002",
+      "original": "Tô Dục → Quý Thần Hi",
+      "suggested": "Tô Dục xưng Tôi - gọi Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Tô Dục xưng hô thế nào với Quý Thần Hi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Tôi - gọi Cậu",
+        "xưng Tôi - gọi Anh"
+      ],
+      "category": "relationship"
+    }
+  ],
+  "chapter_id": "ch_028",
+  "analyzed_at": "2026-09-25T09:44:14.912479+07:00"
+}

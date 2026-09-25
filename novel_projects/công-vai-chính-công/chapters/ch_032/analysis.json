@@ -1,0 +1,5422 @@
+{
+  "chapter_summary": "Ji Chenxi sử dụng 'can thiệp tinh thần' lên Trì Chước nhưng không thành công hoàn toàn. Trì Chước nhận ra và cảnh cáo Ji Chenxi. Sau đó, hai người thảo luận về tình thế chính trị của Ji Chenxi, đặc biệt là việc anh ta là người thừa kế hợp pháp duy nhất và việc Hoàng đế có thể đang bảo vệ anh ta. Ji Chenxi phá hủy một thiết bị và rời đi, Trì Chước đi theo. Họ tiếp tục cuộc trò chuyện về sự bảo vệ của Hoàng đế và khả năng Ji Chenxi tự xây dựng quyền lực cho mình. Cuối cùng, Ji Chenxi dừng lại, và Trì Chước cũng dừng theo, tạo ra một khoảng cách đầy ẩn ý giữa hai người.",
+  "new_characters": [],
+  "new_locations": [],
+  "new_terms": [
+    {
+      "original": "spiritual interference",
+      "suggested": "can thiệp tinh thần",
+      "hanviet": "精神干涉",
+      "category": "skill",
+      "confidence": 0.0
+    },
+    {
+      "original": "carnivorous flower",
+      "suggested": "hoa ăn thịt",
+      "hanviet": "食肉花",
+      "category": "other",
+      "confidence": 0.0
+    },
+    {
+      "original": "spiritual strength",
+      "suggested": "tinh thần lực",
+      "hanviet": "精神力",
+      "category": "skill",
+      "confidence": 0.0
+    },
+    {
+      "original": "spiritual power",
+      "suggested": "tinh thần lực",
+      "hanviet": "精神力",
+      "category": "skill",
+      "confidence": 0.0
+    },
+    {
+      "original": "light-brain",
+      "suggested": "bộ não ánh sáng",
+      "hanviet": "光脑",
+      "category": "item",
+      "confidence": 0.0
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_002",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_003",
+      "original": "Ji Chenxi (ngôi thứ 3)",
+      "suggested": "Ji Chenxi (anh)",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Ji Chenxi (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "anh",
+        "cậu",
+        "y",
+        "hắn"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_004",
+      "original": "Chi Zhuo (ngôi thứ 3)",
+      "suggested": "Chi Zhuo (hắn ta)",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Chi Zhuo (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "hắn ta",
+        "hắn",
+        "y",
+        "anh ta"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_005",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_006",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_007",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_008",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_009",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_010",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_011",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_012",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_013",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_014",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_015",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_016",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_017",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_018",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_019",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_020",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_021",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_022",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_023",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_024",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_025",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_026",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_027",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_028",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_029",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_030",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_031",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_032",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_033",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_034",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_035",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_036",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_037",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_038",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_039",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_040",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_041",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_042",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_043",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_044",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_045",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_046",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_047",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_048",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_049",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_050",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_051",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_052",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_053",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_054",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_055",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_056",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_057",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_058",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_059",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_060",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_061",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_062",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_063",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_064",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_065",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_066",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_067",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_068",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_069",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_070",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_071",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_072",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_073",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_074",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_075",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_076",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_077",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_078",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_079",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_080",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_081",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_082",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_083",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_084",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_085",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_086",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_087",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_088",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_089",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_090",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_091",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_092",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_093",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_094",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_095",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_096",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_097",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_098",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_099",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_100",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_101",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_102",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_103",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_104",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_105",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_106",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_107",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_108",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_109",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_110",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_111",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_112",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_113",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_114",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_115",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_116",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_117",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_118",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_119",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_120",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_121",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_122",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_123",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_124",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_125",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_126",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_127",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_128",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_129",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_130",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_131",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_132",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_133",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_134",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_135",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_136",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_137",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_138",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_139",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_140",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_141",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_142",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_143",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_144",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_145",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_146",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_147",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_148",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_149",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_150",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_151",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_152",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_153",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_154",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_155",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_156",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_157",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_158",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_159",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_160",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_161",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_162",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_163",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_164",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_165",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_166",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_167",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_168",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_169",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_170",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_171",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_172",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_173",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_174",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_175",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_176",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_177",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_178",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_179",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_180",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_181",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_182",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_183",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_184",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_185",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_186",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_187",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_188",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_189",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_190",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_191",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_192",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_193",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_194",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_195",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_196",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_197",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_198",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_199",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_200",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_201",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_202",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_203",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_204",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_205",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_206",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_207",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_208",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_209",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_210",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_211",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_212",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_213",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_214",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_215",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_216",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_217",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_218",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_219",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_220",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_221",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_222",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_223",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_224",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_225",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_226",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_227",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_228",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_229",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_230",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_231",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_232",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_233",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_234",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_235",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_236",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_237",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_238",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_239",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_240",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_241",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_242",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_243",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_244",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_245",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_246",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_247",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_248",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_249",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_250",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_251",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_252",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_253",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_254",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_255",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_256",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_257",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_258",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_259",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_260",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_261",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_262",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_263",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_264",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_265",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_266",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_267",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_268",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_269",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_270",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_271",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_272",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_273",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_274",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_275",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_276",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_277",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_278",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_279",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_280",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_281",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_282",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_283",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_284",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_285",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_286",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_287",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_288",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_289",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_290",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_291",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_292",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_293",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_294",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_295",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_296",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_297",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_298",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_299",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_300",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_301",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_302",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_303",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_304",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_305",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_306",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_307",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_308",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_309",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_310",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_311",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_312",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_313",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_314",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_315",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_316",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_317",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_318",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_319",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_320",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_321",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_322",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_323",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_324",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_325",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_326",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_327",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_328",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_329",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_330",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_331",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_332",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_333",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_334",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_335",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_336",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_337",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_338",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_339",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_340",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_341",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_342",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_343",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_344",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_345",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_346",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_347",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_348",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_349",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_350",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_351",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_352",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_353",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_354",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_355",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_356",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_357",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_358",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_359",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_360",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_361",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_362",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_363",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_364",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_365",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_366",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_367",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_368",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_369",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_370",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_371",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_372",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_373",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_374",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_375",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_376",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_377",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_378",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_379",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_380",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_381",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_382",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_383",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_384",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Anh - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    }
+  ],
+  "chapter_id": "ch_032",
+  "analyzed_at": "2026-09-25T09:48:56.933376+07:00"
+}
