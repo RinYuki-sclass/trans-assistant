@@ -1,0 +1,179 @@
+{
+  "chapter_summary": "Ji Chenxi và Trì Chước cùng nhau đột nhập vào một phòng thí nghiệm bí mật. Ban đầu, họ đối mặt với những cạm bẫy và robot chiến đấu, nhưng sau đó, họ tìm thấy một kho vũ khí và một chiếc mech. Ji Chenxi thể hiện kỹ năng lái mech xuất sắc, trong khi Trì Chước tập trung vào việc phân tích mục đích của phòng thí nghiệm. Họ thảo luận về các thí nghiệm biến đổi con người, đặc biệt là việc cố gắng nâng cao cấp độ Alpha và Omega lên S trở lên. Ji Chenxi suy đoán rằng vấn đề pheromone bất thường của Trì Chước có thể bắt nguồn từ đây. Cuộc trò chuyện của họ xoay quanh bản chất của pheromone và sự cố chức năng tuyến thể, với Trì Chước đưa ra những câu trả lời ẩn ý.",
+  "new_characters": [
+    {
+      "name": "Bai Han",
+      "hanviet_name": "Bạch Hàn",
+      "gender": "Female",
+      "role": "Kỹ thuật viên trung thành với Trì Chước, người đã giúp đỡ Ji Chenxi.",
+      "description": "Là một nữ Beta đeo kính, cô ấy đã hỗ trợ Ji Chenxi bằng cách dẫn anh ta đến chỗ Trì Chước và sau đó tạo ra sự phân tâm từ bên ngoài để giúp họ đột nhập."
+    }
+  ],
+  "new_locations": [
+    {
+      "name": "small weapons vault",
+      "hanviet": "kho vũ khí nhỏ",
+      "description": "Một căn phòng chứa vũ khí mà Ji Chenxi và Trì Chước tìm thấy bên trong phòng thí nghiệm."
+    },
+    {
+      "name": "lab",
+      "hanviet": "phòng thí nghiệm",
+      "description": "Nơi diễn ra các thí nghiệm biến đổi con người, nơi Ji Chenxi và Trì Chước đột nhập."
+    }
+  ],
+  "new_terms": [
+    {
+      "original": "permission-based lock",
+      "suggested": "khóa dựa trên quyền truy cập",
+      "hanviet": null,
+      "category": "other",
+      "confidence": 0.0
+    },
+    {
+      "original": "human modification experiments",
+      "suggested": "thí nghiệm biến đổi con người",
+      "hanviet": null,
+      "category": "other",
+      "confidence": 0.0
+    },
+    {
+      "original": "test samples",
+      "suggested": "mẫu thử nghiệm",
+      "hanviet": null,
+      "category": "other",
+      "confidence": 0.0
+    },
+    {
+      "original": "light-brain",
+      "suggested": "bộ não ánh sáng",
+      "hanviet": null,
+      "category": "item",
+      "confidence": 0.0
+    },
+    {
+      "original": "mechanical spider",
+      "suggested": "nhện máy",
+      "hanviet": null,
+      "category": "item",
+      "confidence": 0.0
+    },
+    {
+      "original": "holographic screen",
+      "suggested": "màn hình ba chiều",
+      "hanviet": null,
+      "category": "item",
+      "confidence": 0.0
+    },
+    {
+      "original": "photon beams",
+      "suggested": "tia photon",
+      "hanviet": null,
+      "category": "other",
+      "confidence": 0.0
+    },
+    {
+      "original": "weapon cabinets",
+      "suggested": "tủ vũ khí",
+      "hanviet": null,
+      "category": "item",
+      "confidence": 0.0
+    },
+    {
+      "original": "mech",
+      "suggested": "cơ giáp",
+      "hanviet": null,
+      "category": "item",
+      "confidence": 0.0
+    },
+    {
+      "original": "combat-type mini-robots",
+      "suggested": "robot mini chiến đấu",
+      "hanviet": null,
+      "category": "item",
+      "confidence": 0.0
+    },
+    {
+      "original": "spiritual body fusion",
+      "suggested": "hợp nhất thể tinh thần",
+      "hanviet": null,
+      "category": "other",
+      "confidence": 0.0
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 1: Trì Chước xưng hô thế nào với Ji Chenxi (Trì Chước tự xưng là gì và gọi Ji Chenxi là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Ta - gọi Điện hạ",
+        "xưng Anh - gọi Cậu",
+        "xưng Ta - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_002",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 2: Ji Chenxi xưng hô thế nào với Trì Chước (Ji Chenxi tự xưng là gì và gọi Trì Chước là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Ta - gọi Anh",
+        "xưng Em - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_003",
+      "original": "Bai Han (ngôi thứ 3)",
+      "suggested": "Bạch Hàn (hắn)",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Bạch Hàn (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "cô",
+        "nàng",
+        "y",
+        "ả",
+        "chị",
+        "Bạch Hàn"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_004",
+      "original": "Bai Han → Ji Chenxi",
+      "suggested": "Bạch Hàn xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 1: Bạch Hàn xưng hô thế nào với Ji Chenxi (Bạch Hàn tự xưng là gì và gọi Ji Chenxi là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Cậu",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng thuộc hạ - gọi Điện hạ"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_005",
+      "original": "Ji Chenxi → Bai Han",
+      "suggested": "Ji Chenxi xưng Ta - gọi Bạch Hàn là Cô",
+      "confidence": 0.3,
+      "question": "Chiều 2: Ji Chenxi xưng hô thế nào với Bạch Hàn (Ji Chenxi tự xưng là gì và gọi Bạch Hàn là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Ta - gọi Cô",
+        "xưng Tôi - gọi Cô",
+        "xưng Ta - gọi Nàng",
+        "xưng Tôi - gọi Nàng"
+      ],
+      "category": "relationship"
+    }
+  ],
+  "chapter_id": "ch_030",
+  "analyzed_at": "2026-09-25T09:44:44.435402+07:00"
+}

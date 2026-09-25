@@ -1,0 +1,268 @@
+{
+  "chapter_summary": "Quý Thần Hi trở về nhà sau một ngày làm việc hiệu quả, mang theo món quà là đóa hoa \"hoa hồng khoáng vật\". Anh đặt nó lên bàn trang điểm, dọn dẹp những món trang sức cũ không còn thuộc về mình. Sáng hôm sau, anh bất ngờ nhận được lời mời gặp mặt từ Lục Sở Nhiên. Tại điểm hẹn, anh gặp Lục Sở Nhiên và Mạn Dạ Triết, người có vẻ thiếu ngủ. Sau khi Mạn Dạ Triết rời đi, Quý Thần Hi và Lục Sở Nhiên đến công viên trên Đế Tinh. Lục Sở Nhiên tiết lộ kế hoạch của \"Sáng Tinh\" (Morning Star) - một thành viên trong nhóm bảy người của họ - nhằm lợi dụng Quý Thần Hi để tăng cường sự ủng hộ của công chúng thông qua một màn \"anh hùng cứu mỹ nhân\". Lục Sở Nhiên đề nghị giả vờ rơi xuống hồ để Quý Thần Hi cứu, từ đó tạo dựng mối quan hệ và thu hút sự ủng hộ từ gia đình cô hoặc các phe phái khác. Tuy nhiên, Lục Sở Nhiên sau đó tuyên bố đã thay đổi ý định.",
+  "new_characters": [
+    {
+      "name": "Manye Zhe",
+      "hanviet_name": "Mạn Dạ Triết",
+      "gender": "male",
+      "role": "Nhân vật có vẻ thiếu ngủ, có thể là người của \"Sáng Tinh\"",
+      "description": "Xuất hiện cùng Lục Sở Nhiên, có dấu hiệu thiếu ngủ, tỏ ra tò mò về cuộc sống riêng tư của Quý Thần Hi."
+    },
+    {
+      "name": "Lu Churan",
+      "hanviet_name": "Lục Sở Nhiên",
+      "gender": "female",
+      "role": "Omega, có kế hoạch lợi dụng Quý Thần Hi",
+      "description": "Xuất hiện cùng Mạn Dạ Triết, có kế hoạch dàn dựng màn \"anh hùng cứu mỹ nhân\" với Quý Thần Hi để tăng cường sự ủng hộ cho \"Sáng Tinh\"."
+    },
+    {
+      "name": "Morning Star",
+      "hanviet_name": "Sáng Tinh",
+      "gender": "Unknown",
+      "role": "Lãnh đạo nhóm bảy người, chủ mưu kế hoạch",
+      "description": "Người đứng sau kế hoạch lợi dụng Quý Thần Hi thông qua Lục Sở Nhiên, được mô tả là người chủ mưu thực sự."
+    }
+  ],
+  "new_locations": [
+    {
+      "name": "Twelfth Fairy Star",
+      "hanviet": "Tinh Thập Nhị Tiên",
+      "description": "Ngôi sao quê hương của Lục Sở Nhiên."
+    },
+    {
+      "name": "Imperial Star",
+      "hanviet": "Đế Tinh",
+      "description": "Địa điểm diễn ra cuộc gặp gỡ và kế hoạch dàn dựng."
+    },
+    {
+      "name": "forest park",
+      "hanviet": "công viên rừng",
+      "description": "Địa điểm cụ thể trên Đế Tinh nơi Lục Sở Nhiên mời Quý Thần Hi đến."
+    }
+  ],
+  "new_terms": [
+    {
+      "original": "mineral rose",
+      "suggested": "hoa hồng khoáng vật",
+      "hanviet": "khoáng chiêu",
+      "category": "item",
+      "confidence": 0.8
+    },
+    {
+      "original": "fishing",
+      "suggested": "thu thập thông tin",
+      "hanviet": null,
+      "category": "other",
+      "confidence": 0.6
+    },
+    {
+      "original": "rats",
+      "suggested": "kẻ xấu / phe đối địch",
+      "hanviet": null,
+      "category": "other",
+      "confidence": 0.5
+    },
+    {
+      "original": "Morning Star",
+      "suggested": "Sáng Tinh",
+      "hanviet": null,
+      "category": "faction",
+      "confidence": 0.7
+    },
+    {
+      "original": "hero-saves-the-damsel",
+      "suggested": "anh hùng cứu mỹ nhân",
+      "hanviet": null,
+      "category": "other",
+      "confidence": 0.8
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "Ji Chenxi",
+      "suggested": "Quý Thần Hi",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Ji Chenxi?",
+      "options": [
+        "Quý Thần Hi",
+        "Kỷ Thần Hi",
+        "Quý Thần Hỷ"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_002",
+      "original": "Ji Chenxi (ngôi thứ 3)",
+      "suggested": "anh",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Ji Chenxi (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "anh",
+        "cậu",
+        "hắn",
+        "y"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_003",
+      "original": "Manye Zhe → Ji Chenxi",
+      "suggested": "Mạn Dạ Triết xưng Tôi - gọi Quý Thần Hi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 1: Mạn Dạ Triết xưng hô thế nào với Quý Thần Hi (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Ta - gọi Cậu"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_004",
+      "original": "Ji Chenxi → Manye Zhe",
+      "suggested": "Quý Thần Hi xưng Tôi - gọi Mạn Dạ Triết là Cậu",
+      "confidence": 0.3,
+      "question": "Chiều 2: Quý Thần Hi xưng hô thế nào với Mạn Dạ Triết (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Cậu",
+        "xưng Tôi - gọi Anh",
+        "xưng Ta - gọi Ngươi"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_005",
+      "original": "Lu Churan",
+      "suggested": "Lục Sở Nhiên",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Lu Churan?",
+      "options": [
+        "Lục Sở Nhiên",
+        "Lục Sở Nhiễm",
+        "Lục Sở Nhiên"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_006",
+      "original": "Lu Churan (ngôi thứ 3)",
+      "suggested": "cô",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Lu Churan (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "cô",
+        "nàng",
+        "y",
+        "ả"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_007",
+      "original": "Lu Churan → Ji Chenxi",
+      "suggested": "Lục Sở Nhiên xưng Tôi - gọi Quý Thần Hi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 1: Lục Sở Nhiên xưng hô thế nào với Quý Thần Hi (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Em - gọi Anh"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_008",
+      "original": "Ji Chenxi → Lu Churan",
+      "suggested": "Quý Thần Hi xưng Tôi - gọi Lục Sở Nhiên là Cô",
+      "confidence": 0.3,
+      "question": "Chiều 2: Quý Thần Hi xưng hô thế nào với Lục Sở Nhiên (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Cô",
+        "xưng Anh - gọi Em",
+        "xưng Tôi - gọi Tiểu thư"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_009",
+      "original": "Morning Star",
+      "suggested": "Sáng Tinh",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho Morning Star?",
+      "options": [
+        "Sáng Tinh",
+        "Minh Tinh",
+        "Tinh Minh"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_010",
+      "original": "Morning Star (ngôi thứ 3)",
+      "suggested": "hắn",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Morning Star (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "hắn",
+        "y",
+        "người đó"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_011",
+      "original": "Morning Star → Ji Chenxi",
+      "suggested": "Sáng Tinh xưng Tôi - gọi Quý Thần Hi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 1: Sáng Tinh xưng hô thế nào với Quý Thần Hi (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Ta - gọi Cậu"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_012",
+      "original": "Ji Chenxi → Morning Star",
+      "suggested": "Quý Thần Hi xưng Tôi - gọi Sáng Tinh là Cậu",
+      "confidence": 0.3,
+      "question": "Chiều 2: Quý Thần Hi xưng hô thế nào với Sáng Tinh (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Cậu",
+        "xưng Tôi - gọi Ngươi",
+        "xưng Ta - gọi Hắn"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_013",
+      "original": "Manye Zhe → Lu Churan",
+      "suggested": "Mạn Dạ Triết xưng Tôi - gọi Lục Sở Nhiên là Cô",
+      "confidence": 0.3,
+      "question": "Chiều 1: Mạn Dạ Triết xưng hô thế nào với Lục Sở Nhiên (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Cô",
+        "xưng Anh - gọi Em",
+        "xưng Ta - gọi Ngươi"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_014",
+      "original": "Lu Churan → Manye Zhe",
+      "suggested": "Lục Sở Nhiên xưng Tôi - gọi Mạn Dạ Triết là Cậu",
+      "confidence": 0.3,
+      "question": "Chiều 2: Lục Sở Nhiên xưng hô thế nào với Mạn Dạ Triết (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Cậu",
+        "xưng Tôi - gọi Anh",
+        "xưng Em - gọi Anh"
+      ],
+      "category": "relationship"
+    }
+  ],
+  "chapter_id": "ch_041",
+  "analyzed_at": "2026-09-25T09:52:27.510283+07:00"
+}

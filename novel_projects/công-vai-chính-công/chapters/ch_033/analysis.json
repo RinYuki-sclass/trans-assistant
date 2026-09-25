@@ -1,0 +1,116 @@
+{
+  "chapter_summary": "Ji Chenxi và Trì Chước có một cuộc đối thoại đầy ẩn ý và tán tỉnh, xoay quanh chủ đề về việc đánh dấu và mối quan hệ giữa Alpha và Omega. Sau đó, họ có một nụ hôn mãnh liệt, nơi Ji Chenxi phản đòn mạnh mẽ hơn. Cuộc trò chuyện tiếp tục với những lời lẽ thách thức và trêu chọc lẫn nhau, ám chỉ một trò chơi tình ái đầy rủi ro giữa hai Alpha. Cuối cùng, Trì Chước mời Ji Chenxi tham gia một trò chơi chinh phục, và Ji Chenxi, dù có chút do dự, đã bị hấp dẫn bởi lời đề nghị này.",
+  "new_characters": [],
+  "new_locations": [],
+  "new_terms": [
+    {
+      "original": "reproductive cavity",
+      "suggested": "khoang sinh sản",
+      "hanviet": "",
+      "category": "other",
+      "confidence": 0.0
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Chi Zhuo là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Chi Zhuo (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_002",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Chi Zhuo xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Chi Zhuo xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Ngài",
+        "xưng Ta - gọi Điện hạ",
+        "xưng Ta - gọi Ngài"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_003",
+      "original": "Ji Chenxi (ngôi thứ 3)",
+      "suggested": "Ji Chenxi (anh)",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Ji Chenxi (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "anh",
+        "cậu",
+        "y",
+        "hắn"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_004",
+      "original": "Chi Zhuo (ngôi thứ 3)",
+      "suggested": "Chi Zhuo (hắn ta)",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Chi Zhuo (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "hắn ta",
+        "hắn",
+        "y",
+        "anh ta"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_005",
+      "original": "Ji Chenxi",
+      "suggested": "Quý Thần Hi",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Ji Chenxi?",
+      "options": [
+        "Quý Thần Hi",
+        "Kỷ Thần Hi",
+        "Quý Thần Hy",
+        "Kỷ Thần Hy"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_006",
+      "original": "Chi Zhuo",
+      "suggested": "Trì Chước",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Chi Zhuo?",
+      "options": [
+        "Trì Chước",
+        "Chi Chước",
+        "Trì Trác",
+        "Chi Trác"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_007",
+      "original": "reproductive cavity",
+      "suggested": "khoang sinh sản",
+      "confidence": 0.3,
+      "question": "Xác nhận thuật ngữ 'reproductive cavity' nên dịch là gì?",
+      "options": [
+        "khoang sinh sản",
+        "tử cung",
+        "buồng trứng",
+        "hệ sinh sản"
+      ],
+      "category": "term"
+    }
+  ],
+  "chapter_id": "ch_033",
+  "analyzed_at": "2026-09-25T09:49:00.797145+07:00"
+}

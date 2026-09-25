@@ -1,0 +1,173 @@
+{
+  "chapter_summary": "Quý Thần Hi suy ngẫm về mùi pheromone còn vương lại sau cuộc gặp với Trì Chước, nhận thấy sự pha trộn và ngọt ngào bất thường của nó. Anh tình cờ gặp Bạch An Nhiên, người đã nhận ra mùi hương độc đáo trên người Quý Thần Hi và suy đoán rằng anh đã tìm được một omega. Bạch An Nhiên tiết lộ rằng cậu đã dùng hôn ước miệng với Quý Thần Hi làm lá chắn để từ chối hôn ước sắp đặt với thái tử, Quý An Trạch. Quý Thần Hi, nhờ đã đọc sách, không ngạc nhiên trước sự khôn khéo của Bạch An Nhiên. Anh khuyên Bạch An Nhiên nên theo đuổi ước mơ gia nhập quân đội, bất chấp việc là một omega, và đề nghị hỗ trợ cậu trong vấn đề hôn ước miệng.",
+  "new_characters": [
+    {
+      "name": "Ông nội của Bạch An Nhiên",
+      "hanviet_name": "Bạch An Nhiên gia gia",
+      "gender": "Male",
+      "role": "Chiến thần, chỉ huy Quân đoàn thứ ba",
+      "description": "Ông nội của Bạch An Nhiên, một nhân vật quân sự được kính trọng."
+    },
+    {
+      "name": "Cha của Bạch An Nhiên",
+      "hanviet_name": "Bạch An Nhiên phụ thân",
+      "gender": "Male",
+      "role": "Cha của Bạch An Nhiên, không hài lòng với việc con mình là omega",
+      "description": "Cha của Bạch An Nhiên, có quan điểm truyền thống về omega."
+    },
+    {
+      "name": "Cô của Bạch An Nhiên",
+      "hanviet_name": "Bạch An Nhiên cô cô",
+      "gender": "Female",
+      "role": "Người đi cùng Bạch An Nhiên",
+      "description": "Cô của Bạch An Nhiên, đang chờ đợi cậu."
+    }
+  ],
+  "new_locations": [],
+  "new_terms": [
+    {
+      "original": "dessert wine",
+      "suggested": "rượu vang tráng miệng",
+      "hanviet": null,
+      "category": "item",
+      "confidence": 0.0
+    },
+    {
+      "original": "Four Great Legions",
+      "suggested": "Tứ Đại Quân Đoàn",
+      "hanviet": "Tứ Đại Quân Đoàn",
+      "category": "faction",
+      "confidence": 0.0
+    },
+    {
+      "original": "Four Great Noble Families",
+      "suggested": "Tứ Đại Gia Tộc",
+      "hanviet": "Tứ Đại Gia Tộc",
+      "category": "faction",
+      "confidence": 0.0
+    },
+    {
+      "original": "crown prince’s engagement",
+      "suggested": "hôn ước của thái tử",
+      "hanviet": "Thái tử hôn ước",
+      "category": "other",
+      "confidence": 0.0
+    },
+    {
+      "original": "mating season",
+      "suggested": "kỳ phát tình",
+      "hanviet": null,
+      "category": "other",
+      "confidence": 0.0
+    },
+    {
+      "original": "inhibitors",
+      "suggested": "thuốc ức chế",
+      "hanviet": null,
+      "category": "item",
+      "confidence": 0.0
+    },
+    {
+      "original": "scent remover",
+      "suggested": "dung dịch khử mùi",
+      "hanviet": null,
+      "category": "item",
+      "confidence": 0.0
+    },
+    {
+      "original": "verbal engagement",
+      "suggested": "hôn ước miệng",
+      "hanviet": "Khẩu đầu hôn ước",
+      "category": "other",
+      "confidence": 0.0
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "Ông nội của Bạch An Nhiên",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật 'Ông nội của Bạch An Nhiên'?",
+      "options": [
+        "Bạch Lão gia",
+        "Bạch Nguyên soái",
+        "Bạch lão tướng quân",
+        "Giữ nguyên 'Ông nội của Bạch An Nhiên'"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_002",
+      "original": "Ông nội của Bạch An Nhiên (ngôi thứ 3)",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật 'Ông nội của Bạch An Nhiên' (ông, ngài, lão, y...)?",
+      "options": [
+        "ông",
+        "ngài",
+        "lão",
+        "y"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_003",
+      "original": "Cha của Bạch An Nhiên",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật 'Cha của Bạch An Nhiên'?",
+      "options": [
+        "Bạch Phụ",
+        "Bạch Tướng quân",
+        "Bạch tiên sinh",
+        "Giữ nguyên 'Cha của Bạch An Nhiên'"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_004",
+      "original": "Cha của Bạch An Nhiên (ngôi thứ 3)",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật 'Cha của Bạch An Nhiên' (ông, ngài, lão, y...)?",
+      "options": [
+        "ông",
+        "y",
+        "hắn",
+        "ngài"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_005",
+      "original": "Cô của Bạch An Nhiên",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật 'Cô của Bạch An Nhiên'?",
+      "options": [
+        "Bạch phu nhân",
+        "Bạch tiểu thư",
+        "Bạch cô cô",
+        "Giữ nguyên 'Cô của Bạch An Nhiên'"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_006",
+      "original": "Cô của Bạch An Nhiên (ngôi thứ 3)",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật 'Cô của Bạch An Nhiên' (cô, bà, nàng, y...)?",
+      "options": [
+        "cô",
+        "bà",
+        "nàng",
+        "y"
+      ],
+      "category": "pronoun"
+    }
+  ],
+  "chapter_id": "ch_025",
+  "analyzed_at": "2026-09-25T09:43:03.647840+07:00"
+}

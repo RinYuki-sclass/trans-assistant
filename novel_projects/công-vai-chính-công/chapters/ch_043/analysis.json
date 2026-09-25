@@ -1,0 +1,253 @@
+{
+  "chapter_summary": "Chương này tập trung vào cuộc trò chuyện và tương tác giữa Quý Thần Hi và Trì Chước, ban đầu qua tin nhắn và sau đó là qua điện thoại. Quý Thần Hi bị thương và đang tự điều trị, trong khi Trì Chước thể hiện sự quan tâm và lo lắng. Sau đó, Trì Chước đến thăm Quý Thần Hi, mang theo một bó hoa hồng lớn, và hai người tiếp tục trò chuyện một cách thân mật. Cuối chương, Tô Dục đến thăm Quý Thần Hi và bất ngờ chứng kiến cảnh Quý Thần Hi và Trì Chước đi cùng nhau, làm dấy lên nghi ngờ về mối quan hệ của họ.",
+  "new_characters": [
+    {
+      "name": "Lu Churan",
+      "hanviet_name": "Lục Sở Nhiên",
+      "gender": "Female",
+      "role": "Người thừa kế giàu có, người mà Tô Dục từng đề cập.",
+      "description": "Một nữ thừa kế giàu có, được Tô Dục nhắc đến và có vẻ phù hợp với Quý Thần Hi."
+    }
+  ],
+  "new_locations": [],
+  "new_terms": [
+    {
+      "original": "light-screen",
+      "suggested": "màn hình ánh sáng",
+      "hanviet": null,
+      "category": "item",
+      "confidence": 0.0
+    },
+    {
+      "original": "StarNet",
+      "suggested": "Mạng Lưới Tinh Cầu",
+      "hanviet": null,
+      "category": "location",
+      "confidence": 0.0
+    },
+    {
+      "original": "treatment pod",
+      "suggested": "buồng trị liệu",
+      "hanviet": null,
+      "category": "item",
+      "confidence": 0.0
+    },
+    {
+      "original": "rose mousse",
+      "suggested": "bánh mousse hoa hồng",
+      "hanviet": null,
+      "category": "item",
+      "confidence": 0.0
+    },
+    {
+      "original": "Rose Manor",
+      "suggested": "Dinh thự Hoa Hồng",
+      "hanviet": null,
+      "category": "location",
+      "confidence": 0.0
+    },
+    {
+      "original": "Peach Snow Mountain",
+      "suggested": "Đào Tuyết Sơn",
+      "hanviet": null,
+      "category": "item",
+      "confidence": 0.0
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Quý Thần Hi xưng Tôi - gọi Trì Chước là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Quý Thần Hi xưng hô thế nào với Trì Chước (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Anh Chước",
+        "xưng Em - gọi Anh",
+        "xưng Ta - gọi Ngươi"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_002",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Trì Chước xưng Tôi - gọi Quý Thần Hi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Trì Chước xưng hô thế nào với Quý Thần Hi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Ta - gọi Ngươi",
+        "xưng Tôi - gọi Cậu"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_003",
+      "original": "Ji Chenxi",
+      "suggested": "Quý Thần Hi",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Ji Chenxi?",
+      "options": [
+        "Quý Thần Hi",
+        "Kỷ Thần Hi",
+        "Quý Thần Hy"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_004",
+      "original": "Ji Chenxi (ngôi thứ 3)",
+      "suggested": "Quý Thần Hi (anh)",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Quý Thần Hi (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "anh",
+        "cậu",
+        "y",
+        "hắn"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_005",
+      "original": "Chi Zhuo",
+      "suggested": "Trì Chước",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Chi Zhuo?",
+      "options": [
+        "Trì Chước",
+        "Trì Chước (池灼)",
+        "Chi Chước"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_006",
+      "original": "Chi Zhuo (ngôi thứ 3)",
+      "suggested": "Trì Chước (hắn ta/hắn)",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Trì Chước (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "hắn ta",
+        "hắn",
+        "y",
+        "anh ta"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_007",
+      "original": "Brother Chi Zhou → Ji Chenxi",
+      "suggested": "Anh Trì Chước xưng Tôi - gọi Quý Thần Hi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 1: Trì Chước xưng hô thế nào với Quý Thần Hi (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Anh - gọi Điện hạ",
+        "xưng Ta - gọi Ngươi",
+        "xưng Tôi - gọi Cậu"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_008",
+      "original": "Ji Chenxi → Brother Chi Zhou",
+      "suggested": "Quý Thần Hi xưng Tôi - gọi Trì Chước là Anh Chước",
+      "confidence": 0.3,
+      "question": "Chiều 2: Quý Thần Hi xưng hô thế nào với Trì Chước (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Anh Chước",
+        "xưng Tôi - gọi Anh",
+        "xưng Em - gọi Anh",
+        "xưng Ta - gọi Ngươi"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_009",
+      "original": "Lu Churan",
+      "suggested": "Lục Sở Nhiên",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Lu Churan?",
+      "options": [
+        "Lục Sở Nhiên",
+        "Lục Sở Nhiên",
+        "Lu Churan"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_010",
+      "original": "Lu Churan (ngôi thứ 3)",
+      "suggested": "Lục Sở Nhiên (cô ấy)",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Lục Sở Nhiên (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "cô ấy",
+        "nàng",
+        "cô",
+        "y"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_011",
+      "original": "Su Yu → Ji Chenxi",
+      "suggested": "Tô Dục xưng Tôi - gọi Quý Thần Hi là Cậu",
+      "confidence": 0.3,
+      "question": "Chiều 1: Tô Dục xưng hô thế nào với Quý Thần Hi (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Cậu",
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Anh - gọi Em",
+        "xưng Ta - gọi Ngươi"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_012",
+      "original": "Ji Chenxi → Su Yu",
+      "suggested": "Quý Thần Hi xưng Tôi - gọi Tô Dục là Bạn",
+      "confidence": 0.3,
+      "question": "Chiều 2: Quý Thần Hi xưng hô thế nào với Tô Dục (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Bạn",
+        "xưng Tôi - gọi Tô Dục",
+        "xưng Em - gọi Anh",
+        "xưng Ta - gọi Ngươi"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_013",
+      "original": "Su Yu",
+      "suggested": "Tô Dục",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Su Yu?",
+      "options": [
+        "Tô Dục",
+        "Tô Vũ",
+        "Tô Dụ"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_014",
+      "original": "Su Yu (ngôi thứ 3)",
+      "suggested": "Tô Dục (anh ấy)",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Tô Dục (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "anh ấy",
+        "cậu",
+        "y",
+        "hắn"
+      ],
+      "category": "pronoun"
+    }
+  ],
+  "chapter_id": "ch_043",
+  "analyzed_at": "2026-09-25T09:52:47.893424+07:00"
+}

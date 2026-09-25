@@ -1,0 +1,380 @@
+{
+  "chapter_summary": "Manye Zhe, a killer, encounters Ji Chenxi (Bai Wei) holding a white rose, which contradicts his expectation of Bai Wei being an omega. Ji Chenxi, who was just kissed by Chi Zhuo, clarifies his identity and intentions to Manye Zhe. They discuss their online friend Que Qi and the dangers they face. Later, Ji Chenxi, Manye Zhe, and Que Qi (Lu Churan) meet and discuss the auction material, which is about a 'miracle' and is half true, half fabricated. They anticipate attracting powerful factions to the auction.",
+  "new_characters": [
+    {
+      "name": "Manye Zhe",
+      "hanviet_name": "Mạn Dạ Triết",
+      "gender": "Male",
+      "role": "Killer, online friend of Ji Chenxi (Bai Wei)",
+      "description": "A killer with a poker face who is surprised to find Ji Chenxi (Bai Wei) is an alpha. He is cautious and observant."
+    },
+    {
+      "name": "Bai Wei",
+      "hanviet_name": "Bạch Vi",
+      "gender": "Male",
+      "role": "Ji Chenxi's online alias",
+      "description": "Ji Chenxi's online persona, believed by Manye Zhe to be a cute omega. Ji Chenxi uses this name when verifying identity with Manye Zhe."
+    },
+    {
+      "name": "Que Qi",
+      "hanviet_name": "Khước Kỳ",
+      "gender": "Female",
+      "role": "Online friend of Ji Chenxi and Manye Zhe, beautiful omega, heiress",
+      "description": "A beautiful omega who is an online friend of Ji Chenxi and Manye Zhe. She is also an heiress with a powerful offensive spiritual body."
+    },
+    {
+      "name": "Lu Churan",
+      "hanviet_name": "Lục Sở Nhiên",
+      "gender": "Female",
+      "role": "Que Qi's real name",
+      "description": "The real name of Que Qi, a beautiful omega heiress."
+    }
+  ],
+  "new_locations": [],
+  "new_terms": [
+    {
+      "original": "white rose",
+      "suggested": "bạch liên",
+      "hanviet": "bạch liên",
+      "category": "item",
+      "confidence": 0.5
+    },
+    {
+      "original": "poker face",
+      "suggested": "khuôn mặt poker",
+      "hanviet": null,
+      "category": "other",
+      "confidence": 0.0
+    },
+    {
+      "original": "spiritual barrier",
+      "suggested": "hàng rào tinh thần",
+      "hanviet": null,
+      "category": "skill",
+      "confidence": 0.0
+    },
+    {
+      "original": "spiritual body",
+      "suggested": "thể xác tinh thần",
+      "hanviet": null,
+      "category": "skill",
+      "confidence": 0.0
+    },
+    {
+      "original": "jamming device",
+      "suggested": "thiết bị gây nhiễu",
+      "hanviet": null,
+      "category": "item",
+      "confidence": 0.0
+    },
+    {
+      "original": "auction hall",
+      "suggested": "sảnh đấu giá",
+      "hanviet": null,
+      "category": "location",
+      "confidence": 0.0
+    },
+    {
+      "original": "Morning Star",
+      "suggested": "Sao Mai",
+      "hanviet": null,
+      "category": "faction",
+      "confidence": 0.0
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "Manye Zhe",
+      "suggested": "Mạn Dạ Triết",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Manye Zhe?",
+      "options": [
+        "Mạn Dạ Triết",
+        "Mạn Dã Triết",
+        "Mạn Dạ",
+        "Dạ Triết"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_002",
+      "original": "Manye Zhe (ngôi thứ 3)",
+      "suggested": "hắn",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Manye Zhe (hắn, y, anh, cậu, gã, chàng)?",
+      "options": [
+        "hắn",
+        "y",
+        "anh",
+        "cậu",
+        "gã",
+        "chàng"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_003",
+      "original": "Bai Wei",
+      "suggested": "Bạch Vi",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Bai Wei?",
+      "options": [
+        "Bạch Vi",
+        "Bạch Vĩ",
+        "Bạch Vệ"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_004",
+      "original": "Bai Wei (ngôi thứ 3)",
+      "suggested": "anh",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Bai Wei (hắn, y, anh, cậu, gã, chàng)?",
+      "options": [
+        "anh",
+        "cậu",
+        "hắn",
+        "y",
+        "gã",
+        "chàng"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_005",
+      "original": "Que Qi",
+      "suggested": "Khước Kỳ",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Que Qi?",
+      "options": [
+        "Khước Kỳ",
+        "Khước Khê",
+        "Quý Kỳ"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_006",
+      "original": "Que Qi (ngôi thứ 3)",
+      "suggested": "cô",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Que Qi (cô, nàng, y, ả, chị, bà ta)?",
+      "options": [
+        "cô",
+        "nàng",
+        "y",
+        "ả",
+        "chị",
+        "bà ta"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_007",
+      "original": "Lu Churan",
+      "suggested": "Lục Sở Nhiên",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Lu Churan?",
+      "options": [
+        "Lục Sở Nhiên",
+        "Lục Sở Nhiệm",
+        "Lục Sở Nhiên Nhiên"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_008",
+      "original": "Lu Churan (ngôi thứ 3)",
+      "suggested": "cô",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Lu Churan (cô, nàng, y, ả, chị, bà ta)?",
+      "options": [
+        "cô",
+        "nàng",
+        "y",
+        "ả",
+        "chị",
+        "bà ta"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_009",
+      "original": "Ji Chenxi → Manye Zhe",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Manye Zhe là Cậu",
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Manye Zhe (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Cậu",
+        "xưng Ta - gọi Ngươi",
+        "xưng Anh - gọi Em",
+        "xưng Tôi - gọi Anh"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_010",
+      "original": "Manye Zhe → Ji Chenxi",
+      "suggested": "Manye Zhe xưng Tôi - gọi Ji Chenxi là Cậu",
+      "question": "Chiều 2: Manye Zhe xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Cậu",
+        "xưng Ta - gọi Ngươi",
+        "xưng Anh - gọi Em",
+        "xưng Tôi - gọi Anh"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_011",
+      "original": "Ji Chenxi → Que Qi",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Que Qi là Cô",
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Que Qi (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Cô",
+        "xưng Anh - gọi Cô",
+        "xưng Tôi - gọi Miss Lu",
+        "xưng Tôi - gọi Nữ sĩ"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_012",
+      "original": "Que Qi → Ji Chenxi",
+      "suggested": "Que Qi xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "question": "Chiều 2: Que Qi xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Em - gọi Anh",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Tôi - gọi Hoàng tử"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_013",
+      "original": "Ji Chenxi → Lu Churan",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Lu Churan là Cô",
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Lu Churan (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Cô",
+        "xưng Anh - gọi Cô",
+        "xưng Tôi - gọi Miss Lu",
+        "xưng Tôi - gọi Nữ sĩ"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_014",
+      "original": "Lu Churan → Ji Chenxi",
+      "suggested": "Lu Churan xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "question": "Chiều 2: Lu Churan xưng hô thế nào với Ji Chenxi (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Em - gọi Anh",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Tôi - gọi Hoàng tử"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_015",
+      "original": "Manye Zhe → Lu Churan",
+      "suggested": "Manye Zhe xưng Tôi - gọi Lu Churan là Cô",
+      "question": "Chiều 1: Manye Zhe xưng hô thế nào với Lu Churan (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Cô",
+        "xưng Anh - gọi Em",
+        "xưng Tôi - gọi Nữ sĩ"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_016",
+      "original": "Lu Churan → Manye Zhe",
+      "suggested": "Lu Churan xưng Tôi - gọi Manye Zhe là Anh",
+      "question": "Chiều 2: Lu Churan xưng hô thế nào với Manye Zhe (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Cậu",
+        "xưng Em - gọi Anh"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_017",
+      "original": "Ji Chenxi → Que Qi (private transmission)",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Que Qi là Cô",
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Que Qi qua truyền âm (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Cô",
+        "xưng Anh - gọi Cô",
+        "xưng Tôi - gọi Miss Lu"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_018",
+      "original": "Que Qi → Ji Chenxi (private transmission)",
+      "suggested": "Que Qi xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "question": "Chiều 2: Que Qi xưng hô thế nào với Ji Chenxi qua truyền âm (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Em - gọi Anh",
+        "xưng Tôi - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_019",
+      "original": "Ji Chenxi → Lu Churan (private transmission)",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Lu Churan là Cô",
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Lu Churan qua truyền âm (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Cô",
+        "xưng Anh - gọi Cô",
+        "xưng Tôi - gọi Miss Lu"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_020",
+      "original": "Lu Churan → Ji Chenxi (private transmission)",
+      "suggested": "Lu Churan xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "question": "Chiều 2: Lu Churan xưng hô thế nào với Ji Chenxi qua truyền âm (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Em - gọi Anh",
+        "xưng Tôi - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_021",
+      "original": "Ji Chenxi → Manye Zhe (private transmission)",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Manye Zhe là Cậu",
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Manye Zhe qua truyền âm (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Cậu",
+        "xưng Ta - gọi Ngươi",
+        "xưng Anh - gọi Em"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_022",
+      "original": "Manye Zhe → Ji Chenxi (private transmission)",
+      "suggested": "Manye Zhe xưng Tôi - gọi Ji Chenxi là Cậu",
+      "question": "Chiều 2: Manye Zhe xưng hô thế nào với Ji Chenxi qua truyền âm (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Cậu",
+        "xưng Ta - gọi Ngươi",
+        "xưng Anh - gọi Em"
+      ],
+      "category": "relationship"
+    }
+  ],
+  "chapter_id": "ch_038",
+  "analyzed_at": "2026-09-25T09:52:03.257431+07:00"
+}

@@ -1,0 +1,344 @@
+{
+  "chapter_summary": "Ji Chenxi từ chối lời đề nghị tham gia một \"trò chơi tình ái\" của Trì Chước, khiến Trì Chước có chút thất vọng. Sau đó, Ji Chenxi quay lại phòng thí nghiệm để xóa dấu vết và tình cờ phát hiện một tệp nghiên cứu có tên 'Miracle'. Anh tham gia vào một nhóm trò chuyện trên web đen, nơi anh được biết về các sự kiện sắp tới như Đấu giá Hoàng gia và một vụ ám sát hụt nhằm vào Tam hoàng tử. Cuối cùng, Ji Chenxi gặp Tô Dục, người mang rượu đến và họ trò chuyện về các sự kiện gần đây, đặc biệt là lời đề nghị của Trì Chước.",
+  "new_characters": [
+    {
+      "name": "Night Wanderer",
+      "hanviet_name": "Dạ Hành Giả",
+      "gender": "Unknown",
+      "role": "Member of a dark web group, familiar with Bai Wei",
+      "description": "Một thành viên trong nhóm trò chuyện trên web đen, có vẻ thân thiết với Bai Wei (Ji Chenxi)."
+    },
+    {
+      "name": "Traveler",
+      "hanviet_name": "Lữ Khách",
+      "gender": "Unknown",
+      "role": "Member of a dark web group, initially sarcastic",
+      "description": "Một thành viên trong nhóm trò chuyện trên web đen, ban đầu có thái độ mỉa mai nhưng sau đó nghiêm túc hơn."
+    },
+    {
+      "name": "Morning Star",
+      "hanviet_name": "Sao Mai",
+      "gender": "Unknown",
+      "role": "Member of a dark web group, knowledgeable about Imperial Star and the Third Prince",
+      "description": "Một thành viên trong nhóm trò chuyện trên web đen, có kiến thức về Hoàng Tinh và Tam hoàng tử, đã đoán ra thân phận thật của Ji Chenxi từ lâu."
+    },
+    {
+      "name": "Wild Follower",
+      "hanviet_name": "Hoang Dã Theo Đuổi",
+      "gender": "Unknown",
+      "role": "Member of a dark web group, discussed assassination attempt",
+      "description": "Một thành viên trong nhóm trò chuyện trên web đen, đã thảo luận về vụ ám sát hụt Tam hoàng tử."
+    },
+    {
+      "name": "Queqi",
+      "hanviet_name": "Khước Khí",
+      "gender": "Unknown",
+      "role": "Mentioned as attending the Night Auction, possibly an Omega",
+      "description": "Được nhắc đến sẽ tham dự Đấu giá Đêm, có khả năng là Omega."
+    },
+    {
+      "name": "Bai Wei",
+      "hanviet_name": "Bạch Vi",
+      "gender": "Male",
+      "role": "Codename for Ji Chenxi in the dark web group",
+      "description": "Bí danh của Ji Chenxi trong nhóm trò chuyện trên web đen, được biết đến là người bí ẩn nhất nhóm."
+    },
+    {
+      "name": "The first prince",
+      "hanviet_name": "Đệ nhất hoàng tử",
+      "gender": "Male",
+      "role": "Behind the assassination attempt on the Third Prince",
+      "description": "Được cho là chủ mưu đứng sau vụ ám sát Tam hoàng tử."
+    }
+  ],
+  "new_locations": [],
+  "new_terms": [
+    {
+      "original": "Miracle",
+      "suggested": "Kỳ Tích",
+      "hanviet": "Miracle",
+      "category": "other",
+      "confidence": 0.3
+    },
+    {
+      "original": "dark web",
+      "suggested": "web đen",
+      "hanviet": null,
+      "category": "location",
+      "confidence": 0.0
+    },
+    {
+      "original": "Imperial Star",
+      "suggested": "Hoàng Tinh",
+      "hanviet": "Hoàng Tinh",
+      "category": "location",
+      "confidence": 0.0
+    },
+    {
+      "original": "Night Auction",
+      "suggested": "Đấu giá Đêm",
+      "hanviet": null,
+      "category": "other",
+      "confidence": 0.0
+    },
+    {
+      "original": "Nanfei Star",
+      "suggested": "Nam Phi Tinh",
+      "hanviet": null,
+      "category": "location",
+      "confidence": 0.0
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "Ji Chenxi → Chi Zhuo",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Chi Zhuo là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ji Chenxi xưng hô thế nào với Chi Zhuo (Ji Chenxi tự xưng là gì và gọi Chi Zhuo là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Ta - gọi Anh",
+        "xưng Tôi - gọi Anh Trì Chước"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_002",
+      "original": "Chi Zhuo → Ji Chenxi",
+      "suggested": "Chi Zhuo xưng Tôi - gọi Ji Chenxi là Điện hạ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Chi Zhuo xưng hô thế nào với Ji Chenxi (Chi Zhuo tự xưng là gì và gọi Ji Chenxi là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện hạ",
+        "xưng Tôi - gọi Tam thiếu gia",
+        "xưng Anh - gọi Điện hạ"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_003",
+      "original": "Ji Chenxi (ngôi thứ 3)",
+      "suggested": "Ji Chenxi (anh)",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Ji Chenxi (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "anh",
+        "cậu",
+        "y",
+        "hắn"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_004",
+      "original": "Chi Zhuo (ngôi thứ 3)",
+      "suggested": "Chi Zhuo (hắn ta)",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Chi Zhuo (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "hắn ta",
+        "hắn",
+        "anh ta",
+        "y"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_005",
+      "original": "Night Wanderer → Bai Wei",
+      "suggested": "Night Wanderer xưng Tôi - gọi Bai Wei là Cậu",
+      "confidence": 0.3,
+      "question": "Chiều 1: Night Wanderer xưng hô thế nào với Bai Wei (Night Wanderer tự xưng là gì và gọi Bai Wei là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Cậu",
+        "xưng Ta - gọi Cậu",
+        "xưng Tôi - gọi Bạch Vi"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_006",
+      "original": "Bai Wei → Night Wanderer",
+      "suggested": "Bai Wei xưng Tôi - gọi Night Wanderer là Cậu",
+      "confidence": 0.3,
+      "question": "Chiều 2: Bai Wei xưng hô thế nào với Night Wanderer (Bai Wei tự xưng là gì và gọi Night Wanderer là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Cậu",
+        "xưng Tôi - gọi Dạ Hành Giả",
+        "xưng Ta - gọi Ngươi"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_007",
+      "original": "Traveler → Bai Wei",
+      "suggested": "Traveler xưng Tôi - gọi Bai Wei là Cậu",
+      "confidence": 0.3,
+      "question": "Chiều 1: Traveler xưng hô thế nào với Bai Wei (Traveler tự xưng là gì và gọi Bai Wei là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Cậu",
+        "xưng Ta - gọi Cậu",
+        "xưng Tôi - gọi Bạch Vi"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_008",
+      "original": "Bai Wei → Traveler",
+      "suggested": "Bai Wei xưng Tôi - gọi Traveler là Cậu",
+      "confidence": 0.3,
+      "question": "Chiều 2: Bai Wei xưng hô thế nào với Traveler (Bai Wei tự xưng là gì và gọi Traveler là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Cậu",
+        "xưng Tôi - gọi Lữ Khách",
+        "xưng Ta - gọi Ngươi"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_009",
+      "original": "Morning Star → Bai Wei",
+      "suggested": "Morning Star xưng Tôi - gọi Bai Wei là Cậu",
+      "confidence": 0.3,
+      "question": "Chiều 1: Morning Star xưng hô thế nào với Bai Wei (Morning Star tự xưng là gì và gọi Bai Wei là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Cậu",
+        "xưng Ta - gọi Cậu",
+        "xưng Tôi - gọi Bạch Vi"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_010",
+      "original": "Bai Wei → Morning Star",
+      "suggested": "Bai Wei xưng Tôi - gọi Morning Star là Cậu",
+      "confidence": 0.3,
+      "question": "Chiều 2: Bai Wei xưng hô thế nào với Morning Star (Bai Wei tự xưng là gì và gọi Morning Star là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Cậu",
+        "xưng Tôi - gọi Sao Mai",
+        "xưng Ta - gọi Ngươi"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_011",
+      "original": "Wild Follower → Bai Wei",
+      "suggested": "Wild Follower xưng Tôi - gọi Bai Wei là Cậu",
+      "confidence": 0.3,
+      "question": "Chiều 1: Wild Follower xưng hô thế nào với Bai Wei (Wild Follower tự xưng là gì và gọi Bai Wei là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Cậu",
+        "xưng Ta - gọi Cậu",
+        "xưng Tôi - gọi Bạch Vi"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_012",
+      "original": "Bai Wei → Wild Follower",
+      "suggested": "Bai Wei xưng Tôi - gọi Wild Follower là Cậu",
+      "confidence": 0.3,
+      "question": "Chiều 2: Bai Wei xưng hô thế nào với Wild Follower (Bai Wei tự xưng là gì và gọi Wild Follower là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Cậu",
+        "xưng Tôi - gọi Hoang Dã Theo Đuổi",
+        "xưng Ta - gọi Ngươi"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_013",
+      "original": "Bai Wei → Queqi",
+      "suggested": "Bai Wei xưng Tôi - gọi Queqi là Cậu",
+      "confidence": 0.3,
+      "question": "Chiều 1: Bai Wei xưng hô thế nào với Queqi (Bai Wei tự xưng là gì và gọi Queqi là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Cậu",
+        "xưng Ta - gọi Cậu",
+        "xưng Tôi - gọi Khước Khí"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_014",
+      "original": "Queqi → Bai Wei",
+      "suggested": "Queqi xưng Tôi - gọi Bai Wei là Cậu",
+      "confidence": 0.3,
+      "question": "Chiều 2: Queqi xưng hô thế nào với Bai Wei (Queqi tự xưng là gì và gọi Bai Wei là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Cậu",
+        "xưng Ta - gọi Cậu",
+        "xưng Tôi - gọi Bạch Vi"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_015",
+      "original": "Su Yu → Ji Chenxi",
+      "suggested": "Su Yu xưng Tôi - gọi Ji Chenxi là Cậu",
+      "confidence": 0.3,
+      "question": "Chiều 1: Su Yu xưng hô thế nào với Ji Chenxi (Su Yu tự xưng là gì và gọi Ji Chenxi là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Cậu",
+        "xưng Anh - gọi Cậu",
+        "xưng Tôi - gọi Tam thiếu gia"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_016",
+      "original": "Ji Chenxi → Su Yu",
+      "suggested": "Ji Chenxi xưng Tôi - gọi Su Yu là Anh",
+      "confidence": 0.3,
+      "question": "Chiều 2: Ji Chenxi xưng hô thế nào với Su Yu (Ji Chenxi tự xưng là gì và gọi Su Yu là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Anh",
+        "xưng Ta - gọi Anh",
+        "xưng Tôi - gọi Tô Dục"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_017",
+      "original": "Bai Wei (ngôi thứ 3)",
+      "suggested": "Bai Wei (anh)",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Bai Wei (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "anh",
+        "cậu",
+        "y",
+        "hắn"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_018",
+      "original": "the first prince",
+      "suggested": "Đệ nhất hoàng tử",
+      "hanviet_name": "Đệ nhất hoàng tử",
+      "gender": "Male",
+      "role": "Behind the assassination attempt on the Third Prince",
+      "description": "Được cho là chủ mưu đứng sau vụ ám sát Tam hoàng tử.",
+      "category": "name"
+    },
+    {
+      "id": "amb_019",
+      "original": "the first prince (ngôi thứ 3)",
+      "suggested": "Đệ nhất hoàng tử (hắn)",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Đệ nhất hoàng tử (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "hắn",
+        "y",
+        "anh ta",
+        "cậu ta"
+      ],
+      "category": "pronoun"
+    }
+  ],
+  "chapter_id": "ch_034",
+  "analyzed_at": "2026-09-25T09:49:09.433536+07:00"
+}
