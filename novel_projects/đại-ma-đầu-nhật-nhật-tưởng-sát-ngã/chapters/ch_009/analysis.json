@@ -1,0 +1,386 @@
+{
+  "chapter_summary": "Chương này mở đầu với trận chiến ác liệt tại Chủ Phong của Tuyên Nghi Cung, nơi một Lão Quỷ mặt xanh nanh nhọn đang áp đảo các trưởng lão và đệ tử bằng vô số âm hồn. Đột nhiên, một luồng ma khí cực mạnh xuất hiện, cùng với một giọng nói lạnh lẽo. Lão Quỷ lập tức nhận ra đó là Ứng Hàn Y, vị Đế Tôn đã bị Trường Lâm phong ấn hàng ngàn năm, và vội vàng quỳ lạy, giải thích rằng việc tấn công Tuyên Nghi Cung là để giải cứu ngài. Các trưởng lão Tuyên Nghi Cung kinh ngạc trước sự xuất hiện của Ứng Hàn Y và sự phục tùng của Lão Quỷ. Lão Quỷ sau đó chú ý đến Hạ Khanh Tuyên, gọi hắn là 'toàn linh chi thể'. Ánh mắt lạnh lùng của Ứng Hàn Y khiến Lão Quỷ hoảng sợ bỏ chạy và bị tiêu diệt bởi một vụ nổ bí ẩn. Chưởng môn Tuyên Nghi Cung nhận ra Ứng Hàn Y, gây ra sự hoang mang tột độ. Ứng Hàn Y chế giễu sự suy tàn của Tuyên Nghi Cung. Đại Trưởng Lão xuất hiện, sau khi hộ tống Hạ Khanh Tuyên đến Vô Đáy Thâm Uyên và chiến đấu với yêu thú. Ông ngạc nhiên trước không khí yên tĩnh và sự hiện diện của Hạ Khanh Tuyên bên cạnh Ứng Hàn Y. Hạ Khanh Tuyên chào hỏi Đại Trưởng Lão một cách thân mật, cả hai trao đổi những lời đùa cợt về việc vẫn còn sống.",
+  "new_characters": [
+    {
+      "name": "老鬼",
+      "hanviet_name": "Lão Quỷ",
+      "gender": "Male",
+      "role": "Phản diện, yêu ma mạnh mẽ",
+      "description": "Yêu ma mạnh mẽ, mặt xanh nanh nhọn, cầm chiêu hồn phiên, dẫn đầu cuộc tấn công Tuyên Nghi Cung, phục tùng Ứng Hàn Y."
+    },
+    {
+      "name": "宣仪宫掌门",
+      "hanviet_name": "Tuyên Nghi Cung Chưởng Môn",
+      "gender": "Male",
+      "role": "Chưởng môn Tuyên Nghi Cung",
+      "description": "Người đứng đầu hiện tại của Tuyên Nghi Cung, nhận ra Ứng Hàn Y."
+    },
+    {
+      "name": "大长 lão",
+      "hanviet_name": "Đại Trưởng Lão",
+      "gender": "Male",
+      "role": "Trưởng lão Tuyên Nghi Cung, người bảo hộ/huấn luyện Hạ Khanh Tuyên",
+      "description": "Một trưởng lão của Tuyên Nghi Cung, có vẻ có mối quan hệ thân thiết với Hạ Khanh Tuyên, bị thương sau khi chiến đấu với yêu thú."
+    },
+    {
+      "name": "长临",
+      "hanviet_name": "Trường Lâm",
+      "gender": "Male",
+      "role": "Tiên nhân mạnh mẽ thời cổ đại",
+      "description": "Nhân vật lịch sử, người đã phong ấn Ứng Hàn Y."
+    },
+    {
+      "name": "冉秋岚",
+      "hanviet_name": "Nhiễm Thu Lam",
+      "gender": "Female",
+      "role": "Đệ tử Tuyên Nghi Cung",
+      "description": "Một trong số các tiểu đệ tử của Tuyên Nghi Cung."
+    }
+  ],
+  "new_locations": [
+    {
+      "name": "主峰",
+      "hanviet": "Chủ Phong",
+      "description": "Đỉnh núi chính của Tuyên Nghi Cung, nơi diễn ra trận chiến."
+    }
+  ],
+  "new_terms": [
+    {
+      "original": "青面獠牙",
+      "suggested": "Mặt xanh nanh nhọn",
+      "hanviet": null,
+      "category": "other",
+      "confidence": 0.0
+    },
+    {
+      "original": "招魂幡",
+      "suggested": "Chiêu Hồn Phiên",
+      "hanviet": "Chiêu Hồn Phiên",
+      "category": "item",
+      "confidence": 0.0
+    },
+    {
+      "original": "阴魂厉鬼",
+      "suggested": "Âm hồn lệ quỷ",
+      "hanviet": "Âm Hồn Lệ Quỷ",
+      "category": "other",
+      "confidence": 0.0
+    },
+    {
+      "original": "元婴期",
+      "suggested": "Nguyên Anh kỳ",
+      "hanviet": "Nguyên Anh Kỳ",
+      "category": "skill",
+      "confidence": 0.0
+    },
+    {
+      "original": "天雷剑阵",
+      "suggested": "Thiên Lôi Kiếm Trận",
+      "hanviet": "Thiên Lôi Kiếm Trận",
+      "category": "skill",
+      "confidence": 0.0
+    },
+    {
+      "original": "帝尊",
+      "suggested": "Đế Tôn",
+      "hanviet": "Đế Tôn",
+      "category": "honorific",
+      "confidence": 0.0
+    },
+    {
+      "original": "长临仙尊",
+      "suggested": "Trường Lâm Tiên Tôn",
+      "hanviet": "Trường Lâm Tiên Tôn",
+      "category": "honorific",
+      "confidence": 0.0
+    },
+    {
+      "original": "宣仪戒",
+      "suggested": "Tuyên Nghi Giới",
+      "hanviet": "Tuyên Nghi Giới",
+      "category": "item",
+      "confidence": 0.0
+    },
+    {
+      "original": "半步化神",
+      "suggested": "Bán Bộ Hóa Thần",
+      "hanviet": "Bán Bộ Hóa Thần",
+      "category": "skill",
+      "confidence": 0.0
+    },
+    {
+      "original": "师侄",
+      "suggested": "Sư điệt",
+      "hanviet": "Sư Điệt",
+      "category": "honorific",
+      "confidence": 0.0
+    },
+    {
+      "original": "疾风兽",
+      "suggested": "Tật Phong Thú",
+      "hanviet": "Tật Phong Thú",
+      "category": "item",
+      "confidence": 0.0
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "老鬼",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Lão Quỷ?",
+      "options": [
+        "Lão Quỷ",
+        "Lão Quỷ (giữ nguyên)",
+        "Quỷ Lão",
+        "Ông Quỷ"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_002",
+      "original": "Lão Quỷ (ngôi thứ 3)",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Lão Quỷ (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "hắn",
+        "y",
+        "gã",
+        "lão quỷ",
+        "tên quỷ"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_003",
+      "original": "宣仪宫掌门",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Tuyên Nghi Cung Chưởng Môn?",
+      "options": [
+        "Chưởng môn Tuyên Nghi Cung",
+        "Tuyên Nghi Chưởng môn",
+        "Chưởng môn",
+        "Chưởng môn nhân"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_004",
+      "original": "Chưởng môn Tuyên Nghi Cung (ngôi thứ 3)",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Chưởng môn Tuyên Nghi Cung (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "hắn",
+        "y",
+        "vị chưởng môn",
+        "ông ta",
+        "ngài"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_005",
+      "original": "大长 lão",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Đại Trưởng Lão?",
+      "options": [
+        "Đại Trưởng Lão",
+        "Trưởng Lão Lớn",
+        "Trưởng Lão Cả",
+        "Đại Trưởng Lão (giữ nguyên)"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_006",
+      "original": "Đại Trưởng Lão (ngôi thứ 3)",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Đại Trưởng Lão (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "hắn",
+        "y",
+        "vị trưởng lão",
+        "ông ta",
+        "ngài"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_007",
+      "original": "长临",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Trường Lâm?",
+      "options": [
+        "Trường Lâm",
+        "Trường Lâm (giữ nguyên)",
+        "Trường Lân",
+        "Trường Lãm"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_008",
+      "original": "Trường Lâm (ngôi thứ 3)",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Trường Lâm (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "hắn",
+        "y",
+        "vị tiên tôn",
+        "ngài"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_009",
+      "original": "冉秋岚",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Nhiễm Thu Lam?",
+      "options": [
+        "Nhiễm Thu Lam",
+        "Nhiễm Thu Lan",
+        "Nhiễm Thu Lãm",
+        "Nhiễm Thu Lâm"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_010",
+      "original": "Nhiễm Thu Lam (ngôi thứ 3)",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Nhiễm Thu Lam (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "cô",
+        "nàng",
+        "y",
+        "tiểu cô nương",
+        "đệ tử này"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_011",
+      "original": "Lão Quỷ → Ứng Hàn Y",
+      "suggested": "Lão Quỷ xưng Tiểu quỷ - gọi Ứng Hàn Y là Đế Tôn đại nhân",
+      "confidence": 0.3,
+      "question": "Chiều 1: Lão Quỷ xưng hô thế nào với Ứng Hàn Y (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tiểu quỷ - gọi Đế Tôn đại nhân",
+        "xưng Tiểu quỷ - gọi Đế Tôn",
+        "xưng Ta - gọi Ngài",
+        "xưng Ta - gọi Đế Tôn"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_012",
+      "original": "Ứng Hàn Y → Lão Quỷ",
+      "suggested": "Ứng Hàn Y xưng Bổn tôn - gọi Lão Quỷ là Ngươi",
+      "confidence": 0.3,
+      "question": "Chiều 2: Ứng Hàn Y xưng hô thế nào với Lão Quỷ (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Bổn tôn - gọi Ngươi",
+        "xưng Ta - gọi Ngươi",
+        "xưng Bổn tôn - gọi Lão Quỷ",
+        "xưng Ta - gọi Lão Quỷ"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_013",
+      "original": "Chưởng môn Tuyên Nghi Cung → Ứng Hàn Y",
+      "suggested": "Chưởng môn Tuyên Nghi Cung xưng Ta - gọi Ứng Hàn Y là Ứng Hàn Y",
+      "confidence": 0.3,
+      "question": "Chiều 1: Chưởng môn Tuyên Nghi Cung xưng hô thế nào với Ứng Hàn Y (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Ta - gọi Ứng Hàn Y",
+        "xưng Ta - gọi Ngươi",
+        "xưng Vãn bối - gọi Tiền bối",
+        "xưng Ta - gọi Ma đầu"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_014",
+      "original": "Ứng Hàn Y → Chưởng môn Tuyên Nghi Cung",
+      "suggested": "Ứng Hàn Y xưng Bổn tôn - gọi Chưởng môn Tuyên Nghi Cung là Ngươi",
+      "confidence": 0.3,
+      "question": "Chiều 2: Ứng Hàn Y xưng hô thế nào với Chưởng môn Tuyên Nghi Cung (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Bổn tôn - gọi Ngươi",
+        "xưng Ta - gọi Ngươi",
+        "xưng Bổn tôn - gọi Chưởng môn",
+        "xưng Ta - gọi Chưởng môn"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_015",
+      "original": "Đại Trưởng Lão → Hạ Khanh Tuyên",
+      "suggested": "Đại Trưởng Lão xưng Tiểu lão đầu - gọi Hạ Khanh Tuyên là Khanh Tuyên sư điệt",
+      "confidence": 0.3,
+      "question": "Chiều 1: Đại Trưởng Lão xưng hô thế nào với Hạ Khanh Tuyên (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tiểu lão đầu - gọi Khanh Tuyên sư điệt",
+        "xưng Lão phu - gọi Khanh Tuyên",
+        "xưng Ta - gọi Khanh Tuyên",
+        "xưng Lão phu - gọi Sư điệt"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_016",
+      "original": "Hạ Khanh Tuyên → Đại Trưởng Lão",
+      "suggested": "Hạ Khanh Tuyên xưng Ta - gọi Đại Trưởng Lão",
+      "confidence": 0.3,
+      "question": "Chiều 2: Hạ Khanh Tuyên xưng hô thế nào với Đại Trưởng Lão (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Ta - gọi Đại Trưởng Lão",
+        "xưng Ta - gọi Trưởng lão",
+        "xưng Vãn bối - gọi Trưởng lão",
+        "xưng Đệ tử - gọi Trưởng lão"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_017",
+      "original": "Đại Trưởng Lão → Ứng Hàn Y",
+      "suggested": "Đại Trưởng Lão xưng Ta - gọi Ứng Hàn Y là Ma đầu",
+      "confidence": 0.3,
+      "question": "Chiều 1: Đại Trưởng Lão xưng hô thế nào với Ứng Hàn Y (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Ta - gọi Ma đầu",
+        "xưng Lão phu - gọi Ngươi",
+        "xưng Ta - gọi Ứng Hàn Y",
+        "xưng Lão phu - gọi Ma tôn"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_018",
+      "original": "Ứng Hàn Y → Đại Trưởng Lão",
+      "suggested": "Ứng Hàn Y xưng Bổn tôn - gọi Đại Trưởng Lão là Ngươi",
+      "confidence": 0.3,
+      "question": "Chiều 2: Ứng Hàn Y xưng hô thế nào với Đại Trưởng Lão (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Bổn tôn - gọi Ngươi",
+        "xưng Ta - gọi Ngươi",
+        "xưng Bổn tôn - gọi Lão già",
+        "xưng Ta - gọi Trưởng lão"
+      ],
+      "category": "relationship"
+    }
+  ],
+  "chapter_id": "ch_009",
+  "analyzed_at": "2026-09-26T19:45:30.192479+07:00"
+}

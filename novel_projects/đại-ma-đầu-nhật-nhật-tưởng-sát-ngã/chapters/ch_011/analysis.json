@@ -1,0 +1,358 @@
+{
+  "chapter_summary": "Hạ Khanh Tuyên đang sửa chữa hộ sơn đại trận của Tuyên Nghi Cung thì một nhóm tu sĩ từ Thánh Điện Chúc Long đến. Người dẫn đầu là Điện chủ, yêu cầu Tuyên Nghi Cung nhường lại linh mạch vì họ đã chiếm giữ quá lâu. Khi Đại trưởng lão của Tuyên Nghi Cung phản đối, Điện chủ đề nghị một trận lôi đài giữa các đệ tử để quyết định quyền sở hữu linh mạch. Tuyên Nghi Cung rất tức giận vì biết Thánh tử của Thánh Điện Chúc Long có huyết mạch chân long và tu vi Kim Đan viên mãn, trong khi đệ tử mạnh nhất của họ là Nhiễm Thu Lam chỉ Kim Đan trung kỳ. Hạ Khanh Tuyên nhận ra sự trơ trẽn của Thánh Điện Chúc Long. Ứng Hàn Y xuất hiện, chế giễu tu vi Trúc Cơ của Hạ Khanh Tuyên và muốn đưa hắn đi. Hạ Khanh Tuyên từ chối vì muốn đảm bảo Tuyên Nghi Cung an toàn. Ứng Hàn Y không muốn ra tay giúp đỡ một môn phái chính đạo, nhưng Hạ Khanh Tuyên đã dùng lý lẽ về danh tiếng của \"Đế Tôn Diệt Hư\" và \"đạo lữ\" để thuyết phục Ứng Hàn Y.",
+  "new_characters": [
+    {
+      "name": "Điện chủ Thánh Điện Chúc Long",
+      "hanviet_name": "Điện chủ",
+      "gender": "Male",
+      "role": "Thủ lĩnh Thánh Điện Chúc Long, nhân vật phản diện",
+      "description": "Lão giả trung niên, uy nghiêm lạnh lùng, tu vi Nguyên Anh Đại Viên Mãn."
+    },
+    {
+      "name": "Chưởng môn Tuyên Nghi Cung",
+      "hanviet_name": "Chưởng môn",
+      "gender": "Male",
+      "role": "Chưởng môn Tuyên Nghi Cung",
+      "description": "Người đứng đầu Tuyên Nghi Cung, xuất hiện cùng các trưởng lão khác."
+    },
+    {
+      "name": "Thái thượng trưởng lão Tuyên Nghi Cung",
+      "hanviet_name": "Thái thượng trưởng lão",
+      "gender": "Male",
+      "role": "Thái thượng trưởng lão Tuyên Nghi Cung",
+      "description": "Một trong các trưởng lão cấp cao của Tuyên Nghi Cung."
+    },
+    {
+      "name": "Đại trưởng lão Tuyên Nghi Cung",
+      "hanviet_name": "Đại trưởng lão",
+      "gender": "Male",
+      "role": "Đại trưởng lão Tuyên Nghi Cung",
+      "description": "Ban đầu hòa nhã, sau đó tức giận trước yêu sách của Thánh Điện Chúc Long."
+    },
+    {
+      "name": "Nhiễm Thu Lam",
+      "hanviet_name": "Nhiễm Thu Lam",
+      "gender": "Female",
+      "role": "Đại sư tỷ Tuyên Nghi Cung, kiếm tu",
+      "description": "Tu vi Kim Đan trung kỳ, kiếm tu, đệ tử mạnh nhất Tuyên Nghi Cung, chủ động xin ra trận."
+    },
+    {
+      "name": "Thánh tử Thánh Điện Chúc Long",
+      "hanviet_name": "Thánh tử",
+      "gender": "Male",
+      "role": "Thánh tử Thánh Điện Chúc Long",
+      "description": "Có huyết mạch chân long, tu vi Kim Đan viên mãn (nhờ dùng thuốc), kiêu ngạo."
+    }
+  ],
+  "new_locations": [
+    {
+      "name": "Chúc Long Thánh Điện",
+      "hanviet": "Chúc Long Thánh Điện",
+      "description": "Một tông môn hùng mạnh, đối thủ của Tuyên Nghi Cung."
+    },
+    {
+      "name": "Huyền Thiên Cửu Châu Giới",
+      "hanviet": "Huyền Thiên Cửu Châu Giới",
+      "description": "Thế giới rộng lớn nơi câu chuyện diễn ra."
+    }
+  ],
+  "new_terms": [
+    {
+      "original": "化神境",
+      "suggested": "Hóa Thần cảnh",
+      "hanviet": "Hóa Thần cảnh",
+      "category": "skill",
+      "confidence": 0.0
+    },
+    {
+      "original": "元婴大圆满",
+      "suggested": "Nguyên Anh Đại Viên Mãn",
+      "hanviet": "Nguyên Anh Đại Viên Mãn",
+      "category": "skill",
+      "confidence": 0.0
+    },
+    {
+      "original": "金丹后期",
+      "suggested": "Kim Đan hậu kỳ",
+      "hanviet": "Kim Đan hậu kỳ",
+      "category": "skill",
+      "confidence": 0.0
+    },
+    {
+      "original": "金丹中期",
+      "suggested": "Kim Đan trung kỳ",
+      "hanviet": "Kim Đan trung kỳ",
+      "category": "skill",
+      "confidence": 0.0
+    },
+    {
+      "original": "金丹圓滿",
+      "suggested": "Kim Đan viên mãn",
+      "hanviet": "Kim Đan viên mãn",
+      "category": "skill",
+      "confidence": 0.0
+    },
+    {
+      "original": "真龍血脈",
+      "suggested": "Chân Long huyết mạch",
+      "hanviet": "Chân Long huyết mạch",
+      "category": "other",
+      "confidence": 0.0
+    },
+    {
+      "original": "仙盟道友",
+      "suggested": "Tiên minh đạo hữu",
+      "hanviet": "Tiên minh đạo hữu",
+      "category": "other",
+      "confidence": 0.0
+    },
+    {
+      "original": "擂台賽",
+      "suggested": "Lôi đài tái",
+      "hanviet": "Lôi đài tái",
+      "category": "other",
+      "confidence": 0.0
+    },
+    {
+      "original": "福地洞府",
+      "suggested": "Phúc địa động phủ",
+      "hanviet": "Phúc địa động phủ",
+      "category": "location",
+      "confidence": 0.0
+    },
+    {
+      "original": "靈脈",
+      "suggested": "Linh mạch",
+      "hanviet": "Linh mạch",
+      "category": "other",
+      "confidence": 0.0
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "Điện chủ Thánh Điện Chúc Long",
+      "suggested": "Điện chủ Chúc Long",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Điện chủ Thánh Điện Chúc Long?",
+      "options": [
+        "Điện chủ Chúc Long",
+        "Điện chủ",
+        "Trưởng điện Chúc Long",
+        "Chủ điện Chúc Long"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_002",
+      "original": "Điện chủ Thánh Điện Chúc Long (ngôi thứ 3)",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Điện chủ Thánh Điện Chúc Long (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "hắn",
+        "y",
+        "gã",
+        "ông ta"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_003",
+      "original": "Chưởng môn Tuyên Nghi Cung",
+      "suggested": "Chưởng môn",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Chưởng môn Tuyên Nghi Cung?",
+      "options": [
+        "Chưởng môn",
+        "Chưởng giáo",
+        "Tông chủ",
+        "Chưởng môn Tuyên Nghi Cung"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_004",
+      "original": "Chưởng môn Tuyên Nghi Cung (ngôi thứ 3)",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Chưởng môn Tuyên Nghi Cung (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "hắn",
+        "y",
+        "ông ta",
+        "vị này"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_005",
+      "original": "Thái thượng trưởng lão Tuyên Nghi Cung",
+      "suggested": "Thái thượng trưởng lão",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Thái thượng trưởng lão Tuyên Nghi Cung?",
+      "options": [
+        "Thái thượng trưởng lão",
+        "Thái thượng",
+        "Trưởng lão tối cao",
+        "Thái thượng trưởng lão Tuyên Nghi Cung"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_006",
+      "original": "Thái thượng trưởng lão Tuyên Nghi Cung (ngôi thứ 3)",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Thái thượng trưởng lão Tuyên Nghi Cung (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "hắn",
+        "y",
+        "ông ta",
+        "vị này"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_007",
+      "original": "Đại trưởng lão Tuyên Nghi Cung",
+      "suggested": "Đại trưởng lão",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Đại trưởng lão Tuyên Nghi Cung?",
+      "options": [
+        "Đại trưởng lão",
+        "Trưởng lão",
+        "Trưởng lão thứ nhất",
+        "Đại trưởng lão Tuyên Nghi Cung"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_008",
+      "original": "Đại trưởng lão Tuyên Nghi Cung (ngôi thứ 3)",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Đại trưởng lão Tuyên Nghi Cung (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "hắn",
+        "y",
+        "ông ta",
+        "vị này"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_009",
+      "original": "Nhiễm Thu Lam",
+      "suggested": "Nhiễm Thu Lam",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Nhiễm Thu Lam?",
+      "options": [
+        "Nhiễm Thu Lam",
+        "Nhiễm Thu Lan",
+        "Nhiễm Thu Lãm"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_010",
+      "original": "Nhiễm Thu Lam (ngôi thứ 3)",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Nhiễm Thu Lam (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "cô",
+        "nàng",
+        "y",
+        "nữ hiệp"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_011",
+      "original": "Thánh tử Thánh Điện Chúc Long",
+      "suggested": "Thánh tử Chúc Long",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Thánh tử Thánh Điện Chúc Long?",
+      "options": [
+        "Thánh tử Chúc Long",
+        "Thánh tử",
+        "Thiếu chủ Chúc Long",
+        "Thánh tử Thánh Điện Chúc Long"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_012",
+      "original": "Thánh tử Thánh Điện Chúc Long (ngôi thứ 3)",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Thánh tử Thánh Điện Chúc Long (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "hắn",
+        "y",
+        "cậu ta",
+        "thiếu niên"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_013",
+      "original": "Điện chủ Thánh Điện Chúc Long → Đại trưởng lão Tuyên Nghi Cung",
+      "suggested": "Điện chủ Thánh Điện Chúc Long xưng Bổn tọa - gọi Đại trưởng lão là Chư vị / Đạo hữu",
+      "confidence": 0.3,
+      "question": "Chiều 1: Điện chủ Thánh Điện Chúc Long xưng hô thế nào với Đại trưởng lão Tuyên Nghi Cung (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Bổn tọa - gọi Chư vị",
+        "xưng Bổn tọa - gọi Đạo hữu",
+        "xưng Ta - gọi Các vị",
+        "xưng Bổn tọa - gọi Ngươi"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_014",
+      "original": "Đại trưởng lão Tuyên Nghi Cung → Điện chủ Thánh Điện Chúc Long",
+      "suggested": "Đại trưởng lão Tuyên Nghi Cung xưng Tôi - gọi Điện chủ là Chư vị",
+      "confidence": 0.3,
+      "question": "Chiều 2: Đại trưởng lão Tuyên Nghi Cung xưng hô thế nào với Điện chủ Thánh Điện Chúc Long (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Chư vị",
+        "xưng Lão phu - gọi Chư vị",
+        "xưng Ta - gọi Các vị",
+        "xưng Tôi - gọi Điện chủ"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_015",
+      "original": "Điện chủ Thánh Điện Chúc Long → Chưởng môn Tuyên Nghi Cung",
+      "suggested": "Điện chủ Thánh Điện Chúc Long xưng Bổn tọa - gọi Chưởng môn là Đạo hữu / Chư vị",
+      "confidence": 0.3,
+      "question": "Chiều 1: Điện chủ Thánh Điện Chúc Long xưng hô thế nào với Chưởng môn Tuyên Nghi Cung (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Bổn tọa - gọi Chư vị",
+        "xưng Bổn tọa - gọi Đạo hữu",
+        "xưng Ta - gọi Các vị",
+        "xưng Bổn tọa - gọi Ngươi"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_016",
+      "original": "Chưởng môn Tuyên Nghi Cung → Điện chủ Thánh Điện Chúc Long",
+      "suggested": "Chưởng môn Tuyên Nghi Cung xưng Tôi - gọi Điện chủ là Điện chủ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Chưởng môn Tuyên Nghi Cung xưng hô thế nào với Điện chủ Thánh Điện Chúc Long (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện chủ",
+        "xưng Ta - gọi Điện chủ",
+        "xưng Tôi - gọi Chư vị",
+        "xưng Bổn tọa - gọi Điện chủ"
+      ],
+      "category": "relationship"
+    }
+  ],
+  "chapter_id": "ch_011",
+  "analyzed_at": "2026-09-26T19:46:46.525003+07:00"
+}

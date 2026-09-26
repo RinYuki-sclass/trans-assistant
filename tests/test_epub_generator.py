@@ -67,6 +67,79 @@ class TestEpubGenerator(unittest.TestCase):
         self.assertIsInstance(epub_bytes, bytes)
         self.assertGreater(len(epub_bytes), 1000)
 
+    def test_create_epub_with_separate_summaries(self):
+        import zipfile, io
+
+        chapters = [
+            {"title": "Chương 1: Khởi Đầu", "paragraphs": ["Nội dung chương 1 không bị chèn tóm tắt."], "word_count": 10},
+            {"title": "Chương 2: Thử Thách", "paragraphs": ["Nội dung chương 2 hoàn toàn riêng biệt."], "word_count": 10},
+        ]
+        story_summary = "Đây là tóm tắt toàn bộ cốt truyện tổng quan."
+        chapter_summaries = [
+            {"chapter_id": "ch_001", "title": "Chương 1: Khởi Đầu", "summary": "Tóm tắt ngắn gọn chương 1."},
+            {"chapter_id": "ch_002", "title": "Chương 2: Thử Thách", "summary": "Tóm tắt ngắn gọn chương 2."},
+        ]
+
+        # Case 1: before_chapters
+        epub_bytes_before = create_epub(
+            title="Truyện Tóm Tắt Tách Biệt",
+            author="Tác Giả",
+            chapters=chapters,
+            story_summary=story_summary,
+            chapter_summaries=chapter_summaries,
+            summary_position="before_chapters",
+        )
+        z1 = zipfile.ZipFile(io.BytesIO(epub_bytes_before))
+        names1 = z1.namelist()
+
+        # Both summary pages exist as independent xhtml files
+        self.assertTrue(any("story_summary.xhtml" in n for n in names1))
+        self.assertTrue(any("chapter_summaries.xhtml" in n for n in names1))
+        self.assertTrue(any("chap_0001.xhtml" in n for n in names1))
+
+        # Check content of chap_0001.xhtml: MUST NOT contain summary text (strictly not interleaved)
+        chap1_content = [z1.read(n).decode('utf-8') for n in names1 if "chap_0001.xhtml" in n][0]
+        self.assertNotIn("Tóm tắt ngắn gọn chương 1", chap1_content)
+        self.assertNotIn("tóm tắt toàn bộ cốt truyện", chap1_content)
+        self.assertIn("Nội dung chương 1 không bị chèn tóm tắt", chap1_content)
+
+        # Check content of story_summary.xhtml: Contains the overall story summary
+        story_content = [z1.read(n).decode('utf-8') for n in names1 if "story_summary.xhtml" in n][0]
+        self.assertIn("Đây là tóm tắt toàn bộ cốt truyện tổng quan", story_content)
+
+        # Check content of chapter_summaries.xhtml: Contains chapter summaries
+        ch_sum_content = [z1.read(n).decode('utf-8') for n in names1 if "chapter_summaries.xhtml" in n][0]
+        self.assertIn("Tóm tắt ngắn gọn chương 1", ch_sum_content)
+        self.assertIn("Tóm tắt ngắn gọn chương 2", ch_sum_content)
+
+        # Case 2: after_chapters
+        epub_bytes_after = create_epub(
+            title="Truyện Tóm Tắt Sau",
+            author="Tác Giả",
+            chapters=chapters,
+            story_summary=story_summary,
+            chapter_summaries=chapter_summaries,
+            summary_position="after_chapters",
+        )
+        z2 = zipfile.ZipFile(io.BytesIO(epub_bytes_after))
+        names2 = z2.namelist()
+        self.assertTrue(any("story_summary.xhtml" in n for n in names2))
+        self.assertTrue(any("chapter_summaries.xhtml" in n for n in names2))
+
+        # Case 3: include_summary=False
+        epub_bytes_no_sum = create_epub(
+            title="Truyện Không Tóm Tắt",
+            author="Tác Giả",
+            chapters=chapters,
+            story_summary=story_summary,
+            chapter_summaries=chapter_summaries,
+            include_summary=False,
+        )
+        z3 = zipfile.ZipFile(io.BytesIO(epub_bytes_no_sum))
+        names3 = z3.namelist()
+        self.assertFalse(any("story_summary.xhtml" in n for n in names3))
+        self.assertFalse(any("chapter_summaries.xhtml" in n for n in names3))
+
 
 if __name__ == "__main__":
     unittest.main()

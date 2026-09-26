@@ -3712,6 +3712,26 @@ if tabs.is_active(9):
         parts.append(f"=== TRANSLATE TO {target_lang.upper()} ===\n{chunk_text}")
         return '\n\n'.join(parts)
 
+    def na_get_chapter_summary(slug: str, chapter_id: str) -> str:
+        s_path = os.path.join(na_chapter_dir(slug, chapter_id), 'summary.json')
+        s_data = na_load_json(s_path, {})
+        if s_data.get('summary'):
+            return s_data['summary'].strip()
+        a_path = os.path.join(na_chapter_dir(slug, chapter_id), 'analysis.json')
+        a_data = na_load_json(a_path, {})
+        if a_data.get('chapter_summary'):
+            return a_data['chapter_summary'].strip()
+        return ''
+
+    def na_save_chapter_summary(slug: str, chapter_id: str, summary_text: str):
+        s_path = os.path.join(na_chapter_dir(slug, chapter_id), 'summary.json')
+        os.makedirs(os.path.dirname(s_path), exist_ok=True)
+        na_save_json(s_path, {
+            'chapter_id': chapter_id,
+            'summary': summary_text.strip(),
+            'generated_at': now_gmt7().isoformat()
+        })
+
     def na_get_prev_chapter_summary(slug: str, chapter_id: str) -> str:
         chapters = na_list_chapters(slug)
         if chapter_id not in chapters:
@@ -3720,8 +3740,122 @@ if tabs.is_active(9):
         if idx == 0:
             return ''
         prev_ch = chapters[idx - 1]
-        summary = na_load_json(os.path.join(na_chapter_dir(slug, prev_ch), 'summary.json'), {})
-        return summary.get('summary', '')
+        return na_get_chapter_summary(slug, prev_ch)
+
+    def na_get_story_summary(slug: str) -> str:
+        p = os.path.join(na_project_dir(slug), 'memory', 'story_summary.json')
+        data = na_load_json(p, {})
+        return data.get('summary', '').strip()
+
+    def na_save_story_summary(slug: str, text: str):
+        p = os.path.join(na_project_dir(slug), 'memory', 'story_summary.json')
+        os.makedirs(os.path.dirname(p), exist_ok=True)
+        na_save_json(p, {
+            'slug': slug,
+            'summary': text.strip(),
+            'updated_at': now_gmt7().isoformat()
+        })
+
+    def na_generate_chapter_summary(slug: str, chapter_id: str, model: str = "gemini-2.5-flash", stat_obj=None) -> str:
+        tr_path = os.path.join(na_chapter_dir(slug, chapter_id), 'translation.md')
+        text_content = ""
+        if os.path.exists(tr_path):
+            with open(tr_path, 'r', encoding='utf-8') as f:
+                full_md = f.read()
+            text_content = re.sub(r'^---[\s\S]*?---\s*', '', full_md, count=1).strip()
+        if not text_content:
+            raw_path = os.path.join(na_chapter_dir(slug, chapter_id), 'source.md')
+            if os.path.exists(raw_path):
+                with open(raw_path, 'r', encoding='utf-8') as f:
+                    text_content = f.read().strip()
+        if not text_content:
+            raise ValueError(f"Chương {chapter_id} chưa có nội dung để tóm tắt.")
+
+        meta = na_load_json(os.path.join(na_chapter_dir(slug, chapter_id), 'meta.json'), {})
+        ch_title = meta.get('title') or chapter_id
+
+        sys_prompt = (
+            "Bạn là biên tập viên tiểu thuyết chuyên nghiệp. Nhiệm vụ của bạn là tóm tắt chương truyện sau bằng Tiếng Việt.\n"
+            "Yêu cầu:\n"
+            "1. Tóm tắt súc tích, mạch lạc (khoảng 150 - 280 từ).\n"
+            "2. Nêu bật các sự kiện và hành động chính diễn ra trong chương.\n"
+            "3. Thể hiện sự phát triển tâm lý, lời thoại quan trọng hoặc biến chuyển quan hệ nhân vật.\n"
+            "4. Nêu tình huống kết chương / điểm thắt (cliffhanger) nếu có.\n"
+            "5. Tuyệt đối không mở đầu bằng các câu sáo rỗng như 'Chương này nói về...', 'Sau đây là tóm tắt...', hãy đi thẳng vào nội dung."
+        )
+        user_prompt = f"=== TIÊU ĐỀ: {ch_title} ===\n\n=== NỘI DUNG CHƯƠNG ===\n{text_content[:15000]}"
+        result = generate_with_retry(
+            model,
+            user_prompt,
+            sys_prompt,
+            status_w=stat_obj,
+            retries=3,
+            temp=0.2,
+            max_output_tokens=600
+        )
+        if result:
+            clean_res = result.strip()
+            na_save_chapter_summary(slug, chapter_id, clean_res)
+            return clean_res
+        raise RuntimeError("AI không phản hồi tóm tắt chương.")
+
+    def na_generate_story_summary(slug: str, model: str = "gemini-2.5-flash", stat_obj=None) -> str:
+        cfg = na_load_config(slug)
+        title = cfg.get('title', slug)
+        author = cfg.get('author', '')
+        desc = cfg.get('description', '')
+        mem = na_load_memory(slug)
+        chars = mem.get('characters', [])
+        char_info = []
+        for c in chars[:8]:
+            c_name = c.get('name') or c.get('hanviet_name') or ''
+            c_role = c.get('notes') or c.get('speech_style') or ''
+            if c_name:
+                char_info.append(f"- {c_name}: {c_role}")
+
+        chapters = na_list_chapters(slug)
+        ch_summaries = []
+        for ch in chapters:
+            s = na_get_chapter_summary(slug, ch)
+            meta = na_load_json(os.path.join(na_chapter_dir(slug, ch), 'meta.json'), {})
+            ch_title = meta.get('title') or ch
+            if s:
+                ch_summaries.append(f"[{ch_title}]: {s}")
+
+        if not ch_summaries and not desc:
+            raise ValueError("Chưa có tóm tắt chương hoặc văn án nào để tổng hợp tóm tắt cốt truyện.")
+
+        sys_prompt = (
+            "Bạn là biên tập viên văn học và tiểu thuyết gia xuất sắc. Hãy viết một bản Tóm Tắt Toàn Bộ Cốt Truyện (Story Recap / Overview) "
+            "toàn diện và lôi cuốn cho tác phẩm, chuẩn văn phong tiếng Việt mượt mà.\n"
+            "Cấu trúc bản tóm tắt:\n"
+            "1. Bối cảnh & Tiền đề: Thiết lập thế giới, thân phận nhân vật chính, xung đột mở đầu.\n"
+            "2. Diễn biến cốt truyện chính: Các sự kiện trọng tâm theo dòng thời gian qua các chương đã có.\n"
+            "3. Bước ngoặt & Mối quan hệ: Sự phát triển cảm xúc, liên minh, hoặc mâu thuẫn then chốt giữa các nhân vật.\n"
+            "4. Định hướng tiếp theo: Trạng thái hiện tại của câu chuyện.\n"
+            "Viết liền mạch, chia 3-5 đoạn văn chuẩn, độ dài khoảng 300 - 600 từ. Không thêm lời dẫn rườm rà."
+        )
+        user_prompt = (
+            f"=== THÔNG TIN TRUYỆN: {title} ===\n"
+            f"Tác giả: {author}\n"
+            f"Văn án gốc: {desc}\n\n"
+            f"=== NHÂN VẬT CHÍNH ===\n" + "\n".join(char_info) + "\n\n"
+            f"=== TÓM TẮT CÁC CHƯƠNG ĐÃ DỊCH ===\n" + "\n\n".join(ch_summaries)
+        )
+        result = generate_with_retry(
+            model,
+            user_prompt,
+            sys_prompt,
+            status_w=stat_obj,
+            retries=3,
+            temp=0.3,
+            max_output_tokens=1500
+        )
+        if result:
+            clean_res = result.strip()
+            na_save_story_summary(slug, clean_res)
+            return clean_res
+        raise RuntimeError("AI không phản hồi tóm tắt cốt truyện.")
 
     def na_save_chapter_as_md(slug: str, chapter_id: str, content: str):
         """Save translated chapter as .md with frontmatter."""
@@ -3936,7 +4070,7 @@ if tabs.is_active(11):
         """, unsafe_allow_html=True)
 
         na_sub = st.tabs(["📁 Projects", "📥 Import Chapter", "🔬 Analyze",
-                          "❓ Clarifications", "🌐 Translate", "🧠 Memory"])
+                          "❓ Clarifications", "🌐 Translate", "📝 Tóm Tắt Truyện", "🧠 Memory"])
 
         # ── Helper: project selector (persistent) ──
         all_projects = na_list_projects()
@@ -4053,6 +4187,21 @@ if tabs.is_active(11):
                 ap = st.session_state['na_project']
                 apcfg = na_load_config(ap)
                 st.success(f"🎯 Project đang chọn: **{apcfg.get('title', ap)}** ({apcfg.get('source_lang')} → {apcfg.get('target_lang')})")
+                raw_links_map = apcfg.get('raw_links', {})
+                if raw_links_map and isinstance(raw_links_map, dict):
+                    _labels = {
+                        "czbooks_overview": "📖 CZBooks (Mục lục)",
+                        "czbooks_first_chapter": "📄 CZBooks (Chương 1)",
+                        "jjwxc": "🏛️ Tấn Giang (JJWXC)",
+                        "novelupdates": "🌐 NovelUpdates",
+                    }
+                    link_parts = []
+                    for k, v in raw_links_map.items():
+                        if v and isinstance(v, str):
+                            lbl = _labels.get(k, k.replace('_', ' ').title())
+                            link_parts.append(f"[{lbl}]({v})")
+                    if link_parts:
+                        st.markdown(f"🔗 **Liên kết nguồn:** {' &nbsp;•&nbsp; '.join(link_parts)}")
 
                 with st.expander(f"⚙️ Chỉnh Sửa Thông Tin & Văn Án Project: {apcfg.get('title', ap)}", expanded=False):
                     with st.form(f"na_edit_cfg_form_{ap}"):
@@ -4070,6 +4219,12 @@ if tabs.is_active(11):
                             tgt_idx = _langs_t.index(apcfg.get('target_lang')) if apcfg.get('target_lang') in _langs_t else 0
                             edit_tgt = st.selectbox("Ngôn ngữ dịch:", _langs_t, index=tgt_idx)
                         edit_style = st.text_area("Style Guide:", value=apcfg.get('style_guide', ''), height=80)
+                        edit_raw_links_str = st.text_area(
+                            "Liên kết nguồn / Raw (JSON dạng key: url):",
+                            value=json.dumps(apcfg.get('raw_links', {}), ensure_ascii=False, indent=2) if apcfg.get('raw_links') else "",
+                            height=90,
+                            help="Lưu các link raw hoặc bản quyền của truyện để tiện mở nhanh."
+                        )
                         
                         btn_save_cfg = st.form_submit_button("💾 Lưu Cập Nhật Thông Tin Project", type="primary", use_container_width=True)
                         if btn_save_cfg:
@@ -4079,6 +4234,11 @@ if tabs.is_active(11):
                             apcfg['source_lang'] = edit_src
                             apcfg['target_lang'] = edit_tgt
                             apcfg['style_guide'] = edit_style.strip()
+                            if edit_raw_links_str.strip():
+                                try:
+                                    apcfg['raw_links'] = json.loads(edit_raw_links_str.strip())
+                                except Exception:
+                                    pass
                             na_save_config(ap, apcfg)
                             st.success("✅ Đã cập nhật thông tin và văn án thành công!")
                             st.rerun()
@@ -4101,6 +4261,22 @@ if tabs.is_active(11):
                 next_ch_num = len(existing_chs) + 1
                 default_ch_id = f"ch_{next_ch_num:03d}"
 
+                raw_links_curr = na_cfg.get('raw_links', {})
+                if raw_links_curr and isinstance(raw_links_curr, dict):
+                    _labels = {
+                        "czbooks_overview": "📖 CZBooks (Mục lục)",
+                        "czbooks_first_chapter": "📄 CZBooks (Chương 1)",
+                        "jjwxc": "🏛️ Tấn Giang (JJWXC)",
+                        "novelupdates": "🌐 NovelUpdates",
+                    }
+                    quick_links = [f"[{_labels.get(k, k.replace('_', ' ').title())}]({v})" for k, v in raw_links_curr.items() if v and isinstance(v, str)]
+                    if quick_links:
+                        st.markdown(f"""
+                        <div style='background:rgba(13,148,136,0.08);border:1px solid #0D9488;border-radius:8px;padding:0.5rem 0.9rem;margin-bottom:0.8rem;font-size:0.9rem'>
+                          🔗 <b>Liên kết raw của project:</b> {' &nbsp;•&nbsp; '.join(quick_links)}
+                        </div>
+                        """, unsafe_allow_html=True)
+
                 import_src = st.radio("Nguồn văn bản:",
                                       ["🌐 Crawl từ Web URL", "📋 Paste văn bản", "📄 Upload file (.txt / .md)"],
                                       horizontal=True, key="na_imp_src")
@@ -4109,12 +4285,17 @@ if tabs.is_active(11):
                 crawled_title = ""
 
                 if import_src == "🌐 Crawl từ Web URL":
-                    na_crawl_site = st.selectbox(
-                        "Website nguồn:",
-                        ["Novelib", "Cherry Mist", "ZenithTL", "Hyacinth Bloom", "Mistmint Haven", "PIE NOVELS", "BL Reads", "KnoxT", "URL tùy chỉnh"],
-                        key="na_crawl_site"
-                    )
-                    na_presets = {
+                    na_presets = {}
+                    if raw_links_curr.get('czbooks_first_chapter'):
+                        na_presets["📌 Link Chương 1 (Project)"] = raw_links_curr['czbooks_first_chapter']
+                    if raw_links_curr.get('czbooks_overview'):
+                        na_presets["📌 Link Mục Lục (Project)"] = raw_links_curr['czbooks_overview']
+                    for _rk, _rv in raw_links_curr.items():
+                        if _rv and isinstance(_rv, str) and _rk not in ('czbooks_first_chapter', 'czbooks_overview'):
+                            na_presets[f"📌 Link {_rk.replace('_', ' ').title()}"] = _rv
+
+                    na_presets.update({
+                        "CZBooks": "https://czbooks.net/n/sk4ei1pgock",
                         "Novelib": "https://novelib.com/story/the-green-tea-bottom-differentiated-into-a-top-tier-alpha/",
                         "Cherry Mist": "https://cherrymist.cafe/story/the-unruly-hero-became-younger/",
                         "ZenithTL": "https://zenithtls.com/series/69c05aa00db09eb6934e5625",
@@ -4124,7 +4305,13 @@ if tabs.is_active(11):
                         "BL Reads": "https://blreads.tech/story/the-demon-king-has-face-blindness-book/",
                         "KnoxT": "https://knoxt.space/after-marking-the-protagonist-a/",
                         "URL tùy chỉnh": "",
-                    }
+                    })
+
+                    na_crawl_site = st.selectbox(
+                        "Website nguồn:",
+                        list(na_presets.keys()),
+                        key="na_crawl_site"
+                    )
                     na_crawl_url = st.text_input(
                         "URL truyện / chương truyện:",
                         value=na_presets[na_crawl_site],
@@ -4206,7 +4393,15 @@ if tabs.is_active(11):
                                     try:
                                         c_res = crawl_chapter(ch_info['url'])
                                         ch_num_val = ch_info['chapter_number']
-                                        auto_ch_id = f"ch_{ch_num_val:03d}"
+                                        if isinstance(ch_num_val, float):
+                                            base_n = int(ch_num_val)
+                                            frac_n = str(ch_num_val).split(".")[1]
+                                            auto_ch_id = f"ch_{base_n:03d}_{frac_n}"
+                                        else:
+                                            try:
+                                                auto_ch_id = f"ch_{int(ch_num_val):03d}"
+                                            except (ValueError, TypeError):
+                                                auto_ch_id = f"ch_{str(ch_num_val).replace('.', '_')}"
                                         auto_title = f"Chương {ch_num_val}: {c_res['title']}" if "Ch " not in c_res['title'] and "Chương " not in c_res['title'] else c_res['title']
                                         na_save_chapter(na_proj, auto_ch_id, auto_title, c_res['full_text'], chunk_sz)
                                         success_cnt += 1
@@ -5596,6 +5791,24 @@ if tabs.is_active(11):
                             na_dir_desc = st.text_area("Văn án / Giới thiệu truyện (kèm vào đầu EPUB):", value=na_cfg.get('description', ''), height=90, key=f"na_dir_desc_{na_proj}",
                                                        help="Văn án này sẽ được tạo thành trang 'Văn Án' riêng biệt ngay trước Chương 1 trong file EPUB.")
 
+                        # Summary options for EPUB Export (Strictly separate from chapter text)
+                        na_dir_inc_sum = st.checkbox(
+                            "📑 Kèm phần Tóm Tắt vào EPUB (Tách riêng mục độc lập, không xen kẽ vào nội dung chương)",
+                            value=True,
+                            key=f"na_dir_inc_sum_{na_proj}"
+                        )
+                        na_dir_inc_story_sum = True
+                        na_dir_inc_ch_sum = True
+                        na_dir_sum_pos = "Trước các chương (đầu sách)"
+                        if na_dir_inc_sum:
+                            col_sopt1, col_sopt2, col_sopt3 = st.columns([1, 1, 1])
+                            with col_sopt1:
+                                na_dir_inc_story_sum = st.checkbox("📖 Kèm tóm tắt cốt truyện", value=True, key=f"na_d_is_{na_proj}")
+                            with col_sopt2:
+                                na_dir_inc_ch_sum = st.checkbox("📝 Kèm tóm tắt từng chương", value=True, key=f"na_d_ic_{na_proj}")
+                            with col_sopt3:
+                                na_dir_sum_pos = st.radio("Vị trí phần tóm tắt:", ["Trước các chương (đầu sách)", "Sau các chương (cuối sách)"], key=f"na_d_sp_{na_proj}")
+
                         if st.button(f"⚡ Đóng Gói {len(na_tr_chs)} Chương Dịch Sang EPUB", key="na_direct_epub_btn", type="primary"):
                             with st.spinner("Đang đóng gói file EPUB..."):
                                 try:
@@ -5630,18 +5843,38 @@ if tabs.is_active(11):
 
                                     final_desc = na_dir_desc.strip() or f"Truyện dịch AI bởi Novel Agent. Tổng số chương: {len(na_crawled_list)}."
 
+                                    # Prepare separate summaries
+                                    story_sum_val = None
+                                    ch_sums_val = []
+                                    if na_dir_inc_sum:
+                                        if na_dir_inc_story_sum:
+                                            story_sum_val = na_get_story_summary(na_proj)
+                                        if na_dir_inc_ch_sum:
+                                            for ch in na_tr_chs:
+                                                s = na_get_chapter_summary(na_proj, ch)
+                                                if s:
+                                                    meta = na_load_json(os.path.join(na_chapter_dir(na_proj, ch), 'meta.json'), {})
+                                                    ch_title = meta.get('title') or f"Chương {ch}"
+                                                    ch_sums_val.append({"chapter_id": ch, "title": ch_title, "summary": s})
+
+                                    pos_code = "before_chapters" if "Trước" in na_dir_sum_pos else "after_chapters"
+
                                     direct_epub_bytes = create_epub(
                                         title=na_cfg.get('title', na_proj),
                                         author=na_dir_author.strip() or "AI Novel Agent / Rin Translation",
                                         chapters=na_crawled_list,
                                         description=final_desc,
-                                        language="vi"
+                                        language="vi",
+                                        story_summary=story_sum_val,
+                                        chapter_summaries=ch_sums_val,
+                                        summary_position=pos_code,
+                                        include_summary=na_dir_inc_summary if 'na_dir_inc_summary' in locals() else na_dir_inc_sum
                                     )
                                     st.session_state['na_direct_epub_bytes'] = direct_epub_bytes
                                     fname = f"{na_slugify(na_cfg.get('title', na_proj))}.epub"
                                     st.session_state['na_direct_epub_filename'] = fname
                                     st.session_state['na_direct_epub_info'] = na_save_and_get_epub_download_info(fname, direct_epub_bytes)
-                                    st.success("🎉 Đã đóng gói EPUB thành công (kèm Văn Án)!")
+                                    st.success("🎉 Đã đóng gói EPUB thành công (kèm Văn Án & Phần Tóm Tắt Tách Biệt)!")
                                 except Exception as _ex_ep:
                                     st.error(f"❌ Lỗi đóng gói EPUB: {_ex_ep}")
 
@@ -5660,8 +5893,237 @@ if tabs.is_active(11):
                             if 'na_direct_epub_info' in st.session_state:
                                 render_epub_3rd_party_download(st.session_state['na_direct_epub_info'])
 
-        # ===================== SUB-TAB 5: MEMORY =====================
+        # ===================== SUB-TAB 5: NOVEL SUMMARIES =====================
         with na_sub[5]:
+            st.markdown("### 📝 Tóm Tắt Truyện & Cốt Truyện (Novel Summarizer)")
+            st.caption(
+                "Quản lý bản tóm tắt cốt truyện tổng thể và diễn biến từng chương. "
+                "Khi xuất file EPUB, các phần tóm tắt này sẽ được đóng gói thành các trang chuyên mục riêng biệt, "
+                "hoàn toàn tách rời nội dung chương truyện (không bị xen kẽ vào các đoạn dịch)."
+            )
+            na_proj = _na_require_project()
+            if na_proj:
+                na_cfg = na_load_config(na_proj)
+                all_chs = na_list_chapters(na_proj)
+                tr_chs = [
+                    ch for ch in all_chs
+                    if os.path.exists(os.path.join(na_chapter_dir(na_proj, ch), 'translation.md'))
+                ]
+                chs_with_sum = [ch for ch in all_chs if na_get_chapter_summary(na_proj, ch)]
+
+                col_st1, col_st2, col_st3 = st.columns([2, 1, 1])
+                with col_st1:
+                    sum_model = st.selectbox(
+                        "Model AI tóm tắt:",
+                        ["gemini-2.5-flash", "gemini-2.5-pro", "gemini-1.5-flash", "gemini-1.5-pro"],
+                        key=f"na_sum_model_{na_proj}"
+                    )
+                with col_st2:
+                    st.metric("Chương đã dịch", f"{len(tr_chs)} / {len(all_chs)}")
+                with col_st3:
+                    st.metric("Chương có tóm tắt", f"{len(chs_with_sum)} / {len(all_chs)}")
+
+                st.divider()
+
+                # KHỐI 1: TÓM TẮT TOÀN BỘ CỐT TRUYỆN
+                st.markdown("#### 📖 1. Tóm Tắt Toàn Bộ Cốt Truyện (Overall Story Recap)")
+                st.caption("Bản tóm tắt tổng quan bối cảnh, sự kiện trọng tâm và bước ngoặt xuyên suốt của truyện. Được đưa thành trang 'Tóm Tắt Cốt Truyện' riêng biệt trong EPUB.")
+
+                curr_story_sum = na_get_story_summary(na_proj)
+
+                col_btn_ss1, col_btn_ss2 = st.columns([2, 3])
+                with col_btn_ss1:
+                    if st.button("🤖 AI Tự Động Tạo Tóm Tắt Cốt Truyện", key=f"btn_gen_story_sum_{na_proj}", type="primary"):
+                        with st.spinner("AI đang phân tích văn án và các chương để tổng hợp cốt truyện..."):
+                            try:
+                                res_story_sum = na_generate_story_summary(na_proj, model=sum_model)
+                                st.success("✅ Đã tạo và lưu Tóm Tắt Toàn Bộ Cốt Truyện thành công!")
+                                st.rerun()
+                            except Exception as _ex:
+                                st.error(f"❌ Lỗi tạo tóm tắt cốt truyện: {_ex}")
+
+                story_sum_input = st.text_area(
+                    "Nội dung tóm tắt toàn bộ cốt truyện:",
+                    value=curr_story_sum,
+                    height=180,
+                    placeholder="VD: Nhập hoặc để AI tạo tóm tắt toàn bộ bối cảnh, nhân vật chính và diễn biến câu chuyện...",
+                    key=f"na_story_sum_txt_{na_proj}"
+                )
+                if st.button("💾 Lưu Nội Dung Tóm Tắt Cốt Truyện", key=f"btn_save_story_sum_{na_proj}"):
+                    na_save_story_summary(na_proj, story_sum_input)
+                    st.success("💾 Đã lưu tóm tắt cốt truyện thành công!")
+                    st.rerun()
+
+                st.divider()
+
+                # KHỐI 2: TÓM TẮT DIỄN BIẾN TỪNG CHƯƠNG
+                st.markdown("#### 📝 2. Tóm Tắt Diễn Biến Từng Chương")
+                st.caption("Tóm tắt ngắn gọn diễn biến từng chương. Khi xuất EPUB, mục này sẽ được tạo thành trang 'Tóm Tắt Các Chương' độc lập.")
+
+                if not all_chs:
+                    st.info("Chưa có chương nào trong dự án.")
+                else:
+                    col_b_sum1, col_b_sum2 = st.columns([3, 2])
+                    with col_b_sum1:
+                        target_batch_list = tr_chs if tr_chs else all_chs
+                        btn_batch_sum = st.button(
+                            f"⚡ AI Tự Động Tóm Tắt Tất Cả Các Chương ({len(target_batch_list)} chương)",
+                            key=f"btn_batch_sum_{na_proj}"
+                        )
+                    with col_b_sum2:
+                        skip_existing_sum = st.checkbox(
+                            "Bỏ qua các chương đã có tóm tắt",
+                            value=True,
+                            key=f"na_skip_exist_sum_{na_proj}"
+                        )
+
+                    if btn_batch_sum:
+                        target_chs_to_sum = [
+                            ch for ch in target_batch_list
+                            if not (skip_existing_sum and na_get_chapter_summary(na_proj, ch))
+                        ]
+                        if not target_chs_to_sum:
+                            st.info("Tất cả các chương đã có tóm tắt!")
+                        else:
+                            p_bar = st.progress(0)
+                            stat_txt = st.empty()
+                            cnt_ok = 0
+                            for idx_s, ch in enumerate(target_chs_to_sum):
+                                stat_txt.text(f"Đang tóm tắt [{idx_s+1}/{len(target_chs_to_sum)}]: {ch}...")
+                                try:
+                                    na_generate_chapter_summary(na_proj, ch, model=sum_model)
+                                    cnt_ok += 1
+                                except Exception as _err:
+                                    st.warning(f"Lỗi tóm tắt {ch}: {_err}")
+                                p_bar.progress((idx_s + 1) / len(target_chs_to_sum))
+                            stat_txt.empty()
+                            p_bar.empty()
+                            st.success(f"🎉 Đã hoàn tất tạo tóm tắt cho **{cnt_ok}** chương!")
+                            st.rerun()
+
+                    # Chapter List with Expanders
+                    for ch in all_chs:
+                        ch_sum = na_get_chapter_summary(na_proj, ch)
+                        meta = na_load_json(os.path.join(na_chapter_dir(na_proj, ch), 'meta.json'), {})
+                        ch_title = meta.get('title') or ch
+                        has_trans = os.path.exists(os.path.join(na_chapter_dir(na_proj, ch), 'translation.md'))
+
+                        icon = "✅" if ch_sum else "⬜"
+                        status_label = f"{icon} {ch_title}"
+                        if ch_sum:
+                            status_label += f" · ({len(ch_sum.split())} từ)"
+                        if not has_trans:
+                            status_label += " · (Chưa dịch)"
+
+                        with st.expander(status_label, expanded=False):
+                            if ch_sum:
+                                st.markdown(f"**Nội dung tóm tắt hiện tại:**\n\n{ch_sum}")
+                            else:
+                                st.caption("Chương này chưa có tóm tắt.")
+
+                            col_e1, col_e2 = st.columns([1, 2])
+                            with col_e1:
+                                if st.button(f"🤖 Tạo lại tóm tắt", key=f"btn_regen_sum_{ch}_{na_proj}"):
+                                    with st.spinner(f"Đang tóm tắt {ch}..."):
+                                        try:
+                                            new_s = na_generate_chapter_summary(na_proj, ch, model=sum_model)
+                                            st.success(f"✅ Đã tóm tắt thành công!")
+                                            st.rerun()
+                                        except Exception as _ex:
+                                            st.error(f"Lỗi: {_ex}")
+
+                            edit_ch_sum = st.text_area(
+                                "Chỉnh sửa tóm tắt:",
+                                value=ch_sum,
+                                height=100,
+                                key=f"txt_sum_{ch}_{na_proj}"
+                            )
+                            if st.button("💾 Lưu Tóm Tắt Chương", key=f"btn_save_ch_sum_{ch}_{na_proj}"):
+                                na_save_chapter_summary(na_proj, ch, edit_ch_sum)
+                                st.success("Đã lưu!")
+                                st.rerun()
+
+                st.divider()
+
+                # KHỐI 3: ĐÓNG GÓI EPUB TRỰC TIẾP
+                st.markdown("#### 📚 3. Đóng Gói EPUB Kèm Phần Tóm Tắt Riêng Biệt")
+                st.caption(
+                    "Xuất file EPUB với các trang tóm tắt riêng biệt. "
+                    "Nội dung bản dịch của từng chương được giữ nguyên vẹn 100% không bị chèn hay xen kẽ văn bản tóm tắt."
+                )
+                if not tr_chs:
+                    st.info("Chưa có chương nào đã dịch để xuất EPUB.")
+                else:
+                    col_ep_a, col_ep_b = st.columns(2)
+                    with col_ep_a:
+                        sum_epub_author = st.text_input("Tác giả / Nguồn:", value=na_cfg.get('author', 'Web Novel / Rin Translation'), key=f"sum_ep_author_{na_proj}")
+                    with col_ep_b:
+                        sum_epub_desc = st.text_area("Văn án:", value=na_cfg.get('description', ''), height=70, key=f"sum_ep_desc_{na_proj}")
+
+                    col_ep_opt1, col_ep_opt2, col_ep_opt3 = st.columns(3)
+                    with col_ep_opt1:
+                        sum_ep_inc_story = st.checkbox("📖 Kèm tóm tắt cốt truyện", value=bool(curr_story_sum), key=f"sep_story_{na_proj}")
+                    with col_ep_opt2:
+                        sum_ep_inc_chs = st.checkbox("📝 Kèm tóm tắt từng chương", value=bool(chs_with_sum), key=f"sep_chs_{na_proj}")
+                    with col_ep_opt3:
+                        sum_ep_pos = st.radio("Vị trí tóm tắt trong EPUB:", ["Trước các chương (đầu sách)", "Sau các chương (cuối sách)"], key=f"sep_pos_{na_proj}")
+
+                    if st.button("🚀 Đóng Gói File EPUB Ngay", key=f"btn_make_sum_epub_{na_proj}", type="primary"):
+                        with st.spinner("Đang đóng gói file EPUB kèm các phần tóm tắt tách biệt..."):
+                            try:
+                                from epub_generator import create_epub
+                                epub_ch_list = []
+                                for ch in tr_chs:
+                                    tp = os.path.join(na_chapter_dir(na_proj, ch), 'translation.md')
+                                    with open(tp, 'r', encoding='utf-8') as _f:
+                                        full_md = _f.read()
+                                    ch_title = f"Chương {ch}"
+                                    t_match = re.search(r'^---\s*\ntitle:\s*(.*?)\n---', full_md, re.MULTILINE)
+                                    if t_match:
+                                        ch_title = t_match.group(1).strip().strip('"\'')
+                                    body = re.sub(r'^---[\s\S]*?---\s*', '', full_md, count=1).strip()
+                                    paras = [p.strip() for p in body.split('\n\n') if p.strip()]
+                                    epub_ch_list.append({
+                                        'title': ch_title,
+                                        'paragraphs': paras,
+                                        'full_text': body,
+                                        'word_count': len(body.split())
+                                    })
+
+                                s_sum_data = na_get_story_summary(na_proj) if sum_ep_inc_story else None
+                                ch_sum_data = []
+                                if sum_ep_inc_chs:
+                                    for ch in tr_chs:
+                                        s = na_get_chapter_summary(na_proj, ch)
+                                        if s:
+                                            meta = na_load_json(os.path.join(na_chapter_dir(na_proj, ch), 'meta.json'), {})
+                                            ch_title = meta.get('title') or f"Chương {ch}"
+                                            ch_sum_data.append({"chapter_id": ch, "title": ch_title, "summary": s})
+
+                                p_code = "before_chapters" if "Trước" in sum_ep_pos else "after_chapters"
+
+                                ep_bytes = create_epub(
+                                    title=na_cfg.get('title', na_proj),
+                                    author=sum_epub_author.strip() or "AI Novel Agent / Rin Translation",
+                                    chapters=epub_ch_list,
+                                    description=sum_epub_desc.strip(),
+                                    language="vi",
+                                    story_summary=s_sum_data,
+                                    chapter_summaries=ch_sum_data,
+                                    summary_position=p_code,
+                                    include_summary=True
+                                )
+                                fname = f"{na_slugify(na_cfg.get('title', na_proj))}.epub"
+                                st.session_state['na_direct_epub_bytes'] = ep_bytes
+                                st.session_state['na_direct_epub_filename'] = fname
+                                st.session_state['na_direct_epub_info'] = na_save_and_get_epub_download_info(fname, ep_bytes)
+                                st.success("🎉 Đã đóng gói file EPUB thành công!")
+                                st.rerun()
+                            except Exception as _ex:
+                                st.error(f"Lỗi đóng gói: {_ex}")
+
+        # ===================== SUB-TAB 6: MEMORY =====================
+        with na_sub[6]:
             st.markdown("### 🧠 Novel Memory")
             na_proj = _na_require_project()
             if na_proj:
@@ -7478,10 +7940,11 @@ if tabs.is_active(12):
             if src_type == "🌐 Web URL (Crawl)":
                 crawl_site = st.selectbox(
                     "Website:",
-                    ["Novelib", "Cherry Mist", "ZenithTL", "Hyacinth Bloom", "Mistmint Haven", "PIE NOVELS", "BL Reads", "KnoxT", "URL tùy chỉnh"],
+                    ["CZBooks", "Novelib", "Cherry Mist", "ZenithTL", "Hyacinth Bloom", "Mistmint Haven", "PIE NOVELS", "BL Reads", "KnoxT", "URL tùy chỉnh"],
                     key="aud_crawl_site",
                 )
                 crawl_presets = {
+                    "CZBooks": "https://czbooks.net/n/sk4ei1pgock",
                     "Novelib": "https://novelib.com/story/the-green-tea-bottom-differentiated-into-a-top-tier-alpha/",
                     "Cherry Mist": "https://cherrymist.cafe/story/the-unruly-hero-became-younger/",
                     "ZenithTL": "https://zenithtls.com/series/69c05aa00db09eb6934e5625",
@@ -8207,10 +8670,11 @@ if tabs.is_active(12):
             if epub_src_type == "🌐 Crawl từ Web URL":
                 epub_crawl_site = st.selectbox(
                     "Website nguồn:",
-                    ["Novelib", "Cherry Mist", "ZenithTL", "Hyacinth Bloom", "Mistmint Haven", "PIE NOVELS", "URL tùy chỉnh"],
+                    ["CZBooks", "Novelib", "Cherry Mist", "ZenithTL", "Hyacinth Bloom", "Mistmint Haven", "PIE NOVELS", "URL tùy chỉnh"],
                     key="epub_crawl_site"
                 )
                 epub_presets = {
+                    "CZBooks": "https://czbooks.net/n/sk4ei1pgock",
                     "Novelib": "https://novelib.com/story/the-green-tea-bottom-differentiated-into-a-top-tier-alpha/",
                     "Cherry Mist": "https://cherrymist.cafe/story/the-unruly-hero-became-younger/",
                     "ZenithTL": "https://zenithtls.com/series/69c05aa00db09eb6934e5625",

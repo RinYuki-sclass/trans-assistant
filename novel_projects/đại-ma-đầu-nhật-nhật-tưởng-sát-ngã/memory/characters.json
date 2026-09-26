@@ -1,0 +1,648 @@
+[
+  {
+    "name": "Hạ Khanh Tuyên",
+    "hanviet_name": "Hạ Khanh Tuyên",
+    "gender": "Male",
+    "third_person_pronoun": "hắn",
+    "aliases": [
+      "贺卿宣",
+      "賀卿宣",
+      "Hạ Khanh Tuyên",
+      "Khanh Tuyên",
+      "Thiếu niên áo trắng",
+      "thiếu niên",
+      "Tiểu sư đệ",
+      "tiểu đệ tử",
+      "Khanh Tuyên sư điệt",
+      "tiểu tử",
+      "Hạ Thanh Huyền",
+      "Thanh Huyền",
+      "Hà Thanh Huyền",
+      "Hà Thanh Huyền (何清玄)",
+      "cậu bé mặc đồ trắng",
+      "Xiao Xianjun",
+      "tiểu tiên",
+      "Hy vọng của chính đạo",
+      "Bé con đáng thương",
+      "Tiểu tiên quân",
+      "tên đỉnh lô"
+    ],
+    "honorifics": "tiểu tử, đạo hữu, công tử",
+    "speech_style": "Điềm tĩnh, lễ độ, cơ trí, thong dong, có lúc giả ngây ngô",
+    "notes": "Nam chính (Công), đệ tử thiên tài của Tuyên Nghi Cung, nắm giữ Toàn Linh chi thể, kiếp trước bị diệt môn, sau trăm năm phiêu bạt linh hồn thì trọng sinh về quá khứ."
+  },
+  {
+    "name": "Ứng Hàn Y",
+    "hanviet_name": "Ứng Hàn Y",
+    "gender": "Male",
+    "third_person_pronoun": "y",
+    "aliases": [
+      "应寒衣",
+      "應寒衣",
+      "Ứng Hàn Y",
+      "Hàn Y",
+      "Ma tôn",
+      "Đại ma đầu",
+      "ma đầu",
+      "Diệt Hư Đế Tôn",
+      "Ma Đế",
+      "tên ma đầu này",
+      "nam tử mặc hắc y",
+      "Đế Tôn",
+      "Ứng Hàn Y (應寒衣)",
+      "Hoàng thượng",
+      "Ưng Hàn Nghĩa",
+      "Hoàng đế Muxu",
+      "Ứng Hàn Di",
+      "Tôn Đế",
+      "Hoàng đế Zun",
+      "Ứng Hàn Dật",
+      "Anh Hàn Di",
+      "Bệ hạ",
+      "Ứng Hàn Nhất",
+      "người đàn ông mặc đồ đen",
+      "tổ tiên của Nguyên Anh",
+      "Đại ác quỷ",
+      "Ứng Hàn Nghị",
+      "Doanh Hàn Di",
+      "Anh Hàn Ý",
+      "Hoàng đế",
+      "Nam tử âm u vận hắc y",
+      "Nam tử hắc y"
+    ],
+    "honorifics": "Ma tôn, Tôn thượng, tiền bối",
+    "speech_style": "Ngạo nghễ, lạnh lùng, tàn nhẫn, thường tự xưng 'bổn tôn', khẩu xà tâm phật",
+    "notes": "Nam chính (Thụ), cựu kiếm tu thiên tài sau hóa ma tôn, bị phong ấn dưới Vô Đáy Thâm Uyên hàng ngàn năm, bị Hạ Khanh Tuyên trói buộc bởi Đồng Sinh Cùng Tử Đạo Lữ Khế."
+  },
+  {
+    "name": "Độc Chu Nương",
+    "hanviet_name": "Yêu nữ",
+    "gender": "Female",
+    "third_person_pronoun": "ả",
+    "aliases": [
+      "女子 / 妖修",
+      "Yêu nữ",
+      "Nữ tử / Yêu tu",
+      "Độc Chu Nương"
+    ],
+    "honorifics": "Nương",
+    "speech_style": "surprised, angry, disbelieving",
+    "notes": "Một yêu tu giả dạng nữ đệ tử của Tuyên Nghi Cung để phục kích Hạ Khanh Tuyên. Nàng ta sử dụng độc tố và có móng tay sắc nhọn màu đỏ lục. Tự xưng là 'tỷ tỷ' và gọi Hạ Khanh Tuyên là 'tiểu lang quân'."
+  },
+  {
+    "name": "Bạch Y Yêu Tu",
+    "hanviet_name": "Bạch Y Yêu Tu",
+    "gender": "Male",
+    "third_person_pronoun": "gã",
+    "aliases": [
+      "白衣妖修",
+      "Bạch Y Yêu Tu"
+    ],
+    "honorifics": "",
+    "speech_style": "Not directly shown, described as 'thong dong tự tại'",
+    "notes": "Một yêu tu mặc bạch y, cầm quạt, phong thái nho nhã như công tử nhưng là kẻ đã gây ra mọi đau khổ cho Hạ Khanh Tuyên trong kiếp trước."
+  },
+  {
+    "name": "Trường Lâm Tiên Tôn",
+    "hanviet_name": "Trường Lâm Tiên Tôn",
+    "gender": "Male",
+    "third_person_pronoun": "hắn",
+    "aliases": [
+      "长临仙尊",
+      "Trường Lâm Tiên Tôn",
+      "長臨仙尊"
+    ],
+    "honorifics": "Tiên Tôn",
+    "speech_style": "not directly shown, a past powerful figure",
+    "notes": "Một vị tiên tôn mạnh mẽ, người đã phong ấn Ứng Hàn Y tại Vô Đáy Thâm Uyên."
+  },
+  {
+    "name": "Nhiễm Thu Lam",
+    "hanviet_name": "Nhiễm Thu Lam",
+    "gender": "Female",
+    "third_person_pronoun": "",
+    "aliases": [
+      "冉秋岚",
+      "Nhiễm Thu Lan",
+      "Nhiễm Thu Lam",
+      "冉秋嵐",
+      "Đại sư tỷ",
+      "Ran Qiulan"
+    ],
+    "honorifics": "nàng (she), Đại sư tỷ (Big Senior Sister)",
+    "speech_style": "gentle, doting (towards Hạ Khanh Tuyên), tense, formal (towards unknown high-ranking cultivators)",
+    "notes": "Một trong số các tiểu đệ tử của Tuyên Nghi Cung."
+  },
+  {
+    "name": "Nhị sư đệ",
+    "hanviet_name": "Nhị sư đệ",
+    "gender": "Male",
+    "third_person_pronoun": "hắn",
+    "aliases": [
+      "Nhị sư đệ",
+      "二师弟"
+    ],
+    "honorifics": "",
+    "speech_style": "",
+    "notes": ""
+  },
+  {
+    "name": "Đại Trưởng Lão",
+    "hanviet_name": "Đại Trưởng Lão",
+    "gender": "Male",
+    "third_person_pronoun": "ông ta",
+    "aliases": [
+      "Đại Trưởng Lão",
+      "大长 lão",
+      "大長老",
+      "Đại trưởng lão Tuyên Nghi Cung",
+      "great elder",
+      "old man"
+    ],
+    "honorifics": "ngươi (you - referring to Thanh Huyền)",
+    "speech_style": "Formal, respectful.",
+    "notes": "Một trưởng lão của Tuyên Nghi Cung, có vẻ có mối quan hệ thân thiết với Hạ Khanh Tuyên, bị thương sau khi chiến đấu với yêu thú."
+  },
+  {
+    "name": "Lão Quỷ",
+    "hanviet_name": "Lão Quỷ",
+    "gender": "Male",
+    "third_person_pronoun": "",
+    "aliases": [
+      "老鬼",
+      "Lão Quỷ (giữ nguyên)",
+      "Lão Quỷ"
+    ],
+    "honorifics": "Self-refers as \"ông nội ta\" (your grandpa/I) when boastful, then \"tiểu quỷ\" (little ghost/this humble ghost) when subservient.",
+    "speech_style": "Boastful and arrogant, then extremely subservient and cringing.",
+    "notes": "Yêu ma mạnh mẽ, mặt xanh nanh nhọn, cầm chiêu hồn phiên, dẫn đầu cuộc tấn công Tuyên Nghi Cung, phục tùng Ứng Hàn Y."
+  },
+  {
+    "name": "Chưởng môn Tuyên Nghi Cung",
+    "hanviet_name": "Chưởng môn Tuyên Nghi Cung",
+    "gender": "Male",
+    "third_person_pronoun": "ông ta",
+    "aliases": [
+      "宣仪宫掌门",
+      "Chưởng môn Tuyên Nghi Cung",
+      "Tuyên Nghi Cung Chưởng Môn",
+      "Chưởng môn"
+    ],
+    "honorifics": "",
+    "speech_style": "",
+    "notes": "Người đứng đầu hiện tại của Tuyên Nghi Cung, nhận ra Ứng Hàn Y."
+  },
+  {
+    "name": "Trường Lâm",
+    "hanviet_name": "Trường Lâm",
+    "gender": "Male",
+    "third_person_pronoun": "",
+    "aliases": [
+      "长临",
+      "Trường Lâm (giữ nguyên)",
+      "Trường Lâm"
+    ],
+    "honorifics": "",
+    "speech_style": "",
+    "notes": "Nhân vật lịch sử, người đã phong ấn Ứng Hàn Y."
+  },
+  {
+    "name": "Chưởng Môn",
+    "hanviet_name": "Chưởng Môn",
+    "gender": "Male",
+    "third_person_pronoun": "ông",
+    "aliases": [
+      "掌門",
+      "Chưởng Môn"
+    ],
+    "honorifics": "",
+    "speech_style": "Not shown.",
+    "notes": "Sect Master of Tuyên Nghi Cung."
+  },
+  {
+    "name": "Thái Thượng Trưởng Lão",
+    "hanviet_name": "Thái Thượng Trưởng Lão",
+    "gender": "Female",
+    "third_person_pronoun": "bà",
+    "aliases": [
+      "太上長老",
+      "Thái Thượng Trưởng Lão",
+      "Thái thượng trưởng lão Tuyên Nghi Cung"
+    ],
+    "honorifics": "",
+    "speech_style": "",
+    "notes": ""
+  },
+  {
+    "name": "Điện chủ Thánh Điện Chúc Long",
+    "hanviet_name": "Điện chủ",
+    "gender": "Male",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Điện chủ Thánh Điện Chúc Long",
+      "Điện chủ"
+    ],
+    "honorifics": "",
+    "speech_style": "",
+    "notes": ""
+  },
+  {
+    "name": "Thánh tử Thánh Điện Chúc Long",
+    "hanviet_name": "Thánh tử",
+    "gender": "Male",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Thánh tử Thánh Điện Chúc Long",
+      "Thánh tử"
+    ],
+    "honorifics": "",
+    "speech_style": "",
+    "notes": ""
+  },
+  {
+    "name": "Chưởng Môn (Tuyên Nghi Cung)",
+    "hanviet_name": "",
+    "gender": "",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Chưởng Môn (Tuyên Nghi Cung)"
+    ],
+    "honorifics": "Chưởng Môn",
+    "speech_style": "Formal",
+    "notes": "Sect Master of Tuyên Nghi Cung."
+  },
+  {
+    "name": "Thái Thượng Trưởng Lão (Tuyên Nghi Cung)",
+    "hanviet_name": "",
+    "gender": "",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Thái Thượng Trưởng Lão (Tuyên Nghi Cung)"
+    ],
+    "honorifics": "Thái Thượng Trưởng Lão",
+    "speech_style": "",
+    "notes": "Grand Elder of Tuyên Nghi Cung."
+  },
+  {
+    "name": "Đại Trưởng Lão (Tuyên Nghi Cung)",
+    "hanviet_name": "",
+    "gender": "",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Đại Trưởng Lão (Tuyên Nghi Cung)"
+    ],
+    "honorifics": "Đại Trưởng Lão",
+    "speech_style": "Polite, but can be provoked",
+    "notes": "First Elder of Tuyên Nghi Cung, usually amiable."
+  },
+  {
+    "name": "Điện chủ (Chúc Long Thánh Điện)",
+    "hanviet_name": "",
+    "gender": "Male",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Điện chủ (Chúc Long Thánh Điện)",
+      "Người dẫn đầu Chúc Long Thánh Điện"
+    ],
+    "honorifics": "Điện chủ, Bổn tọa",
+    "speech_style": "Authoritative, cold, ruthless",
+    "notes": "Leader of Chúc Long Thánh Điện, a middle-aged elder."
+  },
+  {
+    "name": "Thánh tử (Chúc Long Thánh Điện)",
+    "hanviet_name": "",
+    "gender": "Male",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Thánh tử (Chúc Long Thánh Điện)"
+    ],
+    "honorifics": "Thánh tử",
+    "speech_style": "",
+    "notes": "Holy Son of Chúc Long Thánh Điện, possesses a trace of true dragon bloodline, Kim Đan hậu kỳ at over 300 years old."
+  },
+  {
+    "name": "Thầy bói hoàn hảo",
+    "hanviet_name": "",
+    "gender": "Male",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Thầy bói hoàn hảo"
+    ],
+    "honorifics": null,
+    "speech_style": null,
+    "notes": "Lived seven thousand years ago. Realized that collecting the Taishang Liangyi Scrolls was useless without the support of a complete spirit body."
+  },
+  {
+    "name": "Diệt Hư Đế Tôn",
+    "hanviet_name": "Diệt Hư Đế Tôn",
+    "gender": "male",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Diệt Hư Hoàng đế",
+      "Hoàng đế",
+      "Diệt Hư",
+      "Diệt Thế Hoàng Đế"
+    ],
+    "honorifics": "hắn (he - referring to Miexu)",
+    "speech_style": "implied to be dangerous and powerful",
+    "notes": "A dangerous entity that the Great Elder fears. Has killed many people, including 'Trường Lâm bất tử'."
+  },
+  {
+    "name": "Ân Quý đạo nhân",
+    "hanviet_name": "Ân Quý đạo nhân",
+    "gender": "female",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Cô Bành Hương đạo sĩ",
+      "Daoist Pengxiang"
+    ],
+    "honorifics": "bà (she - referring to Cô Bành Hương)",
+    "speech_style": "N/A",
+    "notes": "A person the Great Elder intends to send Thanh Huyền to for safety. Will specifically come to meet him."
+  },
+  {
+    "name": "Cô bé cầm chiếc đèn lồng đỏ",
+    "hanviet_name": "",
+    "gender": "Female",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Cô bé cầm chiếc đèn lồng đỏ",
+      "Con rối"
+    ],
+    "honorifics": "Referred to as 'cô bé' (little girl).",
+    "speech_style": "Weak, quiet.",
+    "notes": "A puppet created by Đạo sĩ Yingui."
+  },
+  {
+    "name": "cô bé cầm đèn lồng đỏ",
+    "hanviet_name": "",
+    "gender": "female",
+    "third_person_pronoun": "",
+    "aliases": [
+      "cô bé cầm đèn lồng đỏ"
+    ],
+    "honorifics": "Sư phụ (Master, referring to Yin Gui)",
+    "speech_style": "childlike",
+    "notes": "A young girl under Yin Gui's care."
+  },
+  {
+    "name": "Bạch Đồ",
+    "hanviet_name": "Bạch Đồ",
+    "gender": "Male",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Rabbit-eared boy",
+      "Cậu bé tai thỏ",
+      "Bai Tu",
+      "tai thỏ thiếu niên",
+      "con thỏ nhỏ",
+      "thiếu niên mặc đồ đỏ",
+      "chúa tể thành phố Lữ Thành",
+      "Lục Thành chủ",
+      "thỏ yêu",
+      "Bạch đại nhân",
+      "Chủ nhân",
+      "Yêu Vương Bạch Đồ",
+      "Bái Đồ",
+      "Bạch Thổ Nhược"
+    ],
+    "honorifics": "Hoàng thượng (for Ying Hanyi), thần (self-address)",
+    "speech_style": "initially timid/scared (as avatar), later formal/respectful (as original self)",
+    "notes": "A monster cultivator with rabbit ears."
+  },
+  {
+    "name": "Tử Thư Vọng",
+    "hanviet_name": "Tử Thư Vọng",
+    "gender": "male",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Zi Shuwang",
+      "Tử Thư Vương",
+      "Ma vương Zi Shuwang"
+    ],
+    "honorifics": "",
+    "speech_style": "",
+    "notes": "A Demon King associated with the Demon Palace."
+  },
+  {
+    "name": "Ma Hoàng",
+    "hanviet_name": "Ma Hoàng",
+    "gender": "male",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Demon Emperor",
+      "Ma Hoàng"
+    ],
+    "honorifics": "",
+    "speech_style": "",
+    "notes": "One of the most powerful figures, has broken through tribulations and is close to ascension."
+  },
+  {
+    "name": "Diêm La Hoàng Đế",
+    "hanviet_name": "Diêm La Hoàng Đế",
+    "gender": "male",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Emperor Yama",
+      "Hoàng đế Diêm Vương",
+      "King of Hell"
+    ],
+    "honorifics": "",
+    "speech_style": "",
+    "notes": "One of the powerful figures who divided the Xuan Tian Nine Provinces Realm."
+  },
+  {
+    "name": "Tiêu Thăng",
+    "hanviet_name": "Tiêu Thăng",
+    "gender": "Male",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Tiêu Thăng",
+      "Yêu tu áo trắng",
+      "Ma tu áo trắng",
+      "Diêu Tú"
+    ],
+    "honorifics": "Refers to Ying Hanyi as 'Bệ hạ'. Refers to the Demon Emperor as 'Yêu Hoàng bệ hạ'.",
+    "speech_style": "Uses 'thần' (this subject/your servant) when speaking to Ying Hanyi.",
+    "notes": "A white-robed demon cultivator, subordinate of the Demon Emperor. 'Diêu Tú' is used by Ying Hanyi to address him."
+  },
+  {
+    "name": "Yêu Hoàng",
+    "hanviet_name": "Yêu Hoàng",
+    "gender": "Male",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Yêu Hoàng",
+      "Ma Vương"
+    ],
+    "honorifics": "Addressed as 'Yêu Hoàng bệ hạ'.",
+    "speech_style": "Not directly speaking in this excerpt.",
+    "notes": "A powerful figure, possibly the superior of Tiêu Thăng."
+  },
+  {
+    "name": "Yêu tu",
+    "hanviet_name": "",
+    "gender": "Male",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Yêu tu",
+      "Ma tu"
+    ],
+    "honorifics": "Chúa Bất Tử (for He Qingxuan), Tiên Quân (for He Qingxuan)",
+    "speech_style": "Fearful, pleading, subservient",
+    "notes": "A generic demon/monster cultivator. Disciple of Viêm Thiên Giáo."
+  },
+  {
+    "name": "Ôn Thanh Hàm",
+    "hanviet_name": "Ôn Thanh Hàm",
+    "gender": "Female",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Ôn Thanh Hàn",
+      "Nữ tu",
+      "Văn Thanh Hàn",
+      "Ôn Thanh Hàm"
+    ],
+    "honorifics": "Thiếu gia (for He Qingxuan), Tiền bối (for He Qingxuan and Ying Hanyi)",
+    "speech_style": "Cautious, informative, respectful, formal, grateful",
+    "notes": "Disciple of Taichu Pavilion. Was imprisoned/sealed for hundreds of years."
+  },
+  {
+    "name": "Phá Đao",
+    "hanviet_name": "Phá Đao",
+    "gender": "Unknown",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Po Dao"
+    ],
+    "honorifics": "",
+    "speech_style": "N/A (mentioned)",
+    "notes": "An entity or person targeted by Hoàng đế Miexu."
+  },
+  {
+    "name": "Người đàn ông trung niên",
+    "hanviet_name": "",
+    "gender": "Male",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Người đàn ông trung niên"
+    ],
+    "honorifics": "Đạo hữu",
+    "speech_style": "Arrogant, mocking",
+    "notes": "Member of Viêm Thiên Môn / Đốt Thiên Giáo, collects spirit stones, killed by Ying Hanyi."
+  },
+  {
+    "name": "Nhân Sâm Oa Oa",
+    "hanviet_name": "Nhân Sâm Oa Oa",
+    "gender": "N/A",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Ginseng Baby",
+      "nhân sâm búp bê"
+    ],
+    "honorifics": "",
+    "speech_style": "Childlike, timid, easily bribed",
+    "notes": "A spiritual plant/creature that can speak, gives directions, and offers protection."
+  },
+  {
+    "name": "Tiết Kiêu Thiên",
+    "hanviet_name": "Tiết Kiêu Thiên",
+    "gender": "male",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Tiết Hiểu Thiên",
+      "anh Xue",
+      "Thiếu gia"
+    ],
+    "honorifics": "Xue đạo nhân",
+    "speech_style": "Aggressive, scheming",
+    "notes": "Direct disciple and only direct grandson of Burning Sky Demon Lord. Leader of Burning Sky Sect."
+  },
+  {
+    "name": "Lão giả áo đen",
+    "hanviet_name": "",
+    "gender": "Male",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Lão giả áo đen"
+    ],
+    "honorifics": "Refers to Xue Xiaotian as 'thiếu gia của ta' (my young master).",
+    "speech_style": "Threatening, angry, worried. Uses 'ta' (I, informal/superior) for himself and 'ngươi' (you, informal/inferior) for He Qingxuan.",
+    "notes": "A servant or guardian of Xue Xiaotian."
+  },
+  {
+    "name": "Ông già mặc áo choàng đen",
+    "hanviet_name": "",
+    "gender": "Male",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Ông già mặc áo choàng đen"
+    ],
+    "honorifics": "Uses \"tôn giả\" for Ying Hanyi",
+    "speech_style": "Respectful, pleading, self-deprecating (tiểu nhân)",
+    "notes": "Servant of the 'thiếu gia'."
+  },
+  {
+    "name": "Hỏa Ma Vương",
+    "hanviet_name": "火魔王",
+    "gender": "Male",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Hỏa Ma Vương",
+      "火魔王"
+    ],
+    "honorifics": "Ma Vương (Demon King)",
+    "speech_style": "Not shown",
+    "notes": "Grandfather of the 'thiếu gia'."
+  },
+  {
+    "name": "Chí đạ",
+    "hanviet_name": "",
+    "gender": "Male",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Chí đạ",
+      "Ông già mũm mĩm"
+    ],
+    "honorifics": null,
+    "speech_style": "Not shown",
+    "notes": "Leader of Hỏa Thiên giáo."
+  },
+  {
+    "name": "Đạo sĩ Chí",
+    "hanviet_name": "Đạo sĩ Chí",
+    "gender": "Male",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Đạo sĩ Chí"
+    ],
+    "honorifics": "Đạo sĩ",
+    "speech_style": "Not explicitly described.",
+    "notes": "Worried about He Qingxuan, confused about Ying Hanyi's identity."
+  },
+  {
+    "name": "Xích đạo sĩ",
+    "hanviet_name": "Xích đạo sĩ",
+    "gender": "Male",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Xích đạo sĩ",
+      "Chi đạo sĩ"
+    ],
+    "honorifics": "đạo sĩ",
+    "speech_style": "Authoritative, commanding",
+    "notes": "Leader of the group attacking Ying Hanyi, controls the fire array."
+  },
+  {
+    "name": "Tiêu Thánh",
+    "hanviet_name": "Tiêu Thánh",
+    "gender": "Male",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Tiêu Thánh"
+    ],
+    "honorifics": "Thánh (Saint, part of name)",
+    "speech_style": "Not shown",
+    "notes": "The one who investigated and set up a deception array."
+  }
+]

@@ -1,0 +1,285 @@
+{
+  "chapter_summary": "Ứng Hàn Y, dù bị phong ấn gây tổn thương, vẫn cười điên cuồng. Hạ Khanh Tuyên, trong khi chịu đựng dư chấn của phong ấn, đã suy luận ra rằng Trường Lâm Tiên Tôn đã sử dụng một phương pháp vượt quá cảnh giới của mình để phong ấn Ứng Hàn Y. Hạ Khanh Tuyên đề nghị hợp tác để giải phong ấn và cả khế ước đạo lữ, đổi lại Ứng Hàn Y phải giúp đỡ hắn. Ứng Hàn Y nghi ngờ Hạ Khanh Tuyên là người của Tuyên Nghi Cung, và Hạ Khanh Tuyên thừa nhận điều đó nhưng giữ thái độ mơ hồ về thân phận thực sự của mình. Ứng Hàn Y thấy Hạ Khanh Tuyên thú vị và không muốn giết hắn. Hạ Khanh Tuyên mời Ứng Hàn Y đến Tuyên Nghi Cung, cố tình tạo ra những 'sơ hở' để Ứng Hàn Y nghi ngờ. Cùng lúc đó, tại Tuyên Nghi Cung, trận hộ sơn đã bị phá vỡ, yêu ma tràn vào. Đại sư tỷ Nhiễm Thu Lam dẫn các đệ tử nhỏ tuổi trốn thoát nhưng bị một con thực nhân thú truy đuổi. Nhiều đệ tử đã bị ăn thịt, Nhiễm Thu Lam bị thương và định hy sinh thân mình để câu giờ. Tuy nhiên, một luồng khí lạnh lẽo xuất hiện khiến thực nhân thú sợ hãi rút lui. Hạ Khanh Tuyên từ trên trời giáng xuống, khiến các đệ tử và Nhiễm Thu Lam vô cùng bất ngờ và vui mừng khi thấy tiểu sư đệ của mình.",
+  "new_characters": [
+    {
+      "name": "长临仙尊",
+      "hanviet_name": "Trường Lâm Tiên Tôn",
+      "gender": "Male",
+      "role": "Vị tiên nhân mạnh mẽ, người đã phong ấn Ứng Hàn Y."
+    },
+    {
+      "name": "冉秋岚",
+      "hanviet_name": "Nhiễm Thu Lam",
+      "gender": "Female",
+      "role": "Đại sư tỷ của Tuyên Nghi Cung, dũng cảm, bảo vệ sư đệ sư muội."
+    },
+    {
+      "name": "二师弟",
+      "hanviet_name": "Nhị sư đệ",
+      "gender": "Male",
+      "role": "Đệ tử thứ hai của Tuyên Nghi Cung, trầm ổn, đáng tin cậy."
+    }
+  ],
+  "new_locations": [],
+  "new_terms": [
+    {
+      "original": "炼气",
+      "suggested": "Luyện Khí",
+      "hanviet": "Luyện Khí",
+      "category": "skill",
+      "confidence": 0.7
+    },
+    {
+      "original": "筑基",
+      "suggested": "Trúc Cơ",
+      "hanviet": "Trúc Cơ",
+      "category": "skill",
+      "confidence": 0.7
+    },
+    {
+      "original": "金丹",
+      "suggested": "Kim Đan",
+      "hanviet": "Kim Đan",
+      "category": "skill",
+      "confidence": 0.7
+    },
+    {
+      "original": "元婴",
+      "suggested": "Nguyên Anh",
+      "hanviet": "Nguyên Anh",
+      "category": "skill",
+      "confidence": 0.7
+    },
+    {
+      "original": "化神",
+      "suggested": "Hóa Thần",
+      "hanviet": "Hóa Thần",
+      "category": "skill",
+      "confidence": 0.7
+    },
+    {
+      "original": "渡劫",
+      "suggested": "Độ Kiếp",
+      "hanviet": "Độ Kiếp",
+      "category": "skill",
+      "confidence": 0.7
+    },
+    {
+      "original": "帝尊",
+      "suggested": "Đế Tôn",
+      "hanviet": "Đế Tôn",
+      "category": "honorific",
+      "confidence": 0.7
+    },
+    {
+      "original": "夺舍老怪",
+      "suggested": "Đoạt xá lão quái",
+      "hanviet": "Đoạt xá lão quái",
+      "category": "other",
+      "confidence": 0.7
+    },
+    {
+      "original": "护山大阵",
+      "suggested": "Hộ sơn đại trận",
+      "hanviet": "Hộ sơn đại trận",
+      "category": "item",
+      "confidence": 0.7
+    },
+    {
+      "original": "妖魔",
+      "suggested": "Yêu ma",
+      "hanviet": "Yêu ma",
+      "category": "faction",
+      "confidence": 0.7
+    },
+    {
+      "original": "食人兽",
+      "suggested": "Thực nhân thú",
+      "hanviet": "Thực nhân thú",
+      "category": "other",
+      "confidence": 0.7
+    },
+    {
+      "original": "大师姐",
+      "suggested": "Đại sư tỷ",
+      "hanviet": "Đại sư tỷ",
+      "category": "honorific",
+      "confidence": 0.7
+    },
+    {
+      "original": "小师弟",
+      "suggested": "Tiểu sư đệ",
+      "hanviet": "Tiểu sư đệ",
+      "category": "honorific",
+      "confidence": 0.7
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "长临仙尊",
+      "suggested": "Trường Lâm Tiên Tôn",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Trường Lâm Tiên Tôn?",
+      "options": [
+        "Trường Lâm Tiên Tôn",
+        "Trường Lâm Chân Nhân",
+        "Trường Lâm Tiên Quân",
+        "Trường Lâm Đạo Quân"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_002",
+      "original": "Trường Lâm Tiên Tôn (ngôi thứ 3)",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Trường Lâm Tiên Tôn (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "y",
+        "ngài",
+        "hắn",
+        "vị này"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_003",
+      "original": "冉秋岚",
+      "suggested": "Nhiễm Thu Lam",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Nhiễm Thu Lam?",
+      "options": [
+        "Nhiễm Thu Lam",
+        "Nhiễm Thu Lan",
+        "Nhiễm Thu Diễm",
+        "Nhiễm Thu Nguyệt"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_004",
+      "original": "Nhiễm Thu Lam (ngôi thứ 3)",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Nhiễm Thu Lam (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "nàng",
+        "cô",
+        "y",
+        "chị ta"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_005",
+      "original": "Nhị sư đệ",
+      "suggested": "Nhị sư đệ",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Nhị sư đệ?",
+      "options": [
+        "Nhị sư đệ",
+        "Sư đệ thứ hai",
+        "Nhị sư huynh",
+        "Đệ tử thứ hai"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_006",
+      "original": "Nhị sư đệ (ngôi thứ 3)",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Nhị sư đệ (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "hắn",
+        "y",
+        "cậu",
+        "anh ta"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_007",
+      "original": "Nhiễm Thu Lam → Hạ Khanh Tuyên",
+      "suggested": "Nhiễm Thu Lam xưng Ta - gọi Hạ Khanh Tuyên là Tiểu sư đệ",
+      "confidence": 0.3,
+      "question": "Chiều 1: Nhiễm Thu Lam xưng hô thế nào với Hạ Khanh Tuyên (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Ta - gọi Tiểu sư đệ",
+        "xưng Ta - gọi Sư đệ",
+        "xưng Ta - gọi Khanh Tuyên",
+        "xưng Ta - gọi Em"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_008",
+      "original": "Hạ Khanh Tuyên → Nhiễm Thu Lam",
+      "suggested": "Hạ Khanh Tuyên xưng Ta - gọi Nhiễm Thu Lam là Đại sư tỷ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Hạ Khanh Tuyên xưng hô thế nào với Nhiễm Thu Lam (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Ta - gọi Đại sư tỷ",
+        "xưng Ta - gọi Sư tỷ",
+        "xưng Ta - gọi Chị",
+        "xưng Ta - gọi Thu Lam tỷ"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_009",
+      "original": "Các đệ tử → Nhiễm Thu Lam",
+      "suggested": "Các đệ tử xưng Chúng ta/Chúng con - gọi Nhiễm Thu Lam là Đại sư tỷ",
+      "confidence": 0.3,
+      "question": "Chiều 1: Các đệ tử xưng hô thế nào với Nhiễm Thu Lam (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Chúng ta/Chúng con - gọi Đại sư tỷ",
+        "xưng Chúng ta/Chúng con - gọi Sư tỷ",
+        "xưng Chúng ta/Chúng con - gọi Chị"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_010",
+      "original": "Nhiễm Thu Lam → Các đệ tử",
+      "suggested": "Nhiễm Thu Lam xưng Ta - gọi Các đệ tử là Các ngươi/Các con",
+      "confidence": 0.3,
+      "question": "Chiều 2: Nhiễm Thu Lam xưng hô thế nào với Các đệ tử (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Ta - gọi Các ngươi/Các con",
+        "xưng Ta - gọi Các đệ tử",
+        "xưng Ta - gọi Các em"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_011",
+      "original": "Các đệ tử → Hạ Khanh Tuyên",
+      "suggested": "Các đệ tử xưng Chúng ta/Chúng con - gọi Hạ Khanh Tuyên là Tiểu sư đệ",
+      "confidence": 0.3,
+      "question": "Chiều 1: Các đệ tử xưng hô thế nào với Hạ Khanh Tuyên (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Chúng ta/Chúng con - gọi Tiểu sư đệ",
+        "xưng Chúng ta/Chúng con - gọi Sư đệ",
+        "xưng Chúng ta/Chúng con - gọi Em"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_012",
+      "original": "Hạ Khanh Tuyên → Các đệ tử",
+      "suggested": "Hạ Khanh Tuyên xưng Ta - gọi Các đệ tử là Các sư huynh/sư tỷ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Hạ Khanh Tuyên xưng hô thế nào với Các đệ tử (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Ta - gọi Các sư huynh/sư tỷ",
+        "xưng Ta - gọi Các vị",
+        "xưng Ta - gọi Các ngươi"
+      ],
+      "category": "relationship"
+    }
+  ],
+  "chapter_id": "ch_007",
+  "analyzed_at": "2026-09-26T19:44:20.288020+07:00"
+}

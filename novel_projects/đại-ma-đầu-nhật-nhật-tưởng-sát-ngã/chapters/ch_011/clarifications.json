@@ -1,0 +1,255 @@
+{
+  "chapter_id": "ch_011",
+  "questions": [
+    {
+      "id": "amb_001",
+      "original": "Điện chủ Thánh Điện Chúc Long",
+      "suggested": "Điện chủ Chúc Long",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Điện chủ Thánh Điện Chúc Long?",
+      "options": [
+        "Điện chủ Chúc Long",
+        "Điện chủ",
+        "Trưởng điện Chúc Long",
+        "Chủ điện Chúc Long"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_002",
+      "original": "Điện chủ Thánh Điện Chúc Long (ngôi thứ 3)",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Điện chủ Thánh Điện Chúc Long (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "hắn",
+        "y",
+        "gã",
+        "ông ta"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_003",
+      "original": "Chưởng môn Tuyên Nghi Cung",
+      "suggested": "Chưởng môn",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Chưởng môn Tuyên Nghi Cung?",
+      "options": [
+        "Chưởng môn",
+        "Chưởng giáo",
+        "Tông chủ",
+        "Chưởng môn Tuyên Nghi Cung"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_004",
+      "original": "Chưởng môn Tuyên Nghi Cung (ngôi thứ 3)",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Chưởng môn Tuyên Nghi Cung (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "hắn",
+        "y",
+        "ông ta",
+        "vị này"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_005",
+      "original": "Thái thượng trưởng lão Tuyên Nghi Cung",
+      "suggested": "Thái thượng trưởng lão",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Thái thượng trưởng lão Tuyên Nghi Cung?",
+      "options": [
+        "Thái thượng trưởng lão",
+        "Thái thượng",
+        "Trưởng lão tối cao",
+        "Thái thượng trưởng lão Tuyên Nghi Cung"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_006",
+      "original": "Thái thượng trưởng lão Tuyên Nghi Cung (ngôi thứ 3)",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Thái thượng trưởng lão Tuyên Nghi Cung (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "hắn",
+        "y",
+        "ông ta",
+        "vị này"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_007",
+      "original": "Đại trưởng lão Tuyên Nghi Cung",
+      "suggested": "Đại trưởng lão",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Đại trưởng lão Tuyên Nghi Cung?",
+      "options": [
+        "Đại trưởng lão",
+        "Trưởng lão",
+        "Trưởng lão thứ nhất",
+        "Đại trưởng lão Tuyên Nghi Cung"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_008",
+      "original": "Đại trưởng lão Tuyên Nghi Cung (ngôi thứ 3)",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Đại trưởng lão Tuyên Nghi Cung (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "hắn",
+        "y",
+        "ông ta",
+        "vị này"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_009",
+      "original": "Nhiễm Thu Lam",
+      "suggested": "Nhiễm Thu Lam",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Nhiễm Thu Lam?",
+      "options": [
+        "Nhiễm Thu Lam",
+        "Nhiễm Thu Lan",
+        "Nhiễm Thu Lãm"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_010",
+      "original": "Nhiễm Thu Lam (ngôi thứ 3)",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Nhiễm Thu Lam (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "cô",
+        "nàng",
+        "y",
+        "nữ hiệp"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_011",
+      "original": "Thánh tử Thánh Điện Chúc Long",
+      "suggested": "Thánh tử Chúc Long",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Thánh tử Thánh Điện Chúc Long?",
+      "options": [
+        "Thánh tử Chúc Long",
+        "Thánh tử",
+        "Thiếu chủ Chúc Long",
+        "Thánh tử Thánh Điện Chúc Long"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_012",
+      "original": "Thánh tử Thánh Điện Chúc Long (ngôi thứ 3)",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Thánh tử Thánh Điện Chúc Long (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "hắn",
+        "y",
+        "cậu ta",
+        "thiếu niên"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_013",
+      "original": "Điện chủ Thánh Điện Chúc Long → Đại trưởng lão Tuyên Nghi Cung",
+      "suggested": "Điện chủ Thánh Điện Chúc Long xưng Bổn tọa - gọi Đại trưởng lão là Chư vị / Đạo hữu",
+      "confidence": 0.3,
+      "question": "Chiều 1: Điện chủ Thánh Điện Chúc Long xưng hô thế nào với Đại trưởng lão Tuyên Nghi Cung (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Bổn tọa - gọi Chư vị",
+        "xưng Bổn tọa - gọi Đạo hữu",
+        "xưng Ta - gọi Các vị",
+        "xưng Bổn tọa - gọi Ngươi"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_014",
+      "original": "Đại trưởng lão Tuyên Nghi Cung → Điện chủ Thánh Điện Chúc Long",
+      "suggested": "Đại trưởng lão Tuyên Nghi Cung xưng Tôi - gọi Điện chủ là Chư vị",
+      "confidence": 0.3,
+      "question": "Chiều 2: Đại trưởng lão Tuyên Nghi Cung xưng hô thế nào với Điện chủ Thánh Điện Chúc Long (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Chư vị",
+        "xưng Lão phu - gọi Chư vị",
+        "xưng Ta - gọi Các vị",
+        "xưng Tôi - gọi Điện chủ"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_015",
+      "original": "Điện chủ Thánh Điện Chúc Long → Chưởng môn Tuyên Nghi Cung",
+      "suggested": "Điện chủ Thánh Điện Chúc Long xưng Bổn tọa - gọi Chưởng môn là Đạo hữu / Chư vị",
+      "confidence": 0.3,
+      "question": "Chiều 1: Điện chủ Thánh Điện Chúc Long xưng hô thế nào với Chưởng môn Tuyên Nghi Cung (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Bổn tọa - gọi Chư vị",
+        "xưng Bổn tọa - gọi Đạo hữu",
+        "xưng Ta - gọi Các vị",
+        "xưng Bổn tọa - gọi Ngươi"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_016",
+      "original": "Chưởng môn Tuyên Nghi Cung → Điện chủ Thánh Điện Chúc Long",
+      "suggested": "Chưởng môn Tuyên Nghi Cung xưng Tôi - gọi Điện chủ là Điện chủ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Chưởng môn Tuyên Nghi Cung xưng hô thế nào với Điện chủ Thánh Điện Chúc Long (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Điện chủ",
+        "xưng Ta - gọi Điện chủ",
+        "xưng Tôi - gọi Chư vị",
+        "xưng Bổn tọa - gọi Điện chủ"
+      ],
+      "category": "relationship"
+    }
+  ],
+  "answers": {
+    "amb_009": {
+      "choice": "nàng",
+      "custom": null,
+      "auto_propagated": true,
+      "propagated_from": "Chapter ch_011"
+    },
+    "amb_010": {
+      "choice": "nàng",
+      "custom": null,
+      "auto_propagated": true,
+      "propagated_from": "Chapter ch_011"
+    },
+    "amb_003": {
+      "choice": "ông ta",
+      "custom": null,
+      "auto_propagated": true,
+      "propagated_from": "Chapter ch_011"
+    },
+    "amb_004": {
+      "choice": "ông ta",
+      "custom": null,
+      "auto_propagated": true,
+      "propagated_from": "Chapter ch_011"
+    }
+  },
+  "updated_at": "2026-09-26T20:12:01.622208+07:00"
+}

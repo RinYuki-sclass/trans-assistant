@@ -60,6 +60,33 @@ hr.sigil_split {
     margin: 2em auto;
     width: 50%;
 }
+.summary-box {
+    background-color: #f8fafc;
+    border-left: 4px solid #2563eb;
+    padding: 1em 1.2em;
+    margin: 1.2em 0 1.6em 0;
+    border-radius: 6px;
+}
+.summary-title {
+    font-size: 1.15em;
+    font-weight: bold;
+    color: #1e3a8a;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    text-align: left;
+}
+.summary-text {
+    text-indent: 1.5em;
+    margin-bottom: 0.6em;
+    line-height: 1.6;
+    color: #1f2937;
+}
+.summary-header {
+    text-align: center;
+    color: #1d4ed8;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+}
 """
 
 def create_epub(
@@ -70,7 +97,11 @@ def create_epub(
     language: str = "vi",
     cover_bytes: Optional[bytes] = None,
     cover_filename: str = "cover.jpg",
-    custom_css: Optional[str] = None
+    custom_css: Optional[str] = None,
+    story_summary: Optional[str] = None,
+    chapter_summaries: Optional[List[Dict[str, str]]] = None,
+    summary_position: str = "before_chapters",
+    include_summary: bool = True
 ) -> bytes:
     """
     Generate an EPUB 3 ebook file in memory from a list of chapters.
@@ -84,6 +115,10 @@ def create_epub(
     :param cover_bytes: Raw bytes of cover image (JPEG/PNG)
     :param cover_filename: File name of cover image
     :param custom_css: Custom CSS string to replace default stylesheet
+    :param story_summary: Optional overall novel story summary / recap
+    :param chapter_summaries: Optional list of {"title": "...", "summary": "..."} dicts for chapter-by-chapter summaries
+    :param summary_position: "before_chapters" (default) or "after_chapters" - keeps summary strictly separated from chapter text
+    :param include_summary: Whether to include the separate summary section in EPUB
     :return: Raw EPUB file bytes
     """
     if chapters is None:
@@ -173,7 +208,92 @@ def create_epub(
         epub_chapters.append(desc_page)
         spine_items.append(desc_page)
 
-    # Process Chapters
+    # Build Separate Summary Pages (Strictly isolated from novel chapter text)
+    summary_pages = []
+    if include_summary:
+        # 1. Overall Story Summary page
+        if story_summary and story_summary.strip():
+            sum_lines = [p.strip() for p in story_summary.strip().split('\n') if p.strip()]
+            sum_html_parts = [
+                '<h2 class="summary-header">📖 Tóm Tắt Toàn Bộ Cốt Truyện</h2>',
+                '<div class="summary-box">'
+            ]
+            for sl in sum_lines:
+                sum_html_parts.append(f'<p class="summary-text">{_escape_html(sl)}</p>')
+            sum_html_parts.append('</div>')
+
+            story_sum_content = f"""
+            <!DOCTYPE html>
+            <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops">
+            <head>
+                <title>Tóm Tắt Cốt Truyện</title>
+                <link rel="stylesheet" href="style/style.css" type="text/css"/>
+            </head>
+            <body>
+                {''.join(sum_html_parts)}
+            </body>
+            </html>
+            """
+            story_sum_page = epub.EpubHtml(
+                title="Tóm Tắt Cốt Truyện",
+                file_name="story_summary.xhtml",
+                lang=language
+            )
+            story_sum_page.content = story_sum_content
+            story_sum_page.add_item(nav_css)
+            book.add_item(story_sum_page)
+            summary_pages.append(story_sum_page)
+
+        # 2. Chapter-by-chapter summaries page
+        if chapter_summaries and len(chapter_summaries) > 0:
+            ch_sum_parts = [
+                '<h2 class="summary-header">📝 Tóm Tắt Diễn Biến Từng Chương</h2>',
+                '<p class="author-name">Bảng tóm tắt nhanh nội dung các chương truyện</p>'
+            ]
+            has_valid_ch_sum = False
+            for c_item in chapter_summaries:
+                c_title = c_item.get("title") or c_item.get("chapter_id") or "Chương"
+                c_text = c_item.get("summary") or ""
+                if not c_text.strip():
+                    continue
+                has_valid_ch_sum = True
+                ch_sum_parts.append('<div class="summary-box">')
+                ch_sum_parts.append(f'<h3 class="summary-title">{_escape_html(c_title)}</h3>')
+                for p in c_text.strip().split('\n'):
+                    if p.strip():
+                        ch_sum_parts.append(f'<p class="summary-text">{_escape_html(p.strip())}</p>')
+                ch_sum_parts.append('</div>')
+
+            if has_valid_ch_sum:
+                ch_sum_content = f"""
+                <!DOCTYPE html>
+                <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops">
+                <head>
+                    <title>Tóm Tắt Các Chương</title>
+                    <link rel="stylesheet" href="style/style.css" type="text/css"/>
+                </head>
+                <body>
+                    {''.join(ch_sum_parts)}
+                </body>
+                </html>
+                """
+                ch_sum_page = epub.EpubHtml(
+                    title="Tóm Tắt Các Chương",
+                    file_name="chapter_summaries.xhtml",
+                    lang=language
+                )
+                ch_sum_page.content = ch_sum_content
+                ch_sum_page.add_item(nav_css)
+                book.add_item(ch_sum_page)
+                summary_pages.append(ch_sum_page)
+
+    # If position is 'before_chapters', insert summary pages right before chapter 1
+    if summary_pages and summary_position == "before_chapters":
+        for sp in summary_pages:
+            epub_chapters.append(sp)
+            spine_items.append(sp)
+
+    # Process Chapters (Clean, pristine novel translation text - NEVER interleaved with summary)
     for idx, ch in enumerate(chapters, start=1):
         ch_title = ch.get("title", f"Chương {idx}")
         paragraphs = ch.get("paragraphs")
@@ -218,6 +338,12 @@ def create_epub(
 
         epub_chapters.append(epub_ch)
         spine_items.append(epub_ch)
+
+    # If position is 'after_chapters', insert summary pages at the end of the book
+    if summary_pages and summary_position == "after_chapters":
+        for sp in summary_pages:
+            epub_chapters.append(sp)
+            spine_items.append(sp)
 
     # Table of Contents
     book.toc = tuple(epub_chapters)
