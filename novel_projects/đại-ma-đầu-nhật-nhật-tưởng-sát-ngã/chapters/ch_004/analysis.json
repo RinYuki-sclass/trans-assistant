@@ -1,0 +1,185 @@
+{
+  "chapter_summary": "Hạ Khanh Tuyên cố gắng dùng đan dược trị thương cho Ứng Hàn Y nhưng bị Ứng Hàn Y tấn công, bóp cổ. Trong lúc nguy kịch, Hạ Khanh Tuyên đã kích hoạt một phần sâu hơn của khế ước đạo lữ, khiến Ứng Hàn Y bị phản phệ nặng hơn nếu Hạ Khanh Tuyên bị thương. Ứng Hàn Y nhận ra Hạ Khanh Tuyên là kẻ đoạt xá và có thủ đoạn cao siêu. Hạ Khanh Tuyên yêu cầu Ứng Hàn Y che chắn cho mình vì có kẻ truy sát đang đến. Một đám lệ quỷ và yêu ma xuất hiện, Hạ Khanh Tuyên giả vờ yếu ớt trốn sau Ứng Hàn Y. Ứng Hàn Y tức giận nhưng vẫn bảo vệ Hạ Khanh Tuyên, đồng thời yêu cầu Hạ Khanh Tuyên giải phong ấn cho mình. Hạ Khanh Tuyên từ chối vì 'không biết', khiến Ứng Hàn Y phải miễn cưỡng bảo vệ hắn. Ứng Hàn Y dùng ma khí tiêu diệt toàn bộ lệ quỷ.",
+  "new_characters": [],
+  "new_locations": [],
+  "new_terms": [
+    {
+      "original": "療傷丹藥",
+      "suggested": "Đan dược trị thương",
+      "hanviet": "Liệu thương đan dược",
+      "category": "item",
+      "confidence": 0.9
+    },
+    {
+      "original": "儲物袋",
+      "suggested": "Túi trữ vật",
+      "hanviet": "Trữ vật đại",
+      "category": "item",
+      "confidence": 0.9
+    },
+    {
+      "original": "反噬之力",
+      "suggested": "Lực phản phệ",
+      "hanviet": "Phản phệ chi lực",
+      "category": "other",
+      "confidence": 0.9
+    },
+    {
+      "original": "符文",
+      "suggested": "Phù văn",
+      "hanviet": "Phù văn",
+      "category": "other",
+      "confidence": 0.9
+    },
+    {
+      "original": "帝尊大人",
+      "suggested": "Đế Tôn đại nhân",
+      "hanviet": "Đế Tôn đại nhân",
+      "category": "honorific",
+      "confidence": 0.9
+    },
+    {
+      "original": "奪舍之人",
+      "suggested": "Kẻ đoạt xá",
+      "hanviet": "Đoạt xá chi nhân",
+      "category": "other",
+      "confidence": 0.9
+    },
+    {
+      "original": "骨齡",
+      "suggested": "Cốt linh",
+      "hanviet": "Cốt linh",
+      "category": "other",
+      "confidence": 0.9
+    },
+    {
+      "original": "築基期",
+      "suggested": "Trúc Cơ kỳ",
+      "hanviet": "Trúc Cơ kỳ",
+      "category": "skill",
+      "confidence": 0.9
+    },
+    {
+      "original": "黑袍",
+      "suggested": "Hắc bào",
+      "hanviet": "Hắc bào",
+      "category": "item",
+      "confidence": 0.9
+    },
+    {
+      "original": "罡風",
+      "suggested": "Cương phong",
+      "hanviet": "Cương phong",
+      "category": "other",
+      "confidence": 0.9
+    },
+    {
+      "original": "大陣",
+      "suggested": "Đại trận",
+      "hanviet": "Đại trận",
+      "category": "skill",
+      "confidence": 0.9
+    },
+    {
+      "original": "毒株娘",
+      "suggested": "Độc Chu Nương",
+      "hanviet": "Độc Chu Nương",
+      "category": "other",
+      "confidence": 0.7
+    },
+    {
+      "original": "精血",
+      "suggested": "Tinh huyết",
+      "hanviet": "Tinh huyết",
+      "category": "other",
+      "confidence": 0.9
+    },
+    {
+      "original": "元嬰初期修士",
+      "suggested": "Tu sĩ Nguyên Anh sơ kỳ",
+      "hanviet": "Nguyên Anh sơ kỳ tu sĩ",
+      "category": "skill",
+      "confidence": 0.9
+    },
+    {
+      "original": "元嬰後期",
+      "suggested": "Nguyên Anh hậu kỳ",
+      "hanviet": "Nguyên Anh hậu kỳ",
+      "category": "skill",
+      "confidence": 0.9
+    },
+    {
+      "original": "一盞茶時間",
+      "suggested": "Thời gian một chén trà",
+      "hanviet": "Nhất trản trà thời gian",
+      "category": "other",
+      "confidence": 0.9
+    },
+    {
+      "original": "厲鬼妖魔",
+      "suggested": "Lệ quỷ yêu ma",
+      "hanviet": "Lệ quỷ yêu ma",
+      "category": "faction",
+      "confidence": 0.9
+    },
+    {
+      "original": "厲鬼",
+      "suggested": "Lệ quỷ",
+      "hanviet": "Lệ quỷ",
+      "category": "faction",
+      "confidence": 0.9
+    },
+    {
+      "original": "瘴氣",
+      "suggested": "Chướng khí",
+      "hanviet": "Chướng khí",
+      "category": "other",
+      "confidence": 0.9
+    },
+    {
+      "original": "人修",
+      "suggested": "Nhân tu",
+      "hanviet": "Nhân tu",
+      "category": "faction",
+      "confidence": 0.9
+    },
+    {
+      "original": "妖魔",
+      "suggested": "Yêu ma",
+      "hanviet": "Yêu ma",
+      "category": "faction",
+      "confidence": 0.9
+    },
+    {
+      "original": "化神期強者",
+      "suggested": "Cường giả Hóa Thần kỳ",
+      "hanviet": "Hóa Thần kỳ cường giả",
+      "category": "skill",
+      "confidence": 0.9
+    },
+    {
+      "original": "魔氣",
+      "suggested": "Ma khí",
+      "hanviet": "Ma khí",
+      "category": "other",
+      "confidence": 0.9
+    },
+    {
+      "original": "身法",
+      "suggested": "Thân pháp",
+      "hanviet": "Thân pháp",
+      "category": "skill",
+      "confidence": 0.9
+    },
+    {
+      "original": "閣下",
+      "suggested": "Các hạ",
+      "hanviet": "Các hạ",
+      "category": "honorific",
+      "confidence": 0.9
+    }
+  ],
+  "ambiguous": [],
+  "chapter_id": "ch_004",
+  "analyzed_at": "2026-09-26T19:42:53.520247+07:00"
+}

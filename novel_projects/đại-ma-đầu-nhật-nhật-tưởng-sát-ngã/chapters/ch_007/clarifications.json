@@ -1,0 +1,225 @@
+{
+  "chapter_id": "ch_007",
+  "questions": [
+    {
+      "id": "amb_001",
+      "original": "长临仙尊",
+      "suggested": "Trường Lâm Tiên Tôn",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Trường Lâm Tiên Tôn?",
+      "options": [
+        "Trường Lâm Tiên Tôn",
+        "Trường Lâm Chân Nhân",
+        "Trường Lâm Tiên Quân",
+        "Trường Lâm Đạo Quân"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_002",
+      "original": "Trường Lâm Tiên Tôn (ngôi thứ 3)",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Trường Lâm Tiên Tôn (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "y",
+        "ngài",
+        "hắn",
+        "vị này"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_003",
+      "original": "冉秋岚",
+      "suggested": "Nhiễm Thu Lam",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Nhiễm Thu Lam?",
+      "options": [
+        "Nhiễm Thu Lam",
+        "Nhiễm Thu Lan",
+        "Nhiễm Thu Diễm",
+        "Nhiễm Thu Nguyệt"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_004",
+      "original": "Nhiễm Thu Lam (ngôi thứ 3)",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Nhiễm Thu Lam (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "nàng",
+        "cô",
+        "y",
+        "chị ta"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_005",
+      "original": "Nhị sư đệ",
+      "suggested": "Nhị sư đệ",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Nhị sư đệ?",
+      "options": [
+        "Nhị sư đệ",
+        "Sư đệ thứ hai",
+        "Nhị sư huynh",
+        "Đệ tử thứ hai"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_006",
+      "original": "Nhị sư đệ (ngôi thứ 3)",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Nhị sư đệ (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "hắn",
+        "y",
+        "cậu",
+        "anh ta"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_007",
+      "original": "Nhiễm Thu Lam → Hạ Khanh Tuyên",
+      "suggested": "Nhiễm Thu Lam xưng Ta - gọi Hạ Khanh Tuyên là Tiểu sư đệ",
+      "confidence": 0.3,
+      "question": "Chiều 1: Nhiễm Thu Lam xưng hô thế nào với Hạ Khanh Tuyên (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Ta - gọi Tiểu sư đệ",
+        "xưng Ta - gọi Sư đệ",
+        "xưng Ta - gọi Khanh Tuyên",
+        "xưng Ta - gọi Em"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_008",
+      "original": "Hạ Khanh Tuyên → Nhiễm Thu Lam",
+      "suggested": "Hạ Khanh Tuyên xưng Ta - gọi Nhiễm Thu Lam là Đại sư tỷ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Hạ Khanh Tuyên xưng hô thế nào với Nhiễm Thu Lam (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Ta - gọi Đại sư tỷ",
+        "xưng Ta - gọi Sư tỷ",
+        "xưng Ta - gọi Chị",
+        "xưng Ta - gọi Thu Lam tỷ"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_009",
+      "original": "Các đệ tử → Nhiễm Thu Lam",
+      "suggested": "Các đệ tử xưng Chúng ta/Chúng con - gọi Nhiễm Thu Lam là Đại sư tỷ",
+      "confidence": 0.3,
+      "question": "Chiều 1: Các đệ tử xưng hô thế nào với Nhiễm Thu Lam (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Chúng ta/Chúng con - gọi Đại sư tỷ",
+        "xưng Chúng ta/Chúng con - gọi Sư tỷ",
+        "xưng Chúng ta/Chúng con - gọi Chị"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_010",
+      "original": "Nhiễm Thu Lam → Các đệ tử",
+      "suggested": "Nhiễm Thu Lam xưng Ta - gọi Các đệ tử là Các ngươi/Các con",
+      "confidence": 0.3,
+      "question": "Chiều 2: Nhiễm Thu Lam xưng hô thế nào với Các đệ tử (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Ta - gọi Các ngươi/Các con",
+        "xưng Ta - gọi Các đệ tử",
+        "xưng Ta - gọi Các em"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_011",
+      "original": "Các đệ tử → Hạ Khanh Tuyên",
+      "suggested": "Các đệ tử xưng Chúng ta/Chúng con - gọi Hạ Khanh Tuyên là Tiểu sư đệ",
+      "confidence": 0.3,
+      "question": "Chiều 1: Các đệ tử xưng hô thế nào với Hạ Khanh Tuyên (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Chúng ta/Chúng con - gọi Tiểu sư đệ",
+        "xưng Chúng ta/Chúng con - gọi Sư đệ",
+        "xưng Chúng ta/Chúng con - gọi Em"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_012",
+      "original": "Hạ Khanh Tuyên → Các đệ tử",
+      "suggested": "Hạ Khanh Tuyên xưng Ta - gọi Các đệ tử là Các sư huynh/sư tỷ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Hạ Khanh Tuyên xưng hô thế nào với Các đệ tử (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Ta - gọi Các sư huynh/sư tỷ",
+        "xưng Ta - gọi Các vị",
+        "xưng Ta - gọi Các ngươi"
+      ],
+      "category": "relationship"
+    }
+  ],
+  "answers": {
+    "amb_001": {
+      "choice": "Trường Lâm Tiên Tôn",
+      "custom": null,
+      "auto_propagated": true,
+      "propagated_from": "Chapter ch_007"
+    },
+    "amb_002": {
+      "choice": "hắn",
+      "custom": null,
+      "auto_propagated": true,
+      "propagated_from": "Chapter ch_010"
+    },
+    "amb_003": {
+      "choice": "Nhiễm Thu Lan",
+      "custom": null
+    },
+    "amb_004": {
+      "choice": "nàng",
+      "custom": null
+    },
+    "amb_005": {
+      "choice": "Nhị sư đệ",
+      "custom": null
+    },
+    "amb_006": {
+      "choice": "hắn",
+      "custom": null
+    },
+    "amb_007": {
+      "choice": "xưng Ta - gọi Tiểu sư đệ",
+      "custom": null
+    },
+    "amb_008": {
+      "choice": "xưng Ta - gọi Đại sư tỷ",
+      "custom": null
+    },
+    "amb_009": {
+      "choice": "Custom",
+      "custom": "Chúng ta - Gọi Đại sư tỷ"
+    },
+    "amb_010": {
+      "choice": "Custom",
+      "custom": "xưng Ta - gọi Các đệ/muội"
+    },
+    "amb_011": {
+      "choice": "xưng Chúng ta/Chúng con - gọi Tiểu sư đệ",
+      "custom": null
+    },
+    "amb_012": {
+      "choice": "xưng Ta - gọi Các sư huynh/sư tỷ",
+      "custom": null
+    }
+  },
+  "updated_at": "2026-09-26T20:12:01.615119+07:00",
+  "answered_at": "2026-09-26T20:03:42.896732+07:00"
+}

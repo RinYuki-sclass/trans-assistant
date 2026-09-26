@@ -1,0 +1,116 @@
+{
+  "chapter_id": "ch_005",
+  "questions": [
+    {
+      "id": "amb_001",
+      "original": "白衣妖修",
+      "suggested": "Bạch Y Yêu Tu",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Bạch Y Yêu Tu?",
+      "options": [
+        "Bạch Y Yêu Tu",
+        "Yêu Tu Bạch Y",
+        "Yêu Công Tử",
+        "Yêu Quân"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_002",
+      "original": "Bạch Y Yêu Tu (ngôi thứ 3)",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Bạch Y Yêu Tu (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "hắn",
+        "y",
+        "gã",
+        "tên yêu tu"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_003",
+      "original": "长临仙尊",
+      "suggested": "Trường Lâm Tiên Tôn",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Trường Lâm Tiên Tôn?",
+      "options": [
+        "Trường Lâm Tiên Tôn",
+        "Tiên Tôn Trường Lâm",
+        "Trường Lâm Chân Nhân",
+        "Trường Lâm"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_004",
+      "original": "Trường Lâm Tiên Tôn (ngôi thứ 3)",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Trường Lâm Tiên Tôn (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "ngài",
+        "vị tiên tôn",
+        "hắn",
+        "y"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_005",
+      "original": "Ứng Hàn Y → Bạch Y Yêu Tu",
+      "suggested": "Ứng Hàn Y xưng Bổn tôn - gọi Bạch Y Yêu Tu là Tiểu yêu",
+      "confidence": 0.3,
+      "question": "Chiều 1: Ứng Hàn Y xưng hô thế nào với Bạch Y Yêu Tu (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Bổn tôn - gọi Tiểu yêu",
+        "xưng Ta - gọi Ngươi",
+        "xưng Bổn tôn - gọi Ngươi",
+        "xưng Ta - gọi Tiểu tử"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_006",
+      "original": "Bạch Y Yêu Tu → Ứng Hàn Y",
+      "suggested": "Bạch Y Yêu Tu xưng Tiểu khả - gọi Ứng Hàn Y là Đế tôn đại nhân",
+      "confidence": 0.3,
+      "question": "Chiều 2: Bạch Y Yêu Tu xưng hô thế nào với Ứng Hàn Y (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tiểu khả - gọi Đế tôn đại nhân",
+        "xưng Ta - gọi Ngài",
+        "xưng Ta - gọi Đế tôn",
+        "xưng Ta - gọi Ngươi"
+      ],
+      "category": "relationship"
+    }
+  ],
+  "answers": {
+    "amb_001": {
+      "choice": "Bạch Y Yêu Tu",
+      "custom": null
+    },
+    "amb_002": {
+      "choice": "gã",
+      "custom": null
+    },
+    "amb_003": {
+      "choice": "Trường Lâm Tiên Tôn",
+      "custom": null
+    },
+    "amb_004": {
+      "choice": "hắn",
+      "custom": null
+    },
+    "amb_005": {
+      "choice": "xưng Bổn tôn - gọi Ngươi",
+      "custom": null
+    },
+    "amb_006": {
+      "choice": "xưng Ta - gọi Đế tôn",
+      "custom": null
+    }
+  },
+  "answered_at": "2026-09-26T19:49:19.481825+07:00"
+}

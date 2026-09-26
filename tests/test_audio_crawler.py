@@ -22,6 +22,8 @@ from audio.crawler import (
     _parse_blreads_series_chapters,
     _resolve_blreads_story_url,
     _parse_knoxt_series_chapters,
+    _parse_czbooks_series_chapters,
+    _parse_czbooks_chapter,
     MistmintHavenCrawler,
 )
 
@@ -401,5 +403,64 @@ class KnoxTSeriesTests(unittest.TestCase):
         self.assertEqual(result["chapters"][3]["url"], "https://knoxt.space/after-marking-the-protagonist-a-chapter-amtpa-extra-7-the-end/")
 
 
+class CZBooksCrawlerTests(unittest.TestCase):
+    def test_parse_czbooks_series_chapters(self):
+        html = """
+        <html><body>
+          <div class="novel-detail">
+            <span class="title">《大魔頭日日想殺我_冷山月【完結+番外】》</span>
+            <span class="author">作者:冷山月</span>
+          </div>
+          <ul class="nav chapter-list">
+            <li class="volume">正文卷</li>
+            <li><a href="//czbooks.net/n/sk4ei1pgock/sk2e5?chapterNumber=0">第1頁</a></li>
+            <li><a href="//czbooks.net/n/sk4ei1pgock/sk2eh?chapterNumber=1">第2頁</a></li>
+            <li><a href="/n/sk4ei1pgock/skn7d?chapterNumber=125">第126頁</a></li>
+          </ul>
+        </body></html>
+        """
+        result = _parse_czbooks_series_chapters(html, "https://czbooks.net/n/sk4ei1pgock")
+        self.assertEqual(result["series_title"], "大魔頭日日想殺我")
+        self.assertEqual(len(result["chapters"]), 3)
+        self.assertEqual(result["chapters"][0]["chapter_number"], 1)
+        self.assertEqual(result["chapters"][0]["title"], "第1頁")
+        self.assertEqual(result["chapters"][0]["slug"], "sk2e5")
+        self.assertEqual(result["chapters"][0]["url"], "https://czbooks.net/n/sk4ei1pgock/sk2e5?chapterNumber=0")
+        self.assertEqual(result["chapters"][2]["chapter_number"], 126)
+        self.assertEqual(result["chapters"][2]["title"], "第126頁")
+        self.assertEqual(result["chapters"][2]["url"], "https://czbooks.net/n/sk4ei1pgock/skn7d?chapterNumber=125")
+
+    def test_parse_czbooks_chapter(self):
+        html = """
+        <html>
+        <head><title>【大魔頭日日想殺我_冷山月【完結+番外】】第1頁 | 小說狂人</title></head>
+        <body>
+          <div class="chapter-detail style-left">
+            <div class="name">《大魔頭日日想殺我_冷山月【完結+番外】》第1頁</div>
+            <div class="content">
+              《大魔頭日日想殺我》作者：冷山月【完結+番外】<br/>
+              <br/>
+              文案：<br/>
+              賀卿宣：救救救！<br/>
+              藍綠色藤蔓無聲無息地出現。<br/>
+              <br/>
+              Top<br/>
+              Tips:看好看得小說，就來52書庫呀~www.52shuku.vip<br/>
+            </div>
+          </div>
+        </body>
+        </html>
+        """
+        result = _parse_czbooks_chapter(html, "https://czbooks.net/n/sk4ei1pgock/sk2e5?chapterNumber=0")
+        self.assertEqual(result["title"], "第1頁")
+        self.assertIn("文案：", result["paragraphs"])
+        self.assertIn("賀卿宣：救救救！", result["paragraphs"])
+        self.assertNotIn("Top", result["paragraphs"])
+        self.assertNotIn("Tips:看好看得小說，就來52書庫呀~www.52shuku.vip", result["paragraphs"])
+        self.assertEqual(len(result["paragraphs"]), 4)
+        self.assertGreater(result["word_count"], 0)
+
+
 if __name__ == "__main__":
     unittest.main()
+

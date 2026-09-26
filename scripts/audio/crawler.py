@@ -8,7 +8,7 @@ import json
 import re
 import time
 import warnings
-from urllib.parse import urljoin, urlparse, unquote
+from urllib.parse import urljoin, urlparse, unquote, parse_qs
 
 import httpx
 from bs4 import BeautifulSoup
@@ -29,6 +29,8 @@ _CONTENT_SELECTORS = [
     "div.post-content",
     "div.novel-content",
     "article .content",
+    "div.chapter-detail div.content",
+    "div.content",
     "div#content article",
     "article",
 ]
@@ -79,6 +81,24 @@ def _fetch_html(url: str, timeout: int = 20) -> str:
     timeout_config = httpx.Timeout(max(float(timeout), 60.0), connect=15.0)
     connection_limits = httpx.Limits(max_keepalive_connections=0, max_connections=10)
 
+    hostname = (urlparse(url).hostname or "").lower()
+    if hostname == "czbooks.net" or hostname.endswith(".czbooks.net"):
+        try:
+            import curl_cffi.requests as curl_req
+            proxy = os.environ.get("HTTPS_PROXY") or os.environ.get("HTTP_PROXY") or os.environ.get("all_proxy")
+            c_resp = curl_req.get(
+                url,
+                headers=headers,
+                impersonate="chrome120",
+                timeout=max(float(timeout), 30.0),
+                allow_redirects=True,
+                proxy=proxy,
+            )
+            if c_resp.status_code == 200:
+                return c_resp.text
+        except Exception:
+            pass
+
     # 1. Try standard httpx with modern browser headers
     try:
         with httpx.Client(
@@ -102,7 +122,7 @@ def _fetch_html(url: str, timeout: int = 20) -> str:
         try:
             import curl_cffi.requests as curl_req
             proxy = os.environ.get("HTTPS_PROXY") or os.environ.get("HTTP_PROXY") or os.environ.get("all_proxy")
-            c_resp = curl_req.get(url, headers=headers, impersonate="chrome120", timeout=timeout, follow_redirects=True, proxy=proxy)
+            c_resp = curl_req.get(url, headers=headers, impersonate="chrome120", timeout=timeout, allow_redirects=True, proxy=proxy)
             if c_resp.status_code == 200:
                 return c_resp.text
         except Exception:
@@ -1007,6 +1027,149 @@ def _fetch_mistmint_series_chapters(url: str) -> dict:
     }
 
 
+def _parse_czbooks_series_chapters(html: str, series_url: str) -> dict:
+    """Parse a CZBooks novel overview page into the common chapter schema."""
+    soup = BeautifulSoup(html, "html.parser")
+    detail_el = soup.select_one("div.novel-detail, div.novel-info, div.info")
+    title_el = (detail_el.select_one(".title") if detail_el else None) or soup.select_one(".novel-title, h1.title, h1")
+    raw_title = title_el.get_text(strip=True) if title_el else ""
+    clean_title = re.sub(r"^《|》$", "", raw_title).strip()
+    series_title = clean_title.split("_")[0].strip() if "_" in clean_title else clean_title
+    if not series_title:
+        series_title = "CZBooks Novel"
+
+    chapters = []
+    for idx, a in enumerate(soup.select("ul.chapter-list li a, .chapter-list a")):
+        href = a.get("href", "").strip()
+        if not href or href.startswith("#") or href.startswith("javascript:"):
+            continue
+        if href.startswith("//"):
+            href = "https:" + href
+        elif href.startswith("/"):
+            href = "https://czbooks.net" + href
+        elif not href.startswith("http"):
+            href = urljoin(series_url, href)
+
+        title = a.get_text(strip=True)
+        ch_parsed = urlparse(href)
+        qs = parse_qs(ch_parsed.query)
+
+        ch_num = None
+        if "chapterNumber" in qs and qs["chapterNumber"][0].isdigit():
+            ch_num = int(qs["chapterNumber"][0]) + 1
+        else:
+            m = re.search(r"第\s*(\d+)\s*[頁页章回節节]", title)
+            if m:
+                ch_num = int(m.group(1))
+            else:
+                m2 = re.search(r"\b(?:chapter|ch\.?)\s*(\d+)", title, re.IGNORECASE)
+                if m2:
+                    ch_num = int(m2.group(1))
+                else:
+                    ch_num = idx + 1
+
+        slug = ch_parsed.path.rstrip("/").split("/")[-1]
+        chapters.append({
+            "id": href,
+            "chapter_number": ch_num,
+            "title": title,
+            "slug": slug,
+            "price": 0,
+            "url": href,
+        })
+
+    chapters.sort(key=lambda c: c["chapter_number"])
+    if not chapters:
+        raise ValueError(f"Không tìm thấy danh sách chương trên CZBooks: {series_url}")
+    return {
+        "series_title": series_title,
+        "series_id": series_url,
+        "chapters": chapters,
+    }
+
+
+def _fetch_czbooks_series_chapters(url: str) -> dict:
+    """Fetch CZBooks novel metadata and chapter list."""
+    parsed = urlparse(url)
+    path_parts = [p for p in parsed.path.split("/") if p]
+    if len(path_parts) >= 2 and path_parts[0] == "n":
+        novel_id = path_parts[1]
+        series_url = f"https://czbooks.net/n/{novel_id}"
+    else:
+        series_url = url
+    html = _fetch_html(series_url, timeout=30)
+    return _parse_czbooks_series_chapters(html, series_url)
+
+
+def _parse_czbooks_chapter(html: str, url: str) -> dict:
+    """Parse a CZBooks chapter page into the standard chapter schema."""
+    soup = BeautifulSoup(html, "html.parser")
+
+    # 1. Title
+    name_el = soup.select_one(".chapter-sidebar .name, .chapter-detail .name, div.name, h1")
+    raw_title = name_el.get_text(strip=True) if name_el else ""
+    clean_title = re.sub(r"^《.*?》\s*", "", raw_title).strip() or raw_title
+    if not clean_title and soup.title:
+        t_text = soup.title.get_text(strip=True)
+        m = re.search(r"】\s*(第\S+頁|第\S+章.*?)(?:\s*\||$)", t_text)
+        if m:
+            clean_title = m.group(1).strip()
+        else:
+            clean_title = t_text.split("|")[0].strip()
+    if not clean_title:
+        clean_title = url.rstrip("/").split("/")[-1]
+
+    # 2. Content
+    content_el = soup.select_one("div.chapter-detail div.content, div.content")
+    if not content_el:
+        raise ValueError(f"Không tìm thấy khối nội dung chính trên trang: {url}")
+
+    for tag in content_el.find_all(["script", "style", "nav", "footer", "header", "noscript", "iframe", "ins"]):
+        tag.decompose()
+
+    text = content_el.get_text(separator="\n")
+    paragraphs = []
+    for line in text.splitlines():
+        line = line.strip()
+        if not line:
+            continue
+        if re.match(r"^top$", line, re.IGNORECASE):
+            continue
+        if _AD_PATTERNS.search(line):
+            continue
+        if re.search(r"(?:52shuku|www\.\w+\.(?:vip|com|net)|小說狂人|czbooks)", line, re.IGNORECASE):
+            continue
+        paragraphs.append(line)
+
+    if not paragraphs:
+        raise ValueError(f"Không trích xuất được đoạn văn bản đọc được từ: {url}")
+
+    full_text = "\n\n".join(paragraphs)
+    word_count = len(re.findall(r"[\u4e00-\u9fff]|[a-zA-Z0-9]+", full_text)) or len(full_text.split())
+
+    return {
+        "url": url,
+        "title": clean_title,
+        "paragraphs": paragraphs,
+        "full_text": full_text,
+        "word_count": word_count,
+    }
+
+
+def _fetch_czbooks_chapter(url: str) -> dict:
+    parsed = urlparse(url)
+    path_parts = [p for p in parsed.path.split("/") if p]
+    if len(path_parts) == 2 and path_parts[0] == "n":
+        series_info = _fetch_czbooks_series_chapters(url)
+        if not series_info["chapters"]:
+            raise ValueError(f"Không tìm thấy chương nào cho bộ truyện CZBooks: {url}")
+        first_ch = series_info["chapters"][0]
+        return _fetch_czbooks_chapter(first_ch["url"])
+
+    html = _fetch_html(url, timeout=30)
+    return _parse_czbooks_chapter(html, url)
+
+
 SERIES_CACHE_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), "data", "cache_series")
 
 def _get_series_cache(url_clean: str) -> dict:
@@ -1085,6 +1248,8 @@ def _fetch_series_chapters_impl(url_or_identifier: str) -> dict:
         return _fetch_blreads_series_chapters(url_or_identifier)
     if hostname == "knoxt.space" or hostname.endswith(".knoxt.space"):
         return _fetch_knoxt_series_chapters(url_or_identifier)
+    if hostname == "czbooks.net" or hostname.endswith(".czbooks.net"):
+        return _fetch_czbooks_series_chapters(url_or_identifier)
 
     parsed = urlparse(url_or_identifier)
     path_parts = [p for p in parsed.path.split("/") if p]
@@ -1281,6 +1446,9 @@ def crawl_chapter(url: str) -> dict:
                 raise ValueError(f"No chapters found for KnoxT series: {url}")
             first_ch = series_info["chapters"][0]
             return crawl_chapter(first_ch["url"])
+
+    if hostname == "czbooks.net" or hostname.endswith(".czbooks.net"):
+        return _fetch_czbooks_chapter(url)
 
     if hostname == "zenithtls.com" or hostname.endswith(".zenithtls.com"):
         parsed = urlparse(url)

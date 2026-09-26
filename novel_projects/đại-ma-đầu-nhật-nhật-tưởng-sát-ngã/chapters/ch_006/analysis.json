@@ -1,0 +1,144 @@
+{
+  "chapter_summary": "Hạ Khanh Tuyên và Ứng Hàn Y tiếp tục đối thoại qua truyền âm. Ứng Hàn Y tỏ ra thờ ơ, nói rằng hắn không ngại chết cùng Hạ Khanh Tuyên vì đã sống đủ, nhằm ép Hạ Khanh Tuyên giải phong ấn. Hạ Khanh Tuyên từ chối giải phong ấn mà đề xuất một cách nhanh hơn: phá hủy. Hắn yêu cầu Ứng Hàn Y che chắn cho mình. Trong khi Ứng Hàn Y đang bị phong ấn, Hạ Khanh Tuyên giả vờ bị quỷ quái truy đuổi, chạy loạn xạ và làm máu vương vãi lên trận pháp. Yêu tu áo trắng nhận ra sự bất thường nhưng đã quá muộn. Ứng Hàn Y thoát khỏi phong ấn, đâm xuyên ngực yêu tu áo trắng, tiết lộ rằng đó chỉ là một thân ngoại hóa thân. Ứng Hàn Y ném cho Hạ Khanh Tuyên một bình đan dược trị thương. Hạ Khanh Tuyên giải thích rằng hắn không hoàn toàn giải phong ấn của Trường Lâm Tiên Tôn và muốn Ứng Hàn Y giúp cứu tông môn của cơ thể này để tránh nhân quả. Ứng Hàn Y tức giận vì bị uy hiếp nhưng Hạ Khanh Tuyên vẫn kiên định. Ứng Hàn Y sau đó nói về thể chất \"toàn linh chi thể\" của Hạ Khanh Tuyên và trêu chọc hắn. Hạ Khanh Tuyên tiết lộ phong ấn chưa hoàn toàn được giải. Ứng Hàn Y nổi giận, ma khí cuồn cuộn, khiến xích vàng phong ấn xuất hiện trở lại và siết chặt. Ứng Hàn Y vẫn cố gắng tập trung ma khí, đối kháng với phù văn phong ấn, dẫn đến kinh mạch của hắn bị nổ tung và ma khí tạm thời suy yếu.",
+  "new_characters": [
+    {
+      "name": "长临仙尊",
+      "hanviet_name": "Trường Lâm Tiên Tôn",
+      "gender": "Male",
+      "role": "Tiên Tôn, người đã phong ấn Ứng Hàn Y"
+    }
+  ],
+  "new_locations": [],
+  "new_terms": [
+    {
+      "original": "传音渠道",
+      "suggested": "Kênh truyền âm",
+      "hanviet": "Truyền âm cừ đạo",
+      "category": "other",
+      "confidence": 0.0
+    },
+    {
+      "original": "殉情",
+      "suggested": "Tuẫn tình",
+      "hanviet": "Tuẫn tình",
+      "category": "other",
+      "confidence": 0.0
+    },
+    {
+      "original": "魂体",
+      "suggested": "Hồn thể",
+      "hanviet": "Hồn thể",
+      "category": "other",
+      "confidence": 0.0
+    },
+    {
+      "original": "身外化身",
+      "suggested": "Thân ngoại hóa thân",
+      "hanviet": "Thân ngoại hóa thân",
+      "category": "other",
+      "confidence": 0.0
+    },
+    {
+      "original": "天材地宝",
+      "suggested": "Thiên tài địa bảo",
+      "hanviet": "Thiên tài địa bảo",
+      "category": "item",
+      "confidence": 0.0
+    },
+    {
+      "original": "因果",
+      "suggested": "Nhân quả",
+      "hanviet": "Nhân quả",
+      "category": "other",
+      "confidence": 0.0
+    },
+    {
+      "original": "灭虚帝尊",
+      "suggested": "Diệt Hư Đế Tôn",
+      "hanviet": "Diệt Hư Đế Tôn",
+      "category": "honorific",
+      "confidence": 0.0
+    },
+    {
+      "original": "天生异瞳",
+      "suggested": "Dị đồng bẩm sinh",
+      "hanviet": "Thiên sinh dị đồng",
+      "category": "other",
+      "confidence": 0.0
+    },
+    {
+      "original": "剑骨",
+      "suggested": "Kiếm cốt",
+      "hanviet": "Kiếm cốt",
+      "category": "other",
+      "confidence": 0.0
+    },
+    {
+      "original": "玉魂",
+      "suggested": "Ngọc hồn",
+      "hanviet": "Ngọc hồn",
+      "category": "other",
+      "confidence": 0.0
+    },
+    {
+      "original": "金光锁链",
+      "suggested": "Xích vàng / Kim quang tỏa liên",
+      "hanviet": "Kim quang tỏa liên",
+      "category": "item",
+      "confidence": 0.0
+    },
+    {
+      "original": "符文",
+      "suggested": "Phù văn",
+      "hanviet": "Phù văn",
+      "category": "other",
+      "confidence": 0.0
+    },
+    {
+      "original": "威压",
+      "suggested": "Uy áp",
+      "hanviet": "Uy áp",
+      "category": "other",
+      "confidence": 0.0
+    },
+    {
+      "original": "经脉",
+      "suggested": "Kinh mạch",
+      "hanviet": "Kinh mạch",
+      "category": "other",
+      "confidence": 0.0
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "长临仙尊",
+      "suggested": "Trường Lâm Tiên Tôn",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Trường Lâm Tiên Tôn?",
+      "options": [
+        "Trường Lâm Tiên Tôn",
+        "Trường Lâm Chân Nhân",
+        "Tiên Tôn Trường Lâm",
+        "Trường Lâm"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_002",
+      "original": "Trường Lâm Tiên Tôn (ngôi thứ 3)",
+      "suggested": "y",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Trường Lâm Tiên Tôn (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "y",
+        "hắn",
+        "ngài",
+        "vị tiên tôn này"
+      ],
+      "category": "pronoun"
+    }
+  ],
+  "chapter_id": "ch_006",
+  "analyzed_at": "2026-09-26T19:43:45.303517+07:00"
+}

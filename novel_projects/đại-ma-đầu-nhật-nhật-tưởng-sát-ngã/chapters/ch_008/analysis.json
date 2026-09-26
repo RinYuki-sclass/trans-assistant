@@ -1,0 +1,170 @@
+{
+  "chapter_summary": "Hạ Khanh Tuyên xuất hiện giữa lúc Tuyên Nghi Cung hỗn loạn, bày tỏ sự hối tiếc vì đã không đến sớm hơn. Đại sư tỷ Nhiễm Thu Lam của hắn mừng rỡ khi thấy hắn bình an. Một người đàn ông áo đen (Ứng Hàn Y) xuất hiện, khiến đám yêu thú xâm lấn hoảng sợ bỏ chạy rồi tự bạo. Nhiễm Thu Lam cảnh giác vì cảm nhận được ma khí nồng đậm. Hạ Khanh Tuyên trấn an sư tỷ, giả vờ làm nũng và nói rằng người áo đen là một tiền bối do Đại Trưởng Lão chỉ dẫn. Hắn dặn Nhiễm Thu Lam đưa các sư huynh sư tỷ đến nơi an toàn, còn hắn và Ứng Hàn Y sẽ giải quyết mọi chuyện. Nhiễm Thu Lam nghi ngờ người áo đen là ma tu. Hạ Khanh Tuyên và Ứng Hàn Y cùng nhau tiêu diệt quân xâm lược. Hạ Khanh Tuyên trêu chọc Ứng Hàn Y, hỏi liệu y có phải đã động lòng với hắn. Họ bàn luận về sự 'mặt dày' và 'diễn xuất' của Hạ Khanh Tuyên. Hạ Khanh Tuyên tiết lộ tên mình là 'Hạ Khanh Tuyên', nhưng Ứng Hàn Y nghi ngờ đó có phải là tên thật hay không. Ứng Hàn Y cáo buộc hắn giả dối, rút lại lời khen 'kiếm cốt ngọc hồn' trước đó. Hạ Khanh Tuyên giả vờ đau lòng. Ứng Hàn Y tiếp tục thăm dò, hỏi hắn có thật sự đau lòng vì các đệ tử Tuyên Nghi Cung không. Hạ Khanh Tuyên nhận ra Ứng Hàn Y đã nhìn thấu mình nhưng vẫn giữ vẻ bình tĩnh. Ứng Hàn Y bao trùm khu vực bằng ma khí, đe dọa giết tất cả mọi người, bao gồm cả Hạ Khanh Tuyên. Hạ Khanh Tuyên vẫn điềm nhiên, sẵn sàng đối phó. Cuối cùng, Ứng Hàn Y giải phóng sức mạnh, tiêu diệt toàn bộ yêu ma quỷ quái mà không làm hại bất kỳ đệ tử Tuyên Nghi Cung nào. Hạ Khanh Tuyên đề nghị hợp tác vui vẻ, và Ứng Hàn Y đồng ý với một ánh mắt sâu xa. Hạ Khanh Tuyên nhận thấy Ứng Hàn Y còn nhạy bén hơn hắn nghĩ, có lẽ đã sớm nhận ra những 'tiểu xảo' của mình.",
+  "new_characters": [
+    {
+      "name": "冉秋嵐",
+      "hanviet_name": "Nhiễm Thu Lam",
+      "gender": "Female",
+      "role": "Đại sư tỷ của Hạ Khanh Tuyên, tính cách ôn hòa nhưng cảnh giác."
+    },
+    {
+      "name": "大長老",
+      "hanviet_name": "Đại Trưởng Lão",
+      "gender": "Male",
+      "role": "Trưởng lão cấp cao trong Tuyên Nghi Cung, người đã chỉ dẫn Hạ Khanh Tuyên."
+    }
+  ],
+  "new_locations": [
+    {
+      "name": "玄天九州界",
+      "hanviet": "Huyền Thiên Cửu Châu Giới",
+      "description": "Một giới/vùng đất rộng lớn, nơi Đế Tôn Diệt Hư từng tung hoành."
+    }
+  ],
+  "new_terms": [
+    {
+      "original": "食人兽",
+      "suggested": "Thú ăn thịt người",
+      "hanviet": "Thực nhân thú",
+      "category": "other",
+      "confidence": 0.6
+    },
+    {
+      "original": "魔修",
+      "suggested": "Ma tu",
+      "hanviet": "Ma tu",
+      "category": "other",
+      "confidence": 0.7
+    },
+    {
+      "original": "帝尊",
+      "suggested": "Đế Tôn",
+      "hanviet": "Đế Tôn",
+      "category": "honorific",
+      "confidence": 0.7
+    },
+    {
+      "original": "剑骨玉魂",
+      "suggested": "Kiếm cốt ngọc hồn",
+      "hanviet": "Kiếm cốt ngọc hồn",
+      "category": "other",
+      "confidence": 0.6
+    },
+    {
+      "original": "神识",
+      "suggested": "Thần thức",
+      "hanviet": "Thần thức",
+      "category": "skill",
+      "confidence": 0.7
+    },
+    {
+      "original": "魔气",
+      "suggested": "Ma khí",
+      "hanviet": "Ma khí",
+      "category": "other",
+      "confidence": 0.7
+    },
+    {
+      "original": "罡风",
+      "suggested": "Cương phong",
+      "hanviet": "Cương phong",
+      "category": "other",
+      "confidence": 0.7
+    },
+    {
+      "original": "閣下",
+      "suggested": "Các hạ",
+      "hanviet": "Các hạ",
+      "category": "honorific",
+      "confidence": 0.7
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "冉秋嵐",
+      "suggested": "Nhiễm Thu Lam",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Nhiễm Thu Lam?",
+      "options": [
+        "Nhiễm Thu Lam",
+        "Nhiễm Thu Lan",
+        "Nhiễm Thu Lãm"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_002",
+      "original": "Nhiễm Thu Lam (ngôi thứ 3)",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Nhiễm Thu Lam (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "cô",
+        "nàng",
+        "y",
+        "chị",
+        "ả"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_003",
+      "original": "Đại Trưởng Lão",
+      "suggested": "Đại Trưởng Lão",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Đại Trưởng Lão?",
+      "options": [
+        "Đại Trưởng Lão",
+        "Trưởng Lão Lớn",
+        "Trưởng Lão Cả"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_004",
+      "original": "Đại Trưởng Lão (ngôi thứ 3)",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Đại Trưởng Lão (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "hắn",
+        "y",
+        "ông ta",
+        "vị này",
+        "ngài ấy"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_005",
+      "original": "Hạ Khanh Tuyên → Nhiễm Thu Lam",
+      "suggested": "Hạ Khanh Tuyên xưng Em - gọi Nhiễm Thu Lam là Chị",
+      "confidence": 0.3,
+      "question": "Chiều 1: Hạ Khanh Tuyên xưng hô thế nào với Nhiễm Thu Lam (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Em - gọi Chị",
+        "xưng Em - gọi Đại sư tỷ",
+        "xưng Tôi - gọi Chị",
+        "xưng Tôi - gọi Đại sư tỷ"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_006",
+      "original": "Nhiễm Thu Lam → Hạ Khanh Tuyên",
+      "suggested": "Nhiễm Thu Lam xưng Chị - gọi Hạ Khanh Tuyên là Em",
+      "confidence": 0.3,
+      "question": "Chiều 2: Nhiễm Thu Lam xưng hô thế nào với Hạ Khanh Tuyên (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Chị - gọi Em",
+        "xưng Chị - gọi Tiểu sư đệ",
+        "xưng Ta - gọi Em",
+        "xưng Ta - gọi Tiểu sư đệ"
+      ],
+      "category": "relationship"
+    }
+  ],
+  "chapter_id": "ch_008",
+  "analyzed_at": "2026-09-26T19:44:47.189343+07:00"
+}

@@ -1,0 +1,80 @@
+{
+  "chapter_id": "ch_001",
+  "questions": [
+    {
+      "id": "amb_001",
+      "original": "女子 / 妖修",
+      "suggested": "Yêu nữ",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật [Nữ tử / Yêu tu]?",
+      "options": [
+        "Yêu nữ",
+        "Nữ yêu",
+        "Yêu tu",
+        "Nữ tử"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_002",
+      "original": "Nữ tử / Yêu tu (ngôi thứ 3)",
+      "suggested": "nàng",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật [Nữ tử / Yêu tu] (hắn, y, anh, cậu, gã, nàng, cô...)? ",
+      "options": [
+        "nàng",
+        "cô ta",
+        "ả",
+        "y",
+        "thị"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_003",
+      "original": "Hạ Khanh Tuyên → Nữ tử / Yêu tu",
+      "suggested": "Hạ Khanh Tuyên xưng Ta - gọi Ngươi",
+      "confidence": 0.3,
+      "question": "Chiều 1: Hạ Khanh Tuyên xưng hô thế nào với Nữ tử / Yêu tu (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Ta - gọi Ngươi",
+        "xưng Ta - gọi Cô",
+        "xưng Ta - gọi Nàng"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_004",
+      "original": "Nữ tử / Yêu tu → Hạ Khanh Tuyên",
+      "suggested": "Nữ tử / Yêu tu xưng Ta - gọi Tiểu lang quân",
+      "confidence": 0.3,
+      "question": "Chiều 2: Nữ tử / Yêu tu xưng hô thế nào với Hạ Khanh Tuyên (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Ta - gọi Tiểu lang quân",
+        "xưng Ta - gọi Ngươi",
+        "xưng Thiếp - gọi Lang quân",
+        "xưng Tỷ tỷ - gọi Tiểu lang quân"
+      ],
+      "category": "relationship"
+    }
+  ],
+  "answers": {
+    "amb_001": {
+      "choice": "Yêu nữ",
+      "custom": null
+    },
+    "amb_002": {
+      "choice": "ả",
+      "custom": null
+    },
+    "amb_003": {
+      "choice": "xưng Ta - gọi Ngươi",
+      "custom": null
+    },
+    "amb_004": {
+      "choice": "🤖 Tự quyết",
+      "custom": null
+    }
+  },
+  "answered_at": "2026-09-26T19:16:05.884732+07:00"
+}

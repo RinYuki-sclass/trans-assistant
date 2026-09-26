@@ -1,0 +1,107 @@
+{
+  "chapter_summary": "Chương này bắt đầu với việc Hạ Khanh Tuyên tiết lộ thực lực, giả vờ yếu ớt để lừa Yêu nữ. Hắn dùng linh đằng giết chết ả, hấp thụ yêu đan, sau đó bố trí một trận pháp tụ linh và sát trận mạnh mẽ bằng thi thể Yêu nữ và các cây khô xung quanh, phong ấn bằng máu của mình. Hạ Khanh Tuyên tiếp tục tiến sâu vào Vô Đáy Thâm Uyên. Hồi ức quay về kiếp trước, khi hắn là một linh hồn lang thang trăm năm sau khi chết ở tuổi mười bảy, bị chính Độc Chu Nương (Yêu nữ) mà hắn vừa giết tra tấn. Trong thời gian là linh hồn, hắn trở thành 'hàng xóm' của Ma Tôn Ứng Hàn Y bị phong ấn trong thâm uyên, quan sát y 88 năm trước khi Ứng Hàn Y phá phong ấn và thêm 12 năm chứng kiến y tàn sát chúng sinh. Hạ Khanh Tuyên hối tiếc vì đã không trở về sớm hơn để ngăn chặn cuộc xâm lược của yêu ma. Trở lại hiện tại, Hạ Khanh Tuyên, vẫn còn trọng thương, gặp Ứng Hàn Y vừa tỉnh giấc. Ứng Hàn Y, lầm tưởng Hạ Khanh Tuyên quỳ xuống cầu xin, chất vấn hắn. Hạ Khanh Tuyên, bất ngờ vì Ứng Hàn Y có thể nói chuyện, cố gắng lập 'khế ước sinh tử' để cứu tông môn, ngay cả khi Ứng Hàn Y đang chuẩn bị ra tay giết hắn.",
+  "new_characters": [],
+  "new_locations": [
+    {
+      "name": "玄天九州界",
+      "hanviet": "Huyền Thiên Cửu Châu Giới",
+      "description": "Tên một giới tu chân rộng lớn, nơi diễn ra câu chuyện."
+    }
+  ],
+  "new_terms": [
+    {
+      "original": "毒株娘",
+      "suggested": "Độc Chu Nương",
+      "hanviet": "Độc Chu Nương",
+      "category": "other",
+      "confidence": 0.7
+    },
+    {
+      "original": "玄铁",
+      "suggested": "Huyền thiết",
+      "hanviet": "Huyền thiết",
+      "category": "item",
+      "confidence": 0.9
+    },
+    {
+      "original": "罡风",
+      "suggested": "Cương phong",
+      "hanviet": "Cương phong",
+      "category": "other",
+      "confidence": 0.9
+    },
+    {
+      "original": "魔气",
+      "suggested": "Ma khí",
+      "hanviet": "Ma khí",
+      "category": "other",
+      "confidence": 0.9
+    },
+    {
+      "original": "筑基",
+      "suggested": "Trúc Cơ",
+      "hanviet": "Trúc Cơ",
+      "category": "skill",
+      "confidence": 0.9
+    },
+    {
+      "original": "妖丹",
+      "suggested": "Yêu đan",
+      "hanviet": "Yêu đan",
+      "category": "item",
+      "confidence": 0.9
+    },
+    {
+      "original": "聚灵大法",
+      "suggested": "Tụ Linh Đại Pháp",
+      "hanviet": "Tụ Linh Đại Pháp",
+      "category": "skill",
+      "confidence": 0.8
+    },
+    {
+      "original": "杀阵",
+      "suggested": "Sát trận",
+      "hanviet": "Sát trận",
+      "category": "skill",
+      "confidence": 0.9
+    },
+    {
+      "original": "禁制",
+      "suggested": "Cấm chế",
+      "hanviet": "Cấm chế",
+      "category": "skill",
+      "confidence": 0.9
+    },
+    {
+      "original": "阵纹",
+      "suggested": "Trận văn",
+      "hanviet": "Trận văn",
+      "category": "other",
+      "confidence": 0.9
+    },
+    {
+      "original": "鬼修",
+      "suggested": "Quỷ tu",
+      "hanviet": "Quỷ tu",
+      "category": "faction",
+      "confidence": 0.9
+    },
+    {
+      "original": "鬼王",
+      "suggested": "Quỷ vương",
+      "hanviet": "Quỷ vương",
+      "category": "other",
+      "confidence": 0.9
+    },
+    {
+      "original": "长临仙尊",
+      "suggested": "Trường Lâm Tiên Tôn",
+      "hanviet": "Trường Lâm Tiên Tôn",
+      "category": "other",
+      "confidence": 0.8
+    }
+  ],
+  "ambiguous": [],
+  "chapter_id": "ch_002",
+  "analyzed_at": "2026-09-26T19:39:06.306353+07:00"
+}

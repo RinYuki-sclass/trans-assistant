@@ -1,0 +1,164 @@
+[
+  {
+    "pair": "Ứng Hàn Y → Hạ Khanh Tuyên (Ban đầu)",
+    "from": "Ứng Hàn Y",
+    "to": "Hạ Khanh Tuyên",
+    "address": "xưng Bổn tôn / Ta - gọi Tiểu tử / Ngươi"
+  },
+  {
+    "pair": "Hạ Khanh Tuyên → Ứng Hàn Y (Ban đầu)",
+    "from": "Hạ Khanh Tuyên",
+    "to": "Ứng Hàn Y",
+    "address": "xưng Ta - gọi Tiền bối / Ngài"
+  },
+  {
+    "pair": "Hạ Khanh Tuyên ↔ Ứng Hàn Y (Sau khi quen biết)",
+    "from": "Hạ Khanh Tuyên",
+    "to": "Ứng Hàn Y",
+    "address": "Ta - Ngươi"
+  },
+  {
+    "pair": "Hạ Khanh Tuyên → Nữ tử / Yêu tu",
+    "from": "Hạ Khanh Tuyên",
+    "to": "Nữ tử / Yêu tu",
+    "address": "xưng Ta - gọi Ngươi"
+  },
+  {
+    "pair": "Nữ tử / Yêu tu → Hạ Khanh Tuyên",
+    "from": "Nữ tử / Yêu tu",
+    "to": "Hạ Khanh Tuyên",
+    "address": "Nữ tử / Yêu tu xưng Ta - gọi Tiểu lang quân"
+  },
+  {
+    "pair": "Ứng Hàn Y → Bạch Y Yêu Tu",
+    "from": "Ứng Hàn Y",
+    "to": "Bạch Y Yêu Tu",
+    "address": "xưng Bổn tôn - gọi Ngươi"
+  },
+  {
+    "pair": "Bạch Y Yêu Tu → Ứng Hàn Y",
+    "from": "Bạch Y Yêu Tu",
+    "to": "Ứng Hàn Y",
+    "address": "xưng Ta - gọi Đế tôn"
+  },
+  {
+    "pair": "Nhiễm Thu Lam → Hạ Khanh Tuyên",
+    "from": "Nhiễm Thu Lam",
+    "to": "Hạ Khanh Tuyên",
+    "address": "xưng Ta - gọi Tiểu sư đệ"
+  },
+  {
+    "pair": "Hạ Khanh Tuyên → Nhiễm Thu Lam",
+    "from": "Hạ Khanh Tuyên",
+    "to": "Nhiễm Thu Lam",
+    "address": "xưng Ta - gọi Đại sư tỷ"
+  },
+  {
+    "pair": "Các đệ tử → Nhiễm Thu Lam",
+    "from": "Các đệ tử",
+    "to": "Nhiễm Thu Lam",
+    "address": "Chúng ta - Gọi Đại sư tỷ"
+  },
+  {
+    "pair": "Nhiễm Thu Lam → Các đệ tử",
+    "from": "Nhiễm Thu Lam",
+    "to": "Các đệ tử",
+    "address": "xưng Ta - gọi Các đệ/muội"
+  },
+  {
+    "pair": "Các đệ tử → Hạ Khanh Tuyên",
+    "from": "Các đệ tử",
+    "to": "Hạ Khanh Tuyên",
+    "address": "xưng Chúng ta/Chúng con - gọi Tiểu sư đệ"
+  },
+  {
+    "pair": "Hạ Khanh Tuyên → Các đệ tử",
+    "from": "Hạ Khanh Tuyên",
+    "to": "Các đệ tử",
+    "address": "xưng Ta - gọi Các sư huynh/sư tỷ"
+  },
+  {
+    "pair": "Lão Quỷ → Ứng Hàn Y",
+    "from": "Lão Quỷ",
+    "to": "Ứng Hàn Y",
+    "address": "xưng Tiểu quỷ - gọi Đế Tôn đại nhân"
+  },
+  {
+    "pair": "Ứng Hàn Y → Lão Quỷ",
+    "from": "Ứng Hàn Y",
+    "to": "Lão Quỷ",
+    "address": "xưng Bổn tôn - gọi Ngươi"
+  },
+  {
+    "pair": "Chưởng môn Tuyên Nghi Cung → Ứng Hàn Y",
+    "from": "Chưởng môn Tuyên Nghi Cung",
+    "to": "Ứng Hàn Y",
+    "address": "Chưởng môn Tuyên Nghi Cung xưng Ta - gọi Ứng Hàn Y là Ứng Hàn Y"
+  },
+  {
+    "pair": "Ứng Hàn Y → Chưởng môn Tuyên Nghi Cung",
+    "from": "Ứng Hàn Y",
+    "to": "Chưởng môn Tuyên Nghi Cung",
+    "address": "xưng Bổn tôn - gọi Ngươi"
+  },
+  {
+    "pair": "Đại Trưởng Lão → Hạ Khanh Tuyên",
+    "from": "Đại Trưởng Lão",
+    "to": "Hạ Khanh Tuyên",
+    "address": "Đại Trưởng Lão xưng Lão phu - gọi Khanh Tuyên sư điệt"
+  },
+  {
+    "pair": "Hạ Khanh Tuyên → Đại Trưởng Lão",
+    "from": "Hạ Khanh Tuyên",
+    "to": "Đại Trưởng Lão",
+    "address": "xưng Ta - gọi Đại Trưởng Lão"
+  },
+  {
+    "pair": "Đại Trưởng Lão → Ứng Hàn Y",
+    "from": "Đại Trưởng Lão",
+    "to": "Ứng Hàn Y",
+    "address": "Đại Trưởng Lão xưng Vãn bối - gọi Đế Tôn"
+  },
+  {
+    "pair": "Ứng Hàn Y → Đại Trưởng Lão",
+    "from": "Ứng Hàn Y",
+    "to": "Đại Trưởng Lão",
+    "address": "xưng Bổn tôn - gọi Ngươi"
+  },
+  {
+    "pair": "Đại Trưởng Lão → Chưởng Môn",
+    "from": "Đại Trưởng Lão",
+    "to": "Chưởng Môn",
+    "address": "xưng Ta - gọi Chưởng Môn"
+  },
+  {
+    "pair": "Chưởng Môn → Đại Trưởng Lão",
+    "from": "Chưởng Môn",
+    "to": "Đại Trưởng Lão",
+    "address": "xưng Ta - gọi Đại Trưởng Lão"
+  },
+  {
+    "pair": "Thái Thượng Trưởng Lão → Chưởng Môn",
+    "from": "Thái Thượng Trưởng Lão",
+    "to": "Chưởng Môn",
+    "address": "Thái Thượng Trưởng Lão xưng Lão thân - gọi Chưởng Môn sư đệ"
+  },
+  {
+    "pair": "Chưởng Môn → Thái Thượng Trưởng Lão",
+    "from": "Chưởng Môn",
+    "to": "Thái Thượng Trưởng Lão",
+    "address": "xưng Ta - gọi Thái Thượng Trưởng Lão"
+  },
+  {
+    "pair": "Đệ tử → Trưởng Lão",
+    "from": "Đệ tử",
+    "to": "Trưởng Lão",
+    "address": "Đệ tử xưng Vãn bối - gọi Trưởng Lão / Sư thúc"
+  },
+  {
+    "pair": "Trưởng Lão → Đệ tử",
+    "from": "Trưởng Lão",
+    "to": "Đệ tử",
+    "address": "xưng Ta - gọi Con"
+  }
+]

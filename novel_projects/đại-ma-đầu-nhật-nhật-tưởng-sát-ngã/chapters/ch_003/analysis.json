@@ -1,0 +1,52 @@
+{
+  "chapter_summary": "Chương này tiếp nối việc Hạ Khanh Tuyên lén lút hoàn thành khế ước với Ứng Hàn Y. Ứng Hàn Y ban đầu tưởng là khế ước hồn huyết bình thường, nhưng sau khi khế ước生效 (có hiệu lực), hắn phát hiện đó là 'Đồng sinh cộng tử đạo lữ khế' (同生共死道侶契). Ứng Hàn Y tức giận và nghi ngờ Hạ Khanh Tuyên lừa gạt, nhưng Hạ Khanh Tuyên giả vờ vô tội và đổ lỗi cho khế ước bị 'biến chất'. Ứng Hàn Y quyết định thử nghiệm khế ước bằng cách tấn công Hạ Khanh Tuyên bằng ma khí. Hạ Khanh Tuyên giả vờ sợ hãi nhưng thực chất không hề hấn gì nhờ khế ước. Sau khi trải qua đòn tấn công, Hạ Khanh Tuyên xác nhận khế ước đã thành công và đề nghị hợp tác với Ứng Hàn Y: hắn sẽ giúp Ứng Hàn Y thoát khỏi sự quấy nhiễu của cương phong, đổi lại Ứng Hàn Y phải giúp hắn cứu tông môn (Tuyên Nghi Cung). Ứng Hàn Y nhận thấy sự thay đổi thái độ nhanh chóng của Hạ Khanh Tuyên và cảm thấy một sự bất an khi có ý định giết người.",
+  "new_characters": [],
+  "new_locations": [],
+  "new_terms": [
+    {
+      "original": "魂血",
+      "suggested": "hồn huyết",
+      "hanviet": "Hồn huyết",
+      "category": "other",
+      "confidence": 0.7
+    },
+    {
+      "original": "契約",
+      "suggested": "khế ước",
+      "hanviet": "Khế ước",
+      "category": "other",
+      "confidence": 0.7
+    },
+    {
+      "original": "契約之力",
+      "suggested": "khế ước chi lực",
+      "hanviet": "Khế ước chi lực",
+      "category": "other",
+      "confidence": 0.7
+    },
+    {
+      "original": "鎖鏈",
+      "suggested": "tỏa liên",
+      "hanviet": "Tỏa liên",
+      "category": "item",
+      "confidence": 0.7
+    },
+    {
+      "original": "滅虛帝尊",
+      "suggested": "Diệt Hư Đế Tôn",
+      "hanviet": "Diệt Hư Đế Tôn",
+      "category": "title",
+      "confidence": 0.7
+    },
+    {
+      "original": "築基期",
+      "suggested": "Trúc Cơ kỳ",
+      "hanviet": "Trúc Cơ kỳ",
+      "category": "skill",
+      "confidence": 0.7
+    }
+  ],
+  "ambiguous": [],
+  "chapter_id": "ch_003",
+  "analyzed_at": "2026-09-26T19:42:24.574480+07:00"
+}

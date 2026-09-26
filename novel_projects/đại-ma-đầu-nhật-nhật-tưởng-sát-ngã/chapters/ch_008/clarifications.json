@@ -1,0 +1,123 @@
+{
+  "chapter_id": "ch_008",
+  "questions": [
+    {
+      "id": "amb_001",
+      "original": "冉秋嵐",
+      "suggested": "Nhiễm Thu Lam",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Nhiễm Thu Lam?",
+      "options": [
+        "Nhiễm Thu Lam",
+        "Nhiễm Thu Lan",
+        "Nhiễm Thu Lãm"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_002",
+      "original": "Nhiễm Thu Lam (ngôi thứ 3)",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Nhiễm Thu Lam (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "cô",
+        "nàng",
+        "y",
+        "chị",
+        "ả"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_003",
+      "original": "Đại Trưởng Lão",
+      "suggested": "Đại Trưởng Lão",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Đại Trưởng Lão?",
+      "options": [
+        "Đại Trưởng Lão",
+        "Trưởng Lão Lớn",
+        "Trưởng Lão Cả"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_004",
+      "original": "Đại Trưởng Lão (ngôi thứ 3)",
+      "suggested": null,
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Đại Trưởng Lão (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "hắn",
+        "y",
+        "ông ta",
+        "vị này",
+        "ngài ấy"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_005",
+      "original": "Hạ Khanh Tuyên → Nhiễm Thu Lam",
+      "suggested": "Hạ Khanh Tuyên xưng Em - gọi Nhiễm Thu Lam là Chị",
+      "confidence": 0.3,
+      "question": "Chiều 1: Hạ Khanh Tuyên xưng hô thế nào với Nhiễm Thu Lam (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Em - gọi Chị",
+        "xưng Em - gọi Đại sư tỷ",
+        "xưng Tôi - gọi Chị",
+        "xưng Tôi - gọi Đại sư tỷ"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_006",
+      "original": "Nhiễm Thu Lam → Hạ Khanh Tuyên",
+      "suggested": "Nhiễm Thu Lam xưng Chị - gọi Hạ Khanh Tuyên là Em",
+      "confidence": 0.3,
+      "question": "Chiều 2: Nhiễm Thu Lam xưng hô thế nào với Hạ Khanh Tuyên (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Chị - gọi Em",
+        "xưng Chị - gọi Tiểu sư đệ",
+        "xưng Ta - gọi Em",
+        "xưng Ta - gọi Tiểu sư đệ"
+      ],
+      "category": "relationship"
+    }
+  ],
+  "answers": {
+    "amb_002": {
+      "choice": "nàng",
+      "custom": null,
+      "auto_propagated": true,
+      "propagated_from": "Chapter ch_011"
+    },
+    "amb_005": {
+      "choice": "xưng Ta - gọi Đại sư tỷ",
+      "custom": null,
+      "auto_propagated": true,
+      "propagated_from": "Chapter ch_008"
+    },
+    "amb_006": {
+      "choice": "xưng Ta - gọi Tiểu sư đệ",
+      "custom": null,
+      "auto_propagated": true,
+      "propagated_from": "Chapter ch_008"
+    },
+    "amb_001": {
+      "choice": "🤖 Tự quyết",
+      "custom": null
+    },
+    "amb_003": {
+      "choice": "Đại Trưởng Lão",
+      "custom": null
+    },
+    "amb_004": {
+      "choice": "ông ta",
+      "custom": null
+    }
+  },
+  "updated_at": "2026-09-26T20:12:01.616027+07:00",
+  "answered_at": "2026-09-26T20:04:42.878532+07:00"
+}

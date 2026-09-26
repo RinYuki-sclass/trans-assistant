@@ -1,0 +1,131 @@
+{
+  "chapter_summary": "Chương mở đầu giới thiệu bối cảnh tiên đạo suy yếu, yêu ma hoành hành. Hạ Khanh Tuyên, người mang toàn linh chi thể và là hy vọng của chính đạo, bị truy sát đến Vô Đáy Thâm Uyên sau khi Tuyên Nghi Cung bị diệt môn. Tại đây, hắn vô tình (nhưng thực chất là cố ý) kết hạ Đồng Sinh Cộng Tử Đạo Lữ Khế với Ma Tôn Ứng Hàn Y đang bị phong ấn. Phần văn án cũng hé lộ Hạ Khanh Tuyên là người trọng sinh, quay về quá khứ để ngăn chặn thảm họa do Ma Tôn gây ra trong kiếp trước. Phần chính chương 1 bắt đầu với Hạ Khanh Tuyên đang bị thương và suy yếu do chướng khí trong Vô Đáy Thâm Uyên. Hắn gặp một nữ đệ tử tưởng chừng bất tỉnh, nhưng thực chất là một yêu tu giả dạng để phục kích. Yêu tu này dùng độc tấn công, khiến Hạ Khanh Tuyên bị thương nặng và linh lực đình trệ. Tuy nhiên, Hạ Khanh Tuyên đã phản công bằng cách sử dụng chính độc tố của đối phương để nuôi dưỡng linh khí của mình, đâm xuyên tim yêu tu bằng dây leo màu lam lục.",
+  "new_characters": [
+    {
+      "name": "Nữ tử / Yêu tu",
+      "hanviet_name": "Yêu nữ",
+      "gender": "Female",
+      "role": "Yêu tu giả dạng đệ tử chính đạo, kẻ thù của Hạ Khanh Tuyên trong đoạn này.",
+      "description": "Một yêu tu giả dạng nữ đệ tử của Tuyên Nghi Cung để phục kích Hạ Khanh Tuyên. Nàng ta sử dụng độc tố và có móng tay sắc nhọn màu đỏ lục. Tự xưng là 'tỷ tỷ' và gọi Hạ Khanh Tuyên là 'tiểu lang quân'."
+    }
+  ],
+  "new_locations": [],
+  "new_terms": [
+    {
+      "original": "长临仙尊",
+      "suggested": "Trường Lâm Tiên Tôn",
+      "hanviet": "Trường Lâm Tiên Tôn",
+      "category": "other",
+      "confidence": 0.0
+    },
+    {
+      "original": "清心妙法",
+      "suggested": "Thanh Tâm Diệu Pháp",
+      "hanviet": "Thanh Tâm Diệu Pháp",
+      "category": "skill",
+      "confidence": 0.0
+    },
+    {
+      "original": "妖魔",
+      "suggested": "Yêu ma",
+      "hanviet": "Yêu ma",
+      "category": "faction",
+      "confidence": 0.0
+    },
+    {
+      "original": "仙道",
+      "suggested": "Tiên đạo",
+      "hanviet": "Tiên đạo",
+      "category": "faction",
+      "confidence": 0.0
+    },
+    {
+      "original": "正道",
+      "suggested": "Chính đạo",
+      "hanviet": "Chính đạo",
+      "category": "faction",
+      "confidence": 0.0
+    },
+    {
+      "original": "魔头",
+      "suggested": "Ma đầu",
+      "hanviet": "Ma đầu",
+      "category": "other",
+      "confidence": 0.0
+    },
+    {
+      "original": "妖修",
+      "suggested": "Yêu tu",
+      "hanviet": "Yêu tu",
+      "category": "faction",
+      "confidence": 0.0
+    },
+    {
+      "original": "剑气",
+      "suggested": "Kiếm khí",
+      "hanviet": "Kiếm khí",
+      "category": "skill",
+      "confidence": 0.0
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "女子 / 妖修",
+      "suggested": "Yêu nữ",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật [Nữ tử / Yêu tu]?",
+      "options": [
+        "Yêu nữ",
+        "Nữ yêu",
+        "Yêu tu",
+        "Nữ tử"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_002",
+      "original": "Nữ tử / Yêu tu (ngôi thứ 3)",
+      "suggested": "nàng",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật [Nữ tử / Yêu tu] (hắn, y, anh, cậu, gã, nàng, cô...)? ",
+      "options": [
+        "nàng",
+        "cô ta",
+        "ả",
+        "y",
+        "thị"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_003",
+      "original": "Hạ Khanh Tuyên → Nữ tử / Yêu tu",
+      "suggested": "Hạ Khanh Tuyên xưng Ta - gọi Ngươi",
+      "confidence": 0.3,
+      "question": "Chiều 1: Hạ Khanh Tuyên xưng hô thế nào với Nữ tử / Yêu tu (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Ta - gọi Ngươi",
+        "xưng Ta - gọi Cô",
+        "xưng Ta - gọi Nàng"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_004",
+      "original": "Nữ tử / Yêu tu → Hạ Khanh Tuyên",
+      "suggested": "Nữ tử / Yêu tu xưng Ta - gọi Tiểu lang quân",
+      "confidence": 0.3,
+      "question": "Chiều 2: Nữ tử / Yêu tu xưng hô thế nào với Hạ Khanh Tuyên (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Ta - gọi Tiểu lang quân",
+        "xưng Ta - gọi Ngươi",
+        "xưng Thiếp - gọi Lang quân",
+        "xưng Tỷ tỷ - gọi Tiểu lang quân"
+      ],
+      "category": "relationship"
+    }
+  ],
+  "chapter_id": "ch_001",
+  "analyzed_at": "2026-09-26T19:11:01.734014+07:00"
+}
