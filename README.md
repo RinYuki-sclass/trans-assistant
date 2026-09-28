@@ -66,4 +66,9 @@ streamlit run scripts/app.py
 ## 📂 Cách cấu hình Từ Điển (Glossary)
 Từ điển (Glossary) dùng chung cực kỳ quan trọng, là "não bộ" của con AI.
 * `glossary.md`: Lưu định nghĩa Nhân vật, Phái, Tuyệt chiêu, Địa danh... Định dạng bảng hướng dẫn chi tiết nằm bên trong.
-* `personal_notes.md`: Nơi Lead quy định cách xưng hô đặc biệt hoặc văn phong bắt buộc (VD: Không được chêm quá nhiều từ Hán Việt, Xưng hô Anh - Em...).
+* `personal_notes.md`: Nơi Lead quy định cách xưng hô đặc biệt hoặc văn phong bắt buộc (VD: Không được chêm quá nhiều từ Hán Việt, Xưng hô Anh - Em...).
+
+---
+
+## 📂 Prompt QA manhwa
+Xem xét sửa lại toàn bộ xưng hô trong script và tham khảo rule manhwa translation, hãy đưa ra câu hỏi thống nhất xưng hô trong file này để tôi quy định

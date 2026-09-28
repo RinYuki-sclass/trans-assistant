@@ -780,7 +780,7 @@ class ChapterAssignment:
     assigned_date: str = ""
 
     DAYS_NORMAL = 7
-    DAYS_WARNING = 14
+    DAYS_WARNING = 7
 
     def _extract_numbers(self, text: str) -> list[int]:
         if not text:
@@ -813,16 +813,17 @@ class ChapterAssignment:
         return (datetime.now() - dt).days
 
     def get_urgency_level(self) -> tuple[str, str, str]:
-        """Trả về (badge, level_code, color)"""
+        """
+        Trả về (badge, level_code, color)
+        2 trạng thái: trước 7 ngày là "Đang làm", sau 7 ngày là "Dí deadline"
+        """
         diff = self.get_days_elapsed()
         if diff is None:
             return ("", "unknown", "#8c8273")
         if diff <= self.DAYS_NORMAL:
             return (f"🟢 Đang làm ({diff} ngày)", "normal", "#2e7d32")
-        elif diff <= self.DAYS_WARNING:
-            return (f"🟡 Hơi chậm ({diff} ngày)", "warning", "#f39c12")
         else:
-            return (f"🔴 Quá lâu! ({diff} ngày)", "danger", "#c62828")
+            return (f"🔴 Dí deadline ({diff} ngày)", "danger", "#c62828")
 
 
 @dataclass
@@ -838,6 +839,135 @@ class ChapterItemStatus:
     urgency_color: str = ""
     assigned_date: str = ""
     days_elapsed: Optional[int] = None
+
+
+# Mapping tên thành viên sang cú pháp tag trên Facebook Messenger
+MESSENGER_TAG_MAP = {
+    "pồ tây tồ": "@Pồ tây t",
+    "bảo trân": "@Bảo Trâ",
+    "thanh hà": "@Thanh Hà",
+    "myfamilytwo": "@Fam",
+    "gulu": "@Qi",
+    "ttuabg": "@Ttuabg",
+    "rin": "@Rin",
+}
+
+
+def get_messenger_tag(name: str) -> str:
+    """Chuyển đổi tên thành viên sang định dạng tag Facebook Messenger thuận tiện"""
+    cleaned = (name or "").strip()
+    if not cleaned:
+        return ""
+    if cleaned.lower() in MESSENGER_TAG_MAP:
+        return MESSENGER_TAG_MAP[cleaned.lower()]
+    if cleaned.startswith("@"):
+        return cleaned
+    return f"@{cleaned}"
+
+
+def build_overdue_notice(assignments: list) -> str:
+    """
+    Tạo nội dung thông báo những người trễ deadline (> 7 ngày) kèm format tag Facebook Messenger.
+    Định dạng mẫu:
+    ⏳ Trans:
+    @Rin: 356
+
+    ⏳ Beta: 
+    @Ttuabg: 344
+    """
+    trans_lines = []
+    beta_lines = []
+
+    for a in assignments:
+        # Bỏ qua nếu đã xong hoặc chưa có chap ưu tiên
+        if a.get('is_done', False):
+            continue
+        if not a.get('priority_items'):
+            continue
+        days = a.get('days')
+        if days is None or days <= 7:
+            continue
+
+        role = (a.get('role') or '').strip().lower()
+        name = a.get('name', '').strip()
+        if not name:
+            continue
+
+        # Lấy danh sách chap ưu tiên chưa hoàn thành
+        p_items = a.get('priority_items', [])
+        undone = [str(pi['chapter']) for pi in p_items if not pi.get('done')]
+        if undone:
+            chap_str = ", ".join(undone)
+        else:
+            chap_str = str(a.get('priority', '')).strip()
+
+        tag_name = get_messenger_tag(name)
+        line = f"{tag_name}: {chap_str}"
+        if role == 'trans':
+            trans_lines.append(line)
+        elif role == 'beta':
+            beta_lines.append(line)
+
+    sections = []
+    if trans_lines:
+        sections.append("⏳ Trans:\n" + "\n".join(trans_lines))
+    if beta_lines:
+        sections.append("⏳ Beta: \n" + "\n".join(beta_lines))
+
+    return "\n\n".join(sections)
+
+
+def render_overdue_copy_widget(assignments: list, key_prefix: str = "overdue"):
+    """
+    Hiển thị giao diện & button copy thông báo những người trễ deadline (> 7 ngày).
+    """
+    import streamlit.components.v1 as components
+    notice_text = build_overdue_notice(assignments)
+    if not notice_text:
+        st.info("🎉 Tất cả thành viên hiện đều trong hạn deadline (dưới 7 ngày)!")
+        return
+
+    overdue_count = len([
+        a for a in assignments 
+        if not a.get('is_done', False) and a.get('days') is not None and a.get('days') > 7 and a.get('priority_items')
+    ])
+
+    st.markdown(f"""
+    <div style="background: #FFF7ED; border: 1px solid #FFEDD5; border-left: 4px solid #EA580C; border-radius: 8px; padding: 10px 14px; margin: 8px 0 12px 0;">
+        <div style="font-weight: 700; color: #9A3412; font-size: 14px; margin-bottom: 3px;">
+            📢 Danh Sách Dí Deadline ({overdue_count} người trễ &gt; 7 ngày)
+        </div>
+        <div style="font-size: 12.5px; color: #7C2D12;">
+            Bấm nút bên dưới để sao chép thông báo mẫu nhắc deadline gửi vào nhóm chat:
+        </div>
+    </div>
+    """, unsafe_allow_html=True)
+
+    c_btn, c_note = st.columns([1.3, 2.7])
+    with c_btn:
+        copy_clicked = st.button("📋 Copy thông báo trễ DL", key=f"{key_prefix}_btn", type="primary", use_container_width=True)
+    with c_note:
+        if copy_clicked:
+            st.success("✅ Đã copy thông báo vào bộ nhớ tạm!", icon="📋")
+            st.toast("📋 Đã copy thông báo trễ deadline vào clipboard!", icon="✅")
+        else:
+            st.caption("💡 *Bấm nút để copy nội dung mẫu hoặc bấm biểu tượng copy ở góc phải khung chữ bên dưới.*")
+
+    if copy_clicked:
+        escaped_json = json.dumps(notice_text)
+        components.html(f"""
+        <script>
+        const textToCopy = {escaped_json};
+        if (window.parent && window.parent.navigator && window.parent.navigator.clipboard) {{
+            window.parent.navigator.clipboard.writeText(textToCopy);
+        }} else if (navigator.clipboard) {{
+            navigator.clipboard.writeText(textToCopy);
+        }}
+        </script>
+        """, height=0)
+
+    st.code(notice_text, language=None)
+
 
 
 def find_howl_team_raw_docs_path() -> str:
@@ -1137,12 +1267,6 @@ def get_cached_deadline_data(cache_key: str, spreadsheet_id: str, trans_fid: str
             if len(u_names) > 1:
                 warnings.append(f"Chap {cn} ({r.upper()}) đang được phân cho nhiều người: {', '.join(u_names)}")
 
-    # Overdue
-    for a in assignments:
-        diff = a.get_days_elapsed()
-        if diff and diff > a.DAYS_WARNING:
-            warnings.append(f"🔴 QUÁ HẠN ({a.role.upper()}): **{a.name}** - giao ngày {a.assigned_date} ({diff} ngày chưa xong)")
-
     # 6. Phát hiện file Trans mất trên Drive
     missing_drive = []
     if master_rows:
@@ -1325,6 +1449,18 @@ def get_cached_deadline_data(cache_key: str, spreadsheet_id: str, trans_fid: str
         key=lambda x: (not x.get('is_done', False), x.get('days') if x.get('days') is not None else 9999)
     )
 
+    # Cảnh báo Dí Deadline: Chỉ cảnh báo những người CHƯA XONG và có số ngày > 7
+    for pa in processed_assignments:
+        if pa.get('is_done', False):
+            continue
+        if not pa.get('priority_items'):
+            continue
+        diff = pa.get('days')
+        if diff is not None and diff > ChapterAssignment.DAYS_NORMAL:
+            warnings.append(
+                f"🔴 DÍ DEADLINE ({pa['role'].upper()}): **{pa['name']}** - giao ngày {pa['date']} ({diff} ngày chưa xong)"
+            )
+
     return {
         "timestamp": datetime.now(timezone(timedelta(hours=7))).strftime("%H:%M:%S %d/%m/%Y"),
         "total": len(items),
@@ -1384,7 +1520,7 @@ def render_deadline_alert_banner():
 
         missing = data.get("missing_drive", [])
         warnings = data.get("warnings", [])
-        overdue_items = [w for w in warnings if "QUÁ HẠN" in w]
+        overdue_items = [w for w in warnings if "QUÁ HẠN" in w or "DÍ DEADLINE" in w or "Dí deadline" in w]
 
         if overdue_items or missing:
             with st.container():
@@ -1637,16 +1773,17 @@ def render_deadline_dashboard():
           - Bấm vào nút **Link EN / Link KR** để mở bản gốc hoặc **Google Docs** để mở file dịch.
         - **⏳ Các Chap Đang Làm**:
           - Theo dõi các chương đang được thực hiện (chia theo cột **✍️ Trans** và **🔍 Beta**).
-          - Ý nghĩa huy hiệu thời gian: 🟢 *Bình thường (0 - 7 ngày)* &nbsp;|&nbsp; 🟡 *Cận hạn (8 - 14 ngày)* &nbsp;|&nbsp; 🔴 *Quá hạn (> 14 ngày)*.
+          - Ý nghĩa huy hiệu thời gian: 🟢 *Đang làm (0 - 7 ngày)* &nbsp;|&nbsp; 🔴 *Dí deadline (> 7 ngày)*.
         - **✅ Các Chap Đã Xong**: Danh sách các chương đã nộp file lên Drive. Bấm nút **📖 Đọc chap** để kiểm tra nội dung.
         - **📅 Lịch Release Dự Kiến**: Lịch phát hành dự kiến theo tuần để nắm bắt ngày ra chương của Team.
         """)
 
     # Warnings Section (nếu có)
     if data.get("warnings"):
-        with st.expander("⚠️ CẢNH BÁO PHÂN CÔNG & QUÁ HẠN", expanded=True):
+        with st.expander("⚠️ CẢNH BÁO PHÂN CÔNG & DÍ DEADLINE", expanded=True):
             for w in data["warnings"]:
                 st.markdown(f"- {w}")
+            render_overdue_copy_widget(data.get("assignments", []), key_prefix="warn_section")
 
     # Missing Files on Drive
     if data.get("missing_drive"):
@@ -1744,6 +1881,7 @@ def render_deadline_dashboard():
     # Tab 2: Các Chap Đang Làm
     with t_pending:
         st.markdown("#### ⏳ Danh Sách Chap Đang Làm (Chưa Có File Trên Drive)")
+        render_overdue_copy_widget(data.get("assignments", []), key_prefix="tab_pending")
         pending_trans = [i for i in data.get("items", []) if i['status'] == 'not_found' and i['role'] == 'trans']
         pending_beta = [i for i in data.get("items", []) if i['status'] == 'not_found' and i['role'] == 'beta']
         

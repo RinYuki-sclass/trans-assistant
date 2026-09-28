@@ -1313,9 +1313,8 @@ if tabs.is_active(0):
               - Sử dụng thanh tìm kiếm hoặc bộ lọc theo vai trò (`Trans` / `Beta`) và trạng thái (`Chưa xong` / `Đã xong`).
               - Nút bấm nhanh để mở ngay link **Source Raw EN / KR** và file dịch **Google Docs**.
             - **⏳ Các Chap Đang Làm & Huy Hiệu Cảnh Báo**:
-              - 🟢 **Bình thường (0 - 7 ngày)**: Tiến độ đảm bảo.
-              - 🟡 **Cận hạn (8 - 14 ngày)**: Cần chú ý sắp xếp hoàn thành.
-              - 🔴 **Quá hạn (> 14 ngày)**: Cần ưu tiên nộp bài hoặc báo cáo leader nếu gặp khó khăn.
+              - 🟢 **Đang làm (0 - 7 ngày)**: Tiến độ đảm bảo trong hạn deadline.
+              - 🔴 **Dí deadline (> 7 ngày)**: Quá hạn 7 ngày, cần ưu tiên hoàn thành gấp.
             - **✅ Các Chap Đã Xong**: Danh sách các chương đã nộp file lên Google Drive thành công.
             - **📅 Lịch Release Dự Kiến**: Lịch trình dự kiến phát hành các chương theo tuần.
 
