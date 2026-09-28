@@ -25,7 +25,23 @@
       "Hy vọng của chính đạo",
       "Bé con đáng thương",
       "Tiểu tiên quân",
-      "tên đỉnh lô"
+      "tên đỉnh lô",
+      "He Qingxuan",
+      "chàng trai mặc áo trắng",
+      "sứ giả hồ ly",
+      "tiểu tiên nữ",
+      "thể xác của toàn bộ linh hồn",
+      "Bất Tử Quân",
+      "Tiên quân",
+      "Tiêu Tiên Quân",
+      "Chúa bất tử",
+      "người lập khế ước",
+      "đạo sĩ",
+      "Hạ Thanh Huyền (夏清玄)",
+      "Tiểu Tiên Vương",
+      "Hà Thanh",
+      "Hà Qingxuan",
+      "vua bất tử bé nhỏ"
     ],
     "honorifics": "tiểu tử, đạo hữu, công tử",
     "speech_style": "Điềm tĩnh, lễ độ, cơ trí, thong dong, có lúc giả ngây ngô",
@@ -68,7 +84,38 @@
       "Anh Hàn Ý",
       "Hoàng đế",
       "Nam tử âm u vận hắc y",
-      "Nam tử hắc y"
+      "Nam tử hắc y",
+      "Ying Hanyi",
+      "ma tu mặc áo trắng",
+      "Con quỷ (The demon/devil)",
+      "Giọng nói trong biển ý thức (Voice in the sea of consciousness)",
+      "Anh Hàn Nhất",
+      "Thần chết",
+      "Hoàng đế Miexu",
+      "Diệt Hư Hoàng Đế (滅虛皇帝)",
+      "Tôn Hoàng",
+      "Anh Hàn Nhất (英寒一)",
+      "con ác quỷ lớn",
+      "帝尊",
+      "Miexu Hoàng Đế",
+      "Diệt Hư Hoàng Đế",
+      "Âm Quý đạo nhân",
+      "Miexu Hoàng đế (滅虛皇帝)",
+      "Ứng Hàn Nghĩa",
+      "Ma Vương",
+      "Yêu Vương",
+      "Quỷ vương",
+      "Yêu Hoàng",
+      "Yêu Hoàng (妖皇)",
+      "Quỷ Đế",
+      "Ma hoàng",
+      "Ưng Hàn Nghĩa (應寒義)",
+      "Quỷ Hoàng",
+      "Từ Hoàng",
+      "Ảnh Hàn Di",
+      "Ưng Hàn Y",
+      "Gui Huang",
+      "Miexu Huangdi"
     ],
     "honorifics": "Ma tôn, Tôn thượng, tiền bối",
     "speech_style": "Ngạo nghễ, lạnh lùng, tàn nhẫn, thường tự xưng 'bổn tôn', khẩu xà tâm phật",
@@ -110,7 +157,9 @@
     "aliases": [
       "长临仙尊",
       "Trường Lâm Tiên Tôn",
-      "長臨仙尊"
+      "長臨仙尊",
+      "Trường Lâm",
+      "Changlin"
     ],
     "honorifics": "Tiên Tôn",
     "speech_style": "not directly shown, a past powerful figure",
@@ -341,7 +390,8 @@
       "Diệt Hư Hoàng đế",
       "Hoàng đế",
       "Diệt Hư",
-      "Diệt Thế Hoàng Đế"
+      "Diệt Thế Hoàng Đế",
+      "Miexu"
     ],
     "honorifics": "hắn (he - referring to Miexu)",
     "speech_style": "implied to be dangerous and powerful",
@@ -354,7 +404,12 @@
     "third_person_pronoun": "",
     "aliases": [
       "Cô Bành Hương đạo sĩ",
-      "Daoist Pengxiang"
+      "Daoist Pengxiang",
+      "Yin Gui",
+      "Ân Quý",
+      "Đạo sĩ Yin Gui",
+      "Ân Quý đạo nhân",
+      "Daoist Yin Gui"
     ],
     "honorifics": "bà (she - referring to Cô Bành Hương)",
     "speech_style": "N/A",
@@ -404,7 +459,9 @@
       "Chủ nhân",
       "Yêu Vương Bạch Đồ",
       "Bái Đồ",
-      "Bạch Thổ Nhược"
+      "Bạch Thổ Nhược",
+      "Bạch Đồ",
+      "con thỏ"
     ],
     "honorifics": "Hoàng thượng (for Ying Hanyi), thần (self-address)",
     "speech_style": "initially timid/scared (as avatar), later formal/respectful (as original self)",
@@ -418,10 +475,14 @@
     "aliases": [
       "Zi Shuwang",
       "Tử Thư Vương",
-      "Ma vương Zi Shuwang"
+      "Ma vương Zi Shuwang",
+      "Zishuwang",
+      "Ma vương Tử Thư Vương",
+      "Tử Thư Vương (紫書王)",
+      "Thư Vương Ma Vương"
     ],
-    "honorifics": "",
-    "speech_style": "",
+    "honorifics": "Ma vương",
+    "speech_style": "Not specified",
     "notes": "A Demon King associated with the Demon Palace."
   },
   {
@@ -433,8 +494,8 @@
       "Demon Emperor",
       "Ma Hoàng"
     ],
-    "honorifics": "",
-    "speech_style": "",
+    "honorifics": "Hoàng (Emperor)",
+    "speech_style": "N/A",
     "notes": "One of the most powerful figures, has broken through tribulations and is close to ascension."
   },
   {
@@ -447,8 +508,8 @@
       "Hoàng đế Diêm Vương",
       "King of Hell"
     ],
-    "honorifics": "",
-    "speech_style": "",
+    "honorifics": "Hoàng đế (Emperor)",
+    "speech_style": "N/A",
     "notes": "One of the powerful figures who divided the Xuan Tian Nine Provinces Realm."
   },
   {
@@ -460,7 +521,8 @@
       "Tiêu Thăng",
       "Yêu tu áo trắng",
       "Ma tu áo trắng",
-      "Diêu Tú"
+      "Diêu Tú",
+      "Cửu Vĩ hồ ly"
     ],
     "honorifics": "Refers to Ying Hanyi as 'Bệ hạ'. Refers to the Demon Emperor as 'Yêu Hoàng bệ hạ'.",
     "speech_style": "Uses 'thần' (this subject/your servant) when speaking to Ying Hanyi.",
@@ -473,7 +535,11 @@
     "third_person_pronoun": "",
     "aliases": [
       "Yêu Hoàng",
-      "Ma Vương"
+      "Ma Vương",
+      "Yêu Vương",
+      "Yêu Vương (妖王)",
+      "Quỷ vương",
+      "Quỷ Đế"
     ],
     "honorifics": "Addressed as 'Yêu Hoàng bệ hạ'.",
     "speech_style": "Not directly speaking in this excerpt.",
@@ -501,7 +567,12 @@
       "Ôn Thanh Hàn",
       "Nữ tu",
       "Văn Thanh Hàn",
-      "Ôn Thanh Hàm"
+      "Ôn Thanh Hàm",
+      "người toàn tâm linh",
+      "Divine Association Receptionist",
+      "nữ tu sĩ lạnh lùng",
+      "nữ tu kiêu ngạo",
+      "nữ tu sĩ áo đỏ"
     ],
     "honorifics": "Thiếu gia (for He Qingxuan), Tiền bối (for He Qingxuan and Ying Hanyi)",
     "speech_style": "Cautious, informative, respectful, formal, grateful",
@@ -552,7 +623,9 @@
     "aliases": [
       "Tiết Hiểu Thiên",
       "anh Xue",
-      "Thiếu gia"
+      "Thiếu gia",
+      "Xue Xiaotian",
+      "Tiết Hiểu Thiên (薛曉天)"
     ],
     "honorifics": "Xue đạo nhân",
     "speech_style": "Aggressive, scheming",
@@ -644,5 +717,471 @@
     "honorifics": "Thánh (Saint, part of name)",
     "speech_style": "Not shown",
     "notes": "The one who investigated and set up a deception array."
+  },
+  {
+    "name": "Anh Hàn Nghị",
+    "hanviet_name": "Anh Hàn Nghị",
+    "gender": "Male",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Anh Hàn Nghị",
+      "Ying Hanyi",
+      "ác quỷ áo đen"
+    ],
+    "honorifics": "anh",
+    "speech_style": "Commanding, direct",
+    "notes": "Powerful and cold, assisting/controlling He Qingxuan with his power."
+  },
+  {
+    "name": "Bạch Tử",
+    "hanviet_name": "Bạch Tử",
+    "gender": "Male",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Bạch Tử"
+    ],
+    "honorifics": "",
+    "speech_style": "",
+    "notes": "Observes Ying Hanyi's backlash."
+  },
+  {
+    "name": "Fentian tôn giả",
+    "hanviet_name": "Phân Thiên Tôn Giả",
+    "gender": "Male (implied)",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Fentian tôn giả",
+      "Phân Thiên Tôn Giả",
+      "Lão tổ (Old ancestor of Tiết Hiểu Thiên)",
+      "Burning Sky tôn giả",
+      "Đốt Thiên đại nhân",
+      "Phần Thiên Tôn Giả",
+      "Phần Thiên Tôn Giả (焚天尊者)",
+      "Hỏa Thiên đại nhân",
+      "Chúa tể đốt trời",
+      "Fentian Lord",
+      "Chúa tể Burning Heaven",
+      "Đốt Thiên Tôn",
+      "Đống Thiên Tôn giả"
+    ],
+    "honorifics": "Tôn giả (Venerable/Revered One)",
+    "speech_style": "Not directly observed, but implied to be powerful and preparing a 'big gift'.",
+    "notes": "Tiết Hiểu Thiên's powerful ancestor."
+  },
+  {
+    "name": "Fen Tian Tôn giả",
+    "hanviet_name": "",
+    "gender": "Male",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Fen Tian Tôn giả",
+      "Đốn Thiên tôn giả"
+    ],
+    "honorifics": "Tôn giả",
+    "speech_style": "Formal, direct",
+    "notes": "Associated with 'Đốt Bầu Thần Giáo'. 'Đốn Thiên tôn giả' appears to be a typo for 'Fen Tian Tôn giả'."
+  },
+  {
+    "name": "Bất Tử Quân",
+    "hanviet_name": "Bất Tử Quân (不死君)",
+    "gender": "Male",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Bất Tử Quân",
+      "Bất Tử Quân (不死君)"
+    ],
+    "honorifics": "Bất Tử Quân",
+    "speech_style": "",
+    "notes": "A powerful figure, possibly a ruler or leader, mentioned in the context of 'control'."
+  },
+  {
+    "name": "Eldest Disciple of Fentian Tôn Giả",
+    "hanviet_name": "",
+    "gender": "Male",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Eldest Disciple of Fentian Tôn Giả"
+    ],
+    "honorifics": "",
+    "speech_style": "",
+    "notes": "The unnamed eldest disciple of Fentian Tôn Giả. Described as 'tall and handsome, with slightly deep-set eyes'. Has reached the Nascent Soul (Nguyên Anh) cultivation level."
+  },
+  {
+    "name": "Minh Vương",
+    "hanviet_name": "Minh Vương",
+    "gender": "Unknown",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Minh Vương",
+      "Ming Wang",
+      "Hoàng đế Hades",
+      "Hoàng đế địa ngục",
+      "Diêm Vương",
+      "Emperor Hades"
+    ],
+    "honorifics": "N/A",
+    "speech_style": "N/A",
+    "notes": "Powerful figure mentioned"
+  },
+  {
+    "name": "Đệ tử của Viêm Thiên Giáo",
+    "hanviet_name": "",
+    "gender": "Unknown",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Đệ tử của Viêm Thiên Giáo"
+    ],
+    "honorifics": "N/A",
+    "speech_style": "N/A",
+    "notes": "Unnamed minor character, member of Viêm Thiên Giáo"
+  },
+  {
+    "name": "Thẩm Dịch",
+    "hanviet_name": "Thẩm Dịch",
+    "gender": "Male",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Thẩm Dịch",
+      "Shen Yi",
+      "Thẩm Dịch (沈奕)"
+    ],
+    "honorifics": "Thẩm sư huynh",
+    "speech_style": "Polite, respectful, detailed",
+    "notes": "A high-level disciple of Đốt Thiên Thần Giáo (Viêm Thiên Giáo)."
+  },
+  {
+    "name": "Lạc",
+    "hanviet_name": "Lạc",
+    "gender": "Male",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Lạc"
+    ],
+    "honorifics": "sư huynh",
+    "speech_style": "lạnh lùng, thờ ơ",
+    "notes": "Đệ tử của Burning Heaven Sect, có hình xăm phù văn lửa trên lông mày và đuôi."
+  },
+  {
+    "name": "Diệp",
+    "hanviet_name": "Diệp",
+    "gender": "Female",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Diệp"
+    ],
+    "honorifics": "sư muội",
+    "speech_style": "giễu cợt",
+    "notes": "Đệ tử của Burning Heaven Sect."
+  },
+  {
+    "name": "Tạ",
+    "hanviet_name": "",
+    "gender": "Male",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Tạ",
+      "tên tu yêu mắt mỏng",
+      "yêu tu mắt mảnh",
+      "ma tu mắt mỏng"
+    ],
+    "honorifics": "Sư đệ (Junior Brother)",
+    "speech_style": "Hesitant, polite, tries to be humble but is tempted",
+    "notes": "A thin-eyed demon cultivator who dies trying to subdue the Flame Heart."
+  },
+  {
+    "name": "Luo",
+    "hanviet_name": "",
+    "gender": "male",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Luo"
+    ],
+    "honorifics": "",
+    "speech_style": "",
+    "notes": "A previous disciple, mentioned only by name."
+  },
+  {
+    "name": "Âm Quỷ Đạo Nhân",
+    "hanviet_name": "Âm Quỷ Đạo Nhân",
+    "gender": "Male",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Âm Quỷ Đạo Nhân",
+      "Yin Ghost Taoist priest",
+      "tên đạo sĩ âm quỷ anh tuấn mặc áo tím"
+    ],
+    "honorifics": "Uses 'Đế Tôn' for Ying Hanyi, 'Tiên Quân' for He Qingxuan.",
+    "speech_style": "Smiling without warmth (皮笑肉不笑), somewhat obsequious towards Ying Hanyi but also has a sharp tongue.",
+    "notes": "A Taoist priest skilled in contracts and seals, specifically mentioned for his ability to 'undo contracts'."
+  },
+  {
+    "name": "Yingui đạo sĩ",
+    "hanviet_name": "Âm Quý Đạo Sĩ",
+    "gender": "Male",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Yingui đạo sĩ",
+      "Âm Quý Đạo Sĩ"
+    ],
+    "honorifics": "Đạo sĩ (Daoist priest).",
+    "speech_style": "Not directly shown, communicates via messages.",
+    "notes": "A Daoist priest involved in the plot, possibly sending messages to Ying Hanyi and interacting with the Demon Emperor."
+  },
+  {
+    "name": "Minh Đế",
+    "hanviet_name": "Minh Đế",
+    "gender": "Unknown",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Minh Đế",
+      "Hoàng đế Địa ngục",
+      "Công Tôn Nguyệt"
+    ],
+    "honorifics": "Đế (Emperor).",
+    "speech_style": "Not shown.",
+    "notes": "The 'Underworld Emperor', one of the figures holding a piece of the Taishang Liangyi Scroll."
+  },
+  {
+    "name": "Leader of Pursuers",
+    "hanviet_name": "",
+    "gender": "Male",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Leader of Pursuers"
+    ],
+    "honorifics": "",
+    "speech_style": "Arrogant, Mocking",
+    "notes": "The leader of the group hunting Ran Qiulan. Has a beautiful face, transparent skin, and long, sinister eyes. No proper name given."
+  },
+  {
+    "name": "Feminine Male Pursuer",
+    "hanviet_name": "",
+    "gender": "Male",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Feminine Male Pursuer"
+    ],
+    "honorifics": "",
+    "speech_style": "Cruel, Predatory",
+    "notes": "One of Ran Qiulan's pursuers, described as feminine like a woman, with a long tongue, expressing a desire to eat her. No proper name given."
+  },
+  {
+    "name": "Cat-Eared Pursuer",
+    "hanviet_name": "",
+    "gender": "Female",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Cat-Eared Pursuer"
+    ],
+    "honorifics": "",
+    "speech_style": "Playful, Predatory",
+    "notes": "One of Ran Qiulan's pursuers, has cat ears and wants Ran Qiulan's heart. No proper name given."
+  },
+  {
+    "name": "Yashu",
+    "hanviet_name": "Nhã Thư",
+    "gender": "Female",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Yashu",
+      "Nhã Thư",
+      "Chúa Yashu",
+      "tổ tiên của họ",
+      "Yashu Tôn giả"
+    ],
+    "honorifics": "Tôn Giả (Venerable)",
+    "speech_style": "Cold, indifferent, majestic",
+    "notes": "Owner of the Divine Association, a powerful cultivator with Ice Intent, described as beautiful, cold, wearing a complex blue robe, and barefoot."
+  },
+  {
+    "name": "Crane Guardian",
+    "hanviet_name": "",
+    "gender": "Male",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Crane Guardian",
+      "con hạc được chạm khắc sống động như thật biến thành một nhân vật",
+      "người đàn ông trán đỏ bừng"
+    ],
+    "honorifics": "",
+    "speech_style": "Not explicitly shown, but acts as a guardian",
+    "notes": "A guardian of the Shenxing Association, transformed from a crane carving. Described with white hair, a youthful face, a red forehead, wearing a black and white robe, and having empty, lifeless eyes. A master of the Soul Transformation Stage."
+  },
+  {
+    "name": "Chu Long tự",
+    "hanviet_name": "Chu Long Tự",
+    "gender": "Unknown",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Chu Long tự",
+      "Chu Long Tự"
+    ],
+    "honorifics": "",
+    "speech_style": "Unknown",
+    "notes": "Mentioned as someone who hasn't returned to Huyền Di cung."
+  },
+  {
+    "name": "Cung Huyền Nhất",
+    "hanviet_name": "Cung Huyền Nhất",
+    "gender": "Male",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Cung Huyền Nhất"
+    ],
+    "honorifics": "Not applicable",
+    "speech_style": "Not applicable (discussed, not speaking)",
+    "notes": "Possesses an 'all-spirit body' (cơ thể toàn linh)."
+  },
+  {
+    "name": "Diêm Vương",
+    "hanviet_name": "Yan Wang",
+    "gender": "unknown",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Diêm Vương",
+      "Yan Wang"
+    ],
+    "honorifics": "Vương",
+    "speech_style": "",
+    "notes": "King Yama, often associated with the underworld."
+  },
+  {
+    "name": "Tiêu Khắc",
+    "hanviet_name": "Tiêu Khắc",
+    "gender": "Unknown",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Tiêu Khắc"
+    ],
+    "honorifics": null,
+    "speech_style": null,
+    "notes": "He Qingxuan is very hostile towards this person. Potentially the 'master' who revived Changlin Xianzun."
+  },
+  {
+    "name": "Cửu Âm Hungry Ghost",
+    "hanviet_name": "Cửu Âm Ngạ Quỷ",
+    "gender": "unknown",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Cửu Âm Hungry Ghost",
+      "Cửu Âm Ngạ Quỷ"
+    ],
+    "honorifics": "",
+    "speech_style": "",
+    "notes": "An entity from the Hungry Ghost Kingdom, contracted by the Gongsun family's eldest daughter."
+  },
+  {
+    "name": "Ma vương Shuwang",
+    "hanviet_name": "Ma Vương Thụ Vương",
+    "gender": "unknown",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Ma vương Shuwang",
+      "Ma Vương Thụ Vương"
+    ],
+    "honorifics": "",
+    "speech_style": "",
+    "notes": "A devil king who previously restrained Ma hoàng in cooperation with Hoàng đế Địa ngục."
+  },
+  {
+    "name": "Trường Lâm Tiên Quân",
+    "hanviet_name": "Trường Lâm Tiên Quân",
+    "gender": "Unknown",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Trường Lâm Tiên Quân"
+    ],
+    "honorifics": "Tiên Quân (Immortal Lord/Monarch)",
+    "speech_style": "N/A",
+    "notes": "Past figure, injured."
+  },
+  {
+    "name": "Hades",
+    "hanviet_name": "",
+    "gender": "Unknown",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Hades"
+    ],
+    "honorifics": "hoàng đế",
+    "speech_style": "Formal",
+    "notes": "Organizes events; addressed as Emperor."
+  },
+  {
+    "name": "Hades Emperor",
+    "hanviet_name": "Địa Ngục Hoàng Đế (地狱皇帝)",
+    "gender": "Male",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Hades Emperor",
+      "Địa Ngục Hoàng Đế (地狱皇帝)"
+    ],
+    "honorifics": "Emperor",
+    "speech_style": "",
+    "notes": "An ally or informant, mentioned in the context of past events."
+  },
+  {
+    "name": "Hàn Nhất",
+    "hanviet_name": "Hàn Nhất",
+    "gender": "Male",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Hàn Nhất"
+    ],
+    "honorifics": "Anh",
+    "speech_style": "N/A",
+    "notes": "He Qingxuan's companion/love interest, known for patience."
+  },
+  {
+    "name": "Tiền bối",
+    "hanviet_name": "",
+    "gender": "Unknown",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Tiền bối"
+    ],
+    "honorifics": "Tiền bối (Senior)",
+    "speech_style": "Wise, benevolent (recorded message)",
+    "notes": "The creator of the ancient tomb and the knowledge within."
+  },
+  {
+    "name": "Hades hoàng đế",
+    "hanviet_name": "",
+    "gender": "male",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Hades hoàng đế"
+    ],
+    "honorifics": "Hoàng đế",
+    "speech_style": "Angry (implied)",
+    "notes": "Trapped/observing."
+  },
+  {
+    "name": "Feng Zu",
+    "hanviet_name": "Phượng Tổ",
+    "gender": "Female",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Feng Zu",
+      "Phượng Tổ",
+      "cô bé Phùng tộc",
+      "cô bé"
+    ],
+    "honorifics": "",
+    "speech_style": "Mature, confident, powerful",
+    "notes": "Former Demon Emperor, leader of the demon race. Currently revived as a remnant soul in the form of a little girl. Possesses immense power and memories."
+  },
+  {
+    "name": "Tiên Vương",
+    "hanviet_name": "Tiên Vương",
+    "gender": "Female",
+    "third_person_pronoun": "",
+    "aliases": [
+      "Tiên Vương",
+      "nàng tiên nhỏ của mình"
+    ],
+    "honorifics": "Tiên Vương",
+    "speech_style": "",
+    "notes": "The 'lost lover' Ying Hanyi has been waiting for. Her true name is not yet revealed, only her title."
   }
 ]
