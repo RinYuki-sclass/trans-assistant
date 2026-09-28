@@ -334,7 +334,17 @@ Kẻ trị thuỷ]
 - [Chap 338] 치료 스킬 | healing skill -> kỹ năng trị liệu (Tên title/skill) - Kỹ năng hồi máu/trị liệu
 - [Chap 338] 애견카페 | dog cafe -> quán cà phê chó (Địa điểm) - Nơi Choi Suryeon làm việc bán thời gian
 - [Chap 347] 올림픽 대로 | Olympic Boulevard -> Đại lộ Olympic (Địa điểm)
+- [Chap 347] 사평대로 | Sapyeong Road -> Đường Sapyeong (Địa điểm)
+- [Chap 347] 반포대교 | Banpo Bridge -> Cầu Banpo (Địa điểm)
+- [Chap 347] 강변북로 | Gangbyeon Expressway -> Đường cao tốc Gangbyeon (Địa điểm)
+- [Chap 347] 대련공항 | Dalian Airport -> Sân bay Đại Liên (Địa điểm)
+- [Chap 347] 단동 | Dandong -> Đan Đông (Địa điểm)
 - [Chap 354] 이완용 | Lee Wanyong -> Lee Wanyong (Tên nhân vật) - Cựu Trưởng phòng Nhân sự Hiệp hội phản quốc
+- [Chap 354] 조호 특구 | Chao Lake Special District -> Đặc khu Hồ Sào (Địa điểm) - Đặc khu quản lý thức tỉnh giả tại hồ Sào, TQ
+- [Chap 354] 노산도 | Mushan Island -> Đảo Mẫu Sơn (Địa điểm) - Đảo trên hồ Sào, nơi đặt cơ sở giam giữ
+- [Chap 354] 제1 특수각성자관리시설 | Special Awakened People Management Facility 1 -> Cơ sở Quản lý Thức tỉnh giả Đặc biệt số 1 (Địa điểm) - Phân khu giam giữ trên đảo Mẫu Sơn
+- [Chap 354] 상해 | Shanghai -> Thượng Hải (Địa điểm) - Đô thị lớn TQ gần đặc khu Sào Hồ
+- [Chap 354] 인사부장 | human resources department head -> Trưởng phòng Nhân sự (Thuật ngữ) - Chức vụ cũ của Lee Wanyong tại Hiệp hội Thợ săn Hàn Quốc
 - [Chap 356] 단운비 | Duan Yunfei -> Đoạn Vân Phi (Tên nhân vật) - Nữ Thức tỉnh giả ngoài 30 tuổi, Võ Lâm Minh Chủ
 - [Chap 356] 무림맹 맹주 | Wulin Alliance Leader -> Võ Lâm Minh Chủ (Thuật ngữ) - Thủ lĩnh Võ Lâm Minh
 - [Chap 356] 창파오 | Changpao -> Trường bào (Thuật ngữ) - Trang phục truyền thống Trung Hoa
@@ -351,6 +361,14 @@ Kẻ trị thuỷ]
 - [Chap 356] 의천도룡기 | The Heaven Sword and Dragon Saber -> Ỷ Thiên Đồ Long Ký (Thuật ngữ) - Phim truyền hình / tiểu thuyết kiếm hiệp Kim Dung
 - [Chap 356] 무간도 | Infernal Affairs -> Vô Gian Đạo (Thuật ngữ) - Phim điện ảnh hình cảnh mafia Hồng Kông
 - [Chap 356] 새끼 양 | Lamb -> Cừu non / Hắc Dương non (Songie) (Tên ma thú) - Hoả Sơn Hắc Dương non, ma thú theo chân Song Taewon
+- [Chap 359] 황림 | Hwang Rim -> Hoàng Lâm (Tên nhân vật) - Thợ săn cấp S Trung Quốc
+- [Chap 359] 초화운 | Cho Hwa-woon -> Sở Hoa Vân (Tên nhân vật) - Thợ săn cấp S Trung Quốc
+- [Chap 359] 도깨비왕 | Dokkaebi King -> Vua Dokkaebi (Tên title/skill) - Danh hiệu của Yoon Yoon
+- [Chap 360] 운이 | Woon-ie -> A Vân (Tên nhân vật) - Cách Hoàng Lâm gọi Sở Hoa Vân
+- [Chap 361] 관 낭자 | Guan Lang-ja -> Quan Nương Tử (Tên nhân vật) - Nữ thợ săn cấp S Trung Quốc
+- [Chap 362] 수룡 | Water Dragon -> Thủy Long (Tên ma thú) - Rồng nước ở bể nuôi
+- [Chap 363] 무림맹 | Murim Alliance -> Võ Lâm Minh (Thuật ngữ) - Thế lực bang hội đối lập tại TQ
+- [Chap 364] 김 서방 | Kim Seobang -> đại ca Kim (Thuật ngữ) - Dokkaebi gọi Yoojin
 - 한신 길드 | Hanshin Guild -> Hội Hanshin (Địa điểm)
 - 세성 길드 | Seseong Guild -> Hội Sesung (Địa điểm)
 - 브레이커 길드 | Breaker Guild -> Hội Breaker (Địa điểm)
@@ -388,16 +406,6 @@ Kẻ trị thuỷ]
 -  | Point store -> Cửa hàng điểm (Tên title/skill)
 -  | Final Gate -> Chung Môn (Tên title/skill)
 - 하얀 새 | White Bird -> Chim Trắng (Tên nhân vật)
-- 사평대로 | Sapyeong Road -> Đường Sapyeong (Địa điểm)
-- 반포대교 | Banpo Bridge -> Cầu Banpo (Địa điểm)
-- 강변북로 | Gangbyeon Expressway -> Đường cao tốc Gangbyeon (Địa điểm)
-- 대련공항 | Dalian Airport -> Sân bay Đại Liên (Địa điểm)
-- 단동 | Dandong -> Đan Đông (Địa điểm)
-- 조호 특구 | Chao Lake Special District -> Đặc khu Hồ Sào (Địa điểm) - Đặc khu quản lý thức tỉnh giả tại hồ Sào, TQ
-- 노산도 | Mushan Island -> Đảo Mẫu Sơn (Địa điểm) - Đảo trên hồ Sào, nơi đặt cơ sở giam giữ
-- 제1 특수각성자관리시설 | Special Awakened People Management Facility 1 -> Cơ sở Quản lý Thức tỉnh giả Đặc biệt số 1 (Địa điểm) - Phân khu giam giữ trên đảo Mẫu Sơn
-- 상해 | Shanghai -> Thượng Hải (Địa điểm) - Đô thị lớn TQ gần đặc khu Sào Hồ
-- 인사부장 | human resources department head -> Trưởng phòng Nhân sự (Thuật ngữ) - Chức vụ cũ của Lee Wanyong tại Hiệp hội Thợ săn Hàn Quốc
 
 ### 3.2. Thuật ngữ Dự thảo (Do Trans tạm đặt ở các chap đi trước - Chờ QC duyệt):
 - [Chap 32] 높은 | High-rank -> cấp cao (Thuật ngữ)
@@ -455,7 +463,6 @@ Kẻ trị thuỷ]
 - [Chap 125] 최초의 불의 정령 | First Flame Elemental ->  (Thuật ngữ)
 - [Chap 131] 서동백 | Seo Dongbaek ->  (Tên nhân vật)
 - [Chap 132] 붉은 픽스 벌 | Red Pix Bees ->  (Tên ma thú)
-- [Chap 359] 황림 | Hwang Rim -> Hoàng Lâm (Tên nhân vật) - Thợ săn cấp S Trung Quốc
 - 라우치타스 | Lauchitas -> Rauchitas (Tên ma thú)
 - 게이트석 | Gate Stone -> Môn thạch (Tên vật phẩm)
 - 양육자 | Caregiver -> Người nuôi dưỡng (Tên title/skill)
@@ -860,11 +867,4 @@ attack skills -> kỹ năng sát thương (Thuật ngữ)
 - 어린혼돈 | Young Chaos -> Hỗn Độn Nguyên Sơ (Tên nhân vật)
 - 군림자의 검 | Encroaching Ruler’s Sword -> Quân Lâm Chi Kiếm (Tên vật phẩm)
 - 흑룡의 심장 조각 | Black Dragon’s Heart Fragment -> Mảnh Tim Hắc Long (Tên vật phẩm)
-- 초화운 | Cho Hwa-woon -> Sở Hoa Vân (Tên nhân vật) - Thợ săn cấp S Trung Quốc
-- 운이 | Woon-ie -> A Vân (Tên nhân vật) - Cách Hoàng Lâm gọi Sở Hoa Vân
-- 관 낭자 | Guan Lang-ja -> Quan Nương Tử (Tên nhân vật) - Nữ thợ săn cấp S Trung Quốc
-- 수룡 | Water Dragon -> Thủy Long (Tên ma thú) - Rồng nước ở bể nuôi
-- 무림맹 | Murim Alliance -> Võ Lâm Minh (Thuật ngữ) - Thế lực bang hội đối lập tại TQ
-- 김 서방 | Kim Seobang -> đại ca Kim (Thuật ngữ) - Dokkaebi gọi Yoojin
-- 도깨비왕 | Dokkaebi King -> Vua Dokkaebi (Tên title/skill) - Danh hiệu của Yoon Yoon
 
