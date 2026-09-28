@@ -964,7 +964,7 @@
     "original": "经脉",
     "translation": "Kinh mạch",
     "hanviet": "Kinh mạch",
-    "category": "other",
+    "category": "Cultivation/Body",
     "confidence": 0.0,
     "approved": true,
     "chapter_first_seen": "ch_006"
@@ -2358,7 +2358,7 @@
   {
     "original": "bùa chú",
     "translation": "spell / charm",
-    "hanviet": "",
+    "hanviet": "bùa chú (符咒)",
     "category": "Magic/Supernatural",
     "confidence": 0.9,
     "approved": true,
@@ -2439,7 +2439,7 @@
   {
     "original": "tu luyện ma quỷ",
     "translation": "demon cultivation",
-    "hanviet": "",
+    "hanviet": "Ma quỷ tu luyện",
     "category": "Cultivation",
     "confidence": 0.9,
     "approved": true,
@@ -2493,7 +2493,7 @@
   {
     "original": "Thử Thách Đốt Bầu Trời",
     "translation": "Burning Sky Challenge",
-    "hanviet": "",
+    "hanviet": "Thử Thiên Hỏa",
     "category": "Event",
     "confidence": 0.9,
     "approved": true,
@@ -2619,7 +2619,7 @@
   {
     "original": "bí cảnh",
     "translation": "secret realm",
-    "hanviet": "",
+    "hanviet": "Thế giới kỹ năng bí mật",
     "category": "Cultivation location",
     "confidence": 0.9,
     "approved": true,
@@ -2862,7 +2862,7 @@
   {
     "original": "Đạo hữu",
     "translation": "Fellow Daoist / Fellow Cultivator",
-    "hanviet": "",
+    "hanviet": "Đạo Hữu",
     "category": "Honorific/Term of address",
     "confidence": 1.0,
     "approved": true,
@@ -2880,7 +2880,7 @@
   {
     "original": "kiếm",
     "translation": "sword",
-    "hanviet": "",
+    "hanviet": "Thanh Kiếm",
     "category": "Weapon",
     "confidence": 1.0,
     "approved": true,
@@ -3195,7 +3195,7 @@
   {
     "original": "tu vi",
     "translation": "cultivation base",
-    "hanviet": "",
+    "hanviet": "tu vi",
     "category": "Cultivation Concept",
     "confidence": 0.9,
     "approved": true,
@@ -3204,7 +3204,7 @@
   {
     "original": "tà khí",
     "translation": "evil energy",
-    "hanviet": "",
+    "hanviet": "tà khí",
     "category": "Cultivation Concept",
     "confidence": 0.9,
     "approved": true,
@@ -3321,7 +3321,7 @@
   {
     "original": "Mộc hệ",
     "translation": "Wood element",
-    "hanviet": "",
+    "hanviet": "Mộc hệ",
     "category": "Cultivation term (elemental affinity)",
     "confidence": 0.9,
     "approved": true,
@@ -3398,5 +3398,1976 @@
     "confidence": 0.9,
     "approved": true,
     "chapter_first_seen": "ch_030"
+  },
+  {
+    "original": "Ma lực",
+    "translation": "Demonic power",
+    "hanviet": "Ma lực",
+    "category": "Cultivation/Energy",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_049"
+  },
+  {
+    "original": "Song tu",
+    "translation": "dual cultivation",
+    "hanviet": "Song tu",
+    "category": "Cultivation",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_050"
+  },
+  {
+    "original": "Tiểu Tiên Vương",
+    "translation": "Little Immortal Lord / Young Immortal Lord",
+    "hanviet": "Tiểu Tiên Vương",
+    "category": "Title",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_050"
+  },
+  {
+    "original": "Đạo gia khế ước",
+    "translation": "Daoist couple contract / Daoist partners contract",
+    "hanviet": "Đạo gia khế ước",
+    "category": "Relationship/Cultivation",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_050"
+  },
+  {
+    "original": "đại cảnh giới",
+    "translation": "major realm",
+    "hanviet": "Đại Cảnh Giới",
+    "category": "Cultivation",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_052"
+  },
+  {
+    "original": "tinh thể quy tắc",
+    "translation": "rule crystal",
+    "hanviet": "Tinh Thể Quy Tắc",
+    "category": "Cultivation/Magic",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_052"
+  },
+  {
+    "original": "biển ý thức",
+    "translation": "sea of consciousness",
+    "hanviet": "Ý thức hải",
+    "category": "Cultivation concept",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_054"
+  },
+  {
+    "original": "rừng rậm và rừng rậm",
+    "translation": "law of the jungle / dog-eat-dog world (figurative); jungles and forests (literal)",
+    "hanviet": "",
+    "category": "Idiom/Figurative language",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_054"
+  },
+  {
+    "original": "Đạo",
+    "translation": "Dao / Path / Way",
+    "hanviet": "Đạo",
+    "category": "Cultivation concept/Philosophy",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_054"
+  },
+  {
+    "original": "bình dân",
+    "translation": "common people / mortals",
+    "hanviet": "Bình Dân",
+    "category": "Social class/Demographic",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_054"
+  },
+  {
+    "original": "lập khế ước",
+    "translation": "make a contract / form a pact",
+    "hanviet": "",
+    "category": "General term (with cultivation implications)",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_054"
+  },
+  {
+    "original": "mảng dịch chuyển",
+    "translation": "teleportation array / transfer array",
+    "hanviet": "",
+    "category": "Cultivation artifact/Mechanism",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_054"
+  },
+  {
+    "original": "dịch chuyển tức thời",
+    "translation": "teleportation / instantaneous movement",
+    "hanviet": "",
+    "category": "Cultivation technique/Phenomenon",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_054"
+  },
+  {
+    "original": "yêu ma thề",
+    "translation": "demonic vow / devil's oath",
+    "hanviet": "",
+    "category": "Cultivation concept/Pact",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_054"
+  },
+  {
+    "original": "lão tổ",
+    "translation": "old ancestor / patriarch",
+    "hanviet": "Lão Tổ",
+    "category": "Title/Family relation",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_054"
+  },
+  {
+    "original": "Phi Thiên Thần Tông",
+    "translation": "Flying Heaven Divine Sect",
+    "hanviet": "",
+    "category": "Organization/Sect",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_055"
+  },
+  {
+    "original": "Hoàng đế Miexu",
+    "translation": "Emperor Miexu",
+    "hanviet": "Hoàng đế Miexu",
+    "category": "Title/Name",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_055"
+  },
+  {
+    "original": "nội ma",
+    "translation": "inner demon / heart demon",
+    "hanviet": "",
+    "category": "Cultivation term",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_055"
+  },
+  {
+    "original": "biến đổi thần thánh",
+    "translation": "divine transformation",
+    "hanviet": "",
+    "category": "Cultivation term",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_055"
+  },
+  {
+    "original": "truyền giọng nói",
+    "translation": "voice transmission",
+    "hanviet": "",
+    "category": "Cultivation Term",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_056"
+  },
+  {
+    "original": "tu sĩ chính nghĩa",
+    "translation": "righteous cultivators",
+    "hanviet": "",
+    "category": "Cultivation Term",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_056"
+  },
+  {
+    "original": "lời thề nội ma",
+    "translation": "inner demon oath",
+    "hanviet": "",
+    "category": "Cultivation Term",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_056"
+  },
+  {
+    "original": "Tôn Hoàng",
+    "translation": "Honored Emperor / Revered Emperor",
+    "hanviet": "Tôn Hoàng (尊皇)",
+    "category": "Title",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_057"
+  },
+  {
+    "original": "Demonic Path / Devil Path",
+    "translation": "Ma đạo",
+    "hanviet": "Ma Đạo (魔道)",
+    "category": "Cultivation Path/Faction",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_057"
+  },
+  {
+    "original": "Hoàng thượng",
+    "translation": "Your Majesty / Emperor",
+    "hanviet": "Hoàng Thượng (皇上)",
+    "category": "Title",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_057"
+  },
+  {
+    "original": "Mười Bốn Sương",
+    "translation": "Fourteen Frosts",
+    "hanviet": "",
+    "category": "Item/Weapon",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_058"
+  },
+  {
+    "original": "Vương quốc Nguyên Anh",
+    "translation": "Nascent Soul Realm",
+    "hanviet": "",
+    "category": "Cultivation Realm",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_058"
+  },
+  {
+    "original": "Hạo Nhiên chính nghĩa",
+    "translation": "Haoran Righteousness / Vast Righteousness",
+    "hanviet": "Hạo Nhiên chính nghĩa",
+    "category": "Concept/Power",
+    "confidence": 0.8,
+    "approved": true,
+    "chapter_first_seen": "ch_058"
+  },
+  {
+    "original": "Diêm Tâm",
+    "translation": "Yan Xin / Flame Heart",
+    "hanviet": "Diêm Tâm",
+    "category": "Object/Location/Person",
+    "confidence": 0.7,
+    "approved": true,
+    "chapter_first_seen": "ch_058"
+  },
+  {
+    "original": "Trái tim lửa",
+    "translation": "Heart of Fire",
+    "hanviet": "",
+    "category": "Item/Treasure",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_058"
+  },
+  {
+    "original": "Đệ tử thuần hỏa",
+    "translation": "Pure fire disciple",
+    "hanviet": "Đệ tử thuần hỏa",
+    "category": "Character Type",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_059"
+  },
+  {
+    "original": "Thử thách đốt trời",
+    "translation": "Heaven-burning Challenge",
+    "hanviet": "Thử thách đốt trời",
+    "category": "Location/Event",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_060"
+  },
+  {
+    "original": "Hoàng đế",
+    "translation": "Emperor",
+    "hanviet": "Hoàng đế",
+    "category": "Title/Honorific",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_060"
+  },
+  {
+    "original": "Thổ hỏa",
+    "translation": "Earth Fire",
+    "hanviet": "Thổ hỏa",
+    "category": "Cultivation Term/Element",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_060"
+  },
+  {
+    "original": "Hỏa Thiên Thần Tông",
+    "translation": "Fire Heaven Divine Sect",
+    "hanviet": "Hỏa Thiên Thần Tông",
+    "category": "Organization/Sect",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_060"
+  },
+  {
+    "original": "Luyện kim thuật",
+    "translation": "Alchemy",
+    "hanviet": "Luyện kim thuật",
+    "category": "Practice/Skill",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_060"
+  },
+  {
+    "original": "Địa hỏa",
+    "translation": "Ground Fire",
+    "hanviet": "Địa hỏa",
+    "category": "Cultivation Term/Element",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_060"
+  },
+  {
+    "original": "Thử thách Đốt Thiên",
+    "translation": "Burning Heaven Challenge",
+    "hanviet": "Đốt Thiên",
+    "category": "Event/Location",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_061"
+  },
+  {
+    "original": "Burning Heaven Sect",
+    "translation": "Burning Heaven Sect",
+    "hanviet": "Đốt Thiên Tông",
+    "category": "Organization/Sect",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_061"
+  },
+  {
+    "original": "Thuần Hỏa Nguyên Tố",
+    "translation": "Pure Fire Element",
+    "hanviet": "Thuần Hỏa Nguyên Tố",
+    "category": "Cultivation concept/Attribute",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_062"
+  },
+  {
+    "original": "Tu vi trì trệ",
+    "translation": "Stagnant Cultivation",
+    "hanviet": "Tu Vi Trì Trệ",
+    "category": "Cultivation concept",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_062"
+  },
+  {
+    "original": "bí bảo",
+    "translation": "secret treasure / artifact",
+    "hanviet": "",
+    "category": "Magical Item",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_064"
+  },
+  {
+    "original": "lửa độc",
+    "translation": "poisonous fire / malignant fire",
+    "hanviet": "",
+    "category": "Magical Element",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_064"
+  },
+  {
+    "original": "tiên nhân",
+    "translation": "immortal / cultivator",
+    "hanviet": "",
+    "category": "Title/Role",
+    "confidence": 0.8,
+    "approved": true,
+    "chapter_first_seen": "ch_064"
+  },
+  {
+    "original": "hạt chống cháy",
+    "translation": "fire-resistant bead",
+    "hanviet": "",
+    "category": "Magical Item",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_064"
+  },
+  {
+    "original": "nửa tách trà",
+    "translation": "half a cup of tea (idiom for a short period of time)",
+    "hanviet": "",
+    "category": "Time Measurement/Idiom",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_064"
+  },
+  {
+    "original": "vũ khí ma thuật",
+    "translation": "magic weapon / magical artifact",
+    "hanviet": "",
+    "category": "Magical Item",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_064"
+  },
+  {
+    "original": "bẩm sinh linh hỏa",
+    "translation": "innate spiritual fire",
+    "hanviet": "",
+    "category": "Magical Element/Ability",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_064"
+  },
+  {
+    "original": "lưới trời và đất",
+    "translation": "Heaven and Earth Net (inescapable trap)",
+    "hanviet": "",
+    "category": "Idiom/Technique",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_064"
+  },
+  {
+    "original": "lửa linh hồn",
+    "translation": "soul fire / spirit fire",
+    "hanviet": "",
+    "category": "Magical Element",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_064"
+  },
+  {
+    "original": "Tiên Vương",
+    "translation": "Immortal King",
+    "hanviet": "Tiên Vương (仙王)",
+    "category": "Title",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_065"
+  },
+  {
+    "original": "Thẩm sư huynh",
+    "translation": "Senior Brother Shen",
+    "hanviet": "Thẩm sư huynh (沈師兄)",
+    "category": "Honorific",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_065"
+  },
+  {
+    "original": "Hỏa thú",
+    "translation": "Fire beast",
+    "hanviet": "Hỏa thú (火獸)",
+    "category": "Creature",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_065"
+  },
+  {
+    "original": "Linh dược",
+    "translation": "Spiritual medicine / Elixir",
+    "hanviet": "Linh dược (靈藥)",
+    "category": "Item",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_065"
+  },
+  {
+    "original": "Kim Tiên",
+    "translation": "Golden Immortal",
+    "hanviet": "Kim Tiên (金仙)",
+    "category": "Cultivation Realm",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_065"
+  },
+  {
+    "original": "Tinh thần lực",
+    "translation": "Spiritual power / Mental power",
+    "hanviet": "Tinh thần lực",
+    "category": "Cultivation term",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_066"
+  },
+  {
+    "original": "Hỏa long",
+    "translation": "Fire dragon",
+    "hanviet": "Hỏa long",
+    "category": "Creature",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_067"
+  },
+  {
+    "original": "毒火 (dú huǒ)",
+    "translation": "Fire Poison",
+    "hanviet": "Hỏa độc",
+    "category": "Affliction",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_068"
+  },
+  {
+    "original": "天空挑战 (Tiānkōng tiǎozhàn)",
+    "translation": "Sky Challenge",
+    "hanviet": "Thiên Không Khiêu Chiến",
+    "category": "Location/Event",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_068"
+  },
+  {
+    "original": "冰冻阵法 (bīngdòng zhènfǎ)",
+    "translation": "Freezing Formation/Array",
+    "hanviet": "Băng Đống Trận Pháp",
+    "category": "Magical Technique",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_068"
+  },
+  {
+    "original": "仙主 (Xiān zhǔ)",
+    "translation": "Immortal Lord/God",
+    "hanviet": "Tiên Chủ",
+    "category": "Title/Honorific",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_068"
+  },
+  {
+    "original": "Bất Tử Vương",
+    "translation": "Undying King",
+    "hanviet": "Bất Tử Vương (不死王)",
+    "category": "Title/Entity",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_069"
+  },
+  {
+    "original": "trường kiếm",
+    "translation": "Longsword",
+    "hanviet": "",
+    "category": "Weapon",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_070"
+  },
+  {
+    "original": "Hỏa Thiên thử luyện",
+    "translation": "Fire Heaven Trial",
+    "hanviet": "Hỏa Thiên thử luyện",
+    "category": "Event/Location",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_070"
+  },
+  {
+    "original": "Chúa tể Ma đạo",
+    "translation": "Demonic Lord",
+    "hanviet": "Chúa tể Ma đạo",
+    "category": "Title/Entity",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_070"
+  },
+  {
+    "original": "hóa thân",
+    "translation": "Incarnation/Clone",
+    "hanviet": "hóa thân",
+    "category": "Cultivation Concept",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_070"
+  },
+  {
+    "original": "mười bốn hạt sương",
+    "translation": "Fourteen Frost Beads",
+    "hanviet": "",
+    "category": "Item",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_070"
+  },
+  {
+    "original": "Năng lượng băng giá",
+    "translation": "Icy Energy",
+    "hanviet": "",
+    "category": "Energy",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_070"
+  },
+  {
+    "original": "năng lượng kiếm",
+    "translation": "Sword Energy",
+    "hanviet": "",
+    "category": "Energy",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_070"
+  },
+  {
+    "original": "giai đoạn hóa thần thần thánh",
+    "translation": "Divine Transformation Stage",
+    "hanviet": "giai đoạn hóa thần thần thánh",
+    "category": "Cultivation Stage",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_070"
+  },
+  {
+    "original": "yêu giới",
+    "translation": "Demon World / Monster World",
+    "hanviet": "yêu giới",
+    "category": "Realm/Location",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_070"
+  },
+  {
+    "original": "度魂曲",
+    "translation": "Độ Hồn Khúc",
+    "hanviet": "Độ Hồn Khúc",
+    "category": "Music/Skill",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_072"
+  },
+  {
+    "original": "焚天",
+    "translation": "Phần Thiên",
+    "hanviet": "Phần Thiên",
+    "category": "Character/Name",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_072"
+  },
+  {
+    "original": "火焰心",
+    "translation": "Hỏa Diễm Tâm",
+    "hanviet": "Hỏa Diễm Tâm",
+    "category": "Ingredient/Material",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_072"
+  },
+  {
+    "original": "con rối",
+    "translation": "puppet",
+    "hanviet": "",
+    "category": "object",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_074"
+  },
+  {
+    "original": "Yêu Hoàng",
+    "translation": "Demon Emperor / Monster Emperor",
+    "hanviet": "Yêu Hoàng",
+    "category": "title/rank",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_074"
+  },
+  {
+    "original": "Thân thể toàn linh",
+    "translation": "All-spirit body / Complete spirit body",
+    "hanviet": "",
+    "category": "concept/body type",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_074"
+  },
+  {
+    "original": "Đạo sĩ",
+    "translation": "Daoist priest",
+    "hanviet": "Đạo sĩ",
+    "category": "profession/title",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_074"
+  },
+  {
+    "original": "Miexu Hoàng Đế",
+    "translation": "Miexu Emperor",
+    "hanviet": "Diệt Hư Hoàng Đế",
+    "category": "title/rank",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_074"
+  },
+  {
+    "original": "Taishang Liangyi",
+    "translation": "Taishang Liangyi Scroll/Book",
+    "hanviet": "Thái Thượng Lương Nghi",
+    "category": "Item/Artifact",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_075"
+  },
+  {
+    "original": "khế ước vợ chồng",
+    "translation": "Marital contract / Daoist couple contract",
+    "hanviet": "Đạo Lữ Khế Ước",
+    "category": "Concept/Relationship",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_075"
+  },
+  {
+    "original": "Vương quốc Huyền Thiên Cửu Châu",
+    "translation": "Profound Heaven Nine Provinces Kingdom/Realm",
+    "hanviet": "Huyền Thiên Cửu Châu Vương Quốc",
+    "category": "Location/Realm",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_075"
+  },
+  {
+    "original": "không gian ngoại giới",
+    "translation": "Outer realm space / Extra-territorial realm",
+    "hanviet": "Ngoại Giới Không Gian",
+    "category": "Location/Realm",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_075"
+  },
+  {
+    "original": "正道宗门",
+    "translation": "Righteous Sects",
+    "hanviet": "Giáo phái chính nghĩa",
+    "category": "Cultivation Term",
+    "confidence": 0.8,
+    "approved": true,
+    "chapter_first_seen": "ch_076"
+  },
+  {
+    "original": "域外之地",
+    "translation": "Outer Territory",
+    "hanviet": "Cõi ngoài trái đất",
+    "category": "Location",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_076"
+  },
+  {
+    "original": "元婴长老",
+    "translation": "Nascent Soul Elder",
+    "hanviet": "Nguyên Anh Trưởng Lão",
+    "category": "Cultivation Rank/Title",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_076"
+  },
+  {
+    "original": "鬼王元婴修士",
+    "translation": "Demon King Nascent Soul Cultivator",
+    "hanviet": "Tu sĩ Quỷ Vương Nguyên Anh",
+    "category": "Cultivation Rank/Title",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_076"
+  },
+  {
+    "original": "鬼族",
+    "translation": "Ghost Race",
+    "hanviet": "Tộc quỷ",
+    "category": "Race",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_076"
+  },
+  {
+    "original": "古代战甲",
+    "translation": "Ancient Battle Armor",
+    "hanviet": "Bộ áo giáp cổ xưa",
+    "category": "Item",
+    "confidence": 0.8,
+    "approved": true,
+    "chapter_first_seen": "ch_076"
+  },
+  {
+    "original": "仙丹灵宝",
+    "translation": "Immortal Pills and Spiritual Treasures",
+    "hanviet": "Thuốc tiên và kho báu tâm linh",
+    "category": "Item/Treasure",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_076"
+  },
+  {
+    "original": "古神",
+    "translation": "Ancient God",
+    "hanviet": "Thần cổ xưa",
+    "category": "Deity/Being",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_076"
+  },
+  {
+    "original": "邪灵",
+    "translation": "Evil Spirit",
+    "hanviet": "Linh hồn tà ác",
+    "category": "Being/Concept",
+    "confidence": 0.8,
+    "approved": true,
+    "chapter_first_seen": "ch_076"
+  },
+  {
+    "original": "回元丹",
+    "translation": "Return Origin Pill",
+    "hanviet": "Hồi Nguyên Đan",
+    "category": "Item/Pill",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_076"
+  },
+  {
+    "original": "流光",
+    "translation": "Flowing Light / Streaks of Light",
+    "hanviet": "Lưu Quang",
+    "category": "Cultivation Term/Movement",
+    "confidence": 0.8,
+    "approved": true,
+    "chapter_first_seen": "ch_076"
+  },
+  {
+    "original": "Thần hội",
+    "translation": "Divine Association",
+    "hanviet": "Thần Hội (神會)",
+    "category": "Organization/Place",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_077"
+  },
+  {
+    "original": "Thời Kỳ Đại Nạn",
+    "translation": "Great Tribulation Period",
+    "hanviet": "Đại Nạn Thời Kỳ (大難時期)",
+    "category": "Cultivation Realm/Period",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_077"
+  },
+  {
+    "original": "ý nghĩa của băng",
+    "translation": "Ice Intent",
+    "hanviet": "Băng Ý (冰意)",
+    "category": "Cultivation Concept/Power",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_077"
+  },
+  {
+    "original": "Biến Hình Thần Tôn giả",
+    "translation": "Transformation God Venerable (title/rank)",
+    "hanviet": "",
+    "category": "Title/Rank",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_078"
+  },
+  {
+    "original": "quân cờ",
+    "translation": "chess piece / pawn",
+    "hanviet": "",
+    "category": "Metaphorical term",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_078"
+  },
+  {
+    "original": "thế giới bên ngoài",
+    "translation": "outer world / outside world",
+    "hanviet": "",
+    "category": "Location / Setting",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_078"
+  },
+  {
+    "original": "trận pháp hư không",
+    "translation": "Void Formation / Spatial Formation",
+    "hanviet": "Trận pháp hư không",
+    "category": "Cultivation technique/item",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_080"
+  },
+  {
+    "original": "khí tức",
+    "translation": "aura / qi / breath",
+    "hanviet": "Khí tức",
+    "category": "Cultivation concept",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_080"
+  },
+  {
+    "original": "linh hồn chính",
+    "translation": "main soul",
+    "hanviet": "",
+    "category": "Cultivation concept",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_081"
+  },
+  {
+    "original": "tu sĩ băng",
+    "translation": "ice cultivator",
+    "hanviet": "",
+    "category": "Cultivation type",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_081"
+  },
+  {
+    "original": "yêu rắn",
+    "translation": "snake demon",
+    "hanviet": "",
+    "category": "Race/Creature",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_081"
+  },
+  {
+    "original": "Sư tỷ",
+    "translation": "Senior disciple sister",
+    "hanviet": "Sư tỷ",
+    "category": "Relationship/Title",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_083"
+  },
+  {
+    "original": "Sư đệ",
+    "translation": "Junior disciple brother",
+    "hanviet": "Sư đệ",
+    "category": "Relationship/Title",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_083"
+  },
+  {
+    "original": "Tiên Minh",
+    "translation": "Immortal Alliance",
+    "hanviet": "Tiên Minh",
+    "category": "Organization",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_084"
+  },
+  {
+    "original": "Người bất tử",
+    "translation": "Immortals",
+    "hanviet": "Người bất tử",
+    "category": "Being",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_084"
+  },
+  {
+    "original": "tu sĩ chân chính",
+    "translation": "true cultivators",
+    "hanviet": "Tu Sĩ Chân Chính",
+    "category": "Occupation/Group",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_084"
+  },
+  {
+    "original": "sự bất tử",
+    "translation": "immortality",
+    "hanviet": "Bất Tử",
+    "category": "Concept",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_084"
+  },
+  {
+    "original": "truyền tống trận",
+    "translation": "teleportation array",
+    "hanviet": "Truyền Tống Trận",
+    "category": "Magical Item/Formation",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_084"
+  },
+  {
+    "original": "Chùa Zhulong",
+    "translation": "Zhulong Temple",
+    "hanviet": "Chùa Chúc Long",
+    "category": "Place",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_085"
+  },
+  {
+    "original": "Khế ước đạo giáo",
+    "translation": "Daoist contract",
+    "hanviet": "Khế ước đạo giáo",
+    "category": "Cultivation term/Magic",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_085"
+  },
+  {
+    "original": "Hợp đồng vợ chồng Đạo giáo",
+    "translation": "Daoist husband-wife contract",
+    "hanviet": "Hợp đồng vợ chồng Đạo giáo",
+    "category": "Cultivation term/Magic",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_085"
+  },
+  {
+    "original": "Thung lũng Ánh Nguyệt",
+    "translation": "Moonlight Valley",
+    "hanviet": "Ánh Nguyệt Cốc",
+    "category": "Place",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_087"
+  },
+  {
+    "original": "Thần Biến đỉnh cao",
+    "translation": "Peak God Transformation / Peak Divine Transformation",
+    "hanviet": "Thần Biến Đỉnh Phong",
+    "category": "Cultivation Realm",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_087"
+  },
+  {
+    "original": "luộc ếch trong nước ấm",
+    "translation": "boiling a frog in warm water (metaphor for gradual manipulation)",
+    "hanviet": "",
+    "category": "Idiom/Metaphor",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_087"
+  },
+  {
+    "original": "năng lượng ma quỷ hung hãn",
+    "translation": "fierce demonic energy",
+    "hanviet": "",
+    "category": "Magical energy",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_088"
+  },
+  {
+    "original": "chính nghĩa tu sĩ",
+    "translation": "righteous cultivator",
+    "hanviet": "Chính Nghĩa Tu Sĩ",
+    "category": "Character type",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_088"
+  },
+  {
+    "original": "quạt xương",
+    "translation": "bone fan",
+    "hanviet": "",
+    "category": "Item",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_088"
+  },
+  {
+    "original": "Wuhuada",
+    "translation": "Five-Flower Binding (a specific type of binding)",
+    "hanviet": "Ngũ Hoa Đại",
+    "category": "Binding technique",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_088"
+  },
+  {
+    "original": "dòng điện",
+    "translation": "electric current / electric shock",
+    "hanviet": "",
+    "category": "Effect",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_088"
+  },
+  {
+    "original": "Thái Thượng Lương Nhất quyển, Taishang Liangyi Scroll, Thái Thượng Lương Nghi Quyển, Thái Thượng Lương Nghĩa Quyển, Lương Nghi Chí Tôn, Thái Thượng Lương Nghĩa Kinh",
+    "translation": "Taishang Liangyi Scroll, Supreme Liangyi Scripture",
+    "hanviet": "Thái Thượng Lương Nghi Quyển (太上兩儀卷)",
+    "category": "Artifact/Scripture",
+    "confidence": 0.95,
+    "approved": true,
+    "chapter_first_seen": "ch_089"
+  },
+  {
+    "original": "linh hồn thể xác",
+    "translation": "soul and body, entire being",
+    "hanviet": "",
+    "category": "Concept",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_089"
+  },
+  {
+    "original": "Thần Linh Thể",
+    "translation": "Divine Spirit Body",
+    "hanviet": "Thần Linh Thể (神靈體)",
+    "category": "Constitution/Body Type",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_089"
+  },
+  {
+    "original": "Hồn linh thể",
+    "translation": "Soul spirit body",
+    "hanviet": "Hồn linh thể",
+    "category": "Cultivation term",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_090"
+  },
+  {
+    "original": "thần hóa kỳ",
+    "translation": "God Transformation stage",
+    "hanviet": "Thần Hóa Kỳ",
+    "category": "Cultivation stage",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_090"
+  },
+  {
+    "original": "Thái Thượng Lương Nghi Kinh",
+    "translation": "Supreme Liangyi Scripture",
+    "hanviet": "Thái Thượng Lương Nghi Kinh",
+    "category": "Cultivation scripture",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_090"
+  },
+  {
+    "original": "Cấm kỹ cổ xưa",
+    "translation": "Ancient forbidden technique",
+    "hanviet": "Cấm Kỹ",
+    "category": "Cultivation technique",
+    "confidence": 0.8,
+    "approved": true,
+    "chapter_first_seen": "ch_090"
+  },
+  {
+    "original": "Hoàng đế Địa ngục",
+    "translation": "Underworld Emperor / Hades Emperor",
+    "hanviet": "Minh Đế",
+    "category": "Title",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_091"
+  },
+  {
+    "original": "biển máu",
+    "translation": "sea of blood",
+    "hanviet": "Huyết hải",
+    "category": "Location/Concept",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_091"
+  },
+  {
+    "original": "ức chế linh hồn",
+    "translation": "soul suppression / soul-inhibiting",
+    "hanviet": "Ức chế linh hồn",
+    "category": "Cultivation Term",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_091"
+  },
+  {
+    "original": "Thần Transform",
+    "translation": "God Transformation",
+    "hanviet": "Thần Biến",
+    "category": "Cultivation Stage",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_091"
+  },
+  {
+    "original": "chiếm lấy cơ thể",
+    "translation": "take over the body / body snatching",
+    "hanviet": "Chiếm đoạt thân thể",
+    "category": "Cultivation Concept",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_091"
+  },
+  {
+    "original": "Minh Hoàng",
+    "translation": "Your Majesty the Underworld Emperor / Underworld Emperor",
+    "hanviet": "Minh Hoàng",
+    "category": "Title/Honorific",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_091"
+  },
+  {
+    "original": "giới tu hành",
+    "translation": "cultivation world / cultivation realm",
+    "hanviet": "Tu hành giới",
+    "category": "Setting",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_091"
+  },
+  {
+    "original": "Công Tôn gia",
+    "translation": "Gongsun family / Gongsun clan",
+    "hanviet": "Công Tôn gia",
+    "category": "Family Name",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_091"
+  },
+  {
+    "original": "Cửu Âm Hungry Ghost",
+    "translation": "Nine Yin Hungry Ghost",
+    "hanviet": "Cửu Âm Ngạ Quỷ",
+    "category": "Entity Type",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_091"
+  },
+  {
+    "original": "Hungry Ghost Vương quốc",
+    "translation": "Hungry Ghost Kingdom",
+    "hanviet": "Ngạ Quỷ Vương quốc",
+    "category": "Realm/Location",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_091"
+  },
+  {
+    "original": "hung ác ma",
+    "translation": "fierce devil / malevolent demon",
+    "hanviet": "Hung ác ma",
+    "category": "Being Type",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_091"
+  },
+  {
+    "original": "con đường tu luyện ma",
+    "translation": "path of devil cultivation / demonic cultivation path",
+    "hanviet": "Ma tu luyện chi đạo",
+    "category": "Cultivation Concept",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_091"
+  },
+  {
+    "original": "gia chủ",
+    "translation": "family head / clan head",
+    "hanviet": "Gia chủ",
+    "category": "Title",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_091"
+  },
+  {
+    "original": "cái chết hồn",
+    "translation": "soul death / dead soul",
+    "hanviet": "Hồn tử",
+    "category": "Cultivation Concept/State",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_091"
+  },
+  {
+    "original": "kiếp trước",
+    "translation": "previous life",
+    "hanviet": "Tiền kiếp",
+    "category": "Concept",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_091"
+  },
+  {
+    "original": "vạn quỷ cắn nuốt",
+    "translation": "devoured by ten thousand ghosts",
+    "hanviet": "Vạn quỷ thôn phệ",
+    "category": "Cultivation Action/Fate",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_091"
+  },
+  {
+    "original": "gieo rắc sự bất hòa",
+    "translation": "sow discord / instigate conflict",
+    "hanviet": "Gieo rắc bất hòa",
+    "category": "Action/Concept",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_091"
+  },
+  {
+    "original": "Thượng giới",
+    "translation": "Upper Realm",
+    "hanviet": "Thượng Giới",
+    "category": "Location",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_094"
+  },
+  {
+    "original": "Cao thủ biến hình",
+    "translation": "Transformation Master/Expert",
+    "hanviet": "Cao Thủ Biến Hình",
+    "category": "Cultivation Rank/Title",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_094"
+  },
+  {
+    "original": "Thời đại Mạt Pháp",
+    "translation": "End of Dharma Era / Age of Dharma Decline",
+    "hanviet": "Mạt Pháp Thời Đại",
+    "category": "Era/Concept",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_094"
+  },
+  {
+    "original": "Chuyển hóa Thần",
+    "translation": "Spirit Transformation / God Transformation (Cultivation Stage)",
+    "hanviet": "Chuyển Hóa Thần",
+    "category": "Cultivation Stage",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_094"
+  },
+  {
+    "original": "Giai đoạn Kiếp nạn",
+    "translation": "Tribulation Stage / Calamity Stage (Cultivation Stage)",
+    "hanviet": "",
+    "category": "Cultivation Stage",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_094"
+  },
+  {
+    "original": "Giai đoạn hoạn nạn",
+    "translation": "Tribulation Stage",
+    "hanviet": "Giai đoạn hoạn nạn",
+    "category": "Cultivation Term",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_095"
+  },
+  {
+    "original": "Linh hồn",
+    "translation": "Soul",
+    "hanviet": "Linh hồn",
+    "category": "General",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_095"
+  },
+  {
+    "original": "Gongsun",
+    "translation": "Gongsun (family name)",
+    "hanviet": "Công Tôn (公孫)",
+    "category": "Family Name",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_096"
+  },
+  {
+    "original": "Kỳ nạn",
+    "translation": "Calamity / Tribulation",
+    "hanviet": "Kỳ Nạn (奇難)",
+    "category": "Cultivation Stage/Concept",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_096"
+  },
+  {
+    "original": "viên thuốc giải độc cấp bảy",
+    "translation": "seventh-grade antidote pill",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_097"
+  },
+  {
+    "original": "viên thuốc giải độc cấp tám",
+    "translation": "eighth-grade antidote pill",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_097"
+  },
+  {
+    "original": "Minh Vương Xà",
+    "translation": "Netherworld King Snake",
+    "hanviet": "冥王蛇",
+    "category": "creature",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_097"
+  },
+  {
+    "original": "linh dược cấp chín",
+    "translation": "ninth-grade spirit medicine",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_097"
+  },
+  {
+    "original": "viên thuốc giải độc cấp chín",
+    "translation": "ninth-grade antidote pill",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_097"
+  },
+  {
+    "original": "luyện kim sư cấp chín",
+    "translation": "ninth-grade alchemist",
+    "hanviet": "",
+    "category": "profession",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_097"
+  },
+  {
+    "original": "thuốc tiên",
+    "translation": "elixir",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_097"
+  },
+  {
+    "original": "Hoàng đế Hades",
+    "translation": "Hades Emperor",
+    "hanviet": "冥王",
+    "category": "cultivation method",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_097"
+  },
+  {
+    "original": "Thần Biến sơ kỳ",
+    "translation": "early stage of God Transformation",
+    "hanviet": "神變初期",
+    "category": "cultivation stage",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_097"
+  },
+  {
+    "original": "Hàn Dịch ca",
+    "translation": "Brother Hanyi",
+    "hanviet": "Hàn Dịch ca",
+    "category": "Honorific",
+    "confidence": 0.95,
+    "approved": true,
+    "chapter_first_seen": "ch_098"
+  },
+  {
+    "original": "Ngoại giới",
+    "translation": "Outer Territory / Outer Realm",
+    "hanviet": "Ngoại giới",
+    "category": "Location/Concept",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_100"
+  },
+  {
+    "original": "vũ khí thần tiên",
+    "translation": "immortal weapon / divine weapon",
+    "hanviet": "Tiên khí",
+    "category": "Item",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_100"
+  },
+  {
+    "original": "mạch đất",
+    "translation": "earth veins / ley lines",
+    "hanviet": "Địa mạch",
+    "category": "Concept",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_100"
+  },
+  {
+    "original": "thương quán",
+    "translation": "trading post / merchant inn",
+    "hanviet": "Thương quán",
+    "category": "Location",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_100"
+  },
+  {
+    "original": "kiếp nạn",
+    "translation": "tribulation / calamity",
+    "hanviet": "Kiếp nạn",
+    "category": "Event",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_100"
+  },
+  {
+    "original": "Hồi sinh",
+    "translation": "Resurrection / Resurrection method",
+    "hanviet": "",
+    "category": "Cultivation/Magic",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_101"
+  },
+  {
+    "original": "Tinh chế",
+    "translation": "Refine / Refinement",
+    "hanviet": "",
+    "category": "Cultivation",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_101"
+  },
+  {
+    "original": "Đạo Tiên",
+    "translation": "Daoist Immortal",
+    "hanviet": "",
+    "category": "Cultivation/Title",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_101"
+  },
+  {
+    "original": "Người chuyển ma tu sĩ",
+    "translation": "Demon-transforming Cultivator",
+    "hanviet": "",
+    "category": "Cultivation",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_101"
+  },
+  {
+    "original": "đội hình sát thủ",
+    "translation": "assassin formation",
+    "hanviet": "",
+    "category": "Cultivation/Magic",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_103"
+  },
+  {
+    "original": "tàn hồn",
+    "translation": "remnant soul",
+    "hanviet": "Tàn Hồn",
+    "category": "Cultivation/Spiritual",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_103"
+  },
+  {
+    "original": "cường giả",
+    "translation": "powerful individual / strong expert",
+    "hanviet": "",
+    "category": "Cultivation/General",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_103"
+  },
+  {
+    "original": "thể hồn",
+    "translation": "soul body / spirit body",
+    "hanviet": "",
+    "category": "Cultivation/Spiritual",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_103"
+  },
+  {
+    "original": "Huyền Thiên Cửu Châu",
+    "translation": "Profound Heaven Nine Provinces / Nine Continents",
+    "hanviet": "Huyền Thiên Cửu Châu",
+    "category": "Realm/Location",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_104"
+  },
+  {
+    "original": "Gương Sumeru",
+    "translation": "Sumeru Mirror",
+    "hanviet": "Tu Di Kính",
+    "category": "Item/Artifact",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_104"
+  },
+  {
+    "original": "ngũ suy của thiên nhân",
+    "translation": "Five Declines of Heavenly Beings",
+    "hanviet": "Ngũ Suy Thiên Nhân",
+    "category": "Concept/Buddhist Term",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_104"
+  },
+  {
+    "original": "Thái Thượng Lương Nhất",
+    "translation": "Supreme Liang Yi (or Tai Shang Liang Yi)",
+    "hanviet": "Thái Thượng Lưỡng Nghi",
+    "category": "Book/Manual",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_104"
+  },
+  {
+    "original": "Cảnh Kiếp",
+    "translation": "Calamity Tribulation / Calamity Realm",
+    "hanviet": "Cảnh Kiếp",
+    "category": "Concept/Realm",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_105"
+  },
+  {
+    "original": "Huang Liang Yimeng",
+    "translation": "A fleeting dream / A dream of grandeur (Chinese idiom)",
+    "hanviet": "Hoàng Lương Nhất Mộng",
+    "category": "Idiom/Concept",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_105"
+  },
+  {
+    "original": "Phượng tộc",
+    "translation": "Phoenix clan",
+    "hanviet": "Phượng Tộc",
+    "category": "Race/Clan",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_106"
+  },
+  {
+    "original": "thành thần",
+    "translation": "Become a god / Deification",
+    "hanviet": "Thành Thần",
+    "category": "Cultivation achievement",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_106"
+  },
+  {
+    "original": "vượt qua kiếp nạn",
+    "translation": "Overcome tribulation / Pass tribulation",
+    "hanviet": "Vượt Qua Kiếp Nạn",
+    "category": "Cultivation concept",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_106"
+  },
+  {
+    "original": "bí pháp",
+    "translation": "Secret technique / Arcane art",
+    "hanviet": "Bí Pháp",
+    "category": "Cultivation technique",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_106"
+  },
+  {
+    "original": "nghịch thiên",
+    "translation": "Defy heaven / Against heaven / Heaven-defying",
+    "hanviet": "Nghịch Thiên",
+    "category": "Concept/Adjective",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_106"
+  },
+  {
+    "original": "Chùa ăn hồn",
+    "translation": "Soul-devouring Pagoda",
+    "hanviet": "Chùa Ăn Hồn",
+    "category": "Artifact/Weapon",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_106"
+  },
+  {
+    "original": "鬼皇",
+    "translation": "Ghost Emperor",
+    "hanviet": "Quỷ Hoàng",
+    "category": "Title",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_107"
+  },
+  {
+    "original": "隐器",
+    "translation": "Hidden weapon",
+    "hanviet": "Ẩn khí",
+    "category": "Weapon",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_107"
+  },
+  {
+    "original": "九级解毒药",
+    "translation": "Level nine antidote",
+    "hanviet": "Cấp chín giải độc dược",
+    "category": "Medicine",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_107"
+  },
+  {
+    "original": "外域核心",
+    "translation": "Outer domain core",
+    "hanviet": "Ngoại địa hạch tâm",
+    "category": "Item",
+    "confidence": 0.8,
+    "approved": true,
+    "chapter_first_seen": "ch_107"
+  },
+  {
+    "original": "炼成傀儡",
+    "translation": "Refine into a puppet",
+    "hanviet": "Luyện thành khôi lỗi",
+    "category": "Technique",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_107"
+  },
+  {
+    "original": "tiểu quỷ",
+    "translation": "little ghost / minor spirit",
+    "hanviet": "Tiểu quỷ",
+    "category": "Spirit state",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_108"
+  },
+  {
+    "original": "Qimen Dunjia",
+    "translation": "Art of Qimen Dunjia",
+    "hanviet": "Kỳ môn Độn giáp",
+    "category": "Metaphysics/Divination",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_109"
+  },
+  {
+    "original": "Tụ hồn hương",
+    "translation": "Soul-gathering incense",
+    "hanviet": "Tụ hồn hương",
+    "category": "Item/Magic item",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_109"
+  },
+  {
+    "original": "mất trí",
+    "translation": "lose memory, amnesia",
+    "hanviet": "",
+    "category": "condition",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_121"
+  },
+  {
+    "original": "hồi sinh người chết",
+    "translation": "resurrect the dead",
+    "hanviet": "",
+    "category": "action/concept",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_121"
+  },
+  {
+    "original": "linh hồn rời khỏi cơ thể",
+    "translation": "soul leaves the body, out-of-body experience",
+    "hanviet": "",
+    "category": "event/state",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_121"
+  },
+  {
+    "original": "phương pháp thời gian",
+    "translation": "time method, time technique",
+    "hanviet": "",
+    "category": "technique",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_121"
+  },
+  {
+    "original": "quan tài",
+    "translation": "coffin",
+    "hanviet": "",
+    "category": "object",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_121"
+  },
+  {
+    "original": "thi thể ban đầu",
+    "translation": "original body",
+    "hanviet": "",
+    "category": "body part/state",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_121"
+  },
+  {
+    "original": "linh hồn và thể xác dung hợp",
+    "translation": "soul and body fusion",
+    "hanviet": "",
+    "category": "process",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_121"
+  },
+  {
+    "original": "viên thuốc",
+    "translation": "pill",
+    "hanviet": "",
+    "category": "item",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_121"
+  },
+  {
+    "original": "Cung Huyền Diệc",
+    "translation": "Cung Huyền Diệc",
+    "hanviet": "Cung Huyền Diệc",
+    "category": "Proper Noun (Historical Figure/Owner)",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_122"
+  },
+  {
+    "original": "thần biến hình",
+    "translation": "Transfiguration gods / Shapeshifting deities",
+    "hanviet": "Thần Biến Hình",
+    "category": "Cultivation Realm / Being",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_122"
+  },
+  {
+    "original": "Cung Hạ Huyền Di",
+    "translation": "Hạ Huyền Di Palace",
+    "hanviet": "Cung Hạ Huyền Di",
+    "category": "Organization/Sect",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_123"
+  },
+  {
+    "original": "sơ kỳ thành thần",
+    "translation": "Early God-forming stage",
+    "hanviet": "Sơ Kỳ Thành Thần",
+    "category": "Cultivation Stage",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_123"
+  },
+  {
+    "original": "giai đoạn siêu kiếp",
+    "translation": "Super-tribulation stage",
+    "hanviet": "Giai Đoạn Siêu Kiếp",
+    "category": "Cultivation Stage",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_123"
+  },
+  {
+    "original": "con đường chính nghĩa",
+    "translation": "Righteous path",
+    "hanviet": "Con Đường Chính Nghĩa",
+    "category": "Cultivation/Philosophy",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_123"
+  },
+  {
+    "original": "xương bất tử",
+    "translation": "Immortal bone",
+    "hanviet": "Xương Bất Tử",
+    "category": "Item/Concept",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_123"
+  },
+  {
+    "original": "Linh thể toàn năng",
+    "translation": "All-Spirit Body / Omni-Spirit Body",
+    "hanviet": "Linh Thể Toàn Năng",
+    "category": "Cultivation term",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_124"
+  },
+  {
+    "original": "Huyền Thiên Cửu Tỉnh",
+    "translation": "Nine Provinces of Profound Heaven",
+    "hanviet": "Xuantians Jiuxing",
+    "category": "Location/Realm",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_126"
+  },
+  {
+    "original": "thăng thiên sinh mệnh",
+    "translation": "ascend life / ascend to heaven",
+    "hanviet": "",
+    "category": "Cultivation Term",
+    "confidence": 0.8,
+    "approved": true,
+    "chapter_first_seen": "ch_126"
+  },
+  {
+    "original": "Huyền Thiên Cửu Châu Cảnh",
+    "translation": "Profound Heaven Nine Continents Realm / Xuantians Jiuzhou Realm",
+    "hanviet": "Xuantians Jiuzhou Jing",
+    "category": "Location/Realm",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_126"
+  },
+  {
+    "original": "tu vi Linh lực",
+    "translation": "spiritual power cultivation / cultivation of spiritual power",
+    "hanviet": "Lingli Xiuwei",
+    "category": "Cultivation Term",
+    "confidence": 0.9,
+    "approved": true,
+    "chapter_first_seen": "ch_126"
   }
 ]

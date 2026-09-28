@@ -160,5 +160,23 @@
     "from": "Trưởng Lão",
     "to": "Đệ tử",
     "address": "xưng Ta - gọi Con"
+  },
+  {
+    "pair": "Tiết Tiếu Thiên → Phần Thiên Tôn Giả",
+    "from": "Tiết Tiếu Thiên",
+    "to": "Phần Thiên Tôn Giả",
+    "address": "gọi Gia gia / Ông nội"
+  },
+  {
+    "pair": "Phần Thiên Tôn Giả → Ứng Hàn Y",
+    "from": "Phần Thiên Tôn Giả",
+    "to": "Ứng Hàn Y",
+    "address": "xưng Bản tọa / Vãn bối - gọi Đế Tôn / Đế Tôn đại nhân"
+  },
+  {
+    "pair": "Phần Thiên Tôn Giả → Hạ Khanh Tuyên",
+    "from": "Phần Thiên Tôn Giả",
+    "to": "Hạ Khanh Tuyên",
+    "address": "gọi Tiểu hữu"
   }
 ]
