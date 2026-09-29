@@ -2,17 +2,30 @@
 title: Đại Ma Đầu Nhật Nhật Tưởng Sát Ngã — ch_126
 ---
 
-Đại trưởng lão vừa mới do dự nói chuyện, lập tức vui vẻ lên. Hắn hiển nhiên cảm giác được Hà Thanh Huyền đã bị ma quỷ lừa gạt, nếu không tại sao hắn còn cho rằng ma quỷ đã không còn là ma quỷ nữa.
-"Đại trưởng lão có biết hắn trước khi hắn bị phong ấn không?"
-“Khi hắn bị phong ấn, ta chỉ là một đệ tử trẻ tuổi của tông môn, chỉ nghe tên chứ chưa từng gặp mặt, nhưng ta vẫn nhớ rằng Ứng Hàn Di dự định thăng thiên sinh mệnh của tất cả chúng sinh trong Huyền Thiên Cửu Tỉnh.”
-Hà Thanh Huyền nhẹ nhàng mỉm cười, "Nhưng sở dĩ hắn không thăng lên Huyền Thiên Cửu Châu Cảnh, là vì hắn dùng xương tiên, tu vi Linh lực cạn kiệt Huyền Thiên Cửu Châu, lại còn phải gánh chịu nhục nhã như vậy, điều này không đáng."
-Hà Thanh Huyền chỉ giải thích một câu, cũng không nói nhiều. Dù sao lúc hy sinh mạng sống khôi phục Huyền Thiên Cửu Châu vương quốc, hắn cũng không có nghĩ tới lưu lại lịch sử tên tuổi. Anh ấy chỉ đơn giản là muốn làm điều đó nên đã làm.
-Ying Hanyi ở đâu?
-Là một cường giả có đủ thực lực thăng thiên, hắn đương nhiên sửa chữa là vì muốn sửa chữa.
-Thật đơn giản. Danh tiếng không quan trọng. Điều thực sự khiến anh đau lòng là người đã tấn công anh chính là bạn học cũ của anh, và anh đã bị phong ấn hàng nghìn năm vì những cáo buộc vô căn cứ.
-Đại trưởng lão choáng váng trước lời nói của He Qingxuan. Có vẻ như chưa có ai từng nghĩ về nó theo cách này.
-Trên thực tế, He Qingxuan không cần tất cả những người chính nghĩa phải hối hận về những gì đã xảy ra khi đó. Rốt cuộc, mọi thứ đều được thúc đẩy bởi Quỷ Hoàng và những người khác. Cho dù bây giờ hắn có hối hận thì cũng vô nghĩa. Anh ấy chỉ muốn về nhà xem thử nên đã về nhà và giới thiệu đối tác của mình với mọi người.
-Lúc đầu mọi người còn có chút run rẩy, nhưng về sau họ nhận ra Hoàng đế Miexu không hề đáng sợ như họ nghĩ.
-Tất nhiên, cũng có thể là do hoàng đế Miexu chỉ để mắt đến vị vua bất tử bé nhỏ của mình.
-Có một đệ tử từng cẩn thận quan sát, dù có ai ở đó hay đang nói gì, ánh mắt của Miexu Emperor vẫn luôn dán chặt vào một người rất lâu.
-Nếu thực sự muốn nói thì đó chính là bạn không thể giấu được ánh mắt khi yêu một ai đó.
+Đại trưởng lão vốn đang muốn nói lại thôi lập tức vực dậy tinh thần, rõ ràng cảm thấy Hạ Khanh Tuyên đã bị ma đầu kia lừa gạt, nếu không sao lại có thể cho rằng ma đầu không phải là ma đầu nữa.
+
+“Đại trưởng lão có quen biết y của trước khi bị phong ấn không?”
+
+“Khi hắn bị phong ấn, ta vẫn chỉ là một đệ tử nhỏ nhoi trong môn phái, chỉ nghe danh chứ chưa từng gặp mặt, nhưng ta vẫn nhớ rõ Ứng Hàn Y lúc bấy giờ bị cho là mưu đồ đoạt lấy tính mạng của toàn bộ sinh linh Huyền Thiên Cửu Châu giới để phi thăng.”
+
+Hạ Khanh Tuyên khẽ mỉm cười: “Thế nhưng sở dĩ y không phi thăng là vì Huyền Thiên Cửu Châu giới. Y dùng chính tiên cốt của mình để tu bổ một Huyền Thiên Cửu Châu giới đang trên đà cạn kiệt linh khí, vậy mà lại phải gánh chịu tiếng xấu muôn đời như thế, điều này là không nên.”
+
+Hạ Khanh Tuyên cũng chỉ giải thích vỏn vẹn một câu như vậy, rồi không nói thêm gì nữa. Dẫu sao năm ấy khi hắn liều mạng muốn tu bổ Huyền Thiên Cửu Châu giới, cũng chẳng hề nghĩ tới chuyện lưu danh sử sách, chỉ đơn thuần là muốn làm thì liền làm mà thôi.
+
+Còn Ứng Hàn Y thì sao?
+
+Thân là một đại năng nắm giữ thực lực thừa sức phi thăng, y đương nhiên cũng chỉ vì muốn tu bổ, cho nên liền tu bổ.
+
+Mọi chuyện chỉ đơn giản như vậy. Tiếng xấu chẳng hề quan trọng, thứ thực sự khiến y đau đớn hẳn là việc những kẻ ra tay với y lại chính là đồng môn thuở trước, và y phải chịu nỗi oan ức bởi tội danh vô căn cứ mà bị phong ấn suốt mấy ngàn năm ròng.
+
+Đại trưởng lão sững sờ trước những lời của Hạ Khanh Tuyên, tựa hồ từ trước tới nay chưa từng có ai nghĩ theo hướng này.
+
+Hạ Khanh Tuyên thực ra cũng chẳng cần đám đông chính đạo phải hối hận hay cắn rứt về chuyện năm xưa, bởi lẽ mọi sự đều do đám người Yêu Hoàng, Ma Tôn châm ngòi thổi gió, dẫu hiện tại có sám hối cũng chẳng còn ý nghĩa gì. Hắn chỉ đơn thuần muốn về nhà thăm một chút, thế nên liền về nhà, tiện thể đem đạo lữ của mình giới thiệu với tất cả mọi người.
+
+Ban đầu mọi người còn có đôi phần nơm nớp lo sợ, nhưng về sau lại phát hiện dường như Diệt Hư Đế Tôn cũng chẳng hề đáng sợ như trong mắt bọn họ tưởng tượng.
+
+Đương nhiên, cũng có thể là bởi vì trong đôi mắt của Diệt Hư Đế Tôn trước sau chỉ có duy nhất bóng hình tiểu tiên quân của y mà thôi.
+
+Từng có đệ tử chú tâm quan sát, bất kể bên cạnh có là ai, bất kể mọi người đang đàm đạo điều gì, ánh mắt của Diệt Hư Đế Tôn vĩnh viễn chỉ dừng lại rất lâu trên người một người duy nhất.
+
+Nếu thực sự phải diễn tả thành lời, thì chính là: ánh mắt khi yêu một người là điều chẳng thể nào che giấu được.

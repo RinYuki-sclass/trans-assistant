@@ -1,60 +1,107 @@
----
-title: Đại Ma Đầu Nhật Nhật Tưởng Sát Ngã — ch_075
----
+# Chương 75: Thái Thượng Lưỡng Nghi, tiến vào Vực Ngoại
 
-Tập Taishang Liangyi.
-Ying Hanyi cười lạnh, thứ này bây giờ có thể chia thành vô số mảnh vỡ.
-Không biết Yingui đạo sĩ thực sự nghĩ rằng thứ đó có thể phá vỡ khế ước của anh ta, hay là muốn lôi kéo anh ta vào một cuộc chiến với Ma vương.
-Một trò hề rất thú vị sắp được dàn dựng. Ying Hanyi không có hứng thú tham gia mà muốn đổ thêm dầu vào trò hề nên đã lấy đi những mảnh vỡ của Cung điện Huyền Nghĩa. Bây giờ thực sự có người đã nói rằng nếu muốn mở khóa khế ước của vợ chồng Đạo sĩ, anh ta phải lấy được cuộn giấy Taishang Liangyi hoàn chỉnh.
-Những năm đầu, những mảnh vỡ của cuộn sách Taishang Liangyi nằm rải rác khắp nơi, nhưng bây giờ không cần phải thu thập nữa. Chúng chỉ do Yêu Hoàng, Minh Đế và Tử Thư Vương nắm giữ.
-Ying Hanyi lúc đầu cười, sau đó nụ cười của anh ấy trở nên mãnh liệt hơn, như thể anh ấy đã gặp phải điều gì đó cực kỳ thú vị, trong mắt anh ấy lóe lên một tia sáng đen tối và kỳ lạ.
-“Tiên Quân, xem ra Yêu Vương đã tìm được ngươi, tìm được đầu lĩnh Âm Quý Đạo Nhân.”
-He Qingxuan hiểu rằng tin nhắn của đạo sĩ Yin Gui không phải là không có lý do. Thay vì đưa ra lời khuyên cho Ying Hanyi, nó giống như trực tiếp nói với Ying Hanyi rằng Ma hoàng đã đến gặp anh ta. Hắn chỉ không biết Âm Quý đạo nhân có nói với Yêu Hoàng về khế ước giữa hai người hay không, nhưng nghĩ kỹ, nhiều khả năng là hắn chưa nói.
-"Hoàng thượng muốn tìm Thái Thượng Lương Nghi quyển sách sao?"
-"Ngươi nghĩ thế nào, Tiểu Tiên Quân?"
-"Hiện tại Yêu Hoàng muốn bắt nhất chính là ta, người toàn tâm toàn ý, biện pháp tốt nhất chính là ta giả bộ cùng Hoàng Đế chia tay, ta và ngươi có thể cùng nhau hợp tác trong ngoài. Bất quá, điều này bất lợi cũng rất rõ ràng, chính là, nếu như Yêu Hoàng biết về đạo lữ vợ chồng thì sao."
-"Trước kia Tiên Quân hi vọng bản khế ước này không thể giải trừ, nhưng bây giờ hắn tựa hồ có vẻ không kiên nhẫn."
-"Hả? Hoàng đế Zun thích làm hại người khác, chẳng phải ta vẫn luôn hợp tác với ngươi sao?"
-Ying Hanyi mỉm cười, một nụ cười sâu thẳm mắc kẹt trong cổ họng.
-Hắn thấp giọng vui vẻ cười, nhưng ánh mắt lại lạnh lùng: “Việc đưa tới cửa luôn khả nghi hơn, cho nên Tiên Quân hẳn là tiếp tục đi theo ta. Không chỉ hắn phải đi theo, hơn nữa nhất định phải là người hắn đang ôm, không ai có thể chạm vào hắn dù chỉ một chút. Cứ như vậy, Yêu Hoàng cũng nên ra tay, để ta suy nghĩ bến đỗ tiếp theo, ngoại giới.”
-He Qingxuan lông mày hơi co giật, hóa ra là một cõi ngoài lãnh thổ.
-Như chúng ta đều biết, cảnh giới mà họ đang ở được gọi là Vương quốc Huyền Thiên Cửu Châu, ngoài ra Vương quốc Huyền Thiên Cửu Châu còn có một không gian ngoại giới. Đây là một chiến trường cổ xưa, còn sót lại những kho báu cổ xưa. Vô số người đến đó hàng năm để tìm kiếm cơ hội. Zhengdao không còn dễ dàng tham gia vào các cõi bí mật khác nhau, nhưng cõi ngoại lãnh thổ này không bao giờ vắng bóng.
-"Lĩnh vực ngoài lãnh thổ là một cơ hội tốt."
-He Qingxuan mỉm cười, nhưng có một sự khó chịu không thể nhận thấy trong đôi mắt màu vịt quan của anh ta.
-Anh ấy không phải là người ngu ngốc, và anh ấy đã biết hai điều về ý nghĩa của Ying Hanyi.
+Thái Thượng Lưỡng Nghi Quyển.
 
-Chương 39
-Ý của Ying Hanyi không khó đoán, nhưng He Qingxuan không muốn nghĩ về vấn đề này.
-Không phải là tôi không hiểu mà là tôi không muốn hiểu.
-Đôi lông mày vốn đã cau chặt của anh cố gắng cau mày chặt hơn một chút.
-"Tiên Vương không muốn đi ngoại giới sao?" Lời nói lạnh lùng của Ying Hanyi đến từ bên cạnh.
-Hà Thanh Huyền chớp chớp mắt, “Tôi không nói thế.”
-"Không phải là ngươi không muốn đi đến ngoại địa cầu, mà là ngươi không muốn đi cùng ta?"
-Hà Thanh Huyền cười nói.
-Làm thế nào để đoán chính xác như vậy?
-Anh Hàn Di cười nói: “Sao không nói gì?”
-Hà Thanh Huyền bất lực đầu hàng, giả vờ chờ đợi, "Hoàng thượng tại sao lại nghĩ như vậy? Kỳ thực ta không chỉ muốn đi ngoại giới, mà ta còn đặc biệt muốn đi cùng hoàng thượng."
-Ánh mắt Ứng Hàn Nghị nặng trĩu, nhìn anh đầy ẩn ý: “Nếu Tiên Quân nghĩ như vậy thì đó thực sự là điều tốt nhất.”
-Hà Thanh Huyền hơi chớp mắt. Anh có thể cảm nhận được sự lo lắng của Ying Hanyi khi anh nói “Anh không muốn đi cùng em”, nhưng anh không ngờ rằng sự lo lắng đó lại tiêu tan nhanh như vậy.
-Ứng Hàn Di xưa nay vốn là người tính tình tốt, bây giờ đối phương lại lựa chọn nhàn nhã.
-Tại sao? Bởi vì hắn và đối phương đều dựa vào nhau cả đời nên có tức giận cũng vô ích. Người ta vẫn nói rằng đối phương có một số tình cảm khác với anh ta.
-Sau khi nhận được câu trả lời này, He Qingxuan không hề ngạc nhiên chút nào. Đó là một suy nghĩ không thể giải thích được hơn là một sự ngạc nhiên.
-Con người luôn như vậy, thậm chí họ còn không thể giải thích rõ ràng những cảm xúc tinh tế của mình. Không còn nghi ngờ gì nữa, Ying Hanyi khác với anh ấy, nhưng sự khác biệt này nhiều hơn là do anh ấy đã ở bên Ying Hanyi quá lâu. Anh ta đã nhìn thấy đối phương khi anh ta xấu hổ nhất, hiểu được nỗi cô đơn của đối phương, thậm chí còn muốn ánh mắt của đối phương dán chặt vào mình, nhưng đối phương lại không nhìn thấy anh ta, như thể anh ta là một người ngoài cuộc không tồn tại.
-Đối với những tu sĩ cao cấp khác, một trăm năm chỉ là thoáng qua, nhưng đối với He Qingxuan, nó còn hơn mười bảy năm anh ta còn sống rất nhiều.
-Những cảm xúc trộn lẫn trăm năm đồng hành dường như có liên quan đến tình yêu, nhưng He Qingxuan biết rằng nó không liên quan gì đến tình yêu.
-Nếu nó thực sự liên quan đến tình yêu, sẽ luôn có một số quá trình yêu một người khác, nhưng không hề có điều này.
+Ứng Hàn Y cười lạnh. Thứ đồ chơi này hiện nay đã bị xé lẻ thành vô số tàn quyển.
 
-Cảm xúc này dù có phức tạp đến đâu thì đó cũng không phải là tình yêu.
-Vấn đề là được người khác thích thì chẳng là gì, nhưng được Ying Hanyi thích thì có thể là chí mạng.
-Dù tình yêu này bây giờ vẫn còn quá nông cạn.
-"Ngươi nghĩ thế nào về Hỏa Vân Thú?"
-Hà Thanh Huyền không biết vì sao đột nhiên chuyển chủ đề sang chỗ này, nhưng điều này không ngăn cản hắn trả lời Ứng Hàn Di, “Hỏa Vân Thú tốc độ cực nhanh, là một loại vũ khí bay mạnh mẽ, nhưng nó cũng là một loại quái vật khao khát tự do, và là loài ngang ngược nhất.”
-"Trong những năm đầu đời, tôi thích thuần hóa chúng. Tôi luôn rất kiên nhẫn."
-"Thật sự?"
-Ánh mắt Hạ Thanh Huyền tối sầm lại. Đây có thể là một cuộc trò chuyện bình thường hoặc một phép ẩn dụ.
-"Tôi không nghĩ Hoàng đế Zun là một người chuyên chế."
-"Đó là sự thật."
-"Tốt đấy."
-không gian ngoài lãnh thổ.
-Một vệt sáng đi qua, theo sau là nhiều vệt sáng khác.
-Nhiễm Thu Lan dùng sức bóp mạnh linh lực gần như khô cạn hồi lâu, khóe miệng không ngừng chảy máu, nhưng nàng không dám giảm tốc độ vì phía sau có rất nhiều tu sĩ đuổi theo.
+Chẳng biết tên Âm Quỷ Đạo Nhân kia thực sự nghĩ rằng vật này có thể giải trừ khế ước của y, hay là đang muốn lôi kéo y nhúng tay vào cuộc đại chiến với Yêu Hoàng.
+
+Một màn trò hề vô cùng thú vị sắp sửa được công diễn, Ứng Hàn Y vốn chẳng có hứng thú tham gia vào đó, nhưng lại muốn tiện tay châm thêm một mồi lửa cho màn náo kịch này thêm phần rực rỡ; vì thế y mới đoạt lấy tàn quyển của Tuyên Nghi Cung. Giờ đây thế mà lại có kẻ bảo rằng y muốn giải trừ đạo lữ khế ước thì nhất định phải gom đủ trọn vẹn bộ Thái Thượng Lưỡng Nghi Quyển.
+
+Năm xưa các mảnh tàn quyển của Thái Thượng Lưỡng Nghi Quyển lưu lạc khắp nơi, hiện giờ ngược lại chẳng cần phải tốn công tìm kiếm, chung quy đều đang nằm trong tay ba người: Yêu Hoàng, Minh Đế và Tử Thư Vọng.
+
+Ứng Hàn Y thoạt tiên bật cười một tiếng, sau đó ý cười trên môi càng lúc càng thêm nồng đậm, tựa như vừa gặp phải chuyện gì vô cùng thú vị; nơi đáy mắt y lóe lên những tia sáng u tối quỷ dị.
+
+“Tiên quân, xem ra Yêu Hoàng vì muốn tìm ngươi mà đã dò la tới tận đầu mối của Âm Quỷ Đạo Nhân rồi đấy.”
+
+Hạ Khanh Tuyên lập tức hiểu rõ. Một tràng truyền âm này của Âm Quỷ Đạo Nhân tuyệt đối không phải vô duyên vô cớ; thay vì nói là hiến kế cho Ứng Hàn Y, chi bằng nói thẳng ra là đang gián tiếp báo cho Ứng Hàn Y biết chuyện Yêu Hoàng từng tìm đến lão. Chỉ là không biết chuyện khế ước giữa hai người bọn họ Âm Quỷ Đạo Nhân có hé răng nửa lời với Yêu Hoàng hay không; nhưng ngẫm lại, khả năng cao là lão chưa dám nói.
+
+“Vậy Đế Tôn có muốn đoạt lấy Thái Thượng Lưỡng Nghi Quyển kia không?”
+
+“Tiểu tiên quân thấy thế nào?”
+
+“Yêu Hoàng lúc này muốn bắt nhất chính là Toàn Linh chi thể như ta. Nếu nói về biện pháp tốt nhất, tự nhiên là ta giả vờ cùng Đế Tôn đường ai nấy đi, hai người chúng ta lại nội ứng ngoại hợp; thế nhưng làm như vậy cũng có nhược điểm rõ rệt, đó là vạn nhất Yêu Hoàng phát hiện ra đạo lữ khế ước thì sao.”
+
+“Trước kia tiên quân hận không thể để khế ước này vĩnh viễn không cởi được, nay cớ sao trông lại có vẻ nóng lòng sốt ruột đến thế?”
+
+“Hửm? Đế Tôn quả thực oan uổng cho ta quá, ta chẳng phải trước nay vẫn luôn vô cùng phối hợp với ngài sao?”
+
+Ứng Hàn Y bật cười, tiếng cười trầm thấp nghẹn lại nơi cổ họng.
+
+Y cười nghe trầm thấp vui vẻ, thế nhưng ánh mắt lại lạnh lẽo vô cùng: “Đồ vật tự dâng tới tận cửa trước nay luôn khiến kẻ khác phải sinh lòng hoài nghi; vì lẽ đó tiên quân càng nên tiếp tục đi theo bên cạnh bổn tôn. Không những phải đi theo, mà còn phải là người được bổn tôn nâng niu trong lòng bàn tay, ai ai cũng không được phép đụng tới nửa phần. Như vậy, Yêu Hoàng mới chịu động chân cách. Để bổn tôn nghĩ xem... điểm dừng chân tiếp theo, Vực Ngoại lĩnh vực.”
+
+Chân mày Hạ Khanh Tuyên khẽ giật giật một nhịp, lại là Vực Ngoại lĩnh vực.
+
+Ai ai cũng biết rõ cương vực bọn họ đang sinh sống được gọi là Huyền Thiên Cửu Châu giới; mà ở bên ngoài Huyền Thiên Cửu Châu giới còn có một mảnh Vực Ngoại không gian. Nơi đây vốn là chiến trường thượng cổ, lưu lại vô số thượng cổ dị bảo, mỗi năm đều có vô số tu sĩ tiến vào nơi đó để tìm kiếm cơ duyên. Chính đạo môn phái hiện nay đã không còn dễ dàng tham gia vào các bí cảnh tầm thường, thế nhưng đối với Vực Ngoại lĩnh vực này thì trước nay chưa từng vắng mặt.
+
+“Vực Ngoại lĩnh vực, quả là một cơ hội không tồi.”
+
+Hạ Khanh Tuyên mỉm cười, thế nhưng trong đôi mắt uyên ương dị đồng lại thoáng hiện lên đôi phần phiền muộn khó bề phát giác.
+
+Hắn trước nay vốn chẳng phải kẻ chậm chạp trì độn, ý tứ của Ứng Hàn Y hắn đã đoán ra được đôi ba phần.
+
+Ý của Ứng Hàn Y kỳ thực chẳng hề khó đoán, chỉ là trước đó Hạ Khanh Tuyên không muốn nghĩ theo hướng này mà thôi.
+
+Không phải là không hiểu, mà là không muốn hiểu.
+
+Hàng chân mày vốn đang nhíu lại của hắn không kìm được mà càng nhíu chặt hơn một chút.
+
+“Tiên quân đây là không muốn đi Vực Ngoại lĩnh vực sao?” Giọng nói lạnh tanh của Ứng Hàn Y từ bên cạnh truyền tới.
+
+Hạ Khanh Tuyên chớp chớp mắt: “Ta đâu có nói vậy.”
+
+“Không phải là không muốn đi Vực Ngoại lĩnh vực, vậy là không muốn đi cùng bổn tôn?”
+
+Hạ Khanh Tuyên bật cười bất đắc dĩ.
+
+Có cần phải đoán trúng phóc đến mức đó không chứ.
+
+Ứng Hàn Y cười khẩy một tiếng: “Sao lại ngậm miệng không nói gì rồi?”
+
+Hạ Khanh Tuyên đành giơ tay đầu hàng, làm ra vẻ mặt đầy mong đợi: “Đế Tôn sao lại nghĩ như thế? Kỳ thực ta không chỉ muốn đi Vực Ngoại lĩnh vực, mà còn đặc biệt muốn đi cùng Đế Tôn nữa là đằng khác.”
+
+Đôi mắt Ứng Hàn Y sâu thẳm, nhìn hắn đầy ẩn ý: “Tiên quân có thể nghĩ được như thế, vậy thì thật không còn gì tốt hơn.”
+
+Hạ Khanh Tuyên khẽ chớp mắt. Hắn có thể cảm nhận được cơn bực bội của Ứng Hàn Y khi thốt ra câu “không muốn đi cùng bổn tôn”, nhưng lại không ngờ tia bực bội kia lại tiêu tan nhanh chóng đến vậy.
+
+Ứng Hàn Y xưa nay chưa bao giờ là kẻ có tính khí ôn hòa, thế nhưng lúc này đối phương lại chọn cách nhẹ nhàng bỏ qua.
+
+Vì sao? Là vì hắn cùng y tính mạng gắn liền, có tức giận cũng vô dụng, hay là... đối phương đối với hắn thực sự đã nảy sinh chút tình cảm khác lạ?
+
+Sau khi đi tới đáp án này, Hạ Khanh Tuyên lại chẳng cảm thấy quá đỗi bất ngờ; so với bất ngờ thì càng giống một mớ tâm tư khó phân định rạch ròi hơn.
+
+Lòng người thường là như thế, ngay cả bản thân cũng khó lòng tỏ tường những chuyển biến cảm xúc vi tế nhất. Ứng Hàn Y đối với hắn là người đặc biệt, điểm này không cần phải hoài nghi; thế nhưng sự đặc biệt này phần nhiều chỉ là do hắn đã làm bạn bên cạnh Ứng Hàn Y suốt một quãng thời gian quá đỗi dài lâu. Hắn đã từng chứng kiến những thời khắc chật vật thảm hại nhất của y, thấu hiểu nỗi cô độc thấu xương của y, thậm chí từng khao khát ánh mắt của y có thể dừng lại trên người mình; thế nhưng y lại chẳng thể nhìn thấy hắn, tựa như hắn chỉ là một kẻ bàng quan căn bản không hề tồn tại.
+
+Trăm năm thời gian đối với những tiền bối tu hành mà nói bất quá chỉ như một cái búng tay thoáng chốc, thế nhưng đối với Hạ Khanh Tuyên lại dài hơn rất nhiều so với mười bảy năm hắn từng sống trên đời.
+
+Thứ tình cảm xen lẫn trăm năm bầu bạn ấy dường như cũng có thể liên hệ với ái tình, thế nhưng Hạ Khanh Tuyên lại hiểu rõ nó hoàn toàn không liên quan đến tình ái.
+
+Nếu thực sự liên quan đến ái tình, thì chung quy cũng phải trải qua cảm giác rung động xao xuyến vì một ai đó; thế nhưng những điều này hắn đều không có.
+
+Tình cảm này dẫu có phức tạp đến nhường nào, thì đó cũng tuyệt đối không phải ái tình.
+
+Vấn đề nan giải ở chỗ: được người bình thường thích thì chẳng có gì đáng nói, nhưng nếu bị Ứng Hàn Y thích, đó có thể là chuyện muốn lấy mạng người!
+
+Dù cho đoạn tình cảm yêu thích này của y lúc này vẫn còn vô cùng nông cạn.
+
+“Tiên quân cảm thấy Hỏa Vân Thú thế nào?”
+
+Hạ Khanh Tuyên không rõ cớ sao đề tài bỗng nhiên lại chuyển ngoắt sang chuyện này, nhưng điều đó cũng không cản trở việc hắn mở miệng đáp lời Ứng Hàn Y: “Hỏa Vân Thú tốc độ cực nhanh, là tọa kỵ phi hành thượng thặng, nhưng đây cũng là một loài yêu thú cực kỳ hướng tới tự do, tính tình ngạo nghễ kiêu ngạo khó thuần nhất.”
+
+“Bổn tôn năm xưa thích nhất chính là đi thuần phục bọn chúng, tính kiên nhẫn của ta trước nay luôn rất đủ đầy.”
+
+“Vậy sao?”
+
+Ánh mắt Hạ Khanh Tuyên hơi tối lại. Lời này có thể chỉ là một câu tán gẫu bâng quơ, nhưng cũng rất có thể là một lời ẩn dụ sâu xa.
+
+“Ta nghĩ Đế Tôn sẽ không phải là kẻ chuyên quyền độc đoán đâu nhỉ.”
+
+“Tất nhiên.”
+
+“Được thế thì tốt quá.”
+
+Vực Ngoại không gian.
+
+Một đạo lưu quang xé toạc chân trời bay vút qua, ngay sau đó lại có thêm mấy đạo lưu quang khác bám sát phía sau không rời.
+
+Nhiễm Thu Lam gượng ép vắt kiệt lượng linh lực đã gần như khô cạn trong cơ thể suốt một thời gian dài, máu tươi không ngừng tràn ra từ khóe môi nàng; thế nhưng nàng lại chẳng dám chậm lại dù chỉ nửa nhịp, bởi lẽ phía sau nàng lúc này đang có nhiều tên tu sĩ đang điên cuồng đuổi giết không tha.

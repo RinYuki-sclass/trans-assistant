@@ -1,55 +1,97 @@
----
-title: Đại Ma Đầu Nhật Nhật Tưởng Sát Ngã — ch_076
----
+# Chương 76: Đại sư tỷ gặp nạn, xông vào Thần Hành Hội
 
-Ran Qiulan là chị gái của Cung điện Huyền Nghĩa và là một nửa trưởng nhóm của chuyến đi đến khu vực ngoài lãnh thổ của Cung điện Huyền Nghĩa.
-Các giáo phái chính nghĩa lớn không còn đủ khả năng nữa. Ngay cả việc đi đến cõi ngoài trái đất cũng được quyết định bằng việc rút thăm. Thay vì phái đi một số đệ tử xuất sắc của tông môn như những năm đầu, sau đó được các trưởng lão dẫn đầu, ở đây có tổng cộng hai mươi đệ tử từ Cung điện Hiên Nghĩa, cộng thêm một Nguyên Anh Trưởng Lão, đáng tiếc thời điểm đổ bộ của bọn họ không tốt lắm. Ngay khi vừa đáp xuống, họ đã bị nhắm tới bởi một tu sĩ Quỷ Vương Nguyên Anh. Trưởng lão ở lại bảo vệ họ chiến đấu với ma tu. Sau đó, họ tình cờ gặp được những người thuộc tộc quỷ. Người trong Cung điện Huyền Nghĩa đã hoàn toàn giải tán.
-Khi đến thế giới ngoài trái đất, Ran Qiulan đã chuẩn bị sẵn sàng cho cái chết, nhưng vận may của cô không quá tệ, và cô thực sự đã tìm thấy tàn tích của bộ áo giáp cổ xưa ở đây.
-Không phải một mảnh vỡ, mà là một bộ áo giáp tương đối hoàn chỉnh.
-Ran Qiulan vui mừng khôn xiết. Có thể có vô số điều tốt ẩn giấu trong những bộ áo giáp cổ xưa này, chẳng hạn như những thế giới kỹ năng bí mật, hay những loại thuốc tiên và kho báu tâm linh quý hiếm.
-Nhưng vận may của cô dừng lại ở đó.
-Có lẽ nên nói rằng ngay từ đầu đây đã không phải là vận may của cô. Bộ giáp này đã bị người khác nhắm đến từ lâu, nhưng nó là thứ thuộc về một vị thần cổ xưa và không thể bị các linh hồn tà ác khuất phục. Đó là lý do tại sao cô đã khuất phục được nó và bị săn lùng.
-Ran Qiulan nghiến răng thật chặt và nuốt lại dòng máu đang dâng lên trong cổ họng, e rằng linh lực của cô sẽ bị phân tán hoàn toàn ngay khi cô phun ra máu.
-Những người đó đã theo đuổi họ quá chặt chẽ, và Ran Qiulan lần lượt nuốt từng viên thuốc. Sau khi cô không lấy ra viên Hồi Nguyên Đan nào trong không gian nữa, cô biết mình đã xong.
-Khi linh lực cuối cùng đã cạn kiệt, Ran Qiulan đột nhiên phun ra một ngụm máu và rơi xuống một tảng sỏi khổng lồ trôi nổi trong khoảng không.
-Một số kẻ truy đuổi Lưu Quang lóe lên, mỗi người trôi nổi bên cạnh bãi sỏi, đánh cược mọi con đường trốn thoát có thể có cho Ran Qiulan.
-Thủ lĩnh có khuôn mặt đẹp như vương miện, nhưng làn da trong suốt đến mức tưởng như có thể chọc thủng được, đôi mắt lại thon dài nham hiểm khiến hắn biết mình không dễ chọc vào.
-Người đàn ông cụp mắt nhìn Nhiễm Thu Lan, trong mắt tràn đầy khinh thường cùng giễu cợt, "Ngươi cho rằng mình có thể chạy bao lâu? Tiên nữ như vậy chịu không nổi?"
-Một mỹ nam khác nữ tính như nữ nhân lè cái lưỡi thon dài phát ra một tiếng "huýt sáo" đầy máu: "Ta đã nhiều năm không ăn thịt một hòa thượng chính trực, nhất định phải cho ta ăn một con búp bê nhỏ nhắn như vậy."
-Cô gái tai mèo chọc ghẹo người đàn ông: “Tôi muốn trái tim.”
-"Tôi muốn luyện hóa linh hồn của cô ấy thành lá cờ gọi hồn."
-"Này, này, đừng để lại gì cho tôi."
-Những người đàn ông và phụ nữ với vẻ ngoài xinh đẹp kỳ lạ đã sắp xếp nơi ở của thể xác và tâm hồn cô. Ran Qiulan không thể chịu đựng được nữa, phun ra một ngụm máu lớn, nhất thời cảm thấy choáng váng.
-"Sao không ăn lúc còn nóng, nếu không chết cũng không còn tươi."
-Những móng vuốt sắc nhọn chạm tới ngực cô, và đôi mắt của Ran Qiulan bắt đầu mờ đi.
+Nhiễm Thu Lam chính là đại sư tỷ của Tuyên Nghi Cung, cũng là người nắm một nửa quyền dẫn đội của Tuyên Nghi Cung trong chuyến đi tới Vực Ngoại lĩnh vực lần này.
 
-Cô ấy đang hấp hối.
-Thật đáng tiếc, thật đáng tiếc khi cô ấy không thể mang bộ giáp tìm được về Cung Hiên Nghĩa.
-Con người luôn nghĩ đến những điều khó quên và đáng tiếc nhất trước khi chết. Ran Qiulan nghĩ rằng cô sẽ hối hận vì không mang theo đồ đạc của mình nhiều hơn, nhưng suy nghĩ của cô ngày càng trôi về nhiều năm trước.
-Toàn bộ linh hồn lần đầu tiên được đưa trở lại. Bánh bao mềm nhỏ không sợ người lạ chút nào và có thể mỉm cười vui vẻ với mọi người. Tuy nhiên, nụ cười trên chiếc bánh bao mềm dần dần trở nên kém thuần khiết hơn. Dường như anh khó có thể cảm nhận được niềm vui thực sự.
-"Sư tỷ, ta không muốn trở thành toàn linh thể nữa."
-Đây là những gì He Qingxuan đã nói với cô khi cô tám tuổi. Khi đó bà chỉ nghĩ rằng một đứa trẻ ngu dốt, nhưng tại sao nhiệm vụ cứu con đường đúng đắn lại đặt lên vai một đứa trẻ.
-"Ai?"
-"Bạn là ai?"
-Có vẻ như ai đó lại để mắt đến cô và đến bắt cô làm con mồi.
-Ran Qiulan cười mỉa mai, tập trung chút sức lực cuối cùng, chỉ đợi có người đến gần trước khi nổ tung thần dược vàng của mình và cùng nhau giết chết tất cả.
-Buộc phải triển khai sức mạnh cuối cùng, năm giác quan của cô lại trở nên rõ ràng.
-Cô thực sự cảm thấy một mùi hương quen thuộc!
-Ran Qiulan kinh ngạc nhìn lên.
-Người tới mặc đồ trắng, mỗi người đều có một thanh kiếm. Cô có thể nhìn rõ đó là ai trong làn máu bắn tung tóe.
-Hà Thanh Huyền.
-Em trai nhỏ của cô.
-Chương 40
-Không gian bên ngoài không phải là thứ mà ai cũng có thể dễ dàng đến nếu muốn. Nó cần một mảng dịch chuyển đặc biệt, và hầu hết các mảng dịch chuyển này đều được đặt tại các giáo phái lớn hoặc tại trụ sở chính của bốn ngân hàng thương mại lớn. Chỉ cần trả đủ linh thạch, bạn có thể có cơ hội thử mở mảng dịch chuyển.
-Chỉ là lượng linh thạch này không phải là ít, đại đa số tu sĩ đều không có năng lực mở ra truyền tống trận. Tôi nghe nói hai nhà buôn lớn đã không mở dịch chuyển ra ngoài lãnh thổ trong một trăm năm.
-Ying Hanyi chỉ cần xác định vị trí của họ và quyết định đến trụ sở chính của một trong những công ty thương mại.
+Các đại tông môn chính đạo hiện nay cơ bản đều đã hao tổn khánh kiệt, ngay cả việc tiến vào Vực Ngoại lĩnh vực cũng phải dùng hình thức bốc thăm để quyết định, không còn như những năm trước đây chuyên môn tuyển chọn ra những đệ tử ưu tú kiệt xuất trong môn phái rồi để các vị đại trưởng lão đích thân hộ tống dẫn dắt. Đợt này Tuyên Nghi Cung tới Vực Ngoại lĩnh vực tổng cộng có hai mươi đệ tử, cộng thêm một vị trưởng lão cảnh giới Nguyên Anh; đáng tiếc thời điểm bọn họ đáp xuống lại quá đỗi xui xẻo, vừa mới hạ xuống liền bị một gã quỷ tu Nguyên Anh cảnh theo dõi bám riết. Vị trưởng lão kia vì yểm hộ cho đám đệ tử nên đã ở lại liều mình huyết chiến cùng quỷ tu; về sau lại liên tiếp gặp chuyện không may chạm trán đám ma đạo yêu tộc tàn nhẫn, khiến cho môn nhân của Tuyên Nghi Cung hoàn toàn bị đánh tan tác, mỗi người một ngả.
 
-He Qingxuan đã biết họ sẽ đến thương quán nào khi Ying Hanyi dẫn anh ta đi xuyên qua khoảng không.
-Shen Guild là công ty thương mại có nền tảng sâu sắc nhất và bí ẩn nhất trong số bốn công ty thương mại lớn.
-Người ta nói rằng người quản lý Thần Hội là một nữ tôn giả trong cõi Hóa Thần, tu vi không thể đo lường được. Đã từng có một vị Thần Biến cường đại muốn nuốt chửng Thần Hội, nhưng đối phương không bao giờ bước ra khỏi Thần Hội nữa.
-Từ đây chúng ta cũng có thể thấy được sức mạnh của Hòa thượng đó.
-Tốc độ bước qua khoảng không rất nhanh. Lúc trước, He Qingxuan và Ying Hanyi vẫn còn ở dãy núi Shiwan, khoảnh khắc tiếp theo họ đã đến thị trấn sầm uất.
-Sau khi đến thị trấn, Ying Hanyi không tiếp tục đi bộ trong không gian mà dẫn He Qingxuan đến phòng thương mại như đi dạo nhàn nhã.
-Tốc độ của hắn nhìn có vẻ chậm nhưng thực ra lại rất nhanh. Không ai có trình độ tu luyện thấp hơn có thể bắt được hình dáng của anh ta. Ngay cả những người có cấp độ trên cảnh giới Nguyên Anh cũng chỉ có thể cảm nhận được có người đi ngang qua trước mặt mình, nhưng khi họ muốn nhìn rõ thì lại không nhìn thấy gì.
-He Qingxuan đi theo Ying Hanyi và bất lực nhìn họ đột nhập vào lãnh thổ của Shen Guild.
-Người phụ nữ mặc áo đỏ bắt chéo đôi chân thon dài trên bàn, đang nghịch nghịch chiếc bàn tính vàng trên tay. Sau khi cảm nhận được hai hơi thở xâm nhập, cô cũng không ngẩng đầu lên: “Câu lạc bộ Thần Tinh còn chưa bắt đầu kinh doanh, xin hãy quay lại sau.”
+Đặt chân tới Vực Ngoại lĩnh vực, Nhiễm Thu Lam vốn dĩ đã ôm sẵn mối quyết tâm thấy chết không sờn; thế nhưng vận khí của nàng tựa hồ vẫn chưa đến mức quá mức tồi tệ, thế mà lại may mắn phát hiện ra tàn tích của một bộ chiến giáp thượng cổ tại nơi này.
+
+Không phải chỉ là những mảnh vụn vỡ nát, mà là một khối chiến giáp tương đối hoàn chỉnh!
+
+Nhiễm Thu Lam vui mừng khôn xiết. Trên những bộ chiến giáp thượng cổ này rất có thể đang cất giấu vô số bảo vật kinh thế, tỷ như công pháp bí tịch, hay những đan phương cùng linh bảo vô cùng hiếm thấy.
+
+Thế nhưng vận may của nàng cũng chỉ có thể dừng lại tại đó.
+
+Hoặc giả nên nói ngay từ đầu đây vốn chẳng phải là vận may của nàng. Khối chiến giáp này sớm đã bị những kẻ khác để mắt tới từ trước, ngặt nỗi đây chính là di vật của một vị thượng cổ chân thần, căn bản không phải thứ mà đám yêu ma quỷ quái tà đạo có thể dễ dàng thuần phục thu nhận; chính vì vậy mới dẫn tới kết cục nàng thu phục được bảo giáp, rồi lập tức rơi vào cảnh bị chúng điên cuồng truy sát tận diệt.
+
+Nhiễm Thu Lam nghiến chặt răng, gượng ép nuốt ngược ngụm máu tươi đang cuộn trào nơi cuống họng trở về; nàng sợ rằng chỉ cần phun ra ngụm máu này, chút linh khí tàn dư cuối cùng trong cơ thể mình cũng sẽ hoàn toàn tiêu tán sạch sành sanh.
+
+Đám người phía sau bám đuổi quá ráo riết, Nhiễm Thu Lam đã liên tiếp nuốt vào từng viên đan dược một; đến khi nàng thò tay vào trong túi trữ vật mà không còn mò ra nổi bất kỳ một viên Hồi Nguyên Đan nào nữa, nàng liền hiểu rõ bản thân mình đã đi tới bước đường cùng.
+
+Linh khí rốt cuộc cũng cạn kiệt, Nhiễm Thu Lam bỗng nhiên phun ra một ngụm máu tươi đỏ thẫm, cả người lảo đảo ngã gục xuống một khối đá vỡ khổng lồ đang trôi nổi lơ lửng giữa hư không.
+
+Mấy đạo lưu quang của đám kẻ đuổi giết lóe lên, mỗi tên phân tán đứng lơ lửng xung quanh khối cự thạch, phong tỏa triệt để toàn bộ mọi đường lui có thể chạy trốn của Nhiễm Thu Lam.
+
+Kẻ cầm đầu diện mạo như quan ngọc, thế nhưng làn da lại trắng bệch trong suốt tựa như chỉ cần khẽ chạm là rách toạc, đôi mắt hẹp dài hung tàn hiểm ác, khiến người ta chỉ cần liếc mắt nhìn qua là biết ngay không phải hạng người dễ trêu chọc.
+
+Gã rủ mi mắt nhìn xuống Nhiễm Thu Lam, trong đáy mắt ngập tràn vẻ khinh miệt giễu cợt: “Còn tưởng ngươi có thể chống cự tháo chạy được bao lâu, tiểu tiên tử thế này thôi mà đã không chịu nổi rồi sao?”
+
+Một gã nam nhân khác dung mạo âm nhu kiều diễm chẳng khác nào nữ tử khẽ thè đầu lưỡi mảnh dài ra ngoài, phát ra tiếng “khè khè” rợn cả tóc gáy: “Bản quân đã nhiều năm rồi chưa được thưởng thức qua máu thịt của tu sĩ chính đạo, một tiểu nha đầu da dẻ non mịn mọng nước nhường này, hôm nay nhất định phải để bản quân ăn cho đã miệng mới được.”
+
+Thiếu nữ mang đôi tai mèo trên đầu khẽ thúc cùi chỏ vào người gã nam nhân kia: “Ta muốn trái tim của nàng ta.”
+
+“Ta muốn luyện hóa linh hồn nàng ta vào bên trong Chiêu Hồn Phiên.”
+
+“Này này này, mấy người các ngươi không chừa lại chút gì cho ta hay sao?”
+
+Đám nam nữ toát ra vẻ đẹp ma mị quái đị kia đã bắt đầu thong thả bàn bạc phân chia xem thân thể và linh hồn nàng sẽ thuộc về tay ai. Nhiễm Thu Lam không sao nhẫn nhịn nổi nữa, há miệng phun ra từng ngụm máu tươi đầm đìa, trước mắt một trận trời xoay đất chuyển, hoa mắt chóng mặt.
+
+“Chi bằng cứ tranh thủ lúc còn nóng mà ăn luôn đi, kẻo lát nữa nàng ta tắt thở thì thịt lại chẳng còn tươi ngon nữa.”
+
+Bộ móng vuốt sắc nhọn vươn thẳng tới trước lồng ngực nàng, ánh mắt Nhiễm Thu Lam đã bắt đầu tan rã mông lung.
+
+Nàng sắp chết rồi.
+
+Đáng hận thay, đáng hận là nàng còn chưa kịp mang bộ chiến giáp ngút trời này bình an mang về cho Tuyên Nghi Cung.
+
+Con người ta trước lúc lâm chung thường sẽ nhớ về những ký ức khắc cốt ghi tâm cùng những nỗi niềm tiếc nuối lớn nhất của đời mình. Nhiễm Thu Lam vốn ngỡ rằng điều khiến mình tiếc nuối nhất là không thể mang đồ vật kia trở về; thế nhưng tâm trí nàng lại trôi dạt càng lúc càng xa xăm, quay ngược về ký ức của rất nhiều năm về trước.
+
+Khi Toàn Linh chi thể lần đầu tiên được chưởng môn bế trở về tông môn, một bé con mềm mại nhỏ xíu chẳng hề sợ người lạ nửa phần, đối với bất kỳ ai cũng có thể nở nụ cười ngây thơ rạng rỡ. Thế nhưng nụ cười trên gương mặt bé con mềm mại ấy theo năm tháng lại dần dà không còn thuần khiết như thuở ban đầu nữa; dường như đệ đệ ấy rất khó để có được một niềm vui chân thực từ tận đáy lòng.
+
+“Đại sư tỷ, đệ có chút không muốn làm Toàn Linh chi thể nữa rồi.”
+
+Đó là câu nói mà Hạ Khanh Tuyên năm tám tuổi từng nói với nàng. Khi đó nàng chỉ ngỡ là lời nói ngây ngô của con trẻ không hiểu chuyện; thế nhưng cái gánh nặng cứu vớt cả một nền chính đạo suy vi kia, rốt cuộc dựa vào đâu mà lại đè nặng lên đôi vai của một đứa trẻ con cơ chứ?
+
+“Kẻ nào?!”
+
+“Ngươi là ai?!”
+
+Tựa hồ lại có kẻ khác để mắt tới nàng, kéo tới đây muốn cướp đoạt con mồi là nàng.
+
+Nhiễm Thu Lam nở một nụ cười thê lương tự giễu, âm thầm gom góp chút sức tàn cuối cùng, chỉ chờ kẻ đó vừa bước tới gần là sẽ lập tức tự bạo Kim Đan để cùng chúng đồng quy vu tận!
+
+Gượng ép điều động toàn bộ lực lượng sau chót khiến cho ngũ quan của nàng trong khoảnh khắc một lần nữa trở nên vô cùng rõ nét.
+
+Thế nhưng nàng lại bất ngờ cảm nhận được một luồng khí tức thân thuộc đến nao lòng!
+
+Nhiễm Thu Lam chấn động kinh ngạc ngước đầu lên.
+
+Người tới vận một thân bạch y phiêu dật, một người một kiếm; giữa làn mưa máu đỏ thẫm văng tung tóe giữa không trung, nàng rốt cuộc đã nhìn rõ kẻ vừa xuất hiện là ai.
+
+Hạ Khanh Tuyên.
+
+Chính là tiểu sư đệ của nàng!
+
+Vực Ngoại không gian căn bản không phải nơi mà bất kỳ ai hễ muốn là có thể dễ dàng đặt chân tới được. Nơi đó cần phải có một trận pháp truyền tống chuyên dụng; mà loại truyền tống trận này phần lớn đều tọa lạc tại các đại tông môn lớn, hoặc giả là nằm ở tổng hành dinh của Tứ Đại Thương Hành. Chỉ cần giao nộp đủ số lượng linh thạch khổng lồ là có cơ hội thử nghiệm mở ra truyền tống trận.
+
+Chỉ có điều số lượng linh thạch này tuyệt đối không phải là một con số nhỏ, đại đa số tu sĩ căn bản chẳng đủ năng lực để mở nổi trận pháp truyền tống; nghe đồn đã có tới hai đại thương hành suốt cả trăm năm qua chưa từng mở lại truyền tống trận thông tới Vực Ngoại lần nào.
+
+Ứng Hàn Y chỉ đơn giản xác định lại phương vị của bọn họ, liền dứt khoát quyết định trực tiếp tiến thẳng tới tổng hành dinh của một trong các thương hành lớn.
+
+Khi Ứng Hàn Y dẫn theo Hạ Khanh Tuyên một bước đạp phá hư không xé toạc không gian, hắn liền đã biết rõ thương hành mà bọn họ sắp sửa tới rốt cuộc là nơi nào.
+
+Thần Hành Hội — thương hành có nội hàm thâm sâu nhất, cũng là nơi bí ẩn quái đản nhất trong Tứ Đại Thương Hành.
+
+Tương truyền người quản lý Thần Hành Hội là một vị nữ tôn giả cảnh giới Hóa Thần, tu vi sâu không lường được; từng có một vị đại năng Hóa Thần dã tâm bừng bừng muốn nuốt chửng Thần Hành Hội, thế nhưng kẻ đó kể từ ngày bước chân vào thì vĩnh viễn chẳng bao giờ bước chân ra khỏi cánh cửa Thần Hành Hội được nữa.
+
+Chỉ bấy nhiêu thôi cũng đủ để thấy rõ thực lực khủng khiếp của vị tôn giả kia.
+
+Tốc độ đạp phá hư không mau lẹ tuyệt luân. Mới một khắc trước Hạ Khanh Tuyên và Ứng Hàn Y còn đang đứng giữa trập trùng Thập Vạn Đại Sơn, thì chớp mắt tiếp theo bọn họ đã đặt chân tới một tòa thành trấn phồn hoa náo nhiệt.
+
+Sau khi tới thành trấn, Ứng Hàn Y không tiếp tục xé rách không gian nữa, mà dẫn Hạ Khanh Tuyên thong thả tản bộ nhàn nhã đi về phía thương hội.
+
+Bước chân của y nhìn qua tưởng chừng chậm rãi nhưng thực chất lại nhanh đến khó tin. Phàm là những kẻ có tu vi hơi thấp kém một chút căn bản không tài nào bắt kịp nổi tàn ảnh của y; ngay cả những người có tu vi trên cảnh giới Nguyên Anh cũng chỉ mơ hồ cảm giác được có luồng gió lướt ngang qua trước mặt mình, đến khi muốn ngưng thần nhìn cho rõ thì chẳng còn thấy bóng dáng ai nữa.
+
+Hạ Khanh Tuyên theo sát phía sau Ứng Hàn Y, trơ mắt nhìn y nghênh ngang xông thẳng vào địa bàn của Thần Hành Hội.
+
+Một nữ tu vận hồng y kiều diễm đang gác đôi chân dài miên man lên bàn trà, mười ngón tay tùy ý gảy lách cách trên chiếc bàn tính bằng vàng ròng. Cảm nhận được hai đạo khí tức xa lạ đột ngột xông vào, nàng ngay cả mí mắt cũng chẳng buồn nâng lên: “Thần Hành Hội hôm nay còn chưa tới giờ mở cửa buôn bán, hai vị xin mời lát nữa hẵng quay lại.”

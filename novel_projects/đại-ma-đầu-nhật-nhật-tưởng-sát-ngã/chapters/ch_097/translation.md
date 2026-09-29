@@ -1,53 +1,97 @@
 ---
-title: Đại Ma Đầu Nhật Nhật Tưởng Sát Ngã — ch_097
+title: Chương 97
 ---
 
-Hà Thanh Huyền khẽ cau mày. Tất nhiên, viên thuốc giải độc cấp bảy trước mặt anh không thể loại bỏ được độc tố. Ở đó vẫn còn tích tụ một lượng lớn chất độc, trông rất đáng sợ. Để ngăn cản người khác nói rằng mình chủ động gánh chịu hậu quả, Hà Thanh Huyền cố ý dùng một số thủ đoạn khiến khóe mắt lại chảy máu. Ai có thể ngờ rằng hắn đã vất vả như vậy, nhưng viên thuốc giải độc cấp tám do Yêu Hoàng đưa cho lại còn không loại bỏ được một vết răng.
-Hà Thanh Huyền do dự một lát, đưa ra một câu trả lời tương đối đáng tin cậy: "Tôi bị côn trùng cắn, không có gì nghiêm trọng cả."
-"Thật sự không có gì nghiêm trọng, chỉ là Minh Vương Xà mà thôi. Tiểu tiên nữ của chúng ta vẫn còn sống khỏe mạnh." Ying Hanyi mỉm cười tàn nhẫn, và anh ta có một chút không thể kiểm soát được sức mạnh của mình.
-Hà Thanh Huyền khẽ rít lên.
-Ying Hanyi nhanh chóng đẩy tay anh ra, "Xin lỗi."
-Trên thực tế, He Qingxuan không hề cảm thấy đau đớn. Anh chỉ không muốn đối mặt với Ying Hanyi, người lúc này đáng sợ như vậy. Nhìn thấy ánh mắt lo lắng và nhíu mày của Ying Hanyi, He Qingxuan không đành lòng nói dối người khác.
-"Chuyện nhỏ thôi, trước đó tôi đã uống một viên thuốc giải độc."
-Ying Hanyi ngừng đặt câu hỏi. Hắn lấy ra một bình ngọc bích nhỏ đưa cho Hà Thanh Huyền: "Độc của U Minh Vương Xà từ trước đến nay rất bá đạo, độc trong cơ thể ngươi còn chưa giải trừ hoàn toàn, ăn thêm mấy cái đi."
-Ying Hanyi nói là uống thêm vài viên thuốc, nên He Qingxuan chỉ cho rằng lọ thuốc trong tay là đan dược cấp tám. Suy cho cùng, độc dược của Netherworld King Snake dù mạnh đến đâu cũng có thể giải quyết được chỉ bằng một linh dược cấp chín. Vì vậy, khi nút chai được mở ra, mùi thơm của thuốc xộc vào mũi, He Qingxuan rõ ràng đã choáng váng.
-Ngay cả khi đó, anh ta cũng chỉ nghi ngờ rằng Ma hoàng đã đưa cho anh ta những viên thuốc đã được cất giữ từ lâu và công dụng của nó đã mất đi một phần tác dụng. Vì vậy, khi năm viên thuốc giải độc cấp chín được đổ ra khỏi bình ngọc, He Qingxuan không hề bị sốc mà chỉ tê dại.
-Anh ta ngạc nhiên liếc nhìn Ying Hanyi, "Hoàng đế giàu có như vậy sao?"
-"Thuốc giải độc này có một loại thành phần gần như tuyệt chủng, ta xem bí cảnh có hay không, nếu ngươi tìm được, ta có thể luyện chế cho ngươi."
-He Qingxuan gần như choáng váng trước sự giàu có trước mặt. Viên thuốc giải độc cấp chín này kỳ thực là do chính Ying Hanyi luyện chế, điều này có nghĩa đối phương vẫn là luyện kim sư cấp chín.
-He Qingxuan nhớ lại một cách ngắn gọn cách anh ấy luyện chế thuốc tiên và vũ khí trước mặt Ying Hanyi. Quên đi, đừng nhớ nữa.
-Anh ta đưa ra bốn viên thuốc trong tay và chỉ ăn một viên.
-Sau khi ăn xong, anh ta đưa thuốc tiên của mình cho Ying Hanyi, với ý định để Ying Hanyi lấy lại thuốc tiên.
-Ma lực của Ứng Hàn Di nhẹ nhàng đẩy hắn, đem dược dược trả lại trong tay Hà Thanh Huyền, sau đó hỏi: “Sao ngươi lại rơi vào trạng thái như vậy?”
-Ying Hanyi cảm thấy nhẹ nhõm và để He Qingxuan đến vì anh ta thực sự đã đưa cho He Qingxuan một con át chủ bài, nhằm đảm bảo rằng He Qingxuan có thể trở thành thần nhưng không trở thành quỷ.
-Hạ Thanh Huyền lúc này mới mỉm cười, "Có lẽ là ta quá tham lam, ta không chỉ muốn hóa thần, còn muốn đạt đến hoàn mỹ."
-"Bạn đã sử dụng phương pháp tu luyện đối với Hoàng đế Hades."
+Hạ Khanh Tuyên khẽ nhíu mày. Viên thất phẩm giải độc đan trước đó tự nhiên không có cách nào trừ hết độc tố. Vốn dĩ nơi đó vẫn còn tích tụ một mảng độc tố lớn, trông vô cùng đáng sợ. Để tránh cho ai đó nói hắn tự tiện làm theo ý mình rồi tự chuốc lấy quả đắng, Hạ Khanh Tuyên còn đặc biệt dùng chút thủ đoạn nhỏ, khiến cho khóe mắt mình lại chảy ra vệt máu tươi. Ai ngờ hắn đã nhọc lòng khổ tứ như thế, viên bát phẩm giải độc đan mà Yêu Hoàng đưa ra thế mà ngay cả một dấu răng cũng chẳng xóa sạch được.
 
-Hà Thanh Huyền gật đầu.
-Câu hỏi tiếp theo là “Bạn đã biết về việc tu luyện như thế nào?”
-Nhưng không.
-Sau khi Ứng Hàn Di phát hiện ra, hắn chỉ bất đắc dĩ nói: "Ngươi không cần vội vàng như vậy, hóa thần là đủ, chúng ta có thể thong thả."
-"Vậy ta từ Thần Biến sơ kỳ tăng lên đến Thần Biến viên mãn vĩ đại? Dù ta tài giỏi đến đâu, ít nhất cũng phải mất một trăm năm. Nhưng trên thực tế, phần lớn giai đoạn đầu của Thần Biến đến Thần Biến trung kỳ đều có thể phải mất hàng ngàn năm, và những người thành công sau khi trải qua hàng ngàn năm vẫn là những thiên tài độc nhất. Quá dài, quá chậm, và ta không muốn chờ đợi quá lâu."
-Ánh mắt Ying Hanyi thật sâu, với cảm xúc khó tả: "Là tôi khiến anh cảm thấy áp lực, hay là sự thèm muốn của ma quỷ khiến anh cảm thấy áp lực."
-"Tôn Hoàng làm sao còn cho rằng hắn có thể làm cho ta cảm thấy áp lực?" Hà Thanh mỉm cười, đảo mắt, cố gắng làm cho chủ đề bớt nặng nề hơn.
-“Bởi vì tôi đã nói rằng tôi sẽ giết anh ngay khi hợp đồng kết thúc.”
-"Vậy hiện tại ngươi còn muốn giết người sao?" Nụ cười của Hạ Thanh Huyền càng trở nên chân thành hơn: “Với tu vi hiện tại của tôi và việc tôi là người lập khế ước, có lẽ bây giờ tôi có thể phá bỏ khế ước.”
-Ánh mắt Ứng Hàn Y có chút tối sầm: "Ngươi rõ ràng biết đáp án."
-"Ừ đúng rồi. Tôi biết rõ câu trả lời, nhưng tôi chỉ muốn hỏi một cách cố ý. Vậy bạn có thể cho tôi biết câu trả lời được không?"
-"Không, cho dù chúng ta phá vỡ khế ước khi Thủy Vân Bí Cảnh kết thúc, ta cũng sẽ không giết ngươi."
-"Chẳng lẽ Tôn Đế đang lừa gạt ta? Lúc đó ngươi rõ ràng muốn giết ta."
-Ying Hanyi giơ tay chạm vào đầu He Qingxuan, sau đó trượt đầu xuống để che đôi mắt sáng quá mức của anh ấy, "Xiao Xianjun, bạn có muốn đoán xem tại sao lần đầu tiên tôi không giết bạn không?"
-Với thực lực của Ứng Hàn Di, muốn giết người từ xa thì quá dễ dàng, cho dù người đó có bị phong ấn hay không.
-Một trong những rủi ro lớn nhất trong hợp đồng trước đây của He Qingxuan với Ying Hanyi là anh ta sẽ bị Ying Hanyi giết trước khi anh ta mở hợp đồng.
-Lúc này, lời nói của đối phương giống như một tảng đá rơi xuống nước, gây ra sóng lớn.
-"Ngươi..." Hạ Thanh Huyền muốn nói cái gì, lại không thể.
-Ying Hanyi chỉ nhìn tai của đối phương càng ngày càng đỏ, đỏ đến mức không thể buồn cười hơn.
-Sự đỏ mặt của chàng trai hơn bất cứ điều gì khác, khiến trái tim mọi người rung động và khiến họ muốn… chiếm hữu nó hoàn toàn.
+Hạ Khanh Tuyên ấp úng một hồi, đưa ra một đáp án tương đối đáng tin: “Bị sâu bọ cắn một miếng thôi mà, không có chuyện gì to tát đâu.”
 
-Ying Hanyi ghé sát tai He Qingxuan và hỏi: "Em hiểu không?"
-"À?" He Qingxuan giả vờ ngu ngốc.
-Ứng Hàn Di bất đắc dĩ nói: "Hả? Vậy ngươi hiểu không?"
-"Cái này..." Hạ Thanh Huyền lắc đầu, vô thức muốn nhìn sang phương hướng khác. Nếu Ying Hanyi không bịt mắt lại, đây có lẽ sẽ là một cách hoàn hảo để nhìn xung quanh anh ta.
-Ying Hanyi tiến lại gần, hơi thở nóng bỏng phả vào đôi tai nhạy cảm, "Tiên Quân dường như không hiểu, vì vậy tôi sẽ nói thẳng hơn. Tôi đã yêu em ngay từ cái nhìn đầu tiên, Tiên Quân..."
-"Dừng lại!" Hà Thanh Huyền vội vàng kêu lên. Bây giờ không chỉ tai anh đỏ mà toàn bộ cổ và mặt anh cũng đỏ bừng.
-Ying Hanyi mỉm cười, một tiếng cười trầm thấp dường như có chút móc câu.
+“Quả thực là chẳng có chuyện gì to tát, bất quá chỉ là U Minh Vương Xà mà thôi, tiểu tiên quân của chúng ta chẳng phải vẫn còn sống sờ sờ đây sao.” Ứng Hàn Y cười đến là tàn độc, lực đạo nơi đầu ngón tay hơi có chút mất khống chế.
+
+Hạ Khanh Tuyên khẽ “hít” một tiếng.
+
+Ứng Hàn Y vội vàng dời tay ra: “Xin lỗi.”
+
+Hạ Khanh Tuyên thực ra cũng chẳng thấy đau đớn gì, đơn thuần chỉ là không muốn đối mặt với một Ứng Hàn Y lúc này có vài phần đáng sợ mà thôi. Trông thấy dáng vẻ đáy mắt y tràn đầy lo lắng, chân mày khóa chặt, Hạ Khanh Tuyên bỗng nhiên có chút không nỡ lừa dối y nữa.
+
+“Chuyện nhỏ thôi mà, trước đó ta có uống qua giải độc đan rồi.”
+
+Ứng Hàn Y cũng không tiếp tục hưng sư vấn tội nữa. Y lấy ra một bình ngọc thanh bích nhỏ nhắn đưa cho Hạ Khanh Tuyên: “Độc của U Minh Vương Xà xưa nay vô cùng bá đạo, độc tố trên người ngươi lúc này vẫn chưa được giải trừ triệt để, uống thêm mấy viên nữa đi.”
+
+Ứng Hàn Y bảo là uống thêm mấy viên, Hạ Khanh Tuyên liền nghĩ chiếc bình trong tay hẳn là đan dược bát phẩm. Dù sao thì độc của U Minh Vương Xà dù có lợi hại đến đâu đi chăng nữa cũng chỉ cần một viên đan dược cửu phẩm là có thể giải quyết. Cho nên khi mở nắp bình ra, hương thuốc ngào ngạt phả vào mũi, Hạ Khanh Tuyên rõ ràng đã ngẩn người.
+
+Ngay cả lúc ấy hắn cũng chỉ mới hoài nghi liệu có phải Yêu Hoàng đã đưa cho hắn loại đan dược để lâu ngày làm dược hiệu bị trôi đi hay không. Thế nhưng khi từ trong bình ngọc dốc ra năm viên cửu phẩm giải độc đan, Hạ Khanh Tuyên không còn là chấn kinh nữa, mà là hoàn toàn chết lặng.
+
+Hắn kinh nghi bất định liếc nhìn Ứng Hàn Y một cái: “Đế Tôn thế mà lại hào phóng giàu sang đến bực này?”
+
+“Loại giải độc đan này có một vị dược liệu gần như đã tuyệt tích. Đến lúc đó xem xem các đại bí cảnh có hay không, nếu tìm được, bản tôn còn có thể tiếp tục luyện chế cho ngươi.”
+
+Hạ Khanh Tuyên suýt chút nữa bị khối tài phú kếch xù trước mắt làm cho hoa cả mắt. Đan dược cửu phẩm này thế mà lại do chính tay Ứng Hàn Y luyện chế, tức là đối phương còn là một cửu phẩm đan sư!
+
+Hạ Khanh Tuyên thoáng nhớ lại cảnh tượng bản thân ngày trước múa rìu qua mắt thợ luyện đan luyện khí trước mặt Ứng Hàn Y... Thôi đi, tốt nhất là đừng nhớ lại nữa.
+
+Hắn đem bốn viên đan dược bỏ ngược lại vào bình, chỉ uống lấy một viên trong đó.
+
+Sau khi uống xong, hắn còn đem chiếc bình ngọc đưa về phía Ứng Hàn Y, có ý muốn để Ứng Hàn Y thu hồi lại chỗ đan dược này.
+
+Ứng Hàn Y dùng ma khí khẽ đẩy một cái, lại đem bình đan dược đưa ngược về tay Hạ Khanh Tuyên, chuyển lời hỏi: “Sao lại biến bản thân thành bộ dạng thế này?”
+
+Ứng Hàn Y yên tâm để Hạ Khanh Tuyên tới đây, kỳ thực đã lưu lại con bài tẩy cho Hạ Khanh Tuyên, chính là bảo đảm cho Hạ Khanh Tuyên vừa có thể thăng lên Hóa Thần, lại vừa không bị ma hóa.
+
+Hạ Khanh Tuyên đối với chuyện này chỉ cười cười: “Có lẽ là do ta quá đỗi tham lam, không chỉ muốn tiến giai Hóa Thần, mà còn muốn đạt tới Hóa Thần viên mãn.”
+
+“Ngươi đã dùng Đoạt Tu Đại Pháp với Minh Đế.”
+
+Hạ Khanh Tuyên gật đầu.
+
+Câu hỏi tiếp theo đáng lẽ phải là “Ngươi làm sao biết được Đoạt Tu Đại Pháp”.
+
+Thế nhưng y không hề hỏi.
+
+Sau khi thấu suốt, Ứng Hàn Y chỉ bất đắc dĩ nói: “Ngươi không cần phải nóng vội như thế. Hóa Thần đã là đủ rồi, chúng ta có thể từ từ bước tiếp.”
+
+“Vậy ta từ Hóa Thần sơ kỳ thăng lên tới Hóa Thần đại viên mãn sẽ cần bao lâu chứ? Cho dù thiên phú của ta có xuất chúng hơn người đến đâu đi chăng nữa, ít nhất cũng phải mất một trăm năm. Mà trên thực tế, tuyệt đại đa số từ Hóa Thần sơ kỳ bước lên Hóa Thần trung kỳ đều phải tiêu tốn cả ngàn năm, mà những kẻ chỉ tốn ngàn năm liền thành công ấy đều là những nhân vật thiên tài vạn người có một. Quá lâu, quá chậm, ta không muốn phải chờ đợi lâu đến thế.”
+
+Ánh mắt Ứng Hàn Y sâu thẳm, hàm chứa những cảm xúc không sao tả xiết: “Là do bản tôn đã mang lại áp lực cho ngươi, hay là do sự dòm ngó của tam đạo Yêu, Quỷ, Ma mang lại áp lực cho ngươi?”
+
+“Đế Tôn cớ sao lại nghĩ rằng bản thân có thể tạo áp lực cho ta chứ?” Hạ Khanh Tuyên cười cong khóe mắt, muốn khiến chủ đề bớt đi vài phần nặng nề.
+
+“Bởi vì bản tôn từng nói qua, chỉ cần khế ước kết thúc liền sẽ giết ngươi.”
+
+“Vậy bây giờ ngươi còn muốn giết không?” Ý cười của Hạ Khanh Tuyên đã chan chứa nhiều phần chân tình thực ý hơn, “Với tu vi hiện tại của ta cộng thêm ta chính là người bố trí khế ước, nói không chừng lúc này ta đã có thể giải trừ khế ước rồi đấy.”
+
+Đôi mắt Ứng Hàn Y trầm xuống vài phần: “Ngươi rõ ràng biết rõ đáp án.”
+
+“Ừm, đúng vậy, ta rõ ràng biết rõ đáp án, nhưng chính là muốn biết rồi còn cố hỏi. Vậy ngươi sẽ nói cho ta biết đáp án chứ?”
+
+“Sẽ không. Cho dù là vào thời điểm Thủy Vân bí cảnh kết thúc hai ta giải trừ khế ước, ta cũng sẽ không giết ngươi.”
+
+“Đế Tôn chẳng lẽ đang lừa gạt ta sao? Vào lúc ấy ngươi rõ ràng còn rất muốn giết ta mà.”
+
+Ứng Hàn Y giơ tay chạm lên đầu Hạ Khanh Tuyên, lại men theo đỉnh đầu trượt xuống, đem đôi mắt dị đồng quá đỗi sáng ngời kia che khuất lại: “Tiểu tiên quân có muốn đoán thử xem, vì sao trong lần đầu tiên nhìn thấy ngươi, bản tôn lại không kịp thời ra tay giết ngươi không?”
+
+Với thực lực của Ứng Hàn Y, giết một người từ xa là quá đỗi dễ dàng, cho dù khi ấy y vẫn đang bị phong ấn.
+
+Nguy cơ lớn nhất khi Hạ Khanh Tuyên ký kết khế ước với Ứng Hàn Y năm xưa chính là hắn còn chưa kịp mở ra khế ước thì đã bị Ứng Hàn Y giết chết trước rồi.
+
+Giờ này khắc này, lời nói của đối phương tựa như tảng đá lớn ném vào mặt hồ phẳng lặng, dấy lên từng đợt sóng cuộn trào mãnh liệt.
+
+“Ngươi...” Hạ Khanh Tuyên muốn nói điều gì đó, nhưng lại thực sự không thốt nên lời.
+
+Ứng Hàn Y cứ thế nhìn vành tai của đối phương càng lúc càng đỏ ửng, đỏ rực đến mức không tưởng.
+
+Gương mặt đỏ bừng của thiếu niên thắng qua hết thảy mọi thứ trên đời, khiến lòng người say đắm rộn ràng, khiến người ta khát khao muốn... hoàn toàn chiếm hữu.
+
+Ứng Hàn Y ghé sát bên tai Hạ Khanh Tuyên, khẽ hỏi: “Nghe hiểu chưa?”
+
+“Hả?” Hạ Khanh Tuyên giả ngây giả ngô.
+
+Ứng Hàn Y không chịu buông tha: “Hử? Cho nên, đã nghe hiểu chưa?”
+
+“Chuyện này...” Hạ Khanh Tuyên khẽ ngó ngoáy đầu, theo bản năng muốn nhìn sang hướng khác. Nếu như Ứng Hàn Y không che mắt hắn lại, thì đây đại khái sẽ là một màn đánh trống lảng hoàn hảo.
+
+Ứng Hàn Y càng ghé sát lại gần hơn, hơi thở nóng rực phả trọn vẹn lên vành tai mẫn cảm: “Tiểu tiên quân dường như vẫn chưa nghe hiểu. Vậy thì ta nói thẳng thắn hơn một chút nhé. Ta đối với tiên quân ngươi chính là nhất kiến chung...”
+
+“Dừng!” Hạ Khanh Tuyên vội vàng kêu dừng lại. Lần này không chỉ có vành tai đỏ ửng, mà ngay cả cả cần cổ lẫn khuôn mặt hắn đều nhuốm một màu đỏ rực vô cùng diễm lệ.
+
+Ứng Hàn Y bật cười, tiếng cười trầm thấp tựa như mang theo chiếc móc câu cào nhẹ vào lòng người.

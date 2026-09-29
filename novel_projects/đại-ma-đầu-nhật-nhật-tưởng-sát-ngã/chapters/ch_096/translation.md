@@ -1,53 +1,95 @@
 ---
-title: Đại Ma Đầu Nhật Nhật Tưởng Sát Ngã — ch_096
+title: Chương 96
 ---
 
-"Chết tiệt!"
-Khi Quỷ vương hét lớn, cuộc tấn công của hắn đã đến.
-Tốc độ nhanh như dịch chuyển tức thời khiến bạn không thể tránh khỏi và những móng vuốt sắc nhọn đang ở ngay trước mặt bạn.
-Hạ Thanh Huyền ánh mắt bất động, thổi ra một làn khói trắng.
-Mái tóc anh bị gió mạnh hất ngược ra sau, anh đang mỉm cười sau làn khói trắng.
-Quả nhiên, đòn tấn công không xuyên qua làn khói trắng.
-Theo lời kể của Hades Emperor, Quỷ Đế từng chịu tổn thất nặng nề vì làn khói trắng dưới tay một con quỷ rắn. Anh luôn cảnh giác với loại khói này. Đòn tấn công lẽ ra phải đi thẳng vào cửa lại nhanh chóng được rút lại và chuyển sang đòn tấn công khác. Điều mà He Qing tuyên bố muốn là sự mất trí của Quỷ Hoàng. Hắn nhanh chóng hình thành một lời nguyền trong miệng, đồng thời phun ra hàng loạt lời nguyền rủa khó hiểu và phức tạp với Hades Emperor trong biển ý thức.
-Đương nhiên, có những rào cản đối với việc Hoàng đế Địa ngục dám hợp tác một mình với Quỷ hoàng. Nghĩ đi nghĩ lại, lý do khiến anh muốn đến Hoàng đế Địa ngục có lẽ là thân phận gia chủ của gia tộc Gongsun của cô. Chính vì cảm thấy đối phương có thể có thứ gì đó có thể đối phó Yêu Hoàng, nên Hà Thanh Huyền mới giữ lại ý thức của người này.
-Ngay khi câu thần chú được đọc, một sức mạnh từ khoảng không giáng xuống. Đây là một loại bùa chú cổ xưa, được thiết kế đặc biệt để tiêu diệt quỷ. He Qingxuan và Hades đều không bố trí trận pháp để hỗ trợ bùa chú trong Ma Cung, nhưng cuộc chiến giữa những kẻ mạnh mẽ đôi khi chỉ mắc một sai lầm nhỏ sẽ gây ra thảm họa.
-He Qingxuan vội vàng rút lui trong khi tăng tốc độ thi hành phép thuật. Nếu không phải khoảng cách hạn chế, Hà Thanh Huyền thật sự không muốn đến gần Yêu Vương như vậy.
-Hơi thở của cái chết đang đến gần anh.
-Khi He Qingxuan đọc ra lời nguyền khó hiểu, Quỷ Hoàng dường như đã biết nó là gì. Anh ta tấn công He Qingxuan mà không có chút ân sủng nào. Chuyển động của đối thủ nhanh đến mức chỉ trong chưa đầy một hơi thở, anh ta đã tung ra được nhiều đòn tấn công.
-Hoàng đế Hades thậm chí sẽ hét lên kinh ngạc trước mối nguy hiểm này.
-Nhưng đừng quên rằng He Qingxuan không phải là người duy nhất. Khi Yêu Hoàng tấn công Hà Thanh Huyền, Ying Hanyi cũng tấn công Yêu Hoàng.
-Bị tấn công từ cả hai phía, Yêu Hoàng vô tình bị tà khí xuyên qua nửa vai, khiến toàn thân càng thêm đáng sợ.
-Anh ta dẫn đầu để đối phó với Ying Hanyi đe dọa hơn, và cả hai lại chiến đấu.
-He Qingxuan, người bị phớt lờ, tiếp tục niệm chú. Phép thuật diệt yêu cổ xưa này thần bí đến mức chỉ cần cảm nhận được hơi thở cũng đủ khiến Yêu hoàng khó có thể duy trì sự tỉnh táo của mình. Trong cuộc đấu tay đôi với Ying Hanyi, Hoàng đế Quỷ đã tự gây ra một số vết thương mới cho bản thân.
-Sau một trận chiến như vậy, trong vòng một giờ, Ma Vương đã bị thương rất nhiều.
-Nếu cứ tiếp tục như vậy, nếu không có chuyện gì bất ngờ xảy ra thì nhiều nhất chỉ trong một ngày nữa thôi, Yêu Hoàng hùng mạnh sẽ thất thủ.
-Sức mạnh của Kỳ nạn thực sự đủ mạnh, nhưng nếu đối phương mà anh ta đang đối mặt cũng là Sức mạnh của Kỳ nạn, hoặc một người mạnh mẽ đã đạt đến Kỳ nạn từ hàng ngàn năm trước.
+“Đáng chết!”
 
-Trên người Ma Vương có rất nhiều vết thương, máu không ngừng chảy xuống. Vết thương sẽ ảnh hưởng đến phản ứng của con người, mất máu sẽ khiến con người tê dại, Ma Vương sẽ bại trận là điều chắc chắn.
-Khi năng lượng ma quỷ từ đầu ngón tay của Ying Hanyi trực tiếp xuyên qua trái tim của Ma hoàng, Ma hoàng nhìn lên trời và cười lớn. Với tiếng cười của anh, những đám mây dày tan đi, để lộ mặt trăng máu phía sau.
-Với mặt trăng máu trên bầu trời, sức mạnh của Quỷ vương một lần nữa được cải thiện. Những vết thương bị năng lượng ma quỷ đốt cháy và ăn mòn đang được chữa lành nhanh chóng, tốc độ của anh ta thậm chí còn nhanh hơn, như thể anh ta không hề bị ảnh hưởng bởi phép thuật nào cả.
-Quỷ Đế một lần nữa chiến đấu chống lại Ying Hanyi. Mặc dù He Qingxuan không thể trực tiếp chiến đấu một chọi một với Quỷ Hoàng, nhưng anh ấy đã hoàn thiện hình dạng của một vị thần. Ngay cả khi có tu vi cao nhất, anh ta vẫn có thể phát huy được sức mạnh của hình thái thần thánh đỉnh cao.
-Hắn buông tu vi, Thạch Sư Sương bình tĩnh dùng kiếm chém Ma Vương.
-Yêu Vương quay đầu nhìn Hà Thanh Huyền, ánh mắt kia không thể nghi ngờ chính là nhìn người chết.
-He Qingxuan đã xúc phạm đến Yêu Hoàng một cách nghiêm trọng, và anh ta không bận tâm nếu lòng thù hận của mình trở nên mạnh mẽ hơn.
-Với việc anh ta quấy rối anh ta từ bên cạnh và thỉnh thoảng hỗ trợ, lợi thế nhỏ bé của Quỷ vương một lần nữa bị mất đi.
-Huyết nguyệt lần nữa bị mây đen che phủ, Ma Vương thân ảnh biến mất trong hư không, chỉ để lại lời nói: "Tuyệt, vĩ, tuyệt. Có ngày chúng ta gặp nhau, ta sẽ báo thù cho nỗi nhục hôm nay!"
-He Qingxuan lấy lại thanh kiếm dài trong tay. Hôm nay hắn đã bắt được Yêu Hoàng mất cảnh giác, khiến hắn bỏ chạy.
-Hades hoàng đế dội gáo nước lạnh vào người hắn: “Cho nên ta mới nói ngươi căn bản không thể giết hắn. Hiện tại hắn đã mang ác ý với ta.”
-"Ngươi đã chết rồi còn sợ oán hận?" He Qingxuan đang nói chuyện với Hades trong biển ý thức.
-Có lẽ Hoàng đế Hades còn nói điều gì đó khác nữa, nhưng ông ấy không hề nghe.
-Ying Hanyi đi về phía anh, bước chân nặng nề, ngay cả biểu cảm trên khuôn mặt cũng không hề hiền lành và thân thiện.
-He Qingxuan muốn bỏ cuộc, trong tiềm thức cảm thấy có chút áy náy.
-Ngay khi cảm xúc này nảy sinh, He Qingxuan lại phủ nhận nó. Anh ta đã phạm tội gì?
-Ying Hanyi sắc mặt lạnh lùng đi tới. Khi anh đến gần hơn và nhìn thấy vẻ mặt muốn trốn thoát của He Qingxuan, anh thở dài. Anh nhẹ nhàng đưa ngón tay vuốt ve mái tóc mềm mại của đối phương, như thể đang vuốt ve một con vật nhỏ dễ sợ hãi.
-Anh thấp giọng hỏi: “Có đau không?”
-Hà Thanh Huyền sửng sốt một chút, muốn nói không đau, nhưng cuối cùng hắn lại nói: "Có chút đau, ý ta là có chút."
-Chương 54
+Cùng với tiếng quát chói tai của Yêu Hoàng, công kích của hắn đã ập tới trước mặt.
 
-He Qingxuan không phải là loại người thích thể hiện sự yếu đuối. Lúc bình thường anh ấy chỉ nửa đùa nửa thật, nhưng bây giờ lẽ ra điều đó không nên thành sự thật như thế này.
-Anh Hàn Dật giơ tay lên, dùng đầu ngón tay nhéo nhẹ, lời nói cũng có chút ôn hòa: “Đau ở đâu?”
-Hà Thanh Huyền chớp mắt, ngập ngừng đưa ra câu trả lời: “Chỗ nào cũng đau.”
-Ying Hanyi đáp lại, và năng lượng ma quỷ lan tỏa khắp cơ thể anh ta. Năng lượng ma quỷ hung dữ ngày xưa thực sự có khả năng sửa chữa. Anh ta vẫn dùng một tay nắm đầu ngón tay của He Qingxuan, nhưng tay kia lại chạm vào nơi bị rắn độc cắn.
-"Tiêu Tiên Quân, ngươi tại sao không nói cho ta biết nơi này rốt cuộc xảy ra chuyện gì?"
-He Qingxuan theo chuyển động của ngón tay và nhìn về phía cổ anh. Người ta khó có thể nhìn thấy cổ anh ta bằng mắt thường nên He Qingxuan đương nhiên không nhìn thấy gì.
-Anh giải phóng ý thức và nhìn lại lần nữa, đúng như dự đoán, anh nhìn thấy hai vết răng nông. Bởi vì chất độc còn sót lại vẫn chưa hoàn toàn lắng xuống nên vùng đó trông vẫn hơi đỏ và sưng tấy. Dấu răng và vết sưng đỏ trên cổ thực sự rất mơ hồ.
+Tốc độ kia nhanh như dịch chuyển tức thời, khiến người ta không thể nào né tránh, móng vuốt sắc nhọn đã ở ngay trước mắt.
+
+Đôi mắt Hạ Khanh Tuyên không hề dao động, khẽ thở ra một làn khói trắng.
+
+Sợi tóc bị kình phong cuốn bay ra sau, hắn đứng sau làn khói trắng mỉm cười xán lạn.
+
+Quả nhiên, đòn công kích không dám xuyên qua làn sương trắng.
+
+Theo lời Minh Đế nói, Yêu Hoàng này năm xưa từng chịu một vố thiệt thòi cực lớn trước làn sương trắng của một xà yêu, cho nên đối với loại khói sương này xưa nay luôn ôm lòng cảnh giác cao độ. Đòn đánh vốn dĩ nhắm thẳng vào chính diện lập tức nhanh chóng thu hồi, đổi thành một thức công kích khác. Điều Hạ Khanh Tuyên cần chính là khoảnh khắc tâm thần thất thủ ngắn ngủi ấy của Yêu Hoàng. Trong miệng hắn nhanh chóng kết ấn niệm chú, cùng với Minh Đế trong thức hải đồng thanh tụng ra một tràng chú ngữ tối nghĩa gian sáp.
+
+Minh Đế dám đơn thương độc mã hợp tác với Yêu Hoàng tự nhiên cũng có lá bài tẩy của riêng mình. Nghĩ đi nghĩ lại, chỗ dựa lớn nhất của Minh Đế đại khái chính là thân phận gia chủ Công Tôn gia năm xưa. Chính vì phán đoán đối phương có lẽ nắm giữ thứ gì đó có thể khắc chế Yêu Hoàng, Hạ Khanh Tuyên mới giữ lại một đạo thần thức này của nàng.
+
+Chú pháp vừa niệm, giữa hư không lập tức có một đạo sức mạnh kinh người giáng xuống. Đây là một loại trong số các thượng cổ chú thuật, sinh ra chuyên biệt để chém giết Yêu tộc. Hạ Khanh Tuyên và Minh Đế tuy chưa từng bày sẵn trận pháp phụ trợ chú thuật bên trong Yêu Điện, thế nhưng giao thủ giữa các đại năng đôi khi chỉ cần một sơ hở li ti cũng đủ để vạn kiếp bất phục.
+
+Hạ Khanh Tuyên vừa cấp tốc thối lui về sau, vừa đẩy nhanh tốc độ vận chuyển chú ngữ. Nếu không phải do có giới hạn về cự ly, Hạ Khanh Tuyên thực sự chẳng muốn lại gần Yêu Hoàng đến nhường này.
+
+Khí tức tử vong đang từng bước áp sát hắn.
+
+Ngay khoảnh khắc Hạ Khanh Tuyên niệm ra chú ngữ cổ xưa kia, Yêu Hoàng dường như đã lập tức nhận ra đây là thứ gì, chẳng màng phong độ uy nghi gì nữa mà điên cuồng lao tới tấn công Hạ Khanh Tuyên. Động tác của đối phương quá nhanh, chưa đầy một hơi thở ngắn ngủi đã có hàng loạt đòn công kích cuồng bạo giáng xuống.
+
+Minh Đế trong thức hải cũng phải kinh hãi thốt lên vì sự hiểm nguy cận kề này.
+
+Thế nhưng đừng quên rằng Hạ Khanh Tuyên không chỉ có một mình. Ngay khoảnh khắc Yêu Hoàng lao về phía Hạ Khanh Tuyên, Ứng Hàn Y cũng đồng thời tung đòn hủy thiên diệt địa đánh thẳng vào Yêu Hoàng!
+
+Bị công kích từ hai phía, Yêu Hoàng sơ sẩy bị ma khí xuyên thủng hơn nửa bả vai, cả người càng thêm dữ tợn kinh dị.
+
+Hắn quyết định quay sang đối phó với kẻ có tính uy hiếp cao hơn là Ứng Hàn Y, hai người lại lần nữa quần thảo ác liệt.
+
+Hạ Khanh Tuyên ở một bên bị ngó lơ vẫn tiếp tục tụng niệm chú ngữ. Loại thượng cổ chú thuật trừ yêu này huyền chi lại huyền, chỉ riêng việc cảm nhận được khí tức đó thôi cũng đủ khiến Yêu Hoàng khó bề duy trì lý trí. Trong cuộc huyết chiến với Ứng Hàn Y, Yêu Hoàng bệ hạ đã thành công tự chuốc thêm cho mình vài vết thương trí mạng mới.
+
+Giao chiến liên tục như thế, chưa đầy một canh giờ trôi qua, trên người Yêu Hoàng đã chằng chịt vết thương.
+
+Nếu cứ tiếp diễn thế này, không có gì bất ngờ thì nhiều nhất chỉ một ngày, đường đường là một đời Yêu Hoàng ngạo nghễ sẽ phải vẫn lạc tại đây.
+
+Đại năng Độ Kiếp kỳ quả thực vô cùng lợi hại, thế nhưng nếu như đối thủ trước mặt hắn cũng là một vị đại năng Độ Kiếp kỳ, hơn nữa còn là một đại năng đã bước vào Độ Kiếp kỳ từ mấy ngàn năm trước thì lại là chuyện hoàn toàn khác.
+
+Trên thân thể Yêu Hoàng vết thương ngày càng nhiều, máu tươi không ngừng chảy tràn xuống đất. Vết thương ảnh hưởng tới phản xạ, mất máu khiến cơ thể bắt đầu chết lặng, bại cục của Yêu Hoàng đã định.
+
+Ngay khoảnh khắc ma khí nơi đầu ngón tay Ứng Hàn Y đâm xuyên thẳng qua trái tim Yêu Hoàng, Yêu Hoàng bỗng nhiên ngửa mặt lên trời cười vang như điên dại. Cùng với tiếng cười ghê rợn của hắn, tầng mây dày đặc rẽ lối, để lộ ra vầng huyết nguyệt đỏ quạch phía sau.
+
+Huyết nguyệt ngự trị trên không trung, thực lực của Yêu Hoàng thế mà lại một lần nữa tăng vọt! Những vết thương bị ma khí thiêu đốt ăn mòn cấp tốc khép miệng lành lại, tốc độ của hắn lại càng nhanh hơn, dường như hoàn toàn không còn bị chú thuật trói buộc ảnh hưởng nữa.
+
+Yêu Hoàng lần nữa lao vào huyết chiến với Ứng Hàn Y. Hạ Khanh Tuyên tuy rằng không thể trực tiếp một chọi một với Yêu Hoàng, thế nhưng hắn lúc này đã là Hóa Thần viên mãn! Dù là tu vi đoạt được đi chăng nữa thì cũng có thể phát huy ra uy lực của Hóa Thần đỉnh phong.
+
+Hắn phóng thích toàn bộ tu vi, Thập Tứ Sương trong tay lặng lẽ không một tiếng động đâm thẳng một kiếm vào sau lưng Yêu Hoàng!
+
+Yêu Hoàng ngoái đầu trừng mắt nhìn Hạ Khanh Tuyên, ánh mắt kia không nghi ngờ gì chính là ánh nhìn dành cho một kẻ đã chết.
+
+Hạ Khanh Tuyên vốn đã đắc tội với Yêu Hoàng tới tận cùng xương tủy, hoàn toàn chẳng ngại mối hận thù này đậm sâu thêm vài phần.
+
+Có hắn ở bên cạnh không ngừng quấy nhiễu, thỉnh thoảng lại bồi thêm một đòn hiểm hóc, chút ưu thế vừa giành lại được của Yêu Hoàng tức khắc tan thành mây khói.
+
+Huyết nguyệt thêm một lần nữa bị mây đen che khuất, bóng hình của Yêu Hoàng thế mà lại cứ thế biến mất tăm giữa hư không, chỉ còn sót lại thanh âm rít gào đầy căm hận: “Tốt lắm, tốt lắm! Ngày khác tương phùng, bản hoàng nhất định phải rửa sạch mối nhục ngày hôm nay!”
+
+Hạ Khanh Tuyên thu hồi trường kiếm trong tay. Hôm nay tính ra đã đánh cho Yêu Hoàng một đòn trở tay không kịp, vậy mà vẫn để cho đối phương chạy thoát được.
+
+Minh Đế lập tức dội một gáo nước lạnh: “Đó là lý do vì sao bản tọa nói các ngươi căn bản không giết nổi hắn. Bây giờ hắn đã ghi thù cả bản tọa vào rồi đấy.”
+
+“Ngươi đều đã chết rồi còn sợ bị ghi thù sao?” Hạ Khanh Tuyên ở trong thức hải đối đáp với Minh Đế.
+
+Minh Đế đại khái lại nói thêm vài câu gì đó, có lẽ vậy, chỉ là hắn hoàn toàn chẳng buồn lọt tai.
+
+Ứng Hàn Y đang cất bước đi về phía hắn. Bước chân của đối phương rất nặng nề, ngay cả nét mặt cũng chẳng thể tính là ôn hòa thân thiện.
+
+Hạ Khanh Tuyên dấy lên ý muốn thối lui, trong tiềm thức có chút chột dạ.
+
+Thế nhưng cảm xúc này vừa mới dâng lên đã bị chính Hạ Khanh Tuyên gạt phắt đi. Hắn chột dạ cái nỗi gì chứ!
+
+Ứng Hàn Y với gương mặt lạnh lùng tiến lại gần, đợi đến khi tới sát bên, trông thấy biểu cảm muốn trốn tránh của Hạ Khanh Tuyên, y ngược lại lại khẽ thở dài một tiếng. Ngón tay y nhẹ nhàng lướt qua lọn tóc mềm mại của đối phương, tựa như đang vuốt ve một con thú nhỏ dễ bị kinh sợ.
+
+Y trầm giọng hỏi: “Đau không?”
+
+Hạ Khanh Tuyên ngẩn người, muốn nói là không đau, thế nhưng cuối cùng lời thốt ra khỏi miệng lại là: “Có một chút đau... Ý ta là, chỉ một chút thôi.”
+
+Hạ Khanh Tuyên không phải loại người thích tỏ ra yếu đuối. Ngày thường nửa đùa nửa thật thì thôi đi, lúc này thế này quả thực không nên chút nào.
+
+Ứng Hàn Y nâng tay hắn lên, đầu ngón tay khẽ vân vê đầu ngón tay hắn, vô cùng nhẹ nhàng dịu dàng, lời nói cũng mang theo vài phần mềm mỏng: “Đau ở đâu?”
+
+Hạ Khanh Tuyên chớp chớp mắt, thăm dò đưa ra một đáp án: “Chỗ nào cũng đau.”
+
+Ứng Hàn Y khẽ đáp lại một tiếng, ma khí quanh thân khẽ dập dờn lan tỏa. Nguồn ma khí vốn dĩ tàn bạo hung hãn ngày trước nay thế mà lại mang theo năng lực chữa lành. Một tay y vẫn nắm lấy đầu ngón tay Hạ Khanh Tuyên, tay kia lại chạm lên nơi từng bị rắn độc cắn trúng.
+
+“Tiểu tiên quân chi bằng nói cho bản tôn biết, chỗ này rốt cuộc là bị làm sao?”
+
+Hạ Khanh Tuyên nương theo động tác ngón tay của y nhìn về phía cổ mình. Chỉ dựa vào mắt thường thì con người rất khó nhìn thấy cổ của chính mình, Hạ Khanh Tuyên tự nhiên chẳng nhìn thấy gì.
+
+Hắn phóng xuất thần thức xem lại, quả nhiên trông thấy hai dấu răng nông nông. Bởi vì tàn độc vẫn chưa tan hết, mảng da thịt kia trông vẫn còn hơi ửng đỏ sưng tấy. Dấu răng điểm xuyết trên nền da ửng đỏ, lại nằm ngay trên cổ, quả thực có vài phần ái muội khôn tả.

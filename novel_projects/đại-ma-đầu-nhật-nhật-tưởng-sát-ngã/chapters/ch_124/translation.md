@@ -2,41 +2,76 @@
 title: Đại Ma Đầu Nhật Nhật Tưởng Sát Ngã — ch_124
 ---
 
-Đã bao lâu trôi qua? Ying Hanyi đếm mỗi ngày.
-Đây là ngày bình thường nhất. Người mà anh chờ đợi bao nhiêu năm cuối cùng cũng tỉnh dậy.
-Anh gần như nghĩ rằng mình đang mơ, rằng anh đã phát điên hoàn toàn trong khi chờ đợi.
-Nụ hôn của anh không hề dịu dàng chút nào, anh điên cuồng cướp lấy không khí của đối phương. Cuối cùng sau khi xác nhận người này chính là người mình chờ đợi, anh mỉm cười mãn nguyện.
-Hắn gửi tới lời chúc phúc chân thành nhất, nhẹ nhàng nói: "Tiên Vương, hoan nghênh trở về."
-Anh gạt bỏ mọi đau đớn và tàn nhẫn, đè nén cả sự chiếm hữu khủng khiếp, dùng thái độ bình thường và vô hại để vây quanh nàng tiên nhỏ của mình một lần nữa.
-Vâng, chào mừng trở lại.
-Người yêu đã mất của tôi.
-Thứ 76 chương Thêm 2
-Tin tức Zhengdao hy vọng thông đồng với ma quỷ và không hề hối hận đã không còn là bí mật ở Zhengdao.
-Và họ cũng nhận được tin He Qingxuan bị quỷ ám.
-Tin tức này là đúng sự thật và đáng tin cậy. Người ta kể rằng có một người nào đó rất được ma quỷ sủng ái, còn những người khác thì chỉ cần chạm vào tóc cũng sẽ chết thảm. Đây thực sự là một sự xấu hổ cho sự công bình của họ.
-Mỗi lần nhắc tới Hà Thanh Huyền, những lão già chính trực này đều không có biểu cảm gì tốt. Ngay cả Huyền Di cung cũng từ người đứng đầu chính đạo chuyển sang tình thế tế nhị.
-Cung điện Huyền Di là một giáo phái rất kỳ lạ. Họ sẽ tham gia vào hầu hết các hoạt động có lợi cho sự phát triển của chính đạo, và cố gắng hết sức để làm cho chính đạo tiến lên khi ma quỷ nội chiến. Tuy nhiên, một khi đối mặt với Hà Thanh Huyền, một số trưởng lão và đệ tử sẽ im lặng không nói nên lời. Một số người lớn tuổi sẽ trông xấu xí khi nghe những lời nhận xét vu khống, và một số thậm chí còn trở nên tức giận vì điều đó.
-Rõ ràng họ vẫn còn tình cảm với cái xác toàn linh đã rẽ vào con đường của ma quỷ.
-Người đứng đầu hiện tại của Liên minh bất tử đã nhiều lần cố ý hoặc vô ý đánh sập Cung điện Hiên Di, hy vọng rằng họ có thể làm rõ lập trường của mình. Dù là vì trẻ con cũng không nên quên sự khác biệt giữa tiên và ác quỷ.
-Trên thực tế, thủ lĩnh của Liên minh bất tử cũng đã đoán được tại sao He Qingxuan có thể ở lại với Ying Hanyi sớm hơn. Ngoại giới trước đó cũng đã cứu được rất nhiều đệ tử bất tử của họ. Tuy nhiên, mọi phỏng đoán đều không có kết quả sau khi biết rằng He Qingxuan đã trở thành một con quỷ. Một người tu luyện quỷ được định sẵn là khác với họ.
-Thủ lĩnh Tiên Minh nhẹ nhàng thở dài, tựa hồ vô cùng hối hận: “Nếu biết trước chuyện này, thà giao đứa nhỏ này cho ta còn hơn.”
-Một tông phái chính nghĩa hạng ba trả lời: "Đây không phải là lần đầu tiên xảy ra chuyện như thế này trong Cung điện Hiên Nghĩa. Người ta nói rằng ma quỷ đến từ Cung điện Huyền Nghĩa."
-Lãnh đạo Huyền Di cung cứng đờ, Hà Thanh Huyền, Huyền Di cung phải trả rất nhiều tiền mới mang về được, Liên minh bất tử lúc đó sắp tan rã. Cung điện Huyền Nghĩa của họ vốn là nơi thích hợp nhất cho Linh thể toàn năng, nhưng giờ đây mọi thứ đã trở nên sai trái. Ngay cả chuyện cũ của Ying Hanyi cũng được đưa ra. Có thể nói, Huyền Di Cung bọn hắn xử lý Ứng Hàn Di rất có lương tâm.
+Lại trôi qua bao lâu nữa rồi nhỉ? Ứng Hàn Y đếm từng ngày một.
 
-Huyền Di Cung cũng không phải thật sự bị đánh bại, muốn đứng nhìn người khác ức hiếp mình. Chưởng môn Huyền Di Cung nhìn quanh, thấy đại bộ phận tu sĩ chính nghĩa đều đồng ý, có người nhắc tới Hà Thanh.
-Không thể chịu đựng được nữa, người đứng đầu Hiên Nghĩa Cung vốn luôn ôn hòa dễ nói, cuối cùng trở nên lạnh lùng nói: “Về phần đệ tử của giáo phái chúng ta là Hà Thanh Huyền, ta chỉ có thể nói, chỉ cần hắn không làm điều gì có hại cho thiên nhiên, Cung điện Huyền Nhất của chúng ta sẽ mãi là nhà của hắn.”
-Người đứng đầu của Liên minh bất tử choáng váng.
-Thậm chí có người còn trực tiếp kêu lên: "Huyền Nghĩa Cung của ngươi công khai trở thành kẻ thù của chính nghĩa sao?!"
-Lãnh đạo Huyền Dực cung cười lạnh: “Không biết ngươi từ đâu đến mà nghi ngờ như vậy, chúng ta đã nói Chu Long Tự cấu kết với yêu ma, muốn một lần hạ gục Hiên Dự cung của chúng ta. Việc này tuy rằng ngươi không nói thêm gì, nhưng chỉ từ việc quyền lên tiếng của Hiên Dự cung chúng ta ngày càng ít đi, có thể thấy rằng ngươi có nửa phần nghi ngờ về điều này, cho rằng trong Cung Hiên Nghĩa của chúng ta có ma. Thậm chí toàn bộ chúng ta đều có ma. thể xác linh hồn đã bán mình cho quỷ dữ để tồn tại.”
-"Vậy ta muốn hỏi, tại sao một thân thể toàn trí của thế hệ trẻ tài năng nhất và được tài nguyên của tông môn sủng ái lại bán mình cho ma quỷ? Bởi vì hắn muốn cứu đồng môn của chúng ta, cứu lấy Cung điện Hiên Dịch vô hồn đang bị yêu quái vây hãm của chúng ta. Khi Cung điện Huyền Nghĩa của chúng ta gặp nguy hiểm, ai dám ra tay?"
-Những lời này khiến các thành viên Tiên Giáo vốn đang vô cùng bất mãn, thậm chí đặt tay lên vũ khí cũng phải im lặng.
-Một giọng nam nói: “Nhưng hắn thông đồng với ma quỷ là sai rồi.”
-Hiên Ý Cung chủ hướng sự chú ý về phía người kia: "Thật sao? Nhưng theo chúng ta, hắn đã hy sinh bản thân để trấn áp yêu ma. Làm sao hắn có thể chật vật trước mặt một con quỷ thất thường? Chưa kể việc ngày nào cũng bị bắt nạt, điều đó chưa bao giờ là dễ dàng, nhưng dù vậy, hắn sẽ giải cứu các đệ tử Tiên Đạo như ngươi ở ngoại giới, nhưng đó chỉ là nếu ngươi không nhận lòng tốt của hắn, chỉ làm xấu mặt con hắn. Nếu là ngươi thì làm gì tốt hơn." trong tình huống tương tự? Hay sẽ tốt hơn nếu Cung điện Huyền Nghị của chúng ta bị lũ quỷ tấn công vào thời điểm đó?
-Mỗi câu hỏi này vang lên như một tiếng chuông, đánh động lòng người.
-Liên minh bất tử là gì? Đó là một tổ chức được hình thành bởi vô số con đường chính nghĩa. Nhưng nếu ngay cả chính đạo khổng lồ Huyền Nhất Cung cũng sụp đổ, những con cá tôm nhỏ này có thể tồn tại được bao lâu? Con đường chân chính cuối cùng sẽ không còn tồn tại. Khi đối mặt với sự diệt vong của gia tộc, liệu họ có thể thực hiện tốt hơn Cung điện Hiên Nghĩa?
-"Nếu Tiên Minh không hoan nghênh Hiên Nghĩa Cung, chúng ta Huyền Nghi Cung cũng không có ý định tiếp tục ở lại Tiên Minh. Từ nay về sau, Huyền Nhất Cung rút lui khỏi Tiên Minh, ngươi có thể tự lo liệu."
-Người lãnh đạo cứng rắn của Cung Huyền Nghĩa thực sự không dễ nói chuyện chút nào. Một số tiên phái muốn cứu họ, trong khi những người khác đang thiền định. Sau sự việc này, Zhengdao đã học được một bài học đau đớn và muốn cứu toàn bộ linh hồn của họ khỏi bàn tay của ma quỷ.
-Nhưng họ nhận được tin tức là linh hồn của He Qingxuan đã tắt.
-Đã quá muộn rồi.
-Thời gian trôi nhanh, hàng trăm năm đã trôi qua trong chớp mắt.
-Kể từ khi Hoàng đế Minh giới, Ma vương và Ma hoàng lần lượt chết trong tay Ying Hanyi, anh ta là người duy nhất trong thế giới quỷ, nhưng bản thân anh ta không có hứng thú với việc đốt, giết, cướp bóc, và người của anh ta không gặp khó khăn gì khi tìm ra con đường đúng đắn. Bằng cách này, sau khi tu luyện chính đạo hàng trăm năm, ông lại một lần nữa đạt tới trạng thái trở thành thần thánh.
+Đây vốn là một ngày bình thường không thể bình thường hơn, người mà y chờ đợi suốt bao nhiêu năm rốt cuộc cũng đã tỉnh lại.
+
+Y gần như ngỡ rằng mình đang nằm mơ, ngỡ rằng bản thân trong chuỗi ngày chờ đợi đằng đẵng đã hoàn toàn điên dại phát cuồng.
+
+Nụ hôn của y chẳng hề dịu dàng chút nào, điên cuồng cướp đoạt từng chút dưỡng khí của đối phương. Đợi đến khi rốt cuộc xác định được người này chính là người y hằng mong mỏi đợi chờ, y mới nở nụ cười đầy thỏa mãn.
+
+Y trao cho người kia lời chúc phúc thành kính nhất, đoạn khẽ khàng thủ thỉ một câu: “Tiên quân, hoan nghênh trở về.”
+
+Y thu liễm lại toàn bộ nỗi đau đớn cùng sự tàn nhẫn, đến cả dục vọng chiếm hữu đáng sợ kia cũng liều mạng đè nén xuống, dùng thái độ bình thường và vô hại nhất để một lần nữa ôm trọn tiểu tiên quân của mình vào lòng.
+
+Đúng vậy, hoan nghênh trở về.
+
+Người yêu lạc lối của ta.
+
+Chương 76 Phiên ngoại 2
+
+Hy vọng của chính đạo lại đi thông đồng một giuộc với ma đầu, hơn nữa còn chẳng hề có lấy nửa điểm hối cải, tin tức này ở chính đạo sớm đã chẳng còn là bí mật.
+
+Chưa kể bọn họ còn nhận được một tin tức: Hạ Khanh Tuyên đã nhập ma.
+
+Tin tức này hoàn toàn xác thực và đáng tin cậy. Nghe đồn người nọ ở bên chỗ ma đầu cực kỳ được sủng ái, kẻ khác dẫu chỉ đụng vào một sợi tóc của hắn cũng phải chuốc lấy kết cục chết không toàn thây, thực đúng là nỗi sỉ nhục của cả giới chính đạo.
+
+Mỗi lần nhắc tới Hạ Khanh Tuyên, mấy lão già bên phái chính đạo đều chẳng có lấy sắc mặt tốt lành gì, ngay cả Tuyên Nghi Cung vốn là khôi thủ chính đạo nay cũng rơi vào tình thế vô cùng tế nhị.
+
+Tuyên Nghi Cung là một môn phái rất kỳ lạ. Mọi hoạt động có lợi cho sự phát triển của chính đạo bọn họ gần như đều dốc sức tham gia, toàn tâm toàn lực giúp chính đạo thừa dịp yêu ma nội loạn mà vươn lên. Thế nhưng một khi đối mặt với chuyện của Hạ Khanh Tuyên, có trưởng lão và đệ tử sẽ trầm mặc lặng thinh, không thốt nên lời; cũng có trưởng lão đệ tử vừa nghe thấy những lời phỉ báng gièm pha liền biến sắc sa sầm, thậm chí còn vì thế mà nổi trận lôi đình.
+
+Bọn họ rõ ràng là vẫn còn tình cảm với vị Toàn Linh Chi Thể đã chuyển tu ma đạo kia.
+
+Tiên Minh minh chủ hiện tại đã có ý vô tình gõ đầu cảnh cáo Tuyên Nghi Cung mấy bận, hy vọng bọn họ biết rõ vị trí của mình, dẫu có niệm tình một đứa trẻ đi chăng nữa thì cũng chớ nên quên đạo lý tiên ma khác biệt.
+
+Kỳ thực trước kia Tiên Minh minh chủ cũng từng suy đoán vì sao Hạ Khanh Tuyên lại có thể ở lại bên cạnh Ứng Hàn Y, vực ngoại lĩnh vực trước đó cũng đã cứu không ít đệ tử tiên đạo của bọn họ. Thế nhưng mọi phỏng đoán sau khi biết tin Hạ Khanh Tuyên nhập ma đều tan thành mây khói, một ma tu đã định sẵn không thể cùng chung một con đường với bọn họ.
+
+Tiên Minh minh chủ khẽ thở dài một tiếng, tựa hồ vô cùng tiếc nuối: “Sớm biết như vậy, đứa nhỏ này lúc trước chẳng thà giao tới trước mặt bổn tọa.”
+
+Có một môn phái tam lưu của chính đạo phụ họa theo: “Tuyên Nghi Cung cũng đâu phải lần đầu xảy ra chuyện bực này, nghe đồn ma đầu kia năm xưa cũng xuất thân từ Tuyên Nghi Cung đấy thôi.”
+
+Sắc mặt Tuyên Nghi Cung tông chủ cứng đờ. Hạ Khanh Tuyên năm đó chính là do Tuyên Nghi Cung bọn họ phải trả giá không ít mới đưa về được, hơn nữa khi ấy Tiên Minh đã sắp sửa tan rã, Tuyên Nghi Cung bọn họ mới là chốn thích hợp nhất cho Toàn Linh Chi Thể tu hành. Đến nay thế mà lại biến thành làm gì cũng sai, ngay cả chuyện xưa của Ứng Hàn Y cũng bị đào bới đem ra chỉ trích, trong khi năm đó Tuyên Nghi Cung xử trí chuyện Ứng Hàn Y có thể nói là hoàn toàn vấn tâm vô quý.
+
+Tuyên Nghi Cung cũng đâu phải đã sa sút đến mức phải đứng trơ ra đó cho người ta ức hiếp. Tông chủ Tuyên Nghi Cung quét mắt một vòng, chỉ thấy phần lớn tu sĩ chính đạo đều phụ họa đồng tình, thậm chí còn có kẻ vừa nhắc tới Hạ Khanh Tuyên liền tỏ vẻ đầy phẫn uất bất bình; duy chỉ có môn nhân Tuyên Nghi Cung là lộ rõ vẻ bất mãn cùng tức giận vì bị xúc phạm.
+
+Nhẫn nhịn không nổi thì chẳng cần phải nhẫn nữa. Tông chủ Tuyên Nghi Cung xưa nay vốn ôn hòa dễ nói chuyện rốt cuộc cũng lạnh mặt: “Về chuyện của đệ tử tệ phái Hạ Khanh Tuyên, ta chỉ có thể nói một câu, chỉ cần hắn không làm ra chuyện gì táng tận lương tâm phương hại trời đất, thì Tuyên Nghi Cung vĩnh viễn là nhà của hắn.”
+
+Tiên Minh minh chủ ngạc nhiên sững sờ.
+
+Thậm chí có kẻ còn trực tiếp kinh hô: “Tuyên Nghi Cung các người đây là muốn công khai đối nghịch với toàn thể chính đạo sao?!”
+
+Tông chủ Tuyên Nghi Cung cười khẩy một tiếng: “Chư vị cũng chẳng biết lấy mặt mũi từ đâu ra mà ở đây nghi thần nghi quỷ. Chuyện ban đầu chúng ta đã nói rõ là Chúc Long Thánh Điện câu kết cùng yêu ma, muốn một mẻ hốt gọn Tuyên Nghi Cung. Chư vị tuy không nói ra miệng, nhưng chỉ cần nhìn quyền lên tiếng của Tuyên Nghi Cung ngày một ít đi là đủ hiểu các người vẫn bán tín bán nghi, cho rằng Tuyên Nghi Cung có nội gian, thậm chí còn nghĩ Toàn Linh Chi Thể của chúng ta vì muốn giữ mạng mà tự bán mình cho ma đầu.”
+
+“Vậy thì ta xin hỏi, vì cớ gì một Toàn Linh Chi Thể thiên tư trác tuyệt nhất thế hệ trẻ, được môn phái dốc lòng dồn tài nguyên bồi dưỡng, lại phải tự bán mình cho ma đầu? Là bởi vì hắn muốn cứu vãn những đồng môn như chúng ta, cứu vãn một Tuyên Nghi Cung đang bị yêu ma vây giết đến cạn kiệt đường sống! Vào lúc Tuyên Nghi Cung lâm nguy, dám hỏi chư vị ở đây có ai đã từng đứng ra tương trợ chăng?”
+
+Một tràng lời lẽ này khiến đám tiên môn chính đạo vừa rồi còn bất mãn ra mặt, thậm chí tay đã đặt lên chuôi binh khí, lập tức phải câm nín trầm mặc.
+
+Có một giọng nam vang lên: “Nhưng hắn cấu kết cùng một giuộc với ma đầu chính là sai trái.”
+
+Tông chủ Tuyên Nghi Cung chuyển ánh mắt về phía kẻ đó: “Thế sao? Nhưng trong mắt chúng ta, hắn là vì bình định yêu ma mà hy sinh chính mình! Trước mặt một ma đầu hỉ nộ vô thường, hắn phải bước đi gian nan nhường nào, chưa kể đến việc ngày ngày chịu đủ nhục nhã, thì cũng tuyệt đối chẳng hề dễ chịu gì. Thế nhưng dẫu là vậy, hắn vẫn ra tay cứu giúp đệ tử đồng đạo tiên môn các người tại vực ngoại lĩnh vực. Các người không nhớ ơn hắn thì thôi, lại chỉ biết làm khó làm dễ một đứa trẻ. Thử hỏi nếu các người ở vào hoàn cảnh ấy liệu có làm được tốt hơn? Hay là Tuyên Nghi Cung của chúng ta khi ấy bị yêu ma công phá các người mới vừa lòng?”
+
+Từng câu hỏi chất vấn dõng dạc như chuông đồng vang dội, gõ thẳng vào tâm khảm mỗi người.
+
+Tiên Minh tính là cái gì chứ? Đó chẳng qua là một tổ chức kết tinh từ vô số thế lực chính đạo mà thôi. Nhưng nếu như đến cả đầu tàu cự phách chính đạo như Tuyên Nghi Cung mà sụp đổ, thì lũ tôm tép nhãi nhép bọn họ liệu còn chống đỡ được bao lâu? Chính đạo cuối cùng rồi cũng tan thành mây khói. Đứng trước họa diệt môn, bọn họ liệu có thật sự làm tốt hơn Tuyên Nghi Cung hay chăng?
+
+“Tiên Minh đã không hoan nghênh Tuyên Nghi Cung, thì Tuyên Nghi Cung chúng ta cũng chẳng thiết tha gì việc tiếp tục ở lại Tiên Minh nữa. Kể từ nay, Tuyên Nghi Cung chính thức rút khỏi Tiên Minh, chư vị tự giải quyết cho tốt.”
+
+Tông chủ Tuyên Nghi Cung một khi đã cứng rắn thì quả thực chẳng nể nang chút nào. Có tiên môn muốn lên tiếng giữ lại, cũng có môn phái chìm vào trầm tư. Sau biến cố lần này, chính đạo cũng coi như tỉnh ngộ sau nỗi đau, bắt đầu tính kế tìm cách giải cứu vị Toàn Linh Chi Thể của bọn họ thoát khỏi tay ma đầu.
+
+Thế nhưng tin tức mà bọn họ nhận được lại là: hồn đăng của Hạ Khanh Tuyên đã tắt.
+
+Tất cả đều đã muộn màng.
+
+Tháng năm thoi đưa, chớp mắt một cái thế mà đã mấy trăm năm trôi qua.
+
+Kể từ sau khi Minh Đế, Ma Tôn cùng Yêu Hoàng lần lượt bỏ mạng dưới tay Ứng Hàn Y, cõi yêu ma một mình y độc bá. Thế nhưng bản thân y vốn chẳng có hứng thú gì với chuyện giết chóc cướp bóc, thuộc hạ dưới quyền y cũng không hề gây phiền toái cho chính đạo. Cứ như thế, chính đạo nghỉ ngơi hồi phục suốt mấy trăm năm, thế mà lại một lần nữa xuất hiện tu sĩ cảnh giới Hóa Thần.

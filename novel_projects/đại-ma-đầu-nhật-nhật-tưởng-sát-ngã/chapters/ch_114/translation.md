@@ -1,56 +1,103 @@
 ---
-title: Đại Ma Đầu Nhật Nhật Tưởng Sát Ngã — ch_114
+title: Chương 114
 ---
 
-Khi không nghĩ tới, tôi cũng không cảm nhận được, nhưng khi nghĩ đến, mọi thứ dường như đều có lý.
-Đây là một ý tưởng táo bạo đến nỗi ngay cả He Qingxuan cũng bật cười trước phỏng đoán của anh.
-Nhưng hiện tại, đây mới thực sự là lời giải thích hợp lý nhất.
-Quỷ Vương!
-He Qingxuan có ý định tìm kiếm Hoàng đế quỷ. Vì anh ấy có thể quay lại thời điểm trước đó trong dòng thời gian, vậy anh ấy cũng có thể quay lại lần thứ hai chứ?
-Ying Hanyi cũng không thể nhìn thấy anh ta. Anh ta có thể lặng lẽ đi tìm Quỷ vương mà không ai để ý. Cho dù thất bại, hắn vẫn có thể lặng lẽ trôi về, nhưng nếu hắn không thể quay lại thì sao?
-He Qingxuan không phải là loại người thích báo cáo với người khác trước khi làm bất cứ điều gì, nhưng lần này anh ấy đã chịu đựng và tìm cơ hội để ngủ và nói chuyện vui vẻ với người khác.
-Cơn buồn ngủ đột ngột trước đây có lẽ đã được Ying Hanyi loại bỏ hoàn toàn, nhưng bây giờ anh biết He Qingxuan liên lạc với mình theo cách này, Ying Hanyi không hề phản kháng chút nào.
-Những gì anh nhìn thấy là những đám mây bồng bềnh trong tầm tay và những ngọn núi nhấp nhô ở phía xa. Ying Hanyi nhận ra nơi này mà không cần phải xác định.
-Núi Wangyue trong Cung điện Huyền Nghĩa là nơi tốt nhất để hấp thụ tinh hoa của mặt trời và mặt trăng. Đó là nơi mà chỉ có đệ tử nội môn mới có thể vào sau khi tranh tài với ba người đứng đầu.
-Ying Hanyi chỉ nhìn nó thêm vài lần nữa rồi quay lại chú ý.
-Người tới mặc đồ trắng, khuôn mặt kém trẻ trung hơn rất nhiều so với lần đầu gặp nhưng vẫn tươi tắn, xinh đẹp như lần đầu gặp.
-Hạ Thanh Huyền nhướng mày, mỉm cười chào Ứng Hàn Di, "Không ngờ trong mộng ngươi lại nhìn thấy Huyền Di cung. Đã gần hai năm rồi ta mới trở lại Huyền Di cung. Ta rất nhớ ngươi."
-"Ngươi có nhớ hay không nhớ đại trưởng lão, sư tỷ, nhị sư huynh?"
-Hà Thanh Huyền chớp mắt, nụ cười trên môi càng đậm, “Ta rất nhớ ngươi. Nếu hoàng đế không phải đại ma, việc ra vào Hiên Di cung thực sự không thích hợp, ta sẽ muốn ngươi mang ta về cùng.”
-"Các ngươi chỉ là tư chất tầm thường mà thôi, cho dù không có nhiều thiên tài địa bảo, chỉ cần chăm chỉ tu luyện, trong trăm năm cũng có thể vượt qua tất cả. Sớm muộn có một ngày cũng sẽ chết, vậy sao phải lo lắng nhiều như vậy."
-"Nhưng người chết đầu tiên không phải họ mà là tôi." Hà Thanh Huyền mỉm cười, tựa hồ không chú ý đến Ứng Hàn Nhất đột nhiên cau mày, tự nhủ: "Ta không chỉ nhớ các trưởng lão cùng những người khác, còn nhớ những cây linh quả mà ta chưa ăn hết. Không biết Hoàng đế Tôn có ăn thử món hạc nướng trong Cung Huyền Diệc hay không. Mùi vị thật tuyệt vời."
-Ying Hanyi nói "ừm" và giọng nói hơi kéo dài: "Tôi đã nếm thử nó, nhưng đó chỉ là năm tôi mới bắt đầu, cũng không phải trong thời gian nhịn ăn. Đã lâu lắm rồi."
-Hà Thanh Huyền có chút kinh ngạc: “Hoàng đế thoạt nhìn không giống người có thể nướng hạc.”
-“Quả thực còn có người khác, bạn tốt của tôi lúc đó.”
+Khi chưa nghĩ theo hướng này thì còn không cảm thấy gì, nhưng một khi đã nghĩ như vậy rồi, dường như mọi chuyện đều trở nên có tình có lý.
 
-"Anh ấy là người như thế nào? Có vẻ như chúng tôi có mối quan hệ tốt." He Qingxuan thực sự tò mò. Anh khó có thể tưởng tượng rằng Ying Hanyi có những người bạn như Đạo sĩ Yingui. Đối phương và Ying Hanyi có vẻ như là bạn bè, nhưng họ chắc chắn không có mối quan hệ chân thành như bạn bè. Họ nói họ là bạn bè và điều đó liên quan nhiều hơn đến sở thích.
-“Đối với một người cả ngày không biết lấy cái gì vui vẻ, lúc đó những người cùng thời với ta đều không còn sống, cho nên Tiên Quân, đừng đầu tư quá nhiều người, nếu không cuối cùng chỉ có mình ngươi đau lòng.”
-Hạ Thanh Huyền chớp mắt rất chậm rãi: “Đây chính là ý của Hoàng đế sao?”
-"Chúa Bất Tử nghĩ thế nào?"
-"Ta còn tưởng rằng hoàng đế muốn ngươi là người duy nhất trong mắt ta." He Qingxuan nửa đùa nửa thật.
-Ying Hanyi dùng ngón tay nhặt một sợi tóc của He Qingxuan, "Tiểu tiên nữ đoán đúng rồi."
-He Qingxuan bây giờ thực sự hạnh phúc.
-Bầu không khí giữa hai người quá thoải mái, Hạ Thanh Huyền nhất thời không đành lòng nhắc đến chuyện này.
-Ying Hanyi là người hỏi đầu tiên: "Hãy nói cho tôi biết, bạn muốn gì ở tôi?"
-"Không thể nào là tôi muốn nói chuyện với Hoàng đế Zun."
-"Điều đó rất tốt."
-Hà Thanh Huyền thở dài, "Được rồi, kỳ thật ngươi đoán không sai, ta muốn tìm một người, một người có thể là ta phục sinh điểm mấu chốt, không biết khi nào mới có thể trở về, nhưng ta luôn cảm thấy nên nói trước cho ngươi."
-Ứng Hàn Dật trầm ngâm nói ra cái tên này: “Yêu Hoàng.”
-Hà Thanh Huyền cười nói: “Ta thật sự không giấu được hoàng đế cái gì.”
-Ứng Hàn Di không vòng vo mà hỏi thẳng: “Nếu tôi không đồng ý thì sao? Tiểu tiên nữ có nên đi hay không?”
-Chương 68
-Hạ Thanh cười không nói, đáp án đã rõ ràng.
-Ying Hanyi cau mày, "Bạn không thể tin tưởng tôi?"
-“Anh biết đấy, ý tôi không phải vậy.” Nụ cười của He Qingxuan hiếm có và dịu dàng.
-Ying Hanyi không biết He Qingxuan muốn gì sao? Tất nhiên anh biết rằng dù He Qingxuan có vẻ dịu dàng đến đâu, anh thực sự thích nắm quyền chủ động. Thay vì để Ying Hanyi giúp anh ta tìm cơ hội có thể phục sinh, anh ta thà tự mình tìm ra kết quả.
+Đây thực sự là một ý tưởng quá đỗi lớn mật, đến mức chính Hạ Khanh Tuyên cũng phải bật cười trước suy đoán của bản thân.
 
-Suy nghĩ một lúc, Ứng Hàn Di nói: “Tôi đi cùng anh.”
-Hạ Thanh Huyền cười nói: “Ngươi lo lắng cho ta sao?”
-Ying Hanyi lại rơi vào im lặng. Ngay tại He Qingxuan cho rằng Ying Hanyi không muốn trả lời câu hỏi này, Ying Hanyi đã lên tiếng.
-“Ừ, biết vậy thì tốt.”
-Hà Thanh tuyên bố yêu mình, không khỏi bật cười lần nữa, nhưng Ying Hanyi đột nhiên kéo cô lại gần để hôn.
-Khoảnh khắc này quá đột ngột. Hơi thở gấp gáp và nụ hôn nóng bỏng đột ngột khiến Hà Thanh Huyền gần như cảm thấy mình còn sống. Anh chớp mắt chậm rãi.
-Sau nụ hôn mãnh liệt, Ứng Hàn Di lạnh lùng nói: “Đi thôi, nếu ngươi không quay lại, Huyền Di cung sẽ tan tành.”
-Hà Thanh Huyền vòng qua Doanh Hàn Di, đưa ra câu trả lời chắc chắn. Đối phương thật sự sẽ không làm như vậy, nhưng hắn vẫn đồng ý: "Được."
-Nói xong lời muốn nói, tưởng chừng như đã đến lúc phải rời đi, nhưng trong đôi mắt sâu thẳm không nhìn thấy được cảm xúc cụ thể của Ứng Hàn Di, Hà Thanh Huyền lại gần, đặt một nụ hôn lên môi Ying Hanyi giống như vừa rồi.
-"Tôi biết, tôi sẽ quay lại." Những lời thì thầm biến mất khỏi môi họ.
+Thế nhưng đến nước này, đây lại là lời giải thích hợp lý nhất.
+
+Yêu Hoàng!
+
+Hạ Khanh Tuyên có ý định đi tìm Yêu Hoàng. Nếu như đối phương đã có thể khiến hắn quay ngược dòng thời gian về một lần, vậy thì liệu có thể giúp hắn quay về lần thứ hai hay không?
+
+Đằng nào Ứng Hàn Y cũng chẳng nhìn thấy hắn, hắn hoàn toàn có thể thần không biết quỷ không hay âm thầm đi tìm Yêu Hoàng. Cho dù thất bại, hắn cũng có thể lặng lẽ phiêu bạt trở về. Thế nhưng, nếu như lỡ không thể trở về được nữa thì sao?
+
+Hạ Khanh Tuyên vốn không phải loại người trước khi làm chuyện gì cũng thích đi bẩm báo thông tri cho người khác, thế nhưng lần này hắn lại kiên nhẫn hạ mình, tìm kiếm một thời cơ thích hợp để nhập mộng, cùng người nọ đàng hoàng nói một lời.
+
+Cơn buồn ngủ ập đến bất ngờ nếu là trước kia ắt hẳn sẽ bị Ứng Hàn Y trực tiếp xua tan, thế nhưng nay đã biết Hạ Khanh Tuyên chính là dùng phương thức này để liên lạc với mình, Ứng Hàn Y hoàn toàn không hề có chút chống cự nào.
+
+Đập vào mắt là biển mây bồng bềnh chạm tay là tới, phía xa xa là rặng núi non trùng điệp uốn lượn. Ứng Hàn Y gần như chẳng cần nhìn kỹ cũng đã nhận ra nơi này là chốn nào.
+
+Núi Vọng Nguyệt của Tuyên Nghi Cung — nơi này hấp thu nhật nguyệt tinh hoa tốt nhất, chính là địa phương mà chỉ có đệ tử nội môn lọt vào top ba trong kỳ đại bỉ mới có tư cách bước vào.
+
+Ứng Hàn Y bất quá chỉ liếc nhìn thêm đôi lần, liền đem ánh mắt dừng lại ở phía sau.
+
+Người tới thân khoác một bộ bạch y thanh khiết, gương mặt so với thuở ban đầu gặp gỡ đã bớt đi rất nhiều vẻ ngây ngô non nớt, thế nhưng vẫn thanh tú tuấn tú động lòng người y như ngày đầu mới gặp.
+
+Hạ Khanh Tuyên mày mắt cong cong, mỉm cười chào hỏi Ứng Hàn Y: “Không ngờ lại có thể trông thấy Tuyên Nghi Cung trong giấc mộng của ngươi. Tính ra cũng đã gần hai năm rồi ta chưa về lại Tuyên Nghi Cung, quả thực có chút nhớ nhung.”
+
+“Nhớ đại trưởng lão của ngươi, hay là sư tỷ, hoặc giả là vị nhị sư huynh kia của ngươi?”
+
+Hạ Khanh Tuyên chớp mắt, nụ cười nơi khóe môi càng thêm đậm nét: “Đều nhớ cả. Nếu không phải do Đế Tôn là một đại ma đầu, thực sự không thích hợp ra vào Tuyên Nghi Cung, ta đều muốn ngươi tiện đường mang ta cùng quay về rồi đấy.”
+
+“Bất quá chỉ là vài kẻ tư chất bình phàm tầm thường mà thôi. Ngươi dẫu cho không có lượng lớn thiên tài địa bảo bồi đắp, chỉ cần chăm chỉ tu luyện, trong vòng trăm năm đều có thể vượt qua toàn bộ bọn họ. Các ngươi sớm muộn gì cũng có ngày sinh ly tử biệt, hà tất phải bận lòng vướng bận đến nhường ấy.”
+
+“Thế nhưng kẻ chết trước tiên không phải bọn họ, mà lại là ta.” Hạ Khanh Tuyên cười khẽ, tựa như không hề nhìn thấy đôi chân mày đang đột ngột nhíu chặt lại của Ứng Hàn Y, tự mình nói tiếp, “Ta không chỉ nhớ nhung các vị trưởng lão và đồng môn, mà còn rất nhớ những cây linh quả chưa bị ta vặt trụi năm xưa. Món tiên hạc nướng của Tuyên Nghi Cung chẳng hay Đế Tôn đã từng nếm thử qua chưa, phong vị quả thực là nhất tuyệt đấy.”
+
+Ứng Hàn Y khẽ “ừm” một tiếng, giọng điệu hơi kéo dài: “Từng nếm qua rồi. Thế nhưng đó đều là chuyện của năm đầu tiên mới vừa nhập môn, khi ấy còn chưa tích cốc... Đã là chuyện của rất lâu rất lâu về trước rồi.”
+
+Hạ Khanh Tuyên có chút kinh ngạc: “Đế Tôn trông qua đâu giống người biết nướng tiên hạc chứ.”
+
+“Quả thực là do kẻ khác làm, là một người bạn có mối quan hệ khá tốt của ta thuở ấy.”
+
+“Là người thế nào vậy? Cảm giác dường như không chỉ đơn thuần là quan hệ tốt.” Hạ Khanh Tuyên thực sự dấy lên lòng hiếu kỳ. Hắn quả thực có chút khó lòng tưởng tượng ra dáng vẻ khi có bạn bè của Ứng Hàn Y; tựa như Âm Quỷ Đạo Nhân, đối phương cùng Ứng Hàn Y thoạt nhìn cũng tính là bằng hữu, thế nhưng tuyệt đối chưa từng giao tâm chân thành như những người bạn thực thụ, hai người bọn họ bảo là bạn bè, phần nhiều là do sự ràng buộc về lợi ích mà thôi.
+
+“Một kẻ cả ngày chẳng biết có chuyện gì mà vui vẻ đến thế. Năm xưa những người cùng thời với ta căn bản chẳng còn một ai sống sót cả. Cho nên tiên quân chớ nên gửi gắm quá nhiều tình cảm vào người khác, bằng không kẻ đau lòng sau cùng duy chỉ có một mình ngươi mà thôi.”
+
+Hạ Khanh Tuyên chớp mắt thật chậm: “Hóa ra ý tứ của Đế Tôn là thế này sao?”
+
+“Tiên quân ngỡ là gì?”
+
+“Ta cứ ngỡ Đế Tôn muốn trong mắt ta chỉ có duy nhất một mình ngươi.” Hạ Khanh Tuyên nửa đùa nửa thật.
+
+Đầu ngón tay Ứng Hàn Y khẽ vân vê một lọn tóc của Hạ Khanh Tuyên: “Vậy thì tiểu tiên quân cũng không đoán sai đâu.”
+
+Hạ Khanh Tuyên lần này là thực sự bật cười vui vẻ.
+
+Bầu không khí giữa hai người quá đỗi nhẹ nhõm an yên, khiến Hạ Khanh Tuyên nhất thời có chút không nỡ mở lời nhắc tới chuyện kia.
+
+Ngược lại chính Ứng Hàn Y lại cất lời hỏi trước: “Nói đi chứ, tìm ta có chuyện gì?”
+
+“Chẳng lẽ không thể là do ta đơn thuần muốn nói chuyện với Đế Tôn sao?”
+
+“Như thế lại càng tốt.”
+
+Hạ Khanh Tuyên thở dài: “Được rồi, thực ra ngươi đoán trúng rồi đấy. Ta muốn đi tìm một người — một người có lẽ chính là bước ngoặt giúp ta phục sinh. Ta không biết khi nào bản thân mới có thể quay trở về, chỉ cảm thấy nên nói trước với ngươi một tiếng.”
+
+Ứng Hàn Y như có điều suy nghĩ, thốt ra cái tên kia: “Yêu Hoàng.”
+
+Hạ Khanh Tuyên bật cười: “Quả thực chẳng giấu nổi Đế Tôn điều gì.”
+
+Ứng Hàn Y cũng không thèm vòng vo, hỏi thẳng: “Nếu như ta không đồng ý thì sao? Tiểu tiên quân là đi, hay là không đi?”
+
+Hạ Khanh Tuyên chỉ cười mà không đáp, đáp án đã quá đỗi rõ ràng.
+
+Chân mày Ứng Hàn Y nhíu chặt lại: “Là không tin tưởng ta sao?”
+
+“Ngươi biết rõ mà, ta không phải ý đó.” Nụ cười của Hạ Khanh Tuyên hiếm hoi lộ ra vài phần dịu dàng.
+
+Ứng Hàn Y làm sao không hiểu điều Hạ Khanh Tuyên muốn chứ? Y tự nhiên biết rõ, cái tên Hạ Khanh Tuyên này dẫu cho tính tình bề ngoài trông có ôn hòa dịu dàng đến đâu, thì bản chất sâu thẳm vẫn là một kẻ thích tự mình nắm giữ quyền chủ động. So với việc để Ứng Hàn Y giúp hắn tìm kiếm cơ hội phục sinh mờ mịt, hắn càng muốn tự mình đi tìm kiếm kết quả hơn.
+
+Trầm ngâm im lặng trong giây lát, Ứng Hàn Y cất lời: “Ta đi cùng ngươi.”
+
+Hạ Khanh Tuyên mỉm cười: “Ngươi đang lo lắng cho ta sao?”
+
+Ứng Hàn Y lại thêm một lần nữa rơi vào im lặng. Ngay khoảnh khắc Hạ Khanh Tuyên ngỡ rằng Ứng Hàn Y ắt hẳn không muốn trả lời câu hỏi này, thì Ứng Hàn Y rốt cuộc lên tiếng:
+
+“Ừm. Biết là tốt rồi.”
+
+Hạ Khanh Tuyên không kìm được lại muốn bật cười, thế nhưng lại bất ngờ bị Ứng Hàn Y đột ngột kéo mạnh lại gần, đặt xuống một nụ hôn nồng cháy!
+
+Khoảnh khắc này thực sự quá đỗi đột ngột. Hơi thở cận kề gấp gáp, cùng với nụ hôn rực nóng bất ngờ ập tới khiến Hạ Khanh Tuyên suýt chút nữa ngỡ rằng bản thân vẫn còn đang sống sờ sờ trên cõi đời. Hắn chậm rãi chớp chớp mắt.
+
+Sau một nụ hôn có phần hung dữ bá đạo, Ứng Hàn Y lạnh giọng nói: “Đi thôi. Dám không quay về, Tuyên Nghi Cung liền xong đời đấy.”
+
+Hạ Khanh Tuyên lượn một vòng quanh người Ứng Hàn Y, rút ra được đáp án chắc nịch: Đối phương mới chẳng thèm thật sự làm ra chuyện đó đâu. Thế nhưng hắn vẫn ngoan ngoãn đáp ứng: “Được.”
+
+Những lời cần nói đều đã nói xong, dường như cũng tới lúc phải rời khỏi mộng cảnh rồi. Thế nhưng dưới ánh mắt sâu thẳm chẳng thể nhìn thấu cụ thể tâm tư của Ứng Hàn Y, Hạ Khanh Tuyên khẽ bay lại gần thêm một chút, tựa như cử chỉ ban nãy của Ứng Hàn Y, dịu dàng đặt lên môi người nọ một nụ hôn.
+
+“Biết rồi, sẽ trở về mà.”
+
+Lời thì thầm mềm mại tựa như hơi thở khẽ tan biến nơi khóe môi của hai người.

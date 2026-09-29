@@ -1,61 +1,109 @@
----
-title: Đại Ma Đầu Nhật Nhật Tưởng Sát Ngã — ch_074
----
+# Chương 74: Con rối bị đâm, Thái Thượng Lưỡng Nghi Quyển
 
-Năng lượng ma quỷ xuyên qua cơ thể cô bé như một lưỡi dao sắc bén.
-"Bằng đồng——"
-Chiếc đèn lồng mà cô bé đang cầm rơi khỏi tay cô.
-Đạo sĩ Yin Gui thu hẹp con ngươi và ôm cô bé vào lòng.
-Năng lượng ma quỷ không xâm nhập vào cơ thể cô bé và tiếp tục tấn công anh. Đạo sĩ Yingui nhìn Ying Hanyi.
-Các sợi dây hợp đồng trên cơ thể của Ying Hanyi và He Qingxuan lúc này đều đã được giấu đi, tạo một lỗ trên ngực con rối. Vẻ mặt của Ying Hanyi thậm chí trông không có gì lạ cả. Anh chỉ nói nhẹ nhàng: “Hợp đồng của tôi từ nay khó có thể cởi trói được. Có người phải trả giá”.
-Ân Quý đạo nhân ôm con rối yêu thích của mình, ánh mắt có chút trống rỗng.
-Ở đây không thể phá vỡ khế ước, cho nên Ứng Hàn Di cũng không ở lại lâu nữa, chỉ để lại một câu, "Ân Quý, ta không thích bị người khác phản bội, hy vọng ngươi hiểu rõ mình nên làm gì, không nên làm gì."
-Sau khi họ rời đi, đạo sĩ Yin Gui rơi nước mắt và nói: "Chết tiệt, sao anh ta có thể làm được một tác phẩm hoàn hảo như vậy?"
-"Động thái của Hoàng đế ban đầu là nhằm vào tôi." Cô bé an ủi.
-"Hắn đang cảnh cáo ta, mọi người đều đang tìm tài liệu để giải trừ khế ước. Làm sao ta còn có thể biết Ma Vương tới tìm ta." Đạo nhân Anh Quy cười lớn, nụ cười trên mặt rất quyến rũ.
-"Vậy chủ nhân dự định làm gì? Hợp tác với Yêu Hoàng, hay là ngồi yên nhìn?" Rõ ràng ngực cô đã bị khoét một lỗ lớn nhưng cô bé vẫn có thể nói một cách vô cảm.
-Đạo sĩ Yingui thay vào đó hỏi: "Bạn nghĩ gì?"
-"Sư phụ, dù ngươi hợp tác với ai, đối phương cũng sẽ không buông tha ngươi. Lựa chọn tốt nhất chính là tránh xa."
-"Ngươi thật sự không sợ hai người công kích ta." Đạo sĩ Yingui bế anh ta lên và đi về phía hang động của anh ta.
-"Nếu có ngày như vậy tới, ta nhất định sẽ bảo vệ chủ nhân của ta."
-Ân Quý đạo nhân cười nói: “Con rối nhỏ, ngươi cứ bảo vệ mình đi.”
-"Nếu chủ nhân thực sự muốn lựa chọn, hắn có thể chọn Yêu Hoàng. Miexu Hoàng Đế có điểm yếu chí mạng là toàn linh thể."
-"Thân thể toàn linh!" Ân Quý đạo nhân mỉm cười nói: “Thời đại này không nên có thêm một cơ thể toàn linh nào nữa.”
-Chương 38
+Ma khí sắc bén tựa như lưỡi đao nhọn hoắt, đâm xuyên qua lồng ngực tiểu cô nương một lỗ thủng từ trước ra sau.
 
-Nếu khế ước không thể cởi trói, có lẽ Hạ Thanh Huyền là người hạnh phúc nhất, nhưng khi Ứng Hàn Di mang hắn đi, trên mặt Hà Thanh Huyền cũng không có bao nhiêu vui mừng.
-Anh ta cảnh giác nhìn ai đó, "Mặc dù hợp đồng trước đó quả thực là do tôi lập, nhưng tôi không thể trách tôi không thể cởi trói cho hợp đồng sau. Lần này không những không can thiệp mà còn hợp tác rất tốt."
-Ying Hanyi mỉm cười, "Tôi còn muốn cảm ơn bạn không?"
-Hạ Thanh Huyền lễ phép nói: “Không cần thiết.”
-Ying Hanyi dường như bị sốc trước sự vô liêm sỉ của anh ta, lại cười, tiến lên hai bước và đến gần He Qingxuan.
-Đây là lúc ma quỷ nổi giận. Để ngăn cản đối phương hành động hấp tấp, He Qingxuan lùi lại một bước.
-Chỉ một bước nhỏ như vậy, nụ cười vẫn đang tươi cười trên khuôn mặt Ying Hanyi lập tức nhạt đi và cô nhìn chằm chằm vào He Qingxuan.
-Hạ Thanh Huyền: "..."
-Anh lặng lẽ quay lại.
-Gặp Ứng Hàn Di vẫn nhìn chằm chằm mình, Hà Thanh Huyền bất đắc dĩ nói: “Hoàng thượng, ngươi nhìn ta cũng vô dụng. Ta biết cách hủy bỏ khế ước trước đó. Dù sao, ta là người lập khế ước, nhưng bây giờ ngay cả ta cũng không thể hủy bỏ khế ước. Chỉ có một cơ hội để hủy bỏ khế ước. Hoàng đế ngay từ đầu đã không cho ta hủy bỏ, chẳng phải là không tin tưởng ta sao? Hiện tại người mà ngươi tin tưởng đã làm hỏng việc này.” Vấn đề là, bạn sẽ không muốn trút giận lên tôi đâu."
-"Chúa Bất Tử thực sự vẫn sắc bén như mọi khi."
-Điều này không dễ nói ra, nên He Qingxuan chỉ im lặng.
-"Ý của ngươi khi nói Tiên Vương là ta sẽ bị ràng buộc với ngươi cả đời? Nhưng ngươi chỉ là một viên kim dược đơn thuần. Tuổi thọ của một loại đan dược vàng có thể kéo dài bao lâu? Vậy ta còn phải tìm biện pháp tăng tuổi thọ của ngươi sao? Tiên quân, giao dịch này không đáng giá!"
-Ying Hanyi nói chậm rãi và chậm rãi, có một sức quyến rũ khác.
-Đối với He Qingxuan, loại bùa này không khác mấy so với sự đe dọa của những người nắm quyền.
-Có phải Ying Hanyi đang nhắc nhở anh ấy luyện tập tốt không?
-He Qingxuan nghi ngờ, nhưng anh thực sự cảm thấy không thể có câu trả lời nào khác.
-Đây là kết quả khả quan hơn sau khi hợp đồng chưa được giải phóng. Hà Thanh Huyền cuối cùng cũng lộ ra nụ cười trên mặt: "Hoàng đế yên tâm, chỉ cần ta có thể sống sót, tu luyện không khó, trong vòng ba năm ta sẽ có thể đột phá Nguyên Anh."
-Ying Hanyi khẽ cau mày, không hài lòng với câu trả lời này.
-Hà Thanh Huyền: "?"
+“Keng đoong ——”
 
-Ba năm chẳng phải là quá nhanh sao?
-"Tiên Quân cho rằng đây là vấn đề tu luyện?"
-"Đó là cái gì vậy?" He Qingxuan có một linh cảm xấu.
-"Không phải Tiên Vương đã nhận ra rằng hắn đã chiếm giữ vị trí đạo sĩ đồng hành của ta sao?" Ying Hanyi nghi ngờ rằng một anh chàng từng dễ hiểu đang cố tình giả vờ như không biết.
-Hà Thanh Huyền chớp mắt.
-Tốt lắm, linh cảm xấu này càng ngày càng mạnh.
-Ngay lúc hắn đang đau đầu, một tờ giấy truyền tin màu tím vàng hiện lên trước mặt Ying Hanyi.
-Ying Hanyi chỉ nhìn thoáng qua tin nhắn đã biết là ai gửi.
-Đạo sĩ âm ma.
-"Tiên Quân, ngươi có muốn đoán xem tin tức là gì không?"
-Hà Thanh Huyền rất hợp tác, trầm ngâm một lát: "Trên lá bùa truyền tống màu tím vàng có ẩn dấu hoa văn quỷ dị. Đây là lá bùa của Âm quý đạo sĩ. Lúc này ta nghĩ chỉ có thể là hủy bỏ khế ước. Xem ra Âm quý tiền bối có một phương pháp mới."
-Đôi mắt đen của Ying Hanyi kiên định và lạnh lùng, nhìn thẳng vào He Qingxuan. Không nói đúng hay sai, hắn xua tay, mở ra lá bùa liên lạc.
-Quả nhiên bên trong có tin nhắn của đạo sĩ Yingui.
-[Hoàng đế, nếu ngài nhất quyết hủy bỏ hợp đồng, sẽ không còn lối thoát. Có một cách khác mà tôi nghĩ là tôi cũng đã nghĩ đến - Cuộn giấy Taishang Liangyi. Người ta nói rằng chỉ cần nhìn vào nó, bạn có thể hiểu được Đạo, đạt được phương pháp tối cao, thậm chí thăng thiên ngay tại chỗ và trở thành bất tử. Đối với những bảo vật cổ xưa như vậy, việc hủy bỏ khế ước của vợ chồng đạo sĩ thực sự chẳng là gì cả. Đối tượng này có thể là cơ hội duy nhất để Hoàng đế hủy bỏ hợp đồng. 】
-Hắn vừa dứt lời, truyền tống phù của Âm Quý đạo nhân liền tiêu tán.
+Chiếc đèn lồng vốn luôn được tiểu cô nương xách trong tay tức thì tuột khỏi tay nàng, lăn lông lốc trên nền đất.
+
+Đồng tử Âm Quỷ Đạo Nhân khẽ co lại, vội vàng đón lấy thân thể tiểu cô nương ôm vào lòng mình.
+
+Đạo ma khí kia căn bản không hề sau khi xuyên qua thân thể tiểu cô nương mà tiếp tục đánh tới lão; Âm Quỷ Đạo Nhân ngước mắt nhìn về phía Ứng Hàn Y.
+
+Tơ hồng khế ước trên thân Ứng Hàn Y cùng Hạ Khanh Tuyên lúc này đã hoàn toàn ẩn giấu trở lại. Vừa mới làm ra chuyện đâm thủng một lỗ lớn trên ngực con rối khôi lỗi của người ta, thế nhưng trên gương mặt Ứng Hàn Y lại chẳng lộ ra lấy nửa phần gợn sóng khác lạ, y chỉ nhàn nhạt cất lời: “Khế ước của bổn tôn từ nay về sau càng thêm khó giải, chung quy cũng phải có kẻ đứng ra trả chút giá đắt, chẳng phải vậy sao?”
+
+Âm Quỷ Đạo Nhân ôm lấy con rối khôi lỗi mà mình yêu thích nhất, ánh mắt có chút thất thần rỗng tuếch.
+
+Nơi này đã không giải trừ được khế ước, Ứng Hàn Y cũng chẳng buồn nán lại thêm, nhưng trước khi đi y vẫn lạnh lùng để lại một câu: “Âm Quỷ, bổn tôn chán ghét nhất là bị kẻ khác phản bội. Điều gì nên làm, điều gì không nên làm, mong là trong lòng ngươi tự hiểu rõ.”
+
+Sau khi người rời đi, Âm Quỷ Đạo Nhân rớt một giọt nước mắt: “Đáng chém ngàn đao! Một kiệt tác hoàn mỹ nhường này của bản tọa, cớ sao y lại nỡ ra tay tàn nhẫn đến thế chứ.”
+
+“Một chiêu kia của Đế Tôn vốn dĩ chính là nhắm vào ta mà tới.” Tiểu cô nương khẽ cất giọng an ủi.
+
+“Y là đang cảnh cáo bản tọa. Người rõ ràng đã đi tìm kiếm tài liệu giải trừ khế ước, cớ sao lại vẫn có thể hay biết chuyện Yêu Hoàng từng tới tìm bản tọa cơ chứ.” Âm Quỷ Đạo Nhân ha ha cười lạnh, nụ cười trên mặt âm u rợn người khôn xiết.
+
+“Vậy chủ nhân có dự tính thế nào? Hợp tác cùng Yêu Hoàng, hay là tọa sơn quan hổ đấu, đứng ngoài xem cuộc vui?” Rõ ràng trước ngực đã bị khoét một lỗ thủng to tướng, thế nhưng tiểu cô nương vẫn có thể mặt không cảm xúc mà mở miệng hỏi.
+
+Âm Quỷ Đạo Nhân không đáp mà hỏi ngược lại: “Ngươi thấy thế nào?”
+
+“Chủ nhân bất luận là hợp tác cùng bên nào, thì bên còn lại cũng tuyệt đối sẽ không buông tha cho ngài. Lựa chọn sáng suốt nhất chính là đặt mình ra ngoài vòng tranh chấp.”
+
+“Ngươi quả thực chẳng hề sợ hai kẻ điên kia đồng thời ra tay lấy mạng ta nhỉ.” Âm Quỷ Đạo Nhân bế thốc con rối lên, cất bước đi về phía động phủ của mình.
+
+“Nếu thực sự có ngày ấy, ta sẽ bảo vệ chủ nhân.”
+
+Âm Quỷ Đạo Nhân khẽ cười: “Con rối nhỏ nhà ngươi cứ lo bảo vệ bản thân cho tốt là được rồi.”
+
+“Chủ nhân nếu thực sự buộc phải lựa chọn, thì có thể chọn Yêu Hoàng. Diệt Hư Đế Tôn hiện giờ đã có một nhược điểm chí mạng là Toàn Linh chi thể.”
+
+“Toàn Linh chi thể sao!” Âm Quỷ Đạo Nhân cười khẩy, “Thời đại này vốn dĩ chẳng nên xuất hiện thêm một kẻ sở hữu Toàn Linh chi thể nào nữa.”
+
+Khế ước không thể giải trừ, Hạ Khanh Tuyên đáng lẽ phải là người vui mừng nhất; thế nhưng khi Ứng Hàn Y mang hắn rời đi, trên gương mặt Hạ Khanh Tuyên lại chẳng có lấy mấy phần vui sướng.
+
+Hắn cảnh giác nhìn chằm chằm người đối diện: “Tuy rằng khế ước ban đầu quả thực là do ta hạ, thế nhưng việc sau đó không thể giải trừ thì tuyệt đối không thể đổ lỗi lên đầu ta được. Lần này ta không chỉ chẳng hề giở trò phá đám, mà thậm chí còn vô cùng phối hợp nữa là đằng khác.”
+
+Ứng Hàn Y bật cười: “Vậy bổn tôn có phải còn nên cảm tạ ngươi một tiếng không?”
+
+Hạ Khanh Tuyên lễ độ đáp: “Điều đó thì không dám nhận.”
+
+Ứng Hàn Y dường như bị sự mặt dày vô sỉ của hắn làm cho kinh ngạc, lại cười khẩy một tiếng, sải hai bước tiến sát lại gần Hạ Khanh Tuyên.
+
+Lúc này đang là thời điểm ma đầu nghẹn một bụng tức giận, để phòng ngừa đối phương đột ngột ra tay, Hạ Khanh Tuyên liền thận trọng lùi lại một bước nhỏ.
+
+Chính một bước nhỏ lùi lại này, nụ cười vốn đang hiện diện trên mặt Ứng Hàn Y lập tức thu liễm sạch sẽ, đôi mắt y lạnh lùng gắt gao nhìn chằm chằm Hạ Khanh Tuyên.
+
+Hạ Khanh Tuyên: “...”
+
+Hắn lặng lẽ nhích từng bước dời về chỗ cũ.
+
+Thấy Ứng Hàn Y vẫn một mực nhìn chằm chằm mình, Hạ Khanh Tuyên cũng đành bất đắc dĩ: “Đế Tôn, ngài có trừng ta cũng vô dụng thôi. Khế ước trước kia quả thực ta biết cách giải, dù sao khế ước đó vốn do chính tay ta thi triển; thế nhưng hiện tại ngay cả ta cũng chẳng thể cởi bỏ nổi khế ước này nữa rồi. Cơ hội giải trừ khế ước trước nay xưa giờ chỉ có một lần duy nhất, ngay từ đầu Đế Tôn đã không để ta tự mình giải, chẳng phải cũng là vì không tin tưởng ta sao? Giờ đây người mà ngài tin tưởng lại làm hỏng bét mọi chuyện, ngài tổng không đến mức muốn giận cá chém thớt trút giận lên đầu ta đấy chứ?”
+
+“Tiên quân quả thực vẫn mồm mép lanh lợi như ngày nào.”
+
+Lời này chẳng dễ tiếp, Hạ Khanh Tuyên dứt khoát im lặng ngậm miệng.
+
+“Ý của tiên quân là, đời này kiếp này bổn tôn đều phải cùng ngươi trói buộc chung một chỗ sao? Thế nhưng ngươi bất quá chỉ là một Kim Đan cỏn con, thọ nguyên của Kim Đan kỳ có thể được bao nhiêu năm? Chẳng lẽ bổn tôn còn phải hao tâm tổn tứ nghĩ cách kéo dài thọ mệnh cho ngươi hay sao? Tiên quân à, mối làm ăn buôn bán này của ngươi... tính thế nào cũng thấy bổn tôn chịu thiệt thòi quá lớn rồi!”
+
+Ứng Hàn Y cất giọng thong thả trầm ngâm, mang theo một phong vị quái dị khó lường.
+
+Thế nhưng phong vị này đối với Hạ Khanh Tuyên mà nói, căn bản chẳng khác gì lời uy hiếp của bậc thượng vị giả cả.
+
+Ứng Hàn Y đây là đang nhắc nhở hắn phải chăm chỉ tu luyện?
+
+Hạ Khanh Tuyên hồ nghi trong lòng, nhưng lại cảm thấy không thể nào có đáp án thứ hai.
+
+Đây xem như là một kết quả tương đối tốt đẹp sau khi khế ước không thể giải trừ, trên mặt Hạ Khanh Tuyên rốt cuộc cũng hiện lên một tia ý cười: “Đế Tôn cứ yên tâm, chỉ cần ta có thể giữ được mạng sống này, tu luyện đối với ta chẳng phải chuyện khó khăn gì; trong vòng ba năm, ta nhất định sẽ đột phá Nguyên Anh.”
+
+Ứng Hàn Y khẽ nhíu mày, tựa hồ chẳng mấy hài lòng với câu trả lời này.
+
+Hạ Khanh Tuyên: “?”
+
+Ba năm mà còn chê chưa đủ nhanh hay sao?
+
+“Tiên quân nghĩ rằng đây chỉ là chuyện tu luyện thôi sao?”
+
+“Vậy thì là chuyện gì?” Hạ Khanh Tuyên bỗng có một dự cảm chẳng lành.
+
+“Tiên quân chẳng lẽ không phát giác ra rằng bản thân đang chiếm cứ vị trí đạo lữ của bổn tôn hay sao?” Ứng Hàn Y cơ hồ phải nghi ngờ cái tên ngày thường hễ điểm là thông này, nay lại đang cố tình giả ngây giả ngô.
+
+Hạ Khanh Tuyên chớp chớp mắt.
+
+Tốt lắm, cái dự cảm chẳng lành này lại càng lúc càng thêm nồng đậm.
+
+Ngay vào lúc hắn đang đau đầu khôn xiết, trước mặt Ứng Hàn Y bỗng bay tới một tấm truyền âm phù màu tử kim.
+
+Ứng Hàn Y bất quá chỉ liếc mắt qua tấm truyền âm phù kia một cái, liền đã biết rõ là ai gửi tới.
+
+Âm Quỷ Đạo Nhân.
+
+“Tiên quân có muốn đoán xem bên trong là tin tức gì không?”
+
+Hạ Khanh Tuyên vô cùng phối hợp, trầm ngâm một lát rồi đáp: “Truyền âm phù màu tử kim, bên trên còn có quỷ văn bí ẩn, đây chính là linh phù của Âm Quỷ Đạo Nhân. Vào thời điểm này gửi tới, ta nghĩ cũng chỉ có thể là liên quan đến việc giải trừ khế ước mà thôi; xem ra Âm Quỷ tiền bối lại vừa nghĩ ra biện pháp mới rồi.”
+
+Đôi mắt đen láy của Ứng Hàn Y thâm trầm lãnh khốc, nhìn thẳng vào Hạ Khanh Tuyên, cũng chẳng buồn nói hắn đoán đúng hay sai, chỉ vung tay áo mở ra đạo truyền tấn phù kia.
+
+Quả nhiên bên trong liền vang lên thanh âm truyền âm của Âm Quỷ Đạo Nhân:
+
+“Đế Tôn, nếu ngài một mực cố chấp muốn giải trừ khế ước thì cũng không phải là hoàn toàn không còn cách nào. Vẫn còn một biện pháp mà nghĩ đến chắc hẳn Đế Tôn cũng từng nghĩ qua — Thái Thượng Lưỡng Nghi Quyển. Tương truyền chỉ cần chiêm ngưỡng bảo quyển này liền có thể tham ngộ đại đạo, đắc vô thượng pháp môn, thậm chí có thể tại chỗ phi thăng, vũ hóa thành tiên; đối với bực thượng cổ chí bảo bực này, việc cởi bỏ một cái đạo lữ khế ước quả thực chẳng đáng là bao. Vật này có lẽ chính là cơ hội duy nhất để Đế Tôn giải trừ khế ước kia vậy.”
+
+Dứt lời, tấm truyền âm phù của Âm Quỷ Đạo Nhân liền hóa thành tro bụi tan biến vào hư không.

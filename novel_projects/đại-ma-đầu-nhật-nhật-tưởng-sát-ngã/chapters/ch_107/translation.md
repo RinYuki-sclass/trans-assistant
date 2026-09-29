@@ -1,54 +1,97 @@
 ---
-title: Đại Ma Đầu Nhật Nhật Tưởng Sát Ngã — ch_107
+title: Chương 107
 ---
 
-Một vết thương nặng khác trên cơ thể Quỷ Hoàng xảy ra cùng lúc khi cây kim bạc sắc nhọn xuyên qua da thịt của He Qingxuan.
-Ying Hanyi làm bị thương Ma hoàng bằng chân trước, sau đó dùng chân sau ôm lấy He Qingxuan, người này đột nhiên loạng choạng về phía trước.
-Ying Hanyi ngước mắt lên và chỉ nhìn thấy một bóng đen lóe lên. Trong khoảng thời gian ngắn ngủi này, Ma Vương và người phóng ra ẩn khí đều nhân cơ hội bỏ chạy.
-Người đó là Tử Thư Vương sao?
-Ying Hanyi cụp mắt xuống, thứ anh nhìn thấy là khuôn mặt tái nhợt của He Qingxuan. Chất độc đã phát huy tác dụng quá nhanh. Tay của Ying Hanyi đang cầm He Qingxuan hơi run lên, tay còn lại trực tiếp chạm vào tĩnh mạch của He Qingxuan. Đúng như Ying Hanyi nghĩ, chiếc kim bạc chứa chất độc cực mạnh.
-Sắc mặt hắn lạnh lùng, nhưng động tác lại lộ ra vẻ hoảng sợ. Đôi tay từng rất quyết đoán trong việc giết chóc của anh gần như không thể cầm được lọ thuốc giải độc. Anh ta cố gắng đổ những viên thuốc ra nhiều lần nhưng những viên thuốc đó lại tuột khỏi tay anh ta. Anh hít một hơi thật sâu, buộc mình phải bình tĩnh lại và cho He Qingxuan ăn vài viên thuốc giải độc cấp chín, nhưng không có viên nào khỏi bệnh. Cơ thể của He Qingxuan đang nhanh chóng mất đi sức sống.
-He Qingxuan không quá ngạc nhiên về điều này. Đối phương đã dám dùng loại chuyện này đối phó Ứng Hàn Nhất, hắn liền hy vọng Ứng Hàn Nghị sẽ không có cách nào cởi trói.
-Ying Hanyi vẫn đang đưa ra các loại bảo vật, cố gắng nhét hết vào miệng He Qingxuan.
-Hà Thanh Huyền kéo tay áo Ứng Hàn Di, khẽ lắc đầu nói: "Thật ra, ta có một bí mật lâu nay vẫn chưa nói cho ngươi biết. Đúng là ta đã lấy đi thi thể, nhưng ta không phải người khác, mà là chính ta của trăm năm sau. Ta có thể quay về trước khi chết và thay đổi rất nhiều chuyện. Ta... vô cùng hạnh phúc."
-He Qingxuan đã giao lại lõi ngoại địa mà anh ấy đã tinh chế cho Ying Hanyi một cách khó khăn. Anh không nói thêm gì nữa, nhưng ý tứ cũng đủ rõ ràng.
-"Tôi không cần sự giúp đỡ của bạn." Một lúc lâu sau, người đàn ông gần như nghiến răng nói điều này.
-He Qingxuan chậm rãi chớp mắt tỏ ra mình đã biết.
-Anh thực sự biết rằng Ying Hanyi có thể không cần sự giúp đỡ của anh, nhưng tình hình lúc đó thực sự nguy hiểm.
-Loại sinh mệnh này tùy thời lướt qua và biến mất hoàn toàn, điều này thực sự khiến Doanh Hàn Di sợ hãi.
-Anh lạnh lùng nói: "Nếu em không thích anh thì tại sao em lại làm như vậy? Em cho rằng cả đời anh sẽ không bao giờ quên em sao?"
-Hà Thanh mỉm cười, một nụ cười rất nhẹ nhàng, “Bởi vì… anh nhớ em nhiều hơn… Không sao đâu.”
-Ying Hanyi sửng sốt, sau đó cười lạnh nói: "Chết đi. Khi ngươi chết, ta sẽ luyện ngươi thành một con rối. Mỗi ngày ta sẽ cùng ngươi làm những việc mờ ám đó, để ngươi có chết cũng không được yên."
-Môi Hạ Thanh Huyền mấp máy, Ứng Hàn Di đọc ra ý nghĩa “không thể” từ động tác nhẹ nhàng của anh.
-Ying Hanyi nắm tay cô chặt hơn một chút và nói rất nhẹ nhàng, như thể đang cầu xin.
-"Đừng chết, được không? Tôi sẽ không quấy rầy cậu nữa. Chỉ cần cậu không chết, tôi sẽ không xuất hiện nữa."
+Thân thể Yêu Hoàng thêm một lần nữa bị trọng thương, cũng là lúc cây ngân châm sắc nhọn kia ghim thẳng vào da thịt Hạ Khanh Tuyên.
 
-Chương 62
-Ying Hanyi đã nhờ giúp đỡ khi nào? He Qingxuan cảm thấy vô cùng khó chịu khi nghe điều này.
-Người xa cách thì nên tránh xa và đừng hạ thấp lòng kiêu hãnh của mình vì ai đó.
-Nếu có thể, He Qingxuan chắc chắn không muốn chết, nhưng sự sống chết của anh lúc này nằm ngoài tầm kiểm soát của anh.
-Anh yếu ớt nắm lấy bàn tay khắp nơi trên cơ thể của Ying Hanyi, cố gắng tìm kiếm bàn tay có thể giúp anh tiếp tục sống. Anh hơi nheo mắt lại. Điều này hoàn toàn là do mắt anh ấy đã bắt đầu tối đi và anh ấy không thể nhìn rõ. Bằng cách này, anh cố gắng nhìn lại ánh mắt cuối cùng của Ying Hanyi.
-Mọi người nên luôn để lại lời cuối cùng trước khi chết.
-Lời cuối cùng của anh ấy sẽ là gì?
-“Giúp ta cứu Huyền Thiên Cửu Châu giới”, hay còn gọi là “báo thù cho ta”, sau đó là lúc nhìn lại kiếp trước.
-Trong đầu Hà Thanh Huyền suy nghĩ rất nhiều chuyện, nhưng điều cuối cùng anh nói lại là: “Tôi rất vui… được làm quen với em.”
-Mọi chuyện bắt đầu khi anh còn là một con ma nhỏ rụt rè và tê liệt.
-He Qingxuan không chắc liệu mình có còn gì để nói hay không. Khi đó ý thức của hắn gần như không rõ ràng, thậm chí hắn còn có thể cảm nhận rõ ràng sự tiêu tan của ý thức.
-Cái chạm cuối cùng là một giọt mưa rơi trên mặt tôi.
-Điều gì xảy ra sau khi chết? He Qingxuan cho rằng mình khá có kinh nghiệm trong việc này nên khi trở thành ma lần nữa, He Qingxuan thậm chí không có cảm giác bối rối khi trở thành ma.
-Anh ta ngay lập tức nhìn vào cái chết của mình và Ying Hanyi.
-Lúc này ở đâu đó đang mưa, những giọt mưa mà anh cảm nhận được rõ ràng là nước mắt của Ứng Hàn Di, trên mặt đối phương vẫn còn đọng lại những vết nước mắt.
-Điều này quá kỳ diệu. Ứng Hàn Di khóc vì hắn?
-Hạ Thanh Huyền giơ tay sờ đầu Doanh Hàn Di. Đừng buồn! Đó không phải lỗi của anh ấy.
-Trên mặt Ying Hanyi có nước mắt, nhưng vẻ mặt lại vô cùng lạnh lùng, như thể người rơi những giọt nước mắt đó không phải là anh.
-Anh ta ôm thi thể trong tay cho đến khi máu trong cơ thể nguội đi, sau đó giơ tay lấy ra vật liệu để luyện quan tài gỗ đen, dùng máu lần lượt rút ra những lá bùa, rồi cẩn thận bế thi thể He Qingxuan vào trong.
-He Qingxuan tính toán chuông gọi hồn và gỗ u ám, kết luận rằng đối phương không muốn biến anh thành con rối, mà là muốn hồi sinh anh.
+Ứng Hàn Y vừa mới đả thương Yêu Hoàng, ngay sau đó liền vội vã ôm chầm lấy Hạ Khanh Tuyên đang đột ngột lảo đảo ngã nhào về phía trước.
 
-Phục sinh!
-He Qingxuan không thể không nghĩ đến Hoàng đế Hades. Cách đây rất lâu, ý định ban đầu của Hoàng đế Hades là cứu người của cô, nhưng cô đã tiêu tốn rất nhiều tâm sức nhưng vẫn thất bại chứ đừng nói đến Ying Hanyi.
-Bằng cách này, He Qingxuan cảm thấy có chút tiếc nuối cho Hoàng đế Hades.
-Anh tìm kiếm xung quanh và tìm thấy một tâm hồn yếu đuối. Linh hồn nhìn He Qingxuan và bay đi.
-Đối phương bây giờ yếu đến mức ngay cả thân thể của người khác cũng không có khả năng chiếm đoạt. Anh ta chỉ có thể tìm loại người sắp chết đó để chiếm hữu anh ta và kéo dài sự sống.
-Biết đối phương sẽ không thể nhân cơ hội này gây ra thảm sát, He Qingxuan cũng lười quan tâm đến số phận của đối phương.
-Kiếp trước anh chưa bao giờ rời xa Ying Hanyi vì anh bị một thế lực nào đó nhốt ở đó. Lần này He Qingxuan biết rằng anh ấy có thể rời đi, nhưng anh ấy thậm chí còn không cố gắng và tự nguyện ở lại với Ying Hanyi.
-Hắn nhìn đối phương sử dụng tất cả bảo vật thiên địa có thể duy trì sinh lực trong cơ thể mình, đồng thời cũng sử dụng tất cả bảo vật có thể triệu hoán linh hồn.
+Ứng Hàn Y ngước mắt, chỉ kịp bắt gặp một bóng đen vụt qua trong chớp mắt. Chỉ trong khoảnh khắc ngắn ngủi ấy, cả Yêu Hoàng lẫn kẻ vừa phóng ra ám khí đều đã thừa cơ bỏ trốn mất tăm.
+
+Kẻ đó là Tử Thư Vọng?
+
+Ứng Hàn Y vừa rũ mắt xuống, đập vào mắt y liền là gương mặt tái nhợt không còn giọt máu của Hạ Khanh Tuyên. Độc tố phát tác thực sự quá đỗi nhanh chóng, cánh tay Ứng Hàn Y đang ôm chặt lấy Hạ Khanh Tuyên khẽ run rẩy, tay kia trực tiếp bắt lên mạch môn của hắn. Đúng như Ứng Hàn Y dự liệu, bên trong cây ngân châm kia chứa kịch độc đoạt mạng.
+
+Gương mặt y lạnh như băng sương, thế nhưng động tác lại lộ rõ vẻ hoảng loạn tột cùng. Đôi bàn tay xưa nay vốn sát phạt quyết đoán nay thế mà ngay cả chiếc bình đựng giải độc đan cũng suýt chút nữa nắm không vững, nhiều lần muốn dốc đan dược ra mà đan dược lại cứ thế lăn khỏi kẽ tay rơi xuống đất. Y hít sâu một hơi, cưỡng ép bản thân phải bình tĩnh lại, một hơi đút cho Hạ Khanh Tuyên uống liền mấy viên cửu phẩm giải độc đan, vậy mà chẳng hề có nửa điểm chuyển biến tốt đẹp. Sinh cơ trên thân thể Hạ Khanh Tuyên đang cấp tốc xói mòn với tốc độ kinh hoàng.
+
+Hạ Khanh Tuyên đối với điều này ngược lại chẳng cảm thấy bất ngờ. Đối phương nếu đã dám dùng thứ này để ám toán Ứng Hàn Y, thì ắt hẳn đã liệu định chắc chắn rằng Ứng Hàn Y căn bản không thể giải nổi.
+
+Ứng Hàn Y vẫn không ngừng lôi ra đủ loại thiên tài địa bảo từ trong nhẫn trữ vật, hận không thể đem toàn bộ những thứ này nhét hết vào miệng Hạ Khanh Tuyên.
+
+Hạ Khanh Tuyên nắm lấy ống tay áo Ứng Hàn Y, khẽ lắc đầu ra hiệu không cần: “Thực ra ta có một bí mật, xưa nay vẫn chưa từng nói cho ngươi biết. Chuyện ta đoạt xá là thật, chỉ có điều ta không phải là ai khác, mà là chính ta của trăm năm sau. Có thể quay trở lại thời điểm trước khi chết, thay đổi được rất nhiều điều, ta đã là... vô cùng vui mừng rồi.”
+
+Hạ Khanh Tuyên gian nan đem hạch tâm Vực Ngoại lĩnh vực mà mình vừa luyện chế xong giao vào tay Ứng Hàn Y. Hắn không nói thêm gì nữa, nhưng ý tứ đã quá đỗi rõ ràng.
+
+“Bản tôn không cần ngươi giúp!” Người đàn ông sau một hồi lâu nghẹn ngào, mới gần như nghiến răng nghiến lợi rặn ra từng chữ một.
+
+Hạ Khanh Tuyên chậm rãi chớp mắt, biểu thị bản thân đã hiểu.
+
+Hắn thực sự hiểu rõ, hiểu rằng Ứng Hàn Y có lẽ căn bản không cần hắn phải xả thân cứu giúp, thế nhưng tình cảnh khi ấy thực sự quá đỗi hiểm nghèo.
+
+Dáng vẻ sinh mệnh dần dần trôi tuột khỏi kẽ tay, bất cứ lúc nào cũng có thể hoàn toàn tan biến này, thực sự đã khiến Ứng Hàn Y sợ hãi rồi.
+
+Y lạnh giọng nói: “Nếu đã không thích ta, cớ sao lại phải làm đến mức này? Chẳng lẽ ngươi muốn cả đời này ta cũng không tài nào quên nổi ngươi sao?”
+
+Hạ Khanh Tuyên mỉm cười, một nụ cười vô cùng nhàn nhạt: “Bởi vì... ta càng muốn ngươi... bình an vô sự.”
+
+Ứng Hàn Y ngẩn người chết lặng, sau đó cười lạnh thành tiếng: “Chết đi! Đợi sau khi ngươi chết rồi bản tôn sẽ đem ngươi luyện chế thành khôi lỗi, ngày ngày cùng ngươi làm chuyện mây mưa cẩu thả, khiến cho ngươi dẫu có chết đi cũng đừng mong có được một ngày yên ổn!”
+
+Bờ môi Hạ Khanh Tuyên mấp máy, Ứng Hàn Y từ động tác khẽ khàng ấy đọc ra được ý tứ “ngươi sẽ không làm vậy”.
+
+Ứng Hàn Y đem bàn tay trong lòng bàn tay mình siết chặt hơn một chút, dùng thanh âm cực nhẹ cực khẽ thốt lên, tựa như đang khẩn cầu tha thiết:
+
+“Đừng chết, có được không? Ta sẽ không quấn lấy ngươi nữa, chỉ cần ngươi đừng chết, ta có thể vĩnh viễn không xuất hiện trước mặt ngươi nữa.”
+
+Ứng Hàn Y từ bao giờ lại phải đi cầu xin người khác? Hạ Khanh Tuyên nghe mà lòng đau như cắt.
+
+Kẻ cao cao tại thượng thì nên vĩnh viễn cao cao tại thượng, chứ không phải vì một người nào đó mà buông bỏ toàn bộ kiêu ngạo của bản thân.
+
+Nếu như có thể, Hạ Khanh Tuyên tự nhiên cũng chẳng muốn chết. Thế nhưng sự sống chết của hắn lúc này làm sao do hắn có thể khống chế được.
+
+Hắn yếu ớt dùng tay nắm lấy bàn tay đang không ngừng điểm loạn trên người mình của Ứng Hàn Y — bàn tay đang vùng vẫy tìm kiếm cách thức để hắn có thể tiếp tục sống sót. Đôi mắt hắn khẽ híp lại, làm như vậy hoàn toàn là vì trước mắt hắn đã bắt đầu tối sầm lại, chẳng còn nhìn rõ bất cứ thứ gì nữa; hắn chỉ muốn dùng cách thức này để cảm nhận rõ ràng ánh mắt cuối cùng của Ứng Hàn Y.
+
+Con người trước khi lâm chung đều nên trăn trối lại vài câu di ngôn.
+
+Di ngôn của hắn nên là gì thì tốt đây?
+
+“Hãy giúp ta cứu vãn Huyền Thiên Cửu Châu giới”, hay là “Hãy báo thù cho ta”, hay chăng cũng nên hồi tưởng lại kiếp trước một phen?
+
+Trong đầu Hạ Khanh Tuyên nghĩ ngợi đủ điều, thế nhưng câu cuối cùng thốt ra khỏi miệng, cũng chỉ là: “Ta rất vui... vì được quen biết ngươi.”
+
+Kể từ khi hắn vẫn còn là một tiểu u hồn chết lặng lại nhút nhát rụt rè năm xưa.
+
+Hạ Khanh Tuyên không rõ bản thân liệu có còn nói thêm điều gì nữa hay không, khi ấy ý thức của hắn đã sắp sửa không còn thanh tỉnh nữa rồi, thậm chí có thể cảm nhận rõ ràng sự tiêu tán dần của thần thức.
+
+Cảm xúc xúc giác cuối cùng còn đọng lại, chính là một giọt mưa khẽ rơi xuống gò má hắn.
+
+Sau khi người ta chết đi sẽ như thế nào? Hạ Khanh Tuyên tự nhận bản thân đối với chuyện này vô cùng có kinh nghiệm. Cho nên khi bản thân thêm một lần nữa hóa thành u hồn, Hạ Khanh Tuyên ngay cả chút mê man bỡ ngỡ của một u hồn cũng không hề có.
+
+Hắn ngay lập tức cúi đầu nhìn về phía thi thể đã chết của chính mình, cùng với Ứng Hàn Y.
+
+Lúc này nơi đây làm gì có mưa rơi? Giọt nước mưa mà hắn cảm nhận được ban nãy rõ ràng chính là một giọt nước mắt của Ứng Hàn Y, trên mặt đối phương vẫn còn vương lại vệt nước mắt chưa khô.
+
+Chuyện này thực sự quá đỗi khó tin, Ứng Hàn Y khóc rồi... vì hắn sao?
+
+Hạ Khanh Tuyên giơ tay muốn xoa xoa đầu Ứng Hàn Y: Đừng đau lòng mà! Lại chẳng phải lỗi của ngươi.
+
+Trên mặt Ứng Hàn Y còn vương vệt lệ, thế nhưng biểu cảm lại lạnh lẽo khôn cùng, tựa như kẻ rơi giọt nước mắt kia căn bản chẳng phải là y.
+
+Y ôm chặt lấy thi thể trong lòng, cho tới khi máu huyết trong thi thể đều đã lạnh ngắt, y mới nâng tay lấy ra tài liệu luyện chế một cỗ quan tài bằng gỗ đen, lại dùng máu tươi vẽ lên từng đạo từng đạo phù lục, sau đó mới cẩn thận từng li từng tí ôm thi thể Hạ Khanh Tuyên đặt vào bên trong.
+
+Chiêu Hồn Linh, Âm Trầm Mộc... Hạ Khanh Tuyên tính toán những món đồ này, rút ra kết luận: Đối phương căn bản không phải muốn luyện hắn thành khôi lỗi, mà là muốn phục sinh hắn.
+
+Phục sinh ư!
+
+Hạ Khanh Tuyên không khỏi nghĩ tới Minh Đế. Từ rất lâu rất lâu về trước, sơ tâm của Minh Đế chính là cứu lại tộc nhân của mình. Nàng hao tổn biết bao tâm huyết tinh lực vẫn chưa từng thành công, huống chi là Ứng Hàn Y.
+
+Nói như vậy, Hạ Khanh Tuyên ngược lại có chút cảm thấy có lỗi với Minh Đế rồi.
+
+Hắn dò xét xung quanh, thế mà lại tìm thấy một đạo hồn thể vô cùng suy yếu. Đạo hồn thể kia ném về phía Hạ Khanh Tuyên một ánh mắt tiếc sắt không thành thép, rồi liền bay vút đi mất.
+
+Đối phương lúc này hư nhược tới mức ngay cả đoạt xá người khác cũng chẳng làm nổi, chỉ có thể đi tìm loại người sắp chết để nhập vào, kéo dài hơi tàn mạng sống.
+
+Biết rằng đối phương khó lòng mượn đó để tạo nên sát lục, Hạ Khanh Tuyên cũng lười chẳng buồn bận tâm tới sự đi ở của nàng nữa.
+
+Ở kiếp trước hắn chưa từng rời khỏi bên người Ứng Hàn Y là bởi vì hắn bị một luồng sức mạnh giam cầm tại nơi đó. Lần này Hạ Khanh Tuyên trong cõi u minh cảm nhận được bản thân có lẽ có thể rời đi, thế nhưng hắn ngay cả thử cũng không buồn thử, cam tâm tình nguyện ở lại bên cạnh Ứng Hàn Y.
+
+Hắn nhìn đối phương đem toàn bộ thiên tài địa bảo có thể duy trì sinh cơ cho thân thể hắn dốc ra sử dụng hết, lại dùng tới toàn bộ bảo vật có thể chiêu hồn trong thiên hạ.

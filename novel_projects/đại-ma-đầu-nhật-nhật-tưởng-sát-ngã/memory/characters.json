@@ -532,18 +532,15 @@
     "name": "Yêu Hoàng",
     "hanviet_name": "Yêu Hoàng",
     "gender": "Male",
-    "third_person_pronoun": "",
+    "third_person_pronoun": "hắn",
     "aliases": [
+      "妖皇",
       "Yêu Hoàng",
-      "Ma Vương",
-      "Yêu Vương",
-      "Yêu Vương (妖王)",
-      "Quỷ vương",
-      "Quỷ Đế"
+      "Yêu Hoàng bệ hạ"
     ],
-    "honorifics": "Addressed as 'Yêu Hoàng bệ hạ'.",
-    "speech_style": "Not directly speaking in this excerpt.",
-    "notes": "A powerful figure, possibly the superior of Tiêu Thăng."
+    "honorifics": "Yêu Hoàng bệ hạ, bệ hạ",
+    "speech_style": "Uy nghiêm, thâm trầm, giả nhân giả nghĩa, tính toán sâu xa",
+    "notes": "Chủ nhân Yêu Điện, thống trị Yêu giới vạn năm, cảnh giới Độ Kiếp kỳ. Dung mạo đoan chính hiền hòa nhưng tính tình tàn nhẫn khôn lường. Đang tìm cách gom đủ các quyển Thái Thượng Lưỡng Nghi Quyển, liên kết với Minh Đế ép Hạ Khanh Tuyên tiến giai Hóa Thần để phá giải bí pháp phi thăng."
   },
   {
     "name": "Yêu tu",
@@ -930,16 +927,17 @@
   {
     "name": "Minh Đế",
     "hanviet_name": "Minh Đế",
-    "gender": "Unknown",
-    "third_person_pronoun": "",
+    "gender": "Female",
+    "third_person_pronoun": "nàng",
     "aliases": [
+      "冥帝",
       "Minh Đế",
-      "Hoàng đế Địa ngục",
+      "Minh Đế đại nhân",
       "Công Tôn Nguyệt"
     ],
-    "honorifics": "Đế (Emperor).",
-    "speech_style": "Not shown.",
-    "notes": "The 'Underworld Emperor', one of the figures holding a piece of the Taishang Liangyi Scroll."
+    "honorifics": "Minh Đế đại nhân, bản tọa",
+    "speech_style": "Cuồng ngạo, tàn nhẫn, biến thái ưa thích đau đớn, tự xưng 'bản tọa'",
+    "notes": "Nữ ma đầu thống trị Minh giới, sở hữu làn da bánh mật ngăm đen, hai vết sẹo ngang mặt, đôi mắt đỏ như máu, mái tóc dài tựa rong biển. Nắm giữ một phần tàn quyển Thái Thượng Lưỡng Nghi Quyển. Đã hợp tác với Yêu Hoàng hòng ném Hạ Khanh Tuyên vào huyết trì luyện thành hoạt khôi lỗi, nhưng cuối cùng bị Hạ Khanh Tuyên kích hoạt lực lượng của Ứng Hàn Y phản đòn và dùng Đoạt Tu Đại Pháp hút sạch tu vi."
   },
   {
     "name": "Leader of Pursuers",
@@ -1183,5 +1181,39 @@
     "honorifics": "Tiên Vương",
     "speech_style": "",
     "notes": "The 'lost lover' Ying Hanyi has been waiting for. Her true name is not yet revealed, only her title."
+  },
+  {
+    "name": "Nhiễm Thu Lam",
+    "hanviet_name": "Nhiễm Thu Lam",
+    "gender": "Female",
+    "third_person_pronoun": "nàng",
+    "aliases": [
+      "冉秋嵐",
+      "冉秋岚",
+      "Nhiễm Thu Lam",
+      "Đại sư tỷ",
+      "sư tỷ",
+      "đại sư tỷ Tuyên Nghi Cung"
+    ],
+    "honorifics": "đại sư tỷ, sư tỷ, tiên tử",
+    "speech_style": "Kiên cường, bao dung, tận tụy che chở các sư đệ sư muội",
+    "notes": "Đại sư tỷ của Tuyên Nghi Cung, phụ trách dẫn đội đệ tử tới Vực Ngoại lĩnh vực, thu phục được một khối thượng cổ thần giáp và được Hạ Khanh Tuyên ứng cứu kịp thời."
+  },
+  {
+    "name": "Nhai Thư Tôn Giả",
+    "hanviet_name": "Nhai Thư Tôn Giả",
+    "gender": "Female",
+    "third_person_pronoun": "nàng",
+    "aliases": [
+      "厓舒尊者",
+      "神傾",
+      "Thần Khuynh",
+      "Nhai Thư",
+      "Nhai Thư Tôn Giả",
+      "chủ nhân Thần Hành Hội"
+    ],
+    "honorifics": "tôn giả, tiền bối",
+    "speech_style": "Lãnh diễm, cung kính trước Ứng Hàn Y, uy nghiêm sắc lạnh",
+    "notes": "Chủ nhân Thần Hành Hội, nữ tôn giả cảnh giới Hóa Thần am hiểu Hàn Băng chi ý, mang huyết mạch cổ thần họ Thần (Thần Khuynh), là thuộc hạ bí mật phụ trách mạng lưới tình báo cho Ứng Hàn Y."
   }
 ]

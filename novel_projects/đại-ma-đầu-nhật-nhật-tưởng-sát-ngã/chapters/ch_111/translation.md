@@ -1,49 +1,87 @@
 ---
-title: Đại Ma Đầu Nhật Nhật Tưởng Sát Ngã — ch_111
+title: Chương 111
 ---
 
-Ying Hanyi nhìn chằm chằm vào He Qingxuan đã biến mất khỏi giấc mơ của mình, xoa ngón tay và mỉm cười nhẹ nhàng.
-Chương 65
-He Qingxuan từng hỏi Hoàng đế Hades ý định ban đầu của ông là gì, vậy ý định ban đầu của chính ông là gì?
-Sống thực sự có thể là ý định ban đầu của anh ấy? Vào thời điểm ông qua đời, He Qingxuan đã oán hận và oán hận ông. Mười bảy tuổi thực sự còn quá trẻ. Tâm trí của một chàng trai trẻ không vững vàng như người khác nghĩ. Trong khi bị tra tấn, anh ta cũng sẽ đổ lỗi cho người khác và thậm chí ghét bỏ thể chất của toàn bộ linh hồn của mình.
-Anh ta không thể nhìn thấy bất cứ thứ gì, như thể anh ta bị nhốt trong một nơi tối tăm, nơi anh ta không thể nhìn thấy ngón tay của mình. Nơi đó ẩm ướt và tối tăm, một lúc nào đó côn trùng độc sẽ bò qua đó và sử dụng máu thịt của anh ta làm thức ăn.
-Làm sao một người lớn lên dưới ánh mặt trời có thể chịu được bóng tối như vậy? Sau khi bị tra tấn suốt một năm, anh ấy đã chết như thế. Ngoài việc bị choáng ngợp về mặt thể chất, còn hơn thế nữa là vì anh ấy không muốn sống nữa.
-Nếu cuộc sống chẳng là gì ngoài nỗi đau vô tận thì tại sao lại phải sống?
-Nhưng khi cuộc sống thực tế trôi qua, anh lại nghĩ đến Cung Huyền Di của mình, những trưởng lão nghiêm khắc, đầy kỳ vọng đối với anh nhưng cũng rất tốt bụng, và các vị sư huynh luôn nhiệt tình và thân thiện với anh.
-Anh cảm thấy không muốn.
-Linh hồn bất đắc dĩ trôi dạt và chạm tới bước ngoặt của số phận, vực thẳm không đáy.
-Mọi chuyện bắt đầu từ anh, một con ma nhỏ có thể nhìn thấy trở lại. Con ma mất tự do nhưng lại nhìn thấy một người gặp vấn đề tương tự như mình. Ngay cả sự im lặng nham hiểm của Ying Hanyi cũng trở nên có thể tha thứ được. Anh ấy đã bị tra tấn suốt một năm và cảm thấy như mình sắp phát điên. Ying Hanyi, một nhân vật vĩ đại, đã bị phong ấn trong năm nghìn năm. Đó là bao nhiêu ngày đêm. Cơn gió mạnh như cắt đứt máu thịt con người cũng không hề dễ dàng như hồi đó.
-He Qingxuan luôn nói rằng Ying Hanyi khác biệt, nhưng sự khác biệt chính xác là gì?
-Lúc đó lòng anh tràn ngập sự cô đơn. Nếu phải nói thì Ying Hanyi chính là nguồn nuôi dưỡng nhỏ bé của anh ấy.
-Cảm xúc này có được coi là thích không? Tất nhiên là không thể như vậy được. Làm thế nào nguồn dinh dưỡng tinh thần có thể được liên kết với sở thích? Nhưng bây giờ, Hạ Thanh Huyền còn có thể tự tin nói rằng hắn đối Hàn Dịch không có tình cảm như vậy sao?
-Hà Qingxuan, người bước ra từ giấc mơ của Ying Hanyi, cau mày và sững sờ nhìn chằm chằm vào một nơi không xác định trong khoảng không.
-Sau khi Hạ Thanh Huyền chủ động đi ra khỏi mộng, Ứng Hàn Nhất lập tức mở mắt ra, liếc nhìn xung quanh.
-Chỉ trong chốc lát, Ying Hanyi đã để mắt tới cái cây chết gần nhất. Trong lúc nhất thời, Hạ Thanh Huyền suýt chút nữa cho rằng Ứng Hàn Di có thể nhìn thấy mình.
-Ying Hanyi không thể nhìn thấy anh ta, nhưng bây giờ ánh mắt họ chạm nhau.
-Hướng mà người kia đang nhìn chính xác là hướng mà anh ta đang ở.
-"Này Thanh Huyền." Ying Hanyi gọi nhỏ.
+Ứng Hàn Y nhìn chăm chú vào bóng hình Hạ Khanh Tuyên vừa mới biến mất khỏi mộng cảnh của mình, khẽ vân vê đầu ngón tay, nở một nụ cười nhàn nhạt.
 
-Trong giây lát, trái tim Hạ Thanh Huyền đập loạn xạ, dường như cuối cùng anh cũng cảm nhận được cảm giác đập thình thịch trong truyện.
-Không giống như được anh hùng trong truyện cứu cứu, cũng không phải say sưa mê đắm, chỉ vì một cái nhìn nhau, một tiếng gọi đơn giản, thờ ơ đến mức người ta không biết nhịp tim đang ở đâu.
-Hà Thanh Huyền im lặng một lúc lâu mới chậm rãi đáp lại một tiếng "Ừm".
-Ying Hanyi cũng im lặng một lúc lâu, khiến mọi người có ấn tượng rằng anh ta nghe thấy câu trả lời của He Qingxuan trước khi anh ta bắt đầu nói câu tiếp theo, "Ôm ai đó chạy trốn, đó là tất cả sự dũng cảm của Chúa bất tử."
-He Qingxuan không hề khó chịu mà còn cười lớn.
-Nó có vẻ thực sự khác biệt.
-Anh ta chậm rãi và nhàn nhã bao quanh Ying Hanyi trong trạng thái ma quái. Quả nhiên đối phương căn bản không thấy được hắn, nhưng hắn khẳng định Hà Thanh Huyền ở nơi đó, Hà Thanh Huyền thật sự ở đó.
-Sau khi đi một vòng xong, ánh sáng quỷ dựa vào vai Ứng Hàn Di, nhỏ giọng nói với người đó: “Tôi không sợ anh động lòng rơi nước mắt không buông tha cho tôi.”
-Nếu Ứng Hàn Di cảm thấy điều gì đó, có lẽ anh ta biết rằng Hà Thanh Huyền sẽ phản bác anh ta. Sau khi cho Hà Thanh Huyền thời gian trả lời, hắn chậm rãi nói: "Tình huống hiện tại không lạc quan, linh hồn của ngươi hình như không giống người bình thường, ngay cả chuông triệu hồi linh hồn cũng không thể cảm nhận được sự hiện diện của ngươi. Có lẽ nó có liên quan đến thể chất của toàn linh thể của ngươi. Ta dự định đi đến âm phủ."
-He Qingxuan tựa vào vai anh gật đầu tỏ vẻ đồng tình.
-Đúng là bạn có thể đến xem hang ổ của Hoàng đế Hades. Phương pháp hồi sinh người chết mà He Qingxuan học được từ Hoàng đế Hades không thể sử dụng được. Loại người này tưởng chừng như được sống lại nhưng lại không phải là người trước đây.
-Ví dụ như trạng thái ma quái hiện tại của He Qingxuan thực ra vẫn ổn, trí nhớ và nhận thức của anh ấy vẫn bình thường. Trở ngại lớn nhất chính là Ứng Hàn Di không nhìn thấy hắn, nhưng không nhìn thấy cũng không sao cả. Anh ấy vẫn không thể ngủ được sao?
-Chỉ cần linh hồn của anh ấy còn tồn tại, anh ấy vẫn có thể đồng hành cùng Ying Hanyi như kiếp trước, thỉnh thoảng trò chuyện với những người trong giấc mơ.
-Nhưng điều này hơi quá tàn nhẫn đối với một người thích anh ấy.
-Nếu không muốn rời xa Ying Hanyi quá xa, He Qingxuan đã muốn xuống địa ngục.
-Ying Hanyi luôn kiên quyết và kiên quyết. Anh ta chỉ nói với anh ta rằng anh ta muốn đến thế giới ngầm và đưa anh ta đến thế giới ngầm mà không hề chào hỏi đạo sĩ Yingui.
-Nếu âm phủ không tràn đầy năng lượng Âm thì đó sẽ là nơi rất thích hợp cho các linh hồn Âm tu luyện. Tôi sợ không ai muốn ở lại đây. Môi trường ở đây thực sự quá tồi tệ, sương mù trắng mênh mông kéo dài, âm quỷ bay khắp nơi, xa xa có thể nhìn thấy là dòng sông Hắc Thủy dài vô tận.
-Trong sự im lặng chết chóc, Ying Hanyi bước đi giữa những dải hoa Bianhua rộng lớn. Loài hoa xinh đẹp này không những không làm cho khung cảnh ở đây đẹp hơn mà còn bộc lộ cảm giác xói mòn.
-Khi họ đến bờ sông, He Qingxuan, người đang nằm trên vai Ying Hanyi, thò đầu ra và thở dài trước cảnh tượng dưới sông.
-Có rất nhiều hộp sọ trôi nổi trong làn nước tối, cũng như những khuôn mặt đáng sợ. Có rất nhiều bộ xương trắng chất đống trên bãi sông. Côn trùng độc, rắn và kiến ​​ẩn nấp trong bóng tối có thể lờ mờ nhìn thấy trong các bộ xương.
+Hạ Khanh Tuyên từng hỏi Minh Đế sơ tâm của nàng là gì, vậy thì sơ tâm của chính hắn rốt cuộc là gì?
 
-Đây cũng là nguyên nhân Hà Thanh Huyền có thể tự mình bay lượn, nhưng vẫn dựa vào sự ngu dốt của Anh Hàn Di, lười biếng trên cơ thể Anh Hàn Nhất.
-Đồ bẩn quá nhiều, nằm trên người Ứng Hàn Di vẫn tốt hơn.
-Sông Đen là một con sông rất nổi tiếng trong thế giới ngầm. Con sông này được gọi là sông Nước Đen. Cái tên nghe đơn giản và thô thiển nhưng lại là một dòng sông kỳ lạ được cho là người sống không thể đi qua.
+Sống sót thật sự có thể tính là sơ tâm của hắn sao? Vào thời khắc thân vẫn đạo tiêu năm xưa, Hạ Khanh Tuyên từng hận, từng oán. Mười bảy tuổi, đó thực sự là một độ tuổi quá đỗi trẻ dại. Tâm trí của một thiếu niên căn bản chẳng hề kiên định vững vàng như người đời tưởng tượng. Giữa muôn vàn giày vò tra tấn, hắn cũng từng oán trời trách đất, thậm chí từng chán ghét thể chất Toàn Linh Chi Thể của chính mình.
+
+Đôi mắt chẳng thể nhìn thấy bất cứ thứ gì, hắn tựa như bị giam cầm trong một không gian tăm tối giơ tay không thấy năm ngón. Nơi đó ẩm ướt âm u, nơi đó chẳng biết từ lúc nào sẽ có lũ độc trùng bò qua rỉa róc da thịt hắn làm thức ăn.
+
+Một kẻ lớn lên dưới ánh mặt trời rực rỡ làm sao có thể chịu đựng nổi bóng tối vô tận nhường ấy? Sau một năm ròng rã bị đày đọa tra tấn, hắn cứ như thế mà chết đi. Ngoại trừ việc thân xác đã quá đỗi kiệt quệ rách nát, phần nhiều là bởi vì chính hắn cũng chẳng còn tha thiết muốn sống tiếp nữa.
+
+Nếu như sống sót chỉ toàn là nỗi đau đớn thống khổ khôn cùng, cớ sao lại phải cố sống làm chi?
+
+Thế nhưng khi sinh mệnh thực sự từng chút một trôi đi, hắn lại nhớ tới Tuyên Nghi Cung của hắn, nhớ tới những vị trưởng lão đối với hắn nghiêm khắc, tràn đầy kỳ vọng nhưng cũng muôn phần từ ái; nhớ tới những sư huynh sư tỷ trước sau luôn nhiệt thành thân thiện với hắn.
+
+Hắn cảm thấy không cam lòng.
+
+Linh hồn ôm nỗi không cam lòng cứ thế phiêu bạt bồng bềnh, đi tới ngã rẽ định mệnh của đời hắn — Vô Đáy Thâm Uyên.
+
+Tất cả mọi chuyện đều bắt đầu từ một tiểu u hồn có thể nhìn thấy ánh sáng trở lại là hắn. U hồn mất đi sự tự do, nhưng lại gặp được một người có cùng cảnh ngộ đồng bệnh tương lân với mình. Ngay cả sự âm trầm lặng thinh của Ứng Hàn Y khi ấy cũng trở nên có tình có lý. Bản thân hắn bị đày đọa một năm đã cảm thấy sắp phát điên phát cuồng, còn đại nhân vật từng hô mưa gọi gió như Ứng Hàn Y lại bị phong ấn ròng rã suốt năm ngàn năm! Đó phải là bao nhiêu ngày đêm dài đằng đẵng, những trận cương phong gào thét như muốn róc thịt lột xương kia đâu có dễ chịu hơn hắn thuở ấy.
+
+Hạ Khanh Tuyên luôn bảo rằng Ứng Hàn Y là người khác biệt, vậy thì cụ thể là khác biệt ở điểm nào?
+
+Khi ấy cõi lòng hắn ngập tràn sự cô độc quạnh quẽ. Nếu như nhất quyết phải tìm một lý do, thì Ứng Hàn Y chính là một điểm tựa ký thác tinh thần của hắn.
+
+Thứ cảm xúc này có thể tính là thích không? Đương nhiên không thể. Ký thác tinh thần làm sao có thể đánh đồng với thích được? Thế nhưng lúc này đây, Hạ Khanh Tuyên liệu còn có thể tự tin mười phần nói rằng bản thân đối với Ứng Hàn Y tuyệt đối chẳng có loại tình cảm này hay không?
+
+Hạ Khanh Tuyên sau khi thoát ra khỏi giấc mộng của Ứng Hàn Y khẽ nhíu mày, ngơ ngẩn nhìn chằm chằm vào một khoảng không vô định giữa hư không.
+
+Sau khi Hạ Khanh Tuyên chủ động rời khỏi mộng cảnh, Ứng Hàn Y chỉ trong chớp mắt liền mở bừng đôi mắt, quét mắt dò xét bốn phía xung quanh.
+
+Chỉ trong vài hơi thở ngắn ngủi, ánh mắt Ứng Hàn Y thế mà lại đặt chuẩn xác lên cành cây khô gần nhất. Trong một khoảnh khắc ngắn ngủi, Hạ Khanh Tuyên suýt chút nữa tưởng rằng Ứng Hàn Y thực sự có thể nhìn thấy hắn.
+
+Ứng Hàn Y căn bản không thể nhìn thấy hắn, thế nhưng lúc này ánh mắt của hai người quả thực đã chạm nhau.
+
+Hướng mà đối phương đang nhìn tới chính xác là nơi hắn đang lơ lửng.
+
+“Hạ Khanh Tuyên.” Ứng Hàn Y trầm giọng khẽ gọi một tiếng.
+
+Trong một khoảnh khắc ấy, nhịp tim của Hạ Khanh Tuyên bỗng đập loạn xạ. Hắn dường như rốt cuộc cũng cảm nhận được cảm giác rung động con tim như trong những cuốn thoại bản từng miêu tả.
+
+Không giống như trong thoại bản được nam chính anh hùng cứu mỹ nhân, cũng chẳng phải là men say chếnh choáng mê ly loạn tình; chỉ đơn thuần là một ánh mắt nhìn nhau, một tiếng gọi tên giản dị, bình dị thanh đạm tới mức khiến người ta chẳng biết điểm xao xuyến rốt cuộc nằm ở nơi đâu.
+
+Hạ Khanh Tuyên im lặng một hồi lâu, mới chậm rãi khẽ đáp lại một tiếng: “Ừm.”
+
+Ứng Hàn Y cũng trầm mặc rất lâu, tạo cho người ta một ảo giác tựa như y nghe được tiếng đáp lại này của Hạ Khanh Tuyên rồi mới mở miệng nói câu tiếp theo: “Ôm người ta xong liền bỏ chạy, tiên quân cũng chỉ có chút lá gan này thôi sao.”
+
+Hạ Khanh Tuyên không hề tức giận, ngược lại còn bật cười một tiếng.
+
+Dường như quả thực có chút không giống ngày xưa nữa rồi.
+
+Hắn thong thả ung dung ở trạng thái u hồn bay lượn một vòng quanh người Ứng Hàn Y. Quả nhiên, đối phương căn bản chẳng nhìn thấy hắn, chỉ là y chắc chắn rằng Hạ Khanh Tuyên đang ở nơi đó, mà Hạ Khanh Tuyên quả thực đang ở ngay đó.
+
+Bay lượn xong một vòng, tiểu u hồn nhẹ bẫng liền ghé nằm bò lên bờ vai Ứng Hàn Y, khẽ thì thầm bên tai người nọ: “Đây chẳng phải là sợ ngươi cảm động tới mức phát khóc, rồi không chịu thả ta đi sao.”
+
+Ứng Hàn Y tựa hồ có chút cảm ứng, đại khái cũng biết rõ Hạ Khanh Tuyên sẽ phản bác lại lời mình, y chừa ra một khoảng thời gian đủ để Hạ Khanh Tuyên trả lời, sau đó mới chậm rãi nói tiếp: “Tình hình hiện tại không mấy lạc quan. Hồn thể của ngươi dường như có điểm khác biệt so với người thường, ngay cả Chiêu Hồn Linh cũng không cảm nhận được sự tồn tại của ngươi, có lẽ là có liên quan tới thể chất Toàn Linh Chi Thể của ngươi. Ta dự định sẽ đi một chuyến tới Minh giới.”
+
+Hạ Khanh Tuyên ghé trên vai y khẽ gật đầu, bày tỏ sự tán đồng.
+
+Sào huyệt của Minh Đế quả thực là nơi đáng để tới xem thử. Thuật khởi tử hồi sinh mà Hạ Khanh Tuyên học được từ Minh Đế là không thể dùng bừa, thứ đó thoạt nhìn là sống lại, nhưng người sống lại chẳng còn là con người trước kia nữa.
+
+Như trạng thái u hồn hiện tại của Hạ Khanh Tuyên kỳ thực đã coi là rất tốt rồi, ký ức cảm tri các phương diện đều bình thường. Trở ngại lớn nhất chính là Ứng Hàn Y không nhìn thấy hắn; thế nhưng không nhìn thấy cũng chẳng phải chuyện gì to tát, hắn chẳng phải vẫn có thể nhập mộng sao?
+
+Chỉ cần linh hồn không tiêu tán, hắn vẫn có thể giống như kiếp trước ngày ngày bầu bạn bên cạnh Ứng Hàn Y, thỉnh thoảng nhập mộng trò chuyện đôi ba câu với y.
+
+Thế nhưng điều này đối với một kẻ thích hắn mà nói, thực sự lại có chút quá đỗi tàn nhẫn.
+
+Nếu không phải do không muốn rời xa Ứng Hàn Y quá xa, đích thân Hạ Khanh Tuyên cũng muốn tự mình đi một chuyến tới Minh giới.
+
+Ứng Hàn Y xưa nay luôn sấm rền gió cuốn, vừa mới nói muốn đi một chuyến tới Minh giới, ngay cả chào hỏi một tiếng với Âm Quỷ Đạo Nhân cũng chẳng buồn làm, liền trực tiếp mang theo quan tài của hắn lên đường tiến về Minh giới.
+
+Nơi Minh giới này nếu không phải do âm khí nồng đậm ngút trời, là nơi cực kỳ thích hợp cho âm hồn tu luyện, e rằng chẳng có ai tình nguyện ở lại đây. Môi trường nơi này thực sự quá đỗi tồi tàn tăm tối: từng mảng sương mù trắng xóa lượn lờ dày đặc, âm hồn dã quỷ bay loạn khắp nơi, trong tầm mắt chỉ thấy một dòng sông Hắc Thủy đen ngòm dài vô tận.
+
+Giữa sự tĩnh lặng chết chóc rợn người, Ứng Hàn Y cất bước dạo qua từng bụi hoa Bỉ Ngạn đỏ rực trải dài mênh mông. Loài hoa tuyệt đẹp này chẳng những không khiến khung cảnh nơi đây thêm phần diễm lệ, ngược lại còn toát ra một vẻ mục nát điêu tàn.
+
+Đi tới bờ sông, Hạ Khanh Tuyên đang nằm bò trên vai Ứng Hàn Y thò đầu ra nhìn, trước cảnh tượng dưới lòng sông liền khẽ chặc lưỡi một tiếng.
+
+Mặt nước đen kịt lững lờ trôi nổi không ít đầu lâu, cùng với những khuôn mặt quỷ dữ tợn kinh hoàng. Những bộ xương trắng hếu chất đống la liệt trên bãi sông, bên trong đống xương cốt ấy còn lờ mờ trông thấy lũ độc trùng rắn rết ẩn nấp trong bóng tối.
+
+Đây cũng chính là lý do vì sao Hạ Khanh Tuyên rõ ràng có thể tự mình bay lượn, thế nhưng vẫn ỷ vào việc Ứng Hàn Y không hay biết mà nằm bò trên vai y lười biếng.
+
+Đồ vật dơ bẩn tanh hôi quá nhiều, nằm bò trên người Ứng Hàn Y dẫu sao vẫn dễ chịu hơn muôn phần.
+
+Dòng sông đen kịt kia là một con sông vô cùng nổi danh tại Minh giới, mang tên sông Hắc Thủy. Tên gọi tuy giản đơn thô thiển, thế nhưng lại là một dòng sông quỷ dị được xưng tụng là người sống vĩnh viễn không thể vượt qua.

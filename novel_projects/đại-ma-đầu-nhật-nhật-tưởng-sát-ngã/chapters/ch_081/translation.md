@@ -1,55 +1,99 @@
----
-title: Đại Ma Đầu Nhật Nhật Tưởng Sát Ngã — ch_081
----
+# Chương 81: Hàn băng kiếm ý, trảm sát Mộ Quỷ
 
-Người đàn ông mặc đồ đen này không hề lo lắng chút nào sao?
-Anh có thể nhìn thấy mối liên hệ gắn bó giữa hai người. Nếu hắn đoán không lầm thì toàn thể linh hồn chính là con mồi của người đàn ông này.
-Những nghi ngờ đã sớm được giải đáp.
-Sau khi thanh trường kiếm trong tay He Qingxuan chống lại móng vuốt sắc bén của nữ tu sĩ tai mèo, một cơn ớn lạnh màu xanh nhạt đột nhiên xuất hiện.
-Cái lạnh khiến những chấm sương và tuyết ngưng tụ xung quanh, những bông tuyết rơi bay phấp phới, đẹp đẽ mà vô dụng. Khi mọi người cho rằng sương giá chỉ là biểu hiện linh lực của các tu sĩ băng, những bông tuyết vừa tiếp xúc với các tu sĩ khác, thực tế chúng nở ra với tốc độ cực kỳ kinh khủng và ngưng tụ thành băng.
-Vẻ mặt của tên tu yêu đông lạnh vẫn còn sợ hãi. Lớp băng tuyết tưởng chừng như mỏng không những không bị ma tu phá vỡ mà còn trở nên rắn chắc hơn, sau đó tự động nổ tung.
-Sương giá và cục máu lần lượt từ trên rơi xuống, nửa đường lại nổ tung, hóa thành sương máu.
-Một số người tu luyện ma quỷ bị cảnh tượng như vậy làm cho sợ hãi, và một số người tu luyện ma quỷ lại càng hưng phấn hơn. Cơ thể toàn linh đã phát triển với tốc độ như vậy. Nếu ăn phải toàn linh thể, cũng không biết tu vi của mình sẽ tăng lên bao nhiêu.
-He Qingxuan đã nhân cơ hội này giữ khoảng cách với mọi người và tấn công phủ đầu bằng một thanh kiếm mang ý định kiếm.
-Một số ma tu không thể né được thanh kiếm, nhưng cũng có những ma tu nhanh nhẹn dễ dàng né tránh và bắt đầu tấn công He Qingxuan từ cả hai phía.
-Toàn Linh Thể có một ít sức mạnh là chuyện bình thường, ăn phải Toàn Linh Thể là điều khó tránh khỏi, nhưng trong không khí mùi máu tanh càng ngày càng đậm.
-Tổng cộng có mười một người tu yêu và người tu quỷ, nhưng không ai trong số họ làm He Qingxuan bị thương nặng. Ngược lại, người của họ lần lượt bị giết ở phía bên kia.
-Nhưng đối phương dường như sắp cạn kiệt tinh thần, sắp tìm ra điểm yếu của đối phương. Chính vì ảo giác này mà một nhóm ma tu ít nhất đã tu luyện hàng trăm năm lần lượt lao về phía trước.
-Là người ngoài cuộc, người đàn ông nhìn rõ.
-Những người đó không thể làm gì được Cơ thể toàn tâm linh. Bên kia đang chơi trò mèo vờn chuột với họ.
-Người đàn ông muốn bỏ cuộc, đang định bỏ chạy, nhưng lại phát hiện mình căn bản không thể rời đi.
-“Đừng lo lắng, sẽ sớm đến lượt cậu thôi.”
-Những lời nói lạnh lùng vang vọng bên tai tôi.
-Giọng nói hoàn toàn xa lạ đó có phải là người đàn ông mặc đồ đen mang theo Toàn Linh Thể đến không?
-Người đàn ông nhợt nhạt đến mức gần như trong suốt thật đáng sợ. Chẳng lẽ hiện tại hắn không thể cử động là do thủ công của người này gây ra.
+Người đàn ông hắc y này chẳng lẽ nửa điểm cũng không lo lắng hay sao?
 
-Anh nhanh chóng nhớ lại những lời đồn đại về Cơ thể toàn linh từ thế giới bên ngoài, một trong số đó là việc Hoàng đế Miexu Ying Hanyi đã phá phong ấn và bắt cóc Cơ thể toàn linh.
-Vậy người này là Ying Hanyi? !
-Chương 43
-Suy đoán táo bạo khiến người đàn ông tái mặt.
-Nếu thông tin là chính xác thì Toàn Linh Thể chỉ mới mười bảy, mười tám tuổi, thậm chí còn chưa đạt đến cấp độ Nguyên Anh ở tuổi hai mươi. Đây không còn chỉ là một thành tựu có thể đạt được bằng sự kết hợp giữa tài năng và cơ hội đáng sợ. Nhưng có tấm gương sống động như vậy trước mắt, kết quả chỉ có thể là Ứng Hàn Di đang hỗ trợ Toàn Linh Thể, giúp đối thủ đề cao tu vi.
-“Có vẻ như đến lượt cậu rồi.”
-Một giọng nói trầm thấp lạnh lùng vang lên trong biển ý thức.
-Người đàn ông nhìn về phía trước, và quả nhiên, trong số những người tu luyện yêu quái đi cùng anh ta, chỉ còn lại yêu mèo và yêu rắn.
-Một tay của nữ tu sĩ tai mèo bị kiếm sắc chặt đứt, cô đang ôm cánh tay gãy đang chảy máu không ngừng đau đớn: "Là ai?"
-He Qingxuan đang cầm kiếm, máu bắn tung tóe trên mặt. Anh ta nghiêng đầu, như thể không hiểu vấn đề của nữ tu sĩ tai mèo.
-"Bạn là ai? Bạn là ai?"
-Đôi mắt của nữ tu sĩ tai mèo đầy sợ hãi.
-"Không phải cậu đã nói cô ấy là sư tỷ của tôi sao? Hóa ra cậu không biết cô ấy là ai."
-Thanh kiếm trong tay He Qingxuan lại giơ lên, đồng tử của nữ tu sĩ tai mèo giãn ra. Ở hơi thở tiếp theo, thanh kiếm bị chém xuống, toát ra một kiếm ý đáng sợ, một kiếm ý ngay cả cô cũng không thể ngăn cản.
-Không nên như vậy! Không nên như vậy! !
-Khí chất của người này rõ ràng là của Nguyên Anh sơ kỳ, nhưng cô ấy đã ở giai đoạn cuối của Nguyên Anh rồi. Làm sao nàng vẫn không thể đánh bại được một đứa bé ở Nguyên Anh sơ kỳ?
-Những tràng pháo tay giòn giã phát ra từ bàn tay của một người đàn ông có khuôn mặt tái nhợt và làn da trong suốt đến mức gần như có thể nhìn thấy máu thịt bên dưới, "Quả nhiên là một thân thể sung mãn, Nguyên Anh mười tám tuổi có thể dễ dàng nhảy vọt qua cấp bậc của mình để giết người. Anh ta thực sự là niềm ghen tị của những người tầm thường như tôi."
-He Qingxuan lạnh lùng nhìn người đàn ông chưa từng nói một lời hay thậm chí chưa từng ra tay này.
-"Ngươi là Ma Quỷ Mugui." Hà Thanh Huyền kiên định nói.
-Người đàn ông hơi sửng sốt và gật đầu đồng ý.
+Gã có thể nhìn ra được mối liên kết khí tức sền sệt gắn kết giữa hai người bọn họ; nếu đoán không lầm thì Toàn Linh chi thể này hẳn phải là con mồi độc chiếm của người đàn ông kia mới đúng.
 
-He Qingxuan quá xinh đẹp, cao và mảnh mai, khiến mọi người ảo tưởng rằng anh giống như Lu Ding, người dùng tình dục để phục vụ người khác, đặc biệt là khi đi cùng với một người quyền lực như Hoàng đế Miexu. Nhưng lúc này, anh không còn dám coi thường anh nữa. Khi ánh mắt chạm nhau, anh biết đây chắc chắn không phải là vẻ mặt mà một thanh niên bình thường nên có, huống chi đối phương còn gọi thẳng danh hiệu của anh.
-Hắn không khỏi hạ thấp tư thế rất nhiều, “Chúng ta không biết vị tiên nữ này chính là sư tỷ của ngươi, bây giờ chúng ta đã phải trả giá rất đắt, hy vọng ngươi sẽ thả chúng ta đi, bởi vì chúng ta thành tâm ăn năn.”
-Thanh trường kiếm trong tay Hà Thanh Huyền vẫn bất động, dường như đang suy nghĩ.
-Mộ Quy Dao cảm thấy có chút vui mừng. Dù sao thì anh cũng chỉ là một cậu bé ở tuổi thiếu niên, nhưng anh chỉ giả vờ đáng thương, thực ra anh đã mềm lòng.
-Anh ta tiếp tục đổ thêm dầu vào lửa: “Chúng tôi không có ác ý gì với chị gái của bạn, chúng tôi chỉ muốn bộ áo giáp mà chị gái bạn có.”
-"Ngươi nói như vậy cũng có đạo lý, tu luyện thế giới là kẻ yếu bắt kẻ mạnh, không đánh không cướp, chỉ có thể trở thành kẻ yếu." He Qingxuan bật cười khi nói điều này. "Cho nên sư tỷ của ta không mạnh bằng ngươi, cho nên nàng chỉ có thể trở thành một linh hồn chết dưới tay ngươi. Bây giờ ngươi không mạnh bằng ta, tại sao ta lại phải để ngươi đi? Chẳng lẽ lúc đó ta không tới, ngươi liền thả sư tỷ của ta đi sao?"
-Anh ta dường như chỉ hỏi những câu hỏi ngẫu nhiên, nhưng lời nói của anh ta lại chứa đầy sự lạnh lùng.
-He Qingxuan ngay từ khi còn nhỏ đã biết rằng kẻ mạnh được tôn trọng trong giới tu luyện. Bây giờ hắn mạnh hơn những người này, chỉ có những người này mới chịu nói lời tốt. Nếu yếu hơn những người này, hắn cũng chỉ là một linh hồn khác chết thảm.
-Anh ta không chút do dự chém thanh kiếm trong tay, máu đỏ tươi lại bắn tung tóe.
+Rất nhanh mối nghi hoặc trong lòng gã đã tìm được lời giải đáp.
+
+Trường kiếm trong tay Hạ Khanh Tuyên sau khi đón đỡ móng vuốt sắc nhọn của nữ tu tai mèo, bỗng nhiên bùng nổ một luồng hàn ý lam nhạt thấu xương.
+
+Hàn ý kia khiến cho bốn phía ngưng tụ nên từng đốm băng sương lấm tấm, từng bông tuyết lất phất bay lượn giữa không trung, mỹ lệ phiêu dật mà tưởng chừng như vô hại. Ngay vào lúc tất cả mọi người đều ngỡ rằng lớp sương tuyết kia chẳng qua chỉ là chút cụ tượng hóa linh lực của tu sĩ băng hệ mà thôi, thì những bông tuyết vừa mới chạm phải thân thể của các tu sĩ khác liền lập tức bành trướng với tốc độ kinh hoàng dị thường, cấp tốc ngưng kết thành từng khối băng lạnh cứng ngắc!
+
+Biểu cảm của tên yêu tu bị đóng băng cứng đờ lại ở vẻ kinh hoàng tột độ; lớp băng tuyết nhìn qua tưởng chừng mỏng manh kia chẳng những không bị yêu tu phá vỡ, mà ngược lại càng lúc càng ngưng đọng rắn chắc, rồi ầm ầm tự phát nổ tung!
+
+Từng khối huyết nhục đông cứng rơi rụng từ trên cao xuống, rơi tới nửa chừng lại tiếp tục nổ tung lần thứ hai, hóa thành một làn huyết vụ đỏ ngầu tanh tưởi.
+
+Khung cảnh kinh hoàng bực này khiến một số yêu tu bị chấn nhiếp kinh hãi, nhưng cũng có những kẻ lại càng thêm phần kích động điên cuồng: Toàn Linh chi thể thế mà đã trưởng thành tới tốc độ nghịch thiên dường này, nếu bọn chúng nuốt chửng được hắn thì tu vi sẽ còn tăng vọt tới mức nào nữa chứ!
+
+Hạ Khanh Tuyên đã thừa cơ kéo giãn khoảng cách với mọi người, một đạo kiếm khí sắc bén kèm theo kiếm ý cuồn cuộn tiên phát chế nhân.
+
+Có yêu tu không tài nào tránh né được nhát kiếm này, nhưng cũng có những kẻ sở trường về tốc độ dễ dàng lách mình né tránh, rồi từ hai phía tả hữu bắt đầu giáp công vây hãm Hạ Khanh Tuyên.
+
+Toàn Linh chi thể sở hữu chút thực lực là chuyện quá đỗi bình thường, vì muốn nuốt trọn Toàn Linh chi thể mà phải trả một chút giá đắt cũng là điều khó tránh khỏi; thế nhưng mùi máu tanh nồng nặc trong không khí lại càng lúc càng thêm gay mũi.
+
+Tròn mười một tên yêu tu cùng quỷ tu vây hãm, thế mà lại chẳng có lấy một tên nào có thể đả thương nặng được Hạ Khanh Tuyên; ngược lại, người của bọn chúng lại lần lượt bị hắn kiếm quang chém chết từng tên một!
+
+Thế nhưng đối phương trông tựa hồ như sắp sửa cạn kiệt linh lực tới nơi, bọn chúng dường như sắp chạm tới được nhược điểm của hắn rồi; chính cái ảo giác chí mạng này đã khiến cho một lũ yêu tu quỷ tu tu hành ít nhất vài trăm năm kia cứ mù quáng kẻ trước ngã xuống người sau lại xông lên.
+
+Thế nhưng gã đàn ông đứng bàng quan bên ngoài lại nhìn thấu tất cả.
+
+Đám người kia căn bản chẳng làm gì nổi Toàn Linh chi thể; đối phương rõ ràng là đang chơi trò mèo vờn chuột với bọn chúng!
+
+Trong lòng gã đàn ông dâng lên ý định thoái lui, đang định thi triển độn thuật đào tẩu thì bỗng kinh hoàng phát hiện ra bản thân căn bản không thể nhúc nhích được nửa bước!
+
+“Chớ vội, rất nhanh sẽ tới lượt ngươi thôi.”
+
+Một câu nói lạnh lùng nhàn nhạt vang lên sát bên tai.
+
+Một giọng nói hoàn toàn xa lạ; là của người đàn ông hắc y đi cùng Toàn Linh chi thể kia sao?
+
+Gã đàn ông có làn da trắng bệch gần như trong suốt sợ đến hồn phi phách tán; chẳng lẽ việc bản thân lúc này không thể động đậy mảy may cũng là kiệt tác từ bàn tay của người nọ?
+
+Gã điên cuồng lục lọi lại những tin tức vỉa hè truyền tụng về Toàn Linh chi thể ở ngoại giới; trong đó có một tin tức then chốt: Diệt Hư Đế Tôn Ứng Hàn Y sau khi phá phong ấn đã bắt cóc Toàn Linh chi thể đi!
+
+Cho nên... người này chính là Ứng Hàn Y?!
+
+Phỏng đoán to gan kinh hoàng này khiến gương mặt gã đàn ông cắt không còn giọt máu.
+
+Nếu như tình báo không sai lệch, Toàn Linh chi thể hiện tại bất quá chỉ mới mười bảy mười tám tuổi; một Nguyên Anh kỳ chưa đầy hai mươi tuổi, đây tuyệt đối không chỉ đơn thuần là dựa vào thiên phú khủng khiếp cùng cơ duyên chất đống mà có thể đạt tới được! Thế nhưng ngay trước mắt gã lại đang có một ví dụ sống sờ sờ; kết quả duy nhất có thể giải thích chính là Ứng Hàn Y đang ra sức nâng đỡ Toàn Linh chi thể, đích thân giúp đối phương tăng vọt tu vi!
+
+“Xem ra, sắp sửa tới lượt ngươi rồi đấy.”
+
+Thanh âm truyền âm trầm thấp lạnh tanh vang vọng trong thức hải của gã.
+
+Gã đàn ông ngước mắt nhìn về phía trước; quả nhiên đám yêu tu quỷ tu đồng hành cùng gã lúc này chỉ còn sót lại mỗi miêu yêu cùng xà yêu.
+
+Một cánh tay của nữ tu tai mèo đã bị trường kiếm gọt phăng, nàng ta đang đau đớn ôm lấy cánh tay cụt máu tươi chảy ròng ròng: “Ngươi là ai?!”
+
+Hạ Khanh Tuyên một người một kiếm, trên gương mặt trắng nõn còn vương lại vài giọt máu tươi bắn tung tóe; hắn khẽ nghiêng đầu, tựa hồ có chút không hiểu nổi câu hỏi của nàng ta.
+
+“Ngươi là ai?! Rốt cuộc ngươi là kẻ nào?!”
+
+Trong đôi mắt nữ tu tai mèo ngập tràn vẻ kinh hãi tột độ.
+
+“Chẳng phải ta đã nói đó là đại sư tỷ của ta rồi sao? Hóa ra các ngươi thế mà lại không biết nàng là ai.”
+
+Thanh kiếm trong tay Hạ Khanh Tuyên một lần nữa nâng lên. Đồng tử nữ tu tai mèo co rút cực hạn; hơi thở tiếp theo, thanh kiếm kia liền dứt khoát chém xuống, mang theo một đạo kiếm ý khủng bố tuyệt luân — một đạo kiếm ý mà ngay cả nàng ta cũng căn bản không tài nào ngăn cản nổi!
+
+Không thể nào! Tuyệt đối không thể nào!!
+
+Khí tức của người này rõ ràng chỉ là Nguyên Anh sơ kỳ, mà nàng ta sớm đã là Nguyên Anh hậu kỳ rồi; cớ sao nàng ta lại có thể không đánh lại một tên tiểu quỷ Nguyên Anh sơ kỳ cơ chứ?!
+
+Bốp, bốp, bốp...
+
+Từng tràng pháo tay giòn giã bỗng vang lên từ phía gã đàn ông mặt mày trắng bệch, làn da trong suốt đến mức gần như có thể nhìn thấy cả huyết nhục bên dưới: “Không hổ danh là Toàn Linh chi thể, mười tám tuổi đã kết Nguyên Anh, vượt cấp trảm sát đối thủ dễ như trở bàn tay, quả thực khiến cho lũ người bình phàm tầm thường như chúng ta đây phải ngưỡng mộ khôn xiết.”
+
+Hạ Khanh Tuyên lạnh lùng liếc nhìn gã đàn ông từ đầu tới cuối chưa từng hé răng lấy một lời, thậm chí cũng chẳng hề nhúng tay động thủ kia.
+
+“Ngươi là Mộ Quỷ Yêu Nhân.” Hạ Khanh Tuyên cất giọng vô cùng khẳng định.
+
+Gã đàn ông thoáng ngẩn người, rồi gật đầu thừa nhận.
+
+Hạ Khanh Tuyên quả thực quá đỗi mỹ lệ, vóc dáng lại cao ráo mảnh khảnh, rất dễ tạo cho kẻ khác cái ảo giác ngỡ rằng hắn là hạng đỉnh lô lấy sắc thị người, đặc biệt là khi hắn lại luôn đi cạnh một vị đại năng cái thế như Diệt Hư Đế Tôn. Thế nhưng vào giây phút này, gã đã chẳng còn dám có nửa phần khinh thị đối phương nữa; chỉ cần một ánh mắt chạm nhau liền đủ để gã hiểu rõ đây tuyệt đối không phải là ánh mắt mà một thiếu niên tầm thường có thể sở hữu, huống chi đối phương thế mà lại có thể một lời vạch trần danh xưng của gã.
+
+Gã bất giác hạ thấp tư thế xuống rất nhiều: “Bọn ta trước đó quả thực không hề hay biết vị tiên tử này lại là sư tỷ của các hạ, hiện giờ bọn ta cũng đã vì thế mà phải trả một cái giá vô cùng thảm khốc; kính mong các hạ nể tình bọn ta thành tâm hối cải mà tha cho bọn ta một con đường sống.”
+
+Thanh trường kiếm trong tay Hạ Khanh Tuyên vẫn đứng im bất động, tựa hồ như đang ngẫm nghĩ điều gì.
+
+Trong lòng Mộ Quỷ Yêu Nhân mừng thầm; chung quy cũng chỉ là một tiểu tử hơn mười tuổi đầu, bất quá chỉ hơi giả vờ đáng thương một chút là đã mềm lòng ngay rồi.
+
+Gã vội vàng châm thêm dầu vào lửa: “Bọn ta đối với sư tỷ của các hạ vốn dĩ không có ác ý gì, lúc trước chẳng qua cũng chỉ là muốn đoạt lấy khối chiến giáp mà sư tỷ các hạ có được mà thôi.”
+
+“Ngươi nói như vậy cũng có lý đấy; tu chân giới vốn dĩ cá lớn nuốt cá bé, kẻ không tranh không đoạt thì chỉ có thể cam chịu làm kẻ yếu.” Hạ Khanh Tuyên nói tới đây liền khẽ cười một tiếng: “Cho nên đại sư tỷ của ta thực sự không bằng các ngươi, liền chỉ có thể cam chịu biến thành vong hồn dưới đao của các ngươi; nay thực lực của các ngươi không bằng ta, cớ sao ta lại phải tha mạng cho các ngươi? Chẳng lẽ lúc nãy nếu ta không xuất hiện, các ngươi sẽ tha cho sư tỷ của ta một con đường sống hay sao?”
+
+Hắn tựa như chỉ đang tùy tiện hỏi bâng quơ một câu, thế nhưng trong từng câu chữ sớm đã nhuốm đầy hàn ý lạnh lẽo thấu xương.
+
+Hạ Khanh Tuyên từ rất sớm đã hiểu rõ: chốn tu chân giới lấy kẻ mạnh làm tôn; hôm nay hắn mạnh hơn những kẻ này, chúng mới chịu hạ giọng nói lời ngon ngọt; nhỡ như hắn yếu thế hơn chúng, thì cũng bất quá chỉ là thêm một đạo vong hồn chết thảm dưới móng vuốt của chúng mà thôi.
+
+Trường kiếm trong tay hắn chẳng chút do dự chém thẳng xuống, máu tươi đỏ thẫm lại một lần nữa bắn tung tóe giữa hư không!

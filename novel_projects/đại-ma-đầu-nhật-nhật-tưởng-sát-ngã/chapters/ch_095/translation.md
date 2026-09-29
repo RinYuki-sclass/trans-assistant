@@ -1,65 +1,119 @@
 ---
-title: Đại Ma Đầu Nhật Nhật Tưởng Sát Ngã — ch_095
+title: Chương 95
 ---
 
-"Chờ đã!!"
-Dưới sự tổ chức nhanh chóng của Hades, He Qingxuan tạm thời dừng hoạt động của người mình.
-"Bây giờ Hades hoàng đế sẵn sàng chia sẻ bí mật nhỏ này với tôi?"
-*
-Khi Ma Vương lao ra ngoài Yêu Cung, hắn nhìn thấy mặt đất đầy máu, có vô số tứ chi bị gãy và cánh tay bị gãy.
-Anh ta nhếch lên khóe miệng mỉm cười: "Đây là lần đầu tiên tôi thấy Hoàng đế Miexu trông hung bạo và hung dữ như vậy."
-"Đưa anh ta đây."
-"Hắn? Là ai? Ta thật sự không biết Tôn Hoàng đang nói cái gì. Ngược lại, Tôn Hoàng trực tiếp đi tới cửa, không biết mục đích là gì."
-"Hà Thanh Huyền, không ai biết rõ hơn ta là hắn có ở đây hay không. Tốt nhất ngươi nên nhanh chóng giao hắn ra, nếu không đừng trách ta không tốt."
-"Ta còn chưa nói cho ngươi biết, nhưng nếu Hoàng đế Zun quan tâm nhiều như vậy, có thể nói rằng toàn bộ cơ thể này đều thuộc về Hoàng đế Zun."
-Ying Hanyi hơi nheo mắt và không nói gì nữa. Năng lượng ma quỷ vốn đã dâng trào trở nên hung dữ và đáng sợ hơn.
-Yêu Vương không hề sợ hãi, hắn rút xương sống ra khỏi lưng, xương sống biến thành một thanh kiếm không thể phá hủy.
-Cuộc chiến giữa hai bậc thầy vĩ đại trong Giai đoạn hoạn nạn rất khó để nắm bắt bằng mắt thường. Có những con quái vật lần lượt nằm trên mặt đất. Những con quái vật nhỏ đã chết từ lâu, những con còn sống đều là những con quái vật lớn, nhưng ngay cả những con quái vật lớn này cũng không thể nhìn rõ chuyển động giữa hai bên.
-Nhanh, quá nhanh, tất cả những gì họ có thể nhìn thấy rõ ràng là những dư ảnh nối tiếp nhau và những vụ nổ lớn do cuộc chiến giữa hai thế lực gây ra. Giữa hai đấng quyền năng lần lượt xuất hiện những cảnh tượng kỳ lạ, sấm sét, mưa đá và mưa axit. Những tia lửa điện rơi xuống đất có thể gây ra hỏa hoạn lớn.
-Yêu tu áo trắng không quá nổi bật trong số những yêu tu. Anh ấy chưa bị gãy tay hay chân. Rốt cuộc, anh ta đã chết một lần. Anh ta ẩn mình giữa những xác chết, chờ đợi quá trình sống lâu dài qua đi và quay trở lại.
-Có ai đó dừng lại trước mặt anh.
-Yêu tu áo trắng phía trước bị thương nặng đến mức tầm nhìn mờ đi, chỉ có thể nhìn thấy một chút ánh sáng và bóng tối.
-Anh mơ hồ kết luận đây là một người có thân hình gầy gò, đường nét thanh tú. Trong số những người anh biết, người duy nhất anh có thể nhanh chóng nhận ra là con thỏ.
-"Bạch Đồ? Sao ngươi lại tới đây?"
-Không nhận được phản hồi, yêu tu áo trắng nhìn chính mình nói: "Mau mang ta đi."
+“Chờ đã, chờ đã, chờ đã!!”
 
-Người đàn ông ngồi xổm xuống trước mặt anh và dường như đang nhìn anh một cách nghiêm túc.
-Yêu tu áo trắng có chút khó chịu, sau đó hắn nghe thấy một tiếng cười khúc khích.
-Giọng nói này không phải là Bái Tử!
-"Bạn là ai?"
-“Tôi nên được coi là người quen của Quỷ vương.”
-"Trọn vẹn... linh hồn!"
-"Câu trả lời đúng." Hạ Thanh Huyền trong giọng nói mang theo một tia mỉm cười: “Thật ra ta đã chờ ngày này đã lâu rồi.”
-"Bạn muốn giết tôi."
-"Ma Vương là một người rất thông minh, không biết ngươi có tin hay không có kiếp trước và hiện tại. Kiếp trước ta dễ dàng bị Ma Vương ngươi bắt được. Mỗi lần ngươi ra lệnh nhẹ nhàng, luôn khiến ta cảm thấy khó chịu. Điều ta lúc đó mong muốn nhất chính là chết đi, điều thứ hai là giết chết ngươi, người ra lệnh. Nhưng thời gian trôi qua quá lâu, nỗi đau bị lãng quên, nỗi sợ hãi mờ dần, thậm chí cả hận thù dường như cũng như cũ."
-"Bạn đang nói về cái gì vậy?"
-“Anh đang nói về một giấc mơ viển vông.”
-Hà Thanh Huyền không thương tiếc đâm kiếm trong tay vào ngực yêu tu áo trắng, bóp nát trái tim đối phương.
-Liệu đối phương có chết vì điều này không?
-Hà Thanh Huyền không biết Cửu Vĩ hồ ly có chín cái mạng, hắn cũng không biết đối phương đã lợi dụng bao nhiêu lần.
-Có lẽ đây là mạng sống cuối cùng của đối phương, đối phương đã chết hoàn toàn. Có lẽ không phải lúc này, đối phương sẽ sớm sống lại, nhưng dù thế nào đi nữa, hắn hiện tại đã lấy lại mạng sống mà kiếp trước đối phương nợ hắn.
-Hà Thanh Huyền rút kiếm ra, thờ ơ nhìn ma tu áo trắng lần nữa chết đi.
-"Ngươi so với ta càng giống một cái báo thù quỷ tu, gánh vác vô số mối huyết huyết tử vong linh hồn đã trở về thời điểm còn sống, từ điểm này xem ra, ngươi so với ta may mắn hơn."
-Hà Thanh Huyền không để ý tới lời nói của Minh Đế. Anh bước về phía nơi hai người còn lại đang đánh nhau ác liệt.
-Nhìn thấy bộ dạng của hắn, Yêu Hoàng và Ứng Hàn Nhất đều dừng động tác, nhưng một người trong số họ vừa kinh ngạc vừa bối rối, còn người kia thì thầm thở phào nhẹ nhõm.
-Hạ Thanh mỉm cười, vẫy tay với hư không: “Hoàng thượng, đã lâu không gặp.”
+Dưới sự ngăn cản kịp thời của Minh Đế, Hạ Khanh Tuyên tạm thời dừng động tác trong tay lại.
 
-Cơ hồ nhìn về phía Hà Thanh Huyền sắc mặt lạnh lùng giết Minh Đế: "?"
-Không, người đàn ông này còn có thể cười rạng rỡ như vậy sao? !
-Chương 53
-"Ừm, đã lâu không gặp."
-Vẻ mặt của Ying Hanyi hơi thay đổi, và đôi lông mày thoải mái của anh ấy lại nhăn lại trong giây lát.
-Hà Thanh Huyền giả vờ suy nghĩ: “Không phải hoàng đế không muốn nhìn thấy ta như vậy sao? Hay là nói hiện tại không muốn nhìn thấy ta?”
-Ying Hanyi thậm chí không có một khoảnh khắc im lặng ngắn ngủi. Hà Thanh Huyền vừa nói xong, liền đã đưa ra đáp án: "Không, ngươi không sao."
-He Qingxuan nhếch lên khóe môi và mỉm cười.
-Anh ta trông nhanh nhẹn đến mức không có hành động nào mà một con rối sống có thể thực hiện được. Ma Vương ngay lập tức biết mình đã bị lừa.
-"Cơ thể tràn đầy tinh thần, tôi coi thường bạn. Bạn đã thỏa thuận gì với Hoàng đế Hades?"
-Hà Thanh Huyền nhẹ nhàng nói: “Ừm”, “Quỷ Hoàng đương nhiên giao dịch với Minh Vương, ta cùng Minh Vương giao dịch.”
-Yêu Vương giận dữ, lạnh lùng nói: "Ngu ngốc."
-Vẻ mặt Hà Thanh Huyền vẫn như cũ đang cười, hắn nói: "Yêu hoàng không nên nói về hoàng đế Hades như vậy. Chẳng lẽ hoàng đế Hades đã chết trong tay ta, cho nên ta mới phản bội ngươi."
-He Qingxuan đã nói ra câu trả lời đúng, nhưng Ma Hoàng không tin.
-"Tại sao ngươi muốn giết Hoàng đế Hades?"
-Sau khi hỏi một câu hỏi tu từ, He Qingxuan chọn cách cười và không nói gì.
-Yêu Hoàng lúc này rốt cục tỉnh táo lại: "Ngay từ đầu đã là kế hoạch, ngươi bị ta bắt giữ, là vì ta thu thập được Thái Thượng Lương Di Kinh!!"
-Cuối truyện, Yêu Hoàng nghiến răng nghiến lợi ước gì có thể nhanh chóng giết chết Hà Thanh Huyền.
-Hạ Thanh Huyền gật đầu khen ngợi: “Đúng vậy.”
+“Bây giờ Minh Đế đã chịu chia sẻ chút bí mật nhỏ bên trong với ta chưa?”
+
+\*
+
+Khi Yêu Hoàng chạy tới ngoài Yêu Điện, đập vào mắt hắn là một mảnh máu tanh ngập đất, tay chân đứt lìa tàn khuyết nhiều không đếm xuể.
+
+Hắn nhếch một bên khóe miệng cười cười: “Thực sự là lần đầu tiên được thấy bộ dạng hung tàn bạo ngược đến bực này của Diệt Hư Đế Tôn.”
+
+“Giao hắn ra đây.”
+
+“Hắn? Là ai? Bản hoàng thực sự không biết Đế Tôn đang nói tới ai. Ngược lại Đế Tôn trực tiếp đánh thẳng tới cửa, chẳng hay là có dụng ý gì?”
+
+“Hạ Khanh Tuyên. Hắn có ở đây hay không, không ai rõ hơn bản tôn. Ngươi tốt nhất mau chóng giao người ra đây, bằng không đừng trách bản tôn không nể tình xưa.”
+
+“Đều đã bảo là không có, nhưng mà Đế Tôn để tâm như thế, chẳng lẽ Toàn Linh Chi Thể này là người thế nào của Đế Tôn sao?”
+
+Ứng Hàn Y khẽ nheo mắt, không buồn nói thêm lời nào, ma khí vốn đã cuồn cuộn dâng trào lại càng thêm hung hãn kinh người.
+
+Yêu Hoàng cũng chẳng hề sợ hãi, hắn rút từ sau lưng ra một đoạn xương sống. Khúc xương sống kia lập tức hóa thành một thanh kiếm sắc bén kiên cố không thể phá vỡ.
+
+Trận chiến giữa hai vị đại năng Độ Kiếp kỳ là thứ mà mắt thường căn bản không thể nào bắt kịp. Dưới đất ngổn ngang thi thể của yêu quái; những tiểu yêu quái đã sớm mất mạng, kẻ còn có thể kéo dài hơi tàn đều là đại yêu quái, thế nhưng ngay cả những đại yêu quái này cũng không thể nhìn rõ chiêu thức giữa hai người.
+
+Nhanh, quá nhanh! Thứ bọn chúng có thể thấy rõ chỉ là từng đợt từng đợt tàn ảnh cùng với tiếng nổ vang trời dậy đất khi hai bên đối chưởng kịch liệt. Giữa những lần va chạm của hai vị đại năng, thiên địa liên tiếp xuất hiện đủ loại dị tượng: sấm sét đan xen, mưa đá mưa axit rền rĩ, những tia lửa bắn tung tóe rơi xuống đất đều có thể bùng lên một trận đại hỏa kinh hoàng.
+
+Bạch y yêu tu giữa một đám yêu tu có vẻ không quá nổi bật. Gã không bị cụt tay gãy chân, dẫu sao gã cũng đã chết qua một lần rồi. Gã ẩn mình giữa đống thi thể, nhẫn nại chờ đợi quá trình dài đằng đẵng của sinh mệnh tan biến rồi lại một lần nữa tái sinh.
+
+Có người dừng bước trước mặt gã.
+
+Bạch y yêu tu trước đó bị thương quá nặng, tầm nhìn đã mờ mịt tới mức chỉ có thể nhìn thấy vài bóng sáng lờ mờ.
+
+Trong cơn mơ hồ, gã phán đoán đây là một người thân hình gầy gò, ngũ quan thanh tú tuấn tú. Trong số những người gã quen biết có thể khớp ngay với hình bóng này chỉ có thể là con thỏ kia.
+
+“Bạch Đồ? Sao ngươi lại tới đây?”
+
+Không nhận được lời đáp, bạch y yêu tu lại tự lẩm bẩm: “Mau mang ta rời khỏi đây.”
+
+Người nọ ngồi xổm xuống trước mặt gã, dường như đang chăm chú đánh giá gã.
+
+Bạch y yêu tu có chút bực bội, sau đó gã nghe thấy một tiếng cười khẽ.
+
+Thanh âm này căn bản không phải là Bạch Đồ!
+
+“Ngươi là ai?”
+
+“Ta hẳn cũng tính là một người quen của Yêu Vương nhỉ.”
+
+“Toàn... Linh Chi Thể!”
+
+“Đoán đúng rồi.” Giọng Hạ Khanh Tuyên hàm chứa vài phần ý cười, “Thực ra ta đã chờ ngày này từ rất lâu rồi.”
+
+“Ngươi muốn giết ta.”
+
+“Yêu Vương quả là một người thông minh. Không biết ngươi có tin vào chuyện kiếp trước kiếp này hay không? Ở kiếp trước ta rất dễ dàng bị Yêu Vương ngươi bắt được. Mỗi lần ngươi hời hợt hạ đạt mệnh lệnh đều khiến ta phải chịu bao thống khổ chẳng dễ chịu chút nào. Khi ấy điều ta mong muốn nhất chính là cái chết, thứ hai chính là giết chết kẻ ra lệnh là ngươi. Nhưng thời gian trôi qua thực sự quá lâu quá dài rồi, nỗi đau đớn dần bị lãng quên, nỗi sợ hãi cũng phai nhạt, ngay cả mối hận thù dường như cũng thế.”
+
+“Ngươi... đang nói cái gì?”
+
+“Đang nói về một giấc mộng hư vô mà thôi.”
+
+Hạ Khanh Tuyên đem thanh kiếm trong tay không chút lưu tình đâm thẳng vào lồng ngực bạch y yêu tu, nghiền nát trái tim đối phương.
+
+Đối phương liệu có vì thế mà chết hẳn không?
+
+Hạ Khanh Tuyên không biết. Cửu Vĩ hồ ly có chín cái mạng, đối phương rốt cuộc đã tiêu hao bao nhiêu lần thì hắn chẳng thể nào biết được.
+
+Có lẽ đây chính là cái mạng cuối cùng của đối phương, gã sẽ chết hoàn toàn; có lẽ lần này chưa phải, chẳng bao lâu nữa gã sẽ lại phục sinh. Thế nhưng bất kể thế nào, hiện tại hắn đã lấy lại được cái mạng mà kiếp trước đối phương đã nợ hắn.
+
+Hạ Khanh Tuyên rút kiếm ra, lạnh lùng nhìn bạch y yêu tu thêm một lần nữa tắt thở bỏ mạng.
+
+“Ngươi thế này nhìn qua còn giống một quỷ tu báo thù hơn cả bản tọa. Một vong hồn gánh vác vô số huyết thù một lần nữa quay trở lại thời điểm còn sống sờ sờ, xem ra, ngươi may mắn hơn bản tọa nhiều đấy.”
+
+Hạ Khanh Tuyên chẳng buồn để ý tới lời của Minh Đế, hắn cất bước đi về phía hai người đang giao chiến kịch liệt long trời lở đất đằng kia.
+
+Trông thấy sự xuất hiện của hắn, cả Yêu Hoàng và Ứng Hàn Y đều đồng loạt dừng tay, có điều một người thì kinh nghi bất định, còn một người lại âm thầm thở phào nhẹ nhõm.
+
+Hạ Khanh Tuyên mỉm cười vẫy tay về phía hư không: “Đế Tôn, đã lâu không gặp.”
+
+Minh Đế nãy giờ chứng kiến Hạ Khanh Tuyên lạnh mặt điên cuồng giết chóc khắp nơi: “?”
+
+Khoan đã, người này hóa ra còn có thể cười rạng rỡ, xán lạn như ánh mặt trời đến thế này sao?!
+
+“Ừm, đã lâu không gặp.”
+
+Sắc mặt Ứng Hàn Y có chút biến hóa nhỏ nhặt, đôi mày vừa mới giãn ra trong chớp mắt lại lần nữa nhíu chặt vào nhau.
+
+Hạ Khanh Tuyên cố ý làm bộ trầm ngâm suy nghĩ: “Bộ dạng này của Đế Tôn chẳng lẽ là không muốn nhìn thấy ta sao, hay đúng hơn là không muốn nhìn thấy ta của hiện tại?”
+
+Ứng Hàn Y thậm chí không hề có một thoáng ngập ngừng, lời của Hạ Khanh Tuyên vừa dứt, y đã lập tức đưa ra câu trả lời: “Không có, ngươi bình an vô sự là tốt rồi.”
+
+Khóe môi Hạ Khanh Tuyên cong lên, nở một nụ cười vui vẻ.
+
+Dáng vẻ này của hắn thực sự quá đỗi sinh động linh hoạt, đâu phải là cử chỉ mà một con rối sống có thể làm được. Yêu Hoàng lập tức nhận ra mình đã bị người ta lừa gạt.
+
+“Toàn Linh Chi Thể, quả là bản hoàng đã xem thường ngươi rồi. Ngươi và Minh Đế đã làm giao dịch gì?”
+
+Hạ Khanh Tuyên khẽ “ừm” một tiếng: “Tự nhiên là Yêu Hoàng cùng Minh Đế đã làm giao dịch gì, thì ta liền cùng Minh Đế đại nhân làm giao dịch nấy.”
+
+Yêu Hoàng giận tím mặt, lạnh giọng: “Ngu xuẩn!”
+
+Nụ cười trên gương mặt Hạ Khanh Tuyên vẫn ngập tràn ý vị, hắn thản nhiên nói: “Yêu Hoàng cũng đừng nên nói Minh Đế như vậy chứ. Liệu có khả năng là Minh Đế đã sớm bỏ mạng dưới tay ta rồi không, cho nên mới phụ lòng phản bội ngươi.”
+
+Hạ Khanh Tuyên nói ra đáp án chân thật nhất, nhưng Yêu Hoàng lại chẳng hề tin nổi.
+
+“Chỉ bằng ngươi mà cũng đòi giết Minh Đế?”
+
+Một câu hỏi ngược lại đầy vẻ giễu cợt, Hạ Khanh Tuyên chỉ cười mà không đáp.
+
+Yêu Hoàng lúc này cũng rốt cuộc phản ứng kịp: “Từ đầu tới cuối đều là một màn quỷ kế! Ngươi là cố ý để bản hoàng bắt tới đây, mục đích chính là Thái Thượng Lưỡng Nghi Quyển mà bản hoàng đã thu thập!!”
+
+Nói tới câu cuối cùng, Yêu Hoàng đã nghiến răng nghiến lợi, hận không thể lập tức băm vằn Hạ Khanh Tuyên thành muôn mảnh.
+
+Hạ Khanh Tuyên nghe vậy liền tán thưởng gật đầu: “Quả đúng là như thế.”

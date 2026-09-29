@@ -1,48 +1,85 @@
 ---
-title: Đại Ma Đầu Nhật Nhật Tưởng Sát Ngã — ch_109
+title: Chương 109
 ---
 
-"Anh Hàn Di, anh thật sự thích em sao?"
-Đối phương không nghe được, tự nhiên không có phản ứng.
-Hà Thanh Huyền lại tự nhủ: “Vậy thích là gì?”
-Nhiều người sẽ ghi lại sở thích của mình, thậm chí có thể gọi đó là tình yêu. Ví dụ như tình yêu trong truyện luôn khó quên, chẳng hạn như mối tình xuyên chủng tộc giữa nam và nữ, niềm vui của một cô gái nhà giàu và một hiệp sĩ đấu kiếm đến tận cùng thế giới, hay Lãnh chúa Qing Leng phát điên vì nữ đệ tử duy nhất của mình. Tình yêu dường như luôn phi lý, dường như luôn liên quan đến nhịp tim và đôi má ửng đỏ, chính là sừng của nhịp tim.
-Nhưng nhịp tim nhanh cũng có thể là dấu hiệu của sự lo lắng và sợ hãi, hoặc má ửng đỏ có thể là dấu hiệu của sự nhút nhát và bối rối đơn giản.
-Ngay cả những điều phi lý đó dường như cũng không thấy ở Ying Hanyi. Mọi thứ đều không phù hợp với Ying Hanyi. Ngay cả người anh yêu cũng có vẻ khó tin.
-Ying Hanyi lúc này chỉ lặng lẽ ở bên người anh, ánh mắt cô không dừng lại trên cơ thể anh, nhưng lần này He Qingxuan tự mình đưa ra câu trả lời, Ying Hanyi thích anh.
-Thật lâu sau, bầu trời trở nên trắng xóa. Ying Hanyi rũ mắt xuống, đang định đóng quan tài lại, nhưng anh lại cảm thấy một cơn gió nhẹ thổi qua, như thể có ai đó nhẹ nhàng chạm vào má anh.
-Ứng Hàn Di hơi khựng lại, ngập ngừng gọi: “Hà Thanh Huyền?”
-"Hả?" Giọng nói của He Qingxuan dài và đầy ngạc nhiên.
-Trong lúc nhất thời, hắn còn tưởng rằng Ứng Hàn Di đã nhìn thấy mình.
-Ying Hanyi im lặng đợi một lúc rồi đóng quan tài lại.
-Đạo sĩ Yin Gui quan tâm đến nghệ thuật Qimen Dunjia và đã học hỏi đủ thứ kỳ lạ. Trong những năm đầu đời, ông cũng nghiên cứu nghệ thuật hồi sinh người chết. Nhưng tôi có thể nói gì về việc hồi sinh người chết? Thường thì người được sống lại không còn là người mà mình quen thuộc nữa. Cùng lắm thì người sống lại đã mất trí nhớ. Tệ nhất, tâm trạng của người đó có thể đã thay đổi đáng kể và anh ta không còn là con người như trước nữa.
-Biết Ying Hanyi không phải là người có thể coi thường, đạo sĩ Yin Gui vẫn muốn thuyết phục anh ta.
-"Tại sao phải bận tâm? Khi đó, Hoàng đế Hades đã thất bại trong việc hồi sinh người dân của mình bất chấp mọi nỗ lực. Làm sao hoàng đế có thể chắc chắn rằng mình có thể làm được? Làm sao ông ấy có thể chắc chắn rằng người sống lại là người mà bạn muốn tìm?"
-Doanh Hàn Y nhàn nhạt liếc nhìn Ân Quý đạo nhân: “Không thử thì làm sao biết được kết quả cuối cùng, nhưng tại sao lại không tìm được linh hồn của hắn?”
-"Chà, có lẽ, ý tôi là có lẽ, có lẽ linh hồn của anh ấy đã biến mất cùng với anh ấy khi anh ấy chết."
-"Không đời nào."
-Ying Hanyi nói điều này rất chắc chắn, như thể chính anh ấy đã xác nhận điều đó.
-Hà Thanh Huyền lơ lửng bên cạnh hắn, có chút đau lòng.
+“Ứng Hàn Y, ngươi thực sự thích ta sao?”
 
-Thắp hương tụ hồn được thắp miễn phí. He Qingxuan ban đầu không nhận thấy sự đặc biệt của loại hương này. Khi có thể cảm nhận được năng lượng không ngừng dâng trào trong cơ thể, He Qingxuan đã muộn màng nhớ lại công dụng tuyệt vời của thứ này và nhanh chóng hấp thụ nó.
-Tụ hồn hương này kỳ thực còn có một tác dụng khác, chính là có thể làm cho quỷ ngủ, nhưng Ứng Hàn Y lại không hề ngủ, làm sao có thể ngủ được? !
-Hà Thanh chỉ có thể nhìn chằm chằm, chửi rủa chửi bới, không ngừng dùng linh hồn trạng thái đi tới đi lui trong cơ thể Ứng Hàn Di.
-Hà Thanh Huyền thắp hết cây nhang này đến cây nhang khác. Hà Thanh Huyền say đến mức Doanh Hàn Di không có ý định ngủ.
-Anh đợi và đợi cho đến lúc Ying Hanyi ngồi thiền. He Qingxuan lao vào cơ thể Ying Hanyi và dùng sức mạnh áp đảo anh ta để ép Ying Hanyi chìm vào giấc ngủ nhẹ.
-He Qingxuan, người đã ngủ thành công, phấn khích đến mức chạy vòng tròn. Khi anh lướt qua, anh nhìn thấy Ying Hanyi mặc đồ trắng và cầm một thanh kiếm trong tay.
-Thanh kiếm trong tay Ying Hanyi là Shishi Shuang. Anh ta niệm chú trong miệng và chém về phía trước với thanh trường kiếm trong tay, ngay lập tức xẻ ra một cái lỗ lớn trên dãy núi trước mặt.
-Sau khi chém một kiếm, Ying Hanyi đặt thanh kiếm sau lưng và nhìn He Qingxuan đột nhiên xuất hiện với ánh mắt lạnh lùng: "Anh là ai?"
-Hà Thanh Huyền sửng sốt. Sát ý trong lời nói của đối phương gần như khiến anh cho rằng mình đã thay đổi hình tượng. Tuy nhiên, sau khi xem xét tình trạng hiện tại của Ying Hanyi, anh ta có chút không chắc chắn hỏi: "Anh có phải Ying Hanyi đến từ Cung điện Hiên Nghĩa không?"
-Ying Hanyi khẽ nhướng mày, "Còn gì nữa? Vậy ngươi là ai? Quỷ lang ở đây."
-Hà Thanh Huyền không mấy vui vẻ, "Ngươi đang nói quỷ lang thang là ai? Ngươi làm như vậy sẽ không có người nguyện ý tới ngươi mộng cảnh. Ta giới thiệu ngắn gọn về bản thân mình, Hiên Di Cung Hà Thanh Hiên, hơn nữa hiện tại ngươi đang nằm mơ. Ta chỉ muốn nói cho ngươi biết, đừng nghĩ tới chuyện sống lại." Đó là về sự hồi sinh. Bạn thực sự không muốn đi ngược lại ý trời! Bạn có thể giúp tôi dung hợp Huyền Thiên Cửu Châu với cõi bên ngoài, và cứu lấy Huyền Thiên Cửu Châu đang bị đe dọa của chúng ta. Đến lúc đó thăng thiên, ta sẽ tự mình chuyển ma tu luyện.”
-Hạ Thanh Huyền trò chuyện hồi lâu, Doanh Hàn Di không có trả lời, hắn nghi hoặc hỏi: “Ngươi có nghe thấy không?”
-Ying Hanyi mỉm cười và nói: "Tại sao tôi phải nghe lời bạn?"
-Hà Thanh Huyền gần như há hốc mồm: "Cái này... Tỉnh lại ngươi sẽ biết."
-Hà Thanh Huyền vốn dĩ không muốn nói ra, nhưng sau khi giãy dụa một hồi, hắn vẫn lúng túng nói: “Này, đừng chạm vào người tôi, làm chuyện xấu. Tôi chỉ đang quan sát từ bên cạnh thôi.”
-"Thật sự có thể biến thành ma sao?" Ying Hanyi hỏi mà không trả lời.
-Tự nhận thức trong giấc mơ là một trạng thái rất kỳ lạ. Hà Thanh Huyền không biết bây giờ Ứng Hàn Nhất đã nhớ ra hay chỉ là bản tính nghi ngờ. Hắn nói rất chắc chắn: “Đương nhiên, cứ thoải mái đi lên.”
-Ứng Hàn Di cười nhẹ: “Nhưng đời này ta vĩnh viễn không thể thăng thiên. Có vẻ như cơ thể của bạn đã được định sẵn để tôi thao túng, cô tiên nhỏ——"
-Chương 64
-He Qingxuan hít một hơi vì sự vô liêm sỉ của đối phương.
+Một người khác căn bản không nghe thấy, tự nhiên liền chẳng có lời đáp lại.
 
-Trên thực tế, Ying Hanyi không làm điều gì quá đáng cả. Nhiều nhất là anh ta chạm vào mặt và móc ngón tay. Anh không biết mình đang nghĩ gì. Anh ta thậm chí còn không hôn He Qingxuan, người đang nằm trong quan tài. Anh ấy nói rằng anh ấy cảm động và cảm động dựa trên tiền đề là Ying Hanyi thích anh ấy. Nhưng chỉ với một hành động đơn giản như vậy, Ying Hanyi đã mạnh mẽ khiến anh có cảm tình.
-Tuy cảm thấy có chút khó chịu nhưng Hà Thanh Huyền vẫn nắm bắt được điểm mấu chốt trong lời nói của Ứng Hàn Di: “Tại sao ngươi không thể thăng thiên?”
+Hạ Khanh Tuyên lại tự mình nói tiếp: “Vậy thích rốt cuộc là thứ gì chứ?”
+
+Rất nhiều người đều thích ghi chép lại cảm giác thích một ai đó, bọn họ thậm chí còn xưng đó là ái tình. Tựa như trong những câu chuyện thoại bản, thích xưa nay luôn khắc cốt ghi tâm; như mối tình vượt qua ranh giới chủng tộc giữa người và yêu; như tiểu thư nhà giàu cùng hiệp khách giang hồ kề vai trượng kiếm tiêu dao thiên nhai; hay như vị tôn thượng thanh lãnh cao quý vì nữ đệ tử duy nhất của mình mà phát điên nhập ma... Thích dường như luôn mang theo vẻ không có lý trí, lại dường như luôn gắn liền với tiếng tim đập thình thịch bồi hồi cùng đôi gò má đỏ bừng ửng sắc — đó chính là tiếng kèn hiệu của sự rung động con tim.
+
+Thế nhưng nhịp tim đập nhanh cũng có thể là do căng thẳng sợ hãi, gò má đỏ ửng cũng có thể đơn thuần là ngượng ngùng quẫn bách.
+
+Ngay cả những hành vi mất đi lý trí kia dường như cũng chẳng thể nào tìm thấy trên người Ứng Hàn Y. Mọi thứ dường như đều không hề tương xứng với con người Ứng Hàn Y, ngay cả việc y đem lòng yêu thích một ai đó cũng hiển hiện vẻ không thể tưởng tượng nổi.
+
+Ứng Hàn Y lúc này chỉ lặng lẽ bầu bạn bên cạnh thi thể hắn, ánh mắt thậm chí còn chẳng hề dừng lại trên thi thể hắn; thế nhưng lần này, Hạ Khanh Tuyên lại tự mình cho ra đáp án: Ứng Hàn Y thực sự thích hắn.
+
+Lại trôi qua hồi lâu, nơi chân trời đằng xa lờ mờ hé lộ sắc trắng bụng cá. Ứng Hàn Y rũ mắt toan đậy nắp quan tài lại, bỗng cảm thấy một làn gió nhẹ khẽ lướt qua, tựa như có ai đó vừa dùng bàn tay nhẹ nhàng chạm lên gò má y.
+
+Động tác của Ứng Hàn Y thoáng khựng lại, ngập ngừng khẽ gọi một tiếng: “Hạ Khanh Tuyên?”
+
+“Hửm?” Hạ Khanh Tuyên ngân dài thanh âm, mang theo vài phần mừng rỡ ngạc nhiên.
+
+Trong khoảnh khắc ngắn ngủi ấy, hắn suýt chút nữa tưởng rằng Ứng Hàn Y đã nhìn thấy mình.
+
+Ứng Hàn Y im lặng chờ đợi giây lát, cuối cùng vẫn đem cỗ quan tài gỗ khép lại.
+
+Âm Quỷ Đạo Nhân vốn có hứng thú với thuật Kỳ Môn Độn Giáp, thứ kỳ quái tà môn gì cũng đều có nghiên cứu qua; thuở thiếu thời cũng từng dốc lòng nghiên cứu thuật khởi tử hồi sinh. Thế nhưng chuyện khởi tử hồi sinh này biết nói sao đây, thông thường kẻ được phục sinh trở lại đều chẳng còn là người quen thuộc năm xưa nữa. May mắn thì người sống lại chỉ bị mất đi ký ức; xui xẻo thì tính tình đại biến, căn bản chẳng thể tính là con người của trước kia nữa rồi.
+
+Biết rằng Ứng Hàn Y chẳng phải kẻ dễ trêu vào, Âm Quỷ Đạo Nhân vẫn có ý khuyên nhủ đôi câu.
+
+“Ngài hà tất phải khổ sở như thế chứ? Năm xưa Minh Đế hao tổn bao tâm tư như thế vẫn chẳng thể nào phục sinh nổi tộc nhân của nàng, Đế Tôn cớ sao dám khẳng định bản thân có thể làm được? Lại làm sao dám chắc chắn kẻ sau khi sống lại chính là người ngài muốn tìm?”
+
+Ứng Hàn Y đạm mạc liếc nhìn Âm Quỷ Đạo Nhân một cái: “Chưa thử qua làm sao biết được kết quả cuối cùng. Nhưng tại sao lại không tìm thấy hồn phách của hắn?”
+
+“Chuyện này... có lẽ, ta nói là có lẽ nhé, có lẽ hồn phách của hắn ngay từ thời điểm thân vẫn đạo tiêu đã cùng lúc tan biến mất rồi.”
+
+“Không thể nào.”
+
+Ứng Hàn Y lời này thốt ra vô cùng chắc nịch, tựa như chính tay y đã đích thân nghiệm chứng qua vậy.
+
+Hạ Khanh Tuyên lơ lửng bên cạnh y, cũng cảm thấy có chút khổ não muộn phiền.
+
+Tụ Hồn Hương được đốt lên liên tục chẳng tiếc tiền của. Hạ Khanh Tuyên lúc đầu còn chưa để ý tới sự đặc biệt của loại hương này, đợi đến khi cảm nhận được trong cơ thể không ngừng có nguồn năng lượng cuộn trào trút vào, Hạ Khanh Tuyên mới muộn màng nhớ ra công dụng tuyệt diệu của thứ này, liền vội vã nhanh chóng hấp thu.
+
+Tụ Hồn Hương này kỳ thực còn có một tác dụng phụ, chính là có thể giúp quỷ hồn nhập mộng; thế nhưng Ứng Hàn Y căn bản chẳng hề đi ngủ, hắn làm sao mà nhập mộng được chứ?!
+
+Hạ Khanh Tuyên chỉ biết trơ mắt đứng nhìn mà nghiến răng nghiến lợi, dùng trạng thái hồn thể không ngừng bay xuyên qua xuyên lại trên thân thể Ứng Hàn Y.
+
+Tụ Hồn Hương đốt hết nén này tới nén khác, Hạ Khanh Tuyên hút hương đến mức no căng cả người, vậy mà Ứng Hàn Y vẫn chẳng hề có ý định chợp mắt.
+
+Hắn đợi trái đợi phải, cuối cùng cũng đợi được tới lúc Ứng Hàn Y ngồi xếp bằng đả tọa nhập định. Hạ Khanh Tuyên liền vội vàng lao thẳng vào trong cơ thể Ứng Hàn Y, mượn nguồn sức mạnh bàng bạc vừa hút no nê kia, cưỡng ép kéo Ứng Hàn Y rơi vào một giấc ngủ nông ngắn ngủi.
+
+Thành công nhập mộng, Hạ Khanh Tuyên hưng phấn tới mức lượn một vòng tại chỗ. Kết quả vừa bay tới nơi, thế mà lại trông thấy một Ứng Hàn Y thân khoác bạch y thanh thuần, một tay cầm trường kiếm đứng sừng sững!
+
+Thanh kiếm trong tay Ứng Hàn Y chính là Thập Tứ Sương. Y trong miệng niệm động chú ngữ, trường kiếm trong tay vung mạnh về phía trước, tức khắc chém toang một khe nứt khổng lồ xuyên qua rặng núi non trùng điệp đằng trước.
+
+Một kiếm trảm xong, Ứng Hàn Y đem trường kiếm giấu ra sau lưng, ánh mắt âm lãnh nhìn chằm chằm về phía Hạ Khanh Tuyên vừa đột ngột xuất hiện: “Ngươi là kẻ nào?”
+
+Hạ Khanh Tuyên ngẩn người. Sát ý nồng đậm trong lời đối phương suýt chút nữa khiến hắn ngỡ bản thân đã đổi sang một hình dung khác; thế nhưng nhìn kỹ lại trạng thái lúc này của Ứng Hàn Y, hắn có chút không dám chắc hỏi: “Ngươi là Ứng Hàn Y của Tuyên Nghi Cung sao?”
+
+Chân mày Ứng Hàn Y khẽ nhướng lên: “Bằng không thì sao? Vậy ngươi là thứ gì? Du hồn dã quỷ nơi này à?”
+
+Hạ Khanh Tuyên không vui: “Nói ai là du hồn dã quỷ đấy hả? Ngươi ăn nói thế này sau này chẳng ai thèm bước vào giấc mộng của ngươi nữa đâu. Đơn giản tự giới thiệu một chút: Tuyên Nghi Cung Hạ Khanh Tuyên. Lại nữa này, ngươi hiện tại đang nằm mơ đấy. Ta chỉ muốn nói cho ngươi hay, đừng bận tâm nghĩ ngợi tới chuyện phục sinh hay không phục sinh nữa. Nghịch thiên mà đi thì ngươi thực sự không muốn phi thăng nữa sao hả?! Ngươi giúp ta đem Huyền Thiên Cửu Châu giới và Vực Ngoại lĩnh vực dung hợp làm một, cứu vãn lấy Huyền Thiên Cửu Châu giới đang ngàn cân treo sợi tóc của chúng ta, sau đó ngươi nên phi thăng thì cứ việc phi thăng, ta sẽ tự mình chuyển sang làm quỷ tu.”
+
+Hạ Khanh Tuyên lải nhải dặn dò một hồi lâu, thấy Ứng Hàn Y chẳng hề phản ứng gì, còn không dám chắc hỏi lại: “Ngươi có nghe thấy không đấy?”
+
+Ứng Hàn Y khẽ cười một tiếng: “Ta vì sao phải nghe theo ngươi?”
+
+Hạ Khanh Tuyên suýt hít sâu một hơi khí lạnh: “Cái này... đợi ngươi tỉnh lại liền sẽ biết rõ.”
+
+Hạ Khanh Tuyên vốn dĩ không muốn nói ra, thế nhưng đắn đo một hồi vẫn ngượng ngùng lúng túng nói: “Này... Đừng có đối với thân thể ta động tay động chân, làm những chuyện không đứng đắn đấy nhé! Ta ở ngay bên cạnh nhìn thấy hết đấy!”
+
+“Ngươi thực sự có thể chuyển sang làm quỷ tu sao?” Ứng Hàn Y không đáp mà hỏi ngược lại.
+
+Sự tự nhận thức trong cõi mộng là một trạng thái vô cùng kỳ dị. Hạ Khanh Tuyên cũng chẳng chắc liệu Ứng Hàn Y lúc này là đã nhớ ra điều gì hay bản tính vốn dĩ đa nghi, hắn chắc nịch khẳng định: “Đương nhiên rồi, ngươi cứ an tâm phi thăng là được.”
+
+Ứng Hàn Y cười trầm thấp một tiếng: “Thế nhưng ta cả đời này căn bản không thể phi thăng nữa rồi. Xem ra thân thể của ngươi định sẵn chỉ có thể để ta động tay động chân rồi, tiểu tiên quân——”
+
+Hạ Khanh Tuyên hít sâu một hơi vì thói mặt dày vô sỉ của đối phương.
+
+Kỳ thực Ứng Hàn Y căn bản chưa từng làm ra chuyện gì quá đỗi vượt khuôn phép. Y cùng lắm chỉ là chạm khẽ lên gò má hắn, móc lấy ngón tay hắn chẳng biết đang trầm ngâm suy nghĩ điều gì. Đối với một Hạ Khanh Tuyên đang nằm im lìm trong quan tài, y ngay cả một nụ hôn cũng chưa từng đặt xuống. Bảo rằng y động tay động chân chẳng qua cũng chỉ dựa trên tiền đề rằng Ứng Hàn Y thích hắn mà thôi; thế nhưng chính những cử chỉ đơn thuần ấy, Ứng Hàn Y lại cố tình tạo nên phong vị triền miên quyến luyến vô cùng.
+
+Dẫu rằng có chút mất tự nhiên ngượng ngùng, thế nhưng Hạ Khanh Tuyên vẫn chộp trúng trọng điểm trong câu nói của Ứng Hàn Y: “Vì sao lại không thể phi thăng?”

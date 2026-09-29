@@ -2,50 +2,92 @@
 title: Đại Ma Đầu Nhật Nhật Tưởng Sát Ngã — ch_121
 ---
 
-Anh thì thầm với người đó: “Đồ ngốc, bây giờ chẳng những anh mất trí mà còn không thể quen được người mình thích, có hối hận không?”
-Anh cười nhạo sự ngu ngốc của ai đó, nhưng anh thực sự không thể bỏ qua nó.
-Lúc này, trên thế giới lại có thêm một người sống muốn hồi sinh người chết.
+Y nhìn người trước mắt, trầm giọng nói: “Đồ ngu xuẩn, bây giờ ngươi chẳng những hồn phi phách tán, mà đến cả cơ hội tương tri tương thức với người ngươi thích cũng hoàn toàn không thể nữa rồi, có hối hận không?”
+
+Y cười nhạo sự ngu ngốc của một người, nhưng bản thân rốt cuộc cũng chẳng thể nào khoanh tay đứng ngoài cuộc.
+
+Kể từ đó, cõi thế gian này lại có thêm một kẻ sống sót ngày đêm ôm chấp niệm muốn hồi sinh người đã khuất.
+
 +
-Khi cảm thấy linh hồn mình rời khỏi cơ thể, He Qingxuan biết rằng mọi chuyện đã kết thúc. Một khi hắn đi tìm Yêu Hoàng, hắn sẽ không bao giờ trở lại. Ứng Hàn Di không được chết vội! Hơn nữa, anh sắp mất trí rồi. Liệu cuộc gặp gỡ tiếp theo giữa Ying Hanyi và anh ấy có diễn ra bình thường không?
-He Qingxuan kêu gọi mọi chuyện kết thúc và sử dụng phương pháp thời gian khi linh hồn rời khỏi cơ thể. Vốn dĩ hắn không có hy vọng gì, nhưng linh hồn lại cảm nhận được cảm giác bị kéo lại lần nữa.
-Khi tỉnh dậy lần nữa, anh đã ở trong một môi trường tối tăm. He Qingxuan chớp mắt bối rối. Tầm nhìn ban đêm của anh ấy khá tốt và anh ấy nhanh chóng phán đoán rằng mình đang ở trong một không gian cực kỳ nhỏ.
-Anh đưa tay ra và chạm vào phía trên. Gần đến mức He Qingxuan sững sờ trong giây lát.
-Sau đó anh muộn màng nhận ra rằng không gian nhỏ bé này có thể nhỏ hơn anh nghĩ. Nếu có thì nó trông giống như một chiếc quan tài.
-Chiếc quan tài mà He Qingxuan nằm trong tất nhiên là chiếc quan tài bằng gỗ màu đen mà Ying Hanyi đã chuẩn bị cho thi thể ban đầu của mình. Nếu hắn thật sự ở trong quan tài này, vậy có nghĩa là hắn đã trở lại, hắn đã thành công!
-Hà Thanh Huyền lập tức vui vẻ lên. Theo thói quen luôn mang theo quan tài bên mình của Hanyi, anh sẽ sớm được gặp lại anh.
-Anh ta gõ lên đầu quan tài rất dè dặt, như thể gõ cửa một cách lịch sự.
-Theo dự đoán của anh, Ying Hanyi nên nhanh chóng mở quan tài và đưa anh ra ngoài, nhưng anh đã lịch sự “gõ cửa” mấy lần nhưng không có ai đến đón.
-He Qingxuan gõ vào tấm quan tài ít lịch sự hơn, nhưng vẫn không có phản hồi.
-Cơ thể này đã mất đi sức sống quá lâu, linh hồn và thể xác dung hợp rất nhanh đã khiến Hà Thanh Huyền kiệt sức, một lúc sau mới ngủ thiếp đi.
-Không bao lâu sau khi He Qingxuan chìm vào giấc ngủ sâu, một người đàn ông mặc đồ đen, nồng nặc mùi băng tuyết quay lại đây và mở chiếc quan tài được đậy kín.
-Ánh trăng mờ nhạt phản chiếu bóng dáng của một người đàn ông nhợt nhạt. Ngón tay anh vuốt nhẹ má Hà Thanh Huyền, như thể anh đã phát hiện ra điều gì đó, động tác vuốt ve nhẹ nhàng dừng lại.
-Anh ta lấy ra một lọ thuốc tiên màu trắng như tuyết và cho vào miệng. Sau đó anh cúi xuống hôn người trong quan tài. Đây không phải là một nụ hôn nhẹ nhàng chút nào. Nó không dừng lại ở sự đụng chạm mà là sự xâm nhập và chiếm hữu đầy mãnh liệt.
-Hà Thanh Huyền đang ngủ say, chỉ chờ cơ thể từ từ dung hợp với linh hồn. Không ngờ, anh chợt có cảm giác nghẹt thở.
-Hà Thanh Huyền chật vật tỉnh lại. Không khí liên tục bị cướp đi. Cảm giác nguy cơ khiến tim anh thắt lại, nhưng mùi quen thuộc lại khiến anh khó có thể thực sự lo lắng về nó.
 
-Không ai biết quá trình này kéo dài bao lâu. Sau khi vật cứng hoàn toàn tan chảy trong miệng, hóa thành mùi thuốc ngọt ngào, cảm giác ngột ngạt dần dần biến mất.
-Có người hài lòng liếm khóe môi hắn, cười nhẹ.
-Anh ta có vẻ thích thú với trò chơi này đến mức thực sự lại ngậm một viên thuốc vào miệng, nhưng lần này anh ta dịu dàng hơn nhiều so với sự thô lỗ vừa rồi. Anh quấy rầy He Qingxuan, nhưng anh cũng sẽ nhẹ nhàng an ủi mọi người khi họ khó chịu.
-He Qingxuan khó chịu đến mức buộc phải tỉnh dậy từ sự hợp nhất giữa thể xác và tâm hồn.
-Hà Thanh Huyền vốn tưởng rằng hắn nhìn thấy sẽ là Ứng Hàn Di tóc đen mắt đen, Ứng Hàn Di ánh mắt ủ rũ, trách cứ hắn làm loạn, nhưng hắn không ngờ rằng người trước mặt chính là Ứng Hàn Di với mái tóc bạc vô hồn, người này sẽ thì thầm với hắn: "Tiên Vương, hoan nghênh trở về."
+Khoảnh khắc cảm nhận được linh hồn thoát ly khỏi thân xác, Hạ Khanh Tuyên liền biết phen này xong đời rồi. Hắn vừa đi tìm Yêu Hoàng một chuyến là một đi không trở lại, Ứng Hàn Y chẳng phải sẽ sốt ruột đến chết sao! Huống hồ hắn sắp sửa hồn phi phách tán đến nơi, liệu cuộc tương phùng giữa Ứng Hàn Y và hắn sau này còn có thể diễn ra bình thường được nữa hay chăng?
+
+Hạ Khanh Tuyên thầm than hỏng bét, ngay lúc linh hồn rời khỏi thể xác liền vội vã thi triển thời gian chi pháp. Vốn dĩ hắn chẳng hề ôm chút hy vọng nào, ngờ đâu linh hồn lại một lần nữa cảm nhận được lực kéo mãnh liệt.
+
+Khi tỉnh lại lần nữa, hắn phát hiện mình đang ở trong một không gian tối đen như mực. Hạ Khanh Tuyên có chút mờ mịt chớp chớp mắt, khả năng nhìn trong đêm của hắn khá tốt nên nhanh chóng phán đoán ra bản thân hẳn đang ở trong một không gian cực kỳ chật hẹp.
+
+Hắn vươn tay chạm nhẹ lên phía trên, khoảng cách thực sự quá gần, gần đến mức khiến Hạ Khanh Tuyên phải ngẩn người trong chốc lát.
+
+Sau đó hắn mới muộn màng nhận ra không gian chật hẹp này có lẽ còn nhỏ hơn cả tưởng tượng của mình, nếu nhất thiết phải hình dung thì quả thực giống hệt như một chiếc quan tài.
+
+Quan tài, Hạ Khanh Tuyên có thể nằm ở chiếc quan tài nào được chứ? Đương nhiên là cỗ quan tài gỗ đen mà Ứng Hàn Y đã chuẩn bị cho thân xác ban đầu của hắn rồi. Nếu hắn thực sự nằm trong cỗ quan tài này, tức là hắn đã trở về, hắn đã thành công rồi!
+
+Hạ Khanh Tuyên lập tức phấn chấn hẳn lên. Chiếu theo thói quen lúc nào cũng mang theo quan tài bên mình của Ứng Hàn Y, hắn sẽ rất nhanh được gặp lại đối phương thôi.
+
+Hắn rất rụt rè gõ gõ lên nắp quan tài phía trên, hệt như đang lịch sự gõ cửa.
+
+Theo suy đoán của hắn, Ứng Hàn Y hẳn sẽ nhanh chóng xốc nắp quan tài lên thả hắn ra ngoài, thế nhưng hắn đã lịch sự “gõ cửa” mấy phen rồi mà cư nhiên chẳng có ai tới tiếp đón.
+
+Hạ Khanh Tuyên bớt phần lịch sự, dùng sức đập mạnh lên tấm ván quan tài mấy cái, kết quả vẫn không nhận được bất kỳ phản hồi nào.
+
+Thân thể này đã mất đi sinh cơ quá lâu, linh hồn cùng thể xác dung hợp trở lại khiến Hạ Khanh Tuyên nhanh chóng rơi vào mệt mỏi rã rời, chẳng bao lâu liền thiếp đi.
+
+Ngay sau khi Hạ Khanh Tuyên vừa chìm vào giấc ngủ không lâu, người nam nhân vận hắc y toàn thân vương vấn hơi thở băng tuyết lạnh giá liền trở về nơi này, mở nắp cỗ quan tài được đậy kín mít ra.
+
+Ánh trăng mờ nhạt hắt lên bóng dáng người nam nhân tái nhợt. Ngón tay y cực kỳ khẽ khàng lướt qua gò má Hạ Khanh Tuyên, tựa hồ phát hiện ra điều gì đó, động tác vuốt ve dịu dàng bỗng khựng lại một thoáng.
+
+Y lấy ra một viên đan dược toàn thân trắng muốt, đưa viên đan dược đó vào miệng mình, đoạn lại cúi người áp môi hôn lên người nằm trong quan tài. Đây là một nụ hôn chẳng hề ôn nhu chút nào, không chỉ dừng lại ở sự chạm môi hời hợt, mà là sự xâm lấn chiếm hữu đầy mãnh liệt hung hãn.
+
+Hạ Khanh Tuyên vốn đang ngủ say rất yên ổn, chỉ đợi thân thể từ từ hòa hợp cùng linh hồn, chẳng ngờ lại có một cảm giác ngột ngạt nghẹt thở ập đến bất ngờ.
+
+Hạ Khanh Tuyên giãy giụa muốn tỉnh dậy. Không khí không ngừng bị cướp đoạt, cảm giác nguy cơ khiến lòng hắn thắt lại, song luồng khí tức quen thuộc kia lại khiến hắn khó lòng thực sự sợ hãi hay lo lắng.
+
+Quá trình này kéo dài bao lâu, chẳng một ai hay biết. Mãi cho đến khi thứ gì đó cứng cứng hoàn toàn tan chảy trong miệng hắn, hóa thành hương thuốc mang theo chút ngọt ngào man mác, cảm giác ngột ngạt mới dần tiêu tan.
+
+Ai đó thỏa mãn liếm khóe môi, khẽ bật cười trầm thấp một tiếng.
+
+Y dường như cực kỳ yêu thích trò chơi này, thế mà lại tiếp tục ngậm thêm một viên đan dược. Song lần này so với sự thô bạo vừa rồi thì dịu dàng hơn rất nhiều. Y triền miên quấn quýt lấy Hạ Khanh Tuyên, nhưng cũng biết khẽ khàng vỗ về mỗi khi người kia cảm thấy khó chịu.
+
+Hạ Khanh Tuyên không chịu nổi phiền nhiễu, cưỡng ép từ trạng thái dung hợp giữa thể xác và linh hồn mà tỉnh dậy.
+
+Hạ Khanh Tuyên ngỡ rằng người mình nhìn thấy sẽ là một Ứng Hàn Y tóc đen mắt đen, sẽ là một Ứng Hàn Y trong mắt đong đầy vẻ giận dữ, trách cứ hắn làm xằng làm bậy. Duy chỉ không ngờ rằng người trước mặt lại sở hữu một mái tóc bạc trắng cạn kiệt sinh cơ, đang trầm giọng nói với hắn: “Tiên quân, hoan nghênh trở về.”
+
 Chương 74
-Anh ấy nên vui mừng vì cuối cùng anh ấy đã trở lại. Phải mất hàng trăm năm. Đối với một người chưa bao giờ sống đến gấp đôi mười thì khoảng thời gian đó thực sự là quá dài.
-Mất nhiều thời gian đến nỗi ngay cả bản thân anh cũng cảm thấy hơi tê dại, anh có chút nghi ngờ liệu việc quay về quá khứ có phải là ảo tưởng của mình hay không. Nếu không phải thân thể hắn quá tàn tạ, thỉnh thoảng lại ho khan, xương cốt tựa như sắp nát ra, hắn thật sự không thể phân biệt được thời gian trôi qua.
-Vì thế khi chắc chắn mình đã ở trong quan tài và cảm thấy linh hồn trở về thân xác quen thuộc, anh vô cùng thoải mái. Suy cho cùng, đối với anh, đây chỉ là quá trình linh hồn rời khỏi cơ thể và trở về cơ thể quen thuộc.
-Vì thế anh không biết thời gian đã trôi qua bao lâu và tại sao anh lại nhìn thấy Ying Hanyi như thế này.
-Anh ta ngơ ngác nhìn đối phương mà không đưa ra bất kỳ phản ứng nào. Ying Hanyi bật cười trước phản ứng của anh ta, một tiếng cười trầm, buồn tẻ và ngắn ngủi.
-Động tác của Ứng Hàn Y rất nhẹ nhàng, ngón tay luồn vào tóc anh, xoa đầu anh: “Là do anh ngủ quá lâu nên không nhận ra em sao?”
-Hạ Thanh Huyền nhìn thẳng vào mắt đối phương, như muốn xác nhận điều gì đó, thấp giọng nói: “Anh Hàn Nhất.”
-"Hả?"
-"Xin lỗi đã để bạn phải chờ đợi."
-Ngón tay của Anh Hàn Nghị vẫn nhẹ nhàng xoa tóc Hà Thanh Huyền: “Anh làm em sợ à?”
-"KHÔNG."
-“Đừng buồn, mọi chuyện đã qua rồi.”
-He Qingxuan không nói gì, nhưng lần này không giống như trước, mắt anh đỏ hoe. Da anh ấy trắng thật, nên vết đỏ trong mắt anh ấy trông như thể anh ấy đã khóc.
-Ánh mắt Ứng Hàn Nghị khẽ run lên, có chút hoảng hốt, liên tục an ủi: "Được rồi được rồi, không có chuyện gì, thật sự không có chuyện gì."
 
-Giọng anh hơi khô và khàn. Trên thực tế, từ lúc Ứng Hàn Nghị bắt đầu nói, Hà Thanh Huyền đã nhận thấy giọng nói của anh ta thực sự khô khốc, giống như đã lâu không nói.
-Hà Thanh Huyền thở ra một hơi, vẻ mặt trở nên tự nhiên hơn rất nhiều: “Ta đi đã lâu rồi phải không?”
-"Không sao đâu."
-“Anh biết là tôi thích nghe sự thật hơn.”
-Ying Hanyi không nói gì nữa. Anh ôm He Qingxuan vào lòng. Lực mạnh đến mức giống như đang chà xát He Qingxuan vào máu thịt của anh ta. Nó mạnh đến mức gần như khiến mọi người cảm thấy ngột ngạt. Tuy nhiên, He Qingxuan không hề di chuyển và để mình bị vướng vào một lực lượng khủng khiếp như vậy.
+Khó khăn lắm mới trở về được, hắn lẽ ra phải vui mừng, đó chính là mấy trăm năm đấy, đối với một người chưa từng sống qua tuổi đôi mươi như hắn thì quả thực là quá đỗi dài lâu.
+
+Dài lâu đến mức ngay cả bản thân hắn cũng có đôi phần tê dại, có đôi chút hoài nghi liệu chuyến quay về quá khứ kia có phải chỉ là một giấc mộng hão huyền. Nếu không phải thân thể quá mức tàn tạ, những cơn ho khan từng hồi và từng khúc xương tựa như sắp rã rời, hắn sẽ thực sự chẳng thể phân biệt nổi dòng chảy của thời gian.
+
+Cho nên khi xác định bản thân đang ở trong cỗ quan tài, khi cảm nhận được linh hồn đã quay trở lại thân xác quen thuộc, hắn vô cùng thả lỏng. Bởi lẽ đối với hắn, đây chẳng qua chỉ là quá trình linh hồn vừa mới thoát ly thể xác rồi lại nhập về một thân thể quen thuộc mà thôi.
+
+Thế nên hắn căn bản không biết rốt cuộc đã trôi qua bao lâu, và vì cớ gì hắn lại trông thấy một Ứng Hàn Y thế này.
+
+Hắn ngơ ngác nhìn đối phương, không đưa ra bất kỳ phản ứng nào. Ứng Hàn Y lại bật cười trước phản ứng ấy của hắn, tiếng cười trầm thấp, nghẹn ngào mà ngắn ngủi.
+
+Động tác của Ứng Hàn Y rất dịu dàng, ngón tay vén nhẹ lọn tóc của hắn, xoa xoa đầu hắn: “Chẳng lẽ ngủ lâu quá nên không nhận ra ta rồi?”
+
+Hạ Khanh Tuyên nhìn thẳng vào mắt đối phương như muốn xác nhận điều gì, rất khẽ khàng cất tiếng: “Ứng Hàn Y.”
+
+“Hửm?”
+
+“Thật xin lỗi vì đã để ngươi đợi lâu.”
+
+Ngón tay Ứng Hàn Y vẫn nhẹ nhàng mân mê lọn tóc Hạ Khanh Tuyên: “Là ta dọa ngươi sợ rồi?”
+
+“Không có.”
+
+“Đừng không vui nữa, đều đã qua rồi.”
+
+Hạ Khanh Tuyên không nói gì, nhưng lần này đã khác ban nãy, vành mắt hắn đỏ hoe. Làn da hắn vốn rất trắng, cho nên chút ửng đỏ nơi khóe mắt trông như thể hắn vừa mới khóc xong vậy.
+
+Ánh mắt Ứng Hàn Y khẽ run lên, có chút luống cuống hoảng loạn, vội vàng cất giọng dỗ dành: “Được rồi được rồi, không sao đâu, thật sự không có chuyện gì mà.”
+
+Giọng y có chút khô khốc khàn đặc. Kỳ thực ngay từ lúc Ứng Hàn Y bắt đầu cất lời, Hạ Khanh Tuyên đã để ý thấy giọng nói của y thực sự rất khản đặc, như thể đã rất lâu rồi chưa từng mở miệng nói chuyện.
+
+Hạ Khanh Tuyên khẽ thở phào một hơi, biểu cảm trên mặt đã tự nhiên hơn nhiều: “Ta rời đi... đã rất lâu rồi sao?”
+
+“Cũng tàm tạm.”
+
+“Ngươi biết rõ ta muốn nghe lời thật lòng hơn.”
+
+Ứng Hàn Y không nói thêm lời nào nữa, y ôm chặt lấy Hạ Khanh Tuyên vào lòng. Lực đạo mạnh đến mức hệt như muốn vò nát Hạ Khanh Tuyên hòa vào máu thịt của mình vậy, quá đỗi dùng sức, khiến người ta suýt chút nữa ngạt thở. Thế nhưng Hạ Khanh Tuyên không hề nhúc nhích, mặc cho bản thân bị luồng lực đạo đáng sợ ấy siết chặt lấy.

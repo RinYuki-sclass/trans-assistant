@@ -1,59 +1,105 @@
----
-title: Đại Ma Đầu Nhật Nhật Tưởng Sát Ngã — ch_080
----
+# Chương 80: Đao hạ lưu nhân, sư tỷ của ta!
 
-Trước đây Ứng Hàn Nhất nhất định sẽ cười lạnh, nhưng vẻ mặt Hà Thanh Huyền lại nghiêm túc như vậy, nghiêm túc đến mức có chút cầu xin, như thể bây giờ đối phương cho dù bây giờ đưa ra yêu cầu thô lỗ cũng sẽ đáp ứng.
-Đây là một trong số ít cơ hội để He Qingxuan tận dụng. Ying Hanyi không chỉ không vui mà trong mắt còn có chút cảm xúc phức tạp.
-Ứng Hàn Di không nói gì, trực tiếp cõng đệ tử Huyền Di cung xuyên qua hư không.
-Hà Thanh Huyền bị bỏ lại tại chỗ nói: “…”
-Lần này bạn có hợp tác như vậy không? !
-Ying Hanyi thực sự thích những thứ mềm mại và không phải những thứ cứng rắn!
-He Qingxuan chỉ ở đó trong vài hơi thở và Ying Hanyi lại quay trở lại trong khoảng không.
-Hà Thanh Huyền bày tỏ lòng cảm kích chân thành: “Vô cùng cảm ơn Hoàng thượng đã giúp đỡ.”
-“Nếu vừa rồi tôi không giúp cậu, cậu có khóc không?”
-Hà Thanh Huyền: "?"
-Ying Hanyi cười nhẹ, "Mặc kệ em có biết hay không, cũng đừng vì những chuyện này mà khóc. Dù em có khóc cũng chỉ vì anh, hiểu không?"
-"Nếu như Hoàng thượng không giúp đỡ, ta nhiều nhất có thể dùng chút thủ đoạn, sẽ không khóc. Cho dù Hoàng đế không muốn ta cảm ơn ngươi, cũng không cần phải nói ra điều này, dù sao ta cũng sẽ coi trọng." Hà Thanh Huyền đổi chủ đề khi nói: “Không biết Hoàng đế có thể cho tôi mượn một ít tài liệu không.”
-Ying Hanyi rất quan tâm và đồng ý.
-Anh ấy chỉ đưa cho He Qingxuan những tài liệu mà He Qingxuan cần. He Qingxuan đã thiết lập một đội hình hư không. Trận pháp này sử dụng khí tức của các đệ tử Cung Huyền Diệc của hắn để tìm kiếm những người khác có cùng khí chất.
-Chẳng bao lâu, trong trận pháp hư không có vài ngọn đèn sáng lên, chỉ về nhiều hướng khác nhau.
-Với phương hướng và khoảng cách gần đúng, Ying Hanyi đã có thể xé nát không gian và đưa He Qingxuan đi tìm người nhanh chóng, nhưng câu hỏi được đặt ra, tại sao Ying Hanyi lại phải giúp He Qingxuan.
-Hà Thanh Huyền nhìn Doanh Hàn Di với đôi mắt lấp lánh, “Hoàng đế, sao ngài không làm người tốt, tận lực giúp đỡ tôi?”
-"Ồ? Nhưng tôi không muốn giúp nữa."
-"Vậy Tôn Đế, ngươi còn muốn nghe cái gì nữa không? Ta cảm thấy miệng của ta vẫn có thể rất ngọt ngào."
-Ying Hanyi nhìn chằm chằm vào miệng He Qingxuan và mỉm cười đầy ý nghĩa, "Ngọt không?"
+Nếu là trước kia, Ứng Hàn Y nhất định sẽ cười khẩy một tiếng giễu cợt; thế nhưng thần sắc của Hạ Khanh Tuyên lúc này thực sự quá đỗi nghiêm túc, nghiêm túc tới mức mang theo vài phần khẩn cầu tha thiết, hệt như dẫu cho lúc này y có đưa ra yêu cầu vô lý quá đáng đến nhường nào thì đối phương cũng sẽ gật đầu đáp ứng.
 
-Chương 42
-Giọng nói của Ying Hanyi rất nhẹ nhàng và đầy ẩn ý.
-Sắc mặt Hạ Thanh Huyền hơi cứng đờ, cảm thấy năng lực khen ngợi người khác của mình đang bị nghi ngờ.
-Trước khi Hà Thanh Huyền chủ động thi triển thực lực, Ứng Hàn Di cười khúc khích hỏi: “Tại sao Tiên Vương không dùng uy hiếp nữa?”
-Nói đến đây, He Qingxuan vẫn có chút xấu hổ. Khi hai người mới bắt đầu, anh ấy đã làm rất nhiều việc đe dọa.
-"Cái này, hôm nay khác với ngày xưa." He Qingxuan có chút do dự khi nói chuyện.
-"Ồ? Tại sao thế này lại khác với trước đây?" Giọng nói của Ying Hanyi tràn đầy niềm vui rõ ràng.
-He Qingxuan từ chối trả lời câu hỏi này và giơ tay chỉ vào những điểm sáng trôi nổi trong khoảng không.
-Ying Hanyi ngước mắt lên và viết ra tất cả các hướng dẫn: "Hiện tại, hãy nghĩ rằng Chúa bất tử nợ tôi một ân huệ, và tôi sẽ lấy lại nó trong vài ngày tới."
-Thời gian không chờ đợi ai cả. He Qingxuan suy nghĩ ngắn gọn và nói thêm: "Chỉ cần nó không làm tổn hại đến thiên nhiên và nằm trong giới hạn của lý trí."
-"Có nằm trong năng lực của ngươi không? Phạm vi của Tiên Quân rất nhỏ."
-Hạ Thanh Huyền rút lại một nửa, “Chỉ cần không làm tổn hại đến thiên nhiên là được.”
-Ứng Hàn Di cười nói: "Yên tâm, đó nhất định là Tiên Quân có thể làm được."
-He Qingxuan đã tin điều đó vào lúc này.
-Ying Hanyi cực kỳ hiệu quả, nhưng anh ta vừa mới hứa với He Qingxuan, và trong chớp mắt đã đưa anh ta đến phương hướng có ánh sáng yếu nhất.
-Cường độ hay yếu của ánh sáng không phải biểu thị khoảng cách mà là trạng thái sinh mệnh của người có khí chất của Cung Huyền Di.
-Ưu điểm của việc xé nát khoảng không là họ vẫn còn ở đây trong hơi thở trước và có thể đến được nơi mình muốn trong hơi thở tiếp theo.
-Ying Hanyi rõ ràng là bậc thầy trong việc chơi đùa với các quy luật không gian theo cách này.
-Nhưng khi gió thổi xung quanh, anh và Ying Hanyi đã đến một không gian khác ở ngoại giới.
-Trong không gian rộng lớn, nhiều bóng người vây quanh một nữ tu sĩ khác, người đầy máu, và nữ tu sĩ đó không ai khác chính là chị gái Ran Qiulan của He Qingxuan.
+Đây là một trong số những cơ hội hiếm hoi có thể nắm thóp bức ép Hạ Khanh Tuyên, thế nhưng Ứng Hàn Y chẳng những không hề vui mừng, mà giữa hai hàng chân mày lại nhuốm thêm mấy phần tâm tự phức tạp khó tả.
 
-Những gì anh nhìn thấy gần như khiến He Qingxuan, người luôn tự hào về sự bình tĩnh và tự chủ của mình, tức giận.
-Người đàn ông có làn da nhợt nhạt và gần như trong suốt là người đầu tiên nhận ra sự hiện diện của He Qingxuan, nhưng anh ta không phản ứng ngay lập tức vì người đàn ông bên cạnh He Qingxuan có khí chất kiềm chế. Chỉ riêng việc hai người họ lặng lẽ xuất hiện đã khiến anh có một cảm giác vô cùng đáng sợ.
-Sau người đàn ông, người thứ hai phát hiện ra He Qingxuan là nữ tu sĩ có đôi tai mèo. Cô nhẹ nhàng liếm ngón tay bằng đầu lưỡi và ra hiệu cho những người khác.
-Người đàn ông phun ra rắn thư nhìn chằm chằm vào đôi mắt đẹp đó, vừa ngạc nhiên vừa vui mừng, "Đây là toàn bộ linh hồn chi thể!"
-Đôi mắt lạ lùng! Cộng thêm khí tức chính nghĩa quá thuần khiết, nếu không có chuyện gì ngoài ý muốn xảy ra thì đây chính là thể hồn toàn vẹn.
-Toàn Linh Thể là liều thuốc bổ tuyệt vời có thể nâng cao trình độ tu luyện của bạn chỉ sau một miếng ăn! Hơn nữa, Ma Vương còn đưa ra một phần thưởng khổng lồ cho toàn bộ linh hồn.
-Đôi mắt vốn đã tham lam của lũ quỷ dường như sáng lên màu xanh lục sau khi nhìn thấy He Qingxuan.
-Dưới sự chú ý của tất cả yêu ma và quái vật, He Qingxuan rút kiếm ra và nhìn các tu sĩ xung quanh với vẻ mặt xấu xí, "Mọi người, đây là chị gái của tôi."
-Nữ tu nam tu nhổ ra rắn thư vui vẻ nói: “Chúng ta vốn định ăn thịt nàng, ngươi đến vừa lúc gặp nàng lần cuối. Nếu Ma Vương bệ hạ không đặt tên cho ngươi, có lẽ ngươi đã đoàn tụ trong bụng chúng ta rồi.”
-Nữ tu sĩ tai mèo không thể nhịn được nữa. Sau khi liếm mu bàn tay, cô đột nhiên lao về phía He Qingxuan.
-Hà Thanh Huyền vẫn luôn chú ý tới động tác của bọn hắn, giơ kiếm lên chống cự, trường kiếm cọ vào móng vuốt đột nhiên thon dài của nữ tu nữ tai mèo, phát ra âm thanh chói tai khó chịu.
-Sau khi nữ tu sĩ tai mèo lên tiếng, nữ tu lưỡi thon cũng không thua kém. Có những người tu luyện quỷ khác đi cùng họ, nhưng người đàn ông có làn da gần như trong suốt vẫn ở lại.
-Anh nhìn lũ quái vật đang lao tới từng đàn và Ying Hanyi không hề di chuyển, tim anh đập thình thịch.
+Ứng Hàn Y không nói nửa lời, trực tiếp vươn tay túm xách tên đệ tử Tuyên Nghi Cung kia xé toạc hư không rời đi.
+
+Hạ Khanh Tuyên bị bỏ lại một mình tại chỗ: “...”
+
+Lần này thế mà lại phối hợp đến mức đó sao?!
+
+Ứng Hàn Y quả thực đúng là hạng người ăn mềm không ăn cứng mà!
+
+Hạ Khanh Tuyên đứng chờ tại chỗ bất quá chỉ vài ba hơi thở, Ứng Hàn Y liền đã đạp phá hư không quay trở lại.
+
+Hạ Khanh Tuyên thành khẩn nói lời cảm tạ: “Đa tạ Đế Tôn đã ra tay tương trợ.”
+
+“Nếu như vừa nãy bổn tôn khoanh tay đứng nhìn không giúp ngươi, liệu ngươi có khóc nhè ra không đấy?”
+
+Hạ Khanh Tuyên: “?”
+
+Ứng Hàn Y khẽ cười trầm thấp: “Bất luận có hay không, cũng đừng bao giờ vì những thứ cỏ rác này mà rơi lệ. Ngươi dẫu có khóc, cũng chỉ có thể vì bổn tôn mà khóc thôi, hiểu chưa?”
+
+“Nếu Đế Tôn không giúp, ta cùng lắm là tự mình vận dụng chút thủ đoạn mà thôi, tuyệt đối sẽ không khóc. Dẫu Đế Tôn không muốn ta cảm kích ngài thì cũng không cần phải nói những lời như vậy, dù sao ta cũng sẽ coi là thật đấy.” Hạ Khanh Tuyên vừa nói, lời lẽ đã liền chuyển hướng: “Chẳng hay Đế Tôn có thể cho ta mượn vài loại tài liệu được không?”
+
+Ứng Hàn Y cảm thấy thú vị, liền gật đầu ưng thuận.
+
+Y bất quá chỉ vừa mới đem những tài liệu mà Hạ Khanh Tuyên cần giao vào tay hắn, Hạ Khanh Tuyên liền đã cấp tốc bố trí ra một tòa trận pháp hư không. Trận pháp này chính là mượn nhờ khí tức đồng môn của tên đệ tử Tuyên Nghi Cung kia để truy tìm những đồng môn khác có cùng căn nguyên khí tức.
+
+Rất nhanh chóng, bên trong tòa hư không trận pháp kia đã sáng bừng lên mấy luồng quang mang, chỉ thẳng về các phương vị khác nhau.
+
+Đã có được phương vị cùng cự ly ước lượng, Ứng Hàn Y hoàn toàn có thể xé toạc không gian đưa Hạ Khanh Tuyên nhanh chóng đi tìm người; thế nhưng vấn đề then chốt là, Ứng Hàn Y dựa vào cái gì mà phải giúp đỡ Hạ Khanh Tuyên?
+
+Hạ Khanh Tuyên chớp chớp đôi mắt long lanh sáng ngời nhìn về phía Ứng Hàn Y: “Chi bằng Đế Tôn làm người tốt thì làm cho trót, giúp thêm một lần nữa đi?”
+
+“Ồ? Nhưng bổn tôn lại không muốn tiếp tục ra tay giúp đỡ nữa rồi.”
+
+“Vậy Đế Tôn có còn muốn nghe lời gì nữa không? Ta cảm thấy miệng lưỡi của ta vẫn có thể dỗ dành rất ngọt ngào đấy.”
+
+Ứng Hàn Y chăm chú nhìn chằm chằm vào bờ môi của Hạ Khanh Tuyên hai lần, khẽ cười đầy ẩn ý sâu xa: “Ngọt sao?”
+
+Giọng nói của Ứng Hàn Y hạ xuống rất khẽ, mang theo phong vị thâm trầm ái muội khôn tả.
+
+Khóe môi Hạ Khanh Tuyên hơi cứng đờ, luôn cảm thấy kỹ năng tâng bốc dỗ dành của mình dường như đang bị đối phương nghi ngờ sâu sắc.
+
+Chưa đợi Hạ Khanh Tuyên chủ động thể hiện thêm bản lĩnh, Ứng Hàn Y đã khẽ cười hỏi: “Tiên quân cớ sao nay lại không giở cái trò uy hiếp kia ra nữa rồi?”
+
+Nhắc tới chuyện này, Hạ Khanh Tuyên cũng có chút ngượng ngùng; thuở hai người mới tao ngộ dưới đáy vực, hắn quả thực không ít lần đem tính mạng ra uy hiếp y.
+
+“Chuyện này... nay đã khác xưa rồi mà.” Hạ Khanh Tuyên hiếm khi ăn nói có phần ngập ngừng ấp úng.
+
+“Ồ? Nay khác xưa là khác thế nào?” Giọng điệu của Ứng Hàn Y tràn ngập vẻ vui sướng rõ rệt.
+
+Hạ Khanh Tuyên dứt khoát từ chối trả lời câu hỏi hóc búa này, liền giơ tay chỉ vào những điểm sáng đang lơ lửng giữa hư không.
+
+Ứng Hàn Y ngước mắt, ghi nhớ toàn bộ những phương vị kia vào trong đầu: “Cứ tạm coi như tiên quân lại nợ bổn tôn một món nhân tình đi; ngày sau bổn tôn nhất định sẽ đòi lại cả vốn lẫn lời.”
+
+Thời gian chẳng đợi người, Hạ Khanh Tuyên ngẫm nghĩ một chút rồi vội vàng bồi thêm một câu: “Chỉ cần không thương thiên hại lý và nằm trong khả năng của ta là được.”
+
+“Nằm trong khả năng của ngươi sao? Phạm vi này của tiên quân e là hơi hẹp rồi đấy.”
+
+Hạ Khanh Tuyên liền thu hồi lại một nửa điều kiện: “Chỉ cần không thương thiên hại lý là được.”
+
+Ứng Hàn Y bật cười: “Yên tâm, đó tuyệt đối là chuyện mà tiên quân hoàn toàn có thể làm được.”
+
+Hạ Khanh Tuyên đành tạm thời tin lời y.
+
+Ứng Hàn Y hành sự hiệu suất cực cao; bất quá vừa mới đáp ứng Hạ Khanh Tuyên, chớp mắt sau y liền xé rách không gian đưa hắn hướng thẳng về phía phương vị có luồng hào quang yếu ớt nhất mà tới.
+
+Quang mang mạnh hay yếu vốn dĩ không biểu thị khoảng cách xa hay gần, mà chính là trạng thái sinh mệnh của kẻ mang khí tức Tuyên Nghi Cung kia.
+
+Cái lợi hại của việc xé toạc hư không chính là: một hơi thở trước bọn họ còn đứng ở nơi này, thì hơi thở tiếp theo đã có thể đặt chân tới nơi mình muốn đến.
+
+Ứng Hàn Y hiển nhiên chính là một tay lão luyện chơi đùa với pháp tắc không gian bực này.
+
+Bất quá chỉ một cơn cuồng phong rít qua thân mình, hắn liền cùng Ứng Hàn Y đặt chân tới một mảnh không gian khác bên trong Vực Ngoại lĩnh vực.
+
+Giữa khoảng không gian bao la rộng lớn, mấy bóng người quỷ dị đang vây hãm một nữ tu toàn thân đẫm máu; mà nữ tu nọ không phải ai khác, chính là đại sư tỷ của Hạ Khanh Tuyên — Nhiễm Thu Lam.
+
+Cảnh tượng đập vào mắt suýt chút nữa khiến cho Hạ Khanh Tuyên — kẻ trước nay luôn tự phụ là trầm ổn bình tĩnh — cũng phải bốc hỏa lôi đình!
+
+Tên quỷ tu có làn da trắng bệch gần như trong suốt là kẻ đầu tiên phát giác ra sự xuất hiện của Hạ Khanh Tuyên; thế nhưng gã lại không lập tức có phản ứng gì, hoàn toàn là bởi vì người đàn ông hắc y đứng bên cạnh Hạ Khanh Tuyên kia. Khí tức quanh thân người đàn ông nọ cực kỳ nội liễm thâm trầm, chỉ đơn thuần việc hai người có thể thần không biết quỷ không hay lặng lẽ xuất hiện giữa hư không thế này, đã mang lại cho gã một cảm giác vô cùng kinh hoàng rợn gáy.
+
+Sau gã đàn ông nọ, kẻ thứ hai nhận ra Hạ Khanh Tuyên chính là nữ tu mang đôi tai mèo. Nàng ta khẽ thè đầu lưỡi liếm qua đầu ngón tay, đưa mắt ra hiệu cho những kẻ khác.
+
+Gã nam tu âm nhu đang thè chiếc lưỡi rắn dài ngoằng nhìn chằm chằm vào đôi mắt dị đồng mỹ lệ kia, vừa kinh ngạc vừa mừng rỡ: “Đây là... Toàn Linh chi thể!”
+
+Dị đồng! Cộng thêm khí tức chính đạo thuần khiết đến tột bực, nếu không có gì bất ngờ xảy ra thì đây đích thị chính là Toàn Linh chi thể trong truyền thuyết!
+
+Toàn Linh chi thể kia mà, chỉ cần cắn một miếng thôi cũng đủ để tăng vọt tu vi, là đại bổ dược tuyệt thế vô song! Huống chi Yêu Hoàng lúc này đang treo thưởng trọng kim để truy bắt Toàn Linh chi thể!
+
+Ánh mắt vốn dĩ đã ngập tràn tham lam của đám yêu ma sau khi nhìn thấy Hạ Khanh Tuyên lại càng lóe lên những tia sáng xanh lét tựa loài lang sói.
+
+Trước sự dòm ngó hau háu của một lũ yêu ma quỷ quái, Hạ Khanh Tuyên tuốt thanh bội kiếm bên hông ra khỏi vỏ, sắc mặt lạnh băng khó coi nhìn đám tu sĩ xung quanh: “Chư vị, đây là sư tỷ của ta.”
+
+Gã nam tu âm nhu thè chiếc lưỡi rắn dài sung sướng cười khằng khặc: “Bọn ta đang chuẩn bị nuốt chửng ả ta đây, ngươi tới vừa đúng lúc lắm, có thể cùng ả nhìn nhau lần cuối! Nếu không phải do Yêu Hoàng bệ hạ đích thân điểm danh muốn bắt sống ngươi, thì hôm nay nói không chừng hai tỷ đệ các ngươi còn có thể đoàn tụ ngay trong bụng của bọn ta đấy!”
+
+Nữ tu tai mèo là kẻ nôn nóng nhất, sau khi liếm mu bàn tay một cái liền đột ngột phóng người hung hãn lao thẳng về phía Hạ Khanh Tuyên!
+
+Hạ Khanh Tuyên trước nay luôn chăm chú theo dõi từng cử động của bọn chúng, liền lập tức vung kiếm đón đỡ. Trường kiếm va chạm nảy lửa với bộ móng vuốt sắc nhọn đột ngột dài ra của nữ tu tai mèo, phát ra những thanh âm ken két chói tai rợn người.
+
+Thấy nữ tu tai mèo đã xông lên, gã nam tử âm nhu với chiếc lưỡi rắn cũng chẳng chịu kém cạnh, cùng đám yêu tu còn lại ùa lên vây công; duy chỉ có gã đàn ông với làn da trong suốt kia là vẫn đứng chôn chân tại chỗ.
+
+Gã kinh nghi bất định nhìn đám yêu ma đang nhắm mắt lao lên như ong vỡ tổ, lại nhìn sang người đàn ông hắc y vẫn đứng sừng sững khoanh tay chẳng hề có bất kỳ động tĩnh nào, trong lòng gã bất giác đánh trống ngực thình thình.
