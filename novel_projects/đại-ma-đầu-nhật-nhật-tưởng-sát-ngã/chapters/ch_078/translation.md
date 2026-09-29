@@ -1,58 +1,103 @@
----
-title: Đại Ma Đầu Nhật Nhật Tưởng Sát Ngã — ch_078
----
+# Chương 78: Bóp má trêu chọc, một tiếng gọi “Sư tôn”
 
-Yashu Tôn giả gật đầu, "Chúa hiểu."
-Nhà giao dịch là mạng lưới tình báo lớn nhất và tất cả những gì cô ấy cần làm là cho mọi người thêm một chút khi họ mua thông tin.
-He Qingxuan không tò mò về cuộc trao đổi giữa hai người họ. Trong tình huống này, hắn chẳng lẽ còn không hiểu, Yashu Tôn giả cũng là Ứng Hàn Nhất người sao?
-Anh ta không bao giờ ngờ rằng Hiệp hội Shenxing có vẻ trung lập lại thực sự thuộc sở hữu của Ying Hanyi, Yashu Tôn giả và Bai Tu. Hai người này đều là những Biến Hình Thần Tôn giả mạnh mẽ.
-Bái Tử là quân cờ được Doanh Hàn Di chôn cùng Yêu Đế, còn Yashu Tôn Giả là trạm thu thập thông tin tình báo của hắn. Anh ta không biết ở đâu đó còn có lực lượng thuộc về Ying Hanyi hay không.
-Sau khi đưa hai người đến mảng dịch chuyển, Yashu Tôn giả nói lời tạm biệt.
-Ying Hanyi trực tiếp đón He Qingxuan và nghĩ đến việc đi ra thế giới bên ngoài.
-Vị trí họ đến không tệ. Xung quanh tối đen, chỉ có vô số tảng đá khổng lồ trôi nổi trong hư không và không có tu sĩ nào khác.
-He Qingxuan đột nhiên hỏi: "Không biết năm đó Hoàng đế Zun tại sao lại chọn trở thành yêu quái? Nếu Chính Đạo có ngươi và Trường Lâm Tiên Tôn, hắn sẽ không thất bại đến mức như bây giờ."
-He Qingxuan quá thẳng thắn. Hoàn toàn là bởi vì hắn cảm thấy thay vì tự mình suy nghĩ, tốt hơn là cứ hỏi.
-Ying Hanyi cười khúc khích khi nghe điều này, "Chúa bất tử lấy sự tự tin của bạn ở đâu? Tôi nghĩ tôi sẽ trả lời câu hỏi của bạn."
-He Qingxuan giả vờ ngạc nhiên, "Hoàng đế Zun không phải đã nói trước đó rằng tôi là bạn đạo sĩ của bạn sao? Chẳng lẽ đạo sĩ đó thậm chí không thể biết điều này?"
-Ying Hanyi cười sảng khoái, "Tiên Quân thật sự rất thú vị, nhưng lý do khiến tôi trở thành yêu quái đã có từ lâu. Thay vì tò mò về điều này, Tiên Quân nên lo lắng xem người chính nghĩa sẽ nghĩ gì khi nhìn thấy ngươi cùng với tên ác quỷ này."
-"Bạn nghĩ tôi là kẻ phản bội con đường đúng đắn."
-"Ồ, như vậy Tiên Vương nếu thật sự gặp nạn, sẽ gặp tai họa khủng khiếp."
-He Qingxuan nói rằng sẽ ổn thôi nếu bên kia biết.
-Ứng Hàn Di: "Hiện tại Tiên Quân còn muốn khôi phục chính đạo sao?"
-Hà Thanh Huyền thoạt đầu không muốn trả lời, nhưng hắn biết bí mật có thể đổi lấy bí mật. Anh ấy suy nghĩ về điều đó và nói: “Khi còn trẻ, tôi cũng tưởng tượng rằng mình là niềm hy vọng cứu rỗi toàn bộ chính đạo”.
-"Khi bạn còn trẻ? Có lẽ không phải bây giờ."
-"Hiện tại thực lực chênh lệch rõ ràng, ta mới nhận ra toàn thân khí phách không giống như ta tưởng tượng, cho nên..." Ta muốn chậm rãi tìm hiểu.
+Nhai Thư Tôn Giả khẽ gật đầu: “Thần Khuynh minh bạch.”
 
-Hà Thanh Huyền còn chưa nói xong, Ứng Hàn Nhất đã không vui cắt ngang: "Chỉ là khôi phục lại chính đạo thôi. Ngay cả những người không tài giỏi như ngươi cũng có thể đột phá thiên hạ. Chẳng lẽ Tiên Quân ngay cả loại tự tin này cũng không có?"
-Ying Hanyi đưa ngón tay ra nhéo hai bên má Hà Thanh Huyền, ngăn cản anh nói.
-"Tại sao Tiên Quân lại đáng thương như vậy? Chẳng lẽ có người ức hiếp Tiên Quân mà ta không biết sao?"
-He Qingxuan bị những lời này sốc và thậm chí không thể đấu tranh trong giây lát.
-Làm sao hắn có thể cảm giác được Ứng Hàn Di đã biết chuyện mấy trăm năm và sự tái sinh của hắn?
-Ying Hanyi tiếp tục lẩm bẩm với chính mình: "Ngoại giới không chỉ là nơi lưu giữ bảo vật cổ xưa, mà còn là nơi mà con đường chính nghĩa của bạn có thể dễ dàng đến và đi. Nếu Chúa bất tử chịu nói vài lời tử tế, tôi có thể dẫn bạn đi cứu những đạo sĩ chính nghĩa như bạn."
-Không có tiếng trả lời, Ứng Hàn Dật dùng sức nhéo nhẹ gò má của người đó, nói: “Nói đi.”
-Hạ Thanh Huyền: "..."
-Này, không, cậu nên buông tay ra!
-Chương 41
-Ying Hanyi dường như đã nhận ra vấn đề này và bỏ tay ra khỏi mặt He Qingxuan.
-Sau khi được giải thoát, Hạ Thanh Huyền nặng nề thở ra một hơi, tùy ý xoa xoa gò má, dài giọng nói: “Nghe hay đấy!”
-Ying Hanyi nhẹ nhàng "Ừm".
-"Không phải là bạn không thể nói những điều tốt đẹp." Hà Thanh Huyền hơi dừng một chút, đổi chủ đề: “Nhưng ta tin rằng Tôn đế không phải loại người thích nghe lời ngọt ngào, vậy nên chúng ta hãy quên những lời tốt đẹp đi.”
-Ying Hanyi im lặng, sau đó nói "chậc", "Rõ ràng Tiên Quân không muốn nói chuyện này, nhưng lại nhất quyết muốn lôi kéo ta."
-Hà Thanh cười lớn: "Vậy hoàng đế đại nhân ngươi muốn nghe cái gì? Cũng không phải là ta không thể hét to một tiếng."
-Ying Hanyi lại im lặng.
-Khi người ta nói những lời như vậy, thường thì trong đầu họ đã có sẵn câu trả lời, nhưng Doanh Hàn Di lại không muốn nói cho Hà Thanh Hiên câu trả lời mà anh đã nghĩ đến, hoặc có lẽ anh muốn nghe điều gì đó bất ngờ khi anh nên nói những điều như vậy.
-"Nếu không muốn nói thì quên đi." Ứng Hàn Di lạnh lùng nói.
-Anh ta hành động thờ ơ, như thể việc He Qing có thông báo hay không không quan trọng với anh ta.
+Thương hành vốn là mạng lưới tình báo khổng lồ nhất, điều nàng cần làm bất quá chỉ là nhân lúc người khác tới mua tin tức mà tặng kèm thêm một chút quà mọn mà thôi.
 
-Hà Thanh Huyền gật đầu, “Không phải ta không muốn nói, hoàng thượng thật sự rất khó làm cho ta, cũng không biết hoàng thượng muốn nghe cái gì, nếu ta nói điều gì khiến ngươi không vui, lại là lỗi của ta.”
-Lông mày của Ying Hanyi nhăn lại không thể nhận ra. Anh ấy không thể cho He Qingxuan một ví dụ. Vừa định dẫn hắn đi, Hạ Thanh Huyền lên tiếng.
-"Hả? Chủ nhân?"
-Giọng nói dễ nghe của chàng trai Qingyue có chút ngập ngừng.
-Ying Hanyi sửng sốt.
-He Qingxuan không nhận được phản hồi nào, bước tới gần Ying Hanyi, lại thì thầm vào tai anh ta "Sư phụ".
-Hơi thở trong trẻo phả vào tai, mang theo chút ngứa ngáy. Ngay cả giọng nói được cố ý hạ thấp cũng dường như mang theo một chút vẻ trẻ trung, vô tình chạm đến trái tim của mọi người.
-Khuôn mặt của Ying Hanyi vẫn bất động, anh chỉ đáp lại nhẹ nhàng, ngoại trừ đôi môi hơi cong.
-Sau khi He Qingxuan nói xong, anh ta rút lui một cách chiến lược, chuyển sự chú ý sang những nơi khác và xem xét những gì đang diễn ra xung quanh mình.
-Những gì bạn nhìn thấy là bóng tối và hư vô, chỉ có vô số những viên đá bọt khổng lồ trôi nổi trong khoảng không.
-Một số viên đá này chỉ lớn bằng một giáo phái nhỏ, và một số lại nhỏ đến mức chỉ một người có thể đứng lên. Lúc đầu, He Qingxuan nghĩ những viên đá này đứng yên, nhưng ngay sau đó anh nhận thấy những viên đá này giống như những đám mây trên bầu trời. Thật ra họ đang di chuyển chậm, nhưng tốc độ di chuyển của họ rất chậm, khiến họ có ảo giác như đang đứng yên.
-"Cậu có định nhận tôi làm giáo viên của cậu không?" Giọng nói của Ying Hanyi có chút khàn khàn.
+Hạ Khanh Tuyên ngược lại chẳng mấy tò mò về những lời nói qua nói lại giữa hai người bọn họ; đến nước này rồi, hắn chẳng lẽ lại không nhìn ra vị Nhai Thư Tôn Giả này cũng chính là người của Ứng Hàn Y hay sao?
+
+Vạn vạn lần không ngờ tới, một Thần Hành Hội nhìn qua tưởng chừng luôn giữ vị thế trung lập lại thực chất là thế lực thuộc quyền sở hữu của Ứng Hàn Y. Nhai Thư Tôn Giả, Bạch Đồ... hai người này đều là những vị Hóa Thần tôn giả với thực lực không hề tầm thường.
+
+Bạch Đồ là quân cờ được Ứng Hàn Y cài cắm bên cạnh Yêu Hoàng, Nhai Thư Tôn Giả là trạm thu thập tình báo của y; ở những nơi mà hắn chưa hề hay biết, liệu còn có bao nhiêu thế lực thuộc về đại ma đầu này nữa?
+
+Sau khi đích thân tiễn hai người tới truyền tống trận, Nhai Thư Tôn Giả liền cáo từ lui bước.
+
+Ứng Hàn Y trực tiếp vươn tay ôm lấy Hạ Khanh Tuyên, phá không tiến vào Vực Ngoại lĩnh vực.
+
+Vị trí bọn họ đáp xuống xem như tương đối tốt; bốn bề u tối tịch mịch, chỉ có vô số khối đá khổng lồ trôi nổi lơ lửng giữa hư không vô tận, chung quanh không có lấy một bóng dáng tu sĩ nào khác.
+
+Hạ Khanh Tuyên bỗng nhiên cất tiếng hỏi: “Chẳng hay năm xưa vì cớ gì Đế Tôn lại chọn đọa ma? Chính đạo nếu như có ngài cùng Trường Lâm Tiên Tôn tọa trấn, hẳn cũng sẽ không suy bại đến nông nỗi như ngày hôm nay.”
+
+Hạ Khanh Tuyên hỏi vô cùng dứt khoát dạt dào, hoàn toàn là vì hắn cảm thấy thay vì tự mình suy đoán lung tung, chi bằng cứ dứt khoát trực tiếp hỏi thẳng ra cho xong.
+
+Ứng Hàn Y nghe vậy liền khẽ cười trầm thấp: “Tiên quân lấy đâu ra sự tự tin rằng bổn tôn sẽ giải đáp nghi hoặc cho ngươi thế?”
+
+Hạ Khanh Tuyên vờ như ngạc nhiên: “Vừa nãy Đế Tôn chẳng phải còn bảo ta là đạo lữ của ngài sao? Chẳng lẽ đạo lữ mà ngay cả chuyện này cũng không thể biết?”
+
+Ứng Hàn Y bật cười khoái chí: “Tiên quân quả thực rất thú vị; thế nhưng lý do bổn tôn đọa ma vốn dĩ đã là chuyện của thuở xa xưa rồi. Thay vì tò mò về điều đó, tiên quân chi bằng hãy lo lắng xem đám nhân sĩ chính đạo kia nếu trông thấy ngươi đi chung cùng một tên ma đầu như bổn tôn, họ sẽ nghĩ thế nào kìa.”
+
+“Họ sẽ nghĩ ta là phản đồ của chính đạo chứ gì.”
+
+“Ồ, nếu quả đúng như thế thì tiên quân thực sự là phải chịu tai bay vạ gió rồi.”
+
+Hạ Khanh Tuyên bày ra vẻ mặt: Ngài biết thế là tốt rồi đấy.
+
+Ứng Hàn Y lại hỏi: “Vậy bây giờ tiên quân còn muốn chấn hưng chính đạo nữa hay không?”
+
+Hạ Khanh Tuyên vốn dĩ chẳng muốn trả lời, nhưng hắn hiểu rõ chỉ có dùng bí mật mới đổi lấy được bí mật; hắn liền cân nhắc một hồi rồi mở lời: “Thuở thiếu thời, ta cũng từng ôm mộng tưởng rằng mình chính là hy vọng cứu vớt cả một nền chính đạo.”
+
+“Thuở thiếu thời sao? Chẳng lẽ bây giờ không còn nữa rồi?”
+
+“Bây giờ đã nhìn rõ chênh lệch thực lực, cũng nhận ra Toàn Linh chi thể căn bản chẳng thần kỳ như tưởng tượng, cho nên...” Phải từ từ tính kế mưu đồ.
+
+Hạ Khanh Tuyên còn chưa dứt lời, Ứng Hàn Y đã có chút khó chịu ngắt lời: “Chẳng qua chỉ là chấn hưng chính đạo mà thôi, ngay cả những kẻ thiên tư kém xa ngươi còn có thể xông xáo mở ra một vùng trời riêng, tiên quân chẳng lẽ ngay cả chút tự tin bực này cũng không có?”
+
+Ngón tay Ứng Hàn Y mở ra, trực tiếp vươn tới bóp chặt hai bên má của Hạ Khanh Tuyên, triệt để chặn đứng khả năng nói chuyện của hắn.
+
+“Tiên quân cớ sao lại đáng thương đến nhường này? Chẳng lẽ là có kẻ nào dám thừa dịp bổn tôn không hay biết mà bắt nạt tiên quân sao?”
+
+Hạ Khanh Tuyên bị câu nói này làm cho chấn động đến ngơ ngẩn cả người, nhất thời ngay cả giãy giụa cũng quên bẵng đi mất.
+
+Cớ sao hắn lại có cảm giác như Ứng Hàn Y dường như đã biết rõ về một trăm năm phiêu bạt kia, cùng với cả chuyện hắn trọng sinh vậy?
+
+Ứng Hàn Y vẫn tự mình nói tiếp: “Vực Ngoại lĩnh vực không chỉ là nơi lưu lại những tàn tích bảo vật thượng cổ, mà còn là vùng đất mà đám chính đạo các ngươi hễ bước vào là dễ đi khó về. Tiên quân nếu chịu nói vài câu xuôi tai vừa lòng, bổn tôn có thể dẫn ngươi đi cứu đám đạo hữu chính đạo kia của ngươi.”
+
+Mãi không thấy đối phương đáp lại, ngón tay đang nhéo má người kia của Ứng Hàn Y khẽ tăng thêm chút lực đạo: “Nói chuyện.”
+
+Hạ Khanh Tuyên: “...”
+
+Kìa, không phải chứ, ngài cũng phải buông tay ra trước đã chứ!
+
+Ứng Hàn Y dường như cũng ý thức được vấn đề này, liền thu bàn tay đang bóp má Hạ Khanh Tuyên về.
+
+Giành lại được tự do, Hạ Khanh Tuyên thở hắt ra một hơi thật dài, tiện tay xoa xoa hai bên má mình, kéo dài giọng điệu: “Lời hay ý đẹp sao!”
+
+Ứng Hàn Y nhàn nhạt: “Ừm.”
+
+“Lời êm tai thì cũng chẳng phải không thể nói.” Hạ Khanh Tuyên ngừng lại một nhịp, chuyển giọng: “Thế nhưng ta tin tưởng Đế Tôn tuyệt đối không phải hạng người thích nghe lời ngon tiếng ngọt hoa mỹ, cho nên mấy câu xuôi tai đó chi bằng bỏ qua đi thôi.”
+
+Ứng Hàn Y trầm mặc, sau đó khẽ “chậc” một tiếng: “Rõ ràng là bản thân tiên quân không muốn nói, lại còn cố tình lôi kéo đổ vấy lên đầu bổn tôn.”
+
+Hạ Khanh Tuyên bật cười: “Vậy Đế Tôn đại nhân rốt cuộc muốn nghe điều gì? Ta cũng chẳng phải không thể mở miệng gọi ngài một tiếng.”
+
+Ứng Hàn Y lại rơi vào trầm mặc.
+
+Phàm là con người khi nói ra những lời này, trong lòng thường đều đã sớm có sẵn đáp án; thế nhưng Ứng Hàn Y lại không muốn đem đáp án đã định sẵn trong lòng mình nói cho Hạ Khanh Tuyên nghe. Hoặc giả nên nói, bản thân lời gợi ý này vốn là muốn nghe được điều gì đó nằm ngoài dự liệu.
+
+“Không muốn nói thì thôi.” Ứng Hàn Y lạnh nhạt buông một câu.
+
+Y biểu hiện ra vẻ chẳng mấy bận tâm, hệt như việc Hạ Khanh Tuyên có nói hay không đối với y đều chẳng có gì quan trọng.
+
+Hạ Khanh Tuyên đưa ngón tay khẽ gõ lên mi tâm mình: “Cũng không phải ta không muốn nói, thực sự là Đế Tôn làm khó ta quá. Ta làm sao biết được Đế Tôn muốn nghe điều gì; nhỡ đâu nói ra điều gì khiến ngài không vui, chẳng phải lại thành tội lỗi của ta hay sao.”
+
+Chân mày Ứng Hàn Y khẽ nhíu lại một vệt khó bề phát giác; y đường đường là Ma tôn, làm sao có thể làm mẫu thị phạm cho Hạ Khanh Tuyên được? Đang định lạnh lùng bỏ qua đề tài này, thì Hạ Khanh Tuyên lại bất ngờ cất tiếng:
+
+“Hửm? Sư tôn?”
+
+Thanh âm trong trẻo êm tai của thiếu niên mang theo vài phần thăm dò mềm mại.
+
+Ứng Hàn Y sững sờ chết lặng.
+
+Không thấy đối phương đáp lại, Hạ Khanh Tuyên dứt khoát bước thêm một bước tiến sát lại gần Ứng Hàn Y, ghé sát vào bên tai y khẽ cất tiếng gọi thêm một lần nữa: “Sư tôn...”
+
+Hơi thở thanh lương phả nhẹ lên vành tai người kia, mang tới từng đợt ngứa ngáy râm ran; ngay cả chất giọng vốn được cố ý hạ thấp kia dường như cũng mang theo chút nũng nịu êm ái của thiếu niên, bất tri bất giác liền khẽ khàng gảy nhẹ lên dây cung nơi đáy tim người ta.
+
+Gương mặt Ứng Hàn Y mặt ngoài vẫn sừng sững bất động như bàn thạch, chỉ nhàn nhạt đáp lại một tiếng, duy chỉ có nơi khóe môi là khẽ cong lên một độ cong nhỏ bé khôn cùng.
+
+Hạ Khanh Tuyên dứt lời liền lập tức lùi bước có chiến lược, dời ánh mắt sang hướng khác, bắt đầu ngưng thần quan sát địa thế xung quanh rốt cuộc là tình hình thế nào.
+
+Đập vào mắt là cả một vùng bóng tối hư vô mịt mùng, chỉ có vô số khối cự thạch khổng lồ trôi nổi lơ lửng giữa hư không.
+
+Những tảng đá này có khối to lớn tựa như cả một sơn môn của một tông phái nhỏ, có khối lại bé đến mức chỉ đủ cho một người đứng lên. Ban đầu Hạ Khanh Tuyên cứ ngỡ những khối đá này đứng yên bất động, nhưng rất nhanh hắn liền phát hiện ra chúng hệt như những đám mây trôi trên vòm trời, thực chất đang chầm chậm di chuyển; chỉ là tốc độ dịch chuyển quá mức thong thả, mới tạo cho người ta ảo giác như tĩnh lặng bất động mà thôi.
+
+“Ngươi định bái bổn tôn làm thầy sao?” Giọng nói của Ứng Hàn Y bỗng có chút khàn đặc trầm trầm.

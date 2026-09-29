@@ -2,54 +2,100 @@
 title: Đại Ma Đầu Nhật Nhật Tưởng Sát Ngã — ch_120
 ---
 
-Ying Hanyi sẽ khó có thể bất tỉnh, bởi vì một khi ngất đi, anh ấy thậm chí có thể không biết He Qingxuan chết khi nào.
-他強撐著意識,魔域越發近了,滿身血腥的賀卿宣自然也吸引來Tôi có thể làm điều đó với bạn.
-它們對著這還會移動的腐肉虎視眈眈,卻也有那麽些忌憚於應寒衣身Bạn có thể làm được điều đó.
-賀卿宣身上死亡的氣息越來越濃,烏鴉撲動著翅膀,猩紅的眼睛死死盯著即將到嘴的肉,妖獸口中腥臭的涎水滴下一滴又一滴。
-Hai gã cường giả sắp trở thành bữa ăn của người khác, năm xưa vẫn coi thường bọn họ.
-Đây là một trò đùa mà mọi người sẽ thấy buồn cười.
-Sau khi bò được hai mươi dặm một cách khó khăn, đầu của He Qingxuan rũ xuống.
-Khuôn mặt xinh đẹp của Qingjun đó đã dính rất nhiều máu và bụi, vài sợi tóc cũng dính vào mặt, dính máu dày đặc, khiến nó trở nên vô cùng xấu xí.
-Ying Hanyi trong miệng tràn đầy chán ghét, nhưng ánh mắt lại dán chặt vào đó, sợ hơi thở thật sự sẽ biến mất hoàn toàn.
-躍躍欲試的妖獸們見唯一會動彈的人不再動作後,開始靠近，跑得Bạn có thể làm điều đó một cách dễ dàng.
-Con sói độc ác xảo quyệt không nói gì với He Qing, người vừa mới di chuyển được, mà mở cái miệng hôi hám về phía Ying Hanyi.
-Ying Hanyi cười nhẹ.
-Ngay khi hàm răng sắc nhọn của con sói sắp cắn đứt cổ hắn, một tia năng lượng ma quỷ cực nhỏ xâm nhập vào trái tim con quái vật. Máu đỏ tươi nuôi dưỡng năng lượng ma quỷ, khiến nó nhuộm màu đỏ máu.
-Sự việc xảy ra nhanh đến mức tất cả yêu thú và quạ đều vội vàng phân tán, nhưng một tia năng lượng ma quỷ mỏng manh xuyên qua chúng nhanh như tia chớp.
-Năng lượng ma quỷ cuối cùng trở nên dày đặc và rắn chắc, dường như dày như vài sợi tóc gộp lại.
-Ying Hanyi không ngần ngại đưa năng lượng ma quỷ vào cơ thể He Qingxuan. Người đáng lẽ phải ngủ vĩnh viễn đột nhiên ho, trái tim đã ngừng đập của anh ta bắt đầu đập trở lại, và thứ duy nhất còn sống trong cơ thể đã sống lại.
-He Qingxuan rất ngu ngốc khi cứu một người lạ, và Ying Hanyi cũng ngu ngốc không kém khi chuyển năng lượng ma quỷ cho He Qingxuan.
-Anh rơi vào tình trạng hôn mê hoàn toàn.
-Hà Thanh Huyền chật vật tỉnh lại. Anh không biết mình đã ngủ bao lâu, nhưng anh vẫn tiếp tục tiến về phía trước với niềm tin.
+Ứng Hàn Y không thể tiếp tục để thần trí mê man được nữa, bởi lẽ một khi y ngất đi, e rằng đến cả việc Hạ Khanh Tuyên chết lúc nào y cũng chẳng hề hay biết.
+
+Y gượng chống đỡ lấy ý thức. Ma Vực đã ngày một gần, một Hạ Khanh Tuyên toàn thân đẫm máu tanh dĩ nhiên cũng thu hút không ít yêu thú cấp thấp kéo tới, vốn dĩ chỉ có lũ hạ đẳng này mới hứng thú với mủ máu cùng xác thịt thối rữa.
+
+Chúng thèm thuồng nhìn chằm chằm vào miếng thịt rữa vẫn còn biết di động này, song cũng có đôi phần kiêng dè khí tức trên người Ứng Hàn Y, bèn lẽo đẽo bám theo sau lưng hai người, chờ đợi đến khoảnh khắc bọn họ tắt thở sẽ ùa lên xâu xé.
+
+Tử khí trên người Hạ Khanh Tuyên càng lúc càng nồng đậm. Quạ đen vỗ cánh ràn rạt, đôi mắt đỏ ngầu gắt gao nhìn chằm chằm miếng mồi sắp sửa vào miệng, nước dãi hôi tanh từ miệng lũ yêu thú từng giọt từng giọt nhỏ xuống.
+
+Hai vị đại năng sắp sửa trở thành thức ăn trong mâm của kẻ khác, mà lại còn là những thứ lũ ngày thường bọn họ chẳng thèm liếc mắt nhìn tới.
+
+Đây quả thực là trò cười mà bất kỳ ai nghe thấy cũng đều thấy nực cười.
+
+Gian nan bò trườn suốt hai mươi dặm, đầu của Hạ Khanh Tuyên rũ xuống.
+
+Gương mặt thanh tuấn diễm lệ kia vương đầy bụi bặm cùng vết máu bẩn, mấy lọn tóc cũng bết dính vào mặt, đẫm máu đặc quánh, xấu xí đến không thể xấu xí hơn.
+
+Trong lòng Ứng Hàn Y ngoài miệng tuy ghét bỏ, song ánh mắt lại gắt gao nhìn chằm chằm, chỉ sợ hơi thở kia thực sự hoàn toàn dứt đoạn.
+
+Lũ yêu thú sớm đã rục rịch chờ đợi, vừa thấy người duy nhất còn có thể cựa quậy đã bất động liền bắt đầu mon men lại gần. Chạy nhanh nhất là một con Song Đầu Lang cấp ba, trong đôi mắt xanh biếc tràn ngập vẻ thèm thuồng thịt tươi.
+
+Con ác lang xảo quyệt không hề nhằm vào Hạ Khanh Tuyên vừa rồi còn cử động được, mà lại hướng về phía Ứng Hàn Y ngoác cái miệng tanh tưởi hôi hám của nó ra.
+
+Ứng Hàn Y khẽ bật cười một tiếng.
+
+Ngay khoảnh khắc hàm răng sắc nhọn của con ác lang sắp sửa cắn đứt cổ họng y, một tia ma khí mảnh như tơ đã xuyên thủng trái tim con yêu thú. Máu tươi đỏ thẫm tưới đẫm ma khí, khiến luồng ma khí ấy nhuốm một màu đỏ lòm của máu.
+
+Biến cố xảy ra quá đỗi chớp nhoáng, toàn bộ lũ yêu thú cùng quạ đen lập tức hoảng loạn tản ra tứ phía. Thế nhưng tia ma khí mảnh dẻ kia lại nhanh như tia chớp, xuyên thủng tất cả bọn chúng.
+
+Ma khí rốt cuộc cũng trở nên thô to ngưng thực hơn đôi chút, trông chừng đã dày bằng mấy sợi tóc gộp lại.
+
+Ứng Hàn Y không chút do dự dẫn luồng ma khí này vào cơ thể Hạ Khanh Tuyên. Người vốn dĩ nên vĩnh viễn ngủ say như vậy bỗng nhiên ho khan một tiếng, trái tim đã ngừng đập lại một lần nữa đập lên, thứ duy nhất còn sống trong thể xác này lại bừng lên sinh cơ.
+
+Cứu một kẻ xa lạ như Hạ Khanh Tuyên thật quá đỗi ngu xuẩn, mà độ luồng ma khí kia cho Hạ Khanh Tuyên như Ứng Hàn Y cũng ngu xuẩn chẳng kém.
+
+Y hoàn toàn rơi vào hôn mê.
+
+Hạ Khanh Tuyên giãy giụa tỉnh lại. Hắn không rõ mình đã thiếp đi bao lâu, chỉ dựa vào niềm tin duy nhất mà tiếp tục tiến bước.
+
 Mười dặm, năm dặm, một dặm.
 
-Móng tay của anh ta đều bị gãy, xương trắng lộ ra lờ mờ ở đầu gối và khuỷu tay. Máu thịt của anh ta đẫm máu đến mức trông giống như một con ma độc ác vừa bò ra khỏi địa ngục.
-Cuối cùng khi họ đến Ma giới và vô số năng lượng ma quỷ tràn về phía họ, He Qingxuan một lần nữa phun ra một ngụm máu chứa thịt băm.
-Đến cuối ngày, tôi không cần phải níu kéo nữa.
-Ma lực vốn đã yếu ớt không thể chống đỡ nổi nỗ lực tuyệt vọng của cơ thể. Nó cố gắng hấp thụ năng lượng ma quỷ trong không khí để hàn gắn cơ thể rách nát.
-Mo Qi chưa bao giờ nghĩ rằng cơ thể của một người sống sẽ thối rữa như vậy, hay nói đây thực sự là một người sống?
-Năng lượng ma quỷ rất khó sửa chữa đã bất lực. Ngay khi nó sắp bỏ cuộc, một lượng ma lực như đại dương tràn vào cơ thể.
-Người duy nhất có thể làm được điều này chính là chủ nhân của nó - Ying Hanyi.
-Người đàn ông có mái tóc đen và đôi mắt đen vẫn đang bị bệnh, nhưng anh ta đã truyền toàn bộ năng lượng ma quỷ có thể tập hợp được về phía He Qingxuan.
-"Bạn không được phép chết."
-"Bạn có nghe thấy không? Bạn không được phép chết!"
-Cơ thể của anh, đã được hàn gắn quá nhiều lần, đã đạt đến giới hạn. Không có gì mà người khác có thể dễ dàng bỏ lại phía sau. Ngay cả khi Ying Hanyi truyền một dòng năng lượng ma quỷ ổn định vào cơ thể anh ta, anh ta vẫn bắt đầu mất đi sức sống và trái tim cuối cùng đã phục hồi nhịp đập yếu ớt cũng ngừng đập.
-Việc một cơ thể hoàn toàn có linh hồn biến thành ma là điều tuyệt đối không thể xảy ra.
-"Ta nói ngươi không được phép chết." Giọng nói bình tĩnh cuối cùng cũng mất bình tĩnh. Bất kể mùi hôi thối, anh đặt tay lên trái tim của He Qingxuan và sửa chữa cơ thể bị hỏng.
-Có rất nhiều thứ mà một cường giả có thể để lại, nhưng trong đó không bao gồm những xác chết vô hồn.
-Cơ thể của He Qingxuan đang phân hủy quá nhanh. Cơ thể suy tàn của anh đã chờ đợi ngày này đã lâu, không còn cơ hội để anh sống lại.
-Ying Hanyi nắm chặt tay thành nắm đấm, lòng bàn tay bị thủng từ từ để lại một chút vết máu.
-Không phải là anh chưa từng gặp những người đã hy sinh mạng sống để cứu anh. Họ cũng chết vì anh, nhưng tại sao, tại sao người đã nhìn thấy cả hai phía này lại khiến anh khó chịu đến thế?
-Giống như... đánh mất một thứ gì đó vô cùng quý giá.
-Chương 73
-Anh biết rõ ràng người này nhất định phải chết, nhưng Ứng Hàn Di vẫn giơ tay lên đặt trước mũi đối phương. Đúng như dự đoán, anh ấy không thở chút nào.
+Móng tay hắn gãy vụn toàn bộ, đầu gối và cùi chỏ lờ mờ lộ ra từng khúc xương trắng hếu, máu thịt be bét hệt như ác quỷ vừa bò ra từ nơi địa ngục u minh.
 
-Bàn tay của hắn từ trước đến nay rất vững vàng, rất vững vàng khi dùng một kiếm chém yêu, cũng rất vững vàng khi đào xương tiên của chính mình ra, nhưng bây giờ lại có chút run rẩy.
-Với một sự run rẩy không thể nhận ra, đầu ngón tay của anh chạm vào má đối phương.
-Nhưng anh ấy đang run rẩy không ngừng, và dường như ngay cả làn da của anh ấy cũng trở nên lạnh lẽo…
-Anh ta nhíu mày, di chuyển tay cực kỳ cẩn thận, vén mái tóc dính máu, sau đó lau sạch vết máu trên mặt đối phương từng chút một, để lộ làn da trắng như tuyết bên dưới.
-Đây thực sự là một khuôn mặt rất đẹp trai và xinh đẹp. Khuôn mặt như vậy hiếm có ngay cả ở vương quốc Huyền Thiên và Kyushu, nơi có rất nhiều người đẹp. Trước đây thì không có vẻ như vậy, nhưng bây giờ khi mắt đối phương đã hoàn toàn nhắm lại, Ứng Hàn Di kinh ngạc nhận ra khuôn mặt này dường như hoàn toàn khác với khuôn mặt của một con quỷ nào đó trong trí nhớ của mình. Đôi mắt vốn dĩ u ám đến khó chịu khi nhìn thấy anh, rõ ràng đang mỉm cười trước khi chết.
-Nụ cười ấm lòng, gió xuân dụi dụi vào mắt, nhưng lại có chút bất đắc dĩ cùng buồn bã.
-Người đàn ông nói rằng anh ta sẽ về nhà sẽ không bao giờ có thể trở về nhà được nữa.
-Ying Hanyi cảm thấy thật buồn cười, còn thực sự cười lớn: "Anh ấy sau này là người em thích, tại sao bây giờ em lại phải mạo hiểm mạng sống của mình vì anh? Nhìn xem, em sẽ ở đây mãi mãi, sau này anh không thể đợi được em."
-Người chết còn nghe được không? Tất nhiên điều đó là không thể, nhưng đây là lần đầu tiên Ứng Hàn Di tha mạng cho một người đã chết.
+Khi rốt cuộc cũng đặt chân tới Ma Vực, vô số ma khí cuồn cuộn ùa về phía bọn họ, Hạ Khanh Tuyên lại một lần nữa nôn ra một ngụm máu lẫn cả vụn thịt.
+
+Nỏ mạnh đã cạn đà cuối cùng không cần phải gượng chống đỡ thêm nữa.
+
+Luồng ma khí vốn đã yếu ớt căn bản chẳng thể chống đỡ nổi một thân xác liều mạng đến bực này. Nó cố gắng hấp thu ma khí trong không khí để vá víu thân thể rách rưới tả tơi kia.
+
+Ma khí chưa bao giờ nghĩ rằng thân xác của một người sống lại có thể nát bấy đến mức này, hay đúng hơn là phải hỏi đây thực sự còn là người sống hay chăng?
+
+Luồng ma khí gian nan tu bổ rốt cuộc cũng hoàn toàn bất lực. Ngay khi nó sắp sửa bỏ cuộc thì một luồng ma khí bàng bạc mênh mông như biển rộng sông dài ồ ạt tràn vào thân thể này.
+
+Kẻ có thể làm được đến bước này chỉ có thể là chủ nhân của nó —— Ứng Hàn Y.
+
+Người nam tử tóc đen mắt đen kia bản thân còn đang mang đầy thương tật yếu ớt, lại dốc hết toàn bộ ma khí có thể ngưng tụ được truyền sang cho Hạ Khanh Tuyên.
+
+“Ngươi, không được chết.”
+
+“Nghe thấy chưa? Không được chết!”
+
+Thân thể bị vá víu quá nhiều lần đã tới cực hạn, đâu phải thứ mà người ngoài có thể dễ dàng níu giữ được. Dẫu cho Ứng Hàn Y không ngừng truyền ma khí vào cho hắn, hắn vẫn dần dần mất đi sinh cơ như cũ, trái tim thật vất vả mới khôi phục lại từng nhịp đập yếu ớt cũng triệt để ngừng đập.
+
+Toàn Linh Chi Thể tuyệt đối không có khả năng chuyển sang quỷ tu.
+
+“Bản tôn đã nói ngươi không được chết.” Giọng nói vốn luôn lãnh đạm bình tĩnh cuối cùng cũng thất thố, y chẳng màng đến mùi hôi thối thối rữa, đặt tay lên vị trí trái tim của Hạ Khanh Tuyên, ra sức tu bổ thân xác rách nát kia.
+
+Thứ mà bậc cường giả đại năng có thể lưu giữ lại trên cõi đời này thực sự quá nhiều, nhưng tuyệt nhiên không bao gồm một cỗ thi thể đã cạn sạch sinh cơ.
+
+Tốc độ thối rữa của thân thể Hạ Khanh Tuyên quá nhanh quá mau, thân xác tàn tạ sớm đã chực chờ ngày này, chẳng chừa lại cho người ta lấy nửa phần cơ hội để cải tử hoàn sinh.
+
+Bàn tay Ứng Hàn Y siết chặt thành nắm đấm, lòng bàn tay bị móng tay đâm rách rỉ ra từng vệt máu đỏ.
+
+Y không phải chưa từng gặp những kẻ liều mình xả thân cứu y, bọn họ cũng đều vì y mà chết. Nhưng vì sao, vì cớ gì một kẻ chỉ mới gặp qua có hai lần, lại khiến y khó chịu đau đớn đến nhường này?
+
+Giống như thể... y vừa đánh mất đi thứ gì đó vô cùng trân quý.
+
+Chương 73
+
+Rõ ràng biết người này chắc chắn đã chết đến mức không thể chết thêm được nữa, song Ứng Hàn Y vẫn đưa tay đặt trước mũi đối phương. Quả nhiên đúng như dự liệu, không còn lấy nửa tia hơi thở.
+
+Tay y xưa nay vốn rất vững, một kiếm trảm yêu trừ ma rất vững, khi tự tay móc tiên cốt của chính mình cũng vững vàng như thế, duy chỉ có lúc này lại khẽ run lên từng hồi nhè nhẹ.
+
+Trong sự run rẩy khó lòng nhận ra ấy, đầu ngón tay y khẽ vuốt ve lên gò má đối phương.
+
+Nhưng rồi lại không khống chế nổi mà khẽ run lên một cái, tựa như ngay cả da thịt đối phương cũng đã trở nên lạnh ngắt...
+
+Y rủ mi mắt, động tác nơi tay cực kỳ cẩn trọng, vén đi những lọn tóc bết dính vết máu bẩn, lại từng chút từng chút lau sạch những vết máu tanh trên gương mặt đối phương, để lộ ra làn da trắng như tuyết bên dưới.
+
+Đây thực sự là một gương mặt vô cùng tuấn tú đẹp đẽ, gương mặt như vậy dẫu là ở Huyền Thiên Cửu Châu giới giai nhân như mây cũng là hàng hiếm thấy. Trước đó y chưa cảm thấy thế nào, nay khi đôi mắt đối phương đã hoàn toàn nhắm nghiền, Ứng Hàn Y mới giật mình nhận ra gương mặt này dường như đã khác biệt một trời một vực so với tên ma đầu nào đó trong ký ức của y. Đôi mắt vốn dĩ u ám đến mức khiến người ta nhìn thấy liền khó chịu, trước lúc lâm chung rõ ràng là ngậm ý cười.
+
+Nụ cười ấy ấm áp rạng ngời, tựa như vò cả làn gió xuân dịu dàng vào nơi đáy mắt, nhưng lại phảng phất chút luyến lưu cùng bi thương mỏng manh.
+
+Kẻ từng nói muốn về nhà, nay vĩnh viễn chẳng thể về nhà được nữa.
+
+Ứng Hàn Y cảm thấy có chút buồn cười, y cũng thực sự bật cười thành tiếng: “Hắn của tương lai mới là người ngươi thích, cớ sao ngươi lại phải vì ta của hiện tại mà bồi thêm tính mạng. Ngươi xem, ngươi vĩnh viễn ở lại nơi này rồi, ta của tương lai sao có thể đợi được ngươi nữa đây.”
+
+Người đã chết liệu còn nghe thấy được chăng? Đương nhiên là không thể rồi. Thế nhưng đây lại là lần đầu tiên Ứng Hàn Y chẳng buông tha cho cả một người đã chết.

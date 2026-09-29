@@ -1,56 +1,101 @@
 ---
-title: Đại Ma Đầu Nhật Nhật Tưởng Sát Ngã — ch_090
+title: Chương 90
 ---
 
-"Hoàng đế của Hades."
-Hoàng đế Hades nghiêng đầu và nở một nụ cười mà người bình thường không thể làm được. Vòng cung của nụ cười vặn vẹo và đáng sợ một cách khủng khiếp.
-"Hồn linh thể, ngươi tỉnh nhanh hơn ta tưởng tượng, đây thật sự không phải chuyện tốt."
-Hà Thanh Huyền nhìn quanh, giả vờ hoảng hốt nhưng buộc mình phải bình tĩnh lại: "Ngươi, ngươi ở đâu? Ta không phải là khách trong Ma Cung sao? Tại sao ta lại tới đây?"
-"Là khách? Hahahahahahaha." Hoàng đế Hades nhìn lên trời và cười.
-Cười đã đủ, nàng lau đi những giọt nước mắt không tồn tại trên mắt: "Quỷ Hoàng lừa gạt trẻ con như vậy sao?"
-He Qingxuan vẫn im lặng, có vẻ bị xúc phạm.
-"So với Yêu Hoàng giả nhân giả nghĩa, ta cao thượng hơn nhiều. Yêu Hoàng muốn thần hóa kỳ trong thân thể sung mãn. Dù sao tu vi hiện tại của ngươi không thể đột phá Thái Thượng Lương Nghi Kinh. Nhưng loại người nào có thể nhanh chóng đề cao tu vi? Đương nhiên, biện pháp duy nhất chính là thu thập các loại thiên tài địa bảo đến giúp ngươi."
-Chỉ dựa vào bảo vật của trời đất thì không có cách nào có thể nhanh chóng thăng cấp Hóa Thần cảnh, nếu không Hóa Thần sẽ không phải là hàng khan hiếm.
-"Ngươi muốn luyện hóa thân thể của ta, biến nó thành một con rối sống."
-"Thông minh."
-He Qingxuan không phải là không có suy đoán về điểm này. Anh đã chuẩn bị sẵn sàng cho nguy hiểm ngay từ khi quyết định đi sâu.
-"Hiện tại ta đang suy nghĩ, ta có nên để ma quỷ xé nát thân thể của ngươi, ném ngươi vào trong ao máu này để sửa chữa và tổ chức lại hay không, hay là ta chỉ nên ném ngươi vào trong, chịu đựng sự ăn mòn của ao máu?"
-Hà Thanh Huyền không trả lời.
-Hades hoàng đế mỉm cười: "Đừng sợ. Dù là bị quỷ ăn thịt hay là thịt tan trong vũng máu, ta đều từng trải qua. Cảm giác đó khá là đẹp. Đau đớn luôn khiến con người trở nên mạnh mẽ hơn phải không?"
-“Khi trải qua điều này, linh hồn con người rất dễ suy sụp, chưa kể nước của Hades hoàng đế trong đó có rất nhiều thứ trói buộc và giam cầm linh hồn.”
-"Ngươi đã ở bên cạnh Miexu hoàng đế, hắn không tin tưởng ngươi, ta cũng không tin tưởng ngươi. Dù sao, một đứa nhóc ngoan sẽ không giả vờ trở thành nạn nhân của thuật khống chế linh hồn của ta."
-Hạ Thanh Huyền ánh mắt hơi động, nhưng không nói gì.
-"Hả? Chẳng lẽ là ta hiểu lầm ngươi sao?"
-Nụ cười trên đôi môi đỏ tươi dày đặc và đầy sự xấu xa.
+“Minh Đế.”
 
-Minh vương tu luyện thành tựu như vậy, sao có thể không nhìn ra một chiêu trò nhỏ của con chuột nhỏ? Khi nhìn thấy nó, cô càng phấn khích hơn.
-He Qingxuan bị cầm tù vừa bị ném xuống vũng máu.
-Đúng như Hoàng đế Hades đã nói, vũng máu này có tác dụng ăn mòn. Anh ta có thể cảm nhận rõ ràng rằng máu thịt của mình đang hòa tan và hấp thụ đủ thứ kỳ lạ trong những vũng máu này.
-Thời điểm gần nhất với cái chết là khi nào? Đó là khi máu thịt của anh ta bị một lưỡi dao cắt đứt ở kiếp trước, hay khi linh hồn của anh ta bị ma quỷ cắn xé, hay khi anh ta phải chịu sự tra tấn vô tận. Cơ thể anh đã phải chịu đựng quá nhiều đến nỗi ngay cả cơn đau dường như cũng bắt đầu làm anh tê liệt.
-He Qingxuan thực sự đã có một số suy đoán về kết quả này.
-Ma Vương muốn toàn thể linh hồn của hắn giúp hắn đọc Thái Thượng Lương Nghi Kinh Thư, nhưng hắn có thể đột phá một vật cổ xưa như vậy chỉ trong một giai đoạn Nguyên Anh sao? Tất nhiên là không.
-Ying Hanyi hỏi anh có muốn học cách đạt được sự tu luyện của một vị thần không.
-Cấm kỹ cổ xưa, lấy đi phương pháp tu luyện.
-Khi đó, anh ấy nói với Ying Hanyi rằng anh ấy muốn tự mình luyện tập, nhưng trên thực tế, anh ấy đã biết bộ kỹ thuật này.
-Quá trình cơ thể bị ăn mòn thực sự rất đau đớn. Trong lúc bàng hoàng, anh như quay trở lại thời điểm linh hồn bị vạn ma cắn nát nhiều năm trước. Ý thức của hắn bắt đầu mơ hồ, phương pháp tu luyện chôn sâu trong lòng hắn đang dần dần vận hành.
-Anh càng chìm sâu hơn.
-Không một tiếng rên rỉ đau đớn nào vang lên, Hoàng đế Hades trở nên nghi ngờ. Dù muốn hôn mê sau khi vào vũng máu nhưng mọi người cũng phải tỉnh táo chịu đựng cơn đau.
-Ngay khi Hoàng đế Hades đang đến gần, một thế lực khủng khiếp đột nhiên ép về phía cô. Khi Hoàng đế Hades hơi choáng váng, cô bất ngờ bị kéo xuống vũng máu.
-Cảm giác da bị ăn mòn thật khó chịu và các hồn ma cũng vậy. Hoàng đế Hades hiểu được sức mạnh đến từ ai chỉ trong giây lát. Đó là sức mạnh của Ying Hanyi. Ying Hanyi thực sự có một sức mạnh mạnh mẽ như vậy ở He Qingxuan.
-Hoàng đế Địa ngục trở nên tức giận với tất cả các chiến lược gia. Mái tóc dài như rong biển của cô ấy chuyển động mà không cần gió, và sức mạnh tàn bạo trào ra khỏi cơ thể cô ấy. "Ta đã trải qua này huyết trì mấy ngàn năm trước, ngươi cảm thấy nó có thể hữu dụng với ta sao?"
-Vô số dây leo từ máu vướng vào Diêm Vương.
-Hades chế nhạo đối phương, dùng trứng đập vào đá, chặt đứt vô số dây leo, nhưng xem ra những dây leo này không thể cắt sạch sẽ. Ngay khi cô cắt chúng đi, vô số dây leo khác lại xuất hiện xung quanh.
-Sức mạnh của cô đang dần biến mất vì lý do nào đó. Hoàng đế Hades biết rằng vũng máu không nên tồn tại lâu nên ông đã nhanh chóng cắt đứt dây leo. Có thứ gì đó đang đến gần. Hoàng đế Hades đã tìm đúng thời điểm và móng vuốt sắc nhọn của ông đột nhiên xuyên qua ngực của con chuột vô danh.
-Rõ ràng là do tay cô cử động, nhưng một cơn đau thấu tim lại ập vào ngực cô. Trong khoảnh khắc bất tỉnh đó, cô bị bao bọc bởi vô số dây leo.
-Máu thịt của He Qingxuan đã bị cắt xén, thậm chí anh ta còn nói được bằng giọng nói thần thánh.
+Minh Đế nghiêng đầu, nở một nụ cười mà người bình thường căn bản không thể nào làm được với Hạ Khanh Tuyên. Độ cong của nụ cười kia vặn vẹo dữ tợn, lộ rõ vẻ rợn người kinh dị.
 
-"Hãy thoải mái và là nguồn dinh dưỡng của tôi."
-Sức mạnh trong cơ thể không ngừng biến mất, lao về phía đối phương. Hoàng đế Hades mở to mắt không thể tin được: "Cướp, chiếm đoạt phương pháp tu luyện!"
-"Bây giờ, ta đã hoàn thành tâm nguyện của Hades đại nhân rồi phải không? Ta không chỉ có thể trở thành thần, ta còn có thể trở thành một vị thần hoàn mỹ."
-"Làm sao ngươi có thể, ngươi làm sao có thể biết được đại pháp đoạt tu vi, làm sao có thể đoạt được tu vi của ta."
-He Qingxuan im lặng hấp thụ sức mạnh khổng lồ trong vũng máu. Cơ thể thối nát và dễ bị tổn thương của anh nhanh chóng được sửa chữa, làn da của anh bắt đầu mịn màng trở lại. Khi cơ thể ngày càng hoàn thiện, cơ thể của Hades dần dần mục nát và biến thành xương trắng.
-Hạ Thanh Huyền ánh mắt lạnh lùng, cuối cùng hắn đã bước vào con đường bị chiếm hữu.
-Linh hồn còn sót lại của Hoàng đế Hades sắp tan rã, nhưng vẻ mặt của He Qingxuan lại ngày càng tốt hơn. Anh thì thầm với người sắp biến mất:
-"Chắc chắn là do Hades đại nhân ở kiếp trước làm ra. Cảm ơn sự hiếu khách của các bạn."
-Chương 49
-"Bạn đang nói về cái gì vậy?"
+“Toàn Linh Chi Thể, ngươi tỉnh rồi. Nhanh hơn bản tọa nghĩ đấy, điều này thực sự chẳng phải chuyện tốt lành gì.”
+
+Hạ Khanh Tuyên đánh giá bốn phía một phen, cố làm ra bộ dạng có chút hoảng sợ nhưng lại gượng ép trấn định: “Ngươi... nơi này là nơi nào? Ta không phải đang làm khách ở Yêu Điện sao? Sao lại tới đây?”
+
+“Làm khách? Ha ha ha ha ha.” Minh Đế ngửa mặt lên trời cười lớn.
+
+Đợi cười đủ rồi, nàng mới lau đi giọt nước mắt vốn chẳng hề tồn tại nơi khóe mi: “Yêu Hoàng chính là lừa gạt con nít như vậy sao?”
+
+Hạ Khanh Tuyên im lặng không nói, làm ra vẻ như bị người ta mạo phạm.
+
+“So với vẻ dối trá của Yêu Hoàng, bản tọa lại phẳng lặng quang minh hơn nhiều. Yêu Hoàng muốn có một Toàn Linh Chi Thể cảnh giới Hóa Thần, rốt cuộc thì tu vi hiện tại của ngươi căn bản không có cách nào lĩnh ngộ được Thái Thượng Lưỡng Nghi Quyển. Nhưng dạng người nào mới có thể nhanh chóng nâng cao tu vi chứ? Đương nhiên chỉ có thể thu thập đủ loại thiên tài địa bảo, giúp ngươi một tay.”
+
+Chỉ dựa vào thiên tài địa bảo, căn bản không thể nào nhanh chóng bồi dưỡng ra một cường giả Hóa Thần kỳ, bằng không thì Hóa Thần tôn giả cũng chẳng phải thứ hiếm hoi gì.
+
+“Ngươi muốn luyện hóa thân thể ta, chế thành một con rối sống.”
+
+“Thông minh.”
+
+Đối với điều này Hạ Khanh Tuyên chẳng phải là không đoán trước. Ngay từ lúc ban đầu quyết định dấn sâu vào, hắn đã chuẩn bị tâm lý sẵn sàng đối mặt với hiểm nguy.
+
+“Hiện tại, bản tọa đang nghĩ xem, rốt cuộc nên để vạn quỷ xé nát nhục thân của ngươi rồi ném ngươi vào huyết trì này để chữa trị tái tạo lại, hay là trực tiếp ném ngươi xuống chịu đựng sự ăn mòn của huyết trì đây?”
+
+Hạ Khanh Tuyên không trả lời.
+
+Minh Đế cười khẽ: “Đừng sợ. Bất kể là vạn quỷ gặm nhấm, hay là huyết trì nung chảy nhục thân, bản tọa đều từng nếm trải qua. Cảm giác đó vô cùng tuyệt vời đấy, đau đớn luôn khiến con người ta trở nên mạnh mẽ hơn, chẳng phải sao?”
+
+“Khi trải qua những điều này, linh hồn con người cực kỳ dễ dàng tan biến, càng không nói tới việc trong ao nước của Minh Đế còn thêm vào không ít thứ khắc chế giam cầm linh hồn.”
+
+“Ngươi từng ở bên cạnh Diệt Hư Đế Tôn, hắn không yên tâm về ngươi, ta cũng chẳng yên tâm về ngươi. Dẫu sao thì một đứa trẻ ngoan ngoãn cũng sẽ không giả vờ như trúng phải khống hồn thuật của ta.”
+
+Đôi mắt Hạ Khanh Tuyên khẽ dao động, không nói một lời.
+
+“Hử? Chẳng lẽ là bản tọa đã hiểu lầm ngươi rồi.”
+
+Nụ cười trên bờ môi đỏ sẫm càng thêm đậm nét, tràn ngập vẻ ác liệt tàn nhẫn.
+
+Vị Minh Đế đại nhân tu vi đại thành này sao có thể không nhìn thấu chút trò vặt của con chuột nhỏ chứ? Nàng nhìn ra được, lại càng cảm thấy hưng phấn tột cùng.
+
+Hạ Khanh Tuyên đang bị giam cầm cứ thế bị người ta ném thẳng xuống huyết trì.
+
+Đúng như Minh Đế đã nói, huyết trì này mang theo công hiệu ăn mòn cực độ. Hắn có thể cảm nhận rõ ràng da thịt của mình đang tan rã, rồi lại không ngừng hấp thu các loại vật chất kỳ dị quái đản trong huyết trì.
+
+Thời khắc nào là gần kề cái chết nhất? Là khi ở kiếp trước từng tấc thịt trên người hắn bị mũi dao róc rời, hay là khi linh hồn bị lũ quỷ hồn cắn xé giằng kéo, hoặc giả là những màn cực hình vô tận... Thân thể này từng trải qua quá nhiều đau thương ma luyện, đến mức dường như đối với cảm giác đau đớn cũng đã bắt đầu chết lặng.
+
+Đối với kết quả này, trong lòng Hạ Khanh Tuyên thực ra cũng đã có dự liệu.
+
+Yêu Hoàng muốn Toàn Linh Chi Thể như hắn giúp đỡ đọc hiểu Thái Thượng Lưỡng Nghi Quyển, nhưng vật phẩm thượng cổ bực này há một tu sĩ Nguyên Anh kỳ như hắn có thể lĩnh ngộ được sao? Đương nhiên là không thể.
+
+Ứng Hàn Y từng hỏi hắn có muốn học biện pháp đoạt lấy tu vi Hóa Thần hay không.
+
+Thượng cổ cấm thuật, Đoạt Tu Đại Pháp.
+
+Lúc ấy hắn nói với Ứng Hàn Y rằng bản thân muốn tự mình tu luyện hơn, nhưng trên thực tế chỉ là vì hắn vốn đã sớm biết rõ bộ công pháp này từ lâu.
+
+Quá trình thân thể bị ăn mòn rữa nát quả thực quá đỗi đau đớn. Trong cơn hoảng hốt, hắn dường như quay về nhiều năm trước, lúc linh hồn bị vạn quỷ cắn xé tơi bời. Ý thức của hắn dần dần trở nên mơ hồ, mà Đoạt Tu Đại Pháp vùi sâu nơi đáy lòng lại đang chậm rãi vận chuyển.
+
+Hắn càng chìm càng sâu.
+
+Chẳng hề nghe thấy một tiếng rên rỉ đau đớn nào, Minh Đế trong lòng dấy lên nghi hoặc. Bước vào huyết trì, cho dù muốn hôn mê bất tỉnh cũng khó, bất kỳ ai cũng phải tỉnh táo chịu đựng nỗi đau đớn xé ruột xé gan.
+
+Ngay khoảnh khắc Minh Đế tiến lại gần, một luồng sức mạnh khủng bố đột nhiên ập tới đè ép lên người nàng. Giữa lúc Minh Đế còn đang hơi ngẩn người, nàng đã bị người ta đột ngột kéo tụt xuống huyết trì!
+
+Cảm giác da thịt bị ăn mòn khiến người ta đau đớn khôn cùng, đối với loài quỷ cũng chẳng ngoại lệ. Minh Đế chỉ trong chớp mắt đã hiểu ra cội nguồn sức mạnh kia là từ ai. Là lực lượng của Ứng Hàn Y! Ứng Hàn Y thế mà lại lưu lại một đạo sức mạnh hùng hậu đến nhường này trên người Hạ Khanh Tuyên!
+
+Minh Đế vốn luôn tự phụ nắm giữ mọi chuyện trong tay tức khắc giận dữ lôi đình. Mái tóc dài tựa rong biển không gió tự bay, luồng sức mạnh tàn bạo cuộn trào từ cơ thể nàng: “Huyết trì này bản tọa vạn năm trước đã sớm nếm trải qua một lần, ngươi nghĩ nó có tác dụng với bản tọa sao?”
+
+Vô số dây leo do máu tươi hóa thành điên cuồng quấn chặt về phía Minh Đế.
+
+Minh Đế cười nhạo đối phương lấy trứng chọi đá, vung tay chém đứt vô số dây leo. Thế nhưng những dây leo này tựa hồ chém mãi không dứt, nàng vừa chặt đứt một đợt, lại có vô số nhánh khác lao lên trói chặt.
+
+Tu vi cùng sức mạnh của nàng chẳng biết vì sao đang chậm rãi tiêu tán. Minh Đế biết rõ huyết trì không thể ở lâu, tốc độ chém đứt dây leo càng lúc càng nhanh. Có thứ gì đó đang tiến lại gần, Minh Đế canh chuẩn thời cơ, móng vuốt sắc nhọn hung hãn đâm xuyên lồng ngực con chuột không biết sống chết kia!
+
+Rõ ràng là nàng ra tay, thế nhưng một cơn đau nhói thấu tim lại bất ngờ ập đến từ chính lồng ngực nàng! Ngay khoảnh khắc thất thần ngắn ngủi ấy, nàng đã bị vô số dây leo huyết sắc nuốt chửng quấn chặt.
+
+Hạ Khanh Tuyên đã huyết nhục mơ hồ, hắn thậm chí ngay cả cất lời cũng phải dùng tới thần thức truyền âm.
+
+“An tâm làm chất dinh dưỡng cho ta đi.”
+
+Sức mạnh trong cơ thể không ngừng xói mòn, điên cuồng trút về phía một người khác. Minh Đế trợn trừng hai mắt đầy vẻ khó tin: “Đoạt... Đoạt Tu Đại Pháp!”
+
+“Hiện giờ, cũng coi như toại nguyện vọng của Minh Đế đại nhân rồi, chẳng phải sao? Ta không chỉ có thể bước vào cảnh giới Hóa Thần, mà còn có thể thành tựu Hóa Thần viên mãn.”
+
+“Sao ngươi có thể... Sao ngươi có thể biết được Đoạt Tu Đại Pháp! Sao ngươi có thể đoạt lấy tu vi của ta?!”
+
+Hạ Khanh Tuyên im lặng hấp thu nguồn sức mạnh bàng bạc khổng lồ trong huyết trì. Thân thể vốn đã mục rữa đến mức yếu ớt không chịu nổi đòn nhanh chóng được chữa lành phục hồi. Làn da của hắn bắt đầu mịn màng sáng bóng trở lại; mà theo thân thể hắn càng thêm tinh khiết không tì vết, thì thân thể của Minh Đế lại dần dần thối rữa, hóa thành xương trắng rợn người.
+
+Ánh mắt Hạ Khanh Tuyên lạnh lùng đạm mạc. Rốt cuộc thì hắn vẫn bước lên con đường nhập ma.
+
+Tàn hồn của Minh Đế sắp sửa tiêu tán hoàn toàn, khí sắc trên gương mặt Hạ Khanh Tuyên lại càng thêm hồng hào nhuận sắc. Hắn nhìn nữ ma đầu sắp sửa tan biến kia, khẽ nói:
+
+“Kiếp trước hẳn cũng có thủ bút của Minh Đế đại nhân nhỉ. Màn vạn quỷ phệ hồn kia, đa tạ đã chiêu đãi.”
+
+“Ngươi... đang nói cái gì?”

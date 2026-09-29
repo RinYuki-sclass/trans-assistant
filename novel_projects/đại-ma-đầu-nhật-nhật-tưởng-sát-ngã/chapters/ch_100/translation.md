@@ -1,54 +1,97 @@
 ---
-title: Đại Ma Đầu Nhật Nhật Tưởng Sát Ngã — ch_100
+title: Chương 100
 ---
 
-Một phương hướng khác là tìm kiếm thứ gì đó ở ngoại giới có thể sửa chữa vương quốc Huyền Thiên và Cửu Châu. Đây là một chiến trường cổ xưa. Không ai có thể nói trước điều gì sẽ tồn tại. Một khi tìm thấy vũ khí thần tiên thông thường, mạch đất sẽ khiến vũ khí thần tiên đặc biệt này sống lại.
-Tóm lại là một điều gì đó bí ẩn và huyền bí.
-Hoàng đế Hades cực kỳ không hài lòng với việc He Qingxuan đi đến cõi ngoài lãnh thổ một mình, đặc biệt là khi He Qingxuan vẫn đang đến thương quán mà anh ta đã từng đến và sử dụng mảng dịch chuyển tức thời ở cõi ngoài lãnh thổ nơi quá trình này được kích hoạt.
-Quá trắng trợn, tựa như sợ Yêu Hoàng đám người sẽ không tới tìm hắn.
-Sự bất mãn của Hoàng đế Hades tích tụ trong một thời gian dài, cho đến khi He Qingxuan giải phóng ý thức tâm linh của mình và bắt đầu khám phá cõi ngoài trái đất.
-Cô ấy nói, "Bạn không muốn tìm thấy một vũ khí bất tử ở lãnh thổ ngoại quốc rộng lớn này phải không? Những vũ khí thần tiên đã được tổ tiên chúng ta nhặt được từ lâu, không thể nào chúng lại bị bỏ lại. Chúng tôi đã dọn sạch lãnh thổ ngoại quốc trong nhiều năm."
-"Bạn phải cố gắng, phải không?"
-"Nếu có thời gian thử tìm kiếm một kiện tiên khí, tại sao không trước cho ta tìm một thân thể?"
-"Ta nghĩ ta trước tiên có thể thử đột phá kiếp nạn. Dù sao tu vi càng cao, ta càng có thể tìm được càng tốt."
-Những lời này vừa nói ra, thoạt nhìn tựa hồ chẳng có gì, kỳ thực lại tràn ngập uy hiếp. Hoàng đế của Địa ngục không thể chịu được một tia sét nhỏ nhất trong trạng thái linh hồn còn sót lại hiện tại của mình.
-"Ngươi như thế này..." Hoàng đế Hades ngừng nói.
-Hà Thanh Huyền cười nói: “Âm phủ đại nhân có lời gì muốn nói, cứ nói thẳng đi.”
-"Anh Hàn Nhất làm sao có thể chịu đựng được tính khí của anh? Chẳng lẽ anh là một con cừu nhỏ ngoan ngoãn trước mặt Anh Hàn Nhất sao?"
-Việc Ying Hanyi thích một người đã đủ ngạc nhiên rồi, nhưng lại càng kỳ lạ hơn khi anh ấy lại thích một người gai góc như vậy.
-"Có lẽ." He Qingxuan trả lời một cách mơ hồ.
-Hoàng đế Hades không còn quấy rầy cuộc săn tìm kho báu của ai đó nữa, và cô ấy im lặng. He Qingxuan chỉ đi loanh quanh tìm kiếm dấu vết của cổ vật bất tử.
-Hơn mười ngày trôi qua. He Qingxuan, người đang đứng trước mặt anh, ngồi trên một hòn đá bọt và nhìn rất nhiều hòn đá bọt ở đằng xa một lúc lâu.
-"Bạn đang nhìn gì vậy? Bạn đang nghĩ rằng việc tìm thấy vũ khí bất tử là một chặng đường dài, vì vậy bạn có ý định từ bỏ?"
-"Tôi đang nghĩ về điều gì đó."
-"Có chuyện gì thế?"
+Một phương hướng khác chính là tìm kiếm thứ gì đó ở Vực Ngoại lĩnh vực có thể tu bổ sửa chữa Huyền Thiên Cửu Châu giới. Nơi đây vốn là thượng cổ chiến trường, tồn tại những thứ gì thì chẳng một ai có thể nói chắc được. Một khi tìm được tiên khí thuộc loại hình quy tắc, địa mạch ắt sẽ vì loại tiên khí đặc thù này mà khởi tử hồi sinh.
 
-"Bạn có nghĩ rằng thế giới ngoài trái đất này là một không gian đặc biệt khác với các thế giới khác không?"
-"Tất nhiên là có tính."
-“Nó có giống một thế giới khác không?”
-"Hả? Bạn muốn nói gì?"
-"Ta muốn nói, nếu như vậy, vậy tại sao ta không thể thử luyện chế nó? Thay vì tìm kiếm vũ khí bất tử không biết chúng tồn tại ở đâu, ta thà trực tiếp luyện chế ngoại giới. Bằng cách này, ta có thể sử dụng nó. Hơn nữa, nếu ta lấy ra hạch tâm của không gian hư không còn sót lại từ thời thượng cổ này để sửa chữa Huyền Thiên Cửu Châu giới..."
-Hãy xem, đây có phải là ngôn ngữ của con người?
-Hades hoàng đế ngắt lời: "Đừng nghĩ tới, không có khả năng! Ngươi đang đùa à? Luyện chế lĩnh vực ngoài lãnh thổ!"
-He Qingxuan trông không hề bị sốc chút nào. Anh ấy thậm chí còn nghĩ về khả năng này với sự quan tâm lớn.
-Ngoại Giới là chiến trường cổ xưa còn sót lại từ xa xưa. Nó có thể là một nơi có thể so sánh với Thượng giới trước đây, hoặc nhiều khả năng nó là một nơi có sức mạnh tâm linh cao hơn Thượng giới. Nó đã phải chịu đựng những cuộc chiến tranh cổ xưa và trải qua sự hỗn loạn, hình thành nên Ngoại Giới như bây giờ. Nhưng bản chất nó là một thế giới, một thế giới đáng lẽ phải diệt vong nhưng đã tự sửa chữa đến mức như hiện tại.
-Nếu nó được tinh chế, cốt lõi của nó được chuyển đến Huyền Thiên Cửu Châu Cảnh, và cả hai hợp thành một, liệu các mạch đất của Huyền Thiên Cửu Châu Cảnh trong Thời Đại Mạt Pháp có được khôi phục không?
-He Qingxuan nhìn vào khoảng trống trước mặt với đôi mắt sáng ngời.
-Vì vậy, bây giờ câu hỏi đặt ra là làm thế nào để tinh chỉnh một không gian như vậy.
-Chương 57
-Việc tinh chỉnh một thế giới nhỏ đã khó khăn rồi. Nếu như Thủy Vân Bí Cảnh lần trước không ở đúng thời điểm và địa điểm, hắn khó có thể luyện hóa nó.
-Ngày nay, muốn cải tiến toàn bộ lĩnh vực ngoài lãnh thổ cũng giống như một điều mơ tưởng.
-Hoàng đế nhà Minh hiện đang bị ràng buộc với He Qingxuan, và lo lắng nhất cho sự an toàn của He Qingxuan. Nhìn thấy He Qingxuan ngồi trên đá bọt suy nghĩ về điều gì đó không thể, anh ấy có chút lo lắng, "Mặc dù thế giới ngoại địa hiện tại như thế nào, đó là một không gian cổ xưa và không thể tinh luyện được. Cho dù bạn chia tay với Hoàng đế Miexu, ít nhất bạn cũng nên tìm một nơi an toàn."
-He Qingxuan nói rằng với những chuyện như thế này, Quỷ Hoàng sớm muộn cũng sẽ đến tìm anh. Nếu đối phương không thể đối phó được Ying Hanyi, chẳng lẽ hắn cũng không thể đối phó được một người đã đạt tới thành thần viên mãn bằng cách lấy đi tu vi của người khác sao?
-Hạ Thanh Huyền chết là chuyện nhỏ, nhưng bị nàng kéo vào lại là chuyện lớn. Hoàng đế Hades thực sự không muốn bị He Qingxuan kéo xuống.
-“Lãnh địa bên ngoài không phải là nơi an toàn sao?” Hà Thanh mỉm cười hỏi.
-Hoàng đế Hades có lẽ đã chế nhạo lời nói của He Qingxuan và thậm chí không đáp lại.
+Nói một cách giản đơn thì cũng là thứ huyền chi lại huyền.
 
-"Thật ra, tôi có chút tò mò về việc Diêm Vương phục sinh Trường Lâm Tiên Quân như thế nào."
-“Tôi sợ chuyện này không liên quan đến anh.”
-"Ngươi không thể tò mò sao? Dù sao Trường Lâm Tiên Quân đã chết lâu như vậy, tại sao bây giờ hắn lại sống lại? Người đó là Trường Lâm Tiên Quân sao? Trường Lâm Tiên Quân đáng lẽ phải phân tán khi chết rồi. Cho dù còn sót lại tro bụi cũng cực kỳ hiếm thấy. Nhưng dù vậy, Hades Hoàng đế vẫn sản sinh ra Trường Lâm Tiên Quân, điều này chứng tỏ công nghệ "hồi sinh từ cõi chết" của Đại vương Hades khá siêu việt."
-Giọng điệu của Hades hoàng đế trở nên lạnh lùng hơn: "Ngươi muốn nói gì?"
-He Qingxuan cười khúc khích, "Bạn đã cố gắng hồi sinh tộc nhân của mình, có lẽ là vô số lần, vì vậy bạn có thể "làm cho anh ta sống lại" khi Chúa bất tử Changlin hỗn loạn, nhưng người đó không phải là Chúa bất tử Changlin, và tộc nhân mà Chúa tể Hades hồi sinh không phải là tộc nhân của bạn, phải không.
-Im lặng hồi lâu, Hoàng đế Hades dùng giọng điệu nguy hiểm nói: "Ngươi muốn nói gì?"
-Hà Thanh Huyền nhẹ nhàng thở dài, "Tại sao cần phải nói rõ ràng như vậy? Diêm Vương tựa hồ hoàn toàn yếu hơn Yêu Hoàng, nhưng hắn vẫn hợp tác với Yêu Hoàng. Ngươi dựa vào sự chính trực của Yêu Hoàng sao? Đương nhiên là không. Sự tự tin của ngươi đến từ thực lực của ngươi. Vậy thực lực nào khiến Diêm Vương phải cẩn thận như vậy? Đương nhiên, ngươi có thể "hồi sinh" một số người lẽ ra đã chết từ lâu. Thật là một năng lực đáng sợ."
-Bây giờ Minh Đế mới thực sự cảm nhận được cảm giác tê cả da đầu là như thế nào. Bất kể tu vi của cô như thế nào, sự tồn tại hiện tại của cô trong biển ý thức của He Qingxuan dường như là kế hoạch của người này.
+Minh Đế đối với việc Hạ Khanh Tuyên đơn thương độc mã tiến vào Vực Ngoại lĩnh vực vô cùng bất mãn, đặc biệt là việc Hạ Khanh Tuyên còn đường đường chính chính đi tới thương hội, làm đúng quy trình để khởi động truyền tống trận tới Vực Ngoại lĩnh vực.
+
+Hành động quá mức trắng trợn rêu rao, tựa như sợ đám người Yêu Hoàng không tới tìm hắn vậy.
+
+Sự bất mãn của Minh Đế tích tụ lại một hồi lâu, đợi đến khi Hạ Khanh Tuyên phóng thích thần thức, bắt đầu tìm kiếm thăm dò khắp Vực Ngoại lĩnh vực.
+
+Nàng rốt cuộc mở miệng: “Ngươi chẳng lẽ thật sự muốn tìm kiếm một kiện tiên khí trong Vực Ngoại lĩnh vực rộng lớn mênh mông này đấy chứ? Tiên khí thứ này đã sớm bị tiền bối năm xưa của chúng ta nhặt sạch từ lâu rồi, không thể nào còn sót lại được. Chúng ta dọn dẹp quét tước Vực Ngoại lĩnh vực này đã bao nhiêu năm nay rồi chứ.”
+
+“Dù sao cũng phải thử một lần, chẳng phải sao?”
+
+“Có thời gian thử tìm tiên khí, chi bằng trước hết hãy tìm cho bản tọa một thân thể đi.”
+
+“Ta lại thấy ta có thể thử đột phá Độ Kiếp kỳ trước thì hơn, dẫu sao tu vi càng cao thì càng dễ tìm kiếm, chẳng phải sao?”
+
+Lời này vừa thốt ra, thoạt nhìn như chẳng có gì, nhưng thực chất lại tràn ngập ý tứ uy hiếp. Trạng thái tàn hồn hiện tại của Minh Đế làm sao chịu nổi dẫu chỉ nửa điểm thiên lôi chứ.
+
+“Ngươi cái tính tình này...” Minh Đế muốn nói lại thôi.
+
+Hạ Khanh Tuyên mỉm cười ra hiệu: “Minh Đế đại nhân có lời gì cứ nói thẳng là được.”
+
+“Ứng Hàn Y làm sao chịu nổi cái tính nết này của ngươi chứ? Chẳng lẽ ở trước mặt Ứng Hàn Y ngươi là một con cừu nhỏ ngoan ngoãn sao?”
+
+Ứng Hàn Y biết thích một người đã đủ khiến thiên hạ kinh ngạc rồi, mà người y thích lại còn là kẻ toàn thân đầy gai nhọn thế này thì lại càng quái lạ hơn.
+
+“Có lẽ vậy.” Hạ Khanh Tuyên đáp lại một cách mập mờ lấp lửng.
+
+Minh Đế không tiếp tục quấy rầy đại nghiệp tầm bảo của ai đó nữa, nàng liền im bặt trầm mặc. Hạ Khanh Tuyên cứ thế vừa đi vừa dừng, tìm kiếm tung tích của tiên khí.
+
+Hơn mười ngày trôi qua như thế, Hạ Khanh Tuyên trước đó một khắc cũng chẳng chịu dừng lại nay lại ngồi xếp bằng trên một tảng phù thạch lơ lửng, nhìn xa xăm về phía vô số phù thạch đằng xa, vừa nhìn liền nhìn suốt một hồi lâu.
+
+“Ngươi đang nhìn cái gì thế? Là cảm thấy tìm kiếm tiên khí xa vời không hẹn ngày gặp, cho nên định từ bỏ rồi sao?”
+
+“Ta đang suy nghĩ một chuyện.”
+
+“Chuyện gì?”
+
+“Ngươi cảm thấy Vực Ngoại lĩnh vực này có được tính là một mảnh không gian đặc thù khác biệt với các thế giới khác không?”
+
+“Đương nhiên tính.”
+
+“Có phải rất giống một phương thế giới khác?”
+
+“Hử? Ngươi rốt cuộc muốn nói cái gì?”
+
+“Ta muốn nói, đã như vậy thì cớ sao ta không thể thử luyện hóa nó chứ? So với việc đi tìm kiếm tiên khí chẳng biết đang trôi dạt ở phương nào, ta chi bằng trực tiếp luyện hóa cả Vực Ngoại lĩnh vực này. Như vậy, nó liền có thể vì ta mà sử dụng. Mà một mảnh không gian hư vô lưu lại từ thời thượng cổ bực này, nếu như lấy ra hạch tâm của nó để chữa trị Huyền Thiên Cửu Châu giới...”
+
+Hãy nghe xem, đây có còn là lời của người bình thường có thể nói ra được không?!
+
+Minh Đế lập tức lên tiếng cắt ngang: “Đừng mơ tưởng nữa, không thể nào đâu! Ngươi đang nói đùa cái quái gì thế? Luyện hóa Vực Ngoại lĩnh vực ư?!”
+
+Hạ Khanh Tuyên lại chẳng hề có nửa điểm nản lòng nhụt chí, hắn thậm chí còn hưng trí bừng bừng suy tính về tính khả thi của nó.
+
+Vực Ngoại lĩnh vực là chiến trường cổ xưa lưu lại từ thời thượng cổ. Trước đây nói không chừng là một nơi có thể sánh ngang với Thượng giới, thậm chí rất có khả năng trước kia còn là nơi có linh lực nồng đậm hơn cả Thượng giới. Nơi đây trải qua đại chiến thượng cổ thảm khốc, lại trải qua năm tháng hỗn độn, mới hình thành nên Vực Ngoại lĩnh vực như ngày hôm nay. Thế nhưng xét về bản chất, nó vẫn là một thế giới, là một thế giới vốn dĩ nên bị hủy diệt nhưng lại tự mình chữa lành phục hồi đến bước đường này.
+
+Nếu như luyện hóa nó, đem hạch tâm của nó chuyển dời tới Huyền Thiên Cửu Châu giới, để hai bên dung hợp làm một, liệu địa mạch của Huyền Thiên Cửu Châu giới đang nằm trong thời đại mạt pháp có thể được tu bổ phục hồi hay không?
+
+Đôi mắt Hạ Khanh Tuyên sáng rực nhìn vào không gian hư vô trước mắt.
+
+Vậy thì hiện tại, vấn đề đặt ra là: làm thế nào để luyện hóa một mảnh không gian khổng lồ bực này?
+
+Muốn luyện hóa một tiểu thế giới đã là chuyện chẳng hề dễ dàng gì, Thủy Vân bí cảnh lần trước nếu không phải nhờ thiên thời địa lợi nhân hòa, hắn e rằng cũng khó lòng luyện hóa nổi.
+
+Hiện tại muốn luyện hóa cả một Vực Ngoại lĩnh vực rộng lớn, không khác nào chuyện si tâm vọng tưởng.
+
+Minh Đế lúc này đang bị trói buộc chung với Hạ Khanh Tuyên, là kẻ quan tâm tới an nguy của Hạ Khanh Tuyên nhất. Trông thấy Hạ Khanh Tuyên cứ ngồi lì trên một tảng phù thạch suy ngẫm về một chuyện căn bản không thể nào làm nổi, nàng có chút cuống cuồng: “Vực Ngoại lĩnh vực dẫu cho hiện tại có ra sao đi nữa, thì đó cũng là không gian thượng cổ, không thể nào bị luyện hóa được! Ngươi dẫu có đường ai nấy đi với Diệt Hư Đế Tôn, thì chí ít cũng nên tìm một nơi an toàn chứ!”
+
+Hạ Khanh Tuyên cứ rêu rao như thế này, Yêu Hoàng sớm muộn gì cũng sẽ tìm tới tận cửa. Đối phương đối phó không nổi Ứng Hàn Y, chẳng lẽ lại không đối phó nổi một kẻ vừa mới đoạt tu vi của người khác để chạm tới Hóa Thần viên mãn như hắn sao?
+
+Hạ Khanh Tuyên chết là chuyện nhỏ, nàng bị vạ lây mới là chuyện lớn. Minh Đế thực sự không muốn bị Hạ Khanh Tuyên kéo xuống nước chịu chết cùng.
+
+“Vực Ngoại lĩnh vực này còn chưa tính là nơi an toàn sao?” Hạ Khanh Tuyên cười hỏi.
+
+Minh Đế đại khái là đối với lời của Hạ Khanh Tuyên cực kỳ khinh thường, ngay cả một lời đáp cũng lười chẳng buồn bố thí.
+
+“Thực ra lúc trước ta có đôi phần tò mò, Minh Đế đại nhân rốt cuộc đã làm cách nào để phục sinh Trường Lâm Tiên Tôn vậy?”
+
+“Chuyện này e rằng chẳng liên quan gì tới ngươi đâu nhỉ.”
+
+“Đơn thuần tò mò một chút cũng không được sao? Dẫu sao Trường Lâm Tiên Tôn đã chết lâu như vậy rồi, cớ sao đúng lúc này lại phục sinh? Người đó thực sự là Trường Lâm Tiên Tôn sao? Khi Trường Lâm Tiên Tôn vẫn lạc, hẳn phải là hồn phi phách tán mới đúng, cho dù có tro cốt tàn lưu thì nghĩ lại cũng vô cùng hiếm hoi. Thế nhưng dù là như vậy, Minh Đế vẫn có thể tạo ra được một Trường Lâm Tiên Tôn, có thể thấy thuật 'khởi tử hồi sinh' của Minh Đế đại nhân vô cùng cao siêu đấy chứ.”
+
+Ngữ khí của Minh Đế lạnh hẳn xuống: “Ngươi rốt cuộc muốn nói cái gì?”
+
+Hạ Khanh Tuyên khẽ cười: “Ngươi từng thử phục sinh tộc nhân của mình, đại khái còn thử qua vô số lần, cho nên ngươi mới có thể trong tình cảnh Trường Lâm Tiên Tôn đã hồn phi phách tán mà đem hắn 'khởi tử hồi sinh'. Thế nhưng người đó căn bản không phải là Trường Lâm Tiên Tôn, mà những tộc nhân Minh Đế đại nhân từng phục sinh cũng chẳng phải là tộc nhân thực sự của ngươi, đúng không?”
+
+Im lặng thật lâu, Minh Đế dùng giọng điệu đầy nguy hiểm hỏi: “Ngươi rốt cuộc muốn nói cái gì?”
+
+Hạ Khanh Tuyên khẽ thở dài một tiếng: “Hà tất phải nói toạc móng heo ra như vậy chứ. Minh Đế đại nhân nhìn qua dường như hoàn toàn yếu thế hơn Yêu Hoàng, nhưng lại vẫn lựa chọn hợp tác với Yêu Hoàng, ngươi lẽ nào là gửi gắm hy vọng vào lòng trung thực chữ tín của Yêu Hoàng sao? Đương nhiên là không. Sự tự tin của ngươi bắt nguồn từ chính thực lực của ngươi. Vậy thì rốt cuộc là loại thực lực nào khiến Minh Đế đại nhân có được sự tự tin đến nhường ấy? Tự nhiên chính là việc ngươi có thể đem những kẻ vốn nên chết từ lâu 'khởi tử hồi sinh' — quả là một năng lực đáng sợ đến dường nào.”
+
+Lần này Minh Đế mới thực sự cảm nhận được thế nào là cảm giác da đầu tê dại. Bất kể là tu vi của nàng, hay việc nàng lúc này đang tồn tại trong thức hải của Hạ Khanh Tuyên, tựa hồ tất cả đều nằm trọn trong sự tính kế chuẩn xác của con người này.

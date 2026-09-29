@@ -1,50 +1,89 @@
 ---
-title: Đại Ma Đầu Nhật Nhật Tưởng Sát Ngã — ch_104
+title: Chương 104
 ---
 
-Thành thật mà nói, nó không thực sự tinh chỉnh lĩnh vực ngoài lãnh thổ. Phương pháp này giống như dung hợp ý thức quy tắc ở đây với vương quốc của Huyền Thiên Cửu Châu.
-He Qingxuan đã có kinh nghiệm chinh phục thế giới nhỏ. Cùng với sự kế thừa của nhiều hình thái, anh đã có một cách hiểu mới về thế giới.
-Thay vì luyện hóa cảnh giới bên ngoài và sau đó trích xuất lõi để sửa chữa các mạch đất của Vương quốc Huyền Thiên Cửu Châu, tốt hơn là nên trực tiếp hòa nhập cảnh giới bên ngoài với Vương quốc Huyền Thiên Cửu Châu. Bằng cách này, cốt lõi hoàn chỉnh của cõi ngoại địa cũng sẽ được dung hợp vào cõi Huyền Thiên Cửu Châu, và cõi ngoại địa vẫn sẽ là cõi ngoại địa trước đó. Chỉ là nó sẽ giống một bí cảnh bình thường ở Vương quốc Huyền Thiên Cửu Châu hơn trước. Dù sao, nếu cốt lõi của nó dung nhập vào Huyền Thiên Cửu Châu Cảnh, tất nhiên sẽ bị ảnh hưởng rất lớn.
-Với sự hiểu biết và hiểu biết mới, hành trình hợp nhất và tinh luyện của He Qingxuan trở nên suôn sẻ hơn rất nhiều.
-Chưa đầy một trăm ngày nữa, ngoại giới hỗn loạn, hành trình luyện chế của He Qingxuan sắp kết thúc.
-He Qingxuan tính toán thời gian và có lẽ chỉ mất bảy ngày để kế hoạch của anh thành công.
-Chỉ còn cách thành công một chút, hắn thực sự cảm thấy có chút bất an.
-Nguồn gốc của tất cả những điều này xuất phát từ thực tế là quá trình tinh chế càng tiên tiến thì càng cần đến anh ta làm phương tiện. Bây giờ hắn chính là người kết nối ngoại giới và Huyền Thiên Cửu Châu. Vào thời điểm quan trọng này, anh ta không được hành động hấp tấp. Nếu thực sự gặp nguy hiểm, hắn thực sự không thể phản kháng chút nào.
-Trong trường hợp anh ta thực sự rơi vào tình huống xấu hổ như vậy, He Qingxuan đã giải phóng tất cả linh hồn mà anh ta thu thập được. Linh hồn dày đặc bao bọc hắn ở giữa, cho người ta cảm giác an toàn mãnh liệt, nhưng hắn vẫn có chút lo lắng.
-Nếu bàn tay của Hoàng đế Diêm Vương thực sự hữu ích như vậy, thì Quỷ Hoàng đáng lẽ không phải là người duy nhất nắm quyền trong hàng nghìn năm qua. Yêu Hoàng chắc chắn phải có một số dự phòng, nhưng những dự phòng này chính xác là gì?
-phía bên kia.
-Chiếc gương Sumeru trong tay Quỷ vương lần lượt sáng lên với những bức màn ánh sáng.
-Anh mỉm cười: “Thời điểm chúng ta chờ đợi đã đến rồi”.
-"Mấy giờ?"
-"Đã đến lúc giết chết toàn bộ cơ thể tâm linh."
-"Chỉ giết chết toàn linh thể hình như không có tác dụng bao nhiêu. Trở ngại lớn nhất của chúng ta không phải là tiêu diệt Từ Hoàng sao?" Zi Shuwang bối rối.
-Yêu Vương cười đến không thể đứng thẳng: "Đúng! Trở ngại lớn nhất của chúng ta là Miexu hoàng đế, nhưng dù Ying Hanyi mạnh đến đâu, hắn cũng không thoát khỏi ngũ suy của thiên nhân, hắn nằm trong phàm nhân. Thân thể toàn linh này khác biệt. Hắn có cuốn Thái Thượng Lương Nhất, nếu hắn thực sự muốn tu luyện bằng sức hiểu biết của mình, hắn có thể là người đầu tiên thăng thiên trong mấy nghìn năm này. Ta và ngươi rất khó thăng thiên."
-"Ngươi muốn bắt lấy linh hồn của hắn để đọc Thái Thượng Lương Nghi?"
-"Sao ngươi có thể nói tàn nhẫn như vậy? Bản đế chỉ đang để một số thứ trở về với chủ nhân ban đầu mà thôi."
-"Nhưng không phải Ảnh Hàn Di chỉ cách thăng thiên hơn sáu nghìn năm một sợi tóc sao?"
+Thực sự nói cho đúng thì cũng chẳng tính là luyện hóa Vực Ngoại lĩnh vực, thủ pháp kia càng giống như đem quy tắc ý thức nơi đây dung hợp với Huyền Thiên Cửu Châu giới hơn.
 
-Yêu Vương tựa hồ nghĩ đến cái gì, nụ cười càng ngày càng khó đoán: "Chuyện đó đã hơn sáu ngàn năm trước."
-Chương 60
-Quá trình tinh chế ngày càng tiến gần đến điểm kết thúc. He Qingxuan tiếp tục luyện chế một cách có trật tự. Anh ấy trông cực kỳ bình tĩnh và điềm tĩnh. Trên thực tế, He Qingxuan không hề thoải mái như vẻ ngoài.
-Luyện chế là thứ có thể khiến Hà Thanh Huyền bình tĩnh lại, nhưng lúc này, trong lúc luyện chế, hắn cảm thấy có chút cáu kỉnh và bồn chồn. Sự bất thường này không hề vô lý.
-Biết được điều này, động tác tay của Hạ Thanh Huyền càng trở nên vững chắc hơn.
-Chỉ là một người mạnh mẽ như Quỷ vương đã vượt qua thời kỳ kiếp nạn đã đến với anh ta. Kết quả bi thảm nhất của chuyện này chính là cái chết, Hà Thanh Huyền vẫn là người lẽ ra phải chết. Mỗi ngày anh sống bây giờ đều là vô ích, nên cho dù mạng sống này có mất đi vì điều này, nó dường như cũng không quan trọng lắm.
-He Qingxuan ban đầu nghĩ như vậy và tự nhủ như vậy, nhưng anh vẫn cho rằng không có chuyện gì xảy ra và mọi chuyện chỉ là suy nghĩ quá nhiều mà thôi.
-Anh ấy muốn sống, anh ấy muốn nhìn thấy nhiều hơn về thế giới, anh ấy muốn biết nhiều người hơn và anh ấy cũng muốn hiểu người khác đang nghĩ gì.
-Suy nghĩ của tôi lang thang không biết bao nhiêu lần.
-Việc luyện chế của He Qingxuan cuối cùng đã đến thời điểm quan trọng và quan trọng nhất.
-Vào ngày cuối cùng, do từ trường bí ẩn được tạo ra bởi quá trình tinh luyện ở cõi bên ngoài, nó đã bị bao phủ bởi một luồng khí khác bá đạo hơn.
-Không giống như yêu vương dễ bắt chuyện, khí chất của hắn không hề ôn hòa chút nào, bản tính bá đạo bẩm sinh khiến hắn muốn phá tan từ trường nơi đây.
-Cùng với khí tức là một áp lực cực kỳ đáng sợ. Dưới áp lực mạnh mẽ, ngay cả không gian xung quanh cũng dường như bị bóp méo.
-Hạ Thanh Huyền nhếch khóe miệng, nhếch lên một nụ cười, trực tiếp gọi tên đối phương: “Yêu Hoàng.”
-Quỷ vương không có ý định trốn nữa khi hắn đến. Anh ta xuất hiện với một nụ cười, và áp lực đáng sợ càng trở nên mạnh mẽ hơn.
-Nếu như Hạ Thanh Huyền không phải đã đạt đến thành thần giai đoạn, chỉ riêng áp lực của đối phương có lẽ đã nghiền nát hắn thành bột giấy.
-Khoảng cách về sức mạnh còn đáng sợ hơn vực sâu rất nhiều.
-Ma Vương từ lúc xuất hiện đã không có ý tốt gì, áp lực tăng lên đột ngột khiến hành động của He Qingxuan gần như không vững.
-Nhưng điều này vẫn quá thờ ơ với Quỷ Hoàng. Hắn nhìn chằm chằm vào động tác luyện chế ngoại vực của Hà Thanh Huyền, cảm thán thán phục: “Nếu không biết ngươi chưa đến mười tuổi, ta còn tưởng rằng ngươi là tiên nhân. Với dung mạo và khí chất như vậy, e rằng ngươi chỉ có thể so sánh với hai vị kiêu ngạo của Cung Huyền Di năm đó.”
-He Qingxuan thậm chí còn không nhướng mày. Nếu họ đến để đưa ra những nhận xét mỉa mai này, anh ấy sẽ rất hoan nghênh họ, miễn là họ không làm phiền đến sự trau chuốt của anh ấy.
+Hạ Khanh Tuyên vốn đã có kinh nghiệm thu phục tiểu thế giới, lại thêm tầng tầng lớp lớp truyền thừa trận pháp cổ xưa, hắn đối với mối liên kết giữa các thế giới đã có sự thấu hiểu hoàn toàn mới.
 
-Chỉ là, chuyến đi của Yêu Hoàng không chỉ có mấy lời mà thôi.
-Quả nhiên, sau lời khen ngợi này, Yêu Hoàng nhàn nhã lại bổ sung thêm một câu nữa: "Thời đại này hẳn là không có linh thể hoàn toàn, nhưng ngươi xuất hiện, ngươi cho rằng ngươi xuất hiện là vì cái gì?"
-Ai trên thế giới ngày nay thiếu thể xác thiêng liêng trọn vẹn nhất? Có phải con đường bất tử giờ đây đã bị đánh bại? Chẳng lẽ là Huyền Nhất Cung đang nỗ lực duy trì chính mình? Có, hoặc không.
-He Qingxuan trước đây đã nghĩ rằng người thực sự thiếu anh ta có thể là Ma hoàng nắm giữ hầu hết các cuộn giấy còn lại, cuộn giấy Taishang Liangyi, với khả năng thăng thiên vô hạn.
+Thay vì luyện hóa Vực Ngoại lĩnh vực rồi rút ra hạch tâm để chữa trị địa mạch Huyền Thiên Cửu Châu giới, chi bằng trực tiếp đem Vực Ngoại lĩnh vực dung hợp vào Huyền Thiên Cửu Châu giới. Như thế, hạch tâm hoàn chỉnh của Vực Ngoại lĩnh vực cũng sẽ hòa vào bên trong Huyền Thiên Cửu Châu giới, mà Vực Ngoại lĩnh vực vẫn là Vực Ngoại lĩnh vực trước kia. Chỉ có điều so với trước đây, nó sẽ càng giống một bí cảnh bình thường của Huyền Thiên Cửu Châu giới hơn; rốt cuộc việc đem hạch tâm của nó dung nhập vào thế giới khác ắt sẽ khiến nó chịu ảnh hưởng vô cùng to lớn.
+
+Có được sự hiểu biết cùng lĩnh ngộ mới, con đường dung hợp luyện chế của Hạ Khanh Tuyên trở nên thông thuận hơn rất nhiều.
+
+Chưa đầy trăm ngày, Vực Ngoại lĩnh vực chấn động kịch liệt, hành trình luyện hóa của Hạ Khanh Tuyên sắp sửa đi tới hồi kết.
+
+Hạ Khanh Tuyên tính toán thời gian, đại khái chỉ cần bảy ngày nữa kế hoạch của hắn sẽ hoàn toàn thành công.
+
+Chính vì khoảng cách tới thành công chỉ còn một bước ngắn ngủi, trong lòng hắn bỗng nhiên dấy lên vài phần bất an.
+
+Cội nguồn của mọi sự bắt nguồn từ việc càng về giai đoạn sau của quá trình luyện chế, lại càng cần đến một môi giới là hắn. Hiện tại chính là do hắn làm cầu nối liên kết hai nơi Vực Ngoại lĩnh vực và Huyền Thiên Cửu Châu giới. Đang ở vào thời khắc then chốt này, hắn tuyệt đối không thể manh động; nếu như thật sự gặp phải nguy hiểm, hắn quả thực chẳng thể có nửa điểm phản kháng.
+
+Để đề phòng rơi vào cảnh ngộ nan giải bực này, Hạ Khanh Tuyên đem toàn bộ các đạo hồn thể mà mình thu thập được phóng xuất ra ngoài. Những hồn thể rậm rạp chằng chịt bao bọc hắn vào chính giữa, mang lại cho người ta cảm giác an toàn nồng đậm. Thế nhưng trong lòng hắn vẫn có đôi phần lo lắng khôn nguôi.
+
+Thủ đoạn này của Minh Đế nếu thực sự hữu dụng đến nhường ấy, thì suốt mấy ngàn năm qua đã chẳng phải để một mình Yêu Hoàng độc chiếm xưng bá. Yêu Hoàng ắt hẳn vẫn còn giữ lại quân bài tẩy nào đó, chỉ là quân bài tẩy này rốt cuộc là thứ gì mà thôi.
+
+Phía bên kia.
+
+Tu Di Kính trong tay Yêu Hoàng chợt lóe lên từng đạo quang mạc rực rỡ sắc màu, dị thải liên hồi.
+
+Khóe môi hắn nhếch lên một nụ cười: “Thời cơ chúng ta chờ đợi rốt cuộc đã tới rồi.”
+
+“Thời cơ gì?”
+
+“Thời cơ tiêu diệt Toàn Linh Chi Thể.”
+
+“Chúng ta chỉ đơn thuần giết Toàn Linh Chi Thể dường như cũng chẳng có tác dụng gì lớn lao. Trở ngại lớn nhất của chúng ta chẳng phải nên là Diệt Hư Đế Tôn sao?” Tử Thư Vọng không hiểu.
+
+Yêu Hoàng bật cười đến mức gần như không đứng thẳng lưng nổi: “Phải rồi! Trở ngại lớn nhất của chúng ta là Diệt Hư Đế Tôn. Thế nhưng Ứng Hàn Y cho dù có mạnh đến đâu thì cũng chưa từng thoát khỏi thiên nhân ngũ suy, vẫn còn nằm trong hàng ngũ phàm nhân. Toàn Linh Chi Thể này thì lại khác, hắn có được Thái Thượng Lưỡng Nghi Quyển, với năng lực lĩnh ngộ của hắn một khi thực sự tu hành, người đầu tiên phi thăng trong suốt mấy ngàn năm qua e rằng chính là hắn! Khi ấy ngươi và ta sẽ chẳng còn bất kỳ cơ hội phi thăng nào nữa.”
+
+“Ngươi muốn nhiếp hồn hắn, mượn đó để đọc nội dung Thái Thượng Lưỡng Nghi Quyển?”
+
+“Cớ sao lại nói lời tàn nhẫn như thế chứ? Bản hoàng chẳng qua cũng chỉ là để một số thứ vật quy nguyên chủ mà thôi.”
+
+“Nhưng Ứng Hàn Y chẳng phải từ hơn sáu ngàn năm trước cũng chỉ cách cảnh giới phi thăng đúng một sợi chỉ mỏng manh hay sao?”
+
+Yêu Hoàng như nhớ tới điều gì đó, nụ cười càng lúc càng thêm sâu không lường được: “Đó rốt cuộc cũng là chuyện của hơn sáu ngàn năm trước rồi.”
+
+Quá trình luyện chế càng lúc càng tiến gần tới hồi kết. Hạ Khanh Tuyên trên tay vẫn đâu ra đấy tiếp tục luyện chế, thoạt nhìn thong dong tự tại đến lạ lùng, thế nhưng trên thực tế Hạ Khanh Tuyên căn bản không hề nhẹ nhõm như vẻ bề ngoài.
+
+Luyện chế vốn dĩ là một việc có thể giúp Hạ Khanh Tuyên tĩnh tâm an thần, thế nhưng lúc này trong lòng hắn lại dấy lên sự bực bội bất an khó tả. Sự dị thường này tuyệt đối không phải vô duyên vô cớ.
+
+Chính vì hiểu rõ điều này, động tác trên tay Hạ Khanh Tuyên ngược lại càng thêm vững vàng chuẩn xác.
+
+Chẳng qua cũng chỉ là những đại năng Độ Kiếp kỳ như Yêu Hoàng tìm tới cửa mà thôi. Kết cục bi thảm nhất của chuyện này cùng lắm cũng chỉ là cái chết, mà Hạ Khanh Tuyên lại vốn dĩ là kẻ đáng lẽ phải chết từ lâu rồi. Mỗi một ngày hắn sống sót ở hiện tại đối với hắn đều coi như nhặt được mà thôi; vậy thì cái mạng này cho dù vì thế mà mất đi dường như cũng chẳng quan trọng đến thế.
+
+Hạ Khanh Tuyên ban đầu vốn nghĩ như vậy, cũng tự nhủ với bản thân như vậy. Thế nhưng đáy lòng hắn vẫn tha thiết mong rằng sẽ chẳng có chuyện gì xảy ra, tất cả chỉ là do hắn nghĩ nhiều mà thôi.
+
+Hắn muốn sống, muốn được ngắm nhìn thế giới này nhiều hơn nữa, muốn quen biết thêm nhiều người hơn, và cũng muốn thấu hiểu thêm tâm tư suy nghĩ của một người khác.
+
+Tâm tư trôi nổi bồng bềnh, chẳng biết đã trôi qua bao nhiêu lượt.
+
+Hành trình luyện hóa của Hạ Khanh Tuyên rốt cuộc cũng bước vào thời khắc mấu chốt nhất, cũng là trọng đại nhất.
+
+Ngày cuối cùng, do Vực Ngoại lĩnh vực bị luyện chế dẫn động nên một từ trường huyền diệu sinh ra, lại bất ngờ bị một luồng khí tức khác bá đạo hung hãn hơn bao trùm lấy.
+
+Khác với vẻ ngoài dễ nói chuyện mà Yêu Hoàng luôn cố tỏ ra, khí tràng của hắn căn bản chẳng có chút ôn hòa nào. Cái sự bá đạo bẩm sinh ăn sâu vào xương tủy kia hận không thể lập tức nghiền nát từ trường nơi đây thành muôn mảnh vụn.
+
+Cùng ập tới với khí tràng ấy là một luồng uy áp kinh khủng tột cùng. Dưới sự đè nén của uy áp mãnh liệt, ngay cả không gian xung quanh cũng dường như vặn vẹo biến hình.
+
+Khóe môi Hạ Khanh Tuyên khẽ cong lên, kéo ra một nụ cười, thẳng thắn dứt khoát gọi ra danh hào của đối phương: “Yêu Hoàng.”
+
+Yêu Hoàng đã tới tự nhiên cũng chẳng có ý định giấu đầu lòi đuôi, hắn cười ha hả hiện ra thân hình, luồng uy áp khủng bố kia lại càng thêm muôn phần dữ dội.
+
+Nếu không phải Hạ Khanh Tuyên lúc này đã đạt tới cảnh giới Hóa Thần viên mãn, e rằng chỉ riêng luồng uy áp của đối phương cũng đủ để trực tiếp nghiền ép hắn thành một bãi thịt nát.
+
+Khoảng cách chênh lệch về thực lực quả thực còn đáng sợ hơn cả hồng hoang vực thẳm.
+
+Yêu Hoàng ngay từ khoảnh khắc xuất hiện đã chẳng mang nửa điểm thiện ý. Uy áp đột ngột tăng vọt khiến cho động tác trên tay Hạ Khanh Tuyên suýt chút nữa mất đi sự chuẩn xác.
+
+Thế nhưng phản ứng này đối với Yêu Hoàng mà nói vẫn là quá đỗi thản nhiên điềm đạm. Hắn chăm chú nhìn chằm chằm vào từng động tác luyện chế Vực Ngoại lĩnh vực của Hạ Khanh Tuyên, cất lời tán thán: “Nếu không phải biết rõ ngươi ngay cả tuổi song thập cũng chưa tròn, bản hoàng còn ngỡ ngươi là vị tiên tôn chuyển thế nào cơ đấy. Khí độ dung nhan bực này, e rằng cũng chỉ có Tuyên Nghi Cung song kiêu năm xưa mới có thể đặt lên bàn cân so sánh.”
+
+Hạ Khanh Tuyên ngay cả mí mắt cũng chẳng buồn nâng lên. Nếu như bọn họ tới đây chỉ để buông vài câu châm chọc mỉa mai, hắn ngược lại vô cùng hoan nghênh, chỉ cần đừng tới quấy rầy việc luyện chế của hắn là được.
+
+Chỉ là chuyến đi này của Yêu Hoàng tự nhiên đâu chỉ đơn thuần vì vài câu nói suông.
+
+Quả nhiên, sau câu tán thán vừa rồi, Yêu Hoàng ung dung nhàn nhã liền bồi thêm một câu: “Thời đại này vốn dĩ không nên xuất hiện Toàn Linh Chi Thể, thế nhưng ngươi lại xuất hiện. Ngươi nghĩ xem ngươi rốt cuộc là vì điều gì mà xuất hiện nơi cõi đời này?”
+
+Trên thế gian ngày nay, ai là kẻ thiếu thốn Toàn Linh Chi Thể nhất? Là tiên đạo nay đã lụi tàn bại vong sao? Là Tuyên Nghi Cung đang chật vật duy trì lay lắt sao? Phải, mà dường như cũng chẳng phải.
+
+Hạ Khanh Tuyên trước đó đã từng nghĩ qua, kẻ thực sự khao khát hắn nhất e rằng phải là vị Yêu Hoàng đang nắm giữ đại đa số tàn quyển này. Thái Thượng Lưỡng Nghi Quyển — một khả năng phi thăng vô hạn.

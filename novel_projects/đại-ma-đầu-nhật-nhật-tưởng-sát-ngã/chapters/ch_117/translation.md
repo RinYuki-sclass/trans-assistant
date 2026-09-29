@@ -2,46 +2,84 @@
 title: Đại Ma Đầu Nhật Nhật Tưởng Sát Ngã — ch_117
 ---
 
-Sức mạnh của Thần Biến Cảnh được tập trung trong tầm tay anh, và anh sử dụng kỹ năng của mình để ngăn chặn thanh kiếm dài.
-Việc sử dụng sức mạnh đột ngột quả thực không phải là điều mà cơ thể mỏng manh của He Qingxuan có thể chịu được. Một cơn đau không thể chịu nổi nổi lên trong lồng ngực anh. Phớt lờ ánh sáng lạnh lẽo của thanh trường kiếm trước mặt, anh che miệng cúi xuống ho.
-Cơn ho đau lòng gần như khiến mọi người cảm thấy anh sẽ bất tỉnh trong giây tiếp theo. Ying Hanyi kỳ quái nhìn người trước mặt, ủ rũ hỏi: "Ngươi là ai? Những chiêu thức ta sáng tạo cách đây không lâu, hẳn là không ai biết."
-He Qingxuan ho một lúc mới có sức để nói. Giọng của ông khàn đến nỗi dường như ông đã không nói được nhiều năm và dây thanh quản của ông đã bị tổn thương. "Một người đến từ... tương lai."
-Những lời này xa vời đến mức bất cứ ai nghe thấy cũng sẽ nghĩ rằng He Qingxuan đang nói đùa. Ying Hanyi trầm tư nói: "Tương lai? Vậy bọn họ hẳn không biết về kỹ năng tự tạo của tôi."
-Không còn dễ dàng để ép ra âm thanh nữa, He Qingxuan lại ho.
-Ying Hanyi đã tự mình tìm ra câu trả lời: "Hoặc là bạn có khả năng đọc suy nghĩ, hoặc là..."
-Khi hắn nói những lời cuối cùng, ánh mắt của Ứng Hàn Di có chút kỳ quái, nhưng vẫn nói xong câu còn dang dở: “Hắn là đệ tử tương lai của ta.”
+Sức mạnh cảnh giới Hóa Thần kỳ ngưng tụ nơi đầu ngón tay hắn, mượn xảo kình chặn đứng thanh trường kiếm lại.
+
+Đột ngột vận dụng sức mạnh quả nhiên không phải thứ mà thân thể giòn như vỏ trứng này của Hạ Khanh Tuyên có thể chịu đựng nổi. Trong lồng ngực dâng lên một trận đau đớn khôn cùng, hắn chẳng màng đến thanh trường kiếm đang phát ra hàn quang trước mắt, ôm miệng khom lưng ho khan từng cơn.
+
+Tiếng ho xé ruột xé gan dường như khiến người ta cảm giác giây tiếp theo hắn sẽ ngất lịm đi. Ứng Hàn Y dùng ánh mắt cổ quái quan sát người trước mặt, âm trầm hỏi: “Ngươi rốt cuộc là ai? Chiêu thức ta vừa mới tự sáng chế cách đây không lâu, không thể nào có người biết được.”
+
+Hạ Khanh Tuyên lại ho khan thêm một hồi lâu, mới tìm lại được chút sức lực để cất lời. Giọng nói khàn đặc như thể đã nhiều năm không hề mở miệng, dây thanh đới bị tổn thương: “Người đến từ... tương lai.”
+
+Lời này thực sự quá đỗi hoang đường huyền hoặc, bất kỳ ai nghe thấy cũng sẽ ngỡ Hạ Khanh Tuyên đang nói đùa. Ứng Hàn Y như có điều suy nghĩ: “Tương lai? Dù là thế cũng không thể biết được công pháp do ta tự sáng chế.”
+
+Gian nan thốt ra từng tiếng đã chẳng hề dễ dàng, Hạ Khanh Tuyên lại một lần nữa rơi vào cơn ho rũ rượi.
+
+Ứng Hàn Y đã tự mình rút ra đáp án: “Hoặc là ngươi có thuật đọc tâm, hoặc là...”
+
+Khi nói ra lời cuối cùng, ánh mắt Ứng Hàn Y có chút cổ quái, song vẫn bổ sung nốt câu nói còn dang dở: “Là đồ nhi tương lai của ta.”
+
 Chương 70
-Hà Thanh Huyền cười khúc khích.
-Khi Ying Hanyi nhìn thấy nụ cười của He Qingxuan, trên khuôn mặt anh ta không có vẻ gì là lạ. Anh chỉ lạnh lùng nhìn anh: “Có lẽ không phải bọn họ.”
-He Qingxuan gật đầu, quả thực không phải vậy.
-Ánh mắt Ying Hanyi lại trở nên nguy hiểm: "Điều đó có vẻ thú vị. Tôi không nghĩ mình sẽ truyền lại kỹ năng cho bất kỳ ai ngoại trừ đệ tử của mình."
-"Đó là... một người bạn cũ." Hà Thanh Huyền khó khăn nói.
-Anh ấy thực sự muốn giải thích mối quan hệ giữa hai người với Ying Hanyi. Ví dụ, khi Ying Hanyi dạy kỹ năng cho anh ta, thứ nhất, anh ta không còn sử dụng kiếm nữa, thứ hai, anh ta thực sự muốn nhận anh ta làm đồ đệ. Có thể còn có ý nghĩa sâu xa nào khác, nhưng những lời mà anh ấy có thể nói bằng miệng trong quá khứ là điều khó khăn đối với cơ thể hiện tại của anh ấy.
-Tục ngữ nói, mọi phương pháp đều do con người nghĩ ra. Dù không nói được nhưng anh ấy có thể viết được!
-Vì vậy sau khi chật vật nói ra ba chữ đó, ánh mắt của Ứng Hàn Nhất càng ngày càng nguy hiểm, hắn từ trong không gian lấy ra một tấm bảng trắng khắc bùa, nhanh chóng khắc một dòng chữ lên tấm bảng ngọc nhỏ, đưa cho Ứng Hàn Di.
-Ying Hanyi nghi ngờ cầm lấy tấm bảng trắng, trên đó dày đặc những dòng chữ nhỏ.
-[He Qingxuan, đệ tử thế hệ thứ 157 của Cung Hạ Huyền Di, ban đầu là một cơ thể tràn đầy tinh thần. Sau khi chết linh hồn ông lang thang. Anh ta đã sử dụng sức mạnh của thời gian Quỷ Hoàng để hồi sinh và bằng cách nào đó đã quay trở lại hàng ngàn năm trước. 】
-"Với sự giúp đỡ của Yêu Hoàng? Các đệ tử tương lai của Cung Hiên Nghĩa thực sự cấu kết với Ma Tộc?"
 
-He Qingxuan biết rằng Ying Hanyi nhiều nhất chỉ tin lời anh nói. Trong tình huống này, hắn cũng không phải là người thần bí, lập tức dùng một cái bảng trắng khác giải thích cho người khác tại sao hắn sau khi chết lại muốn đi tìm Yêu Hoàng.
-Lần này Ying Hanyi có vẻ càng tin tưởng hơn: "Đã như vậy, bây giờ cậu như thế này thì phải làm sao? Thân thể sớm muộn gì cũng sẽ thối rữa."
-He Qingxuan trầm ngâm, suy nghĩ một lúc rồi lại dùng bảng trắng viết ra những điều mình muốn nói.
-[Không phiền đâu. Tôi sẽ tự mình tìm ra cách. Trong khoảng thời gian này, ta tuyệt đối sẽ không làm gì tổn hại Huyền Thiên Cửu Châu giới. Bạn có thể yên tâm. 】
-Trên môi Ying Hanyi vẫn còn nụ cười, nhưng cô không nói rõ mình đồng ý hay không đồng ý.
-Hà Thanh Huyền ngập ngừng bước ra ngoài, Ứng Hàn Di không ngăn cản, liền nhanh chóng bỏ chạy.
-Quả thực là một trải nghiệm mới lạ khi gặp lại Ying Hanyi trong quá khứ, nhưng anh ấy không muốn thân thiết quá nhiều với Ying Hanyi vào lúc này. Nếu anh ấy thực sự quay về quá khứ, liệu anh ấy có ảnh hưởng đến tương lai bằng cách thay đổi một số mốc thời gian hay không.
-Khi He Qingxuan lần đầu tiên nhìn thấy Ying Hanyi, anh ấy muốn thay đổi nút nơi Ying Hanyi bị phong ấn, nhưng sự thay đổi này là tốt hay xấu? Nếu hắn tùy ý thay đổi nút thắt, liệu sau này thực sự có Hà Thanh Huyền, đệ tử của Cung Huyền Nghĩa sao?
-He Qingxuan không dám đặt cược vào sự không chắc chắn này, vì vậy anh ấy đơn giản coi mình như một khán giả theo dõi. Anh ta thậm chí còn hối hận vì đã tiết lộ danh tính của mình trong tương lai khi lần đầu tiên gặp Ying Hanyi ở thời gian và không gian này.
-Trong hàng trăm năm kể từ đó, He Qingxuan đã tập trung cao độ và nghiên cứu quy luật thời gian. Sau nhiều năm nỗ lực, anh đã hoàn thiện quy luật thời gian, nhưng anh vẫn không chắc mình có thể quay trở lại đúng thời điểm hay không.
-He Qingxuan dự định quay lại nơi anh ấy đến ban đầu để tăng khả năng.
-Đã nhiều năm trôi qua, He Qingxuan vẫn còn sống khỏe mạnh, thực ra tất cả là do anh ấy đã sử dụng phương pháp thời gian. Mỗi khi thân thể thối rữa, linh hồn sắp không chịu nổi sự sụp đổ, hắn sẽ mạnh mẽ điều chỉnh thời gian của cơ thể về phía trước. Nhưng dù có điều chỉnh thế nào đi nữa, anh ta cũng không thể làm cho cơ thể sống được, và lần nào nó cũng sẽ mục nát. Bằng không Hà Thanh Huyền có thể trực tiếp mượn thân thể này tiếp tục sống.
-Anh ta cầm một chiếc ô để che ánh nắng, cả người anh ta quá nhợt nhạt và u ám.
-Nhưng vừa đến gần nơi đó, anh đã ngửi thấy mùi máu tanh nồng nặc. Anh khẽ cau mày và dừng lại một chút. Anh không muốn tọc mạch nhưng vẫn nhìn về hướng phát ra mùi máu.
-Trước khi nhìn thấy, He Qingxuan đã nghĩ đến rất nhiều khả năng, trong đó nhà sư có nhiều khả năng bị âm mưu giết chết nhất. Anh không ngờ người ngã xuống vũng máu lại là Ứng Hàn Di.
-Cảm nhận được khí tức của Huyền Thiên Cửu Châu giới thay đổi, Hà Thanh Huyền đã biết chuyện gì đang xảy ra.
-Đó là thời điểm xương bất tử được sử dụng để sửa chữa Vương quốc Huyền Thiên Cửu Châu.
-Tuy nhiên, trong vòng vài trăm năm, Ying Hanyi đã thực sự trải qua bước chuyển sang ma đạo, vượt qua kiếp nạn và thăng thiên, sau đó từ bỏ toàn bộ vương quốc Huyền Thiên Cửu Châu.
-He Qingxuan biết rằng những gì Ying Hanyi nói về Yun Danfengqing sẽ không dễ dàng như vậy, nhưng anh không ngờ rằng mình lại rơi vào tình huống khó xử như vậy.
-Sau khi cưỡng ép đào ra xương bất tử, khí tức của Ying Hanyi rất yếu. Nhiều quái vật đã bị thu hút bởi máu thịt chứa sức mạnh mạnh mẽ và từ trong bóng tối lén nhìn người nằm trên vũng máu.
+Hạ Khanh Tuyên khẽ cười.
 
-Bởi vì trước đó không có chuyện gì xảy ra, có nghĩa là Ứng Hàn Nhất nhất định có biện pháp đối phó. Anh ta chỉ cần quay trở lại nơi mình tỉnh dậy và sử dụng phương pháp thời gian để quay về quá khứ. Không cần can thiệp quá nhiều, nhưng Hạ Thanh Huyền thật sự không thể bỏ lại Doanh Hàn Di như vậy được.
+Ứng Hàn Y trông thấy nụ cười của Hạ Khanh Tuyên, nét mặt vẫn chẳng hề biến sắc, chỉ dùng ánh mắt lạnh nhạt nhìn hắn: “Chẳng lẽ đều không phải?”
+
+Hạ Khanh Tuyên gật đầu, quả thực đều không phải.
+
+Ánh mắt Ứng Hàn Y lại trở nên nguy hiểm: “Vậy thì có chút thú vị rồi đây. Ta không nghĩ mình sẽ truyền công pháp cho ai khác ngoài đồ nhi của mình.”
+
+“Là... cố nhân.” Hạ Khanh Tuyên khó khăn nói.
+
+Hắn rất muốn giải thích cho Ứng Hàn Y về mối quan hệ giữa hai người, chẳng hạn như khi Ứng Hàn Y truyền công pháp cho hắn, một là lúc ấy y đã không còn dùng kiếm, hai là y thực sự rất muốn thu hắn làm đồ đệ, có lẽ còn mang chút thâm ý khác. Nhưng những lời ngày trước chỉ cần mở miệng là nói được, đối với thân thể hiện tại của hắn lại là một nan đề.
+
+Đúng là biện pháp đều do người nghĩ ra, hắn tuy không thể nói nhiều, nhưng viết được mà!
+
+Thế nên sau khi khó khăn thốt ra ba chữ kia, thấy ánh mắt Ứng Hàn Y càng lúc càng nguy hiểm, hắn liền lấy từ trong không gian ra một khối ngọc bản trắng vốn dùng để khắc phù lục, nhanh chóng khắc thông tin lên tấm ngọc bản nhỏ rồi đưa cho Ứng Hàn Y.
+
+Ứng Hàn Y bán tín bán nghi nhận lấy ngọc bản, bên trên chi chít những dòng chữ nhỏ.
+
+“Tại hạ là đệ tử đời thứ một trăm năm mươi bảy của Tuyên Nghi Cung, Hạ Khanh Tuyên. Vốn là Toàn Linh Chi Thể, sau khi chết linh hồn phiêu bạt, mượn nhờ thời gian chi lực của Yêu Hoàng muốn tái sinh, không hiểu sao lại quay về mấy ngàn năm trước.”
+
+“Mượn tay Yêu Hoàng? Đệ tử tương lai của Tuyên Nghi Cung lại thông đồng cùng một giuộc với Yêu tộc rồi sao?”
+
+Hạ Khanh Tuyên biết Ứng Hàn Y đối với lời hắn nói nhiều nhất chỉ tin được ba phần. Trong tình huống hiện tại, hắn cũng chẳng phải người thích ra vẻ thần bí, lập tức dùng một khối ngọc bản khác giải thích cặn kẽ cho y lý do vì sao sau khi chết lại phải đi tìm Yêu Hoàng.
+
+Lần này vẻ mặt của Ứng Hàn Y xem chừng đã tin nhiều hơn đôi chút: “Nếu đã như vậy, bộ dạng hiện giờ của ngươi thì tính sao đây? Thân thể này của ngươi e là sớm muộn gì cũng thối rữa.”
+
+Hạ Khanh Tuyên trầm ngâm, suy nghĩ chốc lát rồi mới tiếp tục khắc lên ngọc bản những lời mình muốn nói.
+
+“Chuyện này không phiền ngươi bận lòng, ta sẽ tự mình tìm kiếm biện pháp. Trong thời gian này ta tuyệt đối không làm chuyện gì phương hại đến Huyền Thiên Cửu Châu giới, ngươi cứ việc yên tâm.”
+
+Khóe môi Ứng Hàn Y vẫn ngậm ý cười nhàn nhạt, chẳng tỏ rõ là đồng ý hay không đồng ý.
+
+Hạ Khanh Tuyên dò dẫm bước ra ngoài, thấy Ứng Hàn Y không hề cản trở, hắn lập tức chuồn thật nhanh.
+
+Có thể nhìn thấy Ứng Hàn Y thuở trước quả thực là một trải nghiệm mới mẻ, song hắn không hề muốn tiếp xúc quá nhiều với Ứng Hàn Y thời điểm này. Nếu thực sự đã quay về quá khứ, liệu hắn có vì thay đổi một số tiết điểm thời gian mà làm ảnh hưởng tới tương lai hay không?
+
+Ban đầu khi mới nhìn thấy Ứng Hàn Y, Hạ Khanh Tuyên từng nghĩ đến việc thay đổi thời điểm Ứng Hàn Y bị phong ấn, nhưng sự thay đổi này rốt cuộc là tốt hay xấu? Nếu hắn tùy tiện thay đổi các tiết điểm, tương lai liệu có còn tồn tại đệ tử Tuyên Nghi Cung Hạ Khanh Tuyên nữa hay không?
+
+Hạ Khanh Tuyên không dám đánh cược vào những điều bất định này, dứt khoát sau đó chỉ coi mình như một kẻ đứng ngoài quan sát, thậm chí còn có chút hối hận vì trong lần đầu gặp gỡ Ứng Hàn Y của thời không này đã để lộ thân phận đến từ tương lai.
+
+Suốt mấy trăm năm sau đó, Hạ Khanh Tuyên luôn dốc lòng bế quan tu luyện, nghiên cứu thời gian chi pháp. Trải qua bao năm nỗ lực, thời gian chi pháp của hắn đã đại thành, chỉ có điều vẫn chưa dám chắc có thể đưa bản thân trở về đúng điểm thời gian ban đầu hay không.
+
+Hạ Khanh Tuyên dự định quay lại nơi đầu tiên mình giáng lâm, lấy đó để gia tăng cơ hội thành công.
+
+Cách biệt nhiều năm, Hạ Khanh Tuyên vẫn có thể còn sống, lại còn sống rất tốt, kỳ thực đều là nhờ hắn đã thi triển thời gian chi pháp. Mỗi khi thân xác thối rữa suy bại, sắp sửa không chịu nổi mà khiến linh hồn tan vỡ, hắn lại cưỡng ép điều chỉnh thời gian của thân thể quay ngược về trước. Nhưng dẫu có điều chỉnh thế nào đi chăng nữa, cũng chẳng thể khiến thân xác này tràn đầy sinh cơ như người sống, cứ cách một đoạn thời gian lại suy bại lần nữa. Nếu không phải vậy, Hạ Khanh Tuyên thậm chí có thể trực tiếp mượn thân thể này để tiếp tục sống rồi.
+
+Hắn che một chiếc ô chắn ánh mặt trời gay gắt bên ngoài, cả người tái nhợt u ám đến mức không ra hình người.
+
+Chỉ vừa mới đến gần nơi đó, hắn đã ngửi thấy mùi máu tanh nồng nặc xộc vào mũi. Hắn khẽ chau mày, bước chân hơi khựng lại, có chút không muốn lo chuyện bao đồng, song rốt cuộc vẫn men theo phương hướng truyền đến mùi máu tanh mà tìm tới.
+
+Trước khi tận mắt nhìn thấy, Hạ Khanh Tuyên đã nghĩ qua rất nhiều khả năng, trong đó khả năng tu sĩ bị người khác ám toán vây giết là cao nhất. Hắn duy chỉ không ngờ tới người ngã gục trong vũng máu lại chính là Ứng Hàn Y.
+
+Cảm nhận được sự biến chuyển trong khí tức của Huyền Thiên Cửu Châu giới, Hạ Khanh Tuyên lập tức hiểu rõ tình cảnh lúc này.
+
+Chính là lần y dùng tiên cốt để tu bổ Huyền Thiên Cửu Châu giới.
+
+Chỉ mới mấy trăm năm ngắn ngủi, Ứng Hàn Y thế mà đã trải qua những bước ngoặt chuyển tu ma đạo, độ kiếp phi thăng, rồi lại vì cả cõi Huyền Thiên Cửu Châu giới mà buông bỏ tất cả.
+
+Hạ Khanh Tuyên biết rõ những chuyện mà Ứng Hàn Y nói ra với vẻ bình thản mây trôi nước chảy kia tuyệt đối không hề dễ dàng, chỉ là hắn không ngờ y lại rơi vào tình cảnh chật vật thảm hại đến nhường này.
+
+Cưỡng ép bóc tách tiên cốt ra khỏi cơ thể, khí tức của Ứng Hàn Y vô cùng suy yếu. Đã có không ít yêu thú bị hấp dẫn bởi máu thịt ẩn chứa sức mạnh bàng bạc này, từ trong bóng tối rình rập nhìn chằm chằm người đang gục ngã giữa vũng máu.
+
+Thuở trước nếu y đã bình an vô sự thì chứng tỏ Ứng Hàn Y nhất định có cách ứng phó, hắn chỉ cần quay về nơi mình từng tỉnh lại, thi triển thời gian chi pháp trở về tương lai là xong, chẳng cần phải can thiệp quá nhiều. Thế nhưng, Hạ Khanh Tuyên thực sự không thể nào nhẫn tâm vứt bỏ một Ứng Hàn Y như thế này lại phía sau.

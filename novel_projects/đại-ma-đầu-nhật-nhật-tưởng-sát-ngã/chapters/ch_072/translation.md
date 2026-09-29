@@ -1,61 +1,109 @@
----
-title: Đại Ma Đầu Nhật Nhật Tưởng Sát Ngã — ch_072
----
+# Chương 72: Trở lại Thương Âm, giải trừ đạo lữ khế
 
-He Qingxuan lắc đầu, con thủy yêu quyến rũ ngay lập tức biến thành một con vật có lông, cảm thấy khó chịu khi lông bị ướt.
-Ying Hanyi cười và nói: "Tôi nghĩ rằng tôi có thể đánh giá cao hình ảnh một người phụ nữ xinh đẹp đang tắm, nhưng Chúa bất tử đã phá hỏng vẻ đẹp bằng cách này."
-Nước lọt vào mắt anh. He Qingxuan không quan tâm đến sắc đẹp hay không. Anh hơi mím môi và chớp mắt. Sau khi ép nước vào mắt, anh vẫn cảm thấy hơi khó chịu.
-Những giọt nước trượt xuống cằm anh rồi nhỏ giọt xuống mặt hồ tạo thành gợn sóng.
-Và anh là một cảnh đẹp khác trong hồ nước lấp lánh này.
-Ying Hanyi cười vì anh ấy nghĩ rằng người đối diện dù nhìn cô thế nào cũng đẹp trai. Anh bước đi như đi trên mặt đất đến chỗ Hạ Thanh Huyền, cúi xuống đưa tay ra: “Có cần anh ôm em không?”
-Đương nhiên Hà Thanh Huyền không cần.
-Nhưng bộ dáng nhàn nhã của Ứng Hàn Y lại khiến anh có chút không vui.
-Anh giơ tay đặt lên tay Ứng Hàn Di, ý đồ kéo người đó xuống nước.
-Ying Hanyi bất động nhìn chằm chằm vào He Qingxuan, đôi lông mày nham hiểm trông rất đáng sợ, nhưng ngay sau đó anh ta lại cười, bế He Qingxuan lên khỏi mặt nước, lau khô quần áo và tóc.
-Hạ Thanh Huyền: "..."
-Có gì đó không ổn, hoàn toàn sai.
-Vẻ mặt ủ rũ của Ying Hanyi khiến He Qingxuan càng bối rối không biết ý anh là gì.
-Núi Thương Âm.
-He Qingxuan lại đặt chân lên vùng đất này. Âm khí xung quanh hắn đã bớt đáng sợ hơn nhiều so với trước đây, nhiệt độ trên cơ thể hắn chỉ có thể coi là lạnh khi chạm vào.
-Trong giây lát, He Qingxuan nghĩ rằng sức mạnh của mình đã được cải thiện rất nhiều và giờ đây anh có khả năng chống lại Yin Qi tốt hơn. Tuy nhiên, anh sớm nhận ra rằng điều đó không nên xảy ra. Dù thế nào đi nữa cũng không thể đạt đến điểm này, nếu không núi Thương Âm sẽ không trở thành nơi mà người bình thường không dám bước vào.
-Cho nên hắn chỉ có thể nhờ người giúp hắn tạm thời phong tỏa âm khí.
-Hà Thanh Huyền cảm thấy kỳ quái, nhưng cũng không có cố ý nhìn Ying Hanyi.
-Hoàng đế Miexu vừa đến, vô số nhân vật bằng giấy bước ra cung kính chào đón, thổi sáo và chơi nhạc. Nó rất sống động.
-Hà Thanh Huyền nhìn cảnh tượng sống động do người giấy tạo ra, khóe miệng hơi nhếch lên.
+Hạ Khanh Tuyên khẽ lắc đầu, bộ dạng mị hoặc tựa thủy yêu trong nháy mắt đã biến thành một con thú nhỏ lông xù vừa bị ngấm nước có phần khó chịu.
 
-應寒衣也不說話，抬手一劃，一道魔氣直接將遠處的山頭削掉一半，掉落的山石發出了巨大的動靜。
-一襲紫衣英俊不凡的陰鬼道人在塵土飛揚中匆忙趕到現場，皮笑肉不笑，“我說這些紙人們怎麽這麽興奮，一個個趕到外面來迎接貴客，原是帝尊前來，有失遠迎有失遠迎。”
-“原來這些紙人竟是都已經不受你操控了，不若本尊幫你一把火燒了。”應寒衣半點面子不留。
-陰鬼道人連忙擺手阻止，“不用麻煩不用麻煩，這首曲子，是我特意為歡迎帝尊準備的，怎想帝尊竟是不喜歡。”
-應寒衣眼眸危險。
-賀卿宣暗想，度魂曲可不是什麽好曲子，應寒衣這是聽出來了。
-陰鬼道人已經自顧自地道：“對解開契約我又有所感悟了，這次必能為帝尊解憂。”
-“陰鬼，本尊在不久前才殺了一個人。”
-“誰？”
-“焚天。”
-陰鬼道人：“……”
-詭異的沉默了半響之後，陰鬼道人連忙表示道：“您放心，區區道侶契約罷了。”
-賀卿宣對此笑而不語，就等著看看對方的手段。
-第37章
-陰鬼道人需要的所有材料，應寒衣都拿了出來，無數天材地寶堆積在一起，散發出一股誘人的靈氣芳香。
-賀卿宣淺淺吸了一口，感覺修為都有些許的松動。
-可惜這些天材地寶全都是用來解開他與應寒衣契約的。
-周邊有兩個化神期修為之上的大能，他根本搞不了一絲一毫的小動作。
-但凡他前面的布局出現了半點問題，這可能便是他重生之後遇見的最大危機。
-這該是他最緊張的時候，可他面上連一點擔憂都沒。
+Ứng Hàn Y khẽ cười một tiếng: “Còn tưởng có thể thưởng thức một bức họa mỹ nhân xuất dục, tiên quân làm như thế quả là phá hỏng mỹ cảm rồi.”
 
-陰鬼道人簡單查看了一下材料，抬眸就對上了賀卿宣淡然的表情。
-“仙君似乎很自信。”
-“自信嗎？那倒沒有，相反，我很擔心，甚至想要從中作梗。”
-一聽他這話，陰鬼道人率先查看起火焰心與玄羽花，以免這兩樣東西被動了手腳，玄羽花的確與他想要的玄羽花不同，但其分明是變異之後的結果，而非有人對其做了什麽。
-陰鬼道人笑了一聲，似在笑話自己的草木皆兵。
-“看來仙君只是想要從中作梗，而並沒有真的去做。”
-“也許吧。”
-賀卿宣眼眸微彎，事實並非陰鬼道人所說，他是有去做什麽，只是到後面又將那印記抹除了罷了。
-陰鬼道人面上顯露不快，“也許？莫非你還真做了什麽不成。”
-無形的威壓稍微泄露，陰冷迫人。
-應寒衣手指撥動了一下玄羽花的花瓣，和陰鬼道人道：“開始吧。”
-陰鬼道人瞧了瞧應寒衣，以及自己那被擋下的威壓，也不和全靈之體鬥嘴了，情不自禁地笑了起來，甚至是笑得直不起腰來，直到應寒衣用森冷的目光看向他，他才大手一揮，無數的天材地寶被他引動，漂浮在半空中。
-每樣天材地寶都顯現出與自己屬性相同的光芒，點點微光仿若繁星，點亮了暗沉靜謐的蒼陰山。
-陰鬼道人先是牽引了幾道微光過來，手上不斷結印掐訣，後兩指並列的在面額前劃過，驟然周圍空氣都發生了變化，陰鬼道人長發衣袍無風自動，詭譎的力量不斷地向著此處湧動，待時機成熟，眉眼冷凝的陰鬼道人厲喝一聲，吐出一道晦澀的法訣。
-賀卿宣輕輕眨動了一下眼，該說這陰鬼道人的確有些本事嗎？
+Nước đều đã tràn vào cả mắt rồi, Hạ Khanh Tuyên lúc này nào còn tâm trí bận tâm đến mỹ cảm với chẳng mỹ cảm. Hắn khẽ mím môi, chớp chớp mắt vài cái, sau khi ép hết nước trong mắt ra ngoài vẫn cảm thấy có chút xót cay khó chịu.
+
+Từng giọt nước men theo cằm hắn lăn dài rồi rơi xuống mặt hồ, khuấy động nên từng tầng gợn sóng lăn tăn.
+
+Mà chính hắn lại là một tuyệt cảnh khác giữa mặt hồ gợn sóng lấp lánh này.
+
+Ứng Hàn Y tự bật cười trước việc bản thân bất luận nhìn thế nào cũng cảm thấy đối phương thuận mắt ưa nhìn. Y bước đi trên mặt nước tựa như giẫm trên đất bằng, thong thả đi tới trước mặt Hạ Khanh Tuyên, khom lưng chìa tay ra: “Có cần kéo ngươi một phen không?”
+
+Hạ Khanh Tuyên đương nhiên là không cần.
+
+Thế nhưng cái bộ dạng ung dung nhàn nhã này của Ứng Hàn Y lại khiến hắn có chút ngứa mắt không vui.
+
+Hắn giơ tay nắm lấy bàn tay của Ứng Hàn Y, dùng lực muốn kéo y cùng rơi xuống nước.
+
+Ứng Hàn Y vẫn đứng sừng sững không mảy may lay chuyển, đôi mắt âm u nhìn chằm chằm Hạ Khanh Tuyên, chân mày hung lệ trông có phần dọa người; thế nhưng rất nhanh sau đó y lại bật cười một tiếng, một tay túm lấy Hạ Khanh Tuyên vớt hắn lên khỏi mặt nước, rồi vận linh lực hong khô xiêm y cùng mái tóc sũng nước cho hắn.
+
+Hạ Khanh Tuyên: “...”
+
+Không đúng, mười phần không đúng.
+
+Bộ dạng vui giận thất thường này của Ứng Hàn Y lại càng khiến Hạ Khanh Tuyên không sao lần mò ra rốt cuộc đối phương có ý đồ gì.
+
+Thương Âm Sơn.
+
+Hạ Khanh Tuyên một lần nữa đặt chân lên mảnh đất này, âm khí xung quanh dường như đã không còn đáng sợ như trước, luồng hàn khí chạm vào người hắn chỉ tính là có chút lạnh lẽo mà thôi.
+
+Hạ Khanh Tuyên có một khoảnh khắc ngỡ rằng thực lực của bản thân đã được tăng tiến vượt bậc nên năng lực chống cự âm khí mới mạnh lên như thế; nhưng rất nhanh hắn liền phán đoán ra không thể nào, dẫu có thế nào cũng không thể đạt tới mức này, bằng không Thương Âm Sơn đã chẳng phải là vùng đất hiểm mà người thường không dám đặt chân vào.
+
+Cho nên chỉ có thể là có người đã ra tay thay hắn ngăn trở luồng âm khí kia lại.
+
+Đáy lòng Hạ Khanh Tuyên dâng lên một cỗ cảm xúc kỳ quặc, nhưng hắn không cố ý quay sang nhìn Ứng Hàn Y.
+
+Diệt Hư Đế Tôn vừa mới đặt chân tới nơi, liền có vô số hình nhân giấy cung kính ùa ra nghênh tiếp, thổi sáo gảy đàn tấu nhạc rộn ràng, náo nhiệt vô cùng.
+
+Hạ Khanh Tuyên nhìn màn náo nhiệt mà đám nhân thủ giấy này bày ra, khóe môi khẽ giật giật.
+
+Ứng Hàn Y chẳng buồn lên tiếng, chỉ vung tay lên một cái, một đạo ma khí sắc bén liền trực tiếp gọt phăng đi một nửa ngọn núi đằng xa; đất đá đổ ầm ầm tạo nên động tĩnh kinh thiên động địa.
+
+Giữa làn bụi đất mịt mù, một thân ảnh vận tử y tuấn lãng bất phàm — Âm Quỷ Đạo Nhân vội vã chạy tới hiện trường, da mặt cười mà thịt không cười: “Ta còn đang tự hỏi cớ sao lũ người giấy này hôm nay lại phấn khích đến thế, đứa nào đứa nấy đều tranh nhau chạy ra ngoài nghênh tiếp quý khách, hóa ra là Đế Tôn giá lâm! Thất nghênh thất nghênh, thật đắc tội quá.”
+
+“Hóa ra đám người giấy này đã không còn chịu sự khống chế của ngươi nữa rồi sao? Chi bằng để bổn tôn giúp ngươi phóng một mồi lửa thiêu rụi hết đi.” Ứng Hàn Y chẳng nể mặt nửa phần.
+
+Âm Quỷ Đạo Nhân vội vàng xua tay can ngăn: “Không phiền, không phiền đâu! Khúc nhạc này là do tại hạ đặc biệt chuẩn bị để hoan nghênh Đế Tôn, nào ngờ Đế Tôn lại không thích.”
+
+Ánh mắt Ứng Hàn Y lóe lên tia nguy hiểm.
+
+Hạ Khanh Tuyên thầm nghĩ trong lòng, Độ Hồn Khúc chẳng phải là thứ khúc điệu tốt lành gì, Ứng Hàn Y rõ ràng là đã nghe ra được rồi.
+
+Âm Quỷ Đạo Nhân đã tự mình tiếp lời: “Về việc giải trừ khế ước, tại hạ gần đây lại có thêm điều lĩnh ngộ mới, lần này nhất định có thể giải trừ nỗi ưu phiền cho Đế Tôn.”
+
+“Âm Quỷ, bổn tôn cách đây không lâu vừa mới giết một người.”
+
+“Ai cơ?”
+
+“Phần Thiên.”
+
+Âm Quỷ Đạo Nhân: “...”
+
+Sau một hồi im lặng quỷ dị kéo dài, Âm Quỷ Đạo Nhân liền vội vã tỏ thái độ: “Ngài cứ yên tâm, chỉ là khu khu một cái đạo lữ khế ước mà thôi!”
+
+Hạ Khanh Tuyên đối với việc này chỉ cười mà không nói, lẳng lặng chờ xem thủ đoạn của đối phương ra sao.
+
+Toàn bộ tài liệu mà Âm Quỷ Đạo Nhân yêu cầu, Ứng Hàn Y đều đã mang ra đầy đủ. Vô số thiên tài địa bảo chất đống lại với nhau, tỏa ra một làn hương thơm linh khí mê đắm lòng người.
+
+Hạ Khanh Tuyên chỉ khẽ hít một hơi nhẹ, liền cảm thấy bình cảnh tu vi của mình dường như có chút buông lỏng.
+
+Chỉ tiếc là đống thiên tài địa bảo này tất cả đều dùng để giải trừ khế ước giữa hắn và Ứng Hàn Y.
+
+Bên cạnh có tới hai vị đại năng tu vi từ Hóa Thần kỳ trở lên, hắn căn bản không thể giở bất kỳ trò mờ ám nhỏ nhặt nào.
+
+Chỉ cần những bố cục trước đây của hắn xuất hiện nửa điểm sơ hở, thì đây rất có thể sẽ là nguy cơ sinh tử lớn nhất mà hắn gặp phải kể từ sau khi trọng sinh.
+
+Đáng lẽ đây phải là lúc hắn căng thẳng nhất, thế nhưng trên gương mặt hắn lại chẳng có lấy nửa phần lo lắng.
+
+Âm Quỷ Đạo Nhân sau khi sơ lược kiểm tra qua các vật liệu, ngước mắt lên liền chạm ngay phải vẻ mặt thản nhiên điềm tĩnh của Hạ Khanh Tuyên.
+
+“Xem ra tiên quân có vẻ rất tự tin nhỉ?”
+
+“Tự tin sao? Điều đó thì không có đâu; ngược lại, ta đang vô cùng lo lắng, thậm chí còn muốn nhúng tay phá đám nữa là.”
+
+Vừa nghe hắn nói vậy, Âm Quỷ Đạo Nhân liền lập tức kiểm tra Hỏa Diễm Tâm và Huyền Vũ Hoa trước tiên, để đề phòng hai món đồ này bị người ta động tay động chân. Đóa Huyền Vũ Hoa quả thực có chỗ khác biệt so với Huyền Vũ Hoa mà lão yêu cầu, nhưng đây rõ ràng là kết quả sau khi biến dị chứ không phải do có kẻ can thiệp vào.
+
+Âm Quỷ Đạo Nhân cười khẩy một tiếng, tựa hồ đang cười nhạo chính mình quá mức thần hồn nát thần tính, nhìn đâu cũng thấy quân thù.
+
+“Xem ra tiên quân chẳng qua chỉ là có ý định phá đám trong đầu thôi, chứ chưa thực sự ra tay làm gì.”
+
+“Có lẽ vậy.”
+
+Đôi mắt Hạ Khanh Tuyên hơi cong lên. Sự thật vốn không như lời Âm Quỷ Đạo Nhân phán đoán: hắn quả thực đã từng động thủ, chỉ là về sau hắn đã tự tay xóa bỏ đi ấn ký kia mà thôi.
+
+Sắc mặt Âm Quỷ Đạo Nhân lộ rõ vẻ khó chịu: “Có lẽ? Chẳng lẽ ngươi thực sự đã làm trò gì rồi sao?”
+
+Một luồng uy áp vô hình khẽ phát tán ra ngoài, âm lãnh bức người.
+
+Ngón tay Ứng Hàn Y khẽ gảy qua cánh hoa Huyền Vũ Hoa, nhàn nhạt nói với Âm Quỷ Đạo Nhân: “Bắt đầu đi.”
+
+Âm Quỷ Đạo Nhân liếc nhìn Ứng Hàn Y, lại nhìn sang luồng uy áp của mình vừa bị đối phương triệt tiêu chắn lại, cũng chẳng buồn đôi co với tên Toàn Linh chi thể nữa; lão không kìm được mà bật cười khúc khích, thậm chí cười đến mức không thẳng nổi lưng lên. Mãi cho đến khi Ứng Hàn Y quét tới ánh mắt lạnh lẽo thấu xương, lão mới vung tay áo lên một cái; vô số thiên tài địa bảo tức thì bị lão dẫn động, đồng loạt trôi nổi giữa không trung.
+
+Mỗi một món thiên tài địa bảo đều tỏa ra vầng hào quang mang thuộc tính riêng của mình, từng đốm sáng lấp lánh tựa muôn vì tinh tú, thắp sáng cả một vùng Thương Âm Sơn u tối tĩnh mịch.
+
+Âm Quỷ Đạo Nhân thoạt tiên dẫn dắt vài vệt hào quang bay tới, mười ngón tay liên tục kết ấn bấm quyết, sau đó khép hai ngón tay vạch ngang trước trán. Trong khoảnh khắc, không khí xung quanh đột ngột biến chuyển dữ dội, mái tóc dài cùng đạo bào của Âm Quỷ Đạo Nhân tự động tung bay phần phật dù không có gió; từng luồng sức mạnh quỷ dị không ngừng cuộn trào về hướng này. Đợi đến khi thời cơ đã chín muồi, Âm Quỷ Đạo Nhân với ánh mắt ngưng đọng nghiêm nghị bỗng quát vang một tiếng, thốt ra một đạo pháp quyết tối nghĩa khó hiểu.
+
+Hạ Khanh Tuyên khẽ chớp mắt một cái, chẳng lẽ phải thừa nhận rằng tên Âm Quỷ Đạo Nhân này quả thực cũng có chút bản lĩnh hay sao?

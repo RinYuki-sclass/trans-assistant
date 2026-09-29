@@ -1,63 +1,115 @@
 ---
-title: Đại Ma Đầu Nhật Nhật Tưởng Sát Ngã — ch_103
+title: Chương 103
 ---
 
-Hà Thanh Huyền khẽ cau mày. Sẽ ổn thôi nếu anh ta không thể tìm thấy bất kỳ dấu vết nào của cách bố trí đội hình. Tuy nhiên, đội hình này là một đội hình sát thủ sẽ được kích hoạt khi anh ta đột phá.
-Hơn nữa, trên thực tế còn có tàn hồn của một cường giả đã vượt qua kiếp nạn. Đây phải là kết quả của việc đối thủ ép mình tiến vào đội hình và cuối cùng bị đội hình phản công.
-Chẳng lẽ như Hoàng đế Hades đã nói, ngôi mộ cổ này hoàn toàn không phải là mộ của ai đó mà xuất phát từ ác ý của một kẻ có quyền lực.
-Sau khi luyện chế linh hồn của kẻ mạnh mẽ trong Giai đoạn Kiếp nạn, He Qingxuan nhìn chằm chằm vào trận pháp một lúc lâu, tiến lên một bước và giơ tay chạm vào màn sáng do trận pháp ngưng tụ.
-"Ngươi không muốn mạng sống của mình!" Hoàng đế Hades vội vàng ngăn cản anh ta.
-Khi He Qingxuan dừng lại, Hoàng đế Hades hơi thả lỏng và nói nhanh: "Nếu bạn chỉ muốn có một thể hồn mạnh mẽ và có kết giới khi đối mặt với Ma hoàng, thì ở đây đã có một linh hồn trong thời kỳ kiếp nạn. Tại sao bạn phải đột phá trận pháp đó, luyện hóa thể hồn trong thời kỳ kiếp, rồi rời khỏi đây?"
-Những gì Hoàng đế Hades nói có lý. Anh ta không cần phải mạo hiểm.
-Nhưng chỉ vì đã đi đến bước cuối cùng này nên chúng ta không sẵn lòng bỏ cuộc.
-Bàn tay đang dừng lại của hắn tiếp tục vươn về phía trước, giữa tiếng hét của Hades, ngón tay của hắn xuyên qua màn sáng.
-Hà Thanh Huyền thở phào nhẹ nhõm, tiếp tục đi về phía trước. Hắn cư nhiên xuyên qua màn sáng, đi tới cổ mộ chỗ sâu.
-Đúng như anh nghĩ, đội hình cuối cùng quá tự nhiên và không có cách nào để phá vỡ nó. Trong trường hợp này, đừng bẻ khóa mà hãy trực tiếp vào.
-Đây thực sự là một canh bạc táo bạo. Nếu phạm sai lầm, anh ta sẽ chịu chung số phận với bậc thầy vĩ đại trong Thời Kỳ Đại Nạn. May mắn thay, anh ta đã đặt cược đúng, và anh ta đã trực diện tiến vào tầng cuối cùng của ngôi mộ cổ.
-Ai có thể ngờ rằng trong một ngôi mộ cổ chứa đầy những trận pháp vĩ đại, trận pháp cuối cùng lại là một canh bạc về lòng dũng cảm của mỗi người.
-"Vừa rồi cậu đang làm cái quái gì vậy?" Hoàng đế Hades nghiêm khắc hỏi. Cô chưa bao giờ thấy ai tuyệt vọng như He Qingxuan.
-Hà Thanh Huyền cười nhẹ, "Ngươi nên cảm ơn ta đã lựa chọn mạo hiểm. Dù sao nơi này không có đường quay lại. Có người đã chết trong lăng mộ cổ trước mặt ta. Ngươi nghĩ nguyên nhân cái chết của hắn là gì? Hắn muốn bỏ cuộc và quay trở lại, nhưng lại bị một thế lực thần bí trực tiếp xóa sổ."
-Cho nên Hạ Thanh Huyền suy đoán không sai. Nơi này chắc chắn là thứ gì đó do các vị thần cổ xưa để lại.
-Sau khi đi vào sâu trong cổ mộ, nơi này không xa hoa như trong tưởng tượng, ngược lại có chút quá đơn giản.
-Sau khi tiến lên vài bước, anh nghe thấy một âm thanh cổ xưa chứa đựng âm thanh của một con đường lớn.
-"Ta đã chờ đợi nhiều năm, cuối cùng cũng tìm được đúng người. Đây là ta cả đời đối với phương pháp chiến đấu, xin trao cho đúng người."
-Lời nói vừa dứt, một điểm ánh sáng rơi vào trong ý thức hải của Hà Thanh Huyền, đại lượng kiến ​​thức về trận pháp đổ vào trong ý thức hải của Hà Thanh Huyền. Sau khi biết được những điều này, He Qingxuan đã biết. Tiền bối đã chừa lại một khoảng trống, nếu không He Qingxuan sẽ không bao giờ có thể phá được nó.
+Hạ Khanh Tuyên khẽ nhíu mày. Nếu chỉ là không phát hiện ra dấu vết bố trí trận pháp thì cũng thôi đi, đằng này trận pháp này lại là một đạo sát trận, một khi xông bừa vào liền sẽ kích hoạt sát cơ ngập trời.
 
-Anh khám phá xung quanh ngôi mộ cổ. Nơi này quá trống trải, nhìn thoáng qua có thể thấy rõ ràng thứ duy nhất có thể coi là đồ vật chính là chiếc quan tài ở giữa.
-He Qingxuan bước tới và lạy quan tài, cảm ơn lòng tốt của anh ta.
-Sau khi cầu nguyện, anh ấy thực sự bước ra ngoài.
-"Ngươi không phải muốn luyện chế một vị Cổ Thần tàn hồn sao? Tại sao hiện tại không thể làm được?"
-Hạ Thanh Huyền hơi khựng lại, sau đó tiếp tục đi về phía trước, “Tôi đã có được thứ mình muốn.”
-He Qingxuan muốn lấy gì? Hoàng đế Hades nhanh chóng có được câu trả lời trong đầu.
-Điều điên rồ gần như là một trò đùa—tinh chỉnh lĩnh vực ngoài lãnh thổ!
-Chương 59
-Sau khi He Qingxuan rời đi, một bóng người thong thả bước vào sâu trong cổ mộ. Anh nhìn linh hồn sắp biến mất từ ​​xa, rồi quay người rời đi.
-"Xương bất tử của ngươi đâu?"
-Giọng nói đơn giản như đang hỏi một điều gì đó vô cùng bình thường.
-Bước chân của bóng người hơi dừng lại, rồi tiếp tục đi theo một hơi thở nào đó.
-"Ngươi mặc dù có hình dáng tiên nhân, nhưng vì cái gì chỉ có một mình tiên cốt mất đi?"
-"Dường như không liên quan gì đến anh."
-*
-Ngôi mộ cổ này vào khó nhưng ra lại dễ đến không ngờ.
-He Qingxuan thậm chí không sử dụng nhiều năng lượng và thành công đi theo một lối đi ra bên ngoài ngôi mộ cổ.
-Có lẽ không nên nói là ở ngoài cổ mộ. Ngôi mộ cổ đã dịch chuyển anh đến một nơi khác bên ngoài cõi bên ngoài. Nếu có người truy đuổi, chỉ riêng việc dịch chuyển tức thời này sẽ giúp anh dễ dàng thoát khỏi sự truy đuổi phía sau.
-Nó chỉ là...
-Hà Thanh Huyền dùng thần thức nhìn chung quanh, sắc mặt càng ngày càng quái dị.
+Huống chi tại nơi này thế mà lại còn có một đạo tàn hồn của đại năng Độ Kiếp kỳ. Đây chắc chắn là kết cục của việc đối phương mạnh mẽ xông vào đại trận, cuối cùng bị đại trận phản sát mà bỏ mạng.
 
-Khí chất quen thuộc đó đột nhiên biến mất sau khi anh bước ra.
-Đây quả thực là trùng hợp, có chút quá đáng.
-Tôi e rằng luồng khí mờ ám trước mặt không phải là tưởng tượng của anh ấy.
-Hà Thanh Huyền tâm tình phức tạp, ngàn vạn suy nghĩ cuối cùng cũng từng điểm từng điểm biến thành một nụ cười.
-Thay vì cảm thấy bị xúc phạm vì bị theo dõi, tôi lại cảm thấy bất lực hơn vì sao người đó lại bất lực đến vậy.
-Sự khác biệt nhỏ trong cảm xúc này thậm chí còn khiến He Qingxuan suy nghĩ rõ ràng về nhiều điều.
-Anh ta ở đó hơi lâu, Hoàng đế Minghu hỏi: "Xung quanh đây có vấn đề."
-Hạ Thanh Huyền cười nói: "Không thành vấn đề."
-"Có vẻ như tâm trạng của bạn đang rất tốt."
-Hà Thanh nhướng mày nói: “Có không?”
-"Đúng." Hoàng đế thế giới ngầm khẳng định.
-"Ngược lại, tôi nghĩ mình nên không vui. Người bình thường lẽ ra phải bất hạnh hơn."
-"Vậy bây giờ cậu thật bất thường."
-He Qingxuan không biết Hoàng đế Hades có hiểu ý ông hay không, nhưng cuộc trò chuyện giữa hai người thực sự đúng đến kỳ lạ.
-Hắn dùng ngón tay xoa xoa chuôi kiếm trong tay, quả quyết trả lời: "Không bình thường."
-Hoàng đế Minh giới nếm thử thứ gì đó khác lạ và định hỏi thêm vài câu hỏi, nhưng He Qingxuan đã nhanh chóng bỏ qua chủ đề này và bắt đầu tinh chỉnh cõi ngoại địa.
-Một điều tưởng tượng như vậy đang diễn ra trước mắt Hoàng đế Hades.
+Chẳng lẽ thực sự như lời Minh Đế nói, ngôi cổ mộ này căn bản không phải là mộ phần của ai cả, mà là đến từ ác ý của một vị đại năng nào đó.
+
+Sau khi luyện chế xong hồn thể của vị đại năng Độ Kiếp kỳ kia, Hạ Khanh Tuyên ngưng mắt nhìn đại trận thật lâu, bước lên một bước, giơ tay muốn chạm vào màn ánh sáng do đại trận ngưng tụ ra.
+
+“Ngươi không cần mạng nữa sao?!” Minh Đế vội vàng lên tiếng ngăn cản.
+
+Thấy Hạ Khanh Tuyên dừng tay lại, Minh Đế mới hơi thở phào nhẹ nhõm, vội nói tiếp: “Ngươi nếu chỉ muốn sở hữu hồn thể cường đại để làm chỗ dựa khi đối đầu với Yêu Hoàng, thì nơi này đã có một đạo hồn phách Độ Kiếp kỳ rồi. Ngươi cớ sao cứ phải cố đột phá đạo trận pháp kia làm gì? Luyện chế hồn thể Độ Kiếp kỳ này xong rồi rời khỏi nơi đây chẳng phải tốt hơn sao?”
+
+Minh Đế nói rất có lý, hắn hoàn toàn không cần thiết phải mạo hiểm tính mạng.
+
+Thế nhưng chính vì đã đi tới bước cuối cùng này, hắn ngược lại lại chẳng hề muốn bỏ cuộc giữa chừng.
+
+Bàn tay đang khựng lại của hắn tiếp tục vươn về phía trước. Giữa tiếng thét kinh hãi của Minh Đế, ngón tay hắn đã xuyên thẳng vào màn ánh sáng kia.
+
+Hạ Khanh Tuyên khẽ thở phào một hơi, tiếp tục cất bước đi về phía trước. Hắn cứ thế dễ dàng xuyên qua màn ánh sáng ấy, tiến vào nơi sâu nhất của cổ mộ.
+
+Đúng như hắn đã dự đoán, đạo trận pháp cuối cùng này quá đỗi tự nhiên hoàn mỹ, căn bản không tìm ra bất kỳ biện pháp nào để phá giải. Đã như vậy thì hà tất phải nhọc công phá giải, trực tiếp đi vào là xong.
+
+Đây thực sự là một canh bạc vô cùng lớn mật. Một khi đánh cược sai, kết cục của hắn sẽ chẳng khác nào vị đại năng Độ Kiếp kỳ kia. May mắn thay hắn đã cược đúng, cửa ải cuối cùng của cổ mộ này chính là một lòng tiến tới, dũng cảm bước thẳng vào.
+
+Ai có thể ngờ được bên trong một ngôi cổ mộ ngập tràn đại trận cấm chế, đạo trận pháp cuối cùng đánh cược lại chính là lòng gan dạ quả cảm của con người.
+
+“Ngươi ban nãy rốt cuộc là đang làm cái gì thế?!” Minh Đế nghiêm giọng chất vấn. Nàng chưa từng thấy ai liều mạng đến mức này như Hạ Khanh Tuyên.
+
+Hạ Khanh Tuyên khẽ cười một tiếng: “Ngươi nên cảm tạ vì ta đã chọn mạo hiểm tiến lên. Rốt cuộc nơi này căn bản không có đường quay lại. Trước đó từng có người chết trong cổ mộ này, ngươi đoán xem nguyên nhân cái chết của hắn là gì? Là do hắn sinh lòng sợ hãi thối lui, muốn quay đầu lại, kết quả liền trực tiếp bị một luồng sức mạnh thần bí xóa sổ hoàn toàn.”
+
+Cho nên Hạ Khanh Tuyên đoán chẳng hề sai, nơi này tuyệt đối là di vật lưu lại từ thời thượng cổ cổ thần.
+
+Sau khi đi tới nơi sâu nhất của cổ mộ, nơi đây không hề xa hoa tráng lệ như tưởng tượng, ngược lại còn có chút quá đỗi mộc mạc đơn sơ.
+
+Tiến thêm vài bước nữa, hắn liền nghe thấy một thanh âm cổ xưa mộc mạc hàm chứa đại đạo vang vọng lên.
+
+“Ngô tĩnh hậu nhiều năm, cuối cùng cũng đợi được người hữu duyên. Đây là toàn bộ kiến giải về trận pháp suốt một đời của ngô, xin tặng lại cho người hữu duyên.”
+
+Dứt lời, một điểm sáng liền rơi thẳng vào thức hải của Hạ Khanh Tuyên. Khối lượng tri thức bàng bạc khổng lồ về trận pháp cuồn cuộn trút vào thức hải hắn. Sau khi thấu hiểu những điều này, Hạ Khanh Tuyên mới hiểu rõ vị tiền bối kia đã cố ý lưu lại đường lui, bằng không thì Hạ Khanh Tuyên tuyệt đối không thể nào một đường phá giải đi tới tận đây được.
+
+Hắn dò xét một vòng quanh cổ mộ. Nơi này quá đỗi trống trải, nhìn qua là thấy hết, vật phẩm duy nhất có thể tính là đồ vật chính là cỗ quan tài gỗ đặt ở chính giữa.
+
+Hạ Khanh Tuyên tiến lên hướng về phía quan tài dập đầu bái một lạy, coi như tạ ơn truyền thụ của đối phương.
+
+Bái xong, hắn thế mà lại trực tiếp xoay người cất bước đi ra ngoài.
+
+“Ngươi không phải muốn luyện chế một đạo tàn hồn cổ thần sao? Cớ sao lúc này lại không làm nữa?”
+
+Hạ Khanh Tuyên bước chân khẽ khựng lại, rồi sau đó tiếp tục đi về phía trước: “Ta đã đạt được thứ ta muốn rồi.”
+
+Thứ Hạ Khanh Tuyên muốn có được là gì? Trong đầu Minh Đế nhanh chóng lóe lên một đáp án.
+
+Chính là cái chuyện điên rồ gần như trò đùa kia — luyện hóa Vực Ngoại lĩnh vực!
+
+Sau khi Hạ Khanh Tuyên rời đi, một bóng hình nhàn nhã thong dong cất bước tiến vào nơi sâu nhất của cổ mộ. Y từ xa xa nhìn thoáng qua đạo thần hồn gần như sắp sửa tiêu tán kia, rồi cũng xoay người chuẩn bị rời đi.
+
+“Tiên cốt của ngươi đâu?”
+
+Thanh âm cổ xưa tựa như đang hỏi một chuyện vô cùng bình thản.
+
+Bóng hình kia bước chân khẽ dừng lại, sau đó tiếp tục nương theo một đạo khí tức quen thuộc mà đuổi theo.
+
+“Đã có tư thế của bậc tiên nhân, cớ sao duy chỉ mất đi tiên cốt?”
+
+“Dường như chẳng liên quan gì tới ngươi nhỉ.”
+
+\*
+
+Cổ mộ này vào thì khó, nhưng đi ra lại dễ dàng đến kỳ lạ.
+
+Hạ Khanh Tuyên thậm chí chẳng tốn bao nhiêu sức lực, liền thuận lợi men theo một lối đi mà bước ra ngoài cổ mộ.
+
+Hoặc giả không nên nói là bên ngoài cổ mộ, ngôi cổ mộ kia đã truyền tống hắn tới một nơi khác bên ngoài Vực Ngoại lĩnh vực. Nếu như có người truy sát, chỉ riêng lần truyền tống này cũng đủ để người ta dễ dàng cắt đuôi sự truy đuổi phía sau.
+
+Chỉ có điều...
+
+Hạ Khanh Tuyên phóng xuất thần thức dò xét bốn phía, sắc mặt lại càng thêm quái dị.
+
+Đạo khí tức quen thuộc kia thế mà lại từ sau khi hắn bước ra liền đột ngột biến mất tăm.
+
+Điều này thực sự quá mức trùng hợp, trùng hợp đến mức có chút quá đáng.
+
+E rằng đạo khí tức như hình với bóng trước đó căn bản chẳng phải là ảo giác của hắn.
+
+Tâm tự Hạ Khanh Tuyên phức tạp khôn tả, muôn vàn suy nghĩ cuối cùng từng chút từng chút một hóa thành một nét cười nơi khóe môi.
+
+So với cảm giác bị mạo phạm khi bị người ta bám đuôi, ngược lại trong lòng hắn phần nhiều lại là cảm giác bất đắc dĩ trước con người kia.
+
+Sự biến đổi nhỏ nhặt trong cảm xúc này thậm chí còn khiến Hạ Khanh Tuyên nghĩ thông suốt rất nhiều chuyện.
+
+Hắn đứng lại tại chỗ có chút lâu, Minh Đế hồ nghi hỏi: “Bốn phía xung quanh đây có vấn đề sao?”
+
+Hạ Khanh Tuyên bật cười: “Không có vấn đề gì.”
+
+“Tâm trạng ngươi dường như không tồi nhỉ.”
+
+Hạ Khanh Tuyên nhướng mày: “Có sao?”
+
+“Có.” Minh Đế chắc nịch.
+
+“Ta ngược lại cảm thấy ta nên không vui mới phải. Người bình thường ắt hẳn phải không vui nhiều hơn.”
+
+“Vậy thì ngươi lúc này chính là không bình thường.”
+
+Hạ Khanh Tuyên không biết liệu Minh Đế có hiểu được ẩn ý trong lời hắn hay không, thế nhưng cuộc đối thoại của hai người quả thực lại ăn khớp một cách kỳ dị.
+
+Ngón tay hắn khẽ vuốt ve chuôi trường kiếm trong tay, đưa ra câu trả lời khẳng định: “Đúng là không được bình thường cho lắm.”
+
+Minh Đế ngửi ra được chút mùi vị khác lạ, có ý muốn hỏi thêm vài câu, thế nhưng Hạ Khanh Tuyên đã nhanh chóng gạt phắt đề tài ấy sang một bên, bắt tay vào việc chuẩn bị luyện hóa Vực Ngoại lĩnh vực.
+
+Một chuyện huyền huyễn không tưởng đến nhường ấy đang chuẩn bị mở màn ngay trước mắt Minh Đế.
