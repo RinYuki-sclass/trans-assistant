@@ -1,0 +1,463 @@
+{
+  "chapter_id": "ch_004",
+  "questions": [
+    {
+      "id": "amb_001",
+      "original": "艾利克斯",
+      "suggested": "Alex",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật [艾利克斯]?",
+      "options": [
+        "Alex",
+        "Ngải Lợi Khắc Tư",
+        "A Lực Khắc Tư"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_002",
+      "original": "Alex (ngôi thứ 3)",
+      "suggested": "hắn",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Alex (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "hắn",
+        "y",
+        "anh",
+        "cậu",
+        "gã",
+        "chàng"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_003",
+      "original": "楚司承",
+      "suggested": "Chu Sicheng",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật [楚司承]?",
+      "options": [
+        "Chu Sicheng",
+        "Sở Tư Thừa",
+        "Sở Tư Thừa (Chu Sicheng)"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_004",
+      "original": "Chu Sicheng (ngôi thứ 3)",
+      "suggested": "anh",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Chu Sicheng (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "anh",
+        "cậu",
+        "y",
+        "hắn",
+        "chàng"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_005",
+      "original": "费洛",
+      "suggested": "Felo",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật [费洛]?",
+      "options": [
+        "Felo",
+        "Phí Lạc",
+        "Phí Lạc (Felo)"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_006",
+      "original": "Felo (ngôi thứ 3)",
+      "suggested": "hắn",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Felo (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "hắn",
+        "y",
+        "cậu",
+        "gã"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_007",
+      "original": "弗德裡希",
+      "suggested": "Friedrich",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật [弗德裡希]?",
+      "options": [
+        "Friedrich",
+        "Phất Đức Lý Hy",
+        "Phất Đức Hy"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_008",
+      "original": "Friedrich (ngôi thứ 3)",
+      "suggested": "hắn",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Friedrich (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "hắn",
+        "y",
+        "anh",
+        "cậu",
+        "chàng"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_009",
+      "original": "骷髅",
+      "suggested": "Bộ xương",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật [骷髅]?",
+      "options": [
+        "Bộ xương",
+        "Khô Lâu",
+        "Thực thể xương"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_010",
+      "original": "Bộ xương (ngôi thứ 3)",
+      "suggested": "nó",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Bộ xương (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "nó",
+        "y",
+        "hắn",
+        "thứ đó"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_011",
+      "original": "系统 (của Felo)",
+      "suggested": "Hệ thống",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật [系统 (của Felo)]?",
+      "options": [
+        "Hệ thống",
+        "Thiết bị",
+        "Hệ thống (của Phí Lạc)"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_012",
+      "original": "Hệ thống (của Felo) (ngôi thứ 3)",
+      "suggested": "nó",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Hệ thống (của Felo) (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "nó",
+        "y",
+        "hắn",
+        "thiết bị đó"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_013",
+      "original": "系统 (của Chu Sicheng)",
+      "suggested": "Hệ thống",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật [系统 (của Chu Sicheng)]?",
+      "options": [
+        "Hệ thống",
+        "Thiết bị",
+        "Hệ thống (của Sở Tư Thừa)"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_014",
+      "original": "Hệ thống (của Chu Sicheng) (ngôi thứ 3)",
+      "suggested": "nó",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Hệ thống (của Chu Sicheng) (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "nó",
+        "y",
+        "hắn",
+        "thiết bị đó"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_015",
+      "original": "Chu Sicheng → Alex",
+      "suggested": "Chu Sicheng xưng Ta - gọi Alex là Ngươi",
+      "confidence": 0.3,
+      "question": "Chiều 1: Chu Sicheng xưng hô thế nào với Alex (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Ta - gọi Ngươi",
+        "xưng Tôi - gọi Cậu",
+        "xưng Tôi - gọi Anh",
+        "xưng Anh - gọi Em"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_016",
+      "original": "Alex → Chu Sicheng",
+      "suggested": "Alex xưng Tôi - gọi Chu Sicheng là Cậu",
+      "confidence": 0.3,
+      "question": "Chiều 2: Alex xưng hô thế nào với Chu Sicheng (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Cậu",
+        "xưng Tôi - gọi Anh",
+        "xưng Ta - gọi Ngươi",
+        "xưng Em - gọi Anh"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_017",
+      "original": "Chu Sicheng → Quân Thư",
+      "suggested": "Chu Sicheng xưng Tôi - gọi Quân Thư là Các cô",
+      "confidence": 0.3,
+      "question": "Chiều 1: Chu Sicheng xưng hô thế nào với Quân Thư (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Các cô",
+        "xưng Tôi - gọi Các chị",
+        "xưng Ta - gọi Các ngươi"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_018",
+      "original": "Quân Thư → Chu Sicheng",
+      "suggested": "Quân Thư xưng Chúng tôi - gọi Chu Sicheng là Ngài",
+      "confidence": 0.3,
+      "question": "Chiều 2: Quân Thư xưng hô thế nào với Chu Sicheng (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Chúng tôi - gọi Ngài",
+        "xưng Chúng tôi - gọi Cậu",
+        "xưng Chúng tôi - gọi Anh"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_019",
+      "original": "Felo → Hệ thống (của Felo)",
+      "suggested": "Felo xưng Ta - gọi Hệ thống là Ngươi",
+      "confidence": 0.3,
+      "question": "Chiều 1: Felo xưng hô thế nào với Hệ thống (của Felo) (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Ta - gọi Ngươi",
+        "xưng Tôi - gọi Mày",
+        "xưng Tôi - gọi Hệ thống"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_020",
+      "original": "Hệ thống (của Felo) → Felo",
+      "suggested": "Hệ thống xưng Ta - gọi Felo là Ngươi",
+      "confidence": 0.3,
+      "question": "Chiều 2: Hệ thống (của Felo) xưng hô thế nào với Felo (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Ta - gọi Ngươi",
+        "xưng Tôi - gọi Ngài",
+        "xưng Tôi - gọi Chủ nhân"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_021",
+      "original": "Felo → Bộ xương",
+      "suggested": "Felo xưng Mày - gọi Bộ xương là Tao",
+      "confidence": 0.3,
+      "question": "Chiều 1: Felo xưng hô thế nào với Bộ xương (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Mày - gọi Tao",
+        "xưng Ngươi - gọi Ta",
+        "xưng Tôi - gọi Ngươi"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_022",
+      "original": "Bộ xương → Felo",
+      "suggested": "Bộ xương xưng Ta - gọi Felo là Ngươi",
+      "confidence": 0.3,
+      "question": "Chiều 2: Bộ xương xưng hô thế nào với Felo (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Ta - gọi Ngươi",
+        "xưng Tôi - gọi Ngài",
+        "xưng Ta - gọi Kẻ này"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_023",
+      "original": "Sứ Quan → Felo",
+      "suggested": "Sứ Quan xưng Tôi - gọi Felo là Các hạ",
+      "confidence": 0.3,
+      "question": "Chiều 1: Sứ Quan xưng hô thế nào với Felo (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Các hạ",
+        "xưng Hạ quan - gọi Các hạ",
+        "xưng Tôi - gọi Ngài"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_024",
+      "original": "Felo → Sứ Quan",
+      "suggested": "Felo xưng Ta - gọi Sứ Quan là Ngươi",
+      "confidence": 0.3,
+      "question": "Chiều 2: Felo xưng hô thế nào với Sứ Quan (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Ta - gọi Ngươi",
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Quan"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_025",
+      "original": "Chu Sicheng → Hệ thống (của Chu Sicheng)",
+      "suggested": "Chu Sicheng xưng Ta - gọi Hệ thống là Ngươi",
+      "confidence": 0.3,
+      "question": "Chiều 1: Chu Sicheng xưng hô thế nào với Hệ thống (của Chu Sicheng) (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Ta - gọi Ngươi",
+        "xưng Tôi - gọi Mày",
+        "xưng Tôi - gọi Hệ thống"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_026",
+      "original": "Hệ thống (của Chu Sicheng) → Chu Sicheng",
+      "suggested": "Hệ thống xưng Tôi - gọi Chu Sicheng là Ký chủ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Hệ thống (của Chu Sicheng) xưng hô thế nào với Chu Sicheng (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Ký chủ",
+        "xưng Tôi - gọi Ngài",
+        "xưng Tôi - gọi Cậu"
+      ],
+      "category": "relationship"
+    }
+  ],
+  "answers": {
+    "amb_001": {
+      "choice": "Alex",
+      "custom": null
+    },
+    "amb_002": {
+      "choice": "hắn",
+      "custom": null
+    },
+    "amb_003": {
+      "choice": "Sở Tư Thừa",
+      "custom": null
+    },
+    "amb_004": {
+      "choice": "anh",
+      "custom": null
+    },
+    "amb_005": {
+      "choice": "Felo",
+      "custom": null
+    },
+    "amb_006": {
+      "choice": "gã",
+      "custom": null
+    },
+    "amb_007": {
+      "choice": "Friedrich",
+      "custom": null
+    },
+    "amb_008": {
+      "choice": "hắn",
+      "custom": null
+    },
+    "amb_009": {
+      "choice": "Hư ảnh đầu lâu",
+      "custom": null
+    },
+    "amb_010": {
+      "choice": "nó",
+      "custom": null
+    },
+    "amb_011": {
+      "choice": "Hệ thống",
+      "custom": null
+    },
+    "amb_012": {
+      "choice": "nó",
+      "custom": null
+    },
+    "amb_013": {
+      "choice": "Hệ thống",
+      "custom": null
+    },
+    "amb_014": {
+      "choice": "anh",
+      "custom": null
+    },
+    "amb_015": {
+      "choice": "Chu Sicheng xưng Ta - gọi Alex là Ngươi",
+      "custom": null
+    },
+    "amb_016": {
+      "choice": "Alex xưng Tôi - gọi Chu Sicheng là Cậu",
+      "custom": null
+    },
+    "amb_017": {
+      "choice": "Chu Sicheng xưng Tôi - gọi Quân Thư là Các cô",
+      "custom": null
+    },
+    "amb_018": {
+      "choice": "Quân Thư xưng Chúng tôi - gọi Chu Sicheng là Ngài",
+      "custom": null
+    },
+    "amb_019": {
+      "choice": "Felo xưng Ta - gọi Hệ thống là Ngươi",
+      "custom": null
+    },
+    "amb_020": {
+      "choice": "Hệ thống xưng Ta - gọi Felo là Ngươi",
+      "custom": null
+    },
+    "amb_021": {
+      "choice": "Felo xưng Mày - gọi Bộ xương là Tao",
+      "custom": null
+    },
+    "amb_022": {
+      "choice": "Bộ xương xưng Ta - gọi Felo là Ngươi",
+      "custom": null
+    },
+    "amb_023": {
+      "choice": "Sứ Quan xưng Tôi - gọi Felo là Các hạ",
+      "custom": null
+    },
+    "amb_024": {
+      "choice": "Felo xưng Ta - gọi Sứ Quan là Ngươi",
+      "custom": null
+    },
+    "amb_025": {
+      "choice": "Chu Sicheng xưng Ta - gọi Hệ thống là Ngươi",
+      "custom": null
+    },
+    "amb_026": {
+      "choice": "Hệ thống xưng Tôi - gọi Chu Sicheng là Ký chủ",
+      "custom": null
+    }
+  },
+  "answered_at": "2026-09-30T12:28:25.420211"
+}

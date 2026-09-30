@@ -1,0 +1,198 @@
+{
+  "chapter_id": "ch_003",
+  "questions": [
+    {
+      "id": "amb_001",
+      "original": "楚司承 (ngôi thứ 3)",
+      "suggested": "Sở Tư Thừa (ngôi thứ 3)",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Sở Tư Thừa (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "cô ấy",
+        "nàng",
+        "y",
+        "cô"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_002",
+      "original": "海德曼 (ngôi thứ 3)",
+      "suggested": "Hải Đức Mạn (ngôi thứ 3)",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Hải Đức Mạn (hắn, y, anh, cậu, gã, chàng...)?",
+      "options": [
+        "ông ta",
+        "hắn",
+        "y",
+        "ngài"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_003",
+      "original": "艾利克斯 (ngôi thứ 3)",
+      "suggested": "A Lợi Khắc Tư (ngôi thứ 3)",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật A Lợi Khắc Tư (hắn, y, anh, cậu, gã, chàng...)?",
+      "options": [
+        "hắn",
+        "y",
+        "anh ta",
+        "tướng quân"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_004",
+      "original": "楚司承 → 艾利克斯",
+      "suggested": "Sở Tư Thừa xưng Tôi - gọi A Lợi Khắc Tư là Tướng quân",
+      "question": "Chiều 1: Sở Tư Thừa xưng hô thế nào với A Lợi Khắc Tư (Sở Tư Thừa tự xưng là gì và gọi A Lợi Khắc Tư là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Tướng quân",
+        "xưng Tôi - gọi Alex",
+        "xưng Em - gọi Anh",
+        "xưng Ta - gọi Ngươi"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_005",
+      "original": "艾利克斯 → 楚司承",
+      "suggested": "A Lợi Khắc Tư xưng Tôi - gọi Sở Tư Thừa là Cô",
+      "question": "Chiều 2: A Lợi Khắc Tư xưng hô thế nào với Sở Tư Thừa (A Lợi Khắc Tư tự xưng là gì và gọi Sở Tư Thừa là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Cô",
+        "xưng Ta - gọi Ngươi",
+        "xưng Tôi - gọi Sở Tư Thừa",
+        "xưng Anh - gọi Em"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_006",
+      "original": "海德曼 → 助理",
+      "suggested": "Hải Đức Mạn xưng Tôi - gọi Trợ lý là Cậu",
+      "question": "Chiều 1: Hải Đức Mạn xưng hô thế nào với Trợ lý (Hải Đức Mạn tự xưng là gì và gọi Trợ lý là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Cậu",
+        "xưng Ta - gọi Ngươi",
+        "xưng Tôi - gọi Cậu ta",
+        "xưng Lão tử - gọi Ngươi"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_007",
+      "original": "助理 → 海德曼",
+      "suggested": "Trợ lý xưng Thần - gọi Hội trưởng là Ngài",
+      "question": "Chiều 2: Trợ lý xưng hô thế nào với Hải Đức Mạn (Trợ lý tự xưng là gì và gọi Hải Đức Mạn là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Thần - gọi Ngài",
+        "xưng Tôi - gọi Hội trưởng",
+        "xưng Con - gọi Cha",
+        "xưng Tôi - gọi Ngài"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_008",
+      "original": "海德曼 → 助理",
+      "suggested": "Hải Đức Mạn xưng Tôi - gọi Trợ lý là Cậu",
+      "question": "Chiều 1: Hải Đức Mạn xưng hô thế nào với Trợ lý (Hải Đức Mạn tự xưng là gì và gọi Trợ lý là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Cậu",
+        "xưng Ta - gọi Ngươi",
+        "xưng Tôi - gọi Cậu ta",
+        "xưng Lão tử - gọi Ngươi"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_009",
+      "original": "助理 → 海德曼",
+      "suggested": "Trợ lý xưng Thần - gọi Hội trưởng là Ngài",
+      "question": "Chiều 2: Trợ lý xưng hô thế nào với Hải Đức Mạn (Trợ lý tự xưng là gì và gọi Hải Đức Mạn là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Thần - gọi Ngài",
+        "xưng Tôi - gọi Hội trưởng",
+        "xưng Con - gọi Cha",
+        "xưng Tôi - gọi Ngài"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_010",
+      "original": "艾利克斯 → 楚司承",
+      "suggested": "A Lợi Khắc Tư xưng Tôi - gọi Sở Tư Thừa là Cô",
+      "question": "Chiều 1: A Lợi Khắc Tư xưng hô thế nào với Sở Tư Thừa (A Lợi Khắc Tư tự xưng là gì và gọi Sở Tư Thừa là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Cô",
+        "xưng Ta - gọi Ngươi",
+        "xưng Tôi - gọi Sở Tư Thừa",
+        "xưng Anh - gọi Em"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_011",
+      "original": "楚司承 → 艾利克斯",
+      "suggested": "Sở Tư Thừa xưng Tôi - gọi A Lợi Khắc Tư là Tướng quân",
+      "question": "Chiều 2: Sở Tư Thừa xưng hô thế nào với A Lợi Khắc Tư (Sở Tư Thừa tự xưng là gì và gọi A Lợi Khắc Tư là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Tướng quân",
+        "xưng Tôi - gọi Alex",
+        "xưng Em - gọi Anh",
+        "xưng Ta - gọi Ngươi"
+      ],
+      "category": "relationship"
+    }
+  ],
+  "answers": {
+    "amb_001": {
+      "choice": "anh",
+      "custom": null
+    },
+    "amb_002": {
+      "choice": "ông ta",
+      "custom": null
+    },
+    "amb_003": {
+      "choice": "hắn",
+      "custom": null
+    },
+    "amb_004": {
+      "choice": "Sở Tư Thừa xưng Tôi - gọi A Lợi Khắc Tư là Tướng quân",
+      "custom": null
+    },
+    "amb_005": {
+      "choice": "A Lợi Khắc Tư xưng Tôi - gọi Sở Tư Thừa là Cô",
+      "custom": null
+    },
+    "amb_006": {
+      "choice": "Hải Đức Mạn xưng Tôi - gọi Trợ lý là Cậu",
+      "custom": null
+    },
+    "amb_007": {
+      "choice": "Trợ lý xưng Thần - gọi Hội trưởng là Ngài",
+      "custom": null
+    },
+    "amb_008": {
+      "choice": "Hải Đức Mạn xưng Tôi - gọi Trợ lý là Cậu",
+      "custom": null
+    },
+    "amb_009": {
+      "choice": "Trợ lý xưng Thần - gọi Hội trưởng là Ngài",
+      "custom": null
+    },
+    "amb_010": {
+      "choice": "A Lợi Khắc Tư xưng Tôi - gọi Sở Tư Thừa là Cô",
+      "custom": null
+    },
+    "amb_011": {
+      "choice": "Sở Tư Thừa xưng Tôi - gọi A Lợi Khắc Tư là Tướng quân",
+      "custom": null
+    }
+  },
+  "answered_at": "2026-09-30T12:28:25.407208"
+}

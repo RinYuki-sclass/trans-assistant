@@ -1,0 +1,596 @@
+{
+  "chapter_summary": "Trong phiên tòa xét xử, Phí Lạc tự tin rằng mình sẽ thắng kiện, nhưng bất ngờ khi thấy Thụy An (tức Sở Tư Thừa) không hề hoảng loạn mà còn mỉm cười bí ẩn. Đại pháp quan tiết lộ rằng Thụy An luôn là giống đực cấp S, và việc thay đổi thân phận thành á thư trùng là do Phí Lạc dàn dựng. Phí Lạc nhận ra mình đã bị gài bẫy và mọi chuyện không diễn ra như trong tiểu thuyết anh ta đã đọc. Sở Tư Thừa, với vẻ ngoài yếu ớt, đã lật ngược tình thế, khiến Phí Lạc bị giáng cấp, mất quyền lợi và phải thực hiện dịch vụ an ủi thư trùng. Đúng lúc Phí Lạc tuyệt vọng, một bóng ma đầu lâu xuất hiện, trao đổi với Phí Lạc và hứa sẽ giúp anh ta lật ngược ván cờ. Sau đó, một người xông vào báo cáo kết quả kiểm tra cấp bậc của Thụy An là F, gây sốc cho mọi người nhưng lại khiến Phí Lạc vui mừng, vì điều này phù hợp với cốt truyện ban đầu và cho anh ta cơ hội 'phản công'.",
+  "new_characters": [
+    {
+      "name": "费洛",
+      "hanviet_name": "Phí Lạc",
+      "gender": "Male",
+      "role": "Antagonist, transmigrator",
+      "description": "Nhân vật phản diện chính, một người xuyên không tự tin vào cốt truyện gốc nhưng liên tục bị Sở Tư Thừa lật kèo."
+    },
+    {
+      "name": "楚司承",
+      "hanviet_name": "Sở Tư Thừa",
+      "gender": "Male",
+      "role": "Protagonist",
+      "description": "Nhân vật chính, ban đầu được gọi là Thụy An. Giống đực cấp S, thông minh và có vẻ ngoài yếu ớt, vô tội nhưng thực chất là người đã lật ngược tình thế trong phiên tòa."
+    },
+    {
+      "name": "瑞安",
+      "hanviet_name": "Thụy An",
+      "gender": "Male",
+      "role": "Protagonist (alias)",
+      "description": "Tên ban đầu của Sở Tư Thừa, được Phí Lạc biết đến trong cốt truyện gốc."
+    },
+    {
+      "name": "萨克森将军",
+      "hanviet_name": "Tát Khắc Sâm tướng quân",
+      "gender": "Male",
+      "role": "Military figure",
+      "description": "Một tướng quân được nhắc đến, người đã được Thụy An an ủi."
+    },
+    {
+      "name": "法官大人",
+      "hanviet_name": "Đại pháp quan",
+      "gender": "Male",
+      "role": "Judge",
+      "description": "Vị thẩm phán chủ trì phiên tòa, ban đầu tức giận với Phí Lạc nhưng sau đó bị sốc bởi kết quả kiểm tra cấp bậc của Thụy An."
+    },
+    {
+      "name": "引导老师",
+      "hanviet_name": "Giáo viên hướng dẫn",
+      "gender": "Unknown",
+      "role": "Support staff",
+      "description": "Người đã giữ Phí Lạc lại khi anh ta định xông vào Sở Tư Thừa."
+    },
+    {
+      "name": "弗德里希",
+      "hanviet_name": "Phật Đức Lý Hi",
+      "gender": "Male",
+      "role": "Target of conquest",
+      "description": "Nhân vật mà Phí Lạc cần 'công lược' để hoàn thành nhiệm vụ."
+    },
+    {
+      "name": "骷髅头虚影",
+      "hanviet_name": "Hư ảnh đầu lâu",
+      "gender": "Unknown",
+      "role": "Supernatural entity",
+      "description": "Một thực thể bí ẩn, đáng sợ, xuất hiện để hỗ trợ Phí Lạc khi anh ta gặp khó khăn."
+    },
+    {
+      "name": "闯入者",
+      "hanviet_name": "Kẻ xông vào",
+      "gender": "Male",
+      "role": "Messenger",
+      "description": "Người mang báo cáo kiểm tra cấp bậc của Thụy An đến phiên tòa."
+    }
+  ],
+  "new_locations": [
+    {
+      "name": "垃圾星",
+      "hanviet": "Tinh cầu rác",
+      "description": "Một hành tinh nguy hiểm, nơi Thụy An được cho là đã ngụy trang thành á thư trùng."
+    },
+    {
+      "name": "超等星球",
+      "hanviet": "Siêu đẳng tinh cầu",
+      "description": "Hành tinh cao cấp nơi Phí Lạc đang sinh sống trước khi bị giáng cấp."
+    },
+    {
+      "name": "审判席",
+      "hanviet": "Ghế thẩm phán",
+      "description": "Nơi các thẩm phán ngồi trong phiên tòa."
+    },
+    {
+      "name": "刑罚室",
+      "hanviet": "Phòng hình phạt",
+      "description": "Nơi Sở Tư Thừa từng bị giam giữ, được Phí Lạc nhắc đến."
+    },
+    {
+      "name": "审判大厅",
+      "hanviet": "Đại sảnh xét xử",
+      "description": "Nơi diễn ra phiên tòa."
+    }
+  ],
+  "new_terms": [
+    {
+      "original": "光脑",
+      "suggested": "Máy tính quang học",
+      "hanviet": "Quang não",
+      "category": "item",
+      "confidence": 0.0
+    },
+    {
+      "original": "审判会",
+      "suggested": "Phiên tòa xét xử",
+      "hanviet": "Thẩm phán hội",
+      "category": "other",
+      "confidence": 0.0
+    },
+    {
+      "original": "反派光环",
+      "suggested": "Hào quang phản diện",
+      "hanviet": "Phản phái quang hoàn",
+      "category": "other",
+      "confidence": 0.0
+    },
+    {
+      "original": "主角光环",
+      "suggested": "Hào quang nhân vật chính",
+      "hanviet": "Chủ giác quang hoàn",
+      "category": "other",
+      "confidence": 0.0
+    },
+    {
+      "original": "雄虫",
+      "suggested": "Giống đực",
+      "hanviet": "Hùng trùng",
+      "category": "other",
+      "confidence": 0.0
+    },
+    {
+      "original": "亚雌",
+      "suggested": "Á thư trùng",
+      "hanviet": "Á thư",
+      "category": "other",
+      "confidence": 0.0
+    },
+    {
+      "original": "虫薄荷",
+      "suggested": "Bạc hà trùng",
+      "hanviet": "Trùng bạc hà",
+      "category": "other",
+      "confidence": 0.0
+    },
+    {
+      "original": "S级雄虫",
+      "suggested": "Giống đực cấp S",
+      "hanviet": "S cấp hùng trùng",
+      "category": "other",
+      "confidence": 0.0
+    },
+    {
+      "original": "A级雄虫",
+      "suggested": "Giống đực cấp A",
+      "hanviet": "A cấp hùng trùng",
+      "category": "other",
+      "confidence": 0.0
+    },
+    {
+      "original": "C等",
+      "suggested": "Hạng C",
+      "hanviet": "C đẳng",
+      "category": "other",
+      "confidence": 0.0
+    },
+    {
+      "original": "雌虫安抚服务",
+      "suggested": "Dịch vụ an ủi thư trùng",
+      "hanviet": "Thư trùng an phủ phục vụ",
+      "category": "other",
+      "confidence": 0.0
+    },
+    {
+      "original": "二次蜕化",
+      "suggested": "Lột xác lần hai",
+      "hanviet": "Nhị thứ thuế hóa",
+      "category": "other",
+      "confidence": 0.0
+    },
+    {
+      "original": "信息素",
+      "suggested": "Pheromone",
+      "hanviet": "Tín tức tố",
+      "category": "other",
+      "confidence": 0.0
+    },
+    {
+      "original": "法槌",
+      "suggested": "Búa gõ của thẩm phán",
+      "hanviet": "Pháp chùy",
+      "category": "item",
+      "confidence": 0.0
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "费洛",
+      "suggested": "Phí Lạc",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật 费洛?",
+      "options": [
+        "Phí Lạc",
+        "Phí Lộ",
+        "Phí La",
+        "Phỉ Lạc"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_002",
+      "original": "费洛 (ngôi thứ 3)",
+      "suggested": "hắn",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật 费洛 (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "hắn",
+        "y",
+        "gã",
+        "anh ta",
+        "cậu ta"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_003",
+      "original": "楚司承",
+      "suggested": "Sở Tư Thừa",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật 楚司承?",
+      "options": [
+        "Sở Tư Thừa",
+        "Sở Tư Thành",
+        "Sở Tư Chửng",
+        "Sở Tư Trình"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_004",
+      "original": "楚司承 (ngôi thứ 3)",
+      "suggested": "y",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật 楚司承 (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "y",
+        "hắn",
+        "cậu",
+        "anh",
+        "chàng"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_005",
+      "original": "瑞安",
+      "suggested": "Thụy An",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật 瑞安?",
+      "options": [
+        "Thụy An",
+        "Thụy Ân",
+        "Thụy Yên",
+        "Thụy Nhan"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_006",
+      "original": "瑞安 (ngôi thứ 3)",
+      "suggested": "y",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật 瑞安 (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "y",
+        "hắn",
+        "cậu",
+        "anh",
+        "chàng"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_007",
+      "original": "萨克森将军",
+      "suggested": "Tát Khắc Sâm tướng quân",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật 萨克森将军?",
+      "options": [
+        "Tát Khắc Sâm tướng quân",
+        "Tát Khắc Sâm",
+        "Tướng quân Saxson",
+        "Tướng quân Tát Khắc Sâm"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_008",
+      "original": "萨克森将军 (ngôi thứ 3)",
+      "suggested": "ông",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật 萨克森将军 (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "ông",
+        "ngài",
+        "vị tướng quân này",
+        "hắn"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_009",
+      "original": "法官大人",
+      "suggested": "Đại pháp quan",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật 法官大人?",
+      "options": [
+        "Đại pháp quan",
+        "Quan tòa",
+        "Thẩm phán đại nhân",
+        "Vị pháp quan"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_010",
+      "original": "法官大人 (ngôi thứ 3)",
+      "suggested": "ông",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật 法官大人 (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "ông",
+        "ngài",
+        "vị pháp quan này",
+        "hắn"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_011",
+      "original": "引导老师",
+      "suggested": "Giáo viên hướng dẫn",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật 引导老师?",
+      "options": [
+        "Giáo viên hướng dẫn",
+        "Thầy hướng dẫn",
+        "Cô hướng dẫn",
+        "Dẫn đạo lão sư"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_012",
+      "original": "引导老师 (ngôi thứ 3)",
+      "suggested": "người này",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật 引导老师 (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "người này",
+        "vị giáo viên này",
+        "anh ta",
+        "cô ta",
+        "hắn"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_013",
+      "original": "弗德里希",
+      "suggested": "Phật Đức Lý Hi",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật 弗德里希?",
+      "options": [
+        "Phật Đức Lý Hi",
+        "Phất Đức Lý Hi",
+        "Friedrich",
+        "Phật Đức Lợi Hy"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_014",
+      "original": "弗德里希 (ngôi thứ 3)",
+      "suggested": "y",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật 弗德里希 (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "y",
+        "hắn",
+        "cậu",
+        "anh",
+        "chàng"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_015",
+      "original": "骷髅头虚影",
+      "suggested": "Hư ảnh đầu lâu",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật 骷髅头虚影?",
+      "options": [
+        "Hư ảnh đầu lâu",
+        "Bóng ma đầu lâu",
+        "Đầu lâu",
+        "Khô lâu đầu hư ảnh"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_016",
+      "original": "骷髅头虚影 (ngôi thứ 3)",
+      "suggested": "nó",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật 骷髅头虚影 (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "nó",
+        "thực thể này",
+        "cái bóng này",
+        "hắn"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_017",
+      "original": "闯入者",
+      "suggested": "Kẻ xông vào",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật 闯入者?",
+      "options": [
+        "Kẻ xông vào",
+        "Người xông vào",
+        "Người đưa tin",
+        "Sấm nhập giả"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_018",
+      "original": "闯入者 (ngôi thứ 3)",
+      "suggested": "anh ta",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật 闯入者 (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "anh ta",
+        "người này",
+        "hắn",
+        "cậu ta"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_019",
+      "original": "费洛 → 楚司承",
+      "suggested": "费洛 xưng Tôi - gọi 楚司承 là Cậu",
+      "confidence": 0.3,
+      "question": "Chiều 1: 费洛 xưng hô thế nào với 楚司承 (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Cậu",
+        "xưng Ta - gọi Ngươi",
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Thụy An"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_020",
+      "original": "楚司承 → 费洛",
+      "suggested": "楚司承 xưng Tôi - gọi 费洛 là Ngài",
+      "confidence": 0.3,
+      "question": "Chiều 2: 楚司承 xưng hô thế nào với 费洛 (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Ngài",
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Phí Lạc",
+        "xưng Em - gọi Anh"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_021",
+      "original": "法官大人 → 费洛",
+      "suggested": "法官大人 xưng Ta - gọi 费洛 là Ngài",
+      "confidence": 0.3,
+      "question": "Chiều 1: 法官大人 xưng hô thế nào với 费洛 (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Ta - gọi Ngài",
+        "xưng Tôi - gọi Ngài",
+        "xưng Ta - gọi Phí Lạc",
+        "xưng Tôi - gọi Anh"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_022",
+      "original": "费洛 → 法官大人",
+      "suggested": "费洛 xưng Tôi - gọi 法官大人 là Ngài",
+      "confidence": 0.3,
+      "question": "Chiều 2: 费洛 xưng hô thế nào với 法官大人 (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Ngài",
+        "xưng Tôi - gọi Đại pháp quan",
+        "xưng Tôi - gọi Ông",
+        "xưng Con - gọi Cha"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_023",
+      "original": "引导老师 → 费洛",
+      "suggested": "引导老师 xưng Tôi - gọi 费洛 là Cậu",
+      "confidence": 0.3,
+      "question": "Chiều 1: 引导老师 xưng hô thế nào với 费洛 (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Cậu",
+        "xưng Ta - gọi Ngươi",
+        "xưng Tôi - gọi Phí Lạc",
+        "xưng Tôi - gọi Anh"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_024",
+      "original": "费洛 → 引导老师",
+      "suggested": "费洛 xưng Tôi - gọi 引导老师 là Thầy",
+      "confidence": 0.3,
+      "question": "Chiều 2: 费洛 xưng hô thế nào với 引导老师 (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Thầy",
+        "xưng Tôi - gọi Cô",
+        "xưng Tôi - gọi Ngài",
+        "xưng Tôi - gọi Anh"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_025",
+      "original": "骷髅头虚影 → 费洛",
+      "suggested": "骷髅头虚影 xưng Ta - gọi 费洛 là Ngươi",
+      "confidence": 0.3,
+      "question": "Chiều 1: 骷髅头虚影 xưng hô thế nào với 费洛 (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Ta - gọi Ngươi",
+        "xưng Ta - gọi Cậu",
+        "xưng Ta - gọi Phí Lạc",
+        "xưng Tôi - gọi Anh"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_026",
+      "original": "费洛 → 骷髅头虚影",
+      "suggested": "费洛 xưng Ta - gọi 骷髅头虚影 là Ngươi",
+      "confidence": 0.3,
+      "question": "Chiều 2: 费洛 xưng hô thế nào với 骷髅头虚影 (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Ta - gọi Ngươi",
+        "xưng Tôi - gọi Ngài",
+        "xưng Tôi - gọi Nó",
+        "xưng Tôi - gọi Đại nhân"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_027",
+      "original": "闯入者 → 法官大人",
+      "suggested": "闯入者 xưng Tôi - gọi 法官大人 là Ngài",
+      "confidence": 0.3,
+      "question": "Chiều 1: 闯入者 xưng hô thế nào với 法官大人 (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Ngài",
+        "xưng Tôi - gọi Đại pháp quan",
+        "xưng Tôi - gọi Ông",
+        "xưng Tôi - gọi Các vị"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_028",
+      "original": "法官大人 → 闯入者",
+      "suggested": "法官大人 xưng Ta - gọi 闯入者 là Ngươi",
+      "confidence": 0.3,
+      "question": "Chiều 2: 法官大人 xưng hô thế nào với 闯入者 (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Ta - gọi Ngươi",
+        "xưng Tôi - gọi Cậu",
+        "xưng Ta - gọi Anh",
+        "xưng Ta - gọi Người"
+      ],
+      "category": "relationship"
+    }
+  ],
+  "chapter_id": "ch_005",
+  "analyzed_at": "2026-09-30T12:16:23.674723+07:00"
+}

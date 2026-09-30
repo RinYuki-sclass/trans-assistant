@@ -1,0 +1,80 @@
+[
+  {
+    "name": "Sở Tư Thừa",
+    "hanviet_name": "Sở Tư Thừa",
+    "original_name": "楚司承",
+    "pinyin": "Chǔ Sīchéng",
+    "gender": "Nam",
+    "third_person_pronoun": "anh",
+    "role": "Nhân vật chính, cựu Trưởng nhóm Phản diện của Cục Quản lý Thời Không",
+    "notes": "Bình tĩnh, cơ trí, thâm độc, phong thái đại lão phản diện. Xuyên vào các vai chính bị ngược để đoạt lại hào quang."
+  },
+  {
+    "name": "Ryan",
+    "hanviet_name": "Thụy An",
+    "original_name": "瑞安",
+    "pinyin": "Ruì'ān",
+    "gender": "Nam",
+    "third_person_pronoun": "cậu",
+    "role": "Thân xác hùng trùng nguyên tác tại thế giới Trùng tộc (Sở Tư Thừa nhập vào)",
+    "notes": "Hùng trùng cấp F (tiềm năng cấp S), bị Felo gài bẫy vu oan mưu hại đồng loại."
+  },
+  {
+    "name": "Alex Sachsen",
+    "hanviet_name": "Ngải Lợi Khắc Tư · Tát Khắc Sâm",
+    "original_name": "艾利克斯·萨克森",
+    "pinyin": "Àilìkèsī Sàkèsēn",
+    "gender": "Nam (Quân thư)",
+    "third_person_pronoun": "hắn",
+    "role": "Tướng quân quân thư cấp SS, người hành hình",
+    "notes": "Khinh ghét hùng trùng, cao ngạo, lạnh lùng, gặp vấn đề tinh thần lực bạo động dễ trùng hóa."
+  },
+  {
+    "name": "Friedrich",
+    "hanviet_name": "Phật Đức Lý Hi",
+    "original_name": "弗德里希",
+    "pinyin": "Fúdélǐxī",
+    "gender": "Nam (Quân thư)",
+    "third_person_pronoun": "hắn",
+    "role": "Quân thư cấp tướng, quan phối nguyên tác của Ryan",
+    "notes": "Bị kẻ xuyên không Felo tiếp cận và muốn cướp đoạt."
+  },
+  {
+    "name": "Felo",
+    "hanviet_name": "Phí Lạc",
+    "original_name": "费洛",
+    "pinyin": "Fèiluò",
+    "gender": "Nam (Hùng trùng)",
+    "third_person_pronoun": "gã",
+    "role": "Kẻ xuyên không (Bug), hùng trùng cấp A hám danh",
+    "notes": "Biết trước cốt truyện, vu khống hãm hại Ryan để chiếm đoạt hào quang."
+  },
+  {
+    "name": "Heideman",
+    "hanviet_name": "Hải Đức Mạn",
+    "original_name": "海德曼",
+    "pinyin": "Hǎidémàn",
+    "gender": "Nam (Hùng trùng)",
+    "third_person_pronoun": "ông ta",
+    "role": "Hội trưởng Hiệp hội Bảo vệ Hùng trùng",
+    "notes": "Bảo thủ, tức giận khi phát hiện sai phạm nghiêm trọng trong việc giam cầm và xét xử tù nhân 0101."
+  },
+  {
+    "name": "Hệ thống",
+    "hanviet_name": "Hệ thống",
+    "original_name": "系统",
+    "gender": "Vô tính",
+    "third_person_pronoun": "nó",
+    "role": "Hệ thống hỗ trợ của Sở Tư Thừa",
+    "notes": "Trợ thủ đắc lực, theo dõi chỉ số hào quang và nhiệm vụ."
+  },
+  {
+    "name": "Hư ảnh đầu lâu",
+    "hanviet_name": "Khô Lâu / Hắc vụ khô lâu",
+    "original_name": "骷髅 / 骷髅头虚影",
+    "gender": "Không rõ",
+    "third_person_pronoun": "nó",
+    "role": "Thực thể tà ác bí ẩn cấu kết với Felo",
+    "notes": "Xuất hiện trong sương đen hứa hẹn giúp Felo lật kèo khi cốt truyện bị phá vỡ."
+  }
+]
