@@ -84,7 +84,7 @@ Bên trong căn phòng trống trải, một giọng máy móc vô cảm vang l�
 
 【Có lẽ là do những thay đổi của ngươi đối với cốt truyện trước đó, đã khiến quá trình lột xác lần hai của nhân vật chính diễn ra sớm hơn. Ta đã từng nói với ngươi rồi, trước khi hoàn toàn cướp đoạt được hào quang nhân vật chính, không được xem thường kẻ địch.】
 
-Felo nghe xong, tức giận ném vỡ thêm một đĩa hoa quả nữa. Nhìn con hùng trùng không tổn hại gì trên màn hình ảo, vẫn đang cười rạng rỡ, gã không nhịn được lại đá mạnh vào chiếc bàn trước mặt.
+Felo nghe xong, tức giận ném vỡ thêm một đĩa hoa quả nữa. Nhìn hùng trùng không tổn hại gì trên màn hình ảo, vẫn đang cười rạng rỡ, gã không nhịn được lại đá mạnh vào chiếc bàn trước mặt.
 
 "Giết hắn! Tao nhất định phải giết hắn! Friedrich là của tao!!"
 

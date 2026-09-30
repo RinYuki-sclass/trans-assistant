@@ -3,7 +3,7 @@ title: Khi Đại Lão Phản Diện Sắm Vai Nhân Vật Chính [Khoái Xuyên
 ---
 
 【Kẻ hành hình, Alex Sachsen…】
-Sở Tư Thừa lặp lại cái tên của con thư trùng duy nhất xuất hiện trên giấy tuyên án, ngoài anh ra.
+Sở Tư Thừa lặp lại cái tên của thư trùng duy nhất xuất hiện trên giấy tuyên án, ngoài anh ra.
 Chỉ có thể nói, kẻ xuyên không này đã suy tính quá chu toàn, ngay cả khi biết Ryan có thiết lập "không biết nói" trong tiểu thuyết, vẫn chọn một quân thư khác trong toàn bộ truyện, người ghét hùng trùng, tức là Alex Sachsen, kẻ đóng vai trò là nhóm đối chiếu của nhân vật thụ chính, để thực hiện vụ hành hình này.
 Như vậy, ngay cả khi thân phận hùng trùng của Ryan bị bại lộ trong quá trình hành hình, cũng sẽ không có chút cơ hội sống sót nào.
 Nhìn tình hình hiện tại, đây dường như là một cục diện không lối thoát.
