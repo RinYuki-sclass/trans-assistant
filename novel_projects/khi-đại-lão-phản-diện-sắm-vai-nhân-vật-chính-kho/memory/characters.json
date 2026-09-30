@@ -11,53 +11,53 @@
   },
   {
     "name": "Ryan",
-    "hanviet_name": "Thụy An",
+    "hanviet_name": "Ryan",
     "original_name": "瑞安",
     "pinyin": "Ruì'ān",
     "gender": "Nam",
     "third_person_pronoun": "cậu",
     "role": "Thân xác hùng trùng nguyên tác tại thế giới Trùng tộc (Sở Tư Thừa nhập vào)",
-    "notes": "Hùng trùng cấp F (tiềm năng cấp S), bị Felo gài bẫy vu oan mưu hại đồng loại."
+    "notes": "Hùng trùng cấp F (tiềm năng cấp S), bị Felo gài bẫy vu oan mưu hại đồng loại. (Tên tiếng Anh giữ nguyên, không dịch thành Thụy An)"
   },
   {
     "name": "Alex Sachsen",
-    "hanviet_name": "Ngải Lợi Khắc Tư · Tát Khắc Sâm",
+    "hanviet_name": "Alex Sachsen",
     "original_name": "艾利克斯·萨克森",
     "pinyin": "Àilìkèsī Sàkèsēn",
     "gender": "Nam (Quân thư)",
     "third_person_pronoun": "hắn",
     "role": "Tướng quân quân thư cấp SS, người hành hình",
-    "notes": "Khinh ghét hùng trùng, cao ngạo, lạnh lùng, gặp vấn đề tinh thần lực bạo động dễ trùng hóa."
+    "notes": "Khinh ghét hùng trùng, cao ngạo, lạnh lùng, gặp vấn đề tinh thần lực bạo động dễ trùng hóa. (Tên tiếng Anh giữ nguyên, tuyệt đối KHÔNG dịch thành A Lợi Khắc Tư hay Ngải Lợi Khắc Tư)"
   },
   {
     "name": "Friedrich",
-    "hanviet_name": "Phật Đức Lý Hi",
+    "hanviet_name": "Friedrich",
     "original_name": "弗德里希",
     "pinyin": "Fúdélǐxī",
     "gender": "Nam (Quân thư)",
     "third_person_pronoun": "hắn",
     "role": "Quân thư cấp tướng, quan phối nguyên tác của Ryan",
-    "notes": "Bị kẻ xuyên không Felo tiếp cận và muốn cướp đoạt."
+    "notes": "Bị kẻ xuyên không Felo tiếp cận và muốn cướp đoạt. (Tên tiếng Anh giữ nguyên, không dịch thành Phật Đức Lý Hi)"
   },
   {
     "name": "Felo",
-    "hanviet_name": "Phí Lạc",
+    "hanviet_name": "Felo",
     "original_name": "费洛",
     "pinyin": "Fèiluò",
     "gender": "Nam (Hùng trùng)",
     "third_person_pronoun": "gã",
     "role": "Kẻ xuyên không (Bug), hùng trùng cấp A hám danh",
-    "notes": "Biết trước cốt truyện, vu khống hãm hại Ryan để chiếm đoạt hào quang."
+    "notes": "Biết trước cốt truyện, vu khống hãm hại Ryan để chiếm đoạt hào quang. (Tên tiếng Anh giữ nguyên, không dịch thành Phí Lạc)"
   },
   {
     "name": "Heideman",
-    "hanviet_name": "Hải Đức Mạn",
+    "hanviet_name": "Heideman",
     "original_name": "海德曼",
     "pinyin": "Hǎidémàn",
     "gender": "Nam (Hùng trùng)",
     "third_person_pronoun": "ông ta",
     "role": "Hội trưởng Hiệp hội Bảo vệ Hùng trùng",
-    "notes": "Bảo thủ, tức giận khi phát hiện sai phạm nghiêm trọng trong việc giam cầm và xét xử tù nhân 0101."
+    "notes": "Bảo thủ, tức giận khi phát hiện sai phạm nghiêm trọng trong việc giam cầm và xét xử tù nhân 0101. (Tên tiếng Anh giữ nguyên, không dịch thành Hải Đức Mạn)"
   },
   {
     "name": "Hệ thống",
@@ -76,5 +76,15 @@
     "third_person_pronoun": "nó",
     "role": "Thực thể tà ác bí ẩn cấu kết với Felo",
     "notes": "Xuất hiện trong sương đen hứa hẹn giúp Felo lật kèo khi cốt truyện bị phá vỡ."
+  },
+  {
+    "name": "Elio",
+    "hanviet_name": "Elio",
+    "original_name": "艾利欧",
+    "pinyin": "Àilìōu",
+    "gender": "Nam (Hùng trùng)",
+    "third_person_pronoun": "hắn",
+    "role": "Hùng trùng giả tạo, hôn phu cũ của Alex",
+    "notes": "Tên tiếng Anh giữ nguyên, tuyệt đối KHÔNG dịch thành Ngải Lợi Âu"
   }
 ]

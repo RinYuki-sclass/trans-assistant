@@ -20,56 +20,56 @@
   {
     "original": "瑞安",
     "translation": "Ryan",
-    "hanviet": "Thụy An",
+    "hanviet": "Ryan",
     "category": "character",
     "confidence": 1.0,
     "approved": true,
-    "notes": "Thân xác thế giới trùng tộc"
+    "notes": "Thân xác thế giới trùng tộc. Giữ nguyên tiếng Anh Ryan, không dùng Thụy An."
   },
   {
     "original": "艾利克斯",
     "translation": "Alex",
-    "hanviet": "Ngải Lợi Khắc Tư",
+    "hanviet": "Alex",
     "category": "character",
     "confidence": 1.0,
     "approved": true,
-    "notes": "Tướng quân quân thư"
+    "notes": "Tướng quân quân thư. Giữ nguyên tiếng Anh Alex, tuyệt đối không dùng A Lợi Khắc Tư hay Ngải Lợi Khắc Tư."
   },
   {
     "original": "萨克森",
     "translation": "Sachsen",
-    "hanviet": "Tát Khắc Sâm",
+    "hanviet": "Sachsen",
     "category": "character",
     "confidence": 1.0,
     "approved": true,
-    "notes": "Họ của Alex"
+    "notes": "Họ của Alex. Giữ nguyên tiếng Anh Sachsen, không dùng Tát Khắc Sâm."
   },
   {
     "original": "弗德里希",
     "translation": "Friedrich",
-    "hanviet": "Phật Đức Lý Hi",
+    "hanviet": "Friedrich",
     "category": "character",
     "confidence": 1.0,
     "approved": true,
-    "notes": "Quân thư quan phối"
+    "notes": "Quân thư quan phối. Giữ nguyên tiếng Anh Friedrich, không dùng Phật Đức Lý Hi."
   },
   {
     "original": "费洛",
     "translation": "Felo",
-    "hanviet": "Phí Lạc",
+    "hanviet": "Felo",
     "category": "character",
     "confidence": 1.0,
     "approved": true,
-    "notes": "Bug xuyên không"
+    "notes": "Bug xuyên không. Giữ nguyên tiếng Anh Felo, không dùng Phí Lạc."
   },
   {
     "original": "海德曼",
     "translation": "Heideman",
-    "hanviet": "Hải Đức Mạn",
+    "hanviet": "Heideman",
     "category": "character",
     "confidence": 1.0,
     "approved": true,
-    "notes": "Hội trưởng Hiệp hội Bảo vệ Hùng trùng"
+    "notes": "Hội trưởng Hiệp hội Bảo vệ Hùng trùng. Giữ nguyên tiếng Anh Heideman, không dùng Hải Đức Mạn."
   },
   {
     "original": "雄虫",
@@ -78,7 +78,7 @@
     "category": "faction",
     "confidence": 1.0,
     "approved": true,
-    "notes": "Giống đực"
+    "notes": "Giống đực. Dùng 'hùng trùng', tuyệt đối KHÔNG dùng 'con hùng trùng'."
   },
   {
     "original": "雌虫",
@@ -87,7 +87,25 @@
     "category": "faction",
     "confidence": 1.0,
     "approved": true,
-    "notes": "Giống cái"
+    "notes": "Giống cái. Dùng 'thư trùng', tuyệt đối KHÔNG dùng 'con thư trùng'."
+  },
+  {
+    "original": "Con thư trùng",
+    "translation": "thư trùng",
+    "hanviet": "",
+    "category": "rule",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Quy tắc: dịch thành 'thư trùng', bỏ lượng từ 'con'"
+  },
+  {
+    "original": "Con hùng trùng",
+    "translation": "hùng trùng",
+    "hanviet": "",
+    "category": "rule",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Quy tắc: dịch thành 'hùng trùng', bỏ lượng từ 'con'"
   },
   {
     "original": "军雌",
@@ -250,5 +268,14 @@
     "confidence": 1.0,
     "approved": true,
     "notes": ""
+  },
+  {
+    "original": "艾利欧",
+    "translation": "Elio",
+    "hanviet": "Elio",
+    "category": "character",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Hôn phu cũ của Alex. Giữ nguyên tiếng Anh Elio, không dùng Ngải Lợi Âu."
   }
 ]

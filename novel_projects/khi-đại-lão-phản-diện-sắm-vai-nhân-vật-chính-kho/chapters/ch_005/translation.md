@@ -8,13 +8,13 @@ Dù hiện tại anh không còn hào quang phản diện, nhưng không sao, h�
 
 Cổ tay anh khẽ xoay hai nhịp, chiếc quang não đeo trên đó hơi lóe sáng.
 
-Đến lúc Felo tràn đầy tự tin chuẩn bị đón nhận chiến thắng trong phiên tòa một lần nữa, gã liền thấy con hùng trùng đang ngồi đối diện với mình không những không hề lộ ra một tia hoảng loạn nào, ngược lại còn nhếch môi nở một nụ cười có ý vị thâm trầm với gã.
+Đến lúc Felo tràn đầy tự tin chuẩn bị đón nhận chiến thắng trong phiên tòa một lần nữa, gã liền thấy hùng trùng đang ngồi đối diện với mình không những không hề lộ ra một tia hoảng loạn nào, ngược lại còn nhếch môi nở một nụ cười có ý vị thâm trầm với gã.
 
 Cười sao?
 
 Hắn đang cười cái gì chứ?
 
-Trong nhận thức của Felo, lúc này Ryan đáng lẽ phải hoảng loạn đến mức không ra hình thù gì rồi mới phải, thế nhưng con hùng trùng lúc này lại chỉ lặng lẽ ngồi ở đó, có thể nói phản ứng lớn nhất trong suốt quá trình chính là nụ cười mà đối phương vừa ném về phía gã.
+Trong nhận thức của Felo, lúc này Ryan đáng lẽ phải hoảng loạn đến mức không ra hình thù gì rồi mới phải, thế nhưng hùng trùng lúc này lại chỉ lặng lẽ ngồi ở đó, có thể nói phản ứng lớn nhất trong suốt quá trình chính là nụ cười mà đối phương vừa ném về phía gã.
 
 Có gì đó không đúng.
 
@@ -24,7 +24,7 @@ Không biết vì sao, Felo bỗng cảm thấy một luồng khí lạnh ùa th
 
 Cùng lúc đó, giọng nói đầy phẫn nộ của Đại pháp quan cũng giáng thẳng xuống đầu Felo, "Thưa ngài Felo!"
 
-Con hùng trùng lớn tuổi mặc áo bào đen nhìn Felo với ánh mắt thất vọng cùng cực,
+Hùng trùng lớn tuổi mặc áo bào đen nhìn Felo với ánh mắt thất vọng cùng cực,
 
 "Nếu như ở trong tình huống không biết gì cả, những nghi vấn của ngài không phải là không có lý, nhưng ngay từ ngày thứ hai sau khi ngài Ryan hoàn thành việc an bổn cho Tướng quân Sachsen, tòa án chúng ta đã lập tức cử người tiến hành truy vết ngược dòng đối với ngài Ryan."
 
@@ -66,7 +66,7 @@ Những lời thoại không biết đã xuất hiện bao nhiêu lần trong ng
 
 Gần như ngay lập tức, một cảm giác kinh hoàng quỷ dị ập thẳng vào mặt Felo, khiến gã không thể thở nổi, đồng thời không thể kiểm soát mà nhìn về phía nhân vật chính còn lại trong câu chuyện.
 
-Lúc này, con hùng trùng đang ngồi đối diện với gã đã hoàn toàn không còn chút chật vật nào như ở phòng hình phạt nữa.
+Lúc này, hùng trùng đang ngồi đối diện với gã đã hoàn toàn không còn chút chật vật nào như ở phòng hình phạt nữa.
 
 Anh mặc một chiếc áo sơ mi lụa hoa văn vàng trên nền trắng chỉ hùng trùng cấp S mới có quyền sở hữu, cánh tay phải bị thương dù đã hoàn toàn bình phục dưới điều kiện y tế tiên tiến của trùng tộc, nhưng vẫn được đám quân thư xót xa dùng băng gạc quấn lại bảo vệ kỹ càng.
 
@@ -92,7 +92,7 @@ Nghĩ thông suốt mọi chuyện, Felo trừng mắt nhìn Sở Tư Thừa, n�
 
 "Là anh giở trò! Tất cả chuyện này đều do anh làm!"
 
-Sau đó, Felo liền thấy con hùng trùng vừa nãy còn mỉm cười không tiếng động với mình lại đỏ hoe vành mắt ngay dưới câu chất vấn của gã.
+Sau đó, Felo liền thấy hùng trùng vừa nãy còn mỉm cười không tiếng động với mình lại đỏ hoe vành mắt ngay dưới câu chất vấn của gã.
 
 "Tôi không có~ Tôi chưa từng làm thế~"
 
@@ -120,7 +120,7 @@ Những thư trùng từng đau lòng cho Felo vào ngày xét xử trước gi�
 
 Bọn họ vẫn tràn ngập phẫn nộ, chỉ là đối tượng phẫn nộ lần này đã đổi thành Felo.
 
-Thế là, con hùng trùng cấp A vốn có cuộc sống sung sướng đầy đủ nay không chỉ phải dọn đi khỏi tinh cầu siêu cấp đang ở, đãi ngộ sinh hoạt cũng bị giáng từ cấp A xuống cấp C, đồng thời còn phải thực hiện dịch vụ an ninh thư trùng, kéo dài ít nhất là mười năm.
+Thế là, hùng trùng cấp A vốn có cuộc sống sung sướng đầy đủ nay không chỉ phải dọn đi khỏi tinh cầu siêu cấp đang ở, đãi ngộ sinh hoạt cũng bị giáng từ cấp A xuống cấp C, đồng thời còn phải thực hiện dịch vụ an ninh thư trùng, kéo dài ít nhất là mười năm.
 
 Như vậy, Felo cũng không thể gặp lại Friedrich mà hắn cần chinh phục nữa. Nhìn tình hình này, nhiệm vụ cướp đoạt hào quang nhân vật chính của gã sắp thất bại, còn nhiệm vụ thanh trừng Bug của Sở Tư Thừa sắp hoàn thành.
 
