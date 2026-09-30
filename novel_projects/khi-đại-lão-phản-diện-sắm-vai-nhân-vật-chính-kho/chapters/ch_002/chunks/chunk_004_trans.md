@@ -7,6 +7,7 @@ Máu tươi lập tức tuôn ra, từng dòng, trượt dài trên lòng bàn t
 "0101!"
 
 【Ối giời ơi!】
+
 【Ối giời ơi!!!!】
 
 Nhất thời, trong phòng hành hình, bao gồm cả phòng phát sóng trực tiếp, đều trở nên hỗn loạn.
@@ -24,8 +25,11 @@ Alex trợn tròn mắt.
 Sở Tư Thừa khẽ cười, đồng thời, ngón tay lại siết chặt, khiến máu từ vết thương chảy ra càng thêm dồn dập.
 
 【Không, rốt cuộc cậu ta đang làm cái quái gì vậy?】
+
 【Mấy tên lính gác đó ăn cơm không làm việc à?! Sao không ai động thủ? Không thấy còng của 0101 đã mở ra sao?!!】
+
 【Dù sao thì, tại sao cậu ta lại chủ động nắm lấy văn đao vậy?】
+
 【Lần đầu tiên tôi thấy có kẻ tự tìm đường chết như vậy…】
 
 Rốt cuộc, sau khi mở được còng, điều đầu tiên cậu ta nghĩ đến không phải là bỏ chạy, mà là tự làm mình bị thương.

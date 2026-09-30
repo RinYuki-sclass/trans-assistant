@@ -25,7 +25,7 @@
 ### Bảng nhân vật chuẩn:
 | Tên tiếng Trung | Tên chuẩn trong bản dịch | Đại từ ngôi 3 | Vai trò / Thân phận | Tuyệt đối KHÔNG dùng (Cấm) |
 | :--- | :--- | :--- | :--- | :--- |
-| **楚司承** | **Sở Tư Thừa** | **anh** | Cựu Trưởng nhóm Phản diện, nhân vật chính | Chu Tư Thành (chỉ dùng giới thiệu chung, trong truyện chốt 'Sở Tư Thừa') |
+| **楚司承** | **Sở Tư Thừa** | **anh** | Cựu Trưởng nhóm Phản diện, nhân vật chính | Sở Tư Thừa (chỉ dùng giới thiệu chung, trong truyện chốt 'Sở Tư Thừa') |
 | **艾利克斯·萨克森 / 艾利克斯** | **Alex Sachsen / Alex** | **hắn** | Tướng quân quân thư cấp SS, người hành hình | ❌ A Lợi Khắc Tư, ❌ Ngải Lợi Khắc Tư, ❌ Tát Khắc Sâm |
 | **瑞安** | **Ryan** | **cậu** | Thân xác hùng trùng nguyên tác của Sở Tư Thừa | ❌ Thụy An |
 | **弗德里希** | **Friedrich** | **hắn** | Tướng quân quân thư, quan phối nguyên tác của Ryan | ❌ Phật Đức Lý Hi |
@@ -66,3 +66,17 @@
      - `"Con thư trùng"` ➔ **`"Thư trùng"`** / `"con thư trùng"` ➔ **`"thư trùng"`**
      - `"Con hùng trùng"` ➔ **`"Hùng trùng"`** / `"con hùng trùng"` ➔ **`"hùng trùng"`**
      - Không thêm lượng từ "con" phía trước danh xưng trùng tộc.
+8. **Quy tắc định dạng đoạn văn khi Dịch & QC (BẮT BUỘC):**
+   - **Các đoạn phải cách nhau đúng 1 dòng:** Giữa hai đoạn văn trần thuật hoặc lời thoại bất kỳ **bắt buộc phải có đúng 1 dòng trống (`\n\n`)**.
+   - Tuyệt đối không để các đoạn văn dính liền kề trên hai dòng liên tiếp (`\n`) mà không có dòng trống ngăn cách.
+   - Không để thừa nhiều dòng trống liên tiếp (chỉ giữ đúng 1 dòng trống).
+
+---
+
+## 5. CHECKLIST BẮT BUỘC KHI DỊCH VÀ QC MỖI CHƯƠNG
+1. **Kiểm tra định dạng đoạn văn:** Tất cả các đoạn văn và lời thoại phải cách nhau đúng 1 dòng trống (`\n\n`).
+2. **Kiểm tra tên riêng:** Tên phương Tây (Alex, Ryan, Friedrich, Felo, Heideman, Sachsen...) phải giữ nguyên tiếng Anh, không dịch Hán Việt.
+3. **Kiểm tra đại từ ngôi 3:** Sở Tư Thừa = "anh", Alex = "hắn", Ryan = "cậu", Felo = "gã / hắn".
+4. **Kiểm tra danh xưng Trùng tộc:** Tuyệt đối không dùng "con thư trùng", "con hùng trùng", "con quân thư".
+5. **Kiểm tra bảo toàn đoạn 1:1:** Không bỏ sót câu thoại hay đoạn văn, số đoạn khớp 1:1 với nguyên tác.
+
