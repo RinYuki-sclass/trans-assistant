@@ -1,0 +1,507 @@
+{
+  "chapter_summary": "Chương mở đầu giới thiệu về Sở Tư Thừa (Chu Sicheng), một cựu trưởng nhóm phản diện của Cục Quản lý Thời không, người đã về hưu nhưng bị triệu hồi khẩn cấp để xử lý các thế giới có cốt truyện bị lỗi. Nhiệm vụ của anh là đóng vai các nhân vật chính bị những 'Bug' (người xuyên không, trọng sinh, có dị năng) ức hiếp, tra tấn, đoạt lại hào quang và mọi thứ vốn thuộc về họ. Chương này bắt đầu với thế giới côn trùng, nơi Sở Tư Thừa đang nhập vai Ryan, một hùng trùng yếu ớt bị vu oan tội cố ý làm hại hùng trùng cấp A và bị kết án tử hình cấp S. Trong khi hệ thống lo lắng về hào quang nhân vật chính đang cạn kiệt, Sở Tư Thừa vẫn bình tĩnh chờ đợi, hồi tưởng lại lý do anh nhận nhiệm vụ này (vì phần thưởng hậu hĩnh). Kẻ xuyên không, một fan cuồng của Friedrich (cặp đôi chính của Ryan), đã cướp Friedrich và vu khống Ryan để đoạt hào quang. Sở Tư Thừa, trong thân phận Ryan, đang bị giam cầm và chờ đợi hình phạt trước sự chứng kiến của toàn đế quốc.",
+  "new_characters": [
+    {
+      "name": "楚司承",
+      "hanviet_name": "Sở Tư Thừa",
+      "gender": "Male",
+      "role": "Protagonist, former leader of the villain group, now playing abused protagonists.",
+      "description": "Bình tĩnh, mạnh mẽ, thông minh, có khả năng xử lý tình huống cực tốt. Anh được triệu hồi để sửa chữa các thế giới bị lỗi."
+    },
+    {
+      "name": "系统",
+      "hanviet_name": "Hệ thống",
+      "gender": "Unknown",
+      "role": "Chu Sicheng's assistant system.",
+      "description": "Một hệ thống hỗ trợ Chu Sicheng trong các nhiệm vụ, thường xuyên lo lắng và nhắc nhở chủ nhân."
+    },
+    {
+      "name": "艾利克斯萨克森",
+      "hanviet_name": "Alex Sachsen",
+      "gender": "Male",
+      "role": "Warden of Mogelas, executioner.",
+      "description": "Người chịu trách nhiệm thi hành án tử hình cho tù nhân 0101 (Ryan/Chu Sicheng)."
+    },
+    {
+      "name": "瑞安",
+      "hanviet_name": "Ryan",
+      "gender": "Male",
+      "role": "Original protagonist of the insectoid world, currently possessed by Chu Sicheng.",
+      "description": "Một hùng trùng F cấp yếu ớt, hiền lành, lạc quan, bị kẻ xuyên không hãm hại."
+    },
+    {
+      "name": "弗德里希",
+      "hanviet_name": "Friedrich",
+      "gender": "Male",
+      "role": "Original official partner (military female worm) of Ryan.",
+      "description": "Một quân thư bị thương trên chiến trường, có định kiến với hùng trùng."
+    },
+    {
+      "name": "穿越者",
+      "hanviet_name": "Kẻ xuyên không",
+      "gender": "Male",
+      "role": "Antagonist, the 'Bug' in the insectoid world.",
+      "description": "Một hùng trùng A cấp giàu có, quyền thế, là fan cuồng của Friedrich, xuyên không để cướp hào quang của Ryan."
+    },
+    {
+      "name": "姜黎",
+      "hanviet_name": "Khương Lê",
+      "gender": "Male",
+      "role": "True villain, Chu Sicheng's boyfriend (mentioned in summary).",
+      "description": "Được giới thiệu là 'phản diện thật' và là bạn trai của Sở Tư Thừa, nhưng chưa xuất hiện trong chương này."
+    }
+  ],
+  "new_locations": [
+    {
+      "name": "时空管理局",
+      "hanviet": "Cục Quản lý Thời không",
+      "description": "Tổ chức quản lý các thế giới và nhiệm vụ xuyên không."
+    },
+    {
+      "name": "垃圾星",
+      "hanviet": "Tinh cầu Rác",
+      "description": "Một hành tinh nơi Ryan sinh sống, thường xuyên bị bắt nạt."
+    },
+    {
+      "name": "帝星",
+      "hanviet": "Đế tinh",
+      "description": "Hành tinh trung tâm của đế quốc côn trùng."
+    },
+    {
+      "name": "农业星球",
+      "hanviet": "Tinh cầu Nông nghiệp",
+      "description": "Hành tinh chuyên cung cấp nông sản."
+    },
+    {
+      "name": "莫格拉斯",
+      "hanviet": "Mogelas",
+      "description": "Tên của một nhà tù hoặc địa điểm liên quan đến việc thi hành án."
+    }
+  ],
+  "new_terms": [
+    {
+      "original": "反派组组长",
+      "suggested": "Trưởng nhóm phản diện",
+      "hanviet": "Phản phái tổ tổ trưởng",
+      "category": "other",
+      "confidence": 0.9
+    },
+    {
+      "original": "死遁",
+      "suggested": "Giả chết thoát thân",
+      "hanviet": "Tử độn",
+      "category": "other",
+      "confidence": 0.9
+    },
+    {
+      "original": "剧情崩坏",
+      "suggested": "Cốt truyện sụp đổ",
+      "hanviet": "Kịch tình băng hoại",
+      "category": "other",
+      "confidence": 0.9
+    },
+    {
+      "original": "虐文主角",
+      "suggested": "Nhân vật chính của truyện ngược",
+      "hanviet": "Ngược văn chủ giác",
+      "category": "other",
+      "confidence": 0.9
+    },
+    {
+      "original": "气运光环",
+      "suggested": "Hào quang khí vận",
+      "hanviet": "Khí vận quang hoàn",
+      "category": "other",
+      "confidence": 0.9
+    },
+    {
+      "original": "雄虫",
+      "suggested": "Hùng trùng",
+      "hanviet": "Hùng trùng",
+      "category": "other",
+      "confidence": 0.9
+    },
+    {
+      "original": "亚雌",
+      "suggested": "Á thư",
+      "hanviet": "Á thư",
+      "category": "other",
+      "confidence": 0.9
+    },
+    {
+      "original": "军雌",
+      "suggested": "Quân thư",
+      "hanviet": "Quân thư",
+      "category": "other",
+      "confidence": 0.9
+    },
+    {
+      "original": "雌虫",
+      "suggested": "Thư trùng",
+      "hanviet": "Thư trùng",
+      "category": "other",
+      "confidence": 0.9
+    },
+    {
+      "original": "读心术",
+      "suggested": "Đọc tâm thuật",
+      "hanviet": "Độc tâm thuật",
+      "category": "skill",
+      "confidence": 0.9
+    },
+    {
+      "original": "弹幕",
+      "suggested": "Bình luận chạy",
+      "hanviet": "Đạn mạc",
+      "category": "other",
+      "confidence": 0.9
+    },
+    {
+      "original": "官配",
+      "suggested": "Cặp đôi chính thức",
+      "hanviet": "Quan phối",
+      "category": "other",
+      "confidence": 0.9
+    },
+    {
+      "original": "快穿",
+      "suggested": "Xuyên nhanh",
+      "hanviet": "Khoái xuyên",
+      "category": "other",
+      "confidence": 0.9
+    },
+    {
+      "original": "1v1甜爽文",
+      "suggested": "Truyện ngọt sảng 1v1",
+      "hanviet": "1v1 điềm sảng văn",
+      "category": "other",
+      "confidence": 0.9
+    },
+    {
+      "original": "主攻",
+      "suggested": "Chủ công",
+      "hanviet": "Chủ công",
+      "category": "other",
+      "confidence": 0.9
+    },
+    {
+      "original": "F级",
+      "suggested": "Cấp F",
+      "hanviet": "F cấp",
+      "category": "other",
+      "confidence": 0.9
+    },
+    {
+      "original": "A级",
+      "suggested": "Cấp A",
+      "hanviet": "A cấp",
+      "category": "other",
+      "confidence": 0.9
+    },
+    {
+      "original": "S级",
+      "suggested": "Cấp S",
+      "hanviet": "S cấp",
+      "category": "other",
+      "confidence": 0.9
+    },
+    {
+      "original": "光脑",
+      "suggested": "Máy tính quang học",
+      "hanviet": "Quang não",
+      "category": "item",
+      "confidence": 0.9
+    },
+    {
+      "original": "电子镣铐",
+      "suggested": "Còng điện tử",
+      "hanviet": "Điện tử liệu khảo",
+      "category": "item",
+      "confidence": 0.9
+    },
+    {
+      "original": "二次蜕化",
+      "suggested": "Lột xác lần hai",
+      "hanviet": "Nhị thứ thuế hóa",
+      "category": "other",
+      "confidence": 0.9
+    },
+    {
+      "original": "雄虫保护中心",
+      "suggested": "Trung tâm bảo vệ Hùng trùng",
+      "hanviet": "Hùng trùng bảo hộ trung tâm",
+      "category": "faction",
+      "confidence": 0.9
+    },
+    {
+      "original": "帝星最高法院",
+      "suggested": "Tòa án tối cao Đế tinh",
+      "hanviet": "Đế tinh tối cao pháp viện",
+      "category": "faction",
+      "confidence": 0.9
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "楚司承",
+      "suggested": "Sở Tư Thừa",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật 楚司承?",
+      "options": [
+        "Sở Tư Thừa",
+        "Sở Tư Thừa (giữ nguyên)",
+        "Sở Tư Thừa (phiên âm Hán-Việt)",
+        "Sở Tư Thừa (tên thuần Việt)"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_002",
+      "original": "楚司承 (ngôi thứ 3)",
+      "suggested": "hắn",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật 楚司承 (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "hắn",
+        "y",
+        "anh",
+        "cậu",
+        "gã",
+        "chàng"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_003",
+      "original": "系统",
+      "suggested": "Hệ thống",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật 系统?",
+      "options": [
+        "Hệ thống",
+        "Hệ thống (giữ nguyên)",
+        "Hệ thống (phiên âm Hán-Việt)",
+        "Hệ thống (tên thuần Việt)"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_004",
+      "original": "系统 (ngôi thứ 3)",
+      "suggested": "nó",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật 系统 (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "nó",
+        "hắn",
+        "y",
+        "cậu",
+        "thiết bị này"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_005",
+      "original": "艾利克斯萨克森",
+      "suggested": "Alex Sachsen",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật 艾利克斯萨克森?",
+      "options": [
+        "Alex Sachsen",
+        "Ngải Lợi Khắc Tư Tát Khắc Sâm",
+        "Alex Sachsen (giữ nguyên)",
+        "Alex Sachsen (phiên âm Hán-Việt)"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_006",
+      "original": "艾利克斯萨克森 (ngôi thứ 3)",
+      "suggested": "hắn",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật 艾利克斯萨克森 (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "hắn",
+        "y",
+        "viên cai ngục",
+        "gã"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_007",
+      "original": "瑞安",
+      "suggested": "Ryan",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật 瑞安?",
+      "options": [
+        "Ryan",
+        "Thụy An",
+        "Ryan (giữ nguyên)",
+        "Ryan (phiên âm Hán-Việt)"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_008",
+      "original": "瑞安 (ngôi thứ 3)",
+      "suggested": "cậu",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật 瑞安 (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "cậu",
+        "hắn",
+        "y",
+        "chàng",
+        "người này"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_009",
+      "original": "弗德里希",
+      "suggested": "Friedrich",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật 弗德里希?",
+      "options": [
+        "Friedrich",
+        "Phật Đức Lý Hi",
+        "Friedrich (giữ nguyên)",
+        "Friedrich (phiên âm Hán-Việt)"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_010",
+      "original": "弗德里希 (ngôi thứ 3)",
+      "suggested": "hắn",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật 弗德里希 (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "hắn",
+        "y",
+        "anh",
+        "cậu",
+        "người này"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_011",
+      "original": "穿越者",
+      "suggested": "Kẻ xuyên không",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật 穿越者?",
+      "options": [
+        "Kẻ xuyên không",
+        "Người xuyên việt",
+        "Xuyên việt giả",
+        "Kẻ xuyên không (giữ nguyên)"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_012",
+      "original": "穿越者 (ngôi thứ 3)",
+      "suggested": "hắn",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật 穿越者 (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "hắn",
+        "y",
+        "gã",
+        "kẻ đó",
+        "tên này"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_013",
+      "original": "姜黎",
+      "suggested": "Khương Lê",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật 姜黎?",
+      "options": [
+        "Khương Lê",
+        "Khương Lê (giữ nguyên)",
+        "Khương Lê (phiên âm Hán-Việt)",
+        "Khương Lê (tên thuần Việt)"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_014",
+      "original": "姜黎 (ngôi thứ 3)",
+      "suggested": "hắn",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật 姜黎 (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "hắn",
+        "y",
+        "anh",
+        "cậu",
+        "chàng"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_015",
+      "original": "楚司承 → 系统",
+      "suggested": "Sở Tư Thừa xưng Tôi - gọi Hệ thống là Ngươi",
+      "confidence": 0.3,
+      "question": "Chiều 1: Sở Tư Thừa xưng hô thế nào với Hệ thống (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Ngươi",
+        "xưng Ta - gọi Ngươi",
+        "xưng Tôi - gọi Hệ thống",
+        "xưng Ta - gọi Hệ thống"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_016",
+      "original": "系统 → 楚司承",
+      "suggested": "Hệ thống xưng Ta - gọi Sở Tư Thừa là Ký chủ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Hệ thống xưng hô thế nào với Sở Tư Thừa (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Ta - gọi Ký chủ",
+        "xưng Ta - gọi Ngài",
+        "xưng Ta - gọi Sở Tư Thừa",
+        "xưng Tôi - gọi Ký chủ"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_017",
+      "original": "楚司承 → 艾利克斯萨克森",
+      "suggested": "Sở Tư Thừa xưng Tôi - gọi Alex Sachsen là Ngài",
+      "confidence": 0.3,
+      "question": "Chiều 1: Sở Tư Thừa xưng hô thế nào với Alex Sachsen (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Ngài",
+        "xưng Tôi - gọi Ông",
+        "xưng Ta - gọi Ngươi",
+        "xưng Tôi - gọi Alex Sachsen"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_018",
+      "original": "艾利克斯萨克森 → 楚司承",
+      "suggested": "Alex Sachsen xưng Tôi - gọi Sở Tư Thừa là Tù nhân",
+      "confidence": 0.3,
+      "question": "Chiều 2: Alex Sachsen xưng hô thế nào với Sở Tư Thừa (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Tù nhân",
+        "xưng Ta - gọi Ngươi",
+        "xưng Tôi - gọi Kẻ phạm tội",
+        "xưng Ta - gọi Tù nhân 0101"
+      ],
+      "category": "relationship"
+    }
+  ],
+  "chapter_id": "ch_001",
+  "analyzed_at": "2026-09-30T12:13:24.157944+07:00"
+}

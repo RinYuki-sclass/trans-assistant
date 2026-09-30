@@ -1,0 +1,291 @@
+{
+  "chapter_summary": "Chương này bắt đầu với một cuộc đối thoại ngắn giữa Sở Tư Thừa và một người nào đó, sau đó chuyển sang cảnh trong một chương trình phát sóng trực tiếp nơi khán giả bàng hoàng khi phát hiện ra 0101, một tù nhân bị kết án tử hình vì âm mưu xâm phạm một Hùng Trùng, thực chất lại là một Hùng Trùng. Sự thật này gây ra sự hỗn loạn trong Hiệp hội Bảo vệ Hùng Trùng tại Đế Tinh. Hội trưởng Hải Đức Mạn tức giận vì quy trình kiểm tra sơ sài đã dẫn đến sai lầm nghiêm trọng này, và nhận ra chính mình là người đã đồng ý bỏ qua các bước kiểm tra thông thường. Trong khi đó, tại nhà tù Mạc Cách Lạp, tướng quân SS cấp A Lợi Khắc Tư (艾利克斯 - Alex) bắt đầu có dấu hiệu 'côn hóa' (蟲化), biến thành trạng thái cuồng bạo. Mặc dù là một SS cấp, A Lợi Khắc Tư miễn nhiễm với thuốc ức chế, khiến tình hình trở nên nguy hiểm hơn khi anh ta tấn công các quân lính xung quanh và đe dọa cả nhà tù. Đúng lúc nguy cấp, Sở Tư Thừa xuất hiện, dùng mùi hương đặc trưng của mình để trấn an A Lợi Khắc Tư, mang lại sự bình yên cho anh ta.",
+  "new_characters": [
+    {
+      "name": "楚司承",
+      "hanviet_name": "Sở Tư Thừa",
+      "gender": "female",
+      "role": "Protagonist",
+      "description": "Nhân vật chính, có khả năng trấn an A Lợi Khắc Tư bằng mùi hương đặc trưng."
+    },
+    {
+      "name": "海德曼",
+      "hanviet_name": "Hải Đức Mạn",
+      "gender": "male",
+      "role": "President of the Male Insect Protection Association",
+      "description": "Hội trưởng Hiệp hội Bảo vệ Hùng Trùng, tức giận vì sai sót trong quy trình xử lý tù nhân."
+    },
+    {
+      "name": "艾利克斯",
+      "hanviet_name": "A Lợi Khắc Tư",
+      "gender": "male",
+      "role": "SS-class Male Insect General",
+      "description": "Một tướng quân SS cấp, bị 'côn hóa' và rơi vào trạng thái cuồng bạo, miễn nhiễm với thuốc ức chế."
+    }
+  ],
+  "new_locations": [],
+  "new_terms": [
+    {
+      "original": "雄蟲",
+      "suggested": "Hùng Trùng",
+      "hanviet": "雄蟲",
+      "category": "other",
+      "confidence": 0.8
+    },
+    {
+      "original": "軍雌",
+      "suggested": "Quân Thư",
+      "hanviet": "軍雌",
+      "category": "other",
+      "confidence": 0.7
+    },
+    {
+      "original": "帝星",
+      "suggested": "Đế Tinh",
+      "hanviet": "帝星",
+      "category": "location",
+      "confidence": 0.8
+    },
+    {
+      "original": "雄蟲保護協會",
+      "suggested": "Hiệp hội Bảo vệ Hùng Trùng",
+      "hanviet": "雄蟲保護協會",
+      "category": "faction",
+      "confidence": 0.8
+    },
+    {
+      "original": "莫格拉斯監獄",
+      "suggested": "Nhà tù Mạc Cách Lạp",
+      "hanviet": "莫格拉斯監獄",
+      "category": "location",
+      "confidence": 0.8
+    },
+    {
+      "original": "費洛閣下",
+      "suggested": "Bệ hạ Phí Lạc",
+      "hanviet": "費洛閣下",
+      "category": "other",
+      "confidence": 0.6
+    },
+    {
+      "original": "亞雌",
+      "suggested": "Á Thư",
+      "hanviet": "亞雌",
+      "category": "other",
+      "confidence": 0.7
+    },
+    {
+      "original": "信息素",
+      "suggested": "Thông tin Tố",
+      "hanviet": "信息素",
+      "category": "other",
+      "confidence": 0.8
+    },
+    {
+      "original": "A級",
+      "suggested": "Cấp A",
+      "hanviet": "A級",
+      "category": "other",
+      "confidence": 0.8
+    },
+    {
+      "original": "SS級",
+      "suggested": "SS cấp",
+      "hanviet": "SS級",
+      "category": "other",
+      "confidence": 0.8
+    },
+    {
+      "original": "蟲化",
+      "suggested": "Côn hóa",
+      "hanviet": "蟲化",
+      "category": "other",
+      "confidence": 0.8
+    },
+    {
+      "original": "狂躁期",
+      "suggested": "Cuồng táo kỳ",
+      "hanviet": "狂躁期",
+      "category": "other",
+      "confidence": 0.8
+    },
+    {
+      "original": "蟲神",
+      "suggested": "Trùng Thần",
+      "hanviet": "蟲神",
+      "category": "other",
+      "confidence": 0.8
+    },
+    {
+      "original": "抑製劑",
+      "suggested": "Ức chế Tễ",
+      "hanviet": "抑製劑",
+      "category": "item",
+      "confidence": 0.8
+    },
+    {
+      "original": "薩克森將軍",
+      "suggested": "Tướng quân Sách Khắc Sâm",
+      "hanviet": "薩克森將軍",
+      "category": "other",
+      "confidence": 0.7
+    },
+    {
+      "original": "弗德裡希將軍",
+      "suggested": "Tướng quân Phất Đức Lợi Hi",
+      "hanviet": "弗德裡希將軍",
+      "category": "other",
+      "confidence": 0.7
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "楚司承 (ngôi thứ 3)",
+      "suggested": "Sở Tư Thừa (ngôi thứ 3)",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Sở Tư Thừa (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "cô ấy",
+        "nàng",
+        "y",
+        "cô"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_002",
+      "original": "海德曼 (ngôi thứ 3)",
+      "suggested": "Hải Đức Mạn (ngôi thứ 3)",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Hải Đức Mạn (hắn, y, anh, cậu, gã, chàng...)?",
+      "options": [
+        "ông ta",
+        "hắn",
+        "y",
+        "ngài"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_003",
+      "original": "艾利克斯 (ngôi thứ 3)",
+      "suggested": "A Lợi Khắc Tư (ngôi thứ 3)",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật A Lợi Khắc Tư (hắn, y, anh, cậu, gã, chàng...)?",
+      "options": [
+        "hắn",
+        "y",
+        "anh ta",
+        "tướng quân"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_004",
+      "original": "楚司承 → 艾利克斯",
+      "suggested": "Sở Tư Thừa xưng Tôi - gọi A Lợi Khắc Tư là Tướng quân",
+      "question": "Chiều 1: Sở Tư Thừa xưng hô thế nào với A Lợi Khắc Tư (Sở Tư Thừa tự xưng là gì và gọi A Lợi Khắc Tư là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Tướng quân",
+        "xưng Tôi - gọi Alex",
+        "xưng Em - gọi Anh",
+        "xưng Ta - gọi Ngươi"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_005",
+      "original": "艾利克斯 → 楚司承",
+      "suggested": "A Lợi Khắc Tư xưng Tôi - gọi Sở Tư Thừa là Cô",
+      "question": "Chiều 2: A Lợi Khắc Tư xưng hô thế nào với Sở Tư Thừa (A Lợi Khắc Tư tự xưng là gì và gọi Sở Tư Thừa là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Cô",
+        "xưng Ta - gọi Ngươi",
+        "xưng Tôi - gọi Sở Tư Thừa",
+        "xưng Anh - gọi Em"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_006",
+      "original": "海德曼 → 助理",
+      "suggested": "Hải Đức Mạn xưng Tôi - gọi Trợ lý là Cậu",
+      "question": "Chiều 1: Hải Đức Mạn xưng hô thế nào với Trợ lý (Hải Đức Mạn tự xưng là gì và gọi Trợ lý là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Cậu",
+        "xưng Ta - gọi Ngươi",
+        "xưng Tôi - gọi Cậu ta",
+        "xưng Lão tử - gọi Ngươi"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_007",
+      "original": "助理 → 海德曼",
+      "suggested": "Trợ lý xưng Thần - gọi Hội trưởng là Ngài",
+      "question": "Chiều 2: Trợ lý xưng hô thế nào với Hải Đức Mạn (Trợ lý tự xưng là gì và gọi Hải Đức Mạn là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Thần - gọi Ngài",
+        "xưng Tôi - gọi Hội trưởng",
+        "xưng Con - gọi Cha",
+        "xưng Tôi - gọi Ngài"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_008",
+      "original": "海德曼 → 助理",
+      "suggested": "Hải Đức Mạn xưng Tôi - gọi Trợ lý là Cậu",
+      "question": "Chiều 1: Hải Đức Mạn xưng hô thế nào với Trợ lý (Hải Đức Mạn tự xưng là gì và gọi Trợ lý là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Cậu",
+        "xưng Ta - gọi Ngươi",
+        "xưng Tôi - gọi Cậu ta",
+        "xưng Lão tử - gọi Ngươi"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_009",
+      "original": "助理 → 海德曼",
+      "suggested": "Trợ lý xưng Thần - gọi Hội trưởng là Ngài",
+      "question": "Chiều 2: Trợ lý xưng hô thế nào với Hải Đức Mạn (Trợ lý tự xưng là gì và gọi Hải Đức Mạn là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Thần - gọi Ngài",
+        "xưng Tôi - gọi Hội trưởng",
+        "xưng Con - gọi Cha",
+        "xưng Tôi - gọi Ngài"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_010",
+      "original": "艾利克斯 → 楚司承",
+      "suggested": "A Lợi Khắc Tư xưng Tôi - gọi Sở Tư Thừa là Cô",
+      "question": "Chiều 1: A Lợi Khắc Tư xưng hô thế nào với Sở Tư Thừa (A Lợi Khắc Tư tự xưng là gì và gọi Sở Tư Thừa là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Cô",
+        "xưng Ta - gọi Ngươi",
+        "xưng Tôi - gọi Sở Tư Thừa",
+        "xưng Anh - gọi Em"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_011",
+      "original": "楚司承 → 艾利克斯",
+      "suggested": "Sở Tư Thừa xưng Tôi - gọi A Lợi Khắc Tư là Tướng quân",
+      "question": "Chiều 2: Sở Tư Thừa xưng hô thế nào với A Lợi Khắc Tư (Sở Tư Thừa tự xưng là gì và gọi A Lợi Khắc Tư là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Tướng quân",
+        "xưng Tôi - gọi Alex",
+        "xưng Em - gọi Anh",
+        "xưng Ta - gọi Ngươi"
+      ],
+      "category": "relationship"
+    }
+  ],
+  "chapter_id": "ch_003",
+  "analyzed_at": "2026-09-30T12:14:36.500973+07:00"
+}

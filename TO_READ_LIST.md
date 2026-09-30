@@ -1,19 +1,5 @@
 https://www.novelupdates.com/series/becoming-the-gongs-older-brother/
-https://www.novelupdates.com/series/my-dao-companion-wants-to-kill-me-every-day/
-- **Tên gốc:** 大魔头日日想杀我 / 大魔頭日日想殺我 - 冷山月 (Lãnh Sơn Nguyệt)
-- **Raw CZBooks:** https://czbooks.net/n/sk4ei1pgock
-- **Chương 1:** https://czbooks.net/n/sk4ei1pgock/sk2e5?chapterNumber=0
-- **Dự án:** [novel_projects/đại-ma-đầu-nhật-nhật-tưởng-sát-ngã](file:///d:/Nhung/trans-tool/novel_projects/đại-ma-đầu-nhật-nhật-tưởng-sát-ngã)
 
-https://www.novelupdates.com/viewlist/145306/
-Used tool: search_web
-Used tool: search_web
-Used tool: search_web
-Used tool: search_web
-
-Có, bộ truyện này đã **hoàn thành (hoàn kết)** và bạn có thể dễ dàng tìm thấy bản Raw (tiếng Trung) đầy đủ.
-
----
 
 ### 📌 Thông tin chi tiết về bộ truyện
 * **Tên gốc tiếng Trung:** 《反派的人鱼老婆》 *(Phản Phái Đích Nhân Ngư Lão Bà)*
@@ -40,3 +26,11 @@ Có, bộ truyện này đã **hoàn thành (hoàn kết)** và bạn có thể 
      "反派的人鱼老婆" 西瓜蘸辣椒盐 txt
      ```
    * Hoặc tìm trên các trang web đọc raw / lưu trữ tiếng Trung như: *Banxia (半夏小说)*, *Sto.cx (思兔)*, *繁体小说网 (xiaoshuo.com.tw)*, *dmxs.org*.
+
+
+
+https://www.novelupdates.com/series/the-villain-of-this-sadistic-novel-is-striking/
+
+https://www.novelupdates.com/series/saving-the-handsome-strong-and-miserable-villain-quick-transmigration/
+
+https://www.novelupdates.com/series/the-moonlight-returns-forced-revival/

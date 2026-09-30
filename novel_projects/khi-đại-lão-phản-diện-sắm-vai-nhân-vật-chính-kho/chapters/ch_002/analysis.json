@@ -1,0 +1,378 @@
+{
+  "chapter_summary": "Chương này giới thiệu Sở Tư Thừa (Chu Si Cheng), một người xuyên không, đang trong thân phận tù nhân 0101, một hùng trùng bị kết án tử hình. Kẻ hành hình là tướng quân Ngải Lợi Khắc Tư Tát Khắc Sâm (Alex Sachsen), một thư trùng cấp cao khinh ghét hùng trùng. Buổi hành hình được phát sóng trực tiếp. Sở Tư Thừa bình tĩnh đối mặt với hình cụ đầu tiên là một con dao vàng có hoa văn, và những lời bình luận giận dữ từ khán giả. Khi Alex xuất hiện, hắn dùng dao đe dọa Sở Tư Thừa, nhận thấy sự bình tĩnh bất thường của cậu. Sở Tư Thừa nhận ra Alex đã biết thân phận hùng trùng của mình nhưng lại càng thêm hưng phấn. Bất ngờ, Sở Tư Thừa tự cởi còng, nắm lấy dao và tự cắt tay. Máu của cậu giải phóng pheromone nồng độ cao, khiến các thư trùng xung quanh, bao gồm cả Alex, rơi vào trạng thái kích động. Sở Tư Thừa dùng còng xiềng Alex, tiết lộ khả năng kiểm soát pheromone cấp S của mình, vượt xa cấp F ban đầu, ám chỉ cấp bậc thực sự cao hơn nhiều.",
+  "new_characters": [
+    {
+      "name": "楚司承",
+      "hanviet_name": "Sở Tư Thừa",
+      "gender": "Male",
+      "role": "Protagonist, transmigrator, condemned prisoner 0101",
+      "description": "Người xuyên không, bình tĩnh, thông minh, sở hữu pheromone mạnh mẽ. Hiện đang bị kết án tử hình."
+    },
+    {
+      "name": "艾利克斯薩克森",
+      "hanviet_name": "Ngải Lợi Khắc Tư Tát Khắc Sâm",
+      "gender": "Female",
+      "role": "General, executioner, initial antagonist",
+      "description": "Tướng quân thư trùng, cao ráo, xinh đẹp, mắt xanh, mặc đồng phục đen bạc. Khinh ghét hùng trùng nhưng lại có vẻ hứng thú với việc hành hình Sở Tư Thừa."
+    },
+    {
+      "name": "瑞安",
+      "hanviet_name": "Thụy An",
+      "gender": "Male",
+      "role": "Original protagonist of the novel",
+      "description": "Chủ nhân ban đầu của cơ thể Sở Tư Thừa xuyên vào. Được miêu tả là ít nói, có đôi mắt đẹp như nai con, ban đầu cấp F nhưng sau này thăng cấp S."
+    }
+  ],
+  "new_locations": [],
+  "new_terms": [
+    {
+      "original": "行刑者",
+      "suggested": "Người hành hình",
+      "hanviet": "Hành hình giả",
+      "category": "other",
+      "confidence": 0.7
+    },
+    {
+      "original": "審判書",
+      "suggested": "Bản án",
+      "hanviet": "Thẩm phán thư",
+      "category": "other",
+      "confidence": 0.7
+    },
+    {
+      "original": "穿越者",
+      "suggested": "Người xuyên không",
+      "hanviet": "Xuyên việt giả",
+      "category": "other",
+      "confidence": 0.7
+    },
+    {
+      "original": "不長嘴的設定",
+      "suggested": "Thiết lập nhân vật ít nói",
+      "hanviet": null,
+      "category": "other",
+      "confidence": 0.7
+    },
+    {
+      "original": "反派",
+      "suggested": "Phản diện",
+      "hanviet": "Phản phái",
+      "category": "other",
+      "confidence": 0.7
+    },
+    {
+      "original": "必死的局",
+      "suggested": "Cục diện chết chắc",
+      "hanviet": null,
+      "category": "other",
+      "confidence": 0.7
+    },
+    {
+      "original": "鐐銬",
+      "suggested": "Còng tay",
+      "hanviet": "Liêu khảo",
+      "category": "item",
+      "confidence": 0.7
+    },
+    {
+      "original": "紅色指示燈",
+      "suggested": "Đèn báo đỏ",
+      "hanviet": null,
+      "category": "other",
+      "confidence": 0.7
+    },
+    {
+      "original": "刑具",
+      "suggested": "Hình cụ",
+      "hanviet": "Hình cụ",
+      "category": "item",
+      "confidence": 0.7
+    },
+    {
+      "original": "蟲神",
+      "suggested": "Trùng Thần",
+      "hanviet": "Trùng Thần",
+      "category": "other",
+      "confidence": 0.7
+    },
+    {
+      "original": "仿真眼睛",
+      "suggested": "Camera giám sát",
+      "hanviet": "Phỏng chân nhãn tình",
+      "category": "item",
+      "confidence": 0.7
+    },
+    {
+      "original": "軍雌",
+      "suggested": "Nữ quân trùng",
+      "hanviet": "Quân thư",
+      "category": "faction",
+      "confidence": 0.7
+    },
+    {
+      "original": "黑絲銀紋的製服",
+      "suggested": "Đồng phục lụa đen thêu bạc",
+      "hanviet": null,
+      "category": "item",
+      "confidence": 0.7
+    },
+    {
+      "original": "雄蟲",
+      "suggested": "Hùng trùng",
+      "hanviet": "Hùng trùng",
+      "category": "other",
+      "confidence": 0.7
+    },
+    {
+      "original": "雌蟲",
+      "suggested": "Thư trùng",
+      "hanviet": "Thư trùng",
+      "category": "other",
+      "confidence": 0.7
+    },
+    {
+      "original": "閣下",
+      "suggested": "Các hạ",
+      "hanviet": "Các hạ",
+      "category": "honorific",
+      "confidence": 0.7
+    },
+    {
+      "original": "S級死刑",
+      "suggested": "Tử hình cấp S",
+      "hanviet": null,
+      "category": "other",
+      "confidence": 0.7
+    },
+    {
+      "original": "雄蟲保護協會",
+      "suggested": "Hiệp hội bảo vệ Hùng trùng",
+      "hanviet": "Hùng trùng bảo hộ hiệp hội",
+      "category": "faction",
+      "confidence": 0.7
+    },
+    {
+      "original": "帝國最高法院",
+      "suggested": "Tòa án tối cao Đế quốc",
+      "hanviet": "Đế quốc tối cao pháp viện",
+      "category": "faction",
+      "confidence": 0.7
+    },
+    {
+      "original": "信息素",
+      "suggested": "Pheromone",
+      "hanviet": "Tin tức tố",
+      "category": "other",
+      "confidence": 0.7
+    },
+    {
+      "original": "腺體",
+      "suggested": "Tuyến thể",
+      "hanviet": "Tiến thể",
+      "category": "other",
+      "confidence": 0.7
+    },
+    {
+      "original": "精神力不穩定",
+      "suggested": "Tinh thần lực không ổn định",
+      "hanviet": "Tinh thần lực bất ổn định",
+      "category": "other",
+      "confidence": 0.7
+    },
+    {
+      "original": "暴力因子過度溢出",
+      "suggested": "Yếu tố bạo lực tràn ra quá mức",
+      "hanviet": null,
+      "category": "other",
+      "confidence": 0.7
+    },
+    {
+      "original": "引導，刺激甚至於控制雌蟲",
+      "suggested": "Dẫn dắt, kích thích thậm chí khống chế thư trùng",
+      "hanviet": null,
+      "category": "skill",
+      "confidence": 0.7
+    },
+    {
+      "original": "發.情期",
+      "suggested": "Kỳ phát tình",
+      "hanviet": "Phát tình kỳ",
+      "category": "other",
+      "confidence": 0.7
+    },
+    {
+      "original": "SS級雌蟲",
+      "suggested": "Thư trùng cấp SS",
+      "hanviet": null,
+      "category": "other",
+      "confidence": 0.7
+    },
+    {
+      "original": "A級的雄蟲",
+      "suggested": "Hùng trùng cấp A",
+      "hanviet": null,
+      "category": "other",
+      "confidence": 0.7
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "楚司承",
+      "suggested": "Sở Tư Thừa",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Chu Si Cheng?",
+      "options": [
+        "Sở Tư Thừa",
+        "Sở Tư Thành",
+        "Sở Tư Chửng"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_002",
+      "original": "楚司承 (ngôi thứ 3)",
+      "suggested": "hắn",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Chu Si Cheng (hắn, y, anh, cậu, gã, chàng)?",
+      "options": [
+        "hắn",
+        "y",
+        "cậu",
+        "anh",
+        "gã",
+        "chàng"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_003",
+      "original": "艾利克斯薩克森",
+      "suggested": "Alex Sachsen",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Alex Sachsen?",
+      "options": [
+        "Alex Sachsen (giữ nguyên)",
+        "Ngải Lợi Khắc Tư Tát Khắc Sâm",
+        "Ái Lệ Khắc Tư Tát Khắc Sâm"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_004",
+      "original": "艾利克斯薩克森 (ngôi thứ 3)",
+      "suggested": "hắn",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Alex Sachsen (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "hắn",
+        "y",
+        "cô ta",
+        "nàng",
+        "ả",
+        "chị ta"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_005",
+      "original": "瑞安",
+      "suggested": "Thụy An",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Rui An?",
+      "options": [
+        "Thụy An",
+        "Thụy Ân",
+        "Thụy Yên"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_006",
+      "original": "瑞安 (ngôi thứ 3)",
+      "suggested": "hắn",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Rui An (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "hắn",
+        "y",
+        "cậu",
+        "anh",
+        "gã",
+        "chàng"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_007",
+      "original": "楚司承 → 艾利克斯薩克森",
+      "suggested": "Chu Si Cheng xưng Tôi - gọi Alex Sachsen là Ngươi",
+      "confidence": 0.3,
+      "question": "Chiều 1: Chu Si Cheng xưng hô thế nào với Alex Sachsen (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Ngươi",
+        "xưng Ta - gọi Ngươi",
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Tướng quân"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_008",
+      "original": "艾利克斯薩克森 → 楚司承",
+      "suggested": "Alex Sachsen xưng Tôi - gọi Chu Si Cheng là Ngươi",
+      "confidence": 0.3,
+      "question": "Chiều 2: Alex Sachsen xưng hô thế nào với Chu Si Cheng (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Ngươi",
+        "xưng Ta - gọi Ngươi",
+        "xưng Tôi - gọi Cậu",
+        "xưng Tôi - gọi 0101"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_009",
+      "original": "主角受對照組",
+      "suggested": "Nhóm đối chiếu của nhân vật thụ chính",
+      "confidence": 0.3,
+      "question": "Xác nhận thuật ngữ '主角受對照組' (Zhǔjiǎo shòu duìzhào zǔ) trong ngữ cảnh truyện đam mỹ/BL?",
+      "options": [
+        "Nhóm đối chiếu của nhân vật thụ chính",
+        "Nhóm nhân vật phản diện đối lập với thụ chính",
+        "Nhóm nhân vật phụ tương phản với thụ chính"
+      ],
+      "category": "term"
+    },
+    {
+      "id": "amb_010",
+      "original": "紋刀",
+      "suggested": "Dao khắc hoa văn",
+      "confidence": 0.3,
+      "question": "Xác nhận tên gọi cho '紋刀' (Wéndāo) - một loại dao vàng có khắc phù văn dùng làm hình cụ?",
+      "options": [
+        "Dao khắc hoa văn",
+        "Văn đao",
+        "Dao phù văn",
+        "Dao vàng"
+      ],
+      "category": "term"
+    },
+    {
+      "id": "amb_011",
+      "original": "費洛閣下",
+      "suggested": "Các hạ Felo",
+      "confidence": 0.3,
+      "question": "Xác nhận cách dịch tên và xưng hô '費洛閣下' (Fèi Luò Gékxià)?",
+      "options": [
+        "Các hạ Felo (giữ nguyên Felo)",
+        "Các hạ Phí Lạc",
+        "Ngài Felo",
+        "Chúa tể Felo"
+      ],
+      "category": "term"
+    }
+  ],
+  "chapter_id": "ch_002",
+  "analyzed_at": "2026-09-30T12:13:56.669392+07:00"
+}

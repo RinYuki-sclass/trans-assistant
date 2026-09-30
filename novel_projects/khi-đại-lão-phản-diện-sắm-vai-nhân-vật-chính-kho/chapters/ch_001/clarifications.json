@@ -1,0 +1,339 @@
+{
+  "chapter_id": "ch_001",
+  "questions": [
+    {
+      "id": "amb_001",
+      "original": "楚司承",
+      "suggested": "Sở Tư Thừa",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật 楚司承?",
+      "options": [
+        "Sở Tư Thừa",
+        "Sở Tư Thừa (giữ nguyên)",
+        "Sở Tư Thừa (phiên âm Hán-Việt)",
+        "Sở Tư Thừa (tên thuần Việt)"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_002",
+      "original": "楚司承 (ngôi thứ 3)",
+      "suggested": "hắn",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật 楚司承 (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "hắn",
+        "y",
+        "anh",
+        "cậu",
+        "gã",
+        "chàng"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_003",
+      "original": "系统",
+      "suggested": "Hệ thống",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật 系统?",
+      "options": [
+        "Hệ thống",
+        "Hệ thống (giữ nguyên)",
+        "Hệ thống (phiên âm Hán-Việt)",
+        "Hệ thống (tên thuần Việt)"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_004",
+      "original": "系统 (ngôi thứ 3)",
+      "suggested": "nó",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật 系统 (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "nó",
+        "hắn",
+        "y",
+        "cậu",
+        "thiết bị này"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_005",
+      "original": "艾利克斯萨克森",
+      "suggested": "Alex Sachsen",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật 艾利克斯萨克森?",
+      "options": [
+        "Alex Sachsen",
+        "Ngải Lợi Khắc Tư Tát Khắc Sâm",
+        "Alex Sachsen (giữ nguyên)",
+        "Alex Sachsen (phiên âm Hán-Việt)"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_006",
+      "original": "艾利克斯萨克森 (ngôi thứ 3)",
+      "suggested": "hắn",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật 艾利克斯萨克森 (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "hắn",
+        "y",
+        "viên cai ngục",
+        "gã"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_007",
+      "original": "瑞安",
+      "suggested": "Ryan",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật 瑞安?",
+      "options": [
+        "Ryan",
+        "Thụy An",
+        "Ryan (giữ nguyên)",
+        "Ryan (phiên âm Hán-Việt)"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_008",
+      "original": "瑞安 (ngôi thứ 3)",
+      "suggested": "cậu",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật 瑞安 (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "cậu",
+        "hắn",
+        "y",
+        "chàng",
+        "người này"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_009",
+      "original": "弗德里希",
+      "suggested": "Friedrich",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật 弗德里希?",
+      "options": [
+        "Friedrich",
+        "Phật Đức Lý Hi",
+        "Friedrich (giữ nguyên)",
+        "Friedrich (phiên âm Hán-Việt)"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_010",
+      "original": "弗德里希 (ngôi thứ 3)",
+      "suggested": "hắn",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật 弗德里希 (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "hắn",
+        "y",
+        "anh",
+        "cậu",
+        "người này"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_011",
+      "original": "穿越者",
+      "suggested": "Kẻ xuyên không",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật 穿越者?",
+      "options": [
+        "Kẻ xuyên không",
+        "Người xuyên việt",
+        "Xuyên việt giả",
+        "Kẻ xuyên không (giữ nguyên)"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_012",
+      "original": "穿越者 (ngôi thứ 3)",
+      "suggested": "hắn",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật 穿越者 (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "hắn",
+        "y",
+        "gã",
+        "kẻ đó",
+        "tên này"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_013",
+      "original": "姜黎",
+      "suggested": "Khương Lê",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật 姜黎?",
+      "options": [
+        "Khương Lê",
+        "Khương Lê (giữ nguyên)",
+        "Khương Lê (phiên âm Hán-Việt)",
+        "Khương Lê (tên thuần Việt)"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_014",
+      "original": "姜黎 (ngôi thứ 3)",
+      "suggested": "hắn",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật 姜黎 (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "hắn",
+        "y",
+        "anh",
+        "cậu",
+        "chàng"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_015",
+      "original": "楚司承 → 系统",
+      "suggested": "Sở Tư Thừa xưng Tôi - gọi Hệ thống là Ngươi",
+      "confidence": 0.3,
+      "question": "Chiều 1: Sở Tư Thừa xưng hô thế nào với Hệ thống (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Ngươi",
+        "xưng Ta - gọi Ngươi",
+        "xưng Tôi - gọi Hệ thống",
+        "xưng Ta - gọi Hệ thống"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_016",
+      "original": "系统 → 楚司承",
+      "suggested": "Hệ thống xưng Ta - gọi Sở Tư Thừa là Ký chủ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Hệ thống xưng hô thế nào với Sở Tư Thừa (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Ta - gọi Ký chủ",
+        "xưng Ta - gọi Ngài",
+        "xưng Ta - gọi Sở Tư Thừa",
+        "xưng Tôi - gọi Ký chủ"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_017",
+      "original": "楚司承 → 艾利克斯萨克森",
+      "suggested": "Sở Tư Thừa xưng Tôi - gọi Alex Sachsen là Ngài",
+      "confidence": 0.3,
+      "question": "Chiều 1: Sở Tư Thừa xưng hô thế nào với Alex Sachsen (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Ngài",
+        "xưng Tôi - gọi Ông",
+        "xưng Ta - gọi Ngươi",
+        "xưng Tôi - gọi Alex Sachsen"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_018",
+      "original": "艾利克斯萨克森 → 楚司承",
+      "suggested": "Alex Sachsen xưng Tôi - gọi Sở Tư Thừa là Tù nhân",
+      "confidence": 0.3,
+      "question": "Chiều 2: Alex Sachsen xưng hô thế nào với Sở Tư Thừa (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Tù nhân",
+        "xưng Ta - gọi Ngươi",
+        "xưng Tôi - gọi Kẻ phạm tội",
+        "xưng Ta - gọi Tù nhân 0101"
+      ],
+      "category": "relationship"
+    }
+  ],
+  "answers": {
+    "amb_001": {
+      "choice": "Sở Tư Thừa",
+      "custom": null
+    },
+    "amb_002": {
+      "choice": "anh",
+      "custom": null
+    },
+    "amb_003": {
+      "choice": "Hệ thống",
+      "custom": null
+    },
+    "amb_004": {
+      "choice": "nó",
+      "custom": null
+    },
+    "amb_005": {
+      "choice": "Alex Sachsen",
+      "custom": null
+    },
+    "amb_006": {
+      "choice": "hắn",
+      "custom": null
+    },
+    "amb_007": {
+      "choice": "Ryan",
+      "custom": null
+    },
+    "amb_008": {
+      "choice": "cậu",
+      "custom": null
+    },
+    "amb_009": {
+      "choice": "Friedrich",
+      "custom": null
+    },
+    "amb_010": {
+      "choice": "hắn",
+      "custom": null
+    },
+    "amb_011": {
+      "choice": "Kẻ xuyên không",
+      "custom": null
+    },
+    "amb_012": {
+      "choice": "hắn",
+      "custom": null
+    },
+    "amb_013": {
+      "choice": "Khương Lê",
+      "custom": null
+    },
+    "amb_014": {
+      "choice": "hắn",
+      "custom": null
+    },
+    "amb_015": {
+      "choice": "Sở Tư Thừa xưng Tôi - gọi Hệ thống là Ngươi",
+      "custom": null
+    },
+    "amb_016": {
+      "choice": "Hệ thống xưng Ta - gọi Sở Tư Thừa là Ký chủ",
+      "custom": null
+    },
+    "amb_017": {
+      "choice": "Sở Tư Thừa xưng Tôi - gọi Alex Sachsen là Ngài",
+      "custom": null
+    },
+    "amb_018": {
+      "choice": "Alex Sachsen xưng Tôi - gọi Sở Tư Thừa là Tù nhân",
+      "custom": null
+    }
+  },
+  "answered_at": "2026-09-30T12:28:25.382210"
+}

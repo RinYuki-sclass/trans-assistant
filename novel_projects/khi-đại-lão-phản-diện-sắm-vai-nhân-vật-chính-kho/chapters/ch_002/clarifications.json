@@ -1,0 +1,208 @@
+{
+  "chapter_id": "ch_002",
+  "questions": [
+    {
+      "id": "amb_001",
+      "original": "楚司承",
+      "suggested": "Sở Tư Thừa",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Chu Si Cheng?",
+      "options": [
+        "Sở Tư Thừa",
+        "Sở Tư Thành",
+        "Sở Tư Chửng"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_002",
+      "original": "楚司承 (ngôi thứ 3)",
+      "suggested": "hắn",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Chu Si Cheng (hắn, y, anh, cậu, gã, chàng)?",
+      "options": [
+        "hắn",
+        "y",
+        "cậu",
+        "anh",
+        "gã",
+        "chàng"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_003",
+      "original": "艾利克斯薩克森",
+      "suggested": "Alex Sachsen",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Alex Sachsen?",
+      "options": [
+        "Alex Sachsen (giữ nguyên)",
+        "Ngải Lợi Khắc Tư Tát Khắc Sâm",
+        "Ái Lệ Khắc Tư Tát Khắc Sâm"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_004",
+      "original": "艾利克斯薩克森 (ngôi thứ 3)",
+      "suggested": "hắn",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Alex Sachsen (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "hắn",
+        "y",
+        "cô ta",
+        "nàng",
+        "ả",
+        "chị ta"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_005",
+      "original": "瑞安",
+      "suggested": "Thụy An",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật Rui An?",
+      "options": [
+        "Thụy An",
+        "Thụy Ân",
+        "Thụy Yên"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_006",
+      "original": "瑞安 (ngôi thứ 3)",
+      "suggested": "hắn",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Rui An (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "hắn",
+        "y",
+        "cậu",
+        "anh",
+        "gã",
+        "chàng"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_007",
+      "original": "楚司承 → 艾利克斯薩克森",
+      "suggested": "Chu Si Cheng xưng Tôi - gọi Alex Sachsen là Ngươi",
+      "confidence": 0.3,
+      "question": "Chiều 1: Chu Si Cheng xưng hô thế nào với Alex Sachsen (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Ngươi",
+        "xưng Ta - gọi Ngươi",
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Tướng quân"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_008",
+      "original": "艾利克斯薩克森 → 楚司承",
+      "suggested": "Alex Sachsen xưng Tôi - gọi Chu Si Cheng là Ngươi",
+      "confidence": 0.3,
+      "question": "Chiều 2: Alex Sachsen xưng hô thế nào với Chu Si Cheng (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Ngươi",
+        "xưng Ta - gọi Ngươi",
+        "xưng Tôi - gọi Cậu",
+        "xưng Tôi - gọi 0101"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_009",
+      "original": "主角受對照組",
+      "suggested": "Nhóm đối chiếu của nhân vật thụ chính",
+      "confidence": 0.3,
+      "question": "Xác nhận thuật ngữ '主角受對照組' (Zhǔjiǎo shòu duìzhào zǔ) trong ngữ cảnh truyện đam mỹ/BL?",
+      "options": [
+        "Nhóm đối chiếu của nhân vật thụ chính",
+        "Nhóm nhân vật phản diện đối lập với thụ chính",
+        "Nhóm nhân vật phụ tương phản với thụ chính"
+      ],
+      "category": "term"
+    },
+    {
+      "id": "amb_010",
+      "original": "紋刀",
+      "suggested": "Dao khắc hoa văn",
+      "confidence": 0.3,
+      "question": "Xác nhận tên gọi cho '紋刀' (Wéndāo) - một loại dao vàng có khắc phù văn dùng làm hình cụ?",
+      "options": [
+        "Dao khắc hoa văn",
+        "Văn đao",
+        "Dao phù văn",
+        "Dao vàng"
+      ],
+      "category": "term"
+    },
+    {
+      "id": "amb_011",
+      "original": "費洛閣下",
+      "suggested": "Các hạ Felo",
+      "confidence": 0.3,
+      "question": "Xác nhận cách dịch tên và xưng hô '費洛閣下' (Fèi Luò Gékxià)?",
+      "options": [
+        "Các hạ Felo (giữ nguyên Felo)",
+        "Các hạ Phí Lạc",
+        "Ngài Felo",
+        "Chúa tể Felo"
+      ],
+      "category": "term"
+    }
+  ],
+  "answers": {
+    "amb_001": {
+      "choice": "Sở Tư Thừa",
+      "custom": null
+    },
+    "amb_002": {
+      "choice": "anh",
+      "custom": null
+    },
+    "amb_003": {
+      "choice": "Alex Sachsen",
+      "custom": null
+    },
+    "amb_004": {
+      "choice": "hắn",
+      "custom": null
+    },
+    "amb_005": {
+      "choice": "Ryan",
+      "custom": null
+    },
+    "amb_006": {
+      "choice": "cậu",
+      "custom": null
+    },
+    "amb_007": {
+      "choice": "Chu Si Cheng xưng Tôi - gọi Alex Sachsen là Ngươi",
+      "custom": null
+    },
+    "amb_008": {
+      "choice": "Alex Sachsen xưng Tôi - gọi Chu Si Cheng là Ngươi",
+      "custom": null
+    },
+    "amb_009": {
+      "choice": "Nhóm đối chiếu của nhân vật thụ chính",
+      "custom": null
+    },
+    "amb_010": {
+      "choice": "Văn đao",
+      "custom": null
+    },
+    "amb_011": {
+      "choice": "Các hạ Felo",
+      "custom": null
+    }
+  },
+  "answered_at": "2026-09-30T12:28:25.395212"
+}

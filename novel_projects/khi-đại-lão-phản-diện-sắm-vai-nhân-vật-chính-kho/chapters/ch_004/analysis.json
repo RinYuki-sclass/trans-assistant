@@ -1,0 +1,542 @@
+{
+  "chapter_summary": "Chương này bắt đầu với việc Sở Tư Thừa (Chu Sicheng) thành công trấn an Ngải Lợi Khắc Tư (Alex) đang trong cơn cuồng bạo, khiến các quân thư (military females) xung quanh kinh ngạc và hoài nghi về khả năng của anh. Cộng đồng mạng trên livestream bắt đầu suy đoán rằng Sở Tư Thừa có thể là một Hùng Trùng (Male Insect) cấp S. Trong khi đó, Phí Lạc (Felo), một 'người xuyên không', đang tức giận vì cốt truyện bị thay đổi khi nhân vật chính (Sở Tư Thừa/Thụy An) không chết và còn trấn an được 'phản diện' (Ngải Lợi Khắc Tư/Tát Khắc Sâm tướng quân). Hệ thống của Phí Lạc gợi ý rằng những thay đổi cốt truyện trước đây của hắn đã khiến quá trình 'thoái hóa lần hai' của nhân vật chính diễn ra sớm hơn. Phí Lạc yêu cầu hệ thống giúp hắn giết Sở Tư Thừa. Một bộ xương bí ẩn xuất hiện, cảnh báo Phí Lạc nên lo cho bản thân mình trước. Sau đó, một sứ quan đến triệu tập Phí Lạc đến một phiên tòa khác liên quan đến Thụy An. Tại phiên tòa, Phí Lạc tiếp tục cáo buộc Thụy An, bóp méo câu chuyện thành việc Thụy An giả dạng Á Thư (Sub-female) để tấn công hắn, lợi dụng việc Thụy An được thiết lập là 'không biết ăn nói' trong nguyên tác để tự làm mình bị nghi ngờ. Hệ thống của Sở Tư Thừa nhận xét Phí Lạc rất xảo quyệt, nhưng Sở Tư Thừa, một 'chuyên gia phản diện', vẫn bình tĩnh và thậm chí còn khen ngợi tiềm năng làm phản diện của Phí Lạc, khẳng định sẽ không để Phí Lạc tính kế mình.",
+  "new_characters": [
+    {
+      "name": "Alex",
+      "hanviet_name": "Ngải Lợi Khắc Tư",
+      "gender": "Male",
+      "role": "SS-rank male, General Sachsen",
+      "description": "An SS-rank male who went into a berserk state. He is also known as General Sachsen. Chu Sicheng appeased him."
+    },
+    {
+      "name": "Chu Sicheng",
+      "hanviet_name": "Sở Tư Thừa",
+      "gender": "Male",
+      "role": "Protagonist, S-rank male (implied), Lord Rui'an",
+      "description": "The protagonist who successfully appeased Alex. He is implied to be an S-rank male and is currently on trial, accused by Felo. Also known as Lord Rui'an."
+    },
+    {
+      "name": "Felo",
+      "hanviet_name": "Phí Lạc",
+      "gender": "Male",
+      "role": "Antagonist, transmigrator, A-rank male (implied)",
+      "description": "A transmigrator who is trying to change the plot and kill the protagonist, Chu Sicheng/Rui'an. He is an A-rank male."
+    },
+    {
+      "name": "Friedrich",
+      "hanviet_name": "Phất Đức Lý Hy",
+      "gender": "Male",
+      "role": "Important male figure",
+      "description": "A male character whom Felo is trying to impress and maintain a good image in front of."
+    },
+    {
+      "name": "Bộ xương",
+      "hanviet_name": "Khô Lâu",
+      "gender": "Unknown",
+      "role": "Mysterious entity",
+      "description": "A mysterious entity that appears as a black-mist skeleton, warning Felo about his own situation."
+    },
+    {
+      "name": "Hệ thống (của Felo)",
+      "hanviet_name": "Hệ Thống",
+      "gender": "Unknown",
+      "role": "Felo's system",
+      "description": "Felo's personal system, which advises him on plot changes and strategies."
+    },
+    {
+      "name": "Hệ thống (của Chu Sicheng)",
+      "hanviet_name": "Hệ Thống",
+      "gender": "Unknown",
+      "role": "Chu Sicheng's system",
+      "description": "The system accompanying Chu Sicheng, providing commentary and interacting with him."
+    },
+    {
+      "name": "Quân Thư",
+      "hanviet_name": "Quân Thư",
+      "gender": "Female",
+      "role": "Soldier",
+      "description": "Female soldiers in the insectoid society."
+    },
+    {
+      "name": "Sứ Quan",
+      "hanviet_name": "Sứ Quan",
+      "gender": "Unknown",
+      "role": "Court official",
+      "description": "An official who delivers messages and summons."
+    }
+  ],
+  "new_locations": [
+    {
+      "name": "Cung điện",
+      "hanviet": "Cung Điện",
+      "description": "A luxurious palace where Felo resides."
+    },
+    {
+      "name": "Đại sảnh xét xử của Tòa án Tối cao Đế quốc",
+      "hanviet": "Đế Quốc Tối Cao Pháp Viện Thẩm Phán Đại Sảnh",
+      "description": "The main hall where trials are held in the Imperial Supreme Court."
+    }
+  ],
+  "new_terms": [
+    {
+      "original": "軍雌",
+      "suggested": "Quân thư",
+      "hanviet": "Quân Thư",
+      "category": "faction",
+      "confidence": 0.0
+    },
+    {
+      "original": "狂暴期",
+      "suggested": "Kỳ cuồng bạo",
+      "hanviet": "Cuồng Bạo Kỳ",
+      "category": "other",
+      "confidence": 0.0
+    },
+    {
+      "original": "直播間",
+      "suggested": "Phòng livestream",
+      "hanviet": "Trực Bá Gian",
+      "category": "other",
+      "confidence": 0.0
+    },
+    {
+      "original": "薩克森將軍",
+      "suggested": "Tướng quân Sachsen",
+      "hanviet": "Tát Khắc Sâm Tướng Quân",
+      "category": "title",
+      "confidence": 0.0
+    },
+    {
+      "original": "閣下",
+      "suggested": "Các hạ",
+      "hanviet": "Các Hạ",
+      "category": "title",
+      "confidence": 0.0
+    },
+    {
+      "original": "雄蟲",
+      "suggested": "Hùng trùng",
+      "hanviet": "Hùng Trùng",
+      "category": "faction",
+      "confidence": 0.0
+    },
+    {
+      "original": "亞雌",
+      "suggested": "Á thư",
+      "hanviet": "Á Thư",
+      "category": "faction",
+      "confidence": 0.0
+    },
+    {
+      "original": "主角光環",
+      "suggested": "Hào quang nhân vật chính",
+      "hanviet": "Chủ Giác Quang Hoàn",
+      "category": "other",
+      "confidence": 0.0
+    },
+    {
+      "original": "二次蛻化",
+      "suggested": "Thoái hóa lần hai",
+      "hanviet": "Nhị Thứ Thoái Hóa",
+      "category": "other",
+      "confidence": 0.0
+    },
+    {
+      "original": "穿越者",
+      "suggested": "Người xuyên không",
+      "hanviet": "Xuyên Việt Giả",
+      "category": "other",
+      "confidence": 0.0
+    },
+    {
+      "original": "反派",
+      "suggested": "Phản diện",
+      "hanviet": "Phản Phái",
+      "category": "other",
+      "confidence": 0.0
+    },
+    {
+      "original": "雄蟲保護協會",
+      "suggested": "Hiệp hội bảo vệ Hùng trùng",
+      "hanviet": "Hùng Trùng Bảo Hộ Hiệp Hội",
+      "category": "faction",
+      "confidence": 0.0
+    },
+    {
+      "original": "虐主小說",
+      "suggested": "Tiểu thuyết ngược chủ",
+      "hanviet": "Ngược Chủ Tiểu Thuyết",
+      "category": "other",
+      "confidence": 0.0
+    },
+    {
+      "original": "宿主",
+      "suggested": "Ký chủ",
+      "hanviet": "Túc Chủ",
+      "category": "other",
+      "confidence": 0.0
+    },
+    {
+      "original": "管理局",
+      "suggested": "Cục quản lý",
+      "hanviet": "Quản Lý Cục",
+      "category": "faction",
+      "confidence": 0.0
+    }
+  ],
+  "ambiguous": [
+    {
+      "id": "amb_001",
+      "original": "艾利克斯",
+      "suggested": "Alex",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật [艾利克斯]?",
+      "options": [
+        "Alex",
+        "Ngải Lợi Khắc Tư",
+        "A Lực Khắc Tư"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_002",
+      "original": "Alex (ngôi thứ 3)",
+      "suggested": "hắn",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Alex (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "hắn",
+        "y",
+        "anh",
+        "cậu",
+        "gã",
+        "chàng"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_003",
+      "original": "楚司承",
+      "suggested": "Chu Sicheng",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật [楚司承]?",
+      "options": [
+        "Chu Sicheng",
+        "Sở Tư Thừa",
+        "Sở Tư Thừa (Chu Sicheng)"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_004",
+      "original": "Chu Sicheng (ngôi thứ 3)",
+      "suggested": "anh",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Chu Sicheng (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "anh",
+        "cậu",
+        "y",
+        "hắn",
+        "chàng"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_005",
+      "original": "费洛",
+      "suggested": "Felo",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật [费洛]?",
+      "options": [
+        "Felo",
+        "Phí Lạc",
+        "Phí Lạc (Felo)"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_006",
+      "original": "Felo (ngôi thứ 3)",
+      "suggested": "hắn",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Felo (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "hắn",
+        "y",
+        "cậu",
+        "gã"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_007",
+      "original": "弗德裡希",
+      "suggested": "Friedrich",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật [弗德裡希]?",
+      "options": [
+        "Friedrich",
+        "Phất Đức Lý Hy",
+        "Phất Đức Hy"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_008",
+      "original": "Friedrich (ngôi thứ 3)",
+      "suggested": "hắn",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Friedrich (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "hắn",
+        "y",
+        "anh",
+        "cậu",
+        "chàng"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_009",
+      "original": "骷髅",
+      "suggested": "Bộ xương",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật [骷髅]?",
+      "options": [
+        "Bộ xương",
+        "Khô Lâu",
+        "Thực thể xương"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_010",
+      "original": "Bộ xương (ngôi thứ 3)",
+      "suggested": "nó",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Bộ xương (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "nó",
+        "y",
+        "hắn",
+        "thứ đó"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_011",
+      "original": "系统 (của Felo)",
+      "suggested": "Hệ thống",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật [系统 (của Felo)]?",
+      "options": [
+        "Hệ thống",
+        "Thiết bị",
+        "Hệ thống (của Phí Lạc)"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_012",
+      "original": "Hệ thống (của Felo) (ngôi thứ 3)",
+      "suggested": "nó",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Hệ thống (của Felo) (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "nó",
+        "y",
+        "hắn",
+        "thiết bị đó"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_013",
+      "original": "系统 (của Chu Sicheng)",
+      "suggested": "Hệ thống",
+      "confidence": 0.3,
+      "question": "Xác nhận tên dịch / âm Hán-Việt cho nhân vật [系统 (của Chu Sicheng)]?",
+      "options": [
+        "Hệ thống",
+        "Thiết bị",
+        "Hệ thống (của Sở Tư Thừa)"
+      ],
+      "category": "name"
+    },
+    {
+      "id": "amb_014",
+      "original": "Hệ thống (của Chu Sicheng) (ngôi thứ 3)",
+      "suggested": "nó",
+      "confidence": 0.3,
+      "question": "Đại từ ngôi 3 trong văn trần thuật cho nhân vật Hệ thống (của Chu Sicheng) (hắn, y, anh, cậu, gã, nàng, cô...)?",
+      "options": [
+        "nó",
+        "y",
+        "hắn",
+        "thiết bị đó"
+      ],
+      "category": "pronoun"
+    },
+    {
+      "id": "amb_015",
+      "original": "Chu Sicheng → Alex",
+      "suggested": "Chu Sicheng xưng Ta - gọi Alex là Ngươi",
+      "confidence": 0.3,
+      "question": "Chiều 1: Chu Sicheng xưng hô thế nào với Alex (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Ta - gọi Ngươi",
+        "xưng Tôi - gọi Cậu",
+        "xưng Tôi - gọi Anh",
+        "xưng Anh - gọi Em"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_016",
+      "original": "Alex → Chu Sicheng",
+      "suggested": "Alex xưng Tôi - gọi Chu Sicheng là Cậu",
+      "confidence": 0.3,
+      "question": "Chiều 2: Alex xưng hô thế nào với Chu Sicheng (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Cậu",
+        "xưng Tôi - gọi Anh",
+        "xưng Ta - gọi Ngươi",
+        "xưng Em - gọi Anh"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_017",
+      "original": "Chu Sicheng → Quân Thư",
+      "suggested": "Chu Sicheng xưng Tôi - gọi Quân Thư là Các cô",
+      "confidence": 0.3,
+      "question": "Chiều 1: Chu Sicheng xưng hô thế nào với Quân Thư (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Các cô",
+        "xưng Tôi - gọi Các chị",
+        "xưng Ta - gọi Các ngươi"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_018",
+      "original": "Quân Thư → Chu Sicheng",
+      "suggested": "Quân Thư xưng Chúng tôi - gọi Chu Sicheng là Ngài",
+      "confidence": 0.3,
+      "question": "Chiều 2: Quân Thư xưng hô thế nào với Chu Sicheng (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Chúng tôi - gọi Ngài",
+        "xưng Chúng tôi - gọi Cậu",
+        "xưng Chúng tôi - gọi Anh"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_019",
+      "original": "Felo → Hệ thống (của Felo)",
+      "suggested": "Felo xưng Ta - gọi Hệ thống là Ngươi",
+      "confidence": 0.3,
+      "question": "Chiều 1: Felo xưng hô thế nào với Hệ thống (của Felo) (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Ta - gọi Ngươi",
+        "xưng Tôi - gọi Mày",
+        "xưng Tôi - gọi Hệ thống"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_020",
+      "original": "Hệ thống (của Felo) → Felo",
+      "suggested": "Hệ thống xưng Ta - gọi Felo là Ngươi",
+      "confidence": 0.3,
+      "question": "Chiều 2: Hệ thống (của Felo) xưng hô thế nào với Felo (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Ta - gọi Ngươi",
+        "xưng Tôi - gọi Ngài",
+        "xưng Tôi - gọi Chủ nhân"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_021",
+      "original": "Felo → Bộ xương",
+      "suggested": "Felo xưng Mày - gọi Bộ xương là Tao",
+      "confidence": 0.3,
+      "question": "Chiều 1: Felo xưng hô thế nào với Bộ xương (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Mày - gọi Tao",
+        "xưng Ngươi - gọi Ta",
+        "xưng Tôi - gọi Ngươi"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_022",
+      "original": "Bộ xương → Felo",
+      "suggested": "Bộ xương xưng Ta - gọi Felo là Ngươi",
+      "confidence": 0.3,
+      "question": "Chiều 2: Bộ xương xưng hô thế nào với Felo (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Ta - gọi Ngươi",
+        "xưng Tôi - gọi Ngài",
+        "xưng Ta - gọi Kẻ này"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_023",
+      "original": "Sứ Quan → Felo",
+      "suggested": "Sứ Quan xưng Tôi - gọi Felo là Các hạ",
+      "confidence": 0.3,
+      "question": "Chiều 1: Sứ Quan xưng hô thế nào với Felo (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Tôi - gọi Các hạ",
+        "xưng Hạ quan - gọi Các hạ",
+        "xưng Tôi - gọi Ngài"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_024",
+      "original": "Felo → Sứ Quan",
+      "suggested": "Felo xưng Ta - gọi Sứ Quan là Ngươi",
+      "confidence": 0.3,
+      "question": "Chiều 2: Felo xưng hô thế nào với Sứ Quan (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Ta - gọi Ngươi",
+        "xưng Tôi - gọi Anh",
+        "xưng Tôi - gọi Quan"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_025",
+      "original": "Chu Sicheng → Hệ thống (của Chu Sicheng)",
+      "suggested": "Chu Sicheng xưng Ta - gọi Hệ thống là Ngươi",
+      "confidence": 0.3,
+      "question": "Chiều 1: Chu Sicheng xưng hô thế nào với Hệ thống (của Chu Sicheng) (A tự xưng là gì và gọi B là gì khi nói chuyện)?",
+      "options": [
+        "xưng Ta - gọi Ngươi",
+        "xưng Tôi - gọi Mày",
+        "xưng Tôi - gọi Hệ thống"
+      ],
+      "category": "relationship"
+    },
+    {
+      "id": "amb_026",
+      "original": "Hệ thống (của Chu Sicheng) → Chu Sicheng",
+      "suggested": "Hệ thống xưng Tôi - gọi Chu Sicheng là Ký chủ",
+      "confidence": 0.3,
+      "question": "Chiều 2: Hệ thống (của Chu Sicheng) xưng hô thế nào với Chu Sicheng (B tự xưng là gì và gọi A là gì khi nói chuyện ngược lại)?",
+      "options": [
+        "xưng Tôi - gọi Ký chủ",
+        "xưng Tôi - gọi Ngài",
+        "xưng Tôi - gọi Cậu"
+      ],
+      "category": "relationship"
+    }
+  ],
+  "chapter_id": "ch_004",
+  "analyzed_at": "2026-09-30T12:15:43.239924+07:00"
+}
