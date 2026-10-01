@@ -70,9 +70,9 @@ Cũng không biết mấy con trùng này nghĩ gì, mà lại dùng phương ph
 
 Sở Tư Thừa nghe vậy, ngước mắt liếc Alex một cái, trong ánh mắt lưu chuyển, đầu lưỡi khẽ chạm vòm họng, cuối cùng cũng không nói gì, chỉ cúi mắt xác nhận lại thông tin trên quang não của Elio một lần nữa.
 
-“Tôi vừa không phải đã nói với anh rồi sao, hắn đã gửi đi rồi.” Alex đi đến bên cạnh Sở Tư Thừa, thấy động tác của anh, không khỏi nhíu mày,
+“Tôi vừa không phải đã nói với cậu rồi sao, hắn đã gửi đi rồi.” Alex đi đến bên cạnh Sở Tư Thừa, thấy động tác của anh, không khỏi nhíu mày,
 
-“Sao, anh không tin tôi sao?!”
+“Sao, cậu không tin tôi sao?!”
 
 Sở Tư Thừa: “…Tôi chỉ xác nhận xem đã gửi thành công chưa thôi.”
 
@@ -168,7 +168,7 @@ Alex chớp mắt, “Nhưng Friedrich chắc chắn biết, thể chất của 
 
 “Loại thuốc có tác dụng với anh, có chín mươi phần trăm khả năng cũng có tác dụng với Friedrich.” Hùng trùng lắc nhẹ ly rượu, thay Alex bổ sung nốt những lời chưa nói hết.
 
-Nhưng, Alex lại hỏi: “Anh làm sao có thể chắc chắn rằng sau khi tôi trúng thuốc, Friedrich nhất định sẽ xuất hiện chứ?”
+Nhưng, Alex lại hỏi: “Cậu làm sao có thể chắc chắn rằng sau khi tôi trúng thuốc, Friedrich nhất định sẽ xuất hiện chứ?”
 
 “Vậy Elio không thể nào xử lý anh ngay trong nhà vệ sinh được, đúng không?” Sở Tư Thừa hỏi ngược lại.
 

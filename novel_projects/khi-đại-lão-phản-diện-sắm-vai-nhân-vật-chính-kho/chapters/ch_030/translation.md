@@ -72,13 +72,13 @@ Cậu là ai?
 
 Sở Tư Thừa mỉm cười, bàn tay đang giữ cằm thư trùng dần dần nới lỏng lực đạo, giống như đang ban thưởng cho thư trùng vì đã trả lời đúng câu hỏi, thế nhưng giây tiếp theo, anh lại đột ngột gia tăng lực tay,
 
-"Rất tiếc, ngươi trả lời sai rồi."
+"Rất tiếc, anh trả lời sai rồi."
 
 Cà vạt lại càng lún sâu vào trong khoang miệng, trong lúc nước bọt không ngừng tiết ra, Alex cảm nhận được đầu ngón tay của hùng trùng khẽ đặt lên làn môi của hắn.
 
 Vết thương dưới sự mơn trớn của đầu ngón tay lại rỉ ra dòng máu mới, Sở Tư Thừa nhìn ngón tay mình từng chút một bị nhuộm đỏ bởi máu của Alex, đầu lưỡi khẽ liếm môi dưới, sau đó chậm rãi lên tiếng, nói với thư trùng từng chữ một:
 
-"Nhớ kỹ, sau này khi tôi hỏi ngươi 'tôi là ai', nhớ phải trả lời tôi là Trùng chủ của ngươi."
+"Nhớ kỹ, sau này khi tôi hỏi anh 'tôi là ai', nhớ phải trả lời tôi là Trùng chủ của anh."
 
 "Bây giờ, tôi hỏi lại ngươi một lần nữa, tôi là ai?"
 

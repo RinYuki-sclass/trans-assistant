@@ -7,7 +7,7 @@
     "gender": "Nam",
     "third_person_pronoun": "anh",
     "role": "Nhân vật chính, cựu Trưởng nhóm Phản diện của Cục Quản lý Thời Không",
-    "notes": "Bình tĩnh, cơ trí, thâm độc, phong thái đại lão phản diện. Xuyên vào các vai chính bị ngược để đoạt lại hào quang."
+    "notes": "Bình tĩnh, cơ trí, thâm độc, phong thái đại lão phản diện. Xuyên vào các vai chính bị ngược để đoạt lại hào quang. Là NHÂN VẬT DUY NHẤT dùng đại từ ngôi thứ 3 trần thuật là \"anh\". Xưng hô với Thụ: xưng \"tôi\", gọi Thụ là \"anh\" / tên riêng / chức danh."
   },
   {
     "name": "Ryan",
@@ -15,9 +15,9 @@
     "original_name": "瑞安",
     "pinyin": "Ruì'ān",
     "gender": "Nam",
-    "third_person_pronoun": "cậu",
+    "third_person_pronoun": "anh (khi Sở Tư Thừa nhập xác) / cậu (nguyên chủ)",
     "role": "Thân xác hùng trùng nguyên tác tại thế giới Trùng tộc (Sở Tư Thừa nhập vào)",
-    "notes": "Hùng trùng cấp F (tiềm năng cấp S), bị Felo gài bẫy vu oan mưu hại đồng loại. (Tên tiếng Anh giữ nguyên, không dịch thành Thụy An)"
+    "notes": "Thân xác hùng trùng nguyên tác thế giới 1. Khi Sở Tư Thừa đã nhập xác điều khiển thì trần thuật quy nhất đại từ về \"anh\" (theo Sở Tư Thừa). Chỉ dùng \"cậu\" khi nói về Ryan nguyên bản trong quá khứ. Tên tiếng Anh giữ nguyên, không dịch Thụy An."
   },
   {
     "name": "Alex Sachsen",
@@ -26,8 +26,8 @@
     "pinyin": "Àilìkèsī Sàkèsēn",
     "gender": "Nam (Quân thư)",
     "third_person_pronoun": "hắn",
-    "role": "Tướng quân quân thư cấp SS, người hành hình",
-    "notes": "Khinh ghét hùng trùng, cao ngạo, lạnh lùng, gặp vấn đề tinh thần lực bạo động dễ trùng hóa. (Tên tiếng Anh giữ nguyên, tuyệt đối KHÔNG dịch thành A Lợi Khắc Tư hay Ngải Lợi Khắc Tư)"
+    "role": "Tướng quân quân thư cấp SS, người hành hình (Thế giới 1)",
+    "notes": "Tướng quân quân thư cấp SS (Thụ TG1). Khinh ghét hùng trùng, cao ngạo, lạnh lùng. Đại từ ngôi 3 trần thuật luôn dùng \"hắn\" (TUYỆT ĐỐI KHÔNG dùng \"anh\"). Đối thoại: xưng \"tôi\", gọi Sở Tư Thừa là \"cậu\" (TUYỆT ĐỐI KHÔNG gọi Sở Tư Thừa là \"anh\"). Tên tiếng Anh giữ nguyên."
   },
   {
     "name": "Friedrich",
@@ -37,7 +37,7 @@
     "gender": "Nam (Quân thư)",
     "third_person_pronoun": "hắn",
     "role": "Quân thư cấp tướng, quan phối nguyên tác của Ryan",
-    "notes": "Bị kẻ xuyên không Felo tiếp cận và muốn cướp đoạt. (Tên tiếng Anh giữ nguyên, không dịch thành Phật Đức Lý Hi)"
+    "notes": "Quân thư cấp tướng, quan phối nguyên tác của Ryan. Đại từ ngôi 3 trần thuật dùng \"hắn\" (TUYỆT ĐỐI KHÔNG dùng \"anh\"). Giữ nguyên tiếng Anh."
   },
   {
     "name": "Felo",
@@ -86,5 +86,45 @@
     "third_person_pronoun": "hắn",
     "role": "Hùng trùng giả tạo, hôn phu cũ của Alex",
     "notes": "Tên tiếng Anh giữ nguyên, tuyệt đối KHÔNG dịch thành Ngải Lợi Âu"
+  },
+  {
+    "name": "Tống Lạc An",
+    "hanviet_name": "Tống Lạc An",
+    "original_name": "宋乐安",
+    "pinyin": "Sòng Lè'ān",
+    "gender": "Nam",
+    "third_person_pronoun": "anh (khi Sở Tư Thừa nhập xác) / cậu (nguyên chủ)",
+    "role": "Thân xác nguyên tác thế giới 2 (Hào môn thế gia), sinh viên đại học kiêm 'chim hoàng yến'",
+    "notes": "Thân xác nguyên tác thế giới 2. Khi Sở Tư Thừa nhập vào điều khiển thì trần thuật quy nhất đại từ về \"anh\" (theo Sở Tư Thừa). Chỉ dùng \"cậu\" khi nói về Tống Lạc An nguyên bản trong quá khứ."
+  },
+  {
+    "name": "Thẩm Từ",
+    "hanviet_name": "Thẩm Từ",
+    "original_name": "沈辞",
+    "pinyin": "Shěn Cí",
+    "gender": "Nam",
+    "third_person_pronoun": "hắn",
+    "role": "Tổng tài / Đại lão phản diện thế giới 2 (Đối thủ cạnh tranh của Lệ Yến Trạch)",
+    "notes": "Tổng tài / Đại lão phản diện thế giới 2 (Thụ TG2). Lạnh lùng, thâm sâu. Đại từ ngôi 3 trần thuật luôn dùng \"hắn\" (TUYỆT ĐỐI KHÔNG dùng \"anh\"). Đối thoại: xưng \"tôi\", gọi Sở Tư Thừa là \"cậu\" (TUYỆT ĐỐI KHÔNG gọi Sở Tư Thừa là \"anh\")."
+  },
+  {
+    "name": "Lệ Yến Trạch",
+    "hanviet_name": "Lệ Yến Trạch",
+    "original_name": "厉晏泽",
+    "pinyin": "Lì Yànzé",
+    "gender": "Nam",
+    "third_person_pronoun": "hắn",
+    "role": "Tổng tài tra công nguyên tác thế giới 2",
+    "notes": "Tổng tài tra công nguyên tác thế giới 2. Đại từ ngôi 3 trần thuật luôn dùng \"hắn\" (TUYỆT ĐỐI KHÔNG dùng \"anh\" để tránh nhầm với Sở Tư Thừa)."
+  },
+  {
+    "name": "Chu Lạc Lạc",
+    "hanviet_name": "Chu Lạc Lạc",
+    "original_name": "周洛洛",
+    "pinyin": "Zhōu Luòluò",
+    "gender": "Nam",
+    "third_person_pronoun": "gã",
+    "role": "Kẻ trọng sinh mang Bug thế giới 2 (Trà xanh, có thuật đọc tâm)",
+    "notes": "Trọng sinh cướp đoạt hào quang, dùng thuật đọc tâm giả vờ ngây thơ để lấy lòng Lệ Yến Trạch."
   }
 ]
