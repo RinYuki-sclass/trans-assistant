@@ -8,7 +8,7 @@ Chỉ cần dùng một chút lực, đầu của thư trùng đã bị anh kéo
 
 Ánh mắt Sở Tư Thừa rơi trên gương mặt tràn đầy dục vọng của Alex, đôi môi đỏ mọng khẽ mở, anh khẽ thì thầm:
 
-"Alex, nói cho tôi biết, ngày thư phụ của cậu bảo cậu đi đăng ký hẹn hò, rốt cuộc cậu đã từ chối ông ấy như thế nào?"
+"Alex, nói cho tôi biết, ngày thư phụ của anh bảo anh đi đăng ký hẹn hò, rốt cuộc anh đã từ chối ông ấy như thế nào?"
 
 "Từ chối thế nào sao..."
 

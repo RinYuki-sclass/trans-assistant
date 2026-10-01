@@ -42,7 +42,7 @@ Alex cắn môi gật đầu.
 
 Chẳng trách thuốc dùng trên người nhân vật chính đều là hàng thượng phẩm, anh đã cố gắng kiềm chế từ trưa đến tận bây giờ, kết quả là ngọn lửa trong cơ thể không những không tắt ngấm như mọi khi, mà ngược lại còn bùng cháy dữ dội hơn.
 
-Sở Tư Thừa hít sâu một hơi, sau đó rũ mắt nhìn Alex, định bảo cậu chờ một chút để anh đi uống nước, nhưng chưa kịp mở lời, anh đã bị Alex vì chờ đợi quá lâu mà mất kiên nhẫn, trực tiếp kéo mạnh cổ tay ngã nhào lên giường.
+Sở Tư Thừa hít sâu một hơi, sau đó rũ mắt nhìn Alex, định bảo anh chờ một chút để anh đi uống nước, nhưng chưa kịp mở lời, anh đã bị Alex vì chờ đợi quá lâu mà mất kiên nhẫn, trực tiếp kéo mạnh cổ tay ngã nhào lên giường.
 
 Khi Sở Tư Thừa còn chưa kịp phản ứng, Alex đã vùi đầu vào xương quai xanh của anh, cảm giác ẩm nóng quen thuộc lại một lần nữa rơi trên làn da nhạy cảm, chỉ là lần này, cảm giác đau nhói vốn luôn đi kèm với sự ẩm nóng đó đã không còn xuất hiện nữa.
 

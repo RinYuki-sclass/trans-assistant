@@ -36,6 +36,14 @@
 | **系统** | **Hệ thống** | **nó** | Hệ thống nhiệm vụ của Sở Tư Thừa | |
 | **骷髅** | **Hư ảnh đầu lâu / Đầu lâu** | **nó** | Thực thể bí ẩn câu kết cùng Felo | ❌ Khô Lâu |
 
+### Bảng nhân vật Thế giới 2 (Hào môn thế gia - từ Chương 43 trở đi):
+| Tên tiếng Trung | Tên chuẩn trong bản dịch | Đại từ ngôi 3 | Vai trò / Thân phận | Tuyệt đối KHÔNG dùng (Cấm) |
+| :--- | :--- | :--- | :--- | :--- |
+| **宋乐安** | **Tống Lạc An** | **cậu** | Thân xác nguyên tác của Sở Tư Thừa, 'chim hoàng yến' | ❌ Song Le'an, ❌ Tống Nhạc An |
+| **沈辞** | **Thẩm Từ** | **hắn** | Tổng tài / Đại lão phản diện, đối tác / kim chủ của Sở Tư Thừa | ❌ Shen Ci |
+| **厉晏泽** | **Lệ Yến Trạch** | **hắn** | Tổng tài tra công nguyên tác | ❌ Li Yanze |
+| **周洛洛** | **Chu Lạc Lạc** | **gã** | Kẻ trọng sinh mang Bug (Trà xanh đọc tâm) | ❌ Zhou Luoluo |
+
 ---
 
 ## 3. THUẬT NGỮ THẾ GIỚI TRÙNG TỘC (WORLD 1)
@@ -53,30 +61,69 @@
 
 ---
 
-## 4. QUY TẮC ĐẠI TỪ NGÔI KỂ THỨ 3 & VĂN PHONG
-1. **Sở Tư Thừa:** Luôn luôn dùng **"anh"** trong ngôi kể thứ 3 trần thuật.
-2. **Ryan (khi nói về thân xác nguyên tác):** Dùng **"cậu"**.
-3. **Alex:** Dùng **"hắn"**.
-4. **Felo:** Dùng **"gã"** (thể hiện sắc thái phản diện, giả tạo) hoặc **"hắn"**.
-5. **Đoạn thoại và trần thuật:** Tách đoạn rõ ràng, không gộp thoại và văn trần thuật chung một đoạn.
-6. **Văn phong:** Mượt mà, súc tích, giữ trọn sắc thái châm biếm, ung dung, đại lão thâm sâu của Sở Tư Thừa.
-7. **Quy chuẩn danh xưng Trùng tộc (BẮT BUỘC):**
+## 4. QUY TẮC ĐẠI TỪ NGÔI KỂ THỨ 3 (VĂN TỰ SỰ / TRẦN THUẬT) & VĂN PHONG
+1. **Sở Tư Thừa (Công - Nhân vật chính):**
+   - **Luôn luôn và duy nhất dùng "anh"** trong ngôi kể thứ 3 trần thuật.
+   - **Quy tắc nhập xác (Quan trọng):** Khi Sở Tư Thừa đã nhập vào thân xác (dù tác giả gọi tên thân xác là Ryan ở TG1 hay Tống Lạc An ở TG2), mọi hành động, suy nghĩ và đại từ tự sự của nhân vật chính **bắt buộc quy nhất về "anh"** (theo linh hồn Sở Tư Thừa, tránh lúc "anh" lúc "cậu" gây phân mảnh nhân vật). Chỉ dùng "cậu" khi đề cập riêng đến nguyên chủ trong quá khứ độc lập.
+   - **Đặc quyền đại từ:** DUY NHẤT Sở Tư Thừa được dùng ngôi 3 là **"anh"**. Tuyệt đối KHÔNG dùng "anh" cho bất kỳ nhân vật nam nào khác trong văn trần thuật.
+2. **Thụ (Alex Sachsen ở TG1 & Thẩm Từ ở TG2):**
+   - Luôn luôn dùng **"hắn"** trong văn tự sự / trần thuật ngôi thứ 3.
+   - Tuyệt đối KHÔNG dùng "anh" cho Thụ trong văn trần thuật (tránh gây nhầm lẫn ngôi kể với Công).
+3. **Các nhân vật nam khác (Phản diện / Vai phụ):**
+   - Lệ Yến Trạch, Friedrich: Dùng **"hắn"** (tuyệt đối KHÔNG dùng "anh").
+   - Felo, Chu Lạc Lạc, Elio: Dùng **"gã / hắn"** (thể hiện sắc thái phản diện, giả tạo).
+   - Heideman: Dùng **"ông / ông ta"**.
+4. **Đoạn thoại và trần thuật:** Tách đoạn rõ ràng, không gộp thoại và văn trần thuật chung một đoạn.
+5. **Văn phong:** Mượt mà, súc tích, giữ trọn sắc thái châm biếm, ung dung, phong thái đại lão thâm sâu của Sở Tư Thừa.
+6. **Quy chuẩn danh xưng Trùng tộc (BẮT BUỘC):**
    - ❌ CẤM: Dùng "con thư trùng", "con hùng trùng", "con quân thư", "con á thư".
    -  BẮT BUỘC:
      - `"Con thư trùng"` ➔ **`"Thư trùng"`** / `"con thư trùng"` ➔ **`"thư trùng"`**
      - `"Con hùng trùng"` ➔ **`"Hùng trùng"`** / `"con hùng trùng"` ➔ **`"hùng trùng"`**
      - Không thêm lượng từ "con" phía trước danh xưng trùng tộc.
-8. **Quy tắc định dạng đoạn văn khi Dịch & QC (BẮT BUỘC):**
+7. **Quy tắc định dạng đoạn văn khi Dịch & QC (BẮT BUỘC):**
    - **Các đoạn phải cách nhau đúng 1 dòng:** Giữa hai đoạn văn trần thuật hoặc lời thoại bất kỳ **bắt buộc phải có đúng 1 dòng trống (`\n\n`)**.
    - Tuyệt đối không để các đoạn văn dính liền kề trên hai dòng liên tiếp (`\n`) mà không có dòng trống ngăn cách.
    - Không để thừa nhiều dòng trống liên tiếp (chỉ giữ đúng 1 dòng trống).
 
 ---
 
-## 5. CHECKLIST BẮT BUỘC KHI DỊCH VÀ QC MỖI CHƯƠNG
+## 5. QUY TẮC XƯNG HÔ ĐỐI THOẠI CÔNG - THỤ
+### Bối cảnh Thế giới 1 (Trùng tộc - Sở Tư Thừa & Alex):
+1. **Giai đoạn 1: Khảo nghiệm & Đối đầu ban đầu (Phòng hành hình / Ngục tối)**
+   - **Sở Tư Thừa:** Khi giả yếu thế gọi **"Sĩ quan"** / **"ngài"**; khi bộc lộ thực lực xưng **"tôi"**, gọi **"anh"**.
+   - **Alex:** Cảnh giác, xa cách: xưng **"ta"** (hoặc trống không), gọi **"ngươi"**.
+
+2. **Giai đoạn 2: Hợp tác, Giao dịch & Đồng minh thường ngày**
+   - **Alex (Thụ):** Xưng **"tôi"**, gọi Sở Tư Thừa là **"cậu"** (với tư cách Tướng quân bề trên).
+     - ❌ **TUYỆT ĐỐI CẤM:** Alex gọi Sở Tư Thừa là "anh" (không để tình trạng cả hai bên cùng gọi nhau là "anh - anh").
+   - **Sở Tư Thừa (Công):** Xưng **"tôi"**, gọi **"anh"** / **"Alex"** (hoặc "Tướng quân" khi nói đùa/lễ nghi).
+
+3. **Giai đoạn 3: Phát tình, Cuồng bạo & Áp chế tinh thần lực / Thân mật**
+   - **Sở Tư Thừa (Công):**
+     - Khi trêu ghẹo bề trên hoặc khi ra lệnh áp chế tinh thần lực: xưng **"tôi"**, gọi **"anh"** (TUYỆT ĐỐI KHÔNG dùng "ngươi" - ví dụ: *"sau này khi tôi hỏi anh 'tôi là ai', nhớ phải trả lời tôi là Trùng chủ của anh"*).
+   - **Alex (Thụ):**
+     - Khi bị áp chế tinh thần lực / bản năng quy phục: gọi **"Trùng chủ"** / **"Chủ nhân"** / **"ngài"**, xưng **"tôi"** (hoặc xưng **"em"** khi dâng hiến tình cảm).
+
+### Bối cảnh Thế giới 2 (Hào môn thế gia - Sở Tư Thừa & Thẩm Từ):
+1. **Thẩm Từ (Thụ):**
+   - Xưng **"tôi"**, gọi Sở Tư Thừa là **"cậu"**.
+   - ❌ **TUYỆT ĐỐI CẤM:** Thẩm Từ gọi Sở Tư Thừa là "anh".
+2. **Sở Tư Thừa (Công):**
+   - Xưng **"tôi"**, gọi Thẩm Từ là **"anh"** / **"Thẩm Từ"** / **"Ông chủ"** / **"Sếp"**.
+
+---
+
+## 6. CHECKLIST BẮT BUỘC KHI DỊCH VÀ QC MỖI CHƯƠNG
 1. **Kiểm tra định dạng đoạn văn:** Tất cả các đoạn văn và lời thoại phải cách nhau đúng 1 dòng trống (`\n\n`).
 2. **Kiểm tra tên riêng:** Tên phương Tây (Alex, Ryan, Friedrich, Felo, Heideman, Sachsen...) phải giữ nguyên tiếng Anh, không dịch Hán Việt.
-3. **Kiểm tra đại từ ngôi 3:** Sở Tư Thừa = "anh", Alex = "hắn", Ryan = "cậu", Felo = "gã / hắn".
-4. **Kiểm tra danh xưng Trùng tộc:** Tuyệt đối không dùng "con thư trùng", "con hùng trùng", "con quân thư".
-5. **Kiểm tra bảo toàn đoạn 1:1:** Không bỏ sót câu thoại hay đoạn văn, số đoạn khớp 1:1 với nguyên tác.
+3. **Kiểm tra đại từ ngôi 3 tự sự:**
+   - Sở Tư Thừa = DUY NHẤT dùng "anh" (dù trong thân xác Ryan hay Tống Lạc An).
+   - Thụ (Alex, Thẩm Từ) = "hắn" (tuyệt đối không để thành "anh").
+   - Nhân vật phản diện (Lệ Yến Trạch, Friedrich) = "hắn" (tuyệt đối không để thành "anh").
+4. **Kiểm tra xưng hô đối thoại Công - Thụ:**
+   - Sở Tư Thừa: Xưng "tôi" - gọi "anh".
+   - Thụ (Alex / Thẩm Từ): Xưng "tôi" - gọi "cậu" (TUYỆT ĐỐI KHÔNG gọi Sở Tư Thừa là "anh").
+5. **Kiểm tra danh xưng Trùng tộc:** Tuyệt đối không dùng "con thư trùng", "con hùng trùng", "con quân thư".
+6. **Kiểm tra bảo toàn đoạn 1:1:** Không bỏ sót câu thoại hay đoạn văn, số đoạn khớp 1:1 với nguyên tác.
 

@@ -8,7 +8,7 @@ Dù sao cũng đã đến rồi.
 
 “???”
 
-“Anh điên rồi sao?!”
+“Cậu điên rồi sao?!”
 
 Alex bị thái độ tùy tiện của Sở Tư Thừa khi đối mặt với nguy hiểm không rõ tên làm cho kinh ngạc.
 
@@ -38,19 +38,19 @@ Sở Tư Thừa đột nhiên mỉm cười, giữa hơi thở mang theo một s
 
 Hắn suýt nữa thì bật cười vì câu hỏi chậm chạp của Sở Tư Thừa,
 
-“Anh nghĩ tôi nắm tay anh là muốn làm gì, chê anh uống chậm quá nên định giúp anh đẩy nhanh tiến độ à?”
+“Cậu nghĩ tôi nắm tay cậu là muốn làm gì, chê cậu uống chậm quá nên định giúp cậu đẩy nhanh tiến độ à?”
 
-Alex cười lạnh một tiếng, “Tôi thấy bây giờ anh cần nhất không phải là uống thuốc, mà là vạch trán ra, rửa sạch cái não bên trong đi!”
+Alex cười lạnh một tiếng, “Tôi thấy bây giờ cậu cần nhất không phải là uống thuốc, mà là vạch trán ra, rửa sạch cái não bên trong đi!”
 
 “Sao lại hung dữ thế.” Môi Sở Tư Thừa càng khô hơn, hơi thở cũng trở nên gấp gáp,
 
 “Tôi chỉ muốn nếm thử xem nước này rốt cuộc có vị gì.”
 
-“Anh là trẻ con ba tuổi à, cái gì vừa cầm được trong tay cũng nghĩ đến việc nhét vào miệng!”
+“Cậu là trẻ con ba tuổi à, cái gì vừa cầm được trong tay cũng nghĩ đến việc nhét vào miệng!”
 
 Alex bây giờ thật sự muốn đập vỡ đầu Sở Tư Thừa ra xem bên trong rốt cuộc chứa bao nhiêu xi măng,
 
-“Chính anh cũng nói rồi, Felo chắc chắn không có ý tốt, đây căn bản không phải thuốc giúp anh đẩy nhanh thời gian lột xác lần hai, anh còn uống nó làm gì?!”
+“Chính cậu cũng nói rồi, Felo chắc chắn không có ý tốt, đây căn bản không phải thuốc giúp cậu đẩy nhanh thời gian lột xác lần hai, cậu còn uống nó làm gì?!”
 
 “Tôi thấy anh đúng là không thấy quan tài không đổ lệ, trúng thuốc thật rồi mới chịu ngoan ngoãn.”
 
@@ -68,7 +68,7 @@ Nhưng đúng lúc này, khi anh cùng hắn đặt ly rượu trở lại mặt
 
 Giọng Hùng trùng rất nhẹ, ngữ khí cũng phiêu đãng, tựa như một cánh lông vũ không thể đáp xuống đất, nhưng lại dễ dàng tạo ra một tiếng nổ lớn bên tai Alex.
 
-Alex thậm chí còn nghi ngờ mình nghe nhầm, nhất thời không kịp phản ứng, "Anh nói gì?"
+Alex thậm chí còn nghi ngờ mình nghe nhầm, nhất thời không kịp phản ứng, "Cậu nói gì?"
 
 "Tôi nói..."
 
@@ -82,7 +82,7 @@ Trong lúc Alex đang ngẩn người, Sở Tư Thừa ngẩng mặt lên, khẽ
 
 "Sao có thể—"
 
-Alex không thể hiểu nổi, "Chẳng phải anh chưa uống thuốc này sao?"
+Alex không thể hiểu nổi, "Chẳng phải cậu chưa uống thuốc này sao?"
 
 Có một khoảnh khắc, Alex thậm chí còn nghi ngờ ký ức của mình có phải đã thiếu mất một đoạn hay không, Hùng trùng trước khi hắn ngăn cản, đã nếm thử một ngụm thuốc trong ly rượu.
 
@@ -152,7 +152,7 @@ Lời của Sở Tư Thừa bị Thư trùng ngắt ngang bởi tấm thẻ đư
 
 “Đây là thẻ lương của tôi, bên trong có tất cả tiền tiết kiệm của tôi,”
 
-Ánh mắt Alex dõi theo Sở Tư Thừa không rời, hắn khựng lại một chút, rồi lại nói: “Bây giờ, anh có thể nói rồi chứ?”
+Ánh mắt Alex dõi theo Sở Tư Thừa không rời, hắn khựng lại một chút, rồi lại nói: “Bây giờ, cậu có thể nói rồi chứ?”
 
 Nhìn đôi mắt kiên định và cố chấp của Thư trùng, Sở Tư Thừa bỗng nhiên muốn cười, anh cũng thật sự bật cười.
 

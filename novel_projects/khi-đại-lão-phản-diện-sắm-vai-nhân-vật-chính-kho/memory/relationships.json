@@ -1,1 +1,48 @@
-[]
+[
+  {
+    "world": "Thế giới 1 (Trùng tộc)",
+    "character_1": "Sở Tư Thừa",
+    "character_2": "Alex Sachsen",
+    "relation_type": "Chủ công - Quân thư (Công - Thụ thế giới Trùng tộc)",
+    "description": "Ban đầu là tù nhân và đao phủ hành hình, sau thành đồng minh hợp tác và bạn đời (chủ nhân - thư trùng quy phục).",
+    "pronoun_rules": {
+      "phase_1_initial": {
+        "context": "Phòng hành hình / Ngục tối ban đầu",
+        "so_tu_thua_to_alex": "Tôi - Sĩ quan / ngài (khi giả yếu); Tôi - Anh (khi lộ thực lực)",
+        "alex_to_so_tu_thua": "Ta (hoặc trống không) - Ngươi"
+      },
+      "phase_2_cooperation": {
+        "context": "Hợp tác, giao dịch, đồng minh",
+        "alex_to_so_tu_thua": "Tôi - Cậu (Alex xưng 'tôi', gọi Sở Tư Thừa là 'cậu'. TUYỆT ĐỐI KHÔNG gọi Sở Tư Thừa là 'anh')",
+        "so_tu_thua_to_alex": "Tôi - Anh / Alex / Tướng quân (Sở Tư Thừa xưng 'tôi', gọi Alex là 'anh')"
+      },
+      "phase_3_intimacy_and_suppression": {
+        "context": "Kỳ phát tình, cuồng bạo & áp chế tinh thần lực / thân mật",
+        "so_tu_thua_to_alex": "Tôi - Anh (khi trêu ghẹo bề trên hoặc khi áp chế tinh thần lực: 'sau này khi tôi hỏi anh...')",
+        "alex_to_so_tu_thua": "Tôi (hoặc em) - Trùng chủ / Chủ nhân / ngài"
+      }
+    }
+  },
+  {
+    "world": "Thế giới 2 (Hào môn thế gia)",
+    "character_1": "Sở Tư Thừa (Tống Lạc An)",
+    "character_2": "Thẩm Từ",
+    "relation_type": "Chủ công - Đại lão phản diện (Công - Thụ thế giới Hào môn)",
+    "description": "Sở Tư Thừa trong thân xác Tống Lạc An tiếp cận Thẩm Từ (đối thủ của tra công Lệ Yến Trạch) làm kim chủ / đối tác, trêu ghẹo và đảo ngược thế cục.",
+    "pronoun_rules": {
+      "tham_tu_to_so_tu_thua": "Tôi - Cậu (Thẩm Từ xưng 'tôi', gọi Sở Tư Thừa là 'cậu'. TUYỆT ĐỐI KHÔNG gọi Sở Tư Thừa là 'anh')",
+      "so_tu_thua_to_tham_tu": "Tôi - Anh / Ông chủ / Sếp / Kim chủ / Thẩm Từ (Sở Tư Thừa xưng 'tôi', gọi 'anh')"
+    }
+  },
+  {
+    "world": "Thế giới 2 (Hào môn thế gia)",
+    "character_1": "Sở Tư Thừa (Tống Lạc An)",
+    "character_2": "Lệ Yến Trạch",
+    "relation_type": "Vai chính nghịch tập - Tra công nguyên tác",
+    "description": "Lệ Yến Trạch bội bạc, Sở Tư Thừa vạch rõ ranh giới và trừng phạt.",
+    "pronoun_rules": {
+      "le_yen_trach_to_so_tu_thua": "Tôi - Cậu / Tống Lạc An",
+      "so_tu_thua_to_le_yen_trach": "Tôi - Tổng giám đốc Lệ / Anh (mỉa mai)"
+    }
+  }
+]

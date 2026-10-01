@@ -80,17 +80,17 @@ Sở Tư Thừa đánh giá Alex từ trên xuống dưới, luôn cảm thấy 
 
 “Sao vậy?”
 
-Alex, sau khi xử lý xong công việc, vừa ngẩng đầu lên khỏi màn hình, đã thấy hùng trùng đang chống cằm trên tay vịn ghế sofa đối diện nhìn mình chằm chằm, đôi mắt nai tròn xoe của hắn gần như híp lại thành một đường.
+Alex, sau khi xử lý xong công việc, vừa ngẩng đầu lên khỏi màn hình, đã thấy hùng trùng đang chống cằm trên tay vịn ghế sofa đối diện nhìn mình chằm chằm, đôi mắt nai tròn xoe của anh gần như híp lại thành một đường.
 
 Alex không chút để tâm, đưa tay đẩy gọng kính trên sống mũi, nhàn nhạt mở miệng nói:
 
-“Em chán à? Xin lỗi, anh cũng không ngờ công việc lại đột nhiên xuất hiện vào lúc này.”
+“Cậu thấy chán rồi à? Xin lỗi, tôi cũng không ngờ công việc lại đột nhiên phát sinh vào lúc này.”
 
 “Cái này không sao,” Sở Tư Thừa tùy ý vẫy tay, “Có việc thì anh cứ xử lý trước đi.”
 
-Một mình anh ta cũng đâu có gì để chơi.
+Một mình anh cũng đâu phải không có gì để chơi.
 
-Sở Tư Thừa không có ý kiến gì về việc Alex hẹn mình ra ngoài, kết quả vừa gặp đã xử lý công việc trước, anh ta chỉ hơi tò mò,
+Sở Tư Thừa không có ý kiến gì về việc Alex hẹn mình ra ngoài, kết quả vừa gặp đã xử lý công việc trước, anh chỉ hơi tò mò,
 
 “Tối qua, thư phụ của anh gọi anh về làm gì thế?”
 
@@ -218,6 +218,6 @@ Thế nhưng ngay khi Sở Tư Thừa cúi đầu muốn hỏi rõ rốt cuộc 
 
 Alex đẩy gọng kính trên sống mũi, sau đó ngước mắt nhìn Hùng trùng đã ngồi lại trên ghế sofa, ánh mắt chuyển động, ngữ khí càng thêm thâm ý,
 
-“Anh nói xem, tình huống nào sẽ khiến hắn từ bỏ đối tượng hợp tác của mình, mà lại đến tìm tôi, một kẻ địch.”
+“Cậu nói xem, tình huống nào sẽ khiến hắn từ bỏ đối tượng hợp tác của mình, mà lại đến tìm tôi, một kẻ địch.”
 
 Là vì hắn phát hiện đối tượng hợp tác của mình không đáng tin cậy, hay là, hắn đã tìm đến, nhưng đối phương lại không gặp hắn?

@@ -48,7 +48,7 @@ Alex cười lạnh một tiếng, sau đó ngả người dựa vào đầu gi�
 
 Hàng mi khẽ run, Alex rủ mắt nhìn chiếc quang não trên cổ tay vừa mới tắt đèn báo hiệu đã lại nhấp nháy liên hồi tựa như đang thúc mạng, bờ môi mấp máy, như đang lẩm bẩm một mình, lại như đang hỏi Sở Tư Thừa bên cạnh:
 
-“Anh nói xem, ông ấy thật sự sẽ làm như vậy sao?”
+“Cậu nói xem, ông ấy thật sự sẽ làm như vậy sao?”
 
 Đối mặt với đứa con vừa trải qua kỳ cuồng bạo tinh thần lực còn chưa kết thúc trọn vẹn, cơ thể cực kỳ suy yếu của mình, điều đầu tiên không phải nghĩ đến việc quan tâm thăm hỏi, mà là cùng với những con trùng khác ép buộc hắn phải giao ra quyền lực trong tay.
 

@@ -168,7 +168,7 @@ Sở Tư Thừa, người từng nhiều lần bị những thiếu niên nghèo
 
 Nhưng Alex, người lần đầu làm phản diện, lại không được khoáng đạt như anh.
 
-"Anh không lo lắng chút nào về việc sau khi lột xác lần hai anh vẫn là cấp F sao?"
+"Cậu không lo lắng chút nào về việc sau khi lột xác lần hai cậu vẫn là cấp F sao?"
 
 "Không lo lắng,"
 

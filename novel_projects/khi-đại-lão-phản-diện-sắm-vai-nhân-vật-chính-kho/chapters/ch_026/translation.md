@@ -150,7 +150,7 @@ Trong sân nhỏ có môi trường yên tĩnh, trong phòng riêng đốt trầ
 
 Alex nheo mắt lại, hàng mi dài và dày khẽ rủ xuống, ánh mắt vô thức từ từ lướt lên theo đầu ngón tay trắng nõn, dọc theo cổ tay thon thả trượt đến đôi môi đỏ mọng của Hùng trùng, cùng với đôi mày mắt lạnh nhạt hoàn toàn không phù hợp với sắc đỏ đó, trong ánh mắt mang theo sự nghi hoặc, nhưng nhiều hơn cả, vẫn là sự tò mò,
 
-"Thuốc này thật sự có thể giúp anh thúc đẩy quá trình lột xác thứ cấp sớm hơn sao?"
+"Thuốc này thật sự có thể giúp cậu thúc đẩy quá trình lột xác thứ cấp sớm hơn sao?"
 
 “Anh nghĩ sao?” Sở Tư Thừa một tay chống cằm, nghe vậy liền nhướng mắt liếc Alex một cái.
 
@@ -172,9 +172,9 @@ Vì vậy, công dụng của viên nang này rất có thể không phải là 
 
 Lông mày khẽ nhíu lại, khi nhìn lại viên nang màu vàng trên mặt bàn, ánh mắt của Alex trở nên cảnh giác hơn.
 
-“Hay là anh đừng chơi nữa, vứt thẳng viên nang này đi.”
+“Hay là cậu đừng chơi nữa, vứt thẳng viên nang này đi.”
 
-Alex nói, thấy Sở Tư Thừa không có phản ứng gì, dừng một chút, rồi lại nói: “Hay là anh muốn làm lại một lần nữa, lấy đạo của trùng tộc mà trị lại thân của trùng tộc đó?”
+Alex nói, thấy Sở Tư Thừa không có phản ứng gì, dừng một chút, rồi lại nói: “Hay là cậu muốn làm lại một lần nữa, lấy đạo của trùng tộc mà trị lại thân của trùng tộc đó?”
 
 “Ừm...”
 
@@ -186,4 +186,4 @@ Bên trong lớp vỏ ngoài màu vàng kim, ẩn chứa là bột phấn cũng 
 
 Sở Tư Thừa chớp mắt hai cái, rồi giơ tay trực tiếp đổ bột phấn màu vàng kim bên trong viên nang vào ly rượu bên cạnh.
 
-“Anh đang làm gì vậy?” Alex không hiểu hành động của Sở Tư Thừa.
+“Cậu đang làm gì vậy?” Alex không hiểu hành động của Sở Tư Thừa.

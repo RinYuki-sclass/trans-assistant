@@ -1,5 +1,41 @@
 [
   {
+    "original": "[Ngôi 3 Tự sự] Sở Tư Thừa",
+    "translation": "anh",
+    "hanviet": "",
+    "category": "pronoun",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Sở Tư Thừa là nhân vật DUY NHẤT dùng 'anh' ở ngôi 3 trần thuật. Toàn bộ hành động khi nhập xác quy nhất về 'anh'."
+  },
+  {
+    "original": "[Ngôi 3 Tự sự] Thụ (Alex Sachsen / Thẩm Từ)",
+    "translation": "hắn",
+    "hanviet": "",
+    "category": "pronoun",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Alex và Thẩm Từ luôn dùng 'hắn' trong ngôi 3 trần thuật. Tuyệt đối KHÔNG dùng 'anh'."
+  },
+  {
+    "original": "[Xưng hô đối thoại] Thụ -> Công",
+    "translation": "Tôi - cậu",
+    "hanviet": "",
+    "category": "pronoun",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Alex và Thẩm Từ xưng 'tôi', gọi Sở Tư Thừa là 'cậu'. Tuyệt đối CẤM gọi Sở Tư Thừa là 'anh'."
+  },
+  {
+    "original": "[Xưng hô đối thoại] Công -> Thụ",
+    "translation": "Tôi - anh",
+    "hanviet": "",
+    "category": "pronoun",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Sở Tư Thừa xưng 'tôi', gọi Thụ là 'anh' / tên riêng / chức danh."
+  },
+  {
     "original": "[Ngôi 3] Sở Tư Thừa",
     "translation": "anh",
     "hanviet": "",

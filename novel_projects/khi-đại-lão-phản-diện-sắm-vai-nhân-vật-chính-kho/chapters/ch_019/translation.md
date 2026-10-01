@@ -14,11 +14,11 @@ Sở Tư Thừa thấy hắn mỉm cười với mình, rồi khẽ mở miệng
 
 "Chẳng phải vẫn còn có anh sao."
 
-Bởi vì có anh, cho nên tôi không hề lo lắng kế hoạch sẽ xảy ra ngoài ý muốn.
+Bởi vì có cậu, cho nên tôi không hề lo lắng kế hoạch sẽ xảy ra ngoài ý muốn.
 
 Tôi không cần phải bước đi thận trọng, dè dặt từng chút một, lo lắng mỗi bước đi của mình đều là sai lầm nữa, bởi vì vào khoảnh khắc giao dịch được thiết lập, tôi đã biết rằng, phía sau lưng mình không còn trống trải không một bóng trùng.
 
-"Lần này, anh sẽ giúp tôi, đúng không?" Alex nói.
+"Lần này, cậu sẽ giúp tôi, đúng không?" Alex nói.
 
 "..."
 
@@ -42,7 +42,7 @@ Alex chỉ vào gian phòng nơi Elio đang ở.
 
 Sở Tư Thừa vỗ tay, đứng dậy nói: “Chẳng phải còn một diễn viên chưa vào vị trí sao.”
 
-“Ý anh là,” Alex chớp chớp mắt, “Felo?”
+“Ý cậu là,” Alex chớp chớp mắt, “Felo?”
 
 “Cậu ta cũng sẽ đến?”
 

@@ -94,13 +94,13 @@ Con dao khắc trên tay anh bị thư trùng cẩn thận lấy đi, Sở Tư T
 
 "Để tôi làm."
 
-Sở Tư Thừa nghe Alex nói: "Kẻo lát nữa làm bẩn áo sơ mi của anh."
+Sở Tư Thừa nghe Alex nói: "Kẻo lát nữa làm bẩn áo sơ mi của cậu."
 
 Dù sao thì quần áo của hắn vừa bị nước hoa rẻ tiền làm vấy bẩn, hắn cũng không định giữ lại nữa, vậy bây giờ có thêm chút vết bẩn cũng không sao.
 
 Alex mím môi, ước lượng khoảng cách, lại vươn tay kéo Sở Tư Thừa lùi về sau một chút,
 
-"Anh lùi về sau thêm chút nữa, đâm trúng động mạch chủ rất dễ bắn máu ra ngoài đấy."
+"Cậu lùi về sau thêm chút nữa, đâm trúng động mạch chủ rất dễ bắn máu ra ngoài đấy."
 
 Sở Tư Thừa nghe vậy, vô thức nhướng mày.
 
@@ -142,7 +142,7 @@ Từ xưa đến nay, biết bao trùng tộc có năng lực mạnh mẽ đã c
 
 Cho nên, hắn chỉ cần biết ——
 
-"Ngày mai anh sẽ giết tôi sao?" Alex hỏi.
+"Ngày mai cậu sẽ giết tôi sao?" Alex hỏi.
 
 Sở Tư Thừa hơi sững lại, sau đó khẽ cười một tiếng, anh tựa lưng vào cánh cửa, toàn bộ trùng tộc được bao phủ dưới ánh đèn, dường như ngay cả trong nụ cười cũng có thêm một chút dịu dàng hiếm thấy.
 
