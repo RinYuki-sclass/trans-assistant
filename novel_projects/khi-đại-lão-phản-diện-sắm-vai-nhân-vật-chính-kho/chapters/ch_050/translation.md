@@ -74,7 +74,7 @@ Bởi lẽ cho dù là kiếp trước, hay là Tống Lạc An mà cậu ta nh�
 
 Cho dù Lệ Yến Trạch chẳng thèm cho cậu lấy một sắc mặt tốt, cậu vẫn giống như một vầng thái dương nhỏ vĩnh viễn xoay quanh đối phương, đánh không đi, đuổi không chạy, bất cứ ai cũng có thể nhìn ra cậu thích Lệ Yến Trạch một cách chân thành tha thiết.
 
-Nhưng hiện tại, Chu Lạc Lạc không tự chủ được mà dụi dụi mắt, khi nhìn lại chàng trai lần nữa, cậu ta vẫn chỉ đọc được sự thiếu kiên nhẫn và chế giễu từ trong ánh mắt của đối phương.
+Nhưng hiện tại, Chu Lạc Lạc không tự chủ được mà dụi dụi mắt, khi nhìn lại chàng trai lần nữa, gã vẫn chỉ đọc được sự thiếu kiên nhẫn và chế giễu từ trong ánh mắt của đối phương.
 
 Thiếu kiên nhẫn? Với Lệ Yến Trạch?
 
@@ -84,7 +84,7 @@ Tống Lạc An mà lại thấy thiếu kiên nhẫn với Lệ Yến Trạch s
 
 Thực ra không chỉ có Chu Lạc Lạc, ngay cả Lệ Yến Trạch cũng nghĩ như vậy.
 
-Trong dự tính của Lệ Yến Trạch, hôm nay hắn có thể dẫn theo Chu Lạc Lạc đến cúi đầu xin lỗi Tống Lạc An đã là nể mặt cậu lắm rồi, nếu đối phương biết điều thì nên ngoan ngoãn thuận theo bậc thang hắn đưa ra mà bước xuống.
+Trong dự tính của Lệ Yến Trạch, hôm nay hắn có thể dẫn theo Chu Lạc Lạc đến cúi đầu xin lỗi Tống Lạc An đã là nể mặt anh lắm rồi, nếu đối phương biết điều thì nên ngoan ngoãn thuận theo bậc thang hắn đưa ra mà bước xuống.
 
 Kết quả đối phương không những không xuống, mà còn tung một cước đá văng luôn cái bậc thang đó!
 
@@ -184,8 +184,8 @@ Anh nói: “Sao anh có thể cho được chứ, bởi vì tất cả những 
 
 Anh ta gây áp lực lên trường học, đưa người cha nghiện rượu của cậu ta từ quê nhà đến, chỉ vì Tống Lạc An bắt đầu phản kháng, không nghe lời, nên anh ta bắt đầu dùng những "chuyện nhỏ" mà anh ta cho là vậy để trừng phạt cậu ta.
 
-Đây chính là những gì Lệ Diễn Trạch làm ở giai đoạn sau của nguyên tác, cuối cùng dù có là "hỏa táng truy phu" cũng chỉ kết thúc bằng một câu "Tôi không cố ý, tôi chỉ là quá yêu anh, không muốn rời xa anh." một cách qua loa.
+Đây chính là những gì Lệ Yến Trạch làm ở giai đoạn sau của nguyên tác, cuối cùng dù có là "hỏa táng truy phu" cũng chỉ kết thúc bằng một câu "Tôi không cố ý, tôi chỉ là quá yêu anh, không muốn rời xa anh." một cách qua loa.
 
 Còn Tống Lạc An thì sao?
 
-Cú sốc bị đuổi học, bị người cha tồi tệ ôm chân khóc lóc xin tiền giữa đường, sự ngột ngạt và tuyệt vọng khi bị người qua đường chỉ trỏ, những ký ức này sẽ không biến mất chỉ vì cậu ta quay về bên Lệ Diễn Trạch.
+Cú sốc bị đuổi học, bị người cha tồi tệ ôm chân khóc lóc xin tiền giữa đường, sự ngột ngạt và tuyệt vọng khi bị người qua đường chỉ trỏ, những ký ức này sẽ không biến mất chỉ vì cậu ta quay về bên Lệ Yến Trạch.

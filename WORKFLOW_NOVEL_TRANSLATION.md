@@ -254,6 +254,7 @@ Hãy đối chiếu chi tiết từng câu của bản dịch với bản gốc 
    - Lỗi Mâu Thuẫn Diễn Biến (Timeline / State Conflict): Dịch sai ngữ cảnh, trái ngược với trạng thái nhân vật / thương tích / địa điểm được tóm tắt trong [memory/timeline_summary.md].
    - Lỗi Quy Ước: Sai lệch thuật ngữ so với các dòng đã Chốt=TRUE trong Google Sheet / Glossary.
    - Gợi ý Diễn Đạt: Câu văn thô, lạm dụng cấu trúc bị động (bị/được/bởi).
+   - ⚠️ QUY TẮC HẬU TỐ TIẾNG HÀN (BẤT DI BẤT DỊCH): Tuyệt đối KHÔNG bắt lỗi việc trans giữ hậu tố thân mật tiếng Hàn như `-ie`, `-ah`, `-yah` (ví dụ: `Yoohyun-ie`, `Yerim-ie`, `Yoojin-ie`, `Yoohyun-ah`, `Yerim-ah`, `Peace-ah`...). Chấp nhận cả ở lời thoại và văn trần thuật ngôi 3/độc thoại. CẤM gán nhãn các hậu tố này là "lỗi hành văn", "lạm dụng hậu tố", hay "thừa thãi".
    * Format bảng: [Đoạn số] | [Câu gốc KR/EN] | [Câu trans dịch] | [Vấn đề phát hiện] | [Đề xuất sửa tối thiểu (Minimal Patch)]
 
 3. DANH SÁCH THUẬT NGỮ & NHÂN VẬT MỚI:

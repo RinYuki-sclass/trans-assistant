@@ -1,0 +1,13 @@
+{
+  "title": "Phản Diện Truyện Ngược Đình Công Không Làm Nữa",
+  "author": "Trầm Từ_ (沉辞_)",
+  "description": "Ngược chủ văn, đúng như tên gọi, lấy việc nhân vật chính chịu đủ mọi đau khổ, giày vò và giãy giụa cầu sinh làm điểm nhấn. Mà trong loại truyện này, kẻ kéo nhiều thù hận nhất không ai khác chính là những nhân vật phản diện độc ác làm đủ điều xấu xa, ức hiếp nhân vật chính nhiều nhất.\n\nKết thúc của câu chuyện, nhân vật chính sau khi trải qua muôn trùng thử thách sẽ công thành danh toại, còn những phản diện nhảy nhót hăng hái nhất ở giai đoạn đầu sẽ phải đón nhận sự trả thù tàn nhẫn như cuồng phong bão táp, chết không có chỗ chôn.\n\nMột ngày nọ, thế giới phát sinh chấn động dữ dội, các phản diện trong truyện ngược chủ bỗng nhiên lệch khỏi quỹ đạo vốn có...\n\n\"Làm phản diện chịu chết thì có gì ngon, chi bằng làm bạn trai của nhân vật chính!\"\n\n- Thế giới 1 (Tinh tế): Thích Sơ (công) × Yến Kiêu (thụ)\n- Thế giới 2 (Giới giải trí): Chương Thừa Dư (công) × Ký Hoài (thụ)\n- Thế giới 3 (Thiếu gia thật giả): Ứng Tế Xuyên (công) × Du Diệp (thụ)\n\nTóm tắt một câu: Làm phản diện sao sướng bằng làm bạn trai nhân vật chính.\nLập ý: Tự cường bất khuất, chữa lành bóng tối.",
+  "slug": "phan-dien-truyen-nguoc-dinh-cong-khong-lam-nua",
+  "source_lang": "Chinese",
+  "target_lang": "Vietnamese",
+  "style_guide": "Đam mỹ, khoái xuyên đơn nguyên văn (mỗi thế giới là một cặp công thụ riêng biệt), chủ công, chữa lành, mỹ cường thảm, 1v1, HE.\n\nQUY TẮC BẮT BUỘC:\n1. Định dạng đoạn văn: Bắt buộc cách nhau đúng 1 dòng trống (\\n\\n) giữa các đoạn và lời thoại. Tuyệt đối không dính liền dòng (\\n).\n2. Dấu ngoặc thoại: Lời thoại dùng ngoặc kép chuẩn “...”, không dùng gạch ngang đầu câu (— ...).\n3. Ngôi 3 trần thuật (Tự sự):\n   - Nhân vật Công của mỗi thế giới: Luôn dùng 'anh' trong văn trần thuật ngôi 3.\n   - Nhân vật Thụ (nhân vật chính nguyên tác) của mỗi thế giới: Luôn dùng 'cậu' trong văn trần thuật ngôi 3 (tuyệt đối KHÔNG dùng 'anh' cho Thụ để tránh nhầm lẫn).\n4. Đối thoại Công - Thụ: Xưng hô rõ ràng, ăn khớp bối cảnh, tuyệt đối không xưng hô lộn xộn hoặc cả hai cùng gọi nhau là 'anh'.",
+  "confidence_threshold": 0.8,
+  "chunk_size": 20,
+  "created_at": "2026-10-02T15:53:00+07:00",
+  "chapters_count": 90
+}

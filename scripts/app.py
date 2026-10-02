@@ -10122,6 +10122,64 @@ if tabs.is_active(14):
             m = re.search(r'(\d+)', base)
             return m.group(1) if m else "1"
 
+        def _nw_render_side_by_side(raw_paras, vi_paras, height=520):
+            import html as _html
+            raw_len = len(raw_paras)
+            vi_len = len(vi_paras)
+            max_len = max(raw_len, vi_len)
+            if max_len == 0:
+                st.info("Chưa có nội dung để đối chiếu.")
+                return
+
+            rows = []
+            for idx in range(max_len):
+                r = raw_paras[idx] if idx < raw_len else None
+                v = vi_paras[idx] if idx < vi_len else None
+                line_num = idx + 1
+
+                if r is not None:
+                    r_cell = f'<span class="diff-num">[{line_num}]</span> {_html.escape(r)}'
+                    r_cls = ""
+                else:
+                    r_cell = f'<span class="diff-num">[-]</span> <span class="diff-missing">(Không có đoạn gốc tương ứng)</span>'
+                    r_cls = " diff-missing"
+
+                if v is not None:
+                    v_cell = f'<span class="diff-num">[{line_num}]</span> {_html.escape(v)}'
+                    v_cls = ""
+                else:
+                    v_cell = f'<span class="diff-num">[-]</span> <span class="diff-missing">(Thiếu đoạn dịch tương ứng)</span>'
+                    v_cls = " diff-missing"
+
+                rows.append(f'<tr><td class="{r_cls}">{r_cell}</td><td class="{v_cls}">{v_cell}</td></tr>')
+
+            table_body = "".join(rows)
+
+            css = (
+                "<style>"
+                ".diff-table { width: 100%; border-collapse: collapse; font-size: 0.88rem; line-height: 1.55; }"
+                ".diff-table th { position: sticky; top: 0; background-color: #1E293B; color: #F8FAFC; padding: 10px 14px; border-bottom: 2px solid #334155; text-align: left; font-weight: 600; z-index: 5; }"
+                ".diff-table td { padding: 8px 14px; vertical-align: top; border-bottom: 1px solid rgba(128, 128, 128, 0.2); width: 50%; word-break: break-word; }"
+                ".diff-table tr:nth-child(even) td { background-color: rgba(128, 128, 128, 0.04); }"
+                ".diff-table tr:hover td { background-color: rgba(79, 70, 229, 0.12) !important; }"
+                ".diff-num { font-weight: 700; color: #6366F1; margin-right: 6px; user-select: none; display: inline-block; min-width: 32px; }"
+                ".diff-missing { color: #DC2626 !important; font-style: italic; background-color: rgba(239, 68, 68, 0.08) !important; }"
+                "</style>"
+            )
+
+            html_code = (
+                css
+                + f'<div style="max-height:{height}px;overflow-y:auto;border:1px solid rgba(128,128,128,0.25);border-radius:8px;">'
+                + '<table class="diff-table">'
+                + '<thead><tr>'
+                + f'<th style="width:50%;">📖 Bản gốc ({raw_len} đoạn)</th>'
+                + f'<th style="width:50%;">🇻🇳 Bản dịch ({vi_len} đoạn)</th>'
+                + '</tr></thead>'
+                + f'<tbody>{table_body}</tbody>'
+                + '</table></div>'
+            )
+            st.markdown(html_code, unsafe_allow_html=True)
+
         char_mem_path = os.path.join(BASE_DIR, 'memory', 'characters.md')
         time_mem_path = os.path.join(BASE_DIR, 'memory', 'timeline_summary.md')
 
@@ -10141,11 +10199,11 @@ if tabs.is_active(14):
             # --- BƯỚC 1 ---
             st.markdown("#### 🔹 Bước 1: Nạp Raw & Đối Chiếu Bộ Nhớ Dài Hạn")
             in_files_1 = _nw_get_input_files('trans')
-            c_raw1, c_raw2 = st.columns([3, 1])
+            c_raw1, c_raw2 = st.columns([4, 1], vertical_alignment="bottom")
             with c_raw1:
                 sel_raw_1 = st.selectbox("Chọn file raw trong thư mục input/trans/:", in_files_1 or ["(Chưa có file trong input/trans/)"], key="nw_raw_sel_1")
             with c_raw2:
-                if st.button("🔄 Tải lại", key="nw_refresh_1"):
+                if st.button("🔄 Tải lại", key="nw_refresh_1", use_container_width=True, help="Quét lại thư mục input/trans để nạp lại danh sách file"):
                     st.rerun()
 
             # Tự động đồng bộ và reset các bước tiếp theo khi đổi file raw ở Bước 1
@@ -10429,11 +10487,14 @@ if tabs.is_active(14):
             # --- BƯỚC 1 (INTEGRATED TOOL & PRE-CHECK) ---
             st.markdown("#### 🔹 Bước 1: Nạp Bài & Kiểm Tra Độ Lệch Đoạn Bằng Tool")
             in_files_2 = _nw_get_input_files()
-            c2_1, c2_2 = st.columns(2)
+            c2_1, c2_2, c2_btn = st.columns([5, 5, 1.5], vertical_alignment="bottom")
             with c2_1:
                 sel_raw_2 = st.selectbox("1. Bản gốc (KR/EN):", in_files_2 or ["(Chưa có file raw)"], key="nw_raw_sel_2")
             with c2_2:
                 sel_vi_2 = st.selectbox("2. Bản dịch của Trans:", in_files_2 or ["(Chưa có file trans)"], key="nw_vi_sel_2")
+            with c2_btn:
+                if st.button("🔄 Tải lại", key="nw_refresh_2", use_container_width=True, help="Quét lại thư mục input để nạp lại danh sách file"):
+                    st.rerun()
 
             # Tự động đồng bộ và reset các bước tiếp theo khi đổi file ở Bước 1
             if "nw_prev_raw_2" not in st.session_state:
@@ -10500,24 +10561,14 @@ if tabs.is_active(14):
             if raw_p2_count > 0 and vi_p2_count > 0:
                 if raw_p2_count == vi_p2_count:
                     m3.metric("Khớp 1:1", "✅ Chuẩn 100%", "Không lệch đoạn")
+                    with st.expander("🔍 Xem bảng đối chiếu Side-by-Side (Khớp 100%)", expanded=False):
+                        _nw_render_side_by_side(raw_paras_2, vi_paras_2, height=520)
                 else:
-                    m3.metric("Khớp 1:1", f"⚠️ Lệch {abs(raw_p2_count - vi_p2_count)} đoạn", "Cần AI audit bắt sót", delta_color="inverse")
-                    with st.expander("🔍 Xem so sánh đối chiếu để tìm vị trí lệch đoạn", expanded=False):
-                        c_d1, c_d2 = st.columns(2)
-                        with c_d1:
-                            st.write("**5 đoạn đầu Bản gốc:**")
-                            for idx, p in enumerate(raw_paras_2[:5]):
-                                st.code(f"[{idx + 1}] {p}")
-                            st.write("**3 đoạn cuối Bản gốc:**")
-                            for idx, p in enumerate(raw_paras_2[-3:]):
-                                st.code(f"[{raw_p2_count - 3 + idx + 1}] {p}")
-                        with c_d2:
-                            st.write("**5 đoạn đầu Bản dịch:**")
-                            for idx, p in enumerate(vi_paras_2[:5]):
-                                st.code(f"[{idx + 1}] {p}")
-                            st.write("**3 đoạn cuối Bản dịch:**")
-                            for idx, p in enumerate(vi_paras_2[-3:]):
-                                st.code(f"[{vi_p2_count - 3 + idx + 1}] {p}")
+                    diff_cnt = abs(raw_p2_count - vi_p2_count)
+                    m3.metric("Khớp 1:1", f"⚠️ Lệch {diff_cnt} đoạn", "Cần đối chiếu tìm điểm lệch", delta_color="inverse")
+                    with st.expander(f"🔍 Bảng Đối Chiếu Từng Dòng Side-by-Side (Đang lệch {diff_cnt} đoạn)", expanded=True):
+                        st.caption(f"💡 Cuộn bảng bên dưới để đối chiếu từng dòng giữa Bản gốc (**{raw_p2_count}** đoạn) và Bản dịch (**{vi_p2_count}** đoạn) nhằm xác định chính xác đoạn bị gộp hoặc dịch sót.")
+                        _nw_render_side_by_side(raw_paras_2, vi_paras_2, height=520)
 
             with st.expander("👁️ Xem Bối Cảnh Lịch Sử & Xưng Hô (Memory)", expanded=False):
                 t_mem1, t_mem2 = st.tabs(["Hồ sơ nhân vật", "Dòng thời gian gần nhất"])
@@ -10552,6 +10603,7 @@ if tabs.is_active(14):
        - Lỗi Mâu Thuẫn Diễn Biến (Timeline / State Conflict): Dịch sai ngữ cảnh, trái ngược với trạng thái nhân vật / thương tích / địa điểm được tóm tắt trong [memory/timeline_summary.md].
        - Lỗi Quy Ước: Sai lệch thuật ngữ so với các dòng đã Chốt=TRUE trong Google Sheet / Glossary.
        - Gợi ý Diễn Đạt: Câu văn thô, lạm dụng cấu trúc bị động (bị/được/bởi).
+       - ⚠️ QUY TẮC HẬU TỐ TIẾNG HÀN (BẤT DI BẤT DỊCH): Tuyệt đối KHÔNG bắt lỗi việc trans giữ hậu tố thân mật tiếng Hàn như `-ie`, `-ah`, `-yah` (ví dụ: `Yoohyun-ie`, `Yerim-ie`, `Yoojin-ie`, `Peace-ie`, `Yoohyun-ah`, `Yerim-ah`, `Peace-ah`...). Chấp nhận cả ở lời thoại và văn trần thuật ngôi 3/độc thoại. CẤM gán nhãn các hậu tố này là "lỗi hành văn", "lạm dụng hậu tố", hay "thừa thãi".
        * Format bảng: [Đoạn số] | [Câu gốc KR/EN] | [Câu trans dịch] | [Vấn đề phát hiện] | [Đề xuất sửa tối thiểu (Minimal Patch)]
 
     3. DANH SÁCH THUẬT NGỮ & NHÂN VẬT MỚI:

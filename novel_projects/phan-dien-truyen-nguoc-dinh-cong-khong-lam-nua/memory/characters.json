@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Thích Sơ",
+    "hanviet_name": "Thích Sơ",
+    "original_name": "戚疏",
+    "pinyin": "Qī Shū",
+    "gender": "Nam",
+    "third_person_pronoun": "anh",
+    "role": "Công (Thế giới 1 - Tinh tế), thiếu gia thế gia cao quý, nguyên thân là phản diện",
+    "notes": "Quyết định đình công không ngược nhân vật chính, trở thành huấn luyện viên/bạn tập hỗ trợ Yến Kiêu phát triển thực lực và tinh thần lực. Là người DUY NHẤT ở TG1 dùng ngôi 3 trần thuật là 'anh'. Xưng 'tôi', gọi Yến Kiêu là 'cậu'."
+  },
+  {
+    "name": "Yến Kiêu",
+    "hanviet_name": "Yến Kiêu",
+    "original_name": "燕骁",
+    "pinyin": "Yān Xiāo",
+    "gender": "Nam",
+    "third_person_pronoun": "cậu",
+    "role": "Thụ (Thế giới 1 - Tinh tế), nhân vật chính nguyên tác, thiếu niên thiên tài",
+    "notes": "Xuất thân từ tinh cầu rác, tính tình u ám, thu mình, quật cường, mỹ cường thảm. Ngôi 3 trần thuật luôn dùng 'cậu' (tuyệt đối KHÔNG dùng 'anh'). Xưng 'tôi', gọi Thích Sơ là 'anh' / 'huấn luyện viên'."
+  },
+  {
+    "name": "Chương Thừa Dư",
+    "hanviet_name": "Chương Thừa Dư",
+    "original_name": "章乘予",
+    "pinyin": "Zhāng Chéngyǔ",
+    "gender": "Nam",
+    "third_person_pronoun": "anh",
+    "role": "Công (Thế giới 2 - Giới giải trí), phản diện giới tư bản/showbiz",
+    "notes": "Đình công không ức hiếp nghệ sĩ, quay xe bảo bọc và trở thành chỗ dựa vững chắc cho Ký Hoài. Ngôi 3 trần thuật dùng 'anh'."
+  },
+  {
+    "name": "Ký Hoài",
+    "hanviet_name": "Ký Hoài",
+    "original_name": "季淮",
+    "pinyin": "Jì Huái",
+    "gender": "Nam",
+    "third_person_pronoun": "cậu",
+    "role": "Thụ (Thế giới 2 - Giới giải trí), nhân vật chính tài năng bị bôi nhọ",
+    "notes": "Nghệ sĩ có tài nhưng chịu nhiều áp lực và âm mưu chèn ép, được Chương Thừa Dư chữa lành và hỗ trợ tỏa sáng. Ngôi 3 trần thuật dùng 'cậu'."
+  },
+  {
+    "name": "Ứng Tế Xuyên",
+    "hanviet_name": "Ứng Tế Xuyên",
+    "original_name": "应济川",
+    "pinyin": "Yìng Jìchuān",
+    "gender": "Nam",
+    "third_person_pronoun": "anh",
+    "role": "Công (Thế giới 3 - Hào môn thế gia), người thừa kế hào môn, phản diện nguyên tác",
+    "notes": "Đình công không tranh giành hay bức ép thiếu gia thật, đứng ra làm điểm tựa công lý cho Du Diệp. Ngôi 3 trần thuật dùng 'anh'."
+  },
+  {
+    "name": "Du Diệp",
+    "hanviet_name": "Du Diệp",
+    "original_name": "游叶",
+    "pinyin": "Yóu Yè",
+    "gender": "Nam",
+    "third_person_pronoun": "cậu",
+    "role": "Thụ (Thế giới 3 - Hào môn thế gia), thiếu gia thật bị ghẻ lạnh",
+    "notes": "Số phận trắc trở, bị hào môn gia tộc vùi dập; được Ứng Tế Xuyên che chở và yêu thương. Ngôi 3 trần thuật dùng 'cậu'."
+  },
+  {
+    "name": "Hệ thống",
+    "hanviet_name": "Hệ thống",
+    "original_name": "系统",
+    "pinyin": "Xìtǒng",
+    "gender": "Vô tính",
+    "third_person_pronoun": "nó",
+    "role": "Hệ thống cốt truyện / kịch bản",
+    "notes": "Theo dõi và giám sát hành vi của phản diện, luôn trong trạng thái hoang mang vì phản diện không làm đúng kịch bản ngược đãi."
+  },
+  {
+    "name": "Ngụy Tuyên",
+    "hanviet_name": "Ngụy Tuyên",
+    "original_name": "魏宣",
+    "pinyin": "Wèi Xuān",
+    "gender": "Nam",
+    "third_person_pronoun": "gã",
+    "role": "Nhân vật phụ (Thế giới 1), học viên thế gia bắt nạt Yến Kiêu, kiêng sợ Thích Sơ",
+    "notes": "Cầm đầu nhóm học viên bắt nạt Yến Kiêu. Gọi Thích Sơ là anh Thích (戚哥)."
+  },
+  {
+    "name": "Phùng Vũ",
+    "hanviet_name": "Phùng Vũ",
+    "original_name": "冯羽",
+    "pinyin": "Féng Yǔ",
+    "gender": "Nam",
+    "third_person_pronoun": "ông / Phùng Vũ",
+    "role": "Nhân vật phụ (Thế giới 1), Thượng tá quân bộ, giáo quan dạy môn thao tác cơ giáp",
+    "notes": "Nghiêm khắc, tinh thần lực cấp A+. Đánh giá rất cao bản lĩnh và tinh thần lực cấp S của Thích Sơ."
+  },
+  {
+    "name": "Vệ Minh",
+    "hanviet_name": "Vệ Minh",
+    "original_name": "卫明",
+    "pinyin": "Wèi Míng",
+    "gender": "Nam",
+    "third_person_pronoun": "ông / Hiệu trưởng Vệ Minh",
+    "role": "Nhân vật phụ (Thế giới 1), Hiệu trưởng Trường Quân sự Đệ nhất Trung tâm Tinh",
+    "notes": "Người từng ký duyệt đơn nhập học cho Yến Kiêu. Rất coi trọng sự kiện Yến Kiêu thăng cấp tinh thần lực."
+  },
+  {
+    "name": "Thích Nhiệm Thiện",
+    "hanviet_name": "Thích Nhiệm Thiện",
+    "original_name": "戚任善",
+    "pinyin": "Qī Rènshàn",
+    "gender": "Nam",
+    "third_person_pronoun": "ông / Thích Nhiệm Thiện",
+    "role": "Gia chủ đương nhiệm của Thích gia, cha của Thích Sơ",
+    "notes": "Lạnh lùng, tôn sùng lợi ích gia tộc là trên hết. Từng ép Thích Sơ đi xem mắt và toan nhắm vào Yến Kiêu, nhưng sau đó từ bỏ do thỏa thuận và email định giờ của Thích Sơ."
+  },
+  {
+    "name": "Caslian Voss",
+    "hanviet_name": "Ca-tư-lợi-an · Ốc-tư",
+    "original_name": "卡斯利安·沃斯",
+    "pinyin": "Kǎsīlìān · Wòsī",
+    "gender": "Nam",
+    "third_person_pronoun": "ngài / Caslian",
+    "role": "Đại hoàng tử / Trữ quân điện hạ (sau là Hoàng đế Đế quốc)",
+    "notes": "Tinh thần lực cấp S, từng tôi luyện trong quân đội, tính cách cương trực chính nghĩa. Đạt thành liên minh với Thích Sơ, về sau thuận lợi đăng cơ và ủng hộ hôn nhân của Thích Sơ - Yến Kiêu."
+  },
+  {
+    "name": "Ryan Voss",
+    "hanviet_name": "Lai-ân · Ốc-tư",
+    "original_name": "莱恩·沃斯",
+    "pinyin": "Láiēn · Wòsī",
+    "gender": "Nam",
+    "third_person_pronoun": "gã / Ryan",
+    "role": "Tam hoàng tử Đế quốc, phản diện hoàng tộc",
+    "notes": "Bề ngoài tỏ ra nhu nhược như chiếc bánh bao mềm vô hại, nhưng nội tâm âm u tàn bạo, mưu toan ám hại Nghị viên Esk để đổ oan cho Caslian nhằm cướp ngôi Trữ quân. Bị Thích Sơ vạch trần và Caslian triệt phá vây cánh."
+  },
+  {
+    "name": "Aude Ian",
+    "hanviet_name": "Áo-đức · Y-ân",
+    "original_name": "奥德·伊恩",
+    "pinyin": "Àodé · Yīēn",
+    "gender": "Nam",
+    "third_person_pronoun": "gã / Aude",
+    "role": "Tân binh tiền tuyến cấp S, bạn chiến đấu của Thích Sơ và Yến Kiêu",
+    "notes": "Mái tóc nâu hơi xoăn, tính tình cởi mở, tự nhiên như quen thân từ lâu, rất thích trêu chọc và trò chuyện, cùng Tạ Thanh Nhượng phối hợp tác chiến."
+  },
+  {
+    "name": "Tạ Thanh Nhượng",
+    "hanviet_name": "Tạ Thanh Nhượng",
+    "original_name": "谢清让",
+    "pinyin": "Xiè Qīngràng",
+    "gender": "Nam",
+    "third_person_pronoun": "cậu / Tạ Thanh Nhượng",
+    "role": "Tân binh tiền tuyến cấp S, bạn học của Aude Ian",
+    "notes": "Tính tình thanh lãnh, kiệm lời, hành động dứt khoát quyết liệt, đáng tin cậy trong chiến đấu."
+  }
+]

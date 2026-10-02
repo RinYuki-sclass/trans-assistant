@@ -34,15 +34,15 @@ Vẫn không hề đề cập đến việc hắn có qua đó hay không, dư�
 
 【Tôi vừa mới mở ra ngửi thử, là mùi cam.】
 
-Hết tin nhắn này đến tin nhắn khác, Sở Tư Thừa hoàn toàn không thèm quan tâm đến sống chết của Alex, chỉ một mực đưa ra nhận xét về loại thuốc mỡ trong ảnh.
+Hết tin nhắn này đến tin nhắn khác, Sở Tư Thừa hoàn toàn không thèm quan tâm đến sống chết của Thẩm Từ, chỉ một mực đưa ra nhận xét về loại thuốc mỡ trong ảnh.
 
-Anh giống như đã quên mất chuyện mình từng táo bạo mời Alex qua đây, hệt như một cậu sinh viên đơn thuần vô tri, tràn đầy sự tò mò mập mờ đối với tuýp thuốc mỡ trong tay.
+Anh giống như đã quên mất chuyện mình từng táo bạo mời Thẩm Từ qua đây, hệt như một cậu sinh viên đơn thuần vô tri, tràn đầy sự tò mò mập mờ đối với tuýp thuốc mỡ trong tay.
 
 Thật kỳ lạ.
 
-Trong những tin nhắn này, rõ ràng chàng trai kia không hề nhắc đến ý định sử dụng thuốc mỡ lấy một chữ, nhưng Alex lại cảm thấy xúc cảm trơn trượt mang theo hương cam quýt ấy dường như đã rơi xuống đầu ngón tay hắn...
+Trong những tin nhắn này, rõ ràng chàng trai kia không hề nhắc đến ý định sử dụng thuốc mỡ lấy một chữ, nhưng Thẩm Từ lại cảm thấy xúc cảm trơn trượt mang theo hương cam quýt ấy dường như đã rơi xuống đầu ngón tay hắn...
 
-Răng khẽ cắn môi dưới, Alex cử động ngón tay, rốt cuộc vẫn không nhịn được mà tham gia vào vở kịch độc diễn này của chàng trai,
+Răng khẽ cắn môi dưới, Thẩm Từ cử động ngón tay, rốt cuộc vẫn không nhịn được mà tham gia vào vở kịch độc diễn này của chàng trai,
 
 【Cậu đang câu tôi.】
 
@@ -56,11 +56,11 @@ Sở Tư Thừa nhìn bốn chữ người đàn ông vừa phản hồi, trên 
 
 Anh trả lời: 【Vậy anh cắn câu chưa?】
 
-Alex thẳng thắn.
+Thẩm Từ thẳng thắn.
 
 Sở Tư Thừa còn thẳng thắn hơn cả hắn.
 
-Cách một màn hình, Alex dường như nhìn thấy chàng trai đang đứng trần trụi trước mặt mình, trên khuôn mặt xinh đẹp treo nụ cười rạng rỡ, bên trong che giấu đầy ý xấu trêu chọc, ngay cả chiếc đuôi ác quỷ phía sau cũng không thèm che giấu mà đung đưa, dường như chắc chắn rằng cho dù hắn có nhìn thấy dáng vẻ tồi tệ của anh, cũng sẽ không lựa chọn rời đi.
+Cách một màn hình, Thẩm Từ dường như nhìn thấy chàng trai đang đứng trần trụi trước mặt mình, trên khuôn mặt xinh đẹp treo nụ cười rạng rỡ, bên trong che giấu đầy ý xấu trêu chọc, ngay cả chiếc đuôi ác quỷ phía sau cũng không thèm che giấu mà đung đưa, dường như chắc chắn rằng cho dù hắn có nhìn thấy dáng vẻ tồi tệ của anh, cũng sẽ không lựa chọn rời đi.
 
 Chàng trai trẻ dường như đã nắm thóp được anh.
 
@@ -68,17 +68,17 @@ Trên thương trường, hiện tượng này đối với một thương nhân
 
 Mối quan hệ này tiến triển đến mức này, đối với anh mà nói, dường như đã bắt đầu trở nên nguy hiểm.
 
-Sở Tư Thừa nghĩ thầm như vậy, nhưng cơ thể vẫn rời khỏi chiếc ghế văn phòng vốn tượng trưng cho công việc.
+Thẩm Từ nghĩ thầm như vậy, nhưng cơ thể vẫn rời khỏi chiếc ghế văn phòng vốn tượng trưng cho công việc.
 
 Bây giờ là bốn giờ sáu phút.
 
 Còn năm mươi bốn phút nữa mới đến giờ tan làm.
 
-Thế nhưng Sở Tư Thừa vẫn quyết định cho bản thân một kỳ nghỉ ngắn hạn.
+Thế nhưng Thẩm Từ vẫn quyết định cho bản thân một kỳ nghỉ ngắn hạn.
 
 Vậy nên, anh đã cắn câu rồi sao?
 
-Chiếc xe màu đen lao nhanh trên đường, Sở Tư Thừa nghịch chiếc điện thoại không một chút động tĩnh, trong đôi mắt màu mực dần dâng lên một tia hứng thú vốn không mấy khi xuất hiện ở anh.
+Chiếc xe màu đen lao nhanh trên đường, Thẩm Từ nghịch chiếc điện thoại không một chút động tĩnh, trong đôi mắt màu mực dần dâng lên một tia hứng thú vốn không mấy khi xuất hiện ở hắn.
 
 Có lẽ vì nhận được quá nhiều điều bất ngờ từ chàng trai kia, khiến anh không nhịn được mà muốn đoán xem bước tiếp theo đối phương sẽ làm gì.
 
@@ -124,19 +124,19 @@ Một ảo mộng chỉ cần chạm khẽ là tan biến.
 
 “Sao thế này?”
 
-Sở Tư Thừa nhìn沈辭 đang đứng lặng thinh trong thang máy, chỉ chăm chú nhìn chằm chằm vào mình, đầu lưỡi anh khẽ đẩy ra, mang theo viên kẹo màu cam ở trên đó.
+Sở Tư Thừa nhìn Thẩm Từ đang đứng lặng thinh trong thang máy, chỉ chăm chú nhìn chằm chằm vào mình, đầu lưỡi anh khẽ đẩy ra, mang theo viên kẹo màu cam ở trên đó.
 
 “Là kẹo.”
 
 Anh nói: “Yên tâm đi, tôi không có sở thích ăn uống bậy bạ đâu.”
 
-Sở Tư Thừa tưởng rằng沈辭 ngẩn người trong thang máy là do đối phương hiểu lầm mùi vị trong miệng anh là từ thuốc mỡ, nên mới đặc biệt giải thích một câu.
+Sở Tư Thừa tưởng rằng Thẩm Từ ngẩn người trong thang máy là do đối phương hiểu lầm mùi vị trong miệng anh là từ thuốc mỡ, nên mới đặc biệt giải thích một câu.
 
-沈辭 nghe vậy cũng không bày tỏ ý kiến gì, chỉ lặng lẽ liếc Sở Tư Thừa một cái, sau đó nhấc chân bước ra khỏi thang máy, đi về phía phòng 3601.
+Thẩm Từ nghe vậy cũng không bày tỏ ý kiến gì, chỉ lặng lẽ liếc Sở Tư Thừa một cái, sau đó nhấc chân bước ra khỏi thang máy, đi về phía phòng 3601.
 
 Trong mắt Sở Tư Thừa, chuyện viên kẹo đến đây là kết thúc rồi.
 
-Thế nhưng, ngay khi hai người vừa vào cửa, Sở Tư Thừa đi phía sau沈辭 vừa đóng cửa lại, thì ngay giây tiếp theo, anh đã bị沈辭 ở phía trước túm lấy vai, ấn mạnh lên cánh cửa.
+Thế nhưng, ngay khi hai người vừa vào cửa, Sở Tư Thừa đi phía sau Thẩm Từ vừa đóng cửa lại, thì ngay giây tiếp theo, anh đã bị Thẩm Từ ở phía trước túm lấy vai, ấn mạnh lên cánh cửa.
 
 “Cậu cũng sẽ lấy lòng những kim chủ trước đây của mình như thế này sao?!”
 
@@ -148,7 +148,7 @@ Cho nên, kẹo không phải là mấu chốt.
 
 Nụ hôn mới là.
 
-Dưới ánh đèn mờ ảo, Sở Tư Thừa khẽ rũ mắt, đối diện với ánh nhìn nghiêm túc và cố chấp của沈辭, không nhịn được mà khẽ cười thành tiếng.
+Dưới ánh đèn mờ ảo, Sở Tư Thừa khẽ rũ mắt, đối diện với ánh nhìn nghiêm túc và cố chấp của Thẩm Từ, không nhịn được mà khẽ cười thành tiếng.
 
 “Ông chủ.”
 

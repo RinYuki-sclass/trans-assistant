@@ -92,13 +92,13 @@ Tóm tắt một cách đơn giản, Tống Lạc An trong báo cáo là một n
 
 Thẩm Từ đặt tầm mắt lên dòng chữ cuối cùng của bản báo cáo ——
 
-“Anh ấy, anh ấy rất, rất thích Lệ Diễn Trạch……”
+“Anh ấy, anh ấy rất, rất thích Lệ Yến Trạch……”
 
 Vì vậy, ngay cả khi người đàn ông gặp tai nạn xe hơi, anh ta cũng không rời đi.
 
-Theo lời thám tử tư, khi Lệ Diễn Trạch mới gặp tai nạn xe hơi, anh ta đã trải qua một giai đoạn cuồng loạn tinh thần, bất kỳ ai tiếp cận anh ta đều bị anh ta tấn công ít nhiều, trong đó Tống Lạc An, người ngày nào cũng đến thăm và chăm sóc anh ta, là người bị thương nhiều nhất và nặng nhất.
+Theo lời thám tử tư, khi Lệ Yến Trạch mới gặp tai nạn xe hơi, hắn đã trải qua một giai đoạn cuồng loạn tinh thần, bất kỳ ai tiếp cận hắn đều bị hắn tấn công ít nhiều, trong đó Tống Lạc An, người ngày nào cũng đến thăm và chăm sóc hắn, là người bị thương nhiều nhất và nặng nhất.
 
-Nhưng ngay cả như vậy, Tống Lạc An cũng không bỏ cuộc, sau đó vì Lệ Diễn Trạch không thích người lạ chạm vào mình, anh ta còn tranh thủ thời gian đi học massage.
+Nhưng ngay cả như vậy, Tống Lạc An cũng không bỏ cuộc, sau đó vì Lệ Yến Trạch không thích người lạ chạm vào mình, hắn còn tranh thủ thời gian đi học massage.
 
 Thế nhưng, một người dường như si tình đến cực điểm trong báo cáo lại chủ động mời anh ta bao nuôi vào tối hôm đó, thậm chí còn nói có thể giảm giá…
 
@@ -110,7 +110,7 @@ Thế nhưng, một người dường như si tình đến cực điểm trong b
 
 Giọng nói tinh nghịch của chàng trai không ngừng vang vọng bên tai, như một câu thần chú không thể ngăn cản.
 
-Thẩm Từ rất rõ, nếu người con trai anh ta gặp đêm đó chính là người trong báo cáo, thì ngay khi anh ta bước ra khỏi phòng, não bộ sẽ tự động xóa sạch mọi dấu vết về đối phương.
+Thẩm Từ rất rõ, nếu người con trai hắn gặp đêm đó chính là người trong báo cáo, thì ngay khi hắn bước ra khỏi phòng, não bộ sẽ tự động xóa sạch mọi dấu vết về đối phương.
 
 Nhưng tiếc là, người con trai anh ta gặp không phải.
 
@@ -120,15 +120,15 @@ Thẩm Từ rũ mắt, kéo ngăn tủ ra lấy một hộp thuốc lá chưa m�
 
 Anh ta thường không hút thuốc.
 
-Dù là họp ở công ty mình hay ra ngoài gặp đối tác, mùi thuốc lá bám trên người luôn khiến hình ảnh của anh ta bị giảm giá trị ngay lập tức.
+Dù là họp ở công ty mình hay ra ngoài gặp đối tác, mùi thuốc lá bám trên người luôn khiến hình ảnh của hắn bị giảm giá trị ngay lập tức.
 
 Huống hồ nicotine trong thuốc lá còn làm tê liệt đại não con người, một khi đã dính vào thì sẽ có nguy cơ gây nghiện.
 
-Cho nên, anh không nên chạm vào, cũng không thể chạm vào.
+Cho nên, hắn không nên chạm vào, cũng không thể chạm vào.
 
-Làn khói xám nhạt nương theo đốm lửa đỏ cam chậm rãi bay lên, Sở Tư Thừa tựa lưng vào ghế, tay phải khẽ nâng, đôi mắt đen thẫm cứ thế lặng lẽ nhìn làn khói bay lên giữa không trung, rồi lan ra bốn phía.
+Làn khói xám nhạt nương theo đốm lửa đỏ cam chậm rãi bay lên, Thẩm Từ tựa lưng vào ghế, tay phải khẽ nâng, đôi mắt đen thẫm cứ thế lặng lẽ nhìn làn khói bay lên giữa không trung, rồi lan ra bốn phía.
 
-Khói bám lên người anh, cũng làm mờ đi đôi mắt đen sâu thẳm ấy.
+Khói bám lên người hắn, cũng làm mờ đi đôi mắt đen sâu thẳm ấy.
 
 Không được.
 
@@ -136,25 +136,25 @@ Không nên.
 
 Những cảm xúc vốn bị cưỡng ép đè nén đang phá đất mà ra bằng một cách khác, sinh trưởng điên cuồng.
 
-Đầu ngón tay khẽ run, Sở Tư Thừa đặt điếu thuốc chưa tắt vào chiếc gạt tàn mới tinh bên cạnh máy tính, sau đó giơ tay nhấn điện thoại nội bộ bên cạnh.
+Đầu ngón tay khẽ run, Thẩm Từ đặt điếu thuốc chưa tắt vào chiếc gạt tàn mới tinh bên cạnh máy tính, sau đó giơ tay nhấn điện thoại nội bộ bên cạnh.
 
 "Gia hạn phòng thêm một tuần nữa."
 
-Sở Tư Thừa nói xong, như sực nhớ ra điều gì lại bổ sung thêm một câu.
+Thẩm Từ nói xong, như sực nhớ ra điều gì lại bổ sung thêm một câu.
 
 "Chuẩn bị một chiếc điện thoại giống hệt cái của tôi gửi qua đó, sẵn tiện chuyển một triệu vào tài khoản của phòng bệnh VIP số 3 Tinh Vân, trích từ tài khoản cá nhân của tôi."
 
-"Vâng thưa Sở tổng, biên lai chuyển khoản có cần ẩn danh không ạ?"
+"Vâng thưa Thẩm tổng, biên lai chuyển khoản có cần ẩn danh không ạ?"
 
 "Đúng vậy."
 
-Đầu ngón tay gõ nhẹ lên mặt bàn, Sở Tư Thừa đăm đăm nhìn điếu thuốc đã cháy quá nửa, cuối cùng vẫn cầm lên rít một hơi.
+Đầu ngón tay gõ nhẹ lên mặt bàn, Thẩm Từ đăm đăm nhìn điếu thuốc đã cháy quá nửa, cuối cùng vẫn cầm lên rít một hơi.
 
-Làn khói xám nhạt chậm rãi phả ra từ khuôn miệng, Sở Tư Thừa thản nhiên nói: "Dặn bên phía khách sạn một tiếng, nếu người ở phòng 3601 muốn để lại số điện thoại, cứ đưa cho người đó là được."
+Làn khói xám nhạt chậm rãi phả ra từ khuôn miệng, Thẩm Từ thản nhiên nói: "Dặn bên phía khách sạn một tiếng, nếu người ở phòng 3601 muốn để lại số điện thoại, cứ đưa cho người đó là được."
 
 "... Vâng, thưa Thẩm tổng."
 
-Anh vẫn không thích trò đào góc tường, Thẩm Từ nghĩ.
+Hắn vẫn không thích trò đào góc tường, Thẩm Từ nghĩ.
 
 Nhưng chính cậu thiếu niên kia đã nói, Lệ Yến Trạch sẽ sớm không còn là người tình của cậu nữa.
 

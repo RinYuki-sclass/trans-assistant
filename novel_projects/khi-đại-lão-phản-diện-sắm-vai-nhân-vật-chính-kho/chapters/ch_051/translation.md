@@ -122,7 +122,7 @@ Thế nhưng, ngay khi anh vừa đứng thẳng người dậy chuẩn bị ra 
 
 "Việc này có liên quan gì đến anh sao?"
 
-Sở Tư Thừa rũ mắt, lạnh nhạt liếc nhìn Li Yaze một cái.
+Thẩm Từ rũ mắt, lạnh nhạt liếc nhìn Lệ Yến Trạch một cái.
 
 "Cho dù cậu ta ở bên tôi vì tiền thì đã sao? Tôi có tiền, cậu ta cần tiền, chẳng phải điều đó chứng minh hai chúng tôi rất xứng đôi sao."
 
@@ -130,31 +130,31 @@ Sở Tư Thừa rũ mắt, lạnh nhạt liếc nhìn Li Yaze một cái.
 
 Chương 39: Thế giới hào môn 10
 
-Sở Tư Thừa khẽ rũ mắt, vẻ mặt bình thản nhìn Li Yaze trước mặt.
+Thẩm Từ khẽ rũ mắt, vẻ mặt bình thản nhìn Lệ Yến Trạch trước mặt.
 
-Ánh mắt anh thực chất chẳng gợn chút sóng gió nào, giọng nói khi cất lời cũng nhẹ bẫng, nhưng chính vì thế lại càng khiến Li Yaze cảm nhận được sự sỉ nhục chưa từng có.
+Ánh mắt hắn thực chất chẳng gợn chút sóng gió nào, giọng nói khi cất lời cũng nhẹ bẫng, nhưng chính vì thế lại càng khiến Lệ Yến Trạch cảm nhận được sự sỉ nhục chưa từng có.
 
-Bởi vì câu nói kia của Sở Tư Thừa đã giẫm đúng vào điểm yếu chí mạng của hắn.
+Bởi vì câu nói kia của Thẩm Từ đã giẫm đúng vào điểm yếu chí mạng của hắn.
 
-So với Sở Tư Thừa, người vừa trưởng thành đã bắt đầu tiếp quản sự nghiệp gia tộc và chỉ trong vài năm ngắn ngủi đã một tay che trời tại tập đoàn họ Sở, thì Li Yaze tuy cũng tiếp quản tập đoàn họ Li, nhưng hắn chỉ là người nắm quyền trên danh nghĩa mà thôi, quyền quyết định thực sự của công ty vẫn nằm trong tay lão gia tử họ Li.
+So với Thẩm Từ, người vừa trưởng thành đã bắt đầu tiếp quản sự nghiệp gia tộc và chỉ trong vài năm ngắn ngủi đã một tay che trời tại tập đoàn họ Thẩm, thì Lệ Yến Trạch tuy cũng tiếp quản tập đoàn họ Lệ, nhưng hắn chỉ là người nắm quyền trên danh nghĩa mà thôi, quyền quyết định thực sự của công ty vẫn nằm trong tay lão gia tử họ Lệ.
 
-Lão gia tử cũng từng nói rõ, việc để Li Yaze tiếp quản công ty hiện tại không có nghĩa là người thừa kế cuối cùng của tập đoàn họ Li nhất định phải là hắn.
+Lão gia tử cũng từng nói rõ, việc để Lệ Yến Trạch tiếp quản công ty hiện tại không có nghĩa là người thừa kế cuối cùng của tập đoàn họ Lệ nhất định phải là hắn.
 
-Một khi Li Yaze làm ra chuyện gì bất lợi cho công ty, thì vị trí người thừa kế này có thể bị thay thế bởi bất kỳ người anh em họ nào của hắn bất cứ lúc nào.
+Một khi Lệ Yến Trạch làm ra chuyện gì bất lợi cho công ty, thì vị trí người thừa kế này có thể bị thay thế bởi bất kỳ người anh em họ nào của hắn bất cứ lúc nào.
 
-Trong nhà họ Li, tranh đấu ngầm không phải là một từ mang nghĩa xấu, ai nấy đều dốc hết sức lực để tạo ra thành tích nhằm thay thế vị trí của Li Yaze, vì vậy, so với Sở Tư Thừa, vị trí tổng tài của Li Yaze thực chất ngồi không hề vững vàng.
+Trong nhà họ Lệ, tranh đấu ngầm không phải là một từ mang nghĩa xấu, ai nấy đều dốc hết sức lực để tạo ra thành tích nhằm thay thế vị trí của Lệ Yến Trạch, vì vậy, so với Thẩm Từ, vị trí tổng tài của Lệ Yến Trạch thực chất ngồi không hề vững vàng.
 
 Điều này ở một mức độ nào đó quả thực đã ảnh hưởng đến khả năng chi tiêu của hắn, bởi vì rất nhiều lúc, hắn tiêu tiền đều phải thông qua tài khoản công ty.
 
-Đó là những hóa đơn mà rất nhiều người đang chằm chằm nhìn vào, chỉ cần sơ suất một chút thôi là sẽ trở thành vũ khí để kéo hắn xuống ngựa, cho nên so với Sở Tư Thừa, hắn quả thực không có nhiều tiền vốn để tùy ý sử dụng.
+Đó là những hóa đơn mà rất nhiều người đang chằm chằm nhìn vào, chỉ cần sơ suất một chút thôi là sẽ trở thành vũ khí để kéo hắn xuống ngựa, cho nên so với Thẩm Từ, hắn quả thực không có nhiều tiền vốn để tùy ý sử dụng.
 
 Thêm vào đó, đúng lúc này, theo một tiếng "ting" vang lên, cửa thang máy ở cuối hành lang chậm rãi mở ra sang hai bên, theo sau đó là người trợ lý xách túi lớn túi nhỏ bước ra, cùng với hàng chục vệ sĩ mặc đồ đen cũng xách đủ loại đồ đạc giống như anh ta ở phía sau.
 
 "Sở tổng!"
 
-Trợ lý vừa bước ra khỏi thang máy, khoảnh khắc nhìn thấy Lệ Yến Trạch, anh ta đã lập tức nhận ra đây có lẽ là một màn tranh giành "chim hoàng yến" đầy kịch tính.
+Trợ lý vừa bước ra khỏi thang máy, khoảnh khắc nhìn thấy Lệ Yến Trạch, hắn đã lập tức nhận ra đây có lẽ là một màn tranh giành "chim hoàng yến" đầy kịch tính.
 
-Dù sao thì trong quá trình giúp Thẩm Từ sắp xếp thám tử tư trước đó, anh ta cũng đã ít nhiều nắm được một vài thông tin về vị "ông Tống" ở phòng 3601.
+Dù sao thì trong quá trình giúp Thẩm Từ sắp xếp thám tử tư trước đó, hắn cũng đã ít nhiều nắm được một vài thông tin về vị "ông Tống" ở phòng 3601.
 
 Trong đó đương nhiên bao gồm cả việc đối phương từng được Lệ Yến Trạch bao nuôi.
 
@@ -162,7 +162,7 @@ Ai cũng biết, trong giới tổng tài bá đạo, việc từng bao nuôi c�
 
 Đối với các tổng tài bá đạo mà nói, đây quả thực là sự sỉ nhục chí mạng!
 
-Thế là, sau khi nhanh chóng làm rõ mối quan hệ của mấy người trước mặt, sắc mặt trợ lý nghiêm lại, anh ta siết chặt túi mua sắm trong tay, cứ như thể thứ bên trong không phải quần áo hay giày dép, mà là vũ khí mới nhất do tập đoàn Shen nghiên cứu nhằm vào nhà họ Li vậy. Vừa lao thẳng về phía phòng 3601, anh ta vừa không quên tăng âm lượng:
+Thế là, sau khi nhanh chóng làm rõ mối quan hệ của mấy người trước mặt, sắc mặt trợ lý nghiêm lại, anh ta siết chặt túi mua sắm trong tay, cứ như thể thứ bên trong không phải quần áo hay giày dép, mà là vũ khí mới nhất do tập đoàn Shen nghiên cứu nhằm vào nhà họ Lệ vậy. Vừa lao thẳng về phía phòng 3601, anh ta vừa không quên tăng âm lượng:
 
 "Tổng giám đốc Shen! Đây là quần áo và giày dép ngài bảo tôi mua cho ông Tống, tất nhiên, phụ kiện tôi cũng đã mua rồi, chỉ là chiếc đồng hồ ngài ưng ý hiện tại không có sẵn hàng, nên tôi đành lấy tạm chiếc hơn hai triệu tệ, mong ông Tống tạm thời dùng đỡ."
 
@@ -206,4 +206,4 @@ Lệ Yến Trạch nhìn chằm chằm vào chàng trai đang đứng cạnh Th�
 
 “Thẩm Từ,” hắn chậm rãi mở miệng, “anh có từng nghĩ tới, hôm nay cậu ta vì anh mà chọn phản bội tôi, thì một ngày nào đó trong tương lai, cậu ta cũng sẽ vì một người khác mà chọn phản bội anh.”
 
-Lệ Yến Trạch tưởng rằng mình nói như vậy, dù không khiến Thẩm Từ lập tức từ bỏ Tống Lạc An, nhưng ít nhất cũng có thể gieo xuống một mầm mống nghi kỵ trong lòng đối phương, thời thời khắc khắc nhắc nhở anh rằng chàng trai bên cạnh chính là một kẻ thấy tiền sáng mắt, một con sói mắt trắng vô ơn.
+Lệ Yến Trạch tưởng rằng mình nói như vậy, dù không khiến Thẩm Từ lập tức từ bỏ Tống Lạc An, nhưng ít nhất cũng có thể gieo xuống một mầm mống nghi kỵ trong lòng đối phương, thời thời khắc khắc nhắc nhở hắn rằng chàng trai bên cạnh chính là một kẻ thấy tiền sáng mắt, một con sói mắt trắng vô ơn.

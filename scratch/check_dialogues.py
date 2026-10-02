@@ -1,15 +1,22 @@
-import sys, os, re
+import os, re, json, sys
 sys.stdout.reconfigure(encoding='utf-8')
 
-base_dir = r'd:\Nhung\trans-tool\novel_projects\công-vai-chính-công\chapters'
+base = r'd:\Nhung\RIDI\trans-assistant\novel_projects\khi-đại-lão-phản-diện-sắm-vai-nhân-vật-chính-kho\chapters'
 
-for ch_num in range(109, 116):
-    ch_path = os.path.join(base_dir, f'ch_{ch_num}', 'translation.md')
-    with open(ch_path, 'r', encoding='utf-8') as f:
+for ch in range(53, 64):
+    ch_id = f'ch_{ch:03d}'
+    trans_file = os.path.join(base, ch_id, 'translation.md')
+    with open(trans_file, 'r', encoding='utf-8') as f:
         text = f.read()
-    
-    print(f"\n==================== CHAPTER {ch_num} ====================")
-    lines = text.split('\n')
-    for i, line in enumerate(lines):
-        if '“' in line or '”' in line:
-            print(f"L{i+1}: {line}")
+        
+    for bad in ['con thư trùng', 'con hùng trùng', 'con quân thư', 'con á thư', 'Phí Lạc', 'Khô Lâu', 'Thụy An']:
+        if bad.lower() in text.lower():
+            print(f'[{ch_id}] Found forbidden: {bad}')
+            
+    lines = text.split('\n\n')
+    for idx, l in enumerate(lines, 1):
+        if 'Thẩm Từ' in l and '“' in l:
+            dialogues = re.findall(r'“([^”]+)”', l)
+            for d in dialogues:
+                if re.search(r'\banh\b', d, re.IGNORECASE):
+                    print(f'[{ch_id}] L{idx} Thẩm Từ dialogue has "anh": {d}')

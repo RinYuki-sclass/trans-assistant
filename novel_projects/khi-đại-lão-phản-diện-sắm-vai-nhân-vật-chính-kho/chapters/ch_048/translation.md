@@ -88,29 +88,29 @@ Thẩm Từ vô thức cắn nhẹ môi dưới, hành động như khắc sâu 
 
 Bởi vì nỗi đau sẽ giúp con người giữ được sự tỉnh táo, cũng khiến con người trở nên lý trí hơn.
 
-Chỉ là lần này, trước khi Thẩm Từ kịp tỉnh táo hơn nữa, một bàn tay khô ráo đột ngột nắm lấy cằm anh, sau đó dùng lực nhẹ, ngay khoảnh khắc Thẩm Từ bị ép phải ngửa đầu lên, trên đôi môi suýt chút nữa đã rách da kia liền xuất hiện một vệt hương cam quýt mang theo hơi thở ấm áp.
+Chỉ là lần này, trước khi Thẩm Từ kịp tỉnh táo hơn nữa, một bàn tay khô ráo đột ngột nắm lấy cằm hắn, sau đó dùng lực nhẹ, ngay khoảnh khắc Thẩm Từ bị ép phải ngửa đầu lên, trên đôi môi suýt chút nữa đã rách da kia liền xuất hiện một vệt hương cam quýt mang theo hơi thở ấm áp.
 
 “Tôi chưa từng hôn Lệ Yến Trạch.”
 
-Sở Tư Thừa nghe thấy chàng trai nói: “Thực ra, ngoài anh ra, tôi cũng chưa từng hôn bất kỳ ai khác.”
+Thẩm Từ nghe thấy chàng trai nói: “Thực ra, ngoài anh ra, tôi cũng chưa từng hôn bất kỳ ai khác.”
 
-Sở Tư Thừa khẽ đưa đầu lưỡi ra, thay anh lau đi vết răng sâu hoắm kia, đồng thời cũng xoa dịu sự bất an trong lòng anh.
+Sở Tư Thừa khẽ đưa đầu lưỡi ra, thay Thẩm Từ liếm qua vết răng sâu hoắm kia, đồng thời cũng xoa dịu sự bất an trong lòng hắn.
 
 “Có thể yên tâm rồi chứ? Ông chủ.”
 
 Sở Tư Thừa nói: “Nếu vẫn chưa được, sau này nếu anh đổi ý, bên này sẽ không giảm giá nữa đâu đấy.”
 
-Sở Tư Thừa: “...Cậu chắc chắn là sau khi tôi rời đi rồi vẫn sẽ quay lại tìm cậu sao?”
+Thẩm Từ: “...Cậu chắc chắn là sau khi tôi rời đi rồi vẫn sẽ quay lại tìm cậu sao?”
 
 “Vậy thì phải xem anh rồi,”
 
-Sở Tư Thừa bước sang một bên nhường lối ra cửa, đoạn mỉm cười với anh,
+Sở Tư Thừa bước sang một bên nhường lối ra cửa, đoạn mỉm cười với Thẩm Từ,
 
 “Hay là anh rời đi thử xem?”
 
-Đôi mắt chàng trai cong cong, nụ cười sạch sẽ rạng rỡ, giọng điệu nhẹ nhàng tựa như chỉ đang đùa một câu vô thưởng vô phạt với anh mà thôi.
+Đôi mắt chàng trai cong cong, nụ cười sạch sẽ rạng rỡ, giọng điệu nhẹ nhàng tựa như chỉ đang đùa một câu vô thưởng vô phạt với Thẩm Từ mà thôi.
 
-Thế nhưng Sở Tư Thừa lại có cảm giác khó hiểu rằng, một khi anh bước chân ra khỏi căn phòng này, đừng nói đến chuyện giảm giá, ngay cả cơ hội tiếp cận chàng trai lần nữa cũng chẳng còn.
+Thế nhưng Thẩm Từ lại có cảm giác khó hiểu rằng, một khi hắn bước chân ra khỏi căn phòng này, đừng nói đến chuyện giảm giá, ngay cả cơ hội tiếp cận chàng trai lần nữa cũng chẳng còn.
 
 Cảm giác này đến thật kỳ quặc, cũng vô cùng phi lý.
 
@@ -122,7 +122,7 @@ Thế nhưng...
 
 Một nhân vật chính không cần ai làm nền, chỉ cần đứng đó thôi cũng đủ thu hút sự chú ý của tất cả mọi người...
 
-Ngón tay Sở Tư Thừa siết chặt rồi lại buông lỏng, cuối cùng vẫn không nhịn được đưa tay kéo người lại.
+Ngón tay Thẩm Từ siết chặt rồi lại buông lỏng, cuối cùng vẫn không nhịn được đưa tay kéo người lại.
 
 "Tốt nhất là anh đừng lừa tôi!" anh ta nói.
 
@@ -140,7 +140,7 @@ Trong đêm tối cực hạn, sự mập mờ như đóa hồng trên dây leo 
 
 Chỉ là đêm nay, không phải tâm trạng của tất cả mọi người đều tốt đẹp.
 
-Chiếc cốc sứ trắng vỡ tan trên sàn nhà màu nâu đen, theo đó là một giọt nước trà nóng hổi chảy ra, xung quanh một mớ hỗn độn, giống như tâm trạng tồi tệ đến cực điểm của Lệ Diễn Trạch lúc này.
+Chiếc cốc sứ trắng vỡ tan trên sàn nhà màu nâu đen, theo đó là một giọt nước trà nóng hổi chảy ra, xung quanh một mớ hỗn độn, giống như tâm trạng tồi tệ đến cực điểm của Lệ Yến Trạch lúc này.
 
 "Ý anh là, Tống Lạc An ra khỏi căn phòng đó, rồi từ thang máy đón Thẩm Từ, hai người cùng nhau quay lại 3601, đúng không?!"
 
@@ -150,7 +150,7 @@ Trong văn phòng, máy điều hòa chăm chỉ vận chuyển khí lạnh vào
 
 Đáng tiếc, hoàn toàn không có tác dụng.
 
-Lệ Diễn Trạch cố gắng hết sức để bản thân bình tĩnh lại, trong lòng không ngừng tự xây dựng tâm lý.
+Lệ Yến Trạch cố gắng hết sức để bản thân bình tĩnh lại, trong lòng không ngừng tự xây dựng tâm lý.
 
 Cậu ta chỉ là một người tình, một món đồ chơi mà thôi.
 
@@ -168,29 +168,29 @@ Chính là như vậy!
 
 Chỉ là...
 
-Ngón tay Lệ Diễn Trạch siết chặt rồi lại buông ra, lặp đi lặp lại vài lần, cuối cùng vẫn không nhịn được mà ném mạnh chiếc cốc nước bên tay xuống sàn nhà.
+Ngón tay Lệ Yến Trạch siết chặt rồi lại buông ra, lặp đi lặp lại vài lần, cuối cùng vẫn không nhịn được mà ném mạnh chiếc cốc nước bên tay xuống sàn nhà.
 
 "Cậu ta sao dám chứ!"
 
-Trong quan niệm của Lệ Diễn Trạch, chỉ có phần anh vứt bỏ Tống Lạc An, tuyệt đối không có giả thiết Tống Lạc An dám quay ngược lại vứt bỏ mình.
+Trong quan niệm của Lệ Yến Trạch, chỉ có phần anh vứt bỏ Tống Lạc An, tuyệt đối không có giả thiết Tống Lạc An dám quay ngược lại vứt bỏ mình.
 
 Từ đầu đến cuối anh đều cho rằng trong mối quan hệ của hai người, anh là kẻ ở vị trí chủ đạo, thế nên mới phẫn nộ đến vậy khi biết tin chàng trai kia phản bội mình.
 
 Không chỉ vì đoạn tình cảm mơ hồ anh dành cho Tống Lạc An, mà còn vì lòng tự trọng không cho phép bất kỳ ai trái ý mình.
 
-Đầu ngón tay khẽ động, Lệ Diễn Trạch cầm lấy điện thoại trên bàn làm việc, không hề suy nghĩ mà mở danh bạ, lướt xuống trang có chữ S.
+Đầu ngón tay khẽ động, Lệ Yến Trạch cầm lấy điện thoại trên bàn làm việc, không hề suy nghĩ mà mở danh bạ, lướt xuống trang có chữ S.
 
 Anh theo bản năng muốn chất vấn Tống Lạc An, chỉ là sau khi ngón tay nhấn vào số điện thoại, chưa đợi tiếng "tút" đầu tiên vang lên, anh đã trực tiếp cúp máy.
 
-Một phần là vì anh đột nhiên nhớ lại thái độ lạnh lùng của Tống Lạc An trong hai cuộc điện thoại trước đó, phần khác là vì tâm lý muốn trốn tránh theo bản năng của Lệ Diễn Trạch.
+Một phần là vì anh đột nhiên nhớ lại thái độ lạnh lùng của Tống Lạc An trong hai cuộc điện thoại trước đó, phần khác là vì tâm lý muốn trốn tránh theo bản năng của Lệ Yến Trạch.
 
-Giống như năm đó khi vừa mới gặp tai nạn xe hơi, anh đã trốn tránh thông báo rằng mình có lẽ sẽ vĩnh viễn không thể đứng dậy được nữa, Lệ Diễn Trạch không sẵn lòng chấp nhận, cũng không muốn trực tiếp đối mặt với sự thật rằng Tống Lạc An lại có thể hủy bỏ hợp đồng giữa hai người như thế, rồi không đợi được nữa mà lao vào vòng tay của một kim chủ tiếp theo.
+Giống như năm đó khi vừa mới gặp tai nạn xe hơi, anh đã trốn tránh thông báo rằng mình có lẽ sẽ vĩnh viễn không thể đứng dậy được nữa, Lệ Yến Trạch không sẵn lòng chấp nhận, cũng không muốn trực tiếp đối mặt với sự thật rằng Tống Lạc An lại có thể hủy bỏ hợp đồng giữa hai người như thế, rồi không đợi được nữa mà lao vào vòng tay của một kim chủ tiếp theo.
 
-Hơn nữa, vị kim chủ này lại còn là kẻ thù không đội trời chung mà Lệ Diễn Trạch ghét nhất trong giới —— Thẩm Từ.
+Hơn nữa, vị kim chủ này lại còn là kẻ thù không đội trời chung mà Lệ Yến Trạch ghét nhất trong giới —— Thẩm Từ.
 
-Lệ Diễn Trạch khẽ rũ mắt, trước mặt anh, màn hình điện thoại vì lâu không được chạm vào mà tắt ngóm.
+Lệ Yến Trạch khẽ rũ mắt, trước mặt anh, màn hình điện thoại vì lâu không được chạm vào mà tắt ngóm.
 
-Trên màn hình đen kịt phản chiếu rõ rệt vẻ mặt của Lệ Diễn Trạch lúc này.
+Trên màn hình đen kịt phản chiếu rõ rệt vẻ mặt của Lệ Yến Trạch lúc này.
 
 Điên cuồng, phẫn nộ, còn có một tia không cam lòng ẩn hiện.
 
@@ -202,6 +202,6 @@ Lý trí nói với anh rằng, vì một món đồ chơi mà tức giận đ�
 
 Nhưng cơ thể anh lại không khống chế được mà muốn lập tức lao đến trước mặt Tống Lạc An, chất vấn đối phương tại sao lại rẻ mạt như thế, vẫn còn ở bên cạnh anh mà đã nghĩ đến chuyện tìm người tiếp theo rồi?!
 
-Có một khoảnh khắc, Lệ Diễn Trạch thậm chí còn hơi nghi ngờ liệu có phải Tống Lạc An vì muốn trả thù mình nên mới đặc biệt chạy đi làm tình nhân của Thẩm Từ hay không.
+Có một khoảnh khắc, Lệ Yến Trạch thậm chí còn hơi nghi ngờ liệu có phải Tống Lạc An vì muốn trả thù mình nên mới đặc biệt chạy đi làm tình nhân của Thẩm Từ hay không.
 
 Dù sao thì thời gian qua, anh cũng thừa nhận bản thân quả thực vì chuyện của Lạc Lạc mà đã lạnh nhạt với cậu một thời gian dài.

@@ -182,17 +182,17 @@ Thẩm Từ trả lời rất dứt khoát, sau đó anh nghe thấy cậu ở �
 
 Cậu khẽ mở lời, tốc độ nói không nhanh, giọng điệu cũng rất dịu dàng, nhưng Thẩm Từ vẫn nghe ra được một chút ý vị xấu xa trong tông giọng bình thản ấy.
 
-Anh ta muốn mình tự đoán, hoặc là tự mình thừa nhận.
+Hắn muốn mình tự đoán, hoặc là tự mình thừa nhận.
 
-Sở Tư Thừa không nói gì, chỉ im lặng lắng nghe màn trình diễn của chàng trai,
+Thẩm Từ không nói gì, chỉ im lặng lắng nghe màn trình diễn của chàng trai,
 
 “Tôi chỉ là một sinh viên nghèo thôi, cũng chẳng quen biết nhiều người, anh giúp tôi nghĩ xem, ai lại là người tốt bụng nào đó hào phóng chuyển cho tôi cả triệu tệ vậy nhỉ?”
 
-Người tốt bụng Sở Tư Thừa khẽ động ngón tay, ký tên mình lên tập tài liệu vừa mở ra, mực đen thấm vào giấy trắng, rồi trong mắt người đàn ông từ từ lan ra.
+Người tốt bụng Thẩm Từ khẽ động ngón tay, ký tên mình lên tập tài liệu vừa mở ra, mực đen thấm vào giấy trắng, rồi trong mắt người đàn ông từ từ lan ra.
 
-“Anh tự biết mà.” Sở Tư Thừa chậm rãi khép tập tài liệu lại, không có ý định mắc câu,
+“Cậu tự biết mà.” Thẩm Từ chậm rãi khép tập tài liệu lại, không có ý định mắc câu,
 
-“Anh nghĩ là ai?”
+“Cậu nghĩ là ai?”
 
 “Chủ yếu là tôi không biết người mà tôi nghĩ đến có muốn tôi đặt chuyện tốt đẹp này lên đầu anh ta hay không.”
 
@@ -202,10 +202,10 @@ Giọng chàng trai nghe có vẻ hơi tủi thân,
 
 “Anh nói xem, anh ta có từ chối tôi lần thứ hai không?”
 
-Cây bút máy màu đen xoay tròn chậm rãi trong đầu ngón tay, Sở Tư Thừa vô thức liếm môi, trong lòng có một cảm giác khó tả đối với màn giằng co mà cả hai đều hiểu rõ này.
+Cây bút máy màu đen xoay tròn chậm rãi trong đầu ngón tay, Thẩm Từ vô thức liếm môi, trong lòng có một cảm giác khó tả đối với màn giằng co mà cả hai đều hiểu rõ này.
 
-Trong suốt hơn hai mươi năm cuộc đời, những người Sở Tư Thừa từng gặp, không một ai dám nói chuyện với anh như vậy, họ thà rằng ngay khi anh vừa mở lời đã dâng câu trả lời cho anh.
+Trong suốt hơn hai mươi năm cuộc đời, những người Thẩm Từ từng gặp, không một ai dám nói chuyện với hắn như vậy, họ thà rằng ngay khi hắn vừa mở lời đã dâng câu trả lời cho hắn.
 
-Không cần anh tốn tâm tư, thậm chí không cần động não.
+Không cần hắn tốn tâm tư, thậm chí không cần động não.
 
-Mọi người xung quanh anh đều sẽ không có hành động mập mờ về câu hỏi, thậm chí còn đẩy câu hỏi lại cho anh như chàng trai này, bởi vì trong thương trường, điều đó tương đương với việc tự tay đưa mình lên đoạn đầu đài.
+Mọi người xung quanh hắn đều sẽ không có hành động mập mờ về câu hỏi, thậm chí còn đẩy câu hỏi lại cho hắn như chàng trai này, bởi vì trong thương trường, điều đó tương đương với việc tự tay đưa mình lên đoạn đầu đài.

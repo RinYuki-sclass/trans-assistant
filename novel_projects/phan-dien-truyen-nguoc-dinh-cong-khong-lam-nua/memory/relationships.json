@@ -1,0 +1,35 @@
+[
+  {
+    "world": "Thế giới 1 (Tinh tế / Cơ giáp)",
+    "character_1": "Thích Sơ",
+    "character_2": "Yến Kiêu",
+    "relation_type": "Công - Thụ (Phản diện đình công × Nhân vật chính mỹ cường thảm)",
+    "description": "Thích Sơ từ kẻ ức hiếp trở thành giáo quan, bạn tập bảo bọc và nâng đỡ Yến Kiêu.",
+    "pronoun_rules": {
+      "thich_so_to_yen_kieu": "Tôi - Cậu / em / Yến Kiêu",
+      "yen_kieu_to_thich_so": "Tôi - Anh / huấn luyện viên / Thích Sơ"
+    }
+  },
+  {
+    "world": "Thế giới 2 (Giới giải trí / Đô thị)",
+    "character_1": "Chương Thừa Dư",
+    "character_2": "Ký Hoài",
+    "relation_type": "Công - Thụ (Phản diện tư bản × Nghệ sĩ tài năng)",
+    "description": "Chương Thừa Dư bảo hộ Ký Hoài thoát khỏi scandal và các quy tắc ngầm, cùng tạo dựng sự nghiệp và tình cảm ngọt ngào.",
+    "pronoun_rules": {
+      "chuong_thua_du_to_ky_hoai": "Tôi - Cậu / em / Ký Hoài",
+      "ky_hoai_to_chuong_thua_du": "Tôi - Anh / Chương Thừa Dư"
+    }
+  },
+  {
+    "world": "Thế giới 3 (Hào môn / Thiếu gia thật giả)",
+    "character_1": "Ứng Tế Xuyên",
+    "character_2": "Du Diệp",
+    "relation_type": "Công - Thụ (Thiếu gia quyền lực × Thiếu gia bị thất lạc/ghẻ lạnh)",
+    "description": "Ứng Tế Xuyên vạch trần bất công, bảo vệ Du Diệp khỏi mưu mô hãm hại của gia tộc và trở thành chốn dừng chân bình yên cho cậu.",
+    "pronoun_rules": {
+      "ung_te_xuyen_to_du_diep": "Tôi - Cậu / em / Du Diệp",
+      "du_diep_to_ung_te_xuyen": "Tôi - Anh / Ứng Tế Xuyên"
+    }
+  }
+]
