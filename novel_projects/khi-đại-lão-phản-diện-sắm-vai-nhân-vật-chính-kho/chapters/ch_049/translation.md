@@ -68,7 +68,7 @@ Nếu hỏi tại sao, thì chính là vì lòng hiếu thắng chết tiệt c�
 
 Hắn không cho phép bản thân thua, càng không cho phép mình thua dưới tay Thẩm Từ.
 
-Thế là, khi Chu Lạc Lạc còn chưa kịp phản ứng, cậu đã đi theo sau Lệ Yến Trạch, quay trở lại trước cánh cửa màu xám quen thuộc kia.
+Thế là, khi Chu Lạc Lạc còn chưa kịp phản ứng, gã đã đi theo sau Lệ Yến Trạch, quay trở lại trước cánh cửa màu xám quen thuộc kia.
 
 "3601?"
 
@@ -124,9 +124,9 @@ Thế nhưng anh càng không muốn nói, Sở Tư Thừa lại càng muốn tr
 
 "Hửm? Ông chủ, sao anh không nói gì, vừa nãy làm sao vậy ạ?"
 
-Anh hơi cúi người, mang theo mùi quýt thoang thoảng ấy tiến lại gần Alex đang ở trong bồn tắm, bàn tay chìm trong nước vốn đang bị hắn nắm lấy cũng lật ngược lại, từng chút từng chút một luồn vào kẽ tay hắn, chậm chạp vô cùng, gần như y hệt động tác khi anh dày vò hắn vừa rồi.
+Anh hơi cúi người, mang theo mùi quýt thoang thoảng ấy tiến lại gần Thẩm Từ đang ở trong bồn tắm, bàn tay chìm trong nước vốn đang bị hắn nắm lấy cũng lật ngược lại, từng chút từng chút một luồn vào kẽ tay hắn, chậm chạp vô cùng, gần như y hệt động tác khi anh dày vò hắn vừa rồi.
 
-Khiến cho Alex không tự chủ được mà nhớ lại việc anh đã khiến hắn cảm nhận một cách rõ ràng và triệt để rằng bản thân đã tiếp nhận đối phương như thế nào.
+Khiến cho Thẩm Từ không tự chủ được mà nhớ lại việc anh đã khiến hắn cảm nhận một cách rõ ràng và triệt để rằng bản thân đã tiếp nhận đối phương như thế nào.
 
 Chậm rãi và ái muội.
 
@@ -134,23 +134,23 @@ Căng đầy và ê ẩm.
 
 Tệ hại đến cực điểm nhưng lại khiến người ta không kìm lòng được mà nghiện, giống như hắn lúc này vậy.
 
-"Cậu..." Alex lại không nhịn được mà muốn cắn môi.
+"Cậu..." Thẩm Từ lại không nhịn được mà muốn cắn môi.
 
 Chỉ có điều lần này, trước khi hắn kịp dùng lực, một ngón tay mang theo hơi nước đã nhanh hơn một bước chen vào giữa đôi môi hắn.
 
 "Cắn tôi đi."
 
-Alex nghe thấy anh nói: "Đừng dày vò bản thân."
+Thẩm Từ nghe thấy anh nói: "Đừng dày vò bản thân."
 
 "Tôi biết mà..."
 
-Sở Tư Thừa mơn trớn đôi môi đỏ mọng sưng tấy của Alex vài cái,
+Sở Tư Thừa mơn trớn đôi môi đỏ mọng sưng tấy của Thẩm Từ vài cái,
 
 "Ông chủ là đang cảm thấy vừa rồi cứ luôn là anh hầu hạ tôi, nên trong lòng thấy không cân bằng có phải không?"
 
 "..."
 
-Alex không nói gì, chỉ lẳng lặng cảm nhận ngón tay trong khoang miệng đang khều nhẹ đầu lưỡi mình như thế nào, khám phá từng ngóc ngách bên trong khuôn miệng hắn, giống như cách anh đã tỉ mỉ làm hắn mềm nhũn ra trước đó.
+Thẩm Từ không nói gì, chỉ lẳng lặng cảm nhận ngón tay trong khoang miệng đang khều nhẹ đầu lưỡi mình như thế nào, khám phá từng ngóc ngách bên trong khuôn miệng hắn, giống như cách anh đã tỉ mỉ làm hắn mềm nhũn ra trước đó.
 
 “Không sao đâu.”
 

@@ -1,14 +1,14 @@
 ---
-title: Khi Đại Lão Phản Diện Sắm Vai Nhân Vật Chính [Khoái Xuyên] — Chương 52: 第52頁
+title: Khi Đại Lão Phản Diện Sắm Vai Nhân Vật Chính [Khoái Xuyên] — Chương 52
 ---
 
-Thế nhưng Sở Tư Thừa nghe vậy, ngay cả lông mày cũng chẳng nhíu lấy một cái, chỉ thản nhiên nói một câu:
+Thế nhưng Thẩm Từ nghe vậy, ngay cả lông mày cũng chẳng nhíu lấy một cái, chỉ thản nhiên nói một câu:
 
 “Chỉ có kẻ yếu mới lo lắng về tương lai.”
 
-Tại sao anh phải vì những chuyện chưa xảy ra mà lo lắng việc cậu sau này có rời bỏ mình hay không.
+Tại sao hắn phải vì những chuyện chưa xảy ra mà lo lắng việc chàng trai sau này có rời bỏ mình hay không.
 
-Chưa nói đến việc mối quan hệ giữa hai người vẫn chưa đến mức phải bàn luận những chuyện đó, cho dù có đến mức ấy, thì Sở Tư Thừa cũng có đủ tiền bạc để khiến cậu từ bỏ ý định rời xa anh.
+Chưa nói đến việc mối quan hệ giữa hai người vẫn chưa đến mức phải bàn luận những chuyện đó, cho dù có đến mức ấy, thì Thẩm Từ cũng có đủ tiền bạc để khiến đối phương từ bỏ ý định rời xa hắn.
 
 Huống hồ,
 
@@ -20,11 +20,11 @@ Hắn có chút nghẹn lời, may mà đúng lúc này, Chu Lạc Lạc tâm l�
 
 “Là em cầu xin anh Trạch đến đây, em muốn xin lỗi Lạc An vì chuyện trước kia.”
 
-Nói đoạn, Chu Lạc Lạc rưng rưng nước mắt nhìn về phía Sở Tư Thừa, sau đó lặp lại những lời trà xanh mà mình vừa nói trước mặt Lệ Yến Trạch một lần nữa ngay trước mặt Sở Tư Thừa:
+Nói đoạn, Chu Lạc Lạc rưng rưng nước mắt nhìn về phía Sở Tư Thừa, sau đó lặp lại những lời trà xanh mà mình vừa nói trước mặt Lệ Yến Trạch một lần nữa ngay trước mặt Thẩm Từ:
 
 “…… Quả thực em không nên can thiệp, dù sao Lạc An cũng đã chăm sóc anh Trạch lâu như vậy, chắc chắn hiểu rõ khẩu vị của anh Trạch hơn em, là em sai rồi……”
 
-Chu Lạc Lạc chớp chớp mắt nhìn chằm chằm Sở Tư Thừa, nhìn một giọt nước mắt trong veo lăn dài từ khóe mắt xuống, khi cất tiếng lần nữa, giọng nói của cậu ta đã mang theo tiếng nức nở, tựa như đã hạ mình đến mức cực điểm:
+Chu Lạc Lạc chớp chớp mắt nhìn chằm chằm Sở Tư Thừa, nhìn một giọt nước mắt trong veo lăn dài từ khóe mắt xuống, khi cất tiếng lần nữa, giọng nói của gã đã mang theo tiếng nức nở, tựa như đã hạ mình đến mức cực điểm:
 
 “Lạc An, thật sự xin lỗi, cậu tha thứ cho tôi có được không.”
 
@@ -32,7 +32,7 @@ Nếu chỉ nhìn từ bề ngoài, Chu Lạc Lạc dường như đang chân th
 
 Nhưng thực tế, ngay lúc cậu ta vừa khóc vừa cầu xin Sở Tư Thừa tha thứ, gần như cùng một thời điểm, tất cả mọi người có mặt ở đó đều nghe thấy một giọng nói khác rất giống với giọng của cậu ta,
 
-【Không sao đâu Chu Lạc Lạc, chỉ cần Lạc An hết giận, quay về bên cạnh Trạch ca là được, cậu chịu chút ấm ức cũng không sao, tuyệt đối không được nói chuyện Lạc An đêm đó dùng nước nóng tạt vào người mình, anh ấy chắc chắn không cố ý, chỉ là quá tức giận thôi, nhất định là vậy mà!】
+【Không sao đâu Chu Lạc Lạc, chỉ cần Lạc An hết giận, quay về bên cạnh Trạch ca là được, mình chịu chút ấm ức cũng không sao, tuyệt đối không được nói chuyện Lạc An đêm đó dùng nước nóng tạt vào người mình, cậu ấy chắc chắn không cố ý, chỉ là quá tức giận thôi, nhất định là vậy mà!】
 
 【Vì vậy bây giờ cậu chỉ cần thừa nhận sai lầm của mình, giúp Trạch ca níu kéo Lạc An là được rồi!】
 
@@ -40,29 +40,29 @@ Nhưng thực tế, ngay lúc cậu ta vừa khóc vừa cầu xin Sở Tư Th�
 
 Giọng nói ủy khuất, kết hợp với lời lẽ thánh mẫu cộng thêm ngây thơ, có thể nói là đã khiến hầu hết mọi người có mặt ở đó biến sắc.
 
-Có người vì lần đầu nghe thấy tiếng lòng của Chu Lạc Lạc nên không dám tin, còn tưởng mình bị ảo giác, có người thì như Lệ Diễn Trạch đã nghe nhiều lần, ánh mắt nhìn Chu Lạc Lạc không còn kinh ngạc như trợ lý của anh, mà tràn đầy đồng cảm.
+Có người vì lần đầu nghe thấy tiếng lòng của Chu Lạc Lạc nên không dám tin, còn tưởng mình bị ảo giác, có người thì như Lệ Yến Trạch đã nghe nhiều lần, ánh mắt nhìn Chu Lạc Lạc không còn kinh ngạc như trợ lý của hắn, mà tràn đầy đồng cảm.
 
-Chịu nhiều uất ức như vậy, còn có thể vì Lệ Diễn Trạch mà xin lỗi kẻ bạo hành Chu Lạc Lạc, thật sự quá đáng thương.
+Chịu nhiều uất ức như vậy, còn có thể vì Lệ Yến Trạch mà xin lỗi kẻ bạo hành Chu Lạc Lạc, thật sự quá đáng thương.
 
 Họ sẽ không nghi ngờ những gì Chu Lạc Lạc vừa bộc phát trong lòng là lời nói dối.
 
 Dù sao thì miệng lưỡi có thể nói dối, nhưng biểu đạt từ nội tâm tuyệt đối sẽ không lừa người.
 
-Trong khoảnh khắc, ánh mắt của những vệ sĩ phía sau Lệ Diễn Trạch, bao gồm cả bản thân anh ta, đều mang theo một chút bất mãn nhìn về phía Sở Tư Thừa.
+Trong khoảnh khắc, ánh mắt của những vệ sĩ phía sau Lệ Yến Trạch, bao gồm cả bản thân hắn, đều mang theo một chút bất mãn nhìn về phía Sở Tư Thừa.
 
 Như thể đang trách móc anh ta đã dồn ép người ta đến mức này, còn muốn thế nào nữa?!
 
-Lệ Diễn Trạch càng cảm thấy trước đây mình đã quá nuông chiều Tống Lạc An, mới khiến cậu ta trở nên kiêu ngạo như bây giờ.
+Lệ Yến Trạch càng cảm thấy trước đây mình đã quá nuông chiều Tống Lạc An, mới khiến cậu ta trở nên kiêu ngạo như bây giờ.
 
 Ngay cả đội vệ sĩ bên cạnh trợ lý, trong tiếng lòng không ngừng của Chu Lạc Lạc, cũng bắt đầu cúi đầu thì thầm, thỉnh thoảng ngẩng đầu nhìn Sở Tư Thừa với ánh mắt đầy khác lạ, như thể không dám tin ông chủ nhà mình lần đầu bao nuôi chim hoàng yến lại bao nuôi một kẻ có phẩm hạnh tồi tệ như vậy.
 
 Ánh mắt ông chủ nhà mình có vẻ không tốt lắm nhỉ…
 
-Cục diện trước mắt dưới tiếng lòng của Chu Lạc Lạc, dường như lại đón nhận một bước ngoặt mới, nhưng ưu thế không nằm ở Sở Tư Thừa, cũng không nằm ở Lệ Diễn Trạch, mà nằm ở Chu Lạc Lạc đang mờ mịt nước mắt, vẫn đang không ngừng cầu xin Sở Tư Thừa tha thứ.
+Cục diện trước mắt dưới tiếng lòng của Chu Lạc Lạc, dường như lại đón nhận một bước ngoặt mới, nhưng ưu thế không nằm ở Sở Tư Thừa, cũng không nằm ở Lệ Yến Trạch, mà nằm ở Chu Lạc Lạc đang mờ mịt nước mắt, vẫn đang không ngừng cầu xin Sở Tư Thừa tha thứ.
 
 “Ngài Tống, theo tôi thấy, ngài nên tha thứ cho cậu Chu đi ạ,”
 
-Một vệ sĩ đứng sau lưng Lệ Diễn Trạch không nhịn được lên tiếng: “Cậu ấy cũng đâu có làm gì sai…”
+Một vệ sĩ đứng sau lưng Lệ Yến Trạch không nhịn được lên tiếng: “Cậu ấy cũng đâu có làm gì sai…”
 
 Ngay khi câu nói này vừa dứt, ở nơi không ai nhìn thấy, Chu Lạc Lạc đang cúi đầu lập tức khẽ nhếch môi một cách khó lòng phát hiện.
 
@@ -70,7 +70,7 @@ Xem kìa, cậu ta đã bảo mà, không một ai sau khi nghe thấy tiếng l
 
 Bởi vì chẳng ai ngờ được tiếng lòng cũng có thể là lời nói dối, giống như trước đây họ cũng không thể ngờ rằng có một ngày, mình lại có thể nghe được tiếng lòng của người khác.
 
-Nhìn thấy vệ sĩ bên cạnh bắt đầu ủng hộ mình, Lệ Diễn Trạch cũng quay đầu lại vỗ nhẹ lên mu bàn tay cậu ta với ánh mắt xót xa, thậm chí ngay cả Thẩm Từ – người vốn đã quyết tâm đứng về phía Sở Tư Thừa – cũng cúi đầu im lặng, Chu Lạc Lạc ngước mắt đắc ý liếc nhìn Sở Tư Thừa một cái.
+Nhìn thấy vệ sĩ bên cạnh bắt đầu ủng hộ mình, Lệ Yến Trạch cũng quay đầu lại vỗ nhẹ lên mu bàn tay gã với ánh mắt xót xa, thậm chí ngay cả Thẩm Từ – người vốn đã quyết tâm đứng về phía Sở Tư Thừa – cũng cúi đầu im lặng, Chu Lạc Lạc ngước mắt đắc ý liếc nhìn Sở Tư Thừa một cái.
 
 Cho nên mới nói, biết quyến rũ người khác thì có ích gì chứ?
 
@@ -78,7 +78,7 @@ Dưới tác động từ tiếng lòng của cậu ta, tuyệt đối sẽ khô
 
 Cậu ta muốn đối phương phải chịu cảnh chúng bạn xa lánh, mất đi tất cả, giống hệt như cậu ta ở kiếp trước!
 
-Chu Lạc Lạc quyết tâm phải bôi nhọ Sở Tư Thừa trước mặt Thẩm Từ, giống như những gì cậu ta từng làm bên cạnh Lệ Diễn Trạch, muốn nhìn thấy dáng vẻ tuyệt vọng của chàng trai khi lắp bắp giải thích mà vẫn không một ai tin tưởng thêm lần nữa.
+Chu Lạc Lạc quyết tâm phải bôi nhọ Sở Tư Thừa trước mặt Thẩm Từ, giống như những gì gã từng làm bên cạnh Lệ Yến Trạch, muốn nhìn thấy dáng vẻ tuyệt vọng của chàng trai khi lắp bắp giải thích mà vẫn không một ai tin tưởng thêm lần nữa.
 
 Thế nhưng lần này, điều khiến cậu ta không ngờ tới là, Sở Tư Thừa không hề vội vàng giải thích như thường lệ dưới sự buộc tội từ tiếng lòng của cậu ta, mà chỉ nhẹ nhàng vỗ lên vai Thẩm Từ.
 
@@ -134,7 +134,7 @@ Chu Lạc Lạc lúc này bị bỏng đến mức căn bản không thể phát
 
 Huống hồ lần trước cậu ta vốn chẳng hề bị bỏng, lấy đâu ra ví dụ để so sánh.
 
-Chu Lạc Lạc được vệ sĩ dìu mới miễn cưỡng đứng vững, cậu ta đi sang căn phòng bên cạnh mà Lệ Yến Trạch dùng để giám sát 3601 để xối nước rửa vết thương. Đừng nói đến chuyện nấu một ấm trà cho người anh Trạch yêu dấu của mình uống cho thư thái, những tiếng gào thét thỉnh thoảng lại vang lên, kết hợp với đủ loại lời chửi rủa cần phải làm mờ, khiến những người xung quanh chỉ muốn cắt phăng đôi tai mình đi, chôn xuống đất rồi giẫm lên vài cái, cho đến khi thực sự không còn nghe thấy những lời lẽ bẩn thỉu đó nữa mới thôi.
+Chu Lạc Lạc được vệ sĩ dìu mới miễn cưỡng đứng vững, gã đi sang căn phòng bên cạnh mà Lệ Yến Trạch dùng để giám sát 3601 để xối nước rửa vết thương. Đừng nói đến chuyện nấu một ấm trà cho người anh Trạch yêu dấu của mình uống cho thư thái, những tiếng gào thét thỉnh thoảng lại vang lên, kết hợp với đủ loại lời chửi rủa cần phải làm mờ, khiến những người xung quanh chỉ muốn cắt phăng đôi tai mình đi, chôn xuống đất rồi giẫm lên vài cái, cho đến khi thực sự không còn nghe thấy những lời lẽ bẩn thỉu đó nữa mới thôi.
 
 Lệ Yến Trạch không nhịn được mà nhíu mày, như thể đây là lần đầu tiên hắn nhận ra "ánh trăng sáng" vốn luôn hào phóng, lễ độ, thỉnh thoảng lại dịu dàng, ý nhị trước mặt mình sao lại có thể thốt ra những lời lẽ khó nghe đến thế...
 

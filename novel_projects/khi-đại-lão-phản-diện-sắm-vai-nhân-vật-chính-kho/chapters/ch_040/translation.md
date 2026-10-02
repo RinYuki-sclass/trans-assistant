@@ -24,11 +24,11 @@ Sở Tư Thừa tựa vào bức tường cạnh bồn tắm, khẽ nhắm mắt
 
 Thế giới anh đang ở lúc này là một cuốn tiểu thuyết thuần ái cẩu huyết đời đầu.
 
-Nhân vật chính mà anh sắm vai có tên là Tống Nhạc An, thân thế vô cùng điển hình với một người cha nghiện rượu, một người mẹ bệnh tật, hai đứa em đang tuổi ăn học và một bản thân vụn vỡ.
+Nhân vật chính mà anh sắm vai có tên là Tống Lạc An, thân thế vô cùng điển hình với một người cha nghiện rượu, một người mẹ bệnh tật, hai đứa em đang tuổi ăn học và một bản thân vụn vỡ.
 
 Vì viện phí đắt đỏ của mẹ, cậu đã chấp nhận sự bao nuôi của tổng tài bá đạo Lệ Yến Trạch, trở thành một chú chim sơn ca bị nuôi nhốt bên cạnh đối phương, sau đó liên tục bị đối phương ngược thân ngược tâm.
 
-Nhưng cuối cùng, Tống Nhạc An vẫn dựa vào sự chân thành chăm sóc Lệ Yến Trạch không rời không bỏ suốt mấy năm sau khi hắn bị tai nạn xe cộ, thành công giành được tình cảm của đối phương, đạt được kết cục hạnh phúc bên nhau trọn đời với tổng tài bá đạo.
+Nhưng cuối cùng, Tống Lạc An vẫn dựa vào sự chân thành chăm sóc Lệ Yến Trạch không rời không bỏ suốt mấy năm sau khi hắn bị tai nạn xe cộ, thành công giành được tình cảm của đối phương, đạt được kết cục hạnh phúc bên nhau trọn đời với tổng tài bá đạo.
 
 Chỉ là hiện tại, trên con đường dẫn đến kết cục hạnh phúc này đã xuất hiện một Bug — "Bạch nguyệt quang" của tổng tài bá đạo đã trọng sinh.
 
@@ -144,11 +144,11 @@ Sau đó, kèm theo một tiếng đập cửa lớn bên ngoài phòng tắm, c
 
 Chương 31: Thế giới hào môn 2
 
-Trong hành lang, ánh đèn mờ ảo và giấy dán tường màu tối tương phản, phủ lên người Lệ Diễn Trạch, càng làm nổi bật khuôn mặt âm trầm của hắn như một bóng ma bò ra từ địa ngục.
+Trong hành lang, ánh đèn mờ ảo và giấy dán tường màu tối tương phản, phủ lên người Lệ Yến Trạch, càng làm nổi bật khuôn mặt âm trầm của hắn như một bóng ma bò ra từ địa ngục.
 
 Ánh mắt lạnh lẽo rơi trên cánh cửa phòng đang đóng chặt trước mặt, như thể xuyên qua lớp cửa dày nhìn thấy bóng dáng quấn lấy nhau sau cánh cửa, khiến hắn buồn nôn.
 
-Gân xanh nổi lên trên mu bàn tay đặt trên xe lăn, giọng nói của Lệ Diễn Trạch, giữa sự lạnh lùng còn mang theo vài phần tàn độc.
+Gân xanh nổi lên trên mu bàn tay đặt trên xe lăn, giọng nói của Lệ Yến Trạch, giữa sự lạnh lùng còn mang theo vài phần tàn độc.
 
 “Tiếp tục đá!”
 
@@ -156,16 +156,16 @@ Hắn nói: “Hôm nay nếu đá không mở được cửa này, các ngươi
 
 Rõ ràng là giọng điệu nhẹ nhàng, vậy mà khiến đám vệ sĩ bên cạnh không khỏi rùng mình, lập tức không màng đến chân phải đang đau nhức, lại tiến lên đá về phía cánh cửa.
 
-Tiếng đấm đá trầm đục vang lên trong hành lang tĩnh lặng, tựa như tâm trạng ngày càng u ám của Lệ Diễn Trạch.
+Tiếng đấm đá trầm đục vang lên trong hành lang tĩnh lặng, tựa như tâm trạng ngày càng u ám của Lệ Yến Trạch.
 
-Người sáng mắt đều có thể nhìn ra lúc này tâm trạng hắn tệ đến cực điểm, thế mà Chu Lạc Lạc lại như người mù màu trời sinh, khi Lệ Diễn Trạch rõ ràng đang lạnh lùng không muốn nói chuyện, vẫn cứ mon men lại gần đổ thêm dầu vào lửa.
+Người sáng mắt đều có thể nhìn ra lúc này tâm trạng hắn tệ đến cực điểm, thế mà Chu Lạc Lạc lại như người mù màu trời sinh, khi Lệ Yến Trạch rõ ràng đang lạnh lùng không muốn nói chuyện, vẫn cứ mon men lại gần đổ thêm dầu vào lửa.
 
-“Anh泽, anh cũng bớt giận đi, có lẽ người đó không phải Lạc An, mà là một nhân viên phục vụ khác có dáng người tương tự thôi.” Chu Lạc Lạc nhẹ giọng nói:
+“Trạch ca, anh cũng bớt giận đi, có lẽ người đó không phải Lạc An, mà là một nhân viên phục vụ khác có dáng người tương tự thôi.” Chu Lạc Lạc nhẹ giọng nói:
 
 “Em tin Lạc An không phải loại người sẽ vì tiền mà bán đứng bản thân mình…”
 
 Không phải là loại người sẽ vì tiền mà bán đứng bản thân mình…
 
-Có thể thấy rõ ràng, biểu cảm trên mặt Lệ Diễn Trạch thoáng chốc vặn vẹo.
+Có thể thấy rõ ràng, biểu cảm trên mặt Lệ Yến Trạch thoáng chốc vặn vẹo.
 
-Chu Lạc Lạc không nói câu này thì thôi, vừa nói ra, lập tức khiến Lệ Diễn Trạch nhớ tới lúc trước Tống Lạc An rốt cuộc là vì cái gì mà ở bên cạnh mình.
+Chu Lạc Lạc không nói câu này thì thôi, vừa nói ra, lập tức khiến Lệ Yến Trạch nhớ tới lúc trước Tống Lạc An rốt cuộc là vì cái gì mà ở bên cạnh mình.

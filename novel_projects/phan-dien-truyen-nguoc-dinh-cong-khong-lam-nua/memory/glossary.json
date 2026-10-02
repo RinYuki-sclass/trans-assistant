@@ -1,0 +1,83 @@
+[
+  {
+    "original": "[Ngôi 3 Tự sự] Nhân vật Công (Thích Sơ / Chương Thừa Dư / Ứng Tế Xuyên)",
+    "translation": "anh",
+    "hanviet": "",
+    "category": "pronoun",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Công là nhân vật DUY NHẤT dùng 'anh' ở ngôi 3 trần thuật. Tuyệt đối KHÔNG dùng 'anh' cho Thụ."
+  },
+  {
+    "original": "[Ngôi 3 Tự sự] Nhân vật Thụ (Yến Kiêu / Ký Hoài / Du Diệp)",
+    "translation": "cậu",
+    "hanviet": "",
+    "category": "pronoun",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Thụ luôn dùng 'cậu' trong ngôi 3 trần thuật. Tuyệt đối CẤM dùng 'anh'."
+  },
+  {
+    "original": "[Xưng hô đối thoại] Thụ -> Công",
+    "translation": "Tôi - anh (hoặc em - anh khi thân mật)",
+    "hanviet": "",
+    "category": "pronoun",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Thụ gọi Công là 'anh'. Không gọi ngang hàng hoặc ngược lại."
+  },
+  {
+    "original": "[Xưng hô đối thoại] Công -> Thụ",
+    "translation": "Tôi - cậu (hoặc anh - em khi thân mật)",
+    "hanviet": "",
+    "category": "pronoun",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Công xưng 'tôi', gọi Thụ là 'cậu' hoặc tên riêng."
+  },
+  {
+    "original": "虐主文",
+    "translation": "truyện ngược nam chính / văn ngược chủ",
+    "hanviet": "ngược chủ văn",
+    "category": "term",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Thể loại tiểu thuyết lấy việc nhân vật chính bị hành hạ làm trọng tâm."
+  },
+  {
+    "original": "反派",
+    "translation": "phản diện",
+    "hanviet": "phản phái",
+    "category": "term",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Nhân vật phản diện."
+  },
+  {
+    "original": "罢工",
+    "translation": "đình công",
+    "hanviet": "bãi công",
+    "category": "term",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Đình công không làm theo kịch bản."
+  },
+  {
+    "original": "精神力",
+    "translation": "tinh thần lực",
+    "hanviet": "tinh thần lực",
+    "category": "term",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Năng lực tinh thần trong bối cảnh Tinh tế."
+  },
+  {
+    "original": "垃圾星",
+    "translation": "tinh cầu rác",
+    "hanviet": "lạp khứ tinh",
+    "category": "location",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Nơi xuất thân của Yến Kiêu ở Thế giới 1."
+  }
+]

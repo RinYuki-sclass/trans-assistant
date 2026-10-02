@@ -10,7 +10,7 @@ Thẩm Từ lại châm một điếu thuốc, giữa làn khói vây quanh, h�
 
 "Vậy sao?"
 
-Sở Tư Thừa mỉm cười, "Anh cũng thấy vậy, cho nên ngay khi vừa nhận được điện thoại là anh đã vội vàng gọi tới để cảm ơn sếp rồi."
+Sở Tư Thừa mỉm cười, "Tôi cũng thấy vậy, cho nên ngay khi vừa nhận được điện thoại là tôi đã vội vàng gọi tới để cảm ơn sếp rồi."
 
 "Mười phút."
 
@@ -42,7 +42,7 @@ Tuy nhiên, thấy hắn đã tặng mình một chiếc điện thoại mới, 
 
 “……”
 
-Đầu ngón tay Alex siết chặt, nhưng ngay sau đó hắn nghe thấy chàng trai nói:
+Đầu ngón tay Thẩm Từ siết chặt, nhưng ngay sau đó hắn nghe thấy chàng trai nói:
 
 “Dù sao thì, tôi rất có tinh thần hợp đồng...”
 
@@ -50,15 +50,15 @@ Tuy nhiên, thấy hắn đã tặng mình một chiếc điện thoại mới, 
 
 “Anh nói đúng không, người tốt bụng?”
 
-Alex nghe anh nói: “Thế nào, anh thấy câu trả lời này của tôi đáng giá một triệu không?”
+Thẩm Từ nghe anh nói: “Thế nào, anh thấy câu trả lời này của tôi đáng giá một triệu không?”
 
-Alex ngả người ra sau ghế văn phòng, lắng nghe giọng nói của chàng trai càng lúc càng nhẹ, chỉ cảm thấy cái cảm giác trơn trượt trên mặt lại xuất hiện.
+Thẩm Từ ngả người ra sau ghế văn phòng, lắng nghe giọng nói của chàng trai càng lúc càng nhẹ, chỉ cảm thấy cái cảm giác trơn trượt trên mặt lại xuất hiện.
 
 Hắn rất rõ, chàng trai đang câu dẫn hắn.
 
 Dù đối phương luôn thêm một câu hỏi vào cuối mỗi câu nói, tỏ ra như rất quan tâm đến ý kiến của hắn.
 
-Nhưng Alex biết, chàng trai căn bản không hề quan tâm đến câu trả lời của hắn.
+Nhưng Thẩm Từ biết, chàng trai căn bản không hề quan tâm đến câu trả lời của hắn.
 
 Hay nói cách khác, chàng trai tin chắc câu trả lời của hắn sẽ nằm trong dự liệu của mình.
 
@@ -82,7 +82,7 @@ Sở Tư Thừa ngồi xếp bằng trên chiếc giường lớn, một tay c�
 
 Ánh nắng ấm áp xuyên qua lớp kính phủ lên chúng, dường như muốn khiến chúng tan chảy ra trước cả khi được sử dụng.
 
-Đầu ngón tay khẽ chạm vào tia nắng vàng, Sở Tư Thừa khẽ cười, giọng nói chậm rãi như ánh mặt trời, từng chút từng chút một rơi vào bên tai Alex,
+Đầu ngón tay khẽ chạm vào tia nắng vàng, Sở Tư Thừa khẽ cười, giọng nói chậm rãi như ánh mặt trời, từng chút từng chút một rơi vào bên tai Thẩm Từ,
 
 “Cho nên ông chủ à, có muốn qua đây thảo luận với tôi một chút về chuyện chiết khấu không?”
 
@@ -190,7 +190,7 @@ Ba giờ năm mươi chín phút.
 
 Còn một tiếng một phút nữa mới đến giờ tan làm.
 
-Thẩm Từ nghĩ, quyết định hủy bỏ kỳ nghỉ trước đó có lẽ là sai lầm, hiệu suất làm việc gần đây của anh quả thực có chút quá thấp.
+Thẩm Từ nghĩ, quyết định hủy bỏ kỳ nghỉ trước đó có lẽ là sai lầm, hiệu suất làm việc gần đây của hắn quả thực có chút quá thấp.
 
 Thế nên, dù là vì công việc, anh cũng bắt buộc phải nghỉ ngơi tử tế hai ngày.
 

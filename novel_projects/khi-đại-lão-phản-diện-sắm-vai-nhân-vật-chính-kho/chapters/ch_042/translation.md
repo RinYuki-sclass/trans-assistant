@@ -32,9 +32,9 @@ Ba mươi giây...
 
 Cuối cùng, cho đến khi cuộc gọi tự động ngắt kết nối, bên trong phòng cũng không hề vang lên tiếng chuông điện thoại như Chu Lạc Lạc hằng tưởng tượng.
 
-Tống Nhạc An dường như không có ở bên trong.
+Tống Lạc An dường như không có ở bên trong.
 
-Tống Nhạc An sao có thể không ở bên trong được chứ?!
+Tống Lạc An sao có thể không ở bên trong được chứ?!
 
 Đồng tử của Chu Lạc Lạc run rẩy vì không thể tin nổi, chân phải y theo bản năng bước lên phía trước, muốn xông vào phòng để lôi cái cậu thiếu niên mà chính mắt y đã thấy uống thuốc kia ra ngoài.
 
@@ -64,27 +64,27 @@ Lệ Yến Trạch cút thẳng.
 
 Hắn không cút thì cũng chẳng còn cách nào khác.
 
-Bên phía Sở Tư Thừa rõ ràng chiếm ưu thế về số người, hơn nữa điện thoại của Tống Nhạc An cũng không hề vang lên trong phòng, Lệ Yến Trạch không có bằng chứng trực tiếp, cũng không thể tùy tiện xông vào. Thêm vào đó, hắn rời đi đã lâu, tiệc rượu bên dưới cũng bắt đầu có người tìm hắn, vì vậy Lệ Yến Trạch đành phải rời đi trước.
+Bên phía Thẩm Từ rõ ràng chiếm ưu thế về số người, hơn nữa điện thoại của Tống Lạc An cũng không hề vang lên trong phòng, Lệ Yến Trạch không có bằng chứng trực tiếp, cũng không thể tùy tiện xông vào. Thêm vào đó, hắn rời đi đã lâu, tiệc rượu bên dưới cũng bắt đầu có người tìm hắn, vì vậy Lệ Yến Trạch đành phải rời đi trước.
 
-Chỉ là trước khi rời đi, hắn nhìn căn phòng yên tĩnh phía sau Sở Tư Thừa, cùng với cuộc điện thoại hắn gọi mãi không được tối nay, các ngón tay nắm chặt điện thoại dần siết lại. Sau đó, hắn thản nhiên lên tiếng, nói với vệ sĩ phía sau, cũng nói với chàng trai có thể đang trốn trong căn phòng kia:
+Chỉ là trước khi rời đi, hắn nhìn căn phòng yên tĩnh phía sau Thẩm Từ, cùng với cuộc điện thoại hắn gọi mãi không được tối nay, các ngón tay nắm chặt điện thoại dần siết lại. Sau đó, hắn thản nhiên lên tiếng, nói với vệ sĩ phía sau, cũng nói với chàng trai có thể đang trốn trong căn phòng kia:
 
-“Tiền thuốc thang của mẹ Tống Nhạc An, bắt đầu từ tối nay, sẽ bị cắt.”
+“Tiền thuốc thang của mẹ Tống Lạc An, bắt đầu từ tối nay, sẽ bị cắt.”
 
 Không phải thích không nghe điện thoại sao.
 
-Vậy thì Lệ Yến Trạch sẽ chờ đến ngày Tống Nhạc An cầu xin hắn nghe điện thoại.
+Vậy thì Lệ Yến Trạch sẽ chờ đến ngày Tống Lạc An cầu xin hắn nghe điện thoại.
 
-Rốt cuộc, dù điểm yếu của nam nhân không nhiều, nhưng mẹ của Tống Nhạc An lại chiếm đúng một trong số đó!
+Rốt cuộc, dù điểm yếu của nam nhân không nhiều, nhưng mẹ của Tống Lạc An lại chiếm đúng một trong số đó!
 
 Lệ Yến Trạch dẫn theo một đám vệ sĩ, hùng hổ rời đi.
 
-Sở Tư Thừa liếc nhìn cánh cửa thang máy đã đóng lại lần nữa, hàng mi hơi cụp xuống, sau đó đóng cửa lại, từng bước đi về phía phòng tắm vẫn còn sáng đèn.
+Thẩm Từ liếc nhìn cánh cửa thang máy đã đóng lại lần nữa, hàng mi hơi cụp xuống, sau đó đóng cửa lại, từng bước đi về phía phòng tắm vẫn còn sáng đèn.
 
-Cửa kính bị kéo mạnh ra, ánh sáng chói mắt tràn ra ngoài, đồng thời cũng giúp Sở Tư Thừa nhìn thấy chàng trai đang dựa vào bồn rửa tay, cúi đầu nghịch điện thoại bên trong.
+Cửa kính bị kéo mạnh ra, ánh sáng chói mắt tràn ra ngoài, đồng thời cũng giúp Thẩm Từ nhìn thấy chàng trai đang dựa vào bồn rửa tay, cúi đầu nghịch điện thoại bên trong.
 
-Có lẽ nghe thấy động tĩnh, chàng trai ngẩng đầu nhìn về phía cửa phòng tắm, lại vừa lúc chạm phải ánh mắt dò xét của Sở Tư Thừa.
+Có lẽ nghe thấy động tĩnh, chàng trai ngẩng đầu nhìn về phía cửa phòng tắm, lại vừa lúc chạm phải ánh mắt dò xét của Thẩm Từ.
 
-Loại bỏ hơi nước trước mắt, Sở Tư Thừa có thể nhìn rõ đôi mắt của chàng trai.
+Loại bỏ hơi nước trước mắt, Thẩm Từ có thể nhìn rõ đôi mắt của chàng trai.
 
 Đẹp, tròn xoe, sạch sẽ đến mức không có một chút tạp chất nào, nhưng không hiểu vì sao lại khiến người ta không thể dò thấu.
 
@@ -116,7 +116,7 @@ Thẩm Từ rũ mắt, cố gắng khống chế bàn tay mình không chạm v�
 
 Sở Tư Thừa gật đầu: “Đúng.”
 
-“Là người mà Lệ Diễn Trạch đang tìm kiếm.”
+“Là người mà Lệ Yến Trạch đang tìm kiếm.”
 
 “Đúng.”
 
@@ -158,15 +158,15 @@ Anh thậm chí còn có thời gian để dự đoán hành vi của đám ngư
 
 Một người như vậy... thật sự chỉ đơn giản là tình nhân của Lệ Yến Trạch thôi sao?
 
-Alex không tin lắm.
+Thẩm Từ không tin lắm.
 
-Nhưng vì chàng trai này đã từng giúp hắn, hơn nữa còn rất tự giác không vượt quá giới hạn, nên Alex không định truy cứu nguyên nhân đối phương xuất hiện ở nơi này.
+Nhưng vì chàng trai này đã từng giúp hắn, hơn nữa còn rất tự giác không vượt quá giới hạn, nên Thẩm Từ không định truy cứu nguyên nhân đối phương xuất hiện ở nơi này.
 
 Có điều sau này, bọn họ cũng không cần thiết phải gặp lại nhau nữa.
 
-Alex không có sở thích đào góc tường nhà người khác, cho dù chàng trai kia chỉ mang thân phận một tình nhân.
+Thẩm Từ không có sở thích đào góc tường nhà người khác, cho dù chàng trai kia chỉ mang thân phận một tình nhân.
 
-Đầu ngón tay chậm rãi thu về, Alex lùi lại một bước, thoát khỏi vòng vây quanh Sở Tư Thừa.
+Đầu ngón tay chậm rãi thu về, Thẩm Từ lùi lại một bước, thoát khỏi vòng vây quanh Sở Tư Thừa.
 
 "Tôi không cần."
 
@@ -180,30 +180,30 @@ Anh nhìn người đàn ông cúi đầu chỉnh lại dây thắt lưng áo t�
 
 Nhưng sau một tuần, hắn sẽ không quản chi phí của căn phòng này nữa, giống như chàng trai kia vậy, sẽ cùng căn phòng này bị gạch bỏ khỏi bảng kế hoạch của hắn.
 
-Cánh cửa kính kéo ra rồi lại chậm rãi khép vào, trong suốt quá trình đó, Alex trước sau đều không hề ngoảnh đầu lại.
+Cánh cửa kính kéo ra rồi lại chậm rãi khép vào, trong suốt quá trình đó, Thẩm Từ trước sau đều không hề ngoảnh đầu lại.
 
 Sau đó, cùng với một tiếng "cạch", cửa phòng tắm đóng lại.
 
 Ánh đèn, tiếng nước, Sở Tư Thừa, cùng với sự kiều diễm và dục vọng mất kiểm soát tràn ngập căn phòng đều bị khóa chặt lại bên trong.
 
-Alex cởi bỏ chiếc áo choàng tắm mềm mại thoải mái trên người, sau đó vươn tay lấy bộ âu phục mà trợ lý vừa gửi tới, chậm rãi mặc từng món một lên người.
+Thẩm Từ cởi bỏ chiếc áo choàng tắm mềm mại thoải mái trên người, sau đó vươn tay lấy bộ âu phục mà trợ lý vừa gửi tới, chậm rãi mặc từng món một lên người.
 
 Tối nay hắn đã mất kiểm soát một lần rồi.
 
-Alex nghĩ, như vậy là đã quá đủ.
+Thẩm Từ nghĩ, như vậy là đã quá đủ.
 
 Hắn sẽ không cho phép bản thân mất kiểm soát thêm lần thứ hai.
 
-Chiếc cúc cuối cùng trên áo sơ mi trắng được cài lại, Alex xoay người đi về phía huyền quan, khi mở cửa ra lần nữa, hắn đã trở lại làm vị trưởng tử nhà Sachsen nghiêm nghị, luôn bình tĩnh và tự chủ.
+Chiếc cúc cuối cùng trên áo sơ mi trắng được cài lại, Thẩm Từ xoay người đi về phía huyền quan, khi mở cửa ra lần nữa, hắn đã trở lại làm vị trưởng tử nhà họ Thẩm nghiêm nghị, luôn bình tĩnh và tự chủ.
 
 "Ngài Sachsen!" Trợ lý đứng sau cửa cung kính nói.
 
 "Đi thôi, hủy bỏ kỳ nghỉ hai ngày này đi."
 
-Alex chỉnh lại đồng hồ đeo tay, như sực nhớ ra điều gì, hắn bổ sung thêm một câu: "Có điều căn phòng này không cần trả, lát nữa cậu tới quầy lễ tân một chuyến, chọn hết tất cả những dịch vụ mà trước đó tôi đã từ chối."
+Thẩm Từ chỉnh lại đồng hồ đeo tay, như sực nhớ ra điều gì, hắn bổ sung thêm một câu: "Có điều căn phòng này không cần trả, lát nữa cậu tới quầy lễ tân một chuyến, chọn hết tất cả những dịch vụ mà trước đó tôi đã từ chối."
 
 "... Vâng, thưa ngài Sachsen!"
 
 Trợ lý định thần lại, lập tức cúi đầu đáp ứng.
 
-Chỉ là khi đi theo Alex về phía thang máy, lúc đi ngang qua cửa phòng VIP kia, cậu ta vẫn không nhịn được mà ngước mắt nhìn lên cánh cửa một cái.
+Chỉ là khi đi theo Thẩm Từ về phía thang máy, lúc đi ngang qua cửa phòng VIP kia, cậu ta vẫn không nhịn được mà ngước mắt nhìn lên cánh cửa một cái.

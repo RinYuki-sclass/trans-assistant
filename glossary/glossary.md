@@ -333,6 +333,17 @@ Kẻ trị thuỷ]
 - [Chap 338] 사택 | company housing -> nhà ở công ty (Thuật ngữ) - Phúc lợi nhà ở cho nhân viên cơ sở nuôi dưỡng
 - [Chap 338] 치료 스킬 | healing skill -> kỹ năng trị liệu (Tên title/skill) - Kỹ năng hồi máu/trị liệu
 - [Chap 338] 애견카페 | dog cafe -> quán cà phê chó (Địa điểm) - Nơi Choi Suryeon làm việc bán thời gian
+- [Chap 340] 구슬아이스크림 | Dippin' Dots -> kem hạt (Thuật ngữ) - Kem hạt / kem viên tròn nhỏ làm đông bằng nitơ lỏng
+- [Chap 340] 헌터전형 | Hunter special admission -> diện xét tuyển Thợ săn (Thuật ngữ) - Chế độ xét tuyển sinh đại học dành riêng cho Thức tỉnh giả
+- [Chap 340] 특례입학 | special admission -> tuyển thẳng đặc cách (Thuật ngữ) - Xét tuyển đặc cách vào đại học theo diện cống hiến càn quét hầm ngục
+- [Chap 340] 소록이 | Sorok-ie -> Sorok-ie (Tên ma thú) - Chú tuần lộc con trắng muốt tại cơ sở nuôi dưỡng Haeyeon
+- [Chap 340] 유제류 | ungulates -> động vật móng guốc (Thuật ngữ) - Phân loại động vật móng guốc (dùng cho tuần lộc Sorok và cừu Songie)
+- [Chap 340] 전용 기승수 | exclusive mount -> thú cưỡi riêng (Thuật ngữ) - Thú cưỡi được phân bổ dành riêng cho cá nhân Thợ săn
+- [Chap 341] 까만베리 | BlackBerry -> BlackBerry (Thuật ngữ) - Dòng điện thoại có phím bấm vật lý cách điệu từ BlackBerry
+- [Chap 341] 마수농장 | Magic Beast Farm -> Ma Thú Nông Trang (Thuật ngữ) - Chương trình truyền hình ma thú (parody TV 동물농장)
+- [Chap 341] 비행장 | airfield -> đường băng sân bay (Địa điểm) - Khu vực đường băng/sân đỗ ngoài trời của sân bay
+- [Chap 341] 최영준 | Choi Youngjun -> Choi Youngjun (Tên nhân vật) - Trưởng phòng Quan hệ công chúng Hiệp hội Thợ săn Hàn Quốc
+- [Chap 341] 냉기 저항 | Cold Resistance -> Kháng Hàn (Tên title/skill) - Thuộc tính kháng sát thương lạnh và băng tuyết
 - [Chap 347] 올림픽 대로 | Olympic Boulevard -> Đại lộ Olympic (Địa điểm)
 - [Chap 347] 사평대로 | Sapyeong Road -> Đường Sapyeong (Địa điểm)
 - [Chap 347] 반포대교 | Banpo Bridge -> Cầu Banpo (Địa điểm)
@@ -636,7 +647,6 @@ attack skills -> kỹ năng sát thương (Thuật ngữ)
 - 체력 업 | Stamina Up(D) -> Tăng cường thể lực (Tên title/skill)
 - 수리관련 | repair-related -> hệ bảo trì (Thuật ngữ)
 - 감정 스킬 | Appraisal skills -> kỹ năng giám định (Thuật ngữ)
-- 냉기저항 | Cold Resistance -> Kháng hàn (Tên title/skill)
 - 협회장 | Association chairman -> Chủ tịch hiệp hội (Thuật ngữ)
 - 최석원 | Choi Sukwon ->  (Tên nhân vật)
 - 성현제 | Sung Hyunjae -> Sung Hyunjae (Tên nhân vật)
@@ -788,7 +798,6 @@ attack skills -> kỹ năng sát thương (Thuật ngữ)
 - 황금색 햄스터 | Gold Hamster -> Hamster hoàng kim (Tên ma thú)
 - 주님 | Lord ->  (Thuật ngữ)
 - 던전 관리본부장 | Chief Director-nim of Dungeon Management -> Giám đốc Trụ sở Quản lý Hầm ngục (Thuật ngữ)
-- 최영준 | Choi Yeongjun -> Choi Youngjoon (Tên nhân vật)
 - 유오찬 | Yoo Ochan -> Yoo Ochan (Tên nhân vật)
 - 헌터마켓 담당 | Hunter Market manager -> Thị Trường Thợ Săn (Thuật ngữ)
 - 최은영 | Choi Eunyeong -> Choi Eunyoung (Tên nhân vật)
