@@ -1,0 +1,25 @@
+[
+  {
+    "pair": [
+      "Fu Yunchuan",
+      "Jiang Minglang"
+    ],
+    "context": "Thế giới 1 - Đô thị hiện đại",
+    "relation_type": "Ký chủ cứu rỗi (Công) x Đại phản diện (Thụ)",
+    "forms_of_address": {
+      "human_form": {
+        "Fu_to_Jiang": "tôi - cậu",
+        "Jiang_to_Fu": "tôi - anh / Phó tiên sinh"
+      },
+      "dog_form": {
+        "Fu_to_dog": "tao - mày (kể cả lúc tâm sự/dịu giọng)",
+        "dog_reaction": "sủa Gâu / Ư ử (tiếng lòng xưng tôi/ta)"
+      }
+    },
+    "narration_pronouns": {
+      "Fu Yunchuan": "anh",
+      "Jiang Minglang": "cậu"
+    },
+    "status": "Chưa quen biết sâu -> Hiểu lầm cứu mạng -> Cún cưng vô gia cư được nhận nuôi tạm thời"
+  }
+]
