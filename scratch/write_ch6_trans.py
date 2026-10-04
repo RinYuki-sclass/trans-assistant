@@ -1,0 +1,110 @@
+# -*- coding: utf-8 -*-
+
+translated_paragraphs = [
+    # 1 - 15: Cún Alaska trốn khỏi trang viên trong đêm
+    "Đúng rồi, hiện tại cậu đã biến trở lại nguyên hình, điện thoại cũng bị chính mình quẳng đi mất rồi.",
+    "Giang Minh Lãng đứng khựng lại, xoay một vòng tại chỗ.",
+    "Bảo mẫu của Phó gia... cũng tức là mẹ của cậu ở thế giới này.",
+    "Cậu phải đi tìm bà ấy, nếu không thì chẳng cách nào báo danh nhập học trường đại học được.",
+    "Hơn nữa ở trạng thái loài cún, cậu căn bản chẳng thể nào hoàn thành nhiệm vụ.",
+    "Nghĩ tới đây, Giang Minh Lãng liền hạ quyết tâm.",
+    "Cậu lặng lẽ đi tới bên tủ quần áo, dùng móng vuốt cào mở cánh cửa tủ, bên trong treo đầy những bộ âu phục đặt may cao cấp.",
+    "Cậu chọn lấy một bộ có kích cỡ tương đối vừa vặn với vóc dáng con người của mình, sau đó ngậm chặt trong miệng.",
+    "Đúng thế, hiện tại cậu đã biến lại thành nguyên hình, điện thoại cũng bị chính cậu vứt đi rồi.",
+    "Giang Minh Lãng đứng lại, xoay một vòng tại chỗ.",
+    "Thế là, vào rạng sáng ngày hôm sau khi trời còn chưa kịp sáng, một khối lông đồ sộ từ ban công tầng hai nhảy vọt xuống.",
+    "Trong miệng nó ngậm một mớ quần áo không rõ hình thù, đón lấy ánh trăng sắp sửa lặn xuống mà chạy thục mạng trong trang viên tối đen như mực, cuối cùng biến mất nơi bóng đêm sâu thẳm.",
+    "Lời tác giả:",
+    "Cậu con trai ngốc của bà bảo mẫu sắp sửa lên sàn rồi nè (a a a a chức năng tự động cảm ơn vẫn chưa hiển thị được).",
+    "Chương 5: Alaska 05",
+
+    # 16 - 38: Giang Minh Lãng biến thành người, gặp lại Mẹ Giang ở cổng trang viên
+    "Hôm sau, bên ngoài trang viên lúc chập tối, một chàng trai vóc người cao ráo từ trong rừng cây bước ra.",
+    "Cậu mặc một bộ sơ mi cùng quần âu nhăn nhúm dúm dó, chiếc cà vạt trên cổ thắt vẹo vẹo vọ vọ, trên đỉnh đầu còn dính một chiếc lá cây.",
+    "Nếu không phải kích cỡ quần áo vừa vặn tôn lên những đường nét cơ bắp tràn trề dã tính của thiếu niên, cộng thêm chất liệu vải vóc đủ đắt tiền, thì anh bảo vệ canh gác nơi cổng trang viên đã sớm xua đuổi cậu đi từ lâu rồi.",
+    "“Cậu bảo cậu muốn tìm ai cơ?” Anh bảo vệ cảnh giác đánh giá người trước mặt.",
+    "Giang Minh Lãng nghiêm túc từng chữ từng câu nói: “Vương Xuân Lệ ạ, làm phiền anh nói với mẹ rằng cháu là Giang Minh Lãng, cháu cảm ơn ạ.”",
+    "Nói xong Giang Minh Lãng lại không quên hướng về phía anh bảo vệ cúi gập người chào một góc chuẩn chỉnh, khiến anh bảo vệ cảm thấy vô cùng mất tự nhiên.",
+    "Chưa từng thấy người trẻ tuổi nào lại hiểu lễ nghĩa đến mức này, nghĩ bụng cũng chẳng phải chuyện to tát gì, người cần tìm lại là chị Vương mà ai nấy đều không dám đắc tội, anh bảo vệ liền thay đổi hẳn vẻ mặt hung dữ hung tợn trước đó, giọng điệu dịu đi không ít: “Được rồi, tôi giúp cậu gọi một cuộc điện thoại.”",
+    "Bên kia anh bảo vệ gọi điện thoại xong bảo cậu đứng chờ một chút, nói rằng chị Vương sẽ ra ngay, bên này Giang Minh Lãng đã bắt đầu bứt tai gãi má, nghĩ xem nên đối mặt với người mẹ loài người này của mình như thế nào.",
+    "【Đừng có căng thẳng như thế chứ, nhân vật này của cậu là được tạo dựng từ hư không, không ai phát hiện ra cậu không phải là Giang Minh Lãng đâu.】",
+    "Hệ thống nhìn bộ dạng căng thẳng của cậu, có chút buồn cười.",
+    "Giang Minh Lãng gật gật đầu, bắt đầu chỉnh trang lại quần áo, muốn để lại cho bà một ấn tượng tốt.",
+    "Bộ quần áo này là do đêm qua cậu lén chạy ra ngoài ngậm theo, để tránh cho việc sau khi biến lại thành hình người sẽ phải khỏa thân chạy rông bên ngoài.",
+    "【Bảo cậu ngốc thì có đôi lúc cậu lại thông minh ra phết, bảo cậu cẩn thận thì cậu lại ngủ một mạch ở trong rừng cây tới tận bây giờ... Trên đầu có cái lá cây kìa.】",
+    "Hệ thống ngồi vắt chéo chân trên vai cậu lững lờ cất giọng.",
+    "“Tiểu Lãng!”",
+    "Giang Minh Lãng đang định nói gì đó thì cách đó không xa liền truyền tới một tiếng gọi đầy vẻ sốt ruột. Vừa ngẩng đầu lên, cậu liền chạm mặt với một người phụ nữ trung niên.",
+    "“Mẹ, mẹ ơi, chào mẹ ạ.”",
+    "Giang Minh Lãng căng thẳng chết đi được, đến nhìn thẳng cũng chẳng dám nhìn thẳng vào người phụ nữ đã có tuổi trước mặt.",
+    "“Tiểu Lãng, con làm sao thế này, hôm qua gọi điện thoại cũng không nghe, làm mẹ sốt cả ruột con có biết không... Tay con bị làm sao thế này!”",
+    "Người phụ nữ vừa nói vừa sờ soạng khắp người Giang Minh Lãng, như muốn xác nhận con trai mình bình an vô sự. Thế nhưng khi chạm vào lớp băng gạc trên cánh tay phải của cậu, Giang Minh Lãng liền hít một hơi khí lạnh.",
+    "Mẹ Giang kinh hãi nâng cánh tay phải của Giang Minh Lãng lên, sau khi nhìn thấy lớp băng gạc bên trong, vành mắt bà rất nhanh đã đỏ hoe.",
+    "Giang Minh Lãng thấy vậy càng thêm luống cuống tay chân, vội vàng đem cái cớ mình đã nghĩ sẵn ra nói, định bảo rằng hôm qua gặp phải kẻ trộm, nhưng nói nửa ngày trời cũng chẳng giải thích ra ngô ra khoai gì.",
+    "May mà Mẹ Giang cũng không gặng hỏi thêm rốt cuộc đã xảy ra chuyện gì, chỉ hỏi han qua loa đại khái, sau khi xác định cậu không sao thì chào hỏi với anh bảo vệ một tiếng rồi kéo cậu đi vào trong trang viên.",
+
+    # 39 - 66: Bước vào trang viên, Mẹ Giang sắp xếp phòng và dặn dò
+    "Hôm qua bị đám vệ sĩ vây quanh áp giải vào trang viên cậu không để ý kỹ, hôm nay vừa nhìn một cái mới khiến Giang Minh Lãng thực sự chấn động.",
+    "“A...”",
+    "Giang Minh Lãng hệt như kẻ chưa từng thấy sự đời mà thốt lên một tiếng cảm thán.",
+    "Rộng lớn quá đỗi, xa hoa tới mức có thể sánh ngang với những lâu đài trang viên cổ kính mà Giang Minh Lãng từng học trong tiết Kiến trúc Nhân loại.",
+    "Không, đây căn bản chính là một trang viên đích thực.",
+    "Bây giờ cậu rốt cuộc cũng hiểu vì sao Mẹ Giang lại bảo rằng chỉ cần không có sự cố ngoài ý muốn thì sẽ chẳng ai phát hiện ra cậu. Một căn nhà rộng lớn dường này, ai mà để ý thấy có thêm một người chứ?",
+    "“Mẹ ơi, tại sao bên kia lại có nhiều người thế ạ?” Giang Minh Lãng thắc mắc hỏi một câu.",
+    "Mẹ Giang nghe vậy, nét mặt vừa dịu lại liền lập tức trở nên ngưng trọng: “Con chó Phó tiên sinh nuôi sáng nay bỗng dưng không thấy đâu nữa, ngài ấy đang rất tức giận, mọi người đều đang đi tìm con chó đó đấy.”",
+    "Giang Minh Lãng vừa nghe thấy lời này, đờ đẫn sững sờ ngay tại chỗ.",
+    "Tìm chó, là đang tìm cậu sao?",
+    "“Phó tiên sinh ngài ấy...” Nghĩ tới điều gì đó, Mẹ Giang muốn nói lại thôi, cuối cùng chỉ khẽ thở dài một tiếng.",
+    "Dứt lời, Mẹ Giang không tiếp tục nhắc tới Phó Vân Xuyên nữa, dẫn Giang Minh Lãng đi tới một căn phòng đơn.",
+    "Trong tiểu thuyết, Mẹ Giang trước kia từng làm người giúp việc ở Phó gia bốn năm năm trời, về sau mới từ chức ở Phó gia để chuyển qua bên này làm người giúp việc cho Phó Vân Xuyên.",
+    "Nói là bảo mẫu, nhưng từ lâu đã được Phó Vân Xuyên ngầm mặc định trở thành quản gia của trang viên.",
+    "Mẹ Giang chẳng những có thể đưa cậu vào trong mà không gặp bất kỳ sự ngăn cản nào, lại còn sắp xếp cho cậu một căn phòng đơn vốn dành cho vệ sĩ ở, đủ để chứng minh bà có địa vị rất cao trong nhà Phó Vân Xuyên.",
+    "“Tiểu Lãng, mẹ quên chưa hỏi con, bộ quần áo này của con là thế nào vậy, hành lý của con đâu rồi?”",
+    "Mẹ Giang vẻ mặt đầy lo lắng nhìn cậu.",
+    "Phải rồi, hành lý.",
+    "Giang Minh Lãng lúc này mới sực nhớ ra toàn bộ hành lý đều đã để lại chỗ Phó Vân Xuyên mất rồi.",
+    "“Mẹ ơi, con xin lỗi, con làm mất hành lý rồi ạ.”",
+    "Giang Minh Lãng vô cùng áy náy cúi gầm đầu xuống, không dám nhìn vào mắt Mẹ Giang.",
+    "Tình hình kinh tế của gia đình Giang Minh Lãng rất khó khăn. Do cha ruột của Giang Minh Lãng là một gã thương nhân nghiện cờ bạc đến từ nước C, gia đình mắc phải một món nợ khổng lồ kinh hoàng, Mẹ Giang một thân một mình bươn chải bên ngoài hơn hai mươi năm trời, cho dù kiếm được không ít tiền thì đối với gia đình mà nói cũng chỉ như muối bỏ biển.",
+    "Mẹ Giang cả đời đều vô cùng cần kiệm, số quần áo trong ba cái túi hành lý mà Giang Minh Lãng làm mất đã đủ cho cả nhà bọn họ chi tiêu trong một tháng rồi. Còn có cả quả bóng rổ trong túi nữa, đó là món đồ cả nhà đã chắt bóp ăn tiêu để mua cho Giang Minh Lãng nở mày nở mặt ở đội bóng, huống chi mất rồi thì lại phải mua cái mới, dù thế nào cũng là một gánh nặng không hề nhỏ.",
+    "“Không sao đâu Tiểu Lãng, chỉ cần con bình an vô sự là mẹ yên tâm rồi.” Mẹ Giang nhìn chăm chú không rời vào gương mặt Giang Minh Lãng, dường như trong mắt bà chỉ chứa đựng được đứa con trai đã hơn mười năm chưa được gặp mặt này.",
+    "Giang Minh Lãng làm gì đã từng cảm nhận qua tình mẫu tử của người mẹ, cậu bối rối ngẩng đầu lên, chỉ cảm thấy nơi lồng ngực ấm áp lại dâng trào cảm xúc.",
+    "Điện thoại của Mẹ Giang bỗng vang lên một tiếng, bà đứng dậy, nói với cậu: “Tiểu Lãng, Phó tiên sinh sắp về rồi, mẹ phải qua xem sao đã. Bộ quần áo trên bàn là đồng phục vệ sĩ của Phó gia, con mặc tạm vào trước đi.”",
+    "Trước khi đi bà vẫn không yên lòng, như đang dỗ dành một đứa trẻ mà căn dặn: “Nếu cảm thấy buồn chán thì có thể ra ngoài đi dạo một chút, con mặc đồng phục vệ sĩ chắc sẽ không có ai nghi ngờ đâu. Nhưng nhất định không được để Phó tiên sinh nhìn thấy, nhớ kỹ nhé, Phó tiên sinh là một người rất đáng sợ, nếu gặp phải thì nhất định phải trốn cho thật xa, con đã hiểu chưa?”",
+    "Giang Minh Lãng vội vàng gật đầu lia lịa, dõi mắt tiễn Mẹ Giang rời đi.",
+
+    # 67 - 90: Giang Minh Lãng mặc đồng phục vệ sĩ, lén nhìn trộm Phó Vân Xuyên
+    "Sau khi Mẹ Giang đi khỏi, Giang Minh Lãng thay bộ quần áo bẩn ra, tắm rửa sạch sẽ một lượt rồi khoác lên người bộ đồng phục vệ sĩ mà Mẹ Giang đưa cho.",
+    "Tuy rằng ở hình thái cún cậu rất ghét tắm rửa, nhưng ở hình thái con người thì lại không thể không tắm.",
+    "Giang Minh Lãng mới tới thế giới này chưa được bao lâu, điện thoại không biết dùng, cũng chẳng có bạn bè, ngồi trong phòng buồn chán vô vị một hồi, cuối cùng cậu quyết định ra ngoài đi dạo một chút.",
+    "Cậu muốn lén đi nhìn xem Phó Vân Xuyên thế nào. Vốn dĩ còn lo lắng bản thân không biết đường, may sao phát hiện trên đường có vài người làm đang đi về cùng một hướng.",
+    "Lén lút đi theo sau lưng bọn họ chưa được bao lâu, cậu liền nhìn thấy Phó Vân Xuyên đang sải bước đi về hướng này.",
+    "Đầu tai Giang Minh Lãng khẽ giật giật, theo phản xạ có điều kiện liền nép mình trốn ra sau cây cột lớn.",
+    "Cậu lén thò đầu ra, cẩn thận từng li từng tí nhìn trộm Phó Vân Xuyên.",
+    "Bóng lưng của Phó Vân Xuyên rất cao ráo, bờ vai rộng, đôi chân dài, một thân sơ mi đen cắt may khéo léo ôm trọn lấy phần thân trên với những đường nét cơ thể lưu loát của anh, đôi chân dưới ống quần tây thẳng tắp thon dài, bước chân sắc bén dứt khoát, toát ra uy nghiêm ngập tràn của một bậc bề trên.",
+    "Ánh mắt Giang Minh Lãng rơi vào đôi bàn tay của Phó Vân Xuyên, nơi đó vẫn luôn đeo một đôi găng da đen tuyền.",
+    "“Tiểu Cầu, trời nóng thế này mà Phó Vân Xuyên cứ đeo găng tay suốt, anh ấy không thấy nóng à?” Cậu vô cùng khó hiểu.",
+    "【Chắc đây là thiết lập của tiểu thuyết đấy.】",
+    "“Cậu có phát hiện ra không, tất cả mọi người nhìn thấy anh ấy đều né tránh, dường như ai nấy đều rất sợ anh ấy thì phải.”",
+    "【Cậu không sợ anh ta à?】",
+    "“Sợ chứ.”",
+    "Nhớ lại chuyện xảy ra ngày hôm qua, tai Giang Minh Lãng khẽ run lên, rất hèn nhát nói một câu.",
+    "Cậu nhìn Phó Vân Xuyên từ đằng xa, thầm nghĩ rõ ràng căn biệt thự sang trọng này có nhiều người làm cùng vệ sĩ đến như vậy, thế nhưng Phó Vân Xuyên trông lại vô cùng cô độc.",
+    "“Nếu như không có một ai kéo anh ấy ra, vậy thì anh ấy sẽ vĩnh viễn lún sâu trong bóng đêm tăm tối.” Lời dặn dò của Chấp hành quan khi giới thiệu đối tượng nhiệm vụ trước lúc cậu lên đường bỗng vang vọng bên tai.",
+    "Nghĩ tới kết cục cuối cùng của Phó Vân Xuyên, một luồng cảm xúc chẳng rõ là tư vị gì bỗng trào dâng trong lòng cậu.",
+    "【Cẩn thận!】 Hệ thống cảnh báo.",
+    "Giang Minh Lãng theo bản năng né người về phía sau, trong khoảnh khắc tầm nhìn chuyển dời, vừa khéo bắt gặp ánh mắt mà Phó Vân Xuyên đang phóng thẳng qua.",
+    "“Phó tiên sinh, ngài có cần tôi chuẩn bị bữa tối không ạ?”",
+    "Bóng dáng Mẹ Giang vừa vặn bước tới chắn trước cây cột, nhận thấy tâm trạng hôm nay của Phó Vân Xuyên càng thêm phần u uất gắt gỏng, giọng nói của Mẹ Giang nghe ra vô cùng thận trọng.",
+    "“Không cần.”",
+    "Phó Vân Xuyên khẽ gật đầu, liếc nhìn Mẹ Giang một cái, sau đó nghiêng đầu trầm giọng cất lời:"
+]
+
+import os
+target = r'd:\Nhung\trans-tool\novel_projects\cứu-rỗi-phản-diện-mỹ-cường-thảm\chapters\ch_006\translation.md'
+content = "---\ntitle: \"Chương 6: Alaska 06\"\nchapter_index: 6\n---\n\n" + "\n\n".join(translated_paragraphs) + "\n"
+
+with open(target, 'w', encoding='utf-8') as f:
+    f.write(content)
+
+print(f"Written {len(translated_paragraphs)} paragraphs to {target}")

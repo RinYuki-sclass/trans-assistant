@@ -29,8 +29,11 @@ https://www.novelupdates.com/series/becoming-the-gongs-older-brother/
 
 
 
-https://www.novelupdates.com/series/the-villain-of-this-sadistic-novel-is-striking/
 
-https://www.novelupdates.com/series/saving-the-handsome-strong-and-miserable-villain-quick-transmigration/
+- **Cứu Rỗi Phản Diện Mỹ Cường Thảm [Khoái Xuyên]** (拯救帅强惨反派[快穿] - 什司):
+  - NovelUpdates: https://www.novelupdates.com/series/saving-the-handsome-strong-and-miserable-villain-quick-transmigration/
+  - Raw CZBooks: https://czbooks.net/n/sk52b1bp08h
+  - Tấn Giang: https://www.jjwxc.net/onebook.php?novelid=7862084
+  - Project đã tạo: `novel_projects/cứu-rỗi-phản-diện-mỹ-cường-thảm/`
 
 https://www.novelupdates.com/series/the-moonlight-returns-forced-revival/

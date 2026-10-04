@@ -1,0 +1,128 @@
+[
+  {
+    "original": "汪汪大队",
+    "translation": "Biệt đội Uông Uông",
+    "hanviet": "Uông Uông đại đội",
+    "category": "organization",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Hệ thống cẩu cẩu"
+  },
+  {
+    "original": "汪汪系统",
+    "translation": "Hệ thống Uông Uông",
+    "hanviet": "Uông Uông hệ thống",
+    "category": "term",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Hệ thống chấp hành nhiệm vụ cứu rỗi"
+  },
+  {
+    "original": "汪汪学院",
+    "translation": "Học viện Uông Uông",
+    "hanviet": "Uông Uông học viện",
+    "category": "organization",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Học viện huấn luyện cún cứu rỗi ở Tinh Tế"
+  },
+  {
+    "original": "星际指挥官",
+    "translation": "Chỉ huy quan Tinh Tế",
+    "hanviet": "Tinh tế chỉ huy quan",
+    "category": "role",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Người chỉ huy ở thế giới cún Tinh Tế"
+  },
+  {
+    "original": "傅云川",
+    "translation": "Phó Vân Xuyên",
+    "hanviet": "Phó Vân Xuyên",
+    "category": "character",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Phản diện thế giới 1"
+  },
+  {
+    "original": "江明朗",
+    "translation": "Giang Minh Lãng",
+    "hanviet": "Giang Minh Lãng",
+    "category": "character",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Công thế giới 1 (Ký chủ cún Alaska 27)"
+  },
+  {
+    "original": "A市",
+    "translation": "Thành phố A",
+    "hanviet": "A thị",
+    "category": "location",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Đô thị hiện đại bối cảnh thế giới 1"
+  },
+  {
+    "original": "云川集团",
+    "translation": "Tập đoàn Vân Xuyên",
+    "hanviet": "Vân Xuyên tập đoàn",
+    "category": "organization",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Tập đoàn do Phó Vân Xuyên sáng lập"
+  },
+  {
+    "original": "半月酒庄",
+    "translation": "Trang viên rượu Bán Nguyệt",
+    "hanviet": "Bán Nguyệt tửu trang",
+    "category": "location",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Địa điểm xảy ra ẩu đả và cứu hộ ở chương 2-3"
+  },
+  {
+    "original": "黑化值",
+    "translation": "Giá trị hắc hóa",
+    "hanviet": "Hắc hóa trị",
+    "category": "term",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Chỉ số độ nguy hiểm của phản diện (mục tiêu kéo xuống dưới 10)"
+  },
+  {
+    "original": "《霸道少爷的99种宠爱》",
+    "translation": "《99 Chiêu Chiều Chuộng Của Thiếu Gia Bá Đạo》",
+    "hanviet": "Bá đạo thiếu gia đích 99 chủng sủng ái",
+    "category": "work",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Tên cuốn tiểu thuyết ngọt sủng trong cốt truyện nhiệm vụ"
+  },
+  {
+    "original": "臣武",
+    "translation": "Thần Vũ",
+    "hanviet": "Thần Vũ",
+    "category": "character",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Phản diện thế giới 2"
+  },
+  {
+    "original": "沈墨白",
+    "translation": "Thẩm Mặc Bạch",
+    "hanviet": "Thẩm Mặc Bạch",
+    "category": "character",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Công thế giới 3"
+  },
+  {
+    "original": "顾承明",
+    "translation": "Cố Thừa Minh",
+    "hanviet": "Cố Thừa Minh",
+    "category": "character",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Thụ thế giới 3, Cẩm Y Vệ chỉ huy sứ"
+  }
+]

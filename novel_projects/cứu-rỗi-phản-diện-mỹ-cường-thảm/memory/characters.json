@@ -1,0 +1,138 @@
+[
+  {
+    "name": "Fu Yunchuan",
+    "hanviet_name": "Phó Vân Xuyên",
+    "original_name": "傅云川 / 傅雲川",
+    "gender": "Nam",
+    "role": "Thụ (Thế giới 1 - Hiện đại)",
+    "aliases": [
+      "Phó tổng",
+      "Phó tiên sinh",
+      "bá tổng thần kinh",
+      "sát thần A thị"
+    ],
+    "narration_pronoun": "anh",
+    "honorifics": "với Giang Minh Lãng (người): tôi - cậu; với cún Alaska: tao - mày (kể cả lúc tâm sự/dịu giọng); với chú ruột: tôi - chú/ông; với cấp dưới: tôi - các người/các anh",
+    "speech_style": "Âm u, lạnh lùng, thần kinh chất, gắt gỏng nhưng dễ mềm lòng trước cẩu câu",
+    "notes": "Đại phản diện thế giới 1, sát thần A thị ai ai cũng sợ hãi"
+  },
+  {
+    "name": "Jiang Minglang",
+    "hanviet_name": "Giang Minh Lãng",
+    "original_name": "江明朗",
+    "gender": "Nam",
+    "role": "Công (Thế giới 1 - Hiện đại)",
+    "aliases": [
+      "Alaska số 27",
+      "Tiểu Lãng",
+      "chú cún Alaska",
+      "cún Alaska"
+    ],
+    "narration_pronoun": "cậu",
+    "honorifics": "với Phó Vân Xuyên: tôi - anh / Phó tiên sinh; với Mẹ Giang: con - mẹ; với Hệ thống: tôi/ta - Tiểu Cầu",
+    "speech_style": "Nhiệt tình, trung thành, ngốc nghếch nhưng dũng cảm, thẳng thắn",
+    "notes": "Ký chủ cún Alaska biến thành người, thể thao sinh 188cm, con trai bảo mẫu nhà họ Phó"
+  },
+  {
+    "name": "Xiao Qiu",
+    "hanviet_name": "Tiểu Cầu",
+    "original_name": "小球 / 汪汪系统",
+    "gender": "Hệ thống",
+    "role": "Hệ thống hỗ trợ (Thế giới 1)",
+    "aliases": [
+      "Hệ thống Uông Uông",
+      "bản hệ thống"
+    ],
+    "honorifics": "Bản hệ thống / tôi - Alaska số 27 / cậu",
+    "speech_style": "Nghiêm túc kiểu cán bộ già nhưng giọng nói như bé trai 5 tuổi",
+    "notes": "Hệ thống Uông Uông phiên bản thử nghiệm 1.0 đồng hành cùng cún Alaska"
+  },
+  {
+    "name": "Jiang Mu",
+    "hanviet_name": "Mẹ Giang",
+    "original_name": "江母 / 妈妈",
+    "gender": "Nữ",
+    "role": "Nhân vật phụ (Thế giới 1)",
+    "aliases": [
+      "dì Giang",
+      "mẹ của Minh Lãng"
+    ],
+    "honorifics": "mẹ - con / Tiểu Lãng",
+    "speech_style": "Ấm áp, chu đáo, cẩn thận",
+    "notes": "Mẹ của Giang Minh Lãng, làm bảo mẫu cho trang viên Phó Vân Xuyên"
+  },
+  {
+    "name": "Fu Ming",
+    "hanviet_name": "Phó Minh",
+    "original_name": "傅明",
+    "gender": "Nam",
+    "role": "Nhân vật phụ (Thế giới 1)",
+    "aliases": [
+      "Phó gia chủ",
+      "cha của Phó Vân Xuyên"
+    ],
+    "honorifics": "ông ta",
+    "speech_style": "Lạnh nhạt, thiên vị",
+    "notes": "Cha ruột của Phó Vân Xuyên, nhận con nuôi thay vì nhận Phó Vân Xuyên"
+  },
+  {
+    "name": "Fu Yan",
+    "hanviet_name": "Phó Ngôn",
+    "original_name": "傅言 / 少年 / 主角受",
+    "gender": "Nam",
+    "role": "Chủ giác thụ tiểu thuyết gốc (Thế giới 1)",
+    "aliases": [
+      "thiếu niên",
+      "con nuôi Phó gia",
+      "bạch nguyệt quang thế thân"
+    ],
+    "honorifics": "tôi - tiên sinh / Phó tiên sinh",
+    "speech_style": "Thuần khiết, lịch sự, nhút nhát",
+    "notes": "Con nuôi của Phó Minh có nét giống anh trai quá cố của Phó Vân Xuyên"
+  },
+  {
+    "name": "Chen Wu",
+    "hanviet_name": "Thần Vũ",
+    "original_name": "臣武",
+    "gender": "Nam",
+    "role": "Thụ (Thế giới 2 - Giới giải trí)",
+    "aliases": [
+      "Thần ảnh đế",
+      "Vũ ca"
+    ],
+    "honorifics": "anh - tôi / em",
+    "speech_style": "Thô ráp, phóng khoáng, bĩ soái",
+    "notes": "Ảnh đế võ thuật xuất thân khó khăn, bị chèn ép"
+  },
+  {
+    "name": "Shen Mobai",
+    "hanviet_name": "Thẩm Mặc Bạch",
+    "original_name": "沈墨白",
+    "gender": "Nam",
+    "role": "Công (Thế giới 3 - Cổ đại)",
+    "aliases": [
+      "Thẩm công tử",
+      "Thẩm phu nhân",
+      "Mặc Bạch",
+      "A Bạch"
+    ],
+    "honorifics": "ta - chàng / chỉ huy sứ",
+    "speech_style": "Nhã nhặn, dịu dàng bề ngoài nhưng bụng dạ mưu sâu kế độc (Border Collie)",
+    "notes": "Dưỡng tử Thẩm gia thế gả cho Cố Thừa Minh"
+  },
+  {
+    "name": "Gu Chengming",
+    "hanviet_name": "Cố Thừa Minh",
+    "original_name": "顾承明 / 顧承明",
+    "gender": "Nam",
+    "role": "Thụ (Thế giới 3 - Cổ đại)",
+    "aliases": [
+      "Cố chỉ huy sứ",
+      "Cố đại nhân",
+      "sát thần Cẩm Y Vệ"
+    ],
+    "honorifics": "ta - ngươi / phu nhân",
+    "speech_style": "Sắc bén, uy nghiêm, tà nịnh, đa nghi sát khí nặng nề",
+    "notes": "Cẩm Y Vệ chỉ huy sứ bạo ngược, phản diện triều đình"
+  }
+]
