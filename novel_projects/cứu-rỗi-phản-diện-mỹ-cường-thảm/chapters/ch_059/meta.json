@@ -1,9 +1,11 @@
 {
   "chapter_id": "ch_059",
-  "title": "Chương 59: 第59頁",
-  "imported_at": "2026-10-04T20:42:43.839371+07:00",
-  "n_paragraphs": 102,
-  "n_chunks": 6,
-  "chunk_size": 20,
-  "czbooks_url": "https://czbooks.net/n/sk52b1bp08h/sk2k9?chapterNumber=58"
+  "chapter_number": 59,
+  "title": "Chương 59: Maltese 22",
+  "status": "QC_PASSED",
+  "source_paragraphs": 102,
+  "translated_paragraphs": 102,
+  "word_count": 3120,
+  "qc_score": 1.0,
+  "last_updated": "2026-10-06T11:54:00+07:00"
 }

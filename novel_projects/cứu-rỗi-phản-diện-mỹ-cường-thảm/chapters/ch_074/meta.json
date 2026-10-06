@@ -1,9 +1,7 @@
 {
-  "chapter_id": "ch_074",
-  "title": "Chương 74: 第74頁",
-  "imported_at": "2026-10-04T20:42:57.716400+07:00",
-  "n_paragraphs": 106,
-  "n_chunks": 6,
-  "chunk_size": 20,
-  "czbooks_url": "https://czbooks.net/n/sk52b1bp08h/sk26d?chapterNumber=73"
+  "chapter": 74,
+  "title": "Chương 74: Bức thư tuyệt mệnh và sự thật tàn nhẫn",
+  "word_count": 1780,
+  "blackening_value": 93,
+  "status": "qc_passed"
 }

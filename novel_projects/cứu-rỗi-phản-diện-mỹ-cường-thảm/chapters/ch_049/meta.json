@@ -1,9 +1,11 @@
 {
   "chapter_id": "ch_049",
-  "title": "Chương 49: 第49頁",
-  "imported_at": "2026-10-04T20:42:33.115119+07:00",
-  "n_paragraphs": 109,
-  "n_chunks": 6,
-  "chunk_size": 20,
-  "czbooks_url": "https://czbooks.net/n/sk52b1bp08h/sk242?chapterNumber=48"
+  "chapter_number": 49,
+  "title": "Chương 49: Maltese 12",
+  "status": "QC_PASSED",
+  "source_paragraphs": 109,
+  "translated_paragraphs": 109,
+  "word_count": 3120,
+  "qc_score": 1.0,
+  "last_updated": "2026-10-06T11:32:00+07:00"
 }

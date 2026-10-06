@@ -1,9 +1,11 @@
 {
   "chapter_id": "ch_050",
-  "title": "Chương 50: 第50頁",
-  "imported_at": "2026-10-04T20:42:33.854047+07:00",
-  "n_paragraphs": 96,
-  "n_chunks": 5,
-  "chunk_size": 20,
-  "czbooks_url": "https://czbooks.net/n/sk52b1bp08h/sk24m?chapterNumber=49"
+  "chapter_number": 50,
+  "title": "Chương 50: Maltese 13",
+  "status": "QC_PASSED",
+  "source_paragraphs": 96,
+  "translated_paragraphs": 96,
+  "word_count": 2840,
+  "qc_score": 1.0,
+  "last_updated": "2026-10-06T11:34:00+07:00"
 }

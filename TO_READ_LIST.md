@@ -36,4 +36,14 @@ https://www.novelupdates.com/series/becoming-the-gongs-older-brother/
   - Tấn Giang: https://www.jjwxc.net/onebook.php?novelid=7862084
   - Project đã tạo: `novel_projects/cứu-rỗi-phản-diện-mỹ-cường-thảm/`
 
+- **Cùng tác giả**
+  https://www.novelupdates.com/series/villain-switches-to-romance-script-quick-transmigration/
+
+  
+
 https://www.novelupdates.com/series/the-moonlight-returns-forced-revival/
+
+Tên truyện: BỊ NUÔI LỚN TIỂU HÀI TỬ DĨ HẠ PHẠM THƯỢNG
+Tác giả: Ỷ Môn Thính Phong
+Thể loại: Thể loại: Nguyên sang, Đam mỹ, Hiện đại, Chủ công, Hào môn thế gia, Cẩu huyết, ABO Cường cường, Dưỡng thành, Chiếm hữu dục, A x A, CÔNG CÓ THAI, Niên thượng (cách nhau 10 tuổi)
+Độ dài: 59c + 14NT (NT đọc trên Tấn Giang)

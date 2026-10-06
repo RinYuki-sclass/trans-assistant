@@ -1,9 +1,13 @@
 {
-  "chapter_id": "ch_100",
-  "title": "Chương 100: 第100頁",
-  "imported_at": "2026-10-04T20:43:27.011358+07:00",
-  "n_paragraphs": 102,
-  "n_chunks": 6,
-  "chunk_size": 20,
-  "czbooks_url": "https://czbooks.net/n/sk52b1bp08h/sk2pd?chapterNumber=99"
+  "chapter_number": 100,
+  "original_title": "第100頁",
+  "translated_title": "Chương 100: Border Collie 16 - Thị Uy Hậu Viện & Quyết Định Lưu Túc",
+  "status": "qc_passed",
+  "paragraphs_count": 103,
+  "blackening_value": 90,
+  "key_events": [
+    "Thẩm Mặc Bạch tinh tế vạch trần tiểu sai tư thông, quản sự phòng phân phát than hoảng sợ lập tức đổi sang than củi loại thượng hạng.",
+    "Cố Thừa Minh đến viện dùng bữa tối thanh đạm cùng Thẩm Mặc Bạch.",
+    "Cố Thừa Minh quyết định ở lại ngủ qua đêm tại viện của Thẩm Mặc Bạch; Thu Nhi lén chuẩn bị dược cao tình tứ."
+  ]
 }

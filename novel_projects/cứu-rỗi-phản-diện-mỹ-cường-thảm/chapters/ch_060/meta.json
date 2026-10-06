@@ -1,9 +1,11 @@
 {
   "chapter_id": "ch_060",
-  "title": "Chương 60: 第60頁",
-  "imported_at": "2026-10-04T20:42:44.849337+07:00",
-  "n_paragraphs": 98,
-  "n_chunks": 5,
-  "chunk_size": 20,
-  "czbooks_url": "https://czbooks.net/n/sk52b1bp08h/sk2ke?chapterNumber=59"
+  "chapter_number": 60,
+  "title": "Chương 60: Maltese 23",
+  "status": "QC_PASSED",
+  "source_paragraphs": 98,
+  "translated_paragraphs": 98,
+  "word_count": 2980,
+  "qc_score": 1.0,
+  "last_updated": "2026-10-06T11:55:00+07:00"
 }

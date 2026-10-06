@@ -1,9 +1,11 @@
 {
   "chapter_id": "ch_054",
-  "title": "Chương 54: 第54頁",
-  "imported_at": "2026-10-04T20:42:35.811212+07:00",
-  "n_paragraphs": 98,
-  "n_chunks": 5,
-  "chunk_size": 20,
-  "czbooks_url": "https://czbooks.net/n/sk52b1bp08h/sk24h?chapterNumber=53"
+  "chapter_number": 54,
+  "title": "Chương 54: Maltese 17",
+  "status": "QC_PASSED",
+  "source_paragraphs": 98,
+  "translated_paragraphs": 98,
+  "word_count": 2890,
+  "qc_score": 1.0,
+  "last_updated": "2026-10-06T11:41:00+07:00"
 }

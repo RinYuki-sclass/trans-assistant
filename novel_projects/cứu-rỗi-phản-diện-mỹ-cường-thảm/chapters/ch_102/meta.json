@@ -1,9 +1,14 @@
 {
-  "chapter_id": "ch_102",
-  "title": "Chương 102: 第102頁",
-  "imported_at": "2026-10-04T20:43:29.630974+07:00",
-  "n_paragraphs": 102,
-  "n_chunks": 6,
-  "chunk_size": 20,
-  "czbooks_url": "https://czbooks.net/n/sk52b1bp08h/sk2pm?chapterNumber=101"
+  "chapter_number": 102,
+  "original_title": "第102頁",
+  "translated_title": "Chương 102: Border Collie 18 - Hoa Đăng Tiết Lạc Tuyết & Mối Tình Hoa Thằng",
+  "status": "qc_passed",
+  "paragraphs_count": 103,
+  "blackening_value": 88,
+  "key_events": [
+    "Thẩm Mặc Bạch kéo Cố Thừa Minh thoát khỏi cơn ác mộng diệt môn trong quá khứ và rủ y dạo phố đêm Tiết Lạc Tuyết.",
+    "Cố Thừa Minh tiết lộ các bài thơ Thẩm Mặc Bạch chép đã vang danh kinh thành, được Thánh thượng và Thái hậu tán thưởng.",
+    "Thẩm Mặc Bạch tinh nghịch mua pháo hoa, sắp đặt người qua đường trao 99 mảnh thư tình cho Cố Thừa Minh.",
+    "Dưới tán hoa mai rơi rụng, Thẩm Mặc Bạch trao sợi hoa thằng đỏ sẫm tự đan cầu duyên cho Cố Thừa Minh."
+  ]
 }

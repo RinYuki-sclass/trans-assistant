@@ -1,9 +1,11 @@
 {
   "chapter_id": "ch_052",
-  "title": "Chương 52: 第52頁",
-  "imported_at": "2026-10-04T20:42:34.850480+07:00",
-  "n_paragraphs": 109,
-  "n_chunks": 6,
-  "chunk_size": 20,
-  "czbooks_url": "https://czbooks.net/n/sk52b1bp08h/sk24c?chapterNumber=51"
+  "chapter_number": 52,
+  "title": "Chương 52: Maltese 15",
+  "status": "QC_PASSED",
+  "source_paragraphs": 109,
+  "translated_paragraphs": 109,
+  "word_count": 3150,
+  "qc_score": 1.0,
+  "last_updated": "2026-10-06T11:37:00+07:00"
 }
