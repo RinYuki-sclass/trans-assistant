@@ -1,9 +1,14 @@
 {
-  "chapter_id": "ch_101",
-  "title": "Chương 101: 第101頁",
-  "imported_at": "2026-10-04T20:43:29.154079+07:00",
-  "n_paragraphs": 109,
-  "n_chunks": 6,
-  "chunk_size": 20,
-  "czbooks_url": "https://czbooks.net/n/sk52b1bp08h/sk2p2?chapterNumber=100"
+  "chapter_number": 101,
+  "original_title": "第101頁",
+  "translated_title": "Chương 101: Border Collie 17 - Đêm Chung Giường & Tiết Lạc Tuyết",
+  "status": "qc_passed",
+  "paragraphs_count": 110,
+  "blackening_value": 88,
+  "key_events": [
+    "Cố Thừa Minh và Thẩm Mặc Bạch lần đầu tiên ngủ chung giường; Thẩm Mặc Bạch ôm lấy sưởi ấm cho y, độ hắc hóa giảm xuống 88 điểm.",
+    "Thẩm Mặc Bạch chủ trì buổi phạt quỳ các mỹ thiếp, nhân ái cho Vân Kiều đang kỳ nguyệt sự vào nghỉ ngơi.",
+    "Thu Nhi chia sẻ về phong tục tặng dây hoa tự đan trong ngày Tiết Lạc Tuyết; Thẩm Mặc Bạch nảy ra ý định đan hoa thằng.",
+    "Cố Thừa Minh trong thư phòng chìm vào ký ức phụ thân dặn dò phải sống tiếp để rửa sạch án oan của Vũ Văn gia."
+  ]
 }

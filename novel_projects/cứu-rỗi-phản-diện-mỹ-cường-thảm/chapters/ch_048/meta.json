@@ -1,9 +1,11 @@
 {
   "chapter_id": "ch_048",
-  "title": "Chương 48: 第48頁",
-  "imported_at": "2026-10-04T20:42:32.630920+07:00",
-  "n_paragraphs": 91,
-  "n_chunks": 5,
-  "chunk_size": 20,
-  "czbooks_url": "https://czbooks.net/n/sk52b1bp08h/sk24d?chapterNumber=47"
+  "chapter_number": 48,
+  "title": "Chương 48: Maltese 11",
+  "status": "QC_PASSED",
+  "source_paragraphs": 91,
+  "translated_paragraphs": 91,
+  "word_count": 2674,
+  "qc_score": 1.0,
+  "last_updated": "2026-10-06T11:28:00+07:00"
 }

@@ -91,6 +91,23 @@
     "notes": "Con nuôi của Phó Minh có nét giống anh trai quá cố của Phó Vân Xuyên"
   },
   {
+    "name": "Bai Yuer",
+    "hanviet_name": "Bạch Dữ Nhĩ",
+    "original_name": "白屿尔",
+    "gender": "Nam",
+    "role": "Công (Thế giới 2 - Giới giải trí)",
+    "aliases": [
+      "Maltese số 23",
+      "tiểu thiếu gia",
+      "tiểu Dữ",
+      "cún Maltese"
+    ],
+    "narration_pronoun": "cậu",
+    "honorifics": "với Thần Vũ: tôi - anh; với Ba (Bạch Thiên Thạch): con - ba; với Hệ thống: tôi/ta - Tiểu Cầu",
+    "speech_style": "Ngạo kiều, kiêu kỳ, tự phụ vẻ ngoài công tử nhưng dễ mềm lòng, sợ mất mặt",
+    "notes": "Tiểu thiếu gia nhà họ Bạch ngạo kiều, nhân hình của cún Maltese 23, có làn da trắng sứ như tranh thiên thần Hy Lạp"
+  },
+  {
     "name": "Chen Wu",
     "hanviet_name": "Thần Vũ",
     "original_name": "臣武",
@@ -100,39 +117,135 @@
       "Thần ảnh đế",
       "Vũ ca"
     ],
-    "honorifics": "anh - tôi / em",
-    "speech_style": "Thô ráp, phóng khoáng, bĩ soái",
-    "notes": "Ảnh đế võ thuật xuất thân khó khăn, bị chèn ép"
+    "narration_pronoun": "anh",
+    "honorifics": "với Bạch Dữ Nhĩ (người): tôi - cậu (hoặc trêu đùa: nhóc con / đại thiếu gia / chó con hư); với cún Maltese: tao/anh - mày/cún con; với Lục Tử Nghi/phóng viên: tao - mày/chúng mày",
+    "speech_style": "Thô ráp, phóng khoáng, bĩ soái, lưu manh giễu cợt nhưng rất cưng chiều đối phương",
+    "notes": "Ảnh đế võ thuật xuất thân khó khăn, bị Lục Tử Nghi vu oan ám sát hãm hại dẫn đến hắc hóa"
+  },
+  {
+    "name": "Lu Ziyi",
+    "hanviet_name": "Lục Tử Nghi",
+    "original_name": "陆子仪",
+    "gender": "Nam",
+    "role": "Nhân vật phụ / Phản diện phụ (Thế giới 2)",
+    "aliases": [
+      "Lục đỉnh lưu",
+      "chủ giác thụ nguyên tác"
+    ],
+    "narration_pronoun": "gã",
+    "honorifics": "tôi - anh",
+    "speech_style": "Giả tạo, thảo mai, âm hiểm",
+    "notes": "Đỉnh lưu tiểu sinh, thụ chính của tiểu thuyết gốc, đối thủ cạnh tranh ghen ghét hãm hại Thần Vũ"
+  },
+  {
+    "name": "Bai Tianshi",
+    "hanviet_name": "Bạch Thiên Thạch",
+    "original_name": "白天石",
+    "gender": "Nam",
+    "role": "Nhân vật phụ (Thế giới 2)",
+    "aliases": [
+      "Bạch lão gia",
+      "ba của Dữ Nhĩ"
+    ],
+    "narration_pronoun": "ông",
+    "honorifics": "ba - con / tiểu Nhĩ",
+    "speech_style": "Từ ái với con trai nhưng quyết đoán, sấm sét trên thương trường",
+    "notes": "Chủ tịch Tập đoàn Bạch thị, ba ruột cực kỳ cưng chiều Bạch Dữ Nhĩ"
   },
   {
     "name": "Shen Mobai",
     "hanviet_name": "Thẩm Mặc Bạch",
     "original_name": "沈墨白",
     "gender": "Nam",
-    "role": "Công (Thế giới 3 - Cổ đại)",
+    "role": "Công (Thế giới 3 - Cổ đại Cẩm Y Vệ)",
     "aliases": [
+      "Border Collie số 007",
+      "Border Collie 007",
       "Thẩm công tử",
       "Thẩm phu nhân",
       "Mặc Bạch",
       "A Bạch"
     ],
-    "honorifics": "ta - chàng / chỉ huy sứ",
-    "speech_style": "Nhã nhặn, dịu dàng bề ngoài nhưng bụng dạ mưu sâu kế độc (Border Collie)",
-    "notes": "Dưỡng tử Thẩm gia thế gả cho Cố Thừa Minh"
+    "narration_pronoun": "hắn",
+    "honorifics": "với Cố Thừa Minh: ta - Chỉ huy sứ đại nhân / Cố đại nhân / Phu quân; với Thẩm lão thái thái: cháu - bà nội; với Hệ thống: ta/tôi - Tam Sắc Cầu",
+    "speech_style": "Cơ trí, thong dong, ranh mãnh, giả nai làm nũng nhưng cực kỳ phúc hắc và dũng mãnh (Border Collie)",
+    "notes": "Ký chủ cún Border Collie học bá số 1 Học viện Uông Uông, con nuôi Thẩm gia gả thay cho Cố Thừa Minh"
   },
   {
     "name": "Gu Chengming",
     "hanviet_name": "Cố Thừa Minh",
     "original_name": "顾承明 / 顧承明",
     "gender": "Nam",
-    "role": "Thụ (Thế giới 3 - Cổ đại)",
+    "role": "Thụ (Thế giới 3 - Cổ đại Cẩm Y Vệ)",
     "aliases": [
       "Cố chỉ huy sứ",
       "Cố đại nhân",
-      "sát thần Cẩm Y Vệ"
+      "sát thần Cẩm Y Vệ",
+      "đại gian thần"
     ],
-    "honorifics": "ta - ngươi / phu nhân",
-    "speech_style": "Sắc bén, uy nghiêm, tà nịnh, đa nghi sát khí nặng nề",
-    "notes": "Cẩm Y Vệ chỉ huy sứ bạo ngược, phản diện triều đình"
+    "narration_pronoun": "y",
+    "honorifics": "với Thẩm Mặc Bạch: bản quan/ta - ngươi / Thẩm phu nhân; với triều thần: bản quan - các ngươi; với Thái tử: thần - điện hạ",
+    "speech_style": "Tà mị, sắc bén, bạo ngược, uy nghiêm, âm u đa nghi nhưng nội tâm thương tổn cần cứu rỗi",
+    "notes": "Chỉ huy sứ Cẩm Y Vệ quyền khuynh triều dã, hắc hóa khởi điểm 99 vì thù hận vụ án quân lương 20 năm trước"
+  },
+  {
+    "name": "Shen Yu",
+    "hanviet_name": "Thẩm Ngọc",
+    "original_name": "沈钰 / 沈鈺",
+    "gender": "Nam",
+    "role": "Chủ giác thụ nguyên tác (Thế giới 3)",
+    "aliases": [
+      "Thẩm công tử",
+      "Ngọc nhi",
+      "tiểu thiếu gia Thẩm gia"
+    ],
+    "narration_pronoun": "cậu ta / y",
+    "honorifics": "ta - công tử / điện hạ",
+    "speech_style": "Ngây thơ, nhu nhược, thuần khiết",
+    "notes": "Con trai độc nhất của Thẩm Hoài Viễn, người được Thái tử Chu Càn yêu mến trong nguyên tác"
+  },
+  {
+    "name": "Zhu Qian",
+    "hanviet_name": "Chu Càn",
+    "original_name": "朱乾",
+    "gender": "Nam",
+    "role": "Chủ giác công nguyên tác (Thế giới 3)",
+    "aliases": [
+      "Thái tử điện hạ"
+    ],
+    "narration_pronoun": "hắn / y",
+    "honorifics": "cô / bản cung - các ngươi",
+    "speech_style": "Uy nghiêm, thâm trầm",
+    "notes": "Thái tử đương triều, người được Thẩm Ngọc cứu mạng trên đường trốn chạy"
+  },
+  {
+    "name": "Shen Huaiyuan",
+    "hanviet_name": "Thẩm Hoài Viễn",
+    "original_name": "沈怀远 / 沈懷遠",
+    "gender": "Nam",
+    "role": "Nhân vật phụ (Thế giới 3)",
+    "aliases": [
+      "Thẩm tri huyện",
+      "Thẩm đại nhân"
+    ],
+    "narration_pronoun": "ông",
+    "honorifics": "vi phụ - các con; hạ quan - đại nhân",
+    "speech_style": "Thận trọng, sợ sệt quyền thế",
+    "notes": "Tri huyện Kinh đô mới nhậm chức, cha của Thẩm Ngọc, cha nuôi Thẩm Mặc Bạch"
+  },
+  {
+    "name": "Shen Lao Tai",
+    "hanviet_name": "Thẩm lão thái thái",
+    "original_name": "沈老太",
+    "gender": "Nữ",
+    "role": "Nhân vật phụ (Thế giới 3)",
+    "aliases": [
+      "Bà nội Thẩm",
+      "lão phu nhân"
+    ],
+    "narration_pronoun": "bà",
+    "honorifics": "bà nội - Mặc Bạch / con",
+    "speech_style": "Hiền hậu, từ ái, thương xót",
+    "notes": "Bà nội Thẩm gia, người nhặt Thẩm Mặc Bạch về nuôi và thực lòng yêu thương cậu nhất"
   }
 ]

@@ -1,9 +1,7 @@
 {
-  "chapter_id": "ch_072",
-  "title": "Chương 72: 第72頁",
-  "imported_at": "2026-10-04T20:42:55.976758+07:00",
-  "n_paragraphs": 115,
-  "n_chunks": 6,
-  "chunk_size": 20,
-  "czbooks_url": "https://czbooks.net/n/sk52b1bp08h/sk2hf?chapterNumber=71"
+  "chapter": 72,
+  "title": "Chương 72: Chú cún con trong đêm mưa",
+  "word_count": 1820,
+  "blackening_value": 90,
+  "status": "qc_passed"
 }

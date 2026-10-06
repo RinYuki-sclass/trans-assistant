@@ -1,9 +1,14 @@
 {
-  "chapter_id": "ch_111",
-  "title": "Chương 111: 第111頁",
-  "imported_at": "2026-10-04T20:43:41.401915+07:00",
-  "n_paragraphs": 103,
-  "n_chunks": 6,
-  "chunk_size": 20,
-  "czbooks_url": "https://czbooks.net/n/sk52b1bp08h/sk219?chapterNumber=110"
+  "chapter_number": 111,
+  "original_title": "第111頁",
+  "translated_title": "Chương 111: Border Collie 27 - Cãi Vã Long Trời & Dịch Dung Tráo Đổi",
+  "status": "qc_passed",
+  "paragraphs_count": 104,
+  "blackening_value": 86,
+  "key_events": [
+    "Cố Thừa Minh cưỡng bức Thẩm Mặc Bạch; Thẩm Mặc Bạch lạnh lùng cự tuyệt và tuyên bố lập trường làm công.",
+    "Cố Thừa Minh giả vờ ở phòng Vân Kiều để chọc tức Thẩm Mặc Bạch nhưng thất bại; sáng hôm sau lên đường đi huyện Vũ.",
+    "Thẩm Ngọc và Chu Càn hẹn gặp Thẩm Mặc Bạch tại Thanh Hiên Các, đánh lén nhằm bắt giữ hắn.",
+    "Thẩm Mặc Bạch tương kế tựu kế; Thẩm Ngọc dịch dung thành Thẩm Mặc Bạch về Cố phủ làm nội gián, Thẩm Mặc Bạch thật bị giải về mật đạo Đông Cung."
+  ]
 }

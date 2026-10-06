@@ -4,7 +4,7 @@
     "translation": "Biệt đội Uông Uông",
     "hanviet": "Uông Uông đại đội",
     "category": "organization",
-    "confidence": 1.0,
+    "confidence": 1,
     "approved": true,
     "notes": "Hệ thống cẩu cẩu"
   },
@@ -13,7 +13,7 @@
     "translation": "Hệ thống Uông Uông",
     "hanviet": "Uông Uông hệ thống",
     "category": "term",
-    "confidence": 1.0,
+    "confidence": 1,
     "approved": true,
     "notes": "Hệ thống chấp hành nhiệm vụ cứu rỗi"
   },
@@ -22,7 +22,7 @@
     "translation": "Học viện Uông Uông",
     "hanviet": "Uông Uông học viện",
     "category": "organization",
-    "confidence": 1.0,
+    "confidence": 1,
     "approved": true,
     "notes": "Học viện huấn luyện cún cứu rỗi ở Tinh Tế"
   },
@@ -31,7 +31,7 @@
     "translation": "Chỉ huy quan Tinh Tế",
     "hanviet": "Tinh tế chỉ huy quan",
     "category": "role",
-    "confidence": 1.0,
+    "confidence": 1,
     "approved": true,
     "notes": "Người chỉ huy ở thế giới cún Tinh Tế"
   },
@@ -40,7 +40,7 @@
     "translation": "Phó Vân Xuyên",
     "hanviet": "Phó Vân Xuyên",
     "category": "character",
-    "confidence": 1.0,
+    "confidence": 1,
     "approved": true,
     "notes": "Phản diện thế giới 1"
   },
@@ -49,7 +49,7 @@
     "translation": "Giang Minh Lãng",
     "hanviet": "Giang Minh Lãng",
     "category": "character",
-    "confidence": 1.0,
+    "confidence": 1,
     "approved": true,
     "notes": "Công thế giới 1 (Ký chủ cún Alaska 27)"
   },
@@ -58,7 +58,7 @@
     "translation": "Thành phố A",
     "hanviet": "A thị",
     "category": "location",
-    "confidence": 1.0,
+    "confidence": 1,
     "approved": true,
     "notes": "Đô thị hiện đại bối cảnh thế giới 1"
   },
@@ -67,7 +67,7 @@
     "translation": "Tập đoàn Vân Xuyên",
     "hanviet": "Vân Xuyên tập đoàn",
     "category": "organization",
-    "confidence": 1.0,
+    "confidence": 1,
     "approved": true,
     "notes": "Tập đoàn do Phó Vân Xuyên sáng lập"
   },
@@ -76,7 +76,7 @@
     "translation": "Trang viên rượu Bán Nguyệt",
     "hanviet": "Bán Nguyệt tửu trang",
     "category": "location",
-    "confidence": 1.0,
+    "confidence": 1,
     "approved": true,
     "notes": "Địa điểm xảy ra ẩu đả và cứu hộ ở chương 2-3"
   },
@@ -85,7 +85,7 @@
     "translation": "Giá trị hắc hóa",
     "hanviet": "Hắc hóa trị",
     "category": "term",
-    "confidence": 1.0,
+    "confidence": 1,
     "approved": true,
     "notes": "Chỉ số độ nguy hiểm của phản diện (mục tiêu kéo xuống dưới 10)"
   },
@@ -94,7 +94,7 @@
     "translation": "《99 Chiêu Chiều Chuộng Của Thiếu Gia Bá Đạo》",
     "hanviet": "Bá đạo thiếu gia đích 99 chủng sủng ái",
     "category": "work",
-    "confidence": 1.0,
+    "confidence": 1,
     "approved": true,
     "notes": "Tên cuốn tiểu thuyết ngọt sủng trong cốt truyện nhiệm vụ"
   },
@@ -103,16 +103,70 @@
     "translation": "Thần Vũ",
     "hanviet": "Thần Vũ",
     "category": "character",
-    "confidence": 1.0,
+    "confidence": 1,
     "approved": true,
-    "notes": "Phản diện thế giới 2"
+    "notes": "Phản diện / Thụ thế giới 2 (Ảnh đế võ thuật)"
+  },
+  {
+    "original": "白屿尔",
+    "translation": "Bạch Dữ Nhĩ",
+    "hanviet": "Bạch Dữ Nhĩ",
+    "category": "character",
+    "confidence": 1,
+    "approved": true,
+    "notes": "Công thế giới 2 (Maltese 23 / Tiểu thiếu gia Bạch gia)"
+  },
+  {
+    "original": "马尔济斯",
+    "translation": "Maltese",
+    "hanviet": "Mã Nhĩ Tế Tư",
+    "category": "term",
+    "confidence": 1,
+    "approved": true,
+    "notes": "Giống cún Maltese quý tộc lông trắng"
+  },
+  {
+    "original": "陆子仪",
+    "translation": "Lục Tử Nghi",
+    "hanviet": "Lục Tử Nghi",
+    "category": "character",
+    "confidence": 1,
+    "approved": true,
+    "notes": "Đỉnh lưu, thụ chính nguyên tác hãm hại Thần Vũ"
+  },
+  {
+    "original": "白天石",
+    "translation": "Bạch Thiên Thạch",
+    "hanviet": "Bạch Thiên Thạch",
+    "category": "character",
+    "confidence": 1,
+    "approved": true,
+    "notes": "Chủ tịch Bạch thị, ba của Bạch Dữ Nhĩ"
+  },
+  {
+    "original": "银树枝",
+    "translation": "Cành Bạc",
+    "hanviet": "Ngân Thụ Chi",
+    "category": "term",
+    "confidence": 1,
+    "approved": true,
+    "notes": "Giải thưởng điện ảnh Cành Bạc danh giá"
+  },
+  {
+    "original": "白氏集团",
+    "translation": "Tập đoàn Bạch thị",
+    "hanviet": "Bạch thị tập đoàn",
+    "category": "organization",
+    "confidence": 1,
+    "approved": true,
+    "notes": "Tập đoàn tài phiệt nhà họ Bạch"
   },
   {
     "original": "沈墨白",
     "translation": "Thẩm Mặc Bạch",
     "hanviet": "Thẩm Mặc Bạch",
     "category": "character",
-    "confidence": 1.0,
+    "confidence": 1,
     "approved": true,
     "notes": "Công thế giới 3"
   },
@@ -121,8 +175,134 @@
     "translation": "Cố Thừa Minh",
     "hanviet": "Cố Thừa Minh",
     "category": "character",
-    "confidence": 1.0,
+    "confidence": 1,
     "approved": true,
     "notes": "Thụ thế giới 3, Cẩm Y Vệ chỉ huy sứ"
+  },
+  {
+    "original": "边牧",
+    "translation": "Border Collie",
+    "hanviet": "Biên Mục",
+    "category": "term",
+    "confidence": 1,
+    "approved": true,
+    "notes": "Giống cún Border Collie học bá số 1; TUYỆT ĐỐI KHÔNG dùng từ Biên Mục trong bản dịch"
+  },
+  {
+    "original": "锦衣卫",
+    "translation": "Cẩm Y Vệ",
+    "hanviet": "Cẩm Y Vệ",
+    "category": "organization",
+    "confidence": 1,
+    "approved": true,
+    "notes": "Lực lượng thị vệ cận vệ hoàng đế thời phong kiến"
+  },
+  {
+    "original": "指挥使",
+    "translation": "Chỉ huy sứ",
+    "hanviet": "Chỉ huy sứ",
+    "category": "role",
+    "confidence": 1,
+    "approved": true,
+    "notes": "Chức quan đứng đầu Cẩm Y Vệ"
+  },
+  {
+    "original": "飞鱼服",
+    "translation": "Phi ngư phục",
+    "hanviet": "Phi ngư phục",
+    "category": "term",
+    "confidence": 1,
+    "approved": true,
+    "notes": "Trang phục ban thưởng cao cấp của Cẩm Y Vệ"
+  },
+  {
+    "original": "绣春刀",
+    "translation": "Tú xuân đao",
+    "hanviet": "Tú xuân đao",
+    "category": "term",
+    "confidence": 1,
+    "approved": true,
+    "notes": "Vũ khí đặc trưng sắc bén của Cẩm Y Vệ"
+  },
+  {
+    "original": "昭狱",
+    "translation": "Chiêu Ngục",
+    "hanviet": "Chiêu Ngục",
+    "category": "location",
+    "confidence": 1,
+    "approved": true,
+    "notes": "Nhà tù khét tiếng tàn bạo của Cẩm Y Vệ"
+  },
+  {
+    "original": "替嫁",
+    "translation": "Gả thay",
+    "hanviet": "Thế giá",
+    "category": "term",
+    "confidence": 1,
+    "approved": true,
+    "notes": "Thay thế người khác bước lên kiệu hoa kết hôn"
+  },
+  {
+    "original": "《绝世男皇妃：太子轻点宠》",
+    "translation": "《Tuyệt Thế Nam Hoàng Phi: Thái Tử Nhẹ Tay Sủng》",
+    "hanviet": "Tuyệt thế nam hoàng phi: Thái tử khinh điểm sủng",
+    "category": "work",
+    "confidence": 1,
+    "approved": true,
+    "notes": "Tên cuốn tiểu thuyết cẩu huyết nguyên tác thế giới 3"
+  },
+  {
+    "original": "沈钰",
+    "translation": "Thẩm Ngọc",
+    "hanviet": "Thẩm Ngọc",
+    "category": "character",
+    "confidence": 1,
+    "approved": true,
+    "notes": "Thụ chính nguyên tác thế giới 3"
+  },
+  {
+    "original": "朱乾",
+    "translation": "Chu Càn",
+    "hanviet": "Chu Càn",
+    "category": "character",
+    "confidence": 1,
+    "approved": true,
+    "notes": "Thái tử đương triều, công chính nguyên tác thế giới 3"
+  },
+  {
+    "original": "沈怀远",
+    "translation": "Thẩm Hoài Viễn",
+    "hanviet": "Thẩm Hoài Viễn",
+    "category": "character",
+    "confidence": 1,
+    "approved": true,
+    "notes": "Tri huyện Kinh đô, cha Thẩm Ngọc"
+  },
+  {
+    "original": "沈老太",
+    "translation": "Thẩm lão thái thái",
+    "hanviet": "Thẩm lão thái thái",
+    "category": "character",
+    "confidence": 1,
+    "approved": true,
+    "notes": "Bà nội Thẩm gia thương yêu Thẩm Mặc Bạch"
+  },
+  {
+    "original": "跑龙套",
+    "translation": "đóng vai quần chúng",
+    "hanviet": "chạy long đao / long sáo",
+    "category": "term",
+    "confidence": 1,
+    "approved": true,
+    "notes": "Diễn viên đóng vai phụ vô danh / quần chúng trong đoàn phim (dịch thuần Việt: đóng vai quần chúng, làm chân quần chúng)"
+  },
+  {
+    "original": "龙套",
+    "translation": "vai quần chúng / diễn viên quần chúng",
+    "hanviet": "long đao / long sáo",
+    "category": "term",
+    "confidence": 1,
+    "approved": true,
+    "notes": "Vai phụ lướt qua, diễn viên quần chúng"
   }
 ]

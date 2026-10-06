@@ -1,9 +1,11 @@
 {
   "chapter_id": "ch_053",
-  "title": "Chương 53: 第53頁",
-  "imported_at": "2026-10-04T20:42:35.324426+07:00",
-  "n_paragraphs": 101,
-  "n_chunks": 6,
-  "chunk_size": 20,
-  "czbooks_url": "https://czbooks.net/n/sk52b1bp08h/sk245?chapterNumber=52"
+  "chapter_number": 53,
+  "title": "Chương 53: Maltese 16",
+  "status": "QC_PASSED",
+  "source_paragraphs": 101,
+  "translated_paragraphs": 101,
+  "word_count": 2980,
+  "qc_score": 1.0,
+  "last_updated": "2026-10-06T11:39:00+07:00"
 }

@@ -1,9 +1,7 @@
 {
-  "chapter_id": "ch_068",
-  "title": "Chương 68: 第68頁",
-  "imported_at": "2026-10-04T20:42:51.045597+07:00",
-  "n_paragraphs": 86,
-  "n_chunks": 5,
-  "chunk_size": 20,
-  "czbooks_url": "https://czbooks.net/n/sk52b1bp08h/sk2h8?chapterNumber=67"
+  "chapter": 68,
+  "title": "Chương 68: Chiếc nhẫn trị giá một ức",
+  "word_count": 1650,
+  "blackening_value": 81,
+  "status": "qc_passed"
 }

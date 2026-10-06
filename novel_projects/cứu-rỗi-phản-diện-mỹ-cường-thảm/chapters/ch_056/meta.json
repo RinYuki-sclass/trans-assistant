@@ -1,9 +1,11 @@
 {
   "chapter_id": "ch_056",
-  "title": "Chương 56: 第56頁",
-  "imported_at": "2026-10-04T20:42:38.470004+07:00",
-  "n_paragraphs": 76,
-  "n_chunks": 4,
-  "chunk_size": 20,
-  "czbooks_url": "https://czbooks.net/n/sk52b1bp08h/sk243?chapterNumber=55"
+  "chapter_number": 56,
+  "title": "Chương 56: Maltese 19",
+  "status": "QC_PASSED",
+  "source_paragraphs": 76,
+  "translated_paragraphs": 76,
+  "word_count": 2580,
+  "qc_score": 1.0,
+  "last_updated": "2026-10-06T11:47:00+07:00"
 }

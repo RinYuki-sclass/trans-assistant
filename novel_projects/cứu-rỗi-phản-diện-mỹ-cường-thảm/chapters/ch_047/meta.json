@@ -1,9 +1,11 @@
 {
   "chapter_id": "ch_047",
-  "title": "Chương 47: 第47頁",
-  "imported_at": "2026-10-04T20:42:31.999225+07:00",
-  "n_paragraphs": 92,
-  "n_chunks": 5,
-  "chunk_size": 20,
-  "czbooks_url": "https://czbooks.net/n/sk52b1bp08h/sk251?chapterNumber=46"
+  "chapter_number": 47,
+  "title": "Chương 47: Maltese 10",
+  "status": "QC_PASSED",
+  "source_paragraphs": 92,
+  "translated_paragraphs": 92,
+  "word_count": 2666,
+  "qc_score": 1.0,
+  "last_updated": "2026-10-06T11:26:00+07:00"
 }

@@ -1,9 +1,11 @@
 {
   "chapter_id": "ch_055",
-  "title": "Chương 55: 第55頁",
-  "imported_at": "2026-10-04T20:42:37.705787+07:00",
-  "n_paragraphs": 88,
-  "n_chunks": 5,
-  "chunk_size": 20,
-  "czbooks_url": "https://czbooks.net/n/sk52b1bp08h/sk24i?chapterNumber=54"
+  "chapter_number": 55,
+  "title": "Chương 55: Maltese 18",
+  "status": "QC_PASSED",
+  "source_paragraphs": 88,
+  "translated_paragraphs": 88,
+  "word_count": 2720,
+  "qc_score": 1.0,
+  "last_updated": "2026-10-06T11:43:00+07:00"
 }

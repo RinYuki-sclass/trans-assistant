@@ -1,9 +1,7 @@
 {
-  "chapter_id": "ch_062",
-  "title": "Chương 62: 第62頁",
-  "imported_at": "2026-10-04T20:42:46.318039+07:00",
-  "n_paragraphs": 83,
-  "n_chunks": 5,
-  "chunk_size": 20,
-  "czbooks_url": "https://czbooks.net/n/sk52b1bp08h/sk2k4?chapterNumber=61"
+  "chapter": 62,
+  "title": "Chương 62: Trông như thế nào?",
+  "word_count": 1460,
+  "blackening_value": 76,
+  "status": "qc_passed"
 }

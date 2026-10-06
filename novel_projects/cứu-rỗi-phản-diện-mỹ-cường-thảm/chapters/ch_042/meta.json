@@ -1,9 +1,11 @@
 {
   "chapter_id": "ch_042",
-  "title": "Chương 42: 第42頁",
-  "imported_at": "2026-10-04T20:42:28.651555+07:00",
-  "n_paragraphs": 103,
-  "n_chunks": 6,
-  "chunk_size": 20,
-  "czbooks_url": "https://czbooks.net/n/sk52b1bp08h/sk258?chapterNumber=41"
+  "chapter_number": 42,
+  "title": "Chương 42: Maltese 05",
+  "status": "QC_PASSED",
+  "source_paragraphs": 103,
+  "translated_paragraphs": 103,
+  "word_count": 2611,
+  "qc_score": 1.0,
+  "last_updated": "2026-10-06T11:08:00+07:00"
 }
