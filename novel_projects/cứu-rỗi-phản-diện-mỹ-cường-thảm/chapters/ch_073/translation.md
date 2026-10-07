@@ -86,7 +86,7 @@ Thanh âm từng bị chôn vùi sâu kín trong ký ức bao nhiêu năm trời
 
 Hai người rõ ràng trạc tuổi nhau, thế nhưng phong thái diện mạo lại khác biệt một trời một vực.
 
-Sau khi nhìn rõ gương mặt của Lục Đảo Phong, Trần Cận bất động thanh sắc nghiêng đầu sang một bên, lạnh giọng cất tiếng: “Thế mà lại là mày, Lục Đảo Phong.”
+Sau khi nhìn rõ gương mặt của Lục Đảo Phong, Trần Cận bất động thanh sắc nghiêng đầu sang một bên, lạnh giọng cất tiếng: “Thế mà lại là đệ, Lục Đảo Phong.”
 
 “Về đi con.” Trần Cận quay sang bảo đứa bé đang đứng run rẩy sợ sệt phía sau.
 
@@ -94,43 +94,43 @@ Sau khi nhìn rõ gương mặt của Lục Đảo Phong, Trần Cận bất đ�
 
 Lục Đảo Phong đưa mắt săm soi đánh giá người đàn ông trước mắt từ trên xuống dưới, khoảnh khắc ánh nhìn chạm phải ống quần bên phải trống huơ trống hoác đung đưa của lão, mi mắt gã giật giật nảy lên một cái dữ dội. Gã vội dời ánh mắt đi chỗ khác, che giấu đi sự chột dạ thoáng lướt qua trong đáy lòng.
 
-“Đồ đệ của huynh tìm tới tận nhà tao, báo cho tao biết huynh sắp chết rồi.”
+“Đồ đệ của huynh tìm tới tận nhà ta, báo cho ta biết huynh sắp chết rồi.”
 
-Vẻ mặt Lục Đảo Phong lạnh tanh: “Nó còn dám uy hiếp tao, bảo sẽ đem toàn bộ tội trạng của tao công khai cho cả thiên hạ biết.”
+Vẻ mặt Lục Đảo Phong lạnh tanh: “Nó còn dám uy hiếp ta, bảo sẽ đem toàn bộ tội trạng của ta công khai cho cả thiên hạ biết.”
 
-“Cuối cùng mày cũng chịu thừa nhận rồi, chuyện năm đó chính là do mày làm, đúng không?” Trần Cận nhìn xoáy vào mắt Lục Đảo Phong, nơi đáy mắt vào giờ phút này bỗng trào dâng một nỗi bi thương xót xa tột cùng.
+“Cuối cùng đệ cũng chịu thừa nhận rồi, chuyện năm đó chính là do đệ làm, đúng không?” Trần Cận nhìn xoáy vào mắt Lục Đảo Phong, nơi đáy mắt vào giờ phút này bỗng trào dâng một nỗi bi thương xót xa tột cùng.
 
-“Phải, là tao làm đấy,” vẻ mặt Lục Đảo Phong xuất hiện một vết nứt rạn, gã gằn giọng hỏi ngược lại, “Thì đã làm sao nào?”
+“Phải, là ta làm đấy,” vẻ mặt Lục Đảo Phong xuất hiện một vết nứt rạn, gã gằn giọng hỏi ngược lại, “Thì đã làm sao nào?”
 
-“Là tại huynh! Năm đó huynh không chịu nhường cơ hội ấy cho tao, tao bắt buộc phải đoạt lấy vị trí gia chủ Lục gia bằng mọi giá!”
+“Là tại huynh! Năm đó huynh không chịu nhường cơ hội ấy cho ta, ta bắt buộc phải đoạt lấy vị trí gia chủ Lục gia bằng mọi giá!”
 
 Cảm xúc Lục Đảo Phong kích động dữ dội, hung tàn rống lên.
 
-Mí mắt Trần Cận run rẩy bần bật, lão nhắm nghiền hai mắt lại: “Bây giờ mày dám thừa nhận tội ác trước mặt tao, không sợ tao kiện mày ra tòa sao?”
+Mí mắt Trần Cận run rẩy bần bật, lão nhắm nghiền hai mắt lại: “Bây giờ đệ dám thừa nhận tội ác trước mặt ta, không sợ ta kiện đệ ra tòa sao?”
 
-Lục Đảo Phong cười khẩy một tiếng đầy mỉa mai: “Huynh mà muốn kiện thì đã kiện từ lâu rồi! Huynh so với thằng đồ đệ của huynh biết thức thời hơn nhiều, biết rõ cái loại người thấp hèn dưới đáy xã hội như chúng mày, dẫu có chết đi chăng nữa thì cũng đừng hòng làm tổn hại nổi một sợi lông chân của Lục Đảo Phong tao!”
+Lục Đảo Phong cười khẩy một tiếng đầy mỉa mai: “Huynh mà muốn kiện thì đã kiện từ lâu rồi! Huynh so với thằng đồ đệ của huynh biết thức thời hơn nhiều, biết rõ cái loại người thấp hèn dưới đáy xã hội như các người, dẫu có chết đi chăng nữa thì cũng đừng hòng làm tổn hại nổi một sợi lông chân của Lục Đảo Phong ta!”
 
-“Nếu mày không sợ, vậy hôm nay mày cất công tới đây tìm tao làm gì?”
+“Nếu đệ không sợ, vậy hôm nay đệ cất công tới đây tìm ta làm gì?”
 
 Trần Cận cười khổ một tiếng.
 
 “Huynh chắc chắn không muốn nhìn thấy thằng Thần Vũ kia dẫm vào vết xe đổ tàn phế của huynh đâu nhỉ?” Lục Đảo Phong đột ngột chuyển hướng câu chuyện.
 
-“Mày muốn làm gì nó?” Trần Cận mở bừng hai mắt, ánh nhìn sắc lẹm tựa lưỡi dao găm đâm thẳng vào Lục Đảo Phong.
+“Đệ muốn làm gì nó?” Trần Cận mở bừng hai mắt, ánh nhìn sắc lẹm tựa lưỡi dao găm đâm thẳng vào Lục Đảo Phong.
 
-“Huynh có biết không, bộ phim Thần Vũ đóng chính năm nay đã gửi đi dự thi rồi đấy. Tao đã đi nghe ngóng phong thanh nội bộ, Ảnh đế của giải thưởng Cành Cây Bạc năm nay, xác suất rất cao sẽ thuộc về nó.” Lục Đảo Phong nhàn nhạt thốt ra những lời thâm độc tàn nhẫn nhất:
+“Huynh có biết không, bộ phim Thần Vũ đóng chính năm nay đã gửi đi dự thi rồi đấy. Ta đã đi nghe ngóng phong thanh nội bộ, Ảnh đế của giải thưởng Cành Cây Bạc năm nay, xác suất rất cao sẽ thuộc về nó.” Lục Đảo Phong nhàn nhạt thốt ra những lời thâm độc tàn nhẫn nhất:
 
 “Tuy rằng chỉ là một giải thưởng trong nước, nhưng huynh cũng biết rõ đấy, khởi điểm chứng đạo của tất cả các diễn viên võ thuật hành động đều bắt đầu từ nó.”
 
-“Thế nhưng thằng nhóc đó lại dám đem chuyện năm xưa của huynh ra để uy hiếp tao. Huynh biết rõ tính tao rồi đấy, một khi ép tao vào đường cùng thì chẳng có kết cục tốt đẹp nào đâu.”
+“Thế nhưng thằng nhóc đó lại dám đem chuyện năm xưa của huynh ra để uy hiếp ta. Huynh biết rõ tính ta rồi đấy, một khi ép ta vào đường cùng thì chẳng có kết cục tốt đẹp nào đâu.”
 
 Trần Cận lặng lẽ nhìn trừng trừng Lục Đảo Phong, trong con ngươi đục ngầu như có những tia lửa vô danh đang nhảy múa sục sôi.
 
 Lão biết rõ... Thần Vũ của lão nhất định sẽ thành công vang dội.
 
-“Tao hiểu rồi.” Giọng Trần Cận run rẩy kịch liệt, lão nhắm mắt lại, chầm chậm quay chiếc xe lăn đi.
+“Ta hiểu rồi.” Giọng Trần Cận run rẩy kịch liệt, lão nhắm mắt lại, chầm chậm quay chiếc xe lăn đi.
 
-“Mày cút đi. Tao cam đoan với mày, Thần Vũ tuyệt đối sẽ không làm tổn hại một sợi lông tơ nào của Lục Đảo Phong mày cả.”
+“Đệ cút đi. Ta cam đoan với đệ, Thần Vũ tuyệt đối sẽ không làm tổn hại một sợi lông tơ nào của Lục Đảo Phong đệ cả.”
 
 -
 

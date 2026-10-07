@@ -1,0 +1,20 @@
+{
+  "title": "Phản Diện Đổi Ý Cầm Kịch Bản Yêu Đương [Khoái Xuyên]",
+  "author": "什司 (Thập Tư)",
+  "description": "Trong tiểu thuyết luôn có những nhân vật phản diện như vậy: Bọn họ tang tâm bệnh cuồng, nhiệt tình tìm chuyện gây sự với nhân vật chính, tiền kỳ lợi hại hậu kỳ giảm IQ, bôn ba trên con đường tự tìm đường chết để làm bàn đạp cho nhân vật chính thành công, cuối cùng rơi vào kết cục tan xương nát thịt.\nThế nhưng một ngày nọ, nhân vật phản diện đột nhiên thức tỉnh ý thức, lại còn bị trói buộc với Hệ thống Yêu đương, ép phải đi theo đuổi chính nhân vật chính thiên mệnh mà mình từng đắc tội thấu xương...\n\n* Thế giới 1 (Chương 1 - 30 | Trang 1 - 64): Hiện đại học đường — Bạch Huân (công) x Tần Diễm (thụ)\n* Thế giới 2 (Chương 31 - 58 | Trang 65 - 124): Mạt thế tang thi — Sở Niên Niên (công) x Cố Xuyên (thụ)\n* Thế giới 3 (Chương 59 - 88 | Trang 125 - 183): Tinh tế trùng tộc — Gavin (công) x Eli (thụ)\n* Thế giới 4 (Chương 89 - 118 | Trang 184 - 245): ABO — Kỷ Cảnh (công) x Lục Tư Niên (thụ)",
+  "slug": "phản-diện-đổi-ý-cầm-kịch-bản-yêu-đương",
+  "source_lang": "Chinese",
+  "target_lang": "Vietnamese",
+  "raw_links": {
+    "czbooks_overview": "https://czbooks.net/n/skdocoml0kd",
+    "czbooks_first_chapter": "https://czbooks.net/n/skdocoml0kd/sk2e5?chapterNumber=0",
+    "jjwxc": "https://www.jjwxc.net/onebook.php?novelid=675895",
+    "novelupdates": "https://www.novelupdates.com/series/villain-switches-to-romance-script-quick-transmigration/"
+  },
+  "style_guide": "Truyện đam mỹ khoái xuyên, đơn nguyên văn (mỗi thế giới là một cặp công thụ riêng biệt), chủ công, hệ thống, điềm văn (ngọt sủng), 1v1, HE.\n\nQUY TẮC BẮT BUỘC:\n1. Định dạng đoạn văn: Bắt buộc cách nhau đúng 1 dòng trống (\\n\\n) giữa các đoạn và lời thoại. Tuyệt đối không dính liền dòng (\\n).\n2. Dấu ngoặc thoại: Lời thoại dùng ngoặc kép chuẩn tiếng Việt “...”, không dùng gạch ngang đầu dòng (— ...).\n3. Ngôi 3 trần thuật (Tự sự):\n   - Nhân vật Công của mỗi thế giới: Dùng 'anh' (hoặc 'hắn' tùy bối cảnh) trong văn trần thuật ngôi 3.\n   - Nhân vật Thụ của mỗi thế giới: Dùng 'cậu' trong văn trần thuật ngôi 3 (tuyệt đối KHÔNG dùng 'anh' cho Thụ để tránh nhầm lẫn).\n4. Đối thoại Công - Thụ: Xưng hô rõ ràng, ăn khớp tính cách và bối cảnh, tuyệt đối không xưng hô lộn xộn hoặc cả hai cùng gọi nhau là 'anh'.",
+  "confidence_threshold": 0.8,
+  "chunk_size": 20,
+  "created_at": "2026-10-07T11:01:00+07:00",
+  "chapters_count": 118,
+  "czbooks_pages_count": 245
+}

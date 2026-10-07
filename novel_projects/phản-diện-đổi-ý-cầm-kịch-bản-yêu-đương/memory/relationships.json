@@ -1,0 +1,46 @@
+[
+  {
+    "world": "Arc 1: Hiện đại học đường (Chương 1 - 30 | CZBooks Trang 1 - 64)",
+    "character_1": "Bạch Huân",
+    "character_2": "Tần Diễm",
+    "relation_type": "Công - Thụ (Phản diện tâm cơ thức tỉnh × Đại thiếu gia cuồng ngạo ngạo kiều)",
+    "description": "Bạch Huân ban đầu đóng vai phản diện đối đầu, sau khi thức tỉnh bị Hệ thống ép đổi kịch bản sang theo đuổi và tán tỉnh Tần Diễm.",
+    "pronoun_rules": {
+      "bach_huan_to_tan_diem": "Tôi - Cậu / em / bạn trai (thống nhất tôi - cậu do bằng tuổi)",
+      "tan_diem_to_bach_huan": "Tôi - Cậu (thống nhất 100% tôi - cậu do bằng tuổi, không dùng tao - mày)"
+    }
+  },
+  {
+    "world": "Arc 2: Mạt thế tang thi (Chương 31 - 58 | CZBooks Trang 65 - 124)",
+    "character_1": "Sở Niên Niên",
+    "character_2": "Cố Xuyên",
+    "relation_type": "Công - Thụ (Trà hệ dây tơ hồng × Lãnh tình bá đạo đại lão)",
+    "description": "Sở Niên Niên từ kẻ muốn hủy hoại đại lão chuyển sang quấn quýt làm nũng, khiến đại lão Cố Xuyên mê đắm bảo bọc.",
+    "pronoun_rules": {
+      "so_nien_nien_to_co_xuyen": "Tôi / em - Anh / ca ca / Cố ca",
+      "co_xuyen_to_so_nien_nien": "Tôi - Cậu / em"
+    }
+  },
+  {
+    "world": "Arc 3: Tinh tế trùng tộc (Chương 59 - 88 | CZBooks Trang 125 - 183)",
+    "character_1": "Gavin",
+    "character_2": "Eli",
+    "relation_type": "Công - Thụ (Hùng trùng quý tộc kiêu căng nhát gan × Quân thư thiếu tướng âm ngoan ẩn nhẫn)",
+    "description": "Hùng trùng Gavin ngoài mặt làm bộ hung hăng nhưng thực chất sợ quân thư phản sát; quân thư Eli trung thành và si mê phục tùng hùng chủ.",
+    "pronoun_rules": {
+      "gavin_to_eli": "Ta - Ngươi / em (các cặp: ta – ngươi, ta – em; tuyệt đối không dùng 'tôi')",
+      "eli_to_gavin": "Ta / thần / em - Ngài / hùng chủ (các cặp: ta/thần – ngài; tuyệt đối không dùng 'tôi')"
+    }
+  },
+  {
+    "world": "Arc 4: ABO (Chương 89 - 118 | CZBooks Trang 184 - 245)",
+    "character_1": "Kỷ Cảnh",
+    "character_2": "Lục Tư Niên",
+    "relation_type": "Công niên hạ - Thụ (Alpha học viên chiến lực khủng thích giả gái trêu thụ × Cựu chỉ huy / Giáo sư Omega cấm dục lớn tuổi hơn)",
+    "description": "Alpha Kỷ Cảnh nhỏ tuổi hơn Lục Tư Niên, dùng chiêu mặc đồ nữ/thỏ nữ lang trêu chọc và công lược giáo sư Lục Tư Niên, khiến Lục giáo sư vừa bất đắc dĩ vừa say đắm.",
+    "pronoun_rules": {
+      "ky_canh_to_luc_tu_nien": "Em / tôi - Thầy Lục / anh / anh Lục",
+      "luc_tu_nien_to_ky_canh": "Tôi / anh - Cậu / em / Kỷ Cảnh"
+    }
+  }
+]

@@ -44,6 +44,10 @@
 ---
 
 ## 4. QUY TẮC XƯNG HÔ ĐỐI THOẠI
+### ⚠️ QUY TẮC ĐỒNG BỘ CẶP ĐẠI TỪ:
+- **"Tao" LUÔN đi với "mày":** Trong xưng hô đối thoại, đại từ **"tao"** bắt buộc phải đi đôi đồng bộ với **"mày"** (cặp chuẩn: `tao - mày` / `chúng tao - chúng mày` / `bọn tao - bọn mày`).
+- **Tuyệt đối KHÔNG ghép lệch pha:** Không dùng các cặp lai tạp như `tao - cậu`, `tao - anh`, `tao - em`, `tôi - mày`.
+
 * **Thế giới 1 (Alaska x Bá tổng Phó Vân Xuyên):**
   - **Phó Vân Xuyên ↔ Giang Minh Lãng (dạng người):** Phó Vân Xuyên xưng **"tôi - cậu"**; Giang Minh Lãng xưng **"tôi - anh / Phó tiên sinh"**.
   - **Phó Vân Xuyên ↔ Cún Alaska:** Phó Vân Xuyên dùng **"tao - mày"** (kể cả lúc quát mắng lẫn khi dịu giọng / tâm sự). Cún Alaska sủa "Gâu! / Ư ử!" (tiếng lòng xưng "tôi / ta").

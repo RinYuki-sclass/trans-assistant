@@ -50,7 +50,7 @@ Lời vừa thốt ra, cả khán phòng lập tức nổ tung như ong vỡ t�
 
 “Mã đạo diễn... người không nhìn nhầm đấy chứ ạ...” Có người không nhịn được hoang mang cất tiếng hỏi.
 
-“Mày dám nghi ngờ mắt nhìn của tao?” Mã đạo diễn cười khẩy một tiếng, “Khoan hẵng bàn tới thương hiệu, chỉ riêng sắc thái, lửa quang cùng độ thuần khiết không tì vết của viên đá quý này thôi cũng đã là bảo vật hiếm thấy trên trần đời rồi!”
+“Cậu dám nghi ngờ mắt nhìn của tôi?” Mã đạo diễn cười khẩy một tiếng, “Khoan hẵng bàn tới thương hiệu, chỉ riêng sắc thái, lửa quang cùng độ thuần khiết không tì vết của viên đá quý này thôi cũng đã là bảo vật hiếm thấy trên trần đời rồi!”
 
 Mọi người lập tức im bặt như ve sầu mùa đông. Quả thật, ở hiện trường hôm nay không có một ai có đủ tư cách và thẩm quyền chuyên môn cao hơn Mã đạo diễn.
 
@@ -66,15 +66,15 @@ Anh đột ngột đứng bật dậy, chẳng màng đến bất cứ điều g
 
 Thấy xung quanh đã không còn ai, anh lập tức buột miệng hỏi dồn dập: “Mã đạo diễn, có phải chú đang nói dối không? Chú nói thế là để giúp cháu giải vây thôi có đúng không?”
 
-“Thằng nhóc này sao bóp chặt tay tao thế!” Mã đạo diễn kêu đau một tiếng, khó hiểu trừng mắt nhìn Thần Vũ, “Tao nói dối cái con khỉ gì chứ! Mày dám nghi ngờ uy tín chuyên môn của bản đạo diễn này à? Lời tao đã đặt ở đây rồi, mày cứ việc mang đi cho bất kỳ chuyên gia đá quý hàng đầu nào giám định, viên bảo thạch này đích thị là viên xuất hiện trong buổi đấu giá nước C năm năm trước!”
+“Thằng nhóc này sao bóp chặt tay tôi thế!” Mã đạo diễn kêu đau một tiếng, khó hiểu trừng mắt nhìn Thần Vũ, “Tôi nói dối cái con khỉ gì chứ! Cậu dám nghi ngờ uy tín chuyên môn của bản đạo diễn này à? Lời tôi đã đặt ở đây rồi, cậu cứ việc mang đi cho bất kỳ chuyên gia đá quý hàng đầu nào giám định, viên bảo thạch này đích thị là viên xuất hiện trong buổi đấu giá nước C năm năm trước!”
 
-Cảm xúc Mã đạo diễn vẫn còn sục sôi, thấy Thần Vũ cứ như kẻ mất hồn mất vía liền khó hiểu bảo: “Mày hoài nghi cái nỗi gì chứ? Chẳng phải chiếc nhẫn này là do Bạch thiếu gia tặng mày sao, dựa vào khối tài sản khổng lồ của Bạch gia thì tặng mày chiếc nhẫn này cũng đâu có gì là kỳ lạ?”
+Cảm xúc Mã đạo diễn vẫn còn sục sôi, thấy Thần Vũ cứ như kẻ mất hồn mất vía liền khó hiểu bảo: “Cậu hoài nghi cái nỗi gì chứ? Chẳng phải chiếc nhẫn này là do Bạch thiếu gia tặng cậu sao, dựa vào khối tài sản khổng lồ của Bạch gia thì tặng cậu chiếc nhẫn này cũng đâu có gì là kỳ lạ?”
 
 Thanh âm của Thần Vũ run rẩy kịch liệt: “Vậy chú có biết năm đó chiếc nhẫn bị ai đấu giá mua lại không?”
 
-Mã đạo diễn lắc lắc đầu: “Buổi đấu giá đó hoàn toàn ẩn danh, nhân vật đại phú hào tầm cỡ thế giới cỡ đó làm sao tao biết được là ai.”
+Mã đạo diễn lắc lắc đầu: “Buổi đấu giá đó hoàn toàn ẩn danh, nhân vật đại phú hào tầm cỡ thế giới cỡ đó làm sao tôi biết được là ai.”
 
-“À đúng rồi, báo cho mày thêm một tin vui cực lớn nữa nhé, giải Nam diễn viên chính xuất sắc nhất của giải thưởng Cành Cây Bạc năm nay, xác suất rất cao sẽ thuộc về mày đấy.” Mã đạo diễn nháy mắt ra hiệu với Thần Vũ, nhưng đổi lại chẳng nhận được bất kỳ phản hồi rơi nước mắt vì cảm động nào từ phía anh.
+“À đúng rồi, báo cho cậu thêm một tin vui cực lớn nữa nhé, giải Nam diễn viên chính xuất sắc nhất của giải thưởng Cành Cây Bạc năm nay, xác suất rất cao sẽ thuộc về cậu đấy.” Mã đạo diễn nháy mắt ra hiệu với Thần Vũ, nhưng đổi lại chẳng nhận được bất kỳ phản hồi rơi nước mắt vì cảm động nào từ phía anh.
 
 Thấy Thần Vũ vẫn cứ đờ đẫn hồn xiêu phách lạc như cũ, Mã đạo diễn chỉ cảm thấy quái dị khôn tả, vừa lắc đầu vừa xoay người bỏ đi.
 

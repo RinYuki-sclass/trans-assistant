@@ -1,0 +1,182 @@
+[
+  {
+    "original": "[Ngôi 3 Tự sự] Nhân vật Công (Bạch Huân)",
+    "translation": "anh",
+    "hanviet": "",
+    "category": "pronoun",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Công là nhân vật DUY NHẤT dùng 'anh' ở ngôi 3 trần thuật. Tuyệt đối KHÔNG dùng 'anh' cho Thụ."
+  },
+  {
+    "original": "[Ngôi 3 Tự sự] Nhân vật Thụ (Tần Diễm)",
+    "translation": "cậu",
+    "hanviet": "",
+    "category": "pronoun",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Thụ luôn dùng 'cậu' trong ngôi 3 trần thuật. Tuyệt đối CẤM dùng 'anh'."
+  },
+  {
+    "original": "[Xưng hô đối thoại] Công -> Thụ (Bình thường)",
+    "translation": "tôi - cậu",
+    "hanviet": "",
+    "category": "pronoun",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Bạch Huân xưng hô ban đầu với Tần Diễm."
+  },
+  {
+    "original": "[Xưng hô đối thoại] Công -> Thụ (Tán tỉnh / trêu chọc)",
+    "translation": "anh - em / tôi - cậu",
+    "hanviet": "",
+    "category": "pronoun",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Bạch Huân trêu chọc tỏ tình: 'làm bạn trai tôi đi' / 'anh thương em'."
+  },
+  {
+    "original": "[Xưng hô đối thoại] Thụ -> Công (Lúc cáu giận)",
+    "translation": "ông đây / tao - mày",
+    "hanviet": "",
+    "category": "pronoun",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Lưu ý quy tắc: Nếu dùng 'tao' thì bắt buộc phải đi cùng 'mày'."
+  },
+  {
+    "original": "恋爱系统",
+    "translation": "Hệ thống Yêu Đương",
+    "hanviet": "Luyến Ái Hệ Thống",
+    "category": "system",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Hệ thống giao nhiệm vụ tình cảm cho phản diện."
+  },
+  {
+    "original": "快穿",
+    "translation": "khoái xuyên / xuyên nhanh",
+    "hanviet": "khoái xuyên",
+    "category": "term",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Thể loại truyện xuyên qua nhiều thế giới."
+  },
+  {
+    "original": "菟丝子",
+    "translation": "dây tơ hồng",
+    "hanviet": "thỏ ti tử",
+    "category": "term",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Hình ảnh ẩn dụ cho người sống dựa dẫm, ăn bám vào người khác."
+  },
+  {
+    "original": "雄虫",
+    "translation": "hùng trùng",
+    "hanviet": "hùng trùng",
+    "category": "term",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Thuật ngữ bối cảnh Trùng tộc (con đực quý hiếm)."
+  },
+  {
+    "original": "雌虫",
+    "translation": "thư trùng",
+    "hanviet": "thư trùng",
+    "category": "term",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Thuật ngữ bối cảnh Trùng tộc."
+  },
+  {
+    "original": "军雌",
+    "translation": "quân thư",
+    "hanviet": "quân thư",
+    "category": "term",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Thư trùng trong quân đội."
+  },
+  {
+    "original": "[Ngôi 3 Tự sự Arc 3] Gavin (加文)",
+    "translation": "hắn",
+    "hanviet": "",
+    "category": "pronoun",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Gavin dùng 'hắn' ở ngôi 3 trần thuật."
+  },
+  {
+    "original": "[Ngôi 3 Tự sự Arc 3] Eli (伊莱)",
+    "translation": "y",
+    "hanviet": "",
+    "category": "pronoun",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Eli luôn dùng 'y' ở ngôi 3 trần thuật. Tuyệt đối KHÔNG dùng 'anh'."
+  },
+  {
+    "original": "[Xưng hô đối thoại Arc 3 Trùng tộc]",
+    "translation": "Thống nhất 100% dùng 'ta' thay cho 'tôi'. Áp dụng: ta – ngươi, ta – ngài, ta – em.",
+    "hanviet": "",
+    "category": "pronoun",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Trong Arc 3, tuyệt đối KHÔNG dùng từ 'tôi' trong bất kỳ câu thoại nào."
+  },
+  {
+    "original": "雄主",
+    "translation": "hùng chủ",
+    "hanviet": "hùng chủ",
+    "category": "term",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Danh xưng tôn kính tuyệt đối quân thư gọi người bạn đời của mình."
+  },
+  {
+    "original": "骨翅",
+    "translation": "cốt dực",
+    "hanviet": "cốt dực",
+    "category": "term",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Cánh xương chiến đấu của quân thư."
+  },
+  {
+    "original": "虫纹",
+    "translation": "trùng văn",
+    "hanviet": "trùng văn",
+    "category": "term",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Hoa văn tinh thần lực trên cơ thể trùng tộc."
+  },
+  {
+    "original": "[Ngôi 3 Tự sự Arc 4] Kỷ Cảnh (纪景)",
+    "translation": "cậu",
+    "hanviet": "",
+    "category": "pronoun",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Kỷ Cảnh nhỏ tuổi hơn Lục Tư Niên, ngôi 3 trần thuật dùng 'cậu' (tuyệt đối KHÔNG dùng 'anh')."
+  },
+  {
+    "original": "[Ngôi 3 Tự sự Arc 4] Lục Tư Niên (陆斯年)",
+    "translation": "anh",
+    "hanviet": "",
+    "category": "pronoun",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Lục Tư Niên lớn tuổi hơn Kỷ Cảnh, ngôi 3 trần thuật dùng 'anh' (tuyệt đối KHÔNG dùng 'cậu')."
+  },
+  {
+    "original": "[Xưng hô đối thoại Arc 4 ABO niên hạ]",
+    "translation": "Kỷ Cảnh: em/tôi - thầy Lục/anh; Lục Tư Niên: tôi/anh - cậu/em",
+    "hanviet": "",
+    "category": "pronoun",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Quan hệ niên hạ. Kỷ Cảnh xưng em/tôi gọi thầy Lục/anh; Lục Tư Niên xưng tôi/anh gọi cậu/em."
+  }
+]

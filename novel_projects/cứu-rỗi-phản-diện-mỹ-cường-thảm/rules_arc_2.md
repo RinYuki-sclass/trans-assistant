@@ -30,11 +30,12 @@ description: Quy chuẩn dịch thuật, xưng hô, đại từ và nhân vật 
 ---
 
 ## 3. QUY TẮC XƯNG HÔ ĐỐI THOẠI (HONORIFICS & SPEECH)
+- ⚠️ **QUY TẮC ĐỒNG BỘ CẶP ĐẠI TỪ:** Trong xưng hô đối thoại, đại từ **"tao"** LUÔN PHẢI ĐI ĐÔI VỚI **"mày"** (`tao - mày` / `chúng tao - chúng mày` / `bọn tao - bọn mày`). Tuyệt đối **KHÔNG** ghép lệch pha: không dùng `tao - cậu`, `tao - anh`, `tao - em`, `tôi - mày`.
 - **Thần Vũ ↔ Bạch Dữ Nhĩ (khi ở lốt người):**
   - Thần Vũ: Xưng **"tôi - cậu"** hoặc gọi trêu đùa cưng nựng: *“nhóc con / đại thiếu gia / nhóc hư / cún hư nhỏ”*.
   - Bạch Dữ Nhĩ: Xưng **"tôi - anh"** *(giọng ngạo kiều, kiêu kỳ, đanh đá nhưng dễ xấu hổ)*.
 - **Thần Vũ ↔ Cún Maltese:**
-  - Thần Vũ: Xưng **"tao - mày"** hoặc **"anh - mày / cún con / chó nhỏ"**.
+  - Thần Vũ: Xưng **"tao - mày"** hoặc **"anh - cún con / chó nhỏ"** *(không ghép 'anh - mày')*.
   - Cún Maltese: Sủa *Ăng ẳng! / Gâu!* *(độc thoại nội tâm xưng "tôi / ta")*.
 - **Bạch Dữ Nhĩ ↔ Ba (Bạch Thiên Thạch):** Xưng hô phụ tử ấm áp: **"con - ba"** *(Ba gọi con là "tiểu Nhĩ / con trai")*.
 - **Bạch Dữ Nhĩ ↔ Hệ thống Tiểu Cầu:**
@@ -44,6 +45,12 @@ description: Quy chuẩn dịch thuật, xưng hô, đại từ và nhân vật 
   - Bạch Dữ Nhĩ / Thần Vũ: Xưng **"tôi - chú / anh / bác"** hoặc ra lệnh ngắn gọn.
   - Cấp dưới / Tài xế: Xưng **"tôi - tiểu thiếu gia / Thần ca / Thần lão sư"**.
 - **Thần Vũ ↔ Đám phóng viên / Lục Tử Nghi:** Xưng **"tao - chúng mày / mày"** *(bất cần, giễu cợt, gai góc)*.
+- **Trần Cận ↔ Lục Đảo Phong (Gia chủ Lục gia):**
+  - Trần Cận: Xưng **"ta"**, gọi **"đệ"**.
+  - Lục Đảo Phong: Xưng **"ta"**, gọi **"huynh"**.
+- **Đạo diễn Mã ↔ Thần Vũ:**
+  - Đạo diễn Mã: Xưng **"tôi"**, gọi **"cậu"**.
+  - Thần Vũ: Xưng **"tôi"**, gọi **"đạo diễn Mã"**.
 
 ---
 

@@ -4,35 +4,35 @@ title: Chương 80: Muốn sờ thì về nhà
 
 Lục Đảo Phong cười lạnh một tiếng, quay mặt sang chỗ khác.
 
-Trần Cận chẳng hề bận tâm, vẫn tự mình chậm rãi cất lời: “Mày có còn nhớ không, ngày hôm đó thực ra chính là ngày sinh nhật của mày đấy.”
+Trần Cận chẳng hề bận tâm, vẫn tự mình chậm rãi cất lời: “Đệ có còn nhớ không, ngày hôm đó thực ra chính là ngày sinh nhật của đệ đấy.”
 
 Đồng tử Lục Đảo Phong co rút mạnh mẽ.
 
-“Trước ngày hôm đó, mày từng tha thiết cầu xin tao nhường vai diễn nam chính kia lại cho mày, tao đã một lời từ chối.”
+“Trước ngày hôm đó, đệ từng tha thiết cầu xin ta nhường vai diễn nam chính kia lại cho đệ, ta đã một lời từ chối.”
 
-“Thực ra tao lừa mày đấy.”
+“Thực ra ta lừa đệ đấy.”
 
-“Tao biết rõ, vai diễn đó đối với mày quan trọng đến nhường nào. Tao cũng biết, chiếc ghế người thừa kế gia chủ Lục gia đối với mày là chuyện hệ trọng nhất trên cõi đời này.”
+“Ta biết rõ, vai diễn đó đối với đệ quan trọng đến nhường nào. Ta cũng biết, chiếc ghế người thừa kế gia chủ Lục gia đối với đệ là chuyện hệ trọng nhất trên cõi đời này.”
 
-“Tao đã sớm từ chối ký hợp đồng với đoàn làm phim rồi, vốn định bụng sẽ đợi đến đúng ngày sinh nhật của mày mới nói cho mày biết, để tặng cho mày một sự bất ngờ lớn.”
+“Ta đã sớm từ chối ký hợp đồng với đoàn làm phim rồi, vốn định bụng sẽ đợi đến đúng ngày sinh nhật của đệ mới nói cho đệ biết, để tặng cho đệ một sự bất ngờ lớn.”
 
 Đầu mày Lục Đảo Phong nhíu chặt lại dữ dội, gã siết chặt hai nắm đấm trong lòng bàn tay, nghiến chặt răng hàm sau ken két.
 
 “Được rồi... huynh đừng nói nữa...” Giọng gã run rẩy lẩy bẩy thốt lên.
 
-Thế nhưng Trần Cận tựa như không nghe thấy, vẫn tiếp tục nói: “Ngoại trừ món quà bất ngờ đó ra, tao còn có một chuyện quan trọng nữa muốn làm.”
+Thế nhưng Trần Cận tựa như không nghe thấy, vẫn tiếp tục nói: “Ngoại trừ món quà bất ngờ đó ra, ta còn có một chuyện quan trọng nữa muốn làm.”
 
-“Đừng nói nữa!” Lục Đảo Phong gắt gao hung tợn gầm lên.
+“Đừng nói nữa!” Lục Đảo Phong gắt gao hung tàn gầm lên.
 
-“Tao muốn tỏ tình với mày,” Trần Cận cụp rũ mi mắt xuống, khóe môi vẽ nên một nụ cười đắng chát chua xót, “Tiểu Phong à, mày có biết không... tao đã từng thật lòng yêu mày.”
+“Ta muốn tỏ tình với đệ,” Trần Cận cụp rũ mi mắt xuống, khóe môi vẽ nên một nụ cười đắng chát chua xót, “Tiểu Phong à, đệ có biết không... ta đã từng thật lòng yêu đệ.”
 
 Dưới khán đài, Thần Vũ chấn động kinh hoàng mở to hai mắt.
 
-“Đừng nói nữa! Đủ rồi đấy!” Ánh mắt Lục Đảo Phong tựa như những mũi tên độc sắc lẹm ghim thẳng vào khuôn mặt của Trần Cận. Gã điên loạn gào thét như một kẻ mất trí, hai mắt đỏ ngầu tơ máu: “Tao bảo huynh câm mồm lại! Tao không muốn nghe!”
+“Đừng nói nữa! Đủ rồi đấy!” Ánh mắt Lục Đảo Phong tựa như những mũi tên độc sắc lẹm ghim thẳng vào khuôn mặt của Trần Cận. Gã điên loạn gào thét như một kẻ mất trí, hai mắt đỏ ngầu tơ máu: “Ta bảo huynh câm mồm lại! Ta không muốn nghe!”
 
 Lục Đảo Phong tựa như phát điên phát cuồng, đấm thùm thụp liên hồi xuống mặt bàn làm việc, lập tức bị lực lượng cảnh sát tư pháp xông lên đè nghiến chặt xuống bàn.
 
-“Không thể nào... huynh lừa tao...” Lục Đảo Phong không ngừng lặp đi lặp lại câu nói ấy, cố chấp tự thôi miên tẩy não chính bản thân mình: “Là do huynh lừa tao! Huynh muốn tao phải ân hận cắn rứt cả đời! Huynh đang cố tình trả thù tao đúng không!...”
+“Không thể nào... huynh lừa ta...” Lục Đảo Phong không ngừng lặp đi lặp lại câu nói ấy, cố chấp tự thôi miên tẩy não chính bản thân mình: “Là do huynh lừa ta! Huynh muốn ta phải ân hận cắn rứt cả đời! Huynh đang cố tình trả thù ta đúng không!...”
 
 Trần Cận nhắm nghiền hai mắt lại, một giọt nước mắt lăn dài từ khuôn mặt già nua phong sương trượt xuống. Lão chầm chậm xoay chiếc xe lăn đi, không thốt thêm bất kỳ một lời nào nữa.
 

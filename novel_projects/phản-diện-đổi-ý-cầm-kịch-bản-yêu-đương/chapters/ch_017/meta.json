@@ -1,0 +1,13 @@
+{
+  "chapter_id": "ch_017",
+  "title": "Chương 17: Tôi đang theo đuổi Tần thiếu",
+  "word_count": 2002,
+  "paragraph_count": 75,
+  "status": "qc_passed",
+  "updated_at": "2026-10-07 17:08:38+07:00",
+  "qc_audit": {
+    "score": 10,
+    "alignment": "1:1",
+    "pronoun_rules_passed": true
+  }
+}

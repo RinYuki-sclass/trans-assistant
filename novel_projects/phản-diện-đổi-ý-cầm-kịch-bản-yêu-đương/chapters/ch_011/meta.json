@@ -1,0 +1,13 @@
+{
+  "chapter_id": "ch_011",
+  "title": "Chương 11: Tiểu thuyết ngôn tình Mary Sue",
+  "word_count": 2669,
+  "paragraph_count": 98,
+  "status": "qc_passed",
+  "updated_at": "2026-10-07 16:50:59+07:00",
+  "qc_audit": {
+    "score": 10,
+    "alignment": "1:1",
+    "pronoun_rules_passed": true
+  }
+}

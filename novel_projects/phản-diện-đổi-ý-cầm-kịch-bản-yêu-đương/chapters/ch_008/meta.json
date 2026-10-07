@@ -1,0 +1,13 @@
+{
+  "chapter_id": "ch_008",
+  "title": "Chương 8: Cho cậu đấy",
+  "word_count": 2425,
+  "paragraph_count": 81,
+  "status": "qc_passed",
+  "updated_at": "2026-10-07 16:46:36+07:00",
+  "qc_audit": {
+    "score": 10,
+    "alignment": "1:1",
+    "pronoun_rules_passed": true
+  }
+}
