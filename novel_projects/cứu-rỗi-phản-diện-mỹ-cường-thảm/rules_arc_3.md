@@ -32,6 +32,7 @@ description: Quy chuẩn dịch thuật, xưng hô, đại từ và nhân vật 
 ---
 
 ## 3. QUY TẮC XƯNG HÔ ĐỐI THOẠI (HONORIFICS & SPEECH)
+- ⚠️ **QUY TẮC ĐỒNG BỘ CẶP ĐẠI TỪ:** Trong xưng hô đối thoại, đại từ **"tao"** LUÔN PHẢI ĐI ĐÔI VỚI **"mày"** (`tao - mày` / `chúng tao - chúng mày` / `bọn tao - bọn mày`). Tuyệt đối **KHÔNG** ghép lệch pha: không dùng `tao - cậu`, `tao - anh`, `tao - em`, `tôi - mày`.
 - **Thẩm Mặc Bạch ↔ Cố Thừa Minh:**
   - *Giai đoạn đầu (Gả thay / Thăm dò / Đêm tân hôn):*
     - Thẩm Mặc Bạch: Xưng **"ta"** - gọi **"Cố đại nhân / Chỉ huy sứ đại nhân"** hoặc giả nai nũng nịu gọi **"Phu quân"**.

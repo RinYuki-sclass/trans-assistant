@@ -224,4 +224,4 @@ Lục Đảo Phong ở bờ đối diện tựa như bị một tia sét giáng 
 
 Gã ngẩng đầu lên, nét mặt âm lãnh gằn giọng: “Huynh còn ở đây giả vờ tình nghĩa huynh đệ sâu đậm làm cái trò gì nữa chứ!”
 
-Trần Cận nhìn chăm chú vào gã, ánh mắt bình thản phẳng lặng tựa như đang phác họa lại từng đường nét quen thuộc trên gương mặt gã: “Tao có một chuyện... rất muốn nói cho mày biết.”
+Trần Cận nhìn chăm chú vào gã, ánh mắt bình thản phẳng lặng tựa như đang phác họa lại từng đường nét quen thuộc trên gương mặt gã: “Ta có một chuyện... rất muốn nói cho đệ biết.”

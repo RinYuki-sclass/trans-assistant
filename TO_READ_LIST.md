@@ -36,8 +36,11 @@ https://www.novelupdates.com/series/becoming-the-gongs-older-brother/
   - Tấn Giang: https://www.jjwxc.net/onebook.php?novelid=7862084
   - Project đã tạo: `novel_projects/cứu-rỗi-phản-diện-mỹ-cường-thảm/`
 
-- **Cùng tác giả**
-  https://www.novelupdates.com/series/villain-switches-to-romance-script-quick-transmigration/
+- **Phản Diện Đổi Ý Cầm Kịch Bản Yêu Đương [Khoái Xuyên]** (反派改拿恋爱剧本[快穿] - 什司):
+  - NovelUpdates: https://www.novelupdates.com/series/villain-switches-to-romance-script-quick-transmigration/
+  - Raw CZBooks: https://czbooks.net/n/skdocoml0kd
+  - Tấn Giang: https://www.jjwxc.net/onebook.php?novelid=675895
+  - Project đã tạo: `novel_projects/phản-diện-đổi-ý-cầm-kịch-bản-yêu-đương/`
 
   
 

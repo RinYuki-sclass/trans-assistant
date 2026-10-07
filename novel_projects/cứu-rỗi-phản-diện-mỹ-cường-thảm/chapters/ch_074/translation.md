@@ -178,11 +178,11 @@ Lục Đảo Phong ung dung thanh thản đặt chén trà xuống bàn, phất 
 
 Lục Đảo Phong bấm nút điều khiển từ xa, màn hình lớn phía sau lưng Thần Vũ đột nhiên lóe sáng lên một cái, ngay giây tiếp theo, truyền ra giọng nói mà anh quen thuộc đến tận xương tủy——
 
-Lục Đảo Phong: [Trần Cận sư huynh, thằng đồ đệ Thần Vũ của huynh đột nhiên tìm tới tận nhà tao, bảo năm đó là do tao hãm hại huynh bị cắt chân để giữ mạng đấy.]
+Lục Đảo Phong: [Trần Cận sư huynh, thằng đồ đệ Thần Vũ của huynh đột nhiên tìm tới tận nhà ta, bảo năm đó là do ta hãm hại huynh bị cắt chân để giữ mạng đấy.]
 
-Trần Cận: [Xin lỗi đệ, năm đó thằng bé còn quá nhỏ, chẳng hiểu biết chuyện gì cả, có lẽ ký ức cũng không còn nhớ rõ nữa, nhưng tao biết tất cả chỉ là tai nạn ngoài ý muốn mà thôi. Là bọn họ hiểu lầm đệ rồi, đệ đừng để bụng làm gì.]
+Trần Cận: [Xin lỗi đệ, năm đó thằng bé còn quá nhỏ, chẳng hiểu biết chuyện gì cả, có lẽ ký ức cũng không còn nhớ rõ nữa, nhưng ta biết tất cả chỉ là tai nạn ngoài ý muốn mà thôi. Là bọn họ hiểu lầm đệ rồi, đệ đừng để bụng làm gì.]
 
-Lục Đảo Phong: [Thế nếu nó vẫn cứ khăng khăng muốn đem chuyện này ra để uy hiếp tao thì sao?]
+Lục Đảo Phong: [Thế nếu nó vẫn cứ khăng khăng muốn đem chuyện này ra để uy hiếp ta thì sao?]
 
 Trần Cận: [Vậy thì đệ cứ đem đoạn ghi âm này, bật thẳng cho nó nghe.]
 

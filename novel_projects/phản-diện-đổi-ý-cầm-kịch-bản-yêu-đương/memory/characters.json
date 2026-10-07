@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Bạch Huân",
+    "hanviet_name": "Bạch Huân",
+    "original_name": "白昀",
+    "pinyin": "Bái Yún",
+    "gender": "Nam",
+    "third_person_pronoun": "anh",
+    "role": "Công (Arc 1 - Hiện đại học đường), học sinh nghèo tâm cơ, nguyên thân phản diện thức tỉnh",
+    "notes": "Đeo kính gọng vàng, bề ngoài lịch sự nho nhã đóng giả công tử thế gia, bên trong âm u quỷ quyệt, sau khi thức tỉnh bị Hệ thống Yêu Đương ép phải theo đuổi Tần Diễm. Ngôi 3 trần thuật dùng 'anh'."
+  },
+  {
+    "name": "Tần Diễm",
+    "hanviet_name": "Tần Diễm",
+    "original_name": "秦焰",
+    "pinyin": "Qín Yàn",
+    "gender": "Nam",
+    "third_person_pronoun": "cậu",
+    "role": "Thụ (Arc 1 - Hiện đại học đường), thiếu gia rich kid cuồng ngạo, nhân vật chính thiên mệnh",
+    "notes": "Tóc đỏ rực rỡ, mặc đồ da đi moto, tính tình nóng nảy bốc đồng nhưng bản chất thẳng thắn. Ngôi 3 trần thuật luôn dùng 'cậu' (tuyệt đối KHÔNG dùng 'anh')."
+  },
+  {
+    "name": "Sở Niên Niên",
+    "hanviet_name": "Sở Niên Niên",
+    "original_name": "楚年年",
+    "pinyin": "Chǔ Niánnián",
+    "gender": "Nam",
+    "third_person_pronoun": "anh / cậu",
+    "role": "Công (Arc 2 - Mạt thế tang thi), dây tơ hồng trà xanh tâm cơ",
+    "notes": "Xuyên vào nhân vật phản diện yếu ớt sống bám, đổi kịch bản sang ôm đùi và làm nũng quấn quýt đại lão Cố Xuyên."
+  },
+  {
+    "name": "Cố Xuyên",
+    "hanviet_name": "Cố Xuyên",
+    "original_name": "顾川",
+    "pinyin": "Gù Chuān",
+    "gender": "Nam",
+    "third_person_pronoun": "anh / y",
+    "role": "Thụ (Arc 2 - Mạt thế tang thi), đại lão dị năng giả căn cứ Long Thành",
+    "notes": "Thân hình cơ bắp, chiến lực nghịch thiên, tính cách lạnh lùng tàn nhẫn nhưng bị Sở Niên Niên làm nũng chinh phục hoàn toàn."
+  },
+  {
+    "name": "Gavin",
+    "hanviet_name": "Gia Văn (Gavin)",
+    "original_name": "加文",
+    "pinyin": "Jiā Wén",
+    "gender": "Nam (Hùng trùng)",
+    "third_person_pronoun": "hắn",
+    "role": "Công (Arc 3 - Tinh tế trùng tộc), hùng trùng kiêu căng nhưng nhát gan sợ thụ",
+    "notes": "Bên ngoài tỏ vẻ hung hăng quý tộc nhưng thực chất rất sợ quân thư phản sát. Ngôi 3 trần thuật dùng 'hắn'. Đối thoại: xưng 'ta', gọi Eli là 'ngươi / em' (các cặp: ta – ngươi, ta – em; tuyệt đối không dùng 'tôi')."
+  },
+  {
+    "name": "Eli",
+    "hanviet_name": "Y Lai (Eli)",
+    "original_name": "伊莱",
+    "pinyin": "Yī Lái",
+    "gender": "Nam (Quân thư)",
+    "third_person_pronoun": "y",
+    "role": "Thụ (Arc 3 - Tinh tế trùng tộc), quân thư âm ngoan ẩn nhẫn",
+    "notes": "Thiếu tướng quân thư sát phạt quyết đoán, thương tích đầy mình, thâm tình si mê phục tùng hùng chủ. Ngôi 3 trần thuật dùng 'y'. Đối thoại: xưng 'ta / thần / em', gọi Gavin là 'ngài / hùng chủ' (các cặp: ta/thần – ngài; tuyệt đối không dùng 'tôi')."
+  },
+  {
+    "name": "Kỷ Cảnh",
+    "hanviet_name": "Kỷ Cảnh",
+    "original_name": "纪景",
+    "pinyin": "Jì Jǐng",
+    "gender": "Nam (Alpha)",
+    "third_person_pronoun": "cậu",
+    "role": "Công (Arc 4 - ABO), Alpha niên hạ chiến lực đỉnh chóp thích giả gái",
+    "notes": "Mùi tin tức tố rượu Tequila, chiến lực khủng, bỡn cợt phong lưu, nhỏ tuổi hơn Lục Tư Niên, hay mặc đồ nữ / đồng phục thỏ nữ lang trêu chọc Lục Tư Niên. Ngôi 3 trần thuật dùng 'cậu' (tuyệt đối KHÔNG dùng 'anh'). Đối thoại xưng 'em / tôi', gọi Lục Tư Niên là 'thầy Lục / anh / anh Lục'."
+  },
+  {
+    "name": "Lục Tư Niên",
+    "hanviet_name": "Lục Tư Niên",
+    "original_name": "陆斯年",
+    "pinyin": "Lù Sīnián",
+    "gender": "Nam (Beta hóa Omega)",
+    "third_person_pronoun": "anh",
+    "role": "Thụ (Arc 4 - ABO), cựu chỉ huy quân đoàn / giáo sư quân hiệu lớn tuổi hơn, nho nhã cổ hủ cấm dục",
+    "notes": "Từng là Beta huyền thoại của quân đoàn, sau phân hóa thành Omega, lớn tuổi hơn Kỷ Cảnh, tính tình nghiêm nghị chuẩn mực nhưng rất dễ đỏ mặt. Ngôi 3 trần thuật dùng 'anh' (tuyệt đối KHÔNG dùng 'cậu'). Đối thoại xưng 'tôi / anh', gọi Kỷ Cảnh là 'cậu / em / Kỷ Cảnh'."
+  },
+  {
+    "name": "Hệ thống Yêu Đương",
+    "hanviet_name": "Luyến Ái Hệ Thống",
+    "original_name": "恋爱系统",
+    "pinyin": "Liàn'ài Xìtǒng",
+    "gender": "Vô tính",
+    "third_person_pronoun": "nó",
+    "role": "Hệ thống trói buộc phản diện",
+    "notes": "Hệ thống phát lệnh nhiệm vụ tình cảm (ở Arc 3 hóa thân thành bướm bảy sắc Mật Bảo - 蜜宝)."
+  }
+]

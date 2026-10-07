@@ -1,0 +1,13 @@
+{
+  "chapter_id": "ch_013",
+  "title": "Chương 13: Ngoài ý muốn",
+  "word_count": 2227,
+  "paragraph_count": 90,
+  "status": "qc_passed",
+  "updated_at": "2026-10-07 16:58:11+07:00",
+  "qc_audit": {
+    "score": 10,
+    "alignment": "1:1",
+    "pronoun_rules_passed": true
+  }
+}

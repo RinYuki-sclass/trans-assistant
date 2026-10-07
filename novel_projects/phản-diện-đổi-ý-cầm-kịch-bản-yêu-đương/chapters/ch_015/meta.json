@@ -1,0 +1,13 @@
+{
+  "chapter_id": "ch_015",
+  "title": "Chương 15: Chơi thật đấy à",
+  "word_count": 2175,
+  "paragraph_count": 74,
+  "status": "qc_passed",
+  "updated_at": "2026-10-07 16:56:33+07:00",
+  "qc_audit": {
+    "score": 10,
+    "alignment": "1:1",
+    "pronoun_rules_passed": true
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "chapter_id": "ch_001",
+  "title": "Chương 1: Nhân lúc này, hôn cậu ta!",
+  "word_count": 3319,
+  "paragraph_count": 90,
+  "status": "qc_passed",
+  "updated_at": "2026-10-07T15:48:00+07:00",
+  "qc_audit": {
+    "score": 10,
+    "alignment": "1:1",
+    "pronoun_rules_passed": true
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "chapter_id": "ch_002",
+  "title": "Chương 2: Đến đấm cậu này",
+  "word_count": 2528,
+  "paragraph_count": 66,
+  "status": "qc_passed",
+  "updated_at": "2026-10-07T16:18:00+07:00",
+  "qc_audit": {
+    "score": 10,
+    "alignment": "1:1",
+    "pronoun_rules_passed": true
+  }
+}

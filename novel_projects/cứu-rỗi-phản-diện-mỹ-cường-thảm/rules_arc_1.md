@@ -33,6 +33,7 @@ description: Quy chuẩn dịch thuật, xưng hô, đại từ và nhân vật 
 ---
 
 ## 3. QUY TẮC XƯNG HÔ ĐỐI THOẠI (HONORIFICS & SPEECH)
+- ⚠️ **QUY TẮC ĐỒNG BỘ CẶP ĐẠI TỪ:** Trong xưng hô đối thoại, đại từ **"tao"** LUÔN PHẢI ĐI ĐÔI VỚI **"mày"** (`tao - mày` / `chúng tao - chúng mày` / `bọn tao - bọn mày`). Tuyệt đối **KHÔNG** ghép lệch pha: không dùng `tao - cậu`, `tao - anh`, `tao - em`, `tôi - mày`.
 - **Phó Vân Xuyên ↔ Cún Alaska (Minh Lãng hóa cún):**
   - Phó Vân Xuyên dùng **"tao - mày"** trong **MỌI TRƯỜNG HỢP**:
     - Lúc gắt gỏng, dọa dẫm: *“Xuống dưới, đừng chạm vào tao!”, “Tin tao chặt chân chó mày không?”*

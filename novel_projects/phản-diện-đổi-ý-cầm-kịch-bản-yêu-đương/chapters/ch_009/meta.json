@@ -1,0 +1,13 @@
+{
+  "chapter_id": "ch_009",
+  "title": "Chương 9: Cậu ta muốn tỏ tình",
+  "word_count": 1731,
+  "paragraph_count": 57,
+  "status": "qc_passed",
+  "updated_at": "2026-10-07 16:48:09+07:00",
+  "qc_audit": {
+    "score": 10,
+    "alignment": "1:1",
+    "pronoun_rules_passed": true
+  }
+}

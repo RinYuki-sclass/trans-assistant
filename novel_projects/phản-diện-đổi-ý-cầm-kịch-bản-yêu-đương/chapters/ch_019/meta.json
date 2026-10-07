@@ -1,0 +1,13 @@
+{
+  "chapter_id": "ch_019",
+  "title": "Chương 19: Nụ hôn",
+  "word_count": 1641,
+  "paragraph_count": 74,
+  "status": "qc_passed",
+  "updated_at": "2026-10-07 17:11:48+07:00",
+  "qc_audit": {
+    "score": 10,
+    "alignment": "1:1",
+    "pronoun_rules_passed": true
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "chapter_id": "ch_018",
+  "title": "Chương 18: Cậu ta khá cưng chiều cậu",
+  "word_count": 2557,
+  "paragraph_count": 109,
+  "status": "qc_passed",
+  "updated_at": "2026-10-07 17:10:38+07:00",
+  "qc_audit": {
+    "score": 10,
+    "alignment": "1:1",
+    "pronoun_rules_passed": true
+  }
+}
