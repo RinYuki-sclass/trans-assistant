@@ -1,0 +1,24 @@
+{
+  "chapter_id": "ch_007",
+  "chapter_number": 7,
+  "title": "Chương 7: Không dậy!",
+  "original_title": "第七章 不起！",
+  "imported_at": "2026-10-08T15:36:48.183427+07:00",
+  "n_paragraphs": 79,
+  "n_chunks": 4,
+  "chunk_size": 20,
+  "start_page": 13,
+  "end_page": 15,
+  "czbooks_url": "https://czbooks.net/n/skdfi4kimel/?chapterNumber=12",
+  "status": "QC_PASSED",
+  "translated_at": "2026-10-08T16:14:00+07:00",
+  "qc_audit": {
+    "score": 10,
+    "alignment": "1:1",
+    "pronoun_rules_passed": true,
+    "paragraphs_count": 79
+  },
+  "qc_status": "QC_PASSED",
+  "qc_score": 10,
+  "qc_passed_date": "2026-10-08"
+}

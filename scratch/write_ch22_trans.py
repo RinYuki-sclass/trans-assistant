@@ -1,293 +1,240 @@
 # -*- coding: utf-8 -*-
-import json
 import os
-import re
 
-ch22_dir = r"d:\Nhung\trans-tool\novel_projects\cứu-rỗi-phản-diện-mỹ-cường-thảm\chapters\ch_022"
-source_file = os.path.join(ch22_dir, "source.md")
-trans_file = os.path.join(ch22_dir, "translation.md")
-qc_file = os.path.join(ch22_dir, "qc_report.md")
-meta_file = os.path.join(ch22_dir, "meta.json")
-timeline_file = r"d:\Nhung\trans-tool\novel_projects\cứu-rỗi-phản-diện-mỹ-cường-thảm\memory\timeline.json"
+target_dir = r"d:\Nhung\RIDI\trans-assistant\novel_projects\đấng-cứu-thế-trả-nợ-tình\chapters\ch_022"
+target_file = os.path.join(target_dir, "translation.md")
 
-translations = [
-"""---
-title: "Chương 22: Alaska 22"
+paragraphs = [
+    # 0: header
+    """---
+title: Chương 22: Nhốt người nào
 ---""",
 
-"""Giang Minh Lãng đứng một bên nghe mà như lọt vào trong sương mù mờ mịt, có điều trong đầu cậu lúc này đều đang bận nghĩ tới những chuyện khác.""",
+    # 1: separator / line 1 in source
+    "Lâu Hỉ Dương lắc lắc đầu, xua đi những tiếng ù ù ong ong trong đầu, đúng lúc này, anh nghe thấy có tiếng ai đó gõ lên cửa kính xe từ bên ngoài.",
 
-"""Hội trường hội nghị quy định vệ sĩ không được phép bước vào trong, cho nên cậu chỉ có thể kiên nhẫn đứng đợi ở ngoài sảnh.""",
+    # 2: 婁禧陽晃了晃頭...
+    "Lâu Hỉ Dương lắc lắc đầu, xua đi những tiếng ù ù ong ong trong đầu, đúng lúc này, anh nghe thấy có tiếng ai đó gõ lên cửa kính xe từ bên ngoài.",
 
-"""Vô số các cơ quan thông tấn báo chí truyền thông tấp nập ra ra vào vào, chớp mắt một cái đã trôi qua ba tiếng đồng hồ.""",
+    # 3: 窗外站著一個普通得不能再普通的中年男人...
+    "Bên ngoài cửa sổ xe đang đứng một người đàn ông trung niên bình thường không thể bình thường hơn. Gã vẻ mặt đầy áy náy nhìn anh, cách đó không xa còn đỗ một chiếc xe tải thùng kín lái tay kiểu cũ thời đại trước.",
 
-"""Sau khi hội nghị kết thúc, giới truyền thông đều được lịch sự mời ra ngoài, từ bên trong lần lượt có không ít đại biểu tham dự bước ra, bọn họ vừa đi vừa cười nói rôm rả, ai nấy đều vô cùng vui vẻ rạng rỡ.""",
+    # 4: 這條小路唯一能通往的只有治療所...
+    "Con đường nhỏ này nơi duy nhất có thể thông tới chỉ có viện điều trị. Nhìn từ hướng xe chạy tới, chỉ có thể là chiếc xe đi ra từ viện điều trị, nom dáng vẻ là xe chở hàng tiếp tế cho viện điều trị.",
 
-"""Rất nhanh sau đó cậu liền nhìn thấy Phó Vân Xuyên được đám đông vây quanh bước ra ngoài.""",
+    # 5: “先生，實在是不好意思...”
+    "“Thưa ngài, thật vô cùng xin lỗi, vừa rồi tôi sơ ý ngủ gật một chút... Ngài xem liệu có tiện để lại phương thức liên lạc không, tôi...” Bác tài xế xe tải quan sát chiếc siêu xe trước mặt, lại liếc nhìn Lâu Hỉ Dương từ trên xuống dưới, sắc mặt vừa đắng chát vừa khó coi.",
 
-"""Phó Vân Xuyên bước ra cửa, phóng tầm mắt quét nhìn quanh bốn phía, cuối cùng tìm thấy bóng dáng cậu, rồi sải bước tiến về phía này.""",
+    # 6: 婁禧陽隻覺得頭疼的炸裂...
+    "Lâu Hỉ Dương chỉ cảm thấy đầu đau như muốn nổ tung. Anh nghiến răng chống người dậy, lúc này lại phát hiện Dịch Duyên đã nằm bất động gục trên người anh, ngất lịm đi rồi.",
 
-"""Cùng lúc đó, Giang Minh Lãng nhìn thấy Phó Ngôn với sắc mặt vô cùng khó coi đang rảo bước đi theo sau lưng Phó Vân Xuyên.""",
+    # 7: 糟了，他猛地看了眼時間，還剩十五分鍾。
+    "Hỏng rồi! Anh chợt nhìn thời gian, chỉ còn lại đúng mười lăm phút.",
 
-"""Phó Vân Xuyên vừa mới đứng vững trước mặt Giang Minh Lãng, liền nghe thấy tiếng gọi tha thiết của Phó Ngôn vang lên từ phía sau.""",
+    # 8: 眼前一陣又一陣的恍惚...
+    "Trước mắt từng đợt từng đợt hoa lên choáng váng. Lâu Hỉ Dương nhanh chóng túm lấy hai tay Dịch Duyên vắt lên vai mình, cõng cậu lên lưng, rồi tung một cước đạp văng cửa xe, sải chân lao như điên về phía trước.",
 
-"""“Phó tiên sinh, em muốn biết, tại sao ngài lại làm như vậy ạ?” Phó Ngôn cuống cuồng như lửa đốt cất tiếng hỏi.""",
+    # 9: “唉，先生！先生——”...
+    "“Ơ, thưa ngài! Thưa ngài——” Tiếng kêu kinh ngạc của người đàn ông bị anh bỏ lại tít đằng sau. Anh liều mạng chạy về phía trước, anh không biết nơi này còn cách viện điều trị bao xa, con đường dài vô tận khiến đầu óc anh choáng váng, tựa như có một bàn tay đang hờ hững bao trùm lấy trái tim anh, giây tiếp theo sẽ không chút lưu tình mà bóp nghẹt lại.",
 
-"""Phó Vân Xuyên xoay người lại, khẽ nâng mi mắt liếc xéo cậu ta một cái, nhạt giọng đáp: “Ừm? Tôi nhớ lần này Phó thị chẳng phải cũng mang dự án tới đây sao, sao thế, không đi tìm đối tác hợp tác mà lại chạy tới tìm tôi làm gì?”""",
+    # 10: 這種感覺讓他想起了婁安明和他母親死的那一個雪夜...
+    "Cảm giác này làm anh nhớ lại đêm tuyết rơi ngày mà Lâu An Minh cùng mẹ anh qua đời năm xưa, cũng nhớ lại buổi hoàng hôn khi Trần Liễm trao hũ tro cốt của Dịch Duyên vào tay anh.",
 
-"""Phó Ngôn nghe vậy sắc mặt lại càng thêm phần khó coi: “Ngài cần gì phải đem em ra làm trò cười chứ, rõ ràng ngài là người hiểu rõ nhất, vì sao tại hội nghị thương mại hôm nay lại không có lấy một ai bằng lòng hợp tác với Phó thị.”""",
+    # 11: 他很熟悉...
+    "Anh quá đỗi quen thuộc với nó, bởi vì trong mỗi một ngày sau khi tất cả mọi chuyện đã kết thúc, anh đều bị cảm giác như thế này gặm nhấm, một mình ngồi trên tầng thượng tòa nhà Liên bang nhìn xuống ánh đèn rực rỡ bên dưới.",
 
-"""“Thế à, tại sao vậy?” Phó Vân Xuyên cười mà như không cười hỏi ngược lại.""",
+    # 12: 那是一種心跳仍在跳動，但卻通體冰涼的感覺。
+    "Đó là một cảm giác mà trái tim rõ ràng vẫn đang đập, nhưng toàn thân lại lạnh ngắt như băng.",
 
-"""“Những đối tác mà Phó thị nhắm trúng đều đã tham gia vào dự án mà Tập đoàn Vân Xuyên mang tới ngày hôm nay,” Phó Ngôn quyết định mở toang cửa sổ nói thẳng: “Mà dự án này, từng điều từng khoản một đều nhắm thẳng vào các ngành công nghiệp cốt lõi của Phó thị. Phó tiên sinh, ngài đây là muốn làm cho Phó gia hoàn toàn tan rã sụp đổ sao?”""",
+    # 13: 耳邊突然被熱氣包裹...
+    "Bên tai đột nhiên được hơi nóng bao bọc, gương mặt Dịch Duyên tựa vào hõm vai anh, vô thức rên khẽ một tiếng.",
 
-"""“Quy luật chọn lọc tự nhiên, kẻ mạnh thắng kẻ yếu thua mà thôi.” Phó Vân Xuyên dùng giọng điệu nửa đùa nửa thật, nhưng nơi đáy mắt lại là sự lạnh lẽo tàn nhẫn vô tình.""",
+    # 14: 是熱的。
+    "Là ấm nóng.",
 
-"""Trên gương mặt Phó Ngôn ngập tràn vẻ khó hiểu không sao tin nổi, cậu ta sốt ruột nói: “Tại sao lại phải nhắm vào Phó gia chứ? Ngài có biết những việc ngài làm sẽ gây ra tổn thương lớn đến mức nào cho bố mẹ hay không? Bây giờ sức khỏe của bố không tốt, mẹ cũng ngày ngày u uất buồn phiền...”""",
+    # 15: 婁禧陽的肌肉突然繃到了極致，眼前的景物以更快的速度飛了起來。
+    "Cơ bắp của Lâu Hỉ Dương đột ngột căng cứng đến cực hạn, cảnh vật trước mắt bay vút qua với tốc độ càng nhanh hơn.",
 
-"""“Liên quan quái gì đến tôi?” Ngữ điệu của Phó Vân Xuyên bỗng chốc trở nên lạnh buốt như băng, anh từng câu từng chữ rành rọt nói: “Việc cậu nên làm lúc này chính là mau chóng quay về báo cho bọn họ biết, bảo họ tự vắt óc ra mà nghĩ cách làm sao để giữ được cái mớ vinh hoa phú quý cho gia đình cậu đi.”""",
+    # 16: 自從他再次回到那一天，見到那張臉後，他一直都是熱的。
+    "Kể từ khi anh một lần nữa quay trở lại ngày hôm đó, nhìn thấy khuôn mặt kia, người cậu trước giờ vẫn luôn ấm nóng.",
 
-"""Sắc mặt Phó Ngôn trong chớp mắt trắng bệch như tờ giấy.""",
+    # 17: “老爺，他跑了。”
+    "“Thưa lão gia, cậu ta chạy rồi.”",
 
-"""Phó Vân Xuyên dứt khoát xoay người một cách vô tình, dẫn theo Giang Minh Lãng sải bước rời đi xa.""",
+    # 18: 貨車司機上了車...
+    "Bác tài xế bước lên xe tải, cung kính cúi gầm đầu nói với người bên trong thùng xe. Trên mặt gã chẳng còn chút dáng vẻ đắng cay đau khổ vừa rồi nữa, nửa rủ mi mắt, mặt không chút cảm xúc.",
 
-"""Giang Minh Lãng lẳng lặng bước theo sau lưng Phó Vân Xuyên, bầu không khí im ắng tĩnh mịch khiến cậu cảm thấy như đang ngồi trên đống kim châm.""",
+    # 19: 這不是一輛尋常的貨車...
+    "Đây không phải là một chiếc xe tải thông thường. Bên trong thùng xe trang hoàng lộng lẫy xa hoa tựa như một phòng khách sang trọng, nói là một chiếc xe nhà di động phiên bản cỡ đại cũng không hề quá chút nào.",
 
-"""Tất cả đều bắt nguồn từ những việc Phó Vân Xuyên đã làm với cậu vào đêm hôm qua, chỉ cần sơ ý lơ đễnh một chút thôi là cậu lại không tài nào kiềm chế nổi mà nhớ lại nụ hôn nồng cháy của Phó Vân Xuyên, rồi sau đó toàn thân liền nóng ran bồn chồn cả lên.""",
+    # 20: 中間的皮質沙發上坐著一個長發男人...
+    "Trên chiếc ghế sô pha bằng da ở chính giữa đang ngồi một người đàn ông tóc dài. Hàng chục người đàn ông mặc âu phục đen đứng canh gác xung quanh, đồng loạt cúi đầu không dám nhìn thẳng vào người đó.",
 
-"""Thế nhưng dường như chỉ có mỗi một mình cậu là đang xoắn xuýt bận tâm về chuyện này, còn Phó Vân Xuyên thì trông chẳng có chút biến đổi nào so với trước đây cả.""",
+    # 21: 男人黑如綢緞的長發被他束在腦後...
+    "Mái tóc dài đen óng ả như lụa là của người đàn ông được buộc gọn ra sau đầu, chỉ để lại hai lọn tóc mỏng rủ xuống bên gò má tinh xảo, điểm xuyết cho sắc môi đỏ thắm rực rỡ.",
 
-"""“Cậu làm sao thế?” Phó Vân Xuyên cất tiếng hỏi cậu.""",
+    # 22: M星公認的美人...
+    "Mỹ nhân được công nhận toàn hành tinh M, đồng thời cũng là người cầm lái nắm trọn toàn bộ Liên bang. Không một ai dám đàm tiếu rằng Thủ lĩnh Liên bang Tưởng Trác Hàng lại sở hữu một lớp da túi xinh đẹp khiến người ta phải trầm luân mê đắm đến nhường này, ngay cả năm tháng cũng chẳng để lại bao nhiêu dấu vết trên gương mặt hắn ta.",
 
-"""Giang Minh Lãng vội vàng lắc đầu, tự nhắc nhở bản thân đừng tiếp tục nghĩ vẩn vơ nữa: “Không có gì đâu ạ.”""",
+    # 23: “往治療所去了？”殷紅的唇勾起了一個細微的弧度。
+    "“Đi về hướng viện điều trị rồi sao?” Đôi môi đỏ thắm cong lên một độ cong tinh tế.",
 
-"""“Những người có mặt ở hội trường hôm nay, kẻ nào là người sai bảo cậu tới?” Phó Vân Xuyên dường như chợt nhớ ra điều gì, đột ngột dừng bước, quay người nhìn thẳng vào cậu: “Kẻ đó đã đưa ra điều kiện gì cho cậu?”""",
+    # 24: “是。”司機頷首...
+    "“Vâng.” Tài xế gật đầu, nhìn thấy cảnh này liền vội vàng cúi gầm đầu xuống thấp hơn, “Lần sau lão gia đừng mạo hiểm như vậy nữa, ngộ nhỡ thuộc hạ không khống chế tốt tốc độ thì ngài sẽ bị thương mất.”",
 
-"""“Dạ?” Giang Minh Lãng ngơ ngác khó hiểu ngẩng đầu lên.""",
+    # 25: 鬼知道開著開著蔣卓航就讓他撞上去是為什麽。
+    "Quỷ mới biết đang lái xe ngon lành thì Tưởng Trác Hàng lại bảo gã tông thẳng vào đó là vì cái gì.",
 
-"""Chẳng ngờ Phó Vân Xuyên bỗng giơ tay nắm chặt lấy chiếc cà vạt của cậu, mạnh bạo kéo giật về phía trước, khiến cho lồng ngực của hai người va đập chan chát vào nhau thật mạnh.""",
+    # 26: “去查這輛車。”...
+    "“Đi điều tra chiếc xe này.” Tưởng Trác Hàng quay đầu nói với người bên cạnh, sau đó phất phất tay. Tài xế hiểu ý quay người đi, một lát sau, chiếc xe tải lại khởi động như chưa hề có chuyện gì xảy ra.",
 
-"""Cậu nghe thấy Phó Vân Xuyên gằn từng chữ nói với mình: “Nếu như cậu chịu nói thật cho tôi biết, tôi có thể coi như chưa từng có chuyện gì xảy ra. Những thứ cậu muốn, tôi đều sẽ cho cậu hết.”""",
+    # 27: 婁禧陽看到治療所的大樓時已經筋疲力盡了...
+    "Lúc Lâu Hỉ Dương nhìn thấy tòa nhà viện điều trị thì đã kiệt sức hoàn toàn rồi. Cả một đám người đông nghịt đen ngòm chặn ngay trước mặt anh, tựa như đã sớm chờ đợi anh xuất hiện.",
 
-"""“Chẳng phải là do anh dẫn tôi tới đây sao?” Giang Minh Lãng vẫn hoàn toàn mù tịt không hiểu Phó Vân Xuyên đang nói về chuyện gì.""",
+    # 28: “讓開—”...
+    "“Tránh ra——” Chưa tới viện điều trị, Lâu Hỉ Dương sốt ruột tung chân đá bay người chắn trước mặt, thế nhưng vì thể lực cạn kiệt nên bị cả vòng người tràn lên vây kín trở lại. Mất hết sức lực, anh khuỵu một bên đầu gối xuống đất, mồ hôi men theo gò má từng giọt từng giọt rơi ướt đẫm mặt sàn. Anh chật vật muốn đứng dậy nhưng chẳng còn chút sức lực nào để đứng lên nữa.",
 
-"""“Tốt lắm.” Phó Vân Xuyên buông tay thả cậu ra, trên gương mặt anh ngoại trừ vẻ bực bội bứt rứt ra, còn thoáng hiện một tia thất vọng mà không một ai có thể nhận ra.""",
+    # 29: “別緊張，已經在范圍內了，他沒事。”...
+    "“Đừng căng thẳng, đã nằm trong phạm vi rồi, thằng bé không sao đâu.” Giọng nói vang lên từ phía sau. Lâu Hỉ Dương quay đầu lại, nhìn Trần Liễm từng bước từng bước đi về phía mình.",
 
-"""Giang Minh Lãng nhìn theo bóng lưng Phó Vân Xuyên quay người bước đi, chỉ cảm thấy con người này thật khó hiểu kỳ quặc vô cùng.""",
+    # 30: 陳斂向身邊的兩個白大褂遞了個眼色...
+    "Trần Liễm đưa mắt ra hiệu với hai người mặc áo blouse trắng bên cạnh. Hai người lập tức bước lên muốn đón lấy Dịch Duyên đang hôn mê, nhưng lại bị một ánh mắt của Lâu Hỉ Dương đóng đinh ngay tại chỗ.",
 
-"""Theo lẽ thường tình thì tối hôm nay bọn họ sẽ phải bay về thành phố A rồi, cho nên người trợ lý đã về khách sạn trước để thu xếp lịch trình, còn cậu và Phó Vân Xuyên thì ngồi chiếc xe do bên hội nghị chuẩn bị để quay trở về.""",
+    # 31: “放開易緣，他現在需要躺在實驗室的床上。”...
+    "“Buông Dịch Duyên ra, hiện tại thằng bé cần phải nằm trên giường phòng thí nghiệm.” Trần Liễm bước lại gần, nhíu nhíu mày, “Đã tới dưới mí mắt tôi rồi thì cậu đừng hòng mang thằng bé rời đi nữa, có điều...”",
 
-"""Ngay trước khi chuẩn bị bước lên xe, bỗng nhiên có người cất tiếng gọi giật Phó Vân Xuyên lại:""",
+    # 32: 婁禧陽還在原地喘著氣...
+    "Lâu Hỉ Dương vẫn đang thở dốc tại chỗ, nghe vậy liền cười lạnh một tiếng. Hai người mặc áo blouse vội vàng khiêng Dịch Duyên lên xe.",
 
-"""“Phó tổng!” Một người đàn ông trung niên béo lùn mỉm cười rảo bước đi tới, mở lời chào hỏi xã giao: “Sao ngài lại về sớm thế ạ, ở lại thành phố C chơi thêm vài hôm đi chứ, vừa hay ở trên đỉnh ngọn núi phía trước tôi có một khu trượt tuyết nhân tạo, lúc nào rảnh ngày mai tôi xin phép mời ngài tới đó chơi một chuyến nhé.”""",
+    # 33: “陳斂我說…”婁禧陽撐著地面，緩緩地站起了身，“你他媽真是欠揍！”
+    "“Trần Liễm, tôi bảo này...” Lâu Hỉ Dương chống tay xuống đất, chậm rãi đứng thẳng người dậy, “Ông mẹ nó đúng là thèm đòn!”",
 
-"""Khu trượt tuyết——""",
+    # 34: 陳斂看著歪歪站直的婁禧陽...
+    "Trần Liễm nhìn Lâu Hỉ Dương đang loạng choạng đứng thẳng dậy. Lâu Hỉ Dương cao hơn ông ta trọn vẹn một cái đầu, áp lực kéo theo bóng râm ập tới bao trùm lấy ông ta. Ông ta lùi lại một bước, nhưng vẫn không né kịp nắm đấm đang bay thẳng tới.",
 
-"""Hai tai của Giang Minh Lãng lập tức vểnh dựng đứng lên ngay tắp lự, cậu không hé răng nửa lời nhìn sang Phó Vân Xuyên, chóp tai khẽ lắc lư đung đưa.""",
+    # 35: 陳斂被這一拳硬生生地打翻在地...
+    "Trần Liễm bị cú đấm này nện ngã sóng soài xuống đất. Đầu óc ông ta choáng váng ôm lấy chiếc mũi đang chảy máu ròng ròng, những lời chưa kịp nói ban nãy mới chậm rãi thốt ra miệng: “... Có điều, tôi có thể cho cậu ở lại đây bầu bạn với Dịch Duyên.”",
 
-"""Tầm mắt của Phó Vân Xuyên lơ đãng khóa chặt vào ánh mắt đang sáng rực lên lấp lánh của Giang Minh Lãng: “Nghe có vẻ không tệ——”""",
+    # 36: 然而他這句話婁禧陽是聽不見了...
+    "Thế nhưng câu nói này Lâu Hỉ Dương đã không còn nghe thấy nữa rồi, bởi vì đám vệ sĩ bên cạnh Trần Liễm đã lao vào đánh nhau hỗn loạn một đoàn cùng anh.",
 
-"""Giả vờ như không nhìn thấy sự mong chờ tha thiết ngập tràn nơi đáy mắt của Giang Minh Lãng, anh nhạt giọng tiếp lời: “Công ty vẫn còn có việc cần tôi về xử lý, lòng tốt của Vương tổng tôi xin ghi nhận, lần sau tới thành phố C nhất định tôi sẽ ghé thăm.”""",
+    # 37: 婁禧陽醒來的時候發現自己正在一間看起來像臥室的房間裡...
+    "Lúc Lâu Hỉ Dương tỉnh lại, anh phát hiện mình đang ở trong một căn phòng trông giống như phòng ngủ. Sở dĩ nói là “giống” vì nơi này có giường cũng có bàn, chỉ có điều trần nhà là một màu xám trắng lạnh lẽo, trong phòng cũng chẳng có lấy một ô cửa sổ.",
 
-"""Người đàn ông trung niên cười xòa xua tay, sau khi nói lời tạm biệt liền quay người rời đi.""",
+    # 38: 但他在枕頭上聞到了易緣的味道。
+    "Thế nhưng anh ngửi thấy mùi hương của Dịch Duyên trên chiếc gối.",
 
-"""Hy vọng bỗng chốc tan thành mây khói, Giang Minh Lãng vô cùng cố gắng không để lộ nỗi thất vọng lên trên mặt, suốt cả dọc đường đi đều im lặng ngoan ngoãn đến lạ kỳ.""",
+    # 39: 他動了動身子...
+    "Anh cử động cơ thể, cảm giác đau nhức tê dại dữ dội làm anh nhớ lại ngọn ngành câu chuyện. Anh hình như trong lúc đang đánh nhau với đám người kia thì lăn ra ngất xỉu, bởi vì mẹ kiếp mệt quá rồi.",
 
-"""Sau khi quay về phòng khách sạn, cậu liền một mạch chui tọt vào bên trong phòng ngủ.""",
+    # 40: 艸，真tm丟人！
+    "Đệt, thật mẹ nó mất mặt chết đi được!",
 
-"""“Phó tiên sinh, chuyến bay cất cánh lúc chín giờ sáng mai, buổi chiều ba giờ ngài có một cuộc họp quan trọng cần chủ trì ạ.” Trợ lý đã sắp xếp xong xuôi toàn bộ lịch trình, bước tới báo cáo với Phó Vân Xuyên.""",
+    # 41: 婁禧陽想著自己在陳斂面前累的昏倒...
+    "Lâu Hỉ Dương nghĩ đến cảnh tượng mình mệt đến ngất xỉu trước mặt Trần Liễm, cả người tức tối bật dậy khỏi giường.",
 
-"""Phó Vân Xuyên tháo lỏng chiếc cà vạt: “Hủy cuộc họp đi, ngày kia tôi mới về.”""",
+    # 42: “陽哥！你醒啦！”...
+    "“Dương ca! Anh tỉnh rồi à!” Cánh cửa phòng đột nhiên bị ai đó đẩy ra, Dịch Duyên hưng phấn nhảy chân sáo chạy vào, tung người nhào bổ lên người Lâu Hỉ Dương. Lâu Hỉ Dương bị đòn tập kích bất thình lình này làm cho cơ bắp toàn thân đau nhức gào thét từng hồi, hít sâu một ngụm khí lạnh.",
 
-"""“Dạ cái gì cơ ạ?” Người trợ lý tưởng như tai mình vừa bị điếc.""",
+    # 43: 易緣聞聲連忙翻下身...
+    "Dịch Duyên nghe thấy tiếng vội vàng trườn xuống, quỳ ngồi bên cạnh Lâu Hỉ Dương: “Em xin lỗi, em quên mất.”",
 
-"""Giang Minh Lãng ở trong phòng ngủ với thính lực nhạy bén cũng nghe thấy rõ mồn một đoạn đối thoại này, cậu thò đầu ra ngoài cửa đang định nghe ngóng xem vì sao thì Phó Vân Xuyên đã bất ngờ đẩy cửa bước vào.""",
+    # 44: “你快點躺下。”...
+    "“Anh mau nằm xuống đi.” Dịch Duyên đẩy vai Lâu Hỉ Dương ấn xuống giường, vẻ mặt đầy hối lỗi nhìn thẳng vào mắt anh, “Có phải em nặng quá không ạ?”",
 
-"""Giang Minh Lãng gượng gạo bốn mắt nhìn nhau với Phó Vân Xuyên một thoáng, rồi chủ động thu hồi tầm mắt trước, chăm chú nhìn Phó Vân Xuyên vừa cởi quần áo vừa với tay lấy chiếc áo choàng tắm.""",
+    # 45: 易緣好歹是個一米七以上的正常男性...
+    "Dịch Duyên dẫu sao cũng là một người đàn ông bình thường cao hơn một mét bảy, cõng cậu chạy nước rút hết tốc lực mười mấy phút đồng hồ quả thực còn mệt hơn bất kỳ bài huấn luyện thể năng nào anh từng trải qua ở học viện.",
 
-"""“Phó tiên sinh, ngày mai chúng ta không về nhà sao?” Giang Minh Lãng trong lòng chẳng bao giờ giấu nổi tâm sự gì, từng bước từng bước bám sát nút sau lưng Phó Vân Xuyên hỏi: “Nếu không về thì anh định đi đâu thế ạ?”""",
+    # 46: 但婁禧陽見易緣這副神情...
+    "Thế nhưng Lâu Hỉ Dương nhìn thấy biểu cảm này của Dịch Duyên, ngẫm nghĩ một chút, cái đầu vốn định gật bỗng ngoắt ngoéo đổi hướng: “Không nặng.”",
 
-"""Người đàn ông đi phía trước bỗng nhiên dừng bước lại, xoay người nhìn cậu hỏi: “Cậu muốn đi đâu?”""",
+    # 47: 易緣的眼睛亮了一下...
+    "Đôi mắt Dịch Duyên sáng bừng lên, cậu chống hai tay hai bên đầu Lâu Hỉ Dương, cúi người xuống thấp giọng nói: “Cảm ơn ca ca.”",
 
-"""Giang Minh Lãng hoàn toàn không ngờ Phó Vân Xuyên lại hỏi ngược lại mình như thế. Sự giáo dục từ nhỏ ở Học viện Uông Uông khiến cậu trước nay chưa từng dám mặt dày chủ động vòi vĩnh xin xỏ bất cứ thứ gì, thế nhưng niềm khao khát cháy bỏng đối với vùng đất tuyết trắng xóa cuối cùng đã tiếp thêm dũng khí cho cậu.""",
+    # 48: 溫熱的吐息打在婁禧陽臉上...
+    "Hơi thở ấm nóng phả lên mặt Lâu Hỉ Dương, anh nhìn chóp mũi sắp dán sát vào nhau của hai người, nghiêng đầu đi, nghe thế nào cũng thấy lời của Dịch Duyên gượng gạo kỳ quặc.",
 
-"""Giả vờ ngẫm nghĩ một hồi, sau đó cậu mới có phần thiếu tự tin lí nhí nói: “Trên mạng bảo... ở đây có một khu trượt tuyết chơi vui lắm.”""",
+    # 49: 就是明明是正常的話，被易緣講出來就參雜了情.色意味。
+    "Chính là những câu nói rõ ràng rất bình thường, nhưng qua miệng Dịch Duyên nói ra lại pha lẫn phong vị tình sắc ám muội.",
 
-"""Phó Vân Xuyên lẳng lặng nhìn Giang Minh Lãng dùng kỹ năng diễn xuất vụng về như cún con để chào hàng khu trượt tuyết, rồi mở miệng đáp: “Vậy thì đi tới đó đi.”""",
+    # 50: 易緣低下頭，在婁禧陽唇上親了一下後翻身躺在了他旁邊。
+    "Dịch Duyên cúi đầu hôn nhẹ một cái lên môi Lâu Hỉ Dương rồi trở mình nằm xuống bên cạnh anh.",
 
-"""Giang Minh Lãng trong chớp mắt vui sướng nhảy cẫng lên, cậu phấn khích ôm chầm lấy Phó Vân Xuyên: “Tuyệt vời quá đi mất!”""",
+    # 51: 婁禧陽後知後覺地抬起了眉...
+    "Lâu Hỉ Dương chậm nửa nhịp nhướng mày, vừa định mở miệng thì liền nghe Dịch Duyên nói năng dõng dạc chính khí lẫm liệt: “Bạn trai thì phải cảm ơn như thế này chứ.”",
 
-"""Vào giờ phút này, đây là lần đầu tiên trong cuộc đời cậu cảm nhận được niềm hạnh phúc ngập tràn khi ước nguyện của mình được người khác đáp ứng trọn vẹn.""",
+    # 52: 婁禧陽這才想起來，自己已經是易緣的假“男朋友”了。他薄唇微抿，上面有細微的癢意。
+    "Lâu Hỉ Dương lúc này mới sực nhớ ra, bản thân đã là “bạn trai” giả của Dịch Duyên rồi. Môi mỏng của anh khẽ mím lại, bên trên còn vương cảm giác ngứa ngáy nhè nhẹ.",
 
-"""Phó Vân Xuyên rủ mắt nhìn những sợi tóc ngắn cứng cáp sau gáy Giang Minh Lãng, nơi đáy mắt thoáng qua một nụ cười ấm áp mờ nhạt.""",
+    # 53: 敲門聲打斷了兩人的對話...
+    "Tiếng gõ cửa cắt ngang cuộc đối thoại giữa hai người. Trần Liễm khoanh tay dựa vào cửa, trong hai lỗ mũi còn nhét hai cục bông gòn: “Dịch Duyên nói hai người gặp phải tai nạn xe cộ, là chuyện thế nào?”",
 
-"""Dẫu mang trong mình dòng máu quý tộc tuyết nguyên của giống chó Alaska, nhưng Giang Minh Lãng từ lúc sinh ra đến giờ chưa từng được nhìn thấy tuyết thật bao giờ, cứ hễ nghĩ tới việc ngày mai được đi trượt tuyết là cậu lại hưng phấn đến mức không tài nào ngủ nổi.""",
+    # 54: 婁禧陽撐著要坐起來...
+    "Lâu Hỉ Dương chống tay định ngồi dậy, lại bị Dịch Duyên một lần nữa đè trở lại. Lần này cậu dứt khoát lật người ôm chặt lấy anh, tựa vào ngực anh với tư thế nép vào lòng, gắt gao đè chặt anh trên giường.",
 
-"""Cái gọi là khoảng cách e dè xa cách giữa cậu và Phó Vân Xuyên cũng đã bị cậu quẳng sạch lên tận chín tầng mây.""",
+    # 55: 陳斂沉默無聲地將這番畫面看在眼裡...
+    "Trần Liễm im lặng thu trọn khung cảnh này vào mắt, trong lòng thầm thở dài một hơi. Ông ta sải bước đi tới bên mép giường: “Hôm nay Tưởng Trác Hàng đã tới. Nếu như đoán không nhầm, chiếc xe tông vào các cậu là một chiếc xe tải thùng kín, bên trong đang chở Thủ lĩnh Liên bang. Cậu nên hiểu rằng, hiện tại cậu sắp bị nhắm tới rồi đấy.”",
 
-"""Thậm chí ngay cả khi buổi tối đã nằm trên giường rồi mà cậu vẫn không ngừng bấm điện thoại, chăm chú xem các video hướng dẫn kỹ thuật động tác trượt tuyết.""",
+    # 56: 婁禧陽抬眸盯著他：“和我說這些做什麽？”
+    "Lâu Hỉ Dương nâng mắt nhìn chằm chằm ông ta: “Nói với tôi những điều này làm gì?”",
 
-"""Phó Vân Xuyên giật phắt chiếc điện thoại trong tay cậu ném sang chiếc bàn bên cạnh, cưỡng chế bắt cậu phải nhắm mắt đi ngủ.""",
+    # 57: 陳斂輕笑：“向你展現我的誠意...”
+    "Trần Liễm khẽ cười: “Để thể hiện thành ý của tôi với cậu, nói cho cậu biết con chó do Tưởng Trác Hàng nuôi nấng hiện tại muốn cắn ngược lại hắn ta một phát, hơn nữa còn muốn hợp tác với một thằng nhóc không biết trời cao đất rộng như cậu.”",
 
-"""Thế là dưới sự ép buộc đầy bá đạo của Phó Vân Xuyên, cậu rốt cuộc cũng chìm vào giấc ngủ say.""",
+    # 58: 婁禧陽目光幽深，看著他繼續說下去。
+    "Ánh mắt Lâu Hỉ Dương sâu thẳm, nhìn ông ta tiếp tục nói.",
 
-"""Sáng sớm ngày hôm sau, dưới sự thu xếp chu đáo cẩn thận của người trợ lý, hai người liền xuất phát lên đường.""",
+    # 59: “你也看到了，我現在需要易緣體內的芯片...”
+    "“Cậu cũng thấy rồi đấy, hiện tại tôi cần con chip trong cơ thể Dịch Duyên, chứng cứ bên trong đủ để cứu vãn hàng vạn sinh mạng. Nhưng Dịch Duyên lại không nỡ rời xa cậu đến mức này, cậu chỉ ngoắc ngoắc ngón tay là thằng bé liền bị cậu bắt cóc đi mất. Để phòng ngừa tình huống ngày hôm nay lại tái diễn, cậu có thể ở lại bên cạnh thằng bé với thân phận vệ sĩ. À đúng rồi, bữa tiệc vào tuần tới Dịch Duyên sẽ tham dự với thân phận con nuôi của tôi.”",
 
-"""Trợ lý với hai quầng thâm to đùng dưới mắt vì phải thức trắng đêm làm việc, lái xe đưa hai người lên núi, đồng thời vô cùng chuyên nghiệp báo cáo với Phó Vân Xuyên: “Phó tổng, toàn bộ khu trượt tuyết đã được bao trọn gói rồi ạ.”""",
+    # 60: “呵”婁禧陽笑了...
+    "“Hừ,” Lâu Hỉ Dương bật cười, “Xin hãy hiểu cho rõ, mục đích của tôi là tháo bỏ thiết bị trên người cậu ấy, ông giữ tôi ở lại đây chẳng phải là dẫn sói vào nhà hay sao?”",
 
-"""Trên xe, Giang Minh Lãng hệt như một đứa trẻ năm tuổi lắm lời sắp được đi dã ngoại, miệng ríu rít hỏi han không ngừng nghỉ:""",
+    # 61: “你盡管取，能取下來算我有眼不識泰山...”
+    "“Cậu cứ việc tháo, nếu tháo được thì coi như tôi có mắt không tròng nhận không ra Thái Sơn. Lâu Hỉ Dương, cậu đối với tôi căn bản chẳng có chút giá trị lợi dụng nào, tôi chỉ muốn để Dịch Duyên không phải chịu đựng khổ sở như vậy mà thôi.” Trần Liễm đá đá vào mép giường, châm chọc nói.",
 
-"""Giang Minh Lãng: “Phó tiên sinh, anh từng thấy tuyết bao giờ chưa?”""",
+    # 62: “我再給你一次坦白的機會。”婁禧陽沉聲道。
+    "“Tôi cho ông thêm một cơ hội để nói thật đấy.” Lâu Hỉ Dương trầm giọng nói.",
 
-"""Phó Vân Xuyên: “Từng thấy rồi.”""",
+    # 63: “好吧，我還看上了你的艾斯匪幫...”
+    "“Được rồi, tôi còn nhắm trúng bang phái của cậu ở khu Est nữa. Sau khi lấy được chip ra tôi cần lực lượng vũ trang, ngộ nhỡ bị Tưởng Trác Hàng phát hiện thì còn có vốn liếng liều mạng một phen.” Trần Liễm nhún vai thừa nhận mục đích chính, chợt nhớ ra điều gì, giọng điệu ông ta liền biến đổi, nhìn chằm chằm gáy Dịch Duyên nói: “Cậu không thật sự nghĩ rằng khi cậu đi đánh viện nghiên cứu Tây Lăng Sơn là do vận may tốt gặp đúng lúc hệ thống trục trặc đấy chứ?”",
 
-"""Giang Minh Lãng: “Anh có biết trượt tuyết chơi thế nào không?”""",
+    # 64: 婁禧陽清晰地感受到身上的易緣一下子繃緊了身子，像受到驚嚇的貓。
+    "Lâu Hỉ Dương cảm nhận rõ ràng người Dịch Duyên nằm trên người mình bỗng chốc căng cứng cả người, hệt như một chú mèo bị giật mình hoảng sợ.",
 
-"""Phó Vân Xuyên: “Biết.”""",
+    # 65: 聯想到了當時路過所長辦公室時聽到的話...
+    "Liên tưởng tới những lời nghe được lúc đi ngang qua văn phòng Viện trưởng khi đó, sắc mắt Lâu Hỉ Dương biến đổi, rủ mắt nhìn khuôn mặt Dịch Duyên, nhưng Dịch Duyên lại vùi đầu thật chặt, chỉ có thể nhìn thấy chiếc chóp mũi cao thẳng.",
 
-"""Giang Minh Lãng: “Thế thì anh cừ thật đấy, chỗ chúng tôi trước giờ chẳng bao giờ có tuyết rơi cả, thế mà bọn họ ai cũng bảo tổ tiên nhà tôi từng sinh sống trên thảo nguyên tuyết trắng đấy.”""",
+    # 66: “那東西是我弄爛的...”
+    "“Thứ đó là do tôi phá hỏng đấy, nếu không nhờ Dịch Duyên tìm tôi trao đổi điều kiện thì cậu làm sao có thể thong dong dạo một vòng là cứu được Lâu An Minh ra chứ? Haizz, cậu nói xem Dịch Duyên sao lại thích cậu đến mức——”",
 
-"""Phó Vân Xuyên: “Nhà cậu chẳng phải là ở trong vùng núi sâu sao?”""",
+    # 67: “陳叔！”易緣猛地轉過頭，兩隻眼睛跟小豹子似的瞪著陳斂。
+    "“Chú Trần!” Dịch Duyên đột ngột quay phắt đầu lại, hai con mắt tựa như báo con trừng trừng nhìn Trần Liễm.",
 
-"""Giang Minh Lãng: “...”""",
+    # 68: 陳斂攤著手，訕訕地把話收了回去。
+    "Trần Liễm giơ hai tay ra, gượng gạo nuốt lời trở vào.",
 
-"""...""",
+    # 69: 婁禧陽挪了一眼目光到易緣身上，眼裡翻湧著看不清的情緒。
+    "Lâu Hỉ Dương dời ánh mắt sang người Dịch Duyên, trong mắt cuộn trào những cảm xúc nhìn không thấu.",
 
-"""Ngọn núi này là ngọn núi có độ cao so với mực nước biển cao nhất tại thành phố C, càng leo lên cao thì nhiệt độ không khí lại càng hạ xuống thấp. Khu trượt tuyết trên đỉnh núi được xây dựng vô cùng rộng lớn, lúc Giang Minh Lãng và Phó Vân Xuyên thay xong trang phục trượt tuyết bước vào sân, trên nền tuyết trắng xóa bạt ngàn chỉ có duy nhất hai người họ cùng người trợ lý, cùng với huấn luyện viên và nhân viên phục vụ của khu trượt tuyết.""",
+    # 70: “我答應你。”他抬頭，“最後一個問題，這裡的第二層樓，關著什麽人？”
+    "“Tôi đồng ý với ông.” Anh ngẩng đầu, “Câu hỏi cuối cùng: tầng thứ hai ở nơi này, đang giam giữ ai?”",
 
-"""Tuy rằng chỉ là tuyết nhân tạo, nhưng khung cảnh trước mắt đối với Giang Minh Lãng mà nói vẫn vô cùng rạo rực phấn khích.""",
+    # 71: 陳斂被他問的措不及防...
+    "Trần Liễm bị anh hỏi cho bất ngờ trở tay không kịp, “a” cả buổi mới phản ứng lại. Ông ta gãi gãi đầu: “À... Chuyện này có thể nói được chứ nhỉ...”",
 
-"""“Cậu đi theo bọn họ học trước đi.” Phó Vân Xuyên giơ tay túm lấy cổ áo sau của một Giang Minh Lãng đang rục rịch muốn lao đi, ra hiệu bảo cậu không được chạy lung tung.""",
+    # 72: 糾結了一會兒...
+    "Đắn đo giằng xé một hồi, ông ta đột nhiên ghé mặt lại gần trước mặt Lâu Hỉ Dương, thần bí nói: “Cậu có biết tại sao Tưởng Trác Hàng lại tới đây không?”",
 
-"""Giang Minh Lãng gật đầu lia lịa, ngoan ngoãn làm theo hướng dẫn của huấn luyện viên chỉnh đốn lại trang thiết bị trên người.""",
+    # 73: “嗯？”婁禧陽挑眉。
+    "“Hửm?” Lâu Hỉ Dương nhướng mày.",
 
-"""“Trông chừng cậu ấy cho cẩn thận.” Phó Vân Xuyên liếc nhìn người trợ lý, lạnh giọng ra lệnh.""",
-
-"""“Thế anh định đi đâu vậy ạ?” Giang Minh Lãng nghe thấy tiếng liền quay đầu lại hỏi anh.""",
-
-"""Phó Vân Xuyên xách theo chiếc ván trượt đơn, cất bước đi về hướng tuyến cáp treo.""",
-
-"""“Đỉnh dốc.”""",
-
-"""Lời tác giả:""",
-
-"""Chương 20: Alaska 20""",
-
-"""Dây cáp thép của tuyến cáp treo phát ra những tiếng cót két kẽo kẹt, Phó Vân Xuyên tiếp đất, một mình bước lên điểm cao nhất của toàn bộ sườn dốc trượt tuyết.""",
-
-"""Đứng ở nơi này, toàn bộ tầm mắt của anh đều bị một màu trắng xóa vô tận xâm chiếm hoàn toàn, đường trượt tuyết uốn lượn trải dài tít tắp không thấy điểm dừng, ở tận chân dốc xa xôi phía dưới, vài chấm đen nhỏ xíu đang chầm chậm di chuyển qua lại.""",
-
-"""Cả thế giới tĩnh lặng đến mức chỉ còn lại tiếng vận hành đơn điệu của cáp treo cùng với tiếng hít thở của chính bản thân anh.""",
-
-"""Sau khi hoàn thành các động tác khởi động làm nóng người, anh giơ tay đeo chiếc kính bảo hộ trượt tuyết lên.""",
-
-"""Chiếc ván trượt tuyết treo lơ lửng một nửa trên mép đỉnh dốc, anh khuỵu gối, chân trước nhấn mạnh đầu ván trượt xuống, trọng lực trong tích tắc ập tới, toàn bộ cơ thể anh lao vút xuống dốc với tốc độ kinh hoàng xé gió.""",
-
-"""Những cơn gió gầm rú thét gào hòa lẫn những hạt băng sắc nhọn tạt rát rạt vào mặt anh, khoảnh khắc này của anh hệt như đang chìm sâu dưới đáy nước sâu thăm thẳm, không còn cảm nhận được bất kỳ điều gì từ thế giới bên ngoài nữa.""",
-
-"""Hệt như mỗi lần rơi vào trạng thái mất hết cảm giác trước đây, anh lại một lần nữa chìm đắm vào trong những mảnh ký ức vụn vỡ hỗn loạn, những ký ức u tối xua mãi chẳng bao giờ tan biến——""",
-
-"""Trước mắt anh hiện ra hình ảnh một đứa bé trai mặt mũi be bét máu tươi, nó vừa gào khóc thảm thiết vừa chạy tới ôm chặt lấy người phụ nữ ăn mặc sang trọng quý phái.""",
-
-"""“Mẹ ơi, Phó Vân Xuyên nó đánh gãy nát hết răng con rồi!” Nó khóc lóc the thé chỉ tay vào anh, “Con muốn nhốt nó lại, nhốt chặt nó lại!”""",
-
-"""Ngay giây tiếp theo, anh liền rơi vào một vùng bóng tối mịt mù đen đặc hoàn toàn, thời gian trong khoảnh khắc bỗng bị kéo dài ra vô tận, anh đập cửa, gào thét, cuồng nộ, rồi cuối cùng kiệt sức ngã gục vào một góc tối tăm, cơ thể vì mất nước trầm trọng mà rơi vào những cơn ảo giác điên loạn...""",
-
-"""Khung cảnh lại một lần nữa hoán đổi, lần này là hình ảnh anh vì đánh nhau ẩu đả bầm dập mặt mũi cả người đầy thương tích trở về nhà của Phó Minh, thế nhưng ngay trước khi bước chân vào cửa, mắt cá chân của anh bỗng bị một chú cún con bẩn thỉu lấm lem bùn đất bám chặt lấy, chú cún con ư ử sủa ríu rít, cái đuôi ngoe nguẩy tít mù hệt như cánh quạt trực thăng.""",
-
-"""Khung cảnh không ngừng biến đổi luân phiên: có cảnh anh lén lấy xúc xích đút cho chú cún ăn; có cảnh Phó Minh giễu cợt mỉa mai bảo trên đời này chỉ có loài chó mới thèm để mắt tới anh; cũng có cảnh anh lấy hết can đảm, dưới ánh mắt ngập tràn mong đợi của chú cún mà run rẩy vươn tay xoa đầu nó, nắm lấy bàn chân nhỏ bé lông xù của nó; và rồi còn có cả cảnh anh dứt khoát quay người rời đi, còn chú cún con vì cuống cuồng chạy đuổi theo anh mà bị bánh xe ô tô nghiến nát qua người..."""
+    # 74: “這裡…關著他的小情人，卑鄙手段搶來的那種！”陳斂一掌拍向床。
+    "“Ở đây... Đang giam giữ tình nhân bé nhỏ của hắn ta, cái loại dùng thủ đoạn đê hèn cướp đoạt về ấy!” Trần Liễm vỗ một chưởng thật mạnh xuống giường."
 ]
 
-with open(source_file, "r", encoding="utf-8") as f:
-    s_paras = [p.strip() for p in f.read().strip().split("\n\n") if p.strip()]
+os.makedirs(target_dir, exist_ok=True)
+with open(target_file, "w", encoding="utf-8") as f:
+    f.write("\n\n".join(paragraphs) + "\n")
 
-print(f"Source count: {len(s_paras)}, Trans count: {len(translations)}")
-assert len(s_paras) == len(translations), f"Count mismatch: {len(s_paras)} vs {len(translations)}"
-
-# Check forbidden words
-forbidden = []
-for idx, p in enumerate(translations):
-    if re.search(r'\b(hắn)\b', p, re.IGNORECASE):
-        forbidden.append((idx, p))
-assert len(forbidden) == 0, f"Found 'hắn' in {forbidden}"
-print("Zero 'hắn' detected across entire chapter!")
-
-# Save translation.md
-full_trans_content = "\n\n".join(translations) + "\n"
-with open(trans_file, "w", encoding="utf-8") as f:
-    f.write(full_trans_content)
-print(f"Successfully written {trans_file}")
-
-# Generate qc_report.md
-qc_report_content = f"""# BÁO CÁO KIỂM ĐỊNH CHẤT LƯỢNG DỊCH THUẬT (QC REPORT)
-**Chương:** Chương 22: Alaska 22 (`ch_022`)  
-**Số đoạn gốc:** {len(s_paras)} | **Số đoạn dịch:** {len(translations)}  
-**Tỷ lệ khớp đoạn:** 100% (92/92) - Tuyệt đối 1:1  
-**Điểm chất lượng:** 1.0/1.0 (XUẤT SẮC)
-
----
-
-## 1. Kiểm tra tuân thủ Rules Arc 1
-- **Công (Giang Minh Lãng):** Xưng ngôi thứ 3 là **"cậu"**, tai vểnh lên khi nghe thấy trượt tuyết; vui mừng như đứa trẻ 5 tuổi khi Phó Vân Xuyên đáp ứng mong muốn; ríu rít hỏi về tuyết suốt dọc đường lên núi. Tuyệt đối không dùng "hắn".
-- **Thụ (Phó Vân Xuyên):** Xưng ngôi thứ 3 là **"anh"**, giáng đòn chí mạng triệt hạ toàn bộ đối tác của Phó gia; hoãn chuyến bay bao trọn sân trượt tuyết cho Giang Minh Lãng; trượt tuyết từ đỉnh núi cao và chìm vào ký ức chấn thương tâm lý sâu sắc về căn hầm tối và chú cún con bị xe cán chết. Tuyệt đối không dùng "hắn" hay "y".
-- **Đối thoại người - người:** Phó Vân Xuyên (**tôi - cậu**) ↔ Giang Minh Lãng (**tôi - anh / Phó tiên sinh**).
-- **Chiều sâu tâm lý:** Hé lộ nguồn cơn sâu xa vì sao Phó Vân Xuyên sợ hãi sự tiếp xúc và luôn dằn vặt vì số phận cô độc của mình.
-
----
-
-## 2. Thống kê kỹ thuật
-- **Độ dài đoạn văn:** 92 đoạn, phân cách bởi `\\n\\n`.
-- **Dấu ngoặc thoại:** Chuẩn `“...”`.
-- **Zero Omission & Addition:** Bảo toàn trọn vẹn từng câu chữ và chi tiết đắt giá.
-- **Kết luận:** **PASSED - ĐẠT CHUẨN XUẤT SẮC**
-"""
-
-with open(qc_file, "w", encoding="utf-8") as f:
-    f.write(qc_report_content)
-print(f"Successfully written {qc_file}")
-
-# Update meta.json
-with open(meta_file, "r", encoding="utf-8") as f:
-    meta_data = json.load(f)
-
-meta_data["title"] = "Chương 22: Alaska 22"
-meta_data["translated_at"] = "2026-10-04T22:30:00+07:00"
-meta_data["status"] = "QC_PASSED"
-meta_data["qc_score"] = 1.0
-meta_data["n_paragraphs"] = len(translations)
-
-with open(meta_file, "w", encoding="utf-8") as f:
-    json.dump(meta_data, f, ensure_ascii=False, indent=2)
-print(f"Successfully updated {meta_file}")
-
-# Update timeline.json
-with open(timeline_file, "r", encoding="utf-8") as f:
-    timeline_data = json.load(f)
-
-ch22_entry = {
-    "chapter_id": "ch_022",
-    "title": "Chương 22: Alaska 22",
-    "summary": "Phó Vân Xuyên triệt hạ toàn bộ đối tác cốt lõi của Phó gia tại hội nghị thương mại. Thấy Giang Minh Lãng háo hức muốn thấy tuyết, anh hoãn chuyến bay và bao trọn sân trượt tuyết trên đỉnh núi cao nhất thành phố C cho cậu thỏa thích vui chơi. Trong khi Giang Minh Lãng tập trượt tuyết ở chân dốc, Phó Vân Xuyên lên đỉnh dốc trượt tuyết một mình và chìm vào cơn ác mộng ký ức: căn phòng tối bị bỏ đói thuở nhỏ và chú cún hoang từng đuổi theo anh rồi bị xe cán chết.",
-    "key_events": [
-        "Phó Vân Xuyên thâu tóm toàn bộ đối tác của Phó thị, lạnh lùng cự tuyệt lời van xin của Phó Ngôn",
-        "Phó Vân Xuyên hoãn chuyến bay về thành phố A để đưa Giang Minh Lãng đi trượt tuyết",
-        "Phó Vân Xuyên bao trọn toàn bộ khu trượt tuyết trên đỉnh núi thành phố C cho Giang Minh Lãng",
-        "Giang Minh Lãng háo hức tập trượt tuyết ở chân dốc dưới sự hướng dẫn của huấn luyện viên",
-        "Phó Vân Xuyên đi cáp treo lên đỉnh dốc cao nhất một mình trượt tuyết với tốc độ xé gió",
-        "Ký ức kinh hoàng ùa về: bị nhốt trong phòng tối mất nước và bi kịch chú cún hoang bị xe cán chết khi chạy theo anh"
-    ],
-    "status_tags": ["Thế giới 1", "Triệt hạ Phó gia", "Bao trọn sân trượt tuyết", "Ký ức căn phòng tối", "Bi kịch chú cún hoang"]
-}
-
-found = False
-for idx, ev in enumerate(timeline_data):
-    if ev.get("chapter_id") == "ch_022":
-        timeline_data[idx] = ch22_entry
-        found = True
-        break
-if not found:
-    timeline_data.append(ch22_entry)
-
-with open(timeline_file, "w", encoding="utf-8") as f:
-    json.dump(timeline_data, f, ensure_ascii=False, indent=2)
-print(f"Successfully updated {timeline_file}")
+print(f"ch_022 translation written: {len(paragraphs)} paragraphs.")

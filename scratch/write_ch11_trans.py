@@ -1,321 +1,231 @@
 # -*- coding: utf-8 -*-
-import json
 import os
-import re
 
-ch11_dir = r"d:\Nhung\trans-tool\novel_projects\cứu-rỗi-phản-diện-mỹ-cường-thảm\chapters\ch_011"
-source_file = os.path.join(ch11_dir, "source.md")
-trans_file = os.path.join(ch11_dir, "translation.md")
-qc_file = os.path.join(ch11_dir, "qc_report.md")
-meta_file = os.path.join(ch11_dir, "meta.json")
-timeline_file = r"d:\Nhung\trans-tool\novel_projects\cứu-rỗi-phản-diện-mỹ-cường-thảm\memory\timeline.json"
+target_dir = r"d:\Nhung\RIDI\trans-assistant\novel_projects\đấng-cứu-thế-trả-nợ-tình\chapters\ch_011"
+target_file = os.path.join(target_dir, "translation.md")
 
-translations = [
-"""---
-title: "Chương 11: Alaska 11"
+paragraphs = [
+    # 0: header
+    """---
+title: Chương 11: Hãy mở nó ra
 ---""",
 
-"""Giang Minh Lãng tung người bật nhảy trên không trung, dằn mạnh trái bóng vào rổ đối phương.""",
+    # 1: separator
+    "====================",
 
-"""Một cú úp rổ đu người hoàn hảo đến từng chi tiết.""",
+    # 2: 空氣中彌漫著令人窒息的低氣壓...
+    "Trong không khí tràn ngập luồng áp suất thấp đến mức khiến người ta nghẹt thở. Cây búa sắt nhỏ run rẩy lóe lên một tia kim quang, cuối cùng vì suy nghĩ cho an toàn của bản thân mà lựa chọn ẩn thân không hiện hình, âm thanh điện tử lượn lờ xung quanh nhỏ như tiếng muỗi kêu:",
 
-"""Tiếng kim loại va đập vang rền bị lấn át hoàn toàn bởi tiếng reo hò cổ vũ cuồng nhiệt bùng nổ từ phía trên khán đài.""",
+    # 3: 【嗚嗚，宿主，系統檢測到易緣已經離開了哦...】
+    "【Hu hu, ký chủ, hệ thống kiểm tra thấy Dịch Duyên đã rời đi rồi nha, thế nhưng ký chủ không cần lo lắng, cậu ấy tuyệt đối an toàn……】",
 
-"""Giang Minh Lãng buông tay khỏi vành rổ, vững vàng tiếp đất.""",
+    # 4: “我知道，”他當然知道易緣已經走了...
+    "“Tôi biết.” Anh đương nhiên biết Dịch Duyên đã rời đi, giống hệt kiếp trước, lặng lẽ không một tiếng động, không hề có bất kỳ dấu hiệu báo trước nào.",
 
-"""Khóe môi nhếch cao phác họa trên gương mặt cậu một nét đẹp hoang dã đầy thuần khiết.""",
+    # 5: 緊接著，易緣會在不久之後再次出現...
+    "Ngay sau đó, Dịch Duyên sẽ lại xuất hiện trong một khoảng thời gian ngắn nữa, biến thân trở thành con nuôi của tâm phúc dưới trướng Tưởng Trác Hàng. Vào ngày Tết Tuyết Rơi năm Liên bang 137, cậu sẽ áp chế anh sang một bên, lạnh lùng nhìn cha mẹ anh chết dưới tay Tưởng Trác Hàng.",
 
-"""Tiếng còi mãn cuộc vang lên, Giang Minh Lãng hào hứng ngước nhìn tỉ số chung cuộc, mồ hôi túa ra ròng ròng, cậu tiện tay túm lấy vạt áo quệt ngang mặt một cái.""",
+    # 6: 他永遠記得易緣迎著飛雪走到他面前的畫面...
+    "Anh vĩnh viễn nhớ rõ hình ảnh Dịch Duyên đón những bông tuyết bay bước đến trước mặt anh. Ánh lửa chập chờn nhảy múa trong đôi mắt ngấn nước long lanh của cậu, cậu mỉm cười, nhưng lại giống hệt như một con ác khuyển bước ra từ địa ngục.",
 
-"""“A a a! Cơ bụng kìa!”""",
+    # 7: 他用指尖輕柔地抹去他臉上的血跡...
+    "Cậu dùng đầu ngón tay dịu dàng lau đi vệt máu trên mặt anh, nói: “Dương ca, xin lỗi.”",
 
-"""“Giang Minh Lãng, cậu ngầu quá, vén cao thêm chút nữa đi!”""",
+    # 8: 沒有人知道當時的他有多絕望...
+    "Không một ai biết được khi đó anh tuyệt vọng đến nhường nào. Ngoại trừ cảm giác bất lực ập tới như sóng cuộn, còn có phần tình cảm chưa từng nhận ra đã lặng lẽ vỡ vụn trong tim.",
 
-"""Ở một góc khác, mi mắt Phó Vân Xuyên khẽ rủ xuống, nhìn chằm chằm vào một đoạn thắt lưng thon gọn săn chắc vừa lộ ra của Giang Minh Lãng, những ngón tay đặt trên lan can bắt đầu ung dung gõ từng nhịp thong thả.""",
+    # 9: 從那之後，易緣似乎回到了最開始的乖軟少年...
+    "Kể từ sau đó, Dịch Duyên dường như đã quay trở lại thành thiếu niên ngoan ngoãn mềm mại lúc ban đầu, lúc nào cũng bám lấy anh, làm nũng với anh. Nhưng anh chưa từng nói với cậu thêm một câu nào nữa, thậm chí số lần nhìn thẳng vào cậu cũng chỉ đếm trên đầu ngón tay. Mỗi lần như vậy Dịch Duyên đều tủi thân đến đỏ hoe khóe mắt, làm như thể anh mới chính là kẻ vong ân bội nghĩa vậy.",
 
-"""Giang Minh Lãng rất nhanh nhận ra mình vừa bị hớ hênh, cậu vội vàng kéo vạt áo xuống, chỉnh đốn lại cho phẳng phiu ngay ngắn, đôi tai màu lúa mì còn hơi ửng đỏ.""",
+    # 10: 記憶中後來易緣就又消失了...
+    "Trong ký ức về sau Dịch Duyên lại biến mất, biến mất một cách triệt để không còn tăm hơi. Cuối cùng Lâu Hỉ Dương nhận được một đoạn video giám sát mới biết được hóa ra cậu đã chết.",
 
-"""Cái nét ngốc nghếch kia lại quay về rồi.""",
+    # 11: 他萬萬沒想到，一個背叛他的人，這輩子卻成了他的債主。
+    "Anh vạn vạn không ngờ tới, một kẻ từng phản bội anh, kiếp này lại biến thành chủ nợ của anh.",
 
-"""Phó Vân Xuyên nửa cười nửa không hừ lạnh một tiếng.""",
+    # 12: 最開始，他花了幾年的時間慢慢去接受...
+    "Ban đầu, anh đã phải mất vài năm trời để dần dần chấp nhận, trong những ngày tháng sinh hoạt cùng bé Dịch Duyên mà dần hóa giải cừu hận, đồng thời lựa chọn tin tưởng lời của hệ thống, tin rằng hành vi khi đó của Dịch Duyên là có nguyên do.",
 
-"""Một con người như thế này, rốt cuộc là do ai phái tới, và nhằm mục đích gì?""",
+    # 13: 易緣雖然性格有些缺陷...
+    "Dịch Duyên tuy tính cách có đôi chút khiếm khuyết, nhưng chưa từng thực sự làm ra chuyện ác nào tội không thể tha.",
 
-"""“Này, Giang Minh Lãng——”""",
+    # 14: 所以他教他養他...
+    "Cho nên anh dạy dỗ cậu, nuôi nấng cậu, mong muốn Dịch Duyên có thể trở thành một người lương thiện trong sáng. Sau khi biết được Dịch Duyên thích mình, anh càng thêm khẳng định lúc trước Dịch Duyên có nỗi khổ tâm mới phản bội anh, khẳng định kiếp này Dịch Duyên sẽ không nỡ rời xa anh.",
 
-"""Một giọng nam đầy vẻ ác ý bất thình lình vang lên.""",
+    # 15: 但現在易緣還是走了...
+    "Thế nhưng hiện tại Dịch Duyên vẫn rời đi, kết cục giống y hệt kiếp trước. Nói cách khác, tất cả những gì anh làm đều là công cốc nực cười.",
 
-"""Phó Vân Xuyên nâng mắt lên, ngón tay đang gõ nhịp dừng bặt.""",
+    # 16: 想到這裡，婁禧陽冷笑了一聲。
+    "Nghĩ đến đây, Lâu Hỉ Dương cười lạnh một tiếng.",
 
-"""Kẻ này,""",
+    # 17: “我問的是，他去了哪裡。”
+    "“Tôi hỏi là, cậu ấy đã đi đâu.” Xương hàm Lâu Hỉ Dương theo từng chữ thốt ra dần siết chặt lại, giọng nói trầm và chậm, để lộ cơn giận dữ mà chính bản thân anh cũng chưa từng phát giác.",
 
-"""lúc nãy khi vây bắt Giang Minh Lãng, hẳn là đã cố ý đá vào đầu gối của cậu.""",
+    # 18: 他的眉眼以肉眼可見的弧度變得冷戾...
+    "Đôi mày của anh biến đổi theo độ cong có thể nhìn thấy bằng mắt thường trở nên lạnh lẽo tàn nhẫn, cảm giác áp bách nghiêng trời lệch đất ập tới, ép búa sắt nhỏ thở mạnh một hơi cũng không dám.",
 
-"""“Cậu chơi bóng rổ cừ thật đấy.” Kẻ kia nói với giọng điệu quái gở mỉa mai, “Không chỉ đứng đầu mọi hạng mục kiểm tra thể lực đầu vào, mà chơi bóng cũng giỏi thế này cơ à.”""",
+    # 19: 來自於救世主的威壓...
+    "Uy áp đến từ Đấng Cứu Thế, nó đã chân chân chính chính thể hội được rồi, cái này quả thực còn đáng sợ hơn cả búa sắt lớn lúc nổi giận nữa hu hu hu.",
 
-"""Nghe thấy đối phương khen mình, Giang Minh Lãng rất lịch sự mỉm cười đáp: “Cảm ơn nhé.”""",
+    # 20: 可它就是個無辜可憐的打工錘，一切都與他無瓜！
+    "Nhưng nó chỉ là một cây búa làm công vô tội đáng thương thôi mà, tất cả mọi chuyện chẳng liên quan gì tới nó hết á!",
 
-"""Cậu đâu biết rằng điều này lại càng khiến đối phương thêm thẹn quá hóa giận.""",
+    # 21: 【嗶嗶，檢測到宿主情緒波動過大...】
+    "【Bíp bíp, phát hiện dao động cảm xúc của ký chủ quá lớn, tiến độ trả nợ bước vào giai đoạn trở ngại, kích hoạt chế độ dọn dẹp trở ngại】",
 
-"""Gã bỗng cúi đầu nhìn xuống chân Giang Minh Lãng, cao giọng hô lớn: “Ai dà, ban nãy tôi lỡ chân dẫm trúng giày của cậu rồi, không sao chứ hả!”""",
+    # 22: 【叮咚，解決方案已合成。】
+    "【Đinh đong, phương án giải quyết đã tổng hợp xong.】",
 
-"""“Không sao đâu.” Giang Minh Lãng nhìn vết dẫm trên giày, hào phóng xua tay nói.""",
+    # 23: 【滴滴，方案已啟動。】
+    "【Tít tít, phương án đã được khởi động.】",
 
-"""Ngốc chết đi được.""",
+    # 24: ……
+    "……",
 
-"""Phó Vân Xuyên tặc lưỡi một tiếng.""",
+    # 25: 一連串的系統提示音在空中響起...
+    "Một tràng âm thanh thông báo của hệ thống vang lên giữa không trung, Lâu Hỉ Dương khẽ nhíu mày, ngước mắt nhìn hệ thống đang hiển hiện hình dáng giữa không trung.",
 
-"""“Thế sao được, đôi giày này của cậu là bản giới hạn kết hợp đúng không, chao ôi đắt lắm đấy, để tôi lau giúp cậu!” Kẻ nọ vừa la toáng lên vừa ngồi thụp xuống chộp lấy cổ chân Giang Minh Lãng, khiến cậu né cũng không kịp né.""",
+    # 26: 【宿主，請您進入易天臥室...】
+    "【Ký chủ, xin ngài hãy bước vào phòng ngủ của Dịch Thiên, ở bên trái bàn chức năng có một khung ảnh bằng gỗ, xin hãy mở nó ra.】",
 
-"""Quả nhiên, kẻ kia bỗng đứng phắt dậy, trên mặt tràn ngập nụ cười đắc chí như nắm chắc phần thắng trong tay.""",
+    # 27: 易天臥室？
+    "Phòng ngủ của Dịch Thiên?",
 
-"""Gã chỉ tay vào giày của Giang Minh Lãng, cất giọng the thé la lớn: “Ái chà chà, Giang Minh Lãng, sao giày của cậu lại là đồ giả thế này!”""",
+    # 28: 婁禧陽側頭掃了眼左手邊緊閉的房門...
+    "Lâu Hỉ Dương nghiêng đầu liếc nhìn cánh cửa đóng chặt bên tay trái, trầm giọng nói: “Tôi không có sở thích dòm ngó chuyện riêng tư của người khác.”",
 
-"""Lời tác giả:""",
+    # 29: 【請您配合，這是您知道易緣去向的唯一線索。】
+    "【Xin ngài hãy phối hợp, đây là manh mối duy nhất để ngài biết được tung tích của Dịch Duyên.】",
 
-"""Chương 10: Alaska 10""",
+    # 30: 聞言，婁禧陽的表情松了一點...
+    "Nghe vậy, vẻ mặt Lâu Hỉ Dương thoáng giãn ra một chút. Anh một lần nữa hướng tầm mắt về phía cánh cửa kia, sau khi suy ngẫm một hồi, cuối cùng nhấc chân bước vào trong.",
 
-"""Lời của gã vừa dứt, khắp cả sân bóng liền rộ lên từng đợt xôn xao bàn tán xì xào.""",
+    # 31: “吱呀—”，滿天的灰塵在開門的一瞬間迫不及待的衝向門外。
+    "“Két——”, bụi bay mù trời trong khoảnh khắc cánh cửa mở ra đã không kịp chờ đợi mà ùa ra ngoài cửa.",
 
-"""Giày giả, đối với những sinh viên ở độ tuổi này chắc chắn là đề tài nhạy cảm bậc nhất.""",
+    # 32: 房間裡的裝設很簡單...
+    "Bày biện trong phòng rất đơn giản, một tấm chiếu tatami thô sơ nhất, mang theo chức năng an thần có cũng như không.",
 
-"""Đặc biệt lại còn là trai đẹp mang giày giả.""",
+    # 33: 婁禧陽掃了一眼...
+    "Lâu Hỉ Dương quét mắt nhìn một vòng, đi thẳng tới chiếc bàn chức năng trước giường, liếc mắt liền nhìn thấy khung ảnh trong miệng hệ thống.",
 
-"""Trên khán đài đã có người bắt đầu thuận miệng hùa theo tiếp lời——""",
+    # 34: 相框沒什麽特別...
+    "Khung ảnh chẳng có gì đặc biệt, chỉ là một bức ảnh chân dung của một người phụ nữ mang đậm dấu ấn thời đại. Nhìn kỹ, đôi mắt của người phụ nữ gần như giống hệt Dịch Duyên.",
 
-"""“Tao đã sớm thấy đôi giày đó của cậu ta có gì đó sai sai rồi, chỉ là thấy cậu ta được hoan nghênh quá nên nhịn mãi không nói thôi.”""",
+    # 35: 他把相框打開，一張卡片晃晃悠悠的飄落在地上。
+    "Anh mở khung ảnh ra, một tấm thẻ lảo đảo rơi lơ lửng xuống mặt đất.",
 
-"""“Đâu chỉ mỗi đôi này, tuần trước có hôm cậu ta mang đôi khác cũng là hàng nhái đấy.”""",
+    # 36: 婁禧陽神情微頓...
+    "Thần sắc Lâu Hỉ Dương khựng lại, anh nhặt tấm thẻ lên, phát hiện bên trên viết: “Tiểu Duyên, mở ngăn kéo dưới gầm giường ra, dùng ADN của con.”",
 
-"""“Ủa chứ tụi mày không biết à, Giang Minh Lãng từ nông thôn lên mà, làm sao kham nổi đôi giày đắt tiền thế kia, nhìn là biết cố tình mua đồ giả để làm màu ra vẻ rồi.”""",
+    # 37: 婁禧陽轉身去到易緣的房間...
+    "Lâu Hỉ Dương quay người đi sang phòng của Dịch Duyên, tìm thấy sợi tóc rụng của cậu trên giường rồi quay trở lại chỗ cũ, nhắm chuẩn vào khu vực quét, rất nhanh đã mở được ngăn kéo ra.",
 
-"""…""",
+    # 38: 裡面是一個老舊的牛皮筆記本...
+    "Bên trong là một cuốn sổ tay bìa da bò cũ kỹ, ngày tháng ở trang đầu tiên là năm Liên bang 125, tức là mười lăm năm trước.",
 
-"""Bỗng chốc trở thành bia ngắm chỉ trích của đám đông, đây là lần đầu tiên trong suốt cuộc đời làm cún của mình Giang Minh Lãng gặp phải tình huống trớ trêu thế này.""",
+    # 39: 婁禧陽知道易天是個懷舊的人...
+    "Lâu Hỉ Dương biết Dịch Thiên là một người hoài cổ, dùng phương thức thế này hoàn toàn nằm trong dự liệu của anh.",
 
-"""Cậu cúi đầu nhìn đôi giày của mình, rồi lại ngẩng lên nhìn người nam sinh trước mặt.""",
+    # 40: 上面像是他的情史——
+    "Bên trên giống như lịch sử tình trường của ông ta——",
 
-"""Kẻ kia nhìn chằm chằm vào cậu, trong mắt ngập tràn vẻ khinh miệt chế giễu.""",
+    # 41: “今天，老子遇到了一個女人...”
+    "“Hôm nay, ông đây gặp được một người phụ nữ, cô ấy rất đẹp, là vưu vật quyến rũ mê người nhất mà ông đây từng thấy...”",
 
-"""Đứng trên khán đài, Phó Vân Xuyên thấy cảnh tượng ấy liền khẽ chau mày khó lòng nhận ra.""",
+    # 42: “她叫老子滾遠點…”
+    "“Cô ấy bảo ông đây cút xéo đi...”",
 
-"""Giang Minh Lãng khẽ nâng mi mắt, đôi mắt nâu vốn luôn đong đầy ý cười hiền lành ấm áp trong khoảnh khắc bỗng chốc trở nên tĩnh lặng dị thường.""",
+    # 43: “呵，原來她是個女.表.子...”
+    "“Hừ, hóa ra cô ta là một con điếm, chỉ thích mấy lão già có tiền có quyền, ông đây không xứng.”",
 
-"""Cậu dường như đã hiểu ra vì sao mình lại bị nhóm người này cô lập rồi.""",
+    # 44: “她懷孕了，老子的。”
+    "“Cô ấy mang thai rồi, là của ông đây.”",
 
-"""Khi một chú chó Alaska trở nên tĩnh lặng nghiêm nghị, khí chất toát ra từ ngoại hình cao lớn của nó đủ sức tạo nên một cảm giác áp bách nghẹt thở cho mọi sinh vật xung quanh.""",
+    # 45: “孩子叫易緣，她走了。”
+    "“Đứa bé tên Dịch Duyên, cô ấy bỏ đi rồi.”",
 
-"""Toàn sân bóng bỗng chốc rơi vào im bặt.""",
+    # 46: …
+    "…",
 
-"""Giang Minh Lãng từ cấp hai đã bắt đầu chơi bóng rổ, trong đội từng gặp qua đủ hạng người, cậu không phải không biết những đôi giày mình đi là hàng nhái, nhưng cậu càng hiểu rõ hơn rằng đây là những đôi giày mà ông ngoại cậu, vì không muốn cháu mình bị người ta coi khinh trong đội, đã phải chống gậy đi từ đầu phố đến cuối phố, tỉ mỉ lựa chọn từng chút một đôi giày mà ông cho là xịn xò và nở mày nở mặt nhất để mua cho cậu.""",
+    # 47: “她死了。”
+    "“Cô ấy chết rồi.”",
 
-"""“Đúng vậy, giày của tôi đều là mua ở khu chợ quê chúng tôi, giày ở đó rất rẻ, chất lượng lại rất tốt.”""",
+    # 48: 婁禧陽快速地瀏覽著...
+    "Lâu Hỉ Dương lướt nhanh qua các trang, phát hiện Dịch Thiên sau khi viết tới đoạn này thì dừng bút, những trang phía sau đều để trống.",
 
-"""Giang Minh Lãng nhìn thẳng vào tất cả mọi người trước mặt một cách vô cùng nghiêm túc, từng câu từng chữ rành rọt cất lời.""",
+    # 49: 但在本子的最後，又出現了兩頁的字...
+    "Thế nhưng ở phần cuối cùng của cuốn sổ lại xuất hiện hai trang chữ, lần này không có ghi ngày tháng, đồng thời đối tượng người đọc đã đổi thành Dịch Duyên.",
 
-"""“Nhưng... nhưng nó là hàng giả mà.”""",
+    # 50: “小子，你看到它的時候老子估計已經死了...”
+    "“Thằng nhóc, lúc con nhìn thấy cuốn sổ này thì ông đây đoán chừng đã chết rồi. Ông đây muốn nói cho con biết, mạt thế của hành tinh M sẽ giáng lâm sau sáu năm nữa, con có phải rất sợ hãi không? Muốn lập tức trốn tới hành tinh khác chứ gì? Hừ, đừng có mơ tưởng.",
 
-"""Nam sinh nọ hoàn toàn không ngờ Giang Minh Lãng lại thẳng thắn thừa nhận sảng khoái đến vậy, nhất thời ấp úng không biết phải nói tiếp thế nào.""",
+    # 51: 你還記得你媽長什麽樣嗎...
+    "Con còn nhớ mẹ con trông thế nào không, chính là bức ảnh lúc nãy đấy, là một đại mỹ nhân đúng không, cô ấy cái gì cũng tốt, chỉ có điều quá đỗi tuyệt tình.",
 
-"""“Tôi biết nó là hàng giả, bởi vì hàng thật nhà tôi đâu có tiền mua nổi.” Giang Minh Lãng nói huỵch toẹt ra.""",
+    # 52: 那時候老子少年氣盛...
+    "Hồi đó ông đây tuổi trẻ khí thịnh, cứ muốn tới câu lạc bộ lớn nhất toàn Liên bang để tìm em gái……",
 
-"""Lời này vừa thốt ra, cả sân bóng đều một phen sững sờ nghẹn lời.""",
+    # 53: ……
+    "……",
 
-"""“Thế cậu rõ ràng biết nó là đồ giả mà vẫn mang, chẳng phải là để làm màu ra vẻ à?” Có người cãi lại.""",
+    # 54: ……
+    "……",
 
-"""Giang Minh Lãng nhìn về phía người vừa lên tiếng, nói: “Tại sao lại không đi? Giày là do ông ngoại mua cho tôi, bất kể là thật hay giả tôi đều thích, tôi đều sẽ mang, chứ chẳng phải vì để làm màu gì hết.”""",
+    # 55: 就不跟你講老子和她怎麽在一起的...
+    "Không thèm kể cho con nghe chuyện ông đây với cô ấy đến với nhau thế nào nữa, tóm lại, sau khi cô ấy bất ngờ mang thai con, cô ấy buộc phải thẳng thắn thú nhận với ta rất nhiều điều——",
 
-"""“Chuyện này... tôi...”""",
+    # 56: 她是FC星際情報團的一員...
+    "Cô ấy là một thành viên của Đoàn Tình báo Tinh tế FC, mỗi một vị khách hàng trong câu lạc bộ đều là nguồn tin tức của cô ấy.",
 
-"""Cả bọn đối diện nghe thấy vậy lập tức luống cuống rối cả đội hình.""",
+    # 57: 關於M星的末日...
+    "Về ngày tận thế của hành tinh M, thực ra từ rất lâu trước đây đã có điềm báo rồi, đây là một ván cờ sinh tử khổng lồ và vô cùng khủng khiếp.",
 
-"""“Nhà tôi không có nhiều tiền, ông ngoại cũng chẳng biết đôi giày nào là thật, đôi nào là giả. Ông chỉ mong tôi có thể mang được thoải mái êm chân, giày của tôi đều là do ông chống gậy, đi bộ từ đầu phố đến cuối phố, tự tay lựa từng đôi một cho tôi.”""",
+    # 58: 你別怪她在你兩歲的時候離開...
+    "Con đừng trách cô ấy rời đi lúc con hai tuổi, cô ấy không phải không cần con đâu, là ông đây lừa con đấy, là do ông đây quá ngu ngốc không nghĩ thông suốt.",
 
-"""Giang Minh Lãng mặt không chút biểu cảm cụp mắt nhìn xuống người nam sinh trước mặt, từng câu từng chữ chất vấn ngược lại: “Xin hỏi, tôi đã làm sai chỗ nào sao?”""",
+    # 59: 蔣卓航已經發覺了你媽的存在，所以她死了。
+    "Tưởng Trác Hàng đã phát giác ra sự tồn tại của mẹ con, cho nên cô ấy đã chết.",
 
-"""Sau một hồi im lặng kéo dài, trên sân bóng đã bắt đầu rộ lên những lời trách móc ập tới.""",
+    # 60: 老子知道的太多，所以老子也快死了。
+    "Ông đây biết quá nhiều, cho nên ông đây cũng sắp chết rồi.",
 
-"""Nhưng những lời mắng chửi ấy không phải nhắm vào Giang Minh Lãng, mà là nhắm thẳng vào kẻ vừa mở miệng giễu cợt cậu đi giày giả.""",
+    # 61: 本來想讓你好好活下去...
+    "Vốn dĩ muốn để con sống thật tốt, không muốn để con biết quá nhiều, đưa con tới hành tinh khác sống những ngày tháng vô ưu vô lo.",
 
-"""Đám con trai đối diện cũng lần lượt ngậm chặt miệng, lúng túng nhìn ngó xung quanh đầy khó xử.""",
+    # 62: 但老子還是想了想...
+    "Thế nhưng ông đây ngẫm lại, nếu như đi đến bước đường cuối cùng, hành tinh M nhất định phải đối mặt với bước đường cùng tuyệt cảnh, thì ông đây cùng mẹ con hy vọng con đi tìm người này, ông ta tên Trần Liễm. Mã thiết bị đầu cuối bên dưới chỉ dùng một lần, sau khi liên lạc được nhớ bảo ông ta cho con phương thức liên lạc khác.”",
 
-"""Giữa bầu không khí hỗn loạn ấy, tiếng còi của huấn luyện viên vang lên giục giã, Giang Minh Lãng liếc nhìn bảng tỉ số lần cuối rồi xoay người rời sân.""",
+    # 63: 所有的話語在此畫上了句點...
+    "Tất cả lời lẽ dừng lại ở đây. Ánh mắt Lâu Hỉ Dương vẫn nán lại hồi lâu trên câu nói cuối cùng kia. Gương mặt trông có vẻ bình lặng, nhưng sâu trong đáy mắt lại cuộn trào sóng ngầm.",
 
-"""Trên khán đài, Phó Vân Xuyên nhìn theo bóng dáng của Giang Minh Lãng khuất dần khỏi sân bóng rổ, rồi mới chầm chậm thu hồi ánh mắt.""",
+    # 64: 兩件事，一是易緣的父母或許知道所謂M星末日的真相...
+    "Hai chuyện: một là cha mẹ Dịch Duyên có lẽ biết được chân tướng về cái gọi là mạt thế hành tinh M, đây là điều anh chưa từng lường trước được, anh trước giờ vẫn nghĩ chỉ có anh và cha mẹ anh mới biết được nội tình bên trong.",
 
-"""Tầm mắt anh chuyển sang người trợ lý nãy giờ vẫn đứng chờ bên cạnh, trợ lý lúc này vẫn đang mải nhìn xuống sân bóng mà chưa kịp hoàn hồn.""",
+    # 65: 二是他認得這個陳斂...
+    "Hai là anh nhận ra Trần Liễm này, ông ta chính là cha nuôi của Dịch Duyên ở kiếp trước, là tay sai đắc lực của Tưởng Trác Hàng. Cho nên, Dịch Duyên rất có thể là sau khi nhìn thấy thứ này đã liên lạc với Trần Liễm, rồi bị Trần Liễm dẫn đi.",
 
-"""“Nhìn rõ chưa?” Anh cất giọng hỏi.""",
+    # 66: 【嗶嗶，檢測到阻礙已消除，清掃模式已關閉。】
+    "【Bíp bíp, phát hiện trở ngại đã được giải trừ, chế độ dọn dẹp đã tắt.】",
 
-"""Người trợ lý giật bắn mình sực tỉnh, ngơ ngác mất một thoáng.""",
+    # 67: “告訴我他現在在哪裡。”
+    "“Nói cho tôi biết hiện tại cậu ấy đang ở đâu.” Lâu Hỉ Dương nhìn cây búa sắt nhỏ đã khôi phục lại vẻ hoạt bát, cất tiếng hỏi.",
 
-"""“Đi thôi.”""",
+    # 68: 【不能哦宿主～】
+    "【Không được đâu nha ký chủ ~】",
 
-"""Anh dời ánh mắt, xoay người cất bước đi về phía xe.""",
+    # 69: 回答在他預想之內...
+    "Câu trả lời nằm trong dự liệu của anh. Lâu Hỉ Dương cúi đầu liếc nhìn cuốn sổ tay, đặt nó trở lại chỗ cũ.",
 
-"""Chiếc xe bắt đầu chầm chậm lăn bánh, Phó Vân Xuyên nhìn ra ngoài cửa sổ xe, trầm giọng dặn dò: “Cậu đi mua mấy đôi giày thể thao, mang đến gửi cho Vương Xuân Lệ.”""",
+    # 70: “那就等他自己出來吧，反正也沒多久了。”
+    "“Vậy thì đợi cậu ấy tự mình xuất hiện đi, dù sao cũng chẳng còn bao lâu nữa.”",
 
-"""Trợ lý bừng tỉnh hiểu ra, vội gật đầu lia lịa: “Vâng, tôi hiểu rồi ạ.”""",
-
-"""Giang Minh Lãng, người từ đầu đến cuối chẳng hề hay biết mình vừa bị Phó Vân Xuyên lén xem trọn vẹn cả trận đấu, lúc này đang tỏa ra đầy vẻ u ám ủ rũ bước vào phòng thay đồ.""",
-
-"""Phòng thay đồ giờ đây không một bóng người, cho dù trận đấu đã kết thúc, cũng chẳng có ai dám bước chân vào đây trong lúc này.""",
-
-"""Giang Minh Lãng tắm qua một lượt nước mát, mặc quần áo vào rồi bước ra ngoài.""",
-
-"""Cậu lúc này vô cùng phiền muộn ngột ngạt, nhưng cũng không quên mất mình vẫn còn có việc quan trọng hơn cần phải làm.""",
-
-"""Cậu ngước nhìn bầu trời trong xanh ngập tràn ánh nắng rực rỡ, lẩm bẩm một mình: “Hôm nay thật sự sẽ đổ mưa sao...”""",
-
-"""Trong cốt truyện gốc, phân cảnh hôm nay của Phó Vân Xuyên chính là bất ngờ gặp phải cơn mưa bão lớn ngay trong khuôn viên Đại học A, giữa lúc đang chật vật thì đụng mặt thụ chính Phó Ngôn đang cầm chiếc ô đi tới. Dẫu Phó Ngôn sợ anh, nhưng vẫn lấy hết can đảm che ô cho anh, hai người nhờ đó mà cùng nhau đi bộ một quãng đường rất dài dưới cơn mưa trong trường Đại học A.""",
-
-"""Phó Vân Xuyên thêm một lần nữa bị sự lương thiện dịu dàng của thụ chính làm rung động, hai người do đó đã trao đổi cách thức liên lạc cho nhau, và Phó Vân Xuyên bắt đầu chính thức chủ động tiếp cận Phó Ngôn.""",
-
-"""Đây là một trong số ít những đất diễn của Phó Vân Xuyên ở giai đoạn này trong tiểu thuyết, bởi lẽ thời kỳ này là giai đoạn quan trọng để công chính và thụ chính làm quen tìm hiểu lẫn nhau, sự hiện diện của Phó Vân Xuyên không mấy nổi bật.""",
-
-"""Phó Vân Xuyên không hề nói cho cậu biết liệu hôm nay anh có đến Đại học A hay không, và mấy giờ mới đến, cho nên Giang Minh Lãng chỉ có thể dựa vào tình tiết trong tiểu thuyết để phỏng đoán.""",
-
-"""“Thôi kệ, mình cứ vào cửa hàng tiện lợi mua sẵn một chiếc ô đã.”""",
-
-"""Nghĩ đến đây, Giang Minh Lãng liền như có điều suy nghĩ mà sải bước hướng về phía cửa hàng tiện lợi.""",
-
-"""Khi đến cửa hàng tiện lợi thì cũng vừa vặn tới giờ cơm trưa, Giang Minh Lãng dứt khoát mua một phần cơm hộp ăn liền lót dạ, đến khi ngẩng đầu lên thì ngoài cửa sổ trời đã sầm tối đen kịt lại.""",
-
-"""“Thời tiết này sao nói đổi là đổi ngay được thế nhỉ, mới ngẩng mặt lên mà trời đã tối sầm thế này rồi.”""",
-
-"""“Mày không xem dự báo thời tiết à, hôm nay có mưa bão đấy, mau đi thôi, không lát nữa là kẹt cứng không về được đâu...”""",
-
-"""Xung quanh ồn ào tiếng bàn tán, có lẽ ai nấy đều sợ lát nữa mưa như trút nước, chẳng mấy chốc đám sinh viên ngồi ăn trong tiệm đã vội vã kéo nhau về sạch trơn.""",
-
-"""Giang Minh Lãng vứt hộp cơm vào thùng rác, cầm lấy một chiếc ô đi lại quầy thu ngân.""",
-
-"""“Chào anh, lấy cho tôi một chiếc ô.”""",
-
-"""Miệng cậu còn chưa kịp mở lời thì một giọng nói quen thuộc đã vang lên ngay bên cạnh sườn cậu.""",
-
-"""“Phó Ngôn?”""",
-
-"""Giang Minh Lãng thốt lên gọi tên.""",
-
-"""Phó Ngôn trông có vẻ rất vội vã, thậm chí còn chẳng nhận ra người vừa gọi mình là Giang Minh Lãng.""",
-
-"""“Giang Minh Lãng, là cậu à,” Cậu ta trông khá ngạc nhiên, nhưng rất nhanh đã đổi giọng: “Ngại quá, tôi đang có chút việc gấp, để lần sau nói chuyện nhé.”""",
-
-"""Cậu ta nhận lấy chiếc ô, cất lời chào một tiếng rồi vội vã rời đi.""",
-
-"""【Còn đứng ngây ra đó làm gì, mau bám theo đi chứ.】 Hệ thống thúc giục.""",
-
-"""Giang Minh Lãng lúc này mới sực tỉnh lại, nhận chiếc ô của mình rồi rảo bước đuổi theo phía sau.""",
-
-"""Nếu không có gì ngoài ý muốn, chỉ cần bám theo Phó Ngôn là có thể tìm ra Phó Vân Xuyên.""",
-
-"""Phó Ngôn suốt dọc đường đi đều rảo bước rất vội vàng, hệt như sợ rằng mình sẽ bỏ lỡ mất điều gì quan trọng.""",
-
-"""Đi đến giữa đường thì cơn mưa rào tầm tã bỗng chốc ào ào trút xuống, bốn bề đều vang lên những tiếng than vãn la hét của những sinh viên chưa kịp tìm chỗ trú chân.""",
-
-"""Bật tung chiếc ô dưới những ánh mắt đầy vẻ ghen tị ngưỡng mộ của đám đông, Giang Minh Lãng bỗng chốc dâng lên một cảm giác sảng khoái kỳ lạ không nói nên lời.""",
-
-"""Khi đi tới cách thư viện không xa thì Phó Ngôn liền dừng bước lại, cậu ta che ô, lẳng lặng đứng yên tại chỗ hệt như đang đợi chờ một ai đó.""",
-
-"""Giang Minh Lãng đứng phía sau càng lúc càng thêm khó hiểu, cậu cảm thấy dường như có điểm nào đó rất kỳ lạ, nhưng cụ thể kỳ lạ ở chỗ nào thì lại không sao nói rõ được.""",
-
-"""Cho đến khi tầm mắt cậu lướt qua bả vai của Phó Ngôn, trông thấy người đàn ông đang đứng trước cửa thư viện.""",
-
-"""Phó Vân Xuyên khoác trên mình bộ âu phục đặt may cao cấp màu xám đậm, vóc dáng cao ráo đĩnh đạc, ánh mắt lạnh băng sừng sững đứng lặng trước cổng thư viện.""",
-
-"""Góc nghiêng gương mặt nho nhã tuấn tú với hàng mày nhíu chặt, luồng áp suất thấp đầy vẻ thiếu kiên nhẫn quanh người anh nồng đậm đến mức gần như cô đặc lại thành thực thể."""
+    # 71: 求收藏呀求收藏～
+    "Cầu cất chứa nha cầu cất chứa ~"
 ]
 
-with open(source_file, "r", encoding="utf-8") as f:
-    s_paras = [p.strip() for p in f.read().strip().split("\n\n") if p.strip()]
+os.makedirs(target_dir, exist_ok=True)
+with open(target_file, "w", encoding="utf-8") as f:
+    f.write("\n\n".join(paragraphs) + "\n")
 
-print(f"Source count: {len(s_paras)}, Trans count: {len(translations)}")
-assert len(s_paras) == len(translations), f"Count mismatch: {len(s_paras)} vs {len(translations)}"
-
-# Check that 'hắn' is never used for anyone
-forbidden = []
-for idx, p in enumerate(translations):
-    if re.search(r'\b(hắn)\b', p, re.IGNORECASE):
-        forbidden.append((idx, p))
-assert len(forbidden) == 0, f"Found 'hắn' in {forbidden}"
-print("Zero 'hắn' detected across entire chapter!")
-
-# Save translation.md
-full_trans_content = "\n\n".join(translations) + "\n"
-with open(trans_file, "w", encoding="utf-8") as f:
-    f.write(full_trans_content)
-print(f"Successfully written {trans_file}")
-
-# Generate qc_report.md
-qc_report_content = f"""# BÁO CÁO KIỂM ĐỊNH CHẤT LƯỢNG DỊCH THUẬT (QC REPORT)
-**Chương:** Chương 11: Alaska 11 (`ch_011`)  
-**Số đoạn gốc:** {len(s_paras)} | **Số đoạn dịch:** {len(translations)}  
-**Tỷ lệ khớp đoạn:** 100% (106/106) - Tuyệt đối 1:1  
-**Điểm chất lượng:** 1.0/1.0 (XUẤT SẮC)
-
----
-
-## 1. Kiểm tra tuân thủ Rules Arc 1
-- **Công (Giang Minh Lãng):** Xưng ngôi thứ 3 là **"cậu"**, tỏa sáng trên sân bóng rổ với vẻ đẹp hoang dã thuần khiết, tính cách kiên định, tự hào về đôi giày ông ngoại mua tặng. Tuyệt đối không dùng "hắn" cho Công.
-- **Thụ (Phó Vân Xuyên):** Xưng ngôi thứ 3 là **"anh"**, kín đáo quan sát, bảo trợ lý mua giày mới cho Vương Xuân Lệ gửi cho Giang Minh Lãng. Đứng trước thư viện đợi mưa trong âu phục xám sang trọng. Tuyệt đối không dùng "hắn" hay "y" cho Thụ.
-- **Xưng hô đối thoại:** Giữ đúng tính chất giao tiếp giữa sinh viên, sự tôn trọng và tình thân với ông ngoại nghèo.
-- **Tình huống cao trào:** Giang Minh Lãng bám theo Phó Ngôn dưới mưa bão và phát hiện Phó Vân Xuyên đang bị kẹt mưa trước cổng thư viện.
-
----
-
-## 2. Thống kê kỹ thuật
-- **Độ dài đoạn văn:** 106 đoạn, phân cách bởi `\\n\\n`.
-- **Dấu ngoặc thoại:** Chuẩn `“...”`.
-- **Zero Omission & Addition:** Bảo toàn trọn vẹn từng câu thoại và tâm lý nhân vật.
-- **Kết luận:** **PASSED - ĐẠT CHUẨN XUẤT SẮC**
-"""
-
-with open(qc_file, "w", encoding="utf-8") as f:
-    f.write(qc_report_content)
-print(f"Successfully written {qc_file}")
-
-# Update meta.json
-with open(meta_file, "r", encoding="utf-8") as f:
-    meta_data = json.load(f)
-
-meta_data["title"] = "Chương 11: Alaska 11"
-meta_data["translated_at"] = "2026-10-04T21:48:00+07:00"
-meta_data["status"] = "QC_PASSED"
-meta_data["qc_score"] = 1.0
-meta_data["n_paragraphs"] = len(translations)
-
-with open(meta_file, "w", encoding="utf-8") as f:
-    json.dump(meta_data, f, ensure_ascii=False, indent=2)
-print(f"Successfully updated {meta_file}")
-
-# Update timeline.json
-with open(timeline_file, "r", encoding="utf-8") as f:
-    timeline_data = json.load(f)
-
-ch11_entry = {
-    "chapter_id": "ch_011",
-    "title": "Chương 11: Alaska 11",
-    "summary": "Giang Minh Lãng tỏa sáng trong trận đấu bóng rổ nhưng bị đồng đội ác ý vạch trần đi giày giả. Cậu thẳng thắn bảo vệ tình yêu thương của người ông ngoại nghèo khó, khiến toàn trường quay sang bênh vực mình. Phó Vân Xuyên đứng xem từ khán đài, âm thầm dặn trợ lý mua giày mới gửi cho mẹ Giang. Cơn mưa lớn ập đến, Giang Minh Lãng bám theo Phó Ngôn đến thư viện và thấy Phó Vân Xuyên đang bị kẹt mưa.",
-    "key_events": [
-        "Giang Minh Lãng úp rổ đu người hoàn hảo, khoe cơ bụng và thắt lưng săn chắc khiến khán đài bùng nổ, Phó Vân Xuyên đứng xem từ xa",
-        "Kẻ ghen ghét cố tình giẫm bẩn giày và bóc mẽ Giang Minh Lãng đi giày giả",
-        "Giang Minh Lãng chân thành kể về đôi giày ông ngoại chống gậy đi chọn cho cháu, khiến mọi người xúc động bênh vực",
-        "Phó Vân Xuyên dặn trợ lý mua vài đôi giày gửi cho Vương Xuân Lệ đem cho con trai",
-        "Trời đổ mưa bão, Giang Minh Lãng mua ô ở cửa hàng tiện lợi và bắt gặp Phó Ngôn đang vội vã đi đâu đó",
-        "Giang Minh Lãng che ô đuổi theo Phó Ngôn đến thư viện và phát hiện Phó Vân Xuyên đang đứng dưới mái hiên thư viện"
-    ],
-    "status_tags": ["Thế giới 1", "Úp rổ bóng rổ", "Đôi giày của ông ngoại", "Phó tổng mua giày ngầm", "Mưa bão thư viện"]
-}
-
-found = False
-for idx, ev in enumerate(timeline_data):
-    if ev.get("chapter_id") == "ch_011":
-        timeline_data[idx] = ch11_entry
-        found = True
-        break
-if not found:
-    timeline_data.append(ch11_entry)
-
-with open(timeline_file, "w", encoding="utf-8") as f:
-    json.dump(timeline_data, f, ensure_ascii=False, indent=2)
-print(f"Successfully updated {timeline_file}")
+print(f"ch_011 translation written: {len(paragraphs)} paragraphs.")

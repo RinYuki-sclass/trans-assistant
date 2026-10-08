@@ -6,7 +6,7 @@
 > **Tổng số chương:** **30 chương** *(tương ứng Trang 1 $\rightarrow$ 64 trên bản raw CZBooks)*  
 > **Quy chuẩn áp dụng:** [`rules_arc_1.md`](rules_arc_1.md)  
 > **Chế độ thực thi:** **Fast Batch Mode** (Tự động dịch 1:1, Auto QC Audit, Auto Lorekeeper theo từng đợt)  
-> **Trạng thái Arc 1:** ⏳ **ĐÃ LẬP KẾ HOẠCH — SẴN SÀNG THỰC THI**
+> **Trạng thái Arc 1:** 🎉 **ĐÃ HOÀN THÀNH TOÀN DIỆN 100% (30/30 CHƯƠNG QC_PASSED)**
 
 ---
 
@@ -15,9 +15,9 @@
 | Chỉ số | Giá trị | Ghi chú |
 | :--- | :---: | :--- |
 | **Tổng số chương Arc 1** | **30** | `ch_001` $\rightarrow$ `ch_030` |
-| **Đã hoàn thành (QC_PASSED)** | **15** | Đã hoàn thành Batch 0, Batch 1 và Batch 2 (`ch_001` $\rightarrow$ `ch_015`) |
-| **Đang chờ xử lý** | **15** | Chờ triển khai Batch 3 $\rightarrow$ Batch 4 (`ch_016` $\rightarrow$ `ch_030`) |
-| **Tiến độ tổng thể** | **50.0%** | Đã thông qua kiểm toán 15/30 chương đạt 100% QC PASS |
+| **Đã hoàn thành (QC_PASSED)** | **30** | Đã hoàn tất 100% cả 5 Batch (`ch_001` $\rightarrow$ `ch_030`) |
+| **Đang chờ xử lý** | **0** | Toàn bộ 30 chương đã đạt chuẩn kiểm toán |
+| **Tiến độ tổng thể** | **100.0%** | Đã thông qua kiểm toán 30/30 chương đạt 100% QC PASS |
 | **Mục tiêu quy chuẩn** | **100% PASS** | Khóa chặt đại từ: Bạch Huân = "anh", Tần Diễm = "cậu", cách dòng `\n\n`, thoại "tôi - cậu" |
 
 ---
@@ -63,34 +63,34 @@
 
 ---
 
-### 🔹 BATCH 3: Thân Thế Thực Sự & Chữa Lành (8 chương: `ch_016` $\rightarrow$ `ch_023`) — [CHỜ XỬ LÝ]
+### 🔹 BATCH 3: Thân Thế Thực Sự & Chữa Lành (8 chương: `ch_016` $\rightarrow$ `ch_023`) — [HOÀN THÀNH ✅]
 * **Mục tiêu:** Hé lộ gia cảnh bần hàn của Bạch Huân; Tần Diễm xót xa, ranh giới kiêu ngạo tan rã; chuyển sang giai đoạn thương yêu thật lòng.
 
-| Chapter ID | Tên chương | Trạng thái QC | Tiến độ | Tóm tắt sự kiện chính |
-| :---: | :--- | :---: | :---: | :--- |
-| [`ch_016`](chapters/ch_016) | Chương 16 | ⏳ PENDING | 0% | Dự án học tập / làm thêm bên ngoài; Tần Diễm bám theo theo dõi |
-| [`ch_017`](chapters/ch_017) | Chương 17 | ⏳ PENDING | 0% | Tần Diễm chứng kiến Bạch Huân làm việc cật lực kiếm tiền phụng dưỡng mẹ |
-| [`ch_018`](chapters/ch_018) | Chương 18 | ⏳ PENDING | 0% | Trái tim rung động mãnh liệt; Tần thiếu gia âm thầm tìm cách giúp đỡ |
-| [`ch_019`](chapters/ch_019) | Chương 19 | ⏳ PENDING | 0% | Bạch Huân nhận ra sự quan tâm vụng về của cậu, chủ động mở lòng |
-| [`ch_020`](chapters/ch_020) | Chương 20 | ⏳ PENDING | 0% | Tần Diễm đưa Bạch Huân đi dạo trên chiếc môtô phân khối lớn |
-| [`ch_021`](chapters/ch_021) | Chương 21 | ⏳ PENDING | 0% | Khoảnh khắc bình yên và ấm áp bên bờ hồ / ban đêm |
-| [`ch_022`](chapters/ch_022) | Chương 22 | ⏳ PENDING | 0% | Bạch Huân trêu ghẹo hỏi cậu đã chịu làm bạn trai chưa |
-| [`ch_023`](chapters/ch_023) | Chương 23 | ⏳ PENDING | 0% | Tần Diễm chịu thua trước sự dịu dàng của anh |
+| Chapter ID | Tên chương | Số đoạn 1:1 | Trạng thái QC | Tiến độ | Tóm tắt sự kiện chính |
+| :---: | :--- | :---: | :---: | :---: | :--- |
+| [`ch_016`](chapters/ch_016) | Chương 16: Tặng cậu đấy | 80 | ✅ QC_PASSED | 100% | Tới thành phố B; Tần Diễm tặng kính mới; Bạch Huân từ chối lời gạ gẫm của Vương Tử Quân |
+| [`ch_017`](chapters/ch_017) | Chương 17: Tôi đang theo đuổi Tần thiếu | 75 | ✅ QC_PASSED | 100% | Bạch Huân tuyên bố đang theo đuổi Tần Diễm; Tần Diễm nổi giận thách đấu đua xe bảo vệ anh |
+| [`ch_018`](chapters/ch_018) | Chương 18: Cậu ta khá cưng chiều cậu | 109 | ✅ QC_PASSED | 100% | Tần Diễm thắng áp đảo tay đua chuyên nghiệp Trần Thần; Bạch Huân xoa dịu nắm đấm của Tần Diễm |
+| [`ch_019`](chapters/ch_019) | Chương 19: Nụ hôn | 74 | ✅ QC_PASSED | 100% | Bạch Huân chủ động cưỡng hôn Tần Diễm trong xe; Tần Diễm trằn trọc mất ngủ nhớ mãi nụ hôn |
+| [`ch_020`](chapters/ch_020) | Chương 20: Chơi đùa với cậu ta | 125 | ✅ QC_PASSED | 100% | Bạch Huân nấu bữa sáng; Tần Diễm chở đi dạo môtô rồi trêu ghẹo, bị Bạch Huân kéo vào thế chủ động |
+| [`ch_021`](chapters/ch_021) | Chương 21: Vậy thì chơi đùa chút | 95 | ✅ QC_PASSED | 100% | Bạch Huân đè sô pha hôn sâu; đi học cùng nhau; người lạ tìm Bạch Huân và Tần Diễm đi 'bắt gian' |
+| [`ch_022`](chapters/ch_022) | Chương 22: Không được gọi đàn anh | 85 | ✅ QC_PASSED | 100% | Văn Thần bàn hợp tác; Tần Diễm ghen tuông cưỡng hôn ở vườn hoa; lén mua áo đôi; Thư Ninh Ninh bắt gặp |
+| [`ch_023`](chapters/ch_023) | Chương 23: Ngủ chung | 85 | ✅ QC_PASSED | 100% | Tần Diễm úp rổ; ảnh lau mồ hôi gây sốt; đêm say rượu ôm gối sang ngủ chung và cướp điện thoại đuổi Văn Thần |
 
 ---
 
-### 🔹 BATCH 4: Trừng Trị Kẻ Xấu & Kết Thúc Thế Giới 1 (7 chương: `ch_024` $\rightarrow$ `ch_030`) — [CHỜ XỬ LÝ]
-* **Mục tiêu:** Vạch trần kẻ hãm hại sau lưng; hoàn thành nhiệm vụ thế giới; chính thức xác định quan hệ; chuẩn bị sang Thế giới 2.
+### 🔹 BATCH 4: Trừng Trị Kẻ Xấu & Kết Thúc Thế Giới 1 (7 chương: `ch_024` $\rightarrow$ `ch_030`) — [HOÀN THÀNH ✅ 100%]
+* **Mục tiêu:** Vạch trần kẻ hãm hại sau lưng; hoàn thành nhiệm vụ thế giới; chính thức xác định quan hệ; hoàn thành trọn vẹn Thế giới 1 (Arc 1).
 
-| Chapter ID | Tên chương | Trạng thái QC | Tiến độ | Tóm tắt sự kiện chính |
-| :---: | :--- | :---: | :---: | :--- |
-| [`ch_024`](chapters/ch_024) | Chương 24 | ⏳ PENDING | 0% | Kẻ đố kỵ đứng sau các bài bôi nhọ lộ mặt |
-| [`ch_025`](chapters/ch_025) | Chương 25 | ⏳ PENDING | 0% | Bạch Huân và Tần Diễm phối hợp lật ngược tình thế trước toàn trường |
-| [`ch_026`](chapters/ch_026) | Chương 26 | ⏳ PENDING | 0% | Đám người bôi nhọ phải trả giá và công khai xin lỗi |
-| [`ch_027`](chapters/ch_027) | Chương 27 | ⏳ PENDING | 0% | Văn Thần hỗ trợ xử lý dứt điểm các bài đăng trên mạng |
-| [`ch_028`](chapters/ch_028) | Chương 28 | ⏳ PENDING | 0% | Tần Diễm đưa Bạch Huân về ra mắt / khẳng định vị trí bạn trai |
-| [`ch_029`](chapters/ch_029) | Chương 29 | ⏳ PENDING | 0% | Nhiệm vụ kịch bản yêu đương của Hệ thống hoàn thành 100% |
-| [`ch_030`](chapters/ch_030) | Chương 30 | ⏳ PENDING | 0% | Kết thúc ngọt ngào viên mãn Arc 1; Preview Thế giới 2 (Mạt thế: Dây tơ hồng x Cố Xuyên) |
+| Chapter ID | Tên chương | Số đoạn 1:1 | Trạng thái QC | Tiến độ | Tóm tắt sự kiện chính |
+| :---: | :--- | :---: | :---: | :---: | :--- |
+| [`ch_024`](chapters/ch_024) | Chương 24: Hai người đang yêu nhau sao? | 86 | ✅ QC_PASSED | 100% | Tần Diễm đầu tư 1,5 triệu tệ; Bạch Huân xóa bạn Văn Thần; tiến độ công lược 72% |
+| [`ch_025`](chapters/ch_025) | Chương 25: Cậu rõ ràng thích anh ấy | 91 | ✅ QC_PASSED | 100% | Tiến độ đạt 92%; Tần Diễm chuẩn bị nhẫn đôi và tiệc sinh nhật cho Bạch Huân |
+| [`ch_026`](chapters/ch_026) | Chương 26: Xin lỗi, kết thúc thôi | 284 | ✅ QC_PASSED | 100% | Bạch Huân từ chối lời tỏ tình của Tần Diễm, vạch rõ ranh giới; Tần Diễm đau đớn đập phá đồ đạc |
+| [`ch_027`](chapters/ch_027) | Chương 27: Chân tướng lộ diện | 246 | ✅ QC_PASSED | 100% | Bài đăng trộm dây chuyền bùng nổ; Tần Diễm tra ra chân tướng Trần Tiền Sùng, bắt đến nhà kho |
+| [`ch_028`](chapters/ch_028) | Chương 28: Nhà kho đối chất | 138 | ✅ QC_PASSED | 100% | Trần Sùng Tiền thú nhận; Tần Diễm nhảy ao chịu rét chuộc lỗi; nụ hôn bờ ao; Bạch Huân đăng bài thanh minh |
+| [`ch_029`](chapters/ch_029) | Chương 29: Kịch bản hoàn thành | 204 | ✅ QC_PASSED | 100% | Tần Diễm dầm mưa 4 tiếng thổ lộ; từ bỏ gia sản nhà họ Tần; xác định quan hệ; Mật Bảo đạt 100% hoàn thành nhiệm vụ |
+| [`ch_030`](chapters/ch_030) | Chương 30: Bên nhau trọn đời | 135 | ✅ QC_PASSED | 100% | Tốt nghiệp ngọt ngào; phiên ngoại Viên hồi quy thời gian cứu vãn thanh xuân; HE trọn vẹn Thế giới 1 |
 
 ---
 

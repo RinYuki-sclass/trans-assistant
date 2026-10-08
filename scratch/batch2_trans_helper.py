@@ -48,7 +48,7 @@ def call_gemini(contents, system_instruction, temp=0.2, max_retries=12):
         types.SafetySetting(category="HARM_CATEGORY_SEXUALLY_EXPLICIT", threshold="BLOCK_NONE"),
         types.SafetySetting(category="HARM_CATEGORY_DANGEROUS_CONTENT", threshold="BLOCK_NONE"),
     ]
-    models = ["gemini-2.5-flash-lite", "gemini-2.5-flash"]
+    models = ["gemini-3.8-flash", "gemini-2.5-flash-lite"]
 
     for attempt in range(max_retries):
         model = models[attempt % len(models)]

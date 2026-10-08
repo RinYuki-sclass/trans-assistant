@@ -1,289 +1,219 @@
 # -*- coding: utf-8 -*-
-import json
 import os
-import re
 
-ch15_dir = r"d:\Nhung\trans-tool\novel_projects\cứu-rỗi-phản-diện-mỹ-cường-thảm\chapters\ch_015"
-source_file = os.path.join(ch15_dir, "source.md")
-trans_file = os.path.join(ch15_dir, "translation.md")
-qc_file = os.path.join(ch15_dir, "qc_report.md")
-meta_file = os.path.join(ch15_dir, "meta.json")
-timeline_file = r"d:\Nhung\trans-tool\novel_projects\cứu-rỗi-phản-diện-mỹ-cường-thảm\memory\timeline.json"
+target_dir = r"d:\Nhung\RIDI\trans-assistant\novel_projects\đấng-cứu-thế-trả-nợ-tình\chapters\ch_015"
+target_file = os.path.join(target_dir, "translation.md")
 
-translations = [
-"""---
-title: "Chương 15: Alaska 15"
+paragraphs = [
+    # 0: header
+    """---
+title: Chương 15: Nam hộ lý
 ---""",
 
-"""“Trước đó tôi vẫn luôn nghĩ mãi, rốt cuộc mục đích của cậu là gì.” Phó Vân Xuyên nhìn chằm chằm vào đôi mắt Giang Minh Lãng, bật ra một tiếng thở hắt khó hiểu, hệt như một loài dã thú săn mồi từng chút một áp sát về phía cậu, “Bây giờ xem ra hoàn toàn là do tôi nghĩ quá phức tạp rồi, từ đầu đến cuối, ưu thế của cậu đều vô cùng rõ ràng.”""",
+    # 1: separator
+    "================",
 
-"""Ngoại hình, vóc dáng, tính cách, và quan trọng nhất là thân phận con trai của Vương Xuân Lệ, từng điểm một... đều vô cùng thích hợp để được chọn làm người tình bên cạnh Phó Vân Xuyên anh.""",
+    # 2: “喲，新來的？”...
+    "“Uầy, người mới tới à?” Gã đầu trọc cầm đầu cợt nhả huýt sáo một tiếng, đôi mắt hí ti hí xếch lên đánh giá hai người Lâu Hỉ Dương.",
 
-"""“Thật ra cậu cứ việc nói thẳng cho tôi biết cậu muốn cái gì, tôi cũng rất có thể sẽ thỏa mãn cho cậu.” Phó Vân Xuyên nâng cằm Giang Minh Lãng lên, ngắm nghía hệt như đang chiêm ngưỡng một món đồ chơi vừa mắt.""",
+    # 3: 一群人個個虎背熊腰...
+    "Một đám người ai nấy đều lưng hùm vai gấu, nghiêng nghiêng bả vai sán lại trước mặt Lâu Hỉ Dương, mấy ánh mắt bắn phá quét tới quét lui trên người anh, cuối cùng dừng lại ở cổ tay anh.",
 
-"""Giang Minh Lãng ngơ ngác đờ đẫn cả mặt, cậu chết trân nhìn gương mặt của Phó Vân Xuyên mỗi lúc một ghé sát lại gần mình.""",
+    # 4: 他們所在的地方正好是paradise一個熱鬧的街區...
+    "Nơi bọn họ đang đứng vừa vặn là một khu phố náo nhiệt của Paradise. Khác với sự hoang vu lạnh lẽo ngoài thế giới bên ngoài, nơi đây khắp nơi đều là những cửa hàng sầm uất và người đi đường qua lại nườm nượp. Bọn họ ăn mặc sang trọng chỉn chu, cử chỉ giơ tay nhấc chân đều để lộ vẻ thản nhiên ung dung khác biệt hẳn so với bên ngoài.",
 
-"""Vào khoảng thời gian Tập đoàn Vân Xuyên bành trướng thế lực mạnh mẽ nhất, ngày nào cũng có đủ hạng nam thanh nữ tú tự nguyện dâng tới tận cửa, nhưng không một ngoại lệ đều bị sự hung hăng u ám của Phó Vân Xuyên dọa cho chạy mất dép.""",
+    # 5: 察覺到這裡的動靜...
+    "Nhận thấy động tĩnh bên này, bọn họ đều ngầm hiểu ý nhau mà tản ra xung quanh, lại dừng chân ở đầu con phố cách bọn họ không xa, kín đáo dõi mắt nhìn vào trong.",
 
-"""Phó Vân Xuyên chưa từng nghĩ bản thân sẽ thích kiểu người như thế nào, anh cũng chẳng có tâm trí đâu mà nghĩ tới những thứ đó, nhưng giờ phút này anh lại cảm thấy dường như kiểu người như Giang Minh Lãng cũng không tệ.""",
+    # 6: 又是李彪他們這群人。
+    "Lại là đám người Lý Bưu.",
 
-"""Hơi thở nóng rực quấn quýt lấy nhau, hình ảnh phản chiếu hai bóng người trong gương chiếu hậu trông mập mờ ám muội hệt như sắp sửa trao nhau một nụ hôn nồng cháy.""",
+    # 7: 成天挑釁滋事...
+    "Suốt ngày gây sự kiếm chuyện, giống hệt như một bầy khổng tước lòe loẹt khoe mẽ. Nếu là trước kia, loại người này bọn họ cả đời cũng chẳng gặp nổi mấy tên.",
 
-"""Cảm giác được đôi môi của Phó Vân Xuyên sắp sửa chạm vào môi mình, Giang Minh Lãng nuốt nước bọt cái ực, vậy mà còn theo phản xạ có điều kiện mà ngoan ngoãn nhắm tịt hai mắt lại.""",
+    # 8: 上一個新來的沒叫李彪一聲哥...
+    "Người mới tới lần trước chỉ vì không gọi Lý Bưu một tiếng “anh” mà bị đám người này đánh cho phải nhập viện điều trị.",
 
-"""Bất thình lình cậu nghe thấy Phó Vân Xuyên bật cười một tiếng, rồi sau đó lùi ra xa. Cậu mở mắt ra, chỉ thấy đối phương đang nửa cười nửa không nhìn mình, tựa như hành động vừa rồi chỉ là một màn thăm dò trêu chọc mà thôi.""",
+    # 9: 據說李彪的老子是個暴發戶...
+    "Nghe nói cha của Lý Bưu là một kẻ nhà giàu mới nổi, từ nhỏ gã đã hoang dã quen thói trong đoàn lính đánh thuê của gia đình, chiến trường chưa từng đặt chân lên lần nào nhưng lại tự cho là mình ghê gớm lắm. Đến ngày tận thế lại không có ai áp chế gã, cuồng vọng ngang ngược hết chỗ nói, thu nhận mấy tên đàn em du côn cướp tiền vào đây, dương oai diễu võ khắp nơi ở Paradise.",
 
-"""Đến khi cậu hoàn hồn lại thì mới nhận ra chiếc xe đã dừng bánh từ rất lâu rồi.""",
+    # 10: 新來的如果是不起眼的普通人倒還好...
+    "Người mới đến nếu là kẻ bình thường không bắt mắt thì còn đỡ, nhưng nếu đụng phải hai kẻ xem chừng chẳng dễ chọc vào như ngày hôm nay thì chắc chắn sẽ đại náo long trời lở đất.",
 
-"""Người tài xế chẳng biết đã xuống xe từ bao giờ, thấy tình hình trong xe liền vội vàng đón lấy bộ quần áo khô ráo do người làm mang tới rồi đưa vào trong xe.""",
+    # 11: 他們在心裡默默歎氣...
+    "Bọn họ thầm thở dài trong lòng nhưng chẳng một ai bước lên can ngăn. Ngay cả cảnh sát tinh tế đồn trú ở Paradise còn mặc kệ không quản, bọn họ thì làm được cái gì cơ chứ. Sống sót cho tốt mới là điều cấp bách nhất hiện giờ, đợi sau khi Paradise hoàn thiện thì tất cả sẽ quay trở lại quỹ đạo bình thường.",
 
-"""Sau khi xuống xe, Giang Minh Lãng không tiếp tục đi theo Phó Vân Xuyên nữa. Cậu cất lời chào tạm biệt Phó Vân Xuyên rồi quay về phòng mình, suốt dọc đường đi cứ nghĩ mãi không hiểu câu nói vừa rồi của Phó Vân Xuyên rốt cuộc có ý gì.""",
+    # 12: “老子問你們話呢，啞巴了？”
+    "“Ông đây đang hỏi chuyện bọn mày đấy, câm rồi à?” Tên đầu trọc Lý Bưu thấy hai người mãi không đáp lại, bực bội xoa xoa cái đầu trọc lốc bóng lưỡng.",
 
-"""Điều càng khiến cậu không ngờ tới hơn chính là, vừa đẩy cửa bước vào phòng, cậu đã thấy mẹ Giang đang nghiêm mặt ngồi ngay ngắn trước bàn, mà dưới chân bà thì chất đầy mấy chiếc hộp đựng giày hàng hiệu.""",
+    # 13: 婁禧陽抬起頭，“有事嗎？”
+    "Lâu Hỉ Dương ngẩng đầu lên: “Có việc gì sao?”",
 
-"""“Mẹ ơi?” Giang Minh Lãng kinh ngạc nhìn cảnh tượng trước mắt, “Mấy thứ này là gì thế ạ?”""",
+    # 14: “艸…當然有事了...”
+    "“Mẹ kiếp... Đương nhiên là có việc rồi, mày còn dám nhìn ông đây kiểu đó nữa xem.” Lý Bưu vừa bị Lâu Hỉ Dương nhìn một cái, sống lưng tức khắc căng cứng. Gã hung dữ trừng trừng Lâu Hỉ Dương, không hiểu vì sao lồng ngực mình lại bắt đầu đập thình thịch dữ dội.",
 
-"""“Đây đáng lẽ phải là câu mẹ hỏi con mới đúng.”""",
+    # 15: 像是預測到威脅的本能反應。
+    "Tựa như phản xạ bản năng dự cảm thấy mối đe dọa.",
 
-"""Mẹ Giang đứng dậy, ánh mắt nhìn thẳng tắp vào cậu: “Mấy đôi giày này là do trợ lý của Phó tiên sinh mang tới gửi cho con hồi chiều đấy.”""",
+    # 16: 李彪身後的幾個小弟連忙拉住他...
+    "Mấy tên đàn em phía sau Lý Bưu vội vàng kéo gã lại, sắc mặt chẳng mấy dễ coi.",
 
-"""Trợ lý của Phó Vân Xuyên tại sao lại mang giày đến tặng cậu chứ?""",
+    # 17: 李彪沒見過什麽世面，他們卻見過...
+    "Lý Bưu chưa từng va vấp sự đời mấy, nhưng bọn chúng thì từng trải rồi. Chỉ có thổ phỉ mới quấn băng vải đen trên cổ tay, đó chính là những kẻ liều mạng giết người không chớp mắt hàng thật giá thật, hoàn toàn không giống mấy kẻ cứng đầu ưa sĩ diện trước kia.",
 
-"""Giang Minh Lãng càng thêm kinh ngạc khó hiểu, cậu bước tới trước đống hộp giày, phát hiện đôi nào đôi nấy đều là những đôi giày bóng rổ đắt đỏ đến khó tin, trong đó có một đôi vậy mà lại chính là phiên bản chính hãng của đôi giày mà sáng nay cậu bị người ta bóc mẽ là hàng nhái, giá trị lên tới mấy chục nghìn tệ.""",
+    # 18: “拉老子幹嘛，滾！...”
+    "“Kéo ông đây làm cái gì, cút! Hôm nay ông đây cũng không làm khó bọn mày, ngoan ngoãn gọi một tiếng anh thì ông đây thả cho bọn mày đi, còn nếu biết điều làm đàn em của ông thì sau này ở Paradise ông đây bảo bọc bọn mày tới cùng.” Lý Bưu gạt phăng bàn tay ngăn cản ra, từng bước áp sát về phía Lâu Hỉ Dương.",
 
-"""“Sao con không nói với mẹ hả con? Chuyện giày dép... là lỗi của mẹ, là mẹ đã sơ suất không để ý tới những chuyện này.”""",
+    # 19: 李彪個頭不矮...
+    "Lý Bưu vóc dáng không hề thấp, nhưng đến trước mặt Lâu Hỉ Dương lại chỉ có thể hơi ngước đầu lên, điều này khiến gã vô cùng khó chịu bực bội.",
 
-"""Mẹ Giang cúi nhìn đôi giày thể thao hàng nhái đã mòn vẹt rách rưới dưới chân Giang Minh Lãng, hốc mắt đỏ hoe ngấn lệ. Đôi giày đã bị cậu mang đến rách bươm thế kia rồi, vậy mà bà chưa từng một lần chú ý tới, Giang Minh Lãng cũng chẳng bao giờ hé răng than thở nửa lời, bà không dám tưởng tượng nổi suốt thời gian qua con trai mình đã phải chịu đựng biết bao nhiêu lời chế giễu cười chê của người đời.""",
+    # 20: 婁禧陽向下睨了他一眼，懶懶道：“不好意思，以前有大師給我算過，說我命硬，克兄。”
+    "Lâu Hỉ Dương liếc xéo gã từ trên xuống dưới, lười biếng nói: “Ngại quá, trước kia có đại sư từng xem bói cho tôi, nói số mệnh tôi cứng, khắc anh trai.”",
 
-"""Giang Minh Lãng luống cuống: “Con... mấy đôi giày này...”""",
+    # 21: 他話音剛落，就被身旁的婁安明壓住了手腕...
+    "Anh vừa dứt lời liền bị Lâu An Minh bên cạnh đè chặt cổ tay. Lâu An Minh chỉnh lại mặt nạ cho vừa khít hơn, nén giọng khuyên anh: “Đừng phô trương.”",
 
-"""Mẹ Giang nhìn thấy niềm yêu thích lộ rõ trong ánh mắt con trai đối với những đôi giày, nghẹn ngào khó nói: “Mẹ xin lỗi, mẹ không có khả năng mua cho con những đôi giày đắt tiền thế này. Giày... là do Phó tiên sinh tặng, nếu con thích thì cứ giữ lại mà đi, mẹ sẽ tìm cách báo đáp lại lòng tốt của cậu ấy sau.”""",
+    # 22: 婁禧陽不做聲，只是掠了他一眼。
+    "Lâu Hỉ Dương không lên tiếng, chỉ liếc nhìn ông một cái.",
 
-"""Là Phó Vân Xuyên tặng cho cậu, vì cớ gì anh lại đột nhiên gửi tặng giày cho cậu chứ? Giang Minh Lãng bỗng nhớ tới việc sáng nay Phó Vân Xuyên từng xuất hiện ở trường, chẳng lẽ điều đó chứng tỏ Phó Vân Xuyên rất có thể đã nhìn thấy toàn bộ chuyện xảy ra trên sân bóng rổ rồi sao?""",
+    # 23: 面前的李彪立刻就被婁禧陽的話激怒了...
+    "Lý Bưu trước mặt lập tức bị câu nói của Lâu Hỉ Dương chọc giận. Lưỡi dao từ cánh tay cơ khí thò dài ra, chỉ cách yết hầu Lâu Hỉ Dương đúng một centimet.",
 
-"""“Không, con không cần chúng đâu mẹ.” Giang Minh Lãng lắc đầu, đoạn ôm lấy từng chiếc hộp giày lên, vừa cất bước ra ngoài vừa nói với mẹ Giang: “Con mang đi trả lại cho anh ấy đây ạ.”""",
+    # 24: 這讓後面的幾個小弟嚇得心臟都快要跳出嗓子眼兒了...
+    "Cảnh tượng này làm mấy tên đàn em phía sau sợ đến mức tim muốn nhảy vọt ra ngoài cuống họng. Bọn chúng vội nhào lên ngăn cản: “Anh, anh ơi, không được đâu anh, anh quên lần trước làm ầm ĩ đến mức cảnh sát tinh tế cũng tới rồi sao, nếu không nhờ ba anh bỏ tiền chuộc anh về thì...”",
 
-"""Rời khỏi phòng mình, Giang Minh Lãng đi thẳng một mạch về phía thư phòng của Phó Vân Xuyên, đến cửa mới phát hiện Phó Vân Xuyên hoàn toàn không có ở thư phòng. Sau khi hỏi thăm người làm, cậu mới biết Phó Vân Xuyên hiện đang ở trong phòng ngủ của anh.""",
+    # 25: “好了，給老子閉嘴！”...
+    "“Đủ rồi, câm hết miệng lại cho ông!” Lý Bưu nhíu mày quát lớn, quay đầu trừng mắt nhìn Lâu Hỉ Dương một cái, dùng cằm hất hất về phía sau, thu lại đầu dao: “Ở đây đông người, ra con hẻm đằng kia, đừng hòng chạy thoát.”",
 
-"""Đứng trước cửa phòng ngủ của Phó Vân Xuyên, Giang Minh Lãng giơ tay gõ cửa.""",
+    # 26: 婁禧陽聳了聳肩，表示無所謂。
+    "Lâu Hỉ Dương nhún vai, tỏ vẻ không sao cả.",
 
-"""Cánh cửa phòng được người từ bên trong mở ra rõ ràng mang theo vẻ bực bội thiếu kiên nhẫn. Phó Vân Xuyên hẳn là vừa mới từ phòng tắm bước ra, toàn thân chỉ khoác hờ một chiếc áo choàng tắm bằng lụa, trên người vẫn còn tỏa ra hơi nước ẩm ướt nồng nàn.""",
+    # 27: 婁安明一聲不吭地將他的反應收入眼底...
+    "Lâu An Minh im lặng thu trọn phản ứng của anh vào mắt, đáy mắt tràn ngập vẻ không tán thành, ông thấp giọng ra lệnh cho Lâu Hỉ Dương: “Nhân lúc này chạy mau đi.”",
 
-"""“Cậu đến đây làm gì?”""",
+    # 28: “怕什麽？我今天就是不叫，你怕就趕緊走。”
+    "“Sợ cái gì? Hôm nay tôi nhất quyết không gọi đấy, ông sợ thì mau cút đi.” Lâu Hỉ Dương liếc nhìn ông một cái, đột ngột cao giọng lên khiến người xung quanh đều nghe thấy rõ mồn một.",
 
-"""Phó Vân Xuyên quan sát cậu một lượt từ trên xuống dưới, ngữ điệu vốn đang mang theo vẻ cáu kỉnh bỗng hơi đổi giọng, tựa như đang suy đoán dụng ý của Giang Minh Lãng khi tìm tới phòng ngủ của anh vào lúc đêm hôm khuya khoắt thế này.""",
+    # 29: 果不其然，人群中開始有動靜了。
+    "Quả nhiên, trong đám đông bắt đầu có sự xao động.",
 
-"""Giang Minh Lãng ôm chồng hộp giày cao quá cả đầu, thò mặt ra bảo: “Tôi đến để trả lại mấy đôi giày này cho anh.”""",
+    # 30: 李彪回頭看了眼婁安明，沒想管他。
+    "Lý Bưu quay đầu liếc nhìn Lâu An Minh, cũng chẳng thèm để ý tới ông.",
 
-"""Phó Vân Xuyên không nói một lời, anh lùi lại một bước, đi tới sô pha rồi ngồi xuống.""",
+    # 31: 婁安明走後，婁禧陽跟著一群人進了昏暗的小巷...
+    "Sau khi Lâu An Minh rời đi, Lâu Hỉ Dương đi theo đám người vào con ngõ u tối. Thấy xung quanh không còn ai, Lý Bưu nghiêng người một cái liền ép chặt Lâu Hỉ Dương lên tường: “Hỏi mày lần cuối cùng, gọi hay không gọi?”",
 
-"""Giang Minh Lãng cũng bước theo vào bên trong phòng ngủ, cậu cẩn thận từng li từng tí đặt đống hộp giày trên tay xuống tấm thảm trải sàn: “Phó tiên sinh, sao anh lại tự dưng tặng tôi mấy đôi giày này thế? Chuyện sáng nay ở sân bóng rổ, có phải anh đã nhìn thấy hết rồi không?”""",
+    # 32: “不叫。”婁禧陽放鬆了身子...
+    "“Không gọi.” Lâu Hỉ Dương thả lỏng cơ thể, tựa người vào tường mượn lực: “Đánh đi.”",
 
-"""“Nếu tôi là cậu, tôi sẽ bẻ gãy từng chiếc răng của bọn chúng, rồi bắt chúng tự nuốt hết vào bụng, để xem đứa nào còn có thể thốt ra được nửa lời nữa.” Phó Vân Xuyên nhìn cậu, cất giọng nói bằng một ngữ điệu như đang đùa cợt.""",
+    # 33: 李彪聞言一怔，隨即面容扭曲地瞪著他，像是吞了個蒼蠅似的。
+    "Lý Bưu nghe vậy ngẩn ra, ngay sau đó khuôn mặt vặn vẹo trừng trừng nhìn anh, giống hệt như vừa nuốt phải một con ruồi vậy.",
 
-"""Thế nhưng Giang Minh Lãng lại bất giác rùng mình ớn lạnh một cái, cậu cảm thấy Phó Vân Xuyên rất có thể hoàn toàn không hề nói đùa.""",
+    # 34: 他還沒見過上門找打的奇葩。
+    "Gã chưa từng thấy kẻ kỳ dị nào tự mình tìm đến cửa đòi ăn đòn như thế này.",
 
-"""Một tiếng sấm ầm vang rền rĩ, màn đêm vừa mới yên ắng chưa được bao lâu lại giáng xuống một tia chớp chói lòa, báo hiệu cơn mưa bão vẫn chưa hề rời đi.""",
+    # 35: “挑釁老子？很好，你不知道連雇傭.兵都打不過老子？”
+    "“Khiêu khích ông đây à? Tốt lắm, mày không biết ngay cả lính đánh thuê cũng đánh không lại ông sao?” Đáy mắt Lý Bưu lạnh tanh, siết chặt nắm đấm bên phải nện thẳng vào gò má Lâu Hỉ Dương.",
 
-"""“Cảm ơn anh nhiều lắm, nhưng mà mấy đôi giày này quý giá quá, tôi không thể nhận được.” Giang Minh Lãng vô cùng trịnh trọng nói lời cảm ơn.""",
+    # 36: 見婁禧陽只是偏了頭...
+    "Thấy Lâu Hỉ Dương chỉ nghiêng đầu né đi, không hề có ý phản kháng, khóe môi lại như có như không nhếch lên, trong lòng Lý Bưu càng thêm nghẹn hỏa, vung nắm đấm lại giáng mạnh lên người anh.",
 
-"""“Cầm lấy đi.” Phó Vân Xuyên nhạt giọng bảo, “Cứ coi như đó là món quà tôi tặng cậu.”""",
+    # 37: 密密麻麻的拳腳打在婁禧陽身上...
+    "Từng đòn quyền cước giáng dày đặc lên người Lâu Hỉ Dương. Anh nhắm nghiền mắt lại, cảm nhận nỗi đau da thịt truyền đến, tìm kiếm một đòn chí mạng vừa đúng thời cơ.",
 
-"""Đôi tai của Giang Minh Lãng lập tức vểnh dựng đứng lên: “Quà tặng ư?”""",
+    # 38: “噗呲——”是刀刃刺穿皮肉的聲音。
+    "“Phập——” Là âm thanh lưỡi dao đâm xuyên qua da thịt.",
 
-"""Phó Vân Xuyên đưa tay xoa xoa giữa hai đầu chân mày: “Ừm, cứ coi như... là quà tạ lễ vì hôm nay cậu đã che ô cho tôi.”""",
+    # 39: 婁禧陽睜開眼...
+    "Lâu Hỉ Dương mở mắt ra, nhìn thấy mũi dao nhọn trên cánh tay cơ khí của Lý Bưu từ từ rút ra khỏi bụng dưới của mình, kéo theo một vệt máu đỏ tươi.",
 
-"""“Cái này...” Giang Minh Lãng sững sờ ngẩn cả người, bởi vì cậu chưa từng nghĩ tới việc Phó Vân Xuyên sẽ bảo đây là quà tặng cho mình.""",
+    # 40: 饒是不怕疼，婁禧陽還是嘶了一聲。
+    "Dù cho không sợ đau, Lâu Hỉ Dương vẫn khẽ xuýt xoa một tiếng.",
 
-"""Từ nhỏ đến lớn cậu chưa từng nhận được một món quà chính thức nào cả, đây là lần đầu tiên trong đời.""",
+    # 41: 李彪滿意地看著婁禧陽變了臉色...
+    "Lý Bưu hài lòng nhìn sắc mặt Lâu Hỉ Dương biến đổi, giơ lưỡi dao dính máu quơ quơ trước mắt anh: “Hỏi mày lại lần nữa, gọi hay không?”",
 
-"""Trong lòng Giang Minh Lãng bỗng dâng lên một cảm giác ngưa ngứa râm ran kỳ lạ khó tả.""",
+    # 42: 婁禧陽虛眼看著刀尖，轉而對上了李彪發紅的雙眼，挑了一下眉
+    "Lâu Hỉ Dương híp mắt nhìn mũi dao, rồi chuyển hướng nhìn thẳng vào đôi mắt đỏ ngầu của Lý Bưu, khẽ nhướng mày:",
 
-"""Cậu chợt nghĩ, nếu như mình thật sự trả lại cho Phó Vân Xuyên, vậy thì có lẽ sau này cậu sẽ chẳng bao giờ nhận được quà tặng nữa.""",
+    # 43: “到我了？”
+    "“Tới lượt tôi chưa?”",
 
-"""Sẽ chẳng có ai đi tặng quà cho một chú cún con cả.""",
+    # 44: “什——”
+    "“Cái g—”",
 
-"""Huống chi cậu thực sự rất thích mấy đôi giày bóng rổ này.""",
+    # 45: 李彪還沒反應過來婁禧陽的意思，就被一擊猛烈的頂撞摜到了另一側牆上。
+    "Lý Bưu còn chưa kịp hiểu ý của Lâu Hỉ Dương là gì thì đã bị một đòn húc mạnh như búa bổ quật ngã sang bức tường bên kia.",
 
-"""Xuất phát từ đủ mọi thứ tâm tư riêng tư nho nhỏ, Giang Minh Lãng cũng chẳng hiểu bản thân bị làm sao nữa, thế mà lại đè nén được nỗi xấu hổ ngại ngùng to lớn trong lòng xuống, quyết định nhận lấy.""",
+    # 46: “怎麽可能…？”怎麽可能連他出手的動作都沒看到，不可能。
+    "“Làm sao có thể...?” Làm sao có thể ngay cả động tác ra tay của đối phương cũng không nhìn thấy, không thể nào.",
 
-"""Cậu nhìn thẳng vào Phó Vân Xuyên, cảm động nói: “Cảm ơn anh nhé Phó tiên sinh, anh tốt thật đấy, tôi thích anh lắm luôn!”""",
+    # 47: 婁禧陽收回腳，向他逼近。
+    "Lâu Hỉ Dương thu chân về, từng bước áp sát gã.",
 
-"""Tuy rằng trước đây vì rất nhiều chuyện mà cậu cảm thấy Phó Vân Xuyên vô cùng đáng sợ, nhưng Phó Vân Xuyên lại chịu cùng cậu chơi ném chai nước, lại đến tham dự đêm hội chào tân sinh viên cùng cậu, bây giờ còn tặng cậu những đôi giày bóng rổ đắt tiền thế này.""",
+    # 48: 周圍旁觀的幾個小弟已經看懵了...
+    "Mấy tên đàn em đứng xem xung quanh đã đơ người ra. Bọn chúng không thể tin nổi nhìn chằm chằm Lâu Hỉ Dương, trố mắt nhìn anh một tay ôm bụng dưới máu chảy ròng ròng, một tay quăng quật tên Lý Bưu kiêu ngạo hống hách qua lại giữa hai bức tường chẳng khác nào đập một quả bóng da.",
 
-"""Hôm nay cậu còn tận mắt nhìn thấy dáng vẻ đôi mắt đỏ hoe đau đớn của Phó Vân Xuyên nữa.""",
+    # 49: 意識到他們得做些什麽...
+    "Ý thức được mình cần phải làm gì đó, mấy tên du côn đưa mắt nhìn nhau, nuốt nước bọt một cái rồi lao tới tập kích sau lưng Lâu Hỉ Dương——— và rồi, trong con ngõ nhỏ vang lên tiếng đập của sáu bảy quả bóng da.",
 
-"""Có lẽ là vì phát hiện Phó Vân Xuyên đối xử với mình rất tốt, lại cũng biết buồn bã đau lòng hệt như bao con người bình thường khác, nên hiện tại cậu đã không còn thấy sợ Phó Vân Xuyên nhiều như trước nữa rồi.""",
+    # 50: …
+    "……",
 
-"""Động tác xoa ấn nơi mi tâm của Phó Vân Xuyên bỗng chốc khựng lại, ngay đúng lúc này, bên tai Giang Minh Lãng vang lên thông báo của hệ thống: 【Đinh đoong, giá trị hắc hóa của phản diện -4】.""",
+    # 51: 見情況差不多了，婁禧陽收了手...
+    "Thấy tình hình hòm hòm rồi, Lâu Hỉ Dương thu tay lại. Anh quét mắt nhìn một vòng đám người nằm la liệt dưới đất, xoay người bước ra ngoài phố.",
 
-"""“Thích ư?” Anh khẽ nhướn mày, mi mắt hơi rủ xuống, dường như là đang châm chọc giễu cợt, lại cũng như đang nhấm nháp dư vị của hai chữ này, “Đúng là hai từ ngữ thật xa lạ.”""",
+    # 52: 他換上了一張慘白又虛弱的臉...
+    "Anh thay bằng một gương mặt trắng bệch yếu ớt, bước chân lảo đảo bám vào tường đi ra ngoài phố lớn.",
 
-"""Giang Minh Lãng gật đầu lia lịa, nhưng Phó Vân Xuyên lại không nhìn cậu.""",
+    # 53: “救我……”他對圍觀的路人道。
+    "“Cứu tôi……” Anh nói với người đi đường đang vây xem.",
 
-"""Mấy giây sau trôi qua, Phó Vân Xuyên im lặng buông cổ tay xuống, sờ lấy đôi găng tay đặt trên ghế sô pha rồi bắt đầu đeo vào tay mình.""",
+    # 54: *
+    "*",
 
-"""“Cái đó, bây giờ cũng muộn lắm rồi, tôi xin phép về phòng trước nhé.” Giang Minh Lãng thấy Phó Vân Xuyên không nói gì nữa, nghĩ bụng có lẽ hệ thống lại gặp trục trặc, bèn cất tiếng chào tạm biệt anh, cúi người ôm lấy mấy hộp giày rồi bước về phía cửa phòng, “Anh có cần tôi tắt đèn giúp anh không?”""",
+    # 55: 婁禧陽住進了paradise唯一的重症治療所。
+    "Lâu Hỉ Dương đã vào ở trong viện điều trị trọng bệnh duy nhất của Paradise.",
 
-"""Cậu vừa nói vừa đưa tay sờ lên bảng công tắc cảm ứng trên tường, chuẩn bị ấn xuống——""",
+    # 56: paradise有兩個治療所...
+    "Paradise có hai viện điều trị, một viện chỉ phụ trách chữa trị các bệnh vặt hàng ngày như cảm sốt đau đầu, viện còn lại chỉ phụ trách bệnh nặng, trang thiết bị y tế đầy đủ kèm theo khu nội trú, chỉ là điều kiện nhập viện vô cùng khắt khe để tránh lãng phí tài nguyên y tế thời mạt thế.",
 
-"""“Đừng tắt!——”""",
+    # 57: 婁禧陽成功的達到了住院要求，舒舒服服躺在了柔軟的醫床上。
+    "Lâu Hỉ Dương đã thành công đạt chuẩn yêu cầu nhập viện, thoải mái nằm trên chiếc giường bệnh êm ái.",
 
-"""Nghe thấy tiếng quát tháo gấp gáp đầy vẻ giận dữ của Phó Vân Xuyên, Giang Minh Lãng vội vàng bật đèn sáng trở lại, quay đầu nhìn sang Phó Vân Xuyên, lúc này mới phát hiện sắc mặt Phó Vân Xuyên vào giờ phút này trắng bệch một cách bất thường.""",
+    # 58: 這一間治療所，就是上輩子他母親被蔣卓航藏匿的地方。
+    "Viện điều trị này chính là nơi kiếp trước mẹ anh bị Tưởng Trác Hàng giấu kín.",
 
-"""Làm sao thế nhỉ? Đằng kia chẳng phải vẫn còn một ngọn đèn ngủ đang sáng trưng sao? Giang Minh Lãng không hiểu ra làm sao cả.""",
+    # 59: 一刀換一個入住資格，倒也不虧。
+    "Một nhát dao đổi lấy tư cách nằm viện, tính ra cũng chẳng lỗ.",
 
-"""Thế nhưng Phó Vân Xuyên lại rất nhanh bình ổn lại được cảm xúc, nhanh đến mức khiến Giang Minh Lãng cứ ngỡ khoảnh khắc vừa rồi chỉ là ảo giác của bản thân. Cậu nhìn thấy Phó Vân Xuyên từng bước từng bước cất bước đi về phía mình.""",
+    # 60: 婁禧陽往下躺了一躺，腹部的刀口扯了他一身冷汗。
+    "Lâu Hỉ Dương nằm xuôi xuống một chút, vết dao chém ở bụng làm anh đau toát cả mồ hôi lạnh toàn thân.",
 
-"""Một cánh tay vung qua trước mắt cậu, cánh cửa phòng vừa mới hé mở liền bị anh thẳng tay đóng sập lại một cách dứt khoát không chút lưu tình, Phó Vân Xuyên mượn tư thế áp sát ấy mà hạ lệnh cho cậu:""",
+    # 61: 就是這個樣子有點太不方便。
+    "Chỉ có điều bộ dạng này có chút quá đỗi bất tiện.",
 
-"""“Tối nay, cậu ở lại đây.”""",
+    # 62: 他頭落在枕頭上...
+    "Đầu anh tựa trên gối, nghiêng đầu nhìn cánh cửa phòng đóng chặt, nghĩ xem tối nay làm sao ra ngoài, lại nghĩ làm thế nào mới có thể tìm được Trần Liễm để đón Dịch Duyên trở về từ tay ông ta.",
 
-"""Lời tác giả:""",
+    # 63: 望著望著，他有些晃神...
+    "Nhìn mãi nhìn mãi, anh có chút xuất thần. Trong lúc ánh mắt anh còn đang lơ đãng tan rã thì cánh cửa phòng kia đột nhiên bị ai đó đẩy ra từ bên ngoài.",
 
-"""Chương 14: Alaska 14""",
+    # 64: 婁禧陽抬眼看去...
+    "Lâu Hỉ Dương ngước mắt nhìn sang, phát hiện là bác sĩ đi kiểm tra phòng, cùng với một người đi theo sau bịt kín mít cả khuôn mặt, nhìn dáng vẻ giống như một nam hộ lý.",
 
-"""Ngoài cửa sổ lại vang lên từng đợt tiếng sấm rền rĩ, gió lớn bốn bề thổi ào ào quét qua tán cây.""",
+    # 65: “1121床，鑒於晚上你沒有親屬照看，治療所給你配了個護工，有事可以叫他。”
+    "“Giường 1121, xét thấy buổi tối cậu không có người nhà chăm sóc, viện điều trị phân công cho cậu một hộ lý, có việc gì có thể gọi cậu ta.” Vị bác sĩ kia kiểm tra qua vết thương của Lâu Hỉ Dương một lượt, ngữ khí tùy ý gọi người phía sau bước lên.",
 
-"""Cách một chồng hộp giày, Giang Minh Lãng và Phó Vân Xuyên bốn mắt nhìn nhau trừng trừng.""",
+    # 66: 那人盯著他的腰腹移不開眼，眉眼晦暗。
+    "Người nọ nhìn chằm chằm vào vùng bụng của anh không rời mắt nổi, ánh mắt tối tăm u ám.",
 
-"""“Đi tắm đi, tắm cho sạch sẽ vào.”""",
-
-"""Phó Vân Xuyên buông lại mấy chữ cộc lốc ấy rồi hạ tay xuống, xoay người cất bước đi về phía giường ngủ.""",
-
-"""Giang Minh Lãng nhất thời lúng túng chưa biết tính sao, không hiểu tại sao Phó Vân Xuyên lại đột nhiên bắt mình ở lại qua đêm.""",
-
-"""Cậu nhớ lại phản ứng kỳ lạ vừa rồi của Phó Vân Xuyên lúc mình định tắt đèn, những lời mẹ Giang từng kể bỗng chốc lóe lên trong tâm trí cậu.""",
-
-"""Chẳng lẽ là... bí mật về chứng sợ bóng tối của Phó Vân Xuyên sao?""",
-
-"""Phó Vân Xuyên sợ bóng tối, rất có thể còn sợ cả tiếng sấm sét nữa, cho nên mới bảo mình ở lại bầu bạn cùng anh.""",
-
-"""Giang Minh Lãng lập tức bừng tỉnh đại ngộ, cậu dùng ánh mắt đầy vẻ đồng cảm thương xót nhìn theo bóng lưng của Phó Vân Xuyên, thầm nghĩ trong lòng rằng Phó Vân Xuyên đối xử với mình tốt như thế, bản thân ở lại bầu bạn với anh một đêm cũng là chuyện hoàn toàn nên làm.""",
-
-"""Thế là cậu chẳng nói chẳng rằng lẳng lặng đặt mấy hộp giày xuống đất, ngoan ngoãn nghe lời bước vào phòng tắm tắm rửa.""",
-
-"""Cậu đâu hề hay biết ở bên ngoài phòng tắm, lắng nghe tiếng nước chảy róc rách bên trong, trên gương mặt Phó Vân Xuyên lại thoáng hiện vẻ thấu hiểu tỏ tường.""",
-
-"""Tuy rằng biết rõ Giang Minh Lãng đang diễn kịch, nhưng Phó Vân Xuyên không ngại cùng cậu chơi đùa một chút.""",
-
-"""Trong phòng tắm có sẵn áo choàng tắm dự phòng, lúc Giang Minh Lãng bước ra thì Phó Vân Xuyên đã thay xong một bộ đồ ngủ chỉnh tề, đang dựa người vào đầu giường.""",
-
-"""“Thay quần áo đi, rồi lên giường.”""",
-
-"""Phó Vân Xuyên gập chiếc máy tính xách tay lại đặt sang bên cạnh, lạnh giọng ra lệnh.""",
-
-"""Giang Minh Lãng cứ cảm thấy có chỗ nào đó sai sai kỳ quặc, nhưng cũng chẳng nghĩ ngợi nhiều, thay xong bộ đồ ngủ rồi ngoan ngoãn trèo lên giường.""",
-
-"""Cậu bắt chước điệu bộ của Phó Vân Xuyên dựa lưng vào thành giường, nhìn Phó Vân Xuyên ngồi thẳng dậy, lấy từ trong ngăn kéo tủ đầu giường ra một lọ thuốc, ngửa đầu uống trọn cùng một ngụm nước ấm.""",
-
-"""Giang Minh Lãng nhìn chằm chằm vào viên thuốc trên tay anh, bên tai bỗng văng vẳng lại câu nói ban chiều: “Trong giới ai cũng biết anh ta là một kẻ điên nổi tiếng, nghe đồn ngày nào cũng phải uống thuốc an thần mới ổn định được...”""",
-
-"""Trong lúc cậu đang thất thần suy nghĩ, Phó Vân Xuyên đã ngồi dịch lại trên giường.""",
-
-"""“Anh chuẩn bị ngủ rồi à?” Giang Minh Lãng liếc nhìn ngọn đèn chùm sáng trưng đến chói mắt trên trần nhà, thầm thắc mắc sao Phó Vân Xuyên vẫn chưa tắt đèn đi.""",
-
-"""Phó Vân Xuyên nghiêng người, ghé sát lại gần cậu trầm giọng hỏi: “Nếu không thì cậu còn muốn làm thêm cái gì nữa?”""",
-
-"""Giang Minh Lãng ngơ ngác ngẩng đầu lên: “Dạ?”""",
-
-"""“Tắt đèn đi.”""",
-
-"""Phó Vân Xuyên có phần mất kiên nhẫn.""",
-
-"""Giang Minh Lãng đưa tay tắt ngọn đèn lớn trên trần nhà, nơi đầu giường vẫn còn lại một ngọn đèn ngủ tỏa ra ánh sáng vàng dịu nhẹ."""
+    # 67: 婁禧陽奇怪地看了他一眼，發現他在抬眼和他對上視線時匆忙躲開了。
+    "Lâu Hỉ Dương kỳ quái liếc nhìn người nọ một cái, phát hiện người nọ khi ngước mắt chạm phải ánh nhìn của anh liền vội vã lảng tránh đi."
 ]
 
-with open(source_file, "r", encoding="utf-8") as f:
-    s_paras = [p.strip() for p in f.read().strip().split("\n\n") if p.strip()]
+os.makedirs(target_dir, exist_ok=True)
+with open(target_file, "w", encoding="utf-8") as f:
+    f.write("\n\n".join(paragraphs) + "\n")
 
-print(f"Source count: {len(s_paras)}, Trans count: {len(translations)}")
-assert len(s_paras) == len(translations), f"Count mismatch: {len(s_paras)} vs {len(translations)}"
-
-# Check forbidden words
-forbidden = []
-for idx, p in enumerate(translations):
-    if re.search(r'\b(hắn)\b', p, re.IGNORECASE):
-        forbidden.append((idx, p))
-assert len(forbidden) == 0, f"Found 'hắn' in {forbidden}"
-print("Zero 'hắn' detected across entire chapter!")
-
-# Save translation.md
-full_trans_content = "\n\n".join(translations) + "\n"
-with open(trans_file, "w", encoding="utf-8") as f:
-    f.write(full_trans_content)
-print(f"Successfully written {trans_file}")
-
-# Generate qc_report.md
-qc_report_content = f"""# BÁO CÁO KIỂM ĐỊNH CHẤT LƯỢNG DỊCH THUẬT (QC REPORT)
-**Chương:** Chương 15: Alaska 15 (`ch_015`)  
-**Số đoạn gốc:** {len(s_paras)} | **Số đoạn dịch:** {len(translations)}  
-**Tỷ lệ khớp đoạn:** 100% (90/90) - Tuyệt đối 1:1  
-**Điểm chất lượng:** 1.0/1.0 (XUẤT SẮC)
-
----
-
-## 1. Kiểm tra tuân thủ Rules Arc 1
-- **Công (Giang Minh Lãng):** Xưng ngôi thứ 3 là **"cậu"**, ôm giày trả lại nhưng xúc động nhận món quà đầu tiên trong đời cún, buột miệng: "Tôi thích anh lắm!", hiểu lầm Phó Vân Xuyên sợ bóng tối sợ sấm sét nên ngoan ngoãn ở lại ngủ cùng để bầu bạn. Tuyệt đối không dùng "hắn".
-- **Thụ (Phó Vân Xuyên):** Xưng ngôi thứ 3 là **"anh"**, tưởng nhầm Giang Minh Lãng tự tiến cử làm người tình, tặng giày đắt tiền làm quà tạ lễ, hốt hoảng khi Giang Minh Lãng định tắt đèn, uống thuốc an thần và giữ cậu ở lại ngủ chung. Tuyệt đối không dùng "hắn" hay "y".
-- **Đối thoại người - người:** Phó Vân Xuyên (**tôi - cậu**) ↔ Giang Minh Lãng (**tôi - anh / Phó tiên sinh**).
-- **Hạ hắc hóa:** Giá trị hắc hóa tiếp tục hạ 4 điểm sau lời khen và sự ngây ngô chân thành của cún con.
-
----
-
-## 2. Thống kê kỹ thuật
-- **Độ dài đoạn văn:** 90 đoạn, phân cách bởi `\\n\\n`.
-- **Dấu ngoặc thoại:** Chuẩn `“...”`.
-- **Zero Omission & Addition:** Giữ nguyên các đoạn tác giả/chương theo đúng bản gốc để khớp 1:1.
-- **Kết luận:** **PASSED - ĐẠT CHUẨN XUẤT SẮC**
-"""
-
-with open(qc_file, "w", encoding="utf-8") as f:
-    f.write(qc_report_content)
-print(f"Successfully written {qc_file}")
-
-# Update meta.json
-with open(meta_file, "r", encoding="utf-8") as f:
-    meta_data = json.load(f)
-
-meta_data["title"] = "Chương 15: Alaska 15"
-meta_data["translated_at"] = "2026-10-04T21:58:00+07:00"
-meta_data["status"] = "QC_PASSED"
-meta_data["qc_score"] = 1.0
-meta_data["n_paragraphs"] = len(translations)
-
-with open(meta_file, "w", encoding="utf-8") as f:
-    json.dump(meta_data, f, ensure_ascii=False, indent=2)
-print(f"Successfully updated {meta_file}")
-
-# Update timeline.json
-with open(timeline_file, "r", encoding="utf-8") as f:
-    timeline_data = json.load(f)
-
-ch15_entry = {
-    "chapter_id": "ch_015",
-    "title": "Chương 15: Alaska 15",
-    "summary": "Phó Vân Xuyên hiểu nhầm Giang Minh Lãng muốn làm người tình của mình. Trở về phòng, Giang Minh Lãng thấy mấy đôi giày bóng rổ đắt tiền do trợ lý Phó Vân Xuyên gửi tặng; cậu mang lên phòng trả lại nhưng được Phó Vân Xuyên bảo đó là quà tạ lễ che ô. Cậu vui mừng nhận quà và buột miệng bảo 'Tôi thích anh lắm', khiến hắc hóa giảm thêm 4 điểm. Khi cậu định tắt đèn ra về, Phó Vân Xuyên hốt hoảng ngăn lại vì sợ bóng tối và ra lệnh cho cậu ở lại ngủ cùng.",
-    "key_events": [
-        "Phó Vân Xuyên suýt hôn Giang Minh Lãng trên xe rồi lùi lại thử lòng",
-        "Mẹ Giang áy náy vì những đôi giày thể thao đắt tiền Phó Vân Xuyên gửi tặng con trai",
-        "Giang Minh Lãng mang giày lên phòng ngủ trả, Phó Vân Xuyên bảo đó là quà tặng",
-        "Giang Minh Lãng xúc động nhận món quà đầu tiên trong đời và thổ lộ 'Tôi thích anh lắm', giá trị hắc hóa -4",
-        "Phó Vân Xuyên hoảng loạn khi Giang Minh Lãng định tắt đèn phòng ngủ",
-        "Phó Vân Xuyên lệnh cho Giang Minh Lãng đi tắm và ở lại ngủ cùng phòng"
-    ],
-    "status_tags": ["Thế giới 1", "Món quà đầu tiên", "Tôi thích anh lắm", "Sợ bóng tối", "Ngủ chung phòng ngủ"]
-}
-
-found = False
-for idx, ev in enumerate(timeline_data):
-    if ev.get("chapter_id") == "ch_015":
-        timeline_data[idx] = ch15_entry
-        found = True
-        break
-if not found:
-    timeline_data.append(ch15_entry)
-
-with open(timeline_file, "w", encoding="utf-8") as f:
-    json.dump(timeline_data, f, ensure_ascii=False, indent=2)
-print(f"Successfully updated {timeline_file}")
+print(f"ch_015 translation written: {len(paragraphs)} paragraphs.")

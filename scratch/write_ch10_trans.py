@@ -1,318 +1,327 @@
 # -*- coding: utf-8 -*-
-import json
 import os
-import re
 
-ch10_dir = r"d:\Nhung\trans-tool\novel_projects\cứu-rỗi-phản-diện-mỹ-cường-thảm\chapters\ch_010"
-source_file = os.path.join(ch10_dir, "source.md")
-trans_file = os.path.join(ch10_dir, "translation.md")
-qc_file = os.path.join(ch10_dir, "qc_report.md")
-meta_file = os.path.join(ch10_dir, "meta.json")
-timeline_file = r"d:\Nhung\trans-tool\novel_projects\cứu-rỗi-phản-diện-mỹ-cường-thảm\memory\timeline.json"
+target_dir = r"d:\Nhung\RIDI\trans-assistant\novel_projects\đấng-cứu-thế-trả-nợ-tình\chapters\ch_010"
+target_file = os.path.join(target_dir, "translation.md")
 
-translations = [
-"""---
-title: "Chương 10: Alaska 10"
+paragraphs = [
+    # 0: header
+    """---
+title: Chương 10: Thế sao anh lại hôn em!
 ---""",
 
-"""Nếu hỏi Giang Minh Lãng tại sao rõ ràng rất sợ Phó Vân Xuyên mà vẫn chạy nhào tới, có lẽ cậu sẽ bảo là vì cảm thấy Phó Vân Xuyên một mình đứng ở đằng kia trông cô đơn quá đỗi.""",
+    # 1: separator
+    "====================",
 
-"""“Phó tiên sinh, hoa viên nhà anh rộng lớn ghê, anh có muốn cùng tôi chơi trò ném chai nước không?”""",
+    # 2: 事情結束後婁禧陽才意識到自己做了什麽。
+    "Sau khi mọi chuyện kết thúc, Lâu Hỉ Dương mới ý thức được bản thân vừa làm cái gì.",
 
-"""Bàn tay đang buông thõng bất ngờ bị một lòng bàn tay nóng rực chộp lấy, Phó Vân Xuyên nhìn Giang Minh Lãng kéo tay mình lên, rồi nhét một chiếc chai nước khoáng vào lòng bàn tay anh.""",
+    # 3: 他直起身，雙目逐漸清明。
+    "Anh thẳng người dậy, hai mắt dần dần lấy lại vẻ tỉnh táo.",
 
-"""Ánh mặt trời soi chiếu vào đôi mắt sáng lấp lánh của Giang Minh Lãng, cậu vừa thở dốc, vừa ngoe nguẩy cái đuôi về phía anh.""",
+    # 4: 易緣還沒有從其中脫離出來，手指還拽著婁禧陽的睡衣。
+    "Dịch Duyên vẫn còn chưa thoát ra khỏi dư âm nồng nàn, đầu ngón tay vẫn nắm chặt lấy vạt áo ngủ của Lâu Hỉ Dương.",
 
-"""Lời tác giả:""",
+    # 5: 婁禧陽沉默了一會兒...
+    "Lâu Hỉ Dương trầm mặc một lát mới ngước mắt nhìn về phía Dịch Duyên, phát hiện ánh mắt cậu hoang mang tan rã, đuôi mắt ửng hồng, bờ môi ướt át vẫn duy trì trạng thái hơi hé mở, khẽ khàng thở dốc.",
 
-"""Alaska (phấn khích): Loài người ơi, ném chai đi! Ném chai đi!""",
+    # 6: “陽，陽哥？”他的眼中浮著後知後覺的喜悅。
+    "“Dương, Dương ca?” Trong mắt cậu dâng lên niềm vui sướng chậm nửa nhịp.",
 
-"""(Tính năng tự động cảm ơn vẫn chưa hoạt động, tức xỉu, chỉ có后台 bên mình mới thấy được, không biết bao giờ mới sửa xong, xin gửi lời cảm ơn chung đến các thiên thần nhỏ đã tưới dung dịch dinh dưỡng! Cúi đầu.jpg)""",
+    # 7: 婁禧陽沒有回應，他緩緩抿直了唇，起身去了屋外。
+    "Lâu Hỉ Dương không đáp lại, anh chậm rãi mím chặt môi, đứng dậy bước ra ngoài phòng.",
 
-"""Chương 9: Alaska 09""",
+    # 8: 易緣倒是紅著眼角想跟上來，被他毫不留情地關在了房內。
+    "Dịch Duyên đỏ hoe khóe mắt muốn theo ra ngoài, lại bị anh không chút lưu tình nhốt lại trong phòng.",
 
-"""Phó Vân Xuyên chớp mắt một cái, cái đuôi kia liền biến mất không thấy tăm hơi.""",
+    # 9: 婁禧陽靠在牆上，頭疼地閉上了眼睛。
+    "Lâu Hỉ Dương dựa vào vách tường, đau đầu nhắm nghiền hai mắt lại.",
 
-"""Anh hệt như vừa bị điện giật, cúi đầu nhìn bàn tay của mình, vừa định bốc hỏa thì thấy may mắn là mình vẫn đang đeo găng tay, lúc này mới chậm rãi nâng mi mắt nhìn Giang Minh Lãng đang ngập tràn ánh mắt mong chờ.""",
+    # 10: 他覺得自己實在是昏了頭了。
+    "Anh cảm thấy bản thân mình thực sự là hồ đồ mê muội rồi.",
 
-"""Đám người hầu xung quanh chứng kiến cảnh tượng này đều kinh ngạc đến mức há hốc mồm không khép lại được, thế nhưng họ không ngờ cảnh tượng tiếp theo lại càng khiến họ khó tin hơn nữa.""",
+    # 11: 他為什麽會回吻過去？從今以後他該怎麽面對易緣？
+    "Tại sao anh lại hôn đáp lại cậu chứ? Từ nay về sau anh phải đối mặt với Dịch Duyên thế nào đây?",
 
-"""Chỉ thấy Phó Vân Xuyên buông tay vứt chiếc ô trong tay xuống đất, buông một câu: “Được thôi, chơi thế nào?”""",
+    # 12: 這已經超出他的計劃范圍內了。
+    "Chuyện này đã hoàn toàn vượt khỏi phạm vi kế hoạch của anh rồi.",
 
-"""Lời mời chơi đùa của Giang Minh Lãng được đáp lại, cậu càng thêm vui sướng khôn xiết, lập tức quẳng sạch mọi nỗi e dè xa cách với Phó Vân Xuyên lên chín tầng mây: “Anh có thể tùy ý ném chai về bất kỳ hướng nào, tôi sẽ bắt lấy nó trước khi chai chạm đất—”""",
+    # 13: 從發現易緣喜歡他開始...
+    "Kể từ lúc phát hiện Dịch Duyên thích mình, anh đã xác định bản thân sẽ không đưa ra bất kỳ phản hồi nào cho Dịch Duyên. Anh trước giờ luôn xem Dịch Duyên như em trai ruột thịt, tuy rằng không có quan hệ máu mủ, nhưng cộng cả kiếp trước anh gần như đã nuôi nấng Dịch Duyên hơn hai mươi năm trời. Dịch Duyên là người bầu bạn bên cạnh anh lâu nhất, cho dù về sau có phản bội anh, anh cũng chưa từng nghĩ sẽ làm gì cậu.",
 
-"""Lời cậu còn chưa dứt, Phó Vân Xuyên đã vung cánh tay hất mạnh chiếc chai bay vút đi.""",
+    # 14: 原本的設想中...
+    "Trong dự tính ban đầu, anh sẽ thay đổi vận mệnh của Dịch Duyên, để cậu sống một cuộc đời hạnh phúc không lo không nghĩ. Còn tình cảm không nên có mà Dịch Duyên dành cho anh rồi cũng sẽ tiêu tan theo thời gian, có lẽ sau này cậu sẽ yêu một người thích hợp, đến lúc đó anh sẽ với tư cách là người nhà của Dịch Duyên mà gửi lời chúc phúc cho cậu.",
 
-"""Lực tay anh rất mạnh, người lại cao lớn, chiếc chai bị ném bay đi tít đằng xa.""",
+    # 15: 還債，就算沒有這還債系統，他都不希望易緣像上輩子一樣。
+    "Trả nợ, cho dù không có cái hệ thống trả nợ này, anh cũng không mong Dịch Duyên lại giống như kiếp trước.",
 
-"""Hai mắt Giang Minh Lãng sáng rực lên, lập tức lao vút về hướng đó.""",
+    # 16: 這樣的認知早就刻在了他的心裡，不可能有所改變。
+    "Nhận thức như vậy đã sớm khắc sâu trong tim anh, không thể nào thay đổi được.",
 
-"""Cậu tóm gọn lấy chiếc chai, rồi lại thở hồng hộc chạy ngược trở về, mắt không chớp nhìn chằm chằm chờ đợi Phó Vân Xuyên ném tiếp một lần nữa.""",
+    # 17: 既然不可能喜歡易緣，那他剛才的行為是做什麽？誰會和自己的弟弟接吻？易緣不懂事拿想拿談戀愛忽悠他，難道他看不出來嗎？
+    "Đã không thể nào thích Dịch Duyên, vậy thì hành động vừa rồi của anh là có ý gì? Ai lại đi hôn môi với em trai của mình chứ? Dịch Duyên không hiểu chuyện lấy cớ muốn yêu đương để lừa gạt anh, chẳng lẽ anh lại không nhìn ra sao?",
 
-"""Cứ thế lặp đi lặp lại qua lại, Phó Vân Xuyên không hề tỏ ra mất kiên nhẫn mà cùng cậu chơi đùa, mãi cho đến khi Giang Minh Lãng chạy mệt lử, ngồi phịch xuống bậc thềm thở hồng hộc từng ngụm lớn.""",
+    # 18: 嘖，他到底在做什麽？
+    "Chậc, rốt cuộc là anh đang làm cái gì vậy chứ?",
 
-"""“Còn chơi nữa không?”""",
+    # 19: 婁禧陽皺緊了雙眉，此刻他很想抽煙，只可惜早就已經沒有煙了。
+    "Lâu Hỉ Dương nhăn tít hai hàng lông mày. Giờ khắc này anh rất muốn hút một điếu thuốc, chỉ tiếc là đã sớm không còn thuốc lá nữa rồi.",
 
-"""Phó Vân Xuyên từ trên cao nhìn xuống Giang Minh Lãng.""",
+    # 20: 一牆之隔的臥室內，易緣仍不停地敲著門，一聲一聲地叫著他的名字。
+    "Cách một bức tường trong phòng ngủ, Dịch Duyên vẫn không ngừng gõ cửa, từng tiếng từng tiếng gọi tên anh.",
 
-"""Mái tóc của Giang Minh Lãng ngắn và dày, dưới ánh nắng nhuộm vàng trông lại càng xù xì mềm mại lạ thường.""",
+    # 21: “陽哥，你是不是不適應？沒關系，我們就是假裝成戀人接個吻而已，你別放在心上，我不會把它當真的……”
+    "“Dương ca, có phải anh không quen không? Không sao đâu mà, chúng ta chỉ giả vờ làm người yêu hôn nhau một cái thôi, anh đừng để trong lòng, em sẽ không cho là thật đâu……”",
 
-"""Ngón tay Phó Vân Xuyên khẽ nhúc nhích, bất giác muốn biết sờ vào sẽ có cảm giác ra sao, lúc này, anh lại nhớ tới chú cún Alaska đã chạy mất kia, cùng với chú cún hoang thủa bé từng rất thích vẫy đuôi với người khác.""",
+    # 22: 易緣垂著腦袋一下一下往門上撓...
+    "Dịch Duyên cúi gằm đầu từng chút từng chút cào cào lên cánh cửa. Cậu vẫn còn chìm đắm trong niềm vui sướng khi Lâu Hỉ Dương chủ động hôn mình, đến mức cửa bị Lâu Hỉ Dương mở ra từ bên ngoài lúc nào cũng không phát hiện.",
 
-"""“Tôi hơi mệt rồi, tạm thời không chơi nữa đâu.” Giang Minh Lãng thành thật lắc đầu, lúc này cậu cảm thấy Phó Vân Xuyên tốt ghê gớm, ném chai vừa xa lại vừa có hướng bay bất ngờ, chơi vui hơn hẳn mấy con cún trong học viện.""",
+    # 23: 不知道過了多久，感到手落了空...
+    "Không biết qua bao lâu, cảm thấy tay mình hụt vào khoảng không, cậu mới ngẩng đầu lên, đối diện ngay với gương mặt có thể nói là nghiêm túc đến cực điểm của Lâu Hỉ Dương.",
 
-"""Cậu toét miệng để lộ hàm răng trắng bóc cười rạng rỡ với Phó Vân Xuyên, rất mực công bằng hỏi anh: “Có cần đổi lại cho anh chơi không?”""",
+    # 24: “易緣。”婁禧陽一本正經地看著他，“對不起，剛才是我腦子不清醒。”
+    "“Dịch Duyên.” Lâu Hỉ Dương nghiêm trang đứng đắn nhìn cậu, “Xin lỗi, vừa rồi là đầu óc anh không tỉnh táo.”",
 
-"""Khóe miệng Phó Vân Xuyên giật giật, gương mặt lại khôi phục vẻ nắng mưa thất thường như trước: “Không cần, cậu đi theo tôi.” Nói đoạn, anh xoay người rời đi.""",
+    # 25: “啊？”易緣的嘴角還掛著笑意...
+    "“Dạ?” Khóe môi Dịch Duyên vẫn còn vương nét cười, tia sáng trong mắt còn chưa kịp tan biến thì đã nghe thấy Lâu Hỉ Dương dứt khoát tuyệt tình nói: “Từ nay về sau anh tuyệt đối sẽ không làm bất kỳ hành vi nào vượt quá giới hạn nữa. Em là em trai anh, anh không nên làm như vậy.”",
 
-"""Giang Minh Lãng ngẩn ra một thoáng rồi cũng đứng dậy bước theo.""",
+    # 26: “陽哥你是不是誤會了？我只是想…”易緣蹩腳地回應道。
+    "“Dương ca, có phải anh hiểu lầm rồi không? Em chỉ là muốn...” Dịch Duyên vụng về đáp lại.",
 
-"""Cậu nhìn bóng lưng của Phó Vân Xuyên, lại nhìn bàn tay đang đeo găng của anh, cuối cùng tự xoa đầu mình.""",
+    # 27: “如果你想嘗試戀愛，我可以幫你找一個對的人...”
+    "“Nếu như em muốn thử cảm giác yêu đương, anh có thể giúp em tìm một người thích hợp, bất kể là con gái... hay là con trai. Anh là anh trai em, cha em phó thác em cho anh, anh không thể cùng em làm chuyện này.”",
 
-"""Cứ cảm thấy thiêu thiếu thứ gì đó.""",
+    # 28: 婁禧陽一邊說著，一邊目睹了易緣表情僵硬的全過程。
+    "Lâu Hỉ Dương vừa nói vừa tận mắt chứng kiến toàn bộ quá trình nét mặt Dịch Duyên dần trở nên cứng đờ.",
 
-"""“Còn nhớ việc tôi bảo cậu làm không?”""",
+    # 29: 由於之前的舉動，易緣頭頂上的小狗耳朵凌亂地搭在他的額前，現在看上去可憐至極。
+    "Do những động tác trước đó, đôi tai cún con trên đỉnh đầu Dịch Duyên lộn xộn rũ xuống trước trán cậu, giờ phút này trông đáng thương tới cực điểm.",
 
-"""Trong thư phòng, Phó Vân Xuyên vừa tháo cà vạt, vừa cất giọng hỏi Giang Minh Lãng đang đứng sau lưng.""",
+    # 30: 空氣突然安靜了，易緣緩緩地垂下了眼簾，盯著地上婁禧陽的影子不說話。
+    "Không khí đột nhiên tĩnh lặng, Dịch Duyên chậm rãi rủ mi mắt xuống, nhìn chằm chằm bóng hình Lâu Hỉ Dương trên mặt đất không nói một lời.",
 
-"""Giang Minh Lãng nghe vậy liền giật thót mình tỉnh táo hẳn ra: “Nhớ... nhớ ạ.”""",
+    # 31: 婁禧陽看著他鴉羽般的睫毛，心想他剛才的那番話不算重，那為什麽易緣看上去那麽難過？
+    "Lâu Hỉ Dương nhìn hàng mi đen như lông quạ của cậu, thầm nghĩ những lời ban nãy của mình đâu có quá nặng nề, vậy tại sao Dịch Duyên trông lại đau lòng đến thế?",
 
-"""Nhớ lại quyết định của mình, cậu cắn răng nói: “Tuần này tôi không nhìn thấy cậu ta.”""",
+    # 32: 或許是忘了偽裝，易緣的眼裡逐漸蓄滿了淚意，再抬眼時，淚珠已然從眼眶內湧了出來。
+    "Có lẽ là quên cả ngụy trang, trong mắt Dịch Duyên dần đong đầy nước mắt. Đến khi ngước mắt lên lần nữa, những giọt lệ đã tuôn trào ra khỏi hốc mắt.",
 
-"""Phó Vân Xuyên đang tháo đồng hồ đeo tay, mi mắt khẽ nâng lên liếc xéo cậu một cái.""",
+    # 33: “那你幹嘛親我啊？！——”他朝婁禧陽吼了一聲，一把推開婁禧陽，把自己埋進了床裡。
+    "“Thế thì anh mắc mớ gì phải hôn em chứ?!——” Cậu gào lên một tiếng với Lâu Hỉ Dương, đẩy mạnh Lâu Hỉ Dương ra rồi vùi cả người vào trong giường.",
 
-"""Điệu bộ nói dối của Giang Minh Lãng thật sự quá dễ nhận biết, hai con mắt chột dạ đảo qua đảo lại lia lịa.""",
+    # 34: “我今天不要和你一起睡了！”易緣的聲音從被子裡悶了出來。
+    "“Hôm nay em không thèm ngủ cùng anh nữa đâu!” Tiếng nói của Dịch Duyên nghẹn ngào nghẹt mũi truyền ra từ trong chăn.",
 
-"""“Ồ? Thế à.” Phó Vân Xuyên hạ thấp giọng.""",
+    # 35: 婁禧陽站在門口，一時間有點猝不及防，他還沒有被易緣“趕”過。
+    "Lâu Hỉ Dương đứng ở cửa, trong thoáng chốc có chút trở tay không kịp, anh trước giờ chưa từng bị Dịch Duyên “đuổi” bao giờ.",
 
-"""Anh ngồi xuống sô pha: “Được rồi, thế thì cậu đi đi.”""",
+    # 36: 可他剛準備轉身，又聽見易緣凶巴巴地朝他吼：“今天算了，明天你再出去！”
+    "Nhưng anh vừa mới chuẩn bị quay người thì lại nghe thấy Dịch Duyên hung dữ gào lên với anh: “Hôm nay bỏ qua, ngày mai anh mới được cút ra ngoài!”",
 
-"""Nghe câu này, Giang Minh Lãng lại trở nên ngập ngừng do dự.""",
+    # 37: *
+    "*",
 
-"""Phó Vân Xuyên bất chợt bật cười khẽ: “Sao nào, không muốn đi à?”""",
+    # 38: 婁禧陽一整個晚上都是睜眼躺過去的...
+    "Lâu Hỉ Dương mở trừng mắt nằm suốt cả một đêm. Đầu óc anh một mảng hỗn loạn, thế nhưng nghiền ngẫm cả đêm cũng không nghĩ thông được cảm giác kỳ lạ trong lòng mình rốt cuộc bắt nguồn từ đâu.",
 
-"""Giang Minh Lãng lập tức lắc đầu nguầy nguậy, quay người định bước đi.""",
+    # 39: 為了避免早起尷尬...
+    "Để tránh khó xử vào sáng sớm, hôm sau anh ra ngoài từ rất sớm. Vốn dĩ hôm nay anh chỉ cần đến khu Est nhìn qua tiến độ một cái là được, thế mà bị anh kéo dài cứng nhắc thành nửa ngày trời.",
 
-"""Đúng lúc này, chiếc điện thoại mới do người làm vừa mang lên đặt trên bàn vang lên một tiếng chuông.""",
+    # 40: “喂，你今天挺怪啊。”倍良用肩膀毫不客氣地撞了下他...
+    "“Này, hôm nay cậu lạ lắm đấy nhé.” Bội Lương dùng bả vai chẳng chút khách khí húc vào anh một cái. Gã vừa dẫn đội huấn luyện xong, trên người vẫn còn bốc hơi nóng hầm hập, trông mệt không chịu nổi.",
 
-"""Kèm theo đó chính là tiếng chuông cảnh báo hắc hóa đã lâu không nghe thấy từ hệ thống.""",
+    # 41: 只是他的臉上卻掛著罕有的暢快意味...
+    "Chỉ là trên mặt gã lại treo nụ cười sảng khoái hiếm thấy. Nhờ có bản vẽ và phương án của Lâu Hỉ Dương, gã đã nhìn thấy tương lai bang Lloyd trỗi dậy nhanh chóng. Nếu không có ngày tận thế, gã thậm chí còn cảm thấy việc Lloyd xưng bá toàn bộ hành tinh M cũng là điều hoàn toàn có thể.",
 
-"""【Cảnh báo, điểm cốt truyện hắc hóa của phản diện đã bắt đầu mở ra, đề nghị ký chủ kịp thời ngăn chặn giá trị hắc hóa của phản diện tăng vọt trong giai đoạn này!】""",
+    # 42: 婁禧陽面不改色地轉過頭，上下打量了倍良一番。
+    "Lâu Hỉ Dương mặt không đổi sắc quay đầu lại, đánh giá Bội Lương từ trên xuống dưới một lượt.",
 
-"""Cái gì cơ?""",
+    # 43: 上輩子他就見識過了倍良風流多情的本性，或許他可以解答他的疑慮。
+    "Kiếp trước anh đã từng chứng kiến bản tính phong lưu đa tình của Bội Lương, có lẽ gã có thể giải đáp được mối băn khoăn của anh.",
 
-"""Giang Minh Lãng vốn đã bước một chân ra khỏi thư phòng đành phải gượng gạo quay ngoắt đầu lại.""",
+    # 44: 而倍良卻被他這樣的目光看得渾身一顫，他僵硬地吞下嘴裡的水，“你幹嘛？”
+    "Thế nhưng Bội Lương lại bị ánh mắt này của anh nhìn đến mức rùng mình một cái. Gã cứng đờ nuốt ngụm nước trong miệng xuống: “Cậu làm cái gì đấy?”",
 
-"""Đằng kia Phó Vân Xuyên vừa đọc xong tin nhắn trong điện thoại, anh im lặng mất một giây, sau đó cười lạnh quẳng chiếc điện thoại đi.""",
+    # 45: “我有個問題想問你。”婁禧陽平靜地收回了目光，“什麽情況下，你會有想吻別人的衝動？”
+    "“Tôi có một câu hỏi muốn hỏi anh.” Lâu Hỉ Dương bình tĩnh thu hồi ánh mắt, “Trong tình huống nào thì anh sẽ có thôi thúc muốn hôn người khác?”",
 
-"""Thấy Giang Minh Lãng chưa rời đi, khóe môi anh nhếch lên nụ cười càng đậm hơn, giọng điệu lạnh buốt: “Rốt cuộc cậu muốn nói cái gì?”""",
+    # 46: 對面的倍良聞言整張臉都酸得皺了起來...
+    "Bội Lương đối diện nghe vậy cả khuôn mặt liền nhăn nhúm lại vì chua loét: “Vãi chưởng, cậu ở đây diễn vai thiếu nam ngây thơ với tôi đấy à? Đừng có làm trò này chứ, cậu đã có cái gì Dịch Duyên nhà cậu rồi, hỏi câu này làm cái quái gì?”",
 
-"""Giang Minh Lãng cảm thấy nụ cười của Phó Vân Xuyên rất kỳ quặc, rất gượng gạo cố ý, hệt như đang muốn che giấu điều gì đó.""",
+    # 47: “你誤會了，他是我弟弟。”
+    "“Anh hiểu lầm rồi, cậu ấy là em trai tôi.”",
 
-"""“Tôi... tôi đang nghĩ mấy ngày tới anh sẽ đi đâu.” Giang Minh Lãng bỗng chốc buột miệng nói thẳng suy nghĩ trong lòng ra.""",
+    # 48: “親生的？”
+    "“Ruột thịt à?”",
 
-"""Cậu muốn biết liệu Phó Vân Xuyên có định đi đâu hay không, và tình tiết hắc hóa kia rốt cuộc là cái gì.""",
+    # 49: “不是，是別人托給我帶的。”
+    "“Không phải, là người khác phó thác cho tôi nuôi.”",
 
-"""Cậu cố gắng nhớ lại nguyên tác, nếu đối chiếu mốc thời gian, thì cảnh quay tiếp theo có sự xuất hiện của Phó Vân Xuyên chỉ có ở đêm hội chào tân sinh viên của Đại học A mà thôi.""",
+    # 50: “那說屁啊，不就是情弟弟嗎，你們那天可把我們這群大老爺們兒酸掉牙了。”
+    "“Thế thì nói nhảm làm gì, chẳng phải là em trai tình nhân sao! Hôm đó hai người các cậu làm cho cả đám đàn ông to xác tụi tôi chua đến rụng cả răng rồi đấy.”",
 
-"""Phó Vân Xuyên không cười nữa, anh nheo mắt nhìn chằm chằm vào mắt Giang Minh Lãng: “Hỏi thẳng thừng tôi như thế, bọn họ dạy cậu như vậy đấy à?”""",
+    # 51: “我說了你誤會了。”
+    "“Tôi đã nói là anh hiểu lầm rồi.”",
 
-"""Ai cơ, bọn họ là ai chứ?""",
+    # 52: ……
+    "……",
 
-"""Giang Minh Lãng nhận ra mình đã lỡ lời, trong cái đầu đang rối như tơ vò bỗng lóe lên một tia sáng.""",
+    # 53: “你到底能不能回答？”婁禧陽被兩人間無意義地爭論搞得氣血上湧。
+    "“Rốt cuộc anh có trả lời được không?” Lâu Hỉ Dương bị cuộc tranh cãi vô nghĩa giữa hai người chọc cho khí huyết sôi trào.",
 
-"""“Thật ra tối mai là đêm hội chào tân sinh viên của Đại học A, mọi người đều dẫn theo phụ huynh đi cùng, nhưng tôi đã hỏi mẹ rồi, mẹ bảo mẹ bận không có thời gian, cho nên...” Giang Minh Lãng nhìn về phía Phó Vân Xuyên, dè dặt từng li từng tí:""",
+    # 54: 倍良見他這副模樣當真是要發火了的樣子...
+    "Bội Lương thấy bộ dạng này của anh quả thực như sắp nổi trận lôi đình tới nơi, trong thoáng chốc có chút ngạc nhiên hiếm thấy. Bao nhiêu ngày qua gã chưa từng thấy Lâu Hỉ Dương có bất kỳ bất mãn nào trước những lời châm chọc cố ý của mình, còn tưởng tính tình người này hiền lành lắm.",
 
-"""“Anh có thể đi cùng tôi được không?”""",
+    # 55: “好了，能為什麽，不就是想跟對方上.床嗎？”倍良輕浮地吹了聲口哨“反正我每次都是為了上.床才會想接吻。”
+    "“Được rồi, còn vì cái gì nữa, chẳng phải là muốn lên giường với đối phương sao?” Bội Lương cợt nhả huýt sáo một tiếng, “Dù sao tôi lần nào cũng là vì muốn lên giường mới nảy sinh ý muốn hôn môi.”",
 
-"""…""",
+    # 56: 上.床？和易緣？
+    "Lên giường? Cùng với Dịch Duyên?",
 
-"""Giang Minh Lãng không rõ rốt cuộc Phó Vân Xuyên đã đồng ý hay chưa đồng ý, cuối cùng Phó Vân Xuyên chỉ nhìn cậu một ánh mắt sâu xa, rồi bảo cậu ra ngoài.""",
+    # 57: 婁禧陽的臉越來越黑，一想到那個畫面他就覺得自己罪無可恕，他就不該信倍良能有什麽靠譜的回答。
+    "Sắc mặt Lâu Hỉ Dương càng lúc càng đen xì. Vừa nghĩ đến khung cảnh đó anh liền cảm thấy bản thân tội không thể tha, anh đúng là không nên tin Bội Lương có thể cho ra câu trả lời đứng đắn nào.",
 
-"""Sau khi cậu rời đi, Phó Vân Xuyên chậm rãi ngả người dựa vào lưng ghế sô pha, nghiêng đầu nhìn chiếc điện thoại trên bàn.""",
+    # 58: “你想吻誰啊？”倍良突然面露精光地朝他靠近，“那個易緣小弟弟？”
+    "“Cậu muốn hôn ai hả?” Bội Lương đột nhiên lộ vẻ tinh quái nhích lại gần anh, “Cái cậu em trai Dịch Duyên kia à?”",
 
-"""【Tối mai, hai vợ chồng Phó gia sẽ đích thân đến Đại học A để tham dự lễ trao giải của Phó Ngôn.】""",
+    # 59: 被他問得想起來了昨天的事，婁禧陽心裡有些毛躁。
+    "Bị gã hỏi dồn làm nhớ lại chuyện ngày hôm qua, trong lòng Lâu Hỉ Dương có chút bực dọc bồn chồn.",
 
-"""Chẳng rõ nghĩ tới điều gì, khóe môi anh lại nở một nụ cười giễu cợt đầy cay đắng lạnh lùng.""",
+    # 60: 倍良鍥而不舍地追問著，問得婁禧陽不耐煩地回了一句“我想吻狗。”
+    "Bội Lương bám riết không tha truy hỏi dồn dập, hỏi đến mức Lâu Hỉ Dương mất kiên nhẫn bực bội ném lại một câu: “Tôi muốn hôn chó.”",
 
-"""Anh nhấc điện thoại lên, bấm gọi một cuộc.""",
+    # 61: 話音剛落，腦海裡就竄出來易緣帶著狗耳朵帽子和狗爪子手套衝他笑的畫面，在那一刻，婁禧陽突然明白了什麽。
+    "Lời vừa dứt, trong đầu anh liền hiện lên hình ảnh Dịch Duyên đội chiếc mũ tai cún và đeo găng tay móng cún cười với mình. Ngay khoảnh khắc đó, Lâu Hỉ Dương đột nhiên hiểu ra điều gì.",
 
-"""“Thu xếp cho tôi ngày mai gặp hiệu trưởng Đại học A. Ông ta chẳng phải muốn tôi tài trợ sao, tôi quyên cho ông ta một tòa nhà.”""",
+    # 62: “對，狗，我可能是看到狗才會有接吻的衝動。”婁禧陽恍然大悟，瞬間心裡的鬱結就通了。
+    "“Đúng vậy, chó, tôi có lẽ là nhìn thấy chó mới có thôi thúc muốn hôn môi.” Lâu Hỉ Dương bừng tỉnh đại ngộ, u uất trong lòng tức khắc được đả thông thông suốt.",
 
-"""-""",
+    # 63: 搞明白異常後，他轉身就往樓下走。
+    "Sau khi hiểu rõ được điều bất thường, anh quay người liền bước xuống lầu.",
 
-"""Ngày hôm sau, Giang Minh Lãng ôm nỗi lo âu thắc thỏm đi đến trường.""",
+    # 64: 而被忽視的倍良獨自僵在原地，整個人說是被五雷轟頂也不為過。
+    "Mà Bội Lương bị ngó lơ đứng đơ ra một mình tại chỗ, cả người nói là bị sét đánh ngang tai cũng không hề quá chút nào.",
 
-"""Cậu vốn tính hay là cứ trốn học ở lại trang viên để lén bám theo Phó Vân Xuyên, dù sao hồi ở Học viện Uông Uông cậu cũng chẳng ít lần trốn học.""",
+    # 65: 婁禧陽風風火火地回到了易緣家，他今天特意拿了兩個罕見的機甲模型，打算哄一哄易緣。
+    "Lâu Hỉ Dương hớt hải vội vã quay về nhà Dịch Duyên. Hôm nay anh đặc biệt lấy hai mô hình cơ giáp hiếm thấy, định bụng dỗ dành Dịch Duyên một chút.",
 
-"""Nhưng hôm nay cậu lại có một trận đấu khảo sát tuyển chọn vào đội bóng rổ của trường, đội hình đã chia xong xuôi cả rồi, nếu cậu không đi thì sẽ làm lỡ dở của cả đội.""",
+    # 66: 然而當他推開家門時，卻沒看見易緣朝他撲來的身影。
+    "Thế nhưng khi anh đẩy cửa bước vào nhà, lại không nhìn thấy bóng dáng Dịch Duyên nhào tới ôm chầm lấy mình.",
 
-"""Dù sao theo đúng nguyên tác thì hôm nay Phó Vân Xuyên cũng sẽ đến Đại học A, đằng nào cậu cũng phải đi ngăn chặn thụ chính tiếp cận Phó Vân Xuyên, sau khi cân nhắc kỹ lưỡng, Giang Minh Lãng quyết định trước tiên cứ đến trường đánh xong trận bóng rổ đã.""",
+    # 67: 他皺了皺眉，懷疑可能是易緣還在生氣，故意沒來接他，便主動走進了臥室。
+    "Anh nhíu nhíu mày, nghi ngờ có thể là Dịch Duyên vẫn còn đang giận dỗi nên cố ý không ra đón mình, bèn chủ động bước vào phòng ngủ.",
 
-"""“Giang Minh Lãng, ngẩn người ra đấy làm gì, mau vào thay đồ đi!”""",
+    # 68: 沒人。
+    "Không có ai.",
 
-"""Tiếng còi chói tai của huấn luyện viên cắt ngang dòng suy nghĩ của Giang Minh Lãng, cậu đón lấy chiếc áo đấu được ném tới rồi đi vào phòng thay đồ.""",
+    # 69: 被子整整齊齊地折在一起，整個房間看上去空曠了許多。
+    "Chăn gối được gấp lại ngay ngắn chỉnh tề, cả căn phòng trông trống trải đi rất nhiều.",
 
-"""Trong phòng thay đồ, một đám thanh niên trai tráng mình trần đang rượt đuổi đùa giỡn điên cuồng, vừa thấy Giang Minh Lãng bước vào liền vô cùng ăn ý mà im bặt lại.""",
+    # 70: 突然意識到有什麽不對，婁禧陽眉頭皺的更緊了，他快步走到衣櫃前，打開櫃門，發現裡面易緣的衣服全部都不見了。
+    "Đột nhiên ý thức được có điều gì không đúng, chân mày Lâu Hỉ Dương càng nhăn chặt hơn. Anh rảo bước tới trước tủ quần áo, mở cửa tủ ra, phát hiện quần áo bên trong của Dịch Duyên toàn bộ đều biến mất không còn một chiếc.",
 
-"""Giang Minh Lãng cho dù dây thần kinh có thô đến đâu đi chăng nữa, thì cũng không thể không nhận ra bản thân đang bị cô lập tẩy chay.""",
+    # 71: 他又將這間房子裡裡外外都找了個遍，仍是沒看到易緣的身影。
+    "Anh lại tìm kiếm khắp trong ngoài căn nhà một lượt, vẫn không thấy bóng dáng Dịch Duyên đâu.",
 
-"""Đội bóng rổ của Đại học A về cơ bản đều do đám sinh viên viện Thể thao bao thầu, cho nên những kẻ cô lập cậu vẫn chính là nhóm người đó.""",
+    # 72: 讓自己冷靜下來後，婁禧陽將上輩子的記憶搜索了個遍，確定了上輩子易緣離開他的時間不是這一天，而是一個月後。
+    "Sau khi ép bản thân phải bình tĩnh lại, Lâu Hỉ Dương lục lọi toàn bộ ký ức của kiếp trước, xác định thời điểm Dịch Duyên rời xa anh ở kiếp trước không phải là ngày hôm nay, mà là một tháng sau.",
 
-"""Còn lý do vì sao họ lại cô lập mình thì Giang Minh Lãng vẫn chưa nghĩ ra nổi.""",
+    # 73: “系統，易緣呢？”他沉了沉眼皮，語氣微微發冷。
+    "“Hệ thống, Dịch Duyên đâu rồi?” Anh trầm mí mắt xuống, ngữ khí hơi lạnh lẽo.",
 
-"""Cậu lẳng lặng tìm một chiếc tủ trống thay đồ xong xuôi, đợi tiếng còi của huấn luyện viên vang lên liền ra sân khởi động.""",
+    # 74: 倍良：媽媽呀，這裡有變態！！
+    "Bội Lương: Mẹ ơi, ở đây có kẻ biến thái!!",
 
-"""Chiếc Rolls-Royce màu đen lăn bánh qua cánh cổng đã vắng người của Đại học A, chầm chậm di chuyển bên trong khuôn viên trường.""",
+    # 75: 專欄預收——《假校霸他很甜》求收藏啦～
+    "Dự thu chuyên mục—— 《Đại ca trường giả mạo cậu ấy rất ngọt ngào》 cầu cất chứa nha ~",
 
-"""Lúc này đang là khung giờ lên lớp của phần lớn các khoa, trên đường hầu như không có mấy bóng người.""",
+    # 76: 【看起來像校霸的傻白甜攻X武力值Max真校霸美人受】
+    "【Bên ngoài trông như đại ca trường ngốc nghếch ngọt ngào Công X Lực chiến Max đại ca trường mỹ nhân thụ thụ】",
 
-"""Thi thoảng vài sinh viên đi ngang qua, khi nhìn rõ chiếc xe sang trọng đều trố tròn mắt ngạc nhiên.""",
+    # 77: 明高一班來了一個轉學生。
+    "Lớp Một trường Minh Cao vừa tới một học sinh chuyển trường.",
 
-"""Đại học.""",
+    # 78: 轉學生身高直逼一米九，寸頭不說眉骨處還有一道疤，看人的眼神又冷又狂。
+    "Học sinh chuyển trường chiều cao ngấp nghé một mét chín, đã đầu đinh húi cua rồi lại còn có một vết sẹo nơi xương lông mày, ánh mắt nhìn người vừa lạnh lùng vừa ngông cuồng.",
 
-"""Phó Vân Xuyên nghiêng mắt nhìn khung cảnh bên ngoài cửa sổ xe, tầm mắt lướt qua những gương mặt sinh viên trẻ tuổi, thần sắc không rõ vui buồn.""",
+    # 79: 聽說他是從隔壁垃圾學校轉來的，眾所周知，那裡盛產校霸，內卷非常嚴重。
+    "Nghe nói cậu ta chuyển tới từ trường học rác rưởi bên cạnh, ai cũng biết nơi đó nổi tiếng sản sinh ra trùm trường, mức độ ganh đua nội bộ vô cùng khốc liệt.",
 
-"""Anh giơ cổ tay liếc nhìn thời gian: “Cần tôi nhắc cho các người biết còn lại mấy phút không?”""",
+    # 80: 這在表面平靜的明高扔下了一枚炸彈。
+    "Điều này như ném một quả bom xuống ngôi trường Minh Cao vốn bề ngoài phẳng lặng.",
 
-"""Người tài xế ngồi hàng trước nghe vậy liền vội vàng giải thích: “Phó tiên sinh, phía trước hình như bị tắc đường rồi ạ.”""",
+    # 81: 在手機第n次收到莫名其妙的挑釁短信後，轉學生孫乾哲爆發了
+    "Sau khi điện thoại nhận được tin nhắn khiêu khích vô căn cứ lần thứ n, học sinh chuyển trường Tôn Càn Triết bùng nổ:",
 
-"""Trợ lý ngồi ghế phụ lập tức mở điện thoại kiểm tra lại lịch trình do bên đối tác gửi tới, xác nhận vào giờ này phần lớn các khoa đều đang có tiết.""",
+    # 82: 都特麽的說了多少次，啊？
+    "Đã mẹ nó nói bao nhiêu lần rồi hả?",
 
-"""“Tôi xuống xem tình hình ngay đây ạ!” Anh ta bật nảy người khỏi ghế ngồi, đẩy cửa xe lao vội xuống.""",
+    # 83: 他是真的不會打架啊！
+    "Cậu ấy thực sự là không biết đánh nhau mà!",
 
-"""Phó Vân Xuyên ngước mắt nhìn về phía trước, quả nhiên cách đó chừng một trăm mét đang đông nghẹt người chen chúc.""",
+    # 84: “快看他表情…孫乾哲發飆了好嚇人嗚嗚嗚”“打起來打起來”
+    "“Mau nhìn nét mặt cậu ta kìa... Tôn Càn Triết nổi điên lên đáng sợ quá hu hu hu” “Đánh nhau rồi đánh nhau rồi”",
 
-"""Cửa kính xe bị gõ nhẹ, Phó Vân Xuyên ấn nút hạ kính xuống.""",
+    # 85: “我靠，他看過來了！”
+    "“Vãi chưởng, cậu ta nhìn sang đây rồi!”",
 
-"""Tiếng huyên náo ồn ào của đám đông ùa vào trong khoang xe, trợ lý ghé sát người nói to: “Sếp ơi, đằng trước hình như toàn là sinh viên không có tiết rủ nhau đến xem đấu bóng rổ ạ!”""",
+    # 86: 眾人趕緊低頭，一瞬間，教室裡安靜如雞。
+    "Mọi người vội vàng cúi gầm đầu, trong nháy mắt, phòng học im phăng phắc như thóc ngâm.",
 
-"""Trợ lý còn chưa kịp dứt lời thì từ đằng xa đã vang lên tiếng reo hò rền vang như sấm dậy——""",
+    # 87: #到底怎樣才能讓新同學相信自己真的是個乖學生？#
+    "# Rốt cuộc làm sao mới có thể khiến các bạn học mới tin rằng mình thực sự là một học sinh ngoan ngoãn? #",
 
-"""“Giang Minh Lãng!”""",
+    # 88: #總有人為我打架怎麽搞？#
+    "# Cứ luôn có người vì tôi mà đánh nhau thì phải làm sao đây? #",
 
-"""“Giang Minh Lãng!!”""",
+    # 89: *
+    "*",
 
-"""Gương mặt vốn đang mất kiên nhẫn của Phó Vân Xuyên vào khoảnh khắc này bỗng thoáng hiện chút hứng thú, anh nhớ ra Giang Minh Lãng hình như đúng là có chơi bóng rổ.""",
+    # 90: 孫乾哲決定身體力行，證明自己是良好公民。
+    "Tôn Càn Triết quyết định tự thân hành động, chứng minh bản thân là một công dân gương mẫu.",
 
-"""“Sếp, anh định đi đâu...”""",
+    # 91: 當他看到小白兔同桌放學後走向陰暗的小巷，一個箭步衝過去，就將那些想要搶劫同桌的混混全都趕跑。
+    "Khi cậu nhìn thấy bạn cùng bàn thỏ trắng nhỏ sau giờ học đi về phía con hẻm u ám, một bước lao nhanh tới, liền đuổi sạch đám côn đồ muốn cướp tiền bạn cùng bàn đi hết.",
 
-"""Người trợ lý tròn mắt kinh ngạc nhìn Phó Vân Xuyên đẩy cửa bước xuống xe, cất bước đi về phía khán đài sân vận động bên kia.""",
+    # 92: 果然，在一眾混混驚恐的眼神中，同桌抬頭感激看他。
+    "Quả nhiên, giữa ánh mắt kinh hoàng của đám côn đồ, bạn cùng bàn ngẩng đầu cảm kích nhìn cậu.",
 
-"""“Sếp ơi, thời gian hẹn...!——”""",
+    # 93: 翌日，同桌在年級群裡發了一句：“他不是校霸。懂？”
+    "Hôm sau, bạn cùng bàn nhắn một câu vào nhóm khối: “Cậu ấy không phải trùm trường. Hiểu chứ?”",
 
-"""“Bảo ông ta đợi.”""",
+    # 94: 從此，再沒混混上來挑釁，也再沒人傳他是校霸，同學們都對他熱情萬分，孫乾哲很是滿意。
+    "Từ đó về sau, không còn tên du côn nào tới gây sự, cũng không ai đồn đại cậu là trùm trường nữa, các bạn học đều đối xử với cậu nhiệt tình vô cùng, Tôn Càn Triết cảm thấy hết sức hài lòng.",
 
-"""Phó Vân Xuyên liếc xéo anh ta một cái, rồi tiếp tục bước về phía trước.""",
+    # 95: *
+    "*",
 
-"""Phó Vân Xuyên không tiến vào chỗ đông người nhất, anh tìm một góc vắng người rồi phóng tầm mắt nhìn xuống.""",
+    # 96: 不是校霸也不是直男的孫乾哲最近得了失心瘋，他發現他的同桌越來越好看了。
+    "Không phải trùm trường mà cũng chẳng phải trai thẳng, Tôn Càn Triết dạo gần đây như bị phát cuồng, cậu phát hiện bạn cùng bàn của mình càng ngày càng ưa nhìn.",
 
-"""Chỉ thấy một nhóm thanh niên trẻ trung tràn đầy nhiệt huyết đang thi đấu vô cùng sôi nổi nảy lửa trên sân bóng rổ bên dưới.""",
+    # 97: 還很害羞，隨便逗逗耳根就泛紅，看的他心裡直癢癢。
+    "Lại còn rất hay xấu hổ, tùy tiện trêu chọc một chút là vành tai liền ửng đỏ, nhìn đến mức trong lòng cậu cứ ngứa ngáy từng hồi.",
 
-"""Phó Vân Xuyên gần như chỉ liếc mắt một cái đã nhận ra ngay Giang Minh Lãng, lý do chẳng có gì khác ngoài việc Giang Minh Lãng ở giữa đám người đó quá đỗi nổi bật.""",
+    # 98: 最重要的是他看起來很明顯對自己有意思嘛。
+    "Quan trọng nhất chính là đối phương trông rõ ràng là có ý với cậu mà.",
 
-"""Cậu hạ thấp trọng tâm dừng lại ở góc tây nam sân bóng rổ, dưới tay khống chế trái bóng rổ vô cùng vững vàng, cả một đám người vây kín xung quanh cậu không một kẽ hở. Cậu thở dốc từng hồi, đôi mắt nâu sáng ngời bị mồ hôi kích thích mà khẽ nheo lại.""",
+    # 99: 幾個月後，孫乾哲深吸一口氣。
+    "Mấy tháng sau, Tôn Càn Triết hít sâu một hơi.",
 
-"""Cậu của giờ phút này hoàn toàn không còn nét ngốc nghếch vụng về khi ở trước mặt anh, những đường nét ngũ quan sắc sảo góc cạnh tôn lên làn da màu đồng bánh mật khiến cậu trông hệt như một con sói tuyết cô độc đang đi săn mồi.""",
+    # 100: 傻逼竟是我自己。
+    "Kẻ ngốc ngếch hóa ra lại chính là bản thân mình.",
 
-"""Một người lặng lẽ không tiếng động áp sát về phía cậu, giây tiếp theo, những âm thanh va chạm kịch liệt liên tiếp nổ tung giữa vòng vây siết chặt.""",
+    # 101: “孫乾哲，再躲我就把你腿打斷，”真.美人校霸在他耳邊曖昧低語，眼底卻是一片溫柔，“你試試。”
+    "“Tôn Càn Triết, còn dám trốn nữa tôi sẽ đánh gãy chân cậu,” Trùm trường mỹ nhân đích thực ghé vào tai cậu ám muội thì thào, nhưng đáy mắt lại chan chứa một mảnh dịu dàng, “Cậu thử xem.”",
 
-"""Chỉ thấy Giang Minh Lãng nghiêng người lách qua một cách gọn gàng dứt khoát, trái bóng rổ nảy lên thật cao từ mặt đất rồi mau lẹ rơi xuống, ngay khoảnh khắc bóng vừa chớm đà hạ xuống liền bị một đôi bàn tay nổi rõ gân xanh khóa chặt lấy."""
+    # 102: 【閱讀指南】
+    "【Chỉ dẫn đọc truyện】",
+
+    # 103: 互寵，he，甜
+    "Hỗ sủng, HE, ngọt ngào"
 ]
 
-with open(source_file, "r", encoding="utf-8") as f:
-    s_paras = [p.strip() for p in f.read().strip().split("\n\n") if p.strip()]
+os.makedirs(target_dir, exist_ok=True)
+with open(target_file, "w", encoding="utf-8") as f:
+    f.write("\n\n".join(paragraphs) + "\n")
 
-print(f"Source count: {len(s_paras)}, Trans count: {len(translations)}")
-assert len(s_paras) == len(translations), f"Count mismatch: {len(s_paras)} vs {len(translations)}"
-
-# Check forbidden pronouns using regex word boundaries
-forbidden_words = []
-for idx, p in enumerate(translations):
-    if re.search(r'\b(hắn)\b', p, re.IGNORECASE):
-        forbidden_words.append((idx, p))
-
-if forbidden_words:
-    print(f"WARNING: 'hắn' found in paragraphs: {forbidden_words}")
-else:
-    print("Pronoun check passed: Zero 'hắn' detected!")
-
-# Save translation.md
-full_trans_content = "\n\n".join(translations) + "\n"
-with open(trans_file, "w", encoding="utf-8") as f:
-    f.write(full_trans_content)
-print(f"Successfully written {trans_file}")
-
-# Generate qc_report.md
-qc_report_content = f"""# BÁO CÁO KIỂM ĐỊNH CHẤT LƯỢNG DỊCH THUẬT (QC REPORT)
-**Chương:** Chương 10: Alaska 10 (`ch_010`)  
-**Số đoạn gốc:** {len(s_paras)} | **Số đoạn dịch:** {len(translations)}  
-**Tỷ lệ khớp đoạn:** 100% (103/103) - Tuyệt đối 1:1  
-**Điểm chất lượng:** 1.0/1.0 (XUẤT SẮC)
-
----
-
-## 1. Kiểm tra tuân thủ Rules Arc 1
-- **Công (Giang Minh Lãng):** Xưng ngôi thứ 3 là **"cậu"**, thể hiện trọn vẹn bản tính cún ngây thơ nhưng khi chơi thể thao lại như "con sói tuyết cô độc săn mồi". Tuyệt đối không dùng "hắn".
-- **Thụ (Phó Vân Xuyên):** Xưng ngôi thứ 3 là **"anh"**, từ sự bất lực chiều chuộng ném chai nước cho cún chơi, đến sự cô độc lạnh lẽo khi đọc tin ba mẹ ruột đi dự lễ trao giải của con nuôi Phó Ngôn. Tuyệt đối không dùng "hắn" hay "y".
-- **Đối thoại dạng người:** Phó Vân Xuyên (**tôi - cậu**) ↔ Giang Minh Lãng (**tôi - anh / Phó tiên sinh**). Giang Minh Lãng mời Phó Vân Xuyên dự đêm hội tân sinh viên.
-- **Tình huống cao trào:** Phó Vân Xuyên đến Đại học A, bỏ qua cuộc hẹn gặp hiệu trưởng để đứng trên góc khán đài vắng ngắm nhìn Giang Minh Lãng rực sáng trên sân bóng rổ.
-
----
-
-## 2. Thống kê kỹ thuật
-- **Độ dài đoạn văn:** 103 đoạn, phân cách bởi `\\n\\n`.
-- **Dấu ngoặc thoại:** Chuẩn `“...”`.
-- **Zero Omission & Addition:** Giữ nguyên 100% chi tiết gốc, bảo toàn các đoạn tác giả/ghi chú chương để khớp 1:1 tuyệt đối.
-- **Kết luận:** **PASSED - ĐẠT CHUẨN XUẤT SẮC**
-"""
-
-with open(qc_file, "w", encoding="utf-8") as f:
-    f.write(qc_report_content)
-print(f"Successfully written {qc_file}")
-
-# Update meta.json
-with open(meta_file, "r", encoding="utf-8") as f:
-    meta_data = json.load(f)
-
-meta_data["title"] = "Chương 10: Alaska 10"
-meta_data["translated_at"] = "2026-10-04T21:46:00+07:00"
-meta_data["status"] = "QC_PASSED"
-meta_data["qc_score"] = 1.0
-meta_data["n_paragraphs"] = len(translations)
-
-with open(meta_file, "w", encoding="utf-8") as f:
-    json.dump(meta_data, f, ensure_ascii=False, indent=2)
-print(f"Successfully updated {meta_file}")
-
-# Update timeline.json
-with open(timeline_file, "r", encoding="utf-8") as f:
-    timeline_data = json.load(f)
-
-ch10_entry = {
-    "chapter_id": "ch_010",
-    "title": "Chương 10: Alaska 10",
-    "summary": "Phó Vân Xuyên chiều theo lời rủ của Giang Minh Lãng, cùng chơi ném chai nước trong hoa viên. Biết cha mẹ ruột sắp đến Đại học A dự lễ của con nuôi Phó Ngôn, Phó Vân Xuyên quyết định quyên góp tiền xây nhà cho trường để trực tiếp xuất hiện. Tại trường, anh bỏ ngang cuộc hẹn hiệu trưởng để đứng trên khán đài dõi theo Giang Minh Lãng thi đấu bóng rổ xuất thần như một con sói tuyết cô độc.",
-    "key_events": [
-        "Phó Vân Xuyên buông ô, cùng Giang Minh Lãng chơi trò ném chai nước qua lại trong hoa viên",
-        "Giang Minh Lãng mời Phó Vân Xuyên đến tham dự đêm hội chào tân sinh viên Đại học A",
-        "Hệ thống báo động cốt truyện hắc hóa: cha mẹ Phó gia đích thân đến Đại học A dự lễ trao giải của Phó Ngôn",
-        "Phó Vân Xuyên chi tiền quyên một tòa nhà cho Đại học A để đường hoàng xuất hiện",
-        "Giang Minh Lãng thi đấu tuyển chọn vào đội bóng rổ, bị đồng đội cô lập nhưng thi đấu bùng nổ",
-        "Phó Vân Xuyên bảo hiệu trưởng đợi, đứng từ xa ngắm nhìn Giang Minh Lãng thi đấu bóng rổ"
-    ],
-    "status_tags": ["Thế giới 1", "Chơi ném chai hoa viên", "Đêm hội tân sinh viên", "Bóng rổ Đại học A", "Sói tuyết cô độc"]
-}
-
-found = False
-for idx, ev in enumerate(timeline_data):
-    if ev.get("chapter_id") == "ch_010":
-        timeline_data[idx] = ch10_entry
-        found = True
-        break
-if not found:
-    timeline_data.append(ch10_entry)
-
-with open(timeline_file, "w", encoding="utf-8") as f:
-    json.dump(timeline_data, f, ensure_ascii=False, indent=2)
-print(f"Successfully updated {timeline_file}")
+print(f"ch_010 translation written: {len(paragraphs)} paragraphs.")

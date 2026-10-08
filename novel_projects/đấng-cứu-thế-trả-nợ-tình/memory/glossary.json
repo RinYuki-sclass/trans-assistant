@@ -1,0 +1,146 @@
+[
+  {
+    "original": "娄禧阳",
+    "translation": "Lâu Hỉ Dương",
+    "hanviet": "Lâu Hỉ Dương",
+    "category": "character",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Công chính, cứu thế chủ"
+  },
+  {
+    "original": "易缘",
+    "translation": "Dịch Duyên",
+    "hanviet": "Dịch Duyên",
+    "category": "character",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Thụ chính, cẩu điên giả ngoan"
+  },
+  {
+    "original": "蒋卓航",
+    "translation": "Tưởng Trác Hàng",
+    "hanviet": "Tưởng Trác Hàng",
+    "category": "character",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Phản diện chính"
+  },
+  {
+    "original": "陈敛",
+    "translation": "Trần Liễm",
+    "hanviet": "Trần Liễm",
+    "category": "character",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Người nuôi dưỡng / đồng minh liên quan đến Dịch Duyên"
+  },
+  {
+    "original": "张森泽",
+    "translation": "Trương Sâm Trạch",
+    "hanviet": "Trương Sâm Trạch",
+    "category": "character",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Bạn bè chi viện của Lâu Hỉ Dương"
+  },
+  {
+    "original": "铁锤",
+    "translation": "Thiết Chùy",
+    "hanviet": "Thiết Chùy",
+    "category": "character",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Tên của Hệ Thống Trả Nợ Tình"
+  },
+  {
+    "original": "情债系统",
+    "translation": "Hệ thống Trả Nợ Tình",
+    "hanviet": "Tình trái hệ thống",
+    "category": "term",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Hệ thống thúc ép công yêu đương"
+  },
+  {
+    "original": "还债进度",
+    "translation": "tiến độ trả nợ",
+    "hanviet": "hoàn trái tiến độ",
+    "category": "term",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Chỉ số tình cảm hoàn thành nhiệm vụ"
+  },
+  {
+    "original": "M星球",
+    "translation": "hành tinh M",
+    "hanviet": "M tinh cầu",
+    "category": "location",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Hành tinh quê hương"
+  },
+  {
+    "original": "天梯计划",
+    "translation": "Kế hoạch Thang Trời",
+    "hanviet": "Thiên thê kế hoạch",
+    "category": "term",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Dự án cứu sinh trên không trung"
+  },
+  {
+    "original": "paradise",
+    "translation": "Paradise",
+    "hanviet": "Thiên đường",
+    "category": "location",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Trạm không gian cho giới giàu"
+  },
+  {
+    "original": "星船",
+    "translation": "tinh thuyền",
+    "hanviet": "tinh thuyền",
+    "category": "term",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Tàu vũ trụ"
+  },
+  {
+    "original": "机甲",
+    "translation": "cơ giáp",
+    "hanviet": "cơ giáp",
+    "category": "term",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Robot chiến đấu"
+  },
+  {
+    "original": "联邦管理局",
+    "translation": "Cục Quản lý Liên bang",
+    "hanviet": "Liên bang Quản lý cục",
+    "category": "organization",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Chính quyền tối cao"
+  },
+  {
+    "original": "落雪节",
+    "translation": "Tiết rơi tuyết",
+    "hanviet": "Lạc tuyết tiết",
+    "category": "term",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Lễ hội rơi tuyết năm 417"
+  },
+  {
+    "original": "电子苍蝇",
+    "translation": "ruồi điện tử",
+    "hanviet": "điện tử thương dăng",
+    "category": "term",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Thiết bị trinh sát tinh vi do Lâu Hỉ Dương chế tạo"
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "chapter_id": "ch_001",
+  "chapter_number": 1,
+  "title": "Chương 1: Đinh, chủ nợ của bạn đã online",
+  "original_title": "第一章 咚，您的債主已上線",
+  "imported_at": "2026-10-08T15:36:48.129535+07:00",
+  "n_paragraphs": 113,
+  "n_chunks": 6,
+  "chunk_size": 20,
+  "start_page": 1,
+  "end_page": 3,
+  "czbooks_url": "https://czbooks.net/n/skdfi4kimel/?chapterNumber=0",
+  "status": "QC_PASSED",
+  "translated_at": "2026-10-08T15:58:00+07:00",
+  "qc_audit": {
+    "score": 10,
+    "alignment": "1:1",
+    "pronoun_rules_passed": true,
+    "paragraphs_count": 113
+  },
+  "qc_status": "QC_PASSED",
+  "qc_score": 10,
+  "qc_passed_date": "2026-10-08"
+}
