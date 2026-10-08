@@ -1,0 +1,13 @@
+{
+  "chapter_id": "ch_025",
+  "title": "Chương 25: Cậu rõ ràng thích anh ấy",
+  "word_count": 2459,
+  "paragraph_count": 91,
+  "status": "qc_passed",
+  "updated_at": "2026-10-08 11:03:48+07:00",
+  "qc_audit": {
+    "score": 10,
+    "alignment": "1:1",
+    "pronoun_rules_passed": true
+  }
+}

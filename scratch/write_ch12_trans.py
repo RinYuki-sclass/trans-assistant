@@ -1,298 +1,342 @@
 # -*- coding: utf-8 -*-
-import json
 import os
-import re
 
-ch12_dir = r"d:\Nhung\trans-tool\novel_projects\cứu-rỗi-phản-diện-mỹ-cường-thảm\chapters\ch_012"
-source_file = os.path.join(ch12_dir, "source.md")
-trans_file = os.path.join(ch12_dir, "translation.md")
-qc_file = os.path.join(ch12_dir, "qc_report.md")
-meta_file = os.path.join(ch12_dir, "meta.json")
-timeline_file = r"d:\Nhung\trans-tool\novel_projects\cứu-rỗi-phản-diện-mỹ-cường-thảm\memory\timeline.json"
+target_dir = r"d:\Nhung\RIDI\trans-assistant\novel_projects\đấng-cứu-thế-trả-nợ-tình\chapters\ch_012"
+target_file = os.path.join(target_dir, "translation.md")
 
-translations = [
-"""---
-title: "Chương 12: Alaska 12"
+paragraphs = [
+    # 0: header
+    """---
+title: Chương 12: Hắn điên rồi
 ---""",
 
-"""Sảnh lớn của thư viện tụ tập không ít sinh viên chạy vào trú mưa, bọn họ chốc chốc lại lén lút nhìn về phía Phó Vân Xuyên, rồi sau đó ghé đầu vào nhau kích động bàn tán xôn xao.""",
+    # 1: separator
+    "================",
 
-"""Nơi Phó Ngôn đứng cách đó không xa, Giang Minh Lãng có thể nghe rõ mồn một đám sinh viên kia đang nói những gì.""",
+    # 2: 家裡一下子空了，也沒人需要婁禧陽照顧。
+    "Trong nhà bỗng chốc trống vắng, cũng chẳng còn ai cần Lâu Hỉ Dương chăm sóc nữa.",
 
-"""Có mấy bạn nữ đang hào hứng bàn luận xem Phó Vân Xuyên rốt cuộc là ai, bỗng nhiên có một giọng nam cắt ngang cuộc thảo luận của họ, mỉa mai nói: “Mấy người không phải ngay cả anh ta là ai cũng không biết đấy chứ?”""",
+    # 3: 既然如此，他就沒必要每天花七.八個小時在兩個地方來回折騰。
+    "Đã như vậy, anh cũng không cần thiết mỗi ngày phải bỏ ra bảy tám tiếng đồng hồ đi đi lại lại giữa hai nơi.",
 
-"""Mấy cô gái nghe vậy liền bất mãn nhìn về phía người nam sinh vừa cất lời, chỉ thấy cậu ta cười khẩy một tiếng, tiện tay rút một cuốn tạp chí từ trên giá bên cạnh xuống, lật giở vài trang thì tìm thấy gương mặt y hệt, bèn chỉ tay vào cuốn tạp chí bảo: “Miễn là mấy người có theo dõi bản tin tài chính thì đều có thể biết anh ta là ai rồi. Phó Vân Xuyên, người giàu nhất thành phố chúng ta đấy.”""",
+    # 4: 思及至此，他乾脆裝了點衣服和洗漱用品，第二天一早就去鐵廠住下了。
+    "Nghĩ tới đây, anh dứt khoát thu dọn một ít quần áo và đồ dùng vệ sinh cá nhân, sáng sớm ngày hôm sau liền tới xưởng sắt ở lại.",
 
-"""Lời vừa dứt, đám sinh viên xung quanh đều không kìm được mà kinh hô thốt lên, thắc mắc vì sao người giàu nhất thành phố lại xuất hiện ở thư viện trường học, trong đám đông có người bạo dạn thậm chí còn rục rịch muốn tiến lại bắt chuyện làm quen với Phó Vân Xuyên.""",
+    # 5: 但婁禧陽明顯忽略了一個問題...
+    "Thế nhưng Lâu Hỉ Dương rõ ràng đã lơ là một vấn đề, đó là anh đã sớm trở thành tiêu điểm của hơn một ngàn người bang Lloyd, nhất cử nhất động đều bị bọn họ mang ra săm soi nghiền ngẫm hết lần này đến lần khác.",
 
-"""“Người giàu nhất thì đã sao,” Một nam sinh khác bên cạnh thấy vậy liền lập tức ngăn cản, “Tôi khuyên mấy người đừng có ngu ngốc xông lên tìm đường chết. Anh ta chính là một kẻ giết người, từng ngồi tù rồi đấy.”""",
+    # 6: 於是乎，萊德的一群人看他獨自提著行李住進了空蕩的單人間...
+    "Thế là, một đám người của Lloyd nhìn thấy anh xách hành lý một mình dọn vào căn phòng đơn trống trải, tiếng huýt sáo và tiếng hò reo trêu chọc thi nhau vang lên không dứt.",
 
-"""Câu này vừa thốt ra, mấy người vừa định bước qua ban nãy liền lập tức biến sắc mặt, sợ hãi ngồi thụt lùi trở lại.""",
+    # 7: 緊接著，各種話題就在廠內上下傳了個遍...
+    "Ngay sau đó, đủ loại chủ đề liền lan truyền khắp trên dưới trong xưởng, từng bước từng bước trật bánh theo chiều hướng kỳ quái——",
 
-"""“Cậu nói thật đấy à, anh ta là kẻ giết người sao?” “Đương nhiên rồi, lừa cậu làm cái gì, trong giới ai cũng biết anh ta là một kẻ điên nổi tiếng, nghe đồn ngày nào cũng phải uống thuốc an thần mới ổn định được.” “Mẹ kiếp, hèn chi tôi cứ thấy người anh ta toát ra vẻ đáng sợ kỳ quặc thế nào ấy”...""",
+    # 8: #婁禧陽一個人搬過來了#
+    "# Lâu Hỉ Dương một mình dọn qua đây #",
 
-"""Tiếng bàn tán của đám người không hề nhỏ, Giang Minh Lãng có thể dám chắc Phó Vân Xuyên đã nghe thấy toàn bộ, bởi vì cậu tận mắt trông thấy sắc mặt Phó Vân Xuyên càng lúc càng thêm u ám lạnh lùng.""",
+    # 9: #婁禧陽慘被甩#
+    "# Lâu Hỉ Dương thảm hại bị đá #",
 
-"""Khoảnh khắc tiếp theo, cậu thấy Phó Vân Xuyên nhấc điện thoại lên nói vài câu, rồi sau đó sải đôi chân dài, một bước dứt khoát bước thẳng vào trong màn mưa mịt mù đang giăng kín đất trời.""",
+    # 10: 事情到這還不算離譜，不知道倍良又搞出了什麽么蛾子，話題進一步發酵——
+    "Chuyện tới nước này vẫn chưa tính là thái quá, chẳng biết Bội Lương lại giở trò quỷ quái gì mà chủ đề tiến thêm một bước lên men——",
 
-"""Giang Minh Lãng theo bản năng định lao tới che ô cho anh, nhưng không ngờ lại bị Phó Ngôn ở phía trước nhanh chân đi trước một bước.""",
+    # 11: #！婁禧陽因為被老婆發現是個變態後被趕出來了！#
+    "#! Lâu Hỉ Dương vì bị vợ phát hiện là kẻ biến thái nên đã bị tống cổ ra khỏi nhà! #",
 
-"""“Anh trai”, “Phó tiên sinh”""",
+    # 12: 到最後傳到婁禧陽耳裡的最終結果變成了——
+    "Tới cuối cùng truyền vào tai Lâu Hỉ Dương kết quả đã biến thành——",
 
-"""Cả hai người đồng thời cất tiếng gọi.""",
+    # 13: #乾！婁禧陽是變態！#
+    "# Đệt! Lâu Hỉ Dương là kẻ biến thái! #",
 
-"""Giang Minh Lãng giương chiếc ô trong tay, nhìn hai người đang cùng đứng dưới chiếc ô của Phó Ngôn, bầu không khí bỗng có chút gượng gạo.""",
+    # 14: 婁禧陽整頓好自己的東西後...
+    "Lâu Hỉ Dương sau khi thu dọn xong đồ đạc của mình, lại dành ra một hai tiếng đồng hồ chải chuốt lại toàn bộ ký ức một lượt, phân tích sâu những nút thắt đã phát sinh biến động, bỗng giật mình nhận ra kiếp này chuyện gì nên xảy ra thì vẫn cứ xảy ra. Cho dù chi tiết có đôi chút biến chuyển, nhưng cuối cùng vẫn quay trở về đúng quỹ đạo cũ.",
 
-"""Phó Vân Xuyên là người phản ứng lại đầu tiên, trước hết anh cúi đầu liếc nhìn Phó Ngôn một cái, rồi chậm rãi hướng ánh mắt đối diện với tầm nhìn của Giang Minh Lãng.""",
+    # 15: 那麽就意味著，盡管他再來一次，也不能順風順水地完成計劃。
+    "Điều đó có nghĩa là, cho dù anh làm lại một lần nữa thì cũng không thể nào thuận buồm xuôi gió hoàn thành kế hoạch.",
 
-"""Khóe môi anh khẽ nhếch lên, ngữ điệu nghe không ra vui buồn: “Trùng hợp ghê nhỉ?”""",
+    # 16: 他有些掉以輕心了。
+    "Anh đã có chút khinh suất rồi.",
 
-"""Phó Ngôn lúc này mới sực tỉnh, cậu ta nhíu mày nhìn Giang Minh Lãng, rồi lại quay sang nhìn Phó Vân Xuyên nói: “Em tình cờ đi ngang qua thư viện, vừa vặn trông thấy anh đi ra, thấy anh không có ô nên em...”""",
+    # 17: 就憑易天的那封信，這一次就比上輩子複雜了許多。
+    "Chỉ bằng bức thư kia của Dịch Thiên, lần này đã phức tạp hơn kiếp trước rất nhiều.",
 
-"""“Anh trai?” Phó Vân Xuyên bật ra một tiếng cười khẽ với thần sắc khó lường.""",
+    # 18: 想到這裡，婁禧陽的眸色深了些許。
+    "Nghĩ đến đây, sắc mắt Lâu Hỉ Dương trầm xuống đôi phần.",
 
-"""Phó Ngôn trông có vẻ rất cuống quýt, vội vàng giải thích: “Xin lỗi Phó tiên sinh, em nhất thời không để ý, nếu anh không thích thì sau này em không gọi như vậy nữa.”""",
+    # 19: 耳邊突然響起了震動聲...
+    "Bên tai đột nhiên vang lên tiếng rung, anh khẽ nâng mí mắt, theo bản năng hướng ánh mắt vào thiết bị đầu cuối, lại phát hiện trên đó chẳng hề có động tĩnh gì.",
 
-"""Phó Vân Xuyên không nói thích hay không thích, anh chỉ im lặng trong giây lát, rồi chuyển hướng nhìn sang Giang Minh Lãng, cất giọng hỏi: “Vậy còn cậu thì sao.”""",
+    # 20: 不是易緣。
+    "Không phải Dịch Duyên.",
 
-"""Giang Minh Lãng giật mình hoàn hồn, cậu nhìn vào đôi mắt đen sâu thẳm của Phó Vân Xuyên, trong lòng chột dạ khôn xiết: “Tôi... thật ra tôi cũng là đi ngang qua thôi.”""",
+    # 21: 他抿了抿唇，眸色又沉了一分，心緒複雜。
+    "Anh mím mím môi, sắc mắt lại trầm xuống một phân, tâm tư rối bời.",
 
-"""Cảm giác được ánh mắt của Phó Vân Xuyên càng lúc càng trở nên sắc bén, như muốn nhìn thấu tâm can mình, cậu đang định nói thêm điều gì thì Phó Ngôn đã chen ngang vào:""",
+    # 22: 他又轉而打開了震動的萊德通訊戒。
+    "Anh liền chuyển sang mở chiếc nhẫn liên lạc bang Lloyd đang rung lên.",
 
-"""“Phó tiên sinh muốn đi đâu ạ, để em đưa anh đi.”""",
+    # 23: 看著萊德內網上就#婁禧陽倒底是不是變態#的話題聊的水深火熱的一群人...
+    "Nhìn một đám người trên mạng nội bộ bang Lloyd đang bàn tán sôi nổi như nước sôi lửa bỏng về chủ đề #Rốt cuộc Lâu Hỉ Dương có phải biến thái hay không#, Lâu Hỉ Dương chậm rãi híp mắt lại.",
 
-"""Tiếng mưa rơi ầm ĩ đã giải cứu cho bầu không khí bỗng chốc rơi vào tĩnh lặng.""",
+    # 24: 看來是他給的buff太多，導致這群人完全沒有即將要進攻的危機意識，在這閑得蛋疼。
+    "Xem ra là do anh buff cho quá nhiều, dẫn đến đám người này hoàn toàn không có chút ý thức nguy cơ nào về cuộc tấn công sắp tới, rảnh rỗi quá hóa rỗi hơi ở đây.",
 
-"""Phó Ngôn ngẩn ra một thoáng, cẩn thận từng li từng tí nâng mi mắt quan sát phản ứng của Phó Vân Xuyên, chẳng may lại chạm thẳng vào một xoáy nước vực sâu đen ngòm không đáy, Phó Vân Xuyên đang nhìn chằm chằm không chớp mắt vào cậu ta.""",
+    # 25: 前幾天按照圖紙做出的第一台雛形機甲出來後，萊德的人就炸了。
+    "Mấy ngày trước sau khi mô hình cơ giáp đầu tiên được làm ra theo bản vẽ thiết kế, người của bang Lloyd liền bùng nổ.",
 
-"""Rất khó để hình dung cảm giác khi bị Phó Vân Xuyên nhìn chằm chằm, dinh dính, rợn người, hệt như một đôi mắt rắn đang lóe lên những tia hàn quang lạnh lẽo.""",
+    # 26: 任何一個男人都會在絕對的武力面前熱血沸騰。
+    "Bất kỳ người đàn ông nào cũng đều sẽ sôi trào nhiệt huyết trước vũ lực tuyệt đối.",
 
-"""Thật lâu sau, anh mới buông một câu: “Được thôi.”""",
+    # 27: 送死？不，這分明就是去砸場子的！
+    "Đi tìm cái chết? Không, cái này rõ ràng là đi đập nát địa bàn của người ta!",
 
-"""Phó Ngôn lập tức thở phào nhẹ nhõm, cậu ta nâng cao cán ô, chờ đợi Phó Vân Xuyên cất bước đi trước, nhưng chẳng ngờ vừa bước về phía trước được mấy bước thì Phó Vân Xuyên đã ngoảnh đầu nhìn lại phía sau.""",
+    # 28: 機甲兵團全團一掃以往的頹廢萎靡...
+    "Toàn thể binh đoàn cơ giáp quét sạch vẻ sa sút ủ rũ ngày trước, từng người từng người đều như được tiêm máu gà. Tuy nói là sĩ khí giang hồ được cổ vũ phấn chấn, nhưng tình trạng như vậy cũng khiến bọn họ lơ là biếng nhác đi không ít.",
 
-"""“Cậu muốn làm cái gì?”""",
+    # 29: 是該好好整治整治...
+    "Quả đúng là nên chấn chỉnh lại cho ra trò. Lâu Hỉ Dương lướt sơ qua hàng loạt tin nhắn xin lỗi dồn dập của Bội Lương rồi tắt nhẫn liên lạc đi.",
 
-"""Giang Minh Lãng đang lấm lét đi bám theo sau lưng hai người liền bị bắt quả tang ngay tại trận.""",
+    # 30: 深夜，在一群匪徒舒舒服服躺在床上準備入睡時...
+    "Đêm khuya, lúc một đám thổ phỉ đang thoải mái nằm trên giường chuẩn bị đi ngủ, khuôn mặt anh tuấn không chút cảm xúc của Lâu Hỉ Dương liền chiếu ra từ chiếc nhẫn của bọn họ.",
 
-"""Chẳng còn cách nào khác, cậu chớp chớp mắt tội nghiệp ngước nhìn Phó Vân Xuyên, lí nhí hỏi:""",
+    # 31: “五分鍾，下來訓練，遲到的人加訓兩小時。”
+    "“Năm phút, xuống sân huấn luyện, người đến muộn phạt huấn luyện thêm hai tiếng.”",
 
-"""“Thế tôi có thể đi theo sau hai người được không?”""",
+    # 32: 畫面裡的婁禧陽像是才洗了頭...
+    "Lâu Hỉ Dương trong hình dường như vừa mới gội đầu xong, tóc mái được anh tùy ý vuốt ngược ra sau tai, để lộ vầng trán sáng sủa.",
 
-"""Lời tác giả:""",
+    # 33: 他頭頂上的暗紅色燈光在他身上鍍了一層紅霧...
+    "Ánh đèn đỏ thẫm trên đỉnh đầu phủ lên người anh một tầng sương đỏ, mày mắt sâu thẳm ẩn giấu trong bóng tối, tựa như ác ma đang ung dung giương nanh múa vuốt về phía bọn họ.",
 
-"""Các bảo bối ơi ngày mai mình xin nghỉ không ra chương, hẹn gặp lại vào 9 giờ sáng ngày kia nhé.""",
+    # 34: 簡直比變態還像個變態。
+    "Quả thực còn giống biến thái hơn cả kẻ biến thái.",
 
-"""Chương 11: Alaska 11""",
+    # 35: 萊德眾匪徒：…其實以上言論我們都可以撤回，真的！
+    "Chúng thổ phỉ Lloyd: ... Thực ra những lời bình luận bên trên chúng tôi đều có thể thu hồi lại mà, thật đấy!",
 
-"""Ánh mắt của Giang Minh Lãng ươn ướt, mái tóc dày rậm vì bị những hạt mưa gió tạt lung tung mà trở nên ướt nhẹp, hệt như đôi tai cún ủ rũ rủ cụp xuống vì bị người ta bỏ rơi.""",
+    # 36: *
+    "*",
 
-"""Trông thấy cảnh tượng ấy, khóe môi Phó Vân Xuyên khẽ cong lên một độ cong mờ nhạt.""",
+    # 37: 由於沒有事物再能讓婁禧陽分心...
+    "Vì không còn điều gì khiến Lâu Hỉ Dương phải phân tâm nữa, anh dồn toàn bộ tinh lực vào việc thao luyện binh sĩ cơ giáp.",
 
-"""Ánh mắt Phó Ngôn vào khoảnh khắc này bỗng chốc trở nên phức tạp khôn lường.""",
+    # 38: 在未來的四天時間裡...
+    "Trong khoảng thời gian bốn ngày tiếp theo, Lâu Hỉ Dương mở ra chế độ huấn luyện địa ngục tàn khốc vô nhân đạo. Trên dưới hàng ngàn người của Lloyd kêu khổ thấu trời, nhưng cũng dần dần nhìn nhận nghiêm túc về trận chiến sắp phải đối mặt.",
 
-"""Có lẽ vì đã chần chừ quá lâu, cậu ta đang định mở miệng nói gì đó để ngăn lại, thì bỗng nhiên một cánh tay từ phía sau vươn tới, ôm ghì lấy bả vai cậu ta một cách thô bạo.""",
+    # 39: 在正式進攻的前兩天...
+    "Vào hai ngày trước trận tiến công chính thức, toàn bộ cơ giáp của bang Lloyd đã hoàn thành cải tạo. Khi ánh mắt của toàn thể thổ phỉ Lloyd tập trung vào năm mươi cỗ cơ giáp đồ sộ hùng dũng, trong tròng mắt đục ngầu quanh năm đã bùng lên những tia lửa rực sáng.",
 
-"""Chỉ thấy một nam sinh với mái tóc nhuộm xanh lam hùng hổ chen ngang vào dưới chiếc ô của hai người.""",
+    # 40: 婁禧陽給了他們兩天的時間和機甲磨合...
+    "Lâu Hỉ Dương cho bọn họ thời gian hai ngày để làm quen cọ xát với cơ giáp. Rạng sáng ngày thứ ba, anh thổi vang hồi còi xuất trận.",
 
-"""“Phó Ngôn, tôi tìm cậu cả buổi trời, hóa ra cậu trốn ở đây à.”""",
+    # 41: 留了兩百人給紅發老頭留守艾斯特區...
+    "Để lại hai trăm người cho lão già tóc đỏ canh giữ khu Est, tám trăm người còn lại leo lên mô tô chiến đấu và cơ giáp bay thẳng về hướng Tây Lăng Sơn.",
 
-"""Tên đầu xanh đè đầu Phó Ngôn, ghé sát vào tai cậu ta nói với vẻ đầy mập mờ ám muội.""",
+    # 42: 轟隆隆的馬達聲在空中炸開...
+    "Tiếng động cơ gầm rú ầm ầm nổ vang giữa không trung, phá vỡ sự tĩnh mịch hoang vu kể từ ngày tuyên bố mạt thế đến nay.",
 
-"""Sắc mặt Phó Ngôn lập tức trở nên khó coi, cậu ta đẩy tên đầu xanh ra, nói: “Ngại quá bạn học Ngụy, hiện tại tôi đang bận chút việc.”""",
+    # 43: 由機甲兵團打頭陣...
+    "Do binh đoàn cơ giáp đi tiên phong, bang phái Lloyd dừng lại ở bên ngoài ranh giới kích hoạt cơ chế phòng vệ của viện nghiên cứu Tây Lăng Sơn, chờ đợi hiệu lệnh của Lâu Hỉ Dương.",
 
-"""“Giang Minh Lãng, lại đây.”""",
+    # 44: 很顯然這邊的動靜已經傳到了研究所裡...
+    "Rất rõ ràng động tĩnh bên này đã truyền tới bên trong viện nghiên cứu. Lâu Hỉ Dương ngồi trong khoang điều khiển cơ giáp, nhìn những ánh đèn cảnh báo nối tiếp nhau sáng lên ở phía đối diện, cuối cùng khóa chặt tầm mắt vào góc đông nam của viện nghiên cứu.",
 
-"""Một giọng nói trầm thấp thiếu kiên nhẫn bỗng chen ngang vào cuộc trò chuyện của hai người. Giang Minh Lãng liếc nhìn tên đầu xanh một cái, rồi vô cùng ngoan ngoãn rảo bước đi về phía Phó Vân Xuyên.""",
+    # 45: 穿過電.網，從這個門闖進去...
+    "Xuyên qua lưới điện, xông vào từ cánh cửa này, đi thẳng tới cuối đường rồi rẽ trái là có thể nhìn thấy phòng thí nghiệm giam giữ Lâu An Minh.",
 
-"""Chỉ thấy Phó Vân Xuyên sải bước chân dài, bước thẳng vào dưới chiếc ô của Giang Minh Lãng.""",
+    # 46: 婁禧陽快速計算著路徑...
+    "Lâu Hỉ Dương nhanh chóng tính toán lộ trình. Ngay khoảnh khắc chuông báo động trên tháp canh của viện nghiên cứu vang lên, anh kề sát vào chiếc nhẫn liên lạc——",
 
-"""“Đây chẳng phải là Phó chú chú sao, không ngờ lại đụng mặt chú ở chỗ này đấy.” Ngụy Minh nâng mắt nhìn Phó Vân Xuyên, huýt sáo một tiếng, cất giọng trêu chọc cợt nhả.""",
+    # 47: “機甲兵團跟我走，其余人按兵不動，跟隨倍良守在外圍等候指令。”
+    "“Binh đoàn cơ giáp đi theo tôi, những người còn lại án binh bất động, theo Bội Lương trấn thủ ở vòng ngoài chờ đợi chỉ lệnh.”",
 
-"""Ngụy Minh, chính là công chính trong cuốn tiểu thuyết, Giang Minh Lãng nhanh chóng nhận ra ngay, bởi vì người này thậm chí chẳng cần qua sát hạch tuyển chọn mà vẫn trực tiếp được vào đội bóng rổ của trường.""",
+    # 48: 話音剛落，對面的四處大門就緩緩開了縫隙...
+    "Lời vừa dứt, bốn cánh cổng lớn đối diện liền từ từ hé mở, hai mươi cỗ cơ giáp quân dụng cấp B nối đuôi nhau tràn ra ngoài, xếp thành một hàng chỉnh tề.",
 
-"""Dứt lời, gã lại quay đầu sang hỏi Phó Ngôn: “Sao cậu lại đi cùng chú Phó thế kia, chậc, chẳng phải người ta đồn Phó gia đã cắt đứt quan hệ với chú ấy rồi sao, thế nào, cậu vẫn muốn nhận người anh trai này à?”""",
+    # 49: “此處是聯邦三星級研究所，機要重地，無關人員請迅速撤離，否則生死不論！”
+    "“Nơi này là viện nghiên cứu ba sao của Liên bang, địa bàn cơ mật trọng yếu, người không phận sự mau chóng rút lui, bằng không sống chết mặc bay!”",
 
-"""“Ngụy Minh, cậu câm miệng lại!” Phó Ngôn hiếm khi trở nên kích động đến vậy.""",
+    # 50: 領頭的朝他們亮起了警示燈...
+    "Kẻ dẫn đầu bật đèn cảnh báo về phía bọn họ, lời nói ra lại thong thả ung dung, dường như chẳng hề coi bọn họ ra gì.",
 
-"""Phó Vân Xuyên chẳng buồn liếc mắt nhìn hai người họ thêm một cái nào, sải bước chân dài định đi thẳng về phía trước.""",
+    # 51: 尤其是看到了他們的標志。
+    "Đặc biệt là khi nhìn thấy huy hiệu của bọn họ.",
 
-"""“Anh trai.”""",
+    # 52: 萊德？那個由一群老弱病殘湊在一起組成的破敗幫派...
+    "Lloyd? Cái bang phái tàn tạ tập hợp bởi một lũ già yếu ốm đau bệnh tật kia, thực sự là không đáng để bọn họ phải huy động lực lượng lớn, phái ra hai mươi cỗ cơ giáp quân dụng cấp B này đã là nể mặt bọn chúng lắm rồi.",
 
-"""Phó Ngôn vội vàng cất tiếng gọi với theo.""",
+    # 53: “喂，勸你們趕緊走...”
+    "“Này, khuyên bọn mày mau cút đi, nhìn thấy mấy cỗ cơ giáp này chưa? Một phát pháo bắn qua là trên người bọn mày đến một mẩu vụn cũng không còn đâu, muốn gây chuyện thì ra ngoài đường lớn mà gây.”",
 
-"""“Cậu có thể đừng mở miệng ra là anh trai này anh trai nọ được không, làm như hai người có quan hệ huyết thống gì ghê gớm lắm không bằng.” Ngụy Minh dùng giọng điệu chua lòm gắt gỏng ngăn lại.""",
+    # 54: 領頭的朝他們揮了揮手。
+    "Tên cầm đầu phất phất tay về phía bọn họ.",
 
-"""Câu nói này cùng lúc đã giẫm phải khu vực cấm kỵ của cả hai người.""",
+    # 55: 然而手還沒來得及放下，他的耳邊就炸開了一道摧天裂地的氣波。
+    "Thế nhưng tay còn chưa kịp hạ xuống, bên tai gã đã nổ tung một luồng khí ba hủy thiên diệt địa.",
 
-"""Phó Vân Xuyên dừng bước, ánh mắt âm u lạnh lẽo quét qua gương mặt Ngụy Minh, cuối cùng dừng lại trên người Phó Ngôn.""",
+    # 56: 氣波波及到的四台機甲被無形的力推到半空中旋轉了多次後重重地砸落在身後的電.網上。
+    "Bốn cỗ cơ giáp bị luồng khí ba quét trúng bị một lực vô hình hất tung lên giữa không trung xoay tròn mấy vòng, sau đó đập mạnh xuống lưới điện phía sau.",
 
-"""“Phó Ngôn, lần sau gặp lại.”""",
+    # 57: “換台s級再來。”婁禧陽收回手，語氣聽不出什麽波瀾。
+    "“Đổi cỗ cấp S tới đây rồi hẵng nói chuyện.” Lâu Hỉ Dương thu tay về, ngữ khí chẳng nghe ra chút gợn sóng nào.",
 
-"""Phó Vân Xuyên chậm rãi nhả từng chữ, âm đuôi hơi nâng cao, giọng nam trầm ấm đầy vẻ trưởng thành và từ tính vang lên hệt như đang thì thầm một lời tâm tình êm ái dịu dàng.""",
+    # 58: “我靠，拽！”
+    "“Vãi chưởng, ngầu đét!”",
 
-"""Mí mắt Phó Ngôn khẽ run lên, ngượng ngùng gật đầu.""",
+    # 59: “老子好久沒體會這種捏死螞蟻的感覺了。”
+    "“Ông đây đã lâu lắm rồi chưa được nếm thử cảm giác bóp chết kiến thế này.”",
 
-"""Cảnh tượng này khiến cho sắc mặt Ngụy Minh trở nên cực kỳ khó coi, gã hệt như một con thú hoang đang bảo vệ miếng mồi, gườm gườm cảnh giác trừng mắt nhìn Phó Vân Xuyên.""",
+    # 60: ……
+    "……",
 
-"""Tiếc rằng Phó Vân Xuyên chẳng thèm ban cho gã lấy nửa cái liếc mắt, đôi chân dài bước thẳng ra khỏi màn mưa dày đặc.""",
+    # 61: “走了，趁現在增援還沒出，你們掩護我去東南門。”
+    "“Đi thôi, nhân lúc chi viện của chúng còn chưa ra, các người yểm trợ tôi tới cửa đông nam.”",
 
-"""Cảnh giác đâu chỉ có mỗi Ngụy Minh, mà còn có cả tấm phông nền Giang Minh Lãng nãy giờ đứng xem trọn vẹn từ đầu đến cuối.""",
+    # 62: 婁禧陽壓低嗓音，打斷正興奮不已的一群人。
+    "Lâu Hỉ Dương hạ thấp giọng, cắt ngang đám người đang hưng phấn không thôi.",
 
-"""Cậu cảm thấy懊 não hối hận khôn nguôi, suốt dọc đường đi cứ nghĩ mãi đáng lẽ ra lúc nãy mình nên kéo phắt Phó Vân Xuyên đi luôn, nếu không thì Phó Vân Xuyên đã chẳng dây dưa dính líu gì tới Phó Ngôn nữa rồi.""",
+    # 63: “是！”
+    "“Rõ!”",
 
-"""Nghe theo ý tứ trong lời nói của Phó Vân Xuyên, dường như anh còn dự định sẽ gặp lại Phó Ngôn thêm lần nữa.""",
+    # 64: 由張溝帶頭，五十台機甲緊隨婁禧陽身後...
+    "Do Trương Câu dẫn đầu, năm mươi cỗ cơ giáp bám sát ngay sau lưng Lâu Hỉ Dương. Lại thêm hai tiếng nổ vang lên, chỉ cần giơ tay một cái, đối diện liền trống hoác một mảng.",
 
-"""“Cậu thích tắm mưa lắm à?”""",
+    # 65: 婁禧陽飛速地朝東南門跑著...
+    "Lâu Hỉ Dương phi thân lao nhanh về phía cửa đông nam. Chỉ trong vỏn vẹn vài phút ngắn ngủi, bên trong viện nghiên cứu lại lao ra mười cỗ cơ giáp quân dụng cấp S cùng ba mươi cỗ cấp A. Đến đây, tiếng pháo nổ liên hồi không dứt, hai bên chính thức mở màn trận chiến.",
 
-"""Giọng nói của Phó Vân Xuyên kéo dòng suy nghĩ của Giang Minh Lãng trở về thực tại, cậu ngẩng đầu lên, mới phát hiện Phó Vân Xuyên nãy giờ vẫn đang nhìn chằm chằm vào mình.""",
+    # 66: 婁禧陽一腳踹飛了一個砸過來的鐵皮...
+    "Lâu Hỉ Dương một cước đá bay một mảnh sắt vụn đập tới, nhắm thẳng cánh cửa bắn dữ dội một phát pháo. Cửa đông nam ầm ầm sụp đổ, anh không chút do dự nhảy xuống khỏi cơ giáp, lao như bay về phía mục tiêu.",
 
-"""Chiếc ô Giang Minh Lãng mua vốn dĩ không lớn, mà cả hai người đều là những chàng trai cao to xấp xỉ mét chín, nhét chung hai người đã là rất miễn cưỡng rồi, thêm vào đó suốt dọc đường Giang Minh Lãng cứ mất tập trung lơ đễnh, hoàn toàn không để ý bản thân cứ nghiêng hết cả tán ô sang che cho Phó Vân Xuyên, còn nửa cái đầu của mình thì dầm trọn dưới làn mưa xối xả.""",
+    # 67: 只要他動作夠快...
+    "Chỉ cần động tác của anh đủ nhanh, nói không chừng còn chưa đợi bọn chúng khởi động cơ chế phòng vệ thì bọn họ đã có thể quay đầu rút lui rồi. Như vậy, thương vong của bang Lloyd có thể khống chế dưới mười người, thậm chí không có ai phải bỏ mạng.",
 
-"""“Lại gần đây chút.”""",
+    # 68: 由於研究所的武裝機制都集中在所外...
+    "Do cơ chế vũ trang của viện nghiên cứu đều tập trung ở bên ngoài, bên trong viện phần lớn đều là một đám nhân viên nghiên cứu chân yếu tay mềm. Mọi chuyện đều thuận lợi y như trong ký ức của anh, anh đánh ngất các thành viên viện nghiên cứu đi ngang qua một cách êm thấm, chỉ mất đúng hai phút là chạy tới trước phòng thí nghiệm giam giữ Lâu An Minh.",
 
-"""Phó Vân Xuyên cất giọng ra lệnh.""",
+    # 69: 按照記憶輸入密碼...
+    "Dựa theo ký ức nhập mật mã vào, cánh cửa từ từ mở ra, một gương mặt có ba phần tương tự với anh nhìn thẳng vào tầm mắt anh.",
 
-"""“À, vâng ạ.” Giang Minh Lãng theo bản năng phục tùng mệnh lệnh của Phó Vân Xuyên, cậu xích lại gần Phó Vân Xuyên hơn, ép phần lớn bờ vai của mình chui vào trong tán ô.""",
+    # 70: 他已經接近十多年沒再見過這張臉了。
+    "Anh đã gần mười mấy năm rồi chưa nhìn thấy lại khuôn mặt này.",
 
-"""Khi nép sát vào nhau, cảm nhận được Phó Vân Xuyên có đôi chút bài xích né tránh, Giang Minh Lãng lúc này mới nhớ ra Phó Vân Xuyên vốn không thích người khác đụng chạm vào cơ thể mình, nhưng lần này Phó Vân Xuyên lại không hề lên tiếng phản đối điều gì.""",
+    # 71: “小陽，走，快走。”婁安明的眼裡亮了一瞬...
+    "“Tiểu Dương, đi, mau đi thôi.” Trong mắt Lâu An Minh sáng lên trong khoảnh khắc, liền nhanh chóng bình tĩnh trở lại, “Đi theo ba, nhân lúc cơ chế phòng vệ còn chưa mở, chúng ta có cơ hội ra ngoài.”",
 
-"""Hai người cùng nhau đi bộ từ thư viện cho tới tận tòa nhà hành chính, bởi vì cơn mưa bão quá lớn khiến nước ngập sâu trên đường, xe cộ bị tắc nghẽn suốt một dải dài.""",
+    # 72: 婁安明有條不紊地推了推鼻梁上的金絲眼鏡...
+    "Lâu An Minh bình tĩnh đâu ra đấy đẩy gọng kính viền vàng trên sống mũi, nghiêng người bước ra khỏi cửa, sải bước nhanh chóng ra ngoài, mọi thứ đều như nằm trong kế hoạch của ông, chẳng có nửa điểm chật vật chạy trốn.",
 
-"""“Cho cậu một cơ hội nói thật,” Phó Vân Xuyên cất lời, “Hôm nay cậu là tình cờ đi ngang qua, hay là cố ý sắp đặt?”""",
+    # 73: 婁禧陽抬起眼皮掠了一眼男人的背影，一言不發地跟在他身後。
+    "Lâu Hỉ Dương nâng mí mắt liếc nhìn bóng lưng người đàn ông, không nói một lời bám sát theo sau ông.",
 
-"""Giang Minh Lãng nghe vậy liền trố tròn hai mắt: “Anh... ý anh là...”""",
+    # 74: 這條路是婁安明計劃好的，沒有什麽人，但是會路過所長辦公室。
+    "Con đường này là do Lâu An Minh đã lên kế hoạch từ trước, không có mấy người, nhưng sẽ đi ngang qua văn phòng Viện trưởng.",
 
-"""“Sự kiên nhẫn của tôi có hạn thôi đấy.” Giọng điệu của Phó Vân Xuyên bỗng chốc trở nên lạnh băng.""",
+    # 75: 在他們拐角時，聽見了一陣激烈的爭執聲——
+    "Khi bọn họ rẽ qua góc cua, liền nghe thấy một tràng tranh cãi kịch liệt vang lên——",
 
-"""Đầu óc Giang Minh Lãng lại rơi vào trạng thái đơ toàn tập, cậu cảm thấy con người của Phó Vân Xuyên này quả thực khiến loài chó không tài nào đoán định nổi, cậu ấp a ấp úng nửa ngày trời, đối diện với áp lực nặng nề từ ánh mắt của Phó Vân Xuyên, cậu dứt khoát buông xuôi nói toẹt ra: “Được rồi, thật ra tôi cố tình đến tìm anh đấy.”""",
+    # 76: “什麽叫做防衛機制開不了？你知道這裡面關的是什麽人嗎！啊！”
+    "“Cái gì gọi là không mở được cơ chế phòng vệ hả? Cậu có biết người bị nhốt ở trong này là ai không hả! Hả!”",
 
-"""Phó Vân Xuyên dừng bước lại, nhìn chiếc Rolls-Royce đang từ từ đỗ lại trước mặt mình, hỏi: “Tại sao?”""",
+    # 77: “劉所，我們已經在全力激活了，但是剛剛有人入侵了西菱山系統，我們……”
+    "“Lưu viện trưởng, chúng tôi đã đang dốc toàn lực kích hoạt rồi, nhưng vừa nãy có người xâm nhập vào hệ thống Tây Lăng Sơn, chúng tôi……”",
 
-"""Lần này thì Giang Minh Lãng không dám hé răng nói ra lý do thật nữa, chỉ đành mím chặt môi lắc đầu lia lịa.""",
+    # 78: “別愣著，快走。”婁安明見婁禧陽突然停住了腳步，眉心一蹙，低聲催促他。
+    "“Đừng ngây ra đó, mau đi thôi.” Lâu An Minh thấy Lâu Hỉ Dương đột nhiên khựng bước, chân mày cau lại, trầm giọng giục anh.",
 
-"""May mà Phó Vân Xuyên không tiếp tục gặng hỏi ép buộc, người trợ lý trên xe vội vã bung ô bước xuống xe, liên tục cúi đầu tạ lỗi: “Thành thật xin lỗi sếp, tôi không ngờ hai người lại đi vòng sang phía thư viện, đoạn đường này kẹt xe nghiêm trọng quá, làm cách nào cũng không lái qua nổi ạ.”""",
+    # 79: 婁禧陽晃了一下神，回頭看了眼身後，斂下眼底翻湧的疑雲，快步與婁安明並肩而行。
+    "Lâu Hỉ Dương thất thần trong thoáng chốc, ngoái đầu nhìn phía sau một cái, thu lại mối nghi ngờ đang cuộn trào nơi đáy mắt, rảo bước đi song song cùng Lâu An Minh.",
 
-"""Phó Vân Xuyên mở cửa xe ngồi vào hàng ghế sau, đưa mắt nhìn Giang Minh Lãng vẫn đang đứng ngơ ngác tại chỗ.""",
+    # 80: 沒有防衛機制的西菱山研究所已然成了一架脆皮...
+    "Viện nghiên cứu Tây Lăng Sơn không có cơ chế phòng vệ đã hoàn toàn trở thành một món đồ giòn rụm dễ vỡ. Lúc bọn họ bước ra ngoài, cỗ cơ giáp cấp S cuối cùng vừa lúc đổ gục ngay trước mặt bọn họ.",
 
-"""Quần áo trên người Giang Minh Lãng gần như đã ướt sũng hoàn toàn, dán chặt vào da thịt.""",
+    # 81: 婁安明詫異地望著眼前的場景，顯然沒有料到會是全然相反的結果。
+    "Lâu An Minh kinh ngạc nhìn khung cảnh trước mắt, rõ ràng là không ngờ tới sẽ có một kết quả hoàn toàn trái ngược thế này.",
 
-"""Ánh mắt anh lướt qua những đường nét cơ bụng rõ ràng nổi bật nơi vòng eo của Giang Minh Lãng, trầm giọng nói: “Lên xe, đưa cậu về thay bộ quần áo khác.”""",
+    # 82: 婁禧陽將他推上機甲，隨後自己跳了上去，帶領萊德機甲兵返回，與倍良他們匯合。
+    "Lâu Hỉ Dương đẩy ông lên cơ giáp, sau đó bản thân cũng nhảy lên, dẫn dắt cơ giáp binh của bang Lloyd quay về, hội quân cùng nhóm Bội Lương.",
 
-"""Giang Minh Lãng nghe vậy lập tức lắc đầu nguầy nguậy, xua tay bảo buổi chiều mình vẫn còn có tiết học.""",
+    # 83: 八百匪徒，一個不少的起駕回程...
+    "Tám trăm thổ phỉ, không thiếu một người nào cùng khởi hành trở về. Suốt dọc đường trở về rộn rã tiếng nói cười, hoàn toàn chưa dứt khỏi cảm giác sảng khoái vừa rồi.",
 
-"""“Không sao đâu ạ, trong phòng thay đồ tập luyện tôi có sẵn quần áo để thay rồi.”""",
+    # 84: “婁、安、明”倍良死死盯著眼前這個斯文敗類...
+    "“LÂU, AN, MINH.” Bội Lương trừng trừng nhìn gã bại hoại nhã nhặn trước mặt, nghiến răng nghiến lợi rặn ra từng chữ, “Cái đồ mặt dày không biết xấu hổ nhà anh mà cũng dám xuất hiện trước mặt tôi à.”",
 
-"""Cửa xe được người trợ lý đóng lại, Phó Vân Xuyên hạ kính xe xuống: “Buổi tối mấy giờ, đêm hội chào tân sinh viên của cậu?”""",
+    # 85: 婁安明抽回手臂，理了理被倍良抓皺的白襯衫，淡淡道：“阿良，我沒功夫跟你鬧。”
+    "Lâu An Minh rút tay về, vuốt phẳng lại chiếc áo sơ mi trắng bị Bội Lương túm nhăn nhúm, nhàn nhạt nói: “A Lương, tôi không rảnh gây sự với cậu.”",
 
-"""“Dạ?” Giang Minh Lãng ngẩn tò te mất một giây, vội đáp: “Sáu giờ rưỡi bắt đầu ạ.”""",
+    # 86: “你——”
+    "“Anh——”",
 
-"""Cửa kính xe được kéo lên, Phó Vân Xuyên chỉ để lại một câu nói hờ hững nhẹ bẫng: “Biết rồi.” Ngay sau đó, chiếc Rolls-Royce liền phóng đi, khuất dần khỏi tầm mắt của Giang Minh Lãng.""",
+    # 87: 婁禧陽靜靜地坐在一旁，旁觀著這一場鬧劇。
+    "Lâu Hỉ Dương lặng lẽ ngồi một bên, khoanh tay bàng quan theo dõi màn kịch hề này.",
 
-"""-""",
+    # 88: 順勢低頭看了眼終端，發現和易緣的通訊界面仍停留在他走的那天。
+    "Anh thuận thế cúi đầu liếc nhìn thiết bị đầu cuối, phát hiện giao diện trò chuyện với Dịch Duyên vẫn dừng lại ở đúng ngày cậu rời đi.",
 
-"""Buổi chiều trong giờ học, Giang Minh Lãng ngồi ngẫm nghĩ xâu chuỗi lại toàn bộ chuyện này, cuối cùng mới muộn màng nhận ra rốt cuộc có điểm gì không đúng.""",
+    # 89: 余光中瞥見了一抹紅，果不其然，紅發老頭聞詢趕來了。
+    "Nơi khóe mắt chợt thoáng qua một mảng màu đỏ, quả nhiên không ngoài dự đoán, lão già tóc đỏ nghe ngóng được tin tức liền vội vã chạy tới.",
 
-"""Chẳng hạn như, trong tiểu thuyết thì Phó Ngôn chỉ là tình cờ bắt gặp Phó Vân Xuyên bị ướt mưa nên mới chạy tới che ô cho anh,""",
+    # 90: “你個臭小子！”
+    "“Cái thằng ranh con này!”",
 
-"""thế nhưng tình hình hôm nay rõ ràng hoàn toàn không phải là sự trùng hợp ngẫu nhiên.""",
+    # 91: 紅發老頭抄起拐杖就要朝婁安明身上掄，婁安明也沒躲，結結實實地受了這一拐。
+    "Lão già tóc đỏ vung cây gậy chống toan quất thẳng vào người Lâu An Minh, Lâu An Minh cũng không né tránh, lãnh trọn một gậy này vào người.",
 
-"""Phó Ngôn trông hệt như đã sớm biết trước việc Phó Vân Xuyên sẽ xuất hiện ở thư viện, và còn mua sẵn chiếc ô để đón đầu cơn mưa bão.""",
+    # 92: “叔，阿良，你們要怎麽打我以後再說，我有一件很重要的事要說。”
+    "“Chú, A Lương, mọi người muốn đánh tôi thế nào thì để sau hẵng nói, tôi có một chuyện vô cùng quan trọng cần nói.”",
 
-"""Chẳng lẽ tất cả những điều này đều là do người ta sắp đặt từ trước sao? Nhưng mà rốt cuộc là vì lý do gì chứ..."""
+    # 93: 婁安明將亂了的眼鏡摘下...
+    "Lâu An Minh tháo chiếc kính mắt bị xô lệch xuống, để lộ ra đôi mắt mệt mỏi rã rời. Ông xoa xoa sống mũi, chậm rãi cất lời:",
+
+    # 94: “蔣卓航，他瘋了。”
+    "“Tưởng Trác Hàng, hắn ta điên rồi.”",
+
+    # 95: *
+    "*",
+
+    # 96: 易緣正低頭看著終端，上面是陳斂發給他的一段錄像。
+    "Dịch Duyên đang cúi đầu nhìn vào thiết bị đầu cuối, bên trên là một đoạn video do Trần Liễm gửi cho cậu.",
+
+    # 97: 視頻裡，婁禧陽正跟在一個男人身後快步在西菱山研究所內穿梭。
+    "Trong video, Lâu Hỉ Dương đang rảo bước đi theo sau một người đàn ông thoăn thoắt di chuyển bên trong viện nghiên cứu Tây Lăng Sơn.",
+
+    # 98: 點了一下暫停，易緣將那一幀畫面放大再放大，直到婁禧陽清晰的臉佔滿整個屏幕。
+    "Bấm nút tạm dừng một cái, Dịch Duyên phóng to khung hình đó lên hết cỡ, cho tới khi gương mặt rõ nét của Lâu Hỉ Dương chiếm trọn toàn bộ màn hình.",
+
+    # 99: 陽哥，我好想你。
+    "Dương ca, em nhớ anh quá.",
+
+    # 100: 易緣將臉慢慢湊近，直到側臉貼在婁禧陽的投影上。
+    "Dịch Duyên từ từ ghé mặt lại gần, cho đến khi một bên má áp sát vào hình ảnh chiếu ảo của Lâu Hỉ Dương.",
+
+    # 101: “你可真像個瘋子。”
+    "“Cháu trông thực sự giống hệt một kẻ điên.”",
+
+    # 102: 陳斂冷不丁地對他說。
+    "Trần Liễm bất thình lình nói với cậu một câu.",
+
+    # 103: “別忘了約定易緣...”
+    "“Đừng quên ước hẹn của chúng ta, Dịch Duyên. Từ nay về sau thời gian tự do mỗi ngày của cháu chỉ có ba tiếng đồng hồ thôi, những thời gian còn lại cháu không được bước ra khỏi viện điều trị này nửa bước.”",
+
+    # 104: 陳斂使了個眼色，兩個穿著特質白大褂的人就走到了易緣身側。
+    "Trần Liễm liếc mắt ra hiệu một cái, hai người mặc áo blouse trắng đặc chế liền bước tới bên cạnh Dịch Duyên.",
+
+    # 105: 易緣順從地亮出了自己的後頸，讓他們將東西嵌進去。
+    "Dịch Duyên ngoan ngoãn để lộ phần sau gáy của mình, để bọn họ khảm vật đó vào bên trong.",
+
+    # 106: “過程會很痛苦，但是沒有辦法，不然你就沒命了。”陳斂眼底閃過一絲不忍，撤開了視線。
+    "“Quá trình sẽ rất đau đớn, nhưng không còn cách nào khác, bằng không cháu sẽ mất mạng.” Đáy mắt Trần Liễm xẹt qua một tia không nỡ, dời tầm mắt đi chỗ khác.",
+
+    # 107: 易緣伸出指尖抹掉鼻尖上的冷汗，低頭看回終端，心裡想的是，今天終於可以和陽哥發消息了。
+    "Dịch Duyên đưa đầu ngón tay lau đi giọt mồ hôi lạnh trên chóp mũi, cúi đầu nhìn lại thiết bị đầu cuối, trong lòng thầm nghĩ: hôm nay rốt cuộc cũng có thể nhắn tin cho Dương ca rồi.",
+
+    # 108: 感謝澆灌營養液的小天使，親親～
+    "Cảm ơn thiên sứ nhỏ đã tưới dung dịch dinh dưỡng, hôn hôn ~"
 ]
 
-with open(source_file, "r", encoding="utf-8") as f:
-    s_paras = [p.strip() for p in f.read().strip().split("\n\n") if p.strip()]
+os.makedirs(target_dir, exist_ok=True)
+with open(target_file, "w", encoding="utf-8") as f:
+    f.write("\n\n".join(paragraphs) + "\n")
 
-print(f"Source count: {len(s_paras)}, Trans count: {len(translations)}")
-assert len(s_paras) == len(translations), f"Count mismatch: {len(s_paras)} vs {len(translations)}"
-
-# Check that 'hắn' is never used across the chapter
-forbidden = []
-for idx, p in enumerate(translations):
-    if re.search(r'\b(hắn)\b', p, re.IGNORECASE):
-        forbidden.append((idx, p))
-assert len(forbidden) == 0, f"Found 'hắn' in {forbidden}"
-print("Zero 'hắn' detected across entire chapter!")
-
-# Save translation.md
-full_trans_content = "\n\n".join(translations) + "\n"
-with open(trans_file, "w", encoding="utf-8") as f:
-    f.write(full_trans_content)
-print(f"Successfully written {trans_file}")
-
-# Generate qc_report.md
-qc_report_content = f"""# BÁO CÁO KIỂM ĐỊNH CHẤT LƯỢNG DỊCH THUẬT (QC REPORT)
-**Chương:** Chương 12: Alaska 12 (`ch_012`)  
-**Số đoạn gốc:** {len(s_paras)} | **Số đoạn dịch:** {len(translations)}  
-**Tỷ lệ khớp đoạn:** 100% (94/94) - Tuyệt đối 1:1  
-**Điểm chất lượng:** 1.0/1.0 (XUẤT SẮC)
-
----
-
-## 1. Kiểm tra tuân thủ Rules Arc 1
-- **Công (Giang Minh Lãng):** Xưng ngôi thứ 3 là **"cậu"**, che ô nghiêng hết cho Phó Vân Xuyên đến mức nửa đầu dầm mưa, đôi tai cụp như cún bị bỏ rơi khi xin đi theo. Tuyệt đối không dùng "hắn".
-- **Thụ (Phó Vân Xuyên):** Xưng ngôi thứ 3 là **"anh"**, lạnh lùng thị uy trước Ngụy Minh, bảo Giang Minh Lãng lại che ô cùng mình, cho phép cậu xích lại gần dù vốn bài xích tiếp xúc thân thể, hỏi giờ đêm hội chào tân sinh viên. Tuyệt đối không dùng "hắn" hay "y".
-- **Công chính nguyên tác (Ngụy Minh):** Tóc xanh ngông cuồng cợt nhả ("bạn học Ngụy" / "Ngụy Minh" / "gã"), không để lọt "hắn".
-- **Đối thoại người - người:** Phó Vân Xuyên (**tôi - cậu**) ↔ Giang Minh Lãng (**tôi - anh / Phó tiên sinh**).
-- **Điểm thắt cốt truyện:** Giang Minh Lãng nhận ra sự bất thường: Phó Ngôn dường như biết trước lịch trình của Phó Vân Xuyên để đón đầu che ô, không phải ngẫu nhiên như tiểu thuyết miêu tả.
-
----
-
-## 2. Thống kê kỹ thuật
-- **Độ dài đoạn văn:** 94 đoạn, phân cách bởi `\\n\\n`.
-- **Dấu ngoặc thoại:** Chuẩn `“...”`.
-- **Zero Omission & Addition:** Bảo toàn 100% chi tiết đối thoại và diễn biến tâm lý.
-- **Kết luận:** **PASSED - ĐẠT CHUẨN XUẤT SẮC**
-"""
-
-with open(qc_file, "w", encoding="utf-8") as f:
-    f.write(qc_report_content)
-print(f"Successfully written {qc_file}")
-
-# Update meta.json
-with open(meta_file, "r", encoding="utf-8") as f:
-    meta_data = json.load(f)
-
-meta_data["title"] = "Chương 12: Alaska 12"
-meta_data["translated_at"] = "2026-10-04T21:50:00+07:00"
-meta_data["status"] = "QC_PASSED"
-meta_data["qc_score"] = 1.0
-meta_data["n_paragraphs"] = len(translations)
-
-with open(meta_file, "w", encoding="utf-8") as f:
-    json.dump(meta_data, f, ensure_ascii=False, indent=2)
-print(f"Successfully updated {meta_file}")
-
-# Update timeline.json
-with open(timeline_file, "r", encoding="utf-8") as f:
-    timeline_data = json.load(f)
-
-ch12_entry = {
-    "chapter_id": "ch_012",
-    "title": "Chương 12: Alaska 12",
-    "summary": "Phó Vân Xuyên bị đám sinh viên xì xào bàn tán về quá khứ ngồi tù, bèn bước vào mưa. Phó Ngôn và Giang Minh Lãng cùng chạy tới che ô. Khi công chính nguyên tác Ngụy Minh xuất hiện châm chọc, Phó Vân Xuyên gọi Giang Minh Lãng lại che ô cùng mình và chọc tức Ngụy Minh. Giang Minh Lãng che ô nghiêng hết cho Phó Vân Xuyên, được Phó Vân Xuyên hỏi giờ đêm hội tân sinh viên. Sau đó cậu phát hiện việc Phó Ngôn đón đầu dường như là có mưu đồ từ trước.",
-    "key_events": [
-        "Sinh viên thư viện bàn tán về việc Phó Vân Xuyên là tỷ phú thành phố nhưng là kẻ điên từng ngồi tù giết người",
-        "Phó Vân Xuyên bước vào mưa bão, Phó Ngôn và Giang Minh Lãng cùng cầm ô chạy ra tiếp cận",
-        "Ngụy Minh (công chính nguyên tác tóc xanh) xuất hiện mỉa mai thân phận của Phó Vân Xuyên",
-        "Phó Vân Xuyên gọi Giang Minh Lãng lại che ô cùng mình, hờ hững nói lời tạm biệt với Phó Ngôn để chọc tức Ngụy Minh",
-        "Giang Minh Lãng nhường hết ô cho Phó Vân Xuyên khiến mình bị ướt, Phó Vân Xuyên gọi cậu nép sát lại và hỏi giờ đêm hội",
-        "Giang Minh Lãng xâu chuỗi sự việc và nghi ngờ Phó Ngôn cố tình sắp đặt màn che ô dưới mưa theo kế hoạch"
-    ],
-    "status_tags": ["Thế giới 1", "Mưa bão thư viện", "Chung một tán ô", "Ngụy Minh xuất hiện", "Nghi ngờ sắp đặt"]
-}
-
-found = False
-for idx, ev in enumerate(timeline_data):
-    if ev.get("chapter_id") == "ch_012":
-        timeline_data[idx] = ch12_entry
-        found = True
-        break
-if not found:
-    timeline_data.append(ch12_entry)
-
-with open(timeline_file, "w", encoding="utf-8") as f:
-    json.dump(timeline_data, f, ensure_ascii=False, indent=2)
-print(f"Successfully updated {timeline_file}")
+print(f"ch_012 translation written: {len(paragraphs)} paragraphs.")

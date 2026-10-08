@@ -1,0 +1,24 @@
+{
+  "chapter_id": "ch_003",
+  "chapter_number": 3,
+  "title": "Chương 3: Dương ca, anh hôn qua chưa?",
+  "original_title": "第三章 陽哥，你親過嗎？",
+  "imported_at": "2026-10-08T15:36:48.151418+07:00",
+  "n_paragraphs": 149,
+  "n_chunks": 8,
+  "chunk_size": 20,
+  "start_page": 5,
+  "end_page": 8,
+  "czbooks_url": "https://czbooks.net/n/skdfi4kimel/?chapterNumber=4",
+  "status": "QC_PASSED",
+  "translated_at": "2026-10-08T16:07:00+07:00",
+  "qc_audit": {
+    "score": 10,
+    "alignment": "1:1",
+    "pronoun_rules_passed": true,
+    "paragraphs_count": 149
+  },
+  "qc_status": "QC_PASSED",
+  "qc_score": 10,
+  "qc_passed_date": "2026-10-08"
+}

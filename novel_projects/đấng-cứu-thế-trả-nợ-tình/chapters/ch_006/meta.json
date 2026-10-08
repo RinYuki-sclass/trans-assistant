@@ -1,0 +1,24 @@
+{
+  "chapter_id": "ch_006",
+  "chapter_number": 6,
+  "title": "Chương 6: Anh đang theo dõi em à?",
+  "original_title": "第六章 你在跟蹤我？",
+  "imported_at": "2026-10-08T15:36:48.176418+07:00",
+  "n_paragraphs": 80,
+  "n_chunks": 4,
+  "chunk_size": 20,
+  "start_page": 12,
+  "end_page": 13,
+  "czbooks_url": "https://czbooks.net/n/skdfi4kimel/?chapterNumber=11",
+  "status": "QC_PASSED",
+  "translated_at": "2026-10-08T16:12:00+07:00",
+  "qc_audit": {
+    "score": 10,
+    "alignment": "1:1",
+    "pronoun_rules_passed": true,
+    "paragraphs_count": 80
+  },
+  "qc_status": "QC_PASSED",
+  "qc_score": 10,
+  "qc_passed_date": "2026-10-08"
+}

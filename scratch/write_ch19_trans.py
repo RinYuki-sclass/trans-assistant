@@ -1,268 +1,285 @@
 # -*- coding: utf-8 -*-
-import json
 import os
-import re
 
-ch19_dir = r"d:\Nhung\trans-tool\novel_projects\cứu-rỗi-phản-diện-mỹ-cường-thảm\chapters\ch_019"
-source_file = os.path.join(ch19_dir, "source.md")
-trans_file = os.path.join(ch19_dir, "translation.md")
-qc_file = os.path.join(ch19_dir, "qc_report.md")
-meta_file = os.path.join(ch19_dir, "meta.json")
-timeline_file = r"d:\Nhung\trans-tool\novel_projects\cứu-rỗi-phản-diện-mỹ-cường-thảm\memory\timeline.json"
+target_dir = r"d:\Nhung\RIDI\trans-assistant\novel_projects\đấng-cứu-thế-trả-nợ-tình\chapters\ch_019"
+target_file = os.path.join(target_dir, "translation.md")
 
-translations = [
-"""---
-title: "Chương 19: Alaska 19"
+paragraphs = [
+    # 0: header
+    """---
+title: Chương 19: Đưa cậu ấy đi
 ---""",
 
-"""Bên tai truyền đến tiếng hít thở trầm ấm đều đặn của Phó Vân Xuyên, anh đang ngủ rất say.""",
+    # 1: separator
+    "================",
 
-"""Giang Minh Lãng khẽ mở mi mắt, ngước nhìn, mượn ánh đèn ngủ vàng mờ ảo ngắm nhìn gương mặt của Phó Vân Xuyên——dưới hàng chân mày anh tuấn sâu thẳm là quầng thâm mệt mỏi xua mãi không tan.""",
+    # 2: 婁禧陽沉默地跟在護工的身後。
+    "Lâu Hỉ Dương im lặng đi theo sau lưng người hộ lý.",
 
-"""Cậu phát hiện ra rằng thực chất Phó Vân Xuyên sở hữu một gương mặt vô cùng nho nhã tuấn tú, thế nhưng hễ cứ mở mắt ra là lại khiến người ta cảm thấy anh vô cùng tàn nhẫn u ám, nhất là những lúc nổi cơn thịnh nộ, nơi đáy mắt anh sẽ lộ rõ vẻ bất thường đầy kích động.""",
+    # 3: 護工拽著他的手臂，帶著他回到了自己的病房。
+    "Người hộ lý kéo cánh tay anh, dẫn anh quay trở về phòng bệnh của mình.",
 
-"""Nghĩ đến đây, cậu liền đưa mắt nhìn sang lọ thuốc đặt trên đầu giường, rồi giơ tay với lấy nó.""",
+    # 4: 他腦子裡還想著剛才的情境...
+    "Trong đầu anh vẫn còn nghĩ tới cảnh tượng ban nãy, anh không hiểu việc người hộ lý này xuất hiện ở nơi đó mang ý nghĩa gì.",
 
-"""Trên thân lọ thuốc không hề có bất kỳ dòng chữ nào, Giang Minh Lãng chỉ đành mở nắp lọ ngửi thử mùi vị một chút rồi lại đặt trở về chỗ cũ.""",
+    # 5: “你到底是什麽人。”...
+    "“Rốt cuộc cậu là ai.” Lâu Hỉ Dương một tay đóng sầm cửa lại, áp sát người ép chặt người hộ lý trước mặt lên cánh cửa.",
 
-"""Đúng lúc này, cánh tay Phó Vân Xuyên đang vòng qua người cậu bỗng siết chặt lại hơn, tựa như đang nói mớ trong cơn mê mà trầm giọng buông một câu “Ngoan một chút”, dọa cho Giang Minh Lãng hoảng hốt vội vàng nằm im thin thít.""",
+    # 6: 嚴密的防護面罩近在咫尺...
+    "Chiếc mặt nạ phòng hộ kín mít ở ngay trước mắt, cách một lớp màng mỏng màu xanh lam, anh chỉ có thể nhìn thấy một đôi mắt với đường nét mơ hồ, đang bất động nhìn chằm chằm vào anh.",
 
-"""Sau khi phát hiện Phó Vân Xuyên hoàn toàn không hề tỉnh giấc, cậu mới bắt đầu xâu chuỗi lại những tình tiết tiếp theo của cốt truyện.""",
+    # 7: 護工的呼吸有些急促...
+    "Hơi thở của người hộ lý có chút dồn dập, anh có thể cảm nhận rõ ràng lồng ngực phập phồng trước mặt.",
 
-"""Trong cuốn tiểu thuyết, bởi vì bố Phó đột ngột ngã bệnh nặng một trận, Phó Ngôn đã thay mặt cho Phó thị tới tham dự một hội nghị thương mại vô cùng trọng đại, và tại chính hội nghị lần này lại một lần nữa nảy sinh vướng mắc với Phó Vân Xuyên.""",
+    # 8: “你呢，你又在做些什麽！？...”
+    "“Còn anh thì sao, anh lại đang làm cái gì thế hả?!” Dùng chất giọng khàn khàn ngụy tạo âm thanh, người hộ lý gay gắt chất vấn ngược lại, “Anh có biết không, nếu lúc đó tôi không có ở đó thì anh đã chết rồi!”",
 
-"""Trong thời gian diễn ra hội nghị, sẽ bất ngờ xuất hiện một nhân vật bia đỡ đạn đứng ra sỉ nhục lăng mạ Phó Vân Xuyên ngay trước mặt đông đảo quan khách, Phó Ngôn là người duy nhất trong toàn trường đứng ra lên tiếng bênh vực bảo vệ anh. Không chỉ có vậy, sau khi sự việc kết thúc cậu ta còn dịu dàng ở bên khuyên giải an ủi một Phó Vân Xuyên đang trong cơn lôi đình thịnh nộ, Phó Vân Xuyên sau khi uống say mất kiểm soát, vì quá xúc động mà đã lần đầu tiên cưỡng hôn Phó Ngôn.""",
+    # 9: 護工言語激動...
+    "Người hộ lý lời lẽ kích động, muốn giãy giụa thoát khỏi cánh tay đang đè trên vai mình, lại bị Lâu Hỉ Dương dùng lực mạnh hơn ấn ngược trở lại.",
 
-"""Phó Ngôn hoảng loạn chạy trốn, đâu hay biết rằng tương lai bản thân sắp phải đối mặt chính là sự theo đuổi dồn dập quyết liệt của Phó Vân Xuyên, cũng như một đòn giáng nặng nề khiến Phó thị đứng bên bờ vực phá sản tan tành.""",
+    # 10: “我再問你一次，回答我，你是什麽人。”...
+    "“Tôi hỏi cậu một lần nữa, trả lời tôi, cậu là ai.” Lâu Hỉ Dương trầm giọng xuống, đột ngột rút ngắn khoảng cách giữa hai khuôn mặt, đôi mắt hơi híp lại ẩn chứa sát khí khiến người ta khiếp sợ, “Ai phái cậu tới? Giám sát tôi, đúng không?”",
 
-"""Ở giai đoạn này, tác dụng chủ yếu của Phó Vân Xuyên chính là làm cho công chính ăn giấm chua ghen tuông, đẩy nhanh tiến độ để công thụ chính đến với nhau, đồng thời thúc đẩy mối quan hệ liên minh chặt chẽ giữa hai nhà Phó - Ngụy.""",
+    # 11: “不是…我不是…”...
+    "“Không phải... Tôi không phải...” Người hộ lý bị khí thế của anh trấn áp, bàn tay đang xô đẩy bất giác mềm nhũn lực đạo, như có như không chống lên trước ngực Lâu Hỉ Dương.",
 
-"""Mà nhiệm vụ lúc này của cậu chính là tuyệt đối không để cho hai người họ nảy sinh bất kỳ sự dây dưa nào vì chuyện này, hoặc nói cách khác là phải ngăn chặn kẻ bia đỡ đạn kia xuất hiện trước mặt Phó Vân Xuyên.""",
+    # 12: “聽著，我不管你是蔣卓航還是他身邊那條狗派來的...”
+    "“Nghe đây, tôi không cần biết cậu là do Tưởng Trác Hàng hay là con chó bên cạnh hắn phái tới, hiện tại cậu chỉ có hai lựa chọn,” Lâu Hỉ Dương siết chặt lực đạo dưới tay, “Phối hợp với tôi, hoặc là hôn mê nửa năm.”",
 
-"""Giang Minh Lãng nghĩ ngợi một hồi rồi cũng mơ màng chìm vào giấc ngủ, ngủ một mạch cho tới tận trưa ngày hôm sau mới tỉnh.""",
+    # 13: “聯邦黑市流傳的禁藥...”
+    "“Thuốc cấm lưu truyền trên chợ đen Liên bang, tôi chỉ cần một câu nói là lấy được. Cậu không cần lo lắng, tôi sẽ không để cậu chết, sau khi cậu hôn mê tôi sẽ đặt cậu vào khoang ngủ.”",
 
-"""Lúc tỉnh dậy thì Phó Vân Xuyên vẫn đang nhắm nghiền hai mắt, anh trông hệt như đã rất nhiều ngày rồi chưa được chợp mắt ngủ một giấc tử tế. Giang Minh Lãng vẫn còn đang ngái ngủ ngơ ngác, liền nghe thấy chiếc điện thoại đặt trên đầu giường rung lên một cái, màn hình sáng bừng lên.""",
+    # 14: 婁禧陽說著就抬起了手臂，欲要先將他劈暈過去。
+    "Lâu Hỉ Dương vừa nói vừa giơ cánh tay lên, toan đánh ngất đối phương trước.",
 
-"""Cậu nghiêng đầu nhìn sang, phát hiện đó là điện thoại của Phó Vân Xuyên, thị lực vượt trội hơn người giúp cậu tinh mắt nhìn thấy trong số những người gửi tin nhắn tới có hiển thị tên của Phó Ngôn.""",
+    # 15: “等等！”護工連忙偏頭，下意識地——摟住了他的腰。
+    "“Chờ đã!” Người hộ lý vội vàng nghiêng đầu, theo bản năng—— ôm chầm lấy eo anh.",
 
-"""Tiếng chuông cảnh giác lập tức réo vang, cậu liền bật người ngồi thẳng dậy.""",
+    # 16: “我配合你，你想知道什麽？”...
+    "“Tôi phối hợp với anh, anh muốn biết cái gì?” Người hộ lý vùi đầu vào lòng anh, nghẹn ngào nói.",
 
-"""Vào lúc này lại gửi tin nhắn cho Phó Vân Xuyên, chẳng lẽ là muốn báo cho anh biết cậu ta cũng đang có mặt tại thành phố C sao?""",
+    # 17: 婁禧陽低頭看他...
+    "Lâu Hỉ Dương cúi đầu nhìn cậu, ngẩn người một thoáng mới nhớ ra phải kéo cậu ra: “Tại sao cậu lại ở nơi ban nãy, nơi đó cất giấu bí mật gì?”",
 
-"""Phó Vân Xuyên và Phó Ngôn đã nhắn tin qua lại với nhau bao lâu rồi, không phải là sau lưng cậu hai người họ đã bắt đầu nảy sinh tình cảm rồi đấy chứ?""",
+    # 18: “一個秘密實驗基地，我是…那裡的的人。”...
+    "“Một căn cứ thí nghiệm bí mật, tôi là... Người của nơi đó.” Người hộ lý ngẩng đầu lên, chậm rãi nói.",
 
-"""Giang Minh Lãng càng nghĩ càng thấy sợ hãi, cậu cẩn thận từng li từng tí liếc nhìn Phó Vân Xuyên một cái, thấy anh vẫn luôn nhắm mắt ngủ say, thế là trong lòng bỗng dấy lên một ý nghĩ to gan. Cậu vươn dài cánh tay, rón rén với lấy chiếc điện thoại mang lại gần.""",
+    # 19: 婁禧陽揣摩著護工話裡的真假...
+    "Lâu Hỉ Dương nghiền ngẫm độ thật giả trong lời nói của người hộ lý, rõ ràng có rất nhiều mối nghi ngờ đối với câu trả lời đơn giản này.",
 
-"""Cậu hướng màn hình điện thoại về phía gương mặt của Phó Vân Xuyên, mở khóa bằng khuôn mặt thành công, rồi lập tức mở thẳng vào khung trò chuyện giữa anh và Phó Ngôn.""",
+    # 20: “是不是關著一個女人？”他快速追問。
+    "“Có phải giam giữ một người phụ nữ không?” Anh dồn dập truy hỏi.",
 
-"""Phó Ngôn: Phó tiên sinh, nghe nói ngài cũng tham dự hội nghị thương mại lần này ạ.""",
+    # 21: 護工聞言一愣，隨即搖了搖頭“沒有。”
+    "Người hộ lý nghe vậy ngẩn ra, ngay sau đó lắc lắc đầu: “Không có.”",
 
-"""Phó Ngôn: Nếu như tiện thì lúc nào rảnh em mời ngài đi uống cà phê được không? Kèm hình mèo con lăn lộn.jpg.""",
+    # 22: 聽到回答，婁禧陽徹底失去了耐心...
+    "Nghe được câu trả lời, Lâu Hỉ Dương hoàn toàn mất hết kiên nhẫn. Anh cười khẩy một tiếng, bàn tay to lớn siết lấy chiếc cổ thon dài của người nọ, ngón tay nguy hiểm miết lên động mạch cổ: “Được rồi, tôi không rảnh ở đây đóng kịch với cậu, đã không chịu phối hợp thì ngoan ngoãn ngủ một giấc đi.”",
 
-"""Quả nhiên, Phó Ngôn đã chủ động tìm tới Phó Vân Xuyên rồi.""",
+    # 23: “我沒騙你，真的沒有什麽女人...”
+    "“Tôi không lừa anh, thực sự không có người phụ nữ nào cả, tôi chưa từng nhìn thấy bao giờ!” Ngón tay người hộ lý bấu vào mu bàn tay anh, cố gắng giải thích với anh.",
 
-"""Giang Minh Lãng lại không kìm được mà lướt xem những đoạn trò chuyện trước đó, phát hiện cơ bản đều là Phó Ngôn chủ động hỏi han ân cần, còn Phó Vân Xuyên thì trả lời, câu trả lời không tính là lạnh nhạt nhưng cũng chẳng hề nhiệt tình, thi thoảng khi nhắc tới tình hình của hai vợ chồng Phó gia thì lời lẽ của Phó Vân Xuyên mới rõ ràng nhiều hơn đôi chút.""",
+    # 24: 婁禧陽思索了幾秒，緩緩放下了手。
+    "Lâu Hỉ Dương ngẫm nghĩ vài giây, chậm rãi buông tay xuống.",
 
-"""Hiện tại vẫn chưa nhìn ra Phó Vân Xuyên có tâm tư tình cảm khác lạ nào đối với Phó Ngôn, chỉ là phía Phó Ngôn có phần chủ động thái quá mà thôi.""",
+    # 25: “把你的防護面罩摘了。”...
+    "“Tháo mặt nạ phòng hộ của cậu xuống.” Anh dùng giọng điệu không cho phép cự tuyệt ra lệnh, “Mặt cũng không lộ, làm sao tôi tin cậu được?”",
 
-"""Trong tiểu thuyết chẳng phải là Phó Ngôn luôn bị Phó Vân Xuyên từng bước ép sát sao? Giang Minh Lãng cảm thấy hơi khó hiểu hoang mang.""",
+    # 26: 這分明是最簡單的要求...
+    "Đây rõ ràng là yêu cầu đơn giản nhất, nhưng người trước mặt lại bỗng chốc căng cứng cả người, tựa như một chú mèo sắp sửa xù lông.",
 
-"""Nhìn dòng tin nhắn mới nhất, cậu lại chột dạ liếc nhìn Phó Vân Xuyên một cái, sau đó thoăn thoắt gõ phím nhắn lại:""",
+    # 27: “不行，不能摘，真的不行！”...
+    "“Không được, không thể tháo, thực sự không được!” Người hộ lý đột nhiên vùng vẫy kịch liệt trong sự kìm kẹp của anh, muốn chạy trốn ra ngoài.",
 
-"""Phó Vân Xuyên: Không rảnh, tôi bận lắm, đừng tới tìm tôi.""",
+    # 28: 婁禧陽見狀力度不減反增，死死地將他控制在身下。
+    "Lâu Hỉ Dương thấy vậy lực đạo chẳng những không giảm mà càng tăng thêm, gắt gao khống chế cậu dưới thân mình.",
 
-"""Gửi đi.""",
+    # 29: 這太反常了。
+    "Chuyện này quá đỗi bất thường.",
 
-"""Ngay khoảnh khắc Giang Minh Lãng lén la lén lút đặt chiếc điện thoại trở về chỗ cũ, người nãy giờ vẫn luôn nhắm nghiền hai mắt là Phó Vân Xuyên bỗng chầm chậm mở mắt ra.""",
+    # 30: 他眼底一沉...
+    "Ánh mắt anh trầm xuống, giơ tay toan chộp lấy khuôn mặt của người hộ lý, thế nhưng ngón tay anh còn chưa chạm vào mặt nạ thì đã bị người hộ lý “bốp” một tiếng đánh bật trở lại.",
 
-"""Lời tác giả:""",
+    # 31: 很強的力道，沒有底子的人絕對做不到。
+    "Lực đạo rất mạnh, người không có nền tảng tuyệt đối không thể làm được.",
 
-"""Chương 17: Alaska 17""",
+    # 32: 護工像是被逼到了極點...
+    "Người hộ lý dường như bị dồn tới bước đường cùng, không còn vẻ ngoan ngoãn bình lặng như ban nãy nữa. Cùi chỏ của cậu như cuồng phong thúc thẳng về phía đầu vai anh, đồng thời giơ đầu gối húc mạnh vào đùi trong của anh.",
 
-"""“Cộc cộc cộc”, tiếng gõ cửa phòng vang lên, Giang Minh Lãng ra mở cửa, phát hiện là người trợ lý đang dẫn người xách theo mấy túi lớn đựng đầy quần áo đứng ngay trước cửa.""",
+    # 33: 面對突然爆發的攻擊...
+    "Đối mặt với đòn tấn công bộc phát bất thình lình, Lâu Hỉ Dương cũng động chân thật. Anh nghiêng người né tránh đòn tập kích của hộ lý, ngay khoảnh khắc đối phương chớp lấy khe hở định thoát thân liền nhanh tay tóm chặt lấy cổ tay cậu, một cú quật qua vai quật ngã người xuống mặt đất, đè chặt người dưới thân.",
 
-"""Lúc này Phó Vân Xuyên vẫn đang ở trong phòng ngủ thay đồ.""",
+    # 34: 護工的呼吸更加紊亂了...
+    "Hơi thở của người hộ lý càng thêm hỗn loạn, toàn thân cậu bắt đầu run rẩy bần bật. Ngón tay Lâu Hỉ Dương đang ấn trên cổ tay cậu dần phát hiện ra mạch đập của đối phương ngày một rối loạn bất thường.",
 
-"""Trợ lý săm soi nhìn Giang Minh Lãng từ trên xuống dưới: chiếc áo choàng tắm phanh rộng, mái tóc rối bù xù xì, đêm qua trông có vẻ diễn ra vô cùng kịch liệt.""",
+    # 35: “喂，你怎麽了？”婁禧陽皺起眉，拍了拍護工的臉。
+    "“Này, cậu bị làm sao thế?” Lâu Hỉ Dương nhíu mày, vỗ vỗ lên mặt người hộ lý.",
 
-"""Người trợ lý trước giờ chưa từng nghĩ tới việc Phó Vân Xuyên sẽ có ngày bao dưỡng tình nhân bên ngoài, mà cho dù có đi chăng nữa, thì cũng không nên là một cậu sinh viên thể thao cơ bắp da ngăm đen như Giang Minh Lãng thế này.""",
+    # 36: “痛…好痛啊…”護工軟著聲哼哼著。
+    "“Đau... Đau quá...” Người hộ lý mềm nhũn giọng rên rỉ từng tiếng.",
 
-"""“Giang tiên sinh, đây là quần áo Phó tiên sinh dặn tôi mua tới cho cậu.” Trợ lý bảo người lần lượt đặt các túi đồ vào trong phòng, “Vậy tôi xin phép đi trước, phiền cậu chuyển lời tới Phó tiên sinh rằng tối nay tại hội trường khách sạn sẽ có một buổi tiệc gặp mặt trước hội nghị, mong ngài ấy bớt chút thời gian tới tham dự ạ.”""",
+    # 37: 見狀不對，婁禧陽從他身上撤了下來...
+    "Thấy tình hình không đúng, Lâu Hỉ Dương vội rút người khỏi cậu, phát hiện giọng nói của người hộ lý yếu ớt vô cùng, tựa như sắp ngất đi tới nơi.",
 
-"""Đóng cửa lại, Giang Minh Lãng ôm mấy túi lớn quần áo trong lòng đi trở về phòng ngủ.""",
+    # 38: “痛？”他明明控制了力道的。
+    "“Đau ư?” Anh rõ ràng đã khống chế lực đạo rồi mà.",
 
-"""Trong phòng ngủ, Phó Vân Xuyên đang cúi đầu nhìn vào điện thoại, trên màn hình hiển thị ngoại trừ tin nhắn của Phó Ngôn là từng được bấm mở ra, những tin nhắn khác đều chưa từng được xem qua.""",
+    # 39: 婁禧陽抄起他的腿彎，將人橫抱了起來，放在了病床上。
+    "Lâu Hỉ Dương luồn tay qua khoeo chân cậu, bế ngang người lên, đặt nằm lên giường bệnh.",
 
-"""Mà dòng tin nhắn do Giang Minh Lãng mạo danh anh gửi đi kia, vậy mà lại chẳng hề bị Giang Minh Lãng xóa đi.""",
+    # 40: “哪裡痛？”...
+    "“Đau ở đâu?” Lâu Hỉ Dương đau đầu hỏi cậu, nhưng chỉ nhận lại cái lắc đầu không ngừng của đối phương. “Để tôi xem nào.” Anh đỡ lưng người hộ lý lên, muốn kiểm tra tình hình, nhưng chiếc mặt nạ phòng hộ trên mặt cậu thực sự quá vướng víu cản trở.",
 
-"""Giang Minh Lãng hoàn toàn quên béng mất chi tiết chết người này, vừa bước vào cửa liền thuật lại lời dặn của trợ lý cho anh nghe, phát hiện Phó Vân Xuyên đang cầm điện thoại xem thì chột dạ vội vàng ngoảnh đầu nhìn sang hướng khác.""",
+    # 41: 婁禧陽嘖了一聲...
+    "Lâu Hỉ Dương chậc một tiếng, đưa tay ấn vào chốt cài bí mật trên mặt nạ: “Chỉ là lộ mặt thôi mà, đừng kích động.”",
 
-"""Tầm mắt Phó Vân Xuyên lướt qua gương mặt của Giang Minh Lãng, nhạt giọng đáp: “Biết rồi.”""",
+    # 42: 護工的頭仍是僵硬著想阻止他，但此刻卻沒了反抗的力氣。
+    "Đầu người hộ lý vẫn cứng đờ muốn ngăn cản anh, nhưng giờ phút này lại chẳng còn chút sức lực nào để phản kháng.",
 
-"""Giang Minh Lãng lấy quần áo trong túi ra, phát hiện gồm có một bộ âu phục chỉnh tề và một bộ đồ thể thao thường ngày, thậm chí còn có cả giày da mới tinh.""",
+    # 43: 婁禧陽使了點力氣，才將面罩一點點的摘了下來。
+    "Lâu Hỉ Dương dùng chút lực mới từng chút từng chút tháo được chiếc mặt nạ xuống.",
 
-"""Phó Vân Xuyên giục cậu mau thay đồ để anh dẫn cậu đi ăn cơm trưa, trước khi ra khỏi cửa, Phó Vân Xuyên lại bảo cậu thay bộ đồ thể thao ra, mặc bộ âu phục kia vào.""",
+    # 44: 隨著面罩的剝離...
+    "Theo sự tách rời của chiếc mặt nạ, anh dần dần nhìn thấy một chiếc cằm nhỏ nhắn tinh xảo, bờ môi đỏ mọng, sống mũi cao thẳng... Cùng với đôi mắt khiến anh ngày nhớ đêm mong kia.",
 
-"""Đây là lần thứ hai Giang Minh Lãng mặc âu phục sau lần giả làm vệ sĩ trước đó, tay chân lóng ngóng vụng về nửa ngày trời vẫn không mặc xong, cuối cùng Phó Vân Xuyên phải sa sầm mặt đích thân ra tay thắt lại dây lưng và cà vạt cho cậu.""",
+    # 45: “易緣？”婁禧陽怔愣地看著那雙眼睛，連呼吸都停了好幾秒。
+    "“Dịch Duyên?” Lâu Hỉ Dương ngơ ngác nhìn đôi mắt ấy, ngay cả hơi thở cũng ngừng lại suốt vài giây.",
 
-"""Nhìn bản thân trong gương lớn, Giang Minh Lãng bỗng cảm thấy trông mình hệt như một sát thủ máu lạnh ngầu lòi.""",
+    # 46: 他的臉上布滿了紅印和汗，都是被面罩捂出來的。
+    "Trên gương mặt cậu phủ đầy những vết hằn đỏ và mồ hôi, đều do bị mặt nạ bịt kín mà thành.",
 
-"""Trong chớp mắt, từ một nam sinh thể thao da ngăm cao 1m88 đã biến hóa thành một gã đồ tể mặc âu phục mang phong cách y hệt Phó Vân Xuyên.""",
+    # 47: 鴉羽似的睫毛眨了幾下，認命的閉上了眼：“陽哥，對不起，又騙你了。”
+    "Hàng mi đen như lông quạ chớp chớp vài cái, cam chịu nhắm mắt lại: “Dương ca, em xin lỗi, lại lừa anh rồi.”",
 
-"""Phó Vân Xuyên liếc nhìn bộ âu phục màu xanh navy trên người Giang Minh Lãng, hiểu ngay dụng ý của người trợ lý, bèn cười khẩy một tiếng trước sự khôn lỏi tự cho là thông minh của anh ta.""",
+    # 48: 護工是易緣。
+    "Người hộ lý chính là Dịch Duyên.",
 
-"""Bởi vì Giang Minh Lãng đặc biệt yêu thích ăn thịt bò, nên Phó Vân Xuyên đã dẫn cậu tới một nhà hàng đồ Tây cao cấp, thế nhưng Giang Minh Lãng có tính toán ngàn lần vạn lần, cũng không thể ngờ được bản thân lại chạm mặt Phó Ngôn ngay tại nơi này.""",
+    # 49: 這個事實令婁禧陽腦子一片亂麻...
+    "Sự thật này khiến đầu óc Lâu Hỉ Dương rối như tơ vò, nhưng gương mặt trong nháy mắt trắng bệch như tờ giấy của Dịch Duyên càng làm tim anh đập dồn dập như trống trận.",
 
-"""Lúc đó bọn họ vừa chuẩn bị bước vào phòng bao riêng, liền nghe thấy tiếng gọi to của Phó Ngôn vang lên ở cách đó không xa: “Phó tiên sinh!”""",
+    # 50: “告訴我你哪裡疼？我去叫醫生來…”...
+    "“Nói cho anh biết em đau ở đâu? Anh đi gọi bác sĩ tới...” Anh hiếm khi luống cuống chân tay đến thế, đứng dậy toan bấm chuông gọi thì bị Dịch Duyên nắm chặt lấy tay.",
 
-"""“Trùng hợp quá, không ngờ lại được gặp ngài ở đây ạ.” Phó Ngôn rảo bước chạy lon ton tới, gương mặt trắng trẻo thoáng ửng lên vài vệt hồng, sau khi nhìn thấy Giang Minh Lãng đang đứng sừng sững bên cạnh Phó Vân Xuyên, cậu ta liền ngẩn tò te ra mặt.""",
+    # 51: “不要，不能叫醫生…很快就好了，哥哥你陪陪我。”...
+    "“Đừng mà, không được gọi bác sĩ... Sẽ nhanh khỏi thôi, ca ca anh ở bên em đi.” Dịch Duyên thẳng lưng nhích lại gần anh, hơi thở nóng bỏng phả bên tai. Lâu Hỉ Dương lập tức ôm chặt lấy lưng cậu, lòng bàn tay vuốt dọc sống lưng, lặng lẽ vỗ về an ủi.",
 
-"""Phát hiện Phó Vân Xuyên đang nhìn mình, dường như nhớ lại điều gì đó, cậu ta khẽ cắn môi, cúi đầu nói: “Xin lỗi ngài, em chỉ là đột nhiên nhìn thấy ngài nên có chút phấn khích, chạy lại chào hỏi ngài một tiếng thôi ạ, nếu như ngài bận thì em xin phép không làm phiền nữa.”""",
+    # 52: 他記得小時候易緣摔傷了之後，他都會這樣哄他。
+    "Anh nhớ hồi nhỏ sau khi Dịch Duyên bị ngã đau, anh đều dỗ dành cậu như thế này.",
 
-"""Dáng vẻ của Phó Ngôn trông tủi thân không để đâu cho hết, Giang Minh Lãng lập tức phản ứng lại rằng tám phần mười là do tin nhắn mà chính mình đã gửi đi ban nãy. Cậu thầm kêu không xong rồi, đồng thời vô cùng chột dạ len lén quan sát phản ứng của Phó Vân Xuyên, nào ngờ Phó Vân Xuyên lúc này cũng đang nhìn chằm chằm vào cậu.""",
+    # 53: 但易緣從來都沒有像現在一樣疼得渾身發顫。
+    "Thế nhưng Dịch Duyên chưa bao giờ đau đớn đến mức toàn thân run lẩy bẩy như bây giờ.",
 
-"""Trái tim Giang Minh Lãng giật thót một cái, ngay tiếp theo liền nghe thấy Phó Vân Xuyên nói với Phó Ngôn: “Đã tình cờ gặp rồi thì cùng vào ăn luôn đi.”""",
+    # 54: 他說不出現在是什麽樣的滋味...
+    "Anh không nói nên lời hiện tại là cảm giác thế nào, ngoại trừ tự trách bản thân, còn muốn lôi cái tên Trần Liễm kia ra đánh cho tàn phế, rồi bảo Dịch Duyên đánh cho mình một trận thật đau.",
 
-"""Phó Ngôn bất ngờ gật đầu lia lịa, ba người lần lượt bước vào phòng bao ngồi xuống.""",
+    # 55: 他的手移到易緣後頸時，摸到了一塊凸出來的東西。
+    "Khi tay anh di chuyển tới sau gáy Dịch Duyên, liền sờ phải một khối gồ lên.",
 
-"""Đúng thật là ghét của nào trời trao của nấy, hơi thở của Giang Minh Lãng nghẹn ứ lên tới tận cổ họng, vừa lo lắng hai người họ sẽ nảy sinh tiến triển tình cảm gì, lại vừa run sợ việc mình lén lấy điện thoại của Phó Vân Xuyên nhắn tin sẽ bị bại lộ.""",
+    # 56: 他能感覺到易緣在他懷裡抖了一下。
+    "Anh có thể cảm nhận được Dịch Duyên run lên một cái trong lòng mình.",
 
-"""“Không ngờ Minh Lãng cũng đi cùng Phó tiên sinh tới đây.” Phó Ngôn mỉm cười, ánh mắt như có như không dừng lại trên người Giang Minh Lãng, “Cảm giác Minh Lãng và Phó tiên sinh quan hệ thân thiết ghê, ngay cả trang phục hôm nay mặc cũng...” Lời nói đến đây, cậu ta lại lấp lửng không nói tiếp nữa.""",
+    # 57: “別碰，疼。”易緣的唇蹭著他的肩，咬牙忍耐著。
+    "“Đừng chạm vào, đau lắm.” Môi Dịch Duyên cọ vào vai anh, nghiến răng nhẫn nhịn chịu đựng.",
 
-"""Trang phục thì làm sao chứ? Giang Minh Lãng cúi đầu nhìn lại bộ quần áo của mình, rồi lại nhìn sang Phó Vân Xuyên, lúc này mới phát hiện ra, chà, nhìn thoáng qua trông hai người phối đồ hợp nhau ra phết.""",
+    # 58: 婁禧陽快速撤離，轉而揉了揉易緣的腦袋，“告訴我，那是什麽？”
+    "Lâu Hỉ Dương nhanh chóng rút tay về, chuyển sang xoa xoa đầu Dịch Duyên: “Nói cho anh biết, đó là cái gì?”",
 
-"""Quyển thực đơn bị Phó Vân Xuyên quăng thẳng tới trước mặt cậu, bảo cậu gọi món, người quản lý đứng bên cạnh thấy vậy liền lập tức cung kính nhiệt tình giới thiệu các món ăn đặc sắc.""",
+    # 59: “我後頸有塊芯片，需要把它取出來。”易緣輕聲道。
+    "“Sau gáy em có một con chip, cần phải lấy nó ra.” Dịch Duyên khẽ giọng nói.",
 
-"""“Giang Minh Lãng chẳng phải là bạn học cùng lớp với cậu sao, sao tôi lại cảm thấy hai người hình như không quen thân cho lắm?” Phó Vân Xuyên bất thình lình buông một câu hỏi bâng quơ.""",
+    # 60: 這個回答婁禧陽並不意外。
+    "Câu trả lời này Lâu Hỉ Dương không hề bất ngờ.",
 
-"""Giang Minh Lãng đang xem thực đơn nghe vậy liền dựng thẳng đơ cả sống lưng.""",
+    # 61: 他一眼就看出了這個裝置...
+    "Anh liếc mắt một cái liền nhận ra thiết bị này, ở trường anh từng học qua cấu tạo của nó. Người nhân tạo trên hành tinh M không ít, nhân loại cải tạo bộ phận cơ thể nhiều vô số kể, nhưng kẻ thực sự cấy ghép chip vào trong cơ thể người thì chẳng có mấy ai.",
 
-"""Phó Ngôn cũng hơi khựng lại, rồi đáp: “Đâu có đâu ạ, chắc do tính cách Minh Lãng khá hướng nội, không thích tiếp xúc với người ngoài thôi, bình thường ở trường học đều là em chủ động tìm tới bắt chuyện với cậu ấy trước.”""",
+    # 62: 不說知道這個方法的少之又少...
+    "Không nói tới việc người biết phương pháp này ít ỏi đến đáng thương, mà việc lấy chip ra cũng vô cùng khó khăn, cơ thể con người phải gánh chịu nỗi đau đớn tột cùng. Hành vi cấy chip ngoài việc che giấu bí mật ra thì chẳng có chút ý nghĩa nào.",
 
-"""Câu nói này chẳng khác nào một nhát dao đâm nát bét lời nói dối trước đó của Giang Minh Lãng.""",
+    # 63: “誰弄進去的，你爸媽？”...
+    "“Ai cấy vào, cha mẹ em à?” Trong ngữ khí của Lâu Hỉ Dương có cơn giận dữ không thể kiềm chế nổi, cái tên khốn Dịch Thiên kia dám lấy con trai mình làm két sắt bảo hiểm, căn bản không xứng đáng làm cha của Dịch Duyên.",
 
-"""Phó Vân Xuyên nâng chén trà lên, chầm chậm nhấp một ngụm: “Ồ? Thế à, điều này dường như không giống với những gì tôi tưởng tượng cho lắm.”""",
+    # 64: 易緣沉默了良久，才軟軟一笑...
+    "Dịch Duyên trầm mặc thật lâu mới nở nụ cười mềm mại: “Em vui lắm Dương ca, chỉ có anh mới quan tâm em thôi, thích anh chết đi được.”",
 
-"""Giang Minh Lãng giật bắn mình, đập mạnh quyển thực đơn lên bàn: “Tôi gọi món xong rồi!”""",
+    # 65: “馬上把它取下來，我帶你走。”婁禧陽聲音沉的嚇人。
+    "“Lập tức tháo nó ra, anh đưa em đi.” Giọng nói Lâu Hỉ Dương trầm đến mức đáng sợ.",
 
-"""Kể từ giây phút ấy trở đi, Giang Minh Lãng tuyệt đối không dám liếc mắt nhìn sang phía Phó Vân Xuyên thêm một lần nào nữa. Các món ăn dần dần được bưng lên đầy đủ, cậu vừa cắm cúi vùi đầu ăn lấy ăn để, vừa vểnh tai nghe lỏm cuộc trò chuyện giữa hai người họ.""",
+    # 66: “不要，他跟我說了...”
+    "“Không được, chú ấy nói với em rồi, chỉ cần lấy con chip ra thì chúng ta mới có thể sống sót, em muốn anh được sống.” Dịch Duyên cố chấp lắc đầu.",
 
-"""Cậu nghe thấy Phó Ngôn làm như lơ đễnh nhắc tới tình cảnh của hai vợ chồng Phó gia, còn nhắc đến việc bố Phó kể từ sau ngày từ Đại học A trở về thì sức khỏe đã suy sụp hẳn đi.""",
+    # 67: “他是陳斂？芯片裡面有什麽？”
+    "“Chú ấy là Trần Liễm? Bên trong con chip có cái gì?”",
 
-"""Trong suốt quá trình ấy, cậu cảm nhận được luồng khí tức ẩm ướt u ám tỏa ra từ trên người Phó Vân Xuyên mỗi lúc một nồng đậm hơn, chẳng mấy chốc cậu liền nghe thấy tiếng Phó Vân Xuyên đặt đũa xuống bàn.""",
+    # 68: 婁禧陽的手一緊...
+    "Bàn tay Lâu Hỉ Dương siết chặt, đang định hỏi cho rõ ràng thì liền nghe thấy bên tai vang lên tiếng thở đều đều, Dịch Duyên đã ngủ thiếp đi rồi.",
 
-"""“Phó tiên sinh, ngài không ăn nữa ạ?” Phó Ngôn kinh ngạc hỏi.""",
+    # 69: 他繃緊了手臂肌肉...
+    "Anh gồng cứng cơ bắp cánh tay, một lúc sau mới chậm rãi và nhẹ nhàng đặt đầu Dịch Duyên trở lại trên gối.",
 
-"""Giang Minh Lãng nghe tiếng liền ngẩng đầu nhìn sang, đập vào mắt cậu chính là cảnh Phó Vân Xuyên bất thần nghiêng người áp sát, giơ bàn tay lên, ngón tay cái cách một lớp găng tay da khẽ gạt đi vệt nước sốt vương bên khóe miệng Phó Ngôn một cách đầy vẻ mập mờ.""",
+    # 70: 手指還被易緣緊緊地攥在手裡...
+    "Ngón tay vẫn bị Dịch Duyên nắm chặt trong tay, anh tựa vào đầu giường, nhìn khuôn mặt Dịch Duyên mà chìm vào dòng hồi ức dài đằng đẵng.",
 
-"""Còn chưa đợi Phó Ngôn kịp có phản ứng gì, Phó Vân Xuyên đã đột ngột vươn tay bóp nghiến lấy hai bên má của cậu ta, nhìn thẳng trừng trừng vào mắt cậu ta, gằn giọng hỏi:""",
+    # 71: 他記起來易天日記本上的內容...
+    "Anh nhớ lại nội dung trong cuốn nhật ký của Dịch Thiên, rất dễ dàng biết được thứ giấu trong con chip trên người Dịch Duyên là gì, bên trong đó khả năng cực lớn chính là chân tướng về “khí độc”.",
 
-"""“Nói với tôi những lời này, là vì cậu cho rằng ông ta ngã bệnh là do tôi hãm hại sao?”""",
+    # 72: 所以說自始自終，除了他和婁安明這一派，還有人在為這件事暗相奔走。
+    "Nói cách khác từ đầu đến cuối, ngoài phe phái của anh và Lâu An Minh ra, vẫn còn có người đang âm thầm bôn ba vì chuyện này.",
 
-"""Xương quai hàm cảm giác hệt như sắp sửa bị bóp gãy vụn, sắc mặt Phó Ngôn trong chớp mắt trắng bệch không còn hột máu, cậu ta cắn răng chịu đựng cơn đau điếng, liên tục lắc đầu nguầy nguậy: “Không phải, em không có ý đó đâu ạ.”""",
+    # 73: 從現在來看易緣或許還不知道芯片裡真正的內容是什麽，他可能被陳斂騙了。
+    "Nhìn từ hiện tại có lẽ Dịch Duyên vẫn chưa biết nội dung thực sự trong chip là gì, cậu có thể đã bị Trần Liễm lừa.",
 
-"""Đằng này Giang Minh Lãng nhìn thấy cảnh tượng trước mắt cũng kinh ngạc đến mức sững sờ, bất giác quên cả việc nhai thức ăn trong miệng.""",
+    # 74: 最大的疑點在於陳斂這個人...
+    "Điểm nghi vấn lớn nhất nằm ở nhân vật Trần Liễm này. Ông ta rõ ràng là thân tín của Tưởng Trác Hàng, nhưng lại có quan hệ sâu xa với mẹ Dịch Duyên, thậm chí sau khi hai vợ chồng gặp nạn đã phó thác tất cả cho ông ta, hy vọng mượn tay ông ta giải cứu hành tinh M.",
 
-"""Vài giây sau trôi qua, Phó Vân Xuyên mới buông tay ngồi trở lại vị trí của mình. Anh tựa lưng vào ghế, ánh mắt nhìn thẳng tắp về phía Giang Minh Lãng: “Nhìn cái gì? Ăn tiếp đi.”""",
+    # 75: 他暫且不確定陳斂的立場...
+    "Anh tạm thời chưa xác định được lập trường của Trần Liễm, nhưng điều anh có thể khẳng định là kiếp trước cho đến tận phút cuối cùng anh chưa từng phát hiện Trần Liễm có hành động phản kháng Tưởng Trác Hàng nào, và Trần Liễm nhất định có thể thông qua Dịch Duyên phát hiện ra hành tung của anh.",
 
-"""Giang Minh Lãng như vừa choàng tỉnh khỏi giấc mộng, vội vàng tiếp tục gặm miếng sườn bò nướng, đồ ăn ở quán này quả thực vô cùng hợp khẩu vị của cậu.""",
+    # 76: 所以說現在他的一切蹤跡都被陳斂看在眼裡。
+    "Có nghĩa là hiện tại mọi dấu vết của anh đều nằm gọn trong tầm mắt của Trần Liễm.",
 
-"""Họ đâu hề hay biết toàn bộ màn cảnh tượng này khi rơi vào trong mắt Phó Ngôn lại trở nên kỳ quặc và dị thường đến nhường nào.""",
+    # 77: 無論陳斂是敵是友，他都必須快刀斬斷陳斂對他的控制。
+    "Bất kể Trần Liễm là bạn hay thù, anh đều bắt buộc phải dùng đao nhanh chặt đứt sự khống chế của Trần Liễm đối với mình.",
 
-"""Phó Ngôn vốn dĩ vẫn còn đang nơm nớp lo sợ vì ánh mắt hung bạo rợn người vừa rồi của Phó Vân Xuyên, thì giờ phút này lại bị ánh mắt của Phó Vân Xuyên khi nhìn Giang Minh Lãng dọa cho khiếp vía.""",
+    # 78: 思及至此，婁禧陽拿定了主意...
+    "Nghĩ đến đây, Lâu Hỉ Dương đã hạ quyết tâm. Tầm mắt anh rơi trên gương mặt Dịch Duyên rồi thất thần suốt một lúc lâu.",
 
-"""Ánh mắt ấy giống hệt như... một kẻ tử tù đang đói khát cùng cực đứng ngăn cách qua một tấm kính sát đất lớn, lẳng lặng chăm chú ngắm nhìn người khách bên trong nhà hàng đang ngon miệng đánh chén một bữa tiệc linh đình."""
+    # 79: 他發現自己心情非常矛盾...
+    "Anh phát hiện tâm trạng mình vô cùng mâu thuẫn: anh vừa vui mừng vì Dịch Duyên có lẽ không hề muốn phản bội anh, lại vừa không đành lòng nhìn Dịch Duyên phải chịu thương tổn.",
+
+    # 80: 如果他沒發現...
+    "Nếu như anh không phát hiện ra, vậy thì Dịch Duyên sẽ giống hệt kiếp trước một mình chịu đựng nỗi đau đớn, cậu liệu có thấy rất cô đơn, có thấy rất khó chịu hay không...",
+
+    # 81: 熟睡的易緣突然囈語了幾句...
+    "Dịch Duyên đang ngủ say đột nhiên nói mớ vài câu, biểu cảm đau đớn. Trái tim Lâu Hỉ Dương thắt lại, những cảm xúc vượt khỏi lý trí ập tới ngợp trời ngợp đất.",
+
+    # 82: md，他現在就要帶易緣走。
+    "Mẹ kiếp, anh bây giờ phải mang Dịch Duyên đi ngay lập tức.",
+
+    # 83: 其實最理智的方式是讓易緣忍耐幾天等他找到他媽再走...
+    "Thực ra phương thức lý trí nhất là để Dịch Duyên nhẫn nhịn vài ngày chờ anh tìm được mẹ rồi hẵng đi, nhưng không hiểu vì sao, hễ nhìn thấy Dịch Duyên là lồng ngực anh lại chua xót nghẹn ngào, cơn nóng nảy cuồng bạo trong người đè thế nào cũng không đè xuống nổi.",
+
+    # 84: 他從來都不對易緣以外的任何事失去理智...
+    "Anh trước giờ chưa từng mất đi lý trí trước bất kỳ chuyện gì ngoài Dịch Duyên. Đúng như tất cả các giáo viên hướng dẫn từng nói, anh là bản sao của Lâu An Minh, anh cũng luôn nghĩ như vậy, nhưng khi đối diện với Dịch Duyên, anh đã dao động rồi.",
+
+    # 85: 管他娘的，他現在隻想要把易緣身上這個鬼裝置拆掉。
+    "Kệ mẹ nó đi, anh bây giờ chỉ muốn tháo cái thiết bị quỷ quái này trên người Dịch Duyên xuống.",
+
+    # 86: 婁禧陽打開終端，撥通了張森澤的電話：“森澤，半小時把我從治療所帶出來，”
+    "Lâu Hỉ Dương mở thiết bị đầu cuối, bấm gọi cho Trương Sâm Trạch: “Sâm Trạch, nửa tiếng nữa đưa tôi ra khỏi viện điều trị,”",
+
+    # 87: 他頓了頓，繼續道：“還有，你這邊有人會拆芯片摘除裝置的嗎？”
+    "Anh dừng lại một chút rồi nói tiếp: “Còn nữa, bên cậu có ai biết tháo thiết bị trích xuất chip không?”",
+
+    # 88: 是時候讓攻“幡然悔悟”了！
+    "Đã đến lúc để công “bừng tỉnh ngộ ra” rồi!",
+
+    # 89: 謝謝小天使的營養液～
+    "Cảm ơn dung dịch dinh dưỡng của thiên sứ nhỏ ~"
 ]
 
-with open(source_file, "r", encoding="utf-8") as f:
-    s_paras = [p.strip() for p in f.read().strip().split("\n\n") if p.strip()]
+os.makedirs(target_dir, exist_ok=True)
+with open(target_file, "w", encoding="utf-8") as f:
+    f.write("\n\n".join(paragraphs) + "\n")
 
-print(f"Source count: {len(s_paras)}, Trans count: {len(translations)}")
-assert len(s_paras) == len(translations), f"Count mismatch: {len(s_paras)} vs {len(translations)}"
-
-# Check forbidden words
-forbidden = []
-for idx, p in enumerate(translations):
-    if re.search(r'\b(hắn)\b', p, re.IGNORECASE):
-        forbidden.append((idx, p))
-assert len(forbidden) == 0, f"Found 'hắn' in {forbidden}"
-print("Zero 'hắn' detected across entire chapter!")
-
-# Save translation.md
-full_trans_content = "\n\n".join(translations) + "\n"
-with open(trans_file, "w", encoding="utf-8") as f:
-    f.write(full_trans_content)
-print(f"Successfully written {trans_file}")
-
-# Generate qc_report.md
-qc_report_content = f"""# BÁO CÁO KIỂM ĐỊNH CHẤT LƯỢNG DỊCH THUẬT (QC REPORT)
-**Chương:** Chương 19: Alaska 19 (`ch_019`)  
-**Số đoạn gốc:** {len(s_paras)} | **Số đoạn dịch:** {len(translations)}  
-**Tỷ lệ khớp đoạn:** 100% (80/80) - Tuyệt đối 1:1  
-**Điểm chất lượng:** 1.0/1.0 (XUẤT SẮC)
-
----
-
-## 1. Kiểm tra tuân thủ Rules Arc 1
-- **Công (Giang Minh Lãng):** Xưng ngôi thứ 3 là **"cậu"**, lén mở khóa FaceID bằng mặt Phó Vân Xuyên để chặn tin nhắn Phó Ngôn; mặc âu phục navy đồng điệu với Phó Vân Xuyên; hồn nhiên gặm sườn bò ngon lành giữa không khí căng thẳng. Tuyệt đối không dùng "hắn".
-- **Thụ (Phó Vân Xuyên):** Xưng ngôi thứ 3 là **"anh"**, biết Giang Minh Lãng nhắn tin mạo danh nhưng không vạch trần; bóp nghẹt má Phó Ngôn cảnh cáo khi bị nhắc tới chuyện bố Phó ngã bệnh; ánh mắt nhìn Giang Minh Lãng như kẻ đói khát ngắm người ăn tiệc qua cửa kính. Tuyệt đối không dùng "hắn" hay "y".
-- **Đối thoại người - người:** Phó Vân Xuyên (**tôi - cậu**) ↔ Giang Minh Lãng (**tôi - anh / Phó tiên sinh**).
-
----
-
-## 2. Thống kê kỹ thuật
-- **Độ dài đoạn văn:** 80 đoạn, phân cách bởi `\\n\\n`.
-- **Dấu ngoặc thoại:** Chuẩn `“...”`.
-- **Zero Omission & Addition:** Tuyệt đối chính xác từng câu chữ và chi tiết đắt giá.
-- **Kết luận:** **PASSED - ĐẠT CHUẨN XUẤT SẮC**
-"""
-
-with open(qc_file, "w", encoding="utf-8") as f:
-    f.write(qc_report_content)
-print(f"Successfully written {qc_file}")
-
-# Update meta.json
-with open(meta_file, "r", encoding="utf-8") as f:
-    meta_data = json.load(f)
-
-meta_data["title"] = "Chương 19: Alaska 19"
-meta_data["translated_at"] = "2026-10-04T22:15:00+07:00"
-meta_data["status"] = "QC_PASSED"
-meta_data["qc_score"] = 1.0
-meta_data["n_paragraphs"] = len(translations)
-
-with open(meta_file, "w", encoding="utf-8") as f:
-    json.dump(meta_data, f, ensure_ascii=False, indent=2)
-print(f"Successfully updated {meta_file}")
-
-# Update timeline.json
-with open(timeline_file, "r", encoding="utf-8") as f:
-    timeline_data = json.load(f)
-
-ch19_entry = {
-    "chapter_id": "ch_019",
-    "title": "Chương 19: Alaska 19",
-    "summary": "Giang Minh Lãng nhớ lại nguyên tác về phân đoạn thương hội thành phố C. Thấy Phó Ngôn nhắn tin rủ Phó Vân Xuyên đi cà phê, cậu lén dùng khuôn mặt đang ngủ của anh để mở khóa điện thoại rồi nhắn lại từ chối phũ phàng. Trưa hôm sau, cả hai mặc âu phục đôi đi ăn đồ Tây thì tình cờ đụng mặt Phó Ngôn. Phó Vân Xuyên lạnh lùng bóp nghẹt má Phó Ngôn cảnh cáo khi cậu ta nhắc đến chuyện bố Phó ngã bệnh, rồi quay sang chăm chú ngắm Giang Minh Lãng ăn ngon miệng.",
-    "key_events": [
-        "Giang Minh Lãng nhớ lại chi tiết thương hội thành phố C và nguy cơ Phó Vân Xuyên cưỡng hôn Phó Ngôn",
-        "Giang Minh Lãng lén lấy điện thoại mở khóa bằng mặt Phó Vân Xuyên và nhắn từ chối lời mời của Phó Ngôn",
-        "Phó Vân Xuyên đưa Giang Minh Lãng mặc âu phục navy cao cấp đi ăn đồ Tây",
-        "Phó Ngôn xuất hiện tại nhà hàng, Phó Vân Xuyên mời vào ăn chung và vạch trần việc Giang Minh Lãng nói dối",
-        "Phó Vân Xuyên bóp chặt má Phó Ngôn cảnh cáo khi cậu ta nhắc tới bệnh tình của bố Phó",
-        "Phó Ngôn kinh hãi nhận ra Phó Vân Xuyên nhìn Giang Minh Lãng như kẻ đói khát nhìn người ăn tiệc"
-    ],
-    "status_tags": ["Thế giới 1", "Mở khóa điện thoại lén lút", "Âu phục đôi", "Chạm mặt Phó Ngôn ở thành phố C", "Bóp nghẹt má cảnh cáo"]
-}
-
-found = False
-for idx, ev in enumerate(timeline_data):
-    if ev.get("chapter_id") == "ch_019":
-        timeline_data[idx] = ch19_entry
-        found = True
-        break
-if not found:
-    timeline_data.append(ch19_entry)
-
-with open(timeline_file, "w", encoding="utf-8") as f:
-    json.dump(timeline_data, f, ensure_ascii=False, indent=2)
-print(f"Successfully updated {timeline_file}")
+print(f"ch_019 translation written: {len(paragraphs)} paragraphs.")

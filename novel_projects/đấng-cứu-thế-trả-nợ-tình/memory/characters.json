@@ -1,0 +1,98 @@
+[
+  {
+    "name": "Lou Xiyang",
+    "hanviet_name": "Lâu Hỉ Dương",
+    "original_name": "娄禧阳 / 婁禧陽",
+    "gender": "Nam",
+    "role": "Công (Nhân vật chính / Cứu thế chủ)",
+    "aliases": [
+      "Dương ca",
+      "Lâu ca",
+      "cứu thế chủ"
+    ],
+    "honorifics": "anh - em / tôi",
+    "speech_style": "Trầm ổn, dịu dàng, thẳng thắn, bao dung và trách nhiệm",
+    "notes": "Đấng cứu thế kiếp trước trọng sinh, ngoài lạnh trong nóng"
+  },
+  {
+    "name": "Yi Yuan",
+    "hanviet_name": "Dịch Duyên",
+    "original_name": "易缘 / 易緣",
+    "gender": "Nam",
+    "role": "Thụ (Chủ nợ tình / Em trai nhà bên)",
+    "aliases": [
+      "tiểu Duyên",
+      "chó điên nhỏ",
+      "tiểu cẩu tể tử"
+    ],
+    "honorifics": "em - Dương ca / ca ca",
+    "speech_style": "Ngoan ngoãn, mềm mỏng khi ở trước mặt Lâu Hỉ Dương; lạnh lùng tàn nhẫn với kẻ khác",
+    "notes": "Kẻ thù kiếp trước, kiếp này được nuôi lớn, thâm tình si luyến bệnh kiều"
+  },
+  {
+    "name": "System Tiechui",
+    "hanviet_name": "Hệ Thống Thiết Chùy",
+    "original_name": "系统 / 铁锤",
+    "gender": "Vô tính",
+    "role": "Hệ thống phụ trợ",
+    "aliases": [
+      "Hệ thống trả nợ tình",
+      "Thiết Chùy"
+    ],
+    "honorifics": "tôi - ký chủ",
+    "speech_style": "Nhí nhảnh, cảnh báo, nhắc nhở nợ tình và tính mạng",
+    "notes": "Trói định với Lâu Hỉ Dương ép anh yêu đương để tích lũy tiến độ trả nợ"
+  },
+  {
+    "name": "Jiang Zhuohang",
+    "hanviet_name": "Tưởng Trác Hàng",
+    "original_name": "蒋卓航",
+    "gender": "Nam",
+    "role": "Phản diện chính",
+    "aliases": [
+      "Tưởng tiên sinh"
+    ],
+    "honorifics": "tôi - cậu / ngài",
+    "speech_style": "Xảo quyệt, tao nhã nguy hiểm, tàn nhẫn",
+    "notes": "Kẻ nắm giữ quyền lực đen tối đứng sau dự án ngầm Paradise"
+  },
+  {
+    "name": "Chen Lian",
+    "hanviet_name": "Trần Liễm",
+    "original_name": "陈敛",
+    "gender": "Nam",
+    "role": "Nhân vật liên quan / Đồng minh",
+    "aliases": [
+      "Trần thúc"
+    ],
+    "honorifics": "tôi - cậu",
+    "speech_style": "Cẩn trọng, thấu triệt tình thế",
+    "notes": "Người nuôi dưỡng có liên hệ với Dịch Duyên, nắm rõ bản chất Dịch Duyên"
+  },
+  {
+    "name": "Zhang Senze",
+    "hanviet_name": "Trương Sâm Trạch",
+    "original_name": "张森泽",
+    "gender": "Nam",
+    "role": "Chiến hữu / Trợ thủ",
+    "aliases": [
+      "Sâm Trạch"
+    ],
+    "honorifics": "tôi - cậu / anh",
+    "speech_style": "Nhiệt tình, xông xáo, bộc trực",
+    "notes": "Bạn bè hỗ trợ Lâu Hỉ Dương chi viện và đào tẩu"
+  },
+  {
+    "name": "Lou Anming",
+    "hanviet_name": "Lâu An Minh",
+    "original_name": "娄安明",
+    "gender": "Nam",
+    "role": "Cha của Lâu Hỉ Dương",
+    "aliases": [
+      "Lâu trưởng quan"
+    ],
+    "honorifics": "cha - con",
+    "speech_style": "Nghiêm cẩn",
+    "notes": "Cựu quan chức thủ đô từng bị bắt giữ vì cáo buộc tham nhũng"
+  }
+]

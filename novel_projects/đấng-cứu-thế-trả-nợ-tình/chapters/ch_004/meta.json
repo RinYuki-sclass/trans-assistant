@@ -1,0 +1,24 @@
+{
+  "chapter_id": "ch_004",
+  "chapter_number": 4,
+  "title": "Chương 4: Ca ca, em sai rồi",
+  "original_title": "第四章 哥哥，我錯了",
+  "imported_at": "2026-10-08T15:36:48.160421+07:00",
+  "n_paragraphs": 87,
+  "n_chunks": 5,
+  "chunk_size": 20,
+  "start_page": 8,
+  "end_page": 10,
+  "czbooks_url": "https://czbooks.net/n/skdfi4kimel/?chapterNumber=7",
+  "status": "QC_PASSED",
+  "translated_at": "2026-10-08T16:08:00+07:00",
+  "qc_audit": {
+    "score": 10,
+    "alignment": "1:1",
+    "pronoun_rules_passed": true,
+    "paragraphs_count": 87
+  },
+  "qc_status": "QC_PASSED",
+  "qc_score": 10,
+  "qc_passed_date": "2026-10-08"
+}

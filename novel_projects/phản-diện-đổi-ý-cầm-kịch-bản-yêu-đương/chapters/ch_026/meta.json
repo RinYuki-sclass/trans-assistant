@@ -1,0 +1,13 @@
+{
+  "chapter_id": "ch_026",
+  "title": "Chương 26: Xin lỗi, kết thúc thôi",
+  "word_count": 7068,
+  "paragraph_count": 284,
+  "status": "qc_passed",
+  "updated_at": "2026-10-08 11:10:36+07:00",
+  "qc_audit": {
+    "score": 10,
+    "alignment": "1:1",
+    "pronoun_rules_passed": true
+  }
+}

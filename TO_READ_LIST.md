@@ -42,6 +42,13 @@ https://www.novelupdates.com/series/becoming-the-gongs-older-brother/
   - Tấn Giang: https://www.jjwxc.net/onebook.php?novelid=675895
   - Project đã tạo: `novel_projects/phản-diện-đổi-ý-cầm-kịch-bản-yêu-đương/`
 
+- **Đấng Cứu Thế Trả Nợ Tình [Hệ Thống]** (还情债的救世主（系统） - 什司):
+  - Raw CZBooks: https://czbooks.net/n/skdfi4kimel
+  - Độ dài: 32 chương chính văn + 3 phiên ngoại (Tổng cộng 35 chương, 61 trang raw CZBooks)
+  - Thể loại: Đam mỹ, Trọng sinh, Mạt thế, Tinh tế / Cyberpunk nhẹ, Hệ thống, Chủ công, Điềm văn, Hỗ sủng, HE
+  - Nhân vật: Lâu Hỉ Dương (công) x Dịch Duyên (thụ)
+  - Project đã tạo: `novel_projects/đấng-cứu-thế-trả-nợ-tình/`
+
   
 
 https://www.novelupdates.com/series/the-moonlight-returns-forced-revival/
