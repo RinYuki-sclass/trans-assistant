@@ -44,5 +44,38 @@
       "le_yen_trach_to_so_tu_thua": "Tôi - Cậu / Tống Lạc An",
       "so_tu_thua_to_le_yen_trach": "Tôi - Tổng giám đốc Lệ / Anh (mỉa mai)"
     }
+  },
+  {
+    "world": "Thế giới 3 (Giới giải trí & Hồi kết)",
+    "character_1": "Sở Tư Thừa (Khương Niệm An)",
+    "character_2": "Lộ Vũ Minh",
+    "relation_type": "Chủ công niên thượng - Thiếu niên quật cường (Công - Thụ thế giới 3)",
+    "description": "Lộ Vũ Minh là con trai của mẹ kế, đến ở nhờ nhà Khương Niệm An; Sở Tư Thừa nhận ra linh hồn người thương và dốc lòng chở che, trêu chọc. Qua chuyến đi chơi Escape Room, Lộ Vũ Minh chính thức thừa nhận bản thân đã thích Sở Tư Thừa và bối rối trước sự dung túng, thấu suốt của đối phương.",
+    "pronoun_rules": {
+      "lo_vu_minh_to_so_tu_thua": "Anh - Cậu (Lộ Vũ Minh xưng 'anh', gọi Sở Tư Thừa là 'cậu'. Khi dỗ dành gọi 'Anh trai').",
+      "so_tu_thua_to_lo_vu_minh": "Tôi / Cậu / Em - Anh / Tiểu Vũ (Sở Tư Thừa gọi Lộ Vũ Minh là 'anh', xưng 'tôi / cậu / em')."
+    }
+  },
+  {
+    "world": "Thế giới 3 (Giới giải trí & Hồi kết)",
+    "character_1": "Sở Tư Thừa (Khương Niệm An)",
+    "character_2": "Tần Uyên",
+    "relation_type": "Vai chính nghịch tập - Tra công tư bản",
+    "description": "Tần Uyên mắc chứng khao khát tiếp xúc da thịt, toan tính bao nuôi Khương Niệm An nhưng bị Sở Tư Thừa khinh miệt cự tuyệt.",
+    "pronoun_rules": {
+      "tan_uyen_to_so_tu_thua": "Tôi - Cậu / Khương tiên sinh",
+      "so_tu_thua_to_tan_uyen": "Tôi - Ngài / Tần tổng / Hắn (ngôi 3 tuyệt đối cấm dùng 'anh')"
+    }
+  },
+  {
+    "world": "Thực tại (Cục Quản Lý Thời Không)",
+    "character_1": "Sở Tư Thừa",
+    "character_2": "Khương Lê",
+    "relation_type": "Bạn đời định mệnh vĩnh cửu (Công - Thụ chân thực)",
+    "description": "Sau khi hoàn thành 3 thế giới nhiệm vụ, Sở Tư Thừa tìm đến Bộ Phận Phản Diện gặp Khương Lê, trở thành người hướng dẫn độc quyền và bạn đời trọn đời của anh.",
+    "pronoun_rules": {
+      "so_tu_thua_to_khuong_le": "Tôi / em - Anh (Sở Tư Thừa xưng 'em' với lãnh đạo, gọi Khương Lê là 'anh')",
+      "khuong_le_to_so_tu_thua": "Tôi - Cậu (Khương Lê gọi Sở Tư Thừa là 'cậu', xưng 'tôi')"
+    }
   }
 ]

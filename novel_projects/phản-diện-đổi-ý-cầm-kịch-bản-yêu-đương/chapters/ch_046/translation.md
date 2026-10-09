@@ -94,7 +94,7 @@ Thực ra trong túi vẫn còn khá nhiều trái cây, nhưng anh ta đã tự
 
 Cái nhìn đó quá sâu sắc, khiến Lục Thiên sợ hãi, cho rằng Sở Niên Niên đã nhìn thấu điều gì đó.
 
-“Vẫn chưa chào mừng Lục ca trở về bình an mà.” Sở Niên Niên nở một nụ cười ngọt ngào với anh ta, rồi giọng điệu thay đổi, “Lần sau đừng tùy hứng nữa, nếu không mọi người sẽ rất lo lắng cho cậu đấy.”
+“Vẫn chưa chào mừng Lục ca trở về bình an mà.” Sở Niên Niên nở một nụ cười ngọt ngào với anh ta, rồi giọng điệu thay đổi, “Lần sau đừng tùy hứng nữa, nếu không mọi người sẽ rất lo lắng cho anh đấy.”
 
 “Ừm…” Lục Thiên nghiến răng. “Lần sau sẽ không vậy nữa.”
 
@@ -204,6 +204,6 @@ Chỉ có điều mỗi lần cậu đều phá hỏng thế giới hai người
 
 Bàn tay của Đại Hải nhanh chóng bị gạt xuống, còn chưa kịp nói gì, cậu ta đã bị Cố Xuyên đột ngột xuất hiện dọa cho đứng ngây tại chỗ.
 
-Cố Xuyên một tay nắm chặt cổ tay Sở Niên Niên, lực đạo mạnh đến khiến Sở Niên Niên đau đớn, anh ta nói:
+Cố Xuyên một tay nắm chặt cổ tay Sở Niên Niên, lực đạo mạnh đến khiến Sở Niên Niên đau đớn, anh nói:
 
 “Sở Niên Niên, đủ rồi.”

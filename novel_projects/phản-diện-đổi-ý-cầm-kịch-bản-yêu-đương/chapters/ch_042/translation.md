@@ -122,7 +122,7 @@ Sau khi về đến chỗ ở, cả nhóm ăn xong bữa tối liền về phòn
 
 Sở Niên Niên vẫn lẽo đẽo bám sau mông Cố Xuyên vào phòng anh.
 
-Cậu ta đã thành công dùng thủ đoạn của mình để “làm phiền” ở phòng Cố Xuyên mấy đêm liền, đến mức giờ đây Cố Xuyên đã quen với việc cậu ta “tự nhiên như ở nhà” và mặc kệ.
+Cậu đã thành công dùng thủ đoạn của mình để “ăn vạ” ở phòng Cố Xuyên mấy đêm liền, đến mức giờ đây Cố Xuyên đã quen với việc cậu “tự nhiên như ở nhà” và mặc kệ.
 
 Xét cho cùng, so với việc ngủ chung giường với Sở Niên Niên, thì nước mắt của Sở Niên Niên có thể rơi bất cứ lúc nào còn khiến anh đau đầu hơn.
 
@@ -144,11 +144,11 @@ Sở Niên Niên gật đầu.
 
 Mấy ngày nay cậu vẫn luôn hấp thụ tinh thạch, Cố Xuyên đào cho cậu quá nhiều, đến mức cậu hấp thụ không xuể.
 
-Cố Xuyên ra vẻ trầm tư, suy nghĩ một lúc rồi thu tay lại, “Ngủ sớm đi hôm nay.”
+Cố Xuyên ra vẻ trầm tư, suy nghĩ một lúc rồi thu tay lại, “Hôm nay ngủ sớm đi.”
 
-“Anh hai ở lại với em.”
+“Ca ca ở lại với em.”
 
-Sở Niên Niên đột nhiên nắm lấy tay Cố Xuyên, nức nở nói.
+Sở Niên Niên đột nhiên nắm lấy tay Cố Xuyên, lí nhí nói.
 
 Cố Xuyên vừa định nói gì đó, thì bị tiếng gõ cửa cắt ngang.
 
@@ -180,7 +180,7 @@ Anh ta liếc nhìn về phía sau Cố Xuyên lần cuối, như thể đã h�
 
 Cố Xuyên im lặng một lát, ánh mắt vô tình liếc về phía sau, cuối cùng đáp một tiếng “Ừm”.
 
-Anh ta đi ra ngoài vài bước, trước khi đi quay lại đóng cửa phòng, không hề nhìn thấy Sở Niên Niên trên giường đã ngồi bật dậy với vẻ mặt đầy ưu tư.
+Anh cất bước đi ra ngoài, trước khi đi quay lại đóng cửa phòng, không hề nhìn thấy Sở Niên Niên trên giường đã ngồi bật dậy với vẻ mặt đầy ưu tư.
 
 …
 
@@ -202,9 +202,9 @@ Trước đây cậu có lẽ chỉ đơn thuần là không thích Lục Thiên
 
 Nhưng bây giờ cậu không chỉ ghét Lục Thiên, mà còn có một cỗ chua chát mà chính cậu cũng không nói rõ được, đồng thời còn rất tức giận Cố Xuyên.
 
-Bảo cậu ta ra ngoài thì ra ngoài, không thấy mình còn đang đợi cậu ta ngủ cùng sao!
+Bảo anh ra ngoài thì ra ngoài, không thấy mình còn đang đợi anh ngủ cùng sao!
 
-Sở Niên Niên càng nghĩ càng tức, bèn chạy ra cửa khóa trái lại, vén chăn cuộn mình vào trong, nghĩ rằng cậu ta giờ muốn ngủ, Cố Xuyên lại lỡ mất thời gian về, vậy thì đừng ngủ nữa.
+Sở Niên Niên càng nghĩ càng tức, bèn chạy ra cửa khóa trái lại, kéo chăn cuộn tròn mình vào trong, nghĩ rằng giờ cậu muốn ngủ rồi, Cố Xuyên đã lỡ mất thời gian quay về, vậy thì khỏi ngủ luôn đi.
 
 Mật Bảo: ... Oa [biến mất].
 
@@ -218,7 +218,7 @@ Cố Xuyên đóng cửa lại một cách nhẹ nhàng, chậm rãi đi đến 
 
 Nếu Sở Niên Niên mở mắt ra, thì trông sẽ cực kỳ cau có.
 
-Khóa cửa, rồi lại quấn chăn quanh người không chừa cho cậu ta chút nào, những ý nghĩ nhỏ nhặt này Cố Xuyên không thể không nhìn ra.
+Khóa trái cửa, rồi lại quấn hết chăn lên người không chừa cho anh chút nào, chút tâm tư nhỏ nhặt này Cố Xuyên làm sao không nhìn ra được.
 
 Cố Xuyên cảm thấy có chút buồn cười, lại có chút đáng yêu.
 
@@ -226,7 +226,7 @@ Những suy nghĩ vốn rối loạn vì lời nói của Lục Thiên bỗng ch
 
 Anh nhìn Sở Niên Niên, sau đó tắt đèn, khoác một chiếc áo khoác lên rồi nằm xuống giường.
 
-Cảm nhận được giường bên cạnh lún xuống, Sở Niên Niên đột nhiên tỉnh giấc, cậu đang mơ một giấc mơ, trong mơ cậu ta kêu gọi vô số tang thi vây công Cố Xuyên, còn Cố Xuyên thì ôm chặt Lục Thiên đang hôn mê, ánh mắt nhìn cậu ta lạnh lẽo như muốn giết chết cậu ta.
+Cảm nhận được giường bên cạnh lún xuống, Sở Niên Niên đột nhiên hơi giật mình tỉnh giấc, cậu đang gặp một cơn ác mộng, trong mơ cậu hiệu triệu vô số tang thi vây công Cố Xuyên, còn Cố Xuyên thì ôm chặt Lục Thiên đang hôn mê, ánh mắt nhìn cậu lạnh lẽo như hận không thể giết chết cậu.
 
 Trong cơn mơ màng, Sở Niên Niên lần theo mùi hương của Cố Xuyên lăn đến bên cạnh anh, rồi dùng chóp mũi cọ vào cánh tay anh.
 
@@ -240,4 +240,4 @@ Rõ ràng, Sở Niên Niên đang bị ác mộng giày vò trong giấc ngủ k
 
 Cố Xuyên ngàn lời vạn ngữ hóa thành một tiếng thở dài, đành phải từ từ nằm lại.
 
-“Cậu muốn giết tôi…” Anh nghe thấy Sở Niên Niên lẩm bẩm nhỏ giọng, “Cắn chết cậu.”
+“Anh muốn giết em…” Anh nghe thấy Sở Niên Niên lẩm bẩm nhỏ giọng, “Cắn chết anh.”

@@ -313,5 +313,104 @@
     "confidence": 1.0,
     "approved": true,
     "notes": "Hôn phu cũ của Alex. Giữ nguyên tiếng Anh Elio, không dùng Ngải Lợi Âu."
+  },
+  {
+    "original": "弹幕",
+    "translation": "đạn mạc",
+    "hanviet": "đạn mạc",
+    "category": "concept",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Bình luận chạy ngang màn hình từ sinh vật chiều không gian cao hơn."
+  },
+  {
+    "original": "皮肤饥渴症",
+    "translation": "chứng khao khát tiếp xúc da thịt",
+    "hanviet": "bì phu cơ khát chứng",
+    "category": "concept",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Chứng bệnh của Tần Uyên: thèm khát tiếp xúc da thịt nhưng ghê tởm người khác, chỉ chấp nhận Sở Tư Thừa."
+  },
+  {
+    "original": "潜规则",
+    "translation": "quy tắc ngầm",
+    "hanviet": "tiềm quy tắc",
+    "category": "concept",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Quy tắc ngầm chốn showbiz (gạ tình, bao nuôi đổi tài nguyên)."
+  },
+  {
+    "original": "星光典礼",
+    "translation": "Lễ trao giải Tinh Quang",
+    "hanviet": "Tinh Quang điển lễ",
+    "category": "location",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Buổi lễ dạ tiệc lớn của giới giải trí."
+  },
+  {
+    "original": "天娱公司",
+    "translation": "Công ty Thiên Ngu",
+    "hanviet": "Thiên Ngu công ty",
+    "category": "organization",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Công ty giải trí thuộc Tập đoàn Tần thị."
+  },
+  {
+    "original": "九重天",
+    "translation": "Cửu Trọng Thiên",
+    "hanviet": "Cửu Trọng Thiên",
+    "category": "artwork",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Tên dự án phim truyền hình tiên hiệp do Sở Tư Thừa chỉnh sửa kịch bản."
+  },
+  {
+    "original": "密室逃脱",
+    "translation": "phòng trốn thoát / escape room",
+    "hanviet": "mật thất đào thoát",
+    "category": "concept",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Trò chơi giải đố trốn thoát mà Lộ Vũ Minh đưa Sở Tư Thừa đi chơi."
+  },
+  {
+    "original": "拔舌地狱",
+    "translation": "Bạt Thiệt Địa Ngục",
+    "hanviet": "Bạt Thiệt Địa Ngục",
+    "category": "location",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Tầng thứ 3 trong mật thất Thập Bát Tầng Địa Ngục, ải máy phát hiện nói dối."
+  },
+  {
+    "original": "测谎仪",
+    "translation": "máy phát hiện nói dối",
+    "hanviet": "trắc hoang nghi",
+    "category": "item",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Thiết bị đo phản ứng sinh lý trong ải Bạt Thiệt Địa Ngục."
+  },
+  {
+    "original": "天界打工人",
+    "translation": "Kẻ làm công thiên giới",
+    "hanviet": "Thiên giới đả công nhân",
+    "category": "organization",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Tài khoản mạng xã hội Weibo do Sở Tư Thừa tạo lập để đăng tải video 《Tu Tiên》."
+  },
+  {
+    "original": "修仙",
+    "translation": "Tu Tiên",
+    "hanviet": "Tu Tiên",
+    "category": "artwork",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Video dài 1 tiếng đề tài tu tiên chân thực đánh bại Cửu Trọng Thiên trên bảng xếp hạng."
   }
 ]

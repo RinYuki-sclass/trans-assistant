@@ -6,7 +6,7 @@ Tống Lạc An sẽ không vì tiền mà bán rẻ bản thân, câu nói này
 
 Dẫu sao thì bản hợp đồng mà hai người ký kết trước đó hiện vẫn còn đang nằm trong ngăn kéo tủ đầu giường ở phòng ngủ chính của Lệ Yến Trạch.
 
-Vốn dĩ, trong khoảng thời gian Lệ Yến Trạch gặp tai nạn xe cộ, nhờ sự chăm sóc tỉ mỉ không quản ngày đêm của Tống Lạc An, anh đã dần quên đi bản hợp đồng kia. Trong những lần chung đụng thường ngày, anh cũng thực sự ngỡ rằng mình và Tống Lạc An chỉ là một cặp tình nhân bình thường, đôi khi thậm chí còn vì một cử chỉ dịu dàng vô ý của Tống Lạc An mà rung động.
+Vốn dĩ, trong khoảng thời gian Lệ Yến Trạch gặp tai nạn xe cộ, nhờ sự chăm sóc tỉ mỉ không quản ngày đêm của Tống Lạc An, hắn đã dần quên đi bản hợp đồng kia. Trong những lần chung đụng thường ngày, hắn cũng thực sự ngỡ rằng mình và Tống Lạc An chỉ là một cặp tình nhân bình thường, đôi khi thậm chí còn vì một cử chỉ dịu dàng vô ý của Tống Lạc An mà rung động.
 
 Kết quả là, ngay khi hắn đang từng chút một lún sâu vì đối phương, hiện thực lại đột nhiên nhảy ra giáng cho hắn một cái tát nảy lửa, nói cho hắn biết rằng tất cả những điều này chẳng qua chỉ là ảo tưởng của riêng Lệ Yến Trạch mà thôi.
 
@@ -26,15 +26,15 @@ Lệ Yến Trạch khẽ nói: "Cậu ta không phải sao?"
 
 Nếu Tống Lạc An không phải loại người như lời Chu Lạc Lạc nói, thì có lẽ trên đời này chẳng còn ai là kẻ thấy tiền sáng mắt nữa rồi!
 
-Lệ Yến Trạch ngước mắt, ánh nhìn độc địa như loài rắn độc rơi trên cánh cửa đã bắt đầu lung lay trước mặt, sau đó anh cười lạnh một tiếng, đáy mắt tràn ngập sự châm biếm dành cho Tống Lạc An và cả chính bản thân ngu ngốc của mình trong khoảng thời gian qua.
+Lệ Yến Trạch ngước mắt, ánh nhìn độc địa như loài rắn độc rơi trên cánh cửa đã bắt đầu lung lay trước mặt, sau đó hắn cười lạnh một tiếng, đáy mắt tràn ngập sự châm biếm dành cho Tống Lạc An và cả chính bản thân ngu ngốc của mình trong khoảng thời gian qua.
 
 "Nói nhiều như vậy cũng vô ích, cứ đạp cửa ra trước đã."
 
-Anh ngược lại muốn xem thử, gã đàn ông có thể khiến Tống Lạc An thà phản bội mình để bám lấy rốt cuộc là ai!
+Hắn ngược lại muốn xem thử, kẻ có thể khiến Tống Lạc An thà phản bội mình để bám lấy rốt cuộc là ai!
 
-Chu Lạc Lạc nhếch mép cười khi Lệ Yến Trạch không nhìn thấy, nhưng trong lòng, hắn vẫn giả vờ tỏ ra rất lo lắng cho Lệ Yến Trạch.
+Chu Lạc Lạc nhếch mép cười khi Lệ Yến Trạch không nhìn thấy, nhưng trong lòng, gã vẫn giả vờ tỏ ra rất lo lắng cho Lệ Yến Trạch.
 
-Bây giờ chỉ cần đám bảo vệ phá cửa xông vào, để Lệ Yến Trạch tận mắt nhìn thấy Tống Lạc An quấn lấy người đàn ông kia, kế hoạch chia rẽ của hắn hôm nay coi như đã hoàn thành mỹ mãn.
+Bây giờ chỉ cần đám bảo vệ phá cửa xông vào, để Lệ Yến Trạch tận mắt nhìn thấy Tống Lạc An quấn lấy người đàn ông kia, kế hoạch chia rẽ của gã hôm nay coi như đã hoàn thành mỹ mãn.
 
 Chu Lạc Lạc rất hiểu Lệ Yến Trạch, đây là một người đàn ông có lòng tự tôn và ham muốn kiểm soát cực kỳ mạnh mẽ, đối mặt với kẻ phản bội mình, nếu không lột da đối phương thì đã là hắn mềm lòng rồi.
 
@@ -42,9 +42,9 @@ Nhưng đồng thời, hắn lại rất mềm nắn rắn buông.
 
 Vì vậy, chỉ cần mình ở bên cạnh Lệ Yến Trạch thật tốt trong khoảng thời gian này, an ủi hắn, chăm sóc hắn thay cho Tống Lạc An, chắc chắn sẽ có thể giành lại trái tim của đối phương.
 
-Đến lúc đó, chú rể còn lại trong đám cưới thế kỷ của nhà họ Lệ, chắc chắn sẽ không ai khác ngoài hắn, Chu Lạc Lạc!
+Đến lúc đó, chú rể còn lại trong đám cưới thế kỷ của nhà họ Lệ, chắc chắn sẽ không ai khác ngoài gã, Chu Lạc Lạc!
 
-Hắn sẽ không còn bị đám người nhà họ Chu khinh thường nữa, ngược lại, đám người kia còn phải quay sang nịnh bợ, xu nịnh hắn, cầu xin hắn cho họ một miếng cơm ăn!
+Gã sẽ không còn bị đám người nhà họ Chu khinh thường nữa, ngược lại, đám người kia còn phải quay sang nịnh bợ, xu nịnh gã, cầu xin gã cho họ một miếng cơm ăn!
 
 Khóe môi không nhịn được hơi nhếch lên, Chu Lạc Lạc siết chặt tay đang đặt trên xe lăn, ánh mắt nhìn cánh cửa phòng trước mặt tràn đầy sự hưng phấn.
 
@@ -52,11 +52,11 @@ Nhanh lên!
 
 Nhanh đá tung cánh cửa này ra!
 
-Để Tống Lạc An hoàn toàn biến mất khỏi cuộc đời Lệ Yến Trạch, nhường chỗ cho hắn!
+Để Tống Lạc An hoàn toàn biến mất khỏi cuộc đời Lệ Yến Trạch, nhường chỗ cho gã!
 
 Chu Lạc Lạc cắn chặt môi, dưới tiếng ổ khóa ngày càng lỏng lẻo, dường như đã nhìn thấy cảnh Lệ Yến Trạch giúp mình đàn áp người nhà họ Chu sau khi hai người ở bên nhau.
 
-Tuy nhiên, ngay khi hắn còn đang đau đầu suy nghĩ xem nên mặc bộ quần áo nào để đi "lật mặt" đám người nhà họ Chu, thì cánh cửa trước mặt, vốn dĩ theo dự đoán của hắn sẽ bị đám bảo vệ Lệ Yến Trạch mang tới đá tung ra, lại đột nhiên bị mở từ bên trong.
+Tuy nhiên, ngay khi gã còn đang đau đầu suy nghĩ xem nên mặc bộ quần áo nào để đi "lật mặt" đám người nhà họ Chu, thì cánh cửa trước mặt, vốn dĩ theo dự đoán của gã sẽ bị đám bảo vệ Lệ Yến Trạch mang tới đá tung ra, lại đột nhiên bị mở từ bên trong.
 
 Đám bảo vệ vừa mới giơ chân đá vào cửa căn bản không kịp phản ứng, trực tiếp đá vào không khí, chân phải mất kiểm soát trượt về phía trước, lực đẩy khổng lồ cộng với trọng lượng của bản thân đè lên chỗ yếu ớt nhất…
 
@@ -84,7 +84,7 @@ Gia tộc họ Thẩm đứng sau Thẩm Từ là đối thủ ngang sức với
 
 Đặc biệt là hiện tại hắn còn gặp tai nạn xe, Thẩm Từ càng có lợi thế hơn hắn về sự linh hoạt của cơ thể.
 
-Bánh xe vừa bắt đầu quay đã bị người đàn ông một cước đạp dừng lại, còn tên vệ sĩ đang nằm trên đất ôm lấy "anh em" mà co giật cũng bị hắn túm lấy cổ áo, tiện tay ném ra ngoài cửa như vứt rác.
+Bánh xe vừa bắt đầu quay đã bị người đàn ông một cước đạp dừng lại, còn tên vệ sĩ đang nằm trên đất ôm lấy "anh em" mà co giật cũng bị anh túm lấy cổ áo, tiện tay ném ra ngoài cửa như vứt rác.
 
 Trong ánh mắt phẫn nộ của Lệ Yến Trạch, Thẩm Từ thậm chí còn lười liếc nhìn hắn một cái, đôi môi khẽ động, chỉ nhẹ giọng nói một câu.
 
@@ -100,23 +100,23 @@ Nhưng cân nhắc đến việc nếu không nói rõ, đối phương rất c�
 
 “Bị bệnh thì đi chữa đi, cách đây chưa đến ba trăm mét có bệnh viện thú y, đừng có phát điên trước mặt tôi.”
 
-Giọng điệu của anh ta thực sự rất bình thản, nhưng kết hợp với vẻ mặt cao cao tại thượng, cùng với lời nói nghe không lọt tai chút nào, vô thức khiến người ta có cảm giác đang bị anh ta chế giễu, hơn nữa còn là sự chế giễu đến cực điểm.
+Giọng điệu của anh thực sự rất bình thản, nhưng kết hợp với vẻ mặt cao cao tại thượng, cùng với lời nói nghe không lọt tai chút nào, vô thức khiến người ta có cảm giác đang bị anh chế giễu, hơn nữa còn là sự chế giễu đến cực điểm.
 
 “Anh!”
 
 Lệ Yến Trạch tức đến mức muốn bật dậy khỏi xe lăn.
 
-“Anh dựa vào đâu mà nói anh Trạch như vậy?! Nếu không phải anh và Tống Lạc An ở đây làm những chuyện không thể cho ai thấy, anh nghĩ chúng tôi muốn nhìn thấy anh sao?!”
+“Anh dựa vào đâu mà nói Trạch ca như vậy?! Nếu không phải anh và Tống Lạc An ở đây làm những chuyện mờ ám không dám để ai thấy, anh nghĩ chúng tôi thèm nhìn thấy anh sao?!”
 
-Chưa đợi Lệ Yến Trạch nói gì, Chu Lạc Lạc đã nhanh chóng lên tiếng để lấy lòng.
+Chưa đợi Lệ Yến Trạch mở miệng, Chu Lạc Lạc đã nhanh chóng nhảy ra lấy lòng.
 
-Một tay anh ta chống nạnh, tay kia chỉ vào Thẩm Từ đang dựa vào khung cửa, má đỏ bừng, vẻ mặt chính nghĩa, như thể đã đứng trên đỉnh cao đạo đức vậy.
+Một tay gã chống nạnh, tay kia chỉ vào Thẩm Từ đang dựa vào khung cửa, má đỏ bừng, vẻ mặt đầy vẻ chính nghĩa, như thể đã đứng trên đỉnh cao đạo đức vậy.
 
 “Nếu anh không làm chuyện gì trái lương tâm, tại sao lại sợ chúng tôi gõ cửa?! Còn nói năng khó nghe như vậy, là do chột dạ nên nói năng lung tung rồi chứ gì!”
 
-Miệng Chu Lạc Lạc líu lo, một tràng dài, lời lẽ như thể đã nhìn thấy cảnh Thẩm Từ và Tống Lạc An vụng trộm, nên giờ phải đóng đinh họ lên cột nhục nhã, bắt họ phải xấu hổ vì hành vi của mình!
+Miệng Chu Lạc Lạc líu lo một tràng dài, lời lẽ như thể đã tận mắt nhìn thấy cảnh Thẩm Từ và Tống Lạc An vụng trộm, nên giờ phải đóng đinh họ lên cột sỉ nhục, bắt họ phải xấu hổ vì hành vi của mình!
 
-Thế nhưng, Thẩm Từ, người đang bị anh ta phán xét chính nghĩa, nghe vậy chỉ nhàn nhạt liếc nhìn anh ta một cái, rồi nói:
+Thế nhưng, Thẩm Từ, người đang bị gã phán xét chính nghĩa, nghe vậy chỉ nhàn nhạt liếc nhìn gã một cái, rồi nói:
 
 “Cậu cũng cút đi.”
 
@@ -126,7 +126,7 @@ Nói Lệ Yến Trạch, không nói cậu ngứa mồm à.
 
 Thẩm Từ vốn đang bực bội vì hơi nóng trong người chưa tan hết, giờ lại bị Chu Lạc Lạc ồn ào như mấy trăm con vịt làm phiền, anh càng thêm mất kiên nhẫn.
 
-Hắn rũ mắt nhìn Lệ Yến Trạch, giọng điệu cũng lạnh lùng hẳn đi.
+Anh rũ mắt nhìn Lệ Yến Trạch, giọng điệu cũng lạnh lùng hẳn đi.
 
 “Tôi nhắc lại cho anh lần cuối, đây là phòng của tôi, xích con chó của anh cho chặt vào, đừng để tôi nghe thấy thêm bất kỳ tiếng động nào nữa!”
 
@@ -138,7 +138,7 @@ Một tiếng “chát” vang lên, Lệ Yến Trạch đưa tay vỗ mạnh l�
 
 “Tôi đã cho phép cậu đóng cửa chưa?!”
 
-Lệ Yến Trạch ngẩng đầu nhìn Thẩm Từ, ánh mắt sắc lẹm lướt từ đôi môi hắn dần xuống phía dưới từng chút một.
+Lệ Yến Trạch ngẩng đầu nhìn Thẩm Từ, ánh mắt sắc lẹm lướt từ đôi môi anh dần xuống phía dưới từng chút một.
 
 “Nếu thật sự muốn đóng cửa đến thế thì giao người bên trong ra đây!”
 
@@ -182,4 +182,4 @@ Thế nhưng, cũng giống như ánh mắt mà Thẩm Từ lười nhác chẳn
 
 “Ông chủ, liệu có khi nào cậu Tống hoàn toàn không ở bên trong không ạ?” Tên vệ sĩ đứng cạnh hắn cẩn trọng mở lời.
 
-"Trong camera giám sát chỉ là một bóng lưng mờ ảo, vạn nhất giống như lời tiên sinh Chu nói, chỉ là một nhân viên phục vụ có dáng người giống tiên sinh Tống thì sao?"
+“Trong camera giám sát chỉ là một bóng lưng mờ ảo, ngộ nhỡ đúng như lời cậu Chu nói, chỉ là một nhân viên phục vụ có vóc dáng tương tự cậu Tống thì sao?”

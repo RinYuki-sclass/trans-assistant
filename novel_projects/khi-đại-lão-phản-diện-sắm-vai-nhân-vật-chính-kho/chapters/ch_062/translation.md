@@ -124,21 +124,21 @@ Chu Lạc Lạc mừng rỡ vội vàng rèn sắt khi còn nóng:
 
 Sở Tư Thừa quả thực cũng có chút phục sát đất rồi.
 
-Mặc dù trước đây trong lúc làm nhiệm vụ anh cũng từng đụng độ không ít kẻ điên rồ kinh dị, thế nhưng so với Chu Lạc Lạc thì đám người đó quả thực ngay cả một con tôm nhỏ cũng chẳng xứng đáng được xếp chung mâm.
+Mặc dù trước đây trong lúc làm nhiệm vụ cậu cũng từng đụng độ không ít kẻ điên rồ kinh dị, thế nhưng so với Chu Lạc Lạc thì đám người đó quả thực ngay cả một con tôm nhỏ cũng chẳng xứng đáng được xếp chung mâm.
 
 Tên Bug này thật sự là bất kể vào thời điểm nào cũng đều có thể tìm ra được đối tượng để tiến hành bắt cóc đạo đức đối với Tống Lạc An.
 
 Đầu tiên là người nhà họ Tống, sau đó là Lệ Yến Trạch, đến tận bây giờ, gã thậm chí còn có thể lôi cả một nhân vật làm nền trong nguyên tác tiểu thuyết chỉ xuất hiện trọn vẹn đúng hai lần ra để dắt mũi dư luận.
 
-Bà nội Lệ quả thực đối xử rất tốt với Tống Lạc An, thế nhưng anh tổng không thể vì một người lớn tuổi hiền từ nhân hậu mà phải ở lại bên cạnh một tên bá tổng bạo lực cuồng loạn để chịu đựng sự giày vò đày đọa chứ?
+Bà nội Lệ quả thực đối xử rất tốt với Tống Lạc An, thế nhưng cậu chẳng lẽ lại vì một người lớn tuổi hiền từ nhân hậu mà phải ở lại bên cạnh một tên bá tổng bạo lực cuồng loạn để chịu đựng sự giày vò đày đọa chứ?
 
-Huống chi, bà nội Lệ cho dù sau khi anh đi thật sự bị tức giận đến ngã bệnh, thì người nên cảm thấy cắn rứt áy náy cũng tuyệt đối không phải là anh, mà là Lệ Yến Trạch.
+Huống chi, bà nội Lệ cho dù sau khi cậu đi thật sự bị tức giận đến ngã bệnh, thì người nên cảm thấy cắn rứt áy náy cũng tuyệt đối không phải là cậu, mà là Lệ Yến Trạch.
 
 Và cả một Chu Lạc Lạc suốt ngày chỉ biết bày mưu hãm hại Tống Lạc An nữa.
 
 Sở Tư Thừa giễu cợt nhếch khóe môi, không buồn lên tiếng.
 
-Chu Lạc Lạc vẫn luôn chăm chú quan sát anh thấy vậy liền cắn chặt môi dưới, vì muốn giữ lại cái mạng nhỏ của mình, chỉ đành kiên trì bồi thêm một câu:
+Chu Lạc Lạc vẫn luôn chăm chú quan sát cậu thấy vậy liền cắn chặt môi dưới, vì muốn giữ lại cái mạng nhỏ của mình, chỉ đành kiên trì bồi thêm một câu:
 
 “Bà nội chắc chắn là hy vọng cậu có thể ở lại.”
 

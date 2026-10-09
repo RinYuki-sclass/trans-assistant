@@ -8,7 +8,7 @@ Gã rõ ràng đã thu hồi lại liều thuốc kia rồi, tại sao hai ngư�
 
 Là do Tống Lạc An chủ động?
 
-Chẳng lẽ cậu ta đã sớm nung nấu cái ý định trèo lên cành cao khác rồi sao?!
+Chẳng lẽ cậu đã sớm nung nấu cái ý định trèo lên cành cao khác rồi sao?!
 
 “Trèo lên cành cao khác cái gì?”
 
@@ -54,7 +54,7 @@ Lệ Yến Trạch khẽ nheo hai mắt lại, ngay sau đó liền chuyển d�
 
 Sở Tư Thừa nhướng mày: “Tôi có cần thiết phải giải thích với anh không?”
 
-Chưa nói đến việc anh đã tuyên bố bản thỏa thuận giữa hai người vô hiệu từ lâu, thì cho dù là trước lúc anh tiếp nhận nhiệm vụ, mối quan hệ giữa Tống Lạc An và Lệ Yến Trạch cũng chỉ là một tờ hợp đồng mà thôi. Giữa bọn họ chỉ có tiền bạc và lợi dụng, tuyệt đối không có tình cảm, chuyện này chính miệng Lệ Yến Trạch đã từng nói ra kia mà.
+Chưa nói đến việc cậu đã tuyên bố bản thỏa thuận giữa hai người vô hiệu từ lâu, thì cho dù là trước lúc cậu tiếp nhận nhiệm vụ, mối quan hệ giữa Tống Lạc An và Lệ Yến Trạch cũng chỉ là một tờ hợp đồng mà thôi. Giữa bọn họ chỉ có tiền bạc và lợi dụng, tuyệt đối không có tình cảm, chuyện này chính miệng Lệ Yến Trạch đã từng nói ra kia mà.
 
 Người đàn ông dùng giọng điệu lạnh lùng bảo Tống Lạc An đừng mơ tưởng tới những thứ mà cậu không xứng có được, vậy thì bây giờ lại vì cớ gì mà phải bày ra cái bộ dạng tức giận phẫn nộ như thể tình cảm bị phản bội thế kia?
 
@@ -116,7 +116,7 @@ Ngay khi hắn đang hoài nghi về sự chân thành suốt ba năm qua của 
 
 “Nghe chính miệng tôi nói……”
 
-Sở Tư Thừa bật cười, anh dùng đôi mắt trông có vẻ vô tội nhất nhìn thẳng vào một Lệ Yến Trạch đang bốc hỏa bừng bừng trước mặt, khóe miệng khẽ đóng mở, thốt ra lại là những con chữ tẩm đẫm độc dược kịch độc:
+Sở Tư Thừa bật cười, cậu dùng đôi mắt trông có vẻ vô tội nhất nhìn thẳng vào một Lệ Yến Trạch đang bốc hỏa bừng bừng trước mặt, khóe miệng khẽ đóng mở, thốt ra lại là những con chữ tẩm đẫm độc dược kịch độc:
 
 “Anh xứng sao?”
 
@@ -174,11 +174,11 @@ Thế nhưng——
 
 “Vậy ban nãy anh đuổi đi năm người xoa bóp của người ta làm cái gì?”
 
-Sở Tư Thừa mỉm cười, dưới ánh mắt cứng đờ đờ đẫn của Lệ Yến Trạch, anh tiếp tục bồi thêm một nhát dao chí mạng:
+Sở Tư Thừa mỉm cười, dưới ánh mắt cứng đờ đờ đẫn của Lệ Yến Trạch, cậu tiếp tục bồi thêm một nhát dao chí mạng:
 
 “Hơn nữa, không có anh, thì cũng sẽ có người khác giúp tôi cứu lấy mạng sống của bà ấy.”
 
-Thẩm Từ chẳng phải đang đứng ở ngoài cổng chờ anh đó sao.
+Thẩm Từ chẳng phải đang đứng ở ngoài cổng chờ cậu đó sao.
 
 Cho nên, trên thế giới này căn bản không hề tồn tại cái gọi là vị cứu tinh duy nhất mang mệnh trời định của bất kỳ ai.
 
@@ -206,11 +206,11 @@ Thế nhưng rất rõ ràng, hiện tại hắn không thể nào cậy vào â
 
 Thế là, giữa ánh chớp lóe lên trong đầu, Lệ Yến Trạch bất chấp tất cả trực tiếp gượng đứng bật dậy khỏi xe lăn, lảo đảo loạng choạng bước tới cửa lớn, hướng về phía bóng lưng sắp sửa bước ra khỏi ngưỡng cửa mà gào thét:
 
-“Cậu cho rằng Thẩm Từ sẽ để cho cậu ở bên cạnh hắn mãi mãi sao?”
+“Cậu cho rằng Thẩm Từ sẽ để cho cậu ở bên cạnh anh ta mãi mãi sao?”
 
-“Cậu tưởng Thẩm Từ không nhìn thấu cái tâm cơ nhỏ mọn muốn tiếp cận hắn, quyến rũ thu hút hắn của cậu chắc?!”
+“Cậu tưởng Thẩm Từ không nhìn thấu cái tâm cơ nhỏ mọn muốn tiếp cận anh ta, quyến rũ thu hút anh ta của cậu chắc?!”
 
-“Hắn chẳng qua chỉ là muốn chơi đùa cậu cho vui mà thôi!”
+“Anh ta chẳng qua chỉ là muốn chơi đùa cậu cho vui mà thôi!”
 
 Thật sự tưởng rằng một ly rượu vang đỏ là có thể tự tạt chính mình bước chân vào chốn hào môn được sao?!
 

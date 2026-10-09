@@ -242,7 +242,7 @@ Sở Niên Niên đành phải vén tay áo lên, khoe vết trầy xước trê
 
 Cố Xuyên kiểm tra kỹ những chỗ khác trên người cậu, xác định máu trên người cậu đều là của tang thi, vẻ mặt nghiêm nghị mới dần giãn ra.
 
-Anh ta nhấc cằm Sở Niên Niên lên, nheo mắt hỏi: “Vết thương trên miệng là sao?”
+Anh nhấc cằm Sở Niên Niên lên, nheo mắt hỏi: “Vết thương trên miệng là sao?”
 
 Môi Sở Niên Niên có một vết cắn rõ ràng, đó là do cậu tự cắn để không bị ngất đi vì quá yếu.
 
@@ -256,7 +256,7 @@ Sở Niên Niên lại móc lấy ngón tay anh, ngẩng cằm lên, “Muốn h
 
 Dù khuôn mặt cậu bây giờ lấm lem, cũng không cản được Cố Xuyên tim đập nhanh hơn.
 
-Cổ họng anh ta lăn lộn, đã quên hết mọi lo lắng trong lòng, cúi đầu hôn lên môi Sở Niên Niên.
+Cổ họng anh lăn lộn, đã quên hết mọi lo lắng trong lòng, cúi đầu hôn lên môi Sở Niên Niên.
 
 Đầu lưỡi không kiểm soát được thè ra, đến lúc sắp tiến thêm một bước, lại lý trí rút về.
 
@@ -290,7 +290,7 @@ Một lúc lâu sau, cậu ta mới khẽ nói: “Không có gì xảy ra cả,
 
 Lý do này quá gượng ép, Cố Xuyên không phải kẻ ngốc, anh nhìn ra Sở Niên Niên không muốn nói.
 
-Bất kể là vì lý do gì, chỉ cần cậu ta có thể sống sót an toàn thì Cố Xuyên đã không còn yêu cầu nào khác.
+Bất kể là vì lý do gì, chỉ cần cậu có thể sống sót an toàn thì Cố Xuyên đã không còn yêu cầu nào khác.
 
 “Được.” Anh nói.
 

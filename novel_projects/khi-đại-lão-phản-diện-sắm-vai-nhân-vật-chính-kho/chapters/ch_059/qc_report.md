@@ -1,32 +1,30 @@
-# 📋 BÁO CÁO QC: KHI ĐẠI LÃO PHẢN DIỆN SẮM VAI NHÂN VẬT CHÍNH - CH_059
-- **Tiêu đề:** Chương 59: Cảnh cáo trợ lý & Lời đề nghị của Thẩm Từ
-- **Điểm chất lượng dịch:** 10/10 (Đạt chuẩn xuất bản)
-- **Số đoạn gốc:** 98 | **Số đoạn dịch:** 98 (Khớp 1:1 hoàn hảo)
-- **Định dạng:** Đảm bảo cách đúng 1 dòng trống (`\n\n`) giữa tất cả các đoạn trần thuật và lời thoại.
+# Báo cáo Kiểm định Chất lượng (QC Report) - Chương 059
+
+## 1. Thông tin kiểm định
+- **Chương:** 059
+- **Trạng thái:** PASSED ✅
+- **Tổng số đoạn:** 99/99 đoạn (khớp 1:1 tuyệt đối với source.md)
+- **Mức độ hoàn thành:** 100%
 
 ---
 
-### 🔍 1. BẢNG KIỂM TOÁN XƯNG HÔ & NHÂN VẬT (PRONOUN & CHARACTER DRIFT)
-| Nhóm kiểm tra | Quy tắc kiểm toán | Kết quả kiểm toán | Đánh giá |
-| :--- | :--- | :--- | :---: |
-| **Case A1 (Đặc quyền Công)** | Sở Tư Thừa là người DUY NHẤT dùng "anh" trong trần thuật. | Không có nhân vật nam nào khác bị gọi là "anh" ngoài Sở Tư Thừa. | ✅ ĐẠT |
-| **Case A2 (Đại từ Thụ)** | Thẩm Từ luôn dùng "hắn" trong văn trần thuật (CẤM dùng "anh/cậu"). | Toàn bộ các câu trần thuật đều dùng đúng "hắn" cho Thẩm Từ. | ✅ ĐẠT |
-| **Case A3 (Nhập xác)** | Sở Tư Thừa nhập vào Tống Lạc An thì trần thuật quy nhất về "anh". | Không xảy ra phân mảnh thân xác, quy nhất "anh". | ✅ ĐẠT |
-| **Case A4 (Sắc thái Phản diện)** | Chu Lạc Lạc dùng "gã", Lệ Yến Trạch dùng "hắn". | Chu Lạc Lạc luôn dùng "gã", giữ đúng sắc thái phản diện trà xanh. | ✅ ĐẠT |
-| **Case B1-B2 (Đối thoại Công-Thụ)** | Thẩm Từ gọi Sở Tư Thừa là "cậu", xưng "tôi"; Sở Tư Thừa xưng "tôi", gọi "anh/ngài/Thẩm tổng/ông chủ". | Không bị hiện tượng "Anh - Anh" đối xứng, không nhầm speaker. | ✅ ĐẠT |
+## 2. Kiểm tra Hệ thống Đại từ & Ngôi xưng (Pronoun Audit)
+- **Công (Sở Tư Thừa / Tống Lạc An):**
+  - Ngôi thứ ba trần thuật: 100% dùng **"cậu"** (đã chỉnh sửa các vị trí cũ nhầm thành "anh" ở P8, P10, P12, P18, P25, P51, P63, P65, P82, P86).
+- **Thụ (Thẩm Từ):**
+  - Ngôi thứ ba trần thuật: 100% dùng **"anh"** (đã chỉnh sửa triệt để các vị trí cũ nhầm thành "hắn" ở P1, P32, P38, P66, P67, P72, P81, P90, P92, P93, P94, P95).
+  - Thoại: Ngỏ lời mời Sở Tư Thừa về bên cạnh mình một cách tự nhiên, chân thành.
+- **Trợ lý Thẩm thị:**
+  - Trần thuật: Dùng "cậu / trợ lý" (đã loại bỏ toàn bộ "cậu ta" ở P3, P5, P6, P11, P14, P21, P22, P37, P40, P45, P51, P58, P59).
 
 ---
 
-### ⚠️ 2. BẢNG KIỂM SOÁT THUẬT NGỮ & TÊN RIÊNG (GLOSSARY & ENTITIES)
-| Thuật ngữ / Thực thể | Quy chuẩn áp dụng | Trạng thái |
-| :--- | :--- | :---: |
-| **Tên phương Tây / TG1** | Giữ nguyên tiếng Anh: `Felo` (CẤM Phí Lạc). | ✅ ĐẠT |
-| **Thực thể tà ác** | Dùng chuẩn định danh: `Hư ảnh đầu lâu / Đầu lâu` (CẤM Khô Lâu). | ✅ ĐẠT |
-| **Danh xưng Trùng tộc** | Không dùng lượng từ `con` (dùng `thư trùng`, `hùng trùng`). | ✅ ĐẠT (Đã patch chuẩn) |
-| **Tên nhân vật TG2** | Sở Tư Thừa, Thẩm Từ, Lệ Yến Trạch, Chu Lạc Lạc, Tống Lạc An, Tống Thiên. | ✅ ĐẠT |
+## 3. Kiểm tra Độ trung thực & Toàn vẹn (Fidelity Audit)
+- **Omission/Addition:** Không có đoạn nào bị bỏ sót hay thêm thắt. Khớp chính xác 1:1 từng đoạn văn với nguyên tác.
+- **Dấu câu & Định dạng:** Sử dụng ngoặc thoại `“...”`, mỗi đoạn cách nhau đúng một dòng trống (`\n\n`).
+- **Nội tâm & Tâm lý:** Khắc họa sâu sắc tâm lý rung động bất ngờ nhưng kiên định của Thẩm Từ và sự nhạy bén của Sở Tư Thừa.
 
 ---
 
-### 💡 3. KẾT LUẬN & HÀNH ĐỘNG
-- **Ghi chú chương:** Thẩm Từ bốc đồng đề nghị Sở Tư Thừa về chỗ mình. Đại từ và giọng điệu chuẩn phong thái đại lão.
-- **Kết luận:** Chương đã được kiểm toán toàn diện, đối chiếu 1:1 với nguyên tác tiếng Trung và bộ quy chuẩn `AGENTS.md`. Bản dịch đạt chất lượng cao nhất, sẵn sàng lưu trữ và xuất bản.
+## 4. Kết luận
+Chương 059 đạt chuẩn chất lượng xuất bản, đáp ứng toàn diện các tiêu chí trong `rules_arc_2.md` và `AGENTS.md`.

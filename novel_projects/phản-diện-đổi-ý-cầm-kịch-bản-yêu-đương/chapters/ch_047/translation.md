@@ -8,15 +8,15 @@ Ngay sau đó, cậu cảm thấy bàn tay Cố Xuyên nắm lấy mình càng s
 
 Cố Xuyên hít một hơi thật sâu, đôi môi mỏng mím chặt thành một đường thẳng, đôi mắt sâu thẳm nhìn chằm chằm vào đôi mắt đang rũ xuống của Sở Niên Niên, như muốn hút cậu vào trong.
 
-Anh ta dùng sức kéo Sở Niên Niên lại, xoay người đi ra ngoài.
+Anh dùng sức kéo Sở Niên Niên lại, xoay người đi ra ngoài.
 
-Anh ta đi rất nhanh, dường như đang kìm nén cơn giận dữ cực lớn, Sở Niên Niên bị anh ta kéo đi, cho đến khi đến một góc khuất không có người, Cố Xuyên mới dừng lại.
+Anh đi rất nhanh, dường như đang kìm nén cơn giận dữ cực lớn, Sở Niên Niên bị anh kéo đi, cho đến khi đến một góc khuất không có người, Cố Xuyên mới dừng lại.
 
 Sở Niên Niên không đề phòng, đầu đập thẳng vào ngực Cố Xuyên, cứng đanh, làm trán cậu đỏ bừng.
 
 “Niên Niên, đừng giận dỗi nữa.” Giọng nói trầm thấp từ tính xuyên qua lồng ngực truyền vào tai Sở Niên Niên.
 
-Giận dỗi? Anh ta gọi đây là giận dỗi sao?
+Giận dỗi? Anh gọi đây là giận dỗi sao?
 
 Sở Niên Niên tức cười, cậu đứng thẳng người, mặt không biểu cảm giật tay mình ra.
 

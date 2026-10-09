@@ -158,7 +158,7 @@ Chú Lý mặt đỏ bừng, muốn nói gì đó nhưng lại không thốt nê
 
 Ánh mắt Sở Niên Niên đột ngột quét về phía chú Lý, cậu lạnh lùng nheo mắt lại, đáy mắt lóe lên sát khí.
 
-“Ai dám động đến cậu ta, đừng trách tôi không nể tình.”
+“Ai dám động đến em ấy, đừng trách tôi không nể tình.”
 
 Giọng Cố Xuyên đều đều, nhưng ánh mắt sát khí khiến tất cả mọi người tại hiện trường đều toát mồ hôi lạnh.
 

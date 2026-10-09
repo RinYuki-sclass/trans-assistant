@@ -2,15 +2,15 @@
 title: Khi Đại Lão Phản Diện Sắm Vai Nhân Vật Chính [Khoái Xuyên] — Chương 59
 ---
 
-Càng muốn biết rốt cuộc đối phương có điểm gì thu hút Thẩm Từ, khiến hắn có thể làm ra hành vi vượt quá khuôn phép là đưa tình nhân của người khác về nhà như thế này.
+Càng muốn biết rốt cuộc đối phương có điểm gì thu hút Thẩm Từ, khiến anh có thể làm ra hành vi vượt quá khuôn phép là đưa tình nhân của người khác về nhà như thế này.
 
 Trợ lý tự cho rằng hành động của mình vô cùng kín đáo, nhìn hai cái rồi sẽ dời tầm mắt đi, sau đó đợi chừng năm sáu phút lại nhìn tiếp.
 
-Thế nhưng, ngay sau khi cậu ta lặp lại động tác đó hai lần, đến lúc ngẩng đầu nhìn vào gương chiếu hậu lần thứ ba, cậu ta liền chạm phải một đôi mắt đen thẳm tựa như có thể nuốt chửng vạn vật trên cõi đời.
+Thế nhưng, ngay sau khi cậu lặp lại động tác đó hai lần, đến lúc ngẩng đầu nhìn vào gương chiếu hậu lần thứ ba, cậu liền chạm phải một đôi mắt đen thẳm tựa như có thể nuốt chửng vạn vật trên cõi đời.
 
 Trợ lý theo bản năng sững sờ ngây ngốc, sau gáy tựa như bị ai đó dùng hung khí nện mạnh một cú khiến đầu óc ong ong choáng váng, tứ chi cũng cứng đờ tại chỗ không tài nào nhúc nhích nổi một ly.
 
-Và rồi, cậu ta liền nhìn thấy đôi mắt kia khẽ chớp một cái, ngay sau đó chợt cong cong lại, tựa như lưỡi băng sắc nhọn trước một giây khi đâm xuyên qua con mồi bỗng nhiên tan chảy, mất đi tính công kích dữ dội, thế nhưng lại khiến người ta vĩnh viễn không thể quên được cái cảm giác lạnh lẽo thấu xương ở giây trước đó.
+Và rồi, cậu liền nhìn thấy đôi mắt kia khẽ chớp một cái, ngay sau đó chợt cong cong lại, tựa như lưỡi băng sắc nhọn trước một giây khi đâm xuyên qua con mồi bỗng nhiên tan chảy, mất đi tính công kích dữ dội, thế nhưng lại khiến người ta vĩnh viễn không thể quên được cái cảm giác lạnh lẽo thấu xương ở giây trước đó.
 
 “Nhìn cái gì?” Cậu ta thấy chàng trai mấp máy môi không thành tiếng hỏi mình một câu.
 
@@ -20,15 +20,15 @@ Thân là vị khách được chính Thẩm Từ mời lên xe, cho dù quần 
 
 Cho dù ánh mắt của đối phương rất đỗi kín đáo……
 
-Thế nhưng anh vẫn nhận ra được.
+Thế nhưng cậu vẫn nhận ra được.
 
-Chẳng những phát hiện ra sự săm soi của viên trợ lý, mà còn nhận thấy được cái nhìn từ trên cao soi xét đầy vẻ bắt bẻ như đánh giá một món đồ của cậu ta.
+Chẳng những phát hiện ra sự săm soi của viên trợ lý, mà còn nhận thấy được cái nhìn từ trên cao soi xét đầy vẻ bắt bẻ như đánh giá một món đồ của cậu.
 
-Cho nên anh đã nhìn thẳng trở lại, đồng thời tặng cho viên trợ lý một lời cảnh cáo không lời.
+Cho nên cậu đã nhìn thẳng trở lại, đồng thời tặng cho viên trợ lý một lời cảnh cáo không lời.
 
 Nghĩ đến ánh mắt vừa rồi của chàng trai, trợ lý không kìm được mà nắm chặt dây an toàn trước ngực, hơi thở bất giác trở nên dồn dập gấp gáp.
 
-Đó tuyệt đối không phải là người mà cậu ta có thể trêu chọc vào được.
+Đó tuyệt đối không phải là người mà cậu có thể trêu chọc vào được.
 
 Đây chính là ý nghĩ đầu tiên hiện lên trong đầu viên trợ lý sau khi hoàn hồn lại.
 
@@ -36,21 +36,21 @@ Ngay sau đó, ý nghĩ thứ hai chính là: một người nguy hiểm đến 
 
 Ý nghĩ thứ ba lại là: rốt cuộc là vì nguyên nhân gì mà đối phương lại chấp nhận trở thành tình nhân của Lệ Yến Trạch cơ chứ?
 
-Dù sao vào một khoảnh khắc đối mắt với chàng trai ban nãy, trợ lý thậm chí còn cảm nhận được từ trên người anh một cảm giác áp chế còn đáng sợ và kinh khủng hơn cả Thẩm Từ.
+Dù sao vào một khoảnh khắc đối mắt với chàng trai ban nãy, trợ lý thậm chí còn cảm nhận được từ trên người cậu một cảm giác áp chế còn đáng sợ và kinh khủng hơn cả Thẩm Từ.
 
 Một người như vậy, lẽ nào chỉ vì chút tiền tài mà cam tâm tình nguyện biến thành kẻ phụ thuộc của người khác sao?
 
 Trợ lý quyết không tin chuyện đó.
 
-Chỉ là cậu ta không tin thì không tin, sau một ánh mắt ban nãy, trợ lý chẳng còn chút lá gan nào để mở miệng thốt ra những mối nghi vấn ngập tràn trong lòng mình nữa.
+Chỉ là cậu không tin thì không tin, sau một ánh mắt ban nãy, trợ lý chẳng còn chút lá gan nào để mở miệng thốt ra những mối nghi vấn ngập tràn trong lòng mình nữa.
 
-Thế nhưng, ngay khi cậu ta chuẩn bị đem những thắc mắc này chôn vùi xuống đáy mồ, thì đột nhiên phía sau lại truyền tới một giọng nam trong trẻo:
+Thế nhưng, ngay khi cậu chuẩn bị đem những thắc mắc này chôn vùi xuống đáy mồ, thì đột nhiên phía sau lại truyền tới một giọng nam trong trẻo:
 
 “Lát nữa có thể làm phiền Thẩm tổng đợi tôi một lát ở ngoài cổng được không?”
 
 “?”
 
-Lần này, không chỉ riêng viên trợ lý, mà ngay cả Thẩm Từ ngồi bên cạnh Sở Tư Thừa - người từ lúc anh bước lên xe đến giờ vẫn luôn im lặng không nói một lời, cúi đầu chẳng biết đang trầm tư suy nghĩ điều gì - cũng ngước mắt nhìn sang.
+Lần này, không chỉ riêng viên trợ lý, mà ngay cả Thẩm Từ ngồi bên cạnh Sở Tư Thừa - người từ lúc cậu bước lên xe đến giờ vẫn luôn im lặng không nói một lời, cúi đầu chẳng biết đang trầm tư suy nghĩ điều gì - cũng ngước mắt nhìn sang.
 
 Người đàn ông vẫn không cất lời, chỉ dùng ánh mắt lạnh lùng dò hỏi Sở Tư Thừa có ý gì.
 
@@ -74,13 +74,13 @@ Ngay lúc Sở Tư Thừa được đằng chân lân đằng đầu trước m�
 
 Phải biết rằng, kẻ không biết điều trước đây dám đứng trước mặt Thẩm Từ muốn cậy vào nhan sắc để trèo cao, đừng nói là được đằng chân lân đằng đầu, chỉ mới làm nũng được một nửa thôi đã bị thông báo sa thải của phòng nhân sự đập thẳng vào mặt rồi.
 
-Trợ lý hiểu rất rõ, ông chủ nhà cậu ta tuy bề ngoài trông có vẻ khiêm tốn trầm ổn, gặp chuyện lúc nào cũng bình chân như vại, nhưng thực chất lại chẳng có mấy lòng kiên nhẫn, trong từng cử chỉ hành động đều mang theo sự ngạo nghễ vốn có của thế hệ con nhà giàu quyền quý.
+Trợ lý hiểu rất rõ, ông chủ nhà cậu tuy bề ngoài trông có vẻ khiêm tốn trầm ổn, gặp chuyện lúc nào cũng bình chân như vại, nhưng thực chất lại chẳng có mấy lòng kiên nhẫn, trong từng cử chỉ hành động đều mang theo sự ngạo nghễ vốn có của thế hệ con nhà giàu quyền quý.
 
-Không ai có thể lợi dụng hắn, huống chi là cái kiểu coi hắn như xe đi nhờ quá giang thế này.
+Không ai có thể lợi dụng anh, huống chi là cái kiểu coi anh như xe đi nhờ quá giang thế này.
 
 Trong vài giây Thẩm Từ im lặng, trước mắt người trợ lý thậm chí đã hiện lên cảnh tượng Thẩm Từ cười lạnh một tiếng, rồi lập tức ra lệnh đuổi thẳng cổ chàng trai xuống xe.
 
-Thế nhưng, chẳng biết là do cậu ta xuất hiện ảo giác, hay là do ông chủ nhà cậu ta vẫn còn một mặt tính cách mà cậu ta chưa từng được biết đến.
+Thế nhưng, chẳng biết là do cậu xuất hiện ảo giác, hay là do ông chủ nhà cậu vẫn còn một mặt tính cách mà cậu chưa từng được biết đến.
 
 Sau khi nơm nớp chờ đợi một hồi lâu, trợ lý không hề nhận được mệnh lệnh dừng xe của Thẩm Từ, mà lại nghe thấy một câu nói mang theo chút do dự của đối phương:
 
@@ -90,7 +90,7 @@ Sau khi nơm nớp chờ đợi một hồi lâu, trợ lý không hề nhận �
 
 Lần này thì viên trợ lý hoàn toàn không thể ngồi yên được nữa rồi.
 
-Cậu ta dĩ nhiên không có ý định ngăn cản việc ngôi nhà cổ của ông chủ nhà mình bốc cháy tình cảm tuổi xế chiều, chỉ là đối với đối tượng khiến Thẩm Từ bùng cháy ngọn lửa tình kia thì cậu ta có chút cảnh giác đề phòng.
+Cậu ta dĩ nhiên không có ý định ngăn cản việc ngôi nhà cổ của ông chủ nhà mình bốc cháy tình cảm tuổi xế chiều, chỉ là đối với đối tượng khiến Thẩm Từ bùng cháy ngọn lửa tình kia thì cậu có chút cảnh giác đề phòng.
 
 Dù sao trên người đối phương vẫn còn mang danh phận tình nhân của Lệ Yến Trạch, cứ thế đường hoàng đàng hoàng trèo lên quan hệ với Thẩm Từ, chuyện thế này một khi truyền ra ngoài, đối với bản thân Thẩm Từ, thậm chí là đối với cả tập đoàn Thẩm thị, đều tuyệt đối không phải là tiếng tăm tốt đẹp gì.
 
@@ -102,7 +102,7 @@ Nghĩ như vậy, trợ lý không nhịn được mà quay đầu lại hỏi:
 
 Tổng không phải là mấy thứ như máy nghe lén đấy chứ!
 
-Lúc này trợ lý cũng chẳng biết sợ là gì nữa rồi, trực tiếp ngoảnh đầu nhìn chằm chằm vào Sở Tư Thừa, muốn từ nét mặt của anh tìm ra một chút manh mối sơ hở chứng minh “cậu ta là gián điệp”.
+Lúc này trợ lý cũng chẳng biết sợ là gì nữa rồi, trực tiếp ngoảnh đầu nhìn chằm chằm vào Sở Tư Thừa, muốn từ nét mặt của cậu tìm ra một chút manh mối sơ hở chứng minh “cậu là gián điệp”.
 
 Thế nhưng, trên mặt Sở Tư Thừa chẳng có biểu cảm gì khác lạ, chỉ tùy ý đáp lời:
 
@@ -116,9 +116,9 @@ Trợ lý ngơ ngác: “Lệ tổng chủ động đề xuất với ngài sao?
 
 Tại bữa tiệc sao?
 
-Thế nhưng lúc ấy cậu ta nghe nói Lệ Yến Trạch chỉ là tức giận muốn lôi chàng trai đi, chứ đâu có ý định trực tiếp vứt bỏ đối phương đâu.
+Thế nhưng lúc ấy cậu nghe nói Lệ Yến Trạch chỉ là tức giận muốn lôi chàng trai đi, chứ đâu có ý định trực tiếp vứt bỏ đối phương đâu.
 
-Cậu ta có chút hoài nghi khó hiểu, mà Sở Tư Thừa vừa vặn mượn sự thắc mắc của cậu ta để giải thích cho người đàn ông bên cạnh nghe:
+Cậu ta có chút hoài nghi khó hiểu, mà Sở Tư Thừa vừa vặn mượn sự thắc mắc của cậu để giải thích cho người đàn ông bên cạnh nghe:
 
 “Không phải, là tôi muốn từ chức không làm nữa.”
 
@@ -126,15 +126,15 @@ Anh mắc chứng sợ những vật khổng lồ.
 
 Không chịu nổi cái thói thiếu não to đùng đoàng như vậy của Lệ Yến Trạch.
 
-Huống chi chiếc đùi vàng tốt hơn ngàn lần đã đưa tới tận trước mặt anh rồi, anh còn có lý do gì để nấn ná ở lại bên cạnh Lệ Yến Trạch nữa chứ?
+Huống chi chiếc đùi vàng tốt hơn ngàn lần đã đưa tới tận trước mặt cậu rồi, cậu còn có lý do gì để nấn ná ở lại bên cạnh Lệ Yến Trạch nữa chứ?
 
 Sở Tư Thừa mân mê chiếc điện thoại vỡ nát nửa màn hình trong tay, nét phóng khoáng ngang tàng nơi mày mắt trông chẳng giống người đi từ chức chút nào, ngược lại nom cứ như người đi sa thải kẻ khác vậy.
 
-Thẩm Từ không kìm được mà liếc mắt nhìn anh thêm hai cái.
+Thẩm Từ không kìm được mà liếc mắt nhìn cậu thêm hai cái.
 
-Thế nhưng ngoài việc đó ra, hắn căn bản không có ý định mở miệng gặng hỏi nguyên nhân của đối phương.
+Thế nhưng ngoài việc đó ra, anh căn bản không có ý định mở miệng gặng hỏi nguyên nhân của đối phương.
 
-Mặc dù hắn quả thực đã đồng ý với yêu cầu được đằng chân lân đằng đầu của chàng trai, nhưng điều này không đồng nghĩa với việc hắn muốn chịu trách nhiệm cho cuộc đời sau này của đối phương.
+Mặc dù anh quả thực đã đồng ý với yêu cầu được đằng chân lân đằng đầu của chàng trai, nhưng điều này không đồng nghĩa với việc hắn muốn chịu trách nhiệm cho cuộc đời sau này của đối phương.
 
 Hắn sẽ đưa chàng trai đến địa chỉ tiếp theo mà đối phương chỉ định, nhưng cũng chỉ dừng lại ở đó mà thôi.
 
@@ -162,9 +162,9 @@ Hơi nóng mịt mù, dược lực cuồn cuộn dâng trào, dẫn đến vi�
 
 Mà sau khi thời không quay ngược, bên trong và ngoài xe, ngăn cách bởi một ô cửa kính vừa hạ xuống, một người đàn ông hoàn toàn tỉnh táo lại thốt ra một câu nói cực kỳ thiếu tỉnh táo.
 
-Và rồi, dưới ánh đèn đường vàng vọt mờ ảo, hắn nhìn thấy bóng hình gầy guộc kia khựng lại một nhịp, sau đó tựa như một thước phim quay chậm của ống kính điện ảnh, chậm rãi xoay người lại.
+Và rồi, dưới ánh đèn đường vàng vọt mờ ảo, anh nhìn thấy bóng hình gầy guộc kia khựng lại một nhịp, sau đó tựa như một thước phim quay chậm của ống kính điện ảnh, chậm rãi xoay người lại.
 
-Ánh sáng lờ mờ rải đều trên người Sở Tư Thừa, không đủ để thắp sáng toàn bộ mày mắt anh, nhưng đã đủ để Thẩm Từ nhìn rõ nét mặt của anh lúc này.
+Ánh sáng lờ mờ rải đều trên người Sở Tư Thừa, không đủ để thắp sáng toàn bộ mày mắt cậu, nhưng đã đủ để Thẩm Từ nhìn rõ nét mặt của anh lúc này.
 
 Không có kinh ngạc, cũng chẳng hề có hoang mang nghi hoặc, chỉ có một đôi mắt đen láy như mực dưới sự khúc xạ của ánh sáng đang lấp lánh rực rỡ, tựa như gom trọn cả một dải ngân hà đầy sao vào bên trong.
 
@@ -172,7 +172,7 @@ Không có kinh ngạc, cũng chẳng hề có hoang mang nghi hoặc, chỉ có
 
 “Thẩm tổng, ngài vì sao lại muốn thu nhận tôi?”
 
-Là cảm thấy anh đáng thương, nhất thời lòng tốt bùng phát?
+Là cảm thấy cậu đáng thương, nhất thời lòng tốt bùng phát?
 
 Hay là…… vì điều gì khác?
 
@@ -190,7 +190,7 @@ Hơn nữa, bây giờ ngẫm nghĩ kỹ lại, ngay lúc chàng trai lỡ tay l
 
 Mãi cho đến khi hắn lướt qua vai đối phương rời đi, chuẩn bị vào phòng nghỉ thay quần áo, thì bỗng nhiên ma xui quỷ khiến quay đầu lại nhìn một cái.
 
-Cũng chính là cái ngoảnh đầu nhìn lại ấy, đã khiến hắn bất giác khắc sâu bóng lưng của chàng trai vào tận sâu trong tâm trí, để rồi khi bước vào phòng nghỉ liền không nhịn được mà bảo trợ lý đi thu thập toàn bộ hồ sơ tư liệu của đối phương mang về.
+Cũng chính là cái ngoảnh đầu nhìn lại ấy, đã khiến anh bất giác khắc sâu bóng lưng của chàng trai vào tận sâu trong tâm trí, để rồi khi bước vào phòng nghỉ liền không nhịn được mà bảo trợ lý đi thu thập toàn bộ hồ sơ tư liệu của đối phương mang về.
 
 Sau đó lại càng là hết lần này đến lần khác, làm ra những hành động hoàn toàn không phù hợp với phong cách hành xử trước đây của chính mình.
 

@@ -20,7 +20,7 @@ Chu Lạc Lạc vẫy tay ra hiệu cho trợ lý rời đi trước, sau đó m
 
 "Sao lại nổi giận lớn thế này, chẳng lẽ Le'an vẫn không chịu quay về sao?"
 
-"Hay là... để tôi đi xin lỗi cậu ấy nhé."
+“Hay là... để em đi xin lỗi cậu ấy nhé.”
 
 Trong dự tính của Chu Lạc Lạc, chỉ cần gã hạ giọng một chút, Lệ Yến Trạch đáng lẽ phải không chút do dự mà buông bỏ Tống Lạc An, rồi quay về bên cạnh gã, giống như mọi lần trước đây khi Tống Lạc An chưa rời đi.
 
@@ -100,7 +100,7 @@ Thẩm Từ nằm mơ cũng không ngờ được mình lại có thể mất ki
 
 Khi tình nồng, không chỉ cam tâm tình nguyện nằm dưới thân người khác, mà thậm chí còn...
 
-Vị cam quýt trong khoang miệng mãi vẫn không tan đi, giống như cảm giác trơn trượt thỉnh thoảng lại xuất hiện trên má hắn, khiến người ta không nhịn được mà muốn đưa tay chạm vào, xác nhận xem những thứ đó đã được anh làm sạch hết hay chưa.
+Vị cam quýt trong khoang miệng mãi vẫn không tan đi, giống như cảm giác trơn trượt thỉnh thoảng lại xuất hiện trên gò má anh vậy, khiến người ta không kìm được muốn đưa tay chạm vào, để xác nhận xem những thứ đó rốt cuộc đã được mình rửa sạch hay chưa.
 
 Thẩm Từ vô thức dùng mu bàn tay quẹt nhẹ lên mặt, sau đó ngẩng đầu nhìn chàng trai đang ngồi bên bồn tắm giúp mình vệ sinh, cảm nhận sự khó chịu trên cơ thể, cuối cùng không nhịn được mà hừ lạnh một tiếng,
 
@@ -136,11 +136,11 @@ Tệ hại đến cực điểm nhưng lại khiến người ta không kìm lò
 
 "Cậu..." Thẩm Từ lại không nhịn được mà muốn cắn môi.
 
-Chỉ có điều lần này, trước khi hắn kịp dùng lực, một ngón tay mang theo hơi nước đã nhanh hơn một bước chen vào giữa đôi môi hắn.
+Chỉ có điều lần này, trước khi anh kịp dùng lực, một ngón tay mang theo hơi nước đã nhanh hơn một bước chen vào giữa đôi môi anh.
 
 "Cắn tôi đi."
 
-Thẩm Từ nghe thấy anh nói: "Đừng dày vò bản thân."
+Thẩm Từ nghe thấy cậu nói: “Đừng dày vò bản thân.”
 
 "Tôi biết mà..."
 
@@ -150,11 +150,11 @@ Sở Tư Thừa mơn trớn đôi môi đỏ mọng sưng tấy của Thẩm T�
 
 "..."
 
-Thẩm Từ không nói gì, chỉ lẳng lặng cảm nhận ngón tay trong khoang miệng đang khều nhẹ đầu lưỡi mình như thế nào, khám phá từng ngóc ngách bên trong khuôn miệng hắn, giống như cách anh đã tỉ mỉ làm hắn mềm nhũn ra trước đó.
+Thẩm Từ không nói gì, chỉ lẳng lặng cảm nhận ngón tay trong khoang miệng đang khều nhẹ đầu lưỡi mình như thế nào, khám phá từng ngóc ngách bên trong khuôn miệng anh, giống như cách cậu đã tỉ mỉ làm anh mềm nhũn ra trước đó.
 
 “Không sao đâu.”
 
-Anh chậm rãi rút ngón tay mình về, đồng thời bàn tay còn lại cũng thoát khỏi sự kiềm chế của Thẩm Từ, tiếp tục di chuyển xuống dưới.
+Cậu chậm rãi rút ngón tay mình về, đồng thời bàn tay còn lại cũng thoát khỏi sự kiềm chế của Thẩm Từ, tiếp tục di chuyển xuống dưới.
 
 Cánh môi thay thế cho ngón tay.
 
@@ -180,7 +180,7 @@ Cơ thể Thẩm Từ bỗng chốc cứng đờ, bầu không khí kiều diễ
 
 Thẩm Từ theo bản năng ngoảnh lại nhìn Sở Tư Thừa.
 
-Bốn mắt nhìn nhau, đôi mày hắn không tự chủ được mà nhíu lại, “Ai thế?”
+Bốn mắt nhìn nhau, đôi mày anh không tự chủ được mà nhíu lại, “Ai thế?”
 
 Thẩm Từ hiểu rất rõ, người nhấn chuông cửa tuyệt đối không phải là nhân viên khách sạn.
 
@@ -188,7 +188,7 @@ Bây giờ đã là chín giờ hai mươi sáu phút tối, nhân viên có ch�
 
 “Chắc là đến gây chuyện rồi.” Sở Tư Thừa thản nhiên nói.
 
-Ban đầu anh không định để ý đến người bên ngoài, chỉ là tiếng chuông cửa kia sau khi không nhận được hồi đáp thì không những không biết điều mà dừng lại, ngược lại còn vang lên ngày càng dồn dập hơn.
+Ban đầu cậu không định để ý đến người bên ngoài, chỉ là tiếng chuông cửa kia sau khi không nhận được hồi đáp thì không những không biết điều mà dừng lại, ngược lại còn vang lên ngày càng dồn dập hơn.
 
 Tần suất cấp bách ấy vô tình ảnh hưởng đến bầu không khí trong phòng tắm, khiến hai người bên trong cũng trở nên bực bội theo.
 
@@ -196,13 +196,13 @@ Tần suất cấp bách ấy vô tình ảnh hưởng đến bầu không khí 
 
 Cuối cùng, Sở Tư Thừa rút tay khỏi bồn nước ấm, tùy ý vẩy vẩy những giọt nước trên tay rồi đứng dậy đi ra ngoài.
 
-Chỉ là trước khi mở cửa phòng tắm, anh lại đột ngột dừng lại, suy nghĩ vài giây rồi quay trở vào, vớt Thẩm Từ vẫn còn đang nhũn cả tứ chi ra khỏi nước, phủ một chiếc khăn lên đầu hắn, sau đó cầm lấy chiếc áo choàng tắm bên cạnh quấn chặt lấy người hắn.
+Chỉ là trước khi mở cửa phòng tắm, cậu lại đột ngột dừng lại, suy nghĩ vài giây rồi quay trở vào, vớt Thẩm Từ vẫn còn đang nhũn cả tứ chi ra khỏi nước, phủ một chiếc khăn lên đầu anh, sau đó cầm lấy chiếc áo choàng tắm bên cạnh quấn chặt lấy người anh.
 
-Thẩm Từ nhìn hành động của anh, không nhịn được mà nhướng mày, “Chu đáo đến vậy sao?”
+Thẩm Từ nhìn hành động của cậu không nhịn được mà nhướng mày, “Chu đáo đến vậy sao?”
 
-Có thể nói, ngay khi Sở Tư Thừa quay lại bế hắn ra khỏi bồn tắm, Thẩm Từ đã hiểu rõ ý định của anh — chàng trai trẻ lo lắng người bên ngoài sẽ bất chấp xông vào, nên đã giúp hắn chuẩn bị sẵn sàng trước.
+Có thể nói, ngay khi Sở Tư Thừa quay lại bế anh ra khỏi bồn tắm, Thẩm Từ đã hiểu rõ ý định của cậu — chàng trai lo lắng người bên ngoài sẽ bất chấp xông vào, nên đã giúp anh chuẩn bị sẵn sàng trước.
 
-Như vậy dù cho có xảy ra chuyện ngoài ý muốn thật, hắn cũng không đến mức hoàn toàn không có sự chuẩn bị nào.
+Như vậy dù cho có xảy ra chuyện ngoài ý muốn thật, anh cũng không đến mức hoàn toàn không có sự chuẩn bị nào.
 
 Tâm tư của chàng trai này thực sự rất kín kẽ, mọi cách xử lý sự việc cũng già dặn không giống một đứa trẻ vừa mới trưởng thành cách đây không lâu.
 
