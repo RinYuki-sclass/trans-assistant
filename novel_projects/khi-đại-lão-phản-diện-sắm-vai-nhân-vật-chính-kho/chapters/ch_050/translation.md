@@ -42,9 +42,9 @@ Giống như là thật sự rất nhớ Tống Lạc An vậy.
 
 Sở Tư Thừa thấy vậy, khẽ mỉm cười.
 
-Ngoại hình hiện tại của anh vốn thuộc kiểu "cún con" ấm áp, đôi mắt tròn trịa, dù không cười, chỉ cần nhìn chằm chằm vào người khác với ánh mắt ướt át thôi cũng đủ khiến đối phương có cảm giác mình là cả thế giới của anh.
+Ngoại hình hiện tại của cậu vốn thuộc kiểu "cún con" ấm áp, đôi mắt tròn trịa, dù không cười, chỉ cần nhìn chằm chằm vào người khác với ánh mắt ướt át thôi cũng đủ khiến đối phương có cảm giác mình là cả thế giới của cậu.
 
-Huống chi bây giờ anh đang cười với Lệ Yến Trạch, đôi mắt cún con tròn xoe hơi cong lại, con ngươi đen láy sáng lấp lánh, trông như thể thật sự bị những lời của Chu Lạc Lạc làm cho cảm động.
+Huống chi bây giờ cậu đang cười với Lệ Yến Trạch, đôi mắt cún con tròn xoe hơi cong lại, con ngươi đen láy sáng lấp lánh, trông như thể thật sự bị những lời của Chu Lạc Lạc làm cho cảm động.
 
 Chú cún nhỏ lén chạy ra ngoài sau một hồi nổi loạn ngắn ngủi, cuối cùng vẫn sẽ bị một mẩu bánh quy của chủ nhân thu hút mà quay về.
 
@@ -52,7 +52,7 @@ Chú cún nhỏ lén chạy ra ngoài sau một hồi nổi loạn ngắn ngủi
 
 Có thể nói là kiêu ngạo đến cực điểm.
 
-Thế nhưng, điều khiến hắn không ngờ tới là, Sở Tư Thừa đúng là đã cười với hắn, nhưng những lời anh thong thả thốt ra sau đó lại là,
+Thế nhưng, điều khiến hắn không ngờ tới là, Sở Tư Thừa đúng là đã cười với hắn, nhưng những lời cậu thong thả thốt ra sau đó lại là,
 
 "Không về."
 
@@ -68,9 +68,9 @@ Sở Tư Thừa nhìn Lệ Yến Trạch, nhếch môi cười: "Tôi không có
 
 Chu Lạc Lạc không tự chủ được mà trợn tròn mắt, giống như lần đầu tiên mới quen biết chàng trai trước mặt, ánh mắt không ngừng quét tới quét lui trên người đối phương.
 
-Cậu ta nghi ngờ "Tống Lạc An" uống nhầm thuốc rồi.
+Gã nghi ngờ "Tống Lạc An" uống nhầm thuốc rồi.
 
-Bởi lẽ cho dù là kiếp trước, hay là Tống Lạc An mà cậu ta nhìn thấy sau khi trọng sinh trở về, khi đối mặt với Lệ Yến Trạch đều là dáng vẻ cẩn trọng dè dặt, tự cho là mình che giấu rất tốt, nhưng thực chất sự ái mộ trong mắt đã đong đầy đến mức sắp tràn ra ngoài.
+Bởi lẽ cho dù là kiếp trước, hay là Tống Lạc An mà gã nhìn thấy sau khi trọng sinh trở về, khi đối mặt với Lệ Yến Trạch đều là dáng vẻ cẩn trọng dè dặt, tự cho là mình che giấu rất tốt, nhưng thực chất sự ái mộ trong mắt đã đong đầy đến mức sắp tràn ra ngoài.
 
 Cho dù Lệ Yến Trạch chẳng thèm cho cậu lấy một sắc mặt tốt, cậu vẫn giống như một vầng thái dương nhỏ vĩnh viễn xoay quanh đối phương, đánh không đi, đuổi không chạy, bất cứ ai cũng có thể nhìn ra cậu thích Lệ Yến Trạch một cách chân thành tha thiết.
 
@@ -84,7 +84,7 @@ Tống Lạc An mà lại thấy thiếu kiên nhẫn với Lệ Yến Trạch s
 
 Thực ra không chỉ có Chu Lạc Lạc, ngay cả Lệ Yến Trạch cũng nghĩ như vậy.
 
-Trong dự tính của Lệ Yến Trạch, hôm nay hắn có thể dẫn theo Chu Lạc Lạc đến cúi đầu xin lỗi Tống Lạc An đã là nể mặt anh lắm rồi, nếu đối phương biết điều thì nên ngoan ngoãn thuận theo bậc thang hắn đưa ra mà bước xuống.
+Trong dự tính của Lệ Yến Trạch, hôm nay hắn có thể dẫn theo Chu Lạc Lạc đến cúi đầu xin lỗi Tống Lạc An đã là nể mặt cậu lắm rồi, nếu đối phương biết điều thì nên ngoan ngoãn thuận theo bậc thang hắn đưa ra mà bước xuống.
 
 Kết quả đối phương không những không xuống, mà còn tung một cước đá văng luôn cái bậc thang đó!
 
@@ -100,7 +100,7 @@ Mấy ngày nay vì chuyện đối phương mất tích, Lệ Yến Trạch đ�
 
 Ngược lại, chàng trai đang tựa vào cánh cửa trước mắt lại có vẻ mặt thỏa mãn. Dưới đáy mắt không hề có chút quầng thâm nào, cả khuôn mặt rạng rỡ tinh thần, từ đầu đến chân đều tỏa ra sức sống vô hạn, trạng thái trông tốt hơn không biết bao nhiêu lần so với lúc ở bên cạnh hắn trước kia.
 
-Cho nên, trong khoảng thời gian mất tích này, cậu ta hoàn toàn không hề nhớ đến mình dù chỉ một chút.
+Cho nên, trong khoảng thời gian mất tích này, cậu hoàn toàn không hề nhớ tới hắn.
 
 Đúng là một con sói mắt trắng nuôi mãi không thân!
 
@@ -126,11 +126,11 @@ Như vậy, anh không những trả thù được việc Tống Lạc An lén l
 
 Sau này trong các buổi tiệc tùng, anh còn có thể mang chuyện đó ra để làm nhục vị thiếu gia nhà họ Thẩm vốn luôn kiêu ngạo hơn người kia.
 
-Dù sao thì con chim hoàng yến mà Thẩm Từ không cần, cuối cùng lại phải cầu xin để được quay về bên cạnh anh, Lệ Yến Trạch.
+Dù sao thì con chim hoàng yến mà Thẩm Từ không cần, cuối cùng lại phải cầu xin để được quay về bên cạnh hắn, Lệ Yến Trạch.
 
 Chuyện này, chỉ cần tưởng tượng thôi cũng đủ khiến Lệ Yến Trạch sướng đến mức nhếch mép cười.
 
-Nhưng đáng tiếc thay, kịch bản anh đã viết xong xuôi, diễn viên trước mắt lại chẳng hề phối hợp, còn rất không biết điều mà đặt câu hỏi cho anh.
+Nhưng đáng tiếc thay, kịch bản hắn đã viết xong xuôi, diễn viên trước mắt lại chẳng hề phối hợp, còn rất không biết điều mà đặt câu hỏi cho hắn.
 
 Lệ Yến Trạch mím môi, cố gắng điều chỉnh lại biểu cảm trên gương mặt mình, nở một nụ cười cứng nhắc với Sở Tư Thừa.
 
@@ -138,11 +138,11 @@ Lệ Yến Trạch mím môi, cố gắng điều chỉnh lại biểu cảm tr�
 
 Sở Tư Thừa nhướng mày: "Muốn làm gì cũng được sao?"
 
-Lệ Yến Trạch nghe vậy cứ ngỡ thái độ của anh cuối cùng đã mềm mỏng, đôi mắt sáng rực lên, lập tức gật đầu: "Làm gì cũng được!"
+Lệ Yến Trạch nghe vậy cứ ngỡ thái độ của cậu cuối cùng đã mềm mỏng, đôi mắt sáng rực lên, lập tức gật đầu: "Làm gì cũng được!"
 
 "Thật chứ?"
 
-Sở Tư Thừa mỉm cười, sau đó dưới ánh mắt đầy vẻ nắm chắc phần thắng của Lệ Yến Trạch, anh khẽ nói:
+Sở Tư Thừa mỉm cười, sau đó dưới ánh mắt đầy vẻ nắm chắc phần thắng của Lệ Yến Trạch, cậu khẽ nói:
 
 "Vậy muốn không cần đi học ngày nào mà vẫn lấy được bằng tốt nghiệp cũng được sao?"
 
@@ -180,12 +180,12 @@ Lệ Yến Trạch mấp máy môi, muốn nói gì đó, thế nhưng Sở Tư 
 
 Nụ cười trên mặt Lệ Yến Trạch hoàn toàn biến mất, nhưng giọng nói của Sở Tư Thừa không vì sắc mặt của hắn mà dừng lại.
 
-Anh nói: “Sao anh có thể cho được chứ, bởi vì tất cả những chuyện này, chẳng phải đều do một tay Lệ tổng anh gây ra sao?”
+Cậu nói: “Sao anh có thể cho được chứ, bởi vì tất cả những chuyện này, chẳng phải đều do một tay Lệ tổng anh gây ra sao?”
 
-Anh ta gây áp lực lên trường học, đưa người cha nghiện rượu của cậu ta từ quê nhà đến, chỉ vì Tống Lạc An bắt đầu phản kháng, không nghe lời, nên anh ta bắt đầu dùng những "chuyện nhỏ" mà anh ta cho là vậy để trừng phạt cậu ta.
+Hắn gây áp lực lên trường học, đưa người cha nghiện rượu của cậu từ quê nhà đến, chỉ vì Tống Lạc An bắt đầu phản kháng, không nghe lời, nên hắn bắt đầu dùng những "chuyện nhỏ" mà hắn cho là vậy để trừng phạt cậu.
 
-Đây chính là những gì Lệ Yến Trạch làm ở giai đoạn sau của nguyên tác, cuối cùng dù có là "hỏa táng truy phu" cũng chỉ kết thúc bằng một câu "Tôi không cố ý, tôi chỉ là quá yêu anh, không muốn rời xa anh." một cách qua loa.
+Đây chính là những gì Lệ Yến Trạch làm ở giai đoạn sau của nguyên tác, cuối cùng dù có là "hỏa táng truy phu" cũng chỉ kết thúc bằng một câu "Tôi không cố ý, tôi chỉ là quá yêu em, không muốn rời xa em." một cách qua loa.
 
 Còn Tống Lạc An thì sao?
 
-Cú sốc bị đuổi học, bị người cha tồi tệ ôm chân khóc lóc xin tiền giữa đường, sự ngột ngạt và tuyệt vọng khi bị người qua đường chỉ trỏ, những ký ức này sẽ không biến mất chỉ vì cậu ta quay về bên Lệ Yến Trạch.
+Cú sốc bị đuổi học, bị người cha tồi tệ ôm chân khóc lóc xin tiền giữa đường, sự ngột ngạt và tuyệt vọng khi bị người qua đường chỉ trỏ, những ký ức này sẽ không biến mất chỉ vì cậu quay về bên Lệ Yến Trạch.

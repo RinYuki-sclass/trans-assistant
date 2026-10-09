@@ -4,7 +4,7 @@ title: Khi Đại Lão Phản Diện Sắm Vai Nhân Vật Chính [Khoái Xuyên
 
 Dáng vẻ dứt khoát sảng khoái kia, cứ như thể hành động do dự hỏi tên lúc nãy không phải vì cảm thấy sợ hãi sau những hành vi quá trớn mấy ngày qua, mà là thực sự không nhận ra hắn...
 
-Chỉ mới có mấy ngày, mà anh đã không nhận ra giọng nói của hắn rồi sao?!
+Chỉ mới có mấy ngày, mà cậu đã không nhận ra giọng nói của hắn rồi sao?!
 
 Lệ Yến Trạch suýt chút nữa đã bị hành động dám cúp điện thoại của Sở Tư Thừa làm cho tức đến bật cười.
 
@@ -48,7 +48,7 @@ Nực cười ở chỗ một quyết định như vậy lại do chính miệng
 
 Một kẻ ở thế yếu.
 
-Một con chim yến tước.
+Một con chim hoàng yến.
 
 Một món thú cưng để hắn trêu đùa lúc rảnh rỗi, có tư cách gì mà đòi nói lời kết thúc?!
 
@@ -100,7 +100,7 @@ Dựa vào cái gì?!
 
 Lệ Yến Trạch nghiến chặt răng, "Dựa vào cái gì mà cậu ta nói kết thúc là kết thúc chứ?"
 
-Một con chim sẻ vàng chỉ biết ngửa tay xin tiền, có tư cách gì mà tự mở lồng bay ra ngoài?!
+Một con chim hoàng yến chỉ biết ngửa tay xin tiền, có tư cách gì mà tự mở lồng bay ra ngoài?!
 
 Hắn sẽ khiến Tống Lạc An biết rằng, cái lồng của Lệ Yến Trạch hắn không dễ mở như vậy đâu.
 
@@ -182,30 +182,30 @@ Thẩm Từ trả lời rất dứt khoát, sau đó anh nghe thấy cậu ở �
 
 Cậu khẽ mở lời, tốc độ nói không nhanh, giọng điệu cũng rất dịu dàng, nhưng Thẩm Từ vẫn nghe ra được một chút ý vị xấu xa trong tông giọng bình thản ấy.
 
-Hắn muốn mình tự đoán, hoặc là tự mình thừa nhận.
+Cậu muốn anh tự đoán, hoặc là chính miệng thừa nhận.
 
 Thẩm Từ không nói gì, chỉ im lặng lắng nghe màn trình diễn của chàng trai,
 
 “Tôi chỉ là một sinh viên nghèo thôi, cũng chẳng quen biết nhiều người, anh giúp tôi nghĩ xem, ai lại là người tốt bụng nào đó hào phóng chuyển cho tôi cả triệu tệ vậy nhỉ?”
 
-Người tốt bụng Thẩm Từ khẽ động ngón tay, ký tên mình lên tập tài liệu vừa mở ra, mực đen thấm vào giấy trắng, rồi trong mắt người đàn ông từ từ lan ra.
+Người tốt bụng Thẩm Từ khẽ động ngón tay, ký tên mình lên tập tài liệu vừa mở ra, mực đen thấm vào giấy trắng, rồi trong mắt anh từ từ lan ra.
 
 “Cậu tự biết mà.” Thẩm Từ chậm rãi khép tập tài liệu lại, không có ý định mắc câu,
 
 “Cậu nghĩ là ai?”
 
-“Chủ yếu là tôi không biết người mà tôi nghĩ đến có muốn tôi đặt chuyện tốt đẹp này lên đầu anh ta hay không.”
+“Chủ yếu là tôi không biết người mà tôi nghĩ đến có muốn tôi đặt chuyện tốt đẹp này lên đầu anh ấy hay không.”
 
 Giọng chàng trai nghe có vẻ hơi tủi thân,
 
-“Dù sao… anh ta đã từng từ chối tôi một lần rồi.”
+“Dù sao… anh ấy đã từng phủ nhận tôi một lần rồi.”
 
-“Anh nói xem, anh ta có từ chối tôi lần thứ hai không?”
+“Anh nói xem, anh ấy có phủ nhận tôi lần thứ hai không?”
 
 Cây bút máy màu đen xoay tròn chậm rãi trong đầu ngón tay, Thẩm Từ vô thức liếm môi, trong lòng có một cảm giác khó tả đối với màn giằng co mà cả hai đều hiểu rõ này.
 
-Trong suốt hơn hai mươi năm cuộc đời, những người Thẩm Từ từng gặp, không một ai dám nói chuyện với hắn như vậy, họ thà rằng ngay khi hắn vừa mở lời đã dâng câu trả lời cho hắn.
+Trong suốt hơn hai mươi năm cuộc đời, những người Thẩm Từ từng gặp, không một ai dám nói chuyện với anh như vậy, họ chỉ mong ngay khi anh vừa mở lời đã dâng câu trả lời cho anh.
 
-Không cần hắn tốn tâm tư, thậm chí không cần động não.
+Không cần anh tốn tâm tư, thậm chí không cần động não.
 
-Mọi người xung quanh hắn đều sẽ không có hành động mập mờ về câu hỏi, thậm chí còn đẩy câu hỏi lại cho hắn như chàng trai này, bởi vì trong thương trường, điều đó tương đương với việc tự tay đưa mình lên đoạn đầu đài.
+Mọi người xung quanh anh đều sẽ không có hành động mập mờ về câu hỏi, thậm chí còn đẩy câu hỏi lại cho anh như chàng trai này, bởi vì trong thương trường, điều đó tương đương với việc tự tay đưa mình lên đoạn đầu đài.

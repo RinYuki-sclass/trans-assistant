@@ -34,7 +34,7 @@ Ban đầu Lệ Yến Trạch chỉ vì chàng trai chạy tới đây làm ph�
 
 Hắn bây giờ cũng chẳng còn tâm trạng đâu mà tham gia yến tiệc nữa, chỉ muốn lôi cổ chú tình nhân mất mặt xấu hổ lại còn ăn cây táo rào cây sung này về nhà.
 
-Cậu ta đúng là có tầm nhìn cao xa gớm, một mặt thì bám chặt lấy hắn, mặt khác lại muốn bay nhảy ra bên ngoài, cũng chẳng thèm soi gương xem mình có bản lĩnh đó hay không!
+Cậu đúng là có tầm nhìn cao xa gớm, một mặt thì bám chặt lấy hắn, mặt khác lại muốn bay nhảy ra bên ngoài, cũng chẳng thèm soi gương xem mình có bản lĩnh đó hay không!
 
 Có lẽ là trước đây Tống Lạc An ở trước mặt hắn lúc nào cũng mang bộ dạng ngoan ngoãn khúm núm phục tùng, cho nên Lệ Yến Trạch căn bản chẳng hề nghĩ đến việc sau khi hắn hạ mệnh lệnh thì chàng trai lại dám không chấp hành.
 
@@ -42,7 +42,7 @@ Có lẽ là trước đây Tống Lạc An ở trước mặt hắn lúc nào c
 
 Lệ Yến Trạch theo bản năng quay đầu lại, rồi sau đó liền nhìn thấy hình ảnh Sở Tư Thừa đang mỉm cười bưng khay rượu đưa về phía khách khứa.
 
-Anh chẳng những không nghe lời hắn rời đi, ngược lại còn cười tươi như hoa với những người đàn ông khác?!
+Cậu chẳng những không nghe lời hắn rời đi, ngược lại còn cười tươi như hoa với những người đàn ông khác?!
 
 Cảnh tượng này đối với một Lệ Yến Trạch chưa từng trải qua trận đòn hiểm độc của Sở Tư Thừa mà nói thì lực chấn động quả thực có chút quá lớn, khiến hắn ngơ ngác nửa ngày trời mới kịp phản ứng lại.
 
@@ -96,7 +96,7 @@ Vốn dĩ chiếc điện thoại này đã bị anh vứt thẳng vào thùng r
 
 Nhìn giao diện gọi xe giật lag đến mức đơ cứng, Sở Tư Thừa lần đầu tiên cảm nhận được cảm giác bực bội của việc một đêm quay trở về thời kỳ trước giải phóng.
 
-Thế nhưng anh cũng không phải bực bội quá lâu, bởi vì rất nhanh sau đó đã có một chiếc xe sang trọng đắt đỏ dừng bánh ngay trước mặt anh.
+Thế nhưng cậu cũng không phải bực bội quá lâu, bởi vì rất nhanh sau đó đã có một chiếc xe sang trọng đắt đỏ dừng bánh ngay trước mặt anh.
 
 Cửa kính xe màu đen tuyền từ từ hạ xuống, để lộ ra một gương mặt thanh lãnh tuyệt mỹ.
 
@@ -112,7 +112,7 @@ Thực ra, về mặt lý trí, Thẩm Từ căn bản không có ý định b�
 
 Tập đoàn Thẩm thị có cổ phần trong khách sạn năm sao này, cho nên ngay từ lúc hắn lên tầng thay quần áo, người trợ lý vô cùng tinh ý của hắn đã thu thập đầy đủ tài liệu về chàng trai cung kính dâng lên trước mặt hắn rồi.
 
-“Ban đầu tôi cứ ngỡ cậu ta chỉ là một nhân viên phục vụ muốn mượn cơ hội ăn vạ va chạm để thu hút sự chú ý của ngài, kết quả lúc tôi lấy bản sơ yếu lý lịch từ bên nhân sự về, nhìn cái tên bên trên thì bỗng nhớ tới việc dạo trước nhà họ Lệ rùm beng đòi bao nuôi một cậu tình nhân nhỏ, dường như cũng mang cái tên này.”
+“Ban đầu tôi cứ ngỡ cậu ấy chỉ là một nhân viên phục vụ muốn mượn cơ hội ăn vạ va chạm để thu hút sự chú ý của ngài, kết quả lúc tôi lấy bản sơ yếu lý lịch từ bên nhân sự về, nhìn cái tên bên trên thì bỗng nhớ tới việc dạo trước nhà họ Lệ rùm beng đòi bao nuôi một cậu tình nhân nhỏ, dường như cũng mang cái tên này.”
 
 Trợ lý đưa tay dâng tập tài liệu trong tay ra trước mặt Thẩm Từ.
 
@@ -126,23 +126,23 @@ Sự việc ồn ào mà đám người Lệ Yến Trạch gây ra tại sảnh 
 
 Chỉ là những kẻ thích hóng hớt nhiều chuyện thì ở đâu cũng có, chỉ riêng việc nhìn thấy hắn trừng mắt quát tháo một người phục vụ bàn thôi cũng đủ để người ta tự vẽ ra một màn kịch dài tập trong đầu rồi, huống chi lúc Lệ Yến Trạch ra lệnh bắt chàng trai về nhà, đừng đứng đây làm mất mặt xấu hổ thì bên cạnh vừa vặn có một nhân viên phục vụ khác đi ngang qua nghe thấy.
 
-Những chuyện này vốn dĩ là do trợ lý sợ tâm trạng Thẩm Từ không vui trong lúc thay đồ, nên mới đem ra kể như một câu chuyện cười cho hắn nghe giải khuây.
+Những chuyện này vốn dĩ là do trợ lý sợ tâm trạng Thẩm Từ không vui trong lúc thay đồ, nên mới đem ra kể như một câu chuyện cười cho anh nghe giải khuây.
 
 Thẩm Từ khi ấy quả thực cũng chỉ coi chuyện đó như một câu chuyện tiếu lâm không hơn không kém.
 
-Thế nhưng, khi tài xế lái xe chầm chậm lướt qua trước cửa khách sạn, nhìn chàng trai ôm chiếc ba lô cũ nát đứng trước cổng, ngơ ngác nhìn dòng xe cộ tấp nập qua lại trên đường lớn với vẻ mặt đầy mờ mịt, trong đầu hắn chẳng biết dây thần kinh nào đột nhiên chập mạch, không những bảo tài xế dừng xe lại, mà còn hạ cửa kính xuống, chủ động yêu cầu đưa đối phương về nhà.
+Thế nhưng, khi tài xế lái xe chầm chậm lướt qua trước cửa khách sạn, nhìn chàng trai ôm chiếc ba lô cũ nát đứng trước cổng, ngơ ngác nhìn dòng xe cộ tấp nập qua lại trên đường lớn với vẻ mặt đầy mờ mịt, trong đầu anh chẳng biết dây thần kinh nào đột nhiên chập mạch, không những bảo tài xế dừng xe lại, mà còn hạ cửa kính xuống, chủ động yêu cầu đưa đối phương về nhà.
 
 Yêu cầu này đối với cả hai bên mà nói đều vô cùng đường đột, đặc biệt là đối với một Thẩm Từ suốt hai mươi tám năm qua chỉ toàn người khác cầu xin được đưa mình về nhà, thì lại càng là một chuyện ngoài sức tưởng tượng.
 
-Hắn thậm chí còn chẳng rõ cái ý nghĩ muốn đưa chàng trai về nhà này rốt cuộc xuất hiện trong đầu mình từ lúc nào.
+Anh thậm chí còn chẳng rõ cái ý nghĩ muốn đưa chàng trai về nhà này rốt cuộc xuất hiện trong đầu mình từ lúc nào.
 
 Thế nhưng lời nói một khi đã thốt ra khỏi miệng thì cũng chẳng có đạo lý nuốt lời rút lại.
 
-Huống hồ…… hắn cũng không muốn rút lại.
+Huống hồ…… anh cũng không muốn rút lại.
 
 Một Thẩm Từ từ nhỏ đã được giáo dục phải sống thuận theo lòng mình nhìn chàng trai bên ngoài cửa xe đang ngơ ngác nhìn mình, ánh mắt khẽ lay động đôi chút, cuối cùng vẫn thu lại bàn tay đang định bấm nút nâng cửa kính xe lên.
 
-“Lên không?” Hắn lại hỏi thêm một lần nữa.
+“Lên không?” Anh lại hỏi thêm một lần nữa.
 
 So với câu nói ban nãy thì bớt đi vài phần thân quen kỳ lạ, thêm vào một chút lịch thiệp xa cách.
 
@@ -178,6 +178,6 @@ Chậc chậc.
 
 Trợ lý không kìm được mà cảm thán tấm tắc trong lòng, so với chuyện động trời này thì cái vụ lạnh mặt giặt quần lót đã tính là cái đinh rỉ gì chứ!
 
-Đương nhiên, câu nói này cậu ta có cho thêm mười lá gan cũng không dám nói thẳng ra trước mặt Thẩm Từ, thậm chí cậu ta còn chẳng dám quay đầu lại nhìn biểu cảm của Thẩm Từ lúc này, chỉ có thể mượn kính chiếu hậu bên cạnh, thỉnh thoảng lén lút liếc mắt nhìn trộm hai cái về phía chàng trai đang ôm ba lô yên lặng nhìn ra ngoài cửa sổ xe.
+Đương nhiên, câu nói này cậu có cho thêm mười lá gan cũng không dám nói thẳng ra trước mặt Thẩm Từ, thậm chí cậu còn chẳng dám quay đầu lại nhìn biểu cảm của Thẩm Từ lúc này, chỉ có thể mượn kính chiếu hậu bên cạnh, thỉnh thoảng lén lút liếc mắt nhìn trộm hai cái về phía chàng trai đang ôm ba lô yên lặng nhìn ra ngoài cửa sổ xe.
 
-Cậu ta muốn biết cú va chạm trước đó của chàng trai vào Thẩm Từ rốt cuộc thật sự là vô tình bất cẩn, hay là cố ý giở trò để thu hút sự chú ý của ông chủ nhà mình.
+Cậu muốn biết cú va chạm trước đó của chàng trai vào Thẩm Từ rốt cuộc thật sự là vô tình bất cẩn, hay là cố ý giở trò để thu hút sự chú ý của ông chủ nhà mình.

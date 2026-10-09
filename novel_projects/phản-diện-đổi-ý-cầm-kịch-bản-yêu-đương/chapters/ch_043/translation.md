@@ -2,7 +2,7 @@
 title: Chương 43: Bữa ăn ấm cúng
 ---
 
-“Tối qua cậu và Lục Thiên ra ngoài nói chuyện gì vậy?”
+“Tối qua anh và Lục Thiên ra ngoài nói chuyện gì vậy?”
 
 Cố Xuyên vừa tập luyện buổi sáng xong, quay về thì bị Sở Niên Niên nhảy xuống giường chặn lại.
 
@@ -16,27 +16,27 @@ Kể từ khi ra khỏi căn phòng an toàn, Cố Xuyên chưa từng lớn ti�
 
 Bị đột ngột quát mắng, Sở Niên Niên nhất thời sững sờ.
 
-“Anh ta có tỏ tình với cậu không.”
+“Anh ta có tỏ tình với anh không.”
 
-Khi Cố Xuyên lướt qua vai cậu đi vào phòng, khóe miệng anh ta cong thành một đường thẳng, nói.
+Khi Cố Xuyên lướt qua vai cậu đi vào phòng, khóe môi cậu mím lại thành một đường thẳng tắp, nói.
 
 Bóng lưng Cố Xuyên khựng lại, không nói gì, sau đó đi đến bên giường thu dọn cái giường bừa bộn mà Sở Niên Niên đã làm rối.
 
-“Cậu có đồng ý không.”
+“Anh có đồng ý không.”
 
-Sở Niên Niên vẫn đứng nguyên vị trí cũ, quay lưng về phía anh ta hỏi.
+Sở Niên Niên vẫn đứng nguyên vị trí cũ, quay lưng về phía anh hỏi.
 
-Một phút trôi qua, anh ta vẫn không nhận được câu trả lời của Cố Xuyên.
+Một phút trôi qua, cậu vẫn không nhận được câu trả lời của Cố Xuyên.
 
-Anh ta cúi đầu, từ từ ngồi xổm xuống, vùi đầu vào khuỷu tay.
+Cậu cúi đầu, từ từ ngồi xổm xuống, vùi đầu vào khuỷu tay.
 
-Rất nhanh, anh ta nghe thấy tiếng bước chân của Cố Xuyên ngày càng đến gần.
+Rất nhanh, cậu nghe thấy tiếng bước chân của Cố Xuyên ngày càng đến gần.
 
-“Vậy còn tôi thì sao?” Đầu lưỡi anh ta lăn lộn, bật ra mấy chữ này.
+“Vậy em là gì chứ?” Đầu lưỡi cậu run rẩy, thốt ra mấy chữ này.
 
 “Dậy đi.”
 
-Giọng Cố Xuyên vang lên trên đỉnh đầu anh ta, như một sự nhượng bộ, “Tôi không đồng ý.”
+Giọng Cố Xuyên vang lên trên đỉnh đầu cậu, như một sự nhượng bộ, “Tôi không đồng ý.”
 
 Thấy Sở Niên Niên mãi không chịu dậy, Cố Xuyên dứt khoát ra tay, túm lấy cổ áo sau của Sở Niên Niên nhấc người lên.
 

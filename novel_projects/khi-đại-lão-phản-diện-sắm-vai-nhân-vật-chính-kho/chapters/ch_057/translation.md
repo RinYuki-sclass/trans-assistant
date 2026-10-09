@@ -4,7 +4,7 @@ title: Khi Đại Lão Phản Diện Sắm Vai Nhân Vật Chính [Khoái Xuyên
 
 “Anh có biết những người anh em tự tin nghe không hiểu tiếng người trước kia ở trước mặt tôi rốt cuộc đều có kết cục thế nào không?”
 
-Chàng trai khẽ hỏi, sau đó chẳng đợi Lệ Yến Trạch kịp trả lời, anh liền dứt khoát mở miệng:
+Chàng trai khẽ hỏi, sau đó chẳng đợi Lệ Yến Trạch kịp trả lời, cậu liền dứt khoát mở miệng:
 
 “Đều bị tôi giết sạch rồi.”
 
@@ -14,11 +14,11 @@ Dù cho sau khi giết bọn họ rồi sẽ bị phán định là nhiệm vụ
 
 Thế nhưng Sở Tư Thừa vẫn cứ giết.
 
-Sắm vai phản diện ngần ấy năm trời, anh làm sao có thể là cái tính cách cam chịu thiệt thòi để người khác bắt nạt cơ chứ.
+Sắm vai phản diện ngần ấy năm trời, cậu làm sao có thể là cái tính cách cam chịu thiệt thòi để người khác bắt nạt cơ chứ.
 
 Chàng trai khẽ rũ mắt, đôi môi đỏ khẽ cong lên, nụ cười vô cùng sạch sẽ thuần khiết, nhưng rơi vào mắt người đàn ông đang nằm bẹp dưới đất lại chẳng khác nào ác quỷ bò ra từ nơi vực sâu tăm tối để gieo rắc tai ương cho nhân gian.
 
-Anh thật sự muốn giết hắn.
+Cậu thật sự muốn giết hắn.
 
 Vào khoảnh khắc này, Lệ Yến Trạch sinh ra cảm giác y hệt như bố Tống cách đây mười phút trước.
 
@@ -26,7 +26,7 @@ Khí lạnh từ nơi con tim không ngừng trào dâng, rồi sau đó điên 
 
 Hắn muốn cất tiếng nói.
 
-Muốn nói bây giờ là xã hội pháp quyền, chàng trai cố ý giết người thì bản thân anh cũng không thể sống nổi.
+Muốn nói bây giờ là xã hội pháp quyền, chàng trai cố ý giết người thì bản thân cậu cũng không thể sống nổi.
 
 Chỉ là khi con người ta đối diện với cái chết, nỗi sợ hãi tột cùng khiến bọn họ căn bản chẳng thể thốt ra nổi một tiếng nào, cũng chẳng thể dùng ra nổi một chút sức lực nào.
 
@@ -38,7 +38,7 @@ Cho nên đến cuối cùng, Lệ Yến Trạch chỉ có thể đờ đẫn n�
 
 Tiếng người huyên náo ồn ào nơi thế giới tiểu thuyết, tiếng chuông cảnh báo dồn dập vang lên trong đại não của Sở Tư Thừa, vào khoảnh khắc này hòa lẫn vào làm một, trở thành khúc điệu tuyệt vọng báo hiệu thế giới này sắp sửa đi đến bờ vực diệt vong.
 
-【Ký chủ! Anh nghĩ đến nhân vật phản diện đi! Anh vẫn còn chưa đi ăn cơm với hắn mà! Lẽ nào anh không muốn gặp lại hắn một lần nữa sao?!】
+【Ký chủ! Cậu nghĩ đến nhân vật phản diện đi! Cậu vẫn còn chưa đi ăn cơm với anh ấy mà! Lẽ nào cậu không muốn gặp lại anh ấy một lần nữa sao?!】
 
 Giọng nói the the nhức óc của hệ thống tựa như muốn đâm thủng màng nhĩ và đại não của Sở Tư Thừa.
 
@@ -68,7 +68,7 @@ Một giọng nói mất kiên nhẫn đột nhiên vang lên bên tai Sở Tư 
 
 Khuôn miệng người đàn ông đóng mở liên hồi, dường như đã tuôn ra rất nhiều lời giận dữ bực bội.
 
-Thế nhưng Sở Tư Thừa hoàn toàn chẳng nghe lọt một chữ nào, anh chỉ rũ mắt nhìn trang phục trên người mình, rồi lại ngẩng đầu đảo mắt nhìn quanh bốn phía một lượt.
+Thế nhưng Sở Tư Thừa hoàn toàn chẳng nghe lọt một chữ nào, cậu chỉ rũ mắt nhìn trang phục trên người mình, rồi lại ngẩng đầu đảo mắt nhìn quanh bốn phía một lượt.
 
 Người phục vụ bàn.
 
@@ -82,7 +82,7 @@ Sở Tư Thừa khẽ nhíu mày.
 
 Anh đây là…… quay trở về thời điểm vừa mới xuyên không đến sao?!
 
-Cũng chính vào lúc này, bên tai anh lại vang lên một giọng nói quen thuộc:
+Cũng chính vào lúc này, bên tai cậu lại vang lên một giọng nói quen thuộc:
 
 “Ta đã tiêu hao toàn bộ năng lượng mới giúp ngươi xoay chuyển thời gian đấy, tiếp theo đây, ngươi nhất định không được phép làm ta thất vọng!”
 
@@ -112,7 +112,7 @@ Một giọng nói khác nghe qua có vẻ vô cùng mất kiên nhẫn, thế n
 
 “……”
 
-Thực ra Chu Lạc Lạc cảm thấy Thẩm Từ không gọi điện thoại cho người tới bắt mình chỉ là vì đối phương căn bản ngay từ đầu đã chẳng thèm liếc nhìn hắn lấy một cái mà thôi.
+Thực ra Chu Lạc Lạc cảm thấy Thẩm Từ không gọi điện thoại cho người tới bắt mình chỉ là vì đối phương căn bản ngay từ đầu đã chẳng thèm liếc nhìn gã lấy một cái mà thôi.
 
 Mọi người đều nói vị thiếu gia nhà họ Thẩm mắt cao hơn đỉnh đầu, không dễ dàng hạ mình đi chủ động kết giao với ai, cũng tiếc rẻ chẳng buồn ban phát ánh mắt cho những kẻ không quan trọng.
 
@@ -134,7 +134,7 @@ Chu Lạc Lạc siết chặt ống thuốc trong tay, rũ mắt liếc nhìn ly
 
 Gã sẽ không hạ thuốc để tạo cơ hội cho Tống Lạc An tiếp cận Thẩm Từ nữa.
 
-Chu Lạc Lạc ngỡ rằng, trước kia bản thân không thể đánh đổ được Tống Lạc An, phần lớn nguyên nhân đều nằm ở trên người Thẩm Từ. Chính hắn đã tiếp thêm dũng khí cho Tống Lạc An, khiến cậu nảy sinh ý niệm phản kháng lại Lệ Yến Trạch.
+Chu Lạc Lạc ngỡ rằng, trước kia bản thân không thể đánh đổ được Tống Lạc An, phần lớn nguyên nhân đều nằm ở trên người Thẩm Từ. Chính anh đã tiếp thêm dũng khí cho Tống Lạc An, khiến cậu nảy sinh ý niệm phản kháng lại Lệ Yến Trạch.
 
 Mà Lệ Yến Trạch lại là một kẻ đê tiện.
 
@@ -180,7 +180,7 @@ Cho nên kẻ phải chết chỉ có thể là Tống Lạc An mà thôi!
 
 Gã ngước mắt nhìn sang chàng trai đang bị Lệ Yến Trạch chặn lại ở phía bên kia. Đối phương lúc này không biết đang suy nghĩ điều gì, dưới sự mắng mỏ quở trách của Lệ Yến Trạch mà chẳng thèm hé răng lấy một lời, chỉ khẽ liếc mắt nhìn sang một bên, sắc mặt trắng bệch, ánh mắt trống rỗng, chẳng còn chút xíu khí thế kiêu căng ngang ngược nào như trong ký ức của Chu Lạc Lạc nữa.
 
-Nhìn xem, không có Thẩm Từ, Tống Lạc An cậu ta chẳng phải vẫn chỉ là một chú chim hoàng yến hèn mọn mặc cho Lệ Yến Trạch tùy ý nhào nặn chà đạp đó sao.
+Nhìn xem, không có Thẩm Từ, Tống Lạc An chẳng phải vẫn chỉ là một chú chim hoàng yến hèn mọn mặc cho Lệ Yến Trạch tùy ý nhào nặn chà đạp đó sao.
 
 Chu Lạc Lạc giễu cợt nhếch khóe môi, sau đó điều chỉnh lại nét mặt, chậm rãi cất bước đi về phía Lệ Yến Trạch.
 
@@ -198,12 +198,12 @@ Chu Lạc Lạc nâng mắt liếc nhìn một Tống Lạc An đang đứng th�
 
 Gã tự cho rằng bản thân được làm lại một lần thì muốn vờn Tống Lạc An chẳng khác nào đùa giỡn với một con trùng cỏ, nào đâu hay biết ngay từ lúc gã vừa làm lại từ đầu, gào to câu đừng khinh thiếu niên nghèo thì cuộc đối thoại giữa gã và thực thể đầu lâu đã lọt trọn vẹn vào tai Sở Tư Thừa.
 
-Về sau càng là bị anh lắng nghe toàn bộ từ đầu chí cuối.
+Về sau càng là bị cậu lắng nghe toàn bộ từ đầu chí cuối.
 
 【…… Tôi vốn dĩ còn tưởng việc thời không đảo lưu này là do cậu làm cơ đấy.】
 
 Hệ thống nghe vậy liền thẹn thùng cười một tiếng:
 
-【Ai nha ký chủ ơi, anh cũng đánh giá cao em quá rồi, em làm gì có bản lĩnh to lớn nhường ấy chứ.】
+【Ai nha ký chủ ơi, cậu cũng đánh giá cao em quá rồi, em làm gì có bản lĩnh to lớn nhường ấy chứ.】
 
 Nó chỉ là một hệ thống hỗ trợ, chỉ biết đứng bên cạnh hô to cổ vũ cố lên thôi, ngay cả bàn tay vàng mở thiên nhãn cơ bản nhất còn chẳng có, huống chi là món hàng cao cấp thượng thừa như thời không nghịch lưu này.

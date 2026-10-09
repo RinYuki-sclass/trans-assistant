@@ -24,7 +24,7 @@ Không phải là câu "Số máy quý khách vừa gọi hiện đã tắt máy
 
 Đầu ngón tay đang định nhấn nút ngắt cuộc gọi của Lệ Yến Trạch vô thức khựng lại.
 
-Mà lúc này ở phía bên kia, trong căn phòng khách sạn xa hoa rộng rãi, Sở Tư Thừa nhìn chiếc điện thoại đặt làm riêng màu bạc trắng vừa mới lắp thẻ sim trong tay, ánh mắt anh khẽ động, sau đó lại ngẩng đầu xác nhận với quản gia khách sạn một lần nữa:
+Mà lúc này ở phía bên kia, trong căn phòng khách sạn xa hoa rộng rãi, Sở Tư Thừa nhìn chiếc điện thoại đặt làm riêng màu bạc trắng vừa mới lắp thẻ sim trong tay, ánh mắt cậu khẽ động, sau đó lại ngẩng đầu xác nhận với quản gia khách sạn một lần nữa:
 
 "Ý ông là, căn phòng này, ngài Thẩm lại gia hạn thêm một tuần nữa, đúng không?"
 
@@ -56,7 +56,7 @@ Chiếc kính gọng vàng được người đàn ông nhẹ nhàng đặt sang
 
 Cậu trợ lý phản ứng lại, lập tức nói:
 
-"Hơn nữa mấy ngày nay nghe quản gia khách sạn nói, vị tiên sinh ở bên trong vẫn luôn không ra khỏi cửa, ngoại trừ dịch vụ ăn uống cần thiết, các dịch vụ khác anh ta cũng hủy bỏ, cơ bản là không gặp ai."
+“Hơn nữa mấy ngày nay nghe quản gia khách sạn nói, vị tiên sinh ở bên trong vẫn luôn không ra khỏi cửa, ngoại trừ dịch vụ ăn uống cần thiết, các dịch vụ khác cậu ấy cũng hủy bỏ, cơ bản là không gặp ai.”
 
 Một người trợ lý ưu tú chính là sau khi sếp khơi mào, phải báo cáo toàn bộ thông tin mình biết cho đối phương một cách rành mạch.
 
@@ -64,7 +64,7 @@ Có thể nói, kể từ khi Thẩm Từ dặn dò cậu chăm sóc tốt cho n
 
 Tất cả là để khi Thẩm Từ hỏi đến, cậu sẽ không phải ấp úng không nói nên lời!
 
-Phải biết rằng, đó chính là chú chim sơn ca nhỏ đầu tiên mà sếp của họ bao nuôi đấy!
+Phải biết rằng, đó chính là chú chim hoàng yến nhỏ đầu tiên mà sếp của họ bao nuôi đấy!
 
 Trợ lý nắm chặt tập tài liệu trong tay, báo cáo đến cuối cùng thậm chí còn có tư thế như muốn móc cả não ra đưa cho Thẩm Từ để anh tự xem vậy.
 
@@ -92,15 +92,15 @@ Tóm tắt một cách đơn giản, Tống Lạc An trong báo cáo là một n
 
 Thẩm Từ đặt tầm mắt lên dòng chữ cuối cùng của bản báo cáo ——
 
-“Anh ấy, anh ấy rất, rất thích Lệ Yến Trạch……”
+“Cậu ấy rất, rất thích Lệ Yến Trạch……”
 
-Vì vậy, ngay cả khi người đàn ông gặp tai nạn xe hơi, anh ta cũng không rời đi.
+Vì vậy, ngay cả khi người đàn ông gặp tai nạn xe cộ, cậu ấy cũng không rời đi.
 
 Theo lời thám tử tư, khi Lệ Yến Trạch mới gặp tai nạn xe hơi, hắn đã trải qua một giai đoạn cuồng loạn tinh thần, bất kỳ ai tiếp cận hắn đều bị hắn tấn công ít nhiều, trong đó Tống Lạc An, người ngày nào cũng đến thăm và chăm sóc hắn, là người bị thương nhiều nhất và nặng nhất.
 
-Nhưng ngay cả như vậy, Tống Lạc An cũng không bỏ cuộc, sau đó vì Lệ Yến Trạch không thích người lạ chạm vào mình, hắn còn tranh thủ thời gian đi học massage.
+Nhưng ngay cả như vậy, Tống Lạc An cũng không bỏ cuộc, sau đó vì Lệ Yến Trạch không thích người lạ chạm vào mình, cậu còn tranh thủ thời gian đi học mát-xa.
 
-Thế nhưng, một người dường như si tình đến cực điểm trong báo cáo lại chủ động mời anh ta bao nuôi vào tối hôm đó, thậm chí còn nói có thể giảm giá…
+Thế nhưng, một người dường như si tình đến cực điểm trong báo cáo lại chủ động mời anh bao nuôi vào tối hôm đó, thậm chí còn nói có thể giảm giá…
 
 “Ngài ơi, chúng ta có thể giúp đỡ lẫn nhau không?”
 
@@ -110,25 +110,25 @@ Thế nhưng, một người dường như si tình đến cực điểm trong b
 
 Giọng nói tinh nghịch của chàng trai không ngừng vang vọng bên tai, như một câu thần chú không thể ngăn cản.
 
-Thẩm Từ rất rõ, nếu người con trai hắn gặp đêm đó chính là người trong báo cáo, thì ngay khi hắn bước ra khỏi phòng, não bộ sẽ tự động xóa sạch mọi dấu vết về đối phương.
+Thẩm Từ rất rõ, nếu người con trai anh gặp đêm đó chính là người trong báo cáo, thì ngay khi anh bước ra khỏi phòng, não bộ sẽ tự động xóa sạch mọi dấu vết về đối phương.
 
-Nhưng tiếc là, người con trai anh ta gặp không phải.
+Nhưng tiếc là, chàng trai anh gặp không phải.
 
-Báo cáo trộn lẫn rất nhiều ảnh của Tống Lạc An, có lúc anh ta đi học, lúc làm thêm, lúc cười, lúc buồn bã… từng tấm từng tấm, mỗi tấm một vẻ, mỗi tấm đều không phải là người anh ta muốn gặp…
+Báo cáo kẹp rất nhiều ảnh của Tống Lạc An, có lúc cậu đi học, lúc làm thêm, lúc cười, lúc buồn bã… từng tấm từng tấm, mỗi tấm một vẻ, mỗi tấm đều không phải là người anh muốn gặp…
 
 Thẩm Từ rũ mắt, kéo ngăn tủ ra lấy một hộp thuốc lá chưa mở.
 
-Anh ta thường không hút thuốc.
+Anh thường không hút thuốc.
 
-Dù là họp ở công ty mình hay ra ngoài gặp đối tác, mùi thuốc lá bám trên người luôn khiến hình ảnh của hắn bị giảm giá trị ngay lập tức.
+Dù là họp ở công ty mình hay ra ngoài gặp đối tác, mùi thuốc lá bám trên người luôn khiến hình ảnh của anh bị giảm giá trị ngay lập tức.
 
 Huống hồ nicotine trong thuốc lá còn làm tê liệt đại não con người, một khi đã dính vào thì sẽ có nguy cơ gây nghiện.
 
-Cho nên, hắn không nên chạm vào, cũng không thể chạm vào.
+Cho nên, anh không nên chạm vào, cũng không thể chạm vào.
 
 Làn khói xám nhạt nương theo đốm lửa đỏ cam chậm rãi bay lên, Thẩm Từ tựa lưng vào ghế, tay phải khẽ nâng, đôi mắt đen thẫm cứ thế lặng lẽ nhìn làn khói bay lên giữa không trung, rồi lan ra bốn phía.
 
-Khói bám lên người hắn, cũng làm mờ đi đôi mắt đen sâu thẳm ấy.
+Khói bám lên người anh, cũng làm mờ đi đôi mắt đen sâu thẳm ấy.
 
 Không được.
 
@@ -154,13 +154,13 @@ Làn khói xám nhạt chậm rãi phả ra từ khuôn miệng, Thẩm Từ th�
 
 "... Vâng, thưa Thẩm tổng."
 
-Hắn vẫn không thích trò đào góc tường, Thẩm Từ nghĩ.
+Anh vẫn không thích trò đào góc tường, Thẩm Từ nghĩ.
 
 Nhưng chính cậu thiếu niên kia đã nói, Lệ Yến Trạch sẽ sớm không còn là người tình của cậu nữa.
 
 Ngón cái khẽ mơn trớn chiếc điện thoại mới tinh, Sở Tư Thừa đưa tay cầm một chiếc bánh tart trứng từ đĩa thức ăn bên cạnh, vừa ăn vừa nhìn màn hình vừa sáng lên ngay khi vừa lắp thẻ sim, đầu lưỡi hơi thò ra liếm cánh môi dính chút kem trứng, sau đó mới đưa tay nhấn nút nghe.
 
-Đây là cuộc gọi đầu tiên anh bắt máy kể từ sau khi cúp điện thoại của Tống Nhạc Minh.
+Đây là cuộc gọi đầu tiên cậu bắt máy kể từ sau khi cúp điện thoại của Tống Lạc Minh.
 
 "Alo?" Giọng thiếu niên tràn đầy sức sống thanh xuân đặc trưng của sinh viên đại học truyền qua loa thoại vào tai Lệ Yến Trạch, không lúc nào là không nhắc nhở hắn rằng, cuộc gọi này đã thông rồi.
 
@@ -182,10 +182,10 @@ Cậu dường như đã dời điện thoại ra xa tai, những tiếng sột 
 
 Ngọn lửa trong mắt bùng lên từng chút một, Lệ Yến Trạch nhìn chằm chằm vào ba chữ "Tống Lạc An" trên màn hình, muốn hỏi đối phương đã làm loạn đủ chưa?!
 
-Anh nghĩ, nếu Tống Lạc An lúc này có thể cúi đầu nhận sai, thì nhìn vào việc đối phương đã từng chăm sóc mình, anh vẫn có thể tha thứ cho cậu nhóc, tiền viện phí bên kia cũng có thể chuyển lại.
+Hắn nghĩ, nếu Tống Lạc An lúc này có thể cúi đầu nhận sai, thì nhìn vào việc đối phương đã từng chăm sóc mình, hắn vẫn có thể tha thứ cho cậu, tiền viện phí bên kia cũng có thể chuyển lại.
 
 Nhưng suy nghĩ thì đẹp đẽ, hiện thực lại là——
 
 "Rầm!"
 
-Chưa đợi Lệ Yến Trạch nói thêm lời nào, bên phía cậu nhóc đã trực tiếp cúp máy.
+Chưa đợi Lệ Yến Trạch nói thêm lời nào, bên phía chàng trai đã trực tiếp cúp máy.

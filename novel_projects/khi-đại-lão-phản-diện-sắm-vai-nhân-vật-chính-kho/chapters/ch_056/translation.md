@@ -16,7 +16,7 @@ Chu Lạc Lạc từ khi nào lại dính líu đến Viện nghiên cứu quố
 
 Mặc dù gã quả thực từng ra nước ngoài học thạc sĩ hai năm, nhưng đó là lúc nhà họ Chu còn chưa phá sản, vì muốn dát vàng lên người cho gã nên mới tống gã ra nước ngoài, ngành học lại còn là nghệ thuật, một chuyên ngành cách xa tám vạn dặm chẳng dính dáng gì tới bất kỳ phòng ban nào của Viện nghiên cứu.
 
-Dù sao nơi đó cũng được coi là cơ quan bí mật cấp quốc gia, tổng không thể rảnh rỗi không có việc gì làm mà mở riêng một phòng ban vui chơi giải trí, để cho các nghiên cứu viên ngoài giờ làm việc thỉnh thoảng có thể thư giãn nghe chút khúc nhạc, thưởng thức vài điệu múa, lại còn làm người mẫu, lúc tan tầm tiện tay xách một bức tranh tự họa mang về nhà chứ?
+Dù sao nơi đó cũng được coi là cơ quan bí mật cấp quốc gia, chẳng lẽ lại rảnh rỗi không có việc gì làm mà mở riêng một phòng ban vui chơi giải trí, để cho các nghiên cứu viên ngoài giờ làm việc thỉnh thoảng có thể thư giãn nghe chút khúc nhạc, thưởng thức vài điệu múa, lại còn làm người mẫu, lúc tan tầm tiện tay xách một bức tranh tự họa mang về nhà chứ?
 
 Thế thì xàm xí quá rồi!
 
@@ -66,7 +66,7 @@ Anh nở nụ cười với Lệ Yến Trạch, trên mặt ngập tràn ý tứ
 
 “Dù sao thì sau khi lập quốc không được phép thành tinh, gặp phải chuyện huyền huyễn ly kỳ thế này, thân là một người kế tục chủ nghĩa xã hội gốc rễ đỏ tươi như tôi, đương nhiên phải báo cáo chuyện này lên cho quốc gia rồi!”
 
-Sở Tư Thừa nói một cách đường hoàng đanh thép đầy vẻ chính nghĩa, khiến người ta nghe xong chỉ muốn ghép cho anh một cái phông nền đỏ rực lấp lánh đầy nhiệt huyết phấn đấu.
+Sở Tư Thừa nói một cách đường hoàng đanh thép đầy vẻ chính nghĩa, khiến người ta nghe xong chỉ muốn ghép cho cậu một cái phông nền đỏ rực lấp lánh đầy nhiệt huyết phấn đấu.
 
 Thế nhưng trong số những người muốn ghép ảnh kia tuyệt đối không bao gồm Lệ Yến Trạch.
 
@@ -90,7 +90,7 @@ Hắn ngước mắt nhìn Sở Tư Thừa, trong ánh mắt ngập tràn vẻ k
 
 Đối diện với lời chất vấn cuồng loạn đầy giận dữ của Lệ Yến Trạch, Sở Tư Thừa chẳng hề có chút cảm giác chột dạ hay cắn rứt nào, anh chỉ cảm thấy đầu óc người anh em này dường như có vấn đề về thần kinh.
 
-Chỉ trong một chốc lát ngắn ngủi, ban nãy hắn vừa mới bày ra bộ dạng quyến luyến không nỡ xa anh, thậm chí không tiếc lợi dụng cả bố Tống để đạt được mục đích của mình.
+Chỉ trong một chốc lát ngắn ngủi, ban nãy hắn vừa mới bày ra bộ dạng quyến luyến không nỡ xa cậu, thậm chí không tiếc lợi dụng cả bố Tống để đạt được mục đích của mình.
 
 Về sau khi hay tin Viện nghiên cứu tới tận cửa điều tra Chu Lạc Lạc, hắn lại trừng mắt đầy oán hận nhìn Sở Tư Thừa, tựa như chàng trai chính là Vương Mẫu nương nương nhẫn tâm chia rẽ hắn và Chu Lạc Lạc vậy.
 
@@ -114,9 +114,9 @@ Hắn tưởng mình đang chơi trò cung đấu thâm cung bí sử gì đấy
 
 Sở Tư Thừa cạn lời khẽ nhếch khóe môi, lười chẳng buồn dây dưa với sinh vật gốc cacbon nghe không hiểu tiếng người trước mặt nữa, xoay người chuẩn bị rời đi.
 
-Kịch xem đã đủ lâu rồi, anh cũng nên đi ăn chút gì lót dạ.
+Kịch xem đã đủ lâu rồi, cậu cũng nên đi ăn chút gì lót dạ.
 
-Chỉ là, anh muốn rời đi, nhưng diễn viên vẫn còn nấn ná trên sân khấu lại không cam tâm để anh đi như vậy.
+Chỉ là, cậu muốn rời đi, nhưng diễn viên vẫn còn nấn ná trên sân khấu lại không cam tâm để cậu đi như vậy.
 
 “Lạc An!”
 
@@ -154,7 +154,7 @@ Mặc dù lúc này hắn quả thực đang rất giận dữ với Sở Tư Th
 
 Dù sao sau khi Chu Lạc Lạc rời đi, bên cạnh hắn chỉ còn lại một mình Tống Lạc An mà thôi.
 
-Tự tin đến mức mù quáng như Lệ Yến Trạch, thậm chí còn cho rằng những lời phát biểu gốc rễ đỏ tươi vì chủ nghĩa xã hội trước đó của Sở Tư Thừa chỉ là cái cớ nhằm che giấu việc anh vẫn còn yêu hắn tha thiết.
+Tự tin đến mức mù quáng như Lệ Yến Trạch, thậm chí còn cho rằng những lời phát biểu gốc rễ đỏ tươi vì chủ nghĩa xã hội trước đó của Sở Tư Thừa chỉ là cái cớ nhằm che giấu việc cậu vẫn còn yêu hắn tha thiết.
 
 “Cậu đi theo tôi, đến giải thích rõ ràng với người của Viện nghiên cứu, bảo bọn họ đừng mang Lạc Lạc đi, sau này tôi bảo đảm, bên cạnh tôi sẽ chỉ có một mình cậu là tình nhân, được chưa hả?!”
 
@@ -162,18 +162,18 @@ Hắn nói ra những lời ấy nghe cứ như thể đang ban phát ơn huệ 
 
 Sở Tư Thừa vốn dĩ đã xoay người bước đi, nghe vậy liền quay ngược trở lại.
 
-Và rồi khi Lệ Yến Trạch chỉ huy đám vệ sĩ xông lên toan trói mình lại, anh không những không bỏ chạy, mà thậm chí còn cất bước đi thẳng về phía người đàn ông.
+Và rồi khi Lệ Yến Trạch chỉ huy đám vệ sĩ xông lên toan trói mình lại, cậu không những không bỏ chạy, mà thậm chí còn cất bước đi thẳng về phía hắn.
 
 “Sao nào? Nghĩ thông suốt rồi? Hay là muốn quay về——”
 
 “Rầm!”
 
-Sau một tiếng động lớn chấn thiên động địa, trong lúc viên trợ lý run rẩy đưa tay đẩy gọng kính, Sở Tư Thừa mặt không cảm xúc thu chân của mình về. Sau đó, dưới ánh mắt kinh hoàng chấn động của mọi người xung quanh, anh bước tới trước mặt người đàn ông vừa ngã văng ra bên cạnh thùng rác, từ trên cao nhìn xuống liếc hắn một cái, lạnh lùng cất tiếng:
+Sau một tiếng động lớn chấn thiên động địa, trong lúc viên trợ lý run rẩy đưa tay đẩy gọng kính, Sở Tư Thừa mặt không cảm xúc thu chân của mình về. Sau đó, dưới ánh mắt kinh hoàng chấn động của mọi người xung quanh, cậu bước tới trước mặt người đàn ông vừa ngã văng ra bên cạnh thùng rác, từ trên cao nhìn xuống liếc hắn một cái, lạnh lùng cất tiếng:
 
 “Tôi thực ra không muốn hoàn thành KPI ngược thân vào lúc này đâu.”
 
-Dù sao nơi này cũng có camera giám sát, đối phương nếu thật sự báo cảnh sát thì anh cũng không tiện giải trình.
+Dù sao nơi này cũng có camera giám sát, đối phương nếu thật sự báo cảnh sát thì cậu cũng không tiện giải trình.
 
-Thế nhưng, anh nói: “Hết cách rồi, anh đê tiện quá.”
+Thế nhưng, cậu nói: “Hết cách rồi, anh đê tiện quá.”
 
 Dưới sự giãy giụa của Lệ Yến Trạch, Sở Tư Thừa lạnh mặt giẫm thẳng gót giày lên bàn tay hắn đang chống xuống mặt đất định gượng dậy. Trong cơn đau đớn kịch liệt mười ngón liền tim, Lệ Yến Trạch nhìn thấy chàng trai khẽ nghiêng đầu, con ngươi tựa như bị mực nhuộm đẫm, loang ra một vệt đen kịt nồng đậm,

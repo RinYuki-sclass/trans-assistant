@@ -2,7 +2,7 @@
 title: Khi Đại Lão Phản Diện Sắm Vai Nhân Vật Chính [Khoái Xuyên] — Chương 54
 ---
 
-Vẫn là dưới sự soi rọi của ánh hào quang vàng kim lấp lánh trên người Thẩm Từ, anh mới chợt nhận ra hiện tượng tiếng lòng của Chu Lạc Lạc có thể để toàn thể mọi người nghe thấy đối với thế giới tiểu thuyết này mà nói là một chuyện vô cùng kỳ lạ.
+Vẫn là dưới sự soi rọi của ánh hào quang vàng kim lấp lánh trên người Thẩm Từ, cậu mới chợt nhận ra hiện tượng tiếng lòng của Chu Lạc Lạc có thể để toàn thể mọi người nghe thấy đối với thế giới tiểu thuyết này mà nói là một chuyện vô cùng kỳ lạ.
 
 Đúng là mở mang tầm mắt!
 
@@ -20,27 +20,27 @@ Thông thường những người sở hữu năng lực đặc thù thế này 
 
 “Vậy sao……”
 
-Vậy thì anh có lẽ cần phải cày cho đầy thanh tiến độ ngược luyến trước đã.
+Vậy thì cậu có lẽ cần phải cày cho đầy thanh tiến độ ngược luyến trước đã.
 
 Trong lúc Thẩm Từ trả lời các câu hỏi của bạn mình, Sở Tư Thừa tranh thủ liếc nhìn thanh tiến độ trên bảng điều khiển nhiệm vụ, tính đến hiện tại cũng mới chỉ đạt sáu mươi phần trăm.
 
 Phải công nhận rằng, tên Lệ Yến Trạch này cũng thật biết nhẫn nhịn, sau khi trải qua nhiều chuyện như vậy mà vẫn có thể giữ cho bốn mươi phần trăm giá trị ngược luyến còn lại hoàn toàn trống trơn.
 
-Đây là chê anh chưa mở màn kế hoạch ngược thân?
+Đây là chê cậu chưa mở màn kế hoạch ngược thân?
 
-Hay là vị tổng tài tự tin này lại diễn giải sai lệch những hành vi trước đó của anh rồi?
+Hay là vị tổng tài tự tin này lại diễn giải sai lệch những hành vi trước đó của cậu rồi?
 
 Sở Tư Thừa nhìn bảng điều khiển nhiệm vụ, bất giác khẽ nhíu mày, trong lòng chẳng hiểu sao lại có dự cảm dường như mình lại đụng phải kiểu nhân vật chính dính chút hơi hướng M kia rồi.
 
-Đó là mục tiêu nhiệm vụ mà trước đây ở phòng ban phản diện anh ghét gặp phải nhất, bởi vì bất kể bạn ngược đãi bọn họ ra sao, thậm chí kề dao thẳng vào cổ, dẫm đạp mặt bọn họ xuống bùn lầy, bọn họ cũng chẳng nỡ tăng thêm cho bạn chút xíu điểm phẫn nộ nào, thậm chí còn tự cho rằng đây là thủ đoạn mà phản diện dùng để thu hút sự chú ý của mình.
+Đó là mục tiêu nhiệm vụ mà trước đây ở phòng ban phản diện cậu ghét gặp phải nhất, bởi vì bất kể bạn ngược đãi bọn họ ra sao, thậm chí kề dao thẳng vào cổ, dẫm đạp mặt bọn họ xuống bùn lầy, bọn họ cũng chẳng nỡ tăng thêm cho bạn chút xíu điểm phẫn nộ nào, thậm chí còn tự cho rằng đây là thủ đoạn mà phản diện dùng để thu hút sự chú ý của mình.
 
 Trong thế giới của kiểu nhân vật chính này, tất cả mọi người đều phải yêu say đắm hắn, bất kể là nhân vật phụ hay vai phản diện, thảy đều sẽ phải quỳ gối dưới ống quần tây của hắn.
 
-Trước đây Sở Tư Thừa đã cực kỳ chán ghét kiểu nhân vật chính thiểu năng này, mà lúc này đây, anh lại ngửi thấy mùi vị thiểu năng y hệt tỏa ra từ trên người Lệ Yến Trạch.
+Trước đây Sở Tư Thừa đã cực kỳ chán ghét kiểu nhân vật chính thiểu năng này, mà lúc này đây, cậu lại ngửi thấy mùi vị thiểu năng y hệt tỏa ra từ trên người Lệ Yến Trạch.
 
 Nói thật, ở một mức độ nào đó, Sở Tư Thừa quả thực đã đoán trúng chân tướng.
 
-Bởi vì trước khi anh kiểm tra bảng điều khiển nhiệm vụ, lúc Lệ Yến Trạch cùng Chu Lạc Lạc vẫn còn đứng chặn trước cửa, điểm ngược tâm của đối phương vào một khoảnh khắc nào đó thực tế đã từng vọt lên tới tám mươi lăm phần trăm.
+Bởi vì trước khi cậu kiểm tra bảng điều khiển nhiệm vụ, lúc Lệ Yến Trạch cùng Chu Lạc Lạc vẫn còn đứng chặn trước cửa, điểm ngược tâm của đối phương vào một khoảnh khắc nào đó thực tế đã từng vọt lên tới tám mươi lăm phần trăm.
 
 Lệ Yến Trạch khi ấy tức giận đến mức hận không thể nghiền cả Sở Tư Thừa lẫn Thẩm Từ thành tro bụi rải theo gió.
 
@@ -66,7 +66,7 @@ Trên nền sàn nhà lạnh ngắt, Chu Lạc Lạc dùng sức véo mạnh và
 
 “Trạch ca, anh biết đấy, em rời đi ngần ấy năm trời, em không dám đánh cược, thật sự không dám đánh cược……”
 
-Dưới ánh đèn trắng lạnh, cậu trúc mã thanh mai cùng nhau lớn lên từ tấm bé trên má vương giọt lệ, thân hình mảnh khảnh vì đau lòng mà run rẩy nhè nhẹ, đôi mắt trong veo như hạt thủy tinh ngước nhìn người đàn ông lạnh như băng tuyết trước mặt, cả khuôn mặt đều là vẻ kinh hoàng sợ hãi sẽ để mất đối phương.
+Dưới ánh đèn trắng lạnh, người bạn trúc mã thanh mai cùng nhau lớn lên từ tấm bé trên má vương giọt lệ, thân hình mảnh khảnh vì đau lòng mà run rẩy nhè nhẹ, đôi mắt trong veo như hạt thủy tinh ngước nhìn người đàn ông lạnh như băng tuyết trước mặt, cả khuôn mặt đều là vẻ kinh hoàng sợ hãi sẽ để mất đối phương.
 
 Chẳng có người đàn ông nào lại nỡ từ chối một mối tình chân thành và nồng nhiệt đến nhường này.
 
@@ -106,11 +106,11 @@ Lệ Yến Trạch ngả người ra sau tựa vào ghế sofa, đôi mày khẽ
 
 Thuốc? Bệnh viện? Người nhà họ Tống!
 
-Nhờ ơn Chu Lạc Lạc, Lệ Yến Trạch rốt cuộc cũng nhớ tới mẹ Tống, hai anh em nhà họ Tống, cùng với ông bố nghiện ngập rượu chè mà trước đó hắn đã đặc biệt dặn dò cấp dưới đưa từ quê nhà của Tống Lạc An lên, những người suốt thời gian qua đã bị hắn bỏ quên sau lưng.
+Nhờ ơn Chu Lạc Lạc, Lệ Yến Trạch rốt cuộc cũng nhớ tới mẹ Tống, hai đứa em nhà họ Tống, cùng với ông bố nghiện ngập rượu chè mà trước đó hắn đã đặc biệt dặn dò cấp dưới đưa từ quê nhà của Tống Lạc An lên, những người suốt thời gian qua đã bị hắn bỏ quên sau lưng.
 
 Hàng mi khẽ rủ xuống, đầu ngón tay chậm rãi gõ nhịp trên tay vịn sofa, trong đầu Lệ Yến Trạch cũng lập tức hiện lên một vở kịch “anh hùng cứu mỹ nhân” vô cùng “tuyệt diệu”.
 
-Thế là, vào ngày hôm sau khi Sở Tư Thừa kết thúc chuỗi ngày nghỉ dưỡng ở khách sạn, chuẩn bị quay trở lại trường học để duy trì thiết lập nhân vật của nhân vật chính, anh đột nhiên nhận được cuộc gọi từ ông chủ cửa hàng tiện lợi nơi nhân vật chính từng làm thêm trước kia.
+Thế là, vào ngày hôm sau khi Sở Tư Thừa kết thúc chuỗi ngày nghỉ dưỡng ở khách sạn, chuẩn bị quay trở lại trường học để duy trì thiết lập nhân vật của nhân vật chính, cậu đột nhiên nhận được cuộc gọi từ ông chủ cửa hàng tiện lợi nơi nhân vật chính từng làm thêm trước kia.
 
 Đối phương nói trước đây nhân vật chính vẫn còn một khoản tiền lương bị giữ lại chưa lĩnh, hỏi Sở Tư Thừa khi nào rảnh qua lấy?
 
@@ -118,13 +118,13 @@ Thế là, vào ngày hôm sau khi Sở Tư Thừa kết thúc chuỗi ngày ngh
 
 Bảy giờ tối.
 
-Nhận tiền xong anh còn có thể đến dự buổi hẹn bữa tối dưới ánh nến với Thẩm Từ.
+Nhận tiền xong cậu còn có thể đến dự buổi hẹn bữa tối dưới ánh nến với Thẩm Từ.
 
 Sở Tư Thừa đã lên kế hoạch rất chu toàn.
 
-Chỉ là, ngay khi anh vừa nhận lương xong, bước chân ra khỏi cửa hàng tiện lợi và rút điện thoại chuẩn bị liên lạc với tài xế nhà họ Thẩm, thì trước mắt bỗng nhiên xẹt qua một bóng đen.
+Chỉ là, ngay khi cậu vừa nhận lương xong, bước chân ra khỏi cửa hàng tiện lợi và rút điện thoại chuẩn bị liên lạc với tài xế nhà họ Thẩm, thì trước mắt bỗng nhiên xẹt qua một bóng đen.
 
-Đồng thời, một tiếng gào khóc the thé thảm thiết, tựa như vừa chết cha cũng vang lên bên tai anh:
+Đồng thời, một tiếng gào khóc the thé thảm thiết, tựa như vừa chết cha cũng vang lên bên tai cậu:
 
 “Lạc An à! Con thật sự khiến bố tìm khổ quá mà!”
 
@@ -146,7 +146,7 @@ Người đi đường ngang qua không ai là không ném ánh nhìn hóng hớ
 
 Bên trong chiếc xe sang đậu cách đó không xa, người trợ lý ngồi ở ghế phụ nhìn cảnh tượng nhốn nháo ồn ào trước cửa tiệm tiện lợi, rốt cuộc vẫn không nhịn được mà hỏi thêm một câu:
 
-“Làm như vậy liệu có ảnh hưởng không tốt tới hình tượng của Tống tiên sinh không?”
+“Làm như vậy liệu có ảnh hưởng không tốt tới hình tượng của cậu Tống không?”
 
 Bây giờ là thời đại internet phát triển với tốc độ chóng mặt, trong cuộc sống ở đâu cũng đầy rẫy những khán giả, cảnh tượng này nếu bị người qua đường quay lại rồi tung lên mạng thì đối với một Tống Lạc An có cuộc sống vốn chẳng mấy yên ả mà nói, e rằng lại chuốc thêm một mớ phiền toái khác.
 
@@ -160,6 +160,6 @@ Mải chìm đắm trong dòng suy nghĩ của riêng mình, Lệ Yến Trạch 
 
 Đương nhiên, Sở Tư Thừa cũng chẳng hề có ý định cầu cứu Thẩm Từ.
 
-Hiện tại ngoài việc để mắt tới tài khoản viện phí ở bệnh viện ra, bất kể là Tống Lạc Minh hay Tống Lạc Mỹ, thậm chí ngay cả cuộc gọi của chính mẹ Tống, anh cũng đều chọn cách ngó lơ.
+Hiện tại ngoài việc để mắt tới tài khoản viện phí ở bệnh viện ra, bất kể là Tống Lạc Minh hay Tống Lạc Mỹ, thậm chí ngay cả cuộc gọi của chính mẹ Tống, cậu cũng đều chọn cách ngó lơ.
 
-Anh đã quen sống một mình quanh năm suốt tháng, đối với tình thân vốn dĩ chẳng có mấy khái niệm, huống chi kẻ trước mắt đang cố dùng tình thân để trói buộc bắt cóc anh lại là một ông bố họ Tống mà ngay cả Tống Lạc An trong nguyên tác cũng đã quyết định từ bỏ.
+Cậu đã quen sống một mình quanh năm suốt tháng, đối với tình thân vốn dĩ chẳng có mấy khái niệm, huống chi kẻ trước mắt đang cố dùng tình thân để trói buộc bắt cóc cậu lại là một ông bố họ Tống mà ngay cả Tống Lạc An trong nguyên tác cũng đã quyết định từ bỏ.

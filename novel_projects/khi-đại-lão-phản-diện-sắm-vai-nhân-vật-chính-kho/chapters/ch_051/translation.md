@@ -2,7 +2,7 @@
 title: Khi Đại Lão Phản Diện Sắm Vai Nhân Vật Chính [Khoái Xuyên] — Chương 51: 第51頁
 ---
 
-Hơn nữa đến cuối cùng, Lệ Yến Trạch cũng không để anh quay lại trường học.
+Hơn nữa đến cuối cùng, Lệ Yến Trạch cũng không để cậu quay lại trường học.
 
 Một học sinh nỗ lực thi đỗ Đại học Kinh đô, vốn dĩ có thể sở hữu một tương lai vô hạn, cuối cùng lại trở thành một con chim hoàng yến đạt chuẩn.
 
@@ -48,7 +48,7 @@ Hàng mi khẽ rủ, trong ánh mắt mà Lệ Yến Trạch tự cho là thâm 
 
 “Nhưng mấy ngày trước, chẳng phải anh vừa mới nói chúng ta chỉ là quan hệ hợp đồng sao.”
 
-Anh còn vô cùng chu đáo giúp Lệ Yến Trạch hồi tưởng lại cảnh tượng lúc đó,
+Cậu còn vô cùng chu đáo giúp Lệ Yến Trạch hồi tưởng lại cảnh tượng lúc đó,
 
 “Chính là cái ngày mà Chu Lạc Lạc cố nhịn khóc, muốn giấu đôi bàn tay bị bỏng ra sau lưng, kết quả lại bị một người mạnh mẽ như anh kéo thẳng vào lòng ấy.”
 
@@ -106,7 +106,7 @@ Lệ Yến Trạch cười lạnh một tiếng, cảm thấy bản thân cuối
 
 Gã chính là muốn đối phương biết rằng, kim chủ cũng không dễ thay đổi như vậy!
 
-Nhìn ánh mắt nắm chắc phần thắng của Lệ Yến Trạch, Sở Tư Thừa không nhịn được mà bật cười, anh chẳng cần đoán cũng biết Thẩm Từ chắc chắn đang đứng sau lưng lắng nghe, câu hỏi này của Lệ Yến Trạch vốn là dành cho Thẩm Từ nghe.
+Nhìn ánh mắt nắm chắc phần thắng của Lệ Yến Trạch, Sở Tư Thừa không nhịn được mà bật cười, cậu chẳng cần đoán cũng biết Thẩm Từ chắc chắn đang đứng sau lưng lắng nghe, câu hỏi này của Lệ Yến Trạch vốn là dành cho Thẩm Từ nghe.
 
 Đối phương muốn ly gián mối quan hệ giữa anh và Thẩm Từ, muốn anh mất đi kim chủ mới, loại người như thế này rốt cuộc dựa vào cái gì mà làm quan phối của nhân vật chính chứ?
 
@@ -124,7 +124,7 @@ Thế nhưng, ngay khi anh vừa đứng thẳng người dậy chuẩn bị ra 
 
 Thẩm Từ rũ mắt, lạnh nhạt liếc nhìn Lệ Yến Trạch một cái.
 
-"Cho dù cậu ta ở bên tôi vì tiền thì đã sao? Tôi có tiền, cậu ta cần tiền, chẳng phải điều đó chứng minh hai chúng tôi rất xứng đôi sao."
+“Cho dù cậu ấy ở bên tôi vì tiền thì đã sao? Tôi có tiền, cậu ấy cần tiền, chẳng phải điều đó chứng minh hai chúng tôi rất xứng đôi sao.”
 
 "Cậu không thể chấp nhận được điều này, chỉ có thể chứng minh là tiền của cậu không đủ nhiều mà thôi."
 
@@ -132,7 +132,7 @@ Chương 39: Thế giới hào môn 10
 
 Thẩm Từ khẽ rũ mắt, vẻ mặt bình thản nhìn Lệ Yến Trạch trước mặt.
 
-Ánh mắt hắn thực chất chẳng gợn chút sóng gió nào, giọng nói khi cất lời cũng nhẹ bẫng, nhưng chính vì thế lại càng khiến Lệ Yến Trạch cảm nhận được sự sỉ nhục chưa từng có.
+Ánh mắt anh thực chất chẳng gợn chút sóng gió nào, giọng nói khi cất lời cũng nhẹ bẫng, nhưng chính vì thế lại càng khiến Lệ Yến Trạch cảm nhận được sự sỉ nhục chưa từng có.
 
 Bởi vì câu nói kia của Thẩm Từ đã giẫm đúng vào điểm yếu chí mạng của hắn.
 
@@ -148,13 +148,13 @@ Trong nhà họ Lệ, tranh đấu ngầm không phải là một từ mang ngh�
 
 Đó là những hóa đơn mà rất nhiều người đang chằm chằm nhìn vào, chỉ cần sơ suất một chút thôi là sẽ trở thành vũ khí để kéo hắn xuống ngựa, cho nên so với Thẩm Từ, hắn quả thực không có nhiều tiền vốn để tùy ý sử dụng.
 
-Thêm vào đó, đúng lúc này, theo một tiếng "ting" vang lên, cửa thang máy ở cuối hành lang chậm rãi mở ra sang hai bên, theo sau đó là người trợ lý xách túi lớn túi nhỏ bước ra, cùng với hàng chục vệ sĩ mặc đồ đen cũng xách đủ loại đồ đạc giống như anh ta ở phía sau.
+Thêm vào đó, đúng lúc này, theo một tiếng "ting" vang lên, cửa thang máy ở cuối hành lang chậm rãi mở ra sang hai bên, theo sau đó là người trợ lý xách túi lớn túi nhỏ bước ra, cùng với hàng chục vệ sĩ mặc đồ đen cũng xách đủ loại đồ đạc giống như cậu ở phía sau.
 
 "Sở tổng!"
 
-Trợ lý vừa bước ra khỏi thang máy, khoảnh khắc nhìn thấy Lệ Yến Trạch, hắn đã lập tức nhận ra đây có lẽ là một màn tranh giành "chim hoàng yến" đầy kịch tính.
+Trợ lý vừa bước ra khỏi thang máy, khoảnh khắc nhìn thấy Lệ Yến Trạch, cậu đã lập tức nhận ra đây có lẽ là một màn tranh giành "chim hoàng yến" đầy kịch tính.
 
-Dù sao thì trong quá trình giúp Thẩm Từ sắp xếp thám tử tư trước đó, hắn cũng đã ít nhiều nắm được một vài thông tin về vị "ông Tống" ở phòng 3601.
+Dù sao thì trong quá trình giúp Thẩm Từ sắp xếp thám tử tư trước đó, cậu cũng đã ít nhiều nắm được một vài thông tin về vị “cậu Tống” ở phòng 3601.
 
 Trong đó đương nhiên bao gồm cả việc đối phương từng được Lệ Yến Trạch bao nuôi.
 
@@ -162,19 +162,19 @@ Ai cũng biết, trong giới tổng tài bá đạo, việc từng bao nuôi c�
 
 Đối với các tổng tài bá đạo mà nói, đây quả thực là sự sỉ nhục chí mạng!
 
-Thế là, sau khi nhanh chóng làm rõ mối quan hệ của mấy người trước mặt, sắc mặt trợ lý nghiêm lại, anh ta siết chặt túi mua sắm trong tay, cứ như thể thứ bên trong không phải quần áo hay giày dép, mà là vũ khí mới nhất do tập đoàn Shen nghiên cứu nhằm vào nhà họ Lệ vậy. Vừa lao thẳng về phía phòng 3601, anh ta vừa không quên tăng âm lượng:
+Thế là, sau khi nhanh chóng làm rõ mối quan hệ của mấy người trước mặt, sắc mặt trợ lý nghiêm lại, cậu siết chặt túi mua sắm trong tay, cứ như thể thứ bên trong không phải quần áo hay giày dép, mà là vũ khí mới nhất do Thẩm thị nghiên cứu nhằm vào nhà họ Lệ vậy. Vừa lao thẳng về phía phòng 3601, cậu vừa không quên cất cao giọng:
 
-"Tổng giám đốc Shen! Đây là quần áo và giày dép ngài bảo tôi mua cho ông Tống, tất nhiên, phụ kiện tôi cũng đã mua rồi, chỉ là chiếc đồng hồ ngài ưng ý hiện tại không có sẵn hàng, nên tôi đành lấy tạm chiếc hơn hai triệu tệ, mong ông Tống tạm thời dùng đỡ."
+“Thẩm tổng! Đây là quần áo và giày dép ngài bảo tôi mua cho cậu Tống, tất nhiên, phụ kiện tôi cũng đã mua rồi, chỉ là chiếc đồng hồ ngài ưng ý hiện tại không có sẵn hàng, nên tôi đành lấy tạm chiếc hơn hai triệu tệ, mong cậu Tống tạm thời dùng đỡ.”
 
 Trợ lý mỉm cười, cố tình nhấn mạnh vào cụm từ "hơn hai triệu tệ".
 
-Anh ta đã tìm hiểu từ những tài liệu kia, điều kiện mà Lệ Yến Trạch đưa ra khi bao nuôi Tống Lạc An ngoài việc giúp mẹ của Tống chữa bệnh ra, thì chỉ có vỏn vẹn một triệu tệ đáng thương.
+Cậu đã tìm hiểu từ những tài liệu kia, điều kiện mà Lệ Yến Trạch đưa ra khi bao nuôi Tống Lạc An ngoài việc giúp mẹ Tống chữa bệnh ra, thì chỉ có vỏn vẹn một triệu tệ đáng thương.
 
 Một triệu tệ.
 
 Trong mấy cuốn tiểu thuyết lạm phát giá cả này, số tiền đó thậm chí còn chẳng đủ để làm nam phụ có được kết cục tốt đẹp nữa là!
 
-Đâu giống như ông chủ của anh ta, chỉ riêng một chiếc đồng hồ thôi cũng đủ để bỏ xa Lệ Yến Trạch tám trăm vòng rồi.
+Đâu giống như ông chủ của cậu, chỉ riêng một chiếc đồng hồ thôi cũng đủ để bỏ xa Lệ Yến Trạch tám trăm vòng rồi.
 
 Đây mới chỉ là thứ Thẩm Từ chủ động tặng, còn phí bao nuôi các thứ thì vẫn chưa tính đến đâu!
 
@@ -196,7 +196,7 @@ Lệ Yến Trạch giận đến cực điểm, ngược lại còn bật cườ
 
 Còn tặng cả đồng hồ hơn hai triệu tệ, Tống Lạc An xứng sao?
 
-Hắn đã cho đối phương cuộc sống mà trước đây có nằm mơ cũng không chạm tới được, đưa cậu ta vượt qua mấy tầng lớp giai cấp, lẽ nào như vậy vẫn còn chưa đủ sao?
+Hắn đã cho đối phương cuộc sống mà trước đây có nằm mơ cũng không chạm tới được, đưa cậu vượt qua mấy tầng lớp giai cấp, lẽ nào như vậy vẫn còn chưa đủ sao?
 
 Nếu không có hắn, mẹ của Tống Lạc An e là đã sớm bệnh chết rồi, bản thân Tống Lạc An cũng tuyệt đối không thể cơm no áo ấm như hiện tại.
 
@@ -204,6 +204,6 @@ Hắn đã cho Tống Lạc An tất cả, kết quả bây giờ lại bị đ�
 
 Lệ Yến Trạch nhìn chằm chằm vào chàng trai đang đứng cạnh Thẩm Từ, người mà đối mặt với hắn chẳng có lấy một chút áy náy nào, chỉ cảm thấy mỉa mai đến cực điểm.
 
-“Thẩm Từ,” hắn chậm rãi mở miệng, “anh có từng nghĩ tới, hôm nay cậu ta vì anh mà chọn phản bội tôi, thì một ngày nào đó trong tương lai, cậu ta cũng sẽ vì một người khác mà chọn phản bội anh.”
+“Thẩm Từ,” hắn chậm rãi mở miệng, “anh có từng nghĩ tới, hôm nay cậu ta vì anh mà chọn phản bội tôi, thì một ngày nào đó trong tương lai, cậu ấy cũng sẽ vì một người khác mà chọn phản bội anh.”
 
 Lệ Yến Trạch tưởng rằng mình nói như vậy, dù không khiến Thẩm Từ lập tức từ bỏ Tống Lạc An, nhưng ít nhất cũng có thể gieo xuống một mầm mống nghi kỵ trong lòng đối phương, thời thời khắc khắc nhắc nhở hắn rằng chàng trai bên cạnh chính là một kẻ thấy tiền sáng mắt, một con sói mắt trắng vô ơn.

@@ -2,17 +2,17 @@
 title: Khi Đại Lão Phản Diện Sắm Vai Nhân Vật Chính [Khoái Xuyên] — Chương 60
 ---
 
-Dù sao khi hắn nhìn thẳng vào mặt đối phương thì chẳng có chút cảm giác nào, vừa quay đầu nhìn một bóng lưng thì tim lại bắt đầu đập thình thịch tăng tốc, nếu bảo không dính dáng chút ý tứ tìm người thế thân thì quả thực không thể nào nói xuôi được.
+Dù sao khi anh nhìn thẳng vào mặt đối phương thì chẳng có chút cảm giác nào, vừa quay đầu nhìn một bóng lưng thì tim lại bắt đầu đập thình thịch tăng tốc, nếu bảo không dính dáng chút ý tứ tìm người thế thân thì quả thực không thể nào nói xuôi được.
 
 Cho nên, Thẩm Từ im lặng một thoáng, cuối cùng đáp lại một câu:
 
 “Chỉ cảm thấy cậu khá hợp mắt tôi.”
 
-Câu nói này vừa thốt ra khỏi miệng hắn, viên trợ lý và người tài xế ngồi phía trước - những người từ sau khi hắn gọi giật Sở Tư Thừa lại đã một mực giả chết im thin thít - rốt cuộc không nhịn được mà lén ngẩng đầu liếc nhìn người đàn ông có vẻ mặt lạnh lùng hờ hững trong gương chiếu hậu, mưu toan từ những dấu vết nhỏ nhặt tìm ra bằng chứng chứng minh người này căn bản không phải là ông chủ nhà mình.
+Câu nói này vừa thốt ra khỏi miệng anh, viên trợ lý và người tài xế ngồi phía trước - những người từ sau khi anh gọi giật Sở Tư Thừa lại đã một mực giả chết im thin thít - rốt cuộc không nhịn được mà lén ngẩng đầu liếc nhìn người đàn ông có vẻ mặt lạnh lùng hờ hững trong gương chiếu hậu, mưu toan từ những dấu vết nhỏ nhặt tìm ra bằng chứng chứng minh người này căn bản không phải là ông chủ nhà mình.
 
 Bọn họ không thể tin nổi, người ông chủ mục hạ vô nhân, coi trời bằng vung nhà mình hóa ra cũng có ngày động lòng vì nhan sắc của kẻ khác!
 
-Cũng may mà người trợ lý không biết được những hoạt động tâm lý vừa rồi của Thẩm Từ, bằng không cậu ta thật sự sẽ chân thành tha thiết hỏi người đàn ông một câu:
+Cũng may mà người trợ lý không biết được những hoạt động tâm lý vừa rồi của Thẩm Từ, bằng không cậu thật sự sẽ chân thành tha thiết hỏi người đàn ông một câu:
 
 “Ông chủ à, lý do vì một bóng lưng mà muốn tiếp tục tiếp xúc với đối phương thì quá đỗi sắc dục, lẽ nào cái câu 'hợp mắt' này lại không mập mờ ám muội chắc?”
 
@@ -28,7 +28,7 @@ Mặc dù cả trợ lý lẫn tài xế đều vì cái lý do này của Thẩ
 
 Anh đứng trước cổng khu biệt thự Cảnh Viên, sau lưng là cánh cổng lớn nguy nga lộng lẫy tựa như một tòa cung điện nguy nga, thế nhưng ngay tại thời khắc này, Thẩm Từ lại cảm thấy chàng trai trước mắt còn rực rỡ chói lọi hơn cả tòa cung điện phía sau lưng.
 
-Và rồi, hắn nhìn thấy chàng trai nở nụ cười với mình, đôi mắt đen láy xinh đẹp khẽ cong cong, dễ dàng biến một lưỡi dao sắc nhọn thành một làn nước xuân ấm áp vỗ về:
+Và rồi, anh nhìn thấy chàng trai nở nụ cười với mình, đôi mắt đen láy xinh đẹp khẽ cong cong, dễ dàng biến một lưỡi dao sắc nhọn thành một làn nước xuân ấm áp vỗ về:
 
 “Tôi cũng cảm thấy,”
 
@@ -40,7 +40,7 @@ Sở Tư Thừa nói: “Thẩm tổng rất hợp mắt.”
 
 “Được.”
 
-Nhận được câu trả lời mà mình mong muốn, Thẩm Từ chỉ trong một giây đã khôi phục lại phong thái rụt rè kiêu ngạo thường ngày, phất phất tay với Sở Tư Thừa nói:
+Nhận được câu trả lời mà mình mong muốn, Thẩm Từ chỉ trong một giây đã khôi phục lại phong thái kiêu kỳ thận trọng thường ngày, phất phất tay với Sở Tư Thừa nói:
 
 “Vậy cậu mau vào thu dọn hành lý đi, đánh nhanh thắng nhanh, đừng làm mất thời gian.”
 
@@ -56,7 +56,7 @@ Trợ lý há hốc mồm trợn tròn mắt nhìn một loạt thao tác mượ
 
 Người trợ lý ngồi phía trước Thẩm Từ hoang mang khó hiểu, mà ở một bên khác, hệ thống đi bên cạnh Sở Tư Thừa cũng có chút tò mò.
 
-“Chỉ là muốn xem thử hắn có giống tôi giữ lại được ký ức trước kia hay không thôi.” Sở Tư Thừa nhàn nhạt cất lời.
+“Chỉ là muốn xem thử anh ấy có giống tôi giữ lại được ký ức trước kia hay không thôi.” Sở Tư Thừa nhàn nhạt cất lời.
 
 Thế nhưng thật đáng tiếc, người đàn ông đối với những chuyện đã phát sinh giữa hai người trước đây hoàn toàn mù tịt không hay biết gì. Tuy nhiên điều này cũng chứng minh rằng việc đối phương lựa chọn anh thuần túy là xuất phát từ sự bốc đồng nơi tận đáy lòng nguyên bản.
 
@@ -64,15 +64,15 @@ Thế nhưng thật đáng tiếc, người đàn ông đối với những chuy
 
 Cảm ơn nó đã xoay chuyển thời không, trao cho hai người một cuộc hội ngộ hoàn toàn tỉnh táo và bình đẳng.
 
-Mặc dù nói cuộc gặp gỡ lần trước anh cũng chẳng hề chán ghét, thế nhưng Sở Tư Thừa vẫn thích sự chìm đắm trong tỉnh táo của hiện tại hơn.
+Mặc dù nói cuộc gặp gỡ lần trước cậu cũng chẳng hề chán ghét, thế nhưng Sở Tư Thừa vẫn thích sự chìm đắm trong tỉnh táo của hiện tại hơn.
 
-Thế nhưng, tấm lòng muốn cảm ơn này của anh vừa bước chân vào cửa lớn đã bị một chiếc bình hoa bay thẳng tới đập ngược trở lại vào trong bụng.
+Thế nhưng, tấm lòng muốn cảm ơn này của cậu vừa bước chân vào cửa lớn đã bị một chiếc bình hoa bay thẳng tới đập ngược trở lại vào trong bụng.
 
 Nghiêng mình né tránh chiếc bình hoa đang lao vun vút về phía mình, Sở Tư Thừa ngước mắt nhìn vào phòng khách, ngay sau đó liền nhìn thấy một Lệ Yến Trạch sắc mặt âm trầm đang ngồi trên chiếc xe lăn.
 
 “Cậu còn biết đường vác mặt về đây cơ à?!”
 
-Sở Tư Thừa căn bản không muốn trả lời câu hỏi này của Lệ Yến Trạch, anh chỉ muốn biết người đàn ông này một khắc không phát điên thì liệu có chết ngay được hay không?
+Sở Tư Thừa căn bản không muốn trả lời câu hỏi này của Lệ Yến Trạch, cậu chỉ muốn biết người đàn ông này một khắc không phát điên thì liệu có chết ngay được hay không?
 
 Lúc này, người quản lý tận tụy làm tròn bổn phận tựa như một bóng ma lướt nhẹ tới bên cạnh Sở Tư Thừa, hạ thấp giọng giải đáp nguyên nhân Lệ Yến Trạch nổi cơn lôi đình cho anh nghe:
 
@@ -80,7 +80,7 @@ Lúc này, người quản lý tận tụy làm tròn bổn phận tựa như m�
 
 Ồ.
 
-Hóa ra là vì người khác xoa bóp không thoải mái, nên muốn đòi hỏi dịch vụ xoa bóp của anh đây mà.
+Hóa ra là vì người khác xoa bóp không thoải mái, nên muốn đòi hỏi dịch vụ xoa bóp của cậu đây mà.
 
 Mặc dù nói khách hàng là thượng đế, nhưng thượng đế cũng không thể tùy tiện cầm bình hoa ném thẳng vào người ta như thế được chứ.
 
@@ -108,7 +108,7 @@ Quản lý ngơ ngác: “…… Nói xong rồi.”
 
 Sở Tư Thừa vừa dứt lời liền cất bước đi thẳng về phía phòng ngủ của mình.
 
-Suốt quá trình anh chẳng buồn để tâm tới người quản lý đang chết trân tại chỗ, càng không thèm đoái hoài gì đến một Lệ Yến Trạch sắc mặt đang đen kịt lại.
+Suốt quá trình cậu chẳng buồn để tâm tới người quản lý đang chết trân tại chỗ, càng không thèm đoái hoài gì đến một Lệ Yến Trạch sắc mặt đang đen kịt lại.
 
 “Tống Lạc An, cậu có ý gì hả?!”
 

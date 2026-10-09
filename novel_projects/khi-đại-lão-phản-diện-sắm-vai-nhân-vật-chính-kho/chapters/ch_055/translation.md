@@ -4,7 +4,7 @@ title: Khi Đại Lão Phản Diện Sắm Vai Nhân Vật Chính [Khoái Xuyên
 
 Lùi về sau một bước né tránh cánh tay đang vươn tới định ôm chặt lấy đùi mình của bố Tống, Sở Tư Thừa tiện tay cầm lấy cây lau nhà của cửa hàng tiện lợi chắn ngang giữa mình và bố Tống.
 
-Sắc mặt của anh vô cùng bình thản, không hề vì sự xuất hiện bất thình lình của bố Tống mà hoảng loạn, cũng chẳng hề vì những lời sám hối nước mắt ngắn dài của đối phương mà mảy may dao động.
+Sắc mặt của cậu vô cùng bình thản, không hề vì sự xuất hiện bất thình lình của bố Tống mà hoảng loạn, cũng chẳng hề vì những lời sám hối nước mắt ngắn dài của đối phương mà mảy may dao động.
 
 Ánh mắt lạnh lùng hờ hững tựa như người đàn ông trung niên trước mặt căn bản không phải người cha có chung dòng máu huyết thống với mình, mà chỉ là một kẻ quen thói nhìn mặt đặt tên, thích lang thang ăn xin bên cạnh bến xe vậy.
 
@@ -14,7 +14,7 @@ Sở Tư Thừa rũ mắt nhìn bố Tống vẫn chưa từ bỏ ý định mà
 
 “Tôi mắc bệnh sạch sẽ, mức độ chịu đựng đối với những thứ dơ bẩn trước giờ luôn rất thấp.”
 
-Nếu bố Tống dám tiến thêm một bước nữa, anh không dám đảm bảo bản thân sẽ không tung một cước đá văng đối phương ra xa.
+Nếu bố Tống dám tiến thêm một bước nữa, cậu không dám đảm bảo bản thân sẽ không tung một cước đá văng đối phương ra xa.
 
 Bố Tống vốn dĩ còn muốn dựa vào sự đụng chạm da thịt để gia tăng mức độ mềm lòng của Tống Lạc An: “……”
 
@@ -22,11 +22,11 @@ Bố Tống vốn dĩ còn muốn dựa vào sự đụng chạm da thịt để
 
 Ông ta là thứ dơ bẩn sao?!
 
-Bố Tống quanh năm suốt tháng nghiện ngập rượu chè, dưới sự kích thích của cồn vốn đã hình thành cái tính khí như thùng thuốc súng hễ chạm là nổ. Lúc này đối diện với sự chê bai ghét bỏ cùng nỗi sỉ nhục chẳng thèm che giấu của Sở Tư Thừa, trong tiềm thức ông ta liền muốn nhảy dựng lên tát cho chàng trai một bạt tai giống hệt như hồi còn nhỏ, để dạy cho anh nhớ rõ xem giữa hai người rốt cuộc ai mới là bố!
+Bố Tống quanh năm suốt tháng nghiện ngập rượu chè, dưới sự kích thích của cồn vốn đã hình thành cái tính khí như thùng thuốc súng hễ chạm là nổ. Lúc này đối diện với sự chê bai ghét bỏ cùng nỗi sỉ nhục chẳng thèm che giấu của Sở Tư Thừa, trong tiềm thức ông ta liền muốn nhảy dựng lên tát cho chàng trai một bạt tai giống hệt như hồi còn nhỏ, để dạy cho cậu nhớ rõ xem giữa hai người rốt cuộc ai mới là bố!
 
 Thế nhưng Tống Lạc An của hiện tại đã không còn là cậu bé con mặc cho ông ta tha hồ đánh đập chửi bới năm xưa nữa rồi.
 
-Anh cao hơn bố Tống hẳn một cái đầu, vóc dáng cho dù có hơi gầy guộc đôi chút thì cũng cường tráng khỏe khoắn hơn gấp trăm ngàn lần một ông bố Tống đã bị rượu cồn tàn phá mục rỗng thân thể.
+Cậu cao hơn bố Tống hẳn một cái đầu, vóc dáng cho dù có hơi gầy guộc đôi chút thì cũng cường tráng khỏe khoắn hơn gấp trăm ngàn lần một ông bố Tống đã bị rượu cồn tàn phá mục rỗng thân thể.
 
 Biết đâu cái tát kia còn chưa kịp chạm vào mặt Tống Lạc An, thì chính ông ta đã bị chàng trai một cước đá bay lên giữa không trung rồi.
 
@@ -52,15 +52,15 @@ Lệ Yến Trạch vừa mới bước xuống xe đi tới bên này chuẩn b�
 
 Ngược lại, viên trợ lý đi theo sau lưng hắn lại mang vẻ mặt hết sức bình thản, cả khuôn mặt đều hiện rõ vẻ quả nhiên đúng như dự đoán.
 
-Ngay từ lúc Lệ Yến Trạch muốn lợi dụng bố Tống để cứu vãn Tống Lạc An, cậu ta đã liệu trước chuyện này tuyệt đối sẽ không diễn ra êm xuôi thuận lợi như người đàn ông sắp đặt.
+Ngay từ lúc Lệ Yến Trạch muốn lợi dụng bố Tống để cứu vãn Tống Lạc An, cậu đã liệu trước chuyện này tuyệt đối sẽ không diễn ra êm xuôi thuận lợi như người đàn ông sắp đặt.
 
-Mặc dù quãng thời gian này vì công việc nên cậu ta không trực tiếp tiếp xúc với Tống Lạc An, nhưng với tư cách là người bị người nhà họ Tống quấy rầy làm phiền nhiều nhất trong thời gian gần đây, đứng ở vị trí một khán giả bàng quan, cậu ta đã sớm cảm nhận được sự thay đổi kinh thiên động địa ở Tống Lạc An rồi.
+Mặc dù quãng thời gian này vì công việc nên cậu không trực tiếp tiếp xúc với Tống Lạc An, nhưng với tư cách là người bị người nhà họ Tống quấy rầy làm phiền nhiều nhất trong thời gian gần đây, đứng ở vị trí một khán giả bàng quan, cậu đã sớm cảm nhận được sự thay đổi kinh thiên động địa ở Tống Lạc An rồi.
 
 Anh ngay cả hai đứa em trai em gái họ Tống trước kia có thể tùy ý đòi hỏi yêu sách ở anh mà anh còn coi như không khí, thì làm sao có thể để tâm tới một người cha từ nhỏ đã đánh đập mắng mỏ, chưa từng dành cho anh lấy một chút hơi ấm tình thương cơ chứ.
 
-Chỉ là với tư cách một kẻ làm công ăn lương tiêu chuẩn, trợ lý cũng hiểu rất rõ bản thân không có tư cách can thiệp vào suy nghĩ của ông chủ. Thay vì nói nhiều sai nhiều, cậu ta dứt khoát ngoan ngoãn đi theo bên cạnh ông chủ, làm một khán giả câm lặng hợp cách, hưởng lương để sờ cá cho xong chuyện.
+Chỉ là với tư cách một kẻ làm công ăn lương tiêu chuẩn, trợ lý cũng hiểu rất rõ bản thân không có tư cách can thiệp vào suy nghĩ của ông chủ. Thay vì nói nhiều sai nhiều, cậu dứt khoát ngoan ngoãn đi theo bên cạnh ông chủ, làm một khán giả câm lặng hợp cách, hưởng lương để sờ cá cho xong chuyện.
 
-Trợ lý khẽ nâng mi, nhìn chàng trai đối diện kia dù là sau khi Lệ Yến Trạch xuất hiện thì mí mắt cũng lười chẳng buồn nhấc lên lấy một cái, cậu ta chớp chớp mắt, lại lùi về sau nửa bước, cố gắng giảm thiểu cảm giác tồn tại của mình xuống mức thấp nhất.
+Trợ lý khẽ nâng mi, nhìn chàng trai đối diện kia dù là sau khi Lệ Yến Trạch xuất hiện thì mí mắt cũng lười chẳng buồn nhấc lên lấy một cái, cậu chớp chớp mắt, lại lùi về sau nửa bước, cố gắng giảm thiểu cảm giác tồn tại của mình xuống mức thấp nhất.
 
 Lệ Yến Trạch bước tới trước mặt Sở Tư Thừa, chán ghét liếc nhìn bố Tống đang ngồi dưới đất chẳng tích sự gì, sau đó ngẩng đầu nhìn Sở Tư Thừa nói:
 
@@ -80,7 +80,7 @@ Sở Tư Thừa nhìn Lệ Yến Trạch khẽ nghiêng đầu:
 
 Bố Tống bất kể là vì nguyên nhân gì mà một chân bước vào cửa tử, thì đó cũng đều là chuyện của chính ông ta, chẳng dính dáng một xu một cắc nào tới Sở Tư Thừa cả.
 
-Càng không đáng để anh phải tốn tâm tốn sức đi suy nghĩ xem rốt cuộc ông ta vì cái gì mà sắp chết.
+Càng không đáng để cậu phải tốn tâm tốn sức đi suy nghĩ xem rốt cuộc ông ta vì cái gì mà sắp chết.
 
 Ông ta thích chết hay không thì tùy.
 
@@ -88,9 +88,9 @@ Khuôn mặt Sở Tư Thừa nở một nụ cười mỉm.
 
 Lệ Yến Trạch: “……”
 
-Hắn nhìn chằm chằm chàng trai trước mặt, dung mạo thanh tú tuấn tú xinh đẹp, đặc biệt là đôi mắt tròn xoe kia, mỗi khi cong cong lên đều sẽ lây lan niềm vui khiến những người bên cạnh vô thức vui vẻ theo anh.
+Hắn nhìn chằm chằm chàng trai trước mặt, dung mạo thanh tú tuấn tú xinh đẹp, đặc biệt là đôi mắt tròn xoe kia, mỗi khi cong cong lên đều sẽ lây lan niềm vui khiến những người bên cạnh vô thức vui vẻ theo cậu.
 
-Dáng vẻ vẫn là dáng vẻ năm nào, nhưng tính cách so với trước kia lại là một trời một vực, càng không cần phải nói đến ánh mắt anh nhìn hắn, cũng chẳng còn chút tình ý đong đầy đến mức sắp tràn ra ngoài như thuở trước nữa, chỉ còn lại một đầm nước lạnh lẽo thấu xương mà thôi.
+Dáng vẻ vẫn là dáng vẻ năm nào, nhưng tính cách so với trước kia lại là một trời một vực, càng không cần phải nói đến ánh mắt cậu nhìn hắn, cũng chẳng còn chút tình ý đong đầy đến mức sắp tràn ra ngoài như thuở trước nữa, chỉ còn lại một đầm nước lạnh lẽo thấu xương mà thôi.
 
 Chẳng hiểu vì sao, trái tim Lệ Yến Trạch bỗng nhói đau âm ỉ, khiến hắn có chút nghẹt thở khó thở, đồng thời, hắn lại càng muốn tóm chặt lấy chàng trai trước mắt hơn bao giờ hết.
 
@@ -108,13 +108,13 @@ Người đàn ông nhìn chằm chằm vào mắt Sở Tư Thừa, toan tính t
 
 Thế nhưng thật đáng tiếc, hắn chỉ nhìn thấy một mảnh phẳng lặng bình yên trong đôi mắt ấy.
 
-Dường như cho dù bố Tống có chết ngay trước mặt anh vào lúc này, anh cũng sẽ chẳng chớp mắt lấy một cái.
+Dường như cho dù bố Tống có chết ngay trước mặt cậu vào lúc này, cậu cũng sẽ chẳng chớp mắt lấy một cái.
 
-Gọi điện thoại cho nhà tang lễ hỏa táng đã là sự nhân từ cuối cùng của anh rồi.
+Gọi điện thoại cho nhà tang lễ hỏa táng đã là sự nhân từ cuối cùng của cậu rồi.
 
 Sở Tư Thừa: “Còn có việc gì nữa không? Không có việc gì thì tôi đi trước đây.”
 
-Chỗ này cách nhà hàng mà Thẩm Từ đặt bàn khá xa, anh phải xuất phát sớm một chút mới kịp.
+Chỗ này cách nhà hàng mà Thẩm Từ đặt bàn khá xa, cậu phải xuất phát sớm một chút mới kịp.
 
 “Lạc An!”
 
@@ -140,7 +140,7 @@ Sở Tư Thừa khẽ cười trầm thấp, trước tiên là liếc nhìn b�
 
 Anh quay về bên cạnh Lệ Yến Trạch, món nợ của bố Tống quả thực không cần phải lo lắng nữa.
 
-Nhưng còn anh thì sao?
+Nhưng còn cậu thì sao?
 
 Lại có thể nhận được cái gì?
 
@@ -172,7 +172,7 @@ Nói đoạn, Sở Tư Thừa tung một cước đá văng bàn tay bố Tống
 
 “Tống Lạc An!”
 
-Một giọng nam đầy tức giận vang lên sau lưng anh.
+Một giọng nam đầy tức giận vang lên sau lưng cậu.
 
 Sở Tư Thừa ngoảnh đầu lại, liền nhìn thấy Lệ Yến Trạch đang u ám nhìn mình:
 
@@ -196,7 +196,7 @@ Tuy nhiên, đối diện với một Lệ Yến Trạch đầy tự tin, Sở T
 
 “Vậy cậu đang nói ai?”
 
-Tổng không phải thật sự là bố đẻ của hắn đấy chứ?
+Chẳng lẽ lại là bố đẻ của hắn thật đấy chứ?
 
 Lệ Yến Trạch khẽ nhíu mày, dưới ánh mắt cười như không cười của Sở Tư Thừa, hắn toan rút điện thoại ra để quan tâm thăm hỏi tình hình sức khỏe của ông bô nhà mình một chút.
 

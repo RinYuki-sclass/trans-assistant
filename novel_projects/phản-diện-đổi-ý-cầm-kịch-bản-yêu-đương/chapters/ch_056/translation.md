@@ -96,7 +96,7 @@ Sở Niên Niên giơ mu bàn tay lên, mạnh mẽ lau mắt, trong lòng mắn
 
 “Cái gì chứ!”
 
-“Anh ta dựa vào cái gì mà nghĩ mình không thể ở lại căn cứ Long Thành cùng anh ta chứ.”
+“Anh dựa vào cái gì mà nghĩ em không thể ở lại căn cứ Long Thành cùng anh chứ.”
 
 Cậu không phải không hiểu, Cố Xuyên làm như vậy chẳng qua là không muốn cậu gặp bất kỳ nguy hiểm nào.
 

@@ -1,32 +1,30 @@
-# 📋 BÁO CÁO QC: KHI ĐẠI LÃO PHẢN DIỆN SẮM VAI NHÂN VẬT CHÍNH - CH_063
-- **Tiêu đề:** Chương 63: Vạch trần sự thật 3 năm chưa từng lên giường & Không khí mập mờ trong xe
-- **Điểm chất lượng dịch:** 10/10 (Đạt chuẩn xuất bản)
-- **Số đoạn gốc:** 101 | **Số đoạn dịch:** 101 (Khớp 1:1 hoàn hảo)
-- **Định dạng:** Đảm bảo cách đúng 1 dòng trống (`\n\n`) giữa tất cả các đoạn trần thuật và lời thoại.
+# Báo cáo Kiểm định Chất lượng (QC Report) - Chương 063
+
+## 1. Thông tin kiểm định
+- **Chương:** 063
+- **Trạng thái:** PASSED ✅
+- **Tổng số đoạn:** 102/102 đoạn (khớp 1:1 tuyệt đối với source.md)
+- **Mức độ hoàn thành:** 100%
 
 ---
 
-### 🔍 1. BẢNG KIỂM TOÁN XƯNG HÔ & NHÂN VẬT (PRONOUN & CHARACTER DRIFT)
-| Nhóm kiểm tra | Quy tắc kiểm toán | Kết quả kiểm toán | Đánh giá |
-| :--- | :--- | :--- | :---: |
-| **Case A1 (Đặc quyền Công)** | Sở Tư Thừa là người DUY NHẤT dùng "anh" trong trần thuật. | Không có nhân vật nam nào khác bị gọi là "anh" ngoài Sở Tư Thừa. | ✅ ĐẠT |
-| **Case A2 (Đại từ Thụ)** | Thẩm Từ luôn dùng "hắn" trong văn trần thuật (CẤM dùng "anh/cậu"). | Toàn bộ các câu trần thuật đều dùng đúng "hắn" cho Thẩm Từ. | ✅ ĐẠT |
-| **Case A3 (Nhập xác)** | Sở Tư Thừa nhập vào Tống Lạc An thì trần thuật quy nhất về "anh". | Không xảy ra phân mảnh thân xác, quy nhất "anh". | ✅ ĐẠT |
-| **Case A4 (Sắc thái Phản diện)** | Chu Lạc Lạc dùng "gã", Lệ Yến Trạch dùng "hắn". | Chu Lạc Lạc luôn dùng "gã", giữ đúng sắc thái phản diện trà xanh. | ✅ ĐẠT |
-| **Case B1-B2 (Đối thoại Công-Thụ)** | Thẩm Từ gọi Sở Tư Thừa là "cậu", xưng "tôi"; Sở Tư Thừa xưng "tôi", gọi "anh/ngài/Thẩm tổng/ông chủ". | Không bị hiện tượng "Anh - Anh" đối xứng, không nhầm speaker. | ✅ ĐẠT |
+## 2. Kiểm tra Hệ thống Đại từ & Ngôi xưng (Pronoun Audit)
+- **Công (Sở Tư Thừa / Tống Lạc An):**
+  - Ngôi thứ ba trần thuật: 100% dùng **"cậu"** (đã chỉnh sửa các vị trí cũ nhầm thành "anh" ở P2, P3, P13, P14, P16, P55, P81, P87).
+  - Thoại: Gọi Thẩm Từ là "anh / ông chủ", xưng "tôi", gọi Lệ Yến Trạch là "anh" châm chọc (P8).
+- **Thụ (Thẩm Từ):**
+  - Ngôi thứ ba trần thuật: 100% dùng **"anh"** (đã chỉnh sửa triệt để các vị trí cũ nhầm thành "hắn" ở P18, P20, P30, P31, P36, P46, P48, P51, P52, P55, P56, P63, P64, P70, P80, P84, P85, P90, P91, P94, P95, P96, P98, P100).
+- **Tra công (Lệ Yến Trạch):**
+  - Ngôi thứ ba trần thuật: 100% dùng **"hắn"**.
 
 ---
 
-### ⚠️ 2. BẢNG KIỂM SOÁT THUẬT NGỮ & TÊN RIÊNG (GLOSSARY & ENTITIES)
-| Thuật ngữ / Thực thể | Quy chuẩn áp dụng | Trạng thái |
-| :--- | :--- | :---: |
-| **Tên phương Tây / TG1** | Giữ nguyên tiếng Anh: `Felo` (CẤM Phí Lạc). | ✅ ĐẠT |
-| **Thực thể tà ác** | Dùng chuẩn định danh: `Hư ảnh đầu lâu / Đầu lâu` (CẤM Khô Lâu). | ✅ ĐẠT |
-| **Danh xưng Trùng tộc** | Không dùng lượng từ `con` (dùng `thư trùng`, `hùng trùng`). | ✅ ĐẠT (Đã patch chuẩn) |
-| **Tên nhân vật TG2** | Sở Tư Thừa, Thẩm Từ, Lệ Yến Trạch, Chu Lạc Lạc, Tống Lạc An, Tống Thiên. | ✅ ĐẠT |
+## 3. Kiểm tra Độ trung thực & Toàn vẹn (Fidelity Audit)
+- **Omission/Addition:** Không có đoạn nào bị bỏ sót hay thêm thắt. Khớp chính xác 1:1 từng đoạn văn với nguyên tác.
+- **Dấu câu & Định dạng:** Sử dụng ngoặc thoại `“...”`, mỗi đoạn cách nhau đúng một dòng trống (`\n\n`).
+- **Miêu tả tinh tế:** Khắc họa trọn vẹn và gợi cảm không khí mập mờ, sự rung động và giằng xé kiểm soát của Thẩm Từ trên xe cùng với sự câu dẫn đầy quyến rũ của Sở Tư Thừa.
 
 ---
 
-### 💡 3. KẾT LUẬN & HÀNH ĐỘNG
-- **Ghi chú chương:** Sở Tư Thừa ném quả bom chưa từng lên giường. Thẩm Từ thừa nhận sợ 'mất kiểm soát'. Xưng hô và văn phong chuẩn 1:1.
-- **Kết luận:** Chương đã được kiểm toán toàn diện, đối chiếu 1:1 với nguyên tác tiếng Trung và bộ quy chuẩn `AGENTS.md`. Bản dịch đạt chất lượng cao nhất, sẵn sàng lưu trữ và xuất bản.
+## 4. Kết luận
+Chương 063 đạt chuẩn chất lượng xuất bản, đáp ứng toàn diện các tiêu chí trong `rules_arc_2.md` và `AGENTS.md`.

@@ -38,7 +38,7 @@ Lục Thiên dừng bước, lắc đầu “Cậu thật sự là…” Hắn q
 
 “Những thứ này tôi đều có thể nhịn, nhưng tôi không thể nhịn được cậu quyến rũ Cố Xuyên.” Giọng Lục Thiên bắt đầu run rẩy, “Cả đời này tôi chỉ thích có mình anh ấy, tại sao ngay cả anh ấy cậu cũng muốn cướp đi, tại sao tôi cố gắng như vậy, anh ấy vẫn không để mắt tới tôi.”
 
-Sở Niên Niên đút tay vào túi, dựa vào thân cây, không nói gì. Nếu thật sự phải tính toán, không có cậu ta, Lục Thiên đúng là sẽ ở bên Cố Xuyên.
+Sở Niên Niên đút tay vào túi, dựa vào thân cây, không nói gì. Nếu thật sự phải tính toán, không có cậu, Lục Thiên đúng là sẽ ở bên Cố Xuyên.
 
 “Nhưng tôi muốn nói cho cậu biết, cậu vui mừng quá sớm rồi.”
 

@@ -5,9 +5,9 @@
     "original_name": "楚司承",
     "pinyin": "Chǔ Sīchéng",
     "gender": "Nam",
-    "third_person_pronoun": "anh",
+    "third_person_pronoun": "anh (ở Arc 1) / cậu (ở Arc 2 & 3)",
     "role": "Nhân vật chính, cựu Trưởng nhóm Phản diện của Cục Quản lý Thời Không",
-    "notes": "Bình tĩnh, cơ trí, thâm độc, phong thái đại lão phản diện. Xuyên vào các vai chính bị ngược để đoạt lại hào quang. Là NHÂN VẬT DUY NHẤT dùng đại từ ngôi thứ 3 trần thuật là \"anh\". Xưng hô với Thụ: xưng \"tôi\", gọi Thụ là \"anh\" / tên riêng / chức danh."
+    "notes": "Bình tĩnh, cơ trí, phong thái đại lão phản diện. Ngôi 3 trần thuật: Arc 1 dùng \"anh\"; Arc 2 & 3 dùng \"cậu\". Đối thoại Arc 2 & 3: xưng \"cậu\" (hoặc \"tôi/em\"), gọi Thụ là \"anh\"."
   },
   {
     "name": "Ryan",
@@ -93,9 +93,9 @@
     "original_name": "宋乐安",
     "pinyin": "Sòng Lè'ān",
     "gender": "Nam",
-    "third_person_pronoun": "anh (khi Sở Tư Thừa nhập xác) / cậu (nguyên chủ)",
+    "third_person_pronoun": "cậu",
     "role": "Thân xác nguyên tác thế giới 2 (Hào môn thế gia), sinh viên đại học kiêm 'chim hoàng yến'",
-    "notes": "Thân xác nguyên tác thế giới 2. Khi Sở Tư Thừa nhập vào điều khiển thì trần thuật quy nhất đại từ về \"anh\" (theo Sở Tư Thừa). Chỉ dùng \"cậu\" khi nói về Tống Lạc An nguyên bản trong quá khứ."
+    "notes": "Thân xác nguyên tác thế giới 2. Trần thuật ngôi 3 dùng \"cậu\". Đối thoại: xưng \"cậu\" (hoặc \"tôi/em\"), gọi Thẩm Từ là \"anh\"."
   },
   {
     "name": "Thẩm Từ",
@@ -103,9 +103,9 @@
     "original_name": "沈辞",
     "pinyin": "Shěn Cí",
     "gender": "Nam",
-    "third_person_pronoun": "hắn",
+    "third_person_pronoun": "anh",
     "role": "Tổng tài / Đại lão phản diện thế giới 2 (Đối thủ cạnh tranh của Lệ Yến Trạch)",
-    "notes": "Tổng tài / Đại lão phản diện thế giới 2 (Thụ TG2). Lạnh lùng, thâm sâu. Đại từ ngôi 3 trần thuật luôn dùng \"hắn\" (TUYỆT ĐỐI KHÔNG dùng \"anh\"). Đối thoại: xưng \"tôi\", gọi Sở Tư Thừa là \"cậu\" (TUYỆT ĐỐI KHÔNG gọi Sở Tư Thừa là \"anh\")."
+    "notes": "Tổng tài / Đại lão phản diện thế giới 2 (Thụ TG2). Đại từ ngôi 3 trần thuật từ Arc 2 dùng \"anh\". Đối thoại: xưng \"anh\", gọi Sở Tư Thừa là \"cậu\"."
   },
   {
     "name": "Lệ Yến Trạch",
@@ -115,7 +115,7 @@
     "gender": "Nam",
     "third_person_pronoun": "hắn",
     "role": "Tổng tài tra công nguyên tác thế giới 2",
-    "notes": "Tổng tài tra công nguyên tác thế giới 2. Đại từ ngôi 3 trần thuật luôn dùng \"hắn\" (TUYỆT ĐỐI KHÔNG dùng \"anh\" để tránh nhầm với Sở Tư Thừa)."
+    "notes": "Tổng tài tra công nguyên tác TG2. Luôn dùng \"hắn\" (tuyệt đối KHÔNG dùng \"anh\" để tránh nhầm với Thẩm Từ)."
   },
   {
     "name": "Chu Lạc Lạc",
@@ -126,5 +126,84 @@
     "third_person_pronoun": "gã",
     "role": "Kẻ trọng sinh mang Bug thế giới 2 (Trà xanh, có thuật đọc tâm)",
     "notes": "Trọng sinh cướp đoạt hào quang, dùng thuật đọc tâm giả vờ ngây thơ để lấy lòng Lệ Yến Trạch."
+  },
+  {
+    "name": "Khương Niệm An",
+    "hanviet_name": "Khương Niệm An",
+    "original_name": "姜念安",
+    "pinyin": "Jiāng Niàn'ān",
+    "gender": "Nam",
+    "third_person_pronoun": "cậu",
+    "role": "Thân xác thế giới 3 của Sở Tư Thừa (Diễn viên tuyến 18)",
+    "notes": "Ngôi 3 trần thuật dùng \"cậu\". Đối thoại xưng \"cậu\", gọi Lộ Vũ Minh là \"anh\"."
+  },
+  {
+    "name": "Lộ Vũ Minh",
+    "hanviet_name": "Lộ Vũ Minh",
+    "original_name": "路宇鸣",
+    "pinyin": "Lù Yǔmíng",
+    "gender": "Nam",
+    "third_person_pronoun": "anh",
+    "role": "Nam chính (Thụ TG3), học sinh lớp 12, con riêng của mẹ kế",
+    "notes": "Ngôi 3 trần thuật dùng \"anh\". Đối thoại xưng \"anh\", gọi Sở Tư Thừa là \"cậu\"."
+  },
+  {
+    "name": "Khương Lê",
+    "hanviet_name": "Khương Lê",
+    "original_name": "姜黎",
+    "pinyin": "Jiāng Lí",
+    "gender": "Nam",
+    "third_person_pronoun": "anh",
+    "role": "Linh hồn thực tại của Thụ tại Cục Quản Lý Thời Không (Hồi kết)",
+    "notes": "Nhân viên tổ Phản diện Cục Thời Không. Ngôi 3 dùng \"anh\". Đối thoại xưng \"anh\", gọi Sở Tư Thừa là \"cậu\"."
+  },
+  {
+    "name": "Tần Uyên",
+    "hanviet_name": "Tần Uyên",
+    "original_name": "秦渊",
+    "pinyin": "Qín Yuān",
+    "gender": "Nam",
+    "third_person_pronoun": "hắn",
+    "role": "Kim chủ / tra công cũ phong sát Khương Niệm An",
+    "notes": "Ngôi 3 dùng \"hắn\" (tuyệt đối KHÔNG dùng \"anh\")."
+  },
+  {
+    "name": "Thẩm Nam Nhất",
+    "hanviet_name": "Thẩm Nam Nhất",
+    "original_name": "沈南一",
+    "pinyin": "Shěn Nányī",
+    "gender": "Nam",
+    "third_person_pronoun": "gã / hắn",
+    "role": "Kẻ mang Bug thế giới 3, nam chính phim rác cũ có khả năng nhìn đạn mạc tương lai",
+    "notes": "Lợi dụng đạn mạc cướp vai diễn của Khương Niệm An và thuê thủy quân bôi nhọ cậu. Đại từ ngôi 3: 'gã / hắn' (CẤM dùng 'anh', 'cậu')."
+  },
+  {
+    "name": "Trần Trung",
+    "hanviet_name": "Trần Trung",
+    "original_name": "陈忠",
+    "pinyin": "Chén Zhōng",
+    "gender": "Nam",
+    "third_person_pronoun": "gã",
+    "role": "Kim chủ của Thẩm Nam Nhất, kẻ thèm muốn Khương Niệm An",
+    "notes": "Tư bản khó chơi, từng muốn giở trò hạ lưu với Khương Niệm An trong tiệc rượu. Ngôi 3 dùng 'gã / hắn'."
+  },
+  {
+    "name": "Lý Trình",
+    "hanviet_name": "Lý Trình",
+    "original_name": "李程",
+    "pinyin": "Lǐ Chéng",
+    "gender": "Nam",
+    "third_person_pronoun": "gã",
+    "role": "Vệ sĩ thân cận của Tần Uyên",
+    "notes": "Trung thành mù quáng với Tần Uyên, bốc đồng hung hăng. Ngôi 3 dùng 'gã'."
+  },
+  {
+    "name": "Tần Sênh",
+    "hanviet_name": "Tần Sênh",
+    "original_name": "秦笙",
+    "gender": "Nam",
+    "third_person_pronoun": "cậu ta",
+    "role": "Bạn cùng bàn, bạn thân kiêm quân sư tình cảm của Lộ Vũ Minh",
+    "notes": "Sắc sảo, thấu hiểu lòng người, ngồi cùng bàn với Lộ Vũ Minh, luôn phân tích tâm lý và đưa ra lời khuyên cho Lộ Vũ Minh."
   }
 ]

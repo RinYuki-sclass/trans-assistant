@@ -2,7 +2,7 @@
 title: Khi Đại Lão Phản Diện Sắm Vai Nhân Vật Chính [Khoái Xuyên] — Chương 48: 第48頁
 ---
 
-Thẩm Từ vô thức mím môi, trong giọng điệu ngày càng mập mờ của chàng trai, hắn trở tay nắm chặt cổ tay đối phương rồi ấn mạnh lên cánh cửa.
+Thẩm Từ vô thức mím môi, trong giọng điệu ngày càng mập mờ của chàng trai, anh trở tay nắm chặt cổ tay đối phương rồi ấn mạnh lên cánh cửa.
 
 "Rốt cuộc cậu là ai?!"
 
@@ -48,9 +48,9 @@ Cho dù từ đầu đến giờ, mọi biểu hiện của đối phương đ�
 
 "Cho nên..."
 
-Trong giọng điệu ngày càng lạnh nhạt của Thẩm Từ, đôi tai Sở Tư Thừa khẽ động, đôi mắt hạnh tròn trịa hơi nhướng lên, tựa như một chú mèo đang chằm chằm nhìn vào con mồi, ngay khi con mồi sắp sửa chạy thoát, anh trực tiếp vươn tay, túm lấy cái đuôi mà đối phương đang muốn giấu đi.
+Trong giọng điệu ngày càng lạnh nhạt của Thẩm Từ, đôi tai Sở Tư Thừa khẽ động, đôi mắt hạnh tròn trịa hơi nhướng lên, tựa như một chú mèo đang chằm chằm nhìn vào con mồi, ngay khi con mồi sắp sửa chạy thoát, cậu trực tiếp vươn tay, túm lấy cái đuôi mà đối phương đang muốn giấu đi.
 
-Đầu ngón tay quấn từng vòng quanh chiếc cà vạt đen, càng làm tôn lên làn da trắng tuyết đến chói mắt, anh giữ chặt người đàn ông đang định rời đi, ngay sau đó, trước khi đối phương kịp hủy bỏ thỏa thuận, anh lên tiếng:
+Đầu ngón tay quấn từng vòng quanh chiếc cà vạt đen, càng làm tôn lên làn da trắng tuyết đến chói mắt, cậu giữ chặt người đàn ông đang định rời đi, ngay sau đó, trước khi đối phương kịp hủy bỏ thỏa thuận, cậu lên tiếng:
 
 "Vậy sao anh biết, tính cách hiện tại của tôi không phải là thật?"
 
@@ -62,7 +62,7 @@ Chiếc cà vạt cuối cùng cũng được quấn đến tận cùng, Sở T�
 
 "Anh có thể đảm bảo, sau khi rời khỏi đây, sẽ không còn chú ý đến từng cử động của tôi nữa không?"
 
-“……”
+“Tôi không có hứng thú với một con chim hoàng yến cũ.”
 
 “Tôi chính là tôi, hơn nữa,”
 
@@ -88,13 +88,13 @@ Thẩm Từ vô thức cắn nhẹ môi dưới, hành động như khắc sâu 
 
 Bởi vì nỗi đau sẽ giúp con người giữ được sự tỉnh táo, cũng khiến con người trở nên lý trí hơn.
 
-Chỉ là lần này, trước khi Thẩm Từ kịp tỉnh táo hơn nữa, một bàn tay khô ráo đột ngột nắm lấy cằm hắn, sau đó dùng lực nhẹ, ngay khoảnh khắc Thẩm Từ bị ép phải ngửa đầu lên, trên đôi môi suýt chút nữa đã rách da kia liền xuất hiện một vệt hương cam quýt mang theo hơi thở ấm áp.
+Chỉ là lần này, trước khi Thẩm Từ kịp tỉnh táo hơn nữa, một bàn tay khô ráo đột ngột nắm lấy cằm anh, sau đó dùng lực nhẹ, ngay khoảnh khắc Thẩm Từ bị ép phải ngửa đầu lên, trên đôi môi suýt chút nữa đã rách da kia liền xuất hiện một vệt hương cam quýt mang theo hơi thở ấm áp.
 
 “Tôi chưa từng hôn Lệ Yến Trạch.”
 
 Thẩm Từ nghe thấy chàng trai nói: “Thực ra, ngoài anh ra, tôi cũng chưa từng hôn bất kỳ ai khác.”
 
-Sở Tư Thừa khẽ đưa đầu lưỡi ra, thay Thẩm Từ liếm qua vết răng sâu hoắm kia, đồng thời cũng xoa dịu sự bất an trong lòng hắn.
+Sở Tư Thừa khẽ đưa đầu lưỡi ra, thay Thẩm Từ liếm qua vết răng sâu hoắm kia, đồng thời cũng xoa dịu sự bất an trong lòng anh.
 
 “Có thể yên tâm rồi chứ? Ông chủ.”
 
@@ -110,7 +110,7 @@ Sở Tư Thừa bước sang một bên nhường lối ra cửa, đoạn mỉm 
 
 Đôi mắt chàng trai cong cong, nụ cười sạch sẽ rạng rỡ, giọng điệu nhẹ nhàng tựa như chỉ đang đùa một câu vô thưởng vô phạt với Thẩm Từ mà thôi.
 
-Thế nhưng Thẩm Từ lại có cảm giác khó hiểu rằng, một khi hắn bước chân ra khỏi căn phòng này, đừng nói đến chuyện giảm giá, ngay cả cơ hội tiếp cận chàng trai lần nữa cũng chẳng còn.
+Thế nhưng Thẩm Từ lại có cảm giác khó hiểu rằng, một khi anh bước chân ra khỏi căn phòng này, đừng nói đến chuyện giảm giá, ngay cả cơ hội tiếp cận chàng trai lần nữa cũng chẳng còn.
 
 Cảm giác này đến thật kỳ quặc, cũng vô cùng phi lý.
 
@@ -118,19 +118,19 @@ Suy cho cùng, vào thời khắc này, chàng trai mới là người cần ti�
 
 Thế nhưng...
 
-Đèn bên cạnh lối vào được bật lên ngay khoảnh khắc chàng trai tựa lưng vào công tắc, ánh sáng trắng ấm áp đổ xuống người anh, tôn lên vẻ ngoài của anh chẳng khác nào nhân vật chính trên sân khấu kịch.
+Đèn bên cạnh lối vào được bật lên ngay khoảnh khắc chàng trai tựa lưng vào công tắc, ánh sáng trắng ấm áp đổ xuống người cậu, tôn lên vẻ ngoài của cậu chẳng khác nào nhân vật chính trên sân khấu kịch.
 
 Một nhân vật chính không cần ai làm nền, chỉ cần đứng đó thôi cũng đủ thu hút sự chú ý của tất cả mọi người...
 
 Ngón tay Thẩm Từ siết chặt rồi lại buông lỏng, cuối cùng vẫn không nhịn được đưa tay kéo người lại.
 
-"Tốt nhất là anh đừng lừa tôi!" anh ta nói.
+“Tốt nhất là cậu đừng lừa tôi!” Anh nói.
 
 Sở Tư Thừa nhướng mày, "Vậy nếu em lừa thì sao."
 
 "Vậy thì cậu cứ diễn cho tôi cả đời đi."
 
-Cảm giác ẩm ướt nóng bỏng cùng với lời nói như giận dỗi in lên môi Sở Tư Thừa, người đàn ông với sự chiếm hữu cực mạnh ôm chặt lấy eo anh.
+Cảm giác ẩm ướt nóng bỏng cùng với lời nói như giận dỗi in lên môi Sở Tư Thừa, người đàn ông với sự chiếm hữu cực mạnh ôm chặt lấy eo cậu.
 
 Môi lưỡi quấn quýt, hai người loạng choạng từ hành lang vào đến phòng ngủ.
 
@@ -156,11 +156,11 @@ Cậu ta chỉ là một người tình, một món đồ chơi mà thôi.
 
 Đi thì cũng đi rồi, chẳng có gì to tát cả.
 
-Dù sao sau khi anh gặp tai nạn xe cộ, có quá nhiều kẻ thấy gió chiều nào che chiều nấy, biến mất khỏi bên cạnh anh.
+Dù sao sau khi hắn gặp tai nạn xe cộ, có quá nhiều kẻ thấy gió chiều nào che chiều nấy, biến mất khỏi bên cạnh hắn.
 
 Tống Lạc An chẳng qua cũng chỉ là một viên đá nhỏ không đáng kể trong số đó, rơi xuống hồ nước cũng chẳng gợn lên nổi một chút sóng lăn tăn.
 
-Huống hồ hiện tại anh còn có Chu Lạc Lạc, cho nên sự tồn tại của Tống Lạc An hay không, đối với anh mà nói chẳng có chút ảnh hưởng nào.
+Huống hồ hiện tại hắn còn có Chu Lạc Lạc, cho nên sự tồn tại của Tống Lạc An hay không, đối với hắn mà nói chẳng có chút ảnh hưởng nào.
 
 Đúng!
 
@@ -172,36 +172,36 @@ Ngón tay Lệ Yến Trạch siết chặt rồi lại buông ra, lặp đi lặ
 
 "Cậu ta sao dám chứ!"
 
-Trong quan niệm của Lệ Yến Trạch, chỉ có phần anh vứt bỏ Tống Lạc An, tuyệt đối không có giả thiết Tống Lạc An dám quay ngược lại vứt bỏ mình.
+Trong quan niệm của Lệ Yến Trạch, chỉ có phần hắn vứt bỏ Tống Lạc An, tuyệt đối không có giả thiết Tống Lạc An dám quay ngược lại vứt bỏ mình.
 
-Từ đầu đến cuối anh đều cho rằng trong mối quan hệ của hai người, anh là kẻ ở vị trí chủ đạo, thế nên mới phẫn nộ đến vậy khi biết tin chàng trai kia phản bội mình.
+Từ đầu đến cuối hắn đều cho rằng trong mối quan hệ của hai người, hắn là kẻ ở vị trí chủ đạo, thế nên mới phẫn nộ đến vậy khi biết tin chàng trai kia phản bội mình.
 
-Không chỉ vì đoạn tình cảm mơ hồ anh dành cho Tống Lạc An, mà còn vì lòng tự trọng không cho phép bất kỳ ai trái ý mình.
+Không chỉ vì đoạn tình cảm mơ hồ hắn dành cho Tống Lạc An, mà còn vì lòng tự trọng không cho phép bất kỳ ai trái ý mình.
 
 Đầu ngón tay khẽ động, Lệ Yến Trạch cầm lấy điện thoại trên bàn làm việc, không hề suy nghĩ mà mở danh bạ, lướt xuống trang có chữ S.
 
-Anh theo bản năng muốn chất vấn Tống Lạc An, chỉ là sau khi ngón tay nhấn vào số điện thoại, chưa đợi tiếng "tút" đầu tiên vang lên, anh đã trực tiếp cúp máy.
+Hắn theo bản năng muốn chất vấn Tống Lạc An, chỉ là sau khi ngón tay nhấn vào số điện thoại, chưa đợi tiếng "tút" đầu tiên vang lên, hắn đã trực tiếp cúp máy.
 
-Một phần là vì anh đột nhiên nhớ lại thái độ lạnh lùng của Tống Lạc An trong hai cuộc điện thoại trước đó, phần khác là vì tâm lý muốn trốn tránh theo bản năng của Lệ Yến Trạch.
+Một phần là vì hắn đột nhiên nhớ lại thái độ lạnh lùng của Tống Lạc An trong hai cuộc điện thoại trước đó, phần khác là vì tâm lý muốn trốn tránh theo bản năng của Lệ Yến Trạch.
 
-Giống như năm đó khi vừa mới gặp tai nạn xe hơi, anh đã trốn tránh thông báo rằng mình có lẽ sẽ vĩnh viễn không thể đứng dậy được nữa, Lệ Yến Trạch không sẵn lòng chấp nhận, cũng không muốn trực tiếp đối mặt với sự thật rằng Tống Lạc An lại có thể hủy bỏ hợp đồng giữa hai người như thế, rồi không đợi được nữa mà lao vào vòng tay của một kim chủ tiếp theo.
+Giống như năm đó khi vừa mới gặp tai nạn xe cộ, hắn đã trốn tránh thông báo rằng mình có lẽ sẽ vĩnh viễn không thể đứng dậy được nữa, Lệ Yến Trạch không sẵn lòng chấp nhận, cũng không muốn trực tiếp đối mặt với sự thật rằng Tống Lạc An lại có thể hủy bỏ hợp đồng giữa hai người như thế, rồi không đợi được nữa mà lao vào vòng tay của một kim chủ tiếp theo.
 
 Hơn nữa, vị kim chủ này lại còn là kẻ thù không đội trời chung mà Lệ Yến Trạch ghét nhất trong giới —— Thẩm Từ.
 
-Lệ Yến Trạch khẽ rũ mắt, trước mặt anh, màn hình điện thoại vì lâu không được chạm vào mà tắt ngóm.
+Lệ Yến Trạch khẽ rũ mắt, trước mặt hắn, màn hình điện thoại vì lâu không được chạm vào mà tắt ngóm.
 
 Trên màn hình đen kịt phản chiếu rõ rệt vẻ mặt của Lệ Yến Trạch lúc này.
 
 Điên cuồng, phẫn nộ, còn có một tia không cam lòng ẩn hiện.
 
-Nơi lồng ngực anh giống như có thêm một ngọn núi lửa đang dần thức tỉnh, nham thạch không thể kìm nén được mà muốn phun trào từ bên trong ra ngoài.
+Nơi lồng ngực hắn giống như có thêm một ngọn núi lửa đang dần thức tỉnh, nham thạch không thể kìm nén được mà muốn phun trào từ bên trong ra ngoài.
 
-Anh cảm thấy cả người mình như đang bị một bàn tay vô hình xâu xé.
+Hắn cảm thấy cả người mình như đang bị một bàn tay vô hình xâu xé.
 
-Lý trí nói với anh rằng, vì một món đồ chơi mà tức giận đến thế là không đáng, càng không đáng vì cậu ta mà triệt để trở mặt với nhà họ Thẩm, khiến cả giới phải xem trò cười.
+Lý trí nói với hắn rằng, vì một món đồ chơi mà tức giận đến thế là không đáng, càng không đáng vì cậu ta mà triệt để trở mặt với nhà họ Thẩm, khiến cả giới phải xem trò cười.
 
-Nhưng cơ thể anh lại không khống chế được mà muốn lập tức lao đến trước mặt Tống Lạc An, chất vấn đối phương tại sao lại rẻ mạt như thế, vẫn còn ở bên cạnh anh mà đã nghĩ đến chuyện tìm người tiếp theo rồi?!
+Nhưng cơ thể hắn lại không khống chế được mà muốn lập tức lao đến trước mặt Tống Lạc An, chất vấn đối phương tại sao lại rẻ mạt như thế, vẫn còn ở bên cạnh hắn mà đã nghĩ đến chuyện tìm người tiếp theo rồi?!
 
 Có một khoảnh khắc, Lệ Yến Trạch thậm chí còn hơi nghi ngờ liệu có phải Tống Lạc An vì muốn trả thù mình nên mới đặc biệt chạy đi làm tình nhân của Thẩm Từ hay không.
 
-Dù sao thì thời gian qua, anh cũng thừa nhận bản thân quả thực vì chuyện của Lạc Lạc mà đã lạnh nhạt với cậu một thời gian dài.
+Dù sao thì thời gian qua, hắn cũng thừa nhận bản thân quả thực vì chuyện của Lạc Lạc mà đã lạnh nhạt với cậu một thời gian dài.

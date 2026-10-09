@@ -2,19 +2,19 @@
 title: Khi Đại Lão Phản Diện Sắm Vai Nhân Vật Chính [Khoái Xuyên] — Chương 53
 ---
 
-Tuy nhiên, những người khác có mặt tại đó sau khi nghe câu này của anh, hoàn toàn không hề nghĩ theo hướng nhân phẩm hay tính cách của Sở Tư Thừa, mà tất cả đều đồng loạt biến sắc, như thể vừa phát hiện ra một chuyện kinh thiên động địa nào đó.
+Tuy nhiên, những người khác có mặt tại đó sau khi nghe câu này của cậu, hoàn toàn không hề nghĩ theo hướng nhân phẩm hay tính cách của Sở Tư Thừa, mà tất cả đều đồng loạt biến sắc, như thể vừa phát hiện ra một chuyện kinh thiên động địa nào đó.
 
 Ngay cả viên trợ lý đang chìm đắm trong động tác dứt khoát đẹp mắt của Sở Tư Thừa cũng chậm nửa nhịp mới phản ứng lại:
 
 “Ủa không phải chứ! Hóa ra mấy lời ban nãy ai cũng nghe thấy hết à!”
 
-Cậu ta còn tưởng chỉ có một mình mình nghe được, đứng đó quan sát Chu Lạc Lạc nửa ngày trời. Rốt cuộc vòng vo một hồi, cái tiếng lòng này ai ai cũng nghe thấy, sắp đuổi kịp cả loa phóng thanh rồi.
+Cậu còn tưởng chỉ có một mình mình nghe được, đứng đó quan sát Chu Lạc Lạc nửa ngày trời. Rốt cuộc vòng vo một hồi, cái tiếng lòng này ai ai cũng nghe thấy, sắp đuổi kịp cả loa phóng thanh rồi.
 
-Cũng chính vào lúc này, những người vệ sĩ đứng bên cạnh cậu ta cũng dần hoàn hồn lại.
+Cũng chính vào lúc này, những người vệ sĩ đứng bên cạnh cậu cũng dần hoàn hồn lại.
 
 “Hóa ra ban nãy anh không đơn thuần cảm thấy Chu tiên sinh đáng thương sao!”
 
-“Tôi còn tưởng anh thấy cậu ta xin lỗi chân thành nên mới mềm lòng thương xót chứ……”
+“Tôi còn tưởng anh thấy gã xin lỗi chân thành nên mới mềm lòng thương xót chứ……”
 
 “Vậy anh cũng nghe thấy à?”
 
@@ -82,7 +82,7 @@ Viên trợ lý vô cùng biết điều, sau khi đem đồ đạc xếp gọn 
 
 “Anh mua cho tôi thì đương nhiên tôi đều thích rồi.”
 
-Sở Tư Thừa làm tròn tư thái mà một chú chim hoàng yến nên có, chỉ là đối diện với một Thẩm Từ sắc mặt như thường, dường như chẳng hề bị tiếng lòng của Chu Lạc Lạc ảnh hưởng chút nào, anh vẫn có chút tò mò:
+Sở Tư Thừa làm tròn tư thái mà một chú chim hoàng yến nên có, chỉ là đối diện với một Thẩm Từ sắc mặt như thường, dường như chẳng hề bị tiếng lòng của Chu Lạc Lạc ảnh hưởng chút nào, cậu vẫn có chút tò mò:
 
 “Vừa rồi sao anh lại tin tưởng tôi như vậy?”
 
@@ -90,13 +90,13 @@ Sở Tư Thừa tiến sát lại trước mặt Thẩm Từ: “Anh không sợ
 
 Mà đối diện với câu hỏi của Sở Tư Thừa, Thẩm Từ chỉ thản nhiên đáp lại một câu:
 
-“Bởi vì tiếng lòng của cậu ta nhiều lời quá.”
+“Bởi vì tiếng lòng của gã nhiều lời quá.”
 
 Nhà người bình thường nào lại vừa xin lỗi, vừa ở trong lòng kể lại toàn bộ nguyên nhân hậu quả một lượt, cái điệu bộ hận không thể kể từ lúc gã vừa bước chân vào phòng bếp rõ ràng là nói cho người khác nghe.
 
 Điều này giống như bên cạnh bạch liên hoa lúc nào cũng có một công cụ hỗ trợ giúp gã nói ra hết những nỗi uất ức vậy, chỉ là công cụ của Chu Lạc Lạc chính là tiếng lòng của chính gã mà thôi.
 
-Thẩm Từ tuy chưa từng vướng vào chuyện tình cảm, nhưng người hắn gặp qua thì nhiều vô kể. Những kẻ đủ mọi thể loại trên thương trường không đếm xuể, mấy mánh khóe làm bộ làm tịch của Chu Lạc Lạc hắn chỉ cần liếc mắt một cái là nhìn thấu ngay.
+Thẩm Từ tuy chưa từng vướng vào chuyện tình cảm, nhưng người anh gặp qua thì nhiều vô kể. Những kẻ đủ mọi thể loại trên thương trường không đếm xuể, mấy mánh khóe làm bộ làm tịch của Chu Lạc Lạc anh chỉ cần liếc mắt một cái là nhìn thấu ngay.
 
 “Vậy sao?”
 
@@ -106,7 +106,7 @@ Sở Tư Thừa nhướng mày, lại nhích lại gần Thẩm Từ thêm một
 
 Chàng trai khẽ mở miệng, đôi mắt hạnh xinh đẹp nhìn chằm chằm vào người đàn ông bên cạnh đang vì ra ngoài mà mặc lại bộ âu phục chỉnh tề.
 
-Đôi môi đỏ khẽ cong lên, nụ cười sạch sẽ thuần khiết nhưng dường như lại ẩn chứa một tia mập mờ khó nói thành lời, sau đó anh lại thong thả buông lời:
+Đôi môi đỏ khẽ cong lên, nụ cười sạch sẽ thuần khiết nhưng dường như lại ẩn chứa một tia mập mờ khó nói thành lời, sau đó cậu lại thong thả buông lời:
 
 “Ông chủ, anh có muốn nghe tiếng lòng lúc này của tôi không?”
 
@@ -114,13 +114,13 @@ Chương 41: Thế giới hào môn 12
 
 Ánh mắt Thẩm Từ tối sầm lại.
 
-Thế nhưng ngay khi Sở Tư Thừa tưởng rằng hai người có thể tiếp tục tiến hành chuyện chưa hoàn thành trong phòng tắm trước đó, thì ông chủ lại từ chối lời mời mọc mập mờ của anh, quay sang móc điện thoại ra với vẻ mặt vô cùng nghiêm túc. Trông hắn như thể sau khi tan làm sớm vài tiếng đồng hồ thì rốt cuộc cũng nhớ tới cảm giác tội lỗi đó, chuẩn bị tiếp tục làm việc vậy.
+Thế nhưng ngay khi Sở Tư Thừa tưởng rằng hai người có thể tiếp tục tiến hành chuyện chưa hoàn thành trong phòng tắm trước đó, thì ông chủ lại từ chối lời mời mọc mập mờ của cậu, quay sang móc điện thoại ra với vẻ mặt vô cùng nghiêm túc. Trông anh như thể sau khi tan làm sớm vài tiếng đồng hồ thì rốt cuộc cũng nhớ tới cảm giác tội lỗi đó, chuẩn bị tiếp tục làm việc vậy.
 
 Ngay tại trong khách sạn, ngay trước mặt chú chim hoàng yến vừa mới bao nuôi……
 
 Định lực của nhân vật phản diện ở thế giới này mạnh đến thế cơ à?
 
-Sở Tư Thừa chớp chớp mắt, thế nhưng còn chưa đợi anh tiến hành một đợt thăm dò định lực mới đối với Thẩm Từ, người đàn ông đã mở miệng trước, đưa ra lời giải thích cho hành vi lạnh nhạt vừa rồi của mình:
+Sở Tư Thừa chớp chớp mắt, thế nhưng còn chưa đợi cậu tiến hành một đợt thăm dò định lực mới đối với Thẩm Từ, người đàn ông đã mở miệng trước, đưa ra lời giải thích cho hành vi lạnh nhạt vừa rồi của mình:
 
 “Tôi vừa đem tình huống bất thường của Chu Lạc Lạc kể cho một người bạn ở Viện nghiên cứu rồi.”
 
@@ -136,13 +136,13 @@ Cho nên…… Chu Lạc Lạc cứ thế tự nhiên như ruồi mà bị Thẩ
 
 Dù là người từng trải qua vô số thế giới tiểu thuyết với tư cách người làm nhiệm vụ phản diện như Sở Tư Thừa, cũng bị một chiêu giao nộp cho quốc gia này của Thẩm Từ làm cho kinh ngạc đến ngây người.
 
-Anh bất giác tiến lại gần liếc nhìn nội dung trò chuyện giữa Thẩm Từ và người bạn kia, cũng không ngờ rằng chỉ trong vỏn vẹn vài phút Thẩm Từ giải thích với anh, người bạn của hắn đã báo cáo tình hình của Chu Lạc Lạc lên cấp trên, đồng thời nhanh chóng đưa ra mốc thời gian gần đúng để đưa Chu Lạc Lạc về Viện nghiên cứu điều tra.
+Cậu bất giác tiến lại gần liếc nhìn nội dung trò chuyện giữa Thẩm Từ và người bạn kia, cũng không ngờ rằng chỉ trong vỏn vẹn vài phút Thẩm Từ giải thích với cậu, người bạn của anh đã báo cáo tình hình của Chu Lạc Lạc lên cấp trên, đồng thời nhanh chóng đưa ra mốc thời gian gần đúng để đưa Chu Lạc Lạc về Viện nghiên cứu điều tra.
 
 Quả nhiên, bạn bè bên cạnh đại lão cũng chỉ có thể là một vị đại lão khác.
 
-Sở Tư Thừa bây giờ đều hoài nghi nguyên nhân Thẩm Từ ở phần kết của thế giới tiểu thuyết gốc bị thua Lệ Yến Trạch trên thương trường là vì hắn nửa đường đã được Viện nghiên cứu bí mật tuyển chọn, từ đó đành phải giã từ thương trường, cho nên mới để Lệ Yến Trạch bất chiến tự nhiên thành.
+Sở Tư Thừa bây giờ đều hoài nghi nguyên nhân Thẩm Từ ở phần kết của thế giới tiểu thuyết gốc bị thua Lệ Yến Trạch trên thương trường là vì anh nửa đường đã được Viện nghiên cứu bí mật tuyển chọn, từ đó đành phải giã từ thương trường, cho nên mới để Lệ Yến Trạch bất chiến tự nhiên thành.
 
-Bằng không anh thật sự nghĩ không ra một tên tổng tài bá đạo chỉ biết ngược luyến tình thâm bên kia làm sao có thể chiến thắng được một Thẩm Từ rõ ràng có não, mà đầu óc lại còn cực kỳ thông minh trước mắt này.
+Bằng không cậu thật sự nghĩ không ra một tên tổng tài bá đạo chỉ biết ngược luyến tình thâm bên kia làm sao có thể chiến thắng được một Thẩm Từ rõ ràng có não, mà đầu óc lại còn cực kỳ thông minh trước mắt này.
 
 Hệ thống vẫn luôn im lặng xem kịch bên cạnh Sở Tư Thừa cũng vô cùng chấn động, thế nhưng sau cơn chấn động, điều nó tò mò hơn cả vẫn là:
 
@@ -156,10 +156,10 @@ Anh tuy hiểu hệ thống nghĩ như vậy cũng là vì muốn tốt cho mìn
 
 Cho nên dưới thiết lập đó, nếu Sở Tư Thừa hấp tấp báo cáo thân phận kẻ xuyên không của Felo lên Đế quốc, đối phương chẳng những không coi Felo là nhân tố nguy hiểm của Đế quốc, mà biết đâu còn cho rằng đối phương là ân điển do Trùng thần ban tặng cho họ, đến lúc đó sẽ chỉ càng khó đối phó với gã hơn.
 
-Thứ hai, bản thân Sở Tư Thừa không thể nghĩ đến phương pháp này là vì…… trước đây người nắm giữ cái thiết lập yêu ma quỷ quái này chính là bản thân anh.
+Thứ hai, bản thân Sở Tư Thừa không thể nghĩ đến phương pháp này là vì…… trước đây người nắm giữ cái thiết lập yêu ma quỷ quái này chính là bản thân cậu.
 
 Thử hỏi, có ai vừa nhận được thiết lập nhiệm vụ là lập tức muốn đem chính mình giao nộp cho quốc gia không?
 
-Nhiệm vụ của anh còn làm nữa hay thôi?
+Nhiệm vụ của cậu còn làm nữa hay thôi?
 
 Thêm vào đó, xuyên qua nhiều thế giới như vậy, những thiết lập còn ly kỳ khác thường hơn cả việc truyền bá tiếng lòng này Sở Tư Thừa đã sớm nhìn quen đến mức nhìn mãi thành quen rồi, căn bản chẳng cảm thấy có điểm gì bất bình thường cả.
