@@ -38,7 +38,8 @@ description: Quy chuẩn dịch thuật, xưng hô, đại từ và nhân vật 
     - Giai đoạn đầu (nghi ngờ, đề phòng): Xưng **"tôi - cậu"** *(lạnh nhạt, ngắn gọn, gặng hỏi)*.
     - Giai đoạn dung túng, yêu chiều: Xưng **"tôi / anh - em / nhóc con / Niên Niên"**.
 - **Sở Niên Niên ↔ Thành viên trong đội (Lục Thiên, Lý Viện Viện, Bụng Bia):**
-  - Sở Niên Niên: Xưng **"em / cháu - Lục ca / chị Viện Viện / chú"**.
+  - **Sở Niên Niên $\rightarrow$ Lục Thiên:** Gọi **"anh"** *(hoặc "Lục ca")*, xưng **"tôi"** *(đặc biệt khi đối thoại riêng/đối chất)*.
+  - Sở Niên Niên $\rightarrow$ Lý Viện Viện, Bụng Bia: Xưng **"em / cháu - chị Viện Viện / chú"**.
   - Đồng đội: Xưng **"anh / chị / chú - Niên Niên / em / cậu"**.
 - **Cố Xuyên ↔ Cấp dưới / Dị năng giả:** Xưng **"tôi - các cậu / cậu"** *(uy nghiêm, dứt khoát, phong thái thủ lĩnh)*.
 - **Sở Niên Niên ↔ Hệ thống:** Xưng **"tôi - hệ thống"**.
