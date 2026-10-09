@@ -57,3 +57,7 @@ Tên truyện: BỊ NUÔI LỚN TIỂU HÀI TỬ DĨ HẠ PHẠM THƯỢNG
 Tác giả: Ỷ Môn Thính Phong
 Thể loại: Thể loại: Nguyên sang, Đam mỹ, Hiện đại, Chủ công, Hào môn thế gia, Cẩu huyết, ABO Cường cường, Dưỡng thành, Chiếm hữu dục, A x A, CÔNG CÓ THAI, Niên thượng (cách nhau 10 tuổi)
 Độ dài: 59c + 14NT (NT đọc trên Tấn Giang)
+
+
+
+https://nhaduong.com/manga/guide-de-tien-tri-chinh-xac/

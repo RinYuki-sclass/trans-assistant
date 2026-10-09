@@ -1,121 +1,104 @@
 # -*- coding: utf-8 -*-
 import json
 
-path = r"d:\Nhung\RIDI\trans-assistant\novel_projects\đấng-cứu-thế-trả-nợ-tình\memory\timeline.json"
-
+path = r"d:\Nhung\RIDI\trans-assistant\novel_projects\phản-diện-đổi-ý-cầm-kịch-bản-yêu-đương\memory\timeline.json"
 with open(path, "r", encoding="utf-8") as f:
-    timeline = json.load(f)
+    data = json.load(f)
 
-new_entries = [
+existing_chs = {item.get("chapter") for item in data}
+
+batch2_events = [
     {
-        "chapter_id": "ch_008",
-        "chapter_title": "Chương 8: Quái vật gì thế",
-        "events": [
-            "Bội Lương chửi mắng chấm dứt trò hề; Lâu Hỉ Dương dẫn Dịch Duyên về bục sắt giáo huấn.",
-            "Lâu Hỉ Dương đưa phương án huấn luyện cấp S độc quyền khiến Bội Lương và bang Lloyd thán phục kinh hãi.",
-            "Dịch Duyên nhận lỗi vì đã theo dõi, Lâu Hỉ Dương giải thích đang tìm cách cứu cha khỏi viện nghiên cứu Tây Lăng Sơn.",
-            "Lâu Hỉ Dương phát lệnh tấn công Tây Lăng Sơn sau một tuần, đưa bản vẽ nâng cấp 50 cơ giáp cho Bội Lương trong vòng 5 ngày.",
-            "Trương Câu chặn đường chất vấn vì sao phải hy sinh anh em vì cha của Lâu Hỉ Dương; Lâu Hỉ Dương khẳng định sẽ chuộc tội nếu có người chết.",
-            "Trên đường về, Dịch Duyên ôm chặt Lâu Hỉ Dương, thầm hạ quyết tâm sẽ không để anh gặp nguy hiểm; tối đến lén liên lạc với Trần Liễm."
-        ],
-        "debt_repayment_progress": "15%",
-        "key_relationships": "Dịch Duyên thấu hiểu gánh nặng và sự tự trách của Lâu Hỉ Dương; quyết định bí mật giúp anh phá vỡ phòng ngự Tây Lăng Sơn."
+        "chapter": "ch_096",
+        "arc": "arc_04",
+        "title": "Chương 96: Nghi ngờ và thăm dò",
+        "summary": "Kỷ Cảnh áp đảo các đối thủ trên sân tập thực chiến và trêu chọc Lục Tư Niên; Lục Tư Niên hỏi về em gái Kỷ Cảnh; Kỷ Cảnh giả gái Dịch Nam gửi ảnh tất đen/tất trắng và viện cớ bị ba dượng bạo hành để thăm dò Lục Tư Niên.",
+        "key_events": [
+            "Kỷ Cảnh thắng liên tiếp 7 trận cận chiến, Vương Bằng khen ngợi trước mặt Lục Tư Niên.",
+            "Kỷ Cảnh đuổi theo Lục Tư Niên và tuyên bố: 'Lục Tư Niên, tôi muốn theo đuổi anh'.",
+            "Lục Tư Niên hỏi Kỷ Cảnh có phải có một đứa em gái hay không.",
+            "Kỷ Cảnh gửi ảnh chụp tất đen và váy hai dây, bịa chuyện bị ba dượng say xỉn đánh đập để kích thích Lục Tư Niên."
+        ]
     },
     {
-        "chapter_id": "ch_009",
-        "chapter_title": "Chương 9: Giống cún con",
-        "events": [
-            "Dịch Duyên ra điều kiện với Trần Liễm: đồng ý đi theo với điều kiện ông ta phải phá khóa hệ thống phòng vệ viện nghiên cứu Tây Lăng Sơn.",
-            "Nhờ bản vẽ cấp S của Lâu Hỉ Dương, bang Lloyd vận hành hoàn hảo, tiến độ cứu cha rút ngắn còn nửa tháng.",
-            "Lâu Hỉ Dương đi mua nhu yếu phẩm ở thành Long Uyên, giúp đỡ hai bà cháu và được tặng bộ mũ găng tay len hình cún con.",
-            "Lâu Hỉ Dương mang về tặng Dịch Duyên; tối đến Dịch Duyên đội tai cún và đeo móng cún giả vờ sủa 'gâu' trêu chọc anh.",
-            "Dịch Duyên xin Lâu Hỉ Dương làm bạn gái giả trước mạt thế, Lâu Hỉ Dương vô thức 'ừm' một tiếng và bị Dịch Duyên cưỡng hôn.",
-            "Lâu Hỉ Dương không kiềm lòng được liền ôm gáy Dịch Duyên hôn đáp lại; tiến độ trả nợ tăng lên 30%."
-        ],
-        "debt_repayment_progress": "30%",
-        "key_relationships": "Nụ hôn đáp lại đầu tiên của Lâu Hỉ Dương; tiến độ trả nợ nhảy vọt lên 30%."
+        "chapter": "ch_097",
+        "arc": "arc_04",
+        "title": "Chương 97: Nếu em đồng ý thì sao",
+        "summary": "Kỷ Cảnh trong trang phục nữ cùng Lục Tư Niên đi chơi thủy cung vào ngày lễ tình nhân; Kỷ Cảnh hôn má Lục Tư Niên giữa đàn cá; Lục Tư Niên muốn thuê nhà riêng bảo vệ Dịch Nam và dạy chỉ huy quân sự.",
+        "key_events": [
+            "Kỷ Cảnh bịa chuyện bị Alpha quấy rối ngoài đường vào ngày Valentine để kéo Lục Tư Niên tới đón.",
+            "Hai người cùng nhau đi tham quan thủy cung, Lục Tư Niên bộc bạch chưa từng được nhìn thấy biển lớn.",
+            "Kỷ Cảnh bất ngờ hôn lên gò má Lục Tư Niên, khiến Lục Tư Niên đỏ ửng tai và ngửi thấy mùi rượu Tequila quen thuộc.",
+            "Lục Tư Niên đề nghị thuê nhà riêng cho Dịch Nam ở gần trường và đích thân dạy học chỉ huy."
+        ]
     },
     {
-        "chapter_id": "ch_010",
-        "chapter_title": "Chương 10: Thế sao anh lại hôn em!",
-        "events": [
-            "Sau nụ hôn, Lâu Hỉ Dương tự trách bản thân mất tỉnh táo và tuyên bố từ nay sẽ giữ đúng ranh giới anh em.",
-            "Dịch Duyên uất ức khóc hét 'Thế sao anh lại hôn em!' rồi tự giam mình trong phòng ngủ.",
-            "Hôm sau Lâu Hỉ Dương hỏi Bội Lương lý do muốn hôn người khác, Bội Lương bảo 'muốn lên giường'; Lâu Hỉ Dương gạt phắt bảo 'muốn hôn chó' rồi tự suy luận là do thấy tai cún.",
-            "Lâu Hỉ Dương mang mô hình cơ giáp về dỗ dành thì phát hiện toàn bộ quần áo của Dịch Duyên đã biến mất, cậu đã bỏ nhà ra đi sớm hơn kiếp trước 1 tháng."
-        ],
-        "debt_repayment_progress": "30%",
-        "key_relationships": "Lâu Hỉ Dương tự lừa mình dối người về ranh giới anh em; Dịch Duyên rời đi sớm hơn dự tính để thực hiện thỏa thuận với Trần Liễm."
+        "chapter": "ch_098",
+        "arc": "arc_04",
+        "title": "Chương 98: Sân đấu thực chiến rực lửa",
+        "summary": "Kỷ Cảnh từ chối lời đề nghị thuê nhà vì tự ái; Hệ thống Mật Bảo trao thưởng nước phục hồi năng lượng; Giải đấu cận chiến toàn trường chào đón Quân đoàn Ba, Lục Tư Niên làm trọng tài; Kỷ Cảnh chuẩn bị đấu Lục Đảo Phong.",
+        "key_events": [
+            "Kỷ Cảnh từ chối sự giúp đỡ vì không muốn bị thương hại hay cảm giác như bị bao nuôi.",
+            "Hệ thống Mật Bảo xuất hiện thưởng Nước phục hồi năng lượng khôi phục chỉ số thể chất Alpha của Kỷ Cảnh.",
+            "Học viện Quân sự Đế quốc tổ chức giải đấu cận chiến chào đón Quân đoàn Ba, Lục Tư Niên ngồi ghế trọng tài.",
+            "Vương Bằng cảnh báo Kỷ Cảnh về thủ đoạn hiểm độc của thái tử gia Lục gia - Lục Đảo Phong."
+        ]
     },
     {
-        "chapter_id": "ch_011",
-        "chapter_title": "Chương 11: Hãy mở nó ra",
-        "events": [
-            "Lâu Hỉ Dương tức giận khi thấy Dịch Duyên lại bỏ đi như kiếp trước; uy áp của Đấng Cứu Thế khiến Hệ Thống Thiết Chùy sợ hãi kích hoạt giải pháp.",
-            "Hệ thống chỉ dẫn vào phòng Dịch Thiên, mở ngăn kéo bằng ADN của Dịch Duyên tìm thấy cuốn sổ tay da bò 15 năm trước.",
-            "Cuốn sổ hé lộ mẹ Dịch Duyên là tình báo viên FC, phát hiện chân tướng mạt thế và bị Tưởng Trác Hàng hãm hại; cha Dịch Duyên dặn cậu nếu cùng đường hãy tìm Trần Liễm.",
-            "Lâu Hỉ Dương nhận ra kiếp trước Dịch Duyên trở thành con nuôi của Trần Liễm là do lá thư này; anh quyết định chuẩn bị chiến dịch Tây Lăng Sơn."
-        ],
-        "debt_repayment_progress": "30%",
-        "key_relationships": "Lâu Hỉ Dương thấu hiểu nguyên do sâu xa dẫn đến hành động và thân thế của Dịch Duyên."
+        "chapter": "ch_099",
+        "arc": "arc_04",
+        "title": "Chương 99: Cơn sốt tin tức tố bùng phát",
+        "summary": "Trận chung kết cận chiến giữa Kỷ Cảnh và Lục Đảo Phong diễn ra ở bối cảnh bờ biển; Kỷ Cảnh áp đảo dìm đầu Lục Đảo Phong xuống nước trả thù cho quá khứ của Lục Tư Niên; Lục Tư Niên trên ghế trọng tài xúc động nghẹn ngào.",
+        "key_events": [
+            "Quân đoàn trưởng Trương Mạc và ban lãnh đạo Quân đoàn Ba trực tiếp theo dõi trận chung kết.",
+            "Kỷ Cảnh áp đảo vòng phân bảng và chọn chế độ bờ biển trong trận đấu với Lục Đảo Phong.",
+            "Kỷ Cảnh túm tóc dìm đầu Lục Đảo Phong xuống nước biển lặp đi lặp lại để trả đũa mối thù quá khứ cho Lục Tư Niên.",
+            "Lục Tư Niên nhận ra Kỷ Cảnh đang bảo vệ mình, tim đập dữ dội và vội vàng rời khỏi ghế trọng tài."
+        ]
     },
     {
-        "chapter_id": "ch_012",
-        "chapter_title": "Chương 12: Hắn điên rồi",
-        "events": [
-            "Lâu Hỉ Dương dọn đến xưởng sắt ở, cả bang Lloyd đồn ầm tin 'Lâu Hỉ Dương là biến thái bị vợ đuổi'.",
-            "Lâu Hỉ Dương mở chế độ huấn luyện địa ngục chấn chỉnh binh đoàn; 50 cơ giáp hoàn thành cải tiến.",
-            "Rạng sáng ngày thứ 3, 800 người bang Lloyd cùng dàn cơ giáp tấn công viện nghiên cứu Tây Lăng Sơn.",
-            "Lâu Hỉ Dương dùng một chưởng khí ba quét sạch dàn cơ giáp B phòng thủ; hệ thống phòng vệ của viện bất ngờ bị ai đó hack tê liệt hoàn toàn (do Dịch Duyên và Trần Liễm làm).",
-            "Lâu Hỉ Dương giải cứu thành công Lâu An Minh không tốn một binh một tốt.",
-            "Lâu An Minh gặp lại Bội Lương và lão tóc đỏ, thốt ra bí mật: 'Tưởng Trác Hàng, hắn ta điên rồi'.",
-            "Tại viện điều trị bí mật, Dịch Duyên ngắm video của Lâu Hỉ Dương, ngoan ngoãn để các bác sĩ cấy thiết bị đau đớn vào sau gáy để có 3 giờ tự do mỗi ngày."
-        ],
-        "debt_repayment_progress": "30%",
-        "key_relationships": "Dịch Duyên âm thầm hy sinh chịu đựng đau đớn để mở đường an toàn cho Lâu Hỉ Dương giải cứu cha."
+        "chapter": "ch_100",
+        "arc": "arc_04",
+        "title": "Chương 100: Gõ cửa căn hộ áp mái",
+        "summary": "Lục Tư Niên hạ gục Lâm Diên Sơn sau hậu trường rồi đè Kỷ Cảnh vào gốc cây ngửi pheromone trấn an; Lục Tư Niên phát sốt Omega phải nghỉ dạy; Kỷ Cảnh tìm tới căn hộ áp mái của Lục Tư Niên.",
+        "key_events": [
+            "Lục Tư Niên tung cước đá bay Lâm Diên Sơn hộc máu vì dám xúc phạm thân phận Omega.",
+            "Lục Tư Niên đè Kỷ Cảnh vào thân cây ven đường để ngửi tin tức tố Tequila giúp trấn tĩnh.",
+            "Kỷ Cảnh được cha là Kỷ Trình khen ngợi và bảo vệ, bất chấp việc bị tước huy chương vì đánh Lục Đảo Phong.",
+            "Lục Tư Niên phát sốt xin nghỉ dạy, Kỷ Cảnh tìm ra địa chỉ nhà và đến gõ cửa căn hộ áp mái."
+        ]
     },
     {
-        "chapter_id": "ch_013",
-        "chapter_title": "Chương 13: Em nhớ anh",
-        "events": [
-            "Lâu An Minh vạch trần âm mưu của Tưởng Trác Hàng: khí độc mạt thế thực chất nhẹ hơn tầng khí thứ hai và sẽ bốc lên Paradise tiêu diệt tầng lớp thượng lưu cầm quyền.",
-            "Mẹ của Lâu Hỉ Dương là nhà khoa học 5 sao phát hiện ra điều này và đang bị Tưởng Trác Hàng giam giữ ở Paradise; Lâu An Minh rủ anh cùng đi tìm.",
-            "Dịch Duyên gọi video cho Lâu Hỉ Dương; Lâu Hỉ Dương thú nhận 'Anh rất lo lắng cho em... Anh cũng nhớ em'.",
-            "Dịch Duyên vui sướng nhảy cẫng lên và bắt đầu cởi quần áo muốn khoe thứ gì đó."
-        ],
-        "debt_repayment_progress": "30%",
-        "key_relationships": "Lâu Hỉ Dương lần đầu thành thật thừa nhận nhớ Dịch Duyên; khoảng cách tình cảm được thu hẹp rõ rệt."
+        "chapter": "ch_101",
+        "arc": "arc_04",
+        "title": "Chương 101: Tỉnh giấc chung giường",
+        "summary": "Lục Tư Niên trong cơn phát tình mất kiểm soát hôn môi Kỷ Cảnh và ôm cậu; Kỷ Cảnh nấu canh gừng chăm sóc anh suốt mấy ngày; sáng ra Lục Tư Niên thức giấc thấy hai người chung giường bèn hoảng loạn bỏ trốn vào phòng tắm.",
+        "key_events": [
+            "Lục Tư Niên mở cửa trong tình trạng sốt cao, tin tức tố tuyết tùng lan tỏa nồng nặc và ôm chặt Kỷ Cảnh.",
+            "Lục Tư Niên mất kiểm soát đè Kỷ Cảnh xuống giường hôn môi sâu, Kỷ Cảnh kiềm chế không đánh dấu tuyến thể.",
+            "Kỷ Cảnh nấu canh gừng và ở lại chăm sóc Lục Tư Niên suốt mấy ngày sốt mê man.",
+            "Sáng ra Lục Tư Niên phát hiện hai người chung giường, hoảng hốt bọc chăn cho Kỷ Cảnh rồi trốn vào nhà tắm trong sự dằn vặt tội lỗi."
+        ]
     },
     {
-        "chapter_id": "ch_014",
-        "chapter_title": "Chương 14: Chỉ cho anh xem",
-        "events": [
-            "Dịch Duyên khoe hình xăm ở xương cụt: 'Chỉ cho một mình anh xem'; Lâu Hỉ Dương bắt cậu mặc quần áo đàng hoàng.",
-            "Hai người trò chuyện hơn 2 tiếng; Lâu Hỉ Dương phát hiện mồ hôi lạnh trên mặt Dịch Duyên trước khi cậu ngắt máy vì đau đớn do cấy ghép.",
-            "Lâu Hỉ Dương lo lắng tột cùng, hỏi hệ thống xác nhận Trần Liễm đang ở Paradise.",
-            "Lâu Hỉ Dương giục Lâu An Minh lên đường ngay đến Paradise; hai người đóng giả thổ phỉ trà trộn vào thành công."
-        ],
-        "debt_repayment_progress": "30%",
-        "key_relationships": "Lâu Hỉ Dương sốt ruột vì tình trạng sức khỏe của Dịch Duyên, lập tức lên đường đến Paradise tìm cậu."
-    },
-    {
-        "chapter_id": "ch_015",
-        "chapter_title": "Chương 15: Nam hộ lý",
-        "events": [
-            "Đến khu phố Paradise sầm uất, Lâu Hỉ Dương bị gã côn đồ nhà giàu Lý Bưu chặn đường bắt gọi 'anh'.",
-            "Lâu Hỉ Dương mỉa mai 'mệnh cứng khắc anh trai', dụ cả bọn vào hẻm tối rồi cố tình để Lý Bưu đâm một nhát vào bụng dưới.",
-            "Ngay sau đó, Lâu Hỉ Dương phản công đập tan nát cả bọn như đập bóng da, rồi giả vờ yếu ớt ra đường cầu cứu.",
-            "Mục đích của anh: dùng vết thương để giành một suất nhập viện điều trị trọng bệnh nơi mẹ anh bị giam giữ.",
-            "Buổi tối, bác sĩ đưa vào một nam hộ lý bịt kín mặt chăm sóc giường 1121; người hộ lý nhìn chằm chằm vào vết thương ở bụng anh với ánh mắt u ám (chính là Dịch Duyên)."
-        ],
-        "debt_repayment_progress": "30%",
-        "key_relationships": "Dịch Duyên xuất hiện với thân phận nam hộ lý chăm sóc Lâu Hỉ Dương đang bị thương."
+        "chapter": "ch_102",
+        "arc": "arc_04",
+        "title": "Chương 102: Giúp chị gái xử lý hoa đào",
+        "summary": "Lục Tư Niên áy náy muốn bù đắp chịu trách nhiệm nhưng Kỷ Cảnh giận dỗi bỏ về; Kỷ Cảnh phát hiện vỏ thuốc ức chế cấm của Lục Tư Niên từ Kỷ Vân Hy; Kỷ Vân Hy nhờ Kỷ Cảnh giả gái trị tên Alpha bám đuôi.",
+        "key_events": [
+            "Lục Tư Niên nấu cháo chu đáo và nói muốn bù đắp chịu trách nhiệm với Dịch Nam; Kỷ Cảnh tức giận mắng anh cổ hủ rồi bỏ về.",
+            "Kỷ Cảnh mặc đồ nữ về nhà bị ba mẹ bắt gặp, mẹ Kỷ chuẩn bị sẵn thuốc ức chế Alpha cho con trai.",
+            "Lục Tư Niên mất ngủ nhớ về những đêm thân mật, nhắn tin nhận tội và xin cơ hội bù đắp.",
+            "Kỷ Vân Hy nhận ra ống tiêm rỗng là thuốc kháng chế Omega bất hợp pháp làm hỏng tuyến thể; Kỷ Vân Hy nhờ Kỷ Cảnh giả gái trị tên Alpha quấy rối."
+        ]
     }
 ]
 
-timeline.extend(new_entries)
+for ev in batch2_events:
+    if ev["chapter"] not in existing_chs:
+        data.append(ev)
 
 with open(path, "w", encoding="utf-8") as f:
-    json.dump(timeline, f, ensure_ascii=False, indent=2)
+    json.dump(data, f, ensure_ascii=False, indent=2)
 
-print("Updated timeline.json with ch_008 -> ch_015 successfully!")
+print("Updated memory/timeline.json successfully!")

@@ -1,121 +1,116 @@
 # -*- coding: utf-8 -*-
 import json
 
-path = r"d:\Nhung\RIDI\trans-assistant\novel_projects\đấng-cứu-thế-trả-nợ-tình\memory\timeline.json"
-
+path = r"d:\Nhung\RIDI\trans-assistant\novel_projects\phản-diện-đổi-ý-cầm-kịch-bản-yêu-đương\memory\timeline.json"
 with open(path, "r", encoding="utf-8") as f:
-    timeline = json.load(f)
+    data = json.load(f)
 
-new_entries = [
+existing_chs = {item.get("chapter") for item in data}
+
+batch3_events = [
     {
-        "chapter_id": "ch_016",
-        "chapter_title": "Chương 16: Hắn cũng giống như em",
-        "events": [
-            "Bác sĩ ép Lâu Hỉ Dương nhận hộ lý che mặt chăm sóc vết thương bụng; Lâu Hỉ Dương nghi ngờ đối phương là tai mắt.",
-            "Trương Sâm Trạch dẫn đàn em vào thăm nhưng bị hộ lý chặn ở cửa; hai bên suýt ẩu đả.",
-            "Trương Sâm Trạch vào phòng cảnh báo Dịch Duyên rất nguy hiểm và thổ lộ 'cậu ta cũng giống tôi, đều thích cậu'.",
-            "Lâu Hỉ Dương từ chối tình cảm của Trương Sâm Trạch; tranh thủ lúc hộ lý vắng mặt đi thám thính toàn bộ viện điều trị, phát hiện tầng thượng có khu vực bí mật.",
-            "Về phòng gặp lại hộ lý, Lâu Hỉ Dương vào nhà vệ sinh thì hộ lý xông vào đòi giúp đỡ."
-        ],
-        "debt_repayment_progress": "30%",
-        "key_relationships": "Trương Sâm Trạch thừa nhận thích Lâu Hỉ Dương nhưng bị cự tuyệt; Lâu Hỉ Dương bắt đầu để ý các cử chỉ quen thuộc của hộ lý."
+        "chapter": "ch_103",
+        "arc": "arc_04",
+        "title": "Chương 103: Trừng trị Alpha theo đuổi",
+        "summary": "Kỷ Cảnh giả gái Dịch Nam đi gặp tên Alpha bám đuôi Minh Vũ để giúp Kỷ Vân Hy; Lục Tư Niên ghen tuông chạy tới đánh bay Minh Vũ, kéo Kỷ Cảnh ra xe hôn sâu và mang 4 sổ đỏ cùng bản thỏa thuận tiền hôn nhân ra cầu hôn Dịch Nam.",
+        "key_events": [
+            "Kỷ Cảnh cải trang thành Dịch Nam giúp chị gái Kỷ Vân Hy dạy dỗ tên Alpha Minh Vũ tại hộp đêm.",
+            "Lục Tư Niên phát hiện story định vị, ghen tuông lao tới quật ngã Minh Vũ.",
+            "Kỷ Cảnh ép Minh Vũ uống trọn ly rượu bị hạ thuốc.",
+            "Lục Tư Niên kéo Kỷ Cảnh ra xe hôn cuồng nhiệt, trưng ra tài sản và thỏa thuận tiền hôn nhân để cầu hôn Dịch Nam."
+        ]
     },
     {
-        "chapter_id": "ch_017",
-        "chapter_title": "Chương 17: Anh đã làm gì",
-        "events": [
-            "Lâu Hỉ Dương cởi quần áo đi vệ sinh làm lộ cơ bắp và vết thương bị toác; hộ lý xót xa mắng anh không biết giữ gìn sức khỏe.",
-            "Lâu Hỉ Dương nhận ra khẩu khí hộ lý rất giống Dịch Duyên nhưng nghi ngờ vì chiều cao và giọng nói khác biệt.",
-            "Hộ lý chu đáo đút từng thìa cháo trứng và ức gà cho Lâu Hỉ Dương.",
-            "Dịch Duyên quay về phòng thí nghiệm tầng thượng, tháo mặt nạ và giày độn đế; Trần Liễm mắng cậu vì đánh Lý Bưu thừa sống thiếu chết.",
-            "Hé lộ Dịch Duyên bị cấy thiết bị trích xuất chip sau gáy nối với hệ thống trung tâm, gây đau tim dữ dội; dữ liệu chứng minh ở cạnh Lâu Hỉ Dương giúp cảm xúc cậu ổn định nhất."
-        ],
-        "debt_repayment_progress": "30%",
-        "key_relationships": "Dịch Duyên âm thầm gánh chịu nỗi đau thể xác vì Lâu Hỉ Dương; sự gắn kết tâm lý sâu sắc giữa hai người."
+        "chapter": "ch_104",
+        "arc": "arc_04",
+        "title": "Chương 104: Lịch sử phân hóa và lời thổ lộ",
+        "summary": "Lục Tư Niên kể lại bi kịch của mẹ mình và nỗi dằn vặt muốn chịu trách nhiệm sau khi ngỡ rằng đã ngủ với Dịch Nam; Kỷ Cảnh giải thích chỉ dùng tay/đùi giúp đỡ; hai người xác nhận quan hệ hẹn hò; Kỷ Cảnh băn khoăn về lời nói dối.",
+        "key_events": [
+            "Lục Tư Niên bộc bạch về mẹ là một Beta hiền từ bị Alpha nhà họ Lục ruồng bỏ và qua đời trong oan ức.",
+            "Lục Tư Niên xấu hổ thú nhận tưởng đã ngủ với Dịch Nam; Kỷ Cảnh bật cười giải thích chưa đến bước cuối cùng.",
+            "Hai người chính thức xác nhận quan hệ hẹn hò: 'Tạm biệt nhé, bạn trai'.",
+            "Tiến độ nhiệm vụ tăng lên 63%; Kỷ Cảnh trăn trở vì lừa dối người thực lòng yêu mình."
+        ]
     },
     {
-        "chapter_id": "ch_018",
-        "chapter_title": "Chương 18: Tầng thượng",
-        "events": [
-            "Lâu Hỉ Dương gọi nhiều cuộc video cho Dịch Duyên không được, đe dọa hệ thống Thiết Chùy; hệ thống nhắc nhở không được làm trái ý nguyện của chủ nợ.",
-            "Lâu An Minh đeo mặt nạ da người đến thăm, trách Lâu Hỉ Dương thiếu cẩn trọng để bị thương.",
-            "Lâu Hỉ Dương tiễn cha rồi lén lút trèo qua tường cỏ C sau xích đu, phát hiện cửa bí mật phía sau viện điều trị.",
-            "Lâu Hỉ Dương đánh ngất 2 nhân viên nghiên cứu mặc áo blouse trắng, cướp thẻ từ và quần áo đi thang máy bí mật lên tầng 1.",
-            "Lên tới đại sảnh tím sẫm, Lâu Hỉ Dương bị lính canh gác chĩa súng laze tra hỏi; hộ lý kịp thời xuất hiện chìa thẻ cứu anh."
-        ],
-        "debt_repayment_progress": "30%",
-        "key_relationships": "Lâu Hỉ Dương xót ruột nhớ Dịch Duyên; bắt đầu thâm nhập vào khu vực bí mật tầng trên."
+        "chapter": "ch_105",
+        "arc": "arc_04",
+        "title": "Chương 105: Bữa tiệc nguyên soái và ghen tuông",
+        "summary": "Kỷ Cảnh ghen tị với chính thân phận Dịch Nam của mình; cả nhà Kỷ Cảnh dự tiệc sinh nhật Nguyên soái; Kỷ Cảnh đe dọa ném Lục Đảo Phong vào thùng rác trả thù cho Lục Tư Niên; Trương Mạc báo tin sắp có dự luật bỏ phiếu cho Omega tòng quân.",
+        "key_events": [
+            "Kỷ Cảnh ghen tị với thân phận Dịch Nam khi Lục Tư Niên khẳng định chỉ thích Dịch Nam.",
+            "Gia đình Kỷ Cảnh dự đại thọ 50 tuổi của Nguyên soái; Nguyên soái khen ngợi chỉ coi trọng Kỷ Cảnh và Lục Tư Niên.",
+            "Kỷ Cảnh đè bẹp sự khiêu khích của đám Alpha và đe dọa Lục Đảo Phong trả thù cho Lục Tư Niên.",
+            "Trương Mạc báo cho Lục Tư Niên biết về dự luật bỏ phiếu khôi phục quyền tòng quân cho Omega."
+        ]
     },
     {
-        "chapter_id": "ch_019",
-        "chapter_title": "Chương 19: Đưa cậu ấy đi",
-        "events": [
-            "Hộ lý đưa Lâu Hỉ Dương về phòng bệnh; Lâu Hỉ Dương ép hộ lý vào cửa chất vấn và ép tháo mặt nạ.",
-            "Hộ lý phản kháng quyết liệt nhưng ngất xỉu vì đau tim; Lâu Hỉ Dương tháo mặt nạ ra bàng hoàng nhận ra đó chính là Dịch Duyên.",
-            "Dịch Duyên tủi thân ôm cổ anh xin lỗi; Lâu Hỉ Dương phát hiện khối thiết bị cấy ghép đau đớn sau gáy cậu.",
-            "Biết Dịch Duyên chịu đau đớn để bóc tách con chip vì muốn cứu mình, Lâu Hỉ Dương phẫn nộ và tự trách tột cùng, tuyên bố 'Em quan trọng hơn'.",
-            "Lâu Hỉ Dương quyết định không để Dịch Duyên ở lại chịu khổ nữa, gọi điện nhờ Trương Sâm Trạch điều xe đến giải cứu."
-        ],
-        "debt_repayment_progress": "30%",
-        "key_relationships": "Lâu Hỉ Dương nhận ra hộ lý là Dịch Duyên; cảm xúc vượt lên trên lý trí khi quyết định đưa cậu trốn viện."
+        "chapter": "ch_106",
+        "arc": "arc_04",
+        "title": "Chương 106: Phòng nghỉ say rượu",
+        "summary": "Lục Tư Niên say rượu nhắn tin cho Dịch Nam; Kỷ Cảnh ra hoa viên gặp anh; Lục Tư Niên bộc bạch ngưỡng mộ Kỷ Cảnh ngày xưa nhưng xin đừng lừa dối mình; Kỷ Cảnh bực bội vì bị gọi là Dịch Nam bèn hôn môi Lục Tư Niên và bị Kỷ Vân Hy bắt quả tang.",
+        "key_events": [
+            "Lục Đảo Phong xỏ xiên tại bàn tiệc bị Nguyên soái quát nạt răn đe.",
+            "Lục Tư Niên uống say nhắn tin: 'Hình như tôi say rồi'; Kỷ Cảnh đi theo ra hoa viên.",
+            "Lục Tư Niên say mèm kể lại sự việc 6 năm trước và tha thiết xin đối phương đừng lừa dối mình.",
+            "Kỷ Cảnh hỏi 'Tôi là ai?', Lục Tư Niên đáp 'Dịch Nam'; Kỷ Cảnh tức giận hôn môi anh và bị Kỷ Vân Hy bắt gặp."
+        ]
     },
     {
-        "chapter_id": "ch_020",
-        "chapter_title": "Chương 20: Anh lại hôn em rồi",
-        "events": [
-            "Trương Sâm Trạch dẫn người đến làm thủ tục xuất viện; sững sờ khi thấy Lâu Hỉ Dương ôm Dịch Duyên ngủ trên giường.",
-            "Lâu Hỉ Dương thay quần áo cho Dịch Duyên đang hôn mê, vô tình nhìn thấy hình xăm mặt trời đỏ ở xương cụt kéo dài vào sâu.",
-            "Dịch Duyên tỉnh lại thì thào 'Em xăm anh lên người em, em là của anh'; hai người kích tình ôm hôn nồng cháy trên giường.",
-            "Lâu Hỉ Dương trấn an Dịch Duyên và đưa cậu ra xe cùng Trương Sâm Trạch, quyết tâm cắt bỏ thiết bị định vị trong vòng 3 tiếng."
-        ],
-        "debt_repayment_progress": "30%",
-        "key_relationships": "Nụ hôn nồng cháy xác nhận tình cảm; Lâu Hỉ Dương thừa nhận 'Em quan trọng hơn' và đưa Dịch Duyên chạy trốn."
+        "chapter": "ch_107",
+        "arc": "arc_04",
+        "title": "Chương 107: Mềm lòng và làm lành",
+        "summary": "Kỷ Cảnh đưa Lục Tư Niên về căn hộ; Lục Tư Niên say rượu ôm hôn vật lộn; Kỷ Cảnh ép Lục Tư Niên dâng hiến tuyến thể nhưng dừng lại kịp thời; Kỷ Cảnh thú nhận sự thật giả gái với Kỷ Vân Hy.",
+        "key_events": [
+            "Kỷ Cảnh dìu Lục Tư Niên về căn hộ áp mái; hai người vật lộn lăn xuống sàn nhà.",
+            "Kỷ Cảnh phóng tin tức tố Alpha áp chế và đòi cắn tuyến thể; Lục Tư Niên ngoan ngoãn dán trán xuống sàn để lộ tuyến thể cho cậu cắn.",
+            "Kỷ Cảnh bàng hoàng nhận ra tình cảm của Lục Tư Niên nên dừng lại không cắn.",
+            "Kỷ Cảnh về nhà thú nhận sự thật giả gái Dịch Nam với chị gái Kỷ Vân Hy."
+        ]
     },
     {
-        "chapter_id": "ch_021",
-        "chapter_title": "Chương 21: Yêu đương",
-        "events": [
-            "Đến khu đèn đỏ sào huyệt của Trương Sâm Trạch, Dịch Duyên bắt đền Lâu Hỉ Dương phải chịu trách nhiệm vì đã hôn và cởi áo mình.",
-            "Dịch Duyên đề nghị Lâu Hỉ Dương giả vờ làm bạn trai; Lâu Hỉ Dương đồng ý và bối rối học cách yêu đương.",
-            "Dịch Duyên kéo tay Lâu Hỉ Dương chỉ dẫn cách yêu đương khiến Lâu Hỉ Dương đỏ mặt xấu hổ.",
-            "Trần Liễm gọi điện đe dọa nếu quá 4 tiếng không về viện Dịch Duyên sẽ chết; thợ kỹ thuật của Trương Sâm Trạch bó tay không gỡ được thiết bị.",
-            "Lâu Hỉ Dương vội vã lái xe đưa Dịch Duyên quay về viện điều trị; trên đường đi bất ngờ bị một chiếc xe tải thùng kín đâm mạnh từ phía sau."
-        ],
-        "debt_repayment_progress": "30%",
-        "key_relationships": "Lâu Hỉ Dương chính thức đồng ý làm 'bạn trai' của Dịch Duyên; nảy sinh nhiều tiếp xúc thân mật."
+        "chapter": "ch_108",
+        "arc": "arc_04",
+        "title": "Chương 108: Quyết định trở lại quân đoàn",
+        "summary": "Khoảng cách giữa hai người thay đổi vì sự dằn vặt; Kỷ Cảnh cầu xin cha Kỷ bỏ phiếu thuận cho đề xuất Omega tòng quân; Kỷ gia dẫn đầu bỏ phiếu thuận giúp đề xuất thông qua ngoạn mục; Lục Tư Niên nhận ra Kỷ Cảnh đứng sau giúp đỡ.",
+        "key_events": [
+            "Kỷ Cảnh nhắn tin làm lành với Lục Tư Niên; hai người tiếp tục duy trì tương tác tại trường.",
+            "Kỷ Cảnh biết tin về cuộc bỏ phiếu quyền tòng quân của Omega đang có nguy cơ thất bại.",
+            "Kỷ Cảnh vào thư phòng cầu xin cha là Kỷ Trình bỏ phiếu thuận để giúp Lục Tư Niên.",
+            "Kỷ gia dẫn đầu bỏ phiếu thuận, kéo theo Vương gia và Nguyên soái, giúp đề xuất thông qua thành công; Lục Tư Niên xúc động đoán ra Kỷ Cảnh đứng sau giúp mình."
+        ]
     },
     {
-        "chapter_id": "ch_022",
-        "chapter_title": "Chương 22: Nhốt người nào",
-        "events": [
-            "Tài xế xe tải giả vờ xin lỗi; trong thùng xe xa hoa thực chất là Thủ lĩnh Liên bang Tưởng Trác Hàng ngồi quan sát.",
-            "Lâu Hỉ Dương cõng Dịch Duyên chạy nước rút như bay về viện điều trị trong 15 phút cuối cùng.",
-            "Về tới nơi an toàn cho Dịch Duyên, Lâu Hỉ Dương đấm vỡ mũi Trần Liễm rồi kiệt sức ngất xỉu.",
-            "Tỉnh lại trong phòng Dịch Duyên, Trần Liễm đề nghị hợp tác: cho phép Lâu Hỉ Dương làm vệ sĩ ở cạnh Dịch Duyên.",
-            "Trần Liễm tiết lộ chính Dịch Duyên đã đổi điều kiện để ông ta phá hỏng hệ thống phòng vệ Tây Lăng Sơn cho Lâu Hỉ Dương cứu cha.",
-            "Lâu Hỉ Dương hỏi tầng hai giam giữ ai; Trần Liễm tiết lộ đó là 'tiểu tình nhân bị Tưởng Trác Hàng cướp về' (mẹ Lâu Hỉ Dương)."
-        ],
-        "debt_repayment_progress": "30%",
-        "key_relationships": "Lâu Hỉ Dương biết được sự hy sinh âm thầm của Dịch Duyên vì mình; đồng ý ở lại làm vệ sĩ cạnh cậu."
+        "chapter": "ch_109",
+        "arc": "arc_04",
+        "title": "Chương 109: Kỳ nhạy cảm bùng phát",
+        "summary": "Kỷ Cảnh chấp nhận điều kiện thừa kế Kỷ gia sau 5 năm; tiến độ đạt 80% giải trói buộc hệ thống; Kỷ Cảnh nhắn tin chia tay và xóa tài khoản Dịch Nam; Lâm Diên Sơn phát điên tới ám hại Lục Tư Niên, Kỷ Cảnh xông tới đỡ đòn và bị tiêm thuốc kích thích bùng phát kỳ nhạy cảm.",
+        "key_events": [
+            "Tiến độ nhiệm vụ đột ngột cán mốc 80%, giải trói buộc hệ thống thành công.",
+            "Kỷ Cảnh quyết định dứt áo ra đi, gửi tin nhắn chia tay tàn nhẫn và xóa sổ tài khoản Dịch Nam.",
+            "Lâm Diên Sơn phát điên tìm tới nhà Lục Tư Niên định cưỡng ép nhục mạ anh trước khi anh trở lại quân đoàn.",
+            "Kỷ Cảnh đạp cửa xông vào ứng cứu, lao mình đỡ mũi tiêm thuốc tăng mẫn cảm tin tức tố cho Lục Tư Niên."
+        ]
     },
     {
-        "chapter_id": "ch_023",
-        "chapter_title": "Chương 23: Sờ sờ",
-        "events": [
-            "Trần Liễm đưa mặt nạ cho Lâu Hỉ Dương đóng vai vệ sĩ; Lâu Hỉ Dương ôm hôn Dịch Duyên đầy hối lỗi và nhận ra kiếp trước đã hiểu lầm cậu.",
-            "Dịch Duyên đòi 'phúc lợi bạn trai' bắt Lâu Hỉ Dương sờ soạng xoa dịu cơn đau cho mình; Lâu Hỉ Dương đỏ mặt làm quen với việc yêu đương đồng giới.",
-            "Lâu Hỉ Dương phát hiện đường ống thông khí từ phòng tắm nối thẳng lên nhà vệ sinh tầng hai.",
-            "Rạng sáng trước ngày sinh nhật của Tưởng Trác Hàng, Lâu Hỉ Dương chui qua ống thông khí lên nhà vệ sinh tầng hai.",
-            "Thả 3 con ruồi điện tử vô hiệu hóa camera an ninh trong 10 phút, Lâu Hỉ Dương đẩy cửa bước vào hành lang xanh lam tầng hai tìm mẹ."
-        ],
-        "debt_repayment_progress": "30%",
-        "key_relationships": "Lâu Hỉ Dương rũ bỏ hoàn toàn hiểu lầm kiếp trước, hết lòng chiều chuộng và tiếp xúc thân mật cùng Dịch Duyên."
+        "chapter": "ch_110",
+        "arc": "arc_04",
+        "title": "Chương 110: Lần đánh dấu đầu tiên",
+        "summary": "Kỳ nhạy cảm đầu tiên của Kỷ Cảnh bùng phát cuồng bạo; Lục Tư Niên chấp nhận dâng hiến tuyến thể để cứu Kỷ Cảnh khỏi nguy cơ phế bỏ; sáng hôm sau Kỷ Cảnh vô thức kẹp giọng nữ khiến thân phận Dịch Nam bại lộ hoàn toàn; hai người xảy ra cãi vã đau lòng.",
+        "key_events": [
+            "Kỳ nhạy cảm đầu tiên của Kỷ Cảnh bùng phát mất kiểm soát, hương rượu Tequila áp đảo hoàn toàn.",
+            "Lục Tư Niên gọi điện hỏi bác sĩ Nguyễn Uyên và chấp nhận để Kỷ Cảnh cắn ngập răng nanh đánh dấu tuyến thể.",
+            "Sáng hôm sau tỉnh dậy, Kỷ Cảnh vô thức dùng giọng nữ của Dịch Nam khiến thân phận giả bị vạch trần tại trận.",
+            "Kỷ Cảnh hoảng sợ buông lời tàn nhẫn tự vệ, Lục Tư Niên quát ngăn lại; Kỷ Cảnh nói xin lỗi rồi bỏ chạy."
+        ]
     }
 ]
 
-timeline.extend(new_entries)
+for ev in batch3_events:
+    if ev["chapter"] not in existing_chs:
+        data.append(ev)
 
 with open(path, "w", encoding="utf-8") as f:
-    json.dump(timeline, f, ensure_ascii=False, indent=2)
+    json.dump(data, f, ensure_ascii=False, indent=2)
 
-print("Batch 3 timeline updated successfully!")
+print("Updated memory/timeline.json successfully with Batch 3 events!")

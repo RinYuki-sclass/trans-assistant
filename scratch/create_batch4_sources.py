@@ -1,37 +1,35 @@
-import json
+# -*- coding: utf-8 -*-
 import os
+import json
 import sys
 
 sys.stdout.reconfigure(encoding='utf-8')
 
-with open('scratch/cleaned_batch4.json', 'r', encoding='utf-8') as f:
+with open('scratch/batch4_sliced.json', 'r', encoding='utf-8') as f:
     data = json.load(f)
 
-titles_vn = {
-    'ch_024': 'Chương 24: Hai người đang yêu nhau sao?',
-    'ch_025': 'Chương 25: Cậu rõ ràng thích anh ấy',
-    'ch_026': 'Chương 26: Xin lỗi, kết thúc thôi',
-    'ch_027': 'Chương 27: Chân tướng lộ diện',
-    'ch_028': 'Chương 28: Nhà kho đối chất',
-    'ch_029': 'Chương 29: Kịch bản hoàn thành',
-    'ch_030': 'Chương 30: Bên nhau trọn đời',
+titles = {
+    'ch_111': 'Chương 111: Rời đi sau cơn mẫn cảm',
+    'ch_112': 'Chương 112: Cơ hội tuyển quân đợt hai',
+    'ch_113': 'Chương 113: Tân binh gia nhập Đệ tam quân đoàn',
+    'ch_114': 'Chương 114: Thăm dò và ghen tuông',
+    'ch_115': 'Chương 115: Gián cách ngàn dặm và hoa hồng',
+    'ch_116': 'Chương 116: Khắc ghi dấu ấn trọn đời',
+    'ch_117': 'Chương 117: Lời cầu hôn và chiếc nhẫn kim cương',
+    'ch_118': 'Chương 118: Đồng phục thỏ nữ lang và Đại kết cục'
 }
 
-base_dir = r'd:\Nhung\RIDI\trans-assistant\novel_projects\phản-diện-đổi-ý-cầm-kịch-bản-yêu-đương\chapters'
+base_dir = 'novel_projects/phản-diện-đổi-ý-cầm-kịch-bản-yêu-đương/chapters'
 
-for cid, item in data.items():
-    cdir = os.path.join(base_dir, cid)
-    os.makedirs(cdir, exist_ok=True)
-    title = titles_vn[cid]
-    paras = item['paras']
+for ch_id, title in titles.items():
+    paras = data[ch_id]
+    ch_dir = os.path.join(base_dir, ch_id)
+    os.makedirs(ch_dir, exist_ok=True)
+    source_path = os.path.join(ch_dir, 'source.md')
     
-    header = f"---\ntitle: {title}\n---\n\n"
-    content = header + '\n\n'.join(paras) + '\n'
-    
-    source_path = os.path.join(cdir, 'source.md')
+    content = f"---\ntitle: {title}\n---\n\n" + "\n\n".join(paras) + "\n"
     with open(source_path, 'w', encoding='utf-8') as f:
         f.write(content)
-        
-    print(f"Created {source_path}: {len(paras)} paras")
+    print(f"Created {source_path}: {len(paras)} paragraphs")
 
-print("All Batch 4 sources created successfully!")
+print("Done creating batch 4 sources.")
