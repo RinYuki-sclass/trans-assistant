@@ -9,8 +9,11 @@
 - **Góc nhìn chính:** Chủ công (主攻).
 - **Văn phong chuẩn:** Kịch tính, sắc sảo, tự nhiên, biểu cảm tâm lý giằng xé tốt, hỗ sủng/cứu rỗi, tuyệt đối không dịch máy (MTL). Lời thoại đặt trong dấu ngoặc kép “...”.
 - **Liên kết Raw & Tham khảo:**
-  - 🌐 **JJWXC:** https://www.jjwxc.net/onebook.php?novelid=3672062
+  - 🌐 **JJWXC (Gốc):** https://www.jjwxc.net/onebook.php?novelid=3672062
   - 🌐 **NovelUpdates:** https://www.novelupdates.com/series/heart-hunting-game/
+  - 📖 **52 Thư Khố (52shuku):** https://www.52shuku.net/ (tìm `狩心游戏 碉堡堡`)
+  - 📖 **Trấn Hồn Tiểu Thuyết (Zhenhunxiaoshuo):** https://www.zhenhunxiaoshuo.com/ (tìm `狩心游戏`)
+  - 📖 **Đam Mỹ Tiểu Thuyết (Dmxs):** https://www.dmxs.org/ (tìm `狩心游戏`)
 
 ---
 
