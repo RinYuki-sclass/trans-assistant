@@ -22,7 +22,8 @@ from scripts.manhwa_image_processor import (
     get_windows_sort_key,
     sort_image_files,
     split_long_image,
-    optimize_image_for_api
+    optimize_image_for_api,
+    find_smart_cut_y
 )
 
 
@@ -34,14 +35,25 @@ class TestManhwaPipeline(unittest.TestCase):
         expected = ["chapter_1.jpg", "chapter_1 (1).jpg", "chapter_1 (2).jpg", "chapter_2.jpg", "chapter_10.jpg"]
         self.assertEqual(sorted_files, expected)
 
+    def test_smart_gutter_detection(self):
+        # Create an image with an obvious white gutter band between y=2300 and y=2400
+        test_img = Image.new("RGB", (800, 5000), color=(100, 100, 100))
+        # Draw a white band (gutter) around 2350
+        for y in range(2320, 2380):
+            for x in range(800):
+                test_img.putpixel((x, y), (255, 255, 255))
+        
+        cut_y, is_clean = find_smart_cut_y(test_img, target_y=2400, search_range=500)
+        self.assertTrue(is_clean)
+        self.assertTrue(2320 <= cut_y <= 2380)
+
     def test_image_split_and_optimize(self):
         # Create a tall dummy image: 800 x 6000 px
         test_img = Image.new("RGB", (800, 6000), color=(240, 240, 240))
-        parts = split_long_image(test_img, max_h=3000, overlap=200)
-        # 6000 px with max_h=3000 and overlap=200 should split into 3 parts
+        parts = split_long_image(test_img, max_h=2400, overlap=150)
         self.assertGreaterEqual(len(parts), 2)
         for p in parts:
-            opt = optimize_image_for_api(p, max_w=1100, max_h=5000)
+            opt = optimize_image_for_api(p, max_w=1200, max_h=2800)
             self.assertIsInstance(opt, Image.Image)
 
     def test_web_side_by_side_parsing(self):

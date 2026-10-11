@@ -91,10 +91,79 @@ def optimize_image_for_api(
     return Image.open(buf)
 
 
-def split_long_image(img: Image.Image, max_h: int = 4500, overlap: int = 250) -> List[Image.Image]:
+def find_smart_cut_y(img: Image.Image, target_y: int, search_range: int = 500) -> Tuple[int, bool]:
     """
-    Tự động cắt ảnh dải dài thành các phần nhỏ với khoảng đè (overlap)
-    để không bị đứt hoặc mất bong bóng thoại ở đường cắt.
+    Tìm điểm cắt thông minh (Smart Gutter Cut) tại khoảng trống trắng/đen giữa các khung tranh
+    trong phạm vi [target_y - search_range, target_y].
+    Trả về (best_y, is_clean_gutter).
+    """
+    import numpy as np
+
+    w, h = img.size
+    min_y = max(0, target_y - search_range)
+    max_y = min(h - 1, target_y + 100)
+
+    if min_y >= max_y:
+        return target_y, False
+
+    crop = img.crop((0, min_y, w, max_y)).convert('L')
+    arr = np.array(crop, dtype=np.float32)
+
+    # Tính độ biến thiên pixel và giá trị trung bình theo từng hàng ngang
+    row_stds = np.std(arr, axis=1)
+    row_means = np.mean(arr, axis=1)
+
+    # Gutter chuẩn webtoon: nền trắng (mean > 220) hoặc nền đen (mean < 35) có độ biến thiên rất thấp (std < 6)
+    is_white_gutter = (row_stds < 6.0) & (row_means > 220.0)
+    is_black_gutter = (row_stds < 6.0) & (row_means < 35.0)
+    is_gutter_row = is_white_gutter | is_black_gutter
+
+    def _find_longest_block(mask):
+        best_start = -1
+        best_len = 0
+        cur_start = -1
+        cur_len = 0
+        for idx, val in enumerate(mask):
+            if val:
+                if cur_start == -1:
+                    cur_start = idx
+                    cur_len = 1
+                else:
+                    cur_len += 1
+            else:
+                if cur_len > best_len:
+                    best_len = cur_len
+                    best_start = cur_start
+                cur_start = -1
+                cur_len = 0
+        if cur_len > best_len:
+            best_len = cur_len
+            best_start = cur_start
+        return best_start, best_len
+
+    # Ưu tiên 1: Gutter trắng hoặc đen chuẩn của webtoon
+    best_start, best_len = _find_longest_block(is_gutter_row)
+    if best_len >= 8:
+        mid_idx = best_start + best_len // 2
+        return int(min_y + mid_idx), True
+
+    # Ưu tiên 2: Bất kỳ hàng nào có màu đồng nhất (std < 5.0)
+    any_solid_row = row_stds < 5.0
+    best_start, best_len = _find_longest_block(any_solid_row)
+    if best_len >= 8:
+        mid_idx = best_start + best_len // 2
+        return int(min_y + mid_idx), True
+
+    # Ưu tiên 3: Chọn hàng có độ biến thiên nhỏ nhất gần target_y
+    best_row = int(np.argmin(row_stds))
+    return int(min_y + best_row), False
+
+
+def split_long_image(img: Image.Image, max_h: int = 2400, overlap: int = 150) -> List[Image.Image]:
+    """
+    Tự động cắt ảnh dải dài thành các phần nhỏ (~2400px).
+    Sử dụng Smart Gutter Detection để cắt vào khe trống giữa các khung tranh,
+    tuyệt đối không cắt xuyên qua bóng thoại hay nét vẽ.
     """
     w, h = img.size
     if h <= max_h:
@@ -103,27 +172,33 @@ def split_long_image(img: Image.Image, max_h: int = 4500, overlap: int = 250) ->
     parts = []
     y = 0
     while y < h:
-        end_y = y + max_h
-        if end_y > h:
-            end_y = h
-
-        box = (0, y, w, end_y)
-        parts.append(img.crop(box))
-
-        if end_y == h:
+        target_end = y + max_h
+        if target_end >= h:
+            parts.append(img.crop((0, y, w, h)))
             break
-        y = end_y - overlap
-        if y < 0:
-            y = 0
+
+        cut_y, is_clean = find_smart_cut_y(img, target_end, search_range=500)
+        # Đảm bảo lát cắt không quá ngắn (< 800px) nếu còn dài
+        if cut_y <= y + 800:
+            cut_y = target_end
+
+        parts.append(img.crop((0, y, w, cut_y)))
+
+        # Nếu cắt trúng gutter sạch thì không cần overlap; nếu không thì lùi lại overlap
+        if is_clean:
+            y = cut_y
+        else:
+            y = max(y + 1, cut_y - overlap)
+
     return parts
 
 
 def stitch_images(
     image_paths: List[str],
-    max_height: int = 4500
+    max_height: int = 2400
 ) -> List[Tuple[str, Image.Image]]:
     """
-    Ghép chuỗi ảnh bị cắt ngắn thành các dải liền mạch tối đa max_height.
+    Ghép chuỗi ảnh bị cắt ngắn thành các dải liền mạch tối đa max_height (~2400px).
     Trả về danh sách (suggested_name, PIL.Image).
     """
     loaded = []
@@ -175,8 +250,8 @@ def prepare_chapter_images(
     input_dir: str,
     output_dir: str,
     do_stitch: bool = True,
-    max_height: int = 4500,
-    overlap: int = 250,
+    max_height: int = 2400,
+    overlap: int = 150,
     optimize: bool = True
 ) -> List[str]:
     """
@@ -252,8 +327,8 @@ def main():
     parser.add_argument("--input", "-i", required=True, help="Thư mục chứa ảnh raw ban đầu")
     parser.add_argument("--output", "-o", required=True, help="Thư mục lưu ảnh đã xử lý")
     parser.add_argument("--no-stitch", action="store_true", help="Không tự động ghép dải ảnh")
-    parser.add_argument("--max-height", type=int, default=4500, help="Chiều cao tối đa mỗi lát ảnh (default: 4500px)")
-    parser.add_argument("--overlap", type=int, default=250, help="Độ đè chồng lấp khi cắt ảnh quá dài (default: 250px)")
+    parser.add_argument("--max-height", type=int, default=2400, help="Chiều cao tối đa mỗi lát ảnh (default: 2400px)")
+    parser.add_argument("--overlap", type=int, default=150, help="Độ đè chồng lấp khi cắt ảnh quá dài (default: 150px)")
     parser.add_argument("--no-opt", action="store_true", help="Bỏ qua bước tối ưu contrast/sharpness")
 
     args = parser.parse_args()

@@ -835,10 +835,9 @@ def optimize_image_for_api(img, max_dimension=3500):
     enhancer = PIL.ImageEnhance.Sharpness(img)
     img = enhancer.enhance(1.5)
 
-    # Resize thông minh cho Manhwa: Ưu tiên giữ Width khoảng 1000-1100px
-    # Google API hỗ trợ tốt nhất ở khoảng 3072px mỗi chiều, nhưng có thể nhận tới 5000px height.
-    max_w = 1100
-    max_h = 5000
+    # Resize thông minh cho Manhwa: Giữ Width khoảng 1000-1200px, Height <= 2600px để tránh downscale mờ chữ
+    max_w = 1200
+    max_h = 2600
     width, height = img.size
     if width > max_w or height > max_h:
         ratio = min(max_w / width, max_h / height)
@@ -848,37 +847,107 @@ def optimize_image_for_api(img, max_dimension=3500):
     
     # Save qua bộ nhớ đệm
     img_byte_arr = io.BytesIO()
-    # Lưu dưới chuẩn chất lượng JPEG tốt (88) để cân bằng giữa độ nét và dung lượng payload
-    img.save(img_byte_arr, format='JPEG', quality=88)
+    # Lưu dưới chuẩn chất lượng JPEG sắc nét (92) để nét chữ không bị nhiễu hạt
+    img.save(img_byte_arr, format='JPEG', quality=92)
     
     # Load lại ảnh nhẹ từ bytes
     img_byte_arr.seek(0)
     optimized_img = PIL.Image.open(img_byte_arr)
     return optimized_img
 
-def split_long_image(img, max_h=5000, overlap=200):
+def find_smart_cut_y(img, target_y, search_range=500):
     """
-    Tự động cắt ảnh dài thành các phần nhỏ hơn với khoảng chồng lấp (overlap)
-    để AI không bị mất nội dung ở đường cắt.
+    Tìm điểm cắt thông minh (Smart Gutter Cut) tại khoảng trống trắng/đen giữa các khung tranh.
+    """
+    import numpy as np
+
+    w, h = img.size
+    min_y = max(0, target_y - search_range)
+    max_y = min(h - 1, target_y + 100)
+
+    if min_y >= max_y:
+        return target_y, False
+
+    crop = img.crop((0, min_y, w, max_y)).convert('L')
+    arr = np.array(crop, dtype=np.float32)
+
+    # Tính độ biến thiên pixel và giá trị trung bình theo từng hàng ngang
+    row_stds = np.std(arr, axis=1)
+    row_means = np.mean(arr, axis=1)
+
+    # Gutter chuẩn webtoon: nền trắng (mean > 220) hoặc nền đen (mean < 35) có độ biến thiên rất thấp (std < 6)
+    is_white_gutter = (row_stds < 6.0) & (row_means > 220.0)
+    is_black_gutter = (row_stds < 6.0) & (row_means < 35.0)
+    is_gutter_row = is_white_gutter | is_black_gutter
+
+    def _find_longest_block(mask):
+        best_start = -1
+        best_len = 0
+        cur_start = -1
+        cur_len = 0
+        for idx, val in enumerate(mask):
+            if val:
+                if cur_start == -1:
+                    cur_start = idx
+                    cur_len = 1
+                else:
+                    cur_len += 1
+            else:
+                if cur_len > best_len:
+                    best_len = cur_len
+                    best_start = cur_start
+                cur_start = -1
+                cur_len = 0
+        if cur_len > best_len:
+            best_len = cur_len
+            best_start = cur_start
+        return best_start, best_len
+
+    # Ưu tiên 1: Gutter trắng hoặc đen chuẩn của webtoon
+    best_start, best_len = _find_longest_block(is_gutter_row)
+    if best_len >= 8:
+        mid_idx = best_start + best_len // 2
+        return int(min_y + mid_idx), True
+
+    # Ưu tiên 2: Bất kỳ hàng nào có màu đồng nhất (std < 5.0)
+    any_solid_row = row_stds < 5.0
+    best_start, best_len = _find_longest_block(any_solid_row)
+    if best_len >= 8:
+        mid_idx = best_start + best_len // 2
+        return int(min_y + mid_idx), True
+
+    # Ưu tiên 3: Chọn hàng có độ biến thiên nhỏ nhất gần target_y
+    best_row = int(np.argmin(row_stds))
+    return int(min_y + best_row), False
+
+def split_long_image(img, max_h=2400, overlap=150):
+    """
+    Tự động cắt ảnh dài thành các phần nhỏ hơn (~2400px) bằng Smart Gutter Detection
+    để không bị đứt hoặc mất nội dung/bóng thoại ở đường cắt.
     """
     w, h = img.size
     if h <= max_h:
         return [img]
-    
+
     parts = []
     y = 0
     while y < h:
-        end_y = y + max_h
-        if end_y > h:
-            end_y = h
-        
-        box = (0, y, w, end_y)
-        parts.append(img.crop(box))
-        
-        if end_y == h:
+        target_end = y + max_h
+        if target_end >= h:
+            parts.append(img.crop((0, y, w, h)))
             break
-        y = end_y - overlap
-        if y < 0: y = 0
+
+        cut_y, is_clean = find_smart_cut_y(img, target_end, search_range=500)
+        if cut_y <= y + 800:
+            cut_y = target_end
+
+        parts.append(img.crop((0, y, w, cut_y)))
+
+        if is_clean:
+            y = cut_y
+        else:
+            y = max(y + 1, cut_y - overlap)
+
     return parts
 
 def render_diff_html(text1, text2):
@@ -2198,7 +2267,7 @@ if tabs.is_active(5):
                             current_chunk = []
                             current_h = 0
                             current_w = 0
-                            MAX_HEIGHT = 5000
+                            MAX_HEIGHT = 2400
                         
                             for f, img in images:
                                 if current_h + img.height > MAX_HEIGHT and current_chunk:
@@ -2266,12 +2335,12 @@ if tabs.is_active(5):
                         fname = file_obj.name
                         bar.progress(i / len(files_to_process), f"Đang quét ảnh {i+1}/{len(files_to_process)}...")
                     
-                        # --- XỬ LÝ SLICING NỘI BỘ CHO ẢNH QUÁ DÀI ---
-                        MAX_H_LIMIT = 5000
+                        # --- XỬ LÝ SLICING NỘI BỘ CHO ẢNH QUÁ DÀI (CHỐNG MỜ & CHỐNG CHÉM BÓNG THOẠI) ---
+                        MAX_H_LIMIT = 2400
                         raw_img = file_obj.img
                         if raw_img.height > MAX_H_LIMIT:
-                            slices = split_long_image(raw_img, max_h=MAX_H_LIMIT, overlap=250)
-                            status.write(f"✂️ Ảnh `{fname}` quá dài, chia làm {len(slices)} phần để OCR...")
+                            slices = split_long_image(raw_img, max_h=MAX_H_LIMIT, overlap=150)
+                            status.write(f"✂️ Ảnh `{fname}` dài ({raw_img.height}px), chia thông minh {len(slices)} phần để OCR nét...")
                         else:
                             slices = [raw_img]
                     
@@ -2287,27 +2356,30 @@ if tabs.is_active(5):
                                     optimized_img = optimize_image_for_api(slc_img)
                                     sys_m = (
                                         "You are an expert Manhwa/Webtoon translator and typesetter assistant. "
-                                        "Your primary task is to accurately OCR the Korean text from speech bubbles and translate it into natural Vietnamese. "
-                                        "Ignore small background SFX (Sound Effects) unless they are crucial to the plot. "
-                                        "CRITICAL OCR RULE: You must be extremely precise with Korean transcription. Look for every small dash or dot. Do not guess or hallucinate based on context if the text is clear. "
-                                        "CRITICAL FORMAT RULE: If a single speech bubble contains multiple lines of text, you MUST join them into a SINGLE line separated by a space in both the KR and VI output. Do NOT preserve line breaks within the same dialogue box.\n"
+                                        "Your primary task is to accurately OCR ALL Korean text from the image and translate it into natural Vietnamese.\n\n"
+                                        "CRITICAL EXHAUSTIVE EXTRACTION MANDATE:\n"
+                                        "- You MUST detect and extract 100% of all readable text in this image without skipping anything.\n"
+                                        "- Scan methodically panel-by-panel, from top to bottom, right to left.\n"
+                                        "- Do NOT skip small speech bubbles, whisper dialogues (dotted border), small handwritten side remarks/thoughts next to characters, rectangular narration/caption boxes, or system message/quest windows.\n"
+                                        "- If a single speech bubble contains multiple lines of text, join them into a SINGLE line separated by a space in both KR and VI.\n\n"
                                         "Format your output cleanly and exactly like this:\n"
-                                        "[]\n"
+                                        "[Người nói/narrator]\n"
                                         "KR: <Exact Korean transcription in a SINGLE line>\n"
                                         "<Natural Vietnamese translation in a SINGLE line>\n\n"
                                         "CRITICAL RULES:\n"
-                                        "1. Punctuation Matching (SUPREME RULE): Ensure punctuation marks and counts (!, ?, ..., ~, commas, quotes, ending marks) in the Vietnamese translation strictly match the Korean KR line.\n"
-                                        "2. '형' (Hyung): When Han Yoohyun addresses Han Yoojin as '형', always preserve it as 'Hyung' in Vietnamese.\n"
-                                        "3. Name Suffixes: Keep Korean name suffixes attached as romanized forms: '-아'/'-야' -> '-ah'/'-yah' (e.g. '유현아' -> 'Yoohyun-ah'), '-씨' -> '-ssi' (e.g. '성현제 씨' -> 'Sung Hyunjae-ssi', '성모 씨' -> 'Sungmo-ssi', '한유진 씨' -> 'Han Yoojin-ssi'), '-군' -> '-gun' (e.g. '한유진 군' -> 'Han Yoojin-gun').\n"
-                                        "4. Politeness & Nuance: For sentences ending in -요, do not overuse 'ạ'; keep Vietnamese natural. For formal honorifics like -했습니까, -하십시오, use complete subject-predicate structure and polite phrasing instead of adding 'ạ'.\n"
-                                        "5. Pronouns:\n"
+                                        "1. Speaker Identification: Identify who is speaking [Speaker/narrator] based on balloon tails, character appearance, and context. Use [Narrator] for narration boxes, [Độc thoại] for inner monologue, [SFX] for critical sound effects, or [Bóng thoại] if unsure.\n"
+                                        "2. Punctuation Matching (SUPREME RULE): Ensure punctuation marks and counts (!, ?, ..., ~, commas, quotes, ending marks) in the Vietnamese translation strictly match the Korean KR line.\n"
+                                        "3. '형' (Hyung): When Han Yoohyun addresses Han Yoojin as '형', always preserve it as 'Hyung' in Vietnamese.\n"
+                                        "4. Name Suffixes: Keep Korean name suffixes attached as romanized forms: '-아'/'-야' -> '-ah'/'-yah' (e.g. '유현아' -> 'Yoohyun-ah'), '-씨' -> '-ssi' (e.g. '성현제 씨' -> 'Sung Hyunjae-ssi', '성모 씨' -> 'Sungmo-ssi', '한유진 씨' -> 'Han Yoojin-ssi'), '-군' -> '-gun' (e.g. '한유진 군' -> 'Han Yoojin-gun').\n"
+                                        "5. Politeness & Nuance: For sentences ending in -요, do not overuse 'ạ'; keep Vietnamese natural. For formal honorifics like -했습니까, -하십시오, use complete subject-predicate structure and polite phrasing instead of adding 'ạ'.\n"
+                                        "6. Pronouns:\n"
                                         "   - Han Yoojin (YJ) <-> Han Yoohyun (YH): Anh - Em (Yoohyun-ah / em trai) & Em - Anh (Hyung).\n"
                                         "   - Sung Hyunjae (HJ) -> Han Yoojin (YJ): Tôi - Cậu (Han Yoojin-gun). Han Yoojin -> Sung Hyunjae: Tôi - Anh (Sung Hyunjae-ssi / Sungmo-ssi).\n"
                                         "   - Park Yerim (YR) -> Han Yoojin (YJ): Tôi/Bọn mình - Chú/Ahjussi. Park Yerim -> Han Yoohyun: Tôi - Anh. Park Yerim -> Sung Hyunjae: Cháu - Chú.\n"
                                         "   - Song Taewon (TW) <-> Han Yoojin (YJ): Tôi - Cậu (Han Yoojin-ssi) & Tôi - Anh.\n"
                                         "   - Yoo Myungwoo (YMW): Tự xưng 'Tôi'."
                                     )
-                                    prompt = f"--- GLOSSARY ---\n{glossary}\n\n--- NOTES ---\n{notes}\n\n--- TASK ---\nExtract dialogues from this image and translate them to Vietnamese. Keep them in reading order (top to bottom, right to left generally)."
+                                    prompt = f"--- GLOSSARY ---\n{glossary}\n\n--- NOTES ---\n{notes}\n\n--- TASK ---\nExtract ALL dialogues, captions, whispers, and side texts from this image exhaustively and translate them to Vietnamese. Keep them in reading order (top to bottom, right to left)."
                                     contents = [optimized_img, prompt]
                                     res = generate_with_retry(target_model, contents, sys_m, status, temp=0.1)
                                 
@@ -2404,20 +2476,23 @@ if tabs.is_active(5):
                                     
                                         sys_m = (
                                             "You are an expert Manhwa/Webtoon translator and typesetter assistant. "
-                                            "You extract Korean text strictly from speech bubbles or important narrative boxes and translate it into natural, flowing Vietnamese. "
-                                            "Ignore small background SFX (Sound Effects) unless they are crucial to the plot. "
-                                            "CRITICAL OCR RULE: You must be extremely precise with Korean transcription. Look for every small dash or dot. Do not guess or hallucinate based on context if the text is clear. "
-                                            "CRITICAL FORMAT RULE: If a single speech bubble contains multiple lines of text, you MUST join them into a SINGLE line separated by a space in both the KR and VI output. Do NOT preserve line breaks within the same dialogue box.\n"
+                                            "Your primary task is to accurately OCR ALL Korean text from the image and translate it into natural Vietnamese.\n\n"
+                                            "CRITICAL EXHAUSTIVE EXTRACTION MANDATE:\n"
+                                            "- You MUST detect and extract 100% of all readable text in this image without skipping anything.\n"
+                                            "- Scan methodically panel-by-panel, from top to bottom, right to left.\n"
+                                            "- Do NOT skip small speech bubbles, whisper dialogues (dotted border), small handwritten side remarks/thoughts next to characters, rectangular narration/caption boxes, or system message/quest windows.\n"
+                                            "- If a single speech bubble contains multiple lines of text, join them into a SINGLE line separated by a space in both KR and VI.\n\n"
                                             "Format your output cleanly and exactly like this:\n"
-                                            "[]\n"
+                                            "[Người nói/narrator]\n"
                                             "KR: <Exact Korean transcription in a SINGLE line>\n"
                                             "<Natural Vietnamese translation in a SINGLE line>\n\n"
                                             "CRITICAL RULES:\n"
-                                            "1. Punctuation Matching (SUPREME RULE): Ensure punctuation marks and counts (!, ?, ..., ~, commas, quotes, ending marks) in the Vietnamese translation strictly match the Korean KR line.\n"
-                                            "2. '형' (Hyung): When Han Yoohyun addresses Han Yoojin as '형', always preserve it as 'Hyung' in Vietnamese.\n"
-                                            "3. Name Suffixes: Keep Korean name suffixes attached as romanized forms: '-아'/'-야' -> '-ah'/'-yah' (e.g. '유현아' -> 'Yoohyun-ah'), '-씨' -> '-ssi' (e.g. '성현제 씨' -> 'Sung Hyunjae-ssi', '성모 씨' -> 'Sungmo-ssi', '한유진 씨' -> 'Han Yoojin-ssi'), '-군' -> '-gun' (e.g. '한유진 군' -> 'Han Yoojin-gun').\n"
-                                            "4. Politeness & Nuance: For sentences ending in -요, do not overuse 'ạ'; keep Vietnamese natural. For formal honorifics like -했습니까, -하십시오, use complete subject-predicate structure and polite phrasing instead of adding 'ạ'.\n"
-                                            "5. Pronouns:\n"
+                                            "1. Speaker Identification: Identify who is speaking [Speaker/narrator] based on balloon tails, character appearance, and context. Use [Narrator] for narration boxes, [Độc thoại] for inner monologue, [SFX] for critical sound effects, or [Bóng thoại] if unsure.\n"
+                                            "2. Punctuation Matching (SUPREME RULE): Ensure punctuation marks and counts (!, ?, ..., ~, commas, quotes, ending marks) in the Vietnamese translation strictly match the Korean KR line.\n"
+                                            "3. '형' (Hyung): When Han Yoohyun addresses Han Yoojin as '형', always preserve it as 'Hyung' in Vietnamese.\n"
+                                            "4. Name Suffixes: Keep Korean name suffixes attached as romanized forms: '-아'/'-야' -> '-ah'/'-yah' (e.g. '유현아' -> 'Yoohyun-ah'), '-씨' -> '-ssi' (e.g. '성현제 씨' -> 'Sung Hyunjae-ssi', '성모 씨' -> 'Sungmo-ssi', '한유진 씨' -> 'Han Yoojin-ssi'), '-군' -> '-gun' (e.g. '한유진 군' -> 'Han Yoojin-gun').\n"
+                                            "5. Politeness & Nuance: For sentences ending in -요, do not overuse 'ạ'; keep Vietnamese natural. For formal honorifics like -했습니까, -하십시오, use complete subject-predicate structure and polite phrasing instead of adding 'ạ'.\n"
+                                            "6. Pronouns:\n"
                                             "   - Han Yoojin (YJ) <-> Han Yoohyun (YH): Anh - Em (Yoohyun-ah / em trai) & Em - Anh (Hyung).\n"
                                             "   - Sung Hyunjae (HJ) -> Han Yoojin (YJ): Tôi - Cậu (Han Yoojin-gun). Han Yoojin -> Sung Hyunjae: Tôi - Anh (Sung Hyunjae-ssi / Sungmo-ssi).\n"
                                             "   - Park Yerim (YR) -> Han Yoojin (YJ): Tôi/Bọn mình - Chú/Ahjussi. Park Yerim -> Han Yoohyun: Tôi - Anh. Park Yerim -> Sung Hyunjae: Cháu - Chú.\n"
@@ -2425,7 +2500,7 @@ if tabs.is_active(5):
                                             "   - Yoo Myungwoo (YMW): Tự xưng 'Tôi'."
                                         )
                                     
-                                        prompt = f"--- GLOSSARY ---\n{glossary}\n\n--- NOTES ---\n{notes}\n\n--- TASK ---\nExtract dialogues from this image and translate them to Vietnamese. Keep them in reading order (top to bottom, right to left generally)."
+                                        prompt = f"--- GLOSSARY ---\n{glossary}\n\n--- NOTES ---\n{notes}\n\n--- TASK ---\nExtract ALL dialogues, captions, whispers, and side texts from this image exhaustively and translate them to Vietnamese. Keep them in reading order (top to bottom, right to left)."
                                     
                                         contents = [optimized_img, prompt]
                                         res = generate_with_retry(target_model, contents, sys_m, status_retry)
@@ -3093,11 +3168,128 @@ if tabs.is_active(9):
 
     def na_load_memory(slug: str) -> dict:
         mem_dir = os.path.join(na_project_dir(slug), 'memory')
+
+        # Characters normalization
+        chars_raw = na_load_json(os.path.join(mem_dir, 'characters.json'), [])
+        if isinstance(chars_raw, dict):
+            chars_norm = []
+            for k, v in chars_raw.items():
+                if isinstance(v, dict):
+                    item = dict(v)
+                    if 'name' not in item:
+                        item['name'] = str(k)
+                    chars_norm.append(item)
+                else:
+                    chars_norm.append({'name': str(k), 'notes': str(v)})
+            chars_raw = chars_norm
+        elif isinstance(chars_raw, list):
+            chars_raw = [c if isinstance(c, dict) else {'name': str(c)} for c in chars_raw]
+        else:
+            chars_raw = []
+
+        # Glossary normalization
+        gl_raw = na_load_json(os.path.join(mem_dir, 'glossary.json'), [])
+        if isinstance(gl_raw, dict):
+            gl_norm = []
+            for k, v in gl_raw.items():
+                if isinstance(v, dict):
+                    item = dict(v)
+                    if 'original' not in item:
+                        item['original'] = str(k)
+                    gl_norm.append(item)
+                else:
+                    gl_norm.append({
+                        'original': str(k),
+                        'translation': str(v),
+                        'hanviet': '',
+                        'category': 'Thuật ngữ',
+                        'confidence': 1.0,
+                        'approved': True,
+                        'chapter_first_seen': '',
+                        'notes': ''
+                    })
+            gl_raw = gl_norm
+        elif isinstance(gl_raw, list):
+            gl_norm = []
+            for item in gl_raw:
+                if isinstance(item, dict):
+                    gl_norm.append(item)
+                elif isinstance(item, str):
+                    gl_norm.append({
+                        'original': item,
+                        'translation': item,
+                        'hanviet': '',
+                        'category': 'Thuật ngữ',
+                        'confidence': 1.0,
+                        'approved': True,
+                        'chapter_first_seen': '',
+                        'notes': ''
+                    })
+            gl_raw = gl_norm
+        else:
+            gl_raw = []
+
+        # Timeline normalization
+        tl_raw = na_load_json(os.path.join(mem_dir, 'timeline.json'), [])
+        if isinstance(tl_raw, dict):
+            tl_norm = []
+            for k, v in tl_raw.items():
+                if isinstance(v, dict):
+                    for sub_k, sub_v in v.items():
+                        tl_norm.append({'chapter_id': str(sub_k), 'event': str(sub_v)})
+                else:
+                    tl_norm.append({'chapter_id': str(k), 'event': str(v)})
+            tl_raw = tl_norm
+        elif isinstance(tl_raw, list):
+            tl_norm = []
+            for t in tl_raw:
+                if isinstance(t, dict):
+                    ev = t.get('event') or t.get('events') or ''
+                    if isinstance(ev, list):
+                        ev = '; '.join(str(x) for x in ev)
+                    tl_norm.append({'chapter_id': t.get('chapter_id', ''), 'event': str(ev)})
+                else:
+                    tl_norm.append({'chapter_id': '', 'event': str(t)})
+            tl_raw = tl_norm
+        else:
+            tl_raw = []
+
+        # Relationships normalization
+        rel_raw = na_load_json(os.path.join(mem_dir, 'relationships.json'), [])
+        if isinstance(rel_raw, dict):
+            rel_norm = []
+            for k, v in rel_raw.items():
+                parts = str(k).split(' - ') if ' - ' in str(k) else str(k).split('-')
+                char_a = parts[0].strip() if len(parts) > 0 else str(k)
+                char_b = parts[1].strip() if len(parts) > 1 else ''
+                rel_norm.append({
+                    'Nhân vật A': char_a,
+                    'Quan hệ': str(v) if isinstance(v, str) else v.get('Quan hệ', ''),
+                    'Nhân vật B': char_b,
+                    'Ghi chú': '' if isinstance(v, str) else v.get('Ghi chú', '')
+                })
+            rel_raw = rel_norm
+        elif isinstance(rel_raw, list):
+            rel_norm = []
+            for r in rel_raw:
+                if isinstance(r, dict):
+                    rel_norm.append(r)
+                elif isinstance(r, (list, tuple)) and len(r) >= 2:
+                    rel_norm.append({
+                        'Nhân vật A': str(r[0]),
+                        'Quan hệ': str(r[1]) if len(r) > 1 else '',
+                        'Nhân vật B': str(r[2]) if len(r) > 2 else '',
+                        'Ghi chú': str(r[3]) if len(r) > 3 else ''
+                    })
+            rel_raw = rel_norm
+        else:
+            rel_raw = []
+
         return {
-            'characters': na_load_json(os.path.join(mem_dir, 'characters.json'), []),
-            'glossary':   na_load_json(os.path.join(mem_dir, 'glossary.json'), []),
-            'timeline':   na_load_json(os.path.join(mem_dir, 'timeline.json'), []),
-            'relationships': na_load_json(os.path.join(mem_dir, 'relationships.json'), []),
+            'characters': chars_raw,
+            'glossary':   gl_raw,
+            'timeline':   tl_raw,
+            'relationships': rel_raw,
         }
 
     def na_save_memory(slug: str, memory: dict):
@@ -6188,13 +6380,13 @@ if tabs.is_active(11):
                         st.caption(f"{len(chars)} nhân vật")
                         import pandas as pd
                         char_df = pd.DataFrame([{
-                            'Tên': c.get('name',''),
-                            'Tên Hán-Việt': c.get('hanviet_name',''),
-                            'Giới tính': c.get('gender',''),
-                            'Bí danh': ', '.join(c.get('aliases', [])),
-                            'Xưng hô': c.get('honorifics',''),
-                            'Phong cách': c.get('speech_style',''),
-                            'Ghi chú': c.get('notes','')
+                            'Tên': c.get('name','') if isinstance(c, dict) else str(c),
+                            'Tên Hán-Việt': c.get('hanviet_name','') if isinstance(c, dict) else '',
+                            'Giới tính': c.get('gender','') if isinstance(c, dict) else '',
+                            'Bí danh': ', '.join(c.get('aliases', [])) if isinstance(c, dict) and isinstance(c.get('aliases'), list) else '',
+                            'Xưng hô': c.get('honorifics','') if isinstance(c, dict) else '',
+                            'Phong cách': c.get('speech_style','') if isinstance(c, dict) else '',
+                            'Ghi chú': c.get('notes','') if isinstance(c, dict) else ''
                         } for c in chars])
                         edited_chars = st.data_editor(char_df, use_container_width=True,
                                                        num_rows="dynamic", key="na_mem_chars")
@@ -6222,14 +6414,14 @@ if tabs.is_active(11):
                         st.caption(f"{len(glossary_v)} thuật ngữ")
                         import pandas as pd
                         gl_df = pd.DataFrame([{
-                            'Gốc': g.get('original',''),
-                            'Dịch': g.get('translation',''),
-                            'Hán-Việt': g.get('hanviet',''),
-                            'Loại': g.get('category',''),
-                            'Confidence': f"{int(g.get('confidence',0)*100)}%",
-                            'Approved': g.get('approved', False),
-                            'Lần đầu thấy': g.get('chapter_first_seen',''),
-                            'Ghi chú': g.get('notes','')
+                            'Gốc': g.get('original','') if isinstance(g, dict) else str(g),
+                            'Dịch': g.get('translation','') if isinstance(g, dict) else '',
+                            'Hán-Việt': g.get('hanviet','') if isinstance(g, dict) else '',
+                            'Loại': g.get('category','') if isinstance(g, dict) else '',
+                            'Confidence': f"{int(g.get('confidence',0)*100)}%" if isinstance(g, dict) else '100%',
+                            'Approved': g.get('approved', False) if isinstance(g, dict) else True,
+                            'Lần đầu thấy': g.get('chapter_first_seen','') if isinstance(g, dict) else '',
+                            'Ghi chú': g.get('notes','') if isinstance(g, dict) else ''
                         } for g in glossary_v])
                         edited_gl = st.data_editor(gl_df, use_container_width=True,
                                                     num_rows="dynamic", key="na_mem_gl")
@@ -6257,7 +6449,10 @@ if tabs.is_active(11):
                         if st.button("⬇️ Xuất Glossary (.md)", key="na_dl_gl"):
                             lines = ["# Project Glossary\n"]
                             for g in glossary_v:
-                                lines.append(f"- {g.get('original','')} → {g.get('translation','')} [{g.get('category','')}]")
+                                if isinstance(g, dict):
+                                    lines.append(f"- {g.get('original','')} → {g.get('translation','')} [{g.get('category','')}]")
+                                else:
+                                    lines.append(f"- {str(g)}")
                             st.download_button(
                                 "Tải về", '\n'.join(lines),
                                 f"{na_proj}_glossary.md", "text/markdown",
@@ -6272,8 +6467,8 @@ if tabs.is_active(11):
                         st.caption(f"{len(timeline_v)} sự kiện")
                         import pandas as pd
                         tl_df = pd.DataFrame([{
-                            'Chapter': t.get('chapter_id',''),
-                            'Sự kiện': t.get('event','')
+                            'Chapter': t.get('chapter_id','') if isinstance(t, dict) else '',
+                            'Sự kiện': (t.get('event') or ('; '.join(t.get('events', [])) if isinstance(t.get('events'), list) else t.get('events', '')) or '') if isinstance(t, dict) else str(t)
                         } for t in timeline_v])
                         edited_tl = st.data_editor(tl_df, use_container_width=True,
                                                     num_rows="dynamic", key="na_mem_tl")

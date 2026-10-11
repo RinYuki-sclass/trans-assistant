@@ -1,0 +1,109 @@
+[
+  {
+    "name": "Host Gong",
+    "hanviet_name": "Ký Chủ Trọng Sinh (Công)",
+    "original_name": "宿主 / 攻君",
+    "gender": "Nam",
+    "role": "Công chính (Chủ công từng thế giới)",
+    "aliases": [
+      "ký chủ",
+      "chim hoàng yến trọng sinh",
+      "âm ám phê"
+    ],
+    "narration_pronoun": "hắn / anh",
+    "honorifics": "với Thụ: tôi - anh / ta - ngươi; với Hệ thống: tôi - hệ thống",
+    "speech_style": "Thâm trầm, khôn khéo, bề ngoài nghe lời ngoan ngoãn nhưng tâm lý sắc sảo, thâm sâu, phản sát hệ thống",
+    "notes": "Những linh hồn kiếp trước thất bại được hệ thống tà ác chọn để tham gia trò chơi săn tim, nhưng đã thức tỉnh và đảo ngược ván cờ"
+  },
+  {
+    "name": "Target Shou",
+    "hanviet_name": "Đối Tượng Săn Tim (Thụ)",
+    "original_name": "猎心目标 / 受君",
+    "gender": "Nam",
+    "role": "Thụ chính (Các thế giới)",
+    "aliases": [
+      "kim chủ",
+      "mục tiêu công lược",
+      "cường thụ"
+    ],
+    "narration_pronoun": "y / hắn",
+    "honorifics": "với Công: anh/tôi - cậu/em / ngươi - ta",
+    "speech_style": "Bá đạo, quyền thế, bề ngoài lạnh lùng áp chế nhưng thực chất thâm tình, bảo bọc công vô điều kiện",
+    "notes": "Những người đứng đầu giới tài phiệt, quân đội, triều đình bị hệ thống nhắm đến làm con mồi để hút năng lượng đau khổ"
+  },
+  {
+    "name": "Tạ Phong Dương",
+    "hanviet_name": "Tạ Phong Dương",
+    "original_name": "谢风扬",
+    "gender": "Nam",
+    "role": "Công chính (Quyển 1 - Hiện đại)",
+    "aliases": [
+      "Tiểu Tạ",
+      "chim hoàng yến trọng sinh"
+    ],
+    "narration_pronoun": "anh / hắn",
+    "honorifics": "với Lâu Sơ Hàn: tôi - anh",
+    "speech_style": "Bề ngoài dịu ngoan nghe lời, bên trong toan tính sắc bén",
+    "notes": "Kiếp trước bị ép làm chim hoàng yến rồi chết thảm, kiếp này trọng sinh giả vờ thuận theo để săn tim kim chủ"
+  },
+  {
+    "name": "Lâu Sơ Hàn",
+    "hanviet_name": "Lâu Sơ Hàn",
+    "original_name": "楼疏寒",
+    "gender": "Nam",
+    "role": "Thụ chính (Quyển 1 - Hiện đại)",
+    "aliases": [
+      "Lâu tổng",
+      "kim chủ"
+    ],
+    "narration_pronoun": "y / hắn",
+    "honorifics": "với Tạ Phong Dương: tôi - cậu",
+    "speech_style": "Trầm ổn, uy quyền, kiệm lời nhưng hành động hết sức dung túng",
+    "notes": "Bá tổng kim chủ quyền lực, bề ngoài lạnh lùng nhưng thật lòng che chở công"
+  },
+  {
+    "name": "Trần Thứ",
+    "hanviet_name": "Trần Thứ",
+    "original_name": "陈恕",
+    "gender": "Nam",
+    "role": "Công chính (Quyển 3 - Cổ đại)",
+    "aliases": [
+      "Vương gia",
+      "trà xanh mỹ nhân"
+    ],
+    "narration_pronoun": "hắn",
+    "honorifics": "với Trang Nhất Hàn: ta - ngươi",
+    "speech_style": "Bạch thiết hắc, giả vờ yếu đuối lương thiện, trà xanh tâm cơ",
+    "notes": "Vương gia bề ngoài yếu đuối bệnh tật nhưng tâm cơ sâu sắc"
+  },
+  {
+    "name": "Trang Nhất Hàn",
+    "hanviet_name": "Trang Nhất Hàn",
+    "original_name": "庄一寒",
+    "gender": "Nam",
+    "role": "Thụ chính (Quyển 3 - Cổ đại)",
+    "aliases": [
+      "Thế tử",
+      "Tiểu tướng quân"
+    ],
+    "narration_pronoun": "y",
+    "honorifics": "với Trần Thứ: ngươi - ta",
+    "speech_style": "Kiệt ngạo bất tuân, bộc trực, cực kỳ bao che khuyết điểm",
+    "notes": "Thế tử dũng mãnh, sẵn sàng bảo vệ Vương gia trước mọi sóng gió"
+  },
+  {
+    "name": "Demon System",
+    "hanviet_name": "Hệ Thống Ác Ma (Hệ Thống Săn Tim)",
+    "original_name": "恶魔系统 / 狩心系统",
+    "gender": "Hệ thống",
+    "role": "Phản diện ngầm",
+    "aliases": [
+      "hệ thống",
+      "ác linh"
+    ],
+    "narration_pronoun": "nó",
+    "honorifics": "ngươi - bản hệ thống",
+    "speech_style": "Dụ hoặc, độc ác, giục giã ký chủ tra tấn tình cảm đối phương",
+    "notes": "Thực thể tà ác hấp thu năng lượng từ sự phản bội và tuyệt vọng trong tình yêu"
+  }
+]

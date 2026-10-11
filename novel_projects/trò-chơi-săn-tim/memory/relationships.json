@@ -1,0 +1,41 @@
+[
+  {
+    "pair": [
+      "Tạ Phong Dương",
+      "Lâu Sơ Hàn"
+    ],
+    "context": "Quyển 1 - Hiện đại đô thị",
+    "relation_type": "Chim hoàng yến trọng sinh (Công) x Bá tổng kim chủ thâm tình (Thù)",
+    "narration_pronouns": {
+      "Tạ Phong Dương": "anh / hắn",
+      "Lâu Sơ Hàn": "y / hắn"
+    },
+    "status": "Ban đầu thăm dò toan tính, sau cùng thấu hiểu và sủng ái lẫn nhau"
+  },
+  {
+    "pair": [
+      "Trần Thứ",
+      "Trang Nhất Hàn"
+    ],
+    "context": "Quyển 3 - Cổ đại triều đình",
+    "relation_type": "Vương gia trà xanh bạch thiết hắc (Công) x Thế tử kiệt ngạo hộ đoản (Thụ)",
+    "narration_pronouns": {
+      "Trần Thứ": "hắn",
+      "Trang Nhất Hàn": "y"
+    },
+    "status": "Tương hỗ nâng đỡ, ngọt ngào, cùng nhau dẹp yên sóng gió"
+  },
+  {
+    "pair": [
+      "Host Gong",
+      "Demon System"
+    ],
+    "context": "Xuyên suốt các thế giới",
+    "relation_type": "Ký chủ thức tỉnh x Hệ thống tà ác",
+    "narration_pronouns": {
+      "Host Gong": "hắn",
+      "Demon System": "nó"
+    },
+    "status": "Đối đầu ngầm, giả vờ nghe lời rồi lật kèo phản sát"
+  }
+]
