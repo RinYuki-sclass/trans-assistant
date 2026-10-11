@@ -1,0 +1,48 @@
+[
+  {
+    "name": "Fu Yichen",
+    "hanviet_name": "Phó Dịch Thần (Phó Nhất Thần)",
+    "original_name": "傅亦琛 / 傅一琛",
+    "gender": "Nam",
+    "role": "Công chính (Chủ công)",
+    "aliases": [
+      "Phó ảnh đế",
+      "Dịch Thần"
+    ],
+    "narration_pronoun": "anh / cậu",
+    "honorifics": "với Tô Trạm: tôi/anh - cậu/em; với Hệ thống: tôi - cậu",
+    "speech_style": "Phúc hắc, bình tĩnh, sắc sảo, thích trêu chọc đối phương",
+    "notes": "Ảnh đế thực lực bị kéo đi cứu các nam chính khỏi số phận Mary Sue"
+  },
+  {
+    "name": "Su Zhan",
+    "hanviet_name": "Tô Trạm",
+    "original_name": "苏湛",
+    "gender": "Nam",
+    "role": "Thụ chính (1v1)",
+    "aliases": [
+      "Tô ảnh đế",
+      "Trạm Trạm",
+      "Nam thần Tô"
+    ],
+    "narration_pronoun": "anh / hắn",
+    "honorifics": "với Phó Dịch Thần: tôi/em - anh/Dịch Thần",
+    "speech_style": "Tuấn tú, cao ngạo với người ngoài nhưng dịu dàng quyến luyến trước Phó Dịch Thần",
+    "notes": "Nam thần đóng vai nam chính trong các thế giới Mary Sue, chỉ rung động trước Phó Dịch Thần"
+  },
+  {
+    "name": "System",
+    "hanviet_name": "Hệ Thống Nghịch Chuyển Mary Sue",
+    "original_name": "玛丽苏扭转系统",
+    "gender": "Hệ thống",
+    "role": "Hệ thống",
+    "aliases": [
+      "hệ thống rác rưởi",
+      "tiểu hệ thống"
+    ],
+    "narration_pronoun": "nó",
+    "honorifics": "bản hệ thống - ký chủ",
+    "speech_style": "Cười nhạo Mary Sue, si mê nhan sắc Tô Trạm",
+    "notes": "Hệ thống đồng hành nhiệm vụ"
+  }
+]

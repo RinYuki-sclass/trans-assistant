@@ -1,0 +1,126 @@
+[
+  {
+    "name": "Lin Wei",
+    "hanviet_name": "Lận Duy",
+    "original_name": "蔺唯",
+    "gender": "Nam",
+    "role": "Công chính (Ký chủ xuyên việt làm nhiệm vụ)",
+    "aliases": [
+      "bác sĩ Lận",
+      "Lận tiên sinh",
+      "Lận ca",
+      "A Duy",
+      "tiểu thiếu gia"
+    ],
+    "narration_pronoun": "cậu / Lận Duy (Arc 2) | hắn / anh (Arc 1)",
+    "honorifics": "với Thụ: Arc 1 khi yêu: anh - em; Arc 2 (niên hạ) khi yêu: em - anh / A Kỳ (ban đầu: tôi - anh/Hàn tiên sinh); với Nữ chính: tôi/anh - cô; với Hệ thống: tôi - cậu/ngươi",
+    "speech_style": "Ôn hòa, phong độ, điềm đạm đáng tin cậy nhưng kỳ thực miệng lưỡi sắc bén, độc miệng, cơ trí giảo hoạt, bạch thiết hắc (vỏ trắng ruột đen), thích chọc ghẹo đối phương",
+    "notes": "Nhân viên thuộc bộ phận uốn nắn tiểu thuyết cẩu huyết tam quan bất chính, chuyên đi ngăn cản các nam chính bá đạo làm chuyện phạm pháp hại người hại mình"
+  },
+  {
+    "name": "Huo Qijun",
+    "hanviet_name": "Hoắc Kỳ Quân",
+    "original_name": "霍淇君",
+    "gender": "Nam",
+    "role": "Thụ chính Arc 1 (Bá tổng cố chấp nguyên tác)",
+    "aliases": [
+      "Hoắc tổng",
+      "Kỳ Quân",
+      "đại thiếu gia"
+    ],
+    "narration_pronoun": "anh / y / Hoắc Kỳ Quân",
+    "honorifics": "với Lận Duy: ban đầu: tôi - cậu; sau này: tôi/em - Lận Duy/anh",
+    "speech_style": "Cao lãnh, nghiêm nghị, cố chấp nhưng thực chất cực kỳ biệt nữu, ngạo kiều, sĩ diện, dễ tự ái và siêu giỏi tự não bổ, tự công lược",
+    "notes": "Nam chính Arc 1, ban đầu xem Lận Duy là tình địch, sau khi nghe Lận Duy nói dối là gay thì tự động suy diễn đối phương thầm yêu mình rồi quay xe theo đuổi Lận Duy"
+  },
+  {
+    "name": "Han Qi",
+    "hanviet_name": "Hàn Kỳ",
+    "original_name": "韩淇",
+    "gender": "Nam",
+    "role": "Thụ chính Arc 2 (Đại lão giới giải trí tàn tật âm u)",
+    "aliases": [
+      "Hàn tiên sinh",
+      "Hàn tổng",
+      "A Kỳ",
+      "ông chủ"
+    ],
+    "narration_pronoun": "anh / y / Hàn Kỳ / đại lão",
+    "honorifics": "với Lận Duy: ban đầu: tôi - cậu; khi yêu đương (niên hạ): anh - em; với Uông Dương: tôi - cậu",
+    "speech_style": "Âm u, tàn nhẫn, kiệm lời, lạnh lùng uy nghiêm của kẻ bề trên nhưng bên trong lại bất an, đa nghi, khao khát được yêu thương và sợ bị Lận Duy bỏ rơi",
+    "notes": "Đại lão nắm trùm tư bản giới giải trí, bị tàn tật hai chân ngồi xe lăn, ban đầu từ chối lời tỏ tình của Lận Duy nhưng sau đó bị sự chăm sóc chữa lành của Lận Duy thu phục"
+  },
+  {
+    "name": "Fu Xiaoqing",
+    "hanviet_name": "Phó Tiểu Thanh",
+    "original_name": "付小青",
+    "gender": "Nữ",
+    "role": "Nữ chính nguyên tác Arc 1 (Sau trở thành bạn thân/em gái)",
+    "aliases": [
+      "Tiểu Thanh",
+      "cô Phó"
+    ],
+    "narration_pronoun": "cô / Phó Tiểu Thanh",
+    "honorifics": "với Lận Duy: em - Lận Duy ca / anh Lận Duy; với Hoắc Kỳ Quân: tôi - anh / Hoắc tiên sinh",
+    "speech_style": "Hiền lành, kiên cường, dần thoát khỏi kịch bản ngược tâm để tự lập, biết ơn Lận Duy và thích hóng hớt cặp đôi Lận - Hoắc",
+    "notes": "Nữ chính trong kịch bản ngược luyến tàn tâm Arc 1, được Lận Duy giúp đỡ học nghề chuyên gia dinh dưỡng"
+  },
+  {
+    "name": "Meng Xue",
+    "hanviet_name": "Mạnh Tuyết",
+    "original_name": "孟雪",
+    "gender": "Nữ",
+    "role": "Nữ chính nguyên tác Arc 2 (Bạn gái cũ của nguyên thân Lận Duy)",
+    "aliases": [
+      "Tiểu Tuyết",
+      "cô Mạnh"
+    ],
+    "narration_pronoun": "cô / Mạnh Tuyết",
+    "honorifics": "với Lận Duy: tôi - anh / Lận Duy; với Hàn Kỳ: tôi - Hàn tiên sinh",
+    "speech_style": "Thẳng thắn, nỗ lực, ghét thói ỷ thế hiếp người, ban đầu khó chịu với Lận Duy nhưng sau đó trở thành đồng minh tốt",
+    "notes": "Nữ diễn viên kiên trì đi lên bằng thực lực, bị đồn thổi bao nuôi với Hàn Kỳ, được Lận Duy cứu khỏi bẫy hạ thuốc của An Trần Dật"
+  },
+  {
+    "name": "Wang Yang",
+    "hanviet_name": "Uông Dương",
+    "original_name": "汪洋",
+    "gender": "Nam",
+    "role": "Trợ lý thân cận của Hàn Kỳ Arc 2",
+    "aliases": [
+      "trợ lý Uông"
+    ],
+    "narration_pronoun": "anh ta / Uông Dương",
+    "honorifics": "với Hàn Kỳ: tôi/em - Hàn tổng/ông chủ; với Lận Duy: tôi - Lận thiếu gia",
+    "speech_style": "Tận tụy, tháo vát, thường xuyên chết lặng và bất lực trước những pha ghen tuông trẻ con của ông chủ",
+    "notes": "Cánh tay phải đắc lực của Hàn Kỳ"
+  },
+  {
+    "name": "An Chenyi",
+    "hanviet_name": "An Trần Dật",
+    "original_name": "安尘逸",
+    "gender": "Nam",
+    "role": "Phản diện phụ Arc 2",
+    "aliases": [
+      "tiểu An"
+    ],
+    "narration_pronoun": "gã / hắn / An Trần Dật",
+    "honorifics": "tôi - Hàn tổng / tiền bối",
+    "speech_style": "Giả tạo, nịnh hót, tâm địa độc ác",
+    "notes": "Kẻ hạ thuốc kích dục vào ly sâm panh hãm hại Hàn Kỳ trong tiệc rượu"
+  },
+  {
+    "name": "System",
+    "hanviet_name": "Hệ thống",
+    "original_name": "系统",
+    "gender": "Hệ thống / Vô tính",
+    "role": "Hệ thống hỗ trợ nhiệm vụ thế giới",
+    "aliases": [
+      "hệ thống",
+      "tiểu hệ thống"
+    ],
+    "narration_pronoun": "nó",
+    "honorifics": "bản hệ thống / tôi - ký chủ",
+    "speech_style": "Công thức, hỗ trợ tra cứu dữ liệu cốt truyện, thỉnh thoảng bất lực trước các pha thao tác của ký chủ",
+    "notes": "Hệ thống phân công nhiệm vụ uốn nắn trật tự tiểu thế giới"
+  }
+]

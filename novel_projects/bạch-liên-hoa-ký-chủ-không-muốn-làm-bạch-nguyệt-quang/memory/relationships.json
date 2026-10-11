@@ -1,0 +1,42 @@
+[
+  {
+    "pair": [
+      "Bai Lianhua",
+      "Antagonist"
+    ],
+    "context": "Toàn truyện (Khoái xuyên đa thế giới)",
+    "relation_type": "Ký chủ Bạch Liên Hoa (Công) x Phản diện hắc hóa si tình (Thụ)",
+    "forms_of_address": {
+      "ancient_setting": {
+        "Bai_to_Antagonist": "ta - ngươi / chàng (tùy thân phận)",
+        "Antagonist_to_Bai": "ta - ngươi / tên thân mật"
+      },
+      "modern_setting": {
+        "Bai_to_Antagonist": "tôi - anh / cậu",
+        "Antagonist_to_Bai": "anh/tôi - em/cậu / Liễm Hoa"
+      }
+    },
+    "narration_pronouns": {
+      "Bai Lianhua": "cậu",
+      "Antagonist": "hắn / y"
+    },
+    "status": "Cứu rỗi thuở ban đầu -> Rời đi để lại vết thương bạch nguyệt quang -> Trở lại giải cứu thế giới và đối mặt với phản diện hắc hóa độc chiếm"
+  },
+  {
+    "pair": [
+      "Bai Lianhua",
+      "System"
+    ],
+    "context": "Toàn truyện",
+    "relation_type": "Ký chủ x Hệ thống",
+    "forms_of_address": {
+      "Bai_to_System": "tôi/ta - Hệ thống/cậu/ngươi",
+      "System_to_Bai": "bản hệ thống/ta/tôi - ký chủ/Liễm Hoa"
+    },
+    "narration_pronouns": {
+      "Bai Lianhua": "cậu",
+      "System": "nó / hệ thống"
+    },
+    "status": "Cộng sự đồng hành 'oan gia tương ái tương sát', hệ thống thường xuyên gài bẫy đẩy ký chủ vào thế khó"
+  }
+]

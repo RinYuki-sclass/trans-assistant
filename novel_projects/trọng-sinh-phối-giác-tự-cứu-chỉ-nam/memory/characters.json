@@ -1,0 +1,48 @@
+[
+  {
+    "name": "Pei Du",
+    "hanviet_name": "Bùi Độ",
+    "original_name": "裴度",
+    "gender": "Nam",
+    "role": "Công chính (Đơn nguyên 1)",
+    "aliases": [
+      "tiểu phối giác",
+      "cây ATM nam phụ"
+    ],
+    "narration_pronoun": "cậu",
+    "honorifics": "với Thịnh Thời Tiện: tôi - cậu; với Hệ thống: tôi - cậu",
+    "speech_style": "Điềm đạm, ít nói, tính lãnh đạm, lý trí, nội tâm cảnh giác",
+    "notes": "Kiếp trước bị xem như máy ATM trả nợ giúp nữ chính rồi chết đuối trong bồn tắm. Trọng sinh điều tra chân tướng."
+  },
+  {
+    "name": "Sheng Shixian",
+    "hanviet_name": "Thịnh Thời Tiện",
+    "original_name": "盛时羡",
+    "gender": "Nam",
+    "role": "Thụ chính (Đơn nguyên 1)",
+    "aliases": [
+      "nam chủ thế giới",
+      "tiểu quái vật",
+      "dị chủng"
+    ],
+    "narration_pronoun": "hắn / y",
+    "honorifics": "với Bùi Độ: tôi/em - anh",
+    "speech_style": "Ban đầu tỏ vẻ đáng thương yếu ớt, sau bộc lộ tính chiếm hữu, âm u phúc hắc, thích dính lấy công",
+    "notes": "Nam chính nguyên tác bị hệ thống hãm hại, thực chất là dị chủng mang năng lực đặc thù."
+  },
+  {
+    "name": "Survival System",
+    "hanviet_name": "Hệ Thống Cẩu Thả Cầu Sinh",
+    "original_name": "苟且偷生系统",
+    "gender": "Hệ thống",
+    "role": "Hệ thống hỗ trợ tự cứu",
+    "aliases": [
+      "hệ thống",
+      "cẩu hệ thống"
+    ],
+    "narration_pronoun": "nó",
+    "honorifics": "bản hệ thống / tôi - ký chủ",
+    "speech_style": "Cà khịa, đưa ra các chỉ nam cẩm nang trời ơi đất hỡi nhưng hiệu quả bất ngờ",
+    "notes": "Hệ thống trợ giúp các phối giác pháo hôi nghịch tập đổi mệnh."
+  }
+]

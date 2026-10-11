@@ -1,0 +1,49 @@
+[
+  {
+    "name": "Bai Lianhua",
+    "hanviet_name": "Bách Liễm Hoa",
+    "original_name": "柏敛桦",
+    "gender": "Nam",
+    "role": "Công chính (Chủ công xuyên nhanh)",
+    "aliases": [
+      "Liễm Hoa",
+      "Tiểu Liễm Hoa",
+      "tiểu bạch liên hoa",
+      "bạch nguyệt quang"
+    ],
+    "narration_pronoun": "cậu",
+    "honorifics": "với Phản diện: ta - ngươi / tôi - anh; với Hệ thống: tôi/ta - cậu/Hệ thống",
+    "speech_style": "Ôn hòa, mềm mỏng, có phần ngây ngô tự nhiên tra, đôi khi bất lực trước sự gian xảo của hệ thống và sự cố chấp của phản diện",
+    "notes": "Nhân vật chính, tướng mạo và khí chất thanh khiết như đóa sen trắng, bị hệ thống kéo đi làm nhiệm vụ cứu rỗi phản diện rồi quay lại làm bạch nguyệt quang"
+  },
+  {
+    "name": "Antagonist",
+    "hanviet_name": "Phản Diện Quân",
+    "original_name": "反派君",
+    "gender": "Nam",
+    "role": "Thụ chính (1v1 linh hồn phân thân qua các thế giới)",
+    "aliases": [
+      "phản diện đại nhân",
+      "Mr. Antagonist"
+    ],
+    "narration_pronoun": "hắn / y",
+    "honorifics": "với Bách Liễm Hoa: ta - ngươi / tôi/anh - em/cậu (tùy thế giới)",
+    "speech_style": "Bá đạo, cường thế, thâm tình si mê, hắc hóa độc chiếm dục cực cao",
+    "notes": "Các nhân vật phản diện mang số phận bi thảm ở từng thế giới, được Bách Liễm Hoa cứu rỗi và xem cậu như bạch nguyệt quang độc nhất, sau khi cậu rời đi thì triệt để hắc hóa"
+  },
+  {
+    "name": "System",
+    "hanviet_name": "Hệ Thống",
+    "original_name": "系统 / 白月光回归系统",
+    "gender": "Phi giới tính",
+    "role": "Hệ thống đồng hành",
+    "aliases": [
+      "Hệ Thống Bạch Nguyệt Quang Trở Về",
+      "Hệ Thống Cứu Rỗi Bạch Liên Hoa",
+      "bản hệ thống"
+    ],
+    "honorifics": "bản hệ thống / ta / tôi - ký chủ / Liễm Hoa",
+    "speech_style": "Moe ngốc, thích làm nũng nhưng thực chất đầy mưu mô tinh quái, hay chọc ghẹo ký chủ",
+    "notes": "Hệ thống giao nhiệm vụ cho Bách Liễm Hoa, ban đầu giấu tên thật cho tới khi kết thúc giai đoạn 1"
+  }
+]

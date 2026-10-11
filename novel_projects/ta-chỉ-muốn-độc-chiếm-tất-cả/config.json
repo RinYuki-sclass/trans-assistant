@@ -1,0 +1,16 @@
+{
+  "title": "Ta Chỉ Muốn Độc Chiếm Tất Cả [Khoái Xuyên]",
+  "author": "常念君 (Thường Niệm Quân / Bunker)",
+  "description": "Vệ Vân Bạch (Ngụy Vân Bạch) là một thiếu niên sở hữu giá trị nhan sắc nghịch thiên, ngoan ngoãn nghe lời với kỹ năng diễn xuất bậc thầy. Chỉ tiếc là, tâm lý của cậu có chút vấn đề (bệnh kiều/hắc ám).\n\nKhí Vận Chi Tử / Các đại lão: — Có hề gì, em ấy đẹp như vậy, ta đương nhiên phải yêu em ấy! Cưng chiều em ấy! Trói chặt em ấy bên mình!\nVệ Vân Bạch khẽ mỉm cười dịu dàng: \"Được chứ.\"\n\nVề sau, từ vị vương dã man hung bạo của thảo nguyên, tên trùm xã hội đen máu lạnh lừa gạt cả thế giới, đối thủ cạnh tranh tàn nhẫn của tổng tài, vị tử thần thu thập linh hồn qua những hình ảnh phản chiếu, cho đến vị hoàng đế ngự trị trên đỉnh thiên hạ sở hữu vô số mỹ nhân... Tất cả đều cam tâm tình nguyện quỳ gối dưới chân cậu.",
+  "slug": "ta-chỉ-muốn-độc-chiếm-tất-cả",
+  "source_lang": "Chinese",
+  "target_lang": "Vietnamese",
+  "raw_links": {
+    "novelupdates": "https://www.novelupdates.com/series/i-just-want-it-all-for-myself/"
+  },
+  "style_guide": "Truyện đam mỹ chủ công, vạn nhân mê mỹ nhân phúc hắc giả ngoan ngoãn công x Các đại lão khí vận chi tử thụ. Góc nhìn chủ công, hỗ sủng, tu la tràng đỉnh cao. Lời thoại “...”, bảo toàn 1:1, \\n\\n.",
+  "confidence_threshold": 0.8,
+  "chunk_size": 20,
+  "created_at": "2026-10-11T20:40:00+07:00",
+  "chapters_count": 89
+}

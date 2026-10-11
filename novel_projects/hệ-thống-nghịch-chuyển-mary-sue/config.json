@@ -1,0 +1,17 @@
+{
+  "title": "Hệ Thống Nghịch Chuyển Mary Sue [Khoái Xuyên]",
+  "author": "天下天 (Thiên Hạ Thiên)",
+  "description": "Ảnh đế Phó Dịch Thần (Phó Nhất Thần) đột nhiên bị trói buộc với một [Hệ Thống Nghịch Chuyển Mary Sue], buộc phải xuyên qua hết thế giới Mary Sue cẩu huyết này đến thế giới Mary Sue lôi đình khác, nơi tình tiết cẩu huyết bay loạn xạ. Mục đích duy nhất: nghịch chuyển cái kết thiểu năng trí tuệ của nam chính trong truyện Mary Sue.\n\nThế nhưng cuối cùng, nam chính người người tranh đoạt lại luôn nhào thẳng vào vòng tay của Phó Dịch Thần.\nHơn nữa, tại sao khuôn mặt của nam chính này nhìn quen thế... Tô Ảnh đế? Nam thần Tô?\nPhó Dịch Thần: ??? Dấu chấm hỏi màu đen +1\nHệ thống rác rưởi: ???? Dấu chấm hỏi màu đen +1\nPhó Dịch Thần: Bởi vì... thiết lập rác rưởi quá chứ sao.\nHệ thống rác rưởi: Trạm Trạm đẹp trai như vậy, Mary Sue mau cút đi chết đi!",
+  "slug": "hệ-thống-nghịch-chuyển-mary-sue",
+  "source_lang": "Chinese",
+  "target_lang": "Vietnamese",
+  "raw_links": {
+    "novelupdates": "https://www.novelupdates.com/series/mary-sue-reversal-system/",
+    "jjwxc": "https://www.jjwxc.net/onebook.php?novelid=3249052"
+  },
+  "style_guide": "Truyện đam mỹ khoái xuyên, giới giải trí / đa thế giới, sảng văn hài hước, vả mặt Mary Sue, hỗ sủng điềm văn. Phó Dịch Thần (công) x Tô Trạm (thụ). Lời thoại “...”, bảo toàn 1:1, \\n\\n.",
+  "confidence_threshold": 0.8,
+  "chunk_size": 20,
+  "created_at": "2026-10-11T20:40:00+07:00",
+  "chapters_count": 130
+}

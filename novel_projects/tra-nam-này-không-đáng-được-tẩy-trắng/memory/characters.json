@@ -1,0 +1,220 @@
+[
+  {
+    "name": "Xie Chenyang",
+    "hanviet_name": "Tạ Thần Dương (Tạ Trầm Dương)",
+    "original_name": "谢辰扬",
+    "gender": "Nam",
+    "role": "Công chính xuyên việt (Tổng công sủng thê)",
+    "aliases": [
+      "Thần Dương",
+      "Dương Dương",
+      "trai thẳng như thép"
+    ],
+    "narration_pronoun": "hắn / anh / cậu",
+    "honorifics": "với Bạn đời: anh - em / tôi - cậu (tùy thế giới); với Hệ thống: tôi/ta - ba ba/bố/U Hoàng; với Tra nam: tôi - các người / tao - mày",
+    "speech_style": "Cương trực, quyết đoán, lý trí, hài hước, thích trêu chọc và cưng chiều bạn đời, ghét cay ghét đắng thói giả tạo và không bao giờ tha thứ cặn bã",
+    "notes": "Trai thẳng vạn năm bị trói buộc vào hệ thống ngược tra, từng bước vả mặt cặn bã và thu hoạch bạn đời định mệnh qua 12 thế giới"
+  },
+  {
+    "name": "Youhuang",
+    "hanviet_name": "U Hoàng",
+    "original_name": "幽篁 / 爸爸",
+    "gender": "Hệ thống / Tiên trúc linh",
+    "role": "Hệ thống đồng hành",
+    "aliases": [
+      "ba ba",
+      "bố",
+      "hệ thống",
+      "U Hoàng tiên sinh"
+    ],
+    "narration_pronoun": "nó / y",
+    "honorifics": "bản hệ thống / ta / tôi - ký chủ / Thần Dương / Dương Dương",
+    "speech_style": "Nghiêm túc nhưng hay bất lực trước sự nghịch ngợm của ký chủ, bảo vệ và sủng nịnh Tạ Thần Dương như con trai",
+    "notes": "Hệ thống bản thể là một cây trúc linh hóa hình bên cạnh tiên nhân Vân Hoa, thần thông quảng đại"
+  },
+  {
+    "name": "Zhai Zhi",
+    "hanviet_name": "Địch Trí",
+    "original_name": "翟致",
+    "gender": "Nam",
+    "role": "Thụ chính (Thế giới 1: Chàng công tử kiêu kỳ bi thảm)",
+    "aliases": [
+      "Địch tổng",
+      "lão Địch",
+      "anh Địch"
+    ],
+    "narration_pronoun": "anh / Địch Trí",
+    "honorifics": "với Tạ Thần Dương (Lê Húc Dương): ban đầu: tôi - cậu/Lê tiên sinh; sau này: tôi/em - Thần Dương/anh",
+    "speech_style": "Lạnh lùng, ít nói, cấm dục, chững chạc, thành thục nhưng rất dễ rung động trước sự thẳng thắn của công",
+    "notes": "Bá tổng tập đoàn Địch thị, lớn hơn Tạ Thần Dương ~6 tuổi, hàng xóm biệt thự"
+  },
+  {
+    "name": "Xia Yuanyi",
+    "hanviet_name": "Hạ Viễn Dật",
+    "original_name": "夏远逸",
+    "gender": "Nam",
+    "role": "Thụ chính (Thế giới 2: Vị đại hiệp chính phái bi thảm)",
+    "aliases": [
+      "Hạ tướng quân",
+      "Đại tướng quân"
+    ],
+    "narration_pronoun": "y / Hạ Viễn Dật",
+    "honorifics": "với Tạ Thần Dương (Hề Dương): ta - ngươi/Hề huynh; sau này: ta - chàng/tướng công",
+    "speech_style": "Thiết huyết, hào sảng, uy nghiêm nhưng dịu dàng với người trong lòng",
+    "notes": "Đại tướng quân triều đình, người bảo hộ sơn hà và tri kỷ của Hề Dương"
+  },
+  {
+    "name": "Huo Qi",
+    "hanviet_name": "Hoắc Kỳ",
+    "original_name": "霍祁",
+    "gender": "Nam (Alpha)",
+    "role": "Thụ chính (Thế giới 3: Chàng Omega bi thảm)",
+    "aliases": [
+      "Hoắc thượng tướng",
+      "Quân đoàn trưởng"
+    ],
+    "narration_pronoun": "anh / Hoắc Kỳ",
+    "honorifics": "với Tạ Thần Dương (Nghiêm Trần): tôi - cậu/anh; sau này: tôi/em - Thần Dương/anh",
+    "speech_style": "Cường hãn, thiết huyết, lạnh lùng nhưng hay đỏ mặt khi bị công trêu chọc chuyện con cái",
+    "notes": "Quân đoàn trưởng Quân đoàn 6 Đế quốc, Alpha đỉnh cấp cam tâm tình nguyện làm thụ"
+  },
+  {
+    "name": "Wei Xiu",
+    "hanviet_name": "Vệ Tu",
+    "original_name": "卫修",
+    "gender": "Nam",
+    "role": "Thụ chính (Thế giới 4: Boss võng du bi thảm)",
+    "aliases": [
+      "Vệ đại thần",
+      "Vệ tổng",
+      "A Tu"
+    ],
+    "narration_pronoun": "cậu / anh / Vệ Tu",
+    "honorifics": "với Tạ Thần Dương: tôi - cậu / em - anh",
+    "speech_style": "Thông minh, quyết đoán, trong game mang thần trang, ngoài đời là tổng tài tài ba",
+    "notes": "Đại thần game VRMMO và bạn đời ngoài đời thực"
+  },
+  {
+    "name": "Fan Wenze",
+    "hanviet_name": "Phạm Ôn Trạch",
+    "original_name": "范温泽",
+    "gender": "Nam",
+    "role": "Thụ chính (Thế giới 5: Tiểu phu lang bi thảm)",
+    "aliases": [
+      "Tiêu Dao Vương",
+      "Ôn Trạch"
+    ],
+    "narration_pronoun": "y / Phạm Ôn Trạch",
+    "honorifics": "với Tạ Thần Dương (Dụ Thần): ta - ngươi; sau này: ta - chàng/tướng công",
+    "speech_style": "Khí chất tôn quý, thâm trầm, dốc lòng vì bách tính và người yêu",
+    "notes": "Tiêu Dao Vương, cùng Tạ Thần Dương lập nên Tiêu Dao Quốc hạnh phúc ấm no"
+  },
+  {
+    "name": "Yue Qing",
+    "hanviet_name": "Việt Thanh",
+    "original_name": "越清",
+    "gender": "Nam",
+    "role": "Thụ chính (Thế giới 6: Tiểu thụ ôn nhu mạt thế bi thảm)",
+    "aliases": [
+      "Việt đội trưởng",
+      "lão Việt"
+    ],
+    "narration_pronoun": "anh / Việt Thanh",
+    "honorifics": "với Tạ Thần Dương (Hạ Thần): tôi - cậu/Hạ Thần; sau này: tôi/em - anh",
+    "speech_style": "Lãnh đạm, cấm dục, sát phạt quyết đoán giữa bầy zombie, sủng ái công hết mực",
+    "notes": "Thủ lĩnh dị năng giả mạt thế, trụ cột bảo vệ căn cứ S thành"
+  },
+  {
+    "name": "Gu Liu",
+    "hanviet_name": "Cố Lưu",
+    "original_name": "顾流",
+    "gender": "Nam",
+    "role": "Thụ chính (Thế giới 7: Phú nhị đại bi thảm)",
+    "aliases": [
+      "Cố ảnh đế",
+      "A Lưu"
+    ],
+    "narration_pronoun": "anh / Cố Lưu",
+    "honorifics": "với Tạ Thần Dương (Tưởng Tâm Thần): tôi - cậu; sau này: em - anh/lão công",
+    "speech_style": "Thanh nhã quý phái, diễn xuất đỉnh cao, thích lén viết đồng nhân văn CP của hai người",
+    "notes": "Ảnh đế thực lực đỉnh lưu, cùng Tạ Thần Dương kết hôn và sống viên mãn đến đầu bạc"
+  },
+  {
+    "name": "Ai Xiu",
+    "hanviet_name": "Ngải Tu",
+    "original_name": "艾修",
+    "gender": "Nam",
+    "role": "Thụ chính (Thế giới 8: Chân thiếu gia bi thảm)",
+    "aliases": [
+      "Ngải Tu vương tử",
+      "điện hạ"
+    ],
+    "narration_pronoun": "y / Ngải Tu",
+    "honorifics": "với Tạ Thần Dương (Dương Châu): ta - ngươi/điện hạ; sau này: ta - chàng",
+    "speech_style": "Kiêu kỳ, phóng khoáng, bề ngoài nghiêm cẩn nhưng bên trong ôn nhu",
+    "notes": "Hoàng tử Lôi Sâm quốc, đưa chân thiếu gia về cung cưng nựng"
+  },
+  {
+    "name": "Gu Shiyu",
+    "hanviet_name": "Cốc Thời Vũ",
+    "original_name": "谷时雨",
+    "gender": "Nam",
+    "role": "Thụ chính (Thế giới 9: Người cha dượng bi thảm)",
+    "aliases": [
+      "Thời Vũ",
+      "Cốc viện sĩ",
+      "nhà khoa học đại lão"
+    ],
+    "narration_pronoun": "cậu / em / Cốc Thời Vũ",
+    "honorifics": "với Tạ Thần Dương (Tống Dương): ban đầu: tôi - anh; sau này: em - anh",
+    "speech_style": "Thanh lãnh, thông minh tột đỉnh, hết lòng yêu thương và dưỡng lão công",
+    "notes": "Con trai của tra nam, được công nuôi dưỡng thành tài, sau trở thành nhà khoa học vĩ đại"
+  },
+  {
+    "name": "Mu Xin",
+    "hanviet_name": "Mục Tân",
+    "original_name": "穆辛",
+    "gender": "Nam",
+    "role": "Thụ chính (Thế giới 10: Công tử phủ doãn bi thảm)",
+    "aliases": [
+      "bệ hạ",
+      "hoàng đế",
+      "Mục Tân"
+    ],
+    "narration_pronoun": "y / bệ hạ / Mục Tân",
+    "honorifics": "với Tạ Thần Dương (Dương Túc): trẫm/ta - khanh/ngươi; sau này: ta - chàng/Dương Túc",
+    "speech_style": "Uy nghiêm, thâm trầm, nhìn thấu sự đời, quyết đoán trừng trị phản nghịch",
+    "notes": "Hoàng đế đương triều, cùng Tạ Thần Dương dẹp yên phản loạn và gắn bó keo sơn"
+  },
+  {
+    "name": "Yan Qing",
+    "hanviet_name": "Nghiêm Thanh",
+    "original_name": "严清",
+    "gender": "Nam",
+    "role": "Thụ chính (Thế giới 11: Ảnh đế bi thảm)",
+    "aliases": [
+      "Tiểu Thanh",
+      "A Thanh"
+    ],
+    "narration_pronoun": "cậu / em / Nghiêm Thanh",
+    "honorifics": "với Tạ Thần Dương (Thẩm Dương Phàm): ban đầu: cháu/tôi - chú/anh; sau này: em - anh",
+    "speech_style": "Ngoan ngoãn, dính người, dũng cảm theo đuổi tình yêu, yêu thương công sâu đậm",
+    "notes": "Thiếu niên học bá thiên tài, niên hạ thụ được Tạ Thần Dương sủng lên tận trời"
+  },
+  {
+    "name": "Chu Jun",
+    "hanviet_name": "Chử Quân",
+    "original_name": "褚均",
+    "gender": "Nam",
+    "role": "Thụ chính (Thế giới 12: Thiên tài tu chân bi thảm)",
+    "aliases": [
+      "Đại sư huynh",
+      "Chử kiếm tôn",
+      "sư huynh"
+    ],
+    "narration_pronoun": "y / Chử Quân",
+    "honorifics": "với Tạ Thần Dương (Kỳ Hướng Dương): ta - sư đệ/Hướng Dương; sau này: ta - phu quân/chàng",
+    "speech_style": "Kiếm tu đệ nhất cấm dục, thanh lãnh thoát tục, sủng ái tiểu sư đệ vô bờ bến",
+    "notes": "Đại sư huynh Vô Ngã Tông, cùng Tạ Thần Dương cử hành đại điển tiên lữ và phi thăng"
+  }
+]
