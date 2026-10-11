@@ -2,150 +2,150 @@
 title: Chương 30: Chuyển Sang Thế Giới Mới & Màn Đảo Ngược Ngoài Cửa
 ---
 
-[Nhiệm vụ đã được nộp, chính thức thoát ly khỏi thế giới này……]
+[Nhiệm vụ đã được nộp, chính thức rời khỏi thế giới này……]
 
-[Ký chủ, xin mời quay trở về không gian chờ đợi truyền tống.]
+[Ký chủ, xin mời quay về không gian chờ truyền tống.]
 
-[Dữ liệu đang được lưu trữ, dữ liệu mới đang được cấy vào…… Xoẹt xoẹt xoẹt…… Lưu trữ dữ liệu thất bại……]
+[Đang lưu trữ dữ liệu, dữ liệu mới đang được cấy vào…… Xoẹt xoẹt xoẹt…… Lưu trữ dữ liệu thất bại……]
 
-[Quyền hạn cấp cao can thiệp, đang trích xuất dữ liệu…… Dữ liệu được chọn đã bị niêm phong…… Xoẹt xoẹt xoẹt……]
+[Quyền hạn cấp cao can thiệp, đang trích xuất dữ liệu…… Dữ liệu chỉ định đã được niêm phong…… Xoẹt xoẹt xoẹt……]
 
 [Ký chủ!!!]
 
-Ý thức của Lận Duy quay trở lại khoang dịch chuyển để chờ đợi, cậu chỉ kịp nghe thấy mấy câu điện tử thông báo quy trình xuất hiện sự cố ngoài ý muốn, cùng với tiếng thét hoảng hốt của hệ thống hòa lẫn trong âm thanh rè rè của dòng điện nhiễu, ngay sau đó liền chìm vào giấc ngủ say.
+Ý thức của Lận Duy trở lại khoang dịch chuyển để chờ đợi. Cậu chỉ kịp nghe vài thanh âm điện tử thông báo quy trình phát sinh sự cố bất ngờ cùng tiếng hét thất thanh của hệ thống lẫn giữa tạp âm rè rè chói tai, ngay sau đó liền chìm vào giấc ngủ sâu.
 
-Đến khi tỉnh lại lần nữa, một cảm giác hụt hẫng trống trải dâng tràn nơi lồng ngực, thế nhưng Lận Duy lại không tài nào nhớ nổi nguồn cơn của cảm xúc này bắt nguồn từ đâu, mà cậu cũng chẳng còn thời gian để nghĩ ngợi. Cậu nhớ rõ năm xưa vì muốn nuôi nấng Kem Ly mà bản thân đã cưỡng ép trì hoãn thời điểm rời khỏi thế giới trước, thế nên sang đến thế giới này, cậu chắc chắn đã tới trễ rồi.
+Khi mở mắt tỉnh lại lần nữa, một nỗi hụt hẫng mênh mang bỗng dâng ngập lồng ngực. Thế nhưng Lận Duy lại chẳng thể nhớ nổi cớ sự bắt nguồn từ đâu, mà cậu cũng chẳng còn tâm trí đâu để lần tìm. Cậu chỉ nhớ năm xưa vì muốn chăm lo cho Kem Ly trọn vẹn mà bản thân đã cố tình nấn ná thời gian rời đi, sang tới thế giới này ắt hẳn cậu đã đến muộn rồi.
 
-“Lận Duy! Chúng ta đã chia tay từ lâu rồi! Tôi và Hàn tiên sinh có quan hệ gì thì cũng chẳng liên quan gì đến anh cả!”
+“Lận Duy! Chúng ta chia tay lâu rồi! Tôi với Hàn tiên sinh có quan hệ gì thì cũng chẳng liên quan gì đến anh cả!”
 
-Cậu mở mắt ra, liền nhìn thấy nữ chính Mạnh Tuyết trước mặt đang dùng vẻ mặt thiếu kiên nhẫn thốt ra câu nói này với mình. Tên của nguyên thân đã tự động được thay thế thành tên của cậu. Lận Duy nhanh chóng đảo mắt quan sát bốn phía một vòng, phát hiện hai người đang ở trong một gian nhà tranh đơn sơ, thoạt nhìn là biết ngay cảnh dựng ở phim trường.
+Vừa định thần, cậu đã thấy nữ chính Mạnh Tuyết trước mặt đang cau mày, giọng điệu lộ rõ vẻ mất kiên nhẫn mà gắt lên với mình. Tên của nguyên thân tự động được hoán đổi thành tên cậu. Lận Duy nhanh chóng đưa mắt quét quanh một vòng, nhận ra hai người đang đứng trong một gian nhà tranh vách đất tuềnh toàng, nhìn qua là biết ngay cảnh dựng ở phim trường.
 
-Lận Duy lục tìm trong tư liệu nguyên tác mà hệ thống truyền sang cho mình đoạn cốt truyện này. Nguyên thân là một cậu ấm phú nhị đại, dạo gần đây vẫn luôn bám riết lấy Mạnh Tuyết muốn đòi quay lại, thậm chí còn cố tình dùng sức mạnh đồng tiền để tranh giành một vai diễn trong bộ phim mới nhất của nữ chính, cốt để được ở gần bên cạnh.
+Lận Duy lật tìm trong mớ tư liệu nguyên tác mà hệ thống truyền sang để nắm bắt phân đoạn này. Hóa ra nguyên thân là một cậu ấm nhà giàu, dạo gần đây cứ bám riết lấy Mạnh Tuyết hòng đòi nối lại tình xưa, thậm chí còn vung tiền như rác để tậu lấy một vai diễn trong bộ phim mới nhất của cô cốt để có cơ hội gần gũi.
 
-Oái oăm thay, đợt này trong đoàn phim lại rộ lên tin đồn Mạnh Tuyết được đại lão trong ngành là Hàn Kỳ bao nuôi thì mới lấy được vai diễn đang quay này. Thế là nguyên thân nhất thời nổi máu nóng, kéo Mạnh Tuyết ra tận nơi này để gặng hỏi cho ra nhẽ.
+Oái oăm thay, mấy hôm nay trong đoàn phim lại râm ran tin đồn Mạnh Tuyết nhờ được đại lão khét tiếng trong giới là Hàn Kỳ bao nuôi nên mới giành được vai diễn đang bấm máy này. Thế là cậu ấm nhất thời bốc hỏa, lôi Mạnh Tuyết ra xó xỉnh này gặng hỏi cho ra nhẽ.
 
-Hỏi thì hung hăng chẳng chút khách khí, nhưng nguyên thân lại không hề hay biết rằng vị đại lão Hàn Kỳ kia lúc này đang ở ngay ngoài cửa, chỉ cách nhau đúng một bức vách, ngồi trên xe lăn với gương mặt âm u rét buốt lắng nghe tất cả.
+Hỏi thì huênh hoang chẳng chút kiêng dè, nhưng kẻ ngốc này đâu ngờ rằng vị đại lão Hàn Kỳ kia lúc này lại đang ở ngay ngoài cửa, chỉ cách nhau đúng một bức vách nứa, trầm mặc ngồi trên xe lăn với gương mặt lạnh tanh lắng nghe từ đầu đến cuối.
 
-Trong nguyên tác, sau màn kịch này, nguyên thân liền bị đại lão thẳng tay đóng gói tống cổ ra khỏi đoàn phim. Bởi vì gia đình nguyên thân cũng nhận được lời cảnh cáo, sợ đắc tội chết với Hàn Kỳ nên lập tức cưỡng chế tống nguyên thân ra nước ngoài.
+Theo đúng nguyên tác, sau màn làm loạn này, nguyên thân liền bị đại lão thẳng tay đóng gói đuổi cổ khỏi đoàn phim. Gia đình cậu ấm nhận được lời cảnh cáo thép, sợ đắc tội đến cùng với Hàn Kỳ nên lập tức tống cổ cậu ta ra nước ngoài.
 
-Lận Duy khẽ day day ấn đường. Cậu tới quả thực quá đúng lúc, chuyến này nếu xử lý không khéo thì có thể trực tiếp nói lời vĩnh biệt với mục tiêu nhiệm vụ luôn cho rồi.
+Lận Duy khẽ day day huyệt thái dương. Thời điểm này đến thật quá trớn, chỉ cần sơ sảy một ly là cậu có thể nói lời vĩnh biệt luôn với đối tượng nhiệm vụ.
 
-“Sao lại nổi giận thế?” Cậu đành phải giả vờ như không hiểu, tiếp tục duy trì thiết lập nhân vật thẳng như ruột ngựa của nguyên thân mà tự biên tự diễn: “Tôi là vì chuyên môn muốn tiếp cận anh ấy nên mới tới đây đấy chứ. Nếu như bạn gái cũ của tôi lại có quan hệ mập mờ không rõ ràng với anh ấy, thì tôi cũng khó xử lắm chứ bộ!”
+“Sao lại nổi nóng thế?” Cậu đành làm bộ khó hiểu, thuận theo thiết lập tính cách ruột để ngoài da của nguyên thân mà thản nhiên phân trần: “Tôi trăm phương nghìn kế tới đây chính là vì muốn tiếp cận anh ấy đấy chứ! Nếu bạn gái cũ của tôi lại có quan hệ mập mờ không rõ ràng với anh ấy thì tôi biết giấu mặt vào đâu!”
 
-“Tôi đã nói rồi, tôi……?!” Theo bản năng, Mạnh Tuyết cảm thấy miệng chó thì khó mà mọc ra ngà voi, theo thói quen định phun lại một tràng, kết quả nói được nửa chừng thì đột ngột khựng lại, rốt cuộc cũng nhận thức được câu nói vừa rồi của Lận Duy có ý tứ gì.
+“Tôi đã bảo tôi……?!” Theo phản xạ, Mạnh Tuyết bụng bảo dạ rằng cái miệng này xưa nay chẳng thốt nổi câu nào tử tế, liền toan bật lại một tràng, nào ngờ nói được nửa chừng thì đột ngột khựng lại, rốt cuộc cũng vỡ lẽ ý tứ trong lời Lận Duy vừa thốt ra.
 
-“Khoan đã, anh anh anh… Anh bảo anh tới đoàn phim này là vì Hàn tiên sinh?!”
+“Khoan đã… Anh anh anh… Anh bảo anh tới đoàn phim này là vì Hàn tiên sinh á?!”
 
-Mạnh Tuyết bỗng nhiên cảm thấy khả năng đọc hiểu của mình gặp trục trặc nghiêm trọng, đến nỗi còn chưa kịp thấy xấu hổ vì sự tự mình đa tình của bản thân suốt thời gian qua, chỉ mở to mắt không dám tin mà hỏi: “Anh muốn tiếp cận anh ấy để làm gì?”
+Khả năng đọc hiểu của Mạnh Tuyết như thể bị chập mạch trong chớp mắt, đến độ cô còn chưa kịp xấu hổ vì sự tự mình đa tình bấy lâu nay, chỉ tròn mắt hoang mang tột độ: “Anh muốn tiếp cận anh ấy để làm gì?”
 
-Hàn Kỳ ở ngoài cửa nghe thấy lời này cũng khẽ nhíu mày. Ngược lại, người trợ lý Uông Dương đang đỡ xe lăn phía sau anh dường như nhận ra sự việc đã rẽ sang một bước ngoặt hoàn toàn lệch khỏi dự tính ban đầu, đang lao đầu về một hướng vô cùng kỳ quặc, nhất thời vẻ mặt trở nên vô cùng đặc sắc.
+Hàn Kỳ ở ngoài cửa nghe vậy cũng khẽ nhíu mày. Ngược lại, người trợ lý Uông Dương đang đỡ xe lăn phía sau anh dường như ngửi thấy mùi kịch hay khi tình thế bỗng dưng bẻ lái sang một quỹ đạo kỳ quặc đến mức không tưởng, nét mặt nhất thời trở nên vô cùng đặc sắc.
 
-Lận Duy biết rõ lúc này nhất định phải tẩy trắng chuyện mình bám riết lấy Mạnh Tuyết cho bằng sạch, cậu bắt buộc phải ở lại đoàn phim để kiểm soát những tình tiết cốt truyện sẽ gây ảnh hưởng đến nhiệm vụ sau này.
+Lận Duy thừa hiểu lúc này bắt buộc phải rũ sạch hoàn toàn cái mác bám đuôi Mạnh Tuyết, cậu nhất định phải bám trụ lại đoàn phim để đón đầu những mắt xích then chốt ảnh hưởng đến nhiệm vụ sau này.
 
-Thế là sau một hồi làm bộ do dự, cậu giả vờ ngại ngùng ho khẽ vài tiếng, ‘thành thật’ thú nhận: “Ban đầu tôi muốn theo đuổi anh ấy mà, ai mà ngờ chạy tới đoàn phim lại đụng mặt cô cơ chứ. Vốn dĩ người yêu cũ gặp nhau đã đủ ngượng ngùng rồi, kết quả cả đoàn phim lại bay đầy tin đồn tình ái giữa cô với anh ấy!”
+Thế là sau một thoáng vờ vịt đắn đo, cậu ngượng ngùng ho khẽ vài tiếng, ‘thành khẩn’ giãi bày: “Ban đầu tôi muốn theo đuổi anh ấy, ai mà ngờ mò tới đoàn phim lại đụng mặt cô chứ. Vốn dĩ người cũ chạm mặt đã đủ ngượng ngùng rồi, đằng này cả đoàn lại còn đồn ầm lên chuyện cô với anh ấy dây dưa mập mờ!”
 
-Giọng điệu mang theo vài phần oán trách của cậu khiến Mạnh Tuyết trong thoáng chốc sinh ra một loại ảo giác rằng tất cả những chuyện này vốn dĩ là điều hiển nhiên.
+Giọng điệu mang theo đôi phần trách móc hờn dỗi của cậu khiến Mạnh Tuyết trong phút chốc ngơ ngác, sinh ra một thứ ảo giác như thể mọi chuyện vốn dĩ hiển nhiên là như vậy.
 
-Nhưng rất nhanh sau đó, cơn giận dữ của cô đã lấn át cả sự kinh ngạc: “Anh mà lại thích đàn ông ư?!”
+Thế nhưng rất nhanh sau đó, ngọn lửa giận dữ đã lấn át cả nỗi kinh ngạc: “Anh mà lại đi thích đàn ông ư?!”
 
-“Chứ sao…” Lận Duy sờ sờ mũi ngầm thừa nhận, sau đó tự tìm cớ biện hộ cho mình: “Hồi tôi ở bên cô thì tuổi vẫn còn nhỏ, chẳng phải là chưa nhận thức được sao? Về sau nhận ra rồi thì tôi liền chia tay với cô còn gì!”
+“Chứ sao nữa…” Lận Duy gãi gãi mũi ngầm thừa nhận, rồi lanh lẹ kiếm cớ bao biện: “Hồi ở bên cô tôi còn ít tuổi, đầu óc ngây ngô chưa thông suốt thôi mà. Về sau nhận ra bản thân mình thích gì rồi thì tôi lập tức chia tay cô còn gì!”
 
-Mạnh Tuyết có chút không tin cậu: “Hồi đó rõ ràng là anh thích đàn em khóa dưới mới nhập học nên mới đá tôi!”
+Mạnh Tuyết bán tín bán nghi: “Hồi đó rõ ràng là anh mê mẩn cô đàn em khóa dưới mới vào trường nên mới đá tôi!”
 
-“Thế tôi cũng đâu thể công khai come out được chứ!” Lận Duy dang hai tay ra ngụy biện: “Sau đó tôi cũng đâu có ở bên cô đàn em nào đâu.”
+“Thế chẳng lẽ tôi lại đi bô bô công khai xu hướng tính dục của mình ra à!” Lận Duy buông hai tay phân trần: “Sau đấy cô thấy tôi có quen cô đàn em nào đâu.”
 
-Kỳ thực là sau khi nguyên thân đá Mạnh Tuyết không bao lâu thì đã hối hận, chỉ là không hạ mình xin quay lại được, cũng chẳng có tâm trạng đi theo đuổi người khác. Mãi cho đến gần đây thấy Mạnh Tuyết được Hàn Kỳ nâng đỡ nên bắt đầu nổi tiếng đôi chút, gã mới nảy sinh ý định muốn chính thức theo đuổi cô lại từ đầu.
+Sự thực là sau khi đá Mạnh Tuyết không lâu, nguyên thân đã sớm hối hận, chỉ là cái tôi quá lớn không chịu muối mặt xin quay lại, cũng chẳng còn tâm trí tìm hiểu ai khác. Mãi tới gần đây thấy Mạnh Tuyết được Hàn Kỳ nâng đỡ rồi bắt đầu nổi tiếng, cậu ta mới rục rịch nảy sinh ý định chính thức theo đuổi lại từ đầu.
 
-Mạnh Tuyết không biết chân tướng bên trong, thấy cậu nói năng chắc như đinh đóng cột thì thật sự bị cậu thuyết phục. Tức giận thì chắc chắn là có rồi, mối tình đầu tuy trong lòng cô chẳng khác gì một nấm mồ cũ, nhưng nhận thức xúi quẩy này ít nhiều vẫn khiến cô như nuốt phải ruồi.
+Mạnh Tuyết không hề hay biết uẩn khúc bên trong, thấy cậu nói năng đanh thép dứt khoát như vậy thì tin sái cổ. Cáu giận là điều chắc chắn, dẫu mối tình đầu trong lòng cô giờ chẳng khác gì nắm tro tàn trong nấm mồ cũ, nhưng sự thật dở khóc dở cười này ít nhiều vẫn khiến cô mắc nghẹn một cục tức ngang họng.
 
-Có điều lúc này trọng điểm không nằm ở chỗ đó.
+Có điều, mấu chốt lúc này lại nằm ở chỗ khác.
 
-Cô có chút do dự không biết bản thân nên đáp lại thế nào. Cô và Hàn Kỳ có một bản thỏa thuận hẹn hò giả trong thời hạn hai năm. Nếu như cô bảo mình và Hàn Kỳ là quan hệ tình nhân, vậy thì chẳng phải là… trực tiếp chặt đứt khả năng Lận Duy theo đuổi Hàn Kỳ hay sao?
+Cô ngập ngừng không biết nên đáp lời ra sao. Giữa cô và Hàn Kỳ vốn có một bản thỏa thuận hẹn hò giả kéo dài hai năm. Nếu giờ cô thừa nhận mình và Hàn Kỳ là quan hệ tình nhân, vậy chẳng phải… thẳng tay chặt đứt luôn hy vọng theo đuổi Hàn Kỳ của Lận Duy hay sao?
 
-Thế nhưng xét về tình về lý, cô quả thực không thể vi phạm thỏa thuận.
+Nhưng xét cả tình lẫn lý, cô tuyệt đối không thể vi phạm hợp đồng.
 
-“Xin lỗi, Lận Duy, tôi và Hàn tiên sinh… đúng là đang quen nhau……”
+“Xin lỗi Lận Duy… Tôi với Hàn tiên sinh… đúng là đang hẹn hò……”
 
-Mạnh Tuyết cúi đầu khó khăn nói ra câu này, thậm chí cô còn không hề phát hiện ra việc một ‘bạn gái chính thức’ lại bày tỏ vẻ áy náy trước mặt người yêu cũ đang ngấp nghé bạn trai mình là một chuyện kỳ quặc đến mức nào.
+Mạnh Tuyết cúi gằm mặt, chật vật thốt ra từng chữ. Thậm chí cô còn chẳng kịp nhận ra chuyện một ‘cô bạn gái danh chính ngôn thuận’ lại đi cúi đầu áy náy trước gã người yêu cũ đang nhăm nhe bạn trai mình trông nực cười và kỳ quặc đến nhường nào.
 
-Lận Duy đương nhiên biết rõ mối quan hệ thực sự hiện tại giữa bọn họ, câu trả lời của Mạnh Tuyết hoàn toàn nằm trong dự liệu của cậu, chỉ là thái độ chột dạ này của cô khiến cậu dở khóc dở cười.
+Lận Duy đương nhiên nắm rõ như lòng bàn tay mối quan hệ thực sự giữa hai người họ, câu trả lời của Mạnh Tuyết hoàn toàn nằm trong tính toán của cậu, chỉ là thái độ chột dạ bối rối này của cô khiến cậu dở khóc dở cười.
 
-Cậu đành phải vờ như không phát hiện ra, sau một thoáng im lặng liền lộ vẻ thất vọng nói: “Thật vậy à? Thế thì tôi…… Thôi bỏ đi! Tôi cũng chưa đến mức mất nết tới độ đi cướp người của bạn gái cũ!”
+Cậu bèn vờ như không hay biết gì, lặng im hồi lâu rồi thất thểu than thở: “Thật thế ư? Vậy thì tôi…… Thôi bỏ đi! Tôi cũng chẳng đến mức đốn mạt tới độ đi tranh giành người đàn ông của bạn gái cũ!”
 
-Câu nói này cũng là để nói cho người ngoài cửa kia nghe, dù sao cũng không thể vừa thoát khỏi hiềm nghi bám riết lấy Mạnh Tuyết, quay đầu lại làm nam chính cảm thấy mình sắp sửa đi quấy rối anh được……
+Câu này dĩ nhiên là cậu cố tình nói cho nhân vật quyền lực đứng ngoài cửa nghe. Cậu đâu thể vừa thoát khỏi cái dớp bám riết Mạnh Tuyết, quay ngoắt đi lại khiến nam chính nghĩ rằng mình sắp nhảy bổ vào quấy rối anh được……
 
-Cậu chỉ muốn yên ổn ở lại đoàn phim mà thôi, dù sao phần lớn cốt truyện trong nguyên tác đều diễn ra trong suốt thời gian ghi hình bộ phim này.
+Cậu chỉ cần danh chính ngôn thuận ở lại đoàn phim một cách bình yên, bởi phần lớn biến cố trong nguyên tác đều xảy ra trong giai đoạn bấm máy này.
 
-Mạnh Tuyết nghe xong vừa thấy áy náy lại vừa cạn lời. Thực ra cô cũng không nghĩ một nhân vật đứng trên cao lạnh lùng và quyền thế như Hàn Kỳ lại bị một tên công tử bột vô tâm vô tính như Lận Duy cưa đổ. Cô chỉ cảm thấy nếu không có mình chiếm chỗ thì đối phương ít ra cũng có cơ hội bị Hàn Kỳ thẳng thừng từ chối tận mặt, cho nên câu nói này nghe qua ít nhiều có phần hơi ngông cuồng.
+Mạnh Tuyết nghe xong vừa cắn rứt lại vừa cạn lời. Thú thật, cô cũng chẳng dám tin một nhân vật quyền uy, cao ngạo và lạnh lùng như Hàn Kỳ lại có thể rơi vào tay một tên công tử vô lo vô nghĩ như Lận Duy. Cô chỉ thầm nghĩ nếu không có bản hợp đồng của mình cản đường, ít ra cậu ta cũng còn có cơ hội bị Hàn Kỳ đích thân từ chối, thành thử lời tuyên bố này nghe qua có phần hơi huênh hoang quá đà.
 
-Thế nhưng trước sự thẳng thắn của Lận Duy, ác cảm theo bản năng của cô đối với người yêu cũ lại vô thức vơi đi hơn phân nửa. Mạnh Tuyết cảm thấy thế giới này quả thực vô cùng hoang đường.
+Tuy nhiên, trước sự thẳng thắn không chút giấu giếm của Lận Duy, ác cảm cố hữu bấy lâu trong cô đối với gã bạn trai cũ lại tự dưng tiêu tan quá nửa. Mạnh Tuyết chỉ thấy cuộc đời này đúng là trớ trêu đến buồn cười.
 
-Hai người đang đứng nghe lén ngoài cửa suốt nửa ngày trời cũng có cùng cảm nhận ấy.
+Hai người đứng nghe lén ngoài cửa suốt nãy giờ cũng có chung cảm giác dở khóc dở cười như thế.
 
-Vốn dĩ chỉ lo lắng Mạnh Tuyết bị tên công tử bột nổi máu háo sắc bắt nạt quá trớn nên mới đặc biệt chạy qua một chuyến để chống lưng cho cô, kết quả bọn họ đã nghe được những gì thế này?
+Ban đầu chỉ vì e ngại Mạnh Tuyết bị gã công tử bột nổi máu dê xằng bậy làm càn nên Hàn Kỳ mới cất công ghé qua để chống lưng cho cô, ai ngờ thứ bọn họ nghe thấy lại là vở kịch động trời thế này?
 
-Tên nhị thế tổ này là người yêu cũ kiêm mối tình đầu của Mạnh Tuyết thì cũng thôi đi, mục đích không thuần khiết lần này của đối phương lại chẳng phải nhắm vào Mạnh Tuyết, mà là nhắm thẳng vào Hàn Kỳ?!
+Gã nhị thế tổ này là bạn trai cũ kiêm tình đầu của Mạnh Tuyết thì chớ, mục đích mờ ám lần này chạy tới đoàn phim chẳng phải nhắm vào Mạnh Tuyết, mà lại nhằm thẳng vào Hàn Kỳ?!
 
-Đúng thật là một thằng nhóc không biết trời cao đất dày, Hàn Kỳ chính là nhân vật mà ngay cả bố mẹ gã gặp mặt cũng phải cẩn trọng đối đãi từng ly từng tí!
+Đúng là một thằng nhóc ngựa non háu đá không biết trời cao đất dày, Hàn Kỳ chính là nhân vật mà ngay cả bậc sinh thành của cậu ta khi gặp mặt cũng phải nể sợ khép nép đôi phần!
 
-Chuyện này quả thực quá đỗi bất ngờ. Hàn Kỳ vì vừa trải qua vụ tai nạn xe chưa bao lâu, thân thể vẫn chưa hoàn toàn bình phục, sắc mặt tái nhợt hơn người bình thường, giờ phút này vì cơn thẹn quá hóa giận do vô tình bị mạo phạm mà trên mặt hiếm hoi lộ ra vài phần huyết sắc.
+Diễn biến này quả thực nằm ngoài mọi dự liệu. Do vừa trải qua tai nạn xe cộ chưa lâu, cơ thể chưa hồi phục hoàn toàn nên sắc mặt Hàn Kỳ vốn trắng bệch hơn người thường, vậy mà giờ phút này vì cơn thẹn thùng xen lẫn bực bội do bị mạo phạm bất ngờ, trên gương mặt anh lại hiếm hoi ánh lên vài vệt ửng đỏ.
 
-Trợ lý Uông Dương đứng sau lưng anh còn phản ứng dữ dội hơn, nhịn cười tới mức cả người run lên bần bật.
+Trợ lý Uông Dương đứng phía sau thì phản ứng mãnh liệt hơn nhiều, cố nén cười đến mức bả vai rung lên bần bật.
 
-Hàn Kỳ quay đầu trừng mắt liếc anh ta một cái, ra hiệu cho anh ta đẩy xe lăn rời đi, người bên trong e là sắp sửa bước ra rồi.
+Hàn Kỳ quay đầu trừng mắt lườm anh ta một cái bén ngót, ra hiệu đẩy xe lăn rời đi, bởi người bên trong e rằng sắp bước ra tới nơi rồi.
 
-Uông Dương lập tức đẩy anh cùng rời khỏi cửa trước, nấp sang phía bên kia của gian nhà tranh dựng cảnh.
+Uông Dương lập tức đẩy anh rời khỏi trước cửa, vòng sang nép mình ở phía bên kia vách nhà tranh.
 
-Quả nhiên không lâu sau, Mạnh Tuyết và Lận Duy liền cùng nhau bước ra ngoài. Bầu không khí chung đụng giữa hai người thoạt nhìn đã tốt hơn lúc mới đến rất nhiều. Mạnh Tuyết vuốt vuốt lọn tóc bên tai, nhịn không được tò mò hỏi: “Sao anh lại thích… anh ấy?”
+Chẳng mấy chốc sau, Mạnh Tuyết và Lận Duy cùng nhau bước ra ngoài. Bầu không khí giữa hai người trông hòa nhã hơn hẳn so với lúc mới bước vào. Mạnh Tuyết vén lọn tóc mai ra sau tai, không nhịn được tính tò mò mà hỏi nhỏ: “Sao anh lại đi thích… anh ấy cơ chứ?”
 
-Hàn Kỳ nấp ở một bên nghe thấy lời này thì mí mắt giật giật, không hiểu nổi Mạnh Tuyết hỏi câu này để làm cái gì. Với thân phận bạn gái theo thỏa thuận hiện tại của cô, đi tò mò việc người yêu cũ tại sao lại có hứng thú với người yêu hiện tại của mình… Cô không thấy kỳ quặc sao?
+Hàn Kỳ nấp sau góc khuất nghe thấy thế thì mí mắt giật mạnh một cái. Anh không thể hiểu nổi Mạnh Tuyết hỏi câu này để làm gì. Với danh phận bạn gái theo hợp đồng, việc tò mò xem tại sao bạn trai cũ lại có hứng thú với người yêu hiện tại của mình… bộ cô không thấy quái gở lắm sao?
 
-Thực tế thì đúng là rất kỳ quặc, nhưng không sao cả, Lận Duy giỏi nhất là giả vờ ngây ngô giả bộ hồ đồ, may mắn thay thiết lập nhân vật của nguyên thân vốn là một tên phú nhị đại không có đầu óc, giả ngu cũng chẳng thấy gượng gạo.
+Thực tế thì quả đúng là kỳ quặc thật, nhưng chẳng hề gì, Lận Duy vốn là bậc thầy trong việc giả ngơ giả dại. Huống chi thiết lập của nguyên thân vốn là một tên công tử nhà giàu rỗng tuếch, có đóng kịch ngây ngô một chút cũng chẳng ai mảy may nghi ngờ.
 
-“Tôi từng theo bố mẹ gặp anh ấy một lần trong một buổi tiệc rượu, nhờ người dò la được lịch trình của anh ấy nên chẳng nghĩ ngợi gì nhiều mà chạy tới đây luôn.”
+“Tôi từng theo bố mẹ đi dự tiệc rượu và chạm mặt anh ấy một lần, sau đó nhờ người thăm dò lịch trình thì biết anh ấy ở đây, thế là chẳng nghĩ ngợi nhiều mà chạy tới luôn.”
 
-Những lời Lận Duy nói đều là sự thật, Hàn Kỳ quả thực từng gặp qua nguyên thân trước đây. Trong nguyên tác cũng nhờ có một lần gặp mặt này, nể mặt mũi bố mẹ gã nên Hàn Kỳ chỉ đóng gói tống gã về nhà chứ rốt cuộc cũng không làm gì gã cả.
+Những gì Lận Duy nói đều là sự thật. Trước đây Hàn Kỳ quả thực từng gặp qua nguyên thân. Trong nguyên tác, cũng nhờ một lần gặp gỡ xã giao đó mà nể mặt bố mẹ cậu ta, Hàn Kỳ mới chỉ tống cổ cậu ta về nhà chứ không hề ra tay trừng phạt nặng nề.
 
-Phải biết rằng ngoại trừ gã ra, tất cả những kẻ từng quấy rối Mạnh Tuyết trong nguyên tác thì kết cục về sau cơ bản là kẻ sau thảm hơn kẻ trước.
+Phải biết rằng ngoại trừ cậu ấm này ra, toàn bộ những kẻ từng có ý đồ quấy rối Mạnh Tuyết trong truyện gốc đều có kết cục thê thảm khôn cùng.
 
-“Thế bây giờ anh……?” Mạnh Tuyết thở phào một hơi nhẹ nhõm. Hóa ra cũng chỉ mới gặp qua một lần, tâm tư đến nhanh mà từ bỏ cũng thật dễ dàng, gánh nặng tội lỗi của cô rốt cuộc cũng không còn quá nặng nề nữa.
+“Thế giờ anh tính sao……?” Mạnh Tuyết thở phào một hơi nhẹ nhõm. Hóa ra chỉ là tiếng sét ái tình thoáng qua sau một lần gặp gỡ, thích nhanh mà buông bỏ cũng dứt khoát, cảm giác tội lỗi trong lòng cô rốt cuộc cũng vơi đi phần nào.
 
-“Đến cũng đã đến rồi, diễn xong vai này rồi hẵng đi chứ sao!” Lận Duy nhún vai, quay đầu lại như chợt nhớ ra điều gì mà nói: “Đúng rồi, chuyện cô với Hàn Kỳ có quan hệ mờ ám là do cô bạn thân Cao Hàm của cô lỡ miệng nói cho tôi biết đấy, nhưng diễn xuất của cô ta tệ thật sự, tôi còn chẳng buồn vạch trần cô ta nữa là, cô vẫn nên cẩn thận một chút đi!”
+“Tới cũng tới rồi, đóng cho xong vai này rồi tính tiếp chứ sao!” Lận Duy nhún vai, đoạn như sực nhớ ra điều gì liền bồi thêm: “À đúng rồi, chuyện cô với Hàn Kỳ mập mờ là do cô bạn thân Cao Hàm lỡ miệng nói cho tôi biết đấy. Cơ mà diễn xuất của cô ta vụng về phát sợ, tôi chẳng thèm vạch trần thôi, cô cứ liệu chừng mà cẩn thận với cô ta.”
 
-“Tôi biết rồi.” Mạnh Tuyết bất giác bật cười trước lời nói của cậu, sau đó như có điều suy nghĩ mà gật gật đầu.
+“Tôi biết rồi.” Mạnh Tuyết phì cười trước vẻ lém lỉnh của cậu, sau đó khẽ gật đầu như có điều suy nghĩ.
 
-Sau khi hai người vừa trò chuyện hòa hợp vừa dần dần đi xa, Hàn Kỳ mới được đẩy từ chỗ tối đi ra.
+Chờ bóng hai người vừa rôm rả trò chuyện vừa khuất dần về phía xa, chiếc xe lăn của Hàn Kỳ mới từ trong bóng tối được đẩy ra.
 
-“Về trước đi.” Đáy mắt Hàn Kỳ không nhìn ra chút cảm xúc nào.
+“Về thôi.” Đáy mắt Hàn Kỳ phẳng lặng như nước, không để lộ chút gợn sóng nào.
 
-Uông Dương vội vàng đáp: “Vâng.”
+Uông Dương vội vàng vâng dạ: “Vâng sếp.”
 
-Lận Duy đi phía trước tách ra với Mạnh Tuyết ở cửa thang máy khách sạn. Sau khi Lận Duy tìm được phòng của mình, hệ thống rốt cuộc cũng khóc thút thít đuổi kịp tới nơi.
+Phía trước, Lận Duy và Mạnh Tuyết tạm biệt nhau ở sảnh thang máy khách sạn. Vừa bước chân vào phòng nghỉ của mình, hệ thống cuối cùng cũng sướt mướt đuổi kịp tới nơi.
 
-[Huhu chủ nhân ơi!!!]
+[Oa oa oa ký chủ ơi!!!]
 
-Lận Duy mờ mịt nghe nó gào khóc: [Sao thế? Không phải cậu đi nộp tư liệu tổng kết rồi à?]
+Lận Duy nghe nó gào khóc thảm thiết thì dở khóc dở cười: [Sao thế? Không phải cậu đi nộp báo cáo tổng kết rồi à?]
 
-Hệ thống nghẹn lại một chút, ngay sau đó lại gào to hơn: [Tôi cũng không biết nữa! Chỉ là tự dưng có cảm giác như dung lượng bộ nhớ bị móc rỗng vậy, khó chịu lắm! Nhưng tôi tự quét lại bản thân thì lại chẳng phát hiện ra có chỗ nào không ổn cả!]
+Hệ thống sững lại một nhịp, rồi lập tức nấc lên từng cơn: [Tôi cũng không biết nữa! Tự dưng cứ thấy bộ nhớ trống rỗng hụt hẫng đến khó tả! Thế mà tự quét lại hệ thống thì lại chẳng thấy lỗi chỗ nào cả!]
 
-Lận Duy nghe nó miêu tả thì trầm mặc một thoáng, cậu cứ ngỡ là do hệ thống luyến tiếc Kem Ly quấy phá, ý thức điện tử không thể thấu hiểu loại cảm xúc này nên mới không biết phải diễn đạt ra sao.
+Lắng nghe nó miêu tả, Lận Duy thoáng trầm ngâm một lát. Cậu cứ ngỡ là do nó luyến tiếc Kem Ly ở thế giới trước, mà ý thức trí tuệ nhân tạo lại chưa thể lý giải nổi cảm xúc chia ly nên mới hoang mang như vậy.
 
-[Nghỉ ngơi chút là ổn thôi.] Cậu chỉ đành an ủi như vậy.
+[Thả lỏng nghỉ ngơi chút là hết thôi.] Cậu đành lên tiếng an ủi.
 
-[Vâng…] Hệ thống ủ rũ nửa ngày trời, cuối cùng mới nhớ ra hỏi thăm tình hình của thế giới này.
+[Vâng ạ…] Hệ thống ủ rũ một hồi lâu, cuối cùng mới sực nhớ ra để hỏi về tình hình ở thế giới mới.
 
-Lận Duy thuật lại vắn tắt chuyện vừa xảy ra cho nó nghe, đồng thời dặn dò: [Nhiệm vụ vẫn phải làm, giúp tôi để mắt tới Hàn Kỳ và người trợ lý Uông Dương bên cạnh anh ấy một chút.]
+Lận Duy tóm tắt lại diễn biến vừa rồi cho nó nghe, đồng thời dặn dò: [Nhiệm vụ vẫn phải tiến hành, cậu để mắt giúp tôi tới Hàn Kỳ và tay trợ lý Uông Dương bên cạnh anh ấy một chút.]
 
-[Biết rồi thưa chủ nhân!]
+[Rõ rồi thưa ký chủ!]
 
-Bên kia, Hàn Kỳ về đến khách sạn chậm hơn một bước đang tựa lưng vào ghế sofa nhắm mắt dưỡng thần. Trợ lý Uông Dương rốt cuộc cũng xem kịch no nê rồi mới quay trở về với bổn phận công việc: “Sếp, anh thấy thế nào? Có cần tôi đưa cậu ta về nhà không?”
+Ở một căn phòng khác, Hàn Kỳ về tới khách sạn chậm hơn một bước đang tựa lưng vào ghế sofa khép hờ mắt dưỡng thần. Sau một hồi xem kịch no nê, trợ lý Uông Dương mới quay về với tác phong chuyên nghiệp thường ngày: “Sếp, anh tính sao đây? Có cần tôi liên hệ người nhà đưa cậu ta về không?”
 
-Hàn Kỳ nhất thời không tiếp lời, ngón tay gõ nhẹ lên chiếc chân không bị thương, cả căn phòng yên ắng hồi lâu anh mới cất tiếng: “Nếu cậu ta đã không còn tâm tư đó nữa thì không cần đâu.”
+Hàn Kỳ không đáp ngay, những ngón tay thon dài gõ nhẹ từng nhịp lên đùi bên chân lành lặn. Căn phòng chìm trong yên ắng một lúc lâu, anh mới cất giọng trầm thấp: “Nếu cậu ta đã không còn ý đồ đó nữa thì cứ để mặc đi.”
 
-Uông Dương không hề bất ngờ mà gật đầu: “Vâng, thực ra tôi cũng thấy cậu ta ở lại thì tốt hơn, biết đâu ở những nơi chúng ta không để mắt tới lại có thể giúp đỡ Mạnh tiểu thư một tay. Vị tiểu thiếu gia này nhìn qua thì không đáng tin cậy, nhưng nhân phẩm bất ngờ là cũng được đấy chứ.”
+Uông Dương không hề ngạc nhiên trước quyết định này, khẽ gật gù: “Vâng, thật ra tôi thấy cậu ta ở lại khéo lại hay, biết đâu ở những chỗ chúng ta không tiện ra mặt lại có thể giúp đỡ Mạnh tiểu thư một tay. Vị tiểu thiếu gia này nhìn qua tưởng chừng lông bông không đáng tin, nhưng nhân phẩm hóa ra cũng tử tế phết đấy chứ.”
 
-Thậm chí còn biết đường không đi làm kẻ thứ ba xen vào mối quan hệ của bạn gái cũ với bạn trai hợp đồng hiện tại của cô ta nữa cơ đấy!
+Ít nhất cậu ta còn biết giữ liêm sỉ, không tự biến mình thành kẻ thứ ba chen chân vào mối quan hệ giữa bạn gái cũ và người yêu trên hợp đồng của cô ấy!
 
 Phụt!
 
-Uông Dương suýt chút nữa lại bật cười thành tiếng, sau khi bị ông chủ nhà mình một lần nữa phóng ánh mắt cảnh cáo tới thì lập tức căng cứng cơ mặt lại.
+Uông Dương suýt chút nữa không kìm được mà bật cười thành tiếng, cho đến khi bị ông chủ nhà mình một lần nữa phóng ánh mắt cảnh cáo tới thì mới vội vàng nín thở, nghiêm túc trở lại.

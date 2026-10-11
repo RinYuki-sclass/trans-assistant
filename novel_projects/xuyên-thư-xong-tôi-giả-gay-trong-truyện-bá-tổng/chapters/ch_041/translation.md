@@ -2,146 +2,146 @@
 title: Chương 41: 第41章
 ---
 
-Ngày hôm sau, Lận Duy lại không xuất hiện vào giờ ăn trưa. Uông Dương liếc nhìn sắc mặt của ông chủ thì biết tiểu thiếu gia đã không báo cáo, đương nhiên anh ta không có ý trách cứ. Ông chủ tự mình câu dẫn người ta mà còn không định chịu trách nhiệm, tiểu thiếu gia không có nghĩa vụ phải làm một "oan gia hiếu thảo" 24/7.
+Hôm sau tới giờ cơm trưa, Lận Duy lại không thấy tăm hơi. Uông Dương liếc nhìn sắc mặt ông chủ nhà mình là đủ hiểu tiểu thiếu gia chẳng buồn báo trước lấy một tiếng. Lẽ dĩ nhiên anh ta không có ý trách cứ cậu; ông chủ cứ giở trò mập mờ thả thính người ta mà mãi chẳng chịu chịu trách nhiệm, tiểu thiếu gia việc gì phải làm kẻ hầu hạ cúc cung tận tụy cam chịu thiệt thòi.
 
-Nhưng anh ta vẫn rất biết ý mà nhắc một câu: “Tiểu Lận lại chạy đi đâu rồi?”
+Dẫu vậy, anh ta vẫn rất biết ý chủ nhân mà chủ động gợi chuyện: “Cậu Lận lại chạy đi đâu rồi không biết?”
 
-Mạnh Tuyết đang ăn cháo, nghe vậy liền không ngẩng đầu lên đáp: “Vừa rồi chị Tần Nguyệt gọi cậu ấy đi, nói là muốn cảm ơn riêng vì đã giúp đỡ.”
+Mạnh Tuyết đang húp cháo, nghe vậy cũng chẳng buồn ngẩng đầu, thuận miệng đáp: “Vừa nãy chị Tần Nguyệt gọi anh ấy đi rồi, bảo là muốn cảm ơn riêng vì được giúp đỡ.”
 
-Tần Nguyệt không biết từ đâu biết chuyện Lận Duy đã âm thầm giúp đỡ cô ta một phen ở chỗ Cao Hàm, cộng thêm lời nhắc nhở trước đó, nếu không chính thức mời một bữa cơm để bày tỏ mình nợ ân tình này thì quả thật không hợp lý.
+Tần Nguyệt chẳng rõ nghe ngóng từ đâu biết chuyện Lận Duy đã âm thầm đỡ đòn cho cô một vố ở chỗ Cao Hàm, cộng thêm lời nhắc nhở lần trước, nếu không trịnh trọng mời một bữa cơm để tỏ lòng cảm kích và nhận món ân tình này thì thật quá thất lễ.
 
-Mặc dù Mạnh Tuyết cảm thấy, Lận Duy có lẽ không quá cần ân tình này, phần lớn là vì muốn an lòng Tần Nguyệt nên mới đồng ý.
+Dù trong mắt Mạnh Tuyết, Lận Duy vốn chẳng mấy bận tâm đến chuyện nợ nang ân nghĩa, phần nhiều cậu nhận lời cũng chỉ để Tần Nguyệt được an lòng.
 
-Tuy nhiên, khi đối mặt với Hàn Kỳ, Mạnh Tuyết sẽ không nói rõ ràng như vậy. Nếu Hàn Kỳ không để tâm thì cô ta cũng không có gì để nói. Còn nếu Hàn Kỳ để tâm, cô ta chỉ mong Hàn Kỳ có thể làm ra một chút hành động vượt ngoài lý trí vì tình cảm khó kìm nén, bằng không Lận Duy hoàn toàn sẽ không cảm nhận được sự quan tâm của anh ta, nhìn dáng vẻ sắp mất hết hy vọng rồi.
+Có điều trước mặt Hàn Kỳ, Mạnh Tuyết tuyệt đối không hé nửa lời cặn kẽ. Nếu Hàn Kỳ không quan tâm thì cô chẳng việc gì phải nhiều lời; còn nếu anh bận lòng, cô chỉ mong sao anh không kìm nén nổi cảm xúc mà làm ra hành động mất lý trí nào đó. Chứ cứ cái đà này, Lận Duy hoàn toàn chẳng cảm nhận được chút đoái hoài nào từ anh, trông chừng đã sắp nản lòng thoái chí đến nơi rồi.
 
-Cô ta vẫn chưa biết Hàn Kỳ đã nghe Lận Duy nói thích mình từ lúc ban đầu, chỉ cho rằng hai người hấp dẫn lẫn nhau nhưng lại chần chừ không tiến tới, không dám thổ lộ tâm ý. Nếu biết, với thái độ mập mờ dựa vào việc Lận Duy thích mình mà tỏ ra có chút tự mãn, lúc gần lúc xa của Hàn Kỳ, cô ta có lẽ chỉ khuyên Lận Duy nên từ bỏ cho xong.
+Đó là cô còn chưa hay biết Hàn Kỳ ngay từ đầu đã nghe chính tai lời tỏ tình của Lận Duy, cứ ngỡ hai người đôi bên cùng có ý nhưng lại ngập ngừng chẳng chịu thẳng thắn bộc bạch. Bằng không, thấy cái điệu bộ cậy người ta thích mình mà tự đắc, cứ nửa gần nửa xa mập mờ dây dưa của Hàn Kỳ, khéo cô đã khuyên Lận Duy dứt khoát buông tay cho rảnh nợ.
 
-Hàn Kỳ liếc nhìn Uông Dương, Uông Dương vội vàng lắc đầu, ra hiệu chuyện này không phải do anh ta tiết lộ cho Tần Nguyệt.
+Hàn Kỳ liếc sang Uông Dương một cái. Uông Dương lập tức lắc đầu nguầy nguậy, ra hiệu chuyện này tuyệt đối không phải do mình rò rỉ cho Tần Nguyệt.
 
-Chuyện này tổng cộng chỉ có vài người biết, không phải Uông Dương, với tính cách của Lận Duy cũng sẽ không chủ động nói ra, vậy thì chỉ có thể là Cao Hàm tự mình đoán ra điều gì đó, rồi bí mật tìm Tần Nguyệt để hả hê nói vài câu.
+Việc này tính đi tính lại cũng chỉ có vài người hay biết. Đã không phải Uông Dương, tính nết Lận Duy lại càng chẳng chủ động bép xép, vậy thì chỉ còn khả năng là Cao Hàm tự đoán ra điều gì đó, bèn lén lút tìm Tần Nguyệt nói bóng nói gió cho sướng cái miệng.
 
-Quá trình đại khái có thể đoán được, phần lớn là Cao Hàm cho rằng Tần Nguyệt đã quen biết Lận Duy tiểu thiếu gia, dù có chịu thiệt vẫn không nhịn được tìm đến cửa chua ngoa vài câu, làm hại mình không lợi lộc gì, đó là chuyện người phụ nữ đó có thể làm.
+Đầu đuôi câu chuyện đại khái cũng dễ hình dung, phần lớn là Cao Hàm tưởng Tần Nguyệt đã bám được vào tiểu thiếu gia họ Lận, dẫu nuốt hận chịu thiệt vẫn chẳng kìm được mà mò tới cạnh khóe vài câu. Loại chuyện hại người chẳng ích ta ấy, đúng là phong cách điển hình của ả đàn bà kia.
 
-Vốn dĩ đây là một chuyện nhỏ, Hàn Kỳ chỉ hơi khó chịu vì Lận Duy không báo trước cho mình một tiếng, nhưng suy nghĩ kỹ thì, Lận Duy có muốn làm vậy thì lấy thân phận gì để báo cáo hành tung của mình cho anh ta biết?
+Vốn dĩ đây chỉ là chuyện cỏn con, Hàn Kỳ chẳng qua thấy bức bối vì Lận Duy không báo trước một tiếng. Nhưng nếu ngẫm nghĩ rạch ròi, dù Lận Duy có muốn làm vậy thật, thì lấy thân phận gì để báo cáo hành tung cho anh?
 
-Nhưng sự khó chịu trong lòng là thật, anh ta nhịn rồi lại nhịn, cuối cùng không nhịn được, cầm điện thoại lên gửi tin nhắn cho Lận Duy.
+Thế nhưng cảm giác hậm hực trong lòng lại chẳng hề giả tạo. Anh nén rồi lại nén, rốt cuộc không nhịn nổi, cầm điện thoại lên soạn tin nhắn gửi cho Lận Duy.
 
-『Lại đi đâu rồi?』 Hỏi mà như không hỏi.
+“Lại chạy đi đâu rồi?” — Rõ ràng biết tỏng còn cố tình gặng hỏi.
 
-Lận Duy, người đang khách sáo với Tần Nguyệt, nhận được tin nhắn thì nhướng mày. Xem ra Hàn Kỳ đã chính thức xếp cậu vào vòng tròn người thân cận rồi. Thấy cậu không có ở đây mà còn quan tâm đến hành tung của cậu, với tính cách của Hàn Kỳ mà nói, đây đúng là một tiến triển không dễ dàng.
+Lận Duy đang mải chuyện trò xã giao với Tần Nguyệt, nhận được tin nhắn bèn nhướng mày. Xem ra Hàn Kỳ đã chính thức xếp cậu vào vòng tròn những người thân cận rồi đấy; thấy cậu vắng mặt còn biết quan tâm xem đi đâu về đâu, đối với tính cách của người như Hàn Kỳ, tiến triển này quả thật không dễ dàng chút nào.
 
-『Đang ăn cơm với cô Tần.』 Lận Duy trước tiên báo cáo mình đang làm gì, suy nghĩ một chút rồi lại gửi một câu: 『Hàn tiên sinh hôm nay có thể về khách sạn sớm không, tôi đến tìm anh muộn một chút?』
+“Đang ăn cơm với cô Tần.” — Lận Duy trước hết báo cáo rõ mình đang làm gì, ngẫm nghĩ một chốc lại gửi tiếp một câu: “Hôm nay Hàn tiên sinh có thể về khách sạn sớm một chút không, lát nữa tôi qua tìm anh?”
 
-Hàn Kỳ nheo mắt lại trả lời: 『Tìm muộn một chút? Cậu còn có sắp xếp khác với Tần Nguyệt à? Chú ý một chút, đừng tạo ra scandal không cần thiết cho đoàn phim!』
+Hàn Kỳ nheo mắt lại, gõ phím đáp: “Lát nữa mới qua? Cậu với Tần Nguyệt còn có hẹn khác à? Ý tứ một chút, đừng tạo ra mấy tin đồn tình ái không cần thiết cho đoàn phim!”
 
-Lận Duy khá là dở khóc dở cười, người trước đó không kiêng dè gì mà tạo ra scandal trong đoàn phim rõ ràng là chính Hàn Kỳ mà.
+Lận Duy cạn lời. Cái người từ trước tới nay cứ ngang nhiên gây sóng gió dư luận khắp đoàn phim rõ ràng là chính Hàn Kỳ cơ mà?
 
-Nhưng cậu cũng không có cách nào với đại lão không nói lý, ai bảo đoàn phim là một mình anh ta nói là được, chỉ có thể nhường nhịn: 『Không có sắp xếp nào khác, cô Tần buổi chiều còn cảnh quay, là tôi muốn về trước để bào thuốc, thuốc lúc trước đã dùng hết rồi.』
+Nhưng cậu cũng chẳng thể làm gì được vị đại lão ngang ngược này, ai bảo cả đoàn phim đều là nơi một tay anh định đoạt, đành phải chiều theo: “Không có lịch trình nào khác đâu, buổi chiều cô Tần còn có cảnh quay. Là tôi muốn về sớm để bốc thuốc, số thuốc trước đã dùng hết rồi.”
 
-Thuốc vừa mới bào dù có bảo quản kín cũng không để được quá lâu, Lận Duy ngay từ đầu đã không làm nhiều.
+Thuốc mới pha chế dù niêm phong bảo quản kỹ đến đâu cũng không để được lâu, ngay từ đầu Lận Duy đã không làm sẵn quá nhiều.
 
-『Tôi sẽ không gây phiền phức cho đoàn phim đâu.』 Cậu cố tình bổ sung một câu, trị loại người miệng cứng lòng mềm như Hàn Kỳ, phải tìm đúng góc độ để chọc vào lương tâm của anh ta.
+“Tôi sẽ không gây phiền phức cho đoàn phim đâu.” — Cậu cố ý bồi thêm một câu. Để trị cái tật ngoài miệng cứng rắn trong lòng mềm nhũn của Hàn Kỳ, bắt buộc phải nhắm chuẩn góc độ chọc cho anh cắn rứt lương tâm mới được.
 
-Hàn Kỳ quả nhiên mềm giọng: “Tôi không có ý đó, đừng suy nghĩ nhiều.”
+Quả nhiên giọng điệu Hàn Kỳ mềm xuống ngay: “Tôi không có ý đó, đừng nghĩ nhiều.”
 
-Khung trò chuyện vẫn hiển thị đang nhập, Lận Duy kiên nhẫn chờ đợi, rồi nhận được thêm một tin nhắn: “Tôi có thể gánh vác mọi phiền phức cậu gây ra, chỉ là nếu tin đồn lan ra, fan của Tần Nguyệt nhìn cậu là người lạ, có lẽ sẽ không nể tình đâu.”
+Khung chat liên tục hiển thị thông báo đối phương đang soạn tin. Lận Duy kiên nhẫn chờ một lát, lại nhận thêm một dòng: “Bất kể cậu gây ra rắc rối gì tôi đều gánh được hết, chỉ là nếu tin đồn tình ái nổ ra, người hâm mộ của Tần Nguyệt thấy cậu là gương mặt mới, e là sẽ chẳng nương tay với cậu đâu.”
 
-Lời này không sai, dù tin đồn có thể nhanh chóng được làm rõ và dập tắt, nhưng ban đầu khó tránh khỏi việc bị mắng té tát trên mạng, điều này ngay cả Hàn Kỳ quyền lực cũng không thay đổi được.
+Lời này nói ra chẳng sai chút nào. Dù phong ba có thể lập tức được đính chính dập tắt, nhưng thời điểm đầu khó tránh khỏi việc bị cư dân mạng tế sống một trận tơi bời, điểm này thì dẫu thế lực ngút trời như Hàn Kỳ cũng chẳng cách nào xoay chuyển.
 
-Phụt, thật nể anh ta, lúc gấp gáp còn nghĩ ra được cái cớ hoàn hảo như vậy để che đậy thói quen ăn nói khó nghe của mình.
+Phụt, thật khó cho anh giữa lúc bối rối vẫn có thể nặn ra một cái cớ vẹn toàn đến thế để che đậy thói quen ăn nói cay nghiệt thường ngày của mình.
 
-Lận Duy cố tình để anh ta chờ hai phút mới trả lời: “Hàn tiên sinh yên tâm, tôi hiểu rồi.”
+Lận Duy cố tình để anh chưng hửng suốt hai phút mới nhắn lại: “Hàn tiên sinh cứ yên tâm, tôi hiểu mà.”
 
-“Là bạn gái sao?” Tần Nguyệt ngồi đối diện nhìn anh ta trả lời tin nhắn, cười dịu dàng đồng thời mang theo một chút cưng chiều có thể nhìn thấy bằng mắt thường, trêu chọc một cách thiện ý.
+“Bạn gái à?” Tần Nguyệt ngồi đối diện thấy cậu trả lời tin nhắn, vừa mỉm cười dịu dàng vừa lộ rõ nét cưng chiều trong mắt, bèn có ý trêu đùa một câu.
 
-“Hả?” Lận Duy hoàn hồn, có chút ngạc nhiên vì sao cô ấy đột nhiên hỏi vậy, lắc đầu phủ nhận: “Không, chỉ là bạn bè thôi.”
+“Dạ?” Lận Duy hoàn hồn, hơi ngạc nhiên không hiểu sao cô lại đột ngột hỏi vậy, liền lắc đầu phủ nhận: “Không phải đâu, chỉ là bạn bè thôi.”
 
-Tần Nguyệt bất ngờ với câu trả lời phủ định, trong lòng thực ra không tin, nhưng cũng biết chừng mực nên không tiếp tục truy hỏi, nghĩ có lẽ Lận Duy không muốn công khai chuyện tình cảm nên mới phủ nhận với bên ngoài, điều này trong giới cũng rất phổ biến.
+Tần Nguyệt bất ngờ khi nhận được câu trả lời phủ định, trong lòng thực chất chẳng hề tin, nhưng cũng rất mực chừng mực không gặng hỏi thêm. Cô thầm nghĩ có lẽ Lận Duy chưa muốn công khai chuyện tình cảm nên mới đồng nhất chối bỏ với bên ngoài, chuyện này trong giới giải trí vốn đã quá đỗi quen thuộc.
 
-Bữa cơm này ăn khá vui vẻ, Tần Nguyệt không giỏi giao tiếp, hôm nay là cô ấy cố gắng hết sức mời Lận Duy, may mà Lận Duy là người rất hiểu cách làm cho người khác giảm bớt áp lực xã giao, không khiến cô ấy cảm thấy chút nào ngượng ngùng.
+Bữa trưa trôi qua tương đối êm đẹp. Tần Nguyệt vốn vụng về trong khoản giao tế, hôm nay là bấm bụng lấy hết can đảm mới mời được Lận Duy; may sao Lận Duy lại là người vô cùng khéo léo trong việc tháo gỡ áp lực xã giao, không để cô phải gợn chút ngượng ngùng nào.
 
-Bên này của họ mọi việc đều thuận lợi, nhưng tâm trạng Hàn Kỳ lại bị vài câu nói của Lận Duy làm cho rối bời, nhìn đi nhìn lại giao diện trò chuyện trên điện thoại, hết tức giận, lại hối hận, rồi lại thấy mình có lỗi, các loại cảm xúc thay nhau xuất hiện trong lòng.
+Bên này mọi sự đều thuận buồm xuôi gió, đằng kia tâm trạng của Hàn Kỳ lại bị dăm ba câu chữ của Lận Duy quấy cho rối như tơ vò. Anh dán chặt mắt vào màn hình trò chuyện, đọc đi đọc lại mấy dòng tin nhắn, trong lòng đan xen đủ thứ cảm xúc lẫn lộn: vừa giận dỗi, vừa ảo não, lại vừa day dứt và đuối lý.
 
-Anh ta mơ hồ nghi ngờ bản thân rất có thể lại bị Lận Duy cố tình dùng lời lẽ khéo léo câu dẫn rồi, dù sao thì qua tìm hiểu gần đây, cậu nhóc kia thực sự không giống người sẽ vì một câu nói của người khác mà trở nên u sầu, tự dằn vặt.
+Anh mơ hồ ngờ vực khả năng cao mình lại bị ngón đòn trà xanh giả vờ tủi thân của Lận Duy câu cho mắc câu rồi. Dù sao qua quãng thời gian tiếp xúc vừa rồi, thằng nhóc kia tuyệt đối không phải hạng người dễ dàng vì một câu nói của ai đó mà suy sụp rồi tự dằn vặt nội tâm.
 
-Nhưng Hàn Kỳ lại không thể hoàn toàn yên tâm, bởi vì trong lòng anh ta càng cho rằng, đối với Lận Duy, lời nói tùy tiện của anh ta, chắc chắn có trọng lượng khác với lời nói của người khác, vì vậy không ngừng suy nghĩ, nếu Lận Duy vẫn hiểu lầm anh ta chê cậu phiền phức, vậy có lẽ tốt nhất là khi gặp mặt sau này, anh ta nên giải thích rõ ràng với cậu ta?
+Nhưng bảo Hàn Kỳ gạt phắt đi thì anh lại chẳng thể yên lòng. Bởi sâu thẳm tâm can, anh tự đinh ninh rằng với Lận Duy, một lời bâng quơ của anh chắc chắn nặng tựa ngàn cân so với người khác. Thế nên anh cứ bồn chồn nghĩ ngợi, ngộ nhỡ Lận Duy vẫn hiểu lầm rằng anh chê cậu phiền toái, liệu lát nữa gặp mặt có nên lựa lời giải thích rõ ràng với cậu hay không?
 
-Uông Dương phát hiện tâm trạng của ông chủ không ổn, nhưng ông chủ không chủ động nói, anh ta cũng không hỏi, bằng không hỏi ra cả rổ vấn đề tình cảm, anh ta hoàn toàn không giải quyết được.
+Uông Dương nhận ra cảm xúc của sếp bất ổn, nhưng ông chủ không chủ động hé răng thì anh ta cũng thức thời ngậm miệng, bằng không nếu lòi ra cả một rổ trăn trở tình ái thì anh ta lấy đâu ra tài cán mà giải quyết.
 
-Xét thấy ông chủ của mình đang trong trạng thái chết không nhận mình vì tiểu thiếu gia mà cong, Uông Dương cực kỳ kháng cự việc làm cố vấn tình cảm cho ông chủ vào thời điểm này.
+Xét thấy ông chủ nhà mình đang ở vào cái giai đoạn sống chết cũng không chịu thừa nhận bản thân đã bị tiểu thiếu gia bẻ cong, Uông Dương vô cùng bài xích việc phải làm chuyên gia tư vấn tình cảm bất đắc dĩ trong lúc này.
 
-Mối tình mà người trong cuộc còn không chịu thừa nhận, thì có gì tốt để đưa ra ý kiến, lẽ nào bàn luận cách làm cho tiểu thiếu gia mãi mãi đơn phương, mãi mãi yêu say đắm sao?
+Một mối tình mà chính người trong cuộc còn chối đây đẩy thì có gì để mà góp ý? Chẳng lẽ lại đi bàn bạc xem làm thế nào để tiểu thiếu gia mãi mãi đơn phương, muôn đời nồng cháy hay sao?
 
-Dù Uông Dương có vô lương tâm đến mức nói ra được, thì loại sự thật này ông chủ chắc chắn nghe xong sẽ trở mặt ngay thôi!
+Dẫu Uông Dương có vứt sạch lương tâm để thốt ra nổi, thì thứ sự thật trần trụi ấy bảo đảm ông chủ vừa nghe xong là lập tức lật mặt trở bàn tay ngay cho xem!
 
-Đương nhiên Hàn Kỳ cũng không có ý định hỏi ý kiến quân sư quèn Uông Dương, anh ta không muốn bộc lộ việc mình quá để tâm đến Lận Duy, tránh gây ra hiểu lầm thêm nữa.
+Tất nhiên Hàn Kỳ cũng chẳng buồn tham khảo ý kiến của tên quân sư quạt mo Uông Dương. Anh không hề muốn để lộ việc mình đang để tâm đến Lận Duy quá mức, tránh làm nảy sinh thêm những hiểu lầm không đáng có.
 
-Mặc dù anh ta tự mình kiên định cho rằng đây chỉ là sự ngưỡng mộ đơn thuần xen lẫn áy náy, có lẽ còn thêm cả sự cảm kích vì để Lận Duy cho đi nhiều mà bản thân lại ít có cơ hội đáp lại.
+Cho dù bản thân anh vẫn khăng khăng tin rằng đây đơn thuần chỉ là sự tán thưởng pha lẫn cắn rứt, họa chăng có thêm chút áy náy vì đã để mặc Lận Duy hi sinh cho mình mà bản thân lại hiếm khi có dịp đền đáp.
 
-Hàn Kỳ cứ thế dằn vặt cho đến khi về khách sạn sớm, mãi cho đến khi Lận Duy cuối cùng cũng đến tìm anh ta theo hẹn.
+Hàn Kỳ cứ thế ôm nỗi giằng xé trong lòng cho tới lúc về khách sạn sớm, mòn mỏi chờ đến khi Lận Duy đúng hẹn tới tìm.
 
-“Lần này tôi không chuẩn bị thuốc mê nữa đâu.”
+“Lần này tôi không chuẩn bị hương mê nữa đâu đấy.”
 
-Lận Duy lại bế Hàn Kỳ lên, đặt cậu trở lại sofa. Hàn Kỳ chưa kịp nghiêm giọng chỉnh đốn thói quen tùy tiện của đối phương, đã nghe Lận Duy nói ra một câu như vậy.
+Hàn Kỳ lại một lần nữa bị Lận Duy bế bổng lên rồi đặt ngồi xuống sofa, còn chưa kịp nghiêm mặt chấn chỉnh cái thói quen càn rỡ này của cậu thì đã nghe đối phương buông ra một câu như thế.
 
-Hàn Kỳ ngây ngẩn chớp mắt vài lần mới phản ứng lại được lời nói kia của đối phương có ý gì.
+Hàn Kỳ ngẩn người chớp mắt mấy cái, mãi mới kịp hiểu ra ngụ ý trong lời cậu.
 
-Quả nhiên, thấy cậu không phản ứng, Lận Duy cười rồi nói thẳng: “Hàn tiên sinh, lần này cậu tự cởi nhé?”
+Quả nhiên thấy anh chưa có phản ứng, Lận Duy liền bật cười nói huỵch toẹt: “Hàn tiên sinh, lần này anh tự cởi nhé?”
 
-Lận Duy không phải muốn lười biếng, chỉ là nếu trong tình trạng Hàn Kỳ hoàn toàn tỉnh táo mà cậu ta còn làm thay việc này, thì cảnh tượng đó ít nhiều cũng quá kỳ lạ.
+Lận Duy chẳng phải muốn lười biếng, chỉ là trong tình trạng Hàn Kỳ hoàn toàn tỉnh táo mà cậu còn làm thay mấy việc này, thì cảnh tượng quả thực có phần gượng gạo quá mức.
 
-“……Ừm.” Hàn Kỳ mặt không biểu cảm, nhàn nhạt đáp lời, trông vô cùng bình tĩnh: “Việc này không vội, cậu cứ ngồi xuống trước đi, tôi có chuyện muốn nói với cậu.”
+“... Ừ.” Hàn Kỳ mặt không cảm xúc khẽ đáp, nom vô cùng điềm tĩnh: “Chuyện đó không vội, cậu ngồi xuống trước đã, tôi có chuyện muốn nói.”
 
-Lận Duy nghe lời ngồi xuống hỏi: “Chuyện gì?”
+Lận Duy ngoan ngoãn ngồi xuống hỏi: “Chuyện gì thế anh?”
 
-“Cậu có điều gì muốn không?” Hàn Kỳ mím môi hỏi, “Tôi biết cậu không thiếu tiền, vậy nên ngoài những thứ nằm trong khả năng của cậu, trong phạm vi năng lực của tôi, cậu có điều gì muốn không?”
+“Cậu có muốn thứ gì không?” Hàn Kỳ mím môi hỏi, “Tôi biết cậu không thiếu tiền. Cho nên ngoài những thứ vượt quá khả năng của cậu, nhưng lại nằm trong tầm tay của tôi, cậu có muốn điều gì không?”
 
-Đây là kết quả Hàn Kỳ đã suy nghĩ cả buổi chiều. Cậu và Lận Duy không thể chỉ có đối phương luôn là người付出 (trả giá/nỗ lực), cậu cũng phải cho Lận Duy biết, cậu đã nhìn thấy tất cả, và sẽ đáp lại, dù không phải là điều Lận Duy mong muốn nhất.
+Đây là kết quả sau cả một buổi chiều trăn trở của Hàn Kỳ. Mối quan hệ giữa anh và Lận Duy không thể cứ để một mình đối phương cho đi mãi được; anh cũng cần phải cho Lận Duy thấy rằng mình ghi nhận tất cả những điều đó và sẵn sàng bù đắp, dẫu cho đó không phải là thứ mà Lận Duy khát khao nhất.
 
-Ít nhất để Lận Duy biết, cậu ta được mình coi trọng, tuyệt đối không phải là một phiền phức có thể tùy tiện vứt bỏ.
+Ít nhất cũng để Lận Duy hiểu rằng cậu luôn được anh coi trọng, tuyệt đối không phải một gánh nặng có thể tùy tiện gạt sang một bên.
 
-Lận Duy không biết những suy nghĩ trăm mối tơ vò trong lòng cậu ta, nghe câu hỏi này, không suy nghĩ nhiều liền nói: “Muốn cậu phối hợp điều trị để cơ thể khỏe mạnh có tính vào phạm vi năng lực của cậu không?”
+Lận Duy nào hay biết trong lòng anh đang trăm mối tơ vò, nghe câu hỏi này cũng chẳng nghĩ ngợi nhiều, buột miệng đáp: “Mong anh phối hợp chữa trị để thân thể khỏe mạnh thì có tính là nằm trong tầm tay của anh không?”
 
-Sớm ngày chữa khỏi chân, đi theo đuổi lại Mạnh Tuyết, hoặc không muốn mất mặt đi theo đuổi thì có thể chờ đợi gặp gỡ duyên phận mới, yêu đương bình thường, tóm lại đừng đi theo con đường cũ của nguyên tác ngược tâm ngược tình, gây ra một đống phiền phức làm tăng độ khó nhiệm vụ của cậu, đó là điều duy nhất cậu muốn.
+Sớm ngày trị dứt điểm đôi chân, rồi đi theo đuổi Mạnh Tuyết về; nếu không bỏ được sĩ diện để đuổi theo thì chờ đợi một mối nhân duyên mới mà yêu đương đàng hoàng. Tóm lại đừng dẫm vào vết xe đổ ngược luyến tơi bời trong nguyên tác, chớ gây thêm hàng đống phiền toái làm tăng độ khó nhiệm vụ của cậu — đó chính là điều duy nhất cậu mong mỏi.
 
-Nói đến Mạnh Tuyết, gần đây vì không còn qua lại quá thân thiết với Hàn Kỳ, cuộc sống ở đoàn làm phim cũng tốt hơn không ít. Lận Duy khi quay cảnh đối diễn với cô, luôn chú ý quan sát, phát hiện bên phía cô đã tự động tránh được nhiều tình tiết bị cố ý nhằm vào, cũng coi như là một sự tình cờ tốt đẹp.
+Nhắc mới nhớ, dạo gần đây nhờ không còn qua lại quá thân cận với Hàn Kỳ mà những ngày tháng ở đoàn phim của Mạnh Tuyết dễ thở hơn hẳn. Lúc đóng cảnh đối diễn với cô, Lận Duy vẫn luôn để mắt quan sát, nhận thấy cô đã tự động né tránh được rất nhiều tình tiết bị người khác cố tình nhắm vào chèn ép, âu cũng coi như trong cái rủi có cái may.
 
-Câu trả lời của Lận Duy lại khiến Hàn Kỳ im lặng một lúc lâu, cuối cùng mở miệng nhẹ giọng phản bác: “Cái này không tính, tôi đã đang phối hợp với cậu rồi, còn nữa, nghĩ một cái khác đi.”
+Câu trả lời này của Lận Duy lại khiến Hàn Kỳ nín lặng hồi lâu, cuối cùng mới khẽ khàng phản bác: “Cái đó không tính. Tôi vốn đã đang phối hợp với cậu rồi, nghĩ cái khác đi.”
 
-“Tôi thật sự không có gì khác muốn cả.” Lận Duy vốn định tùy tiện nói một cái cho xong, nhưng suy nghĩ một vòng cũng không nghĩ ra được yêu cầu nào nằm ngoài khả năng của cậu, mà lại trong phạm vi năng lực của Hàn Kỳ.
+“Tôi thật sự chẳng có mong muốn nào khác cả.” Lận Duy vốn định kiếm bừa một cái cớ cho qua chuyện, nhưng ngẫm đi nghĩ lại cũng chẳng nảy ra được yêu cầu nào vượt ngoài tầm với của cậu mà lại nằm trong năng lực của Hàn Kỳ.
 
-Vì vậy dứt khoát chuyển chủ đề: “Ngược lại là Hàn tiên sinh, chỉ nói miệng là phối hợp thì thật sự không tính, cậu có cho rằng tôi không nhìn ra cậu đang cố tình trì hoãn thời gian không?”
+Thế nên cậu dứt khoát đổi đề tài: “Ngược lại là Hàn tiên sinh đấy, chỉ hứa suông bằng mồm thì mới thật sự không tính đâu nhé. Anh tưởng tôi không nhìn ra anh đang cố ý kéo dài thời gian chắc?”
 
-“……” Hàn Kỳ liếc cậu một cái, không nặng không nhẹ.
+“...” Hàn Kỳ liếc cậu một cái, chẳng nặng chẳng nhẹ.
 
-Lận Duy thấy cậu ta thật sự lúng túng, cũng không tiếp tục làm khó cậu ta cởi quần trước mặt mình, dứt khoát đứng dậy nói: “Tôi đi lấy chậu nước nóng, cậu chuẩn bị trước, được không?”
+Lận Duy thấy anh quả thật lúng túng, cũng không nỡ tiếp tục làm khó bắt anh cởi quần trước mặt mình, bèn dứt khoát đứng dậy: “Tôi đi bưng thau nước nóng lại đây, anh chuẩn bị trước đi nhé?”
 
-“Ừm.” Lần này Hàn Kỳ đáp lời dứt khoát hơn.
+“Ừ.” Lần này Hàn Kỳ đáp gọn lỏn.
 
-Khi bưng nước nóng quay lại, Lận Duy không còn trêu chọc cậu ta nữa, mắt không nhìn sang chỗ khác mà bắt đầu pha thuốc. Ngược lại, Hàn Kỳ sau khi vượt qua sự không thoải mái ban đầu, nhìn bộ dạng Lận Duy chăm chú chườm nóng cho mình, lại cảm thấy có chút không ổn.
+Bưng chậu nước nóng trở lại, Lận Duy không trêu chọc anh thêm nữa mà nhìn thẳng pha chế nước thuốc. Ngược lại, sau khi cơn ngượng ngùng ban đầu lắng xuống, Hàn Kỳ nhìn dáng vẻ tâm lặng như nước chườm nóng cho mình của cậu, lại cảm thấy có chút bứt rứt không yên.
 
-Kẻ có gan lớn đến mức có thể mê hoặc cậu ta, tự ý làm những chuyện này cho cậu ta, vậy mà lúc này lại không dám vượt quá giới hạn tầm mắt dù chỉ một chút, sao lại có người mâu thuẫn như Lận Duy được?
+Cái kẻ to gan lớn mật đến mức dám chuốc mê anh để tự tiện làm mấy chuyện này, đến nước này lại chẳng dám để ánh mắt vượt rào dù chỉ nửa phân. Sao trên đời lại có người mâu thuẫn như Lận Duy cơ chứ?
 
-Nhưng Hàn Kỳ cũng không hoàn toàn không hiểu, Lận Duy làm những chuyện vượt quá giới hạn là vì quan tâm cậu, làm những việc này mà giữ đúng bổn phận là vì tôn trọng cậu, thực ra cũng không khó hiểu lắm.
+Song Hàn Kỳ cũng chẳng phải hoàn toàn không hiểu: Lận Duy làm chuyện vượt khuôn phép là vì quan tâm anh, còn lúc làm việc lại giữ đúng bổn phận là bởi tôn trọng anh. Nghĩ kỹ thì cũng đâu có gì khó hiểu.
 
-Chỉ là kiểu người như vậy thì hiếm có mà thôi.
+Chỉ là một người như vậy quả thật quá đỗi hiếm hoi.
 
-“Tôi vẫn không nghĩ ra, lúc đầu cậu lấy đâu ra can đảm làm loại chuyện này với tôi?” Hàn Kỳ hoàn toàn thả lỏng, nhìn chằm chằm vào khuôn mặt nghiêng nghiêm túc của cậu một lúc, nhịn không được bật cười nhẹ rồi hỏi.
+“Tôi vẫn nghĩ mãi không thông, rốt cuộc ngay từ đầu cậu lấy đâu ra lá gan để làm loại chuyện này với tôi?” Hàn Kỳ hoàn toàn thả lỏng, nhìn chăm chú sườn mặt nghiêm túc của cậu một lúc lâu, không kìm được bật cười khẽ hỏi.
 
-Lận Duy suy nghĩ một chút rồi nói: “Đó cũng không phải là lúc đầu, ở chung lâu rồi mới phát hiện ra tính khí của anh vốn không đáng sợ như lời đồn, tôi luôn cảm thấy cho dù anh có phát hiện ra cũng sẽ không tức giận lắm, giờ xem ra tôi đoán đúng rồi, anh quả thật không tức giận.”
+Lận Duy ngẫm nghĩ rồi đáp: “Cũng chẳng phải ngay từ đầu đâu. Tiếp xúc lâu rồi tôi mới phát hiện tính khí anh kỳ thực không đáng sợ như lời đồn. Tôi cứ nghĩ dù anh có phát giác thì chắc cũng chẳng nổi trận lôi đình đâu. Giờ xem ra tôi cược đúng rồi, anh thật sự không hề giận.”
 
-Hàn Kỳ thầm nghĩ tôi là không tức giận cậu, đổi lại là người khác thử xem, cậu ta đã đi điều tra xem sinh vật dưới biển thích màu túi nào để đựng ‘thức ăn cho cá’ rồi!
+Hàn Kỳ thầm nghĩ: Tôi là không nỡ nổi giận với cậu thôi, chứ thử đổi sang người khác xem, anh đã sớm cho điều tra xem đám sinh vật dưới biển thích bao tải màu gì để gói ghém ‘mồi cho cá’ rồi!
 
-Bất quá……
+Có điều...
 
-“Lời đồn nói tôi tính khí rất đáng sợ?”
+“Lời đồn bảo tính khí tôi rất đáng sợ à?”
 
-Lận Duy liếc nhìn cậu ta một cái, giọng điệu bình tĩnh: “Điểm này tôi cho rằng Hàn tiên sinh trong lòng hiểu rõ mới đúng.”
+Lận Duy tranh thủ liếc anh một cái, giọng điệu bình thản: “Điểm này tôi cứ ngỡ Hàn tiên sinh phải tự hiểu rõ mới phải chứ.”
 
-Suốt ngày cau mày, đẹp trai đến mấy cũng khiến người ta chỉ muốn tránh xa, hơn nữa thủ đoạn trên thương trường cũng lôi đình vạn quân không chút tình cảm, có lời đồn như vậy chẳng phải là điều hiển nhiên sao?
+Suốt ngày sa sầm nét mặt, đẹp trai đến mấy cũng chỉ khiến người ta hận không thể kính nhi viễn chi; thêm vào đó thủ đoạn trên thương trường lại sấm rền chớp giật chẳng chút nể nang tình nghĩa, có những lời đồn như thế chẳng phải là chuyện hiển nhiên hay sao?
 
-Những lời này cậu ta không nói ra, nhưng kỳ lạ thay, Hàn Kỳ đều tiếp nhận hết từ trong ánh mắt của cậu ta.
+Mấy lời này cậu chẳng nói ra, song điều kỳ diệu là Hàn Kỳ lại đọc trọn vẹn tất cả từ trong ánh mắt của cậu.
 
-Hàn Kỳ không tự giác cọ cọ má, cậu ta luôn biết Lận Duy rõ cậu ta là người như thế nào, nhưng đây là lần đầu tiên trực diện nhìn thấy ấn tượng ban đầu của người này đối với mình không được tốt cho lắm qua biểu cảm của Lận Duy.
+Hàn Kỳ bất giác đưa lưỡi chống vào vòm má. Anh vẫn luôn biết Lận Duy hiểu rõ con người mình, nhưng đây là lần đầu tiên trực diện nhìn thấy từ biểu cảm của Lận Duy rằng ấn tượng ban đầu của tên nhóc này về mình kỳ thực chẳng mấy tốt đẹp.
 
-Người lớn tuổi không giữ được thể diện, đưa tay véo má tiểu thiếu gia, buột miệng hỏi: “Vậy cậu còn dám thích tôi?!”
+Bậc tiền bối không giữ nổi mặt mũi, bèn đưa tay nhéo má tiểu thiếu gia, buột miệng hỏi dồn: “Thế mà cậu còn dám thích tôi?!”
