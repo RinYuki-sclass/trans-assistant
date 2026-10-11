@@ -16,8 +16,12 @@ Thumbs.db
 .idea/
 
 # Personal data - do not push
-output/
+output/*
+!output/manhwa_history/
 input/
 logs/
 *.txt
 !requirements.txt
+!output/manhwa_history/**
+output/manhwa_history/**/.cache_slices/
+output/manhwa_history/**/.trans_parts/
