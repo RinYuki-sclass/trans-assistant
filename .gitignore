@@ -11,9 +11,10 @@ __pycache__/
 Thumbs.db
 .DS_Store
 
-# IDE
+# IDE & Scratchpad
 .vscode/
 .idea/
+scratch/
 
 # Personal data - do not push
 output/*
