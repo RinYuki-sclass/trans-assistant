@@ -1,12 +1,18 @@
 # Manhwa Translation Rules
 
 ## 1. Định dạng khối thoại (Default Tag Format)
-- Mặc định sử dụng `[]` (thay vì `[Khung thoại]` hay `[TAG]`):
+- Định dạng chuẩn bắt buộc nhận diện người nói / người dẫn chuyện `[Người nói/narrator]`:
   ```text
-  []
+  [Người nói/narrator]
   KR: <Nội dung tiếng Hàn trên 1 dòng>
   <Nội dung tiếng Việt trên 1 dòng>
   ```
+- **Quy tắc gán nhãn người nói (Visual Speaker Attribution):**
+  - Nhìn hướng đuôi bong bóng thoại và nhân vật đang nói trong tranh để gán tên tương ứng (ví dụ: `[Han Yoojin]`, `[Han Yoohyun]`, `[Sung Hyunjae]`, `[Park Yerim]`, v.v.).
+  - Khung chữ nhật dẫn chuyện, thuyết minh bối cảnh, suy nghĩ độc thoại nền: `[Narrator]` hoặc `[Độc thoại]`.
+  - Hiệu ứng âm thanh quan trọng tới cốt truyện: `[SFX]`.
+  - Nhân vật phụ / quần chúng: `[Dân chúng]`, `[Thợ săn]` hoặc `[Người qua đường]`.
+  - Trường hợp không rõ nguồn phát ngôn: để mặc định `[Bóng thoại]`.
 
 ## 2. Quy tắc Dấu câu (Tối thượng - Punctuation Matching)
 - **Đảm bảo số lượng và vị trí các dấu câu** (`!`, `!!`, `?`, `?!`, `~`, `~!!`, `.`, `…`, `….`, `,`, ngoặc kép `' '`) ở câu dịch tiếng Việt khớp tuyệt đối với câu tiếng Hàn (KR).

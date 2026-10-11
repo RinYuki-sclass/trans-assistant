@@ -1,0 +1,46 @@
+[
+  {
+    "name": "Author",
+    "hanviet_name": "Tác Giả (Ký Chủ)",
+    "original_name": "作者 / 宿主",
+    "gender": "Nam",
+    "role": "Công chính (Chủ công)",
+    "aliases": [
+      "vô lương tác giả",
+      "ký chủ"
+    ],
+    "narration_pronoun": "cậu",
+    "honorifics": "với Phản diện: ta - ngươi / tôi - anh; với Hệ thống: tôi - cậu/hệ thống",
+    "speech_style": "Ban đầu chột dạ bất đắc dĩ, dần dần xót xa mềm lòng và hết mực che chở cho phản diện",
+    "notes": "Tác giả chuyên ngược phản diện bị bắt đi cứu rỗi những đứa con tinh thần của mình"
+  },
+  {
+    "name": "Tragic Villain",
+    "hanviet_name": "Phản Diện Quân",
+    "original_name": "悲情反派 / 反派君",
+    "gender": "Nam",
+    "role": "Thụ chính (Các thế giới)",
+    "aliases": [
+      "mỹ cường thảm phản diện",
+      "đại phản diện"
+    ],
+    "narration_pronoun": "hắn / y",
+    "honorifics": "với Tác giả: ta - ngươi / anh/tôi - em/cậu",
+    "speech_style": "U uất, cố chấp, phòng thủ cao, nhưng cực kỳ mềm lòng và si mê trước sự dịu dàng của tác giả",
+    "notes": "Phản diện mỹ cường thảm ở các thế giới: hủy dung, gãy chân, bị thế gian ruồng bỏ"
+  },
+  {
+    "name": "Rescue System",
+    "hanviet_name": "Hệ Thống Cứu Rỗi",
+    "original_name": "拯救系统",
+    "gender": "Hệ thống",
+    "role": "Hệ thống hỗ trợ",
+    "aliases": [
+      "hệ thống"
+    ],
+    "narration_pronoun": "nó",
+    "honorifics": "bản hệ thống / ta - tác giả đại đại / ký chủ",
+    "speech_style": "Công thức, nghiêm túc, thích bóc mẽ tác giả",
+    "notes": "Đại diện cho oán niệm của độc giả trói buộc tác giả vô lương"
+  }
+]

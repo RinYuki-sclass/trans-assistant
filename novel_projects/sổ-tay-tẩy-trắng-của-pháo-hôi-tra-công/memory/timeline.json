@@ -1,0 +1,17 @@
+[
+  {
+    "stage": "Nhiệm vụ ban đầu hoàn thành",
+    "description": "Sở Diễm đóng tròn vai tra công và rời đi",
+    "status": "Hoàn thành"
+  },
+  {
+    "stage": "Thế giới sụp đổ",
+    "description": "Các thụ hắc hóa cự tuyệt kịch bản gốc",
+    "status": "Bắt đầu"
+  },
+  {
+    "stage": "Quay lại tẩy trắng & HE",
+    "description": "Sở Diễm trở lại chữa lành và tạo kết cục hạnh phúc",
+    "status": "Tiến hành"
+  }
+]

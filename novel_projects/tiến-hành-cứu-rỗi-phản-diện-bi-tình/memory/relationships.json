@@ -1,0 +1,15 @@
+[
+  {
+    "pair": [
+      "Author",
+      "Tragic Villain"
+    ],
+    "context": "Các thế giới cứu rỗi",
+    "relation_type": "Tác giả chuộc tội (Công) x Phản diện mỹ cường thảm (Thụ)",
+    "narration_pronouns": {
+      "Author": "cậu",
+      "Tragic Villain": "hắn / y"
+    },
+    "status": "Chữa lành, sủng ái, hỗ sủng điềm văn"
+  }
+]

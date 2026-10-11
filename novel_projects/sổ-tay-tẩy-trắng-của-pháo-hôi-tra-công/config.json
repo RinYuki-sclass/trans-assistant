@@ -1,0 +1,17 @@
+{
+  "title": "Sổ Tay Tẩy Trắng Của Pháo Hôi Tra Công [Khoái Xuyên]",
+  "author": "期期小风 (Kỳ Kỳ Tiểu Phong / Diệp Tử Khinh)",
+  "description": "Sở Diễm đã hoàn thành cực kỳ xuất sắc vai diễn pháo hôi tra công trong các bộ tiểu thuyết ngược luyến cẩu huyết: Ngoại tình, lừa tiền lừa sắc, nuôi bồ nhí bên ngoài, đối xử tệ bạc với thụ...\n\nThế nhưng khi anh mãn nguyện hoàn thành nhiệm vụ và rời đi, những thụ đáng lẽ phải vẫy tay tạm biệt anh để đi tìm chân ái công chính lại đồng loạt hắc hóa...\nThụ: Ta không cần công nguyên tác nữa! Ta đình công!\nHệ thống: Anh Sở ơi, xin anh hãy quay lại ngược họ một lần nữa đi, nhưng lần này liệu có thể cho một cái kết viên mãn HE được không...",
+  "slug": "sổ-tay-tẩy-trắng-của-pháo-hôi-tra-công",
+  "source_lang": "Chinese",
+  "target_lang": "Vietnamese",
+  "raw_links": {
+    "novelupdates": "https://www.novelupdates.com/series/cannon-fodder-scum-gongs-whitewashing-manual/",
+    "jjwxc": "https://www.jjwxc.net/onebook.php?novelid=4270141"
+  },
+  "style_guide": "Truyện đam mỹ khoái xuyên, chủ công, tra công hoàn lương tẩy trắng, tu la tràng, hắc hóa thụ truy công. Sở Diễm (công) x Hắc hóa thâm tình thụ. Lời thoại “...”, bảo toàn 1:1, \\n\\n.",
+  "confidence_threshold": 0.8,
+  "chunk_size": 20,
+  "created_at": "2026-10-11T20:40:00+07:00",
+  "chapters_count": 88
+}

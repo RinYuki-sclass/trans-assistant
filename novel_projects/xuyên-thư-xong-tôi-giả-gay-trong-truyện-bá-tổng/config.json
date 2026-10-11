@@ -1,0 +1,19 @@
+{
+  "title": "Xuyên Thư Xong Tôi Giả Gay Trong Truyện Bá Tổng [Khoái Xuyên]",
+  "chinese_title": "装弯后霸总自我攻略了[快穿] / 在霸总文学里装弯[快穿]",
+  "author": "半斤墨水 (Bán Cân Mặc Thủy)",
+  "description": "Lận Duy nhận nhiệm vụ du hành vào các thế giới tiểu thuyết tổng tài cẩu huyết tam quan bất chính thời xưa để uốn nắn cốt truyện, ngăn cản các nam chính vì tình yêu mà làm chuyện điên cuồng vi phạm pháp luật. Kết quả vì hệ thống trục trặc tới trễ, hắn vừa mở mắt đã thành tình địch của nam chính. Để bảo toàn tính mạng làm nhiệm vụ, Lận Duy đành nói dối mình thích đàn ông. Nào ngờ nam chính bá tổng nghe xong lại tự động rơi vào bẫy tự công lược, quay ngược lại theo đuổi hắn.",
+  "slug": "xuyên-thư-xong-tôi-giả-gay-trong-truyện-bá-tổng",
+  "source_lang": "Chinese",
+  "target_lang": "Vietnamese",
+  "raw_links": {
+    "jjwxc": "https://www.jjwxc.net/onebook.php?novelid=5618458",
+    "52shuku": "https://www.52shuku.net/chongsheng/07_b/bjVPq.html",
+    "dmxs": "https://www.dmxs.org/cycs/18490.html"
+  },
+  "style_guide": "Truyện đam mỹ chủ công, khoái xuyên, ngọt sủng hài hước, cường cường. Công phúc hắc ôn nhu bạch thiết hắc x Thụ bá đạo ngạo kiều tự não bổ tự công lược. Lời thoại bảo toàn ngoặc kép tiếng Việt “...”, bảo toàn 1:1, phân đoạn \\n\\n.",
+  "confidence_threshold": 0.8,
+  "chunk_size": 20,
+  "created_at": "2026-10-11T22:04:01.770369+07:00",
+  "chapters_count": 116
+}

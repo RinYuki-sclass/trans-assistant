@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Jun Ye",
+    "hanviet_name": "Quân Dạ",
+    "original_name": "君夜",
+    "gender": "Nam",
+    "role": "Công chính (Chủ công)",
+    "aliases": [
+      "Quân gia",
+      "đại lão"
+    ],
+    "narration_pronoun": "hắn / anh",
+    "honorifics": "với Đối phương: ta - ngươi / tôi - anh; với Hệ thống: ta/tôi - ngươi",
+    "speech_style": "Bá đạo, ngạo nghễ, lãnh khốc, tuyệt đối không chấp nhận ở thế hạ phong",
+    "notes": "Nhân vật chính cường đại, phản công mọi thiết lập nhược thụ"
+  },
+  {
+    "name": "Original Top Target",
+    "hanviet_name": "Mục Tiêu Phản Công",
+    "original_name": "原攻目标",
+    "gender": "Nam",
+    "role": "Thụ chính (Bị phản công)",
+    "aliases": [
+      "đối tượng công lược",
+      "cường thụ"
+    ],
+    "narration_pronoun": "hắn / y",
+    "honorifics": "với Quân Dạ: ta - ngươi / tôi - anh",
+    "speech_style": "Ban đầu kiêu ngạo tự phụ, về sau cam tâm tình nguyện thần phục",
+    "notes": "Công nguyên tác hoặc nhân vật cường thế bị Quân Dạ áp chế"
+  }
+]

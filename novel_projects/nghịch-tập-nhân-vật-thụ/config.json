@@ -1,0 +1,16 @@
+{
+  "title": "Nghịch Tập Nhân Vật Thụ! [Khoái Xuyên]",
+  "author": "七果茶 (Thất Quả Trà / Vị Tri)",
+  "description": "Quân Dạ xuyên qua các thế giới vì những lý do bí ẩn và luôn bị hệ thống nhét vào các vai trò phục tùng (nhân vật thụ / nhược thụ / Omega / Dẫn đường cam chịu). Thật không may cho hệ thống và các công nguyên tác, đó chưa bao giờ là phong cách của Quân Dạ. Cuộc phản công nghịch tập chính thức bắt đầu!\n\nTừ một kẻ bị coi là chim hoàng yến yếu đuối, Quân Dạ đứng lên lật ngược ván cờ, phản khách vi chủ, đè bẹp các đối tượng ngạo mạn dưới thân, biến mọi thiết lập thụ thành màn trình diễn tuyệt đỉnh của một vị tổng công bá đạo cường thế.",
+  "slug": "nghịch-tập-nhân-vật-thụ",
+  "source_lang": "Chinese",
+  "target_lang": "Vietnamese",
+  "raw_links": {
+    "novelupdates": "https://www.novelupdates.com/series/counterattacking-the-submissive-role/"
+  },
+  "style_guide": "Truyện đam mỹ chủ công, cường cường, phản công nghịch tập, tinh tế / ABO / tu chân / cổ đại, vả mặt sảng văn. Quân Dạ (tổng công) x Cường thụ / Nhân vật công nguyên tác bị phản công. Lời thoại “...”, bảo toàn 1:1, \\n\\n.",
+  "confidence_threshold": 0.8,
+  "chunk_size": 20,
+  "created_at": "2026-10-11T20:40:00+07:00",
+  "chapters_count": 104
+}

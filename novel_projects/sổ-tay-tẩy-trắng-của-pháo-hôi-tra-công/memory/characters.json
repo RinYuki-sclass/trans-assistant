@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Chu Yan",
+    "hanviet_name": "Sở Diễm",
+    "original_name": "楚延",
+    "gender": "Nam",
+    "role": "Công chính (Chủ công)",
+    "aliases": [
+      "Sở ca",
+      "tra công pháo hôi"
+    ],
+    "narration_pronoun": "anh / cậu",
+    "honorifics": "với Thụ: tôi/anh - cậu/em; với Hệ thống: tôi - cậu",
+    "speech_style": "Lý trí, tiêu sái, bất đắc dĩ trước sự cố chấp của các thụ",
+    "notes": "Chuyên nghiệp đóng vai tra công để đẩy thụ đến với công chính"
+  },
+  {
+    "name": "Blackened Shou",
+    "hanviet_name": "Thụ Hắc Hóa",
+    "original_name": "黑化受",
+    "gender": "Nam",
+    "role": "Thụ chính (Các thế giới)",
+    "aliases": [
+      "nguyên thụ",
+      "tiểu thụ"
+    ],
+    "narration_pronoun": "hắn / y",
+    "honorifics": "với Sở Diễm: tôi/em - anh/Sở ca",
+    "speech_style": "Si tình, hắc hóa, điên cuồng níu kéo Sở Diễm, vứt bỏ công nguyên tác",
+    "notes": "Các thụ nhận ra chân tình và bất chấp tất cả để giữ Sở Diễm"
+  }
+]

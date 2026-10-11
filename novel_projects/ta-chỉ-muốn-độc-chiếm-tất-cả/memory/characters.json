@@ -1,0 +1,35 @@
+[
+  {
+    "name": "Wei Yunbai",
+    "hanviet_name": "Vệ Vân Bạch (Ngụy Vân Bạch)",
+    "original_name": "卫云白",
+    "gender": "Nam",
+    "role": "Công chính (Chủ công)",
+    "aliases": [
+      "Tiểu Bạch",
+      "mỹ nhân bệnh kiều"
+    ],
+    "narration_pronoun": "cậu",
+    "honorifics": "với Đại lão: ta - ngươi / tôi/em - anh; với Hệ thống: tôi - cậu",
+    "speech_style": "Bề ngoài ngoan ngoãn mềm yếu, nụ cười thanh thuần nhưng tâm cơ thâm trầm sâu độc",
+    "notes": "Nhan sắc nghịch thiên, diễn xuất đỉnh cao, thao túng tâm lý các nhân vật mạnh nhất"
+  },
+  {
+    "name": "Child of Destiny",
+    "hanviet_name": "Khí Vận Chi Tử (Đại Lão Thụ)",
+    "original_name": "气运之子",
+    "gender": "Nam",
+    "role": "Thụ chính (Các thế giới)",
+    "aliases": [
+      "đại lão",
+      "vương thảo nguyên",
+      "trùm hắc bang",
+      "tử thần",
+      "hoàng đế"
+    ],
+    "narration_pronoun": "hắn / y",
+    "honorifics": "với Vệ Vân Bạch: ta/anh - em/Tiểu Bạch",
+    "speech_style": "Cường thế, độc chiếm, si mê điên cuồng nhan sắc và tính cách của Vệ Vân Bạch",
+    "notes": "Những nhân vật đứng đầu các thế giới, cuối cùng đều quỳ gối dưới chân công"
+  }
+]
