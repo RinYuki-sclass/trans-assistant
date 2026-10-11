@@ -1,7 +1,52 @@
-{
-  "装弯": "giả gay / giả cong",
-  "自我攻略": "tự công lược",
-  "白切黑": "vỏ trắng ruột đen / bạch thiết hắc",
-  "天凉王破": "trời lạnh vương thị phá sản",
-  "快穿": "khoái xuyên / xuyên nhanh"
-}
+[
+  {
+    "original": "装弯",
+    "translation": "giả gay / giả cong",
+    "hanviet": "Trang loan",
+    "category": "Thuật ngữ",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_001",
+    "notes": "Giả vờ đồng tính"
+  },
+  {
+    "original": "自我攻略",
+    "translation": "tự công lược",
+    "hanviet": "Tự ngã công lược",
+    "category": "Thuật ngữ",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_001",
+    "notes": "Tự biên tự diễn, tự đổ"
+  },
+  {
+    "original": "白切黑",
+    "translation": "vỏ trắng ruột đen / bạch thiết hắc",
+    "hanviet": "Bạch thiết hắc",
+    "category": "Thuật ngữ",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_001",
+    "notes": "Vẻ ngoài ngây thơ vô hại nhưng tâm địa thâm sâu đen tối"
+  },
+  {
+    "original": "天凉王破",
+    "translation": "trời lạnh vương thị phá sản",
+    "hanviet": "Thiên lương Vương phá",
+    "category": "Thuật ngữ",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_001",
+    "notes": "Meme bá tổng: trời lạnh rồi, cho Vương thị phá sản đi"
+  },
+  {
+    "original": "快穿",
+    "translation": "khoái xuyên / xuyên nhanh",
+    "hanviet": "Khoái xuyên",
+    "category": "Thuật ngữ",
+    "confidence": 1.0,
+    "approved": true,
+    "chapter_first_seen": "ch_001",
+    "notes": "Thể loại xuyên qua nhiều thế giới"
+  }
+]

@@ -1,8 +1,10 @@
 {
   "chapter_id": "ch_038",
   "title": "第38章",
-  "imported_at": "2026-10-11T22:04:01.770369+07:00",
-  "status": "SOURCE_READY",
+  "status": "QC_PASSED",
+  "qc_status": "QC_PASSED",
   "n_paragraphs": 66,
+  "qc_score": 10,
+  "qc_passed_date": "2026-10-11",
   "source_url": "https://www.52shuku.net/chongsheng/07_b/bjVPq.html"
 }

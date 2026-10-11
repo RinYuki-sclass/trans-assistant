@@ -1,68 +1,65 @@
 📄 ẢNH: 1.PNG
 
-[SFX]
-KR: 웅하성
-Xì xào
-
 [Han Yoohyun]
 KR: 괜찮을까, 형….
-Liệu có ổn không đây, Hyung….
+Liệu có ổn không, Hyung….
 
-[Han Yoojin]
+[Evelyn]
 KR: 미리 이동하죠. 비상 버튼이 눌릴 때를 대비해야 하니.
-Hãy di chuyển trước đi. Chúng ta cần chuẩn bị cho lúc nút khẩn cấp được nhấn.
+Hãy di chuyển trước đi. Chúng ta cần chuẩn bị cho thời điểm công tắc khẩn cấp được nhấn.
 
-[Dân chúng]
+[npc]
 KR: 정말로 들여보내도 되는 겁니까?
 Thật sự có thể cho vào sao?
 
-[Dân chúng]
+[npc]
 KR: 던전 공략 직후 게이트실 진입이 얼마나 위험한데요!
-Nguy hiểm biết bao khi vào phòng cổng ngay sau khi công lược hầm ngục!
+Vào phòng chứa cổng ngay sau khi công lược hầm ngục là điều cực kỳ nguy hiểm!
 
-[Narrator]
+[npc]
 KR: 연이은 전투로 흥분한 헌터가 공격하는 경우가 있으니까.
-Vì có trường hợp thợ săn bị kích động bởi các trận chiến liên tiếp mà tấn công.
+Có trường hợp thợ săn vì bị kích động bởi các trận chiến liên tiếp mà tấn công người khác.
 
-[Narrator]
+[npc]
 KR: 초기에는 기자들이 멋대로 진입했다가 피도 많이 보고,
-Thời kỳ đầu, các phóng viên tự ý xông vào và đã đổ rất nhiều máu,
+Ở thời kỳ đầu, các phóng viên tự ý xông vào đã phải đổ rất nhiều máu,
 
-[Han Yoojin]
+[npc]
 KR: 그래서 지금은 무조건 게이트실에서 1~2시간 대기하는 게 원칙이 됐잖아요.
-Vậy nên bây giờ, việc chờ đợi 1~2 tiếng trong phòng cổng là nguyên tắc bắt buộc rồi mà.
+Vậy nên bây giờ, việc chờ đợi 1~2 tiếng trong phòng chứa cổng là nguyên tắc bắt buộc rồi.
 
-[Han Yoojin]
+[npc]
 KR: 물론 에블린 헌터께선 길드장님을 믿고 들여보냈겠지만….
-Tất nhiên, Hunter Evelyn đã tin tưởng ngài Hội trưởng và cho phép vào rồi nhưng mà….
+Tất nhiên, thợ săn Evelyn đã tin tưởng ngài Hội trưởng và cho phép ra vào nhưng….
 
-[Sung Hyunjae]
+[Evelyn]
 KR: 아닌데요. 재미있어 보여서 들여보낸 건데.
-Không phải đâu. Tôi cho vào vì thấy thú vị thôi mà.
+Không phải đâu. Tôi cho vào vì thấy thú vị thôi.
 
-[Han Yoojin]
+[npc]
 KR: 예?!
 Hả?!
 
-[Sung Hyunjae]
+[Evelyn]
 KR: 다만 의아하긴 하네요. 캔디박스가 저렇게 막무가내인 건.
-Chỉ là tôi thấy hơi thắc mắc. Việc Candy Box lại ngang ngược như thế.
+Chỉ là tôi thấy hơi thắc mắc. Tại sao Hũ Kẹo lại cố chấp như thế.
 
-[Sung Hyunjae]
+[Evelyn]
 KR: F급이라 그런 위험에 대해 무지한 것인지, 아니면
-Là do hạng F nên không biết gì về sự nguy hiểm đó, hay là
+Vì là cấp F nên không biết gì về sự nguy hiểm đó, hay là
 
-[Sung Hyunjae]
+[Evelyn]
 KR: 그런 위험을 감수할 정도로 절박한 이유가 있는 것인지….
-Hay là có một lý do tuyệt vọng đến mức phải chấp nhận rủi ro như vậy….
+Có một lý do tuyệt vọng đến mức phải chấp nhận rủi ro như vậy….
 
 [Han Yoojin]
 KR: ...왜 혼자입니까.
-...Sao lại một mình vậy ạ.
+...Sao anh lại ở một mình vậy?
 
 [Han Yoojin]
 KR: 다른 사람들은 어떻게 됐어요?
-Những người khác đã thế nào rồi ạ?
+Chuyện gì đã xảy ra với những người khác?
+
 
 📄 ẢNH: 2.PNG
 
@@ -76,51 +73,23 @@ Không, cho dù không phải vậy,
 
 [Han Yoojin - Độc thoại]
 KR: 파티원들을 두고 먼저 나올 만한 이유가 있었다는 것.
-Việc có một lý do nào đó để anh ta bỏ lại các thành viên tổ đội và ra ngoài trước.
+Nếu có lý do nào đó để anh ta bỏ lại các thành viên tổ đội và ra ngoài trước...
 
 [Han Yoojin]
 KR: 던전에서 무슨 일이…!
 Chuyện gì đã xảy ra trong hầm ngục vậy…!
 
-[Han Yoojin]
+[Hyunjae]
 KR: …왜 혼자 여기까지 들어왔을까.
-…Tại sao lại vào tận đây một mình nhỉ.
-
-[SFX]
-KR: 촤라락
-XOÀNG XOẠC
-
-[Han Yoojin]
-KR: !!
-!!
-
-[SFX]
-KR: 꽉
-SIẾT
-
-[SFX]
-KR: 촤악
-Xoạt
+…Tại sao lại vào đây một mình?
 
 [Sung Hyunjae]
 KR: 무슨 일인지 짐작하고 들어온 게 아닌가?
 Chẳng phải cậu đã đoán được chuyện gì rồi mới bước vào sao?
 
-[SFX]
-KR: 탁
-Cộp
-
-[SFX]
-KR: 탁 탁
-Cộp cộp
-
 [Sung Hyunjae]
 KR: 고작 이런 걸 대책으로 삼고 무작정 뛰어든 거라면
-Nếu cậu liều lĩnh xông vào mà chỉ lấy thứ này làm đối sách thì
-
-[SFX]
-KR: 끼이잉
-Kéttttt
+Nếu cậu liều lĩnh xông vào mà chỉ dùng thứ này làm đối sách thì
 
 [Sung Hyunjae]
 KR: 조금 실망스러워질지도 모르겠는데.
@@ -128,11 +97,12 @@ Có lẽ tôi sẽ hơi thất vọng đấy.
 
 [Han Yoojin]
 KR: 실망할 것까지야. 동업자 씨 상대니까 들어온 거지.
-Không đến mức phải thất vọng đâu. Tôi vào đây vì đối thủ là Đồng nghiệp-ssi mà.
+Không đến mức phải thất vọng đâu. Tôi vào đây vì đối thủ là anh đối tác cơ mà.
 
 [Sung Hyunjae]
 KR: 호오, 그럼 동업자를 위해 순수하게 마중이라도 나오신 건가?
-Ồ ồ, vậy là cậu đến đây thuần túy để đón Đồng nghiệp sao?
+Ồ, vậy cậu đến đây chỉ để đón đối tác thôi sao?
+
 
 📄 ẢNH: 3.PNG
 
@@ -142,7 +112,7 @@ KR: 내 파트너는 상냥하기도 하지.
 
 [Sung Hyunjae]
 KR: 이렇게 무사히 돌아왔으니 기꺼이 품에 안겨 주겠지.
-Đã trở về an toàn như vậy, chắc chắn sẽ vui vẻ sà vào lòng tôi thôi.
+Tôi đã trở về an toàn thế này rồi, hãy vui vẻ mà sà vào lòng tôi-
 
 [Han Yoojin]
 KR: 제 동생이 던전에서 이상한 시선을 느꼈습니다.
@@ -150,7 +120,7 @@ Em trai tôi đã cảm thấy những ánh mắt kỳ lạ trong hầm ngục.
 
 [Han Yoojin]
 KR: 그래서 예정보다 더 빠르게 공략을 끝냈고요.
-Vì vậy, tôi đã hoàn thành việc công lược nhanh hơn dự kiến.
+Vì vậy, em ấy đã hoàn thành việc công lược nhanh hơn dự kiến.
 
 [Han Yoojin]
 KR: 성현제 씨도 비슷한 일을 겪은 거 아닙니까?
@@ -158,15 +128,11 @@ Sung Hyunjae-ssi cũng đã trải qua chuyện tương tự phải không?
 
 [Sung Hyunjae]
 KR: …이유 없이 들어온 건 아닌 모양이군.
-…Có vẻ như cậu ta không vào đây mà không có lý do gì.
-
-[SFX]
-KR: 스륵
-Xoẹt
+…Có vẻ như cậu không vào đây mà không có lý do.
 
 [Sung Hyunjae]
 KR: 우선 내 길드원들은 무사하다네.
-Trước hết, các thành viên guild của tôi đều an toàn.
+Trước hết, các hội viên của tôi đều an toàn.
 
 [Sung Hyunjae]
 KR: 그들에게 뒷정리를 맡기고 보스만 해치운 뒤 먼저 나왔지.
@@ -176,29 +142,29 @@ Tôi giao việc dọn dẹp lại cho họ, sau khi hạ gục boss thì tôi r
 KR: 나 또한 그 시선을 느꼈으니까.
 Tôi cũng đã cảm nhận được ánh mắt đó.
 
-[Narrator]
 KR: 던전 바깥에서 안으로 파고드는 시선이었어.
 Đó là một ánh mắt xuyên thấu từ bên ngoài hầm ngục vào bên trong.
 
 [Sung Hyunjae - Độc thoại]
 KR: 해파리와도, 배구공과도 다른 느낌의 누군가가.
-Ai đó với cảm giác khác biệt, không giống sứa, cũng không giống quả bóng chuyền.
+Với cảm giác khác biệt, không giống Sứa, cũng không giống Bóng chuyền.
 
-[Sung Hyunjae - Độc thoại]
-KR: 시선이 느껴지는 지점을 공격해 없애 버리는 데는
-Để tấn công và loại bỏ điểm mà ánh mắt đang cảm nhận được
+[Sung Hyunjae]
+KR: 시선이 느껴지는 지점을 공격해 없애 버리는 데는 성공했네만
+Tôi đã tấn công và loại bỏ vị trí xuất hiện ánh mắt đó...
 
 [Han Yoojin]
 KR: 그게 되는 거냐…
-Chuyện đó có được sao…
+Làm vậy cũng được hả…
 
 [Sung Hyunjae]
 KR: 그 직후 던전의 구조가 변하고
-Ngay sau đó, cấu trúc của hầm ngục đã thay đổi và
+Nhưng Ngay sau đó, cấu trúc của hầm ngục đã thay đổi
 
 [Sung Hyunjae]
 KR: 원래 없던 몬스터가 나타났다네.
-Một con quái vật vốn dĩ không tồn tại đã xuất hiện.
+Và Một con quái vật vốn dĩ không tồn tại đã xuất hiện.
+
 
 📄 ẢNH: 4.PNG
 
@@ -208,43 +174,27 @@ Một con quái vật vốn không tồn tại…
 
 [Sung Hyunjae]
 KR: 그래. 처음 보는 몬스터였지.
-Đúng vậy. Đó là một con quái vật tôi chưa từng thấy.
+Đúng vậy. Đó là một con quái vật mà tôi chưa nhìn thấy bao giờ.
 
 [Sung Hyunjae]
 KR: 다행히 별로 강한 몬스터는 아니었네만
-May mắn là nó không phải một con quái vật mạnh lắm nhưng
-
-[SFX]
-KR: 득득
-[SFX] CẠCH CẠCH
+May mắn là nó không mạnh lắm nhưng...
 
 [Narrator]
 KR: 시선으로만 끝난 게 아니라
-Không chỉ dừng lại ở ánh nhìn mà còn
-
-[SFX]
-KR: 쿵
-CỤC
+Không chỉ dừng lại ở ánh nhìn...
 
 [Narrator]
 KR: 없던 몬스터가 갑자기 던전에 나타났다고….
-Một con quái vật không hề tồn tại bỗng nhiên xuất hiện trong hầm ngục….
+Còn có Một con quái vật không hề tồn tại bỗng nhiên xuất hiện trong hầm ngục….
 
 [Narrator]
 KR: 갑자기 몬스터가….
-Bỗng nhiên quái vật….
-
-[SFX]
-KR: 콰앙
-KWAANG
+Quái vật xuất hiện đột ngột….
 
 [Han Yoojin - Độc thoại]
 KR: 신경이 쓰여서 길드원들에게 뒷정리를 맡기고 먼저 나왔...
-Vì lo lắng nên tôi đã giao lại việc dọn dẹp cho các thành viên hội và ra ngoài trước...
-
-[SFX]
-KR: 촤악
-CHWA-AK
+Vì lo lắng nên tôi đã giao lại việc dọn dẹp cho các hội viên và ra ngoài trước...
 
 [Han Yoojin]
 KR: 당장 같이 가 주세요!
@@ -256,37 +206,40 @@ Tôi không biết con bé đã xảy ra chuyện gì trong hầm ngục.
 
 [Han Yoojin]
 KR: 최대한 빨리 배구공을 만나러 가야 합니다!
-Tôi phải đi gặp Quả Bóng Chuyền càng sớm càng tốt!
+Tôi phải đi gặp Bóng Chuyền càng sớm càng tốt!
 
 [Sung Hyunjae]
-KR: 도련님은 이미 던전에서 나왔다고 했으니 이번에는 꼬마 아가씨로군.
-Cậu nói thiếu gia đã ra khỏi hầm ngục rồi, nên lần này là tiểu thư nhỏ à.
+KR: 도련님은 이미 던전에서 나왔다고 했으니
+이번에는 꼬마 아가씨로군.
+Cậu nói thiếu gia đã ra khỏi hầm ngục rồi,
+vậy lần này là tiểu thư à?
 
 [Sung Hyunjae]
 KR: 동행하는 거야 문제 없네만, 내 파트너께는 별일 없었는지.
-Việc đi cùng thì không có vấn đề gì, nhưng không biết đối tác của tôi có chuyện gì không.
+Đi cùng thì không có vấn đề gì, nhưng không biết đối tác của tôi có khúc mắc gì không?
 
 [Han Yoojin]
 KR: 보시다시피 멀쩡합니다. 어서 나가죠!
 Như anh thấy đấy, tôi vẫn ổn. Mau ra ngoài thôi!
 
+
 📄 ẢNH: 5.PNG
 
 [Sung Hyunjae]
 KR: 멀쩡하다니, 스스로는 알아채지 못하는 건가.
-Cậu nói là mình ổn, nhưng không tự nhận ra được sao.
+Cậu nói là mình ổn, nhưng không tự nhận ra được sao?
 
 [Han Yoojin]
 KR: ? 무슨 소리입니까?
-? Anh đang nói gì vậy?
+? Anh đang nói gì vậy ạ?
 
 [Sung Hyunjae]
 KR: 글쎄.
-Chà.
+Để xem.
 
 [Han Yoojin]
 KR: 비상 버튼은 왜…
-Nút khẩn cấp sao…
+Công tắc khẩn cấp sao…
 
 [Han Yoojin]
 KR: 어? 아니,
@@ -298,141 +251,92 @@ Khoan đã
 
 [Sung Hyunjae]
 KR: 궁금해서.
-Vì tôi tò mò.
+Tò mò quá.
 
-[SFX]
-KR: 끄윽
-Ức
-
-[SFX]
-KR: 크윽
-Khụck
-
-[Sung Hyunjae]
+[Evelyn]
 KR: 비상 버튼을 눌렀군요.
-Cậu đã nhấn nút khẩn cấp rồi.
+Cậu ta đã nhấn nút khẩn cấp rồi.
 
-[Sung Hyunjae]
+[Evelyn]
 KR: 즉시 조치 들어가도록 하죠.
-Hãy hành động ngay lập tức.
+Hành động ngay lập tức thôi.
 
-[SFX]
-KR: 키이이이잉
-Kiiiiing
-
-[SFX]
-KR: 카아앙
-KAAAAANG
-
-[Thợ săn]
+[npc]
 KR: 이, 이래도 되는 겁니까?!
 Thế, thế này cũng được sao?!
 
 [Evelyn]
-KR: 당연히 되죠.
-오히려 이 날을 기다렸답니다.
+KR: 당연히 되죠. 오히려 이 날을 기다렸답니다.
+Đương nhiên là được. Trái lại, tôi đã mong chờ ngày này từ lâu rồi.
 
-[Bóng thoại]
-KR: 상사가
-있는 곳을
+[Evelyn]
+KR: 상사가 있는 곳을
+Nơi sếp đang đứng
 
 [Han Yoojin - Độc thoại]
 KR: 건물째 날려 버릴 기회니까!
 Đây là cơ hội để thổi bay cả tòa nhà!
 
-[SFX]
-KR: 타아악
-Taaak
-
-[SFX]
-KR: 쑤
-Xoẹt
-
-[SFX]
-KR: 우
-Uỳnh
-
-[SFX]
-KR: 콰앙
-RẦM
-
-[SFX]
-KR: 챙
-KENG
 
 📄 ẢNH: 6.PNG
 
-[SFX]
-KR: 콰앙
-KHOANG
-
-[SFX]
-KR: 크크크
-Khặc khặc khặc
-
 [Evelyn]
 KR: 약속대로 건물만 깔끔하게 날려 드렸는데,
-Theo đúng lời hứa, tôi đã thổi bay tòa nhà một cách gọn gàng rồi,
+Như đã hứa, tôi đã dọn dẹp tòa nhà một cách sạch sẽ rồi,
 
 [Evelyn]
 KR: 아쉬워라. 역시 부상 하나 없네요.
-Tiếc thật. Quả nhiên không có vết thương nào cả.
+Tiếc thật. Quả nhiên không bị gì hết.
 
-[Sung Hyunjae]
+[Evelyn]
 KR: 즐거워 보여서 더 짜증나네…
-Trông cô vui vẻ nên tôi càng thấy khó chịu hơn…
+Trông anh ta vui vẻ nên tôi càng thấy khó chịu hơn…
 
 [Han Yoojin]
 KR: 아악! 무슨 짓이야!!
-Aaa! Anh đang làm cái quái gì vậy!!
+Aaa! Anh đang làm cái quái gì vậy?!!
 
 [Han Yoojin]
 KR: 댁이 5살짜리 어린앱니까?! 호기심 드는 건 죄다 만져 보게?!
-Anh là trẻ con 5 tuổi à?! Cái gì tò mò cũng sờ mó hết sao?!
-
-[SFX]
-KR: 으하앙
-Ư haang
+Anh là trẻ con 5 tuổi à?! Thấy cái gì lạ là chạm vào hả?!
 
 [Dân chúng]
 KR: 뭐야?! 건물 폭발?
-Cái gì?! Tòa nhà nổ à?
-
-[SFX]
-KR: 으아앙
-Ưaaang
+Gì vậy?! Tòa nhà phát nổ à?
 
 [Dân chúng]
 KR: 세성 길드 던전 건물 아니야?
-Không phải là tòa nhà dungeon của Hội Sesung sao?
+Không phải là tòa nhà chứa ngục tối của Hội Sesung sao?
 
 [Han Yoojin - Độc thoại]
 KR: 마수 아빠는 왜 저깄어?
-Bố quái thú sao lại ở đó?
+Monster daddy sao lại ở đó?
 
 [Han Yoojin]
 KR: 웃지 마, 망할 양반아아아
-Đừng có cười, cái tên khốn kiếp đóoo
+Đừng có cười, tên khốn kiếếếếp
 
 [Narrator]
 KR: 길드장 들어간 건물에 '쿵' 세성 길드 내부 불화 터졌나
-'Rầm' trong tòa nhà Hội trưởng đã vào, liệu có phải mâu thuẫn nội bộ Hội Sesung đã bùng nổ
+Nổ cái 'đùng' trong tòa nhà mà Hội trưởng đã vào, Sesung xảy ra lục đục nội bộ?
 
 [Narrator]
 KR: S급 던전 건물에 '마수 아빠'가 들어간 이유는?
-Lý do 'Bố quái thú' vào tòa nhà dungeon cấp S là gì?
+Lý do 'Monster Daddy' vào tòa nhà ngục tối cấp S là gì?
 
 [Dân mạng]
 KR: 엥 마수사육소 해연이랑 한몸 아니었냐
-Ủa không phải Trung tâm Nuôi dưỡng Ma thú với Haeyeon là một à
+Ơ? không phải Cơ Sở Nuôi dưỡng Thú Cưỡi với Haeyeon là một à?
 
 [Dân mạng]
 KR: 왜 세성길짱 손에 들려있음
 Sao lại đang bị xách trên tay Hội trưởng Sesung thế kia
 
 [Dân mạng]
-KR: ㅋㅋ 덜렁 들려 있네 폭발에 휘말려서 구해준 건가?
-Kaka bị xách lủng lẳng luôn kìa hay là bị cuốn vào vụ nổ nên được cứu nhỉ?
+KR: ㅋㅋ 덜렁 들려 있네
+폭발에 휘말려서 구해준 건가?
+Kaka bị xách lủng lẳng luôn kìa
+hay là bị cuốn vào vụ nổ nên được cứu nhỉ?
 
 [Dân mạng]
 KR: 그럼 성현제가 생명의 은인인 거임? 이제 세성 기승수부터 먼저 키워주려나
@@ -440,119 +344,99 @@ Vậy thì Sung Hyunjae là ân nhân cứu mạng à? Giờ chắc sẽ ưu ti�
 
 [Dân mạng]
 KR: 나 심각하다 동생이랑 가족경영인 줄 알고 해연에 주식 몰빵했는데 세성에도 분산투자할 각이냐.
-Tôi nghiêm túc đấy. Cứ tưởng là kinh doanh gia đình với em trai nên đã dồn hết vốn vào cổ phiếu Haeyeon rồi, giờ phải tính đường đầu tư phân tán sang cả Sesung à.
+Tôi nghiêm túc đấy. Cứ tưởng là kinh doanh gia đình với em trai nên đã dồn hết vốn vào cổ phiếu Haeyeon rồi, giờ phải tính đường chia tiền đầu tư cho cả Sesung hả?
 
 [Seok Simyung]
 KR: 말이 되냐? 한 소장이 세성길드장 욕하는 거 안보이냐? 사육소는 영원히 해연과 함께한다 계속 몰빵해
-Có lý không hả? Không thấy Viện trưởng Han đang chửi Hội trưởng Sesung à? Trung tâm nuôi dưỡng sẽ mãi mãi đồng hành cùng Haeyeon cứ tiếp tục dồn hết vốn vào đi
-
-[SFX]
-KR: 타다닥
-Tạch tạch tạch
+Có lý không hả? Không thấy giám đốc Han đang chửi Hội trưởng Sesung à? Cơ sở nuôi dưỡng thú cưỡi sẽ mãi mãi đồng hành cùng Haeyeon nên cứ tiếp tục dồn hết vốn đầu tư vào đi
 
 [Seok Simyung]
 KR: 한 소장님, 돌아오면 한마디 해야겠군…
-Viện trưởng Han, khi cậu về tôi phải nói chuyện một chút mới được…
+Giám đốc Han, chúng ta cần một buổi tâm sự khi cậu quay về...
 
 [Seok Simyung]
 KR: 해연 주식이 흔들릴 뻔했잖아
-Cổ phiếu Haeyeon suýt chút nữa là chao đảo rồi còn gì
+Cổ phiếu Haeyeon suýt chút nữa là chao đảo rồi
 
 [Narrator]
-KR: 그리고 그 후 수배해 들어간 던전.
-Và sau đó, hầm ngục mà họ đã tiến vào sau khi bị truy nã.
-
-[SFX]
-KR: 휘이잉
-Vùuuuu
+KR: 그리고 그 후
+수배해 들어간 던전.
+Thế là sau đó,
+tại hầm ngục mà chúng tôi đã dò tìm và tiến vào.
 
 [Newbie]
 KR: 허니!
 Cục cưng!
 
-[Han Yoojin]
+[Newbie]
 KR: 무슨 일이에요? 보상이라면 좀 더 기다려 주셔야…
 Có chuyện gì vậy? Nếu là phần thưởng thì phải đợi thêm một chút…
 
-[Sung Hyunjae]
+[Yoojin]
 KR: 이 두 사람이 들어간 던전에 이상이 생겼어. 아는 거 없어?
-Hầm ngục mà hai người đó vào có gì đó bất thường. Cậu có biết gì không?
+Hầm ngục mà hai người này vừa vào có gì đó bất thường. Cậu có biết gì không?
+
 
 📄 ẢNH: 7.PNG
 
-[Han Yoojin]
+[Newbie]
 KR: 이상이요? 아, 맞아요! 연이어 간섭이 있었는데.
-Có gì bất thường sao? À, đúng rồi! Liên tục có sự can thiệp.
-
-[SFX]
-KR: 윙윙
-Vù vù
+Có gì bất thường sao? À, đúng rồi! Liên tục có ai đó can thiệp.
 
 [Newbie]
 KR: 현재 간섭이 확인된 던전은 허니의 동생과 체인이가 들어간 곳,
-Hầm ngục hiện tại đã xác nhận có sự can thiệp là nơi em trai của Cục cưng và Chain đã vào,
+Hầm ngục hiện tại đã xác nhận có sự can thiệp tại nơi mà em trai của Cục cưng và Chain đã vào,
 
 [Newbie]
 KR: 그리고 물방울 선배의 힘을 가진—
 Và nơi có sức mạnh của tiền bối Giọt Nước—
 
-[SFX]
-KR: 덥썩
-Chộp lấy
-
 [Han Yoojin]
 KR: 예림이한테도 무슨 일이 생긴 거야?!
-Yerim-ah cũng gặp chuyện gì rồi sao?!
+Yerim-ie cũng gặp chuyện gì rồi sao?!
 
 [Han Yoojin]
 KR: 해파리 짓인가? 당장 예림이를 던전에서 빼내 줘!
-Là do con sứa đó sao? Mau đưa Yerim-ah ra khỏi hầm ngục ngay!
+Là Sứa hả? Mau đưa Yerim-ie ra khỏi hầm ngục ngay!
 
 [Newbie]
 KR: 그건 어려워요! 허니의 세계에 간섭하려면—
-Chuyện đó khó lắm ạ! Nếu muốn can thiệp vào thế giới của Cục cưng—
+Chuyện đó khó lắm! Nếu muốn can thiệp vào thế giới của Cục cưng—
 
 [Han Yoojin]
 KR: 대가가 필요한 거면 내가 낼 테니까!
-Nếu cần cái giá phải trả thì tôi sẽ trả!
+Bằng bất cứ giá nào thì tôi cũng chịu!
 
 [Han Yoohyun]
 KR: 무슨 소리야, 형!
-Hyung đang nói cái gì vậy!
+Anh đang nói cái gì vậy?!
 
 [Han Yoohyun]
 KR: 진정해. 형이 그러는 건 박예림 헌터도 바라지 않아.
-Bình tĩnh đi. Hunter Park Yerim cũng không muốn Hyung như vậy đâu.
+Bình tĩnh đi. Thợ săn Park Yerim cũng không muốn anh như vậy đâu.
+
+[Han Yoojin]
+KR: 하지만 애가 무사하고 봐야 할 거 아냐!
+Nhưng phải xem con bé có bình an vô sự không đã chứ!
 
 [Newbie]
 KR: 지, 진정하세요, 허니.
 N-Nào, bình tĩnh đi mà, Cục cưng.
 
-[Narrator]
-KR: ...세요, 허니.
-...nhé, Honey.
+[Yerim]
+KR: 너무 맛*다. 그죠, *니.
+Ngon quá. Đúng không, chị.
 
-[SFX]
-KR: 파악
-PHẬP
-
-[Narrator]
-KR: 너무 맛있다. 그렇죠, 허니.
-Ngon quá. Đúng không, Honey.
-
-[Han Yoojin - Độc thoại]
 KR: 아, 블루! 부상 피 묻힌 채 다치지 마!
 Ah, Blue! Đừng bị thương mà dính đầy máu chứ!
 
-[Han Yoojin - Độc thoại]
 KR: 그래도 내일쯤은 나갈 수 있겠네.
-Dù sao thì, khoảng ngày mai là có thể ra ngoài được rồi.
+Dù sao thì tầm ngày mai là có thể ra ngoài được rồi.
 
-[Hệ thống]
+[Newbie]
 KR: 다 보여드리긴 어렵지만 큰 피해는 확인되지 않아요.
 Tuy khó để cho thấy toàn bộ, nhưng không có thiệt hại lớn nào được xác nhận.
 
-[Han Yoojin - Độc thoại]
 KR: 던전이 변했어도 S급 각성자면 충분히 공략할 수 있는 수준이고요.
 Dù hầm ngục đã thay đổi, nhưng nếu là Thức Tỉnh Giả cấp S thì vẫn có thể chinh phục được.
 
@@ -566,75 +450,51 @@ Việc can thiệp vào hầm ngục đến mức đó là điều bất khả t
 
 [Newbie]
 KR: 그리고 어쩌면 저희 실수로 일어난 일일 가능성도…
-Và có lẽ, cũng có khả năng đó là việc xảy ra do sơ suất của bọn em…
+Và có lẽ, cũng có khả năng đó là việc xảy ra do sơ suất của bọn tôi…
 
 [Han Yoojin]
 KR: 뭐?!
 Gì cơ?!
 
-[System]
+[Newbie]
 KR: 해파리 일 이후 던전이며 시스템이 이것저것 꼬여서 다들 정신없거든요.
-Sau vụ sứa biển, hầm ngục và hệ thống bị rối tung cả lên nên mọi người đều bận rộn lắm ạ.
+Sau vụ của Sứa, hầm ngục và hệ thống bị rối tung cả lên nên mọi người đều bận rộn lắm.
 
-[SFX]
-KR: 크악
-Khụạc
-
-[System]
+[Newbie]
 KR: 선배들이 던전을 점검하다가 실수한 걸 수도 있어요.
-Cũng có thể là các tiền bối đã mắc lỗi trong lúc kiểm tra hầm ngục ạ.
+Cũng có thể là các tiền bối đã mắc lỗi trong lúc kiểm tra hầm ngục đó.
 
-[Narrator]
+[Newbie]
 KR: 그렇다 해도 S급이 위험에 처할 정도의 오류는 거의 없어요.
-Dù vậy, cũng gần như không có lỗi nào đến mức khiến S-rank gặp nguy hiểm cả.
+Dù vậy, cũng gần như không có lỗi nào đến mức khiến cấp S gặp nguy hiểm cả.
 
 [Narrator]
 KR: 던전에 그 정도로 간섭할 수 있는 건 극히 소수의…
-Việc có thể can thiệp vào hầm ngục đến mức đó chỉ có thể là cực kỳ ít người…
-
-[SFX]
-KR: 치직
-Xẹt xẹt
+Có rất ít người có thể can thiệp vào hầm ngục đến mức đó…
 
 [Newbie]
 KR: 이런! 아까 던전을 보여드리는 바람에 제한 시간이 다 되었나 봐요.
-Chết rồi! Có vẻ như thời gian giới hạn đã hết vì lúc nãy em đã mở hầm ngục cho xem.
+Chết rồi! Có vẻ như thời gian giới hạn đã hết vì lúc nãy tôi đã mở hầm ngục cho xem.
 
 [Newbie]
 KR: 어쨌든 제가 좀 더 살펴볼 테니 너무 걱정 말고 기다리세요!
-Dù sao thì em sẽ kiểm tra thêm một chút nên đừng quá lo lắng mà hãy đợi nhé!
-
-[SFX]
-KR: 우오오오
-Uooo
+Dù sao thì tôi  sẽ kiểm tra thêm một chút nên đừng quá lo lắng mà hãy đợi nhé!
 
 [Han Yoojin]
 KR: 뭐... 잠깐!
-Cái gì... Khoan đã!
+Gì... Khoan đã!
 
-[Bóng thoại]
-KR: 그래도 혹시 모르니 오늘은
-Dù vậy nhưng lỡ như có chuyện gì thì hôm nay
+[Newbie]
+KR: 그래도 혹시 모르니 오늘은 던전을 거치지 않고 바로 나갈 수 있게 처리해 드릴게요~!
+Dù sao thì để phòng bất trắc, hôm nay tôi sẽ sắp xếp để mọi người có thể ra ngoài ngay mà không cần chinh phạt hầm ngục nhé~!
 
 [Han Yoojin]
 KR: 이걸로 끝이냐고!
-Thế này là hết rồi sao!
+Thế này là hết rồi sao?!
 
 [Han Yoojin]
 KR: 좀 더 설명을—
 Giải thích thêm một chút—
-
-[SFX]
-KR: 파아아앗
-PHÁT
-
-[SFX]
-KR: 콰아아
-KWA-AA
-
-[SFX]
-KR: 콰앙
-RẦM
 
 [Han Yoojin]
 KR: 젠장!!
@@ -650,11 +510,11 @@ Bình tĩnh đi, Hyung.
 
 [Han Yoohyun]
 KR: 그래도 박예림은 무사하다니까 일단 집에 가서…
-Dù sao Park Yerim cũng an toàn mà, trước hết về nhà đã…
+Dù sao thì Park Yerim cũng an toàn, trước hết về nhà đã…
 
 [Han Yoojin]
 KR: 아니, 예림이가 들어간 던전 건물로 태워다 줘.
-Không, đưa tôi đến tòa nhà dungeon mà Yerim đã vào.
+Không, đưa anh đến tòa nhà ngục tối mà Yerim-ie đã vào.
 
 [Han Yoohyun]
 KR: 뭐? Hyung, 대체 왜 그렇게까지…!
@@ -662,11 +522,11 @@ Gì cơ? Hyung, rốt cuộc tại sao lại đến mức đó…!
 
 [Han Yoojin]
 KR: S급이 위험에 처할 일이 극히 드물다고?
-S-rank hiếm khi gặp nguy hiểm ư?
+Cấp S hiếm khi gặp nguy hiểm ư?
 
 [Han Yoojin]
 KR: 걱정 말라니 무슨 소리를 하는 거야.
-Đừng lo lắng cái gì chứ, cậu đang nói cái gì vậy.
+Đừng lo lắng cái gì chứ, đang nói cái gì vậy.
 
 [Han Yoojin - Độc thoại]
 KR: 이미 난 그렇게 해서 동생을 잃었다고.
@@ -674,8 +534,4 @@ Tôi đã từng mất đi em trai mình vì chuyện đó rồi.
 
 [Han Yoojin]
 KR: 무사히 나오는 걸 내 눈으로 보기 전엔 마음을 놓을 수가 없다고...!
-Trước khi tận mắt nhìn thấy em ấy bước ra bình an vô sự, tôi không thể nào an tâm được...!
-
-[Han Yoojin]
-KR: 내 눈으로 보기 전엔 마음을 놓을 수가 없다고…!
-Trước khi tận mắt nhìn thấy thì tôi không thể nào yên tâm được đâu…!
+Trước khi tận mắt nhìn thấy con bé bước ra bình an vô sự thì mình không thể nào an tâm được...!

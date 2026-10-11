@@ -1,0 +1,50 @@
+[
+  {
+    "term": "狩心",
+    "hanviet": "Thú tâm",
+    "translation": "Săn tim / Đoạt lấy trái tim",
+    "category": "Thiết lập"
+  },
+  {
+    "term": "金丝雀",
+    "hanviet": "Kim ti tước",
+    "translation": "Chim hoàng yến (người tình được bao nuôi)",
+    "category": "Thiết lập"
+  },
+  {
+    "term": "哨兵",
+    "hanviet": "Tiêu binh",
+    "translation": "Lính gác (Sentinel)",
+    "category": "Thể loại"
+  },
+  {
+    "term": "向导",
+    "hanviet": "Hướng đạo",
+    "translation": "Dẫn đường (Guide)",
+    "category": "Thể loại"
+  },
+  {
+    "term": "雄虫",
+    "hanviet": "Hùng trùng",
+    "translation": "Trùng đực",
+    "category": "Trùng tộc"
+  },
+  {
+    "term": "雌虫",
+    "hanviet": "Thư trùng",
+    "translation": "Trùng cái",
+    "category": "Trùng tộc"
+  },
+  {
+    "term": "阴暗批",
+    "hanviet": "Âm ám phê",
+    "translation": "Kẻ u ám / Kẻ tâm cơ u tối",
+    "category": "Tính cách"
+  },
+  {
+    "term": "相爱相杀",
+    "hanviet": "Tương ái tương sát",
+    "translation": "Vừa yêu vừa hận / Yêu nhau tàn sát nhau",
+    "category": "Mối quan hệ"
+  }
+]

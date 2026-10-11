@@ -1,12 +1,70 @@
-{
-  "arc_1": "Thế giới 1 (ch_001 -> ch_030): Bác sĩ nam phụ pháo hôi Lận Duy x Bá tổng Hoắc Kỳ Quân",
-  "arc_2": "Thế giới 2 (ch_030 -> ch_058): Bạn trai cũ phong lưu Lận Duy x Đại lão giới giải trí tàn tật Hàn Kỳ",
-  "arc_2_milestones": {
-    "ch_030": "Lận Duy xuyên tới, tuyên bố vào đoàn phim vì thầm mến Hàn Kỳ để gỡ rối bám riết bạn gái cũ.",
-    "ch_031": "Lận Duy diễn vai mối tình đầu bạch nguyệt quang; kịp thời kéo xe lăn che chở Hàn Kỳ khỏi ly nước sôi của Cao Hàm.",
-    "ch_032": "Cao Hàm rời đoàn phim; Lận Duy được Uông Dương dẫn vào phòng đánh đàn piano xoa dịu cơn đau chân cho Hàn Kỳ."
+[
+  {
+    "chapter_id": "Arc 1 (ch_001 -> ch_030)",
+    "event": "Thế giới 1: Bác sĩ nam phụ pháo hôi Lận Duy x Bá tổng Hoắc Kỳ Quân (Hoàn tất)"
   },
-  "arc_3": "Thế giới 3 (ch_059 -> ch_090): Tiểu hoàng đế Lận Duy x Đại tướng quân Dụ Chiêu",
-  "arc_4": "Thế giới 4 (ch_091 -> ch_114): Bạch nguyệt quang tiên quân Lận Duy x Ma tôn Nguyễn Kỳ",
-  "fanwai": "Phiên ngoại (ch_115 -> ch_116): Sinh nhật Lận Duy và Hoắc Kỳ Quân trở về quá khứ"
-}
+  {
+    "chapter_id": "Arc 2 (ch_030 -> ch_058)",
+    "event": "Thế giới 2: Bạn trai cũ phong lưu Lận Duy x Đại lão giới giải trí tàn tật Hàn Kỳ (Hoàn tất 100%)"
+  },
+  {
+    "chapter_id": "ch_030",
+    "event": "Lận Duy xuyên tới, tuyên bố vào đoàn phim vì thầm mến Hàn Kỳ để gỡ rối bám riết bạn gái cũ."
+  },
+  {
+    "chapter_id": "ch_031",
+    "event": "Lận Duy diễn vai mối tình đầu bạch nguyệt quang; kịp thời kéo xe lăn che chở Hàn Kỳ khỏi ly nước sôi của Cao Hàm."
+  },
+  {
+    "chapter_id": "ch_032",
+    "event": "Cao Hàm rời đoàn phim; Lận Duy được Uông Dương dẫn vào phòng đánh đàn piano xoa dịu cơn đau chân cho Hàn Kỳ."
+  },
+  {
+    "chapter_id": "ch_036",
+    "event": "Hàn Kỳ lắp camera theo dõi nhưng giấu Uông Dương; Lận Duy âm thầm gửi bằng chứng giải quyết êm đẹp chuyện Cao Hàm."
+  },
+  {
+    "chapter_id": "ch_042",
+    "event": "Hàn Kỳ tự phá vỡ vỏ bọc giả vờ không biết, chấp nhận cho Lận Duy gọi mình là 'A Kỳ'."
+  },
+  {
+    "chapter_id": "ch_046",
+    "event": "Lận Duy nấu cơm dinh dưỡng và đàn piano cho Hàn Kỳ; Hàn Kỳ mơ mộng xuân về Lận Duy."
+  },
+  {
+    "chapter_id": "ch_049",
+    "event": "Hàn Kỳ trong cơn cấp bách cứu mèo đã tự đứng dậy được; Lận Duy cam kết chữa lành hẳn cho anh."
+  },
+  {
+    "chapter_id": "ch_050",
+    "event": "Lận Duy bất giác gọi 'A Kỳ', đánh trúng tâm sự giấu kín của Hàn Kỳ."
+  },
+  {
+    "chapter_id": "ch_052",
+    "event": "Lận Duy kịp thời phát hiện rượu bị bỏ thuốc tại tiệc mừng trước khi ai uống phải."
+  },
+  {
+    "chapter_id": "ch_053",
+    "event": "Hàn Kỳ chính thức đồng ý hẹn hò: 'Vậy thì làm bạn trai của em đi!'."
+  },
+  {
+    "chapter_id": "ch_057",
+    "event": "Hàn Kỳ cắn môi Lận Duy vì ghen với chuyện tình đầu trên mạng; Lận Duy nhận ra mình thực sự thích Hàn Kỳ."
+  },
+  {
+    "chapter_id": "ch_058",
+    "event": "Công khai quan hệ trước công chúng; hai người chính thức ân ái viên mãn (Lận Duy Công x Hàn Kỳ Thụ); đôi chân Hàn Kỳ hồi phục hoàn toàn."
+  },
+  {
+    "chapter_id": "Arc 3 (ch_059 -> ch_090)",
+    "event": "Thế giới 3: Tiểu hoàng đế Lận Duy x Đại tướng quân Dụ Chiêu"
+  },
+  {
+    "chapter_id": "Arc 4 (ch_091 -> ch_114)",
+    "event": "Thế giới 4: Bạch nguyệt quang tiên quân Lận Duy x Ma tôn Nguyễn Kỳ"
+  },
+  {
+    "chapter_id": "Fanwai (ch_115 -> ch_116)",
+    "event": "Phiên ngoại: Sinh nhật Lận Duy và Hoắc Kỳ Quân trở về quá khứ"
+  }
+]
