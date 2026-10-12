@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="vi" data-theme="oled">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Cubari Manhwa Reader</title>
+  <link rel="stylesheet" href="/static/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220%22%20%220%22%20%22100%22%20%22100%22><text y=%22.9em%22 font-size=%2290%22>📖</text></svg>">
+</head>
+<body>
+
+  <!-- TOP HUD -->
+  <header class="hud hud-top" id="hud-top">
+    <div class="controls-group">
+      <button class="btn btn-icon" id="btn-open-drawer" title="Mở Thư Viện Truyện">
+        <span>☰</span> <span class="btn-text">Thư Viện</span>
+      </button>
+      <div class="brand" id="btn-home" title="Trang chủ Reader">
+        <span>📖</span>
+        <span class="btn-text">Cubari</span>
+        <span class="brand-badge">PRO</span>
+      </div>
+    </div>
+
+    <div class="series-info">
+      <span class="series-title" id="series-title">Chưa chọn truyện</span>
+      <select class="chapter-select" id="chapter-select" title="Chọn chương"></select>
+    </div>
+
+    <div class="controls-group">
+      <button class="btn btn-icon" id="btn-prev-chapter" title="Chương trước">◀</button>
+      <button class="btn btn-icon" id="btn-next-chapter" title="Chương sau">▶</button>
+      <button class="btn btn-primary" id="btn-open-crawl" title="Tải hoặc crawl chapter mới">
+        <span>📥</span> <span class="btn-text">Tải Truyện</span>
+      </button>
+      <button class="btn btn-icon" id="btn-settings" title="Cài đặt giao diện">⚙</button>
+    </div>
+  </header>
+
+  <!-- READER VIEWPORT -->
+  <main id="reader-viewport">
+    <!-- Nội dung truyện hoặc màn hình chào mừng sẽ được chèn động vào đây -->
+  </main>
+
+  <!-- BOTTOM HUD -->
+  <footer class="hud hud-bottom" id="hud-bottom">
+    <div class="controls-group">
+      <button class="btn" id="btn-mode-toggle" title="Đổi chế độ đọc">
+        <span id="mode-icon">📜</span>
+        <span class="btn-text" id="mode-text">Webtoon</span>
+      </button>
+    </div>
+
+    <div class="scrubber-container">
+      <span class="page-counter" id="page-counter">0 / 0</span>
+      <input type="range" class="scrubber-slider" id="scrubber-slider" min="1" max="1" value="1">
+    </div>
+
+    <div class="controls-group">
+      <button class="btn btn-icon" id="btn-fullscreen" title="Toàn màn hình (F)">⛶</button>
+    </div>
+  </footer>
+
+  <!-- SETTINGS POPOVER -->
+  <div class="settings-popover" id="settings-popover">
+    <div class="setting-row">
+      <label class="setting-label">Giao diện (Theme):</label>
+      <select class="input-text setting-select" id="setting-theme">
+        <option value="oled">OLED Thuần Đen (Mặc định)</option>
+        <option value="dark">Dark Slate</option>
+        <option value="sepia">Sepia Dịu Mắt</option>
+      </select>
+    </div>
+    <div class="setting-row">
+      <label class="setting-label">Độ rộng Webtoon (<span id="width-val">820</span>px):</label>
+      <input type="range" class="setting-range" id="setting-width" min="600" max="1400" step="20" value="820">
+    </div>
+    <div class="setting-row">
+      <label class="setting-label">Khoảng cách ảnh (<span id="gap-val">0</span>px):</label>
+      <input type="range" class="setting-range" id="setting-gap" min="0" max="16" step="2" value="0">
+    </div>
+  </div>
+
+  <!-- LIBRARY DRAWER (OFFCANVAS) -->
+  <aside class="drawer" id="library-drawer">
+    <div class="drawer-header">
+      <h3 style="font-size: 1rem; font-weight: 700;">📚 Thư Viện Của Bạn</h3>
+      <button class="btn btn-icon" id="btn-close-drawer">✕</button>
+    </div>
+    <div class="drawer-body" id="library-list">
+      <p style="color: var(--text-muted); font-size: 0.85rem; text-align: center; margin-top: 2rem;">
+        Đang tải thư viện...
+      </p>
+    </div>
+  </aside>
+
+  <!-- MODAL CRAWL & TẢI TRUYỆN -->
+  <div class="modal-backdrop" id="crawl-modal">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h3 class="modal-title">📥 Tải & Crawl Truyện Không Ads</h3>
+        <button class="btn btn-icon" id="btn-close-crawl">✕</button>
+      </div>
+      <div class="modal-body">
+        <p style="color: var(--text-secondary); font-size: 0.85rem; margin-bottom: 0.85rem;">
+          Dán đường link truyện hoặc link chapter từ <b>haccbl.xyz</b> hoặc <b>Cubari</b> để đọc ngay hoặc tải về máy (100% không quảng cáo):
+        </p>
+        <div class="input-group">
+          <input type="text" class="input-text" id="crawl-url-input" 
+                 placeholder="Ví dụ: https://haccbl.xyz/manga/dia-nguc-cua-kien-yeon-deop/">
+          <button class="btn btn-primary" id="btn-submit-crawl">🔍 Phân Tích</button>
+        </div>
+
+        <!-- Khung xem trước Manga -->
+        <div id="crawl-preview-container" style="display: none;"></div>
+
+        <!-- Danh sách tác vụ đang tải -->
+        <div class="download-tasks" id="download-tasks-container">
+          <h4 style="font-size: 0.9rem; margin-bottom: 0.5rem;">⚡ Tiến Trình Tải Về Máy:</h4>
+          <div id="tasks-list">
+            <p style="color: var(--text-muted); font-size: 0.8rem;">Chưa có tiến trình tải nào.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- TOAST NOTIFICATION -->
+  <div class="toast" id="toast-msg">Thông báo</div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
