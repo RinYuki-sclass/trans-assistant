@@ -1,5 +1,6 @@
 https://www.novelupdates.com/series/becoming-the-gongs-older-brother/
 
+https://noisyteam.wordpress.com/he-thong-da-kich-hoat-he-thong-doi-thu
 
 ### 📌 Thông tin chi tiết về bộ truyện
 * **Tên gốc tiếng Trung:** 《反派的人鱼老婆》 *(Phản Phái Đích Nhân Ngư Lão Bà)*
@@ -110,4 +111,4 @@ Tác giả: Nguyên Lai Thị Lạc Lạc (原来是落落)
 - **Tác giả:** 半斤墨水 (Bán Cân Mặc Thủy)
 - **Thể loại:** Đam mỹ, Chủ công, Khoái xuyên, Xuyên thư, Hào môn thế gia, Cường cường, Ngọt sủng, Hài hước, HE
 - **Độ dài:** 116 chương (1 intro + 114 chương chính văn + 2 phiên ngoại)
-- **Project:** Đã khởi tạo trong `novel_projects/xuyên-thư-xong-tôi-giả-gay-trong-truyện-bá-tổng/`
+- **Project:** Đã khởi tạo trong `novel_projects/xuyên-thư-xong-tôi-giả-gay-trong-truyện-bá-tổng/`
