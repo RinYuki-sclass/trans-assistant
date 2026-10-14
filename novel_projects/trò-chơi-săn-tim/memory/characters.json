@@ -62,6 +62,35 @@
     "notes": "Bá tổng kim chủ quyền lực, bề ngoài lạnh lùng nhưng thật lòng che chở công"
   },
   {
+    "name": "Eritu",
+    "hanviet_name": "Eritu",
+    "original_name": "Eritu",
+    "gender": "Nam",
+    "role": "Công chính (Quyển 2 - Tinh tế Sentinel/Guide)",
+    "aliases": [
+      "Guide cấp SSS"
+    ],
+    "narration_pronoun": "hắn",
+    "honorifics": "với Inlay: em - anh",
+    "speech_style": "Ôn hòa, thâm trầm, tâm cơ khó lường",
+    "notes": "Guide cấp SSS duy nhất của Đế quốc"
+  },
+  {
+    "name": "Inlay",
+    "hanviet_name": "Inlay",
+    "original_name": "Inlay",
+    "gender": "Nam",
+    "role": "Thụ chính (Quyển 2 - Tinh tế Sentinel/Guide)",
+    "aliases": [
+      "Thiếu tướng Inlay",
+      "Đoàn trưởng Quân đoàn Hắc Ưng"
+    ],
+    "narration_pronoun": "anh",
+    "honorifics": "với Eritu: anh - em",
+    "speech_style": "Lạnh lùng, quả quyết, kiên định",
+    "notes": "Sentinel cấp SS, vị hôn phu của Eritu"
+  },
+  {
     "name": "Trần Thứ",
     "hanviet_name": "Trần Thứ",
     "original_name": "陈恕",

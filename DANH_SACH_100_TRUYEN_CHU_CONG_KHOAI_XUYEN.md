@@ -1968,6 +1968,8 @@
 * **Tác giả:** Bát Thập Lục Bút (八十六笔)
 * **Thể loại:** Đam mỹ, Chủ công, Khoái xuyên (Xuyên nhanh), Hệ thống, ABO, Cao H / Trưởng thành
 * **Link NovelUpdates:** [Shou-Switching System Has Been Bound](https://www.novelupdates.com/series/shou-switching-system-has-been-bound/)
+* **Project Slug:** `đã-kích-hoạt-hệ-thống-đổi-thụ`
+* **Nguồn Bản Dịch (Noisy Team):** https://noisyteam.wordpress.com/he-thong-da-kich-hoat-he-thong-doi-thu/
 * **Nội dung mô tả (Văn án):**
 
   > Tiểu thuyết hệ thống khoái xuyên chủ công, thể loại đơn nguyên văn. Nhân vật chính bị trói buộc với 'Hệ thống đổi thụ', đi qua các thế giới thực hiện nhiệm vụ đổi đối tượng khi phát hiện bạn lữ phản bội hoặc không xứng đáng với tình cảm của mình ('Người kế tiếp sẽ ngoan hơn'). Trải qua các thế giới như kim ty tước đội nón xanh, thật giả thiếu gia, thẳng nam công x biến thái thụ, gương vỡ lại lành...

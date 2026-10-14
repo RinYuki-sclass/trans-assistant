@@ -1,6 +1,7 @@
 https://www.novelupdates.com/series/becoming-the-gongs-older-brother/
 
-https://noisyteam.wordpress.com/he-thong-da-kich-hoat-he-thong-doi-thu
+
+https://noistify.space/story/da-kich-hoat-he-thong-doi-thu
 
 ### 📌 Thông tin chi tiết về bộ truyện
 * **Tên gốc tiếng Trung:** 《反派的人鱼老婆》 *(Phản Phái Đích Nhân Ngư Lão Bà)*

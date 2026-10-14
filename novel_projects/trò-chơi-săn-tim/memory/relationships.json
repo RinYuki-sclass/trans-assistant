@@ -14,6 +14,23 @@
   },
   {
     "pair": [
+      "Eritu",
+      "Inlay"
+    ],
+    "context": "Quyển 2 - Tinh tế Sentinel / Guide",
+    "relation_type": "Guide cấp SSS thâm trầm (Công) x Thiếu tướng Sentinel dũng mãnh (Thụ)",
+    "narration_pronouns": {
+      "Eritu": "hắn",
+      "Inlay": "anh"
+    },
+    "dialogue_pronouns": {
+      "Eritu": "em",
+      "Inlay": "anh"
+    },
+    "status": "Đính hôn, thiết lập liên kết vĩnh viễn và kết hôn"
+  },
+  {
+    "pair": [
       "Trần Thứ",
       "Trang Nhất Hàn"
     ],
