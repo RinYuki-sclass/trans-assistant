@@ -120,7 +120,7 @@ Vừa hỏi, Inlay vừa hoảng hốt đưa tay kiểm tra khắp người Erit
 
 Eritu nắm lấy bàn tay đang sờ soạng lung tung trên người mình của Inlay, phải dùng chút sức mới giữ lại được. Cảm nhận được đầu ngón tay lạnh lẽo của đối phương vẫn không ngừng run rẩy, hắn đưa lên môi dịu dàng hôn nhẹ, sau đó mới hạ giọng nói đầy ẩn ý:
 
-“Em quên rồi sao? Anmi vì sai lầm trong chỉ huy, lúc kích nổ bom đã không may rơi xuống hang ổ dị thú và hy sinh.”
+“Anh quên rồi sao? Anmi vì sai lầm trong chỉ huy, lúc kích nổ bom đã không may rơi xuống hang ổ dị thú và hy sinh.”
 
 Đây là lời giải thích tốt nhất cho cái chết của Anmi, không chỉ giữ được danh dự chiến binh cho cậu ta, mà còn tránh để tướng quân Solander phải chịu nỗi nhục nhã. Dẫu sao sự thật thường tàn nhẫn, thay vì để cả người sống lẫn người chết đều không được yên ổn, chi bằng dùng lời nói dối để che đậy tất cả.
 

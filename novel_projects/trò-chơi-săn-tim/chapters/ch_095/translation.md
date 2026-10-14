@@ -92,17 +92,17 @@ Giọng nói vang lên không chút báo trước, nhưng đối với Anmi lạ
 
 Inlay thấy vậy, gương mặt vô cảm siết chặt lưỡi dao trong tay, rõ ràng anh không ngờ Eritu lại đột ngột xuất hiện ở đây. Giọng anh khàn đặc, trầm thấp, toàn thân vấy máu, hỏi một câu không rõ buồn vui:
 
-“Nếu em nhất quyết muốn giết nó thì sao?”
+“Nếu anh nhất quyết muốn giết nó thì sao?”
 
 Eritu chậm rãi bước trên cát lún, đi đến trước mặt Inlay thì dừng lại. Mùi hương gỗ tuyết tùng nhàn nhạt trên người hắn lấn át cả mùi máu tanh nồng trong không khí, ngay cả nụ cười cũng dịu dàng đến lạ. Hắn hạ giọng:
 
-“Anh đã nói rồi mà, hiện tại em chưa thể giết cậu ta.”
+“Em đã nói rồi mà, hiện tại anh chưa thể giết cậu ta.”
 
 Nói đoạn, hắn bỗng nhận ra vết thương sâu tới tận xương trên vai phải của Inlay, khựng lại một chút rồi mới hỏi: “Sao lại bị thương thành thế này?”
 
 Inlay chẳng thèm đoái hoài, lạnh lùng nhả ra hai chữ: “Tránh ra!”
 
-Eritu cười khẽ, lẳng lặng nhìn sâu vào mắt anh: “Hôm nay anh sẽ không để em ra tay đâu.”
+Eritu cười khẽ, lẳng lặng nhìn sâu vào mắt anh: “Hôm nay em sẽ không để anh ra tay đâu.”
 
 Ánh mắt Inlay tối sầm lại. Quả nhiên Eritu vẫn còn nặng tình với Anmi. Anh phải tốn bao nhiêu sức lực mới kìm nén được luồng tinh thần lực đang bạo động trong đầu, dứt khoát lách qua người Eritu để tiến về phía Anmi. Đôi mày sắc lạnh tràn ngập sát khí, giữa đêm đen trông càng thêm rợn người.
 

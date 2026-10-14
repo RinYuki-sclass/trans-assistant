@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Ji Lianyi",
+    "hanviet_name": "Kỷ Liên Nhất",
+    "original_name": "纪连一",
+    "gender": "Nam",
+    "role": "Công chính Arc 1 (Giáo sư đại học, ký chủ Hệ thống Đổi Thụ)",
+    "aliases": [
+      "ông chú",
+      "Kỷ giáo sư",
+      "anh Kỷ"
+    ],
+    "narration_pronoun": "anh",
+    "honorifics": "với Tề Hựu Lễ: tôi - cậu; với Hạ Húc: tôi - cậu; với Hệ thống: tôi - Lục Lục/ngươi",
+    "speech_style": "Bình tĩnh, lịch thiệp, giọng điệu ôn hòa nhưng ẩn chứa sự lạnh lẽo, áp bức, độc chiếm và tàn nhẫn khi bị phản bội",
+    "notes": "30 tuổi, giáo sư đại học, dáng người cao ráo mặc áo măng tô màu nâu nhạt, mắt màu hổ phách, mùi nước hoa hơi lạnh tựa bông tuyết rơi. Sau khi phát hiện bạn trai Hạ Húc bỏ thuốc mê mình để lén quan hệ với Tề Hựu Lễ, anh quyết định đổi thụ sang chính Tề Hựu Lễ"
+  },
+  {
+    "name": "Qi Youli",
+    "hanviet_name": "Tề Hựu Lễ",
+    "original_name": "齐又礼",
+    "gender": "Nam",
+    "role": "Thụ chính Arc 1 (Chủ quán bida)",
+    "aliases": [
+      "ông chủ Tề",
+      "tiểu Tề"
+    ],
+    "narration_pronoun": "cậu",
+    "honorifics": "với Kỷ Liên Nhất: tôi - ông chú/anh",
+    "speech_style": "Bất cần, chán chường, thẳng thắn, không ngại đòn roi, lời lẽ ngang tàng nhưng giữ nguyên tắc",
+    "notes": "Khoảng hơn 20 tuổi, chủ quán bida mở đến rạng sáng. Lông mày rậm, hốc mắt sâu, tóc đen xoăn xù, phong cách chán đời trên tạp chí, vóc dáng săn chắc có cơ bụng và gân xanh rõ nét. Ban đầu qua lại với Hạ Húc mà không biết rõ nội tình, sau đó bị Kỷ Liên Nhất tìm đến dạy dỗ và trói buộc"
+  },
+  {
+    "name": "Xia Xu",
+    "hanviet_name": "Hạ Húc",
+    "original_name": "夏旭",
+    "gender": "Nam",
+    "role": "Bạn trai cũ phản bội của Kỷ Liên Nhất Arc 1 (Chim hoàng yến)",
+    "aliases": [
+      "tiểu Húc"
+    ],
+    "narration_pronoun": "cậu ta / hắn",
+    "honorifics": "với Kỷ Liên Nhất: em - anh ơi; với Tề Hựu Lễ: tôi - cậu",
+    "speech_style": "Nũng nịu, ngọt ngào trước mặt Kỷ Liên Nhất nhưng thực tế dục cầu bất mãn, lừa dối sau lưng",
+    "notes": "Được Kỷ Liên Nhất bao nuôi và chiều chuộng chu đáo, nhưng vì Kỷ Liên Nhất không đáp ứng nhu cầu tình dục quá độ nên đã bỏ thuốc anh để ra ngoài vụng trộm với Tề Hựu Lễ"
+  },
+  {
+    "name": "Liu Liu",
+    "hanviet_name": "Lục Lục",
+    "original_name": "六六",
+    "gender": "Hệ thống",
+    "role": "Hệ thống Đổi Thụ",
+    "aliases": [
+      "Hệ thống",
+      "Lục Lục"
+    ],
+    "narration_pronoun": "nó",
+    "honorifics": "với Kỷ Liên Nhất: tôi - ký chủ",
+    "speech_style": "Điện tử, trực tiếp, hỗ trợ ký chủ xử lý khi bị cắm sừng",
+    "notes": "Hệ thống hỗ trợ ký chủ đổi đối tượng thụ mới khi người cũ phản bội ('Người kế tiếp sẽ ngoan hơn')"
+  }
+]

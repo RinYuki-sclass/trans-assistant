@@ -70,7 +70,7 @@ Anmi giật mình quay phắt lại nhìn, thấy Inlay chẳng biết đã đ�
 
 Tuy nhiên, nhìn thấy cảnh tượng “gian phu dâm phụ” này, Inlay không hề nổi giận. Anh chỉ hờ hững ngước mắt lên, rồi rút khẩu súng lục đen tuyền từ thắt lưng ra, chĩa vào đầu Anmi, rồi lại chĩa xuống chân Eritu, lạnh lùng nhếch môi, giọng trầm thấp đầy nguy hiểm:
 
-“Mười giờ mà chưa về phòng, anh liệu hồn đấy.”
+“Mười giờ mà chưa về phòng, em liệu hồn đấy.”
 
 Dứt lời, Inlay mở chốt an toàn cái “tách”, dọa Anmi run bắn người, rồi mới dứt khoát xoay người bỏ đi.
 
@@ -110,39 +110,39 @@ Con rắn đen không biết tâm trạng tò mò của mình gọi là hóng h�
 
 Eritu trở tay đóng cửa, nghe vậy cười khẽ ừ một tiếng. Dáng vẻ của hắn có vẻ quá mức thảnh thơi, chẳng hề có chút giác ngộ nào của kẻ bị bắt gian. Hắn đứng trước gương ung dung cởi cúc áo sơ mi, định đi tắm, cho đến khi một vật cứng lạnh lẽo bất ngờ dí vào thắt lưng, động tác mới khựng lại một nhịp: “…”
 
-Lưng hắn đột ngột áp vào một lồng ngực ấm áp. Inlay chẳng biết đã xuất hiện sau lưng Eritu từ bao giờ. Anh nhìn người đàn ông khó nắm bắt trước mặt qua gương, đôi mắt xám tro tối sầm lại: “Anh không định giải thích gì với em sao?”
+Lưng hắn đột ngột áp vào một lồng ngực ấm áp. Inlay chẳng biết đã xuất hiện sau lưng Eritu từ bao giờ. Anh nhìn người đàn ông khó nắm bắt trước mặt qua gương, đôi mắt xám tro tối sầm lại: “Em không định giải thích gì với anh sao?”
 
-Eritu bình thản hỏi lại: “Em muốn nghe gì?”
+Eritu bình thản hỏi lại: “Anh muốn nghe gì?”
 
-Khẩu súng sau lưng ấn mạnh thêm, giọng nói lạnh lùng trầm thấp cuối cùng cũng mất đi vẻ bình tĩnh, pha chút nghiến răng ken két: “Anh ôm ấp em trai ruột của em, anh bảo em muốn nghe gì?”
+Khẩu súng sau lưng ấn mạnh thêm, giọng nói lạnh lùng trầm thấp cuối cùng cũng mất đi vẻ bình tĩnh, pha chút nghiến răng ken két: “Em ôm ấp em trai ruột của anh, em bảo anh muốn nghe gì?”
 
-Eritu nghe vậy nghiêng đầu nhìn Inlay, khóe môi nhếch lên nụ cười như có như không, hàng mi rũ xuống tạo thành bóng râm. Góc độ này khiến gương mặt vốn đã xuất chúng của hắn càng thêm mê hoặc lòng người. Hắn đưa tay nâng cằm Inlay lên, lơ đãng đặt xuống một nụ hôn: “Anh đâu có ôm ấp cậu ta, là cậu ta ôm ấp anh đấy chứ, anh còn chủ động đẩy cậu ta ra mà.”
+Eritu nghe vậy nghiêng đầu nhìn Inlay, khóe môi nhếch lên nụ cười như có như không, hàng mi rũ xuống tạo thành bóng râm. Góc độ này khiến gương mặt vốn đã xuất chúng của hắn càng thêm mê hoặc lòng người. Hắn đưa tay nâng cằm Inlay lên, lơ đãng đặt xuống một nụ hôn: “Em đâu có ôm ấp cậu ta, là cậu ta ôm ấp em đấy chứ, em còn chủ động đẩy cậu ta ra mà.”
 
-Inlay cau mày lạnh lùng, nghiêng đầu né tránh nụ hôn của hắn: “Anh đây là đang ngụy biện à?”
+Inlay cau mày lạnh lùng, nghiêng đầu né tránh nụ hôn của hắn: “Em đây là đang ngụy biện à?”
 
-Lý lẽ của Eritu rất chặt chẽ, chọc người ta tức điên: “Chẳng lẽ không phải cậu ta chủ động ôm anh sao? Chẳng lẽ anh không chủ động đẩy cậu ta ra sao?”
+Lý lẽ của Eritu rất chặt chẽ, chọc người ta tức điên: “Chẳng lẽ không phải cậu ta chủ động ôm em sao? Chẳng lẽ em không chủ động đẩy cậu ta ra sao?”
 
-Inlay thầm nghĩ có ma mới biết ai ôm ai trước, đôi mắt hẹp dài nheo lại đầy nguy hiểm: “Nửa đêm nửa hôm cậu mò sang phòng nó làm gì?”
+Inlay thầm nghĩ có ma mới biết ai ôm ai trước, đôi mắt hẹp dài nheo lại đầy nguy hiểm: “Nửa đêm nửa hôm em mò sang phòng nó làm gì?”
 
-Eritu trưng ra vẻ mặt vô tội: “Lúc ăn cơm anh đã nói rồi mà, anh chuẩn bị quà cho cậu ta từ trước.”
+Eritu trưng ra vẻ mặt vô tội: “Lúc ăn cơm em đã nói rồi mà, em chuẩn bị quà cho cậu ta từ trước.”
 
-Inlay tức đến nổ phổi, lửa giận bùng lên trong đáy mắt: “Anh còn dám nói anh không tơ tưởng đến nó?!”
+Inlay tức đến nổ phổi, lửa giận bùng lên trong đáy mắt: “Em còn dám nói em không tơ tưởng đến nó?!”
 
 Thấy chọc người ta xù lông rồi, Eritu mới xoay người lại. Mặc kệ Inlay giãy giụa, hắn ôm chặt anh vào lòng, siết mạnh vòng tay. Mỗi khi đôi mắt xanh thẳm khó lường và bạc bẽo kia nhìn Inlay, tình ý dịu dàng bên trong luôn đong đầy như chực trào ra, cười đầy ẩn ý:
 
-“Thực ra tơ tưởng cũng chẳng sao, sau này anh tơ tưởng đến ai, em cứ giết kẻ đó là được, vậy chẳng phải vấn đề được giải quyết rồi sao?”
+“Thực ra tơ tưởng cũng chẳng sao, sau này em tơ tưởng đến ai, anh cứ giết kẻ đó là được, vậy chẳng phải vấn đề được giải quyết rồi sao?”
 
 Lời nói của hắn dường như chỉ là buột miệng nói chơi, lại như pha lẫn vài phần chân tình, khiến Inlay giật mình kinh hãi. Anh thoáng nghi ngờ mọi toan tính của mình đều bị người trước mặt nhìn thấu, ngay cả tay cầm súng cũng vô thức lỏng ra vài phần.
 
-Ánh mắt Inlay dao động: “Em không hiểu ý anh.”
+Ánh mắt Inlay dao động: “Anh không hiểu ý em.”
 
-Eritu nâng cằm anh lên, chậm rãi hôn một hồi lâu cho đến khi đôi môi mềm mại của đối phương đỏ mọng và hơi sưng lên mới hài lòng dừng lại. Giọng hắn khàn khàn đầy gợi cảm: “Không hiểu cũng không sao, em chỉ cần biết trong lòng anh chỉ có một mình em là đủ rồi, nhé?”
+Eritu nâng cằm anh lên, chậm rãi hôn một hồi lâu cho đến khi đôi môi mềm mại của đối phương đỏ mọng và hơi sưng lên mới hài lòng dừng lại. Giọng hắn khàn khàn đầy gợi cảm: “Không hiểu cũng không sao, anh chỉ cần biết trong lòng em chỉ có một mình anh là đủ rồi, nhé?”
 
 Nói xong, hắn liếc nhìn khẩu súng trong tay Inlay cười cười: “Lần sau súng không có đạn thì đừng mang ra dọa người, dễ bị lộ lắm.”
 
-Inlay thẹn quá hóa giận ngước mắt lên: “Anh!”
+Inlay thẹn quá hóa giận ngước mắt lên: “Em!”
 
-Eritu đã ranh mãnh lùi lại hai bước kéo giãn khoảng cách, xoay người đi vào phòng tắm: “Anh đi tắm trước đây.”
+Eritu đã ranh mãnh lùi lại hai bước kéo giãn khoảng cách, xoay người đi vào phòng tắm: “Em đi tắm trước đây.”
 
 Cửa kính trượt lại, ngăn cách tiếng nước chảy rào rào bên trong.
 
@@ -164,7 +164,7 @@ Inlay: “…”
 
 【Tác giả có lời muốn nói】
 
-Inlay: QAQ Quả nhiên cậu lừa tôi, trong lòng cậu căn bản không có tôi!!!!!!
+Inlay: QAQ Quả nhiên em lừa anh, trong lòng em căn bản không có anh!!!!!!
 
 Eritu (trầm tư suy nghĩ): Nhân lúc tao không có mặt mày cố tình gây sự đúng không?
 
