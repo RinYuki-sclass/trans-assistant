@@ -2,6 +2,10 @@
 
 Hệ thống được thiết kế theo mô hình **1 Orchestrator điều phối trung tâm** và **5 Subagents chuyên biệt**, tích hợp sẵn trong thư mục [`.agents/skills/`](file:///d:/Nhung/RIDI/trans-assistant/.agents/skills).
 
+> ⛔ **QUY TẮC TOÀN SOURCE (ZERO GOOGLE API KEY MANDATE):**  
+> Khi Coding Agent hoặc Orchestrator điều phối các subagents thực hiện pipeline: Toàn bộ quá trình đọc, dịch, QC, tóm tắt diễn ra **100% in-context trực tiếp**. Tuyệt đối **KHÔNG ĐƯỢC CHẠY** bất kỳ script nào gọi API ngoài qua `GEMINI_API_KEY` hay Google API Key.
+
+
 ---
 
 ## 🎯 1. NHẠC TRƯỞNG TRUNG TÂM: `novel-orchestrator`

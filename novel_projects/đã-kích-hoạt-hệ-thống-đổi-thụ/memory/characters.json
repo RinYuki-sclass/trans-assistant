@@ -58,5 +58,86 @@
     "honorifics": "với Kỷ Liên Nhất: tôi - ký chủ",
     "speech_style": "Điện tử, trực tiếp, hỗ trợ ký chủ xử lý khi bị cắm sừng",
     "notes": "Hệ thống hỗ trợ ký chủ đổi đối tượng thụ mới khi người cũ phản bội ('Người kế tiếp sẽ ngoan hơn')"
+  },
+  {
+    "name": "Min Congqian",
+    "hanviet_name": "Mẫn Tòng Khiêm",
+    "original_name": "闵从谦",
+    "gender": "Beta (Nam)",
+    "role": "Công chính Arc 2 (Beta thiếu gia bị bế nhầm, nhà nghiên cứu cơ giáp)",
+    "aliases": ["Khiêm Khiêm", "tên Beta vô dụng", "Tòng Khiêm"],
+    "narration_pronoun": "cậu (hoặc anh trong bối cảnh độc lập)",
+    "honorifics": "với Tiết Cảnh Minh: tôi/em - anh/ông anh già; với Tiết Tòng Nhiên: tao/tôi - mày/cậu; với Lục Lục: tôi - Lục Lục",
+    "speech_style": "Bên ngoài giả bộ ngoan ngoãn lầm lì để che giấu, bên trong thâm hiểm, miệng lưỡi sắc bén, cay độc, trả thù thẳng tay, không ngán ai",
+    "notes": "24 tuổi, Beta duy nhất trong nhà họ Tiết, cao lớn không thua gì Alpha, mắt hoa đào, sức ăn cực khỏe. Bị Ôn Ngọc cắm sừng nên kích hoạt hệ thống đổi thụ, nhắm thẳng vào ông anh cả Tiết Cảnh Minh gia trưởng"
+  },
+  {
+    "name": "Xue Jingming",
+    "hanviet_name": "Tiết Cảnh Minh",
+    "original_name": "薛景明",
+    "gender": "Alpha (Nam)",
+    "role": "Thụ chính Arc 2 (Anh cả Alpha gia trưởng phong kiến, người thừa kế nhà họ Tiết)",
+    "aliases": ["anh cả", "đại thiếu gia", "tổng tài Tiết"],
+    "narration_pronoun": "anh / gã Alpha / hắn",
+    "honorifics": "với Mẫn Tòng Khiêm: anh/tôi - cậu/mày; với Tiết Tòng Nhiên: anh - em",
+    "speech_style": "Bề trên, gia trưởng, hay chỉ trích dạy đời, sĩ diện cao, luôn muốn kiểm soát em trai hờ nhưng bên trong khao khát và bị chọc tức đến phát điên",
+    "notes": "Alpha ưu tú, người thừa kế gia tộc họ Tiết, có vết bớt đỏ hình bướm ở gốc đùi. Bị Mẫn Tòng Khiêm chụp ảnh nude tống tiền/khiêu khích, bị đánh thước kẻ tím mông và dần dần rơi vào bẫy tình"
+  },
+  {
+    "name": "Xue Congran",
+    "hanviet_name": "Tiết Tòng Nhiên",
+    "original_name": "薛从然",
+    "gender": "Omega (Nam)",
+    "role": "Em trai út nhà họ Tiết (Diễn viên)",
+    "aliases": ["Tòng Nhiên", "thằng nhóc quậy phá"],
+    "narration_pronoun": "cậu ta / nó",
+    "honorifics": "với Tiết Cảnh Minh: em - anh cả; với Mẫn Tòng Khiêm: tôi - anh/mày",
+    "speech_style": "Kiêu kỳ, bốc đồng, tự cao, con cưng trong nhà, hay xỉa xói chê bai Mẫn Tòng Khiêm",
+    "notes": "Omega út nhà họ Tiết, làm diễn viên, luôn được cha mẹ và anh cả cưng chiều, hay nói nhiều trong bữa ăn"
+  },
+  {
+    "name": "Wen Yu",
+    "hanviet_name": "Ôn Ngọc",
+    "original_name": "温玉",
+    "gender": "Omega (Nam)",
+    "role": "Bạn trai cũ phản bội của Mẫn Tòng Khiêm (Nguyên thụ Arc 2)",
+    "aliases": ["tiểu Ngọc"],
+    "narration_pronoun": "cậu ta / Ôn Ngọc",
+    "honorifics": "với Mẫn Tòng Khiêm: em - anh; với Tiết Cảnh Minh: em - anh Tiết",
+    "speech_style": "Điệu đà, thảo mai, thực dụng, ham phú quý",
+    "notes": "Omega chê Mẫn Tòng Khiêm nghèo và nhạt nhẽo nên lén lút sau lưng, sau đó muốn quyến rũ Tiết Cảnh Minh nhưng bị bẽ mặt"
+  },
+  {
+    "name": "Xue Shanqing",
+    "hanviet_name": "Tiết Sơn Thanh",
+    "original_name": "薛山青",
+    "gender": "Alpha (Nam)",
+    "role": "Cha gia trưởng nhà họ Tiết",
+    "aliases": ["ông Tiết", "ba"],
+    "narration_pronoun": "ông / ông Tiết",
+    "honorifics": "với các con: ba/ta - các con/mày",
+    "speech_style": "Nghiêm nghị, gia trưởng phong kiến cổ hủ, coi trọng danh tiếng dòng họ"
+  },
+  {
+    "name": "Ning Lizhen",
+    "hanviet_name": "Ninh Lệ Trân",
+    "original_name": "宁丽珍",
+    "gender": "Omega (Nữ)",
+    "role": "Mẹ nhà họ Tiết",
+    "aliases": ["bà Tiết", "mẹ"],
+    "narration_pronoun": "bà / bà Tiết",
+    "honorifics": "với các con: mẹ - các con",
+    "speech_style": "Quý phái, chiều chuộng con cưng Omega, thờ ơ lạnh nhạt với Beta Mẫn Tòng Khiêm"
+  },
+  {
+    "name": "Han Xiaomei & Min Kai",
+    "hanviet_name": "Hàn Hiểu Mai & Mẫn Khải",
+    "original_name": "韩晓梅 & 闵凯",
+    "gender": "Nữ & Nam",
+    "role": "Cha mẹ ruột dưới quê của Mẫn Tòng Khiêm",
+    "aliases": ["mẹ Hiểu Mai", "ba Mẫn"],
+    "narration_pronoun": "bà / ông",
+    "honorifics": "với Mẫn Tòng Khiêm: mẹ/ba - Khiêm Khiêm/con",
+    "speech_style": "Chân chất, ấm áp, thương yêu con ruột thật lòng, gửi đồ ăn quê lên cho con"
   }
 ]

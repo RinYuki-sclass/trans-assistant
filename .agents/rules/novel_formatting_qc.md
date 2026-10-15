@@ -32,3 +32,9 @@ Khi thực hiện QC một chương trong bất kỳ dự án nào:
     - Tuyệt đối **KHÔNG** gán nhãn việc xuất hiện `-ie`, `-ah`, `-yah` là "lỗi hành văn", "lạm dụng đuôi `-ie`", "thừa đuôi `-ie`", "lặp lại hậu tố", hay "thừa thãi".
     - Tuyệt đối **KHÔNG** đề xuất xóa bỏ các hậu tố này trong cột "Đề xuất sửa tối thiểu (Minimal Patch)" nếu câu dịch không có lỗi nào khác.
   - **Phạm vi kiểm duyệt thực sự:** Chỉ bắt lỗi xưng hô nếu dịch sai lệch so với `characters.md` (ví dụ: tự ý đổi đại từ sai vai vế, Yerim xưng "cháu" thay vì "tôi", gọi cấp trên bằng "cậu ấy" thay vì "Cục trưởng/anh ấy", dịch sai nghĩa gốc, dịch sót hoặc thêm thắt tình tiết).
+
+## 4. QUY TẮC TOÀN SOURCE DÀNH CHO CODING AGENT (ZERO GOOGLE API KEY MANDATE)
+- **Tự thân dịch & xử lý trực tiếp:** Trên toàn bộ source, khi người dùng yêu cầu dịch thuật hoặc xử lý file, AI Code Agent (Coding Agent trong Antigravity IDE) **BẮT BUỘC PHẢI tự mình đọc nguyên tác (`source.md`) và dịch/xử lý trực tiếp** bằng ngữ cảnh và năng lực ngôn ngữ của chính Agent.
+- **NGHIÊM CẤM DÙNG TOOL GỌI GOOGLE API KEY:** Tuyệt đối **KHÔNG** được khởi chạy bất kỳ script Python, batch file hay tool bên ngoài nào tiêu tốn `GEMINI_API_KEY` / Google API Key (như `google.genai`, `GEMINI_API_KEY_x`...). Áp dụng cho mọi tác vụ trên toàn bộ source code nhằm triệt tiêu các lỗi 429 Resource Exhausted (hạn mức RPM), 503 Service Unavailable và không tiêu hao quota của người dùng.
+- **Thực thi trọn vẹn:** Agent tự đọc `source.md` -> tự dịch từng đoạn 1:1 -> ghi file `translation.md` -> tự làm báo cáo `qc_report.md` -> cập nhật `meta.json` và `timeline.json`.
+

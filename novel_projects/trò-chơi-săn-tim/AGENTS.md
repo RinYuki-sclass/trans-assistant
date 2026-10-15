@@ -12,7 +12,7 @@
   - 🌐 **JJWXC (Gốc):** https://www.jjwxc.net/onebook.php?novelid=3672062
   - 🌐 **NovelUpdates:** https://www.novelupdates.com/series/heart-hunting-game/
   - 📖 **52 Thư Khố (52shuku):** https://www.52shuku.net/ (tìm `狩心游戏 碉堡堡`)
-  - 📖 **Trấn Hồn Tiểu Thuyết (Zhenhunxiaoshuo):** https://www.zhenhunxiaoshuo.com/ (tìm `狩心游戏`)
+  - 📖 **Trấn Hồn Tiểu Thuyết (Zhenhunxiaoshuo):** https://www.zhenhunxiaoshuo.com/shouxinyouxi/
   - 📖 **Đam Mỹ Tiểu Thuyết (Dmxs):** https://www.dmxs.org/ (tìm `狩心游戏`)
   - 🇻🇳 **Bản dịch tham khảo (Noisy Team):** https://noisyteam.wordpress.com/dam-my/hien-dai/he-thong-tro-choi-san-trai-tim/
 
