@@ -34,5 +34,53 @@
     "vietnamese": "Chó Rottweiler",
     "category": "Động vật / Giống chó",
     "notes": "Giống chó chăn gia súc và bảo vệ của Đức, vóc dáng to lớn, lông ngắn màu đen pha vàng nâu"
+  },
+  {
+    "term": "戒尺",
+    "vietnamese": "Thước kẻ / Thước gia quy",
+    "category": "Vật dụng / Trừng phạt",
+    "notes": "Thước kẻ bằng gỗ hoặc kim loại Tiết Cảnh Minh dùng để đánh phạt em trai, sau bị Mẫn Tòng Khiêm dùng để quất mông Tiết Cảnh Minh"
+  },
+  {
+    "term": "人形机甲 / 机甲",
+    "vietnamese": "Cơ giáp hình người / Cơ giáp",
+    "category": "Khoa học công nghệ",
+    "notes": "Lĩnh vực nghiên cứu chế tạo chính của Mẫn Tòng Khiêm tại viện nghiên cứu"
+  },
+  {
+    "term": "信息素",
+    "vietnamese": "Pheromone",
+    "category": "ABO",
+    "notes": "Mùi hương đặc trưng thể hiện trạng thái cảm xúc, áp bức hoặc hấp dẫn giới tính trong thế giới ABO"
+  },
+  {
+    "term": "抑制贴 / 抑制剂",
+    "vietnamese": "Miếng dán ức chế / Thuốc ức chế",
+    "category": "ABO / Y tế",
+    "notes": "Dùng để ngăn chặn sự phát tán pheromone và kiểm soát kỳ phát tình/dịch cảm"
+  },
+  {
+    "term": "易感期",
+    "vietnamese": "Kỳ dịch cảm",
+    "category": "ABO",
+    "notes": "Giai đoạn Alpha trở nên nhạy cảm, dễ kích động, bất an và có tính chiếm hữu tột độ"
+  },
+  {
+    "term": "发情期",
+    "vietnamese": "Kỳ phát tình",
+    "category": "ABO",
+    "notes": "Giai đoạn Omega tiết nhiều pheromone và khao khát được đánh dấu"
+  },
+  {
+    "term": "荔枝味",
+    "vietnamese": "Mùi vải / Hương vải",
+    "category": "Đặc trưng nhân vật",
+    "notes": "Hương thơm thanh mát tự nhiên trên người Mẫn Tòng Khiêm khiến Tiết Cảnh Minh mê mẩn"
+  },
+  {
+    "term": "蝴蝶胎记",
+    "vietnamese": "Vết bớt hình bướm",
+    "category": "Đặc trưng nhân vật",
+    "notes": "Vết bớt màu đỏ hình con bướm ở gốc đùi của Tiết Cảnh Minh, bí mật bị Mẫn Tòng Khiêm nắm thóp"
   }
 ]

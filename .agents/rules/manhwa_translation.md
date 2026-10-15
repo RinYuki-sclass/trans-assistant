@@ -41,3 +41,7 @@
   - YR ↔ Sung Hyunjae (HJ): Cháu – Chú (*chú Hội trưởng / ngài Hội trưởng*).
 - **Song Taewon (TW) ↔ Han Yoojin (YJ):** Tôi – Cậu (TW gọi YJ: *Han Yoojin-ssi*) & Tôi – Anh (YJ gọi TW).
 - **Yoo Myungwoo (YMW):** Độc thoại tự xưng "Tôi".
+
+## 6. Quy tắc thực thi từ Coding Agent (Zero Google API Key Mandate)
+- **Tự thân OCR & Dịch trực tiếp:** Khi người dùng yêu cầu Coding Agent xử lý ảnh manhwa, Agent tự đọc ảnh và dịch trực tiếp bằng năng lực multimodal in-context.
+- **Nghiêm cấm gọi Google API Key:** Tuyệt đối không chạy script Python trung gian gọi API ngoài qua `GEMINI_API_KEY` hay Google GenAI để tránh lỗi 429 quota và 503 high demand.

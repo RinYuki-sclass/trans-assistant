@@ -42,7 +42,7 @@ graph TD
 | :--- | :--- | :--- | :--- |
 | Thiếu `source.md` hoặc rỗng | `EMPTY_NEEDS_SOURCE` | *(Không)* | Nhắc người dùng cung cấp raw vào `chapters/ch_xxx/source.md`. |
 | Có `source.md`, chưa có `qa_clarifications.md` | `NEEDS_PRESCAN` | **`novel-prescan-extractor`** | Quét raw, tạo Bảng A (xưng hô) & Bảng B (glossary mới), lưu vào `qa_clarifications.md` và trình người dùng duyệt. |
-| Người dùng đã duyệt QA, chưa có `translation.md` | `NEEDS_TRANSLATION` | **`novel-chunk-translator`** | Nạp QA đã duyệt và `AGENTS.md`, dịch 1:1, cách dòng `\n\n`, lưu vào `translation.md`. |
+| Người dùng đã duyệt QA, chưa có `translation.md` | `NEEDS_TRANSLATION` | **`novel-chunk-translator`** | Nạp QA đã duyệt và `AGENTS.md`, tự dịch trực tiếp 1:1 trong context (tuyệt đối không gọi script qua Google API Key), cách dòng `\n\n`, lưu vào `translation.md`. |
 | Đã có `translation.md`, chưa có `qc_report.md` | `NEEDS_QC` | **`novel-qc-auditor`** | Đối chiếu 5 tiêu chí với nguyên tác và `timeline.json`, xuất báo cáo vào `qc_report.md`. |
 | Người dùng duyệt các điểm vá QC | `NEEDS_POST_PROCESS` | **`novel-lorekeeper`** & **`novel-publisher-formatter`** | - Chạy `novel-lorekeeper`: ghi nhận diễn biến vào `timeline.json`, đồng bộ `characters.json`.<br>- Chạy `novel-publisher-formatter`: trích xuất bản dịch sạch và tạo `meta.json`. |
 | Đã có `meta.json` và `summary.json` | `COMPLETED` | **`novel-publisher-formatter`** | Báo cáo chương đã hoàn thiện 100%, sẵn sàng xuất bản WordPress. |

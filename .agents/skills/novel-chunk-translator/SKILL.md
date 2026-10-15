@@ -59,8 +59,11 @@ Khi dịch các bộ truyện thuộc `novel_projects/**`, để không bị b�
 
 ---
 
-## 🛠️ QUY TRÌNH THỰC HIỆN DỊCH
+## 🛠️ QUY TRÌNH THỰC HIỆN DỊCH (SELF-TRANSLATION MANDATE)
+
+> ⚠️ **TUYỆT ĐỐI CẤM GỌI GOOGLE API KEY:** Subagent / AI Code Agent PHẢI tự dịch trực tiếp trong context. Tuyệt đối KHÔNG chạy script trung gian hay gọi bất kỳ tool nào sử dụng `GEMINI_API_KEY` hay Google API Key bên ngoài.
 
 1. Đọc kỹ `AGENTS.md` của dự án và các cặp xưng hô đã được duyệt trong `qa_clarifications.md`.
-2. Dịch từng chunk đoạn và kiểm tra số đoạn: `len(source_paragraphs) == len(trans_paragraphs)`.
-3. Lưu kết quả vào `chapters/ch_xxx/translation.md`.
+2. Trực tiếp suy luận và dịch từng đoạn, đảm bảo khớp 1:1: `len(source_paragraphs) == len(trans_paragraphs)`.
+3. Đảm bảo các đoạn cách nhau đúng 1 dòng trống (`\n\n`), dấu thoại ngoặc kép `“...”`.
+4. Lưu kết quả vào `chapters/ch_xxx/translation.md`.
