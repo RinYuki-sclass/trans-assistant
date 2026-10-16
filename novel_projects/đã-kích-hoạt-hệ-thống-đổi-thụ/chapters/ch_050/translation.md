@@ -177,13 +177,13 @@ Mẫn Tòng Khiêm lập tức cúi đầu nhận lỗi.
 
 Tiết Cảnh Minh sau khi nghe những lời này của Mẫn Tòng Khiêm thì không khỏi lo lắng khôn nguôi, cộng thêm những chuyện trước đây, đứa em trai này của anh quả thực rất thích tiếp xúc đụng chạm thân thể.
 
-“Mẫn Tòng Khiêm, tôi cảnh cáo cậu, trước khi kết hôn tuyệt đối không được quan hệ tình dục.”
+“Mẫn Tòng Khiêm, anh cảnh cáo em, trước khi kết hôn tuyệt đối không được quan hệ tình dục.”
 
 “Hôn môi cũng không được phép.”
 
 Mẫn Tòng Khiêm kinh ngạc: “Hôn môi cũng không được á? Chỉ là hôn môi thôi mà, có làm sao đâu, tại sao lại không thể hôn môi cơ chứ?”
 
-Tiết Cảnh Minh nhìn chằm chằm vào đôi môi căng mọng đầy đặn mang sắc màu diễm lệ của chàng Beta: “Tôi nói không được là không được! Cậu bây giờ có đối tượng xem mắt rồi là ngay cả lời của anh cả cũng không thèm nghe nữa đúng không!”
+Tiết Cảnh Minh nhìn chằm chằm vào đôi môi căng mọng đầy đặn mang sắc màu diễm lệ của chàng Beta: “Anh nói không được là không được! Em bây giờ có đối tượng xem mắt rồi là ngay cả lời của anh cả cũng không thèm nghe nữa đúng không!”
 
 Mẫn Tòng Khiêm tỏ vẻ tủi thân ấm ức.
 
@@ -313,9 +313,9 @@ Gương mặt gã Alpha đỏ bừng lên vì phẫn nộ và sỉ nhục. Vừa
 
 Mẫn Tòng Khiêm vừa định vung tay đánh phát thứ hai liền giật thót tim một cái, chỉ cảm thấy không thể tin nổi, làm sao mà anh lại liên tưởng đến cậu được cơ chứ?
 
-Tiết Cảnh Minh sa sầm mặt mày: “Nếu là cậu, tốt nhất cậu nên dừng tay lại ngay lập tức.”
+Tiết Cảnh Minh sa sầm mặt mày: “Nếu là em, tốt nhất em nên dừng tay lại ngay lập tức.”
 
-Mẫn Tòng Khiêm nghĩ thầm: Dám đe dọa tôi à?
+Mẫn Tòng Khiêm nghĩ thầm: Dám đe dọa em à?
 
 Lại vỗ thêm một phát nữa vào mông Tiết Cảnh Minh, không thể không thừa nhận cảm giác tay thực sự quá đỗi tuyệt vời, đánh một phát là bàn tay như bị độ đàn hồi bắn bật trở lại.
 

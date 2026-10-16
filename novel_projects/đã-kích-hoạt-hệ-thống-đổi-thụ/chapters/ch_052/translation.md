@@ -183,7 +183,7 @@ Tiết Tòng Nhiên bị cậu nhìn đến ngượng ngùng: “Tôi cũng khô
 
 Mẫn Tòng Khiêm cười một tiếng: “Danh tiếng à...”
 
-Cậu xoa nhẹ mái tóc xoăn nhỏ của chàng Omega, như đang vuốt ve một chú cừu nhỏ đáng yêu: “Cậu có giác ngộ này anh cả sẽ vui lắm đấy, tôi đi đây.”
+Cậu xoa nhẹ mái tóc xoăn nhỏ của chàng Omega, như đang vuốt ve một chú cừu nhỏ đáng yêu: “Em có giác ngộ này anh cả sẽ vui lắm đấy, anh đi đây.”
 
 ——
 

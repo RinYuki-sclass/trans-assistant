@@ -113,7 +113,7 @@ Mẫn Tòng Khiêm cất điện thoại đi: “Cậu thì hiểu cái gì, anh
 
 Chàng Beta vô cùng kiêu hãnh tự hào.
 
-Bàng Tranh cạn lời: “Hồi trước cậu đâu có nói như thế, hồi trước rõ ràng cậu bảo anh trai cậu là một lão cổ hủ gia trưởng, cuồng khống chế, sớm muộn gì cũng có ngày cậu lật đổ ông ta, đánh bại ông ta, vùng lên giải phóng hát vang bài ca chiến thắng cơ mà!”
+Bàng Tranh cạn lời: “Hồi trước cậu đâu có nói như thế, hồi trước rõ ràng cậu bảo anh trai cậu là một lão cổ hủ gia trưởng, cuồng khống chế, sớm muộn gì cũng có ngày cậu lật đổ anh ta, đánh bại anh ta, vùng lên giải phóng hát vang bài ca chiến thắng cơ mà!”
 
 Mẫn Tòng Khiêm sống chết không chịu thừa nhận mình từng nói những lời như thế, bọn họ vừa đùa giỡn vừa bước vào phòng bao, miệng vẫn không ngừng tranh cãi về vấn đề này.
 
@@ -283,7 +283,7 @@ Chàng Beta cố chấp bỗng nhiên đổi hẳn tông giọng.
 
 Cái ôm siết chặt này của cậu, thứ cứng ngắc kia thế mà lại lọt tọt chạy thẳng vào giữa hai đùi của gã Alpha, chàng Beta nào đã từng có được đãi ngộ thế này bao giờ, đầu óc còn chưa kịp phản ứng xem chuyện gì đang xảy ra thì thân thể đã bắt đầu tìm kiếm theo bản năng nguyên thủy nhất.
 
-Tiết Cảnh Minh sững sờ trong giây lát mới kịp nhận thức được chuyện gì vừa xảy ra, giọng nói vì sốt ruột mà vút cao lên, anh xoay tay đẩy Mẫn Tòng Khiêm ra: “Mẫn Tòng Khiêm! Cậu nằm yên ngủ cho tôi!”
+Tiết Cảnh Minh sững sờ trong giây lát mới kịp nhận thức được chuyện gì vừa xảy ra, giọng nói vì sốt ruột mà vút cao lên, anh xoay tay đẩy Mẫn Tòng Khiêm ra: “Mẫn Tòng Khiêm! Em nằm yên ngủ cho anh!”
 
 “Anh ơi, anh...”
 
@@ -295,7 +295,7 @@ Tiết Cảnh Minh gặp phải một tên ma men toàn thân tràn trề sức 
 
 “Mẫn Tòng Khiêm!”
 
-“Tôi đánh cậu đấy!”
+“Anh đánh em đấy!”
 
 “Anh, em ngoan mà, em ngoan mà...”
 

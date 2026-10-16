@@ -8,27 +8,41 @@ description: >-
 # Novel Chunk Translator Subagent
 
 ## Purpose
-Translates raw novel content (`chapters/ch_xxx/source.md`) into fluent, faithful Vietnamese while strictly obeying project-specific `AGENTS.md` guidelines and verified glossary/pronoun decisions.
+Translates raw novel content (`chapters/ch_xxx/source.md`) into fluent, faithful Vietnamese while strictly obeying project-specific `AGENTS.md` guidelines, verified glossary/pronoun decisions, and **Phrase-by-Phrase Scene Pronoun Locking**.
+
+---
+
+## 🧩 CƠ CHẾ DỊCH THEO PHRASE / SCENE-CHUNK (PHASE 2 TIÊU CHUẨN)
+
+Khi dịch một chương dài (60 – 180+ đoạn), để ngăn chặn triệt để hiện tượng **Mỏi Ngữ Cảnh (Context Fatigue)** và **Trôi Đại Từ (Pronoun Drift)**:
+
+1. **Phân đoạn theo Phrase (25 – 40 đoạn/lượt):**
+   - Không nạp nguyên một chương dài vào dịch dồn 1 lần.
+   - Bẻ chương thành các Phrase theo phân cảnh tự nhiên (Scene Chunk) dựa trên `phrase_scene_map.json` hoặc bóc tách ngữ cảnh.
+   - Mỗi Phrase có tập hợp nhân vật xuất hiện cụ thể (Active Cast).
+
+2. **Khóa Cặp Xưng Hô Phân Cảnh (Scene Pronoun Locking):**
+   - Trước khi dịch mỗi Phrase, Agent kích hoạt **Chỉ thị khóa đại từ** cho phân cảnh đó.
+   - Ví dụ trong cảnh Công gặp Thụ: cặp xưng hô đã chọn là gì thì 100% các câu thoại trong cảnh đó phải khóa chặt cặp đó, cấm nhảy xưng hô giữa chừng.
 
 ---
 
 ## ⛔ NGUYÊN TẮC PHÒNG NGỪA CHARACTER & PRONOUN DRIFT NGAY TỪ KHÂU DỊCH
 
-Khi dịch các bộ truyện thuộc `novel_projects/**`, để không bị bắt lỗi ở khâu QC, dịch giả AI phải tuân thủ nghiêm ngặt bảng ma trận đại từ trong `AGENTS.md` của từng dự án và [novel_pronoun_conventions.md](file:///d:/Nhung/RIDI/trans-assistant/.agents/rules/novel_pronoun_conventions.md) (các dự án ngoài `novel_projects` như SVR/Hunter dịch theo glossary riêng):
+Khi dịch các bộ truyện thuộc `novel_projects/**`, để không bị bắt lỗi ở khâu QC, dịch giả AI phải tuân thủ nghiêm ngặt bảng ma trận đại từ trong `AGENTS.md` của từng dự án và [novel_pronoun_conventions.md](file:///d:/Nhung/RIDI/trans-assistant/.agents/rules/novel_pronoun_conventions.md):
 
 ### 1. Quy tắc Ngôi Kể Thứ 3 Trần Thuật (Narrative):
 * **Tra cứu ma trận thể loại:** Tuân thủ hướng dẫn đại từ (`anh`, `cậu`, `y`, `hắn`, `gã`) theo bối cảnh trong [novel_pronoun_conventions.md](file:///d:/Nhung/RIDI/trans-assistant/.agents/rules/novel_pronoun_conventions.md).
 * **Quy tắc Tuổi Tác & Phân ngôi trong truyện Chủ công:**
   - **Mặc định (Công lớn tuổi hơn hoặc ngang hàng):** Công làm POV Anchor dùng đại từ `"anh"` (hoặc `"hắn"` trong tiên hiệp); Thụ dùng `"cậu"` (thiếu niên, giả ngoan), hoặc `"hắn"` (Cường Thụ u ám, tướng quân), hoặc `"y"` (cổ đại/tiên hiệp).
-  - ⭐ **ĐẶC BIỆT KHI THỤ LỚN TUỔI HƠN CÔNG (Niên hạ công x Niên thượng thụ):** Bắt buộc tuân thủ quy tắc tuổi tác: **Công là `"cậu"`**, **Thụ là `"anh"`**.
-* **Tra công / Phản diện nam (Lệ Yến Trạch, Friedrich):** Dùng `"hắn"` (tuyệt đối KHÔNG dùng `"anh"`).
+  - ⭐ **ĐẶC BIỆT KHI THỤ LỚN TUỔI HƠN CÔNG (Niên hạ công x Niên thượng thụ - Ví dụ: Đổi Thụ Arc 3):** Bắt buộc tuân thủ quy tắc tuổi tác: **Công là `"cậu"`**, **Thụ là `"anh"`**.
+* **Tra công / Phản diện nam (Lệ Yến Trạch, Friedrich, Lý Tỉnh):** Dùng `"hắn"`, `"cậu ta"` (tuyệt đối KHÔNG dùng `"anh"`).
 * **Phản diện giả tạo / Trà xanh (Chu Lạc Lạc, Felo, Elio):** Dùng `"gã"`, `"gã ta"`, `"hắn"` (tuyệt đối KHÔNG dùng `"cậu"`, `"cậu ta"`).
 * **Quy tắc Nhập Xác:** Khi Công đã nhập vào thân xác (dù tác giả ghi Ryan hay Tống Lạc An), toàn bộ hành động và tâm tư của nhân vật chính đều quy nhất về `"anh"`.
 
 ### 2. Quy tắc Xưng Hô Đối Thoại Trực Tiếp (Dialogue):
 * **Cặp Công - Thụ:**
-  * Công (Sở Tư Thừa): Xưng `"tôi"`, gọi Thụ là `"anh"` / tên riêng / danh xưng.
-  * Thụ (Alex / Thẩm Từ): Xưng `"tôi"`, gọi Công là `"cậu"` (❌ **TUYỆT ĐỐI CẤM** Thụ gọi Công là `"anh"`).
+  * Theo đúng quy định của từng bộ trong `AGENTS.md`.
   * ❌ **CẤM HIỆN TƯỢNG ANH - ANH:** Không để 2 người nam cùng gọi nhau là "anh - anh" trong cùng một phân cảnh đối thoại.
 * **Speaker Tracking chủ động:** Luôn xác định ai là người mở miệng nói trước khi chọn đại từ xưng hô trong câu thoại.
 * **Tiếng lòng vs Lời nói:** Phân tách rõ ràng giữa tiếng lòng đọc tâm trong ngoặc vuông `【...】` và lời nói phát ra ngoài miệng trong ngoặc kép `“...”`.
@@ -59,11 +73,14 @@ Khi dịch các bộ truyện thuộc `novel_projects/**`, để không bị b�
 
 ---
 
-## 🛠️ QUY TRÌNH THỰC HIỆN DỊCH (SELF-TRANSLATION MANDATE)
+## 🛠️ QUY TRÌNH THỰC HIỆN DỊCH THEO PHRASE (SELF-TRANSLATION MANDATE)
 
 > ⚠️ **TUYỆT ĐỐI CẤM GỌI GOOGLE API KEY:** Subagent / AI Code Agent PHẢI tự dịch trực tiếp trong context. Tuyệt đối KHÔNG chạy script trung gian hay gọi bất kỳ tool nào sử dụng `GEMINI_API_KEY` hay Google API Key bên ngoài.
 
-1. Đọc kỹ `AGENTS.md` của dự án và các cặp xưng hô đã được duyệt trong `qa_clarifications.md`.
-2. Trực tiếp suy luận và dịch từng đoạn, đảm bảo khớp 1:1: `len(source_paragraphs) == len(trans_paragraphs)`.
-3. Đảm bảo các đoạn cách nhau đúng 1 dòng trống (`\n\n`), dấu thoại ngoặc kép `“...”`.
-4. Lưu kết quả vào `chapters/ch_xxx/translation.md`.
+1. **Nạp Ngữ Cảnh & Bản Đồ:** Đọc kỹ `AGENTS.md` của dự án và `phrase_scene_map.json` (hoặc phân cảnh đã bóc tách từ Phase 1).
+2. **Dịch tuần tự theo từng Phrase:**
+   - Dịch Phrase 1 (Đoạn 1..N) ➔ Áp dụng Khóa xưng hô Scene 1.
+   - Dịch Phrase 2 (Đoạn N+1..M) ➔ Áp dụng Khóa xưng hô Scene 2.
+   - Đảm bảo mỗi đoạn khớp 1:1: `len(source_paragraphs) == len(trans_paragraphs)`.
+3. **Định dạng:** Đảm bảo các đoạn cách nhau đúng 1 dòng trống (`\n\n`), dấu thoại ngoặc kép `“...”`.
+4. **Lưu kết quả:** Lưu kết quả nối vào `chapters/ch_xxx/translation.md`.

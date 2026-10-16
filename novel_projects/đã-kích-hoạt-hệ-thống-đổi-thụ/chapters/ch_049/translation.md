@@ -13,9 +13,9 @@ Tiết Cảnh Minh nhíu mày, qua chuỗi sự việc gần đây anh cũng đ�
 
 Nhìn mà bốc hỏa.
 
-“Cậu thì hiểu cái gì, đừng có đồng ý bừa.” Gã Alpha quở trách một câu, sau đó giọng điệu trầm bổng nhấn nhá, liên tiếp ném ra hàng loạt câu hỏi: “Cậu có biết tính cách người ta ra sao không? Ngoại hình thế nào? Có sở thích gì? Có khuyết điểm gì không? Thói quen ăn uống, sinh hoạt, cách suy nghĩ của hai người có hòa hợp nổi không?”
+“Em thì hiểu cái gì, đừng có đồng ý bừa.” Gã Alpha quở trách một câu, sau đó giọng điệu trầm bổng nhấn nhá, liên tiếp ném ra hàng loạt câu hỏi: “Em có biết tính cách người ta ra sao không? Ngoại hình thế nào? Có sở thích gì? Có khuyết điểm gì không? Thói quen ăn uống, sinh hoạt, cách suy nghĩ của hai người có hòa hợp nổi không?”
 
-Tiết Cảnh Minh càng nói càng nghiêm túc. Cơn giận của Alpha không bùng phát dữ dội như núi lửa phun trào, mà tựa như những đám mây đen kịt ngày càng dày đặc ngưng tụ phía trên phòng ăn, mang đến áp lực nặng nề tựa cơn giông bão sắp ập xuống: “Những thứ này cậu đều không biết gì cả, cậu đồng ý cái nỗi gì!”
+Tiết Cảnh Minh càng nói càng nghiêm túc. Cơn giận của Alpha không bùng phát dữ dội như núi lửa phun trào, mà tựa như những đám mây đen kịt ngày càng dày đặc ngưng tụ phía trên phòng ăn, mang đến áp lực nặng nề tựa cơn giông bão sắp ập xuống: “Những thứ này em đều không biết gì cả, em đồng ý cái nỗi gì!”
 
 Tiết Tòng Nhiên lén lút đặt đũa xuống, ngồi ngay ngắn nghiêm chỉnh. Dù không phải đang mắng mình, nhưng Omega tuổi còn nhỏ nên lá gan cũng bé, huống chi cậu ta rất hiếm khi thấy Tiết Cảnh Minh nổi trận lôi đình như thế này.
 
@@ -31,7 +31,7 @@ Mẫn Tòng Khiêm thầm đắc ý cười trộm trong lòng.
 
 Câu hỏi của cậu khiến Tiết Cảnh Minh nhất thời cứng họng và sững sờ, tựa như một hồi chuông cảnh báo vang lên inh ỏi trong tâm trí. Trước mắt anh, đứa em trai thứ hai vẻ mặt đầy khó hiểu, đôi mắt hoa đào xinh đẹp chớp chớp hai cái, ngây thơ thuần khiết đến nhường nào.
 
-“Chỉ là cái thói quen hành động thiếu suy nghĩ của cậu khiến tôi không vừa mắt thôi.”
+“Chỉ là cái thói quen hành động thiếu suy nghĩ của em khiến anh không vừa mắt thôi.”
 
 Tiết Cảnh Minh nghẹn hồi lâu mới thốt ra được câu này. Alpha làm việc xưa nay luôn có kế hoạch rõ ràng, tuyệt đối không bao giờ hấp tấp đồng ý một chuyện mà mình hoàn toàn mù tịt, huống chi chuyện này là cùng một người xa lạ đi hết nửa phần đời còn lại. Cho nên anh chỉ là chướng mắt mà thôi.
 
@@ -71,7 +71,7 @@ Lục Lục trong vai trò một hệ thống im lặng hai giây rồi không n
 
 Đối với Mẫn Tòng Khiêm mà nói, dường như chẳng có rào cản nào, cái gì mà anh trai, cái gì mà luân thường đạo lý, cậu chính là muốn ức hiếp, dày vò Tiết Cảnh Minh. Muốn Tiết Cảnh Minh không vui, Tiết Cảnh Minh khó chịu thì cậu mới sảng khoái. Nhưng gần đây, cậu lại hy vọng Tiết Cảnh Minh sẽ vì cậu mà cảm thấy sung sướng.
 
-Cây bút xoay tròn vui vẻ trên những đầu ngón tay được cắt tỉa gọn gàng của chàng Beta. Mẫn Tòng Khiêm nhớ lại trong xe, gã Alpha hai mắt đỏ hoe thốt ra câu nói “Tôi không hề vứt bỏ cậu”.
+Cây bút xoay tròn vui vẻ trên những đầu ngón tay được cắt tỉa gọn gàng của chàng Beta. Mẫn Tòng Khiêm nhớ lại trong xe, gã Alpha hai mắt đỏ hoe thốt ra câu nói “Anh chưa bao giờ không cần em”.
 
 Được rồi, tạm thời tha thứ cho anh năm mươi phần trăm vậy.
 
@@ -131,7 +131,7 @@ Chàng Beta trông vô cùng vô tội: “Em đấm làm anh đau à? Vậy em 
 
 Những ngón tay thon dài của Mẫn Tòng Khiêm bắt đầu nắn bóp trên đùi Tiết Cảnh Minh. Dù cách một lớp vải quần vẫn có thể cảm nhận rõ ràng thớ cơ đùi săn chắc của gã Alpha. Cảm giác sờ nắn cực kỳ thích tay, là kiểu đùi mà chỉ cần bóp mạnh một cái, thịt săn sẽ tràn ra qua kẽ ngón tay.
 
-Tiết Cảnh Minh âm thầm hít sâu một hơi: “Chỉ là nghĩ đến chuyện có thể cậu sắp kết hôn rồi, cảm thấy cậu thực sự đã trưởng thành.”
+Tiết Cảnh Minh âm thầm hít sâu một hơi: “Chỉ là nghĩ đến chuyện có thể em sắp kết hôn rồi, cảm thấy em thực sự đã trưởng thành.”
 
 Nếu như có thể mãi mãi không lớn lên thì tốt biết mấy.
 
@@ -163,7 +163,7 @@ Mẫn Tòng Khiêm cũng luống cuống ngẩng đầu lên: “Anh, em xin l�
 
 Tiết Cảnh Minh thực ra không bị va đập đau, chỉ là khi chàng Beta vùi mặt vào đó, hơi thở nóng hổi thở ra vừa vặn len lỏi qua lớp vải quần chui vào bên trong, có chút nóng bỏng, chỗ bị viết chữ dường như cũng ngưa ngứa ran lên.
 
-Anh túm lấy Mẫn Tòng Khiêm kéo cậu đứng dậy khỏi mặt đất: “Tôi biết rồi, không còn sớm nữa, cậu về phòng nghỉ ngơi đi.”
+Anh túm lấy Mẫn Tòng Khiêm kéo cậu đứng dậy khỏi mặt đất: “Anh biết rồi, không còn sớm nữa, em về phòng nghỉ ngơi đi.”
 
 Mẫn Tòng Khiêm lại bắt đầu làm nũng: “Em muốn ngủ cùng với anh cơ.”
 
@@ -277,7 +277,7 @@ Mẫn Tòng Khiêm thấy Tiết Cảnh Minh vẫn cứ dửng dưng không chú
 
 Đến khi ăn xong bữa sáng, đối phương đã đồng ý lời mời kết bạn, Mẫn Tòng Khiêm lập tức đưa màn hình cho Tiết Cảnh Minh xem: “Anh, anh nhìn này, bọn em kết bạn rồi đó.”
 
-Tiết Cảnh Minh nhìn lướt qua: “Ánh sáng màn hình của cậu chói quá, đau mắt.”
+Tiết Cảnh Minh nhìn lướt qua: “Ánh sáng màn hình của em chói quá, đau mắt.”
 
 Mẫn Tòng Khiêm đang bật chế độ bảo vệ mắt: ?
 
@@ -289,7 +289,7 @@ Tiết Tòng Nhiên: “Xem ra cũng lịch sự phết đấy chứ, anh cũng 
 
 Mẫn Tòng Khiêm lại giơ điện thoại lên trước mặt Tiết Cảnh Minh: “Anh, em chẳng biết nói gì cả, anh dạy em đi.”
 
-Tiết Cảnh Minh liếc nhìn một cái rồi thu hồi tầm mắt: “Tôi phải đến công ty rồi, cậu cũng đến giờ phải đến trường rồi đấy.”
+Tiết Cảnh Minh liếc nhìn một cái rồi thu hồi tầm mắt: “Anh phải đến công ty rồi, em cũng đến giờ phải đến trường rồi đấy.”
 
 Mẫn Tòng Khiêm: “Vậy em tự trả lời anh ấy vậy.”
 

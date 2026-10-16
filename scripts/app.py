@@ -3122,13 +3122,22 @@ if tabs.is_active(9):
         with open(path, 'w', encoding='utf-8') as f:
             json.dump(data, f, ensure_ascii=False, indent=2)
 
-    def na_list_projects() -> list:
+    def na_list_projects(include_dropped: bool = False, include_completed: bool = False) -> list:
         if not os.path.exists(NOVEL_PROJECTS_DIR):
             return []
         result = []
         for name in sorted(os.listdir(NOVEL_PROJECTS_DIR)):
             cfg_path = os.path.join(NOVEL_PROJECTS_DIR, name, 'config.json')
             if os.path.exists(cfg_path):
+                if not include_dropped or not include_completed:
+                    try:
+                        cfg = na_load_config(name)
+                        if not include_dropped and cfg.get('is_dropped', False):
+                            continue
+                        if not include_completed and cfg.get('is_completed', False):
+                            continue
+                    except Exception:
+                        pass
                 result.append(name)
         return result
 
@@ -3137,6 +3146,32 @@ if tabs.is_active(9):
 
     def na_save_config(slug: str, cfg: dict):
         na_save_json(os.path.join(na_project_dir(slug), 'config.json'), cfg)
+
+    def na_set_project_dropped(slug: str, is_dropped: bool = True, drop_reason: str = None) -> bool:
+        """Mark a project as dropped or active in its config.json, optionally saving drop_reason."""
+        try:
+            cfg = na_load_config(slug)
+            cfg['is_dropped'] = is_dropped
+            if is_dropped:
+                cfg['is_completed'] = False
+                if drop_reason is not None:
+                    cfg['drop_reason'] = drop_reason.strip()
+            na_save_config(slug, cfg)
+            return True
+        except Exception:
+            return False
+
+    def na_set_project_completed(slug: str, is_completed: bool = True) -> bool:
+        """Mark a project as completed (finished reading) or active in its config.json."""
+        try:
+            cfg = na_load_config(slug)
+            cfg['is_completed'] = is_completed
+            if is_completed:
+                cfg['is_dropped'] = False
+            na_save_config(slug, cfg)
+            return True
+        except Exception:
+            return False
 
     def na_load_pronunciation_map(slug: str) -> str:
         """Load the saved pronunciation map text for a project, or '' if none exists."""
@@ -3830,6 +3865,264 @@ if tabs.is_active(9):
             print(f"[auto_memory] Error updating memory for {chapter_id}: {e}")
             return False
 
+    def na_export_quick_epub_bytes(slug: str) -> tuple[bytes, str] | None:
+        """Quickly compile translated chapters of a project into EPUB bytes."""
+        cfg = na_load_config(slug)
+        p_dir = na_project_dir(slug)
+        ch_list = na_list_chapters(slug)
+        tr_chs = []
+        for ch in ch_list:
+            tp = os.path.join(p_dir, 'chapters', ch, 'translation.md')
+            if os.path.exists(tp):
+                tr_chs.append((ch, tp))
+        if not tr_chs:
+            return None
+        from epub_generator import create_epub
+        import re as _re
+        epub_ch_list = []
+        for ch, tp in tr_chs:
+            try:
+                with open(tp, 'r', encoding='utf-8') as _f:
+                    full_md = _f.read()
+                ch_title = f"Chương {ch}"
+                t_match = _re.search(r'^---\s*\ntitle:\s*(.*?)\n---', full_md, _re.MULTILINE)
+                if t_match:
+                    ch_title = t_match.group(1).strip().strip('"\'')
+                body = _re.sub(r'^---[\s\S]*?---\s*', '', full_md, count=1).strip()
+                paras = [p.strip() for p in body.split('\n\n') if p.strip()]
+                epub_ch_list.append({
+                    'title': ch_title,
+                    'paragraphs': paras,
+                    'full_text': body,
+                    'word_count': len(body.split())
+                })
+            except Exception:
+                pass
+        if not epub_ch_list:
+            return None
+        fname = f"{na_slugify(cfg.get('title') or slug)}.epub"
+        ep_bytes = create_epub(
+            title=cfg.get('title') or slug,
+            author=cfg.get('author') or "Web Novel / Rin Translation",
+            chapters=epub_ch_list,
+            description=cfg.get('description') or "",
+            language="vi"
+        )
+        return ep_bytes, fname
+
+    def na_get_project_summary_stats(slug: str) -> dict:
+        """Calculate summary statistics for a project: chapter count, translated count, QC count, characters count, etc."""
+        cfg = na_load_config(slug)
+        ch_list = na_list_chapters(slug)
+        n_ch = len(ch_list)
+        
+        n_trans = 0
+        n_qc = 0
+        p_dir = na_project_dir(slug)
+        for ch in ch_list:
+            ch_p = os.path.join(p_dir, 'chapters', ch)
+            if os.path.exists(os.path.join(ch_p, 'translation.md')):
+                n_trans += 1
+            if os.path.exists(os.path.join(ch_p, 'review_report.json')) or os.path.exists(os.path.join(ch_p, 'qc_report.md')):
+                n_qc += 1
+                
+        mem = na_load_memory(slug)
+        n_chars = len(mem.get('characters', []))
+        n_terms = len(mem.get('glossary', []))
+        n_rels = len(mem.get('relationships', []))
+        
+        pct = int((n_trans / n_ch) * 100) if n_ch > 0 else 0
+        
+        raw_author = (cfg.get('author') or '').strip()
+        author_disp = raw_author if raw_author else "Web Novel / Rin Translation"
+        
+        return {
+            'slug': slug,
+            'title': cfg.get('title') or slug,
+            'author': author_disp,
+            'source_lang': cfg.get('source_lang') or 'Other',
+            'target_lang': cfg.get('target_lang') or 'Vietnamese',
+            'description': cfg.get('description') or '',
+            'created_at': cfg.get('created_at') or '',
+            'style_guide': cfg.get('style_guide') or '',
+            'raw_links': cfg.get('raw_links', {}),
+            'n_chapters': n_ch,
+            'n_translated': n_trans,
+            'n_qc': n_qc,
+            'progress_pct': pct,
+            'n_chars': n_chars,
+            'n_terms': n_terms,
+            'n_rels': n_rels,
+            'is_dropped': bool(cfg.get('is_dropped', False)),
+            'is_completed': bool(cfg.get('is_completed', False)),
+            'drop_reason': cfg.get('drop_reason', ''),
+        }
+
+    def na_get_all_projects_summary(include_archived: bool = True) -> list[dict]:
+        """Get summary stats for all existing projects."""
+        projects = na_list_projects(include_dropped=include_archived, include_completed=include_archived)
+        summaries = []
+        for p in projects:
+            try:
+                summaries.append(na_get_project_summary_stats(p))
+            except Exception:
+                pass
+        return summaries
+
+    def na_get_unique_authors(all_projects_summary: list) -> list[tuple[str, int]]:
+        """Extract unique authors with counts from all project summaries."""
+        from collections import Counter
+        counts = Counter()
+        for item in all_projects_summary:
+            auth = (item.get('author') or '').strip()
+            if auth:
+                counts[auth] += 1
+            else:
+                counts['Chưa rõ tác giả'] += 1
+        return sorted(counts.items(), key=lambda x: (-x[1], x[0].lower()))
+
+    def na_get_address_matrix_data(slug: str) -> dict:
+        """
+        Build a 2-way address matrix for characters in the project.
+        Returns:
+        - characters: list of dicts with name, hanviet_name, display_name, pronoun, gender, role
+        - matrix: dict {from_name: {to_name: address_str}}
+        - pair_status: dict {(from_name, to_name): 'complete' | 'one_way' | 'empty'}
+        """
+        import re as _re
+        memory = na_load_memory(slug)
+        raw_chars = memory.get('characters', [])
+        
+        char_list = []
+        seen_names = set()
+        for c in raw_chars:
+            if not isinstance(c, dict):
+                continue
+            name = (c.get('name') or '').strip()
+            hv = (c.get('hanviet_name') or '').strip()
+            if not (name or hv):
+                continue
+            primary_name = hv or name
+            if primary_name.lower() in seen_names:
+                continue
+            seen_names.add(primary_name.lower())
+            
+            p3 = (c.get('third_person_pronoun') or c.get('narration_pronoun') or '').strip()
+            gender = (c.get('gender') or '').strip()
+            role = (c.get('role') or '').strip()
+            
+            char_list.append({
+                'name': name,
+                'hanviet_name': hv,
+                'display_name': f"{hv} ({name})" if (hv and name and hv != name) else (hv or name),
+                'key_name': primary_name,
+                'pronoun': p3 or 'chưa đặt',
+                'gender': gender or 'Chưa rõ',
+                'role': role or 'Nhân vật',
+                'raw': c
+            })
+
+        address_map = {}
+        for r in memory.get('relationships', []):
+            if not isinstance(r, dict):
+                continue
+            addr = (r.get('address') or '').strip()
+            if not addr:
+                continue
+            p_from = (r.get('from') or '').strip()
+            p_to = (r.get('to') or '').strip()
+            pair = (r.get('pair') or '').strip()
+            if pair and (not p_from or not p_to):
+                m = _re.search(r'^(.*?)\s*(?:→|->|—|--|-)\s*(.*?)$', pair)
+                if m:
+                    p_from = m.group(1).strip()
+                    p_to = m.group(2).strip()
+            if p_from and p_to:
+                address_map[(p_from.lower(), p_to.lower())] = addr
+
+        matrix = {}
+        pair_status = {}
+        for c1 in char_list:
+            k1 = c1['key_name']
+            k1_lowers = {k1.lower(), c1['name'].lower(), c1['hanviet_name'].lower()} - {''}
+            matrix[k1] = {}
+            for c2 in char_list:
+                k2 = c2['key_name']
+                k2_lowers = {k2.lower(), c2['name'].lower(), c2['hanviet_name'].lower()} - {''}
+                if k1 == k2:
+                    matrix[k1][k2] = c1['pronoun']
+                    pair_status[(k1, k2)] = 'self'
+                else:
+                    found_addr = ''
+                    for f_low in k1_lowers:
+                        for t_low in k2_lowers:
+                            if (f_low, t_low) in address_map:
+                                found_addr = address_map[(f_low, t_low)]
+                                break
+                        if found_addr:
+                            break
+                    matrix[k1][k2] = found_addr
+
+        for c1 in char_list:
+            k1 = c1['key_name']
+            for c2 in char_list:
+                k2 = c2['key_name']
+                if k1 == k2:
+                    continue
+                a_to_b = matrix.get(k1, {}).get(k2, '')
+                b_to_a = matrix.get(k2, {}).get(k1, '')
+                if a_to_b and b_to_a:
+                    pair_status[(k1, k2)] = 'complete'
+                elif a_to_b or b_to_a:
+                    pair_status[(k1, k2)] = 'one_way'
+                else:
+                    pair_status[(k1, k2)] = 'empty'
+
+        return {
+            'characters': char_list,
+            'matrix': matrix,
+            'pair_status': pair_status
+        }
+
+    def na_save_address_matrix_entry(slug: str, char_a: str, char_b: str, addr_a_to_b: str, addr_b_to_a: str):
+        """Save bi-directional address pairs between Character A and Character B."""
+        memory = na_load_memory(slug)
+        rels = memory.setdefault('relationships', [])
+        gl = memory.setdefault('glossary', [])
+
+        if addr_a_to_b and addr_a_to_b.strip():
+            na_merge_relationship_entry(rels, {
+                'from': char_a.strip(),
+                'to': char_b.strip(),
+                'pair': f"{char_a.strip()} → {char_b.strip()}",
+                'address': addr_a_to_b.strip()
+            })
+            na_merge_glossary_entry(gl, {
+                'original': f"{char_a.strip()} → {char_b.strip()}",
+                'translation': addr_a_to_b.strip(),
+                'category': 'relationship',
+                'confidence': 1.0,
+                'approved': True
+            })
+
+        if addr_b_to_a and addr_b_to_a.strip():
+            na_merge_relationship_entry(rels, {
+                'from': char_b.strip(),
+                'to': char_a.strip(),
+                'pair': f"{char_b.strip()} → {char_a.strip()}",
+                'address': addr_b_to_a.strip()
+            })
+            na_merge_glossary_entry(gl, {
+                'original': f"{char_b.strip()} → {char_a.strip()}",
+                'translation': addr_b_to_a.strip(),
+                'category': 'relationship',
+                'confidence': 1.0,
+                'approved': True
+            })
+
+        na_save_memory(slug, memory)
+        return True
+
     def na_slugify(title: str) -> str:
         import re
         s = title.strip().lower()
@@ -4270,81 +4563,95 @@ if tabs.is_active(11):
         if st.session_state.get('na_project') in all_projects:
             _na_proj_default = _na_proj_opts.index(st.session_state['na_project'])
 
-        # ===================== SUB-TAB 0: PROJECTS =====================
+        # ===================== SUB-TAB 0: PROJECTS (NOVEL LIBRARY HUB) =====================
         with na_sub[0]:
-            st.markdown("### 📁 Quản lý Projects")
+            st.markdown("""
+            <div style='display:flex;justify-content:space-between;align-items:center;margin-bottom:0.8rem;'>
+              <div>
+                <h3 style='margin:0;color:#2D2A26;font-size:1.35rem;'>📚 Thư Viện Tiểu Thuyết (Novel Library Hub)</h3>
+                <span style='color:#6B7280;font-size:0.88rem;'>Quản lý tất cả dự án dịch thuật, tìm kiếm theo tác giả, theo dõi tiến độ và chuyển nhanh studio</span>
+              </div>
+            </div>
+            """, unsafe_allow_html=True)
 
-            col_list, col_create = st.columns([2, 3])
+            all_summaries = na_get_all_projects_summary(include_archived=True)
+            active_summaries = [p for p in all_summaries if not p['is_dropped'] and not p['is_completed']]
+            completed_summaries = [p for p in all_summaries if p['is_completed']]
+            dropped_summaries = [p for p in all_summaries if p['is_dropped']]
 
-            with col_list:
-                st.markdown("**Projects hiện có:**")
-                if not all_projects:
-                    st.info("Chưa có project nào. Tạo mới ở bên phải.")
-                else:
-                    for p in all_projects:
-                        pcfg = na_load_config(p)
-                        n_ch = len(na_list_chapters(p))
-                        active = (st.session_state.get('na_project') == p)
-                        border_color = '#0D9488' if active else '#D1CFC7'
-                        st.markdown(f"""
-                        <div style='border:1px solid {border_color};border-radius:8px;
-                             padding:0.7rem 1rem;margin-bottom:0.5rem;
-                             background:{'rgba(13, 148, 136, 0.08)' if active else '#F8F6F0'}'>
-                          <b style='color:#2D2A26'>{pcfg.get('title', p)}</b>
-                          <span style='float:right;color:#8c8273;font-size:12px'>{n_ch} chương</span><br>
-                          <span style='color:#5c564d;font-size:12px'>{pcfg.get('source_lang','?')} → {pcfg.get('target_lang','?')}</span>
-                        </div>
-                        """, unsafe_allow_html=True)
-                        c_sel, c_del = st.columns([3, 1])
-                        with c_sel:
-                            if st.button(f"✅ Chọn", key=f"na_sel_{p}", use_container_width=True):
-                                st.session_state['na_project'] = p
-                                st.rerun()
-                        with c_del:
-                            if st.button("🗑️", key=f"na_del_{p}", use_container_width=True,
-                                         help="Xóa project này"):
-                                st.session_state[f'na_del_confirm_{p}'] = True
-                        if st.session_state.get(f'na_del_confirm_{p}'):
-                            st.warning(f"Xóa project **{p}**? Không thể hoàn tác!")
-                            c1d, c2d = st.columns(2)
-                            if c1d.button("✅ Xác nhận xóa", key=f"na_del_ok_{p}", type="primary"):
-                                import shutil as _shutil
-                                _shutil.rmtree(na_project_dir(p), ignore_errors=True)
-                                if st.session_state.get('na_project') == p:
-                                    del st.session_state['na_project']
-                                del st.session_state[f'na_del_confirm_{p}']
-                                st.rerun()
-                            if c2d.button("❌ Hủy", key=f"na_del_cancel_{p}"):
-                                del st.session_state[f'na_del_confirm_{p}']
-                                st.rerun()
+            cur_lib_tab = st.session_state.get('na_lib_tab_mode', 'active')
+            if cur_lib_tab not in ['active', 'completed', 'dropped']:
+                cur_lib_tab = 'active'
 
-            with col_create:
-                st.markdown("**Tạo project mới:**")
-                with st.form("na_create_form"):
-                    na_title = st.text_input("Tên tiểu thuyết *", placeholder="VD: Thiên Đạo Đồ Thư Quán")
-                    na_author = st.text_input("Tác giả / Nguồn", value="Web Novel / Rin Translation", placeholder="VD: Tên tác giả hoặc nguồn dịch")
+            if cur_lib_tab == 'completed':
+                target_list_for_authors = completed_summaries
+            elif cur_lib_tab == 'dropped':
+                target_list_for_authors = dropped_summaries
+            else:
+                target_list_for_authors = active_summaries
+
+            unique_authors = na_get_unique_authors(target_list_for_authors)
+
+            total_active_cnt = len(active_summaries)
+            total_completed_cnt = len(completed_summaries)
+            total_dropped_cnt = len(dropped_summaries)
+            total_chapters_cnt = sum(p['n_chapters'] for p in active_summaries)
+            total_trans_cnt = sum(p['n_translated'] for p in active_summaries)
+            total_authors_cnt = len(unique_authors)
+
+            # --- TOP METRIC BANNER (5 METRICS) ---
+            col_m1, col_m2, col_m3, col_m4, col_m5 = st.columns(5)
+            with col_m1:
+                st.metric("Đang Theo Dõi", f"{total_active_cnt} truyện", help="Các tiểu thuyết đang dịch / hoạt động trong thư viện")
+            with col_m2:
+                st.metric("Đã Đọc Xong", f"{total_completed_cnt} bộ", help="Những bộ đã đọc xong (ẩn khỏi giao diện chính, giữ 100% file trong src)")
+            with col_m3:
+                st.metric("Drop List", f"{total_dropped_cnt} bộ", help="Những bộ đã ngừng theo dõi (ẩn khỏi giao diện chính, giữ 100% file trong src)")
+            with col_m4:
+                st.metric("Chương Đã Dịch", f"{total_trans_cnt} / {total_chapters_cnt}", f"{int(total_trans_cnt/total_chapters_cnt*100)}%" if total_chapters_cnt > 0 else "0%")
+            with col_m5:
+                curr_act = st.session_state.get('na_project')
+                curr_title = next((p['title'] for p in all_summaries if p['slug'] == curr_act), 'Chưa chọn')
+                st.metric("Dự Án Đang Mở", curr_title[:16] + ('...' if len(curr_title) > 16 else ''))
+
+            # --- EXPANDER TẠO PROJECT MỚI ---
+            with st.expander("➕ Tạo Project Tiểu Thuyết Mới (Nhấn để mở form)", expanded=False):
+                with st.form("na_create_form_modern"):
+                    col_cf1, col_cf2 = st.columns([2, 1])
+                    with col_cf1:
+                        na_title = st.text_input("Tên tiểu thuyết *", placeholder="VD: Thiên Đạo Đồ Thư Quán")
+                        na_author = st.text_input("Tác giả / Nguồn *", value="Web Novel / Rin Translation", placeholder="VD: Tên tác giả (Nhất Lạc Nhất Khinh, 52Shuku...)")
+                    with col_cf2:
+                        _langs_s = ["Chinese", "Korean", "Japanese", "English", "Other"]
+                        na_src_lang = st.selectbox("Ngôn ngữ gốc", _langs_s, index=0)
+                        na_tgt_lang = st.selectbox("Ngôn ngữ dịch", ["Vietnamese", "English"], index=0)
+                    
                     na_desc = st.text_area("Văn án / Tóm tắt truyện (Description)",
-                        placeholder="VD: Nhập văn án, tóm tắt nội dung, thiết lập nhân vật, thể loại... (sẽ được tự động đóng thành chương Văn Án ở đầu sách khi xuất file EPUB)",
-                        height=110)
-                    c1f, c2f = st.columns(2)
-                    with c1f:
-                        na_src_lang = st.selectbox("Ngôn ngữ gốc",
-                            ["Chinese", "Korean", "Japanese", "English", "Other"])
-                    with c2f:
-                        na_tgt_lang = st.selectbox("Ngôn ngữ dịch",
-                            ["Vietnamese", "English"])
-                    na_style = st.text_area("Style Guide (tùy chọn)",
-                        placeholder="VD: Dịch văn xuôi trang trọng. Giữ nguyên tên nhân vật phiên âm. Xưng hô theo cấp bậc võ lâm...",
-                        height=90)
-                    na_threshold = st.slider(
-                        "Ngưỡng tự động dịch (%)",
-                        min_value=50, max_value=95, value=80,
-                        help="AI sẽ hỏi khi confidence < ngưỡng này. ≥95% = tự dịch. 80-95% = đánh dấu review."
-                    )
-                    na_chunk_sz = st.slider("Kích thước chunk (đoạn văn/chunk)",
-                                            5, 50, 20, 5,
-                                            help="Số đoạn văn trong mỗi đơn vị dịch. Novel dài nên để 15-25.")
-                    submitted = st.form_submit_button("🚀 Tạo Project", type="primary", use_container_width=True)
+                        placeholder="Nhập văn án, tóm tắt nội dung, thiết lập nhân vật... (sẽ tự động xuất thành chương 'Văn Án' ở đầu sách khi đóng gói EPUB)",
+                        height=95)
+                    
+                    col_style1, col_style2 = st.columns(2)
+                    with col_style1:
+                        preset_genre = st.selectbox("Preset Thể loại (Gợi ý Style Guide):", [
+                            "Tự do / Mặc định",
+                            "Cổ trang / Tiên hiệp / Huyền huyễn",
+                            "Hiện đại / Đô thị / Giới giải trí",
+                            "Trọng sinh / Xuyên thư / Hệ thống",
+                            "Mạt thế / Vô hạn lưu / Linh dị"
+                        ])
+                    with col_style2:
+                        na_threshold = st.slider("Ngưỡng tự động dịch (%)", min_value=50, max_value=95, value=80, help="Confidence < ngưỡng này sẽ đưa vào Clarification Center")
+                    
+                    default_style_map = {
+                        "Cổ trang / Tiên hiệp / Huyền huyễn": "Dịch văn phong cổ phong trang nhã, bảo tồn âm Hán-Việt cho tên người, chiêu thức, môn phái. Xưng hô chuẩn mực theo thứ bậc sư môn (Vi sư/Đồ nhi, Huynh/Đệ, Trẫm/Khanh).",
+                        "Hiện đại / Đô thị / Giới giải trí": "Văn phong hiện đại, tự nhiên, gãy gọn, xưng hô phù hợp bối cảnh công sở hoặc tình cảm (Tôi/Anh/Cậu/Em/Sếp).",
+                        "Trọng sinh / Xuyên thư / Hệ thống": "Giữ đúng thuật ngữ hệ thống, ký chủ, nhiệm vụ, chỉ số. Phân biệt rõ giọng nói vô cảm của cơ quan hệ thống và cảm xúc của nhân vật chính.",
+                        "Mạt thế / Vô hạn lưu / Linh dị": "Nhịp văn dồn dập, căng thẳng, thuật ngữ phó bản, quái vật, dị năng chuẩn xác.",
+                        "Tự do / Mặc định": "Dịch văn xuôi tự nhiên, trung thành nguyên tác 1:1, bảo toàn xưng hô nhất quán theo Memory."
+                    }
+                    na_style = st.text_area("Style Guide chi tiết:", value=default_style_map.get(preset_genre, ""), height=80)
+                    
+                    submitted = st.form_submit_button("🚀 Khởi Tạo Dự Án Ngay", type="primary", use_container_width=True)
                     if submitted:
                         if not na_title.strip():
                             st.error("❌ Tên tiểu thuyết không được để trống!")
@@ -4361,17 +4668,408 @@ if tabs.is_active(11):
                                 'target_lang': na_tgt_lang,
                                 'style_guide': na_style.strip(),
                                 'confidence_threshold': na_threshold / 100,
-                                'chunk_size': na_chunk_sz,
+                                'chunk_size': 20,
                                 'created_at': now_gmt7().isoformat(),
                                 'chapters_count': 0,
                             }
                             na_save_config(slug, cfg_new)
-                            # Init empty memory
                             na_save_memory(slug, {'characters':[], 'glossary':[], 'timeline':[], 'relationships':[]})
                             st.session_state['na_project'] = slug
-                            log_action("Novel Agent", f"Tạo project: {na_title}")
-                            st.success(f"✅ Đã tạo project **{na_title}**!")
+                            log_action("Novel Agent", f"Tạo project mới: {na_title}")
+                            st.success(f"🎉 Đã khởi tạo thành công project **{na_title}**!")
                             st.rerun()
+
+            st.markdown("<hr style='margin:0.8rem 0;border-color:#E5E7EB;'/>", unsafe_allow_html=True)
+
+            # --- TAB CHỌN: ĐANG THEO DÕI VS ĐÃ ĐỌC XONG VS DROP LIST ---
+            col_t_act, col_t_done, col_t_drop = st.columns(3)
+            with col_t_act:
+                btn_act_type = "primary" if cur_lib_tab == 'active' else "secondary"
+                if st.button(f"📚 Đang Theo Dõi ({total_active_cnt})", key="na_btn_mode_active", type=btn_act_type, use_container_width=True):
+                    st.session_state['na_lib_tab_mode'] = 'active'
+                    st.rerun()
+            with col_t_done:
+                btn_done_type = "primary" if cur_lib_tab == 'completed' else "secondary"
+                if st.button(f"✅ Đã Đọc Xong ({total_completed_cnt})", key="na_btn_mode_completed", type=btn_done_type, use_container_width=True):
+                    st.session_state['na_lib_tab_mode'] = 'completed'
+                    st.rerun()
+            with col_t_drop:
+                btn_drop_type = "primary" if cur_lib_tab == 'dropped' else "secondary"
+                if st.button(f"📦 Drop List ({total_dropped_cnt})", key="na_btn_mode_dropped", type=btn_drop_type, use_container_width=True):
+                    st.session_state['na_lib_tab_mode'] = 'dropped'
+                    st.rerun()
+
+            if cur_lib_tab == 'completed':
+                st.info("✅ **Danh Sách Đã Đọc Xong:** Những bộ truyện bạn đã hoàn thành đọc. Toàn bộ file nguồn, bản dịch và dữ liệu trong thư mục `src` (`novel_projects/`) vẫn được lưu giữ an toàn 100%. Bạn có thể bấm nút **🔄 Đọc Lại** để chuyển lại về Thư viện chính bất kỳ lúc nào.")
+            elif cur_lib_tab == 'dropped':
+                st.info("📦 **Drop List:** Danh sách các bộ truyện bạn không còn hứng thú theo dõi. Toàn bộ file nguồn, bản dịch và dữ liệu trong thư mục `src` (`novel_projects/`) vẫn được lưu giữ an toàn 100%. Bạn có thể khôi phục lại bất kỳ lúc nào bằng nút **🔄 Khôi phục**.")
+
+            # --- SEARCH & FILTER TOOLBAR ---
+            st.markdown("#### 🔍 Bộ Lọc & Tìm Kiếm Dự Án")
+            
+            search_query = st.text_input("Tìm kiếm theo tên truyện, tác giả hoặc từ khóa:", 
+                                         value=st.session_state.get('na_lib_search', ''),
+                                         placeholder="Nhập tên truyện, tên tác giả (VD: Nhất Lạc Nhất Khinh, 52Shuku, Tiên Hiệp...)",
+                                         key="na_lib_search_input")
+
+            col_flt1, col_flt2 = st.columns([3, 2])
+            
+            # Author filter options
+            author_options = ["Tất cả tác giả"] + [f"{a} ({cnt})" for a, cnt in unique_authors]
+            cur_author_filter = st.session_state.get('na_filter_author', "Tất cả tác giả")
+            if cur_author_filter not in author_options:
+                cur_author_filter = "Tất cả tác giả"
+            
+            with col_flt1:
+                sel_author = st.selectbox("✍️ Lọc theo Tác giả:", author_options, 
+                                          index=author_options.index(cur_author_filter),
+                                          key="na_filter_author_widget")
+                st.session_state['na_filter_author'] = sel_author
+
+            with col_flt2:
+                sel_lang = st.selectbox("🌐 Ngôn ngữ gốc:", ["Tất cả ngôn ngữ", "Chinese", "Korean", "English"], key="na_filter_lang")
+
+            # Reset filters button
+            has_active_filters = (bool(search_query.strip()) or sel_author != "Tất cả tác giả" or sel_lang != "Tất cả ngôn ngữ")
+            if has_active_filters:
+                if st.button("🧹 Xóa tất cả bộ lọc (Hiện toàn bộ truyện)", key="na_reset_filters_btn"):
+                    st.session_state['na_lib_search'] = ''
+                    st.session_state['na_filter_author'] = "Tất cả tác giả"
+                    st.rerun()
+
+            # --- FILTERING LOGIC ---
+            if cur_lib_tab == 'completed':
+                target_list = completed_summaries
+            elif cur_lib_tab == 'dropped':
+                target_list = dropped_summaries
+            else:
+                target_list = active_summaries
+
+            filtered = list(target_list)
+
+            # Search text filter
+            if search_query.strip():
+                q_low = search_query.strip().lower()
+                filtered = [p for p in filtered if (
+                    q_low in p['title'].lower() or 
+                    q_low in p['author'].lower() or 
+                    q_low in p['slug'].lower() or 
+                    q_low in p['description'].lower()
+                )]
+
+            # Author filter
+            if sel_author != "Tất cả tác giả":
+                target_author_name = sel_author.rsplit(' (', 1)[0].strip()
+                filtered = [p for p in filtered if p['author'].strip().lower() == target_author_name.lower()]
+
+            # Language filter
+            if sel_lang != "Tất cả ngôn ngữ":
+                filtered = [p for p in filtered if p['source_lang'].strip().lower() == sel_lang.lower()]
+
+            # Default Sort: Mới cập nhật
+            filtered.sort(key=lambda x: x.get('created_at', ''), reverse=True)
+
+            # View switcher
+            col_res_cnt, col_view_sw = st.columns([3, 1])
+            with col_res_cnt:
+                st.caption(f"Hiển thị **{len(filtered)}** / {len(target_list)} dự án tiểu thuyết")
+            with col_view_sw:
+                view_mode = st.radio("Chế độ xem:", ["🎴 Thẻ Kệ Sách", "📋 Bảng Danh Sách"], horizontal=True, label_visibility="collapsed", key="na_view_mode_sw")
+
+            # --- RENDER PROJECTS ---
+            if not filtered:
+                if cur_lib_tab == 'completed' and len(completed_summaries) == 0:
+                    st.info("📖 Chưa có bộ truyện nào được đánh dấu là Đã Đọc Xong. Bạn có thể nhấn nút '✨ Đọc Xong' trên thẻ truyện khi đã hoàn thành để chuyển vào đây.")
+                elif cur_lib_tab == 'dropped' and len(dropped_summaries) == 0:
+                    st.success("🎉 Bạn chưa có bộ truyện nào trong Drop List. Khi bạn không còn hứng thú với một bộ nào đó, hãy nhấn nút '📦 Drop' trên thẻ truyện để ẩn khỏi giao diện chính.")
+                else:
+                    st.info("🔍 Không tìm thấy tiểu thuyết nào khớp với điều kiện lọc. Hãy thử tìm từ khóa khác hoặc xóa bộ lọc.")
+            else:
+                if view_mode == "📋 Bảng Danh Sách":
+                    # Table View
+                    table_rows = []
+                    for idx, p in enumerate(filtered):
+                        is_active = (st.session_state.get('na_project') == p['slug'])
+                        if p['is_completed']:
+                            p_status = "✅ Đã đọc xong"
+                        elif p['is_dropped']:
+                            p_status = "📦 Đã Drop"
+                        else:
+                            p_status = "🟢 Đang theo dõi"
+
+                        row_data = {
+                            "STT": idx + 1,
+                            "Tên tiểu thuyết": ("👉 " if is_active else "") + p['title'],
+                            "Tác giả": p['author'],
+                            "Trạng thái": p_status,
+                        }
+                        if cur_lib_tab == 'dropped':
+                            row_data["Lý do drop"] = p.get('drop_reason', '') or '-'
+                        row_data.update({
+                            "Ngôn ngữ": f"{p['source_lang']} → {p['target_lang']}",
+                            "Chương đã dịch": f"{p['n_translated']} / {p['n_chapters']}",
+                            "Tiến độ": f"{p['progress_pct']}%",
+                            "Nhân vật": p['n_chars'],
+                            "Thuật ngữ": p['n_terms']
+                        })
+                        table_rows.append(row_data)
+                    import pandas as _pd
+                    st.dataframe(_pd.DataFrame(table_rows), use_container_width=True, hide_index=True)
+                    
+                    # Quick select / action
+                    col_ts1, col_ts2 = st.columns([3, 1])
+                    with col_ts1:
+                        if cur_lib_tab == 'completed':
+                            lbl_tb = "Chọn dự án để đọc lại / khôi phục:"
+                        elif cur_lib_tab == 'dropped':
+                            lbl_tb = "Chọn dự án để khôi phục:"
+                        else:
+                            lbl_tb = "Chọn dự án để mở làm việc:"
+
+                        sel_tb_proj = st.selectbox(lbl_tb, [p['slug'] for p in filtered], 
+                                                   format_func=lambda s: next((p['title'] for p in filtered if p['slug'] == s), s),
+                                                   key="na_tb_quick_sel")
+                    with col_ts2:
+                        if cur_lib_tab == 'completed':
+                            if st.button("🔄 Đọc Lại Dự Án", key="na_btn_restore_done_tb_proj", type="primary", use_container_width=True):
+                                na_set_project_completed(sel_tb_proj, False)
+                                st.rerun()
+                        elif cur_lib_tab == 'dropped':
+                            if st.button("🔄 Khôi Phục Dự Án", key="na_btn_restore_tb_proj", type="primary", use_container_width=True):
+                                na_set_project_dropped(sel_tb_proj, False)
+                                st.rerun()
+                        else:
+                            if st.button("🚀 Mở Dự Án Này", key="na_btn_open_tb_proj", type="primary", use_container_width=True):
+                                st.session_state['na_project'] = sel_tb_proj
+                                st.rerun()
+
+                else:
+                    # Grid Shelf View (Modern Cards)
+                    # Render 2 cards per row
+                    for row_idx in range(0, len(filtered), 2):
+                        cols = st.columns(2)
+                        for col_idx in range(2):
+                            item_idx = row_idx + col_idx
+                            if item_idx < len(filtered):
+                                p = filtered[item_idx]
+                                with cols[col_idx]:
+                                    is_active = (st.session_state.get('na_project') == p['slug'])
+                                    card_border = "#0D9488" if is_active else "#E5E7EB"
+                                    card_bg = "rgba(13, 148, 136, 0.05)" if is_active else "#FFFFFF"
+                                    if cur_lib_tab == 'completed':
+                                        badge_top = "<span style='background:#10B981;color:#ffffff;padding:2px 8px;border-radius:12px;font-size:0.75rem;font-weight:600;'>ĐÃ ĐỌC XONG</span>"
+                                    elif cur_lib_tab == 'dropped':
+                                        badge_top = "<span style='background:#64748B;color:#ffffff;padding:2px 8px;border-radius:12px;font-size:0.75rem;font-weight:600;'>ĐÃ DROP</span>"
+                                    else:
+                                        badge_top = "<span style='background:#0D9488;color:#ffffff;padding:2px 8px;border-radius:12px;font-size:0.75rem;font-weight:600;'>ĐANG CHỌN</span>" if is_active else ""
+                                    
+                                    # Progress color
+                                    prog_pct = p['progress_pct']
+                                    prog_bar_color = "#0D9488" if prog_pct >= 80 else ("#F59E0B" if prog_pct >= 40 else "#6B7280")
+                                    
+                                    desc_snip = (p['description'][:110] + '...') if p['description'] else "Chưa có văn án giới thiệu..."
+                                    
+                                    # Language badge clean
+                                    src_l = p['source_lang']
+                                    if 'chinese' in src_l.lower():
+                                        lang_badge = "🇨🇳 CN → VI"
+                                    elif 'korean' in src_l.lower():
+                                        lang_badge = "🇰🇷 KR → VI"
+                                    elif 'japanese' in src_l.lower():
+                                        lang_badge = "🇯🇵 JA → VI"
+                                    elif 'english' in src_l.lower():
+                                        lang_badge = "🇬🇧 EN → VI"
+                                    else:
+                                        lang_badge = f"{src_l} → VI"
+
+                                    drop_reason_html = ""
+                                    if cur_lib_tab == 'dropped':
+                                        d_reason = p.get('drop_reason', '').strip()
+                                        if d_reason:
+                                            drop_reason_html = f"<div style='margin-bottom:8px;padding:6px 10px;background:#FFF1F2;color:#BE123C;border-radius:6px;font-size:0.8rem;border:1px solid #FECDD3;'>💭 <b>Lý do drop:</b> {d_reason}</div>"
+                                        else:
+                                            drop_reason_html = "<div style='margin-bottom:8px;padding:4px 8px;background:#F1F5F9;color:#64748B;border-radius:6px;font-size:0.78rem;font-style:italic;'>💭 Chưa ghi lý do drop</div>"
+
+                                    card_html = (
+                                        f"<div style='border:1px solid {card_border};border-radius:12px;padding:1.1rem 1.25rem;margin-bottom:0.8rem;background:{card_bg};box-shadow:0 1px 3px rgba(0,0,0,0.03);min-height:175px;display:flex;flex-direction:column;justify-content:space-between;'>"
+                                        f"<div>"
+                                        f"<div style='display:flex;justify-content:space-between;align-items:flex-start;gap:8px;margin-bottom:4px;'>"
+                                        f"<div style='font-size:1.05rem;font-weight:700;color:#1E293B;line-height:1.35;'>{p['title']}</div>"
+                                        f"<div style='display:flex;align-items:center;gap:6px;'>{badge_top}<span style='background:#F1F5F9;color:#475569;padding:2px 8px;border-radius:6px;font-size:0.74rem;font-weight:600;white-space:nowrap;'>{lang_badge}</span></div>"
+                                        f"</div>"
+                                        f"<div style='font-size:0.83rem;color:#64748B;margin-bottom:8px;'>✍️ <b>Tác giả:</b> <span style='color:#0D9488;font-weight:600;'>{p['author']}</span></div>"
+                                        f"{drop_reason_html}"
+                                        f"<div style='font-size:0.83rem;color:#475569;line-height:1.45;margin-bottom:10px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;'>{desc_snip}</div>"
+                                        f"</div>"
+                                        f"<div>"
+                                        f"<div style='display:flex;justify-content:space-between;font-size:0.78rem;color:#64748B;margin-bottom:4px;'>"
+                                        f"<span>Tiến độ dịch: <b>{p['n_translated']} / {p['n_chapters']}</b> chương</span>"
+                                        f"<span style='font-weight:700;color:{prog_bar_color};'>{prog_pct}%</span>"
+                                        f"</div>"
+                                        f"<div style='width:100%;background:#F1F5F9;border-radius:4px;height:4px;overflow:hidden;'>"
+                                        f"<div style='width:{prog_pct}%;background:{prog_bar_color};height:100%;border-radius:4px;'></div>"
+                                        f"</div>"
+                                        f"</div>"
+                                        f"</div>"
+                                    )
+                                    st.markdown(card_html, unsafe_allow_html=True)
+                                    
+                                    # Card Actions
+                                    if cur_lib_tab == 'completed':
+                                        c_btn1, c_btn2, c_btn3, c_btn4 = st.columns([3, 2, 2, 1])
+                                        with c_btn1:
+                                            if st.button("🔄 Đọc Lại", key=f"na_reopen_grid_{p['slug']}", type="primary", help="Khôi phục lại vào Thư viện chính đang theo dõi", use_container_width=True):
+                                                na_set_project_completed(p['slug'], False)
+                                                st.rerun()
+                                        with c_btn2:
+                                            if p['n_translated'] > 0:
+                                                epub_ready_key = f"na_quick_ep_{p['slug']}"
+                                                if epub_ready_key in st.session_state:
+                                                    ep_bytes, ep_fname = st.session_state[epub_ready_key]
+                                                    st.download_button("⬇️ Lưu File", data=ep_bytes, file_name=ep_fname, mime="application/epub+zip", key=f"na_dl_ep_btn_{p['slug']}", use_container_width=True)
+                                                else:
+                                                    if st.button("📚 EPUB", key=f"na_gen_ep_{p['slug']}", help="Đóng gói và tải nhanh EPUB", use_container_width=True):
+                                                        with st.spinner("Đang đóng gói EPUB..."):
+                                                            res_ep = na_export_quick_epub_bytes(p['slug'])
+                                                            if res_ep:
+                                                                st.session_state[epub_ready_key] = res_ep
+                                                                st.rerun()
+                                                            else:
+                                                                st.warning("Không có chương dịch để xuất EPUB")
+                                            else:
+                                                st.button("📚 EPUB", key=f"na_gen_ep_dis_{p['slug']}", disabled=True, help="Chưa có chương nào được dịch để xuất EPUB", use_container_width=True)
+                                        with c_btn3:
+                                            if st.button("🔍 Tác giả", key=f"na_auth_filter_card_{p['slug']}", help=f"Lọc các truyện của tác giả {p['author']}", use_container_width=True):
+                                                matching_opt = next((opt for opt in author_options if opt.startswith(p['author'])), None)
+                                                if matching_opt:
+                                                    st.session_state['na_filter_author'] = matching_opt
+                                                    st.rerun()
+                                        with c_btn4:
+                                            if st.button("🗑️", key=f"na_del_grid_{p['slug']}", help="Xóa vĩnh viễn dự án này khỏi ổ cứng", use_container_width=True):
+                                                st.session_state[f'na_del_confirm_{p["slug"]}'] = True
+
+                                    elif cur_lib_tab == 'dropped':
+                                        c_btn1, c_btn2, c_btn3, c_btn4 = st.columns([3, 2, 2, 1])
+                                        with c_btn1:
+                                            if st.button("🔄 Khôi Phục", key=f"na_rest_grid_{p['slug']}", type="primary", help="Khôi phục lại vào Thư viện chính đang theo dõi", use_container_width=True):
+                                                na_set_project_dropped(p['slug'], False)
+                                                st.rerun()
+                                        with c_btn2:
+                                            if p['n_translated'] > 0:
+                                                epub_ready_key = f"na_quick_ep_{p['slug']}"
+                                                if epub_ready_key in st.session_state:
+                                                    ep_bytes, ep_fname = st.session_state[epub_ready_key]
+                                                    st.download_button("⬇️ Lưu File", data=ep_bytes, file_name=ep_fname, mime="application/epub+zip", key=f"na_dl_ep_btn_{p['slug']}", use_container_width=True)
+                                                else:
+                                                    if st.button("📚 EPUB", key=f"na_gen_ep_{p['slug']}", help="Đóng gói và tải nhanh EPUB", use_container_width=True):
+                                                        with st.spinner("Đang đóng gói EPUB..."):
+                                                            res_ep = na_export_quick_epub_bytes(p['slug'])
+                                                            if res_ep:
+                                                                st.session_state[epub_ready_key] = res_ep
+                                                                st.rerun()
+                                                            else:
+                                                                st.warning("Không có chương dịch để xuất EPUB")
+                                            else:
+                                                st.button("📚 EPUB", key=f"na_gen_ep_dis_{p['slug']}", disabled=True, help="Chưa có chương nào được dịch để xuất EPUB", use_container_width=True)
+                                        with c_btn3:
+                                            if st.button("🔍 Tác giả", key=f"na_auth_filter_card_{p['slug']}", help=f"Lọc các truyện của tác giả {p['author']}", use_container_width=True):
+                                                matching_opt = next((opt for opt in author_options if opt.startswith(p['author'])), None)
+                                                if matching_opt:
+                                                    st.session_state['na_filter_author'] = matching_opt
+                                                    st.rerun()
+                                        with c_btn4:
+                                            if st.button("🗑️", key=f"na_del_grid_{p['slug']}", help="Xóa vĩnh viễn dự án này khỏi ổ cứng", use_container_width=True):
+                                                st.session_state[f'na_del_confirm_{p["slug"]}'] = True
+
+                                        with st.expander("💭 Ghi chú / Đổi lý do drop", expanded=False):
+                                            dr_input = st.text_input("Lý do drop:", value=p.get('drop_reason', ''), key=f"na_dr_in_{p['slug']}")
+                                            pre_c1, pre_c2, pre_c3, pre_c4 = st.columns(4)
+                                            with pre_c1:
+                                                if st.button("Bút lực đuối", key=f"btn_dr_1_{p['slug']}", use_container_width=True):
+                                                    na_set_project_dropped(p['slug'], True, "Bút lực đuối")
+                                                    st.rerun()
+                                            with pre_c2:
+                                                if st.button("Nhân vật toxic", key=f"btn_dr_2_{p['slug']}", use_container_width=True):
+                                                    na_set_project_dropped(p['slug'], True, "Thiết lập nhân vật toxic")
+                                                    st.rerun()
+                                            with pre_c3:
+                                                if st.button("Buff lố / dở", key=f"btn_dr_3_{p['slug']}", use_container_width=True):
+                                                    na_set_project_dropped(p['slug'], True, "Tình tiết buff lố / sạn")
+                                                    st.rerun()
+                                            with pre_c4:
+                                                if st.button("Hết hứng thú", key=f"btn_dr_4_{p['slug']}", use_container_width=True):
+                                                    na_set_project_dropped(p['slug'], True, "Hết hứng thú")
+                                                    st.rerun()
+                                            if st.button("💾 Lưu lý do", key=f"btn_dr_save_{p['slug']}", type="secondary", use_container_width=True):
+                                                na_set_project_dropped(p['slug'], True, dr_input)
+                                                st.rerun()
+
+                                    else:
+                                        # Active Projects: Row 1 (Mở, EPUB) + Row 2 (Tác giả, Đọc Xong, Drop, Xóa)
+                                        c_top1, c_top2 = st.columns([3, 2])
+                                        with c_top1:
+                                            if not is_active:
+                                                if st.button("✅ Mở", key=f"na_open_grid_{p['slug']}", type="primary", use_container_width=True):
+                                                    st.session_state['na_project'] = p['slug']
+                                                    st.rerun()
+                                            else:
+                                                st.button("🎯 Đang mở", key=f"na_act_lbl_{p['slug']}", disabled=True, use_container_width=True)
+                                        with c_top2:
+                                            if p['n_translated'] > 0:
+                                                epub_ready_key = f"na_quick_ep_{p['slug']}"
+                                                if epub_ready_key in st.session_state:
+                                                    ep_bytes, ep_fname = st.session_state[epub_ready_key]
+                                                    st.download_button("⬇️ Lưu File", data=ep_bytes, file_name=ep_fname, mime="application/epub+zip", key=f"na_dl_ep_btn_{p['slug']}", use_container_width=True)
+                                                else:
+                                                    if st.button("📚 EPUB", key=f"na_gen_ep_{p['slug']}", help="Đóng gói và tải nhanh EPUB", use_container_width=True):
+                                                        with st.spinner("Đang đóng gói EPUB..."):
+                                                            res_ep = na_export_quick_epub_bytes(p['slug'])
+                                                            if res_ep:
+                                                                st.session_state[epub_ready_key] = res_ep
+                                                                st.rerun()
+                                                            else:
+                                                                st.warning("Không có chương dịch để xuất EPUB")
+                                            else:
+                                                st.button("📚 EPUB", key=f"na_gen_ep_dis_{p['slug']}", disabled=True, help="Chưa có chương nào được dịch để xuất EPUB", use_container_width=True)
+
+                                        c_sub1, c_sub2, c_sub3, c_sub4 = st.columns([2, 3, 2, 1])
+                                        with c_sub1:
+                                            if st.button("🔍 Tác giả", key=f"na_auth_filter_card_{p['slug']}", help=f"Lọc các truyện của tác giả {p['author']}", use_container_width=True):
+                                                matching_opt = next((opt for opt in author_options if opt.startswith(p['author'])), None)
+                                                if matching_opt:
+                                                    st.session_state['na_filter_author'] = matching_opt
+                                                    st.rerun()
+                                        with c_sub2:
+                                            if st.button("✨ Đọc Xong", key=f"na_done_btn_{p['slug']}", help="Đánh dấu đã đọc xong (chuyển ngay vào Đã Đọc Xong, giữ nguyên file src)", use_container_width=True):
+                                                na_set_project_completed(p['slug'], True)
+                                                if st.session_state.get('na_project') == p['slug']:
+                                                    del st.session_state['na_project']
+                                                st.rerun()
+                                        with c_sub3:
+                                            if st.button("📦 Drop", key=f"na_drop_btn_{p['slug']}", help="Chuyển ngay vào Drop List (ẩn khỏi giao diện chính, giữ nguyên file src)", use_container_width=True):
+                                                na_set_project_dropped(p['slug'], True)
+                                                if st.session_state.get('na_project') == p['slug']:
+                                                    del st.session_state['na_project']
+                                                st.rerun()
+                                        with c_sub4:
+                                            if st.button("🗑️", key=f"na_del_grid_{p['slug']}", help="Xóa dự án này khỏi ổ cứng", use_container_width=True):
+                                                st.session_state[f'na_del_confirm_{p["slug"]}'] = True
+
+                                    if st.session_state.get(f'na_del_confirm_{p["slug"]}'):
+                                        st.warning(f"Xóa vĩnh viễn dự án **{p['title']}**? Thao tác này không thể hoàn tác!")
+                                        cd1, cd2 = st.columns(2)
+                                        with cd1:
+                                            if st.button("✅ Xóa", key=f"na_del_ok_grid_{p['slug']}", type="primary", use_container_width=True):
+                                                import shutil as _shutil
+                                                _shutil.rmtree(na_project_dir(p['slug']), ignore_errors=True)
+                                                if st.session_state.get('na_project') == p['slug']:
+                                                    del st.session_state['na_project']
+                                                del st.session_state[f'na_del_confirm_{p["slug"]}']
+                                                st.rerun()
+                                        with cd2:
+                                            if st.button("❌ Hủy", key=f"na_del_canc_grid_{p['slug']}", use_container_width=True):
+                                                del st.session_state[f'na_del_confirm_{p["slug"]}']
+                                                st.rerun()
 
             # Show active project banner & edit form
             if st.session_state.get('na_project') in all_projects:
@@ -4417,6 +5115,14 @@ if tabs.is_active(11):
                             help="Lưu các link raw hoặc bản quyền của truyện để tiện mở nhanh."
                         )
                         
+                        col_cfg_st1, col_cfg_st2 = st.columns(2)
+                        with col_cfg_st1:
+                            edit_completed = st.checkbox("✅ Đã Đọc Xong (Ẩn khỏi giao diện chính)", value=bool(apcfg.get('is_completed', False)), help="Nếu tích chọn, dự án sẽ được chuyển vào danh sách Đã Đọc Xong.")
+                        with col_cfg_st2:
+                            edit_dropped = st.checkbox("📦 Drop List (Ngừng theo dõi)", value=bool(apcfg.get('is_dropped', False)), help="Nếu tích chọn, dự án sẽ được chuyển vào Drop List.")
+
+                        edit_drop_reason = st.text_input("💭 Lý do drop (nếu có):", value=apcfg.get('drop_reason', ''), help="Ghi chú lý do drop bộ truyện này.")
+
                         btn_save_cfg = st.form_submit_button("💾 Lưu Cập Nhật Thông Tin Project", type="primary", use_container_width=True)
                         if btn_save_cfg:
                             apcfg['title'] = edit_title.strip() or ap
@@ -4425,12 +5131,21 @@ if tabs.is_active(11):
                             apcfg['source_lang'] = edit_src
                             apcfg['target_lang'] = edit_tgt
                             apcfg['style_guide'] = edit_style.strip()
+                            apcfg['is_completed'] = edit_completed
+                            apcfg['is_dropped'] = edit_dropped
+                            apcfg['drop_reason'] = edit_drop_reason.strip()
+                            if edit_completed:
+                                apcfg['is_dropped'] = False
+                            elif edit_dropped:
+                                apcfg['is_completed'] = False
                             if edit_raw_links_str.strip():
                                 try:
                                     apcfg['raw_links'] = json.loads(edit_raw_links_str.strip())
                                 except Exception:
                                     pass
                             na_save_config(ap, apcfg)
+                            if (edit_completed or edit_dropped) and st.session_state.get('na_project') == ap:
+                                del st.session_state['na_project']
                             st.success("✅ Đã cập nhật thông tin và văn án thành công!")
                             st.rerun()
 
@@ -6370,7 +7085,7 @@ if tabs.is_active(11):
                                 st.balloons()
                                 st.rerun()
 
-                mem_tabs = st.tabs(["🧑 Nhân vật", "📖 Glossary", "📅 Timeline", "🕸️ Quan hệ", "📊 Arc Summary", "⚙️ Cấu hình Project"])
+                mem_tabs = st.tabs(["🧑 Nhân vật", "📖 Glossary", "📅 Timeline", "🤝 Ma Trận Xưng Hô & Quan Hệ", "📊 Arc Summary", "⚙️ Cấu hình Project"])
 
                 with mem_tabs[0]:
                     chars = memory_v.get('characters', [])
@@ -6479,235 +7194,346 @@ if tabs.is_active(11):
                             na_save_memory(na_proj, memory_v)
                             st.success("✅ Đã lưu!")
 
-                # ===================== MEMORY TAB 3: RELATIONSHIP GRAPH =====================
+                # ===================== MEMORY TAB 3: MA TRẬN XƯNG HÔ & QUAN HỆ =====================
                 with mem_tabs[3]:
-                    st.markdown("### 🕸️ Relationship Graph")
-                    st.caption("Biểu đồ quan hệ giữa các nhân vật. Chỉnh sửa trong bảng rồi bấm Lưu.")
+                    st.markdown("""
+                    <div style='margin-bottom:0.8rem;'>
+                      <h3 style='margin:0;color:#2D2A26;font-size:1.3rem;'>🤝 Ma Trận Xưng Hô Đối Thoại 2 Chiều (Interactive Address Matrix)</h3>
+                      <span style='color:#6B7280;font-size:0.88rem;'>
+                        Thiết lập và kiểm soát hệ quy chiếu xưng hô 2 chiều (A ↔ B) giữa tất cả nhân vật. Đường chéo chính là Đại từ ngôi 3 trong văn trần thuật.
+                      </span>
+                    </div>
+                    """, unsafe_allow_html=True)
 
-                    rels_v = memory_v.get('relationships', [])
-                    chars_v_for_rel = memory_v.get('characters', [])
-                    char_names_rel = [c.get('name','') for c in chars_v_for_rel if c.get('name')]
+                    mat_data = na_get_address_matrix_data(na_proj)
+                    mat_chars = mat_data['characters']
+                    mat_matrix = mat_data['matrix']
+                    mat_status = mat_data['pair_status']
 
-                    if not rels_v and not char_names_rel:
-                        st.info("Chưa có nhân vật nào. Dịch ít nhất 1 chapter và Accept Memory.")
-                    else:
-                        # Editable relationship table
-                        import pandas as pd
-                        rel_df = pd.DataFrame(rels_v if rels_v else [],
-                                              columns=['Nhân vật A', 'Quan hệ', 'Nhân vật B', 'Ghi chú'])
-                        if rel_df.empty:
-                            rel_df = pd.DataFrame([{
-                                'Nhân vật A': char_names_rel[0] if char_names_rel else '',
-                                'Quan hệ': '',
-                                'Nhân vật B': char_names_rel[1] if len(char_names_rel) > 1 else '',
-                                'Ghi chú': ''
-                            }])
-                        edited_rel = st.data_editor(
-                            rel_df, use_container_width=True,
-                            num_rows="dynamic", key="na_mem_rel"
-                        )
-                        if st.button("💾 Lưu Quan hệ", key="na_save_rel"):
+                    rel_view_mode = st.radio(
+                        "Chế độ hiển thị phân hệ xưng hô:",
+                        ["🤝 Ma Trận 2 Chiều (NxN)", "⚡ Chỉnh Sửa Nhanh & Preset Cặp", "🕸️ Biểu Đồ Mạng Lưới (Vis.js)", "📄 Dạng Bảng Thô"],
+                        horizontal=True,
+                        key="na_rel_main_view_mode"
+                    )
+
+                    # --- VIEW 1: MA TRẬN 2 CHIỀU (NxN) ---
+                    if rel_view_mode == "🤝 Ma Trận 2 Chiều (NxN)":
+                        if not mat_chars:
+                            st.info("💡 Chưa có nhân vật nào trong Memory. Hãy thêm nhân vật ở tab **🧑 Nhân vật** hoặc chạy phân tích chương ở tab **🔬 Analyze**.")
+                        else:
+                            total_c = len(mat_chars)
+                            n_complete = sum(1 for (k1, k2), s in mat_status.items() if s == 'complete') // 2
+                            n_oneway = sum(1 for (k1, k2), s in mat_status.items() if s == 'one_way')
+
+                            col_ms1, col_ms2, col_ms3 = st.columns(3)
+                            with col_ms1:
+                                st.metric("Số Nhân Vật Ghi Nhận", f"{total_c} nhân vật")
+                            with col_ms2:
+                                st.metric("Cặp Xưng Hô 2 Chiều Đầy Đủ", f"{n_complete} cặp 🟢", help="Cả 2 nhân vật đều đã có quy chuẩn xưng hô 2 chiều qua lại")
+                            with col_ms3:
+                                st.metric("Cặp Thiếu 1 Chiều", f"{n_oneway} chiều 🟡", help="Mới chỉ có 1 chiều (A gọi B nhưng chưa có B gọi A)")
+
+                            char_display_options = [c['key_name'] for c in mat_chars]
+                            default_selected_chars = char_display_options[:min(8, len(char_display_options))]
+
+                            col_f_mat1, col_f_mat2 = st.columns([3, 1])
+                            with col_f_mat1:
+                                selected_mat_chars = st.multiselect(
+                                    "Chọn các nhân vật hiển thị trong ma trận (Tối đa 10 nhân vật để bảng vừa mắt):",
+                                    char_display_options,
+                                    default=default_selected_chars,
+                                    key="na_mat_char_filter"
+                                )
+                            with col_f_mat2:
+                                if st.button("Chọn 8 nhân vật đầu", key="na_btn_reset_mat_sel"):
+                                    st.session_state['na_mat_char_filter'] = default_selected_chars
+                                    st.rerun()
+
+                            active_chars = [c for c in mat_chars if c['key_name'] in selected_mat_chars]
+
+                            if not active_chars:
+                                st.warning("Vui lòng chọn ít nhất 1 nhân vật để xem ma trận.")
+                            else:
+                                table_html = """
+                                <div style='overflow-x:auto;margin-top:0.6rem;margin-bottom:1.2rem;border:1px solid #E5E7EB;border-radius:10px;box-shadow:0 1px 3px rgba(0,0,0,0.04);'>
+                                <table style='width:100%;border-collapse:collapse;font-size:0.86rem;font-family:sans-serif;'>
+                                  <thead>
+                                    <tr style='background:#F8FAFC;border-bottom:2px solid #CBD5E1;'>
+                                      <th style='padding:10px 12px;text-align:left;color:#475569;font-weight:700;border-right:2px solid #CBD5E1;min-width:160px;'>
+                                        Người xưng (A) \\<br/>Người nghe (B)
+                                      </th>
+                                """
+                                for c in active_chars:
+                                    role_snip = f"<br/><span style='font-size:0.75rem;font-weight:normal;color:#64748B;'>{c['role'][:16]}</span>" if c.get('role') else ""
+                                    table_html += f"""
+                                      <th style='padding:10px 12px;text-align:center;color:#1E293B;font-weight:700;border-right:1px solid #E2E8F0;min-width:140px;'>
+                                        {c['key_name']}{role_snip}
+                                      </th>
+                                    """
+                                table_html += """
+                                    </tr>
+                                  </thead>
+                                  <tbody>
+                                """
+
+                                for r_idx, c1 in enumerate(active_chars):
+                                    k1 = c1['key_name']
+                                    gender_snip = f"<br/><span style='font-size:0.75rem;color:#64748B;'>({c1['gender']})</span>" if c1.get('gender') else ""
+                                    table_html += f"""
+                                    <tr style='border-bottom:1px solid #E2E8F0;background:{'#FAFAFA' if r_idx % 2 == 1 else '#FFFFFF'};'>
+                                      <td style='padding:9px 12px;font-weight:700;color:#1E293B;border-right:2px solid #CBD5E1;'>
+                                        {k1}{gender_snip}
+                                      </td>
+                                    """
+                                    for c2 in active_chars:
+                                        k2 = c2['key_name']
+                                        if k1 == k2:
+                                            pron = c1['pronoun']
+                                            table_html += f"""
+                                              <td style='padding:8px 10px;text-align:center;background:#F1F5F9;border-right:1px solid #E2E8F0;'>
+                                                <span style='font-size:0.75rem;color:#64748B;display:block;'>👤 Ngôi 3 văn kể</span>
+                                                <b style='color:#0F172A;font-size:0.95rem;background:#E2E8F0;padding:2px 8px;border-radius:4px;'>{pron}</b>
+                                              </td>
+                                            """
+                                        else:
+                                            addr = mat_matrix.get(k1, {}).get(k2, '')
+                                            status = mat_status.get((k1, k2), 'empty')
+                                            
+                                            if status == 'complete':
+                                                bg = "#ECFDF5"
+                                                b_color = "#10B981"
+                                                txt_color = "#065F46"
+                                                badge_html = f"<div style='background:{bg};border:1px solid {b_color};border-radius:6px;padding:4px 6px;'><span style='color:{txt_color};font-weight:600;'>🟢 {addr}</span></div>"
+                                            elif status == 'one_way':
+                                                if addr:
+                                                    bg = "#FFFBEB"
+                                                    b_color = "#F59E0B"
+                                                    txt_color = "#92400E"
+                                                    badge_html = f"<div style='background:{bg};border:1px solid {b_color};border-radius:6px;padding:4px 6px;'><span style='color:{txt_color};font-weight:600;'>🟡 {addr}</span><br/><span style='font-size:0.72rem;color:#B45309;'>⚠️ Thiếu chiều về</span></div>"
+                                                else:
+                                                    reverse_addr = mat_matrix.get(k2, {}).get(k1, '')
+                                                    bg = "#FEF2F2"
+                                                    b_color = "#FCA5A5"
+                                                    badge_html = f"<div style='background:{bg};border:1px dashed {b_color};border-radius:6px;padding:4px 6px;'><span style='font-size:0.75rem;color:#991B1B;'>Chưa đặt chiều này</span><br/><span style='font-size:0.72rem;color:#64748B;'>(Chiều về: {reverse_addr})</span></div>"
+                                            else:
+                                                badge_html = "<span style='color:#9CA3AF;font-size:0.8rem;'>⚪ Chưa đặt</span>"
+
+                                            table_html += f"""
+                                              <td style='padding:8px 10px;text-align:center;border-right:1px solid #E2E8F0;'>
+                                                {badge_html}
+                                              </td>
+                                            """
+                                    table_html += "</tr>"
+
+                                table_html += """
+                                  </tbody>
+                                </table>
+                                </div>
+                                """
+                                clean_table_html = "\n".join(line.strip() for line in table_html.splitlines())
+                                st.markdown(clean_table_html, unsafe_allow_html=True)
+
+                                legend_html = (
+                                    "<div style='font-size:0.82rem;color:#6B7280;margin-bottom:0.8rem;'>"
+                                    "<b>Chú thích màu:</b> "
+                                    "<span style='background:#ECFDF5;border:1px solid #10B981;color:#065F46;padding:2px 8px;border-radius:4px;font-weight:600;margin-right:8px;'>🟢 Đã chốt đủ 2 chiều</span>"
+                                    "<span style='background:#FFFBEB;border:1px solid #F59E0B;color:#92400E;padding:2px 8px;border-radius:4px;font-weight:600;margin-right:8px;'>🟡 Mới có 1 chiều (Cần bổ sung)</span>"
+                                    "<span style='background:#F1F5F9;color:#334155;padding:2px 8px;border-radius:4px;margin-right:8px;'>👤 Đường chéo: Đại từ ngôi 3 văn kể</span>"
+                                    "</div>"
+                                )
+                                st.markdown(legend_html, unsafe_allow_html=True)
+
+                    # --- VIEW 2: CHỈNH SỬA NHANH & PRESET CẶP ---
+                    elif rel_view_mode == "⚡ Chỉnh Sửa Nhanh & Preset Cặp":
+                        st.markdown("#### ⚡ Thiết Lập Cặp Xưng Hô 2 Chiều & Presets Thể Loại")
+                        st.caption("Chọn 2 nhân vật, áp dụng nhanh mẫu xưng hô phổ biến theo thể loại tiểu thuyết và lưu đồng bộ tức thì.")
+
+                        if len(mat_chars) < 2:
+                            st.warning("Cần ít nhất 2 nhân vật trong Memory để thiết lập cặp xưng hô.")
+                        else:
+                            char_names_all = [c['key_name'] for c in mat_chars]
+                            
+                            col_sel1, col_sel2 = st.columns(2)
+                            with col_sel1:
+                                p_char_a = st.selectbox("Nhân vật A:", char_names_all, index=0, key="na_mat_pair_a")
+                            with col_sel2:
+                                p_char_b = st.selectbox("Nhân vật B:", char_names_all, index=min(1, len(char_names_all)-1), key="na_mat_pair_b")
+
+                            if p_char_a == p_char_b:
+                                st.warning("Vui lòng chọn 2 nhân vật khác nhau!")
+                            else:
+                                curr_a_to_b = mat_matrix.get(p_char_a, {}).get(p_char_b, '')
+                                curr_b_to_a = mat_matrix.get(p_char_b, {}).get(p_char_a, '')
+
+                                st.info(f"📍 **Trạng thái hiện tại:** [{p_char_a} → {p_char_b}: `{curr_a_to_b or 'Chưa đặt'}`] &nbsp;•&nbsp; [{p_char_b} → {p_char_a}: `{curr_b_to_a or 'Chưa đặt'}`]")
+
+                                st.markdown("**Chọn nhanh Preset thể loại (1-Click điền mẫu):**")
+                                pr_cols = st.columns(6)
+                                with pr_cols[0]:
+                                    if st.button("🏢 Công Sở", key="na_pr_office", use_container_width=True, help="Tôi - Anh ⟷ Tôi - Cậu"):
+                                        st.session_state['na_inp_a_to_b'] = "xưng Tôi - gọi Anh"
+                                        st.session_state['na_inp_b_to_a'] = "xưng Tôi - gọi Cậu"
+                                with pr_cols[1]:
+                                    if st.button("💑 Cặp Đôi", key="na_pr_couple", use_container_width=True, help="Anh - Em ⟷ Em - Anh"):
+                                        st.session_state['na_inp_a_to_b'] = "xưng Anh - gọi Em"
+                                        st.session_state['na_inp_b_to_a'] = "xưng Em - gọi Anh"
+                                with pr_cols[2]:
+                                    if st.button("⚔️ Huynh Đệ", key="na_pr_brothers", use_container_width=True, help="Huynh - Đệ ⟷ Đệ - Huynh"):
+                                        st.session_state['na_inp_a_to_b'] = "xưng Huynh - gọi Đệ"
+                                        st.session_state['na_inp_b_to_a'] = "xưng Đệ - gọi Huynh"
+                                with pr_cols[3]:
+                                    if st.button("📜 Sư Đồ", key="na_pr_master", use_container_width=True, help="Vi sư - Đồ nhi ⟷ Đồ nhi - Sư phụ"):
+                                        st.session_state['na_inp_a_to_b'] = "xưng Vi sư - gọi Đồ nhi"
+                                        st.session_state['na_inp_b_to_a'] = "xưng Đồ nhi - gọi Sư phụ"
+                                with pr_cols[4]:
+                                    if st.button("👑 Quân Thần", key="na_pr_monarch", use_container_width=True, help="Trẫm - Khanh ⟷ Vi thần - Hoàng thượng"):
+                                        st.session_state['na_inp_a_to_b'] = "xưng Trẫm - gọi Khanh"
+                                        st.session_state['na_inp_b_to_a'] = "xưng Vi thần - gọi Hoàng thượng"
+                                with pr_cols[5]:
+                                    if st.button("🤜 Đối Đầu", key="na_pr_rival", use_container_width=True, help="Ta - Ngươi ⟷ Ta - Ngươi"):
+                                        st.session_state['na_inp_a_to_b'] = "xưng Ta - gọi Ngươi"
+                                        st.session_state['na_inp_b_to_a'] = "xưng Ta - gọi Ngươi"
+
+                                col_inp1, col_inp2 = st.columns(2)
+                                with col_inp1:
+                                    val_a_to_b = st.text_input(
+                                        f"Chiều 1: {p_char_a} xưng hô với {p_char_b}:",
+                                        value=st.session_state.get('na_inp_a_to_b', curr_a_to_b),
+                                        placeholder="VD: xưng Tôi - gọi Anh (hoặc Tôi - Cậu)",
+                                        key="na_inp_a_to_b"
+                                    )
+                                with col_inp2:
+                                    val_b_to_a = st.text_input(
+                                        f"Chiều 2: {p_char_b} xưng hô ngược lại với {p_char_a}:",
+                                        value=st.session_state.get('na_inp_b_to_a', curr_b_to_a),
+                                        placeholder="VD: xưng Tôi - gọi Cậu (hoặc Em - Anh)",
+                                        key="na_inp_b_to_a"
+                                    )
+
+                                if st.button("💾 Lưu Cả 2 Chiều Vào Memory Dự Án", type="primary", use_container_width=True, key="na_btn_save_matrix_pair"):
+                                    if val_a_to_b.strip() or val_b_to_a.strip():
+                                        na_save_address_matrix_entry(na_proj, p_char_a, p_char_b, val_a_to_b, val_b_to_a)
+                                        log_action("Novel Agent", f"Cập nhật ma trận xưng hô: [{p_char_a} ↔ {p_char_b}]")
+                                        st.success(f"🎉 Đã lưu quy chuẩn xưng hô 2 chiều cho cặp **{p_char_a} ↔ {p_char_b}** thành công!")
+                                        st.rerun()
+                                    else:
+                                        st.warning("Vui lòng nhập ít nhất 1 chiều xưng hô!")
+
+                    # --- VIEW 3: BIỂU ĐỒ MẠNG LƯỚI (VIS.JS & GRAPHVIZ) ---
+                    elif rel_view_mode == "🕸️ Biểu Đồ Mạng Lưới (Vis.js)":
+                        st.markdown("#### 🕸️ Sơ Đồ Mạng Lưới Quan Hệ Nhân Vật")
+                        saved_rels = memory_v.get('relationships', [])
+                        if not saved_rels:
+                            st.info("Chưa có quan hệ nào được lưu. Hãy thiết lập ở tab Ma Trận hoặc Chỉnh Sửa Nhanh.")
+                        else:
+                            st.caption("💡 *Kéo thả các nút nhân vật, cuộn chuột để Zoom in/out.*")
+                            vis_nodes_dict = {}
+                            vis_edges_list = []
+
+                            for r in saved_rels:
+                                a = str(r.get('Nhân vật A') or r.get('from', '')).strip()
+                                b = str(r.get('Nhân vật B') or r.get('to', '')).strip()
+                                lbl = str(r.get('Quan hệ') or r.get('address', '')).strip()
+                                if a and b:
+                                    for n in [a, b]:
+                                        if n not in vis_nodes_dict:
+                                            vis_nodes_dict[n] = {
+                                                'id': n,
+                                                'label': n,
+                                                'shape': 'box',
+                                                'margin': 10,
+                                                'shadow': True,
+                                                'color': {'background': '#F8FAFC', 'border': '#0D9488', 'highlight': {'background': '#CCFBF1', 'border': '#0F766E'}},
+                                                'font': {'color': '#1E293B', 'size': 14, 'face': 'sans-serif', 'bold': True}
+                                            }
+                                    vis_edges_list.append({
+                                        'from': a,
+                                        'to': b,
+                                        'label': lbl,
+                                        'arrows': 'to',
+                                        'color': {'color': '#64748B', 'highlight': '#0D9488'},
+                                        'font': {'size': 11, 'align': 'horizontal', 'background': '#FFFFFF'},
+                                        'smooth': {'type': 'curvedCW', 'roundness': 0.2}
+                                    })
+
+                            import json as _json
+                            vis_nodes_json = _json.dumps(list(vis_nodes_dict.values()), ensure_ascii=False)
+                            vis_edges_json = _json.dumps(vis_edges_list, ensure_ascii=False)
+
+                            vis_html = f"""
+                            <!DOCTYPE html>
+                            <html>
+                            <head>
+                              <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+                              <style type="text/css">
+                                #mynetwork {{
+                                  width: 100%;
+                                  height: 500px;
+                                  border: 1px solid #CBD5E1;
+                                  border-radius: 12px;
+                                  background-color: #F8FAFC;
+                                }}
+                              </style>
+                            </head>
+                            <body>
+                              <div id="mynetwork"></div>
+                              <script type="text/javascript">
+                                var nodes = new vis.DataSet({vis_nodes_json});
+                                var edges = new vis.DataSet({vis_edges_json});
+                                var container = document.getElementById('mynetwork');
+                                var data = {{ nodes: nodes, edges: edges }};
+                                var options = {{
+                                  interaction: {{ hover: true, tooltipDelay: 200, zoomView: true }},
+                                  physics: {{
+                                    solver: 'forceAtlas2Based',
+                                    forceAtlas2Based: {{
+                                      gravitationalConstant: -60,
+                                      centralGravity: 0.01,
+                                      springLength: 130,
+                                      springConstant: 0.08
+                                    }},
+                                    stabilization: {{ iterations: 150 }}
+                                  }}
+                                }};
+                                var network = new vis.Network(container, data, options);
+                              </script>
+                            </body>
+                            </html>
+                            """
+                            import streamlit.components.v1 as components
+                            components.html(vis_html, height=520)
+
+                    # --- VIEW 4: DẠNG BẢNG THÔ ---
+                    elif rel_view_mode == "📄 Dạng Bảng Thô":
+                        st.markdown("#### 📄 Dữ Liệu Quan Hệ Dạng Bảng Thô")
+                        rels_raw = memory_v.get('relationships', [])
+                        import pandas as _pd
+                        rel_table_data = []
+                        for r in rels_raw:
+                            rel_table_data.append({
+                                'Nhân vật A / From': r.get('Nhân vật A') or r.get('from', ''),
+                                'Quan hệ / Xưng hô': r.get('Quan hệ') or r.get('address', ''),
+                                'Nhân vật B / To': r.get('Nhân vật B') or r.get('to', ''),
+                                'Ghi chú': r.get('Ghi chú') or r.get('pair', '')
+                            })
+                        rel_df = _pd.DataFrame(rel_table_data if rel_table_data else [], columns=['Nhân vật A / From', 'Quan hệ / Xưng hô', 'Nhân vật B / To', 'Ghi chú'])
+                        edited_rel_raw = st.data_editor(rel_df, use_container_width=True, num_rows="dynamic", key="na_mem_rel_raw_editor")
+                        if st.button("💾 Lưu Dữ Liệu Bảng Thô", key="na_save_raw_rel_btn"):
                             new_rels = []
-                            for _, row in edited_rel.iterrows():
-                                if str(row.get('Nhân vật A','')).strip() and str(row.get('Nhân vật B','')).strip():
+                            for _, row in edited_rel_raw.iterrows():
+                                if str(row.get('Nhân vật A / From', '')).strip() and str(row.get('Nhân vật B / To', '')).strip():
                                     new_rels.append({
-                                        'Nhân vật A': row['Nhân vật A'],
-                                        'Quan hệ': row['Quan hệ'],
-                                        'Nhân vật B': row['Nhân vật B'],
-                                        'Ghi chú': row.get('Ghi chú','')
+                                        'from': str(row['Nhân vật A / From']).strip(),
+                                        'to': str(row['Nhân vật B / To']).strip(),
+                                        'pair': f"{str(row['Nhân vật A / From']).strip()} → {str(row['Nhân vật B / To']).strip()}",
+                                        'address': str(row['Quan hệ / Xưng hô']).strip(),
+                                        'notes': str(row.get('Ghi chú', '')).strip()
                                     })
                             memory_v['relationships'] = new_rels
                             na_save_memory(na_proj, memory_v)
-                            st.success("✅ Đã lưu!")
+                            st.success("✅ Đã lưu thành công dữ liệu bảng thô!")
                             st.rerun()
-
-                        # Auto-extract relationships from analysis
-                        chapters_for_rel = na_list_chapters(na_proj)
-                        if chapters_for_rel and st.button("🤖 AI tự trích xuất quan hệ từ Analysis",
-                                                           key="na_auto_rel"):
-                            sys_rel = (
-                                "You are a relationship extractor for a novel translation project.\n"
-                                "Based on character information, extract relationships.\n"
-                                "Output ONLY valid JSON array:\n"
-                                "[{\"Nhân vật A\": \"\", \"Quan hệ\": \"\", \"Nhân vật B\": \"\", \"Ghi chú\": \"\"}]"
-                            )
-                            all_chars_info = json.dumps(chars_v_for_rel, ensure_ascii=False)[:4000]
-                            # Gather chapter summaries
-                            all_summaries = []
-                            for _ch in chapters_for_rel[-5:]:  # last 5 chapters
-                                _s = na_load_json(os.path.join(na_chapter_dir(na_proj, _ch), 'summary.json'), {})
-                                if _s.get('summary'):
-                                    all_summaries.append(f"{_ch}: {_s['summary']}")
-                            prompt_rel = (
-                                f"=== CHARACTERS ===\n{all_chars_info}\n\n"
-                                f"=== RECENT SUMMARIES ===\n{'\n'.join(all_summaries)}"
-                            )
-                            with st.spinner("🤖 AI đang phân tích quan hệ..."):
-                                rel_raw = generate_with_retry(
-                                    "gemini-2.5-flash", prompt_rel, sys_rel, None, retries=3, temp=0.2
-                                )
-                            if rel_raw:
-                                import re as _re
-                                _jm = _re.search(r'```(?:json)?\s*([\s\S]*?)```', rel_raw)
-                                _js = (_jm.group(1) if _jm else rel_raw).strip()
-                                _js = _re.sub(r',\s*([}\]])', r'\1', _js)
-                                try:
-                                    extracted_rels = json.loads(_js)
-                                    memory_v['relationships'] = extracted_rels
-                                    na_save_memory(na_proj, memory_v)
-                                    st.success(f"✅ Trích xuất {len(extracted_rels)} quan hệ!")
-                                    st.rerun()
-                                except Exception:
-                                    st.error("❌ Lỗi parse JSON")
-                                    st.code(rel_raw)
-
-                        # Visual graph rendering using HTML/CSS/JS
-                        # Enhanced Visual Graph Rendering (Vis.js Interactive Physics + Graphviz)
-                        st.divider()
-                        st.markdown("#### 📊 Biểu đồ Quan hệ Trực quan (Relationship Graph)")
-                        saved_rels = memory_v.get('relationships', [])
-                        if saved_rels:
-                            graph_mode = st.radio(
-                                "Chế độ hiển thị:",
-                                ["🌐 Tương tác 3D/Physics (Vis.js)", "📐 Sơ đồ Graphviz (Cấu trúc)", "📄 Dạng Bảng"],
-                                horizontal=True,
-                                key="na_rel_graph_mode"
-                            )
-
-                            if graph_mode == "🌐 Tương tác 3D/Physics (Vis.js)":
-                                st.caption("💡 *Mẹo: Kéo thả các nút nhân vật, cuộn chuột để Zoom in/out, hoặc bấm chọn nhân vật để xem quan hệ rõ ràng mà không bị đè chữ!*")
-                                
-                                # Prepare Vis.js nodes and edges
-                                vis_nodes_dict = {}
-                                vis_edges_list = []
-                                main_chars = ["Cố Tùy Châu", "Thẩm Phi Triết", "Gu Suizhou", "Shen Feizhi"]
-
-                                for r in saved_rels:
-                                    a = str(r.get('Nhân vật A', '')).strip()
-                                    b = str(r.get('Nhân vật B', '')).strip()
-                                    lbl = str(r.get('Quan hệ', '')).strip()
-                                    if a and b:
-                                        for n in [a, b]:
-                                            if n not in vis_nodes_dict:
-                                                is_main = any(mc.lower() in n.lower() for mc in main_chars)
-                                                if "tùy châu" in n.lower() or "suizhou" in n.lower():
-                                                    color_cfg = {'background': '#ffedd5', 'border': '#ea580c', 'highlight': {'background': '#fed7aa', 'border': '#c2410c'}}
-                                                    font_cfg = {'color': '#9a3412', 'size': 15, 'face': 'sans-serif', 'bold': True}
-                                                elif "phi triết" in n.lower() or "feizhi" in n.lower():
-                                                    color_cfg = {'background': '#dcfce7', 'border': '#16a34a', 'highlight': {'background': '#bbf7d0', 'border': '#15803d'}}
-                                                    font_cfg = {'color': '#166534', 'size': 15, 'face': 'sans-serif', 'bold': True}
-                                                else:
-                                                    color_cfg = {'background': '#ffffff', 'border': '#94a3b8', 'highlight': {'background': '#f1f5f9', 'border': '#475569'}}
-                                                    font_cfg = {'color': '#1e293b', 'size': 13, 'face': 'sans-serif'}
-                                                
-                                                vis_nodes_dict[n] = {
-                                                    'id': n,
-                                                    'label': n,
-                                                    'shape': 'box',
-                                                    'margin': 10,
-                                                    'shadow': True,
-                                                    'color': color_cfg,
-                                                    'font': font_cfg
-                                                }
-
-                                        vis_edges_list.append({
-                                            'from': a,
-                                            'to': b,
-                                            'label': lbl,
-                                            'arrows': 'to',
-                                            'color': {'color': '#64748b', 'highlight': '#2563eb'},
-                                            'font': {'size': 11, 'align': 'horizontal', 'background': '#ffffff'},
-                                            'smooth': {'type': 'curvedCW', 'roundness': 0.2}
-                                        })
-
-                                import json as _json
-                                vis_nodes_json = _json.dumps(list(vis_nodes_dict.values()), ensure_ascii=False)
-                                vis_edges_json = _json.dumps(vis_edges_list, ensure_ascii=False)
-
-                                vis_html = f"""
-                                <!DOCTYPE html>
-                                <html>
-                                <head>
-                                  <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
-                                  <style type="text/css">
-                                    #mynetwork {{
-                                      width: 100%;
-                                      height: 520px;
-                                      border: 1px solid #e2e8f0;
-                                      border-radius: 12px;
-                                      background-color: #f8fafc;
-                                    }}
-                                  </style>
-                                </head>
-                                <body>
-                                  <div id="mynetwork"></div>
-                                  <script type="text/javascript">
-                                    var nodes = new vis.DataSet({vis_nodes_json});
-                                    var edges = new vis.DataSet({vis_edges_json});
-                                    var container = document.getElementById('mynetwork');
-                                    var data = {{ nodes: nodes, edges: edges }};
-                                    var options = {{
-                                      interaction: {{ hover: true, tooltipDelay: 200, zoomView: true }},
-                                      physics: {{
-                                        solver: 'forceAtlas2Based',
-                                        forceAtlas2Based: {{
-                                          gravitationalConstant: -60,
-                                          centralGravity: 0.01,
-                                          springLength: 130,
-                                          springConstant: 0.08
-                                        }},
-                                        stabilization: {{ iterations: 150 }}
-                                      }}
-                                    }};
-                                    var network = new vis.Network(container, data, options);
-                                  </script>
-                                </body>
-                                </html>
-                                """
-                                import streamlit.components.v1 as components
-                                components.html(vis_html, height=540)
-
-                            elif graph_mode == "📐 Sơ đồ Graphviz (Cấu trúc)":
-                                dot_lines = [
-                                    'digraph Relationships {',
-                                    '  graph [rankdir=LR, spline=true, overlap=false, bgcolor="transparent", fontname="sans-serif"];',
-                                    '  node [shape=box, style="filled,rounded", fontname="sans-serif", fontsize=11, margin="0.2,0.1"];',
-                                    '  edge [fontname="sans-serif", fontsize=9, color="#64748b", fontcolor="#0f172a"];'
-                                ]
-                                main_chars = ["Cố Tùy Châu", "Thẩm Phi Triết"]
-                                all_nodes = set()
-                                for r in saved_rels:
-                                    a = str(r.get('Nhân vật A', '')).strip()
-                                    b = str(r.get('Nhân vật B', '')).strip()
-                                    if a: all_nodes.add(a)
-                                    if b: all_nodes.add(b)
-                                    
-                                for name in sorted(all_nodes):
-                                    safe_name = name.replace('"', '\\"')
-                                    if any(mc.lower() in name.lower() for mc in main_chars):
-                                        if "tùy châu" in name.lower():
-                                            dot_lines.append(f'  "{safe_name}" [fillcolor="#ffedd5", color="#ea580c", penwidth=2, fontsize=12, fontcolor="#9a3412"];')
-                                        else:
-                                            dot_lines.append(f'  "{safe_name}" [fillcolor="#dcfce7", color="#16a34a", penwidth=2, fontsize=12, fontcolor="#166534"];')
-                                    else:
-                                        dot_lines.append(f'  "{safe_name}" [fillcolor="#ffffff", color="#cbd5e1", fontcolor="#334155"];')
-                                        
-                                for r in saved_rels:
-                                    a = str(r.get('Nhân vật A', '')).strip().replace('"', '\\"')
-                                    b = str(r.get('Nhân vật B', '')).strip().replace('"', '\\"')
-                                    label = str(r.get('Quan hệ', '')).strip().replace('"', '\\"')
-                                    if a and b:
-                                        dot_lines.append(f'  "{a}" -> "{b}" [label=" {label} "];')
-                                        
-                                dot_lines.append('}')
-                                dot_code = '\n'.join(dot_lines)
-                                st.graphviz_chart(dot_code, use_container_width=True)
-
-                            elif graph_mode == "📄 Dạng Bảng":
-                                import pandas as pd
-                                st.dataframe(pd.DataFrame(saved_rels), use_container_width=True)
-                        else:
-                            st.info("Thêm quan hệ vào bảng bên trên hoặc dùng nút AI tự trích xuất.")
 
                 # ===================== MEMORY TAB 4: ARC SUMMARY =====================
                 with mem_tabs[4]:

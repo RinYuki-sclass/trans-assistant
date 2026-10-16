@@ -291,7 +291,7 @@ Bàn chân Tiết Cảnh Minh đạp thẳng lên ngực trái của cậu, dùn
 
 Mẫn Tòng Khiêm: “Sao thế anh?”
 
-Tiết Cảnh Minh: “Cậu định làm cái gì đấy hả?”
+Tiết Cảnh Minh: “Em định làm cái gì đấy hả?”
 
 Cả hai người đồng thanh lên tiếng, Mẫn Tòng Khiêm nghe rõ câu hỏi của Tiết Cảnh Minh, vẻ mặt cậu vô cùng ngây thơ vô tội: “Đương nhiên là...”
 
@@ -305,7 +305,7 @@ Vậy thì cũng không phải là không thể, cậu cũng đâu có vội và
 
 Cậu vơ lấy chiếc chăn kéo lại che chắn đi bằng chứng đang sốt sắng của chính mình.
 
-Tiết Cảnh Minh tuy rằng đã đại khái hiểu ra chuyện gì đang xảy ra, thế nhưng anh trước sau vẫn không thể nào tin nổi, cất giọng đầy vẻ hoài nghi không chắc chắn: “Cậu muốn làm kèo trên?”
+Tiết Cảnh Minh tuy rằng đã đại khái hiểu ra chuyện gì đang xảy ra, thế nhưng anh trước sau vẫn không thể nào tin nổi, cất giọng đầy vẻ hoài nghi không chắc chắn: “Em muốn làm kèo trên?”
 
 Mẫn Tòng Khiêm kinh ngạc, cái gì gọi là cậu muốn? Chẳng phải cậu vốn dĩ nên là kèo trên sao.
 
@@ -317,7 +317,7 @@ Chàng Beta bàng hoàng kinh ngạc, lúc này mới vỡ lẽ nhận ra, chẳ
 
 Câu trả lời đầy lý lẽ hùng hồn của Mẫn Tòng Khiêm khiến Tiết Cảnh Minh bắt đầu nghi ngờ cả giới tính của chính bản thân mình.
 
-Tiết Cảnh Minh: “Tôi là Alpha.”
+Tiết Cảnh Minh: “Anh là Alpha.”
 
 Anh là một Alpha, anh đâu phải là một Omega.
 
@@ -341,7 +341,7 @@ Mặt Tiết Cảnh Minh đỏ bừng vì xấu hổ, chân không rút lại đ
 
 “Đừng có nói bậy!”
 
-“Tôi là anh trai của cậu đấy!”
+“Anh là anh trai của em đấy!”
 
 Cho dù có gạt chuyện giới tính sang một bên không bàn tới, thì một người làm anh trai như anh, làm sao có thể để cho em trai mình...
 

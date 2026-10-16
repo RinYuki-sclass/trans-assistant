@@ -9,25 +9,25 @@ Mẫn Tòng Khiêm gạt bỏ mọi tạp niệm hăng say làm việc suốt c�
 
 Tuy rằng ba mẹ không còn là ba mẹ nữa rồi, nhưng em trai thì vẫn là em trai.
 
-Cậu nở nụ cười rạng rỡ bấm nhận cuộc gọi, trên màn hình liền xuất hiện gương mặt nhỏ nhắn thanh tú của chàng Omega, chớp chớp mắt nhìn chằm chằm cậu một lúc lâu, cậu trêu chọc: “Sao thế? Có phải thấy anh hai của cậu lại đẹp trai hơn rồi không~”
+Cậu nở nụ cười rạng rỡ bấm nhận cuộc gọi, trên màn hình liền xuất hiện gương mặt nhỏ nhắn thanh tú của chàng Omega, chớp chớp mắt nhìn chằm chằm cậu một lúc lâu, cậu trêu chọc: “Sao thế? Có phải thấy anh hai của em lại đẹp trai hơn rồi không~”
 
 Tiết Tòng Nhiên thấy trạng thái của cậu cũng không tệ, liền hừ một tiếng: “Còn kém em một chút nhé~”
 
 Hai anh em bắt đầu màn đọ sắc.
 
-Mẫn: “Mắt của tôi đẹp hơn mắt cậu.”
+Mẫn: “Mắt anh đẹp hơn mắt em.”
 
-Tiết: “Tôi trắng hơn anh.”
+Tiết: “Em trắng hơn anh.”
 
-Mẫn: “Môi của tôi gợi cảm hơn môi cậu.”
+Mẫn: “Môi anh gợi cảm hơn môi em.”
 
-Tiết: “Mũi của tôi cao hơn mũi anh.”
+Tiết: “Mũi em cao hơn mũi anh.”
 
 Hai người đọ qua đọ lại đủ mười ba điều, chẳng ai chịu phục ai, cuối cùng chỉ đành công nhận đối phương là một đối thủ đáng gờm, lần này xem như bọn họ hòa nhau.
 
 “Anh hai, em chuẩn bị vào đoàn phim đóng phim rồi, bây giờ đang trên đường ra sân bay đây, đợi em đóng phim xong em sẽ về thăm anh, anh cái gì cũng đừng nghĩ nhiều nhé, việc cần làm thì cứ làm, giờ đi ngủ thì cứ ngủ, cần ăn thì ăn cần uống thì uống, với cả là cứ ở yên bên cạnh anh cả đừng chạy lung tung đấy.”
 
-Chàng Omega lo lắng một cách nghiêm túc, nghiêm túc suy nghĩ cho cậu, bày mưu tính kế, tựa như ánh nắng ấm áp rọi vào trong tim Mẫn Tòng Khiêm, cậu khẽ gật đầu: “Được rồi, nghe theo cậu.”
+Chàng Omega lo lắng một cách nghiêm túc, nghiêm túc suy nghĩ cho cậu, bày mưu tính kế, tựa như ánh nắng ấm áp rọi vào trong tim Mẫn Tòng Khiêm, cậu khẽ gật đầu: “Được rồi, nghe theo em.”
 
 Chàng Omega kiêu ngạo ngẩng cao cằm: “Nghe lời em là chuẩn nhất rồi.”
 
@@ -35,7 +35,7 @@ Bàng Tranh: “Tòng Khiêm nhanh lên nào, đói chết mất đói chết m�
 
 Tiết Tòng Nhiên nghe thấy có người gọi Mẫn Tòng Khiêm: “Được rồi, thế em không nói chuyện với anh nữa nhé.”
 
-Ngay trước khi cuộc gọi video ngắt máy Mẫn Tòng Khiêm gọi cậu ta lại: “Tòng Nhiên, diễn cho tốt vào nhé, giật được giải Ảnh đế tôi sẽ gọi cậu là anh.”
+Ngay trước khi cuộc gọi video ngắt máy Mẫn Tòng Khiêm gọi cậu ta lại: “Tòng Nhiên, diễn cho tốt vào nhé, giật được giải Ảnh đế anh sẽ gọi em là anh.”
 
 Chàng Omega phát ra một tiếng reo hò phấn khích như vừa được tiêm máu gà.
 
@@ -363,7 +363,7 @@ Trình Mục lập tức nhổm mông đứng dậy: “Vậy chúng ta mau đi 
 
 Trình Tích nhớ tới những lời Mẫn Tòng Khiêm đã nói: “Ba mẹ, con nghĩ có lẽ em ấy vẫn chưa chuẩn bị sẵn sàng tâm lý đâu ạ.”
 
-Văn Cẩm Tâm vỗ vai anh ta: “Tin mẹ đi, Tòng Khiêm nếu biết chúng ta biết sự tồn tại của con bé mà lại không đến tìm, con bé sẽ chỉ càng thêm đau lòng buồn bã hơn thôi, con bé sẽ tưởng rằng chúng ta cũng vứt bỏ con bé rồi.”
+Văn Cẩm Tâm vỗ vai anh: “Tin mẹ đi, nếu Tòng Khiêm biết chúng ta đã biết sự tồn tại của con mà lại không đến tìm, thằng bé sẽ chỉ càng thêm đau lòng buồn bã hơn thôi, thằng bé sẽ tưởng rằng chúng ta cũng vứt bỏ con rồi.”
 
 Xe lăn bánh rời đi.
 

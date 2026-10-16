@@ -247,7 +247,7 @@ Cứ như thể đang uống tin tức tố của Tiết Cảnh Minh vậy.
 
 Điện thoại của Tiết Cảnh Minh gọi đến, cậu không thèm nghe. Cậu không phải người thích chiến tranh lạnh hay phớt lờ đối phương, nhưng giờ đã đến lượt cậu thực hiện điều đó.
 
-Mẫn Tòng Khiêm lại uống một ngụm rượu, trong đầu tính toán lát nữa Tiết Cảnh Minh tìm đến, cậu sẽ giả vờ say rồi khóc lóc kể lể những ấm ức mấy ngày nay của mình, để anh ta cảm thấy có lỗi, để anh ta mềm lòng, để anh ta nhận ra sai lầm mà ngoan ngoãn xin lỗi cậu, rồi chấp nhận sự vượt giới hạn của cậu.
+Mẫn Tòng Khiêm lại uống một ngụm rượu, trong đầu tính toán lát nữa Tiết Cảnh Minh tìm đến, cậu sẽ giả vờ say rồi khóc lóc kể lể những ấm ức mấy ngày nay của mình, để anh cảm thấy có lỗi, để anh mềm lòng, để anh nhận ra sai lầm mà ngoan ngoãn xin lỗi cậu, rồi chấp nhận sự vượt giới hạn của cậu.
 
 “Anh đẹp trai…”
 
@@ -259,7 +259,7 @@ Cứ từ từ mà cảm nhận.
 
 Tiết Cảnh Minh vẫn không thể yên tâm để Mẫn Tòng Khiêm ở quán bar muộn như vậy, sau khi gọi hai cuộc điện thoại không ai nghe máy, anh liền lái xe đến.
 
-Gã Alpha bước vào quán bar lập tức thu hút vô số ánh nhìn, dưới ánh đèn nhấp nháy, những người xung quanh không kiêng nể gì mà đánh giá người đàn ông trưởng thành trong bộ vest chỉnh tề, từ bộ ngực căng đầy làm căng chiếc áo sơ mi đến vòng eo được thắt chặt bởi thắt lưng, rồi đến đôi chân dài miên man, đợi khi anh ta đi qua thì lại nhìn bờ vai rộng và vòng mông cong vút của anh ta.
+Gã Alpha bước vào quán bar lập tức thu hút vô số ánh nhìn, dưới ánh đèn nhấp nháy, những người xung quanh không kiêng nể gì mà đánh giá người đàn ông trưởng thành trong bộ vest chỉnh tề, từ bộ ngực căng đầy làm căng chiếc áo sơ mi đến vòng eo được thắt chặt bởi thắt lưng, rồi đến đôi chân dài miên man, đợi khi anh đi qua thì lại nhìn bờ vai rộng và vòng mông cong vút của gã.
 
 Tiết Cảnh Minh tìm kiếm bóng dáng Mẫn Tòng Khiêm.
 
@@ -315,21 +315,21 @@ Cả người gã Alpha rùng mình, tai đỏ ửng lên thấy rõ. Anh tăng 
 
 Anh nghe thấy tiếng cười của Mẫn Tòng Khiêm, tiếng cười nhạo.
 
-“Anh thấy tôi làm anh mất mặt rồi phải không? Tiết Cảnh Minh.” Mẫn Tòng Khiêm đẩy Tiết Cảnh Minh ra, lảo đảo một cái vì đứng không vững.
+“Anh thấy em làm anh mất mặt rồi phải không? Tiết Cảnh Minh.” Mẫn Tòng Khiêm đẩy Tiết Cảnh Minh ra, lảo đảo một cái vì đứng không vững.
 
 Tiết Cảnh Minh không muốn cãi nhau với Mẫn Tòng Khiêm ở nơi công cộng, càng lo lắng sẽ bị chụp ảnh hoặc bị người quen nhìn thấy, lúc đó chắc chắn sẽ trở thành tin tức lớn, anh chẳng có hứng thú để nhà họ Tiết trở thành đề tài bàn tán của thiên hạ.
 
 Anh nhẫn nại nắm lấy tay Mẫn Tòng Khiêm.
 
-“Cậu lên xe với anh.”
+“Em lên xe với anh.”
 
-“Tôi không.”
+“Em không.”
 
-Mẫn Tòng Khiêm hất tay anh ra, cười cợt nhìn anh: “Anh không phải là không thèm để ý đến tôi sao? Anh không phải là không nhìn thấy tôi, cũng không nghe thấy tôi nói gì sao? Bây giờ anh đến tìm tôi làm gì?”
+Mẫn Tòng Khiêm hất tay anh ra, cười cợt nhìn anh: “Anh không phải là không thèm để ý đến em sao? Anh không phải là không nhìn thấy em, cũng không nghe thấy em nói gì sao? Bây giờ anh đến tìm em làm gì?”
 
 Cậu quay người định đi vào quán bar.
 
-Tiết Cảnh Minh thật sự muốn đánh cậu bất tỉnh ngay lập tức, nhưng anh không mạnh đến thế, anh đuổi theo hai bước: “Cậu về nhà với anh!”
+Tiết Cảnh Minh thật sự muốn đánh cậu bất tỉnh ngay lập tức, nhưng anh không mạnh đến thế, anh đuổi theo hai bước: “Em về nhà với anh!”
 
 Mẫn Tòng Khiêm lần này không hất tay Tiết Cảnh Minh ra nữa, quả thật có một số chuyện không thể nói ở bên ngoài, mối quan hệ của họ cũng không thể bị bất cứ ai phát hiện, dù chỉ một chút tin đồn cũng không được.
 
@@ -347,33 +347,33 @@ Mẫn Tòng Khiêm bị Tiết Cảnh Minh nhét vào ghế phụ lái. Khi Ti�
 
 Anh khóa cửa xe lại, hít sâu một hơi, rồi nghiêng người qua để thắt dây an toàn cho Mẫn Tòng Khiêm.
 
-Mẫn Tòng Khiêm gạt tay anh ra: “Đừng chạm vào tôi!”
+Mẫn Tòng Khiêm gạt tay anh ra: “Đừng chạm vào em!”
 
 Tiết Cảnh Minh cắn chặt quai hàm, tiếp tục kéo dây an toàn. Hai anh em lại giằng co.
 
 Cho đến khi bùng nổ.
 
-Tiết Cảnh Minh vứt mạnh dây an toàn ra: “Mẫn Tòng Khiêm! Cậu đủ rồi đấy! Cậu định làm loạn đến bao giờ nữa!”
+Tiết Cảnh Minh vứt mạnh dây an toàn ra: “Mẫn Tòng Khiêm! Em đủ rồi đấy! Em định làm loạn đến bao giờ nữa!”
 
-“Loạn loạn loạn, trong mắt anh thì tôi làm gì cũng là làm loạn!” Mẫn Tòng Khiêm gầm lên đáp trả: “Tôi là người, tôi không thể khó chịu! Không thể buồn sao! Tôi uống chút rượu thì sao chứ!”
+“Loạn loạn loạn, trong mắt anh thì em làm gì cũng là làm loạn!” Mẫn Tòng Khiêm gầm lên đáp trả: “Em là người, em không thể khó chịu! Không thể buồn sao! Em uống chút rượu thì sao chứ!”
 
 Chàng Beta đỏ hoe mắt.
 
-“Anh không phải ngày nào cũng coi tôi như không khí, không hỏi không han sao, bây giờ lại đang làm gì thế này?”
+“Anh không phải ngày nào cũng coi em như không khí, không hỏi không han sao, bây giờ lại đang làm gì thế này?”
 
 Mắt Mẫn Tòng Khiêm ngấn lệ, nhưng cậu lại cố nặn ra một nụ cười.
 
 Tiết Cảnh Minh bị chất vấn liên hồi, gân xanh trên trán nổi lên giật giật. Miếng dán ngăn chặn đã không thể che giấu được pheromone của Alpha đang kích động, mùi rượu tequila lan tỏa khắp xe.
 
-“Nếu anh muốn quản thì quản tôi như quản cháu trai, còn nếu anh không muốn quản thì vứt tôi sang một bên, chẳng thèm nhìn lấy một cái, tôi là thú cưng chắc?”
+“Nếu anh muốn quản thì quản em như quản cháu trai, còn nếu anh không muốn quản thì vứt em sang một bên, chẳng thèm nhìn lấy một cái, em là thú cưng chắc?”
 
-Mẫn Tòng Khiêm không đợi Tiết Cảnh Minh trả lời: “Không đúng, đối với anh, tôi còn chẳng bằng thú cưng, tôi chính là rác rưởi mà anh có thể vứt bỏ tùy tiện, anh chê tôi làm bẩn danh tiếng của anh, làm bẩn danh tiếng nhà họ Tiết, anh muốn vứt bỏ tôi!”
+Mẫn Tòng Khiêm không đợi Tiết Cảnh Minh trả lời: “Không đúng, đối với anh, em còn chẳng bằng thú cưng, em chính là rác rưởi mà anh có thể vứt bỏ tùy tiện, anh chê em làm bẩn danh tiếng của anh, làm bẩn danh tiếng nhà họ Tiết, anh muốn vứt bỏ em!”
 
 Giọng cậu Beta trở nên chói tai, đồng tử cũng run rẩy.
 
-Tiết Cảnh Minh sững sờ, lời của cậu Beta như lưỡi dao đâm thẳng vào tim anh, anh em họ bao năm nay, Mẫn Tòng Khiêm lại nhìn anh như vậy.
+Tiết Cảnh Minh sững sờ, lời của chàng Beta như lưỡi dao đâm thẳng vào tim anh, anh em họ bao năm nay, Mẫn Tòng Khiêm lại nhìn anh như vậy.
 
-Cậu ta lại nói rằng trong mắt anh, cậu ta là rác rưởi…
+Cậu lại nói rằng trong mắt anh, cậu là rác rưởi…
 
 Mẫn Tòng Khiêm: “Bây giờ…”
 
@@ -381,22 +381,22 @@ Tiết Cảnh Minh lạnh giọng nói: “Câm miệng.”
 
 Mẫn Tòng Khiêm: “Anh thì…”
 
-Tiết Cảnh Minh: “Tôi bảo cậu câm miệng!”
+Tiết Cảnh Minh: “Anh bảo em câm miệng!”
 
-Cảm xúc của gã Alpha hoàn toàn bùng nổ, mùi rượu Tequila nồng đến nghẹt thở. Anh nắm lấy áo Mẫn Tòng Khiêm kéo cậu lại gần, từng chữ từng chữ một, rõ ràng rành mạch ra lệnh: “Thu lại những lời cậu vừa nói.”
+Cảm xúc của gã Alpha hoàn toàn bùng nổ, mùi rượu Tequila nồng đến nghẹt thở. Anh nắm lấy áo Mẫn Tòng Khiêm kéo cậu lại gần, từng chữ từng chữ một, rõ ràng rành mạch ra lệnh: “Thu lại những lời em vừa nói.”
 
-Mẫn Tòng Khiêm cứng cổ, hoàn toàn không có ý định nhượng bộ, cả khuôn mặt đỏ bừng, trông thật đáng thương: “Lại đến quản tôi? Anh dựa vào cái gì mà quản tôi!”
+Mẫn Tòng Khiêm cứng cổ, hoàn toàn không có ý định nhượng bộ, cả khuôn mặt đỏ bừng, trông thật đáng thương: “Lại đến quản em? Anh dựa vào cái gì mà quản em!”
 
-“Tôi là anh của cậu!”
+“Anh là anh của em!”
 
-“Tôi có thể quản anh! Tôi quản anh cả đời!”
+“Anh được quyền quản em! Anh quản em cả đời!”
 
 “Anh nói dối!”
 
 Giọng của chàng Beta đã vỡ ra, âm cuối khàn đặc giống như cuộc chia ly bất ngờ năm đó, khiến người ta không thể thở nổi, chỉ đành nuốt ngược hơi thở vào. Rồi theo năm tháng ăn mòn ngũ tạng lục phủ, chỉ còn lại những sợi đau âm ỉ thỉnh thoảng tái phát, khiến người ta không thể nào thoát khỏi.
 
-“Anh quản tôi đi! Anh quản tôi đi! Năm đó bọn họ đưa tôi đi, tại sao anh không quản tôi!”
+“Anh bảo quản em! Anh bảo quản em! Năm đó bọn họ đưa em đi, tại sao anh không quản em!”
 
-Nước mắt từ khóe mắt Mẫn Tòng Khiêm rơi xuống: “Anh đang ở đâu? Tôi hỏi anh đang ở đâu? Lúc tôi cần anh nhất, anh đang ở đâu! Tiết Cảnh Minh! Anh nói cho tôi biết tại sao lúc đó anh không quản tôi nữa!”
+Nước mắt từ khóe mắt Mẫn Tòng Khiêm rơi xuống: “Anh đang ở đâu? Em hỏi anh đang ở đâu? Lúc em cần anh nhất, anh đang ở đâu! Tiết Cảnh Minh! Anh nói cho em biết tại sao lúc đó anh không quản em nữa!”
 
 Cậu dùng hết sức lực nắm chặt Tiết Cảnh Minh, trong chốc lát không phân biệt được là Mẫn Tòng Khiêm của hiện tại đang hỏi anh, hay là Mẫn Tòng Khiêm 16 tuổi năm đó đang hỏi anh.

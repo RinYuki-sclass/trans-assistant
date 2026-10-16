@@ -177,7 +177,7 @@ Hai anh em các người bỏ rơi tôi để đi vui vẻ với nhau? Tâm sự
 
 Nụ cười trên khóe môi Mẫn Tòng Khiêm thật tinh tế, chỉ là thứ Tiết Cảnh Minh uống không phải rượu.
 
-Tiết Tòng Nhiên lập tức không chịu, giả vờ khóc đòi Ninh Lệ Trân phân xử cho mình, Ninh Lệ Trân qua loa dỗ dành cậu ta, cậu ta lại gào lên với Tiết Sơn Thanh: “Bố! Anh cả và anh hai chơi chung mà không rủ con! Hai người họ cứ lén lút chơi với nhau, hôm đó anh hai còn từ phòng anh cả đi ra nữa, họ là anh em tốt, còn con thì không!”
+Tiết Tòng Nhiên lập tức không chịu, giả vờ khóc đòi Ninh Lệ Trân phân xử cho mình, Ninh Lệ Trân qua loa dỗ dành cậu ta, cậu ta lại gào lên với Tiết Sơn Thanh: “Ba! Anh cả và anh hai chơi chung mà không rủ con! Hai người họ cứ lén lút chơi với nhau, hôm đó anh hai còn từ phòng anh cả đi ra nữa, họ là anh em tốt, còn con thì không!”
 
 Cậu Omega càng nói càng ủy khuất.
 
@@ -219,7 +219,7 @@ Tay hắn sưng quá, không băng lại thì khó mà giải thích. Gã Alpha 
 
 Tiết Sơn Thanh nhìn hai anh em tình cảm thắm thiết.
 
-Lúc ăn cơm tối, Mẫn Tòng Khiêm suýt nữa thì đút cho Tiết Cảnh Minh ăn. Tiết Cảnh Minh bất đắc dĩ cười: “Tay phải của tôi không sao, không cần cậu đâu, cậu ăn cơm cho tốt đi.”
+Lúc ăn cơm tối, Mẫn Tòng Khiêm suýt nữa thì đút cho Tiết Cảnh Minh ăn. Tiết Cảnh Minh bất đắc dĩ cười: “Tay phải của anh không sao, không cần em đâu, em ăn cơm cho ngoan đi.”
 
 Dù đã đồng ý, Mẫn Tòng Khiêm vẫn lần lượt gắp từng món vào đĩa của Tiết Cảnh Minh, sau đó, cảm nhận được ánh mắt oán giận của Tiết Tòng Nhiên, cậu ta cũng tùy ý gắp cho hắn một đũa thức ăn.
 
@@ -247,19 +247,19 @@ Cửa đóng lại, beta rời đi một cách dứt khoát.
 
 Tiết Cảnh Minh ngược lại có chút không quen, nhưng một người em trai bình thường chẳng phải nên như vậy sao, xem ra lần này Mẫn Tòng Khiêm thật sự sẽ nói được làm được.
 
-Mẫn Tòng Khiêm từ trên lầu đi xuống, không ngờ Tiết Thanh Sơn lại xuất hiện ở phòng khách, vừa rồi lúc cậu lên lầu còn không có ở đây.
+Mẫn Tòng Khiêm từ trên lầu đi xuống, không ngờ Tiết Sơn Thanh lại xuất hiện ở phòng khách, vừa rồi lúc cậu lên lầu còn không có ở đây.
 
-Tiết Thanh Sơn cũng phát hiện ra cậu: “Đi tìm Cảnh Minh à?”
+Tiết Sơn Thanh cũng phát hiện ra cậu: “Đi tìm Cảnh Minh à?”
 
-“Em đi hỏi xem anh cả có cần giúp gì không.”
+“Con đi hỏi xem anh cả có cần giúp gì không ạ.”
 
-Tiết Thanh Sơn không nói thêm gì nữa, điều đó có nghĩa là cuộc trò chuyện của họ đã kết thúc.
+Tiết Sơn Thanh không nói thêm gì nữa, điều đó có nghĩa là cuộc trò chuyện của họ đã kết thúc.
 
-Mẫn Tòng Khiêm gật đầu rồi quay về phòng ngủ, nửa tiếng sau cậu đi ra: “Bố, sao bố còn chưa nghỉ ngơi mà đã muộn thế này?”
+Mẫn Tòng Khiêm gật đầu rồi quay về phòng ngủ, nửa tiếng sau cậu đi ra: “Ba, sao ba còn chưa nghỉ ngơi mà đã muộn thế này ạ?”
 
 “Già rồi, ngủ ít.”
 
-“Sao bố cũng không ngủ?”
+“Sao con cũng chưa ngủ?”
 
 “Con đi lấy cốc nước mang sang cho anh cả.”
 
@@ -285,7 +285,7 @@ Ngày hôm sau, sau khi chăm sóc Tiết Cảnh Minh ăn sáng xong, Mẫn Tòn
 
 Mẫn Tòng Khiêm hết sức kiên trì, nắm lấy cánh tay Tiết Cảnh Minh kéo về phía cửa.
 
-Tiết Tòng Nhiên: “Bố, bố nhìn bọn họ kìa!”
+Tiết Tòng Nhiên: “Ba, ba nhìn bọn họ kìa!”
 
 Tiết Sơn Thanh đặt đũa xuống.
 
@@ -351,7 +351,7 @@ Hơn nữa, từ sau khi cảm nhận được đôi môi của Tiết Cảnh Mi
 
 Tối đó, Tiết Sơn Thanh tuyên bố một tin tức trọng đại trên bàn ăn, hiếm hoi là có liên quan đến Mẫn Tòng Khiêm.
 
-Tiết Sơn Thanh: “Là một đứa trẻ rất tốt, rất ưu tú. Tòng Khiêm, cậu cũng 24 rồi, tuy không quá lớn nhưng sớm định đoạt cũng tốt, bằng không đợi đến tuổi đó, chỉ có thể chọn những người bị người khác bỏ lại thôi.”
+Tiết Sơn Thanh: “Là một đứa trẻ rất tốt, rất ưu tú. Tòng Khiêm, con cũng 24 rồi, tuy không quá lớn nhưng sớm định đoạt cũng tốt, bằng không đợi đến tuổi đó, chỉ có thể chọn những người bị người khác bỏ lại thôi.”
 
 Mẫn Tòng Khiêm chưa bao giờ nghĩ Tiết Sơn Thanh lại quan tâm đến chuyện hôn sự của cậu, còn đích thân chọn người, sắp xếp cho cậu.
 
@@ -361,12 +361,12 @@ Tiết Sơn Thanh: “Chỉ là định trước thôi chứ không phải ngày
 
 Tiết Cảnh Minh: “Một Alpha sao có thể…”
 
-Hắn ngừng lại, nhưng ý tứ thì rất rõ ràng. Cũng không trách hắn nghĩ như vậy, Alpha và Omega mới là trời sinh một cặp, tin tức tố của họ có thể xoa dịu lẫn nhau, giúp đối phương vượt qua giai đoạn đặc biệt.
+Anh ngừng lại, nhưng ý tứ thì rất rõ ràng. Cũng không trách anh nghĩ như vậy, Alpha và Omega mới là trời sinh một cặp, tin tức tố của họ có thể xoa dịu lẫn nhau, giúp đối phương vượt qua giai đoạn đặc biệt.
 
 Tiết Sơn Thanh: “Nhà họ Đàn coi trọng nhân tài hơn giới tính. Tòng Khiêm có học vấn cao, viện nghiên cứu của Đế Quốc Học Viện 3 năm gần đây mới tuyển được một người như Tòng Khiêm. Cái đầu này không thua kém tuyến thể của Omega đâu.”
 
-Tiết Cảnh Minh còn định nói gì đó, Tiết Sơn Thanh trực tiếp bỏ qua anh ta, hỏi Mẫn Tòng Khiêm: “Tòng Khiêm nghĩ sao?”
+Tiết Cảnh Minh còn định nói gì đó, Tiết Sơn Thanh trực tiếp bỏ qua anh, hỏi Mẫn Tòng Khiêm: “Tòng Khiêm nghĩ sao?”
 
 Nhất thời, tất cả mọi người đều nhìn về phía cậu.
 
-Mẫn Tòng Khiêm có chút ngượng ngùng: “Em nghe theo sự sắp xếp của người.”
+Mẫn Tòng Khiêm có chút ngượng ngùng: “Con nghe theo sự sắp xếp của ba.”

@@ -398,13 +398,13 @@ Lòng bàn tay Mẫn Tòng Khiêm lập tức sưng vù lên.
 
 Mẫn Tòng Khiêm nhìn Tiết Cảnh Minh với vẻ khó tin. Anh ta để ý Ôn Ngọc á?
 
-Sao có thể chứ, con người Tiết Cảnh Minh coi trọng nhất là gia phong và danh tiếng, về khoản này anh ta là một tên cổ hủ chính hiệu. Thậm chí anh còn cấm tiệt việc cậu kết giao với những người có thanh danh kém trong giới, cứ lấy cái cớ gần mực thì đen ra để mà dậy dỗ cậu.
+Sao có thể chứ, con người Tiết Cảnh Minh coi trọng nhất là gia phong và danh tiếng, về khoản này anh ta là một tên cổ hủ chính hiệu. Thậm chí anh còn cấm tiệt việc cậu kết giao với những người có thanh danh kém trong giới, cứ lấy cái cớ gần mực thì đen ra để mà dạy dỗ cậu.
 
 Nghiêm trọng nhất là trong hai năm cậu sống ở nhà họ Mẫn, ngày nào anh ta cũng điều tra xem cậu có qua đêm ở ngoài không, đặt ra luật bắt cậu phải về nhà trước 9 giờ tối.
 
 Có một lần cậu nán lại dự sinh nhật bạn học nên 10 giờ mới mò về, ngay ngày hôm sau Tiết Cảnh Minh đã lao đến nhà họ Mẫn lôi cậu từ trong chăn ra dạy dỗ một trận. Miệng luôn miệng mắng chửi một Beta nửa đêm không về nhà mà đi rông bên ngoài thì còn ra thể thống gì.
 
-Nếu không nhờ chú Mẫn cản lại, thực sự khó mà tưởng tượng được hậu quả như nào.
+Nếu không nhờ chú Mẫn cản lại, thực sự khó mà tưởng tượng được hậu quả thế nào.
 
 Anh ta thừa biết Ôn Ngọc là bạn trai của cậu, cớ gì lại nảy sinh tâm tư khác với Ôn Ngọc chứ.
 
@@ -436,7 +436,7 @@ Câu trả lời của Tiết Cảnh Minh không hề vòng vo uyển chuyển, 
 
 Anh lôi đạo lý ra nói một cách rất trơn tru.
 
-Khóe môi Mẫn Tòng Khiêm nhếch lên thành một nụ cười lạnh đầy mỉa mai: “Nói như vậy có nghĩa là em ấy nên tìm một Alpha giống anh cả mới xứng đôi vừa lứa phải không.”
+Khóe môi Mẫn Tòng Khiêm nhếch lên thành một nụ cười lạnh đầy mỉa mai: “Nói như vậy có nghĩa là em ấy nên tìm một Alpha giống anh cả mới xứng đôi vừa lứa phải không?”
 
 Tiết Cảnh Minh vô thức mường tượng cảnh bản thân sánh vai đứng cạnh Ôn Ngọc.
 
@@ -534,7 +534,7 @@ Mẫn Tòng Khiêm hừ cười một tiếng đắc ý, to gan bật đèn, v�
 
 Đồ đạo đức giả.
 
-Bao năm qua uổng công bị anh dậy dỗ, ăn đòn, lại còn bị anh quản lý nghiêm ngặt.
+Bao năm qua uổng công bị anh dạy dỗ, ăn đòn, lại còn bị anh quản lý nghiêm ngặt.
 
 “Alpha vĩ đại quá nhỉ…”
 

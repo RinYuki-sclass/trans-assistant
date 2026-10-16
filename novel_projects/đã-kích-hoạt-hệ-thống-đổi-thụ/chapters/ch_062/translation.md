@@ -523,7 +523,7 @@ Mẫn Tòng Khiêm: ...
 
 Thúc mạnh thêm một cú long trời lở đất.
 
-“Mẫn Tòng Khiêm, tôi đang nói chuyện nghiêm túc với cậu đấy.”
+“Mẫn Tòng Khiêm, anh đang nói chuyện nghiêm túc với em đấy.”
 
 Tiết Cảnh Minh cố gắng giữ cho giọng nói của mình không có điểm gì bất thường, bàn tay hơi run rẩy đặt lên trên đầu Mẫn Tòng Khiêm.
 
