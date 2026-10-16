@@ -27,15 +27,15 @@ Cho đến khi họ nói xong, hỏi ý kiến của cậu.
 
 Cậu chỉ quan tâm một vấn đề.
 
-“Anh có biết tôi đã hỏi họ điều gì không?” Mẫn Tòng Khiêm xuyên qua làn nước mắt nhòe nhoẹt nhìn Tiết Cảnh Minh, thấy khóe mắt gã Alpha đỏ hoe. [Anh cũng đang đau lòng sao, Tiết Cảnh Minh? Vẫn chưa đủ, tôi chính là muốn anh phải đau đớn giống hệt tôi! Đây là điều anh nợ tôi! Nợ tôi!]
+“Anh có biết em đã hỏi họ điều gì không?” Mẫn Tòng Khiêm xuyên qua làn nước mắt nhòe nhoẹt nhìn Tiết Cảnh Minh, thấy khóe mắt gã Alpha đỏ hoe. [Anh cũng đang đau lòng sao, Tiết Cảnh Minh? Vẫn chưa đủ, em chính là muốn anh phải đau đớn giống hệt em! Đây là điều anh nợ em! Nợ em!]
 
 Một khi đã mở lời, có những chủ đề sẽ không thể dừng lại. Suốt những năm qua, chủ đề này như một điều cấm kỵ, họ ngầm hiểu không ai nhắc đến.
 
 Nhưng hôm nay…
 
-Mẫn Tòng Khiêm: “Tôi hỏi họ, anh tôi có đồng ý không?”
+Mẫn Tòng Khiêm: “Em hỏi họ, anh trai em có đồng ý không?”
 
-Chàng Beta cười, nước mắt rơi, nói bằng giọng khản đặc vì gào thét: “Tôi hỏi họ, anh có đồng ý không?”
+Chàng Beta cười, nước mắt rơi, nói bằng giọng khản đặc vì gào thét: “Em hỏi họ, anh có đồng ý không?”
 
 Tiết Cảnh Minh chỉ cảm thấy lời của Mẫn Tòng Khiêm như một bàn tay vô hình, vươn vào lồng ngực anh, siết chặt trái tim anh khiến anh đau đớn tột cùng. Nhưng đây là điều anh đáng phải chịu, là điều anh nợ Mẫn Tòng Khiêm, là do anh, người anh cả này, đã không bảo vệ tốt cho cậu.
 
@@ -45,9 +45,9 @@ Mẫn Tòng Khiêm ở khoảng cách gần nhất cảm nhận nỗi đau của
 
 Cậu còn nhớ khi mình hỏi câu đó, giọng cậu cũng run rẩy. [Anh ấy nhất định sẽ không đồng ý. Mình là do anh ấy một tay nuôi lớn, sao anh ấy có thể đồng ý để mình bị đưa đi chứ.]
 
-“Tôi đã tin tưởng anh đến nhường nào.”
+“Em đã tin tưởng anh đến nhường nào.”
 
-Từ nhỏ đến lớn, tôi luôn ngưỡng mộ anh, tôi dõi theo bước chân anh, tôi tin tưởng anh bằng cả trái tim mình.
+Từ nhỏ đến lớn, em luôn ngưỡng mộ anh, em dõi theo bước chân anh, em tin tưởng anh bằng cả trái tim mình.
 
 Đổi lại là gì?
 
@@ -55,13 +55,13 @@ Từ nhỏ đến lớn, tôi luôn ngưỡng mộ anh, tôi dõi theo bước c
 
 Không khí trong xe bị tin tức tố của Alpha lấp đầy, bị nước mắt của Beta làm ướt, đọng lại trên người hai người chỉ còn lại sự nặng nề.
 
-Thấy nước mắt của Alpha, Mẫn Tòng Khiêm vẫn chưa hả giận. Cậu nghiến răng nghiến lợi: “Trong tất cả mọi người, tôi hận anh nhất.”
+Thấy nước mắt của Alpha, Mẫn Tòng Khiêm vẫn chưa hả giận. Cậu nghiến răng nghiến lợi: “Trong tất cả mọi người, em hận anh nhất.”
 
 Chữ “hận” này như một thanh kiếm sắc bén, đâm Tiết Cảnh Minh máu chảy đầm đìa khiến anh loạng choạng, như thể giây tiếp theo sẽ vỡ thành vô số mảnh.
 
 Hận…
 
-Từ Khiêm hận anh…
+Tòng Khiêm hận anh…
 
 Chỉ cần nghĩ đến khả năng này, Tiết Cảnh Minh đã cảm thấy cuộc đời hai mươi bảy năm của anh chẳng còn ý nghĩa gì, phần đời còn lại càng không có gì đáng mong đợi.
 
@@ -71,7 +71,7 @@ Bàn tay ôm Mẫn Tòng Khiêm siết chặt.
 
 “Đừng hận anh.”
 
-“Tôi hận anh.”
+“Em hận anh.”
 
 Mẫn Tòng Khiêm không giãy giụa.
 
@@ -115,7 +115,7 @@ Ngàn lời muốn nói nhưng không biết bắt đầu từ đâu, cuối cù
 
 “Anh xin lỗi.”
 
-“Anh đã không bảo vệ tốt cho cậu.”
+“Anh đã không bảo vệ tốt cho em.”
 
 Đây là lần đầu tiên Tiết Cảnh Minh xin lỗi Mẫn Tòng Khiêm, mặc dù trong lòng anh đã nói hàng vạn lần xin lỗi cậu về chuyện này, nhưng anh là một Alpha cổ hủ, những suy nghĩ của anh, những gì anh đã làm, đã hy sinh vì chuyện này, anh chưa bao giờ nói ra. Anh chỉ nhìn vào kết quả, và kết quả là anh đã không thể bảo vệ tốt Mẫn Tòng Khiêm, không thể giữ cậu lại.
 
@@ -123,7 +123,7 @@ Anh chậm rãi lau đi những giọt nước mắt ấm nóng trên gương m�
 
 “Anh xin lỗi.”
 
-“Anh chưa bao giờ không cần cậu.”
+“Anh chưa bao giờ không cần em.”
 
 Mẫn Tòng Khiêm sau khi nghe câu nói này, cảm xúc cuối cùng cũng ổn định trở lại.
 
@@ -353,9 +353,9 @@ Cái này?
 
 Mẫn Tòng Khiêm tiến lại gần: “Anh cả, như vậy em mới có thể hoàn toàn chết tâm.”
 
-Suýt chút nữa bị đút đến tận miệng, Tiết Cảnh Minh mới hoàn hồn, vội đưa tay ra ngăn Mẫn Tòng Khiêm lại, không cho cậu ta tiến thêm nữa.
+Suýt chút nữa bị đút đến tận miệng, Tiết Cảnh Minh mới hoàn hồn, vội đưa tay ra ngăn Mẫn Tòng Khiêm lại, không cho cậu tiến thêm nữa.
 
-Gã Alpha tỏ thái độ như đang đàm phán: “Chuyện này không giống những gì cậu vừa nói.”
+Gã Alpha tỏ thái độ như đang đàm phán: “Chuyện này không giống những gì em vừa nói.”
 
 Tăng giá vào phút chót.
 
@@ -365,15 +365,15 @@ Vi phạm quy tắc đàm phán, đó là thủ đoạn tiểu nhân.
 
 “Chỉ lần này thôi.”
 
-Mẫn Tòng Khiêm không đàm phán với anh ta, Mẫn Tòng Khiêm chỉ biết nài nỉ, với tư cách là em trai, để mưu cầu lợi ích cho em trai mình.
+Mẫn Tòng Khiêm không đàm phán với anh, Mẫn Tòng Khiêm chỉ biết nài nỉ, với tư cách là em trai, để mưu cầu lợi ích cho em trai mình.
 
 Nếu đây là trên bàn đàm phán, Tiết Cảnh Minh đã sớm chấm dứt cuộc nói chuyện này rồi. Chẳng có gì đáng để bàn với một kẻ không có uy tín cả. Thứ đang tỏa ra hơi nóng bốc lên nghi ngút trước mắt, làn da trắng hồng vì sung huyết càng thêm phần đỏ mọng. Nếu không có mấy đường gân xanh kia, trông nó hẳn sẽ rất thanh tú, thật sự khác xa so với lúc còn bé.
 
 Lúc còn bé bé tí teo.
 
-Tiết Cảnh Minh gạt hình ảnh Mẫn Tòng Khiêm lúc nhỏ ra khỏi đầu, giọng điệu lạnh đi vài phần: “Về chỗ của cậu đi.”
+Tiết Cảnh Minh gạt hình ảnh Mẫn Tòng Khiêm lúc nhỏ ra khỏi đầu, giọng điệu lạnh đi vài phần: “Về chỗ của em đi.”
 
-Anh ta dùng tay đẩy Mẫn Tòng Khiêm ra, cố gắng đẩy cậu ta đi.
+Anh dùng tay đẩy Mẫn Tòng Khiêm ra, cố gắng đẩy cậu đi.
 
 “Anh cả, nếu anh cứ như vậy, thì em sẽ không từ bỏ anh đâu.” Mẫn Tòng Khiêm nói, “Em chưa đạt được thứ em muốn, em không thể từ bỏ được.”
 

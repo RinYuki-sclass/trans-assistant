@@ -101,17 +101,17 @@ Một Beta không ở nhà, thật sự cho rằng bên ngoài an toàn lắm sa
 
 Mẫn Tòng Khiêm không hề nhượng bộ: “Dọn ra ngoài thì sao chứ, chẳng phải anh bảo tôi cút đi còn gì.”
 
-Tiết Cảnh Minh nhíu mày nghi hoặc, nhất thời không nhớ mình đã nói câu này khi nào, Mẫn Tòng Khiêm rất ân cần nhắc nhở cậu ta: “Đêm đó trong phòng ngủ của anh, anh bảo tôi cút đi.”
+Tiết Cảnh Minh nhíu mày nghi hoặc, nhất thời không nhớ mình đã nói câu này khi nào, Mẫn Tòng Khiêm rất ân cần nhắc nhở anh: “Đêm đó trong phòng ngủ của anh, anh bảo tôi cút đi.”
 
 Beta khóe môi nhếch lên một nụ cười không chút ấm áp.
 
-Nghe cậu ta nhắc nhở, gã Alpha vốn đang cố gắng quên đi đêm đó trong những ngày qua, lập tức nhớ lại, đồng tử khẽ rung động, theo bản năng nhìn về phía đôi môi của Mẫn Tòng Khiêm.
+Nghe cậu nhắc nhở, gã Alpha vốn đang cố gắng quên đi đêm đó trong những ngày qua, lập tức nhớ lại, đồng tử khẽ rung động, theo bản năng nhìn về phía đôi môi của Mẫn Tòng Khiêm.
 
 Môi của Beta hơi dày, đặc biệt là lúm đồng tiền nhỏ nhắn kia rất bắt mắt, sắc đỏ non nớt vừa khỏe mạnh vừa xinh đẹp, sự mềm mại và hương thơm của đôi môi này, Tiết Cảnh Minh hoàn toàn hiểu rõ, đây không phải là thứ mà một người anh nên hiểu.
 
 Cổ họng Alpha lăn xuống, dời ánh mắt rồi lên tiếng, hiếm khi giải thích với Mẫn Tòng Khiêm: “Anh là muốn em rời khỏi phòng của anh.”
 
-Chuyện Mẫn Tòng Khiêm muốn dọn ra ngoài đã bày ra trước mắt, khiến Tiết Cảnh Minh nhất thời không phản ứng kịp. Bản thân cậu ta còn chưa tính sổ chuyện đêm đó, Mẫn Tòng Khiêm vậy mà còn dám nhắc tới, thậm chí còn trách cứ cậu ta, đúng là đảo lộn càn khôn.
+Chuyện Mẫn Tòng Khiêm muốn dọn ra ngoài đã bày ra trước mắt, khiến Tiết Cảnh Minh nhất thời không phản ứng kịp. Bản thân anh còn chưa tính sổ chuyện đêm đó, Mẫn Tòng Khiêm vậy mà còn dám nhắc tới, thậm chí còn trách cứ anh, đúng là đảo lộn càn khôn.
 
 Trong phòng, hai anh em đè thấp giọng đối chọi nhau.
 
@@ -125,13 +125,13 @@ Omega do dự có nên qua đó xem náo nhiệt hay không, nhưng nếu mình 
 
 Mẫn Tòng Khiêm giũ tay Tiết Cảnh Minh ra nhưng không được: “Lần trước anh đến trường tìm tôi, anh cũng nói nếu có lần sau sẽ đuổi tôi ra khỏi nhà.”
 
-Mặc dù cậu ta nói một đằng làm một nẻo.
+Mặc dù anh nói một đằng làm một nẻo.
 
 Nhưng bản thân mình thì phải coi đó là chuyện nghiêm túc để xử lý.
 
-Tiết Cảnh Minh muốn đi lấy thước kẻ, Mẫn Tòng Khiêm đúng là quá hư, kể từ khi hai người nối lại liên lạc, Mẫn Tòng Khiêm đối với anh không còn như trước nữa, anh không ngốc đến mức không nhận ra, mấy năm nay cậu ta công khai hay ngấm ngầm chống đối anh, chỉ riêng việc lén lút đảo mắt sau lưng đã bị anh bắt gặp hơn hai mươi lần, chưa kể đến việc cậu ta sau lưng lẩm bẩm chửi rủa mình, nào là đồ cổ hủ, đồ cổ lỗ sĩ, đồ đá cứng đầu...
+Tiết Cảnh Minh muốn đi lấy thước kẻ, Mẫn Tòng Khiêm đúng là quá hư, kể từ khi hai người nối lại liên lạc, Mẫn Tòng Khiêm đối với anh không còn như trước nữa, anh không ngốc đến mức không nhận ra, mấy năm nay cậu công khai hay ngấm ngầm chống đối anh, chỉ riêng việc lén lút đảo mắt sau lưng đã bị anh bắt gặp hơn hai mươi lần, chưa kể đến việc cậu sau lưng lẩm bẩm chửi rủa mình, nào là đồ cổ hủ, đồ cổ lỗ sĩ, đồ đá cứng đầu...
 
-Anh đều không so đo với cậu ta, giờ thì cậu ta được voi đòi tiên rồi.
+Anh đều không so đo với cậu, giờ thì cậu được voi đòi tiên rồi.
 
 Gã Alpha thô bạo kéo Beta từ dưới đất dậy, đá bay chiếc vali đang chắn giữa hai người, kéo người lại gần: “Giờ cậu định nói với tôi là cậu rất nghe lời sao!”
 
@@ -159,19 +159,19 @@ Hàn Hiểu Mai thấy Mẫn Tòng Khiêm mãi vẫn chưa ra: "Tôi đi xem Khi
 
 Ninh Lệ Trân giữ cô lại: "Không vội không vội, cậu ấy tự thu xếp, chúng ta nói chuyện thêm một lát. Khiêm Khiêm nó quen ở nhà rồi, bà không biết đâu, nó quấn tôi lắm..."
 
-Bị chất vấn, Tiết Cảnh Minh có cả một đống lời muốn nói. Anh ta chưa từng khen Mẫn Tòng Khiêm sao? Lần đầu tiên cậu ta ngồi dậy, lần đầu tiên đứng lên, lần đầu tiên biết đi, biết nói, lần nào anh ta mà chẳng khen ngợi? Ngay cả lần đầu tiên cậu ta rút được giấy ra, anh ta cũng đã vỗ tay như thằng ngốc khen cậu ta giỏi giang. Nhưng anh ta không đến đây để nói những chuyện này với Mẫn Tòng Khiêm. Gã Alpha lặng lẽ hít một hơi thật sâu để tự kiềm chế.
+Bị chất vấn, Tiết Cảnh Minh có cả một đống lời muốn nói. Anh chưa từng khen Mẫn Tòng Khiêm sao? Lần đầu tiên cậu ngồi dậy, lần đầu tiên đứng lên, lần đầu tiên biết đi, biết nói, lần nào anh mà chẳng khen ngợi? Ngay cả lần đầu tiên cậu rút được giấy ra, anh cũng đã vỗ tay như thằng ngốc khen cậu giỏi giang. Nhưng anh không đến đây để nói những chuyện này với Mẫn Tòng Khiêm. Gã Alpha lặng lẽ hít một hơi thật sâu để tự kiềm chế.
 
-Bên này, Mẫn Tòng Khiêm cũng nhận ra mình vừa nói lời vô nghĩa dưới sự nhắc nhở của Lục Lục. Điều này khiến cậu ta cảm thấy xấu hổ. Cậu ta căn bản không quan tâm Tiết Cảnh Minh có khen mình hay không!
+Bên này, Mẫn Tòng Khiêm cũng nhận ra mình vừa nói lời vô nghĩa dưới sự nhắc nhở của Lục Lục. Điều này khiến cậu cảm thấy xấu hổ. Cậu căn bản không quan tâm Tiết Cảnh Minh có khen mình hay không!
 
 Vừa nãy còn căng như dây đàn, giờ lại im bặt, chỉ có điều Tiết Cảnh Minh vẫn nắm chặt tay Mẫn Tòng Khiêm chưa buông.
 
 Lại một lát sau, Tiết Cảnh Minh lên tiếng lần nữa: "Sự việc không quá ba lần, đây là lần cuối cùng. Lần sau nữa..."
 
-"Không cần đâu, dù sao sớm muộn gì anh cũng sẽ đuổi tôi ra ngoài thôi, tôi tự đi." Mẫn Tòng Khiêm muốn giật tay Tiết Cảnh Minh ra, nhưng đối phương lại siết chặt hơn, cổ tay cậu ta kêu răng rắc.
+"Không cần đâu, dù sao sớm muộn gì anh cũng sẽ đuổi tôi ra ngoài thôi, tôi tự đi." Mẫn Tòng Khiêm muốn giật tay Tiết Cảnh Minh ra, nhưng đối phương lại siết chặt hơn, cổ tay cậu kêu răng rắc.
 
 Khuôn mặt Tiết Cảnh Minh vì câu nói vừa rồi mà cơn giận hoàn toàn biến mất, ánh mắt nhìn Mẫn Tòng Khiêm thậm chí còn có chút luống cuống: "Không ai sẽ đuổi cậu đi..."
 
-"Sao anh không hiểu chứ!" Mẫn Tòng Khiêm cắt ngang lời anh ta, đau khổ nhìn Tiết Cảnh Minh: "Tôi đã nói tôi thích anh! Tôi thích anh! Tôi không thay đổi được... Tiết Cảnh Minh, tôi không thay đổi được..."
+"Sao anh không hiểu chứ!" Mẫn Tòng Khiêm cắt ngang lời anh, đau khổ nhìn Tiết Cảnh Minh: "Tôi đã nói tôi thích anh! Tôi thích anh! Tôi không thay đổi được... Tiết Cảnh Minh, tôi không thay đổi được..."
 
 Lần này, nước mắt chân thật tuôn rơi từ đôi mắt đa tình của cậu: “Anh bắt em ở lại đây, ngày ngày nhìn anh mà không thể có được anh, anh nhất định phải giày vò em đến thế sao?”
 
@@ -333,7 +333,7 @@ Mẫn Tòng Khiêm ngã vật ra giường, đầu óc quay cuồng, cười ng�
 
 “Em còn uống rượu nữa~”
 
-“Tiết Cảnh Minh! Tiết Cảnh Minh… Anh không quản được em!” Cậu ta lật người để tránh tự làm mình ngạt thở.
+“Tiết Cảnh Minh! Tiết Cảnh Minh… Anh không quản được em!” Cậu lật người để tránh tự làm mình ngạt thở.
 
 “Tiết Cảnh Minh!”
 
@@ -341,7 +341,7 @@ Mẫn Tòng Khiêm ngã vật ra giường, đầu óc quay cuồng, cười ng�
 
 Beta đột nhiên ngồi bật dậy, tay chỉ về phía trước, như thể có người đang đứng đó: “Không quản em nữa phải không, được thôi, vậy sau này anh cũng đừng bao giờ quản em nữa!”
 
-Nói xong câu đó như bị ngắt điện, cậu ta ngã vật xuống, ngủ thiếp đi.
+Nói xong câu đó như bị ngắt điện, cậu ngã vật xuống, ngủ thiếp đi.
 
 Đứng bên giường, Hàn Hiểu Mai và Mẫn Khải nhìn nhau ngơ ngác.
 
@@ -353,7 +353,7 @@ Cứ thế, một tuần trôi qua tưởng chừng êm đềm, Tiết Cảnh Mi
 
 Tiểu Lý đã làm trợ lý cho Tiết Cảnh Minh được 3 năm, đây là lần đầu tiên cậu ta thấy ông chủ say đến mức bất tỉnh nhân sự như vậy.
 
-Lẽ ra, lựa chọn thông thường là đưa anh ta về nhà.
+Lẽ ra, lựa chọn thông thường là đưa anh về nhà.
 
 Nhưng "thông thường" không có nghĩa là "đúng đắn", Tiểu Lý nghĩ rằng một tuần nay sếp đều sang bên Nam Uyển làm "đá vọng đệ" (người canh gác, chờ đợi em trai).
 

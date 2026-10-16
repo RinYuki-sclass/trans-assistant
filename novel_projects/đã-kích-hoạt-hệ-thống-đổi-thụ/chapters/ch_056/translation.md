@@ -355,7 +355,7 @@ Tiết Sơn Thanh: “Bây giờ mày còn dám nói giữa hai đứa mày ch�
 
 Giọng điệu ông đầy vẻ mỉa mai giễu cợt, trong thần sắc lộ rõ sự khinh miệt đối với mối quan hệ như thế này.
 
-“Ông già như ông có thời gian ngồi ở đây châm chọc mỉa mai tôi, chẳng bằng đi xem thêm mấy bản hợp đồng đi, còn về mối quan hệ giữa tôi và Tòng Khiêm, đây chẳng phải là do chính các người tạo thành hay sao?”
+“Ba ngần này tuổi rồi còn có thời gian ngồi ở đây châm chọc mỉa mai con, chẳng bằng đi xem thêm mấy bản hợp đồng đi. Còn về mối quan hệ giữa con và Tòng Khiêm, đây chẳng phải là do chính hai người tạo nên hay sao?”
 
 Tiết Cảnh Minh phong mang lộ rõ sắc bén khôn cùng.
 
@@ -363,13 +363,13 @@ Anh bắt buộc phải mạnh mẽ cứng rắn, để cho người cha của a
 
 Tiết Sơn Thanh buông lời tàn nhẫn: “Nếu đã không đến công ty, thì cái chức Tổng giám đốc này mày cũng đừng làm nữa.”
 
-Tiết Cảnh Minh mỉm cười hùa theo, đứng dậy: “Ông là Chủ tịch hội đồng quản trị tự nhiên là do ông sắp xếp rồi, tôi nghĩ sau khi tôi rút lui khỏi vị trí này, các vị thân thích họ hàng nhất định sẽ vô cùng tích cực hăng hái bán mạng vì ông, đến lúc đó nhân tuyển kế thừa chiếc ghế Chủ tịch của ông sẽ nhiều lắm đấy, nhất định sẽ náo nhiệt vô cùng.”
+Tiết Cảnh Minh mỉm cười hùa theo, đứng dậy: “Ba là Chủ tịch hội đồng quản trị tự nhiên là do ba sắp xếp rồi. Con nghĩ sau khi con rút lui khỏi vị trí này, các vị thân thích họ hàng nhất định sẽ vô cùng tích cực hăng hái bán mạng vì ba, đến lúc đó nhân tuyển kế thừa chiếc ghế Chủ tịch của ba sẽ nhiều lắm đấy, nhất định sẽ náo nhiệt vô cùng.”
 
 Tiết Sơn Thanh đập bàn đứng phắt dậy.
 
 Một cái tát giáng xuống ngắt lời cuộc trò chuyện giữa hai cha con bọn họ, Tiết Cảnh Minh chỉnh lại chiếc đầu vừa bị đánh lệch sang một bên, liếm khóe miệng bị rách toác chảy máu.
 
-“Tôi còn có việc, xin phép đi trước.”
+“Con còn có việc, xin phép đi trước.”
 
 “Mày cút ngay cho tao!”
 

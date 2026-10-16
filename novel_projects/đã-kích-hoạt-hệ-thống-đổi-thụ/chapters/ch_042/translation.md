@@ -291,7 +291,7 @@ Ninh Lệ Trân đặt đũa xuống, Tiết Sơn Thanh: “Sao vậy?”
 
 Ninh Lệ Trân: “Tính cả thì cậu ta cũng chỉ ở nhà Mẫn Khải hai năm, dù có tính cả những năm sau này về thăm họ, cộng lại cũng chỉ được ba năm, thế mà đã thành ba mẹ ruột của cậu ta rồi.”
 
-Tiết Sơn Thanh không hiểu ý cô: “Tòng Khiêm vốn dĩ đã được nhận nuôi mà.”
+Tiết Sơn Thanh không hiểu ý bà: “Tòng Khiêm vốn dĩ đã được nhận nuôi mà.”
 
 Ninh Lệ Trân đứng dậy: “Tôi sinh ra cậu ta!”
 
@@ -307,39 +307,39 @@ Omega cắn môi, ra vẻ không tình nguyện, cuối cùng vẫn miễn cư�
 
 Mẫn Tòng Khiêm lúc này mới vui vẻ đồng ý.
 
-Tiết Tòng Nhiên đập một tập kịch bản trong tay vào lòng cậu ta: “Vai của anh là em trai song sinh của em.”
+Tiết Tòng Nhiên đập một tập kịch bản trong tay vào lòng cậu: “Vai của anh là em trai song sinh của em.”
 
-Mẫn Tòng Khiêm hối hận, vậy chẳng phải cậu ta sẽ phải gọi Tiết Tòng Nhiên là anh sao?
+Mẫn Tòng Khiêm hối hận, vậy chẳng phải cậu sẽ phải gọi Tiết Tòng Nhiên là anh sao?
 
 Đến lượt Tiết Tòng Nhiên cười hì hì: “Anh phải gọi em là anh cơ~”
 
-Mẫn Tòng Khiêm không thường xuyên giúp Tiết Tòng Nhiên đối lời thoại, thỉnh thoảng khi cậu ta ở nhà nghỉ ngơi mà tay còn kịch bản phim tiếp theo sẽ tìm đến mình, cậu ta thấy việc diễn vai người khác khá thú vị nên đã đồng ý.
+Mẫn Tòng Khiêm không thường xuyên giúp Tiết Tòng Nhiên đối lời thoại, thỉnh thoảng khi em trai ở nhà nghỉ ngơi mà tay còn kịch bản phim tiếp theo sẽ tìm đến mình, cậu thấy việc diễn vai người khác khá thú vị nên đã đồng ý.
 
-Ngoài chuyện này ra, trong cái nhà này, chuyện duy nhất mà cậu ta không trách móc là việc năm đó bị đưa đi, là Tiết Tòng Nhiên, lúc đó cậu ta còn quá nhỏ, mới 10 tuổi.
+Ngoài chuyện này ra, trong cái nhà này, chuyện duy nhất mà cậu không trách móc là việc năm đó bị đưa đi, là Tiết Tòng Nhiên, lúc đó cậu ta còn quá nhỏ, mới 10 tuổi.
 
 Ai lại đi so đo với một thằng nhóc con chứ.
 
-Cảnh quay đầu tiên là cảnh Mẫn Tòng Khiêm, người em trai này, chết trong vòng tay của Tiết Tòng Nhiên, anh trai cậu ta. Chỉ là Tiết Tòng Nhiên không đủ sức bế nổi Mẫn Tòng Khiêm, hai người đành phải di chuyển đến sofa.
+Cảnh quay đầu tiên là cảnh Mẫn Tòng Khiêm, người em trai này, chết trong vòng tay của Tiết Tòng Nhiên, anh trai cậu. Chỉ là Tiết Tòng Nhiên không đủ sức bế nổi Mẫn Tòng Khiêm, hai người đành phải di chuyển đến sofa.
 
-Tiết Tòng Nhiên ngồi xuống, Mẫn Tòng Khiêm đang nằm ngửa gối đầu lên đùi anh ta, rồi nhìn thấy vẻ mặt mong chờ được gọi "anh" của omega kia.
+Tiết Tòng Nhiên ngồi xuống, Mẫn Tòng Khiêm đang nằm ngửa gối đầu lên đùi cậu ta, rồi nhìn thấy vẻ mặt mong chờ được gọi "anh" của Omega kia.
 
-Cậu ta vô cùng chiếu lệ lên tiếng: “Anh.”
+Cậu vô cùng chiếu lệ lên tiếng: “Anh.”
 
 Tiết Tòng Nhiên cười rạng rỡ như một đóa hoa: “Ừm!”
 
 Hai người chính thức bắt đầu diễn.
 
-Tiết Cảnh Minh từ lầu đi xuống, cảnh tượng đập vào mắt là Mẫn Tòng Khiêm đang nằm trên đùi Tiết Tòng Nhiên. Nếu là trước đây, anh ta sẽ không nghĩ gì, thậm chí còn vui mừng vì mối quan hệ của hai người đã tốt đẹp hơn, nhưng giờ đây anh ta chỉ cảm thấy mờ ám.
+Tiết Cảnh Minh từ lầu đi xuống, cảnh tượng đập vào mắt là Mẫn Tòng Khiêm đang nằm trên đùi Tiết Tòng Nhiên. Nếu là trước đây, anh sẽ không nghĩ gì, thậm chí còn vui mừng vì mối quan hệ của hai người đã tốt đẹp hơn, nhưng giờ đây anh chỉ cảm thấy mờ ám.
 
 “Hai người đang làm gì vậy?”
 
-Hai người trên sofa nhìn về phía anh ta, Mẫn Tòng Khiêm lập tức chú ý đến vết bầm xanh còn chưa hoàn toàn tan hết trên má gã Alpha.
+Hai người trên sofa nhìn về phía anh, Mẫn Tòng Khiêm lập tức chú ý đến vết bầm xanh còn chưa hoàn toàn tan hết trên má gã Alpha.
 
 “Anh cả, anh không sao rồi ạ? Em và Mẫn… và anh hai đang tập diễn.” Tiết Tòng Nhiên giơ kịch bản trong tay lên.
 
 Lúc này Tiết Cảnh Minh mới biết mình đã hiểu lầm hai người họ. Lúc này, nếu cố tình bắt họ tách ra thì lại càng kỳ lạ.
 
-Anh ta đi tới, nhận lấy kịch bản.
+Anh đi tới, nhận lấy kịch bản.
 
 Mẫn Tòng Khiêm không ngờ lần gặp lại này, Tiết Cảnh Minh lại bình tĩnh đến vậy, dù có Tiết Tòng Nhiên ở đây cũng nên tỏ thái độ khó chịu với cậu chứ.
 
@@ -415,7 +415,7 @@ Beta đang ngồi trên tay vịn ghế sofa, một tay đặt lên vai một ng
 
 Bên cạnh, Mẫn Tòng Khiêm đang uống trà với Tiết Sơn Thanh.
 
-Hàn Hiểu Mai là người đầu tiên nhìn thấy cậu: “Lão Đại về rồi.”
+Hàn Hiểu Mai là người đầu tiên nhìn thấy anh: “Lão Đại về rồi.”
 
 Tiết Cảnh Minh nhếch môi: “Dì Hàn, chú Mẫn, hai người đến khi nào vậy? Nếu biết hai người đến, con nhất định đã đi đón rồi.”
 
@@ -425,7 +425,7 @@ Mẫn Khải tiếp lời: “Thằng con trai lớn này của tôi nhớ chún
 
 Tiết Cảnh Minh ngồi xuống: “Con vừa bận xong mới về đây. Chú Mẫn, dì Hàn, lần này hai người ở lại thêm chút thời gian nhé. Con có một chỗ câu cá rất hay, chú Mẫn nhất định phải đi thử. Dì Hàn, lần trước dì leo ngọn núi đó là mùa đông, mùa hè còn đẹp hơn, chúng ta đi lại lần nữa.”
 
-Cậu ta rất thuận lợi hòa nhập vào cuộc trò chuyện, thậm chí còn nói nhiều hơn bình thường.
+Anh rất thuận lợi hòa nhập vào cuộc trò chuyện, thậm chí còn nói nhiều hơn bình thường.
 
 Ninh Lệ Trân hôm nay có phần kiệm lời, thỉnh thoảng lại liếc nhìn Mẫn Tòng Khiêm và Hàn Hiểu Mai đang quấn quýt bên nhau.
 
@@ -439,4 +439,4 @@ Mẫn Tòng Khiêm tiếp tục nói: “Thời gian này con cũng sẽ dọn �
 
 Tiết Cảnh Minh mày mắt sắc lại, nhìn Mẫn Tòng Khiêm.
 
-Cậu ta chuyển qua đó.
+Cậu muốn dọn qua đó.

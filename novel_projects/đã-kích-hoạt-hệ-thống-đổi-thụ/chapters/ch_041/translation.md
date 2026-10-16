@@ -31,17 +31,17 @@ Mẫn Tòng Khiêm, người có ngón tay bị bẻ kêu “khớp” một ti�
 
 Tiết Sơn Thanh nhìn sang: “Con lại sao thế?”
 
-Mẫn Tòng Khiêm ở dưới bàn vận động bàn tay vừa bị trả về: “Em cũng cắn phải lưỡi rồi.”
+Mẫn Tòng Khiêm ở dưới bàn vận động bàn tay vừa bị trả về: “Con cũng cắn phải lưỡi rồi.”
 
 Tiết Sơn Thanh khẽ nhíu mày, ánh mắt lướt qua hai anh em, đúng là anh em ruột, ngay cả chuyện này cũng trùng hợp đến vậy.
 
-Tiết Cảnh Minh: “Tôi ăn xong rồi, đi công ty trước đây.”
+Tiết Cảnh Minh: “Con ăn xong rồi, con đi công ty trước đây.”
 
 Anh đứng dậy, quay người về phía Mẫn Tòng Khiêm trừng mắt nhìn cậu một cái đầy hung dữ, mang theo sự tức giận rời khỏi phòng ăn. Sự tức giận này phần lớn là tức giận bản thân, vừa rồi anh lại nhát gan, sau khi lần đầu tiên không hất tay Mẫn Tòng Khiêm ra được, anh đã muốn đứng dậy, nhưng anh không dám…
 
 Hai chữ “không dám” lại xuất hiện trong từ điển cuộc đời của Tiết Cảnh Minh, quả thực là một sự sỉ nhục lớn.
 
-Nhưng anh quả thực là không dám, anh sợ Mẫn Tòng Khiêm sẽ không buông tay, như vậy sau khi mình đứng dậy, cả nhà sẽ thấy thằng thứ hai lại đang chơi đùa với của thằng cả trong bữa ăn.
+Nhưng anh quả thực là không dám, anh sợ Mẫn Tòng Khiêm sẽ không buông tay, như vậy sau khi mình đứng dậy, cả nhà sẽ thấy thằng thứ hai lại đang chơi đùa với hạ bộ của thằng cả ngay trong bữa ăn.
 
 Thằng thứ hai.
 
@@ -221,7 +221,7 @@ Cánh mũi anh bất giác khẽ động, hít hà.
 
 Đây là lần đầu tiên Mẫn Tòng Khiêm nhiệt tình với anh như vậy kể từ khi cậu 12 tuổi.
 
-Tay Mẫn Tòng Khiêm ôm người không mấy quy củ, sau lưng người khác, bàn tay cậu bắt đầu xoa nắn lên cái mông đã bị anh đánh sưng.
+Tay Mẫn Tòng Khiêm ôm người không mấy quy củ, sau lưng người khác, bàn tay cậu bắt đầu xoa nắn lên cái mông đã bị cậu đánh sưng.
 
 Tiết Cảnh Minh đang chìm đắm trong sự nhiệt tình của em trai bỗng chốc tỉnh táo. Đáng tiếc là có quá nhiều người ở đây, anh không thể trực tiếp hất tay Mẫn Tòng Khiêm ra. Bàn tay của cậu ta không hề biết nhẹ nặng, hay nói đúng hơn, nó như thể cố ý muốn véo đau anh.
 

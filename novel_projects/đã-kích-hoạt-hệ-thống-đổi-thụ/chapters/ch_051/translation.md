@@ -341,7 +341,7 @@ Cậu túm lấy Tiết Cảnh Minh đang ho sặc sụa, suốt ngày mở mồ
 
 Tức giận ném phịch người anh trở lại ghế sô pha.
 
-Chàng Beta lạnh lùng nhìn Tiết Cảnh Minh đang cuộn tròn thành một cục trên sô pha, lắng nghe anh lặp đi lặp lại không ngừng một câu: “Tôi không có…… Tôi không có……”
+Chàng Beta lạnh lùng nhìn Tiết Cảnh Minh đang cuộn tròn thành một cục trên sô pha, lắng nghe anh lặp đi lặp lại không ngừng một câu: “Anh không có…… Anh không có……”
 
 Nỗi bi thương tựa như làn sương mù vô hình bao phủ lấy người gã Alpha, nặng trĩu mang theo hơi ẩm ướt khiến xương cốt người ta phải run rẩy, có thể ăn mòn làm mục rữa con người ta từ tận sâu bên trong. Mẫn Tòng Khiêm chẳng hề thích điều này chút nào, bởi vì thứ cảm xúc bi lụy đó căn bản không hề xứng hợp với Tiết Cảnh Minh.
 

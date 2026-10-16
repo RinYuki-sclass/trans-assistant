@@ -9,5 +9,7 @@
   "confidence_threshold": 0.8,
   "chunk_size": 20,
   "created_at": "2026-09-24T12:07:46.301043+07:00",
-  "chapters_count": 0
+  "chapters_count": 0,
+  "is_completed": true,
+  "is_dropped": false
 }

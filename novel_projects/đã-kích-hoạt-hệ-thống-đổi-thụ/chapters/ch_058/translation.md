@@ -21,7 +21,7 @@ Chàng Beta vừa nói vừa nhắm tịt hai mắt lại: “Anh, bây giờ em
 
 Tiết Cảnh Minh: !
 
-Anh cảm thấy Mẫn Tòng Khiêm quả thực ngày càng khốn nạn: “Dậy mau, cậu xem cậu ra cái thể thống gì thế này!”
+Anh cảm thấy Mẫn Tòng Khiêm quả thực ngày càng khốn nạn: “Dậy mau, em xem em ra cái thể thống gì thế này!”
 
 Gã Alpha cố gắng phớt lờ cảm giác tê dại đang lấy bờ môi Mẫn Tòng Khiêm làm trung tâm lan tỏa khắp tứ chi bách mạch, trong lòng không biết là lần thứ bao nhiêu lặp đi lặp lại rằng ngực của Alpha chỉ là đồ trang trí mà thôi.
 
@@ -29,7 +29,7 @@ Cơ ngực trong trường hợp không cố ý gồng lên thì phần thịt v
 
 “Mẫn Tòng Khiêm!”
 
-“Tôi đánh cậu đấy.”
+“Anh đánh em đấy.”
 
 Lời đe dọa của Alpha chẳng có chút tác dụng nào, thứ nhất là cây thước kẻ gia pháp của anh không mang sang đây, thứ hai là nếu thật sự động thủ thì chưa chắc anh đã đánh lại Mẫn Tòng Khiêm, cuối cùng là anh cũng chẳng nỡ ra tay đánh Mẫn Tòng Khiêm thật, nắm lấy đầu Mẫn Tòng Khiêm chỉ sợ giật đứt tóc của Beta nên từ nãy đến giờ anh đâu dám dùng sức quá nhiều.
 
@@ -281,7 +281,7 @@ Lúc chuẩn bị rời đi, ra đến cửa, Mẫn Tòng Khiêm nhìn thấy ch
 
 Đối phương liếc nhìn Tiết Cảnh Minh đang đứng sừng sững sau lưng Mẫn Tòng Khiêm, nụ cười trở nên ngượng ngùng: “Kh... không cần đâu... ngại quá làm phiền rồi.”
 
-Mẫn Tòng Khiêm cũng chẳng bận tâm lắm, cậu trực tiếp quay trở lại trường học, chỉ có điều trước khi chia tay Tiết Cảnh Minh đã đưa ra một yêu cầu, gã Alpha tựa như đang hạ lệnh: “Để ý điện thoại nhiều hơn, phải trả lời tin nhắn của tôi đầu tiên đấy.”
+Mẫn Tòng Khiêm cũng chẳng bận tâm lắm, cậu trực tiếp quay trở lại trường học, chỉ có điều trước khi chia tay Tiết Cảnh Minh đã đưa ra một yêu cầu, gã Alpha tựa như đang hạ lệnh: “Để ý điện thoại nhiều hơn, phải trả lời tin nhắn của anh đầu tiên đấy.”
 
 Lúc đó cậu không để bụng lắm mà thuận miệng đồng ý, chỉ là cậu không ngờ rằng cứ cách khoảng 3 tiếng đồng hồ là Tiết Cảnh Minh lại gửi cho cậu một tin nhắn.
 

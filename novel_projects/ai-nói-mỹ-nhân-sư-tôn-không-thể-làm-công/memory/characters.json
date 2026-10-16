@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Shao Lianjing",
+    "hanviet_name": "Thiều Liên Cảnh",
+    "original_name": "韶怜景",
+    "gender": "Nam",
+    "role": "Công chính (Mỹ nhân sư tôn, Linh Tôn)",
+    "narration_pronoun": "y",
+    "honorifics": "xưng vi sư / ta, gọi đồ đệ là đồ nhi / ngươi",
+    "speech_style": "Phong nhã, hài hước, tự trào, thanh tao thoát tục",
+    "notes": "Linh Tôn trẻ tuổi nhất, xuyên vào truyện quyết tâm không làm thụ, chủ động đè đồ đệ trước khi bị đồ đệ đè"
+  },
+  {
+    "name": "Snow Dragon Disciple",
+    "hanviet_name": "Tuyết Long Đồ Đệ",
+    "original_name": "雪龙徒弟",
+    "gender": "Nam",
+    "role": "Thụ chính (Đồ đệ Tuyết Long duy nhất thiên hạ)",
+    "narration_pronoun": "hắn",
+    "honorifics": "xưng đồ nhi, gọi Thiều Liên Cảnh là sư tôn",
+    "speech_style": "Cung kính, dịu ngoan trước mặt sư tôn, thân nhiệt lạnh giá xoa dịu sư tôn",
+    "notes": "Chân thân là rồng tuyết quý hiếm, say mê sư tôn từ lâu"
+  }
+]

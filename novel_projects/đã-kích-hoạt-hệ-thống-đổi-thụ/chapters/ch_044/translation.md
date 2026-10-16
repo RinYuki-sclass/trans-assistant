@@ -33,7 +33,7 @@ Thứ duy nhất cậu có thể nếm được là vị tanh của máu khi c�
 
 Máu của Tiết Cảnh Minh.
 
-Lẽ ra họ phải cùng chung dòng máu, nhưng giờ thì không còn nữa. Cậu căn bản không phải em trai ruột của anh ta. Nếu Tiết Cảnh Minh biết được, chắc chắn sẽ vui mừng khôn xiết. Như vậy, anh ta sẽ không còn phải bận tâm lo lắng cho cậu em trai này nữa. Nhất là khi anh ta tin lời cậu lừa rằng cậu thích anh ta. E rằng khi biết được thân phận thật sự của cậu, anh ta sẽ thấy ghê tởm ngay cả khi chỉ liếc nhìn cậu thêm một lần.
+Lẽ ra họ phải cùng chung dòng máu, nhưng giờ thì không còn nữa. Cậu căn bản không phải em trai ruột của anh. Nếu Tiết Cảnh Minh biết được, chắc chắn sẽ vui mừng khôn xiết. Như vậy, anh sẽ không còn phải bận tâm lo lắng cho cậu em trai này nữa. Nhất là khi anh tin lời cậu lừa rằng cậu thích anh. E rằng khi biết được thân phận thật sự của cậu, anh sẽ thấy ghê tởm ngay cả khi chỉ liếc nhìn cậu thêm một lần.
 
 Beta cau mày, cắn càng thêm mạnh, khiến nét mặt của Alpha càng thêm đau đớn.
 
@@ -283,7 +283,7 @@ Mẫn Khải cũng là người hiểu chuyện: “Cảnh Minh à, con xem côn
 
 Mẫn Tòng Khiêm liếc nhìn Tiết Cảnh Minh đầy oán giận, tên này lúc nào trở nên kém cỏi đến vậy, cho dù có muốn tính sổ chuyện cắn tuyến thể của mình, thì cũng không nên là bây giờ chứ.
 
-“Vâng, em biết rồi, bố mẹ đừng lo.”
+“Vâng, con biết rồi, bố mẹ đừng lo.”
 
 Tiết Cảnh Minh chậm rãi thở ra một hơi: “Chú Mẫn, dì Hàn, về đến nhà nhớ gọi điện nhé, hai người cứ yên tâm, cháu sẽ trông chừng Tòng Khiêm cẩn thận.”
 
@@ -297,31 +297,31 @@ Lúc đưa Mẫn Tòng Khiêm về nhà, chính Tiết Sơn Thanh đã cố tìn
 
 Hàn Hiểu Mai thở dài: “Xem ra anh cả nhà họ Tiết vẫn luôn canh cánh trong lòng chuyện này suốt bao năm qua.”
 
-Mẫn Khải: “Ấy… nhưng anh cả coi trọng Tiềm Tiềm, sau này cậu ấy chắc chắn sẽ là người nắm quyền nhà họ Tiết, như vậy cũng có người chống lưng cho Tiềm Tiềm, sẽ không bị bắt nạt nữa.”
+Mẫn Khải: “Ấy… nhưng anh cả coi trọng Khiêm Khiêm, sau này cậu ấy chắc chắn sẽ là người nắm quyền nhà họ Tiết, như vậy cũng có người chống lưng cho Khiêm Khiêm, sẽ không bị bắt nạt nữa.”
 
 Mẫn Tòng Khiêm nhìn cánh cổng lên máy bay đã không còn một bóng người, cúi đầu xuống với vẻ không vui.
 
-Thuộc hạ của Tiết Cảnh Minh cuối cùng cũng tìm thấy anh ta, lặng lẽ đứng sang một bên. Họ nhận ra Mẫn Tòng Khiêm, vậy nên ông chủ của họ vừa rồi là vì đuổi theo em trai sao?
+Thuộc hạ của Tiết Cảnh Minh cuối cùng cũng tìm thấy anh, lặng lẽ đứng sang một bên. Họ nhận ra Mẫn Tòng Khiêm, vậy nên ông chủ của họ vừa rồi là vì đuổi theo em trai sao?
 
 Tuy không hiểu.
 
 Chắc đây chính là tình anh em.
 
-Trái tim đập thình thịch của Tiết Cảnh Minh cuối cùng cũng trở lại bình thường, liếc nhìn Mẫn Tòng Khiêm đang ủ rũ, nắm lấy cánh tay cậu ta kéo rời khỏi sân bay. Beta suốt dọc đường im lặng đến mức ngoan ngoãn.
+Trái tim đập thình thịch của Tiết Cảnh Minh cuối cùng cũng trở lại bình thường, liếc nhìn Mẫn Tòng Khiêm đang ủ rũ, nắm lấy cánh tay cậu kéo rời khỏi sân bay. Beta suốt dọc đường im lặng đến mức ngoan ngoãn.
 
-“Đưa chìa khóa xe cho tôi, để người khác giúp cậu lái xe về.”
+“Đưa chìa khóa xe cho anh, để người khác giúp em lái xe về.”
 
 Mẫn Tòng Khiêm đưa chìa khóa cho anh.
 
 Trên đường về, hai người không ai nói với ai lời nào. Mẫn Tòng Khiêm tựa đầu vào cửa kính xe nhìn ra ngoài. Bố mẹ đã về nhà rồi…
 
-“Tôi muốn về biệt thự.”
+“Em muốn về biệt thự.”
 
 Tài xế liếc nhìn Tiết Cảnh Minh qua gương chiếu hậu, chờ đợi chỉ thị.
 
-Tiết Cảnh Minh nhìn vào tâm trạng không tốt của Mẫn Tòng Khiêm lúc này, cuối cùng cho phép cậu ta làm loạn một lần: “Đi Nam Uyển.”
+Tiết Cảnh Minh nhìn vào tâm trạng không tốt của Mẫn Tòng Khiêm lúc này, cuối cùng cho phép cậu làm loạn một lần: “Đi Nam Uyển.”
 
-Trong xe lại chìm vào im lặng, hơn nửa tiếng sau Mẫn Tòng Khiêm lại lên tiếng: “Anh còn định nắm tay tôi đến bao giờ?”
+Trong xe lại chìm vào im lặng, hơn nửa tiếng sau Mẫn Tòng Khiêm lại lên tiếng: “Anh còn định nắm tay em đến bao giờ?”
 
 Hai người ngồi ở vị trí xa nhất, nhưng một đôi tay lại nắm chặt lấy nhau, ở giữa ghế ngồi, bàn tay của gã Alpha cứ thế nắm chặt lấy cánh tay của cậu Beta suốt cả chặng đường.
 

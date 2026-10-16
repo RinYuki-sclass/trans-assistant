@@ -43,7 +43,7 @@ Cảm giác thất bại của Tiết Cảnh Minh kéo dài rất ngắn, anh kh
 
 Mẫn Tòng Khiêm nheo mắt hoa đào.
 
-Tiết Cảnh Minh giật tay của gã Beta đang vượt quá giới hạn ra: “Nếu xăm tên đối phương lên, tôi tin rằng buổi xem mắt lần này của tôi sẽ rất thành công. Dọn dẹp cái miệng hay nói lời hồ đồ của cậu đi, chuẩn bị chào đón chị dâu của cậu.”
+Tiết Cảnh Minh giật tay của chàng Beta đang vượt quá giới hạn ra: “Nếu xăm tên đối phương lên, anh tin rằng buổi xem mắt lần này của anh sẽ rất thành công. Dọn dẹp cái miệng hay nói lời hồ đồ của em đi, chuẩn bị chào đón chị dâu của em.”
 
 “Anh cả, anh hai, hai người đang làm gì vậy?”
 
@@ -55,7 +55,7 @@ Sau khi Tiết Cảnh Minh rời đi, Tiết Tòng Nhiên đi đến sau lưng M
 
 Vừa ngẩng đầu lên đã thấy cậu Beta đang cười, nụ cười có chút rợn người.
 
-Mẫn Tòng Khiêm cụp mắt nhìn anh, giơ tay vỗ vỗ đầu anh: “Em trai tôi đáng yêu như vậy, sao lại có người nói xấu em chứ, anh yêu em.”
+Mẫn Tòng Khiêm cụp mắt nhìn cậu em, giơ tay vỗ vỗ đầu cậu: “Em trai anh đáng yêu như vậy, sao lại có người nói xấu em chứ, anh yêu em còn không hết.”
 
 Tiết Tòng Nhiên: 0 . 0 !
 
@@ -105,7 +105,7 @@ Ninh Lệ Trân: “Dấu răng gì cơ?”
 
 Tiết Tòng Nhiên ra vẻ bí ẩn: “Mẹ ơi con nói cho mẹ nghe, mấy hôm trước con thấy anh cả con, tsk tsk, đúng là không dám nhìn…”
 
-Mẫn Tòng Khiêm: “Em ăn xong rồi.”
+Mẫn Tòng Khiêm: “Con ăn xong rồi.”
 
 Beta vội vã rời khỏi phòng ăn, giọng nói của Omega vẫn vọng theo sau: “Cổ của anh cả toàn là dấu răng, đối phương chắc chắn thích anh cả lắm, không thì sao có thể cắn thành ra như vậy được.”
 
@@ -125,11 +125,11 @@ Bốn chữ vụt qua trong đầu Tiết Cảnh Minh: Chào cái đầu cậu.
 
 “Em không chịu.”
 
-Câu trả lời của Mẫn Tòng Khiêm vô cùng tùy hứng, cậu tựa người vào đầu giường ngồi dậy: “Là anh ép tôi phải dọn về đây, tôi không ngủ được, tôi muốn ngủ cùng anh.”
+Câu trả lời của Mẫn Tòng Khiêm vô cùng tùy hứng, cậu tựa người vào đầu giường ngồi dậy: “Là anh ép em phải dọn về đây, em không ngủ được, em muốn ngủ cùng anh.”
 
 Trong đầu Tiết Cảnh Minh lại thoáng qua bốn chữ: Hồ đồ ngang ngược.
 
-“Vốn dĩ tôi đã định buông xuôi rồi, tôi cũng đã dọn ra ngoài, nhưng anh không màng sống chết của tôi mà bắt tôi quay lại, vậy thì anh phải gánh lấy hậu quả này. Anh cứ thử đuổi tôi đi xem, tôi sẽ gào lên, đến lúc đó đánh thức cả nhà dậy, anh cả à, anh nên cân nhắc kỹ xem phải giải thích thế nào đi.”
+“Vốn dĩ em đã định buông xuôi rồi, em cũng đã dọn ra ngoài, nhưng anh không màng sống chết của em mà bắt em quay lại, vậy thì anh phải gánh lấy hậu quả này. Anh cứ thử đuổi em đi xem, em sẽ gào lên, đến lúc đó đánh thức cả nhà dậy, anh cả à, anh nên cân nhắc kỹ xem phải giải thích thế nào đi.”
 
 Beta đúng là loài biết cách chọc tức người khác.
 
@@ -137,17 +137,17 @@ Cậu thậm chí còn vỗ vỗ vào vị trí bên cạnh: “Anh sắp kết 
 
 Tiết Cảnh Minh không nói lời nào, chỉ sải bước đi thẳng về phía tủ.
 
-Mẫn Tòng Khiêm nhìn thấu ngay ý định của gã, thốt ra những lời chọc tức người khác không cần đền mạng: “Định lấy thước kẻ đánh tôi sao? Anh cả, tôi từng dùng chính cây thước đó đánh vào mông anh, còn cả…”
+Mẫn Tòng Khiêm nhìn thấu ngay ý định của anh, thốt ra những lời chọc tức người khác không cần đền mạng: “Định lấy thước kẻ đánh em sao? Anh cả, em từng dùng chính cây thước đó đánh vào mông anh, còn cả…”
 
-Tiết Cảnh Minh không cho cậu cơ hội nói hết câu, thước kẻ cũng chẳng buồn lấy nữa, gã trực tiếp lao tới bịt chặt cái miệng không thốt ra được lời nào tử tế của tên Beta kia, tay còn lại bóp lấy cổ Mẫn Tòng Khiêm, hận không thể bóp chết đứa em trai phiền phức này.
+Tiết Cảnh Minh không cho cậu cơ hội nói hết câu, thước kẻ cũng chẳng buồn lấy nữa, anh trực tiếp lao tới bịt chặt cái miệng không thốt ra được lời nào tử tế của chàng Beta kia, tay còn lại bóp lấy cổ Mẫn Tòng Khiêm, hận không thể bóp chết đứa em trai phiền phức này.
 
-Có rất nhiều chuyện gã vẫn chưa tính sổ với Mẫn Tòng Khiêm, chuyện cậu cắn tuyến thể của gã, chuyện đánh sưng mông gã, chuyện cạo lông rồi viết chữ lên đó, và cả những bức ảnh cậu gửi cho gã ngay từ đầu nữa.
+Có rất nhiều chuyện anh vẫn chưa tính sổ với Mẫn Tòng Khiêm, chuyện cậu cắn tuyến thể của anh, chuyện đánh sưng mông anh, chuyện cạo lông rồi viết chữ lên đó, và cả những bức ảnh cậu gửi cho anh ngay từ đầu nữa.
 
-Từng việc từng việc một, Mẫn Tòng Khiêm thì mặt dày làm được, còn gã thì đến mở miệng nhắc lại cũng thấy xấu hổ.
+Từng việc từng việc một, Mẫn Tòng Khiêm thì mặt dày làm được, còn anh thì đến mở miệng nhắc lại cũng thấy xấu hổ.
 
-Đôi mắt đen láy của Alpha phủ một tầng băng giá, nhưng bên dưới lớp băng ấy lại đang rực cháy hai ngọn lửa. Việc gã không tính sổ lại biến thành lý do để Mẫn Tòng Khiêm cho rằng gã dễ bắt nạt, cậu đã hoàn toàn nắm thóp được gã rồi.
+Đôi mắt đen láy của Alpha phủ một tầng băng giá, nhưng bên dưới lớp băng ấy lại đang rực cháy hai ngọn lửa. Việc anh không tính sổ lại biến thành lý do để Mẫn Tòng Khiêm cho rằng anh dễ bắt nạt, cậu đã hoàn toàn nắm thóp được anh rồi.
 
-Gã trừng mắt nhìn tên Beta với vẻ mặt không chút hối cải: “Cậu…”
+Anh trừng mắt nhìn chàng Beta với vẻ mặt không chút hối cải: “Em…”
 
 Lòng bàn tay bỗng chốc bị ai đó liếm nhẹ một cái.
 
@@ -163,7 +163,7 @@ Ngay giây tiếp theo, Tiết Cảnh Minh vung tay một vòng, đè ngược l
 
 Phải thừa nhận rằng, đây là một cảnh tượng vô cùng mãn nhãn.
 
-Tiết Cảnh Minh gằn giọng: “Đánh cậu bây giờ cũng chưa muộn.”
+Tiết Cảnh Minh gằn giọng: “Đánh em bây giờ cũng chưa muộn.”
 
 Giải quyết vấn đề bằng nắm đấm là bản năng khắc sâu trong gen của phái mạnh, ngay cả người bình thường lý trí đến đâu, một khi bị chọc giận đến cực điểm cũng rất dễ sử dụng phương thức nguyên thủy này để giải quyết mâu thuẫn.
 
@@ -181,11 +181,11 @@ Mẫn Tòng Khiêm đột ngột nhích người lên trên một chút.
 
 Gã Alpha không kiểm soát được mà xóc nảy một cái, đồng tử lay động cho thấy rõ ràng giờ phút này gã đang cảm nhận được...
 
-“Anh muốn đứng trên đỉnh cao đạo đức để chỉ trích tôi sao?” Mẫn Tòng Khiêm lên tiếng, “Vậy tôi khuyên anh nên mềm xuống rồi hãy nói chuyện tiếp.”
+“Anh muốn đứng trên đỉnh cao đạo đức để chỉ trích em sao?” Mẫn Tòng Khiêm lên tiếng, “Vậy em khuyên anh nên mềm xuống rồi hãy nói chuyện tiếp.”
 
 Tiết Cảnh Minh lúc này mới nhận ra bản thân vậy mà cũng... Gã Alpha gần như bật dậy nhảy ra xa, vẻ mặt hoảng loạn, vừa đứng xuống đất đã vội vàng thắt lại chiếc áo choàng ngủ đang bung ra.
 
-“Đây chẳng qua là hiện tượng do adrenaline tăng vọt khi đánh nhau gây ra, không liên quan gì đến cậu cả, đừng có tự mình đa tình.”
+“Đây chẳng qua là hiện tượng do adrenaline tăng vọt khi đánh nhau gây ra, không liên quan gì đến em cả, đừng có tự mình đa tình.”
 
 Mẫn Tòng Khiêm nhún vai, xòe tay: “Anh nói sao thì là vậy đi.”
 

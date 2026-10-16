@@ -46,16 +46,27 @@
 
 
 ### 🌟 Thế giới 3 (Chương 66 – Chương 90): Công trai thẳng x Thụ biến thái
-- **Công:** Đào Dã (陶野) — Thiếu niên nghèo khó cơ cực một lòng gom tiền đổi tay máy, trai thẳng 100%. Ngôi 3: **anh / hắn**.
-- **Thụ:** Kẻ cầm quyền biến thái — có sở thích bị ngược đãi, càng bị đánh mắng càng hưng phấn, cưỡng ép công.
+- **Công:** Đào Dã (陶野) — Thiếu niên nghèo khó cơ cực một lòng gom tiền đổi tay máy, trai thẳng 100%, 24 tuổi. Ngôi 3: **cậu / Đào Dã** (Theo chỉ thị của User).
+- **Thụ:** Tuế Dư An (岁予安) — Kẻ cầm quyền biến thái, 26 tuổi, có sở thích bị ngược đãi, càng bị đánh mắng càng hưng phấn, cưỡng ép công. Ngôi 3: **anh / Tuế Dư An / hắn** (Theo chỉ thị của User).
+- **Quy chuẩn đối thoại:**
+  + Tuế Dư An: Xưng **"tôi"**, gọi Đào Dã là **"cậu"** (khi xã giao, bình thường) hoặc **"em"** (khi dụ dỗ, trêu chọc, tán tỉnh, quấy rối) / **"chú thỏ con"**.
+  + Đào Dã: Xưng **"tôi"**, gọi Tuế Dư An là **"anh"** (khi xã giao); khi bị kích động / tức giận / chửi mắng: xưng **"mày - tao"** (*“Mày muốn chết à!”*, *“Anh làm cái trò gì đấy!”*), gọi là *“đồ biến thái”*, *“thằng gay thối tha”*.
 
-### 🌟 Thế giới 4 (Chương 91 – Chương 120): Gương vỡ lại lành (Công thụ đều tsundere)
-- **Công:** Giang Liễm (江敛) — Niên thượng, ngoài miệng từ chối nhưng tình cảm sâu nặng. Ngôi 3: **anh**.
-- **Thụ:** Bạn trai cũ (em trai bạn thân của công), nhược thụ, tsundere, mối tình đầu. Ngôi 3: **cậu**.
+
+### ⛔ QUY TẮC BỎ QUA THẾ GIỚI 4 (Chương 91 – Chương 120):
+- **LỆNH TỪ USER:** **BỎ QUA TOÀN BỘ THẾ GIỚI 4** (Chương 91 – Chương 120: Gương vỡ lại lành - Giang Liễm).
+- Không cào raw, không dịch Thế giới 4.
+- Sau khi hoàn thành Thế giới 3 (Chương 66 – Chương 90), tiến trình dịch thuật sẽ **NHẢY CÓC TRỰC TIẾP SANG THẾ GIỚI 5 (Chương 121 – Chương 153)**.
 
 ### 🌟 Thế giới 5 (Chương 121 – Chương 153): Quy tắc thượng vị của hắc liên hoa
-- **Công:** Thịnh Tây Kinh (盛西京) — Chồng bị vợ mưu hại để lấy tiền bảo hiểm. Ngôi 3: **anh**.
-- **Thụ:** Vị đại lão quyền thế mà vợ nhắm đến — bề ngoài uy nghiêm nhưng có bí mật riêng (thích mặc nội y phụ nữ).
+- **Bối cảnh:** Hiện đại, thương trường, phản sát mưu đồ chiếm đoạt tiền bảo hiểm, HE.
+- **Công chính:** **Thịnh Tây Kinh (盛西京)** — 28 tuổi, xuất thân nông thôn tự thân lập nghiệp, chủ xưởng may hơn 700 công nhân. Bề ngoài miệng ngọt xởi lởi, giả vờ là người chồng si tình lụy vợ ("Vợ ơi, nếu anh chết muốn mang em theo"), nhưng thực tế lòng dạ thâm sâu, tỉnh táo, tàn nhẫn khi phát hiện bộ mặt thật của bạn đời.
+  - *Đại từ ngôi 3:* **anh / Thịnh Tây Kinh** (DUY NHẤT dùng "anh" ở ngôi 3).
+- **Thụ mới:** **Lương Khoát (梁阔)** — Đại lão thương trường giàu có bậc nhất, quyền thế áp đảo, người mà Lộc U U thèm khát tiếp cận. Bề ngoài uy nghiêm, lạnh lùng, phong độ nhưng nội tâm có sở thích biến thái bí mật (thích mặc nội y phụ nữ, thích cảm giác kích thích lén lút bị chi phối).
+  - *Đại từ ngôi 3:* **cậu / Lương Khoát** (tuyệt đối KHÔNG dùng "anh" cho Lương Khoát ở ngôi 3 trần thuật).
+- **Nguyên thụ phản bội:** **Lộc U U (鹿呦呦)** — Vợ hiện tại của Thịnh Tây Kinh, thanh tú xinh đẹp nhưng nông cạn, tham lam, nợ nần ngập đầu, câu kết với ngoài mưu toan ám hại chồng nhằm chiếm đoạt khoản tiền bảo hiểm khổng lồ.
+  - *Đại từ ngôi 3:* **cậu ta / Lộc U U**.
+- **Hệ thống Đổi Thụ:** **Lục Lục (六六)** — Tiếp tục hỗ trợ Thịnh Tây Kinh đổi thụ khi kế hoạch lừa giết được vạch trần.
 
 ---
 

@@ -1,0 +1,35 @@
+[
+  {
+    "name": "Xiao Hui",
+    "hanviet_name": "Tiêu Hồi",
+    "original_name": "萧回",
+    "gender": "Nam",
+    "role": "Công chính Đơn nguyên 1 (Vệ sĩ)",
+    "narration_pronoun": "anh",
+    "honorifics": "xưng tôi, gọi tra Alpha là cậu chủ / hắn",
+    "speech_style": "Lạnh lùng, kiên định, dứt khoát",
+    "notes": "Vệ sĩ bị tra Alpha cắm sừng cướp người yêu, nhận nhiệm vụ hệ thống đè ngược lại tra Alpha"
+  },
+  {
+    "name": "Song Ting",
+    "hanviet_name": "Tống Thính",
+    "original_name": "宋听",
+    "gender": "Nam",
+    "role": "Công chính Đơn nguyên 2",
+    "narration_pronoun": "anh",
+    "honorifics": "xưng tôi / anh, gọi Tống Biệt bằng tên",
+    "speech_style": "Bình thản, áp chế tâm lý, có uy quyền tuyệt đối",
+    "notes": "Từng vì cứu Tống Biệt mà bị què chân ngồi xe lăn, là người duy nhất trị được chứng điên cuồng kiểm soát của Tống Biệt"
+  },
+  {
+    "name": "Song Bie",
+    "hanviet_name": "Tống Biệt",
+    "original_name": "宋别",
+    "gender": "Nam",
+    "role": "Thụ chính Đơn nguyên 2 (Tra công bị đè)",
+    "narration_pronoun": "hắn / Tống Biệt",
+    "honorifics": "xưng em / tôi, gọi Tống Thính là anh",
+    "speech_style": "Điên cuồng, nhạy cảm, bất an, nghe lời Tống Thính tăm tắp",
+    "notes": "Bị Tống Thính thuần hóa, đặt báo thức để liên tục báo cáo hành trình mỗi ngày"
+  }
+]

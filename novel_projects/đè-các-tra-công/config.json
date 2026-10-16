@@ -1,0 +1,17 @@
+{
+  "title": "Đè Các Tra Công",
+  "chinese_title": "攻了渣攻们",
+  "author": "Bát Thập Lục Bút (八十六笔)",
+  "description": "Tiểu thuyết đam mỹ đơn nguyên văn, khoái xuyên, hệ thống, chủ công. Mục tiêu của chúng tôi là: Đè các tra công! Các nhân vật chính ở từng đơn nguyên vốn là những người bị tra công làm tổn thương, hãm hại hoặc cướp đoạt người yêu. Sau khi tiếp nhận nhiệm vụ hệ thống, họ trực tiếp xoay chuyển tình thế, đè tra công xuống dưới thân và bắt chúng trả giá.",
+  "slug": "đè-các-tra-công",
+  "source_lang": "Chinese",
+  "target_lang": "Vietnamese",
+  "raw_links": {
+    "jjwxc": "https://www.jjwxc.net/onebook.php?novelid=9993893"
+  },
+  "style_guide": "Đam mỹ, khoái xuyên / đơn nguyên văn, chủ công, vả mặt tra công, song khiết, HE.\n\nQUY TẮC BẮT BUỘC:\n1. Định dạng đoạn văn: Bắt buộc cách nhau đúng 1 dòng trống (\\n\\n) giữa các đoạn và lời thoại. Tuyệt đối không dính liền dòng (\\n).\n2. Dấu ngoặc thoại: Lời thoại dùng ngoặc kép chuẩn “...”, không dùng gạch ngang đầu câu (— ...).\n3. Ngôi 3 trần thuật (Tự sự):\n   - Nhân vật Công ở mỗi đơn nguyên: Luôn dùng 'anh' (hoặc danh xưng nam tính chủ đạo) trong văn trần thuật ngôi 3.\n   - Tra công bị đè (Thụ): Dùng 'hắn' / 'gã' / 'cậu' trong văn trần thuật ngôi 3 để phân biệt rõ ràng.\n4. Tuyệt đối không nhầm lẫn vai vế giữa công và thụ.",
+  "confidence_threshold": 0.8,
+  "chunk_size": 20,
+  "created_at": "2026-10-16T14:35:00+07:00",
+  "chapters_count": 164
+}
