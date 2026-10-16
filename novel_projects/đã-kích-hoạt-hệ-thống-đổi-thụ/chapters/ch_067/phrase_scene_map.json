@@ -1,0 +1,90 @@
+{
+  "chapter": 67,
+  "total_paragraphs": 248,
+  "scenes": [
+    {
+      "scene_id": "scene_1",
+      "name": "Thức dậy, Đào Dã đòi thu tiền thuê nhà từ Lục Lục & giặt đồ vest",
+      "para_range": [2, 43],
+      "characters": ["Đào Dã", "Lục Lục"],
+      "locked_pronouns": {
+        "Đào Dã": "cậu / Đào Dã",
+        "Lục Lục": "nó / Lục Lục"
+      },
+      "dialogue_rules": {
+        "Đào Dã -> Lục Lục": "tao - mày / tôi - bạn ('Mày ở trong đầu tao... mày phải trả tiền thuê nhà')",
+        "Lục Lục -> Đào Dã": "tôi - bạn / ký chủ ('Có giỏi thì bạn đuổi tôi ra ngoài đi')"
+      }
+    },
+    {
+      "scene_id": "scene_2",
+      "name": "Tiệm thuốc Đông y Lão Vương & Trò chuyện cùng Thím Cao",
+      "para_range": [44, 67],
+      "characters": ["Đào Dã", "Lão Vương", "Thím Cao"],
+      "locked_pronouns": {
+        "Đào Dã": "cậu / Đào Dã",
+        "Lão Vương": "ông / Lão Vương / sư phụ",
+        "Thím Cao": "thím Cao / bà"
+      },
+      "dialogue_rules": {
+        "Đào Dã <-> Lão Vương": "con - sư phụ / ông",
+        "Đào Dã <-> Thím Cao": "cháu - thím Cao"
+      }
+    },
+    {
+      "scene_id": "scene_3",
+      "name": "Khu lán sắt đòi nợ & Cuộc chạm trán đoàn xe sang Tuế Dư An",
+      "para_range": [68, 121],
+      "characters": ["Đào Dã", "Kẻ quỵt nợ", "Tuế Dư An", "Vệ sĩ"],
+      "locked_pronouns": {
+        "Đào Dã": "cậu / Đào Dã",
+        "Tuế Dư An": "anh / Tuế Dư An / hắn",
+        "Kẻ quỵt nợ": "gã đàn ông / gã"
+      },
+      "dialogue_rules": {
+        "Đào Dã -> Kẻ quỵt nợ": "tao - mày / trả tiền hoặc gãy tay"
+      }
+    },
+    {
+      "scene_id": "scene_4",
+      "name": "Xe sang ép xe máy, Đào Dã bùng nổ bạo lực & Cơn hưng phấn của Tuế Dư An",
+      "para_range": [122, 173],
+      "characters": ["Đào Dã", "Tài xế", "Vệ sĩ", "Tuế Dư An"],
+      "locked_pronouns": {
+        "Đào Dã": "cậu / Đào Dã",
+        "Tuế Dư An": "anh / Tuế Dư An / hắn",
+        "Tài xế": "tên tài xế / gã"
+      },
+      "dialogue_rules": {
+        "Đào Dã -> Tài xế & Vệ sĩ": "tao - mày / chúng mày ('Mẹ mày mù à!', 'Cút ra!')"
+      }
+    },
+    {
+      "scene_id": "scene_5",
+      "name": "Về nhà trọ, Lý Tỉnh dọn đồ & Tuế Dư An ép Đào Dã mang đồ trả trực tiếp",
+      "para_range": [174, 215],
+      "characters": ["Đào Dã", "Lý Tỉnh", "Tuế Ứng Minh (qua quang não)"],
+      "locked_pronouns": {
+        "Đào Dã": "cậu / Đào Dã",
+        "Lý Tỉnh": "cậu ta / Lý Tỉnh",
+        "Tuế Ứng Minh": "anh ta / Tuế Ứng Minh"
+      },
+      "dialogue_rules": {
+        "Đào Dã <-> Lý Tỉnh": "tôi - cậu",
+        "Tuế Ứng Minh <-> Lý Tỉnh": "anh - em / Tinh Tinh - Ứng Minh",
+        "Tuế Ứng Minh nhắc Tuế Dư An": "anh tôi / anh trai tôi"
+      }
+    },
+    {
+      "scene_id": "scene_6",
+      "name": "Giá tiền chiếc quần lót trên trời & Tuế Dư An phát tình tự an ủi trước giường ngủ",
+      "para_range": [216, 247],
+      "characters": ["Đào Dã", "Tuế Dư An"],
+      "locked_pronouns": {
+        "Đào Dã": "cậu / Đào Dã",
+        "Tuế Dư An": "anh / Tuế Dư An / hắn"
+      },
+      "dialogue_rules": {}
+    }
+  ]
+}

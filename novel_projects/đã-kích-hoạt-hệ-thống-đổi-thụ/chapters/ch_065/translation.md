@@ -260,3 +260,4 @@ Tiết Cảnh Minh đứng ở trên lầu nhìn chàng Beta đang cùng Tiết 
 Phiền phức.
 
 Đúng là một mối phiền phức lớn.
+33

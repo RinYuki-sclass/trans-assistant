@@ -1,457 +1,468 @@
-Một chiếc xe hơi màu đen không mấy bắt mắt rẽ vào con hẻm nhỏ hẹp tối tăm, rồi dừng ở một chỗ đậu xe ven đường. Chẳng mấy chốc, đèn xe tắt ngấm nhưng không thấy ai bước xuống.
+---
+title: 'Đã Kích Hoạt Hệ Thống Đổi Thụ — Chương 66: Quần lót'
+source_url: 'https://www.52shuku.net/chongsheng/29_b/bkc90_119.html'
+chinese_title: '第 66 章 内裤'
+chapter_number: 66
+---
 
-Ngồi nhắm mắt dưỡng thần ở hàng ghế sau, Tuế Dư An hé mở đôi mắt hồ ly nhìn vào quang não trên cổ tay.
+Chương 66: Quần lót
 
-Còn 10 phút nữa là 9 giờ.
+Một chiếc xe hơi màu đen không mấy bắt mắt rẽ vào con hẻm nhỏ hẹp tối tăm, dừng lại ở một chỗ đỗ xe ven đường, chẳng mấy chốc đã tắt đèn xe nhưng lại không thấy có người bước xuống.
 
-Hắn đưa mắt nhìn ra ngoài cửa sổ xe. Mọi ánh sáng xung quanh đều vay mượn từ ngọn đèn đường đối diện, chẳng sáng sủa là bao, chỉ thấy mấy con thiêu thân bay lượn qua lại bên dưới.
+Ngồi ở hàng ghế sau nhắm mắt dưỡng thần, Tuế Dư An khẽ hé đôi mắt hồ ly, nhìn vào quang não trên cổ tay.
 
-Hắn vừa định thu tầm mắt lại.
+Còn 10 phút nữa là đến 9 giờ.
 
-Thì thấy một người đàn ông hốt hoảng chạy ra từ đâu không rõ, lao vào dải cây xanh rồi chống tay lên lan can định trèo qua.
+Anh đưa mắt nhìn ra ngoài cửa sổ xe, ánh sáng xung quanh đều dựa cả vào ngọn đèn đường phía đối diện, chẳng tính là sáng sủa, vài con thiêu thân lượn qua lượn lại bên dưới.
+
+Vừa định thu tầm mắt lại.
+
+Liền thấy một gã đàn ông hớt hải hoảng loạn chẳng biết từ đâu chạy vụt ra, lao vào dải phân cách cây xanh, chống tay lên lan can định trèo qua.
 
 Khổ nỗi chân ngắn.
 
-Gã trông như một con ếch bụng phệ vụng về, mãi mới loạng choạng trèo qua được rồi co giò chạy thẳng ra đường lớn, trong lúc vội vã còn hốt hoảng ngoái lại.
+Trông chẳng khác nào một con ếch bự vụng về, mãi mới lảo đảo trèo qua được, cắm đầu cắm cổ chạy thục mạng ra đường lớn, trong lúc vội vã còn hoảng hốt ngoái đầu nhìn lại một cái.
 
-Tuế Dư An cũng đưa mắt nhìn theo, tự hỏi điều gì khiến gã đàn ông sợ hãi đến thế.
+Ánh mắt Tuế Dư An cũng dõi theo phía sau gã, không biết điều gì đã khiến gã đàn ông sợ hãi đến thế?
 
-Một bóng đen nhanh như báo vọt ra từ trong tối, lao vào vùng sáng. Chỉ một sải chân dài là người đó đã vượt qua dải cây xanh. Vừa tiếp đất, bàn tay máy bên phải đã chống lên lan can, dứt khoát nhảy qua rào chắn cao hơn một mét mà không hề ngập ngừng.
+Một bóng đen tựa như con báo săn thoăn thoắt lao từ bóng tối vào vùng sáng, đôi chân dài chỉ một sải đã vượt qua dải cây xanh, lúc tiếp đất bàn tay máy bên phải chống lên lan can, động tác dứt khoát nhảy qua hàng rào cao hơn một mét mà không hề có chút ngập ngừng.
 
-Giữa chuỗi động tác, chiếc áo gió chống thấm trên người hắn bị tốc lên. Ánh đèn đường mờ ảo rọi vào một khoảng eo săn gọn, xoắn vặn đầy uy lực, thấp thoáng cả những đường gân xanh hằn lên.
+Giữa chuỗi động tác, chiếc áo gió chui đầu trên người cậu bị tốc lên một chút, ánh đèn đường mờ ảo rọi vào một đoạn eo thon săn chắc đang vặn mình đầy uy lực, lờ mờ trông thấy cả những đường gân xanh căng chặt.
 
-Đôi mắt Tuế Dư An bất giác nheo lại.
+Đôi mắt Tuế Dư An bất giác híp lại.
 
-Vừa tiếp đất, Đào Dã đã vươn cánh tay dài tóm lấy gáy gã đàn ông trước khi gã kịp chạy ra đường lớn rồi lôi ngược lại, quật thẳng xuống đất.
+Sau khi tiếp đất, Đào Dã vươn cánh tay dài túm chặt lấy sau gáy gã đàn ông trước khi gã kịp chạy ra đường lộ, giật ngược người lại rồi quật thẳng xuống mặt đất.
 
-Chỉ nghe gã đàn ông hét lên một tiếng thảm thiết, rồi giãy giụa vung vẩy hai tay một cách loạn xạ.
+Chỉ nghe gã đàn ông thét lên một tiếng thảm thiết, sau đó điên cuồng vung vẩy hai tay giãy giụa một cách vô lối.
 
-Mũ bóng chày của Đào Dã bị hất bay. Cậu vặn cổ tay, bàn tay máy màu trắng siết thành quyền giáng thẳng vào mặt gã đàn ông.
+Mũ lưỡi trai của Đào Dã bị hất văng ra, cậu mặt không đổi sắc giơ tay lên, bàn tay máy màu trắng siết thành nắm đấm nện thẳng vào mặt gã đàn ông.
 
-Đôi tay đang vung vẩy như rong biển của gã đàn ông buông thõng xuống, tiếng hét thảm thiết chuyển thành tiếng khóc rống đau đớn.
+Đôi cánh tay đang vung vẩy như rong biển của gã đàn ông buông thõng xuống, tiếng thét thảm chuyển thành tiếng khóc rống đau đớn.
 
-Hơi thở của Tuế Dư An nặng dần. Một cú đấm thật gọn gàng, dứt khoát. Cánh tay vung ra kéo theo xương bã vai tạo thành một đường cong hoàn hảo; cú đấm dùng đủ lực thậm chí còn tác động đến cả phần eo hắn vừa thấy ban nãy. Được trải nghiệm từ góc nhìn của kẻ ăn đòn, chắc chắn sẽ còn kích thích và mỹ lệ hơn nữa.
+Hơi thở Tuế Dư An chợt dồn dập, một cú đấm thật gọn gàng dứt khoát, cánh tay vung ra kéo theo xương bả vai tạo thành một đường chuyển động hoàn hảo, dùng hết sức lực thậm chí còn kéo theo cả vòng eo mà anh vừa nhìn thấy ban nãy, nếu như được thưởng thức từ góc nhìn của kẻ bị ăn đòn thì nhất định sẽ càng kích thích, càng mê li hơn.
 
-Hắn đâm ra có mấy phần ghen tị với kẻ bị đánh.
+Tận đáy lòng anh trỗi dậy mấy phần ghen tị với kẻ đang bị đấm kia.
 
-Tròng mắt màu nâu của hắn khẽ run lên vì phấn khích, rồi hắn từ từ nhìn sang khuôn mặt của người đàn ông kia.
+Con ngươi màu nâu nhạt của anh khẽ run lên vì hưng phấn, chầm chậm nhìn sang khuôn mặt của cậu thanh niên.
 
-Làn da rất trắng, đặc biệt nổi bật trên nền tóc ngắn đen nhánh.
+Rất trắng, đặc biệt nổi bật dưới mái tóc ngắn đen nhánh.
 
-Dù chưa nhìn rõ ngũ quan, nhưng sự tương phản đen trắng rõ rệt này cũng đủ mang lại cảm giác sảng khoái, sạch sẽ.
+Dù chưa nhìn rõ ngũ quan, nhưng sự tương phản đen trắng rạch ròi này cũng đủ mang lại cảm giác sạch sẽ, sảng khoái.
 
-“Đừng, đừng đánh nữa…”
+“Đừng... đừng đánh nữa...”
 
-Gã đàn ông mặt mày đầy máu mũi khóc lóc van xin.
+Gã đàn ông mặt mày đầy máu mũi, khóc lóc cầu xin.
 
-Đào Dã túm cổ gã nhấc bổng lên, mặt vẫn vô cảm, chỉ lạnh lùng buông ra hai chữ: “Trả tiền.”
+Đào Dã bóp cổ nhấc bổng gã lên một chút, trên mặt vẫn chẳng có biểu cảm gì, chỉ lạnh lùng thốt ra hai chữ: “Trả tiền.”
 
-Lần này, Tuế Dư An đã nhìn rõ khuôn mặt ấy.
+Lần này thì Tuế Dư An đã nhìn rõ khuôn mặt ấy.
 
-Hắn có hơi kinh ngạc.
+Có phần ngạc nhiên.
 
-Một khuôn mặt thật thanh thuần, không có vẻ hiếu chiến nhưng cũng chẳng quá mềm mỏng, tựa như một đóa hoa trắng nhỏ vô hại. Từ đôi mắt đen trắng phân minh đến biểu cảm đều lạnh lẽo. Vì vậy, đây không phải loại hoa trắng nhỏ cần được chở che, mà là đóa hoa trắng nhỏ tự mình kiên cường nở rộ giữa hẻm núi, mặc cho gió tát mưa sa.
+Một khuôn mặt thật thanh thuần, không hề mang nét công kích cũng không quá đỗi mềm mại, giống hệt một đóa tiểu bạch hoa vô hại, từ đôi mắt đen trắng phân minh cho đến biểu cảm đều toát vẻ lạnh lùng, bởi vậy cậu không phải kiểu tiểu bạch hoa yếu ớt cần người che chở, mà là đóa hoa nhỏ kiên cường đón nhận gió táp mưa sa nơi khe núi sâu thẳm.
 
-Chỉ nhìn khuôn mặt này, Tuế Dư An khó mà liên tưởng đến cú đấm vừa rồi.
+Nếu chỉ nhìn gương mặt này, Tuế Dư An khó lòng liên tưởng tới cú đấm sấm sét vừa rồi.
 
-“Tôi thật sự không có tiền, cậu khoan…”
+“Tôi thật sự không có tiền, cậu khoan...”
 
-Gã đàn ông còn chưa kịp nói hết lời, Đào Dã đã dứt khoát cho gã thêm một cú đấm.
+Gã đàn ông còn chưa kịp thốt ra chữ “dung”, Đào Dã đã dứt khoát bồi thêm cho gã một đấm.
 
-“Bớt lảm nhảm, một là trả tiền, hai là chết!”
+“Đừng nói nhảm, hoặc trả tiền hoặc chết!”
 
-Thời buổi này, chết một mạng người cũng bình thường như chết một con chó hoang, mất mạng là xong.
+Thời buổi này một mạng người chết đi cũng bình thường như một con chó hoang bỏ mạng, chết là hết.
 
-Gã đàn ông đầu óc quay cuồng, mắt nổ đom đóm, bị máu sặc cho ho sặc sụa. Giữa hai lựa chọn tiền và mạng, gã đã chọn mạng.
+Đầu óc quay cuồng hoa mắt chóng mặt, gã đàn ông bị máu sặc đến mức ho sù sù mấy tiếng, giữa hai lựa chọn tiền và mạng, gã đành chọn giữ mạng.
 
-Gã run rẩy giơ tay: “Tiền… tôi trả tiền…”
+Gã run rẩy giơ tay lên: “Tiền... tôi trả tiền...”
 
-Gã đàn ông hít một hơi, mở khóa quang não trên cổ tay rồi chuyển 2 vạn cho Đào Dã.
+Gã đàn ông thở dốc một hơi, mở khóa quang não trên cổ tay rồi chuyển hai vạn cho Đào Dã.
 
-Nhận tiền xong, Đào Dã rút giấy nợ từ túi áo khoác ném cho gã đàn ông. Trả sớm có phải xong rồi không, cứ phải ăn đòn mới chịu.
+Nhận tiền xong, Đào Dã rút từ trong túi áo gió ra tờ giấy vay nợ ném cho gã, đưa sớm có phải xong rồi không, cứ phải ăn một trận đòn mới chịu.
 
-Cậu đứng dậy, nhặt chiếc mũ dưới đất đội lên đầu rồi rời khỏi con hẻm mà không nán lại thêm.
+Cậu đứng dậy nhặt chiếc mũ dưới đất đội lên đầu, chẳng nán lại thêm giây nào mà sải bước rời khỏi con hẻm.
 
-Gã đàn ông kia không nợ tiền cậu. Cậu chỉ đi đòi thuê, cứ thu được một nghìn thì ăn hoa hồng một trăm, thu được một vạn thì ăn một nghìn. Cậu chuyển một vạn tám cho khách hàng.
+Gã đàn ông không nợ tiền cậu, cậu chỉ đi đòi nợ thuê, thu về một nghìn thì cậu trích hoa hồng một trăm, thu về một vạn thì cậu được một nghìn, cậu chuyển lại một vạn tám cho khách hàng.
 
-Sau khi nhận tiền, bên kia gửi lại một sticker cảm ơn.
+Đối phương nhận được tiền liền gửi lại một biểu cảm cảm ơn.
 
-Đào Dã quét một chiếc xe đạp công cộng, đôi chân dài phải co rúm lại trên bàn đạp trông có vẻ tội nghiệp. Cậu thong thả rẽ vào phố ăn vặt, gửi tin nhắn cho Lý Tỉnh: [Mì xào?]
+Đào Dã đã quẹt mở một chiếc xe đạp công cộng, đôi chân dài có chút gò bó co lại trên bàn đạp, thuần thục rẽ vào phố ẩm thực, gửi cho Lý Tỉnh một tin nhắn: 【Mì xào không?】
 
-Lý Tỉnh: [Tao ăn ở ngoài xong rồi.]
+Lý Tỉnh: 【Tôi ăn ở ngoài rồi.】
 
-Thế là Đào Dã chỉ mua một suất mì xào.
+Thế là Đào Dã chỉ mua một phần mì xào.
 
-Gã đàn ông bị đánh vừa lồm cồm bò dậy vừa chửi rủa. Tuế Dư An thu tầm mắt lại, ánh nhìn rơi xuống nơi đã trở nên hưng phấn…
+Gã đàn ông bị đòn chửi rủa lồm cồm bò dậy từ dưới đất, tầm mắt Tuế Dư An thu về lại rơi trúng vào nơi đang rạo rực hưng phấn...
 
-Hắn thúc lưỡi vào trong má.
+Anh khẽ nghiến răng, đẩy lưỡi vào má.
 
-Hắn bất giác tưởng tượng nếu cú đấm đó giáng lên mặt mình.
+Bất giác tưởng tượng nếu như nắm đấm ấy nện thẳng vào mặt mình.
 
-Có lẽ một cái tát thì còn…
+Hay là tát vào mặt thì càng...
 
-Cửa xe bị gõ từ bên ngoài. Tuế Dư An liếc nhìn quang não, vừa đúng chín giờ.
+Cửa xe bên ngoài bị gõ vang, Tuế Dư An liếc nhìn quang não, vừa đúng chín giờ.
 
-Hạ cửa sổ xe, người đàn ông bên ngoài cúi người cười lấy lòng: “Đây là thứ ngài cần ạ.”
+Anh hạ cửa kính xe xuống, người đàn ông bên ngoài cúi gập lưng nở nụ cười nịnh nọt: “Đây là món đồ ngài cần.”
 
 ——
 
-Đào Dã về nhà, Lý Tỉnh đang ngồi trên sofa gọi điện thoại bèn quay lại nhìn cậu một cái coi như chào hỏi.
+Đào Dã về đến nhà, Lý Tỉnh đang ngồi trên sofa gọi điện thoại ngoái đầu lại liếc nhìn cậu một cái, xem như lời chào hỏi.
 
-Cậu cầm hộp mì xào đi tới bàn ăn.
+Cậu cầm hộp mì xào đi về phía bàn ăn.
 
 Vừa mới ngồi xuống.
 
-【Hệ thống Đổi Thụ đã liên kết.】
+【Hệ thống Đổi Thụ đã trói định.】
 
-Động tác mở túi của Đào Dã khựng lại một chút, rồi cậu vẫn thản nhiên mở túi nilon ra.
+Động tác mở túi nilông của Đào Dã khựng lại một nhịp, rồi lại bình thản như không tiếp tục mở túi ra.
 
-【Xin chào, tôi là hệ thống Lục Lục, Lục trong lục lục đại thuận, đến từ liên minh Chống Công Simp. Qua kiểm tra cho thấy cậu là một tên chó liếm. Vì lớn lên cùng Lý Tỉnh nên cậu đã nảy sinh tình cảm, luôn chăm sóc cậu ta không một lời oán thán. Dù cậu ta có hết lần này đến lần khác hẹn hò yêu đương, cậu cũng chẳng bận tâm, thậm chí cậu ta chỉ cần ngoắc tay là cậu lại về bên cậu ta.】
+【Xin chào, tôi là hệ thống Lục Lục, Lục Lục trong lục lục đại thuận, đến từ Liên minh công chống liếm cẩu. Qua kiểm tra xác định bạn là một kẻ liếm cẩu, vì cùng Lý Tỉnh lớn lên từ nhỏ nên bạn nảy sinh tình cảm với cậu ta, luôn tận tụy chăm sóc cậu ta không oán không hận, dù cậu ta hết lần này đến lần khác yêu đương bạn cũng không bận tâm, thậm chí chỉ cần cậu ta ngoắc tay một cái là bạn đã ở bên cậu ta rồi.】
 
-Đào Dã ăn mì xào, chẳng có phản ứng gì.
+Đào Dã vừa ăn mì xào vừa chẳng mảy may phản ứng.
 
-【Sau khi yêu nhau, Lý Tỉnh đột ngột chia tay cậu để đi yêu người khác, rồi lại tìm cậu để quay lại. Vậy mà cậu cũng không hề phàn nàn, tiếp tục làm chó liếm cho cậu ta.】
+【Sau khi yêu nhau, Lý Tỉnh chia tay bạn một cách phũ phàng không báo trước rồi đi yêu người khác, sau đó lại tìm bạn để hàn gắn, bạn cũng chẳng hề oán trách câu nào, tiếp tục làm liếm cẩu cho cậu ta.】
 
-【Cậu như vậy là không đúng!】
+【Bạn làm như vậy là không đúng!】
 
-Cúp điện thoại, Lý Tỉnh ngồi xuống đối diện Đào Dã: “Ứng Minh mời tao dự tiệc sinh nhật của anh ấy vào ngày mai. Tao bảo sẽ dẫn theo một người bạn, mày đi cùng tao nhé.”
+Cúp điện thoại, Lý Tỉnh ngồi xuống đối diện Đào Dã: “Ứng Minh mời tôi ngày mai đến dự tiệc sinh nhật của anh ấy, tôi có bảo với anh ấy sẽ dẫn theo một người bạn, cậu đi cùng tôi nhé.”
 
-Đào Dã vẫn tiếp tục ăn: “Dạo này hai người thân nhau nhỉ.”
+Đào Dã tiếp tục ăn mì: “Dạo này hai người thân thiết quá nhỉ.”
 
-Đó không phải là một câu hỏi.
+Không phải là một câu hỏi.
 
-Lý Tỉnh chống cằm, gương mặt búp bê cười tít mắt: “Anh ấy tốt tính lắm. Lần trước chẳng phải tao đã kể với mày rồi sao, ở quán bar có một gã định giở trò sàm sỡ, anh ấy đã giúp tao đấy.”
+Lý Tỉnh chống tay nâng khuôn mặt búp bê cười tít mắt: “Người ta tốt lắm, lần trước tôi chẳng bảo với cậu rồi đấy thôi, ở quán bar có gã muốn sàm sỡ tôi, chính anh ấy đã ra tay giúp đỡ đấy.”
 
-Đào Dã ngẩng đầu nhìn Lý Tỉnh, nghiêm giọng: “Mày biết thân phận của anh ta chứ.”
+Đào Dã ngẩng đầu nhìn Lý Tỉnh, vẻ mặt nghiêm túc: “Cậu biết rõ thân phận của anh ta mà.”
 
-Bọn họ đang sống trong một thế giới mới sau khi năng lượng cạn kiệt và chiến tranh thế giới bùng nổ. Thế giới này không phải là một xã hội văn minh có pháp quyền, mà ở đây nhà họ Tuế chính là trời, là luật, là lẽ phải của Tuyên Thành.
+Bọn họ đang sống trong một thế giới mới cạn kiệt tài nguyên sau khi thế chiến nổ ra, thế giới này tuyệt đối không phải là một xã hội văn minh pháp trị gì cho cam, Tuế gia chính là trời của Tuyên Thành, là luật pháp, là chân lý của mảnh đất Tuyên Thành này.
 
-Tuế Ứng Minh mà Lý Tỉnh nhắc tới chính là con trai út của gia chủ nhà họ Tuế. Một nhân vật như vậy, những đứa trẻ mồ côi như bọn họ có nhón chân cũng chẳng thể với tới, và càng không nên cố với tới. Quá nguy hiểm.
+Tuế Ứng Minh trong miệng Lý Tỉnh chính là con trai út của gia chủ Tuế gia, nhân vật tầm cỡ ấy là kẻ mà những đứa trẻ mồ côi như bọn họ kiễng chân lên cũng chẳng với tới nổi, càng không nên cố với tới, quá nguy hiểm.
 
-“Tao biết, nhưng Ứng Minh nói thân phận không thành vấn đề, anh ấy chỉ muốn làm bạn với tao thôi.” Lý Tỉnh bắt đầu nài nỉ Đào Dã: “Mày đi cùng tao đi, tao sợ đi một mình lắm.”
+“Tôi biết chứ, nhưng Ứng Minh bảo thân phận không thành vấn đề, chỉ muốn làm bạn với tôi thôi.” Lý Tỉnh bắt đầu năn nỉ Đào Dã, “Cậu đi cùng tôi đi mà, một mình tôi đi thấy sợ lắm.”
 
-Đôi mắt trong veo của Đào Dã dường như nhìn thấu Lý Tỉnh: “Nhận lời mời của bạn bè thôi mà có gì phải sợ?”
+Đôi mắt quá đỗi trong trẻo của Đào Dã dường như nhìn thấu tâm can Lý Tỉnh: “Đến dự lời hẹn của bạn bè thì cậu có gì mà phải sợ?”
 
-Chẳng phải miệng thì nói thân phận không thành vấn đề, nhưng thực chất vờ say mê địa vị của Tuế Ứng Minh đó sao.
+Chẳng qua ngoài miệng thì nói thân phận không thành vấn đề, nhưng trong lòng kỳ thực vẫn sợ hãi gia thế của Tuế Ứng Minh.
 
-Lý Tỉnh hơi khó xử.
+Lý Tỉnh có chút gượng gạo.
 
-Tuy Đào Dã không hiểu rõ Tuế Ứng Minh, nhưng chuyện nhà họ Tuế thì ai mà chưa từng nghe nói. Để nắm giữ quyền lực lâu dài, gia tộc này lòng dạ hiểm độc, ra tay tàn nhẫn. Cậu không tin mảnh đất tội lỗi này lại có thể nở ra đóa hoa lương thiện.
+Đào Dã tuy không hiểu rõ Tuế Ứng Minh, nhưng những chuyện về Tuế gia thì ai mà chưa từng nghe qua, để nắm giữ quyền lực lâu dài, cả gia đình này đều là những kẻ tâm hung thủ ác, cậu không tin một mảnh đất tà ác lại có thể nở ra đóa hoa lương thiện.
 
-Lục Lục chớp thời cơ chen vào: 【Chỉ cần cậu không tiếp tục làm chó liếm cho Lý Tỉnh, đổi một thụ khác, công lược thành công là có thể nhận được phần thưởng hậu hĩnh đó nha~】
+Lục Lục thừa cơ chen vào: 【Chỉ cần bạn không tiếp tục làm liếm cẩu cho Lý Tỉnh nữa, đổi sang một thụ khác, công lược thành công là có thể nhận được phần thưởng hậu hĩnh đó nha~】
 
-Lý Tỉnh: “Tao chỉ nghĩ là lỡ tao uống say thì còn có mày đưa tao về thôi mà.”
+Lý Tỉnh: “Tôi chỉ nghĩ lỡ như tôi có uống say thì cậu còn đưa tôi về được.”
 
-Cậu ta chớp đôi mắt to long lanh: “Vừa hay chúng ta còn có thể đến đó chực một bữa, mày tiết kiệm được một bữa cơm. Dù gì thì tao chắc chắn cũng sẽ đi.”
+Cậu ta chớp chớp đôi mắt to tròn long lanh: “Vừa hay chúng ta còn có thể đi ăn chực một bữa, cậu tiết kiệm được một bữa tiền cơm, dù sao thì tôi nhất định sẽ đi đấy.”
 
-Rốt cuộc Đào Dã vẫn không yên tâm về cậu ta nên đã đồng ý.
+Đào Dã rốt cuộc vẫn không yên tâm về cậu ta, đành đồng ý.
 
-Cậu cúi đầu ăn mì tiếp.
+Cậu cúi đầu tiếp tục ăn mì.
 
-Lý Tỉnh vui vẻ cười hí hí, lại hỏi một câu: “Mì ngon không?”
+Lý Tỉnh vui vẻ cười toe toét, lại hỏi cậu: “Mì ngon không?”
 
-Đào Dã dùng cánh tay máy ôm lấy hộp mì xào, đáp: “Không ngon.”
+Đào Dã dùng cánh tay máy vòng lấy hộp mì xào: “Không ngon.”
 
-Lục Lục: 【Nào, chọn một mục tiêu nhiệm vụ cho mình đi, chúng ta cùng hừng hực khí thế bắt tay vào việc nào~】
+Lục Lục: 【Nào, hãy chọn một mục tiêu nhiệm vụ của bạn đi, cùng chúng ta hăng hái bắt tay vào việc nào~】
 
-Ăn xong mì xào, Đào Dã đi tắm rửa.
+Ăn xong mì xào, Đào Dã đi tắm rửa đánh răng.
 
-Sự hăng hái của Lục Lục không được đáp lại, nó không chắc chắn hỏi: 【Cậu có nghe thấy tôi nói không?】
+Năng lượng tràn trề của Lục Lục không nhận được hồi đáp, nó không chắc chắn lắm: 【Bạn có nghe thấy tôi nói không đấy?】
 
-Đào Dã vừa lau tóc vừa từ phòng vệ sinh đi vào phòng ngủ. Căn phòng không lớn, đồ đạc cũng chẳng nhiều, chỉ có một chiếc giường trải bộ ga gối màu đen phẳng phiu, một cái tủ kê sát tường, và một chiếc bàn học ở cuối giường là toàn bộ.
+Đào Dã vừa lau tóc vừa bước ra khỏi phòng tắm để vào phòng ngủ của mình. Căn phòng ngủ không lớn, đồ đạc cũng chẳng nhiều nhặn gì, một chiếc giường trải ga gối bốn món màu đen vuông vắn chỉnh tề, cái tủ kê sát vách tường, thêm chiếc bàn học ở cuối giường là hết.
 
-Cậu ngồi xuống, cởi áo.
+Cậu ngồi xuống, cởi áo trên ra.
 
-Cánh tay máy thay cho tay phải được gắn vào vai. Cậu đưa tay xoa nắn chỗ khớp nối, vòng da thịt quanh đó đã đỏ ửng lên. Đây là loại tay máy rẻ tiền nhất, với các kích cỡ được bán đồng loạt trên thị trường nhưng chẳng có cái nào vừa vặn với cậu.
+Cánh tay máy thay thế cho cánh tay phải cấy ghép ở khớp vai, cậu giơ tay xoa bóp chỗ tiếp giáp, vùng da thịt quanh đó đỏ ửng lên, loại tay máy rẻ tiền nhất, kích cỡ bán đại trà trên thị trường, vài cỡ sẵn có đều không vừa vặn với cậu.
 
-Cậu đang dành dụm tiền. Mấy năm nay cậu đã dành được 40 vạn, có lẽ cần thêm 60 vạn nữa là có thể đặt một cánh tay máy riêng. Cậu nhẩm tính, chắc khoảng bốn năm nữa là đủ, nghĩa là cậu có thể lắp nó vào năm 26 tuổi nếu lúc đó giá không tăng.
+Cậu đang tích cóp tiền, những năm qua cậu đã gom được 40 vạn, ước chừng cần thêm khoảng sáu mươi vạn nữa là cậu có thể đặt làm riêng một cánh tay máy, cậu tính toán mất khoảng chừng bốn năm nữa là xong, tức là năm 26 tuổi cậu sẽ đeo được, với điều kiện khi ấy giá không tăng.
 
-Lục Lục: 【Lạ thật, cậu không nghe thấy tôi nói à?】
+Lục Lục: 【Kỳ lạ thật, bạn không nghe thấy tôi nói chuyện sao?】
 
-Lục Lục: 【Rốt cuộc là có vấn đề ở đâu nhỉ?】
+Lục Lục: 【Rốt cuộc có vấn đề ở đâu nhỉ?】
 
-Nó đột nhiên lên tiếng. Tay Đào Dã đang xoa vai khựng lại một chút nhưng vẫn lờ đi. Sau khi vai đỡ mỏi hơn, cậu liền đi ngủ.
+Nó đột ngột lên tiếng, bàn tay xoa vai của Đào Dã thoáng dừng lại một chút nhưng vẫn mặc kệ, đợi bờ vai bớt mỏi hơn một chút là cậu liền đi ngủ.
 
-Lục Lục đang hì hục kiểm tra lại các dữ liệu.
+Lục Lục hùng hục kiểm tra lại từng số liệu dữ liệu.
 
-Đào Dã bị Lục Lục làm ồn cho tỉnh giấc, đôi mắt vừa mở đã ngập tràn vẻ bực bội của người bị phá giấc ngủ. Cánh tay máy cũng theo đó mà tự động siết chặt rồi thả lỏng, như một nghi thức khởi động kiểm tra. Năm ngón tay có thể nắm lại bình thường, xác nhận cánh tay máy này có thể sử dụng được.
+Đào Dã bị Lục Lục đánh thức, trong đôi mắt vừa mở ra tràn ngập cơn bực mình vì bị quấy rầy giấc ngủ, bàn tay máy theo sự thức tỉnh của cậu tự động siết chặt lại rồi mở ra, đây là nghi thức khởi động kiêm kiểm tra hệ thống, năm ngón tay có thể khép gập bình thường, xác nhận cánh tay máy này vẫn hoạt động tốt.
 
-Lục Lục: 【Cậu đừng giả vờ nữa! Tôi biết cậu nghe được tôi nói, dữ liệu không có bất kỳ vấn đề gì hết!】
+Lục Lục: 【Bạn đừng giả vờ nữa, tôi biết bạn nghe được tôi nói chuyện, dữ liệu không hề có chút vấn đề nào cả!】
 
-Tức chết hệ thống rồi, nó đã kiểm tra toàn bộ dữ liệu tận 80 lần! Thật sự không biết là có chuyện gì, đành phải báo cáo lên cấp trên, cấp trên đưa ra một khả năng: 【Có thể nào là cậu ta giả vờ không nghe thấy cậu nói không?】
+Thật tức chết hệ thống mất thôi, nó đã kiểm tra toàn bộ dữ liệu tròn 80 lần! Quả thực không hiểu tại sao lại như thế? Đành phải phản hồi lên cấp trên, cấp trên liền đưa ra một khả năng: 【Có khi nào là do cậu ta cố tình giả vờ không nghe thấy ngươi nói không?】
 
-Lục Lục: …
+Lục Lục: ...
 
-Đào Dã trở mình: 【Đúng vậy, tao nghe được mày nói.】
+Đào Dã trở mình: 【Đúng thế, tao nghe thấy mày nói chuyện.】
 
-Lục Lục ấm ức, không tài nào hiểu nổi: 【Vậy tại sao cậu không thèm đếm xỉa đến tôi?】
+Lục Lục tủi thân, không hiểu nổi: 【Thế tại sao bạn lại không đoái hoài gì đến tôi?】
 
-Nó đã bao giờ bị đối xử lạnh nhạt thế này đâu!
+Đã bao giờ nó phải chịu sự lạnh nhạt như thế này đâu!
 
-Vừa mở quang não chọn xem hôm nay đi đòi nợ ai, Đào Dã vừa nói đầy lý lẽ: 【Tại sao tao phải bận tâm đến mày? Mày chẳng qua chỉ là một thứ tự tiện chui vào đầu tao, còn nếu tao nhất định phải nói gì với mày…】
+Mở quang não chọn lựa xem hôm nay đi tìm ai đòi nợ, Đào Dã nói đầy lý lẽ: 【Tại sao tao phải đoái hoài tới mày? Mày chẳng qua chỉ là một thứ tự tiện chui tọt vào đầu tao, nếu tao nhất định phải nói gì đó với mày.】
 
-Chọn xong mục tiêu, Đào Dã ngồi dậy: 【Cút khỏi đầu tao.】
+Đã chọn xong mục tiêu, Đào Dã ngồi dậy: 【Thì là cút khỏi đầu tao.】
 
 Lục Lục: !
 
-Hắn vừa nói ‘cút’ sao?
+Vừa rồi cậu ta bảo “cút” đấy à?
 
-Đào Dã đi vệ sinh cá nhân, cửa phòng ngủ của Lý Tỉnh ở đối diện vẫn đóng chặt, giờ này cậu ta không bao giờ dậy.
+Đào Dã đi rửa mặt đánh răng, cánh cửa phòng ngủ của Lý Tỉnh ở phía đối diện vẫn đóng chặt, giờ này cậu ta chẳng bao giờ dậy cả.
 
-Lục Lục: 【Cậu đúng là đồ bất lịch sự!】
+Lục Lục: 【Cái người này thật là bất lịch sự!】
 
-Đào Dã vừa đánh răng vừa đáp: 【Mày lịch sự mà mày tự tiện chui vào đầu tao? Xin hỏi là tao mời ‘ngài’ đến đây chắc?】
+Đào Dã vừa đánh răng: 【Mày có lịch sự mà tự tiện chui vào đầu tao à? Xin hỏi là tao mời ngài đến chắc?】
 
-Lục Lục: 【Tôi đến để giúp cậu, để cậu không trở thành một tên simp lỏ.】
+Lục Lục: 【Tôi đến để giúp bạn, để bạn không trở thành liếm cẩu cơ mà.】
 
-Đào Dã khịt mũi: 【Thứ nhất, tao và Lý Tỉnh là bạn bè. Thứ hai, tao là trai thẳng.】
+Đào Dã cười nhạt khinh bỉ: 【Thứ nhất, tao với Lý Tỉnh là bạn bè; thứ hai, tao là trai thẳng.】
 
-Cậu lau mặt rồi vào bếp nấu mì. Cậu hoàn toàn không có ý gì với Lý Tỉnh. Chính Lý Tỉnh là người đã nhặt cậu về trại trẻ mồ côi, cho cậu một mạng sống. Hồi nhỏ, Lý Tỉnh lớn hơn hai tuổi nên luôn bảo vệ, chăm sóc cậu như một người anh trai. Nói cậu có tình cảm gì với cậu ta thì đó chỉ là lòng biết ơn.
+Cậu lau mặt rồi vào bếp nấu mì, cậu hoàn toàn chẳng có chút ý tứ nào về phương diện kia với Lý Tỉnh cả, cậu là do Lý Tỉnh nhặt về viện phúc lợi, tương đương với việc cho cậu một mạng sống, ở viện phúc lợi vì Lý Tỉnh lớn hơn cậu 2 tuổi nên càng giống như một người anh nhỏ bảo vệ cậu, chăm sóc cậu, nếu bảo bản thân có thứ tình cảm gì với cậu ta, thì đó chính là báo đáp ân tình.
 
-Vả lại, cậu thích phụ nữ, đàn ông giống mình thì có gì hay ho mà thích, cậu cũng đâu thiếu chim để chơi.
+Hơn nữa, cậu thích phụ nữ, đàn ông giống hệt như mình thì có gì hay ho mà thích, cậu lại chẳng thiếu chim để chơi.
 
-Lục Lục kinh ngạc: 【Trai thẳng?】
+Lục Lục chấn động: 【Trai thẳng?】
 
-Sao nó lại bị trói buộc với một trai thẳng được? Lục Lục nghiêm túc suy nghĩ, chắc chắn là bây giờ Đào Dã vẫn chưa nhận ra tình cảm của mình dành cho Lý Tỉnh, chỉ tự cho mình là trai thẳng mà thôi.
+Sao nó lại trói định phải trai thẳng cơ chứ? Lục Lục nghiêm túc suy nghĩ một phen, nhất định là hiện giờ Đào Dã vẫn chưa nhận ra tình cảm của mình dành cho Lý Tỉnh, chỉ tự cho rằng bản thân là trai thẳng mà thôi.
 
-Nhưng nó cũng không có bằng chứng nào để thuyết phục cậu.
+Nhưng để thuyết phục cậu thì bản thân nó cũng không đưa ra được bằng chứng.
 
-Thế là Lục Lục đổi hướng thuyết phục: 【Nhưng hoàn thành nhiệm vụ sẽ có thưởng đó nha~ Anh chỉ cần khiến một người đàn ông yêu cậu và ngủ với anh ta là được.】
+Thế là Lục Lục đổi sang một hướng khác để thuyết phục cậu: 【Nhưng làm nhiệm vụ thành công sẽ có phần thưởng đấy nhé~ Bạn chỉ cần khiến một người đàn ông yêu bạn, đồng thời ngủ với anh ta là được.】
 
-Đào Dã cau mày: 【Ngủ với đàn ông? Không đời nào!】
+Đào Dã nhíu mày: 【Ngủ với đàn ông á? Tuyệt đối không bao giờ!】
 
 Cậu mất kiên nhẫn: 【Mày mau biến khỏi đầu tao đi.】
 
-Lục Lục im bặt. Phải làm sao đây? Ký chủ vô cùng bài xích nó. Lục Lục thấy tủi thân, bất giác nhớ đến Kỷ Liên Nhất, nhớ đến Mẫn Tòng Khiêm…
+Lục Lục im bặt, thế này thì biết làm sao bây giờ? Ký chủ cực kỳ bài xích nó, Lục Lục tủi thân vô cùng, nhớ Kỷ Liên Nhất ghê, nhớ Mẫn Tòng Khiêm ghê...
 
 ——
 
-Đào Dã đang định ra ngoài thì Lý Tỉnh giữ lại: “Hôm nay cậu đừng đi đâu cả, lỡ về muộn chúng ta sẽ bị trễ không hay đâu.”
+Đào Dã vừa định ra ngoài thì bị Lý Tỉnh túm lại: “Hôm nay cậu đừng đi ra ngoài nữa, ngộ nhỡ về muộn chúng ta lại đến trễ, thế thì ngại lắm.”
 
-Cậu ta ấn Đào Dã ngồi xuống: “Hôm nay không kiếm tiền cũng chẳng chết được, cậu cũng nên nghỉ ngơi một chút đi.”
+Cậu ta ấn Đào Dã ngồi xuống ghế sofa: “Kiếm tiền không vội một ngày này đâu, cậu cũng nên nghỉ ngơi đôi chút cho hợp lý.”
 
-Đào Dã đành nằm ườn ở nhà cả ngày.
+Đào Dã nằm ườn ở nhà suốt một ngày.
 
-Khoảng 6 giờ, Lý Tỉnh bắt đầu giục cậu sửa soạn. Cậu thì có gì để sửa soạn đâu, chỉ lôi một chiếc quần jean ra và chiếc áo sơ mi trắng duy nhất từ trong tủ quần áo trống hoác.
+Tầm 6 giờ chiều Lý Tỉnh đã bắt đầu giục cậu sửa soạn, cậu thì có cái gì mà sửa với soạn, từ trong tủ quần áo trống trơn lôi ra một chiếc quần bò với chiếc áo sơ mi trắng duy nhất.
 
-Cậu cởi chiếc quần đùi rộng thùng thình, để lộ chiếc quần lót màu xám thủng mấy lỗ, lỏng lẻo đến mức không bọc nổi hai hòn dái.
+Cởi chiếc quần đùi rộng thùng thình ra, chiếc quần lót màu xám trên người đã thủng mấy lỗ rách to tướng, lỏng la lỏng lẻo, đến cả mông cũng chẳng bọc nổi.
 
-Cậu mặc quần jean vào, sơ vin áo sơ mi.
+Cậu mặc chiếc quần bò vào, nhét vạt áo sơ mi vào cạp quần.
 
-Lý Tỉnh đi tới, xoay một vòng khoe quần áo mới: “Cậu xem có đẹp không? Ứng Minh tặng tớ đó.”
+Lý Tỉnh chạy lại xoay mấy vòng khoe bộ quần áo mới của mình: “Cậu xem có đẹp không? Ứng Minh tặng tôi đấy.”
 
-Đào Dã nhìn con người lấp lánh xanh như một con bướm kia, giữ tay cậu ta lại: “Đập cánh nhẹ thôi, rớt phấn bây giờ.”
+Đào Dã nhìn người đang lấp lánh sắc xanh như một con bươm bướm kia, đè cánh tay cậu ta lại: “Đập cánh nhẹ thôi, kẻo rụng hết phấn đấy.”
 
-Lý Tỉnh không hiểu cậu đang nói gì, bèn nhìn Đào Dã từ trên xuống dưới một lượt. Trông thì thanh thuần như thể dễ bị lừa cả tiền lẫn tình, khuôn mặt này của Đào Dã quả thật rất có sức mê hoặc, tiếc là cái miệng nhỏ thì lắm độc, tính tình còn nóng nảy.
+Lý Tỉnh chưa kịp hiểu cậu đang nói gì, bèn đánh giá Đào Dã từ trên xuống dưới một lượt, thanh thuần như thể sẽ bị người ta lừa tiền lừa sắc vậy, gương mặt này của Đào Dã quả thực quá dễ đánh lừa thị giác, nhưng cái mồm thì tẩm độc, tính khí lại còn nóng nảy hung hãn.
 
-Hai người xuất phát lúc 7 giờ, nhưng trên đường lại suýt gặp tai nạn giao thông nên gần 9 giờ mới đến nơi.
+Hai người xuất phát lúc 7 giờ, có điều xui xẻo giữa đường lại gặp tai nạn giao thông, gần 9 giờ mới tới nơi.
 
-Vừa xuống xe, Lý Tỉnh đã gọi to: “Ứng Minh!”
+Bước xuống xe, Lý Tỉnh cất tiếng gọi: “Ứng Minh!”
 
-Tuế Ứng Minh đã đợi sẵn ra đón, tươi cười tiến lại nắm lấy cánh tay Lý Tỉnh, lo lắng hỏi: “Em không sao chứ? Để tôi xem có bị thương không?”
+Tuế Ứng Minh đặc ý ra ngoài đón tươi cười bước tới, nắm lấy cánh tay Lý Tỉnh, vẻ mặt đầy vẻ lo lắng: “Em không sao chứ? Để anh xem có bị thương ở đâu không nào?”
 
-Lý Tỉnh liền xoay một vòng như con búp bê trong tay anh ta.
+Lý Tỉnh như một con búp bê trong tay anh ta, chậm rãi xoay một vòng.
 
-Đào Dã đứng bên cạnh, mặt không biểu cảm. Cậu liếc nhìn Tuế Ứng Minh một cái, thầm nghĩ gã này cũng coi là đẹp trai đấy, nhưng giả tạo quá. Nếu thật sự lo lắng thì đã chạy đi tìm Lý Tỉnh ngay khi biết tin tai nạn rồi, chỉ có thằng ngốc Lý Tỉnh mới tin gã.
+Đào Dã đứng bên cạnh không chút biểu cảm, đánh giá Tuế Ứng Minh một lượt, trông cũng tính là tuấn tú nhưng quá mức giả tạo, thật lòng lo lắng thì sau khi biết Lý Tỉnh gặp tai nạn giao thông đã phải đi tìm cậu ta rồi, chỉ có tên ngốc Lý Tỉnh này mới tin lời anh ta.
 
-Tuế Ứng Minh nói: “Không sao là tôi yên tâm rồi.”
+Tuế Ứng Minh: “Không sao là anh yên tâm rồi.”
 
-Lý Tỉnh cười ngọt ngào: “Ứng Minh, để em giới thiệu với anh, đây là bạn thân của em, Đào Dã.”
+Lý Tỉnh cười ngọt ngào: “Ứng Minh, em giới thiệu với anh một chút, đây là bạn thân của em, Đào Dã.”
 
-Lúc này Tuế Ứng Minh mới nhìn sang Đào Dã, nụ cười trên mặt nhạt đi mấy phần: “Chào cậu.”
+Bấy giờ Tuế Ứng Minh mới nhìn sang Đào Dã, nụ cười trên mặt giảm bớt vài phần nhiệt tình: “Chào cậu.”
 
-Đào Dã cũng đáp lại lạnh nhạt: “Chào anh.”
+Đào Dã cũng rất lạnh nhạt: “Chào anh.”
 
-Tuế Ứng Minh kéo tay Lý Tỉnh: “Được rồi chúng ta mau vào trong đi, mọi người đều muốn gặp em lắm đó.”
+Tuế Ứng Minh dắt tay Lý Tỉnh: “Được rồi, chúng ta mau vào thôi, bọn họ đều muốn gặp em đấy.”
 
-Lý Tỉnh trông hơi căng thẳng.
+Lý Tỉnh có chút căng thẳng.
 
-Đào Dã đi theo sau họ vào biệt thự, suốt đường đi chỉ nghe Tuế Ứng Minh lải nhải không ngớt.
+Đào Dã đi theo sau bọn họ bước vào biệt thự, suốt dọc đường chỉ nghe thấy Tuế Ứng Minh lải nhải không ngừng.
 
-Trong biệt thự rất đông người, họ tụ tập thành từng nhóm hai ba người, người thì nói chuyện, người đánh bài, người khiêu vũ, đủ cả. Tuế Ứng Minh dẫn Lý Tỉnh đi một mạch đến khu vực nghỉ ngơi đông người nhất.
+Trong biệt thự rất đông người, túm năm tụm ba tụ tập với nhau, trò chuyện, đánh bài, khiêu vũ, làm cái gì cũng có, Tuế Ứng Minh dẫn Lý Tỉnh thẳng tới khu vực nghỉ ngơi đông người nhất.
 
-Vô số ánh mắt đổ dồn về phía họ, và phần lớn đều tập trung vào Đào Dã. Chiều cao 1m90 thực sự rất thu hút sự chú ý, nhưng khi nhìn thấy khuôn mặt cậu lại càng kinh diễm hơn.
+Vô số ánh mắt đổ dồn về phía bọn họ, hơn nửa số ánh nhìn rơi trên người Đào Dã, chiều cao 1m9 quả thực quá mức thu hút sự chú ý, nhìn đến gương mặt lại càng thêm kinh ngạc ngỡ ngàng.
 
-Tuy nhiên, phần lớn mọi người nhanh chóng dời tầm mắt, bởi vì với họ, người bên cạnh Tuế Ứng Minh mới là tâm điểm. Nhìn thấy Lý Tỉnh, ai cũng nghĩ hóa ra Tuế Ứng Minh thích kiểu đáng yêu.
+Tuy nhiên rất nhiều người nhanh chóng dời tầm mắt đi, đối với bọn họ, người ở bên cạnh Tuế Ứng Minh mới là trọng tâm, nhìn thấy cậu ta mọi người chỉ thầm nghĩ hóa ra Tuế Ứng Minh thích kiểu dễ thương đáng yêu.
 
-“Ồ, nhân vật chính về rồi kia.”
+“Uầy~ Nhân vật chính đã về rồi kìa.”
 
 “Ứng Minh, vị này là ai thế?”
 
-“Mau giới thiệu cho bọn này đi.”
+“Mau giới thiệu cho chúng tôi biết đi chứ.”
 
-Mọi người mỗi người một câu, Tuế Ứng Minh dẫn Lý Tỉnh ngồi xuống: “Mấy người trật tự chút đi, đừng dọa Tỉnh Tỉnh nhà tôi.”
+Mọi người mỗi người một câu, Tuế Ứng Minh dắt Lý Tỉnh ngồi xuống: “Mọi người trật tự chút đi nào, đừng làm Tinh Tinh nhà tôi sợ.”
 
-Giữa những tràng cười ầm ĩ, có một người lại rất im lặng. Đôi mắt nâu của Tuế Dư An lặng lẽ dõi theo Đào Dã đang đứng sững ở đó, quả là một cuộc gặp gỡ bất ngờ.
+Giữa tiếng cười đùa hò reo của đám đông, có một người lại vô cùng im lặng, đôi con ngươi màu nâu nhạt của Tuế Dư An lặng lẽ ngắm nhìn Đào Dã đang đứng sừng sững ở đằng kia, quả là một cuộc hội ngộ đầy bất ngờ.
 
-Nhìn kỹ hơn, Tuế Dư An kết luận chàng trai này còn đẹp hơn cả lúc thoáng nhìn. Mày mắt như tranh thủy mặc, sống mũi cao thẳng, đôi môi hơi mím lại vẻ nghiêm nghị, chiếc áo sơ mi trắng càng tôn lên nét thuần khiết chết người. Hắn nhấp một ngụm rượu.
+Trong tình huống nhìn rõ ràng hơn thế này, kết luận mà Tuế Dư An rút ra được chính là chàng trai trẻ này khi nhìn rõ còn đẹp hơn, lông mày và đôi mắt tựa như tranh thủy mặc, sống mũi cao thẳng, bờ môi bên dưới khẽ mím lại nghiêm nghị, chiếc áo sơ mi trắng càng tôn lên vẻ thanh thuần đến chết người, anh nhấp một ngụm rượu.
 
-Lý Tỉnh không quên Đào Dã, bèn ra hiệu cho cậu ngồi xuống.
+Lý Tỉnh không quên Đào Dã, ra hiệu bảo cậu ngồi xuống.
 
-Đào Dã liếc một vòng thấy sofa đã gần kín chỗ. Cậu không muốn ngồi quá xa Lý Tỉnh để tiện hành động khi có biến, nên ánh mắt dừng lại ở chỗ trống duy nhất.
+Đào Dã liếc nhìn một lượt, ghế sofa cơ bản đều đã ngồi kín người, cậu cũng không muốn cách Lý Tỉnh quá xa để tránh xảy ra chuyện gì không kịp ứng cứu, ánh mắt rơi vào chỗ trống duy nhất còn lại.
 
-Cậu bước tới.
+Liền bước tới.
 
-Rồi ngồi phịch xuống.
+Ngồi phịch xuống.
 
-Bàn tay cầm ly rượu của Tuế Dư An khẽ lắc nhẹ. Chú thỏ nhỏ đã chủ động ngồi xuống bên cạnh hắn.
+Bàn tay cầm ly rượu của Tuế Dư An khẽ lắc một cái, con thỏ nhỏ lại chủ động đến ngồi bên cạnh anh.
 
-Đào Dã vừa ngồi xuống, khung cảnh náo nhiệt bỗng im bặt, mọi người kinh ngạc đảo mắt qua lại. Ngay cả Tuế Ứng Minh cũng phải nhoài người nhìn lại liếc sắc mặt anh trai mình là Tuế Dư An. Thấy Tuế Dư An không nói gì, anh ta mới khẽ thở phào nhẹ nhõm.
+Sau khi Đào Dã ngồi xuống, bầu không khí náo nhiệt bỗng chốc im bặt, mắt mọi người đảo qua đảo lại đầy kinh ngạc, ngay cả Tuế Ứng Minh cũng thò đầu nhìn sang, rồi len lén quan sát sắc mặt của anh trai Tuế Dư An, thấy Tuế Dư An không nói gì anh ta mới thở phào nhẹ nhõm một hơi.
 
-Hôm nay anh trai đến đã khiến anh ta nơm nớp lo sợ rồi. Anh ta lườm cái kẻ chẳng có mắt nhìn kia, đúng là chỗ nào cũng dám ngồi. Mọi người thà ngồi trên tay vịn, chẳng lẽ không thích ngồi trên sofa chứ?
+Hôm nay anh trai anh ta chịu tới dự đã khiến anh ta nơm nớp lo sợ rồi, anh ta trừng mắt lườm kẻ không biết điều kia một cái, đúng là chỗ nào cũng dám ngồi, người ta thà ngồi lên thành ghế sofa chứ chẳng thèm ngồi lên đệm sofa sao?
 
-Đồ ngu.
+Đồ ngốc nghếch.
 
-Tuế Dư An không tỏ ra khó chịu, lập tức có người lên tiếng khuấy động không khí và sự cố nhỏ này cũng qua đi.
+Tuế Dư An không biểu lộ chút khó chịu nào, lập tức có người lên tiếng hâm nóng bầu không khí, khúc nhạc đệm nho nhỏ này cũng trôi qua.
 
-Đào Dã không hề biết mình đã làm gì, cũng không biết người đàn ông bên cạnh là ai, hoàn toàn là người ngoài cuộc. Chỉ là chân gã này dạng ra hơi rộng, ép đến mức chân cậu không có chỗ để, bị chân đối phương áp sát vào.
+Đào Dã hoàn toàn không biết mình vừa làm chuyện gì, cũng chẳng rõ người đàn ông bên cạnh là ai, từ đầu đến cuối như một người ngoài cuộc, chỉ có điều hai chân của người bên cạnh dạng ra hơi rộng quá, lấn tới mức chân cậu chẳng có chỗ để, bị chân đối phương cọ sát vào.
 
-Cậu ghét nhất cái kiểu ngồi ấy.
+Cậu ghét nhất những kẻ có tướng ngồi kiểu này.
 
-Cứ như thể hai tảng thịt kia bị viêm, khép chân lại là chết ngay vậy.
+Cứ như thể hai lạng thịt thừa kia bị viêm, khép chân lại thì chết mất vậy.
 
-Tuế Dư An ngắm nghía chú thỏ nhỏ. Mái tóc đen óng mềm mại ôm lấy đầu, tuy mượt nhưng vì dày nên trông vẫn bồng bềnh. Cổ áo sơ mi sờn cũ, xù lông áp sát vào chiếc cổ trắng ngần, vai áo bên phải cũng hơi xộc xệch. Hắn nhìn xuống cánh tay cơ khí cậu đặt trên đùi.
+Tuế Dư An thưởng thức con thỏ nhỏ, mái tóc đen nhánh của con thỏ ngoan ngoãn dán trên đầu, tuy mềm mại nhưng vì tóc dày nên trông lại có vẻ bồng bềnh, cổ áo sơ mi áp sát vào chiếc cổ trắng nõn đã bị xù lông, phía vai phải có chút xộc xệch không đều, anh nhìn sang cánh tay máy mà con thỏ nhỏ đặt trên đùi.
 
-Hóa ra là cả một cánh tay.
+Hóa ra là nguyên cả cánh tay sao.
 
-Cậu nhóc đáng thương.
+Tội nghiệp đứa nhỏ này ghê.
 
-Hắn nghĩ thầm, đoạn ánh mắt đã chuyển sang thưởng thức vòng eo thon của chú thỏ nhỏ. Dù chỉ là một cái liếc vội, ký ức vẫn còn nguyên.
+Anh vừa nghĩ thế đã lại đưa mắt ngắm nghía vòng eo thon gọn của con thỏ, thoáng nhìn ban nãy trong ngõ hẻm vẫn còn in đậm trong ký ức.
 
-Chiếc quần jeans cạp trễ không phải kiểu có hiệu ứng giả cũ, mà là vẻ bạc màu của thứ đã giặt đi giặt lại. Vòng mông bên trong cũng không đầy đặn, nhưng điểm này cũng thật đáng yêu. Mông to quá sẽ trông lẳng lơ, không hợp với chú thỏ nhỏ.
+Bên dưới vòng eo, chiếc quần bò không phải chất liệu giặt mài thời thượng, mà là kiểu giặt đi giặt lại đến bạc màu, phần mông được ôm lấy chẳng tính là đầy đặn đẫy đà, điểm này cũng thật đáng yêu, mông quá to sẽ tạo cảm giác lẳng lơ phong tao, không hợp với chú thỏ con.
 
-Tuế Dư An săm soi hết lần đến lần khác, rượu trong ly cũng vơi dần.
+Tuế Dư An đánh giá hết lần này đến lần khác, rượu trong ly vơi dần.
 
-Đào Dã nào biết mình đã thành mồi nhắm rượu cho kẻ khác. Cậu chỉ đang ngẩn người ra buồn chán thầm nghĩ: Bao giờ mới được ăn? Chẳng phải Lý Tỉnh bảo có đồ ngon sao.
+Đào Dã không hề hay biết mình bị người ta lấy ra làm món nhắm rượu, buồn chán ngẩn người, bao giờ mới được ăn cơm nhỉ? Lý Tỉnh chẳng phải bảo có đồ ăn ngon sao.
 
-“Ê, tôi phát hiện có một người không uống rượu này.” Gã nọ cao giọng để thu hút sự chú ý của mọi người rồi chỉ vào Đào Dã, “Mọi người mau nhìn anh đẹp trai này đi.”
+“Ủa, tôi phát hiện có một người không uống rượu kìa.” Người nói chuyện cao giọng thu hút sự chú ý của mọi người rồi chỉ tay về phía Đào Dã, “Mọi người mau nhìn anh chàng đẹp trai này đi.”
 
-Bất chợt thành tâm điểm, Đào Dã nhìn gã đàn ông kia, khóe miệng hơi trễ xuống.
+Lập tức trở thành tâm điểm, Đào Dã nhìn sang người đàn ông kia, khóe môi khẽ trễ xuống một biên độ nhỏ.
 
-Bố mày uống hay không liên quan gì tới mày.
+Bố mày uống hay không liên quan đéo gì đến mày.
 
-“Thế không được đâu, đi tiệc mà không uống rượu là sao.”
+“Thế sao được chứ, dự tiệc làm sao có chuyện không uống rượu.”
 
-“Nào, mau đưa rượu cho cậu ấy.”
+“Nào nào, mau rót rượu cho cậu ấy đi.”
 
-“Anh đẹp trai, ly này anh phải uống, không uống là không nể mặt chủ tiệc đâu này.”
+“Anh đẹp trai, ly này cậu nhất định phải uống, không uống là không nể mặt chủ nhân bữa tiệc đâu đấy.”
 
-Bọn họ thi nhau ép rượu cứ như đang chạy chỉ tiêu vậy. Vấn đề là, thứ nhất, Đào Dã không thích uống rượu, thứ hai, tửu lượng cậu rất kém. Một cô gái xinh đẹp đã đưa ly rượu đến tận trước mặt cậu.
+Từng người một hùa vào ép rượu cứ như thể có chỉ tiêu phải hoàn thành vậy, thứ nhất Đào Dã không thích uống rượu, thứ hai tửu lượng của Đào Dã rất kém, một cô gái xinh đẹp đã đưa ly rượu tới trước mặt cậu.
 
-Nghĩ đến Lý Tỉnh chân ướt chân ráo mới đến, Đào Dã đành nhận ly rượu.
+Đào Dã nghĩ đến việc Lý Tỉnh mới chân ướt chân ráo tới đây, bèn nhận lấy ly rượu này.
 
-Lý Tỉnh biết tửu lượng của Đào Dã nên vội vàng lên tiếng: “Tửu lượng của cậu ấy không tốt, để cậu ấy uống một ngụm lấy lệ là được rồi, không say rồi làm loạn sẽ không hay đâu.”
+Lập tức có người châm ngòi thổi gió: “Uống cạn đi! Uống cạn đi!”
 
-Nghe vậy, mọi người càng máu, chỉ ước gì có thể tự tay chuốc say chàng trai trong sáng thanh thuần như mối tình đầu này để xem cậu sẽ loạn ra sao.
+Lý Tỉnh biết rõ tửu lượng của Đào Dã, vội mở lời: “Cậu ấy uống kém lắm, để cậu ấy nhấp một ngụm lấy lệ thôi, chứ không say rồi quậy phá thì lại dở.”
 
-Tuế Dư An đang xem kịch vui.
+Nghe cậu ta nói vậy mọi người càng hào hứng hơn, ước gì được tự tay chuốc say chàng trai thanh thuần mang đậm cảm giác mối tình đầu này, để xem cậu có thể quậy phá ra trò gì.
 
-Hay nói đúng hơn là hắn cũng mong chú thỏ nhỏ say.
+Tuế Dư An ngồi xem kịch vui.
 
-Đào Dã mặt không cảm xúc uống cạn ly rượu. Lúc đặt ly xuống, cậu loạng choạng một cái, chiếc ly rỗng rơi xuống đất. Cả người cậu dựa thẳng vào ghế nhắm mắt lại, mặc cho người khác gọi thế nào cũng không có phản ứng, trông như đang say muốn chết.
+Hay nói đúng hơn là anh cũng hy vọng chú thỏ con này say khướt.
 
-Lý Tỉnh khều Tuế Ứng Minh, lúc này Tuế Ứng Minh mới lên tiếng: “Thôi thôi, đừng chọc cậu ấy nữa, chúng ta chơi chuyện của chúng ta đi.”
+Đào Dã mặt không đổi sắc uống cạn ly rượu, lúc đặt ly xuống người khẽ lảo đảo một cái, chiếc ly rỗng rơi lăn lóc trên sàn, cả người cậu cũng tựa thẳng vào ghế sofa, nhắm mắt lại mặc cho người khác gọi thế nào cũng không buồn phản ứng, bộ dạng như thể đã say mèm.
 
-Mọi người lúc này mới buông tha cho Đào Dã.
+Lý Tỉnh kéo tay áo Tuế Ứng Minh, Tuế Ứng Minh mới lên tiếng: “Được rồi được rồi, đừng trêu cậu ấy nữa, chúng ta chơi việc của chúng ta đi.”
 
-Đào Dã chửi thầm đám người này một lượt. Không biết đã qua bao lâu, ban đầu cậu chỉ giả vờ, giờ thì đã hơi choáng thật. Cậu mở mắt ra.
+Đám đông lúc này mới tha cho Đào Dã.
 
-Cậu vươn tay qua chân Tuế Dư An chống lên ghế sofa, nhoài nửa người về phía Lý Tỉnh: “Lý Tỉnh.”
+Đào Dã ở trong đầu thầm chửi mắng lũ người này một trận tơi bời, cũng chẳng biết qua bao lâu, ban đầu là giả vờ say, giờ thì quả thật có chút chếnh choáng rồi, cậu mở mắt ra.
 
-Lý Tỉnh đang thì thầm với Tuế Ứng Minh liền quay đầu lại: “Sao thế?”
+Bàn tay cậu vắt qua chân Tuế Dư An chống lên ghế sofa, nửa người nhoài sang phía Lý Tỉnh: “Lý Tỉnh.”
 
-Tuế Ứng Minh thấy cậu trai kia đang gục trên chân anh trai mình thì hồn bay phách lạc. Anh trai anh ta ghét nhất là bị người khác chạm vào, đến cả đứa em như anh ta bình thường cũng chẳng dám động đến hắn!
+Đang nói thì thầm to nhỏ với Tuế Ứng Minh, Lý Tỉnh quay đầu lại: “Sao thế?”
 
-Đào Dã đầu óc quay cuồng: “Lý Tỉnh, chúng ta về nhà đi.”
+Tuế Ứng Minh nhìn thấy kẻ đang bò nhoài trên chân anh trai mình, linh hồn suýt chút nữa bay khỏi xác, anh trai anh ta ghét nhất là bị người khác chạm vào người, ngay cả người em trai như anh ta bình thường cũng chẳng dám đụng chạm cơ thể với anh ấy!
 
-Sau khi lẳng lặng hít sâu một hơi, Tuế Dư An vờ như vô ý làm đổ ly rượu trong tay lên người Đào Dã khiến áo sơ mi và quần jean của cậu ướt đẫm.
+Đào Dã mơ màng: “Lý Tỉnh, chúng ta về nhà thôi.”
+
+Tuế Dư An sau khi thầm hít sâu một hơi, vờ như vô tình hắt ly rượu trên tay lên người Đào Dã, trong chốc lát chiếc áo sơ mi bị ướt, quần bò cũng ướt đẫm một mảng.
 
 Đào Dã quay đầu, nhìn thẳng vào người đàn ông đã ngồi cạnh mình suốt cả buổi tối.
 
-Trông như một thằng lẳng lơ.
+Trông giống như một con điếm lẳng lơ.
 
-Ý nghĩ đó chợt lóe lên trong đầu cậu.
+Trong đầu cậu nảy ra ý nghĩ như vậy.
 
-Nhưng ngay cả một người cay nghiệt như cậu cũng phải thừa nhận nó quá bất lịch sự.
+Nhưng ý nghĩ này, một người cay nghiệt như cậu cũng cảm thấy quá đỗi bất lịch sự rồi.
 
-Tuế Dư An: “Xin lỗi, tôi làm bẩn quần áo của cậu rồi. Vóc dáng chúng ta cũng same same nhau, nếu không phiền thì tôi đưa cậu đi thay đồ.”
+Tuế Dư An: “Xin lỗi nhé, làm bẩn quần áo của cậu rồi, vóc dáng chúng ta cũng xêm xêm nhau, nếu không ngại thì tôi đưa cậu đi thay đồ.”
 
-Lý Tỉnh vẫn chưa muốn về vì Tuế Ứng Minh bảo lát nữa có bắn pháo hoa. Cậu ta bèn nói: “Đào Dã, hay là lát nữa chúng ta hẵng về? Cậu đi thay đồ trước đi, mặc đồ ướt coi chừng cảm lạnh đấy.”
+Lý Tỉnh vẫn chưa muốn về, Tuế Ứng Minh bảo lát nữa còn có pháo hoa để xem: “Đào Dã, lát nữa chúng ta hãy về, cậu mau đi thay quần áo trước đi đã, đừng mặc đồ ướt kẻo cảm lạnh đấy.”
 
-Đào Dã nhìn Lý Tỉnh một lúc, cuối cùng vẫn đứng dậy khỏi ghế sofa rồi đi theo sau Tuế Dư An lên lầu.
+Đào Dã nhìn chằm chằm cậu ta một lúc, cuối cùng vẫn đứng dậy khỏi ghế sofa, đi theo sau Tuế Dư An lên lầu.
 
-Lục Lục: Tôi không tin là cậu không thích cậu ta!
+Lục Lục: 【Tôi không tin là bạn không thích anh ấy!】
 
-Thấy hai người rời đi, mọi người ngấm ngầm trao đổi ánh mắt, ai nấy đều kinh ngạc trước hành động tối nay của Tuế Dư An. Hắn vốn không phải người dễ gần, còn khó đến mức nào ư? Đến độ những kẻ muốn nịnh bợ nhà họ Tuế cũng chẳng dám mặt dày lại gần. Những người đến dự tiệc tối nay biết Tuế Dư An sẽ có mặt, có lẽ quá nửa đã chẳng thèm đến.
+Thấy hai người rời khỏi sảnh tiệc, đám đông kín đáo trao nhau những ánh mắt đầy vẻ kinh ngạc trước hành vi tối nay của Tuế Dư An. Tuế Dư An tuyệt đối không phải người dễ chung đụng, không dễ chung đụng đến mức nào ư, chính là những kẻ muốn nịnh bợ bấu víu Tuế gia cũng chẳng dám liều mạng áp sát lại gần anh, những người đến dự tiệc tối nay nếu biết Tuế Dư An sẽ có mặt thì có lẽ hơn một nửa đã chẳng dám tới rồi.
 
-Đào Dã theo Tuế Dư An vào một phòng nghỉ.
+Đào Dã theo Tuế Dư An đi vào một căn phòng nghỉ.
 
-“Cậu đợi chút, tôi đi lấy quần áo.”
+“Đợi một chút nhé, tôi đi lấy quần áo.”
 
-Tuế Dư An đi sang phòng bên cạnh. Rất nhanh sau đó, tài xế của hắn đã mang bộ đồ dự phòng trên xe lên. Hắn nhìn chằm chằm vào bộ quần áo trong tay, thứ đặt trong chiếc hộp trên cùng là một chiếc quần lót.
+Tuế Dư An đi sang phòng bên cạnh, rất nhanh sau đó tài xế của anh đã mang bộ quần áo dự phòng trên xe của anh lên, anh nhìn chằm chằm vào bộ quần áo trên tay, chiếc hộp đặt trên cùng đựng một chiếc quần lót.
 
-Nghĩ đến cặp mông không mấy đầy đặn của chú thỏ nhỏ, hắn bèn cởi chiếc quần lót mình đang mặc, gấp lại gọn gàng rồi bỏ vào hộp.
+Nghĩ tới cặp mông không mấy đẫy đà của chú thỏ con, anh cởi chiếc quần lót trên người mình xuống, gấp gọn ghẽ rồi bỏ vào trong hộp.
 
-Nghe tiếng gõ cửa, Đào Dã lên tiếng: “Vào đi.”
+Nghe thấy tiếng gõ cửa, Đào Dã cất tiếng: “Vào đi.”
 
-Tuế Dư An mặt không đổi sắc đưa quần áo cho cậu rồi đi ra ngoài.
+Tuế Dư An mặt không đổi sắc đưa quần áo cho cậu, sau đó liền bước ra ngoài.
 
-Chiếc quần lót hở mông của Đào Dã đã thấm đẫm rượu vang, đúng là không thể mặc được nữa. Cậu nhìn “người bạn già” đã đồng hành cùng mình suốt bốn năm, lòng dâng lên một nỗi luyến tiếc.
+Chiếc quần lót rách đáy của Đào Dã đều đã dính rượu vang đỏ, quả thực không thể mặc tiếp được nữa, nhìn người anh em cũ kỹ đã đồng hành cùng mình suốt bốn năm trời, trong lòng cậu dâng lên từng đợt tiếc nuối không nỡ.
 
-Cậu mở hộp, sờ vào chiếc quần lót mới mà há hốc miệng. Vải vừa mềm vừa thoải mái, không biết là chất liệu gì mà còn hơi ấm ấm nữa.
+Cậu mở chiếc hộp ra, sờ vào chiếc quần lót mới mà tròn xoe miệng, thật mềm mại, thật dễ chịu, chẳng biết làm bằng chất liệu gì mà còn ấm áp nữa.
 
-Xịn thật.
+Thật cao cấp.
 
-Cậu vội không chờ được mà mặc vào. Dù rất thoải mái nhưng nó hơi chật, không đủ lớn.
+Cậu nóng lòng mặc vào, tuy rất thoải mái nhưng có hơi chật chội, không đủ rộng rãi.
 
-Đào Dã trong bộ vest xám, tay ôm quần áo cũ của mình bước ra khỏi phòng nghỉ. Thấy Tuế Dư An vẫn chưa đi, cậu có chút bất ngờ.
+Khoác lên mình bộ âu phục màu xám, Đào Dã ôm đống quần áo cũ của mình bước ra khỏi phòng nghỉ, thấy Tuế Dư An vẫn chưa đi thì có chút bất ngờ.
 
-Tuế Dư An vừa được thấy một nam sinh đại học trong sáng, giờ lại được chiêm ngưỡng một tài năng mới nổi trong giới kinh doanh. Đúng là cái giá treo đồ di động, mặc gì cũng đẹp. Hắn kín đáo liếc xuống nửa thân dưới của Đào Dã.
+Tuế Dư An vừa thấy một nam sinh đại học thanh thuần nay lại nhìn thấy một tân quý giới kinh doanh, đúng là móc treo quần áo thì mặc cái gì cũng đẹp, ánh mắt anh kín đáo rơi vào nửa thân dưới của Đào Dã.
 
-Cảm giác sung sướng đến mức hắn suýt nữa thì có phản ứng.
+Sướng đến mức anh suýt chút nữa có phản ứng.
 
-Hắn giơ chiếc túi đang cầm lên: “Bỏ vào đi, tôi sẽ cho người vứt giúp cậu.”
+Anh nhấc chiếc túi trên tay lên: “Bỏ vào đây đi, tôi bảo người vứt giúp cậu.”
 
-Dù tiếc hùi hụi nhưng Đào Dã biết vết rượu vang chắc chắn không thể giặt sạch. Cậu có thể mặc quần lót thủng lỗ, chứ quần áo bẩn thì đành chịu. Nghĩ vậy, cậu nhét bộ đồ đang cầm trong tay vào túi.
+Đào Dã tuy không nỡ, nhưng vết rượu vang chắc chắn là không thể giặt sạch được rồi, cậu có thể mặc quần lót thủng lỗ, chứ quần áo bẩn thì chịu thôi, bèn nhét đống quần áo trên tay vào trong túi.
 
-Tuế Dư An nói: “Cậu xuống lầu trước đi, tôi mang đi cho người giúp việc xử lý.”
+Tuế Dư An: “Cậu xuống lầu đi, tôi mang đi đưa cho người làm xử lý.”
 
-“Cảm ơn.”
+Đào Dã: “Cảm ơn anh.”
 
-Đào Dã đáp rồi đi xuống lầu.
+Cậu đi từ trên lầu xuống.
 
-Lục Lục: 【Cậu thấy anh ta thế nào? Tôi thấy anh ta rất được đấy, đẹp trai như hồ ly, dáng người cũng đẹp, gia thế cũng tốt, ngủ với anh ta không thiệt đâu.】
+Lục Lục: 【Bạn thấy anh ấy thế nào? Tôi thấy anh ấy rất tuyệt đấy chứ, đẹp như hồ ly tinh vậy, dáng người chuẩn, gia thế lại tốt, ngủ với anh ấy đâu có thiệt thòi gì.】
 
-Đào Dã: 【Sao mày còn chưa biến mất?】
+Đào Dã: 【Sao mày vẫn chưa biến đi hả?】
 
 Lục Lục: o(╥﹏╥)o
 
-Khi Đào Dã đi từ trên lầu xuống, cậu đi ngang qua một phòng nghỉ đang hé cửa, từ bên trong loáng thoáng vọng ra một cuộc đối thoại.
+Đào Dã đi từ trên lầu xuống, lúc đi ngang qua một căn phòng nghỉ đang hé mở cửa, cuộc trò chuyện khe khẽ bên trong lọt ra ngoài.
 
-“Tuế Ứng Minh thật là mất giá, lại để hai thằng nghèo kiết xác đó đến. Chẳng biết là chuột cống ở xó nào mà cũng đòi uống rượu cùng chúng ta.”
+“Tuế Ứng Minh đúng là hạ giá thật, lại để cho hai đứa nghèo kiết xác như thế tới đây, chẳng biết là chuột ở cống rãnh nào mà cũng xứng uống rượu cùng chúng ta.”
 
-“Nhưng công nhận hai thằng đó trông cũng ngon nghẻ phết đấy, chơi một phen thì cũng không lỗ.”
+“Cơ mà tướng mạo hai đứa này đúng là ngon nghẻ thật, chơi đùa một chút thì cũng không thiệt.”
 
-Kèm theo đó là một tràng cười bỉ ổi.
+Kế đó là những tiếng cười bỉ ổi bẩn thỉu.
 
-Đào Dã siết chặt nắm đấm nhưng không xông vào. Cái nghèo dạy cho người ta phải biết mình là ai. Những người ở đây, cậu và Lý Tỉnh không thể đắc tội nổi. Bất kể kết oán với ai cũng đủ khiến nửa đời còn lại của họ sống không yên.
+Đào Dã siết chặt nắm đấm nhưng không xông vào, cái nghèo khiến con người ta phải biết thân biết phận, những kẻ ở đây không phải đối tượng mà bọn họ có thể đắc tội nổi, kết oán với bất kỳ ai cũng đủ khiến nửa đời sau của bọn họ chẳng được yên thân.
 
-Cậu đi xuống lầu. Mọi người vừa thấy cậu là mắt sáng rỡ. Quả đúng là đẹp vì lụa, nhưng quan trọng nhất vẫn là khí chất của cậu có thể cân được cả bộ trang phục.
+Cậu đi xuống lầu, mọi người nhìn thấy cậu thì mắt lại sáng rực lên, người đẹp vì lụa lúa tốt vì phân, nhưng quan trọng nhất vẫn là khí chất chống đỡ được bộ đồ.
 
-“Lý Tỉnh, tớ thấy không khỏe, chúng ta về nhà đi.”
+“Lý Tỉnh, tôi không khỏe, chúng ta về nhà thôi.”
 
-Đào Dã nhíu mày nói.
+Đào Dã cau mày.
 
-Thấy cậu như vậy, Lý Tỉnh đành bỏ qua màn pháo hoa. Dù Tuế Ứng Minh níu kéo hết lời, cậu ta vẫn kiên quyết từ chối.
+Lý Tỉnh thấy bộ dạng này của cậu thì đành từ bỏ xem pháo hoa, dù Tuế Ứng Minh hết lời giữ lại nhưng cậu ta vẫn từ chối.
 
-Tuế Ứng Minh hơi bực, buông một câu: “Thế thì hai người về đi.” Rồi quay sang trò chuyện với bạn bè bên cạnh.
+Tuế Ứng Minh có chút bực mình, ném lại một câu: “Thế hai người về đi.” Rồi quay người trò chuyện với đám bạn bên cạnh.
 
-Lý Tỉnh cắn môi, vẫn đỡ Đào Dã rời đi.
+Lý Tỉnh cắn cắn môi, vẫn đỡ Đào Dã rời đi.
 
-Biết Đào Dã đã đi nên Tuế Dư An cũng không ở lại thêm, vách ngăn trong xe được kéo lên chia thành hai không gian riêng biệt, rồi hắn thò tay vào túi lấy ra chiếc quần lót chít chít lỗ thủng.
+Tuế Dư An biết Đào Dã đã đi rồi cũng chẳng nán lại lâu, tấm vách ngăn trong xe nâng lên chia trước sau thành hai không gian riêng biệt, bàn tay Tuế Dư An thò vào trong túi lôi ra chiếc quần lót thủng đầy lỗ kia.
 
-Mặc quần lót đến mức này cũng tài thật.
+Anh luồn ngón tay vào mặt trước chiếc quần lót, tách các ngón tay ra để ước lượng kích thước.
 
-Thỏ con hóa kẻ đáng thương.
+Đúng thật là không thể trông mặt mà bắt hình dong được.
 
-Hắn áp chiếc quần lót lên mũi như khăn tay, rồi hít một hơi thật mạnh.
+Anh thầm nghĩ, rồi áp chiếc quần lót lên mũi như một chiếc khăn tay, hít vào một hơi thật sâu đầy say mê.
