@@ -1,3 +1,12 @@
+---
+title: 'Đã Kích Hoạt Hệ Thống Đổi Thụ — Chương 67: Đừng để ý hắn'
+source_url: 'https://www.52shuku.net/chongsheng/29_b/bkc90_121.html'
+chinese_title: '第 67 章 别他'
+chapter_number: 67
+---
+
+Chương 67: Đừng để ý hắn
+
 Đồng hồ báo thức réo vang.
 
 Đào Dã trở mình, một cẳng chân dài vắt ra ngoài mép giường. Tối qua về đến nhà, sau khi tắm rửa xong đầu óc cậu đã quay cuồng mụ mẫm rồi lăn ra ngủ, đến tận giờ mặt mũi vẫn còn hơi ửng đỏ.
@@ -44,7 +53,7 @@ Lục Lục nín thinh không thèm đáp lời, không việc gì phải vội,
 
 Lục Lục giở luôn thói ăn vạ: 【Có giỏi thì cậu tống khứ tôi ra ngoài đi.】
 
-Đào Dã bật cười "hê" một tiếng.
+Đào Dã bật cười “hê” một tiếng.
 
 Một người một hệ thống chẳng thương lượng được việc gì ra hồn. Đào Dã đem bộ vest mượn tối qua ra giặt, sợ cho vào máy giặt sẽ bị cào xước rút chỉ nên cậu tỉ mỉ giặt bằng tay.
 
@@ -414,21 +423,21 @@ Cậu né tránh ánh mắt của Lý Tỉnh, gỡ bộ vest xuống, gấp lạ
 
 Lý Tỉnh thừa biết Tuế Ứng Minh sợ anh trai mình như sợ cọp, hận không thể cả đời này không phải giáp mặt với anh trai, phỏng chừng trong lúc hai người đang hẹn hò lãng mạn mà nhắc tới anh trai thì Tuế Ứng Minh sẽ mất vui cho mà xem.
 
-“Tiểu Đào, tao thấy tự cậu mang đi trả thì sẽ có thành ý hơn đấy.”
+“Tiểu Đào, tôi thấy cậu tự mình mang đi trả thì sẽ có thành ý hơn đấy.”
 
-“Hắn ta hắt rượu vang lên người tao nên tao mới phải mượn quần áo của hắn mặc tạm, tao cần cái thứ thành ý quái quỷ gì chứ? Tao không tạt ngược lại một ly rượu vào mặt hắn thì đã được coi là thành ý lớn nhất của tao rồi đấy.”
+“Hắn ta hắt rượu vang lên người tôi nên tôi mới phải mượn quần áo của hắn mặc tạm, tôi cần cái thứ thành ý quái quỷ gì chứ? Tôi không tạt ngược lại một ly rượu vào mặt hắn thì đã được coi là thành ý lớn nhất của tôi rồi đấy.”
 
-Lý Tỉnh: “…… Thôi được rồi để tao gọi điện hỏi thử xem sao.”
+Lý Tỉnh: “…… Thôi được rồi để tôi gọi điện hỏi thử xem sao.”
 
 Cậu ta bấm máy gọi điện thoại cho Tuế Ứng Minh.
 
-Tuế Ứng Minh: “Khỏi cần đâu, chỉ là một bộ quần áo thôi mà, quần áo của anh tao nhiều đến mức mặc một lần rồi vứt bỏ đi còn……”
+Tuế Ứng Minh: “Khỏi cần đâu, chỉ là một bộ quần áo thôi mà, quần áo của anh hai nhiều đến mức mặc một lần rồi vứt bỏ đi còn……”
 
 Anh ta bỗng bị ai đó vỗ nhẹ vào bả vai một cái, vừa ngẩng đầu lên trông thấy anh trai mình đang đứng sừng sững sau lưng ghế sofa, sợ đến mức hồn xiêu phách lạc muốn bay ra khỏi lồng ngực.
 
 Lý Tỉnh: “Thế thì tốt quá, vậy em bảo với cậu ấy là khỏi cần……”
 
-Tuế Ứng Minh vội vàng đổi giọng: “Tuy rằng quần áo của anh tao nhiều thật, thế nhưng bộ đó là bộ anh ấy thích nhất đấy. Ngày mai anh tao có thời gian rảnh, lát nữa tôi gửi địa chỉ và thời gian qua cho em, em bảo bạn em ngày mai tự mình mang quần áo đến trả tận tay cho anh tao là được.”
+Tuế Ứng Minh vội vàng đổi giọng: “Tuy rằng quần áo của anh hai nhiều thật, thế nhưng bộ đó là bộ anh ấy thích nhất đấy. Ngày mai anh ấy có thời gian rảnh, lát nữa anh gửi địa chỉ và thời gian qua cho em, em bảo bạn em ngày mai tự mình mang quần áo đến trả tận tay cho anh ấy là được.”
 
 Lý Tỉnh: “Vâng ạ.”
 
@@ -472,7 +481,7 @@ Nếu như có thể vừa bị chú thỏ con nện cho một trận tơi bời
 
 Hắn mở miệng thốt ra những lời thì thào đứt quãng không rõ chữ.
 
-“Đúng rồi, em chính là chủ nhân của tôi.”
+“Đúng rồi... cậu chính là chủ nhân của tôi...”
 
 Tuế Dư An hưng phấn đến tột độ, chẳng mấy chốc đã……
 
