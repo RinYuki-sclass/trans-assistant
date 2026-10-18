@@ -19,10 +19,30 @@ scratch/
 # Personal data - do not push
 output/*
 !output/manhwa_history/
+!output/manhwa_history/**/
+!output/manhwa_history/**/script.txt
+!output/manhwa_history/**/.progress.json
+output/manhwa_history/**/images/
+output/manhwa_history/**/.cache_slices/
+output/manhwa_history/**/.trans_parts/
+output/manhwa_history/**/*.PNG
+output/manhwa_history/**/*.png
+output/manhwa_history/**/*.jpg
+output/manhwa_history/**/*.jpeg
+output/manhwa_history/**/*.webp
+output/manhwa_history/**/*.avif
+
 input/
 logs/
 *.txt
 !requirements.txt
-!output/manhwa_history/**
-output/manhwa_history/**/.cache_slices/
-output/manhwa_history/**/.trans_parts/
+!output/manhwa_history/**/script.txt
+
+# Data & Cache của Cubari Reader & Crawler
+data/*
+!data/.gitkeep
+
+# Databases & Cache
+*.db
+*.sqlite3
+cache/
