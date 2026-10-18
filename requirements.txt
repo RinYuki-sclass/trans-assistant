@@ -19,5 +19,7 @@ nest-asyncio
 cloudscraper
 ebooklib
 json-repair
+starlette
+uvicorn
 
 

@@ -100,13 +100,29 @@ threading.Thread(target=_periodic_cache_cleaner, daemon=True).start()
 # CÁC HÀM TIỆN ÍCH
 # ---------------------------------------------
 
+def format_relative_time(timestamp: float) -> str:
+    """Đổi timestamp thành chuỗi thời gian thân thiện (X phút trước, Y giờ trước, v.v.)"""
+    diff = int(time.time() - timestamp)
+    if diff < 60:
+        return "Vừa xong"
+    elif diff < 3600:
+        return f"{diff // 60} phút trước"
+    elif diff < 86400:
+        return f"{diff // 3600} giờ trước"
+    elif diff < 86400 * 7:
+        return f"{diff // 86400} ngày trước"
+    elif diff < 86400 * 30:
+        return f"{diff // (86400 * 7)} tuần trước"
+    else:
+        return f"{diff // (86400 * 30)} tháng trước"
+
 def scan_local_library() -> List[Dict]:
     """
-    Quét thư mục data/cubari_library và output/manhwa_history
+    Quét thư mục data/cubari_library để lấy danh sách truyện và chapter đã tải.
+    Hoàn toàn độc lập với trans-tool, hỗ trợ đầy đủ layout 'Truyện Mới Cập Nhật'.
     """
     mangas = []
 
-    # 1. Quét data/cubari_library
     if os.path.exists(LIBRARY_DIR):
         for item in sorted(os.listdir(LIBRARY_DIR)):
             manga_path = os.path.join(LIBRARY_DIR, item)
@@ -117,7 +133,9 @@ def scan_local_library() -> List[Dict]:
                     "title": item.replace("-", " ").title(),
                     "cover": "",
                     "source": "cubari_library",
-                    "chapters": []
+                    "chapters": [],
+                    "updated_at": 0,
+                    "time_ago": "Vừa xong"
                 }
                 if os.path.exists(info_file):
                     try:
@@ -129,61 +147,60 @@ def scan_local_library() -> List[Dict]:
 
                 # Quét các chapter trong thư mục
                 chapters = []
-                for ch_item in sorted(os.listdir(manga_path)):
+                for ch_item in os.listdir(manga_path):
                     ch_path = os.path.join(manga_path, ch_item)
                     if os.path.isdir(ch_path):
-                        # Đếm số ảnh
                         img_files = [
                             f for f in sorted(os.listdir(ch_path))
                             if f.lower().endswith(('.jpg', '.jpeg', '.png', '.webp', '.avif'))
                         ]
                         if img_files:
+                            mtime = os.path.getmtime(ch_path)
                             chapters.append({
                                 "slug": ch_item,
                                 "title": ch_item.replace("-", " ").title(),
                                 "pages_count": len(img_files),
                                 "source_type": "local",
-                                "manga_slug": item
+                                "manga_slug": item,
+                                "updated_at": mtime,
+                                "time_ago": format_relative_time(mtime),
+                                "first_image": f"/data/cubari_library/{item}/{ch_item}/{img_files[0]}"
                             })
-                
-                manga_info["chapters"] = chapters
-                manga_info["total_chapters"] = len(chapters)
+
                 if chapters:
+                    # Sắp xếp chapters theo số tự nhiên hoặc theo thời gian cập nhật
+                    import re
+                    def chapter_sort_key(ch):
+                        m = re.search(r'(\d+(?:\.\d+)?)', ch["slug"])
+                        return float(m.group(1)) if m else 0.0
+
+                    chapters.sort(key=chapter_sort_key)
+                    manga_info["chapters"] = chapters
+                    manga_info["total_chapters"] = len(chapters)
+
+                    # Tìm mtime mới nhất của bộ truyện
+                    latest_mtime = max((ch.get("updated_at", 0) for ch in chapters), default=0)
+                    manga_info["updated_at"] = latest_mtime
+                    manga_info["time_ago"] = format_relative_time(latest_mtime)
+
+                    # Lấy 3-4 chapters gần nhất (đảo ngược để chương mới nhất đứng đầu)
+                    recent_chs = sorted(chapters, key=lambda c: (c.get("updated_at", 0), chapter_sort_key(c)), reverse=True)[:4]
+                    manga_info["recent_chapters"] = recent_chs
+
+                    # Xử lý cover nếu là URL ngoài -> route qua proxy; nếu rỗng -> lấy ảnh đầu tiên của chapter 1
+                    cover_url = manga_info.get("cover", "").strip()
+                    if cover_url:
+                        if cover_url.startswith("http://") or cover_url.startswith("https://"):
+                            manga_info["cover_display"] = f"/api/proxy-image?url={urllib.parse.quote(cover_url)}"
+                        else:
+                            manga_info["cover_display"] = cover_url
+                    else:
+                        manga_info["cover_display"] = chapters[0]["first_image"]
+
                     mangas.append(manga_info)
 
-    # 2. Quét output/manhwa_history (tích hợp tool dịch)
-    if os.path.exists(TRANS_OUTPUT_DIR):
-        trans_chapters = []
-        for ch_item in sorted(os.listdir(TRANS_OUTPUT_DIR)):
-            ch_path = os.path.join(TRANS_OUTPUT_DIR, ch_item)
-            if os.path.isdir(ch_path):
-                img_dir = os.path.join(ch_path, "images")
-                target_dir = img_dir if os.path.exists(img_dir) else ch_path
-                img_files = [
-                    f for f in sorted(os.listdir(target_dir))
-                    if f.lower().endswith(('.jpg', '.jpeg', '.png', '.webp', '.avif'))
-                ]
-                has_script = os.path.exists(os.path.join(ch_path, "script.txt"))
-                if img_files:
-                    trans_chapters.append({
-                        "slug": ch_item,
-                        "title": ch_item,
-                        "pages_count": len(img_files),
-                        "has_script": has_script,
-                        "source_type": "trans_tool",
-                        "manga_slug": "trans-tool-history"
-                    })
-
-        if trans_chapters:
-            mangas.append({
-                "slug": "trans-tool-history",
-                "title": "⚡ Trans-Tool: Bản Dịch Dự Án",
-                "cover": "",
-                "source": "trans_tool",
-                "chapters": trans_chapters,
-                "total_chapters": len(trans_chapters)
-            })
-
+    # Sắp xếp các bộ truyện theo thời gian cập nhật mới nhất đứng đầu
+    mangas.sort(key=lambda m: m.get("updated_at", 0), reverse=True)
     return mangas
 
 # ---------------------------------------------
@@ -580,10 +597,15 @@ middleware = [
 app = Starlette(routes=routes, middleware=middleware)
 
 if __name__ == "__main__":
+    if hasattr(sys.stdout, 'reconfigure'):
+        try:
+            sys.stdout.reconfigure(encoding='utf-8')
+        except Exception:
+            pass
     port = int(os.environ.get("PORT") or os.environ.get("READER_PORT") or 7860)
-    print(f"\n==================================================")
-    print(f"📖 CUBARI-STYLE MANHWA READER SERVER")
-    print(f"🚀 Dang chay tai: http://localhost:{port}")
-    print(f"📁 Local Library: {LIBRARY_DIR}")
-    print(f"==================================================\n")
+    print("\n==================================================")
+    print(" CUBARI-STYLE MANHWA READER SERVER")
+    print(f" Dang chay tai: http://localhost:{port}")
+    print(f" Local Library: {LIBRARY_DIR}")
+    print("==================================================\n")
     uvicorn.run("reader_server:app", host="0.0.0.0", port=port, reload=False, app_dir=SCRIPTS_DIR)

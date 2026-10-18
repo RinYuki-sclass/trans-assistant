@@ -42,12 +42,7 @@ const el = {
   settingGap: document.getElementById('setting-gap'),
   widthVal: document.getElementById('width-val'),
   gapVal: document.getElementById('gap-val'),
-  drawerBtn: document.getElementById('btn-open-drawer'),
-  drawerCloseBtn: document.getElementById('btn-close-drawer'),
-  drawer: document.getElementById('library-drawer'),
-  libraryList: document.getElementById('library-list'),
-  libraryFilterInput: document.getElementById('library-filter-input'),
-  checkUpdatesBtn: document.getElementById('btn-check-updates'),
+  headerFilterInput: document.getElementById('header-filter-input'),
   crawlModalBtn: document.getElementById('btn-open-crawl'),
   crawlModalCloseBtn: document.getElementById('btn-close-crawl'),
   crawlModal: document.getElementById('crawl-modal'),
@@ -63,7 +58,8 @@ const el = {
   crawlPreview: document.getElementById('crawl-preview-container'),
   tasksList: document.getElementById('tasks-list'),
   toast: document.getElementById('toast-msg'),
-  homeBtn: document.getElementById('btn-home')
+  homeBtn: document.getElementById('btn-home'),
+  homeNavBtn: document.getElementById('btn-home-nav')
 };
 
 // ====================================================
@@ -76,11 +72,18 @@ function initApp() {
   fetchLibrary();
   pollDownloadTasks();
 
-  // Kiểm tra URL params nếu có
+  // Kiểm tra URL params khi F5 / mở link
   const urlParams = new URLSearchParams(window.location.search);
   const onlineUrl = urlParams.get('url');
+  const mangaSlug = urlParams.get('manga');
+  const chapterSlug = urlParams.get('chapter');
+
   if (onlineUrl) {
     loadOnlineChapter(onlineUrl);
+  } else if (mangaSlug && chapterSlug) {
+    const progress = getReadingProgress(mangaSlug);
+    const targetPage = (progress && progress.chapterSlug === chapterSlug) ? (progress.page || 1) : 1;
+    loadLocalChapter(mangaSlug, chapterSlug, 'local', targetPage);
   } else {
     showWelcomeScreen();
   }
@@ -301,18 +304,33 @@ function toggleFullscreen() {
 // RENDER CHAPTER & ĐỌC TRUYỆN
 // ====================================================
 
-function showWelcomeScreen() {
+function showWelcomeScreen(filterQuery = '') {
+  // Đặt lại trạng thái đọc khi quay về trang chủ
+  state.chapterData = null;
+  state.currentPage = 1;
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+
+  // Xóa query param trên thanh URL nếu có
+  if (window.location.search) {
+    window.history.replaceState({}, '', window.location.pathname);
+  }
+
   el.seriesTitle.textContent = 'Cubari Manhwa Reader';
   el.chapterSelect.innerHTML = '<option>Sẵn sàng đọc truyện</option>';
+  el.prevChapterBtn.disabled = true;
+  el.nextChapterBtn.disabled = true;
   el.pageCounter.textContent = '0 / 0';
   el.scrubberSlider.max = 1;
   el.scrubberSlider.value = 1;
 
+  // Đảm bảo thanh HUD luôn hiển thị ở trang chủ
+  setHudVisibility(true);
+
   const lastRead = getGlobalLastRead();
   let resumeHtml = '';
-  if (lastRead) {
+  if (lastRead && !filterQuery) {
     resumeHtml = `
-      <div class="resume-card" onclick="resumeLastReading()" title="Nhấp để tiếp tục đọc" style="cursor: pointer;">
+      <div class="resume-card" onclick="resumeLastReading()" title="Nhấp để tiếp tục đọc" style="cursor: pointer; margin-bottom: 1.5rem;">
         <div class="resume-info">
           <div class="resume-info-badge">⚡ Tiếp tục đọc dở</div>
           <div class="resume-info-title">${lastRead.mangaTitle}</div>
@@ -325,40 +343,139 @@ function showWelcomeScreen() {
     `;
   }
 
-  el.viewport.innerHTML = `
-    <div style="text-align: center; max-width: 650px; padding: 3.5rem 1.5rem; margin: auto;">
-      <div style="font-size: 3.5rem; margin-bottom: 0.8rem;">📖</div>
-      <h2 style="font-size: 1.8rem; font-weight: 800; margin-bottom: 0.8rem; letter-spacing: -0.5px;">
-        Chào Mừng Đến Với Cubari Manhwa Reader
-      </h2>
-      <p style="color: var(--text-secondary); line-height: 1.6; font-size: 0.95rem; margin-bottom: 2rem;">
-        Trình đọc manhwa tối giản, tải ảnh mượt mà, hỗ trợ cuộn dọc Webtoon vô tận và hoàn toàn không dính quảng cáo rác.
-      </p>
+  // Nếu state.libraryMangas chưa có, gọi fetchLibrary
+  if (!state.libraryMangas || !state.libraryMangas.length) {
+    fetchLibrary().then(() => {
+      if (!state.chapterData) showWelcomeScreen(filterQuery);
+    });
+  }
 
-      ${resumeHtml}
+  let mangas = state.libraryMangas || [];
+  if (filterQuery) {
+    const q = filterQuery.trim().toLowerCase();
+    mangas = mangas.filter(m => m.title.toLowerCase().includes(q));
+  }
 
-      <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
-        <button class="btn btn-primary" onclick="openCrawlModalWithExample()" style="padding: 0.65rem 1.25rem; font-size: 0.95rem;">
-          📥 Thử Tải / Crawl Chapter (haccbl.xyz)
-        </button>
-        <button class="btn" onclick="openDrawer()" style="padding: 0.65rem 1.25rem; font-size: 0.95rem;">
-          📚 Mở Thư Viện Của Tôi
+  let mangaGridHtml = '';
+
+  if (mangas.length > 0) {
+    const cardsHtml = mangas.map(manga => {
+      const coverSrc = manga.cover_display || (manga.chapters && manga.chapters[0] ? manga.chapters[0].first_image : '') || '';
+      const recentList = manga.recent_chapters && manga.recent_chapters.length ? manga.recent_chapters : (manga.chapters || []).slice(-4).reverse();
+      
+      const chaptersHtml = recentList.map(ch => {
+        const isRead = isChapterRead(manga.slug, ch.slug);
+        const timeAgo = ch.time_ago || 'Mới cập nhật';
+        return `
+          <div class="home-chapter-row">
+            <a class="home-chapter-link ${isRead ? 'is-read' : ''}" 
+               title="${ch.title}"
+               onclick="event.stopPropagation(); loadLocalChapter('${manga.slug}', '${ch.slug}', 'local', 1)">
+              ${ch.title}
+            </a>
+            <span class="home-chapter-time">${timeAgo}</span>
+          </div>
+        `;
+      }).join('');
+
+      return `
+        <div class="home-manga-card" onclick="openMangaLatest('${manga.slug}')">
+          <div class="home-cover-wrap">
+            <img class="home-manga-cover" 
+                 src="${coverSrc}" 
+                 alt="${manga.title}"
+                 loading="lazy"
+                 onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=\\'http://www.w3.org/2000/svg\\' width=\\'80\\' height=\\'110\\' viewBox=\\'0 0 80 110\\'><rect width=\\'80\\' height=\\'110\\' fill=\\'%23222\\'/><text x=\\'50%\\' y=\\'50%\\' dominant-baseline=\\'middle\\' text-anchor=\\'middle\\' fill=\\'%23666\\' font-size=\\'12\\'>No Cover</text></svg>'">
+          </div>
+          <div class="home-manga-content">
+            <div class="home-manga-title" title="${manga.title}">
+              ${manga.title}
+            </div>
+            <div class="home-chapter-list">
+              ${chaptersHtml}
+            </div>
+          </div>
+        </div>
+      `;
+    }).join('');
+
+    mangaGridHtml = `
+      <div class="home-update-grid">
+        ${cardsHtml}
+      </div>
+    `;
+  } else {
+    mangaGridHtml = `
+      <div style="background: var(--bg-secondary); border: 1px solid var(--border-color); border-top: none; border-radius: 0 0 8px 8px; padding: 3rem 1.5rem; text-align: center;">
+        <div style="font-size: 3rem; margin-bottom: 0.8rem;">📂</div>
+        <h3 style="font-size: 1.15rem; font-weight: 700; margin-bottom: 0.5rem; color: var(--text-primary);">
+          ${filterQuery ? 'Không tìm thấy bộ truyện nào khớp với từ khóa' : 'Chưa có bộ truyện nào trong thư viện'}
+        </h3>
+        <p style="color: var(--text-secondary); font-size: 0.9rem; margin-bottom: 1.5rem;">
+          ${filterQuery ? 'Thử tìm kiếm với tên khác hoặc xóa từ khóa lọc.' : 'Bạn có thể tìm kiếm tên truyện hoặc dán link từ các web đọc truyện để tải nhanh về máy.'}
+        </p>
+        <button class="btn btn-primary" onclick="openCrawlModalWithExample()" style="padding: 0.65rem 1.35rem; font-size: 0.95rem;">
+          📥 Tìm & Tải Truyện Ngay
         </button>
       </div>
+    `;
+  }
 
-      <div style="margin-top: 3.5rem; padding: 1.25rem; background: var(--bg-secondary); border: 1px solid var(--border-color); border-radius: 12px; text-align: left;">
-        <h4 style="font-size: 0.9rem; margin-bottom: 0.6rem; color: var(--accent-hover);">💡 Phím tắt nhanh:</h4>
-        <ul style="font-size: 0.85rem; color: var(--text-secondary); line-height: 1.8; padding-left: 1.2rem;">
-          <li><b>Space / Shift+Space:</b> Cuộn xuống / Cuộn lên nửa màn hình</li>
-          <li><b>Mũi tên Trái / Phải:</b> Lật trang hoặc Chuyển chương trước / sau</li>
-          <li><b>F:</b> Bật / Tắt chế độ toàn màn hình (Fullscreen)</li>
-          <li><b>M:</b> Chuyển đổi qua lại giữa chế độ Webtoon và Lật trang</li>
-          <li><b>H:</b> Ẩn / Hiện thanh điều khiển (HUD)</li>
-        </ul>
+  el.viewport.innerHTML = `
+    <div class="home-update-container">
+      ${resumeHtml}
+
+      <div class="home-section-header">
+        <div class="home-section-title">
+          <span>✪</span>
+          <span>${filterQuery ? `KẾT QUẢ TÌM KIẾM: "${filterQuery}"` : 'TRUYỆN MỚI CẬP NHẬT'}</span>
+        </div>
+        <div class="home-section-actions">
+          <button class="home-btn-header" onclick="openCrawlModalWithExample()" title="Tìm hoặc crawl truyện mới">
+            📥 Tải Truyện Mới
+          </button>
+          <button class="home-btn-header" onclick="fetchLibrary().then(() => showWelcomeScreen())" title="Làm mới danh sách">
+            🔄 Làm Mới
+          </button>
+        </div>
+      </div>
+      ${mangaGridHtml}
+
+      <div style="margin-top: 2rem; padding: 1.1rem 1.25rem; background: var(--bg-secondary); border: 1px solid var(--border-color); border-radius: 8px; text-align: left;">
+        <h4 style="font-size: 0.88rem; margin-bottom: 0.5rem; color: #f97316; font-weight: 700;">💡 Phím tắt nhanh khi đọc truyện:</h4>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 0.4rem; font-size: 0.82rem; color: var(--text-secondary);">
+          <div>• <b>Space / Shift+Space:</b> Cuộn xuống / Cuộn lên</div>
+          <div>• <b>Mũi tên Trái / Phải:</b> Lật trang / Chuyển chương</div>
+          <div>• <b>F:</b> Toàn màn hình (Fullscreen)</div>
+          <div>• <b>M:</b> Đổi chế độ Webtoon / Lật trang</div>
+          <div>• <b>H:</b> Ẩn / Hiện thanh công cụ (HUD)</div>
+        </div>
       </div>
     </div>
   `;
 }
+
+window.openMangaLatest = function(mangaSlug) {
+  const manga = (state.libraryMangas || []).find(m => m.slug === mangaSlug);
+  if (!manga || !manga.chapters || !manga.chapters.length) return;
+  state.manga = manga;
+
+  const progress = getReadingProgress(mangaSlug);
+  let targetIdx = 0;
+  let targetPage = 1;
+  if (progress && typeof progress.chapterIndex === 'number' && manga.chapters[progress.chapterIndex]) {
+    targetIdx = progress.chapterIndex;
+    targetPage = progress.page || 1;
+  } else {
+    // Mặc định mở chapter đầu tiên (hoặc chapter 1)
+    targetIdx = 0;
+  }
+  state.chapterIndex = targetIdx;
+  const ch = manga.chapters[targetIdx];
+  if (ch) {
+    loadLocalChapter(ch.manga_slug, ch.slug, ch.source_type || 'local', targetPage);
+  }
+};
 
 function renderCurrentChapter() {
   if (!state.chapterData || !state.chapterData.images.length) return;
@@ -600,6 +717,27 @@ function updatePageCounter(cur, total) {
 async function loadLocalChapter(mangaSlug, chapterSlug, source = 'local', targetPage = 1) {
   try {
     showToast(`Đang nạp chapter: ${chapterSlug}...`);
+
+    // Luôn đảm bảo state.manga được đồng bộ từ libraryMangas
+    if (!state.manga || state.manga.slug !== mangaSlug) {
+      if (!state.libraryMangas || !state.libraryMangas.length) {
+        await fetchLibrary();
+      }
+      state.manga = (state.libraryMangas || []).find(m => m.slug === mangaSlug) || {
+        slug: mangaSlug,
+        title: mangaSlug,
+        chapters: []
+      };
+    }
+
+    // Tìm index của chapter hiện tại
+    if (state.manga && state.manga.chapters) {
+      const idx = state.manga.chapters.findIndex(c => c.slug === chapterSlug);
+      if (idx !== -1) {
+        state.chapterIndex = idx;
+      }
+    }
+
     const res = await fetch(`/api/chapter-data?source=${source}&manga_slug=${encodeURIComponent(mangaSlug)}&chapter_slug=${encodeURIComponent(chapterSlug)}`);
     const data = await res.json();
     if (data.status !== 'success') {
@@ -610,10 +748,15 @@ async function loadLocalChapter(mangaSlug, chapterSlug, source = 'local', target
     state.chapterData = data;
     state.currentPage = targetPage;
     state.resumePage = targetPage;
-    el.seriesTitle.textContent = data.title || mangaSlug;
+    el.seriesTitle.textContent = (state.manga && state.manga.title) || data.title || mangaSlug;
     renderCurrentChapter();
     updateChapterNavigationUI();
     saveReadingProgress(targetPage);
+
+    // Cập nhật URL để F5 vẫn giữ nguyên chương và truyện
+    const newUrl = `${window.location.pathname}?manga=${encodeURIComponent(mangaSlug)}&chapter=${encodeURIComponent(chapterSlug)}`;
+    window.history.replaceState({ mangaSlug, chapterSlug }, '', newUrl);
+
     showToast(`Đã nạp ${data.total} trang ảnh!`);
   } catch (e) {
     showToast(`Lỗi: ${e.message}`);
@@ -633,10 +776,23 @@ async function loadOnlineChapter(chapterUrl, targetPage = 1) {
     state.chapterData = data;
     state.currentPage = targetPage;
     state.resumePage = targetPage;
-    el.seriesTitle.textContent = data.title || 'Online Chapter';
+
+    if (state.manga && state.manga.chapters) {
+      const idx = state.manga.chapters.findIndex(c => c.url === chapterUrl);
+      if (idx !== -1) {
+        state.chapterIndex = idx;
+      }
+    }
+
+    el.seriesTitle.textContent = (state.manga && state.manga.title) || data.title || 'Online Chapter';
     renderCurrentChapter();
     updateChapterNavigationUI();
     saveReadingProgress(targetPage);
+
+    // Cập nhật URL để F5 vẫn giữ nguyên chương online
+    const newUrl = `${window.location.pathname}?url=${encodeURIComponent(chapterUrl)}`;
+    window.history.replaceState({ chapterUrl }, '', newUrl);
+
     showToast(`Sẵn sàng đọc: ${data.total} trang ảnh không ads!`);
   } catch (e) {
     showToast(`Lỗi: ${e.message}`);
@@ -670,10 +826,10 @@ function goToPrevChapter() {
   if (state.manga && state.chapterIndex > 0) {
     state.chapterIndex--;
     const ch = state.manga.chapters[state.chapterIndex];
-    if (ch.source_type === 'local' || ch.source_type === 'trans_tool') {
-      loadLocalChapter(ch.manga_slug, ch.slug, ch.source_type);
-    } else if (ch.url) {
+    if (ch.source_type === 'online' && ch.url) {
       loadOnlineChapter(ch.url);
+    } else {
+      loadLocalChapter(ch.manga_slug, ch.slug, ch.source_type || 'local');
     }
   } else {
     showToast('Đây là chương đầu tiên');
@@ -684,10 +840,10 @@ function goToNextChapter() {
   if (state.manga && state.chapterIndex < state.manga.chapters.length - 1) {
     state.chapterIndex++;
     const ch = state.manga.chapters[state.chapterIndex];
-    if (ch.source_type === 'local' || ch.source_type === 'trans_tool') {
-      loadLocalChapter(ch.manga_slug, ch.slug, ch.source_type);
-    } else if (ch.url) {
+    if (ch.source_type === 'online' && ch.url) {
       loadOnlineChapter(ch.url);
+    } else {
+      loadLocalChapter(ch.manga_slug, ch.slug, ch.source_type || 'local');
     }
   } else {
     showToast('Đây là chương mới nhất');
@@ -703,24 +859,14 @@ async function fetchLibrary() {
     const res = await fetch('/api/library');
     const data = await res.json();
     if (data.status === 'success') {
-      renderLibraryDrawer(data.mangas || []);
-    }
-  } catch (e) {
-    console.error('Lỗi nạp thư viện:', e);
-  }
-}
-
-async function fetchLibrary() {
-  try {
-    const res = await fetch('/api/library');
-    const data = await res.json();
-    if (data.status === 'success') {
       state.libraryMangas = data.mangas || [];
       renderLibraryCards(state.libraryMangas);
+      return state.libraryMangas;
     }
   } catch (e) {
     console.error('Lỗi nạp thư viện:', e);
   }
+  return [];
 }
 
 function renderLibraryCards(mangas) {
@@ -751,11 +897,11 @@ function renderLibraryCards(mangas) {
       </span>
     ` : '';
 
-    const deleteBtn = manga.source !== 'trans_tool' ? `
+    const deleteBtn = `
       <button class="btn-delete-manga" title="Xóa bộ truyện này khỏi máy" onclick="event.stopPropagation(); deleteMangaFromLibrary('${manga.slug}', '${encodeURIComponent(manga.title)}')">
         🗑️
       </button>
-    ` : '';
+    `;
 
     card.innerHTML = `
       <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 0.5rem;">
@@ -763,7 +909,7 @@ function renderLibraryCards(mangas) {
         ${deleteBtn}
       </div>
       <div class="library-card-subtitle">
-        ${manga.total_chapters} chương • Nguồn: ${manga.source === 'trans_tool' ? 'Trans-Tool' : 'Local'}
+        ${manga.total_chapters} chương • Cập nhật: ${manga.time_ago || 'Gần đây'}
       </div>
       ${progressInfo}
       ${updateBadge ? `<div style="margin-top: 0.4rem;">${updateBadge}</div>` : ''}
@@ -1270,17 +1416,22 @@ function bindEvents() {
   el.prevChapterBtn.onclick = goToPrevChapter;
   el.nextChapterBtn.onclick = goToNextChapter;
   el.fullscreenBtn.onclick = toggleFullscreen;
-  el.homeBtn.onclick = showWelcomeScreen;
+  if (el.homeBtn) {
+    el.homeBtn.onclick = () => showWelcomeScreen();
+  }
+  if (el.homeNavBtn) {
+    el.homeNavBtn.onclick = () => showWelcomeScreen();
+  }
 
   el.chapterSelect.onchange = (e) => {
     const idx = parseInt(e.target.value, 10);
     if (!isNaN(idx) && state.manga && state.manga.chapters[idx]) {
       state.chapterIndex = idx;
       const ch = state.manga.chapters[idx];
-      if (ch.source_type === 'local' || ch.source_type === 'trans_tool') {
-        loadLocalChapter(ch.manga_slug, ch.slug, ch.source_type);
-      } else if (ch.url) {
+      if (ch.source_type === 'online' && ch.url) {
         loadOnlineChapter(ch.url);
+      } else {
+        loadLocalChapter(ch.manga_slug, ch.slug, ch.source_type || 'local');
       }
     }
   };
@@ -1323,14 +1474,11 @@ function bindEvents() {
   el.settingWidth.oninput = (e) => setWebtoonWidth(parseInt(e.target.value, 10));
   el.settingGap.oninput = (e) => setStripGap(parseInt(e.target.value, 10));
 
-  // Drawer & Filter
-  el.drawerBtn.onclick = openDrawer;
-  el.drawerCloseBtn.onclick = closeDrawer;
-  if (el.libraryFilterInput) {
-    el.libraryFilterInput.oninput = (e) => filterLibrary(e.target.value);
-  }
-  if (el.checkUpdatesBtn) {
-    el.checkUpdatesBtn.onclick = window.checkLibraryUpdates;
+  // Header Filter (Lọc truyện ngay tại trang chủ)
+  if (el.headerFilterInput) {
+    el.headerFilterInput.oninput = (e) => {
+      showWelcomeScreen(e.target.value);
+    };
   }
 
   // Crawl Modal & Search Tabs
