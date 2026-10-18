@@ -96,7 +96,7 @@ Thôi bỏ đi.
 
 Đã không thể kéo Eritu lên cùng thuyền thì đổi sang Guide khác cũng thế. May mà cậu ta còn chuẩn bị sẵn phương án dự phòng.
 
-Anmi gượng cười: “Nếu anh anh quyết định ở lại nội thành, vậy em tôn trọng ý kiến của anh.”
+Anmi gượng cười: “Nếu anh quyết định ở lại nội thành, vậy em tôn trọng ý kiến của anh.”
 
 Inlay giả vờ như không biết những toan tính nhỏ nhen của Anmi, ngón tay thon dài cầm bút laser gõ nhẹ lên sa bàn, giọng không rõ cảm xúc: “Vậy quyết định thế đi. Guide ở nội thành do Eritu phụ trách chỉ huy, số còn lại theo chúng tôi đến khu ô nhiễm cao phá hủy ổ trứng. Giữa chừng có biến cố gì sẽ bàn lại sau.”
 

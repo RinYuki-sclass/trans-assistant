@@ -10,7 +10,7 @@ Gió thổi xào xạc tứ phía, dường như cả khu rừng lúc này chỉ
 
 Eritu chậm rãi lặp lại hai chữ này, nghiền ngẫm ý vị bên trong. Hắn nhìn vị khách không mời mà đến trước mặt, hứng thú nói: “Tôi cứ tưởng anh muốn loại tôi cơ đấy.”
 
-Đôi mắt sau lớp mặt nạ đầu lâu của tên lính dường như đã được ngụy trang, ánh lên màu xanh băng nhạt cực kỳ lạ lẫm, trong bóng của tối rừng rậm lại có phần u ám. Giọng hắn trầm thấp: “Loại ngài là việc của người khác, không nằm trong phạm vi nhiệm vụ của tôi. Tôi chỉ thấy thân thủ ngài không tồi nên đơn thuần muốn so vài chiêu thôi.”
+Đôi mắt sau lớp mặt nạ đầu lâu của tên lính dường như đã được ngụy trang, ánh lên màu xanh băng nhạt cực kỳ lạ lẫm, trong bóng tối của rừng rậm lại có phần u ám. Giọng hắn trầm thấp: “Loại ngài là việc của người khác, không nằm trong phạm vi nhiệm vụ của tôi. Tôi chỉ thấy thân thủ ngài không tồi nên đơn thuần muốn so vài chiêu thôi.”
 
 Đối phương đã lịch sự như vậy, Eritu cũng chẳng nỡ từ chối. Hắn cười khẽ một tiếng, chủ động làm động tác mời, sảng khoái đồng ý: “Vậy thì mời.”
 
@@ -56,21 +56,21 @@ Sau một hồi im lặng kéo dài, tên lính cuối cùng cũng phản ứng 
 
 Mái tóc đen rối bời lấm tấm mồ hôi, làn da trắng bệch vì thiếu nắng, đôi mắt xám tro lạnh lùng, mọi đường nét đều tinh xảo đến mức không thể chê vào đâu được. Vì trận đánh kịch liệt vừa rồi, trên sống mũi cao thẳng đã lấm tấm mồ hôi, đôi môi đỏ mọng như máu toát lên vẻ quyến rũ khó tả. Chính là Inlay.
 
-Anh nhìn Eritu đầy vẻ trêu chọc, ánh mắt như con rắn ẩn mình trong rừng sâu, khàn giọng hỏi: “Nhận ra em từ lúc nào thế?”
+Anh nhìn Eritu đầy vẻ trêu chọc, ánh mắt như con rắn ẩn mình trong rừng sâu, khàn giọng hỏi: “Nhận ra anh từ lúc nào thế?”
 
 Eritu không nói gì, nắm lấy tay phải của anh, chậm rãi mân mê chiếc nhẫn bạc ở ngón út. Một động tác đơn giản nhưng qua tay hắn lại trở nên lả lơi gợi tình: “Lần sau trước khi che mặt đánh nhau nhớ tháo nhẫn ra, không là dễ bị lộ lắm đấy.”
 
-Inlay ngẩn người, không ngờ chính chiếc nhẫn này đã bán đứng mình. Anh vô thức siết chặt ngón tay, không hiểu sao lại quý trọng chiếc nhẫn này đến thế, thậm chí không muốn nghe bất cứ ai bảo mình tháo nó ra. Anh cau mày thì thầm: “Biết thế em đã đeo găng tay rồi.”
+Inlay ngẩn người, không ngờ chính chiếc nhẫn này đã bán đứng mình. Anh vô thức siết chặt ngón tay, không hiểu sao lại quý trọng chiếc nhẫn này đến thế, thậm chí không muốn nghe bất cứ ai bảo mình tháo nó ra. Anh cau mày thì thầm: “Biết thế anh đã đeo găng tay rồi.”
 
 Eritu chợt nhận ra đôi khi Inlay cũng khá trẻ con. Hắn bật cười, dùng đầu ngón tay nhẹ nhàng vuốt ve chiếc cằm trắng nõn của đối phương, rũ mắt xuống, hỏi đầy ẩn ý:
 
-“Nếu anh nhớ không nhầm thì giờ này đáng lẽ em phải đang đi làm nhiệm vụ chứ, sao lại đột nhiên xuất hiện ở đây?”
+“Nếu em nhớ không nhầm thì giờ này đáng lẽ anh phải đang đi làm nhiệm vụ chứ, sao lại đột nhiên xuất hiện ở đây?”
 
 Inlay nắm lấy bàn tay thon dài lạnh lẽo của Eritu, cắn nhẹ một cái không đau không ngứa. Lúc này, khi đã trút bỏ sự đề phòng, trông anh lười biếng vô cùng. Lưng dựa vào thân cây, đuôi mắt hơi xếch lên, hệt như một con mèo kiêu ngạo xinh đẹp: “Nhận một nhiệm vụ khá khoai với đám người Quân khu 1, lúc về vừa khéo gặp các cậu đang thi sát hạch nên bị lôi vào làm huấn luyện viên khách mời.”
 
 “Huấn luyện viên?”
 
-Eritu cười cười, hứng thú hỏi: “Vậy xin hỏi ngài huấn luyện viên, hành động tấn công anh vừa rồi là nhiệm vụ công tác hay là lấy công báo thù tư thế?”
+Eritu cười cười, hứng thú hỏi: “Vậy xin hỏi ngài huấn luyện viên, hành động tấn công em vừa rồi là nhiệm vụ công tác hay là mượn công trả thù riêng thế?”
 
 Vừa dứt lời, cổ áo hắn đột ngột bị túm chặt, cả người bị kéo sát vào thân hình Inlay. Đối phương nghiêng đầu ghé vào tai hắn, hạ giọng đầy ẩn ý: “Coi như là lạm quyền tư lợi đi, được không?”
 
@@ -94,7 +94,7 @@ Eritu ăn miếng trả miếng cắn nhẹ vào dái tai Inlay. Hắn vốn đ�
 
 “Cũng phải, không thể để bị phát hiện được, nếu không bọn họ lại bảo huấn luyện viên dùng quy tắc ngầm với học viên mất.”
 
-Nghe câu này, thân hình Inlay run lên bần bật, cứ như thể anh thực sự đang dùng quy tắc ngầm với thí sinh như lời Eritu nói vậy. Cảm giác xấu hổ mãnh liệt dâng lên trong lòng khiến anh không kìm được bật ra tiếng rên rỉ, ngước mắt trừng Eritu, nghiến răng mắng nhỏ: “Thế sao anh còn không mau buông em ra?”
+Nghe câu này, thân hình Inlay run lên bần bật, cứ như thể anh thực sự đang dùng quy tắc ngầm với thí sinh như lời Eritu nói vậy. Cảm giác xấu hổ mãnh liệt dâng lên trong lòng khiến anh không kìm được bật ra tiếng rên rỉ, ngước mắt trừng Eritu, nghiến răng mắng nhỏ: “Thế sao em còn không mau buông anh ra?”
 
 Eritu lại cười tươi rói, chẳng chút sợ hãi: “Không sao, chúng ta là hợp pháp mà.”
 
@@ -108,19 +108,19 @@ May mà còn cái mặt nạ đầu lâu.
 
 Eritu đứng bên cạnh, lặng lẽ ngắm nhìn Inlay rửa mặt, tận hưởng khoảnh khắc bình yên hiếm hoi này. Chợt nhớ ra điều gì, hắn hứng thú hỏi:
 
-“Em có biết tình hình gần đây của Anmi không?”
+“Anh có biết tình hình gần đây của Anmi không?”
 
 Anmi?
 
-Động tác của Inlay khựng lại, anh ngước mắt nhìn hắn: “Sao, có đóa hoa đào nát Whale Tooth chưa đủ, anh còn định gọi cả Anmi đến góp vui à?”
+Động tác của Inlay khựng lại, anh ngước mắt nhìn hắn: “Sao, có đóa hoa đào nát Whale Tooth chưa đủ, em còn định gọi cả Anmi đến góp vui à?”
 
 Giọng nói tuy không mang chút cảm xúc nào, nhưng nghe kiểu gì cũng thấy đầy mùi nguy hiểm.
 
 Eritu bước tới ngồi xổm cạnh Inlay, giả vờ ngây ngô: “Sao thế, cứ như vừa nuốt phải thuốc súng vậy.”
 
-Inlay liếc xéo hắn một cái lạnh lùng. Những giọt nước từ ngọn tóc đen nhánh nhỏ xuống, lăn vào cổ áo rồi mất hút sau xương quai xanh quyến rũ: “Không biết, trước giờ em không quan tâm đến mấy kẻ không quan trọng.”
+Inlay liếc xéo hắn một cái lạnh lùng. Những giọt nước từ ngọn tóc đen nhánh nhỏ xuống, lăn vào cổ áo rồi mất hút sau xương quai xanh quyến rũ: “Không biết, trước giờ anh không quan tâm đến mấy kẻ không quan trọng.”
 
-Eritu chậc lưỡi, cười đầy ẩn ý: “Tiếc thật, anh đã chuẩn bị cho Anmi một món quà lớn, cũng muốn tận mắt xem cậu ta bóc quà lắm.”
+Eritu chậc lưỡi, cười đầy ẩn ý: “Tiếc thật, em đã chuẩn bị cho Anmi một món quà lớn, cũng muốn tận mắt xem cậu ta bóc quà lắm.”
 
 Khi nhìn thấy món quà đó, chắc chắn cậu ta sẽ sướng đến phát điên, còn vui hơn cả được thăng hàm trung tướng. Dù sao thì cả cái Đế quốc này cũng khó mà tìm được món quà thứ hai như vậy.
 
@@ -136,6 +136,6 @@ Eritu đưa ngón trỏ lên môi ra hiệu im lặng, thì thầm hai chữ:
 
 【Tác giả có lời muốn nói】
 
-Rắn đen nhỏ (đắc ý quẫy đuôi): Anh đúng là chẳng thèm quan tâm đến điểm thi của mình tí nào nhỉ.
+Rắn đen nhỏ (đắc ý quẫy đuôi): Cậu đúng là chẳng thèm quan tâm đến điểm thi của mình tí nào nhỉ.
 
-Inlay (nghiến răng cúi đầu ghi sổ thù vặt): Dám giấu tôi bí mật, lại còn tặng quà cho kẻ khác, trừ điểm thi của cậu!
+Inlay (nghiến răng cúi đầu ghi sổ thù vặt): Dám giấu anh bí mật, lại còn tặng quà cho kẻ khác, trừ điểm thi của em!

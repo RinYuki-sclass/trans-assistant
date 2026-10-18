@@ -86,7 +86,7 @@ Nhưng tiếc thay, câu hỏi ấy chẳng cần thốt ra cũng đã có câu 
 
 Trong tiếng khóc lóc van xin của Anmi, anh chậm rãi giơ cao lưỡi dao, rồi mang theo tiếng gió rít hung tàn đâm thẳng xuống. Ngay khi mũi dao chỉ còn cách đỉnh đầu Anmi một tấc, một luồng tinh thần lực hùng mạnh bỗng dưng xuất hiện, ngăn cản động tác của Inlay —
 
-“Bây giờ em vẫn chưa thể giết cậu ta.”
+“Bây giờ anh vẫn chưa thể giết cậu ta.”
 
 Giọng nói vang lên không chút báo trước, nhưng đối với Anmi lại chẳng khác nào cọng rơm cứu mạng. Cậu ta điên cuồng ngẩng lên nhìn về phía phát ra tiếng nói. Phía trên đầu, một chiếc tinh hạm không biết đã lơ lửng ở đó từ bao giờ, cửa khoang mở ra, một bóng người cao lớn nhảy xuống đầy dứt khoát, không phải Eritu thì còn là ai.
 
