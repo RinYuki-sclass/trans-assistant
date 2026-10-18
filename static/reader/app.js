@@ -7,13 +7,17 @@ const state = {
   chapterIndex: 0,        // chỉ số chapter hiện tại
   chapterData: null,      // { title, images: [], script: "" }
   currentPage: 1,         // trang hiện tại (1-indexed)
+  resumePage: 1,          // trang cần phục hồi khi resume
   readingMode: 'webtoon', // 'webtoon' | 'single' | 'double'
   theme: 'oled',          // 'oled' | 'dark' | 'sepia'
   webtoonWidth: 820,
   stripGap: 0,
   hudVisible: true,
   isSeeking: false,
-  downloadTasks: []
+  downloadTasks: [],
+  crawlPreviewInfo: null,
+  libraryMangas: [],
+  libraryUpdates: {}
 };
 
 // DOM Elements
@@ -42,9 +46,18 @@ const el = {
   drawerCloseBtn: document.getElementById('btn-close-drawer'),
   drawer: document.getElementById('library-drawer'),
   libraryList: document.getElementById('library-list'),
+  libraryFilterInput: document.getElementById('library-filter-input'),
+  checkUpdatesBtn: document.getElementById('btn-check-updates'),
   crawlModalBtn: document.getElementById('btn-open-crawl'),
   crawlModalCloseBtn: document.getElementById('btn-close-crawl'),
   crawlModal: document.getElementById('crawl-modal'),
+  searchTabBtn: document.getElementById('tab-btn-search'),
+  urlTabBtn: document.getElementById('tab-btn-url'),
+  searchPanel: document.getElementById('tab-panel-search'),
+  urlPanel: document.getElementById('tab-panel-url'),
+  searchInput: document.getElementById('search-manga-input'),
+  searchSubmitBtn: document.getElementById('btn-submit-search'),
+  searchResults: document.getElementById('search-results-container'),
   crawlUrlInput: document.getElementById('crawl-url-input'),
   crawlSubmitBtn: document.getElementById('btn-submit-crawl'),
   crawlPreview: document.getElementById('crawl-preview-container'),
@@ -138,6 +151,123 @@ function showToast(msg) {
 }
 
 // ====================================================
+// READING TRACKER & AUTO-RESUME
+// ====================================================
+
+const HISTORY_KEY = 'cubari_reading_history';
+const READ_CHAPTERS_KEY = 'cubari_read_chapters';
+
+function getAllReadingHistory() {
+  try {
+    return JSON.parse(localStorage.getItem(HISTORY_KEY) || '{}');
+  } catch (e) {
+    return {};
+  }
+}
+
+function getReadingProgress(mangaSlug) {
+  if (!mangaSlug) return null;
+  const history = getAllReadingHistory();
+  return history[mangaSlug] || null;
+}
+
+function getGlobalLastRead() {
+  const history = getAllReadingHistory();
+  const list = Object.values(history);
+  if (!list.length) return null;
+  list.sort((a, b) => (b.updatedAt || 0) - (a.updatedAt || 0));
+  return list[0];
+}
+
+function saveReadingProgress(page = 1) {
+  if (!state.manga || !state.chapterData) return;
+  const mangaSlug = state.manga.slug || (state.chapterData && state.chapterData.title) || 'unknown';
+  const curCh = state.manga.chapters ? state.manga.chapters[state.chapterIndex] : null;
+  const chapterSlug = curCh ? curCh.slug : (state.chapterData.title || `chapter-${state.chapterIndex + 1}`);
+  const chapterTitle = curCh ? curCh.title : state.chapterData.title;
+
+  const history = getAllReadingHistory();
+  history[mangaSlug] = {
+    mangaSlug: mangaSlug,
+    mangaTitle: state.manga.title || mangaSlug,
+    chapterIndex: state.chapterIndex,
+    chapterSlug: chapterSlug,
+    chapterTitle: chapterTitle,
+    chapterUrl: curCh ? curCh.url : '',
+    sourceType: curCh ? curCh.source_type : (state.chapterData.source || 'local'),
+    page: page,
+    totalPages: state.chapterData.images ? state.chapterData.images.length : 1,
+    updatedAt: Date.now()
+  };
+
+  try {
+    localStorage.setItem(HISTORY_KEY, JSON.stringify(history));
+  } catch (e) {}
+
+  markChapterAsRead(mangaSlug, chapterSlug);
+}
+
+function getAllReadChapters() {
+  try {
+    return JSON.parse(localStorage.getItem(READ_CHAPTERS_KEY) || '{}');
+  } catch (e) {
+    return {};
+  }
+}
+
+function markChapterAsRead(mangaSlug, chapterSlug) {
+  if (!mangaSlug || !chapterSlug) return;
+  const readMap = getAllReadChapters();
+  if (!readMap[mangaSlug]) {
+    readMap[mangaSlug] = [];
+  }
+  if (!readMap[mangaSlug].includes(chapterSlug)) {
+    readMap[mangaSlug].push(chapterSlug);
+    try {
+      localStorage.setItem(READ_CHAPTERS_KEY, JSON.stringify(readMap));
+    } catch (e) {}
+  }
+}
+
+function isChapterRead(mangaSlug, chapterSlug) {
+  if (!mangaSlug || !chapterSlug) return false;
+  const readMap = getAllReadChapters();
+  return !!(readMap[mangaSlug] && readMap[mangaSlug].includes(chapterSlug));
+}
+
+window.resumeLastReading = function() {
+  const lastRead = getGlobalLastRead();
+  if (!lastRead) {
+    showToast('Chưa có lịch sử đọc gần đây');
+    return;
+  }
+
+  showToast(`Tiếp tục đọc: ${lastRead.mangaTitle}...`);
+  if (lastRead.sourceType === 'online' && lastRead.chapterUrl) {
+    loadOnlineChapter(lastRead.chapterUrl, lastRead.page);
+  } else {
+    loadLocalChapter(lastRead.mangaSlug, lastRead.chapterSlug, lastRead.sourceType || 'local', lastRead.page);
+  }
+};
+
+// ====================================================
+// SMART IMAGE PRELOADING
+// ====================================================
+
+function preloadNextImages(startIndex, count = 6) {
+  if (!state.chapterData || !state.chapterData.images) return;
+  const images = state.chapterData.images;
+  const end = Math.min(startIndex + count, images.length);
+  for (let i = startIndex; i < end; i++) {
+    const src = images[i];
+    if (src) {
+      const preloadImg = new Image();
+      preloadImg.src = src;
+    }
+  }
+}
+
+// ====================================================
 // HUD & GIAO DIỆN TƯƠNG TÁC
 // ====================================================
 
@@ -178,15 +308,34 @@ function showWelcomeScreen() {
   el.scrubberSlider.max = 1;
   el.scrubberSlider.value = 1;
 
+  const lastRead = getGlobalLastRead();
+  let resumeHtml = '';
+  if (lastRead) {
+    resumeHtml = `
+      <div class="resume-card" onclick="resumeLastReading()" title="Nhấp để tiếp tục đọc" style="cursor: pointer;">
+        <div class="resume-info">
+          <div class="resume-info-badge">⚡ Tiếp tục đọc dở</div>
+          <div class="resume-info-title">${lastRead.mangaTitle}</div>
+          <div class="resume-info-meta">${lastRead.chapterTitle} • Đang đọc trang ${lastRead.page}/${lastRead.totalPages || '?'}</div>
+        </div>
+        <button class="btn btn-primary" style="padding: 0.55rem 1.1rem; font-size: 0.85rem;">
+          Đọc Tiếp ▶
+        </button>
+      </div>
+    `;
+  }
+
   el.viewport.innerHTML = `
-    <div style="text-align: center; max-width: 650px; padding: 4rem 1.5rem; margin: auto;">
-      <div style="font-size: 3.5rem; margin-bottom: 1rem;">📖</div>
+    <div style="text-align: center; max-width: 650px; padding: 3.5rem 1.5rem; margin: auto;">
+      <div style="font-size: 3.5rem; margin-bottom: 0.8rem;">📖</div>
       <h2 style="font-size: 1.8rem; font-weight: 800; margin-bottom: 0.8rem; letter-spacing: -0.5px;">
         Chào Mừng Đến Với Cubari Manhwa Reader
       </h2>
       <p style="color: var(--text-secondary); line-height: 1.6; font-size: 0.95rem; margin-bottom: 2rem;">
         Trình đọc manhwa tối giản, tải ảnh mượt mà, hỗ trợ cuộn dọc Webtoon vô tận và hoàn toàn không dính quảng cáo rác.
       </p>
+
+      ${resumeHtml}
 
       <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
         <button class="btn btn-primary" onclick="openCrawlModalWithExample()" style="padding: 0.65rem 1.25rem; font-size: 0.95rem;">
@@ -241,6 +390,26 @@ function renderWebtoonMode() {
     img.dataset.page = index + 1;
     img.loading = index < 3 ? 'eager' : 'lazy';
     img.alt = `Trang ${index + 1}`;
+
+    // Xử lý ảnh lỗi kết nối / timeout
+    img.onerror = () => {
+      const errorCard = document.createElement('div');
+      errorCard.className = 'img-error-card';
+      errorCard.dataset.page = index + 1;
+      errorCard.innerHTML = `
+        <span>⚠️ Không thể tải trang ${index + 1} (Lỗi mạng hoặc CDN nguồn)</span>
+        <button class="btn-retry">🔄 Nhấp để tải lại</button>
+      `;
+      const btnRetry = errorCard.querySelector('.btn-retry');
+      btnRetry.onclick = (e) => {
+        e.stopPropagation();
+        const sep = imgSrc.includes('?') ? '&' : '?';
+        img.src = `${imgSrc}${sep}_retry=${Date.now()}`;
+        errorCard.replaceWith(img);
+      };
+      img.replaceWith(errorCard);
+    };
+
     strip.appendChild(img);
   });
 
@@ -266,7 +435,23 @@ function renderWebtoonMode() {
   if (endNext) endNext.onclick = goToNextChapter;
 
   setupWebtoonScrollObserver();
-  window.scrollTo({ top: 0, behavior: 'instant' });
+
+  // Bắt đầu preloading 6 ảnh đầu tiên
+  preloadNextImages(0, 6);
+
+  // Khôi phục trang đọc dở nếu có resumePage
+  if (state.resumePage && state.resumePage > 1) {
+    const targetPage = state.resumePage;
+    state.resumePage = 1;
+    setTimeout(() => {
+      const targetImg = document.querySelector(`.webtoon-strip img[data-page="${targetPage}"]`);
+      if (targetImg) {
+        targetImg.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    }, 250);
+  } else {
+    window.scrollTo({ top: 0, behavior: 'instant' });
+  }
 }
 
 // Observer theo dõi trang đang hiển thị khi cuộn
@@ -288,6 +473,8 @@ function setupWebtoonScrollObserver() {
           state.currentPage = page;
           el.scrubberSlider.value = page;
           updatePageCounter(page, state.chapterData.images.length);
+          saveReadingProgress(page);
+          preloadNextImages(page, 6);
         }
       }
     });
@@ -410,7 +597,7 @@ function updatePageCounter(cur, total) {
 // NẠP DỮ LIỆU CHAPTER (LOCAL & ONLINE)
 // ====================================================
 
-async function loadLocalChapter(mangaSlug, chapterSlug, source = 'local') {
+async function loadLocalChapter(mangaSlug, chapterSlug, source = 'local', targetPage = 1) {
   try {
     showToast(`Đang nạp chapter: ${chapterSlug}...`);
     const res = await fetch(`/api/chapter-data?source=${source}&manga_slug=${encodeURIComponent(mangaSlug)}&chapter_slug=${encodeURIComponent(chapterSlug)}`);
@@ -421,17 +608,19 @@ async function loadLocalChapter(mangaSlug, chapterSlug, source = 'local') {
     }
 
     state.chapterData = data;
-    state.currentPage = 1;
+    state.currentPage = targetPage;
+    state.resumePage = targetPage;
     el.seriesTitle.textContent = data.title || mangaSlug;
     renderCurrentChapter();
     updateChapterNavigationUI();
+    saveReadingProgress(targetPage);
     showToast(`Đã nạp ${data.total} trang ảnh!`);
   } catch (e) {
     showToast(`Lỗi: ${e.message}`);
   }
 }
 
-async function loadOnlineChapter(chapterUrl) {
+async function loadOnlineChapter(chapterUrl, targetPage = 1) {
   try {
     showToast('Đang giải mã và kết nối chapter online...');
     const res = await fetch(`/api/chapter-data?source=online&url=${encodeURIComponent(chapterUrl)}`);
@@ -442,10 +631,12 @@ async function loadOnlineChapter(chapterUrl) {
     }
 
     state.chapterData = data;
-    state.currentPage = 1;
+    state.currentPage = targetPage;
+    state.resumePage = targetPage;
     el.seriesTitle.textContent = data.title || 'Online Chapter';
     renderCurrentChapter();
     updateChapterNavigationUI();
+    saveReadingProgress(targetPage);
     showToast(`Sẵn sàng đọc: ${data.total} trang ảnh không ads!`);
   } catch (e) {
     showToast(`Lỗi: ${e.message}`);
@@ -462,12 +653,14 @@ function updateChapterNavigationUI() {
   el.prevChapterBtn.disabled = state.chapterIndex <= 0;
   el.nextChapterBtn.disabled = state.chapterIndex >= state.manga.chapters.length - 1;
 
-  // Cập nhật dropdown
+  // Cập nhật dropdown có tiền tố checkmark cho chapter đã đọc
   el.chapterSelect.innerHTML = '';
   state.manga.chapters.forEach((ch, idx) => {
     const opt = document.createElement('option');
     opt.value = idx;
-    opt.textContent = ch.title || `Chapter ${idx + 1}`;
+    const isRead = isChapterRead(state.manga.slug, ch.slug);
+    const readPrefix = isRead ? '✓ ' : '';
+    opt.textContent = `${readPrefix}${ch.title || `Chapter ${idx + 1}`}`;
     if (idx === state.chapterIndex) opt.selected = true;
     el.chapterSelect.appendChild(opt);
   });
@@ -517,7 +710,20 @@ async function fetchLibrary() {
   }
 }
 
-function renderLibraryDrawer(mangas) {
+async function fetchLibrary() {
+  try {
+    const res = await fetch('/api/library');
+    const data = await res.json();
+    if (data.status === 'success') {
+      state.libraryMangas = data.mangas || [];
+      renderLibraryCards(state.libraryMangas);
+    }
+  } catch (e) {
+    console.error('Lỗi nạp thư viện:', e);
+  }
+}
+
+function renderLibraryCards(mangas) {
   if (!mangas.length) {
     el.libraryList.innerHTML = `
       <div style="text-align: center; color: var(--text-muted); padding: 2rem 1rem;">
@@ -535,25 +741,129 @@ function renderLibraryDrawer(mangas) {
   mangas.forEach(manga => {
     const card = document.createElement('div');
     card.className = 'library-card';
+    const progress = getReadingProgress(manga.slug);
+    const progressInfo = progress ? `<div style="font-size: 0.75rem; color: var(--accent-hover); margin-top: 0.25rem;">📖 Đang đọc: ${progress.chapterTitle} (Trang ${progress.page})</div>` : '';
+
+    const updateInfo = state.libraryUpdates[manga.slug];
+    const updateBadge = updateInfo ? `
+      <span class="update-badge" title="Có chương mới trên web nguồn" onclick="event.stopPropagation(); openUpdateForManga('${manga.slug}')">
+        ⚡ Có ${updateInfo.new_chapters_count} chương mới
+      </span>
+    ` : '';
+
+    const deleteBtn = manga.source !== 'trans_tool' ? `
+      <button class="btn-delete-manga" title="Xóa bộ truyện này khỏi máy" onclick="event.stopPropagation(); deleteMangaFromLibrary('${manga.slug}', '${encodeURIComponent(manga.title)}')">
+        🗑️
+      </button>
+    ` : '';
+
     card.innerHTML = `
-      <div class="library-card-title">${manga.title}</div>
+      <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 0.5rem;">
+        <div class="library-card-title">${manga.title}</div>
+        ${deleteBtn}
+      </div>
       <div class="library-card-subtitle">
         ${manga.total_chapters} chương • Nguồn: ${manga.source === 'trans_tool' ? 'Trans-Tool' : 'Local'}
       </div>
+      ${progressInfo}
+      ${updateBadge ? `<div style="margin-top: 0.4rem;">${updateBadge}</div>` : ''}
     `;
 
     card.onclick = () => {
       state.manga = manga;
-      state.chapterIndex = 0;
-      const firstCh = manga.chapters[0];
-      if (firstCh) {
-        loadLocalChapter(firstCh.manga_slug, firstCh.slug, firstCh.source_type);
+      let targetIdx = 0;
+      let targetPage = 1;
+      if (progress && typeof progress.chapterIndex === 'number' && manga.chapters[progress.chapterIndex]) {
+        targetIdx = progress.chapterIndex;
+        targetPage = progress.page || 1;
+      }
+      state.chapterIndex = targetIdx;
+      const ch = manga.chapters[targetIdx];
+      if (ch) {
+        loadLocalChapter(ch.manga_slug, ch.slug, ch.source_type, targetPage);
         closeDrawer();
       }
     };
     el.libraryList.appendChild(card);
   });
 }
+
+function filterLibrary(query) {
+  const q = (query || '').trim().toLowerCase();
+  if (!q) {
+    renderLibraryCards(state.libraryMangas);
+    return;
+  }
+  const filtered = state.libraryMangas.filter(m => m.title.toLowerCase().includes(q));
+  renderLibraryCards(filtered);
+}
+
+window.checkLibraryUpdates = async function() {
+  if (el.checkUpdatesBtn) {
+    el.checkUpdatesBtn.disabled = true;
+    el.checkUpdatesBtn.textContent = '⏳ Đang quét...';
+  }
+  showToast('Đang quét các chương mới từ web nguồn...');
+  try {
+    const res = await fetch('/api/library/check-updates', { method: 'POST' });
+    const data = await res.json();
+    if (data.status === 'success') {
+      const updates = data.updates || [];
+      state.libraryUpdates = {};
+      updates.forEach(up => {
+        state.libraryUpdates[up.manga_slug] = up;
+      });
+      renderLibraryCards(state.libraryMangas);
+      if (updates.length > 0) {
+        showToast(`🎉 Phát hiện ${updates.length} bộ truyện có chương mới!`);
+      } else {
+        showToast('Tất cả các bộ truyện đã được cập nhật mới nhất!');
+      }
+    } else {
+      showToast(data.message || 'Lỗi khi kiểm tra chương mới');
+    }
+  } catch (e) {
+    showToast(`Lỗi: ${e.message}`);
+  } finally {
+    if (el.checkUpdatesBtn) {
+      el.checkUpdatesBtn.disabled = false;
+      el.checkUpdatesBtn.textContent = '🔄 Kiểm Tra Chương Mới';
+    }
+  }
+};
+
+window.openUpdateForManga = function(slug) {
+  const up = state.libraryUpdates[slug];
+  if (!up || !up.source_url) return;
+  closeDrawer();
+  openCrawlModalWithExample();
+  switchCrawlTab('url');
+  el.crawlUrlInput.value = up.source_url;
+  submitCrawl();
+};
+
+window.deleteMangaFromLibrary = async function(slug, encodedTitle) {
+  const title = decodeURIComponent(encodedTitle);
+  if (!confirm(`Bạn có chắc chắn muốn xóa bộ truyện "${title}" khỏi máy? Toàn bộ các chương đã tải sẽ bị xóa.`)) {
+    return;
+  }
+  try {
+    const res = await fetch('/api/library/delete', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ slug })
+    });
+    const data = await res.json();
+    if (data.status === 'success') {
+      showToast(`Đã xóa bộ truyện: ${title}`);
+      fetchLibrary();
+    } else {
+      showToast(data.message || 'Không thể xóa');
+    }
+  } catch (e) {
+    showToast(`Lỗi: ${e.message}`);
+  }
+};
 
 function openDrawer() {
   fetchLibrary();
@@ -570,6 +880,86 @@ function openCrawlModalWithExample() {
     el.crawlUrlInput.value = 'https://haccbl.xyz/manga/dia-nguc-cua-kien-yeon-deop/';
   }
 }
+
+function switchCrawlTab(tab) {
+  if (tab === 'search') {
+    el.searchTabBtn.classList.add('active');
+    el.urlTabBtn.classList.remove('active');
+    el.searchPanel.classList.add('active');
+    el.urlPanel.classList.remove('active');
+  } else {
+    el.urlTabBtn.classList.add('active');
+    el.searchTabBtn.classList.remove('active');
+    el.urlPanel.classList.add('active');
+    el.searchPanel.classList.remove('active');
+  }
+}
+
+async function submitSearchManga() {
+  const query = el.searchInput.value.trim();
+  if (!query) {
+    showToast('Vui lòng nhập từ khóa tìm kiếm');
+    return;
+  }
+
+  el.searchSubmitBtn.disabled = true;
+  el.searchSubmitBtn.textContent = '⏳ Đang tìm...';
+  el.searchResults.style.display = 'block';
+  el.searchResults.innerHTML = `
+    <div style="text-align: center; padding: 2rem; color: var(--text-secondary);">
+      <p style="font-size: 1.5rem; margin-bottom: 0.5rem;">🔍</p>
+      <p>Đang tìm kiếm trên các nguồn truyện...</p>
+    </div>
+  `;
+
+  try {
+    const res = await fetch(`/api/crawl/search?q=${encodeURIComponent(query)}`);
+    const data = await res.json();
+    if (data.status !== 'success') {
+      el.searchResults.innerHTML = `<div style="color: var(--danger); padding: 1rem;">❌ ${data.message || 'Lỗi tìm kiếm'}</div>`;
+      return;
+    }
+
+    const results = data.results || [];
+    if (!results.length) {
+      el.searchResults.innerHTML = `
+        <div style="text-align: center; color: var(--text-muted); padding: 2rem 1rem;">
+          <p style="font-size: 1.5rem; margin-bottom: 0.4rem;">😕</p>
+          <p>Không tìm thấy kết quả phù hợp cho "${query}".</p>
+        </div>
+      `;
+      return;
+    }
+
+    let html = '<div class="search-results-grid">';
+    results.forEach(item => {
+      const coverSrc = item.cover ? `/api/proxy-image?url=${encodeURIComponent(item.cover)}` : '';
+      html += `
+        <div class="search-item-card" onclick="selectMangaFromSearch('${encodeURIComponent(item.url)}')">
+          <img src="${coverSrc}" class="search-item-cover" alt="Cover" onerror="this.style.display='none'">
+          <div class="search-item-meta">
+            <div class="search-item-title" title="${item.title}">${item.title}</div>
+            <div class="search-item-source">Nguồn: ${item.source} • Nhấp để xem chương ➔</div>
+          </div>
+        </div>
+      `;
+    });
+    html += '</div>';
+    el.searchResults.innerHTML = html;
+  } catch (e) {
+    el.searchResults.innerHTML = `<div style="color: var(--danger); padding: 1rem;">❌ Lỗi: ${e.message}</div>`;
+  } finally {
+    el.searchSubmitBtn.disabled = false;
+    el.searchSubmitBtn.textContent = '🔍 Tìm Kiếm';
+  }
+}
+
+window.selectMangaFromSearch = function(encodedUrl) {
+  const url = decodeURIComponent(encodedUrl);
+  switchCrawlTab('url');
+  el.crawlUrlInput.value = url;
+  submitCrawl();
+};
 
 // Xử lý Crawl URL
 async function submitCrawl() {
@@ -619,14 +1009,23 @@ async function submitCrawl() {
 }
 
 function renderCrawlPreview(info) {
+  state.crawlPreviewInfo = info;
   let chaptersHtml = '';
   info.chapters.forEach((ch, idx) => {
+    const isRead = isChapterRead(info.slug, ch.slug);
+    const readBadge = isRead ? `<span class="chapter-badge-read">Đã đọc</span>` : '';
+    const readClass = isRead ? ' is-read' : '';
+
     chaptersHtml += `
-      <div class="chapter-item">
-        <span class="chapter-item-title" title="${ch.title}">${ch.title}</span>
+      <div class="chapter-item${readClass}" id="ch-item-${idx}">
+        <div style="display: flex; align-items: center; gap: 0.5rem; flex: 1; overflow: hidden;">
+          <input type="checkbox" class="chapter-item-checkbox" data-idx="${idx}" onchange="updateSelectedCount()">
+          <span class="chapter-item-title" title="${ch.title}">${ch.title}</span>
+          ${readBadge}
+        </div>
         <div style="display: flex; gap: 0.35rem;">
           <button class="btn btn-icon" style="font-size: 0.75rem; padding: 0.25rem 0.5rem;" 
-                  onclick="readOnlineFromPreview('${encodeURIComponent(JSON.stringify(info))}', ${idx})">
+                  onclick="readOnlineFromPreview(${idx})">
             ⚡ Đọc Ngay
           </button>
           <button class="btn btn-primary" style="font-size: 0.75rem; padding: 0.25rem 0.5rem;"
@@ -648,12 +1047,33 @@ function renderCrawlPreview(info) {
         </div>
         <div style="display: flex; gap: 0.5rem; margin-top: 0.5rem;">
           <button class="btn btn-primary" style="font-size: 0.8rem;"
-                  onclick="downloadAllChapters('${encodeURIComponent(JSON.stringify(info))}')">
+                  onclick="downloadAllChapters()">
             📥 Tải Toàn Bộ Chương
           </button>
         </div>
       </div>
     </div>
+
+    <!-- Khung chọn dải chương & tải hàng loạt -->
+    <div class="range-select-box">
+      <div class="range-inputs">
+        <span>Từ:</span>
+        <input type="number" id="range-from" class="range-input-num" min="1" max="${info.chapters.length}" value="1">
+        <span>Đến:</span>
+        <input type="number" id="range-to" class="range-input-num" min="1" max="${info.chapters.length}" value="${Math.min(10, info.chapters.length)}">
+        <button class="btn" style="font-size: 0.75rem; padding: 0.25rem 0.55rem;" onclick="applyRangeSelect()">Chọn dải</button>
+      </div>
+      <div class="batch-btn-bar">
+        <button class="btn" style="font-size: 0.75rem; padding: 0.25rem 0.5rem;" onclick="selectLatestChapters(5)">5 mới nhất</button>
+        <button class="btn" style="font-size: 0.75rem; padding: 0.25rem 0.5rem;" onclick="selectLatestChapters(10)">10 mới nhất</button>
+        <button class="btn" style="font-size: 0.75rem; padding: 0.25rem 0.5rem;" onclick="selectAllChapters(true)">Tất cả</button>
+        <button class="btn" style="font-size: 0.75rem; padding: 0.25rem 0.5rem;" onclick="selectAllChapters(false)">Bỏ chọn</button>
+        <button class="btn btn-primary" id="btn-batch-download" style="font-size: 0.75rem; padding: 0.25rem 0.65rem;" onclick="downloadSelectedChapters()">
+          📥 Tải đã chọn (<span id="selected-count">0</span>)
+        </button>
+      </div>
+    </div>
+
     <div class="chapter-list-grid">
       ${chaptersHtml}
     </div>
@@ -661,8 +1081,9 @@ function renderCrawlPreview(info) {
 }
 
 // Bắt đầu đọc online trực tiếp từ preview
-window.readOnlineFromPreview = function(encodedInfo, chapterIdx) {
-  const info = JSON.parse(decodeURIComponent(encodedInfo));
+window.readOnlineFromPreview = function(chapterIdx) {
+  if (!state.crawlPreviewInfo) return;
+  const info = state.crawlPreviewInfo;
   state.manga = info;
   state.chapterIndex = chapterIdx;
   const targetCh = info.chapters[chapterIdx];
@@ -670,10 +1091,82 @@ window.readOnlineFromPreview = function(encodedInfo, chapterIdx) {
   loadOnlineChapter(targetCh.url);
 };
 
+// Chọn dải chương
+window.applyRangeSelect = function() {
+  if (!state.crawlPreviewInfo) return;
+  const fromVal = parseInt(document.getElementById('range-from').value, 10);
+  const toVal = parseInt(document.getElementById('range-to').value, 10);
+  const start = Math.max(1, Math.min(fromVal, toVal));
+  const end = Math.min(state.crawlPreviewInfo.chapters.length, Math.max(fromVal, toVal));
+
+  document.querySelectorAll('.chapter-item-checkbox').forEach((cb, idx) => {
+    const chNum = idx + 1;
+    cb.checked = (chNum >= start && chNum <= end);
+  });
+  window.updateSelectedCount();
+  showToast(`Đã chọn từ chương ${start} đến ${end}`);
+};
+
+// Chọn N chương mới nhất
+window.selectLatestChapters = function(count) {
+  if (!state.crawlPreviewInfo) return;
+  const total = state.crawlPreviewInfo.chapters.length;
+  const start = Math.max(0, total - count);
+
+  document.querySelectorAll('.chapter-item-checkbox').forEach((cb, idx) => {
+    cb.checked = (idx >= start);
+  });
+  window.updateSelectedCount();
+  showToast(`Đã chọn ${Math.min(count, total)} chương mới nhất`);
+};
+
+// Chọn tất cả hoặc bỏ chọn
+window.selectAllChapters = function(select) {
+  document.querySelectorAll('.chapter-item-checkbox').forEach(cb => {
+    cb.checked = !!select;
+  });
+  window.updateSelectedCount();
+  showToast(select ? 'Đã chọn toàn bộ chương' : 'Đã bỏ chọn toàn bộ');
+};
+
+// Cập nhật số lượng đã chọn
+window.updateSelectedCount = function() {
+  const selected = document.querySelectorAll('.chapter-item-checkbox:checked').length;
+  const countEl = document.getElementById('selected-count');
+  if (countEl) countEl.textContent = selected;
+};
+
+// Tải các chapter đã chọn
+window.downloadSelectedChapters = async function() {
+  if (!state.crawlPreviewInfo) return;
+  const selectedCbs = Array.from(document.querySelectorAll('.chapter-item-checkbox:checked'));
+  if (!selectedCbs.length) {
+    showToast('Chưa chọn chương nào để tải!');
+    return;
+  }
+
+  showToast(`Đang đưa ${selectedCbs.length} chương đã chọn vào hàng đợi tải...`);
+  const info = state.crawlPreviewInfo;
+  for (const cb of selectedCbs) {
+    const idx = parseInt(cb.dataset.idx, 10);
+    const ch = info.chapters[idx];
+    if (ch) {
+      await window.startDownloadChapter(
+        encodeURIComponent(info.title),
+        info.slug,
+        encodeURIComponent(ch.title),
+        ch.slug,
+        ch.url
+      );
+    }
+  }
+};
+
 // Gửi lệnh tải 1 chapter
 window.startDownloadChapter = async function(mangaTitle, mangaSlug, chapterTitle, chapterSlug, chapterUrl) {
   try {
     showToast(`Đã đưa chapter vào hàng đợi tải...`);
+    const mangaUrl = state.crawlPreviewInfo ? state.crawlPreviewInfo.url : '';
     const res = await fetch('/api/crawl/download', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
@@ -682,7 +1175,8 @@ window.startDownloadChapter = async function(mangaTitle, mangaSlug, chapterTitle
         manga_slug: mangaSlug,
         chapter_title: decodeURIComponent(chapterTitle),
         chapter_slug: chapterSlug,
-        chapter_url: chapterUrl
+        chapter_url: chapterUrl,
+        manga_url: mangaUrl
       })
     });
     const result = await res.json();
@@ -696,8 +1190,9 @@ window.startDownloadChapter = async function(mangaTitle, mangaSlug, chapterTitle
 };
 
 // Tải tất cả các chapter
-window.downloadAllChapters = async function(encodedInfo) {
-  const info = JSON.parse(decodeURIComponent(encodedInfo));
+window.downloadAllChapters = async function() {
+  if (!state.crawlPreviewInfo) return;
+  const info = state.crawlPreviewInfo;
   showToast(`Đang thêm ${info.chapters.length} chương vào hàng đợi tải...`);
   for (const ch of info.chapters) {
     await window.startDownloadChapter(
@@ -828,17 +1323,38 @@ function bindEvents() {
   el.settingWidth.oninput = (e) => setWebtoonWidth(parseInt(e.target.value, 10));
   el.settingGap.oninput = (e) => setStripGap(parseInt(e.target.value, 10));
 
-  // Drawer
+  // Drawer & Filter
   el.drawerBtn.onclick = openDrawer;
   el.drawerCloseBtn.onclick = closeDrawer;
+  if (el.libraryFilterInput) {
+    el.libraryFilterInput.oninput = (e) => filterLibrary(e.target.value);
+  }
+  if (el.checkUpdatesBtn) {
+    el.checkUpdatesBtn.onclick = window.checkLibraryUpdates;
+  }
 
-  // Crawl Modal
+  // Crawl Modal & Search Tabs
   el.crawlModalBtn.onclick = openCrawlModalWithExample;
   el.crawlModalCloseBtn.onclick = () => el.crawlModal.classList.remove('active');
   el.crawlSubmitBtn.onclick = submitCrawl;
   el.crawlUrlInput.onkeydown = (e) => {
     if (e.key === 'Enter') submitCrawl();
   };
+
+  if (el.searchTabBtn) {
+    el.searchTabBtn.onclick = () => switchCrawlTab('search');
+  }
+  if (el.urlTabBtn) {
+    el.urlTabBtn.onclick = () => switchCrawlTab('url');
+  }
+  if (el.searchSubmitBtn) {
+    el.searchSubmitBtn.onclick = submitSearchManga;
+  }
+  if (el.searchInput) {
+    el.searchInput.onkeydown = (e) => {
+      if (e.key === 'Enter') submitSearchManga();
+    };
+  }
 
   // Keyboard Shortcuts
   window.addEventListener('keydown', (e) => {

@@ -1,0 +1,68 @@
+{
+  "chapter": 76,
+  "title": "误会 (Hiểu lầm)",
+  "total_paragraphs": 252,
+  "scenes": [
+    {
+      "scene_id": "scene_01",
+      "name": "Cái tát thức tỉnh sự đạo đức giả của giai cấp tư bản",
+      "paragraph_range": "1-52",
+      "setting": "Phòng ngủ Đào Dã trong biệt thự",
+      "characters": ["Đào Dã", "Tuế Dư An"],
+      "pronouns": {
+        "Đào Dã": "xưng tôi/tao/bố mày, gọi anh/mày/đồ biến thái",
+        "Tuế Dư An": "xưng tôi, gọi cậu/em/chú thỏ nhỏ"
+      },
+      "tone": "Châm biếm, bạo lực phòng vệ, bóc trần mặt nạ đạo đức giả"
+    },
+    {
+      "scene_id": "scene_02",
+      "name": "Hội quán tư nhân: Nâng ly chúc bọn tư bản tội ác",
+      "paragraph_range": "53-84",
+      "setting": "Phòng VIP hội quán tư nhân",
+      "characters": ["Tuế Dư An", "Đỗ Phong", "Phòng Minh"],
+      "pronouns": {
+        "Tuế Dư An": "xưng tao/tôi, gọi tụi mày/chúng nó",
+        "Đỗ Phong & Phòng Minh": "gọi Tuế Dư An là anh An (安哥), xưng tao"
+      },
+      "tone": "Lạnh lùng, phân hóa giai cấp, giác ngộ nội tâm của Tuế Dư An"
+    },
+    {
+      "scene_id": "scene_03",
+      "name": "Mượn đao giết người & Nụ hôn vụng trộm trong đêm",
+      "paragraph_range": "85-132",
+      "setting": "Phòng ngủ và bàn ăn biệt thự",
+      "characters": ["Đào Dã", "Tuế Dư An"],
+      "pronouns": {
+        "Đào Dã": "xưng tôi/tao/bố mày, mắng SB",
+        "Tuế Dư An": "gọi Đào Dã là papa (爸爸~), trêu ghẹo lẳng lơ, sau đó dịu dàng hôn lén mỏm cụt"
+      },
+      "tone": "Hài hước cộc cằn xen lẫn mờ ám biến thái và xót xa thầm kín"
+    },
+    {
+      "scene_id": "scene_04",
+      "name": "Kỳ tích công nghệ: Lắp ráp cánh tay máy hoàn mỹ",
+      "paragraph_range": "133-195",
+      "setting": "Phòng điều trị trong biệt thự",
+      "characters": ["Đào Dã", "Tuế Dư An", "Bác sĩ", "Kỹ sư cơ khí"],
+      "pronouns": {
+        "Đào Dã": "xưng tôi, gọi anh/mày",
+        "Tuế Dư An": "xưng tôi, gọi cậu/em/bảo bối"
+      },
+      "tone": "Hồi hộp, kinh ngạc trước xúc giác chân thật, tát sắt thép hài hước"
+    },
+    {
+      "scene_id": "scene_05",
+      "name": "Bạo loạn khu lán sắt, hiểu lầm chồng chất & Lục Lục trở lại",
+      "paragraph_range": "196-252",
+      "setting": "Cổng biệt thự và phòng ngủ",
+      "characters": ["Đào Dã", "Tuế Dư An", "Vương Lực (qua điện thoại)", "Hệ thống Lục Lục"],
+      "pronouns": {
+        "Đào Dã": "xưng tôi/tao, phẫn nộ tột cùng, xưng tao với Lục Lục",
+        "Tuế Dư An": "xưng tôi, gọi em/cậu/Đào Dã, bất đắc dĩ đe dọa lần cuối",
+        "Lục Lục": "Ký... ký chủ..."
+      },
+      "tone": "Căng thẳng nghẹt thở, hiểu lầm phẫn nộ, cao trào kịch tính"
+    }
+  ]
+}

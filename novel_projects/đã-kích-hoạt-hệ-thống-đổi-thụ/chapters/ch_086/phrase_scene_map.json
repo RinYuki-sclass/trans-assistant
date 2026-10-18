@@ -1,0 +1,59 @@
+{
+  "chapter": 86,
+  "title": "Theo đuổi",
+  "total_paragraphs": 249,
+  "scenes": [
+    {
+      "scene_id": 1,
+      "name": "Bệnh viện đau lòng và phép màu của Chiếc Đuôi Nhỏ",
+      "paragraphs_range": [1, 75],
+      "characters": ["Đào Dã", "Tuế Dư An", "Chiếc Đuôi Nhỏ", "Tuế Thủ Thường", "Lý Tỉnh"],
+      "locked_pronouns": {
+        "Đào Dã": {"narrative": "cậu"},
+        "Tuế Dư An": {"narrative": "anh", "dialogue_self": "tôi / ba"},
+        "Chiếc Đuôi Nhỏ": {"narrative": "Chiếc Đuôi Nhỏ"}
+      }
+    },
+    {
+      "scene_id": 2,
+      "name": "Cánh tay mọc lại và nước mắt xúc động",
+      "paragraphs_range": [76, 120],
+      "characters": ["Đào Dã", "Tuế Dư An"],
+      "locked_pronouns": {
+        "Đào Dã": {"narrative": "cậu", "dialogue_self": "tôi", "dialogue_target": "anh"},
+        "Tuế Dư An": {"narrative": "anh", "dialogue_self": "tôi", "dialogue_target": "cậu"}
+      }
+    },
+    {
+      "scene_id": 3,
+      "name": "Tặng hoa tỏ tình và đêm chung giường ngọt ngào",
+      "paragraphs_range": [121, 175],
+      "characters": ["Đào Dã", "Tuế Dư An"],
+      "locked_pronouns": {
+        "Đào Dã": {"narrative": "cậu", "dialogue_self": "tôi", "dialogue_target": "anh"},
+        "Tuế Dư An": {"narrative": "anh", "dialogue_self": "tôi", "dialogue_target": "cậu / Đào Dã"}
+      }
+    },
+    {
+      "scene_id": 4,
+      "name": "Ra mắt sư phụ Lão Vương và lời dặn dò của Lý Tỉnh",
+      "paragraphs_range": [176, 230],
+      "characters": ["Đào Dã", "Tuế Dư An", "Lý Tỉnh", "Lão Vương", "Sư nương"],
+      "locked_pronouns": {
+        "Đào Dã": {"narrative": "cậu", "dialogue_self": "tao / con", "dialogue_target": "mày / sư phụ"},
+        "Tuế Dư An": {"narrative": "anh", "dialogue_self": "cháu / tôi", "dialogue_target": "sư phụ / Lý Tỉnh"},
+        "Lý Tỉnh": {"narrative": "Lý Tỉnh / cậu ta", "dialogue_self": "tao / tôi", "dialogue_target": "A Dã / Tuế tiên sinh"}
+      }
+    },
+    {
+      "scene_id": 5,
+      "name": "Đồng ý lời tỏ tình và nụ hôn định tình trên xe",
+      "paragraphs_range": [231, 249],
+      "characters": ["Đào Dã", "Tuế Dư An"],
+      "locked_pronouns": {
+        "Đào Dã": {"narrative": "cậu", "dialogue_self": "tôi", "dialogue_target": "anh"},
+        "Tuế Dư An": {"narrative": "anh", "dialogue_self": "tôi", "dialogue_target": "cậu"}
+      }
+    }
+  ]
+}

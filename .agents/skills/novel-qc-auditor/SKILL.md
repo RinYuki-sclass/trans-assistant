@@ -45,6 +45,12 @@ Character & Pronoun Drift is the most frequent and critical translation defect. 
 * **Case A5 — Đại từ thế hệ / Vai vế lớn tuổi:**
   * *Quy tắc:* Các nhân vật thế hệ trước / hội trưởng / lãnh đạo già (Heideman, Gia chủ...) dùng `"ông"`, `"ông ta"`.
 
+* **Case A6 — Lỗi rò rỉ đại từ đối thoại (mày/tao/ngươi) vào trần thuật nội tâm (Dialogue-to-Narrative Bleeding):**
+  * *Quy tắc:* Trong các câu trần thuật hoặc suy nghĩ nội tâm không có ngoặc kép (ngay cả khi liền kề câu thoại giận dữ dùng `“mày - tao”`), đại từ chỉ đối phương BẮT BUỘC phải quy về ngôi thứ 3 (`hắn`, `anh`, `y`), nhân vật chính là (`cậu`, `anh`, hoặc tên).
+  * *Lỗi bắt:* Câu trần thuật hoặc dòng suy nghĩ nội tâm xuất hiện từ `mày`, `tao`, gây hiện tượng đá ngôi phi logic (vừa có `mày` ngôi 2 vừa có `cậu` ngôi 3).
+  * *Ví dụ vi phạm thực tế:* `Mày dựa vào cái thớ gì mà dám ghét cậu chứ!` ➔ **BẮT LỖI NGAY**. Bắt buộc sửa thành: `Hắn dựa vào cái thớ gì mà dám ghét cậu chứ!`.
+  * *Ví dụ vi phạm thực tế:* `Là mày, Tuế Dư An, chính mày đã ép tao bước lên con đường...` ➔ **BẮT LỖI NGAY**. Bắt buộc sửa thành: `Chính Tuế Dư An hắn đã ép cậu bước lên con đường...`.
+
 ---
 
 ### 2. NHÓM B: XƯNG HÔ ĐỐI THOẠI TRỰC TIẾP (DIRECT DIALOGUE PRONOUNS)

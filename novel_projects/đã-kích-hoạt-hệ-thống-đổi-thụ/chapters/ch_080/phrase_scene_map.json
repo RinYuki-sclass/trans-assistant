@@ -1,0 +1,55 @@
+{
+  "chapter": 80,
+  "title": "没完 (Chưa xong)",
+  "total_paragraphs": 259,
+  "scenes": [
+    {
+      "scene_id": "scene_01",
+      "name": "Chuyến xe khách đêm & Cuộc đối thoại dưới ánh trăng",
+      "paragraph_range": "1-60",
+      "setting": "Trên xe khách chạy giữa vùng đồng quê ngoại ô",
+      "characters": ["Đào Dã", "Tuế Dư An"],
+      "pronouns": {
+        "Đào Dã": "xưng tao, gọi mày",
+        "Tuế Dư An": "xưng tôi, gọi cậu/Đào Dã"
+      },
+      "tone": "Lạnh lùng, trào phúng, bức bối nghẹt thở"
+    },
+    {
+      "scene_id": "scene_02",
+      "name": "Cú nhảy liều lĩnh & Cuộc rượt đuổi trong rừng cây",
+      "paragraph_range": "61-140",
+      "setting": "Bên ngoài xe khách, đường quốc lộ và bìa rừng",
+      "characters": ["Tuế Dư An", "Đào Dã"],
+      "pronouns": {
+        "Đào Dã": "quát tháo 'Xỏ giày vào', 'Vào rừng cây'",
+        "Tuế Dư An": "chạy trốn thục mạng, phát hiện xe vệ sĩ đuổi tới"
+      },
+      "tone": "Kịch tính, hành động nghẹt thở, rượt đuổi tốc độ cao"
+    },
+    {
+      "scene_id": "scene_03",
+      "name": "Vật lộn dưới dòng sông & Tuyên ngôn sống chết trong tay tao",
+      "paragraph_range": "141-245",
+      "setting": "Bờ sông và dưới làn nước lạnh",
+      "characters": ["Tuế Dư An", "Đào Dã"],
+      "pronouns": {
+        "Đào Dã": "đè Tuế Dư An xuống nước, tuyên bố: 'Mày sống thì phải sống dưới mí mắt tao, mày chết thì phải chết trong tay tao'",
+        "Tuế Dư An": "tuyệt vọng gào thét: 'Tôi đã chẳng còn lại gì nữa rồi!'"
+      },
+      "tone": "Bạo liệt, giằng xé dữ dội, nước mắt và phẫn nộ đan xen"
+    },
+    {
+      "scene_id": "scene_04",
+      "name": "Nụ hôn điên cuồng bên bờ sông & Sự tê dại đầu tiên của công trai thẳng",
+      "paragraph_range": "246-259",
+      "setting": "Bãi cỏ ven sông dưới ánh trăng",
+      "characters": ["Tuế Dư An", "Đào Dã", "Đội trưởng vệ sĩ"],
+      "pronouns": {
+        "Tuế Dư An": "chủ động kéo áo Đào Dã, hôn nồng nhiệt, quét lưỡi qua vòm họng",
+        "Đào Dã": "đờ đẫn, tê dại cả người, lực bóp cổ nhũn ra"
+      },
+      "tone": "Gợi cảm, chấn động, bước ngoặt xúc cảm chấn hưng mãnh liệt"
+    }
+  ]
+}

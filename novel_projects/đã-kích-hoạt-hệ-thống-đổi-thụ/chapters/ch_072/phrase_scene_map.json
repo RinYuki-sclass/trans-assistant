@@ -1,0 +1,68 @@
+{
+  "chapter": 72,
+  "total_paragraphs": 231,
+  "scenes": [
+    {
+      "scene_id": "scene_1",
+      "name": "Kha Mẫn đón Đào Dã đến biệt thự, độc thoại nội tâm về số phận & đối thoại với Lục Lục",
+      "para_range": [0, 38],
+      "characters": ["Đào Dã", "Kha Mẫn", "Lục Lục", "Vệ sĩ"],
+      "locked_pronouns": {
+        "Đào Dã": "cậu / Đào Dã",
+        "Kha Mẫn": "cô ấy / Kha Mẫn",
+        "Lục Lục": "nó / Lục Lục"
+      },
+      "dialogue_rules": {
+        "Kha Mẫn -> Đào Dã": "tôi - Đào tiên sinh",
+        "Đào Dã -> Lục Lục": "tao - mày",
+        "Lục Lục -> Đào Dã": "tôi - bạn"
+      }
+    },
+    {
+      "scene_id": "scene_2",
+      "name": "Đột nhập biệt thự: Đào Dã tát lệch mặt Tuế Dư An, ép quỳ gối & uống thuốc kích dục",
+      "para_range": [39, 134],
+      "characters": ["Đào Dã", "Tuế Dư An", "Vệ sĩ"],
+      "locked_pronouns": {
+        "Đào Dã": "cậu / Đào Dã",
+        "Tuế Dư An": "anh / Tuế Dư An / hắn",
+        "Vệ sĩ": "hai tên vệ sĩ / gã"
+      },
+      "dialogue_rules": {
+        "Đào Dã -> Tuế Dư An": "tao - mày / 'Tuế Dư An, cha mày đến đụ mày đây!', 'Quỳ xuống!', 'Ai cho mày cử động hả con đĩ lẳng lơ này!'",
+        "Tuế Dư An -> Đào Dã": "tôi - cậu / 'Chủ nhân', 'Xin lỗi, tôi sai rồi'"
+      }
+    },
+    {
+      "scene_id": "scene_3",
+      "name": "Nhờ Lục Lục làm nhiễu thính giác vệ sĩ, trói tay bằng thắt lưng da & lật ngược thế cờ",
+      "para_range": [135, 177],
+      "characters": ["Đào Dã", "Tuế Dư An", "Lục Lục", "Vệ sĩ"],
+      "locked_pronouns": {
+        "Đào Dã": "cậu / Đào Dã",
+        "Tuế Dư An": "anh / Tuế Dư An / hắn",
+        "Lục Lục": "nó / Lục Lục"
+      },
+      "dialogue_rules": {
+        "Đào Dã -> Tuế Dư An": "tao - mày",
+        "Tuế Dư An -> Đào Dã": "Thỏ con / Chủ nhân"
+      }
+    },
+    {
+      "scene_id": "scene_4",
+      "name": "Xé nát chiếc quần lót, cưỡng ép xâm nhập, Tuế Dư An kêu cứu trong tuyệt vọng & Đào Dã nôn khan",
+      "para_range": [178, 230],
+      "characters": ["Đào Dã", "Tuế Dư An", "Vệ sĩ"],
+      "locked_pronouns": {
+        "Đào Dã": "cậu / Đào Dã",
+        "Tuế Dư An": "anh / Tuế Dư An / hắn",
+        "Vệ sĩ": "hai tên vệ sĩ"
+      },
+      "dialogue_rules": {
+        "Đào Dã -> Tuế Dư An": "tao - mày ('Tuế Dư An, tao muốn mày sống không bằng chết!')",
+        "Tuế Dư An -> Đào Dã": "tao - mày ('Đào Dã! Mày dám!')",
+        "Tuế Dư An -> Vệ sĩ": "Bắt lấy nó! Chúng mày điếc hết rồi à! Lũ phế vật!"
+      }
+    }
+  ]
+}

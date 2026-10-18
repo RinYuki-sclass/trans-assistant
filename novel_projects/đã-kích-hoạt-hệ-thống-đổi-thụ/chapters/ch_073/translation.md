@@ -1,6 +1,4 @@
-# Chương 73: Thù hận thuần túy
-
-Đau.
+﻿Đau.
 
 Như thể bị dã thú hung tợn xé rách.
 

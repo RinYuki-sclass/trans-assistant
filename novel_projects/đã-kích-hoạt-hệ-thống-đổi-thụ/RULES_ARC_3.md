@@ -45,3 +45,10 @@
 - **Đào Dã:** Sử dụng **"cậu"** hoặc **"Đào Dã"**.
 - **Tuế Dư An:** Sử dụng **"anh"**, **"Tuế Dư An"**, hoặc **"hắn"** (khi nhấn mạnh tính cách phản diện/tùy hứng/biến thái).
 - **Lưu ý phân biệt:** Trong các đoạn văn có cả hai người, nếu dùng "anh" và "cậu", bắt buộc phải bảo đảm ngữ cảnh phân định rạch ròi: "anh" chỉ Tuế Dư An, "cậu" chỉ Đào Dã. Tránh để người đọc nhầm lẫn vị thế.
+- **Phân biệt Lời thoại trực tiếp vs Trần thuật / Độc thoại nội tâm:**
+  + Khi Đào Dã tức giận, trong lời thoại trực tiếp trong ngoặc kép `“...”` có thể xưng hô `“mày - tao”` với Tuế Dư An (hoặc quát mắng).
+  + Nhưng trong trần thuật hoặc dòng suy nghĩ nội tâm không có ngoặc kép, **TUYỆT ĐỐI KHÔNG DÙNG "mày", "tao"**. Bắt buộc phải duy trì ngôi thứ 3: Đào Dã là "cậu", Tuế Dư An là "hắn" / "anh".
+  + *Ví dụ sai:* `Mày dựa vào cái thớ gì mà dám ghét cậu chứ!` ➔ **SAI NGHIÊM TRỌNG**.
+  + *Ví dụ đúng:* `Hắn dựa vào cái thớ gì mà dám ghét cậu chứ!`
+  + *Ví dụ sai:* `Là mày, Tuế Dư An, chính mày đã ép tao...` ➔ **SAI**.
+  + *Ví dụ đúng:* `Chính Tuế Dư An hắn đã ép cậu...`

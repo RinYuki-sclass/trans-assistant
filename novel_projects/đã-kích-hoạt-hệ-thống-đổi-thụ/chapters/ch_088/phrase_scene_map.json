@@ -1,0 +1,36 @@
+{
+  "chapter": 88,
+  "title": "Phiên ngoại: IF tuyến Thuần hận",
+  "chinese_title": "第 88 章 纯恨if线 (番外)",
+  "scenes": [
+    {
+      "range": "paras 1-15",
+      "summary": "Đào Dã xem lại album ảnh hồi nhỏ của Tuế Dư An, cảnh cáo anh không được chạy trốn lần nữa."
+    },
+    {
+      "range": "paras 16-48",
+      "summary": "Tuế Dư An dùng thế thân trốn thoát khỏi Tuyên Thành trên xe tải chở hàng; Đào Dã nổi trận lôi đình khi phát hiện mình lại bị lừa dối."
+    },
+    {
+      "range": "paras 49-89",
+      "summary": "Hai tháng sau tại Phong Thành: Tuế Dư An sống chật vật trong căn gác xép cũ kỹ; bị kẻ lạ mặt bám đuôi từng bước lên tầng 7; chạy thục mạng lên sân thượng nhưng bị một cánh tay máy màu đen chặn đứng cánh cửa."
+    },
+    {
+      "range": "paras 90-147",
+      "summary": "Đào Dã xuất hiện dưới ánh trăng với vẻ ngoài lạnh lẽo; ép Tuế Dư An vào bờ tường chắn; dùng bàn tay máy kim loại lạnh buốt trừng phạt; tiếng gào thét căm hận và sự chiếm đoạt tàn bạo."
+    }
+  ],
+  "pronoun_rules": {
+    "Dao_Da": {
+      "third_person": "cậu / Đào Dã",
+      "dialogue_self": "tao / ông đây",
+      "dialogue_address": "mày / anh",
+      "strict_ban": "Cấm tuyệt đối xưng em"
+    },
+    "Tue_Du_An": {
+      "third_person": "anh / Tuế Dư An / hắn",
+      "dialogue_self": "tôi",
+      "dialogue_address": "cậu / Đào Dã"
+    }
+  }
+}

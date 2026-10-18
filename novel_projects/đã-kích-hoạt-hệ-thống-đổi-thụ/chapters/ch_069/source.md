@@ -1,4 +1,4 @@
----
+﻿---
 title: 'Đã Kích Hoạt Hệ Thống Đổi Thụ — Chương 69: 帮你'
 source_url: 'https://www.52shuku.net/chongsheng/29_b/bkc90_125.html'
 chinese_title: '第 69 章 帮你'
@@ -117,11 +117,7 @@ chapter_number: 69
 
 陶野掐着他肩膀的机械臂，最终还是松开了，绝望的闭上眼睛。
 
-岁予安这次顺利的把
-
-1
-
-叼出来。
+岁予安这次顺利的把 1 叼出来。
 
 他震惊的脸说明一切，活动了下下巴以免受伤，然后就迫不及待地吃掉。
 

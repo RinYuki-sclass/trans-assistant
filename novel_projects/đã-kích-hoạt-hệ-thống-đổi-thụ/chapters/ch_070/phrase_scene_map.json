@@ -1,0 +1,50 @@
+{
+  "chapter": 70,
+  "total_paragraphs": 251,
+  "scenes": [
+    {
+      "scene_id": "scene_1",
+      "name": "Hậu quả trong buồng vệ sinh: Đào Dã tỉnh thuốc đấm Tuế Dư An & Kha Mẫn đưa ông chủ đi viện",
+      "para_range": [0, 85],
+      "characters": ["Đào Dã", "Tuế Dư An", "Kha Mẫn"],
+      "locked_pronouns": {
+        "Đào Dã": "cậu / Đào Dã",
+        "Tuế Dư An": "anh / Tuế Dư An / hắn",
+        "Kha Mẫn": "cô ấy / Kha Mẫn"
+      },
+      "dialogue_rules": {
+        "Đào Dã -> Tuế Dư An": "tôi - anh / cấm tiệt xưng em",
+        "Tuế Dư An -> Kha Mẫn": "tôi - cô"
+      }
+    },
+    {
+      "scene_id": "scene_2",
+      "name": "Đào Dã về nhà tắm rửa, ấm ức xoa bóp cánh tay máy & Đụng độ kẻ quỵt nợ ở ngõ hẻm",
+      "para_range": [86, 215],
+      "characters": ["Đào Dã", "Kẻ quỵt nợ", "Lão Vương"],
+      "locked_pronouns": {
+        "Đào Dã": "cậu / Đào Dã",
+        "Kẻ quỵt nợ": "lão già mất nết / gã"
+      },
+      "dialogue_rules": {
+        "Đào Dã -> Kẻ quỵt nợ": "tao - mày ('Mày muốn chết à!')"
+      }
+    },
+    {
+      "scene_id": "scene_3",
+      "name": "Tin nhắn quấy rối mờ ám & Tuế Dư An đích thân tìm đến tiệm thuốc Lão Vương",
+      "para_range": [216, 250],
+      "characters": ["Đào Dã", "Tuế Dư An", "Lão Vương"],
+      "locked_pronouns": {
+        "Đào Dã": "cậu / Đào Dã",
+        "Tuế Dư An": "anh / Tuế Dư An / hắn",
+        "Lão Vương": "ông / Lão Vương / sư phụ"
+      },
+      "dialogue_rules": {
+        "Tuế Dư An (tin nhắn) -> Đào Dã": "【Thân thể em đã đỡ hơn chút nào chưa?】",
+        "Lão Vương <-> Đào Dã": "sư phụ - con",
+        "Lão Vương <-> Tuế Dư An": "ông - quý khách / tôi"
+      }
+    }
+  ]
+}

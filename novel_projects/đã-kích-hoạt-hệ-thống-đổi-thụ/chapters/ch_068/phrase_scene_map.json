@@ -1,0 +1,65 @@
+{
+  "chapter": 68,
+  "total_paragraphs": 158,
+  "scenes": [
+    {
+      "scene_id": "scene_1",
+      "name": "Nhà hàng không trung: Đào Dã trả bộ đồ vest & Tuế Dư An thuê đóng NPC thỏ",
+      "para_range": [0, 56],
+      "characters": ["Đào Dã", "Tuế Dư An", "Lục Lục"],
+      "locked_pronouns": {
+        "Đào Dã": "cậu / Đào Dã",
+        "Tuế Dư An": "anh / Tuế Dư An / hắn",
+        "Lục Lục": "nó / Lục Lục"
+      },
+      "dialogue_rules": {
+        "Đào Dã -> Tuế Dư An": "tôi - anh (tuyệt đối không xưng em)",
+        "Tuế Dư An -> Đào Dã": "tôi - cậu"
+      }
+    },
+    {
+      "scene_id": "scene_2",
+      "name": "Ngày đầu sự kiện: Đào Dã hóa trang Thỏ tiên sinh, gặp nam sinh béo & về nhà chập mạch",
+      "para_range": [57, 98],
+      "characters": ["Đào Dã", "Nhân viên sự kiện", "Nam sinh béo", "Lý Tỉnh"],
+      "locked_pronouns": {
+        "Đào Dã": "cậu / Đào Dã",
+        "Nam sinh béo": "nam sinh béo / gã",
+        "Lý Tỉnh": "cậu ta / Lý Tỉnh"
+      },
+      "dialogue_rules": {
+        "Đào Dã (NPC) -> Người chơi": "Thỏ tiên sinh - con người / ngươi",
+        "Đào Dã -> Lý Tỉnh": "tôi - cậu"
+      }
+    },
+    {
+      "scene_id": "scene_3",
+      "name": "Ngày thứ hai: Tuế Dư An xếp hàng, Đào Dã uống nước bị hạ thuốc",
+      "para_range": [99, 131],
+      "characters": ["Đào Dã", "Tuế Dư An", "Nam sinh béo"],
+      "locked_pronouns": {
+        "Đào Dã": "cậu / Đào Dã",
+        "Tuế Dư An": "anh / Tuế Dư An / hắn",
+        "Nam sinh béo": "nam sinh béo / kẻ hạ thuốc"
+      },
+      "dialogue_rules": {
+        "Tuế Dư An -> Đào Dã": "Thỏ tiên sinh - tôi",
+        "Đào Dã -> Tuế Dư An": "Hỡi con người - Thỏ tiên sinh"
+      }
+    },
+    {
+      "scene_id": "scene_4",
+      "name": "Phòng vệ sinh: Tuế Dư An bắn nát đầu gối kẻ hạ thuốc, cưỡng hôn qua quần & Đào Dã tung cú đấm máy",
+      "para_range": [132, 157],
+      "characters": ["Đào Dã", "Tuế Dư An", "Nam sinh béo"],
+      "locked_pronouns": {
+        "Đào Dã": "cậu / Đào Dã",
+        "Tuế Dư An": "anh / Tuế Dư An / hắn"
+      },
+      "dialogue_rules": {
+        "Tuế Dư An -> Đào Dã": "tôi - cậu ('Tôi tới đây là để giúp cậu mà')",
+        "Đào Dã -> Tuế Dư An": "tôi - anh / 'Mẹ kiếp! Cái đồ biến thái chết tiệt!'"
+      }
+    }
+  ]
+}

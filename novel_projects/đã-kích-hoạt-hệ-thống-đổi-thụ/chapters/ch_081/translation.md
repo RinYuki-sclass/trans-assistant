@@ -1,5 +1,3 @@
-# Chương 81: Mày và tao
-
 Tuế Dư An phát hiện ra điểm mẫn cảm của chú thỏ nhỏ, hắn tự nhiên sẽ không đời nào bỏ qua, lập tức phát động tấn công dồn dập.
 
 Bàn tay đang vòng sau gáy Đào Dã nhấc lên một bàn, áp sát vào gốc tai Đào Dã từ trên xuống dưới nhẹ nhàng mơn trớn, sau mấy lần liền khẽ nhéo lấy dái tai, rồi lại men theo vành tai từng chút một cào nhẹ.
@@ -352,7 +350,7 @@ Tuế Thủ Thường chăm chú nhìn cậu một lát, cuối cùng lựa ch�
 
 Còn về phần nhà họ Nhiếp.
 
-Đã hoàn toàn mất đi tư cách có được một chỗ đứng ở thành Tuyên này rồi.
+Đã hoàn toàn mất đi tư cách có được một chỗ đứng ở Tuyên Thành này rồi.
 
 ——
 
@@ -414,7 +412,7 @@ Mắt Lý Tỉnh bỗng chốc sáng rực lên, cho cậu ta đi học sao? L�
 
 “Tôi…… tôi thực sự có thể sao?”
 
-Đào Dã mỉm cười, đối diện với người bạn thân của mình, trong nụ cười có thêm vài phần dịu dàng: “Em đương nhiên có thể chứ.”
+Đào Dã mỉm cười, đối diện với người bạn thân của mình, trong nụ cười có thêm vài phần dịu dàng: “Cậu đương nhiên có thể chứ.”
 
 Tuế Ứng Minh cảm thấy sai sai, sao anh trai cậu ta lại đối xử tốt với Tinh Tinh như thế nhỉ?
 

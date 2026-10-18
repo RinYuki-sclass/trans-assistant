@@ -1,0 +1,56 @@
+{
+  "chapter": 83,
+  "title": "Thấu hiểu",
+  "total_paragraphs": 278,
+  "scenes": [
+    {
+      "scene_id": 1,
+      "name": "Ký tên và cuộc gọi quấy rối qua quang não",
+      "paragraphs_range": [1, 63],
+      "characters": ["Đào Dã", "Tuế Dư An"],
+      "locked_pronouns": {
+        "Đào Dã": {"narrative": "cậu", "dialogue_self": "tôi / bố mày / tao", "dialogue_target": "anh / tên biến thái"},
+        "Tuế Dư An": {"narrative": "anh", "dialogue_self": "tôi", "dialogue_target": "cậu / thỏ con"}
+      }
+    },
+    {
+      "scene_id": 2,
+      "name": "Đào Dã xem phim xác nhận giới tính trong vô vọng",
+      "paragraphs_range": [64, 107],
+      "characters": ["Đào Dã"],
+      "locked_pronouns": {
+        "Đào Dã": {"narrative": "cậu", "dialogue_self": "mày / tao", "dialogue_target": "Tuế Dư An"}
+      }
+    },
+    {
+      "scene_id": 3,
+      "name": "Cưỡi ngựa, nhà cũ bị cháy và nỗi đau đánh mất thân phận",
+      "paragraphs_range": [108, 148],
+      "characters": ["Đào Dã", "Vệ sĩ"],
+      "locked_pronouns": {
+        "Đào Dã": {"narrative": "cậu", "dialogue_self": "tôi", "dialogue_target": "người ngoài"},
+        "Vệ sĩ": {"narrative": "vệ sĩ", "dialogue_self": "tôi", "dialogue_target": "Tuế tổng"}
+      }
+    },
+    {
+      "scene_id": 4,
+      "name": "Thỏ con say rượu và lời xin lỗi chân thành của Tuế Dư An",
+      "paragraphs_range": [149, 183],
+      "characters": ["Đào Dã", "Tuế Dư An"],
+      "locked_pronouns": {
+        "Đào Dã": {"narrative": "cậu", "dialogue_self": "tôi", "dialogue_target": "anh / đồ đại biến thái"},
+        "Tuế Dư An": {"narrative": "anh", "dialogue_self": "tôi", "dialogue_target": "cậu / em / thỏ con"}
+      }
+    },
+    {
+      "scene_id": 5,
+      "name": "Sáng hôm sau, đùa bỡn và cuộc đối thoại về khu ổ chuột",
+      "paragraphs_range": [184, 278],
+      "characters": ["Đào Dã", "Tuế Dư An"],
+      "locked_pronouns": {
+        "Đào Dã": {"narrative": "cậu", "dialogue_self": "tôi / bố mày / ông đây", "dialogue_target": "anh / tên biến thái"},
+        "Tuế Dư An": {"narrative": "anh", "dialogue_self": "tôi", "dialogue_target": "cậu / thỏ con"}
+      }
+    }
+  ]
+}

@@ -37,5 +37,11 @@ Tài liệu này xác định các quy tắc cốt lõi áp dụng cho AI Code A
 4. **Quản lý Đại từ & Nhân vật (Pronoun Binding):**
    - Tuân thủ nghiêm ngặt ma trận đại từ của từng dự án trong `novel_projects/<slug>/AGENTS.md` và `.agents/rules/novel_pronoun_conventions.md`.
 
-5. **Định dạng thoại Manhwa:**
+5. **Phân định tuyệt đối giữa Lời thoại trực tiếp vs Trần thuật / Độc thoại nội tâm:**
+   - **Lời thoại trực tiếp trong ngoặc kép `“...”`:** Tuân thủ ngữ cảnh cảm xúc của nhân vật (khi phẫn nộ, chửi bới có thể dùng `“mày - tao”`, `“ngươi - ta”` theo quy chuẩn từng dự án).
+   - **Trần thuật / Độc thoại nội tâm không ngoặc kép:** **TUYỆT ĐỐI CẤM** đem đại từ đối thoại ngôi 2/ngôi 1 (`mày`, `tao`) vào câu trần thuật hoặc suy nghĩ nội tâm ngôi 3, tránh gây hiện tượng "đá ngôi" phi logic.
+   - *Ví dụ sai:* `Mày dựa vào cái thớ gì mà dám ghét cậu chứ!` (lẫn lộn `mày` ngôi 2 và `cậu` ngôi 3).
+   - *Ví dụ đúng chuẩn ngôi 3:* `Hắn dựa vào cái thớ gì mà dám ghét cậu chứ!`
+
+6. **Định dạng thoại Manhwa:**
    - Tuân thủ cấu trúc `[Người nói/narrator]` kèm KR: và câu dịch VI theo đúng [.agents/rules/manhwa_translation.md](file:///d:/Nhung/RIDI/trans-assistant/.agents/rules/manhwa_translation.md).

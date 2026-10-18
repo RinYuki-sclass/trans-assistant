@@ -1,0 +1,50 @@
+{
+  "chapter": 71,
+  "total_paragraphs": 252,
+  "scenes": [
+    {
+      "scene_id": "scene_1",
+      "name": "Bấm huyệt tại tiệm Lão Vương: Tuế Dư An rên rỉ khiêu khích & Đào Dã bóp cổ đe dọa",
+      "para_range": [0, 85],
+      "characters": ["Đào Dã", "Tuế Dư An", "Lão Vương", "Lục Lục"],
+      "locked_pronouns": {
+        "Đào Dã": "cậu / Đào Dã",
+        "Tuế Dư An": "anh / Tuế Dư An / hắn",
+        "Lão Vương": "ông / Lão Vương / sư phụ"
+      },
+      "dialogue_rules": {
+        "Đào Dã -> Tuế Dư An": "tôi - anh / 'Còn dám phát dâm nữa, tao bóp chết mày.'",
+        "Tuế Dư An -> Đào Dã": "tôi - cậu / Tiểu Đào"
+      }
+    },
+    {
+      "scene_id": "scene_2",
+      "name": "Lời đề nghị bao dưỡng, đổi cánh tay máy & Đào Dã nổi trận lôi đình cự tuyệt",
+      "para_range": [86, 175],
+      "characters": ["Đào Dã", "Tuế Dư An", "Lão Vương"],
+      "locked_pronouns": {
+        "Đào Dã": "cậu / Đào Dã",
+        "Tuế Dư An": "anh / Tuế Dư An / hắn",
+        "Lão Vương": "ông / Lão Vương / sư phụ"
+      },
+      "dialogue_rules": {
+        "Đào Dã <-> Tuế Dư An": "tôi - anh (tuyệt đối không xưng em)"
+      }
+    },
+    {
+      "scene_id": "scene_3",
+      "name": "Tâm sự cùng sư phụ Lão Vương, cuộc gọi của Lý Tỉnh & Hiện thực tàn khốc khu lán sắt",
+      "para_range": [176, 251],
+      "characters": ["Đào Dã", "Lão Vương", "Lý Tỉnh"],
+      "locked_pronouns": {
+        "Đào Dã": "cậu / Đào Dã",
+        "Lão Vương": "ông / Lão Vương / sư phụ",
+        "Lý Tỉnh": "cậu ta / Lý Tỉnh"
+      },
+      "dialogue_rules": {
+        "Đào Dã <-> Lão Vương": "con - sư phụ",
+        "Đào Dã <-> Lý Tỉnh": "tôi - cậu"
+      }
+    }
+  ]
+}

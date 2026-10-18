@@ -4,6 +4,7 @@ import json
 import uuid
 import threading
 import time
+import shutil
 import urllib.parse
 from typing import Dict, List, Optional
 
@@ -21,7 +22,7 @@ from starlette.middleware import Middleware
 from starlette.middleware.cors import CORSMiddleware
 import uvicorn
 
-from crawler.general_crawler import detect_and_get_manga_info, detect_and_get_chapter_images
+from crawler.general_crawler import detect_and_get_manga_info, detect_and_get_chapter_images, search_manga_haccbl
 from crawler.haccbl_crawler import download_chapter_images, get_scraper, clean_slug
 
 # Thư mục dữ liệu
@@ -207,7 +208,7 @@ async def api_crawl_info(request):
     except Exception as e:
         return JSONResponse({"status": "error", "message": str(e)}, status_code=500)
 
-def background_download_worker(task_id: str, manga_title: str, manga_slug: str, chapter_slug: str, chapter_url: str):
+def background_download_worker(task_id: str, manga_title: str, manga_slug: str, chapter_slug: str, chapter_url: str, manga_url: str = ""):
     """Worker tải ảnh chapter chạy trong background thread"""
     try:
         with downloads_lock:
@@ -223,7 +224,8 @@ def background_download_worker(task_id: str, manga_title: str, manga_slug: str, 
         save_dir = os.path.join(LIBRARY_DIR, manga_slug, chapter_slug)
         os.makedirs(save_dir, exist_ok=True)
 
-        # Lưu info.json cho manga
+        # Lưu info.json cho manga (kèm source_url để phục vụ kiểm tra chương mới)
+        import re
         manga_dir = os.path.join(LIBRARY_DIR, manga_slug)
         info_path = os.path.join(manga_dir, "info.json")
         info_data = {"slug": manga_slug, "title": manga_title}
@@ -234,6 +236,13 @@ def background_download_worker(task_id: str, manga_title: str, manga_slug: str, 
             except Exception:
                 pass
         info_data["title"] = manga_title
+        if manga_url:
+            info_data["source_url"] = manga_url
+        elif "source_url" not in info_data:
+            m_manga = re.match(r'(https?://[^/]+/manga/[^/]+/)', chapter_url)
+            if m_manga:
+                info_data["source_url"] = m_manga.group(1)
+
         with open(info_path, "w", encoding="utf-8") as f:
             json.dump(info_data, f, ensure_ascii=False, indent=2)
 
@@ -271,6 +280,7 @@ async def api_crawl_download(request):
         chapter_title = data.get("chapter_title", "Chapter").strip()
         manga_slug = data.get("manga_slug") or clean_slug(manga_title)
         chapter_slug = data.get("chapter_slug") or clean_slug(chapter_title)
+        manga_url = data.get("manga_url", "").strip()
 
         if not chapter_url:
             return JSONResponse({"status": "error", "message": "Thiếu chapter_url"}, status_code=400)
@@ -294,7 +304,7 @@ async def api_crawl_download(request):
 
         thread = threading.Thread(
             target=background_download_worker,
-            args=(task_id, manga_title, manga_slug, chapter_slug, chapter_url),
+            args=(task_id, manga_title, manga_slug, chapter_slug, chapter_url, manga_url),
             daemon=True
         )
         thread.start()
@@ -453,6 +463,92 @@ async def api_proxy_image(request):
         print(f"[proxy-image] Lỗi: {e}")
         return Response(status_code=500)
 
+async def api_crawl_search(request):
+    """Tìm kiếm truyện tranh trực tiếp từ nguồn hỗ trợ"""
+    try:
+        q = request.query_params.get("q", "").strip()
+        if not q:
+            return JSONResponse({"status": "error", "message": "Vui lòng nhập từ khóa tìm kiếm"}, status_code=400)
+        results = search_manga_haccbl(q)
+        return JSONResponse({"status": "success", "results": results, "total": len(results)})
+    except Exception as e:
+        return JSONResponse({"status": "error", "message": str(e)}, status_code=500)
+
+async def api_library_check_updates(request):
+    """
+    Quét các bộ truyện trong thư viện local, kiểm tra xem nguồn có chương mới hay không
+    """
+    try:
+        updates = []
+        if not os.path.exists(LIBRARY_DIR):
+            return JSONResponse({"status": "success", "updates": []})
+
+        for item in sorted(os.listdir(LIBRARY_DIR)):
+            manga_path = os.path.join(LIBRARY_DIR, item)
+            if not os.path.isdir(manga_path):
+                continue
+
+            info_file = os.path.join(manga_path, "info.json")
+            if not os.path.exists(info_file):
+                continue
+
+            try:
+                with open(info_file, "r", encoding="utf-8") as f:
+                    info_data = json.load(f)
+            except Exception:
+                continue
+
+            source_url = info_data.get("source_url", "").strip()
+            if not source_url:
+                continue
+
+            local_chapters = [
+                d for d in os.listdir(manga_path)
+                if os.path.isdir(os.path.join(manga_path, d))
+            ]
+
+            try:
+                remote_info = detect_and_get_manga_info(source_url)
+                remote_chapters = remote_info.get("chapters", [])
+                
+                local_slugs = set(local_chapters)
+                new_chapters = [ch for ch in remote_chapters if ch.get("slug") not in local_slugs]
+
+                if new_chapters:
+                    updates.append({
+                        "manga_slug": item,
+                        "manga_title": info_data.get("title", item),
+                        "source_url": source_url,
+                        "cover": remote_info.get("cover", ""),
+                        "local_count": len(local_chapters),
+                        "remote_count": len(remote_chapters),
+                        "new_chapters_count": len(new_chapters),
+                        "new_chapters": new_chapters
+                    })
+            except Exception as check_err:
+                print(f"[check-update] Bỏ qua {item}: {check_err}")
+
+        return JSONResponse({"status": "success", "updates": updates, "total_updates": len(updates)})
+    except Exception as e:
+        return JSONResponse({"status": "error", "message": str(e)}, status_code=500)
+
+async def api_library_delete_manga(request):
+    """Xóa một bộ truyện khỏi thư viện local"""
+    try:
+        data = await request.json()
+        slug = data.get("slug", "").strip()
+        if not slug:
+            return JSONResponse({"status": "error", "message": "Thiếu thông tin slug"}, status_code=400)
+
+        target_dir = os.path.join(LIBRARY_DIR, slug)
+        if os.path.exists(target_dir) and os.path.isdir(target_dir):
+            shutil.rmtree(target_dir)
+            return JSONResponse({"status": "success", "message": f"Đã xóa thành công {slug}"})
+
+        return JSONResponse({"status": "error", "message": "Không tìm thấy bộ truyện trên máy"}, status_code=404)
+    except Exception as e:
+        return JSONResponse({"status": "error", "message": str(e)}, status_code=500)
+
 async def serve_index(request):
     index_file = os.path.join(STATIC_READER_DIR, "index.html")
     return FileResponse(index_file)
@@ -464,6 +560,9 @@ async def serve_index(request):
 routes = [
     Route("/", serve_index),
     Route("/api/library", api_library, methods=["GET"]),
+    Route("/api/library/check-updates", api_library_check_updates, methods=["POST"]),
+    Route("/api/library/delete", api_library_delete_manga, methods=["POST"]),
+    Route("/api/crawl/search", api_crawl_search, methods=["GET"]),
     Route("/api/crawl/info", api_crawl_info, methods=["POST"]),
     Route("/api/crawl/download", api_crawl_download, methods=["POST"]),
     Route("/api/crawl/tasks", api_crawl_tasks, methods=["GET"]),

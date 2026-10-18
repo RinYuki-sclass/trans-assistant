@@ -1,0 +1,55 @@
+{
+  "chapter": 81,
+  "title": "你我 (Cậu và tôi)",
+  "total_paragraphs": 326,
+  "scenes": [
+    {
+      "scene_id": "scene_01",
+      "name": "Nụ hôn nảy lửa bên bờ sông & Điểm mẫn cảm bị khai phá",
+      "paragraph_range": "1-80",
+      "setting": "Bờ sông ngoại ô trong đêm",
+      "characters": ["Đào Dã", "Tuế Dư An"],
+      "pronouns": {
+        "Đào Dã": "xưng tao, gọi mày, bối rối trước sự run rẩy tê dại của cơ thể",
+        "Tuế Dư An": "tấn công dồn dập vào vành tai và vòm họng Đào Dã"
+      },
+      "tone": "Nồng nhiệt, kích thích, rực lửa dục vọng"
+    },
+    {
+      "scene_id": "scene_02",
+      "name": "Trở về biệt thự & Màn giằng co xưng hô 'Cậu và Tôi'",
+      "paragraph_range": "81-190",
+      "setting": "Trang viên biệt thự của Tuế gia",
+      "characters": ["Đào Dã", "Tuế Dư An", "Vệ sĩ"],
+      "pronouns": {
+        "Đào Dã": "vẫn giữ sự cộc cằn, răn đe không cho Tuế Dư An làm càn",
+        "Tuế Dư An": "tìm cách tiếp cận, trêu chọc làm dịu bớt gai góc của Đào Dã"
+      },
+      "tone": "Giằng xé nội tâm, ranh giới giữa thù hận và sự gắn kết"
+    },
+    {
+      "scene_id": "scene_03",
+      "name": "Bữa ăn gia đình họ Tuế & Thu xếp tương lai cho Lý Tỉnh",
+      "paragraph_range": "191-255",
+      "setting": "Biệt thự của Tuế Ứng Minh",
+      "characters": ["Đào Dã", "Tuế Ứng Minh", "Lý Tỉnh"],
+      "pronouns": {
+        "Đào Dã": "dưới thân phận anh cả Tuế Dư An, tạo điều kiện cho bạn thân Lý Tỉnh đi học",
+        "Lý Tỉnh": "cảm kích, Tuế Ứng Minh ghen tuông trẻ con"
+      },
+      "tone": "Ấm áp, giải tỏa gút thắt ân nghĩa quá khứ với Lý Tỉnh"
+    },
+    {
+      "scene_id": "scene_04",
+      "name": "Màn quỳ gối quy phục & Khởi đầu cho sự chuyển giao tâm lý",
+      "paragraph_range": "256-326",
+      "setting": "Phòng ngủ trang viên biệt thự",
+      "characters": ["Đào Dã", "Tuế Dư An"],
+      "pronouns": {
+        "Tuế Dư An": "chầm chậm quỳ gối quy phục dưới chân Đào Dã",
+        "Đào Dã": "nghiêng đầu ngầm cho phép, nhịp tim rung động không còn phân định rạch ròi"
+      },
+      "tone": "Kích thích tột cùng, thuần phục, khép lại Phase 3 mở ra cao trào Arc 3"
+    }
+  ]
+}

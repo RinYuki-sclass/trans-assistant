@@ -1,0 +1,67 @@
+{
+  "chapter": 79,
+  "title": "追逃 (Đuổi bắt)",
+  "total_paragraphs": 292,
+  "scenes": [
+    {
+      "scene_id": "scene_01",
+      "name": "Đêm mưa lạnh ngắt & Đào Dã trở về căn nhà cũ",
+      "paragraph_range": "1-57",
+      "setting": "Cổng nhà cũ họ Tuế, trang viên biệt thự và căn hộ cũ của Đào Dã",
+      "characters": ["Đào Dã", "Tuế Dư An", "A Bưu", "Ninh Tâm"],
+      "pronouns": {
+        "Đào Dã": "cậu, Tuế tổng",
+        "Tuế Dư An": "anh, kẻ lưu vong ngồi co ro trong quán ăn nhanh 24h"
+      },
+      "tone": "Lạnh lẽo, tương phản, quyết tâm chấp nhận thực tế để sinh tồn"
+    },
+    {
+      "scene_id": "scene_02",
+      "name": "Nỗi xót xa tiệm thuốc Lão Vương & Mánh khóe lấy khuy măng sét kim cương",
+      "paragraph_range": "58-120",
+      "setting": "Tiệm thuốc của Lão Vương & Biệt thự của Tuế Ứng Minh",
+      "characters": ["Đào Dã", "Lão Vương", "Tuế Dư An", "Tuế Ứng Minh"],
+      "pronouns": {
+        "Đào Dã": "thấy người học việc mới được khen mà lòng trĩu nặng",
+        "Tuế Dư An": "lừa lấy khuy măng sét kim cương của em trai Tuế Ứng Minh"
+      },
+      "tone": "Trầm lắng xót xa xen lẫn sự tháo vát kiên cường của Tuế Dư An"
+    },
+    {
+      "scene_id": "scene_03",
+      "name": "Chợ đồ cũ, phỏng vấn xuất sắc & Đòn triệt hạ của Đào Dã",
+      "paragraph_range": "121-185",
+      "setting": "Khu chợ đồ cũ & Công ty phỏng vấn xin việc",
+      "characters": ["Tuế Dư An", "Người bán hàng", "Người phỏng vấn", "Đào Dã", "Kha Mẫn"],
+      "pronouns": {
+        "Tuế Dư An": "thể hiện phong thái lãnh đạo xuất sắc",
+        "Đào Dã": "hạ lệnh tước đoạt công việc mới của Tuế Dư An"
+      },
+      "tone": "Thực tế, hài hước mua sắm chợ đồ cũ, gay gắt đuổi bắt"
+    },
+    {
+      "scene_id": "scene_04",
+      "name": "Cải trang thành mỹ nhân & Trốn thoát qua cổng thành",
+      "paragraph_range": "186-272",
+      "setting": "Nhà vệ sinh công cộng & Trạm kiểm soát cổng thành Tuyên Thành",
+      "characters": ["Tuế Dư An (cải trang nữ)", "Đào Dã", "A Bưu", "Ninh Tâm", "Bảo vệ cổng thành"],
+      "pronouns": {
+        "Tuế Dư An": "mặc váy dài trắng, đội tóc giả xoăn, môi đỏ",
+        "Đào Dã": "phong tỏa cổng thành, kiểm tra gắt gao từng chiếc xe"
+      },
+      "tone": "Hồi hộp, kịch tính nghẹt thở, màn đánh tráo ngoạn mục"
+    },
+    {
+      "scene_id": "scene_05",
+      "name": "Đêm trăng nông thôn & Cánh tay máy bên cạnh ghế ngồi",
+      "paragraph_range": "273-292",
+      "setting": "Trên chiếc xe khách nhỏ chạy về hướng Phong Thành trong đêm",
+      "characters": ["Tuế Dư An", "Đào Dã"],
+      "pronouns": {
+        "Tuế Dư An": "rơi nước mắt nhớ mẹ, sau đó chết lặng trong sợ hãi tột cùng",
+        "Đào Dã": "áo sơ mi trắng, cánh tay máy đen nhám, ánh mắt sáng quắc nhìn trừng trừng"
+      },
+      "tone": "Đỉnh cao kinh dị kịch tính, nút thắt bất ngờ tột độ"
+    }
+  ]
+}

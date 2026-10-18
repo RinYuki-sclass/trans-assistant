@@ -1,0 +1,55 @@
+{
+  "chapter": 78,
+  "title": "取代 (Thay thế)",
+  "total_paragraphs": 215,
+  "scenes": [
+    {
+      "scene_id": "scene_01",
+      "name": "Kiểm chứng thân phận & Lời chia tay của Ân Thống Lục Lục",
+      "paragraph_range": "1-34",
+      "setting": "Trang viên biệt thự của Tuế Dư An",
+      "characters": ["Đào Dã", "Người làm vườn", "Hệ thống Lục Lục"],
+      "pronouns": {
+        "Đào Dã": "xưng tôi/tao, gọi người làm vườn, gọi Lục Lục là ân thống",
+        "Lục Lục": "giải trừ ràng buộc, chúc Đào Dã hạnh phúc"
+      },
+      "tone": "Kỳ lạ, thỏa mãn, lắng đọng chia tay hệ thống"
+    },
+    {
+      "scene_id": "scene_02",
+      "name": "Tuế Dư An trở về & Màn giam giữ tại cổng trang viên",
+      "paragraph_range": "35-102",
+      "setting": "Cổng trang viên biệt thự",
+      "characters": ["Đào Dã", "Tuế Dư An", "Vệ sĩ"],
+      "pronouns": {
+        "Đào Dã": "xưng tôi, gọi anh, tự xưng 'Tôi tên là Tuế Dư An'",
+        "Tuế Dư An": "bàng hoàng, gào thét chất vấn khi bị chính vệ sĩ của mình bắt giữ"
+      },
+      "tone": "Bàng hoàng, chấn động, lật ngược thế cờ"
+    },
+    {
+      "scene_id": "scene_03",
+      "name": "Cuộc gặp gỡ cha con tại Tuế gia & Sự ghẻ lạnh tại công ty Phòng Minh",
+      "paragraph_range": "103-172",
+      "setting": "Trà thất nhà cũ họ Tuế & Tập đoàn của Phòng Minh",
+      "characters": ["Đào Dã", "Tuế Thủ Thường", "Tuế Dư An", "Phòng Minh", "Đỗ Phong", "Bảo vệ"],
+      "pronouns": {
+        "Đào Dã": "xưng con, gọi ba với Tuế Thủ Thường",
+        "Tuế Dư An": "tuyệt vọng giải thích với Phòng Minh và Đỗ Phong, bị đánh đập tơi tả"
+      },
+      "tone": "Tương phản tột cùng giữa đỉnh cao quyền lực và hố sâu tuyệt vọng"
+    },
+    {
+      "scene_id": "scene_04",
+      "name": "Tuyệt vọng trong mưa bão & Lời chào bước tới đáy xã hội",
+      "paragraph_range": "173-215",
+      "setting": "Cổng nhà cũ họ Tuế dưới cơn mưa tầm tã",
+      "characters": ["Tuế Dư An", "Đào Dã", "Tuế Thủ Thường", "Bảo vệ", "Người hầu"],
+      "pronouns": {
+        "Tuế Dư An": "khóc nghẹn gọi ba, bị cha ruột coi như kẻ điên",
+        "Đào Dã": "che ô, tay máy gạt tóc, dịu dàng tàn nhẫn: 'Chào mừng anh bước tới thế giới của những kẻ dưới đáy xã hội'"
+      },
+      "tone": "Bi tráng, tàn nhẫn, đỉnh cao kịch tính của màn hoán đổi số phận"
+    }
+  ]
+}

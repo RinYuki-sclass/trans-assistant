@@ -1,0 +1,65 @@
+{
+  "chapter": 77,
+  "title": "奖励（加更） (Phần thưởng)",
+  "total_paragraphs": 150,
+  "scenes": [
+    {
+      "scene_id": "scene_01",
+      "name": "Lục Lục trở về & Phần thưởng hoán đổi thân phận chấn động",
+      "paragraph_range": "1-47",
+      "setting": "Phòng ngủ Đào Dã trong biệt thự",
+      "characters": ["Đào Dã", "Hệ thống Lục Lục"],
+      "pronouns": {
+        "Đào Dã": "xưng tao/tôi, gọi mày/cậu/Lục Lục",
+        "Lục Lục": "xưng tôi, gọi cậu/ký chủ"
+      },
+      "tone": "Bất ngờ, hài hước, xúc động trước đại chiến hệ thống, dứt khoát đưa ra yêu cầu trừng phạt Tuế Dư An"
+    },
+    {
+      "scene_id": "scene_02",
+      "name": "Bạo loạn khu lán sắt & Cơn thịnh nộ sắt máu của Tuế Dư An",
+      "paragraph_range": "48-72",
+      "setting": "Cổng vào khu lán sắt Tuyên Thành",
+      "characters": ["Tuế Dư An", "Vương Lực", "Đám đông bạo loạn"],
+      "pronouns": {
+        "Tuế Dư An": "xưng tôi, ra lệnh dứt khoát lạnh lùng",
+        "Vương Lực": "xưng tôi, gọi Tuế tổng"
+      },
+      "tone": "Căng thẳng nghẹt thở, uy thế bá chủ tối thượng của nhà họ Tuế"
+    },
+    {
+      "scene_id": "scene_03",
+      "name": "Khởi động tiến trình nhận thức: Quyết định bước lên đỉnh cao",
+      "paragraph_range": "73-98",
+      "setting": "Phòng ngủ Đào Dã",
+      "characters": ["Đào Dã", "Lục Lục", "Người hầu"],
+      "pronouns": {
+        "Đào Dã": "xưng tôi, thái độ lạnh lùng với người hầu, hồi hộp dõi theo thanh tiến độ"
+      },
+      "tone": "Hồi hộp, quyết tâm sắt đá, thanh tiến độ bắt đầu nhảy số"
+    },
+    {
+      "scene_id": "scene_04",
+      "name": "Trực thăng bao vây, một phát súng định đoạt cục diện",
+      "paragraph_range": "99-132",
+      "setting": "Khu lán sắt",
+      "characters": ["Tuế Dư An", "Vương Lực", "Tên đầu sỏ bạo loạn"],
+      "pronouns": {
+        "Tuế Dư An": "phát súng đoạt mạng dứt khoát, an bài viện phúc lợi và đuổi kẻ vô lại khỏi Tuyên Thành"
+      },
+      "tone": "Hành động đỉnh cao, quyết đoán, bản lĩnh thực sự của người thừa kế họ Tuế"
+    },
+    {
+      "scene_id": "scene_05",
+      "name": "Giao thoa định mệnh: 100% hoàn tất & Nỗi khao khát tình yêu",
+      "paragraph_range": "133-150",
+      "setting": "Song song giữa phòng ngủ Đào Dã và trên xe Tuế Dư An",
+      "characters": ["Đào Dã", "Tuế Dư An", "Lục Lục", "Tài xế"],
+      "pronouns": {
+        "Đào Dã": "thanh tiến độ đạt 100%",
+        "Tuế Dư An": "lần này, anh muốn có được tình yêu của chú thỏ con"
+      },
+      "tone": "Cao trào kịch tính, bùng nổ nút thắt xoay chuyển toàn bộ cốt truyện"
+    }
+  ]
+}

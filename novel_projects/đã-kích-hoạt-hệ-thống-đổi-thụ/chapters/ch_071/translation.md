@@ -1,6 +1,4 @@
-# Chương 71: Bao nuôi
-
-Lục Lục bây giờ nhìn thấy Tuế Dư An chẳng khác nào nhìn thấy đấng cứu thế.
+﻿Lục Lục bây giờ nhìn thấy Tuế Dư An chẳng khác nào nhìn thấy đấng cứu thế.
 
 Xin hắn nhất định phải bất khuất kiên trì, không biết liêm sỉ, vứt bỏ thể diện, biến thái lại càng biến thái hơn nữa.
 

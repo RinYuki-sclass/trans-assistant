@@ -1,0 +1,63 @@
+{
+  "chapter": 74,
+  "total_paragraphs": 259,
+  "scenes": [
+    {
+      "scene_id": "scene_1",
+      "name": "Đào Dã bước lên giường, ký ức tuổi thơ viện phúc lợi & Sự tự an ủi chua chát",
+      "para_range": [0, 40],
+      "characters": ["Đào Dã", "Tuế Dư An"],
+      "locked_pronouns": {
+        "Đào Dã": "cậu / Đào Dã",
+        "Tuế Dư An": "anh / Tuế Dư An / hắn"
+      },
+      "dialogue_rules": {
+        "Đào Dã -> Tuế Dư An": "tôi - anh / trong lòng: tao - mày",
+        "Tuế Dư An -> Đào Dã": "tôi - em"
+      }
+    },
+    {
+      "scene_id": "scene_2",
+      "name": "Trường đoạn quan hệ tình dục méo mó: Tuế Dư An coi đau đớn là đặc ân",
+      "para_range": [41, 140],
+      "characters": ["Đào Dã", "Tuế Dư An"],
+      "locked_pronouns": {
+        "Đào Dã": "cậu / Đào Dã",
+        "Tuế Dư An": "anh / Tuế Dư An / hắn"
+      },
+      "dialogue_rules": {
+        "Đào Dã -> Tuế Dư An": "tao - mày / 'Tuế Dư An, tao đụ cả lò nhà mày!'",
+        "Tuế Dư An -> Đào Dã": "tôi - em / tiếng rên rỉ thỏa mãn"
+      }
+    },
+    {
+      "scene_id": "scene_3",
+      "name": "Xung đột về cánh tay máy đặt làm riêng & Sự cự tuyệt lòng từ thiện bố thí",
+      "para_range": [141, 195],
+      "characters": ["Đào Dã", "Tuế Dư An"],
+      "locked_pronouns": {
+        "Đào Dã": "cậu / Đào Dã",
+        "Tuế Dư An": "anh / Tuế Dư An / hắn"
+      },
+      "dialogue_rules": {
+        "Đào Dã -> Tuế Dư An": "tôi - anh / 'Ai cần anh bố thí!'",
+        "Tuế Dư An -> Đào Dã": "tôi - em / 'Đây là quà tôi tặng em'"
+      }
+    },
+    {
+      "scene_id": "scene_4",
+      "name": "Tháo dỡ sửa chữa cánh tay máy, Tuế Dư An dịu dàng băng bó sát trùng cho Đào Dã",
+      "para_range": [196, 258],
+      "characters": ["Đào Dã", "Tuế Dư An", "Người hầu / Quản gia"],
+      "locked_pronouns": {
+        "Đào Dã": "cậu / Đào Dã",
+        "Tuế Dư An": "anh / Tuế Dư An / hắn",
+        "Người hầu": "người hầu / gã"
+      },
+      "dialogue_rules": {
+        "Tuế Dư An -> Đào Dã": "tôi - em ('Đau không?')",
+        "Đào Dã -> Tuế Dư An": "tôi - anh"
+      }
+    }
+  ]
+}

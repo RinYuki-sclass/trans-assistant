@@ -1,6 +1,6 @@
 {
   "title": "Tiến Hành Cứu Rỗi Phản Diện Bi Tình [Khoái Xuyên]",
-  "author": "碉堡堡 (Điêu Bảo Bảo / Bunker / Chấn Khất)",
+  "author": "碉堡堡 (Điêu Bảo Bảo / Bunker)",
   "description": "Trong tiểu thuyết, bên cạnh nhân vật chính hưởng hết phúc vận trời ban, không thể thiếu những nhân vật phản diện mang số mệnh bi thương cường đại. Bọn họ hoặc kinh tài tuyệt diễm, hoặc quyền thế ngập trời, nhưng vì sự cố chấp điên cuồng với nhân vật chính mà trở nên hoang tưởng, phát điên, cuối cùng biến thành kẻ bị vạn người chê cười ghét bỏ.\n\nCác tác giả tra tấn thể xác và tinh thần bọn họ, chết không chỗ chôn, sống đời cay đắng, chưa từng thấy ánh mặt trời, chưa từng được ai yêu thương, chẳng biết ngọt ngào là gì. Thế giới căm ghét bọn họ, xa lánh bọn họ, không bố thí lấy một tia dịu dàng.\n\nĐộc giả khóc ròng cầu xin tác giả cho phản diện một cái kết đẹp, đừng ngược đãi nữa. Nhưng tác giả vô lương thản nhiên: Phản diện à, đương nhiên càng thảm càng tốt, càng đắng càng hay, đoạn tay gãy chân càng xuất sắc! #Độc giả khóc càng thảm, tác giả cười càng tươi#\n\nThế nhưng, có lẽ oán khí của độc giả quá nặng, một ngày nọ tác giả vô lương bỗng bị trói buộc với hệ thống.\nHệ thống: Xin hãy cứu rỗi bọn họ.\nTác giả: Ai cơ?\nHệ thống: Phản diện của ngươi.\nTác giả: Cái gì cơ?!\nHệ thống móc từ túi ra một đống hồ sơ: Nào, phản diện bị hủy dung này là của ngươi, phản diện gãy chân này là của ngươi, phản diện phát điên bị thiên hạ thóa mạ này cũng là của ngươi...\nTác giả quỳ sụp xuống hộc máu: Xin hãy tha cho tôi!",
   "slug": "tiến-hành-cứu-rỗi-phản-diện-bi-tình",
   "source_lang": "Chinese",
@@ -13,5 +13,8 @@
   "confidence_threshold": 0.8,
   "chunk_size": 20,
   "created_at": "2026-10-11T20:40:00+07:00",
-  "chapters_count": 86
+  "chapters_count": 86,
+  "is_completed": false,
+  "is_dropped": false,
+  "drop_reason": ""
 }

@@ -1,0 +1,51 @@
+{
+  "chapter": 73,
+  "total_paragraphs": 350,
+  "scenes": [
+    {
+      "scene_id": "scene_1",
+      "name": "Xung đột đỉnh điểm: Đào Dã chất vấn bóp cổ Tuế Dư An & Cơn đau đớn rạo rực của kẻ Masochist",
+      "para_range": [0, 95],
+      "characters": ["Đào Dã", "Tuế Dư An", "Vệ sĩ"],
+      "locked_pronouns": {
+        "Đào Dã": "cậu / Đào Dã",
+        "Tuế Dư An": "anh / Tuế Dư An / hắn"
+      },
+      "dialogue_rules": {
+        "Đào Dã -> Tuế Dư An": "tao - mày ('Đau! Bây giờ mày biết đau rồi đấy!', 'Tuế Dư An! Tao trêu chọc mày à!')",
+        "Tuế Dư An -> Đào Dã": "tôi - cậu ('Cậu không hề trêu chọc tôi')"
+      }
+    },
+    {
+      "scene_id": "scene_2",
+      "name": "Vệ sĩ ngăn cản Đào Dã rời đi, Bác sĩ gia đình đến khâu vết thương & Tuế Dư An giam lỏng Đào Dã",
+      "para_range": [96, 220],
+      "characters": ["Đào Dã", "Tuế Dư An", "Bác sĩ", "Quản gia", "Vệ sĩ"],
+      "locked_pronouns": {
+        "Đào Dã": "cậu / Đào Dã",
+        "Tuế Dư An": "anh / Tuế Dư An / hắn",
+        "Bác sĩ": "ông / bác sĩ",
+        "Quản gia": "quản gia / ông"
+      },
+      "dialogue_rules": {
+        "Tuế Dư An -> Vệ sĩ": "Cản cậu ta lại",
+        "Đào Dã -> Tuế Dư An": "tao - mày / 'Cút ra!'"
+      }
+    },
+    {
+      "scene_id": "scene_3",
+      "name": "Cuộc sống giam lỏng trong lồng son, Đào Dã lạnh lùng đối thoại & Kế hoạch tương lai",
+      "para_range": [221, 349],
+      "characters": ["Đào Dã", "Tuế Dư An", "Lục Lục"],
+      "locked_pronouns": {
+        "Đào Dã": "cậu / Đào Dã",
+        "Tuế Dư An": "anh / Tuế Dư An / hắn",
+        "Lục Lục": "nó / Lục Lục"
+      },
+      "dialogue_rules": {
+        "Đào Dã <-> Tuế Dư An": "tôi - anh / tao - mày",
+        "Đào Dã <-> Lục Lục": "tao - mày"
+      }
+    }
+  ]
+}

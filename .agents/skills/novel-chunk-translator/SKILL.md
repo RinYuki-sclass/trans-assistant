@@ -48,6 +48,11 @@ Khi dịch các bộ truyện thuộc `novel_projects/**`, để không bị b�
 * **Tiếng lòng vs Lời nói:** Phân tách rõ ràng giữa tiếng lòng đọc tâm trong ngoặc vuông `【...】` và lời nói phát ra ngoài miệng trong ngoặc kép `“...”`.
 * **Khóa Xưng Hô Phân Cảnh (Scene Pronoun Locking):** Trong cùng một cảnh đối thoại giữa 2 nhân vật, cặp xưng hô phải nhất quán xuyên suốt. CẤM câu trước gọi `"cậu"`, câu sau bỗng đổi thành `"ngươi"`.
 * **Kế thừa đại từ cho câu phán xét không ngoặc kép:** Khi đoạn văn trần thuật tiếp nối lời thoại chứa đại từ ngôi 2 (`你` / `너`) mang tính phán xét, chất vấn trực tiếp đối phương, BẮT BUỘC phải kế thừa đại từ của câu thoại liền trước (`cậu` đi với `cậu`, `ngươi` đi với `ngươi`).
+* **Cấm rò rỉ mày/tao vào trần thuật nội tâm (Dialogue-to-Narrative Bleeding):**
+  - Khi nhân vật thoại giận dữ dùng `“mày - tao”` trong ngoặc kép `“...”`, các câu trần thuật hoặc suy nghĩ nội tâm liền kề (không có ngoặc kép) **TUYỆT ĐỐI KHÔNG ĐƯỢC** dịch thành `mày`, `tao`.
+  - Bắt buộc phải duy trì hệ quy chiếu ngôi thứ 3 (`hắn`, `anh`, `y`, `cậu`), tránh đá ngôi phi logic giữa ngôi 2 và ngôi 3.
+  - *Cấm:* `Mày dựa vào cái thớ gì mà dám ghét cậu chứ!` ➔ *Chuẩn:* `Hắn dựa vào cái thớ gì mà dám ghét cậu chứ!`.
+  - *Cấm:* `Là mày, Tuế Dư An, chính mày đã ép tao...` ➔ *Chuẩn:* `Chính Tuế Dư An hắn đã ép cậu...`.
 
 ---
 

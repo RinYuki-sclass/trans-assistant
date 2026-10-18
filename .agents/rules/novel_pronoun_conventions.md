@@ -113,3 +113,12 @@ Tùy thuộc vào thiết lập Thụ là **Cường Thụ (ngang tàng/lạnh l
 
 4. **Tuyệt đối không mang "tao - mày" vào bối cảnh quý tộc / tinh tế:**
    - Dù là đối đầu sinh tử, hãy dùng `ta - ngươi` hoặc danh xưng sắc lạnh để giữ trọn đẳng cấp của tác phẩm.
+
+5. **Cấm rò rỉ đại từ đối thoại (mày/tao/ngươi) vào trần thuật nội tâm (Dialogue-to-Narrative Bleeding):**
+   - Lời thoại trực tiếp nằm trong ngoặc kép `“...”` có thể dùng `“mày - tao”` khi nhân vật tức giận, chửi bới theo quy định của dự án.
+   - Các câu trần thuật hoặc dòng suy nghĩ nội tâm không có ngoặc kép **BẮT BUỘC** phải duy trì hệ quy chiếu đại từ ngôi thứ 3 (`hắn`, `anh`, `y`, `cậu`).
+   - Tuyệt đối không để xảy ra tình trạng trong cùng một câu trần thuật nội tâm vừa dùng `mày` (ngôi 2) vừa dùng `cậu` (ngôi 3) hoặc `tao` với tên ngôi 3.
+   - *Ví dụ sai:* `Mày dựa vào cái thớ gì mà dám ghét cậu chứ!` ➔ **SAI NGHIÊM TRỌNG**.
+   - *Ví dụ đúng:* `Hắn dựa vào cái thớ gì mà dám ghét cậu chứ!`
+   - *Ví dụ sai:* `Là mày, Tuế Dư An, chính mày đã ép tao bước lên con đường chẳng thẳng chẳng cong...` ➔ **SAI**.
+   - *Ví dụ đúng:* `Chính Tuế Dư An hắn đã ép cậu bước lên con đường chẳng thẳng chẳng cong...`

@@ -1,10 +1,8 @@
-# Chương 80: Chưa xong đâu
-
 Tầm mắt Đào Dã kín đáo dõi theo giọt nước mắt lăn dài kia một thoáng, cậu cũng không ngờ Tuế Dư An vì muốn chạy trốn mà có thể bất chấp đến mức độ này, loại người co được giãn được như thế này——quá đỗi nguy hiểm.
 
 Không có bất kỳ bối cảnh nào, chỉ dựa vào phỏng vấn mà đã có thể giành được vị trí trợ lý của một tập đoàn lớn, vị trí trợ lý phụ trách điều phối cấp trên xử lý công việc, đúng chuẩn là cán bộ dự bị cho vị trí lãnh đạo.
 
-Để hắn rời khỏi thành Tuyên, rời khỏi lòng bàn tay của cậu.
+Để hắn rời khỏi Tuyên Thành, rời khỏi lòng bàn tay của cậu.
 
 Chẳng cần tới 3 năm, hắn đã có thể leo lên thành Tuế tổng……
 
@@ -190,7 +188,7 @@ Cậu trừng trừng nhìn kẻ đang xách chiếc váy trắng, lộ ra hai c
 
 Tuế Dư An!
 
-Mày đừng để tao bắt được! Bằng không tao bóp chết tươi mày!
+Tốt nhất đừng để cậu bắt được! Bằng không cậu bóp chết tươi hắn!
 
 Hai người đuổi bắt nhau dọc theo bờ sông, mặt sông dưới ánh trăng tựa như một dải lụa mềm mại, mái tóc đen dài bay ngược ra sau theo từng bước chạy của Tuế Dư An lại là một dải lụa khác.
 
@@ -480,9 +478,9 @@ Vùng vẫy thế nào cũng không vùng dậy nổi, Tuế Dư An tuyệt vọ
 
 Đào Dã sau khi nghe thấy lời hắn nói sắc mặt bỗng chốc thay đổi dữ dội, nắm chặt lấy tay Tuế Dư An, nước từ trên mặt, trên đầu cậu không ngừng nhỏ giọt tong tỏng xuống, cậu nhìn Tuế Dư An đang phát rồ phát dại: “Mày nghĩ cũng đừng hòng nghĩ tới!”
 
-Mày chẳng còn lại gì nữa rồi!
+Hắn chẳng còn lại gì nữa rồi!
 
-Bộ chỉ có mình mày là chẳng còn lại gì thôi chắc!
+Bộ chỉ có mỗi mình hắn là chẳng còn lại gì thôi chắc!
 
 Tuế Dư An kiệt sức ngừng giãy giụa, như một kẻ hấp hối thở hồng hộc từng ngụm lớn, người duy nhất trước mắt có thể đưa tay ra cứu giúp lại không chịu cứu hắn.
 

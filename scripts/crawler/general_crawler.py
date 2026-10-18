@@ -4,7 +4,167 @@ import json
 import urllib.parse
 from typing import Dict, List, Optional
 import requests
-from crawler.haccbl_crawler import get_haccbl_manga_info, get_haccbl_chapter_images, download_chapter_images
+from crawler.haccbl_crawler import get_haccbl_manga_info, get_haccbl_chapter_images, download_chapter_images, get_scraper, clean_slug
+
+def search_manga_haccbl(query: str) -> List[Dict]:
+    """
+    Tìm kiếm truyện tranh trên HaccBL và trả về danh sách kết quả
+    """
+    query = query.strip()
+    if not query:
+        return []
+    scraper = get_scraper()
+    search_url = f"https://haccbl.xyz/?s={urllib.parse.quote(query)}"
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36',
+        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+        'Referer': 'https://haccbl.xyz/'
+    }
+    res = scraper.get(search_url, headers=headers, timeout=15)
+    if res.status_code != 200:
+        return []
+
+    from bs4 import BeautifulSoup
+    soup = BeautifulSoup(res.text, 'html.parser')
+    results = []
+    for row in soup.select('div.uk-grid-small'):
+        a = row.select_one('h3 a, h4 a, a.uk-link-reset')
+        img = row.select_one('img')
+        if a and a.get('href') and '/manga/' in a.get('href'):
+            cover = (img.get('src') or img.get('data-src') or '') if img else ''
+            title = a.text.strip()
+            href = a.get('href').strip()
+            slug = clean_slug(title)
+            if not any(r['url'] == href for r in results):
+                results.append({
+                    'title': title,
+                    'url': href,
+                    'cover': cover,
+                    'slug': slug,
+                    'source': 'haccbl'
+                })
+    return results
+
+def get_generic_manga_info(url: str) -> Dict:
+    """
+    Bóc tách thông tin truyện tự động từ các web truyện tranh (Madara, WordPress manga themes)
+    """
+    scraper = get_scraper()
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36',
+        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+        'Referer': url
+    }
+    res = scraper.get(url, headers=headers, timeout=20)
+    if res.status_code != 200:
+        raise Exception(f"Không thể truy cập trang truyện (HTTP {res.status_code})")
+
+    from bs4 import BeautifulSoup
+    soup = BeautifulSoup(res.text, 'html.parser')
+
+    # Title
+    title_el = soup.select_one('h1, .post-title, .entry-title') or soup.find('title')
+    title = title_el.text.strip() if title_el else "Unknown Manga"
+    title = re.sub(r'\s*[-|]\s*.*?(đọc|truyện|nettruyen|manhwa).*?$', '', title, flags=re.IGNORECASE).strip()
+
+    # Cover
+    cover_el = soup.select_one('.summary_image img, .manga-poster img, .thumb img, .c-image-hover img, meta[property="og:image"]')
+    cover_url = ""
+    if cover_el:
+        if cover_el.name == 'meta':
+            cover_url = cover_el.get('content', '')
+        else:
+            cover_url = cover_el.get('data-src') or cover_el.get('data-lazy-src') or cover_el.get('src') or ''
+
+    # Chapters
+    chapters = []
+    candidate_links = soup.select('li.wp-manga-chapter a, .listing-chapters_sub-head a, .chapter-name a, ul.sub-chap-list a, .list-chapter a, a[href*="/chapter-"], a[href*="/chuong-"], a[href*="/chap-"]')
+    
+    seen_urls = set()
+    for a in candidate_links:
+        href = a.get('href', '').strip()
+        if not href or href in seen_urls:
+            continue
+        if '#' in href or 'facebook' in href or 'disqus' in href:
+            continue
+        seen_urls.add(href)
+        ch_title = a.text.strip() or "Chapter"
+        ch_slug = clean_slug(ch_title)
+        chapters.append({
+            'title': ch_title,
+            'url': href,
+            'slug': ch_slug
+        })
+
+    if len(chapters) > 1:
+        num_first = re.search(r'\d+', chapters[0]['title'])
+        num_last = re.search(r'\d+', chapters[-1]['title'])
+        if num_first and num_last and int(num_first.group(0)) > int(num_last.group(0)):
+            chapters.reverse()
+
+    slug = clean_slug(title)
+
+    return {
+        'title': title,
+        'slug': slug,
+        'url': url,
+        'cover': cover_url,
+        'chapters': chapters,
+        'total_chapters': len(chapters),
+        'source': 'generic'
+    }
+
+def get_generic_chapter_images(url: str) -> Dict:
+    """
+    Bóc tách danh sách ảnh chapter từ URL truyện tranh thông thường
+    """
+    scraper = get_scraper()
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36',
+        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
+        'Referer': url
+    }
+    res = scraper.get(url, headers=headers, timeout=20)
+    if res.status_code != 200:
+        raise Exception(f"Không thể truy cập chapter (HTTP {res.status_code})")
+
+    from bs4 import BeautifulSoup
+    soup = BeautifulSoup(res.text, 'html.parser')
+
+    images = []
+    selectors = [
+        '.reading-content img',
+        '.entry-content img',
+        '.page-break img',
+        '#chapter-content img',
+        '.container-chapter-reader img',
+        '.chapter-image img',
+        '.box_doc img',
+        '.content-read img'
+    ]
+    img_tags = soup.select(', '.join(selectors))
+    if not img_tags:
+        img_tags = soup.find_all('img')
+
+    for img in img_tags:
+        src = img.get('data-original-src') or img.get('data-src') or img.get('data-lazy-src') or img.get('src')
+        if src and not src.startswith('data:image'):
+            src = src.strip()
+            lower = src.lower()
+            if any(k in lower for k in ['logo', 'icon', 'banner', 'avatar', 'ads', 'loading', 'placeholder']):
+                continue
+            if src not in images:
+                images.append(src)
+
+    title_el = soup.find('h1') or soup.find('title')
+    title_text = title_el.text.strip() if title_el else "Chapter"
+
+    return {
+        'url': url,
+        'title': title_text,
+        'images': images,
+        'total': len(images)
+    }
 
 def resolve_cubari_url(url: str) -> Optional[Dict]:
     """
@@ -14,10 +174,6 @@ def resolve_cubari_url(url: str) -> Optional[Dict]:
     if "cubari.moe" not in url:
         return None
 
-    # Phân tích cú pháp Cubari URL
-    # /read/gist/<b64_url>/
-    # /read/imgur/<album_id>/
-    # /read/mangadex/<manga_id>/
     parts = [p for p in urllib.parse.urlparse(url).path.split('/') if p]
     if len(parts) >= 3 and parts[0] == 'read':
         source_type = parts[1]
@@ -59,13 +215,13 @@ def resolve_cubari_url(url: str) -> Optional[Dict]:
 def detect_and_get_manga_info(url: str) -> Dict:
     """
     Nhận diện URL và lấy thông tin truyện + danh sách chapters
+    Hỗ trợ HaccBL, Cubari và các trang manga tiêu chuẩn (Generic)
     """
     url = url.strip()
     
     # 1. Haccbl
     if "haccbl.xyz" in url:
         if "/chapter-" in url:
-            # Người dùng dán thẳng link chapter -> tạo info cho chapter này và lấy link truyện gốc
             m_manga = re.match(r'(https?://[^/]+/manga/[^/]+/)', url)
             if m_manga:
                 manga_main_url = m_manga.group(1)
@@ -77,7 +233,11 @@ def detect_and_get_manga_info(url: str) -> Dict:
     if cubari_info:
         return cubari_info
 
-    raise Exception("Chưa hỗ trợ định dạng URL này. Vui lòng sử dụng URL từ haccbl.xyz hoặc Cubari.")
+    # 3. Fallback sang Generic Webtoon/Manga Crawler
+    try:
+        return get_generic_manga_info(url)
+    except Exception as e:
+        raise Exception(f"Không thể phân tích trang truyện: {e}")
 
 def detect_and_get_chapter_images(url: str, context_data: Optional[Dict] = None) -> Dict:
     """
@@ -95,7 +255,6 @@ def detect_and_get_chapter_images(url: str, context_data: Optional[Dict] = None)
             parts = url.split('/')
             ch_num = parts[-1]
             ch_data = context_data['raw_data'].get('chapters', {}).get(ch_num, {})
-            # Get first group images
             groups = ch_data.get('groups', {})
             images = []
             for g_name, g_imgs in groups.items():
@@ -112,4 +271,8 @@ def detect_and_get_chapter_images(url: str, context_data: Optional[Dict] = None)
                 'total': len(images)
             }
 
-    raise Exception("Không thể nhận diện nguồn chapter từ URL này.")
+    # 3. Fallback Generic Chapter Images
+    try:
+        return get_generic_chapter_images(url)
+    except Exception as e:
+        raise Exception(f"Không thể bóc tách ảnh chapter: {e}")

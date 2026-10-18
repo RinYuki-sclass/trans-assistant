@@ -1,0 +1,59 @@
+{
+  "chapter": 85,
+  "title": "Đổi lại",
+  "total_paragraphs": 301,
+  "scenes": [
+    {
+      "scene_id": 1,
+      "name": "Cơn cuồng nộ của Đào Dã và cuộc trò chuyện của Tuế Dư An với 1830",
+      "paragraphs_range": [1, 75],
+      "characters": ["Đào Dã", "Tuế Dư An", "Đội trưởng", "Lão Thất", "1830"],
+      "locked_pronouns": {
+        "Đào Dã": {"narrative": "cậu", "dialogue_self": "tao / tôi", "dialogue_target": "chúng mày / Tuế Dư An"},
+        "Tuế Dư An": {"narrative": "anh", "dialogue_self": "tôi", "dialogue_target": "ngươi / 1830"},
+        "1830": {"narrative": "1830"}
+      }
+    },
+    {
+      "scene_id": 2,
+      "name": "Hoán đổi thân phận trở lại và Tuế Dư An cứu Đào Dã",
+      "paragraphs_range": [76, 148],
+      "characters": ["Đào Dã", "Tuế Dư An", "Bọn bắt cóc"],
+      "locked_pronouns": {
+        "Đào Dã": {"narrative": "cậu", "dialogue_self": "tôi", "dialogue_target": "Tuế Dư An / các người"},
+        "Tuế Dư An": {"narrative": "anh", "dialogue_self": "tôi", "dialogue_target": "Đào Dã / các người"}
+      }
+    },
+    {
+      "scene_id": 3,
+      "name": "Đào Dã kiên cường truy đuổi và liên lạc gia tộc Tuế gia",
+      "paragraphs_range": [149, 215],
+      "characters": ["Đào Dã", "Lý Tỉnh", "Tuế Ứng Minh", "Tuế Thủ Thường"],
+      "locked_pronouns": {
+        "Đào Dã": {"narrative": "cậu", "dialogue_self": "tôi", "dialogue_target": "các người / cậu"},
+        "Tuế Ứng Minh": {"narrative": "cậu ta", "dialogue_self": "tôi", "dialogue_target": "anh / anh hai"},
+        "Tuế Thủ Thường": {"narrative": "ông", "dialogue_self": "tôi", "dialogue_target": "con trai ta"}
+      }
+    },
+    {
+      "scene_id": 4,
+      "name": "Đột kích trung tâm thương mại và phát súng chuẩn xác của Đào Dã",
+      "paragraphs_range": [216, 275],
+      "characters": ["Đào Dã", "Tuế Dư An", "Bọn bắt cóc", "Đặc nhiệm Tuế gia"],
+      "locked_pronouns": {
+        "Đào Dã": {"narrative": "cậu"},
+        "Tuế Dư An": {"narrative": "anh"}
+      }
+    },
+    {
+      "scene_id": 5,
+      "name": "Giải cứu thành công, nước mắt của Tuế Dư An và Chiếc Đuôi Nhỏ",
+      "paragraphs_range": [276, 301],
+      "characters": ["Đào Dã", "Tuế Dư An", "Bác sĩ", "Hệ thống Chiếc Đuôi Nhỏ"],
+      "locked_pronouns": {
+        "Đào Dã": {"narrative": "cậu"},
+        "Tuế Dư An": {"narrative": "anh", "dialogue_self": "tôi", "dialogue_target": "cậu / Đào Dã / các người"}
+      }
+    }
+  ]
+}

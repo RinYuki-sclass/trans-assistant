@@ -1,0 +1,48 @@
+{
+  "chapter": 87,
+  "title": "Bắt đầu (Đại kết cục)",
+  "chinese_title": "第 87 章 开始 (大结局)",
+  "scenes": [
+    {
+      "range": "paras 1-34",
+      "summary": "Đại kết cục mở màn: Hai người trở về căn phòng trọ sau khi xác lập quan hệ, ngại ngùng tranh nhau tắm trước; Đào Dã tự vấn bản thân về thân phận trai thẳng."
+    },
+    {
+      "range": "paras 35-70",
+      "summary": "Tuế Dư An mặc áo sơ mi trắng của Đào Dã quyến rũ người yêu; nụ hôn cuồng nhiệt, tắt đèn và bước thăm dò đầu tiên."
+    },
+    {
+      "range": "paras 71-110",
+      "summary": "Đào Dã bật đèn vì không tìm thấy lối vào; chuẩn bị sữa tắm; Tuế Dư An van xin Đào Dã chửi mắng và tát mình để thỏa mãn thú tính M."
+    },
+    {
+      "range": "paras 111-156",
+      "summary": "Đào Dã gọi Tuế Dư An là Dư An khiến anh kích thích tột độ; lần đầu bỡ ngỡ nhưng sau đó Đào Dã đòi lại uy phong."
+    },
+    {
+      "range": "paras 157-201",
+      "summary": "Chuyển về biệt thự với phòng ngủ nhỏ ấm cúng; Tuế Dư An tặng cặp nhẫn bạc khắc hình cáo và thỏ; Đào Dã đi lùng khắp chợ đồ cũ 3 ngày chuộc lại chiếc áo khoác kỷ niệm."
+    },
+    {
+      "range": "paras 202-252",
+      "summary": "Tuế Dư An mời Đào Dã làm Trưởng bộ phận Công trình Hải Liên; Đào Dã thể hiện năng lực xuất sắc; tin nhắn trêu chọc giữa giờ làm việc."
+    },
+    {
+      "range": "paras 253-287",
+      "summary": "Nghe tin Đàm tổng từng theo đuổi Tuế Dư An sắp tới, Đào Dã nổi cơn ghen chiếm hữu kéo Tuế Dư An vào phòng nghỉ; chặn cà vạt; lời hẹn ước 'Không gặp không về'."
+    }
+  ],
+  "pronoun_rules": {
+    "Dao_Da": {
+      "third_person": "cậu / Đào Dã",
+      "dialogue_self": "tôi / tao / bố mày",
+      "dialogue_address": "anh / Tuế Dư An / đồ biến thái",
+      "strict_ban": "Cấm tuyệt đối xưng em"
+    },
+    "Tue_Du_An": {
+      "third_person": "anh / Tuế Dư An / hắn",
+      "dialogue_self": "tôi",
+      "dialogue_address": "cậu / em / thỏ con / bảo bối / chủ nhân"
+    }
+  }
+}

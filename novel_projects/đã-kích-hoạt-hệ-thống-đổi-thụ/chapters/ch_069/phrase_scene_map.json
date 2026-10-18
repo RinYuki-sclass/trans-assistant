@@ -1,0 +1,51 @@
+{
+  "chapter": 69,
+  "total_paragraphs": 80,
+  "scenes": [
+    {
+      "scene_id": "scene_1",
+      "name": "Giằng xé trong buồng vệ sinh: Đào Dã bóp cổ Tuế Dư An & Tuế Dư An dụ dỗ quỳ phục vụ",
+      "para_range": [0, 34],
+      "characters": ["Đào Dã", "Tuế Dư An"],
+      "locked_pronouns": {
+        "Đào Dã": "cậu / Đào Dã",
+        "Tuế Dư An": "anh / Tuế Dư An / hắn"
+      },
+      "dialogue_rules": {
+        "Đào Dã -> Tuế Dư An": "mày - tao / tôi - anh ('Mày muốn chết à!')",
+        "Tuế Dư An -> Đào Dã": "tôi - em ('Tôi chỉ muốn giúp em thôi mà')"
+      }
+    },
+    {
+      "scene_id": "scene_2",
+      "name": "Kha Mẫn dọn dẹp hiện trường bên ngoài & Đào Dã cắn răng để Tuế Dư An giải tỏa",
+      "para_range": [35, 66],
+      "characters": ["Đào Dã", "Tuế Dư An", "Kha Mẫn"],
+      "locked_pronouns": {
+        "Đào Dã": "cậu / Đào Dã",
+        "Tuế Dư An": "anh / Tuế Dư An / hắn",
+        "Kha Mẫn": "cô ấy / Kha Mẫn"
+      },
+      "dialogue_rules": {
+        "Tuế Dư An -> Đào Dã": "tôi - em ('Giúp em mà', 'Em muốn sau này nơi này bị phế bỏ luôn sao?')",
+        "Đào Dã -> Tuế Dư An": "anh - tôi ('Anh làm cái gì đấy!')"
+      }
+    },
+    {
+      "scene_id": "scene_3",
+      "name": "Lý Tỉnh tìm Đào Dã, tiếng chuông leng keng trong buồng vệ sinh & Niềm hân hoan của Lục Lục",
+      "para_range": [67, 79],
+      "characters": ["Đào Dã", "Tuế Dư An", "Lý Tỉnh", "Tuế Ứng Minh", "Lục Lục"],
+      "locked_pronouns": {
+        "Đào Dã": "cậu / Đào Dã",
+        "Tuế Dư An": "anh / Tuế Dư An / hắn",
+        "Lý Tỉnh": "cậu ta / Lý Tỉnh",
+        "Tuế Ứng Minh": "anh ta / Tuế Ứng Minh",
+        "Lục Lục": "nó / Lục Lục"
+      },
+      "dialogue_rules": {
+        "Tuế Ứng Minh -> Lý Tỉnh": "anh - em / Tinh Tinh"
+      }
+    }
+  ]
+}

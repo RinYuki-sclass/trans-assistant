@@ -1,0 +1,59 @@
+{
+  "chapter": 84,
+  "title": "Hệ thống",
+  "total_paragraphs": 272,
+  "scenes": [
+    {
+      "scene_id": 1,
+      "name": "Tranh luận dự án và thành lập Tổ công trình chuỗi hải sản",
+      "paragraphs_range": [1, 51],
+      "characters": ["Đào Dã", "Tuế Dư An"],
+      "locked_pronouns": {
+        "Đào Dã": {"narrative": "cậu", "dialogue_self": "tôi / bố mày", "dialogue_target": "anh / đồ biến thái"},
+        "Tuế Dư An": {"narrative": "anh", "dialogue_self": "tôi", "dialogue_target": "cậu / thỏ con"}
+      }
+    },
+    {
+      "scene_id": 2,
+      "name": "Lời khuyên của đại tỷ và sự ngầm cho phép của thỏ con",
+      "paragraphs_range": [52, 91],
+      "characters": ["Tuế Dư An", "Đại tỷ", "Đào Dã"],
+      "locked_pronouns": {
+        "Tuế Dư An": {"narrative": "anh", "dialogue_self": "em / tôi", "dialogue_target": "chị / cậu ấy"},
+        "Đại tỷ": {"narrative": "đại tỷ / chị", "dialogue_self": "chị", "dialogue_target": "cậu / em"},
+        "Đào Dã": {"narrative": "cậu"}
+      }
+    },
+    {
+      "scene_id": 3,
+      "name": "Đêm ấm áp, sáng hôm sau cọ nhiệt và màn sập giường cười bò",
+      "paragraphs_range": [92, 177],
+      "characters": ["Đào Dã", "Tuế Dư An"],
+      "locked_pronouns": {
+        "Đào Dã": {"narrative": "cậu", "dialogue_self": "tôi / bố mày", "dialogue_target": "anh / đồ biến thái"},
+        "Tuế Dư An": {"narrative": "anh", "dialogue_self": "tôi", "dialogue_target": "cậu / thỏ con"}
+      }
+    },
+    {
+      "scene_id": 4,
+      "name": "Bắt cóc ca đêm và chuyến đi thị sát khu ổ chuột",
+      "paragraphs_range": [178, 237],
+      "characters": ["Đào Dã", "Tuế Dư An"],
+      "locked_pronouns": {
+        "Đào Dã": {"narrative": "cậu", "dialogue_self": "tôi", "dialogue_target": "anh"},
+        "Tuế Dư An": {"narrative": "anh", "dialogue_self": "tôi", "dialogue_target": "cậu"}
+      }
+    },
+    {
+      "scene_id": 5,
+      "name": "Vệ sĩ làm phản, phát súng bên bờ biển và kích hoạt Hệ thống",
+      "paragraphs_range": [238, 272],
+      "characters": ["Đào Dã", "Tuế Dư An", "Đội trưởng vệ sĩ", "Tay súng"],
+      "locked_pronouns": {
+        "Đào Dã": {"narrative": "cậu", "dialogue_self": "tôi", "dialogue_target": "ngươi"},
+        "Tuế Dư An": {"narrative": "anh"},
+        "Đội trưởng vệ sĩ": {"narrative": "đội trưởng / gã", "dialogue_self": "tôi", "dialogue_target": "ông chủ"}
+      }
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "chapter": 82,
+  "title": "Mơ hồ",
+  "total_paragraphs": 193,
+  "scenes": [
+    {
+      "scene_id": 1,
+      "name": "Nụ hôn lên bàn tay máy và sự phục tùng biến thái",
+      "paragraphs_range": [1, 75],
+      "characters": ["Đào Dã", "Tuế Dư An"],
+      "locked_pronouns": {
+        "Đào Dã": {"narrative": "cậu", "dialogue_self": "tôi / bố mày / ông đây", "dialogue_target": "anh / đồ biến thái"},
+        "Tuế Dư An": {"narrative": "anh", "dialogue_self": "tôi", "dialogue_target": "cậu / em / thỏ con"}
+      }
+    },
+    {
+      "scene_id": 2,
+      "name": "Nuốt tinh dịch, màn dìm đầu vào vòi nước và hạt giống",
+      "paragraphs_range": [76, 110],
+      "characters": ["Đào Dã", "Tuế Dư An"],
+      "locked_pronouns": {
+        "Đào Dã": {"narrative": "cậu", "dialogue_self": "bố mày / ông đây / tôi", "dialogue_target": "mày / anh / đồ bệnh"},
+        "Tuế Dư An": {"narrative": "anh", "dialogue_self": "tôi", "dialogue_target": "cậu"}
+      }
+    },
+    {
+      "scene_id": 3,
+      "name": "Tâm tư của Tuế Dư An và Đào Dã rời đi",
+      "paragraphs_range": [111, 142],
+      "characters": ["Đào Dã", "Tuế Dư An"],
+      "locked_pronouns": {
+        "Đào Dã": {"narrative": "cậu", "dialogue_self": "tôi", "dialogue_target": "anh"},
+        "Tuế Dư An": {"narrative": "anh", "dialogue_self": "tôi", "dialogue_target": "cậu"}
+      }
+    },
+    {
+      "scene_id": 4,
+      "name": "Đào Dã tại trang viên, xử lý công việc và tập bắn súng",
+      "paragraphs_range": [143, 168],
+      "characters": ["Đào Dã"],
+      "locked_pronouns": {
+        "Đào Dã": {"narrative": "cậu", "dialogue_self": "tôi", "dialogue_target": "các người"}
+      }
+    },
+    {
+      "scene_id": 5,
+      "name": "Chăn ấm nệm êm và cuộc ngã giá với vệ sĩ",
+      "paragraphs_range": [169, 193],
+      "characters": ["Tuế Dư An", "Vệ sĩ"],
+      "locked_pronouns": {
+        "Tuế Dư An": {"narrative": "anh", "dialogue_self": "tôi", "dialogue_target": "cậu / anh"},
+        "Vệ sĩ": {"narrative": "vệ sĩ", "dialogue_self": "tôi", "dialogue_target": "ngài / cậu"}
+      }
+    }
+  ]
+}

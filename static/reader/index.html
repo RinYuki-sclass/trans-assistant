@@ -87,6 +87,12 @@
       <h3 style="font-size: 1rem; font-weight: 700;">📚 Thư Viện Của Bạn</h3>
       <button class="btn btn-icon" id="btn-close-drawer">✕</button>
     </div>
+    <div style="padding: 0.75rem 1rem 0.5rem 1rem; border-bottom: 1px solid var(--border-color);">
+      <input type="text" class="input-text" id="library-filter-input" placeholder="🔍 Lọc truyện trong thư viện..." style="width: 100%; font-size: 0.8rem; padding: 0.4rem 0.65rem;">
+      <button class="btn btn-primary" id="btn-check-updates" style="width: 100%; margin-top: 0.5rem; font-size: 0.8rem; justify-content: center;">
+        🔄 Kiểm Tra Chương Mới
+      </button>
+    </div>
     <div class="drawer-body" id="library-list">
       <p style="color: var(--text-muted); font-size: 0.85rem; text-align: center; margin-top: 2rem;">
         Đang tải thư viện...
@@ -98,17 +104,40 @@
   <div class="modal-backdrop" id="crawl-modal">
     <div class="modal-card">
       <div class="modal-header">
-        <h3 class="modal-title">📥 Tải & Crawl Truyện Không Ads</h3>
+        <h3 class="modal-title">📥 Tìm & Tải Truyện Không Ads</h3>
         <button class="btn btn-icon" id="btn-close-crawl">✕</button>
       </div>
       <div class="modal-body">
-        <p style="color: var(--text-secondary); font-size: 0.85rem; margin-bottom: 0.85rem;">
-          Dán đường link truyện hoặc link chapter từ <b>haccbl.xyz</b> hoặc <b>Cubari</b> để đọc ngay hoặc tải về máy (100% không quảng cáo):
-        </p>
-        <div class="input-group">
-          <input type="text" class="input-text" id="crawl-url-input" 
-                 placeholder="Ví dụ: https://haccbl.xyz/manga/dia-nguc-cua-kien-yeon-deop/">
-          <button class="btn btn-primary" id="btn-submit-crawl">🔍 Phân Tích</button>
+        <!-- Tabs Chuyển Đổi Tìm Kiếm / Nhập Link -->
+        <div class="modal-tabs">
+          <button class="modal-tab-btn active" id="tab-btn-search">🔍 Tìm Truyện Theo Tên</button>
+          <button class="modal-tab-btn" id="tab-btn-url">🔗 Dán Đường Link (URL)</button>
+        </div>
+
+        <!-- Panel 1: Tìm kiếm -->
+        <div id="tab-panel-search" class="modal-tab-panel active">
+          <p style="color: var(--text-secondary); font-size: 0.85rem; margin-bottom: 0.75rem;">
+            Nhập tên bộ manhwa bạn muốn đọc để tìm kiếm:
+          </p>
+          <div class="input-group">
+            <input type="text" class="input-text" id="search-manga-input" 
+                   placeholder="Ví dụ: Talisman, Fargo, Yeon Deop...">
+            <button class="btn btn-primary" id="btn-submit-search">🔍 Tìm Kiếm</button>
+          </div>
+          <!-- Kết quả tìm kiếm -->
+          <div id="search-results-container" style="display: none;"></div>
+        </div>
+
+        <!-- Panel 2: Nhập Link URL -->
+        <div id="tab-panel-url" class="modal-tab-panel">
+          <p style="color: var(--text-secondary); font-size: 0.85rem; margin-bottom: 0.75rem;">
+            Dán đường link truyện hoặc link chapter từ <b>haccbl.xyz</b>, <b>Cubari</b> hoặc các web manga thông thường:
+          </p>
+          <div class="input-group">
+            <input type="text" class="input-text" id="crawl-url-input" 
+                   placeholder="Ví dụ: https://haccbl.xyz/manga/dia-nguc-cua-kien-yeon-deop/">
+            <button class="btn btn-primary" id="btn-submit-crawl">🔍 Phân Tích</button>
+          </div>
         </div>
 
         <!-- Khung xem trước Manga -->

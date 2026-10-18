@@ -1,0 +1,31 @@
+{
+  "chapter": 89,
+  "title": "Phiên ngoại: Nuôi từ nhỏ, động vật hóa",
+  "chinese_title": "第 89 章 从小养，动物化 (番外)",
+  "scenes": [
+    {
+      "range": "paras 1-50",
+      "summary": "Thế giới thú nhân sau trận mưa sao băng; thiếu gia hồ ly Tuế Dư An bắt gặp chú thỏ con cụt tay Đào Dã nhặt rác trên phố, đem lòng say mê và mang về nhà nuôi nấng."
+    },
+    {
+      "range": "paras 51-90",
+      "summary": "Quá trình nuôi dưỡng ngọt ngào: Tuế Dư An ôm thỏ con ngủ mỗi đêm; chăm sóc từng chiếc cánh tay máy định kỳ; kiên nhẫn vỗ về Đào Dã qua những cơn đau chi ma suốt đêm dài."
+    },
+    {
+      "range": "paras 91-131",
+      "summary": "Đào Dã tròn 18 tuổi, cao lớn vượt qua Tuế Dư An; đòi nhận món quà trưởng thành chính là Tuế Dư An; màn 'ăn sạch' ngọt ngào và chiếm hữu trọn vẹn người nuôi dưỡng."
+    }
+  ],
+  "pronoun_rules": {
+    "Dao_Da": {
+      "third_person": "cậu / Đào Dã",
+      "dialogue_self": "em / tôi",
+      "dialogue_address": "anh / ca ca"
+    },
+    "Tue_Du_An": {
+      "third_person": "anh / Tuế Dư An / hắn",
+      "dialogue_self": "anh / tôi",
+      "dialogue_address": "thỏ con / em"
+    }
+  }
+}

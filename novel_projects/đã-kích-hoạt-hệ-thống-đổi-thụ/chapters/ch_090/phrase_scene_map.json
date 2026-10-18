@@ -1,0 +1,36 @@
+{
+  "chapter": 90,
+  "title": "Phiên ngoại: IF tuyến Cưới trước yêu sau",
+  "chinese_title": "第 90 章 先婚后爱if线 (番外)",
+  "scenes": [
+    {
+      "range": "paras 1-40",
+      "summary": "Đào Dã đi tiệc bể bơi cùng Lý Tỉnh; Tuế Dư An liên tục mơ thấy tiền kiếp nên đến chặn người đẹp tán tỉnh Đào Dã; Đào Dã uống say."
+    },
+    {
+      "range": "paras 41-106",
+      "summary": "Tuế Dư An đưa Đào Dã về phòng, tự cấu véo tạo dấu vết; sáng hôm sau đóng kịch ăn vạ bắt Đào Dã chịu trách nhiệm; Đào Dã đồng ý đăng ký kết hôn."
+    },
+    {
+      "range": "paras 107-130",
+      "summary": "Đào Dã dọn về trang viên họ Tuế; Tuế Dư An sắp xếp phòng ngủ riêng đối diện, dịu dàng tôn trọng ranh giới; Đào Dã cảm nhận được hơi ấm của gia đình."
+    },
+    {
+      "range": "paras 131-159",
+      "summary": "Tuế Dư An tặng quà tân hôn là mời Cao cơ giới sư đến đo cánh tay máy mới; ân cần gọi 'A Dã' và khuyến khích cậu đi học đại học; mở ra con đường không còn bùn lầy."
+    }
+  ],
+  "pronoun_rules": {
+    "Dao_Da": {
+      "third_person": "cậu / Đào Dã",
+      "dialogue_self": "tôi",
+      "dialogue_address": "anh / Tuế Dư An / Tuế tiên sinh",
+      "strict_ban": "Cấm tuyệt đối xưng em"
+    },
+    "Tue_Du_An": {
+      "third_person": "anh / Tuế Dư An / hắn",
+      "dialogue_self": "tôi",
+      "dialogue_address": "cậu / A Dã / thỏ con"
+    }
+  }
+}

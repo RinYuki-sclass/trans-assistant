@@ -1,0 +1,68 @@
+{
+  "chapter": 75,
+  "total_paragraphs": 228,
+  "scenes": [
+    {
+      "scene_id": "scene_1",
+      "name": "Kiểm tra đo đạc cánh tay máy, ký ức tuổi thơ ở viện phúc lợi & Sự nhói lòng của Tuế Dư An",
+      "para_range": [0, 52],
+      "characters": ["Đào Dã", "Tuế Dư An", "Bác sĩ Vu", "Kỹ sư Cao"],
+      "locked_pronouns": {
+        "Đào Dã": "cậu / Đào Dã",
+        "Tuế Dư An": "anh / Tuế Dư An / hắn",
+        "Bác sĩ Vu": "bác sĩ Vu / bà",
+        "Kỹ sư Cao": "kỹ sư Cao / ông"
+      },
+      "dialogue_rules": {
+        "Đào Dã -> Tuế Dư An": "tao - mày / 'Cút ra, đừng làm phiền tao!'",
+        "Tuế Dư An -> Đào Dã": "tôi - em"
+      }
+    },
+    {
+      "scene_id": "scene_2",
+      "name": "Đêm kinh hoàng: Cơn đau chi ma phát tác, Đào Dã khóc gọi mẹ & Tuế Dư An ôm chặt dỗ dành",
+      "para_range": [53, 140],
+      "characters": ["Đào Dã", "Tuế Dư An", "Bác sĩ", "Quản gia"],
+      "locked_pronouns": {
+        "Đào Dã": "cậu / Đào Dã",
+        "Tuế Dư An": "anh / Tuế Dư An / hắn",
+        "Bác sĩ": "bác sĩ / ông",
+        "Quản gia": "quản gia / ông"
+      },
+      "dialogue_rules": {
+        "Đào Dã (mê sảng)": "Mẹ ơi, con đau quá... Cánh tay của con mất rồi...",
+        "Tuế Dư An -> Đào Dã": "Mẹ ở đây, không đau nữa, không đau nữa",
+        "Đào Dã (tỉnh lại) -> Tuế Dư An": "Tuế Dư An, chưa đến lượt mày thương hại tao"
+      }
+    },
+    {
+      "scene_id": "scene_3",
+      "name": "Sự chăm sóc ngầm qua đồ ngọt, cuộc gọi của Lý Tỉnh & Tuế Dư An nhận ra mình biết xót xa",
+      "para_range": [141, 196],
+      "characters": ["Đào Dã", "Tuế Dư An", "Lý Tỉnh"],
+      "locked_pronouns": {
+        "Đào Dã": "cậu / Đào Dã",
+        "Tuế Dư An": "anh / Tuế Dư An / hắn",
+        "Lý Tỉnh": "cậu ta / Lý Tỉnh"
+      },
+      "dialogue_rules": {
+        "Đào Dã <-> Lý Tỉnh": "tôi - cậu",
+        "Đào Dã -> Tuế Dư An": "Mày đang lấy sư phụ và Lý Tỉnh ra uy hiếp tao à?"
+      }
+    },
+    {
+      "scene_id": "scene_4",
+      "name": "Kha Mẫn gửi hồ sơ quá khứ tàn khốc, Tuế Dư An đau lòng tột cùng & Lời hứa trả tự do",
+      "para_range": [197, 227],
+      "characters": ["Đào Dã", "Tuế Dư An", "Kha Mẫn"],
+      "locked_pronouns": {
+        "Đào Dã": "cậu / Đào Dã",
+        "Tuế Dư An": "anh / Tuế Dư An / hắn",
+        "Kha Mẫn": "cô ấy / Kha Mẫn"
+      },
+      "dialogue_rules": {
+        "Tuế Dư An -> Đào Dã": "Lắp cánh tay máy xong, em có thể ra ngoài rồi."
+      }
+    }
+  ]
+}
