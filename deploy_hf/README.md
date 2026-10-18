@@ -12,6 +12,8 @@ pinned: false
 
 Trình đọc manhwa trực tuyến phong cách Cubari, tối giản, mượt mà, hỗ trợ Webtoon scroll, không dính quảng cáo và bóc tách ảnh trực tiếp từ các trang truyện phổ biến (haccbl.xyz, Cubari...).
 
+- 🌐 **Live Website (Render):** [https://reader-assistant.onrender.com/](https://reader-assistant.onrender.com/)
+
 ## Tính Năng
 - 📜 **Webtoon Scroll:** Cuộn vô tận, tùy biến độ rộng dải ảnh và khoảng cách lát cắt.
 - 📖 **Manga Mode:** Lật từng trang hoặc đọc trang đôi.

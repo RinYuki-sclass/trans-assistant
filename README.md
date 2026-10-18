@@ -6,6 +6,12 @@ Tối ưu cho việc dịch truyện chữ (từ tiếng Anh/Hàn) và truyện 
 
 ---
 
+## 📖 Manhwa Reader (Online Hosting & Local)
+- 🌐 **Web Reader Hosting (Render):** [https://reader-assistant.onrender.com/](https://reader-assistant.onrender.com/)
+- 💻 **Chạy Local:** Chạy file `CHAY_CUBARI_READER.bat` (truy cập tại `http://localhost:8585`)
+
+---
+
 ## 🚀 Tính năng nổi bật
 - **Dịch thuật 2 bước (Translate & Refine):** Nhận song song English & Korean để dịch và tinh chỉnh văn phong, cực kỳ chuẩn xác.
 - **Dịch Truyện Tranh (Manhwa OCR):** Quét bong bóng thoại từ hình ảnh, tự động dịch và trả về văn bản sắp xếp theo luồng đọc.
