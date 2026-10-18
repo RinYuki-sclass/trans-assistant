@@ -201,34 +201,55 @@ def download_chapter_images(
     saved_files = []
     total = len(images)
 
+    import io
+    from PIL import Image
+
     for idx, img_url in enumerate(images):
-        ext = ".jpg"
-        if ".png" in img_url.lower():
-            ext = ".png"
-        elif ".webp" in img_url.lower():
-            ext = ".webp"
-        elif ".avif" in img_url.lower():
-            ext = ".avif"
-
-        filename = f"{idx+1:03d}{ext}"
-        filepath = os.path.join(save_dir, filename)
-
-        if not os.path.exists(filepath) or os.path.getsize(filepath) == 0:
-            retry = 3
-            downloaded = False
-            while retry > 0 and not downloaded:
-                try:
-                    res = scraper.get(img_url, headers=headers, timeout=25)
-                    if res.status_code == 200 and len(res.content) > 500:
-                        with open(filepath, 'wb') as f:
-                            f.write(res.content)
-                        downloaded = True
-                    else:
-                        retry -= 1
-                        time.sleep(1)
-                except Exception:
+        retry = 3
+        downloaded_bytes = None
+        while retry > 0 and not downloaded_bytes:
+            try:
+                res = scraper.get(img_url, headers=headers, timeout=25)
+                if res.status_code == 200 and len(res.content) > 500:
+                    downloaded_bytes = res.content
+                else:
                     retry -= 1
                     time.sleep(1)
+            except Exception:
+                retry -= 1
+                time.sleep(1)
+
+        if not downloaded_bytes:
+            continue
+
+        # Nén ảnh tối ưu: WebP (nếu kích thước < 16383px) hoặc JPG chất lượng cao tối ưu
+        try:
+            im = Image.open(io.BytesIO(downloaded_bytes))
+            w, h = im.size
+
+            if w > 0 and h > 0 and w < 16380 and h < 16380:
+                filename = f"{idx+1:03d}.webp"
+                filepath = os.path.join(save_dir, filename)
+                im.save(filepath, format="WEBP", quality=80, method=4)
+            else:
+                filename = f"{idx+1:03d}.jpg"
+                filepath = os.path.join(save_dir, filename)
+                if im.mode in ("RGBA", "P"):
+                    im = im.convert("RGB")
+                im.save(filepath, format="JPEG", quality=75, optimize=True)
+        except Exception:
+            # Fallback nếu PIL gặp lỗi định dạng đặc thù
+            ext = ".jpg"
+            if ".png" in img_url.lower():
+                ext = ".png"
+            elif ".webp" in img_url.lower():
+                ext = ".webp"
+            elif ".avif" in img_url.lower():
+                ext = ".avif"
+            filename = f"{idx+1:03d}{ext}"
+            filepath = os.path.join(save_dir, filename)
+            with open(filepath, 'wb') as f:
+                f.write(downloaded_bytes)
 
         saved_files.append(filepath)
         if progress_callback:

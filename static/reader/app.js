@@ -388,8 +388,13 @@ function showWelcomeScreen(filterQuery = '') {
                  onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=\\'http://www.w3.org/2000/svg\\' width=\\'80\\' height=\\'110\\' viewBox=\\'0 0 80 110\\'><rect width=\\'80\\' height=\\'110\\' fill=\\'%23222\\'/><text x=\\'50%\\' y=\\'50%\\' dominant-baseline=\\'middle\\' text-anchor=\\'middle\\' fill=\\'%23666\\' font-size=\\'12\\'>No Cover</text></svg>'">
           </div>
           <div class="home-manga-content">
-            <div class="home-manga-title" title="${manga.title}">
-              ${manga.title}
+            <div style="display: flex; align-items: flex-start; justify-content: space-between; gap: 0.4rem;">
+              <div class="home-manga-title" title="${manga.title}">
+                ${manga.title}
+              </div>
+              <button class="home-card-delete-btn" title="Xóa bộ truyện này khỏi máy" onclick="event.stopPropagation(); deleteMangaFromLibrary('${manga.slug}', '${encodeURIComponent(manga.title)}')">
+                🗑️
+              </button>
             </div>
             <div class="home-chapter-list">
               ${chaptersHtml}
