@@ -39,8 +39,10 @@ logs/
 !output/manhwa_history/**/script.txt
 
 # Data & Cache của Cubari Reader & Crawler
-data/*
-!data/.gitkeep
+data/cache/
+data/cache_series/
+!data/cubari_library/
+!data/cubari_library/**
 
 # Databases & Cache
 *.db
