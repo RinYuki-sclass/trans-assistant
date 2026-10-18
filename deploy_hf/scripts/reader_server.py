@@ -39,6 +39,62 @@ os.makedirs(CACHE_DIR, exist_ok=True)
 active_downloads: Dict[str, Dict] = {}
 downloads_lock = threading.Lock()
 
+def clean_old_cache(max_age_days: int = 7, max_size_mb: int = 1000):
+    """
+    Tự động dọn dẹp cache ảnh proxy:
+    - Xóa các file cũ hơn max_age_days
+    - Nếu tổng dung lượng vượt quá max_size_mb, tự động xóa các file cũ nhất
+    """
+    try:
+        if not os.path.exists(CACHE_DIR):
+            return
+        now = time.time()
+        max_age_sec = max_age_days * 86400
+        files = []
+        total_size = 0
+        for f in os.listdir(CACHE_DIR):
+            fp = os.path.join(CACHE_DIR, f)
+            if os.path.isfile(fp):
+                try:
+                    st_stat = os.stat(fp)
+                    files.append((fp, st_stat.st_mtime, st_stat.st_size))
+                    total_size += st_stat.st_size
+                except Exception:
+                    pass
+
+        # 1. Xóa file quá hạn
+        for fp, mtime, sz in files:
+            if now - mtime > max_age_sec:
+                try:
+                    os.remove(fp)
+                    total_size -= sz
+                except Exception:
+                    pass
+
+        # 2. Giới hạn tổng dung lượng cache
+        max_bytes = max_size_mb * 1024 * 1024
+        if total_size > max_bytes:
+            remaining = [f for f in files if os.path.exists(f[0])]
+            remaining.sort(key=lambda x: x[1])
+            for fp, mtime, sz in remaining:
+                if total_size <= max_bytes:
+                    break
+                try:
+                    os.remove(fp)
+                    total_size -= sz
+                except Exception:
+                    pass
+    except Exception as e:
+        print(f"[cache-cleanup] Lỗi: {e}")
+
+# Chạy dọn cache ngầm định kỳ
+def _periodic_cache_cleaner():
+    while True:
+        clean_old_cache()
+        time.sleep(21600)  # 6 tiếng quét 1 lần
+
+threading.Thread(target=_periodic_cache_cleaner, daemon=True).start()
+
 # ---------------------------------------------
 # CÁC HÀM TIỆN ÍCH
 # ---------------------------------------------
