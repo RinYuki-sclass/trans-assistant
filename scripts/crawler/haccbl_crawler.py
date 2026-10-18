@@ -204,6 +204,7 @@ def download_chapter_images(
     import io
     from PIL import Image
 
+    slice_counter = 0
     for idx, img_url in enumerate(images):
         retry = 3
         downloaded_bytes = None
@@ -222,23 +223,34 @@ def download_chapter_images(
         if not downloaded_bytes:
             continue
 
-        # Nén ảnh tối ưu: WebP (nếu kích thước < 16383px) hoặc JPG chất lượng cao tối ưu
+        # Nén ảnh tối ưu: Tự động cắt các ảnh dài (>3000px) thành các lát nhỏ và lưu WebP
         try:
             im = Image.open(io.BytesIO(downloaded_bytes))
             w, h = im.size
-
-            if w > 0 and h > 0 and w < 16380 and h < 16380:
-                filename = f"{idx+1:03d}.webp"
-                filepath = os.path.join(save_dir, filename)
-                im.save(filepath, format="WEBP", quality=80, method=4)
+            if h > 3000:
+                top = 0
+                while top < h:
+                    bottom = min(top + 3000, h)
+                    slice_im = im.crop((0, top, w, bottom))
+                    slice_counter += 1
+                    filename = f"{slice_counter:03d}.webp"
+                    filepath = os.path.join(save_dir, filename)
+                    if slice_im.mode not in ("RGB", "RGBA"):
+                        slice_im = slice_im.convert("RGB")
+                    slice_im.save(filepath, format="WEBP", quality=80, method=4)
+                    saved_files.append(filepath)
+                    top = bottom
             else:
-                filename = f"{idx+1:03d}.jpg"
+                slice_counter += 1
+                filename = f"{slice_counter:03d}.webp"
                 filepath = os.path.join(save_dir, filename)
-                if im.mode in ("RGBA", "P"):
+                if im.mode not in ("RGB", "RGBA"):
                     im = im.convert("RGB")
-                im.save(filepath, format="JPEG", quality=75, optimize=True)
+                im.save(filepath, format="WEBP", quality=80, method=4)
+                saved_files.append(filepath)
         except Exception:
             # Fallback nếu PIL gặp lỗi định dạng đặc thù
+            slice_counter += 1
             ext = ".jpg"
             if ".png" in img_url.lower():
                 ext = ".png"
@@ -246,12 +258,12 @@ def download_chapter_images(
                 ext = ".webp"
             elif ".avif" in img_url.lower():
                 ext = ".avif"
-            filename = f"{idx+1:03d}{ext}"
+            filename = f"{slice_counter:03d}{ext}"
             filepath = os.path.join(save_dir, filename)
             with open(filepath, 'wb') as f:
                 f.write(downloaded_bytes)
+            saved_files.append(filepath)
 
-        saved_files.append(filepath)
         if progress_callback:
             progress_callback(idx + 1, total, filename)
 
