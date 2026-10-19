@@ -10,18 +10,19 @@
 
 1. **THỊNH TÂY KINH (CÔNG CHÍNH - XUẤT THÂN NÔNG THÔN, SẮC SẢO, TỈNH TÁO):**
    - **Với Lương Khoát (Thụ mới) [Cùng 28 tuổi]:**
-     + Xã giao thương trường & khi nắm thóp / trêu ngươi: xưng **"tôi"**, gọi **"anh" / "Lương tổng"** *(Ví dụ: “Lương tổng, chiếc quần này rất hợp với anh”, “Tôi giúp anh nhé?”)*.
-     + Khi áp chế, ra lệnh, dỗ dành: xưng **"tôi"** gọi **"anh"**.
+     + *Giai đoạn ban đầu (Ch 121 – Ch 132):* xưng **"tôi"**, gọi **"anh" / "Lương tổng"** *(Ví dụ: “Lương tổng, chiếc quần này rất hợp với anh”, “Tôi giúp anh nhé?”)*.
+     + *Giai đoạn thả thính ngầm (Ch 133 – Ch 138):* dưới thân phận trứng gà đen bắt đầu xưng **"em"**, gọi **"anh"** (*“Vâng, thế em đợi anh”, “Nhưng mà em không có tiền”*).
+     + *Giai đoạn YÊU ĐƯƠNG CHÍNH THỨC, KẾT HÔN & PHIÊN NGOẠI (Ch 142 – Ch 144, Ch 147, Ch 148) [LỆNH CHỐT USER]:* gọi Lương Khoát bằng **"anh"** (khi trêu đùa tình thú trên giường gọi **"vợ ơi"**), xưng **"em"**! ⛔ **Tuyệt đối không dùng "tôi - cậu"**.
    - **Với Lộc U U (Nguyên thụ cắm sừng):**
      + Trước khi lật bài ngửa: đóng vai người chồng si tình lụy vợ, xưng **"anh"**, gọi **"vợ ơi / U U"** (*“Vợ ơi, nếu anh chết muốn mang em theo”*).
      + Sau khi vạch trần âm mưu trục lợi bảo hiểm: xưng **"tôi"**, gọi **"cậu / Lộc U U"** (lạnh lùng, dứt khoát).
    - **Với Hệ thống Lục Lục:** Xưng **"tôi / tao"**, gọi **"mày / Lục Lục"**.
 
 2. **LƯƠNG KHOÁT (THỤ CHÍNH - ĐẠI LÃO THƯƠNG TRƯỜNG, MẮC CHỨNG BÍ MẬT THÍCH PHỤC TÙNG):**
-   - **Xưng:** Luôn xưng **"tôi"**.
-   - **Gọi Thịnh Tây Kinh:**
-     + Ban đầu giữ khoảng cách: gọi **"Thịnh tổng" / "cậu"**.
-     + Khi bị nắm thóp, cúi đầu phục tùng: xưng **"tôi"**, gọi **"cậu" / "Thịnh Tây Kinh" / "Thịnh tổng"**.
+   - **Với Thịnh Tây Kinh:**
+     + *Ban đầu giữ khoảng cách (Ch 121 – Ch 132):* xưng **"tôi"**, gọi **"cậu" / "Thịnh tổng"**.
+     + *Giai đoạn dỗ dành thả thính (Ch 133 – Ch 138):* xưng **"anh"** (hoặc "anh Khoát"), gọi **"em" / "bảo bối"**.
+     + *Giai đoạn YÊU ĐƯƠNG CHÍNH THỨC, KẾT HÔN & PHIÊN NGOẠI (Ch 142 – Ch 144, Ch 147, Ch 148) [LỆNH CHỐT USER]:* gọi Thịnh Tây Kinh bằng **"em"**, xưng **"anh"**! (Khi tình tứ gọi thêm **"bảo bối"**). ⛔ **Tuyệt đối không dùng "tôi - cậu"**.
    - **Với Lộc U U:** Xưng **"tôi"**, gọi **"cậu / Lộc tiên sinh"** (lạnh nhạt, không chút lưu tình).
 
 3. **LỘC U U (NGUYÊN THỤ - PHÙ PHIẾM, NỢ NẦN, MƯU TOAN HÃM HẠI CHỒNG):**
@@ -90,7 +91,7 @@
   - [x] `ch_133`: Vuốt ve (摸摸 - 6.251 chữ, 182 đoạn 1:1, Lộc U U bị chủ nợ tóm và xúi giục sát hại Thịnh Tây Kinh; Thịnh Tây Kinh tung ảnh ép Lương Khoát nhượng bộ; Thịnh Tây Kinh tháo mũ bảo hiểm cho Lương Khoát sờ nắn mặt trong gara và trao nhau nụ hôn đầu). [✅ ĐÃ HOÀN TẤT & KHỚP 1:1]
   - [x] `ch_134`: Chúc ngủ ngon (晚安 - 6.699 chữ, 207 đoạn 1:1, Nụ hôn cuồng nhiệt trong gara; Lương Khoát mặc nội y tím tai thỏ; Lương Khoát chuyển khoản 20 vạn; Thịnh Tây Kinh nửa đêm trèo ban công tặng nụ hôn vị coca chúc ngủ ngon). [✅ ĐÃ HOÀN TẤT & KHỚP 1:1]
   - [x] `ch_135`: Vĩnh biệt (永别 - 6.867 chữ, 198 đoạn 1:1, Thịnh Tây Kinh đổi tên thương hiệu thành Thịnh Phóng; 1 vs 4 đánh tan đám côn đồ của Lương Khoát; Lộc U U lao vào quán cà phê ghen tuông rồi bị chủ nợ lôi đi; nụ hôn công khai dưới ánh mặt trời). [✅ ĐÃ HOÀN TẤT & KHỚP 1:1]
-  - [x] `ch_136`: Dỗ dành cậu (哄你 - 6.505 chữ, 230 đoạn 1:1, Lương Khoát ghen tuông dỗi hờn vì vết rách môi; Thịnh Tây Kinh đến văn phòng dỗi ngược; màn quỳ gối dỗ dành bằng miệng trong phòng làm việc và chiếc cà vạt xích chó). [✅ ĐÃ HOÀN TẤT & KHỚP 1:1]
+  - [x] `ch_136`: Dỗ dành em (哄你 - 6.505 chữ, 230 đoạn 1:1, Lương Khoát ghen tuông dỗi hờn vì vết rách môi; Thịnh Tây Kinh đến văn phòng dỗi ngược; màn quỳ gối dỗ dành bằng miệng trong phòng làm việc và chiếc cà vạt xích chó). [✅ ĐÃ HOÀN TẤT & KHỚP 1:1]
   - [x] `ch_137`: Tâm ý (心意 - 6.935 chữ, 248 đoạn 1:1, Vết dâu tây trên cổ Thịnh Tây Kinh; nụ hôn bịt mắt trong ô tô; Lương Khoát đi công tác về sớm lao vào ôm chặt; Thịnh Tây Kinh thú nhận từng nghĩ tới việc ở bên anh; đề xuất mở tiệm bánh mì). [✅ ĐÃ HOÀN TẤT & KHỚP 1:1]
   - [x] `ch_138`: Rớt áo choàng (掉马 - 7.641 chữ, 247 đoạn 1:1, Thịnh Tây Kinh thuê mặt bằng mở tiệm bánh; tổ chức sinh nhật 29 tuổi ấm cúng cho Lương Khoát; tặng nội y ren hoa và da báo tự may; khoảnh khắc dịu dàng trên sô pha; Lương Khoát lần theo dấu vết tìm đến tiệm bánh và phát hiện sự thật). [✅ ĐÃ HOÀN TẤT & KHỚP 1:1]
 

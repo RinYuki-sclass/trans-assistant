@@ -310,7 +310,7 @@ Câu nói này anh thốt ra hoàn toàn không thẹn với lòng mình.
 
 Lương Khoát nói tới đây thì khóe mắt đã ngân ngấn nước: “Tới để làm quen với con người thật sự của người ấy.”
 
-Bàn tay vẫn luôn không chịu thu về kia khẽ nâng lên cao hơn một chút: “Xin chào, tôi tên là Lương Khoát, tôi có thể làm quen với cậu được không?”
+Bàn tay vẫn luôn không chịu thu về kia khẽ nâng lên cao hơn một chút: “Xin chào, anh tên là Lương Khoát, anh có thể làm quen với em được không?”
 
 Những lời vừa chực thốt ra bên bờ môi Thịnh Tây Kinh bỗng bị đánh tan tác, trong mắt hắn dâng lên từng đợt sóng gió kinh hoàng, thế nhưng lần này không phải là sóng dữ nhấn chìm hắn xuống đáy biển sâu, mà là đưa hắn bay thẳng lên chín tầng mây xanh.
 
@@ -318,25 +318,25 @@ Anh không phải tới để tìm kiếm quả trứng gà đen.
 
 Mà anh tới là để làm quen với một Thịnh Tây Kinh chân chính.
 
-“Tôi…… tôi không hiểu……”
+“Em…… em không hiểu……”
 
 Một Thịnh Tây Kinh đang lơ lửng trên chín tầng mây vẫn cố gắng giữ lại cho mình một tia lý trí cuối cùng, hắn từng dốc hết vốn liếng liều mạng quá nhiều lần rồi, hắn đã học được rằng trong tình cảm việc duy trì lý trí mới là sự lựa chọn tối ưu nhất để bản thân không bị thương tổn.
 
 “Tại sao đột nhiên anh lại?”
 
-“Tôi đã đi gặp Lộc U U rồi.”
+“Anh đã đi gặp Lộc U U rồi.”
 
 Nghe Lương Khoát nhắc tới cái tên Lộc U U, sắc mặt Thịnh Tây Kinh khẽ biến đổi, hắn hoàn toàn không hề bận tâm, cũng chẳng hề dò hỏi Lục Lục về tình cảnh hiện tại của Lộc U U, nhưng hắn đoán chắc chắn cậu ta sẽ chẳng thể nào sống dễ chịu được.
 
-Lương Khoát: “Tôi biết cậu không hề thông đồng cùng cậu ta để lừa gạt tôi.”
+Lương Khoát: “Anh biết em không hề thông đồng cùng cậu ta để lừa gạt anh.”
 
 Sự xót xa trong mắt Lương Khoát gần như muốn trào dâng ra ngoài, anh bước nhanh tới một bước ôm chặt lấy Thịnh Tây Kinh vào lòng.
 
-“Tôi cũng biết cả chuyện cậu ta từng rắp tâm muốn giết chết cậu rồi.”
+“Anh cũng biết cả chuyện cậu ta từng rắp tâm muốn giết chết em rồi.”
 
 Thịnh Tây Kinh không ngờ tới việc anh ngay cả chuyện này cũng có thể tra hỏi ra được, trên mặt lộ rõ vẻ suy tư. Hóa ra là Lương Khoát đã chạy tới chỗ Lộc U U để chứng thực xem những lời hắn nói là thật hay giả, rồi tình cờ biết thêm chuyện Lộc U U muốn mưu sát mình, cho nên anh mới……
 
-Sự xúc động nơi đáy mắt Thịnh Tây Kinh nhanh chóng được che giấu đi: “Tôi không cần sự thương hại của anh.”
+Sự xúc động nơi đáy mắt Thịnh Tây Kinh nhanh chóng được che giấu đi: “Em không cần sự thương hại của anh.”
 
 Câu nói này hắn thốt ra dứt khoát rành mạch, chém đinh chặt sắt.
 
@@ -348,15 +348,15 @@ Hắn có niềm kiêu hãnh của riêng mình.
 
 Từ việc khi Lộc U U phản bội hắn, hắn liền dứt khoát buông tay từ bỏ Lộc U U; cho tới việc khi bản thân anh không cần hắn, lúc tỉnh táo hắn tuyệt đối không bao giờ chủ động liên lạc với anh nữa, qua những chuyện ấy anh đã hiểu rất rõ rằng Thịnh Tây Kinh có lòng tự tôn và sự kiêu hãnh ngút ngàn.
 
-“Không phải thương hại cậu.”
+“Không phải thương hại em.”
 
 Đôi mắt đỏ hoe của Lương Khoát sau bao phen kìm nén rồi lại kìm nén, cuối cùng vẫn ngưng tụ lại thành những giọt lệ long lanh.
 
-“Là xót xa cho cậu.”
+“Là xót xa cho em.”
 
-“Là thích cậu.”
+“Là thích em.”
 
-“Là yêu cậu.”
+“Là yêu em.”
 
 Giọt nước mắt cùng với chữ Yêu ấy đồng thời rơi xuống.
 
@@ -382,25 +382,25 @@ Chữ Yêu này là anh nói với chính Thịnh Tây Kinh.
 
 Anh đã nhìn thấy trọn vẹn một Thịnh Tây Kinh.
 
-Anh nói: Tôi yêu cậu, Thịnh Tây Kinh.
+Anh nói: Anh yêu em, Thịnh Tây Kinh.
 
 Hắn nhìn bàn tay vẫn luôn giơ ra trước mặt chưa từng buông xuống kia, trịnh trọng đưa tay lên nắm chặt lấy.
 
-Hắn ngẩng đầu lên: “Xin chào, tôi tên là Thịnh Tây Kinh, năm nay 28 tuổi, làm chủ một nhà xưởng, có xe chưa có nhà, không nợ nần ai một đồng nào.”
+Hắn ngẩng đầu lên: “Xin chào, em tên là Thịnh Tây Kinh, năm nay 28 tuổi, làm chủ một nhà xưởng, có xe chưa có nhà, không nợ nần ai một đồng nào.”
 
 Nhận được lời hồi đáp, biểu cảm của Lương Khoát có chút mất kiểm soát mà bật cười không thành tiếng, hốc mắt lại càng lúc càng đỏ hoe.
 
-Thịnh Tây Kinh chớp chớp mắt, khóe môi từng chút một nở nụ cười rạng rỡ: “Tôi không có cha mẹ, cũng chẳng qua lại liên lạc với họ hàng thân thích gì, bạn bè đều biết xu hướng tính dục của tôi, họ chẳng hề bận tâm để ý tới những chuyện này.”
+Thịnh Tây Kinh chớp chớp mắt, khóe môi từng chút một nở nụ cười rạng rỡ: “Em không có cha mẹ, cũng chẳng qua lại liên lạc với họ hàng thân thích gì, bạn bè đều biết xu hướng tính dục của em, họ chẳng hề bận tâm để ý tới những chuyện này.”
 
-“Trước đây tôi từng trải qua một mối tình.”
+“Trước đây em từng trải qua một mối tình.”
 
 “Đã chia tay dứt khoát rồi.”
 
 Hai bàn tay đang siết chặt lấy nhau càng lúc càng gia tăng lực đạo.
 
-Thịnh Tây Kinh: “Cách đây một thời gian tôi có phải lòng một người, thực ra khi đã biết rõ tất cả mọi chuyện thì tôi vốn dĩ không nên đem lòng thích anh ấy mới phải.”
+Thịnh Tây Kinh: “Cách đây một thời gian em có phải lòng một người, thực ra khi đã biết rõ tất cả mọi chuyện thì em vốn dĩ không nên đem lòng thích anh ấy mới phải.”
 
-Hắn ngước mắt nhìn chằm chằm Lương Khoát: “Thế nhưng tôi vẫn đem lòng thích anh ấy mất rồi, tôi vui lắm, giờ đây anh ấy cũng thích tôi, thích một Thịnh Tây Kinh bằng xương bằng thịt này.”
+Hắn ngước mắt nhìn chằm chằm Lương Khoát: “Thế nhưng em vẫn đem lòng thích anh ấy mất rồi, em vui lắm, giờ đây anh ấy cũng thích em, thích một Thịnh Tây Kinh bằng xương bằng thịt này.”
 
 Nụ cười lan tỏa từ khóe môi lên tận ánh mắt rồi ngưng kết lại thành tình yêu đậm sâu.
 
@@ -410,7 +410,7 @@ Nụ cười lan tỏa từ khóe môi lên tận ánh mắt rồi ngưng kết 
 
 “Thịnh Tây Kinh.”
 
-“Tôi cũng rất vui được làm quen với cậu.”
+“Anh cũng rất vui được làm quen với em.”
 
 Hai bàn tay đang nắm chặt cùng đồng thời dùng sức, hai người gần như lao thẳng vào nhau, ôm ghì lấy nhau thật chặt, dùng sức, rồi lại dùng thêm sức, chỉ hận không thể hòa tan đối phương vào sâu tận xương tủy thân thể mình.
 
@@ -426,18 +426,18 @@ Hai người hơi tách nhau ra một chút, bụng của Thịnh Tây Kinh bỗ
 
 Thịnh Tây Kinh có chút ngượng ngùng lúng túng, ánh mắt đảo qua đảo lại né tránh.
 
-Lương Khoát nắm chặt lấy tay hắn: “Đi thôi, chúng ta đi ăn bữa sáng, sau đó tôi cùng cậu tới nhà xưởng của cậu có được không?”
+Lương Khoát nắm chặt lấy tay hắn: “Đi thôi, chúng ta đi ăn bữa sáng, sau đó anh cùng em tới nhà xưởng của em có được không?”
 
 Thịnh Tây Kinh cất bước đi theo anh ra ngoài cửa: “Anh không tới công ty à?”
 
-Nhịp thở kích động của Lương Khoát vẫn chưa thể bình ổn lại được: “Tôi muốn đi tuyên thệ chủ quyền một phen, sau đó cậu lại cùng tôi tới công ty của tôi, để cho tất cả mọi người đều biết rằng bông hoa này đã có chủ rồi.”
+Nhịp thở kích động của Lương Khoát vẫn chưa thể bình ổn lại được: “Anh muốn đi tuyên thệ chủ quyền một phen, sau đó em lại cùng anh tới công ty của anh, để cho tất cả mọi người đều biết rằng bông hoa này đã có chủ rồi.”
 
 Hai người sóng vai cùng nhau rảo bước về phía thang máy.
 
-Thịnh Tây Kinh đưa tay quệt đi giọt nước còn vương nơi khóe mắt, vừa rồi hình như hai người họ sến sẩm kịch tính theo phong cách Quỳnh Dao quá mức rồi, chẳng hợp với phong cách thường ngày của hai người chút nào, đôi mắt đảo một vòng ranh mãnh: “Anh muốn tôi tới công ty của anh thật à?”
+Thịnh Tây Kinh đưa tay quệt đi giọt nước còn vương nơi khóe mắt, vừa rồi hình như hai người họ sến sẩm kịch tính theo phong cách Quỳnh Dao quá mức rồi, chẳng hợp với phong cách thường ngày của hai người chút nào, đôi mắt đảo một vòng ranh mãnh: “Anh muốn em tới công ty của anh thật à?”
 
 Lương Khoát: “Ừ.”
 
-Khóe môi Thịnh Tây Kinh khẽ cong lên một nét cười đầy ẩn ý: “Vậy thì anh phải dỗ dành tôi cho tốt đấy nhé.”
+Khóe môi Thịnh Tây Kinh khẽ cong lên một nét cười đầy ẩn ý: “Vậy thì anh phải dỗ dành em cho tốt đấy nhé.”
 
-Lương Khoát đưa mắt nhìn hắn, Thịnh Tây Kinh quả thực sao mà biết làm nũng và cũng thích làm nũng đến thế cơ chứ, anh cũng thực sự mê đắm cái điệu bộ ấy của hắn, anh tình nguyện nuông chiều dỗ dành hắn cả đời. Anh đưa tay áp lên vành tai hình thỏi vàng xinh xắn của Thịnh Tây Kinh: “Buổi tối tất thảy đều nghe theo cậu hết, tư thế, trang phục, thời gian kết thúc thế nào đều theo ý cậu tất.”
+Lương Khoát đưa mắt nhìn hắn, Thịnh Tây Kinh quả thực sao mà biết làm nũng và cũng thích làm nũng đến thế cơ chứ, anh cũng thực sự mê đắm cái điệu bộ ấy của hắn, anh tình nguyện nuông chiều dỗ dành hắn cả đời. Anh đưa tay áp lên vành tai hình thỏi vàng xinh xắn của Thịnh Tây Kinh: “Buổi tối tất thảy đều nghe theo em hết, tư thế, trang phục, thời gian kết thúc thế nào đều theo ý em tất.”

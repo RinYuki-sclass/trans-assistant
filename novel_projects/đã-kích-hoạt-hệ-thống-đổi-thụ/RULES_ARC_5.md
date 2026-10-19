@@ -23,12 +23,16 @@
 ## 2. QUY CHUẨN XƯNG HÔ ĐỐI THOẠI
 
 1. **Thịnh Tây Kinh (Công) vs Lương Khoát (Thụ) [Cùng 28 tuổi]:**
-   - **Thịnh Tây Kinh:**
-     + Xã giao thương trường & khi nắm thóp / trêu ngươi: xưng **"tôi"**, gọi **"anh" / "Lương tổng"** *(Ví dụ: “Lương tổng, chiếc quần này rất hợp với anh”, “Tôi giúp anh nhé?”)*.
-     + Khi áp chế, ra lệnh, dỗ dành: xưng **"tôi"** gọi **"anh"**.
-   - **Lương Khoát:**
-     + Xã giao ban đầu: xưng **"tôi"**, gọi **"cậu" / "Thịnh tổng"**.
-     + Khi bị nắm thóp, cúi đầu phục tùng: xưng **"tôi"**, gọi **"cậu" / "Thịnh Tây Kinh" / "Thịnh tổng"**.
+   - **Giai đoạn ban đầu & Xã giao thương trường (Ch 121 – Ch 132):**
+     + Thịnh Tây Kinh: xưng **"tôi"**, gọi **"anh" / "Lương tổng"** *(Ví dụ: “Lương tổng, chiếc quần này rất hợp với anh”, “Tôi giúp anh nhé?”)*.
+     + Lương Khoát: xưng **"tôi"**, gọi **"cậu" / "Thịnh tổng"**.
+   - **Giai đoạn thả thính & Nhen nhóm tình cảm (Ch 133 – Ch 138):**
+     + Thịnh Tây Kinh (dưới thân phận trứng gà đen / làm nũng): bắt đầu xưng **"em"**, gọi **"anh"** *(“Vâng, thế em đợi anh”, “Nhưng mà em không có tiền”, “Em là quả trứng gà đen của anh”)*.
+     + Lương Khoát: xưng **"anh"** (hoặc "anh Khoát"), gọi **"em" / "bảo bối"**, hạn chế dần "tôi - cậu".
+   - **Giai đoạn YÊU ĐƯƠNG CHÍNH THỨC, KẾT HÔN & PHIÊN NGOẠI (Từ Ch 142 đến Ch 144, Ch 147, Ch 148) [THEO LỆNH CHỐT TỪ USER]:**
+     + **Thịnh Tây Kinh:** gọi Lương Khoát bằng **"anh"** (khi trêu đùa tình thú trên giường gọi **"vợ ơi"**), xưng **"em"**.
+     + **Lương Khoát:** gọi Thịnh Tây Kinh bằng **"em"** (khi tình tứ gọi **"bảo bối"**), xưng **"anh"**.
+     + ⛔ **TUYỆT ĐỐI CẤM DÙNG "TÔI" - "CẬU"** khi hai người đã yêu đương, làm lành, xác lập quan hệ hoặc kết hôn.
    - *Lưu ý sống còn trong trần thuật ngôi 3:* **Công Thịnh Tây Kinh = "hắn"**, **Thụ Lương Khoát = "anh"**. Tuyệt đối không dùng ngược lại tránh đảo lộn vai vế.
 
 2. **Thịnh Tây Kinh vs Lộc U U (Nguyên thụ):**

@@ -50,7 +50,7 @@ Thịnh Tây Kinh chỉ tay vào vùng dưới mắt mình, ghé sát mặt lạ
 
 “Thấy rồi, thấy gương mặt đẹp trai ngời ngời của anh.” Lương Khoát bỉ ổi nâng gương mặt Thịnh Tây Kinh lên cắn một cái, “Lại còn thấy cả gương mặt xinh đẹp tuyệt trần của vợ nữa chứ.”
 
-Thịnh Tây Kinh: “Tôi đang nói nếp nhăn cơ, hai đứa mình phải bắt đầu dưỡng sinh rồi, cố gắng sau này làm hai ông lão khỏe mạnh, tránh để tay trái đưa số sáu tay phải đưa số bảy run rẩy lẩy bẩy.”
+Thịnh Tây Kinh: “Em đang nói nếp nhăn cơ, hai đứa mình phải bắt đầu dưỡng sinh rồi, cố gắng sau này làm hai ông lão khỏe mạnh, tránh để tay trái đưa số sáu tay phải đưa số bảy run rẩy lẩy bẩy.”
 
 “Nói bậy bạ gì thế, em làm gì có nếp nhăn nào đâu!”
 
@@ -60,7 +60,7 @@ Anh đưa ngón tay vuốt ve lên những đường rãnh mờ nhạt ấy, gi�
 
 Anh đưa tay sờ lên đuôi mắt của chính mình: “Đợi tới khi thời gian nở hoa trên gương mặt của chúng ta, chúng ta sẽ bén rễ đâm chồi, một lần nữa nảy mầm sinh sôi, cho nên không cần phải sợ hãi làm gì.”
 
-Thịnh Tây Kinh đưa tay vuốt ve gương mặt Lương Khoát: “Vậy thì tôi hy vọng ngày đó sẽ đến muộn hơn một chút.”
+Thịnh Tây Kinh đưa tay vuốt ve gương mặt Lương Khoát: “Vậy thì em hy vọng ngày đó sẽ đến muộn hơn một chút.”
 
 Để chúng ta nở hoa muộn một chút.
 
@@ -88,7 +88,7 @@ Hắn cúp điện thoại. Người mẹ này là mẹ của Lương Khoát, th
 
 Mấy năm qua cha mẹ anh đối đãi với hắn vô cùng tốt, xem hắn chẳng khác nào con trai ruột trong nhà.
 
-Hắn đi tới phòng trà nước, vừa pha loại trà mà mẹ thích uống vừa gọi video cho Lương Khoát: “Lát nữa mẹ tới chỗ tôi này, mang đồ ăn ngon cho tôi đấy.”
+Hắn đi tới phòng trà nước, vừa pha loại trà mà mẹ thích uống vừa gọi video cho Lương Khoát: “Lát nữa mẹ tới chỗ em này, mang đồ ăn ngon cho em đấy.”
 
 Giọng điệu của hắn có đôi phần khoe mẽ đắc ý.
 

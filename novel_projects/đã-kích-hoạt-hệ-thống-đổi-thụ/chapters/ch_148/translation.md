@@ -16,7 +16,7 @@ Quá quắt hơn nữa, có những lúc còn bắt hắn phải đỡ hộ cho 
 
 Rồi sau đó mười lần thì có tới tám lần anh sẽ nhắc lại chuyện năm xưa hắn say bí tỉ tè cả lên ống quần của anh.
 
-Thịnh Tây Kinh đối với cái chuyện mất mặt tày đình này nay đã miễn dịch hoàn toàn rồi, thậm chí còn có thể đường hoàng thản nhiên đáp lại anh một câu: “Lúc đó tôi đang đánh dấu chủ quyền lên người anh đấy chứ bộ.”
+Thịnh Tây Kinh đối với cái chuyện mất mặt tày đình này nay đã miễn dịch hoàn toàn rồi, thậm chí còn có thể đường hoàng thản nhiên đáp lại anh một câu: “Lúc đó em đang đánh dấu chủ quyền lên người anh đấy chứ bộ.”
 
 Thế cho nên bây giờ tình cảnh người không nằm trên giường quả thực vô cùng bất thường, chẳng lẽ có người ngoài hành tinh nào đã lẻn vào bắt trộm vợ hắn đi rồi sao? Thịnh Tây Kinh đầu óc mở toang nghĩ ngợi lung tung, cuống cuồng tung chăn ra định trèo xuống giường đi tìm.
 
@@ -66,7 +66,7 @@ Cậu bé ngơ ngác chớp chớp mắt: “Sao em cứ nhìn chằm chằm và
 
 Sau đó liền nở một nụ cười tà mị quyến rũ, lớp thịt mỡ núng nính trên hai má rung rinh cả lên: “Lại là một ngày bị ông xã của em mê hoặc đến đờ đẫn rồi đúng không nè~”
 
-Thịnh Tây Kinh lao bổ tới mép giường, ngồi thụp xuống, trợn to hai mắt: “Cậu, cậu là Lương Khoát thật đấy à?”
+Thịnh Tây Kinh lao bổ tới mép giường, ngồi thụp xuống, trợn to hai mắt: “Anh, anh là Lương Khoát thật đấy à?”
 
 Hắn thực sự không tài nào tin nổi một người vợ to lớn vạm vỡ nhường ấy của mình bỗng chốc lại biến thành một đứa con nít ranh thế này.
 
@@ -82,7 +82,7 @@ Móng vuốt heo con của đứa nào đây trời?
 
 Anh rụt bàn tay lại giơ ra trước mặt xoay qua xoay lại ngắm nghía một vòng, rồi cúi đầu nhìn xuống. Vừa cúi đầu xuống, chẳng thấy đâu những múi cơ bụng săn chắc mà mình đã khổ công rèn luyện bấy lâu nay, mà đập vào mắt là một cái bụng nhỏ núng nính mỡ tròn xoe, dưới chiếc bụng nhỏ là hai cẳng chân ngắn tũn và hai bàn chân con con.
 
-Thịnh Tây Kinh trước sau vẫn có chút khó lòng tin nổi: “Cậu thực sự là Lương Khoát đấy à?”
+Thịnh Tây Kinh trước sau vẫn có chút khó lòng tin nổi: “Anh thực sự là Lương Khoát đấy à?”
 
 Nhận thức được bản thân mình đã biến thành một đứa trẻ con, Lương Khoát lập tức toát cả mồ hôi lạnh, anh cuống cuồng bò vội về phía Thịnh Tây Kinh: “Thịnh Tây Kinh, anh, sao anh lại biến thành con nít thế này rồi hả em?”
 
@@ -106,11 +106,11 @@ Hồi còn nhỏ Lương Khoát thực sự là một cục thịt tròn vo nún
 
 “Nếu như anh mãi mãi không biến trở lại được như cũ thì phải làm sao bây giờ?”
 
-Ánh mắt Thịnh Tây Kinh nhìn anh tràn ngập sự dịu dàng xen lẫn nét từ ái yêu thương, hoàn toàn khác hẳn với ánh mắt khi nhìn một Lương Khoát bình thường, giờ phút này trên người hắn toát lên một cảm giác hệt như một người cha hiền từ: “Vậy thì tôi sẽ nuôi cậu lớn khôn.”
+Ánh mắt Thịnh Tây Kinh nhìn anh tràn ngập sự dịu dàng xen lẫn nét từ ái yêu thương, hoàn toàn khác hẳn với ánh mắt khi nhìn một Lương Khoát bình thường, giờ phút này trên người hắn toát lên một cảm giác hệt như một người cha hiền từ: “Vậy thì em sẽ nuôi anh lớn khôn.”
 
 Lương Khoát ngẩng đầu lên chạm phải ánh mắt của Thịnh Tây Kinh, trong đôi mắt kia là sự chín chắn và nỗi âu lo hoàn toàn không hề tương xứng với cái bộ dạng con nít hiện tại của anh: “Thế nhưng phải rất lâu sau anh mới tròn 18 tuổi cơ mà.”
 
-Cảm nhận được nỗi bất an hoang mang trong lòng Lương Khoát, Thịnh Tây Kinh khẽ đặt một nụ hôn nhẹ lên lọn tóc trên đỉnh đầu anh: “Không đâu, cậu nhất định sẽ sớm khôi phục lại bình thường nhanh thôi mà.”
+Cảm nhận được nỗi bất an hoang mang trong lòng Lương Khoát, Thịnh Tây Kinh khẽ đặt một nụ hôn nhẹ lên lọn tóc trên đỉnh đầu anh: “Không đâu, anh nhất định sẽ sớm khôi phục lại bình thường nhanh thôi mà.”
 
 Nghe hắn nói như vậy Lương Khoát mới hơi an tâm đôi chút. Với cái bộ dạng nhóc tì này thì tự nhiên là chẳng thể nào tới công ty làm việc được rồi, may thay chỉ số thông minh của anh không hề bị thoái hóa thành một đứa trẻ con, liền ngồi xử lý công việc trên máy tính xách tay.
 
@@ -120,7 +120,7 @@ Cảnh tượng này thực sự buồn cười và thú vị hết chỗ nói.
 
 Lương Khoát ngẩng đầu lên: “Em đã chụp ảnh quay video suốt từ nãy tới giờ rồi đấy nhé.”
 
-Thịnh Tây Kinh ngồi ở phía đối diện giơ điện thoại chụp quay không ngừng bật cười khúc khích, cái bộ dạng này thực sự quá đỗi đáng yêu không chịu nổi, hắn không kìm được lòng: “Đợi tới khi cậu biến trở lại như cũ có thể xem lại, giữ làm kỷ niệm mà.”
+Thịnh Tây Kinh ngồi ở phía đối diện giơ điện thoại chụp quay không ngừng bật cười khúc khích, cái bộ dạng này thực sự quá đỗi đáng yêu không chịu nổi, hắn không kìm được lòng: “Đợi tới khi anh biến trở lại như cũ có thể xem lại, giữ làm kỷ niệm mà.”
 
 Lương Khoát lắc lắc đầu, hoàn toàn mang dáng vẻ của một ông cụ non.
 
@@ -146,7 +146,7 @@ Anh vội cúi đầu nhìn xuống.
 
 Sự mong đợi ngóng trông lại một lần nữa tan thành bọt nước, anh vẫn chưa hề biến trở lại.
 
-Thịnh Tây Kinh bế bổng anh vào lòng: “Không sao đâu mà, mới có một ngày thôi mà, biết đâu là do dạo gần đây cậu làm việc vất vả quá nên ông trời muốn thưởng cho cậu, để cậu được làm con nít thêm vài ngày thảnh thơi thoải mái thì sao.”
+Thịnh Tây Kinh bế bổng anh vào lòng: “Không sao đâu mà, mới có một ngày thôi mà, biết đâu là do dạo gần đây anh làm việc vất vả quá nên ông trời muốn thưởng cho anh, để anh được làm con nít thêm vài ngày thảnh thơi thoải mái thì sao.”
 
 Lương Khoát vùi chặt mặt vào lòng Thịnh Tây Kinh, anh không thèm làm con nít đâu, anh muốn làm người yêu của Thịnh Tây Kinh cơ, thế nhưng anh không tiếp tục bộc lộ thêm bất kỳ cảm xúc tiêu cực nào nữa, để tránh tạo thêm áp lực cho Thịnh Tây Kinh.
 
@@ -160,7 +160,7 @@ Thế nhưng hắn cũng chẳng tra cứu ra được câu trả lời nào đ�
 
 Lương Khoát: “Chúng ta ra ngoài dạo phố đi em.”
 
-Thịnh Tây Kinh nhìn anh rồi gật đầu: “Cũng được, đi mua cho cậu mấy bộ quần áo mới, có muốn tới khu vui chơi cưỡi vòng quay ngựa gỗ không?”
+Thịnh Tây Kinh nhìn anh rồi gật đầu: “Cũng được, đi mua cho anh mấy bộ quần áo mới, có muốn tới khu vui chơi cưỡi vòng quay ngựa gỗ không?”
 
 Lương Khoát giơ nắm đấm thịt múp míp đấm nhẹ vào người hắn một cái: “Em coi anh là đứa con nít lên 3 tuổi thật đấy à.”
 
@@ -176,7 +176,7 @@ Nhân viên bán hàng bật cười trêu chọc Lương Khoát: “Soái ca nh
 
 Bị người ta xem như một đứa trẻ con để dỗ dành, Lương Khoát: ……
 
-Thịnh Tây Kinh dùng giọng điệu thương lượng: “Ngày nào cậu cũng đóng bộ âu phục rồi, nhân cơ hội này đổi phong cách một chút đi mà.”
+Thịnh Tây Kinh dùng giọng điệu thương lượng: “Ngày nào anh cũng đóng bộ âu phục rồi, nhân cơ hội này đổi phong cách một chút đi mà.”
 
 Lương Khoát liếc nhìn mấy bộ quần áo ấu trĩ con nít kia, kiên quyết lắc đầu quầy quậy.
 
@@ -200,7 +200,7 @@ Cuối cùng Lương Khoát mặc một bộ âu phục vest đen nhỏ nhắn t
 
 Hắn đưa quả bóng bay cho Lương Khoát: “Cầm lấy mà chơi này.”
 
-Lương Khoát nghiến răng nghiến lợi, bằng chất giọng ngọng nghịu non nớt mắng: “Cậu biến đi cho tôi nhờ.”
+Lương Khoát nghiến răng nghiến lợi, bằng chất giọng ngọng nghịu non nớt mắng: “Em biến đi cho anh nhờ.”
 
 Thịnh Tây Kinh cúi người bế bổng anh lên, đôi chân ngắn tũn có bước thoăn thoắt thế nào cũng chẳng đi được bao xa, thôi thì cứ để hắn bế cho lành. Hai người lang thang dạo phố bên ngoài gần cả một ngày trời, về sau Lương Khoát mệt quá liền gục đầu lên vai Thịnh Tây Kinh ngủ thiếp đi lúc nào không hay.
 
@@ -276,7 +276,7 @@ Bàn tay vừa nhấc ra, làn da nơi đó liền biến thành màu đỏ ửn
 
 Hồi anh 18 tuổi mà gặp được Thịnh Tây Kinh thì chẳng phải bị mê hoặc tới mức quay mòng mòng hay sao, đi bớt được mấy năm đường vòng làm 1, trực tiếp bị người ta thu phục luôn cho rồi. Thịnh Tây Kinh năm 18 tuổi, Thịnh Tây Kinh năm 19 tuổi, sau này mỗi một năm của Thịnh Tây Kinh anh đều có thể được nhìn thấy, được thưởng thức trọn vẹn. Nghĩ như vậy nhưng vẫn thấy chưa đủ, nếu như bọn họ có thể quen biết nhau từ thuở tấm bé thì tốt biết mấy, anh cũng rất muốn được tận mắt chứng kiến xem Thịnh Tây Kinh hồi còn nhỏ xíu trông như thế nào.
 
-Thịnh Tây Kinh: “Anh cứ thế này là tôi bắt đầu lo lắng đợi tới khi tôi biến trở lại như cũ anh sẽ không còn thích tôi nữa đấy nhé.”
+Thịnh Tây Kinh: “Anh cứ thế này là em bắt đầu lo lắng đợi tới khi em biến trở lại như cũ anh sẽ không còn thích em nữa đấy nhé.”
 
 Lương Khoát chu môi đặt một nụ hôn lên ngực Thịnh Tây Kinh: “Không đời nào đâu, em của lúc trưởng thành càng thêm bốc lửa quyến rũ hơn nhiều.”
 
@@ -296,7 +296,7 @@ Lương Khoát ngửi ra được một tia giấm chua nồng nặc: “Vẫn c
 
 Đó là lần anh tham gia một bữa tiệc rượu cách đây không lâu, một thanh niên trẻ tuổi chẳng biết từ đâu chui ra muốn tới bắt chuyện thả thính anh. Sở dĩ dùng từ thả thính gạ gẫm là vì đối phương vừa tiến tới đã trực tiếp nhét vào tay anh một chiếc thẻ phòng khách sạn, hơn nữa trên ngón áp út của anh rõ ràng đang đeo nhẫn cưới sờ sờ ra đó, đi gạ gẫm một người đã có gia đình thì tuyệt đối chính là hành vi câu dẫn trơ trẽn. Cảnh tượng ấy vừa vặn bị Thịnh Tây Kinh lái xe tới đón anh bắt gặp quả tang.
 
-Cách thức đáp trả của anh khi đó cũng vô cùng đơn giản dứt khoát. Ngay khi Thịnh Tây Kinh với tư thế của một người vợ chính thất hiên ngang hùng dũng sải bước tới bên cạnh mình, anh liền trực tiếp ôm lấy Thịnh Tây Kinh hôn đắm đuối một cái, đầy vẻ đắc ý khoe mẽ: “Vợ xinh đẹp của tôi tới đón tôi về nhà rồi nè.”
+Cách thức đáp trả của anh khi đó cũng vô cùng đơn giản dứt khoát. Ngay khi Thịnh Tây Kinh với tư thế của một người vợ chính thất hiên ngang hùng dũng sải bước tới bên cạnh mình, anh liền trực tiếp ôm lấy Thịnh Tây Kinh hôn đắm đuối một cái, đầy vẻ đắc ý khoe mẽ: “Vợ xinh đẹp của anh tới đón anh về nhà rồi nè.”
 
 Chàng thanh niên kia nhìn chằm chằm Thịnh Tây Kinh một hồi, chắc là trên gương mặt hoàn mỹ không góc chết ấy căn bản chẳng tài nào tìm ra được điểm gì để bới móc chê bai, đành ngậm ngùi xám xịt mặt mày lủi thủi bỏ cuộc.
 
@@ -304,7 +304,7 @@ Chỉ có điều tội nghiệp cho anh suốt dọc đường về nhà phải
 
 Ngón tay anh khẽ chọc chọc vào vị trí trước ngực Thịnh Tây Kinh: “Đồ hẹp hòi thù dai.”
 
-Thịnh Tây Kinh cúi đầu hôn anh: “Không cần biết, bắt anh phải dỗ dành tôi.”
+Thịnh Tây Kinh cúi đầu hôn anh: “Không cần biết, bắt anh phải dỗ dành em.”
 
 Cái tên nhóc được trẻ hóa lại này, một khi đã làm nũng thì lại càng chẳng có chút kiêng dè ngại ngùng nào nữa.
 
@@ -366,7 +366,7 @@ Lương Khoát dần dần nhận thức được rằng một Thịnh Tây Kinh
 
 “Không biết nữa.”
 
-Thịnh Tây Kinh lại đè nghiến Lương Khoát xuống ghế xe: “Kim chủ ba ba, tôi biểu hiện có tốt không? Có cho tôi tiền tiêu vặt không nào?”
+Thịnh Tây Kinh lại đè nghiến Lương Khoát xuống ghế xe: “Kim chủ ba ba, em biểu hiện có tốt không? Có cho em tiền tiêu vặt không nào?”
 
 Trước khi hung hãn nện mạnh.
 
@@ -378,7 +378,7 @@ Một Thịnh Tây Kinh trẻ trung sung mãn thì quả thực chẳng bao gi�
 
 Lương Khoát mồ hôi mồ kê nhễ nhại đẩy hắn ra một chút: “Chúng ta ra ngoài dạo một vòng đi em.”
 
-Thịnh Tây Kinh đè chặt lấy tay anh: “Tôi chẳng biết lúc nào mình sẽ biến trở lại như cũ đâu, Lương tổng phải tranh thủ thời gian tận dụng tôi triệt để chứ.”
+Thịnh Tây Kinh đè chặt lấy tay anh: “Em chẳng biết lúc nào mình sẽ biến trở lại như cũ đâu, Lương tổng phải tranh thủ thời gian tận dụng em triệt để chứ.”
 
 Lương Khoát không phục, không cam lòng chút nào, nếu như bây giờ anh cũng 18 tuổi thì xem ai sợ ai!
 
@@ -404,15 +404,15 @@ Lương Khoát cắn chặt môi dưới cố sức nhịn, trong gara để xe 
 
 Thịnh Tây Kinh “ồ” một tiếng, rồi sau đó lại càng quá quắt hơn nữa.
 
-Lương Khoát lập tức trừng tròn xoe hai mắt, nhìn cái tên giấu đầy vẻ xấu xa nơi đáy mắt kia, gấp tới mức lại đẩy mạnh Thịnh Tây Kinh hai cái: “Cậu đứng đắn đàng hoàng lại cho tôi nhờ, tôi không lừa cậu đâu, tôi thực sự sắp nhịn không nổi nữa rồi đây này!”
+Lương Khoát lập tức trừng tròn xoe hai mắt, nhìn cái tên giấu đầy vẻ xấu xa nơi đáy mắt kia, gấp tới mức lại đẩy mạnh Thịnh Tây Kinh hai cái: “Em đứng đắn đàng hoàng lại cho anh nhờ, anh không lừa em đâu, anh thực sự sắp nhịn không nổi nữa rồi đây này!”
 
 “Vậy thì giải quyết ngay tại chỗ luôn đi.”
 
-“Cút xéo đi…… Cậu coi tôi là loài chó đấy à……”
+“Cút xéo đi…… Em coi anh là loài chó đấy à……”
 
 Thịnh Tây Kinh bật cười thành tiếng, cất giọng gọi dồn dập liên hồi: “Cún con, cún con, cún con họ Lương ơi.”
 
-Dụ dỗ dỗ dành: “Cún con họ Lương, tè lên người tôi đi này.”
+Dụ dỗ dỗ dành: “Cún con họ Lương, tè lên người em đi này.”
 
 Đồng thời hung hãn tiến vào.
 

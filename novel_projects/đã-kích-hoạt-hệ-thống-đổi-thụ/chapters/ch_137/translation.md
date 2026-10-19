@@ -232,7 +232,7 @@ Quả trứng gà đen: 【Khi nào anh về?】
 
 Kim chủ ba ba: 【Chắc ngày kia.】
 
-Kim chủ ba ba: 【Sẽ mua quà cho cậu.】
+Kim chủ ba ba: 【Sẽ mua quà cho em.】
 
 Quả trứng gà đen: 【Vâng, thế em đợi anh.】
 
@@ -272,7 +272,7 @@ Nhưng tại sao quả trứng gà đen cũng không thèm đả động tới? 
 
 Đang ở phòng kỹ thuật làm mẫu rập, cầm bút dựa theo số đo vòng ngực của Lương Khoát vẽ qua vẽ lại, Thịnh Tây Kinh nhìn màn hình điện thoại sáng lên.
 
-Kim chủ ba ba: 【Tôi không vui rồi.】
+Kim chủ ba ba: 【Anh không vui rồi.】
 
 Hắn khẽ cười, cầm điện thoại rời khỏi phòng kỹ thuật. Nhân viên phòng kỹ thuật liếc nhìn hắn một cái, dạo gần đây nụ cười trên mặt ông chủ nhiều đến mức khó tin. Mọi người đều biết sếp và Lộc U U đã toang rồi, chắc hẳn là vừa va phải mối tình mới.
 
@@ -432,7 +432,7 @@ Môi trường làm việc bây giờ không tốt, ma mới bị bắt nạt l�
 
 Anh thực lòng không nỡ để cậu ta chịu ấm ức bắt nạt.
 
-“Cũng không nhất thiết phải vào công ty làm việc, cậu có điều gì bản thân muốn làm không?”
+“Cũng không nhất thiết phải vào công ty làm việc, em có điều gì bản thân muốn làm không?”
 
 “Ước mơ chẳng hạn.”
 
@@ -464,7 +464,7 @@ Càng thêm xót xa yêu thương mình.
 
 Ở bên cạnh Lộc U U, hắn bắt buộc phải kiên cường và kiên cường hơn nữa; nhưng nếu là Lương Khoát, hắn dường như không cần phải một mình gồng gánh chống chọi.
 
-Liền nghe người đối diện khẽ cười một tiếng: “Ai bảo cậu phải bỏ tiền ra đâu, tôi sẽ sắp xếp người chọn địa điểm, thiết kế thi công, cậu chỉ việc ngồi chờ làm ông chủ là được.”
+Liền nghe người đối diện khẽ cười một tiếng: “Ai bảo em phải bỏ tiền ra đâu, anh sẽ sắp xếp người chọn địa điểm, thiết kế thi công, em chỉ việc ngồi chờ làm ông chủ là được.”
 
 Lương Khoát nói xong nửa ngày trời đầu dây bên kia vẫn im thin thít không chút động tĩnh, đang định lên tiếng hỏi thì nghe quả trứng gà đen nói.
 
@@ -472,7 +472,7 @@ Lương Khoát nói xong nửa ngày trời đầu dây bên kia vẫn im thin t
 
 “Như thế em sẽ bị lộ mất.”
 
-Lương Khoát cảm thấy giọng mũi của quả trứng gà đen dường như đặc quánh lại, nhưng vừa nghe câu này của cậu ta: “Cậu đúng thật là…… Được rồi, tôi chuyển tiền cho cậu, nhưng cậu phải báo cáo tiến độ cho tôi đấy nhé.”
+Lương Khoát cảm thấy giọng mũi của quả trứng gà đen dường như đặc quánh lại, nhưng vừa nghe câu này của em: “Em đúng thật là…… Được rồi, anh chuyển tiền cho em, nhưng em phải báo cáo tiến độ cho anh đấy nhé.”
 
 Thịnh Tây Kinh chớp mạnh mắt một cái: “Vâng, em sẽ báo cáo.”
 

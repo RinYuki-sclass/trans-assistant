@@ -28,9 +28,9 @@ Lương Khoát gật gù hiểu ý, công ty của anh hoàn toàn không dính 
 
 Nhìn thấy đại lão bản đích thân đi tuần, các công nhân lại càng vùi đầu chăm chỉ làm việc hơn nữa.
 
-Lương Khoát tò mò hỏi: “Cơ duyên nào đã đưa cậu tới việc mở xưởng may mặc này thế?”
+Lương Khoát tò mò hỏi: “Cơ duyên nào đã đưa em tới việc mở xưởng may mặc này thế?”
 
-Thịnh Tây Kinh cúi người nhặt một mảnh vải của một công nhân bị rơi ra ngoài sọt đặt lại vào chỗ cũ: “Lúc đầu là vào năm nhất đại học tôi đi làm thêm công việc người mẫu ảnh.”
+Thịnh Tây Kinh cúi người nhặt một mảnh vải của một công nhân bị rơi ra ngoài sọt đặt lại vào chỗ cũ: “Lúc đầu là vào năm nhất đại học em đi làm thêm công việc người mẫu ảnh.”
 
 Lương Khoát vèo một cái quay ngoắt đầu nhìn chằm chằm hắn, hắn居然 từng làm cả người mẫu cơ đấy! Nhưng ngẫm lại hắn quả thực có thừa điều kiện ngoại hình này, cái người ban đầu nhìn trúng tìm hắn làm người mẫu quả thực quá có mắt nhìn, lời to rồi còn gì.
 
@@ -38,13 +38,13 @@ Thịnh Tây Kinh năm nhất đại học.
 
 Thịnh Tây Kinh của hiện tại trông đã non nớt trẻ trung nhường này rồi, thì Thịnh Tây Kinh của năm nhất đại học chẳng phải non mềm đến mức búng ra sữa hay sao. Nỗi tiếc nuối bỗng chốc trào dâng trong lòng anh, nếu như bọn họ có thể gặp nhau sớm hơn thì tốt biết mấy, có anh ở đây, anh tuyệt đối sẽ không để Thịnh Tây Kinh phải đi một con đường nhọc nhằn vất vả đến nhường này.
 
-Thịnh Tây Kinh: “Hồi đó địa điểm chụp hình chính là ở xưởng may, sau đó tôi nghe ngóng được công nhân làm theo giờ ở chỗ họ một ngày kiếm được chừng 200 tệ, hơn nữa việc làm lại lâu dài ổn định, thế nên tôi liền chạy sang đó làm công nhân luôn.”
+Thịnh Tây Kinh: “Hồi đó địa điểm chụp hình chính là ở xưởng may, sau đó em nghe ngóng được công nhân làm theo giờ ở chỗ họ một ngày kiếm được chừng 200 tệ, hơn nữa việc làm lại lâu dài ổn định, thế nên em liền chạy sang đó làm công nhân luôn.”
 
 Còn có một nguyên nhân chủ yếu nữa là hắn không mấy mặn mà với công việc làm người mẫu cho lắm.
 
 Bọn họ cùng nhau đi lên tầng hai. Quang cảnh ở tầng hai có phần hoành tráng quy mô hơn nhiều, không giống như tầng dưới được phân chia thành khu cắt may, khu máy may và kho chứa hàng, toàn bộ tầng hai đều là các dàn máy may xếp san sát nhau.
 
-Thịnh Tây Kinh nhìn dáng vẻ của Lương Khoát thì đoán chừng anh đã quên bẵng mất mục đích ban đầu mình tới đây là gì rồi: “Nhờ vào cơ duyên đó, tôi mới bắt đầu có hiểu biết về xưởng may mặc.”
+Thịnh Tây Kinh nhìn dáng vẻ của Lương Khoát thì đoán chừng anh đã quên bẵng mất mục đích ban đầu mình tới đây là gì rồi: “Nhờ vào cơ duyên đó, em mới bắt đầu có hiểu biết về xưởng may mặc.”
 
 Có điều vốn đầu tư để mở một xưởng may mặc khá lớn, tuyển dụng nhân công, tìm kiếm khách hàng, thiết kế mẫu mã, dịch vụ hậu mãi, tất thảy đều chẳng phải chuyện đơn giản dễ dàng gì, thế nên lúc đầu hắn liền gom góp số tiền dành dụm được đi mở một quán ăn nhỏ, thứ mà trên mọi phương diện đều có vẻ dễ dàng hơn nhiều.
 
@@ -84,7 +84,7 @@ Tiểu Cao liền vội vã rời đi, trong lòng đầy vẻ suy tư ngờ v�
 
 Có gì đó sai sai, mờ ám vô cùng.
 
-Lương Khoát chợt nhớ tới khoản tiền năm triệu tệ của mình: “Đúng rồi, năm triệu của tôi cậu dự định rót vào mảng nào thế?”
+Lương Khoát chợt nhớ tới khoản tiền năm triệu tệ của mình: “Đúng rồi, năm triệu của anh em dự định rót vào mảng nào thế?”
 
 Thịnh Tây Kinh đẩy cánh cửa phòng kỹ thuật ra, đôi mắt đảo một vòng ranh mãnh: “Dây chuyền đồ lót.”
 
@@ -150,13 +150,13 @@ Trước khi rời khỏi văn phòng, Lương Khoát liền thấy Thịnh Tây
 
 Bước ra khỏi văn phòng, Thịnh Tây Kinh ghé tai hỏi nhỏ một câu: “Anh không tuyên thệ chủ quyền nữa à?”
 
-Lương Khoát im lặng một thoáng: “Đợi chúng ta chụp chung một tấm ảnh, cậu đặt lên bàn làm việc của cậu là được.”
+Lương Khoát im lặng một thoáng: “Đợi chúng ta chụp chung một tấm ảnh, em đặt lên bàn làm việc của em là được.”
 
 Anh vẫn có chút ngượng ngùng, chuyện tuyên thệ chủ quyền này thực ra có chút trẻ con ấu trĩ, lúc nãy là do anh quá đỗi hưng phấn kích động nên mới ăn nói bạt mạng như vậy. Hơn nữa anh tin tưởng Thịnh Tây Kinh, Thịnh Tây Kinh tuyệt đối sẽ không bao giờ ngoại tình hay mập mờ thả thính với bất kỳ ai.
 
-Thịnh Tây Kinh: “Vậy tôi có thể tự lựa chọn phương thức tuyên thệ chủ quyền của riêng tôi không?”
+Thịnh Tây Kinh: “Vậy em có thể tự lựa chọn phương thức tuyên thệ chủ quyền của riêng em không?”
 
-Lương Khoát: “Chỉ cần cậu không bắt tôi lăn giường với cậu ngay tại trận thì chuyện gì cũng chiều theo ý cậu hết.”
+Lương Khoát: “Chỉ cần em không bắt anh lăn giường với em ngay tại trận thì chuyện gì cũng chiều theo ý em hết.”
 
 Hai người lái xe tới công ty của Lương Khoát. Lương Khoát ngồi ở ghế phụ lái liếc nhìn chiếc túi đặt ở phía sau, xót xa vô cùng! Toàn là bảo bối mà anh đã tỉ mỉ chọn lựa suốt mấy năm qua, quan trọng nhất là còn có cả những bộ do chính tay Thịnh Tây Kinh làm riêng cho anh nữa, đặc biệt là bộ đồ mà hắn tặng anh vào ngày sinh nhật!
 
@@ -164,9 +164,9 @@ Nhưng chí ít thì chúng đã được Thịnh Tây Kinh gom lại cất gi�
 
 Nếu như đêm đó Thịnh Tây Kinh không thu dọn mang những thứ này đi, thì sang ngày hôm sau chắc hẳn chính tay anh đã vứt sạch chúng vào thùng rác rồi, vào cái thời điểm đó lòng anh quả thực đã hạ quyết tâm vô cùng dứt khoát.
 
-Thịnh Tây Kinh đang lái xe bỗng cất tiếng: “Sau này tôi sẽ còn làm cho anh nữa, làm thật nhiều thật nhiều bộ.”
+Thịnh Tây Kinh đang lái xe bỗng cất tiếng: “Sau này em sẽ còn làm cho anh nữa, làm thật nhiều thật nhiều bộ.”
 
-Lương Khoát quay đầu nhìn hắn, cứ ngỡ hắn không để ý tới mình, liền đưa tay nắm lấy bàn tay đang rảnh rỗi của Thịnh Tây Kinh, mân mê ngón áp út thon dài: “Vậy tôi được tính là vị khách hàng đặt may riêng đầu tiên của Thịnh tổng sao?”
+Lương Khoát quay đầu nhìn hắn, cứ ngỡ hắn không để ý tới mình, liền đưa tay nắm lấy bàn tay đang rảnh rỗi của Thịnh Tây Kinh, mân mê ngón áp út thon dài: “Vậy anh được tính là vị khách hàng đặt may riêng đầu tiên của Thịnh tổng sao?”
 
 Thịnh Tây Kinh bật cười khẽ, một tay đánh vô lăng chuyển hướng đầy soái khí: “Anh là vị khách hàng đặt may riêng duy nhất của một mình Thịnh Tây Kinh này.”
 
@@ -204,7 +204,7 @@ Thịnh Tây Kinh: “Về nhà, mau về nhà thôi.”
 
 Hai người chẳng dừng chân lấy một giây mà phi như bay trở về nhà. Thịnh Tây Kinh xách theo chiếc túi bước xuống xe, trước khi chuẩn bị lên lầu Lương Khoát bỗng hỏi hắn: “Có cái đó không đấy?”
 
-Thịnh Tây Kinh ngớ người một thoáng mới phản ứng kịp, chuyển nhà xong xuôi đúng là chưa kịp mua: “Để tôi đi mua.”
+Thịnh Tây Kinh ngớ người một thoáng mới phản ứng kịp, chuyển nhà xong xuôi đúng là chưa kịp mua: “Để em đi mua.”
 
 Hắn đưa chìa khóa cho Lương Khoát: “Anh lên trước đi.”
 
@@ -218,7 +218,7 @@ Thịnh Tây Kinh dùng tốc độ nhanh nhất chạy một mạch lên lầu,
 
 Còn Lương Khoát thì đưa mắt nhìn chiếc túi lớn trong tay hắn, bên trong xem chừng có không ít đồ đạc.
 
-Anh từ trên sô pha đứng dậy, đôi mắt dưới hàng lông mày rậm hơi nheo lại, anh nhìn Thịnh Tây Kinh, khẽ nhếch cằm lên, từng ngón tay thong thả cởi từng chiếc cúc áo sơ mi để lộ ra lồng ngực vạm vỡ săn chắc: “Tôi đi tắm đây, cậu có muốn tôi mặc bộ nào không?”
+Anh từ trên sô pha đứng dậy, đôi mắt dưới hàng lông mày rậm hơi nheo lại, anh nhìn Thịnh Tây Kinh, khẽ nhếch cằm lên, từng ngón tay thong thả cởi từng chiếc cúc áo sơ mi để lộ ra lồng ngực vạm vỡ săn chắc: “Anh đi tắm đây, em có muốn anh mặc bộ nào không?”
 
 Anh chẳng hề e thẹn ngượng ngùng, Thịnh Tây Kinh cũng sảng khoái vô cùng, lập tức từ trong chiếc túi lớn lôi ra một bộ nội y màu xám đưa cho anh.
 
@@ -298,7 +298,7 @@ Lương Khoát nuốt nước bọt đánh ực một cái, khi Thịnh Tây Kin
 
 “Bảo bối.”
 
-“Cậu gợi cảm quá đi mất.”
+“Em gợi cảm quá đi mất.”
 
 Thịnh Tây Kinh ngớ người trong chớp mắt, hắn làm sao từng nghe qua những lời đường mật ngọt ngào bốc lửa nhường này cơ chứ.
 
@@ -356,7 +356,7 @@ Lương Khoát bị hôn tới mức đầu óc quay cuồng choáng váng, đ�
 
 Thịnh Tây Kinh xác định đối phương thực sự đã chuẩn bị hoàn tất cả rồi.
 
-Hắn buông hạt đậu socola ra, đưa tay vuốt ve mái tóc Lương Khoát: “Muốn hôn môi hay là muốn cắn lên vai tôi?”
+Hắn buông hạt đậu socola ra, đưa tay vuốt ve mái tóc Lương Khoát: “Muốn hôn môi hay là muốn cắn lên vai em?”
 
 Lương Khoát hé mở bờ môi đỏ mọng.
 

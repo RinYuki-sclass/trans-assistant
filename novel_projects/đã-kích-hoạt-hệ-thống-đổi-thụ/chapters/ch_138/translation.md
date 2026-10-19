@@ -152,7 +152,7 @@ Thịnh Tây Kinh có chút mơ màng nhìn Lương Khoát, có quá nhiều đi
 
 “Lương Khoát, em…… Em là……”
 
-Lương Khoát nghi hoặc nhướn mày: “Cậu là cái gì?”
+Lương Khoát nghi hoặc nhướn mày: “Em là cái gì?”
 
 “…… Em là quả trứng gà đen của anh, được rồi, em nhìn thấy anh rồi.”
 
@@ -160,7 +160,7 @@ Lương Khoát nghi hoặc nhướn mày: “Cậu là cái gì?”
 
 Thịnh Tây Kinh rốt cuộc vẫn không thể thốt nên lời. Đợi thêm chút nữa đi, đợi một thời cơ thích hợp hơn, đợi Lương Khoát yêu quả trứng gà đen nhiều hơn nữa. Hắn sợ bản thân lỡ lời nói bậy bạ, bèn buông tay định quay người đi.
 
-Lương Khoát không yên tâm giữ chặt lấy hắn: “Cậu thế này thì đi đâu được chứ? Lỡ bị người ta bắt cóc đi mất thì tôi biết đi đâu đòi người hả?”
+Lương Khoát không yên tâm giữ chặt lấy hắn: “Em thế này thì đi đâu được chứ? Lỡ bị người ta bắt cóc đi mất thì anh biết đi đâu đòi người hả?”
 
 “Em không sao, người lớn chừng này rồi, không lạc được đâu.” Thịnh Tây Kinh gạt tay Lương Khoát ra, “Về tới nhà em gửi tin nhắn cho anh.”
 
@@ -168,9 +168,9 @@ Hắn vừa đi lùi vừa giơ ngón trỏ chỉ vào Lương Khoát: “Anh kh
 
 Lương Khoát: ……
 
-Cậu nhé cái rắm ấy, ở đây giả vờ đáng yêu với tôi chắc!
+Em nhé cái rắm ấy, ở đây giả vờ đáng yêu với anh chắc!
 
-Thế nhưng thấy hắn vẫn có thể đi đường thẳng thì anh cũng hơi yên tâm một chút, bèn rảo bước đuổi theo ôm lấy người, vẫy một chiếc taxi rồi nhét quả trứng gà đen vào trong: “Bác tài ơi, cậu ấy hơi say một chút, cháu gửi bác 500 tệ, bác để mắt trông chừng giúp cháu, chở cậu ấy về tận nhà nhé.”
+Thế nhưng thấy hắn vẫn có thể đi đường thẳng thì anh cũng hơi yên tâm một chút, bèn rảo bước đuổi theo ôm lấy người, vẫy một chiếc taxi rồi nhét quả trứng gà đen vào trong: “Bác tài ơi, em ấy hơi say một chút, cháu gửi bác 500 tệ, bác để mắt trông chừng giúp cháu, chở em ấy về tận nhà nhé.”
 
 Thịnh Tây Kinh nhìn Lương Khoát đang dặn dò bác tài xế. Hắn đâu có say đến mức đó, hắn có lẽ chỉ muốn mượn men rượu để nói ra sự thật mà thôi.
 
@@ -178,7 +178,7 @@ Lương Khoát trả tiền xong lại nhìn sang Thịnh Tây Kinh, thực ra l
 
 Thịnh Tây Kinh cảm nhận được sự lo lắng của Lương Khoát dành cho mình, cảm giác được người ta yêu thương thật tuyệt vời biết bao. Hắn vốn dĩ không phải người kiên cường đến thế, hắn cần và hưởng thụ cảm giác được yêu thương. Hắn nắm lấy tay Lương Khoát: “Yên tâm đi, em không say đến mức đó đâu.”
 
-Lương Khoát thở hắt ra một hơi nặng nề: “Tôi sớm muộn gì cũng bị cậu làm cho tức chết mất.”
+Lương Khoát thở hắt ra một hơi nặng nề: “Anh sớm muộn gì cũng bị em làm cho tức chết mất.”
 
 Trên thế giới này chắc chẳng có ai yêu đương kiểu này đâu nhỉ. Quả trứng gà đen cầm tay anh áp lên mũ bảo hiểm cọ cọ hai cái, đây là ý muốn hôn anh, đang dỗ dành lấy lòng anh đấy.
 

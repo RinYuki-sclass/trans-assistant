@@ -1,4 +1,4 @@
-# Chương 136: Dỗ dành cậu
+# Chương 136: Dỗ dành em
 
 Bắt tay làm hòa.
 
@@ -214,7 +214,7 @@ Hắn ngồi xuống chiếc ghế xoay giám đốc thuộc về Lương Khoát
 
 Lương Khoát cũng là lần đầu tiên nhìn thấy có người ngồi vào vị trí của mình, cảm thấy khá mới lạ. Chưa nói tới chuyện khác, quả trứng gà đen này ngồi ở đây trông lại khá hòa hợp, rất có phong thái của một tổng tài, chẳng hề có chút cảm giác cướp tổ chim bồ câu hay không xứng đôi nào.
 
-Anh bước qua, tựa người vào bàn làm việc, cố ý bắt chéo hai đôi chân dài cọ xát dán chặt vào chân Thịnh Tây Kinh: “Không vui à, thế để anh Khoát dỗ dành cậu nhé.”
+Anh bước qua, tựa người vào bàn làm việc, cố ý bắt chéo hai đôi chân dài cọ xát dán chặt vào chân Thịnh Tây Kinh: “Không vui à, thế để anh Khoát dỗ dành em nhé.”
 
 Anh lấy điện thoại ra.
 
@@ -224,45 +224,45 @@ Hắn nhớ lại 20 vạn lần trước đối phương chuyển cho mình, tr
 
 Hắn nhìn Lương Khoát đang rất đắc ý với cách làm của mình: “Có ý gì đây?”
 
-Lương Khoát nhấc chân cọ vào bắp chân Thịnh Tây Kinh, thần thái và giọng điệu đều vô cùng lả lơi: “Dỗ dành cậu đó mà~”
+Lương Khoát nhấc chân cọ vào bắp chân Thịnh Tây Kinh, thần thái và giọng điệu đều vô cùng lả lơi: “Dỗ dành em đó mà~”
 
-“Lấy tiền ra dỗ tôi.”
+“Lấy tiền ra dỗ em.”
 
 Lương Khoát lúc này mới nhận ra thái độ của quả trứng gà đen lại lạnh xuống. Đôi mày rậm của anh hạ thấp, lộ ra vài phần thiếu kiên nhẫn. Cậu ta cũng đâu có ít lần vòi tiền từ chỗ mình, sao lần này cho tiền lại thành ra làm sai nữa rồi?
 
 Thịnh Tây Kinh đã đứng bật dậy, gạt chân Lương Khoát ra định bỏ đi.
 
-Lương Khoát một lần nữa tóm chặt lấy người: “Cậu vừa phải thôi đấy nhé! Đã bảo không phải cố ý rồi, cũng đã dỗ dành cậu rồi, cậu còn muốn thế nào nữa!”
+Lương Khoát một lần nữa tóm chặt lấy người: “Em vừa phải thôi đấy nhé! Đã bảo không phải cố ý rồi, cũng đã dỗ dành em rồi, em còn muốn thế nào nữa!”
 
-“Dỗ dành tôi.”
+“Dỗ dành em.”
 
-“Anh đây là dỗ dành tôi hay là sỉ nhục tôi?”
+“Anh đây là dỗ dành em hay là sỉ nhục em?”
 
 Giọng điệu Thịnh Tây Kinh đầy kích động, nhưng gương mặt phía sau chiếc mũ bảo hiểm lại phẳng lặng không chút gợn sóng.
 
-Lương Khoát bỏ tiền ra mà chẳng được lời nào tử tế, lúc này lại bị quát thẳng vào mặt như vậy, anh cũng nổi đóa, bước xuống khỏi bàn làm việc. Hai người đàn ông cao hơn mét tám lồng ngực gần như va vào nhau mà cãi vã: “Tôi sỉ nhục cậu! Tôi cho cậu tiền mà gọi là sỉ nhục cậu à! Đầu óc cậu chứa cả Thái Bình Dương rồi chắc! Cậu có biết phân biệt tốt xấu không hả!”
+Lương Khoát bỏ tiền ra mà chẳng được lời nào tử tế, lúc này lại bị quát thẳng vào mặt như vậy, anh cũng nổi đóa, bước xuống khỏi bàn làm việc. Hai người đàn ông cao hơn mét tám lồng ngực gần như va vào nhau mà cãi vã: “Anh sỉ nhục em! Anh cho em tiền mà gọi là sỉ nhục em à! Đầu óc em chứa cả Thái Bình Dương rồi chắc! Em có biết phân biệt tốt xấu không hả!”
 
 Anh giơ tay gõ cộc cộc vào chiếc mũ bảo hiểm: “Trong này rỗng tuếch à? Não có ở nhà không đấy!”
 
-Thịnh Tây Kinh túm lấy tay anh, tiến lên một bước ép người anh ngả ra sau tựa lại vào bàn làm việc: “Dỗ tôi, được thôi, dỗ tôi kiểu này chứ gì? Hôm nay hôn môi người khác thì cho tôi 20 vạn, ngày mai thẩm du cho người ta thì cho tôi 50 vạn để dỗ, ngày mốt lên giường với người ta thì cho tôi một trăm vạn để dỗ là xong chuyện chứ gì!”
+Thịnh Tây Kinh túm lấy tay anh, tiến lên một bước ép người anh ngả ra sau tựa lại vào bàn làm việc: “Dỗ em, được thôi, dỗ em kiểu này chứ gì? Hôm nay hôn môi người khác thì cho em 20 vạn, ngày mai thẩm du cho người ta thì cho em 50 vạn để dỗ, ngày mốt lên giường với người ta thì cho em một trăm vạn để dỗ là xong chuyện chứ gì!”
 
 Lương Khoát: Mẹ nó chứ chuyện nọ xọ chuyện kia, anh hôn môi lên giường với ai bao giờ.
 
-“Có phải tôi còn phải đội ơn đội đức tiếp nhận cách dỗ dành này của anh, rồi cầm tiền chấp nhận việc anh ra ngoài hôn môi lên giường với người khác không hả!”
+“Có phải em còn phải đội ơn đội đức tiếp nhận cách dỗ dành này của anh, rồi cầm tiền chấp nhận việc anh ra ngoài hôn môi lên giường với người khác không hả!”
 
-“Tôi với ai……”
+“Anh với ai……”
 
-“Cách này của anh không gọi là dỗ dành tôi.”
+“Cách này của anh không gọi là dỗ dành em.”
 
-“Cái này gọi là đuổi khéo tôi đi!”
+“Cái này gọi là đuổi khéo em đi!”
 
-“Cái đầu cậu sao cứ toàn nghĩ xiên nghĩ xẹo thế hả, tôi……”
+“Cái đầu em sao cứ toàn nghĩ xiên nghĩ xẹo thế hả, anh……”
 
 “Được.”
 
-“Tôi chấp nhận sự đuổi khéo của anh.”
+“Em chấp nhận sự đuổi khéo của anh.”
 
-“Tôi lập tức cút xéo nhường chỗ cho anh đây!”
+“Em lập tức cút xéo nhường chỗ cho anh đây!”
 
 Miệng Thịnh Tây Kinh bắn liên thanh như súng máy, căn bản không cho Lương Khoát cơ hội nói hết câu, lại một lần nữa xoay người định đi.
 
@@ -272,13 +272,13 @@ Lương Khoát bị bắn cho một tràng tối tăm mặt mũi. Anh là ngư�
 
 Đổi lại là mình thì có lẽ cũng sẽ có chung suy nghĩ với quả trứng gà đen, hèn chi lại nổi trận lôi đình ngay tắp lự.
 
-“Được rồi được rồi, tôi dỗ không đúng cách, tôi dỗ lại là được chứ gì.”
+“Được rồi được rồi, anh dỗ không đúng cách, anh dỗ lại là được chứ gì.”
 
 Bàn tay nắm cà vạt kéo giật người trở lại, thấy đối phương không chịu nhúc nhích, bàn tay đang cầm cà vạt bèn lắc lắc nhẹ: “Cho anh Khoát thêm một cơ hội nữa đi mà~”
 
 Thịnh Tây Kinh lúc này mới thuận theo lực kéo của Lương Khoát từ từ lui về lại.
 
-Đầu óc Lương Khoát xoay chuyển cực nhanh, nghĩ xem làm thế nào mới có thể dỗ cho người này nguôi giận? Liền nghe đối phương đột nhiên cất tiếng: “Trên miệng anh toàn là mùi của người khác chứ chẳng phải mùi của tôi.”
+Đầu óc Lương Khoát xoay chuyển cực nhanh, nghĩ xem làm thế nào mới có thể dỗ cho người này nguôi giận? Liền nghe đối phương đột nhiên cất tiếng: “Trên miệng anh toàn là mùi của người khác chứ chẳng phải mùi của em.”
 
 Một câu nói đánh thức người trong mộng.
 
@@ -290,7 +290,7 @@ Thế thì còn cách nào để miệng mình dính lấy mùi vị của cậu
 
 Lương Khoát tức khắc bừng tỉnh ngộ, cách này chẳng phải sẽ dỗ người ta lên tận chín tầng mây hay sao? Biết đâu dỗ cho vui vẻ rồi đối phương lại tháo mũ bảo hiểm ra cho mình chiêm ngưỡng dung nhan thật sự cũng nên.
 
-Thịnh Tây Kinh nhìn người đang trầm ngâm suy tính: Mau mau tới dỗ tôi đi chứ.
+Thịnh Tây Kinh nhìn người đang trầm ngâm suy tính: Mau mau tới dỗ em đi chứ.
 
 Lương Khoát chỉnh lại chiếc ghế ngay ngắn rồi từ từ quỳ một chân xuống đất. Sau khi liếc nhìn Thịnh Tây Kinh một cái, anh lập tức hành động. Khi bàn tay anh vươn tới, quả trứng gà đen rõ ràng bị anh làm cho giật mình mà né tránh một chút.
 
@@ -302,7 +302,7 @@ Hắn nói vậy nhưng hoàn toàn không hề có hành động ngăn cản L�
 
 Lương Khoát ngẩng đầu lên, đối với sự quan tâm của quả trứng gà đen dành cho mình cảm thấy vô cùng hưởng thụ. Rõ ràng đang giận dỗi mình mà vẫn lo lắng cho mình, đúng là một tên khẩu xà tâm phật đáng yêu.
 
-“Không sao, chưa có sự cho phép của tôi thì không ai dám bước vào đâu.”
+“Không sao, chưa có sự cho phép của anh thì không ai dám bước vào đâu.”
 
 Trong lúc nói chuyện, anh đã lấy đối tượng mà mình cần phải dỗ dành chu đáo ra ngoài.
 

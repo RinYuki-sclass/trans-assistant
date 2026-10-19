@@ -104,7 +104,7 @@ Hai bờ môi tách ra.
 
 Lương Khoát: “Đi tắm……”
 
-Thịnh Tây Kinh: “Tôi lật người anh lại nhé.”
+Thịnh Tây Kinh: “Em lật người anh lại nhé.”
 
 Lương Khoát: ?
 
@@ -120,9 +120,9 @@ Cánh tay của Thịnh Tây Kinh từ bên cạnh đầu anh vươn tới, tron
 
 Liền nghe thấy Thịnh Tây Kinh cất giọng: “Cắn mở ra đi.”
 
-Lương Khoát theo phản xạ há miệng cắn lấy, trên lưng rơi xuống từng nụ hôn vụn vặt dồn dập, anh dùng răng xé toạc chiếc túi nhỏ ra. Thịnh Tây Kinh lại nói: “Anh đeo cho tôi đi.”
+Lương Khoát theo phản xạ há miệng cắn lấy, trên lưng rơi xuống từng nụ hôn vụn vặt dồn dập, anh dùng răng xé toạc chiếc túi nhỏ ra. Thịnh Tây Kinh lại nói: “Anh đeo cho em đi.”
 
-Lần này Lương Khoát không vô thức làm theo lời hắn nữa, làm nũng thì chấp nhận được chứ cấm tuyệt đối không được làm nũng quá trớn, anh cười mắng: “Cậu thích đeo hay không thì tùy.”
+Lần này Lương Khoát không vô thức làm theo lời hắn nữa, làm nũng thì chấp nhận được chứ cấm tuyệt đối không được làm nũng quá trớn, anh cười mắng: “Em thích đeo hay không thì tùy.”
 
 Lần này Thịnh Tây Kinh chỉ đơn giản đáp lại anh một tiếng: “Ồ.”
 
@@ -178,13 +178,13 @@ Vẻ hung dữ mà Lương Khoát tự nhận định cũng tan biến sạch s�
 
 Lương Khoát đang chìm đắm trong dư âm khoái lạc kéo dài bỗng nhiên bị bỏng rát làm cho giật bắn mình một cái, con ngươi kinh ngạc nghi hoặc đảo qua đảo lại, sao anh lại bị bỏng rát thế này? Chỉ trong vòng một giây anh liền phản ứng kịp điểm bất thường lúc trước rốt cuộc là chuyện gì, anh vội xoay người lại, trừng to mắt nhìn sang.
 
-“Mẹ kiếp cậu……”
+“Mẹ kiếp em……”
 
-Thịnh Tây Kinh bỗng nhiên ngã nhào lên người anh, nằm bò trên khuôn ngực anh, vô tội chớp chớp mắt: “Chính anh bảo tôi thích đeo hay không thì tùy mà.”
+Thịnh Tây Kinh bỗng nhiên ngã nhào lên người anh, nằm bò trên khuôn ngực anh, vô tội chớp chớp mắt: “Chính anh bảo em thích đeo hay không thì tùy mà.”
 
-Đôi mắt chớp chớp mấy cái: “Tôi không thích đeo.”
+Đôi mắt chớp chớp mấy cái: “Em không thích đeo.”
 
-Thích làm nũng thì cũng thôi đi, đằng này còn cố tình tỏ vẻ đáng yêu bán manh nữa chứ, Lương Khoát rất muốn nhắc nhở hắn rằng cậu đã 28 tuổi rồi đấy và cậu còn là một số 1 đích thực cơ đấy, vừa mở miệng ra: “Thôi bỏ đi, cậu không thích đeo thì không đeo vậy.”
+Thích làm nũng thì cũng thôi đi, đằng này còn cố tình tỏ vẻ đáng yêu bán manh nữa chứ, Lương Khoát rất muốn nhắc nhở hắn rằng em đã 28 tuổi rồi đấy và em còn là một số 1 đích thực cơ đấy, vừa mở miệng ra: “Thôi bỏ đi, em không thích đeo thì không đeo vậy.”
 
 Anh đưa tay véo nhẹ má Thịnh Tây Kinh một cái.
 
@@ -212,7 +212,7 @@ Lại còn biết chú ý giữ gìn sức khỏe cơ đấy.
 
 Thế nhưng lại không hề biết tiết chế mà tàn phá sức khỏe vô độ.
 
-“Vậy thì cho uống ngụm nước trước đã, tôi sắp chết khát rồi đây này.” Cổ họng Lương Khoát như sắp sửa bốc khói tới nơi rồi.
+“Vậy thì cho uống ngụm nước trước đã, anh sắp chết khát rồi đây này.” Cổ họng Lương Khoát như sắp sửa bốc khói tới nơi rồi.
 
 Yêu cầu này thì Thịnh Tây Kinh đồng ý ngay. Lương Khoát bị hắn kéo giật đứng dậy, chân vừa chạm đất anh cảm giác như mình đang dẫm chân lên một đống bông gòn mềm nhũn, lòng tự tôn của một người đàn ông khiến anh nghiến chặt răng cố gắng kìm nén không để hai chân mềm nhũn mà ngã khuỵu xuống.
 
@@ -240,19 +240,19 @@ Một cốc nước ấm trôi tuột xuống bụng Lương Khoát mới cảm 
 
 Lại bồi thêm một câu: “Nhà đi thuê đấy, đừng làm bẩn tường.”
 
-Lương Khoát: “Tôi cứ làm bẩn đấy, bắt cậu đền tiền!”
+Lương Khoát: “Anh cứ làm bẩn đấy, bắt em đền tiền!”
 
 Thịnh Tây Kinh bật cười khẽ một tiếng: “Được thôi, tiền của ông xã đều để dành cho anh tiêu hết.”
 
 Dùng sức.
 
-Lương Khoát: “Cậu đi chết#*:&@%#：&# ực……”
+Lương Khoát: “Em đi chết#*:&@%#：&# ực……”
 
 Đèn đường bên ngoài cửa sổ đã sáng bừng lên.
 
 Trên ghế sô pha, Lương Khoát gác một cánh tay lên mặt che kín mắt, sau khi đấu tranh tư tưởng lần cuối cùng trong lòng anh quyết định tạm thời chịu thua, giữ lấy cái mạng nhỏ là quan trọng nhất, còn rừng xanh lo gì thiếu củi đun!
 
-Thế nhưng anh vẫn uyển chuyển nói thác đi: “Thịnh Tây Kinh, tôi sắp chết đói rồi đây này.”
+Thế nhưng anh vẫn uyển chuyển nói thác đi: “Thịnh Tây Kinh, anh sắp chết đói rồi đây này.”
 
 Giọng nói của người đàn ông run rẩy khôn nguôi.
 
@@ -262,11 +262,11 @@ Lương Khoát vèo một cái hạ cánh tay xuống, anh cũng chẳng thèm s
 
 “Tạm…… tạm dừng ở đây thôi nhé.”
 
-Thịnh Tây Kinh ghé sát lại nâng gương mặt Lương Khoát lên hôn mấy cái: “Anh gọi tôi một tiếng ông xã thì tôi nghe lời anh ngay.”
+Thịnh Tây Kinh ghé sát lại nâng gương mặt Lương Khoát lên hôn mấy cái: “Anh gọi em một tiếng ông xã thì em nghe lời anh ngay.”
 
 Hai mắt Lương Khoát trợn tròn xoe lên, được đằng chân lân đằng đầu nhé!
 
-Thịnh Tây Kinh vẫn không ngừng dỗ dành dụ dỗ anh: “Lương tổng, Khoát Khoát, tiểu Khoát Khoát, bảo bối tâm can ơi, gọi một tiếng thôi mà, chỉ cần gọi một tiếng là tôi nghe lời anh liền, chúng ta lập tức ra ngoài ăn cơm ngay.”
+Thịnh Tây Kinh vẫn không ngừng dỗ dành dụ dỗ anh: “Lương tổng, Khoát Khoát, tiểu Khoát Khoát, bảo bối tâm can ơi, gọi một tiếng thôi mà, chỉ cần gọi một tiếng là em nghe lời anh liền, chúng ta lập tức ra ngoài ăn cơm ngay.”
 
 Đôi mắt tròn xoe đảo qua đảo lại nhìn Lương Khoát.
 
@@ -278,7 +278,7 @@ Thịnh Tây Kinh nghe anh gọi mình như thế cũng thấy thú vị và bu�
 
 Bàn tay của Lương Khoát chống lên lồng ngực Thịnh Tây Kinh từ từ đẩy ngã hắn xuống, thế là hai người đổi góc nhìn cho nhau, đầu Thịnh Tây Kinh tựa vào thành ghế sô pha ngước nhìn Lương Khoát đang ngồi dậy.
 
-Cái tính khí ngang tàng kiêu ngạo khó thuần của người đàn ông lại bắt đầu trỗi dậy, anh với lấy bao thuốc lá trên bàn trà châm lên một điếu, trước tiên rít một hơi thuốc thật đã đời, ngửa đầu phả làn khói lên không trung, tới ngụm thứ hai liền cúi đầu phả thẳng làn khói vào mặt Thịnh Tây Kinh, bờ môi sưng mọng đỏ ửng hé mở khép lại: “Vợ làm chết cậu luôn.”
+Cái tính khí ngang tàng kiêu ngạo khó thuần của người đàn ông lại bắt đầu trỗi dậy, anh với lấy bao thuốc lá trên bàn trà châm lên một điếu, trước tiên rít một hơi thuốc thật đã đời, ngửa đầu phả làn khói lên không trung, tới ngụm thứ hai liền cúi đầu phả thẳng làn khói vào mặt Thịnh Tây Kinh, bờ môi sưng mọng đỏ ửng hé mở khép lại: “Vợ làm chết em luôn.”
 
 Trái cam rốn bán ngoài siêu thị ăn rất ngon miệng.
 
@@ -324,9 +324,9 @@ Thịnh Tây Kinh ban nãy còn bảo muốn giúp anh dọn dẹp vệ sinh cơ
 
 Khi Thịnh Tây Kinh xách đồ ăn quay trở về thì Lương Khoát đang nằm bẹp dí trên ghế sô pha, trông dáng vẻ dường như đã buồn ngủ gà gật tới nơi rồi.
 
-“Tôi về rồi đây.”
+“Em về rồi đây.”
 
-Lương Khoát chớp chớp mắt, cố gắng sốc lại tinh thần ngồi thẳng dậy: “Vừa nãy tôi không hề ngủ đâu nhé.”
+Lương Khoát chớp chớp mắt, cố gắng sốc lại tinh thần ngồi thẳng dậy: “Vừa nãy anh không hề ngủ đâu nhé.”
 
 Thịnh Tây Kinh bước tới, đưa tay véo nhẹ má Lương Khoát một cái, trên mặt người đàn ông chẳng có mấy thịt nên véo không nổi, hắn liền mở rộng bàn tay xoa xoa vuốt ve: “Ăn cơm xong xuôi rồi ngủ nhé.”
 
@@ -358,15 +358,15 @@ Lục Lục: 【Được rồi, vậy thì tạm biệt nhé.】
 
 Thịnh Tây Kinh: 【Tạm biệt.】
 
-Lương Khoát ở trong bóng tối đưa tay sờ lên gương mặt Thịnh Tây Kinh: “Hồi đó tôi居然 lại không nhận ra được, thực ra lúc ấy tôi có nghi ngờ thật đấy, thế nhưng…… thế nhưng lúc ban đầu trên tay cậu làm gì có vết sẹo nào đâu, cậu đã làm thế nào vậy?”
+Lương Khoát ở trong bóng tối đưa tay sờ lên gương mặt Thịnh Tây Kinh: “Hồi đó anh居然 lại không nhận ra được, thực ra lúc ấy anh có nghi ngờ thật đấy, thế nhưng…… thế nhưng lúc ban đầu trên tay em làm gì có vết sẹo nào đâu, em đã làm thế nào vậy?”
 
 Thịnh Tây Kinh im lặng một thoáng, đầu óc nhanh nhạy xoay chuyển: “Bôi phấn che khuyết điểm.”
 
 Lương Khoát phát ra một tiếng à hóa ra là vậy. Anh nâng hai má Thịnh Tây Kinh lên, đối diện với đôi mắt đang sáng lấp lánh trong màn đêm kia.
 
-“Bảo bối, chuyển tới chỗ tôi ở có được không?”
+“Bảo bối, chuyển tới chỗ anh ở có được không?”
 
-“Tôi muốn mỗi tối đều được ôm cậu ngủ, muốn mỗi sáng vừa mở mắt ra là có thể nhìn thấy cậu ngay trước mắt, muốn cùng cậu bàn bạc xem nên mua sắm những thứ gì cho tổ ấm của chúng mình.”
+“Anh muốn mỗi tối đều được ôm em ngủ, muốn mỗi sáng vừa mở mắt ra là có thể nhìn thấy em ngay trước mắt, muốn cùng em bàn bạc xem nên mua sắm những thứ gì cho tổ ấm của chúng mình.”
 
 Anh vừa nói vừa khựng lại, lần mò trong bóng tối đặt lên môi Thịnh Tây Kinh một nụ hôn.
 
@@ -376,24 +376,24 @@ Anh vừa nói vừa khựng lại, lần mò trong bóng tối đặt lên môi
 
 Chuyện dọn về sống chung là một việc cần phải suy tính kỹ lưỡng thấu đáo, đặc biệt là dọn tới ở trong nhà của đối phương. Khi tình cảm dần trở nên bình lặng nguội bớt, lúc cãi vã nhau đối phương rất có thể sẽ buông một câu đây là nhà của tôi cậu cút xéo đi cho tôi, chỉ một câu nói ấy thôi cũng đủ khiến người ta chết lặng không thốt nên lời. Hoặc giả như khi chia tay, bạn phải lủi thủi thu dọn đồ đạc của mình, tay xách nách mang rời đi bất kể ngày đêm mưa gió, thực sự vô cùng nhếch nhác chật vật.
 
-Lương Khoát: “Thôi bỏ đi, hay là chúng ta mua thêm một căn biệt thự mới nữa nhé, đứng tên một mình cậu.”
+Lương Khoát: “Thôi bỏ đi, hay là chúng ta mua thêm một căn biệt thự mới nữa nhé, đứng tên một mình em.”
 
-Anh lại cúi xuống hôn Thịnh Tây Kinh thêm một cái: “Tiền của tôi, tình yêu của tôi, con người của tôi, tất thảy đều trao trọn cho cậu hết.”
+Anh lại cúi xuống hôn Thịnh Tây Kinh thêm một cái: “Tiền của anh, tình yêu của anh, con người của anh, tất thảy đều trao trọn cho em hết.”
 
-Cho nên cậu không cần phải quanh co vòng vèo đòi hỏi bất cứ thứ gì nơi tôi nữa, tất cả những gì tôi có đều dâng tặng hết cho cậu.
+Cho nên em không cần phải quanh co vòng vèo đòi hỏi bất cứ thứ gì nơi anh nữa, tất cả những gì anh có đều dâng tặng hết cho em.
 
 Thịnh Tây Kinh chưa từng bao giờ được nghe một lời tỏ tình tha thiết chân thành đến nhường này, khiến cho trái tim hắn vừa rung động mãnh liệt lại vừa có chút bồn chồn hoang mang: “Anh…… không sợ bản thân mình sẽ hối hận sao?”
 
 Môi lại bị hôn thêm một cái nữa.
 
-“Tôi chỉ biết rằng nếu bây giờ tôi không làm như vậy thì tôi mới là kẻ phải hối hận cả đời. Cho nên Thịnh Tây Kinh tiên sinh, cậu có bằng lòng cùng tôi xây dựng tổ ấm uyên ương không?”
+“Anh chỉ biết rằng nếu bây giờ anh không làm như vậy thì anh mới là kẻ phải hối hận cả đời. Cho nên Thịnh Tây Kinh tiên sinh, em có bằng lòng cùng anh xây dựng tổ ấm uyên ương không?”
 
-“Nếu như cậu bằng lòng, vậy thì cậu hãy hôn tôi một cái đi.”
+“Nếu như em bằng lòng, vậy thì em hãy hôn anh một cái đi.”
 
 Lương Khoát nhắm nghiền hai mắt lại.
 
 Một nụ hôn mang theo tất cả sự trân trọng nâng niu và nâng niu rơi trọn lên bờ môi anh, đồng thời hơi thở dồn dập phả tới, hệt như cái đêm hôm ấy khi Thịnh Tây Kinh chạy tới chúc anh ngủ ngon vậy.
 
-“Tôi đồng ý.”
+“Em đồng ý.”
 
-“Lương Khoát tiên sinh, tôi đồng ý!”
+“Lương Khoát tiên sinh, em đồng ý!”
