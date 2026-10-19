@@ -396,6 +396,13 @@ function showWelcomeScreen(filterQuery = '') {
                 🗑️
               </button>
             </div>
+            ${state.libraryUpdates && state.libraryUpdates[manga.slug] ? `
+              <div style="margin: 0.35rem 0;">
+                <span class="update-badge" title="Có chương mới trên web nguồn - Bấm để tải ngay" onclick="event.stopPropagation(); downloadAllNewChapters('${manga.slug}')">
+                  ⚡ Có ${state.libraryUpdates[manga.slug].new_chapters_count} chương mới (Tải ngay)
+                </span>
+              </div>
+            ` : ''}
             <div class="home-chapter-list">
               ${chaptersHtml}
             </div>
@@ -439,7 +446,7 @@ function showWelcomeScreen(filterQuery = '') {
           <button class="home-btn-header" onclick="openCrawlModalWithExample()" title="Tìm hoặc crawl truyện mới">
             📥 Tải Truyện Mới
           </button>
-          <button class="home-btn-header" onclick="fetchLibrary().then(() => showWelcomeScreen())" title="Làm mới danh sách">
+          <button class="home-btn-header" onclick="refreshHomeLibrary()" title="Làm mới và quét chương mới từ nguồn">
             🔄 Làm Mới
           </button>
         </div>
@@ -980,6 +987,50 @@ window.checkLibraryUpdates = async function() {
       el.checkUpdatesBtn.disabled = false;
       el.checkUpdatesBtn.textContent = '🔄 Kiểm Tra Chương Mới';
     }
+  }
+};
+
+window.refreshHomeLibrary = async function() {
+  showToast('Đang làm mới và quét chương mới từ web nguồn...');
+  await fetchLibrary();
+  showWelcomeScreen();
+  try {
+    const res = await fetch('/api/library/check-updates', { method: 'POST' });
+    const data = await res.json();
+    if (data.status === 'success' && data.updates && data.updates.length > 0) {
+      state.libraryUpdates = {};
+      data.updates.forEach(up => { state.libraryUpdates[up.manga_slug] = up; });
+      showWelcomeScreen();
+      showToast(`🎉 Phát hiện ${data.updates.length} bộ truyện có chương mới!`);
+    } else {
+      showToast('Thư viện đã được đồng bộ mới nhất');
+    }
+  } catch (e) {}
+};
+
+window.downloadAllNewChapters = async function(slug) {
+  showToast('Đang khởi tạo tiến trình tải các chương mới...');
+  try {
+    const res = await fetch('/api/library/download-updates', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ slug: slug || '' })
+    });
+    const data = await res.json();
+    if (data.status === 'success') {
+      const count = data.total_queued || 0;
+      if (count > 0) {
+        showToast(`⚡ Đang tải ${count} chương mới về máy...`);
+        openCrawlModalWithExample();
+        renderDownloadTasks();
+      } else {
+        showToast('Không có chương mới nào cần tải.');
+      }
+    } else {
+      showToast(data.message || 'Lỗi khi tải chương mới');
+    }
+  } catch (e) {
+    showToast(`Lỗi: ${e.message}`);
   }
 };
 

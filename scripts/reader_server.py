@@ -549,6 +549,69 @@ async def api_library_check_updates(request):
     except Exception as e:
         return JSONResponse({"status": "error", "message": str(e)}, status_code=500)
 
+async def api_library_download_updates(request):
+    """
+    Tự động bắt đầu tải toàn bộ các chapter mới phát hiện về máy
+    """
+    try:
+        try:
+            data = await request.json()
+        except Exception:
+            data = {}
+        target_slug = data.get("slug", "").strip()
+
+        updates_res = await api_library_check_updates(request)
+        updates_data = json.loads(updates_res.body.decode("utf-8"))
+        updates = updates_data.get("updates", [])
+
+        queued_tasks = []
+        for up in updates:
+            manga_slug = up.get("manga_slug")
+            if target_slug and manga_slug != target_slug:
+                continue
+
+            manga_title = up.get("manga_title", "Manhwa")
+            source_url = up.get("source_url", "")
+            new_chapters = up.get("new_chapters", [])
+
+            for ch in new_chapters:
+                ch_url = ch.get("url", "")
+                ch_title = ch.get("title", "Chapter")
+                ch_slug = ch.get("slug") or clean_slug(ch_title)
+
+                task_id = str(uuid.uuid4())[:8]
+                with downloads_lock:
+                    active_downloads[task_id] = {
+                        "id": task_id,
+                        "manga_title": manga_title,
+                        "chapter_title": ch_title,
+                        "manga_slug": manga_slug,
+                        "chapter_slug": ch_slug,
+                        "chapter_url": ch_url,
+                        "status": "pending",
+                        "current": 0,
+                        "total": 0,
+                        "percent": 0,
+                        "message": f"Chuẩn bị tải {ch_title}...",
+                        "start_time": time.time()
+                    }
+
+                t = threading.Thread(
+                    target=background_download_worker,
+                    args=(task_id, manga_title, manga_slug, ch_slug, ch_url, source_url),
+                    daemon=True
+                )
+                t.start()
+                queued_tasks.append({
+                    "manga_title": manga_title,
+                    "chapter_title": ch_title,
+                    "task_id": task_id
+                })
+
+        return JSONResponse({"status": "success", "queued": queued_tasks, "total_queued": len(queued_tasks)})
+    except Exception as e:
+        return JSONResponse({"status": "error", "message": str(e)}, status_code=500)
+
 async def api_library_delete_manga(request):
     """Xóa một bộ truyện khỏi thư viện local"""
     try:
@@ -578,6 +641,7 @@ routes = [
     Route("/", serve_index),
     Route("/api/library", api_library, methods=["GET"]),
     Route("/api/library/check-updates", api_library_check_updates, methods=["POST"]),
+    Route("/api/library/download-updates", api_library_download_updates, methods=["POST"]),
     Route("/api/library/delete", api_library_delete_manga, methods=["POST"]),
     Route("/api/crawl/search", api_crawl_search, methods=["GET"]),
     Route("/api/crawl/info", api_crawl_info, methods=["POST"]),

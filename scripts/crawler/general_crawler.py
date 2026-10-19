@@ -5,6 +5,7 @@ import urllib.parse
 from typing import Dict, List, Optional
 import requests
 from crawler.haccbl_crawler import get_haccbl_manga_info, get_haccbl_chapter_images, download_chapter_images, get_scraper, clean_slug
+from crawler.tsxx_crawler import get_tsxx_manga_info, get_tsxx_chapter_images
 
 def search_manga_haccbl(query: str) -> List[Dict]:
     """
@@ -228,7 +229,11 @@ def detect_and_get_manga_info(url: str) -> Dict:
                 return get_haccbl_manga_info(manga_main_url)
         return get_haccbl_manga_info(url)
 
-    # 2. Cubari
+    # 2. tsxx (Tủ Sách Xinh Xinh)
+    if "tsxx" in url or "tusachxinhxinh" in url:
+        return get_tsxx_manga_info(url)
+
+    # 3. Cubari
     cubari_info = resolve_cubari_url(url)
     if cubari_info:
         return cubari_info
@@ -249,7 +254,11 @@ def detect_and_get_chapter_images(url: str, context_data: Optional[Dict] = None)
     if "haccbl.xyz" in url:
         return get_haccbl_chapter_images(url)
 
-    # 2. Cubari virtual url
+    # 2. tsxx (Tủ Sách Xinh Xinh)
+    if "tsxx" in url or "tusachxinhxinh" in url:
+        return get_tsxx_chapter_images(url)
+
+    # 3. Cubari virtual url
     if url.startswith("cubari://"):
         if context_data and 'raw_data' in context_data:
             parts = url.split('/')
