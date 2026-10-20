@@ -1,8 +1,26 @@
 [
   {
-    "Nhân vật A": "Tống Thính",
+    "Nhân vật A": "Tiêu Hồi (萧回)",
+    "Quan hệ": "Công x Thụ (Đơn nguyên 1)",
+    "Nhân vật B": "Tiết Hoài Cẩn (薛怀瑾)",
+    "Ghi chú": "Vệ sĩ Alpha x Tra Alpha thiếu gia. Tiêu Hồi đè Tiết Hoài Cẩn (tra A mang thai)"
+  },
+  {
+    "Nhân vật A": "Tống Thính (宋听)",
     "Quan hệ": "Công x Thụ (Đơn nguyên 2)",
-    "Nhân vật B": "Tống Biệt",
-    "Ghi chú": "Tống Thính ngồi xe lăn nhưng hoàn toàn làm chủ mối quan hệ, thuần hóa Tống Biệt điên cuồng"
+    "Nhân vật B": "Tống Biệt (宋别)",
+    "Ghi chú": "Tàn tật xe lăn công x Điên cuồng nhạy cảm tra công. Tống Thính thuần hóa Tống Biệt"
+  },
+  {
+    "Nhân vật A": "Thẩm Trầm (沈沉)",
+    "Quan hệ": "Công x Thụ (Đơn nguyên 3)",
+    "Nhân vật B": "Tra công hỏa táng tràng",
+    "Ghi chú": "Anh trai sinh đôi của nguyên thụ giả S trừng trị tra công"
+  },
+  {
+    "Nhân vật A": "Tạ Tranh (谢争)",
+    "Quan hệ": "Công x Thụ (Đơn nguyên 4)",
+    "Nhân vật B": "Tử đối đầu Mị ma tra công",
+    "Ghi chú": "Oan gia tử đối đầu x Mị ma tra công thích giật bạn trai của em trai"
   }
 ]

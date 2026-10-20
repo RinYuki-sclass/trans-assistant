@@ -3,33 +3,66 @@
     "name": "Xiao Hui",
     "hanviet_name": "Tiêu Hồi",
     "original_name": "萧回",
-    "gender": "Nam",
-    "role": "Công chính Đơn nguyên 1 (Vệ sĩ)",
+    "gender": "Nam (Alpha)",
+    "role": "Công chính Đơn nguyên 1 (Vệ sĩ Alpha)",
     "narration_pronoun": "anh",
-    "honorifics": "xưng tôi, gọi tra Alpha là cậu chủ / hắn",
-    "speech_style": "Lạnh lùng, kiên định, dứt khoát",
-    "notes": "Vệ sĩ bị tra Alpha cắm sừng cướp người yêu, nhận nhiệm vụ hệ thống đè ngược lại tra Alpha"
+    "honorifics": "xưng tôi, gọi Tiết Hoài Cẩn là cậu chủ / hắn",
+    "speech_style": "Lạnh lùng, kiên định, dứt khoát, dã tính",
+    "notes": "Vệ sĩ thân thủ phi phàm, bị tra A Tiết Hoài Cẩn đùa bỡn cướp người yêu, nhận nhiệm vụ hệ thống đè ngược lại tra Alpha"
+  },
+  {
+    "name": "Xue Huaijin",
+    "hanviet_name": "Tiết Hoài Cẩn",
+    "original_name": "薛怀瑾",
+    "gender": "Nam (Alpha -> Thụ)",
+    "role": "Thụ Đơn nguyên 1 (Tra Alpha)",
+    "narration_pronoun": "hắn / gã Alpha",
+    "honorifics": "xưng tôi / bổn thiếu gia, gọi Tiêu Hồi là mày / tên vệ sĩ",
+    "speech_style": "Kiêu ngạo, tự phụ, ngông cuồng, độc đoán",
+    "notes": "Nhị thiếu gia nhà họ Tiết, thích đùa giỡn tình cảm, cuối cùng bị vệ sĩ của mình đè và mang thai"
   },
   {
     "name": "Song Ting",
     "hanviet_name": "Tống Thính",
     "original_name": "宋听",
     "gender": "Nam",
-    "role": "Công chính Đơn nguyên 2",
+    "role": "Công chính Đơn nguyên 2 (Tàn tật xe lăn công)",
     "narration_pronoun": "anh",
     "honorifics": "xưng tôi / anh, gọi Tống Biệt bằng tên",
     "speech_style": "Bình thản, áp chế tâm lý, có uy quyền tuyệt đối",
-    "notes": "Từng vì cứu Tống Biệt mà bị què chân ngồi xe lăn, là người duy nhất trị được chứng điên cuồng kiểm soát của Tống Biệt"
+    "notes": "Từng vì cứu Tống Biệt mà bị thọt chân phải ngồi xe lăn, không lùn không yếu, người duy nhất chế ngự được Tống Biệt"
   },
   {
     "name": "Song Bie",
     "hanviet_name": "Tống Biệt",
     "original_name": "宋别",
     "gender": "Nam",
-    "role": "Thụ chính Đơn nguyên 2 (Tra công bị đè)",
-    "narration_pronoun": "hắn / Tống Biệt",
+    "role": "Thụ Đơn nguyên 2 (Tra công bị đè)",
+    "narration_pronoun": "hắn / Tống Biệt / cậu ta",
     "honorifics": "xưng em / tôi, gọi Tống Thính là anh",
-    "speech_style": "Điên cuồng, nhạy cảm, bất an, nghe lời Tống Thính tăm tắp",
-    "notes": "Bị Tống Thính thuần hóa, đặt báo thức để liên tục báo cáo hành trình mỗi ngày"
+    "speech_style": "Điên cuồng, nhạy cảm, cố chấp kiểm soát, sợ hãi Tống Thính",
+    "notes": "Ban đầu là tra công biến thái theo dõi, sau bị Tống Thính thuần hóa, đặt báo thức định kỳ để báo cáo từng giây từng phút"
+  },
+  {
+    "name": "Shen Chen",
+    "hanviet_name": "Thẩm Trầm",
+    "original_name": "沈沉",
+    "gender": "Nam",
+    "role": "Công chính Đơn nguyên 3 (Giả Dom/S công)",
+    "narration_pronoun": "anh",
+    "honorifics": "xưng tôi, thái độ bề trên",
+    "speech_style": "Bá đạo, quyết đoán, nghiêm khắc",
+    "notes": "Anh trai sinh đôi của nguyên thụ bị tra công hại, nhận nhiệm vụ hệ thống đóng giả làm S để trừng phạt tra công"
+  },
+  {
+    "name": "Xie Zheng",
+    "hanviet_name": "Tạ Tranh",
+    "original_name": "谢争",
+    "gender": "Nam",
+    "role": "Công chính Đơn nguyên 4",
+    "narration_pronoun": "anh",
+    "honorifics": "xưng tôi",
+    "speech_style": "Sắc bén, bất cần, trả thù dứt khoát",
+    "notes": "Kẻ xui xẻo bị bạn trai cắm sừng, nhận hệ thống trả thù thì phát hiện tra công chính là kẻ thù truyền kiếp (mị ma)"
   }
 ]
