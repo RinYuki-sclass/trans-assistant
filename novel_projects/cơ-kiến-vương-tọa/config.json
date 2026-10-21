@@ -1,0 +1,21 @@
+{
+  "title": "Cơ Kiến Vương Tọa",
+  "chinese_title": "基建王座",
+  "author": "Tử Vũ Nguyệt Uyên (紫舞玥鸢)",
+  "description": "Tiểu thuyết Tây phương huyền ảo, dị giới đại lục, cơ kiến (xây dựng lãnh địa, phát triển đế quốc), ma pháp khoa kỹ, hệ thống, chủ công, cường cường, 1v1, sảng văn, hỗ sủng, HE. Game architect Thẩm Khinh Trạch xuyên vào tựa game thực tế ảo 'Thế Kỷ Rạng Đông' do chính mình phát triển, mang theo hệ thống quản trị game và trở thành người chơi duy nhất. Đáp xuống một thành nhỏ nghèo nàn ở phương Bắc đối mặt yêu thú và thú nhân hung tàn, anh khởi đầu từ hai bàn tay trắng: cải tạo đất đai, luyện kim chế thép, xây đường sắt ma pháp, dựng trường học... dần dần kiến thiết nên đế quốc phồn vinh nhất đại lục và gia miện xưng vương bên cạnh Thống soái quân đội sắc bén Nhan Túy.",
+  "slug": "cơ-kiến-vương-tọa",
+  "source_lang": "Chinese",
+  "target_lang": "Vietnamese",
+  "raw_links": {
+    "jjwxc": "https://www.jjwxc.net/onebook.php?novelid=3993953",
+    "52shuku": "https://www.52shuku.net/jiakong/hz8x.html"
+  },
+  "style_guide": "Đam mỹ Tây phương huyền huyễn, cơ kiến xây dựng, chủ công, ma pháp khoa kỹ, cường cường, 1v1, HE.\n\nQUY TẮC BẮT BUỘC:\n1. Định dạng đoạn văn: Bắt buộc cách nhau đúng 1 dòng trống (\\n\\n) giữa các đoạn và lời thoại. Tuyệt đối không dính liền dòng (\\n).\n2. Dấu ngoặc thoại: Lời thoại dùng ngoặc kép chuẩn “...”, không dùng gạch ngang đầu câu (— ...).\n3. Ngôi 3 trần thuật (Tự sự):\n   - Thẩm Khinh Trạch (Công): Luôn dùng 'anh' hoặc 'hắn' trong văn trần thuật ngôi 3 (ưu tiên dùng 'anh' lịch thiệp, phong thái vương giả).\n   - Nhan Túy (Thụ): Dùng 'cậu' hoặc 'y' trong văn trần thuật ngôi 3.\n4. Đối thoại Thẩm Khinh Trạch ↔ Nhan Túy: Xưng hô tương xứng vị thế, hỗ sủng tôn trọng lẫn nhau, Thẩm Khinh Trạch phong thái bạo quân tao nhã, Nhan Túy quân trang kiêu ngạo nhưng cưng chiều phục tùng quốc vương của mình.",
+  "confidence_threshold": 0.8,
+  "chunk_size": 20,
+  "created_at": "2026-10-21T11:30:00+07:00",
+  "chapters_count": 145,
+  "is_completed": false,
+  "is_dropped": false,
+  "drop_reason": ""
+}

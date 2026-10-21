@@ -1,5 +1,5 @@
 ---
-description: Quy chuẩn dịch thuật, xưng hô, đại từ và nhân vật cho Arc 2 (Thế giới 2 - Thiếu gia giả Beta x Thụ Alpha gia trưởng: Mẫn Tòng Khiêm x Tiết Cảnh Minh, Ch.038 - Ch.065)
+description: "Quy chuẩn dịch thuật, xưng hô, đại từ và nhân vật cho Arc 2 (Thế giới 2 - Thiếu gia giả Beta x Thụ Alpha gia trưởng: Mẫn Tòng Khiêm x Tiết Cảnh Minh, Ch.038 - Ch.065)"
 globs: novel_projects/đã-kích-hoạt-hệ-thống-đổi-thụ/**
 alwaysApply: false
 ---

@@ -1,6 +1,6 @@
 ---
-description: Quy chuẩn định dạng văn bản, hậu tố tiếng Hàn và kiểm duyệt (QC) cho toàn bộ novel workflow (novel_projects, input/qc, SVR)
-globs: ["novel_projects/**", "input/qc/**", "output/qc/**", "memory/**", "WORKFLOW_NOVEL_TRANSLATION.md"]
+description: "Quy chuẩn định dạng văn bản, hậu tố tiếng Hàn và kiểm duyệt (QC) cho toàn bộ novel workflow (novel_projects, input/qc, SVR)"
+globs: "**/*"
 alwaysApply: true
 ---
 

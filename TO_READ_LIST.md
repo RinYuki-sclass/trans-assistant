@@ -113,3 +113,12 @@ Tác giả: Nguyên Lai Thị Lạc Lạc (原来是落落)
 - **Thể loại:** Đam mỹ, Chủ công, Khoái xuyên, Xuyên thư, Hào môn thế gia, Cường cường, Ngọt sủng, Hài hước, HE
 - **Độ dài:** 116 chương (1 intro + 114 chương chính văn + 2 phiên ngoại)
 - **Project:** Đã khởi tạo trong `novel_projects/xuyên-thư-xong-tôi-giả-gay-trong-truyện-bá-tổng/`
+
+---
+
+### Cơ Kiến Vương Tọa
+- **Tên raw (Tiếng Trung):** 《基建王座》
+- **Tác giả:** 紫舞玥鸢 (Tử Vũ Nguyệt Uyên)
+- **Thể loại:** Đam mỹ, Tây phương huyền ảo, Cơ kiến (xây dựng đế quốc), Dị giới đại lục, Khoa kỹ ma pháp, Hệ thống, Chủ công, Cường cường, Sảng văn, Hỗ sủng, HE
+- **Độ dài:** ~301 chương
+- **Project:** Đã khởi tạo trong `novel_projects/cơ-kiến-vương-tọa/`

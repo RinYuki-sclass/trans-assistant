@@ -1,5 +1,5 @@
 ---
-description: Quy chuẩn dịch thuật, xưng hô, đại từ và nhân vật cho Arc 1 (Thế giới 1 - Đô thị hiện đại: Alaska x Phó Vân Xuyên, Ch.001 - Ch.038)
+description: "Quy chuẩn dịch thuật, xưng hô, đại từ và nhân vật cho Arc 1 (Thế giới 1 - Đô thị hiện đại: Alaska x Phó Vân Xuyên, Ch.001 - Ch.038)"
 globs: novel_projects/cứu-rỗi-phản-diện-mỹ-cường-thảm/**
 alwaysApply: false
 ---

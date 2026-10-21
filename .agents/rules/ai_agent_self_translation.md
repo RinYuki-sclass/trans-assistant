@@ -1,6 +1,6 @@
 ---
-description: QUY TẮC TỐI THƯỢNG TOÀN SOURCE - AI Code Agent tuyệt đối không dùng Google API Key, tự thân thực thi trực tiếp mọi tác vụ
-globs: ["**/*"]
+description: "QUY TẮC TỐI THƯỢNG TOÀN SOURCE - AI Code Agent tuyệt đối không dùng Google API Key, tự thân thực thi trực tiếp mọi tác vụ"
+globs: "**/*"
 alwaysApply: true
 ---
 

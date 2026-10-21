@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Shen Qingze",
+    "hanviet_name": "Thẩm Khinh Trạch",
+    "original_name": "沈轻泽",
+    "gender": "Nam",
+    "role": "Công chính (Kiến trúc sư game, Quốc vương khai quốc)",
+    "narration_pronoun": "anh",
+    "honorifics": "xưng ta / tôi, được gọi là bệ hạ",
+    "speech_style": "Tao nhã, điềm đạm, thâm sâu, lý trí, đậm chất vương giả",
+    "notes": "Kiến trúc sư trưởng game 《Thế Kỷ Rạng Đông》, xuyên qua game trở thành người chơi duy nhất có hệ thống quản lý, xây dựng đế quốc từ vùng đất cực Bắc cằn cỗi."
+  },
+  {
+    "name": "Yan Zui",
+    "hanviet_name": "Nhan Túy",
+    "original_name": "颜醉",
+    "gender": "Nam",
+    "role": "Thụ chính (Thành chủ Uyên Lưu Thành, Thống soái quân đoàn phương Bắc)",
+    "narration_pronoun": "cậu",
+    "honorifics": "xưng tôi / em, gọi Thẩm Khinh Trạch là bệ hạ / ngài / Khinh Trạch",
+    "speech_style": "Bá khí, sắc sảo, ngạo kiều quân nhân, trước mặt Thẩm Khinh Trạch rất phối hợp và dung túng",
+    "notes": "Mỹ mạo nghịch thiên, thống lĩnh quân đội phương Bắc, hết lòng tin tưởng và bảo hộ Thẩm Khinh Trạch."
+  },
+  {
+    "name": "Li Laodie",
+    "hanviet_name": "Lão Lý",
+    "original_name": "李老爹",
+    "gender": "Nam",
+    "role": "Thợ rèn già thôn Mộc Gia, người cưu mang Thẩm Khinh Trạch",
+    "narration_pronoun": "ông",
+    "honorifics": "xưng ta, gọi Thẩm Khinh Trạch là Tiểu Trạch / con",
+    "speech_style": "Hiền hậu, chất phác, yêu thương con cháu, sẵn sàng hy sinh vì thế hệ trẻ",
+    "notes": "Thợ rèn già tàn tật chân ở Mộc Gia Thôn, coi Thẩm Khinh Trạch như con ruột. Tự nguyện đi theo vệ đội chịu hiến tế để nhường cơ hội sống cho người trẻ."
+  },
+  {
+    "name": "Count Yan En",
+    "hanviet_name": "Bá tước Nhan Ân",
+    "original_name": "颜恩伯爵",
+    "gender": "Nam",
+    "role": "Phản diện / Chú ruột của Nhan Túy",
+    "narration_pronoun": "ông ta / hắn",
+    "honorifics": "xưng ta, ngài Bá tước",
+    "speech_style": "Ngạo mạn, nham hiểm, giả tạo làm từ thiện bề ngoài nhưng độc ác bên trong",
+    "notes": "Em trai của lão Thành chủ tiền nhiệm, dã tâm cướp ghế Thành chủ. Cấu kết với Chủ tế Mạc Vân vu oan và toan tính lật đổ Nhan Túy."
+  },
+  {
+    "name": "High Priest Mo Yun",
+    "hanviet_name": "Chủ tế Mạc Vân",
+    "original_name": "莫云主祭",
+    "gender": "Nam",
+    "role": "Phản diện / Chủ tế Uyên Lưu Thành",
+    "narration_pronoun": "gã",
+    "honorifics": "Chủ tế đại nhân",
+    "speech_style": "Nhã nhặn giả tạo, sắc sảo, âm mưu thâm hiểm",
+    "notes": "Người nắm quyền lực thứ hai trên danh nghĩa của Uyên Lưu Thành. Cấu kết với Bá tước Nhan Ân mượn cớ Vĩnh Dạ để ban lệnh hiến tế người già đổ tội cho Nhan Túy."
+  },
+  {
+    "name": "Xiao Meng",
+    "hanviet_name": "Tiêu Mông",
+    "original_name": "肖蒙",
+    "gender": "Nam",
+    "role": "Đội trưởng đội cận vệ thành chủ",
+    "narration_pronoun": "hắn",
+    "honorifics": "Tiêu đội trưởng",
+    "speech_style": "Cương trực, dứt khoát, trung thành tận tụy",
+    "notes": "Tâm phúc số một của Nhan Túy, chỉ huy Thiết Vệ đội, gia tộc đời đời canh giữ Uyên Lưu Thành."
+  },
+  {
+    "name": "Boss Mo",
+    "hanviet_name": "Mạc lão bản",
+    "original_name": "莫老板",
+    "gender": "Nam",
+    "role": "Chủ tiệm đồ sắt Ân Ban Và Thiết Huyết ở chợ đông",
+    "narration_pronoun": "ông ta / gã",
+    "honorifics": "Mạc lão bản",
+    "speech_style": "Thương nhân giảo hoạt, nịnh bợ quý tộc, chèn ép đối thủ",
+    "notes": "Họ hàng của Chủ tế Mạc Vân, cấu kết cung cấp vũ khí giáp trụ cho âm mưu tạo phản của Bá tước Nhan Ân."
+  },
+  {
+    "name": "Jin Da Brothers",
+    "hanviet_name": "Anh em Kim Đại, Ngân Nhị, Đồng Tam",
+    "original_name": "金大、银二、铜三",
+    "gender": "Nam",
+    "role": "Lưu manh chợ đông / Chân chạy phụ việc sau này",
+    "narration_pronoun": "bọn chúng / chúng",
+    "honorifics": "Kim đại ca",
+    "speech_style": "Bỗ bã lưu manh nhưng cũng có chút tình nghĩa gia đình",
+    "notes": "Ban đầu là ba tên du côn đòi nợ thuê, sau khi bị Thẩm Khinh Trạch tha mạng và khích lệ đi cứu bà nội, đã hứa nguyện làm trâu làm ngựa nhận anh làm bố nếu anh cứu được mọi người."
+  }
+]
