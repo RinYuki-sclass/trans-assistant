@@ -1,0 +1,30 @@
+[
+  {
+    "term": "漏洞组",
+    "hanviet": "Lỗ hổng tổ",
+    "translation": "Tổ Lỗ Hổng",
+    "category": "Tổ chức / Thiết lập",
+    "notes": "Đơn vị cũ của Bùi Yến tại Thiên Giới trước khi bị điều chuyển"
+  },
+  {
+    "term": "修复组",
+    "hanviet": "Tu phục tổ",
+    "translation": "Tổ Sửa Chữa",
+    "category": "Tổ chức / Thiết lập",
+    "notes": "Đơn vị mới mà Bùi Yến được điều chuyển sang để thực hiện nhiệm vụ tại các tiểu thế giới"
+  },
+  {
+    "term": "执行官",
+    "hanviet": "Chấp hành quan",
+    "translation": "Chấp hành quan",
+    "category": "Chức danh",
+    "notes": "Chức vụ của Bùi Yến tại Thiên Giới"
+  },
+  {
+    "term": "天之骄子",
+    "hanviet": "Thiên chi kiêu tử",
+    "translation": "Thiên chi kiêu tử (Con cưng của trời)",
+    "category": "Thiết lập",
+    "notes": "Chỉ các nam chính nguyên tác trong các tiểu thế giới"
+  }
+]

@@ -1,0 +1,138 @@
+[
+  {
+    "name": "Shen Yu",
+    "hanviet_name": "Thẩm Ngộ",
+    "original_name": "沈遇",
+    "gender": "Nam",
+    "role": "Công chính (Chủ công - Ký chủ làm nhiệm vụ)",
+    "aliases": [
+      "Học sinh trao đổi trường Đức Mạn"
+    ],
+    "narration_pronoun": "cậu",
+    "honorifics": "với Chu Cẩn Sinh: tôi - cậu; với Hệ thống 007: tôi - 007; với bạn cùng lớp: tôi - cậu/ông",
+    "speech_style": "Điềm tĩnh, biết cách thả thính tự nhiên (điếu hệ), kiên cường, nhập tâm vào vai diễn",
+    "notes": "Trói định với hệ thống 007 lúc sắp chết trên bàn mổ ở Khu Hạ Cửu. Lần 1 ở Thế giới 1 thất bại bị Chu Cẩn Sinh bỏ bao tải dìm xuống hồ, nên quay ngược về 8 năm trước (lúc Chu Cẩn Sinh còn học lớp 12-1 trường công lập Kinh Dương) để tiếp cận và cày độ hảo cảm trong thời hạn 3 tháng."
+  },
+  {
+    "name": "Zhou Jinsheng",
+    "hanviet_name": "Chu Cẩn Sinh",
+    "original_name": "周瑾生",
+    "gender": "Nam",
+    "role": "Thụ chính (Phản diện điên phê Thế giới 1 - Người thừa kế nhà họ Chu)",
+    "aliases": [
+      "Chu đại công tử",
+      "Chu đại thiếu",
+      "Diêm Vương sống"
+    ],
+    "narration_pronoun": "hắn",
+    "honorifics": "với Thẩm Ngộ: tôi - cậu; với Trì Hiển Lễ: tao/tôi - mày/cậu; với Chu Như Huệ: cháu - cô út; với Ông cụ Chu: cháu - ông nội",
+    "speech_style": "Lạnh lùng, kiêu ngạo, đa nghi, kiệm lời nhưng ẩn chứa sự bạo ngược điên cuồng",
+    "notes": "Người thừa kế hợp pháp duy nhất của Chu công quán tại Tư Hoa Viên. Mắc bệnh đau dạ dày và chứng sạch sẽ nghiêm trọng, bên trong cơ thể khóa chặt một con dã thú bạo ngược."
+  },
+  {
+    "name": "System 007",
+    "hanviet_name": "Hệ thống 007",
+    "original_name": "007",
+    "gender": "Vô tính",
+    "role": "Hệ thống hỗ trợ",
+    "aliases": [
+      "007"
+    ],
+    "narration_pronoun": "nó",
+    "honorifics": "với Thẩm Ngộ: 007/tôi - Ký chủ",
+    "speech_style": "Nghiêm túc, chuộng nghi thức nhưng tận tụy hỗ trợ và lo lắng cho ký chủ",
+    "notes": "Hệ thống đời đầu của Cục Quản lý Thời không chạy trốn khỏi việc bị thu hồi vì lão hóa chương trình."
+  },
+  {
+    "name": "Cheng Yitan",
+    "hanviet_name": "Trình Dĩ Đàn",
+    "original_name": "程以檀",
+    "gender": "Nam",
+    "role": "Bạn cùng bàn của Thẩm Ngộ ở lớp 12-1",
+    "aliases": [],
+    "narration_pronoun": "y",
+    "honorifics": "với Thẩm Ngộ: tôi - cậu",
+    "speech_style": "Rụt rè, lắp bắp, nhút nhát trước mặt người khác",
+    "notes": "Đeo kính gọng đen, tóc mái dài che mắt, do người trong nhà họ Chu sắp xếp bên cạnh Chu Cẩn Sinh; trong nguyên tác là người cuối cùng tự tay giết chết Chu Cẩn Sinh."
+  },
+  {
+    "name": "Chi Xianli",
+    "hanviet_name": "Trì Hiển Lễ",
+    "original_name": "迟显礼",
+    "gender": "Nam",
+    "role": "Trì thiếu - Bạn nối khố của Chu Cẩn Sinh",
+    "aliases": [
+      "Trì thiếu"
+    ],
+    "narration_pronoun": "gã",
+    "honorifics": "với Chu Cẩn Sinh: tao/tôi - mày/cậu; với Thẩm Ngộ: tôi - cậu",
+    "speech_style": "Bất cần, ăn chơi sành sỏi, đa nghi với những kẻ tiếp cận Chu Cẩn Sinh",
+    "notes": "Thiếu gia nhà họ Trì (gia tộc chính giới gia quy nghiêm khắc), bị Chu Cẩn Sinh đánh phục từ nhỏ."
+  },
+  {
+    "name": "Yu Tingsi",
+    "hanviet_name": "Du Thính Tứ",
+    "original_name": "俞听肆",
+    "gender": "Nam",
+    "role": "Thụ chính nguyên tác (Du thiếu / Du tiểu gia)",
+    "aliases": [
+      "Du thiếu",
+      "Du tiểu thiếu",
+      "Du tiểu gia"
+    ],
+    "narration_pronoun": "cậu ta",
+    "honorifics": "với Thẩm Ngộ: tôi/bổn thiếu gia - cậu",
+    "speech_style": "Kiêu căng, ngông cuồng, nóng nảy nhưng thẳng tính",
+    "notes": "Ở thời điểm 8 năm trước mới 13-14 tuổi, nhuộm tóc đỏ, đeo khuyên mày đỏ. Ba năm sau nhà họ Du sụp đổ vì vụ bạo lực học đường và tham nhũng, sẽ được nhà họ Chu nhận nuôi."
+  },
+  {
+    "name": "Chen Jinyang",
+    "hanviet_name": "Trần Kính Dương",
+    "original_name": "陈劲扬",
+    "gender": "Nam",
+    "role": "Học sinh trường Kinh Dương - Anh sinh đôi của Trần Diệu Diệu",
+    "aliases": [],
+    "narration_pronoun": "cậu ta",
+    "honorifics": "với Thẩm Ngộ: tôi/anh em - ông/cậu",
+    "speech_style": "Nhiệt tình, nói nhiều như bắn liên thanh, trọng nghĩa khí",
+    "notes": "Thiếu gia nhà họ Trần (kinh doanh chuỗi bệnh viện), thích dùng meme chó Samoyed ló đầu."
+  },
+  {
+    "name": "Chen Miaomiao",
+    "hanviet_name": "Trần Diệu Diệu",
+    "original_name": "陈妙妙",
+    "gender": "Nữ",
+    "role": "Học sinh trường Kinh Dương - Em gái sinh đôi của Trần Kính Dương",
+    "aliases": [],
+    "narration_pronoun": "cô",
+    "honorifics": "với Thẩm Ngộ: tôi - cậu",
+    "speech_style": "Hoạt bát, tinh ranh, thích hóng chuyện",
+    "notes": "Sức khỏe yếu từ nhỏ nên hay đóng đô ở phòng y tế trường Kinh Dương, thầm ngưỡng mộ Chu Cẩn Sinh."
+  },
+  {
+    "name": "Zhou Ruhui",
+    "hanviet_name": "Chu Như Huệ",
+    "original_name": "周如蕙",
+    "gender": "Nữ",
+    "role": "Cô út của Chu Cẩn Sinh",
+    "aliases": [
+      "Cô út"
+    ],
+    "narration_pronoun": "bà ta",
+    "honorifics": "với Chu Cẩn Sinh: cô út - Cẩn Sinh",
+    "speech_style": "Ngoài mặt cười nói thân thiết nhưng ánh mắt âm độc, cay nghiệt",
+    "notes": "Đóa hồng độc của Tư Hoa Viên, luôn nhăm nhe vị trí người thừa kế nhà họ Chu."
+  },
+  {
+    "name": "Zhou Yaoshu",
+    "hanviet_name": "Chu Dược Thư",
+    "original_name": "周药书",
+    "gender": "Nam",
+    "role": "Con trai của Chu Như Huệ",
+    "aliases": [],
+    "narration_pronoun": "cậu ta",
+    "honorifics": "với Chu Cẩn Sinh: em - anh",
+    "speech_style": "Trầm mặc, luôn giữ nụ cười giả tạo trên gương mặt trắng bệch",
+    "notes": "Nhiều bệnh tật từ nhỏ nên thường được Ông cụ Chu gọi về Chu công quán tĩnh dưỡng."
+  }
+]

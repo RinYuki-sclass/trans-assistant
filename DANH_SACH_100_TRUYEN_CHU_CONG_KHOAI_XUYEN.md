@@ -36,7 +36,7 @@
 26. [Kiều Khí Điềm Công Luôn Bị Phản Diện Nhắm Vào [Khoái Xuyên]](#-026-kiều-khí-điềm-công-luôn-bị-phản-diện-nhắm-vào-khoái-xuyên) - `娇气甜攻总被反派盯上[快穿]`
 27. [Chiến Lược Cải Tảo Tra Nam [Khoái Xuyên]](#-027-chiến-lược-cải-tảo-tra-nam-khoái-xuyên) - `渣男改造策略[快穿]`
 28. [Cướp Nam Phụ Chạy Trốn Thật Là Kích Thích [Khoái Xuyên]](#-028-cướp-nam-phụ-chạy-trốn-thật-là-kích-thích-khoái-xuyên) - `拐走男配跑路真刺激[快穿]`
-29. [Pháo Hôi Cùng Nhân Vật Chính Là Tuyệt Phối](#-029-pháo-hôi-cùng-nhân-vật-chính-là-tuyệt-phối) - `炮灰与主角绝配`
+29. [Pháo Hôi Và Nhân Vật Chính Mới Là Tuyệt Phối](#-029-pháo-hôi-và-nhân-vật-chính-mới-là-tuyệt-phối) - `炮灰和主角才是绝配（主攻）`
 30. [Cánh Cửa Càng Ngày Càng Hẹp [Khoái Xuyên]](#-030-cánh-cửa-càng-ngày-càng-hẹp-khoái-xuyên) - `门越来越小[快穿]`
 31. [Trải Nghiệm HE Cùng Tra Thụ](#-031-trải-nghiệm-he-cùng-tra-thụ) - `体验与渣受的HE`
 32. [Phản Diện Hóa Thành Thâm Tình Nam Thứ](#-032-phản-diện-hóa-thành-thâm-tình-nam-thứ) - `反派成了深情男二`
@@ -678,11 +678,13 @@
 
 ---
 
-### 📌 [029] Pháo Hôi Cùng Nhân Vật Chính Là Tuyệt Phối
+### 📌 [029] Pháo Hôi Và Nhân Vật Chính Mới Là Tuyệt Phối
 * **Tên tiếng Anh (NovelUpdates):** Cannon Fodder And The Protagonist Are A Perfect Match
-* **Tên raw (Tiếng Trung):** 《炮灰与主角绝配》
-* **Tác giả:** Thanh Phong (清风)
-* **Thể loại:** Đam mỹ, Chủ công, Khoái xuyên (Xuyên nhanh), Hệ thống, Tinh tế, Mạt thế, Cao H / Trưởng thành
+* **Tên raw (Tiếng Trung):** 《炮灰和主角才是绝配（主攻）》 / 《炮灰与主角绝配》
+* **Tác giả:** Phong Vãn Cuồng Lan (风挽狂澜) *(một số list ghi nhầm thành Thanh Phong - 清风)*
+* **Nhân vật chính:** Bùi Yến (裴晏 - Pei Yan) (Chủ công) × Nam chính các thế giới (Thế giới 1: Thịnh Linh - 盛翎)
+* **Thể loại:** Đam mỹ, Chủ công, Khoái xuyên (Xuyên nhanh), Hệ thống, Tinh tế, Mạt thế, Hải Đường Cao H / Trưởng thành (18+)
+* **Project:** Đã khởi tạo trong `novel_projects/pháo-hôi-và-nhân-vật-chính-mới-là-tuyệt-phối/`
 * **Link NovelUpdates:** [Cannon Fodder And The Protagonist Are A Perfect Match](https://www.novelupdates.com/series/cannon-fodder-and-the-protagonist-are-a-perfect-match/)
 * **Nội dung mô tả (Văn án):**
 

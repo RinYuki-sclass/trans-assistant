@@ -1,0 +1,21 @@
+{
+  "title": "Công Tên Phản Phái Điên Phê Kia [Khoái Xuyên]",
+  "chinese_title": "攻了那个疯批反派[快穿]",
+  "author": "Hương Thái Tại Tại (香菜在在)",
+  "description": "Lúc sắp chết, Thẩm Ngộ (沈遇) trói định với một hệ thống (007).\nChỉ cần ở từng thế giới cày đầy độ hảo cảm của đám phản diện điên phê, anh có thể thay đổi kết cục tử vong. Giữ vững nguyên tắc tùy người mà đối đãi, đối mặt với các kiểu phản diện khác nhau, Thẩm Ngộ quyết định áp dụng chiến lược công lược khác nhau.\nThế nhưng, tại sao ánh mắt đám phản diện nhìn anh càng lúc càng không đúng?\n“Đó là ánh mắt hận không thể đem ngươi lột xương nuốt vào bụng, cắn nuốt sạch sành sanh——”",
+  "slug": "công-tên-phản-phái-điên-phê-kia",
+  "source_lang": "Chinese",
+  "target_lang": "Vietnamese",
+  "raw_links": {
+    "jjwxc": "https://www.jjwxc.net/onebook.php?novelid=9207721",
+    "52shuku": "https://www.52shuku.net/chongsheng/05_b/bkcsX.html"
+  },
+  "style_guide": "Đam mỹ, Chủ công, Khoái xuyên, Hệ thống, Cứu rỗi u ám (Hắc nê / Cố chấp bệnh kiều), Hào môn thế gia, Mạt thế, ABO, Trùng tộc, Tây huyễn, Tiên hiệp. Thẩm Ngộ (Điếu hệ kiên cường công) x Chu Phỉ / Phản diện điên phê các thế giới (Cố chấp âm u cường thụ).\n\nQUY TẮC BẮT BUỘC:\n1. Định dạng đoạn văn: Bắt buộc cách nhau đúng 1 dòng trống (\\n\\n) giữa các đoạn và lời thoại.\n2. Dấu ngoặc thoại: Lời thoại dùng ngoặc kép chuẩn “...”, không dùng gạch ngang đầu câu.\n3. Ngôi 3 trần thuật:\n   - Thẩm Ngộ (Công chính - 沈遇): Dùng 'cậu' hoặc 'anh' (thống nhất theo độ tuổi từng thế giới; Thế giới 1 thời niên thiếu dùng 'cậu', trưởng thành dùng 'anh').\n   - Phản diện điên phê (Thụ chính - 周斐 / Thế giới 1: Chu Cẩn Sinh 周瑾生): Dùng 'hắn' hoặc 'y'.\n   - Hệ thống 007: Dùng 'nó'.\n4. Bảo toàn 1:1 số đoạn văn gốc, không tự gộp hoặc tách đoạn.",
+  "confidence_threshold": 0.8,
+  "chunk_size": 20,
+  "created_at": "2026-10-22T00:07:00+07:00",
+  "chapters_count": 170,
+  "is_completed": false,
+  "is_dropped": false,
+  "drop_reason": ""
+}

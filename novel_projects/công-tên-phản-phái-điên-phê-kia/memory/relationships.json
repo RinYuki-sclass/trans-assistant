@@ -1,0 +1,28 @@
+[
+  {
+    "pair": [
+      "Shen Yu",
+      "Zhou Jinsheng"
+    ],
+    "context": "Thế giới 1 (Thời niên thiếu tại trường công lập Kinh Dương)",
+    "relation_type": "Điếu hệ kiên cường công (Thẩm Ngộ) x Âm u cố chấp phản diện điên phê thụ (Chu Cẩn Sinh)",
+    "narration_pronouns": {
+      "Shen Yu": "cậu",
+      "Zhou Jinsheng": "hắn"
+    },
+    "status": "Từ dò xét, nghi kỵ ban đầu chuyển sang để tâm và rung động ngầm sau màn chắn gậy trong hẻm tối và đêm mưa gió ở Lam Hải Loan"
+  },
+  {
+    "pair": [
+      "Shen Yu",
+      "Cheng Yitan"
+    ],
+    "context": "Thế giới 1 (Bạn cùng bàn lớp 12-1)",
+    "relation_type": "Bạn cùng bàn / Thành viên câu lạc bộ Cung đạo",
+    "narration_pronouns": {
+      "Shen Yu": "cậu",
+      "Cheng Yitan": "y"
+    },
+    "status": "Thẩm Ngộ giúp Trình Dĩ Đàn gỡ giấy dán trêu chọc trên lưng và kéo y vào câu lạc bộ Cung đạo"
+  }
+]

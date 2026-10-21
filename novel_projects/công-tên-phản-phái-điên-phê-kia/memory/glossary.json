@@ -1,0 +1,58 @@
+[
+  {
+    "term": "上京",
+    "hanviet": "Thượng Kinh",
+    "translation": "Thượng Kinh",
+    "category": "Địa danh",
+    "notes": "Thành phố bối cảnh ở Thế giới 1, tựa núi hướng biển, nửa bên được bao quanh bởi vịnh Thanh Thủy"
+  },
+  {
+    "term": "青水海湾",
+    "hanviet": "Thanh Thủy hải loan",
+    "translation": "Vịnh Thanh Thủy",
+    "category": "Địa danh",
+    "notes": "Vịnh biển bao quanh một nửa Thượng Kinh"
+  },
+  {
+    "term": "京扬公立",
+    "hanviet": "Kinh Dương công lập",
+    "translation": "Trường công lập Kinh Dương",
+    "category": "Trường học / Tổ chức",
+    "notes": "Ngôi trường danh giá nơi các con cháu quyền quý Thượng Kinh theo học, huy hiệu trường hình cánh buồm trắng bạc"
+  },
+  {
+    "term": "德曼公学",
+    "hanviet": "Đức Mạn công học",
+    "translation": "Trường công lập Đức Mạn",
+    "category": "Trường học / Tổ chức",
+    "notes": "Ngôi trường cũ của Thẩm Ngộ trước khi trao đổi sang Kinh Dương"
+  },
+  {
+    "term": "逸夫楼",
+    "hanviet": "Dật Phu lâu",
+    "translation": "Tòa nhà Dật Phu",
+    "category": "Địa danh",
+    "notes": "Tòa nhà học tập có phòng học lớp 12-1 ở tầng 3"
+  },
+  {
+    "term": "思华园",
+    "hanviet": "Tư Hoa Viên",
+    "translation": "Tư Hoa Viên",
+    "category": "Địa danh",
+    "notes": "Khu dinh thự biệt lập trên núi Tiểu Chu bên vịnh Thanh Thủy, nơi tọa lạc của Chu công quán"
+  },
+  {
+    "term": "周公馆",
+    "hanviet": "Chu công quán",
+    "translation": "Chu công quán",
+    "category": "Địa danh",
+    "notes": "Dinh thự chính của gia tộc họ Chu tại Tư Hoa Viên"
+  },
+  {
+    "term": "蓝海湾",
+    "hanviet": "Lam Hải Loan",
+    "translation": "Câu lạc bộ Lam Hải Loan",
+    "category": "Địa danh",
+    "notes": "Câu lạc bộ tư nhân dành cho giới nhà giàu ở trung tâm Thượng Kinh"
+  }
+]

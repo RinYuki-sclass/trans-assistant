@@ -1,8 +1,6 @@
 https://www.novelupdates.com/series/becoming-the-gongs-older-brother/
 
 
-https://noistify.space/story/da-kich-hoat-he-thong-doi-thu
-
 ### 📌 Thông tin chi tiết về bộ truyện
 * **Tên gốc tiếng Trung:** 《反派的人鱼老婆》 *(Phản Phái Đích Nhân Ngư Lão Bà)*
 * **Tác giả:** 西瓜蘸辣椒盐 *(Tây Qua Trám Lạt Tiêu Diêm)*
@@ -57,12 +55,6 @@ Tên raw (Tiếng Trung): 《拯救悲情反派进行时！》
 Tác giả: 碉堡堡 (Điêu Bảo Bảo / Bunker / Chấn Khất)
 - **Project:** Đã khởi tạo trong `novel_projects/tiến-hành-cứu-rỗi-phản-diện-bi-tình/`
 
-[010] Hệ Thống Nghịch Chuyển Mary Sue [Khoái Xuyên]
-Tên tiếng Anh (NovelUpdates): Mary Sue Reversal System
-Tên raw (Tiếng Trung): 《玛丽苏扭转系统[快穿]》
-Tác giả: Thiên Hạ Thiên (天下天)
-- **Project:** Đã khởi tạo trong `novel_projects/hệ-thống-nghịch-chuyển-mary-sue/`
-
 [011] Nghịch Tập Nhân Vật Thụ!
 Tên tiếng Anh (NovelUpdates): Counterattacking the Submissive Role!
 Tên raw (Tiếng Trung): 《逆袭反攻！》 / 《攻成伪受[快穿]》
@@ -107,13 +99,6 @@ Tác giả: Nguyên Lai Thị Lạc Lạc (原来是落落)
 
 ---
 
-### Xuyên Thư Xong Tôi Giả Gay Trong Truyện Bá Tổng [Khoái Xuyên]
-- **Tên raw (Tiếng Trung):** 《装弯后霸总自我攻略了[快穿]》 / 《在霸总文学里装弯[快穿]》
-- **Tác giả:** 半斤墨水 (Bán Cân Mặc Thủy)
-- **Thể loại:** Đam mỹ, Chủ công, Khoái xuyên, Xuyên thư, Hào môn thế gia, Cường cường, Ngọt sủng, Hài hước, HE
-- **Độ dài:** 116 chương (1 intro + 114 chương chính văn + 2 phiên ngoại)
-- **Project:** Đã khởi tạo trong `novel_projects/xuyên-thư-xong-tôi-giả-gay-trong-truyện-bá-tổng/`
-
 ---
 
 ### Cơ Kiến Vương Tọa
@@ -122,3 +107,33 @@ Tác giả: Nguyên Lai Thị Lạc Lạc (原来是落落)
 - **Thể loại:** Đam mỹ, Tây phương huyền ảo, Cơ kiến (xây dựng đế quốc), Dị giới đại lục, Khoa kỹ ma pháp, Hệ thống, Chủ công, Cường cường, Sảng văn, Hỗ sủng, HE
 - **Độ dài:** ~301 chương
 - **Project:** Đã khởi tạo trong `novel_projects/cơ-kiến-vương-tọa/`
+
+---
+
+### [029] Pháo Hôi Và Nhân Vật Chính Mới Là Tuyệt Phối [Khoái Xuyên]
+- **Tên tiếng Anh (NovelUpdates):** Cannon Fodder And The Protagonist Are A Perfect Match
+- **Tên raw (Tiếng Trung):** 《炮灰和主角才是绝配（主攻）》 (một số nơi ghi tắt là 《炮灰与主角绝配》)
+- **Tác giả:** Phong Vãn Cuồng Lan (风挽狂澜) *(một số list ghi nhầm thành Thanh Phong - 清风)*
+- **Nhân vật chính:** Bùi Yến (裴晏 - Pei Yan) (Chủ công) × Nam chính các thế giới (Thế giới 1: Thịnh Linh - 盛翎)
+- **Thể loại:** Đam mỹ, Chủ công, Khoái xuyên, Hệ thống, Hải Đường Cao H (18+), Kịch tính (Amnesia + PTSD + Hỏa táng tràng)
+- **Project:** Đã khởi tạo trong `novel_projects/pháo-hôi-và-nhân-vật-chính-mới-là-tuyệt-phối/`
+
+### 🖤 Nhóm Ý Tưởng & Truyện: "U Ám Bệnh Kiều / Cưỡng Chế Ái / Ký Sinh Tâm Lý" (Chủ Công Khoái Xuyên)
+- **Đặc trưng thiết lập:** Không khí đè nén, âm u, hắc nê (`黑泥`); Thụ ở các thế giới cực kỳ lệch lạc, tâm lý biến thái, điên cuồng độc chiếm hoặc giam cầm; Công bình thản bước vào đầm lầy, dẫn dắt hoặc cùng phát điên.
+- **Bộ từ khóa (Tag) tìm Raw tiếng Trung:** `主攻` + `快穿` + `黑泥` / `阴暗爬行` / `病娇` / `疯批` / `强制爱` / `囚禁` / `恶人攻`
+- **Danh sách các bộ tiêu biểu trong nhóm:**
+  1. **Công Tên Phản Phái Điên Phê Kia [Khoái Xuyên]** (`《攻了那个疯批反派[快穿]》`) — Tác giả: Hương Thái Tại Tại (`香菜在在`) | Tấn Giang ID: `7061508` (170 chương, Hoàn thành)
+     - **Nhân vật chính:** Thẩm Ngộ (Công - `沈遇`) × Chu Phỉ / Các phản diện điên phê ở từng đơn nguyên (Thụ - `周斐`, Thế giới 1: Chu Cẩn Sinh - `周瑾生`) | Hệ thống: `007`
+     - **Điểm nhấn:** Hắc nê, cố chấp cuồng si. Công xuyên vào thời điểm tăm tối, bi thảm và vặn vẹo nhất của các phản diện để cày đầy độ hảo cảm thay đổi kết cục tử vong. Đám phản diện nhìn anh với ánh mắt hận không thể lột xương nuốt vào bụng.
+     - **Project:** Đã khởi tạo trong `novel_projects/công-tên-phản-phái-điên-phê-kia/`
+  2. **Bệnh Ngươi [Khoái Xuyên]** (`《病你[快穿]》` / `《病弱攻就是不死》`) — Tác giả: Quan Sơn Tuyết (`观山雪`)
+     - **Nhân vật chính:** Ứng Khuyết (Công - `应缺`) × Thanh Thanh (Thụ - `青青`)
+     - **Điểm nhấn:** U uất, cứu rỗi méo mó, bệnh nhược đoản mệnh công × âm u bệnh kiều độc chiếm thụ.
+  3. **Khoái Xuyên Chi Đả Kiểm Cuồng Ma** (`《快穿之打脸狂魔》` - các thế giới hắc hóa) — Tác giả: Phong Lưu Thư Ngốc (`风流书呆`)
+     - **Nhân vật chính:** Chu Doãn Thịnh (Công - `周允晟`)
+     - **Điểm nhấn:** Công là AI máu lạnh không có trái tim nhân loại, ra tay tàn độc, bức những kẻ bệnh kiều/phản diện trong các vị diện đến sụp đổ tinh thần.
+  4. **Cẩm Nang Cuồng Hoan Của Ác Nhân Công [Khoái Xuyên]** (`《恶人攻狂欢指南[快穿]》`) — Tác giả: Dưỡng Sinh Đại Sư (`养生大师`)
+     - **Điểm nhấn:** Đơn nguyên kịch, công ở mỗi thế giới có đạo đức thấp/dã tâm/nghiên cứu giam cầm (ngôi sao văn nhã bại hoại `权衡`, nhà khoa học điên `钟意`, giáo bá `纪觎`, nam người mẫu `闻过`, đế sư `陈逐`).
+  5. **Bạch Nguyệt Quang Chỉ Nam [Khoái Xuyên]** (`《白月光指南[快穿]》`) — Tác giả: Hồ Dương (`狐阳`)
+     - **Nhân vật chính:** Vân Quyết (Công - `云珏`)
+     - **Điểm nhấn:** Điên phê đối đầu điên phê, công ngoài mặt dịu dàng nhưng tận xương tủy tàn nhẫn vô tình, hai kẻ máu lạnh câu dẫn và bóp nghẹt lẫn nhau.

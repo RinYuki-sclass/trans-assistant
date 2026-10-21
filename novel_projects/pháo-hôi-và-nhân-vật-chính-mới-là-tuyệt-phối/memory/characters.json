@@ -1,0 +1,70 @@
+[
+  {
+    "name": "Pei Yan",
+    "hanviet_name": "Bùi Yến",
+    "original_name": "裴言 / 裴晏",
+    "gender": "Nam",
+    "role": "Công chính (Chủ công - Chấp hành quan Thiên Châu)",
+    "aliases": [
+      "Trưởng chấp hành quan Bùi",
+      "Hỗn thế ma vương Thiên Châu"
+    ],
+    "narration_pronoun": "anh",
+    "honorifics": "với Thịnh Linh: tôi - cậu; với Hệ thống 040: tôi - ngươi/mày",
+    "speech_style": "Điềm tĩnh, lạnh nhạt cấm dục bề ngoài nhưng bá đạo, dứt khoát, làm chủ mọi cuộc chơi",
+    "notes": "Trong raw ghi 裴言 (đồng âm Pei Yan với 裴晏), thống nhất dịch là Bùi Yến. Bị cấp trên điều từ Tổ Lỗ Hổng sang Tổ Sửa Chữa."
+  },
+  {
+    "name": "Sheng Ling",
+    "hanviet_name": "Thịnh Linh",
+    "original_name": "盛翎",
+    "gender": "Nam",
+    "role": "Thụ chính (Thế giới 1 - Nam chính ngựa đực nguyên tác)",
+    "aliases": [
+      "Thịnh đại thiếu gia",
+      "Anh Thịnh"
+    ],
+    "narration_pronoun": "hắn",
+    "honorifics": "với Bùi Yến: tao - mày (khi chửi bới) / tôi - cậu (khi cầu xin, hoảng sợ)",
+    "speech_style": "Nóng nảy, miệng cứng lòng mềm, ban đầu ngạo mạn coi Bùi Yến là đàn em nhưng nhanh chóng bị khuất phục về cả thể xác lẫn tâm lý",
+    "notes": "Nam chính Thế giới 1, bị Bùi Yến dùng điểm tích lũy cải tạo tuyến vú và cấy túi thai ẩn dẫn đến mang thai"
+  },
+  {
+    "name": "System 040",
+    "hanviet_name": "Hệ thống 040",
+    "original_name": "040 / 40",
+    "gender": "Vô tính",
+    "role": "Hệ thống Tổ Sửa Chữa",
+    "aliases": [
+      "40"
+    ],
+    "narration_pronoun": "nó",
+    "honorifics": "với Bùi Yến: tôi - ngài",
+    "speech_style": "Run rẩy, nhát gan, sợ Bùi Yến",
+    "notes": "Quả cầu trắng rỗng ruột bất quy tắc"
+  },
+  {
+    "name": "Mo Xuan",
+    "hanviet_name": "Mạc Tuyền",
+    "original_name": "莫璇",
+    "gender": "Nữ",
+    "role": "Nữ chính nguyên tác (Thế giới 1)",
+    "aliases": [],
+    "narration_pronoun": "cô",
+    "honorifics": "với Bùi Yến / Quý Ngạn: tôi - anh",
+    "speech_style": "Kiên cường, thanh thuần, tỉnh táo rút lui sau khi biết bộ mặt thật của Thịnh Linh",
+    "notes": "Được Bùi Yến đưa tiền bồi thường và tác hợp với Quý Ngạn để tránh kết cục một xác hai mạng"
+  },
+  {
+    "name": "Ji Yan",
+    "hanviet_name": "Quý Ngạn",
+    "original_name": "季彦",
+    "gender": "Nam",
+    "role": "Nhị thế tổ nhà họ Quý (Thế giới 1)",
+    "aliases": [],
+    "narration_pronoun": "gã",
+    "honorifics": "với Thịnh Linh: tôi/em - anh Thịnh; với Mạc Tuyền: tôi - cô",
+    "speech_style": "Giả bộ ăn chơi khéo léo nhưng thực chất thông minh, tôn trọng Mạc Tuyền",
+    "notes": "Người duy nhất thật lòng đối tốt với nữ chính Mạc Tuyền trong nguyên tác"
+  }
+]
