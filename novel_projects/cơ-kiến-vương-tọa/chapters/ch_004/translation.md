@@ -1,14 +1,14 @@
-Chương 4: Luyện thép làm tôi vui sướng
+Chương 4: Luyện thép làm ta vui sướng
 
-Thẩm Khinh Trạch liếc mắt nhìn khoảng đất trống dưới sàn nhà, lại chậm rãi mở miệng: “Anh muốn ngủ dưới sàn cũng được, dưới đó rộng rãi.”
+Thẩm Khinh Trạch liếc mắt nhìn khoảng đất trống dưới sàn nhà, lại chậm rãi mở miệng: “Ngươi muốn ngủ dưới đất cũng được, dưới đó rộng rãi.”
 
-Nhan Túy nheo đôi mắt hẹp dài lại: “Cậu dám để bổn…… để tôi ngủ dưới sàn nhà?!”
+Nhan Túy nheo đôi mắt hẹp dài lại: “Ngươi dám để bản…… để ta ngủ dưới đất?!”
 
-Thẩm Khinh Trạch nhắm mắt lại, hoàn toàn coi sự phẫn nộ của anh ta như không khí: “Đây là phòng của tôi, giường của tôi.”
+Thẩm Khinh Trạch nhắm mắt lại, hoàn toàn coi sự phẫn nộ của y như không khí: “Đây là phòng của ta, giường của ta.”
 
 —— Lại còn dám kén cá chọn canh?
 
-Nhan Túy gắng gượng duy trì chút thể diện cuối cùng: “Tôi là khách đấy.”
+Nhan Túy gắng gượng duy trì chút thể diện cuối cùng: “Ta là khách đấy.”
 
 Thẩm Khinh Trạch: “Khò khò khò……”
 
@@ -16,31 +16,31 @@ Nhan Túy im lặng hồi lâu, cuối cùng cũng chịu khuất phục trướ
 
 Chiếc giường gỗ nhỏ hẹp nhét hai người đàn ông to lớn vào, càng thêm phần chật chội bức bối, không thể nằm ngửa thẳng người, lại không thể quay lưng về phía người lạ, thế là Nhan Túy đành phải quay mặt đối diện với chàng thanh niên.
 
-Trong bóng đêm, ánh mắt dò xét của Nhan Túy nhìn chằm chằm vào góc nghiêng khuôn mặt đối phương, chàng thanh niên đang chìm trong giấc ngủ thở đều đặn và sâu lắng, dường như thật sự chẳng có chút sợ hãi nào như lời anh vừa nói.
+Trong bóng đêm, ánh mắt dò xét của Nhan Túy nhìn chằm chằm vào góc nghiêng khuôn mặt đối phương, chàng thanh niên đang chìm trong giấc ngủ thở đều đặn và sâu lắng, dường như thật sự chẳng có chút sợ hãi nào như lời hắn vừa nói.
 
-Nỗi đau đớn bị lời nguyền giày vò trên cơ thể cùng cơn buồn ngủ liên tục tra tấn lẫn nhau, cuối cùng trong sự kiệt quệ rã rời, anh ta chẳng biết mình đã thiếp đi từ lúc nào……
+Nỗi đau đớn bị lời nguyền giày vò trên cơ thể cùng cơn buồn ngủ liên tục tra tấn lẫn nhau, cuối cùng trong sự kiệt quệ rã rời, y chẳng biết mình đã thiếp đi từ lúc nào……
 
 ※※※
 
 Trời đã sáng rõ.
 
-Con chó trắng lớn ngồi xổm trước cửa phòng, không mấy tình nguyện tiến lại gần, chỉ cảnh giác chăm chú nhìn anh ta.
+Con chó trắng lớn ngồi xổm trước cửa phòng, không mấy tình nguyện tiến lại gần, chỉ cảnh giác chăm chú nhìn y.
 
-“Cậu dậy rồi à?” Dưới chiếc mũ trùm đầu, Nhan Túy khẽ nâng cằm liếc nhìn anh một cái, ho nhẹ một tiếng.
+“Ngươi dậy rồi à?” Dưới chiếc mũ trùm đầu, Nhan Túy khẽ nâng cằm liếc nhìn hắn một cái, ho nhẹ một tiếng.
 
 Thẩm Khinh Trạch liếc nhìn bình thuốc trị liệu phổ thông đã uống cạn trên bàn, chẳng biết có phải ảo giác hay không, những chú văn trên mặt người đàn ông dường như đã mờ đi đôi chút, quả thật không hổ danh là sản phẩm do hệ thống sản xuất.
 
-Anh khoác áo ngoài, xỏ vào đôi ủng da mà con chó trắng lớn tha tới, rửa mặt một cái, rồi từ dưới gối móc ra thanh dao găm bằng sắt tinh luyện.
+Hắn khoác áo ngoài, xỏ vào đôi ủng da mà con chó trắng lớn tha tới, rửa mặt một cái, rồi từ dưới gối móc ra thanh dao găm bằng sắt tinh luyện.
 
 Ánh mắt Nhan Túy dừng lại trên thanh dao găm kia, toàn thân nó đen tuyền, kiểu dáng tinh xảo khác biệt, hai mặt đều có rãnh máu, lưỡi dao lại sắc bén vô cùng, lớp da lông cứng như thép của gấu Kim Cương mà cũng bị nó dễ dàng cắt ngọt tựa như cắt đậu phụ.
 
-Đôi mắt người đàn ông khẽ lóe lên: “Thanh dao găm này là do tiệm rèn nhà cậu đúc sao?”
+Đôi mắt người đàn ông khẽ lóe lên: “Thanh dao găm này là do tiệm rèn nhà ngươi đúc sao?”
 
 Thẩm Khinh Trạch thoáng khựng lại, tùy ý gật đầu một cái, thanh dao găm thoắt cái đã tra vào vỏ, nhanh đến mức Nhan Túy gần như không kịp bắt trọn quỹ đạo chuyển động.
 
 Bên ngoài trời nắng đã lên cao, lão Lý từ sáng sớm đã ra tiệm rèn, trong bếp vẫn còn ủ ấm một chút cháo cám gạo, chàng thanh niên múc cho hai người mỗi người nửa bát.
 
-Nhan Túy ăn thử một thìa, cau mày nói: “Bình thường các cậu toàn ăn thứ này sao?”
+Nhan Túy ăn thử một thìa, cau mày nói: “Bình thường các ngươi toàn ăn thứ này sao?”
 
 Cháo cám gạo đắng chát thô ráp, vừa vào miệng đã lan tỏa một mùi vị kỳ quặc, muối nhạt đến mức gần như không nếm ra vị, ngay cả việc nhai nuốt cũng là một cực hình, chứ đừng nói đến chuyện nuốt trôi xuống cổ họng.
 
@@ -62,9 +62,9 @@ Thẩm Khinh Trạch: “……”
 
 Chân thực đến mức này cơ à?
 
-Hồi đầu khi thiết kế game, cấp trên của anh năm lần bảy lượt yêu cầu bên cân bằng chỉ số phải thêm Mị lực vào như một thuộc tính cơ bản quan trọng, lại còn bắt đội ngũ mỹ thuật phải thiết kế đồ tân thủ sao cho càng xấu càng tốt.
+Hồi đầu khi thiết kế game, cấp trên của hắn năm lần bảy lượt yêu cầu bên cân bằng chỉ số phải thêm Mị lực vào như một thuộc tính cơ bản quan trọng, lại còn bắt đội ngũ mỹ thuật phải thiết kế đồ tân thủ sao cho càng xấu càng tốt.
 
-Bây giờ anh cuối cùng cũng thấm thía sâu sắc tâm địa hiểm độc của họ, không làm như thế thì làm sao dụ dỗ được người chơi điên cuồng nạp tiền mua skin đẹp đẽ chứ?
+Bây giờ hắn cuối cùng cũng thấm thía sâu sắc tâm địa hiểm độc của họ, không làm như thế thì làm sao dụ dỗ được người chơi điên cuồng nạp tiền mua skin đẹp đẽ chứ?
 
 Cửa hàng hệ thống đã sáng lên biểu tượng cấp 1, những món đồ bên trong có thể mua được vẫn còn ít ỏi đến đáng thương.
 
@@ -74,19 +74,19 @@ Lão Lý ở trong thôn có gần 20 mẫu đất đai do tổ tiên để lạ
 
 Ngoài đất đai ra, Cửa hàng cấp 1 còn có hạt giống của các loại cây trồng phổ biến, giá dao động từ 1 đồng xu đến 10 đồng xu.
 
-Thẩm Khinh Trạch lướt nhanh qua danh mục hàng hóa, cuối cùng cũng nhìn thấy muối ăn ở phía cuối, tiếc rằng mức giá 20 đồng xu một hũ nhỏ cùng quy định giới hạn số lượng mua đã dập tắt ngay ý định làm giàu bằng nghề buôn muối của anh.
+Thẩm Khinh Trạch lướt nhanh qua danh mục hàng hóa, cuối cùng cũng nhìn thấy muối ăn ở phía cuối, tiếc rằng mức giá 20 đồng xu một hũ nhỏ cùng quy định giới hạn số lượng mua đã dập tắt ngay ý định làm giàu bằng nghề buôn muối của hắn.
 
-Thẩm Khinh Trạch thầm tính toán trong bụng, chút gia tài còm cõi của anh ngay cả đất nâu trung bình còn mua không nổi, chứ đừng nói đến đất đen màu mỡ.
+Thẩm Khinh Trạch thầm tính toán trong bụng, chút gia tài còm cõi của hắn ngay cả đất nâu trung bình còn mua không nổi, chứ đừng nói đến đất đen màu mỡ.
 
 Sau khi cải tạo đất xong, còn phải tốn tiền mua hạt giống, hạt giống tốt cho năng suất cao giá cả cũng chẳng hề rẻ rúng gì, tương lai còn phải bón phân, làm cỏ, tất cả đều là tiền.
 
 Nghèo đói khiến người ta sầu muộn biết bao.
 
-Ngay lúc anh đang nhíu mày ngẩn ngơ suy nghĩ, Nhan Túy đã nuốt xuống thìa cháo cám cuối cùng, ung dung chậm rãi lau miệng, cứ như thể vừa mới thưởng thức một sơn hào hải vị tuyệt hảo nào đó, chứ không phải một bữa ăn cho lợn.
+Ngay lúc hắn đang nhíu mày ngẩn ngơ suy nghĩ, Nhan Túy đã nuốt xuống thìa cháo cám cuối cùng, ung dung chậm rãi lau miệng, cứ như thể vừa mới thưởng thức một sơn hào hải vị tuyệt hảo nào đó, chứ không phải một bữa ăn cho lợn.
 
-“Ngọn thương của tôi hỏng rồi.” Nhan Túy lấy ra chiếc mũi thương bị gãy lìa kia, trân trọng tỉ mỉ lau chùi, mũi thương cũng được rèn bằng sắt tinh luyện, trong tay người đàn ông tỏa ra hàn quang bốn phía, khắp cả Uyên Lưu Thành này chưa chắc đã tìm ra được mấy thanh như thế.
+“Thương của ta gãy rồi.” Nhan Túy lấy ra chiếc mũi thương bị gãy lìa kia, trân trọng tỉ mỉ lau chùi, mũi thương cũng được rèn bằng sắt tinh luyện, trong tay y tỏa ra hàn quang bốn phía, khắp cả Uyên Lưu Thành này chưa chắc đã tìm ra được mấy thanh như thế.
 
-Nhan Túy ngước mắt nhìn anh: “Tiệm rèn nhà cậu đã có thể rèn ra thanh dao găm sắc bén dường ấy, ắt hẳn cũng có thể đúc cho tôi một ngọn trường thương không thua kém thanh này chứ? Giá cả tùy cậu ra giá.”
+Nhan Túy ngước mắt nhìn hắn: “Tiệm rèn nhà ngươi đã có thể rèn ra thanh dao găm sắc bén dường ấy, ắt hẳn cũng có thể đúc cho ta một ngọn trường thương không thua kém thanh này chứ? Giá cả tùy ngươi ra giá.”
 
 Dao găm?
 
@@ -102,9 +102,9 @@ Lời từ chối vừa lên tới miệng lập tức bị nuốt ngược tr�
 
 Tiệm rèn Lý gia.
 
-“Cái gì? Cậu hứa hẹn rèn cho người ta một ngọn trường thương bằng thép tinh luyện ư?!” Hai mắt lão Lý trừng to hơn cả chuông đồng, “Thương sắt thông thường thì còn được, tôi bỏ ra mười ngày nửa tháng cũng có thể mài giũa được, nhưng loại binh khí thượng hạng bực ấy, tương truyền chỉ có các đại sư rèn đúc của Đế quốc Đại Hạ và Thương minh Bích Không mới có bản lĩnh chế tạo thôi! Một lão thợ rèn rách rưới như tôi, đào đâu ra bản lĩnh đúc được thép tinh luyện chứ?”
+“Cái gì? Con hứa hẹn rèn cho người ta một ngọn trường thương bằng thép tinh luyện ư?!” Hai mắt lão Lý trừng to hơn cả chuông đồng, “Thương sắt thông thường thì còn được, ta bỏ ra mười ngày nửa tháng cũng có thể mài giũa được, nhưng loại binh khí thượng hạng bực ấy, tương truyền chỉ có các đại sư rèn đúc của Đế quốc Đại Hạ và Thương minh Bích Không mới có bản lĩnh chế tạo thôi! Một lão thợ rèn rách rưới như ta, đào đâu ra bản lĩnh đúc được thép tinh luyện chứ?”
 
-Lão Lý nghĩ tới nghĩ lui, vẫn nhăn nhó mặt mày xua tay lia lịa: “Không được, không được đâu, số tiền này chúng ta không kiếm nổi đâu, cậu vẫn nên mau quay về nói rõ ràng với người ta đi……”
+Lão Lý nghĩ tới nghĩ lui, vẫn nhăn nhó mặt mày xua tay lia lịa: “Không được, không được đâu, số tiền này chúng ta không kiếm nổi đâu, con vẫn nên mau quay về nói rõ ràng với người ta đi……”
 
 Thẩm Khinh Trạch nheo mắt nhìn ngọn lửa lò đang cháy bừng bừng đỏ rực, ánh mắt sáng ngời: “Cháu có một cách, có thể thử xem sao.”
 
@@ -124,7 +124,7 @@ Ngoài việc được tặng sẵn bùa lợi 【Dân phong bưu hãn】, các 
 
 Nhưng điều này không có nghĩa là Uyên Lưu Thành rất giàu có, trái lại hoàn toàn, sự nghèo đói của tòa thành này cũng nổi tiếng chẳng kém gì những khối quặng thô mà nó sản xuất ra.
 
-Thẩm Khinh Trạch hoàn hồn sau dòng suy nghĩ, thầm gọi ra giao diện hệ thống, trong danh mục kỹ năng sinh hoạt hoa cả mắt, anh không chút do dự lựa chọn chuyên môn rèn đúc.
+Thẩm Khinh Trạch hoàn hồn sau dòng suy nghĩ, thầm gọi ra giao diện hệ thống, trong danh mục kỹ năng sinh hoạt hoa cả mắt, hắn không chút do dự lựa chọn chuyên môn rèn đúc.
 
 【Hệ thống: Chúc mừng người chơi nhận được một kỹ năng chuyên môn sinh hoạt, từ đây bước lên con đường dùng búa sắt làm chấn động thế giới!】
 
@@ -146,9 +146,9 @@ Thẩm Khinh Trạch dành trọn cả một ngày trời, đi khắp nơi gom g
 
 Công tác chuẩn bị đã đâu vào đấy, mang theo điểm cộng của kỹ năng chuyên môn, Thẩm Khinh Trạch dưới sự trợ giúp của lão Lý chính thức bắt tay vào thử nghiệm rèn mũi thương.
 
-Là một kỹ sư IT, anh vốn chẳng am hiểu nhiều về kỹ thuật luyện sắt luyện thép, chỉ nắm được nguyên lý đại khái mà thôi.
+Là một kỹ sư IT, hắn vốn chẳng am hiểu nhiều về kỹ thuật luyện sắt luyện thép, chỉ nắm được nguyên lý đại khái mà thôi.
 
-Nhờ có hệ thống game đóng vai trò trợ thủ đắc lực siêu cấp, anh chỉ cần làm theo từng bước một, nhìn gợi ý để hoàn thành các công đoạn then chốt, thông qua việc không ngừng luyện tập nâng cao độ thuần thục kỹ năng nhằm gia tăng tỷ lệ thành công.
+Nhờ có hệ thống game đóng vai trò trợ thủ đắc lực siêu cấp, hắn chỉ cần làm theo từng bước một, nhìn gợi ý để hoàn thành các công đoạn then chốt, thông qua việc không ngừng luyện tập nâng cao độ thuần thục kỹ năng nhằm gia tăng tỷ lệ thành công.
 
 Dẫu sao người chơi cũng chỉ đến để trải nghiệm niềm vui của thế giới game dị thứ nguyên, chứ không phải đến game để học ngành luyện kim.
 
@@ -170,9 +170,9 @@ Quặng sắt do mỏ quặng gần Uyên Lưu Thành sản xuất ra có phẩm
 
 Lò cao dùng than đá làm nhiên liệu, tuy không bằng than cốc, nhưng nhiệt độ ít nhất cũng cao hơn than củi rất nhiều.
 
-Thẩm Khinh Trạch đứng trước ống thụt bễ ra sức kéo bễ, anh mặc một bộ đồ cộc tay bằng vải gai, để lộ hai cánh tay thon dài hữu lực. Mỗi lần kéo đẩy ống bễ liên tục, cánh tay co duỗi lại gồ lên những đường nét cơ bắp săn chắc mượt mà.
+Thẩm Khinh Trạch đứng trước ống thụt bễ ra sức kéo bễ, hắn mặc một bộ đồ cộc tay bằng vải gai, để lộ hai cánh tay thon dài hữu lực. Mỗi lần kéo đẩy ống bễ liên tục, cánh tay co duỗi lại gồ lên những đường nét cơ bắp săn chắc mượt mà.
 
-Nhiệt độ bốc lên hầm hập hun ra một lớp mồ hôi mỏng manh, nhuộm làn da vốn dĩ trắng trẻo của anh thành một màu mật ong quyến rũ.
+Nhiệt độ bốc lên hầm hập hun ra một lớp mồ hôi mỏng manh, nhuộm làn da vốn dĩ trắng trẻo của hắn thành một màu mật ong quyến rũ.
 
 Chẳng biết từ lúc nào, một bóng đen hoàn toàn lạc lõng với ánh mặt trời bỗng nhiên xuất hiện ở cách đó không xa.
 
@@ -180,15 +180,15 @@ Nhan Túy gập một chân lại, nghiêng người ngồi tựa lên bức tư
 
 Dưới chiếc mũ trùm đầu, tóc mái che khuất vầng trán, mái tóc dài đen nhánh được buộc cao phía sau đầu, rủ xuống ngang vai.
 
-Trên mặt anh ta đeo một chiếc khẩu trang, che kín hơn nửa khuôn mặt, chỉ để lộ hai con mắt sắc bén sâu thẳm, những dấu vết chú thuật quanh khóe mắt đã mờ đi trông thấy.
+Trên mặt y đeo một chiếc khẩu trang, che kín hơn nửa khuôn mặt, chỉ để lộ hai con mắt sắc bén sâu thẳm, những dấu vết chú thuật quanh khóe mắt đã mờ đi trông thấy.
 
 Người đàn ông tùy ý vươn vai thư giãn tứ chi, dáng vẻ thong dong nhàn nhã, tựa như một con báo đen đang nằm sưởi nắng, lười biếng tản mạn, đem toàn bộ sát khí giấu kín dưới bộ quân phục màu đen.
 
-Khẩu trang là do Thẩm Khinh Trạch đêm qua tiện tay dùng vải thừa khâu cho anh ta, tuy không mấy thoáng khí, nhưng dẫu sao cũng che bớt được cái diện mạo dọa khóc trẻ con kia.
+Khẩu trang là do Thẩm Khinh Trạch đêm qua tiện tay dùng vải thừa khâu cho y, tuy không mấy thoáng khí, nhưng dẫu sao cũng che bớt được cái diện mạo dọa khóc trẻ con kia.
 
 Đương nhiên, khẩu trang cũng phải tính tiền.
 
-Anh Thẩm đây tuyệt đối sẽ không bỏ qua bất kỳ cơ hội nào để moi tiền từ túi của kim chủ.
+Thẩm gia đây tuyệt đối sẽ không bỏ qua bất kỳ cơ hội nào để moi tiền từ túi của kim chủ.
 
 Lửa lò dưới sự bơm gió liên tục không ngừng càng cháy càng thêm dữ dội, sức lực của một mình Thẩm Khinh Trạch vậy mà làm ra hiệu quả bằng hai ba người đàn ông trưởng thành cộng lại.
 
@@ -198,27 +198,27 @@ Nếu đổi thành đám công tử quý tộc trong thành…… Nhan Túy nhe
 
 Thẩm Khinh Trạch vô tình quay đầu lại, vừa vặn chạm phải ánh mắt của người đàn ông đang nhìn sang, trong đáy mắt mang theo sự tò mò đầy hứng thú.
 
-Khoảnh khắc hai người chạm mắt nhau, Nhan Túy chẳng hề có chút chột dạ nào của kẻ nhìn lén bị bắt quả tang, trái lại còn dạn dĩ đón nhận ánh nhìn, đường hoàng đàng hoàng nhìn chằm chằm vào anh.
+Khoảnh khắc hai người chạm mắt nhau, Nhan Túy chẳng hề có chút chột dạ nào của kẻ nhìn lén bị bắt quả tang, trái lại còn dạn dĩ đón nhận ánh nhìn, đường hoàng đàng hoàng nhìn chằm chằm vào hắn.
 
-Động tác trên tay Thẩm Khinh Trạch không hề dừng lại, nhìn anh ta khẽ nhíu mày: “Anh ngồi ở đó làm gì?”
+Động tác trên tay Thẩm Khinh Trạch không hề dừng lại, nhìn y khẽ nhíu mày: “Ngươi ngồi ở đó làm gì?”
 
-Nhan Túy thong thả nói: “Với tư cách là người thuê, tôi không thể tới thị sát tiến độ công việc của các cậu sao?”
+Nhan Túy thong thả nói: “Với tư cách là cố chủ, ta không thể tới thị sát tiến độ công việc của các ngươi sao?”
 
-Tầm mắt Nhan Túy rơi vào chiếc xẻng sắt dính đầy tro than đen sì bẩn thỉu, tựa như vừa nghe thấy một câu chuyện cười nào đó buồn cười lắm: “Cậu vậy mà dám bảo người thuê làm việc hộ cậu à? Tôi đã trả một món tiền lớn rồi đấy nhé.”
+Tầm mắt Nhan Túy rơi vào chiếc xẻng sắt dính đầy tro than đen sì bẩn thỉu, tựa như vừa nghe thấy một câu chuyện cười nào đó buồn cười lắm: “Ngươi vậy mà dám bảo cố chủ làm việc hộ ngươi à? Ta đã trả một món tiền lớn rồi đấy nhé.”
 
-Thẩm Khinh Trạch mặt không cảm xúc, dùng giọng điệu kể lể phẳng lặng, từ từ điểm lại từng món nợ của đối phương: “Anh ở nhà tôi, ngủ giường tôi, ăn gạo của tôi, lại còn uống thuốc của tôi nữa——”
+Thẩm Khinh Trạch mặt không cảm xúc, dùng giọng điệu kể lể phẳng lặng, từ từ điểm lại từng món nợ của đối phương: “Ngươi ở nhà ta, ngủ giường ta, ăn gạo của ta, lại còn uống thuốc của ta nữa——”
 
-Nói tới đây, anh hơi khựng lại một nhịp, đặc biệt nhấn mạnh từng chữ: “Đều, chưa, trả, tiền.”
+Nói tới đây, hắn hơi khựng lại một nhịp, đặc biệt nhấn mạnh từng chữ: “Đều, chưa, trả, tiền.”
 
 Nhan Túy: “……”
 
-Lúc ra khỏi nhà anh ta không mang theo quá nhiều tiền, số tiền vàng duy nhất đều đã đưa hết cho Thẩm Khinh Trạch để đúc trường thương rồi.
+Lúc ra khỏi nhà y không mang theo quá nhiều tiền, số tiền vàng duy nhất đều đã đưa hết cho Thẩm Khinh Trạch để đúc trường thương rồi.
 
 Thẩm Khinh Trạch dùng ánh mắt khiển trách nhìn đối phương —— Đừng có hòng ăn chực ở chùa.
 
 Lần này thì ngượng ngùng rồi.
 
-Lão Lý vội vàng giật lấy chiếc xẻng sắt chạy ra hòa giải: “Để tôi xúc than cho, lượng than này phải bỏ vào có chừng có mực đấy.”
+Lão Lý vội vàng giật lấy chiếc xẻng sắt chạy ra hòa giải: “Để ta xúc than cho, lượng than này phải bỏ vào có chừng có mực đấy.”
 
 Con chó trắng lớn ngồi xổm dưới đất dùng đuôi quét quét bắp chân chàng thanh niên, vô cùng thông minh há miệng cắn lấy tay cầm của ống bễ, vậy mà phụ giúp chủ nhân cùng nhau thụt bễ.
 
@@ -226,9 +226,9 @@ Lão Lý chết sững tại chỗ, con chó giữ nhà của mình vậy mà c�
 
 Thẩm Khinh Trạch không phải chưa từng nghĩ tới việc dùng trâu ngựa hay sức nước để nâng cao hiệu suất thụt bễ, nhưng vừa tính toán chi phí, chàng thanh niên hai bàn tay trắng lập tức quyết định, thôi thì để sau này hãy tính tiếp.
 
-Nhưng anh vạn vạn lần không ngờ tới, con chó của anh lại có thể đem ra làm sức lao động được.
+Nhưng hắn vạn vạn lần không ngờ tới, con chó của hắn lại có thể đem ra làm sức lao động được.
 
-Thế là anh hài lòng xoa xoa đầu chó A Bạch: “Ngay cả chó cũng hiểu đạo lý không làm thì không có ăn, tối nay thưởng thêm thức ăn cho mày.”
+Thế là hắn hài lòng xoa xoa đầu chó A Bạch: “Ngay cả chó cũng hiểu đạo lý không làm thì không có ăn, tối nay thưởng thêm thức ăn cho mày.”
 
 Nhan Túy đột nhiên cảm giác mình như bị đá đểu: “……”
 
@@ -238,9 +238,9 @@ Dòng nước sắt đỏ rực nóng rực từ từ rót đầy vào khuôn, n
 
 Thẩm Khinh Trạch hoài nghi nhiệt độ ở đây ít nhất cũng phải tới năm mươi độ.
 
-Anh lau mồ hôi, túm lấy vạt áo, dứt khoát cởi phăng áo ngoài ra, để lộ lồng ngực săn chắc cùng những múi cơ bụng rắn rỏi khỏe khoắn.
+Hắn lau mồ hôi, túm lấy vạt áo, dứt khoát cởi phăng áo ngoài ra, để lộ lồng ngực săn chắc cùng những múi cơ bụng rắn rỏi khỏe khoắn.
 
-Đột nhiên sực nhớ ra điều gì đó, anh quay đầu lại, quả nhiên người đàn ông trên bờ tường đất đang nhìn chằm chằm càng thêm hăng say.
+Đột nhiên sực nhớ ra điều gì đó, hắn quay đầu lại, quả nhiên người trên bờ tường đất đang nhìn chằm chằm càng thêm hăng say.
 
 “……” Thẩm Khinh Trạch ngoảnh đầu lại, rồi lặng lẽ mặc áo vào như cũ.
 
@@ -248,4 +248,4 @@ Tác giả có lời muốn nói:　　Nhan: Dịch vụ của các người kh�
 
 Thẩm: Hừ hừ.
 
-Nếu còn chỗ nào có từ ngữ bị che khuất kỳ lạ mà tôi chưa phát hiện, cứ để lại bình luận nhé!
+Nếu còn chỗ nào có từ ngữ bị che khuất kỳ lạ mà tác giả chưa phát hiện, cứ để lại bình luận nhé!

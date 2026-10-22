@@ -20,15 +20,15 @@ Dù có hệ thống hướng dẫn hỗ trợ, chỉ mới làm lụng ngoài �
 
 “Cơ giới hóa còn xa xôi diệu vợi, sức lao động đành phải ngược xuôi tìm kiếm vậy…”
 
-“Tiểu ca họ Thẩm ơi, giờ cậu trồng lúa mì thì mùa đông sống sao nổi! Trồng cũng chỉ phí công vô ích thôi!”
+“Thẩm tiểu ca ơi, giờ ngươi trồng lúa mì thì mùa đông sống sao nổi! Trồng cũng chỉ uổng công vô ích thôi!”
 
-“Lão Lý không bảo cho cậu biết trước khi mùa đông tới sẽ có thú triều sao? Giờ cậu càng trồng nhiều, đến lúc đó lại càng chui hết vào bụng yêu thú với thú nô thôi!”
+“Lão Lý không bảo cho ngươi biết trước khi mùa đông tới sẽ có thú triều sao? Giờ ngươi càng trồng nhiều, đến lúc đó lại càng chui hết vào bụng yêu thú với thú nô thôi!”
 
 “Tiểu ca họ Thẩm da dẻ mịn màng thế kia, nhìn một cái là biết chẳng phải người làm việc nặng rồi!”
 
-“Cứ đợi cậu ta đâm đầu vào tường một lần là hiểu lòng tốt nhắc nhở của chúng ta ngay ấy mà!”
+“Cứ đợi hắn đâm đầu vào tường một lần là hiểu lòng tốt nhắc nhở của chúng ta ngay ấy mà!”
 
-Thẩm Khinh Trạch chẳng hề để tâm đến những lời bông đùa này, trong lòng chỉ mải miết suy tính cách giải quyết vấn đề sức lao động. Chỉ dựa vào một mình anh là điều bất khả thi, nhìn thái độ của những người dân làng khác, dẫu anh có đem hạt giống tặng không cho họ thì họ cũng chưa chắc đã tin hoa màu này có thể sống qua mùa đông.
+Thẩm Khinh Trạch chẳng hề để tâm đến những lời bông đùa này, trong lòng chỉ mải miết suy tính cách giải quyết vấn đề sức lao động. Chỉ dựa vào một mình hắn là điều bất khả thi, nhìn thái độ của những người dân làng khác, dẫu hắn có đem hạt giống tặng không cho họ thì họ cũng chưa chắc đã tin hoa màu này có thể sống qua mùa đông.
 
 Giá lương thực trong thành vẫn đang tiếp tục leo thang, rõ ràng tổn thất do đợt thú nhân tập kích lần trước là vô cùng nghiêm trọng.
 
@@ -36,21 +36,21 @@ Một khi chúng lại kéo đến cướp bóc thêm lần nữa, Thẩm Khinh 
 
 Thẩm Khinh Trạch đang vác cuốc nhíu mày trầm tư, cuối cùng cũng hoàn hồn lại sau tiếng gọi của Lão Lý.
 
-Ông lão dáng người thấp bé đứng dưới bóng cây vẫy tay gọi anh, con chó trắng lớn ngoan ngoãn ngồi xổm một bên vẫy vẫy đuôi.
+Ông lão dáng người thấp bé đứng dưới bóng cây vẫy tay gọi hắn, con chó trắng lớn ngoan ngoãn ngồi xổm một bên vẫy vẫy đuôi.
 
-“Không cần trông tiệm sao ạ?” Thẩm Khinh Trạch nhận lấy ống tre uống một ngụm nước, A Bạch từ trong giỏ ngậm ra một mảnh vải sạch đưa cho anh lau mồ hôi.
+“Không cần trông tiệm sao ạ?” Thẩm Khinh Trạch nhận lấy ống tre uống một ngụm nước, A Bạch từ trong giỏ ngậm ra một mảnh vải sạch đưa cho hắn lau mồ hôi.
 
 Lão Lý đặt cây gậy chống trong tay xuống, mở hộp cơm hai tầng bằng tre nứa trong giỏ ra, tầng dưới đặc biệt đựng nước nóng nên cơm canh vẫn còn ấm: “Không cần đâu, nghĩ bụng con cả ngày chưa ăn gì. Nào, đừng bận rộn nữa, ngần này đất không phải làm một ngày là xong đâu.”
 
 Thẩm Khinh Trạch bưng hộp cơm tre, hạt gạo căng tròn thơm ngát, có trứng có rau, thậm chí còn có một chút thịt lạp xưởng kho bóng nhẫy dầu.
 
-Anh ăn hai miếng, chợt liếc thấy Lão Lý vẫn đang ăn cám gạo trộn dưa muối.
+Hắn ăn hai miếng, chợt liếc thấy Lão Lý vẫn đang ăn cám gạo trộn dưa muối.
 
 Thẩm Khinh Trạch nhíu mày: “Lần trước bán súng thép kiếm được một món tiền, con chẳng phải đã mua không ít gạo mì cùng thịt thà rồi sao, sao người vẫn ăn thứ này, vừa không có dinh dưỡng lại khó tiêu hóa.”
 
 “Trong vại còn thừa một chút, không ăn chẳng phải lãng phí sao?” Lão Lý cười híp mắt nhai dưa muối, “Từ ngày có con ở đây, trong nhà đã dễ thở hơn nhiều rồi. Giờ hai ông cháu mình vừa có tiệm vừa có ruộng, ngày sau cuộc sống sẽ ngày càng khấm khá hơn. Đến lúc đó, cám gạo dưa muối muốn ăn cũng chẳng có mà ăn đâu.”
 
-Trái tim Thẩm Khinh Trạch như bị chạm vào một nơi mềm mại, anh bưng lại hộp cơm, ăn thêm hai miếng, không nhịn được bèn hỏi: “Những dân làng khác đều khuyên con đừng uổng phí công sức, sao người không khuyên con?”
+Trái tim Thẩm Khinh Trạch như bị chạm vào một nơi mềm mại, hắn bưng lại hộp cơm, ăn thêm hai miếng, không nhịn được bèn hỏi: “Những dân làng khác đều khuyên con đừng uổng phí công sức, sao người không khuyên con?”
 
 Lão Lý dùng ngón tay gầy guộc chỉ về phía mảnh ruộng đen rộng lớn trống trải trước mặt, nụ cười hiền hậu: “Ta biết đứa nhỏ như con trong lòng có chủ ý riêng, là lũ người kia thiển cận không hiểu biết thôi. Một khi đã quyết chí thì cứ làm đi, nếu con làm không xuể thì cứ nói một tiếng, bộ xương già này của ta vẫn còn có thể vận động gân cốt đôi chút.”
 
@@ -58,7 +58,7 @@ Thẩm Khinh Trạch cười lắc đầu, lại nghe Lão Lý tiếp tục vui 
 
 “Khụ khụ…” Thẩm Khinh Trạch sặc mạnh một ngụm nước, dở khóc dở cười ngắt lời ông, “Người nghĩ xa quá rồi đấy ạ.”
 
-Lão Lý cười tít mắt không nói gì, chỉ lấy bàn tay đầy vết chai sạn vỗ nhẹ lên vai anh.
+Lão Lý cười tít mắt không nói gì, chỉ lấy bàn tay đầy vết chai sạn vỗ nhẹ lên vai hắn.
 
 Thẩm Khinh Trạch xoa xoa sống mũi hơi cay, thầm nghĩ nếu nói cho ông lão biết bản thân chẳng hề có chút hứng thú nào với việc kết hôn cùng nữ giới, liệu có bị đánh gãy chân không?
 
@@ -90,13 +90,13 @@ Một tấm biển viết không xuể, Thẩm Khinh Trạch nghĩ ngợi một 
 
 Biển quảng cáo vừa treo lên chưa được bao lâu, đã có khách đi ngang qua bị “ưu đãi cực khủng” thu hút, túm năm tụm ba bước tới xem xét.
 
-Một người chen vào, chọn tới chọn lui trên sạp: “Tiệm rèn họ Lý? Hình như không phải tiệm sắt trong thành, đồ sắt nhà cậu dùng có tốt không đấy?”
+Một người chen vào, chọn tới chọn lui trên sạp: “Tiệm rèn họ Lý? Hình như không phải tiệm sắt trong thành, đồ sắt nhà ngươi dùng có tốt không đấy?”
 
-Thẩm Khinh Trạch đã sớm chuẩn bị cho điều này, liền khiêng một tấm sắt thô mỏng đã đúc sẵn ra đặt cố định trên khoảng đất trống trước sạp hàng, thản nhiên nói: “Khách quan có thể tùy ý chọn một món đồ sắt bất kỳ, cứ việc đập thẳng vào tấm sắt này, nếu đập hỏng đồ sắt thì tôi tặng không cho ông.”
+Thẩm Khinh Trạch đã sớm chuẩn bị cho điều này, liền khiêng một tấm sắt thô mỏng đã đúc sẵn ra đặt cố định trên khoảng đất trống trước sạp hàng, thản nhiên nói: “Khách quan có thể tùy ý chọn một món đồ sắt bất kỳ, cứ việc đập thẳng vào tấm sắt này, nếu đập hỏng đồ sắt thì ta tặng không cho các hạ.”
 
 “Thật hay giả đấy?” Đám đông vây xem ồ lên kinh ngạc, trong chớp mắt lại thu hút thêm nhiều cư dân dừng chân dõi mắt nhìn sang, suýt chút nữa đã vây kín sạp hàng của thanh niên đến mức nước chảy không lọt.
 
-“Để tôi thử!” Vị khách nghi ngờ đầu tiên lập tức tranh lấy một chiếc rìu sắt, hai tay nắm chặt cán rìu, dùng hết sức bình sinh giáng mạnh xuống tấm sắt!
+“Để ta thử!” Vị khách nghi ngờ đầu tiên lập tức tranh lấy một chiếc rìu sắt, hai tay nắm chặt cán rìu, dùng hết sức bình sinh giáng mạnh xuống tấm sắt!
 
 “Choang” một tiếng, tấm sắt thô mỏng gãy gập theo tiếng va chạm!
 
@@ -104,19 +104,19 @@ Vị khách nọ trợn tròn hai mắt: “Đồ sắt tốt thật đấy!”
 
 “Thôn Mộc Gia, ngoại ô thành.” Giọng Thẩm Khinh Trạch không lớn không nhỏ, vừa vặn để đám người vây xem ở vòng trong nghe thấy rõ ràng.
 
-“Tiệm rèn họ Lý, thôn Mộc Gia ngoại ô thành, tôi nhớ kỹ rồi.”
+“Tiệm rèn họ Lý, thôn Mộc Gia ngoại ô thành, ta nhớ kỹ rồi.”
 
-Người nọ dõng dạc lặp lại tên cửa tiệm một lần thật to, móc túi tiền ra chuẩn bị thanh toán, nào ngờ lại nghe Thẩm Khinh Trạch nói: “Ông là vị khách đầu tiên mở hàng hôm nay, có thể hưởng ưu đãi giảm giá nửa giá.”
+Người nọ dõng dạc lặp lại tên cửa tiệm một lần thật to, móc túi tiền ra chuẩn bị thanh toán, nào ngờ lại nghe Thẩm Khinh Trạch nói: “Các hạ là vị khách đầu tiên mở hàng hôm nay, có thể hưởng ưu đãi giảm nửa giá.”
 
 Đám đông lại dấy lên một hồi bàn tán đầy ngưỡng mộ, lập tức có người thứ hai không kìm được cất tiếng hỏi: “Người mua thứ hai cũng có giảm giá chứ?”
 
 Thẩm Khinh Trạch lập tức bổ sung: “Người thứ hai giảm 20%, người thứ ba giảm 10%.”
 
-“Tôi! Tôi là người thứ hai!”
+“Ta! Ta là người thứ hai!”
 
-“Rõ ràng là tôi tới trước, anh xếp hàng đi!”
+“Rõ ràng là ta tới trước, ngươi xếp hàng đi!”
 
-“Tôi mua ba món, có được giảm giá không!”
+“Ta mua ba món, có được giảm giá không!”
 
 Trước sạp hàng nhỏ cảnh tượng vô cùng náo nhiệt hừng hực, hút gần như quá nửa lượng khách của khu chợ vốn chẳng mấy sầm uất về phía mình, tương phản hoàn toàn với cảnh vắng hoe như chùa bà Đanh của các sạp hàng khác.
 
@@ -136,7 +136,7 @@ Thẩm Khinh Trạch không nói gì, chỉ khẽ nheo mắt im lặng nhìn đ�
 
 “Lão tử làm nghề này mười mấy năm rồi, sắt thép ra lò thế nào mọi người đều thấy rõ, chưa từng thấy đồ nào rẻ như thế này bao giờ, nhìn là biết thứ hàng làm dối làm ẩu! Mọi người tuyệt đối đừng trúng kế của thằng nhãi này!”
 
-Đồ sắt chất lượng cao vốn đắt đỏ, không hề phổ biến, phần lớn trên thị trường đều được đúc từ gang thô. Trước khi Thẩm Khinh Trạch đẩy xe ba gác tới bày sạp, toàn bộ khu chợ phía đông này chỉ có duy nhất một tiệm rèn đối diện kia, giá bán lại cao gấp đôi giá của anh.
+Đồ sắt chất lượng cao vốn đắt đỏ, không hề phổ biến, phần lớn trên thị trường đều được đúc từ gang thô. Trước khi Thẩm Khinh Trạch đẩy xe ba gác tới bày sạp, toàn bộ khu chợ phía đông này chỉ có duy nhất một tiệm rèn đối diện kia, giá bán lại cao gấp đôi giá của hắn.
 
 Mấy người vừa định móc tiền ra lập tức do dự, ánh mắt đảo qua đảo lại giữa vị khách hàng đầu tiên và Thẩm Khinh Trạch: “Lẽ nào đúng là chim mồi thật?”
 
@@ -146,13 +146,13 @@ Gã làm công đắc chí dùng đầu nhọn của lưỡi rìu chỉ thẳng 
 
 Thẩm Khinh Trạch lười đôi co võ mồm với gã, nghe đối phương phun ra cả đống lời nhảm nhí, trong lòng dần dâng lên chút thiếu kiên nhẫn.
 
-Anh tiện tay chọn một chiếc rìu có kích cỡ tương đương, ước lượng trong tay, thản nhiên nói: “Tai nghe là giả, mắt thấy mới là thật. Chất lượng đồ sắt nhà tôi thế nào, cứ so thử một phen chẳng phải sẽ rõ ngay sao?”
+Hắn tiện tay chọn một chiếc rìu có kích cỡ tương đương, ước lượng trong tay, thản nhiên nói: “Tai nghe là giả, mắt thấy mới là thật. Chất lượng đồ sắt nhà ta thế nào, cứ so thử một phen chẳng phải sẽ rõ ngay sao?”
 
 Khu chợ đã lâu lắm rồi không có chuyện mới mẻ thế này, đám đông vây xem lũ lượt lùi lại vài bước, sợ bị vạ lây nhưng lại không nỡ bỏ đi, tiếng bàn tán xôn xao càng kéo thêm nhiều người đi đường dừng bước.
 
 “Kìa, Kim đại ca! Đại ca nhìn mau! Đó chẳng phải là thằng nhãi hôm nọ cầm dao chặt đe dọa chúng ta, lấy mất giấy nợ của lão già sao!”
 
-Trong đám đông, ba gã to con tụ lại một chỗ, ánh mắt bất thiện săm soi Thẩm Khinh Trạch cùng sạp hàng nhỏ của anh. Giữa biển người chen chúc, duy chỉ có xung quanh ba tên bọn chúng là trống trải, chẳng ai muốn lại gần mấy tên lưu manh này.
+Trong đám đông, ba gã to con tụ lại một chỗ, ánh mắt bất thiện săm soi Thẩm Khinh Trạch cùng sạp hàng nhỏ của hắn. Giữa biển người chen chúc, duy chỉ có xung quanh ba tên bọn chúng là trống trải, chẳng ai muốn lại gần mấy tên lưu manh này.
 
 “Nghe nói tiệm rèn này có quan hệ với xưởng quặng sắt trong thành, bằng không sao có thể độc quyền ở khu chợ phía đông nhiều năm như vậy chứ? Thằng nhãi ranh không biết trời cao đất rộng, lại dám đứng ngay trước cửa nhà người ta mà cản đường tài lộ!”
 
@@ -170,11 +170,11 @@ Kim Đại đảo mắt xem thường: “Ngu thế? Như vậy thì chỗ dựa
 
 Phía bên kia, nghe thấy Thẩm Khinh Trạch đưa ra yêu cầu so tài, gã làm công tiệm sắt cười khẩy: “Tấm sắt phế phẩm mỏng dính như giấy của mày dùng để diễn trò ấy à? Có bao nhiêu tao bổ nát bấy nhiêu.”
 
-“Không.” Thẩm Khinh Trạch chậm rãi nói, “Ý tôi là, chúng ta dùng rìu chém thẳng vào nhau, sau đó kiểm tra vết mẻ, bên nào hơn bên nào kém chẳng phải sẽ rõ như ban ngày sao?”
+“Không.” Thẩm Khinh Trạch chậm rãi nói, “Ý của ta là, chúng ta dùng rìu chém thẳng vào nhau, sau đó kiểm tra vết mẻ, bên nào hơn bên nào kém chẳng phải sẽ rõ như ban ngày sao?”
 
 Gã làm công sững người, nhíu mày: “Rìu này của tao là rìu mới đúc, 10 đồng bạc một cây, làm hỏng mày đền nổi không?”
 
-Thẩm Khinh Trạch thong thả xắn tay áo lên đến khuỷu tay, thản nhiên nói: “Xem ra anh đối với chất lượng đồ sắt nhà mình chẳng có chút tự tin nào cả.”
+Thẩm Khinh Trạch thong thả xắn tay áo lên đến khuỷu tay, thản nhiên nói: “Xem ra ngươi đối với chất lượng đồ sắt nhà mình chẳng có chút tự tin nào cả.”
 
 Đám đông vang lên tràng cười rộ rải rác, sắc mặt gã làm công thoắt cái tối sầm lại: “So thì so, tao sợ mày chắc? Tao mà bổ một rìu xuống, e là hai tay mày còn chẳng cầm nổi cán rìu ấy chứ!”
 
@@ -194,9 +194,9 @@ Gã làm công bị chấn lùi lại hai bước, vừa kinh vừa giận, khi 
 
 Quả nhiên, trên lưỡi rìu vốn nguyên vẹn trong tay Thẩm Khinh Trạch đã xuất hiện một vết mẻ, tuy không quá lớn nhưng có thể nhìn thấy rõ bằng mắt thường.
 
-Anh nhẹ nhàng miết ngón tay lên vết mẻ trên lưỡi rìu, hơi tiếc nuối lắc đầu, dẫu sao cũng chỉ là thép cacbon thấp, chất lượng vẫn còn kém một chút.
+Hắn nhẹ nhàng miết ngón tay lên vết mẻ trên lưỡi rìu, hơi tiếc nuối lắc đầu, dẫu sao cũng chỉ là thép cacbon thấp, chất lượng vẫn còn kém một chút.
 
-Anh còn chưa dứt lời thì nhận ra đám đông vây xem xung quanh đang chỉ trỏ về phía mình với ánh mắt vô cùng kỳ quặc, cúi đầu nhìn lại——
+Hắn còn chưa dứt lời thì nhận ra đám đông vây xem xung quanh đang chỉ trỏ về phía mình với ánh mắt vô cùng kỳ quặc, cúi đầu nhìn lại——
 
 Rìu của gã làm công từ chỗ va chạm đã nứt toác ra một rãnh lớn! Những vết rạn chằng chịt lan khắp hơn nửa thân rìu, gã vừa khẽ lắc một cái thì một mảnh sắt vụn liền rơi rụng xuống đất cái “cạch”!
 
@@ -220,7 +220,7 @@ Mạc lão bản chắp tay sau lưng chậm rãi tản bộ tới trước sạ
 
 Thân dao được mài vô cùng nhẵn bóng, ánh lên sắc kim loại sáng loáng, sống dao dày mà lưỡi dao lại mỏng, vừa có độ dẻo dai lại vừa có độ cứng rắn, hoàn toàn khác biệt với những con dao sắt tầm thường ngoài chợ, người trong nghề vừa nhìn là biết ngay đây là một thanh đao tốt hiếm có.
 
-Mạc lão bản càng ngắm càng yêu thích, khi ngước mắt nhìn về phía Thẩm Khinh Trạch bèn lộ ra một nụ cười hòa nhã: “Tiểu huynh đệ, những đồ sắt này là do sư phụ trong tiệm của cậu rèn ra phải không?”
+Mạc lão bản càng ngắm càng yêu thích, khi ngước mắt nhìn về phía Thẩm Khinh Trạch bèn lộ ra một nụ cười hòa nhã: “Tiểu huynh đệ, những đồ sắt này là do sư phụ trong tiệm của ngươi rèn ra phải không?”
 
 Thẩm Khinh Trạch gật đầu: “Đúng vậy.”
 
@@ -230,13 +230,13 @@ Khi ánh mắt ông ta chuyển sang gã làm công đang xách cây rìu vỡ �
 
 “Đồ sắt thượng đẳng thế này mà ngươi cũng không nhận ra? Ta giữ ngươi lại thì có tích sự gì chứ? Còn không mau qua đây xin lỗi tiểu huynh đệ này đi!”
 
-Gã làm công mặt mày đau khổ, miễn cưỡng lê bước tới trước mặt Thẩm Khinh Trạch, cúi người xin lỗi: “Là tôi có mắt không tròng, đắc tội với tiểu huynh đệ rồi!”
+Gã làm công mặt mày đau khổ, miễn cưỡng lê bước tới trước mặt Thẩm Khinh Trạch, cúi người xin lỗi: “Là tiểu nhân có mắt không tròng, đắc tội với tiểu huynh đệ rồi!”
 
 Bản lĩnh lật mặt của Mạc lão bản quả thực tuyệt đỉnh, ánh mắt nhìn Thẩm Khinh Trạch lại lập tức trở nên vô cùng hòa nhã thân thiện:
 
-“Không chỉ có những thứ này, sau này tất cả đồ sắt do tiệm cậu rèn ra, chỉ cần chở tới chỗ ta thì ta sẽ bao tiêu toàn bộ, mức giá đảm bảo khiến cậu vừa lòng. Sau này cậu chẳng cần phải dãi nắng dầm mưa vất vả bày sạp thế này nữa, tiểu huynh đệ thấy thế nào?”
+“Không chỉ có những thứ này, sau này tất cả đồ sắt do tiệm ngươi rèn ra, chỉ cần chở tới chỗ ta thì ta sẽ bao tiêu toàn bộ, mức giá đảm bảo khiến ngươi vừa lòng. Sau này ngươi chẳng cần phải dãi nắng dầm mưa vất vả bày sạp thế này nữa, tiểu huynh đệ thấy thế nào?”
 
-Đám đông xung quanh không hiểu rõ ngọn ngành câu chuyện, chỉ biết ông chủ tiệm sắt vừa xuất hiện đã xử lý tên làm công cậy thế hiếp người, lại hào phóng bồi thường cho Thẩm Khinh Trạch, hơn nữa còn rất tán thưởng đồ sắt của anh.
+Đám đông xung quanh không hiểu rõ ngọn ngành câu chuyện, chỉ biết ông chủ tiệm sắt vừa xuất hiện đã xử lý tên làm công cậy thế hiếp người, lại hào phóng bồi thường cho Thẩm Khinh Trạch, hơn nữa còn rất tán thưởng đồ sắt của hắn.
 
 Những người dân chất phác lập tức dành tặng những lời ngợi khen và tràng pháo tay cho vị ông chủ tiệm rèn hiểu tình đạt lý.
 
@@ -244,13 +244,13 @@ Nhìn Mạc lão bản đang cười híp mắt, Thẩm Khinh Trạch chẳng nh
 
 Quả nhiên, Mạc lão bản ân cần nắm lấy tay Thẩm Khinh Trạch, dùng thanh âm chỉ có hai người bọn họ mới nghe thấy được, thong thả nói nhỏ:
 
-“Tiểu huynh đệ, chỉ cần cậu chịu nói cho ta biết phương pháp mà sư phụ cậu dùng để rèn ra những đồ sắt này, ta chẳng những bỏ tiền thu mua hàng của nhà cậu mà còn có thể thưởng thêm cho cậu một trăm đồng vàng, thấy sao?”
+“Tiểu huynh đệ, chỉ cần ngươi chịu nói cho ta biết phương pháp mà sư phụ ngươi dùng để rèn ra những đồ sắt này, ta chẳng những bỏ tiền thu mua hàng của nhà ngươi mà còn có thể thưởng thêm cho ngươi một trăm đồng vàng, thấy sao?”
 
-Sắc mặt Thẩm Khinh Trạch trầm xuống, giọng nói trầm thấp chậm rãi: “Tôi từ chối.”
+Sắc mặt Thẩm Khinh Trạch trầm xuống, giọng nói trầm thấp chậm rãi: “Ta từ chối.”
 
-Mạc lão bản không hề nổi giận, chỉ đầy thâm ý liếc nhìn anh một cái, lùi lại một bước, cường điệu thở dài một tiếng rồi cao giọng nói:
+Mạc lão bản không hề nổi giận, chỉ đầy thâm ý liếc nhìn hắn một cái, lùi lại một bước, cường điệu thở dài một tiếng rồi cao giọng nói:
 
-“Người trẻ tuổi, tham lam quá là không tốt đâu, sư phụ cậu không dạy cậu đạo lý làm người phải biết đủ sao? Điều kiện ta đưa ra đã vô cùng hậu hĩnh rồi, cậu còn muốn đòi hỏi nhiều hơn nữa thì ta phải chịu lỗ vốn mất, tiệm của ta còn cả một đám thợ thuyền cần nuôi sống đấy.”
+“Người trẻ tuổi, tham lam quá là không tốt đâu, sư phụ ngươi không dạy ngươi đạo lý làm người phải biết đủ sao? Điều kiện ta đưa ra đã vô cùng hậu hĩnh rồi, ngươi còn muốn đòi hỏi nhiều hơn nữa thì ta phải chịu lỗ vốn mất, tiệm của ta còn cả một đám thợ thuyền cần nuôi sống đấy.”
 
 Mấy lời này vừa lọt vào tai đám đông vây xem, mọi người liền bàn tán xôn xao, thỉnh thoảng lại có những từ ngữ như “không biết điều”, “được đằng chân lân đằng đầu”, “vô ơn bạc nghĩa” chụp thẳng lên đầu người thanh niên.
 
@@ -270,9 +270,9 @@ Người đàn ông khẽ cười, vừa vân vê thân súng vừa đứng mộ
 
 Giữa bãi đất trống trung tâm đám đông, Mạc lão bản đang tận tình khuyên nhủ, dạy cho Thẩm Khinh Trạch đạo lý làm người.
 
-Người thanh niên im lặng một lát, cuối cùng dưới những lời lên án đạo đức của đám đông, anh không hề đổi sắc mặt mà mở miệng vàng ngọc:
+Người thanh niên im lặng một lát, cuối cùng dưới những lời lên án đạo đức của đám đông, hắn không hề đổi sắc mặt mà mở miệng vàng ngọc:
 
-“Đồ sắt tôi có thể bán cho ông, nhưng tôi tuyệt đối không vì tiền mà bán rẻ thể xác của mình! Các hạ có sở thích này thì tìm nhầm người rồi.”
+“Đồ sắt ta có thể bán cho ngươi, nhưng ta tuyệt đối không vì tiền mà bán rẻ thể xác của mình! Các hạ có sở thích này thì tìm nhầm người rồi.”
 
 Một câu nói như sấm sét giữa trời quang này khiến bốn phía xung quanh chìm vào sự tĩnh lặng chết chóc!
 
@@ -282,6 +282,6 @@ Vị sĩ quan trẻ tuổi vốn đang thong dong xem náo nhiệt bỗng khựn
 
 Mạc lão bản không kịp trở tay, cả người chết trân tại chỗ, trên trán vô cùng oan ức từ từ hiện lên ba dấu hỏi chấm to tướng: “???”
 
-Lời tác giả muốn nói: Mạc lão bản: Tôi muốn báo quan!!
+Lời tác giả muốn nói: Mạc lão bản: Ta muốn báo quan!!
 
 Thẩm: Chuồn thôi chuồn thôi!

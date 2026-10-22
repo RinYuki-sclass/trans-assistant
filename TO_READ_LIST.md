@@ -137,3 +137,15 @@ Tác giả: Nguyên Lai Thị Lạc Lạc (原来是落落)
   5. **Bạch Nguyệt Quang Chỉ Nam [Khoái Xuyên]** (`《白月光指南[快穿]》`) — Tác giả: Hồ Dương (`狐阳`)
      - **Nhân vật chính:** Vân Quyết (Công - `云珏`)
      - **Điểm nhấn:** Điên phê đối đầu điên phê, công ngoài mặt dịu dàng nhưng tận xương tủy tàn nhẫn vô tình, hai kẻ máu lạnh câu dẫn và bóp nghẹt lẫn nhau.
+
+
+---
+
+### [030] Cá Mặn Ký Chủ Tổng Đối Vai Ác Nhất Kiến Chung Tình?!
+- **Tên raw (Tiếng Trung):** 《反派不能是双标宿主的老婆！》 (Tên khác: 《咸鱼宿主总对反派一见钟情？！》 / 《咸鱼攻救赎反派boss指南[快穿]》)
+- **Tác giả:** 梅子清汤 (Mai Tử Thanh Thang)
+- **Thể loại:** Đam mỹ, Chủ công, Xuyên nhanh (Khoái xuyên), Xuyên thư, Hệ thống, Hài hước sa điêu, Cứu rỗi phản diện, Ngọt sủng, Vả mặt sảng văn, Hiện đại, Cổ đại, Tiên hiệp, Tương lai, Linh dị, Showbiz, 1v1, HE
+- **Nhân vật chính:** Chu Nhàn (Công - 周闲) × Lục Ninh Sâm / A Tuyết (Thụ - 陆宁琛 / 阿雪) | Hệ thống Cải tạo Phản diện
+- **Độ dài:** 257 chương (FULL)
+- **Nguồn:** JJWXC (`8670101`) & 52shuku
+- **Project:** Đã khởi tạo trong `novel_projects/cá-mặn-ký-chủ-tổng-đối-vai-ác-nhất-kiến-chung-tình/`

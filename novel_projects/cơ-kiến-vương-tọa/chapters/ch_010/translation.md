@@ -2,19 +2,19 @@ Chương 10: Cái chết của Thành chủ Uyên Lưu Thành
 
 “Thành chủ Uyên Lưu Thành?”
 
-Trong lòng Thẩm Khinh Trạch liền gạch một dấu chéo đỏ thật đậm lên vị kẻ nắm quyền tối cao mà mình chưa từng tao ngộ này, nhíu mày nói: “Nhà ai mà chẳng có người già tuổi tác đã cao, hạ đạt mệnh lệnh tàn nhẫn như vậy, chẳng lẽ vị Thành chủ Uyên Lưu Thành kia không sợ lòng dân trong thành nổi loạn sao?”
+Trong lòng Thẩm Khinh Trạch liền gạch một dấu chéo đỏ thật đậm lên kẻ nắm quyền tối cao mà mình chưa từng tao ngộ này, nhíu mày nói: “Nhà ai mà chẳng có người già tuổi tác đã cao, hạ đạt mệnh lệnh tàn nhẫn như vậy, chẳng lẽ vị Thành chủ Uyên Lưu Thành kia không sợ lòng dân trong thành nổi loạn sao?”
 
-Ngân Nhị rầu rĩ làu bàu: “Mấy nhân vật tai to mặt lớn trong thành làm sao đoái hoài đến sống chết của đám bần dân chúng tôi chứ? Huống hồ đã có tiền lệ ba mươi năm trước rồi, ai nấy đều biết rõ chỉ có dùng người sống tế thần thì mặt trời mới mọc trở lại, nếu không phải người già thì cũng sẽ là thanh niên trai tráng, hoặc phụ nữ trẻ con mà thôi.”
+Ngân Nhị rầu rĩ làu bàu: “Mấy nhân vật tai to mặt lớn trong thành làm sao đoái hoài đến sống chết của đám tiện dân chúng tao chứ? Huống hồ đã có tiền lệ ba mươi năm trước rồi, ai nấy đều biết rõ chỉ có dùng người sống tế thần thì mặt trời mới mọc trở lại, nếu không phải người già thì cũng sẽ là thanh niên trai tráng, hoặc phụ nữ trẻ con mà thôi.”
 
 Đồng Tam trừng đôi mắt đỏ ngầu: “Thế nhưng có ai lại cam tâm muốn chết chứ, các cụ già cũng muốn con cháu mình được sống tiếp mà, vì để cứu vớt Uyên Lưu Thành nên mọi người mới cắn răng ngậm bùi chấp nhận. Dù đau lòng xé ruột xé gan đấy, nhưng cũng chẳng còn cách nào khác.”
 
-Thẩm Khinh Trạch liếc xéo gã một cái, cười khẩy: “Không còn cách nào khác? Vậy ba tên các người mò tới nhà tôi trộm đồ làm cái gì? Ngoài miệng thì ra rả vì để cứu vớt Uyên Lưu Thành, nhưng thực chất lại chỉ mong kẻ phải hy sinh là người khác, miễn sao người nhà mình sống sót là được, đúng không?”
+Thẩm Khinh Trạch liếc xéo gã một cái, cười khẩy: “Không còn cách nào khác? Vậy ba tên các ngươi mò tới nhà ta trộm đồ làm cái gì? Ngoài miệng thì ra rả vì để cứu vớt Uyên Lưu Thành, nhưng thực chất lại chỉ mong kẻ phải hy sinh là người khác, miễn sao người nhà mình sống sót là được, đúng không?”
 
 Mặt Đồng Tam đỏ bừng như gấc, nhất thời chẳng biết cãi lại thế nào. Kim Đại trầm mặc một lát, khàn giọng nói:
 
-“Con người vốn dĩ là ích kỷ, đèn nhà ai nấy rạng, ngay cả trưởng bối ruột thịt nhà mình còn chẳng cứu nổi thì hơi sức đâu mà lo cho người thiên hạ? Mày bây giờ nói những lời này thì có ích gì chứ? Ba anh em bọn tao đã sa vào tay mày, lại đánh không lại mày, muốn chém muốn giết tùy mày định đoạt.”
+“Con người vốn dĩ là ích kỷ, đèn nhà ai nấy rạng, ngay cả trưởng bối ruột thịt nhà mình còn chẳng cứu nổi thì hơi sức đâu mà lo cho người thiên hạ? Ngươi bây giờ nói những lời này thì có ích gì chứ? Ba anh em bọn tao đã sa vào tay ngươi, lại đánh không lại ngươi, muốn chém muốn giết tùy ngươi định đoạt.”
 
-Đồng hồ đếm ngược trên bảng giao diện chính đã trôi qua hơn 4 tiếng đồng hồ, lúc này chỉ còn lại hơn 60 tiếng, anh không có thời gian rảnh rỗi để lãng phí trên người mấy tên trộm vặt này.
+Đồng hồ đếm ngược trên bảng giao diện chính đã trôi qua hơn 4 tiếng đồng hồ, lúc này chỉ còn lại hơn 60 tiếng, hắn không có thời gian rảnh rỗi để lãng phí trên người mấy tên trộm vặt này.
 
 Thẩm Khinh Trạch xoay cổ tay một cái, một luồng hàn quang lóe lên rời khỏi bàn tay, lần lượt cắt đứt những sợi dây thừng đang trói buộc ba người, cuối cùng “phập” một tiếng cắm ngập vào vách tường.
 
@@ -22,33 +22,33 @@ Thẩm Khinh Trạch xoay cổ tay một cái, một luồng hàn quang lóe lê
 
 “Cút đi.” Thẩm Khinh Trạch rút dao găm trên vách tường ra, buông xuống hai chữ lạnh nhạt.
 
-Kim Đại ngơ ngác nhìn anh đầy kinh ngạc: “Mày cứ thế thả bọn tao đi sao?”
+Kim Đại ngơ ngác nhìn hắn đầy kinh ngạc: “Ngươi cứ thế thả bọn tao đi sao?”
 
-Thẩm Khinh Trạch khẽ nheo mắt lại, để lộ một nụ cười giễu cợt: “Nếu ba kẻ vô dụng các người có bản lĩnh thì tự đi mà cứu bà nội của mình ra, khi đó tôi còn coi các người là trang nam tử hán.”
+Thẩm Khinh Trạch khẽ nheo mắt lại, để lộ một nụ cười giễu cợt: “Nếu ba kẻ vô dụng các ngươi có bản lĩnh thì tự đi mà cứu bà nội của mình ra, khi đó ta còn coi các ngươi là trang nam tử hán.”
 
-Kim Đại nhìn anh với ánh mắt như nhìn một kẻ điên: “Chẳng lẽ mày định xông thẳng vào đại lễ tế tự để cứu người sao? Không thể nào đâu, nơi đó có tầng tầng lớp lớp vệ đội canh phòng cẩn mật, dẫu mày có ba đầu sáu tay cũng không thể nào đánh lại tất cả bọn họ được.”
+Kim Đại nhìn hắn với ánh mắt như nhìn một kẻ điên: “Chẳng lẽ ngươi định xông thẳng vào đại lễ tế tự để cứu người sao? Không thể nào đâu, nơi đó có tầng tầng lớp lớp vệ đội canh phòng cẩn mật, dẫu ngươi có ba đầu sáu tay cũng không thể nào đánh lại tất cả bọn họ được.”
 
-Thẩm Khinh Trạch lại cầm ngọn đèn dầu trên tay, từ trên cao nhìn xuống gã: “Tôi không cần phải đánh thắng tất cả mọi người, chỉ cần màn đêm biến mất, mặt trời mọc trở lại, thì tất cả bọn họ đều có thể sống sót, chẳng phải sao?”
+Thẩm Khinh Trạch lại cầm ngọn đèn dầu trên tay, từ trên cao nhìn xuống gã: “Ta không cần phải đánh thắng tất cả mọi người, chỉ cần màn đêm biến mất, mặt trời mọc trở lại, thì tất cả bọn họ đều có thể sống sót, chẳng phải sao?”
 
 Kim Đại nghẹn họng không nói nên lời, chẳng biết nên cười nhạo sự ngu ngốc hay ngây thơ của đối phương.
 
-“Nếu như mày thực sự có thể làm được cái việc bất khả thi này, thì ba anh em bọn tao từ nay về sau nguyện làm trâu làm ngựa cho mày! Nhận mày làm cha đẻ!”
+“Nếu như ngươi thực sự có thể làm được cái việc bất khả thi này, thì ba anh em bọn tao từ nay về sau nguyện làm trâu làm ngựa cho ngươi! Nhận ngươi làm cha đẻ!”
 
 Thẩm Khinh Trạch: “……”
 
-Anh đây còn chưa muốn nhận ba đứa con trai hời này đâu nhé!
+Hắn đây còn chưa muốn nhận ba đứa con trai hời này đâu nhé!
 
 Thẩm Khinh Trạch không thèm để ý tới bọn chúng nữa, dẫn theo chú chó trắng lớn quay trở vào trong phòng tìm chú Ngư Long đã tiến hóa kia. Dù sao hệ thống đã chỉ rõ thứ này là một trong những đầu mối quan trọng, chắc chắn có thể phát huy tác dụng.
 
 Sinh vật nhỏ bé tội nghiệp lúc này vẫn đang cuộn tròn say giấc nồng trong bể cá, hoàn toàn không hề hay biết nguy hiểm sắp ập tới.
 
-Thẩm Khinh Trạch xách đèn, vớt chú Ngư Long nhỏ lấp lánh ánh vàng kim ra, búng ngón tay một cái thật chuẩn xác lên trán nó, không chút lưu tình gõ ngất nó đi. Nào ngờ, anh tìm mãi mà chẳng thấy khối Long Lân Ngọc đã giúp nó tiến hóa đâu nữa.
+Thẩm Khinh Trạch xách đèn, vớt chú Ngư Long nhỏ lấp lánh ánh vàng kim ra, búng ngón tay một cái thật chuẩn xác lên trán nó, không chút lưu tình gõ ngất nó đi. Nào ngờ, hắn tìm mãi mà chẳng thấy khối Long Lân Ngọc đã giúp nó tiến hóa đâu nữa.
 
-Anh nhớ rõ ban đầu Nhan Túy từng bảo đó là vật gia truyền quý giá do bà nội để lại cho y, sau này còn muốn chuộc về. Nếu không phải do ba tên trộm hám của kia thó mất, thì lẽ nào là Nhan Túy đã tự mình quay lại lấy đi rồi?
+Hắn nhớ rõ ban đầu Nhan Túy từng bảo đó là vật gia truyền quý giá do tổ mẫu để lại cho y, sau này còn muốn chuộc về. Nếu không phải do ba tên trộm hám của kia thó mất, thì lẽ nào là Nhan Túy đã tự mình quay lại lấy đi rồi?
 
 Nhất thời không có lời giải đáp, Thẩm Khinh Trạch dứt khoát không thèm bận tâm nữa, dẫn theo A Bạch vội vã chạy thẳng vào trong thành.
 
-Ba anh em Kim Đại nghiến răng nghiến lợi, vội vàng cất bước đuổi theo sau lưng anh.
+Ba anh em Kim Đại nghiến răng nghiến lợi, vội vàng cất bước đuổi theo sau lưng hắn.
 
 ※※※
 
@@ -128,7 +128,7 @@ Bá tước Nhan Ân nở nụ cười hòa nhã định vòng tay qua vai Tiêu
 
 “Đối với bọn họ mà nói, chân tướng sự việc ra sao vốn dĩ không quan trọng, điều quan trọng nhất là có thể sớm ngày nhìn thấy mặt trời mọc lại trên bầu trời! Chỉ cần hoàn thành suôn sẻ đại lễ tế bái Dạ Thần, mọi kiếp nạn đắng cay này rồi sẽ qua đi hết!”
 
-Sau một hồi im lặng kéo dài, Tiêu Mông cuối cùng cũng cất lời: “Ngài muốn tôi làm gì?”
+Sau một hồi im lặng kéo dài, Tiêu Mông cuối cùng cũng cất lời: “Ngài muốn mạt tướng làm gì?”
 
 Nhan Ân và Mạc Vân đưa mắt nhìn nhau đầy đắc ý, mỉm cười nói: “Hy vọng các hạ trong đại lễ tế lát nữa sẽ đích thân đứng ra làm chứng, xác nhận chính Nhan Túy là kẻ đã hạ đạt mệnh lệnh hiến tế người sống, và cũng chính nó là kẻ đã phải chịu lời nguyền rủa của ác ma.”
 
@@ -138,11 +138,11 @@ Thời gian đếm ngược: Còn 60 giờ.
 
 Trên con đường mòn nhỏ nối từ ngoại ô vào nội thành, Thẩm Khinh Trạch đang cắm đầu phi như bay về phía trước.
 
-Ba anh em Kim Đại bám riết sau lưng anh, chạy đến mức thở không ra hơi.
+Ba anh em Kim Đại bám riết sau lưng hắn, chạy đến mức thở không ra hơi.
 
-“Tôi bảo này tiểu ca họ Thẩm ơi, cậu cứ thế lao thẳng vào đại lễ tế thế này thì chỉ trong vài phút là bị người của vệ đội tóm sống gông cổ lại ngay thôi, cậu cứ đâm đầu mù quáng như vậy thì chẳng cứu nổi ai đâu!”
+“Ta bảo này Thẩm tiểu ca ơi, ngươi cứ thế lao thẳng vào đại lễ tế thế này thì chỉ trong vài phút là bị người của vệ đội tóm sống gông cổ lại ngay thôi, ngươi cứ đâm đầu mù quáng như vậy thì chẳng cứu nổi ai đâu!”
 
-Thẩm Khinh Trạch: “Ai bảo tôi đi cứu người?”
+Thẩm Khinh Trạch: “Ai bảo ta đi cứu người?”
 
 Kim Đại mặt mày ngơ ngác chẳng hiểu gì.
 

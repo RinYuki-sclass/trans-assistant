@@ -5,9 +5,9 @@
     "original_name": "沈轻泽",
     "gender": "Nam",
     "role": "Công chính (Kiến trúc sư game, Quốc vương khai quốc)",
-    "narration_pronoun": "anh",
-    "honorifics": "xưng ta / tôi, được gọi là bệ hạ",
-    "speech_style": "Tao nhã, điềm đạm, thâm sâu, lý trí, đậm chất vương giả",
+    "narration_pronoun": "hắn / y",
+    "honorifics": "xưng ta / tại hạ / bản vương / trẫm; được tôn xưng là Thẩm tiên sinh / Thẩm gia / Bệ hạ",
+    "speech_style": "Điềm đạm, tao nhã, phúc hắc, thâm sâu, lý trí, đậm chất vương giả mưu lược",
     "notes": "Kiến trúc sư trưởng game 《Thế Kỷ Rạng Đông》, xuyên qua game trở thành người chơi duy nhất có hệ thống quản lý, xây dựng đế quốc từ vùng đất cực Bắc cằn cỗi."
   },
   {
@@ -16,9 +16,9 @@
     "original_name": "颜醉",
     "gender": "Nam",
     "role": "Thụ chính (Thành chủ Uyên Lưu Thành, Thống soái quân đoàn phương Bắc)",
-    "narration_pronoun": "cậu",
-    "honorifics": "xưng tôi / em, gọi Thẩm Khinh Trạch là bệ hạ / ngài / Khinh Trạch",
-    "speech_style": "Bá khí, sắc sảo, ngạo kiều quân nhân, trước mặt Thẩm Khinh Trạch rất phối hợp và dung túng",
+    "narration_pronoun": "y / hắn",
+    "honorifics": "xưng ta / bản thành chủ / thần; gọi Thẩm Khinh Trạch là ngươi / Khinh Trạch / Bệ hạ",
+    "speech_style": "Bá khí, sắc sảo, thanh lãnh, ngạo kiều quân nhân; trước mặt Thẩm Khinh Trạch rất phối hợp và dung túng",
     "notes": "Mỹ mạo nghịch thiên, thống lĩnh quân đội phương Bắc, hết lòng tin tưởng và bảo hộ Thẩm Khinh Trạch."
   },
   {
@@ -27,8 +27,8 @@
     "original_name": "李老爹",
     "gender": "Nam",
     "role": "Thợ rèn già thôn Mộc Gia, người cưu mang Thẩm Khinh Trạch",
-    "narration_pronoun": "ông",
-    "honorifics": "xưng ta, gọi Thẩm Khinh Trạch là Tiểu Trạch / con",
+    "narration_pronoun": "ông lão / lão nhân gia",
+    "honorifics": "xưng ta / lão già này / lão hủ; gọi Thẩm Khinh Trạch là Tiểu Trạch / con / hài tử",
     "speech_style": "Hiền hậu, chất phác, yêu thương con cháu, sẵn sàng hy sinh vì thế hệ trẻ",
     "notes": "Thợ rèn già tàn tật chân ở Mộc Gia Thôn, coi Thẩm Khinh Trạch như con ruột. Tự nguyện đi theo vệ đội chịu hiến tế để nhường cơ hội sống cho người trẻ."
   },
@@ -39,7 +39,7 @@
     "gender": "Nam",
     "role": "Phản diện / Chú ruột của Nhan Túy",
     "narration_pronoun": "ông ta / hắn",
-    "honorifics": "xưng ta, ngài Bá tước",
+    "honorifics": "xưng bản bá tước / ta; gọi Nhan Túy là nghiệt súc / nghịch tử",
     "speech_style": "Ngạo mạn, nham hiểm, giả tạo làm từ thiện bề ngoài nhưng độc ác bên trong",
     "notes": "Em trai của lão Thành chủ tiền nhiệm, dã tâm cướp ghế Thành chủ. Cấu kết với Chủ tế Mạc Vân vu oan và toan tính lật đổ Nhan Túy."
   },
@@ -50,7 +50,7 @@
     "gender": "Nam",
     "role": "Phản diện / Chủ tế Uyên Lưu Thành",
     "narration_pronoun": "gã",
-    "honorifics": "Chủ tế đại nhân",
+    "honorifics": "xưng bản tọa / ta; được gọi là Chủ tế đại nhân",
     "speech_style": "Nhã nhặn giả tạo, sắc sảo, âm mưu thâm hiểm",
     "notes": "Người nắm quyền lực thứ hai trên danh nghĩa của Uyên Lưu Thành. Cấu kết với Bá tước Nhan Ân mượn cớ Vĩnh Dạ để ban lệnh hiến tế người già đổ tội cho Nhan Túy."
   },
@@ -61,7 +61,7 @@
     "gender": "Nam",
     "role": "Đội trưởng đội cận vệ thành chủ",
     "narration_pronoun": "hắn",
-    "honorifics": "Tiêu đội trưởng",
+    "honorifics": "xưng mạt tướng / thuộc hạ; gọi Nhan Túy là Chủ thượng / Thành chủ đại nhân",
     "speech_style": "Cương trực, dứt khoát, trung thành tận tụy",
     "notes": "Tâm phúc số một của Nhan Túy, chỉ huy Thiết Vệ đội, gia tộc đời đời canh giữ Uyên Lưu Thành."
   },
@@ -72,7 +72,7 @@
     "gender": "Nam",
     "role": "Chủ tiệm đồ sắt Ân Ban Và Thiết Huyết ở chợ đông",
     "narration_pronoun": "ông ta / gã",
-    "honorifics": "Mạc lão bản",
+    "honorifics": "xưng tiểu nhân / thảo dân / ta; gọi quý tộc là đại nhân / ngài",
     "speech_style": "Thương nhân giảo hoạt, nịnh bợ quý tộc, chèn ép đối thủ",
     "notes": "Họ hàng của Chủ tế Mạc Vân, cấu kết cung cấp vũ khí giáp trụ cho âm mưu tạo phản của Bá tước Nhan Ân."
   },
@@ -83,8 +83,8 @@
     "gender": "Nam",
     "role": "Lưu manh chợ đông / Chân chạy phụ việc sau này",
     "narration_pronoun": "bọn chúng / chúng",
-    "honorifics": "Kim đại ca",
+    "honorifics": "xưng tiểu nhân / thảo dân / lão tử; gọi Thẩm Khinh Trạch là Thẩm gia / Đại gia / Gia",
     "speech_style": "Bỗ bã lưu manh nhưng cũng có chút tình nghĩa gia đình",
-    "notes": "Ban đầu là ba tên du côn đòi nợ thuê, sau khi bị Thẩm Khinh Trạch tha mạng và khích lệ đi cứu bà nội, đã hứa nguyện làm trâu làm ngựa nhận anh làm bố nếu anh cứu được mọi người."
+    "notes": "Ban đầu là ba tên du côn đòi nợ thuê, sau khi được Thẩm Khinh Trạch tha mạng và khích lệ đi cứu bà nội, đã hứa nguyện làm trâu làm ngựa nhận hắn làm cha nếu hắn cứu được mọi người."
   }
 ]

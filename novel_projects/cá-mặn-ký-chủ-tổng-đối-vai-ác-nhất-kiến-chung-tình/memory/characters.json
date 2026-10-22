@@ -1,0 +1,49 @@
+[
+  {
+    "name": "Zhou Xian",
+    "hanviet_name": "Chu Nhàn",
+    "original_name": "周闲",
+    "gender": "Nam",
+    "role": "Công chính (Chủ công - Ký chủ)",
+    "aliases": [
+      "Ký chủ cá mặn",
+      "Tiểu Chu",
+      "Chu tiên sinh"
+    ],
+    "narration_pronoun": "anh",
+    "honorifics": "với Lục Ninh Sâm: tôi/anh - Lục tổng/cậu/vợ à; với Hệ thống: tôi - Hệ thống",
+    "speech_style": "Hài hước, da mặt dày, lười biếng phật hệ nhưng khi bảo vệ vợ thì cực kỳ sắc bén và mạnh mẽ",
+    "notes": "Thanh niên ưu tú bề ngoài cá mặn lười nhác, trói định với Hệ thống Cải tạo Phản diện. Hễ thấy phản diện xinh đẹp là trúng tiếng sét ái tình, bất chấp tất cả để cưng chiều và cải tạo vợ theo đường lối chân-thiện-mỹ."
+  },
+  {
+    "name": "Lu Ningchen",
+    "hanviet_name": "Lục Ninh Sâm",
+    "original_name": "陆宁琛",
+    "gender": "Nam",
+    "role": "Thụ chính (Boss phản diện các thế giới)",
+    "aliases": [
+      "Lục tổng",
+      "Lục Tuyết Trầm",
+      "A Tuyết"
+    ],
+    "narration_pronoun": "cậu",
+    "honorifics": "với Chu Nhàn: tôi - Chu Nhàn/cậu/anh",
+    "speech_style": "Bề ngoài dịu dàng thanh nhã, lịch thiệp, bên trong thâm trầm, nguy hiểm và độc miệng khi bị chọc tức",
+    "notes": "Boss phản diện của các thế giới. Luôn mang vẻ ngoài hoàn mỹ giả tạo che đậy nội tâm tan vỡ và muốn hủy diệt. Bị Chu Nhàn 'bắt bài' và dần rung động trước sự sủng ái vô điều kiện của anh."
+  },
+  {
+    "name": "Reformed Villain System",
+    "hanviet_name": "Hệ thống Cải tạo Phản diện",
+    "original_name": "反派改造系统",
+    "gender": "Vô tính",
+    "role": "Hệ thống hỗ trợ",
+    "aliases": [
+      "Hệ thống",
+      "Thống tử"
+    ],
+    "narration_pronoun": "nó",
+    "honorifics": "với Chu Nhàn: tôi/bổn hệ thống - Ký chủ",
+    "speech_style": "Nghiêm túc theo khuôn khổ nhưng thường xuyên phát điên và cạn lời vì độ lười nhác cùng thói mê vợ của ký chủ",
+    "notes": "Trói định Chu Nhàn với kỳ vọng ký chủ cứu vớt phản diện, không ngờ ký chủ trực tiếp biến phản diện thành vợ."
+  }
+]

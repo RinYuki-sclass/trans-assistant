@@ -4,7 +4,7 @@ Chương 5: Cải tạo thổ nhưỡng
 
 Nhiệt độ trong lò không ngừng tăng cao, thỏi gang thô có nhiệt độ nóng chảy thấp hơn bắt đầu tan chảy, Thẩm Khinh Trạch một tay di chuyển thỏi gang, tay kia nhanh thoăn thoắt đảo đều vật liệu sắt rèn.
 
-Gang đóng vai trò là chất thấm cacbon, dưới sự di chuyển qua lại nhịp nhàng của hai tay anh, có thể tưới đều lên bề mặt sắt rèn. Nếu không phải là một đại sư thợ rèn dày dạn kinh nghiệm thì căn bản không thể nào phán đoán được hàm lượng cacbon trong vật liệu sắt, từ đó dẫn đến việc chất lượng thép làm ra không đồng đều.
+Gang đóng vai trò là chất thấm cacbon, dưới sự di chuyển qua lại nhịp nhàng của hai tay hắn, có thể tưới đều lên bề mặt sắt rèn. Nếu không phải là một đại sư thợ rèn dày dạn kinh nghiệm thì căn bản không thể nào phán đoán được hàm lượng cacbon trong vật liệu sắt, từ đó dẫn đến việc chất lượng thép làm ra không đồng đều.
 
 May thay Thẩm Khinh Trạch không cần phải lo lắng về vấn đề này, hệ thống sẽ đưa ra những chỉ dẫn vô cùng chuẩn xác.
 
@@ -36,7 +36,7 @@ Ngọn trường thương tựa như bị sát khí ngút trời kích phát ra 
 
 Lão Lý hốc mắt nóng bừng, cảm khái muôn vàn: “Không ngờ tới, lão già này lúc sinh thời còn có thể tự tay tham gia đúc nên một món thần binh lợi khí tuyệt thế nhường này, đời này chẳng còn gì phải hối tiếc nữa rồi…… Các hạ, nó là của ngài, hãy đặt cho nó một cái tên đi.”
 
-Nhan Túy trầm ngâm giây lát, bỗng nhiên ngước mắt, nhìn về phía Thẩm Khinh Trạch đang điềm tĩnh đứng im lặng một bên: “Ngọn thương này đã do cậu đúc nên, chi bằng để cậu đặt tên đi?”
+Nhan Túy trầm ngâm giây lát, bỗng nhiên ngước mắt, nhìn về phía Thẩm Khinh Trạch đang điềm tĩnh đứng im lặng một bên: “Ngọn thương này do ngươi đúc nên, chi bằng để ngươi đặt tên đi?”
 
 Với tay nghề của các thợ thủ công trên đại lục Ánh Sáng hiện nay, để rèn được một món binh khí bằng thép tinh luyện, cần phải có những bậc thầy thợ rèn tay nghề cao siêu đúc suốt mấy tháng trời thậm chí cả năm ròng rã, trải qua ngàn lần tôi luyện, hao tài tốn của vô số, mới có thể thu được một hai thanh sắc bén chém sắt như chém bùn.
 
@@ -56,47 +56,47 @@ Nhan Túy khẽ cười một tiếng, búng nhẹ ngón tay lên mũi thương:
 
 Chàng thanh niên khô khốc mở miệng: “Tiệm rèn Lý gia, hoan nghênh ngài ghé thăm, hoan nghênh ngài lần sau lại tới.”
 
-Nhan Túy liếc xéo anh một cái, lơ đễnh đánh giá xung quanh tiệm rèn: “Uyên Lưu Thành vậy mà lại có một tiệm rèn tàng long ngọa hổ, bao nhiêu năm qua tôi thế mà chẳng hề hay biết, chẳng lẽ là truyền nhân của vị đại sư rèn đúc nào sao?”
+Nhan Túy liếc xéo hắn một cái, lơ đễnh đánh giá xung quanh tiệm rèn: “Uyên Lưu Thành vậy mà lại có một tiệm rèn tàng long ngọa hổ, bao nhiêu năm qua ta thế mà chẳng hề hay biết, chẳng lẽ là truyền nhân của vị đại sư rèn đúc nào sao?”
 
-Thẩm Khinh Trạch mặt không đỏ tim không đập: “Tay nghề của tôi đều là học từ lão Lý cả đấy.”
+Thẩm Khinh Trạch mặt không đỏ tim không đập: “Tay nghề của ta đều là học từ Lão Lý cả đấy.”
 
-Lão Lý thảng thốt: “Hả? Không, tôi……”
+Lão Lý thảng thốt: “Hả? Không, ta……”
 
-Nhan Túy như cười như không liếc nhìn anh một cái: “Hóa ra là vậy, sau này tôi nhất định sẽ lại tới chiếu cố.”
+Nhan Túy như cười như không liếc nhìn hắn một cái: “Hóa ra là vậy, sau này ta nhất định sẽ lại tới chiếu cố.”
 
-Anh ta từ trong cổ áo lấy ra một miếng ngọc bội đeo trên cổ, dưới ánh nắng ấm áp chiếu xiên phản chiếu ra những đường vân vảy rồng màu vàng nhạt.
+Y từ trong cổ áo lấy ra một miếng ngọc bội đeo trên cổ, dưới ánh nắng ấm áp chiếu xiên phản chiếu ra những đường vân vảy rồng màu vàng nhạt.
 
-Người đàn ông ném miếng ngọc bội cho Thẩm Khinh Trạch: “Miếng Long Lân Ngọc này là món đồ bà nội tặng cho tôi, ngoài nó ra, trên người tôi tạm thời không còn thứ gì đáng giá khác, tạm coi như thế chấp tiền ăn ở và tiền thuốc men mấy ngày qua.”
+Y ném miếng ngọc bội cho Thẩm Khinh Trạch: “Miếng Long Lân Ngọc này là món đồ tổ mẫu tặng cho ta, ngoài nó ra, trên người ta tạm thời không còn thứ gì đáng giá khác, tạm coi như thế chấp tiền ăn ở và tiền thuốc men mấy ngày qua.”
 
-“Cùng với cái này nữa.” Anh ta chỉ chỉ vào chiếc khẩu trang trên mặt, nhàn nhạt nói: “Ngọc chớ có làm mất đấy, tôi sẽ quay lại chuộc về.”
+“Cùng với cái này nữa.” Y chỉ chỉ vào chiếc khẩu trang trên mặt, nhàn nhạt nói: “Ngọc chớ có làm mất đấy, ta sẽ quay lại chuộc về.”
 
-Nhìn theo bóng lưng người đàn ông khuất dần, lão Lý thở dài: “Vị sĩ quan đại nhân kia đã đưa cho chúng ta không ít tiền vàng rồi, chúng ta chẳng qua chỉ thu nhận ngài ấy ở lại mấy ngày, sao cậu lại có thể nhận thêm món đồ quý giá nhường này chứ?”
+Nhìn theo bóng lưng người nọ khuất dần, Lão Lý thở dài: “Vị sĩ quan đại nhân kia đã đưa cho chúng ta không ít tiền vàng rồi, chúng ta chẳng qua chỉ thu nhận ngài ấy ở lại mấy ngày, sao con lại có thể nhận thêm món đồ quý giá nhường này chứ?”
 
 Thẩm Khinh Trạch miết miết miếng ngọc bội trong tay, như có điều suy nghĩ: “Xem ra bình thuốc trị liệu kia quả thực có tác dụng với lời nguyền……”
 
-Lão Lý ngẩn người, nghe không rõ lắm: “Cậu vừa nói lời nguyền gì cơ?”
+Lão Lý ngẩn người, nghe không rõ lắm: “Con vừa nói lời nguyền gì cơ?”
 
-“Không có gì đâu ạ. Nói mới nhớ, con trai bác cũng từng được điều động vào đội vệ binh, sĩ quan bình thường lại nhiều tiền đến thế sao?” Chàng thanh niên lắc đầu, nhìn thấy ánh mắt thất thần hụt hẫng của lão Lý, lập tức chuyển chủ đề, “Đúng rồi, hai mươi mẫu ruộng của nhà mình cứ bỏ hoang mãi thế sao bác?”
+“Không có gì đâu ạ. Nói mới nhớ, con trai người cũng từng được điều động vào đội vệ binh, sĩ quan bình thường lại nhiều tiền đến thế sao?” Người thanh niên lắc đầu, nhìn thấy ánh mắt thất thần hụt hẫng của Lão Lý, lập tức chuyển chủ đề, “Đúng rồi, hai mươi mẫu ruộng của nhà mình cứ bỏ hoang mãi thế sao người?”
 
-Lão Lý càng thêm kỳ lạ: “Phải rồi, sao tự dưng cậu lại hỏi tới đám ruộng đó?”
+Lão Lý càng thêm kỳ lạ: “Phải rồi, sao tự dưng con lại hỏi tới đám ruộng đó?”
 
 Thẩm Khinh Trạch một mặt bỏ số sắt vụn thép phế còn lại vào lò nung lại, một mặt giải thích: “Lần trước cháu vào thành mua lương thực, giá lương thực đã tăng gấp đôi so với ngày thường rồi, đất đai để không cũng lãng phí, cháu định khai khẩn lại từ đầu, trồng chút lương thực qua mùa đông.”
 
-“Làm gì có thứ lương thực nào qua được mùa đông chứ? Cậu là chưa từng thấy mùa đông ở đất Bắc chúng ta thôi, gấu còn bị chết cóng nữa là, huống chi là hoa màu.” Lão Lý lắc đầu thở dài sườn sượt.
+“Làm gì có thứ lương thực nào qua được mùa đông chứ? Con là chưa từng thấy mùa đông ở đất Bắc chúng ta thôi, gấu còn bị chết cóng nữa là, huống chi là hoa màu.” Lão Lý lắc đầu thở dài sườn sượt.
 
-“Kể từ khi bà nhà tôi và thằng con mất đi, một mình tôi vừa phải trông nom tiệm rèn, căn bản chẳng thể gánh vác nổi ngần ấy ruộng đất, cũng chẳng thuê nổi tá điền, toàn là ruộng hạ đẳng, đằng nào cũng bỏ hoang, có bà con lối xóm muốn trồng, dần dà người ta cũng lấn chiếm mất một ít.”
+“Kể từ khi bà nhà ta và con trai mất đi, một mình ta vừa phải trông nom tiệm rèn, căn bản chẳng thể gánh vác nổi ngần ấy ruộng đất, cũng chẳng thuê nổi tá điền, toàn là ruộng hạ đẳng, đằng nào cũng bỏ hoang, có bà con lối xóm muốn trồng, dần dà người ta cũng lấn chiếm mất một ít.”
 
 Bị người ta chiếm đoạt lợi ích mà cũng không hé răng nửa lời sao?
 
-Thẩm Khinh Trạch cau mày rồi lại giãn ra, hời hợt nói: “Không sao đâu ạ, cháu sẽ đòi lại giúp bác.”
+Thẩm Khinh Trạch cau mày rồi lại giãn ra, hời hợt nói: “Không sao đâu ạ, con sẽ đòi lại giúp người.”
 
-Lão Lý nửa tin nửa ngờ: “Nhưng cậu có biết làm ruộng không đấy?”
+Lão Lý nửa tin nửa ngờ: “Nhưng con có biết làm ruộng không đấy?”
 
-Thẩm Khinh Trạch thầm nghĩ, vốn dĩ anh cũng đâu có biết rèn sắt đâu chứ.
+Thẩm Khinh Trạch thầm nghĩ, vốn dĩ hắn cũng đâu có biết rèn sắt đâu chứ.
 
 Còn về miếng Long Lân Ngọc kia, trong thiết lập của game là loại đá quý khảm nạm thượng đẳng, khi đặt chung một chỗ với những thứ chứa long khí có thể sinh ra hiệu quả đặc thù.
 
-Anh nghĩ ngợi một chút, tiện tay ném miếng ngọc vào vại nước nuôi cá Kim Long Lý, rồi chẳng buồn đoái hoài tới nữa.
+Hắn nghĩ ngợi một chút, tiện tay ném miếng ngọc vào vại nước nuôi cá Kim Long Lý, rồi chẳng buồn đoái hoài tới nữa.
 
 Túi tiền mà Nhan Túy đưa chừng khoảng hai trăm đồng tiền vàng, có được món tiền vốn khởi nghiệp đầu tiên, việc đầu tiên Thẩm Khinh Trạch muốn làm chính là cải tạo hai mươi mẫu ruộng nghèo nàn hoang vu của lão Lý thành đất màu mỡ.
 
@@ -106,51 +106,51 @@ Bởi vì thiếu hụt sức lao động, phần lớn đất đai nhà họ L�
 
 Thẩm Khinh Trạch lần lượt đến từng nhà gõ cửa, nói rõ mục đích ghé thăm.
 
-Vợ của trưởng thôn Lão Mộc hôm đó tận mắt chứng kiến anh dùng dao đốn củi đuổi cổ đám côn đồ đòi nợ nặng lãi, vốn dĩ đối với chàng thanh niên nhã nhặn đoan chính này còn giữ vài phần kính sợ.
+Vợ của trưởng thôn Lão Mộc hôm đó tận mắt chứng kiến hắn dùng dao đốn củi đuổi cổ đám côn đồ đòi nợ nặng lãi, vốn dĩ đối với chàng thanh niên nhã nhặn đoan chính này còn giữ vài phần kính sợ.
 
-Nào ngờ, vừa nghe anh nói muốn lấy lại đất của lão Lý, mặt vợ trưởng thôn lập tức xầm xuống dài như cái bơm, trở mặt còn nhanh hơn lật bánh tráng.
+Nào ngờ, vừa nghe hắn nói muốn lấy lại đất của Lão Lý, mặt vợ trưởng thôn lập tức xầm xuống dài như cái bơm, trở mặt còn nhanh hơn lật bánh tráng.
 
-“Chuyện ruộng đất, sao có thể gọi là ‘chiếm’ được chứ? Lúc trước chúng tôi đã nói rõ với lão Lý rồi, chúng tôi giúp ông ấy trông nom đất đai, chúng tôi vừa bỏ người vừa bỏ sức lực, nếu không có chúng tôi giúp đỡ, mảnh đất đó đã sớm hoang tàn rậm rạp rồi, bây giờ chăm sóc đâu ra đấy, cậu bảo lấy lại là lấy lại, dựa vào cái thớ gì chứ?”
+“Chuyện ruộng đất, sao có thể gọi là ‘chiếm’ được chứ? Lúc trước chúng ta đã nói rõ với Lão Lý rồi, nhà ta giúp lão trông nom đất đai, nhà ta vừa bỏ người vừa bỏ sức lực, nếu không có chúng ta giúp đỡ, mảnh đất đó đã sớm hoang tàn rậm rạp rồi, bây giờ chăm sóc đâu ra đấy, ngươi bảo lấy lại là lấy lại, dựa vào cái thớ gì chứ?”
 
 Trưởng thôn đứng một bên vẻ mặt ngượng ngùng, kéo kéo vạt áo vợ mình, thì thào: “Hồi đó bà cũng hứa mỗi năm cho người ta mười cân lương thực, sau này có đưa đâu……”
 
 “Đó chẳng phải là do lão Lý cũng đâu có tới đòi à? Ông thì biết cái gì? Câm miệng!”
 
-Bà góa Vương trái lại lại tỏ ra vô cùng nhiệt tình: “Tôi bằng lòng dùng mảnh ruộng nhà tôi nằm liền kề với đất tổ họ Lý để đổi lại, diện tích lớn gấp đôi mảnh ruộng này của tôi cơ đấy. Chàng trai trẻ nếu muốn có người phụ giúp một tay, người chị này còn có thể giúp cậu, buổi tối qua nhà tôi……”
+Góa phụ họ Vương trái lại lại tỏ ra vô cùng nhiệt tình: “Ta bằng lòng dùng mảnh ruộng nhà ta nằm liền kề với đất tổ họ Lý để đổi lại, diện tích lớn gấp đôi mảnh ruộng này của ta cơ đấy. Nếu tiểu huynh đệ muốn có người phụ giúp một tay, tỷ tỷ đây còn có thể giúp đệ, buổi tối qua nhà ta……”
 
-Vợ trưởng thôn đảo mắt khinh bỉ: “Thôi đi giùm, đất giáp ranh giữa hai nhà các người bởi vì mấy năm trước khai khẩn cày cấy liên tục, độ màu mỡ sụt giảm nghiêm trọng, đã sớm bỏ hoang từ tám đời rồi, nói cứ như thể chịu thiệt thòi lớn lắm không bằng, lại còn rủ rê chàng trai trẻ qua nhà mình, qua đó rồi liệu còn đi đứng thẳng lưng mà ra được không? Chẳng bị cô vắt kiệt đến khô queo à, chậc chậc……”
+Vợ thôn trưởng đảo mắt khinh bỉ: “Thôi đi giùm, đất giáp ranh giữa hai nhà các người bởi vì mấy năm trước khai khẩn cày cấy liên tục, độ màu mỡ sụt giảm nghiêm trọng, đã sớm bỏ hoang từ tám đời rồi, nói cứ như thể chịu thiệt thòi lớn lắm không bằng, lại còn rủ rê thiếu niên qua nhà mình, qua đó rồi liệu còn đi đứng thẳng lưng mà ra được không? Chẳng bị ả vắt kiệt đến khô queo à, chậc chậc……”
 
 “Bà nói hươu nói vượn cái gì đấy!”
 
-“Cô mới là đứa nói bậy!”
+“Ả mới là kẻ nói bậy!”
 
 Mấy hộ hàng xóm phía sau phần lớn cũng không tình nguyện trả lại, cả gian nhà cãi cọ ầm ĩ khiến đầu óc muốn nổ tung, thái dương Thẩm Khinh Trạch giật thình thịch hai cái, hít sâu một hơi, bỗng nhiên đập mạnh bàn một cái, quát lớn: “Im lặng!”
 
-Mọi người giật nảy mình, đồng loạt quay đầu nhìn anh. Thẩm Khinh Trạch móc ra tờ khế ước ruộng đất tổ truyền của nhà lão Lý, ánh mắt lướt qua từng gương mặt của mọi người, thong thả cất lời:
+Mọi người giật nảy mình, đồng loạt quay đầu nhìn hắn. Thẩm Khinh Trạch móc ra tờ khế ước ruộng đất tổ truyền của nhà lão Lý, ánh mắt lướt qua từng gương mặt của mọi người, thong thả cất lời:
 
-“Hai mươi mẫu ruộng của lão Lý, về mặt quyền sở hữu không còn nghi ngờ gì nữa thuộc về bác ấy, giữa bác ấy và chư vị cũng không hề có mối quan hệ mua bán nào.”
+“Hai mươi mẫu ruộng của lão Lý, về mặt quyền sở hữu không còn nghi ngờ gì nữa thuộc về người, giữa Lão Lý và chư vị cũng không hề có mối quan hệ mua bán nào.”
 
 Sắc mặt vợ trưởng thôn không mấy dễ coi, còn định cãi cọ thêm vài câu, nhưng lại nghe Thẩm Khinh Trạch chuyển hướng câu chuyện.
 
-“Thế nhưng既然 chư vị trên thực tế đã cày cấy một phần, chúng tôi cũng không thể ngó lơ công sức lao động vất vả mà mọi người đã bỏ ra để ngồi mát ăn bát vàng được.”
+“Thế nhưng chư vị trên thực tế đã cày cấy một phần, chúng ta cũng không thể ngó lơ công sức lao động vất vả mà mọi người đã bỏ ra để ngồi mát ăn bát vàng được.”
 
-Sắc mặt vợ trưởng thôn dịu lại, bà góa Vương cười tủm tỉm nép lại gần: “Cậu Thẩm nói quá chí lý rồi còn gì.”
+Sắc mặt vợ trưởng thôn dịu lại, góa phụ họ Vương cười tủm tỉm nép lại gần: “Thẩm tiểu ca nói quá chí lý rồi còn gì.”
 
 Vợ trưởng thôn cùng bà góa Vương và mấy hộ nông dân thầm tính toán trong bụng một lát, đều cảm thấy không mấy thỏa đáng, làm như thế thì thành ra quan hệ giữa tá điền và địa chủ, không chiếm được món hời nào, chẳng phải tương đương với việc chịu thiệt lớn hay sao.
 
-Thấy thời cơ đã chín muồi, Thẩm Khinh Trạch làm bộ làm tịch suy nghĩ giây lát, mới tung ra kế hoạch thực sự của mình: “Vẫn còn phương án thứ hai, tôi không lấy lại những mảnh đất các vị đang gieo trồng, cũng không thu tiền thuê đất hay địa tô lương thực. Nhà ai có mảnh đất bỏ hoang nằm liền kề với đất tổ nhà tôi, tôi sẵn sàng dùng đất màu mỡ đang canh tác này để hoán đổi với người đó, nhưng không thể tính theo tỉ lệ một đổi một được. Lần này phải lập khế ước đàng hoàng, sau này không thể tùy tiện thay đổi.”
+Thấy thời cơ đã chín muồi, Thẩm Khinh Trạch làm bộ làm tịch suy nghĩ giây lát, mới tung ra kế hoạch thực sự của mình: “Vẫn còn phương án thứ hai, ta không lấy lại những mảnh đất các vị đang gieo trồng, cũng không thu tiền thuê đất hay địa tô lương thực. Nhà ai có mảnh đất bỏ hoang nằm liền kề với đất tổ nhà ta, ta sẵn sàng dùng đất màu mỡ đang canh tác này để hoán đổi với người đó, nhưng không thể tính theo tỉ lệ một đổi một được. Lần này phải lập khế ước đàng hoàng, sau này không thể tùy tiện thay đổi.”
 
-Bà góa Vương mừng rỡ ra mặt: “Nói tới nói lui, cậu Thẩm vẫn cảm thấy cách của chị đây là tốt nhất có phải không? Tôi đồng ý đổi, đổi ngay bây giờ luôn!”
+Góa phụ họ Vương mừng rỡ ra mặt: “Nói tới nói lui, Thẩm tiểu ca vẫn cảm thấy cách của tỷ tỷ đây là tốt nhất có phải không? Ta đồng ý đổi, đổi ngay bây giờ luôn!”
 
-“Nhà tôi có! Có tận hai mẫu cơ! Tôi dùng hai mẫu đất hoang đổi lấy một mẫu đất ở đầu đông làng kia của cậu.”
+“Nhà ta có! Có tận hai mẫu cơ! Ta dùng hai mẫu đất hoang đổi lấy một mẫu đất ở đầu đông làng kia của tiểu huynh đệ.”
 
-“Nhà tôi cũng có!”
+“Nhà ta cũng có!”
 
-Trưởng thôn do dự kéo kéo tay áo Thẩm Khinh Trạch, hết lời khuyên can: “Cậu lấy đất hoang đó làm cái gì chứ? Chỉ riêng việc khai hoang thôi đã không biết tốn bao nhiêu công sức rồi, đợi cậu khai khẩn xong thì mùa đông đã ập tới, đất đai lại cằn cỗi bạc màu. Lão Lý có cho phép cậu làm thế không đấy?”
+Thôn trưởng do dự kéo kéo tay áo Thẩm Khinh Trạch, hết lời khuyên can: “Tiểu huynh đệ lấy đất hoang đó làm cái gì chứ? Chỉ riêng việc khai hoang thôi đã không biết tốn bao nhiêu công sức rồi, đợi cháu khai khẩn xong thì mùa đông đã ập tới, đất đai lại cằn cỗi bạc màu. Lão Lý có cho phép cháu làm thế không đấy?”
 
-“Ai da ông quản người ta làm gì chứ? Chỉ khéo vẽ chuyện, cậu Thẩm nhà chúng ta nhìn một cái là biết người làm chuyện lớn rồi!” Vợ trưởng thôn thay đổi hẳn thái độ lạnh lùng ban nãy, nắm chặt lấy cánh tay trưởng thôn, cười tươi như hoa nở.
+“Ai da ông quản người ta làm gì chứ? Chỉ khéo vẽ chuyện, Thẩm tiểu ca nhà chúng ta nhìn một cái là biết người làm chuyện lớn rồi!” Vợ thôn trưởng thay đổi hẳn thái độ lạnh lùng ban nãy, nắm chặt lấy cánh tay trưởng thôn, cười tươi như hoa nở.
 
-“Bác yên tâm.” Thẩm Khinh Trạch nhận ra thiện ý của trưởng thôn, khẽ gật đầu với ông, không giải thích nhiều.
+“Thôn trưởng cứ yên tâm.” Thẩm Khinh Trạch nhận ra thiện ý của thôn trưởng, khẽ gật đầu với lão, không giải thích nhiều.
 
 “Nếu mọi người không có dị nghị gì, thì ký giấy cam kết tại đây, phiền Mộc trưởng thôn làm người chứng kiến, để tránh sau này phát sinh tranh chấp.”
 
@@ -160,7 +160,7 @@ Lấy đất hoang đổi đất màu mỡ, quả thực là chuyện tốt từ
 
 Tự cảm thấy chiếm được món hời quá lớn, dân làng cũng thấy hơi ngại ngùng, liền đem tặng cho Thẩm Khinh Trạch một ít hoa quả rau dưa do nhà mình tự trồng, trước mặt Thẩm Khinh Trạch thì hết lời khen ngợi biết điều, tháo vát, vừa quay lưng đi đã che miệng cười thầm, cầm tờ khế ước mới ra lò vừa nói vừa cười hớn hở kéo nhau về nhà.
 
-Bà góa Vương dặn đi dặn lại bảo chàng trai có chuyện gì cứ tìm bà “giúp đỡ”, chỉ có trưởng thôn là muốn nói lại thôi, cuối cùng bị cô vợ đang hớn hở lôi tuột đi mất.
+Góa phụ họ Vương dặn đi dặn lại bảo hắn có chuyện gì cứ tìm ả “giúp đỡ”, chỉ có thôn trưởng là muốn nói lại thôi, cuối cùng bị người vợ đang hớn hở lôi tuột đi mất.
 
 Thẩm Khinh Trạch cất kỹ từng tờ khế ước đã được hệ thống chứng thực, tỉ mỉ tính toán lại, hai mươi mẫu đất nhà mình, dùng tay không bắt giặc, thoắt cái đã tăng vọt lên thành bốn mươi mẫu, tăng gấp đôi diện tích.
 
@@ -168,15 +168,15 @@ Thẩm Khinh Trạch cất kỹ từng tờ khế ước đã được hệ th�
 
 Thẩm Khinh Trạch ôm một sọt đầy hoa quả rau dưa, đầu đội vầng trăng sáng vằng vặc, đứng giữa mảnh đất hoang cỏ dại mọc um tùm, khóe miệng từ từ cong lên một nụ cười.
 
-Con chó trắng lớn ngồi xổm bên chân anh, lặng lẽ ngửa đầu ngước nhìn anh.
+Con chó trắng lớn ngồi xổm bên chân hắn, lặng lẽ ngửa đầu ngước nhìn hắn.
 
 Tục ngữ nói cấm có sai, “chịu thiệt” chính là phúc mà.
 
-Anh đội trăng sao vội vã trở về nhà, hoa quả rau dưa cất hết vào hầm đất, lại tận dụng số sắt vụn thép phế còn lại thức trắng đêm trong tiệm rèn đúc thêm vài món nông cụ bằng sắt, sáng sớm hôm sau khi trời còn chưa sáng rõ, anh đã vào thành dắt một con trâu cày về.
+Hắn đội trăng sao vội vã trở về nhà, hoa quả rau dưa cất hết vào hầm đất, lại tận dụng số sắt vụn thép phế còn lại thức trắng đêm trong tiệm rèn đúc thêm vài món nông cụ bằng sắt, sáng sớm hôm sau khi trời còn chưa sáng rõ, hắn đã vào thành dắt một con trâu cày về.
 
 Toàn bộ dải đất phía tây nam thôn này giờ đã được quy về dưới danh nghĩa của lão Lý, Thẩm Khinh Trạch đứng bên bờ ruộng phóng tầm mắt ra xa, đập vào mắt là bạt ngàn cỏ dại ngả nghiêng, cành cây khô khốc và những đóa hoa dại không rõ tên.
 
-Anh châm lửa đốt sạch toàn bộ cỏ dại và cành cây khô, lớp đất trên bề mặt bị thiêu cháy thành màu đen sém, tro cỏ cây vùi sâu vào trong lòng đất làm màu mỡ ruộng đồng.
+Hắn châm lửa đốt sạch toàn bộ cỏ dại và cành cây khô, lớp đất trên bề mặt bị thiêu cháy thành màu đen sém, tro cỏ cây vùi sâu vào trong lòng đất làm màu mỡ ruộng đồng.
 
 【Cửa hàng hệ thống cấp 1: Đất đen thượng hạng, tăng gấp ba lần sản lượng mỗi mẫu, giá mỗi mẫu là 1 đồng vàng.】
 
@@ -202,4 +202,4 @@ Thẩm: …… Khỏa thân chạy rông mà cũng cần phải nạp tiền à?
 
 Hệ thống: Đám chơi chùa không có tư cách lảm nhảm!
 
-Thẩm: Tôi có thể nạp bằng cách nào cơ chứ?!
+Thẩm: Ta có thể nạp bằng cách nào cơ chứ?!
