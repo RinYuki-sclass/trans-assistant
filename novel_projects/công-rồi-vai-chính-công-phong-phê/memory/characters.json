@@ -1,0 +1,18 @@
+[
+  {
+    "id": "lac_vuc",
+    "name": "Lạc Vực",
+    "original_name": "洛域",
+    "role": "Công chính (Chủ công)",
+    "pronoun_3rd": "anh",
+    "description": "Nhân viên Không Gian Nguồn, lý trí, điềm đạm, thường xuyên bị cuốn vào ánh mắt của các nhân vật phong phê."
+  },
+  {
+    "id": "tan_nhien",
+    "name": "Tần Nhiên",
+    "original_name": "秦然",
+    "role": "Thụ chính (Vai chính công nguyên tác hắc hóa)",
+    "pronoun_3rd": "hắn",
+    "description": "Cố chấp, cuồng si, sủng công tuyệt đối, sẵn sàng phá hủy cả thế giới vì công."
+  }
+]

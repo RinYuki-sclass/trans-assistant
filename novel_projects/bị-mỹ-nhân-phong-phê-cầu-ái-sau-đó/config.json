@@ -1,0 +1,21 @@
+{
+  "title": "Bị Mỹ Nhân Phong Phê Cầu Ái Sau Đó",
+  "chinese_title": "被疯批美人求爱后",
+  "author": "Thu Thu Hội Chiu Chiu (秋秋会啾啾)",
+  "description": "Mỹ nhân phong phê tựa như đóa huyết hoa nở rộ nơi địa ngục sâu thẳm, diễm lệ, quỷ quyệt mà yêu dị. Yêu hận của bọn họ đều cực đoan, vừa khiến người ta trầm luân lại vừa khiến người ta hủy diệt.\n'Kế hoạch thu phục phong phê' — nhiệm vụ có độ khó cấp SSS trong lịch sử đã được giao cho Hệ thống 996. Tưởng chừng là nhiệm vụ bất khả thi, nhưng các ký chủ được chọn lại vô cùng tài ba và bản lĩnh.\nMột bộ tiểu thuyết đơn nguyên cực ngọt sủng, theo chân các vị chủ công trầm tĩnh, bản lĩnh thuần phục những đóa hoa ăn thịt người điên cuồng nhất.",
+  "slug": "bị-mỹ-nhân-phong-phê-cầu-ái-sau-đó",
+  "source_lang": "Chinese",
+  "target_lang": "Vietnamese",
+  "raw_links": {
+    "jjwxc": "https://www.jjwxc.net/",
+    "52shuku": "https://www.52shuku.net/chongsheng/24_b/bjZWJ.html"
+  },
+  "style_guide": "Đam mỹ, Chủ công, Khoái xuyên đơn nguyên văn (unit stories), Hệ thống 996, Cường cường, Tình hữu độc chung, Cứu rỗi, Thụ sủng công, 1v1 từng đơn nguyên, HE.\n\nQUY TẮC BẮT BUỘC:\n1. Định dạng đoạn văn: Bắt buộc cách nhau đúng 1 dòng trống (\\n\\n) giữa các đoạn và lời thoại.\n2. Dấu ngoặc thoại: Lời thoại dùng ngoặc kép chuẩn “...”, không dùng gạch ngang đầu câu.\n3. Ngôi 3 trần thuật:\n   - Ký chủ / Công từng thế giới: Dùng 'chàng' (cổ đại/tiên hiệp), 'anh' (hiện đại/tương lai).\n   - Mỹ nhân phong phê / Thụ từng thế giới: Dùng 'y' (cổ đại), 'hắn' (hiện đại/tiên hiệp ma tu).\n   - Hệ thống 996: Dùng 'nó'.\n4. Phân định tuyệt đối giữa Lời thoại trực tiếp vs Trần thuật / Độc thoại nội tâm.\n5. Bảo toàn 1:1 số đoạn văn gốc.",
+  "confidence_threshold": 0.8,
+  "chunk_size": 20,
+  "created_at": "2026-10-23T15:42:00+07:00",
+  "chapters_count": 111,
+  "is_completed": false,
+  "is_dropped": false,
+  "drop_reason": ""
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "source": "lac_vuc",
+    "target": "tan_nhien",
+    "relation": "Người yêu / Đối tượng công lược và thuần phục",
+    "description": "Lạc Vực thấu hiểu và dần tiếp nhận tình cảm mãnh liệt, cuồng nhiệt của Tần Nhiên."
+  },
+  {
+    "source": "tan_nhien",
+    "target": "lac_vuc",
+    "relation": "Ánh trăng sáng / Tín ngưỡng duy nhất",
+    "description": "Tần Nhiên xem Lạc Vực là lý do sống sót và cứu rỗi duy nhất của đời mình."
+  }
+]

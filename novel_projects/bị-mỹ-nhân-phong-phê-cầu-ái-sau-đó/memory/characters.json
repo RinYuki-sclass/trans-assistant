@@ -1,0 +1,56 @@
+[
+  {
+    "id": "giang_hoai_chau",
+    "name": "Giang Hoài Châu",
+    "original_name": "江淮舟",
+    "unit": 1,
+    "role": "Công chính Đơn nguyên 1",
+    "pronoun_3rd": "chàng",
+    "description": "Thế tử Giang Đô Vương, phong lưu phóng khoáng, định lực cao."
+  },
+  {
+    "id": "luc_ngoc_no",
+    "name": "Lục Ngọc Nô",
+    "original_name": "录玉奴",
+    "unit": 1,
+    "role": "Thụ chính Đơn nguyên 1",
+    "pronoun_3rd": "y",
+    "description": "Cửu Thiên Tuế / Đốc công hoạn quan quyền thế, xinh đẹp, bệnh kiều si tình."
+  },
+  {
+    "id": "lo_hanh",
+    "name": "Lộ Hành",
+    "original_name": "路行",
+    "unit": 2,
+    "role": "Công chính Đơn nguyên 2",
+    "pronoun_3rd": "anh",
+    "description": "Alpha ấm áp, kiên nhẫn, chân thành."
+  },
+  {
+    "id": "pho_bac_tan",
+    "name": "Phó Bạc Tân",
+    "original_name": "付薄辛",
+    "unit": 2,
+    "role": "Thụ chính Đơn nguyên 2",
+    "pronoun_3rd": "hắn",
+    "description": "Tổng tài Alpha u ám, bài xích pheromone, độc chiếm người bạn thân duy nhất."
+  },
+  {
+    "id": "tham_ngu",
+    "name": "Thẩm Ngự",
+    "original_name": "沈御",
+    "unit": 3,
+    "role": "Công chính Đơn nguyên 3",
+    "pronoun_3rd": "chàng",
+    "description": "Chưởng môn Đoan Minh Tiên Quân, thanh lãnh, tu vô tình kiếm đạo."
+  },
+  {
+    "id": "tiet_vong",
+    "name": "Tiết Vọng",
+    "original_name": "薛妄",
+    "unit": 3,
+    "role": "Thụ chính Đơn nguyên 3",
+    "pronoun_3rd": "hắn",
+    "description": "U Đô Ma Quân bán yêu, hắc hóa điên cuồng vì sư huynh."
+  }
+]

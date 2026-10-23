@@ -1,0 +1,20 @@
+{
+  "title": "Công Rồi Vai Chính Công Phong Phê! [Khoái Xuyên]",
+  "chinese_title": "攻了疯批主角攻！[快穿]",
+  "author": "Mộc Cẩn Chi (沐瑾枝)",
+  "description": "Tân binh Lạc Vực (洛域) vừa gia nhập Không Gian Nguồn, do thiếu nhân lực nên bị cử đi duy trì tuyến tình cảm giữa các cặp đôi 'tương ái tương sát' trong các tiểu thế giới.\nThế nhưng, số phận trớ trêu, mỗi lần xuyên qua thân phận của anh không phải sắp chết thì cũng đang trên đường đi tìm chết. Nguy hiểm hơn, cốt truyện vốn đã sụp đổ hoàn toàn: Thay vì theo đuổi thụ chính, tên 'vai chính công' ban đầu lại hắc hóa thành một kẻ điên phê tàn nhẫn, điên cuồng dồn toàn bộ ánh mắt nguy hiểm và tình cảm cố chấp lên người anh!\nBề ngoài làm bộ phá hoại, thực chất chỉ muốn làm một 'công cụ truyền tin' hoàn thành nhiệm vụ rồi chạy trốn, ngờ đâu lại bị tên phong phê tóm chặt không buông...",
+  "slug": "công-rồi-vai-chính-công-phong-phê",
+  "source_lang": "Chinese",
+  "target_lang": "Vietnamese",
+  "raw_links": {
+    "jjwxc": "https://www.jjwxc.net/"
+  },
+  "style_guide": "Đam mỹ, Chủ công, Khoái xuyên, Hệ thống, Cường cường, Phong phê hắc hóa thụ, Thụ truy công, Thụ cực sủng công, 1v1, HE.\n\nQUY TẮC BẮT BUỘC:\n1. Định dạng đoạn văn: Bắt buộc cách nhau đúng 1 dòng trống (\\n\\n) giữa các đoạn và lời thoại.\n2. Dấu ngoặc thoại: Lời thoại dùng ngoặc kép chuẩn “...”, không dùng gạch ngang đầu câu.\n3. Ngôi 3 trần thuật:\n   - Lạc Vực (Công chính - 洛域): Dùng 'anh' hoặc 'cậu' (tùy thế giới thiếu niên hay trưởng thành; mặc định dùng 'anh').\n   - Tần Nhiên / Phản diện phong phê (Thụ chính - 秦然): Dùng 'hắn' hoặc 'y'.\n   - Hệ thống: Dùng 'nó'.\n4. Phân định tuyệt đối giữa Lời thoại trực tiếp vs Trần thuật / Độc thoại nội tâm: Không đưa đại từ 'mày - tao' vào câu trần thuật hoặc suy nghĩ nội tâm.\n5. Bảo toàn 1:1 số đoạn văn gốc.",
+  "confidence_threshold": 0.8,
+  "chunk_size": 20,
+  "created_at": "2026-10-23T15:42:00+07:00",
+  "chapters_count": 0,
+  "is_completed": false,
+  "is_dropped": false,
+  "drop_reason": ""
+}

@@ -147,5 +147,6 @@ Tác giả: Nguyên Lai Thị Lạc Lạc (原来是落落)
 - **Thể loại:** Đam mỹ, Chủ công, Xuyên nhanh (Khoái xuyên), Xuyên thư, Hệ thống, Hài hước sa điêu, Cứu rỗi phản diện, Ngọt sủng, Vả mặt sảng văn, Hiện đại, Cổ đại, Tiên hiệp, Tương lai, Linh dị, Showbiz, 1v1, HE
 - **Nhân vật chính:** Chu Nhàn (Công - 周闲) × Lục Ninh Sâm / A Tuyết (Thụ - 陆宁琛 / 阿雪) | Hệ thống Cải tạo Phản diện
 - **Độ dài:** 257 chương (FULL)
-- **Nguồn:** JJWXC (`8670101`) & 52shuku
-- **Project:** Đã khởi tạo trong `novel_projects/cá-mặn-ký-chủ-tổng-đối-vai-ác-nhất-kiến-chung-tình/`
+- **Nguồn Raw:** JJWXC (`8670101`) & 52shuku
+- **Bản dịch tiếng Việt có sẵn:** Đã hoàn thành 257 chương trên app **TYT (Tôi Yêu Truyện)** do translator **Gà rán (acc phụ)** thực hiện. Link: [tytnovel.info](https://tytnovel.info/truyen/69fecd1bfc6c710f9039c5e3/ca-man-ky-chu-tong-doi-vai-ac-nhat-kien-chung-tinh)
+- **Trạng thái To-Do:** Đã khởi tạo dự án trong `novel_projects/cá-mặn-ký-chủ-tổng-đối-vai-ác-nhất-kiến-chung-tình/`. Chờ nhập bản dịch từ TYT (hoặc tự động dịch trực tiếp từ raw khi cần đọc).

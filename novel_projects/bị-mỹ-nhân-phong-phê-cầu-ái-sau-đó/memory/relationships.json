@@ -1,0 +1,20 @@
+[
+  {
+    "source": "giang_hoai_chau",
+    "target": "luc_ngoc_no",
+    "relation": "Bạch nguyệt quang / Định mệnh duy nhất",
+    "description": "Lục Ngọc Nô xem Giang Hoài Châu là ánh sáng duy nhất cứu rỗi đời mình."
+  },
+  {
+    "source": "lo_hanh",
+    "target": "pho_bac_tan",
+    "relation": "Bạn thân hóa người yêu",
+    "description": "Phó Bạc Tân ôm mối tương tư âm thầm đến phát điên với Lộ Hành."
+  },
+  {
+    "source": "tham_ngu",
+    "target": "tiet_vong",
+    "relation": "Sư huynh đệ / Tiên ma tương ái",
+    "description": "Tiết Vọng dành trọn sự tôn sùng và chiếm hữu điên loạn cho Thẩm Ngự."
+  }
+]

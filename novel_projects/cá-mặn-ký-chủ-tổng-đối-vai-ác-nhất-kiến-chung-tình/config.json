@@ -8,7 +8,8 @@
   "target_lang": "Vietnamese",
   "raw_links": {
     "jjwxc": "https://www.jjwxc.net/onebook.php?novelid=8670101",
-    "52shuku": "https://www.52shuku.net/chongsheng/03_b/bk4mZ.html"
+    "52shuku": "https://www.52shuku.net/chongsheng/03_b/bk4mZ.html",
+    "tyt_translated": "https://tytnovel.info/truyen/69fecd1bfc6c710f9039c5e3/ca-man-ky-chu-tong-doi-vai-ac-nhat-kien-chung-tinh"
   },
   "style_guide": "Đam mỹ, Chủ công, Khoái xuyên, Hệ thống, Hài hước sa điêu, Ngọt sủng, Cứu rỗi phản diện, Vả mặt sảng văn, HE, 1v1.\n\nQUY TẮC BẮT BUỘC:\n1. Định dạng đoạn văn: Bắt buộc cách nhau đúng 1 dòng trống (\\n\\n) giữa các đoạn và lời thoại. Tuyệt đối không dính liền dòng (\\n).\n2. Dấu ngoặc thoại: Lời thoại dùng ngoặc kép chuẩn “...”, không dùng gạch ngang đầu câu (— ...).\n3. Ngôi 3 trần thuật (Narration POV):\n   - Chu Nhàn (Công chính - 周闲): Dùng 'anh' (hoặc 'hắn' trong thế giới cổ đại/tiên hiệp theo quy chuẩn riêng của arc).\n   - Lục Ninh Sâm / Phản diện thụ (陆宁琛 / 阿雪): Dùng 'cậu' trong thế giới hiện đại/showbiz; dùng 'y' trong thế giới cổ trang/tiên hiệp/cung đình.\n   - Hệ thống cải tạo phản diện: Dùng 'nó' trong trần thuật ngôi 3; xưng 'tôi / Hệ thống' - gọi 'Ký chủ'.\n4. Bảo toàn 1:1: Số đoạn văn bản dịch phải khớp chính xác 1:1 với nguyên tác, không tự gộp hay tách đoạn.",
   "confidence_threshold": 0.8,
