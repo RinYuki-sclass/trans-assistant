@@ -1,0 +1,1362 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NovelUpdates Series Tracker — Danh sách cố định</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --nu-blue: #1e73be;
+      --nu-blue-hover: #14558f;
+      --nu-tag-bg: #3b536b;
+      --nu-tag-hover: #2c3e50;
+      --nu-star: #d42027;
+      --nu-kr: #e67e22;
+      --bg-page: #f3f5f8;
+      --card-bg: #ffffff;
+      --border-color: #e1e6eb;
+      --text-main: #333333;
+      --text-sub: #555555;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background-color: var(--bg-page);
+      color: var(--text-main);
+    }
+
+    /* TOP HEADER */
+    .top-navbar {
+      background: #1e293b;
+      color: #fff;
+      padding: 12px 24px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+    }
+
+    .navbar-inner {
+      max-width: 1120px;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 18px;
+      font-weight: 700;
+      color: #fff;
+    }
+
+    .brand-badge {
+      background: #0ea5e9;
+      color: #fff;
+      font-size: 11px;
+      padding: 2px 8px;
+      border-radius: 12px;
+      font-weight: 600;
+    }
+
+    .nav-actions {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 7px 13px;
+      border-radius: 6px;
+      font-size: 13px;
+      font-weight: 600;
+      border: 1px solid transparent;
+      cursor: pointer;
+      transition: all 0.15s ease;
+      font-family: inherit;
+    }
+
+    .btn:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+
+    .btn-primary {
+      background: #2563eb;
+      color: #fff;
+    }
+    .btn-primary:hover:not(:disabled) {
+      background: #1d4ed8;
+    }
+
+    .btn-secondary {
+      background: #334155;
+      color: #f8fafc;
+      border-color: #475569;
+    }
+    .btn-secondary:hover:not(:disabled) {
+      background: #475569;
+    }
+
+    .btn-warning {
+      background: #f59e0b;
+      color: #fff;
+    }
+    .btn-warning:hover:not(:disabled) {
+      background: #d97706;
+    }
+
+    /* SYNC PROGRESS BAR */
+    .sync-banner {
+      max-width: 1120px;
+      margin: 12px auto 0;
+      padding: 0 16px;
+      display: none;
+    }
+    .sync-banner.active {
+      display: block;
+    }
+    .sync-box {
+      background: #eff6ff;
+      border: 1px solid #bfdbfe;
+      border-radius: 8px;
+      padding: 10px 16px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      color: #1e40af;
+      font-size: 13px;
+    }
+    .progress-track {
+      flex: 1;
+      height: 8px;
+      background: #dbeafe;
+      border-radius: 99px;
+      overflow: hidden;
+      max-width: 340px;
+    }
+    .progress-fill {
+      height: 100%;
+      background: #2563eb;
+      width: 0%;
+      transition: width 0.3s ease;
+    }
+
+    /* MAIN CONTAINER */
+    .container {
+      max-width: 1120px;
+      margin: 16px auto 60px;
+      padding: 0 16px;
+    }
+
+    /* TABS BAR */
+    .tabs-bar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 14px;
+      border-bottom: 2px solid #cbd5e1;
+      padding-bottom: 10px;
+    }
+
+    .tab-btn {
+      background: #fff;
+      color: #475569;
+      border: 1px solid #cbd5e1;
+      padding: 8px 15px;
+      border-radius: 6px;
+      font-size: 13.5px;
+      font-weight: 600;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      transition: all 0.15s;
+    }
+
+    .tab-btn:hover {
+      border-color: #94a3b8;
+      color: #0f172a;
+    }
+
+    .tab-btn.active {
+      background: var(--nu-blue);
+      color: #fff;
+      border-color: var(--nu-blue);
+    }
+
+    .tab-count {
+      background: rgba(0, 0, 0, 0.1);
+      padding: 1px 7px;
+      border-radius: 10px;
+      font-size: 12px;
+    }
+    .tab-btn.active .tab-count {
+      background: rgba(255, 255, 255, 0.25);
+      color: #fff;
+    }
+
+    .badge-new-alert {
+      background: #ef4444 !important;
+      color: #fff !important;
+      animation: pulseBadge 1.6s infinite;
+    }
+
+    @keyframes pulseBadge {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.08); }
+    }
+
+    /* FILTER & SEARCH TOOLBAR */
+    .filter-bar {
+      background: #fff;
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      padding: 12px 16px;
+      margin-bottom: 16px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+    }
+
+    .filter-group {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .input-text, .select-box {
+      padding: 7px 11px;
+      border: 1px solid #cbd5e1;
+      border-radius: 5px;
+      font-size: 13px;
+      font-family: inherit;
+      color: #1e293b;
+      background: #fff;
+    }
+    .input-text:focus, .select-box:focus {
+      outline: none;
+      border-color: var(--nu-blue);
+    }
+
+    /* NOVELUPDATES SERIES CARD (EXACT MATCH TO SCREENSHOT) */
+    .series-list {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .search_main_box_nu {
+      background: var(--card-bg);
+      border: 1px solid var(--border-color);
+      border-radius: 4px;
+      padding: 16px 18px;
+      display: flex;
+      gap: 18px;
+      align-items: flex-start;
+      transition: opacity 0.22s ease, transform 0.22s ease, box-shadow 0.15s ease;
+      position: relative;
+    }
+
+    .search_main_box_nu:hover {
+      box-shadow: 0 3px 12px rgba(0, 0, 0, 0.06);
+      border-color: #cbd5e1;
+    }
+
+    .search_main_box_nu.bookmarked-pos {
+      border-left: 5px solid #f59e0b;
+      background: #fffbeb;
+    }
+
+    .search_main_box_nu.removing {
+      opacity: 0;
+      transform: translateX(30px);
+    }
+
+    /* Left Column: Cover Image + Stars + KR (Rating) */
+    .search_img_nu {
+      width: 112px;
+      flex-shrink: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    .search_img_nu img {
+      width: 110px;
+      height: 156px;
+      object-fit: cover;
+      border: 1px solid #dcdcdc;
+      background: #f8fafc;
+      display: block;
+    }
+
+    .search_stars {
+      margin-top: 8px;
+      color: var(--nu-star);
+      font-size: 17px;
+      letter-spacing: 1px;
+      line-height: 1;
+    }
+
+    .search_ratings {
+      margin-top: 4px;
+      font-size: 13.5px;
+      color: #333;
+      font-weight: 600;
+    }
+
+    .search_ratings .orgkr {
+      color: var(--nu-kr);
+      font-weight: 700;
+      margin-right: 2px;
+    }
+
+    /* Right Column: Title, Stats, Genres, Description */
+    .search_body_nu {
+      flex: 1;
+      min-width: 0;
+    }
+
+    .card-header-row {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 12px;
+      margin-bottom: 6px;
+    }
+
+    .search_title {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 8px;
+      line-height: 1.3;
+    }
+
+    .fixed-idx-badge {
+      font-size: 11.5px;
+      font-weight: 700;
+      color: #64748b;
+      background: #f1f5f9;
+      border: 1px solid #e2e8f0;
+      padding: 1px 6px;
+      border-radius: 4px;
+      user-select: none;
+    }
+
+    .new-series-pill {
+      background: #ef4444;
+      color: #fff;
+      font-size: 11px;
+      font-weight: 700;
+      padding: 2px 7px;
+      border-radius: 4px;
+      letter-spacing: 0.3px;
+    }
+
+    .checkpoint-pill {
+      background: #f59e0b;
+      color: #fff;
+      font-size: 11px;
+      font-weight: 700;
+      padding: 2px 7px;
+      border-radius: 4px;
+    }
+
+    .search_title a {
+      color: var(--nu-blue);
+      font-size: 18.5px;
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    .search_title a:hover {
+      color: var(--nu-blue-hover);
+      text-decoration: underline;
+    }
+
+    /* Quick Action Buttons on each card */
+    .card-actions {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      flex-shrink: 0;
+    }
+
+    .act-btn {
+      border: 1px solid #cbd5e1;
+      background: #f8fafc;
+      color: #334155;
+      font-size: 12px;
+      font-weight: 600;
+      padding: 4px 9px;
+      border-radius: 4px;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      transition: all 0.15s;
+    }
+
+    .act-btn.btn-read:hover {
+      background: #16a34a;
+      color: #fff;
+      border-color: #16a34a;
+    }
+
+    .act-btn.btn-blacklist:hover {
+      background: #dc2626;
+      color: #fff;
+      border-color: #dc2626;
+    }
+
+    .act-btn.btn-bookmark:hover {
+      background: #0284c7;
+      color: #fff;
+      border-color: #0284c7;
+    }
+
+    .act-btn.btn-checkpoint:hover {
+      background: #d97706;
+      color: #fff;
+      border-color: #d97706;
+    }
+
+    /* Stats Line */
+    .search_stats {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 14px;
+      color: var(--text-sub);
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+
+    .ss_desk {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .ss_desk i {
+      color: #4b5563;
+      font-size: 13.5px;
+    }
+
+    /* Genre Pills */
+    .search_genre {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-bottom: 10px;
+    }
+
+    .gennew {
+      background-color: var(--nu-tag-bg);
+      color: #ffffff;
+      font-size: 12px;
+      font-weight: 600;
+      padding: 3px 8px;
+      border-radius: 3px;
+      text-decoration: none;
+      cursor: pointer;
+      transition: background 0.15s;
+      user-select: none;
+    }
+
+    .gennew:hover {
+      background-color: var(--nu-tag-hover);
+    }
+
+    .gennew.active-filter {
+      background-color: #d97706;
+    }
+
+    /* Description Text & more>> toggle */
+    .search_desc {
+      font-size: 15px;
+      line-height: 1.55;
+      color: #444444;
+      word-break: break-word;
+    }
+
+    .search_desc p {
+      margin: 0 0 8px 0;
+    }
+    .search_desc p:last-child {
+      margin-bottom: 0;
+    }
+
+    .morelink {
+      color: var(--nu-blue);
+      cursor: pointer;
+      font-weight: 600;
+      margin-left: 4px;
+      text-decoration: none;
+      white-space: nowrap;
+    }
+    .morelink:hover {
+      text-decoration: underline;
+    }
+
+    /* PAGINATION (NovelUpdates Digg Style) */
+    .pagination-bar {
+      margin-top: 20px;
+      background: #fff;
+      border: 1px solid var(--border-color);
+      border-radius: 6px;
+      padding: 12px 16px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+    }
+
+    .digg_pagination {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .digg_pagination a, .digg_pagination em, .digg_pagination span {
+      padding: 5px 11px;
+      border: 1px solid #cbd5e1;
+      border-radius: 4px;
+      font-size: 13.5px;
+      text-decoration: none;
+      color: var(--nu-blue);
+      background: #fff;
+      cursor: pointer;
+      font-style: normal;
+      font-weight: 600;
+    }
+
+    .digg_pagination a:hover {
+      border-color: var(--nu-blue);
+      background: #f0f7ff;
+    }
+
+    .digg_pagination em.current {
+      background: #2c3e50;
+      color: #fff;
+      border-color: #2c3e50;
+      cursor: default;
+    }
+
+    /* TOAST & UNDO BAR */
+    .toast-container {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 999;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .toast {
+      background: #1e293b;
+      color: #fff;
+      padding: 11px 16px;
+      border-radius: 8px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.22);
+      font-size: 13.5px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      animation: slideUp 0.2s ease;
+    }
+
+    .toast-undo-btn {
+      background: #38bdf8;
+      color: #0f172a;
+      border: none;
+      padding: 4px 9px;
+      border-radius: 4px;
+      font-weight: 700;
+      font-size: 12px;
+      cursor: pointer;
+    }
+
+    @keyframes slideUp {
+      from { transform: translateY(15px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+
+    /* MODAL SETTINGS */
+    .modal-backdrop {
+      position: fixed;
+      inset: 0;
+      background: rgba(15, 23, 42, 0.55);
+      z-index: 200;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 16px;
+    }
+    .modal-backdrop.open {
+      display: flex;
+    }
+    .modal-card {
+      background: #fff;
+      border-radius: 10px;
+      max-width: 580px;
+      width: 100%;
+      padding: 22px 24px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+    }
+    .modal-card h3 {
+      margin: 0 0 14px;
+      font-size: 18px;
+    }
+    .form-row {
+      margin-bottom: 14px;
+    }
+    .form-row label {
+      display: block;
+      font-size: 13px;
+      font-weight: 600;
+      margin-bottom: 5px;
+      color: #334155;
+    }
+    .form-row input {
+      width: 100%;
+      padding: 8px 11px;
+      border: 1px solid #cbd5e1;
+      border-radius: 6px;
+      font-size: 13.5px;
+    }
+
+    .empty-state {
+      background: #fff;
+      border: 1px dashed #cbd5e1;
+      border-radius: 8px;
+      padding: 48px 20px;
+      text-align: center;
+      color: #64748b;
+    }
+
+    @media (max-width: 640px) {
+      .search_main_box_nu {
+        flex-direction: column;
+      }
+      .search_img_nu {
+        width: 100%;
+        flex-direction: row;
+        gap: 14px;
+        text-align: left;
+      }
+      .card-header-row {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- TOP NAVBAR -->
+  <header class="top-navbar">
+    <div class="navbar-inner">
+      <div class="brand">
+        <i class="fa fa-book"></i>
+        <span>NovelUpdates Tracker</span>
+        <span class="brand-badge">Thứ tự cố định 100%</span>
+      </div>
+      <div class="nav-actions">
+        <button class="btn btn-warning" id="btnJumpBookmark" onclick="jumpToBookmark()" title="Nhảy tới vị trí truyện bạn đã đánh dấu đang xem dở">
+          <i class="fa fa-map-marker"></i> Vị trí đang xem <span id="lblBookmarkOrder"></span>
+        </button>
+        <button class="btn btn-primary" id="btnCheckNew" onclick="triggerSync('check_new')">
+          <i class="fa fa-bell"></i> Kiểm tra Bộ Mới
+        </button>
+        <button class="btn btn-secondary" id="btnFullSync" onclick="triggerSync('full')" title="Quét toàn bộ các trang để cập nhật hoặc lấp đầy danh sách cố định">
+          <i class="fa fa-refresh"></i> Quét toàn bộ
+        </button>
+        <button class="btn btn-secondary" onclick="openSettingsModal()">
+          <i class="fa fa-cog"></i> Cài đặt
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- SYNC BANNER -->
+  <div class="sync-banner" id="syncBanner">
+    <div class="sync-box">
+      <div>
+        <i class="fa fa-spinner fa-spin"></i>
+        <strong id="syncMessage">Đang đồng bộ dữ liệu...</strong>
+      </div>
+      <div class="progress-track">
+        <div class="progress-fill" id="syncProgressFill"></div>
+      </div>
+      <span id="syncPageCounter">0/0</span>
+    </div>
+  </div>
+
+  <!-- MAIN CONTENT -->
+  <main class="container">
+    <!-- TABS -->
+    <div class="tabs-bar">
+      <button class="tab-btn active" data-tab="unread" onclick="switchTab('unread')">
+        <i class="fa fa-list-ol"></i> Danh sách chính (Chưa đọc)
+        <span class="tab-count" id="cnt-unread">0</span>
+      </button>
+      <button class="tab-btn" data-tab="new" onclick="switchTab('new')">
+        <i class="fa fa-bell"></i> Bộ mới xuất hiện
+        <span class="tab-count" id="cnt-new">0</span>
+      </button>
+      <button class="tab-btn" data-tab="bookmark" onclick="switchTab('bookmark')">
+        <i class="fa fa-star"></i> Đã lưu đọc sau
+        <span class="tab-count" id="cnt-bookmark">0</span>
+      </button>
+      <button class="tab-btn" data-tab="read" onclick="switchTab('read')">
+        <i class="fa fa-check-circle"></i> Đã đọc (Ẩn)
+        <span class="tab-count" id="cnt-read">0</span>
+      </button>
+      <button class="tab-btn" data-tab="blacklist" onclick="switchTab('blacklist')">
+        <i class="fa fa-ban"></i> Blacklist (Chặn)
+        <span class="tab-count" id="cnt-blacklist">0</span>
+      </button>
+    </div>
+
+    <!-- FILTER & SEARCH BAR -->
+    <div class="filter-bar">
+      <div class="filter-group">
+        <input type="text" id="searchInput" class="input-text" placeholder="🔍 Tìm tên truyện, từ khóa tóm tắt..." style="width: 240px;" oninput="debounceSearch()" />
+        <input type="text" id="genreInput" class="input-text" placeholder="Tag (VD: School Life)..." style="width: 155px;" oninput="debounceSearch()" />
+        <select id="minRatingSelect" class="select-box" onchange="resetPageAndLoad()">
+          <option value="0">⭐ Mọi điểm số</option>
+          <option value="4.2">⭐ >= 4.2</option>
+          <option value="4.0">⭐ >= 4.0</option>
+          <option value="3.8">⭐ >= 3.8</option>
+          <option value="3.5">⭐ >= 3.5</option>
+        </select>
+        <select id="sortSelect" class="select-box" onchange="resetPageAndLoad()">
+          <option value="fixed_asc">🔒 Thứ tự cố định (#1 → #N)</option>
+          <option value="fixed_desc">🔒 Thứ tự cố định (#N → #1)</option>
+          <option value="rating_desc">⭐ Điểm đánh giá cao nhất</option>
+          <option value="readers_desc">👤 Nhiều người đọc nhất</option>
+          <option value="chapters_desc">▤ Nhiều chương nhất</option>
+          <option value="newest_seen">🆕 Mới phát hiện gần đây</option>
+        </select>
+      </div>
+
+      <div class="filter-group">
+        <button class="btn btn-primary" id="btnMarkAllNewSeen" style="display:none; background:#16a34a;" onclick="markAllNewSeen()">
+          <i class="fa fa-check-square-o"></i> Đánh dấu đã xem tất cả bộ mới
+        </button>
+        <span style="font-size: 12.5px; color: #64748b;" id="lastSyncLabel">Chưa đồng bộ</span>
+      </div>
+    </div>
+
+    <!-- SERIES CARDS CONTAINER -->
+    <div id="seriesList" class="series-list"></div>
+
+    <!-- PAGINATION BAR -->
+    <div class="pagination-bar" id="paginationBar">
+      <div class="digg_pagination" id="paginationLinks"></div>
+      <div style="display:flex; align-items:center; gap:8px; font-size:13px; color:#475569;">
+        <span>Đi tới trang:</span>
+        <input type="number" id="jumpPageInput" class="input-text" style="width:70px; padding:4px 8px;" min="1" value="1" onkeydown="if(event.key==='Enter') goToInputPage()" />
+        <button class="btn btn-secondary" style="padding:5px 10px;" onclick="goToInputPage()">Đi</button>
+      </div>
+    </div>
+  </main>
+
+  <!-- TOAST CONTAINER -->
+  <div class="toast-container" id="toastContainer"></div>
+
+  <!-- SETTINGS MODAL -->
+  <div class="modal-backdrop" id="settingsModal">
+    <div class="modal-card">
+      <h3><i class="fa fa-cog"></i> Cài đặt theo dõi NovelUpdates</h3>
+      <div class="form-row">
+        <label>URL Bộ lọc NovelUpdates Series Finder:</label>
+        <input type="text" id="cfgTargetUrl" />
+      </div>
+      <div class="form-row">
+        <label>Tự động kiểm tra Bộ Mới mỗi (phút, đặt 0 để tắt tự động):</label>
+        <input type="number" id="cfgAutoMinutes" min="0" max="1440" />
+      </div>
+      <div class="form-row">
+        <label>Tự động ẩn các bộ có chứa Tag (cách nhau bằng dấu phẩy, VD: Tragedy, NTR):</label>
+        <input type="text" id="cfgExcludedTags" placeholder="VD: Tragedy, Horror" />
+      </div>
+      <div style="display:flex; justify-content:flex-end; gap:10px; margin-top:18px;">
+        <button class="btn btn-secondary" onclick="closeSettingsModal()">Đóng</button>
+        <button class="btn btn-primary" onclick="saveSettings()">Lưu cài đặt</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    let currentTab = localStorage.getItem('nu_tab') || 'unread';
+    let currentPage = parseInt(localStorage.getItem('nu_page_unread') || '1', 10);
+    let perPage = 25;
+    let totalPages = 1;
+    let bookmarkedOrder = 0;
+    let searchTimer = null;
+    let lastKnownNewCount = -1;
+
+    function initApp() {
+      // Request browser notification permission if supported
+      if ("Notification" in window && Notification.permission === "default") {
+        Notification.requestPermission();
+      }
+      updateActiveTabUI();
+      loadSeries();
+      setInterval(pollSyncStatus, 3000);
+    }
+
+    function updateActiveTabUI() {
+      document.querySelectorAll('.tab-btn').forEach(btn => {
+        btn.classList.toggle('active', btn.dataset.tab === currentTab);
+      });
+      const btnMarkAll = document.getElementById('btnMarkAllNewSeen');
+      btnMarkAll.style.display = (currentTab === 'new') ? 'inline-flex' : 'none';
+    }
+
+    function switchTab(tab) {
+      currentTab = tab;
+      localStorage.setItem('nu_tab', tab);
+      if (tab === 'unread') {
+        currentPage = parseInt(localStorage.getItem('nu_page_unread') || '1', 10);
+      } else {
+        currentPage = 1;
+      }
+      updateActiveTabUI();
+      loadSeries();
+    }
+
+    function debounceSearch() {
+      clearTimeout(searchTimer);
+      searchTimer = setTimeout(() => {
+        currentPage = 1;
+        loadSeries();
+      }, 300);
+    }
+
+    function resetPageAndLoad() {
+      currentPage = 1;
+      loadSeries();
+    }
+
+    function renderStarsHtml(rating) {
+      const r = parseFloat(rating) || 0;
+      let html = '';
+      for (let i = 1; i <= 5; i++) {
+        if (r >= i - 0.2) {
+          html += '<i class="fa fa-star"></i>';
+        } else if (r >= i - 0.7) {
+          html += '<i class="fa fa-star-half-o"></i>';
+        } else {
+          html += '<i class="fa fa-star-o"></i>';
+        }
+      }
+      return html;
+    }
+
+    function escapeHtml(str) {
+      if (!str) return '';
+      return str
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;');
+    }
+
+    function formatFullDescHtml(fullDesc) {
+      if (!fullDesc) return '';
+      return fullDesc
+        .split(/\n+/)
+        .map(p => `<p>${escapeHtml(p)}</p>`)
+        .join('');
+    }
+
+    async function loadSeries() {
+      const q = document.getElementById('searchInput').value.trim();
+      const genre = document.getElementById('genreInput').value.trim();
+      const minRating = document.getElementById('minRatingSelect').value;
+      const sort = document.getElementById('sortSelect').value;
+
+      const params = new URLSearchParams({
+        tab: currentTab,
+        page: currentPage,
+        per_page: perPage,
+        q,
+        genre,
+        min_rating: minRating,
+        sort
+      });
+
+      try {
+        const res = await fetch(`/api/series?${params.toString()}`);
+        const data = await res.json();
+
+        totalPages = data.total_pages || 1;
+        if (currentPage > totalPages) {
+          currentPage = totalPages;
+        }
+        if (currentTab === 'unread') {
+          localStorage.setItem('nu_page_unread', String(currentPage));
+        }
+
+        bookmarkedOrder = data.bookmarked_order || 0;
+        const lblBm = document.getElementById('lblBookmarkOrder');
+        lblBm.textContent = bookmarkedOrder > 0 ? `(#${bookmarkedOrder})` : '';
+
+        // Update counts
+        const c = data.counts || {};
+        document.getElementById('cnt-unread').textContent = c.unread || 0;
+        const cntNewEl = document.getElementById('cnt-new');
+        cntNewEl.textContent = c.new || 0;
+        cntNewEl.classList.toggle('badge-new-alert', (c.new || 0) > 0);
+        document.getElementById('cnt-bookmark').textContent = c.bookmark || 0;
+        document.getElementById('cnt-read').textContent = c.read || 0;
+        document.getElementById('cnt-blacklist').textContent = c.blacklist || 0;
+
+        renderSeriesCards(data.items || [], genre);
+        renderPagination(data.page, data.total_pages, data.total_items);
+        updateSyncUI(data.sync_state);
+      } catch (err) {
+        console.error('Lỗi tải danh sách:', err);
+      }
+    }
+
+    function renderSeriesCards(items, activeGenre) {
+      const container = document.getElementById('seriesList');
+      if (!items.length) {
+        container.innerHTML = `
+          <div class="empty-state">
+            <i class="fa fa-inbox" style="font-size:36px; margin-bottom:10px; display:block;"></i>
+            <div style="font-size:15px; font-weight:600;">Không có bộ truyện nào trong danh sách này</div>
+            <div style="font-size:13px; margin-top:6px;">Nếu đây là lần chạy đầu tiên, hệ thống đang tự động tải danh sách cố định ở thanh trạng thái phía trên.</div>
+          </div>
+        `;
+        return;
+      }
+
+      container.innerHTML = items.map(item => {
+        const coverSrc = item.image_url
+          ? `/api/proxy-image?url=${encodeURIComponent(item.image_url)}`
+          : 'https://cdn.novelupdates.com/imgmid/noimagemid.jpg';
+
+        const hasMore = item.full_desc && item.full_desc.length > (item.short_desc || '').length + 5;
+        const isBookmarkedPos = (bookmarkedOrder > 0 && item.fixed_order === bookmarkedOrder);
+
+        const genresHtml = (item.genres || []).map(g => {
+          const isAct = activeGenre && g.toLowerCase() === activeGenre.toLowerCase();
+          return `<span class="gennew ${isAct ? 'active-filter' : ''}" onclick="filterByGenre('${escapeHtml(g)}')">${escapeHtml(g)}</span>`;
+        }).join('');
+
+        let actionButtonsHtml = '';
+        if (currentTab === 'read' || currentTab === 'blacklist') {
+          actionButtonsHtml = `
+            <button class="act-btn btn-read" onclick="changeStatus('${item.series_id}', 'unread', '${escapeHtml(item.title)}')">
+              <i class="fa fa-undo"></i> Đưa về Chưa đọc
+            </button>
+          `;
+        } else {
+          actionButtonsHtml = `
+            <button class="act-btn btn-read" onclick="changeStatus('${item.series_id}', 'read', '${escapeHtml(item.title)}')" title="Đánh dấu Đã đọc và ẩn khỏi danh sách">
+              <i class="fa fa-check"></i> Đã đọc
+            </button>
+            <button class="act-btn btn-blacklist" onclick="changeStatus('${item.series_id}', 'blacklist', '${escapeHtml(item.title)}')" title="Đưa vào Blacklist để không bao giờ hiện lại">
+              <i class="fa fa-ban"></i> Blacklist
+            </button>
+            <button class="act-btn btn-bookmark" onclick="changeStatus('${item.series_id}', '${item.status === 'bookmark' ? 'unread' : 'bookmark'}', '${escapeHtml(item.title)}')" title="Lưu vào mục Đọc sau">
+              <i class="fa ${item.status === 'bookmark' ? 'fa-star' : 'fa-star-o'}"></i> ${item.status === 'bookmark' ? 'Bỏ lưu' : 'Lưu'}
+            </button>
+            <button class="act-btn btn-checkpoint" onclick="saveCheckpoint(${item.fixed_order})" title="Đánh dấu đang xem tới vị trí bộ #${item.fixed_order}">
+              <i class="fa fa-map-pin"></i> Đánh dấu #${item.fixed_order}
+            </button>
+          `;
+        }
+
+        return `
+          <div class="search_main_box_nu ${isBookmarkedPos ? 'bookmarked-pos' : ''}" id="card-${item.series_id}">
+            <div class="search_img_nu">
+              <img src="${coverSrc}" alt="${escapeHtml(item.title)}" loading="lazy" onerror="this.src='https://cdn.novelupdates.com/imgmid/noimagemid.jpg'" />
+              <div class="search_stars">
+                ${renderStarsHtml(item.rating)}
+              </div>
+              <div class="search_ratings">
+                <span class="orgkr">${escapeHtml(item.origin || 'KR')}</span> ${escapeHtml(item.rating_text || '(0.0)')}
+              </div>
+            </div>
+
+            <div class="search_body_nu">
+              <div class="card-header-row">
+                <div class="search_title">
+                  <span class="fixed-idx-badge" title="Thứ tự cố định không bao giờ bị xáo trộn">#${item.fixed_order}</span>
+                  ${item.is_new ? '<span class="new-series-pill">✨ BỘ MỚI</span>' : ''}
+                  ${isBookmarkedPos ? '<span class="checkpoint-pill">📌 ĐANG XEM TỚI ĐÂY</span>' : ''}
+                  <a href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(item.title)}</a>
+                </div>
+                <div class="card-actions">
+                  ${actionButtonsHtml}
+                </div>
+              </div>
+
+              <div class="search_stats">
+                <span class="ss_desk" title="Chapter Count">
+                  <i class="fa fa-list-alt"></i> ${escapeHtml(item.chapters)}
+                </span>
+                <span class="ss_desk" title="Updates Frequency">
+                  <i class="fa fa-bolt"></i> ${escapeHtml(item.frequency)}
+                </span>
+                <span class="ss_desk" title="Readers">
+                  <i class="fa fa-user-o"></i> ${escapeHtml(item.readers)}
+                </span>
+                <span class="ss_desk" title="Reviews">
+                  <i class="fa fa-pencil-square-o"></i> ${escapeHtml(item.reviews)}
+                </span>
+                <span class="ss_desk" title="Last Updated">
+                  <i class="fa fa-calendar"></i> ${escapeHtml(item.last_updated)}
+                </span>
+              </div>
+
+              <div class="search_genre">
+                ${genresHtml}
+              </div>
+
+              <div class="search_desc">
+                <span id="short-${item.series_id}">
+                  ${escapeHtml(item.short_desc)}
+                  ${hasMore ? `.... <span class="morelink" onclick="toggleDesc('${item.series_id}', true)">more&gt;&gt;</span>` : ''}
+                </span>
+                ${hasMore ? `
+                  <div id="full-${item.series_id}" style="display:none;">
+                    ${formatFullDescHtml(item.full_desc)}
+                    <span class="morelink" onclick="toggleDesc('${item.series_id}', false)">&lt;&lt;less</span>
+                  </div>
+                ` : ''}
+              </div>
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    function toggleDesc(seriesId, showFull) {
+      const shortEl = document.getElementById(`short-${seriesId}`);
+      const fullEl = document.getElementById(`full-${seriesId}`);
+      if (!shortEl || !fullEl) return;
+      shortEl.style.display = showFull ? 'none' : 'inline';
+      fullEl.style.display = showFull ? 'block' : 'none';
+    }
+
+    function filterByGenre(genre) {
+      const input = document.getElementById('genreInput');
+      if (input.value.toLowerCase() === genre.toLowerCase()) {
+        input.value = '';
+      } else {
+        input.value = genre;
+      }
+      currentPage = 1;
+      loadSeries();
+    }
+
+    async function changeStatus(seriesId, newStatus, title) {
+      const card = document.getElementById(`card-${seriesId}`);
+      if (card) {
+        card.classList.add('removing');
+      }
+      try {
+        await fetch('/api/status', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ series_id: seriesId, status: newStatus })
+        });
+        const statusLabels = {
+          read: 'Đã chuyển vào Đã đọc',
+          blacklist: 'Đã đưa vào Blacklist',
+          bookmark: 'Đã lưu vào Đọc sau',
+          unread: 'Đã khôi phục về Chưa đọc'
+        };
+        showToast(`${statusLabels[newStatus] || 'Đã cập nhật'}: "${title}"`, async () => {
+          await fetch('/api/status', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ series_id: seriesId, status: 'unread' })
+          });
+          loadSeries();
+        });
+        setTimeout(() => loadSeries(), 180);
+      } catch (e) {
+        console.error(e);
+      }
+    }
+
+    async function saveCheckpoint(fixedOrder) {
+      const res = await fetch('/api/bookmark', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ fixed_order: fixedOrder, per_page: perPage })
+      });
+      const data = await res.json();
+      if (data.ok) {
+        showToast(`📌 Đã đánh dấu vị trí đang xem tại bộ #${fixedOrder}`);
+        loadSeries();
+      }
+    }
+
+    async function jumpToBookmark() {
+      const res = await fetch(`/api/jump-bookmark?per_page=${perPage}`);
+      const data = await res.json();
+      if (!data.ok) {
+        showToast('⚠️ Bạn chưa đánh dấu vị trí bộ nào (Bấm nút "Đánh dấu #..." trên thẻ truyện).');
+        return;
+      }
+      currentTab = 'unread';
+      currentPage = data.target_page;
+      document.getElementById('searchInput').value = '';
+      document.getElementById('genreInput').value = '';
+      document.getElementById('sortSelect').value = 'fixed_asc';
+      updateActiveTabUI();
+      await loadSeries();
+      setTimeout(() => {
+        const el = document.querySelector('.bookmarked-pos');
+        if (el) el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }, 150);
+    }
+
+    async function markAllNewSeen() {
+      await fetch('/api/mark-seen', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({})
+      });
+      showToast('Đã đánh dấu xem tất cả các bộ mới.');
+      loadSeries();
+    }
+
+    function renderPagination(page, total, totalItems) {
+      const container = document.getElementById('paginationLinks');
+      document.getElementById('jumpPageInput').value = page;
+      if (total <= 1) {
+        container.innerHTML = `<em class="current">1</em> <span style="border:none; color:#64748b;">(${totalItems} bộ)</span>`;
+        return;
+      }
+
+      let html = '';
+      if (page > 1) {
+        html += `<a onclick="goToPage(${page - 1})">← Trước</a>`;
+      }
+
+      const pages = [];
+      pages.push(1);
+      for (let p = Math.max(2, page - 2); p <= Math.min(total - 1, page + 2); p++) {
+        pages.push(p);
+      }
+      if (total > 1) pages.push(total);
+
+      const uniquePages = [...new Set(pages)].sort((a, b) => a - b);
+      let prev = 0;
+      for (const p of uniquePages) {
+        if (prev && p - prev > 1) {
+          html += `<span>…</span>`;
+        }
+        if (p === page) {
+          html += `<em class="current">${p}</em>`;
+        } else {
+          html += `<a onclick="goToPage(${p})">${p}</a>`;
+        }
+        prev = p;
+      }
+
+      if (page < total) {
+        html += `<a onclick="goToPage(${page + 1})">Tiếp →</a>`;
+      }
+      html += `<span style="border:none; color:#64748b; margin-left:6px;">(${totalItems} bộ)</span>`;
+      container.innerHTML = html;
+    }
+
+    function goToPage(p) {
+      currentPage = Math.max(1, Math.min(totalPages, p));
+      loadSeries();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    function goToInputPage() {
+      const val = parseInt(document.getElementById('jumpPageInput').value || '1', 10);
+      goToPage(val);
+    }
+
+    async function triggerSync(mode) {
+      const res = await fetch('/api/sync', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ mode, pages: 5 })
+      });
+      const data = await res.json();
+      if (!data.ok) {
+        showToast(data.message || 'Đang đồng bộ...');
+      } else {
+        pollSyncStatus();
+      }
+    }
+
+    function updateSyncUI(st) {
+      if (!st) return;
+      const banner = document.getElementById('syncBanner');
+      const msgEl = document.getElementById('syncMessage');
+      const fillEl = document.getElementById('syncProgressFill');
+      const countEl = document.getElementById('syncPageCounter');
+
+      if (st.is_syncing) {
+        banner.classList.add('active');
+        msgEl.textContent = st.message || 'Đang đồng bộ...';
+        const pct = st.total_pages > 0 ? Math.round((st.current_page / st.total_pages) * 100) : 10;
+        fillEl.style.width = `${pct}%`;
+        countEl.textContent = `${st.current_page}/${st.total_pages}`;
+      } else {
+        banner.classList.remove('active');
+      }
+
+      if (st.last_sync_at) {
+        const dt = new Date(st.last_sync_at * 1000);
+        document.getElementById('lastSyncLabel').textContent =
+          `Cập nhật lần cuối: ${dt.toLocaleTimeString('vi-VN')} (${st.message || 'Sẵn sàng'})`;
+      }
+    }
+
+    let wasSyncing = false;
+    async function pollSyncStatus() {
+      try {
+        const res = await fetch('/api/sync-status');
+        const data = await res.json();
+        const st = data.sync_state || {};
+        updateSyncUI(st);
+
+        // Nếu đang trong quá trình đồng bộ lần đầu hoặc vừa kết thúc đồng bộ, tự làm mới danh sách
+        if (st.is_syncing && st.current_page <= 3) {
+          loadSeries();
+        }
+        if (wasSyncing && !st.is_syncing) {
+          loadSeries();
+        }
+        wasSyncing = st.is_syncing;
+
+        const newCnt = data.new_series_count || 0;
+        if (lastKnownNewCount >= 0 && newCnt > lastKnownNewCount) {
+          const diff = newCnt - lastKnownNewCount;
+          notifyNewSeries(diff, data.unread_notifications || []);
+          loadSeries();
+        }
+        lastKnownNewCount = newCnt;
+      } catch (e) {
+        // ignore
+      }
+    }
+
+    function notifyNewSeries(diffCount, notifs) {
+      const latestTitle = notifs.length ? notifs[0].title : '';
+      const msg = `🔔 Phát hiện ${diffCount} bộ truyện MỚI xuất hiện${latestTitle ? `: "${latestTitle}"` : ''}!`;
+      showToast(msg);
+
+      // Âm báo nhẹ bằng Web Audio API
+      try {
+        const ctx = new (window.AudioContext || window.webkitAudioContext)();
+        const osc = ctx.createOscillator();
+        const gain = ctx.createGain();
+        osc.type = 'sine';
+        osc.frequency.setValueAtTime(587.33, ctx.currentTime); // D5
+        osc.frequency.setValueAtTime(880, ctx.currentTime + 0.12); // A5
+        gain.gain.setValueAtTime(0.12, ctx.currentTime);
+        gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.45);
+        osc.connect(gain);
+        gain.connect(ctx.destination);
+        osc.start();
+        osc.stop(ctx.currentTime + 0.45);
+      } catch (e) {}
+
+      if ("Notification" in window && Notification.permission === "granted") {
+        new Notification("NovelUpdates Tracker — Có bộ mới!", {
+          body: msg,
+        });
+      }
+    }
+
+    function showToast(text, undoCallback = null) {
+      const container = document.getElementById('toastContainer');
+      const el = document.createElement('div');
+      el.className = 'toast';
+      el.innerHTML = `<span>${escapeHtml(text)}</span>`;
+      if (undoCallback) {
+        const btn = document.createElement('button');
+        btn.className = 'toast-undo-btn';
+        btn.textContent = 'Hoàn tác';
+        btn.onclick = () => {
+          undoCallback();
+          el.remove();
+        };
+        el.appendChild(btn);
+      }
+      container.appendChild(el);
+      setTimeout(() => {
+        if (el.parentNode) el.remove();
+      }, 5000);
+    }
+
+    async function openSettingsModal() {
+      const res = await fetch('/api/settings');
+      const data = await res.json();
+      document.getElementById('cfgTargetUrl').value = data.target_url || '';
+      document.getElementById('cfgAutoMinutes').value = data.auto_check_minutes ?? 15;
+      document.getElementById('cfgExcludedTags').value = (data.excluded_tags || []).join(', ');
+      document.getElementById('settingsModal').classList.add('open');
+    }
+
+    function closeSettingsModal() {
+      document.getElementById('settingsModal').classList.remove('open');
+    }
+
+    async function saveSettings() {
+      const target_url = document.getElementById('cfgTargetUrl').value.trim();
+      const auto_check_minutes = parseInt(document.getElementById('cfgAutoMinutes').value || '15', 10);
+      const excluded_tags = document.getElementById('cfgExcludedTags').value
+        .split(',')
+        .map(s => s.trim())
+        .filter(Boolean);
+
+      await fetch('/api/settings', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ target_url, auto_check_minutes, excluded_tags })
+      });
+      closeSettingsModal();
+      showToast('Đã lưu cài đặt.');
+      loadSeries();
+    }
+
+    initApp();
+  </script>
+</body>
+</html>
