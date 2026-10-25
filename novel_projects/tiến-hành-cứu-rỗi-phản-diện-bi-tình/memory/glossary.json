@@ -3,18 +3,48 @@
     "term": "悲情反派",
     "hanviet": "Bi tình phản phái",
     "translation": "Phản diện bi tình / Phản diện số khổ",
-    "category": "Thiết lập"
+    "category": "Thiết lập chung"
   },
   {
     "term": "美强惨",
     "hanviet": "Mỹ cường thảm",
     "translation": "Mỹ cường thảm (Đẹp, mạnh mẽ nhưng số phận bi thảm)",
-    "category": "Thiết lập"
+    "category": "Thiết lập chung"
   },
   {
     "term": "拯救",
     "hanviet": "Cứu rỗi",
     "translation": "Cứu rỗi / Giải cứu",
-    "category": "Hành động"
+    "category": "Hành động chung"
+  },
+  {
+    "term": "薄情错爱",
+    "hanviet": "Bạc tình thác ái",
+    "translation": "《Bạc Tình Thác Ái》",
+    "category": "Nguyên tác Arc 1"
+  },
+  {
+    "term": "狗血",
+    "hanviet": "Cẩu huyết",
+    "translation": "Cẩu huyết (Tình tiết éo le, ba xu, lặp đi lặp lại)",
+    "category": "Thuật ngữ văn học"
+  },
+  {
+    "term": "白月光",
+    "hanviet": "Bạch nguyệt quang",
+    "translation": "Bạch nguyệt quang (Ánh trăng sáng, mối tình đầu khó quên)",
+    "category": "Thuật ngữ tình cảm"
+  },
+  {
+    "term": "偏爱",
+    "hanviet": "Thiên ái",
+    "translation": "Thiên ái / Thiên vị tuyệt đối",
+    "category": "Tình cảm Arc 1"
+  },
+  {
+    "term": "解药",
+    "hanviet": "Giải dược",
+    "translation": "Thuốc giải / Giải dược",
+    "category": "Ẩn dụ Arc 1"
   }
 ]

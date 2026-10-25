@@ -54,6 +54,7 @@ Tên tiếng Anh (NovelUpdates): The Rescue Of The Tragic Villain Is In Progress
 Tên raw (Tiếng Trung): 《拯救悲情反派进行时！》
 Tác giả: 碉堡堡 (Điêu Bảo Bảo / Bunker / Chấn Khất)
 - **Project:** Đã khởi tạo trong `novel_projects/tiến-hành-cứu-rỗi-phản-diện-bi-tình/`
+- **Trạng thái:** Đã có RULES_ARC_1, PLAN_ARC_1 và tải đầy đủ 34/34 chương Raw sạch của Arc 1 (`chapters/c1` - `chapters/c34`). Sẵn sàng dịch.
 
 [011] Nghịch Tập Nhân Vật Thụ!
 Tên tiếng Anh (NovelUpdates): Counterattacking the Submissive Role!
@@ -150,3 +151,15 @@ Tác giả: Nguyên Lai Thị Lạc Lạc (原来是落落)
 - **Nguồn Raw:** JJWXC (`8670101`) & 52shuku
 - **Bản dịch tiếng Việt có sẵn:** Đã hoàn thành 257 chương trên app **TYT (Tôi Yêu Truyện)** do translator **Gà rán (acc phụ)** thực hiện. Link: [tytnovel.info](https://tytnovel.info/truyen/69fecd1bfc6c710f9039c5e3/ca-man-ky-chu-tong-doi-vai-ac-nhat-kien-chung-tinh)
 - **Trạng thái To-Do:** Đã khởi tạo dự án trong `novel_projects/cá-mặn-ký-chủ-tổng-đối-vai-ác-nhất-kiến-chung-tình/`. Chờ nhập bản dịch từ TYT (hoặc tự động dịch trực tiếp từ raw khi cần đọc).
+
+---
+
+### [031] Tiến Hành Cứu Rỗi Phản Diện Bi Tình [Khoái Xuyên]
+- **Tên raw (Tiếng Trung):** 《拯救悲情反派进行时！》
+- **Tác giả:** 碉堡堡 (Điêu Bảo Bảo)
+- **Thể loại:** Đam mỹ, Chủ công, Khoái xuyên, Xuyên thư, Hài hước trào phúng, Sa điêu, Cứu rỗi mỹ cường thảm phản diện, 1v1, HE
+- **Nhân vật Arc 1:** Thẩm Lương (Chủ công - 沈凉) × Thiệu Khâm Hàn (Thụ chính - 邵衾寒) | Thẩm Viên (em trai - 沈炎) | Hệ thống Cứu rỗi
+- **Độ dài Arc 1:** 34 chương (Chương 1 - 34)
+- **Tiến độ dịch Arc 1:** Đã dịch & QC Passed trọn vẹn **10/34 chương (Chương 1 đến Chương 10)**. Raw đã cào đủ 34 chương.
+- **Project:** `novel_projects/tiến-hành-cứu-rỗi-phản-diện-bi-tình/`
+

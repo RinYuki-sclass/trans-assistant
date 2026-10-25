@@ -7,14 +7,16 @@
   "target_lang": "Vietnamese",
   "raw_links": {
     "novelupdates": "https://www.novelupdates.com/series/the-rescue-of-the-tragic-villain-is-in-progress/",
-    "czbooks": "https://czbooks.net/n/s03061"
+    "czbooks": "https://czbooks.net/n/s03061",
+    "52shuku": "https://www.52shuku.net/chongsheng/b/bjLCF.html"
   },
-  "style_guide": "Truyện đam mỹ khoái xuyên, hài hước, cứu rỗi, chữa lành, tác giả công x phản diện mỹ cường thảm thụ. Góc nhìn chủ công.\n\nQUY TẮC BẮT BUỘC:\n1. Văn phong & QC: Mạch lạc, tự nhiên, văn phong hiện đại/cổ phong tùy từng thế giới. Không dịch máy thô cứng. Lời thoại đặt trong dấu ngoặc kép “...”.\n2. Xưng hô đối thoại: Tác giả (công) x Phản diện (thụ). Cổ phong: ta - ngươi / chàng; Hiện đại: tôi - anh / cậu.\n3. Ngôi kể thứ 3 (Narration): Công dùng \"cậu\" hoặc \"hắn\"; Thụ dùng \"y\" hoặc \"hắn\" tùy bối cảnh, phân định rõ ràng giữa hai nhân vật.\n4. Bảo toàn 1:1: Giữ nguyên số lượng đoạn văn, cách dòng chuẩn \\n\\n, không thêm bớt tình tiết.",
+  "style_guide": "Truyện đam mỹ khoái xuyên, hài hước, cứu rỗi, chữa lành, tác giả công x phản diện mỹ cường thảm thụ. Góc nhìn chủ công.\n\nArc 1 (Ch. 1-34): Tác giả cẩu huyết Thẩm Lương (cậu) x Phản diện hào môn tàn tật Thiệu Khâm Hàn (hắn). Em trai Thẩm Viên. Chi tiết xem RULES_ARC_1.md và PLAN_ARC_1.md.\n\nQUY TẮC BẮT BUỘC:\n1. Văn phong & QC: Mạch lạc, tự nhiên, văn phong hiện đại/cổ phong tùy từng thế giới. Không dịch máy thô cứng. Lời thoại đặt trong dấu ngoặc kép “...”.\n2. Xưng hô đối thoại: Tác giả (công) x Phản diện (thụ). Cổ phong: ta - ngươi / chàng; Hiện đại: tôi - anh / em / cậu.\n3. Ngôi kể thứ 3 (Narration): Công dùng \"cậu\" (hiện đại); Thụ dùng \"hắn\" (hiện đại) / \"y\" (cổ phong), phân định rõ ràng giữa hai nhân vật.\n4. Bảo toàn 1:1: Giữ nguyên số lượng đoạn văn, cách dòng chuẩn \\n\\n, không thêm bớt tình tiết.",
   "confidence_threshold": 0.8,
   "chunk_size": 20,
   "created_at": "2026-10-11T20:40:00+07:00",
   "chapters_count": 86,
   "is_completed": false,
   "is_dropped": false,
-  "drop_reason": ""
+  "drop_reason": "",
+  "arc_1_crawled_chapters": 34
 }

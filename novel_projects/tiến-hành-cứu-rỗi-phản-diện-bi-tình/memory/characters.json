@@ -1,46 +1,64 @@
 [
   {
-    "name": "Author",
-    "hanviet_name": "Tác Giả (Ký Chủ)",
-    "original_name": "作者 / 宿主",
+    "name": "Thẩm Lương",
+    "hanviet_name": "Thẩm Lương",
+    "original_name": "沈凉",
     "gender": "Nam",
-    "role": "Công chính (Chủ công)",
+    "role": "Công chính Arc 1 (Chủ công)",
     "aliases": [
-      "vô lương tác giả",
-      "ký chủ"
+      "tác giả vô lương",
+      "Lương Lương",
+      "tiểu Thẩm"
     ],
     "narration_pronoun": "cậu",
-    "honorifics": "với Phản diện: ta - ngươi / tôi - anh; với Hệ thống: tôi - cậu/hệ thống",
-    "speech_style": "Ban đầu chột dạ bất đắc dĩ, dần dần xót xa mềm lòng và hết mực che chở cho phản diện",
-    "notes": "Tác giả chuyên ngược phản diện bị bắt đi cứu rỗi những đứa con tinh thần của mình"
+    "honorifics": "với Thiệu Khâm Hàn: xưng tôi - gọi Thiệu tổng / anh (ban đầu), xưng em - gọi anh / Khâm Hàn (về sau); với Hệ thống: tôi - Hệ thống / cậu; với Thẩm Viên: em - anh",
+    "speech_style": "Miệng lưỡi lanh lợi, da mặt dày, hay tự吐槽 cẩu huyết của bản thân, ngoài lạnh trong nóng, dịu dàng bảo bọc phản diện",
+    "notes": "Tác giả mạng viết 《Bạc Tình Thác Ái》 xuyên vào pháo hôi em trai của Thẩm Viên, cứu rỗi Thiệu Khâm Hàn"
   },
   {
-    "name": "Tragic Villain",
-    "hanviet_name": "Phản Diện Quân",
-    "original_name": "悲情反派 / 反派君",
+    "name": "Thiệu Khâm Hàn",
+    "hanviet_name": "Thiệu Khâm Hàn",
+    "original_name": "邵衾寒",
     "gender": "Nam",
-    "role": "Thụ chính (Các thế giới)",
+    "role": "Thụ chính Arc 1 (Phản diện mỹ cường thảm)",
     "aliases": [
-      "mỹ cường thảm phản diện",
-      "đại phản diện"
+      "Thiệu tổng",
+      "đại thiếu gia",
+      "phản diện quân"
     ],
-    "narration_pronoun": "hắn / y",
-    "honorifics": "với Tác giả: ta - ngươi / anh/tôi - em/cậu",
-    "speech_style": "U uất, cố chấp, phòng thủ cao, nhưng cực kỳ mềm lòng và si mê trước sự dịu dàng của tác giả",
-    "notes": "Phản diện mỹ cường thảm ở các thế giới: hủy dung, gãy chân, bị thế gian ruồng bỏ"
+    "narration_pronoun": "hắn",
+    "honorifics": "với Thẩm Lương: xưng tôi - gọi cậu / Thẩm Lương (ban đầu), xưng anh - gọi Thẩm Lương / em / Lương Lương (về sau); với cấp dưới / người ngoài: tôi - các người / cậu",
+    "speech_style": "Lạnh lùng, thâm trầm, u ám, thiếu cảm giác an toàn, khi được dỗ thì ngoan ngoãn và cực kỳ ỷ lại",
+    "notes": "Đại thiếu gia nhà họ Thiệu, chân bị tật đi đứng khó khăn, bệnh dạ dày kinh niên, từng bị gia tộc hắt hủi"
   },
   {
-    "name": "Rescue System",
+    "name": "Hệ Thống Cứu Rỗi",
     "hanviet_name": "Hệ Thống Cứu Rỗi",
     "original_name": "拯救系统",
     "gender": "Hệ thống",
-    "role": "Hệ thống hỗ trợ",
+    "role": "Hệ thống giám sát nhiệm vụ",
     "aliases": [
-      "hệ thống"
+      "hệ thống",
+      "bản hệ thống"
     ],
     "narration_pronoun": "nó",
-    "honorifics": "bản hệ thống / ta - tác giả đại đại / ký chủ",
-    "speech_style": "Công thức, nghiêm túc, thích bóc mẽ tác giả",
+    "honorifics": "bản hệ thống / tôi - Ký chủ / Tác giả đại ca",
+    "speech_style": "Công thức, nghiêm túc, thích bóc mẽ sự vô lương của ký chủ",
     "notes": "Đại diện cho oán niệm của độc giả trói buộc tác giả vô lương"
+  },
+  {
+    "name": "Thẩm Viên",
+    "hanviet_name": "Thẩm Viên",
+    "original_name": "沈炎",
+    "gender": "Nam",
+    "role": "Nhân vật chính thụ nguyên tác (Bạch nguyệt quang giả dối)",
+    "aliases": [
+      "tiểu Viên",
+      "bạch nguyệt quang"
+    ],
+    "narration_pronoun": "y / hắn",
+    "honorifics": "với Thẩm Lương: anh - Thẩm Lương / em trai",
+    "speech_style": "Tỏ vẻ thanh cao, yếu đuối, quen được vây quanh",
+    "notes": "Anh trai cùng cha khác mẹ với pháo hôi Thẩm Lương, bạch nguyệt quang nguyên tác mà Thiệu Khâm Hàn từng cố chấp hướng tới"
   }
 ]

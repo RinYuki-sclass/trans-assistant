@@ -1,12 +1,27 @@
 [
   {
-    "stage": "Bị hệ thống trói buộc",
-    "description": "Tác giả vô lương bị oán niệm độc giả đưa vào hệ thống cứu rỗi",
-    "status": "Khởi đầu"
+    "stage": "Khởi đầu hệ thống cứu rỗi",
+    "description": "Tác giả vô lương bị oán niệm độc giả đưa vào hệ thống cứu rỗi các phản diện mỹ cường thảm",
+    "status": "Hoàn tất thiết lập"
   },
   {
-    "stage": "Hành trình cứu rỗi qua các thế giới",
-    "description": "Xuyên qua các thế giới chữa lành cho phản diện hủy dung, gãy chân, điên loạn",
-    "status": "Tiến hành"
+    "stage": "Arc 1 - Giai đoạn 1 (Ch. 1 - 9)",
+    "description": "Thẩm Lương xuyên thành pháo hôi hạ thuốc Thiệu Khâm Hàn, mặt dày sinh tồn, chăm sóc vết thương, kế hoạch cướp người ở quán bar lật xe, kéo giảm hắc hóa",
+    "status": "Đã hoàn thành 9/9 chương"
+  },
+  {
+    "stage": "Arc 1 - Giai đoạn 2 (Ch. 10 - 18)",
+    "description": "Kế hoạch tiệc liên hoan (Chương 10), thấu hiểu quá khứ mồ côi và đau thương của Thiệu Khâm Hàn, dạy hắn cách được yêu thương",
+    "status": "Đang tiến hành (1/9 chương - Đã xong c10)"
+  },
+  {
+    "stage": "Arc 1 - Giai đoạn 3 (Ch. 19 - 27)",
+    "description": "Thiệu Khâm Hàn buông bỏ chấp niệm cũ, nhận ra Thẩm Lương là duy nhất, tỏ tình và thiên ái độc quyền",
+    "status": "Chờ triển khai"
+  },
+  {
+    "stage": "Arc 1 - Giai đoạn 4 (Ch. 28 - 34)",
+    "description": "Thẩm Lương thành giải dược của Thiệu Khâm Hàn, phản diện buông bỏ oán hận thế giới, kết cục viên mãn + phiên ngoại",
+    "status": "Chờ triển khai"
   }
 ]

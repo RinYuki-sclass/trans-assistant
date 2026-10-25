@@ -1,15 +1,54 @@
 [
   {
     "pair": [
-      "Author",
-      "Tragic Villain"
+      "Thẩm Lương",
+      "Thiệu Khâm Hàn"
     ],
-    "context": "Các thế giới cứu rỗi",
-    "relation_type": "Tác giả chuộc tội (Công) x Phản diện mỹ cường thảm (Thụ)",
+    "context": "Arc 1 (Đô thị hào môn)",
+    "relation_type": "Tác giả chuộc tội (Chủ công) x Phản diện mỹ cường thảm tàn tật (Thụ)",
     "narration_pronouns": {
-      "Author": "cậu",
-      "Tragic Villain": "hắn / y"
+      "Thẩm Lương": "cậu",
+      "Thiệu Khâm Hàn": "hắn"
     },
-    "status": "Chữa lành, sủng ái, hỗ sủng điềm văn"
+    "status": "Cứu rỗi, sưởi ấm, bẻ lái tình cảm thành thiên ái duy nhất, HE"
+  },
+  {
+    "pair": [
+      "Thẩm Lương",
+      "Hệ Thống Cứu Rỗi"
+    ],
+    "context": "Toàn truyện / Arc 1",
+    "relation_type": "Ký chủ x Hệ thống giám sát",
+    "narration_pronouns": {
+      "Thẩm Lương": "cậu",
+      "Hệ Thống Cứu Rỗi": "nó"
+    },
+    "status": "Cộng tác bất đắc dĩ, vừa cãi cọ vừa phối hợp"
+  },
+  {
+    "pair": [
+      "Thẩm Lương",
+      "Thẩm Viên"
+    ],
+    "context": "Arc 1 (Gia đình họ Thẩm)",
+    "relation_type": "Anh em cùng cha khác mẹ",
+    "narration_pronouns": {
+      "Thẩm Lương": "cậu",
+      "Thẩm Viên": "y / hắn"
+    },
+    "status": "Vạch rõ ranh giới, tuyệt đối không để dính líu hay làm tổn hại Thiệu Khâm Hàn"
+  },
+  {
+    "pair": [
+      "Thiệu Khâm Hàn",
+      "Thẩm Viên"
+    ],
+    "context": "Arc 1 (Quan hệ nguyên tác)",
+    "relation_type": "Chấp niệm cũ x Bạch nguyệt quang giả dối",
+    "narration_pronouns": {
+      "Thiệu Khâm Hàn": "hắn",
+      "Thẩm Viên": "y / hắn"
+    },
+    "status": "Chấm dứt hoàn toàn chấp niệm hư ảo, nhận ra người duy nhất mình yêu là Thẩm Lương"
   }
 ]
