@@ -468,12 +468,50 @@ def run_full_snapshot_sync(max_desc_pages: int = 100, include_asc_tail: bool = T
         sync_state["is_syncing"] = False
 
 
-def run_check_new_series(pages_to_check: int = 5):
+def load_or_init_frontier() -> List[Dict]:
+    raw = get_setting("last_scan_frontier", "")
+    if raw:
+        try:
+            data = json.loads(raw)
+            if isinstance(data, list) and len(data) > 0:
+                return data
+        except Exception:
+            pass
+    conn = get_db_connection()
+    cur = conn.cursor()
+    cur.execute("SELECT series_id, chapters, last_updated FROM series ORDER BY fixed_order ASC LIMIT 250")
+    rows = [{"id": r["series_id"], "ch": r["chapters"], "dt": r["last_updated"]} for r in cur.fetchall()]
+    conn.close()
+    if rows:
+        set_setting("last_scan_frontier", json.dumps(rows, ensure_ascii=False))
+    return rows
+
+
+def save_updated_frontier(scanned_items: List[Dict], old_frontier: List[Dict], max_size: int = 250):
+    seen = set()
+    merged = []
+    for it in scanned_items:
+        sid = it["series_id"]
+        if sid not in seen:
+            seen.add(sid)
+            merged.append({"id": sid, "ch": it["chapters"], "dt": it["last_updated"]})
+    for f in old_frontier:
+        sid = f["id"]
+        if sid not in seen:
+            seen.add(sid)
+            merged.append(f)
+        if len(merged) >= max_size:
+            break
+    set_setting("last_scan_frontier", json.dumps(merged[:max_size], ensure_ascii=False))
+
+
+def run_check_new_series(max_safety_pages: int = 100):
     """
-    Quét nhanh các trang đầu để phát hiện BỘ TRUYỆN MỚI XUẤT HIỆN.
-    - Không làm thay đổi vị trí (`fixed_order`) của các bộ đã có.
-    - Không bắn thông báo khi bộ cũ cập nhật chapter.
-    - Chỉ bắn thông báo khi phát hiện `series_id` hoàn toàn mới chưa từng có trong DB.
+    Quét tự động từ Trang 1 cho tới khi BẮT KỊP MỐC QUÉT CUỐI CÙNG (Frontier Checkpoint):
+    - Đối chiếu từng bộ trên trang với trạng thái ở lần quét cuối (`last_scan_frontier` & DB).
+    - Nếu bộ truyện mới cập nhật chương hoặc mới xuất hiện -> tiếp tục lật trang.
+    - Ngay khi gặp chuỗi truyện giữ nguyên vị trí và giữ nguyên số chương/ngày cập nhật từ lần quét trước -> dừng lại!
+    - Không bao giờ bị sót truyện dù web gốc update nhanh hay bạn tắt máy nhiều ngày.
     """
     if sync_state["is_syncing"]:
         return
@@ -486,40 +524,100 @@ def run_check_new_series(pages_to_check: int = 5):
     sync_state["is_syncing"] = True
     sync_state["error"] = None
     sync_state["mode"] = "check_new"
-    sync_state["total_pages"] = pages_to_check + 1
+    sync_state["total_pages"] = 1
     target_url = get_setting("target_url", DEFAULT_TARGET_URL)
 
     try:
+        old_frontier = load_or_init_frontier()
+        frontier_map = {f["id"]: (idx, f["ch"], f["dt"]) for idx, f in enumerate(old_frontier)}
+
+        conn = get_db_connection()
+        cur = conn.cursor()
+        cur.execute("SELECT series_id, chapters, last_updated FROM series")
+        db_snapshot = {r["series_id"]: (r["chapters"], r["last_updated"]) for r in cur.fetchall()}
+        conn.close()
+
         discovered_new = []
-        # 1. Quét N trang đầu của sort=sdate (Last Updated)
-        for pg in range(1, pages_to_check + 1):
+        scanned_desc_items = []
+        pages_scanned = 0
+
+        # 1. Quét động từ Trang 1 của sort=sdate&order=desc cho đến khi gặp lại mốc của lần quét cuối
+        for pg in range(1, max_safety_pages + 1):
+            pages_scanned = pg
             sync_state["current_page"] = pg
-            sync_state["message"] = f"Đang kiểm tra bộ mới (Trang {pg}/{pages_to_check})..."
+            sync_state["total_pages"] = max(pg + 1, sync_state["total_pages"])
+            sync_state["message"] = f"Đang đối chiếu với lần quét cuối (Trang {pg})..."
+
             url = build_page_url(target_url, pg, order="desc")
             items, _ = fetch_page_series(url)
             if not items:
                 break
+
+            scanned_desc_items.extend(items)
+
+            # Kiểm tra xem trang này đã chạm tới mốc dữ liệu chưa thay đổi của lần quét trước chưa
+            frontier_streak = 0
+            last_f_idx = -1
+            unchanged_in_db_count = 0
+
+            for it in items:
+                sid = it["series_id"]
+                ch = it["chapters"]
+                dt = it["last_updated"]
+
+                if sid in frontier_map:
+                    f_idx, f_ch, f_dt = frontier_map[sid]
+                    if ch == f_ch and dt == f_dt and f_idx > last_f_idx:
+                        frontier_streak += 1
+                        last_f_idx = f_idx
+
+                if sid in db_snapshot:
+                    db_ch, db_dt = db_snapshot[sid]
+                    if ch == db_ch and dt == db_dt:
+                        unchanged_in_db_count += 1
+
+            # Lưu cập nhật trang này vào DB (chỉ những sid chưa từng có mới được đánh dấu mark_as_new=True)
             added = upsert_series_batch(items, mark_as_new=True)
             discovered_new.extend(added)
+
+            # Điều kiện chạm mốc lần quét cuối:
+            # - Gặp >= 5 bộ thuộc top frontier lần quét trước nằm đúng thứ tự nối tiếp và không đổi số chương/ngày
+            # - Hoặc >= 20/25 bộ trên trang hoàn toàn trùng khớp số chương & ngày cập nhật với DB lần trước
+            if frontier_streak >= 5 or unchanged_in_db_count >= 20:
+                sync_state["message"] = f"Đã bắt kịp mốc quét cuối tại Trang {pg}!"
+                break
+
             time.sleep(1.2)
 
-        # 2. Quét thêm Trang 1 của sort=srel (Release Date) để bắt ngay cả bộ mới tạo chưa có chapter update mới
-        sync_state["current_page"] = pages_to_check + 1
-        sync_state["message"] = "Đang kiểm tra danh mục mới phát hành (Release Date)..."
-        srel_url = build_page_url(target_url, 1, order="desc", sort="srel")
-        srel_items, _ = fetch_page_series(srel_url)
-        if srel_items:
-            added_srel = upsert_series_batch(srel_items, mark_as_new=True)
-            discovered_new.extend(added_srel)
+        # Cập nhật lại mốc frontier cho lần quét kế tiếp
+        if scanned_desc_items:
+            save_updated_frontier(scanned_desc_items, old_frontier)
+
+        # 2. Quét động vùng N/A (sort=sdate&order=asc) cho tới khi hết các bộ N/A mới hoặc gặp lại mốc N/A cũ
+        sync_state["current_page"] = pages_scanned + 1
+        sync_state["total_pages"] = pages_scanned + 1
+        sync_state["message"] = "Đang đối chiếu các bộ mới tạo chưa có chương (N/A)..."
+        for asc_pg in range(1, 10):
+            na_url = build_page_url(target_url, asc_pg, order="asc", sort="sdate")
+            na_items, _ = fetch_page_series(na_url)
+            if not na_items:
+                break
+            added_na = upsert_series_batch(na_items, mark_as_new=True)
+            discovered_new.extend(added_na)
+            # Nếu trên trang này không có bộ mới nào hoặc đã hết vùng N/A thì dừng ngay
+            has_non_na = any(it["last_updated"] != "N/A" for it in na_items)
+            if len(added_na) == 0 or has_non_na:
+                break
+            time.sleep(1.0)
 
         now = int(time.time())
         set_setting("last_sync_at", str(now))
         sync_state["last_sync_at"] = now
         sync_state["last_new_count"] = len(discovered_new)
         if discovered_new:
-            sync_state["message"] = f"🎉 Phát hiện {len(discovered_new)} bộ truyện MỚI!"
+            sync_state["message"] = f"🎉 Phát hiện {len(discovered_new)} bộ truyện MỚI (đã quét {pages_scanned} trang tới mốc cũ)!"
         else:
-            sync_state["message"] = "Đã kiểm tra xong: Không có bộ mới nào xuất hiện."
+            sync_state["message"] = f"Đã kiểm tra xong (khớp mốc lần quét cuối tại trang {pages_scanned}): Không có bộ mới."
     except Exception as e:
         sync_state["error"] = str(e)
         sync_state["message"] = f"Lỗi khi kiểm tra bộ mới: {e}"
@@ -551,7 +649,7 @@ def background_scheduler():
                 continue
             last_sync = int(get_setting("last_sync_at", "0") or "0")
             if int(time.time()) - last_sync >= interval_min * 60:
-                run_check_new_series(pages_to_check=4)
+                run_check_new_series(max_safety_pages=100)
         except Exception:
             pass
 
@@ -770,7 +868,6 @@ async def api_jump_bookmark(request):
 async def api_trigger_sync(request):
     body = await request.json()
     mode = body.get("mode", "check_new")  # check_new | full
-    pages = int(body.get("pages", 5) or 5)
 
     if sync_state["is_syncing"]:
         return JSONResponse({"ok": False, "message": "Đang trong tiến trình đồng bộ, vui lòng đợi..."}, status_code=409)
@@ -784,7 +881,7 @@ async def api_trigger_sync(request):
     else:
         threading.Thread(
             target=run_check_new_series,
-            kwargs={"pages_to_check": pages},
+            kwargs={"max_safety_pages": 100},
             daemon=True
         ).start()
 
