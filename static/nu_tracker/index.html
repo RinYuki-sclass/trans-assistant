@@ -963,7 +963,8 @@
       }
 
       container.innerHTML = items.map(item => {
-        const coverSrc = item.image_url
+        const directImg = item.image_url || 'https://cdn.novelupdates.com/imgmid/noimagemid.jpg';
+        const fallbackProxy = item.image_url
           ? `/api/proxy-image?url=${encodeURIComponent(item.image_url)}`
           : 'https://cdn.novelupdates.com/imgmid/noimagemid.jpg';
 
@@ -1002,7 +1003,7 @@
         return `
           <div class="search_main_box_nu ${isBookmarkedPos ? 'bookmarked-pos' : ''}" id="card-${item.series_id}">
             <div class="search_img_nu">
-              <img src="${coverSrc}" alt="${escapeHtml(item.title)}" loading="lazy" onerror="this.src='https://cdn.novelupdates.com/imgmid/noimagemid.jpg'" />
+              <img src="${escapeHtml(directImg)}" referrerpolicy="no-referrer" alt="${escapeHtml(item.title)}" loading="lazy" onerror="if(this.src!=='${fallbackProxy}'){this.src='${fallbackProxy}';}else{this.src='https://cdn.novelupdates.com/imgmid/noimagemid.jpg';}" />
               <div class="search_stars">
                 ${renderStarsHtml(item.rating)}
               </div>

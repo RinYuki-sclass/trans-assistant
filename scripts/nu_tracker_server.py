@@ -260,14 +260,30 @@ def build_page_url(base_url: str, page: int, order: Optional[str] = None, sort: 
     return urllib.parse.urlunparse(parsed._replace(query=new_query))
 
 
-def fetch_page_series(url: str, retries: int = 3) -> Tuple[List[Dict], int]:
+IMPERSONATE_PROFILES = ["chrome120", "chrome124", "edge101", "safari17_0", "chrome116"]
+_profile_idx = 0
+
+
+def fetch_page_series(url: str, retries: int = 8) -> Tuple[List[Dict], int]:
+    global _profile_idx
     last_err = None
     for attempt in range(retries):
+        profile = IMPERSONATE_PROFILES[_profile_idx % len(IMPERSONATE_PROFILES)]
+        _profile_idx += 1
         try:
-            resp = cf_requests.get(url, impersonate="chrome", timeout=20)
+            resp = cf_requests.get(url, impersonate=profile, timeout=25)
+            if resp.status_code == 429 or resp.status_code == 503:
+                last_err = f"HTTP {resp.status_code}"
+                wait_sec = 22 + attempt * 10
+                old_msg = sync_state.get("message", "")
+                for rem in range(wait_sec, 0, -1):
+                    sync_state["message"] = f"Đang đợi {rem}s để vượt giới hạn tốc độ Cloudflare (Trang {sync_state.get('current_page', '?')})..."
+                    time.sleep(1)
+                sync_state["message"] = old_msg
+                continue
             if resp.status_code != 200:
                 last_err = f"HTTP {resp.status_code}"
-                time.sleep(1.5 * (attempt + 1))
+                time.sleep(3 * (attempt + 1))
                 continue
             soup = BeautifulSoup(resp.text, "lxml")
             boxes = soup.select(".search_main_box_nu")
@@ -287,7 +303,7 @@ def fetch_page_series(url: str, retries: int = 3) -> Tuple[List[Dict], int]:
             return items, max_page
         except Exception as e:
             last_err = str(e)
-            time.sleep(1.5 * (attempt + 1))
+            time.sleep(3 * (attempt + 1))
     raise RuntimeError(f"Không thể tải trang {url}: {last_err}")
 
 
@@ -383,8 +399,8 @@ def upsert_series_batch(items: List[Dict], mark_as_new: bool = False) -> List[Di
 def run_full_snapshot_sync(max_desc_pages: int = 100, include_asc_tail: bool = True):
     """
     Quét toàn bộ danh sách để cố định thứ tự (Snapshot).
-    - Nếu database đang trống hoàn toàn (`initial_sync_done == '0'`), tất cả các bộ quét trong đợt đầu
-      sẽ được đánh số thứ tự cố định 1..N và `is_new = 0` (làm mốc chuẩn).
+    - Nếu `initial_sync_done == '0'`, tự động tiếp tục từ `last_synced_page` (hoặc trang 1) cho tới hết 100 trang,
+      và đặt `is_new = 0` (làm mốc chuẩn).
     - Nếu database đã có mốc chuẩn mà người dùng bấm Quét Toàn Bộ bổ sung, những bộ chưa từng có
       sẽ được nối vào cuối danh sách để không làm lệch thứ tự các trang cũ.
     """
@@ -398,11 +414,11 @@ def run_full_snapshot_sync(max_desc_pages: int = 100, include_asc_tail: bool = T
     target_url = get_setting("target_url", DEFAULT_TARGET_URL)
 
     try:
+        resume_page = int(get_setting("last_synced_page", "1") or "1") if is_initial else 1
         sync_state["message"] = "Đang kiểm tra trang 1..."
         sync_state["current_page"] = 1
         first_items, detected_max_page = fetch_page_series(build_page_url(target_url, 1, order="desc"))
         total_desc = min(detected_max_page, max_desc_pages)
-        # Nếu chạm trần 100 trang của NU và bật include_asc_tail, quét thêm chiều ngược lại (asc) để không sót truyện quá trang 100
         asc_pages_to_scan = 38 if (detected_max_page >= 100 and include_asc_tail) else 0
         sync_state["total_pages"] = total_desc + asc_pages_to_scan
 
@@ -410,7 +426,8 @@ def run_full_snapshot_sync(max_desc_pages: int = 100, include_asc_tail: bool = T
         new_found = upsert_series_batch(first_items, mark_as_new=(not is_initial))
         total_added += len(new_found)
 
-        for pg in range(2, total_desc + 1):
+        start_pg = max(2, resume_page)
+        for pg in range(start_pg, total_desc + 1):
             sync_state["current_page"] = pg
             sync_state["message"] = f"Đang đồng bộ danh sách cố định: Trang {pg}/{total_desc}..."
             page_url = build_page_url(target_url, pg, order="desc")
@@ -419,10 +436,11 @@ def run_full_snapshot_sync(max_desc_pages: int = 100, include_asc_tail: bool = T
                 break
             added = upsert_series_batch(items, mark_as_new=(not is_initial))
             total_added += len(added)
-            time.sleep(0.25)
+            if is_initial:
+                set_setting("last_synced_page", str(pg))
+            time.sleep(1.5)
 
         if asc_pages_to_scan > 0:
-            # Quét từ trang asc_pages_to_scan về 1 để nối tiếp đúng thứ tự thời gian giảm dần từ trang 100 trở đi
             asc_buffer = []
             for idx, pg in enumerate(range(asc_pages_to_scan, 0, -1), start=1):
                 sync_state["current_page"] = total_desc + idx
@@ -430,15 +448,15 @@ def run_full_snapshot_sync(max_desc_pages: int = 100, include_asc_tail: bool = T
                 page_url = build_page_url(target_url, pg, order="asc")
                 items, _ = fetch_page_series(page_url)
                 if items:
-                    # Đảo ngược thứ tự trong trang asc để giữ chiều giảm dần (desc)
                     asc_buffer.extend(reversed(items))
-                time.sleep(0.25)
+                time.sleep(1.5)
             if asc_buffer:
                 added = upsert_series_batch(asc_buffer, mark_as_new=(not is_initial))
                 total_added += len(added)
 
         now = int(time.time())
         set_setting("initial_sync_done", "1")
+        set_setting("last_synced_page", str(total_desc))
         set_setting("last_sync_at", str(now))
         sync_state["last_sync_at"] = now
         sync_state["last_new_count"] = total_added if not is_initial else 0
@@ -460,14 +478,10 @@ def run_check_new_series(pages_to_check: int = 5):
     if sync_state["is_syncing"]:
         return
 
-    # Nếu chưa từng chạy Initial Sync, tự động khởi chạy đồng bộ khởi tạo trước
+    # Nếu chưa từng hoàn tất Initial Sync, tiếp tục chạy nốt Initial Sync thay vì báo bộ mới giả
     if get_setting("initial_sync_done", "0") == "0":
-        conn = get_db_connection()
-        cnt = conn.execute("SELECT COUNT(*) as c FROM series").fetchone()["c"]
-        conn.close()
-        if cnt == 0:
-            run_full_snapshot_sync(max_desc_pages=100, include_asc_tail=True)
-            return
+        run_full_snapshot_sync(max_desc_pages=100, include_asc_tail=True)
+        return
 
     sync_state["is_syncing"] = True
     sync_state["error"] = None
@@ -487,7 +501,7 @@ def run_check_new_series(pages_to_check: int = 5):
                 break
             added = upsert_series_batch(items, mark_as_new=True)
             discovered_new.extend(added)
-            time.sleep(0.25)
+            time.sleep(1.2)
 
         # 2. Quét thêm Trang 1 của sort=srel (Release Date) để bắt ngay cả bộ mới tạo chưa có chapter update mới
         sync_state["current_page"] = pages_to_check + 1
@@ -528,6 +542,10 @@ def background_scheduler():
         if sync_state["is_syncing"]:
             continue
         try:
+            # Nếu đợt quét khởi tạo 100 trang chưa xong, tự động chạy tiếp cho đến khi xong 100%
+            if get_setting("initial_sync_done", "0") == "0":
+                run_full_snapshot_sync(max_desc_pages=100, include_asc_tail=True)
+                continue
             interval_min = int(get_setting("auto_check_minutes", "15") or "15")
             if interval_min <= 0:
                 continue
