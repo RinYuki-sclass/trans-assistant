@@ -3291,8 +3291,11 @@ if tabs.is_active(9):
         ch_root = os.path.join(na_project_dir(slug), 'chapters')
         if not os.path.exists(ch_root):
             return []
+        import re as _re
+        def _nat_key(s):
+            return [int(text) if text.isdigit() else text.lower() for text in _re.split(r'(\d+)', s)]
         return sorted([d for d in os.listdir(ch_root)
-                       if os.path.isdir(os.path.join(ch_root, d))])
+                       if os.path.isdir(os.path.join(ch_root, d))], key=_nat_key)
 
     def na_load_memory(slug: str) -> dict:
         mem_dir = os.path.join(na_project_dir(slug), 'memory')
