@@ -2,19 +2,19 @@
 
 [Han Yoohyun]
 KR: 형, 집에 가서 조금이라도 쉬는 게 어때?
-Hyung, về nhà nghỉ ngơi dù chỉ một chút thì thế nào?
+Về nhà nghỉ ngơi một xíu thôi, được không anh?
 
 [Han Yoohyun]
 KR: 박예림이 공략을 마치면 바로 우리한테 연락이 올 거야.
-Khi Park Yerim hoàn thành công lược sẽ lập tức liên lạc cho chúng ta ngay thôi.
+Park Yerim hoàn thành công lược thì sẽ lập tức liên lạc cho chúng ta ngay thôi.
 
 [Han Yoojin]
 KR: 연락 받고 오나 여기서 기다리나 다를 거 있나.
-Nhận được liên lạc rồi đến hay ngồi đây chờ thì có khác gì nhau đâu.
+Nhận được tin báo rồi mới đến hay ngồi đây chờ thì có khác gì nhau đâu.
 
 [Han Yoojin]
 KR: 오늘 중에는 나올 테니까…
-Dù sao thì trong hôm nay con bé cũng sẽ ra ngoài thôi mà…
+Dù sao thì trong hôm nay con bé cũng sẽ ra ngoài rồi…
 
 [Sung Hyunjae]
 KR: 내가 보기에도 한유진 군에게는 휴식이 필요해 보이네만.
@@ -22,7 +22,7 @@ Theo tôi thấy thì Han Yoojin-gun có vẻ cần được nghỉ ngơi đấy
 
 [Han Yoohyun]
 KR: 댁은 왜 여기 와 있습니까?
-Anh tới đây làm gì vậy?
+Anh tới đây làm gì vậy ạ?
 
 [Han Yoohyun]
 KR: 이런 상황에 뜨개질이라니 사람 놀리는 것도 아니고.
@@ -30,15 +30,15 @@ Trong tình cảnh này mà lại đan len, chẳng khác nào đang trêu ngư�
 
 [Sung Hyunjae]
 KR: 꼬마 아가씨가 추가적인 정보를 갖고 나올 가능성이 높으니까.
-Vì khả năng cao là cô bé tiểu thư sẽ mang thêm thông tin ra ngoài mà.
+Vì khả năng cao là tiểu thư sẽ cung cấp thêm thông tin.
 
 [Sung Hyunjae]
 KR: 그리고 한 가지 더.
-Và còn một điều nữa.
+Còn một điều nữa.
 
 [Sung Hyunjae]
 KR: 내 파트너의 문제는 해결이 안 되지 않았나.
-Vấn đề của cộng sự của tôi vẫn chưa được giải quyết mà.
+Vấn đề của đối tác của tôi vẫn chưa được giải quyết mà.
 
 [Han Yoojin]
 KR: 문제요? 저한테 무슨.
@@ -46,30 +46,30 @@ Vấn đề ư? Tôi thì có chuyện gì chứ.
 
 [Sung Hyunjae]
 KR: 아직 자각이 없는 모양이군.
-Có vẻ như cậu vẫn chưa tự nhận thức được nhỉ.
+Có vẻ như cậu vẫn chưa tự nhận thức được nhỉ?
 
 [Sung Hyunjae]
 KR: 타 길드가 관리하는 던전에 막무가내로 찾아간 것,
-Việc bất chấp tìm đến hầm ngục do hội khác quản lý,
+Bất chấp tìm đến ngục tối do hội khác quản lý,
 
 [Sung Hyunjae]
 KR: 공략 직후의 헌터가 대기중인 게이트실에 성급히 발을 들인 것,
-Việc vội vàng đặt chân vào phòng cổng nơi các thợ săn vừa hoàn thành công lược đang túc trực,
+Vội vàng đặt chân vào phòng cổng nơi các thợ săn vừa hoàn thành chinh phạt đang túc trực,
 
 [Sung Hyunjae]
 KR: 시스템의 확인을 받고도 기다리지 못하고 마중 나온 것까지.
-Cho đến cả việc dù đã nhận được xác nhận từ hệ thống nhưng vẫn không thể chờ đợi mà chạy ra đón.
+Đến cả việc dù đã nhận được sự xác nhận từ hệ thống nhưng vẫn không thể chờ đợi mà chạy ra đón.
 
 
 📄 ẢNH: 2.PNG
 
 [Sung Hyunjae]
 KR: 지금 한유진 군의 태도는 어떻게 봐도 도가 지나쳐.
-Bây giờ thái độ của cậu Han Yoojin nhìn kiểu gì cũng thấy quá đáng đấy.
+Bây giờ thái độ của Han Yoojin-gun nhìn kiểu gì cũng thấy thái quá rồi đấy.
 
 [Han Yoojin]
 KR: 뭐? 그럼 애가 위험할지 모르는데 점잔이나 빼고 있으란 겁니까?
-Gì cơ? Vậy đứa nhỏ có thể gặp nguy hiểm mà ngài bảo tôi cứ phải giữ kẽ lịch sự sao?
+Gì cơ? Đứa nhỏ có nguy cơ gặp nguy hiểm mà anh bảo tôi phải bình tĩnh sao?
 
 [Han Yoojin]
 KR: 그딴 거 전 못하니까 내버려 두시죠!
@@ -77,11 +77,7 @@ Mấy chuyện đó tôi không làm được nên cứ mặc kệ tôi đi!
 
 [Sung Hyunjae]
 KR: 내버려 두라고. 도련님을 불안에 떨게 만들어 놓고 말인가?
-Bảo mặc kệ ư. Sau khi đã khiến cậu thiếu gia run rẩy trong bất an sao?
-
-[Han Yoojin]
-KR: !!
-!!
+Mặc kệ à? Khi cậu đang làm thiếu gia bồn chồn vì bất an sao?
 
 [Han Yoojin]
 KR: …너
@@ -89,7 +85,7 @@ KR: …너
 
 [Han Yoojin]
 KR: 그러고 보니 너 이틀 내내 내 옆에서… 너 일은!
-Nhắc mới nhớ, hai ngày nay em cứ ở bên cạnh anh suốt… Còn công việc của em thì sao!
+Nhắc mới nhớ, hai ngày nay em cứ ở bên cạnh anh suốt… Còn công việc của em thì sao?!
 
 [Han Yoohyun]
 KR: …다 취소했어.
@@ -97,15 +93,15 @@ KR: …다 취소했어.
 
 [Han Yoojin]
 KR: 뭐?! 대체 왜! 던전 공략 직후에 인터뷰 하나 안 하면…
-Cái gì?! Rốt cuộc là tại sao! Ngay sau khi chinh phục hầm ngục mà không làm một buổi phỏng vấn nào thì…
+Gì?! Rốt cuộc là tại sao?! Ngay sau ngục tối mà không làm một buổi phỏng vấn nào thì…
 
 [Han Yoohyun]
 KR: 형이 너무 불안해하니까.
-Vì Hyung lo lắng quá mà.
+Vì anh lo lắng quá mà.
 
 [Han Yoojin]
 KR: 뭐…
-Cái gì…
+Sao…
 
 [Độc thoại]
 KR: 나 때문에, 아니, 그 이전에
@@ -120,31 +116,31 @@ Em trai không đi làm mà mình lại không hề nhận ra chuyện đó sao?
 
 [Han Yoohyun]
 KR: 하지만 형, 이번만큼은 나도 세성 길드장 말에 동의해.
-Nhưng Hyung, lần này ngay cả em cũng đồng ý với lời của Hội trưởng Sesung.
+Nhưng anh à, lần này ngay cả em cũng đồng ý với lời của Hội trưởng hội Sesung.
 
 [Han Yoohyun]
 KR: 나나 박예림이 던전에 갈 때마다 형이 이래서는 안 되잖아.
-Mỗi lần em hay Park Yerim vào hầm ngục, Hyung cứ thế này mãi sao được chứ.
+Mỗi lần em hay Park Yerim vào ngục tối, anh cứ thế này mãi thì sao được chứ.
 
 [Han Yoohyun]
 KR: 왜 그렇게 불안해하는지 모르겠어…
-Em không hiểu sao Hyung lại bất an đến thế nữa…
+Em không hiểu sao anh lại bất an đến thế nữa…
 
 [Sung Hyunjae]
 KR: 비단 이번 일만이 아니야.
-Đâu chỉ riêng chuyện lần này.
+Đâu chỉ riêng lần này.
 
 [Sung Hyunjae]
 KR: 한유진 군은 자신의 아이들과 관련되기만 하면 매번 금이 가지.
-Cậu Han Yoojin cứ hễ liên quan đến những đứa trẻ của mình là lại rạn nứt như thế.
+Cứ hễ liên quan đến người của mình là Han Yoojin-gun lại sốt sắng như thế.
 
 [Sung Hyunjae]
 KR: 한유현도 박예림도 결코 약하지 않건만
-Cả Han Yoohyun lẫn Park Yerim đều đâu có yếu ớt,
+Cả Han Yoohyun lẫn Park Yerim đều không hề yếu,
 
 [Sung Hyunjae]
 KR: 필사적으로 보호하려 들고 있지 않나.
-vậy mà cậu lại liều mạng muốn bảo bọc chúng.
+vậy mà cậu lại liều mạng muốn bảo bọc họ.
 
 [Sung Hyunjae]
 KR: 마치—
@@ -152,11 +148,11 @@ Cứ như thể—
 
 [Sung Hyunjae]
 KR: 영원히 잃어버릴 뻔한 자식을 되찾은 부모라도 되는 것처럼.
-bậc cha mẹ tìm lại được đứa con suýt chút nữa đã mất đi vĩnh viễn vậy.
+bậc cha mẹ tìm lại được người con mà mình suýt chút nữa đã vĩnh viễn đánh mất vậy.
 
 [Sung Hyunjae]
 KR: 한유진 군에 대해 내가 알고 있는 정보만으로는 이해가 가질 않아.
-Chỉ với những thông tin tôi biết về cậu Han Yoojin thì thật không tài nào hiểu nổi.
+Chỉ với những thông tin tôi biết về Han Yoojin-gun thì thật không tài nào hiểu nổi.
 
 [Sung Hyunjae]
 KR: 왜 그렇게까지 불안해하는 거지?
@@ -168,27 +164,19 @@ KR: …쓸데없는 관심이 많으시네.
 
 [Han Yoojin]
 KR: 동업자라는 게 일일이 캐물어도 된다는 뜻은 아닐 텐데요.
-Quan hệ đối tác làm ăn đâu có nghĩa là được phép gặng hỏi từng li từng tí như thế chứ.
-
-[SFX]
-KR: 털썩
-*Bịch*
+Quan hệ đối tác làm ăn đâu có nghĩa là được phép gặng hỏi từng li từng tí như thế.
 
 [Sung Hyunjae]
 KR: 이대로라면 그 관계도 유명무실해질 터라.
 Cứ đà này thì mối quan hệ ấy cũng sẽ trở nên hữu danh vô thực mà thôi.
 
-[SFX]
-KR: 하…
-Hà…
-
 [Han Yoojin]
 KR: 파트너 실격이라 이겁니까.
-Ý anh là tôi trượt tư cách đối tác chứ gì.
+Ý anh là tôi sẽ mất tư cách làm đối tác à?
 
 [Han Yoojin]
 KR: 참을성 없으시네. 그 자리에 걸맞게 변할 때까지 기다려 준다더니.
-Thiếu kiên nhẫn thật đấy. Rõ ràng đã bảo sẽ đợi cho tới khi tôi thay đổi để xứng với vị trí đó mà.
+Anh thiếu kiên nhẫn thật. Rõ ràng đã bảo sẽ đợi cho tới khi tôi thay đổi để xứng với vị trí đó mà.
 
 [Sung Hyunjae]
 KR: 당장 끊어낸다는 게 아니야.
@@ -196,15 +184,11 @@ Tôi đâu có bảo là sẽ cắt đứt ngay bây giờ.
 
 [Sung Hyunjae]
 KR: 문제의 원인을 해결하지 않는다면 변하는 것도 힘들다는 말이네.
-Ý tôi là nếu không giải quyết tận gốc nguyên nhân của vấn đề, thì muốn thay đổi cũng rất khó khăn đấy.
+Ý tôi là nếu không giải quyết tận gốc nguyên nhân của vấn đề, thì có muốn thay đổi cũng rất khó khăn.
 
 [Sung Hyunjae]
 KR: 썩은 속을 두고 겉만 새로 칠해 봐야 이내 다시 금이 갈 뿐이니…
-Bên trong đã mục rữa mà chỉ sơn phết lại bề ngoài, thì chẳng mấy chốc sẽ lại nứt toác ra thôi…
-
-[SFX]
-KR: 풉
-Phụt
+Bên trong đã mục ruỗng mà chỉ sơn lại bề ngoài, thì chẳng mấy chốc sẽ lại nứt toác ra thôi…
 
 
 📄 ẢNH: 4.PNG
@@ -223,35 +207,35 @@ Nói ra thì giải quyết được chắc?
 
 [Độc thoại]
 KR: 지금은 일어나지도 않은 일인데.
-Hiện giờ rõ ràng là chuyện còn chưa xảy ra.
+Hiện giờ rõ ràng là chưa có gì xảy ra.
 
 [Độc thoại]
 KR: 몇 번이고 던전에서 혼자 나와야 했다고,
-Rằng bao lần mình đã phải một mình bước ra khỏi hầm ngục,
+Bao nhiêu lần tôi đã phải một mình bước ra khỏi ngục tối,
 
 [Độc thoại]
 KR: S급인 송태원조차 던전에서 죽었다고,
-Rằng ngay cả cấp S như Song Taewon cũng đã chết trong hầm ngục,
+Ngay cả cấp S như Song Taewon cũng đã bỏ mạng trong ngục tối,
 
 [Độc thoại]
 KR: 동생을
-Em trai
+Em trai tôi
 
 [Độc thoại]
 KR: D급 던전에서 동생을 잃었다고.
-Rằng mình đã mất đi em trai ở hầm ngục cấp D.
+Tôi đã mất đi em trai ở ngục tối cấp D.
 
 [Độc thoại]
 KR: 그것들 전부 나만 기억하는 일인데.
-Tất cả những chuyện đó chỉ một mình mình nhớ rõ.
+Tất cả những chuyện đó chỉ một mình tôi nhớ rõ.
 
 [Độc thoại]
 KR: 나만이
-Chỉ riêng mình
+Mỗi mình tôi
 
 [Độc thoại]
 KR: 젠장, 나라고 이러고 싶어서…
-Chết tiệt, mình cũng đâu muốn thế này chứ…
+Chết tiệt, tôi cũng đâu có muốn bị như vậy…
 
 [Han Yoohyun]
 KR: 형, 괜찮아.
@@ -262,15 +246,15 @@ Hyung, không sao đâu.
 
 [Han Yoohyun]
 KR: 괜히 마음 쓰게 해서 미안해.
-Em xin lỗi vì đã khiến Hyung phải bận lòng.
+Em xin lỗi vì đã khiến anh phải bận lòng.
 
 [Han Yoohyun]
 KR: 난 괜찮으니까 형이 하고 싶은 대로 해.
-Em không sao nên Hyung cứ làm theo những gì Hyung muốn đi.
+Em không sao nên anh cứ làm những gì anh muốn đi.
 
 [Han Yoohyun]
 KR: 무슨 일이 있어도 내가 어떻게든 도와줄 테니까….
-Dù có chuyện gì xảy ra thì em cũng sẽ giúp đỡ Hyung bằng mọi giá….
+Dù có chuyện gì xảy ra thì em cũng sẽ giúp đỡ anh bằng mọi giá….
 
 [Độc thoại]
 KR: 안 돼…
@@ -294,15 +278,15 @@ Ahjussi!!
 
 [Park Yerim]
 KR: 벌써 마중 나온 거예요?
-Chú ra đón bọn cháu sớm thế này cơ à?
+Chú ra đón bọn tôi sớm thế này cơ à?
 
-[Newbie]
+[npc]
 KR: 수고하셨… 우왓, 길드장님?
-Vất vả rồi… U oái, Hội trưởng?
+Vất vả rồi… Oái, ngài Hội trưởng?
 
 [Park Yerim]
 KR: 먼저들 나가세요! 수고하셨습니다~!
-Mọi người ra trước đi ạ! Vất vả rồi ạ~!
+Mọi người ra trước đi! Vất vả rồi ạ~!
 
 [Han Yoojin]
 KR: 예림아…
@@ -310,47 +294,47 @@ Yerim-ah…
 
 [Han Yoojin]
 KR: 예림아! 다친 덴 없어? 갑자기 던전이 바뀌었다고…!
-Yerim-ah! Em không bị thương ở đâu chứ? Nghe bảo đột nhiên hầm ngục bị thay đổi…!
+Yerim-ah! Nhóc không bị thương ở đâu chứ? Nghe bảo đột nhiên ngục tối bị thay đổi…!
 
 [Park Yerim]
 KR: 아, 그거 땜에 오신 건가?
-A, chú đến vì chuyện đó đấy à?
+A, chú đến vì chuyện đó à?
 
 [Park Yerim]
 KR: 저 괜찮아요! 놀라긴 했는데 전부 다 쉽게 쉽게 잡았어요!
-Cháu không sao đâu ạ! Dù có hơi giật mình nhưng tất cả đều bắt gọn một cách dễ dàng rồi ạ!
+Tôi không sao đâu! Dù có hơi giật mình nhưng tất cả đều dễ dàng bị càn quét rồi!
 
 [Park Yerim]
 KR: 저 이제 물 온도도 올릴 수 있거든요. 그래서 중간중간 씻기까지 했죠!
-Giờ cháu còn chỉnh được cả nhiệt độ nước nữa cơ. Cho nên thỉnh thoảng cháu còn tranh thủ tắm rửa sạch sẽ luôn đấy!
+Giờ tôi còn chỉnh được cả nhiệt độ nước nữa cơ. Cho nên thỉnh thoảng tôi còn tranh thủ tắm rửa sạch sẽ luôn!
 
 [Park Yerim]
 KR: 다른 팀원들도 다친 데 없어요!
-Các thành viên khác trong đội cũng không ai bị thương cả đâu ạ!
+Các thành viên khác trong đội cũng không ai bị thương cả!
 
 [Park Yerim]
 KR: 블루 씻기느라 나오는 데 좀 더 걸릴 거예요~
-Vì phải tắm cho Blue nên chắc sẽ mất thêm chút thời gian mới ra đấy ạ~
+Vì phải tắm cho Blue nên chắc sẽ mất thêm chút thời gian mới ra ấy~
 
 [Park Yerim]
 KR: 던전 구조가 바뀌어 버려서 오래 걸린 게 좀 분하지만요.
-Dù hơi tức một chút vì cấu trúc hầm ngục bị thay đổi nên mới mất nhiều thời gian đến thế.
+Tôi hơi bực mình một chút vì cấu trúc ngục tối bị thay đổi nên mới mất nhiều thời gian đến thế.
 
 [Park Yerim]
 KR: 먼저 나가서 아저씨랑 단둘이 외식하려고 했는데!
-Rõ ràng cháu tính ra trước để đi ăn ngoài chỉ có hai chú cháu mình thôi mà!
+Rõ ràng tôi tính ra trước để đi ăn ngoài chỉ có hai chú cháu mình thôi mà!
 
 [Han Yoohyun]
 KR: 안됐군. 형이랑 외식은 내가 했다.
-Tiếc thật đấy. Bữa ăn ngoài cùng Hyung là tôi đi rồi.
+Tiếc thật đấy. Tôi đi ăn ngoài chung với anh trai rồi.
 
 [Park Yerim]
 KR: 아잇! 길드장 놈이 또 긁네!
-Ái chà! Tên Hội trưởng này lại cà khịa nữa rồi!
+Nè! Tên Hội trưởng này lại cà khịa nữa rồi!
 
 [Han Yoojin]
 KR: 유현이도 예림이 네 걱정 많이 했어.
-Yoohyun cũng lo lắng cho em nhiều lắm đấy Yerim à.
+Yoohyun-ie cũng lo lắng cho nhóc nhiều lắm đấy Yerim-ah.
 
 [Han Yoohyun]
 KR: 별로 안 했는데.
@@ -358,15 +342,15 @@ Tôi đâu có lo mấy.
 
 [Han Yoojin]
 KR: 야, 넌 빈말이라도 좀…
-Này, em có nói đãi bôi một câu thì đã sao…
+Này, anh lo một chút thì trời sập à...
 
 [Han Yoohyun]
 KR: 던전 좀 변했다고 못 빠져나올 수준이었다면 실망은 했겠지.
-Nếu chỉ vì hầm ngục biến đổi một chút mà không thoát ra nổi thì tôi mới thất vọng đấy.
+Nếu chỉ vì ngục tối biến đổi một chút mà không thoát ra nổi thì tôi mới thất vọng đấy.
 
 [Park Yerim]
 KR: 헹, 걱정 따위 했으면 내가 더 실망했어, 길드장님아.
-Hứ, nếu anh mà lo lắng kiểu đó thì tôi còn thất vọng hơn đấy, Hội trưởng à.
+Hứ, nếu anh mà lo lắng kiểu đó thì tôi còn thất vọng hơn đấy, ngài Hội trưởng à.
 
 [Park Yerim]
 KR: 그래서, 이렇게 멀쩡한 거 보니 감상이 어때?
@@ -374,58 +358,46 @@ Thế nên, thấy tôi lành lặn thế này rồi thì cảm nghĩ của anh 
 
 [Han Yoohyun]
 KR: 흠… 블루도 있었는데 정말 느리군.
-Hừm… Có cả Blue ở đó mà thật sự chậm chạp ghê.
+Hừm… Có cả Blue ở đó mà lề mề ghê.
 
 [Park Yerim]
 KR: 캬악! 이게 진짜!
-Khè! Cái người này thật là!
-
-[Han Yoojin]
-KR: ……
-……
+Khè! Cái tên này thật là!
 
 [Độc thoại]
 KR: 왜
-Tại sao
+Tại sao?
 
 [Độc thoại]
 KR: 왜 제대로 웃을 수가 없지.
-Tại sao mình lại không thể cười nổi thế này.
-
-[SFX]
-KR: 꽈악-!
-*Siết chặt-!*
+Tại sao tôi lại không thể cười nổi?
 
 [Độc thoại]
 KR: 이제 안심인데. 평소라면 절로 미소가 맺혔을 광경인데.
-Giờ thì đã yên tâm rồi mà. Nếu là bình thường thì hẳn đây là cảnh tượng khiến mình phải bất giác mỉm cười rồi.
+Giờ thì đã yên tâm rồi mà. Nếu là bình thường thì hẳn đây là cảnh tượng khiến tôi phải bất giác mỉm cười.
 
 
 📄 ẢNH: 6.PNG
 
 [Độc thoại]
 KR: 나는, 나 때는 왜 그럴 수 없었지.
-Mình, vào thời của mình tại sao lại không thể như thế chứ.
+Tại sao... hồi ấy tôi lại không thể như thế chứ?
 
 [Độc thoại]
 KR: 회귀 전에도 그럴 수 있었다면 좋았을 텐데.
-Nếu trước khi hồi quy cũng có thể như thế thì tốt biết mấy.
+Nếu trước khi hồi quy cũng có thể như vậy thì tốt biết mấy.
 
 [Độc thoại]
 KR: 동생이 날 떠나는 일 없이 사정을 말해 줬다면
-Nếu em trai không rời bỏ mình mà nói rõ ngọn ngành cho mình biết
+Nếu em trai không rời bỏ tôi mà nói rõ ngọn ngành cho tôi biết
 
 [Độc thoại]
 KR: 무리하게 던전에 들어가는 일 없이 날 기다려줬다면
-Nếu em ấy không liều lĩnh vào hầm ngục mà chờ đợi mình
+Nếu em ấy không liều lĩnh vào ngục tối mà chờ đợi tối
 
 [Độc thoại]
 KR: 그랬다면…
 Nếu được như thế thì…
-
-[SFX]
-KR: 슥
-Soạt
 
 [Độc thoại]
 KR: …아니.
@@ -433,15 +405,15 @@ KR: …아니.
 
 [Độc thoại]
 KR: 그런 게 가능할 리 없지.
-Chuyện đó làm sao có thể chứ.
+Chuyện đó làm sao có thể chứ?
 
 [Độc thoại]
 KR: 내가 약하니까.
-Vì mình yếu đuối.
+Vì tôi yếu đuối.
 
 [Độc thoại]
 KR: 불안 한 점 없이 편안한 동생의 표정
-Vẻ mặt thanh thản không một chút bất an của em trai
+Vẻ mặt thanh thản không một chút lo lắng của em trai
 
 [Độc thoại]
 KR: 각성 후 그런 표정을 내게는 한 번도 지어준 적 없는 것도
@@ -601,4 +573,3 @@ Là vì ngay khoảnh khắc phơi bày ra cậu sẽ sụp đổ sao.
 [Sung Hyunjae]
 KR: 대체 그 속에 무엇을 감추고 있는 것인지.
 Rốt cuộc bên trong đó cậu đang che giấu điều gì chứ.
-

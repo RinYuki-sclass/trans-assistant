@@ -2488,30 +2488,63 @@ if tabs.is_active(5):
                         parsed_data[fname] = text
             
                 st.markdown(f"#### 📑 Biên tập Chapter: {sess_choice}")
-            
-                if os.path.exists(sess_img_dir):
-                    saved_imgs = sorted(os.listdir(sess_img_dir))
+
+                # Danh sách ảnh: Ưu tiên đọc từ script.txt (bảo toàn trên Git), kết hợp với ảnh cục bộ trên đĩa
+                script_img_names = list(parsed_data.keys())
+                disk_imgs = sorted(os.listdir(sess_img_dir)) if os.path.exists(sess_img_dir) else []
                 
-                    # Tính năng: Dịch lại các ảnh lỗi
-                    failed_imgs = []
-                    for img_name in saved_imgs:
-                        text = parsed_data.get(img_name, "").strip()
-                        if "[LỖI" in text or text == "":
-                            failed_imgs.append(img_name)
-                        
-                    if failed_imgs and saved_imgs:
-                        st.warning(f"⚠️ Phát hiện {len(failed_imgs)} ảnh bị lỗi trong quá trình dịch.")
+                if script_img_names:
+                    saved_imgs = list(script_img_names)
+                    for di in disk_imgs:
+                        if di not in saved_imgs:
+                            saved_imgs.append(di)
+                else:
+                    saved_imgs = disk_imgs
+
+                if not disk_imgs:
+                    st.info("ℹ️ **Lưu ý Git:** Thư mục ảnh cục bộ không có trên máy (do `.gitignore` loại trừ file ảnh để tránh phình dung lượng repository). Kịch bản dịch vẫn được nạp đầy đủ 100% bên dưới.")
+
+                # Tùy chọn nạp/bổ sung ảnh gốc cho chapter nếu người dùng muốn xem song song
+                with st.expander("📤 Nạp / Bổ sung ảnh gốc cho Chapter này (tùy chọn)", expanded=not bool(disk_imgs) and not bool(saved_imgs)):
+                    st.caption("Nếu bạn có sẵn các file ảnh gốc của chapter này, hãy tải lên để xem ảnh trực quan song song cùng bản dịch.")
+                    uploaded_patch_imgs = st.file_uploader(
+                        "Chọn các file ảnh:",
+                        accept_multiple_files=True,
+                        type=['png', 'jpg', 'jpeg', 'webp', 'avif'],
+                        key=f"upload_patch_{sess_choice}"
+                    )
+                    if uploaded_patch_imgs:
+                        if st.button("💾 Lưu ảnh vào Chapter", key=f"btn_save_patch_{sess_choice}", type="secondary"):
+                            os.makedirs(sess_img_dir, exist_ok=True)
+                            for uf in uploaded_patch_imgs:
+                                out_p = os.path.join(sess_img_dir, uf.name)
+                                with open(out_p, "wb") as f:
+                                    f.write(uf.getbuffer())
+                            st.success(f"✅ Đã lưu {len(uploaded_patch_imgs)} ảnh vào thư mục `{sess_choice}/images`!")
+                            st.rerun()
+
+                # Tính năng: Dịch lại các ảnh lỗi
+                failed_imgs = []
+                for img_name in saved_imgs:
+                    text = parsed_data.get(img_name, "").strip()
+                    if "[LỖI" in text or text == "":
+                        failed_imgs.append(img_name)
+                    
+                if failed_imgs and saved_imgs:
+                    available_failed = [f for f in failed_imgs if os.path.exists(os.path.join(sess_img_dir, f))] if os.path.exists(sess_img_dir) else []
+                    if available_failed:
+                        st.warning(f"⚠️ Phát hiện {len(failed_imgs)} ảnh bị lỗi trong quá trình dịch ({len(available_failed)} ảnh có sẵn file gốc để quét lại).")
                         if st.button("🔄 Dịch lại các ảnh bị lỗi", type="primary", use_container_width=True):
                             import PIL.Image
                             glossary = load_file(PATHS['glossary'])
                             notes = load_file(PATHS['notes'])
                             target_model = "gemini-3.1-flash-lite"
                         
-                            status_retry = st.status(f"🚀 Đang dịch lại {len(failed_imgs)} ảnh lỗi...", expanded=True)
+                            status_retry = st.status(f"🚀 Đang dịch lại {len(available_failed)} ảnh lỗi...", expanded=True)
                             bar_retry = st.progress(0)
                         
-                            for i, fname in enumerate(failed_imgs):
-                                bar_retry.progress(i / len(failed_imgs), f"Đang quét lại ảnh {i+1}/{len(failed_imgs)}...")
+                            for i, fname in enumerate(available_failed):
+                                bar_retry.progress(i / len(available_failed), f"Đang quét lại ảnh {i+1}/{len(available_failed)}...")
                                 status_retry.write(f"🖼️ Đang quét lại: `{fname}`")
                             
                                 img_path = os.path.join(sess_img_dir, fname)
@@ -2580,122 +2613,131 @@ if tabs.is_active(5):
                             bar_retry.progress(1.0, "✅ Hoàn tất dịch lại!")
                             status_retry.update(label=f"✅ Đã xử lý xong các ảnh lỗi", state="complete")
                             st.rerun()
-
-                    if saved_imgs:
-                        st.divider()
-                    
-                        # Individual image-text rows
-                        new_parsed_data = {}
-                        for img_name in saved_imgs:
-                            st.markdown(f"🖼️ **{img_name}**")
-                            c1, c2 = st.columns([1, 1])
-                            with c1:
-                                render_safe_image(os.path.join(sess_img_dir, img_name), use_container_width=True)
-                            with c2:
-                                st.markdown('<div class="sticky-anchor"></div>', unsafe_allow_html=True)
-                                current_val = parsed_data.get(img_name, "")
-                                st.markdown('<style>textarea[aria-label="Bản dịch:"] { font-size: 26px !important; line-height: 1.5 !important; }</style>', unsafe_allow_html=True)
-                                input_val = st.text_area("Bản dịch:", current_val, height=500, key=f"mh_edit_{sess_choice}_{img_name}")
-                                new_parsed_data[img_name] = input_val
-                            st.divider()
-
-                        # Reconstruct script for saving/downloading
-                        reconstructed_script = "\n\n".join([f"📄 ẢNH: {n}\n\n{new_parsed_data.get(n, '')}\n" for n in saved_imgs])
-
-                        # Check Google API availability
-                        try:
-                            from scripts.google_helper import is_configured as _gd_check, create_google_doc, get_root_folder_id, create_subfolder as _gd_mkdir
-                            _has_gdocs = _gd_check()
-                        except ImportError:
-                            try:
-                                from google_helper import is_configured as _gd_check, create_google_doc, get_root_folder_id, create_subfolder as _gd_mkdir
-                                _has_gdocs = _gd_check()
-                            except Exception:
-                                _has_gdocs = False
-
-                        # Bottom Actions
-                        if _has_gdocs:
-                            col_save, col_dl, col_gdoc = st.columns([1, 1, 1])
-                        else:
-                            col_save, col_dl = st.columns([1, 1])
-                            col_gdoc = None
-
-                        with col_dl:
-                             st.download_button("⬇️ Tải Kịch bản (.txt)", reconstructed_script, 
-                                               f"{sess_choice}.txt", use_container_width=True)
-                        with col_save:
-                            if st.button("💾 Lưu tất cả thay đổi", type="primary", use_container_width=True, key="mh_save_all"):
-                                save_file(sess_script_path, reconstructed_script)
-                                st.success("✅ Đã lưu toàn bộ bản dịch!")
-                                st.rerun()
-
-                        if col_gdoc is not None:
-                            with col_gdoc:
-                                if st.button("📤 Đẩy lên Google Docs", use_container_width=True, key="mh_push_gdoc"):
-                                    st.session_state['_show_gdoc_options'] = True
-
-                        if st.session_state.get('_show_gdoc_options'):
-                            try:
-                                from scripts.google_helper import parse_folder_id_from_url as _parse_fid
-                            except ImportError:
-                                from google_helper import parse_folder_id_from_url as _parse_fid
-                            gdoc_folder_input = st.text_input(
-                                "📂 Folder Drive của Chapter (VD: folder '156'):",
-                                placeholder="Paste link folder chapter trên Drive...",
-                                key="gdoc_folder_input",
-                                help="Doc sẽ được tạo trực tiếp trong folder này với tên '{chapter}'"
-                            )
-                            if st.button("✅ Xác nhận đẩy lên Docs", type="primary", key="gdoc_confirm"):
-                                with st.spinner("☁️ Đang tạo Google Doc..."):
-                                    try:
-                                        if gdoc_folder_input.strip():
-                                            target_fid = _parse_fid(gdoc_folder_input)
-                                        else:
-                                            target_fid = get_root_folder_id()
-                                        
-                                        import re
-                                        gdoc_script = reconstructed_script
-                                        # 1. Bỏ "KR: " và "VI: "
-                                        gdoc_script = re.sub(r'^(?:KR|VI):\s*', '', gdoc_script, flags=re.MULTILINE | re.IGNORECASE)
-                                    
-                                        # 2. Rút gọn ghi chú ẢNH
-                                        parts = gdoc_script.split("📄 ẢNH: ")
-                                        if len(parts) > 1:
-                                            processed_gdoc = parts[0]
-                                            current_group = None
-                                            for part in parts[1:]:
-                                                lines = part.split('\n', 1)
-                                                img_name = lines[0].strip()
-                                                content = lines[1] if len(lines) > 1 else ""
-                                            
-                                                group_name = img_name.split('_')[0] if '_' in img_name else img_name.rsplit('.', 1)[0]
-                                            
-                                                if group_name != current_group:
-                                                    processed_gdoc += f"\n📄 ẢNH: {group_name}\n"
-                                                    current_group = group_name
-                                            
-                                                processed_gdoc += content
-                                        
-                                            # Cleanup multiple newlines
-                                            gdoc_script = re.sub(r'\n{3,}', '\n\n', processed_gdoc).strip()
-
-                                        # Đặt Doc trực tiếp trong folder chapter, tên "{chapter}"
-                                        result = create_google_doc(
-                                            title=f"{sess_choice}",
-                                            content=gdoc_script,
-                                            folder_id=target_fid,
-                                        )
-                                        st.success(f"✅ Đã tạo Google Doc!")
-                                        st.markdown(f"🔗 [Mở Google Docs]({result['doc_url']})")
-                                        log_action("Google Docs", f"Tạo Doc: {sess_choice}")
-                                        st.session_state['_show_gdoc_options'] = False
-                                    except Exception as e:
-                                        st.error(f"❌ Lỗi tạo Google Doc: {e}")
-
                     else:
-                        st.info("Chưa có ảnh gốc nào được lưu lại cho Lịch sử này.")
+                        st.warning(f"⚠️ Phát hiện {len(failed_imgs)} ảnh bị lỗi trong kịch bản. (Cần tải ảnh gốc lên ở mục phía trên để AI có thể quét lại).")
+
+                if saved_imgs:
+                    st.divider()
+                
+                    # Individual image-text rows
+                    new_parsed_data = {}
+                    for img_name in saved_imgs:
+                        st.markdown(f"🖼️ **{img_name}**")
+                        c1, c2 = st.columns([1, 1])
+                        img_path = os.path.join(sess_img_dir, img_name) if os.path.exists(sess_img_dir) else ""
+                        with c1:
+                            if img_path and os.path.exists(img_path):
+                                render_safe_image(img_path, use_container_width=True)
+                            else:
+                                st.info(f"📷 Không tìm thấy file ảnh `{img_name}` trên máy này.\n\n*(Ảnh không lưu trên Git)*")
+                        with c2:
+                            st.markdown('<div class="sticky-anchor"></div>', unsafe_allow_html=True)
+                            current_val = parsed_data.get(img_name, "")
+                            st.markdown('<style>textarea[aria-label="Bản dịch:"] { font-size: 26px !important; line-height: 1.5 !important; }</style>', unsafe_allow_html=True)
+                            input_val = st.text_area("Bản dịch:", current_val, height=500, key=f"mh_edit_{sess_choice}_{img_name}")
+                            new_parsed_data[img_name] = input_val
+                        st.divider()
+
+                    # Reconstruct script for saving/downloading
+                    reconstructed_script = "\n\n".join([f"📄 ẢNH: {n}\n\n{new_parsed_data.get(n, '')}\n" for n in saved_imgs])
+
+                    # Check Google API availability
+                    try:
+                        from scripts.google_helper import is_configured as _gd_check, create_google_doc, get_root_folder_id, create_subfolder as _gd_mkdir
+                        _has_gdocs = _gd_check()
+                    except ImportError:
+                        try:
+                            from google_helper import is_configured as _gd_check, create_google_doc, get_root_folder_id, create_subfolder as _gd_mkdir
+                            _has_gdocs = _gd_check()
+                        except Exception:
+                            _has_gdocs = False
+
+                    # Bottom Actions
+                    if _has_gdocs:
+                        col_save, col_dl, col_gdoc = st.columns([1, 1, 1])
+                    else:
+                        col_save, col_dl = st.columns([1, 1])
+                        col_gdoc = None
+
+                    with col_dl:
+                         st.download_button("⬇️ Tải Kịch bản (.txt)", reconstructed_script, 
+                                           f"{sess_choice}.txt", use_container_width=True)
+                    with col_save:
+                        if st.button("💾 Lưu tất cả thay đổi", type="primary", use_container_width=True, key="mh_save_all"):
+                            save_file(sess_script_path, reconstructed_script)
+                            st.success("✅ Đã lưu toàn bộ bản dịch!")
+                            st.rerun()
+
+                    if col_gdoc is not None:
+                        with col_gdoc:
+                            if st.button("📤 Đẩy lên Google Docs", use_container_width=True, key="mh_push_gdoc"):
+                                st.session_state['_show_gdoc_options'] = True
+
+                    if st.session_state.get('_show_gdoc_options'):
+                        try:
+                            from scripts.google_helper import parse_folder_id_from_url as _parse_fid
+                        except ImportError:
+                            from google_helper import parse_folder_id_from_url as _parse_fid
+                        gdoc_folder_input = st.text_input(
+                            "📂 Folder Drive của Chapter (VD: folder '156'):",
+                            placeholder="Paste link folder chapter trên Drive...",
+                            key="gdoc_folder_input",
+                            help="Doc sẽ được tạo trực tiếp trong folder này với tên '{chapter}'"
+                        )
+                        if st.button("✅ Xác nhận đẩy lên Docs", type="primary", key="gdoc_confirm"):
+                            with st.spinner("☁️ Đang tạo Google Doc..."):
+                                try:
+                                    if gdoc_folder_input.strip():
+                                        target_fid = _parse_fid(gdoc_folder_input)
+                                    else:
+                                        target_fid = get_root_folder_id()
+                                    
+                                    import re
+                                    gdoc_script = reconstructed_script
+                                    # 1. Bỏ "KR: " và "VI: "
+                                    gdoc_script = re.sub(r'^(?:KR|VI):\s*', '', gdoc_script, flags=re.MULTILINE | re.IGNORECASE)
+                                
+                                    # 2. Rút gọn ghi chú ẢNH
+                                    parts = gdoc_script.split("📄 ẢNH: ")
+                                    if len(parts) > 1:
+                                        processed_gdoc = parts[0]
+                                        current_group = None
+                                        for part in parts[1:]:
+                                            lines = part.split('\n', 1)
+                                            img_name = lines[0].strip()
+                                            content = lines[1] if len(lines) > 1 else ""
+                                        
+                                            group_name = img_name.split('_')[0] if '_' in img_name else img_name.rsplit('.', 1)[0]
+                                        
+                                            if group_name != current_group:
+                                                processed_gdoc += f"\n📄 ẢNH: {group_name}\n"
+                                                current_group = group_name
+                                        
+                                            processed_gdoc += content
+                                    
+                                        # Cleanup multiple newlines
+                                        gdoc_script = re.sub(r'\n{3,}', '\n\n', processed_gdoc).strip()
+
+                                    # Đặt Doc trực tiếp trong folder chapter, tên "{chapter}"
+                                    result = create_google_doc(
+                                        title=f"{sess_choice}",
+                                        content=gdoc_script,
+                                        folder_id=target_fid,
+                                    )
+                                    st.success(f"✅ Đã tạo Google Doc!")
+                                    st.markdown(f"🔗 [Mở Google Docs]({result['doc_url']})")
+                                    log_action("Google Docs", f"Tạo Doc: {sess_choice}")
+                                    st.session_state['_show_gdoc_options'] = False
+                                except Exception as e:
+                                    st.error(f"❌ Lỗi tạo Google Doc: {e}")
+
                 else:
-                    st.error("Không tìm thấy thư mục ảnh cho phiên bản này.")
+                    st.info("Chưa có danh sách ảnh nào được ghi nhận cho Lịch sử này.")
+                    mh_raw_edit = st.text_area("Nội dung kịch bản:", mh_content, height=600, key=f"mh_raw_edit_{sess_choice}")
+                    if st.button("💾 Lưu thay đổi", type="primary", key="mh_raw_save"):
+                        save_file(sess_script_path, mh_raw_edit)
+                        st.success("✅ Đã lưu kịch bản!")
+                        st.rerun()
 
     # =================== TAB 6: TẢI TRUYỆN ===================
 if tabs.is_active(6):
