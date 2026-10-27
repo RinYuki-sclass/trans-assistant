@@ -1,0 +1,103 @@
+{
+  "project_slug": "đè-các-tra-công",
+  "title": "Đè Các Tra Công",
+  "author": "Bát Thập Lục Bút (八十六笔)",
+  "total_chapters": 5,
+  "stats": {
+    "pending": 0,
+    "raw_ready": 5,
+    "prescanned": 0,
+    "translating": 0,
+    "translated": 0,
+    "qc_approved": 0,
+    "published": 0
+  },
+  "arcs": [
+    {
+      "arc_id": 1,
+      "arc_name": "Chính Văn",
+      "folder_range": [
+        "ch_001",
+        "ch_005"
+      ]
+    }
+  ],
+  "chapters": [
+    {
+      "id": "ch_001",
+      "order": 1,
+      "chapter_no": 1,
+      "sub_index": null,
+      "arc_id": 1,
+      "arc_name": "Chính Văn",
+      "title_zh": "第1章",
+      "title_vi": "Chương 1",
+      "status": "raw_ready",
+      "paragraph_count": 235,
+      "word_count": 0,
+      "source_url": "",
+      "updated_at": "2026-10-27T22:48:57.102578"
+    },
+    {
+      "id": "ch_002",
+      "order": 2,
+      "chapter_no": 2,
+      "sub_index": null,
+      "arc_id": 1,
+      "arc_name": "Chính Văn",
+      "title_zh": "第2章",
+      "title_vi": "Chương 2",
+      "status": "raw_ready",
+      "paragraph_count": 104,
+      "word_count": 0,
+      "source_url": "",
+      "updated_at": "2026-10-27T22:48:57.108210"
+    },
+    {
+      "id": "ch_003",
+      "order": 3,
+      "chapter_no": 3,
+      "sub_index": null,
+      "arc_id": 1,
+      "arc_name": "Chính Văn",
+      "title_zh": "第3章",
+      "title_vi": "Chương 3",
+      "status": "raw_ready",
+      "paragraph_count": 108,
+      "word_count": 0,
+      "source_url": "",
+      "updated_at": "2026-10-27T22:48:57.114305"
+    },
+    {
+      "id": "ch_004",
+      "order": 4,
+      "chapter_no": 4,
+      "sub_index": null,
+      "arc_id": 1,
+      "arc_name": "Chính Văn",
+      "title_zh": "第4章",
+      "title_vi": "Chương 4",
+      "status": "raw_ready",
+      "paragraph_count": 157,
+      "word_count": 0,
+      "source_url": "",
+      "updated_at": "2026-10-27T22:48:57.120656"
+    },
+    {
+      "id": "ch_005",
+      "order": 5,
+      "chapter_no": 5,
+      "sub_index": null,
+      "arc_id": 1,
+      "arc_name": "Chính Văn",
+      "title_zh": "第5章",
+      "title_vi": "Chương 5",
+      "status": "raw_ready",
+      "paragraph_count": 133,
+      "word_count": 0,
+      "source_url": "",
+      "updated_at": "2026-10-27T22:48:57.127030"
+    }
+  ],
+  "generated_at": "2026-10-27T22:48:57.127051"
+}
