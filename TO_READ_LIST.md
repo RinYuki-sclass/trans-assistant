@@ -150,7 +150,12 @@ Tác giả: Nguyên Lai Thị Lạc Lạc (原来是落落)
 - **Độ dài:** 257 chương (FULL)
 - **Nguồn Raw:** JJWXC (`8670101`) & 52shuku
 - **Bản dịch tiếng Việt có sẵn:** Đã hoàn thành 257 chương trên app **TYT (Tôi Yêu Truyện)** do translator **Gà rán (acc phụ)** thực hiện. Link: [tytnovel.info](https://tytnovel.info/truyen/69fecd1bfc6c710f9039c5e3/ca-man-ky-chu-tong-doi-vai-ac-nhat-kien-chung-tinh)
-- **Trạng thái To-Do:** Đã khởi tạo dự án trong `novel_projects/cá-mặn-ký-chủ-tổng-đối-vai-ác-nhất-kiến-chung-tình/`. Chờ nhập bản dịch từ TYT (hoặc tự động dịch trực tiếp từ raw khi cần đọc).
+- **Trạng thái To-Do:** Đã dịch & QC Passed chuẩn 1:1 trọn vẹn **TOÀN BỘ ARC 1 (Chương 1 - 42: 3.152 đoạn văn)** gồm:
+  - Batch 1 (Chương 1 - 10: 867 đoạn)
+  - Batch 2 (Chương 11 - 20: 652 đoạn)
+  - Batch 3 (Chương 21 - 30: 726 đoạn)
+  - Batch 4 (Chương 31 - 42: 907 đoạn - Kết thúc Arc 1)
+  - Lưu trữ tại: `novel_projects/cá-mặn-ký-chủ-tổng-đối-vai-ác-nhất-kiến-chung-tình/`. Sẵn sàng cho Arc 2.
 
 ---
 

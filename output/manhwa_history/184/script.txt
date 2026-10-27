@@ -417,11 +417,11 @@ Vẻ mặt thanh thản không một chút lo lắng của em trai
 
 [Độc thoại]
 KR: 각성 후 그런 표정을 내게는 한 번도 지어준 적 없는 것도
-Cả việc sau khi thức tỉnh em ấy chưa từng một lần để lộ vẻ mặt đó với mình
+Cả việc sau khi thức tỉnh em ấy chưa từng một lần để lộ vẻ mặt đó với tôi
 
 [Độc thoại]
 KR: 그 또한 내가 약하기 때문에
-Điều đó cũng là vì mình yếu đuối
+Điều đó cũng là vì tôi yếu đuối
 
 [Độc thoại]
 KR: 그래서
@@ -429,11 +429,11 @@ Thế nên
 
 [Độc thoại]
 KR: 그래서 동생은 말없이 나를 떠났고
-Thế nên em trai mới lặng lẽ rời xa mình
+Thế nên em trai mới lặng lẽ rời xa tôi
 
 [Độc thoại]
 KR: 무리한 대가를 치러 가며 닫힌 던전에 들어왔고
-Phải trả cái giá đắt để tiến vào hầm ngục đã đóng
+Phải trả cái giá quá đắt để tiến vào ngục tối đã đóng
 
 [Độc thoại]
 KR: 그리고―
@@ -442,10 +442,6 @@ Và rồi―
 [Han Yoohyun]
 KR: “형, 괜찮아?”
 “Hyung, không sao chứ?”
-
-[SFX]
-KR: 주춤
-Khựng lại
 
 [Độc thoại]
 KR: 안 돼.
@@ -457,11 +453,8 @@ Nếu bây giờ ở đây mà nhớ lại chuyện này
 
 [Độc thoại]
 KR: 안 돼. 이건
-Không được. Đây là
+Không được. Đây
 
-[SFX]
-KR: 비틀
-Lảo đảo
 
 
 📄 ẢNH: 7.PNG
@@ -480,27 +473,27 @@ Ahjussi!
 
 [Park Yerim]
 KR: 뭐예요! 아저씨 내놔!
-Cái gì vậy! Trả Ahjussi lại đây!
+Cái gì vậy?! Trả Ahjussi lại đây!
 
 [Sung Hyunjae]
 KR: 다들 사이가 너무 좋아 보여 외로워져서 말이네~
-Thấy mọi người thân thiết quá nên tôi thấy cô đơn ấy mà~
+Nhìn mọi người thân thiết quá nên tôi thấy cô đơn ấy mà~
 
 [Park Yerim]
 KR: 자요, 한유현 대신 줄게요!
-Này, tôi cho anh đổi lấy Han Yoohyun đấy!
+Đây, tôi cho chú đổi lấy Han Yoohyun nè!
 
 [Han Yoohyun]
 KR: 박예림 헌터와 교환합시다.
-Đổi lấy Hunter Park Yerim đi.
+Đổi lấy thợ săn Park Yerim đi.
 
 [Sung Hyunjae]
 KR: 싫다네~ 한유진 군이 맘에 든다네~
-Tôi không thích đâu~ Tôi vừa mắt Han Yoojin-gun hơn cơ~
+Không thích~ Tôi vừa mắt Han Yoojin-gun hơn~
 
 [Park Yerim]
 KR: 야, 이 아저씨 사슬 꺼냈어!
-Này, ông chú này lôi xích ra rồi kìa!
+Ơ, ông chú này lôi xích ra rồi kìa!
 
 [Độc thoại]
 KR: 그래, 지금은 기억 속에 파묻혀 있을 때가 아니다.
@@ -512,11 +505,11 @@ KR: …애들 너무 놀리지 마세요.
 
 [Han Yoojin]
 KR: 그리고 핏자국은 찬물에 빨아야 지워질 겁니다.
-Với lại vết máu phải giặt bằng nước lạnh thì mới sạch đấy.
+Với lại vết máu phải giặt bằng nước lạnh thì mới sạch đó.
 
 [Han Yoojin]
 KR: 딴딴하구나 S급 가슴팍!
-Lồng ngực cấp S cứng cáp thật đấy!
+Lồng ngực cấp S siêu cứng cáp!
 
 [Park Yerim]
 KR: 괜찮아요, 아저씨?!
@@ -524,7 +517,7 @@ Chú có sao không, Ahjussi?!
 
 [Han Yoohyun]
 KR: 형, 저놈 버리고 얼른 나가자!
-Hyung, mặc kệ tên đó rồi mau ra ngoài thôi!
+Hyung, mặc kệ tên đó rồi mau về thôi!
 
 [Độc thoại]
 KR: 괜찮다.
@@ -532,44 +525,44 @@ Không sao cả.
 
 [Độc thoại]
 KR: 괜찮아야지.
-Phải không sao chứ.
+Mình nhất định phải ổn.
 
 [Han Yoojin]
 KR: 그래. 일단 나가자! 예림이도 배고플 텐데.
-Ừ. Trước mắt cứ ra ngoài đã! Chắc Yerim cũng đói rồi.
+Ừ. Trước mắt cứ ra ngoài đã! Chắc Yerim-ie cũng đói rồi.
 
 [Han Yoojin]
 KR: 밥 먹으면서 던전 이야기도 자세히 듣고.
-Vừa ăn cơm vừa nghe kể chi tiết về chuyện hầm ngục nữa.
+Vừa ăn cơm vừa kể chi tiết về chuyện ngục tối đi.
 
 [Han Yoojin]
 KR: 뭐 먹을래? 예림이 너 던전에선 건조 식량밖에 못 먹었을 텐데.
-Nhóc muốn ăn gì nào? Yerim à ở trong hầm ngục chắc nhóc chỉ toàn ăn lương khô thôi nhỉ.
+Nhóc muốn ăn gì không? Yerim-ie ở trong ngục tối chắc chỉ toàn ăn lương khô thôi nhỉ?
 
 [Park Yerim]
 KR: 맞아요 그거 진짜 맛 없어요!
-Đúng thế cái đó thật sự dở tệ luôn ấy!
+Đúng rồi. Cái đó thật sự dở tệ luôn ấy!
 
 [Han Yoohyun]
 KR: 형이 준 건조 과일은 맛있더라.
-Hoa quả sấy Hyung cho ngon lắm.
+Hoa quả sấy anh làm ngon lắm.
 
 [Park Yerim]
 KR: 앗! 길드장 놈 또 그새를 틈타 자랑을!
-Á! Tên Hội trưởng lại tranh thủ lúc này để khoe khoang rồi!
+Ặc! Gã Hội trưởng lại tranh thủ khoe khoang rồi!
 
 [Độc thoại]
 KR: 곪아버린 속을 들여다 볼 여유 따위 지금 내게는…
-Thứ thong dong để nhìn thấu nỗi đau đang mưng mủ bên trong đối với tôi lúc này…
+Bây giờ tôi làm gì còn tâm trí để lo cho mấy thứ như vết thương lòng bị mưng mủ chứ...
 
 [Sung Hyunjae]
 KR: 썩은 속을 드러내지 못하는 것은
-Việc không thể phơi bày ruột gan mục rữa ra ngoài
+Không thể phơi bày ruột gan mục rữa ra ngoài
 
 [Sung Hyunjae]
 KR: 드러내는 순간 무너져 버리기 때문인가.
-Là vì ngay khoảnh khắc phơi bày ra cậu sẽ sụp đổ sao.
+Là vì ngay khoảnh khắc ấy cậu sẽ sụp đổ sao?
 
 [Sung Hyunjae]
 KR: 대체 그 속에 무엇을 감추고 있는 것인지.
-Rốt cuộc bên trong đó cậu đang che giấu điều gì chứ.
+Rốt cuộc bên trong cậu đang che giấu điều gì?

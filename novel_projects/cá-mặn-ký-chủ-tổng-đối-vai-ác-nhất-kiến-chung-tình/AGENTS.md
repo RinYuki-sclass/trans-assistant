@@ -21,8 +21,8 @@
 
 | Nhân vật | Tên Hán | Đại từ ngôi 3 | Vai trò / Thân phận | Quy chuẩn xưng hô & Ghi chú |
 | :--- | :--- | :--- | :--- | :--- |
-| **Chu Nhàn** | 周闲 | **anh** *(Hiện đại/Showbiz/Linh dị/Tương lai)*<br>**hắn** *(Tiên hiệp/Cổ đại)* | **Công chính (Chủ công)** - Ký chủ của Hệ thống Cải tạo Phản diện | Bề ngoài là thanh niên ưu tú chỉ muốn làm con "cá mặn" nằm ườn lười biếng, tuyên bố đời này không bao giờ làm nhiệm vụ. Nhưng hễ thấy phản diện vừa đẹp vừa dịu dàng là lập tức trúng tiếng sét ái tình, bật chế độ "song tiêu" (tiêu chuẩn kép), sủng vợ vô điều kiện, kiên quyết cứu vợ và cứu thế giới bằng cách ép phản diện học tập giá trị quan chân-thiện-mỹ và cưỡng hôn. |
-| **Lục Ninh Sâm** *(ở các thế giới có thể là Lục Tuyết Trầm / A Tuyết)* | 陆宁琛 / 陆雪沉 / 阿雪 | **cậu** *(Hiện đại/Showbiz)*<br>**y** *(Cổ đại/Cung đình/Tiên hiệp/Linh dị)* | **Thụ chính** - Boss phản diện các thế giới | Dung mạo cực kỳ xinh đẹp, khí chất dịu dàng thanh tao nhưng nội tâm u ám, tàn nhẫn, mang số phận bi kịch hắc hóa muốn hủy diệt mọi thứ. Bị Chu Nhàn "bắt bài", ban đầu đề phòng, dần dần rung động trước sự sủng ái và phong cách giải cứu dở khóc dở cười của Chu Nhàn. |
+| **Chu Nhàn** | 周闲 | **hắn** | **Công chính (Chủ công)** - Ký chủ của Hệ thống Cải tạo Phản diện | Bề ngoài là thanh niên ưu tú chỉ muốn làm con "cá mặn" nằm ườn lười biếng, tuyên bố đời này không bao giờ làm nhiệm vụ. Nhưng hễ thấy phản diện vừa đẹp vừa dịu dàng là lập tức trúng tiếng sét ái tình, bật chế độ "song tiêu" (tiêu chuẩn kép), sủng vợ vô điều kiện, kiên quyết cứu vợ và cứu thế giới bằng cách ép phản diện học tập giá trị quan chân-thiện-mỹ và cưỡng hôn. |
+| **Lục Ninh Sâm** *(ở các thế giới có thể là Lục Tuyết Trầm / A Tuyết)* | 陆宁琛 / 陆雪沉 / 阿雪 | **anh** *(hoặc "Lục Ninh Sâm", "Lục tổng" - CẤM dùng "cậu")* | **Thụ chính** - Boss phản diện các thế giới | Dung mạo cực kỳ xinh đẹp, khí chất dịu dàng thanh tao nhưng nội tâm u ám, tàn nhẫn, mang số phận bi kịch hắc hóa muốn hủy diệt mọi thứ. Bị Chu Nhàn "bắt bài", ban đầu đề phòng, dần dần rung động trước sự sủng ái và phong cách giải cứu dở khóc dở cười của Chu Nhàn. |
 | **Hệ thống Cải tạo Phản diện** | 反派改造系统 | **nó** | **Hệ thống nhiệm vụ** | Bị Chu Nhàn làm cho phát điên vì độ lười nhác và sự "mê gái/mê vợ" bất chấp liêm sỉ. Luôn bất lực trước những màn bẻ lái cốt truyện kinh hoàng của ký chủ. |
 
 ---
@@ -46,18 +46,20 @@
 
 ## 4. QUY TẮC ĐẠI TỪ NGÔI KỂ THỨ 3 (NARRATION)
 
-- **Chu Nhàn (Công chính):**
-  - Trong các bối cảnh Hiện đại, Đô thị, Showbiz: Luôn dùng **"anh"**.
-  - Trong bối cảnh Cổ đại, Tiên hiệp, Tu chân: Luôn dùng **"hắn"**.
+- **Chu Nhàn (Chủ công):**
+  - Luôn dùng **"hắn"** trong trần thuật ngôi thứ ba.
 - **Lục Ninh Sâm / Phản diện (Thụ chính):**
-  - Trong bối cảnh Hiện đại, Showbiz: Dùng **"cậu"**.
-  - Trong bối cảnh Cổ đại, Tiên hiệp, Cung đình: Dùng **"y"**.
+  - Luôn dùng **"anh"** (hoặc danh xưng rõ ràng: *Lục Ninh Sâm*, *Lục tổng*).
+  - ⚠️ **TUYỆT ĐỐI CẤM:** Không dùng **"cậu"** cho Lục Ninh Sâm trong câu trần thuật ngôi 3.
 - **Hệ thống:** Dùng **"nó"**.
 - ⚠️ **LƯU Ý BẮT BUỘC:**
-  1. Phân định rõ rệt đại từ ngôi 3 giữa Chu Nhàn và Lục Ninh Sâm, không để lẫn lộn.
+  1. Phân định rõ rệt đại từ ngôi 3 giữa Chu Nhàn ("hắn") và Lục Ninh Sâm ("anh"), không để lẫn lộn.
   2. **Phân định tuyệt đối giữa Lời thoại trực tiếp vs Trần thuật / Độc thoại nội tâm:**
-     - Trong lời thoại trực tiếp `“...”`: Nhân vật có thể xưng hô linh hoạt theo cảm xúc (`“tôi - cậu”`, `“anh - em”`, `“ta - ngươi”`, `“lão bà”`, `“vợ à”`...).
-     - Trong câu trần thuật hoặc suy nghĩ nội tâm không có ngoặc kép: **TUYỆT ĐỐI CẤM** dùng đại từ đối thoại ngôi 1/ngôi 2 (`mày`, `tao`, `tôi`), bắt buộc dùng ngôi thứ 3 chuẩn (`anh`, `cậu`, `y`, `hắn`).
+     - Trong lời thoại trực tiếp `“...”`:
+       - Trước khi xác nhận quan hệ (Chương 1 - 28): Chu Nhàn xưng `tôi` gọi `anh / Lục tổng`; Lục Ninh Sâm xưng `tôi` gọi `cậu`.
+       - **Sau khi xác nhận quan hệ (Chương 29 - 42):** Bắt buộc xưng hô **“anh - em” (KHÔNG dùng “tôi”)**: Chu Nhàn (22 tuổi) xưng **“em”** gọi **“anh”**; Lục Ninh Sâm (25 tuổi) xưng **“anh”** gọi **“em”**.
+     - **Giữa Ký chủ (Chu Nhàn) và Hệ thống (trong `【...】` hoặc nói riêng):** Bắt buộc **LUÔN xưng hô “tôi - cậu”** (Chu Nhàn: xưng “tôi” gọi “cậu / Thống Tử”; Hệ thống: xưng “tôi” gọi “cậu / ký chủ”). Tuyệt đối **CẤM** dùng “mày - tao”.
+     - Trong câu trần thuật hoặc suy nghĩ nội tâm không có ngoặc kép: **TUYỆT ĐỐI CẤM** dùng đại từ đối thoại ngôi 1/ngôi 2 (`mày`, `tao`, `tôi`), bắt buộc dùng ngôi thứ 3 chuẩn (Chu Nhàn: `hắn`, Lục Ninh Sâm: `anh`).
 
 ---
 

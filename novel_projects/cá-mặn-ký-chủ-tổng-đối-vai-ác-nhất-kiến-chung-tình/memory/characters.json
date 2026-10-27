@@ -8,10 +8,11 @@
     "aliases": [
       "Ký chủ cá mặn",
       "Tiểu Chu",
-      "Chu tiên sinh"
+      "Chu tiên sinh",
+      "Trợ lý Chu"
     ],
-    "narration_pronoun": "anh",
-    "honorifics": "với Lục Ninh Sâm: tôi/anh - Lục tổng/cậu/vợ à; với Hệ thống: tôi - Hệ thống",
+    "narration_pronoun": "hắn",
+    "honorifics": "với Lục Ninh Sâm: tôi/em/anh - Lục tổng/anh/nghĩa phụ/vợ à; với Hệ thống: tôi - Hệ thống",
     "speech_style": "Hài hước, da mặt dày, lười biếng phật hệ nhưng khi bảo vệ vợ thì cực kỳ sắc bén và mạnh mẽ",
     "notes": "Thanh niên ưu tú bề ngoài cá mặn lười nhác, trói định với Hệ thống Cải tạo Phản diện. Hễ thấy phản diện xinh đẹp là trúng tiếng sét ái tình, bất chấp tất cả để cưng chiều và cải tạo vợ theo đường lối chân-thiện-mỹ."
   },
@@ -26,10 +27,10 @@
       "Lục Tuyết Trầm",
       "A Tuyết"
     ],
-    "narration_pronoun": "cậu",
-    "honorifics": "với Chu Nhàn: tôi - Chu Nhàn/cậu/anh",
+    "narration_pronoun": "anh (hoặc Lục Ninh Sâm, Lục tổng - TUYỆT ĐỐI CẤM dùng 'cậu')",
+    "honorifics": "với Chu Nhàn: tôi - Chu Nhàn/cậu",
     "speech_style": "Bề ngoài dịu dàng thanh nhã, lịch thiệp, bên trong thâm trầm, nguy hiểm và độc miệng khi bị chọc tức",
-    "notes": "Boss phản diện của các thế giới. Luôn mang vẻ ngoài hoàn mỹ giả tạo che đậy nội tâm tan vỡ và muốn hủy diệt. Bị Chu Nhàn 'bắt bài' và dần rung động trước sự sủng ái vô điều kiện của anh."
+    "notes": "Boss phản diện của các thế giới. Luôn mang vẻ ngoài hoàn mỹ giả tạo che đậy nội tâm tan vỡ và muốn hủy diệt. Mắc chứng say máu do chứng kiến mẹ nhảy lầu thời thơ ấu. Bị Chu Nhàn 'bắt bài' và dần rung động trước sự bảo vệ và sủng ái vô điều kiện của hắn."
   },
   {
     "name": "Reformed Villain System",
@@ -45,5 +46,48 @@
     "honorifics": "với Chu Nhàn: tôi/bổn hệ thống - Ký chủ",
     "speech_style": "Nghiêm túc theo khuôn khổ nhưng thường xuyên phát điên và cạn lời vì độ lười nhác cùng thói mê vợ của ký chủ",
     "notes": "Trói định Chu Nhàn với kỳ vọng ký chủ cứu vớt phản diện, không ngờ ký chủ trực tiếp biến phản diện thành vợ."
+  },
+  {
+    "name": "Gu Jinyu",
+    "hanviet_name": "Cố Cẩn Du",
+    "original_name": "顾瑾瑜",
+    "gender": "Nam",
+    "role": "Bạch nguyệt quang nguyên tác (Arc 1)",
+    "aliases": [
+      "Cố trợ lý"
+    ],
+    "narration_pronoun": "gã / anh ta",
+    "honorifics": "với Lục Ninh Sâm: Lục tổng - tôi; với Chu Nhàn: Trợ lý Chu - tôi",
+    "speech_style": "Nho nhã, dịu dàng, yếu mềm, lương thiện",
+    "notes": "Bạch nguyệt quang mà Lục Ninh Sâm từng thầm mến trong nguyên tác. Tính cách quá nhu nhược nên bị Lục Ninh Cẩm lừa gạt hẹn hò ngầm và lợi dụng."
+  },
+  {
+    "name": "Lu Ningjin",
+    "hanviet_name": "Lục Ninh Cẩm",
+    "original_name": "陆宁锦",
+    "gender": "Nam",
+    "role": "Phản diện phụ / Em trai cùng cha khác mẹ (Arc 1)",
+    "aliases": [
+      "Nhị thiếu gia họ Lục"
+    ],
+    "narration_pronoun": "gã / hắn ta",
+    "honorifics": "với Lục Ninh Sâm: anh cả - em; với Chu Nhàn: mày - tao",
+    "speech_style": "Ngông cuồng, ngạo mạn, đố kỵ, tiểu nhân đắc chí",
+    "notes": "Con trai của vợ thứ hai nhà họ Lục. Ghen ghét đố kỵ với Lục Ninh Sâm, mua chuộc người bên cạnh Lục Ninh Sâm để đánh cắp cơ mật. Vừa bị Lục Ninh Sâm trả thù làm gãy chân và vỡ đầu phải nhập viện."
+  },
+  {
+    "name": "Su Chengxing",
+    "hanviet_name": "Tô Thành Tinh",
+    "original_name": "苏城星",
+    "gender": "Nam",
+    "role": "Trùm phản diện ngầm / Boss Câu lạc bộ Ánh Sao (Arc 1)",
+    "aliases": [
+      "Tô tổng",
+      "Ông chủ Tô"
+    ],
+    "narration_pronoun": "gã / anh ta",
+    "honorifics": "với Lục Ninh Sâm: Lục tổng - tôi",
+    "speech_style": "Khéo léo, tao nhã, giả nhân giả nghĩa, thâm sâu biến thái",
+    "notes": "Ông chủ đứng sau Câu lạc bộ Ánh Sao (星光俱乐部). Kẻ biến thái bẩm sinh, kẻ thù giết hại gia đình viên luật sư tương lai. Trong nguyên tác từng kéo Lục Ninh Sâm vào câu lạc bộ hắc ám."
   }
 ]

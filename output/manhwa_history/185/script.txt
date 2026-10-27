@@ -2,51 +2,49 @@
 
 [Narrator]
 KR: 돌아온 예림이는 던전에서 겪은 일을 말해 주었다.
-Yerim trở về đã kể lại chuyện xảy ra trong hầm ngục.
+Sau khi trở về, Yerim-ie đã kể lại chuyện xảy ra trong ngục tối.
 
 [Park Yerim]
 KR: 시선 비슷한 게 느껴지더니 낯선 목소리가 들렸어요.
-Cháu cảm thấy thứ gì đó giống như ánh mắt, rồi nghe thấy một giọng nói lạ.
+Tôi cảm thấy thứ gì đó giống như ánh mắt, rồi nghe thấy một giọng nói lạ.
 
 [Park Yerim]
 KR: 그러고 나서 던전이 뒤틀리더니 몬스터들이 쾅!
-Xong rồi hầm ngục bị bóp méo, lũ quái vật ầm một cái!
+Ngục tối bị bóp méo rồi đùng một cái, lũ quái vật lòi ra!
 
 [Han Yoojin]
 KR: 목소리가? 그건 없었는데.
-Có giọng nói sao? Đâu có chuyện đó đâu.
+Có giọng nói hả? Chuyện đó không thể nào.
 
 [Park Yerim]
 KR: 분명히 들었어요! 중얼거리는 것처럼,
-Cháu nghe thấy rõ ràng mà! Cứ như đang lẩm bẩm,
+Tôi nghe thấy rõ ràng luôn! Cứ như tiếng thì thầm,
 
-[Han Yoojin]
+[Hệ thống]
 KR: 여기도 없네.
 Ở đây cũng không có.
 
-[Bóng thoại]
-KR: 무언가를 찾는 것 같으
-Có vẻ như đang tìm kiếm thứ gì đó
-
 [Park Yerim]
 KR: 무언가를 찾는 것 같은 느낌이었어요.
-Cảm giác như thể họ đang tìm kiếm thứ gì đó vậy.
+Như thể nó đang tìm kiếm thứ gì đó vậy.
 
-[Han Yoojin]
+[Han Yoohyun]
 KR: 수소문해 봐도 비슷한 현상을 겪었다는 보고는 아직 없어.
 Dù có dò hỏi khắp nơi thì vẫn chưa có báo cáo nào về việc gặp phải hiện tượng tương tự.
 
 [Sung Hyunjae]
 KR: 그렇다면 현재까지 그 현상을 겪은 건 나와 도련님, 꼬마 아가씨뿐인가.
-Vậy thì cho đến hiện tại, những người gặp phải hiện tượng đó chỉ có tôi, thiếu gia, và quý cô nhỏ thôi sao.
+Vậy thì cho đến hiện tại, những người gặp phải hiện tượng đó chỉ có tôi, thiếu gia, và tiểu thư thôi sao?
 
 [Park Yerim]
 KR: 혹시 그놈들이 아저씨를 찾느라 들쑤시고 있는 거 아니에요?
-Không lẽ lũ đó đang sục sạo khắp nơi để tìm chú sao?
+Không lẽ những kẻ đó đang lùng sục khắp nơi để tìm chú ư?
 
 [Han Yoojin]
-KR: 아직은 몰라. 단순히 S급 헌터들을 살펴본 것일지도 모르고. 배구공도 확인해 본댔으니까
-Hiện tại vẫn chưa biết được. Có lẽ chỉ đơn thuần là đang quan sát các thợ săn hạng S thôi. Vì bảo là cũng sẽ kiểm tra cả quả bóng chuyền nữa mà
+KR: 아직은 몰라. 단순히 S급 헌터들을 살펴본 것일지도 모르고.
+배구공도 확인해 본댔으니까
+Hiện tại vẫn chưa biết được. Có lẽ chỉ đơn thuần là đang quan sát các thợ săn cấp S thôi. 
+Bóng Chuyền cũng bảo cậu ấy sẽ kiểm tra rồi
 
 [Han Yoojin]
 KR: 어쨌거나 한동안은 다들 조심하자.
@@ -54,15 +52,11 @@ Dù sao thì trong thời gian tới mọi người hãy cẩn thận nhé.
 
 [Han Yoohyun]
 KR: 응, 형.
-Vâng, Hyung.
+Ừm, Hyung.
 
 [Park Yerim]
 KR: 곧 출국이라 던전 들어갈 일도 없는 걸요!
-Sắp xuất ngoại rồi nên cũng không có việc gì phải vào hầm ngục đâu ạ!
-
-[Han Yoojin]
-KR: ......
-......
+Sắp xuất ngoại rồi nên cũng không có việc gì phải vào ngục tối đâu nhở?!
 
 [Han Yoojin]
 KR: …성현제 씨도.
@@ -70,7 +64,7 @@ KR: …성현제 씨도.
 
 [Han Yoojin]
 KR: 일단은 조심하세요.
-Trước mắt hãy cẩn thận.
+Trước mắt anh hãy cẩn thận.
 
 [Sung Hyunjae]
 KR: 그러지.
@@ -78,7 +72,7 @@ KR: 그러지.
 
 [Han Yoojin - Độc thoại]
 KR: 껄끄럽네… 그런 모습을 보였으니.
-Khó xử thật đấy… sau khi để lộ bộ dạng như thế.
+Khó xử thật… sau khi để lộ bộ dạng như thế.
 
 [Han Yoojin - Độc thoại]
 KR: 파트너 관계 깨자고 하려나? 내게 실망했다고.
@@ -90,15 +84,15 @@ Nếu vậy thì bữa ăn như thế này có lẽ cũng sẽ là lần cuối 
 
 [Han Yoojin - Độc thoại]
 KR: 그러니까…
-Thế nên là…
+Vậy nên là…
 
 [Han Yoojin - Độc thoại]
 KR: 계산은 떠넘긴다….
-Tiền thanh toán thì đùn đẩy qua thôi….
+Đùn đẩy hóa đơn thôi….
 
 [Han Yoojin - Độc thoại]
 KR: 그 후로는 연락하지 않은 채 시간이 흘렀다.
-Kể từ đó, thời gian cứ thế trôi qua mà không có liên lạc gì.
+Kể từ đó, thời gian cứ thế trôi qua mà không có tin tức gì.
 
 [Han Yoojin - Độc thoại]
 KR: 밀린 일들을 처리하느라 눈코뜰 새 없이 바쁘기도 했고.
@@ -165,7 +159,7 @@ Tiếng Gầm Sắc Bén(B)
 
 [Narrator]
 KR: 예림이와 던전에 다녀와 훌륭하게 성장을 마친 블루.
-Blue đã hoàn thành xuất sắc quá trình trưởng thành sau chuyến đi hầm ngục cùng Yerim.
+Blue đã hoàn thành xuất sắc quá trình trưởng thành sau chuyến đi ngục tối cùng Yerim.
 
 [Narrator]
 KR: 원래 지내던 사육 시설 옥상은 이제 블루에게 작아져버렸다.
@@ -440,7 +434,7 @@ Vừa thức tỉnh đã rời khỏi nhà mà không nói một lời
 
 [Han Yoohyun]
 KR: 형이 말려도 무시하고 던전 들어가고
-Dù Hyung có can ngăn cũng phớt lờ rồi bước vào hầm ngục
+Dù Hyung có can ngăn cũng phớt lờ rồi bước vào ngục tối
 
 [Han Yoohyun]
 KR: 생일에 찾아왔을 때도 억지로 내쫓았잖아.
@@ -692,4 +686,3 @@ Lấy hơi ấm này làm động lực
 [Han Yoojin - Độc thoại]
 KR: 적어도 이번에는 소중한 이들을 지킬 수 있도록.
 Để ít nhất lần này có thể bảo vệ những người trân quý.
-
