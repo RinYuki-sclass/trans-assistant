@@ -1,11 +1,50 @@
 import os
 import re
 import json
+import subprocess
 import urllib.parse
 from typing import Dict, List, Optional
 import requests
 from crawler.haccbl_crawler import get_haccbl_manga_info, get_haccbl_chapter_images, download_chapter_images, get_scraper, clean_slug
 from crawler.tsxx_crawler import get_tsxx_manga_info, get_tsxx_chapter_images
+
+def fetch_html_robust(url: str, referer: str = '', post_data: Optional[Dict] = None, timeout: int = 15) -> str:
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36',
+        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
+    }
+    if referer:
+        headers['Referer'] = referer
+
+    try:
+        scraper = get_scraper()
+        if post_data:
+            res = scraper.post(url, data=post_data, headers=headers, timeout=timeout)
+        else:
+            res = scraper.get(url, headers=headers, timeout=timeout)
+        if res.status_code == 200 and res.text.strip():
+            return res.text
+    except Exception:
+        pass
+
+    cmd = [
+        'curl.exe', '-s', '-L',
+        '-A', headers['User-Agent'],
+        '--max-time', str(timeout + 15)
+    ]
+    if referer:
+        cmd.extend(['-H', f'Referer: {referer}'])
+    if post_data:
+        cmd.extend(['-X', 'POST'])
+        for k, v in post_data.items():
+            cmd.extend(['-d', f'{k}={v}'])
+    cmd.append(url)
+
+    res = subprocess.run(cmd, capture_output=True, text=True, encoding='utf-8', errors='ignore')
+    if res.returncode == 0 and res.stdout.strip():
+        return res.stdout
+    raise Exception(f'Khong the tai noi dung tu {url}')
+
 
 def search_manga_haccbl(query: str) -> List[Dict]:
     """
@@ -48,20 +87,11 @@ def search_manga_haccbl(query: str) -> List[Dict]:
 
 def get_generic_manga_info(url: str) -> Dict:
     """
-    Bóc tách thông tin truyện tự động từ các web truyện tranh (Madara, WordPress manga themes)
+    Bóc tách thông tin truyện tự động từ các web truyện tranh (Madara, WordPress manga themes, v.v.)
     """
-    scraper = get_scraper()
-    headers = {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36',
-        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-        'Referer': url
-    }
-    res = scraper.get(url, headers=headers, timeout=20)
-    if res.status_code != 200:
-        raise Exception(f"Không thể truy cập trang truyện (HTTP {res.status_code})")
-
+    html = fetch_html_robust(url, referer=url)
     from bs4 import BeautifulSoup
-    soup = BeautifulSoup(res.text, 'html.parser')
+    soup = BeautifulSoup(html, 'html.parser')
 
     # Title
     title_el = soup.select_one('h1, .post-title, .entry-title') or soup.find('title')
@@ -79,14 +109,24 @@ def get_generic_manga_info(url: str) -> Dict:
 
     # Chapters
     chapters = []
-    candidate_links = soup.select('li.wp-manga-chapter a, .listing-chapters_sub-head a, .chapter-name a, ul.sub-chap-list a, .list-chapter a, a[href*="/chapter-"], a[href*="/chuong-"], a[href*="/chap-"]')
-    
+    parsed_manga = urllib.parse.urlparse(url)
+    manga_path = parsed_manga.path.rstrip('/')
+
+    candidate_links = soup.select('.page-content-listing a, #manga-chapters-holder a, .listing-chapters_sub-head a, ul.sub-chap-list a, .list-chapter a')
+    if not candidate_links:
+        candidate_links = [
+            a for a in soup.select('a[href*="/chapter-"], a[href*="/chuong-"], a[href*="/chap-"]')
+            if manga_path and manga_path in a.get('href', '')
+        ]
+
     seen_urls = set()
     for a in candidate_links:
         href = a.get('href', '').strip()
         if not href or href in seen_urls:
             continue
         if '#' in href or 'facebook' in href or 'disqus' in href:
+            continue
+        if manga_path and manga_path not in href:
             continue
         seen_urls.add(href)
         ch_title = a.text.strip() or "Chapter"
@@ -96,6 +136,48 @@ def get_generic_manga_info(url: str) -> Dict:
             'url': href,
             'slug': ch_slug
         })
+
+    # Nếu không tìm thấy chapters trong static HTML -> kiểm tra Madara AJAX
+    if not chapters:
+        m_post = re.search(r'postid-(\d+)|post-(\d+)\s+wp-manga|data-id=["\'](\d+)["\']', html)
+        post_id = None
+        if m_post:
+            post_id = m_post.group(1) or m_post.group(2) or m_post.group(3)
+        
+        parsed = urllib.parse.urlparse(url)
+        domain = f"{parsed.scheme}://{parsed.netloc}"
+
+        ajax_html = ""
+        if post_id:
+            try:
+                ajax_url = f"{domain}/wp-admin/admin-ajax.php"
+                ajax_html = fetch_html_robust(ajax_url, referer=url, post_data={'action': 'manga_get_chapters', 'manga': post_id}, timeout=15)
+            except Exception:
+                pass
+        
+        if not ajax_html:
+            try:
+                ajax_url = f"{url.rstrip('/')}/ajax/chapters/"
+                ajax_html = fetch_html_robust(ajax_url, referer=url, post_data={'action': 'manga_get_chapters'}, timeout=15)
+            except Exception:
+                pass
+
+        if ajax_html:
+            ajax_soup = BeautifulSoup(ajax_html, 'html.parser')
+            for a in ajax_soup.select('li.wp-manga-chapter a, a[href*="/chap"], a[href*="/chuong"]'):
+                href = a.get('href', '').strip()
+                if not href or href in seen_urls or '#' in href:
+                    continue
+                if manga_path and manga_path not in href:
+                    continue
+                seen_urls.add(href)
+                ch_title = a.text.strip() or "Chapter"
+                ch_slug = clean_slug(ch_title)
+                chapters.append({
+                    'title': ch_title,
+                    'url': href,
+                    'slug': ch_slug
+                })
 
     if len(chapters) > 1:
         num_first = re.search(r'\d+', chapters[0]['title'])
@@ -119,18 +201,9 @@ def get_generic_chapter_images(url: str) -> Dict:
     """
     Bóc tách danh sách ảnh chapter từ URL truyện tranh thông thường
     """
-    scraper = get_scraper()
-    headers = {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36',
-        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
-        'Referer': url
-    }
-    res = scraper.get(url, headers=headers, timeout=20)
-    if res.status_code != 200:
-        raise Exception(f"Không thể truy cập chapter (HTTP {res.status_code})")
-
+    html = fetch_html_robust(url, referer=url)
     from bs4 import BeautifulSoup
-    soup = BeautifulSoup(res.text, 'html.parser')
+    soup = BeautifulSoup(html, 'html.parser')
 
     images = []
     selectors = [
@@ -152,7 +225,7 @@ def get_generic_chapter_images(url: str) -> Dict:
         if src and not src.startswith('data:image'):
             src = src.strip()
             lower = src.lower()
-            if any(k in lower for k in ['logo', 'icon', 'banner', 'avatar', 'ads', 'loading', 'placeholder']):
+            if any(k in lower for k in ['logo', 'icon', 'banner', 'avatar', '/ads/', 'loading', 'placeholder']) or bool(re.search(r'[/_-]ads[._/-]', lower)):
                 continue
             if src not in images:
                 images.append(src)
