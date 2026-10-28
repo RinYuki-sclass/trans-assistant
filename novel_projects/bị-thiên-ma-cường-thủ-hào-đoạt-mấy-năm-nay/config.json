@@ -1,0 +1,20 @@
+{
+  "title": "Bị Thiên Ma Cường Thủ Hào Đoạt Mấy Năm Nay",
+  "chinese_title": "被天魔强取豪夺的那些年",
+  "author": "Mộc Cẩn Chi (沐瑾枝)",
+  "description": "Vu Khung sở hữu Tiên Ma chi thể tuyệt thế, mười tuổi trước ký ức bị phong ấn hoàn toàn, được sư tôn Cửu Hoa Nguyệt nuôi lớn. Một chuyến bí cảnh cuốn vào con đường phục hưng thiên ma, bất ngờ tìm lại ký ức bị phong ấn: Chân tướng cha mẹ chết thảm, bị vu khống cấu kết ma tộc đồ sát người trong tiên môn... Đan điền bị hủy, tiên lộ đứt đoạn, anh hoàn toàn nhập ma. Lúc tiên ma đại chiến mở ra, Chân Thần Lăng Vân Kỳ xuất thế dùng hai chiêu áp đảo quần hùng. Sau đó, trong thiên lao hoa lệ, tiếng xiềng xích leng keng vang lên, Vu Khung mỉm cười nhìn vị Chân Thần hộ đoản: “Ca ca, người ta đã đưa tới tay huynh rồi, sao huynh còn chưa chịu chơi đùa?”",
+  "slug": "bị-thiên-ma-cường-thủ-hào-đoạt-mấy-năm-nay",
+  "source_lang": "Chinese",
+  "target_lang": "Vietnamese",
+  "raw_links": {
+    "jjwxc": "https://www.jjwxc.net/"
+  },
+  "style_guide": "Đam mỹ, Cổ đại tiên hiệp tu chân, Cường cường, Chủ công, Mỹ cường thảm tâm cơ giả yếu trà xanh công x Ngạo kiều hộ đoản Chân Thần Thiên Ma thụ, Ngọt sủng, Hài hước, 1v1, HE.\n\nQUY TẮC BẮT BUỘC:\n1. Định dạng đoạn văn: Bắt buộc cách nhau đúng 1 dòng trống (\\n\\n) giữa các đoạn và lời thoại. Tuyệt đối không dính liền dòng (\\n).\n2. Dấu ngoặc thoại: Lời thoại dùng ngoặc kép chuẩn “...”, không dùng gạch ngang đầu câu (— ...).\n3. Ngôi 3 trần thuật (Tự sự):\n   - Vu Khung (Công chính - 巫穹): Ưu tiên dùng 'anh' hoặc 'y' trong văn trần thuật ngôi 3.\n   - Lăng Vân Kỳ (Thụ chính - 凌芸祺): Dùng 'hắn' trong văn trần thuật ngôi 3.\n4. Xưng hô đối thoại Vu Khung ↔ Lăng Vân Kỳ:\n   - Vu Khung xưng 'ta', ngọt ngào gọi Lăng Vân Kỳ là 'ca ca' (哥哥) để làm nũng hoặc giả yếu.\n   - Lăng Vân Kỳ xưng 'ta', gọi Vu Khung bằng tên hoặc 'ngươi'.\n5. Phân định tuyệt đối giữa Lời thoại trực tiếp vs Trần thuật / Độc thoại nội tâm: Không đưa đại từ 'mày - tao' vào câu trần thuật hoặc suy nghĩ nội tâm.\n6. Bảo toàn 1:1 số đoạn văn gốc.",
+  "confidence_threshold": 0.8,
+  "chunk_size": 20,
+  "created_at": "2026-10-28T13:30:00+07:00",
+  "chapters_count": 0,
+  "is_completed": false,
+  "is_dropped": false,
+  "drop_reason": ""
+}

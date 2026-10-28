@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Song Xianyu",
+    "hanviet_name": "Tống Tiên Ngọc",
+    "original_name": "宋仙玉",
+    "gender": "Nam",
+    "role": "Công chính (Người thừa kế thuật ngâm thuốc, xuyên thư thành nam phụ ác độc)",
+    "narration_pronoun": "y",
+    "honorifics": "xưng ta, gọi đối phương là ngươi / Diệp Mộc Trần",
+    "speech_style": "Thẳng thắn, thích tự trào, ngoài mặt hung hăng khiêu khích để cày Phản Phái Trị, bên trong chột dạ sợ chết sợ đau",
+    "notes": "Trói định Hệ thống Tin học cấp 2 và Hệ thống Kho Thảo Dược, phải duy trì Thân Mật Trị và Phản Phái Trị trên 10 điểm để tránh bị nổ tung xác"
+  },
+  {
+    "name": "Ye Muchen",
+    "hanviet_name": "Diệp Mộc Trần",
+    "original_name": "叶沐尘",
+    "gender": "Nam",
+    "role": "Thụ chính (Thiên chi kiêu tử, nguyên tác Long Ngạo Thiên nam chính)",
+    "narration_pronoun": "hắn",
+    "honorifics": "xưng ta, gọi đối phương là ngươi / Tống Tiên Ngọc",
+    "speech_style": "Lạnh lùng, cao ngạo, kiên cường bất khuất của bậc thiên kiêu thần vực tương lai",
+    "notes": "19 tuổi, kế thừa truyền thừa Thượng cổ Đạo Huyền pháp tu, tương lai bị Tống Tiên Ngọc đè và mang thai"
+  },
+  {
+    "name": "Cang Yan",
+    "hanviet_name": "Thương Nghiên",
+    "original_name": "苍妍",
+    "gender": "Nữ",
+    "role": "Linh sủng đầu tiên của Diệp Mộc Trần (Thượng cổ Phượng hoàng hoá hình)",
+    "narration_pronoun": "nàng / cô bé",
+    "honorifics": "xưng bà cô đây / ta, gọi Diệp Mộc Trần là tiểu chủ nhân",
+    "speech_style": "Ngây thơ, kiêu ngạo trẻ con, hay khóc nhè nhưng sức lực và lửa phượng hoàng cực kỳ khủng khiếp",
+    "notes": "Đã sống mười vạn năm nhưng hình dáng và tâm tính như bé gái 7-8 tuổi mặc áo lông vũ màu đỏ"
+  },
+  {
+    "name": "Dao Xuan Fa Xiu",
+    "hanviet_name": "Đạo Huyền pháp tu",
+    "original_name": "道玄法修",
+    "gender": "Nam",
+    "role": "Sư tôn tàn hồn của Diệp Mộc Trần (Thượng cổ đại năng)",
+    "narration_pronoun": "ông",
+    "honorifics": "xưng ta, gọi Mộc Trần / con",
+    "speech_style": "Trầm ổn, uy nghiêm, từng trải, hết lòng bảo vệ đồ đệ",
+    "notes": "Bị sư đệ hãm hại khi độ kiếp Đăng Tiên cảnh dẫn tới thân tử đạo tiêu, hiện ngụ trong thức hải ôn dưỡng linh căn cho Diệp Mộc Trần"
+  },
+  {
+    "name": "Hang Chu Dong Nam Phach Mai Hanh",
+    "hanviet_name": "Hành chủ Đông Nam Phách Mại Hành",
+    "original_name": "东南拍卖行行主",
+    "gender": "Không rõ",
+    "role": "Phản diện giai đoạn đầu, đồng môn sư đệ phản bội của Đạo Huyền pháp tu",
+    "narration_pronoun": "lão",
+    "honorifics": "tự xưng lão thân, gọi đối phương là Diệp Tam hoàng tử / cô nương",
+    "speech_style": "Âm lãnh, khàn đặc như cưa gỗ, áp bức vô hình",
+    "notes": "Tu vi Vũ Hóa kỳ, cưỡi Bích Nhãn Kim Tinh Thú, nuôi ma thú Khứu Tủy bên tai"
+  },
+  {
+    "name": "Khuu Tuy",
+    "hanviet_name": "Khứu Tủy",
+    "original_name": "嗅髓",
+    "gender": "Ma thú",
+    "role": "Linh thú ma hóa, ma thú gián điệp của hành chủ",
+    "narration_pronoun": "nó",
+    "honorifics": "",
+    "speech_style": "",
+    "notes": "Vốn là linh thú của Đạo Huyền pháp tu, sau phản bội ăn thịt chủ và đi theo hành chủ, khứu giác cực nhạy có thể ngửi thấy mùi linh hồn"
+  },
+  {
+    "name": "Jiang Yan",
+    "hanviet_name": "Khương Yến",
+    "original_name": "姜燕",
+    "gender": "Nữ",
+    "role": "Khương gia đại tiểu thư, cựu vị hôn thê của Diệp Mộc Trần",
+    "narration_pronoun": "nàng",
+    "honorifics": "tự xưng bổn tiểu thư, gọi đối phương là con câm / phế tài / đôi giày rách",
+    "speech_style": "Kiêu căng hống hách, tự mãn ghen tuông, thích phô trương",
+    "notes": "Con gái cưng của Khương Thừa tướng, sở hữu roi thượng đẳng linh khí Thiên Phong, hỏa hệ đơn linh căn"
+  },
+  {
+    "name": "Jiang Liu",
+    "hanviet_name": "Khương Liễu",
+    "original_name": "姜柳",
+    "gender": "Nữ",
+    "role": "Nữ tử áo trắng bí ẩn của Khương gia, đối thủ tiềm tàng",
+    "narration_pronoun": "nàng",
+    "honorifics": "gọi Khương Yến là tiểu thư",
+    "speech_style": "Lạnh lùng, thâm trầm, nguy hiểm, khó lường",
+    "notes": "Được Khương gia nhận về để ôn dưỡng linh căn cho Khương Yến, nhưng thực chất đang cấu kết với Hành chủ và một thế lực ngầm mưu đồ về Trữ Thần Ấn"
+  }
+]

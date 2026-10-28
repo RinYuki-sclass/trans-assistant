@@ -103,15 +103,11 @@ Một phần cũng vì tôi bận tối mắt tối mũi để xử lý những 
 
 [Narrator]
 KR: 그리고 시간이 흘러 출국 전날.
-Và rồi thời gian trôi qua, vào ngày trước khi xuất cảnh.
+Rồi thời gian trôi qua, vào ngày trước khi xuất cảnh.
 
 [Han Yoojin]
 KR: 다 왔다. 저기 봐라, 블루야.
-Đến nơi rồi. Nhìn đằng kia kìa, Blue-yah.
-
-[Han Yoojin]
-KR: 블루야.
-Blue-yah.
+Đến nơi rồi. Blue ơi, nhìn đằng kia kìa.
 
 [Han Yoojin]
 KR: 네가 지낼 새 터전이야!
@@ -119,11 +115,11 @@ KR: 네가 지낼 새 터전이야!
 
 [Narrator]
 KR: 성체가 된 기승수들을 위해 추가로 지은 사육 시설.
-Cơ sở nuôi dưỡng được xây dựng thêm dành cho các thú cưỡi đã trưởng thành.
+Cơ sở nuôi dưỡng mở rộng dành cho các thú cưỡi đã trưởng thành.
 
 [Han Yoojin]
 KR: 운동장이랑 인공 호수도 만들고 건너편 산까지 사용 허가 받았지.
-Anh đã cho xây cả sân vận động lẫn hồ nhân tạo, và còn nhận được cả giấy phép sử dụng ngọn núi đối diện nữa.
+Anh đã cho xây cả sân vận động lẫn hồ nhân tạo, và còn xin được cả giấy phép sử dụng ngọn núi đối diện nữa.
 
 [Han Yoojin]
 KR: 새집도 훨씬 크게 지었고.
@@ -131,43 +127,43 @@ Nhà mới cũng được xây lớn hơn hẳn.
 
 [Han Yoojin]
 KR: 출국하기 전에 데려다 주고 싶었거든.
-Vì anh muốn đưa em đến đây xem trước khi xuất cảnh mà.
+Anh muốn đưa em đến đây tham quan trước khi xuất cảnh.
 
 [Han Yoojin]
 KR: 블루도 이제 다 컸으니까.
-Vì Blue giờ cũng đã lớn cả rồi mà.
+Vì Blue giờ cũng đã lớn rồi.
 
-[Narrator]
-KR: ■ CHARACTER STATUS 2급 그리폰종 황금 그리폰 블루 현재 스탯 등급 S 성장가능 스탯 등급 A~S
-■ TRẠNG THÁI NHÂN VẬT Chủng Gryphon cấp 2 Gryphon Hoàng Kim Blue Cấp chỉ số hiện tại S Cấp chỉ số có thể phát triển A~S
+[Hệ thống]
+KR: 
+2급 그리폰종 황금 그리폰 블루 현재 스탯 등급 S 성장가능 스탯 등급 A~S
+Chủng Điểu Sư cấp 2
+Điểu Sư Hoàng Kim Blue
+Cấp bậc chỉ số hiện tại
+Triển vọng thức tỉnh
 
 [Narrator]
 KR: 바람의 지배자(S)
-Kẻ Thống Trị Gió(S)
+Kẻ Thống Trị Gió (S)
 
 [Narrator]
 KR: 황금 화살(A)
-Mũi Tên Vàng(A)
+Mũi Tên Vàng (A)
 
 [Narrator]
 KR: 바람 저항(A)
-Kháng Gió(A)
+Kháng Gió (A)
 
 [Narrator]
 KR: 날카로운 포효(B)
-Tiếng Gầm Sắc Bén(B)
+Tiếng Gầm Sắc Bén (B)
 
 [Narrator]
 KR: 예림이와 던전에 다녀와 훌륭하게 성장을 마친 블루.
-Blue đã hoàn thành xuất sắc quá trình trưởng thành sau chuyến đi ngục tối cùng Yerim.
+Blue đã hoàn thành xuất sắc quá trình trưởng thành sau chuyến đi ngục tối cùng Yerim-ie.
 
 [Narrator]
 KR: 원래 지내던 사육 시설 옥상은 이제 블루에게 작아져버렸다.
-Sân thượng khu nuôi dưỡng vốn ở trước đây giờ đã trở nên quá chật đối với Blue.
-
-[SFX]
-KR: 비좁...
-Chật chội...
+Sân thượng khu nuôi dưỡng vốn ở trước đây giờ đã trở nên quá chật chội với Blue.
 
 [Han Yoojin]
 KR: 나무도 다 부러지고
@@ -178,19 +174,10 @@ Cây cối cũng gãy hết trơn
 
 [Han Yoojin]
 KR: 자, 블루야! 가서 직접 봐 봐.
-Nào, Blue-yah! Đến tự mình xem đi.
+Nào, Blue ơi! Tự mình đến xem đi.
 
-[Blue]
-KR: 꺄우!
-Kyau!
-
-[SFX]
-KR: 이
-Vút
-
-[Bóng thoại]
-KR: 꺄우♥
-Kya-u♥
+"마음에 든 것 같아서 다행이네."
+Nhóc thích là tôi vui rồi.
 
 [Narrator]
 KR: 새 사육 시설은 경기도에 있는 상급 헌터 훈련소 바로 옆에 자리잡았다.
@@ -202,15 +189,11 @@ Thế nên…
 
 [Han Yoojin]
 KR: 우와~! 직접 보는 거 처음이야!
-Oa~! Đây là lần đầu tiên mình được tận mắt nhìn thấy đấy!
+Oa~! Đây là lần đầu tiên tôi được tận mắt nhìn thấy đấy!
 
 [Bóng thoại]
 KR: 어서 와, 블루야~!
-Mừng cậu đã về, Blue-ah~!
-
-[Blue]
-KR: 뀨우?
-Kyu?
+Mừng nhóc đã về, Blue à~!
 
 [Han Yoojin]
 KR: 안녕하세요! 우리 블루 잘 좀 부탁드립니다.
@@ -225,7 +208,7 @@ KR: 아이고, 저희야말로 감사하죠!
 
 [Thợ săn]
 KR: 블루는 비행형 몬스터와 지상형 몬스터의 특징을 동시에 지녔으니까요.
-Vì Blue vừa sở hữu đặc điểm của quái vật bay, lại vừa có đặc tính của quái vật mặt đất mà.
+Vì Blue vừa sở hữu đặc điểm của quái vật biết bay, lại vừa có đặc tính của quái vật đi trên đất mà.
 
 [Thợ săn]
 KR: 같이 놀아주는 것만으로도 S급 몬스터와의 모의전이 되죠!
@@ -233,7 +216,7 @@ Chỉ việc chơi đùa cùng nó thôi cũng coi như một trận đấu tậ
 
 [Thợ săn]
 KR: 게다가 귀엽고 멋있어! 이런 훈련 기회를 마다할 리가요!
-Đã thế lại còn vừa đáng yêu vừa ngầu nữa chứ! Làm sao có thể từ chối một cơ hội huấn luyện thế này được cơ chứ!
+Đã thế lại còn vừa đáng yêu vừa ngầu nữa chứ! Làm sao có thể từ chối một cơ hội huấn luyện thế này được cơ chứ?!
 
 [Han Yoojin - Độc thoại]
 KR: 서로 윈-윈하는 최적의 입지!
@@ -245,39 +228,36 @@ Tôi chơi với nó ngay bây giờ được không?
 
 [Thợ săn]
 KR: 블루야~
-Blue-yah~
+Blue à~
 
 [Han Yoojin]
 KR: 아, 네네! 물론이죠. 다만…
 A, vâng vâng! Đương nhiên rồi. Có điều…
 
-[Bóng thoại]
-KR: 꽥
-Quác
+Ui da! Blue à~!!
 
-[Han Yoojin - Độc thoại]
+[Han Yoojin]
 KR: 신나서 거칠게 덤벼들기도 하니 조심하라고 말하려 했는…
-Vốn định nhắc cẩn thận vì nó phấn khích lao tới thô bạo…
+Vốn định nhắc mọi người cẩn thận vì nó thường khá bạo lực khi phấn…
 
-[Han Yoojin - Độc thoại]
 KR: 데?
-Mà?
+khích?
 
 [Thợ săn]
 KR: 와하하! 역시 S급은 다르구먼!
-Oa ha ha! Quả nhiên cấp S có khác!
+Oa ha ha! Đúng là cấp S có khác!
 
 [Thợ săn]
 KR: 블루야, 여기도 봐라~!
-Blue-ah, nhìn bên này nữa nè~!
+Blue ơi, nhìn bên này nữa nè~!
 
 [Thợ săn]
 KR: 어이, 다들 포션 넉넉하게 챙겨 와~!
-Này, mọi người mang theo thật nhiều potion vào nhé~!
+Này, mọi người mang theo thật nhiều thuốc hồi phục nhé~!
 
 [Han Yoojin]
 KR: 다행이다, 잘 지낼 것 같네.
-Thật may quá, chắc nó sẽ sống hòa thuận thôi.
+May quá, chắc nó sẽ sống hòa thuận thôi.
 
 [Han Yoojin]
 KR: 블루는 사람을 좋아하니까
@@ -289,22 +269,18 @@ Sẽ không có vấn đề gì trong việc thích nghi đâu.
 
 [Han Yoohyun]
 KR: 이제 돌아가자, 형.
-Giờ thì quay về thôi, Hyung.
-
-[Quái thú]
-KR: 꺄웃..
-Kkyaut..
+Giờ thì về thôi, hyung.
 
 [Han Yoojin]
 KR: 아니야, 그거 안 탈 거야.
-Không phải đâu, tao không lên cái đó đâu.
+Không phải, đừng leo lên đó.
 
 
 📄 ẢNH: 5.PNG
 
 [Han Yoojin]
 KR: 블루야, 앞으로는 여기가 네 집이야.
-Blue-ah, từ giờ trở đi đây là nhà của nhóc.
+Blue à, từ giờ trở đi đây là nhà của nhóc.
 
 [Han Yoojin]
 KR: 저쪽 산으로 매일 산책도 다닐 수 있고,
@@ -316,54 +292,34 @@ Mỗi ngày các chị và các anh sẽ chơi cùng nhóc.
 
 [Han Yoojin]
 KR: 새집이 훨씬 더 넓고 마음껏 놀 수 있어.
-Nhà mới rộng hơn nhiều và em có thể chơi đùa thỏa thích.
+Nhà mới rộng hơn nhiều và nhóc có thể chơi đùa thỏa thích.
 
 [Han Yoojin]
 KR: 그러니까 좁은 집으로 돌아가지 않아도 돼.
-Nên là không cần phải quay về căn nhà chật chội đó nữa đâu.
-
-[Bóng thoại]
-KR: 큐..
-Kyu..
-
-[Bóng thoại]
-KR: 꺄꺄!
-Kkya kkya!
-
-[Quái thú]
-KR: 꺄아아악!
-Kyaaaa!
-
-[SFX]
-KR: 펄럭
-Phần phật
+Nên không cần phải quay về căn nhà chật chội đó nữa đâu.
 
 [Han Yoojin]
 KR: 잘 지내. 자주 보러 올게.
-Sống tốt nhé. Anh sẽ thường xuyên đến thăm.
+Sống tốt nhé. Tôi sẽ thường xuyên đến thăm.
 
 
 📄 ẢNH: 6.PNG
 
-[Bóng thoại]
+[Yoohyun]
 KR: 끝났어? 갈까?
-Xong rồi à? Đi nhé?
+Xong rồi nhỉ? Đi nhé?
 
 [Han Yoojin]
 KR: 어… 조금만 더.
-Ừ… thêm một chút nữa.
+Ừ… tí nữa.
 
 [Han Yoojin]
 KR: 조금만 더….
-Thêm một chút nữa….
-
-[Han Yoohyun]
-KR: …….
-…….
+Một tí nữa….
 
 [Han Yoojin - Độc thoại]
 KR: 영영 이별한 것도 아닌데 어째 마음이 가라앉네.
-Cũng chẳng phải là chia ly mãi mãi, thế mà sao lòng mình lại chùng xuống thế này.
+Cũng không phải là chia ly mãi mãi, thế mà sao lòng mình lại chùng xuống thế này.
 
 [Han Yoojin - Độc thoại]
 KR: 회귀 전에는 더 큰 이별을 셀 수 없이 겪었는데도….
@@ -375,7 +331,7 @@ Có những chuyện dù trải qua bao nhiêu lần cũng không bao giờ quen
 
 [Han Yoojin - Độc thoại]
 KR: 떠올리는 것만으로 괴로워지기도 한다.
-Chỉ cần nhớ lại thôi cũng đủ thấy đau đớn.
+Chỉ cần nhớ lại thôi cũng thấy đau đớn.
 
 [Han Yoojin - Độc thoại]
 KR: 그러니
@@ -383,19 +339,19 @@ Vậy nên
 
 [Sung Hyunjae]
 KR: “썩은 속을 두고 겉만 새로 칠해 봐야 이내 다시 금이 갈 뿐이니”
-“Có cố sơn phết vẻ ngoài khi bên trong đã mục ruỗng thì chẳng mấy chốc cũng lại nứt toác ra thôi”
+“Bên trong đã mục ruỗng mà chỉ sơn lại bề ngoài, thì chẳng mấy chốc sẽ lại nứt toác ra thôi”
 
 [Han Yoojin - Độc thoại]
 KR: 아무리 그게 옳은 말이라 해도…
-Dù lời đó có đúng đắn đến đâu đi chăng nữa…
+Dù những lời đó có đúng đi chăng nữa…
 
 [Han Yoohyun]
 KR: …저기, 형.
-…Này, Hyung.
+…Anh ơi.
 
 [Han Yoohyun]
 KR: 있잖아, 형한테 제대로 사과하고 싶어.
-Em bảo này, em muốn xin lỗi Hyung một cách đàng hoàng.
+Em bảo này, em muốn xin lỗi anh một cách đàng hoàng.
 
 [Han Yoojin]
 KR: 응?
@@ -403,22 +359,22 @@ Hử?
 
 [Han Yoohyun]
 KR: 요 며칠… 블루도 그렇고, 박예림 일도 그렇고
-Mấy ngày qua… cả chuyện của Blue, lẫn chuyện của Park Yerim
+Mấy ngày qua… về chuyện của Blue, lẫn chuyện của Park Yerim
 
 [Han Yoohyun]
 KR: 옆에서 보니까 형이 얼마나 힘들었을지 알 것 같아서.
-Nhìn từ bên cạnh, em nghĩ mình đã hiểu Hyung đã vất vả đến nhường nào.
+Nhìn từ bên cạnh, em nghĩ rằng em đã hiểu anh đã vất vả đến nhường nào.
 
 [Han Yoohyun]
 KR: 내가 각성하고 형이랑 멀어졌을 때 말이야.
-Ý em là lúc em thức tỉnh và dần xa cách với Hyung ấy.
+Ý em là lúc em thức tỉnh và dần xa cách với anh ấy.
 
 
 📄 ẢNH: 7.PNG
 
 [Han Yoojin]
 KR: 아…
-A…
+À…
 
 [Han Yoohyun]
 KR: 우리 제대로 얘기한 적 없잖아.
@@ -426,19 +382,19 @@ Tụi mình chưa từng nói chuyện đàng hoàng mà.
 
 [Han Yoohyun]
 KR: 형 그때 많이 힘들었지?
-Lúc đó Hyung đã vất vả lắm đúng không?
+Lúc đó anh đã vất vả lắm đúng không?
 
 [Han Yoohyun]
 KR: 각성하자마자 말없이 집 나가서
-Vừa thức tỉnh đã rời khỏi nhà mà không nói một lời
+Em vừa thức tỉnh đã rời khỏi nhà mà không nói một lời
 
 [Han Yoohyun]
 KR: 형이 말려도 무시하고 던전 들어가고
-Dù Hyung có can ngăn cũng phớt lờ rồi bước vào ngục tối
+Dù anh có can ngăn cũng phớt lờ rồi bước vào ngục tối
 
 [Han Yoohyun]
 KR: 생일에 찾아왔을 때도 억지로 내쫓았잖아.
-Cả lúc Hyung đến tìm vào ngày sinh nhật, em cũng cố tình xua đuổi mà.
+Cả lúc anh đến tìm  vào ngày sinh nhật, em cũng cố tình xua đuổi.
 
 [Han Yoohyun]
 KR: 그리고 또…
@@ -446,15 +402,11 @@ Và còn nữa…
 
 [Han Yoohyun]
 KR: 아니야.
-Không phải đâu.
+Không đâu.
 
 [Han Yoohyun]
 KR: 형…?
 Hyung…?
-
-[SFX]
-KR: 벅 벅
-Xoa xoa
 
 [Han Yoojin]
 KR: 야, 넌 뭘 그런 걸 굳이 끄집어내냐, 이제 와서!
@@ -462,7 +414,7 @@ Này, em lôi chuyện đó ra làm gì, đến tận bây giờ!
 
 [Han Yoohyun]
 KR: 형, 그래도…
-Hyung, nhưng mà…
+Hyung, nhưng…
 
 [Han Yoojin]
 KR: 괜찮아~! 난 기억도 잘 안 나~!
@@ -470,7 +422,7 @@ Không sao đâu~! Em còn chẳng nhớ rõ nữa mà~!
 
 [Han Yoojin]
 KR: 다 지나간 일 아니겠냐. 괜찮다니까.
-Chẳng phải mọi chuyện đã qua rồi sao. Đã bảo là không sao mà.
+Chẳng phải mọi chuyện đã qua rồi sao? Đã bảo là không sao mà.
 
 [Han Yoojin - Độc thoại]
 KR: 그래. 괜찮다는 말로 덮어둘 수밖에 없다.
@@ -478,7 +430,7 @@ Phải rồi. Chỉ đành chôn giấu bằng câu nói không sao đâu.
 
 [Han Yoojin - Độc thoại]
 KR: 계속 덮어 두며 살아왔다.
-Mình đã luôn sống mà che giấu như thế.
+Tôi đã luôn sống mà che giấu như thế.
 
 [Han Yoojin - Độc thoại]
 KR: 예전에도, 더 예전에도…
@@ -486,19 +438,15 @@ Trước kia cũng vậy, mà từ lâu hơn nữa cũng thế…
 
 [Người qua đường]
 KR: 유진이 일기에는 부모님 얘기가 하나도 없네.
-Trong nhật ký của Yoojin chẳng có chút gì về bố mẹ nhỉ.
+Trong nhật ký của Yoojin chẳng có chút gì về bố mẹ nhỉ?
 
 [Người qua đường]
 KR: 운동회에도 안 오셨잖아. 부모님 안 계셔?
-Cả hội thao cũng không đến nữa mà. Cậu không có bố mẹ à?
+Cả hội thao cũng không đến nữa. Cậu không có bố mẹ à?
 
 [Người qua đường]
 KR: 부모님이 운동회는 안 오고 여행을 가신다고?
-Bố mẹ không đến hội thao mà lại đi du lịch sao?
-
-[Bạn học]
-KR: 부모님이 운동회는 안 오고 여행을 갔다고?
-Bố mẹ cậu không đến ngày hội thể thao mà lại đi du lịch sao?
+Bố mẹ cậu không đến hội thao mà lại đi du lịch hả?
 
 [Thầy giáo]
 KR: 졸업식에도 안 오신대니?
@@ -548,20 +496,16 @@ KR: 괜찮지 않다고 말하는 순간 정말로 버려질지도 모른다고
 Khoảnh khắc nói ra rằng bản thân không ổn, có lẽ tôi sẽ thực sự bị bỏ rơi
 
 [Han Yoojin - Độc thoại]
-KR: 모른다고
-Đã bảo là không biết mà
-
-[Han Yoojin - Độc thoại]
 KR: 그러니까
 Cho nên
 
 [Han Yoojin]
 KR: 괜찮아요. 아무 문제 없어요!
-Em không sao đâu ạ. Chẳng có vấn đề gì hết ạ!
+Em không sao đâu. Chẳng có vấn đề gì hết ạ!
 
 [Han Yoojin]
 KR: 부모님도 사이 좋으시고, 저도 동생이랑 사이 좋구요.
-Bố mẹ cũng hòa thuận, em với em trai cũng rất thân thiết nữa ạ.
+Bố mẹ cũng hòa thuận, em với em trai cũng rất thân thiết nữa.
 
 [Han Yoojin - Độc thoại]
 KR: 그렇게 덮어 두면 괜찮지 않아도 괜찮은 게 된다고 믿으며
@@ -569,11 +513,11 @@ Tin rằng nếu cứ che đậy lại như thế, thì dù không ổn cũng s�
 
 [Han Yoojin - Độc thoại]
 KR: 덮어두고 모른 척 덧칠하는 게 내 생존수단이었어.
-Che đậy lại và giả vờ không biết rồi tô vẽ đè lên chính là phương thức sinh tồn của mình.
+Che đậy lại và giả vờ không biết rồi sơn đè lên chính là phương thức sinh tồn của tôi.
 
 [Han Yoojin - Độc thoại]
-KR: 원인을 고치겠다고 상처를 하나하나
-Từng vết thương một với ý nghĩ sẽ sửa chữa lại nguyên nhân
+KR: 원인을 고치겠다고 상처를 하나하나 끄집어내면
+Nếu cứ khơi lại từng vết thương với lý do muốn giải quyết tận gốc nguyên nhân
 
 [Han Yoojin - Độc thoại]
 KR: 나는 버틸 자신이 없다.
@@ -585,39 +529,22 @@ Thế nhưng dù vậy,
 
 [Han Yoojin - Độc thoại]
 KR: 옥상 정원이 휑해지겠네.
-Vườn sân thượng sẽ trở nên trống trải lắm đây.
+Vườn trên sân thượng sẽ trở nên trống trải lắm đây.
 
 [Han Yoojin]
 KR: 블루 집도 이제 철거를…
-Giờ cũng phải dỡ bỏ nhà của Blue thôi…
+Giờ cũng phải dỡ bỏ nhà của Blue…
 
 [Han Yoojin]
 KR: 응?
-Hử?
+Ủa?
 
-[Han Yoojin]
-KR: ?
-?
-
-[Blue]
-KR: 꺄우
-Kyau
-
-[SFX]
-KR: 펄럭
-Phành phạch
-
-[Bóng thoại]
-KR: 꺄악-
-Ké-
-
-[SFX]
-KR: 쿵
-Rầm
+Blue?
+Sao nhóc lại ở đây...?
 
 [Han Yoojin]
 KR: …야, 설마.
-…Này, không lẽ nào.
+Ơ, lẽ nào...
 
 [Noah Rugir]
 KR: 유진 씨!
@@ -625,15 +552,15 @@ Yoojin-ssi!
 
 [Thợ săn]
 KR: 아무래도 블루가 잘 이해를 못한 모양입니다!
-Có vẻ như Blue chưa hiểu ra vấn đề thì phải ạ!
+Có vẻ như Blue chưa hiểu ra vấn đề thì phải!
 
 [Thợ săn]
 KR: 이동 속도가 너무 빨라져서 이 정도는 가깝게 느껴지나봐요.
-Tốc độ di chuyển nhanh lên nhiều quá nên có lẽ nó cảm thấy khoảng cách này gần lắm.
+Tốc độ di chuyển nhanh lên rất nhiều nên có lẽ nó cảm thấy khoảng cách này cũng gần.
 
 [Han Yoojin]
 KR: 경기도 사육장은 집 앞에 새로 생긴 놀이터 정도로 인식한 것 같은데…
-Hình như nó chỉ coi trang trại nuôi dưỡng ở Gyeonggi-do như cái sân chơi mới mở trước nhà thôi thì phải…
+Hình như nó chỉ coi trại nuôi dưỡng ở Gyeonggi-do như cái sân chơi mới mở trước nhà thôi thì phải…
 
 [Bóng thoại]
 KR: …큭
@@ -641,7 +568,7 @@ KR: …큭
 
 [Bóng thoại]
 KR: 크하하학 키킥ㅋㅋㅋㅋ
-Khà ha ha khì khìㅋㅋㅋㅋ
+Hahaha hahahaha
 
 [Noah Rugir]
 KR: 유진 씨?
@@ -649,11 +576,11 @@ Yoojin-ssi?
 
 [Han Yoojin - Độc thoại]
 KR: 그럼에도 이제는 그때처럼 혼자가 아니니까.
-Dù vậy thì giờ đây mình đã không còn đơn độc như khi ấy nữa.
+Dù vậy thì giờ đây tôi đã không còn đơn độc như khi ấy nữa.
 
 [Han Yoojin]
 KR: 이러면 아까 인사는 뭐가 되냐, 응?
-Thế này thì lời chào lúc nãy tính sao đây hả, hử?
+Thế này thì lời tạm biệt lúc nãy tính sao đây, hửm?
 
 [Han Yoojin]
 KR: 좁아터진 집도 철거 안 하고 그냥 둬야겠어. 안 그래?
@@ -661,23 +588,23 @@ Căn nhà chật chội đó cũng không phá dỡ mà cứ để nguyên thôi
 
 [Han Yoojin - Độc thoại]
 KR: 덧칠하고 또 덧칠하면서라도 나아갈 수밖에.
-Dù phải tô đè lên rồi lại tô đè lên đi chăng nữa thì cũng chỉ còn cách bước tiếp.
+Dù phải sơn phủ lên rồi lại sơn phủ lên đi chăng nữa thì cũng chỉ còn cách bước tiếp.
 
-[Han Yoojin]
+[Noah]
 KR: 내일 출국이죠? 짐은 다 싸셨어요?
-Mai cậu xuất cảnh đúng không? Hành lý đã thu dọn hết chưa?
+Mai anh xuất cảnh đúng không? Hành lý đã thu dọn hết chưa?
 
 [Han Yoohyun]
 KR: 출국 전에 일찍 들어가서 쉬자, 형.
-Trước khi xuất cảnh chúng ta về sớm nghỉ ngơi thôi, Hyung.
+Chúng ta về sớm nghỉ ngơi thôi trước khi xuất cảnh thôi, Hyung.
 
 [Park Yerim]
 KR: 아저씨, 수영복도 꼭 챙겨요!
-Chú, nhớ mang theo cả đồ bơi đấy nhé!
+Ahjussi, nhớ mang theo cả đồ bơi nhé!
 
 [Park Yerim]
 KR: 저 수영복 5벌 가져감~!
-Cháu mang hẳn 5 bộ đồ bơi đi đấy~!
+Tôi mang hẳn 5 bộ đồ bơi đi đấy~!
 
 [Han Yoojin - Độc thoại]
 KR: 이 온기를 동력으로 삼아
@@ -685,4 +612,4 @@ Lấy hơi ấm này làm động lực
 
 [Han Yoojin - Độc thoại]
 KR: 적어도 이번에는 소중한 이들을 지킬 수 있도록.
-Để ít nhất lần này có thể bảo vệ những người trân quý.
+Để ít nhất lần này có thể bảo vệ những người  tôi trân quý.

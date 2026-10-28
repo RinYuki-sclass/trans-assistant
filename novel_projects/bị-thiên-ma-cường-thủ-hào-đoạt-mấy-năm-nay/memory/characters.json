@@ -1,0 +1,35 @@
+[
+  {
+    "name": "Wu Qiong",
+    "hanviet_name": "Vu Khung",
+    "original_name": "巫穹",
+    "gender": "Nam",
+    "role": "Công chính (Chủ công - Tiên Ma chi thể)",
+    "narration_pronoun": "anh",
+    "honorifics": "xưng ta, ngọt ngào gọi thụ là ca ca",
+    "speech_style": "Bình tĩnh, cơ trí, biết giả yếu đuối nũng nịu câu thụ",
+    "notes": "Mỹ cường thảm, mười tuổi bị phong ấn ký ức, đan điền bị phế và nhập ma, mượn cớ để được thụ bảo bọc"
+  },
+  {
+    "name": "Ling Yunqi",
+    "hanviet_name": "Lăng Vân Kỳ",
+    "original_name": "凌芸祺",
+    "gender": "Nam",
+    "role": "Thụ chính (Chân Thần xuất thế / Thiên Ma chí tôn)",
+    "narration_pronoun": "hắn",
+    "honorifics": "xưng ta, gọi công là ngươi / tiểu tử ngươi",
+    "speech_style": "Kiêu căng, bá đạo, bá khí ngập trời nhưng lại siêu dễ mềm lòng trước công",
+    "notes": "Hễ thấy công rơi nước mắt hoặc gọi ca ca là đầu hàng vô điều kiện"
+  },
+  {
+    "name": "Jiu Huayue",
+    "hanviet_name": "Cửu Hoa Nguyệt",
+    "original_name": "九华月",
+    "gender": "Nam",
+    "role": "Sư tôn tiên môn của Vu Khung",
+    "narration_pronoun": "gã",
+    "honorifics": "xưng vi sư",
+    "speech_style": "Đạo mạo, ngụy quân tử",
+    "notes": "Nuôi nấng Vu Khung chỉ nhằm mưu đồ hấp thu sức mạnh Tiên Ma chi thể"
+  }
+]

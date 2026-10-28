@@ -14,7 +14,7 @@
 
 | Tên nhân vật | Tên gốc | Đại từ ngôi 3 | Vai trò / Thân phận | Quy chuẩn xưng hô & Ghi chú |
 | :--- | :--- | :--- | :--- | :--- |
-| **Thiều Liên Cảnh** | 韶怜景 | **y** *(hoặc anh)* | **Công chính** (Mỹ nhân sư tôn, vị Linh Tôn trẻ nhất dị thú đại lục) | Xuyên thư thành sư tôn thụ trong nguyên tác, kiên quyết từ chối làm thụ ("không làm 0 tôn"). Ngoại hình tuyệt mỹ xuất trần, thông minh, lém lỉnh, thích ghép đôi người khác. Xưng "vi sư / ta". |
+| **Thiều Liên Cảnh** | 韶怜景 | **y** *(duy nhất)* | **Công chính** (Mỹ nhân sư tôn, vị Linh Tôn trẻ nhất dị thú đại lục) | Xuyên thư thành sư tôn thụ trong nguyên tác, quyết tâm làm 1, kiên quyết từ chối làm thụ ("không làm 0 tôn"). Ngoại hình tuyệt mỹ xuất trần, thông minh, lém lỉnh, thích ghép đôi người khác. Trần thuật ngôi 3 duy nhất dùng "y". Xưng "vi sư / ta". |
 | **Đồ đệ Tuyết Long** | 雪龙徒弟 | **hắn / đồ nhi** | **Thụ chính** (Độc nhất vô nhị một đuôi Tuyết Long trong thiên hạ) | Niên hạ, bề ngoài cung kính nghe lời sư tôn nhưng bên trong tràn đầy tính chiếm hữu, cơ thể lạnh băng như tuyết. Xưng "đồ nhi / ta", gọi Thiều Liên Cảnh là "sư tôn". |
 | **Tiểu Cẩm Lý** | 小锦鲤 | **cậu ta / gã** | **Sư đệ trà xanh** (Chân thân cá chép gấm) | Thích dính lấy Thiều Liên Cảnh, bị Thiều Liên Cảnh gán ghép với Hồng Hồ Ly. |
 | **Hồng Hồ Ly** | 红狐狸 | **hắn** | **Chí hữu cool ngầu** (Chân thân cáo đỏ) | Lạnh lùng với cả thiên hạ, chỉ mỉm cười với Thiều Liên Cảnh. |

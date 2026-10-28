@@ -2,10 +2,68 @@
   {
     "arc": "Mở đầu: Xuyên thư cự tuyệt làm 0 tôn",
     "chapter": "ch_001",
-    "event": "Thiều Liên Cảnh xuyên vào tiểu thuyết, phát hiện mình là sư tôn mỹ nhân bị cả dàn nhân vật nam vây quanh thèm muốn. Y quyết tâm tự cứu bản thân, không chịu làm số 0.",
+    "event": "Thiều Liên Cảnh xuyên vào tiểu thuyết, cự tuyệt làm số 0, từ chối sư đệ Tạ Đào Hoa. Đi tu bổ kết giới phía đông, thu phục đoạn xúc tu hắc ám, bộc phát hỏa tật trong người và quyết định xuống núi tìm thuốc giải là chú rồng tuyết.",
     "key_details": [
-      "Thiều Liên Cảnh là Linh Tôn trẻ tuổi nhất",
-      "Bắt đầu kế hoạch ghép đôi đối thủ và thuần phục đồ đệ"
+      "Thiều Liên Cảnh là Linh Tôn trẻ tuổi nhất dị thú đại lục",
+      "Đến chân thành Táng Hồn Thành"
+    ]
+  },
+  {
+    "arc": "Mở đầu: Đấu giá mua long tể",
+    "chapter": "ch_002",
+    "event": "Vào Bảo Lai Các, chi 5000 linh thạch tam phẩm đấu giá thành công chú rồng nhỏ Tuyết Long. Tắm rửa cho rồng con, đưa đi ăn quán, trêu chọc dọa ăn thịt khiến rồng con sợ rơi nước mắt xin nuôi lớn rồi hẵng ăn.",
+    "key_details": [
+      "Thiều Liên Cảnh xưng danh hiệu Tứ Vô Linh Tôn",
+      "Dọa rồng con là hươu bắt ăn cỏ"
+    ]
+  },
+  {
+    "arc": "Mở đầu: Bạch liên trà xanh & Lộ tính phong phê",
+    "chapter": "ch_003",
+    "event": "Đặt tên cho đồ đệ là Yến Trần Phong. Chạm trán thụ chính nguyên tác Quân Ký Tuyết và vả mặt hắn. Đi dạo phố đêm ăn vặt, ban đêm trừng trị hai tên dâm tặc lẻn vào phòng, rồng con mang chăn đắp kẻ thù để sư tôn chém đỡ bẩn.",
+    "key_details": [
+      "Đặt tên Yến Trần Phong",
+      "Vả mặt Quân Ký Tuyết",
+      "Yến Trần Phong bộc lộ tính phong phê ngầm"
+    ]
+  },
+  {
+    "arc": "Mở đầu: Long tộc thệ ngôn & Về Vân Tê Cốc",
+    "chapter": "ch_004",
+    "event": "Gặp gỡ nguyên chủ trong mơ hóa giải khúc mắc hoán đổi linh hồn. Dùng Mộc Diên bay về Phục Linh sơn. Yến Trần Phong quỳ hôn mũi giày dâng lời thề trung thành vĩnh viễn. Vả mặt Đoạn Niệm bảo vệ tiểu hoa linh.",
+    "key_details": [
+      "Lời thề trung thành của Tuyết Long",
+      "Tạ Đào Hoa ghen tị đòi bỏ nhà ra đi",
+      "Vả mặt Đoạn Niệm quất vạt áo vào mặt"
+    ]
+  },
+  {
+    "arc": "Mở đầu: Bắt cá đi du ngoạn & Tịch cốc tấu hài",
+    "chapter": "ch_005",
+    "event": "Ngâm suối nước nóng trên đỉnh núi, cự tuyệt tình cảm của Hồ Dã và gán ghép hắn với Tạ Đào Hoa. Hồ Dã bế cắp Tạ Đào Hoa xuống núi đi du ngoạn. Yến Trần Phong nghe nhầm 'tịch cốc' thành 'cái mông'.",
+    "key_details": [
+      "Hồ Dã x Tạ Đào Hoa",
+      "Tịch cốc vs cái mông"
+    ]
+  },
+  {
+    "arc": "Mở đầu: Uống thức ăn tại thực đường",
+    "chapter": "ch_006",
+    "event": "Đưa Yến Trần Phong xuống nhà ăn đệ tử, nhóc con bưng đĩa dốc tọt vào miệng như 'uống đồ ăn'. Đặt tên Xuân Lai cho cháu Tôn đại nương. Mời Đoạn Niệm ăn miếng sườn có dấu răng gọi là 'ông'.",
+    "key_details": [
+      "Tiểu long tể phàm ăn vô địch",
+      "Đặt tên Xuân Lai",
+      "Gọi Đoạn Niệm là ông"
+    ]
+  },
+  {
+    "arc": "Mở đầu: Đòi sâm ba ngàn năm & Trừ khử danh tiếng bạch liên",
+    "chapter": "ch_007",
+    "event": "Đấu võ mồm ép Đoạn Niệm phải hiến tặng nhánh nhân sâm ba ngàn năm. Công khai vạch mặt Quân Ký Tuyết trước toàn bộ đệ tử khiến Đoạn Niệm bóp nát tay vịn ghế. Yến Trần Phong giả vờ đau chân để được sư tôn bế.",
+    "key_details": [
+      "Lột sạch sâm 3000 năm của Đoạn Niệm",
+      "Quân Ký Tuyết bị toàn cốc căm ghét",
+      "Yến Trần Phong làm nũng được sư tôn bế"
     ]
   }
 ]
