@@ -88,19 +88,19 @@ Hắn đang suy nghĩ xem liệu lời nói của Tống Tiên Ngọc có đáng
 
 “Ngươi chờ một chút nhé, để ta kiểm tra kỹ thêm một chút nữa.” Bàn tay trái của Tống Tiên Ngọc quang minh chính đại luồn sâu vào bên trong y phục của Diệp Mộc Trần, y xoa nắn vuốt ve từng múi cơ bụng săn chắc của Diệp Mộc Trần, dáng vẻ đăm chiêu suy nghĩ kia, trông quả thực hệt như có chuyện đại sự ghê gớm lắm vậy.
 
-“Lão sư, lời hắn nói là thật hay là giả?” Diệp Mộc Trần cất tiếng hỏi Đạo Huyền pháp tu trong thức hải.
+“Sư tôn, lời hắn nói là thật hay là giả?” Diệp Mộc Trần cất tiếng hỏi Đạo Huyền pháp tu trong thức hải.
 
 Dẫu cho Đạo Huyền pháp tu đã sống qua biết bao nhiêu năm tháng cuộc đời, nhưng đây cũng là lần đầu tiên ông ta chạm trán một nhân vật quái đản khó lòng nắm bắt phán đoán như Tống Tiên Ngọc.
 
 “Haizz, ai mà biết được chứ.” Đạo Huyền pháp tu bất đắc dĩ thở dài, “Mộc Trần, ta vẫn khuyên con nên mau chóng nghĩ cho kỹ cách trừ khử Tống Tiên Ngọc đi, ta luôn cảm thấy... giữ lại hắn bên mình... hậu họa khôn lường.”
 
-“Học trò hiểu rõ.” Trầm mặc hồi lâu sau, Diệp Mộc Trần mới nặng nề đáp lại Đạo Huyền pháp tu.
+“Đệ tử hiểu rõ.” Trầm mặc hồi lâu sau, Diệp Mộc Trần mới nặng nề đáp lại Đạo Huyền pháp tu.
 
-“Lúc trước cũng đa tạ lão sư đã kịp thời can ngăn học trò.” Diệp Mộc Trần nói tiếp, “Trước đó học trò hành động theo cảm tính nhất thời xúc động, thực sự cảm thấy vô cùng hổ thẹn trong lòng.”
+“Lúc trước cũng đa tạ sư tôn đã kịp thời can ngăn đệ tử.” Diệp Mộc Trần nói tiếp, “Trước đó đệ tử hành động theo cảm tính nhất thời xúc động, thực sự cảm thấy vô cùng hổ thẹn trong lòng.”
 
 Đạo Huyền pháp tu vừa nghe xong, liền hiểu ngay Diệp Mộc Trần đang ám chỉ điều gì: “Con cũng không cần phải tự trách mình làm gì, huyễn cảnh mê hoặc lòng người, con tuổi đời còn trẻ, chuyện này tự nhiên khó tránh khỏi. May mắn là mọi chuyện vẫn chưa muộn màng, con dự định làm cách nào để trừ khử Tống Tiên Ngọc?”
 
-“Thời cơ vẫn chưa chín muồi.” Diệp Mộc Trần ngập ngừng một thoáng, tiếp đó liền trịnh trọng hứa hẹn với Đạo Huyền pháp tu, “Lão sư cứ yên tâm, học trò đã có cách của riêng mình rồi.”
+“Thời cơ vẫn chưa chín muồi.” Diệp Mộc Trần ngập ngừng một thoáng, tiếp đó liền trịnh trọng hứa hẹn với Đạo Huyền pháp tu, “Sư tôn cứ yên tâm, đệ tử đã có cách của riêng mình rồi.”
 
 Đáng chết thật.
 

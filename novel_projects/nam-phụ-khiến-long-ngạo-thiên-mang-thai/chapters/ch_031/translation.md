@@ -10,7 +10,7 @@ Sắc mặt của Diệp Mộc Trần thoáng trở nên vô cùng ngưng trọn
 
 Chứng bệnh liên kết linh mạch này vốn dĩ vô cùng hiếm gặp trong thiên hạ, rất nhiều người thậm chí cả đời còn chưa từng nghe qua cái tên của chứng bệnh kỳ quái này bao giờ. Thế mà vị hành chủ này dường như lại hiểu biết vô cùng tường tận ngọn ngành những gì đang diễn ra trên thân thể của hắn.
 
-“Sư tôn, xin người hãy tạm thời thu liễm phong tỏa toàn bộ khí tức lại, học trò nhất định phải đích thân đi gặp vị hành chủ này một chuyến.” Diệp Mộc Trần âm thầm truyền âm nói với Đạo Huyền pháp tu trong thức hải.
+“Sư tôn, xin người hãy tạm thời thu liễm phong tỏa toàn bộ khí tức lại, đệ tử nhất định phải đích thân đi gặp vị hành chủ này một chuyến.” Diệp Mộc Trần âm thầm truyền âm nói với Đạo Huyền pháp tu trong thức hải.
 
 “Mời đi bên này.” Đợi Diệp Mộc Trần đắn đo suy tính trong giây lát, tên hắc y hành giả liền thi triển bí thuật che giấu đi toàn bộ khí tức của Diệp Mộc Trần, lúc này toàn bộ ánh mắt của mọi người đều đang đổ dồn vào Tống Tiên Ngọc trên lôi đài, căn bản không có một ai phát hiện ra Diệp Mộc Trần đã được hắc y hành giả âm thầm dẫn độ tới bên cạnh hành chủ.
 

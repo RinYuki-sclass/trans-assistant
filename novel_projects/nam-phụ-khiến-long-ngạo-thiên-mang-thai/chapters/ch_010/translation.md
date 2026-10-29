@@ -72,7 +72,7 @@ Trong đôi mắt vốn phẳng lặng không chút gợn sóng của Diệp M�
 
 “Thằng nhóc ngốc này, con dây dưa lằng nhằng với hắn làm cái gì cơ chứ.” Đạo Huyền pháp tu không nhịn nổi mà lên tiếng trong đầu Diệp Mộc Trần, “Cho dù con tạm thời mất đi linh lực, chẳng phải vẫn còn có tiểu phượng hoàng Thương Nghiên đó sao? Giải quyết tên ranh con này chẳng phải dễ như trở bàn tay hay sao, chúng ta cứ trực tiếp đánh nát bấy hắn cho xong chuyện.”
 
-“Chuyện cỏn con bực này không cần phải làm phiền tới Thương Nghiên đâu ạ.” Diệp Mộc Trần thầm đáp, “Thầy không cần lo lắng, học trò tự khắc có chừng mực. Huống hồ, tên Tống Tiên Ngọc này tuy là kẻ tiểu nhân, nhưng loại tiểu nhân có thể nhìn thấu tâm can trong một nốt nhạc này lại thường là đối tượng dễ đối phó nhất, vào thời khắc then chốt thậm chí còn có thể phát huy tác dụng. Lại thêm Tống gia hiện tại dẫu sa sút nhưng lạc đà gầy vẫn lớn hơn ngựa, người trong cung đều đã tận mắt thấy Tống Tiên Ngọc đi cùng học trò, nếu giết hắn ngay tại nơi này e rằng chẳng khác nào lạy ông tôi ở bụi này.”
+“Chuyện cỏn con bực này không cần phải làm phiền tới Thương Nghiên đâu ạ.” Diệp Mộc Trần thầm đáp, “Sư tôn không cần lo lắng, đệ tử tự khắc có chừng mực. Huống hồ, tên Tống Tiên Ngọc này tuy là kẻ tiểu nhân, nhưng loại tiểu nhân có thể nhìn thấu tâm can trong một nốt nhạc này lại thường là đối tượng dễ đối phó nhất, vào thời khắc then chốt thậm chí còn có thể phát huy tác dụng. Lại thêm Tống gia hiện tại dẫu sa sút nhưng lạc đà gầy vẫn lớn hơn ngựa, người trong cung đều đã tận mắt thấy Tống Tiên Ngọc đi cùng đệ tử, nếu giết hắn ngay tại nơi này e rằng chẳng khác nào lạy ông tôi ở bụi này.”
 
 Diệp Mộc Trần phân tích đâu ra đấy rành mạch hữu lý, Đạo Huyền pháp tu tự nhiên cũng chẳng còn lời nào để bắt bẻ thêm.
 

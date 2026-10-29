@@ -16,7 +16,7 @@ Diệp Mộc Trần siết chặt khối Nguyên Linh Căn trong tay, lực đ�
 
 Diệp Mộc Trần nhìn về phía chiếc cổ thon trắng nõn nà mà mỏng manh của Tống Tiên Ngọc...
 
-Trước đây, hắn từng ngỗ nghịch với Đạo Huyền lão sư, thậm chí bất chấp cả nguy cơ nổ tung linh căn để cứu Tống Tiên Ngọc, hành động đó đã hoang đường tới tột cùng rồi, lần này hắn không thể tiếp tục làm trái lời sư trưởng nữa... Thế nhưng...
+Trước đây, hắn từng ngỗ nghịch với Đạo Huyền sư tôn, thậm chí bất chấp cả nguy cơ nổ tung linh căn để cứu Tống Tiên Ngọc, hành động đó đã hoang đường tới tột cùng rồi, lần này hắn không thể tiếp tục làm trái lời sư trưởng nữa... Thế nhưng...
 
 “Mộc Trần, đừng do dự nữa!” Đạo Huyền pháp tu thúc giục dồn dập, lão nhìn thấu tia không đành lòng nơi đáy mắt Diệp Mộc Trần.
 
@@ -24,7 +24,7 @@ Trước đây, hắn từng ngỗ nghịch với Đạo Huyền lão sư, thậ
 
 Đạo Huyền pháp tu không kìm được mà thở dài nghĩ bụng.
 
-“Lão sư, bắt đầu đi.”
+“Sư tôn, bắt đầu đi.”
 
 Diệp Mộc Trần hít sâu một hơi. Để không đánh động Tống Tiên Ngọc, hắn giấu Nguyên Linh Căn trong lòng bàn tay, cùng Đạo Huyền pháp tu đồng thanh niệm khẩu quyết trong thức hải——
 

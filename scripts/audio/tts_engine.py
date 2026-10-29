@@ -36,7 +36,7 @@ VOICES = {
 
 VOICE_NAMES = list(VOICES.keys())
 
-_MAX_BYTES = 4800
+_MAX_BYTES = 1800
 
 
 def _get_api_key() -> str | None:
@@ -57,36 +57,71 @@ def _get_api_key() -> str | None:
 
 
 def _chunk_text(text: str, max_bytes: int = _MAX_BYTES) -> list[str]:
-    """Split text into chunks ≤ max_bytes each on sentence/paragraph boundaries."""
-    if len(text.encode("utf-8")) <= max_bytes:
-        return [text]
+    """Split text into chunks ≤ max_bytes on paragraph and sentence boundaries.
+    
+    1800 bytes ensures chunks fit safely within Edge-TTS / Bing WebSocket 4096-byte
+    frame limits without triggering buggy internal sub-splitting or dropping audio.
+    """
+    if not text:
+        return []
 
-    sentences = re.split(r"(?<=[.!?])\s+", text)
+    # Ensure every paragraph/title ends with terminal punctuation so acoustic models
+    # don't drop voice synthesis across paragraph breaks.
+    raw_paras = [p.strip() for p in text.split("\n\n") if p.strip()]
+    norm_paras = []
+    for p in raw_paras:
+        if not re.search(r'\w', p):
+            continue
+        if not p.endswith(('.', '!', '?', '…', ':', ';', '”', '"', "'")):
+            p += "."
+        elif p[-1] in ('”', '"', "'") and len(p) > 1 and not p[:-1].endswith(('.', '!', '?', '…', ':', ';')):
+            p = p[:-1] + "." + p[-1]
+        norm_paras.append(p)
+
     chunks: list[str] = []
     current = ""
 
-    for sentence in sentences:
-        candidate = (current + " " + sentence).strip()
+    for p in norm_paras:
+        candidate = (current + "\n\n" + p).strip() if current else p
         if len(candidate.encode("utf-8")) <= max_bytes:
             current = candidate
-        else:
-            if current:
-                chunks.append(current)
-            if len(sentence.encode("utf-8")) > max_bytes:
-                words = sentence.split()
-                sub = ""
-                for word in words:
-                    c = (sub + " " + word).strip()
-                    if len(c.encode("utf-8")) <= max_bytes:
-                        sub = c
-                    else:
-                        if sub:
-                            chunks.append(sub)
-                        sub = word
-                if sub:
-                    current = sub
+            continue
+
+        if current:
+            chunks.append(current)
+            current = ""
+
+        if len(p.encode("utf-8")) <= max_bytes:
+            current = p
+            continue
+
+        # If a single paragraph is longer than max_bytes, split by sentences
+        sentences = re.split(r"(?<=[.!?…])\s+", p)
+        for s in sentences:
+            s = s.strip()
+            if not s:
+                continue
+            cand_s = (current + " " + s).strip() if current else s
+            if len(cand_s.encode("utf-8")) <= max_bytes:
+                current = cand_s
             else:
-                current = sentence
+                if current:
+                    chunks.append(current)
+                if len(s.encode("utf-8")) > max_bytes:
+                    words = s.split()
+                    sub = ""
+                    for w in words:
+                        cand_w = (sub + " " + w).strip() if sub else w
+                        if len(cand_w.encode("utf-8")) <= max_bytes:
+                            sub = cand_w
+                        else:
+                            if sub:
+                                chunks.append(sub)
+                            sub = w
+                    if sub:
+                        current = sub
+                else:
+                    current = s
 
     if current:
         chunks.append(current)
@@ -144,37 +179,62 @@ def _synthesize_edge_tts(
             "Hãy chạy `pip install -r requirements.txt` rồi khởi động lại ứng dụng."
         ) from exc
 
+    clean_text = text.strip() if text else ""
+    if not clean_text:
+        return b""
+
+    # Ensure terminal punctuation so neural acoustic models (especially non-English like vi-VN)
+    # trigger sentence boundary synthesis and do not discard trailing phonemes.
+    if clean_text[-1] not in ".!?…:;":
+        clean_text += "."
+
     rate_pct = int(round((speaking_rate - 1.0) * 100))
     rate_str = f"{rate_pct:+d}%" if rate_pct != 0 else "+0%"
 
     pitch_hz = int(round(pitch))
     pitch_str = f"{pitch_hz:+d}Hz" if pitch_hz != 0 else "+0Hz"
 
-    async def _synth():
-        communicate = edge_tts.Communicate(text, edge_voice, rate=rate_str, pitch=pitch_str)
+    async def _synth(target_text: str):
+        communicate = edge_tts.Communicate(target_text, edge_voice, rate=rate_str, pitch=pitch_str)
         mp3_data = b""
         async for chunk in communicate.stream():
             if chunk["type"] == "audio":
                 mp3_data += chunk["data"]
         return mp3_data
 
-    try:
-        loop = asyncio.get_running_loop()
-    except RuntimeError:
-        loop = None
-
-    if loop and loop.is_running():
+    def _run_synth(target_text: str) -> bytes:
         try:
-            import nest_asyncio
-        except ImportError as exc:
-            raise RuntimeError(
-                "Thiếu thư viện nest-asyncio. "
-                "Hãy chạy `pip install -r requirements.txt` rồi khởi động lại ứng dụng."
-            ) from exc
-        nest_asyncio.apply()
-        return loop.run_until_complete(_synth())
-    else:
-        return asyncio.run(_synth())
+            loop = asyncio.get_running_loop()
+        except RuntimeError:
+            loop = None
+
+        if loop and loop.is_running():
+            try:
+                import nest_asyncio
+            except ImportError as exc:
+                raise RuntimeError(
+                    "Thiếu thư viện nest-asyncio. "
+                    "Hãy chạy `pip install -r requirements.txt` rồi khởi động lại ứng dụng."
+                ) from exc
+            nest_asyncio.apply()
+            return loop.run_until_complete(_synth(target_text))
+        else:
+            return asyncio.run(_synth(target_text))
+
+    try:
+        return _run_synth(clean_text)
+    except edge_tts.exceptions.NoAudioReceived:
+        # If neural voice (e.g. Vietnamese) drops isolated foreign names, retry with carrier prefix
+        if edge_voice.startswith("vi-"):
+            carrier_text = f"Đọc: {clean_text}"
+            try:
+                return _run_synth(carrier_text)
+            except Exception:
+                pass
+        raise RuntimeError(
+            f"Mô hình giọng '{edge_voice}' không nhận diện được âm thanh cho văn bản '{text}'. "
+            f"Vui lòng thêm từ ngữ cảnh hoặc dấu câu (ví dụ: 'Đọc: {text}.')."
+        )
 
 
 def _synthesize_chunk(

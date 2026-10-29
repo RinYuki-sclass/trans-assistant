@@ -48,7 +48,7 @@ Diệp Mộc Trần căn bản không dám tin mình lại có thể làm ra cá
 
 Suốt một ngàn năm tồn tại dưới hình thái linh hồn của ông, ông chưa từng phải đối mặt với một câu hỏi hóc búa nan giải đến mức này bao giờ.
 
-Ông có thể nói được gì đây, chẳng lẽ lại chạy tới nói thẳng với đứa đồ đệ da mặt mỏng như cánh ve này rằng: Tống Tiên Ngọc nói toàn lời dối trá đấy, con không hề cắn cổ người ta, mà là...
+Ông có thể nói được gì đây, chẳng lẽ lại chạy tới nói thẳng với đứa đệ tử da mặt mỏng như cánh ve này rằng: Tống Tiên Ngọc nói toàn lời dối trá đấy, con không hề cắn cổ người ta, mà là...
 
 Đạo Huyền pháp tu giờ phút này cảm thấy vô cùng may mắn vì khi đó Thương Nghiên đang chìm vào giấc ngủ sâu, cho nên hoàn toàn không hay biết chuyện này, bằng không với cái tính nết bộc trực bộp chộp của Thương Nghiên thì chắc chắn sẽ lỡ mồm nói toạc móng heo ra ngoài.
 
@@ -62,7 +62,7 @@ Trong lòng Đạo Huyền pháp tu thầm mắng chửi một câu như thế.
 
 Tuy rằng tuân thủ nguyên tắc phi lễ chớ nhìn, ông đã chủ động che chắn phong tỏa thị giác đối với thế giới bên ngoài, nhưng ông vẫn khó lòng tránh khỏi việc biết rõ nguồn cơn lai lịch của cái dấu răng nọ.
 
-Nếu không phải do Tống Tiên Ngọc sờ soạng lung tung bậy bạ thì đứa đồ nhi ngoan ngoãn của ông há lại đi cắn Tống Tiên Ngọc cơ chứ!
+Nếu không phải do Tống Tiên Ngọc sờ soạng lung tung bậy bạ thì đứa đệ tử ngoan ngoãn của ông há lại đi cắn Tống Tiên Ngọc cơ chứ!
 
 “Con hiểu rồi.” Diệp Mộc Trần ủ rũ cúi gằm đầu xuống, hắn thực sự không dám tin bản thân mình lại có thể làm ra loại hành vi mặt dày vô liêm sỉ đến nhường này.
 

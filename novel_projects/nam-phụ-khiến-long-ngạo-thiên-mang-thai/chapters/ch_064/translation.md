@@ -54,7 +54,7 @@ Hệ Thống Kho Thảo Dược tuy nhân phẩm của hệ thống chẳng ra g
 
 “Mộc Trần à, con đừng có mãi nhớ nhung về cái tên đã chết kia nữa, con nhìn cô nương mặc áo choàng đen đằng kia xem, ước chừng đã bị con mê hoặc đến thần hồn điên đảo rồi đấy.” Do đứng ở khoảng cách xa nên Đạo Huyền pháp tu không nhìn rõ tường tận, lại thêm linh lực thường làm biến đổi thanh âm của tu giả, lão cứ đinh ninh người áo đen mắt lam kia là một cô nương, thế là mở miệng cổ vũ: “Đời người sống trên đời, luôn luôn phải không ngừng gặp gỡ những con người mới mẻ...”
 
-“Lão sư...” Diệp Mộc Trần bất đắc dĩ than thở một tiếng trong thức hải, sau đó liền dời tầm mắt sang chỗ khác, chẳng hề có chút lưu luyến nào.
+“Sư tôn...” Diệp Mộc Trần bất đắc dĩ than thở một tiếng trong thức hải, sau đó liền dời tầm mắt sang chỗ khác, chẳng hề có chút lưu luyến nào.
 
 Ô hô, vậy mà còn dừng lại nhìn tận bảy giây cơ đấy.
 

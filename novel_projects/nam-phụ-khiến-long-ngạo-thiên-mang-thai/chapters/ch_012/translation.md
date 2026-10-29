@@ -2,7 +2,7 @@ Chương 12: Chân tướng Nguyên Dương Dịch & Chiếc váy hồng phấn
 
 “Cái thứ này ấy mà... thực ra chính là của nam tử...” Đạo Huyền pháp tu ho khan dữ dội vài tiếng thật to, “Của nam tử... con hiểu mà.”
 
-Đạo Huyền pháp tu tự nhận thấy bản thân đã nói toạc móng heo rõ ràng đến như thế rồi, vậy mà Diệp Mộc Trần vẫn một mực chưa chịu thông suốt hiểu ra, hắn nghiêm túc hỏi lại: “Thầy bị nhiễm phong hàn rồi sao ạ?”
+Đạo Huyền pháp tu tự nhận thấy bản thân đã nói toạc móng heo rõ ràng đến như thế rồi, vậy mà Diệp Mộc Trần vẫn một mực chưa chịu thông suốt hiểu ra, hắn nghiêm túc hỏi lại: “Sư tôn bị nhiễm phong hàn rồi sao ạ?”
 
 Đạo Huyền pháp tu vừa nghe thấy câu này của Diệp Mộc Trần suýt chút nữa thì nghẹn họng tắt thở, lão bất lực thở dài thườn thượt một hơi, đành phải tiếp tục giải thích:
 
@@ -16,7 +16,7 @@ Song lão ngẫm lại bản thân mình năm xưa, hình như cũng là mãi t�
 
 “Không không không, không phải thế đâu!” Trí tưởng tượng của Diệp Mộc Trần quá đỗi kinh thiên động địa khiến Đạo Huyền pháp tu sợ khiếp vía vội vàng phủ nhận ngay tắp lự, “Thực ra ấy nhé, Nguyên Dương Dịch, Nguyên Dương Dịch, hiểu theo đúng nghĩa đen thì nó là một loại chất lỏng. Chữ Dương ở đây là chỉ phái nam – nữ Âm nam Dương, còn chữ Nguyên ấy à, là để chỉ nơi bắt nguồn đầu tiên của mầm mống sự sống...”
 
-“Học trò hiểu rồi ạ.” Diệp Mộc Trần buột miệng suy đoán, câu trả lời của hắn khiến Đạo Huyền pháp tu không khỏi mừng thầm trong dạ.
+“Đệ tử hiểu rồi ạ.” Diệp Mộc Trần buột miệng suy đoán, câu trả lời của hắn khiến Đạo Huyền pháp tu không khỏi mừng thầm trong dạ.
 
 “Đó chính là những giọt mồ hôi của nam nhân đổ xuống khi vừa nghe tiếng gà gáy sớm đã thức dậy luyện kiếm dưới ánh triều dương đúng không ạ?”
 
@@ -26,7 +26,7 @@ Diệp Mộc Trần vừa dứt lời, Đạo Huyền pháp tu suýt chút nữa
 
 Hả?
 
-Diệp Mộc Trần cả người hóa đá chết trân tại chỗ, đồng tử co rút mạnh mẽ, vành tai trong chớp mắt lại đỏ ửng như máu: “Là... là của chính bản thân học trò sao ạ?”
+Diệp Mộc Trần cả người hóa đá chết trân tại chỗ, đồng tử co rút mạnh mẽ, vành tai trong chớp mắt lại đỏ ửng như máu: “Là... là của chính bản thân đệ tử sao ạ?”
 
 Câu nói tiếp theo của Đạo Huyền pháp tu giáng thẳng một đòn sấm sét vào đầu Diệp Mộc Trần: “Không phải, đoán chừng là cần của cái vị tiểu huynh đệ đang tay trong tay đan chặt với con kìa.”
 

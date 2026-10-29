@@ -30,7 +30,7 @@ Dù sao nguyên chủ Tống Tiên Ngọc cũng coi như một kẻ có số má
 
 Diệp Mộc Trần khẽ cau mày, hắn toan hất văng Tống Tiên Ngọc ra, nào ngờ lại kinh ngạc phát hiện luồng linh lực vốn vừa tìm lại được của mình như bị ai rút cạn, cuồn cuộn không ngừng tuôn chảy về phía Tống Tiên Ngọc!
 
-“Thầy ơi?” Diệp Mộc Trần rốt cuộc vẫn chỉ là một thiếu niên mười chín tuổi, trong mắt ngập tràn vẻ kinh hãi thảng thốt, vội vàng lên tiếng cầu cứu Đạo Huyền pháp tu.
+“Sư tôn?” Diệp Mộc Trần rốt cuộc vẫn chỉ là một thiếu niên mười chín tuổi, trong mắt ngập tràn vẻ kinh hãi thảng thốt, vội vàng lên tiếng cầu cứu Đạo Huyền pháp tu.
 
 Thế nhưng, còn chưa đợi Đạo Huyền pháp tu kịp mở miệng trả lời, Tống Tiên Ngọc đã áp sát cả người sáp lại gần.
 
@@ -150,7 +150,7 @@ Lúc này, ánh mắt Diệp Mộc Trần sắc lạnh tựa mũi kiếm băng, 
 
 “Tiểu tử, lời hắn nói hình như là thật đấy.” Đạo Huyền pháp tu nghiêm trọng lên tiếng trong đầu Diệp Mộc Trần, “Nơi linh căn của con đang lượn lờ một luồng hắc khí kỳ dị, trên luồng hắc khí ấy đích thực mang theo khí tức linh lực của Tống Tiên Ngọc.”
 
-“Thầy có cách nào hóa giải không?” Diệp Mộc Trần siết chặt nắm đấm——
+“Sư tôn có cách nào hóa giải không?” Diệp Mộc Trần siết chặt nắm đấm——
 
 Sắp tới ngày đại tuyển Phù Không Thành rồi, hắn đã hứa với Ngọc Linh muội muội sẽ đoạt lấy ngôi vị quán quân, nếu giờ này mất đi linh lực thì...
 

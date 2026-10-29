@@ -112,7 +112,7 @@ Những hoa văn màu đen thình lình xuất hiện trên làn da trắng nõn
 
 “Mộc Trần, hắn hết cứu nổi rồi.” Đạo Huyền pháp tu cất giọng trầm trầm đầy sát khí trong thức hải Diệp Mộc Trần, “Chỉ dựa vào tình trạng hiện tại của con, con căn bản không đánh lại hắn đâu... Lúc này trong lòng hắn chỉ một mực muốn giữ con ở lại chốn này mà thôi. Chỉ còn duy nhất một cách, có điều cách này một khi dùng ra thì lành ít dữ nhiều.”
 
-“Học trò hiểu rõ.” Chưa đợi Đạo Huyền pháp tu kịp nói ra phương pháp, Diệp Mộc Trần đã chủ động tiếp lời: “Tập trung linh khí xung quanh vào khối Nguyên Linh Căn, tạm thời tạo thành trạng thái linh khí suy kiệt, sau đó lấy linh khí trong Nguyên Linh Căn phục vụ cho ta, thông qua liên kết linh mạch mà ép toàn bộ luồng linh khí hủy diệt trong Nguyên Linh Căn nện thẳng vào cơ thể Tống Tiên Ngọc.”
+“Đệ tử hiểu rõ.” Chưa đợi Đạo Huyền pháp tu kịp nói ra phương pháp, Diệp Mộc Trần đã chủ động tiếp lời: “Tập trung linh khí xung quanh vào khối Nguyên Linh Căn, tạm thời tạo thành trạng thái linh khí suy kiệt, sau đó lấy linh khí trong Nguyên Linh Căn phục vụ cho ta, thông qua liên kết linh mạch mà ép toàn bộ luồng linh khí hủy diệt trong Nguyên Linh Căn nện thẳng vào cơ thể Tống Tiên Ngọc.”
 
 “Chính xác.” Nghe được phân tích冷静 và chuẩn xác của Diệp Mộc Trần, tảng đá đè nặng trong lòng Đạo Huyền pháp tu rốt cuộc cũng được hạ xuống, lão tiếp tục căn dặn: “Chỉ có điều trên người con vẫn còn Đồng Mệnh Văn trói buộc, đợi đến khi Tống Tiên Ngọc bỏ mạng, hãy nhớ tuyệt đối không được do dự, lập tức ngưng tụ linh khí tứ tán xung quanh, hấp thu lớp vỏ ngoài của Nguyên Linh Căn để chống đỡ lại phản phệ sát thương của Đồng Mệnh Văn.”
 

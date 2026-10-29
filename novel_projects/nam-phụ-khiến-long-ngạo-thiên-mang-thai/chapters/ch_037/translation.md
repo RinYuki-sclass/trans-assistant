@@ -134,9 +134,9 @@ Tống Tiên Ngọc không khỏi giật mình kinh ngạc, nhưng chốc lát s
 
 “Mộc Trần, con... con đang nói cái gì thế...” Đạo Huyền pháp tu vốn dĩ vì tiến vào nội thế giới mà chìm vào giấc ngủ sâu, vừa mới tỉnh lại đã nghe thấy Tống Tiên Ngọc hỏi Diệp Mộc Trần có nuốt trôi hay không.
 
-“Lão sư, ngài tỉnh rồi sao?” Diệp Mộc Trần đáp, “Học trò đang hỏi Tống Tiên Ngọc một số chuyện.”
+“Sư tôn, người tỉnh rồi sao?” Diệp Mộc Trần đáp, “Đệ tử đang hỏi Tống Tiên Ngọc một số chuyện.”
 
-Nói đến đây, Diệp Mộc Trần có chút ngượng ngùng, rõ ràng Đạo Huyền lão sư đã từng nói Tống Tiên Ngọc không nói dối, nhưng hắn vẫn không kìm được muốn đi xác nhận lại, làm như thể hắn không tin tưởng lão sư vậy.
+Nói đến đây, Diệp Mộc Trần có chút ngượng ngùng, rõ ràng Đạo Huyền sư tôn đã từng nói Tống Tiên Ngọc không nói dối, nhưng hắn vẫn không kìm được muốn đi xác nhận lại, làm như thể hắn không tin tưởng sư tôn vậy.
 
 Thấy Diệp Mộc Trần tỏ vẻ tràn đầy tự tin, Tống Tiên Ngọc quả thực có chút chột dạ lo sợ, y đành nhượng bộ: “Được rồi, ngươi thực sự muốn biết sao?”
 

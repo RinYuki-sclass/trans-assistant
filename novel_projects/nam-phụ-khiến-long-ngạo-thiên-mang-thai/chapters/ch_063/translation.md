@@ -112,7 +112,7 @@ Bàn tay Diệp Mộc Trần bấu chặt vào thành thùng gỗ, gân xanh n�
 
 Hắn thừa hiểu rõ tiếp theo bản thân cần phải làm những gì, thế nhưng lại chần chừ mãi không dám động thủ.
 
-“Đứa nhỏ này.” Đạo Huyền pháp tu thực sự nhìn không nổi nữa rồi, trong lòng lão đã đem Tống Tiên Ngọc ra thóa mạ ngàn vạn lần, sau đó ngượng ngùng lên tiếng: “Lão sư ta chợp mắt ngủ một lát đây.”
+“Đứa nhỏ này.” Đạo Huyền pháp tu thực sự nhìn không nổi nữa rồi, trong lòng lão đã đem Tống Tiên Ngọc ra thóa mạ ngàn vạn lần, sau đó ngượng ngùng lên tiếng: “Vi sư chợp mắt ngủ một lát đây.”
 
 Ý tứ trong lời nói này rõ ràng đến mức không thể rõ hơn.
 

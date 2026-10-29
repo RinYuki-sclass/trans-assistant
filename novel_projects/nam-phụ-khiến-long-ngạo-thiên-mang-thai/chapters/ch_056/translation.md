@@ -128,7 +128,7 @@ Diệp Mộc Trần thầm tự thôi miên bản thân mình như vậy.
 
 “Mộc Trần, con dự định bao giờ sẽ trừ khử Tống Tiên Ngọc?” Ngay lúc Diệp Mộc Trần vừa khép mắt lại định ngủ một giấc, Đạo Huyền pháp tu bỗng nhiên cất tiếng hỏi trong thức hải, giọng điệu thấm thía ngập tràn lo âu, “Tống Tiên Ngọc tuyệt đối không thể không trừ, hắn thoạt nhìn căn bản chẳng phải là người tốt lành gì, giữ lại bên mình chung quy vẫn là một mối đại họa khôn lường. Nếu như làm nhiễu loạn đạo tâm... Con hãy nghĩ tới những cay đắng khổ cực mà con từng phải nếm trải trước đây, nghĩ tới mẫu hậu của con, bằng không thì hãy nghĩ cho lão phu và con bé Thương Nghiên một chút.”
 
-“Lão sư cứ yên tâm đi, học trò vẫn còn giữ lại một chiêu bài tẩy dự phòng.” Diệp Mộc Trần tuy rằng nhắm nghiền hai mắt, nhưng ý thức vẫn vô cùng tỉnh táo, chẳng hề lập tức thiếp đi ngay.
+“Sư tôn cứ yên tâm đi, đệ tử vẫn còn giữ lại một chiêu bài tẩy dự phòng.” Diệp Mộc Trần tuy rằng nhắm nghiền hai mắt, nhưng ý thức vẫn vô cùng tỉnh táo, chẳng hề lập tức thiếp đi ngay.
 
 Dù sao Tống Tiên Ngọc đang ngồi ngay sát bên cạnh, hắn dẫu sao cũng phải giữ vững chút lòng cảnh giác đề phòng mới được.
 

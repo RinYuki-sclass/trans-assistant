@@ -176,7 +176,7 @@ Cửa phòng đóng chặt kín mít, bên trong cung điện rộng lớn nguy 
 
 Diệp Mộc Trần không nói lời nào, bởi vì lúc này hắn đang tranh cãi kịch liệt nảy lửa với Đạo Huyền pháp tu trong thức hải.
 
-“Lão sư, nếu như không thành công, học trò sẽ đem hồn phách của ngài gửi gắm lên người Thương Nghiên.” Diệp Mộc Trần nói, “Sức mạnh của Thương Nghiên tuy hiện tại còn yếu ớt, nhưng một mình nàng, đợi qua một thời gian tĩnh dưỡng hồi phục là hoàn toàn có thể thoát ra ngoài, mang theo hồn phách của lão sư hẳn cũng không thành vấn đề.”
+“Sư tôn, nếu như không thành công, đệ tử sẽ đem hồn phách của người gửi gắm lên người Thương Nghiên.” Diệp Mộc Trần nói, “Sức mạnh của Thương Nghiên tuy hiện tại còn yếu ớt, nhưng một mình nàng, đợi qua một thời gian tĩnh dưỡng hồi phục là hoàn toàn có thể thoát ra ngoài, mang theo hồn phách của sư tôn hẳn cũng không thành vấn đề.”
 
 “Thế nhưng, Tống Tiên Ngọc hắn không thể chờ đợi được nữa.” Diệp Mộc Trần nói.
 
@@ -184,7 +184,7 @@ Diệp Mộc Trần không nói lời nào, bởi vì lúc này hắn đang tran
 
 Bởi vì...
 
-Trầm tư hồi lâu, Diệp Mộc Trần ngoài miệng không thuận theo lòng nói: “Bởi vì không có hắn, học trò không thể nào hồi phục linh lực được, thế thì chẳng thà chết quách đi cho xong. Lão sư, ý học trò đã quyết, đã phụ lòng kỳ vọng của lão sư rồi.”
+Trầm tư hồi lâu, Diệp Mộc Trần ngoài miệng không thuận theo lòng nói: “Bởi vì không có hắn, đệ tử không thể nào hồi phục linh lực được, thế thì chẳng thà chết quách đi cho xong. Sư tôn, ý đệ tử đã quyết, đã phụ lòng kỳ vọng của sư tôn rồi.”
 
 Diệp Mộc Trần dứt lời, nhìn chằm chằm Tống Tiên Ngọc, hắn thở dài một hơi thật sâu: “Tống Tiên Ngọc, ngươi có thể nhắm mắt lại được không?”
 

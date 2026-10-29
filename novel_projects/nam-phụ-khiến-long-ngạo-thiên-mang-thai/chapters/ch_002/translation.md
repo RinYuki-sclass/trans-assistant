@@ -26,7 +26,7 @@ Nếu là trước kia, Diệp Mộc Trần từng được người đời xưn
 
 Nhưng nay, trải qua một năm rèn giũa trầm luân, Diệp Mộc Trần nếm đủ mọi lời mỉa mai châm chọc cay đắng, sớm đã thấu hiểu thế nào gọi là giấu tài chờ thời.
 
-“Thầy đừng nóng vội, bây giờ vẫn chưa thể để lộ phong thanh.” Diệp Mộc Trần thầm đáp trong tâm trí, “Vài ngày nữa là đến ngày đại tuyển của Phù Không Thành rồi, đợi đến ngày hôm ấy con nhất định sẽ rửa sạch mối nhục trước đây, lúc này vẫn cần phải nhẫn nhịn thêm một chút.”
+“Sư tôn đừng nóng vội, bây giờ vẫn chưa thể để lộ phong thanh.” Diệp Mộc Trần thầm đáp trong tâm trí, “Vài ngày nữa là đến ngày đại tuyển của Phù Không Thành rồi, đợi đến ngày hôm ấy đệ tử nhất định sẽ rửa sạch mối nhục trước đây, lúc này vẫn cần phải nhẫn nhịn thêm một chút.”
 
 Diệp Mộc Trần làm như thể hoàn toàn không nghe hiểu ý tứ mỉa mai của chủ sòng bạc, hắn chắp tay khẽ nở nụ cười, để lộ một chiếc răng khểnh nhỏ nhắn, quanh thân trong chớp mắt tăng thêm vài phần khí tức thiếu niên: “Nghe danh Chu lão bản đột phá Thượng Thừa trung kỳ chỉ mất vỏn vẹn hai mươi năm ngắn ngủi, hậu bối thật lòng bội phục! Bội phục!”
 

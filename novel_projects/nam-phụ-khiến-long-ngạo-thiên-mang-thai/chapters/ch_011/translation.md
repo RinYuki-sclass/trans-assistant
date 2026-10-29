@@ -122,6 +122,6 @@ Tống Tiên Ngọc dẫu sao cũng chẳng phải người bản địa nơi đ
 
 “Oa, thật không ngờ trên đời này lại có thứ mà ngươi không biết đấy nhé.” Tống Tiên Ngọc vừa cất lời trêu chọc vừa vươn vai lười biếng duỗi người một cái.
 
-“Thầy ơi, Nguyên Dương Dịch rốt cuộc là vật gì vậy ạ?” Diệp Mộc Trần liền cất tiếng hỏi Đạo Huyền pháp tu trong thức hải.
+“Sư tôn, Nguyên Dương Dịch rốt cuộc là vật gì vậy ạ?” Diệp Mộc Trần liền cất tiếng hỏi Đạo Huyền pháp tu trong thức hải.
 
 Từ một năm trước hắn đã từng nghe phong thanh tới cái tên của vị dược liệu này, nhưng trong sách không hề giải thích rõ, Đạo Huyền pháp tu khi ấy cũng chỉ ậm ừ thoái thác bảo rằng đợi bao giờ hắn khôn lớn trưởng thành rồi thì mới nói cho hắn biết.

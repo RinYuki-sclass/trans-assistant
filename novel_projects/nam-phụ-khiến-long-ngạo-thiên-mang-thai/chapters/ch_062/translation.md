@@ -26,7 +26,7 @@ Diệp Mộc Trần lắc mạnh đầu một cái, hắn ngẩng đầu nhìn v
 
 Diệp Mộc Trần cảm nhận sức mạnh quen thuộc cuộn trào trở lại trong cơ thể, con đường tương lai rộng mở dần dần trải dài nơi đáy lòng——
 
-Đoạt lấy vị trí thủ khoa trong đại tuyển Phù Không Thành, bước chân vào Linh Hòa Học Viện đại triển thần oai, sau đó trải qua muôn trùng rèn luyện khổ tu, tu hành thẳng tới cảnh giới Nhập Đạo, rồi tiến vào Thần Vực tìm kiếm sinh cơ cho Đạo Huyền lão sư...
+Đoạt lấy vị trí thủ khoa trong đại tuyển Phù Không Thành, bước chân vào Linh Hòa Học Viện đại triển thần oai, sau đó trải qua muôn trùng rèn luyện khổ tu, tu hành thẳng tới cảnh giới Nhập Đạo, rồi tiến vào Thần Vực tìm kiếm sinh cơ cho Đạo Huyền sư tôn...
 
 Không có Tống Tiên Ngọc, rất tốt.
 

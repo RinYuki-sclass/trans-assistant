@@ -9515,6 +9515,8 @@ if tabs.is_active(12):
             # Let users audition the exact names/phrases they are tuning instead of
             # relying only on the generic voice sample below.
             _pronunciation_seed = ", ".join(list(custom_name_map)[:4])
+            if _pronunciation_seed and not _pronunciation_seed.endswith((".", "!", "?")):
+                _pronunciation_seed += "."
             _pronunciation_test_key = f"{_map_widget_key}_pronunciation_test"
             _pronunciation_result_key = f"{_map_widget_key}_pronunciation_result"
             with st.container(border=True):
@@ -9525,7 +9527,7 @@ if tabs.is_active(12):
                 pronunciation_test_text = st.text_input(
                     "Nội dung cần nghe thử:",
                     value=_pronunciation_seed,
-                    placeholder="Ví dụ: Hyunjae called Taewon.",
+                    placeholder="Ví dụ: Hyunjae gọi điện cho Taewon." if lang_code.startswith("vi") else "Ví dụ: Hyunjae called Taewon.",
                     key=_pronunciation_test_key,
                 ).strip()
 

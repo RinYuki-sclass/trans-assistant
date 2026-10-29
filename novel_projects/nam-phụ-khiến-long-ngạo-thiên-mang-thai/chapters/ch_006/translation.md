@@ -64,7 +64,7 @@ Y tuy rằng sợ giao tiếp xã hội, nhưng da mặt lại tương đối d�
 
 Thân là người hành nghề y, trong mắt Tống Tiên Ngọc thì Diệp Mộc Trần lúc này chỉ đơn thuần là một bệnh nhân bình thường... ừm... dẫu cho vóc dáng của bệnh nhân này có hơi bị chuẩn chỉnh ngon nghẻ quá mức.
 
-Diệp Mộc Trần đầy vẻ đề phòng cảnh giác nhìn làn nước ngâm thuốc đã bị nhuộm thành một màu hồng phấn ma mị, hắn trầm giọng hỏi Đạo Huyền pháp tu: “Thầy ơi, thang thuốc này liệu có điểm gì mờ ám khả nghi không?”
+Diệp Mộc Trần đầy vẻ đề phòng cảnh giác nhìn làn nước ngâm thuốc đã bị nhuộm thành một màu hồng phấn ma mị, hắn trầm giọng hỏi Đạo Huyền pháp tu: “Sư tôn, thang thuốc này liệu có điểm gì mờ ám khả nghi không?”
 
 “Hẳn là không có vấn đề gì nguy hại đâu.” Đạo Huyền pháp tu cất tiếng trong tâm trí Diệp Mộc Trần, “Chỉ là, con cần phải hết sức cẩn thận đề phòng, lão hủ cứ có cảm giác tên Tống Tiên Ngọc này đối với con mang theo mưu đồ mờ ám khác, chẳng lẽ hắn có sở thích Long Dương chi phích?”
 

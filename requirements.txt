@@ -14,7 +14,7 @@ beautifulsoup4
 httpx
 boto3
 sqlalchemy
-edge-tts
+edge-tts>=7.3.1
 nest-asyncio
 cloudscraper
 ebooklib
