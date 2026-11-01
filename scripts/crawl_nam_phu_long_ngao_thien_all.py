@@ -24,7 +24,7 @@ HEADERS = {
     'Referer': 'https://www.52shuku.net/chongsheng/07_b/bjTU9.html'
 }
 
-TOTAL_PAGES = 313
+TOTAL_PAGES = 314
 
 def clean_paragraph(raw_p):
     p = re.sub(r'<[^>]+>', '', raw_p)

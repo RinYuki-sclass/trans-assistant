@@ -1,0 +1,21 @@
+{
+  "title": "Người Qua Đường Giáp Đè Bẹp Tổng Tài Cô Ngạo",
+  "chinese_title": "路人甲压倒孤傲总裁",
+  "author": "Thập Ma A Lộ (什么阿路)",
+  "description": "Tiểu thuyết đam mỹ hiện đại giới giải trí, xuyên thư, hệ thống, phản sáo lộ, gương vỡ lại lành, ngọt sủng, chủ công, 1v1, HE. Thẩm Khinh Vân — 'Thần chi tý bàng', thần thoại bất bại chưa từng OOC của Cục Xuyên Thư — nhận nhiệm vụ cuối cùng là đóng vai một 'người qua đường Giáp' si tình trong cuốn tiểu thuyết bá tổng cưỡng chế yêu. Trong mắt người ngoài, anh hy sinh vô điều kiện vì thụ chính vạn nhân mê đến mức ngu xuẩn, nhưng thực tế mỗi lần nhường một phần tài nguyên là anh lại nhận được một hũ vàng từ hệ thống để thỏa mãn đam mê riêng. Ngờ đâu khi đi cứu vạn nhân mê theo kịch bản, ánh mắt và dáng vẻ cô ngạo bất cần trong bộ âu phục cao cấp của tổng tài bá đạo Tần Tư Niên lại đánh trúng gu thẩm mỹ của Thẩm Khinh Vân. Bất chấp cảnh báo điên cuồng của hệ thống, anh trực tiếp bộc lộ bản tính, đè bẹp vị tổng tài cô ngạo dưới thân!",
+  "slug": "người-qua-đường-giáp-đè-bẹp-tổng-tài-cô-ngạo",
+  "source_lang": "Chinese",
+  "target_lang": "Vietnamese",
+  "raw_links": {
+    "jjwxc": "https://www.jjwxc.net/onebook.php?novelid=8412372",
+    "52shuku": "https://www.52shuku.net/chongsheng/14_b/bjV27.html"
+  },
+  "style_guide": "Đam mỹ, hiện đại, giới giải trí, hào môn thế gia, xuyên thư, hệ thống, phản sáo lộ, mỹ cường công x cô ngạo bá tổng thụ, gương vỡ lại lành, hài hước ngọt sủng, 1v1, HE.\n\nQUY TẮC BẮT BUỘC:\n1. Định dạng đoạn văn: Bắt buộc cách nhau đúng 1 dòng trống (\\n\\n) giữa các đoạn văn và lời thoại. Tuyệt đối không dính liền dòng (\\n).\n2. Dấu ngoặc thoại: Lời thoại dùng ngoặc kép cong tiếng Việt “...”, không dùng gạch ngang đầu câu (— ...).\n3. Ngôi 3 trần thuật (Tự sự):\n   - Thẩm Khinh Vân (Công chính): Dùng 'anh' trong văn trần thuật ngôi 3.\n   - Tần Tư Niên (Thụ chính - Tổng tài cô ngạo): Dùng 'hắn' (hoặc 'y' khi đã mềm mỏng dưới thân công, ưu tiên thống nhất dùng 'hắn' để giữ khí chất tổng tài cô ngạo) trong văn trần thuật ngôi 3.\n   - Thụ chính nguyên tác (Vạn nhân mê): Dùng 'cậu ta' trong văn trần thuật ngôi 3.\n4. Tuyệt đối phân biệt trần thuật vs lời thoại: Không đem đại từ mày/tao vào trần thuật ngôi 3.\n5. Xưng hô đối thoại Thẩm Khinh Vân ↔ Tần Tư Niên:\n   - Giai đoạn đầu / giằng co: Xưng 'tôi - anh / Tần tổng / cậu'.\n   - Giai đoạn thân mật / yêu đương: Xưng 'anh - em' hoặc 'tôi - em' tùy ngữ cảnh tình cảm và lúc trên giường.",
+  "confidence_threshold": 0.8,
+  "chunk_size": 20,
+  "created_at": "2026-11-02T00:01:00+07:00",
+  "chapters_count": 119,
+  "is_completed": false,
+  "is_dropped": false,
+  "drop_reason": ""
+}

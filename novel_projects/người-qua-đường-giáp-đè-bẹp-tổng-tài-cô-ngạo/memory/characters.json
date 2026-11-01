@@ -1,0 +1,35 @@
+[
+  {
+    "name": "Shen Qingyun",
+    "hanviet_name": "Thẩm Khinh Vân",
+    "original_name": "沈轻云",
+    "gender": "Nam",
+    "role": "Công chính (Huyền thoại Cục Xuyên Thư, tiểu sinh giới giải trí)",
+    "narration_pronoun": "anh",
+    "honorifics": "Xưng 'tôi' (hoặc 'anh' khi thân mật), gọi Tần Tư Niên là 'Tần tổng / anh / em'",
+    "speech_style": "Bình tĩnh, phúc hắc, ngoài mặt diễn vai người qua đường si tình nhưng thực chất bá đạo, thích trêu chọc và áp đảo",
+    "notes": "Mỗi lần nhường tài nguyên cho thụ chính nguyên tác là nhận được một hũ vàng từ hệ thống. Cực kỳ mê dáng vẻ cô ngạo trong bộ âu phục của Tần Tư Niên."
+  },
+  {
+    "name": "Qin Sinian",
+    "hanviet_name": "Tần Tư Niên",
+    "original_name": "秦斯年",
+    "gender": "Nam",
+    "role": "Thụ chính (Tổng tài bá đạo cô ngạo)",
+    "narration_pronoun": "hắn",
+    "honorifics": "Xưng 'tôi', gọi Thẩm Khinh Vân là 'cậu / anh / Thẩm Khinh Vân'",
+    "speech_style": "Lạnh lùng, kiêu ngạo, tự tôn cao nhưng khi bị Thẩm Khinh Vân đè thì vừa thẹn vừa ngoan",
+    "notes": "Vốn là công chính bá tổng trong nguyên tác nhưng thực chất là 'thâm quỹ' (gay kín) luôn chú ý tới Thẩm Khinh Vân, không hề có hứng thú với Tô Thiếu Âm."
+  },
+  {
+    "name": "Su Shaoyin",
+    "hanviet_name": "Tô Thiếu Âm",
+    "original_name": "苏少音",
+    "gender": "Nam",
+    "role": "Nam phụ (Thụ chính vạn nhân mê nguyên tác, kẻ xuyên sách tự phụ)",
+    "narration_pronoun": "cậu ta",
+    "honorifics": "Xưng 'em / tôi', gọi Thẩm Khinh Vân và Tần Tư Niên là 'anh Khinh Vân / Tần tổng'",
+    "speech_style": "Trà xanh, giả tạo, tự đắc tưởng rằng cả Tần Tư Niên và Thẩm Khinh Vân đều mê mệt mình",
+    "notes": "Cũng là người xuyên sách, tưởng mình nắm giữ kịch bản vạn nhân mê nhưng thực chất chỉ là công cụ để Thẩm Khinh Vân rút tiền thưởng hệ thống."
+  }
+]
