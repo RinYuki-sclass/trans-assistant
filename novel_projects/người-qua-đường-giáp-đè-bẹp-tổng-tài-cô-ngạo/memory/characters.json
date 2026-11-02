@@ -6,7 +6,7 @@
     "gender": "Nam",
     "role": "Công chính (Huyền thoại Cục Xuyên Thư, tiểu sinh giới giải trí)",
     "narration_pronoun": "anh",
-    "honorifics": "Xưng 'tôi' (hoặc 'anh' khi thân mật), gọi Tần Tư Niên là 'Tần tổng / anh / em'",
+    "honorifics": "Xưng 'tôi' (hoặc 'em' khi trêu chọc/thân mật), gọi Tần Tư Niên là 'Tần tổng / anh'",
     "speech_style": "Bình tĩnh, phúc hắc, ngoài mặt diễn vai người qua đường si tình nhưng thực chất bá đạo, thích trêu chọc và áp đảo",
     "notes": "Mỗi lần nhường tài nguyên cho thụ chính nguyên tác là nhận được một hũ vàng từ hệ thống. Cực kỳ mê dáng vẻ cô ngạo trong bộ âu phục của Tần Tư Niên."
   },
@@ -17,7 +17,7 @@
     "gender": "Nam",
     "role": "Thụ chính (Tổng tài bá đạo cô ngạo)",
     "narration_pronoun": "hắn",
-    "honorifics": "Xưng 'tôi', gọi Thẩm Khinh Vân là 'cậu / anh / Thẩm Khinh Vân'",
+    "honorifics": "Lạnh lùng kiêu ngạo bề trên xưng 'tôi' - gọi 'cậu / Thẩm Khinh Vân'; khi rung động / mềm lòng xưng 'anh' - gọi 'em'",
     "speech_style": "Lạnh lùng, kiêu ngạo, tự tôn cao nhưng khi bị Thẩm Khinh Vân đè thì vừa thẹn vừa ngoan",
     "notes": "Vốn là công chính bá tổng trong nguyên tác nhưng thực chất là 'thâm quỹ' (gay kín) luôn chú ý tới Thẩm Khinh Vân, không hề có hứng thú với Tô Thiếu Âm."
   },
@@ -31,5 +31,27 @@
     "honorifics": "Xưng 'em / tôi', gọi Thẩm Khinh Vân và Tần Tư Niên là 'anh Khinh Vân / Tần tổng'",
     "speech_style": "Trà xanh, giả tạo, tự đắc tưởng rằng cả Tần Tư Niên và Thẩm Khinh Vân đều mê mệt mình",
     "notes": "Cũng là người xuyên sách, tưởng mình nắm giữ kịch bản vạn nhân mê nhưng thực chất chỉ là công cụ để Thẩm Khinh Vân rút tiền thưởng hệ thống."
+  },
+  {
+    "name": "Xiao Xi Tong",
+    "hanviet_name": "Tiểu Hệ Thống",
+    "original_name": "小系统",
+    "gender": "Vô tính",
+    "role": "Hệ thống hỗ trợ của Thẩm Khinh Vân",
+    "narration_pronoun": "nó / hệ thống",
+    "honorifics": "Xưng 'tôi / bản hệ thống', gọi Thẩm Khinh Vân là 'ký chủ / đại lão'",
+    "speech_style": "Ngoan ngoãn, ngốc nghếch, thích nịnh nọt ký chủ",
+    "notes": "Tân binh mới vào nghề, coi Thẩm Khinh Vân như thần tượng."
+  },
+  {
+    "name": "Xiao Ye",
+    "hanviet_name": "Tiêu Nghiệp",
+    "original_name": "萧业",
+    "gender": "Nam",
+    "role": "Người đại diện showbiz của Thẩm Khinh Vân",
+    "narration_pronoun": "anh ta / gã",
+    "honorifics": "Xưng 'tôi', gọi Thẩm Khinh Vân là 'Khinh Vân / cậu'",
+    "speech_style": "Bận rộn, thực dụng, bất lực trước những chiêu trò kỳ lạ của Thẩm Khinh Vân",
+    "notes": "Người đại diện cùng công ty Hoàng Đồ Giải Trí."
   }
 ]
