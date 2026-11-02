@@ -98,6 +98,21 @@
 ## 🔍 6. TIÊU CHUẨN KIỂM ĐỊNH CHẤT LƯỢNG (QC CHECKLIST)
 
 Mọi chương dịch xong trước khi được đánh dấu `qc_approved` phải vượt qua 6 lớp kiểm định:
+
+---
+
+## ✍️ 7. QUY CHUẨN HÀNH VĂN & NGỮ KHÍ (ANTI-"RỒI" MANDATE)
+
+> 🚨 **CẢNH BÁO QUAN TRỌNG VỀ VĂN PHONG:**  
+> Tuyệt đối không dịch máy móc trợ từ ngữ khí tiếng Trung `了` (le) thành chữ **"rồi"** kết thúc câu trần thuật hoặc độc thoại nội tâm (ví dụ: `... đã đổi tên rồi.`, `... cắn một cái rồi.`, `... bẽ bàng đến nhường nào rồi.`, `... đã đi ngủ rồi.`).
+>
+> 1. **Tác hại:** Việc lặp đi lặp lại chữ "rồi" ở đuôi câu khiến văn phong bị vụn, nặng nề, sáo rỗng, tạo cảm giác dịch thô convert và làm mất đi nhịp điệu dứt khoát, sắc bén của văn học hiện đại.
+> 2. **Cách xử lý chuẩn:**
+>    - **Triệt tiêu hoàn toàn chữ "rồi" thừa:** Thay vì viết `Tần Tư Niên đến để trả đũa anh rồi.` -> Viết: `Tần Tư Niên đến để trả đũa anh.`
+>    - **Chuyển trạng thái lên trước động từ:** Thay vì viết `Thẩm Khinh Vân đổi số điện thoại rồi.` -> Viết: `Thẩm Khinh Vân đã đổi số điện thoại.`
+>    - **Đa dạng hóa từ ngữ kết câu:** Sử dụng các kết cấu linh hoạt hơn như: `... chẳng mấy chốc đã...`, `... từ bao giờ`, `... ngay tắp lự`, `... khôn nguôi`, hoặc đơn giản là kết thúc tự nhiên bằng danh từ/động từ không cần trợ từ ngữ khí đuôi.
+>    - **Trong lời thoại:** Chỉ dùng "rồi" khi nhân vật thực sự thể hiện sự hoàn tất hoặc ngữ điệu giục giã, dứt khoát theo đúng cảm xúc tự nhiên của khẩu ngữ tiếng Việt.
+
 1. **1:1 Paragraph Check:** Số đoạn văn của `translation.md` phải khớp chính xác 100% với `source.md`.
 2. **Double Line Breaks (`\n\n`):** Không có đoạn nào dính liền nhau bằng `\n`.
 3. **Dialogue Quotes:** 100% lời thoại đóng mở bằng `“...”`.

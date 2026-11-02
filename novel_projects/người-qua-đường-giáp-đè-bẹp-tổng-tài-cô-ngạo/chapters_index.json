@@ -5,11 +5,11 @@
   "total_chapters": 119,
   "stats": {
     "pending": 0,
-    "raw_ready": 119,
+    "raw_ready": 79,
     "prescanned": 0,
     "translating": 0,
     "translated": 0,
-    "qc_approved": 0,
+    "qc_approved": 40,
     "published": 0
   },
   "arcs": [
@@ -31,12 +31,12 @@
       "arc_id": 1,
       "arc_name": "Chính Văn",
       "title_zh": "第001章 chapter1痴情路人甲",
-      "title_vi": "Chương 1",
-      "status": "raw_ready",
+      "title_vi": "Chương 1: Người qua đường Giáp si tình",
+      "status": "qc_approved",
       "paragraph_count": 79,
-      "word_count": 0,
+      "word_count": 2698,
       "source_url": "",
-      "updated_at": "2026-11-02T00:05:42.449875"
+      "updated_at": "2026-11-02T12:22:00"
     },
     {
       "id": "ch_002",
@@ -46,12 +46,12 @@
       "arc_id": 1,
       "arc_name": "Chính Văn",
       "title_zh": "第002章 chapter2秦总",
-      "title_vi": "Chương 2",
-      "status": "raw_ready",
+      "title_vi": "Chương 2: Tần tổng",
+      "status": "qc_approved",
       "paragraph_count": 92,
-      "word_count": 0,
+      "word_count": 2819,
       "source_url": "",
-      "updated_at": "2026-11-02T00:05:42.456911"
+      "updated_at": "2026-11-02T12:28:00"
     },
     {
       "id": "ch_003",
@@ -61,12 +61,12 @@
       "arc_id": 1,
       "arc_name": "Chính Văn",
       "title_zh": "第003章 chapter3情趣",
-      "title_vi": "Chương 3",
-      "status": "raw_ready",
+      "title_vi": "Chương 3: Tình thú",
+      "status": "qc_approved",
       "paragraph_count": 116,
-      "word_count": 0,
+      "word_count": 3627,
       "source_url": "",
-      "updated_at": "2026-11-02T00:05:42.463407"
+      "updated_at": "2026-11-02T13:57:00"
     },
     {
       "id": "ch_004",
@@ -76,12 +76,12 @@
       "arc_id": 1,
       "arc_name": "Chính Văn",
       "title_zh": "第004章 chapter4沈，轻，云",
-      "title_vi": "Chương 4",
-      "status": "raw_ready",
+      "title_vi": "Chương 4: Thẩm, Khinh, Vân",
+      "status": "qc_approved",
       "paragraph_count": 100,
-      "word_count": 0,
+      "word_count": 2873,
       "source_url": "",
-      "updated_at": "2026-11-02T00:05:42.469810"
+      "updated_at": "2026-11-02T14:00:00"
     },
     {
       "id": "ch_005",
@@ -91,12 +91,12 @@
       "arc_id": 1,
       "arc_name": "Chính Văn",
       "title_zh": "第005章 chapter5金主",
-      "title_vi": "Chương 5",
-      "status": "raw_ready",
+      "title_vi": "Chương 5: Kim chủ",
+      "status": "qc_approved",
       "paragraph_count": 71,
-      "word_count": 0,
+      "word_count": 2703,
       "source_url": "",
-      "updated_at": "2026-11-02T00:05:42.475223"
+      "updated_at": "2026-11-02T14:02:00"
     },
     {
       "id": "ch_006",
@@ -106,12 +106,12 @@
       "arc_id": 1,
       "arc_name": "Chính Văn",
       "title_zh": "第006章 chapter6钢笔",
-      "title_vi": "Chương 6",
-      "status": "raw_ready",
+      "title_vi": "Chương 6: Bút máy",
+      "status": "qc_approved",
       "paragraph_count": 89,
-      "word_count": 0,
+      "word_count": 3035,
       "source_url": "",
-      "updated_at": "2026-11-02T00:05:42.481903"
+      "updated_at": "2026-11-02T14:05:00"
     },
     {
       "id": "ch_007",
@@ -121,12 +121,12 @@
       "arc_id": 1,
       "arc_name": "Chính Văn",
       "title_zh": "第007章 chapter7寂寞",
-      "title_vi": "Chương 7",
-      "status": "raw_ready",
+      "title_vi": "Chương 7: Cô đơn",
+      "status": "qc_approved",
       "paragraph_count": 124,
-      "word_count": 0,
+      "word_count": 3697,
       "source_url": "",
-      "updated_at": "2026-11-02T00:05:42.487479"
+      "updated_at": "2026-11-02T14:07:00"
     },
     {
       "id": "ch_008",
@@ -136,12 +136,12 @@
       "arc_id": 1,
       "arc_name": "Chính Văn",
       "title_zh": "第008章 chapter8剧本",
-      "title_vi": "Chương 8",
-      "status": "raw_ready",
+      "title_vi": "Chương 8: Kịch bản",
+      "status": "qc_approved",
       "paragraph_count": 104,
-      "word_count": 0,
+      "word_count": 3514,
       "source_url": "",
-      "updated_at": "2026-11-02T00:05:42.494081"
+      "updated_at": "2026-11-02T14:10:00"
     },
     {
       "id": "ch_009",
@@ -151,12 +151,12 @@
       "arc_id": 1,
       "arc_name": "Chính Văn",
       "title_zh": "第009章 chapter9梦",
-      "title_vi": "Chương 9",
-      "status": "raw_ready",
+      "title_vi": "Chương 9: Mộng",
+      "status": "qc_approved",
       "paragraph_count": 101,
-      "word_count": 0,
+      "word_count": 3239,
       "source_url": "",
-      "updated_at": "2026-11-02T00:05:42.498890"
+      "updated_at": "2026-11-02T14:13:00"
     },
     {
       "id": "ch_010",
@@ -166,10 +166,10 @@
       "arc_id": 1,
       "arc_name": "Chính Văn",
       "title_zh": "第010章 chapter10”儿子”",
-      "title_vi": "Chương 10",
-      "status": "raw_ready",
+      "title_vi": "Chương 10: \"Con trai\"",
+      "status": "qc_approved",
       "paragraph_count": 100,
-      "word_count": 0,
+      "word_count": 3303,
       "source_url": "",
       "updated_at": "2026-11-02T00:05:42.507129"
     },
@@ -181,10 +181,10 @@
       "arc_id": 1,
       "arc_name": "Chính Văn",
       "title_zh": "第011章 chapter11赛马",
-      "title_vi": "Chương 11",
-      "status": "raw_ready",
+      "title_vi": "Chương 11: Đua ngựa",
+      "status": "qc_approved",
       "paragraph_count": 72,
-      "word_count": 0,
+      "word_count": 2439,
       "source_url": "",
       "updated_at": "2026-11-02T00:05:42.512098"
     },
@@ -196,10 +196,10 @@
       "arc_id": 1,
       "arc_name": "Chính Văn",
       "title_zh": "第012章 chapter12还债赎“子”",
-      "title_vi": "Chương 12",
-      "status": "raw_ready",
+      "title_vi": "Chương 12: Trả nợ chuộc \"con\"",
+      "status": "qc_approved",
       "paragraph_count": 105,
-      "word_count": 0,
+      "word_count": 2998,
       "source_url": "",
       "updated_at": "2026-11-02T00:05:42.519171"
     },
@@ -211,10 +211,10 @@
       "arc_id": 1,
       "arc_name": "Chính Văn",
       "title_zh": "第013章 chapter13穿书",
-      "title_vi": "Chương 13",
-      "status": "raw_ready",
+      "title_vi": "Chương 13: Xuyên thư",
+      "status": "qc_approved",
       "paragraph_count": 109,
-      "word_count": 0,
+      "word_count": 2659,
       "source_url": "",
       "updated_at": "2026-11-02T00:05:42.525245"
     },
@@ -226,10 +226,10 @@
       "arc_id": 1,
       "arc_name": "Chính Văn",
       "title_zh": "第014章 chapter14情人",
-      "title_vi": "Chương 14",
-      "status": "raw_ready",
+      "title_vi": "Chương 14: Tình nhân",
+      "status": "qc_approved",
       "paragraph_count": 88,
-      "word_count": 0,
+      "word_count": 2818,
       "source_url": "",
       "updated_at": "2026-11-02T00:05:42.530222"
     },
@@ -241,10 +241,10 @@
       "arc_id": 1,
       "arc_name": "Chính Văn",
       "title_zh": "第015章 chapter15心照不宣",
-      "title_vi": "Chương 15",
-      "status": "raw_ready",
+      "title_vi": "Chương 15: Tâm chiếu bất tuyên",
+      "status": "qc_approved",
       "paragraph_count": 135,
-      "word_count": 0,
+      "word_count": 3858,
       "source_url": "",
       "updated_at": "2026-11-02T00:05:42.540986"
     },
@@ -256,10 +256,10 @@
       "arc_id": 1,
       "arc_name": "Chính Văn",
       "title_zh": "第016章 chapter16拥抱",
-      "title_vi": "Chương 16",
-      "status": "raw_ready",
+      "title_vi": "Chương 16: Cái ôm",
+      "status": "qc_approved",
       "paragraph_count": 89,
-      "word_count": 0,
+      "word_count": 2491,
       "source_url": "",
       "updated_at": "2026-11-02T00:05:42.547686"
     },
@@ -271,10 +271,10 @@
       "arc_id": 1,
       "arc_name": "Chính Văn",
       "title_zh": "第017章 chapter17糖",
-      "title_vi": "Chương 17",
-      "status": "raw_ready",
+      "title_vi": "Chương 17: Kẹo",
+      "status": "qc_approved",
       "paragraph_count": 110,
-      "word_count": 0,
+      "word_count": 3086,
       "source_url": "",
       "updated_at": "2026-11-02T00:05:42.553450"
     },
@@ -286,10 +286,10 @@
       "arc_id": 1,
       "arc_name": "Chính Văn",
       "title_zh": "第018章 chapter18开机",
-      "title_vi": "Chương 18",
-      "status": "raw_ready",
+      "title_vi": "Chương 18: Khai máy",
+      "status": "qc_approved",
       "paragraph_count": 69,
-      "word_count": 0,
+      "word_count": 2227,
       "source_url": "",
       "updated_at": "2026-11-02T00:05:42.558759"
     },
@@ -301,10 +301,10 @@
       "arc_id": 1,
       "arc_name": "Chính Văn",
       "title_zh": "第019章 chapter19冲动",
-      "title_vi": "Chương 19",
-      "status": "raw_ready",
+      "title_vi": "Chương 19: Xung động",
+      "status": "qc_approved",
       "paragraph_count": 99,
-      "word_count": 0,
+      "word_count": 3290,
       "source_url": "",
       "updated_at": "2026-11-02T00:05:42.565207"
     },
@@ -316,10 +316,10 @@
       "arc_id": 1,
       "arc_name": "Chính Văn",
       "title_zh": "第020章 chapter20萧业",
-      "title_vi": "Chương 20",
-      "status": "raw_ready",
+      "title_vi": "Chương 20: Tiêu Nghiệp",
+      "status": "qc_approved",
       "paragraph_count": 87,
-      "word_count": 0,
+      "word_count": 3192,
       "source_url": "",
       "updated_at": "2026-11-02T00:05:42.571643"
     },
@@ -331,12 +331,12 @@
       "arc_id": 1,
       "arc_name": "Chính Văn",
       "title_zh": "第021章 chapter21我的人",
-      "title_vi": "Chương 21",
-      "status": "raw_ready",
+      "title_vi": "Người của tôi",
+      "status": "qc_approved",
       "paragraph_count": 65,
-      "word_count": 0,
+      "word_count": 2137,
       "source_url": "",
-      "updated_at": "2026-11-02T00:05:42.578144"
+      "updated_at": "2026-11-02T15:00:00+07:00"
     },
     {
       "id": "ch_022",
@@ -346,12 +346,12 @@
       "arc_id": 1,
       "arc_name": "Chính Văn",
       "title_zh": "第022章 chapter22私奔",
-      "title_vi": "Chương 22",
-      "status": "raw_ready",
+      "title_vi": "Tư bôn",
+      "status": "qc_approved",
       "paragraph_count": 124,
-      "word_count": 0,
+      "word_count": 3924,
       "source_url": "",
-      "updated_at": "2026-11-02T00:05:42.583773"
+      "updated_at": "2026-11-02T15:00:00+07:00"
     },
     {
       "id": "ch_023",
@@ -361,12 +361,12 @@
       "arc_id": 1,
       "arc_name": "Chính Văn",
       "title_zh": "第023章 chapter23夜晚",
-      "title_vi": "Chương 23",
-      "status": "raw_ready",
+      "title_vi": "Màn đêm",
+      "status": "qc_approved",
       "paragraph_count": 192,
-      "word_count": 0,
+      "word_count": 5976,
       "source_url": "",
-      "updated_at": "2026-11-02T00:05:42.589397"
+      "updated_at": "2026-11-02T15:00:00+07:00"
     },
     {
       "id": "ch_024",
@@ -376,12 +376,12 @@
       "arc_id": 1,
       "arc_name": "Chính Văn",
       "title_zh": "第024章 chapter24螺旋款",
-      "title_vi": "Chương 24",
-      "status": "raw_ready",
-      "paragraph_count": 112,
-      "word_count": 0,
+      "title_vi": "Kiểu xoắn ốc",
+      "status": "qc_approved",
+      "paragraph_count": 113,
+      "word_count": 3581,
       "source_url": "",
-      "updated_at": "2026-11-02T00:05:42.595043"
+      "updated_at": "2026-11-02T15:00:00+07:00"
     },
     {
       "id": "ch_025",
@@ -391,12 +391,12 @@
       "arc_id": 1,
       "arc_name": "Chính Văn",
       "title_zh": "第025章 chapter25翻江倒海",
-      "title_vi": "Chương 25",
-      "status": "raw_ready",
+      "title_vi": "Lật sông tràn biển",
+      "status": "qc_approved",
       "paragraph_count": 73,
-      "word_count": 0,
+      "word_count": 2198,
       "source_url": "",
-      "updated_at": "2026-11-02T00:05:42.601197"
+      "updated_at": "2026-11-02T15:00:00+07:00"
     },
     {
       "id": "ch_026",
@@ -406,12 +406,12 @@
       "arc_id": 1,
       "arc_name": "Chính Văn",
       "title_zh": "第026章 chapter26小火一把",
-      "title_vi": "Chương 26",
-      "status": "raw_ready",
+      "title_vi": "Chút tiếng vang",
+      "status": "qc_approved",
       "paragraph_count": 130,
-      "word_count": 0,
+      "word_count": 3201,
       "source_url": "",
-      "updated_at": "2026-11-02T00:05:42.606428"
+      "updated_at": "2026-11-02T15:00:00+07:00"
     },
     {
       "id": "ch_027",
@@ -421,12 +421,12 @@
       "arc_id": 1,
       "arc_name": "Chính Văn",
       "title_zh": "第027章 chapter27耐力",
-      "title_vi": "Chương 27",
-      "status": "raw_ready",
+      "title_vi": "Sức chịu đựng",
+      "status": "qc_approved",
       "paragraph_count": 68,
-      "word_count": 0,
+      "word_count": 2314,
       "source_url": "",
-      "updated_at": "2026-11-02T00:05:42.611269"
+      "updated_at": "2026-11-02T15:00:00+07:00"
     },
     {
       "id": "ch_028",
@@ -436,12 +436,12 @@
       "arc_id": 1,
       "arc_name": "Chính Văn",
       "title_zh": "第028章 chapter28索取",
-      "title_vi": "Chương 28",
-      "status": "raw_ready",
+      "title_vi": "Đòi hỏi",
+      "status": "qc_approved",
       "paragraph_count": 123,
-      "word_count": 0,
+      "word_count": 3805,
       "source_url": "",
-      "updated_at": "2026-11-02T00:05:42.618132"
+      "updated_at": "2026-11-02T15:00:00+07:00"
     },
     {
       "id": "ch_029",
@@ -451,12 +451,12 @@
       "arc_id": 1,
       "arc_name": "Chính Văn",
       "title_zh": "第029章 chapter29车咚",
-      "title_vi": "Chương 29",
-      "status": "raw_ready",
+      "title_vi": "Ép trong xe",
+      "status": "qc_approved",
       "paragraph_count": 100,
-      "word_count": 0,
+      "word_count": 3502,
       "source_url": "",
-      "updated_at": "2026-11-02T00:05:42.623709"
+      "updated_at": "2026-11-02T15:00:00+07:00"
     },
     {
       "id": "ch_030",
@@ -466,12 +466,12 @@
       "arc_id": 1,
       "arc_name": "Chính Văn",
       "title_zh": "第030章 chapter30反击",
-      "title_vi": "Chương 30",
-      "status": "raw_ready",
+      "title_vi": "Phản kích",
+      "status": "qc_approved",
       "paragraph_count": 76,
-      "word_count": 0,
+      "word_count": 2701,
       "source_url": "",
-      "updated_at": "2026-11-02T00:05:42.629968"
+      "updated_at": "2026-11-02T15:00:00+07:00"
     },
     {
       "id": "ch_031",
@@ -481,12 +481,12 @@
       "arc_id": 1,
       "arc_name": "Chính Văn",
       "title_zh": "第031章 chapter31脆弱",
-      "title_vi": "Chương 31",
-      "status": "raw_ready",
+      "title_vi": "Yếu mềm",
+      "status": "qc_approved",
       "paragraph_count": 133,
-      "word_count": 0,
+      "word_count": 4294,
       "source_url": "",
-      "updated_at": "2026-11-02T00:05:42.636608"
+      "updated_at": "2026-11-02T15:30:00+07:00"
     },
     {
       "id": "ch_032",
@@ -496,12 +496,12 @@
       "arc_id": 1,
       "arc_name": "Chính Văn",
       "title_zh": "第032章 chapter32扬鞭策马",
-      "title_vi": "Chương 32",
-      "status": "raw_ready",
+      "title_vi": "Giục roi phi ngựa",
+      "status": "qc_approved",
       "paragraph_count": 130,
-      "word_count": 0,
+      "word_count": 4038,
       "source_url": "",
-      "updated_at": "2026-11-02T00:05:42.643393"
+      "updated_at": "2026-11-02T15:30:00+07:00"
     },
     {
       "id": "ch_033",
@@ -511,12 +511,12 @@
       "arc_id": 1,
       "arc_name": "Chính Văn",
       "title_zh": "第033章 chapter33工具",
-      "title_vi": "Chương 33",
-      "status": "raw_ready",
+      "title_vi": "Công cụ",
+      "status": "qc_approved",
       "paragraph_count": 113,
-      "word_count": 0,
+      "word_count": 4314,
       "source_url": "",
-      "updated_at": "2026-11-02T00:05:42.652728"
+      "updated_at": "2026-11-02T15:30:00+07:00"
     },
     {
       "id": "ch_034",
@@ -526,12 +526,12 @@
       "arc_id": 1,
       "arc_name": "Chính Văn",
       "title_zh": "第034章 chapter34强求",
-      "title_vi": "Chương 34",
-      "status": "raw_ready",
+      "title_vi": "Cưỡng cầu",
+      "status": "qc_approved",
       "paragraph_count": 84,
-      "word_count": 0,
+      "word_count": 3435,
       "source_url": "",
-      "updated_at": "2026-11-02T00:05:42.659591"
+      "updated_at": "2026-11-02T15:30:00+07:00"
     },
     {
       "id": "ch_035",
@@ -541,12 +541,12 @@
       "arc_id": 1,
       "arc_name": "Chính Văn",
       "title_zh": "第035章 chapter35偷听",
-      "title_vi": "Chương 35",
-      "status": "raw_ready",
+      "title_vi": "Nghe lén",
+      "status": "qc_approved",
       "paragraph_count": 106,
-      "word_count": 0,
+      "word_count": 3783,
       "source_url": "",
-      "updated_at": "2026-11-02T00:05:42.666898"
+      "updated_at": "2026-11-02T15:30:00+07:00"
     },
     {
       "id": "ch_036",
@@ -556,12 +556,12 @@
       "arc_id": 1,
       "arc_name": "Chính Văn",
       "title_zh": "第036章 chapter36躲雨",
-      "title_vi": "Chương 36",
-      "status": "raw_ready",
+      "title_vi": "Trú mưa",
+      "status": "qc_approved",
       "paragraph_count": 117,
-      "word_count": 0,
+      "word_count": 3657,
       "source_url": "",
-      "updated_at": "2026-11-02T00:05:42.672339"
+      "updated_at": "2026-11-02T15:30:00+07:00"
     },
     {
       "id": "ch_037",
@@ -571,12 +571,12 @@
       "arc_id": 1,
       "arc_name": "Chính Văn",
       "title_zh": "第037章 chapter37淋雨",
-      "title_vi": "Chương 37",
-      "status": "raw_ready",
+      "title_vi": "Dầm mưa",
+      "status": "qc_approved",
       "paragraph_count": 77,
-      "word_count": 0,
+      "word_count": 3037,
       "source_url": "",
-      "updated_at": "2026-11-02T00:05:42.677209"
+      "updated_at": "2026-11-02T15:30:00+07:00"
     },
     {
       "id": "ch_038",
@@ -586,12 +586,12 @@
       "arc_id": 1,
       "arc_name": "Chính Văn",
       "title_zh": "第038章 chapter38采访",
-      "title_vi": "Chương 38",
-      "status": "raw_ready",
+      "title_vi": "Phỏng vấn",
+      "status": "qc_approved",
       "paragraph_count": 74,
-      "word_count": 0,
+      "word_count": 2652,
       "source_url": "",
-      "updated_at": "2026-11-02T00:05:42.683582"
+      "updated_at": "2026-11-02T15:30:00+07:00"
     },
     {
       "id": "ch_039",
@@ -601,12 +601,12 @@
       "arc_id": 1,
       "arc_name": "Chính Văn",
       "title_zh": "第039章 chapter39一夜",
-      "title_vi": "Chương 39",
-      "status": "raw_ready",
+      "title_vi": "Một đêm",
+      "status": "qc_approved",
       "paragraph_count": 91,
-      "word_count": 0,
+      "word_count": 3907,
       "source_url": "",
-      "updated_at": "2026-11-02T00:05:42.688849"
+      "updated_at": "2026-11-02T15:30:00+07:00"
     },
     {
       "id": "ch_040",
@@ -616,12 +616,12 @@
       "arc_id": 1,
       "arc_name": "Chính Văn",
       "title_zh": "第040章 chapter40尾巴",
-      "title_vi": "Chương 40",
-      "status": "raw_ready",
+      "title_vi": "Cái đuôi",
+      "status": "qc_approved",
       "paragraph_count": 106,
-      "word_count": 0,
+      "word_count": 3646,
       "source_url": "",
-      "updated_at": "2026-11-02T00:05:42.694508"
+      "updated_at": "2026-11-02T15:30:00+07:00"
     },
     {
       "id": "ch_041",
@@ -1809,5 +1809,6 @@
       "updated_at": "2026-11-02T00:05:43.328480"
     }
   ],
-  "generated_at": "2026-11-02T00:05:43.328544"
+  "generated_at": "2026-11-02T00:05:43.328544",
+  "last_updated": "2026-11-02T15:30:00+07:00"
 }
