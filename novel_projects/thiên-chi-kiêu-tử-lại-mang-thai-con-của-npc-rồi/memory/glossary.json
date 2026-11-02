@@ -3,7 +3,55 @@
     "term": "天之骄子",
     "vietnamese": "Thiên chi kiêu tử",
     "category": "Thiết lập nhân vật",
-    "notes": "Những nhân vật chính được trời ưu ái, nắm giữ hào quang cứu thế trong các thế giới tiểu thuyết"
+    "notes": "Những nhân vật chính nắm giữ hào quang cứu thế, sinh ra ở vạch đích trong các thế giới tiểu thuyết"
+  },
+  {
+    "term": "穿书局",
+    "vietnamese": "Cục Xuyên Thư",
+    "category": "Bối cảnh hệ thống",
+    "notes": "Cơ quan quản lý các nhân viên xuyên vào thế giới tiểu thuyết làm nhiệm vụ"
+  },
+  {
+    "term": "npc部",
+    "vietnamese": "Bộ phận NPC",
+    "category": "Bối cảnh hệ thống",
+    "notes": "Nơi Giản Ngọc công tác, chuyên đóng vai các nhân vật phông nền, làm đá kê chân cho nhân vật chính"
+  },
+  {
+    "term": "反派部",
+    "vietnamese": "Bộ phận Phản diện",
+    "category": "Bối cảnh hệ thống",
+    "notes": "Bộ phận chuyên đóng vai ác đối đầu và tát nhân vật chính"
+  },
+  {
+    "term": "感情温度计",
+    "vietnamese": "Nhiệt kế tình cảm",
+    "category": "Công cụ hệ thống",
+    "notes": "Thang đo mức độ tình cảm giữa Giản Ngọc và Giang Huyền, ban đầu là 0 độ, mục tiêu phải đạt 999 độ để hoài thai"
+  },
+  {
+    "term": "一号丧尸病毒",
+    "vietnamese": "Virus tang thi số 1",
+    "category": "Mạt thế / Dịch bệnh",
+    "notes": "Chủng virus nguy hiểm bùng phát vào Giáng sinh 2025, biến nạn nhân thành biến dị thể cuồng bạo nhưng vẫn giữ lại tàn dư tri giác"
+  },
+  {
+    "term": "工业园区避难所",
+    "vietnamese": "Khu tị nạn Khu Công nghiệp",
+    "category": "Địa danh / Mạt thế",
+    "notes": "Căn cứ tị nạn an toàn mà Giang Huyền đặt mục tiêu đưa mọi người đến"
+  },
+  {
+    "term": "FBO组织",
+    "vietnamese": "Tổ chức FBO",
+    "category": "Tổ chức",
+    "notes": "Tổ chức đặc nhiệm quân sự / dị năng mà Giang Huyền trực thuộc (Hiệp hội 1)"
+  },
+  {
+    "term": "赛格里东龟",
+    "vietnamese": "Rùa đông Segri",
+    "category": "Vật phẩm / Sinh vật",
+    "notes": "Loài rùa quý hiếm mang nguồn lây nhiễm virus tang thi ban đầu"
   },
   {
     "term": "异能者",
@@ -12,9 +60,9 @@
     "notes": "Người thức tỉnh năng lực đặc biệt trong thế giới mạt thế"
   },
   {
-    "term": "避难所",
-    "vietnamese": "Khu tị nạn",
-    "category": "Địa danh / Mạt thế",
-    "notes": "Căn cứ an toàn của con người trong bối cảnh tận thế tang thi"
+    "term": "主角光环",
+    "vietnamese": "Hào quang nhân vật chính",
+    "category": "Khái niệm xuyên thư",
+    "notes": "Hào quang bảo hộ thiên mệnh của các thiên chi kiêu tử"
   }
 ]

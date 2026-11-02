@@ -1,1 +1,30 @@
-[]
+[
+  {
+    "mốc_thời_gian": "25/12/2025 (Giáng sinh) - Đêm",
+    "sự_kiện": "Virus tang thi số 1 đột ngột bùng phát từ sự cố viện phúc lợi Kim Sơn và lan khắp thành phố Z.",
+    "nhân_vật": "Giản Ngọc, Giang Huyền, A Đại, A Nhị",
+    "địa_điểm": "Khách sạn trung tâm thành phố Z",
+    "ghi_chú": "Giản Ngọc nhận nhiệm vụ khiến Giang Huyền mang bầu con của NPC; giải cứu lẫn nhau khỏi khách sạn."
+  },
+  {
+    "mốc_thời_gian": "26/12/2025 - Rạng sáng",
+    "sự_kiện": "Giản Ngọc và Giang Huyền lái xe chạy thoát trên đường cao tốc; đối đầu tang thi biến dị số 1 trong xe lật.",
+    "nhân_vật": "Giản Ngọc, Giang Huyền",
+    "địa_điểm": "Đường cao tốc ngoại ô thành phố Z",
+    "ghi_chú": "Giản Ngọc xả thân che chắn cứu mạng Giang Huyền, chém đứt lưỡi tang thi; Giang Huyền dùng cánh tay bảo vệ sau gáy Giản Ngọc."
+  },
+  {
+    "mốc_thời_gian": "26/12/2025 - Sáng sớm & Trưa",
+    "sự_kiện": "Đội cứu hộ đưa về Điểm sơ tán tị nạn khu công nghiệp thành phố Z; gặp lại nhóm Minh Thanh, Hiểu Cường, Lưu Khoan (Hiệp hội FBO số 1).",
+    "nhân_vật": "Giản Ngọc, Giang Huyền, Minh Thanh, Hiểu Cường, Lưu Khoan",
+    "địa_điểm": "Doanh trại tị nạn khu công nghiệp thành phố Z",
+    "ghi_chú": "Tiết lộ bí mật trọng sinh của nhóm FBO; Giang Huyền ngầm động tâm với Giản Ngọc; cả hai ngủ chung túi ngủ."
+  },
+  {
+    "mốc_thời_gian": "26/12/2025 - Nửa đêm & Rạng sáng 27/12/2025",
+    "sự_kiện": "Thảm họa ô nhiễm nguồn nước hồ Thiên Sơn bùng phát tại khu tị nạn; chỉ huy bỏ trốn; Giang Huyền ở lại tử thủ thu hút đàn tang thi và tiêu diệt lò thiêu.",
+    "nhân_vật": "Giang Huyền, Giản Ngọc, Minh Thanh, Lưu Khoan, Hiểu Cường",
+    "địa_điểm": "Khu công nghiệp thành phố Z (Toà nhà chỉ huy & Bãi đỗ xe)",
+    "ghi_chú": "Hiểu Cường biến dị và bị Giang Huyền bắn chết; Giang Huyền hết đạn đối mặt cái chết; Giản Ngọc xuất hiện kịp thời cứu rỗi."
+  }
+]

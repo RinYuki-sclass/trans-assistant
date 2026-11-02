@@ -4,21 +4,90 @@
     "hanviet_name": "Giản Ngọc",
     "original_name": "简玉",
     "gender": "Nam",
-    "role": "Công chính Thế giới 1 (Phú nhị đại mỹ nhân biến thành tang thi)",
+    "age": 22,
+    "role": "Công chính Thế giới 1 (22 tuổi, Ký chủ Cục Xuyên Thư - Bộ phận NPC)",
     "narration_pronoun": "anh",
-    "honorifics": "Xưng 'tôi' (hoặc 'anh' khi trêu chọc), gọi Giang Huyền là 'Đội trưởng Giang / tiểu đội trưởng / anh'",
-    "speech_style": "Tao nhã, lịch thiệp nhưng ranh mãnh, thẳng thắn trêu ghẹo khiến đối phương đỏ mặt",
-    "notes": "Xuyên thành NPC pháo hôi mở màn biến thành tang thi trong truyện mạt thế, nhận nhiệm vụ khiến Thiên chi kiêu tử Giang Huyền mang bầu."
+    "honorifics": "Xưng 'tôi' (hoặc 'anh' khi trêu chọc / thân mật), gọi Giang Huyền là 'cậu / Đội trưởng Giang / tiểu đội trưởng / nhóc / em / Huyền' (tuyệt đối không gọi Giang Huyền là anh)",
+    "speech_style": "Lười biếng, độc miệng, tự luyến, ngoài mặt tỏ vẻ thiếu gia kiêu kỳ vô hại nhưng đầu óc cực kỳ sắc sảo, thích trêu chọc đối phương cho bõ ghét",
+    "notes": "22 tuổi, cao 1m92, sinh ngày 21/5. Dị ứng thực phẩm (chuối, dưa hấu, dứa, xoài, củ mài, khoai môn...), dị ứng thuốc (Vimpocetine, Ibuprofen...), bệnh lý (hạ đường huyết, thiếu máu, thiếu ngủ). Xuyên thành phú nhị đại biến thái bắt cóc nam chính trong truyện mạt thế 'Thi Biến Kinh Hồn', vốn chờ bị thiêu chết để hoàn thành kịch bản nhưng bất ngờ nhận nhiệm vụ khiến thiên chi kiêu tử Giang Huyền mang thai con của NPC. Đeo khuyên tai hình giọt máu khắc hình hồ ly, thích hút thuốc lá Treasure."
   },
   {
     "name": "Jiang Xuan",
     "hanviet_name": "Giang Huyền",
     "original_name": "江玄",
     "gender": "Nam",
-    "role": "Thụ chính Thế giới 1 (Thiên chi kiêu tử, Đội trưởng cứu thế chủ mạt thế)",
+    "age": 19,
+    "role": "Thụ chính Thế giới 1 (19 tuổi, Thiên chi kiêu tử, Đội trưởng cứu thế chủ mạt thế)",
     "narration_pronoun": "hắn",
-    "honorifics": "Xưng 'tôi', gọi Giản Ngọc là 'cậu / Giản Ngọc'",
-    "speech_style": "Trầm mặc, ít lời, nghiêm túc có trách nhiệm nhưng rất dễ mềm lòng và đỏ tai trước Giản Ngọc",
-    "notes": "Nam chính cứu thế chủ trong nguyên tác mạt thế, cường thụ tuấn mỹ có cơ bụng săn chắc."
+    "honorifics": "Xưng 'tôi' (hoặc 'em' khi thân mật), gọi Giản Ngọc là 'anh' (đúng tuổi tác nhỏ hơn 3 tuổi) hoặc 'Giản Ngọc' khi giận/cảnh giác (tuyệt đối không gọi Giản Ngọc là cậu)",
+    "speech_style": "Trầm mặc, ít lời, nghiêm túc kỷ luật, không giỏi biểu đạt sự quan tâm nhưng thực chất rất dễ thẹn thùng và đỏ bừng vành tai trước Giản Ngọc",
+    "notes": "Nam chính cứu thế chủ 19 tuổi, cao 1m87, sinh ngày 30/11. Dị ứng hải sản vỏ cứng. Thành viên át chủ bài của Hiệp hội FBO số 1, võ lực phi phàm, cơ bắp săn chắc, đường nhân ngư rõ nét. Ban đầu bị Giản Ngọc bắt cóc trói vào giường, sau đó cùng nhau chạy nạn mạt thế và dần động lòng."
+  },
+  {
+    "name": "Diep Diep (Little Bee System)",
+    "hanviet_name": "Hệ thống Điệp Điệp (Tiểu Mật Ong)",
+    "original_name": "蝶蝶 / 系统小蜜蜂",
+    "gender": "Vô tính (Hệ thống)",
+    "role": "Hệ thống phụ trách nhiệm vụ của Giản Ngọc",
+    "narration_pronoun": "nó / hệ thống",
+    "honorifics": "Xưng 'tôi / hệ thống', gọi Giản Ngọc là 'ký chủ'",
+    "speech_style": "Nhí nhảnh, nhiều chuyện, thích cổ vũ bằng que phát sáng, nói chuyện hay kéo dài âm điệu dễ thương",
+    "notes": "Hệ thống có hình dạng đầu người chibi Q-version gắn trên thân ong mật nhỏ bé. Quản lý 'Nhiệt kế tình cảm' (cần đạt mốc 999 độ để hoàn thành nhiệm vụ hoài thai)."
+  },
+  {
+    "name": "Ming Qing",
+    "hanviet_name": "Minh Thanh",
+    "original_name": "明清",
+    "gender": "Nữ",
+    "age": 20,
+    "role": "Đại tiểu thư nhà họ Minh, thành viên Hiệp hội FBO số 1 (Nữ chính nguyên tác)",
+    "narration_pronoun": "cô / ả",
+    "honorifics": "Gọi Giang Huyền là 'Giang Huyền / Đội trưởng Giang'",
+    "speech_style": "Kiêu kỳ, tiểu thư thế gia quân sự, có ký ức trọng sinh từ kiếp trước",
+    "notes": "Quen biết Giang Huyền trong quân khu, có tin đồn là thanh mai trúc mã của Giang Huyền. Trọng sinh từ kiếp trước, biết Giang Huyền là cứu thế chủ và biết Giang Huyền từng có người trong mộng (Giản Ngọc)."
+  },
+  {
+    "name": "Xiao Qiang",
+    "hanviet_name": "Hiểu Cường",
+    "original_name": "晓强",
+    "gender": "Nam",
+    "role": "Thành viên Hiệp hội FBO số 1, đồng đội kiêm tình địch của Giang Huyền",
+    "narration_pronoun": "gã / anh ta",
+    "honorifics": "Gọi Giang Huyền là 'Đội trưởng Giang / Đội trưởng'",
+    "speech_style": "Châm chọc, ghen tị với Giang Huyền, tự phụ vì có ký ức trọng sinh",
+    "notes": "Bị tang thi cào cắn trong cuộc biến loạn ở khu tị nạn, nửa người biến dị và bị Giang Huyền bắn chết tại Chương 20."
+  },
+  {
+    "name": "Liu Kuan",
+    "hanviet_name": "Lưu Khoan",
+    "original_name": "刘宽",
+    "gender": "Nam",
+    "role": "Thành viên Hiệp hội FBO số 1",
+    "narration_pronoun": "gã / anh ta",
+    "honorifics": "Gọi Giang Huyền là 'Đội trưởng / Đội trưởng Giang', gọi Giản Ngọc là 'người anh em Giản Ngọc'",
+    "speech_style": "Tâm rộng béo tốt, hiền lành, yêu thích nấu nướng, thích hóng hớt ghép đôi",
+    "notes": "Trọng sinh từ kiếp trước cùng Minh Thanh và Hiểu Cường. Có thiện cảm lớn với Giản Ngọc."
+  },
+  {
+    "name": "A Da",
+    "hanviet_name": "A Đại",
+    "original_name": "阿大",
+    "gender": "Nam",
+    "role": "Vệ sĩ của Giản Ngọc",
+    "narration_pronoun": "gã / hắn",
+    "honorifics": "Gọi Giản Ngọc là 'đầu nhi / thiếu gia'",
+    "speech_style": "Nịnh bợ, tham ăn",
+    "notes": "Uống vụng bát canh rùa Segri tẩm virus dẫn đến biến dị thành tang thi đầu tiên trong phòng khách sạn."
+  },
+  {
+    "name": "A Er",
+    "hanviet_name": "A Nhị",
+    "original_name": "阿二",
+    "gender": "Nam",
+    "role": "Vệ sĩ của Giản Ngọc",
+    "narration_pronoun": "gã / hắn",
+    "honorifics": "Gọi Giản Ngọc là 'đầu nhi / thiếu gia'",
+    "speech_style": "Trung thành, cẩn trọng, có chút thân thủ",
+    "notes": "Hộ tống Giản Ngọc xuống tầng 4 phòng trói Giang Huyền khi dịch bệnh mới bắt đầu bùng phát."
   }
 ]
