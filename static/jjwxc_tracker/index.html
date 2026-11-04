@@ -1,0 +1,1568 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tấn Giang (JJWXC) Series Tracker — Chủ Công • Xuyên Thư • Đã Hoàn</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --jj-green: #0d9488;
+      --jj-green-dark: #0f766e;
+      --jj-header: #134e4a;
+      --nu-tag-bg: #334155;
+      --nu-tag-hover: #1e293b;
+      --bg-page: #f1f5f9;
+      --card-bg: #ffffff;
+      --border-color: #cbd5e1;
+      --text-main: #1e293b;
+      --text-sub: #475569;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background-color: var(--bg-page);
+      color: var(--text-main);
+    }
+
+    /* TOP NAVBAR */
+    .top-navbar {
+      background: linear-gradient(135deg, #134e4a 0%, #0f172a 100%);
+      color: #fff;
+      padding: 12px 24px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    }
+
+    .navbar-inner {
+      max-width: 1180px;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 18px;
+      font-weight: 700;
+      color: #fff;
+    }
+
+    .brand-badge {
+      background: #10b981;
+      color: #064e3b;
+      font-size: 11.5px;
+      padding: 2px 9px;
+      border-radius: 12px;
+      font-weight: 700;
+    }
+
+    .nav-actions {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 7px 13px;
+      border-radius: 6px;
+      font-size: 13px;
+      font-weight: 600;
+      border: 1px solid transparent;
+      cursor: pointer;
+      transition: all 0.15s ease;
+      font-family: inherit;
+      text-decoration: none;
+    }
+
+    .btn:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+
+    .btn-primary {
+      background: #0d9488;
+      color: #fff;
+    }
+    .btn-primary:hover:not(:disabled) {
+      background: #0f766e;
+    }
+
+    .btn-secondary {
+      background: rgba(255,255,255,0.12);
+      color: #f8fafc;
+      border-color: rgba(255,255,255,0.22);
+    }
+    .btn-secondary:hover:not(:disabled) {
+      background: rgba(255,255,255,0.22);
+    }
+
+    .btn-warning {
+      background: #f59e0b;
+      color: #fff;
+    }
+    .btn-warning:hover:not(:disabled) {
+      background: #d97706;
+    }
+
+    /* SYNC PROGRESS BAR */
+    .sync-banner {
+      max-width: 1180px;
+      margin: 12px auto 0;
+      padding: 0 16px;
+      display: none;
+    }
+    .sync-banner.active {
+      display: block;
+    }
+    .sync-box {
+      background: #ecfdf5;
+      border: 1px solid #6ee7b7;
+      border-radius: 8px;
+      padding: 10px 16px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      color: #065f46;
+      font-size: 13px;
+    }
+    .progress-track {
+      flex: 1;
+      height: 8px;
+      background: #a7f3d0;
+      border-radius: 99px;
+      overflow: hidden;
+      max-width: 340px;
+    }
+    .progress-fill {
+      height: 100%;
+      background: #059669;
+      width: 0%;
+      transition: width 0.3s ease;
+    }
+
+    /* MAIN CONTAINER */
+    .container {
+      max-width: 1180px;
+      margin: 16px auto 60px;
+      padding: 0 16px;
+    }
+
+    /* TABS BAR */
+    .tabs-bar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 12px;
+      border-bottom: 2px solid #cbd5e1;
+      padding-bottom: 10px;
+    }
+
+    .tab-btn {
+      background: #fff;
+      color: #475569;
+      border: 1px solid #cbd5e1;
+      padding: 8px 15px;
+      border-radius: 6px;
+      font-size: 13.5px;
+      font-weight: 600;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      transition: all 0.15s;
+    }
+
+    .tab-btn:hover {
+      border-color: #94a3b8;
+      color: #0f172a;
+    }
+
+    .tab-btn.active {
+      background: var(--jj-green);
+      color: #fff;
+      border-color: var(--jj-green);
+    }
+
+    .tab-count {
+      background: rgba(0, 0, 0, 0.1);
+      padding: 1px 7px;
+      border-radius: 10px;
+      font-size: 12px;
+    }
+    .tab-btn.active .tab-count {
+      background: rgba(255, 255, 255, 0.25);
+      color: #fff;
+    }
+
+    /* 2-TIER LOCAL FILTER HIGHLIGHT BAR */
+    .local-filter-panel {
+      background: #ffffff;
+      border: 1px solid #99f6e4;
+      border-left: 5px solid var(--jj-green);
+      border-radius: 8px;
+      padding: 12px 16px;
+      margin-bottom: 12px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+    }
+
+    .toggle-group {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .filter-toggle-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 7px 14px;
+      border-radius: 20px;
+      font-size: 13px;
+      font-weight: 700;
+      cursor: pointer;
+      border: 1.5px solid #cbd5e1;
+      background: #f8fafc;
+      color: #475569;
+      transition: all 0.15s;
+      user-select: none;
+    }
+
+    .filter-toggle-btn.active-block {
+      background: #fef2f2;
+      border-color: #ef4444;
+      color: #b91c1c;
+    }
+
+    .filter-toggle-btn .sub-count {
+      font-size: 11px;
+      font-weight: 600;
+      padding: 1px 6px;
+      border-radius: 10px;
+      background: rgba(0,0,0,0.07);
+    }
+    .filter-toggle-btn.active-block .sub-count {
+      background: #fee2e2;
+      color: #991b1b;
+    }
+
+    /* QUICK TAG PILLS */
+    .quick-tags-bar {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 6px;
+      margin-bottom: 12px;
+    }
+    .quick-tag-pill {
+      font-size: 12px;
+      font-weight: 600;
+      padding: 4px 10px;
+      border-radius: 14px;
+      background: #e2e8f0;
+      color: #334155;
+      cursor: pointer;
+      border: 1px solid transparent;
+      transition: all 0.15s;
+    }
+    .quick-tag-pill:hover {
+      background: #cbd5e1;
+    }
+    .quick-tag-pill.active {
+      background: var(--jj-green);
+      color: #fff;
+    }
+
+    /* FILTER & SEARCH TOOLBAR */
+    .filter-bar {
+      background: #fff;
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      padding: 12px 16px;
+      margin-bottom: 16px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+    }
+
+    .filter-group {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .input-text, .select-box {
+      padding: 7px 11px;
+      border: 1px solid #cbd5e1;
+      border-radius: 5px;
+      font-size: 13px;
+      font-family: inherit;
+      color: #1e293b;
+      background: #fff;
+    }
+    .input-text:focus, .select-box:focus {
+      outline: none;
+      border-color: var(--jj-green);
+    }
+
+    /* SERIES CARDS */
+    .series-list {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+
+    .jj-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      padding: 16px 18px;
+      display: flex;
+      gap: 18px;
+      align-items: flex-start;
+      transition: all 0.2s ease;
+      position: relative;
+    }
+
+    .jj-card:hover {
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+      border-color: #94a3b8;
+    }
+
+    .jj-card.bookmarked-pos {
+      border-left: 5px solid #f59e0b;
+      background: #fffbeb;
+    }
+
+    .jj-card.removing {
+      opacity: 0;
+      transform: translateX(30px);
+    }
+
+    /* Left Column: Cover Image */
+    .jj-cover-col {
+      width: 112px;
+      flex-shrink: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    .jj-cover-col img {
+      width: 108px;
+      height: 150px;
+      object-fit: cover;
+      border: 1px solid #cbd5e1;
+      border-radius: 4px;
+      background: #f8fafc;
+      display: block;
+    }
+
+    .jj-status-badge {
+      margin-top: 7px;
+      font-size: 11.5px;
+      font-weight: 700;
+      color: #047857;
+      background: #d1fae5;
+      padding: 2px 8px;
+      border-radius: 4px;
+      width: 100%;
+    }
+
+    .jj-score-badge {
+      margin-top: 4px;
+      font-size: 12px;
+      font-weight: 700;
+      color: #b45309;
+    }
+
+    /* Right Column */
+    .jj-body-col {
+      flex: 1;
+      min-width: 0;
+    }
+
+    .card-header-row {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 12px;
+      margin-bottom: 6px;
+    }
+
+    .jj-title-wrap {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .jj-title-main {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 8px;
+      line-height: 1.35;
+    }
+
+    .fixed-idx-badge {
+      font-size: 11.5px;
+      font-weight: 700;
+      color: #0f766e;
+      background: #ccfbf1;
+      border: 1px solid #99f6e4;
+      padding: 1px 6px;
+      border-radius: 4px;
+    }
+
+    .jj-title-link {
+      color: #0f172a;
+      font-size: 17.5px;
+      font-weight: 700;
+      text-decoration: none;
+    }
+    .jj-title-link:hover {
+      color: var(--jj-green);
+      text-decoration: underline;
+    }
+
+    .jj-title-sub {
+      font-size: 13px;
+      color: #64748b;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .copy-cn-btn {
+      font-size: 11px;
+      padding: 1px 7px;
+      border-radius: 4px;
+      border: 1px solid #cbd5e1;
+      background: #f8fafc;
+      color: #334155;
+      cursor: pointer;
+    }
+    .copy-cn-btn:hover {
+      background: #e2e8f0;
+    }
+
+    /* Action Buttons */
+    .card-actions {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      flex-shrink: 0;
+      flex-wrap: wrap;
+    }
+
+    .act-btn {
+      border: 1px solid #cbd5e1;
+      background: #f8fafc;
+      color: #334155;
+      font-size: 12px;
+      font-weight: 600;
+      padding: 4px 9px;
+      border-radius: 4px;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      transition: all 0.15s;
+    }
+    .act-btn.btn-read:hover { background: #16a34a; color: #fff; border-color: #16a34a; }
+    .act-btn.btn-blacklist:hover { background: #dc2626; color: #fff; border-color: #dc2626; }
+    .act-btn.btn-bookmark:hover { background: #0284c7; color: #fff; border-color: #0284c7; }
+    .act-btn.btn-checkpoint:hover { background: #d97706; color: #fff; border-color: #d97706; }
+
+    /* Stats Line */
+    .jj-stats {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 14px;
+      color: var(--text-sub);
+      font-size: 13.5px;
+      margin: 8px 0;
+      padding: 6px 10px;
+      background: #f8fafc;
+      border-radius: 6px;
+    }
+
+    .jj-stat-item {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    /* Tags */
+    .jj-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-bottom: 10px;
+    }
+
+    .jj-tag {
+      background-color: var(--nu-tag-bg);
+      color: #ffffff;
+      font-size: 12px;
+      font-weight: 600;
+      padding: 3px 8px;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background 0.15s;
+      user-select: none;
+    }
+    .jj-tag:hover {
+      background-color: var(--nu-tag-hover);
+    }
+    .jj-tag.active-filter {
+      background-color: #d97706;
+    }
+    .jj-tag.warn-tag {
+      background-color: #dc2626;
+    }
+
+    /* Summary Box */
+    .jj-short-desc {
+      font-size: 14.5px;
+      line-height: 1.55;
+      color: #334155;
+      margin-bottom: 8px;
+    }
+
+    .jj-full-desc-box {
+      margin-top: 10px;
+      padding: 14px 16px;
+      background: #f8fafc;
+      border: 1px solid #cbd5e1;
+      border-radius: 6px;
+      font-size: 14.5px;
+      line-height: 1.65;
+      display: none;
+    }
+    .jj-full-desc-box.open {
+      display: block;
+    }
+
+    .desc-lang-tabs {
+      display: flex;
+      gap: 6px;
+      margin-bottom: 10px;
+      border-bottom: 1px solid #cbd5e1;
+      padding-bottom: 8px;
+    }
+    .desc-lang-btn {
+      font-size: 12px;
+      font-weight: 600;
+      padding: 4px 10px;
+      border-radius: 4px;
+      border: 1px solid #cbd5e1;
+      background: #fff;
+      cursor: pointer;
+    }
+    .desc-lang-btn.active {
+      background: var(--jj-green);
+      color: #fff;
+      border-color: var(--jj-green);
+    }
+
+    .jj-protagonist-bar {
+      margin-top: 6px;
+      margin-bottom: 8px;
+      font-size: 13px;
+      font-weight: 600;
+      color: #0f766e;
+      background: #f0fdfa;
+      border: 1px solid #ccfbf1;
+      padding: 5px 10px;
+      border-radius: 5px;
+      display: inline-block;
+    }
+
+    /* PAGINATION */
+    .pagination-bar {
+      margin-top: 20px;
+      background: #fff;
+      border: 1px solid var(--border-color);
+      border-radius: 6px;
+      padding: 12px 16px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+    }
+
+    .digg_pagination {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .digg_pagination a, .digg_pagination em, .digg_pagination span {
+      padding: 5px 11px;
+      border: 1px solid #cbd5e1;
+      border-radius: 4px;
+      font-size: 13.5px;
+      text-decoration: none;
+      color: var(--jj-green-dark);
+      background: #fff;
+      cursor: pointer;
+      font-style: normal;
+      font-weight: 600;
+    }
+    .digg_pagination em.current {
+      background: var(--jj-green);
+      color: #fff;
+      border-color: var(--jj-green);
+      cursor: default;
+    }
+
+    /* TOAST */
+    .toast-container {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 999;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+    .toast {
+      background: #1e293b;
+      color: #fff;
+      padding: 11px 16px;
+      border-radius: 8px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.22);
+      font-size: 13.5px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .toast-undo-btn {
+      background: #38bdf8;
+      color: #0f172a;
+      border: none;
+      padding: 4px 9px;
+      border-radius: 4px;
+      font-weight: 700;
+      font-size: 12px;
+      cursor: pointer;
+    }
+
+    /* MODAL */
+    .modal-backdrop {
+      position: fixed;
+      inset: 0;
+      background: rgba(15, 23, 42, 0.55);
+      z-index: 200;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 16px;
+    }
+    .modal-backdrop.open {
+      display: flex;
+    }
+    .modal-card {
+      background: #fff;
+      border-radius: 10px;
+      max-width: 600px;
+      width: 100%;
+      padding: 22px 24px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+    }
+    .form-row { margin-bottom: 14px; }
+    .form-row label { display: block; font-size: 13px; font-weight: 600; margin-bottom: 5px; }
+    .form-row input { width: 100%; padding: 8px 11px; border: 1px solid #cbd5e1; border-radius: 6px; font-size: 13.5px; }
+
+    .empty-state {
+      background: #fff;
+      border: 1px dashed #cbd5e1;
+      border-radius: 8px;
+      padding: 48px 20px;
+      text-align: center;
+      color: #64748b;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- TOP NAVBAR -->
+  <header class="top-navbar">
+    <div class="navbar-inner">
+      <div class="brand">
+        <i class="fa fa-university"></i>
+        <span>Tấn Giang (JJWXC) Tracker</span>
+        <span class="brand-badge">Chủ Công • Xuyên Thư • Hoàn Chính Văn</span>
+      </div>
+      <div class="nav-actions">
+        <a class="btn btn-secondary" href="/" title="Mở NovelUpdates Tracker">
+          <i class="fa fa-exchange"></i> NovelUpdates
+        </a>
+        <button class="btn btn-warning" onclick="jumpToBookmark()" title="Nhảy tới vị trí truyện đang xem dở">
+          <i class="fa fa-map-marker"></i> Vị trí đang xem <span id="lblBookmarkOrder"></span>
+        </button>
+        <button class="btn btn-primary" onclick="triggerSync('check_new')" title="Quét nhanh 3 trang đầu trên Tấn Giang">
+          <i class="fa fa-bolt"></i> Quét nhanh
+        </button>
+        <button class="btn btn-secondary" onclick="triggerSync('full')" title="Cào toàn bộ các trang từ Tấn Giang về DB Local">
+          <i class="fa fa-refresh"></i> Cào toàn bộ Tấn Giang
+        </button>
+        <button class="btn btn-secondary" onclick="openSettingsModal()">
+          <i class="fa fa-cog"></i> Cài đặt
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- SYNC BANNER -->
+  <div class="sync-banner" id="syncBanner">
+    <div class="sync-box">
+      <div>
+        <i class="fa fa-spinner fa-spin"></i>
+        <strong id="syncMessage">Đang đồng bộ dữ liệu từ Tấn Giang...</strong>
+      </div>
+      <div class="progress-track">
+        <div class="progress-fill" id="syncProgressFill"></div>
+      </div>
+      <span id="syncPageCounter">0/0</span>
+    </div>
+  </div>
+
+  <!-- MAIN CONTENT -->
+  <main class="container">
+    <!-- TABS -->
+    <div class="tabs-bar">
+      <button class="tab-btn active" data-tab="unread" onclick="switchTab('unread')">
+        <i class="fa fa-list-ol"></i> Danh sách chính (Chưa đọc)
+        <span class="tab-count" id="cnt-unread">0</span>
+      </button>
+      <button class="tab-btn" data-tab="bookmark" onclick="switchTab('bookmark')">
+        <i class="fa fa-star"></i> Đã lưu đọc sau
+        <span class="tab-count" id="cnt-bookmark">0</span>
+      </button>
+      <button class="tab-btn" data-tab="read" onclick="switchTab('read')">
+        <i class="fa fa-check-circle"></i> Đã đọc (Ẩn)
+        <span class="tab-count" id="cnt-read">0</span>
+      </button>
+      <button class="tab-btn" data-tab="blacklist" onclick="switchTab('blacklist')">
+        <i class="fa fa-ban"></i> Blacklist (Chặn)
+        <span class="tab-count" id="cnt-blacklist">0</span>
+      </button>
+      <button class="tab-btn" data-tab="all" onclick="switchTab('all')">
+        <i class="fa fa-database"></i> Tất cả trong kho
+        <span class="tab-count" id="cnt-all">0</span>
+      </button>
+    </div>
+
+    <!-- 2-TIER LOCAL FILTER ENGINE BAR -->
+    <div class="local-filter-panel">
+      <div class="toggle-group">
+        <span style="font-size:13px; font-weight:700; color:#0f766e;">
+          <i class="fa fa-filter"></i> Bộ lọc Local (Tức thì):
+        </span>
+
+        <button id="btnToggleQT" class="filter-toggle-btn active-block" onclick="toggleLocalFilter('qt')">
+          <i class="fa fa-ban" id="iconToggleQT"></i>
+          <span>Ẩn Khoái Xuyên (快穿)</span>
+          <span class="sub-count" id="lblHiddenQT">0 bộ</span>
+        </button>
+
+        <button id="btnToggleSweet" class="filter-toggle-btn active-block" onclick="toggleLocalFilter('sweet')">
+          <i class="fa fa-ban" id="iconToggleSweet"></i>
+          <span>Ẩn Điềm Văn (甜文)</span>
+          <span class="sub-count" id="lblHiddenSweet">0 bộ</span>
+        </button>
+      </div>
+
+      <div style="font-size:12.5px; color:#64748b;" id="lastSyncLabel">Đang kiểm tra kho dữ liệu...</div>
+    </div>
+
+    <!-- QUICK TAG FILTER PILLS -->
+    <div class="quick-tags-bar">
+      <span style="font-size:12.5px; font-weight:700; color:#475569; margin-right:4px;">Tag phổ biến:</span>
+      <span class="quick-tag-pill" onclick="filterByTag('')">Tất cả</span>
+      <span class="quick-tag-pill" onclick="filterByTag('强强')">Cường cường (强强)</span>
+      <span class="quick-tag-pill" onclick="filterByTag('仙侠修真')">Tiên hiệp tu chân (仙侠修真)</span>
+      <span class="quick-tag-pill" onclick="filterByTag('爽文')">Sảng văn (爽文)</span>
+      <span class="quick-tag-pill" onclick="filterByTag('正剧')">Chính kịch (正剧)</span>
+      <span class="quick-tag-pill" onclick="filterByTag('星际')">Tinh tế (星际)</span>
+      <span class="quick-tag-pill" onclick="filterByTag('系统')">Hệ thống (系统)</span>
+      <span class="quick-tag-pill" onclick="filterByTag('升级流')">Thăng cấp lưu (升级流)</span>
+      <span class="quick-tag-pill" onclick="filterByTag('豪门世家')">Hào môn (豪门世家)</span>
+      <span class="quick-tag-pill" onclick="filterByTag('娱乐圈')">Giới giải trí (娱乐圈)</span>
+      <span class="quick-tag-pill" onclick="filterByTag('虫族')">Trùng tộc (虫族)</span>
+      <span class="quick-tag-pill" onclick="filterByTag('无限流')">Vô hạn lưu (无限流)</span>
+      <span class="quick-tag-pill" onclick="filterByTag('末世')">Mạt thế (末世)</span>
+    </div>
+
+    <!-- SEARCH & SORT BAR -->
+    <div class="filter-bar">
+      <div class="filter-group">
+        <input type="text" id="searchInput" class="input-text" placeholder="🔍 Tìm tên truyện (Hán Việt / Trung), tác giả, văn án..." style="width: 280px;" oninput="debounceSearch()" />
+        <input type="text" id="tagInput" class="input-text" placeholder="Lọc theo Tag..." style="width: 150px;" oninput="debounceSearch()" />
+        <select id="minWordsSelect" class="select-box" onchange="resetPageAndLoad()">
+          <option value="0">📏 Mọi độ dài chữ</option>
+          <option value="100000">📏 >= 10 vạn chữ (100k)</option>
+          <option value="200000">📏 >= 20 vạn chữ (200k)</option>
+          <option value="300000">📏 >= 30 vạn chữ (300k)</option>
+          <option value="500000">📏 >= 50 vạn chữ (500k)</option>
+          <option value="800000">📏 >= 80 vạn chữ (800k)</option>
+        </select>
+        <select id="sortSelect" class="select-box" onchange="resetPageAndLoad()">
+          <option value="fixed_asc">🔒 Thứ tự cố định (#1 → #N)</option>
+          <option value="points_desc">🏆 Tích phân Tấn Giang cao nhất</option>
+          <option value="score_desc">⭐ Điểm đánh giá (Rating) cao nhất</option>
+          <option value="fav_desc">❤️ Lượt cất giữ (收藏) nhiều nhất</option>
+          <option value="words_desc">📖 Số chữ nhiều nhất</option>
+          <option value="pub_desc">📅 Mới xuất bản gần đây</option>
+          <option value="fixed_desc">🔒 Thứ tự cố định (#N → #1)</option>
+        </select>
+      </div>
+      <div style="font-size:13px; font-weight:600; color:#0f766e;" id="filteredSummaryLabel"></div>
+    </div>
+
+    <!-- SERIES CARDS CONTAINER -->
+    <div id="seriesList" class="series-list"></div>
+
+    <!-- PAGINATION BAR -->
+    <div class="pagination-bar" id="paginationBar">
+      <div class="digg_pagination" id="paginationLinks"></div>
+      <div style="display:flex; align-items:center; gap:8px; font-size:13px; color:#475569;">
+        <span>Đi tới trang:</span>
+        <input type="number" id="jumpPageInput" class="input-text" style="width:70px; padding:4px 8px;" min="1" value="1" onkeydown="if(event.key==='Enter') goToInputPage()" />
+        <button class="btn btn-primary" style="padding:5px 10px;" onclick="goToInputPage()">Đi</button>
+      </div>
+    </div>
+  </main>
+
+  <!-- TOAST CONTAINER -->
+  <div class="toast-container" id="toastContainer"></div>
+
+  <!-- SETTINGS MODAL -->
+  <div class="modal-backdrop" id="settingsModal">
+    <div class="modal-card">
+      <h3><i class="fa fa-cog"></i> Cài đặt Nguồn & Bộ lọc Tấn Giang (JJWXC)</h3>
+      <div class="form-row">
+        <label>URL Tác phẩm khố Tấn Giang (bookbase.php):</label>
+        <input type="text" id="cfgTargetUrl" />
+        <div style="font-size:11.5px; color:#64748b; margin-top:4px;">
+          Mặc định: Thuần ái (xx2=2) + Chủ công (mainview3=3) + Xuyên thư (bq=134) + Hoàn thành (isfinish=2).
+        </div>
+      </div>
+      <div class="form-row">
+        <label>Loại trừ thêm các Tag khác dưới Local (cách nhau bằng dấu phẩy, VD: 生子, 虐文, 悲剧):</label>
+        <input type="text" id="cfgExcludedTags" placeholder="VD: 生子, 悲剧, 虐文" />
+      </div>
+      <div style="display:flex; justify-content:flex-end; gap:10px; margin-top:18px;">
+        <button class="btn btn-secondary" style="color:#334155; border-color:#cbd5e1;" onclick="closeSettingsModal()">Đóng</button>
+        <button class="btn btn-primary" onclick="saveSettings()">Lưu cài đặt</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    let currentTab = localStorage.getItem('jj_tab') || 'unread';
+    let currentPage = parseInt(localStorage.getItem('jj_page_unread') || '1', 10);
+    let perPage = 25;
+    let totalPages = 1;
+    let bookmarkedOrder = 0;
+    let hideQT = true;
+    let hideSweet = true;
+    let searchTimer = null;
+
+    function initApp() {
+      updateActiveTabUI();
+      loadSeries();
+      setInterval(pollSyncStatus, 3000);
+    }
+
+    function updateActiveTabUI() {
+      document.querySelectorAll('.tab-btn').forEach(btn => {
+        btn.classList.toggle('active', btn.dataset.tab === currentTab);
+      });
+    }
+
+    function updateFilterButtonsUI() {
+      const btnQT = document.getElementById('btnToggleQT');
+      const iconQT = document.getElementById('iconToggleQT');
+      btnQT.classList.toggle('active-block', hideQT);
+      iconQT.className = hideQT ? 'fa fa-ban' : 'fa fa-eye';
+
+      const btnSw = document.getElementById('btnToggleSweet');
+      const iconSw = document.getElementById('iconToggleSweet');
+      btnSw.classList.toggle('active-block', hideSweet);
+      iconSw.className = hideSweet ? 'fa fa-ban' : 'fa fa-eye';
+    }
+
+    function toggleLocalFilter(type) {
+      if (type === 'qt') {
+        hideQT = !hideQT;
+      } else if (type === 'sweet') {
+        hideSweet = !hideSweet;
+      }
+      updateFilterButtonsUI();
+      currentPage = 1;
+      loadSeries(true);
+    }
+
+    function switchTab(tab) {
+      currentTab = tab;
+      localStorage.setItem('jj_tab', tab);
+      if (tab === 'unread') {
+        currentPage = parseInt(localStorage.getItem('jj_page_unread') || '1', 10);
+      } else {
+        currentPage = 1;
+      }
+      updateActiveTabUI();
+      loadSeries();
+    }
+
+    function debounceSearch() {
+      clearTimeout(searchTimer);
+      searchTimer = setTimeout(() => {
+        currentPage = 1;
+        loadSeries();
+      }, 280);
+    }
+
+    function resetPageAndLoad() {
+      currentPage = 1;
+      loadSeries();
+    }
+
+    function escapeHtml(str) {
+      if (!str) return '';
+      return String(str)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;');
+    }
+
+    function formatWords(w) {
+      const n = parseInt(w || 0, 10);
+      if (n >= 10000) {
+        return `${(n / 10000).toFixed(1)} vạn chữ (${n.toLocaleString('en-US')})`;
+      }
+      return `${n.toLocaleString('en-US')} chữ`;
+    }
+
+    function formatPoints(p) {
+      const n = parseInt(p || 0, 10);
+      if (n >= 100000000) {
+        return `${(n / 100000000).toFixed(2)} ức`;
+      }
+      if (n >= 10000) {
+        return `${(n / 10000).toFixed(0)} vạn`;
+      }
+      return n.toLocaleString('en-US');
+    }
+
+    function renderStarsFromJJScore(scoreStr) {
+      const m = String(scoreStr || '').match(/([\d.]+)/);
+      const val10 = m ? parseFloat(m[1]) : 0;
+      if (!val10 || val10 <= 0) {
+        return `<span style="color:#94a3b8; font-size:11.5px;">Chưa đủ lượt chấm</span>`;
+      }
+      const val5 = val10 / 2.0;
+      let stars = '';
+      for (let i = 1; i <= 5; i++) {
+        if (val5 >= i - 0.2) stars += '<i class="fa fa-star"></i>';
+        else if (val5 >= i - 0.7) stars += '<i class="fa fa-star-half-o"></i>';
+        else stars += '<i class="fa fa-star-o"></i>';
+      }
+      return `<div style="color:#dc2626; font-size:14px; letter-spacing:1px;">${stars}</div><div style="color:#b45309; font-weight:700; font-size:12.5px; margin-top:2px;">${escapeHtml(scoreStr)} / 10</div>`;
+    }
+
+    async function loadSeries(explicitFilterToggle = false) {
+      const q = document.getElementById('searchInput').value.trim();
+      const tag = document.getElementById('tagInput').value.trim();
+      const minWords = document.getElementById('minWordsSelect').value;
+      const sort = document.getElementById('sortSelect').value;
+
+      const params = new URLSearchParams({
+        tab: currentTab,
+        page: currentPage,
+        per_page: perPage,
+        q,
+        tag,
+        min_words: minWords,
+        sort
+      });
+
+      if (explicitFilterToggle) {
+        params.set('hide_qt', hideQT ? '1' : '0');
+        params.set('hide_sweet', hideSweet ? '1' : '0');
+      }
+
+      try {
+        const res = await fetch(`/api/jjwxc/series?${params.toString()}`);
+        const data = await res.json();
+
+        if (data.filters) {
+          hideQT = !!data.filters.hide_quick_trans;
+          hideSweet = !!data.filters.hide_sweet;
+          updateFilterButtonsUI();
+        }
+
+        totalPages = data.total_pages || 1;
+        if (currentPage > totalPages) currentPage = totalPages;
+        if (currentTab === 'unread') {
+          localStorage.setItem('jj_page_unread', String(currentPage));
+        }
+
+        bookmarkedOrder = data.bookmarked_order || 0;
+        document.getElementById('lblBookmarkOrder').textContent =
+          bookmarkedOrder > 0 ? `(#${bookmarkedOrder})` : '';
+
+        const c = data.counts || {};
+        document.getElementById('cnt-unread').textContent = c.unread || 0;
+        document.getElementById('cnt-bookmark').textContent = c.bookmark || 0;
+        document.getElementById('cnt-read').textContent = c.read || 0;
+        document.getElementById('cnt-blacklist').textContent = c.blacklist || 0;
+        document.getElementById('cnt-all').textContent = c.all_raw || 0;
+
+        document.getElementById('lblHiddenQT').textContent = `${c.qt_hidden || 0} bộ trong kho`;
+        document.getElementById('lblHiddenSweet').textContent = `${c.sweet_hidden || 0} bộ trong kho`;
+        document.getElementById('filteredSummaryLabel').textContent =
+          `Hiển thị ${data.total_items || 0} / ${c.all_raw || 0} bộ`;
+
+        renderCards(data.items || [], tag);
+        renderPagination(data.page, data.total_pages, data.total_items);
+        updateSyncUI(data.sync_state);
+      } catch (err) {
+        console.error('Lỗi tải danh sách Tấn Giang:', err);
+      }
+    }
+
+    function renderCards(items, activeTag) {
+      const container = document.getElementById('seriesList');
+      if (!items.length) {
+        container.innerHTML = `
+          <div class="empty-state">
+            <i class="fa fa-book" style="font-size:36px; margin-bottom:10px; display:block;"></i>
+            <div style="font-size:15px; font-weight:600;">Không tìm thấy bộ truyện nào khớp điều kiện lọc</div>
+            <div style="font-size:13px; margin-top:6px;">Nếu kho dữ liệu đang trống, hãy bấm nút <b>"Cào toàn bộ Tấn Giang"</b> ở góc trên bên phải.</div>
+          </div>
+        `;
+        return;
+      }
+
+      const defaultCover = 'https://i9-static.jjwxc.net/noveldefaultcover.php?cover=MjBfbm92ZWxkZWZhdWx0Y292ZXI=&version=20230323';
+
+      container.innerHTML = items.map(item => {
+        const nid = item.novel_id;
+        const coverSrc = item.cover_url
+          ? `/api/jjwxc/proxy-image?url=${encodeURIComponent(item.cover_url)}`
+          : defaultCover;
+        const isBookmarkedPos = (bookmarkedOrder > 0 && item.fixed_order === bookmarkedOrder);
+
+        const tagsCn = item.tags_cn || [];
+        const tagsVi = item.tags_vi || [];
+        const tagsHtml = tagsCn.map((tCn, idx) => {
+          const tVi = tagsVi[idx] || tCn;
+          const isWarn = (tCn === '快穿' || tCn === '甜文');
+          const isAct = activeTag && (activeTag === tCn || activeTag.toLowerCase() === tVi.toLowerCase());
+          return `<span class="jj-tag ${isWarn ? 'warn-tag' : ''} ${isAct ? 'active-filter' : ''}" onclick="filterByTag('${escapeHtml(tCn)}')">${escapeHtml(tVi)} (${escapeHtml(tCn)})</span>`;
+        }).join('');
+
+        let actionBtns = '';
+        if (currentTab === 'read' || currentTab === 'blacklist') {
+          actionBtns = `
+            <button class="act-btn btn-read" onclick="changeStatus('${nid}', 'unread', '${escapeHtml(item.title_vi)}')">
+              <i class="fa fa-undo"></i> Khôi phục Chưa đọc
+            </button>
+          `;
+        } else {
+          actionBtns = `
+            <button class="act-btn btn-read" onclick="changeStatus('${nid}', 'read', '${escapeHtml(item.title_vi)}')">
+              <i class="fa fa-check"></i> Đã đọc
+            </button>
+            <button class="act-btn btn-blacklist" onclick="changeStatus('${nid}', 'blacklist', '${escapeHtml(item.title_vi)}')">
+              <i class="fa fa-ban"></i> Blacklist
+            </button>
+            <button class="act-btn btn-bookmark" onclick="changeStatus('${nid}', '${item.status === 'bookmark' ? 'unread' : 'bookmark'}', '${escapeHtml(item.title_vi)}')">
+              <i class="fa ${item.status === 'bookmark' ? 'fa-star' : 'fa-star-o'}"></i> ${item.status === 'bookmark' ? 'Bỏ lưu' : 'Lưu'}
+            </button>
+            <button class="act-btn btn-checkpoint" onclick="saveCheckpoint(${item.fixed_order})">
+              <i class="fa fa-map-pin"></i> Đánh dấu #${item.fixed_order}
+            </button>
+          `;
+        }
+
+        const cpHtml = item.protagonist_hv
+          ? `<div class="jj-protagonist-bar" id="cp-${nid}">👥 ${escapeHtml(item.protagonist_hv)} <span style="color:#64748b; font-weight:400;">(${escapeHtml(item.protagonist_cn)})</span></div>`
+          : `<div class="jj-protagonist-bar" id="cp-${nid}" style="display:none;"></div>`;
+
+        return `
+          <div class="jj-card ${isBookmarkedPos ? 'bookmarked-pos' : ''}" id="card-${nid}">
+            <div class="jj-cover-col">
+              <img id="img-${nid}" src="${escapeHtml(coverSrc)}" alt="${escapeHtml(item.title_cn)}" loading="lazy" onerror="this.src='${defaultCover}'" />
+              <div class="jj-status-badge">✓ ${escapeHtml(item.status_cn || '完结')} (Đã hoàn)</div>
+              <div class="jj-score-badge" id="score-${nid}" style="margin-top:6px;">
+                ${item.detail_fetched ? renderStarsFromJJScore(item.review_score) : '<span style="color:#94a3b8;font-size:11px;"><i class="fa fa-spinner fa-spin"></i> Đang lấy điểm...</span>'}
+              </div>
+            </div>
+
+            <div class="jj-body-col">
+              <div class="card-header-row">
+                <div class="jj-title-wrap">
+                  <div class="jj-title-main">
+                    <span class="fixed-idx-badge">#${item.fixed_order}</span>
+                    ${isBookmarkedPos ? '<span style="background:#f59e0b;color:#fff;font-size:11px;font-weight:700;padding:2px 7px;border-radius:4px;">📌 ĐANG XEM TỚI ĐÂY</span>' : ''}
+                    <a class="jj-title-link" href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">
+                      ${escapeHtml(item.title_vi || item.title_hv)}
+                    </a>
+                  </div>
+                  <div class="jj-title-sub">
+                    <span><strong>Hán Việt:</strong> ${escapeHtml(item.title_hv)}</span>
+                    <span>•</span>
+                    <span><strong>Tên gốc:</strong> <span style="color:#0f172a;font-weight:600;">${escapeHtml(item.title_cn)}</span></span>
+                    <button class="copy-cn-btn" onclick="copyText('${escapeHtml(item.title_cn)}')" title="Copy tên tiếng Trung để tìm bản edit/raw">
+                      <i class="fa fa-copy"></i> Copy tên Trung
+                    </button>
+                  </div>
+                </div>
+                <div class="card-actions">
+                  ${actionBtns}
+                </div>
+              </div>
+
+              <div class="jj-stats">
+                <span class="jj-stat-item" title="Tác giả">
+                  <i class="fa fa-user"></i> <strong>${escapeHtml(item.author_hv)}</strong> (${escapeHtml(item.author_cn)})
+                </span>
+                <span class="jj-stat-item" title="Tổng số chữ">
+                  <i class="fa fa-file-text-o"></i> ${formatWords(item.word_count)}
+                </span>
+                <span class="jj-stat-item" title="Tích phân Tấn Giang">
+                  <i class="fa fa-line-chart"></i> Tích phân: <strong>${formatPoints(item.points)}</strong>
+                </span>
+                <span class="jj-stat-item" id="stat-extra-${nid}">
+                  ${item.chapter_count > 0 ? `<i class="fa fa-list-ol"></i> ${item.chapter_count} chương • ❤️ ${ (item.fav_count || 0).toLocaleString('en-US') } cất giữ` : ''}
+                </span>
+                <span class="jj-stat-item" title="Phân loại">
+                  <i class="fa fa-folder-open-o"></i> ${escapeHtml(item.category_vi)}
+                </span>
+                <span class="jj-stat-item" title="Thời gian xuất bản">
+                  <i class="fa fa-calendar"></i> ${escapeHtml((item.pub_date || '').split(' ')[0])}
+                </span>
+              </div>
+
+              ${cpHtml}
+
+              <div class="jj-tags">
+                ${tagsHtml}
+              </div>
+
+              <div class="jj-short-desc">
+                <strong>💡 Tóm tắt 1 câu:</strong>
+                <span id="short-vi-${nid}">${escapeHtml(item.short_desc_vi || item.short_desc_hv || 'Chưa có tóm tắt ngắn')}</span>
+                ${item.short_desc_cn ? `<span style="color:#64748b; font-size:13px;"> (${escapeHtml(item.short_desc_cn)})</span>` : ''}
+              </div>
+
+              <div>
+                <button class="btn btn-primary" style="padding:5px 12px; font-size:12.5px;" id="btn-detail-${nid}" onclick="toggleFullDetail('${nid}')">
+                  <i class="fa fa-book"></i> Xem Văn Án Đầy Đủ & Dịch Tiếng Việt
+                </button>
+              </div>
+
+              <div class="jj-full-desc-box" id="detail-box-${nid}">
+                <div class="desc-lang-tabs">
+                  <button class="desc-lang-btn active" id="tab-vi-${nid}" onclick="switchDescLang('${nid}', 'vi')">🇻🇳 Bản dịch Tiếng Việt</button>
+                  <button class="desc-lang-btn" id="tab-hv-${nid}" onclick="switchDescLang('${nid}', 'hv')">📜 Phiên âm Hán-Việt</button>
+                  <button class="desc-lang-btn" id="tab-cn-${nid}" onclick="switchDescLang('${nid}', 'cn')">🇨🇳 Nguyên văn Tiếng Trung</button>
+                </div>
+                <div id="desc-content-vi-${nid}"></div>
+                <div id="desc-content-hv-${nid}" style="display:none;"></div>
+                <div id="desc-content-cn-${nid}" style="display:none;"></div>
+              </div>
+            </div>
+          </div>
+        `;
+      }).join('');
+
+      // Tự động tải ngầm Điểm đánh giá, Lượt cất giữ, Ảnh bìa và CP cho các bộ trên trang hiện tại
+      const unfetchedIds = items.filter(it => !it.detail_fetched).map(it => it.novel_id);
+      if (unfetchedIds.length > 0) {
+        autoEnrichVisibleCards(unfetchedIds);
+      }
+    }
+
+    async function autoEnrichVisibleCards(novelIds) {
+      const defaultCover = 'https://i9-static.jjwxc.net/noveldefaultcover.php?cover=MjBfbm92ZWxkZWZhdWx0Y292ZXI=&version=20230323';
+      try {
+        const res = await fetch('/api/jjwxc/batch-meta', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ novel_ids: novelIds })
+        });
+        const data = await res.json();
+        if (!data.ok || !data.items) return;
+        Object.values(data.items).forEach(it => {
+          const nid = it.novel_id;
+          const scEl = document.getElementById(`score-${nid}`);
+          if (scEl) scEl.innerHTML = renderStarsFromJJScore(it.review_score);
+
+          if (it.cover_url) {
+            const imgEl = document.getElementById(`img-${nid}`);
+            if (imgEl && imgEl.src.includes('noveldefaultcover')) {
+              imgEl.src = `/api/jjwxc/proxy-image?url=${encodeURIComponent(it.cover_url)}`;
+            }
+          }
+          if (it.protagonist_hv) {
+            const cpEl = document.getElementById(`cp-${nid}`);
+            if (cpEl) {
+              cpEl.style.display = 'inline-block';
+              cpEl.innerHTML = `👥 ${escapeHtml(it.protagonist_hv)} <span style="color:#64748b; font-weight:400;">(${escapeHtml(it.protagonist_cn)})</span>`;
+            }
+          }
+          if (it.chapter_count > 0) {
+            const stEl = document.getElementById(`stat-extra-${nid}`);
+            if (stEl) {
+              stEl.innerHTML = `<i class="fa fa-list-ol"></i> ${it.chapter_count} chương • ❤️ ${(it.fav_count || 0).toLocaleString('en-US')} cất giữ`;
+            }
+          }
+        });
+      } catch (e) {
+        console.warn('Auto enrich error:', e);
+      }
+    }
+
+    function formatParagraphsHtml(text) {
+      if (!text) return '<em>Không có nội dung văn án.</em>';
+      return text
+        .split(/\n+/)
+        .map(p => `<p style="margin:0 0 8px 0;">${escapeHtml(p)}</p>`)
+        .join('');
+    }
+
+    async function toggleFullDetail(novelId) {
+      const box = document.getElementById(`detail-box-${novelId}`);
+      const btn = document.getElementById(`btn-detail-${novelId}`);
+      if (!box) return;
+
+      if (box.classList.contains('open')) {
+        box.classList.remove('open');
+        btn.innerHTML = `<i class="fa fa-book"></i> Xem Văn Án Đầy Đủ & Dịch Tiếng Việt`;
+        return;
+      }
+
+      box.classList.add('open');
+      const viEl = document.getElementById(`desc-content-vi-${novelId}`);
+      const hvEl = document.getElementById(`desc-content-hv-${novelId}`);
+      const cnEl = document.getElementById(`desc-content-cn-${novelId}`);
+
+      if (!viEl.innerHTML) {
+        viEl.innerHTML = `<div style="color:#0f766e;"><i class="fa fa-spinner fa-spin"></i> Đang tải văn án đầy đủ, ảnh bìa, CP nhân vật từ Tấn Giang và dịch sang Tiếng Việt...</div>`;
+        try {
+          const res = await fetch(`/api/jjwxc/detail?novel_id=${encodeURIComponent(novelId)}&tr=1`);
+          const data = await res.json();
+          if (data.ok && data.item) {
+            const it = data.item;
+            viEl.innerHTML = formatParagraphsHtml(it.full_desc_vi || it.full_desc_hv || it.full_desc_cn);
+            hvEl.innerHTML = formatParagraphsHtml(it.full_desc_hv);
+            cnEl.innerHTML = formatParagraphsHtml(it.full_desc_cn);
+
+            if (it.short_desc_vi) {
+              const sEl = document.getElementById(`short-vi-${novelId}`);
+              if (sEl) sEl.textContent = it.short_desc_vi;
+            }
+            if (it.cover_url) {
+              const imgEl = document.getElementById(`img-${novelId}`);
+              if (imgEl) imgEl.src = `/api/jjwxc/proxy-image?url=${encodeURIComponent(it.cover_url)}`;
+            }
+            if (it.protagonist_hv) {
+              const cpEl = document.getElementById(`cp-${novelId}`);
+              if (cpEl) {
+                cpEl.style.display = 'inline-block';
+                cpEl.innerHTML = `👥 ${escapeHtml(it.protagonist_hv)} <span style="color:#64748b; font-weight:400;">(${escapeHtml(it.protagonist_cn)})</span>`;
+              }
+            }
+            if (it.review_score !== undefined) {
+              const scEl = document.getElementById(`score-${novelId}`);
+              if (scEl) scEl.innerHTML = renderStarsFromJJScore(it.review_score);
+            }
+            if (it.chapter_count > 0) {
+              const stEl = document.getElementById(`stat-extra-${novelId}`);
+              if (stEl) stEl.innerHTML = `<i class="fa fa-list-ol"></i> ${it.chapter_count} chương • ❤️ ${(it.fav_count || 0).toLocaleString('en-US')} cất giữ`;
+            }
+          } else {
+            viEl.innerHTML = `<span style="color:#dc2626;">Không thể tải văn án chi tiết.</span>`;
+          }
+        } catch (err) {
+          viEl.innerHTML = `<span style="color:#dc2626;">Lỗi kết nối khi tải văn án: ${escapeHtml(err.message)}</span>`;
+        }
+      }
+      btn.innerHTML = `<i class="fa fa-chevron-up"></i> Thu gọn Văn Án`;
+    }
+
+    function switchDescLang(novelId, lang) {
+      ['vi', 'hv', 'cn'].forEach(l => {
+        const tabBtn = document.getElementById(`tab-${l}-${novelId}`);
+        const contentDiv = document.getElementById(`desc-content-${l}-${novelId}`);
+        if (tabBtn) tabBtn.classList.toggle('active', l === lang);
+        if (contentDiv) contentDiv.style.display = (l === lang) ? 'block' : 'none';
+      });
+    }
+
+    function filterByTag(tag) {
+      const input = document.getElementById('tagInput');
+      if (input.value === tag) {
+        input.value = '';
+      } else {
+        input.value = tag;
+      }
+      document.querySelectorAll('.quick-tag-pill').forEach(el => {
+        el.classList.toggle('active', tag !== '' && el.getAttribute('onclick').includes(`'${tag}'`));
+      });
+      currentPage = 1;
+      loadSeries();
+    }
+
+    function copyText(txt) {
+      navigator.clipboard.writeText(txt);
+      showToast(`📋 Đã copy: "${txt}"`);
+    }
+
+    async function changeStatus(novelId, newStatus, title) {
+      const card = document.getElementById(`card-${novelId}`);
+      if (card) card.classList.add('removing');
+      try {
+        await fetch('/api/jjwxc/status', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ novel_id: novelId, status: newStatus })
+        });
+        const labels = {
+          read: 'Đã chuyển vào Đã đọc',
+          blacklist: 'Đã đưa vào Blacklist',
+          bookmark: 'Đã lưu vào Đọc sau',
+          unread: 'Đã khôi phục về Chưa đọc'
+        };
+        showToast(`${labels[newStatus] || 'Đã cập nhật'}: "${title}"`, async () => {
+          await fetch('/api/jjwxc/status', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ novel_id: novelId, status: 'unread' })
+          });
+          loadSeries();
+        });
+        setTimeout(() => loadSeries(), 180);
+      } catch (e) {
+        console.error(e);
+      }
+    }
+
+    async function saveCheckpoint(fixedOrder) {
+      const res = await fetch('/api/jjwxc/bookmark', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ fixed_order: fixedOrder, per_page: perPage })
+      });
+      const data = await res.json();
+      if (data.ok) {
+        showToast(`📌 Đã đánh dấu vị trí đang xem tại bộ #${fixedOrder}`);
+        loadSeries();
+      }
+    }
+
+    async function jumpToBookmark() {
+      const res = await fetch(`/api/jjwxc/jump-bookmark?per_page=${perPage}`);
+      const data = await res.json();
+      if (!data.ok) {
+        showToast('⚠️ Bạn chưa đánh dấu vị trí bộ nào.');
+        return;
+      }
+      currentTab = 'unread';
+      currentPage = data.target_page;
+      document.getElementById('searchInput').value = '';
+      document.getElementById('tagInput').value = '';
+      document.getElementById('sortSelect').value = 'fixed_asc';
+      updateActiveTabUI();
+      await loadSeries();
+      setTimeout(() => {
+        const el = document.querySelector('.bookmarked-pos');
+        if (el) el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }, 150);
+    }
+
+    function renderPagination(page, total, totalItems) {
+      const container = document.getElementById('paginationLinks');
+      document.getElementById('jumpPageInput').value = page;
+      if (total <= 1) {
+        container.innerHTML = `<em class="current">1</em> <span style="border:none; color:#64748b;">(${totalItems} bộ)</span>`;
+        return;
+      }
+      let html = '';
+      if (page > 1) html += `<a onclick="goToPage(${page - 1})">← Trước</a>`;
+      const pages = [1];
+      for (let p = Math.max(2, page - 2); p <= Math.min(total - 1, page + 2); p++) pages.push(p);
+      if (total > 1) pages.push(total);
+      const uniquePages = [...new Set(pages)].sort((a, b) => a - b);
+      let prev = 0;
+      for (const p of uniquePages) {
+        if (prev && p - prev > 1) html += `<span>…</span>`;
+        if (p === page) html += `<em class="current">${p}</em>`;
+        else html += `<a onclick="goToPage(${p})">${p}</a>`;
+        prev = p;
+      }
+      if (page < total) html += `<a onclick="goToPage(${page + 1})">Tiếp →</a>`;
+      html += `<span style="border:none; color:#64748b; margin-left:6px;">(${totalItems} bộ)</span>`;
+      container.innerHTML = html;
+    }
+
+    function goToPage(p) {
+      currentPage = Math.max(1, Math.min(totalPages, p));
+      loadSeries();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    function goToInputPage() {
+      const val = parseInt(document.getElementById('jumpPageInput').value || '1', 10);
+      goToPage(val);
+    }
+
+    async function triggerSync(mode) {
+      const res = await fetch('/api/jjwxc/sync', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ mode })
+      });
+      const data = await res.json();
+      if (!data.ok) {
+        showToast(data.message || 'Đang đồng bộ...');
+      } else {
+        pollSyncStatus();
+      }
+    }
+
+    function updateSyncUI(st) {
+      if (!st) return;
+      const banner = document.getElementById('syncBanner');
+      const msgEl = document.getElementById('syncMessage');
+      const fillEl = document.getElementById('syncProgressFill');
+      const countEl = document.getElementById('syncPageCounter');
+
+      if (st.is_syncing) {
+        banner.classList.add('active');
+        msgEl.textContent = st.message || 'Đang đồng bộ...';
+        const pct = st.total_pages > 0 ? Math.round((st.current_page / st.total_pages) * 100) : 10;
+        fillEl.style.width = `${pct}%`;
+        countEl.textContent = `${st.current_page}/${st.total_pages}`;
+      } else {
+        banner.classList.remove('active');
+      }
+
+      if (st.last_sync_at) {
+        const dt = new Date(st.last_sync_at * 1000);
+        document.getElementById('lastSyncLabel').textContent =
+          `Đồng bộ lần cuối: ${dt.toLocaleTimeString('vi-VN')} — ${st.message || 'Sẵn sàng'}`;
+      }
+    }
+
+    let wasSyncing = false;
+    async function pollSyncStatus() {
+      try {
+        const res = await fetch('/api/jjwxc/sync-status');
+        const data = await res.json();
+        const st = data.sync_state || {};
+        updateSyncUI(st);
+        if (st.is_syncing && st.current_page <= 2) {
+          loadSeries();
+        }
+        if (wasSyncing && !st.is_syncing) {
+          loadSeries();
+        }
+        wasSyncing = st.is_syncing;
+      } catch (e) {}
+    }
+
+    function showToast(text, undoCallback = null) {
+      const container = document.getElementById('toastContainer');
+      const el = document.createElement('div');
+      el.className = 'toast';
+      el.innerHTML = `<span>${escapeHtml(text)}</span>`;
+      if (undoCallback) {
+        const btn = document.createElement('button');
+        btn.className = 'toast-undo-btn';
+        btn.textContent = 'Hoàn tác';
+        btn.onclick = () => {
+          undoCallback();
+          el.remove();
+        };
+        el.appendChild(btn);
+      }
+      container.appendChild(el);
+      setTimeout(() => {
+        if (el.parentNode) el.remove();
+      }, 4500);
+    }
+
+    async function openSettingsModal() {
+      const res = await fetch('/api/jjwxc/settings');
+      const data = await res.json();
+      document.getElementById('cfgTargetUrl').value = data.target_url || '';
+      document.getElementById('cfgExcludedTags').value = (data.excluded_tags || []).join(', ');
+      document.getElementById('settingsModal').classList.add('open');
+    }
+
+    function closeSettingsModal() {
+      document.getElementById('settingsModal').classList.remove('open');
+    }
+
+    async function saveSettings() {
+      const target_url = document.getElementById('cfgTargetUrl').value.trim();
+      const excluded_tags = document.getElementById('cfgExcludedTags').value
+        .split(',')
+        .map(s => s.trim())
+        .filter(Boolean);
+
+      await fetch('/api/jjwxc/settings', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ target_url, excluded_tags })
+      });
+      closeSettingsModal();
+      showToast('Đã lưu cài đặt bộ lọc.');
+      loadSeries();
+    }
+
+    initApp();
+  </script>
+</body>
+</html>

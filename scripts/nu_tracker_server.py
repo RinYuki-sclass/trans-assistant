@@ -966,8 +966,37 @@ routes = [
     Route("/api/sync-status", api_sync_status, methods=["GET"]),
     Route("/api/settings", api_settings, methods=["GET", "POST"]),
     Route("/api/proxy-image", api_proxy_image, methods=["GET"]),
-    Mount("/static", StaticFiles(directory=STATIC_DIR), name="static"),
 ]
+
+try:
+    from jjwxc_tracker_server import (
+        jjwxc_index_page,
+        api_jjwxc_list_series,
+        api_jjwxc_detail,
+        api_jjwxc_update_status,
+        api_jjwxc_bookmark,
+        api_jjwxc_jump_bookmark,
+        api_jjwxc_trigger_sync,
+        api_jjwxc_sync_status,
+        api_jjwxc_settings,
+        api_jjwxc_proxy_image,
+    )
+    routes.extend([
+        Route("/jjwxc", jjwxc_index_page),
+        Route("/api/jjwxc/series", api_jjwxc_list_series, methods=["GET"]),
+        Route("/api/jjwxc/detail", api_jjwxc_detail, methods=["GET"]),
+        Route("/api/jjwxc/status", api_jjwxc_update_status, methods=["POST"]),
+        Route("/api/jjwxc/bookmark", api_jjwxc_bookmark, methods=["POST"]),
+        Route("/api/jjwxc/jump-bookmark", api_jjwxc_jump_bookmark, methods=["GET"]),
+        Route("/api/jjwxc/sync", api_jjwxc_trigger_sync, methods=["POST"]),
+        Route("/api/jjwxc/sync-status", api_jjwxc_sync_status, methods=["GET"]),
+        Route("/api/jjwxc/settings", api_jjwxc_settings, methods=["GET", "POST"]),
+        Route("/api/jjwxc/proxy-image", api_jjwxc_proxy_image, methods=["GET"]),
+    ])
+except Exception as _jj_err:
+    print(f"[WARN] Không thể nạp module JJWXC Tracker: {_jj_err}")
+
+routes.append(Mount("/static", StaticFiles(directory=STATIC_DIR), name="static"))
 
 app = Starlette(
     debug=False,
