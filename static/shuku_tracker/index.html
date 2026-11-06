@@ -1,0 +1,1876 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>52Shuku (52书库) Series Tracker — Kho Đam Mỹ Chủ Công Hoàn Full Raw</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --sk-purple: #7c3aed;
+      --sk-purple-dark: #5b21b6;
+      --nu-tag-bg: #334155;
+      --nu-tag-hover: #1e293b;
+      --bg-page: #f3f4f8;
+      --card-bg: #ffffff;
+      --border-color: #cbd5e1;
+      --text-main: #1e293b;
+      --text-sub: #475569;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background-color: var(--bg-page);
+      color: var(--text-main);
+    }
+
+    /* TOP NAVBAR */
+    .top-navbar {
+      background: linear-gradient(135deg, #3b0764 0%, #0f172a 100%);
+      color: #fff;
+      padding: 12px 24px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.22);
+    }
+
+    .navbar-inner {
+      max-width: 1180px;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 18px;
+      font-weight: 700;
+      color: #fff;
+    }
+
+    .brand-badge {
+      background: #a855f7;
+      color: #fff;
+      font-size: 11.5px;
+      padding: 2px 9px;
+      border-radius: 12px;
+      font-weight: 700;
+    }
+
+    .nav-actions {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 7px 13px;
+      border-radius: 6px;
+      font-size: 13px;
+      font-weight: 600;
+      border: 1px solid transparent;
+      cursor: pointer;
+      transition: all 0.15s ease;
+      font-family: inherit;
+      text-decoration: none;
+    }
+
+    .btn-primary {
+      background: var(--sk-purple);
+      color: #fff;
+    }
+    .btn-primary:hover {
+      background: var(--sk-purple-dark);
+    }
+
+    .btn-secondary {
+      background: rgba(255,255,255,0.12);
+      color: #f8fafc;
+      border-color: rgba(255,255,255,0.22);
+    }
+    .btn-secondary:hover {
+      background: rgba(255,255,255,0.22);
+    }
+
+    .btn-warning {
+      background: #f59e0b;
+      color: #fff;
+    }
+    .btn-warning:hover {
+      background: #d97706;
+    }
+
+    .btn-success {
+      background: #0d9488;
+      color: #fff;
+    }
+    .btn-success:hover {
+      background: #0f766e;
+    }
+
+    /* SYNC PROGRESS BAR */
+    .sync-banner {
+      max-width: 1180px;
+      margin: 12px auto 0;
+      padding: 0 16px;
+      display: none;
+    }
+    .sync-banner.active { display: block; }
+    .sync-box {
+      background: #f5f3ff;
+      border: 1px solid #c4b5fd;
+      border-radius: 8px;
+      padding: 10px 16px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      color: #4c1d95;
+      font-size: 13px;
+    }
+    .progress-track {
+      flex: 1;
+      height: 8px;
+      background: #ddd6fe;
+      border-radius: 99px;
+      overflow: hidden;
+      max-width: 340px;
+    }
+    .progress-fill {
+      height: 100%;
+      background: var(--sk-purple);
+      width: 0%;
+      transition: width 0.3s ease;
+    }
+
+    /* MAIN CONTAINER */
+    .container {
+      max-width: 1180px;
+      margin: 16px auto 60px;
+      padding: 0 16px;
+    }
+
+    /* TABS BAR */
+    .tabs-bar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 12px;
+      border-bottom: 2px solid #cbd5e1;
+      padding-bottom: 10px;
+    }
+
+    .tab-btn {
+      background: #fff;
+      color: #475569;
+      border: 1px solid #cbd5e1;
+      padding: 8px 15px;
+      border-radius: 6px;
+      font-size: 13.5px;
+      font-weight: 600;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      transition: all 0.15s;
+    }
+    .tab-btn.active {
+      background: var(--sk-purple);
+      color: #fff;
+      border-color: var(--sk-purple);
+    }
+    .tab-count {
+      background: rgba(0, 0, 0, 0.1);
+      padding: 1px 7px;
+      border-radius: 10px;
+      font-size: 12px;
+    }
+    .tab-btn.active .tab-count {
+      background: rgba(255, 255, 255, 0.25);
+      color: #fff;
+    }
+
+    /* LOCAL FILTER HIGHLIGHT PANEL */
+    .local-filter-panel {
+      background: #ffffff;
+      border: 1px solid #d8b4fe;
+      border-left: 5px solid var(--sk-purple);
+      border-radius: 8px;
+      padding: 12px 16px;
+      margin-bottom: 12px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+    }
+
+    .toggle-group {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .filter-toggle-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 7px 14px;
+      border-radius: 20px;
+      font-size: 13px;
+      font-weight: 700;
+      cursor: pointer;
+      border: 1.5px solid #cbd5e1;
+      background: #f8fafc;
+      color: #475569;
+      transition: all 0.15s;
+      user-select: none;
+    }
+
+    .filter-toggle-btn.active-require {
+      background: #f3e8ff;
+      border-color: #9333ea;
+      color: #6b21a8;
+    }
+
+    .filter-toggle-btn.active-block {
+      background: #fef2f2;
+      border-color: #ef4444;
+      color: #b91c1c;
+    }
+
+    .filter-toggle-btn .sub-count {
+      font-size: 11px;
+      font-weight: 600;
+      padding: 1px 6px;
+      border-radius: 10px;
+      background: rgba(0,0,0,0.07);
+    }
+
+    /* QUICK TAG PILLS */
+    .quick-tags-bar {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 6px;
+      margin-bottom: 12px;
+    }
+    .quick-tag-pill {
+      font-size: 12px;
+      font-weight: 600;
+      padding: 4px 10px;
+      border-radius: 14px;
+      background: #e2e8f0;
+      color: #334155;
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+    .quick-tag-pill:hover { background: #cbd5e1; }
+    .quick-tag-pill.active {
+      background: var(--sk-purple);
+      color: #fff;
+    }
+
+    /* SEARCH & SORT BAR */
+    .filter-bar {
+      background: #fff;
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      padding: 12px 16px;
+      margin-bottom: 16px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+    }
+
+    .filter-group {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .input-text, .select-box {
+      padding: 7px 11px;
+      border: 1px solid #cbd5e1;
+      border-radius: 5px;
+      font-size: 13px;
+      font-family: inherit;
+      color: #1e293b;
+      background: #fff;
+    }
+
+    /* SERIES CARDS */
+    .series-list {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+
+    .sk-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      padding: 16px 20px;
+      display: flex;
+      gap: 16px;
+      align-items: flex-start;
+      transition: all 0.2s ease;
+      position: relative;
+    }
+
+    .sk-card:hover {
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+      border-color: #94a3b8;
+    }
+
+    .sk-card.bookmarked-pos {
+      border-left: 5px solid #f59e0b;
+      background: #fffbeb;
+    }
+
+    .sk-card.removing {
+      opacity: 0;
+      transform: translateX(30px);
+    }
+
+    /* Left Badge Column */
+    .sk-badge-col {
+      width: 118px;
+      flex-shrink: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      background: linear-gradient(145deg, #f5f3ff 0%, #ede9fe 100%);
+      border: 1px solid #ddd6fe;
+      border-radius: 8px;
+      padding: 14px 8px;
+      gap: 6px;
+    }
+
+    .sk-book-icon {
+      font-size: 28px;
+      color: var(--sk-purple);
+    }
+
+    .sk-status-pill {
+      font-size: 11.5px;
+      font-weight: 700;
+      color: #047857;
+      background: #d1fae5;
+      padding: 3px 8px;
+      border-radius: 6px;
+      width: 100%;
+    }
+
+    .sk-length-pill {
+      font-size: 12px;
+      font-weight: 700;
+      color: #5b21b6;
+    }
+
+    /* Right Body Column */
+    .sk-body-col {
+      flex: 1;
+      min-width: 0;
+    }
+
+    .card-header-row {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 12px;
+      margin-bottom: 6px;
+    }
+
+    .sk-title-wrap {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .sk-title-main {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 8px;
+      line-height: 1.35;
+    }
+
+    .fixed-idx-badge {
+      font-size: 11.5px;
+      font-weight: 700;
+      color: #5b21b6;
+      background: #ede9fe;
+      border: 1px solid #c4b5fd;
+      padding: 1px 6px;
+      border-radius: 4px;
+    }
+
+    .sk-title-link {
+      color: #0f172a;
+      font-size: 17.5px;
+      font-weight: 700;
+      text-decoration: none;
+    }
+    .sk-title-link:hover {
+      color: var(--sk-purple);
+      text-decoration: underline;
+    }
+
+    .sk-title-sub {
+      font-size: 13px;
+      color: #64748b;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .copy-cn-btn {
+      font-size: 11px;
+      padding: 1px 7px;
+      border-radius: 4px;
+      border: 1px solid #cbd5e1;
+      background: #f8fafc;
+      color: #334155;
+      cursor: pointer;
+    }
+
+    .card-actions {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      flex-shrink: 0;
+      flex-wrap: wrap;
+    }
+
+    .act-btn {
+      border: 1px solid #cbd5e1;
+      background: #f8fafc;
+      color: #334155;
+      font-size: 12px;
+      font-weight: 600;
+      padding: 4px 9px;
+      border-radius: 4px;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      transition: all 0.15s;
+    }
+    .act-btn.btn-read:hover { background: #16a34a; color: #fff; border-color: #16a34a; }
+    .act-btn.btn-blacklist:hover { background: #dc2626; color: #fff; border-color: #dc2626; }
+    .act-btn.btn-bookmark:hover { background: #0284c7; color: #fff; border-color: #0284c7; }
+    .act-btn.btn-checkpoint:hover { background: #d97706; color: #fff; border-color: #d97706; }
+
+    .sk-stats {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 14px;
+      color: var(--text-sub);
+      font-size: 13.5px;
+      margin: 8px 0;
+      padding: 6px 10px;
+      background: #f8fafc;
+      border-radius: 6px;
+    }
+
+    .sk-protagonist-bar {
+      margin-top: 4px;
+      margin-bottom: 8px;
+      font-size: 13px;
+      font-weight: 600;
+      color: #5b21b6;
+      background: #f5f3ff;
+      border: 1px solid #ddd6fe;
+      padding: 5px 10px;
+      border-radius: 5px;
+      display: inline-block;
+    }
+
+    .sk-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-bottom: 10px;
+    }
+
+    .sk-tag {
+      background-color: var(--nu-tag-bg);
+      color: #ffffff;
+      font-size: 12px;
+      font-weight: 600;
+      padding: 3px 8px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .sk-tag.warn-tag { background-color: #dc2626; }
+    .sk-tag.cs-tag { background-color: #7c3aed; }
+    .sk-tag.mpreg-tag {
+      background: linear-gradient(135deg, #db2777, #be185d) !important;
+      color: #ffffff !important;
+      border: 1px solid #f472b6;
+      box-shadow: 0 1px 5px rgba(219, 39, 119, 0.4);
+      font-weight: 800;
+    }
+
+    .src-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      font-size: 11.5px;
+      font-weight: 700;
+      padding: 2px 8px;
+      border-radius: 99px;
+      white-space: nowrap;
+      border: 1px solid transparent;
+    }
+    .src-badge.src-jjwxc {
+      background: #dcfce7;
+      color: #166534;
+      border-color: #86efac;
+    }
+    .src-badge.src-fanqie {
+      background: #ffedd5;
+      color: #9a3412;
+      border-color: #fdba74;
+    }
+    .src-badge.src-cp {
+      background: #e0e7ff;
+      color: #3730a3;
+      border-color: #a5b4fc;
+    }
+    .src-badge.src-unknown {
+      background: #f1f5f9;
+      color: #64748b;
+      border-color: #cbd5e1;
+    }
+
+    .sk-short-desc {
+      font-size: 14.5px;
+      line-height: 1.55;
+      color: #334155;
+      margin-bottom: 10px;
+    }
+
+    .sk-full-desc-box {
+      margin-top: 10px;
+      padding: 14px 16px;
+      background: #f8fafc;
+      border: 1px solid #cbd5e1;
+      border-radius: 6px;
+      font-size: 14.5px;
+      line-height: 1.65;
+      display: none;
+    }
+    .sk-full-desc-box.open { display: block; }
+
+    .desc-lang-tabs {
+      display: flex;
+      gap: 6px;
+      margin-bottom: 10px;
+      border-bottom: 1px solid #cbd5e1;
+      padding-bottom: 8px;
+    }
+    .desc-lang-btn {
+      font-size: 12px;
+      font-weight: 600;
+      padding: 4px 10px;
+      border-radius: 4px;
+      border: 1px solid #cbd5e1;
+      background: #fff;
+      cursor: pointer;
+    }
+    .desc-lang-btn.active {
+      background: var(--sk-purple);
+      color: #fff;
+      border-color: var(--sk-purple);
+    }
+
+    /* PAGINATION */
+    .pagination-bar {
+      margin-top: 20px;
+      background: #fff;
+      border: 1px solid var(--border-color);
+      border-radius: 6px;
+      padding: 12px 16px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+    }
+    .digg_pagination { display: flex; flex-wrap: wrap; align-items: center; gap: 5px; }
+    .digg_pagination a, .digg_pagination em, .digg_pagination span {
+      padding: 5px 11px;
+      border: 1px solid #cbd5e1;
+      border-radius: 4px;
+      font-size: 13.5px;
+      text-decoration: none;
+      color: var(--sk-purple-dark);
+      background: #fff;
+      cursor: pointer;
+      font-style: normal;
+      font-weight: 600;
+    }
+    .digg_pagination em.current {
+      background: var(--sk-purple);
+      color: #fff;
+      border-color: var(--sk-purple);
+    }
+
+    .toast-container {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 999;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+    .toast {
+      background: #1e293b;
+      color: #fff;
+      padding: 11px 16px;
+      border-radius: 8px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.22);
+      font-size: 13.5px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .toast-undo-btn {
+      background: #38bdf8;
+      color: #0f172a;
+      border: none;
+      padding: 4px 9px;
+      border-radius: 4px;
+      font-weight: 700;
+      font-size: 12px;
+      cursor: pointer;
+    }
+
+    .modal-backdrop {
+      position: fixed;
+      inset: 0;
+      background: rgba(15, 23, 42, 0.55);
+      z-index: 200;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 16px;
+    }
+    .modal-backdrop.open { display: flex; }
+    .modal-card {
+      background: #fff;
+      border-radius: 10px;
+      max-width: 600px;
+      width: 100%;
+      padding: 22px 24px;
+    }
+    .form-row { margin-bottom: 14px; }
+    .form-row label { display: block; font-size: 13px; font-weight: 600; margin-bottom: 5px; }
+    .form-row input { width: 100%; padding: 8px 11px; border: 1px solid #cbd5e1; border-radius: 6px; font-size: 13.5px; }
+
+    .empty-state {
+      background: #fff;
+      border: 1px dashed #cbd5e1;
+      border-radius: 8px;
+      padding: 48px 20px;
+      text-align: center;
+      color: #64748b;
+    }
+
+    /* SPEED-TRIAGE FOCUS MODAL (OPTIMIZED FOR RESPONSIVE / SMALL WINDOWS) */
+    .focus-modal-backdrop {
+      position: fixed;
+      inset: 0;
+      background: rgba(15, 23, 42, 0.75);
+      backdrop-filter: blur(3px);
+      z-index: 500;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 6px;
+    }
+    .focus-modal-backdrop.open { display: flex; }
+    .focus-modal-card {
+      width: 100%;
+      max-width: 980px;
+      height: 96vh;
+      max-height: 96vh;
+      background: #fbf7ee;
+      color: #2d2216;
+      border: 1px solid #e5dac2;
+      border-radius: 10px;
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.45);
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+    .focus-modal-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 8px 14px;
+      border-bottom: 1px solid #e4d7be;
+      background: #f3ebd8;
+      gap: 8px;
+      flex-wrap: wrap;
+      flex-shrink: 0;
+    }
+    .focus-modal-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 7px 14px;
+      border-top: 1px solid #dfd2b9;
+      background: #efe5cf;
+      gap: 6px;
+      flex-wrap: wrap;
+      flex-shrink: 0;
+    }
+    .focus-modal-content {
+      flex: 1;
+      overflow-y: auto;
+      padding: 14px 20px 24px;
+      font-size: 16.5px;
+      line-height: 1.78;
+    }
+    .focus-meta-card {
+      background: rgba(235, 223, 198, 0.55);
+      border: 1px solid #e2d4b7;
+      border-radius: 8px;
+      padding: 8px 12px;
+      margin-bottom: 14px;
+      font-size: 12.5px;
+      line-height: 1.5;
+      color: #473828;
+    }
+    .r-btn {
+      border: 1px solid #d8c8ab;
+      background: #fffdf9;
+      color: #382c1e;
+      padding: 4px 9px;
+      border-radius: 5px;
+      font-size: 12px;
+      font-weight: 700;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      white-space: nowrap;
+    }
+    .r-btn.active {
+      background: #7c2d12;
+      color: #fff;
+      border-color: #7c2d12;
+    }
+    .sk-desc-p {
+      margin: 0 0 11px 0;
+      text-align: justify;
+    }
+    .sk-desc-highlight {
+      background: #efe2c6;
+      border-left: 3.5px solid #9a3412;
+      padding: 6px 11px;
+      border-radius: 4px;
+      font-weight: 700;
+      color: #431407;
+      margin: 10px 0;
+      font-size: 15px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- TOP NAVBAR -->
+  <header class="top-navbar">
+    <div class="navbar-inner">
+      <div class="brand">
+        <i class="fa fa-archive"></i>
+        <span>52Shuku (52书库) Tracker</span>
+        <span class="brand-badge">Kho Chủ Công Hoàn Full Raw • Đa Nguồn (Phế Văn / Hải Đường / Trường Bội / JJ)</span>
+      </div>
+      <div class="nav-actions">
+        <button class="btn btn-primary" style="background:#f59e0b; border-color:#d97706; color:#0f172a; font-weight:800;" onclick="startSpeedTriage()" title="Mở chế độ lướt thẻ văn án siêu tốc bằng phím tắt (Phím F)">
+          <i class="fa fa-fighter-jet"></i> Lướt Nhanh Văn Án (Phím tắt)
+        </button>
+        <a class="btn btn-success" href="/jjwxc" title="Chuyển sang Tấn Giang (JJWXC) Tracker">
+          <i class="fa fa-university"></i> Tấn Giang (JJWXC)
+        </a>
+        <a class="btn btn-secondary" href="/" title="Chuyển sang NovelUpdates Tracker">
+          <i class="fa fa-book"></i> NovelUpdates
+        </a>
+        <button class="btn btn-warning" onclick="jumpToBookmark()">
+          <i class="fa fa-map-marker"></i> Vị trí đang xem <span id="lblBookmarkOrder"></span>
+        </button>
+        <button class="btn btn-primary" onclick="triggerSync('check_new')" title="Quét 3 trang mới nhất trên 52shuku">
+          <i class="fa fa-bolt"></i> Quét bộ mới
+        </button>
+        <button class="btn btn-secondary" onclick="triggerSync('full')" title="Cào toàn bộ 48 trang Chủ Công trên 52shuku">
+          <i class="fa fa-refresh"></i> Cào toàn bộ 52Shuku
+        </button>
+        <button class="btn btn-secondary" onclick="openSettingsModal()">
+          <i class="fa fa-cog"></i> Cài đặt
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- SYNC BANNER -->
+  <div class="sync-banner" id="syncBanner">
+    <div class="sync-box">
+      <div>
+        <i class="fa fa-spinner fa-spin"></i>
+        <strong id="syncMessage">Đang đồng bộ dữ liệu từ 52Shuku...</strong>
+      </div>
+      <div class="progress-track">
+        <div class="progress-fill" id="syncProgressFill"></div>
+      </div>
+      <span id="syncPageCounter">0/0</span>
+    </div>
+  </div>
+
+  <!-- MAIN CONTENT -->
+  <main class="container">
+    <!-- TABS -->
+    <div class="tabs-bar">
+      <button class="tab-btn active" data-tab="unread" onclick="switchTab('unread')">
+        <i class="fa fa-list-ol"></i> Danh sách chính (Chưa đọc)
+        <span class="tab-count" id="cnt-unread">0</span>
+      </button>
+      <button class="tab-btn" data-tab="bookmark" onclick="switchTab('bookmark')">
+        <i class="fa fa-star"></i> Đã lưu đọc sau
+        <span class="tab-count" id="cnt-bookmark">0</span>
+      </button>
+      <button class="tab-btn" data-tab="read" onclick="switchTab('read')">
+        <i class="fa fa-check-circle"></i> Đã đọc (Ẩn)
+        <span class="tab-count" id="cnt-read">0</span>
+      </button>
+      <button class="tab-btn" data-tab="blacklist" onclick="switchTab('blacklist')">
+        <i class="fa fa-ban"></i> Blacklist (Chặn)
+        <span class="tab-count" id="cnt-blacklist">0</span>
+      </button>
+      <button class="tab-btn" data-tab="all" onclick="switchTab('all')">
+        <i class="fa fa-database"></i> Tất cả trong kho
+        <span class="tab-count" id="cnt-all">0</span>
+      </button>
+    </div>
+
+    <!-- LOCAL FILTER ENGINE BAR -->
+    <div class="local-filter-panel">
+      <div class="toggle-group">
+        <span style="font-size:13px; font-weight:700; color:#5b21b6;">
+          <i class="fa fa-filter"></i> Bộ lọc Local (Tức thì):
+        </span>
+
+        <button id="btnToggleCS" class="filter-toggle-btn active-require" onclick="toggleLocalFilter('cs')" title="Bật để chỉ hiện truyện có yếu tố Xuyên Thư; Tắt để xem toàn bộ truyện Chủ Công">
+          <i class="fa fa-check-circle" id="iconToggleCS"></i>
+          <span>Chỉ hiện Xuyên Thư (穿书)</span>
+          <span class="sub-count" id="lblTotalCS">0 bộ</span>
+        </button>
+
+        <button id="btnToggleQT" class="filter-toggle-btn active-block" onclick="toggleLocalFilter('qt')">
+          <i class="fa fa-ban" id="iconToggleQT"></i>
+          <span>Ẩn Khoái Xuyên (快穿)</span>
+          <span class="sub-count" id="lblHiddenQT">0 bộ</span>
+        </button>
+
+        <span style="display:inline-flex; align-items:center; gap:6px; padding:6px 12px; border-radius:6px; font-size:12.5px; font-weight:700; background:#fee2e2; color:#991b1b; border:1px solid #fca5a5;">
+          <i class="fa fa-trash"></i> Đã xóa vĩnh viễn: Điềm Văn (甜文) • Chủng Điền (种田文) • Mỹ Thực (美食)
+        </span>
+      </div>
+
+      <div style="font-size:12.5px; color:#64748b;" id="lastSyncLabel">Đang kiểm tra kho 52Shuku...</div>
+    </div>
+
+    <!-- QUICK TAG PILLS -->
+    <div class="quick-tags-bar">
+      <span style="font-size:12.5px; font-weight:700; color:#475569; margin-right:4px;">Tag nhanh:</span>
+      <span class="quick-tag-pill" onclick="filterByTag('')">Tất cả</span>
+      <span class="quick-tag-pill" onclick="filterByTag('强强')">Cường cường (强强)</span>
+      <span class="quick-tag-pill" onclick="filterByTag('仙侠')">Tiên hiệp / Tu chân</span>
+      <span class="quick-tag-pill" onclick="filterByTag('爽文')">Sảng văn (爽文)</span>
+      <span class="quick-tag-pill" onclick="filterByTag('虫族')">Trùng tộc (虫族)</span>
+      <span class="quick-tag-pill" onclick="filterByTag('星际')">Tinh tế (星际)</span>
+      <span class="quick-tag-pill" onclick="filterByTag('系统')">Hệ thống (系统)</span>
+      <span class="quick-tag-pill" onclick="filterByTag('豪门')">Hào môn (豪门)</span>
+      <span class="quick-tag-pill" onclick="filterByTag('娱乐圈')">Giới giải trí (娱乐圈)</span>
+      <span class="quick-tag-pill" onclick="filterByTag('无限流')">Vô hạn lưu (无限流)</span>
+      <span class="quick-tag-pill" onclick="filterByTag('末世')">Mạt thế (末世)</span>
+      <span class="quick-tag-pill" onclick="filterByTag('虐恋')">Ngược luyến (虐恋)</span>
+    </div>
+
+    <!-- SEARCH & SORT BAR -->
+    <div class="filter-bar">
+      <div class="filter-group">
+        <input type="text" id="searchInput" class="input-text" placeholder="🔍 Tìm tên truyện (Hán Việt / Trung), tác giả, văn án..." style="width: 300px;" oninput="debounceSearch()" />
+        <input type="text" id="tagInput" class="input-text" placeholder="Lọc theo Tag..." style="width: 145px;" oninput="debounceSearch()" />
+        <select id="sourceSelect" class="select-box" onchange="resetPageAndLoad()">
+          <option value="">🌐 Mọi nguồn (Tấn Giang + Fanqie + Trường Bội)</option>
+          <option value="non_jjwxc">🚫 Ẩn Tấn Giang (Chỉ hiện Fanqie / Trường Bội)</option>
+          <option value="jjwxc">🏮 Nguồn: Tấn Giang (JJWXC)</option>
+          <option value="fanqie">🍅 Nguồn: Fanqie (Cà Chua)</option>
+          <option value="changpei_feiwen">🎐 Nguồn: Trường Bội / Phế Văn</option>
+        </select>
+        <select id="sortSelect" class="select-box" onchange="resetPageAndLoad()">
+          <option value="fixed_asc">🔒 Thứ tự cố định (#1 → #N)</option>
+          <option value="pub_desc">📅 Mới cập nhật gần đây</option>
+          <option value="words_desc">📖 Độ dài nhiều trang nhất</option>
+          <option value="fixed_desc">🔒 Thứ tự cố định (#N → #1)</option>
+        </select>
+      </div>
+      <div style="font-size:13px; font-weight:600; color:#5b21b6;" id="filteredSummaryLabel"></div>
+    </div>
+
+    <!-- SERIES CARDS -->
+    <div id="seriesList" class="series-list"></div>
+
+    <!-- PAGINATION BAR -->
+    <div class="pagination-bar" id="paginationBar">
+      <div class="digg_pagination" id="paginationLinks"></div>
+      <div style="display:flex; align-items:center; gap:8px; font-size:13px; color:#475569;">
+        <span>Đi tới trang:</span>
+        <input type="number" id="jumpPageInput" class="input-text" style="width:70px; padding:4px 8px;" min="1" value="1" onkeydown="if(event.key==='Enter') goToInputPage()" />
+        <button class="btn btn-primary" style="padding:5px 10px;" onclick="goToInputPage()">Đi</button>
+      </div>
+    </div>
+  </main>
+
+  <div class="toast-container" id="toastContainer"></div>
+
+  <!-- SPEED-TRIAGE & ZERO-WAIT PRELOAD MODAL (COMPACT HEADER + MAX READING AREA) -->
+  <div class="focus-modal-backdrop" id="focusReaderModal" onclick="if(event.target.id==='focusReaderModal') closeFocusReader()">
+    <div class="focus-modal-card" id="focusModalCard">
+      <!-- SLIM TOP BAR (1 ROW) -->
+      <div class="focus-modal-header">
+        <div style="display:flex; align-items:center; gap:7px; min-width:0; flex:1;">
+          <span id="focusPosBadge" style="background:#7c2d12; color:#fff; font-size:11px; font-weight:800; padding:2px 7px; border-radius:4px; white-space:nowrap;">#1 (1/25)</span>
+          <h4 id="focusTitleVi" style="margin:0; font-size:15.5px; font-weight:800; color:#1e293b; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">Tên Truyện</h4>
+          <span id="focusPreloadBadge" style="font-size:10.5px; font-weight:700; padding:2px 6px; border-radius:99px; background:#dcfce7; color:#15803d; white-space:nowrap;">⚡ 6/6</span>
+        </div>
+        <div style="display:flex; align-items:center; gap:4px; flex-shrink:0;">
+          <button class="r-btn active" id="focusTab-vi" onclick="switchFocusLang('vi')">🇻🇳 Việt (1)</button>
+          <button class="r-btn" id="focusTab-en" onclick="switchFocusLang('en')">🇬🇧 Eng (2)</button>
+          <button class="r-btn" id="focusTab-cn" onclick="switchFocusLang('cn')">🇨🇳 Trung (3)</button>
+          <a id="focusReadRawLink" href="#" target="_blank" rel="noopener" class="r-btn" style="background:#059669; color:#fff; border-color:#059669; text-decoration:none;">
+            <i class="fa fa-book"></i> Raw
+          </a>
+          <button class="r-btn" onclick="closeFocusReader()" title="Đóng (Esc)">
+            <i class="fa fa-times"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- SCROLLABLE READING AREA (85% OF MODAL HEIGHT) -->
+      <div class="focus-modal-content">
+        <!-- Meta + Tags inside scroll area so they never crush the reading viewport -->
+        <div class="focus-meta-card">
+          <div id="focusMetaSub"></div>
+          <div id="focusTagsStrip" style="display:flex; flex-wrap:wrap; gap:4px; margin-top:5px;"></div>
+        </div>
+
+        <div id="focusDesc-vi"></div>
+        <div id="focusDesc-en" style="display:none;"></div>
+        <div id="focusDesc-cn" style="display:none;"></div>
+      </div>
+
+      <!-- SLIM BOTTOM ACTION BAR (1 ROW) -->
+      <div class="focus-modal-footer">
+        <div style="display:flex; align-items:center; gap:5px;">
+          <button class="r-btn" onclick="triageStep(-1)" title="Bộ trước (← / K)">
+            <i class="fa fa-arrow-left"></i> Trước (K)
+          </button>
+          <button class="r-btn" style="background:#7c2d12; color:#fff; border-color:#7c2d12; padding:5px 12px;" onclick="triageStep(1)" title="Bộ tiếp theo (→ / J / Space)">
+            Tiếp theo (Space) <i class="fa fa-arrow-right"></i>
+          </button>
+        </div>
+
+        <div style="display:flex; align-items:center; gap:5px; flex-wrap:wrap;">
+          <button class="r-btn" style="background:#fef3c7; color:#b45309; border-color:#fcd34d;" onclick="triageActionAndNext('bookmark')" title="Lưu đọc sau & Tiếp (Phím S)">
+            ⭐ Lưu (S)
+          </button>
+          <button class="r-btn" style="background:#dcfce7; color:#15803d; border-color:#86efac;" onclick="triageActionAndNext('read')" title="Đã đọc & Tiếp (Phím D)">
+            ✅ Đã đọc (D)
+          </button>
+          <button class="r-btn" style="background:#fee2e2; color:#b91c1c; border-color:#fca5a5;" onclick="triageActionAndNext('blacklist')" title="Chặn Blacklist & Tiếp (Phím X)">
+            🚫 Chặn (X)
+          </button>
+          <button class="r-btn" onclick="triageBookmarkPosition()" title="Đánh dấu vị trí đang xem (Phím B)">
+            📍 Vị trí (B)
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SETTINGS MODAL -->
+  <div class="modal-backdrop" id="settingsModal">
+    <div class="modal-card">
+      <h3><i class="fa fa-cog"></i> Cài đặt Nguồn 52Shuku</h3>
+      <div class="form-row">
+        <label>URL Chuyên mục 52Shuku:</label>
+        <input type="text" id="cfgTargetUrl" />
+        <div style="font-size:11.5px; color:#64748b; margin-top:4px;">
+          Mặc định: <code>https://www.52shuku.net/Tags/ZhuGongWen_BL/</code> (Kho Đam Mỹ Chủ Công Hoàn).
+        </div>
+      </div>
+      <div class="form-row">
+        <label>Loại trừ thêm các Tag khác dưới Local (cách nhau bằng dấu phẩy):</label>
+        <input type="text" id="cfgExcludedTags" placeholder="VD: 生子, 悲剧" />
+      </div>
+      <div style="display:flex; justify-content:flex-end; gap:10px; margin-top:18px;">
+        <button class="btn btn-secondary" style="color:#334155; border-color:#cbd5e1;" onclick="closeSettingsModal()">Đóng</button>
+        <button class="btn btn-primary" onclick="saveSettings()">Lưu cài đặt</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    let currentTab = localStorage.getItem('sk_tab') || 'unread';
+    let currentPage = parseInt(localStorage.getItem('sk_page_unread') || '1', 10);
+    let perPage = 25;
+    let totalPages = 1;
+    let bookmarkedOrder = 0;
+    let onlyCS = true;
+    let hideQT = true;
+    let hideSweet = true;
+    let searchTimer = null;
+    let currentPageIds = [];
+    let currentItemsMap = {};
+    let preloadingSet = new Set();
+    let activeFocusBookId = null;
+    let activeFocusLang = 'vi';
+
+    function initApp() {
+      updateActiveTabUI();
+      loadSeries();
+      setInterval(pollSyncStatus, 3000);
+      document.addEventListener('keydown', (e) => {
+        const tag = (e.target && e.target.tagName) ? e.target.tagName.toLowerCase() : '';
+        if (tag === 'input' || tag === 'textarea' || tag === 'select') return;
+        const modal = document.getElementById('focusReaderModal');
+        const isOpen = modal && modal.classList.contains('open');
+        if (!isOpen) {
+          if (e.key === 'f' || e.key === 'F') {
+            e.preventDefault();
+            startSpeedTriage();
+          }
+          return;
+        }
+        if (e.key === 'Escape') {
+          e.preventDefault();
+          closeFocusReader();
+        } else if (e.key === 'ArrowRight' || e.key === 'j' || e.key === 'J' || e.key === ' ') {
+          e.preventDefault();
+          triageStep(1);
+        } else if (e.key === 'ArrowLeft' || e.key === 'k' || e.key === 'K') {
+          e.preventDefault();
+          triageStep(-1);
+        } else if (e.key === 's' || e.key === 'S') {
+          e.preventDefault();
+          triageActionAndNext('bookmark');
+        } else if (e.key === 'd' || e.key === 'D') {
+          e.preventDefault();
+          triageActionAndNext('read');
+        } else if (e.key === 'x' || e.key === 'X') {
+          e.preventDefault();
+          triageActionAndNext('blacklist');
+        } else if (e.key === 'b' || e.key === 'B') {
+          e.preventDefault();
+          triageBookmarkPosition();
+        } else if (e.key === '1') {
+          switchFocusLang('vi');
+        } else if (e.key === '2') {
+          switchFocusLang('en');
+        } else if (e.key === '3') {
+          switchFocusLang('cn');
+        }
+      });
+    }
+
+    function startSpeedTriage() {
+      if (!currentPageIds.length) {
+        showToast('Chưa có bộ truyện nào trên trang hiện tại.');
+        return;
+      }
+      const startId = (activeFocusBookId && currentPageIds.includes(String(activeFocusBookId)))
+        ? String(activeFocusBookId)
+        : currentPageIds[0];
+      openFocusReader(startId);
+    }
+
+    async function preloadUpcomingDetails(currentIdx) {
+      const badge = document.getElementById('focusPreloadBadge');
+      const upcomingIds = currentPageIds.slice(currentIdx + 1, currentIdx + 7);
+      if (!upcomingIds.length) {
+        if (badge) badge.textContent = '⚡ Cuối trang';
+        return;
+      }
+      let readyCount = upcomingIds.filter(id => currentItemsMap[id] && currentItemsMap[id].full_desc_vi && currentItemsMap[id].full_desc_en).length;
+      if (badge) badge.textContent = `⚡ ${readyCount}/${upcomingIds.length}`;
+
+      for (const uid of upcomingIds) {
+        if ((currentItemsMap[uid] && currentItemsMap[uid].full_desc_vi && currentItemsMap[uid].full_desc_en) || preloadingSet.has(uid)) continue;
+        preloadingSet.add(uid);
+        fetch(`/api/shuku/detail?book_id=${encodeURIComponent(uid)}&tr=1`)
+          .then(r => r.json())
+          .then(data => {
+            if (data.ok && data.item) {
+              currentItemsMap[uid] = Object.assign(currentItemsMap[uid] || {}, data.item);
+              const done = upcomingIds.filter(id => currentItemsMap[id] && currentItemsMap[id].full_desc_vi && currentItemsMap[id].full_desc_en).length;
+              if (badge && activeFocusBookId === currentPageIds[currentIdx]) {
+                badge.textContent = `⚡ ${done}/${upcomingIds.length}`;
+              }
+            }
+          })
+          .catch(() => {})
+          .finally(() => preloadingSet.delete(uid));
+      }
+    }
+
+    function renderSourceBadge(src) {
+      if (src === 'jjwxc') {
+        return `<span class="src-badge src-jjwxc" title="Truyện đăng gốc trên Tấn Giang (JJWXC)">🏮 Tấn Giang (JJWXC)</span>`;
+      }
+      if (src === 'fanqie') {
+        return `<span class="src-badge src-fanqie" title="Truyện đăng gốc trên Fanqie (Cà Chua)">🍅 Fanqie (Cà Chua)</span>`;
+      }
+      if (src === 'changpei_feiwen') {
+        return `<span class="src-badge src-cp" title="Truyện đăng gốc trên Trường Bội / Phế Văn / Nguồn khác">🎐 Trường Bội / Phế Văn</span>`;
+      }
+      return `<span class="src-badge src-unknown" title="Đang tự động kiểm tra nguồn gốc từ trang chi tiết">📚 Đang nhận diện nguồn...</span>`;
+    }
+
+    function renderFocusHeaderMeta(it, idx) {
+      const posEl = document.getElementById('focusPosBadge');
+      const titleEl = document.getElementById('focusTitleVi');
+      const metaEl = document.getElementById('focusMetaSub');
+      const tagsEl = document.getElementById('focusTagsStrip');
+      const rawLink = document.getElementById('focusReadRawLink');
+
+      if (posEl) posEl.textContent = `#${it.fixed_order || '?'} (${idx + 1}/${currentPageIds.length})`;
+      titleEl.textContent = it.title_vi || it.title_hv || 'Văn Án 52Shuku';
+      if (rawLink) rawLink.href = it.read_url || it.url || '#';
+
+      const lenText = it.page_count > 0 ? ` • 📏 ${it.page_count} trang (~${Math.round(it.est_words / 10000)} vạn chữ)` : '';
+      const cpText = it.protagonist_hv ? ` • <strong style="color:#5b21b6;">👥 ${escapeHtml(it.protagonist_hv)} (${escapeHtml(it.protagonist_cn || '')})</strong>` : '';
+      metaEl.innerHTML = `${renderSourceBadge(it.source_site)} • <strong>Hán-Việt:</strong> ${escapeHtml(it.title_hv || '')} • <strong>Gốc:</strong> ${escapeHtml(it.title_cn || '')} • <strong>Tác giả:</strong> ${escapeHtml(it.author_hv || '')}${lenText}${cpText}`;
+
+      if (tagsEl) {
+        const tagsCn = it.tags_cn || [];
+        const tagsVi = it.tags_vi || [];
+        tagsEl.innerHTML = tagsCn.map((tCn, i) => {
+          const isMpreg = tCn.includes('生子');
+          return `<span class="sk-tag ${isMpreg ? 'mpreg-tag' : ''}" style="font-size:11px; padding:2px 7px;">${isMpreg ? '👶 ' : ''}${escapeHtml(tagsVi[i] || tCn)} (${escapeHtml(tCn)})</span>`;
+        }).join('');
+      }
+    }
+
+    async function openFocusReader(bookId) {
+      const modal = document.getElementById('focusReaderModal');
+      if (!modal) return;
+      activeFocusBookId = String(bookId);
+      modal.classList.add('open');
+      document.body.style.overflow = 'hidden';
+
+      const idx = Math.max(0, currentPageIds.indexOf(activeFocusBookId));
+      let it = currentItemsMap[activeFocusBookId] || {};
+      renderFocusHeaderMeta(it, idx);
+      preloadUpcomingDetails(idx);
+
+      const viEl = document.getElementById('focusDesc-vi');
+      const enEl = document.getElementById('focusDesc-en');
+      const cnEl = document.getElementById('focusDesc-cn');
+      const scrollArea = document.querySelector('.focus-modal-content');
+      if (scrollArea) scrollArea.scrollTop = 0;
+
+      if (it.full_desc_vi && it.full_desc_en && it.full_desc_cn) {
+        viEl.innerHTML = formatParagraphsHtml(it.full_desc_vi);
+        enEl.innerHTML = formatParagraphsHtml(it.full_desc_en);
+        cnEl.innerHTML = formatParagraphsHtml(it.full_desc_cn);
+      } else {
+        viEl.innerHTML = `<div style="color:#7c2d12; text-align:center; padding:40px;"><i class="fa fa-spinner fa-spin fa-2x"></i><div style="margin-top:10px;">Đang tải văn án + gỡ mìn từ 52Shuku (Việt & Anh)...</div></div>`;
+        try {
+          const res = await fetch(`/api/shuku/detail?book_id=${encodeURIComponent(activeFocusBookId)}&tr=1`);
+          const data = await res.json();
+          if (data.ok && data.item) {
+            it = data.item;
+            currentItemsMap[activeFocusBookId] = Object.assign(currentItemsMap[activeFocusBookId] || {}, it);
+            if (activeFocusBookId === String(bookId)) {
+              renderFocusHeaderMeta(it, idx);
+              viEl.innerHTML = formatParagraphsHtml(it.full_desc_vi);
+              enEl.innerHTML = formatParagraphsHtml(it.full_desc_en);
+              cnEl.innerHTML = formatParagraphsHtml(it.full_desc_cn);
+            }
+          }
+        } catch (e) {}
+      }
+      switchFocusLang(activeFocusLang || 'vi');
+    }
+
+    function closeFocusReader() {
+      const modal = document.getElementById('focusReaderModal');
+      if (modal) modal.classList.remove('open');
+      document.body.style.overflow = '';
+    }
+
+    function switchFocusLang(lang) {
+      activeFocusLang = lang;
+      ['vi', 'en', 'cn'].forEach(l => {
+        const tabBtn = document.getElementById(`focusTab-${l}`);
+        const div = document.getElementById(`focusDesc-${l}`);
+        if (tabBtn) tabBtn.classList.toggle('active', l === lang);
+        if (div) div.style.display = (l === lang) ? 'block' : 'none';
+      });
+    }
+
+    async function triageStep(delta) {
+      if (!currentPageIds.length) return;
+      const idx = currentPageIds.indexOf(String(activeFocusBookId));
+      const nextIdx = idx + delta;
+      if (nextIdx >= 0 && nextIdx < currentPageIds.length) {
+        openFocusReader(currentPageIds[nextIdx]);
+      } else if (nextIdx >= currentPageIds.length && currentPage < totalPages) {
+        showToast(`⏭️ Đang sang trang ${currentPage + 1}...`);
+        currentPage += 1;
+        await loadSeries();
+        if (currentPageIds.length > 0) openFocusReader(currentPageIds[0]);
+      } else if (nextIdx < 0 && currentPage > 1) {
+        showToast(`⏮️ Đang lùi về trang ${currentPage - 1}...`);
+        currentPage -= 1;
+        await loadSeries();
+        if (currentPageIds.length > 0) openFocusReader(currentPageIds[currentPageIds.length - 1]);
+      } else {
+        showToast('Đã ở đầu/cuối danh sách.');
+      }
+    }
+
+    async function triageActionAndNext(newStatus) {
+      if (!activeFocusBookId) return;
+      const bid = String(activeFocusBookId);
+      const it = currentItemsMap[bid] || {};
+      const idx = currentPageIds.indexOf(bid);
+      try {
+        await fetch('/api/shuku/status', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ book_id: bid, status: newStatus })
+        });
+        const label = newStatus === 'read' ? '✅ Đã đọc' : newStatus === 'blacklist' ? '🚫 Đã chặn Blacklist' : '⭐ Đã lưu đọc sau';
+        showToast(`${label}: ${it.title_vi || bid}`);
+        if (currentTab === 'unread') {
+          currentPageIds.splice(idx, 1);
+          const card = document.getElementById(`card-${bid}`);
+          if (card) card.remove();
+          if (idx < currentPageIds.length) openFocusReader(currentPageIds[idx]);
+          else {
+            await loadSeries();
+            if (currentPageIds.length > 0) openFocusReader(currentPageIds[0]);
+            else closeFocusReader();
+          }
+        } else {
+          triageStep(1);
+        }
+      } catch (e) {}
+    }
+
+    async function triageBookmarkPosition() {
+      if (!activeFocusBookId) return;
+      const it = currentItemsMap[activeFocusBookId];
+      if (it && it.fixed_order) await saveCheckpoint(it.fixed_order);
+    }
+
+    function updateActiveTabUI() {
+      document.querySelectorAll('.tab-btn').forEach(btn => {
+        btn.classList.toggle('active', btn.dataset.tab === currentTab);
+      });
+    }
+
+    function updateFilterButtonsUI() {
+      const btnCS = document.getElementById('btnToggleCS');
+      const iconCS = document.getElementById('iconToggleCS');
+      if (btnCS && iconCS) {
+        btnCS.classList.toggle('active-require', onlyCS);
+        iconCS.className = onlyCS ? 'fa fa-check-circle' : 'fa fa-circle-o';
+      }
+
+      const btnQT = document.getElementById('btnToggleQT');
+      const iconQT = document.getElementById('iconToggleQT');
+      if (btnQT && iconQT) {
+        btnQT.classList.toggle('active-block', hideQT);
+        iconQT.className = hideQT ? 'fa fa-ban' : 'fa fa-eye';
+      }
+    }
+
+    function toggleLocalFilter(type) {
+      if (type === 'cs') onlyCS = !onlyCS;
+      else if (type === 'qt') hideQT = !hideQT;
+      updateFilterButtonsUI();
+      currentPage = 1;
+      loadSeries(true);
+    }
+
+    function switchTab(tab) {
+      currentTab = tab;
+      localStorage.setItem('sk_tab', tab);
+      if (tab === 'unread') {
+        currentPage = parseInt(localStorage.getItem('sk_page_unread') || '1', 10);
+      } else {
+        currentPage = 1;
+      }
+      updateActiveTabUI();
+      loadSeries();
+    }
+
+    function debounceSearch() {
+      clearTimeout(searchTimer);
+      searchTimer = setTimeout(() => {
+        currentPage = 1;
+        loadSeries();
+      }, 280);
+    }
+
+    function resetPageAndLoad() {
+      currentPage = 1;
+      loadSeries();
+    }
+
+    function escapeHtml(str) {
+      if (!str) return '';
+      return String(str)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;');
+    }
+
+    async function loadSeries(explicitFilterToggle = false) {
+      const q = document.getElementById('searchInput').value.trim();
+      const tag = document.getElementById('tagInput').value.trim();
+      const sort = document.getElementById('sortSelect').value;
+      const srcEl = document.getElementById('sourceSelect');
+      const src = srcEl ? srcEl.value : '';
+
+      const params = new URLSearchParams({
+        tab: currentTab,
+        page: currentPage,
+        per_page: perPage,
+        q,
+        tag,
+        sort,
+        src
+      });
+
+      if (explicitFilterToggle) {
+        params.set('only_cs', onlyCS ? '1' : '0');
+        params.set('hide_qt', hideQT ? '1' : '0');
+        params.set('hide_sweet', hideSweet ? '1' : '0');
+      }
+
+      try {
+        const res = await fetch(`/api/shuku/series?${params.toString()}`);
+        const data = await res.json();
+
+        if (data.filters) {
+          onlyCS = !!data.filters.only_chuanshu;
+          hideQT = !!data.filters.hide_quick_trans;
+          hideSweet = !!data.filters.hide_sweet;
+          updateFilterButtonsUI();
+        }
+
+        totalPages = data.total_pages || 1;
+        if (currentPage > totalPages) currentPage = totalPages;
+        if (currentTab === 'unread') {
+          localStorage.setItem('sk_page_unread', String(currentPage));
+        }
+
+        bookmarkedOrder = data.bookmarked_order || 0;
+        document.getElementById('lblBookmarkOrder').textContent =
+          bookmarkedOrder > 0 ? `(#${bookmarkedOrder})` : '';
+
+        const c = data.counts || {};
+        document.getElementById('cnt-unread').textContent = c.unread || 0;
+        document.getElementById('cnt-bookmark').textContent = c.bookmark || 0;
+        document.getElementById('cnt-read').textContent = c.read || 0;
+        document.getElementById('cnt-blacklist').textContent = c.blacklist || 0;
+        document.getElementById('cnt-all').textContent = c.all_raw || 0;
+
+        document.getElementById('lblTotalCS').textContent = `${c.cs_total || 0} bộ`;
+        document.getElementById('lblHiddenQT').textContent = `${c.qt_hidden || 0} bộ`;
+        document.getElementById('filteredSummaryLabel').textContent =
+          `Hiển thị ${data.total_items || 0} / ${c.all_raw || 0} bộ`;
+
+        renderCards(data.items || [], tag);
+        renderPagination(data.page, data.total_pages, data.total_items);
+        updateSyncUI(data.sync_state);
+      } catch (err) {
+        console.error('Lỗi tải danh sách 52Shuku:', err);
+      }
+    }
+
+    function renderCards(items, activeTag) {
+      const container = document.getElementById('seriesList');
+      if (!items.length) {
+        container.innerHTML = `
+          <div class="empty-state">
+            <i class="fa fa-archive" style="font-size:36px; margin-bottom:10px; display:block;"></i>
+            <div style="font-size:15px; font-weight:600;">Không tìm thấy bộ truyện nào khớp bộ lọc</div>
+            <div style="font-size:13px; margin-top:6px;">Bạn có thể bấm tắt nút <b>"Chỉ hiện Xuyên Thư"</b> để xem toàn bộ kho Chủ Công, hoặc bấm <b>"Cào toàn bộ 52Shuku"</b>.</div>
+          </div>
+        `;
+        return;
+      }
+
+      container.innerHTML = items.map(item => {
+        const bid = item.book_id;
+        const isBookmarkedPos = (bookmarkedOrder > 0 && item.fixed_order === bookmarkedOrder);
+
+        const tagsCn = item.tags_cn || [];
+        const tagsVi = item.tags_vi || [];
+        const tagsHtml = tagsCn.map((tCn, idx) => {
+          const tVi = tagsVi[idx] || tCn;
+          const isMpreg = tCn.includes('生子');
+          const isWarn = (tCn.includes('快穿') || tCn.includes('甜'));
+          const isCS = (tCn.includes('穿书'));
+          const cls = isMpreg ? 'mpreg-tag' : (isWarn ? 'warn-tag' : (isCS ? 'cs-tag' : ''));
+          return `<span class="sk-tag ${cls}" onclick="filterByTag('${escapeHtml(tCn)}')">${isMpreg ? '👶 ' : ''}${escapeHtml(tVi)} (${escapeHtml(tCn)})</span>`;
+        }).join('');
+
+        let actionBtns = '';
+        if (currentTab === 'read' || currentTab === 'blacklist') {
+          actionBtns = `
+            <button class="act-btn btn-read" onclick="changeStatus('${bid}', 'unread', '${escapeHtml(item.title_vi)}')">
+              <i class="fa fa-undo"></i> Khôi phục Chưa đọc
+            </button>
+          `;
+        } else {
+          actionBtns = `
+            <button class="act-btn btn-read" onclick="changeStatus('${bid}', 'read', '${escapeHtml(item.title_vi)}')">
+              <i class="fa fa-check"></i> Đã đọc
+            </button>
+            <button class="act-btn btn-blacklist" onclick="changeStatus('${bid}', 'blacklist', '${escapeHtml(item.title_vi)}')">
+              <i class="fa fa-ban"></i> Blacklist
+            </button>
+            <button class="act-btn btn-bookmark" onclick="changeStatus('${bid}', '${item.status === 'bookmark' ? 'unread' : 'bookmark'}', '${escapeHtml(item.title_vi)}')">
+              <i class="fa ${item.status === 'bookmark' ? 'fa-star' : 'fa-star-o'}"></i> ${item.status === 'bookmark' ? 'Bỏ lưu' : 'Lưu'}
+            </button>
+            <button class="act-btn btn-checkpoint" onclick="saveCheckpoint(${item.fixed_order})">
+              <i class="fa fa-map-pin"></i> Đánh dấu #${item.fixed_order}
+            </button>
+          `;
+        }
+
+        const lengthText = item.page_count > 0
+          ? `${item.page_count} trang (~${Math.round(item.est_words / 10000)} vạn chữ)`
+          : 'Đang lấy độ dài...';
+
+        const cpHtml = item.protagonist_hv
+          ? `<div class="sk-protagonist-bar" id="cp-${bid}">👥 ${escapeHtml(item.protagonist_hv)} <span style="color:#64748b; font-weight:400;">(${escapeHtml(item.protagonist_cn)})</span></div>`
+          : `<div class="sk-protagonist-bar" id="cp-${bid}" style="display:none;"></div>`;
+
+        return `
+          <div class="sk-card ${isBookmarkedPos ? 'bookmarked-pos' : ''}" id="card-${bid}">
+            <div class="sk-badge-col">
+              <div class="sk-book-icon"><i class="fa fa-book"></i></div>
+              <div class="sk-status-pill">✓ ${escapeHtml(item.status_badge || '完结')}</div>
+              <div class="sk-length-pill" id="len-${bid}">${escapeHtml(lengthText)}</div>
+              <a href="${escapeHtml(item.read_url)}" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="padding:4px 8px; font-size:11.5px; width:100%; justify-content:center; margin-top:4px;">
+                <i class="fa fa-external-link"></i> Đọc Full Raw
+              </a>
+            </div>
+
+            <div class="sk-body-col">
+              <div class="card-header-row">
+                <div class="sk-title-wrap">
+                  <div class="sk-title-main">
+                    <span class="fixed-idx-badge">#${item.fixed_order}</span>
+                    ${isBookmarkedPos ? '<span style="background:#f59e0b;color:#fff;font-size:11px;font-weight:700;padding:2px 7px;border-radius:4px;">📌 ĐANG XEM TỚI ĐÂY</span>' : ''}
+                    <a class="sk-title-link" href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">
+                      ${escapeHtml(item.title_vi || item.title_hv)}
+                    </a>
+                  </div>
+                  <div class="sk-title-sub">
+                    <span><strong>Hán Việt:</strong> ${escapeHtml(item.title_hv)}</span>
+                    <span>•</span>
+                    <span><strong>Tên gốc:</strong> <span style="color:#0f172a;font-weight:600;">${escapeHtml(item.title_cn)}</span></span>
+                    <button class="copy-cn-btn" onclick="copyText('${escapeHtml(item.title_cn)}')">
+                      <i class="fa fa-copy"></i> Copy tên Trung
+                    </button>
+                  </div>
+                </div>
+                <div class="card-actions">
+                  ${actionBtns}
+                </div>
+              </div>
+
+              <div class="sk-stats">
+                <span id="src-${bid}">${renderSourceBadge(item.source_site)}</span>
+                <span><i class="fa fa-user"></i> Tác giả: <strong>${escapeHtml(item.author_hv)}</strong> (${escapeHtml(item.author_cn)})</span>
+                <span><i class="fa fa-calendar"></i> Ngày đăng kho: ${escapeHtml(item.pub_date)}</span>
+                <span id="oneline-${bid}">${item.one_line_hv ? `💡 <em>"${escapeHtml(item.one_line_hv)}"</em>` : ''}</span>
+              </div>
+
+              ${cpHtml}
+
+              <div class="sk-tags" id="tags-${bid}">
+                ${tagsHtml}
+              </div>
+
+              <div class="sk-short-desc">
+                <strong>📝 Giới thiệu trích đoạn (Hán-Việt):</strong>
+                <div>${escapeHtml(item.short_desc_hv)}</div>
+                <div style="color:#64748b; font-size:13px; margin-top:3px;">${escapeHtml(item.short_desc_cn)}</div>
+              </div>
+
+              <div style="display:flex; gap:8px; flex-wrap:wrap;">
+                <button class="btn btn-primary" style="padding:5px 12px; font-size:12.5px;" id="btn-detail-${bid}" onclick="toggleFullDetail('${bid}')">
+                  <i class="fa fa-file-text-o"></i> Xem Toàn Bộ Văn Án + Gỡ Mìn & Dịch Tiếng Việt
+                </button>
+                <button class="btn btn-secondary" style="padding:5px 12px; font-size:12.5px; background:#7c2d12; color:#fff; border-color:#7c2d12;" onclick="openFocusReader('${bid}')">
+                  <i class="fa fa-fighter-jet"></i> Lướt Nhanh Toàn Màn Hình
+                </button>
+              </div>
+
+              <div class="sk-full-desc-box" id="detail-box-${bid}">
+                <div class="desc-lang-tabs">
+                  <button class="desc-lang-btn active" id="tab-vi-${bid}" onclick="switchDescLang('${bid}', 'vi')">🇻🇳 Bản dịch Tiếng Việt</button>
+                  <button class="desc-lang-btn" id="tab-en-${bid}" onclick="switchDescLang('${bid}', 'en')">🇬🇧 English</button>
+                  <button class="desc-lang-btn" id="tab-cn-${bid}" onclick="switchDescLang('${bid}', 'cn')">🇨🇳 Nguyên văn Tiếng Trung</button>
+                </div>
+                <div id="desc-content-vi-${bid}"></div>
+                <div id="desc-content-en-${bid}" style="display:none;"></div>
+                <div id="desc-content-cn-${bid}" style="display:none;"></div>
+              </div>
+            </div>
+          </div>
+        `;
+      }).join('');
+
+      currentPageIds = items.map(it => String(it.book_id));
+      items.forEach(it => {
+        currentItemsMap[it.book_id] = Object.assign(currentItemsMap[it.book_id] || {}, it);
+      });
+
+      const unfetchedIds = items.filter(it => !it.detail_fetched).map(it => it.book_id);
+      if (unfetchedIds.length > 0) {
+        autoEnrichVisibleCards(unfetchedIds);
+      }
+    }
+
+    async function autoEnrichVisibleCards(bookIds) {
+      try {
+        const res = await fetch('/api/shuku/batch-meta', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ book_ids: bookIds })
+        });
+        const data = await res.json();
+        if (!data.ok || !data.items) return;
+        Object.values(data.items).forEach(it => {
+          const bid = it.book_id;
+          currentItemsMap[bid] = Object.assign(currentItemsMap[bid] || {}, it);
+          if (it.source_site) {
+            const srcEl = document.getElementById(`src-${bid}`);
+            if (srcEl) srcEl.innerHTML = renderSourceBadge(it.source_site);
+          }
+          const lenEl = document.getElementById(`len-${bid}`);
+          if (lenEl && it.page_count > 0) {
+            lenEl.textContent = `${it.page_count} trang (~${Math.round(it.est_words / 10000)} vạn chữ)`;
+          }
+          if (it.protagonist_hv) {
+            const cpEl = document.getElementById(`cp-${bid}`);
+            if (cpEl) {
+              cpEl.style.display = 'inline-block';
+              cpEl.innerHTML = `👥 ${escapeHtml(it.protagonist_hv)} <span style="color:#64748b; font-weight:400;">(${escapeHtml(it.protagonist_cn)})</span>`;
+            }
+          }
+          if (it.tags_cn && it.tags_cn.length) {
+            const tagsEl = document.getElementById(`tags-${bid}`);
+            if (tagsEl) {
+              tagsEl.innerHTML = it.tags_cn.map((tCn, idx) => {
+                const tVi = (it.tags_vi && it.tags_vi[idx]) || tCn;
+                const isMpreg = tCn.includes('生子');
+                const isWarn = (tCn.includes('快穿') || tCn.includes('甜'));
+                const isCS = (tCn.includes('穿书'));
+                const cls = isMpreg ? 'mpreg-tag' : (isWarn ? 'warn-tag' : (isCS ? 'cs-tag' : ''));
+                return `<span class="sk-tag ${cls}" onclick="filterByTag('${escapeHtml(tCn)}')">${isMpreg ? '👶 ' : ''}${escapeHtml(tVi)} (${escapeHtml(tCn)})</span>`;
+              }).join('');
+            }
+          }
+        });
+      } catch (e) {}
+    }
+
+    function formatParagraphsHtml(text) {
+      if (!text) return '<em>Không có nội dung văn án.</em>';
+      return text
+        .split(/\n+/)
+        .map(p => p.trim())
+        .filter(Boolean)
+        .map(p => {
+          if (/^(Tóm tắt một câu|Một câu giới thiệu|Nhân vật chính|Thẻ nội dung|Tag nội dung|Hướng dẫn đọc|Gỡ mìn|One-sentence|Protagonist|Content tags|Reading Guide|내용|内容标签|主角|一句话简介|立意)/i.test(p) || /^[【\[].+?[】\]]/.test(p)) {
+            return `<div class="sk-desc-highlight">${escapeHtml(p)}</div>`;
+          }
+          return `<p class="sk-desc-p">${escapeHtml(p)}</p>`;
+        })
+        .join('');
+    }
+
+    async function toggleFullDetail(bookId) {
+      const box = document.getElementById(`detail-box-${bookId}`);
+      const btn = document.getElementById(`btn-detail-${bookId}`);
+      if (!box) return;
+
+      if (box.classList.contains('open')) {
+        box.classList.remove('open');
+        btn.innerHTML = `<i class="fa fa-file-text-o"></i> Xem Toàn Bộ Văn Án + Gỡ Mìn & Dịch Tiếng Việt`;
+        return;
+      }
+
+      box.classList.add('open');
+      const viEl = document.getElementById(`desc-content-vi-${bookId}`);
+      const enEl = document.getElementById(`desc-content-en-${bookId}`);
+      const cnEl = document.getElementById(`desc-content-cn-${bookId}`);
+
+      if (!viEl.innerHTML) {
+        viEl.innerHTML = `<div style="color:#5b21b6;"><i class="fa fa-spinner fa-spin"></i> Đang trích xuất toàn bộ văn án + gỡ mìn từ 52Shuku và dịch sang Tiếng Việt & Tiếng Anh...</div>`;
+        try {
+          const res = await fetch(`/api/shuku/detail?book_id=${encodeURIComponent(bookId)}&tr=1`);
+          const data = await res.json();
+          if (data.ok && data.item) {
+            const it = data.item;
+            viEl.innerHTML = formatParagraphsHtml(it.full_desc_vi);
+            enEl.innerHTML = formatParagraphsHtml(it.full_desc_en);
+            cnEl.innerHTML = formatParagraphsHtml(it.full_desc_cn);
+          } else {
+            viEl.innerHTML = `<span style="color:#dc2626;">Không thể tải chi tiết.</span>`;
+          }
+        } catch (err) {
+          viEl.innerHTML = `<span style="color:#dc2626;">Lỗi kết nối: ${escapeHtml(err.message)}</span>`;
+        }
+      }
+      btn.innerHTML = `<i class="fa fa-chevron-up"></i> Thu gọn Văn Án`;
+    }
+
+    function switchDescLang(bookId, lang) {
+      ['vi', 'en', 'cn'].forEach(l => {
+        const tabBtn = document.getElementById(`tab-${l}-${bookId}`);
+        const contentDiv = document.getElementById(`desc-content-${l}-${bookId}`);
+        if (tabBtn) tabBtn.classList.toggle('active', l === lang);
+        if (contentDiv) contentDiv.style.display = (l === lang) ? 'block' : 'none';
+      });
+    }
+
+    function filterByTag(tag) {
+      const input = document.getElementById('tagInput');
+      input.value = (input.value === tag) ? '' : tag;
+      currentPage = 1;
+      loadSeries();
+    }
+
+    function copyText(txt) {
+      navigator.clipboard.writeText(txt);
+      showToast(`📋 Đã copy: "${txt}"`);
+    }
+
+    async function changeStatus(bookId, newStatus, title) {
+      const card = document.getElementById(`card-${bookId}`);
+      if (card) card.classList.add('removing');
+      try {
+        await fetch('/api/shuku/status', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ book_id: bookId, status: newStatus })
+        });
+        showToast(`Đã cập nhật trạng thái: "${title}"`, async () => {
+          await fetch('/api/shuku/status', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ book_id: bookId, status: 'unread' })
+          });
+          loadSeries();
+        });
+        setTimeout(() => loadSeries(), 180);
+      } catch (e) {}
+    }
+
+    async function saveCheckpoint(fixedOrder) {
+      const res = await fetch('/api/shuku/bookmark', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ fixed_order: fixedOrder, per_page: perPage })
+      });
+      const data = await res.json();
+      if (data.ok) {
+        showToast(`📌 Đã đánh dấu vị trí tại bộ #${fixedOrder}`);
+        loadSeries();
+      }
+    }
+
+    async function jumpToBookmark() {
+      const res = await fetch(`/api/shuku/jump-bookmark?per_page=${perPage}`);
+      const data = await res.json();
+      if (!data.ok) {
+        showToast('⚠️ Bạn chưa đánh dấu vị trí bộ nào.');
+        return;
+      }
+      currentTab = 'unread';
+      currentPage = data.target_page;
+      updateActiveTabUI();
+      await loadSeries();
+      setTimeout(() => {
+        const el = document.querySelector('.bookmarked-pos');
+        if (el) el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }, 150);
+    }
+
+    function renderPagination(page, total, totalItems) {
+      const container = document.getElementById('paginationLinks');
+      document.getElementById('jumpPageInput').value = page;
+      if (total <= 1) {
+        container.innerHTML = `<em class="current">1</em> <span style="border:none; color:#64748b;">(${totalItems} bộ)</span>`;
+        return;
+      }
+      let html = '';
+      if (page > 1) html += `<a onclick="goToPage(${page - 1})">← Trước</a>`;
+      const pages = [1];
+      for (let p = Math.max(2, page - 2); p <= Math.min(total - 1, page + 2); p++) pages.push(p);
+      if (total > 1) pages.push(total);
+      const uniquePages = [...new Set(pages)].sort((a, b) => a - b);
+      let prev = 0;
+      for (const p of uniquePages) {
+        if (prev && p - prev > 1) html += `<span>…</span>`;
+        if (p === page) html += `<em class="current">${p}</em>`;
+        else html += `<a onclick="goToPage(${p})">${p}</a>`;
+        prev = p;
+      }
+      if (page < total) html += `<a onclick="goToPage(${page + 1})">Tiếp →</a>`;
+      html += `<span style="border:none; color:#64748b; margin-left:6px;">(${totalItems} bộ)</span>`;
+      container.innerHTML = html;
+    }
+
+    function goToPage(p) {
+      currentPage = Math.max(1, Math.min(totalPages, p));
+      loadSeries();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    function goToInputPage() {
+      const val = parseInt(document.getElementById('jumpPageInput').value || '1', 10);
+      goToPage(val);
+    }
+
+    async function triggerSync(mode) {
+      const res = await fetch('/api/shuku/sync', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ mode })
+      });
+      const data = await res.json();
+      if (!data.ok) showToast(data.message || 'Đang đồng bộ...');
+      else pollSyncStatus();
+    }
+
+    function updateSyncUI(st) {
+      if (!st) return;
+      const banner = document.getElementById('syncBanner');
+      if (st.is_syncing) {
+        banner.classList.add('active');
+        document.getElementById('syncMessage').textContent = st.message || 'Đang đồng bộ...';
+        const pct = st.total_pages > 0 ? Math.round((st.current_page / st.total_pages) * 100) : 10;
+        document.getElementById('syncProgressFill').style.width = `${pct}%`;
+        document.getElementById('syncPageCounter').textContent = `${st.current_page}/${st.total_pages}`;
+      } else {
+        banner.classList.remove('active');
+      }
+      if (st.last_sync_at) {
+        const dt = new Date(st.last_sync_at * 1000);
+        document.getElementById('lastSyncLabel').textContent =
+          `Đồng bộ lần cuối: ${dt.toLocaleTimeString('vi-VN')} — ${st.message || 'Sẵn sàng'}`;
+      }
+    }
+
+    let wasSyncing = false;
+    async function pollSyncStatus() {
+      try {
+        const res = await fetch('/api/shuku/sync-status');
+        const data = await res.json();
+        const st = data.sync_state || {};
+        updateSyncUI(st);
+        if (st.is_syncing && st.current_page <= 2) loadSeries();
+        if (wasSyncing && !st.is_syncing) loadSeries();
+        wasSyncing = st.is_syncing;
+      } catch (e) {}
+    }
+
+    function showToast(text, undoCallback = null) {
+      const container = document.getElementById('toastContainer');
+      const el = document.createElement('div');
+      el.className = 'toast';
+      el.innerHTML = `<span>${escapeHtml(text)}</span>`;
+      if (undoCallback) {
+        const btn = document.createElement('button');
+        btn.className = 'toast-undo-btn';
+        btn.textContent = 'Hoàn tác';
+        btn.onclick = () => { undoCallback(); el.remove(); };
+        el.appendChild(btn);
+      }
+      container.appendChild(el);
+      setTimeout(() => { if (el.parentNode) el.remove(); }, 4500);
+    }
+
+    async function openSettingsModal() {
+      const res = await fetch('/api/shuku/settings');
+      const data = await res.json();
+      document.getElementById('cfgTargetUrl').value = data.target_url || '';
+      document.getElementById('cfgExcludedTags').value = (data.excluded_tags || []).join(', ');
+      document.getElementById('settingsModal').classList.add('open');
+    }
+
+    function closeSettingsModal() {
+      document.getElementById('settingsModal').classList.remove('open');
+    }
+
+    async function saveSettings() {
+      const target_url = document.getElementById('cfgTargetUrl').value.trim();
+      const excluded_tags = document.getElementById('cfgExcludedTags').value
+        .split(',')
+        .map(s => s.trim())
+        .filter(Boolean);
+      await fetch('/api/shuku/settings', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ target_url, excluded_tags })
+      });
+      closeSettingsModal();
+      showToast('Đã lưu cài đặt.');
+      loadSeries();
+    }
+
+    initApp();
+  </script>
+</body>
+</html>

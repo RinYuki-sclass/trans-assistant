@@ -996,6 +996,34 @@ try:
 except Exception as _jj_err:
     print(f"[WARN] Không thể nạp module JJWXC Tracker: {_jj_err}")
 
+try:
+    from shuku_tracker_server import (
+        shuku_index_page,
+        api_shuku_list_series,
+        api_shuku_detail,
+        api_shuku_batch_meta,
+        api_shuku_update_status,
+        api_shuku_bookmark,
+        api_shuku_jump_bookmark,
+        api_shuku_trigger_sync,
+        api_shuku_sync_status,
+        api_shuku_settings,
+    )
+    routes.extend([
+        Route("/shuku", shuku_index_page),
+        Route("/api/shuku/series", api_shuku_list_series, methods=["GET"]),
+        Route("/api/shuku/detail", api_shuku_detail, methods=["GET"]),
+        Route("/api/shuku/batch-meta", api_shuku_batch_meta, methods=["POST"]),
+        Route("/api/shuku/status", api_shuku_update_status, methods=["POST"]),
+        Route("/api/shuku/bookmark", api_shuku_bookmark, methods=["POST"]),
+        Route("/api/shuku/jump-bookmark", api_shuku_jump_bookmark, methods=["GET"]),
+        Route("/api/shuku/sync", api_shuku_trigger_sync, methods=["POST"]),
+        Route("/api/shuku/sync-status", api_shuku_sync_status, methods=["GET"]),
+        Route("/api/shuku/settings", api_shuku_settings, methods=["GET", "POST"]),
+    ])
+except Exception as _sk_err:
+    print(f"[WARN] Không thể nạp module 52Shuku Tracker: {_sk_err}")
+
 routes.append(Mount("/static", StaticFiles(directory=STATIC_DIR), name="static"))
 
 app = Starlette(

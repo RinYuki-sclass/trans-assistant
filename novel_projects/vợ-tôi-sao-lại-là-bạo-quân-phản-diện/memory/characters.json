@@ -1,0 +1,46 @@
+[
+  {
+    "name": "Tạ Trì",
+    "hanviet_name": "Tạ Trì",
+    "original_name": "谢迟",
+    "gender": "Nam (Alpha)",
+    "role": "Công chính (Sát thủ Dark Web Tinh lịch 3000 xuyên không, mỹ công, niên hạ tiểu cẩu công)",
+    "narration_pronoun": "cậu",
+    "dialogue_pronoun": "tôi / em / thuộc hạ",
+    "personality": "Tay tàn nhẫn dứt khoát, tâm tư ngây thơ (điện ba hệ), thẳng nam tự bẻ cong, mê vợ và cưng chiều vợ vô điều kiện",
+    "notes": "Xuyên không mang theo vũ khí và thiết bị công nghệ cao tương lai 3000 năm."
+  },
+  {
+    "name": "Yến Vãn Thu",
+    "hanviet_name": "Yến Vãn Thu",
+    "original_name": "晏晚秋",
+    "gender": "Nam (S-grade Alpha)",
+    "role": "Thụ chính (Bạo quân phản diện, thiếu niên đế vương, cường thụ, soái thụ)",
+    "narration_pronoun": "anh",
+    "dialogue_pronoun": "ta / anh",
+    "personality": "Âm u, đa nghi, khát máu hung tàn trước mặt kẻ thù, nhưng nội tâm thiếu thốn tình cảm, mang thai đôi với Tạ Trì",
+    "notes": "Pheromone mùi tuyết tùng (bách hương) lạnh ngọt. Do rối loạn tin tức tố và thuốc dẫn đến có thể thụ thai."
+  },
+  {
+    "name": "Yến Bạch Nguyệt",
+    "hanviet_name": "Yến Bạch Nguyệt",
+    "original_name": "晏白月",
+    "gender": "Nam (Omega)",
+    "role": "Tam hoàng tử (Phản diện phụ / Pháo hôi)",
+    "narration_pronoun": "hắn / gã",
+    "dialogue_pronoun": "ta",
+    "personality": "Tâm cơ trà xanh, giả bộ thánh thiện, thâm độc, lợi dụng nguyên thân Tạ Trì",
+    "notes": "Bị Tạ Trì chém đầu lấy thủ cấp dâng cho Yến Vãn Thu."
+  },
+  {
+    "name": "Yến Triêu Khải",
+    "hanviet_name": "Yến Triêu Khải",
+    "original_name": "晏朝铠",
+    "gender": "Nam (Alpha)",
+    "role": "Đại hoàng tử",
+    "narration_pronoun": "hắn / gã",
+    "dialogue_pronoun": "ta",
+    "personality": "Tàn nhẫn, dã tâm tranh quyền đoạt vị, câu kết thế lực ngoại tộc hãm hại Yến Vãn Thu",
+    "notes": "Kẻ đứng sau vụ hạ độc tin tức tố của Yến Vãn Thu."
+  }
+]

@@ -395,8 +395,19 @@ def detect_is_quick_trans(title_cn: str, tags: List[str], short_desc: str = "", 
     return False
 
 
-def detect_is_sweet(tags: List[str]) -> bool:
+def detect_is_sweet(tags: List[str], desc_text: str = "") -> bool:
     """
-    Kiểm tra truyện có gắn tag Điềm văn ('甜文') hay không.
+    Kiểm tra truyện có gắn các tag bị loại bỏ vĩnh viễn:
+    - Điềm văn ('甜文', '甜宠文', '甜宠', '小甜饼', '无虐甜文')
+    - Chủng điền ('种田文', '种田')
+    - Mỹ thực ('美食', '美食文')
     """
-    return "甜文" in (tags or [])
+    banned_tags = {"甜文", "甜宠文", "甜宠", "小甜饼", "无虐甜文", "种田文", "种田", "美食", "美食文"}
+    for t in (tags or []):
+        if t in banned_tags:
+            return True
+    if desc_text:
+        for kw in ("小甜饼", "甜宠文", "无虐甜文", "1v1甜文", "主攻甜文", "种田文", "美食文"):
+            if kw in desc_text:
+                return True
+    return False

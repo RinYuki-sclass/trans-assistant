@@ -5,7 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Tấn Giang (JJWXC) Series Tracker — Chủ Công • Xuyên Thư • Đã Hoàn</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
   <style>
     :root {
       --jj-green: #0d9488;
@@ -552,6 +554,13 @@
     .jj-tag.warn-tag {
       background-color: #dc2626;
     }
+    .jj-tag.mpreg-tag {
+      background: linear-gradient(135deg, #db2777, #be185d) !important;
+      color: #ffffff !important;
+      border: 1px solid #f472b6;
+      box-shadow: 0 1px 5px rgba(219, 39, 119, 0.4);
+      font-weight: 800;
+    }
 
     /* Summary Box */
     .jj-short-desc {
@@ -561,40 +570,361 @@
       margin-bottom: 8px;
     }
 
-    .jj-full-desc-box {
-      margin-top: 10px;
-      padding: 14px 16px;
-      background: #f8fafc;
-      border: 1px solid #cbd5e1;
-      border-radius: 6px;
-      font-size: 14.5px;
-      line-height: 1.65;
-      display: none;
+    /* ==================================================================== */
+    /* EYE-FRIENDLY NOVEL SUMMARY READER (PC OPTIMIZED)                    */
+    /* ==================================================================== */
+    :root {
+      --reader-font-size: 16.5px;
+      --reader-line-height: 1.85;
     }
-    .jj-full-desc-box.open {
+
+    .jj-reader-box {
+      margin-top: 12px;
+      border-radius: 8px;
+      transition: background 0.2s, color 0.2s, border-color 0.2s;
+      display: none;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+      overflow: hidden;
+    }
+    .jj-reader-box.open {
       display: block;
     }
 
-    .desc-lang-tabs {
-      display: flex;
-      gap: 6px;
-      margin-bottom: 10px;
-      border-bottom: 1px solid #cbd5e1;
-      padding-bottom: 8px;
+    /* THEME 1: SEPIA / GIẤY ẤM (Lọc ánh sáng xanh, chống mỏi mắt hàng đầu) */
+    .reader-theme-sepia {
+      background: #fbf7ee !important;
+      border: 1px solid #e5dac2 !important;
+      color: #382c1e !important;
     }
-    .desc-lang-btn {
+    .reader-theme-sepia .reader-toolbar {
+      background: #f3ebd8;
+      border-bottom: 1px solid #e4d7be;
+      color: #453422;
+    }
+    .reader-theme-sepia .reader-dual-divider {
+      border-right: 1px solid #e4d7be;
+    }
+    .reader-theme-sepia .reader-quote {
+      border-left: 3px solid #bfa47e;
+      background: rgba(191, 164, 126, 0.12);
+    }
+    .reader-theme-sepia .reader-badge-section {
+      background: #eddcc1;
+      color: #553a1a;
+      border: 1px solid #dfcbb0;
+    }
+    .reader-theme-sepia .r-tab-btn,
+    .reader-theme-sepia .r-btn {
+      background: #fffdf9;
+      color: #382c1e;
+      border-color: #dfd2b9;
+    }
+
+    /* THEME 2: SOFT PAPER / GIẤY KEM SÁNG */
+    .reader-theme-paper {
+      background: #fdfbf7 !important;
+      border: 1px solid #e5dfd5 !important;
+      color: #27272a !important;
+    }
+    .reader-theme-paper .reader-toolbar {
+      background: #f4eee3;
+      border-bottom: 1px solid #e2d9cb;
+      color: #333;
+    }
+    .reader-theme-paper .reader-dual-divider {
+      border-right: 1px solid #e2d9cb;
+    }
+    .reader-theme-paper .reader-quote {
+      border-left: 3px solid #c8baa6;
+      background: rgba(200, 186, 166, 0.12);
+    }
+    .reader-theme-paper .reader-badge-section {
+      background: #eee5d7;
+      color: #3f392f;
+      border: 1px solid #ded3c3;
+    }
+    .reader-theme-paper .r-tab-btn,
+    .reader-theme-paper .r-btn {
+      background: #ffffff;
+      color: #27272a;
+      border-color: #ded7cb;
+    }
+
+    /* THEME 3: SAGE GREEN / TRÀ XANH THƯ GIÃN */
+    .reader-theme-sage {
+      background: #f0f5ee !important;
+      border: 1px solid #cee0cd !important;
+      color: #1a301e !important;
+    }
+    .reader-theme-sage .reader-toolbar {
+      background: #e3ece1;
+      border-bottom: 1px solid #c7d9c6;
+      color: #1e3623;
+    }
+    .reader-theme-sage .reader-dual-divider {
+      border-right: 1px solid #c7d9c6;
+    }
+    .reader-theme-sage .reader-quote {
+      border-left: 3px solid #8fad8e;
+      background: rgba(143, 173, 142, 0.15);
+    }
+    .reader-theme-sage .reader-badge-section {
+      background: #d9e9d6;
+      color: #1d3e21;
+      border: 1px solid #c3d9bf;
+    }
+    .reader-theme-sage .r-tab-btn,
+    .reader-theme-sage .r-btn {
+      background: #ffffff;
+      color: #1a301e;
+      border-color: #cadbc9;
+    }
+
+    /* THEME 4: SOFT DARK / ĐÊM DỊU CHỐNG CHÓI */
+    .reader-theme-dark {
+      background: #181f2a !important;
+      border: 1px solid #2d3748 !important;
+      color: #e2e8f0 !important;
+    }
+    .reader-theme-dark .reader-toolbar {
+      background: #111722;
+      border-bottom: 1px solid #283243;
+      color: #cbd5e1;
+    }
+    .reader-theme-dark .reader-dual-divider {
+      border-right: 1px solid #283243;
+    }
+    .reader-theme-dark .reader-quote {
+      border-left: 3px solid #4a5d78;
+      background: rgba(74, 93, 120, 0.22);
+    }
+    .reader-theme-dark .reader-badge-section {
+      background: #242f40;
+      color: #93c5fd;
+      border: 1px solid #3b495e;
+    }
+    .reader-theme-dark .r-tab-btn,
+    .reader-theme-dark .r-btn {
+      background: rgba(255,255,255,0.08);
+      color: #e2e8f0;
+      border-color: rgba(255,255,255,0.16);
+    }
+    .reader-theme-dark .r-tab-btn:hover,
+    .reader-theme-dark .r-btn:hover {
+      background: rgba(255,255,255,0.18);
+    }
+
+    /* TYPOGRAPHY FONTS */
+    .reader-font-sans {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+    }
+    .reader-font-serif {
+      font-family: 'Lora', 'Merriweather', Georgia, serif;
+    }
+
+    /* TOOLBAR */
+    .reader-toolbar {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      padding: 9px 14px;
+      font-size: 13px;
+      user-select: none;
+    }
+    .reader-tools-left, .reader-tools-right {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      flex-wrap: wrap;
+    }
+
+    .r-tab-btn {
+      font-size: 12.5px;
+      font-weight: 600;
+      padding: 5px 11px;
+      border-radius: 5px;
+      border: 1px solid;
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+    .r-tab-btn:hover {
+      opacity: 0.9;
+      transform: translateY(-1px);
+    }
+    .r-tab-btn.active {
+      background: #0d9488 !important;
+      color: #ffffff !important;
+      border-color: #0d9488 !important;
+      box-shadow: 0 1px 4px rgba(13, 148, 136, 0.35);
+    }
+
+    .r-btn {
       font-size: 12px;
       font-weight: 600;
-      padding: 4px 10px;
+      padding: 4px 8px;
       border-radius: 4px;
-      border: 1px solid #cbd5e1;
-      background: #fff;
+      border: 1px solid;
       cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      transition: all 0.15s;
     }
-    .desc-lang-btn.active {
-      background: var(--jj-green);
-      color: #fff;
-      border-color: var(--jj-green);
+    .r-btn:hover {
+      opacity: 0.88;
+    }
+
+    .theme-pill-dot {
+      width: 17px;
+      height: 17px;
+      border-radius: 50%;
+      border: 2px solid transparent;
+      cursor: pointer;
+      display: inline-block;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.25);
+      transition: transform 0.12s, border-color 0.12s;
+    }
+    .theme-pill-dot:hover {
+      transform: scale(1.2);
+    }
+    .theme-pill-dot.active {
+      border-color: #0d9488 !important;
+      transform: scale(1.15);
+      box-shadow: 0 0 0 2px rgba(13, 148, 136, 0.4);
+    }
+
+    /* READING CONTENT CONTAINER */
+    .reader-body-wrap {
+      padding: 22px 26px;
+      max-width: 860px; /* Khổ đọc sách vàng trên PC, ngăn mỏi mắt vì dòng quá dài */
+      margin: 0 auto;
+      transition: max-width 0.2s;
+    }
+    .reader-body-wrap.reader-full-width {
+      max-width: 100% !important;
+    }
+
+    .reader-text {
+      font-size: var(--reader-font-size);
+      line-height: var(--reader-line-height);
+      letter-spacing: 0.25px;
+      text-rendering: optimizeLegibility;
+      word-break: break-word;
+    }
+    .reader-text p {
+      margin: 0 0 14px 0;
+    }
+    .reader-text .reader-quote {
+      padding: 8px 14px;
+      border-radius: 0 6px 6px 0;
+      margin: 12px 0;
+      font-style: italic;
+    }
+    .reader-text .reader-badge-section {
+      display: inline-block;
+      font-size: 13.5px;
+      font-weight: 700;
+      padding: 3px 10px;
+      border-radius: 5px;
+      margin-top: 14px;
+      margin-bottom: 8px;
+    }
+
+    /* DUAL LANGUAGE SIDE-BY-SIDE VIEW (PC ONLY) */
+    .reader-dual-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+    }
+    .reader-dual-col {
+      min-width: 0;
+    }
+    .reader-dual-header {
+      font-size: 13px;
+      font-weight: 700;
+      padding-bottom: 7px;
+      margin-bottom: 14px;
+      border-bottom: 1px dashed rgba(0,0,0,0.18);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .reader-theme-dark .reader-dual-header {
+      border-bottom-color: rgba(255,255,255,0.18);
+    }
+
+    /* FOCUS READER MODAL */
+    .focus-modal-backdrop {
+      position: fixed;
+      inset: 0;
+      background: rgba(15, 23, 42, 0.72);
+      backdrop-filter: blur(5px);
+      z-index: 300;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+    }
+    .focus-modal-backdrop.open {
+      display: flex;
+    }
+    .focus-modal-card {
+      width: 100%;
+      max-width: 1000px;
+      max-height: 92vh;
+      display: flex;
+      flex-direction: column;
+      border-radius: 12px;
+      box-shadow: 0 20px 50px rgba(0,0,0,0.45);
+      overflow: hidden;
+      border: 1px solid;
+    }
+    .focus-modal-header {
+      padding: 12px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid rgba(0,0,0,0.1);
+      gap: 12px;
+    }
+    .focus-modal-title-area {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      min-width: 0;
+    }
+    .focus-modal-title-area img {
+      width: 42px;
+      height: 58px;
+      object-fit: cover;
+      border-radius: 4px;
+      border: 1px solid rgba(0,0,0,0.12);
+      flex-shrink: 0;
+    }
+    .focus-modal-titles h4 {
+      margin: 0;
+      font-size: 17px;
+      font-weight: 700;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-width: 650px;
+    }
+    .focus-modal-titles div {
+      font-size: 12.5px;
+      opacity: 0.8;
+      margin-top: 2px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-width: 650px;
+    }
+    .focus-modal-content {
+      flex: 1;
+      overflow-y: auto;
+      padding: 18px 24px 30px;
     }
 
     .jj-protagonist-bar {
@@ -729,6 +1059,12 @@
         <span class="brand-badge">Chủ Công • Xuyên Thư • Hoàn Chính Văn</span>
       </div>
       <div class="nav-actions">
+        <button class="btn btn-primary" style="background:#7c3aed; border-color:#6d28d9;" onclick="startSpeedTriage()" title="Mở chế độ lướt thẻ văn án siêu tốc bằng phím tắt (Phím F)">
+          <i class="fa fa-fighter-jet"></i> Lướt Nhanh Văn Án (Phím tắt)
+        </button>
+        <a class="btn btn-secondary" href="/shuku" style="background:#7c2d12; border-color:#9a3412; text-decoration:none; color:#fff;" title="Mở kho 52Shuku (Đọc Full Raw Chủ Công BL)">
+          <i class="fa fa-book"></i> 52Shuku (Full Raw)
+        </a>
         <a class="btn btn-secondary" href="/" title="Mở NovelUpdates Tracker">
           <i class="fa fa-exchange"></i> NovelUpdates
         </a>
@@ -801,11 +1137,9 @@
           <span class="sub-count" id="lblHiddenQT">0 bộ</span>
         </button>
 
-        <button id="btnToggleSweet" class="filter-toggle-btn active-block" onclick="toggleLocalFilter('sweet')">
-          <i class="fa fa-ban" id="iconToggleSweet"></i>
-          <span>Ẩn Điềm Văn (甜文)</span>
-          <span class="sub-count" id="lblHiddenSweet">0 bộ</span>
-        </button>
+        <span style="display:inline-flex; align-items:center; gap:6px; padding:6px 12px; border-radius:6px; font-size:12.5px; font-weight:700; background:#fee2e2; color:#991b1b; border:1px solid #fca5a5;">
+          <i class="fa fa-trash"></i> Đã xóa vĩnh viễn: Điềm Văn (甜文) • Chủng Điền (种田文) • Mỹ Thực (美食)
+        </span>
       </div>
 
       <div style="font-size:12.5px; color:#64748b;" id="lastSyncLabel">Đang kiểm tra kho dữ liệu...</div>
@@ -872,6 +1206,96 @@
   <!-- TOAST CONTAINER -->
   <div class="toast-container" id="toastContainer"></div>
 
+  <!-- FOCUS READER & SPEED-TRIAGE MODAL (OPTIMIZED FOR RESPONSIVE / SMALL WINDOWS) -->
+  <div class="focus-modal-backdrop" id="focusReaderModal" onclick="handleFocusModalBackdrop(event)">
+    <div class="focus-modal-card reader-theme-sepia reader-font-serif" id="focusModalCard" style="height:96vh; max-height:96vh;">
+      <!-- SLIM TOP BAR (1 ROW) -->
+      <div class="focus-modal-header" style="padding:8px 14px; align-items:center; flex-wrap:wrap; gap:8px;">
+        <div style="display:flex; align-items:center; gap:7px; min-width:0; flex:1; font-family:sans-serif;">
+          <span id="focusPosBadge" style="background:#0f766e; color:#fff; font-size:11px; font-weight:800; padding:2px 7px; border-radius:4px; white-space:nowrap;">#1 (1/25)</span>
+          <h4 id="focusTitleVi" style="margin:0; font-size:15.5px; font-weight:800; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">Tên Truyện</h4>
+          <span id="focusPreloadBadge" style="font-size:10.5px; font-weight:700; padding:2px 6px; border-radius:99px; background:rgba(16,185,129,0.16); color:#047857; white-space:nowrap;">⚡ 6/6</span>
+        </div>
+        <div style="display:flex; align-items:center; gap:4px; font-family:sans-serif; flex-shrink:0; flex-wrap:wrap;">
+          <button class="r-tab-btn active" style="padding:4px 8px; font-size:11.5px;" id="focusTab-vi" onclick="switchFocusLang('vi')">🇻🇳 Việt (1)</button>
+          <button class="r-tab-btn" style="padding:4px 8px; font-size:11.5px;" id="focusTab-en" onclick="switchFocusLang('en')">🇬🇧 Eng (2)</button>
+          <button class="r-tab-btn" style="padding:4px 8px; font-size:11.5px;" id="focusTab-cn" onclick="switchFocusLang('cn')">🇨🇳 Trung (3)</button>
+          <button class="r-tab-btn" style="padding:4px 8px; font-size:11.5px;" id="focusTab-dual" onclick="switchFocusLang('dual')" title="Đối chiếu song ngữ">⚖️ Song Ngữ (4)</button>
+          <button class="r-btn" onclick="adjustReaderFontSize(-1)" title="Giảm cỡ chữ"><i class="fa fa-font"></i>-</button>
+          <button class="r-btn" onclick="adjustReaderFontSize(1)" title="Tăng cỡ chữ"><i class="fa fa-font"></i>+</button>
+          <button class="r-btn" onclick="copyFocusCurrentDesc()" title="Copy văn án"><i class="fa fa-clone"></i></button>
+          <a id="focusExternalLink" href="#" target="_blank" rel="noopener" class="r-btn" style="background:#0d9488; color:#fff; border-color:#0d9488; text-decoration:none;">
+            <i class="fa fa-external-link"></i> JJWXC
+          </a>
+          <button class="r-btn" onclick="closeFocusReader()" title="Đóng (Esc)">
+            <i class="fa fa-times"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- SCROLLABLE READING AREA (85% OF MODAL HEIGHT) -->
+      <div class="focus-modal-content" style="padding:14px 20px 24px;">
+        <div style="background:rgba(0,0,0,0.04); border:1px solid rgba(0,0,0,0.09); border-radius:8px; padding:8px 12px; margin-bottom:14px; font-family:sans-serif; font-size:12.5px; display:flex; gap:10px; align-items:flex-start;">
+          <img id="focusCover" src="https://i9-static.jjwxc.net/noveldefaultcover.php?cover=MjBfbm92ZWxkZWZhdWx0Y292ZXI=&version=20230323" alt="Cover" style="width:42px; height:58px; object-fit:cover; border-radius:4px; flex-shrink:0;" />
+          <div style="flex:1; min-width:0;">
+            <div id="focusMetaSub" style="line-height:1.45;">Hán-Việt • Tác giả • CP</div>
+            <div id="focusTagsStrip" style="display:flex; flex-wrap:wrap; gap:4px; margin-top:5px;"></div>
+          </div>
+        </div>
+
+        <div class="reader-body-wrap" id="focusBodyWrap" style="max-width:820px; padding:4px 0;">
+          <div class="reader-text" id="focusDesc-vi"></div>
+          <div class="reader-text" id="focusDesc-en" style="display:none;"></div>
+          <div class="reader-text" id="focusDesc-cn" style="display:none;"></div>
+
+          <div class="reader-dual-grid" id="focusDesc-dual" style="display:none;">
+            <div class="reader-dual-col reader-dual-divider" style="padding-right:20px;">
+              <div class="reader-dual-header">
+                <span>🇻🇳 BẢN DỊCH TIẾNG VIỆT</span>
+                <button class="r-btn" style="font-size:11px;" onclick="copyFocusSpecificDesc('vi')"><i class="fa fa-copy"></i> Copy</button>
+              </div>
+              <div class="reader-text" id="focusDual-vi"></div>
+            </div>
+            <div class="reader-dual-col" style="padding-left:10px;">
+              <div class="reader-dual-header">
+                <span>🇨🇳 NGUYÊN VĂN TIẾNG TRUNG</span>
+                <button class="r-btn" style="font-size:11px;" onclick="copyFocusSpecificDesc('cn')"><i class="fa fa-copy"></i> Copy</button>
+              </div>
+              <div class="reader-text" id="focusDual-cn"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- SLIM BOTTOM ACTION BAR (1 ROW) -->
+      <div style="display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:6px; padding:7px 14px; background:rgba(0,0,0,0.05); border-top:1px solid rgba(0,0,0,0.1); font-family:sans-serif; flex-shrink:0;">
+        <div style="display:flex; align-items:center; gap:5px;">
+          <button class="r-btn" style="padding:5px 10px; font-weight:700;" onclick="triageStep(-1)" title="Bộ trước đó (Phím ← hoặc K)">
+            <i class="fa fa-arrow-left"></i> Trước (K)
+          </button>
+          <button class="r-btn" style="padding:5px 12px; font-weight:800; background:#0d9488; color:#fff; border-color:#0f766e;" onclick="triageStep(1)" title="Bộ tiếp theo (Phím →, J hoặc Space)">
+            Tiếp theo (Space) <i class="fa fa-arrow-right"></i>
+          </button>
+        </div>
+
+        <div style="display:flex; align-items:center; gap:5px; flex-wrap:wrap;">
+          <button class="r-btn" style="padding:5px 10px; font-weight:700; background:#fef3c7; color:#b45309; border-color:#fcd34d;" onclick="triageActionAndNext('bookmark')" title="Lưu đọc sau & Tiếp (Phím S)">
+            ⭐ Lưu (S)
+          </button>
+          <button class="r-btn" style="padding:5px 10px; font-weight:700; background:#dcfce7; color:#15803d; border-color:#86efac;" onclick="triageActionAndNext('read')" title="Đã đọc & Tiếp (Phím D)">
+            ✅ Đã đọc (D)
+          </button>
+          <button class="r-btn" style="padding:5px 10px; font-weight:700; background:#fee2e2; color:#b91c1c; border-color:#fca5a5;" onclick="triageActionAndNext('blacklist')" title="Chặn Blacklist & Tiếp (Phím X)">
+            🚫 Chặn (X)
+          </button>
+          <button class="r-btn" style="padding:5px 9px; font-weight:700;" onclick="triageBookmarkPosition()" title="Đánh dấu vị trí bộ này (Phím B)">
+            📍 Vị trí (B)
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- SETTINGS MODAL -->
   <div class="modal-backdrop" id="settingsModal">
     <div class="modal-card">
@@ -904,7 +1328,18 @@
     let hideSweet = true;
     let searchTimer = null;
 
+    /* Reader State & Settings (Persisted in localStorage) */
+    let currentItemsMap = {};
+    const FONT_SIZES = ['14.5px', '16px', '17.5px', '19px', '21px'];
+    let currentFsIdx = parseInt(localStorage.getItem('jj_reader_font_size_idx') || '2', 10);
+    if (isNaN(currentFsIdx) || currentFsIdx < 0 || currentFsIdx >= FONT_SIZES.length) currentFsIdx = 2;
+    let currentReaderTheme = localStorage.getItem('jj_reader_theme') || 'sepia';
+    let currentReaderFontFamily = localStorage.getItem('jj_reader_font_family') || 'serif';
+    let activeFocusNovelId = null;
+    let activeFocusLang = 'vi';
+
     function initApp() {
+      initReaderSettings();
       updateActiveTabUI();
       loadSeries();
       setInterval(pollSyncStatus, 3000);
@@ -919,20 +1354,15 @@
     function updateFilterButtonsUI() {
       const btnQT = document.getElementById('btnToggleQT');
       const iconQT = document.getElementById('iconToggleQT');
-      btnQT.classList.toggle('active-block', hideQT);
-      iconQT.className = hideQT ? 'fa fa-ban' : 'fa fa-eye';
-
-      const btnSw = document.getElementById('btnToggleSweet');
-      const iconSw = document.getElementById('iconToggleSweet');
-      btnSw.classList.toggle('active-block', hideSweet);
-      iconSw.className = hideSweet ? 'fa fa-ban' : 'fa fa-eye';
+      if (btnQT && iconQT) {
+        btnQT.classList.toggle('active-block', hideQT);
+        iconQT.className = hideQT ? 'fa fa-ban' : 'fa fa-eye';
+      }
     }
 
     function toggleLocalFilter(type) {
       if (type === 'qt') {
         hideQT = !hideQT;
-      } else if (type === 'sweet') {
-        hideSweet = !hideSweet;
       }
       updateFilterButtonsUI();
       currentPage = 1;
@@ -1057,7 +1487,6 @@
         document.getElementById('cnt-all').textContent = c.all_raw || 0;
 
         document.getElementById('lblHiddenQT').textContent = `${c.qt_hidden || 0} bộ trong kho`;
-        document.getElementById('lblHiddenSweet').textContent = `${c.sweet_hidden || 0} bộ trong kho`;
         document.getElementById('filteredSummaryLabel').textContent =
           `Hiển thị ${data.total_items || 0} / ${c.all_raw || 0} bộ`;
 
@@ -1096,8 +1525,9 @@
         const tagsHtml = tagsCn.map((tCn, idx) => {
           const tVi = tagsVi[idx] || tCn;
           const isWarn = (tCn === '快穿' || tCn === '甜文');
+          const isMpreg = tCn.includes('生子');
           const isAct = activeTag && (activeTag === tCn || activeTag.toLowerCase() === tVi.toLowerCase());
-          return `<span class="jj-tag ${isWarn ? 'warn-tag' : ''} ${isAct ? 'active-filter' : ''}" onclick="filterByTag('${escapeHtml(tCn)}')">${escapeHtml(tVi)} (${escapeHtml(tCn)})</span>`;
+          return `<span class="jj-tag ${isMpreg ? 'mpreg-tag' : (isWarn ? 'warn-tag' : '')} ${isAct ? 'active-filter' : ''}" onclick="filterByTag('${escapeHtml(tCn)}')">${isMpreg ? '👶 ' : ''}${escapeHtml(tVi)} (${escapeHtml(tCn)})</span>`;
         }).join('');
 
         let actionBtns = '';
@@ -1195,26 +1625,84 @@
                 ${item.short_desc_cn ? `<span style="color:#64748b; font-size:13px;"> (${escapeHtml(item.short_desc_cn)})</span>` : ''}
               </div>
 
-              <div>
-                <button class="btn btn-primary" style="padding:5px 12px; font-size:12.5px;" id="btn-detail-${nid}" onclick="toggleFullDetail('${nid}')">
-                  <i class="fa fa-book"></i> Xem Văn Án Đầy Đủ & Dịch Tiếng Việt
+              <div style="display:flex; align-items:center; gap:8px; flex-wrap:wrap; margin-top:8px;">
+                <button class="btn btn-primary" style="padding:6px 14px; font-size:12.5px;" id="btn-detail-${nid}" onclick="toggleFullDetail('${nid}')">
+                  <i class="fa fa-book"></i> Xem Văn Án & Dịch
+                </button>
+                <button class="btn btn-secondary" style="color:#0f766e; border-color:#99f6e4; background:#f0fdfa; padding:6px 13px; font-size:12.5px;" onclick="openFocusReader('${nid}')" title="Mở chế độ đọc tập trung toàn màn hình trên PC chống mỏi mắt">
+                  <i class="fa fa-arrows-alt"></i> ⛶ Đọc Tập Trung
                 </button>
               </div>
 
-              <div class="jj-full-desc-box" id="detail-box-${nid}">
-                <div class="desc-lang-tabs">
-                  <button class="desc-lang-btn active" id="tab-vi-${nid}" onclick="switchDescLang('${nid}', 'vi')">🇻🇳 Bản dịch Tiếng Việt</button>
-                  <button class="desc-lang-btn" id="tab-hv-${nid}" onclick="switchDescLang('${nid}', 'hv')">📜 Phiên âm Hán-Việt</button>
-                  <button class="desc-lang-btn" id="tab-cn-${nid}" onclick="switchDescLang('${nid}', 'cn')">🇨🇳 Nguyên văn Tiếng Trung</button>
+              <!-- INLINE READER BOX (CHỐNG MỎI MẮT TRÊN PC) -->
+              <div class="jj-reader-box reader-theme-${currentReaderTheme} reader-font-${currentReaderFontFamily}" id="detail-box-${nid}">
+                <!-- TOOLBAR -->
+                <div class="reader-toolbar">
+                  <div class="reader-tools-left">
+                    <button class="r-tab-btn active" id="tab-vi-${nid}" onclick="switchDescLang('${nid}', 'vi')">🇻🇳 Tiếng Việt</button>
+                    <button class="r-tab-btn" id="tab-en-${nid}" onclick="switchDescLang('${nid}', 'en')">🇬🇧 English</button>
+                    <button class="r-tab-btn" id="tab-cn-${nid}" onclick="switchDescLang('${nid}', 'cn')">🇨🇳 Tiếng Trung</button>
+                    <button class="r-tab-btn" id="tab-dual-${nid}" onclick="switchDescLang('${nid}', 'dual')" title="Xem song song Tiếng Việt & Tiếng Trung trên màn hình PC">⚖️ Đối Chiếu Song Ngữ</button>
+                  </div>
+                  <div class="reader-tools-right">
+                    <!-- Themes chống mỏi mắt -->
+                    <span title="Chế độ Giấy Ấm (Sepia - Khuyên dùng)" class="theme-pill-dot ${currentReaderTheme === 'sepia' ? 'active' : ''}" style="background:#fbf7ee; border:1px solid #d4c5a9;" onclick="setGlobalReaderTheme('sepia')"></span>
+                    <span title="Chế độ Giấy Sáng Dịu (Soft Paper)" class="theme-pill-dot ${currentReaderTheme === 'paper' ? 'active' : ''}" style="background:#fdfbf7; border:1px solid #dcd7ce;" onclick="setGlobalReaderTheme('paper')"></span>
+                    <span title="Chế độ Trà Xanh Thư Giãn (Sage Green)" class="theme-pill-dot ${currentReaderTheme === 'sage' ? 'active' : ''}" style="background:#f0f5ee; border:1px solid #c2d6c1;" onclick="setGlobalReaderTheme('sage')"></span>
+                    <span title="Chế độ Đêm Dịu Nhẹ (Soft Dark)" class="theme-pill-dot ${currentReaderTheme === 'dark' ? 'active' : ''}" style="background:#181f2a; border:1px solid #334155;" onclick="setGlobalReaderTheme('dark')"></span>
+
+                    <!-- Font size controls -->
+                    <button class="r-btn" onclick="adjustReaderFontSize(-1)" title="Giảm cỡ chữ"><i class="fa fa-font"></i>-</button>
+                    <span id="lblReaderFontSize-${nid}" class="reader-fs-badge" style="font-size:11px; font-weight:700; min-width:38px; text-align:center;">${FONT_SIZES[currentFsIdx]}</span>
+                    <button class="r-btn" onclick="adjustReaderFontSize(1)" title="Tăng cỡ chữ"><i class="fa fa-font"></i>+</button>
+
+                    <!-- Font family toggle -->
+                    <button class="r-btn" onclick="toggleReaderFontFamily()" title="Đổi kiểu chữ Serif / Sans-serif"><i class="fa fa-text-height"></i> <span id="lblReaderFontFamily-${nid}">${currentReaderFontFamily === 'serif' ? 'Serif (Sách)' : 'Sans-serif'}</span></button>
+
+                    <!-- Copy -->
+                    <button class="r-btn" onclick="copyCurrentDesc('${nid}')" title="Copy văn án đang xem"><i class="fa fa-clone"></i> Copy</button>
+
+                    <!-- Expand Focus Modal -->
+                    <button class="r-btn" style="background:#0d9488; color:#fff; border-color:#0d9488;" onclick="openFocusReader('${nid}')" title="Phóng to toàn màn hình"><i class="fa fa-arrows-alt"></i></button>
+                  </div>
                 </div>
-                <div id="desc-content-vi-${nid}"></div>
-                <div id="desc-content-hv-${nid}" style="display:none;"></div>
-                <div id="desc-content-cn-${nid}" style="display:none;"></div>
+
+                <!-- READING BODY -->
+                <div class="reader-body-wrap" id="reader-wrap-${nid}">
+                  <div class="reader-text" id="desc-content-vi-${nid}"></div>
+                  <div class="reader-text" id="desc-content-en-${nid}" style="display:none;"></div>
+                  <div class="reader-text" id="desc-content-cn-${nid}" style="display:none;"></div>
+
+                  <!-- Dual Column Side-by-Side -->
+                  <div class="reader-dual-grid" id="desc-content-dual-${nid}" style="display:none;">
+                    <div class="reader-dual-col reader-dual-divider" style="padding-right:18px;">
+                      <div class="reader-dual-header">
+                        <span>🇻🇳 BẢN DỊCH TIẾNG VIỆT</span>
+                        <button class="r-btn" style="font-size:11px;" onclick="copySpecificDesc('${nid}', 'vi')"><i class="fa fa-copy"></i> Copy</button>
+                      </div>
+                      <div class="reader-text" id="dual-vi-${nid}"></div>
+                    </div>
+                    <div class="reader-dual-col" style="padding-left:6px;">
+                      <div class="reader-dual-header">
+                        <span>🇨🇳 NGUYÊN VĂN TIẾNG TRUNG</span>
+                        <button class="r-btn" style="font-size:11px;" onclick="copySpecificDesc('${nid}', 'cn')"><i class="fa fa-copy"></i> Copy</button>
+                      </div>
+                      <div class="reader-text" id="dual-cn-${nid}"></div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         `;
       }).join('');
+
+      // Cache items for reader lookup & Speed-Triage sequence
+      currentPageIds = items.map(it => String(it.novel_id));
+      items.forEach(it => {
+        currentItemsMap[it.novel_id] = Object.assign(currentItemsMap[it.novel_id] || {}, it);
+      });
+      applyReaderThemeAndFont();
 
       // Tự động tải ngầm Điểm đánh giá, Lượt cất giữ, Ảnh bìa và CP cho các bộ trên trang hiện tại
       const unfetchedIds = items.filter(it => !it.detail_fetched).map(it => it.novel_id);
@@ -1235,6 +1723,7 @@
         if (!data.ok || !data.items) return;
         Object.values(data.items).forEach(it => {
           const nid = it.novel_id;
+          currentItemsMap[nid] = Object.assign(currentItemsMap[nid] || {}, it);
           const scEl = document.getElementById(`score-${nid}`);
           if (scEl) scEl.innerHTML = renderStarsFromJJScore(it.review_score);
 
@@ -1263,12 +1752,25 @@
       }
     }
 
+    /* FORMAT VĂN ÁN: CHỐNG MỎI MẮT, PHÂN TÁCH ĐỀ MỤC & LỜI THOẠI RÕ RÀNG */
     function formatParagraphsHtml(text) {
-      if (!text) return '<em>Không có nội dung văn án.</em>';
-      return text
-        .split(/\n+/)
-        .map(p => `<p style="margin:0 0 8px 0;">${escapeHtml(p)}</p>`)
-        .join('');
+      if (!text) return '<em style="color:#94a3b8;">Không có nội dung văn án.</em>';
+      const rawChunks = text.split(/\n\s*\n/);
+      const paragraphs = (rawChunks.length > 1 ? rawChunks : text.split(/\n+/))
+        .map(p => p.trim())
+        .filter(Boolean);
+
+      return paragraphs.map(p => {
+        // Nhận diện tiêu đề đề mục: 【...】, [Văn án], Một câu tóm tắt, Lập ý...
+        if (/^[【\[].+?[】\]]/.test(p) || /^(Một câu tóm tắt|Lập ý|Hướng dẫn đọc|Lưu ý|Nhân vật|Tag nội dung|Nhãn nội dung|Tóm tắt):/i.test(p)) {
+          return `<div class="reader-badge-section">${escapeHtml(p)}</div>`;
+        }
+        // Nhận diện trích dẫn / lời thoại
+        const isQuote = /^[“"「『]/.test(p);
+        const quoteClass = isQuote ? 'reader-quote' : '';
+        const linesHtml = p.split('\n').map(l => escapeHtml(l.trim())).filter(Boolean).join('<br/>');
+        return `<p class="${quoteClass}">${linesHtml}</p>`;
+      }).join('');
     }
 
     async function toggleFullDetail(novelId) {
@@ -1278,25 +1780,33 @@
 
       if (box.classList.contains('open')) {
         box.classList.remove('open');
-        btn.innerHTML = `<i class="fa fa-book"></i> Xem Văn Án Đầy Đủ & Dịch Tiếng Việt`;
+        btn.innerHTML = `<i class="fa fa-book"></i> Xem Văn Án & Dịch`;
         return;
       }
 
       box.classList.add('open');
+      applyReaderThemeAndFont();
+
       const viEl = document.getElementById(`desc-content-vi-${novelId}`);
-      const hvEl = document.getElementById(`desc-content-hv-${novelId}`);
+      const enEl = document.getElementById(`desc-content-en-${novelId}`);
       const cnEl = document.getElementById(`desc-content-cn-${novelId}`);
+      const dualViEl = document.getElementById(`dual-vi-${novelId}`);
+      const dualCnEl = document.getElementById(`dual-cn-${novelId}`);
 
       if (!viEl.innerHTML) {
-        viEl.innerHTML = `<div style="color:#0f766e;"><i class="fa fa-spinner fa-spin"></i> Đang tải văn án đầy đủ, ảnh bìa, CP nhân vật từ Tấn Giang và dịch sang Tiếng Việt...</div>`;
+        viEl.innerHTML = `<div style="color:#0f766e; padding:12px 0;"><i class="fa fa-spinner fa-spin"></i> Đang tải văn án đầy đủ từ Tấn Giang và dịch sang Tiếng Việt & Tiếng Anh...</div>`;
         try {
           const res = await fetch(`/api/jjwxc/detail?novel_id=${encodeURIComponent(novelId)}&tr=1`);
           const data = await res.json();
           if (data.ok && data.item) {
             const it = data.item;
-            viEl.innerHTML = formatParagraphsHtml(it.full_desc_vi || it.full_desc_hv || it.full_desc_cn);
-            hvEl.innerHTML = formatParagraphsHtml(it.full_desc_hv);
+            currentItemsMap[novelId] = Object.assign(currentItemsMap[novelId] || {}, it);
+
+            viEl.innerHTML = formatParagraphsHtml(it.full_desc_vi);
+            enEl.innerHTML = formatParagraphsHtml(it.full_desc_en);
             cnEl.innerHTML = formatParagraphsHtml(it.full_desc_cn);
+            if (dualViEl) dualViEl.innerHTML = formatParagraphsHtml(it.full_desc_vi);
+            if (dualCnEl) dualCnEl.innerHTML = formatParagraphsHtml(it.full_desc_cn);
 
             if (it.short_desc_vi) {
               const sEl = document.getElementById(`short-vi-${novelId}`);
@@ -1332,12 +1842,427 @@
     }
 
     function switchDescLang(novelId, lang) {
-      ['vi', 'hv', 'cn'].forEach(l => {
+      const wrap = document.getElementById(`reader-wrap-${novelId}`);
+      const dualGrid = document.getElementById(`desc-content-dual-${novelId}`);
+      const tabDual = document.getElementById(`tab-dual-${novelId}`);
+
+      ['vi', 'en', 'cn'].forEach(l => {
         const tabBtn = document.getElementById(`tab-${l}-${novelId}`);
         const contentDiv = document.getElementById(`desc-content-${l}-${novelId}`);
-        if (tabBtn) tabBtn.classList.toggle('active', l === lang);
-        if (contentDiv) contentDiv.style.display = (l === lang) ? 'block' : 'none';
+        if (tabBtn) tabBtn.classList.toggle('active', lang === l);
+        if (contentDiv) contentDiv.style.display = (lang === l) ? 'block' : 'none';
       });
+
+      if (lang === 'dual') {
+        if (tabDual) tabDual.classList.add('active');
+        if (dualGrid) dualGrid.style.display = 'grid';
+        if (wrap) wrap.classList.add('reader-full-width');
+      } else {
+        if (tabDual) tabDual.classList.remove('active');
+        if (dualGrid) dualGrid.style.display = 'none';
+        if (wrap) wrap.classList.remove('reader-full-width');
+      }
+    }
+
+    /* READER CUSTOMIZATION CONTROLS & SPEED-TRIAGE KEYBOARD ENGINE */
+    let currentPageIds = [];
+    let preloadingSet = new Set();
+
+    function initReaderSettings() {
+      const fs = FONT_SIZES[currentFsIdx] || '17.5px';
+      document.documentElement.style.setProperty('--reader-font-size', fs);
+      applyReaderThemeAndFont();
+      document.addEventListener('keydown', (e) => {
+        const tag = (e.target && e.target.tagName) ? e.target.tagName.toLowerCase() : '';
+        if (tag === 'input' || tag === 'textarea' || tag === 'select') return;
+
+        const modal = document.getElementById('focusReaderModal');
+        const isModalOpen = modal && modal.classList.contains('open');
+
+        if (!isModalOpen) {
+          if (e.key === 'f' || e.key === 'F') {
+            e.preventDefault();
+            startSpeedTriage();
+          }
+          return;
+        }
+
+        if (e.key === 'Escape') {
+          e.preventDefault();
+          closeFocusReader();
+        } else if (e.key === 'ArrowRight' || e.key === 'j' || e.key === 'J' || e.key === ' ') {
+          e.preventDefault();
+          triageStep(1);
+        } else if (e.key === 'ArrowLeft' || e.key === 'k' || e.key === 'K') {
+          e.preventDefault();
+          triageStep(-1);
+        } else if (e.key === 's' || e.key === 'S') {
+          e.preventDefault();
+          triageActionAndNext('bookmark');
+        } else if (e.key === 'd' || e.key === 'D') {
+          e.preventDefault();
+          triageActionAndNext('read');
+        } else if (e.key === 'x' || e.key === 'X') {
+          e.preventDefault();
+          triageActionAndNext('blacklist');
+        } else if (e.key === 'b' || e.key === 'B') {
+          e.preventDefault();
+          triageBookmarkPosition();
+        } else if (e.key === '1') {
+          switchFocusLang('vi');
+        } else if (e.key === '2') {
+          switchFocusLang('en');
+        } else if (e.key === '3') {
+          switchFocusLang('cn');
+        } else if (e.key === '4') {
+          switchFocusLang('dual');
+        }
+      });
+    }
+
+    function applyReaderThemeAndFont() {
+      const fs = FONT_SIZES[currentFsIdx] || '17.5px';
+      document.documentElement.style.setProperty('--reader-font-size', fs);
+
+      const targets = document.querySelectorAll('.jj-reader-box, #focusModalCard');
+      targets.forEach(el => {
+        el.classList.remove('reader-theme-sepia', 'reader-theme-paper', 'reader-theme-sage', 'reader-theme-dark');
+        el.classList.add(`reader-theme-${currentReaderTheme}`);
+        el.classList.remove('reader-font-sans', 'reader-font-serif');
+        el.classList.add(`reader-font-${currentReaderFontFamily}`);
+      });
+
+      document.querySelectorAll('.reader-fs-badge').forEach(el => {
+        el.textContent = fs;
+      });
+
+      const ffLabel = (currentReaderFontFamily === 'serif') ? 'Serif (Sách)' : 'Sans-serif';
+      document.querySelectorAll('[id^="lblReaderFontFamily-"], #focusFontFamilyLabel').forEach(el => {
+        el.textContent = ffLabel;
+      });
+
+      document.querySelectorAll('.theme-pill-dot').forEach(el => {
+        const bg = el.style.background || '';
+        let isAct = false;
+        if (currentReaderTheme === 'sepia' && bg.includes('251')) isAct = true;
+        else if (currentReaderTheme === 'paper' && bg.includes('253')) isAct = true;
+        else if (currentReaderTheme === 'sage' && bg.includes('240')) isAct = true;
+        else if (currentReaderTheme === 'dark' && bg.includes('24')) isAct = true;
+        el.classList.toggle('active', isAct);
+      });
+    }
+
+    function setGlobalReaderTheme(theme) {
+      currentReaderTheme = theme;
+      localStorage.setItem('jj_reader_theme', theme);
+      applyReaderThemeAndFont();
+      showToast(`Đã chuyển theme: ${theme === 'sepia' ? 'Giấy Ấm (Sepia)' : theme === 'paper' ? 'Giấy Kem Sáng' : theme === 'sage' ? 'Trà Xanh' : 'Đêm Dịu'}`);
+    }
+
+    function adjustReaderFontSize(delta) {
+      currentFsIdx = Math.max(0, Math.min(FONT_SIZES.length - 1, currentFsIdx + delta));
+      localStorage.setItem('jj_reader_font_size_idx', String(currentFsIdx));
+      applyReaderThemeAndFont();
+    }
+
+    function toggleReaderFontFamily() {
+      currentReaderFontFamily = (currentReaderFontFamily === 'serif') ? 'sans' : 'serif';
+      localStorage.setItem('jj_reader_font_family', currentReaderFontFamily);
+      applyReaderThemeAndFont();
+      showToast(`Đã đổi font chữ: ${currentReaderFontFamily === 'serif' ? 'Serif (Dạng Sách In)' : 'Sans-serif (Hiện Đại)'}`);
+    }
+
+    function copyCurrentDesc(novelId) {
+      const it = currentItemsMap[novelId];
+      if (!it) return;
+      const tabDual = document.getElementById(`tab-dual-${novelId}`);
+      let textToCopy = '';
+      if (tabDual && tabDual.classList.contains('active')) {
+        textToCopy = `🇻🇳 TIẾNG VIỆT:\n${it.full_desc_vi}\n\n🇨🇳 TIẾNG TRUNG:\n${it.full_desc_cn}`;
+      } else {
+        const tabCn = document.getElementById(`tab-cn-${novelId}`);
+        const tabEn = document.getElementById(`tab-en-${novelId}`);
+        if (tabCn && tabCn.classList.contains('active')) textToCopy = it.full_desc_cn;
+        else if (tabEn && tabEn.classList.contains('active')) textToCopy = it.full_desc_en;
+        else textToCopy = it.full_desc_vi;
+      }
+      if (textToCopy) {
+        copyText(textToCopy);
+        showToast('📋 Đã sao chép văn án vào clipboard!');
+      } else {
+        showToast('Chưa có nội dung văn án để sao chép.');
+      }
+    }
+
+    function copySpecificDesc(novelId, lang) {
+      const it = currentItemsMap[novelId];
+      if (!it) return;
+      const textToCopy = (lang === 'cn') ? (it.full_desc_cn || '') : (it.full_desc_vi || it.full_desc_hv || '');
+      if (textToCopy) {
+        copyText(textToCopy);
+        showToast(`📋 Đã sao chép văn án (${lang === 'cn' ? 'Tiếng Trung' : 'Tiếng Việt'})!`);
+      }
+    }
+
+    /* FOCUS READER & SPEED-TRIAGE MODAL (LƯỚT VĂN ÁN SIÊU TỐC + ZERO-WAIT PRELOAD) */
+    function startSpeedTriage() {
+      if (!currentPageIds || !currentPageIds.length) {
+        showToast('Chưa có bộ truyện nào trên trang hiện tại.');
+        return;
+      }
+      const startId = (activeFocusNovelId && currentPageIds.includes(String(activeFocusNovelId)))
+        ? String(activeFocusNovelId)
+        : currentPageIds[0];
+      openFocusReader(startId);
+    }
+
+    async function preloadUpcomingDetails(currentIdx) {
+      const badge = document.getElementById('focusPreloadBadge');
+      const upcomingIds = currentPageIds.slice(currentIdx + 1, currentIdx + 7);
+      if (!upcomingIds.length) {
+        if (badge) badge.textContent = '⚡ Cuối trang';
+        return;
+      }
+      let readyCount = upcomingIds.filter(id => currentItemsMap[id] && currentItemsMap[id].full_desc_vi && currentItemsMap[id].full_desc_en).length;
+      if (badge) badge.textContent = `⚡ ${readyCount}/${upcomingIds.length}`;
+
+      for (const uid of upcomingIds) {
+        if ((currentItemsMap[uid] && currentItemsMap[uid].full_desc_vi && currentItemsMap[uid].full_desc_en) || preloadingSet.has(uid)) {
+          continue;
+        }
+        preloadingSet.add(uid);
+        fetch(`/api/jjwxc/detail?novel_id=${encodeURIComponent(uid)}&tr=1`)
+          .then(r => r.json())
+          .then(data => {
+            if (data.ok && data.item) {
+              currentItemsMap[uid] = Object.assign(currentItemsMap[uid] || {}, data.item);
+              const done = upcomingIds.filter(id => currentItemsMap[id] && currentItemsMap[id].full_desc_vi && currentItemsMap[id].full_desc_en).length;
+              if (badge && activeFocusNovelId === currentPageIds[currentIdx]) {
+                badge.textContent = `⚡ ${done}/${upcomingIds.length}`;
+              }
+            }
+          })
+          .catch(() => {})
+          .finally(() => preloadingSet.delete(uid));
+      }
+    }
+
+    async function triageStep(delta) {
+      if (!currentPageIds.length) return;
+      const idx = currentPageIds.indexOf(String(activeFocusNovelId));
+      const nextIdx = idx + delta;
+      if (nextIdx >= 0 && nextIdx < currentPageIds.length) {
+        openFocusReader(currentPageIds[nextIdx]);
+      } else if (nextIdx >= currentPageIds.length && currentPage < totalPages) {
+        showToast(`⏭️ Đang sang trang ${currentPage + 1}...`);
+        currentPage += 1;
+        await loadSeries();
+        if (currentPageIds.length > 0) {
+          openFocusReader(currentPageIds[0]);
+        }
+      } else if (nextIdx < 0 && currentPage > 1) {
+        showToast(`⏮️ Đang lùi về trang ${currentPage - 1}...`);
+        currentPage -= 1;
+        await loadSeries();
+        if (currentPageIds.length > 0) {
+          openFocusReader(currentPageIds[currentPageIds.length - 1]);
+        }
+      } else {
+        showToast('Đã ở đầu/cuối danh sách.');
+      }
+    }
+
+    async function triageActionAndNext(newStatus) {
+      if (!activeFocusNovelId) return;
+      const nid = String(activeFocusNovelId);
+      const it = currentItemsMap[nid] || {};
+      const idx = currentPageIds.indexOf(nid);
+
+      try {
+        await fetch('/api/jjwxc/status', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ novel_id: nid, status: newStatus })
+        });
+        const label = newStatus === 'read' ? '✅ Đã đọc' : newStatus === 'blacklist' ? '🚫 Đã chặn Blacklist' : '⭐ Đã lưu đọc sau';
+        showToast(`${label}: ${it.title_vi || nid}`);
+
+        if (currentTab === 'unread') {
+          currentPageIds.splice(idx, 1);
+          const card = document.getElementById(`card-${nid}`);
+          if (card) card.remove();
+          if (idx < currentPageIds.length) {
+            openFocusReader(currentPageIds[idx]);
+          } else {
+            await loadSeries();
+            if (currentPageIds.length > 0) openFocusReader(currentPageIds[0]);
+            else closeFocusReader();
+          }
+        } else {
+          triageStep(1);
+        }
+      } catch (e) {
+        showToast('Lỗi cập nhật trạng thái.');
+      }
+    }
+
+    async function triageBookmarkPosition() {
+      if (!activeFocusNovelId) return;
+      const it = currentItemsMap[activeFocusNovelId];
+      if (it && it.fixed_order) {
+        await saveCheckpoint(it.fixed_order);
+      }
+    }
+
+    function renderFocusHeaderMeta(it, idx) {
+      const titleEl = document.getElementById('focusTitleVi');
+      const metaEl = document.getElementById('focusMetaSub');
+      const coverEl = document.getElementById('focusCover');
+      const posEl = document.getElementById('focusPosBadge');
+      const tagsEl = document.getElementById('focusTagsStrip');
+      const extEl = document.getElementById('focusExternalLink');
+
+      if (posEl) {
+        posEl.textContent = `#${it.fixed_order || '?'} (${idx + 1}/${currentPageIds.length})`;
+      }
+      titleEl.textContent = it.title_vi || it.title_hv || 'Văn Án Tác Phẩm';
+      if (extEl && it.url) extEl.href = it.url;
+
+      const cpHtml = it.protagonist_hv
+        ? ` • <span style="color:#0f766e; font-weight:700;">👥 ${escapeHtml(it.protagonist_hv)} (${escapeHtml(it.protagonist_cn || '')})</span>`
+        : '';
+      const wordsHtml = it.word_count ? ` • <span>📏 ${formatWords(it.word_count)}</span>` : '';
+      const scoreHtml = it.review_score ? ` • <span>⭐ ${escapeHtml(it.review_score)}</span>` : '';
+
+      metaEl.innerHTML = `<span><strong>Hán-Việt:</strong> ${escapeHtml(it.title_hv || '')}</span> • <span><strong>Tác giả:</strong> ${escapeHtml(it.author_hv || '')} (${escapeHtml(it.author_cn || '')})</span>${wordsHtml}${scoreHtml}${cpHtml}`;
+
+      if (tagsEl) {
+        const tagsCn = it.tags_cn || [];
+        const tagsVi = it.tags_vi || [];
+        tagsEl.innerHTML = tagsCn.map((tCn, i) => {
+          const tVi = tagsVi[i] || tCn;
+          const isMpreg = tCn.includes('生子');
+          return `<span class="jj-tag ${isMpreg ? 'mpreg-tag' : ''}" style="font-size:11px; padding:2px 7px;">${isMpreg ? '👶 ' : ''}${escapeHtml(tVi)} (${escapeHtml(tCn)})</span>`;
+        }).join('');
+      }
+
+      const defaultCover = 'https://i9-static.jjwxc.net/noveldefaultcover.php?cover=MjBfbm92ZWxkZWZhdWx0Y292ZXI=&version=20230323';
+      coverEl.src = it.cover_url ? `/api/jjwxc/proxy-image?url=${encodeURIComponent(it.cover_url)}` : defaultCover;
+    }
+
+    async function openFocusReader(novelId) {
+      const modal = document.getElementById('focusReaderModal');
+      if (!modal) return;
+      activeFocusNovelId = String(novelId);
+      modal.classList.add('open');
+      document.body.style.overflow = 'hidden';
+
+      const idx = Math.max(0, currentPageIds.indexOf(activeFocusNovelId));
+      let it = currentItemsMap[activeFocusNovelId] || {};
+      applyReaderThemeAndFont();
+      renderFocusHeaderMeta(it, idx);
+      preloadUpcomingDetails(idx);
+
+      const viEl = document.getElementById('focusDesc-vi');
+      const enEl = document.getElementById('focusDesc-en');
+      const cnEl = document.getElementById('focusDesc-cn');
+      const dualViEl = document.getElementById('focusDual-vi');
+      const dualCnEl = document.getElementById('focusDual-cn');
+
+      const scrollArea = document.querySelector('.focus-modal-content');
+      if (scrollArea) scrollArea.scrollTop = 0;
+
+      if (it.full_desc_vi && it.full_desc_en && it.full_desc_cn) {
+        viEl.innerHTML = formatParagraphsHtml(it.full_desc_vi);
+        enEl.innerHTML = formatParagraphsHtml(it.full_desc_en);
+        cnEl.innerHTML = formatParagraphsHtml(it.full_desc_cn);
+        dualViEl.innerHTML = formatParagraphsHtml(it.full_desc_vi);
+        dualCnEl.innerHTML = formatParagraphsHtml(it.full_desc_cn);
+      } else {
+        viEl.innerHTML = `<div style="color:#0f766e; text-align:center; padding:40px;"><i class="fa fa-spinner fa-spin fa-2x"></i><div style="margin-top:10px;">Đang tải văn án từ Tấn Giang (Việt & Anh)...</div></div>`;
+        try {
+          const res = await fetch(`/api/jjwxc/detail?novel_id=${encodeURIComponent(activeFocusNovelId)}&tr=1`);
+          const data = await res.json();
+          if (data.ok && data.item) {
+            it = data.item;
+            currentItemsMap[activeFocusNovelId] = Object.assign(currentItemsMap[activeFocusNovelId] || {}, it);
+            if (activeFocusNovelId === String(novelId)) {
+              renderFocusHeaderMeta(it, idx);
+              viEl.innerHTML = formatParagraphsHtml(it.full_desc_vi);
+              enEl.innerHTML = formatParagraphsHtml(it.full_desc_en);
+              cnEl.innerHTML = formatParagraphsHtml(it.full_desc_cn);
+              dualViEl.innerHTML = formatParagraphsHtml(it.full_desc_vi);
+              dualCnEl.innerHTML = formatParagraphsHtml(it.full_desc_cn);
+            }
+          } else {
+            viEl.innerHTML = `<div style="color:#dc2626; text-align:center; padding:40px;">Không thể tải văn án chi tiết.</div>`;
+          }
+        } catch (e) {
+          viEl.innerHTML = `<div style="color:#dc2626; text-align:center; padding:40px;">Lỗi kết nối khi tải văn án: ${escapeHtml(e.message)}</div>`;
+        }
+      }
+      switchFocusLang(activeFocusLang || 'vi');
+    }
+
+    function closeFocusReader() {
+      const modal = document.getElementById('focusReaderModal');
+      if (modal) modal.classList.remove('open');
+      document.body.style.overflow = '';
+    }
+
+    function handleFocusModalBackdrop(e) {
+      if (e.target.id === 'focusReaderModal') {
+        closeFocusReader();
+      }
+    }
+
+    function switchFocusLang(lang) {
+      activeFocusLang = lang;
+      const wrap = document.getElementById('focusBodyWrap');
+      const dualGrid = document.getElementById('focusDesc-dual');
+      const tabDual = document.getElementById('focusTab-dual');
+
+      ['vi', 'en', 'cn'].forEach(l => {
+        const tabBtn = document.getElementById(`focusTab-${l}`);
+        const contentDiv = document.getElementById(`focusDesc-${l}`);
+        if (tabBtn) tabBtn.classList.toggle('active', lang === l);
+        if (contentDiv) contentDiv.style.display = (lang === l) ? 'block' : 'none';
+      });
+
+      if (lang === 'dual') {
+        if (tabDual) tabDual.classList.add('active');
+        if (dualGrid) dualGrid.style.display = 'grid';
+        if (wrap) wrap.classList.add('reader-full-width');
+      } else {
+        if (tabDual) tabDual.classList.remove('active');
+        if (dualGrid) dualGrid.style.display = 'none';
+        if (wrap) wrap.classList.remove('reader-full-width');
+      }
+    }
+
+    function copyFocusCurrentDesc() {
+      if (!activeFocusNovelId) return;
+      const it = currentItemsMap[activeFocusNovelId];
+      if (!it) return;
+      let textToCopy = '';
+      if (activeFocusLang === 'dual') {
+        textToCopy = `🇻🇳 TIẾNG VIỆT:\n${it.full_desc_vi}\n\n🇨🇳 TIẾNG TRUNG:\n${it.full_desc_cn}`;
+      } else if (activeFocusLang === 'cn') {
+        textToCopy = it.full_desc_cn;
+      } else if (activeFocusLang === 'en') {
+        textToCopy = it.full_desc_en;
+      } else {
+        textToCopy = it.full_desc_vi;
+      }
+      if (textToCopy) {
+        copyText(textToCopy);
+        showToast('📋 Đã sao chép văn án vào clipboard!');
+      }
+    }
+
+    function copyFocusSpecificDesc(lang) {
+      if (!activeFocusNovelId) return;
+      copySpecificDesc(activeFocusNovelId, lang);
     }
 
     function filterByTag(tag) {

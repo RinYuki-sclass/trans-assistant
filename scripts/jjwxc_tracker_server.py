@@ -117,6 +117,7 @@ def init_db():
                 full_desc_cn TEXT DEFAULT '',
                 full_desc_hv TEXT DEFAULT '',
                 full_desc_vi TEXT DEFAULT '',
+                full_desc_en TEXT DEFAULT '',
                 protagonist_cn TEXT DEFAULT '',
                 protagonist_hv TEXT DEFAULT '',
                 chapter_count INTEGER DEFAULT 0,
@@ -137,6 +138,10 @@ def init_db():
         cur.execute("CREATE INDEX IF NOT EXISTS idx_jj_sweet ON jjwxc_series(is_sweet)")
         cur.execute("CREATE INDEX IF NOT EXISTS idx_jj_points ON jjwxc_series(points)")
         cur.execute("CREATE INDEX IF NOT EXISTS idx_jj_words ON jjwxc_series(word_count)")
+        try:
+            cur.execute("ALTER TABLE jjwxc_series ADD COLUMN full_desc_en TEXT DEFAULT ''")
+        except sqlite3.OperationalError:
+            pass
 
         cur.execute("""
             CREATE TABLE IF NOT EXISTS jjwxc_settings (
@@ -231,8 +236,10 @@ def parse_jjwxc_row(tr) -> Optional[Dict]:
     pub_date = tds[6].get_text(strip=True)
 
     tags_vi = [translate_tag(t) for t in tags_cn]
+    if detect_is_sweet(tags_cn, short_desc_cn):
+        return None
     is_qt = 1 if detect_is_quick_trans(title_cn, tags_cn, short_desc_cn) else 0
-    is_sw = 1 if detect_is_sweet(tags_cn) else 0
+    is_sw = 0
 
     return {
         "novel_id": novel_id,
@@ -482,18 +489,24 @@ def fetch_and_cache_novel_detail(novel_id: str, translate_vi: bool = True) -> Op
 
     item = dict(row)
     if item.get("detail_fetched") == 1 and item.get("full_desc_cn"):
-        if translate_vi and not item.get("full_desc_vi"):
-            vi_text = translate_free_google(item["full_desc_cn"], src_lang="zh-CN", tgt_lang="vi")
-            short_vi = translate_free_google(item["short_desc_cn"], src_lang="zh-CN", tgt_lang="vi") if item.get("short_desc_cn") else ""
+        if translate_vi and (not item.get("full_desc_vi") or not item.get("full_desc_en")):
+            from concurrent.futures import ThreadPoolExecutor
+            with ThreadPoolExecutor(max_workers=2) as pool:
+                f_vi = pool.submit(translate_free_google, item["full_desc_cn"], "zh-CN", "vi") if not item.get("full_desc_vi") else None
+                f_en = pool.submit(translate_free_google, item["full_desc_cn"], "zh-CN", "en") if not item.get("full_desc_en") else None
+                vi_text = f_vi.result() if f_vi else item.get("full_desc_vi", "")
+                en_text = f_en.result() if f_en else item.get("full_desc_en", "")
+            short_vi = translate_free_google(item["short_desc_cn"], src_lang="zh-CN", tgt_lang="vi") if (item.get("short_desc_cn") and not item.get("short_desc_vi")) else (item.get("short_desc_vi") or "")
             with db_lock:
                 conn = get_db_connection()
                 conn.execute(
-                    "UPDATE jjwxc_series SET full_desc_vi = ?, short_desc_vi = ? WHERE novel_id = ?",
-                    (vi_text, short_vi, novel_id),
+                    "UPDATE jjwxc_series SET full_desc_vi = ?, full_desc_en = ?, short_desc_vi = ? WHERE novel_id = ?",
+                    (vi_text, en_text, short_vi, novel_id),
                 )
                 conn.commit()
                 conn.close()
             item["full_desc_vi"] = vi_text
+            item["full_desc_en"] = en_text
             item["short_desc_vi"] = short_vi
         return item
 
@@ -517,10 +530,15 @@ def fetch_and_cache_novel_detail(novel_id: str, translate_vi: bool = True) -> Op
     is_qt = 1 if detect_is_quick_trans(item["title_cn"], tags_cn, item.get("short_desc_cn", ""), full_desc_cn) else 0
 
     full_desc_vi = ""
+    full_desc_en = ""
     short_desc_vi = item.get("short_desc_vi") or ""
-    if translate_vi:
-        if full_desc_cn:
-            full_desc_vi = translate_free_google(full_desc_cn, src_lang="zh-CN", tgt_lang="vi")
+    if translate_vi and full_desc_cn:
+        from concurrent.futures import ThreadPoolExecutor
+        with ThreadPoolExecutor(max_workers=2) as pool:
+            f_vi = pool.submit(translate_free_google, full_desc_cn, "zh-CN", "vi")
+            f_en = pool.submit(translate_free_google, full_desc_cn, "zh-CN", "en")
+            full_desc_vi = f_vi.result()
+            full_desc_en = f_en.result()
         if item.get("short_desc_cn") and not short_desc_vi:
             short_desc_vi = translate_free_google(item["short_desc_cn"], src_lang="zh-CN", tgt_lang="vi")
 
@@ -532,6 +550,7 @@ def fetch_and_cache_novel_detail(novel_id: str, translate_vi: bool = True) -> Op
                 full_desc_cn = ?,
                 full_desc_hv = ?,
                 full_desc_vi = ?,
+                full_desc_en = ?,
                 short_desc_vi = ?,
                 protagonist_cn = ?,
                 protagonist_hv = ?,
@@ -543,7 +562,7 @@ def fetch_and_cache_novel_detail(novel_id: str, translate_vi: bool = True) -> Op
                 updated_at = ?
             WHERE novel_id = ?
         """, (
-            cover_url, full_desc_cn, full_desc_hv, full_desc_vi, short_desc_vi,
+            cover_url, full_desc_cn, full_desc_hv, full_desc_vi, full_desc_en, short_desc_vi,
             protagonist_cn, protagonist_hv, chapter_count, fav_count,
             review_score, is_qt, int(time.time()), novel_id
         ))
@@ -919,6 +938,34 @@ routes = [
     Mount("/static/jjwxc", StaticFiles(directory=STATIC_DIR), name="static_jjwxc"),
 ]
 
+try:
+    from shuku_tracker_server import (
+        shuku_index_page,
+        api_shuku_list_series,
+        api_shuku_detail,
+        api_shuku_batch_meta,
+        api_shuku_update_status,
+        api_shuku_bookmark,
+        api_shuku_jump_bookmark,
+        api_shuku_trigger_sync,
+        api_shuku_sync_status,
+        api_shuku_settings,
+    )
+    routes.extend([
+        Route("/shuku", shuku_index_page),
+        Route("/api/shuku/series", api_shuku_list_series, methods=["GET"]),
+        Route("/api/shuku/detail", api_shuku_detail, methods=["GET"]),
+        Route("/api/shuku/batch-meta", api_shuku_batch_meta, methods=["POST"]),
+        Route("/api/shuku/status", api_shuku_update_status, methods=["POST"]),
+        Route("/api/shuku/bookmark", api_shuku_bookmark, methods=["POST"]),
+        Route("/api/shuku/jump-bookmark", api_shuku_jump_bookmark, methods=["GET"]),
+        Route("/api/shuku/sync", api_shuku_trigger_sync, methods=["POST"]),
+        Route("/api/shuku/sync-status", api_shuku_sync_status, methods=["GET"]),
+        Route("/api/shuku/settings", api_shuku_settings, methods=["GET", "POST"]),
+    ])
+except Exception:
+    pass
+
 app = Starlette(
     debug=False,
     routes=routes,
@@ -926,7 +973,10 @@ app = Starlette(
 )
 
 if __name__ == "__main__":
+    import argparse
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--port", type=int, default=int(os.environ.get("JJWXC_PORT", 8687)))
+    args = parser.parse_args()
     start_background_sync_if_needed()
-    port = int(os.environ.get("JJWXC_PORT", 8687))
-    print(f"🏮 Tấn Giang (JJWXC) Series Tracker đang chạy tại: http://localhost:{port}")
-    uvicorn.run(app, host="127.0.0.1", port=port, log_level="warning")
+    print(f"🏮 Tấn Giang (JJWXC) Series Tracker đang chạy tại: http://localhost:{args.port}")
+    uvicorn.run(app, host="127.0.0.1", port=args.port, log_level="warning")
