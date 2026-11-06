@@ -23,9 +23,9 @@ Tài liệu này xác định các quy chuẩn nhân vật, bối cảnh, ma tr�
 | Tên nhân vật | Tên gốc | Đại từ ngôi 3 | Vai trò / Thân phận | Quy chuẩn xưng hô & Ghi chú |
 | :--- | :--- | :--- | :--- | :--- |
 | **Tạ Trì** | 谢迟 | **cậu** | **Công chính** (Sát thủ Dark Web từ Tinh lịch năm 3000 xuyên về quá khứ làm ám vệ) | Mỹ công, niên hạ tiểu cẩu công, tay tàn nhẫn nhưng tâm linh ngây thơ (điện ba hệ). Cưng chiều vợ, mê vợ cuồng nhiệt. Xưng "thuộc hạ / tôi / em", gọi bạo quân là "Điện hạ / Bệ hạ", gọi khi thân mật là "anh / vợ". |
-| **Yến Vãn Thu** | 晏晚秋 | **anh** | **Thụ chính** (S-grade Alpha bạo quân, thiếu niên đế vương, bị rối loạn tin tức tố) | Cường thụ, soái thụ, bề ngoài tàn bạo, âm u đa nghi, sát phạt quyết đoán, nhưng sau một đêm trúng thuốc lại mang thai với Tạ Trì. Bị Tạ Trì sưởi ấm và thuần hóa. Xưng "ta / anh", gọi Tạ Trì là "ngươi / em / nhóc con". |
-| **Yến Bạch Nguyệt** | 晏白月 | **hắn / gã** | **Tam hoàng tử Omega** (Hoàng đệ đối địch của Yến Vãn Thu) | Ngụy quân tử, tâm cơ trà xanh, lợi dụng nguyên thân Tạ Trì để hãm hại Yến Vãn Thu. Sau bị Tạ Trì chém đầu lập công dâng cho bạo quân. |
-| **Đại hoàng tử / Yến Triêu Khải** | 大皇子 / 晏朝铠 | **hắn / gã** | **Đại hoàng tử** (Kẻ thù tranh đoạt đế vị, câu kết thế lực ngoại tộc) | Kẻ hạ độc Yến Vãn Thu dẫn đến rối loạn tin tức tố, sau bị tiêu diệt. |
+| **Yến Vãn Thu** | 晏晚秋 | **hắn** | **Thụ chính** (S-grade Alpha bạo quân, thiếu niên đế vương, bị rối loạn tin tức tố) | Cường thụ, soái thụ, bề ngoài tàn bạo, âm u đa nghi, sát phạt quyết đoán, nhưng sau một đêm trúng thuốc lại mang thai với Tạ Trì. Bị Tạ Trì sưởi ấm và thuần hóa. Xưng "ta / anh", gọi Tạ Trì là "ngươi / em / nhóc con". |
+| **Yến Bạch Nguyệt** | 晏白月 | **gã / y** | **Tam hoàng tử Omega** (Hoàng đệ đối địch của Yến Vãn Thu) | Ngụy quân tử, tâm cơ trà xanh, lợi dụng nguyên thân Tạ Trì để hãm hại Yến Vãn Thu. Sau bị Tạ Trì chém đầu lập công dâng cho bạo quân. |
+| **Đại hoàng tử / Yến Triêu Khải (Yến Hồi Thời)** | 大皇子 / 晏朝铠 (晏回时) | **gã** | **Đại hoàng tử** (Kẻ thù tranh đoạt đế vị, câu kết thế lực ngoại tộc) | Kẻ hạ độc Yến Vãn Thu dẫn đến rối loạn tin tức tố, sau bị tiêu diệt. |
 | **Phó tướng / Thuộc hạ Bắc Vực** | 亲信 / 守卫 | **họ / gã** | **Thuộc hạ của Yến Vãn Thu tại Bạo Tuyết Thành** | Các tướng sĩ và quản gia theo chân bạo quân lưu đày ở Bắc Vực tinh hệ. |
 
 ---
@@ -59,4 +59,4 @@ Tài liệu này xác định các quy chuẩn nhân vật, bối cảnh, ma tr�
 ## 5. PHÂN BIỆT RÕ RÀNG GIỮA THOẠI VÀ TRẦN THUẬT
 
 - **Lời thoại trong `“...”`:** Thể hiện sắc thái nhân vật: Tạ Trì hài hước, ngơ ngác nhưng quyết đoán khi làm nhiệm vụ; Yến Vãn Thu sắc bén, lạnh lùng uy nghiêm nhưng dần mềm lòng.
-- **Văn trần thuật ngôi 3 ngoài ngoặc:** Tuyệt đối giữ đúng đại từ: Tạ Trì luôn là **"cậu"**, Yến Vãn Thu luôn là **"anh"**. Tuyệt đối không để lẫn lộn ngôi 3 trần thuật giữa cậu và anh.
+- **Văn trần thuật ngôi 3 ngoài ngoặc:** Tuyệt đối giữ đúng đại từ: Tạ Trì luôn là **"cậu"**, Yến Vãn Thu luôn là **"hắn"**. Tuyệt đối không để lẫn lộn ngôi 3 trần thuật giữa cậu và hắn. Để tránh nhầm lẫn, các phản diện như Yến Bạch Nguyệt, Yến Hồi Thời, Du Phù Châu sử dụng đại từ **"gã"** hoặc gọi đích danh.

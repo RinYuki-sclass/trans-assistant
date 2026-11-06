@@ -48,21 +48,21 @@ Yến Vãn Thu vốn một lòng vì nước vì dân, cương trực thiện l�
 
 Vị quốc vương già nua vốn tính đa nghi, kiêng dè vị hoàng tử kiệt xuất này, đối với chuyện Yến Vãn Thu bị đầu độc vẫn luôn giữ thái độ ngầm cho phép.
 
-Thậm chí để dẹp yên cơn thịnh nộ của công chúng, quốc vương liền thuận nước đẩy thuyền lưu đày anh tới Bạo Tuyết Thành thuộc Bắc Vực tinh hệ xa xôi, hẻo lánh nhất.
+Thậm chí để dẹp yên cơn thịnh nộ của công chúng, quốc vương liền thuận nước đẩy thuyền lưu đày hắn tới Bạo Tuyết Thành thuộc Bắc Vực tinh hệ xa xôi, hẻo lánh nhất.
 
-Vào lúc tất cả mọi người đều ngỡ rằng anh chắc chắn phải chết, Yến Vãn Thu chỉ mang theo ba trăm thân vệ lại bất ngờ phát hiện ra một loại năng lượng mới chưa từng xuất hiện dưới lòng đất Bạo Tuyết Thành — quặng nhiệt năng.
+Vào lúc tất cả mọi người đều ngỡ rằng hắn chắc chắn phải chết, Yến Vãn Thu chỉ mang theo ba trăm thân vệ lại bất ngờ phát hiện ra một loại năng lượng mới chưa từng xuất hiện dưới lòng đất Bạo Tuyết Thành — quặng nhiệt năng.
 
 Yến Hồi Thời và nền văn minh cơ khí đỏ mắt thèm muốn nguồn năng lượng mới, bèn chỉ thị cho Tam hoàng tử Yến Bạch Nguyệt liên lạc với nội gián để ám toán Yến Vãn Thu, muốn giết người đoạt bảo mà không để lại bất kỳ dấu vết nào.
 
 Yến Vãn Thu may mắn sống sót, nhưng chứng rối loạn tin tức tố lại càng thêm trầm trọng, tính tình trở nên hoàn toàn cực đoan, không còn tin tưởng bất kỳ ai nữa, Tam hoàng tử cùng tên nội gián kia thậm chí bị lăng trì xẻ thịt đến chết.
 
-Kể từ đó, Yến Vãn Thu một lòng chỉ muốn báo thù, dưới sự giày vò nghiệt ngã của chứng rối loạn tin tức tố, hành sự ngày một tàn bạo khát máu. Dựa vào nguồn năng lượng mới cùng thủ đoạn sắt máu, anh nhanh chóng cắm rễ vững chắc tại Bắc Vực tinh hệ, tự lập làm vương, công khai đối địch với Chủ Tinh.
+Kể từ đó, Yến Vãn Thu một lòng chỉ muốn báo thù, dưới sự giày vò nghiệt ngã của chứng rối loạn tin tức tố, hành sự ngày một tàn bạo khát máu. Dựa vào nguồn năng lượng mới cùng thủ đoạn sắt máu, hắn nhanh chóng cắm rễ vững chắc tại Bắc Vực tinh hệ, tự lập làm vương, công khai đối địch với Chủ Tinh.
 
 Mắt thấy Yến Vãn Thu sắp sửa đánh chiếm toàn bộ biên cảnh, Yến Hồi Thời không từ bất kỳ thủ đoạn nào, bán rẻ đất đai và tài nguyên để bắt tay hợp tác với nền văn minh cơ khí, mượn vũ khí cao cấp của đối phương đánh cho Yến Vãn Thu không kịp trở tay.
 
 Cuối cùng, Yến Vãn Thu cùng những thân vệ ít ỏi còn sót lại bị dồn ép quay về Bạo Tuyết Thành, trong tình cảnh cô lập không viện trợ đã quyết định kích nổ thành trì để đồng quy vu tận.
 
-Cũng chính nhờ vụ tự bạo của anh, nền văn minh cơ khí bị tổn thương nguyên khí nặng nề, Yến Hồi Thời nhân cơ hội đó thống nhất hai chủng tộc.
+Cũng chính nhờ vụ tự bạo của hắn, nền văn minh cơ khí bị tổn thương nguyên khí nặng nề, Yến Hồi Thời nhân cơ hội đó thống nhất hai chủng tộc.
 
 Các nền văn minh khác nhau giữa các vì sao chính thức giao thoa, vũ trụ kể từ đó bước vào thời đại Tinh tế.
 
@@ -158,7 +158,7 @@ Chỉ duy nhất một ánh nhìn này thôi, Tạ Trì liền hiểu rõ vì sa
 
 Người đàn ông sở hữu một mái tóc dài màu trắng buông xõa, đôi mắt đỏ rực như máu, đường nét chân mày và ánh mắt sắc bén sâu thẳm, sống mũi cao thẳng, là một diện mạo mang tính công kích vô cùng mãnh liệt.
 
-Lúc này đáy mắt anh trầm lặng như đầm băng ngàn năm, khí trường quanh thân u ám âm trầm, nụ cười nửa miệng như có như không toát ra vẻ điên cuồng cùng tàn nhẫn khôn cùng.
+Lúc này đáy mắt hắn trầm lặng như đầm băng ngàn năm, khí trường quanh thân u ám âm trầm, nụ cười nửa miệng như có như không toát ra vẻ điên cuồng cùng tàn nhẫn khôn cùng.
 
 Cùng ùa vào với cơn gió lạnh thấu xương ngoài cửa, còn có luồng tin tức tố lạnh lẽo tột cùng thuộc về một S-grade Alpha.
 
@@ -188,29 +188,29 @@ Lúc này Yến Vãn Thu hoàn toàn là một kẻ điên chân trần không s
 
 Yến Vãn Thu lại dời tầm mắt nhìn về phía Tạ Trì.
 
-Tên ám vệ này đã theo chân anh từ năm anh mười sáu tuổi, trầm mặc, thật thà, thân thủ cừ khôi, bình thường chẳng mấy khi lộ diện gây chú ý, thế nhưng vào lúc anh bị lưu đày lại dứt khoát kiên quyết đi theo anh tới chốn Bạo Tuyết Thành hoang vu này.
+Tên ám vệ này đã theo chân hắn từ năm hắn mười sáu tuổi, trầm mặc, thật thà, thân thủ cừ khôi, bình thường chẳng mấy khi lộ diện gây chú ý, thế nhưng vào lúc hắn bị lưu đày lại dứt khoát kiên quyết đi theo hắn tới chốn Bạo Tuyết Thành hoang vu này.
 
 Nói không hề có chút rung động nào là điều dối trá, Yến Vãn Thu có qua có lại, đã bổ nhiệm Tạ Trì làm tổng quản ám vệ, ngay cả chuyện mỏ quặng nhiệt năng cũng giao trọn cho Tạ Trì xử lý.
 
-Kết quả đây lại chính là một mắt xích trong kế hoạch toan tính của đứa hoàng đệ tốt của anh.
+Kết quả đây lại chính là một mắt xích trong kế hoạch toan tính của đứa hoàng đệ tốt của hắn.
 
-Dù sao Yến Bạch Nguyệt và Yến Hồi Thời cũng cùng một mẹ sinh ra, làm sao có thể không nhúng tay vào vụ gài bẫy hãm hại anh cơ chứ.
+Dù sao Yến Bạch Nguyệt và Yến Hồi Thời cũng cùng một mẹ sinh ra, làm sao có thể không nhúng tay vào vụ gài bẫy hãm hại hắn cơ chứ.
 
 Phẫn nộ tới cực điểm, Yến Vãn Thu ngược lại không kìm được bật ra một tiếng cười khẽ.
 
-Anh cười chính bản thân mình.
+Hắn cười chính bản thân mình.
 
-Thật nực cười làm sao, đã lưu lạc tới nông nỗi này rồi mà anh vẫn còn ôm ảo tưởng tin tưởng người khác.
+Thật nực cười làm sao, đã lưu lạc tới nông nỗi này rồi mà hắn vẫn còn ôm ảo tưởng tin tưởng người khác.
 
-Anh rơi vào hoàn cảnh bi đát thế này, chẳng phải là vì bị tất cả những người thân cận nhất phản bội hay sao?
+Hắn rơi vào hoàn cảnh bi đát thế này, chẳng phải là vì bị tất cả những người thân cận nhất phản bội hay sao?
 
 Thật sự là — muốn băm vằm tất cả lũ người này thành trăm mảnh.
 
 Thái dương lại bắt đầu đau âm ỉ, Yến Vãn Thu hiểu rất rõ đây là do cảm xúc của mình quá kích động, dẫn tới chứng rối loạn tin tức tố tái phát.
 
-Anh khẽ liếm chiếc răng nanh sắc nhọn, đôi mắt nguy hiểm híp lại, hoàn toàn không còn chút kiên nhẫn nào nữa.
+Hắn khẽ liếm chiếc răng nanh sắc nhọn, đôi mắt nguy hiểm híp lại, hoàn toàn không còn chút kiên nhẫn nào nữa.
 
-Đêm nay anh còn có việc quan trọng cần làm, không rảnh rỗi ở đây chơi trò đoán xem ai là kẻ phản bội với Tạ Trì.
+Đêm nay hắn còn có việc quan trọng cần làm, không rảnh rỗi ở đây chơi trò đoán xem ai là kẻ phản bội với Tạ Trì.
 
 “Nếu đã không giải thích được, vậy thì chiểu theo tội quyến rũ hoàng thất, lôi xuống lăng—”
 

@@ -82,13 +82,13 @@ Nhiếp Hoài Nghĩa gật đầu: “Dạ phải, đây chính là nguyên văn
 
 Yến Vãn Thu: “...”
 
-Hiểu lầm giữa anh và Tạ Trì hóa giải cái con khỉ khô.
+Hiểu lầm giữa hắn và Tạ Trì hóa giải cái con khỉ khô.
 
 Rõ ràng là hiểu lầm lại càng sâu sắc hơn thì có.
 
-Anh đã dùng nghiêm hình tra khảo mấy tên nội ứng của hội Dạ Kiêu bị bắt sống, vốn dĩ muốn biết rốt cuộc là kẻ nào đã đề xuất hạ thuốc mình, nào ngờ đối phương lại cắn chết không buông một mực khẳng định chẳng có ai hạ thuốc cả.
+Hắn đã dùng nghiêm hình tra khảo mấy tên nội ứng của hội Dạ Kiêu bị bắt sống, vốn dĩ muốn biết rốt cuộc là kẻ nào đã đề xuất hạ thuốc mình, nào ngờ đối phương lại cắn chết không buông một mực khẳng định chẳng có ai hạ thuốc cả.
 
-Tuy nhiên anh lại moi ra được một tin tức khiến cõi lòng Yến Vãn Thu cảm thấy chẳng lành.
+Tuy nhiên hắn lại moi ra được một tin tức khiến cõi lòng Yến Vãn Thu cảm thấy chẳng lành.
 
 — Lô vũ khí kiểu mới của hội Dạ Kiêu là được vận chuyển tới từ Hàn Băng Thành.
 
@@ -102,17 +102,17 @@ Nhớ lại luồng điện lưu màu xanh trắng quái dị có thể phá toa
 
 Bạo Tuyết Thành ở thời điểm hiện tại mà khai chiến với Hàn Băng Thành, thì chỉ có duy nhất một kết cục là bị bao vây rồi thâu tóm thôn tính mà thôi.
 
-Yến Vãn Thu chỉ sợ cái tên Tạ Trì khiến anh không thể nhìn thấu sâu cạn này thực sự sẽ làm ra cái hành vi ngông cuồng như một đêm san bằng hang ổ của hội Dạ Kiêu, bèn thức trắng cả đêm, diễn tập tính toán hàng ngàn phương án ứng phó cho kết cục tồi tệ nhất, đồng thời ngay lập tức dùng giọng điệu của Quý Thù để gửi tin tình báo cảnh báo cho Tạ Trì.
+Yến Vãn Thu chỉ sợ cái tên Tạ Trì khiến hắn không thể nhìn thấu sâu cạn này thực sự sẽ làm ra cái hành vi ngông cuồng như một đêm san bằng hang ổ của hội Dạ Kiêu, bèn thức trắng cả đêm, diễn tập tính toán hàng ngàn phương án ứng phó cho kết cục tồi tệ nhất, đồng thời ngay lập tức dùng giọng điệu của Quý Thù để gửi tin tình báo cảnh báo cho Tạ Trì.
 
 Cứ nghĩ tới việc Tạ Trì lúc này e rằng đang ngỡ Quý Thù yêu cậu tới mức chết đi sống lại không thể dứt ra được, Yến Vãn Thu liền cảm thấy hai bên thái dương đau nhức buốt từng cơn.
 
-Anh đau đầu phất phất tay với Nhiếp Hoài Nghĩa: “Để trưa hẵng bảo cậu ta tới, ta cần nghỉ ngơi một lát.”
+Hắn đau đầu phất phất tay với Nhiếp Hoài Nghĩa: “Để trưa hẵng bảo cậu ta tới, ta cần nghỉ ngơi một lát.”
 
 Nhiếp Hoài Nghĩa nghe vậy thì đầy lo lắng, đánh bạo mở miệng: “Có phải bệnh tình của Điện hạ lại tái phát rồi không ạ? Thuộc hạ nghe nói ở Hàn Băng Thành có một vị y sư chuyên trị các chứng nan y về tin tức tố, nhân tâm thánh thủ, thường xuyên khám bệnh miễn phí không lấy một xu của bình dân bá tánh, tên gọi là Phó Trúc...”
 
 “Không cần.” Sắc mặt Yến Vãn Thu lạnh tanh trở lại, dứt khoát từ chối.
 
-Anh tự giễu cười lạnh một tiếng: “Loại độc tố tin tức tố này căn bản không hề có thuốc giải, cho dù là kẻ hạ độc ta cũng chẳng giải nổi — huống chi, một nhân vật kỳ tài như thế đột ngột xuất hiện ở Bắc Vực, ngươi cảm thấy xác suất không phải là cạm bẫy là bao nhiêu?”
+Hắn tự giễu cười lạnh một tiếng: “Loại độc tố tin tức tố này căn bản không hề có thuốc giải, cho dù là kẻ hạ độc ta cũng chẳng giải nổi — huống chi, một nhân vật kỳ tài như thế đột ngột xuất hiện ở Bắc Vực, ngươi cảm thấy xác suất không phải là cạm bẫy là bao nhiêu?”
 
 Nhiếp Hoài Nghĩa lập tức ý thức được bản thân đã nhất thời lỡ lời quên mất chừng mực, thế mà dám ăn nói bừa bãi trước mặt vị bạo quân này, vội vã quỳ rạp xuống đất xin lỗi: “Thuộc hạ đáng chết!”
 
@@ -124,21 +124,21 @@ Bên trong đại điện liền một lần nữa chỉ còn lại một mình 
 
 Yến Vãn Thu khép hờ hai mắt lại.
 
-Bản tính của anh vốn dĩ không hề khát máu, trước khi bị hạ độc dẫn tới chứng rối loạn tin tức tố, thậm chí còn có thể gọi là yêu dân như con.
+Bản tính của hắn vốn dĩ không hề khát máu, trước khi bị hạ độc dẫn tới chứng rối loạn tin tức tố, thậm chí còn có thể gọi là yêu dân như con.
 
-Có lẽ là do trong đêm tiêu diệt sòng bạc đã phát tiết được phần lớn lệ khí của chứng rối loạn tin tức tố, mấy ngày nay căn bệnh này của anh không hề tái phát thêm lần nào nữa, đương nhiên sẽ không hỉ nộ vô thường hay đau đầu cuồng sát.
+Có lẽ là do trong đêm tiêu diệt sòng bạc đã phát tiết được phần lớn lệ khí của chứng rối loạn tin tức tố, mấy ngày nay căn bệnh này của hắn không hề tái phát thêm lần nào nữa, đương nhiên sẽ không hỉ nộ vô thường hay đau đầu cuồng sát.
 
-Lúc này anh thuần túy chỉ là vì hai rắc rối lớn mang tên Tạ Trì và hội Dạ Kiêu đan xen vào nhau mà cảm thấy đau đầu nhức óc mà thôi.
+Lúc này hắn thuần túy chỉ là vì hai rắc rối lớn mang tên Tạ Trì và hội Dạ Kiêu đan xen vào nhau mà cảm thấy đau đầu nhức óc mà thôi.
 
 “Biết thế đã chẳng dùng thân phận Quý Thù để truyền mẩu giấy kia rồi, lát nữa Tạ Trì mò tới chắc chắn lại càng làm ầm ĩ đòi gặp Quý Thù cho mà xem.”
 
 Yến Vãn Thu đưa tay xoa xoa huyệt ấn đường.
 
-Mỗi một lần gặp gỡ Tạ Trì, nguy cơ bị lộ tẩy của anh lại tăng thêm một phần.
+Mỗi một lần gặp gỡ Tạ Trì, nguy cơ bị lộ tẩy của hắn lại tăng thêm một phần.
 
 Tốn bao nhiêu tâm tư công sức che giấu thân phận để lén lút vụng trộm với thị vệ như thế này, quả thực chẳng khác nào đang tự tay dâng cán chuôi cho Tạ Trì và thế lực nghi ngờ là Yến Bạch Nguyệt đứng sau lưng cậu ta nắm giữ.
 
-Thế nhưng Yến Vãn Thu ngẫm nghĩ lại, ngoại trừ việc dùng thân phận Quý Thù để truyền tin ra, anh dường như chẳng còn biện pháp nào khác.
+Thế nhưng Yến Vãn Thu ngẫm nghĩ lại, ngoại trừ việc dùng thân phận Quý Thù để truyền tin ra, hắn dường như chẳng còn biện pháp nào khác.
 
 Dù sao thì bất kể kẻ chống lưng đứng sau hội Dạ Kiêu là ai, việc sai Tạ Trì đi ám sát thủ lĩnh hội Dạ Kiêu, bất luận thành công hay thất bại thì đem quả bom hẹn giờ này đẩy ra ngoài gánh tội rồi đổ vấy lên đầu Yến Bạch Nguyệt mới chính là sự lựa chọn tối đa hóa lợi ích nhất. Yến Vãn Thu căn bản không thể giải thích nổi vì sao mình lại đột ngột đi thẩm vấn tù binh của hội Dạ Kiêu, lại càng không thể giải thích tại sao mình phải nhắc nhở cảnh báo Tạ Trì.
 
@@ -146,7 +146,7 @@ Dù sao thì bất kể kẻ chống lưng đứng sau hội Dạ Kiêu là ai, 
 
 Ngay cả chính bản thân Yến Vãn Thu cũng chẳng hiểu nổi rốt cuộc mình đang làm cái trò gì nữa.
 
-Đợi tới khi anh kịp phản ứng lại để hối hận, thì mẩu giấy kia đã sớm theo bữa sáng được gửi đi mất rồi.
+Đợi tới khi hắn kịp phản ứng lại để hối hận, thì mẩu giấy kia đã sớm theo bữa sáng được gửi đi mất rồi.
 
 “Đúng là có bệnh thật mà.”
 
@@ -156,11 +156,11 @@ Kệ đi, giữ lại Tạ Trì thì cứ giữ lại, tên nhãi này đúng l�
 
 Thế nhưng cái chuyện càng gỡ càng rối như “Quý Thù” thì quả nhiên vẫn nên dùng dao sắc chặt đay rối là tốt nhất.
 
-Chiều nay nếu như Tạ Trì còn dám bám riết lấy anh đòi gặp “Quý Thù”...
+Chiều nay nếu như Tạ Trì còn dám bám riết lấy hắn đòi gặp “Quý Thù”...
 
 Yến Vãn Thu nheo mắt lại.
 
-Dù sao thì anh cũng đã nắm được bản đồ khoáng sản nhiệt năng trong tay rồi.
+Dù sao thì hắn cũng đã nắm được bản đồ khoáng sản nhiệt năng trong tay rồi.
 
 Một nhân viên hậu cần vì tự tiện mua chuộc lính gác để truyền tin mật mà bị tống giam vào ngục, đợi sau khi Tạ Trì giết người xong không còn giá trị lợi dụng nữa thì xử tử cả đôi, đây chẳng phải là một cái kết vô cùng hợp lý và hoàn hảo hay sao?
 
@@ -300,7 +300,7 @@ Yến Vãn Thu nhàn nhạt cất tiếng: “Vội vã tìm ta như thế, có 
 
 Câu nói đầu tiên của Tạ Trì đã khiến Yến Vãn Thu khẽ giật mình một thoáng.
 
-Anh còn ngỡ Tạ Trì sẽ đề cập tới chuyện của Quý Thù trước tiên, không ngờ đối phương thế mà lại thực sự tìm ra được tổng bộ của hội Dạ Kiêu trong khoảng thời gian ngắn ngủi đến nhường này.
+Hắn còn ngỡ Tạ Trì sẽ đề cập tới chuyện của Quý Thù trước tiên, không ngờ đối phương thế mà lại thực sự tìm ra được tổng bộ của hội Dạ Kiêu trong khoảng thời gian ngắn ngủi đến nhường này.
 
 Tạ Trì cúi đầu, không hề phát hiện ra sự biến hóa trong sắc mặt của Yến Vãn Thu, tiếp tục bẩm báo: “Tại tổng bộ của hội Dạ Kiêu, thuộc hạ đã khống chế một thợ cơ giới người Bạo Tuyết Thành bị bọn chúng bắt cóc để hỏi han tình hình. Theo lời người thợ cơ giới này tiết lộ, đứng sau lưng chống lưng cho hội Dạ Kiêu chính là Hàn Băng Thành, Hàn Băng Thành thậm chí còn gửi cho hội Dạ Kiêu một loại vũ khí kiểu mới, gọi là súng điện từ.”
 
@@ -312,19 +312,19 @@ Yến Vãn Thu nhàn nhạt đáp: “Ừm, trong cuộc diễn tập quân sự
 
 “Dạo trước ta vừa khéo thu giữ được một khẩu vũ khí kỳ dị từ tay hội Dạ Kiêu, thợ cơ giới trong doanh trại tới giờ vẫn chưa nghiên cứu ra được trò trống gì, chắc hẳn chính là khẩu súng điện từ mà ngươi vừa nhắc tới.”
 
-Tạ Trì lập tức ý thức được “cuộc diễn tập quân sự” trong miệng Yến Vãn Thu chính là sự kiện biến cố khiến anh bị lưu đày tới chốn Bạo Tuyết Thành này.
+Tạ Trì lập tức ý thức được “cuộc diễn tập quân sự” trong miệng Yến Vãn Thu chính là sự kiện biến cố khiến hắn bị lưu đày tới chốn Bạo Tuyết Thành này.
 
 Cậu vốn dĩ đã muốn tìm cơ hội để nói cho Yến Vãn Thu biết mối quan hệ giữa Yến Bạch Nguyệt và hội Dạ Kiêu, lúc này liền thuận nước đẩy thuyền mở lời: “Vậy nên đằng sau Hàn Băng Thành và hội Dạ Kiêu, có lẽ còn có sự nâng đỡ chống lưng của Chủ Tinh nữa sao ạ?”
 
 Yến Vãn Thu cười nhạt một tiếng: “Hèn chi.”
 
-Mọi chuyện đều đã thông suốt cả rồi, hai người anh em tốt của anh làm sao có lòng tốt đến mức thực sự để mặc cho anh tự do phát triển tại Bạo Tuyết Thành cơ chứ.
+Mọi chuyện đều đã thông suốt cả rồi, hai người anh em tốt của hắn làm sao có lòng tốt đến mức thực sự để mặc cho hắn tự do phát triển tại Bạo Tuyết Thành cơ chứ.
 
-Hồi tưởng lại những lời mỉa mai châm chọc giậu đổ bìm leo của Yến Bạch Nguyệt lúc anh bị lưu đày, nói cho anh biết suốt sáu năm qua Yến Hồi Thời ôm mối hận thù thấu xương với anh ra sao, phụ hoàng kiêng dè đề phòng anh thế nào, mẫu phụ khoanh tay đứng nhìn lạnh lùng ra sao, Yến Vãn Thu liền không kìm được dâng lên một trận buồn nôn tột cùng.
+Hồi tưởng lại những lời mỉa mai châm chọc giậu đổ bìm leo của Yến Bạch Nguyệt lúc hắn bị lưu đày, nói cho hắn biết suốt sáu năm qua Yến Hồi Thời ôm mối hận thù thấu xương với hắn ra sao, phụ hoàng kiêng dè đề phòng hắn thế nào, mẫu phụ khoanh tay đứng nhìn lạnh lùng ra sao, Yến Vãn Thu liền không kìm được dâng lên một trận buồn nôn tột cùng.
 
-Yến Bạch Nguyệt và Yến Hồi Thời là hai anh em cùng một mẹ sinh ra, anh từ nhỏ đã mất đi mẫu phụ, bèn được nuôi dưỡng dưới danh nghĩa của mẫu phụ của Yến Hồi Thời và Yến Bạch Nguyệt, lớn lên cùng hai người bọn họ.
+Yến Bạch Nguyệt và Yến Hồi Thời là hai anh em cùng một mẹ sinh ra, hắn từ nhỏ đã mất đi mẫu phụ, bèn được nuôi dưỡng dưới danh nghĩa của mẫu phụ của Yến Hồi Thời và Yến Bạch Nguyệt, lớn lên cùng hai người bọn họ.
 
-Trước khi Yến Bạch Nguyệt giậu đổ bìm leo vạch trần chân tướng cho anh biết, Yến Vãn Thu trước sau luôn coi bọn họ như người thân ruột thịt trong nhà, dốc hết ruột gan đối đãi, chưa từng có lấy một tia phòng bị.
+Trước khi Yến Bạch Nguyệt giậu đổ bìm leo vạch trần chân tướng cho hắn biết, Yến Vãn Thu trước sau luôn coi bọn họ như người thân ruột thịt trong nhà, dốc hết ruột gan đối đãi, chưa từng có lấy một tia phòng bị.
 
 Bây giờ nghĩ lại, bản thân ngày trước mấy lần rơi vào trạng thái rối loạn tin tức tố mà vẫn không hề nảy sinh chút nghi ngờ nào quả thực là ngu xuẩn tới mức tột cùng.
 
@@ -334,7 +334,7 @@ Tạ Trì tiếp tục bẩm báo: “Theo lời người thợ cơ giới kia n
 
 Yến Vãn Thu không trả lời ngay lập tức, mà dùng ánh mắt sâu thẳm khó lường nhìn chằm chằm Tạ Trì.
 
-Những tin tức tình báo mà Tạ Trì vừa nói ra không sai lệch là bao so với những gì anh tra khảo moi ra được, thậm chí còn có thêm rất nhiều chi tiết tỉ mỉ rõ ràng.
+Những tin tức tình báo mà Tạ Trì vừa nói ra không sai lệch là bao so với những gì hắn tra khảo moi ra được, thậm chí còn có thêm rất nhiều chi tiết tỉ mỉ rõ ràng.
 
 Yến Vãn Thu cơ bản có thể khẳng định những lời Tạ Trì nói đều là sự thật, thế nhưng việc từng bị tin tức của đối phương lừa gạt dẫn tới bị hội Dạ Kiêu đánh úp vẫn còn rành rành ra đó, cộng thêm lập trường của Tạ Trì vẫn chưa rõ ràng, Yến Vãn Thu tuyệt đối không dám lơ là buông lỏng cảnh giác.
 
@@ -346,7 +346,7 @@ Yến Vãn Thu cảm thấy hoang đường buồn cười: “Nghe theo ta?”
 
 Tạ Trì gật đầu: “Điện hạ sẽ không phán đoán sai lầm đâu ạ.”
 
-Trong lịch sử Yến Vãn Thu tuy rằng thất bại sụp đổ, nhưng đó là do bị nền văn minh cơ khí giáng đòn nghiền ép đẳng cấp, chứ ở giai đoạn đầu anh thậm chí còn tạo ra mối đe dọa khổng lồ đối với Yến Hồi Thời, Tạ Trì đối với những quyết sách của Yến Vãn Thu vô cùng tin tưởng.
+Trong lịch sử Yến Vãn Thu tuy rằng thất bại sụp đổ, nhưng đó là do bị nền văn minh cơ khí giáng đòn nghiền ép đẳng cấp, chứ ở giai đoạn đầu hắn thậm chí còn tạo ra mối đe dọa khổng lồ đối với Yến Hồi Thời, Tạ Trì đối với những quyết sách của Yến Vãn Thu vô cùng tin tưởng.
 
 Yến Vãn Thu căn bản không biết Tạ Trì đang nghĩ cái gì trong đầu, nghe vào tai chỉ cảm thấy chói tai vô cùng, cay nghiệt tự giễu: “Nếu như ta mà không phán đoán sai lầm, thì đã chẳng phải lưu lạc tới chốn Bạo Tuyết Thành này rồi.”
 
@@ -372,27 +372,27 @@ Cơn đau đầu buốt óc từng giây từng phút vơi bớt đi, tâm tính
 
 Yến Vãn Thu rất nhanh đã hoàn hồn trở lại, đưa ra quyết định dứt khoát: “Nếu như Hàn Băng Thành có liên quan tới Chủ Tinh, vậy thì tối mai cứ trực tiếp ra tay giết chết Dạ lão đại đi. Ngày kia Yến Bạch Nguyệt sẽ đặt chân tới Bạo Tuyết Thành, trước khi hắn bình an trở về Chủ Tinh, bên phía Chủ Tinh tuyệt đối không dám có hành động lớn nào đâu.”
 
-Trước đó anh lo lắng Hàn Băng Thành là thế lực địa phương, giết chết Dạ lão đại xong sẽ bị đối phương dồn lực nhắm vào, giờ đây biết được thế lực đứng sau Hàn Băng Thành cũng là Chủ Tinh, đương nhiên chẳng còn quá nhiều kiêng dè như trước nữa.
+Trước đó hắn lo lắng Hàn Băng Thành là thế lực địa phương, giết chết Dạ lão đại xong sẽ bị đối phương dồn lực nhắm vào, giờ đây biết được thế lực đứng sau Hàn Băng Thành cũng là Chủ Tinh, đương nhiên chẳng còn quá nhiều kiêng dè như trước nữa.
 
-Cho dù Dạ lão đại có bỏ mạng trước khi Yến Bạch Nguyệt tới đây, với tính khí kiêu ngạo tham lam của đối phương, không những chẳng thể nào lùi bước, mà ngược lại còn giận dữ bốc hỏa chạy tới đây để gây sự phát khó dễ với anh.
+Cho dù Dạ lão đại có bỏ mạng trước khi Yến Bạch Nguyệt tới đây, với tính khí kiêu ngạo tham lam của đối phương, không những chẳng thể nào lùi bước, mà ngược lại còn giận dữ bốc hỏa chạy tới đây để gây sự phát khó dễ với hắn.
 
-Yến Vãn Thu nhớ tới bức điện báo do Chủ Tinh gửi tới chỉ đích danh yêu cầu anh phải đích thân nghênh đón, cười lạnh một tiếng.
+Yến Vãn Thu nhớ tới bức điện báo do Chủ Tinh gửi tới chỉ đích danh yêu cầu hắn phải đích thân nghênh đón, cười lạnh một tiếng.
 
 Đỏ mắt thèm muốn quặng nhiệt năng muốn chiếm làm của riêng sao? Cũng không tự soi gương xem bản thân có còn giữ được cái mạng này để rời khỏi Bạo Tuyết Thành hay không.
 
-Mà Yến Hồi Thời cùng vị phụ hoàng tốt của anh vẫn còn đang ôm mộng tính toán để Yến Bạch Nguyệt đi liên hôn củng cố nền thống trị, trong tình cảnh sống chết của Yến Bạch Nguyệt hãy còn chưa rõ ràng, lại càng tuyệt đối không thể manh động xuất binh thảo phạt một tòa thành nhỏ bé nơi biên ải mà thực lực tiềm tàng hãy còn là một ẩn số như Bạo Tuyết Thành.
+Mà Yến Hồi Thời cùng vị phụ hoàng tốt của hắn vẫn còn đang ôm mộng tính toán để Yến Bạch Nguyệt đi liên hôn củng cố nền thống trị, trong tình cảnh sống chết của Yến Bạch Nguyệt hãy còn chưa rõ ràng, lại càng tuyệt đối không thể manh động xuất binh thảo phạt một tòa thành nhỏ bé nơi biên ải mà thực lực tiềm tàng hãy còn là một ẩn số như Bạo Tuyết Thành.
 
 Tiền đề là — toàn bộ những lời Tạ Trì nói đều là sự thật rành rành.
 
 Mọi chuyện phát triển tới nước này, tuy rằng chưa có chứng cứ mang tính thực chất, nhưng Yến Vãn Thu đã cơ bản có thể khẳng định chắc nịch rằng thế lực đứng sau lưng Tạ Trì có một bên xuất phát từ chính hoàng huynh hoàng đệ của mình.
 
-Nếu như Tạ Trì vẫn đang nói dối lừa gạt anh, tất cả những chuyện này chỉ là một cái bẫy do Tạ Trì và Yến Bạch Nguyệt liên thủ giăng ra...
+Nếu như Tạ Trì vẫn đang nói dối lừa gạt hắn, tất cả những chuyện này chỉ là một cái bẫy do Tạ Trì và Yến Bạch Nguyệt liên thủ giăng ra...
 
 Yến Vãn Thu âm u nhìn chằm chằm thiếu niên đang cúi gầm đầu phía dưới.
 
-Anh đã cho đối phương cơ hội rồi.
+Hắn đã cho đối phương cơ hội rồi.
 
-Nếu như lần này Tạ Trì vẫn dám lừa gạt anh, thì chỉ đành để Tạ Trì gánh trọn tội danh, cùng dắt tay Yến Bạch Nguyệt xuống suối vàng mà thôi.
+Nếu như lần này Tạ Trì vẫn dám lừa gạt hắn, thì chỉ đành để Tạ Trì gánh trọn tội danh, cùng dắt tay Yến Bạch Nguyệt xuống suối vàng mà thôi.
 
 Tạ Trì hoàn toàn chẳng hề hay biết gì, cúi đầu nhận lệnh: “Rõ.”
 

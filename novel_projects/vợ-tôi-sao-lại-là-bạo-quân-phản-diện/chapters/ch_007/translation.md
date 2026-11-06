@@ -4,11 +4,11 @@ Chương 7: Dò đường
 
 Yến Vãn Thu vừa mới sải bước trở về hành cung, đang bóc mở hộp quà do Tạ Trì tặng, liền nhận được tin nhắn của đối phương.
 
-Nhờ có công dâng bản đồ khoáng sản, cộng thêm việc Tạ Trì đã tiếp nhận nhiệm vụ ám sát thủ lĩnh của hội Dạ Kiêu, lệnh cấm túc của cậu về mặt danh nghĩa đã được bãi bỏ, chỉ có điều việc ra vào doanh trại vẫn cần phải báo cáo riêng với anh.
+Nhờ có công dâng bản đồ khoáng sản, cộng thêm việc Tạ Trì đã tiếp nhận nhiệm vụ ám sát thủ lĩnh của hội Dạ Kiêu, lệnh cấm túc của cậu về mặt danh nghĩa đã được bãi bỏ, chỉ có điều việc ra vào doanh trại vẫn cần phải báo cáo riêng với hắn.
 
 Yến Vãn Thu: “...”
 
-Vào đúng thời điểm này lại đột ngột hăng hái bắt tay vào làm việc, anh thực sự rất khó để không hoài nghi rằng Tạ Trì bị buổi gặp mặt giới hạn thời gian ban nãy kích thích.
+Vào đúng thời điểm này lại đột ngột hăng hái bắt tay vào làm việc, hắn thực sự rất khó để không hoài nghi rằng Tạ Trì bị buổi gặp mặt giới hạn thời gian ban nãy kích thích.
 
 【Yến Vãn Thu: Chuẩn tấu.】
 
@@ -18,11 +18,11 @@ Bên trong hộp quà là một bộ quần áo lót màu đen được gấp n�
 
 Yến Vãn Thu mở phong bì thư ra, rũ mắt nhìn nửa tấm bản đồ phân bố quặng nhiệt năng còn lại bên trong.
 
-Hoàn toàn không có vấn đề gì, có thể ghép nối chuẩn xác với nửa tấm bản đồ mà Tạ Trì đã giao cho anh lúc trước.
+Hoàn toàn không có vấn đề gì, có thể ghép nối chuẩn xác với nửa tấm bản đồ mà Tạ Trì đã giao cho hắn lúc trước.
 
 Tạ Trì thực sự đã đem quân bài tẩy lớn nhất trong tay mình ở thời điểm hiện tại giao trọn cho người thân “Quý Thù” mà cậu hết mực tin tưởng.
 
-Tâm tư Yến Vãn Thu có chút hỗn loạn phức tạp, anh cất kỹ nửa tấm bản đồ này rồi trải bộ quần áo giữ nhiệt điều hòa nhiệt độ trong hộp quà ra xem.
+Tâm tư Yến Vãn Thu có chút hỗn loạn phức tạp, hắn cất kỹ nửa tấm bản đồ này rồi trải bộ quần áo giữ nhiệt điều hòa nhiệt độ trong hộp quà ra xem.
 
 Dẫu cho chưa hề mặc thử lên người, Yến Vãn Thu cũng đã cảm nhận được một luồng hơi ấm dễ chịu truyền tới từ phần da thịt tiếp xúc với chất liệu vải.
 
@@ -30,9 +30,9 @@ Dẫu cho chưa hề mặc thử lên người, Yến Vãn Thu cũng đã cảm 
 
 Yến Vãn Thu lẩm bẩm tự nói một mình.
 
-Ngay từ đầu anh vốn không ôm ấp quá nhiều hy vọng vào việc Tạ Trì có thể ám sát được Dạ lão đại, dù sao thì hội Dạ Kiêu không đơn thuần chỉ là một tổ chức đầu sỏ tại Bạo Tuyết Thành, mà đằng sau lưng bọn chúng còn có mối liên hệ chằng chịt về mặt lợi ích với các thành trì khác thuộc Bắc Vực tinh hệ như Hàn Băng Thành.
+Ngay từ đầu hắn vốn không ôm ấp quá nhiều hy vọng vào việc Tạ Trì có thể ám sát được Dạ lão đại, dù sao thì hội Dạ Kiêu không đơn thuần chỉ là một tổ chức đầu sỏ tại Bạo Tuyết Thành, mà đằng sau lưng bọn chúng còn có mối liên hệ chằng chịt về mặt lợi ích với các thành trì khác thuộc Bắc Vực tinh hệ như Hàn Băng Thành.
 
-Khẩu vũ khí thu giữ được lần trước vẫn chưa nghiên cứu ra được manh mối gì, nếu như toàn bộ hang ổ của hội Dạ Kiêu đều được trang bị loại vũ khí như thế, vậy thì ngay cả anh cũng chẳng làm gì được Dạ lão đại, một mình Tạ Trì đơn thương độc mã lại càng khó lòng nhúc nhích được nửa bước.
+Khẩu vũ khí thu giữ được lần trước vẫn chưa nghiên cứu ra được manh mối gì, nếu như toàn bộ hang ổ của hội Dạ Kiêu đều được trang bị loại vũ khí như thế, vậy thì ngay cả hắn cũng chẳng làm gì được Dạ lão đại, một mình Tạ Trì đơn thương độc mã lại càng khó lòng nhúc nhích được nửa bước.
 
 Chấp thuận yêu cầu của Tạ Trì, một nửa là vì tấm bản đồ khoáng sản này, nửa còn lại là do Yến Vãn Thu muốn nhân cơ hội này lôi bằng được thế lực đứng sau lưng Tạ Trì ra ánh sáng, cũng vừa hay có thể mượn tay người đứng sau Tạ Trì để đánh cờ đọ sức với hội Dạ Kiêu.
 
@@ -42,7 +42,7 @@ Yến Bạch Nguyệt rất có thể chỉ là một trong số các bên đó 
 
 Thế nhưng sau đó thì sao?
 
-Anh nên xử lý Tạ Trì như thế nào? Lại nên xử lý một “Quý Thù” vốn dĩ không hề tồn tại trên đời này ra sao?
+Hắn nên xử lý Tạ Trì như thế nào? Lại nên xử lý một “Quý Thù” vốn dĩ không hề tồn tại trên đời này ra sao?
 
 Yến Vãn Thu hiếm khi rơi vào cảm giác mờ mịt bối rối như thế này.
 
@@ -50,7 +50,7 @@ Yến Vãn Thu hiếm khi rơi vào cảm giác mờ mịt bối rối như th�
 
 Yến Vãn Thu khẽ chửi một tiếng, đặt bộ quần áo giữ nhiệt trong tay xuống, thế nhưng cơn buồn ngủ cũng tan biến sạch sành sanh.
 
-Anh khoác thêm chiếc áo khoác ngoài, vừa gọi điện liên lạc cho Nhiếp Hoài Nghĩa vừa sải bước đi ra ngoài.
+Hắn khoác thêm chiếc áo khoác ngoài, vừa gọi điện liên lạc cho Nhiếp Hoài Nghĩa vừa sải bước đi ra ngoài.
 
 “Nhiếp phó đội, tới địa lao một chuyến, đánh thức tên nội ứng của hội Dạ Kiêu bị bắt giam mấy hôm trước dậy, ta muốn đích thân thẩm vấn.”
 

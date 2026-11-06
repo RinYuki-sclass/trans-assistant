@@ -1,6 +1,6 @@
 # 📖 MỤC LỤC: Vợ Tôi Sao Lại Là Bạo Quân Phản Diện
-> **Tác giả:** Sơn Xuyên Thiên Dã (山川千野) | **Tiến độ:** 0/89 chương (0.0%) | **Cập nhật:** 06/11/2026
-> **Trạng thái:** 🟢 Đã duyệt QC (0) | 🔵 Đã dịch (0) | ⚪ Chưa dịch (89)
+> **Tác giả:** Sơn Xuyên Thiên Dã (山川千野) | **Tiến độ:** 35/89 chương (39.3%) | **Cập nhật:** 06/11/2026
+> **Trạng thái:** 🟢 Đã duyệt QC (35) | 🔵 Đã dịch (0) | ⚪ Chưa dịch (54)
 
 ---
 
@@ -8,41 +8,41 @@
 
 | STT | Mã thư mục | Tiêu đề chương (Tiếng Việt) | Nguyên tác | Số đoạn | Trạng thái |
 | :---: | :---: | :--- | :--- | :---: | :---: |
-| 1 | `ch_001` | [Chương 1](chapters/ch_001/source.md) | 第1章 穿越 | 113 | ⚪ Đã cào raw |
-| 2 | `ch_002` | [Chương 2](chapters/ch_002/source.md) | 第2章 深夜 | 211 | ⚪ Đã cào raw |
-| 3 | `ch_003` | [Chương 3](chapters/ch_003/source.md) | 第3章 好像 | 146 | ⚪ Đã cào raw |
-| 4 | `ch_004` | [Chương 4](chapters/ch_004/source.md) | 第4章 高烧 | 150 | ⚪ Đã cào raw |
-| 5 | `ch_005` | [Chương 5](chapters/ch_005/source.md) | 第5章 见老婆 | 143 | ⚪ Đã cào raw |
-| 6 | `ch_006` | [Chương 6](chapters/ch_006/source.md) | 第6章 亲亲 | 143 | ⚪ Đã cào raw |
-| 7 | `ch_007` | [Chương 7](chapters/ch_007/source.md) | 第7章 踩点 | 122 | ⚪ Đã cào raw |
-| 8 | `ch_008` | [Chương 8](chapters/ch_008/source.md) | 第8章 早餐 | 156 | ⚪ Đã cào raw |
-| 9 | `ch_009` | [Chương 9](chapters/ch_009/source.md) | 第9章 等等（一更） | 206 | ⚪ Đã cào raw |
-| 10 | `ch_010` | [Chương 10](chapters/ch_010/source.md) | 第10章 小狗（二更） | 129 | ⚪ Đã cào raw |
-| 11 | `ch_011` | [Chương 11](chapters/ch_011/source.md) | 第11章 杀人夜（三更） | 203 | ⚪ Đã cào raw |
-| 12 | `ch_012` | [Chương 12](chapters/ch_012/source.md) | 第12章 回家（四更） | 116 | ⚪ Đã cào raw |
-| 13 | `ch_013` | [Chương 13](chapters/ch_013/source.md) | 第13章 晏白月来访 | 363 | ⚪ Đã cào raw |
-| 14 | `ch_014` | [Chương 14](chapters/ch_014/source.md) | 第14章 小老公 | 139 | ⚪ Đã cào raw |
-| 15 | `ch_015` | [Chương 15](chapters/ch_015/source.md) | 第15章 标记 | 165 | ⚪ Đã cào raw |
-| 16 | `ch_016` | [Chương 16](chapters/ch_016/source.md) | 第16章 许诺 | 123 | ⚪ Đã cào raw |
-| 17 | `ch_017` | [Chương 17](chapters/ch_017/source.md) | 第17章 夜不归宿（含3k营养液加更） | 172 | ⚪ Đã cào raw |
-| 18 | `ch_018` | [Chương 18](chapters/ch_018/source.md) | 第18章 坏心眼（含6k营养液加更） | 192 | ⚪ Đã cào raw |
-| 19 | `ch_019` | [Chương 19](chapters/ch_019/source.md) | 第19章 见面准备 | 130 | ⚪ Đã cào raw |
-| 20 | `ch_020` | [Chương 20](chapters/ch_020/source.md) | 第20章 命不久矣 | 135 | ⚪ Đã cào raw |
-| 21 | `ch_021` | [Chương 21](chapters/ch_021/source.md) | 第21章 相拥而眠 | 149 | ⚪ Đã cào raw |
-| 22 | `ch_022` | [Chương 22](chapters/ch_022/source.md) | 第22章 心软与迟疑（含9k营养液加更） | 212 | ⚪ Đã cào raw |
-| 23 | `ch_023` | [Chương 23](chapters/ch_023/source.md) | 第23章 开心的小狗 | 154 | ⚪ Đã cào raw |
-| 24 | `ch_024` | [Chương 24](chapters/ch_024/source.md) | 第24章 晏白月之死 | 152 | ⚪ Đã cào raw |
-| 25 | `ch_025` | [Chương 25](chapters/ch_025/source.md) | 第25章 “我会保护您。” | 115 | ⚪ Đã cào raw |
-| 26 | `ch_026` | [Chương 26](chapters/ch_026/source.md) | 第26章 紊乱症复发（含1.2w营养液加更） | 186 | ⚪ Đã cào raw |
-| 27 | `ch_027` | [Chương 27](chapters/ch_027/source.md) | 第27章 失控 | 169 | ⚪ Đã cào raw |
-| 28 | `ch_028` | [Chương 28](chapters/ch_028/source.md) | 第28章 明天见 | 173 | ⚪ Đã cào raw |
-| 29 | `ch_029` | [Chương 29](chapters/ch_029/source.md) | 第29章 态度转变（含1.5w营养液加更） | 184 | ⚪ Đã cào raw |
-| 30 | `ch_030` | [Chương 30](chapters/ch_030/source.md) | 第30章 老公^^（含1.6w营养液加更） | 220 | ⚪ Đã cào raw |
-| 31 | `ch_031` | [Chương 31](chapters/ch_031/source.md) | 第31章 亲我一下（含1.7w营养液加更） | 190 | ⚪ Đã cào raw |
-| 32 | `ch_032` | [Chương 32](chapters/ch_032/source.md) | 第32章 独家教学（含1.8w营养液加更） | 220 | ⚪ Đã cào raw |
-| 33 | `ch_033` | [Chương 33](chapters/ch_033/source.md) | 第33章 顶级智斗 | 170 | ⚪ Đã cào raw |
-| 34 | `ch_034` | [Chương 34](chapters/ch_034/source.md) | 第34章 聊天限制解除 | 181 | ⚪ Đã cào raw |
-| 35 | `ch_035` | [Chương 35](chapters/ch_035/source.md) | 第35章 对戒 | 226 | ⚪ Đã cào raw |
+| 1 | `ch_001` | [Chương 1](chapters/ch_001/translation.md) | 第1章 | 113 | 🟢 Đã duyệt QC |
+| 2 | `ch_002` | [Chương 2](chapters/ch_002/translation.md) | 第2章 | 211 | 🟢 Đã duyệt QC |
+| 3 | `ch_003` | [Chương 3](chapters/ch_003/translation.md) | 第3章 | 146 | 🟢 Đã duyệt QC |
+| 4 | `ch_004` | [Chương 4](chapters/ch_004/translation.md) | 第4章 | 150 | 🟢 Đã duyệt QC |
+| 5 | `ch_005` | [Chương 5](chapters/ch_005/translation.md) | 第5章 | 143 | 🟢 Đã duyệt QC |
+| 6 | `ch_006` | [Chương 6](chapters/ch_006/translation.md) | 第6章 | 143 | 🟢 Đã duyệt QC |
+| 7 | `ch_007` | [Chương 7](chapters/ch_007/translation.md) | 第7章 | 122 | 🟢 Đã duyệt QC |
+| 8 | `ch_008` | [Chương 8](chapters/ch_008/translation.md) | 第8章 | 156 | 🟢 Đã duyệt QC |
+| 9 | `ch_009` | [Chương 9](chapters/ch_009/translation.md) | 第9章 | 206 | 🟢 Đã duyệt QC |
+| 10 | `ch_010` | [Chương 10](chapters/ch_010/translation.md) | 第10章 | 129 | 🟢 Đã duyệt QC |
+| 11 | `ch_011` | [Chương 11](chapters/ch_011/translation.md) | 第11章 | 203 | 🟢 Đã duyệt QC |
+| 12 | `ch_012` | [Chương 12](chapters/ch_012/translation.md) | 第12章 | 116 | 🟢 Đã duyệt QC |
+| 13 | `ch_013` | [Chương 13](chapters/ch_013/translation.md) | 第13章 | 363 | 🟢 Đã duyệt QC |
+| 14 | `ch_014` | [Chương 14](chapters/ch_014/translation.md) | 第14章 | 139 | 🟢 Đã duyệt QC |
+| 15 | `ch_015` | [Chương 15](chapters/ch_015/translation.md) | 第15章 | 165 | 🟢 Đã duyệt QC |
+| 16 | `ch_016` | [Chương 16](chapters/ch_016/translation.md) | 第16章 | 123 | 🟢 Đã duyệt QC |
+| 17 | `ch_017` | [Chương 17](chapters/ch_017/translation.md) | 第17章 | 172 | 🟢 Đã duyệt QC |
+| 18 | `ch_018` | [Chương 18](chapters/ch_018/translation.md) | 第18章 | 192 | 🟢 Đã duyệt QC |
+| 19 | `ch_019` | [Chương 19](chapters/ch_019/translation.md) | 第19章 | 130 | 🟢 Đã duyệt QC |
+| 20 | `ch_020` | [Chương 20](chapters/ch_020/translation.md) | 第20章 | 135 | 🟢 Đã duyệt QC |
+| 21 | `ch_021` | [Chương 21](chapters/ch_021/translation.md) | 第21章 | 149 | 🟢 Đã duyệt QC |
+| 22 | `ch_022` | [Chương 22](chapters/ch_022/translation.md) | 第22章 | 212 | 🟢 Đã duyệt QC |
+| 23 | `ch_023` | [Chương 23](chapters/ch_023/translation.md) | 第23章 | 154 | 🟢 Đã duyệt QC |
+| 24 | `ch_024` | [Chương 24](chapters/ch_024/translation.md) | 第24章 | 152 | 🟢 Đã duyệt QC |
+| 25 | `ch_025` | [Chương 25](chapters/ch_025/translation.md) | 第25章 | 115 | 🟢 Đã duyệt QC |
+| 26 | `ch_026` | [Chương 26](chapters/ch_026/translation.md) | 第26章 | 186 | 🟢 Đã duyệt QC |
+| 27 | `ch_027` | [Chương 27](chapters/ch_027/translation.md) | 第27章 | 169 | 🟢 Đã duyệt QC |
+| 28 | `ch_028` | [Chương 28](chapters/ch_028/translation.md) | 第28章 | 173 | 🟢 Đã duyệt QC |
+| 29 | `ch_029` | [Chương 29](chapters/ch_029/translation.md) | 第29章 | 184 | 🟢 Đã duyệt QC |
+| 30 | `ch_030` | [Chương 30](chapters/ch_030/translation.md) | 第30章 | 220 | 🟢 Đã duyệt QC |
+| 31 | `ch_031` | [Chương 31](chapters/ch_031/translation.md) | 第31章 | 190 | 🟢 Đã duyệt QC |
+| 32 | `ch_032` | [Chương 32](chapters/ch_032/translation.md) | 第32章 | 220 | 🟢 Đã duyệt QC |
+| 33 | `ch_033` | [Chương 33](chapters/ch_033/translation.md) | 第33章 | 170 | 🟢 Đã duyệt QC |
+| 34 | `ch_034` | [Chương 34](chapters/ch_034/translation.md) | 第34章 | 181 | 🟢 Đã duyệt QC |
+| 35 | `ch_035` | [Chương 35](chapters/ch_035/translation.md) | 第35章 | 226 | 🟢 Đã duyệt QC |
 | 36 | `ch_036` | [Chương 36](chapters/ch_036/source.md) | 第36章 心软 | 217 | ⚪ Đã cào raw |
 | 37 | `ch_037` | [Chương 37](chapters/ch_037/source.md) | 第37章 真心与真心 | 206 | ⚪ Đã cào raw |
 | 38 | `ch_038` | [Chương 38](chapters/ch_038/source.md) | 第38章 蝰蛇投诚 | 175 | ⚪ Đã cào raw |

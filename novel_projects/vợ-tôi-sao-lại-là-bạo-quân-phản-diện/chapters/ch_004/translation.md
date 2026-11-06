@@ -82,33 +82,33 @@ Cùng lúc đó, bên trong phòng ngủ của hành cung.
 
 Yến Vãn Thu — kẻ bị Tạ Trì coi là bạo quân làm đủ mọi điều ác — lúc này đang lên cơn sốt cao li bì, mê man nằm liệt trên giường.
 
-Bởi vì những lời nói vu vơ của Tạ Trì làm anh gợi nhớ lại những chuyện cũ trong quá khứ, khiến anh mất sạch cảm giác buồn ngủ. Sau khi Tạ Trì ngủ say, anh vội vã vớ đại một bộ quần áo mặc vào, nhân lúc sáng sớm chưa có ai để ý, cắn răng chịu đựng cơn gió lạnh âm ba mươi độ C khập khiễng bước từng bước trở về tẩm cung của mình.
+Bởi vì những lời nói vu vơ của Tạ Trì làm hắn gợi nhớ lại những chuyện cũ trong quá khứ, khiến hắn mất sạch cảm giác buồn ngủ. Sau khi Tạ Trì ngủ say, hắn vội vã vớ đại một bộ quần áo mặc vào, nhân lúc sáng sớm chưa có ai để ý, cắn răng chịu đựng cơn gió lạnh âm ba mươi độ C khập khiễng bước từng bước trở về tẩm cung của mình.
 
-Tên cún con Tạ Trì chết tiệt kia, nhìn bề ngoài thì có vẻ vô tội ngây thơ non nớt, kết quả là gần như cắn nát toàn bộ da thịt trên người anh, khắp người toàn là những vết cắn sưng đỏ tấy lên, mà một chỗ khác lại càng thê thảm khôn cùng.
+Tên cún con Tạ Trì chết tiệt kia, nhìn bề ngoài thì có vẻ vô tội ngây thơ non nớt, kết quả là gần như cắn nát toàn bộ da thịt trên người hắn, khắp người toàn là những vết cắn sưng đỏ tấy lên, mà một chỗ khác lại càng thê thảm khôn cùng.
 
 Nếu như không phải Alpha không thể bị một Alpha khác đánh dấu, Yến Vãn Thu đồ rằng ngay cả thể tuyến sau gáy của mình cũng chẳng thoát khỏi kiếp nạn.
 
-Đè một tên ám vệ suốt cả đêm và bị một tên ám vệ đè ra làm suốt cả đêm rõ ràng hoàn toàn không phải cùng một khái niệm, nhất là khi anh còn bị giày vò thành cái bộ dạng thê thảm nhường này.
+Đè một tên ám vệ suốt cả đêm và bị một tên ám vệ đè ra làm suốt cả đêm rõ ràng hoàn toàn không phải cùng một khái niệm, nhất là khi hắn còn bị giày vò thành cái bộ dạng thê thảm nhường này.
 
-Yến Vãn Thu chỉ đành ngậm bồ hòn làm ngọt nuốt máu vào trong, ngay cả quân y cũng không dám gọi tới. Sau khi giao khẩu súng thu giữ được cho thợ cơ giới đi cùng, anh tự mình xử lý vết thương ngoài da, bên ngoài hạ lệnh mấy ngày này tĩnh dưỡng cấm ai quấy rầy, uống tạm vài viên thuốc tiêu viêm rồi nằm xuống ngủ.
+Yến Vãn Thu chỉ đành ngậm bồ hòn làm ngọt nuốt máu vào trong, ngay cả quân y cũng không dám gọi tới. Sau khi giao khẩu súng thu giữ được cho thợ cơ giới đi cùng, hắn tự mình xử lý vết thương ngoài da, bên ngoài hạ lệnh mấy ngày này tĩnh dưỡng cấm ai quấy rầy, uống tạm vài viên thuốc tiêu viêm rồi nằm xuống ngủ.
 
-Sự thật chứng minh, quyết định của anh là hoàn toàn chuẩn xác.
+Sự thật chứng minh, quyết định của hắn là hoàn toàn chuẩn xác.
 
-Anh vừa nằm xuống chưa được bao lâu thì cơn sốt cao đã ập đến dữ dội.
+Hắn vừa nằm xuống chưa được bao lâu thì cơn sốt cao đã ập đến dữ dội.
 
 Yến Vãn Thu nghiến răng nghiến lợi, khó nhọc vươn tay với lấy cốc nước đặt ở đầu giường.
 
-Tất cả đều tại cái tên ngu xuẩn Tạ Trì kia, rảnh rỗi không có việc gì làm sao lại lớn đến mức đó chứ? Tới tận bây giờ vẫn còn một phần bên trong mà chính anh cũng không tài nào tự mình rửa sạch ra được.
+Tất cả đều tại cái tên ngu xuẩn Tạ Trì kia, rảnh rỗi không có việc gì làm sao lại lớn đến mức đó chứ? Tới tận bây giờ vẫn còn một phần bên trong mà chính hắn cũng không tài nào tự mình rửa sạch ra được.
 
-Anh cũng là do bị chứng rối loạn tin tức tố làm cho mụ mẫm đầu óc, thế mà lại không nhân lúc Tạ Trì ngủ say ra tay giải quyết gọn gàng đối phương.
+Hắn cũng là do bị chứng rối loạn tin tức tố làm cho mụ mẫm đầu óc, thế mà lại không nhân lúc Tạ Trì ngủ say ra tay giải quyết gọn gàng đối phương.
 
-Đợi khi hạ sốt, anh nhất định phải đích thân băm vằm Tạ Trì ra thành trăm mảnh...
+Đợi khi hạ sốt, hắn nhất định phải đích thân băm vằm Tạ Trì ra thành trăm mảnh...
 
 “Cốc cốc.”
 
 Dòng suy nghĩ của Yến Vãn Thu bị tiếng gõ cửa cắt ngang.
 
-“Cút!” Anh khàn giọng gầm lên, “Đã bảo đừng có tới làm phiền ta rồi cơ mà!”
+“Cút!” Hắn khàn giọng gầm lên, “Đã bảo đừng có tới làm phiền ta rồi cơ mà!”
 
 “Điện hạ.” Thị vệ ngoài cửa run rẩy sợ hãi, “Là Nhiếp phó đội truyền tin tới, bảo là Tạ Trì—”
 
@@ -150,7 +150,7 @@ Yến Bạch Nguyệt rõ ràng là thực sự vô cùng yêu thích chiếc v�
 
 Tạ Trì nghe với vẻ lơ đễnh chẳng để tâm, trong đầu toàn là suy nghĩ làm thế nào để tối đa hóa lợi ích từ những tin tức vừa nghe được từ miệng Yến Bạch Nguyệt để bẩm báo cho Yến Vãn Thu.
 
-Thân phận A đồng của cậu tuy đã được chứng thực, nhưng Yến Vãn Thu hình như lại càng thêm tức giận hơn. Theo lời Nhiếp Hoài Nghĩa kể lại, khoảnh khắc Yến Vãn Thu nghe thấy cậu xin diện kiến, luồng uy áp tin tức tố trên người anh suýt chút nữa đã đè chết tươi tên thị vệ đứng ngoài cửa.
+Thân phận A đồng của cậu tuy đã được chứng thực, nhưng Yến Vãn Thu hình như lại càng thêm tức giận hơn. Theo lời Nhiếp Hoài Nghĩa kể lại, khoảnh khắc Yến Vãn Thu nghe thấy cậu xin diện kiến, luồng uy áp tin tức tố trên người hắn suýt chút nữa đã đè chết tươi tên thị vệ đứng ngoài cửa.
 
 Tạ Trì vốn dĩ có đôi phần kiêng dè vị bạo quân khét tiếng này, dù sao cậu cũng mới chỉ chứng minh được bản thân không có khả năng tư thông với Yến Bạch Nguyệt, chứ thân phận nội gián thì hoàn toàn chưa được gột rửa sạch sẽ. Vị bạo quân hỉ nộ vô thường lại đa nghi này vẫn có thể xử tử cậu bất cứ lúc nào.
 

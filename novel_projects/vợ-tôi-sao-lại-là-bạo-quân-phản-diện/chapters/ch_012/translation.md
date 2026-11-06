@@ -82,11 +82,11 @@ Nhiếp Hoài Nghĩa nhìn bóng lưng Tạ Trì đi xa dần, lòng mang theo c
 
 “... Tất cả những thứ này đều là do Tạ Trì mang về?”
 
-Tại sảnh diện kiến, Yến Vãn Thu nhìn chiếc hòm chứa đầy những mảnh xương sọ cháy đen thui không thể phân biệt nổi của ai trước mặt, cùng với đống súng ống chất cao như núi nhỏ và Thời Bùi Quyết đang run lẩy bẩy, trên mặt anh lộ rõ vẻ kinh ngạc ngỡ ngàng.
+Tại sảnh diện kiến, Yến Vãn Thu nhìn chiếc hòm chứa đầy những mảnh xương sọ cháy đen thui không thể phân biệt nổi của ai trước mặt, cùng với đống súng ống chất cao như núi nhỏ và Thời Bùi Quyết đang run lẩy bẩy, trên mặt hắn lộ rõ vẻ kinh ngạc ngỡ ngàng.
 
-Anh đã cài cắm tai mắt ở khắp các ngóc ngách của thành Bạo Tuyết, từ sáng sớm đã biết tin về vụ nổ ở thôn Phong Nhai, cộng thêm định vị phi hành khí của Tạ Trì ở gần đó, anh đã đoán ra thôn Phong Nhai chính là tổng bộ của Dạ Kiêu Hội, Dạ lão đại e rằng cũng đã mất mạng.
+Hắn đã cài cắm tai mắt ở khắp các ngóc ngách của thành Bạo Tuyết, từ sáng sớm đã biết tin về vụ nổ ở thôn Phong Nhai, cộng thêm định vị phi hành khí của Tạ Trì ở gần đó, hắn đã đoán ra thôn Phong Nhai chính là tổng bộ của Dạ Kiêu Hội, Dạ lão đại e rằng cũng đã mất mạng.
 
-Nếu không thì anh đã lập tức hỏi tội Tạ Trì ngay từ đầu rồi, chứ chẳng phải bảo Nhiếp Hoài Nghĩa đuổi khéo Tạ Trì đi.
+Nếu không thì hắn đã lập tức hỏi tội Tạ Trì ngay từ đầu rồi, chứ chẳng phải bảo Nhiếp Hoài Nghĩa đuổi khéo Tạ Trì đi.
 
 Nhiếp Hoài Nghĩa cúi đầu, cung cung kính kính đáp: “Dạ không phải, đây chỉ là một phần súng ống thôi ạ, Tạ đội trưởng mang về nguyên cả một phi hành khí đầy ắp vũ khí.”
 
@@ -110,7 +110,7 @@ Yến Vãn Thu thấy Thời Bùi Quyết trông như thể bất cứ lúc nào
 
 “Bị thương rất nặng?” Yến Vãn Thu nheo mắt lại.
 
-Nhiếp Hoài Nghĩa bị anh vặn hỏi ngược lại, cứ tưởng Yến Vãn Thu nổi trận lôi đình, tim lập tức thót lên tận cổ họng, vội quỳ một gối xuống: “Thuộc hạ cũng không rõ tình hình cụ thể ra sao, chỉ là lúc Tạ đội trưởng trở về cả người toàn là máu, trông bộ dạng quả thực rất nguy ngập.”
+Nhiếp Hoài Nghĩa bị hắn vặn hỏi ngược lại, cứ tưởng Yến Vãn Thu nổi trận lôi đình, tim lập tức thót lên tận cổ họng, vội quỳ một gối xuống: “Thuộc hạ cũng không rõ tình hình cụ thể ra sao, chỉ là lúc Tạ đội trưởng trở về cả người toàn là máu, trông bộ dạng quả thực rất nguy ngập.”
 
 Thời Bùi Quyết vừa bước chân vào cửa đã bị Yến Vãn Thu dọa cho khiếp vía, vừa trải qua một đêm kinh hồn bạt vía, vừa thoát khỏi hang sói lại rơi ngay vào miệng cọp, hắn từ lâu đã sợ mất mật, theo bản năng liền “bộp” một tiếng quỳ sụp xuống cùng với Nhiếp Hoài Nghĩa.
 
@@ -118,7 +118,7 @@ Yến Vãn Thu: “...”
 
 Yến Vãn Thu cạn lời nhìn Thời Bùi Quyết.
 
-Thời Bùi Quyết bị anh nhìn chằm chằm đến mức sắp khóc thét ra tiếng.
+Thời Bùi Quyết bị hắn nhìn chằm chằm đến mức sắp khóc thét ra tiếng.
 
 Ai có thể nói cho hắn biết, tại sao mắt của vị Yến Vãn Thu này lại có màu đỏ tươi - biểu tượng cho thấy Alpha đang rơi vào trạng thái cuồng bạo vậy trời!!
 
@@ -132,9 +132,9 @@ Dưới bản năng cầu sinh mãnh liệt, bộ não của Thời Bùi Quyết
 
 Yến Vãn Thu và Nhiếp Hoài Nghĩa nghe vậy đều khựng lại một nhịp.
 
-Yến Vãn Thu từng chứng kiến uy lực của súng điện từ, thấy Tạ Trì tận tâm tận lực làm việc cho mình như thế, anh cũng không đến mức lúc này qua cầu rút ván, nghe vậy liền cau mày bảo Nhiếp Hoài Nghĩa: “Bảo quân y của đội tới báo cáo tình hình của Tạ Trì cho ta.”
+Yến Vãn Thu từng chứng kiến uy lực của súng điện từ, thấy Tạ Trì tận tâm tận lực làm việc cho mình như thế, hắn cũng không đến mức lúc này qua cầu rút ván, nghe vậy liền cau mày bảo Nhiếp Hoài Nghĩa: “Bảo quân y của đội tới báo cáo tình hình của Tạ Trì cho ta.”
 
-Thuốc men trong doanh trại vô cùng khan hiếm, các loại dược phẩm quý hiếm đều cần có sự phê duyệt đặc biệt của anh mới được phép sử dụng, Yến Vãn Thu định mở quyền hạn tạm thời cho quân y.
+Thuốc men trong doanh trại vô cùng khan hiếm, các loại dược phẩm quý hiếm đều cần có sự phê duyệt đặc biệt của hắn mới được phép sử dụng, Yến Vãn Thu định mở quyền hạn tạm thời cho quân y.
 
 Sắc mặt Nhiếp Hoài Nghĩa có chút không tự nhiên: “Điện hạ, Tạ đội trưởng không hề đi tìm quân y, mà đã trực tiếp về phòng nghỉ ngơi rồi ạ.”
 
@@ -144,7 +144,7 @@ Yến Vãn Thu nghe xong, sắc mặt bỗng chốc sa sầm xuống, lập tứ
 
 “Dẫn Thời Bùi Quyết xuống, cất vũ khí vào kho riêng của ta, lát nữa ta sẽ tới kiểm kê sau.”
 
-Anh vứt lại câu nói đó rồi vội vã sải bước rời khỏi sảnh diện kiến.
+Hắn vứt lại câu nói đó rồi vội vã sải bước rời khỏi sảnh diện kiến.
 
 Thời Bùi Quyết ngơ ngác nhìn bóng lưng Yến Vãn Thu đi xa dần.
 
@@ -222,9 +222,9 @@ Tạ Trì lập tức phản xạ tức thì, khóa vòi nước nóng trong ph�
 
 Sau khi nhìn rõ cảnh tượng ngoài cửa, Tạ Trì sững sờ chết lặng.
 
-Cánh cửa gỗ mục nát tồi tàn của cậu đã nằm bẹp dí trên mặt đất, người đàn ông với mái tóc dài màu trắng đang từ tốn thu lại bàn chân vừa đạp tung cửa, phía sau anh là cả một đám người hoặc xách hòm thuốc hoặc khiêng cáng cứu thương.
+Cánh cửa gỗ mục nát tồi tàn của cậu đã nằm bẹp dí trên mặt đất, người đàn ông với mái tóc dài màu trắng đang từ tốn thu lại bàn chân vừa đạp tung cửa, phía sau hắn là cả một đám người hoặc xách hòm thuốc hoặc khiêng cáng cứu thương.
 
-Yến Vãn Thu ngước mắt lên, đôi mắt đỏ rực chạm thẳng vào ánh mắt của cậu, trên mặt anh vẫn chưa kịp thu lại vẻ lạnh lùng thấu xương đến rợn người, trông vô cùng hung tợn tàn bạo.
+Yến Vãn Thu ngước mắt lên, đôi mắt đỏ rực chạm thẳng vào ánh mắt của cậu, trên mặt hắn vẫn chưa kịp thu lại vẻ lạnh lùng thấu xương đến rợn người, trông vô cùng hung tợn tàn bạo.
 
 Tạ Trì: ...?
 

@@ -160,7 +160,7 @@ Thành viên đang canh giữ Thời Bùi Quyết rõ ràng cũng hoảng hồn,
 
 Thời Bùi Quyết ở trong phòng run lẩy bẩy nhìn cảnh hỗn loạn bên ngoài, đang do dự không biết có nên ra ngoài tìm Tạ Trì hay không thì nhận được tin nhắn đối phương gửi tới.
 
-[AAA giết người báo giá qua tin nhắn riêng: Đừng ra ngoài, tôi xử lý sạch người của Dạ Kiêu Hội xong sẽ tới đón anh.]
+[AAA giết người báo giá qua tin nhắn riêng: Đừng ra ngoài, tôi xử lý sạch người của Dạ Kiêu Hội xong sẽ tới đón hắn.]
 
 Thời Bùi Quyết cuống cuồng nhắn lại một câu “Rõ”, sau đó an tâm rụt người vào góc xó.
 

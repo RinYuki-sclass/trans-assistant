@@ -28,13 +28,13 @@ Một chút tin tức tố thanh sảng ít ỏi kia rất nhanh sau đó đã t
 
 Yến Vãn Thu theo bản năng khẽ hít hà một cái, ngửi thấy dư vị ngọt ngào đọng lại ở nốt hương cuối cùng.
 
-Sau đó, anh hoàn hồn trở lại, cười lạnh một tiếng.
+Sau đó, hắn hoàn hồn trở lại, cười lạnh một tiếng.
 
-Anh không hề bị Tạ Trì dắt mũi xoay như chong chóng. Bất kể xu hướng tính dục của đối phương ra sao, việc tự tiện lén lút liên lạc với Yến Bạch Nguyệt — con sói mắt trắng từng gài bẫy hãm hại anh — đều là sự thật rành rành.
+Hắn không hề bị Tạ Trì dắt mũi xoay như chong chóng. Bất kể xu hướng tính dục của đối phương ra sao, việc tự tiện lén lút liên lạc với Yến Bạch Nguyệt — con sói mắt trắng từng gài bẫy hãm hại hắn — đều là sự thật rành rành.
 
 Yến Vãn Thu âm u nhìn chằm chằm vào tên ám vệ sở hữu luồng tin tức tố hãy còn non nớt đến lạ kỳ này, hồi lâu sau mới giễu cợt nói: “Nếu ngươi đã là A đồng, vậy thì tối nay ta sẽ tặng cho ngươi một alpha để tác thành cho ngươi.”
 
-Ngữ điệu của anh thong dong ung dung, tạo nên sự tương phản rõ rệt với một Tạ Trì đang căng thẳng tột độ.
+Ngữ điệu của hắn thong dong ung dung, tạo nên sự tương phản rõ rệt với một Tạ Trì đang căng thẳng tột độ.
 
 “Nếu như không cứng lên được, vậy thì chặt phăng đi nhé.”
 
@@ -262,7 +262,7 @@ Gã đàn ông mặt sẹo ngồi ở hậu trường nghe thấy động tĩnh 
 
 Tin tức tố trong sòng bạc nồng nặc đến nghẹt thở và hỗn loạn tạp nham, Yến Vãn Thu lại bị tiếng ồn ào làm cho đau đầu buốt óc, luồng tin tức tố vốn chưa kịp bình ổn lại càng thêm bạo ngược cuồng loạn, khí trường quanh thân ngập tràn uy áp độc nhất vô nhị thuộc về một Alpha đỉnh cấp.
 
-“Ta tới gây chuyện với các ngươi?” Anh cười lạnh.
+“Ta tới gây chuyện với các ngươi?” Hắn cười lạnh.
 
 “Lũ các ngươi phái người tập kích giết chết thị vệ của ta ở mỏ quặng nhiệt năng, cướp đoạt số quặng nhiệt năng mà chúng ta dày công khai thác, chẳng lẽ chưa từng nghĩ tới chuyện ta sẽ tìm tới trả thù hay sao?”
 
@@ -276,11 +276,11 @@ Lời của gã mặt sẹo còn chưa dứt, chỉ nghe thấy thêm một ti�
 
 Yến Vãn Thu không chút biểu cảm chĩa thẳng họng súng vào những kẻ còn lại.
 
-Anh vốn dĩ không hề có ý định tới đây để đàm phán.
+Hắn vốn dĩ không hề có ý định tới đây để đàm phán.
 
-Nếu hội Dạ Kiêu đã dám thừa dịp chứng rối loạn tin tức tố của anh tái phát để giết người của anh, vậy thì anh sẽ nhân lúc thủ lĩnh của hội Dạ Kiêu ra ngoài mà đánh úp tiêu diệt sạch sẽ.
+Nếu hội Dạ Kiêu đã dám thừa dịp chứng rối loạn tin tức tố của hắn tái phát để giết người của hắn, vậy thì hắn sẽ nhân lúc thủ lĩnh của hội Dạ Kiêu ra ngoài mà đánh úp tiêu diệt sạch sẽ.
 
-Muốn ra oai phủ đầu với anh? Cũng không tự soi gương xem bản thân nặng mấy cân mấy lạng.
+Muốn ra oai phủ đầu với hắn? Cũng không tự soi gương xem bản thân nặng mấy cân mấy lạng.
 
 “A a a!! Giết người rồi!!”
 
@@ -298,7 +298,7 @@ Tên ám vệ đáng chết kia, điểm duy nhất nhìn thuận mắt thuận 
 
 Yến Vãn Thu ngoài mặt không để lộ chút cảm xúc nào, lạnh lùng thu súng lại, cất giọng phân phó: “Đập phá sạch sẽ cho ta, người của hội Dạ Kiêu không để lại một mống sống sót nào.”
 
-Theo tình báo do Ám Vệ Doanh cung cấp, cấp cao của hội Dạ Kiêu đêm nay sẽ tới Hàn Băng Thành bên cạnh để tìm kiếm liên minh, kẻ ở lại trong sòng bạc chẳng qua chỉ là một đám ô hợp hỗn tạp, giao cho tiểu đội anh mang tới xử lý là quá thừa thãi rồi.
+Theo tình báo do Ám Vệ Doanh cung cấp, cấp cao của hội Dạ Kiêu đêm nay sẽ tới Hàn Băng Thành bên cạnh để tìm kiếm liên minh, kẻ ở lại trong sòng bạc chẳng qua chỉ là một đám ô hợp hỗn tạp, giao cho tiểu đội hắn mang tới xử lý là quá thừa thãi rồi.
 
 Yến Vãn Thu vừa nói vừa tiện tay nhặt một chiếc mặt nạ không biết của ai đánh rơi trên bàn lên, che kín mũi coi như là biện pháp cách ly tạm thời, đưa tay ấn ấn hai bên thái dương đang đau nhức âm ỉ, chuẩn bị rời đi trước.
 
@@ -312,7 +312,7 @@ Tin tức này là do Ám Vệ Doanh cung cấp, mà thủ lĩnh tiền nhiệm 
 
 Ngoài cửa vang lên một tiếng nổ long trời lở đất, Yến Vãn Thu ngay khoảnh khắc nhận ra điều bất thường đã cấp tốc lùi lại phía sau, suýt soát né tránh được luồng điện lưu màu xanh trắng bắn thẳng về phía mình.
 
-Điện lưu giáng thẳng vào bức tường phía sau lưng anh, tường của sòng bạc phát ra một tiếng “oành” chấn động, bị phá toang một lỗ hổng khổng lồ.
+Điện lưu giáng thẳng vào bức tường phía sau lưng hắn, tường của sòng bạc phát ra một tiếng “oành” chấn động, bị phá toang một lỗ hổng khổng lồ.
 
 Đáy mắt Yến Vãn Thu lóe lên vẻ kinh ngạc nghi hoặc.
 
@@ -338,23 +338,23 @@ Yến Vãn Thu nhìn cảnh tượng trước mắt, ý thức được bản th
 
 “Hừ...”
 
-Anh cười lạnh một tiếng, đôi mắt bỗng chốc đỏ rực như máu tươi, trên người khoảnh khắc ấy bùng nổ luồng khí tức tin tức tố lạnh lẽo thấu xương mang tính áp bức tột cùng.
+Hắn cười lạnh một tiếng, đôi mắt bỗng chốc đỏ rực như máu tươi, trên người khoảnh khắc ấy bùng nổ luồng khí tức tin tức tố lạnh lẽo thấu xương mang tính áp bức tột cùng.
 
-Gã Nhị đương gia đứng gần anh nhất trán vã mồ hôi lạnh đầm đìa, hai chân suýt chút nữa nhũn ra quỳ rạp xuống đất.
+Gã Nhị đương gia đứng gần hắn nhất trán vã mồ hôi lạnh đầm đìa, hai chân suýt chút nữa nhũn ra quỳ rạp xuống đất.
 
-Yến Vãn Thu chớp lấy cơ hội ngàn cân treo sợi tóc này, thân hình như quỷ mị thoắt cái đã áp sát trước mặt đối phương. Anh không thèm rút súng ra nữa, mà dưới sự khống chế của cơn bạo ngược và thôi thúc bản năng sâu thẳm trong lòng liền đưa tay bóp chặt lấy cổ đối phương, dùng sức sống bẻ gãy rồi vặn đứt lìa đầu của người nọ.
+Yến Vãn Thu chớp lấy cơ hội ngàn cân treo sợi tóc này, thân hình như quỷ mị thoắt cái đã áp sát trước mặt đối phương. Hắn không thèm rút súng ra nữa, mà dưới sự khống chế của cơn bạo ngược và thôi thúc bản năng sâu thẳm trong lòng liền đưa tay bóp chặt lấy cổ đối phương, dùng sức sống bẻ gãy rồi vặn đứt lìa đầu của người nọ.
 
 Gã đàn ông vừa mới ngông cuồng hống hách ban nãy, thậm chí còn chưa kịp bóp thêm một phát cò súng nào đã biến thành một cái xác không đầu.
 
-Yến Vãn Thu lúc này đã bên bờ vực mất kiểm soát hoàn toàn, tin tức tố cuộn trào bạo động dữ dội. Anh thậm chí chẳng màng nhặt khẩu súng dưới đất lên, máu tươi nóng hổi bắn tung tóe lên chiếc mặt nạ và mái tóc dài trắng muốt của anh. Yến Vãn Thu trông chẳng khác nào một ác quỷ vừa bò lên từ địa ngục, dưới ánh trăng lạnh lẽo liền phát ra tiếng cười đầy tính thần kinh.
+Yến Vãn Thu lúc này đã bên bờ vực mất kiểm soát hoàn toàn, tin tức tố cuộn trào bạo động dữ dội. Hắn thậm chí chẳng màng nhặt khẩu súng dưới đất lên, máu tươi nóng hổi bắn tung tóe lên chiếc mặt nạ và mái tóc dài trắng muốt của hắn. Yến Vãn Thu trông chẳng khác nào một ác quỷ vừa bò lên từ địa ngục, dưới ánh trăng lạnh lẽo liền phát ra tiếng cười đầy tính thần kinh.
 
 “Ha... Thật là nực cười làm sao, ngay từ đầu ta nên trực tiếp giết sạch sành sanh tất cả các ngươi mới phải.”
 
-Anh lẩm bẩm tự nói một mình, con ngươi đỏ rực quét qua đám người đang tạm thời mất đi khả năng hành động vì luồng tin tức tố của anh, thu hết vẻ mặt kinh hoàng tột độ của toàn bộ mọi người vào đáy mắt.
+Hắn lẩm bẩm tự nói một mình, con ngươi đỏ rực quét qua đám người đang tạm thời mất đi khả năng hành động vì luồng tin tức tố của hắn, thu hết vẻ mặt kinh hoàng tột độ của toàn bộ mọi người vào đáy mắt.
 
 Yến Vãn Thu tiện tay ném cái xác không đầu sang một bên, không chút kiêng dè bước thẳng về phía đám đông: “Tới đây, chẳng phải đều muốn giết chết ta sao? Sao các ngươi lại chẳng đứa nào dám nhúc nhích thế này?”
 
-Nơi cuống họng anh trào lên một ngụm máu tanh nồng, lý trí nhắc nhở anh rằng cứ tiếp tục như thế này thì anh sẽ lại rơi vào trạng thái rối loạn tin tức tố mất, thế nhưng tinh thần của anh ngược lại càng lúc càng thêm hưng phấn cuồng nhiệt, cơn đau đầu và cảm giác khô nóng thậm chí đều thuyên giảm đi rất nhiều, toàn bộ tế bào trong cơ thể đều đang gào thét đòi hỏi chém giết.
+Nơi cuống họng hắn trào lên một ngụm máu tanh nồng, lý trí nhắc nhở hắn rằng cứ tiếp tục như thế này thì hắn sẽ lại rơi vào trạng thái rối loạn tin tức tố mất, thế nhưng tinh thần của hắn ngược lại càng lúc càng thêm hưng phấn cuồng nhiệt, cơn đau đầu và cảm giác khô nóng thậm chí đều thuyên giảm đi rất nhiều, toàn bộ tế bào trong cơ thể đều đang gào thét đòi hỏi chém giết.
 
 Yến Vãn Thu nuốt ngụm máu xuống, đầu lưỡi liếm nhẹ chiếc răng nanh nhọn hoắt.
 
@@ -370,7 +370,7 @@ Trong phòng tắm hơi nước bốc lên nghi ngút, Tạ Trì khó khăn lắ
 
 Bởi vì loay hoay bận rộn suốt nửa ngày trời, trên người cậu đã toát ra một lớp mồ hôi mỏng, trong phòng tắm phảng phất mùi hương tin tức tố Alpha thanh ngọt dịu mát.
 
-“Chú Nhiếp bảo Yến Vãn Thu đi xử lý mấy kẻ cứng đầu tại địa phương rồi, không biết anh ấy có còn nhớ vụ kiểm tra xem mình có phải A đồng hay không nữa.”
+“Chú Nhiếp bảo Yến Vãn Thu đi xử lý mấy kẻ cứng đầu tại địa phương rồi, không biết hắn có còn nhớ vụ kiểm tra xem mình có phải A đồng hay không nữa.”
 
 Tạ Trì lẩm bẩm một mình.
 

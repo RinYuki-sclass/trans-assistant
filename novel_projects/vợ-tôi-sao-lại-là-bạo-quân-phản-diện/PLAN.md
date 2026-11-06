@@ -17,7 +17,7 @@
    - **Zero Google API Key Mandate:** AI Code Agent tự thân đọc raw, phân tích và dịch trực tiếp. Tuyệt đối không dùng API ngoài.
    - **Khớp 1:1 Paragraph Alignment:** Đảm bảo chính xác từng đoạn văn tiếng Việt khớp với nguyên tác trong `source.md`.
    - **Chuẩn định dạng:** Khoảng cách đoạn văn `\n\n`, ngoặc thoại tiếng Việt `“...”`.
-   - **Đại từ ngôi 3:** Tạ Trì = **“cậu”**, Yến Vãn Thu = **“anh”**.
+   - **Đại từ ngôi 3:** Tạ Trì = **“cậu”**, Yến Vãn Thu = **“hắn”**. (Phản diện/kẻ địch dùng “gã / y”).
 3. **Quản lý ký ức & Đồng bộ hệ thống:**
    - Cập nhật định kỳ các mốc quan hệ và thuật ngữ vào `memory/`.
    - Đồng bộ trạng thái tiến độ chương tự động qua `scripts/sync_novel_toc.py`.
@@ -45,27 +45,68 @@ graph TD
 
 ---
 
-### 🔹 BATCH 1: KHỞI ĐẦU XUYÊN KHÔNG & ĐÊM ĐỊNH MỆNH (CHƯƠNG 1 - 15)
+### 🔹 BATCH 1: KHỞI ĐẦU XUYÊN KHÔNG & ĐÊM ĐỊNH MỆNH (CHƯƠNG 1 - 15) - [x] HOÀN THÀNH 100%
 - **Quy mô:** 15 chương (`ch_001` -> `ch_015`).
 - **Nội dung cốt truyện:**
   - Tạ Trì xuyên từ Tinh lịch năm 3000 về quá khứ thành ám vệ của Yến Vãn Thu tại Bạo Tuyết Thành.
   - Vừa xuyên đến đã bị bạo quân bắt quả tang với Tam hoàng tử, Tạ Trì nhanh trí tuyên bố mình là "A đồng".
   - Đêm định mệnh: Alpha trúng thuốc được đưa vào phòng, hương tuyết tùng lan tỏa, Tạ Trì nhất kiến chung tình và ra tay giúp đỡ.
-  - Hôm sau "vợ" biến mất, bạo quân ra điều kiện lấy đầu Tam hoàng tử đổi lấy tung tích vợ; Tạ Trì lập tức thi hành nhiệm vụ.
-- **Yêu cầu biên dịch & QC:**
-  - Kiểm soát chuẩn ngôi 3: Tạ Trì = `cậu`, Yến Vãn Thu = `anh`.
-  - Khắc họa nét hài hước độc thoại của Tạ Trì khi nhận mình là A đồng và cú bẻ lái tính dục ngọt ngào.
+  - Hôm sau "vợ" biến mất, bạo quân ra điều kiện lấy đầu Dạ lão đại đổi lấy tung tích vợ; Tạ Trì lập tức thi hành nhiệm vụ.
+  - Tạ Trì dùng kế diệt Dạ Kiêu Hội, san phẳng thôn Phong Nhai, giải cứu thợ cơ khí Thời Bùi Quyết, mang thủ cấp và vũ khí về nộp mạng.
+  - Yến Vãn Thu đích thân dẫn quân y đạp cửa kiểm tra vết thương Tạ Trì; tặng thưởng gấp đôi và bí mật gửi cơm cho Tạ Trì.
+  - Tam hoàng tử Yến Bạch Nguyệt và Thành chủ Hàn Băng Du Phù Châu đến; Yến Vãn Thu phát tác rối loạn pheromone xông vào phòng Tạ Trì.
+  - Đêm mặn nồng thứ hai: Yến Vãn Thu gọi "ông xã nhỏ", quấn quýt tới sáng; Tạ Trì đưa thuốc phục hồi và gom tiền nuôi vợ; sáng ra Yến Vãn Thu nhảy cửa sổ chạy trốn.
+- **Tiến độ chi tiết (15/15 chapters PASS 1:1):**
+  - [x] `ch_001`: Khởi đầu xuyên không & Tuyên bố A đồng (113/113 paras)
+  - [x] `ch_002`: Đêm đầu tiên định mệnh & Nhất kiến chung tình (211/211 paras)
+  - [x] `ch_003`: Sát thủ bỡ ngỡ & Bạo quân uy hiếp (146/146 paras)
+  - [x] `ch_004`: Lời nói dối chân thành & Đổi nửa bản đồ quặng (150/150 paras)
+  - [x] `ch_005`: Dịch dung tái ngộ & Quà tặng áo giữ nhiệt (143/143 paras)
+  - [x] `ch_006`: Tin tình báo ngầm & Dạ Kiêu Hội giăng bẫy (143/143 paras)
+  - [x] `ch_007`: Cơm hộp ẩn danh & Đàm phán đêm (122/122 paras)
+  - [x] `ch_008`: Súng điện từ & Bão tuyết rình rập (156/156 paras)
+  - [x] `ch_009`: Thôn Phong Nhai huyết chiến & Thợ cơ khí đầu hàng (206/206 paras)
+  - [x] `ch_010`: Nước cờ hiểm & Lời nhắn khẩn (129/129 paras)
+  - [x] `ch_011`: Đêm giết chóc & Thôn Phong Nhai nổ tung (203/203 paras)
+  - [x] `ch_012`: Trở về nhà & Bạo quân đạp cửa (116/116 paras)
+  - [x] `ch_013`: Yến Bạch Nguyệt ghé thăm & Bánh kem dâu oan nghiệt (363/363 paras)
+  - [x] `ch_014`: Ông xã nhỏ & Bịt mắt hôn sâu (139/139 paras)
+  - [x] `ch_015`: Đánh dấu & Chạy trốn trong đêm tuyết (165/165 paras)
 
 ---
 
-### 🔹 BATCH 2: LẬP CÔNG CÀY CUỐC & VỢ NHỎ MANG THAI (CHƯƠNG 16 - 35)
+### 🔹 BATCH 2: LẬP CÔNG CÀY CUỐC & VỢ NHỎ MANG THAI (CHƯƠNG 16 - 35) - [x] HOÀN THÀNH 100%
 - **Quy mô:** 20 chương (`ch_016` -> `ch_035`).
 - **Nội dung cốt truyện:**
-  - Tạ Trì tận dụng tối đa kính terminal tương lai và vũ khí hiện đại thực hiện liên tiếp các nhiệm vụ nguy hiểm cho bạo quân.
-  - Nhận thưởng hậu hĩnh, Tạ Trì mua một căn hộ nhỏ ấm áp tại Bạo Tuyết Thành, sắm lò sưởi quặng nhiệt năng, lén giấu tiền tiêu vặt cho vợ mỗi lần tái ngộ.
-  - Yến Vãn Thu phát hiện mình mang thai đôi (kết quả ngoài ý muốn do buồng sinh dục bị kích thích), cảm xúc mâu thuẫn, vừa ngỡ ngàng vừa rung động trước sự chăm sóc ngốc nghếch nhưng chân thành của Tạ Trì.
-- **Yêu cầu biên dịch & QC:**
-  - Thể hiện sự tương phản thú vị giữa việc Tạ Trì tưởng mình đang bao nuôi "cô vợ yếu đuối nghèo khó" và sự thật là bạo quân hung bạo.
+  - Tạ Trì giao dịch dịch phục hồi để đổi lấy 15 phút gặp Quý Thù; mua sắm giường đôi 2m và đồ nội thất; kết giao ngài Ngải (Omega cầm tẩu thuốc chợ đen).
+  - Trận chiến mỏ quặng: Tạ Trì cắt cổ Yến Bạch Nguyệt, nhường phát súng ân huệ cho Yến Vãn Thu; nổ mìn sạt lở mỏ, Tạ Trì dùng súng lượng tử nã pháo điện từ, che chắn cho Yến Vãn Thu bị gãy xương và mất máu.
+  - Yến Vãn Thu bới băng cõng Tạ Trì ra ngoài, dỗ Tạ Trì đánh dấu tạm thời mình để ngăn phát điên.
+  - Đêm thứ ba trong phòng bệnh: Yến Vãn Thu đeo mặt nạ nhảy qua cửa sổ dâng tận miệng cho Tạ Trì, khai mở khoang sinh sản; bách khoa toàn thư ABO xác nhận Alpha có thể mang thai nếu khoang sinh sản được khai mở.
+  - Lệnh truy nã đặc cấp từ Chủ tinh: Tạ Trì thành chủ mưu số 1 (30 tỷ), Yến Vãn Thu thành tòng phạm (10 tỷ); Yến Vãn Thu thưởng 60 triệu tiền mặt và hứa tặng nhà 3 phòng ngủ 1 phòng khách.
+  - Vụ cúp điện toàn Bạo Tuyết Thành: Hàn Băng thành cắt điện giữa đợt rét cực hạn; Yến Vãn Thu mượn thân phận Quý Thù soạn thảo kế hoạch cứu trợ thiên tai chia 5 phân khu xây trạm nhiệt năng thâu tóm thị trường; Tạ Trì sùng bái vợ, đem hết công lao nhường cho Quý Thù; bạo quân xúc động hứa phong Tạ Trì làm Phó thành chủ.
+  - Ngài Ngải tiết lộ nguồn gốc súng điện từ đến từ nền văn minh cơ giới (sinh mệnh gốc silicon) cấu kết với Yến Hồi Thời; Yến Vãn Thu vạch trần âm mưu hãm hại năm 16 tuổi; Yến Vãn Thu lên kế hoạch mua nhẫn đôi.
+  - Tạ Trì đột nhập Hàn Băng thành giúp đỡ người già nghèo khổ; đặt xác Yến Bạch Nguyệt và chụp ảnh kho vũ khí 20 khẩu súng điện từ để vu oan cho Du Phù Châu; vơ vét của cải sảnh phụ; ném phi đao đính huyết thư răn đe Du Phù Châu và dọa ngất xỉu tên thành chủ mới Băng Xuyên dám sỉ nhục Yến Vãn Thu.
+- **Tiến độ chi tiết (20/20 chapters PASS 1:1):**
+  - [x] `ch_016`: Tạ Trì đưa dịch phục hồi, hẹn gặp Quý Thù 15 phút, vạch trần âm mưu (123/123 paras)
+  - [x] `ch_017`: Khảo sát mỏ nhiệt năng, nhận bom quang học, đụng độ bạo quân ở chợ đen (172/172 paras)
+  - [x] `ch_018`: Bẻ gãy giò Harrison đòi tiền mua cây, bạo quân đùa "ta bồi táng cùng ngươi" (192/192 paras)
+  - [x] `ch_019`: Ngài Ngải dàn xếp, Tạ Trì thức trắng đêm lắp giường 2m, hỏi mua nhà (130/130 paras)
+  - [x] `ch_020`: Bắt Thời Bùi Quyết sửa súng lượng tử, bạo quân xách cơm đến thì Tạ Trì ngủ say (135/135 paras)
+  - [x] `ch_021`: Khoe giường mới, ôm ngủ trọn đêm, Yến Vãn Thu hôn trán gọi "ông xã nhỏ" (149/149 paras)
+  - [x] `ch_022`: Yến Vãn Thu lấy cớ bắt nộp dịch dinh dưỡng, Tạ Trì đòi kết bạn quang não (212/212 paras)
+  - [x] `ch_023`: Nhắn tin quy định 5 tin/ngày, đi nhầm dép hồng xanh, Du Phù Châu rình cướp súng (154/154 paras)
+  - [x] `ch_024`: Diệt Yến Bạch Nguyệt, sạt lở mỏ, 2000 quân vây kín, Yến Hồi Thời hiện hình (152/152 paras)
+  - [x] `ch_025`: Phục kích súng điện từ nhái, pháo điện từ nã rát, Tạ Trì liều mình che chắn bạo quân (115/115 paras)
+  - [x] `ch_026`: Tạ Trì nã súng lượng tử, tỏ tình lý do yêu Quý Thù; Yến Vãn Thu bới băng cõng về (186/186 paras)
+  - [x] `ch_027`: Tạ Trì ép bạo quân uống thuốc; Yến Vãn Thu nghiện pheromone nhảy cửa sổ phòng bệnh (169/169 paras)
+  - [x] `ch_028`: Đêm phòng bệnh hoang đường, khai mở khoang sinh sản; bạo quân ngóng chờ ngày mai (173/173 paras)
+  - [x] `ch_029`: Xuất viện, kiểm tra Ám vệ doanh; bạo quân nhận lỗi và hứa thưởng nhà 3 phòng ngủ (184/184 paras)
+  - [x] `ch_030`: Lệnh truy nã 30 tỷ; bạo quân trả thưởng 60 triệu; Quý Thù thừa nhận Tạ Trì là "ông xã" (220/220 paras)
+  - [x] `ch_031`: Mất điện toàn thành trước đợt rét cực hạn; Quý Thù thảo kế sách cứu trợ đỉnh cao (190/190 paras)
+  - [x] `ch_032`: Quý Thù dạy dỗ quản lý quân doanh; Du Phù Châu nhận vũ khí; Tạ Trì gặp bạo quân (220/220 paras)
+  - [x] `ch_033`: Tạ Trì trả bài trôi chảy; nhường công lao cho vợ; bạo quân hứa phong Phó thành chủ (170/170 paras)
+  - [x] `ch_034`: Gỡ giới hạn tin nhắn; Andre đưa cơm bò kho; ngài Ngải tặng túi không gian chứa xác (181/181 paras)
+  - [x] `ch_035`: Ngài Ngải hé lộ âm mưu người ngoài hành tinh; Yến Vãn Thu tính mua nhẫn đôi; Tạ Trì phóng đao huyết thư đại náo Hàn Băng thành (226/226 paras)
 
 ---
 

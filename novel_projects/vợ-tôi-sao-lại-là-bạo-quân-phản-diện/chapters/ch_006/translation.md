@@ -4,17 +4,17 @@ Chương 6: Hôn hôn
 
 Yến Vãn Thu xách theo một hộp thức ăn, tâm trạng vô cùng phức tạp đứng trước cửa phòng Tạ Trì.
 
-Để tránh bị người khác bắt gặp, anh đã sớm điều đám thị vệ trước cửa Tạ Trì đi nơi khác, mái tóc dài trắng muốt cũng được buộc gọn gàng lại, đeo thêm một cặp kính áp tròng màu đen cùng chiếc mặt nạ nửa mặt màu trắng bạc, che chắn kín mít các đặc điểm nhận dạng trên nửa khuôn mặt trên.
+Để tránh bị người khác bắt gặp, hắn đã sớm điều đám thị vệ trước cửa Tạ Trì đi nơi khác, mái tóc dài trắng muốt cũng được buộc gọn gàng lại, đeo thêm một cặp kính áp tròng màu đen cùng chiếc mặt nạ nửa mặt màu trắng bạc, che chắn kín mít các đặc điểm nhận dạng trên nửa khuôn mặt trên.
 
 Đường đường là một vị hoàng tử của một quốc gia, thế mà lại phải lén lút như đi vụng trộm để tới gặp một tên ám vệ.
 
 Yến Vãn Thu hít sâu một hơi, siết chặt khẩu súng trong túi áo.
 
-Bất kể nói thế nào, lần phát sinh quan hệ trước đó với Tạ Trì đều chỉ là một sự cố ngoài ý muốn. Hôm nay anh không hề bị hội Dạ Kiêu gài bẫy hạ thuốc, trong mấy ngày tĩnh dưỡng vừa qua chứng rối loạn tin tức tố cũng kỳ lạ không hề tái phát lần nào.
+Bất kể nói thế nào, lần phát sinh quan hệ trước đó với Tạ Trì đều chỉ là một sự cố ngoài ý muốn. Hôm nay hắn không hề bị hội Dạ Kiêu gài bẫy hạ thuốc, trong mấy ngày tĩnh dưỡng vừa qua chứng rối loạn tin tức tố cũng kỳ lạ không hề tái phát lần nào.
 
-Tối nay thể trạng của anh hoàn toàn bình thường, thần trí tỉnh táo minh mẫn, súng đạn cũng được nạp đầy ắp, dù thế nào đi chăng nữa cũng tuyệt đối không thể giẫm vào vết xe đổ của lần trước được.
+Tối nay thể trạng của hắn hoàn toàn bình thường, thần trí tỉnh táo minh mẫn, súng đạn cũng được nạp đầy ắp, dù thế nào đi chăng nữa cũng tuyệt đối không thể giẫm vào vết xe đổ của lần trước được.
 
-Mà bất kể là vì những tin tức cơ mật trong tay Tạ Trì, hay là vì chiếc terminal kỳ lạ chưa từng thấy bao giờ phát hiện được trong phòng ngủ của cậu, anh đều bắt buộc phải đi chuyến này.
+Mà bất kể là vì những tin tức cơ mật trong tay Tạ Trì, hay là vì chiếc terminal kỳ lạ chưa từng thấy bao giờ phát hiện được trong phòng ngủ của cậu, hắn đều bắt buộc phải đi chuyến này.
 
 Sau khi đã làm công tác tư tưởng xong xuôi, Yến Vãn Thu mím môi, giơ tay gõ cửa.
 
@@ -22,11 +22,11 @@ Sau khi đã làm công tác tư tưởng xong xuôi, Yến Vãn Thu mím môi, 
 
 “Két —”
 
-Gần như ngay giây tiếp theo sau tiếng gõ cửa của anh, cánh cửa phòng đã được mở toang ra.
+Gần như ngay giây tiếp theo sau tiếng gõ cửa của hắn, cánh cửa phòng đã được mở toang ra.
 
 “Vợ ơi!”
 
-Thiếu niên tóc đen đôi mắt sáng lấp lánh như sao nhìn anh, nụ cười rạng rỡ như ánh mặt trời, hai bên má hiện lên hai lúm đồng tiền xinh xắn rõ mồn một.
+Thiếu niên tóc đen đôi mắt sáng lấp lánh như sao nhìn hắn, nụ cười rạng rỡ như ánh mặt trời, hai bên má hiện lên hai lúm đồng tiền xinh xắn rõ mồn một.
 
 Yến Vãn Thu giật mình, theo bản năng khẽ lùi lại nửa bước: “Sao ngươi mở cửa nhanh thế?”
 
@@ -36,19 +36,19 @@ Yến Vãn Thu giật mình, theo bản năng khẽ lùi lại nửa bước: �
 
 Yến Vãn Thu bị cậu làm cho rối loạn nhịp điệu, chỉ kịp vội vã giấu khẩu súng vào sâu trong túi áo.
 
-Anh lảo đảo bị kéo vào trong phòng, trong lòng vừa kinh ngạc vừa ngờ vực không hiểu Tạ Trì từ bao giờ lại có bản lĩnh nghe ngóng thính nhạy đến mức này, nghe vậy liền theo bản năng giải thích: “Ta nghe Nhiếp Hoài Nghĩa nói ngươi thích ăn đồ ngọt, nên bảo nhà ăn đóng gói chút điểm tâm mang qua.”
+Hắn lảo đảo bị kéo vào trong phòng, trong lòng vừa kinh ngạc vừa ngờ vực không hiểu Tạ Trì từ bao giờ lại có bản lĩnh nghe ngóng thính nhạy đến mức này, nghe vậy liền theo bản năng giải thích: “Ta nghe Nhiếp Hoài Nghĩa nói ngươi thích ăn đồ ngọt, nên bảo nhà ăn đóng gói chút điểm tâm mang qua.”
 
 Tạ Trì không ngờ lại có niềm vui bất ngờ ngoài mong đợi thế này, mừng rỡ hớn hở nhận lấy chiếc hộp thức ăn trong tay Yến Vãn Thu: “Cảm ơn vợ nhiều lắm nha!”
 
 Cho dù đã làm công tác tư tưởng kỹ càng từ trước, Yến Vãn Thu vẫn bị một tiếng “vợ” bên trái, một tiếng “vợ” bên phải của cậu gọi tới mức toàn thân khó chịu bứt rứt không thôi.
 
-“Cái đó...” Anh cân nhắc mở lời, “Ngươi cứ gọi thẳng tên của ta là được rồi.”
+“Cái đó...” Hắn cân nhắc mở lời, “Ngươi cứ gọi thẳng tên của ta là được rồi.”
 
 Tạ Trì đang đặt hộp thức ăn lên bàn ăn, động tác bỗng khựng lại, khóe môi khẽ hạ xuống: “Không được gọi anh như thế sao? Em cứ ngỡ là anh đã đồng ý làm vợ của em rồi chứ.”
 
 Yến Vãn Thu: “...”
 
-Yến Vãn Thu nhớ lại lời đáp thuận miệng của mình vào đêm hôm đó, tuy rằng lúc ấy anh chỉ ôm tâm lý trêu ngươi đùa cợt Tạ Trì, nhưng vào lúc này chỉ đành ngậm bồ hòn làm ngọt: “... Đúng là như thế, nhưng mà có thể đổi một cách xưng hô khác được không? Cứ gọi ta như vậy nghe kỳ cục lắm.”
+Yến Vãn Thu nhớ lại lời đáp thuận miệng của mình vào đêm hôm đó, tuy rằng lúc ấy hắn chỉ ôm tâm lý trêu ngươi đùa cợt Tạ Trì, nhưng vào lúc này chỉ đành ngậm bồ hòn làm ngọt: “... Đúng là như thế, nhưng mà có thể đổi một cách xưng hô khác được không? Cứ gọi ta như vậy nghe kỳ cục lắm.”
 
 Tạ Trì suy nghĩ trong chốc lát: “Vậy em gọi anh là ông xã nhé?”
 
@@ -58,7 +58,7 @@ Trọng điểm có phải là cái đó đâu cơ chứ!
 
 “Thôi bỏ đi, ngươi thích gọi cái gì thì cứ gọi cái đó đi.” Yến Vãn Thu đau đầu chấm dứt chủ đề này.
 
-Tạ Trì ngược lại lại vui vẻ trở lại, kéo Yến Vãn Thu tới bên bàn ngồi xuống, rót cho anh một tách trà nóng, rồi mở nắp hộp thức ăn ra, bày từng đĩa điểm tâm tinh xảo bên trong lên mặt bàn.
+Tạ Trì ngược lại lại vui vẻ trở lại, kéo Yến Vãn Thu tới bên bàn ngồi xuống, rót cho hắn một tách trà nóng, rồi mở nắp hộp thức ăn ra, bày từng đĩa điểm tâm tinh xảo bên trong lên mặt bàn.
 
 Bởi vì đây là do đích thân Yến Vãn Thu hạ lệnh, đầu bếp nhà ăn chỉ sợ sơ suất là mất đầu như chơi, gần như đã lục tung toàn bộ kho bếp hậu cần lên mới làm ra được mấy đĩa điểm tâm sang trọng này.
 
@@ -82,7 +82,7 @@ Tạ Trì xúc động: “Vợ ơi, anh thật là hiền thục chu đáo quá
 
 Cả đời Yến Vãn Thu chưa từng dính dáng tới hai chữ “hiền thục” bao giờ, bị Tạ Trì khen cho một câu mà nổi hết cả da gà da vịt.
 
-Anh đẩy chiếc đĩa điểm tâm ngọt về phía trước mặt Tạ Trì, quyết định đánh nhanh thắng nhanh: “Điện hạ chỉ cho ta mười phút thôi, ngươi không có lời nào quan trọng muốn nói với ta sao?”
+Hắn đẩy chiếc đĩa điểm tâm ngọt về phía trước mặt Tạ Trì, quyết định đánh nhanh thắng nhanh: “Điện hạ chỉ cho ta mười phút thôi, ngươi không có lời nào quan trọng muốn nói với ta sao?”
 
 “Mười phút á?” Tạ Trì kinh ngạc thốt lên.
 
@@ -96,7 +96,7 @@ Tạ Trì vô cùng đồng tình gật đầu: “Đúng thế đúng thế, à
 
 Yến Vãn Thu nhớ tới trận sốt cao li bì suốt cả đêm, chột dạ mím chặt môi: “Không có.”
 
-Tạ Trì ngờ vực nhìn anh, rõ ràng là chẳng tin chút nào.
+Tạ Trì ngờ vực nhìn hắn, rõ ràng là chẳng tin chút nào.
 
 Ngay trước khi Yến Vãn Thu sắp sửa thẹn quá hóa giận vì bị nhìn chằm chằm, Tạ Trì liền mở lời: “Trong hộp quà này có một bức thư, bên trong là phần tài liệu mà Yến Vãn Thu đang rất cần. Trong ba ngày này em phải ra ngoài làm nhiệm vụ, em sợ Yến Vãn Thu sẽ ra tay làm hại anh, anh cứ cầm phần tài liệu này trong tay để ứng phó cò kè với anh ta. Anh ta vẫn cần em làm việc, trước khi em hoàn thành nhiệm vụ, chỉ cần yêu cầu anh đưa ra không quá đáng thì anh ta sẽ không làm khó anh đâu.”
 
@@ -108,15 +108,15 @@ Tạ Trì vừa nói vừa tự cảm thấy ngượng ngùng áy náy: “Xin l
 
 Sắc mặt Yến Vãn Thu biến hóa liên tục, bất giác bắt đầu né tránh ánh mắt chân thành nóng bỏng của Tạ Trì.
 
-Kể từ sau khi bị anh bắt quả tang lén lút gặp gỡ Yến Bạch Nguyệt, hành vi của Tạ Trì liền trở nên vô cùng kỳ quặc, mấy ngày nay lại càng chọc cho anh tức giận đến mức đứng ngồi không yên.
+Kể từ sau khi bị hắn bắt quả tang lén lút gặp gỡ Yến Bạch Nguyệt, hành vi của Tạ Trì liền trở nên vô cùng kỳ quặc, mấy ngày nay lại càng chọc cho hắn tức giận đến mức đứng ngồi không yên.
 
 Thế nhưng khi tách khỏi thân phận “Yến Vãn Thu”, Tạ Trì đối với “Quý Thù” — một người vợ mới chỉ gặp mặt một lần, chưa từng để lộ mặt thật — lại có thể gọi là dốc lòng dốc sức, đối xử tốt tới mức móc cả tim gan ra dâng tặng.
 
 Sau khi Tạ Trì rời đi, cầm trên tay chiếc terminal thông minh chưa từng thấy bao giờ, Yến Vãn Thu đã suy nghĩ rất nhiều điều.
 
-Anh từng nghĩ Tạ Trì xuất thân từ một thế lực thần bí nào đó, mỗi lần chỉ đưa ra nửa tấm bản đồ là để mưu cầu thêm nhiều lợi ích; trên đường tới đây thậm chí anh còn theo thuyết âm mưu nghĩ rằng có khi nào Tạ Trì đã sớm nhận ra Yến Vãn Thu và Quý Thù là cùng một người, đang giả ngây giả ngô để đùa cợt anh hay không.
+Hắn từng nghĩ Tạ Trì xuất thân từ một thế lực thần bí nào đó, mỗi lần chỉ đưa ra nửa tấm bản đồ là để mưu cầu thêm nhiều lợi ích; trên đường tới đây thậm chí hắn còn theo thuyết âm mưu nghĩ rằng có khi nào Tạ Trì đã sớm nhận ra Yến Vãn Thu và Quý Thù là cùng một người, đang giả ngây giả ngô để đùa cợt hắn hay không.
 
-Thế nhưng anh nằm mơ cũng không ngờ được, tất cả những điều Tạ Trì làm, thực sự chỉ là để tăng thêm một tầng bảo hiểm an toàn cho “Quý Thù” mà thôi.
+Thế nhưng hắn nằm mơ cũng không ngờ được, tất cả những điều Tạ Trì làm, thực sự chỉ là để tăng thêm một tầng bảo hiểm an toàn cho “Quý Thù” mà thôi.
 
 Ngốc nghếch.
 
@@ -130,7 +130,7 @@ Tầm mắt Yến Vãn Thu dừng lại trên gương mặt Tạ Trì trong giâ
 
 Hèn chi Yến Bạch Nguyệt lại muốn tiếp cận Tạ Trì, cái loại đồ ngốc thuộc trường phái cống hiến vô tư này, thậm chí chẳng cần phải dỗ ngon dỗ ngọt, chỉ cần hứa hẹn chút hơi ấm hư vô mờ mịt là đã ngoan ngoãn vẫy đuôi xáp lại gần rồi.
 
-Trước đây sao anh không hề nhận ra Tạ Trì lại là loại người này nhỉ?
+Trước đây sao hắn không hề nhận ra Tạ Trì lại là loại người này nhỉ?
 
 “Ngươi đúng thật là...” Yến Vãn Thu bất đắc dĩ thở dài một tiếng.
 
@@ -144,7 +144,7 @@ Yến Vãn Thu: “Ta nói không phải là cái đó...”
 
 Tạ Trì rất có tinh thần hiếu thắng: “Em chắc chắn không ngốc mà, anh cho em thêm chút thời gian nữa đi, em nhất định có thể mang lại cho anh một cuộc sống tốt hơn.”
 
-Yến Vãn Thu nhìn Tạ Trì đang mở to đôi mắt sáng rực, bộ dạng như thể nếu anh không rút lại lời vừa nói thì tuyệt đối sẽ không chịu bỏ qua, bèn bất đắc dĩ nói: “Được rồi, ta chờ ngươi.”
+Yến Vãn Thu nhìn Tạ Trì đang mở to đôi mắt sáng rực, bộ dạng như thể nếu hắn không rút lại lời vừa nói thì tuyệt đối sẽ không chịu bỏ qua, bèn bất đắc dĩ nói: “Được rồi, ta chờ ngươi.”
 
 Tạ Trì lúc này mới thở phào nhẹ nhõm một hơi dài.
 
@@ -152,17 +152,17 @@ Hú hồn, suýt chút nữa bị vợ coi là kẻ đần độn rồi.
 
 Nói xong chuyện chính sự, hai người vừa ăn điểm tâm vừa tùy ý trò chuyện đôi ba câu, phần lớn đều là Yến Vãn Thu hỏi còn Tạ Trì trả lời.
 
-Yến Vãn Thu muốn thăm dò xem rốt cuộc Tạ Trì định làm thế nào để hoàn thành nhiệm vụ trong vòng ba ngày, lại lấy từ đâu ra bộ quần áo giữ nhiệt công nghệ cao đến nhường này, thế nhưng Tạ Trì lúc này ngược lại lại trở nên tinh khôn vô cùng, bất kể anh bóng gió hỏi han ra sao cũng chẳng chịu tiết lộ lấy nửa lời.
+Yến Vãn Thu muốn thăm dò xem rốt cuộc Tạ Trì định làm thế nào để hoàn thành nhiệm vụ trong vòng ba ngày, lại lấy từ đâu ra bộ quần áo giữ nhiệt công nghệ cao đến nhường này, thế nhưng Tạ Trì lúc này ngược lại lại trở nên tinh khôn vô cùng, bất kể hắn bóng gió hỏi han ra sao cũng chẳng chịu tiết lộ lấy nửa lời.
 
 Mắt thấy chỉ còn lại hai phút cuối cùng, Yến Vãn Thu biết chuyến này e rằng chẳng moi thêm được tin tức gì nữa, dứt khoát từ bỏ việc truy hỏi.
 
 “Ngươi không có điều gì muốn hỏi ta sao?” Yến Vãn Thu nhìn Tạ Trì đang cắm cúi ăn điểm tâm, không kìm được mở miệng hỏi.
 
-Trên người anh có nhiều điểm đáng ngờ đến như vậy, chẳng lẽ Tạ Trì không có lấy một chút hoài nghi nào sao?
+Trên người hắn có nhiều điểm đáng ngờ đến như vậy, chẳng lẽ Tạ Trì không có lấy một chút hoài nghi nào sao?
 
 Tạ Trì nuốt miếng điểm tâm trong miệng xuống, ngước mắt nhìn Quý Thù.
 
-Người đàn ông lần này mặc đồ vô cùng kín đáo, nhưng chiếc áo khoác sẫm màu cắt may gọn gàng ôm sát bờ vai rộng và tấm lưng vững chãi, đường eo thon gọn siết lại vừa vặn tuyệt mỹ. Đôi chân anh thon dài thẳng tắp, nửa khuôn mặt lộ ra ngoài sống mũi cao thẳng, bờ môi mỏng, đường nét sắc bén phân minh.
+Người đàn ông lần này mặc đồ vô cùng kín đáo, nhưng chiếc áo khoác sẫm màu cắt may gọn gàng ôm sát bờ vai rộng và tấm lưng vững chãi, đường eo thon gọn siết lại vừa vặn tuyệt mỹ. Đôi chân hắn thon dài thẳng tắp, nửa khuôn mặt lộ ra ngoài sống mũi cao thẳng, bờ môi mỏng, đường nét sắc bén phân minh.
 
 Tuy rằng không nhìn thấy toàn bộ khuôn mặt, nhưng cũng hoàn toàn có thể tưởng tượng ra được người ẩn sau lớp mặt nạ kia sở hữu diện mạo lạnh lùng kinh diễm đến nhường nào.
 
@@ -188,7 +188,7 @@ Tạ Trì cứng đờ tại chỗ, đại não hoàn toàn trống rỗng, căn
 
 Yến Vãn Thu đầy hứng thú nhìn cơ thể thiếu niên bỗng nhiên căng cứng cả lên, bàn tay đang xoa đầu chầm chậm trượt xuống phía dưới, dừng lại nơi đuôi mắt Tạ Trì.
 
-Anh dùng ngón tay cái khẽ ma sát lên nốt ruồi son nơi đuôi mắt Tạ Trì, chầm chậm ghé sát lại gần cậu.
+Hắn dùng ngón tay cái khẽ ma sát lên nốt ruồi son nơi đuôi mắt Tạ Trì, chầm chậm ghé sát lại gần cậu.
 
 Tạ Trì khẽ run lên một cái.
 
@@ -208,9 +208,9 @@ Chua nhẹ, thanh ngọt, hệt như tấm lưng hãy còn có phần đơn bạ
 
 Yến Vãn Thu bỗng nhiên cảm thấy nỗi lo lắng cảnh giác của mình trên đường tới đây quả thực vô cùng thừa thãi.
 
-Rốt cuộc anh đang lo lắng điều gì cơ chứ? Anh là Alpha cấp bậc cao nhất của thời đại này, mà bất kể Tạ Trì xuất thân từ phương nào, hiện tại cũng chỉ là một tên ám vệ Alpha bình thường mà thôi.
+Rốt cuộc hắn đang lo lắng điều gì cơ chứ? Hắn là Alpha cấp bậc cao nhất của thời đại này, mà bất kể Tạ Trì xuất thân từ phương nào, hiện tại cũng chỉ là một tên ám vệ Alpha bình thường mà thôi.
 
-Trong tình trạng không bị hạ thuốc, làm sao anh có thể bị một tên nhóc thuần tình ngây thơ đến nhường này xoay chuyển cơ chứ?
+Trong tình trạng không bị hạ thuốc, làm sao hắn có thể bị một tên nhóc thuần tình ngây thơ đến nhường này xoay chuyển cơ chứ?
 
 Tìm lại được quyền chủ động, tâm trạng Yến Vãn Thu vô cùng tốt, liền hạ xuống bên gò má Tạ Trì một nụ hôn vừa nhẹ nhàng vừa chớp nhoáng.
 
@@ -250,33 +250,33 @@ Tạ Trì cũng hiểu rõ Yến Vãn Thu tuyệt đối không thể để cho 
 
 Yến Vãn Thu nhìn cánh cửa gỗ đóng chặt trước mặt, thở phào nhẹ nhõm một hơi dài.
 
-Đóng vai “vợ” của Tạ Trì đối với anh quả thực có độ khó quá cao.
+Đóng vai “vợ” của Tạ Trì đối với hắn quả thực có độ khó quá cao.
 
-Cũng may là Tạ Trì cũng không mấy thông minh, lúc này mới giúp anh lừa gạt trót lọt qua được đêm nay.
+Cũng may là Tạ Trì cũng không mấy thông minh, lúc này mới giúp hắn lừa gạt trót lọt qua được đêm nay.
 
-Cái tên đại ngốc này, thế mà còn dám mạnh mồm bảo muốn tới đối phó anh, nếu không phải do trùng hợp muôn vàn yếu tố đan xen lại với nhau, anh đã sớm tống tên ám vệ phản bội chọc người ta bốc hỏa này vào địa lao xử tử từ lâu rồi.
+Cái tên đại ngốc này, thế mà còn dám mạnh mồm bảo muốn tới đối phó hắn, nếu không phải do trùng hợp muôn vàn yếu tố đan xen lại với nhau, hắn đã sớm tống tên ám vệ phản bội chọc người ta bốc hỏa này vào địa lao xử tử từ lâu rồi.
 
 Yến Vãn Thu vẫn nhớ rõ Tạ Trì có khả năng nghe được tiếng thở, không dám nán lại lâu trước cửa, xách theo chiếc hộp quà mà Tạ Trì nhét cho mình, bước từng bước nông sâu trên con đường mòn quay trở về hành cung của mình.
 
-Đêm nay trời sẽ đổ tuyết nhỏ, tuyết rơi sẽ xóa sạch toàn bộ dấu chân của anh, đương nhiên chẳng cần phải lo lắng chuyện đường đường là một hoàng tử lại đi lén lút tư thông với ám vệ bị người ta phát hiện.
+Đêm nay trời sẽ đổ tuyết nhỏ, tuyết rơi sẽ xóa sạch toàn bộ dấu chân của hắn, đương nhiên chẳng cần phải lo lắng chuyện đường đường là một hoàng tử lại đi lén lút tư thông với ám vệ bị người ta phát hiện.
 
 “Đúng thật là chẳng khác nào đi vụng trộm.” Yến Vãn Thu cười khẽ một tiếng.
 
-Anh sờ sờ khẩu súng lục trong túi áo mà từ đầu tới cuối chưa từng rút ra một lần nào.
+Hắn sờ sờ khẩu súng lục trong túi áo mà từ đầu tới cuối chưa từng rút ra một lần nào.
 
-Tối nay xem ra cũng không phải là hoàn toàn không có thu hoạch gì, ít nhất thì anh cũng đã lấy được nửa tấm bản đồ khoáng sản còn lại, đồng thời cũng có thể khẳng định chắc nịch rằng Tạ Trì hoàn toàn không nhận ra “Quý Thù” chính là Yến Vãn Thu.
+Tối nay xem ra cũng không phải là hoàn toàn không có thu hoạch gì, ít nhất thì hắn cũng đã lấy được nửa tấm bản đồ khoáng sản còn lại, đồng thời cũng có thể khẳng định chắc nịch rằng Tạ Trì hoàn toàn không nhận ra “Quý Thù” chính là Yến Vãn Thu.
 
 Cùng với...
 
 Yến Vãn Thu nhìn chiếc hộp quà trong tay.
 
-Bên trong này là bộ quần áo giữ nhiệt điều hòa nhiệt độ mà Tạ Trì tặng cho anh, tuy rằng đối phương chỉ giới thiệu sơ qua loa vài câu, thế nhưng Yến Vãn Thu hiểu rất rõ ở vùng đất cực hàn giá lạnh này, đây sẽ là một loại vật tư chiến lược trọng yếu mang tính bước ngoặt thời đại đến nhường nào.
+Bên trong này là bộ quần áo giữ nhiệt điều hòa nhiệt độ mà Tạ Trì tặng cho hắn, tuy rằng đối phương chỉ giới thiệu sơ qua loa vài câu, thế nhưng Yến Vãn Thu hiểu rất rõ ở vùng đất cực hàn giá lạnh này, đây sẽ là một loại vật tư chiến lược trọng yếu mang tính bước ngoặt thời đại đến nhường nào.
 
-Thứ này cũng giống như chiếc terminal đã cạn kiệt pin sập nguồn kia vậy, đều là những công nghệ mà anh chưa từng được nghe thấy bao giờ.
+Thứ này cũng giống như chiếc terminal đã cạn kiệt pin sập nguồn kia vậy, đều là những công nghệ mà hắn chưa từng được nghe thấy bao giờ.
 
 Nụ cười trong đáy mắt Yến Vãn Thu dần dần tan biến.
 
-Kẻ cung cấp tình báo giả về hội Dạ Kiêu cho anh là Tạ Trì, mà kẻ lúc này không chút do dự muốn đi trừ khử thủ lĩnh hội Dạ Kiêu cũng chính là Tạ Trì.
+Kẻ cung cấp tình báo giả về hội Dạ Kiêu cho hắn là Tạ Trì, mà kẻ lúc này không chút do dự muốn đi trừ khử thủ lĩnh hội Dạ Kiêu cũng chính là Tạ Trì.
 
 Cộng thêm những công nghệ tối tân chưa từng thấy bao giờ này, Yến Vãn Thu lại càng thêm nhìn không thấu Tạ Trì, đương nhiên chẳng dám tùy tiện manh động ra tay.
 

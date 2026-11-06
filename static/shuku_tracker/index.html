@@ -556,10 +556,26 @@
       color: #9a3412;
       border-color: #fdba74;
     }
-    .src-badge.src-cp {
+    .src-badge.src-cp,
+    .src-badge.src-changpei {
       background: #e0e7ff;
       color: #3730a3;
       border-color: #a5b4fc;
+    }
+    .src-badge.src-feiwen {
+      background: #fef3c7;
+      color: #92400e;
+      border-color: #fcd34d;
+    }
+    .src-badge.src-haitang {
+      background: #fce7f3;
+      color: #9d174d;
+      border-color: #fbcfe8;
+    }
+    .src-badge.src-other {
+      background: #f3e8ff;
+      color: #6b21a8;
+      border-color: #d8b4fe;
     }
     .src-badge.src-unknown {
       background: #f1f5f9;
@@ -929,11 +945,14 @@
         <input type="text" id="searchInput" class="input-text" placeholder="🔍 Tìm tên truyện (Hán Việt / Trung), tác giả, văn án..." style="width: 300px;" oninput="debounceSearch()" />
         <input type="text" id="tagInput" class="input-text" placeholder="Lọc theo Tag..." style="width: 145px;" oninput="debounceSearch()" />
         <select id="sourceSelect" class="select-box" onchange="resetPageAndLoad()">
-          <option value="">🌐 Mọi nguồn (Tấn Giang + Fanqie + Trường Bội)</option>
-          <option value="non_jjwxc">🚫 Ẩn Tấn Giang (Chỉ hiện Fanqie / Trường Bội)</option>
+          <option value="">🌐 Mọi nguồn (Tấn Giang + Fanqie + Trường Bội + Phế Văn)</option>
+          <option value="non_jjwxc">🚫 Ẩn Tấn Giang (Chỉ hiện Fanqie / Trường Bội / Phế Văn...)</option>
           <option value="jjwxc">🏮 Nguồn: Tấn Giang (JJWXC)</option>
           <option value="fanqie">🍅 Nguồn: Fanqie (Cà Chua)</option>
-          <option value="changpei_feiwen">🎐 Nguồn: Trường Bội / Phế Văn</option>
+          <option value="changpei">🎐 Nguồn: Trường Bội</option>
+          <option value="feiwen">📜 Nguồn: Phế Văn</option>
+          <option value="haitang">🌺 Nguồn: Hải Đường / PO18</option>
+          <option value="other">🌐 Nguồn khác</option>
         </select>
         <select id="sortSelect" class="select-box" onchange="resetPageAndLoad()">
           <option value="fixed_asc">🔒 Thứ tự cố định (#1 → #N)</option>
@@ -1158,8 +1177,17 @@
       if (src === 'fanqie') {
         return `<span class="src-badge src-fanqie" title="Truyện đăng gốc trên Fanqie (Cà Chua)">🍅 Fanqie (Cà Chua)</span>`;
       }
-      if (src === 'changpei_feiwen') {
-        return `<span class="src-badge src-cp" title="Truyện đăng gốc trên Trường Bội / Phế Văn / Nguồn khác">🎐 Trường Bội / Phế Văn</span>`;
+      if (src === 'changpei' || src === 'changpei_feiwen') {
+        return `<span class="src-badge src-cp" title="Truyện đăng gốc trên Trường Bội (长佩 / Gongzicp)">🎐 Trường Bội</span>`;
+      }
+      if (src === 'feiwen') {
+        return `<span class="src-badge src-feiwen" title="Truyện đăng gốc trên Phế Văn (废文 / Sosadfun)">📜 Phế Văn</span>`;
+      }
+      if (src === 'haitang') {
+        return `<span class="src-badge src-haitang" title="Truyện đăng gốc trên Hải Đường / PO18 (海棠 / PO18)">🌺 Hải Đường / PO18</span>`;
+      }
+      if (src === 'other') {
+        return `<span class="src-badge src-other" title="Nguồn khác ngoài các web chính">🌐 Nguồn khác</span>`;
       }
       return `<span class="src-badge src-unknown" title="Đang tự động kiểm tra nguồn gốc từ trang chi tiết">📚 Đang nhận diện nguồn...</span>`;
     }

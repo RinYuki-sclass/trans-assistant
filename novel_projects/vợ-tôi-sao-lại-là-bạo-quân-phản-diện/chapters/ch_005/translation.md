@@ -6,7 +6,7 @@ Chẳng kịp nghĩ ngợi nhiều, Tạ Trì chỉ sợ vị bạo quân hỉ n
 
 Yến Vãn Thu hừ lạnh một tiếng, vẻ mặt đầy khó chịu nhận lấy bản vẽ do chính tay Tạ Trì phác thảo.
 
-Sau khi nhìn rõ nội dung trên bản vẽ, sắc mặt anh bất giác tăng thêm vài phần nghiêm nghị thận trọng.
+Sau khi nhìn rõ nội dung trên bản vẽ, sắc mặt hắn bất giác tăng thêm vài phần nghiêm nghị thận trọng.
 
 Đây thực sự là một tấm bản đồ phân bố quặng nhiệt năng.
 
@@ -14,19 +14,19 @@ Tuy rằng nét vẽ tay có phần thô sơ vụng về, nhưng cũng có thể
 
 Những mỏ quặng nhiệt năng ở khu vực lân cận doanh trại được đánh dấu ra thì còn có thể quy chụp là do Tạ Trì nắm được tin tức nội bộ. Thế nhưng ở ngoài doanh trại, mỏ quặng nhiệt năng gần sòng bạc ngầm của hội Dạ Kiêu ở phía đông Bạo Tuyết Thành cũng rõ ràng rành rành nằm trong danh sách.
 
-Phải biết rằng mỏ quặng nhiệt năng khu vực này mới chỉ tình cờ được phát hiện vào ngày hôm qua khi cho nổ tung sòng bạc mà thôi, người bên dưới chỉ vừa kịp bẩm báo lên cho anh, thậm chí còn chưa bắt đầu tiến hành đo đạc thăm dò để khai thác, vậy mà Tạ Trì — kẻ đang bị giam lỏng cấm túc — lại đã đưa ra được một phạm vi phân bố hoàn chỉnh đến mức này.
+Phải biết rằng mỏ quặng nhiệt năng khu vực này mới chỉ tình cờ được phát hiện vào ngày hôm qua khi cho nổ tung sòng bạc mà thôi, người bên dưới chỉ vừa kịp bẩm báo lên cho hắn, thậm chí còn chưa bắt đầu tiến hành đo đạc thăm dò để khai thác, vậy mà Tạ Trì — kẻ đang bị giam lỏng cấm túc — lại đã đưa ra được một phạm vi phân bố hoàn chỉnh đến mức này.
 
 Còn nữa —
 
 Yến Vãn Thu khẽ nheo mắt lại, nhìn tấm bản đồ Bạo Tuyết Thành chuẩn xác không một chút sai lệch trong tay.
 
-Thế lực nội bộ Bạo Tuyết Thành đan xen chằng chịt, chia năm xẻ bảy cát cứ từng phương, trong đó hội Dạ Kiêu lớn mạnh nhất lại càng ôm mối thù địch sâu sắc với anh. Ngay cả bản thân anh cũng vì sự cản trở ngáng đường của hội Dạ Kiêu mà chưa thể thăm dò được toàn bộ Bạo Tuyết Thành, vậy thì rốt cuộc Tạ Trì đã lấy từ đâu ra một tấm bản đồ chuẩn xác đến nhường này?
+Thế lực nội bộ Bạo Tuyết Thành đan xen chằng chịt, chia năm xẻ bảy cát cứ từng phương, trong đó hội Dạ Kiêu lớn mạnh nhất lại càng ôm mối thù địch sâu sắc với hắn. Ngay cả bản thân hắn cũng vì sự cản trở ngáng đường của hội Dạ Kiêu mà chưa thể thăm dò được toàn bộ Bạo Tuyết Thành, vậy thì rốt cuộc Tạ Trì đã lấy từ đâu ra một tấm bản đồ chuẩn xác đến nhường này?
 
 Đây là sự chỉ đạo của ai? Đằng sau rốt cuộc đang che giấu âm mưu toan tính gì?
 
 Yến Bạch Nguyệt? Hay là Yến Hồi Thời?
 
-Hay thậm chí là vị phụ hoàng đa nghi cảnh giác của anh?
+Hay thậm chí là vị phụ hoàng đa nghi cảnh giác của hắn?
 
 Không, bất kể là ai trong số họ cũng đều không có năng lực to lớn đến mức ấy, đằng sau Tạ Trì nhất định còn có một thế lực nào khác.
 
@@ -40,7 +40,7 @@ Cái chuyện quái đản như thế này tuyệt đối đừng có xảy ra m
 
 “Tạ Trì.” Yến Vãn Thu cuối cùng cũng mở miệng.
 
-Anh đặt bản vẽ xuống, rũ mắt nhìn Tạ Trì: “Tại sao lại giao nộp tấm bản đồ này cho ta?”
+Hắn đặt bản vẽ xuống, rũ mắt nhìn Tạ Trì: “Tại sao lại giao nộp tấm bản đồ này cho ta?”
 
 Tạ Trì ngoan ngoãn trả lời theo đúng câu trả lời tối ưu nhất mà mấy ngày nay cậu đã dùng AI của kính terminal mô phỏng tính toán ra:
 
@@ -58,9 +58,9 @@ Tạ Trì không chút do dự, trực tiếp quỳ sụp xuống đất: “Đi
 
 Yến Vãn Thu có chút bất ngờ.
 
-Hội Dạ Kiêu với tư cách là một trong những bang phái đầu sỏ tại địa phương Bạo Tuyết Thành, tổng bộ ẩn giấu vô cùng sâu kín, thủ lĩnh Dạ lão đại lại càng là kẻ giảo hoạt khôn ngoan có muôn ngàn hang ổ, dẫu là anh cũng chưa từng tìm ra được hang ổ đích thực của đối phương.
+Hội Dạ Kiêu với tư cách là một trong những bang phái đầu sỏ tại địa phương Bạo Tuyết Thành, tổng bộ ẩn giấu vô cùng sâu kín, thủ lĩnh Dạ lão đại lại càng là kẻ giảo hoạt khôn ngoan có muôn ngàn hang ổ, dẫu là hắn cũng chưa từng tìm ra được hang ổ đích thực của đối phương.
 
-Huống chi mấy hôm trước hội Dạ Kiêu còn lôi ra loại vũ khí kỳ dị có uy lực kinh hoàng, anh giao cho thợ cơ giới đi cùng suốt ba ngày trời mà đối phương vẫn chưa nghiên cứu ra được ngọn ngành manh mối gì.
+Huống chi mấy hôm trước hội Dạ Kiêu còn lôi ra loại vũ khí kỳ dị có uy lực kinh hoàng, hắn giao cho thợ cơ giới đi cùng suốt ba ngày trời mà đối phương vẫn chưa nghiên cứu ra được ngọn ngành manh mối gì.
 
 Tạ Trì chỉ là một tên ám vệ, thế mà vừa mở miệng đã dám mạnh mồm nói sẽ đi ám sát Dạ lão đại, cậu ta rốt cuộc lấy đâu ra sự tự tin lớn đến mức ấy?
 
@@ -94,7 +94,7 @@ Yến Vãn Thu: “...”
 
 Yến Vãn Thu xem như đã nhìn thấu mạch logic giải thích của Tạ Trì rồi.
 
-Anh nghi ngờ Tạ Trì có quan hệ với ai, Tạ Trì liền chuẩn bị đi giết chết kẻ đó, giết chết người ta rồi thì đương nhiên chẳng còn khả năng phản bội gì nữa.
+Hắn nghi ngờ Tạ Trì có quan hệ với ai, Tạ Trì liền chuẩn bị đi giết chết kẻ đó, giết chết người ta rồi thì đương nhiên chẳng còn khả năng phản bội gì nữa.
 
 Mạch logic này đơn giản thô bạo vô cùng, thế nhưng Yến Vãn Thu lại chẳng thể nào từ chối được.
 
@@ -102,7 +102,7 @@ Nội bộ Bạo Tuyết Thành chủ yếu phân thành hai thế lực bản �
 
 Bên trong Chợ Đen là chốn ngọa hổ tàng long quy tụ đủ mọi tầng lớp người bị lưu đày, chia làm hai phe do trùm buôn bán vũ khí Hổ Mang và thương nhân năng lượng Ngải tiên sinh đứng đầu; còn hội Dạ Kiêu lại được chống lưng nâng đỡ bởi Chủ Tinh.
 
-Hiện tại Chợ Đen đối với sự phát triển của anh vẫn giữ thái độ trung lập, thủ lĩnh Dạ lão đại của hội Dạ Kiêu cùng với Yến Bạch Nguyệt sắp sửa đặt chân tới đây, một kẻ chiếm cứ phần lớn đất đai của Bạo Tuyết Thành cản trở anh khai thác mỏ quặng nhiệt năng, một kẻ đại diện cho Chủ Tinh mưu toan cướp đoạt mỏ quặng nhiệt năng, quả thực đều là những cái gai nhức nhối trong mắt anh. Nếu như Tạ Trì thực sự có thể nhổ cỏ tận gốc hai kẻ này, trở lực đối với sự phát triển của anh tại Bạo Tuyết Thành sẽ được giảm thiểu đi rất nhiều.
+Hiện tại Chợ Đen đối với sự phát triển của hắn vẫn giữ thái độ trung lập, thủ lĩnh Dạ lão đại của hội Dạ Kiêu cùng với Yến Bạch Nguyệt sắp sửa đặt chân tới đây, một kẻ chiếm cứ phần lớn đất đai của Bạo Tuyết Thành cản trở hắn khai thác mỏ quặng nhiệt năng, một kẻ đại diện cho Chủ Tinh mưu toan cướp đoạt mỏ quặng nhiệt năng, quả thực đều là những cái gai nhức nhối trong mắt hắn. Nếu như Tạ Trì thực sự có thể nhổ cỏ tận gốc hai kẻ này, trở lực đối với sự phát triển của hắn tại Bạo Tuyết Thành sẽ được giảm thiểu đi rất nhiều.
 
 Yến Vãn Thu im lặng trong giây lát, bỗng nhiên bật cười khẽ một tiếng, cất giọng nói: “Được thôi, nếu ngươi thực sự có thể lấy đầu của Dạ lão đại và Yến Bạch Nguyệt về đây cho ta, ta sẽ tin ngươi không phải kẻ phản bội.”
 
@@ -114,7 +114,7 @@ Chuyện giết người thì cậu quá đỗi thành thạo rồi.
 
 Yến Vãn Thu: “...”
 
-Anh nhìn bộ dạng thở phào nhẹ nhõm như trút được gánh nặng của Tạ Trì, không kìm được hoài nghi có phải bản thân mình dạo này có chút quá dễ nói chuyện rồi hay không.
+Hắn nhìn bộ dạng thở phào nhẹ nhõm như trút được gánh nặng của Tạ Trì, không kìm được hoài nghi có phải bản thân mình dạo này có chút quá dễ nói chuyện rồi hay không.
 
 Yến Vãn Thu cất giọng đe dọa: “Đương nhiên, ba ngày sau, nếu ngươi không mang được đầu của Dạ lão đại về đây, cái đầu của Quý Thù nhất định phải rơi xuống đất.”
 
@@ -128,7 +128,7 @@ Yến Vãn Thu nhướng mày.
 
 Thực sự chẳng ngờ được cái thân phận Quý Thù này lại hữu dụng đến thế, thế mà có thể khiến Tạ Trì trực tiếp xù lông dựng ngược cả lên.
 
-Đáy lòng anh đã có tính toán riêng.
+Đáy lòng hắn đã có tính toán riêng.
 
 Tuy rằng vết thương đã lành, nhưng ngồi lâu chung quy vẫn cảm thấy khó chịu, Yến Vãn Thu không có ý định dây dưa quá nhiều với Tạ Trì: “Trong ba ngày này ta sẽ không đụng tới hai người các ngươi, còn sau ba ngày nữa Quý Thù sống hay chết, đều phải xem biểu hiện của ngươi ra sao rồi. Giao nốt nửa tấm bản đồ khoáng sản còn lại cho ta, không có việc gì nữa thì lui ra đi.”
 
@@ -146,7 +146,7 @@ Tạ Trì thấy Yến Vãn Thu nửa ngày trời không hề đáp lại, trá
 
 Đầu ngón tay Yến Vãn Thu khẽ cuộn tròn lại.
 
-Anh nhìn thiếu niên phía dưới vẫn luôn cúi gầm đầu, chợt nhận ra kể từ khi bước chân qua cánh cửa này tới giờ, Tạ Trì chưa từng một lần ngẩng đầu lên nhìn thẳng vào anh.
+Hắn nhìn thiếu niên phía dưới vẫn luôn cúi gầm đầu, chợt nhận ra kể từ khi bước chân qua cánh cửa này tới giờ, Tạ Trì chưa từng một lần ngẩng đầu lên nhìn thẳng vào hắn.
 
 “Ngẩng đầu lên.”
 
@@ -160,9 +160,9 @@ Yến Vãn Thu nhìn hàng mi dài đang run rẩy bất an của cậu, bỗng 
 
 Yến Vãn Thu tuyệt đối không cho rằng Tạ Trì lại có thể nhanh chóng yêu tha thiết một đối tượng tình một đêm đến thế. So với điều đó, việc Tạ Trì mượn sự “thâm tình” của mình dành cho Quý Thù để chứng minh bản thân vô hại e rằng mới chính là trọng điểm.
 
-Chỉ tiếc là bàn tính của Tạ Trì e rằng phải vỡ tan tành rồi, Quý Thù và anh vốn dĩ là cùng một người.
+Chỉ tiếc là bàn tính của Tạ Trì e rằng phải vỡ tan tành rồi, Quý Thù và hắn vốn dĩ là cùng một người.
 
-Gặp mặt thì gặp mặt, vừa hay cũng để anh có thể đích thân lột trần bộ mặt giả tạo giả nhân giả nghĩa này của Tạ Trì.
+Gặp mặt thì gặp mặt, vừa hay cũng để hắn có thể đích thân lột trần bộ mặt giả tạo giả nhân giả nghĩa này của Tạ Trì.
 
 Yến Vãn Thu có chút phiền muộn dời tầm mắt khỏi gương mặt Tạ Trì: “Bớt dùng cái bộ dạng rẻ tiền này mà nhìn ta, muốn gặp thì cứ gặp đi, làm như thể ta là kẻ ác độc chia uyên rẽ thúy không bằng.”
 
@@ -210,7 +210,7 @@ Bên trong hộp là một vật thể hình cầu kỳ dị.
 
 Yến Vãn Thu có chút bất ngờ, nghi hoặc đưa tay chọc chọc vào vật thể hình cầu đó.
 
-Thứ đó mang lại cảm giác xúc giác kim loại cơ khí mát lạnh, ngay khoảnh khắc anh chạm vào liền lập tức biến hình thành một cặp kính gọng kim loại thanh mảnh màu bạc.
+Thứ đó mang lại cảm giác xúc giác kim loại cơ khí mát lạnh, ngay khoảnh khắc hắn chạm vào liền lập tức biến hình thành một cặp kính gọng kim loại thanh mảnh màu bạc.
 
 Yến Vãn Thu cầm chiếc kính lên ngắm nghía, chỉ thấy ngay khoảnh khắc tiếp theo, một màn hình quang học bỗng bật nảy ra ngoài không trung.
 
@@ -244,7 +244,7 @@ Gột rửa cho bản thân “không phải nội gián do Yến Bạch Nguyệ
 
 Tạ Trì muốn Yến Vãn Thu phải nghi ngờ đằng sau lưng cậu đang cất giấu một thế lực thần bí và hùng mạnh hơn nhiều — nền văn minh cơ khí.
 
-Trong lịch sử, Yến Vãn Thu nhanh chóng mở rộng bờ cõi nơi biên ải, bên cạnh anh có thợ cơ giới thiên tài, có tướng lĩnh trung thành tận tụy, có binh sĩ nối tiếp nhau xông pha trận mạc... thế nhưng lại vừa vặn thiếu đi một thuộc hạ đủ am hiểu về nền văn minh cơ khí.
+Trong lịch sử, Yến Vãn Thu nhanh chóng mở rộng bờ cõi nơi biên ải, bên cạnh hắn có thợ cơ giới thiên tài, có tướng lĩnh trung thành tận tụy, có binh sĩ nối tiếp nhau xông pha trận mạc... thế nhưng lại vừa vặn thiếu đi một thuộc hạ đủ am hiểu về nền văn minh cơ khí.
 
 Cũng chính vì lẽ đó, Yến Vãn Thu mới bị đội quân dị tộc đột ngột xuất hiện cùng những loại vũ khí thần bí đánh cho không kịp trở tay, liên tiếp bại trận, cuối cùng rơi vào kết cục chết thảm khốc.
 

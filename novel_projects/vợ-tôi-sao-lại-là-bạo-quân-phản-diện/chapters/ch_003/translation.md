@@ -6,7 +6,7 @@ Tạ Trì đỏ bừng mặt, vô cùng ngượng ngùng: “Xin lỗi nhé, ban
 
 Yến Vãn Thu khẽ nhíu mày, không hiểu trong hồ lô của Tạ Trì đang bán thứ thuốc gì.
 
-Lý trí của anh lúc này chẳng còn sót lại là bao, sau khi tàn sát sạch sẽ người của hội Dạ Kiêu, hoàn toàn là theo bản năng xông thẳng tới trước cửa phòng Tạ Trì, muốn giải quyết dứt điểm tên phản bội này.
+Lý trí của hắn lúc này chẳng còn sót lại là bao, sau khi tàn sát sạch sẽ người của hội Dạ Kiêu, hoàn toàn là theo bản năng xông thẳng tới trước cửa phòng Tạ Trì, muốn giải quyết dứt điểm tên phản bội này.
 
 Thế nhưng có lẽ là do chìm sâu vào trạng thái rối loạn tin tức tố quá lâu, khoảnh khắc Yến Vãn Thu đạp tung cánh cửa bỗng ngửi thấy một mùi hương thanh tân chua ngọt quen thuộc, tức khắc cảm thấy đầu óc choáng váng hoa mắt, lúc này mới mất đi nửa phần sức lực giữa chừng.
 
@@ -20,7 +20,7 @@ Cậu hoàn toàn không hề cảm thấy chuyện “đối tượng xem mắt
 
 Yến Vãn Thu: “...?”
 
-Anh thử giãy giụa rút tay ra, lại kinh ngạc phát hiện bản thân thế mà không thể thoát khỏi sự kiềm tỏa của Tạ Trì.
+Hắn thử giãy giụa rút tay ra, lại kinh ngạc phát hiện bản thân thế mà không thể thoát khỏi sự kiềm tỏa của Tạ Trì.
 
 Tạ Trì nhân đà kéo đối phương bước vào trong phòng, vừa tiện tay khép cánh cửa lại ngăn cách gió lạnh bên ngoài, vừa ngượng ngùng buông tay ra.
 
@@ -30,7 +30,7 @@ Tạ Trì nhân đà kéo đối phương bước vào trong phòng, vừa tiệ
 
 Yến Vãn Thu một lòng chỉ muốn giết chết tên phản bội Tạ Trì này, cười lạnh một tiếng: “Ta thành ra nông nỗi này còn chẳng phải nhờ phúc của ngươi ban cho hay sao.”
 
-Anh vừa dứt lời, liền trực tiếp dùng bàn tay còn lại đang rảnh rỗi giơ khẩu súng kỳ dị vừa mới thu giữ được lên, dí thẳng vào trán Tạ Trì, không chút do dự bóp cò.
+Hắn vừa dứt lời, liền trực tiếp dùng bàn tay còn lại đang rảnh rỗi giơ khẩu súng kỳ dị vừa mới thu giữ được lên, dí thẳng vào trán Tạ Trì, không chút do dự bóp cò.
 
 “Cạch.”
 
@@ -50,9 +50,9 @@ Trong phòng nhất thời chìm vào tĩnh lặng, chỉ còn lại tiếng nư
 
 Yến Vãn Thu: ?
 
-Tạ Trì bị bệnh đấy à? Không nhìn ra anh tới đây là để giết cậu sao?
+Tạ Trì bị bệnh đấy à? Không nhìn ra hắn tới đây là để giết cậu sao?
 
-Anh trơ mắt nhìn Tạ Trì không chút phòng bị xoay người bước thẳng về phía phòng tắm, ngây người mất mấy giây liền mới nghiến răng nghiến lợi đuổi theo sau.
+Hắn trơ mắt nhìn Tạ Trì không chút phòng bị xoay người bước thẳng về phía phòng tắm, ngây người mất mấy giây liền mới nghiến răng nghiến lợi đuổi theo sau.
 
 Bên trong phòng tắm.
 
@@ -84,7 +84,7 @@ Trúng thuốc?
 
 Yến Vãn Thu rốt cuộc cũng ý thức được trạng thái của bản thân quả thực có chút bất thường.
 
-Khác biệt hoàn toàn với cơn rối loạn tin tức tố, cái luồng lệ khí muốn giết sạch toàn bộ mọi người kia chẳng biết đã biến mất từ lúc nào, thay vào đó là một sự thôi thúc khô nóng cồn cào mà anh chưa từng nếm trải bao giờ.
+Khác biệt hoàn toàn với cơn rối loạn tin tức tố, cái luồng lệ khí muốn giết sạch toàn bộ mọi người kia chẳng biết đã biến mất từ lúc nào, thay vào đó là một sự thôi thúc khô nóng cồn cào mà hắn chưa từng nếm trải bao giờ.
 
 Răng nanh ngứa ngáy, tuyến thể sau gáy cũng nóng rực như thiêu đốt.
 
@@ -114,7 +114,7 @@ Tạ Trì: ?!? !
 
 “Không cần tìm.” Người đàn ông cất giọng khàn đặc.
 
-Anh vừa nói vừa giơ tay giật phăng chiếc áo choàng tắm trên người Tạ Trì ra.
+Hắn vừa nói vừa giơ tay giật phăng chiếc áo choàng tắm trên người Tạ Trì ra.
 
 “Ngươi tới giúp ta.”
 
@@ -126,13 +126,13 @@ Tạ Trì cũng nhận ra sự biến hóa rõ rệt trên cơ thể mình, th�
 
 Yến Vãn Thu cười nhạt một tiếng, giơ tay ném phăng mớ quần áo vướng víu sang một bên.
 
-Suy nghĩ của anh vô cùng đơn giản. Tạ Trì lúc này trong mắt anh chẳng khác nào một người chết, dù sao tên nhãi này ngoại hình cũng khá ưa nhìn, trước khi giết chết đem ra làm thuốc giải thì quả là không còn gì thích hợp hơn.
+Suy nghĩ của hắn vô cùng đơn giản. Tạ Trì lúc này trong mắt hắn chẳng khác nào một người chết, dù sao tên nhãi này ngoại hình cũng khá ưa nhìn, trước khi giết chết đem ra làm thuốc giải thì quả là không còn gì thích hợp hơn.
 
 ...
 
 Tình trạng thể chất và tinh thần của Yến Vãn Thu vốn dĩ chẳng mấy ổn định, hai người giằng co không được bao lâu, luồng tin tức tố mùi gỗ ôn nhuận thuộc về Alpha liền nhanh chóng lan tỏa khắp không gian.
 
-Thần trí anh tỉnh táo hơn đôi chút, đang định đứng dậy phủi tay dùng xong rồi vứt, bỗng nhiên cảm thấy cổ tay mình bị người phía dưới nắm chặt cứng ngắc.
+Thần trí hắn tỉnh táo hơn đôi chút, đang định đứng dậy phủi tay dùng xong rồi vứt, bỗng nhiên cảm thấy cổ tay mình bị người phía dưới nắm chặt cứng ngắc.
 
 “Ngươi muốn tìm cái chết à?” Hơi thở Yến Vãn Thu có chút không đều.
 
@@ -154,23 +154,23 @@ Cái tên ngu xuẩn này rốt cuộc đang lảm nhảm cái quái gì thế h
 
 Cõi lòng Yến Vãn Thu khẽ chấn động, cho dù thần trí có chút mê muội, trong lòng cũng dâng lên một tia dự cảm nguy hiểm.
 
-Thế nhưng anh còn chưa kịp mở miệng lên tiếng, đã bị Tạ Trì chặn đứng lại.
+Thế nhưng hắn còn chưa kịp mở miệng lên tiếng, đã bị Tạ Trì chặn đứng lại.
 
 Yến Vãn Thu há miệng định mắng đối phương muốn chết, nhưng lời đe dọa còn chưa kịp thốt ra khỏi miệng đã nhanh chóng biến thành những tiếng thở gấp gáp vụn vỡ.
 
-Giữa luồng khí tức thanh ngọt nồng đượm vị quýt chín mọng, Yến Vãn Thu chỉ cảm thấy trong mơ màng mọi thứ dường như đều trở nên nhạt nhòa mờ ảo, bao gồm cả cơn đau đầu buốt óc do chứng rối loạn tin tức tố đã đeo bám giày vò anh suốt sáu năm ròng rã.
+Giữa luồng khí tức thanh ngọt nồng đượm vị quýt chín mọng, Yến Vãn Thu chỉ cảm thấy trong mơ màng mọi thứ dường như đều trở nên nhạt nhòa mờ ảo, bao gồm cả cơn đau đầu buốt óc do chứng rối loạn tin tức tố đã đeo bám giày vò hắn suốt sáu năm ròng rã.
 
 Nước trong bồn tắm đã dâng tràn trề, ào ào chảy tràn ra ngoài nền đất, dấy lên những đợt sóng nước kịch liệt chưa từng có.
 
 ...
 
-Anh nhất định phải giết chết Tạ Trì.
+Hắn nhất định phải giết chết Tạ Trì.
 
 Đây là ý nghĩ duy nhất hiện lên trong đầu Yến Vãn Thu sau khi được Tạ Trì bế từ phòng tắm trở lại giường trong phòng ngủ, và thần trí đã hoàn toàn tỉnh táo lại.
 
 Cứ nghĩ tới việc mọi khía cạnh chật vật, khó coi nhất của bản thân đều đã bị tên phản bội Tạ Trì nhìn thấy sạch sành sanh, Yến Vãn Thu liền tức giận tới mức toàn thân run rẩy kịch liệt.
 
-Tạ Trì hoàn toàn chẳng hề hay biết gì, cậu đã vô cùng mượt mà chấp nhận hiện thực rằng bản thân sẽ cưới một anh vợ Alpha về nhà, lúc này đang hì hục lục lọi tìm ga trải giường mới, trong lòng vui vẻ nở rộ từng đóa hoa màu hồng.
+Tạ Trì hoàn toàn chẳng hề hay biết gì, cậu đã vô cùng mượt mà chấp nhận hiện thực rằng bản thân sẽ cưới một hắn vợ Alpha về nhà, lúc này đang hì hục lục lọi tìm ga trải giường mới, trong lòng vui vẻ nở rộ từng đóa hoa màu hồng.
 
 Tuy rằng con đường phía trước còn chưa biết ra sao, nhưng cậu đã có vợ rồi.
 
@@ -184,7 +184,7 @@ Tạ Trì ngoan ngoãn đáp: “Tôi thay chiếc ga giường sạch sẽ ấy
 
 Yến Vãn Thu ngẩn người một thoáng, vành tai đã đi trước một bước nóng bừng lên.
 
-Động tác của anh cứng đờ trèo xuống giường, ngữ khí vô cùng cáu kỉnh: “Thay nhanh lên.”
+Động tác của hắn cứng đờ trèo xuống giường, ngữ khí vô cùng cáu kỉnh: “Thay nhanh lên.”
 
 “Dạ.” Tạ Trì thoăn thoắt thay ga giường.
 
@@ -194,9 +194,9 @@ Yến Vãn Thu ngẩn người một thoáng, vành tai đã đi trước một 
 
 Yến Vãn Thu: “...”
 
-Tên nhãi này thật sự không nhận ra anh chính là Yến Vãn Thu đấy à?
+Tên nhãi này thật sự không nhận ra hắn chính là Yến Vãn Thu đấy à?
 
-Hiện tại rốt cuộc là anh đang nằm mơ, hay là Tạ Trì phát điên rồi?
+Hiện tại rốt cuộc là hắn đang nằm mơ, hay là Tạ Trì phát điên rồi?
 
 Yến Vãn Thu mệt mỏi rã rời, lúc này chỉ muốn quay về phòng mình ngủ một giấc thật đẫy đà, đợi sau khi tỉnh dậy sẽ đích thân chém đầu Tạ Trì, bèn thuận miệng bịa đại một cái tên: “Ta tên Quý Thù, cũng không tính là bị ép buộc tới đây đâu, ngươi mau ngủ đi.”
 
@@ -212,7 +212,7 @@ Yến Vãn Thu nghe cậu nói nhăng nói cuội, đầu lại càng thêm đau
 
 Huhu, hóa ra là vợ vừa mắt cậu, chủ động đồng ý sao?
 
-Yến Vãn Thu vừa nhấc chân định rời đi, liền nhìn thấy Tạ Trì đặt hai chiếc gối lên giường, đang tha thiết ngóng chờ anh.
+Yến Vãn Thu vừa nhấc chân định rời đi, liền nhìn thấy Tạ Trì đặt hai chiếc gối lên giường, đang tha thiết ngóng chờ hắn.
 
 Yến Vãn Thu: “...?”
 
@@ -234,31 +234,31 @@ Tạ Trì lập tức ôm chiếc chăn thứ hai ra, lại xúc thêm mấy vi�
 
 Yến Vãn Thu cân nhắc một thoáng về khả năng bây giờ lập tức chém chết Tạ Trì để thoát khỏi sự quấn quýt của đối phương, nhưng cuối cùng vẫn từ bỏ.
 
-Toàn thân anh lúc này bủn rủn không còn chút sức lực nào, dẫu cho có đánh thắng được Tạ Trì thì cũng sẽ gây ra động tĩnh không nhỏ, kinh động tới đám thị vệ ngoài cửa.
+Toàn thân hắn lúc này bủn rủn không còn chút sức lực nào, dẫu cho có đánh thắng được Tạ Trì thì cũng sẽ gây ra động tĩnh không nhỏ, kinh động tới đám thị vệ ngoài cửa.
 
-Vừa mới đặt chân tới Bạo Tuyết Thành đã truyền ra vụ bê bối tư thông với ám vệ, quả thực vô cùng bất lợi cho việc anh xây dựng uy tín trong lòng bá tánh, chi bằng cứ nghỉ ngơi cho lại sức rồi rời đi, sau đó xử tử Tạ Trì thì sẽ an toàn hơn nhiều.
+Vừa mới đặt chân tới Bạo Tuyết Thành đã truyền ra vụ bê bối tư thông với ám vệ, quả thực vô cùng bất lợi cho việc hắn xây dựng uy tín trong lòng bá tánh, chi bằng cứ nghỉ ngơi cho lại sức rồi rời đi, sau đó xử tử Tạ Trì thì sẽ an toàn hơn nhiều.
 
 Yến Vãn Thu đã nghĩ thông suốt, liền không thèm xoắn xuýt bận tâm nữa, dứt khoát quay trở lại giường, chuẩn bị chợp mắt một lát.
 
-Thế nhưng bên cạnh vẫn luôn có một ánh mắt nóng rực chăm chú nhìn anh không rời.
+Thế nhưng bên cạnh vẫn luôn có một ánh mắt nóng rực chăm chú nhìn hắn không rời.
 
 Yến Vãn Thu cố gắng phớt lờ ánh mắt đó đi, miễn cưỡng nhắm nghiền hai mắt lại.
 
-Tròn năm phút sau, Yến Vãn Thu nhịn không nổi nữa bèn mở mắt ra, quay đầu nhìn Tạ Trì đang nằm gọn trong chăn bên cạnh, chỉ thò mỗi cái đầu ra nhìn anh đăm đăm: “Ngươi có ngủ hay không đấy?”
+Tròn năm phút sau, Yến Vãn Thu nhịn không nổi nữa bèn mở mắt ra, quay đầu nhìn Tạ Trì đang nằm gọn trong chăn bên cạnh, chỉ thò mỗi cái đầu ra nhìn hắn đăm đăm: “Ngươi có ngủ hay không đấy?”
 
 “Ngủ chứ ngủ chứ.” Tạ Trì vội vàng nhắm tịt mắt lại.
 
 Chưa được mấy giây, cậu lại mở mắt nhìn người đàn ông đeo mặt nạ bên cạnh, lí nhí hỏi: “Vậy tôi có thể gọi anh là vợ không? Bây giờ anh đã được tính là người thân của tôi chưa? Nơi này có được coi là mái ấm của chúng ta không?”
 
-Yến Vãn Thu hễ nghe thấy hai chữ “người thân” liền nhớ tới đám thân nhân ruột thịt đã hãm hại anh rơi vào bước đường cùng này, mất kiên nhẫn mở mắt ra, xốc tung chăn lên bóp nghẹt lấy yết hầu của Tạ Trì.
+Yến Vãn Thu hễ nghe thấy hai chữ “người thân” liền nhớ tới đám thân nhân ruột thịt đã hãm hại hắn rơi vào bước đường cùng này, mất kiên nhẫn mở mắt ra, xốc tung chăn lên bóp nghẹt lấy yết hầu của Tạ Trì.
 
 “Còn ăn nói bậy bạ nữa là ta cắt lưỡi của ngươi—”
 
-Anh chạm phải ánh mắt của Tạ Trì, lời nói bỗng khựng lại giữa chừng.
+Hắn chạm phải ánh mắt của Tạ Trì, lời nói bỗng khựng lại giữa chừng.
 
-Đôi mắt tròn xoe kia lúc này đang lẳng lặng nhìn anh, trong mắt ngập tràn sự tha thiết ngóng trông.
+Đôi mắt tròn xoe kia lúc này đang lẳng lặng nhìn hắn, trong mắt ngập tràn sự tha thiết ngóng trông.
 
-Tóc của thiếu niên vốn mềm mại, do vừa mới tắm xong nên hãy còn ươn ướt dính dính mềm rũ rượi, chẳng thấy chút tính công kích nào như ban nãy nữa, ngược lại còn căng thẳng túm chặt lấy góc chăn, đối với anh hoàn toàn không có một tia phòng bị nào.
+Tóc của thiếu niên vốn mềm mại, do vừa mới tắm xong nên hãy còn ươn ướt dính dính mềm rũ rượi, chẳng thấy chút tính công kích nào như ban nãy nữa, ngược lại còn căng thẳng túm chặt lấy góc chăn, đối với hắn hoàn toàn không có một tia phòng bị nào.
 
 Yến Vãn Thu: “...”
 
@@ -266,13 +266,13 @@ Bàn tay đang bóp lấy chiếc cổ mong manh của Tạ Trì khẽ nới l�
 
 Tạ Trì gật đầu lia lịa.
 
-Tạ Trì vẫn đang tràn đầy hy vọng nhìn anh, Yến Vãn Thu rũ mắt xuống, âm u nhìn chằm chằm Tạ Trì hồi lâu.
+Tạ Trì vẫn đang tràn đầy hy vọng nhìn hắn, Yến Vãn Thu rũ mắt xuống, âm u nhìn chằm chằm Tạ Trì hồi lâu.
 
-Trong đầu anh không kiểm soát được mà hiện lên muôn vàn chuyện cũ trong quá khứ.
+Trong đầu hắn không kiểm soát được mà hiện lên muôn vàn chuyện cũ trong quá khứ.
 
-Sự ngầm đồng thuận của mẫu phi, sự kiêng dè đề phòng của phụ hoàng, và sự dồn anh vào chỗ chết không tiếc thủ đoạn của huynh đệ ruột thịt.
+Sự ngầm đồng thuận của mẫu phi, sự kiêng dè đề phòng của phụ hoàng, và sự dồn hắn vào chỗ chết không tiếc thủ đoạn của huynh đệ ruột thịt.
 
-Anh trơ mắt nhìn toàn bộ mọi thứ của mình bao gồm cả sức khỏe đều bị những người thân mà anh tin tưởng nhất tước đoạt sạch sẽ, chỉ còn lại ánh mắt kinh hoàng cùng những lời chửi rủa cay nghiệt của những bá tánh từng kính yêu anh.
+Hắn trơ mắt nhìn toàn bộ mọi thứ của mình bao gồm cả sức khỏe đều bị những người thân mà hắn tin tưởng nhất tước đoạt sạch sẽ, chỉ còn lại ánh mắt kinh hoàng cùng những lời chửi rủa cay nghiệt của những bá tánh từng kính yêu hắn.
 
 Thế mà tên ám vệ trước mắt này, lại ngây thơ đến mức muốn có một người thân.
 
@@ -280,7 +280,7 @@ Lại còn đi cầu xin từ chính kẻ đang chuẩn bị xử tử cậu ta 
 
 Ôm một tâm trạng méo mó muốn trêu ngươi đùa cợt, Yến Vãn Thu khẽ cười: “Đương nhiên rồi.”
 
-Ngày mai khi Tạ Trì biết được chân tướng, vào khoảnh khắc bị anh chém bay đầu, nhất định sẽ lộ ra biểu cảm tuyệt vọng sụp đổ lắm cho mà xem?
+Ngày mai khi Tạ Trì biết được chân tướng, vào khoảnh khắc bị hắn chém bay đầu, nhất định sẽ lộ ra biểu cảm tuyệt vọng sụp đổ lắm cho mà xem?
 
 Tạ Trì hoàn toàn chẳng hề phát hiện ra tâm tư ác độc của Yến Vãn Thu, nghe vậy liền nở nụ cười rạng rỡ, đôi mắt sáng lấp lánh như ngàn sao, hai bên má hiện lên hai lúm đồng tiền xinh xắn.
 
@@ -288,4 +288,4 @@ Yến Vãn Thu như bị bỏng vội dời tầm mắt đi.
 
 Đúng là đồ ngốc.
 
-Hệt như anh của ngày trước vậy, ngu xuẩn đến mức khiến người ta bật cười.
+Hệt như hắn của ngày trước vậy, ngu xuẩn đến mức khiến người ta bật cười.

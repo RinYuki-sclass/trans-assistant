@@ -24,7 +24,7 @@ Tạ Trì cố gắng vắt óc suy nghĩ một chút, lại hỏi thêm: “Thu
 
 Yến Vãn Thu nhướng mày, nảy sinh chút hứng thú: “Ngươi muốn cái gì?”
 
-Anh chỉ mang theo có ba trăm thân vệ tới Bạo Tuyết Thành, phần lớn binh sĩ trong doanh trại đều là tuyển mộ tại chỗ, thế lực các nước ở Chợ Đen lại ngọa hổ tàng long vàng thau lẫn lộn. Yến Vãn Thu tuy có thừa tiền của và năng lượng, nhưng lại chẳng tìm ra được một nhà cung cấp vũ khí ổn định nào, lúc này thực sự vô cùng thiếu thốn vũ khí.
+Hắn chỉ mang theo có ba trăm thân vệ tới Bạo Tuyết Thành, phần lớn binh sĩ trong doanh trại đều là tuyển mộ tại chỗ, thế lực các nước ở Chợ Đen lại ngọa hổ tàng long vàng thau lẫn lộn. Yến Vãn Thu tuy có thừa tiền của và năng lượng, nhưng lại chẳng tìm ra được một nhà cung cấp vũ khí ổn định nào, lúc này thực sự vô cùng thiếu thốn vũ khí.
 
 Chỉ là không biết Tạ Trì đột ngột chủ động đề xuất chuyện này vào lúc này, rốt cuộc là muốn đổi lấy thứ gì.
 
@@ -40,7 +40,7 @@ Trước đây cậu đi giết một mạng người giá khởi điểm đã l
 
 Yến Vãn Thu: “...”
 
-Yến Vãn Thu thực sự không tài nào hiểu nổi, tuy rằng Bạo Tuyết Thành nghèo nàn khắc nghiệt, nhưng anh xưa nay chưa từng để thuộc hạ của mình phải thiếu thốn cái ăn cái mặc, lại càng chưa từng ăn chặn hay cắt xén tiền lương của ai bao giờ.
+Yến Vãn Thu thực sự không tài nào hiểu nổi, tuy rằng Bạo Tuyết Thành nghèo nàn khắc nghiệt, nhưng hắn xưa nay chưa từng để thuộc hạ của mình phải thiếu thốn cái ăn cái mặc, lại càng chưa từng ăn chặn hay cắt xén tiền lương của ai bao giờ.
 
 Cái thái độ đột ngột như rơi tọt vào mắt tiền của Tạ Trì này rốt cuộc là từ đâu mà ra thế? Ở cái xó xỉnh này đòi nhiều tiền đến thế để tiêu vào đâu cho hết cơ chứ?
 
@@ -58,7 +58,7 @@ Tạ Trì đáp một tiếng, thế mà lại thực sự không tiếp tục t
 
 Yến Vãn Thu ngồi trên ngai vàng, kinh ngạc nhìn theo bóng lưng dứt khoát rời đi của Tạ Trì.
 
-Anh còn ngỡ là Tạ Trì sẽ tiếp tục bám riết truy hỏi về chuyện của Quý Thù cơ đấy.
+Hắn còn ngỡ là Tạ Trì sẽ tiếp tục bám riết truy hỏi về chuyện của Quý Thù cơ đấy.
 
 “Rầm —”
 

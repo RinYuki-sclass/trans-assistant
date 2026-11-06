@@ -251,19 +251,26 @@ def _get_jjwxc_titles() -> set:
 def detect_shuku_source(title_cn: str, short_desc_cn: str, full_desc_cn: str = "", detail_fetched: int = 0) -> str:
     """
     Nhận diện nguồn gốc truyện trên 52Shuku:
-    - 'jjwxc'           : Tấn Giang (JJWXC) - có khung 内容标签 / 搜索关键字 / 一句话简介 / 立意 hoặc trùng kho JJWXC
-    - 'fanqie'          : Fanqie (Cà Chua / 番茄小说) - có 【双男主...】 / 【主攻+...】 / 标签：双男主
-    - 'changpei_feiwen' : Trường Bội / Phế Văn / Hải Đường (长佩 / 废文 / 海棠)
+    - 'jjwxc'   : Tấn Giang (JJWXC) - có khung 内容标签 / 搜索关键字 / 一句话简介 / 立意 hoặc trùng kho JJWXC
+    - 'fanqie'  : Fanqie (Cà Chua / 番茄小说) - có 【双男主...】 / 【主攻+...】 / 标签：双男主
+    - 'changpei': Trường Bội (长佩 / Gongzicp)
+    - 'feiwen'  : Phế Văn (废文 / Sosadfun)
+    - 'haitang' : Hải Đường / PO18 (海棠 / PO18)
+    - 'other'   : Nguồn khác (đã cào chi tiết nhưng không rõ nền tảng)
     """
     desc = f"{short_desc_cn or ''}\n{full_desc_cn or ''}"
     if any(k in desc for k in ("内容标签：", "内容标签:", "搜索关键字：", "一句话简介：", "立意：", "晋江")) or (title_cn in _get_jjwxc_titles()):
         return "jjwxc"
-    if any(k in desc for k in ("长佩", "CP完结", "首发长佩", "废文", "海棠", "sosad", "po18")):
-        return "changpei_feiwen"
+    if any(k in desc for k in ("长佩", "CP完结", "首发长佩", "gongzicp", "长佩文学", "首发CP")):
+        return "changpei"
+    if any(k in desc for k in ("废文", "sosad", "sosadfun", "feiwang", "废文网")):
+        return "feiwen"
+    if any(k in desc for k in ("海棠", "po18", "PO18", "海棠文化", "海棠文学")):
+        return "haitang"
     if any(k in desc for k in ("番茄", "双男主", "标签：")) or re.search(r"【[^】]*(?:主攻|双洁|1v1|1V1|反派|快穿|穿书)[^】]*】", desc):
         return "fanqie"
     if detail_fetched == 1 and full_desc_cn:
-        return "changpei_feiwen"
+        return "other"
     return ""
 
 
@@ -776,7 +783,9 @@ async def api_shuku_list_series(request):
 
     if source_filter == "non_jjwxc":
         where_clauses.append("source_site != 'jjwxc'")
-    elif source_filter in ("jjwxc", "fanqie", "changpei_feiwen"):
+    elif source_filter == "changpei_feiwen":
+        where_clauses.append("source_site IN ('changpei', 'feiwen', 'haitang', 'changpei_feiwen')")
+    elif source_filter in ("jjwxc", "fanqie", "changpei", "feiwen", "haitang", "other"):
         where_clauses.append("source_site = ?")
         params.append(source_filter)
 
