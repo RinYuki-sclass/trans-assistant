@@ -5,10 +5,10 @@
   "total_chapters": 50,
   "stats": {
     "pending": 0,
-    "raw_ready": 30,
+    "raw_ready": 0,
     "prescanned": 0,
     "translating": 0,
-    "translated": 20,
+    "translated": 50,
     "qc_approved": 0,
     "published": 0
   },
@@ -330,11 +330,11 @@
       "sub_index": null,
       "arc_id": 1,
       "arc_name": "Chính Văn",
-      "title_zh": "第21章 心魔",
+      "title_zh": "第21章",
       "title_vi": "Chương 21",
-      "status": "raw_ready",
+      "status": "translated",
       "paragraph_count": 123,
-      "word_count": 0,
+      "word_count": 2994,
       "source_url": "",
       "updated_at": "2026-11-06T16:23:18.374239"
     },
@@ -345,11 +345,11 @@
       "sub_index": null,
       "arc_id": 1,
       "arc_name": "Chính Văn",
-      "title_zh": "第22章 熟悉",
+      "title_zh": "第22章",
       "title_vi": "Chương 22",
-      "status": "raw_ready",
+      "status": "translated",
       "paragraph_count": 133,
-      "word_count": 0,
+      "word_count": 3532,
       "source_url": "",
       "updated_at": "2026-11-06T16:23:18.398253"
     },
@@ -360,11 +360,11 @@
       "sub_index": null,
       "arc_id": 1,
       "arc_name": "Chính Văn",
-      "title_zh": "第23章 揭穿身份",
+      "title_zh": "第23章",
       "title_vi": "Chương 23",
-      "status": "raw_ready",
+      "status": "translated",
       "paragraph_count": 109,
-      "word_count": 0,
+      "word_count": 3069,
       "source_url": "",
       "updated_at": "2026-11-06T16:23:18.416240"
     },
@@ -375,11 +375,11 @@
       "sub_index": null,
       "arc_id": 1,
       "arc_name": "Chính Văn",
-      "title_zh": "第24章 破魔",
+      "title_zh": "第24章",
       "title_vi": "Chương 24",
-      "status": "raw_ready",
+      "status": "translated",
       "paragraph_count": 101,
-      "word_count": 0,
+      "word_count": 3018,
       "source_url": "",
       "updated_at": "2026-11-06T16:23:18.433246"
     },
@@ -390,11 +390,11 @@
       "sub_index": null,
       "arc_id": 1,
       "arc_name": "Chính Văn",
-      "title_zh": "第25章 下山",
+      "title_zh": "第25章",
       "title_vi": "Chương 25",
-      "status": "raw_ready",
+      "status": "translated",
       "paragraph_count": 118,
-      "word_count": 0,
+      "word_count": 3887,
       "source_url": "",
       "updated_at": "2026-11-06T16:23:18.450237"
     },
@@ -405,11 +405,11 @@
       "sub_index": null,
       "arc_id": 1,
       "arc_name": "Chính Văn",
-      "title_zh": "第26章 太上长老",
+      "title_zh": "第26章",
       "title_vi": "Chương 26",
-      "status": "raw_ready",
+      "status": "translated",
       "paragraph_count": 110,
-      "word_count": 0,
+      "word_count": 3749,
       "source_url": "",
       "updated_at": "2026-11-06T16:23:18.468244"
     },
@@ -422,11 +422,11 @@
       "arc_name": "Chính Văn",
       "title_zh": "第27章 温柔",
       "title_vi": "Chương 27",
-      "status": "raw_ready",
+      "status": "translated",
       "paragraph_count": 92,
-      "word_count": 0,
+      "word_count": 3197,
       "source_url": "",
-      "updated_at": "2026-11-06T16:23:18.486238"
+      "updated_at": "2026-11-07T15:58:21.251216"
     },
     {
       "id": "ch_028",
@@ -437,11 +437,11 @@
       "arc_name": "Chính Văn",
       "title_zh": "第28章 入梦",
       "title_vi": "Chương 28",
-      "status": "raw_ready",
+      "status": "translated",
       "paragraph_count": 112,
-      "word_count": 0,
+      "word_count": 3288,
       "source_url": "",
-      "updated_at": "2026-11-06T16:23:18.501239"
+      "updated_at": "2026-11-07T15:59:31.736016"
     },
     {
       "id": "ch_029",
@@ -452,11 +452,11 @@
       "arc_name": "Chính Văn",
       "title_zh": "第29章 耳饰",
       "title_vi": "Chương 29",
-      "status": "raw_ready",
+      "status": "translated",
       "paragraph_count": 146,
-      "word_count": 0,
+      "word_count": 3689,
       "source_url": "",
-      "updated_at": "2026-11-06T16:23:18.521653"
+      "updated_at": "2026-11-07T16:00:45.595661"
     },
     {
       "id": "ch_030",
@@ -467,11 +467,11 @@
       "arc_name": "Chính Văn",
       "title_zh": "第30章 心乱",
       "title_vi": "Chương 30",
-      "status": "raw_ready",
+      "status": "translated",
       "paragraph_count": 135,
-      "word_count": 0,
+      "word_count": 4513,
       "source_url": "",
-      "updated_at": "2026-11-06T16:23:18.538260"
+      "updated_at": "2026-11-07T16:02:12.554020"
     },
     {
       "id": "ch_031",
@@ -482,11 +482,11 @@
       "arc_name": "Chính Văn",
       "title_zh": "第31章 试探",
       "title_vi": "Chương 31",
-      "status": "raw_ready",
+      "status": "translated",
       "paragraph_count": 131,
-      "word_count": 0,
+      "word_count": 3387,
       "source_url": "",
-      "updated_at": "2026-11-06T16:23:18.553261"
+      "updated_at": "2026-11-07T16:03:37.785304"
     },
     {
       "id": "ch_032",
@@ -497,11 +497,11 @@
       "arc_name": "Chính Văn",
       "title_zh": "第32章 沦陷",
       "title_vi": "Chương 32",
-      "status": "raw_ready",
+      "status": "translated",
       "paragraph_count": 139,
-      "word_count": 0,
+      "word_count": 3495,
       "source_url": "",
-      "updated_at": "2026-11-06T16:23:18.566260"
+      "updated_at": "2026-11-07T16:05:01.754498"
     },
     {
       "id": "ch_033",
@@ -512,11 +512,11 @@
       "arc_name": "Chính Văn",
       "title_zh": "第33章 止水",
       "title_vi": "Chương 33",
-      "status": "raw_ready",
+      "status": "translated",
       "paragraph_count": 125,
-      "word_count": 0,
+      "word_count": 3400,
       "source_url": "",
-      "updated_at": "2026-11-06T16:23:18.639333"
+      "updated_at": "2026-11-07T16:06:10.514033"
     },
     {
       "id": "ch_034",
@@ -527,11 +527,11 @@
       "arc_name": "Chính Văn",
       "title_zh": "第34章 不告而别",
       "title_vi": "Chương 34",
-      "status": "raw_ready",
+      "status": "translated",
       "paragraph_count": 127,
-      "word_count": 0,
+      "word_count": 4079,
       "source_url": "",
-      "updated_at": "2026-11-06T16:23:18.673224"
+      "updated_at": "2026-11-07T16:07:23.767597"
     },
     {
       "id": "ch_035",
@@ -542,11 +542,11 @@
       "arc_name": "Chính Văn",
       "title_zh": "第35章 入魔教",
       "title_vi": "Chương 35",
-      "status": "raw_ready",
+      "status": "translated",
       "paragraph_count": 112,
-      "word_count": 0,
+      "word_count": 4179,
       "source_url": "",
-      "updated_at": "2026-11-06T16:23:18.731337"
+      "updated_at": "2026-11-07T16:08:41.005966"
     },
     {
       "id": "ch_036",
@@ -557,11 +557,11 @@
       "arc_name": "Chính Văn",
       "title_zh": "第36章 勤修炼",
       "title_vi": "Chương 36",
-      "status": "raw_ready",
+      "status": "translated",
       "paragraph_count": 99,
-      "word_count": 0,
+      "word_count": 4078,
       "source_url": "",
-      "updated_at": "2026-11-06T16:23:18.751326"
+      "updated_at": "2026-11-07T16:09:59.396965"
     },
     {
       "id": "ch_037",
@@ -572,11 +572,11 @@
       "arc_name": "Chính Văn",
       "title_zh": "第37章 伪装者",
       "title_vi": "Chương 37",
-      "status": "raw_ready",
+      "status": "translated",
       "paragraph_count": 106,
-      "word_count": 0,
+      "word_count": 3419,
       "source_url": "",
-      "updated_at": "2026-11-06T16:23:18.766331"
+      "updated_at": "2026-11-07T16:11:09.570322"
     },
     {
       "id": "ch_038",
@@ -587,11 +587,11 @@
       "arc_name": "Chính Văn",
       "title_zh": "第38章 交换",
       "title_vi": "Chương 38",
-      "status": "raw_ready",
+      "status": "translated",
       "paragraph_count": 111,
-      "word_count": 0,
+      "word_count": 3592,
       "source_url": "",
-      "updated_at": "2026-11-06T16:23:18.779328"
+      "updated_at": "2026-11-07T16:12:22.521890"
     },
     {
       "id": "ch_039",
@@ -602,11 +602,11 @@
       "arc_name": "Chính Văn",
       "title_zh": "第39章 如梦初醒",
       "title_vi": "Chương 39",
-      "status": "raw_ready",
+      "status": "translated",
       "paragraph_count": 110,
-      "word_count": 0,
+      "word_count": 4193,
       "source_url": "",
-      "updated_at": "2026-11-06T16:23:18.821326"
+      "updated_at": "2026-11-07T16:13:48.360972"
     },
     {
       "id": "ch_040",
@@ -617,11 +617,11 @@
       "arc_name": "Chính Văn",
       "title_zh": "第40章 吃味",
       "title_vi": "Chương 40",
-      "status": "raw_ready",
+      "status": "translated",
       "paragraph_count": 120,
-      "word_count": 0,
+      "word_count": 4328,
       "source_url": "",
-      "updated_at": "2026-11-06T16:23:18.839817"
+      "updated_at": "2026-11-07T16:15:05.417203"
     },
     {
       "id": "ch_041",
@@ -632,11 +632,11 @@
       "arc_name": "Chính Văn",
       "title_zh": "第41章 诘问",
       "title_vi": "Chương 41",
-      "status": "raw_ready",
+      "status": "translated",
       "paragraph_count": 121,
-      "word_count": 0,
+      "word_count": 4638,
       "source_url": "",
-      "updated_at": "2026-11-06T16:23:18.854815"
+      "updated_at": "2026-11-07T16:16:37.177177"
     },
     {
       "id": "ch_042",
@@ -647,11 +647,11 @@
       "arc_name": "Chính Văn",
       "title_zh": "第42章 我来就青山",
       "title_vi": "Chương 42",
-      "status": "raw_ready",
+      "status": "translated",
       "paragraph_count": 108,
-      "word_count": 0,
+      "word_count": 4017,
       "source_url": "",
-      "updated_at": "2026-11-06T16:23:18.866814"
+      "updated_at": "2026-11-07T16:17:51.417469"
     },
     {
       "id": "ch_043",
@@ -662,9 +662,9 @@
       "arc_name": "Chính Văn",
       "title_zh": "第43章 束缚",
       "title_vi": "Chương 43",
-      "status": "raw_ready",
+      "status": "translated",
       "paragraph_count": 250,
-      "word_count": 0,
+      "word_count": 9068,
       "source_url": "",
       "updated_at": "2026-11-06T16:23:18.881818"
     },
@@ -677,9 +677,9 @@
       "arc_name": "Chính Văn",
       "title_zh": "第44章 动摇",
       "title_vi": "Chương 44",
-      "status": "raw_ready",
+      "status": "translated",
       "paragraph_count": 123,
-      "word_count": 0,
+      "word_count": 4033,
       "source_url": "",
       "updated_at": "2026-11-06T16:23:18.895385"
     },
@@ -692,9 +692,9 @@
       "arc_name": "Chính Văn",
       "title_zh": "第45章 任务失败？",
       "title_vi": "Chương 45",
-      "status": "raw_ready",
+      "status": "translated",
       "paragraph_count": 126,
-      "word_count": 0,
+      "word_count": 3677,
       "source_url": "",
       "updated_at": "2026-11-06T16:23:18.904900"
     },
@@ -707,9 +707,9 @@
       "arc_name": "Chính Văn",
       "title_zh": "第46章 庄周梦蝶",
       "title_vi": "Chương 46",
-      "status": "raw_ready",
+      "status": "translated",
       "paragraph_count": 109,
-      "word_count": 0,
+      "word_count": 3545,
       "source_url": "",
       "updated_at": "2026-11-06T16:23:18.914898"
     },
@@ -722,9 +722,9 @@
       "arc_name": "Chính Văn",
       "title_zh": "第47章 蝶梦庄周",
       "title_vi": "Chương 47",
-      "status": "raw_ready",
+      "status": "translated",
       "paragraph_count": 105,
-      "word_count": 0,
+      "word_count": 3120,
       "source_url": "",
       "updated_at": "2026-11-06T16:23:18.925902"
     },
@@ -737,9 +737,9 @@
       "arc_name": "Chính Văn",
       "title_zh": "第48章 帝君",
       "title_vi": "Chương 48",
-      "status": "raw_ready",
+      "status": "translated",
       "paragraph_count": 93,
-      "word_count": 0,
+      "word_count": 3354,
       "source_url": "",
       "updated_at": "2026-11-06T16:23:18.934899"
     },
@@ -752,9 +752,9 @@
       "arc_name": "Chính Văn",
       "title_zh": "第49章 大道同行",
       "title_vi": "Chương 49",
-      "status": "raw_ready",
+      "status": "translated",
       "paragraph_count": 230,
-      "word_count": 0,
+      "word_count": 7751,
       "source_url": "",
       "updated_at": "2026-11-06T16:23:18.946902"
     },
@@ -767,12 +767,12 @@
       "arc_name": "Chính Văn",
       "title_zh": "第50章 飞升if线（1）",
       "title_vi": "Chương 50",
-      "status": "raw_ready",
+      "status": "translated",
       "paragraph_count": 104,
-      "word_count": 0,
+      "word_count": 3510,
       "source_url": "",
       "updated_at": "2026-11-06T16:23:18.955898"
     }
   ],
-  "generated_at": "2026-11-06T17:01:36.962715"
+  "generated_at": "2026-11-07T15:53:48.558147"
 }

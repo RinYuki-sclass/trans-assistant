@@ -49,6 +49,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_DIR = os.path.join(BASE_DIR, "data")
 STATIC_DIR = os.path.join(BASE_DIR, "static", "shuku_tracker")
 DB_PATH = os.path.join(DATA_DIR, "shuku_tracker.db")
+USER_DATA_JSON_PATH = os.path.join(DATA_DIR, "shuku_user_data.json")
 
 os.makedirs(DATA_DIR, exist_ok=True)
 os.makedirs(STATIC_DIR, exist_ok=True)
@@ -178,7 +179,82 @@ def init_db():
 
         conn.commit()
         conn.close()
+    sync_user_data_from_json()
+    dump_user_data_to_json()
 
+
+
+
+def dump_user_data_to_json():
+    try:
+        conn = get_db_connection()
+        cur = conn.cursor()
+        cur.execute("SELECT book_id, status, updated_at FROM shuku_series WHERE status != 'unread' AND status != ''")
+        statuses = {}
+        for r in cur.fetchall():
+            statuses[str(r["book_id"])] = {
+                "status": r["status"],
+                "updated_at": r["updated_at"] or 0
+            }
+        cur.execute("SELECT value FROM shuku_settings WHERE key = 'bookmarked_order'")
+        brow = cur.fetchone()
+        bookmarked_order = int(brow["value"]) if brow and brow["value"] else 0
+        conn.close()
+
+        data = {
+            "bookmarked_order": bookmarked_order,
+            "statuses": statuses,
+            "exported_at": int(time.time()),
+        }
+        temp_file = USER_DATA_JSON_PATH + ".tmp"
+        with open(temp_file, "w", encoding="utf-8") as f:
+            json.dump(data, f, ensure_ascii=False, indent=2)
+        if os.path.exists(USER_DATA_JSON_PATH):
+            try:
+                os.replace(temp_file, USER_DATA_JSON_PATH)
+            except OSError:
+                os.remove(USER_DATA_JSON_PATH)
+                os.replace(temp_file, USER_DATA_JSON_PATH)
+        else:
+            os.replace(temp_file, USER_DATA_JSON_PATH)
+    except Exception as e:
+        print(f"[dump_user_data_to_json] Lỗi: {e}")
+
+
+def sync_user_data_from_json():
+    if not os.path.exists(USER_DATA_JSON_PATH):
+        return
+    try:
+        with open(USER_DATA_JSON_PATH, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        statuses = data.get("statuses") or {}
+        bookmarked_order = int(data.get("bookmarked_order") or 0)
+
+        with db_lock:
+            conn = get_db_connection()
+            cur = conn.cursor()
+            for bid, sinfo in statuses.items():
+                if isinstance(sinfo, dict):
+                    st = sinfo.get("status")
+                    up = sinfo.get("updated_at") or int(time.time())
+                else:
+                    st = str(sinfo)
+                    up = int(time.time())
+                if st in ("read", "blacklist", "bookmark", "unread"):
+                    cur.execute(
+                        "UPDATE shuku_series SET status = ?, is_new = 0, updated_at = ? WHERE book_id = ?",
+                        (st, up, str(bid))
+                    )
+            if bookmarked_order > 0:
+                cur.execute(
+                    "INSERT OR REPLACE INTO shuku_settings (key, value) VALUES ('bookmarked_order', ?)",
+                    (str(bookmarked_order),)
+                )
+            conn.commit()
+            conn.close()
+        print(f"[sync_user_data_from_json] Đã đồng bộ {len(statuses)} trạng thái và vị trí #{bookmarked_order} từ JSON vào SQLite.")
+    except Exception as e:
+        print(f"[sync_user_data_from_json] Lỗi: {e}")
 
 def get_setting(key: str, default: str = "") -> str:
     conn = get_db_connection()
@@ -930,6 +1006,7 @@ async def api_shuku_update_status(request):
         )
         conn.commit()
         conn.close()
+    dump_user_data_to_json()
     return JSONResponse({"ok": True, "book_id": book_id, "status": new_status})
 
 
@@ -937,6 +1014,7 @@ async def api_shuku_bookmark(request):
     body = await request.json()
     fixed_order = int(body.get("fixed_order", 0) or 0)
     set_setting("bookmarked_order", str(fixed_order))
+    dump_user_data_to_json()
     return JSONResponse({"ok": True, "bookmarked_order": fixed_order})
 
 

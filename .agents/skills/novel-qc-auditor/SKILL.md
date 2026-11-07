@@ -149,3 +149,18 @@ Character & Pronoun Drift is the most frequent and critical translation defect. 
 ### 💡 3. KẾT LUẬN & HÀNH ĐỘNG TIẾP THEO
 - Tóm tắt các điểm cần chốt trước khi lưu vào bản dịch chính.
 ```
+
+---
+
+## ⚡ CƠ CHẾ AUTO-HEALING & APPROVAL (AUTONOMOUS CONTINUOUS QC)
+
+Trong quy trình tự hành liên hoàn (Autonomous Continuous Pipeline):
+1. **Tự Động Vá Lỗi (Self-Healing Minimal Patch):**
+   - Khi phát hiện các lỗi thuộc Nhóm A (lệch đại từ), Nhóm B (lệch xưng hô thoại), Nhóm C (sai tên riêng/thừa lượng từ), hoặc lỗi định dạng dòng trống (`\n`), Auditor **TỰ ĐỘNG ÁP BẢN VÁ TRỰC TIẾP (Minimal Patch)** vào file `translation.md`.
+2. **Tự Động Duyệt (Auto-Approval):**
+   - Sau khi vá lỗi và kiểm tra đạt 100% tiêu chí 1:1, Auditor tự động:
+     - Lưu báo cáo tóm tắt vào `qc_report.md`.
+     - Cập nhật file `meta.json`: `"status": "qc_approved"`, `"qc_approved": true`.
+     - **Không dừng lại chờ người dùng bấm duyệt.** Lập tức bàn giao cho Phase 4 (Lorekeeper).
+3. **Kích hoạt Circuit Breaker:**
+   - Auditor CHỈ dừng lại báo động khi: `abs(len(source) - len(trans)) > 3` hoặc mất mát nội dung nghiêm trọng không thể tự cân chỉnh.

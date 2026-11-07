@@ -10,18 +10,18 @@ description: >-
 # Novel Pipeline Orchestrator Subagent
 
 ## Purpose
-Acts as the central conductor for all novel translation projects in `novel_projects/`. Instead of requiring the user to remember and manually invoke individual subagents, the Orchestrator inspects the current progress of any given chapter, automatically coordinates the 4-Phase Translation Pipeline with Phrase-by-Phrase Scene Pronoun Locking, and seamlessly transitions between workflow stages.
+Acts as the central conductor for all novel translation projects in `novel_projects/`. Instead of requiring the user to remember and manually invoke individual subagents or constantly wait to approve every single batch, the Orchestrator inspects the current progress of any given chapter or batch, automatically coordinates the 4-Phase Translation Pipeline with Phrase-by-Phrase Scene Pronoun Locking, and seamlessly transitions between workflow stages in **Autonomous Continuous Mode (Tự hành liên hoàn)**.
 
 ---
 
-## 🏛️ QUY TRÌNH DỊCH 4-PHASE TIÊU CHUẨN (ÁP DỤNG TOÀN BỘ NOVEL_PROJECTS)
+## 🔄 QUY TRÌNH DỊCH 4-PHASE TIÊU CHUẨN (ÁP DỤNG TOÀN BỘ NOVEL_PROJECTS)
 
 Toàn bộ các bộ truyện thuộc `novel_projects/**` đều được xử lý theo 4 Phase chuẩn hóa nhằm phòng chống triệt để sai lệch đại từ và xưng hô giữa nhân vật chính và phụ:
 
 ```mermaid
 graph TD
     subgraph PHASE 1: PRE-SCAN & SCENE PHRASE MAPPING
-        Raw["source.md (Raw Text)"] --> Sub1["🕵️ Subagent 1: Scene & Speaker Mapper"]
+        Raw["source.md (Raw Text)"] --> Sub1["🔍 Subagent 1: Scene & Speaker Mapper"]
         Sub1 --> QA["qa_clarifications.md\n(Bảng Xưng hô + Thuật ngữ mới)"]
         Sub1 --> SceneMap["phrase_scene_map.json\n(Bản đồ phân cảnh & Khóa xưng hô)"]
     end
@@ -43,7 +43,7 @@ graph TD
     end
 
     subgraph PHASE 4: LOREKEEPER & PUBLISHING
-        CleanTrans --> Sub4["📦 Subagent 4: Lorekeeper & Publisher"]
+        CleanTrans --> Sub4["📚 Subagent 4: Lorekeeper & Publisher"]
         Sub4 --> MemSync["Cập nhật characters.json & timeline.json"]
         Sub4 --> PubReady["meta.json + Format sạch sẵn sàng đăng"]
     end
@@ -51,61 +51,48 @@ graph TD
 
 ---
 
-## 🧭 State Machine & Automatic Routing Decision Table
+## ⚡ STATE MACHINE & AUTONOMOUS PIPELINE
 
-Khi được yêu cầu xử lý một chương (ví dụ `ch_xxx` trong dự án `<slug>`), Orchestrator kiểm tra các file trong `novel_projects/<slug>/chapters/ch_xxx/`:
+### 1. Autonomous Continuous Pipeline (Chế độ Tự Hành Liên Hoàn - Mặc Định)
+Khi người dùng yêu cầu dịch truyện (ví dụ: *"dịch tiếp", "chạy batch", "dịch liên hoàn từ ch_X đến ch_Y", "chạy đi"*):
+- **Không dừng lại chờ duyệt ở từng Phrase hay từng Chapter.**
+- **Phase 1 (Auto Pre-scan):** Tự đối chiếu `memory/` và quy chuẩn `AGENTS.md`. Tự nội suy các nhân vật/thuật ngữ mới phát sinh, ghi nhận vào `qa_clarifications.md` kèm cờ `[AUTO-INFERRED]` và lập tức kích hoạt Phase 2.
+- **Phase 2 (Continuous Translation):** Dịch liên tục toàn bộ các Phrase trong chương, khóa cứng xưng hô theo phân cảnh, ráp nối 1:1, đúng khoảng cách `\n\n`, lưu trực tiếp `translation.md`.
+- **Phase 3 (Auto-QC & Self-Healing):** Chạy 5 lớp kiểm toán, tự động sửa lỗi đại từ trôi hoặc định dạng, lưu `translation.md` sạch và đánh dấu `qc_approved: true` trong `meta.json`.
+- **Phase 4 (Lorekeeper & Auto-Advance):** Cập nhật `timeline.json`, đồng bộ `chapters_index.json` và `TOC.md`.
+- **Chuyển tiếp tự động:** Ngay khi hoàn tất chương hiện tại, Orchestrator tự động nạp chương tiếp theo trong hàng đợi mà không dừng lại chờ bấm Approve!
 
-| Hiện trạng thư mục chương (`ch_xxx`) | Trạng thái | Phase tương ứng | Kỹ năng kích hoạt | Hành động của Orchestrator |
-| :--- | :--- | :--- | :--- | :--- |
-| Thiếu `source.md` hoặc rỗng | `EMPTY_NEEDS_SOURCE` | Phase 0 | *(Không)* | Nhắc người dùng nạp file raw vào `chapters/ch_xxx/source.md`. |
-| Có `source.md`, chưa có `qa_clarifications.md` | `NEEDS_PRESCAN` | **PHASE 1** | **`novel-prescan-extractor`** | 1. Quét raw, tạo Bảng A (xưng hô) & Bảng B (thuật ngữ).<br>2. Phân chia phrase/scene, bóc tách speaker và xuất `phrase_scene_map.json`. |
-| Đã duyệt QA, chưa có `translation.md` | `NEEDS_TRANSLATION` | **PHASE 2** | **`novel-chunk-translator`** | Nạp `phrase_scene_map.json` và quy chuẩn `AGENTS.md`. Dịch tuần tự theo từng Phrase/Scene-Chunk để khóa cứng đại từ, ghép thành bản dịch 1:1 với khoảng cách `\n\n`. |
-| Đã có `translation.md`, chưa có `qc_report.md` | `NEEDS_QC` | **PHASE 3** | **`novel-qc-auditor`** | Áp dụng Bộ quét 5 Lớp (5-Layer Pronoun Filter) đối soát nguyên tác, bắt lỗi trôi đại từ, speaker attribution và tự động áp bản vá (patch). |
-| Đã duyệt QC, chưa cập nhật Memory | `NEEDS_POST_PROCESS` | **PHASE 4** | **`novel-lorekeeper`** & **`novel-publisher-formatter`** | Cập nhật `timeline.json`, đồng bộ `characters.json`, chuẩn hóa typography và xuất `meta.json`. |
-| Đầy đủ tất cả files | `COMPLETED` | Đã xong | **`novel-publisher-formatter`** | Báo cáo chương đã hoàn thiện 100%, sẵn sàng xuất bản WordPress. |
+### 2. Báo cáo tiến độ tinh gọn (Token-Efficient Logging)
+Để giữ context window sạch sẽ và không bị phình to khi chạy liên tục nhiều chương:
+- Mỗi chương hoàn thành chỉ xuất 1 dòng log tóm tắt:
+  ```text
+  ✅ [PASS] ch_036: 145/145 đoạn (1:1) | 0 Pronoun Drift | QC Approved | Memory Synced
+  🚀 [NEXT] Bắt đầu tự hành ch_037...
+  ```
 
----
-
-## 🧩 CHI TIẾT CƠ CHẾ PHRASE-BY-PHRASE SCENE LOCKING
-
-Để loại bỏ hoàn toàn tình trạng trôi đại từ (Pronoun Drift) khi dịch một chương dài:
-1. **Phân chia Phrase/Scene-Chunk:** Mỗi chương được chia thành các Phrase (25 - 40 đoạn) theo phân cảnh tự nhiên.
-2. **Khóa cứng cặp xưng hô (Scene Pronoun Locking):** Mỗi Phrase có một bộ quy tắc xưng hô riêng biệt:
-   - **Niên hạ (Đổi Thụ Arc 3):** Công nhỏ tuổi = `cậu` (xưng tôi/mày, gọi anh); Thụ lớn tuổi = `anh / hắn` (xưng tôi, gọi cậu/em).
-   - **Hiện đại / Đô thị (Thụ Trà Xanh, Showbiz):** Công = `anh`; Thụ = `cậu`.
-   - **Cổ trang / Tiên hiệp (Đại Ma Đầu):** Công = `hắn`; Thụ = `y` *(Tuyệt đối cấm dùng anh - cậu)*.
-   - **Tinh tế / Cường-Cường (Khi Đại Lão):** Công = `anh`; Thụ = `hắn`.
-   - **Phản diện / Trà xanh:** Luôn dùng `gã / tên đó / cậu ta`.
-   - **Nhân vật phụ lớn tuổi:** Luôn dùng `ông / bà / bác`.
-   - **Nhân vật phụ nữ:** Luôn dùng `cô ấy / nàng / thị`.
+### 3. Circuit Breaker (Cầu dao ngắt khẩn cấp duy nhất)
+Agent CHỈ ĐƯỢC PHÉP dừng lại xin ý kiến người dùng khi gặp lỗi nghiêm trọng (Fatal Exception):
+1. **Lệch số đoạn nghiêm trọng:** `abs(len(source) - len(trans)) > 3` sau khi đã thử tự cân chỉnh.
+2. **Nguồn lỗi:** File `source.md` không tồn tại hoặc rỗng 0 bytes.
+3. **Xung đột định danh cốt tử:** Tên nhân vật phản diện trùng 100% với nhân vật chính và không thể xác định chủ thể qua ngữ cảnh.
 
 ---
 
-## 🛠️ Operating Modes
+## 🎮 BẢNG ĐIỀU PHỐI TRẠNG THÁI CHƯƠNG (DECISION TABLE)
 
-### 1. Smart Interactive Mode (Mặc định - Khuyên dùng)
-Orchestrator tự động thực hiện từng bước, nhưng chủ động dừng lại ở **2 trạm kiểm soát then chốt (Checkpoints)**:
-- **Trạm 1:** Dừng sau Phase 1 khi lập xong 2 bảng QA & Phân cảnh để người dùng duyệt xưng hô và thuật ngữ mới.
-- **Trạm 2:** Dừng sau Phase 3 khi lập báo cáo QC để người dùng duyệt các điểm vá xưng hô trước khi ghi vào bộ nhớ dài hạn.
+Khi kiểm tra một thư mục chương (`chapters/ch_xxx/`):
 
-### 2. Fast Batch Mode (Chế độ tự động một chạm)
-Khi người dùng ra lệnh: *"Dịch tự động chương 53 bộ khi-đại-lão từ đầu đến cuối"*:
-- Orchestrator tự động áp dụng các quy chuẩn mặc định từ `AGENTS.md` và `memory/` sẵn có.
-- Tuần tự chạy mượt mà qua cả 4 Phase mà không cần can thiệp thủ công.
-
----
-
-## ⛔ QUY TẮC BẮT BUỘC (UNIVERSAL ZERO GOOGLE API KEY MANDATE)
-- Toàn bộ 4 Phase đều do AI Code Agent tự thân đọc, phân tích, dịch, audit và ghi file trực tiếp trong workspace.
-- Tuyệt đối KHÔNG chạy script ngoài gọi qua `GEMINI_API_KEY` hay `GOOGLE_API_KEY`.�� áp dụng patch tối thiểu ➔ Cập nhật Memory ➔ Trích xuất bản dịch sạch.
+| Hiện trạng thư mục chương (`ch_xxx`) | Trạng thái | Hành động tự hành của Orchestrator |
+| :--- | :--- | :--- |
+| Thiếu `source.md` hoặc rỗng | `EMPTY_NEEDS_SOURCE` | Báo động dừng (Circuit Breaker): Yêu cầu nạp raw text. |
+| Có `source.md`, chưa có `qa_clarifications.md` | `NEEDS_PRESCAN` | **Tự động chạy Phase 1** (Pre-scan) -> Tự nội suy QA và chuyển thẳng sang Phase 2. |
+| Đã có QA, chưa có `translation.md` | `NEEDS_TRANSLATION` | **Tự động chạy Phase 2** (Chunk Translator) -> Dịch 1 mạch toàn bộ phrase sang `translation.md`. |
+| Đã có `translation.md`, chưa có `qc_report.md` | `NEEDS_QC` | **Tự động chạy Phase 3** (QC Auditor) -> 5-Layer Audit, tự patch và set `qc_approved: true`. |
+| Đã duyệt QC, chưa cập nhật Memory | `NEEDS_POST_PROCESS` | **Tự động chạy Phase 4** (Lorekeeper) -> Cập nhật `timeline.json`, `chapters_index.json`, `TOC.md`. |
+| Đã hoàn thiện toàn bộ | `COMPLETED` | Chuyển ngay sang chương tiếp theo trong hàng đợi. |
 
 ---
 
-## How to Invoke the Orchestrator
-
-Người dùng chỉ cần nhắn một câu tự nhiên:
-- `"Orchestrator: tiếp tục xử lý chapter 53 bộ khi-đại-lão-phản-diện..."`
-- `"Orchestrator: kiểm tra tiến độ và chạy tiếp các chương đang dở"`
-- `"Orchestrator: chạy pipeline đầy đủ cho ch_053"`
-
-Orchestrator sẽ tự kiểm tra trạng thái và tự động gọi đúng skill tương ứng mà bạn không cần phải chỉ định thủ công tên từng subagent.
+## ⛔ QUY TẮC TỐI THƯỢNG (UNIVERSAL ZERO GOOGLE API KEY MANDATE)
+- Toàn bộ các Phase dịch thuật, kiểm toán và xử lý văn bản đều do AI Code Agent **tự thân đọc, tư duy và ghi file trực tiếp** in-context.
+- **TUYỆT ĐỐI CẤM** gọi bất kỳ script bên ngoài nào dùng `GEMINI_API_KEY`, `GOOGLE_API_KEY` hoặc các thư viện Google AI.

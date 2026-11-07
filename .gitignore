@@ -47,4 +47,5 @@ data/cache_series/
 # Databases & Cache
 *.db
 *.sqlite3
+!data/shuku_tracker.db
 cache/

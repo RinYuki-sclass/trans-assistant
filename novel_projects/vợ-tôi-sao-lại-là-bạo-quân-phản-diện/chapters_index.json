@@ -5,11 +5,11 @@
   "total_chapters": 89,
   "stats": {
     "pending": 0,
-    "raw_ready": 54,
+    "raw_ready": 42,
     "prescanned": 0,
     "translating": 0,
-    "translated": 0,
-    "qc_approved": 35,
+    "translated": 47,
+    "qc_approved": 41,
     "published": 0
   },
   "arcs": [
@@ -555,13 +555,13 @@
       "sub_index": null,
       "arc_id": 1,
       "arc_name": "Chính Văn",
-      "title_zh": "第36章 心软",
-      "title_vi": "Chương 36",
-      "status": "raw_ready",
+      "title_zh": "第36章",
+      "title_vi": "Chương 36: Mềm lòng",
+      "status": "qc_approved",
       "paragraph_count": 217,
-      "word_count": 0,
+      "word_count": 5977,
       "source_url": "",
-      "updated_at": "2026-11-06T11:13:13.369507"
+      "updated_at": "2026-11-07T16:00:00"
     },
     {
       "id": "ch_037",
@@ -570,13 +570,13 @@
       "sub_index": null,
       "arc_id": 1,
       "arc_name": "Chính Văn",
-      "title_zh": "第37章 真心与真心",
-      "title_vi": "Chương 37",
-      "status": "raw_ready",
+      "title_zh": "第37章",
+      "title_vi": "Chương 37: Chân tâm đổi chân tâm",
+      "status": "qc_approved",
       "paragraph_count": 206,
-      "word_count": 0,
+      "word_count": 6166,
       "source_url": "",
-      "updated_at": "2026-11-06T11:13:13.379107"
+      "updated_at": "2026-11-07T16:05:00"
     },
     {
       "id": "ch_038",
@@ -585,13 +585,13 @@
       "sub_index": null,
       "arc_id": 1,
       "arc_name": "Chính Văn",
-      "title_zh": "第38章 蝰蛇投诚",
-      "title_vi": "Chương 38",
-      "status": "raw_ready",
+      "title_zh": "第38章",
+      "title_vi": "Chương 38: Khuê Xà quy thuận",
+      "status": "qc_approved",
       "paragraph_count": 175,
-      "word_count": 0,
+      "word_count": 5268,
       "source_url": "",
-      "updated_at": "2026-11-06T11:13:13.390700"
+      "updated_at": "2026-11-07T16:10:00"
     },
     {
       "id": "ch_039",
@@ -600,13 +600,13 @@
       "sub_index": null,
       "arc_id": 1,
       "arc_name": "Chính Văn",
-      "title_zh": "第39章 真相与失控",
-      "title_vi": "Chương 39",
-      "status": "raw_ready",
+      "title_zh": "第39章",
+      "title_vi": "Chương 39: Chân tướng và mất khống chế",
+      "status": "qc_approved",
       "paragraph_count": 218,
-      "word_count": 0,
+      "word_count": 7122,
       "source_url": "",
-      "updated_at": "2026-11-06T11:13:13.400700"
+      "updated_at": "2026-11-07T16:15:00"
     },
     {
       "id": "ch_040",
@@ -615,13 +615,13 @@
       "sub_index": null,
       "arc_id": 1,
       "arc_name": "Chính Văn",
-      "title_zh": "第40章 乖孩子",
-      "title_vi": "Chương 40",
-      "status": "raw_ready",
+      "title_zh": "第40章",
+      "title_vi": "Chương 40: Đứa trẻ ngoan",
+      "status": "qc_approved",
       "paragraph_count": 255,
-      "word_count": 0,
+      "word_count": 7359,
       "source_url": "",
-      "updated_at": "2026-11-06T11:13:13.410699"
+      "updated_at": "2026-11-07T16:20:00"
     },
     {
       "id": "ch_041",
@@ -630,13 +630,13 @@
       "sub_index": null,
       "arc_id": 1,
       "arc_name": "Chính Văn",
-      "title_zh": "第41章 认清心意",
-      "title_vi": "Chương 41",
-      "status": "raw_ready",
+      "title_zh": "第41章",
+      "title_vi": "Chương 41: Nhận rõ tâm ý",
+      "status": "qc_approved",
       "paragraph_count": 226,
-      "word_count": 0,
+      "word_count": 5591,
       "source_url": "",
-      "updated_at": "2026-11-06T11:13:13.420216"
+      "updated_at": "2026-11-07T16:25:00"
     },
     {
       "id": "ch_042",
@@ -646,12 +646,12 @@
       "arc_id": 1,
       "arc_name": "Chính Văn",
       "title_zh": "第42章 送戒指",
-      "title_vi": "Chương 42",
-      "status": "raw_ready",
+      "title_vi": "Chương 42: Tặng nhẫn",
+      "status": "qc_approved",
       "paragraph_count": 227,
-      "word_count": 0,
+      "word_count": 3812,
       "source_url": "",
-      "updated_at": "2026-11-06T11:13:13.435217"
+      "updated_at": "2026-11-07T16:36:00"
     },
     {
       "id": "ch_043",
@@ -661,12 +661,12 @@
       "arc_id": 1,
       "arc_name": "Chính Văn",
       "title_zh": "第43章 易感期前兆",
-      "title_vi": "Chương 43",
-      "status": "raw_ready",
+      "title_vi": "Chương 43: Tiền triệu kỳ mẫn cảm",
+      "status": "qc_approved",
       "paragraph_count": 208,
-      "word_count": 0,
+      "word_count": 3752,
       "source_url": "",
-      "updated_at": "2026-11-06T11:13:13.449217"
+      "updated_at": "2026-11-07T16:40:00"
     },
     {
       "id": "ch_044",
@@ -676,12 +676,12 @@
       "arc_id": 1,
       "arc_name": "Chính Văn",
       "title_zh": "第44章 历史洪流改道",
-      "title_vi": "Chương 44",
-      "status": "raw_ready",
+      "title_vi": "Chương 44: Dòng lũ lịch sử đổi dòng",
+      "status": "qc_approved",
       "paragraph_count": 216,
-      "word_count": 0,
+      "word_count": 3958,
       "source_url": "",
-      "updated_at": "2026-11-06T11:13:13.459217"
+      "updated_at": "2026-11-07T16:43:00"
     },
     {
       "id": "ch_045",
@@ -691,12 +691,12 @@
       "arc_id": 1,
       "arc_name": "Chính Văn",
       "title_zh": "第45章 粘人小狗",
-      "title_vi": "Chương 45",
-      "status": "raw_ready",
+      "title_vi": "Chương 45: Cún con dính người",
+      "status": "qc_approved",
       "paragraph_count": 260,
-      "word_count": 0,
+      "word_count": 4458,
       "source_url": "",
-      "updated_at": "2026-11-06T11:13:13.461218"
+      "updated_at": "2026-11-07T16:46:00"
     },
     {
       "id": "ch_046",
@@ -706,12 +706,12 @@
       "arc_id": 1,
       "arc_name": "Chính Văn",
       "title_zh": "第46章 掉马危机",
-      "title_vi": "Chương 46",
-      "status": "raw_ready",
+      "title_vi": "Chương 46: Nguy cơ rớt áo choàng",
+      "status": "qc_approved",
       "paragraph_count": 255,
-      "word_count": 0,
+      "word_count": 4410,
       "source_url": "",
-      "updated_at": "2026-11-06T11:13:13.471217"
+      "updated_at": "2026-11-07T16:49:00"
     },
     {
       "id": "ch_047",
@@ -721,12 +721,12 @@
       "arc_id": 1,
       "arc_name": "Chính Văn",
       "title_zh": "第47章 冲突爆发",
-      "title_vi": "Chương 47",
-      "status": "raw_ready",
+      "title_vi": "Chương 47: Xung đột bùng nổ",
+      "status": "qc_approved",
       "paragraph_count": 191,
-      "word_count": 0,
+      "word_count": 3512,
       "source_url": "",
-      "updated_at": "2026-11-06T11:13:13.481216"
+      "updated_at": "2026-11-07T16:52:00"
     },
     {
       "id": "ch_048",
@@ -1359,5 +1359,5 @@
       "updated_at": "2026-11-06T11:13:13.939178"
     }
   ],
-  "generated_at": "2026-11-06T15:08:51.476317"
+  "generated_at": "2026-11-07T16:13:35.960124"
 }
