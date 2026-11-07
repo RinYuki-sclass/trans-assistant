@@ -302,7 +302,7 @@ Bước vào phòng thí nghiệm, sau khi gặp Thời Bùi Quyết với khuô
 
 Thời Bùi Quyết dạo gần đây bận rộn đến mức chân không chạm đất, sáng nay nhận được thông báo cho nghỉ phép của Yến Vãn Thu mới được ngủ một giấc đàng hoàng.
 
-Anh ta vốn đang nửa tỉnh nửa mê, nghe thấy lời Tạ Trì nói liền lập tức tỉnh như sáo.
+Gã vốn đang nửa tỉnh nửa mê, nghe thấy lời Tạ Trì nói liền lập tức tỉnh như sáo.
 
 Thời Bùi Quyết dùng ánh mắt nhìn quái vật nhìn Tạ Trì cùng với đống vũ khí khủng bố trên tay cậu, suýt nữa nghẹn họng không thở nổi.
 

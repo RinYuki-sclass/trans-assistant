@@ -1,0 +1,22 @@
+{
+  "relationships": [
+    {
+      "source": "tan_muc",
+      "target": "gian_van_tram",
+      "type": "Tình nhân / Song hướng lao tới / Cứu rỗi",
+      "description": "Tần Mục che chở, trêu chọc và thuần hóa chú mèo hoang đầy gai nhọn Giản Vân Trầm; Giản Vân Trầm vừa đề phòng vừa quyến luyến hơi ấm của Tần Mục."
+    },
+    {
+      "source": "gian_van_tram",
+      "target": "khuong_van_han",
+      "type": "Thù địch / Tranh đoạt gia tộc",
+      "description": "Anh em cùng cha khác mẹ trong Khương gia, Giản Vân Trầm bị tước đoạt thân phận và quyết tâm báo thù lật đổ Khương gia."
+    },
+    {
+      "source": "tan_muc",
+      "target": "khuong_van_han",
+      "type": "Pháo hôi nguyên tác -> Cắt đứt quan hệ",
+      "description": "Tần Mục nguyên thân từng si tình mù quáng bám theo Khương Vân Hàn, nhưng Tần Mục sau khi xuyên thư đã hoàn toàn xem Khương Vân Hàn như kẻ xa lạ."
+    }
+  ]
+}

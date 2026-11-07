@@ -304,7 +304,7 @@ Cậu vừa mở miệng, trong miệng toàn là máu tươi của Quý Cừu, 
 
 “Vợ ơi, đừng đối xử với em như vậy.”
 
-Đừng dùng chính bản thân anh để trừng phạt cậu.
+Đừng dùng chính bản thân hắn để trừng phạt cậu.
 
 Yến Vãn Thu thấy Tạ Trì như vậy liền biết đối phương đã thực sự ghi tạc vào lòng, lúc này mới buông tay ra.
 

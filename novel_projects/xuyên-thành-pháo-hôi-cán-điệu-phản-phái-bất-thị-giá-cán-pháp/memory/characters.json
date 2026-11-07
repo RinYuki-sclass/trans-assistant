@@ -1,0 +1,48 @@
+{
+  "characters": [
+    {
+      "id": "tan_muc",
+      "name_cn": "秦穆",
+      "name_hv": "Tần Mục",
+      "role": "Công chính (Chủ công)",
+      "archetype": "Giả hoàn khố chân phong lưu phong phê công, đại phản diện kiếp trước xuyên thư",
+      "narrative_pronoun": "hắn",
+      "dialogue_pronoun_self": "tôi / anh / ta",
+      "dialogue_pronoun_target": "cậu / em / Giản Vân Trầm / nhóc con",
+      "description": "Ở thế giới nguyên bản kiếp trước là đại phản diện từng ép thế giới tái khởi động nhiều lần. Xuyên thư thành pháo hôi si tình, bề ngoài phóng đãng bất cần nhưng thực chất trí tuệ siêu việt, nội tâm cuồng dã, chọn 'cán điệu phản diện' theo cách thức độc nhất vô nhị."
+    },
+    {
+      "id": "gian_van_tram",
+      "name_cn": "简云沉",
+      "name_hv": "Giản Vân Trầm",
+      "role": "Thụ chính",
+      "archetype": "Cố chấp âm uất mỹ cường thảm thụ, phản diện nguyên tác",
+      "narrative_pronoun": "cậu",
+      "dialogue_pronoun_self": "tôi / em",
+      "dialogue_pronoun_target": "anh / Tần Mục / Tần thiếu",
+      "description": "Đứa con riêng không được thừa nhận của Khương gia, chịu nhiều bất công và chèn ép, nuôi chí trả thù và đoạt lại tất cả. Ban đầu căm ghét Tần Mục coi mình là thế thân nhưng dần chìm đắm trong sự bảo bọc và chiếm hữu của hắn."
+    },
+    {
+      "id": "khuong_van_han",
+      "name_cn": "姜云寒",
+      "name_hv": "Khương Vân Hàn",
+      "role": "Nam chính nguyên tác / Anh em cùng cha khác mẹ",
+      "archetype": "Thiếu gia danh chính ngôn thuận của Khương gia",
+      "narrative_pronoun": "anh ta / gã",
+      "dialogue_pronoun_self": "tôi",
+      "dialogue_pronoun_target": "cậu / Tần Mục / Giản Vân Trầm",
+      "description": "Con trai hợp pháp của Khương gia, đối tượng mà nguyên thân Tần Mục từng si mê theo kịch bản nguyên tác, đối thủ tranh quyền của Giản Vân Trầm."
+    },
+    {
+      "id": "he_thong",
+      "name_cn": "系统",
+      "name_hv": "Hệ Thống",
+      "role": "Hệ thống phụ trợ",
+      "archetype": "Hệ thống nhiệm vụ xuyên thư",
+      "narrative_pronoun": "hệ thống / nó",
+      "dialogue_pronoun_self": "bản hệ thống / tôi",
+      "dialogue_pronoun_target": "ký chủ",
+      "description": "Trói định với Tần Mục, ban đầu áp đặt quy tắc nhiệm vụ và đe dọa xóa sổ linh hồn, về sau kinh ngạc bất lực trước cách 'cán điệu' phản diện của Tần Mục."
+    }
+  ]
+}

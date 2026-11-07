@@ -29,15 +29,15 @@
 
 > 🚨 **QUY TẮC BẮT BUỘC KHÔNG THAY ĐỔI:**  
 > - **Tạ Trì (Công niên hạ) = `cậu`** (hoặc gọi tên *Tạ Trì*).  
-> - **Yến Vãn Thu (Thụ bạo quân) = `anh`** (hoặc chức vị: *Yến Vãn Thu*, *Bạo quân*, *Điện hạ*, *Bệ hạ*).  
-> Tuyệt đối không đảo ngược và không dùng lẫn lộn giữa `cậu` và `anh`.
+> - **Yến Vãn Thu (Thụ bạo quân) = `hắn`** (hoặc chức vị: *Yến Vãn Thu*, *Bạo quân*, *Điện hạ*, *Bệ hạ*).  
+> Tuyệt đối không đảo ngược và không dùng lẫn lộn giữa `cậu` và `hắn`.
 
 | Tên nhân vật | Tên gốc | Đại từ ngôi 3 (Kể chuyện) | Vai trò & Đặc điểm |
 | :--- | :--- | :--- | :--- |
-| **Tạ Trì** | 谢迟 | **cậu** *(CẤM dùng "anh" làm ngôi 3)* | **Công chính (Chủ công)**: Sát thủ Dark Web từ Tinh lịch 3000 mang theo vũ khí công nghệ cao xuyên về 3000 năm trước làm ám vệ. Tay tàn nhẫn dứt khoát, tâm tư ngây thơ (điện ba hệ), thẳng nam tự bẻ cong, mê vợ cuồng nhiệt, kiếm tiền nuôi vợ. |
-| **Yến Vãn Thu** | 晏晚秋 | **anh** *(CẤM dùng "cậu" làm ngôi 3)* | **Thụ chính / Bạo quân**: S-grade Alpha, bạo quân phản diện trong sử sách. Do bị người thân đầu độc dẫn đến rối loạn tin tức tố, âm u đa nghi, khát máu hung tàn. Sau một đêm trúng thuốc lại mang thai với Tạ Trì, dần bị sự chân thành của cậu sưởi ấm. |
-| **Yến Bạch Nguyệt** | 晏白月 | **hắn / gã** | **Tam hoàng tử Omega**: Ngụy quân tử, tâm cơ trà xanh, kẻ thù chính trị của Yến Vãn Thu. Bị Tạ Trì chém đầu lập công. |
-| **Yến Triêu Khải** | 晏朝铠 | **hắn / gã** | **Đại hoàng tử**: Kẻ hạ độc Yến Vãn Thu, câu kết ngoại bang, sau bị tiêu diệt. |
+| **Tạ Trì** | 谢迟 | **cậu** *(CẤM dùng "hắn" làm ngôi 3)* | **Công chính (Chủ công)**: Sát thủ Dark Web từ Tinh lịch 3000 mang theo vũ khí công nghệ cao xuyên về 3000 năm trước làm ám vệ. Tay tàn nhẫn dứt khoát, tâm tư ngây thơ (điện ba hệ), thẳng nam tự bẻ cong, mê vợ cuồng nhiệt, kiếm tiền nuôi vợ. |
+| **Yến Vãn Thu** | 晏晚秋 | **hắn** *(CẤM dùng "cậu" hoặc "anh" làm ngôi 3)* | **Thụ chính / Bạo quân**: S-grade Alpha, bạo quân phản diện trong sử sách. Do bị người thân đầu độc dẫn đến rối loạn tin tức tố, âm u đa nghi, khát máu hung tàn. Sau một đêm trúng thuốc lại mang thai với Tạ Trì, dần bị sự chân thành của cậu sưởi ấm. |
+| **Yến Bạch Nguyệt** | 晏白月 | **gã / y** | **Tam hoàng tử Omega**: Ngụy quân tử, tâm cơ trà xanh, kẻ thù chính trị của Yến Vãn Thu. Bị Tạ Trì chém đầu lập công. |
+| **Yến Triêu Khải** | 晏朝铠 | **gã / y** | **Đại hoàng tử**: Kẻ hạ độc Yến Vãn Thu, câu kết ngoại bang, sau bị tiêu diệt. |
 | **Thuộc hạ Bạo Tuyết Thành** | 守卫 / 亲信 | **họ / gã** | Binh sĩ, cận vệ theo chân Yến Vãn Thu tại biên cảnh Bắc Vực. |
 
 ---
@@ -67,7 +67,7 @@
    - Được thể hiện đầy đủ khẩu khí, cá tính nhân vật (hài hước, ngơ ngác kiểu điện ba hệ của Tạ Trì; âm trầm uy nghiêm của Yến Vãn Thu).
    - Có thể dùng đại từ khẩu ngữ linh hoạt theo cảm xúc.
 2. **Trần thuật / Độc thoại nội tâm không ngoặc kép:**
-   - Bắt buộc tuân thủ ngôi thứ ba nghiêm ngặt: Tạ Trì = **“cậu”**, Yến Vãn Thu = **“anh”**.
+   - Bắt buộc tuân thủ ngôi thứ ba nghiêm ngặt: Tạ Trì = **“cậu”**, Yến Vãn Thu = **“hắn”**.
    - **TUYỆT ĐỐI CẤM** đem đại từ đối thoại (`mày`, `tao`, `tôi`) vào làm chủ ngữ câu trần thuật hoặc suy nghĩ ngôi 3 (tránh lỗi "đá ngôi").
 
 ---
@@ -97,6 +97,7 @@
 - [ ] **Dialogue Quotes:** Toàn bộ thoại dùng ngoặc kép cong `“...”`.
 - [ ] **Pronoun Check:**
   - Tạ Trì trong văn kể luôn là **cậu**.
-  - Yến Vãn Thu trong văn kể luôn là **anh**.
+  - Yến Vãn Thu trong văn kể luôn là **hắn**.
+  - Phản diện / nhân vật phụ dùng **gã**, **y** hoặc đích danh (tránh nhầm với "hắn").
   - Không có hiện tượng đá ngôi trần thuật.
 - [ ] **Văn phong:** Giữ trọn nét hài hước, sắc sảo, dứt khoát nhưng ngập tràn sủng ái của niên hạ sát thủ và sự kiêu ngạo, âm chí nhưng mềm lòng của bạo quân.

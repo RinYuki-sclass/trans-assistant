@@ -274,7 +274,7 @@ Thời Bùi Quyết: “...”
 
 Ai có thể lôi cái tên cuồng yêu đương này đi giùm cái được không.
 
-May mà Tạ Trì vẫn nhớ mình còn có nhiệm vụ trên người, không nán lại quá lâu, khoe khoang nhẫn đơn giản một chút, lại còn cố tình dùng bàn tay đeo nhẫn vẫy vẫy chào anh ta một cách vô cùng lộ liễu, sau đó mới lại vội vã rời đi, tới tiếp ứng khoáng sản của Băng Xuyên Thành chuyển tới.
+May mà Tạ Trì vẫn nhớ mình còn có nhiệm vụ trên người, không nán lại quá lâu, khoe khoang nhẫn đơn giản một chút, lại còn cố tình dùng bàn tay đeo nhẫn vẫy vẫy chào gã một cách vô cùng lộ liễu, sau đó mới lại vội vã rời đi, tới tiếp ứng khoáng sản của Băng Xuyên Thành chuyển tới.
 
 Thời Bùi Quyết nhìn bóng lưng Tạ Trì khuất xa, thở phào nhẹ nhõm một hơi dài.
 

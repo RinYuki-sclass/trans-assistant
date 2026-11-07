@@ -280,7 +280,7 @@ Mọi người cũng lục tục bước theo lên.
 
 Ngải tiên sinh với tư cách là nhà đầu tư chính của quặng nhiệt năng, tự nhiên phải tham gia vào, Rắn Chuông đã thu liễm hơn nhiều đứng ở vị trí dưới Ngải tiên sinh.
 
-Thời Bùi Quyết mang đôi mắt thâm quầng như gấu trúc, đứng đực tại chỗ như một bóng ma, dường như giây tiếp theo là linh hồn sẽ xuất khiếu bay mất, Nhiếp Hoài Nghĩa lo lắng vội đỡ anh ta một tay, Andre và Wood thì đứng cùng nhau...
+Thời Bùi Quyết mang đôi mắt thâm quầng như gấu trúc, đứng đực tại chỗ như một bóng ma, dường như giây tiếp theo là linh hồn sẽ xuất khiếu bay mất, Nhiếp Hoài Nghĩa lo lắng vội đỡ gã một tay, Andre và Wood thì đứng cùng nhau...
 
 Yến Vãn Thu đứng ở vị trí chính giữa, Tạ Trì đứng ở vị trí kế bên.
 

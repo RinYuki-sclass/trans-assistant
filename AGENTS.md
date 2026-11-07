@@ -34,14 +34,23 @@ Tài liệu này xác định các quy tắc cốt lõi áp dụng cho AI Code A
 3. **Bảo toàn 100% nguyên tác (1:1 Paragraph Alignment):**
    - Số đoạn văn tiếng Việt phải khớp chính xác 1:1 với số đoạn văn gốc. Không tự gộp hoặc chẻ đoạn.
 
-4. **Quản lý Đại từ & Nhân vật (Pronoun Binding):**
+4. **Nguyên tắc Tự Hành Liên Hoàn - Cấm Bẫy Dừng Hội Thoại (Zero Conversational Pause):**
+   - Khi chạy chế độ tự hành (auto pilot / continuous batch), Agent tuyệt đối **không tự tạo điểm dừng** giữa các chương bằng các câu chat như *"Bạn chỉ cần nhắn 'tiếp tục' hoặc 'dịch tiếp'..."* hay *"Kế hoạch batch tiếp theo... hãy nhắn để tiếp tục"*.
+   - Agent phải chủ động gọi tool nạp chương kế tiếp và thực thi tiếp tục không gián đoạn cho đến khi hoàn thành toàn bộ batch được giao hoặc gặp Circuit Breaker.
+
+5. **Quản lý Đại từ & Nhân vật (Pronoun Binding):**
    - Tuân thủ nghiêm ngặt ma trận đại từ của từng dự án trong `novel_projects/<slug>/AGENTS.md` và `.agents/rules/novel_pronoun_conventions.md`.
 
-5. **Phân định tuyệt đối giữa Lời thoại trực tiếp vs Trần thuật / Độc thoại nội tâm:**
+6. **Phân định tuyệt đối giữa Lời thoại trực tiếp vs Trần thuật / Độc thoại nội tâm:**
    - **Lời thoại trực tiếp trong ngoặc kép `“...”`:** Tuân thủ ngữ cảnh cảm xúc của nhân vật (khi phẫn nộ, chửi bới có thể dùng `“mày - tao”`, `“ngươi - ta”` theo quy chuẩn từng dự án).
    - **Trần thuật / Độc thoại nội tâm không ngoặc kép:** **TUYỆT ĐỐI CẤM** đem đại từ đối thoại ngôi 2/ngôi 1 (`mày`, `tao`) vào câu trần thuật hoặc suy nghĩ nội tâm ngôi 3, tránh gây hiện tượng "đá ngôi" phi logic.
    - *Ví dụ sai:* `Mày dựa vào cái thớ gì mà dám ghét cậu chứ!` (lẫn lộn `mày` ngôi 2 và `cậu` ngôi 3).
    - *Ví dụ đúng chuẩn ngôi 3:* `Hắn dựa vào cái thớ gì mà dám ghét cậu chứ!`
 
-6. **Định dạng thoại Manhwa:**
+7. **Định dạng thoại Manhwa:**
    - Tuân thủ cấu trúc `[Người nói/narrator]` kèm KR: và câu dịch VI theo đúng [.agents/rules/manhwa_translation.md](file:///d:/Nhung/RIDI/trans-assistant/.agents/rules/manhwa_translation.md).
+
+8. **Kiến Trúc Subagent Song Song (Parallel Subagent Architecture):**
+   - Khi chạy batch lớn, Orchestrator được phân luồng cho nhiều Worker Subagent (`self`) chạy song song độc lập từng chương (Phase 1-3).
+   - Worker chỉ ghi vào thư mục riêng của chương (`chapters/ch_xxx/`), cấm ghi file dùng chung để chống Race Condition.
+   - Main Orchestrator gom kết quả và đồng bộ hóa Phase 4 (`timeline.json`, `chapters_index.json`, `TOC.md`), sau đó tự động nạp đợt worker kế tiếp.

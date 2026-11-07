@@ -1,0 +1,57 @@
+[
+  {
+    "name": "Ruan Yuanbai",
+    "hanviet_name": "Nguyễn Nguyên Bạch",
+    "original_name": "阮沅白",
+    "gender": "Nam",
+    "role": "Công chính (Khai lãng thoát tuyến cún con công, mỹ công, manh công)",
+    "narration_pronoun": "cậu / chú cún",
+    "honorifics": "Xưng 'tôi / em', gọi Tịch Ninh Dụ là 'anh / Tịch Ninh Dụ / Tịch tổng'",
+    "speech_style": "Hoạt bát, tưng tửng, ngây thơ, dũng cảm, hay làm nũng và có suy nghĩ sa điêu hài hước",
+    "notes": "Xuyên vào tiểu thuyết cổ tảo biến thành cún con của Tịch Ninh Dụ, trói định hệ thống cải tạo nhân vật để giữ mạng, sau này hóa hình thành người mỹ mạo."
+  },
+  {
+    "name": "Xi Ningyu",
+    "hanviet_name": "Tịch Ninh Dụ",
+    "original_name": "席宁裕",
+    "gender": "Nam",
+    "role": "Thụ chính (Cuồng dã phong phê phản diện đại lão thụ, soái thụ, cường thụ)",
+    "narration_pronoun": "hắn",
+    "honorifics": "Xưng 'ta / tôi / anh', gọi Nguyễn Nguyên Bạch là 'cậu / em / Tiểu Bạch / nhóc con'",
+    "speech_style": "Lạnh lùng, quyết đoán, nói ít làm nhiều, bề ngoài hung tàn nhưng bên trong bị cún con làm tan chảy, cuồng nhiệt yêu chiều",
+    "notes": "Đại lão phản diện khét tiếng hắc bạch thông ăn trong nguyên tác, từng bước bị cún con thuần hóa thành kẻ cuồng cưng chiều người yêu."
+  },
+  {
+    "name": "Guzao Jiaose Gaizao Xitong",
+    "hanviet_name": "Hệ Thống Cải Tạo Nhân Vật Cổ Tảo",
+    "original_name": "古早角色改造系统",
+    "gender": "Vô tính",
+    "role": "Hệ thống hỗ trợ",
+    "narration_pronoun": "nó / hệ thống",
+    "honorifics": "Xưng 'bản hệ thống / tôi', gọi Nguyễn Nguyên Bạch là 'ký chủ'",
+    "speech_style": "Cơ giới, chuẩn xác, đôi khi bất lực trước những pha xử lý sa điêu của ký chủ",
+    "notes": "Trao thưởng điểm yêu thích khi cún con cải tạo thành công hành vi của các nhân vật cẩu huyết."
+  },
+  {
+    "name": "Xi Yanting",
+    "hanviet_name": "Tịch Ngạn Đình",
+    "original_name": "席彦霆",
+    "gender": "Nam",
+    "role": "Nhân vật phụ (Gia tộc họ Tịch)",
+    "narration_pronoun": "anh ta / gã",
+    "honorifics": "Xưng 'tôi', gọi Tịch Ninh Dụ theo bối phận",
+    "speech_style": "Thực dụng, mưu mô trong cuộc chiến gia tộc",
+    "notes": "Thành viên gia tộc họ Tịch liên quan đến các xung đột trong hào môn."
+  },
+  {
+    "name": "Chen Yu",
+    "hanviet_name": "Trần Ngọc",
+    "original_name": "陈钰",
+    "gender": "Nam",
+    "role": "Nhân vật phụ",
+    "narration_pronoun": "cậu ta / anh ta",
+    "honorifics": "Lịch thiệp theo ngữ cảnh",
+    "speech_style": "Bình thường",
+    "notes": "Người quen / đối tác xuất hiện trong cốt truyện nguyên tác."
+  }
+]

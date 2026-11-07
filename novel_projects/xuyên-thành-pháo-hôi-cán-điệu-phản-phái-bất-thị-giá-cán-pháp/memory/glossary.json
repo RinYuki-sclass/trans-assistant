@@ -1,0 +1,64 @@
+{
+  "terms": [
+    {
+      "cn": "穿书",
+      "vi": "xuyên thư",
+      "category": "genre"
+    },
+    {
+      "cn": "炮灰",
+      "vi": "pháo hôi",
+      "category": "trope"
+    },
+    {
+      "cn": "反派",
+      "vi": "phản diện",
+      "category": "trope"
+    },
+    {
+      "cn": "主攻",
+      "vi": "chủ công",
+      "category": "genre"
+    },
+    {
+      "cn": "强强",
+      "vi": "song cường",
+      "category": "genre"
+    },
+    {
+      "cn": "救赎",
+      "vi": "cứu rỗi",
+      "category": "genre"
+    },
+    {
+      "cn": "疯批",
+      "vi": "điên phê / kẻ điên cuồng",
+      "category": "personality"
+    },
+    {
+      "cn": "纨绔",
+      "vi": "hoàn khố / công tử ăn chơi",
+      "category": "personality"
+    },
+    {
+      "cn": "私生子",
+      "vi": "con riêng / con ngoài giá thú",
+      "category": "social"
+    },
+    {
+      "cn": "姜家",
+      "vi": "Khương gia",
+      "category": "organization"
+    },
+    {
+      "cn": "秦家",
+      "vi": "Tần gia",
+      "category": "organization"
+    },
+    {
+      "cn": "干掉反派",
+      "vi": "cán điệu phản diện / xử đẹp phản diện",
+      "category": "phrase"
+    }
+  ]
+}
