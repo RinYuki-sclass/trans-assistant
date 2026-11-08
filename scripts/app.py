@@ -3204,7 +3204,7 @@ if tabs.is_active(9):
     def na_load_json(path: str, default=None):
         if os.path.exists(path):
             try:
-                with open(path, 'r', encoding='utf-8') as f:
+                with open(path, 'r', encoding='utf-8-sig') as f:
                     return json.load(f)
             except Exception:
                 pass
@@ -3303,48 +3303,72 @@ if tabs.is_active(9):
         # Characters normalization
         chars_raw = na_load_json(os.path.join(mem_dir, 'characters.json'), [])
         if isinstance(chars_raw, dict):
-            chars_norm = []
-            for k, v in chars_raw.items():
-                if isinstance(v, dict):
-                    item = dict(v)
+            if 'characters' in chars_raw and isinstance(chars_raw['characters'], list):
+                chars_raw = chars_raw['characters']
+            else:
+                chars_norm = []
+                for k, v in chars_raw.items():
+                    if isinstance(v, dict):
+                        item = dict(v)
+                        if 'name' not in item:
+                            item['name'] = str(k)
+                        chars_norm.append(item)
+                    else:
+                        chars_norm.append({'name': str(k), 'notes': str(v)})
+                chars_raw = chars_norm
+
+        if isinstance(chars_raw, list):
+            norm_chars = []
+            for c in chars_raw:
+                if isinstance(c, dict):
+                    item = dict(c)
                     if 'name' not in item:
-                        item['name'] = str(k)
-                    chars_norm.append(item)
+                        item['name'] = item.get('name_hv') or item.get('name_vi') or item.get('name_cn') or item.get('id', '')
+                    norm_chars.append(item)
                 else:
-                    chars_norm.append({'name': str(k), 'notes': str(v)})
-            chars_raw = chars_norm
-        elif isinstance(chars_raw, list):
-            chars_raw = [c if isinstance(c, dict) else {'name': str(c)} for c in chars_raw]
+                    norm_chars.append({'name': str(c)})
+            chars_raw = norm_chars
         else:
             chars_raw = []
 
         # Glossary normalization
         gl_raw = na_load_json(os.path.join(mem_dir, 'glossary.json'), [])
         if isinstance(gl_raw, dict):
-            gl_norm = []
-            for k, v in gl_raw.items():
-                if isinstance(v, dict):
-                    item = dict(v)
-                    if 'original' not in item:
-                        item['original'] = str(k)
-                    gl_norm.append(item)
-                else:
-                    gl_norm.append({
-                        'original': str(k),
-                        'translation': str(v),
-                        'hanviet': '',
-                        'category': 'Thuật ngữ',
-                        'confidence': 1.0,
-                        'approved': True,
-                        'chapter_first_seen': '',
-                        'notes': ''
-                    })
-            gl_raw = gl_norm
-        elif isinstance(gl_raw, list):
+            if 'glossary' in gl_raw and isinstance(gl_raw['glossary'], list):
+                gl_raw = gl_raw['glossary']
+            elif 'terms' in gl_raw and isinstance(gl_raw['terms'], list):
+                gl_raw = gl_raw['terms']
+            else:
+                gl_norm = []
+                for k, v in gl_raw.items():
+                    if isinstance(v, dict):
+                        item = dict(v)
+                        if 'original' not in item:
+                            item['original'] = str(k)
+                        gl_norm.append(item)
+                    else:
+                        gl_norm.append({
+                            'original': str(k),
+                            'translation': str(v),
+                            'hanviet': '',
+                            'category': 'Thuật ngữ',
+                            'confidence': 1.0,
+                            'approved': True,
+                            'chapter_first_seen': '',
+                            'notes': ''
+                        })
+                gl_raw = gl_norm
+
+        if isinstance(gl_raw, list):
             gl_norm = []
             for item in gl_raw:
                 if isinstance(item, dict):
-                    gl_norm.append(item)
+                    norm_item = dict(item)
+                    if 'original' not in norm_item:
+                        norm_item['original'] = norm_item.get('cn') or norm_item.get('kr') or norm_item.get('en', '')
+                    if 'translation' not in norm_item:
+                        norm_item['translation'] = norm_item.get('vi', '')
+                    gl_norm.append(norm_item)
                 elif isinstance(item, str):
                     gl_norm.append({
                         'original': item,
@@ -3363,22 +3387,29 @@ if tabs.is_active(9):
         # Timeline normalization
         tl_raw = na_load_json(os.path.join(mem_dir, 'timeline.json'), [])
         if isinstance(tl_raw, dict):
-            tl_norm = []
-            for k, v in tl_raw.items():
-                if isinstance(v, dict):
-                    for sub_k, sub_v in v.items():
-                        tl_norm.append({'chapter_id': str(sub_k), 'event': str(sub_v)})
-                else:
-                    tl_norm.append({'chapter_id': str(k), 'event': str(v)})
-            tl_raw = tl_norm
-        elif isinstance(tl_raw, list):
+            if 'timeline' in tl_raw and isinstance(tl_raw['timeline'], list):
+                tl_raw = tl_raw['timeline']
+            elif 'events' in tl_raw and isinstance(tl_raw['events'], list):
+                tl_raw = tl_raw['events']
+            else:
+                tl_norm = []
+                for k, v in tl_raw.items():
+                    if isinstance(v, dict):
+                        for sub_k, sub_v in v.items():
+                            tl_norm.append({'chapter_id': str(sub_k), 'event': str(sub_v)})
+                    else:
+                        tl_norm.append({'chapter_id': str(k), 'event': str(v)})
+                tl_raw = tl_norm
+
+        if isinstance(tl_raw, list):
             tl_norm = []
             for t in tl_raw:
                 if isinstance(t, dict):
-                    ev = t.get('event') or t.get('events') or ''
+                    ev = t.get('event') or t.get('events') or t.get('description') or t.get('title') or ''
                     if isinstance(ev, list):
                         ev = '; '.join(str(x) for x in ev)
-                    tl_norm.append({'chapter_id': t.get('chapter_id', ''), 'event': str(ev)})
+                    ch_id = t.get('chapter_id') or t.get('chapter') or ''
+                    tl_norm.append({'chapter_id': str(ch_id), 'event': str(ev)})
                 else:
                     tl_norm.append({'chapter_id': '', 'event': str(t)})
             tl_raw = tl_norm
@@ -3388,23 +3419,39 @@ if tabs.is_active(9):
         # Relationships normalization
         rel_raw = na_load_json(os.path.join(mem_dir, 'relationships.json'), [])
         if isinstance(rel_raw, dict):
-            rel_norm = []
-            for k, v in rel_raw.items():
-                parts = str(k).split(' - ') if ' - ' in str(k) else str(k).split('-')
-                char_a = parts[0].strip() if len(parts) > 0 else str(k)
-                char_b = parts[1].strip() if len(parts) > 1 else ''
-                rel_norm.append({
-                    'Nhân vật A': char_a,
-                    'Quan hệ': str(v) if isinstance(v, str) else v.get('Quan hệ', ''),
-                    'Nhân vật B': char_b,
-                    'Ghi chú': '' if isinstance(v, str) else v.get('Ghi chú', '')
-                })
-            rel_raw = rel_norm
-        elif isinstance(rel_raw, list):
+            if 'relationships' in rel_raw and isinstance(rel_raw['relationships'], list):
+                rel_raw = rel_raw['relationships']
+            else:
+                rel_norm = []
+                for k, v in rel_raw.items():
+                    parts = str(k).split(' - ') if ' - ' in str(k) else str(k).split('-')
+                    char_a = parts[0].strip() if len(parts) > 0 else str(k)
+                    char_b = parts[1].strip() if len(parts) > 1 else ''
+                    qhe = str(v) if isinstance(v, (str, int, float)) else (v.get('Quan hệ', '') if isinstance(v, dict) else str(v))
+                    gchu = '' if isinstance(v, (str, int, float)) else (v.get('Ghi chú', '') if isinstance(v, dict) else '')
+                    rel_norm.append({
+                        'Nhân vật A': char_a,
+                        'Quan hệ': qhe,
+                        'Nhân vật B': char_b,
+                        'Ghi chú': gchu
+                    })
+                rel_raw = rel_norm
+
+        if isinstance(rel_raw, list):
             rel_norm = []
             for r in rel_raw:
                 if isinstance(r, dict):
-                    rel_norm.append(r)
+                    if 'Nhân vật A' in r or 'char_a' in r:
+                        rel_norm.append(r)
+                    elif 'source' in r or 'target' in r:
+                        rel_norm.append({
+                            'Nhân vật A': r.get('source', ''),
+                            'Quan hệ': r.get('type') or r.get('relationship', ''),
+                            'Nhân vật B': r.get('target', ''),
+                            'Ghi chú': r.get('description') or r.get('notes', '')
+                        })
+                    else:
+                        rel_norm.append(r)
                 elif isinstance(r, (list, tuple)) and len(r) >= 2:
                     rel_norm.append({
                         'Nhân vật A': str(r[0]),
@@ -4036,6 +4083,7 @@ if tabs.is_active(9):
         return {
             'slug': slug,
             'title': cfg.get('title') or slug,
+            'chinese_title': cfg.get('chinese_title') or '',
             'author': author_disp,
             'source_lang': cfg.get('source_lang') or 'Other',
             'target_lang': cfg.get('target_lang') or 'Vietnamese',
@@ -4849,6 +4897,7 @@ if tabs.is_active(11):
                 q_low = search_query.strip().lower()
                 filtered = [p for p in filtered if (
                     q_low in p['title'].lower() or 
+                    q_low in p.get('chinese_title', '').lower() or 
                     q_low in p['author'].lower() or 
                     q_low in p['slug'].lower() or 
                     q_low in p['description'].lower()

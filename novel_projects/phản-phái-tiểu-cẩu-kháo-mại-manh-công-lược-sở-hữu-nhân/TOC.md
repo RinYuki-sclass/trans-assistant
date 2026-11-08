@@ -1,6 +1,6 @@
-﻿# 📖 MỤC LỤC: Phản Phái Tiểu Cẩu Kháo Mại Manh Công Lược Sở Hữu Nhân
-> **Tác giả:** Nhất Vĩ Hồ Li (一尾狐狸) | **Tiến độ:** 36/46 chương (78.3%) | **Cập nhật:** 07/11/2026
-> **Trạng thái:** 🟢 Đã duyệt QC (36) | 🔵 Đã dịch (0) | ⚪ Chưa dịch (10)
+# 📖 MỤC LỤC: Phản Phái Tiểu Cẩu Kháo Mại Manh Công Lược Sở Hữu Nhân
+> **Tác giả:** Nhất Vĩ Hồ Li (一尾狐狸) | **Tiến độ:** 46/46 chương (100% - HOÀN THÀNH TOÀN BỘ DỰ ÁN) | **Cập nhật:** 08/11/2026
+> **Trạng thái:** 🟢 Đã duyệt QC (46) | 🔵 Đã dịch (0) | ⚪ Chưa dịch (0)
 
 ---
 
@@ -44,25 +44,13 @@
 | 34 | `ch_034` | [Chương 34](chapters/ch_034/translation.md) | 第34章 | 76 | 🟢 Đã duyệt QC |
 | 35 | `ch_035` | [Chương 35](chapters/ch_035/translation.md) | 第35章 | 114 | 🟢 Đã duyệt QC |
 | 36 | `ch_036` | [Chương 36](chapters/ch_036/translation.md) | 第36章 | 125 | 🟢 Đã duyệt QC |
-| 37 | `ch_037` | [Chương 37](chapters/ch_037/source.md) | 第37章 | 96 | ⚪ Đã cào raw |
-| 38 | `ch_038` | [Chương 38](chapters/ch_038/source.md) | 第38章 | 81 | ⚪ Đã cào raw |
-| 39 | `ch_039` | [Chương 39](chapters/ch_039/source.md) | 第39章 | 62 | ⚪ Đã cào raw |
-| 40 | `ch_040` | [Chương 40](chapters/ch_040/source.md) | 第40章 | 83 | ⚪ Đã cào raw |
-| 41 | `ch_041` | [Chương 41](chapters/ch_041/source.md) | 第41章 | 74 | ⚪ Đã cào raw |
-| 42 | `ch_042` | [Chương 42](chapters/ch_042/source.md) | 第42章 | 60 | ⚪ Đã cào raw |
-| 43 | `ch_043` | [Chương 43](chapters/ch_043/source.md) | 第43章 | 125 | ⚪ Đã cào raw |
-| 44 | `ch_044` | [Chương 44](chapters/ch_044/source.md) | 第44章 | 132 | ⚪ Đã cào raw |
-| 45 | `ch_045` | [Chương 45](chapters/ch_045/source.md) | 第45章 | 87 | ⚪ Đã cào raw |
-| 46 | `ch_046` | [Chương 46](chapters/ch_046/source.md) | 第46章 | 150 | ⚪ Đã cào raw |
-
-
-
-
-
-
-
-
-
-
-
-
+| 37 | `ch_037` | [Chương 37](chapters/ch_037/translation.md) | 第37章 | 96 | 🟢 Đã duyệt QC |
+| 38 | `ch_038` | [Chương 38](chapters/ch_038/translation.md) | 第38章 | 81 | 🟢 Đã duyệt QC |
+| 39 | `ch_039` | [Chương 39](chapters/ch_039/translation.md) | 第39章 | 62 | 🟢 Đã duyệt QC |
+| 40 | `ch_040` | [Chương 40](chapters/ch_040/translation.md) | 第40章 | 83 | 🟢 Đã duyệt QC |
+| 41 | `ch_041` | [Chương 41](chapters/ch_041/translation.md) | 第41章 | 74 | 🟢 Đã duyệt QC |
+| 42 | `ch_042` | [Chương 42](chapters/ch_042/translation.md) | 第42章 | 60 | 🟢 Đã duyệt QC |
+| 43 | `ch_043` | [Chương 43](chapters/ch_043/translation.md) | 第43章 | 125 | 🟢 Đã duyệt QC |
+| 44 | `ch_044` | [Chương 44](chapters/ch_044/translation.md) | 第44章 | 132 | 🟢 Đã duyệt QC |
+| 45 | `ch_045` | [Chương 45](chapters/ch_045/translation.md) | 第45章 | 87 | 🟢 Đã duyệt QC |
+| 46 | `ch_046` | [Chương 46](chapters/ch_046/translation.md) | 第46章 | 150 | 🟢 Đã duyệt QC |
