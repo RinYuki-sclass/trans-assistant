@@ -1,12 +1,14 @@
 [
   {
-    "stage": "Bị ép nhận vai thụ",
-    "description": "Quân Dạ xuyên vào thân phận nhược thụ/bị ức hiếp",
-    "status": "Khởi đầu"
+    "stage": "Arc 3: Tinh tế Hướng Tiêu (Chương 45 -> 57)",
+    "chapter_range": "ch_045 - ch_057",
+    "description": "Quân Dã xuyên vào Hướng dẫn giả ốm yếu Hải Phỉ; thức tỉnh lượng tử thú Hải thỏ; chinh phục Hắc ám lính gác Tu Tư; tổ chức đại hôn Hoàng gia và hoàn tất kết hợp thể xác lẫn tinh thần đỉnh cao; phá vỡ suy nghĩ cấm dục của Tu Tư, khép lại trọn vẹn 13 chương thế giới 3.",
+    "status": "Hoàn tất 100% (13/13 chương đã QC đạt chuẩn)"
   },
   {
-    "stage": "Phản công toàn diện",
-    "description": "Lật ngược thế trận, thu phục các đối tượng cường thế",
-    "status": "Tiến hành"
+    "stage": "Arc 4: Tinh tế ABO (Chương 58 -> 90)",
+    "chapter_range": "ch_058 - ch_090",
+    "description": "Quân Dã tiến vào thế giới ABO trong thân phận Omega; đè bẹp các Alpha kiêu ngạo dưới thân, hoàn tất cuộc đại nghịch tập 33 chương của Arc 4.",
+    "status": "Đã chuẩn bị đầy đủ 33/33 chương raw sạch"
   }
 ]

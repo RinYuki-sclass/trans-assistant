@@ -2,19 +2,67 @@
   {
     "term": "反攻",
     "hanviet": "Phản công",
-    "translation": "Phản công (Lật thế cờ từ thụ thành công)",
+    "translation": "Phản công / Lật ngược thế cờ",
     "category": "Thể loại"
   },
   {
     "term": "伪受",
     "hanviet": "Ngụy thụ",
-    "translation": "Ngụy thụ (Vỏ bọc thụ nhưng thực chất là công)",
+    "translation": "Ngụy thụ (Mang vỏ bọc hoặc thân phận thụ nhưng bản chất là công)",
     "category": "Thiết lập"
   },
   {
     "term": "逆袭",
     "hanviet": "Nghịch tập",
-    "translation": "Nghịch tập / Lội ngược dòng",
+    "translation": "Nghịch tập / Lội ngược dòng vả mặt",
     "category": "Hành động"
+  },
+  {
+    "term": "雄虫",
+    "hanviet": "Hùng trùng",
+    "translation": "Hùng trùng / Trùng đực",
+    "category": "Thế giới 1 - Trùng tộc"
+  },
+  {
+    "term": "雌虫",
+    "hanviet": "Thư trùng",
+    "translation": "Thư trùng / Trùng cái",
+    "category": "Thế giới 1 - Trùng tộc"
+  },
+  {
+    "term": "军雌",
+    "hanviet": "Quân thư",
+    "translation": "Quân thư / Thư trùng quân đội",
+    "category": "Thế giới 1 - Trùng tộc"
+  },
+  {
+    "term": "雄主",
+    "hanviet": "Hùng chủ",
+    "translation": "Hùng chủ",
+    "category": "Thế giới 1 - Trùng tộc"
+  },
+  {
+    "term": "少君",
+    "hanviet": "Thiếu quân",
+    "translation": "Thiếu quân",
+    "category": "Thế giới 1 - Trùng tộc"
+  },
+  {
+    "term": "精神力",
+    "hanviet": "Tinh thần lực",
+    "translation": "Sức mạnh tinh thần / Tinh thần lực",
+    "category": "Thế giới 1 - Trùng tộc"
+  },
+  {
+    "term": "精神海",
+    "hanviet": "Tinh thần hải",
+    "translation": "Biển tinh thần",
+    "category": "Thế giới 1 - Trùng tộc"
+  },
+  {
+    "term": "生蛋",
+    "hanviet": "Sinh đản",
+    "translation": "Sinh trứng / Đẻ trứng",
+    "category": "Thế giới 1 - Trùng tộc"
   }
 ]

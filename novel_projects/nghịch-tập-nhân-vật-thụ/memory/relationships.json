@@ -1,15 +1,28 @@
 [
   {
     "pair": [
-      "Jun Ye",
-      "Original Top Target"
+      "Quân Dã (君也)",
+      "Phi Tu (斐修) / Tu (修)"
     ],
-    "context": "Các thế giới nhiệm vụ",
-    "relation_type": "Nghịch tập phản công: Tổng công cường thế x Cường thụ",
+    "context": "Thế giới 1 (Tinh tế Trùng tộc) & Xuyên suốt toàn văn",
+    "relation_type": "Chủ công tuyệt đối: Tổng công bá đạo x Cường thụ kiêu ngạo bị phản công",
     "narration_pronouns": {
-      "Jun Ye": "hắn",
-      "Original Top Target": "y"
+      "Quân Dã": "hắn",
+      "Phi Tu": "cậu"
     },
-    "status": "Phản khách vi chủ, áp chế đối phương"
+    "status": "Phản khách vi chủ, áp chế và thuần phục đối phương"
+  },
+  {
+    "pair": [
+      "Quân Dã (君也)",
+      "Hệ thống"
+    ],
+    "context": "Không gian hệ thống & nhiệm vụ khoái xuyên",
+    "relation_type": "Ký chủ cường thế x Hệ thống nơm nớp lo sợ",
+    "narration_pronouns": {
+      "Quân Dã": "hắn",
+      "Hệ thống": "nó / Hệ thống"
+    },
+    "status": "Quân Dã hoàn toàn khống chế cục diện, hệ thống không dám phản kháng"
   }
 ]

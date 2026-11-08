@@ -1,26 +1,44 @@
 [
   {
     "Nhân vật A": "Tiêu Hồi (萧回)",
-    "Quan hệ": "Công x Thụ (Đơn nguyên 1)",
+    "Quan hệ": "Công x Thụ (Chủ tớ đảo ngược / Cưỡng chế ái)",
     "Nhân vật B": "Tiết Hoài Cẩn (薛怀瑾)",
-    "Ghi chú": "Vệ sĩ Alpha x Tra Alpha thiếu gia. Tiêu Hồi đè Tiết Hoài Cẩn (tra A mang thai)"
+    "Ghi chú": "Vệ sĩ Alpha x Tra Alpha thiếu gia. Tiêu Hồi trừng phạt tra Alpha, đảo ngược vị thế chủ tớ, đè Tiết Hoài Cẩn đến mang thai."
+  },
+  {
+    "Nhân vật A": "Tiêu Hồi (萧回)",
+    "Quan hệ": "Người yêu cũ (Đã chia tay vì phản bội)",
+    "Nhân vật B": "Tăng Khả (曾可)",
+    "Ghi chú": "Lớn lên cùng nhau ở trại trẻ mồ côi. Tăng Khả tham hư vinh phản bội theo Tiết Hoài Cẩn."
+  },
+  {
+    "Nhân vật A": "Tiết Hoài Cẩn (薛怀瑾)",
+    "Quan hệ": "Tình nhân tạm bợ / Lợi dụng cướp đoạt",
+    "Nhân vật B": "Tăng Khả (曾可)",
+    "Ghi chú": "Tiết Hoài Cẩn ghen tị nên tìm cách cướp Tăng Khả, nhưng sau khi bị Tiêu Hồi đè thì chỉ còn toàn tâm toàn ý với Tiêu Hồi."
+  },
+  {
+    "Nhân vật A": "Tiêu Hồi (萧回)",
+    "Quan hệ": "Ký chủ x Hệ thống hỗ trợ",
+    "Nhân vật B": "Bong Bóng Đại Vương (泡泡大王)",
+    "Ghi chú": "Hệ thống Đè Tra Công đồng hành, giải độc và hỗ trợ nhiệm vụ cho Tiêu Hồi."
   },
   {
     "Nhân vật A": "Tống Thính (宋听)",
     "Quan hệ": "Công x Thụ (Đơn nguyên 2)",
     "Nhân vật B": "Tống Biệt (宋别)",
-    "Ghi chú": "Tàn tật xe lăn công x Điên cuồng nhạy cảm tra công. Tống Thính thuần hóa Tống Biệt"
+    "Ghi chú": "Tàn tật xe lăn công x Điên cuồng nhạy cảm tra công."
   },
   {
     "Nhân vật A": "Thẩm Trầm (沈沉)",
     "Quan hệ": "Công x Thụ (Đơn nguyên 3)",
-    "Nhân vật B": "Tra công hỏa táng tràng",
-    "Ghi chú": "Anh trai sinh đôi của nguyên thụ giả S trừng trị tra công"
+    "Nhân vật B": "Tra công Đơn nguyên 3",
+    "Ghi chú": "Giả S đè tra công, trả thù cho em trai song sinh."
   },
   {
     "Nhân vật A": "Tạ Tranh (谢争)",
     "Quan hệ": "Công x Thụ (Đơn nguyên 4)",
-    "Nhân vật B": "Tử đối đầu Mị ma tra công",
-    "Ghi chú": "Oan gia tử đối đầu x Mị ma tra công thích giật bạn trai của em trai"
+    "Nhân vật B": "Tử đối đầu Mị ma",
+    "Ghi chú": "Oan gia ngõ hẹp, đè kẻ thù truyền kiếp."
   }
 ]

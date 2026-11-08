@@ -1,0 +1,27 @@
+{
+  "chapter_id": "ch_005",
+  "chapter_no": 5,
+  "title": "Chương 5: Tôi muốn đè anh",
+  "title_zh": "第 5 章",
+  "source_paragraphs": 129,
+  "translated_paragraphs": 129,
+  "alignment_ratio": 1.0,
+  "status": "translated",
+  "translated_at": "2026-11-08T23:05:00+07:00",
+  "characters": [
+    "Tiêu Hồi",
+    "Tiết Hoài Cẩn",
+    "Tăng Khả",
+    "Phí Lạc",
+    "Bong Bóng Đại Vương",
+    "Cố Hoài",
+    "Lý Nghĩa"
+  ],
+  "pronoun_binding": {
+    "Tiêu Hồi": "anh (ngôi 3)",
+    "Tiết Hoài Cẩn": "hắn (ngôi 3)",
+    "Tăng Khả": "cậu / y (ngôi 3)",
+    "Phí Lạc": "gã / hắn (ngôi 3)",
+    "Bong Bóng": "nó / hệ thống"
+  }
+}

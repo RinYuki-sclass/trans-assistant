@@ -1,32 +1,49 @@
 [
   {
     "name": "Jun Ye",
-    "hanviet_name": "Quân Dạ",
-    "original_name": "君夜",
+    "hanviet_name": "Quân Dã",
+    "original_name": "君也",
     "gender": "Nam",
-    "role": "Công chính (Chủ công)",
+    "role": "Công chính (Tổng công tối thượng / Ký chủ)",
     "aliases": [
-      "Quân gia",
+      "Quân thiếu tướng",
+      "Ký chủ",
       "đại lão"
     ],
-    "narration_pronoun": "hắn / anh",
-    "honorifics": "với Đối phương: ta - ngươi / tôi - anh; với Hệ thống: ta/tôi - ngươi",
-    "speech_style": "Bá đạo, ngạo nghễ, lãnh khốc, tuyệt đối không chấp nhận ở thế hạ phong",
-    "notes": "Nhân vật chính cường đại, phản công mọi thiết lập nhược thụ"
+    "narration_pronoun": "hắn",
+    "honorifics": "với Phi Tu: tôi - cậu / tôi - em; với Hệ thống: ta/tôi - ngươi/mày",
+    "speech_style": "Bá đạo, trầm ổn, dã tính, lãnh khốc, uy áp tuyệt đối, không chấp nhận ở thế hạ phong",
+    "notes": "Nhân vật chính cường đại, bản tính tổng công, lật ngược mọi thiết lập nhược thụ thành màn phản khách vi chủ"
   },
   {
-    "name": "Original Top Target",
-    "hanviet_name": "Mục Tiêu Phản Công",
-    "original_name": "原攻目标",
+    "name": "Feixiu / Xiu",
+    "hanviet_name": "Phi Tu / Tu",
+    "original_name": "斐修 / 修",
     "gender": "Nam",
-    "role": "Thụ chính (Bị phản công)",
+    "role": "Thụ chính (Hùng trùng tôn quý / Đối tượng bị phản công)",
     "aliases": [
-      "đối tượng công lược",
-      "cường thụ"
+      "Tiểu thiếu gia",
+      "Lâm Sai thiếu gia",
+      "Hùng chủ"
     ],
-    "narration_pronoun": "hắn / y",
-    "honorifics": "với Quân Dạ: ta - ngươi / tôi - anh",
-    "speech_style": "Ban đầu kiêu ngạo tự phụ, về sau cam tâm tình nguyện thần phục",
-    "notes": "Công nguyên tác hoặc nhân vật cường thế bị Quân Dạ áp chế"
+    "narration_pronoun": "cậu",
+    "honorifics": "với Quân Dã: tôi/bản thiếu gia - anh (ban đầu), sau đó em/tôi - anh",
+    "speech_style": "Ban đầu kiêu căng, ngạo mạn, quen thói bề trên; sau khi bị Quân Dã áp chế thì vừa sợ vừa mê đắm, ngoan ngoãn thần phục",
+    "notes": "Hùng trùng tóc vàng mắt biếc dòng dõi đại quý tộc Lindsay, linh hồn đồng hành xuyên suốt các thế giới"
+  },
+  {
+    "name": "System",
+    "hanviet_name": "Hệ Thống",
+    "original_name": "系统",
+    "gender": "Vô tính",
+    "role": "Hệ thống phụ trợ",
+    "aliases": [
+      "Bản hệ thống",
+      "Hệ thống"
+    ],
+    "narration_pronoun": "nó / Hệ thống",
+    "honorifics": "với Quân Dã: bản hệ thống/tôi - Ký chủ/đại lão",
+    "speech_style": "Luôn run sợ trước uy lực và sự bất tuân của Quân Dã",
+    "notes": "Hệ thống khoái xuyên thường xuyên gài bẫy thân phận thụ cho Quân Dã nhưng luôn bị ký chủ đè bẹp"
   }
 ]

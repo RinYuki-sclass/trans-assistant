@@ -1,19 +1,257 @@
 {
   "project_slug": "nghịch-tập-nhân-vật-thụ",
   "title": "Nghịch Tập Nhân Vật Thụ! [Khoái Xuyên]",
-  "author": "七果茶 (Thất Quả Trà / Vị Tri)",
-  "total_chapters": 0,
+  "author": "七果茶 (Thất Quả Trà)",
+  "total_chapters": 46,
   "stats": {
-    "pending": 0,
-    "raw_ready": 0,
-    "prescanned": 0,
-    "translating": 0,
-    "translated": 0,
-    "qc_approved": 0,
-    "published": 0
+    "total": 46,
+    "raw_ready": 33,
+    "translated": 13,
+    "qc_approved": 13
   },
-  "arcs": [],
-  "chapters": [],
-  "generated_at": "2026-10-27T22:48:48.473035",
-  "note": "Chưa có dữ liệu chương trong thư mục chapters/"
+  "arcs": [
+    {
+      "name": "Arc 3: Tinh tế Hướng Tiêu",
+      "range": "ch_045 - ch_057",
+      "chapters_count": 13
+    },
+    {
+      "name": "Arc 4: Tinh tế ABO",
+      "range": "ch_058 - ch_090",
+      "chapters_count": 33
+    }
+  ],
+  "chapters": [
+    {
+      "slug": "ch_045",
+      "title": "第45章 [向哨]向导攻1",
+      "status": "qc_approved"
+    },
+    {
+      "slug": "ch_046",
+      "title": "第46章 [向哨]向导攻2",
+      "status": "qc_approved"
+    },
+    {
+      "slug": "ch_047",
+      "title": "第47章 [向哨]向导攻3",
+      "status": "qc_approved"
+    },
+    {
+      "slug": "ch_048",
+      "title": "第48章 [向哨]向导攻4",
+      "status": "qc_approved"
+    },
+    {
+      "slug": "ch_049",
+      "title": "第49章 [向哨]向导攻5（修）",
+      "status": "qc_approved"
+    },
+    {
+      "slug": "ch_050",
+      "title": "第50章 [向哨]向导攻6",
+      "status": "qc_approved"
+    },
+    {
+      "slug": "ch_051",
+      "title": "第51章 [向哨]向导攻7",
+      "status": "qc_approved"
+    },
+    {
+      "slug": "ch_052",
+      "title": "第52章 [向哨]向导攻8",
+      "status": "qc_approved"
+    },
+    {
+      "slug": "ch_053",
+      "title": "第53章 [向哨]向导攻9",
+      "status": "qc_approved"
+    },
+    {
+      "slug": "ch_054",
+      "title": "第54章 [向哨]向导攻10",
+      "status": "qc_approved"
+    },
+    {
+      "slug": "ch_055",
+      "title": "第55章 [向哨]向导攻11",
+      "status": "qc_approved"
+    },
+    {
+      "slug": "ch_056",
+      "title": "第56章 [向哨]向导攻12",
+      "status": "qc_approved"
+    },
+    {
+      "slug": "ch_057",
+      "title": "第57章 [向哨]向导攻13",
+      "status": "qc_approved"
+    },
+    {
+      "slug": "ch_058",
+      "title": "第58章 [ABO]Omega攻1",
+      "status": "raw_ready"
+    },
+    {
+      "slug": "ch_059",
+      "title": "第59章 [ABO]Omega攻2",
+      "status": "raw_ready"
+    },
+    {
+      "slug": "ch_060",
+      "title": "第60章 [ABO]Omega攻3",
+      "status": "raw_ready"
+    },
+    {
+      "slug": "ch_061",
+      "title": "第61章 [ABO]Omega攻4",
+      "status": "raw_ready"
+    },
+    {
+      "slug": "ch_062",
+      "title": "第62章 [ABO]Omega攻5",
+      "status": "raw_ready"
+    },
+    {
+      "slug": "ch_063",
+      "title": "第63章 [ABO]Omega攻6",
+      "status": "raw_ready"
+    },
+    {
+      "slug": "ch_064",
+      "title": "第64章 [ABO]Omega攻7",
+      "status": "raw_ready"
+    },
+    {
+      "slug": "ch_065",
+      "title": "第65章 [ABO]Omega攻8",
+      "status": "raw_ready"
+    },
+    {
+      "slug": "ch_066",
+      "title": "第66章 [ABO]Omega攻9",
+      "status": "raw_ready"
+    },
+    {
+      "slug": "ch_067",
+      "title": "第67章 [ABO]Omega攻10",
+      "status": "raw_ready"
+    },
+    {
+      "slug": "ch_068",
+      "title": "第68章 [ABO]Omega攻11",
+      "status": "raw_ready"
+    },
+    {
+      "slug": "ch_069",
+      "title": "第69章 [ABO]Omega攻12",
+      "status": "raw_ready"
+    },
+    {
+      "slug": "ch_070",
+      "title": "第70章 [ABO]Omega攻13",
+      "status": "raw_ready"
+    },
+    {
+      "slug": "ch_071",
+      "title": "第71章 [ABO]Omega攻14",
+      "status": "raw_ready"
+    },
+    {
+      "slug": "ch_072",
+      "title": "第72章 [ABO]Omega攻15",
+      "status": "raw_ready"
+    },
+    {
+      "slug": "ch_073",
+      "title": "第73章 [ABO]Omega攻16",
+      "status": "raw_ready"
+    },
+    {
+      "slug": "ch_074",
+      "title": "第74章 [ABO]Omega攻17",
+      "status": "raw_ready"
+    },
+    {
+      "slug": "ch_075",
+      "title": "第75章 [ABO]Omega攻18",
+      "status": "raw_ready"
+    },
+    {
+      "slug": "ch_076",
+      "title": "第76章 [ABO]Omega攻19",
+      "status": "raw_ready"
+    },
+    {
+      "slug": "ch_077",
+      "title": "第77章 [ABO]Omega攻20",
+      "status": "raw_ready"
+    },
+    {
+      "slug": "ch_078",
+      "title": "第78章 [ABO]Omega攻21",
+      "status": "raw_ready"
+    },
+    {
+      "slug": "ch_079",
+      "title": "第79章 [ABO]Omega攻22",
+      "status": "raw_ready"
+    },
+    {
+      "slug": "ch_080",
+      "title": "第80章 [ABO]Omega攻23",
+      "status": "raw_ready"
+    },
+    {
+      "slug": "ch_081",
+      "title": "第81章 [ABO]Omega攻24",
+      "status": "raw_ready"
+    },
+    {
+      "slug": "ch_082",
+      "title": "第82章 [ABO]Omega攻25",
+      "status": "raw_ready"
+    },
+    {
+      "slug": "ch_083",
+      "title": "第83章 [ABO]Omega攻26",
+      "status": "raw_ready"
+    },
+    {
+      "slug": "ch_084",
+      "title": "第84章 [ABO]Omega攻27",
+      "status": "raw_ready"
+    },
+    {
+      "slug": "ch_085",
+      "title": "第85章 [ABO]Omega攻28",
+      "status": "raw_ready"
+    },
+    {
+      "slug": "ch_086",
+      "title": "第86章 [ABO]Omega攻29",
+      "status": "raw_ready"
+    },
+    {
+      "slug": "ch_087",
+      "title": "第87章 [ABO]Omega攻30",
+      "status": "raw_ready"
+    },
+    {
+      "slug": "ch_088",
+      "title": "第88章 [ABO]Omega攻31",
+      "status": "raw_ready"
+    },
+    {
+      "slug": "ch_089",
+      "title": "第89章 [ABO]Omega攻32",
+      "status": "raw_ready"
+    },
+    {
+      "slug": "ch_090",
+      "title": "第90章 [ABO]Omega攻33（完）",
+      "status": "raw_ready"
+    }
+  ],
+  "updated_at": "2026-11-09T00:16:31.738167+07:00"
 }

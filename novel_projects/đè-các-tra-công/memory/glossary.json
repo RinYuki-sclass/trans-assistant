@@ -1,14 +1,74 @@
 [
   {
-    "term": "攻了渣攻",
-    "vietnamese": "Đè các tra công / Công tra công",
-    "category": "Chủ đề",
+    "original": "攻了渣攻",
+    "translation": "Đè các tra công / Công tra công",
+    "category": "Chủ đề / Mô-típ",
     "notes": "Hành động áp đảo và biến tra công thành thụ của mình"
   },
   {
-    "term": "双洁",
-    "vietnamese": "Song khiết",
+    "original": "撅渣攻系统",
+    "translation": "Hệ Thống Đè Tra Công",
+    "category": "Hệ thống",
+    "notes": "Tên hệ thống giao nhiệm vụ"
+  },
+  {
+    "original": "泡泡大王",
+    "translation": "Bong Bóng Đại Vương",
+    "category": "Hệ thống",
+    "notes": "Tên tự xưng của hệ thống"
+  },
+  {
+    "original": "双洁",
+    "translation": "Song khiết",
     "category": "Thuật ngữ đam mỹ",
     "notes": "Cả công và thụ đều giữ thân thể trong sạch / chung thủy"
+  },
+  {
+    "original": "追妻火葬场",
+    "translation": "Truy thê hỏa táng tràng",
+    "category": "Mô-típ",
+    "notes": "Đuổi theo vợ đến lò thiêu (khiến tra công phải trả giá hối hận)"
+  },
+  {
+    "original": "人鱼线",
+    "translation": "Đường nhân ngư",
+    "category": "Miêu tả hình thể",
+    "notes": "Đường rãnh cơ chữ V ở hai bên hông nam giới"
+  },
+  {
+    "original": "信息素",
+    "translation": "Pheromone / Tin tức tố",
+    "category": "Thuật ngữ ABO",
+    "notes": "Mùi hương đặc trưng của Alpha và Omega"
+  },
+  {
+    "original": "发情期",
+    "translation": "Thời kỳ phát tình",
+    "category": "Thuật ngữ ABO",
+    "notes": "Giai đoạn cơ thể Omega/Alpha bị kích thích mất kiểm soát"
+  },
+  {
+    "original": "腺体",
+    "translation": "Tuyến thể",
+    "category": "Thuật ngữ ABO",
+    "notes": "Tuyến tiết pheromone sau gáy"
+  },
+  {
+    "original": "标记",
+    "translation": "Đánh dấu / Ký hiệu",
+    "category": "Thuật ngữ ABO",
+    "notes": "Hành vi cắn vào tuyến thể để chiếm hữu"
+  },
+  {
+    "original": "选美冠军",
+    "translation": "Quán quân cuộc thi sắc đẹp",
+    "category": "Biệt danh",
+    "notes": "Lời trêu đùa của mọi người về nhan sắc cực phẩm của Tiêu Hồi"
+  },
+  {
+    "original": "打桩",
+    "translation": "Đóng cọc",
+    "category": "Tiếng lóng miêu tả thể lực",
+    "notes": "Chỉ thể lực và sức bền cực kỳ khủng khiếp của Alpha công"
   }
 ]

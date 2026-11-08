@@ -5,11 +5,11 @@
   "total_chapters": 5,
   "stats": {
     "pending": 0,
-    "raw_ready": 5,
+    "raw_ready": 4,
     "prescanned": 0,
     "translating": 0,
-    "translated": 0,
-    "qc_approved": 0,
+    "translated": 1,
+    "qc_approved": 1,
     "published": 0
   },
   "arcs": [
@@ -91,12 +91,12 @@
       "arc_id": 1,
       "arc_name": "Chính Văn",
       "title_zh": "第5章",
-      "title_vi": "Chương 5",
-      "status": "raw_ready",
+      "title_vi": "Chương 5: Tôi muốn đè anh",
+      "status": "qc_approved",
       "paragraph_count": 133,
       "word_count": 0,
       "source_url": "",
-      "updated_at": "2026-10-27T22:48:57.127030"
+      "updated_at": "2026-11-08T23:05:51.192617"
     }
   ],
   "generated_at": "2026-10-27T22:48:57.127051"
