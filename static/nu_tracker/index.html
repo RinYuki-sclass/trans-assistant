@@ -698,6 +698,17 @@
         <button class="btn btn-warning" id="btnJumpBookmark" onclick="jumpToBookmark()" title="Nhảy tới vị trí truyện bạn đã đánh dấu đang xem dở">
           <i class="fa fa-map-marker"></i> Vị trí đang xem <span id="lblBookmarkOrder"></span>
         </button>
+        <div class="git-sync-box" style="display:inline-flex; gap:5px; align-items:center; background:#1e293b; padding:3px 8px; border-radius:6px; border:1px solid #334155;">
+          <span style="font-size:12px; font-weight:800; color:#38bdf8; display:flex; align-items:center; gap:4px;">
+            <i class="fa fa-github"></i> Git:
+          </span>
+          <button class="btn btn-sm" id="btnGitPush" onclick="triggerGitSync('push')" title="ĐẨY toàn bộ dữ liệu Đã đọc, Blacklist, Vị trí lên GitHub" style="background:#0284c7; color:#fff; border:none; padding:5px 10px; font-size:12px; font-weight:700; border-radius:4px; cursor:pointer;">
+            <i class="fa fa-cloud-upload"></i> Đẩy Git
+          </button>
+          <button class="btn btn-sm" id="btnGitPull" onclick="triggerGitSync('pull')" title="KÉO dữ liệu mới nhất từ GitHub về máy này" style="background:#475569; color:#fff; border:none; padding:5px 10px; font-size:12px; font-weight:700; border-radius:4px; cursor:pointer;">
+            <i class="fa fa-cloud-download"></i> Kéo Git
+          </button>
+        </div>
         <button class="btn btn-primary" id="btnCheckNew" onclick="triggerSync('check_new')">
           <i class="fa fa-bell"></i> Kiểm tra Bộ Mới
         </button>
@@ -1364,6 +1375,50 @@
     }
 
     initApp();
-  </script>
+  
+    async function triggerGitSync(action) {
+      const btnPush = document.getElementById('btnGitPush');
+      const btnPull = document.getElementById('btnGitPull');
+      const activeBtn = action === 'push' ? btnPush : btnPull;
+      const originalHtml = activeBtn ? activeBtn.innerHTML : '';
+
+      const confirmMsg = action === 'push' 
+        ? 'Bạn có muốn ĐẨY toàn bộ trạng thái (Đã đọc, Blacklist, Đọc sau, Vị trí) lên GitHub?' 
+        : 'Bạn có muốn KÉO dữ liệu mới nhất từ GitHub về máy này? (Trạng thái đánh dấu sẽ tự động gộp)';
+      if (!confirm(confirmMsg)) return;
+
+      if (activeBtn) {
+        activeBtn.disabled = true;
+        activeBtn.innerHTML = `<i class="fa fa-spinner fa-spin"></i> Đang ${action === 'push' ? 'đẩy...' : 'kéo...'}`;
+      }
+      showToast(`⏳ Đang ${action === 'push' ? 'đẩy dữ liệu lên GitHub' : 'kéo dữ liệu từ GitHub'}...`);
+
+      try {
+        const res = await fetch('/api/git-sync', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ action })
+        });
+        const data = await res.json();
+        if (data.ok) {
+          showToast(`✅ ${data.message}`);
+          if (action === 'pull') {
+            loadSeries();
+          }
+        } else {
+          showToast(`❌ ${data.message || 'Thao tác Git thất bại'}`);
+          alert(`❌ Lỗi Git: ${data.message}`);
+        }
+      } catch (err) {
+        showToast(`❌ Lỗi kết nối: ${err.message}`);
+      } finally {
+        if (activeBtn) {
+          activeBtn.disabled = false;
+          activeBtn.innerHTML = originalHtml;
+        }
+      }
+    }
+
+</script>
 </body>
 </html>

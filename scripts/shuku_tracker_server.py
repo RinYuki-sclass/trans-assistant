@@ -16,6 +16,8 @@ import json
 import time
 import sqlite3
 import threading
+import asyncio
+import subprocess
 from typing import Dict, List, Optional, Tuple
 from concurrent.futures import ThreadPoolExecutor
 
@@ -255,6 +257,97 @@ def sync_user_data_from_json():
         print(f"[sync_user_data_from_json] Đã đồng bộ {len(statuses)} trạng thái và vị trí #{bookmarked_order} từ JSON vào SQLite.")
     except Exception as e:
         print(f"[sync_user_data_from_json] Lỗi: {e}")
+
+
+def execute_git_sync(action: str, tracker_type: str = "52shuku") -> Tuple[bool, str]:
+    try:
+        if action == "push":
+            dump_user_data_to_json()
+            try:
+                import nu_tracker_server as n
+                n.dump_user_data_to_json()
+            except Exception:
+                pass
+
+            files_to_stage = [
+                ".gitignore",
+                "scripts/shuku_tracker_server.py",
+                "scripts/nu_tracker_server.py",
+                "DONG_BO_52SHUKU_GIT.bat",
+                "DONG_BO_NU_GIT.bat",
+                "DONG_BO_TRACKERS_GIT.bat",
+                "data/shuku_tracker.db",
+                "data/shuku_user_data.json",
+                "data/nu_tracker.db",
+                "data/nu_user_data.json",
+            ]
+            existing_files = [f for f in files_to_stage if os.path.exists(os.path.join(BASE_DIR, f))]
+            subprocess.run(["git", "add"] + existing_files, cwd=BASE_DIR, check=True)
+
+            diff_res = subprocess.run(["git", "diff", "--cached", "--quiet"], cwd=BASE_DIR)
+            if diff_res.returncode != 0:
+                subprocess.run(
+                    ["git", "commit", "-m", f"sync: cập nhật dữ liệu {tracker_type} tracker qua Web UI"],
+                    cwd=BASE_DIR,
+                    check=True,
+                )
+
+            push_res = subprocess.run(
+                ["git", "push", "origin", "main"],
+                cwd=BASE_DIR,
+                capture_output=True,
+                text=True,
+                encoding="utf-8",
+                errors="replace",
+            )
+            if push_res.returncode != 0:
+                subprocess.run(["git", "pull", "--rebase", "origin", "main"], cwd=BASE_DIR, check=True)
+                push_res2 = subprocess.run(
+                    ["git", "push", "origin", "main"],
+                    cwd=BASE_DIR,
+                    capture_output=True,
+                    text=True,
+                    encoding="utf-8",
+                    errors="replace",
+                    check=True,
+                )
+
+            return True, "Đã ĐẨY toàn bộ trạng thái lên GitHub thành công!"
+
+        elif action == "pull":
+            pull_res = subprocess.run(
+                ["git", "pull", "origin", "main"],
+                cwd=BASE_DIR,
+                capture_output=True,
+                text=True,
+                encoding="utf-8",
+                errors="replace",
+            )
+            if pull_res.returncode != 0:
+                return False, f"Lỗi kéo từ GitHub: {pull_res.stderr or pull_res.stdout}"
+
+            sync_user_data_from_json()
+            try:
+                import nu_tracker_server as n
+                n.sync_user_data_from_json()
+            except Exception:
+                pass
+
+            return True, "Đã KÉO và cập nhật dữ liệu mới từ GitHub về máy thành công!"
+        else:
+            return False, "Hành động không hợp lệ."
+    except Exception as e:
+        return False, str(e)
+
+
+async def api_shuku_git_sync(request):
+    try:
+        body = await request.json()
+    except Exception:
+        body = {}
+    action = body.get("action", "push")
+    ok, msg = await asyncio.to_thread(execute_git_sync, action, "52shuku")
+    return JSONResponse({"ok": ok, "message": msg}, status_code=200 if ok else 500)
 
 def get_setting(key: str, default: str = "") -> str:
     conn = get_db_connection()
@@ -1112,6 +1205,7 @@ routes = [
     Route("/api/shuku/sync", api_shuku_trigger_sync, methods=["POST"]),
     Route("/api/shuku/sync-status", api_shuku_sync_status, methods=["GET"]),
     Route("/api/shuku/settings", api_shuku_settings, methods=["GET", "POST"]),
+    Route("/api/shuku/git-sync", api_shuku_git_sync, methods=["POST"]),
     Mount("/static/shuku", StaticFiles(directory=STATIC_DIR), name="static_shuku"),
 ]
 
