@@ -206,7 +206,7 @@ Không phải chứ?
 
 Hắn thoắt cái mở bừng mắt, trước mắt là một màn đêm đen kịt.
 
-“Y Lâu, cuối cùng anh cũng tỉnh rồi.”
+“Y Lâu, cuối cùng em cũng tỉnh rồi.”
 
 A! Hắn muốn giết chết tên biến thái Thẩm Kinh Dạng này.
 

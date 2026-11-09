@@ -70,7 +70,7 @@ Y thành kính áp mảnh vải chẳng lấy làm to tát ấy lên gương m�
 
 Một giọng nói tức tối đến cùng cực lập tức chửi ầm lên:
 
-“Cậu cầm quần lót của tôi làm cái gì thế hả? Mẹ nó cậu có bệnh à!”
+“Anh cầm quần lót của tôi làm cái gì thế hả? Mẹ nó anh có bệnh à!”
 
 Thẩm Kinh Dạng có phần đơ người trước sự cố bất ngờ này.
 
@@ -84,7 +84,7 @@ Hắn như bị nướng chín, cả người đỏ rực lên.
 
 Hoa Y Lâu gom góp chút ít sức lực, gượng chống cánh tay nhỏm nửa người trên dậy, phẫn nộ quát mắng:
 
-“Đồ biến thái! Kẻ thần kinh! Mẹ nó tôi căn bản chẳng quen biết cậu, rốt cuộc cậu là ai hả? Hả?! Tôi nói cho cậu biết, mẹ nó tôi đối diện với cậu cứng không nổi!”
+“Đồ biến thái! Kẻ thần kinh! Mẹ nó tôi căn bản chẳng quen biết anh, rốt cuộc anh là ai hả? Hả?! Tôi nói cho anh biết, mẹ nó tôi đối diện với anh cứng không nổi!”
 
 Hắn gào xong dường như đã rút cạn toàn bộ sức lực, bên tai ù đi mất một lúc lâu.
 
@@ -96,7 +96,7 @@ Quả nhiên là do y! Hoa Y Lâu mới bị kéo từ thời điểm cốt truy
 
 Người đàn ông đột nhiên nhảy bổ ra này rốt cuộc là ai chứ?
 
-“Nhưng không sao cả, bất kể anh biến thành dáng vẻ gì, em đều thích.”
+“Nhưng không sao cả, bất kể em biến thành dáng vẻ gì, anh đều thích.”
 
 Dứt lời, Thẩm Kinh Dạng ngồi đè lên người Hoa Y Lâu.
 

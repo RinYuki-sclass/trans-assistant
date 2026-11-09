@@ -168,15 +168,15 @@ Ong.
 
 Hàng mi của Hoa Y Lâu khẽ run lên.
 
-[Tôi thích anh mặc màu đen, nhưng hôm nay tôi chẳng vui chút nào.]
+[Tôi thích em mặc màu đen, nhưng hôm nay tôi chẳng vui chút nào.]
 
 Ong.
 
-[Cánh tay hắn bị gãy xương vụn đến sáu chỗ, loại Alpha vô dụng thế này mà anh cũng thích sao?]
+[Cánh tay hắn bị gãy xương vụn đến sáu chỗ, loại Alpha vô dụng thế này mà em cũng thích sao?]
 
 Ong.
 
-[Vừa rồi anh vì hắn mà thất thố đứng bật dậy, tôi buồn lắm đấy, thậm chí anh còn nhìn chằm chằm vào mắt hắn nữa.]
+[Vừa rồi em vì hắn mà thất thố đứng bật dậy, tôi buồn lắm đấy, thậm chí em còn nhìn chằm chằm vào mắt hắn nữa.]
 
 “Theo? Cậu đang nhắn tin cho bạn trai đấy à?”
 
@@ -204,7 +204,7 @@ Quả nhiên, ẩn dưới vẻ bề ngoài xa cách của Theo lại là một 
 
 Ong.
 
-[Anh lại nhìn mắt hắn rồi, mắt hắn là màu xanh lam, anh... thích màu xanh lam sao?]
+[Em lại nhìn mắt hắn rồi, mắt hắn là màu xanh lam, em... thích màu xanh lam sao?]
 
 Nụ cười nơi khóe môi Hoa Y Lâu hơi khựng lại.
 

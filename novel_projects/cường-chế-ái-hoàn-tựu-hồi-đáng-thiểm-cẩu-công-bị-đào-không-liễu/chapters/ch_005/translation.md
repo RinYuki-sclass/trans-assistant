@@ -1,10 +1,3 @@
----
-title: "Chương 5: “Yêu tôi ở điểm nào? Mẹ nó tôi sửa có được không?”"
-chapter_num: 5
-original_title: "第5章 “爱我哪里？我他妈的改了行不行？”"
-paragraphs_count: 124
----
-
 Chương 5: “Yêu tôi ở điểm nào? Mẹ nó tôi sửa có được không?”
 
 Trong căn phòng tối đen như mực tràn ngập mùi rượu Whisky.
@@ -35,7 +28,7 @@ Bịch!
 
 Thẩm Kinh Dạng hoa mắt trong thoáng chốc, ngay lập tức y đã bị người ta lật nhào, hai người đổi tư thế.
 
-“Hừ, đỉnh A thì ghê gớm lắm chắc? Khoe mẽ thể lực cậu tốt đấy à?”
+“Hừ, đỉnh A thì ghê gớm lắm chắc? Khoe mẽ thể lực anh tốt đấy à?”
 
 Thẩm Kinh Dạng có phần kinh ngạc.
 

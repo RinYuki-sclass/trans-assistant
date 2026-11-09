@@ -66,7 +66,7 @@ Hoa Y Lâu: “Cậu là luật sư của văn phòng luật sư Besli.”
 
 Thôi Hoán nở nụ cười thật tươi:
 
-“Y Lâu, tôi biết ngay anh là người thông minh nhất mà.”
+“Y Lâu, tôi biết ngay cậu là người thông minh nhất mà.”
 
 Nói đoạn, cậu ta chìa bàn tay phải về phía Hoa Y Lâu:
 

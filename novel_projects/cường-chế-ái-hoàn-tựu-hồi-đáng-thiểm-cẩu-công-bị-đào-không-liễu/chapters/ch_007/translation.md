@@ -100,7 +100,7 @@ Bóng người che khuất ánh sáng lộ ra toàn bộ diện mạo.
 
 Thẩm Kinh Dạng với gương mặt hơi vặn vẹo đang giơ cao một chiếc ghế tựa.
 
-“Hôm nay là hôn lễ của Thời Gia Hy, một tên Omega đê tiện như nó đã kết hôn với bốn Alpha rồi, cớ sao anh cứ khăng khăng phải là nó?”
+“Hôm nay là hôn lễ của Thời Gia Hy, một tên Omega đê tiện như nó đã kết hôn với bốn Alpha rồi, cớ sao em cứ khăng khăng phải là nó?”
 
 Rầm!
 
@@ -112,7 +112,7 @@ Thế nhưng chút trầm ngâm suy tư này của hắn rơi vào đáy mắt T
 
 Đôi con ngươi xanh thẳm tràn ngập vẻ điên cuồng bị đè nén:
 
-“Tôi sẽ không để nó chạm vào anh đâu, anh là của tôi, lần sau trở lại tôi sẽ không để nó đụng tới anh thêm lần nào nữa...”
+“Tôi sẽ không để nó chạm vào em đâu, em là của tôi, lần sau trở lại tôi sẽ không để nó đụng tới em thêm lần nào nữa...”
 
 Đồng tử của Hoa Y Lâu khẽ giãn ra.
 
@@ -128,7 +128,7 @@ Mí mắt Hoa Y Lâu giật thót, hắn lập tức chọn không, đáng tiế
 
 Chiếc ghế bị quẳng sang một bên, Hoa Y Lâu bị bao bọc bởi hương rượu Whisky quen thuộc, hơi thở ấm nóng cùng giọng nói quyến luyến tham lam vang lên bên tai hắn.
 
-“Chúng ta sẽ sớm gặp lại nhau thôi, mỗi một đêm, từng đêm sau này của anh đều thuộc về tôi...”
+“Chúng ta sẽ sớm gặp lại nhau thôi, mỗi một đêm, từng đêm sau này của em đều thuộc về tôi...”
 
 Trước mắt bỗng chốc bị một mảng ánh sáng trắng xóa phủ lấp, dẫu là giọng nói của Thẩm Kinh Dạng hay cái ôm của Thẩm Kinh Dạng đều tan biến sạch sành sanh.
 
@@ -178,7 +178,7 @@ Hoa Y Lâu lẩm bẩm tự nói một mình.
 
 Chợt, những lời Thẩm Kinh Dạng nói trước khi hồi đương lại ùa vào trong đầu hắn.
 
-“Mỗi một đêm, từng đêm sau này của anh đều thuộc về tôi... Mẹ kiếp!” Hoa Y Lâu bực bội trùm chăn kín đầu, “Cái thứ chó má này rõ ràng là cố tình hồi quy mà.”
+“‘Mỗi một đêm, từng đêm sau này của em đều thuộc về tôi’... Mẹ kiếp!” Hoa Y Lâu bực bội trùm chăn kín đầu, “Cái thứ chó má này rõ ràng là cố tình hồi quy mà.”
 
 Hắn vì muốn thoát khỏi tình tiết cốt truyện để giành lấy tự do mà đã phải như một con rối giật dây diễn biết bao nhiêu phân cảnh kịch bản.
 

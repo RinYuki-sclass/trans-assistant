@@ -162,7 +162,7 @@ Sau khi hôn lễ kết thúc, hắn đã bước lên xe của người đàn �
 
 Việc hệ trọng đến nhường này, tại sao vừa rồi hắn chẳng hề nhớ ra chút nào chứ?
 
-“Ừm, đừng vội, để em...”
+“Ừm, đừng vội, để anh...”
 
 Người đàn ông lão tiền kia rốt cuộc đã nói câu gì ở đoạn cuối?
 
@@ -256,7 +256,7 @@ Lần thứ hai ngồi lên chiếc Cullinan, Hoa Y Lâu vẫn chửi ầm lên 
 
 Mà lần này, Hoa Y Lâu đã nghe được trọn vẹn cả câu nói của gã lão tiền sảo A này.
 
-“Ừm, đừng vội, em cho anh đụ.”
+“Ừm, đừng vội, anh cho em đụ.”
 
 Mẹ nó chứ!
 

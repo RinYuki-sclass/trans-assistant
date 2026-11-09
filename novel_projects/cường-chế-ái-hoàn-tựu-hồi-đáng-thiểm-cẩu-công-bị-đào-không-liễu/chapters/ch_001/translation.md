@@ -32,7 +32,7 @@ Người đàn ông được vây quanh bởi hạnh phúc trên lễ đài cũn
 
 Đúng vào khoảnh khắc hạnh phúc ngập tràn, cậu bỗng dưng nhớ đến con chó liếm luôn đi theo sau lưng mình, kẻ lúc nào cũng tôn trọng và yêu thương cậu tha thiết.
 
-“Y Lâu, anh...”
+“Y Lâu, cậu...”
 
 Trong mắt Thời Gia Hy lộ rõ vẻ áy náy, nhưng lời còn chưa dứt thì đã bị người đàn ông cao lớn đầy vẻ ghen tuông bên cạnh cắt ngang.
 

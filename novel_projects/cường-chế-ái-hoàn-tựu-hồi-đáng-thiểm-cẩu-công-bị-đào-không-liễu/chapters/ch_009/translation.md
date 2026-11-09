@@ -72,7 +72,7 @@ Hắn ra tay rất có chừng mực, Thời Gia Hy chỉ là ngất đi chứ c
 
 Lần này tuyệt đối sẽ không hồi đương nữa.
 
-“Anh nhớ chuyện mấy lần trước.”
+“Em nhớ chuyện mấy lần trước.”
 
 Thẩm Kinh Dạng đột nhiên cất tiếng, Hoa Y Lâu khựng lại một nhịp nhưng không hề phủ nhận.
 
@@ -120,11 +120,11 @@ Hừ, giờ thì biết y là ai rồi chứ?
 
 Một tên biến thái, một kẻ điên, một tên hoang tưởng cố chấp.
 
-“Y Lâu, tôi luôn sợ làm anh hoảng sợ nên lần nào cũng cẩn thận từng chút một, nhưng nếu anh đã nhớ hết rồi...”
+“Y Lâu, tôi luôn sợ làm em hoảng sợ nên lần nào cũng cẩn thận từng chút một, nhưng nếu em đã nhớ hết rồi...”
 
 Hoa Y Lâu không thể nhịn nổi nữa bèn mở to mắt:
 
-“Mẹ nó cậu nói chuyện thì cứ nói đàng hoàng, thở phì phò vào cổ tôi làm cái đéo gì? Ông đây là Beta không có tin tức tố, cần Omega thì cút ra ngoài mà tìm!”
+“Mẹ nó anh nói chuyện thì cứ nói đàng hoàng, thở phì phò vào cổ tôi làm cái đéo gì? Ông đây là Beta không có tin tức tố, cần Omega thì cút ra ngoài mà tìm!”
 
 Đôi môi nóng bỏng dán sát vào vùng da cổ của hắn rồi trượt dài, hệt như đang nâng niu báu vật quý giá nhất trần đời.
 
@@ -144,7 +144,7 @@ Lại còn cảm thấy có một chút, chỉ một chút xíu xiu sướng kho
 
 Tên trai thẳng tuyệt vọng đành cắn răng nhịn nhục khuyên nhủ y:
 
-“Thẩm Kinh Dạng, tôi đã nói là tôi không thích Alpha, thế giới này bất thường cậu cũng thấy rồi đấy. Cậu là chủ tịch tập đoàn nghìn tỷ mà cam tâm bị giam chân ở hai ngày này sao? Số tiền đó của cậu... suỵt, mẹ nó cậu cầm tinh con chó thật đấy à, cắn yết hầu tôi... ưm!”
+“Thẩm Kinh Dạng, tôi đã nói là tôi không thích Alpha, thế giới này bất thường anh cũng thấy rồi đấy. Anh là chủ tịch tập đoàn nghìn tỷ mà cam tâm bị giam chân ở hai ngày này sao? Số tiền đó của anh... suỵt, mẹ nó anh cầm tinh con chó thật đấy à, cắn yết hầu tôi... ưm!”
 
 Cái miệng đang lải nhải không ngừng liền bị chặn đứng lại.
 
@@ -158,7 +158,7 @@ Hoa Y Lâu đột ngột bừng mở mắt ra giữa một luồng ánh sáng v�
 
 Lại hồi đương rồi sao?
 
-“... Tôi biết anh không thích nằm, xin lỗi, tôi sợ lại làm anh bị thương như lần đó.”
+“... Tôi biết em không thích nằm, xin lỗi, tôi sợ lại làm em bị thương như lần đó.”
 
 “Mẹ kiếp!”
 
@@ -194,7 +194,7 @@ Vị trí này quá đỗi nhạy cảm, chỉ cần xê dịch chút xíu thôi
 
 Hoa Y Lâu ép bản thân phải bình tĩnh lại:
 
-“Thẩm Kinh Dạng, giờ tôi biết cậu thích tôi rồi, chúng ta có thể nói chuyện đàng hoàng được không? Cậu với tôi cứ mãi bị kẹt ở hai ngày này thì chẳng giải quyết được vấn đề gì đâu... Mẹ nó cậu đừng có sờ nữa!”
+“Thẩm Kinh Dạng, giờ tôi biết anh thích tôi rồi, chúng ta có thể nói chuyện đàng hoàng được không? Anh với tôi cứ mãi bị kẹt ở hai ngày này thì chẳng giải quyết được vấn đề gì đâu... Mẹ nó anh đừng có sờ nữa!”
 
 Nói tới đoạn sau, Hoa Y Lâu tức đến mức túa cả mồ hôi hột đầy người.
 
@@ -232,7 +232,7 @@ Ngay vào lúc Hoa Y Lâu cảm thấy bản thân sắp sửa bị vắt kiệt
 
 Hoa Y Lâu bỗng nảy sinh một nỗi xúc động muốn khóc, may mà Thẩm Kinh Dạng là kẻ không trụ nổi trước đấy chứ!
 
-“... Gia sản nghìn tỷ đối với tôi chẳng bằng một sợi tóc của anh.”
+“... Gia sản nghìn tỷ đối với tôi chẳng bằng một sợi tóc của em.”
 
 !!!
 

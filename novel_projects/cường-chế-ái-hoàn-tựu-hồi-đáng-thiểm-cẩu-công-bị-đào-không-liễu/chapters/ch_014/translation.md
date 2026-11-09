@@ -38,7 +38,7 @@ Thế nên hắn nghĩ, dường như hắn không nên buông xuôi mặc kệ 
 
 “Thẩm Kinh Dạng...”
 
-“Tôi ở đây,” thanh âm thuần nam tính mang theo vẻ khàn đặc bị đè nén, “Anh bắt đầu ghi nhớ từ khi nào? Lần đầu tiên, hay là mỗi một lần.”
+“Tôi ở đây,” thanh âm thuần nam tính mang theo vẻ khàn đặc bị đè nén, “Em bắt đầu nhớ từ khi nào? Lần đầu tiên, hay là mỗi một lần.”
 
 Sắc mặt Hoa Y Lâu đột nhiên trở nên cổ quái:
 

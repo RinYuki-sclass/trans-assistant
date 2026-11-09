@@ -180,4 +180,4 @@ Chỉ là hắn không hề nhìn thấy, sau khi hắn rời đi, chiếc đi�
 
 Một dãy số lạ gửi tới một dòng tin nhắn.
 
-[Tại sao lại để hắn đến gần như thế? Không phải anh chỉ thích Omega thôi sao? Tôi thấy hắn chạm vào anh rồi, tôi giúp anh tháo cánh tay hắn ra nhé? Hửm?]
+[Tại sao lại để hắn đến gần như thế? Không phải em chỉ thích Omega thôi sao? Tôi thấy hắn chạm vào em rồi, tôi giúp em tháo cánh tay hắn ra nhé? Hửm?]

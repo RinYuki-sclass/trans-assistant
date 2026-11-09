@@ -190,4 +190,4 @@ Huyệt thái dương Hoa Y Lâu giật thắt liên hồi, “Thẩm Kinh Dạn
 
 Người Alpha khựng lại một thoáng, từ từ quay đầu đối diện với ánh mắt hắn.
 
-“Tôi nghe thấy rồi, anh yêu cậu ta nhất,” Người Alpha nghiêng nghiêng đầu, ngữ khí lạnh lẽo, “Thế nên cậu ta bắt buộc phải chết.”
+“Tôi nghe thấy rồi, em yêu cậu ta nhất,” Người Alpha nghiêng nghiêng đầu, ngữ khí lạnh lẽo, “Thế nên cậu ta bắt buộc phải chết.”
