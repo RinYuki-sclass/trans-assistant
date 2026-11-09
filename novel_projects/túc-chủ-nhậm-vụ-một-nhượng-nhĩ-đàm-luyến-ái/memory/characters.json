@@ -1,0 +1,47 @@
+[
+  {
+    "id": "gian_tri",
+    "name": "Giản Tri",
+    "original_name": "简知",
+    "role": "Công chính (Nhân vật trung tâm / Xuyên thư / Chủ công)",
+    "pronoun_3rd": "hắn",
+    "faction": "Ký chủ Hệ thống 34 / Môn hạ Ân Trường Tư",
+    "description": "Linh hồn hiện đại xuyên vào thân xác tiểu pháo hôi xuất hiện hai phút trong tiểu thuyết tu tiên. Bị Hệ thống 34 trói buộc giao nhiệm vụ ngăn chặn Giang Lâm Hề hắc hóa và giúp đồ đệ theo đuổi sư tôn. Tính cách thích cà khịa, mặt dày, diễn sâu, phản ứng nhanh nhạy, bên ngoài bình tĩnh nhưng nội tâm đầy trò cười."
+  },
+  {
+    "id": "an_truong_tu",
+    "name": "Ân Trường Tư",
+    "original_name": "殷长思",
+    "role": "Thụ chính (Đại lão tiên môn)",
+    "pronoun_3rd": "y",
+    "faction": "Tông môn tu tiên",
+    "description": "Mỹ nam tu chân phong lưu phóng khoáng, thích dựa cây hòe phe phẩy quạt xếp, nơi khóe mắt phải có nốt ruồi lệ câu hồn đoạt phách. Trong nguyên tác Giản Tri chính là bái vào môn hạ của y. Ban đầu trêu chọc Giản Tri như một nhóc con thú vị, sau dần bị cuốn hút và rơi vào lưới tình."
+  },
+  {
+    "id": "giang_lam_he",
+    "name": "Giang Lâm Hề",
+    "original_name": "江临兮",
+    "role": "Đồ đệ nguyên tác",
+    "pronoun_3rd": "hắn / y",
+    "faction": "Đệ tử của Lạc Thiên Sơn",
+    "description": "Nhân vật chính của cốt truyện nguyên tác, ban đầu rụt rè nhút nhát, có nguy cơ hắc hóa nếu tình cảm dành cho sư tôn bị ngược. Được Giản Tri làm 'quân sư quạt mo' chỉ nước đi."
+  },
+  {
+    "id": "lac_thien_son",
+    "name": "Lạc Thiên Sơn",
+    "original_name": "落千山",
+    "role": "Sư tôn nguyên tác",
+    "pronoun_3rd": "y",
+    "faction": "Trưởng lão tiên môn",
+    "description": "Sư tôn của Giang Lâm Hề, tính tình thanh lãnh như băng tuyết trên đài cao."
+  },
+  {
+    "id": "he_thong_34",
+    "name": "Hệ thống 34",
+    "original_name": "系统34",
+    "role": "Hệ thống nhiệm vụ",
+    "pronoun_3rd": "nó / Hệ thống 34",
+    "faction": "Không gian hệ thống",
+    "description": "Hệ thống phụ trách hướng dẫn Giản Tri sửa chữa cốt truyện, liên tục bất lực trước các pha xử lý cồng kềnh và việc ký chủ tự rước người về yêu đương."
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "id": "hoa_y_lau",
+    "name": "Hoa Y Lâu",
+    "original_name": "花倚楼",
+    "role": "Công chính (Nhân vật trung tâm / Xuyên thư / Chủ công)",
+    "pronoun_3rd": "hắn",
+    "faction": "Phân hóa Beta / Người xuyên thư",
+    "description": "Linh hồn thẳng nam hiện đại xuyên vào thân xác nhân vật phụ cùng tên trong bộ truyện tranh ABO nhiều công một thụ. Trong nguyên tác là nam phụ liếm cẩu lốp dự phòng chuyên bị thụ chính ngược thân ngược tâm rồi chết vì tình. Sau khi nhẫn nhịn chờ đến ngày đại kết cục để tự do nghỉ hưu thì bất ngờ bị Thẩm Kinh Dạng cưỡng chế ái và cuốn vào vòng lặp hồi đương vô tận. Tính tình thích cà khịa, độc miệng, không nội hao, chỉ muốn yên thân."
+  },
+  {
+    "id": "tham_kinh_dang",
+    "name": "Thẩm Kinh Dạng",
+    "original_name": "沈京漾",
+    "role": "Thụ chính (S-Class Alpha / Tài phiệt)",
+    "pronoun_3rd": "y",
+    "faction": "Thẩm thị tài phiệt / Alpha cấp S",
+    "description": "Gia chủ gia tộc Thẩm thị, đại lão Alpha cấp S với mùi hương tin tức tố rượu Whisky. Bề ngoài cấm dục, quý tộc, chuẩn phong cách 'old money' thâm trầm bí ẩn, nhưng thực chất là kẻ điên phê, si hán, chiếm hữu cực độ đối với Hoa Y Lâu. Là người nắm giữ ký ức qua các vòng lặp và luôn tìm mọi cách cưỡng ép Hoa Y Lâu ở bên mình mỗi khi thời gian quay ngược."
+  },
+  {
+    "id": "thoi_gia_hy",
+    "name": "Thời Gia Hy",
+    "original_name": "时嘉熙",
+    "role": "Thụ chính nguyên tác (Omega vạn nhân mê)",
+    "pronoun_3rd": "cậu / y",
+    "faction": "Nhân vật chính của truyện tranh gốc",
+    "description": "Nhân vật thụ chính vạn người mê của bộ truyện tranh gốc, có hào quang thu hút tất cả Alpha đỉnh cấp, cuối cùng kết hôn cùng 4 đại lão Alpha S-Class."
+  }
+]

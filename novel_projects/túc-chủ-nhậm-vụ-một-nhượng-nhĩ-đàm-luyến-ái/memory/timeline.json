@@ -1,0 +1,9 @@
+[
+  {
+    "event_id": "evt_001_intro",
+    "title": "Mở đầu: Xuyên thư và cuộc gặp dưới cây hòe",
+    "chapter": "Chapter 1",
+    "summary": "Giản Tri xuyên thư thành pháo hôi, nhận nhiệm vụ từ Hệ thống 34 ngăn Giang Lâm Hề hắc hóa và giúp đồ đệ theo đuổi sư tôn Lạc Thiên Sơn. Trước khi bắt đầu hành động, Giản Tri chạm trán Ân Trường Tư dưới cây hòe cổ thụ và lập tức lật mặt bái nhập môn hạ của y.",
+    "affected_characters": ["gian_tri", "an_truong_tu", "giang_lam_he", "lac_thien_son", "he_thong_34"]
+  }
+]

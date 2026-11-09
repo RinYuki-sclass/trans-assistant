@@ -1,0 +1,20 @@
+[
+  {
+    "source": "gian_tri",
+    "target": "an_truong_tu",
+    "relation": "Sư đồ / Tình nhân 1v1",
+    "description": "Giản Tri ban đầu bái nhập môn hạ của Ân Trường Tư theo cốt truyện nguyên tác. Trong quá trình tương tác, cả hai nảy sinh tình cảm, từ trêu ghẹo thăm dò chuyển thành tình cảm sâu đậm, gắn bó bên nhau."
+  },
+  {
+    "source": "giang_lam_he",
+    "target": "lac_thien_son",
+    "relation": "Sư đồ nguyên tác (CP phụ)",
+    "description": "Đồ đệ nhút nhát và sư tôn thanh lãnh. Được Giản Tri làm quân sư hỗ trợ để ngăn không cho đồ đệ hắc hóa."
+  },
+  {
+    "source": "gian_tri",
+    "target": "he_thong_34",
+    "relation": "Ký chủ và Hệ thống",
+    "description": "Hệ thống 34 giao nhiệm vụ cho Giản Tri nhưng liên tục đau đầu vì phong cách hành sự độc lạ của ký chủ."
+  }
+]
