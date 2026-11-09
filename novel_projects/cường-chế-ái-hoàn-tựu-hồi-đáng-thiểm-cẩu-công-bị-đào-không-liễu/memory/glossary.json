@@ -1,15 +1,21 @@
 [
   {
     "term": "强制爱",
-    "translation": "cưỡng chế ái",
+    "translation": "cưỡng chế yêu",
     "category": "Thuật ngữ thể loại",
-    "note": "Tình yêu ép buộc, cưỡng chế, độc chiếm"
+    "note": "Tình yêu ép buộc, cưỡng chế, độc chiếm (quy chuẩn dự án: cưỡng chế yêu)"
   },
   {
     "term": "回档",
-    "translation": "hồi đương",
+    "translation": "hồi quy / hồi đương",
     "category": "Cơ chế thế giới",
-    "note": "Quay ngược thời gian, load lại điểm lưu (save-load / time loop)"
+    "note": "Quay ngược thời gian, load lại điểm lưu (quy chuẩn dự án: hồi quy = hồi đương)"
+  },
+  {
+    "term": "易感期",
+    "translation": "kỳ mẫn cảm",
+    "category": "Thuật ngữ ABO",
+    "note": "Giai đoạn nhạy cảm, cuồng loạn và bất an của Alpha (quy chuẩn dự án: kỳ mẫn cảm)"
   },
   {
     "term": "舔狗",
@@ -19,7 +25,7 @@
   },
   {
     "term": "掏空",
-    "translation": "đào không / rút cạn / vắt kiệt",
+    "translation": "rút cạn / vắt kiệt",
     "category": "Hành động / Tình trạng",
     "note": "Bị vắt kiệt sức lực, cạn kiệt tinh lực"
   },
@@ -28,12 +34,6 @@
     "translation": "tin tức tố / pheromone",
     "category": "Thuật ngữ ABO",
     "note": "Mùi hương đặc trưng của Alpha và Omega"
-  },
-  {
-    "term": "易感期",
-    "translation": "kỳ dịch cảm",
-    "category": "Thuật ngữ ABO",
-    "note": "Giai đoạn nhạy cảm, cuồng loạn và bất an của Alpha"
   },
   {
     "term": "发情期",
@@ -49,7 +49,7 @@
   },
   {
     "term": "老钱",
-    "translation": "old money",
+    "translation": "old money / lão tiền",
     "category": "Phong cách",
     "note": "Giới siêu giàu truyền thống, quý tộc lâu đời"
   }

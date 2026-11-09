@@ -3,8 +3,159 @@
     "event_id": "evt_000_origin",
     "title": "Thiết lập ban đầu: Đại kết cục đám cưới của nguyên tác",
     "chapter": "Pre-story",
-    "summary": "Hoa Y Lâu nhẫn nhịn hoàn thành tuyến cốt truyện nam phụ liếm cẩu trong bộ truyện tranh ABO, chứng kiến Thời Gia Hy kết hôn cùng 4 đại lão Alpha S-Class và chuẩn bị tận hưởng cuộc sống tự do thì bất ngờ bị Thẩm Kinh Dạng bắt cóc cưỡng chế ái.",
-    "affected_characters": ["hoa_y_lau", "tham_kinh_dang", "thoi_gia_hy"],
-    "loop_count": 0
+    "summary": "Hoa Y Lâu nhẫn nhịn hoàn thành tuyến cốt truyện nam phụ liếm cẩu trong bộ truyện tranh ABO, chứng kiến Thời Gia Hy kết hôn cùng 4 đại lão Alpha S-Class và chuẩn bị tận hưởng cuộc sống tự do thì bất ngờ bị Thẩm Kinh Dạng bắt cóc cưỡng chế yêu."
+  },
+  {
+    "event_id": "evt_ch001",
+    "chapter": "ch_001",
+    "title": "Hôn lễ 4A1O & Hoa Y Lâu bị chuốc mê",
+    "summary": "Hoa Y Lâu mừng rỡ vì thoát vai liếm cẩu sau khi hôn lễ của Thời Gia Hy kết thúc, nhưng vừa ra ngoài đã bị Thẩm Kinh Dạng dùng tin tức tố Whisky và chuốc mê.",
+    "timestamp": "2026-11-09T21:33:14.666687+07:00"
+  },
+  {
+    "event_id": "evt_ch002",
+    "chapter": "ch_002",
+    "title": "Lần hồi quy đầu tiên",
+    "summary": "Hoa Y Lâu tỉnh dậy nhận ra thời gian quay ngược về 1 ngày trước đám cưới. Tưởng rằng chỉ cần tham dự lại là xong nhưng sau đám cưới lại tiếp tục bị bắt cóc.",
+    "timestamp": "2026-11-09T21:33:14.666703+07:00"
+  },
+  {
+    "event_id": "evt_ch003",
+    "chapter": "ch_003",
+    "title": "Bắt quả tang tên biến thái",
+    "summary": "Hoa Y Lâu kiên quyết không ngất, bắt quả tang Thẩm Kinh Dạng đang cầm đồ của mình hít hà say mê. Hai người giằng co nảy lửa.",
+    "timestamp": "2026-11-09T21:33:14.666707+07:00"
+  },
+  {
+    "event_id": "evt_ch004",
+    "chapter": "ch_004",
+    "title": "Lần hồi quy thứ hai",
+    "summary": "Hoa Y Lâu phát hiện Thẩm Kinh Dạng nắm rõ mọi kế hoạch bỏ trốn của mình vì y giữ ký ức từ các vòng lặp trước."
+  },
+  {
+    "event_id": "evt_ch005",
+    "chapter": "ch_005",
+    "title": "Hoa Y Lâu chất vấn Thẩm Kinh Dạng",
+    "summary": "Hoa Y Lâu bùng nổ, hỏi Thẩm Kinh Dạng yêu mình ở điểm nào để mình sửa. Thẩm Kinh Dạng ép hắn vào kỳ mẫn cảm."
+  },
+  {
+    "event_id": "evt_ch006",
+    "chapter": "ch_006",
+    "title": "Thụ chính chết ngoài ý muốn, chuẩn bị hồi quy",
+    "summary": "Thời Gia Hy gặp tai nạn bất ngờ qua đời, thế giới bắt đầu rung chuyển và sụp đổ để chuẩn bị kích hoạt hồi quy toàn diện."
+  },
+  {
+    "event_id": "evt_ch007",
+    "chapter": "ch_007",
+    "title": "Bảo vệ Thời Gia Hy",
+    "summary": "Hoa Y Lâu quyết định theo sát Thời Gia Hy để ngăn chặn cái chết của cậu ta nhằm tránh vòng lặp hồi quy tiếp theo."
+  },
+  {
+    "event_id": "evt_ch008",
+    "chapter": "ch_008",
+    "title": "Tung hỏa mù",
+    "summary": "Hoa Y Lâu tung tin giả với Hạ Dã rằng Thẩm Kinh Dạng thích Thời Gia Hy để đánh lạc hướng."
+  },
+  {
+    "event_id": "evt_ch009",
+    "chapter": "ch_009",
+    "title": "Vắt kiệt thể lực",
+    "summary": "Dù cố gắng xoay xở nhưng Hoa Y Lâu vẫn bị Thẩm Kinh Dạng tóm lại và tiếp tục màn cưỡng chế yêu dồn dập đến kiệt sức."
+  },
+  {
+    "event_id": "evt_ch010",
+    "chapter": "ch_010",
+    "title": "Người họ Thẩm chẳng có đứa ra hồn",
+    "summary": "Hoa Y Lâu ngao ngán nhận xét về tính cách bá đạo và độc đoán của nhà họ Thẩm khi liên tục bị Thẩm Kinh Dạng và Thẩm Trì làm phiền."
+  },
+  {
+    "event_id": "evt_ch011",
+    "chapter": "ch_011",
+    "title": "Hiệu ứng cánh bướm",
+    "summary": "Những thay đổi trong hành động của Hoa Y Lâu bắt đầu kích hoạt hiệu ứng cánh bướm khiến các nhân vật nguyên tác hành xử khác trước."
+  },
+  {
+    "event_id": "evt_ch012",
+    "chapter": "ch_012",
+    "title": "Sụp đổ thiết lập liếm cẩu",
+    "summary": "Hoa Y Lâu hoàn toàn từ bỏ diễn xuất liếm cẩu, công khai thái độ lạnh lùng dứt khoát trước mặt Thời Gia Hy và dàn Alpha."
+  },
+  {
+    "event_id": "evt_ch013",
+    "chapter": "ch_013",
+    "title": "Có chuyện gì thì đốt giấy đi",
+    "summary": "Hoa Y Lâu tuyệt tình từ chối dây dưa với đám người nguyên tác, chỉ mong thoát khỏi kịch bản."
+  },
+  {
+    "event_id": "evt_ch014",
+    "chapter": "ch_014",
+    "title": "Cho tôi một phát dứt khoát",
+    "summary": "Hoa Y Lâu quá mệt mỏi với các vòng lặp cưỡng chế yêu, yêu cầu Thẩm Kinh Dạng cho mình một kết cục dứt khoát."
+  },
+  {
+    "event_id": "evt_ch015",
+    "chapter": "ch_015",
+    "title": "Thanh đao cắm vào mắt",
+    "summary": "Xảy ra biến cố đẫm máu khi một thanh đao cắm thẳng vào mắt Thẩm Kinh Dạng, đẩy tình huống lên cao trào."
+  },
+  {
+    "event_id": "evt_ch016",
+    "chapter": "ch_016",
+    "title": "Thẩm Kinh Dạng đã sớm chết thật rồi",
+    "summary": "Hoa Y Lâu phát hiện sự thật kinh hoàng rằng Thẩm Kinh Dạng nguyên bản đã chết từ lâu, người đang ở cạnh hắn là ai?"
+  },
+  {
+    "event_id": "evt_ch017",
+    "chapter": "ch_017",
+    "title": "Tôi sẽ biến mất trước mặt các người",
+    "summary": "Hoa Y Lâu quyết định rời xa vòng xoáy đấu đá của các nhân vật hào môn để tìm kiếm lối thoát cho chính mình."
+  },
+  {
+    "event_id": "evt_ch018",
+    "chapter": "ch_018",
+    "title": "Bóng ma theo dõi",
+    "summary": "Dù đã rời đi, Hoa Y Lâu vẫn nhận được những tin nhắn ghen tuông điên cuồng từ kẻ bí ẩn trong bóng tối."
+  },
+  {
+    "event_id": "evt_ch019",
+    "chapter": "ch_019",
+    "title": "Chán ghét đôi mắt màu xanh lam",
+    "summary": "Hoa Y Lâu bày tỏ sự chán ghét với đôi mắt màu xanh lam của Noah, tiếp tục bị cuốn vào những âm mưu gia tộc Elster."
+  },
+  {
+    "event_id": "evt_ch020",
+    "chapter": "ch_020",
+    "title": "Trơ mắt nhìn anh chết",
+    "summary": "Vòng xoáy hồi quy và định mệnh lại tiếp diễn khi bi kịch đẫm máu ập đến, khép lại chặng đầu tiên của hành trình phá vỡ kịch bản."
+  },
+  {
+    "event_id": "evt_ch109",
+    "chapter": "ch_109",
+    "title": "Tập kích",
+    "summary": "Biến cố tập kích bất ngờ ập đến, Hoa Y Lâu và Thẩm Kinh Dạng đối mặt với thế lực bí ẩn nhằm phá vỡ quy luật thế giới."
+  },
+  {
+    "event_id": "evt_ch110",
+    "chapter": "ch_110",
+    "title": "Cưỡng ép thẳng nam",
+    "summary": "Hoa Y Lâu đàm phán với Ý chí thế giới. Thẩm Kinh Dạng bộc phát dục vọng chiếm hữu, công khai thú nhận rất thích cảm giác cưỡng ép trai thẳng."
+  },
+  {
+    "event_id": "evt_ch111",
+    "chapter": "ch_111",
+    "title": "Thẩm Kinh Dạng cầm lấy cọ vẽ",
+    "summary": "Thẩm Kinh Dạng cầm cọ vẽ để kích hoạt kỹ năng đặc biệt nhằm phá vỡ xiềng xích gông cùm của cốt truyện tranh."
+  },
+  {
+    "event_id": "evt_ch112",
+    "chapter": "ch_112",
+    "title": "Biến mất",
+    "summary": "Cốt truyện sụp đổ hoàn toàn. Cả thế giới thoát khỏi sự ràng buộc, nhưng Thẩm Kinh Dạng lại tan biến và bị mọi người lãng quên ngoại trừ Hoa Y Lâu."
+  },
+  {
+    "event_id": "evt_ch113",
+    "chapter": "ch_113",
+    "title": "Tìm kiếm (Toàn văn hoàn)",
+    "summary": "Hoa Y Lâu kiên trì tìm kiếm Thẩm Kinh Dạng. Cả hai trùng phùng trong con hẻm quen thuộc như thuở ban đầu. Thẩm Kinh Dạng mỉm cười mời hắn làm trợ lý, khép lại hành trình đầy viên mãn. (Toàn văn hoàn)"
   }
 ]

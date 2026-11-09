@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Tùy Ứng",
+    "hanviet_name": "Tùy Ứng",
+    "original_name": "隋应",
+    "pinyin": "Suí Yīng",
+    "gender": "Nam (Alpha)",
+    "third_person_pronoun": "hắn",
+    "role": "Công chính (Chủ công - Người xuyên thư), Đặc trợ trưởng tập đoàn Quân Chính",
+    "notes": "Alpha, người xuyên thư. Bề ngoài phong độ nho nhã, đeo kính gọng mảnh, tác phong công sở xuất sắc. Nội tâm là kẻ thực dụng/vụ lợi, chăm chỉ cày cuốc để kiếm đủ tiền bồi thường hợp đồng chuồn khỏi cốt truyện. Ngôi 3 trần thuật dùng 'hắn' hoặc 'Tùy Ứng'."
+  },
+  {
+    "name": "Phó Dận An",
+    "hanviet_name": "Phó Dận An",
+    "original_name": "傅胤安",
+    "pinyin": "Fù Yìn'ān",
+    "gender": "Nam (Alpha đỉnh cấp)",
+    "third_person_pronoun": "anh",
+    "role": "Thụ chính, Chủ tịch/Tổng tài tập đoàn Quân Chính, bạo quân thương giới",
+    "notes": "Alpha đỉnh cấp, ban đầu là nam chính công trong tiểu thuyết kiều thê nguyên tác. Tính tình độc đoán, khắt khe với cả thế giới nhưng lại có tiêu chuẩn kép cực kỳ thiên vị và chiếm hữu đối với Tùy Ứng. Ngôi 3 trần thuật dùng 'anh' hoặc 'Phó Dận An'."
+  },
+  {
+    "name": "Hệ thống",
+    "hanviet_name": "Hệ thống",
+    "original_name": "系统 / 世界修正系统",
+    "pinyin": "Xìtǒng",
+    "gender": "Vô tính",
+    "third_person_pronoun": "nó",
+    "role": "Hệ thống sửa chữa/tu chính thế giới",
+    "notes": "Luôn phát thông báo yêu cầu Tùy Ứng đóng vai pháo hôi làm khó nam chính thụ nguyên tác."
+  }
+]

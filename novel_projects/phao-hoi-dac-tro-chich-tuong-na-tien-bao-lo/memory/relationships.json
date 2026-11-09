@@ -1,0 +1,13 @@
+[
+  {
+    "char1": "Tùy Ứng",
+    "char2": "Phó Dận An",
+    "relation_type": "romantic",
+    "status": "Cấp trên - Cấp dưới (Ban đầu) -> Người yêu / Bạn đời (Về sau)",
+    "dialogue_pattern": {
+      "char1_to_char2": "tôi - ngài / Phó tổng (công việc); tôi - anh (thân mật)",
+      "char2_to_char1": "tôi - cậu (công việc); anh - em / tôi - em (thân mật)"
+    },
+    "notes": "Hạ khắc thượng. Tùy Ứng bề ngoài tận tụy phục vụ sếp nhưng trong lòng chỉ mong gom đủ tiền nhảy việc; Phó Dận An dần nảy sinh ham muốn độc chiếm và tình cảm mãnh liệt với Tùy Ứng."
+  }
+]

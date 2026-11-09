@@ -3,19 +3,19 @@
     "id": "hoa_y_lau",
     "name": "Hoa Y Lâu",
     "original_name": "花倚楼",
-    "role": "Công chính (Nhân vật trung tâm / Xuyên thư / Chủ công)",
+    "role": "Công chính (Chủ công / Niên hạ công / Nam sinh đại học)",
     "pronoun_3rd": "hắn",
     "faction": "Phân hóa Beta / Người xuyên thư",
-    "description": "Linh hồn thẳng nam hiện đại xuyên vào thân xác nhân vật phụ cùng tên trong bộ truyện tranh ABO nhiều công một thụ. Trong nguyên tác là nam phụ liếm cẩu lốp dự phòng chuyên bị thụ chính ngược thân ngược tâm rồi chết vì tình. Sau khi nhẫn nhịn chờ đến ngày đại kết cục để tự do nghỉ hưu thì bất ngờ bị Thẩm Kinh Dạng cưỡng chế ái và cuốn vào vòng lặp hồi đương vô tận. Tính tình thích cà khịa, độc miệng, không nội hao, chỉ muốn yên thân."
+    "description": "Linh hồn thẳng nam hiện đại xuyên vào thân xác nhân vật phụ cùng tên trong bộ truyện tranh ABO nhiều công một thụ. Là nam sinh đại học trẻ tuổi (nhỏ tuổi hơn Thẩm Kinh Dạng), bạn học cùng lứa với Thẩm Trì. Xưng hô với Thẩm Kinh Dạng: xưng 'tôi' - gọi 'chú / chú Thẩm / Thẩm tổng / anh / Thẩm Kinh Dạng'."
   },
   {
     "id": "tham_kinh_dang",
     "name": "Thẩm Kinh Dạng",
     "original_name": "沈京漾",
-    "role": "Thụ chính (S-Class Alpha / Tài phiệt)",
+    "role": "Thụ chính (Niên thượng thụ / S-Class Alpha / Tiểu thúc tài phiệt)",
     "pronoun_3rd": "y",
     "faction": "Thẩm thị tài phiệt / Alpha cấp S",
-    "description": "Gia chủ gia tộc Thẩm thị, đại lão Alpha cấp S với mùi hương tin tức tố rượu Whisky. Bề ngoài cấm dục, quý tộc, chuẩn phong cách 'old money' thâm trầm bí ẩn, nhưng thực chất là kẻ điên phê, si hán, chiếm hữu cực độ đối với Hoa Y Lâu. Là người nắm giữ ký ức qua các vòng lặp và luôn tìm mọi cách cưỡng ép Hoa Y Lâu ở bên mình mỗi khi thời gian quay ngược."
+    "description": "Gia chủ gia tộc Thẩm thị, đại lão Alpha cấp S với mùi hương tin tức tố rượu Whisky. Là chú ruột (tiểu thúc) của Thẩm Trì, vai vế bậc chú, lớn tuổi hơn Hoa Y Lâu. Bề ngoài cấm dục quý tộc 'old money', thực chất là kẻ điên phê, chiếm hữu cực độ. Lúc si mê phục tùng hoặc trên giường: gọi Hoa Y Lâu là 'Chồng ơi / Chồng à' (lão công), xưng 'anh / tôi' (Ví dụ: 'Chồng ơi, chiếm đoạt anh đi...', 'Chồng ơi, em mệt rồi sao?')."
   },
   {
     "id": "thoi_gia_hy",
@@ -25,5 +25,41 @@
     "pronoun_3rd": "cậu / y",
     "faction": "Nhân vật chính của truyện tranh gốc",
     "description": "Nhân vật thụ chính vạn người mê của bộ truyện tranh gốc, có hào quang thu hút tất cả Alpha đỉnh cấp, cuối cùng kết hôn cùng 4 đại lão Alpha S-Class."
+  },
+  {
+    "id": "tham_tri",
+    "name": "Thẩm Trì / Thẩm Diệc",
+    "original_name": "沈弛 / 沈弈",
+    "role": "Alpha S-Class nguyên tác 4 (Cháu ruột Thẩm Kinh Dạng)",
+    "pronoun_3rd": "hắn / gã / cậu ta",
+    "faction": "Dàn 4 Alpha nguyên tác / Thẩm thị",
+    "description": "Cháu ruột của Thẩm Kinh Dạng, bạn học cùng trường đại học với Hoa Y Lâu. Tính tình nóng nảy, ngông cuồng."
+  },
+  {
+    "id": "co_tu_lam",
+    "name": "Cố Tư Lẫm",
+    "original_name": "顾司凛",
+    "role": "Alpha S-Class nguyên tác 1",
+    "pronoun_3rd": "hắn / gã",
+    "faction": "Dàn 4 Alpha nguyên tác",
+    "description": "Một trong 4 công Alpha S-Class của Thời Gia Hy. Bá đạo, dễ ghen tuông."
+  },
+  {
+    "id": "ha_da",
+    "name": "Hạ Dã",
+    "original_name": "贺野",
+    "role": "Alpha S-Class nguyên tác 2",
+    "pronoun_3rd": "hắn / gã",
+    "faction": "Dàn 4 Alpha nguyên tác",
+    "description": "Một trong 4 công Alpha S-Class của Thời Gia Hy. Ngông cuồng, kiêu ngạo."
+  },
+  {
+    "id": "phong_du",
+    "name": "Phong Du",
+    "original_name": "风瑜",
+    "role": "Alpha S-Class nguyên tác 3",
+    "pronoun_3rd": "hắn / gã",
+    "faction": "Dàn 4 Alpha nguyên tác",
+    "description": "Một trong 4 công Alpha S-Class của Thời Gia Hy. Ngụy quân tử dịu dàng nhưng thâm hiểm."
   }
 ]

@@ -1,0 +1,65 @@
+[
+  {
+    "original": "特助",
+    "translation": "đặc trợ / trợ lý đặc biệt",
+    "hanviet": "đặc trợ",
+    "category": "job_title",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Chức vụ của Tùy Ứng (trợ lý thân cận đắc lực nhất của tổng tài)."
+  },
+  {
+    "original": "钧正集团",
+    "translation": "tập đoàn Quân Chính",
+    "hanviet": "Quân Chính tập đoàn",
+    "category": "organization",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Tập đoàn đầu ngành do Phó Dận An nắm quyền."
+  },
+  {
+    "original": "首都星",
+    "translation": "Thủ đô tinh / Tinh cầu thủ đô",
+    "hanviet": "Thủ đô tinh",
+    "category": "location",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Hành tinh trung tâm của bối cảnh tinh tế ABO."
+  },
+  {
+    "original": "世界修正系统",
+    "translation": "Hệ thống tu chính thế giới / Hệ thống điều chỉnh thế giới",
+    "hanviet": "Thế giới tu chính hệ thống",
+    "category": "system",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Hệ thống ràng buộc cốt truyện."
+  },
+  {
+    "original": "霸道总裁的掌心小娇妻",
+    "translation": "Cô Vợ Nhỏ Trong Lòng Bàn Tay Của Tổng Tài Bá Đạo",
+    "hanviet": "Bá Đạo Tổng Tài Đích Chưởng Tâm Tiểu Kiều Thê",
+    "category": "novel_title",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Tên cuốn tiểu thuyết gốc mà Tùy Ứng xuyên vào."
+  },
+  {
+    "original": "[Ngôi 3 Tự sự] Tùy Ứng (Công)",
+    "translation": "hắn",
+    "hanviet": "",
+    "category": "pronoun",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Ngôi 3 trần thuật dùng 'hắn' hoặc tên riêng 'Tùy Ứng'."
+  },
+  {
+    "original": "[Ngôi 3 Tự sự] Phó Dận An (Thụ)",
+    "translation": "anh",
+    "hanviet": "",
+    "category": "pronoun",
+    "confidence": 1.0,
+    "approved": true,
+    "notes": "Ngôi 3 trần thuật dùng 'anh' hoặc tên riêng 'Phó Dận An'."
+  }
+]

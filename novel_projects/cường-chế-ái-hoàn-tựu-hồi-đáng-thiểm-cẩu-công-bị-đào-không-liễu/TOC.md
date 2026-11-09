@@ -1,10 +1,124 @@
-# MỤC LỤC: CƯỜNG CHẾ ÁI HOÀN TỰU HỒI ĐÁNG, THIỂM CẨU CÔNG BỊ ĐÀO KHÔNG LIỄU
+# MỤC LỤC: CƯỜNG CHẾ ÁI HOÀN TỰU HỒI ĐÁNG, THIỂM CẨU CÔNG BỊ ĐÀO KHÔNG LIỄU (《强制爱完就回档，舔狗攻被掏空了》)
 
-- **Tác giả:** Nãi Ca Đạt Nhân (奶咖达人)
-- **Thể loại:** Đam mỹ, Hiện đại, Xuyên thư, ABO, Chủ công, Niên hạ, Hồi đương, Thụ cưỡng chế công, 1v1, HE.
-- **Nhân vật chính:** Hoa Y Lâu × Thẩm Kinh Dạng
+- **Tổng số chương:** 113 chương
+- **Tác giả:** Nãi Cà Đạt Nhân (奶咖达人)
+- **Góc nhìn & Thể loại:** Chủ công (Hoa Y Lâu × Thẩm Kinh Dạng), ABO, Niên hạ, Hồi đương, Thụ cưỡng chế công
+- **Nguồn:** [52shuku (bkfhk)](https://www.52shuku.net/chongsheng/20_b/bkfhk.html)
 
 ---
 
-### Danh sách chương:
-*(Chưa nạp chương nào. Hãy đặt `source.md` vào thư mục `chapters/ch_xxx/` để bắt đầu quy trình dịch tự hành.)*
+| STT | Mã chương | Tên chương | Số đoạn | Số ký tự | Trạng thái |
+| :---: | :---: | :--- | :---: | :---: | :---: |
+| 1 | `ch_001` | [Chương 1: 第1章 小黄漫大结局！噢耶！](chapters/ch_001/source.md) | 119 | 3004 | ✅ Hoàn thành |
+| 2 | `ch_002` | [Chương 2: 第2章 第一次回档](chapters/ch_002/source.md) | 144 | 2792 | ✅ Hoàn thành |
+| 3 | `ch_003` | [Chương 3: 第3章 花倚楼要杀了这个变态！](chapters/ch_003/source.md) | 110 | 2411 | ✅ Hoàn thành |
+| 4 | `ch_004` | [Chương 4: 第4章 第二次回档](chapters/ch_004/source.md) | 118 | 2739 | ✅ Hoàn thành |
+| 5 | `ch_005` | [Chương 5: 第5章 “爱我哪里？我他妈的改了行不行？”](chapters/ch_005/source.md) | 124 | 3008 | ✅ Hoàn thành |
+| 6 | `ch_006` | [Chương 6: 第6章 主角受意外死亡，即将回档](chapters/ch_006/source.md) | 93 | 2474 | ✅ Hoàn thành |
+| 7 | `ch_007` | [Chương 7: 第7章 这次我寸步不离跟着时嘉熙，绝不会让他死](chapters/ch_007/source.md) | 101 | 2446 | ✅ Hoàn thành |
+| 8 | `ch_008` | [Chương 8: 第8章 沈京漾喜欢嘉熙？](chapters/ch_008/source.md) | 138 | 3218 | ✅ Hoàn thành |
+| 9 | `ch_009` | [Chương 9: 第9章 掏空](chapters/ch_009/source.md) | 137 | 3266 | ✅ Hoàn thành |
+| 10 | `ch_010` | [Chương 10: 第10章 姓沈的就没一个好玩意](chapters/ch_010/source.md) | 99 | 2422 | ✅ Hoàn thành |
+| 11 | `ch_011` | [Chương 11: 第11章 蝴蝶效应？](chapters/ch_011/source.md) | 91 | 2007 | ✅ Hoàn thành |
+| 12 | `ch_012` | [Chương 12: 第12章 花倚楼的舔狗人设直接OOC](chapters/ch_012/source.md) | 89 | 2266 | ✅ Hoàn thành |
+| 13 | `ch_013` | [Chương 13: 第13章 有事烧纸吧](chapters/ch_013/source.md) | 97 | 1977 | ✅ Hoàn thành |
+| 14 | `ch_014` | [Chương 14: 第14章 能不能给我来个痛快的？](chapters/ch_014/source.md) | 111 | 2165 | ✅ Hoàn thành |
+| 15 | `ch_015` | [Chương 15: 第15章 一柄泛着冷光的刀正插在他眼睛上](chapters/ch_015/source.md) | 108 | 2206 | ✅ Hoàn thành |
+| 16 | `ch_016` | [Chương 16: 第16章 沈京漾早就死透了。](chapters/ch_016/source.md) | 101 | 2675 | ✅ Hoàn thành |
+| 17 | `ch_017` | [Chương 17: 第17章 我会在你们面前消失](chapters/ch_017/source.md) | 79 | 2047 | ✅ Hoàn thành |
+| 18 | `ch_018` | [Chương 18: 第18章 我看到他碰到你了](chapters/ch_018/source.md) | 92 | 2304 | ✅ Hoàn thành |
+| 19 | `ch_019` | [Chương 19: 第19章 我最厌恶的就是蓝色，尤其是蓝色的眼睛](chapters/ch_019/source.md) | 113 | 2683 | ✅ Hoàn thành |
+| 20 | `ch_020` | [Chương 20: 第20章 眼睁睁看着你死](chapters/ch_020/source.md) | 85 | 2147 | ✅ Hoàn thành |
+| 21 | `ch_021` | [Chương 21: 第21章 沈京漾就是Charles。](chapters/ch_021/source.md) | 94 | 2285 | 📥 Raw Ready |
+| 22 | `ch_022` | [Chương 22: 第22章 必须按照花倚楼先生的要求为最高准则遵守](chapters/ch_022/source.md) | 94 | 2701 | 📥 Raw Ready |
+| 23 | `ch_023` | [Chương 23: 第23章 崔焕现在给他的感觉和昨天完全不同](chapters/ch_023/source.md) | 106 | 2270 | 📥 Raw Ready |
+| 24 | `ch_024` | [Chương 24: 第24章 正攻要出轨了](chapters/ch_024/source.md) | 95 | 2348 | 📥 Raw Ready |
+| 25 | `ch_025` | [Chương 25: 第25章 芯子里不是一个人](chapters/ch_025/source.md) | 129 | 2675 | 📥 Raw Ready |
+| 26 | `ch_026` | [Chương 26: 第26章 [检测到主角受意外死亡，即将强制回档...]](chapters/ch_026/source.md) | 120 | 2911 | 📥 Raw Ready |
+| 27 | `ch_027` | [Chương 27: 第27章 “倚楼，终于又见面了。”](chapters/ch_027/source.md) | 86 | 2112 | 📥 Raw Ready |
+| 28 | `ch_028` | [Chương 28: 第28章 人设没有OOC](chapters/ch_028/source.md) | 133 | 2759 | 📥 Raw Ready |
+| 29 | `ch_029` | [Chương 29: 第29章 收紧锁链](chapters/ch_029/source.md) | 97 | 2144 | 📥 Raw Ready |
+| 30 | `ch_030` | [Chương 30: 第30章 “我爱你倚楼，和Alpha和beta都无关。”](chapters/ch_030/source.md) | 116 | 2627 | 📥 Raw Ready |
+| 31 | `ch_031` | [Chương 31: 第31章 挑衅](chapters/ch_031/source.md) | 108 | 2734 | 📥 Raw Ready |
+| 32 | `ch_032` | [Chương 32: 第32章 怅然若失](chapters/ch_032/source.md) | 117 | 2758 | 📥 Raw Ready |
+| 33 | `ch_033` | [Chương 33: 第33章 抱错](chapters/ch_033/source.md) | 100 | 2133 | 📥 Raw Ready |
+| 34 | `ch_034` | [Chương 34: 第34章 已经杀了我一次了](chapters/ch_034/source.md) | 96 | 2470 | 📥 Raw Ready |
+| 35 | `ch_035` | [Chương 35: 第35章 恶趣味](chapters/ch_035/source.md) | 96 | 2247 | 📥 Raw Ready |
+| 36 | `ch_036` | [Chương 36: 第36章 人生不如意十之八九。](chapters/ch_036/source.md) | 108 | 2469 | 📥 Raw Ready |
+| 37 | `ch_037` | [Chương 37: 第37章 淘汰和接替](chapters/ch_037/source.md) | 101 | 2299 | 📥 Raw Ready |
+| 38 | `ch_038` | [Chương 38: 第38章 你一定会来陪我的对吗？](chapters/ch_038/source.md) | 116 | 2717 | 📥 Raw Ready |
+| 39 | `ch_039` | [Chương 39: 第39章 优柔寡断又自卑想当缩头乌龟的丈夫](chapters/ch_039/source.md) | 120 | 2589 | 📥 Raw Ready |
+| 40 | `ch_040` | [Chương 40: 第40章 又要回档了吗](chapters/ch_040/source.md) | 136 | 3100 | 📥 Raw Ready |
+| 41 | `ch_041` | [Chương 41: 第41章 纯然男性的吻](chapters/ch_041/source.md) | 103 | 2071 | 📥 Raw Ready |
+| 42 | `ch_042` | [Chương 42: 第42章 别再纠缠我了](chapters/ch_042/source.md) | 95 | 2297 | 📥 Raw Ready |
+| 43 | `ch_043` | [Chương 43: 第43章 沈京漾误会](chapters/ch_043/source.md) | 163 | 3789 | 📥 Raw Ready |
+| 44 | `ch_044` | [Chương 44: 第44章 醋意横生](chapters/ch_044/source.md) | 103 | 2846 | 📥 Raw Ready |
+| 45 | `ch_045` | [Chương 45: 第45章 该死的贱狗](chapters/ch_045/source.md) | 105 | 2422 | 📥 Raw Ready |
+| 46 | `ch_046` | [Chương 46: 第46章 主角受人设OOC](chapters/ch_046/source.md) | 110 | 2687 | 📥 Raw Ready |
+| 47 | `ch_047` | [Chương 47: 第47章 有什么东西失控了](chapters/ch_047/source.md) | 123 | 2836 | 📥 Raw Ready |
+| 48 | `ch_048` | [Chương 48: 第48章 抹杀](chapters/ch_048/source.md) | 101 | 2502 | 📥 Raw Ready |
+| 49 | `ch_049` | [Chương 49: 第49章 副作用](chapters/ch_049/source.md) | 109 | 2295 | 📥 Raw Ready |
+| 50 | `ch_050` | [Chương 50: 第50章 沈京漾像断了线的风筝](chapters/ch_050/source.md) | 106 | 2405 | 📥 Raw Ready |
+| 51 | `ch_051` | [Chương 51: 第51章 再次回档](chapters/ch_051/source.md) | 97 | 2166 | 📥 Raw Ready |
+| 52 | `ch_052` | [Chương 52: 第52章 我还活着，你高兴吗？老公](chapters/ch_052/source.md) | 130 | 2742 | 📥 Raw Ready |
+| 53 | `ch_053` | [Chương 53: 第53章 “你还能回档几次？”](chapters/ch_053/source.md) | 127 | 3102 | 📥 Raw Ready |
+| 54 | `ch_054` | [Chương 54: 第54章 礼物](chapters/ch_054/source.md) | 112 | 2976 | 📥 Raw Ready |
+| 55 | `ch_055` | [Chương 55: 第55章 拒绝](chapters/ch_055/source.md) | 131 | 3159 | 📥 Raw Ready |
+| 56 | `ch_056` | [Chương 56: 第56章 坦白和危险](chapters/ch_056/source.md) | 116 | 3014 | 📥 Raw Ready |
+| 57 | `ch_057` | [Chương 57: 第57章 杀了时嘉熙](chapters/ch_057/source.md) | 100 | 2547 | 📥 Raw Ready |
+| 58 | `ch_058` | [Chương 58: 第58章 他想快点见到沈京漾。](chapters/ch_058/source.md) | 130 | 2945 | 📥 Raw Ready |
+| 59 | `ch_059` | [Chương 59: 第59章 老公，好久不见](chapters/ch_059/source.md) | 86 | 2359 | 📥 Raw Ready |
+| 60 | `ch_060` | [Chương 60: 第60章 总统套房](chapters/ch_060/source.md) | 86 | 2241 | 📥 Raw Ready |
+| 61 | `ch_061` | [Chương 61: 第61章 我不该存在](chapters/ch_061/source.md) | 103 | 2776 | 📥 Raw Ready |
+| 62 | `ch_062` | [Chương 62: 第62章 转系](chapters/ch_062/source.md) | 115 | 2985 | 📥 Raw Ready |
+| 63 | `ch_063` | [Chương 63: 第63章 花倚楼今天必须死](chapters/ch_063/source.md) | 63 | 1664 | 📥 Raw Ready |
+| 64 | `ch_064` | [Chương 64: 第64章 我想画画了，倚楼](chapters/ch_064/source.md) | 96 | 2532 | 📥 Raw Ready |
+| 65 | `ch_065` | [Chương 65: 第65章 倚楼...我刚才好像疯了](chapters/ch_065/source.md) | 83 | 1992 | 📥 Raw Ready |
+| 66 | `ch_066` | [Chương 66: 第66章 混乱](chapters/ch_066/source.md) | 84 | 2171 | 📥 Raw Ready |
+| 67 | `ch_067` | [Chương 67: 第67章 不是他](chapters/ch_067/source.md) | 91 | 2195 | 📥 Raw Ready |
+| 68 | `ch_068` | [Chương 68: 第68章 不是沈京漾](chapters/ch_068/source.md) | 85 | 2505 | 📥 Raw Ready |
+| 69 | `ch_069` | [Chương 69: 第69章 一切回归正轨](chapters/ch_069/source.md) | 78 | 2068 | 📥 Raw Ready |
+| 70 | `ch_070` | [Chương 70: 第70章 报仇](chapters/ch_070/source.md) | 82 | 2242 | 📥 Raw Ready |
+| 71 | `ch_071` | [Chương 71: 第71章 大义灭亲](chapters/ch_071/source.md) | 99 | 2730 | 📥 Raw Ready |
+| 72 | `ch_072` | [Chương 72: 第72章 主角光环黯淡](chapters/ch_072/source.md) | 103 | 2839 | 📥 Raw Ready |
+| 73 | `ch_073` | [Chương 73: 第73章 床头打架床尾和](chapters/ch_073/source.md) | 68 | 1603 | 📥 Raw Ready |
+| 74 | `ch_074` | [Chương 74: 第74章 崔焕死了？](chapters/ch_074/source.md) | 88 | 2470 | 📥 Raw Ready |
+| 75 | `ch_075` | [Chương 75: 第75章 交易](chapters/ch_075/source.md) | 75 | 2112 | 📥 Raw Ready |
+| 76 | `ch_076` | [Chương 76: 第76章 直觉](chapters/ch_076/source.md) | 115 | 2497 | 📥 Raw Ready |
+| 77 | `ch_077` | [Chương 77: 第77章 世界本源](chapters/ch_077/source.md) | 73 | 2041 | 📥 Raw Ready |
+| 78 | `ch_078` | [Chương 78: 第78章 回敬](chapters/ch_078/source.md) | 82 | 2331 | 📥 Raw Ready |
+| 79 | `ch_079` | [Chương 79: 第79章 胜利的果实](chapters/ch_079/source.md) | 103 | 2198 | 📥 Raw Ready |
+| 80 | `ch_080` | [Chương 80: 第80章 花倚楼的前世(两章合一)](chapters/ch_080/source.md) | 177 | 4478 | 📥 Raw Ready |
+| 81 | `ch_081` | [Chương 81: 第81章 不该是这样](chapters/ch_081/source.md) | 98 | 2357 | 📥 Raw Ready |
+| 82 | `ch_082` | [Chương 82: 第82章 角落的画](chapters/ch_082/source.md) | 91 | 2264 | 📥 Raw Ready |
+| 83 | `ch_083` | [Chương 83: 第83章 顾司凛来电](chapters/ch_083/source.md) | 68 | 2290 | 📥 Raw Ready |
+| 84 | `ch_084` | [Chương 84: 第84章 置之死地而后生](chapters/ch_084/source.md) | 75 | 2209 | 📥 Raw Ready |
+| 85 | `ch_085` | [Chương 85: 第85章 这才是沈京漾](chapters/ch_085/source.md) | 85 | 2294 | 📥 Raw Ready |
+| 86 | `ch_086` | [Chương 86: 第86章 濒临死亡](chapters/ch_086/source.md) | 89 | 2238 | 📥 Raw Ready |
+| 87 | `ch_087` | [Chương 87: 第87章 纠缠到死（两章合一）](chapters/ch_087/source.md) | 144 | 4372 | 📥 Raw Ready |
+| 88 | `ch_088` | [Chương 88: 第88章 顾司凛绝对会做什么](chapters/ch_088/source.md) | 84 | 2381 | 📥 Raw Ready |
+| 89 | `ch_089` | [Chương 89: 第89章 狗链](chapters/ch_089/source.md) | 65 | 2026 | 📥 Raw Ready |
+| 90 | `ch_090` | [Chương 90: 第90章 你又想干什么？](chapters/ch_090/source.md) | 76 | 2211 | 📥 Raw Ready |
+| 91 | `ch_091` | [Chương 91: 第91章 主动](chapters/ch_091/source.md) | 98 | 2195 | 📥 Raw Ready |
+| 92 | `ch_092` | [Chương 92: 第92章 动容](chapters/ch_092/source.md) | 101 | 2655 | 📥 Raw Ready |
+| 93 | `ch_093` | [Chương 93: 第93章 从现在开始，我是你男朋友](chapters/ch_093/source.md) | 86 | 1835 | 📥 Raw Ready |
+| 94 | `ch_094` | [Chương 94: 第94章 七十年前的沈京漾](chapters/ch_094/source.md) | 94 | 2380 | 📥 Raw Ready |
+| 95 | `ch_095` | [Chương 95: 第95章 结婚](chapters/ch_095/source.md) | 80 | 2081 | 📥 Raw Ready |
+| 96 | `ch_096` | [Chương 96: 第96章 不甘心](chapters/ch_096/source.md) | 65 | 2272 | 📥 Raw Ready |
+| 97 | `ch_097` | [Chương 97: 第97章 消失](chapters/ch_097/source.md) | 96 | 2148 | 📥 Raw Ready |
+| 98 | `ch_098` | [Chương 98: 第98章 证据](chapters/ch_098/source.md) | 75 | 2138 | 📥 Raw Ready |
+| 99 | `ch_099` | [Chương 99: 第99章 寻找](chapters/ch_099/source.md) | 95 | 2300 | 📥 Raw Ready |
+| 100 | `ch_100` | [Chương 100: 第100章 画里的男人是谁？](chapters/ch_100/source.md) | 99 | 2519 | 📥 Raw Ready |
+| 101 | `ch_101` | [Chương 101: 第101章 结婚吗？沈京漾。](chapters/ch_101/source.md) | 82 | 1991 | 📥 Raw Ready |
+| 102 | `ch_102` | [Chương 102: 第102章 偷/情](chapters/ch_102/source.md) | 105 | 2314 | 📥 Raw Ready |
+| 103 | `ch_103` | [Chương 103: 第103章 试探](chapters/ch_103/source.md) | 83 | 2087 | 📥 Raw Ready |
+| 104 | `ch_104` | [Chương 104: 第104章 回礼](chapters/ch_104/source.md) | 92 | 2554 | 📥 Raw Ready |
+| 105 | `ch_105` | [Chương 105: 第105章 回国](chapters/ch_105/source.md) | 67 | 1932 | 📥 Raw Ready |
+| 106 | `ch_106` | [Chương 106: 第106章 跟踪](chapters/ch_106/source.md) | 80 | 2295 | 📥 Raw Ready |
+| 107 | `ch_107` | [Chương 107: 第107章 漫长](chapters/ch_107/source.md) | 79 | 2138 | 📥 Raw Ready |
+| 108 | `ch_108` | [Chương 108: 第108章 世界意志](chapters/ch_108/source.md) | 70 | 2259 | 📥 Raw Ready |
+| 109 | `ch_109` | [Chương 109: 第109章 袭击](chapters/ch_109/source.md) | 88 | 2110 | ✅ Hoàn thành |
+| 110 | `ch_110` | [Chương 110: 第110章 强迫直、男](chapters/ch_110/source.md) | 87 | 2364 | ✅ Hoàn thành |
+| 111 | `ch_111` | [Chương 111: 第111章 沈京漾拿起画笔](chapters/ch_111/source.md) | 89 | 2317 | ✅ Hoàn thành |
+| 112 | `ch_112` | [Chương 112: 第112章 消失了](chapters/ch_112/source.md) | 96 | 2631 | ✅ Hoàn thành |
+| 113 | `ch_113` | [Chương 113: 第113章 寻找（全文完）](chapters/ch_113/source.md) | 130 | 3552 | ✅ Hoàn thành |
