@@ -25,10 +25,14 @@ from starlette.middleware.cors import CORSMiddleware
 import uvicorn
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+SCRIPTS_DIR = os.path.dirname(os.path.abspath(__file__))
+if SCRIPTS_DIR not in sys.path:
+    sys.path.insert(0, SCRIPTS_DIR)
 DATA_DIR = os.path.join(BASE_DIR, "data")
 STATIC_DIR = os.path.join(BASE_DIR, "static", "nu_tracker")
 CACHE_IMG_DIR = os.path.join(DATA_DIR, "cache", "nu_covers")
 DB_PATH = os.path.join(DATA_DIR, "nu_tracker.db")
+USER_DATA_JSON_PATH = os.path.join(DATA_DIR, "nu_user_data.json")
 
 os.makedirs(DATA_DIR, exist_ok=True)
 os.makedirs(STATIC_DIR, exist_ok=True)
@@ -123,6 +127,91 @@ def init_db():
 
         conn.commit()
         conn.close()
+    sync_user_data_from_json()
+    dump_user_data_to_json()
+
+
+def dump_user_data_to_json():
+    try:
+        conn = get_db_connection()
+        cur = conn.cursor()
+        cur.execute("SELECT series_id, status, updated_at FROM series WHERE status != 'unread' AND status != ''")
+        statuses = {}
+        for r in cur.fetchall():
+            statuses[str(r["series_id"])] = {
+                "status": r["status"],
+                "updated_at": r["updated_at"] or 0
+            }
+        cur.execute("SELECT value FROM settings WHERE key = 'bookmarked_order'")
+        brow = cur.fetchone()
+        bookmarked_order = int(brow["value"]) if brow and brow["value"] else 0
+
+        cur.execute("SELECT value FROM settings WHERE key = 'excluded_tags'")
+        ex_row = cur.fetchone()
+        excluded_tags = json.loads(ex_row["value"]) if ex_row and ex_row["value"] else []
+        conn.close()
+
+        data = {
+            "bookmarked_order": bookmarked_order,
+            "excluded_tags": excluded_tags,
+            "statuses": statuses,
+            "exported_at": int(time.time()),
+        }
+        temp_file = USER_DATA_JSON_PATH + ".tmp"
+        with open(temp_file, "w", encoding="utf-8") as f:
+            json.dump(data, f, ensure_ascii=False, indent=2)
+        if os.path.exists(USER_DATA_JSON_PATH):
+            try:
+                os.replace(temp_file, USER_DATA_JSON_PATH)
+            except OSError:
+                os.remove(USER_DATA_JSON_PATH)
+                os.replace(temp_file, USER_DATA_JSON_PATH)
+        else:
+            os.replace(temp_file, USER_DATA_JSON_PATH)
+    except Exception as e:
+        print(f"[dump_user_data_to_json] Lỗi: {e}")
+
+
+def sync_user_data_from_json():
+    if not os.path.exists(USER_DATA_JSON_PATH):
+        return
+    try:
+        with open(USER_DATA_JSON_PATH, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        statuses = data.get("statuses") or {}
+        bookmarked_order = int(data.get("bookmarked_order") or 0)
+        excluded_tags = data.get("excluded_tags") or []
+
+        with db_lock:
+            conn = get_db_connection()
+            cur = conn.cursor()
+            for sid, sinfo in statuses.items():
+                if isinstance(sinfo, dict):
+                    st = sinfo.get("status")
+                    up = sinfo.get("updated_at") or int(time.time())
+                else:
+                    st = str(sinfo)
+                    up = int(time.time())
+                if st in ("read", "blacklist", "bookmark", "unread"):
+                    cur.execute(
+                        "UPDATE series SET status = ?, is_new = 0, updated_at = ? WHERE series_id = ?",
+                        (st, up, str(sid))
+                    )
+            if bookmarked_order > 0:
+                cur.execute(
+                    "INSERT OR REPLACE INTO settings (key, value) VALUES ('bookmarked_order', ?)",
+                    (str(bookmarked_order),)
+                )
+            if excluded_tags:
+                cur.execute(
+                    "INSERT OR REPLACE INTO settings (key, value) VALUES ('excluded_tags', ?)",
+                    (json.dumps(excluded_tags, ensure_ascii=False),)
+                )
+            conn.commit()
+            conn.close()
+        print(f"[sync_user_data_from_json] Đã đồng bộ {len(statuses)} trạng thái và vị trí #{bookmarked_order} từ JSON vào SQLite.")
+    except Exception as e:
+        print(f"[sync_user_data_from_json] Lỗi: {e}")
 
 
 def get_setting(key: str, default: str = "") -> str:
@@ -807,6 +896,7 @@ async def api_update_status(request):
         conn.commit()
         conn.close()
 
+    dump_user_data_to_json()
     return JSONResponse({"ok": True, "series_id": series_id, "status": new_status})
 
 
@@ -843,6 +933,7 @@ async def api_bookmark_position(request):
     pos = cur.fetchone()["pos"] or 1
     conn.close()
     target_page = max(1, (pos + per_page - 1) // per_page)
+    dump_user_data_to_json()
     return JSONResponse({"ok": True, "bookmarked_order": fixed_order, "target_page": target_page})
 
 
@@ -921,6 +1012,7 @@ async def api_settings(request):
         set_setting("auto_check_minutes", str(int(body["auto_check_minutes"])))
     if "excluded_tags" in body and isinstance(body["excluded_tags"], list):
         set_setting("excluded_tags", json.dumps(body["excluded_tags"], ensure_ascii=False))
+    dump_user_data_to_json()
     return JSONResponse({"ok": True})
 
 

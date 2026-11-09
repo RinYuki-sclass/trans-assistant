@@ -48,4 +48,5 @@ data/cache_series/
 *.db
 *.sqlite3
 !data/shuku_tracker.db
+!data/nu_tracker.db
 cache/
