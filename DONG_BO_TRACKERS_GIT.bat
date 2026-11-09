@@ -25,6 +25,12 @@ if "%choice%"=="1" (
     git commit -m "sync: cập nhật dữ liệu 52shuku và novelupdates trackers"
     echo [3/3] Đang đẩy lên GitHub (git push)...
     git push origin main
+    if errorlevel 1 (
+        echo.
+        echo [!] GitHub co ban cap nhat moi. Dang tu dong gop va day lai...
+        git pull --rebase origin main
+        git push origin main
+    )
     echo.
     echo === ĐÃ ĐẨY DỮ LIỆU CẢ 2 TRACKER LÊN GITHUB THÀNH CÔNG ===
 ) else if "%choice%"=="2" (
