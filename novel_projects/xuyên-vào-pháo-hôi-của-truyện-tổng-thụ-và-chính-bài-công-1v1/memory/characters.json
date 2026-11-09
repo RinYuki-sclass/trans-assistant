@@ -1,0 +1,65 @@
+[
+  {
+    "id": "nhiep_the_van",
+    "name": "Nhiếp Thế Vân",
+    "original_name": "聂世云",
+    "role": "Công chính (Nhân vật trung tâm / Xuyên thư / Chủ công)",
+    "pronoun_3rd": "hắn",
+    "faction": "Vân Thanh Các (Nhiếp gia)",
+    "description": "Linh hồn hiện đại xuyên vào thân xác tu nhị đại pháo hôi cùng tên, con trai của phó các chủ Vân Thanh Các. Ban đầu mang tam linh căn tương khắc (kim - hỏa - thủy) kẹt ở Luyện Khí hậu kỳ. Vô tình kích hoạt không gian bí mật trong ngọc trụy. Tính cách điềm tĩnh, lý trí, thực tế, luôn chuẩn bị chu toàn trước mọi hiểm cảnh. Đối thoại: xưng 'ta', gọi Địch Bạch Dung là 'ngươi' / 'Bạch Dung'."
+  },
+  {
+    "id": "dich_bach_dung",
+    "name": "Địch Bạch Dung",
+    "original_name": "翟白容",
+    "role": "Thụ chính (Chính bài công của nguyên tác -> Đạo lữ 1v1)",
+    "pronoun_3rd": "y",
+    "faction": "Phái Ánh Nguyệt / Địch gia",
+    "description": "Đồng môn sư huynh của Đoạn Minh Ngọc tại phái Ánh Nguyệt. Thiên chi kiêu tử, tu vi Trúc Cơ hậu kỳ, phong thái quân tử như ngọc, luôn khoác bạch y. Trong nguyên tác vốn là một trong những công chính thuộc dàn hậu cung của Đoạn Minh Ngọc. Sau này gắn bó với Nhiếp Thế Vân, trở thành đạo lữ 1v1."
+  },
+  {
+    "id": "doan_minh_ngoc",
+    "name": "Đoạn Minh Ngọc",
+    "original_name": "段铭玉",
+    "role": "Nhân vật chính thụ nguyên tác (Tổng thụ bạch liên hoa vạn nhân mê)",
+    "pronoun_3rd": "y / hắn",
+    "faction": "Ánh Nguyệt Phái (映月派)",
+    "description": "Nhân vật trung tâm trong nguyên tác tiểu thuyết tổng thụ, mang hào quang vạn người mê, thể chất Thiên Âm chi thể, tính cách ngây thơ, tự luyến. Đệ tử của Khúc tiền bối phái Ánh Nguyệt."
+  },
+  {
+    "id": "nhung_luat",
+    "name": "Nhung Luật",
+    "original_name": "戎律",
+    "role": "Công số 2 của Đoạn Minh Ngọc trong nguyên tác (Thiên giáng trúc mã)",
+    "pronoun_3rd": "y / hắn",
+    "faction": "Lăng Phong Sơn (凌峰山)",
+    "description": "Kiếm tu trầm mặc ít nói của Lăng Phong Sơn, thuở nhỏ quen biết Đoạn Minh Ngọc ở phàm giới, sau khi tái ngộ trong Mê Vụ Bí Cảnh thì gạo nấu thành cơm với Đoạn Minh Ngọc."
+  },
+  {
+    "id": "nhiep_le",
+    "name": "Nhiếp Lê",
+    "original_name": "聂黎",
+    "role": "Phụ thân của Nhiếp Thế Vân",
+    "pronoun_3rd": "ông",
+    "faction": "Vân Thanh Các",
+    "description": "Phó các chủ Vân Thanh Các, thương yêu và nuông chiều con trai duy nhất sau khi thê tử tọa hóa. Giấu các chủ dùng linh dược đan dược đắp tu vi Nhiếp Thế Vân lên Luyện Khí hậu kỳ, chu cấp toàn bộ tài nguyên cho con vào bí cảnh."
+  },
+  {
+    "id": "te_hien_nhi",
+    "name": "Tề Hiên Nhi",
+    "original_name": "齐轩儿",
+    "role": "Sư muội của Nhiếp Thế Vân",
+    "pronoun_3rd": "nàng",
+    "faction": "Vân Thanh Các",
+    "description": "Đồ đệ thứ hai của phó các chủ Nhiếp Lê, tính tình dịu dàng, tu vi tiến bộ vượt qua Nhiếp Thế Vân khiến nguyên chủ từng đố kỵ."
+  },
+  {
+    "id": "nhiep_hung_an",
+    "name": "Nhiếp Hưng An",
+    "original_name": "聂兴安",
+    "role": "Đường huynh Nhiếp Thế Vân",
+    "pronoun_3rd": "y / hắn",
+    "faction": "Vân Thanh Các (Nhiếp gia)",
+    "description": "Lớn hơn Nhiếp Thế Vân mười tuổi, luyện khí sư trẻ tuổi tài năng, tính tình chất phác hào sảng, cho Nhiếp Thế Vân mượn 10 vạn linh thạch không chần chừ."
+  }
+]

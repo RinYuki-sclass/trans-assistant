@@ -1,0 +1,18 @@
+[
+  {
+    "id": "co_vu",
+    "name": "Cố Vũ",
+    "original_name": "顾宇",
+    "role": "Công chính (Xuyên thư, nam phụ pháo hôi)",
+    "pronoun_3rd": "anh",
+    "description": "Xuyên thư 20 năm mới phát hiện bản thân là nam phụ pháo hôi độc ác, đào hoa lãng tử, tính tình dí dỏm. Khi định ôm chân nhân vật chính công thì phát hiện đối phương chính là bạn trai cũ bị mình bỏ rơi thời cấp ba."
+  },
+  {
+    "id": "pho_hoa_duc",
+    "name": "Phó Hoa Dục",
+    "original_name": "傅桦煜",
+    "role": "Thụ chính (Nhân vật chính công của nguyên tác)",
+    "pronoun_3rd": "hắn",
+    "description": "Đại lão thương trường mặt lạnh, quyền thế ngút trời, vốn là nhân vật chính công nguyên tác nhưng không đến với thụ chính. Bạn trai cũ thời cấp ba của Cố Vũ, vẫn luôn ghi nhớ chuyện xưa."
+  }
+]

@@ -1,5 +1,10 @@
 {
   "bookmarked_order": 0,
-  "statuses": {},
-  "exported_at": 1794194150
+  "statuses": {
+    "chongsheng_bkfLX": {
+      "status": "bookmark",
+      "updated_at": 1794215212
+    }
+  },
+  "exported_at": 1794215212
 }

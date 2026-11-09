@@ -1,0 +1,26 @@
+[
+  {
+    "source": "nhiep_the_van",
+    "target": "dich_bach_dung",
+    "relation": "Tiên tố hậu ái / Đạo lữ 1v1",
+    "description": "Nhiếp Thế Vân trong lúc cướp đoạt cơ duyên tại Mê Vụ Bí Cảnh đã vô tình cuốn Địch Bạch Dung về phía mình. Từ việc phát sinh quan hệ thể xác ban đầu, hai người cùng đồng hành tu luyện, luyện khí làm giàu, từng bước thấu hiểu và gắn bó thành đạo lữ sinh tử son sắt 1v1."
+  },
+  {
+    "source": "nhiep_the_van",
+    "target": "doan_minh_ngoc",
+    "relation": "Pháo hôi nghịch tập vs Nhân vật chính nguyên tác",
+    "description": "Trong nguyên tác, Nhiếp Thế Vân ganh ghét Đoạn Minh Ngọc, muốn giết người đoạt bảo nên bị đánh chết. Sau khi xuyên thư, Nhiếp Thế Vân chủ động giữ khoảng cách, nhanh tay nẫng trước cơ duyên của Đoạn Minh Ngọc và bẻ gãy tuyến kịch bản hậu cung của đối phương."
+  },
+  {
+    "source": "dich_bach_dung",
+    "target": "doan_minh_ngoc",
+    "relation": "Chính bài công nguyên tác -> Cắt đứt quan hệ",
+    "description": "Trong nguyên tác là một trong những công chính sủng ái Đoạn Minh Ngọc. Sau khi trói buộc định mệnh với Nhiếp Thế Vân, Địch Bạch Dung triệt để rời khỏi vòng xoáy hậu cung của Đoạn Minh Ngọc."
+  },
+  {
+    "source": "nhiep_the_van",
+    "target": "pho_cac_chu_nhiep",
+    "relation": "Phụ tử",
+    "description": "Nhiếp phó các chủ là cha của nguyên chủ, người đứng sau tạo điều kiện tài nguyên luyện khí cho Nhiếp Thế Vân tại Vân Thanh Các."
+  }
+]
