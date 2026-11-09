@@ -144,7 +144,11 @@
     "jiakong_bkegu": {
       "status": "blacklist",
       "updated_at": 1794221118
+    },
+    "chongsheng_bkecr": {
+      "status": "bookmark",
+      "updated_at": 1794221972
     }
   },
-  "exported_at": 1794221118
+  "exported_at": 1794221977
 }
