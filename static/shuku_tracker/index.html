@@ -1934,6 +1934,10 @@
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ action })
         });
+        if (!res.ok) {
+          const txt = await res.text();
+          throw new Error(res.status === 404 ? 'Server đang chạy phiên bản cũ chưa nạp endpoint mới (404). Vui lòng tắt cửa sổ console Tracker và mở lại!' : (txt || ('Lỗi HTTP ' + res.status)));
+        }
         const data = await res.json();
         if (data.ok) {
           showToast(`✅ ${data.message}`);
