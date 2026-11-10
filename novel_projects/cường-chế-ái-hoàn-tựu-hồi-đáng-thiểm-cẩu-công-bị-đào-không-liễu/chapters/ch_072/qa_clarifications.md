@@ -1,0 +1,30 @@
+# BẢNG KHẢO SÁT & LÀM RÕ THỰC THỂ / XƯNG HÔ CHƯƠNG 72 (CH_072)
+
+### 📋 BẢNG A: Thống nhất Xưng hô & Đối thoại trong chương
+
+| STT | Cặp nhân vật | Ngữ cảnh trong chương | Đề xuất xưng hô (Tôi - anh / Tôi - ngươi...) | Trạng thái / Ghi chú |
+| :---: | :--- | :--- | :--- | :---: |
+| 1 | **Hoa Y Lâu** ↔ **Kẻ chiếm thân xác Thẩm Kinh Dạng (Vong hồn hệ thống)** | Hoa Y Lâu và kẻ chiếm thân xác Thẩm Kinh Dạng đứng xem tranh tại triển lãm. Kẻ này chê bai tranh vẽ, đe dọa và trào phúng; Hoa Y Lâu lạnh lùng bóc trần sự vụng về của kẻ giả mạo. | - **Kẻ chiếm xác (tự cao, mỉa mai, khinh miệt Beta):** xưng **“ta / tôi”** – gọi **“ngươi / cậu / Hoa Y Lâu”** (*“Ngươi vẽ ta à? Nhưng ta chẳng bao giờ đụng vào tranh...”, “Cho dù tố cáo Phong Du thì có ích gì chứ?... Hoa Y Lâu, ngươi tính là cái thứ gì...”, “Không ngờ ngươi lại đánh giá ta cao đến thế...”, “Là ngươi giở trò quỷ sao?! Ngươi rốt cuộc đã làm gì? Nói mau!...”*).<br>- **Hoa Y Lâu (lạnh nhạt, khinh bỉ thứ chiếm xác):** xưng **“tôi”** – gọi **“ngươi”** (*“Buồn nôn thì qua một bên mà nôn, không cần sán lại gần.”, “Thẩm Kinh Dạng thật sự bị ngươi giấu đi đâu rồi?”, “Thẩm Kinh Dạng trước giờ thái sơn sụp trước mắt cũng không đổi sắc mặt, ngươi có muốn giả vờ thì chí ít cũng giả vờ cho giống một chút.”, “Chẳng lẽ ngươi định bảo, đến lượt nhà họ Hoa tôi phá sản rồi sao?”, “Quên nói cho ngươi biết.”*). | ✅ Đã khóa chuẩn đối đầu giữa Hoa Y Lâu và kẻ chiếm xác |
+| 2 | **Hạ Dã** ↔ **Hoa Y Lâu** | Hạ Dã tới khiêu khích Thẩm Kinh Dạng, sau đó ghé sát bên tai Hoa Y Lâu mỉa mai gu chọn người của Hoa Y Lâu và rủ đi ăn mừng, giới thiệu Omega ngọt ngào. | - **Hạ Dã:** xưng **“tôi”** – gọi **“cậu / Hoa Y Lâu”** (*“Hoa Y Lâu, trước kia cậu ngủ với cái thứ này à, tự đại cuồng vọng lại còn ngu ngốc, cứng nhắc thì có gì vui? Lát nữa đi ăn mừng tôi giới thiệu mấy Omega dịu dàng xinh đẹp lại có tin tức tố ngọt ngào cho cậu.”*).<br>- **Hoa Y Lâu:** khinh bỉ trong lòng, gọi Hạ Dã đi về (*“Đi thôi, Hạ Dã.”*). | ✅ Đã khóa chuẩn bạn bè / liên minh tạm thời |
+| 3 | **Hạ Dã** ↔ **Thẩm Kinh Dạng (Kẻ chiếm xác)** | Hạ Dã xỉa xói Thẩm Kinh Dạng dính líu đến vụ tố cáo triển lãm tranh, sau đó đánh trả khi bị Thẩm Kinh Dạng đấm. | - **Hạ Dã (châm chọc, cay độc):** gọi **“Giáo sư Thẩm / tình nhân nhỏ tổng tài bá đạo của cậu”** (*“Chậc chậc, Giáo sư Thẩm sao vẫn còn ở đây thế này? Vụ tố cáo đang xôn xao trên mạng chắc cũng có liên quan tới anh nhỉ?...”, “Trông kìa, tình nhân nhỏ tổng tài bá đạo của cậu chật vật chưa kìa... Đáng đời đau chết đi cho xong.”, “Chẳng lẽ bị tôi một cước đá chết rồi?”*).<br>- **Kẻ chiếm xác Thẩm Kinh Dạng:** khinh khỉnh coi thường (*“Tố cáo? Hừ, chẳng qua chỉ là đi một vòng thủ tục thôi.”*). | ✅ Đã khóa chuẩn đối đầu kịch liệt |
+| 4 | **Thời Gia Hy** ↔ **Hoa Y Lâu & Hạ Dã** | Thời Gia Hy bị còng tay, hai viên cảnh sát áp giải vì liên quan đến dòng tiền rửa tiền của Phong Du, gào khóc cầu xin giúp đỡ. | - **Thời Gia Hy (hoảng loạn, khóc lóc cầu cứu):** xưng **“tôi”** – gọi **“Y Lâu / A Dã”** (*“Y Lâu! A Dã! Hai người mau giúp tôi với, tôi thật sự không biết gì về chuyện rửa tiền cả, tôi cũng không biết số tiền trong tài khoản của mình từ đâu mà tới! Tôi không phạm tội, A Dã!”*). | ✅ Đã khóa chuẩn nhân vật chính nguyên tác sụp đổ |
+| 5 | **Ngôi thứ trần thuật (POV)** | Điểm nhìn trần thuật đan xen giữa Hoa Y Lâu, Kẻ chiếm xác Thẩm Kinh Dạng và Hạ Dã. | - **Hoa Y Lâu (Chủ công - POV chính):** Luôn dùng đại từ trần thuật **“hắn”**.<br>- **Thẩm Kinh Dạng (Thụ chính / thân xác Alpha):** Dùng đại từ trần thuật **“y”** hoặc tên Thẩm Kinh Dạng. Khi nói về bản thể kẻ chiếm xác: dùng "thứ kia", "vong hồn kia", "kẻ này".<br>- **Hạ Dã:** Dùng tên riêng hoặc "hắn / gã".<br>- **Thời Gia Hy:** Dùng tên riêng hoặc "cậu". | ✅ Phân tách tuyệt đối đại từ ngôi 3 |
+
+---
+
+### 📋 BẢNG B: Thuật ngữ / Thực thể xuất hiện trong chương
+
+| STT | Thuật ngữ gốc | Phân loại | Ngữ cảnh xuất hiện | Đề xuất dịch chuẩn | Ghi chú quy tắc |
+| :---: | :--- | :--- | :--- | :--- | :--- |
+| 1 | **主角光环黯淡** | Tiêu đề chương 72 | Hào quang nhân vật chính của Thời Gia Hy bị suy yếu sau các lần hồi quy và vụ việc bắt giữ. | **Hào quang nhân vật chính ảm đạm** | Tiêu đề: Chương 72: Hào quang nhân vật chính ảm đạm |
+| 2 | **主角光环** | Khái niệm truyện tranh | Lớp hào quang bao bọc nhân vật trung tâm của thế giới (Thời Gia Hy). | **hào quang nhân vật chính** | Thuật ngữ cốt lõi |
+| 3 | **画中画** | Nghệ thuật | Bức tranh lồng trong tranh của Hoa Y Lâu vẽ bóng lưng người họa sĩ đang vẽ Hoa Y Lâu lúc còn cười rạng rỡ. | **tranh trong tranh** | Bức họa đặc biệt của Hoa Y Lâu |
+| 4 | **花杨公司** | Doanh nghiệp | Công ty xưởng nhỏ của gia đình Hoa Y Lâu bị kẻ chiếm xác gây khó dễ. | **công ty Hoa Dương** | Gia đình họ Hoa |
+| 5 | **觉醒NPC / NPC** | Khái niệm xuyên thư | Các nhân vật phụ thức tỉnh ý thức thoát khỏi sự khống chế của cốt truyện gốc. | **NPC thức tỉnh / NPC** | Khái niệm game / xuyên thư |
+| 6 | **回档 / 回档通道** | Cơ chế thời gian | Kẻ điên Thẩm Kinh Dạng kích hoạt kênh hồi quy sau mỗi cái chết của Thời Gia Hy. | **hồi quy / kênh hồi quy** | Thuật ngữ Hồi đương của truyện |
+| 7 | **舔狗人设** | Thiết lập nhân vật | Vai liếm cẩu theo đuổi Thời Gia Hy mù quáng trong nguyên tác. | **thiết lập liếm cẩu** | Giữ đúng thuật ngữ gốc |
+| 8 | **洗钱** | Tội phạm kinh tế | Dòng tiền gian lận phi pháp trong triển lãm tranh chuyển qua tài khoản Thời Gia Hy. | **rửa tiền** | Trọng tâm điều tra |
+| 9 | **投注画作款** | Giao dịch tài chính | Khoản tiền Phong Du chuyển vào tài khoản Thời Gia Hy ghi chú tiền đầu tư tranh. | **tiền đầu tư tranh** | Bằng chứng liên đới tội phạm |
+| 10 | **霸总小情人** | Danh xưng mỉa mai | Hạ Dã mỉa mai Thẩm Kinh Dạng là tình nhân nhỏ tổng tài bá đạo của Hoa Y Lâu. | **tình nhân nhỏ tổng tài bá đạo** | Lời thoại sắc xảo của Hạ Dã |
+| 11 | **绝症** | Bệnh lý | Hạ Dã mỉa mai cú đá vào bụng Thẩm Kinh Dạng xem có mắc bệnh nan y không. | **bệnh nan y / bệnh hiểm nghèo** | Giọng điệu độc địa của Hạ Dã |
+| 12 | **信息素** | Thuật ngữ ABO | Mùi hương pheromone ngọt ngào của các Omega. | **tin tức tố** | Quy chuẩn ABO bắt buộc |

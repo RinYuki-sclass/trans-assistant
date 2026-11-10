@@ -157,5 +157,82 @@
     "chapter": "ch_113",
     "title": "Tìm kiếm (Toàn văn hoàn)",
     "summary": "Hoa Y Lâu kiên trì tìm kiếm Thẩm Kinh Dạng. Cả hai trùng phùng trong con hẻm quen thuộc như thuở ban đầu. Thẩm Kinh Dạng mỉm cười mời hắn làm trợ lý, khép lại hành trình đầy viên mãn. (Toàn văn hoàn)"
+  },
+  {
+    "event_id": "evt_batch_002",
+    "title": "Batch 2 (Chương 021 - 040): Ám đấu gia tộc Elster, Hào Quân Nhất Hào & Cưỡng chế ái tại Khôi Thành",
+    "chapter": "Chương 021 - 040",
+    "summary": "Hoa Y Lâu phát hiện thân phận Charles của Thẩm Kinh Dạng, Thôi Hoán làm luật sư di chúc can thiệp, Thẩm Kinh Dạng bộc lộ chứng thèm khát tiếp xúc da thịt và bản chất si hán độc chiếm bảo hộ Hoa Y Lâu tại Hào Quân Nhất Hào."
+  },
+  {
+    "event_id": "evt_batch_003",
+    "chapter_range": "ch_041 - ch_060",
+    "title": "Batch 3 (Chương 041 - 060): Giằng xé tình cảm, Hồi quy liên hoàn, Bí mật thiết lập OOC & Thẩm Kinh Dạng hồi sinh phục tùng",
+    "summary": "Hoa Y Lâu và Thẩm Kinh Dạng trải qua những giằng xé kịch tính về tâm lý và dục vọng: nụ hôn nam tính nồng nhiệt, cơn ghen mù quáng và sự ngờ vực đối với Thời Gia Hy. Thiết lập nhân vật của thụ chính bắt đầu sụp đổ và chịu hình phạt từ cơ chế thế giới. Đỉnh điểm là biến cố Thẩm Kinh Dạng hy sinh khiến Hoa Y Lâu rơi vào tuyệt vọng và kích hoạt hồi quy tiếp theo. Sau khi hồi quy, Hoa Y Lâu chủ động đối đầu với Phong Du và thế lực gia tộc Charles, từng bước đảo ngược cục diện. Thẩm Kinh Dạng sống lại trong trạng thái si mê cuồng nhiệt, chấp nhận phục tùng, tha thiết gọi Hoa Y Lâu là Chồng ơi / Lão công, tạo nên bước chuyển biến tình cảm then chốt tại phòng Suite tổng thống.",
+    "characters_involved": [
+      "Hoa Y Lâu",
+      "Thẩm Kinh Dạng",
+      "Thời Gia Hy",
+      "Thẩm Trì",
+      "Phong Du",
+      "Charles",
+      "Lưu Tần",
+      "Thôi Hoán",
+      "Hạ Dã"
+    ],
+    "impact_on_plot": "Thẩm Kinh Dạng hoàn toàn nhận thức rõ các vòng lặp hồi quy và sự thật về thế giới; tình cảm của y biến chuyển thành sự si mê phụ thuộc tuyệt đối vào Hoa Y Lâu; mối quan hệ giữa công và thụ bước vào giai đoạn thấu hiểu và gắn kết bền chặt hơn."
+  },
+  {
+    "event_id": "evt_batch_004",
+    "chapter_range": "ch_061 - ch_080",
+    "title": "Batch 4 (Chương 061 - 080): Bí mật bản nguyên thế giới, Thôi Hoán giả chết & Đại kết cục tiền kiếp của Hoa Y Lâu",
+    "summary": "Hoa Y Lâu phát hiện ra những bí mật chấn động về cơ chế thế giới và thân thế thật của mình: hắn không phải là kẻ ngoại lai ngẫu nhiên mà vốn dĩ đã có tiền kiếp gắn bó sâu sắc với Thẩm Kinh Dạng. Các thế lực như Phong Du, Thẩm phu nhân, và kẻ đoạt xá tiếp tục gây nhiễu loạn nhưng bị Thẩm Kinh Dạng và Hoa Y Lâu cùng Thẩm Trì, Hạ Dã liên thủ trừng trị. Biến cố Thôi Hoán giả chết, giao dịch ngầm và sự thức tỉnh của bản nguyên thế giới (Chương 77). Đỉnh điểm ở Chương 80 (chương đôi dung lượng lớn), toàn bộ ký ức tiền kiếp của Hoa Y Lâu được tái hiện trọn vẹn, giải mã nguyên do sâu xa khiến Thẩm Kinh Dạng si mê hắn đến điên cuồng, cam tâm đánh đổi tất cả để hồi quy thời gian cứu vớt sinh mệnh của hắn.",
+    "characters_involved": [
+      "Hoa Y Lâu",
+      "Thẩm Kinh Dạng",
+      "Thẩm Trì",
+      "Hạ Dã",
+      "Thôi Hoán",
+      "Phong Du",
+      "Thời Gia Hy",
+      "Thẩm phu nhân"
+    ],
+    "impact_on_plot": "Tháo gỡ nút thắt cốt lõi nhất về nguồn gốc của các vòng lặp hồi quy và thiết lập thế giới; tình cảm giữa Hoa Y Lâu và Thẩm Kinh Dạng hoàn toàn bước sang giai đoạn thấu cảm sâu sắc, xóa bỏ mọi rào cản và hiểu lầm về sự cưỡng chế ban đầu."
+  },
+  {
+    "event_id": "evt_batch_005",
+    "chapter_range": "ch_081 - ch_100",
+    "title": "Batch 5 (Chương 081 - 100): Cố Tư Lẫm nhập cuộc, Đăng ký kết hôn & Cuộc truy tìm người đàn ông trong tranh",
+    "summary": "Sau khi hiểu rõ tiền kiếp và bản chất thế giới, Hoa Y Lâu và Thẩm Kinh Dạng bước vào giai đoạn thấu hiểu sâu sắc và liên thủ đối phó với các thế lực. Sự xuất hiện của Cố Tư Lẫm cùng biến chuyển của Thời Gia Hy thúc đẩy nhanh tiến trình giải mã hệ thống. Đỉnh điểm là sự kiện đăng ký kết hôn chính thức (Chương 95, 97), Thẩm Kinh Dạng hạnh phúc tột cùng, tha thiết gọi Hoa Y Lâu là Chồng ơi khi cầm giấy chứng nhận. Tuy nhiên, ý chí thế giới ra tay thanh trừng khiến Thẩm Kinh Dạng biến mất và bị xóa sạch dấu vết. Hoa Y Lâu không bỏ cuộc, cùng Lưu Tần, Thẩm Trì, Hạ Dã lần theo bức tranh chân dung người đàn ông mắt xanh để mở ra cuộc tìm kiếm xuyên thời gian nhằm cứu lấy y (Chương 99-100).",
+    "characters_involved": [
+      "Hoa Y Lâu",
+      "Thẩm Kinh Dạng",
+      "Cố Tư Lẫm",
+      "Thời Gia Hy",
+      "Lưu Tần",
+      "Thẩm Trì",
+      "Hạ Dã",
+      "Tôn Càn",
+      "Phong Du"
+    ],
+    "impact_on_plot": "Xác lập quan hệ hôn nhân danh chính ngôn thuận giữa Hoa Y Lâu và Thẩm Kinh Dạng; chuyển biến tâm lý hoàn hảo khi Hoa Y Lâu trở thành người chủ động truy tìm, bảo vệ và giải cứu Thẩm Kinh Dạng khỏi sự xóa sổ của thế giới."
+  },
+  {
+    "event_id": "evt_batch_006",
+    "chapter_range": "ch_101 - ch_108",
+    "title": "Batch 6 (Chương 101 - 108): Tái ngộ định mệnh, Phong Thanh can thiệp & Đập tan xiềng xích ý chí thế giới",
+    "summary": "Hoa Y Lâu kiên trì không từ bỏ cuộc tìm kiếm ở Học viện Mỹ thuật, lần theo tung tích của Thẩm Kinh Dạng. Dù Thẩm Kinh Dạng chịu sự khống chế và vặn vẹo ký ức của Ý chí thế giới, mối liên kết sâu sắc giữa hai người không hề bị cắt đứt. Hoa Y Lâu trực tiếp gặp lại Thẩm Kinh Dạng, bất chấp sự có mặt và thăm dò của Phong Thanh cùng phe cánh đối địch (Chương 101-103). Hoa Y Lâu chủ động trao 'món quà đáp lễ' (Chương 104), dứt khoát đưa người về nước (Chương 105), âm thầm theo dõi và bóc trần những mưu mô ẩn sau (Chương 106-107). Đỉnh điểm ở Chương 108, Hoa Y Lâu trực diện đối đầu với hiện thân của Ý chí thế giới, dùng tình yêu sắt đá và chấp niệm bất diệt để bảo hộ Thẩm Kinh Dạng, chuẩn bị bước vào trận chiến quyết định cuối cùng giải phóng hoàn toàn số phận của cả hai.",
+    "characters_involved": [
+      "Hoa Y Lâu",
+      "Thẩm Kinh Dạng",
+      "Phong Thanh",
+      "Phong Du",
+      "Cố Tư Lẫm",
+      "Hạ Dã",
+      "Thẩm Trì",
+      "Lưu Tần",
+      "Ý chí thế giới"
+    ],
+    "impact_on_plot": "Kết nối liền mạch toàn bộ mạch truyện từ cao trào tìm kiếm của Batch 5 đến các chương hồi kết (Chương 109-113); đánh dấu sự trưởng thành trọn vẹn của Hoa Y Lâu từ kẻ bị cưỡng chế ban đầu trở thành người che chở, bảo vệ tuyệt đối và phá vỡ xiềng xích số phận vì Thẩm Kinh Dạng."
   }
 ]

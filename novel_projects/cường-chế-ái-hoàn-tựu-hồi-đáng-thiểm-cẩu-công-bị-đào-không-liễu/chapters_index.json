@@ -3,7 +3,7 @@
   "slug": "cường-chế-ái-hoàn-tựu-hồi-đáng-thiểm-cẩu-công-bị-đào-không-liễu",
   "total_chapters": 113,
   "status": "raw_ready",
-  "updated_at": "2026-11-09T21:07:31.132310+07:00",
+  "updated_at": "2026-11-10T22:01:27.911640",
   "chapters": [
     {
       "chapter_id": "ch_001",
@@ -272,10 +272,11 @@
       "original_title": "第21章 沈京漾就是Charles。",
       "paragraphs_count": 94,
       "characters_count": 2285,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_021/source.md",
       "has_translation": false,
-      "updated_at": "2026-11-09T21:07:31.090391+07:00"
+      "updated_at": "2026-11-09T21:07:31.090391+07:00",
+      "qc_approved": true
     },
     {
       "chapter_id": "ch_022",
@@ -284,10 +285,11 @@
       "original_title": "第22章 必须按照花倚楼先生的要求为最高准则遵守",
       "paragraphs_count": 94,
       "characters_count": 2701,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_022/source.md",
       "has_translation": false,
-      "updated_at": "2026-11-09T21:07:31.090717+07:00"
+      "updated_at": "2026-11-09T21:07:31.090717+07:00",
+      "qc_approved": true
     },
     {
       "chapter_id": "ch_023",
@@ -296,10 +298,11 @@
       "original_title": "第23章 崔焕现在给他的感觉和昨天完全不同",
       "paragraphs_count": 106,
       "characters_count": 2270,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_023/source.md",
       "has_translation": false,
-      "updated_at": "2026-11-09T21:07:31.091511+07:00"
+      "updated_at": "2026-11-09T21:07:31.091511+07:00",
+      "qc_approved": true
     },
     {
       "chapter_id": "ch_024",
@@ -308,10 +311,11 @@
       "original_title": "第24章 正攻要出轨了",
       "paragraphs_count": 95,
       "characters_count": 2348,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_024/source.md",
       "has_translation": false,
-      "updated_at": "2026-11-09T21:07:31.091911+07:00"
+      "updated_at": "2026-11-09T21:07:31.091911+07:00",
+      "qc_approved": true
     },
     {
       "chapter_id": "ch_025",
@@ -320,10 +324,11 @@
       "original_title": "第25章 芯子里不是一个人",
       "paragraphs_count": 129,
       "characters_count": 2675,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_025/source.md",
       "has_translation": false,
-      "updated_at": "2026-11-09T21:07:31.092231+07:00"
+      "updated_at": "2026-11-09T21:07:31.092231+07:00",
+      "qc_approved": true
     },
     {
       "chapter_id": "ch_026",
@@ -332,10 +337,11 @@
       "original_title": "第26章 [检测到主角受意外死亡，即将强制回档...]",
       "paragraphs_count": 120,
       "characters_count": 2911,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_026/source.md",
       "has_translation": false,
-      "updated_at": "2026-11-09T21:07:31.092641+07:00"
+      "updated_at": "2026-11-09T21:07:31.092641+07:00",
+      "qc_approved": true
     },
     {
       "chapter_id": "ch_027",
@@ -344,10 +350,11 @@
       "original_title": "第27章 “倚楼，终于又见面了。”",
       "paragraphs_count": 86,
       "characters_count": 2112,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_027/source.md",
       "has_translation": false,
-      "updated_at": "2026-11-09T21:07:31.092941+07:00"
+      "updated_at": "2026-11-09T21:07:31.092941+07:00",
+      "qc_approved": true
     },
     {
       "chapter_id": "ch_028",
@@ -356,10 +363,11 @@
       "original_title": "第28章 人设没有OOC",
       "paragraphs_count": 133,
       "characters_count": 2759,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_028/source.md",
       "has_translation": false,
-      "updated_at": "2026-11-09T21:07:31.093338+07:00"
+      "updated_at": "2026-11-09T21:07:31.093338+07:00",
+      "qc_approved": true
     },
     {
       "chapter_id": "ch_029",
@@ -368,10 +376,11 @@
       "original_title": "第29章 收紧锁链",
       "paragraphs_count": 97,
       "characters_count": 2144,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_029/source.md",
       "has_translation": false,
-      "updated_at": "2026-11-09T21:07:31.093635+07:00"
+      "updated_at": "2026-11-09T21:07:31.093635+07:00",
+      "qc_approved": true
     },
     {
       "chapter_id": "ch_030",
@@ -380,10 +389,11 @@
       "original_title": "第30章 “我爱你倚楼，和Alpha和beta都无关。”",
       "paragraphs_count": 116,
       "characters_count": 2627,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_030/source.md",
       "has_translation": false,
-      "updated_at": "2026-11-09T21:07:31.094030+07:00"
+      "updated_at": "2026-11-09T21:07:31.094030+07:00",
+      "qc_approved": true
     },
     {
       "chapter_id": "ch_031",
@@ -392,10 +402,11 @@
       "original_title": "第31章 挑衅",
       "paragraphs_count": 108,
       "characters_count": 2734,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_031/source.md",
       "has_translation": false,
-      "updated_at": "2026-11-09T21:07:31.094345+07:00"
+      "updated_at": "2026-11-09T21:07:31.094345+07:00",
+      "qc_approved": true
     },
     {
       "chapter_id": "ch_032",
@@ -404,10 +415,11 @@
       "original_title": "第32章 怅然若失",
       "paragraphs_count": 117,
       "characters_count": 2758,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_032/source.md",
       "has_translation": false,
-      "updated_at": "2026-11-09T21:07:31.094973+07:00"
+      "updated_at": "2026-11-09T21:07:31.094973+07:00",
+      "qc_approved": true
     },
     {
       "chapter_id": "ch_033",
@@ -416,10 +428,11 @@
       "original_title": "第33章 抱错",
       "paragraphs_count": 100,
       "characters_count": 2133,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_033/source.md",
       "has_translation": false,
-      "updated_at": "2026-11-09T21:07:31.095281+07:00"
+      "updated_at": "2026-11-09T21:07:31.095281+07:00",
+      "qc_approved": true
     },
     {
       "chapter_id": "ch_034",
@@ -428,10 +441,11 @@
       "original_title": "第34章 已经杀了我一次了",
       "paragraphs_count": 96,
       "characters_count": 2470,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_034/source.md",
       "has_translation": false,
-      "updated_at": "2026-11-09T21:07:31.095875+07:00"
+      "updated_at": "2026-11-09T21:07:31.095875+07:00",
+      "qc_approved": true
     },
     {
       "chapter_id": "ch_035",
@@ -440,10 +454,11 @@
       "original_title": "第35章 恶趣味",
       "paragraphs_count": 96,
       "characters_count": 2247,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_035/source.md",
       "has_translation": false,
-      "updated_at": "2026-11-09T21:07:31.096167+07:00"
+      "updated_at": "2026-11-09T21:07:31.096167+07:00",
+      "qc_approved": true
     },
     {
       "chapter_id": "ch_036",
@@ -452,10 +467,11 @@
       "original_title": "第36章 人生不如意十之八九。",
       "paragraphs_count": 108,
       "characters_count": 2469,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_036/source.md",
       "has_translation": false,
-      "updated_at": "2026-11-09T21:07:31.096875+07:00"
+      "updated_at": "2026-11-09T21:07:31.096875+07:00",
+      "qc_approved": true
     },
     {
       "chapter_id": "ch_037",
@@ -464,10 +480,11 @@
       "original_title": "第37章 淘汰和接替",
       "paragraphs_count": 101,
       "characters_count": 2299,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_037/source.md",
       "has_translation": false,
-      "updated_at": "2026-11-09T21:07:31.097167+07:00"
+      "updated_at": "2026-11-09T21:07:31.097167+07:00",
+      "qc_approved": true
     },
     {
       "chapter_id": "ch_038",
@@ -476,10 +493,11 @@
       "original_title": "第38章 你一定会来陪我的对吗？",
       "paragraphs_count": 116,
       "characters_count": 2717,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_038/source.md",
       "has_translation": false,
-      "updated_at": "2026-11-09T21:07:31.097569+07:00"
+      "updated_at": "2026-11-09T21:07:31.097569+07:00",
+      "qc_approved": true
     },
     {
       "chapter_id": "ch_039",
@@ -488,10 +506,11 @@
       "original_title": "第39章 优柔寡断又自卑想当缩头乌龟的丈夫",
       "paragraphs_count": 120,
       "characters_count": 2589,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_039/source.md",
       "has_translation": false,
-      "updated_at": "2026-11-09T21:07:31.097867+07:00"
+      "updated_at": "2026-11-09T21:07:31.097867+07:00",
+      "qc_approved": true
     },
     {
       "chapter_id": "ch_040",
@@ -500,10 +519,11 @@
       "original_title": "第40章 又要回档了吗",
       "paragraphs_count": 136,
       "characters_count": 3100,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_040/source.md",
       "has_translation": false,
-      "updated_at": "2026-11-09T21:07:31.098278+07:00"
+      "updated_at": "2026-11-09T21:07:31.098278+07:00",
+      "qc_approved": true
     },
     {
       "chapter_id": "ch_041",
@@ -512,10 +532,11 @@
       "original_title": "第41章 纯然男性的吻",
       "paragraphs_count": 103,
       "characters_count": 2071,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_041/source.md",
       "has_translation": false,
-      "updated_at": "2026-11-09T21:07:31.098568+07:00"
+      "updated_at": "2026-11-09T21:07:31.098568+07:00",
+      "qc_approved": true
     },
     {
       "chapter_id": "ch_042",
@@ -524,10 +545,11 @@
       "original_title": "第42章 别再纠缠我了",
       "paragraphs_count": 95,
       "characters_count": 2297,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_042/source.md",
       "has_translation": false,
-      "updated_at": "2026-11-09T21:07:31.099247+07:00"
+      "updated_at": "2026-11-09T21:07:31.099247+07:00",
+      "qc_approved": true
     },
     {
       "chapter_id": "ch_043",
@@ -536,10 +558,11 @@
       "original_title": "第43章 沈京漾误会",
       "paragraphs_count": 163,
       "characters_count": 3789,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_043/source.md",
       "has_translation": false,
-      "updated_at": "2026-11-09T21:07:31.099560+07:00"
+      "updated_at": "2026-11-09T21:07:31.099560+07:00",
+      "qc_approved": true
     },
     {
       "chapter_id": "ch_044",
@@ -548,10 +571,11 @@
       "original_title": "第44章 醋意横生",
       "paragraphs_count": 103,
       "characters_count": 2846,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_044/source.md",
       "has_translation": false,
-      "updated_at": "2026-11-09T21:07:31.100742+07:00"
+      "updated_at": "2026-11-09T21:07:31.100742+07:00",
+      "qc_approved": true
     },
     {
       "chapter_id": "ch_045",
@@ -560,10 +584,11 @@
       "original_title": "第45章 该死的贱狗",
       "paragraphs_count": 105,
       "characters_count": 2422,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_045/source.md",
       "has_translation": false,
-      "updated_at": "2026-11-09T21:07:31.101034+07:00"
+      "updated_at": "2026-11-09T21:07:31.101034+07:00",
+      "qc_approved": true
     },
     {
       "chapter_id": "ch_046",
@@ -572,10 +597,11 @@
       "original_title": "第46章 主角受人设OOC",
       "paragraphs_count": 110,
       "characters_count": 2687,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_046/source.md",
       "has_translation": false,
-      "updated_at": "2026-11-09T21:07:31.101917+07:00"
+      "updated_at": "2026-11-09T21:07:31.101917+07:00",
+      "qc_approved": true
     },
     {
       "chapter_id": "ch_047",
@@ -584,10 +610,11 @@
       "original_title": "第47章 有什么东西失控了",
       "paragraphs_count": 123,
       "characters_count": 2836,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_047/source.md",
       "has_translation": false,
-      "updated_at": "2026-11-09T21:07:31.102320+07:00"
+      "updated_at": "2026-11-09T21:07:31.102320+07:00",
+      "qc_approved": true
     },
     {
       "chapter_id": "ch_048",
@@ -596,10 +623,11 @@
       "original_title": "第48章 抹杀",
       "paragraphs_count": 101,
       "characters_count": 2502,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_048/source.md",
       "has_translation": false,
-      "updated_at": "2026-11-09T21:07:31.102674+07:00"
+      "updated_at": "2026-11-09T21:07:31.102674+07:00",
+      "qc_approved": true
     },
     {
       "chapter_id": "ch_049",
@@ -608,10 +636,11 @@
       "original_title": "第49章 副作用",
       "paragraphs_count": 109,
       "characters_count": 2295,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_049/source.md",
       "has_translation": false,
-      "updated_at": "2026-11-09T21:07:31.102972+07:00"
+      "updated_at": "2026-11-09T21:07:31.102972+07:00",
+      "qc_approved": true
     },
     {
       "chapter_id": "ch_050",
@@ -620,10 +649,11 @@
       "original_title": "第50章 沈京漾像断了线的风筝",
       "paragraphs_count": 106,
       "characters_count": 2405,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_050/source.md",
       "has_translation": false,
-      "updated_at": "2026-11-09T21:07:31.103364+07:00"
+      "updated_at": "2026-11-09T21:07:31.103364+07:00",
+      "qc_approved": true
     },
     {
       "chapter_id": "ch_051",
@@ -632,10 +662,11 @@
       "original_title": "第51章 再次回档",
       "paragraphs_count": 97,
       "characters_count": 2166,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_051/source.md",
       "has_translation": false,
-      "updated_at": "2026-11-09T21:07:31.103746+07:00"
+      "updated_at": "2026-11-09T21:07:31.103746+07:00",
+      "qc_approved": true
     },
     {
       "chapter_id": "ch_052",
@@ -644,10 +675,11 @@
       "original_title": "第52章 我还活着，你高兴吗？老公",
       "paragraphs_count": 130,
       "characters_count": 2742,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_052/source.md",
       "has_translation": false,
-      "updated_at": "2026-11-09T21:07:31.104061+07:00"
+      "updated_at": "2026-11-09T21:07:31.104061+07:00",
+      "qc_approved": true
     },
     {
       "chapter_id": "ch_053",
@@ -656,10 +688,11 @@
       "original_title": "第53章 “你还能回档几次？”",
       "paragraphs_count": 127,
       "characters_count": 3102,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_053/source.md",
       "has_translation": false,
-      "updated_at": "2026-11-09T21:07:31.104479+07:00"
+      "updated_at": "2026-11-09T21:07:31.104479+07:00",
+      "qc_approved": true
     },
     {
       "chapter_id": "ch_054",
@@ -668,10 +701,11 @@
       "original_title": "第54章 礼物",
       "paragraphs_count": 112,
       "characters_count": 2976,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_054/source.md",
       "has_translation": false,
-      "updated_at": "2026-11-09T21:07:31.105322+07:00"
+      "updated_at": "2026-11-09T21:07:31.105322+07:00",
+      "qc_approved": true
     },
     {
       "chapter_id": "ch_055",
@@ -680,10 +714,11 @@
       "original_title": "第55章 拒绝",
       "paragraphs_count": 131,
       "characters_count": 3159,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_055/source.md",
       "has_translation": false,
-      "updated_at": "2026-11-09T21:07:31.106125+07:00"
+      "updated_at": "2026-11-09T21:07:31.106125+07:00",
+      "qc_approved": true
     },
     {
       "chapter_id": "ch_056",
@@ -692,10 +727,12 @@
       "original_title": "第56章 坦白和危险",
       "paragraphs_count": 116,
       "characters_count": 3014,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_056/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T21:07:31.106684+07:00"
+      "has_translation": true,
+      "updated_at": "2026-11-10T15:05:00Z",
+      "words_count": 0,
+      "qc_score": 100
     },
     {
       "chapter_id": "ch_057",
@@ -704,10 +741,12 @@
       "original_title": "第57章 杀了时嘉熙",
       "paragraphs_count": 100,
       "characters_count": 2547,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_057/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T21:07:31.107597+07:00"
+      "has_translation": true,
+      "updated_at": "2026-11-10T15:05:00Z",
+      "words_count": 0,
+      "qc_score": 100
     },
     {
       "chapter_id": "ch_058",
@@ -716,10 +755,12 @@
       "original_title": "第58章 他想快点见到沈京漾。",
       "paragraphs_count": 130,
       "characters_count": 2945,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_058/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T21:07:31.108206+07:00"
+      "has_translation": true,
+      "updated_at": "2026-11-10T22:06:00Z",
+      "words_count": 2563,
+      "qc_score": 100
     },
     {
       "chapter_id": "ch_059",
@@ -728,10 +769,12 @@
       "original_title": "第59章 老公，好久不见",
       "paragraphs_count": 86,
       "characters_count": 2359,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_059/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T21:07:31.108879+07:00"
+      "has_translation": true,
+      "updated_at": "2026-11-10T22:06:00",
+      "words_count": 2034,
+      "qc_score": 100
     },
     {
       "chapter_id": "ch_060",
@@ -740,586 +783,636 @@
       "original_title": "第60章 总统套房",
       "paragraphs_count": 86,
       "characters_count": 2241,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_060/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T21:07:31.109464+07:00"
+      "has_translation": true,
+      "updated_at": "2026-11-10T15:06:00Z",
+      "words_count": 0,
+      "qc_score": 100
     },
     {
       "chapter_id": "ch_061",
       "chapter_num": 61,
-      "title": "Chương 61: 第61章 我不该存在",
+      "title": "Chương 61: Tôi không nên tồn tại",
       "original_title": "第61章 我不该存在",
       "paragraphs_count": 103,
       "characters_count": 2776,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_061/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T21:07:31.110372+07:00"
+      "has_translation": true,
+      "updated_at": "2026-11-10T15:17:00Z",
+      "qc_score": 99.5
     },
     {
       "chapter_id": "ch_062",
       "chapter_num": 62,
-      "title": "Chương 62: 第62章 转系",
+      "title": "Chương 62: Chuyển khoa",
       "original_title": "第62章 转系",
       "paragraphs_count": 115,
       "characters_count": 2985,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_062/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T21:07:31.110941+07:00"
+      "has_translation": true,
+      "updated_at": "2026-11-10T15:18:00Z",
+      "qc_score": 99
     },
     {
       "chapter_id": "ch_063",
       "chapter_num": 63,
-      "title": "Chương 63: 第63章 花倚楼今天必须死",
+      "title": "Chương 63: Hôm nay Hoa Y Lâu nhất định phải chết",
       "original_title": "第63章 花倚楼今天必须死",
       "paragraphs_count": 63,
       "characters_count": 1664,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_063/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T21:07:31.111742+07:00"
+      "has_translation": true,
+      "updated_at": "2026-11-10T15:16:00Z",
+      "qc_score": 99
     },
     {
       "chapter_id": "ch_064",
       "chapter_num": 64,
-      "title": "Chương 64: 第64章 我想画画了，倚楼",
+      "title": "Chương 64: Tôi muốn vẽ tranh rồi, Y Lâu",
       "original_title": "第64章 我想画画了，倚楼",
       "paragraphs_count": 96,
       "characters_count": 2532,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_064/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T21:07:31.112031+07:00"
+      "has_translation": true,
+      "updated_at": "2026-11-10T15:18:00Z",
+      "qc_score": 99.5
     },
     {
       "chapter_id": "ch_065",
       "chapter_num": 65,
-      "title": "Chương 65: 第65章 倚楼...我刚才好像疯了",
+      "title": "Chương 65: Y Lâu... Ban nãy dường như tôi phát điên rồi",
       "original_title": "第65章 倚楼...我刚才好像疯了",
       "paragraphs_count": 83,
       "characters_count": 1992,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_065/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T21:07:31.113052+07:00"
+      "has_translation": true,
+      "updated_at": "2026-11-10T15:18:00Z",
+      "qc_score": 99
     },
     {
       "chapter_id": "ch_066",
       "chapter_num": 66,
-      "title": "Chương 66: 第66章 混乱",
+      "title": "Chương 66: Hỗn loạn",
       "original_title": "第66章 混乱",
       "paragraphs_count": 84,
       "characters_count": 2171,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_066/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T21:07:31.113344+07:00"
+      "has_translation": true,
+      "updated_at": "2026-11-10T15:21:00Z",
+      "qc_score": 99
     },
     {
       "chapter_id": "ch_067",
       "chapter_num": 67,
-      "title": "Chương 67: 第67章 不是他",
+      "title": "Chương 67: Không phải y",
       "original_title": "第67章 不是他",
       "paragraphs_count": 91,
       "characters_count": 2195,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_067/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T21:07:31.113874+07:00"
+      "has_translation": true,
+      "updated_at": "2026-11-10T15:22:00Z",
+      "qc_score": 99.5
     },
     {
       "chapter_id": "ch_068",
       "chapter_num": 68,
-      "title": "Chương 68: 第68章 不是沈京漾",
+      "title": "Chương 68: Không phải Thẩm Kinh Dạng",
       "original_title": "第68章 不是沈京漾",
       "paragraphs_count": 85,
       "characters_count": 2505,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_068/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T21:07:31.114159+07:00"
+      "has_translation": true,
+      "updated_at": "2026-11-10T15:22:00Z",
+      "qc_score": 99
     },
     {
       "chapter_id": "ch_069",
       "chapter_num": 69,
-      "title": "Chương 69: 第69章 一切回归正轨",
+      "title": "Chương 69: Mọi chuyện trở về đúng quỹ đạo",
       "original_title": "第69章 一切回归正轨",
       "paragraphs_count": 78,
       "characters_count": 2068,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_069/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T21:07:31.114820+07:00"
+      "has_translation": true,
+      "updated_at": "2026-11-10T15:22:30Z",
+      "qc_score": 99
     },
     {
       "chapter_id": "ch_070",
       "chapter_num": 70,
-      "title": "Chương 70: 第70章 报仇",
+      "title": "Chương 70: Báo thù",
       "original_title": "第70章 报仇",
       "paragraphs_count": 82,
       "characters_count": 2242,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_070/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T21:07:31.115099+07:00"
+      "has_translation": true,
+      "updated_at": "2026-11-10T15:22:00Z",
+      "qc_score": 99.5
     },
     {
       "chapter_id": "ch_071",
       "chapter_num": 71,
-      "title": "Chương 71: 第71章 大义灭亲",
+      "title": "Chương 71: Đại nghĩa diệt thân",
       "original_title": "第71章 大义灭亲",
       "paragraphs_count": 99,
       "characters_count": 2730,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_071/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T21:07:31.115444+07:00"
+      "has_translation": true,
+      "updated_at": "2026-11-10T15:28:00Z",
+      "qc_score": 99.5
     },
     {
       "chapter_id": "ch_072",
       "chapter_num": 72,
-      "title": "Chương 72: 第72章 主角光环黯淡",
+      "title": "Chương 72: Hào quang nhân vật chính ảm đạm",
       "original_title": "第72章 主角光环黯淡",
       "paragraphs_count": 103,
       "characters_count": 2839,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_072/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T21:07:31.115732+07:00"
+      "has_translation": true,
+      "updated_at": "2026-11-10T15:28:00Z",
+      "qc_score": 99.5
     },
     {
       "chapter_id": "ch_073",
       "chapter_num": 73,
-      "title": "Chương 73: 第73章 床头打架床尾和",
+      "title": "Chương 73: Đầu giường đánh nhau cuối giường hòa",
       "original_title": "第73章 床头打架床尾和",
       "paragraphs_count": 68,
       "characters_count": 1603,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_073/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T21:07:31.116067+07:00"
+      "has_translation": true,
+      "updated_at": "2026-11-10T22:26:00Z",
+      "qc_score": 99
     },
     {
       "chapter_id": "ch_074",
       "chapter_num": 74,
-      "title": "Chương 74: 第74章 崔焕死了？",
+      "title": "Chương 74: Thôi Hoán chết rồi?",
       "original_title": "第74章 崔焕死了？",
       "paragraphs_count": 88,
       "characters_count": 2470,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_074/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T21:07:31.116348+07:00"
+      "has_translation": true,
+      "updated_at": "2026-11-10T22:28:00Z",
+      "qc_score": 99
     },
     {
       "chapter_id": "ch_075",
       "chapter_num": 75,
-      "title": "Chương 75: 第75章 交易",
+      "title": "Chương 75: Giao dịch",
       "original_title": "第75章 交易",
       "paragraphs_count": 75,
       "characters_count": 2112,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_075/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T21:07:31.116681+07:00"
+      "has_translation": true,
+      "updated_at": "2026-11-10T22:27:00Z",
+      "qc_score": 99
     },
     {
       "chapter_id": "ch_076",
       "chapter_num": 76,
-      "title": "Chương 76: 第76章 直觉",
+      "title": "Chương 76: Trực giác",
       "original_title": "第76章 直觉",
       "paragraphs_count": 115,
       "characters_count": 2497,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_076/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T21:07:31.116968+07:00"
+      "has_translation": true,
+      "updated_at": "2026-11-10T22:32:00Z",
+      "qc_score": 99
     },
     {
       "chapter_id": "ch_077",
       "chapter_num": 77,
-      "title": "Chương 77: 第77章 世界本源",
+      "title": "Chương 77: Bản nguyên thế giới",
       "original_title": "第77章 世界本源",
       "paragraphs_count": 73,
       "characters_count": 2041,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_077/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T21:07:31.117308+07:00"
+      "has_translation": true,
+      "updated_at": "2026-11-10T22:33:00Z",
+      "qc_score": 99
     },
     {
       "chapter_id": "ch_078",
       "chapter_num": 78,
-      "title": "Chương 78: 第78章 回敬",
+      "title": "Chương 78: Đáp lễ",
       "original_title": "第78章 回敬",
       "paragraphs_count": 82,
       "characters_count": 2331,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_078/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T21:07:31.117588+07:00"
+      "has_translation": true,
+      "updated_at": "2026-11-10T22:33:00Z",
+      "qc_score": 99
     },
     {
       "chapter_id": "ch_079",
       "chapter_num": 79,
-      "title": "Chương 79: 第79章 胜利的果实",
+      "title": "Chương 79: Quả ngọt chiến thắng",
       "original_title": "第79章 胜利的果实",
       "paragraphs_count": 103,
       "characters_count": 2198,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_079/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T21:07:31.117986+07:00"
+      "has_translation": true,
+      "updated_at": "2026-11-10T15:33:45Z",
+      "qc_score": 99
     },
     {
       "chapter_id": "ch_080",
       "chapter_num": 80,
-      "title": "Chương 80: 第80章 花倚楼的前世(两章合一)",
+      "title": "Chương 80: Tiền kiếp của Hoa Y Lâu (Hai chương hợp nhất)",
       "original_title": "第80章 花倚楼的前世(两章合一)",
       "paragraphs_count": 177,
       "characters_count": 4478,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_080/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T21:07:31.118322+07:00"
+      "has_translation": true,
+      "updated_at": "2026-11-10T15:35:00Z",
+      "qc_score": 99
     },
     {
       "chapter_id": "ch_081",
       "chapter_num": 81,
-      "title": "Chương 81: 第81章 不该是这样",
+      "title": "Chương 81: Không nên như thế này",
       "original_title": "第81章 不该是这样",
       "paragraphs_count": 98,
       "characters_count": 2357,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_081/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T21:07:31.118723+07:00"
+      "has_translation": true,
+      "updated_at": "2026-11-10T16:10:00Z",
+      "qc_score": 99
     },
     {
       "chapter_id": "ch_082",
       "chapter_num": 82,
-      "title": "Chương 82: 第82章 角落的画",
+      "title": "Chương 82: Bức tranh nơi góc phòng",
       "original_title": "第82章 角落的画",
       "paragraphs_count": 91,
       "characters_count": 2264,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_082/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T21:07:31.119024+07:00"
+      "has_translation": true,
+      "updated_at": "2026-11-10T16:11:00Z",
+      "qc_score": 99
     },
     {
       "chapter_id": "ch_083",
       "chapter_num": 83,
-      "title": "Chương 83: 第83章 顾司凛来电",
+      "title": "Chương 83: Cố Tư Lẫm gọi tới",
       "original_title": "第83章 顾司凛来电",
       "paragraphs_count": 68,
       "characters_count": 2290,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_083/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T21:07:31.119417+07:00"
+      "has_translation": true,
+      "updated_at": "2026-11-10T16:10:00Z",
+      "qc_score": 99
     },
     {
       "chapter_id": "ch_084",
       "chapter_num": 84,
-      "title": "Chương 84: 第84章 置之死地而后生",
+      "title": "Chương 84: Đặt vào chỗ chết để tìm đường sống",
       "original_title": "第84章 置之死地而后生",
       "paragraphs_count": 75,
       "characters_count": 2209,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_084/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T21:07:31.119877+07:00"
+      "has_translation": true,
+      "updated_at": "2026-11-10T16:11:00Z",
+      "qc_score": 99
     },
     {
       "chapter_id": "ch_085",
       "chapter_num": 85,
-      "title": "Chương 85: 第85章 这才是沈京漾",
+      "title": "Chương 85: Đây mới là Thẩm Kinh Dạng",
       "original_title": "第85章 这才是沈京漾",
       "paragraphs_count": 85,
       "characters_count": 2294,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_085/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T21:07:31.121048+07:00"
+      "has_translation": true,
+      "updated_at": "2026-11-10T16:11:00Z",
+      "qc_score": 99
     },
     {
       "chapter_id": "ch_086",
       "chapter_num": 86,
-      "title": "Chương 86: 第86章 濒临死亡",
+      "title": "Chương 86: Bên bờ cõi chết",
       "original_title": "第86章 濒临死亡",
       "paragraphs_count": 89,
       "characters_count": 2238,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_086/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T21:07:31.121354+07:00"
+      "has_translation": true,
+      "updated_at": "2026-11-10T16:15:00Z",
+      "qc_score": 99
     },
     {
       "chapter_id": "ch_087",
       "chapter_num": 87,
-      "title": "Chương 87: 第87章 纠缠到死（两章合一）",
+      "title": "Chương 87: Dây dưa đến chết (Hai chương gộp một)",
       "original_title": "第87章 纠缠到死（两章合一）",
       "paragraphs_count": 144,
       "characters_count": 4372,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_087/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T21:07:31.122139+07:00"
+      "has_translation": true,
+      "updated_at": "2026-11-10T16:16:00Z",
+      "qc_score": 99
     },
     {
       "chapter_id": "ch_088",
       "chapter_num": 88,
-      "title": "Chương 88: 第88章 顾司凛绝对会做什么",
+      "title": "Chương 88: Cố Tư Lẫm tuyệt đối sẽ làm gì đó",
       "original_title": "第88章 顾司凛绝对会做什么",
       "paragraphs_count": 84,
       "characters_count": 2381,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_088/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T21:07:31.122565+07:00"
+      "has_translation": true,
+      "updated_at": "2026-11-10T16:15:00Z",
+      "qc_score": 99
     },
     {
       "chapter_id": "ch_089",
       "chapter_num": 89,
-      "title": "Chương 89: 第89章 狗链",
+      "title": "Chương 89: Sợi xích chó",
       "original_title": "第89章 狗链",
       "paragraphs_count": 65,
       "characters_count": 2026,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_089/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T21:07:31.123073+07:00"
+      "has_translation": true,
+      "updated_at": "2026-11-10T16:16:00Z",
+      "qc_score": 99
     },
     {
       "chapter_id": "ch_090",
       "chapter_num": 90,
-      "title": "Chương 90: 第90章 你又想干什么？",
+      "title": "Chương 90: Anh lại muốn làm trò gì nữa đây?",
       "original_title": "第90章 你又想干什么？",
       "paragraphs_count": 76,
       "characters_count": 2211,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_090/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T21:07:31.123489+07:00"
+      "has_translation": true,
+      "updated_at": "2026-11-10T16:15:30Z",
+      "qc_score": 99
     },
     {
       "chapter_id": "ch_091",
       "chapter_num": 91,
-      "title": "Chương 91: 第91章 主动",
+      "title": "Chương 91: Chủ động",
       "original_title": "第91章 主动",
       "paragraphs_count": 98,
       "characters_count": 2195,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_091/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T21:07:31.123936+07:00"
+      "has_translation": true,
+      "updated_at": "2026-11-10T16:20:00Z",
+      "qc_score": 99
     },
     {
       "chapter_id": "ch_092",
       "chapter_num": 92,
-      "title": "Chương 92: 第92章 动容",
+      "title": "Chương 92: Rung động",
       "original_title": "第92章 动容",
       "paragraphs_count": 101,
       "characters_count": 2655,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_092/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T21:07:31.124270+07:00"
+      "has_translation": true,
+      "updated_at": "2026-11-10T16:21:00Z",
+      "qc_score": 99
     },
     {
       "chapter_id": "ch_093",
       "chapter_num": 93,
-      "title": "Chương 93: 第93章 从现在开始，我是你男朋友",
+      "title": "Chương 93: Từ bây giờ trở đi, tôi là bạn trai của anh",
       "original_title": "第93章 从现在开始，我是你男朋友",
       "paragraphs_count": 86,
       "characters_count": 1835,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_093/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T21:07:31.124668+07:00"
+      "has_translation": true,
+      "updated_at": "2026-11-10T16:21:00Z",
+      "qc_score": 99
     },
     {
       "chapter_id": "ch_094",
       "chapter_num": 94,
-      "title": "Chương 94: 第94章 七十年前的沈京漾",
+      "title": "Chương 94: Thẩm Kinh Dạng của bảy mươi năm trước",
       "original_title": "第94章 七十年前的沈京漾",
       "paragraphs_count": 94,
       "characters_count": 2380,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_094/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T21:07:31.124965+07:00"
+      "has_translation": true,
+      "updated_at": "2026-11-10T16:21:30Z",
+      "qc_score": 99
     },
     {
       "chapter_id": "ch_095",
       "chapter_num": 95,
-      "title": "Chương 95: 第95章 结婚",
+      "title": "Chương 95: Kết hôn",
       "original_title": "第95章 结婚",
       "paragraphs_count": 80,
       "characters_count": 2081,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_095/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T21:07:31.125364+07:00"
+      "has_translation": true,
+      "updated_at": "2026-11-10T16:22:00Z",
+      "qc_score": 99
     },
     {
       "chapter_id": "ch_096",
       "chapter_num": 96,
-      "title": "Chương 96: 第96章 不甘心",
+      "title": "Chương 96: Không cam lòng",
       "original_title": "第96章 不甘心",
       "paragraphs_count": 65,
       "characters_count": 2272,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_096/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T21:07:31.125655+07:00"
+      "has_translation": true,
+      "updated_at": "2026-11-10T16:25:00Z",
+      "qc_score": 99
     },
     {
       "chapter_id": "ch_097",
       "chapter_num": 97,
-      "title": "Chương 97: 第97章 消失",
+      "title": "Chương 97: Biến mất",
       "original_title": "第97章 消失",
       "paragraphs_count": 96,
       "characters_count": 2148,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_097/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T21:07:31.126056+07:00"
+      "has_translation": true,
+      "updated_at": "2026-11-10T16:25:00Z",
+      "qc_score": 99
     },
     {
       "chapter_id": "ch_098",
       "chapter_num": 98,
-      "title": "Chương 98: 第98章 证据",
+      "title": "Chương 98: Bằng chứng",
       "original_title": "第98章 证据",
       "paragraphs_count": 75,
       "characters_count": 2138,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_098/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T21:07:31.126346+07:00"
+      "has_translation": true,
+      "updated_at": "2026-11-10T16:26:00Z",
+      "qc_score": 99
     },
     {
       "chapter_id": "ch_099",
       "chapter_num": 99,
-      "title": "Chương 99: 第99章 寻找",
+      "title": "Chương 99: Tìm kiếm",
       "original_title": "第99章 寻找",
       "paragraphs_count": 95,
       "characters_count": 2300,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_099/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T21:07:31.126746+07:00"
+      "has_translation": true,
+      "updated_at": "2026-11-10T16:27:00Z",
+      "qc_score": 99
     },
     {
       "chapter_id": "ch_100",
       "chapter_num": 100,
-      "title": "Chương 100: 第100章 画里的男人是谁？",
+      "title": "Chương 100: Người đàn ông trong tranh là ai?",
       "original_title": "第100章 画里的男人是谁？",
       "paragraphs_count": 99,
       "characters_count": 2519,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_100/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T21:07:31.127043+07:00"
+      "has_translation": true,
+      "updated_at": "2026-11-10T16:28:00Z",
+      "qc_score": 99
     },
     {
       "chapter_id": "ch_101",
       "chapter_num": 101,
-      "title": "Chương 101: 第101章 结婚吗？沈京漾。",
+      "title": "Chương 101: Kết hôn không? Thẩm Kinh Dạng.",
       "original_title": "第101章 结婚吗？沈京漾。",
       "paragraphs_count": 82,
       "characters_count": 1991,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_101/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T21:07:31.127445+07:00"
+      "has_translation": true,
+      "updated_at": "2026-11-10T23:44:24.398535+07:00",
+      "translation_path": "chapters/ch_101/translation.md"
     },
     {
       "chapter_id": "ch_102",
       "chapter_num": 102,
-      "title": "Chương 102: 第102章 偷/情",
+      "title": "Chương 102: Vụng trộm",
       "original_title": "第102章 偷/情",
       "paragraphs_count": 105,
       "characters_count": 2314,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_102/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T21:07:31.127738+07:00"
+      "has_translation": true,
+      "updated_at": "2026-11-10T23:44:24.398535+07:00",
+      "translation_path": "chapters/ch_102/translation.md"
     },
     {
       "chapter_id": "ch_103",
       "chapter_num": 103,
-      "title": "Chương 103: 第103章 试探",
+      "title": "Chương 103: Thăm dò",
       "original_title": "第103章 试探",
       "paragraphs_count": 83,
       "characters_count": 2087,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_103/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T21:07:31.128137+07:00"
+      "has_translation": true,
+      "updated_at": "2026-11-10T23:44:24.398535+07:00",
+      "translation_path": "chapters/ch_103/translation.md"
     },
     {
       "chapter_id": "ch_104",
       "chapter_num": 104,
-      "title": "Chương 104: 第104章 回礼",
+      "title": "Chương 104: Món quà đáp lễ",
       "original_title": "第104章 回礼",
       "paragraphs_count": 92,
       "characters_count": 2554,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_104/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T21:07:31.128432+07:00"
+      "has_translation": true,
+      "updated_at": "2026-11-10T23:44:24.398535+07:00",
+      "translation_path": "chapters/ch_104/translation.md"
     },
     {
       "chapter_id": "ch_105",
       "chapter_num": 105,
-      "title": "Chương 105: 第105章 回国",
+      "title": "Chương 105: Về nước",
       "original_title": "第105章 回国",
       "paragraphs_count": 67,
       "characters_count": 1932,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_105/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T21:07:31.128948+07:00"
+      "has_translation": true,
+      "updated_at": "2026-11-10T23:44:24.398535+07:00",
+      "translation_path": "chapters/ch_105/translation.md"
     },
     {
       "chapter_id": "ch_106",
       "chapter_num": 106,
-      "title": "Chương 106: 第106章 跟踪",
+      "title": "Chương 106: Theo dõi",
       "original_title": "第106章 跟踪",
       "paragraphs_count": 80,
       "characters_count": 2295,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_106/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T21:07:31.129238+07:00"
+      "has_translation": true,
+      "updated_at": "2026-11-10T23:44:24.398535+07:00",
+      "translation_path": "chapters/ch_106/translation.md"
     },
     {
       "chapter_id": "ch_107",
       "chapter_num": 107,
-      "title": "Chương 107: 第107章 漫长",
+      "title": "Chương 107: Dài đằng đẵng",
       "original_title": "第107章 漫长",
       "paragraphs_count": 79,
       "characters_count": 2138,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_107/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T21:07:31.129997+07:00"
+      "has_translation": true,
+      "updated_at": "2026-11-10T23:44:24.398535+07:00",
+      "translation_path": "chapters/ch_107/translation.md"
     },
     {
       "chapter_id": "ch_108",
       "chapter_num": 108,
-      "title": "Chương 108: 第108章 世界意志",
+      "title": "Chương 108: Ý chí thế giới",
       "original_title": "第108章 世界意志",
       "paragraphs_count": 70,
       "characters_count": 2259,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_108/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T21:07:31.130286+07:00"
+      "has_translation": true,
+      "updated_at": "2026-11-10T23:44:24.398535+07:00",
+      "translation_path": "chapters/ch_108/translation.md"
     },
     {
       "chapter_id": "ch_109",

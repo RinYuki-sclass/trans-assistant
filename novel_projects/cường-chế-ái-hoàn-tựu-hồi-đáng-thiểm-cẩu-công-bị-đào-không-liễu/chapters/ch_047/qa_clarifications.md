@@ -1,0 +1,30 @@
+# BẢNG KHẢO SÁT & LÀM RÕ THỰC THỂ / XƯNG HÔ CHƯƠNG 47 (CH_047)
+
+### 📋 BẢNG A: Thống nhất Xưng hô & Đối thoại trong chương
+
+| STT | Cặp nhân vật | Ngữ cảnh trong chương | Đề xuất xưng hô (Tôi - anh / Tôi - cậu...) | Trạng thái / Ghi chú |
+| :---: | :--- | :--- | :--- | :---: |
+| 1 | **Thời Gia Hy** ↔ **Cố Tư Lẫm / Phong Du** | Sau khi đập đầu Thôi Hoán chảy máu bất tỉnh, Thời Gia Hy hoảng loạn cầu cứu hai công chính bảo vệ mình. | - Thời Gia Hy: gọi **“A Lẫm, A Du”** – xưng **“em”** (*“A Lẫm, A Du, hai người sẽ giúp em đúng không? Không phải em làm đâu, là...”*). | ✅ Khóa chuẩn quan hệ Omega vạn nhân mê |
+| 2 | **Thẩm phu nhân** (hét lớn) | Thấy Thôi Hoán đầu đầy máu ngất lịm, Thẩm phu nhân gào khóc tố cáo Thời Gia Hy giết người, kêu cứu bác sĩ cho Thôi Hoán và Thẩm Trì. | - Tự xưng: **“tôi”** (*“A! Con của tôi! Thôi Hoán! Cứu mạng với, người đâu mau tới đây, Thời Gia Hy giết người rồi, bác sĩ ơi! Cứu lấy các con tôi với, Thôi Hoán, Tiểu Trì!”*). | ✅ Khớp ngữ cảnh mẫu thân hoảng loạn |
+| 3 | **Thời Gia Hy** ➔ Mọi người | Hoảng sợ đổ tội cho Thẩm Trì để thoát tội đập đầu Thôi Hoán. | - Gọi Thẩm Trì là **“Thẩm Trì / hắn”** (*“Là Thẩm Trì làm, đúng rồi, chính là Thẩm Trì đã đập đầu Thôi Hoán! Hắn ghen ghét Thôi Hoán cướp mất thân phận thiếu gia Thẩm gia của hắn!”*). | ✅ Khớp tâm lý hãm hại đùn đẩy |
+| 4 | **Dương Thu Mạt** ↔ **Hoa Y Lâu** (hai cha con) | Tại sảnh tiệc Ngân hàng Hối Thông, Dương Thu Mạt hỏi thăm chuyện bát quái về Thời Gia Hy; Hoa Y Lâu khuyên tiểu ba đi quản thúc cha mình đừng để uống rượu cao huyết áp. | - Dương Thu Mạt: xưng **“ba”** – gọi **“con”** (*“Con từng gặp Omega tên Thời Gia Hy này chưa?”*).<br>- Hoa Y Lâu: xưng **“con”** – gọi **“tiểu ba”** (*“Ai cơ ạ?”*, *“Tiểu ba, ba đang nói ai cơ? Ba từng gặp Thẩm Kinh Dạng rồi sao?”*, *“Tiểu ba, con thấy cha đang lén uống rượu với người ta đằng kia kìa, ba qua trông chừng ông ấy đi...”*). | ✅ Đúng vai vế tiểu ba - con trai |
+| 5 | **Thẩm Kinh Dạng** ↔ **Dương Thu Mạt** (nhạc phụ tương lai) | Thẩm Kinh Dạng bước vào sảnh tiệc, làm bộ hòa nhã nhiệt tình bắt tay Dương Thu Mạt, thậm chí gọi "chú Dương" (Dương thúc thúc) và công khai đang theo đuổi Hoa Y Lâu. | - Thẩm Kinh Dạng: xưng **“tôi / cháu”** – gọi **“Dương tổng / Dương thúc thúc (chú Dương)”** (*“Dương tổng, ngưỡng mộ đại danh đã lâu.”*, *“Dương thúc thúc khách sáo quá rồi...”*, *“Cháu đang theo đuổi Y Lâu ạ, Dương thúc thúc.”*).<br>- Dương Thu Mạt: xưng **“tôi”** – gọi **“ngài / Thẩm tiên sinh”** (*“Chào ngài, Thẩm tiên sinh...”*, *“Thẩm tiên sinh quen biết Tiểu Lâu sao?”*). | ✅ Thể hiện rõ tính cách "lão hồ ly giả ngoan" của Thẩm Kinh Dạng |
+| 6 | **Thẩm Kinh Dạng** ↔ **Hoa Y Lâu** (tại sảnh tiệc & đài phun nước) | Thẩm Kinh Dạng chào hỏi Hoa Y Lâu; sau đó ở đài phun nước, Hoa Y Lâu áp sát chất vấn thì Thẩm Kinh Dạng giả vờ bệnh nan y sắp chết để làm nũng, cầu xin tình cảm. | - Thẩm Kinh Dạng: xưng **“tôi”** – gọi **“Y Lâu / em”** (*“Y Lâu, lại gặp nhau rồi.”*, *“Tôi sắp chết rồi... một lần lại một lần hồi đương cũng chỉ muốn được đến gần em hơn, muốn em yêu tôi.”*, *“Y Lâu, chỉ cần em bằng lòng cho tôi một chút hồi đáp thôi...”* - CẤM gọi "anh ngoài đời").<br>- Hoa Y Lâu: xưng **“tôi”** – gọi **“Thẩm Kinh Dạng / anh”** (*“Đừng có giở mấy trò...”*, *“Cái gì cơ?”* - CẤM gọi "cậu"). | ✅ Tuân thủ nghiêm ngặt AGENTS.md |
+| 7 | **Hoa Y Lâu (trần thuật / độc thoại)** ➔ Tuyến nhân vật | Hoa Y Lâu chứng kiến drama Thời Gia Hy đập Thôi Hoán, nhận diện Thẩm Trì là con chó có tang tuyệt vọng; phân tích động cơ của Thẩm Kinh Dạng muốn phá hào quang nhân vật chính. | - Trần thuật Hoa Y Lâu: bắt buộc dùng **“hắn”**.<br>- Trần thuật Thẩm Kinh Dạng: bắt buộc dùng **“y”**.<br>- Trần thuật Thời Gia Hy / Thẩm Trì: dùng **“cậu ta / gã / hắn”**.<br>- Độc thoại nội tâm không ngoặc kép: tuyệt đối không dùng đại từ đối thoại "mày - tao" rò rỉ ra câu trần thuật. | ✅ Đảm bảo chuẩn hóa POV 3 |
+
+---
+
+### 📋 BẢNG B: Thuật ngữ / Thực thể mới & Cốt truyện xuất hiện
+
+| STT | Thuật ngữ gốc | Phân loại | Ngữ cảnh xuất hiện | Đề xuất dịch chuẩn | Ghi chú quy tắc |
+| :---: | :--- | :--- :--- | :--- | :--- | :--- |
+| 1 | **第47章 有什么东西失控了** | Tiêu đề chương | Hoa Y Lâu cảm nhận sự kiểm soát sinh tử đối với Thẩm Kinh Dạng khiến hắn vừa run rẩy vừa dự cảm có thứ gì sắp mất kiểm soát. | **Chương 47: Có thứ gì đó đã mất kiểm soát** | Dịch sát nghĩa, chuẩn văn phong ly kỳ hấp dẫn. |
+| 2 | **咚！咚！咚！咚！咚！** | Từ tượng thanh | Tiếng va đập liên hoàn lúc Thời Gia Hy đập đầu Thôi Hoán vào vật cứng. | **Bốp! Bốp! Bốp! Bốp! Bốp!** | Thể hiện âm thanh va đập mạnh mẽ, sinh động. |
+| 3 | **回档** | Cơ chế thế giới | Thẩm Kinh Dạng quay ngược thời gian để tiếp cận Hoa Y Lâu. | **hồi đương** | Thuật ngữ cốt lõi bắt buộc của truyện. |
+| 4 | **小爸** | Xưng hô gia đình | Hoa Y Lâu gọi người cha Omega/cha dịu dàng của mình (Dương Thu Mạt). | **tiểu ba** | Quy ước chuẩn trong đam mỹ gia đình song nam (cha - tiểu ba). |
+| 5 | **汇通银行A市分行** | Thực thể / Tổ chức | Nơi tổ chức tiệc kỷ niệm 30 năm mà gia đình Hoa Y Lâu và Thẩm Kinh Dạng tham dự. | **chi nhánh thành phố A của Ngân hàng Hối Thông** | Âm Hán Việt chuẩn xác. |
+| 6 | **花杨公司** | Thực thể / Doanh nghiệp | Công ty gia đình của cha con Hoa Y Lâu (ghép họ Hoa và họ Dương). | **công ty Hoa Dương** | Dịch chuẩn theo hai họ Hoa (cha) - Dương (tiểu ba). |
+| 7 | **杨叔叔** | Xưng hô | Thẩm Kinh Dạng nịnh nọt nhạc phụ tương lai trước mặt mọi người. | **Dương thúc thúc** | Giữ vẻ vừa lễ phép vừa cố ý lôi kéo thân cận của Thẩm Kinh Dạng. |
+| 8 | **不治之症** | Bệnh trạng / Chiêu trò | Thẩm Kinh Dạng nói dối mình bị bệnh hiểm nghèo nan y sắp chết để kích hoạt lòng trắc ẩn của Hoa Y Lâu. | **chứng bệnh nan y** | Chuẩn thuật ngữ y khoa / truyện. |
+| 9 | **自我觉醒** | Khái niệm cốt truyện | Hoa Y Lâu tự hỏi liệu Thẩm Trì sau khi bị phản bội tận cùng có thoát khỏi sự thao túng của cốt truyện để thức tỉnh hay không. | **tự mình thức tỉnh** | Chuẩn thuật ngữ xuyên thư / thức tỉnh khỏi cốt truyện. |
+| 10 | **替罪羊** | Thành ngữ | Thẩm Trì bị Thời Gia Hy vu oan giá họa gánh tội thay. | **kẻ chết thay / con dê gánh tội** | Dịch thoát ý mượt mà tự nhiên: **kẻ chết thay**. |
