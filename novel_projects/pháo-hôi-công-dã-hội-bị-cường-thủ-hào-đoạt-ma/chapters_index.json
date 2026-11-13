@@ -563,7 +563,8 @@
     "start_page": 100,
     "paragraphs_count": 154,
     "has_source": true,
-    "has_translation": false
+    "has_translation": true,
+    "status": "completed"
   },
   {
     "chapter_id": "ch_063",
@@ -572,7 +573,8 @@
     "start_page": 102,
     "paragraphs_count": 121,
     "has_source": true,
-    "has_translation": false
+    "has_translation": true,
+    "status": "completed"
   },
   {
     "chapter_id": "ch_064",
@@ -581,7 +583,8 @@
     "start_page": 103,
     "paragraphs_count": 98,
     "has_source": true,
-    "has_translation": false
+    "has_translation": true,
+    "status": "completed"
   },
   {
     "chapter_id": "ch_065",
@@ -590,7 +593,8 @@
     "start_page": 104,
     "paragraphs_count": 165,
     "has_source": true,
-    "has_translation": false
+    "has_translation": true,
+    "status": "completed"
   },
   {
     "chapter_id": "ch_066",
@@ -599,7 +603,8 @@
     "start_page": 106,
     "paragraphs_count": 138,
     "has_source": true,
-    "has_translation": false
+    "has_translation": true,
+    "status": "completed"
   },
   {
     "chapter_id": "ch_067",
@@ -608,7 +613,8 @@
     "start_page": 108,
     "paragraphs_count": 109,
     "has_source": true,
-    "has_translation": false
+    "has_translation": true,
+    "status": "completed"
   },
   {
     "chapter_id": "ch_068",
@@ -617,7 +623,8 @@
     "start_page": 109,
     "paragraphs_count": 127,
     "has_source": true,
-    "has_translation": false
+    "has_translation": true,
+    "status": "completed"
   },
   {
     "chapter_id": "ch_069",
@@ -626,7 +633,8 @@
     "start_page": 110,
     "paragraphs_count": 105,
     "has_source": true,
-    "has_translation": false
+    "has_translation": true,
+    "status": "completed"
   },
   {
     "chapter_id": "ch_070",
@@ -635,7 +643,8 @@
     "start_page": 111,
     "paragraphs_count": 170,
     "has_source": true,
-    "has_translation": false
+    "has_translation": true,
+    "status": "completed"
   },
   {
     "chapter_id": "ch_071",
@@ -644,7 +653,8 @@
     "start_page": 113,
     "paragraphs_count": 142,
     "has_source": true,
-    "has_translation": false
+    "has_translation": true,
+    "status": "completed"
   },
   {
     "chapter_id": "ch_072",
@@ -653,7 +663,8 @@
     "start_page": 115,
     "paragraphs_count": 109,
     "has_source": true,
-    "has_translation": false
+    "has_translation": true,
+    "status": "completed"
   },
   {
     "chapter_id": "ch_073",
@@ -662,7 +673,8 @@
     "start_page": 116,
     "paragraphs_count": 113,
     "has_source": true,
-    "has_translation": false
+    "has_translation": true,
+    "status": "completed"
   },
   {
     "chapter_id": "ch_074",
@@ -671,7 +683,8 @@
     "start_page": 117,
     "paragraphs_count": 111,
     "has_source": true,
-    "has_translation": false
+    "has_translation": true,
+    "status": "completed"
   },
   {
     "chapter_id": "ch_075",
@@ -680,7 +693,8 @@
     "start_page": 118,
     "paragraphs_count": 121,
     "has_source": true,
-    "has_translation": false
+    "has_translation": true,
+    "status": "completed"
   },
   {
     "chapter_id": "ch_076",
@@ -689,7 +703,8 @@
     "start_page": 119,
     "paragraphs_count": 122,
     "has_source": true,
-    "has_translation": false
+    "has_translation": true,
+    "status": "completed"
   },
   {
     "chapter_id": "ch_077",
@@ -698,7 +713,8 @@
     "start_page": 121,
     "paragraphs_count": 180,
     "has_source": true,
-    "has_translation": false
+    "has_translation": true,
+    "status": "completed"
   },
   {
     "chapter_id": "ch_078",
@@ -707,7 +723,8 @@
     "start_page": 122,
     "paragraphs_count": 187,
     "has_source": true,
-    "has_translation": false
+    "has_translation": true,
+    "status": "completed"
   },
   {
     "chapter_id": "ch_079",
@@ -716,7 +733,9 @@
     "start_page": 124,
     "paragraphs_count": 166,
     "has_source": true,
-    "has_translation": false
+    "has_translation": true,
+    "status": "completed",
+    "translated_title": "Chương 79: Thế giới tận thế 26"
   },
   {
     "chapter_id": "ch_080",
@@ -725,7 +744,9 @@
     "start_page": 126,
     "paragraphs_count": 168,
     "has_source": true,
-    "has_translation": false
+    "has_translation": true,
+    "status": "completed",
+    "translated_title": "Chương 80: Thế giới tận thế 27 (Hoàn)"
   },
   {
     "chapter_id": "ch_081",
