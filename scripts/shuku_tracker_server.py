@@ -669,7 +669,14 @@ def run_shuku_sync(max_pages: int = 48, mode: str = "full"):
         sync_state["is_syncing"] = False
 
 
-def fetch_and_cache_shuku_detail(book_id: str, translate_vi: bool = True) -> Optional[Dict]:
+def is_untranslated_text(text: Optional[str]) -> bool:
+    if not text or not text.strip():
+        return True
+    cn_chars = re.findall(r'[\u4e00-\u9fff]', text)
+    return len(cn_chars) >= 5
+
+
+def fetch_and_cache_shuku_detail(book_id: str, translate_vi: bool = True, force: bool = False) -> Optional[Dict]:
     """
     Lấy chi tiết từ trang index của truyện (`bkxxx.html`) và trang 1 (`bkxxx_2.html`):
     - Danh sách Tag chuyên đề (`所属专题`)
@@ -687,22 +694,36 @@ def fetch_and_cache_shuku_detail(book_id: str, translate_vi: bool = True) -> Opt
 
     item = dict(row)
     if item.get("detail_fetched") == 1 and item.get("full_desc_cn"):
-        if translate_vi and (not item.get("full_desc_vi") or not item.get("full_desc_en")):
+        need_vi = force or is_untranslated_text(item.get("full_desc_vi"))
+        need_en = force or is_untranslated_text(item.get("full_desc_en"))
+        if translate_vi and (need_vi or need_en):
             with ThreadPoolExecutor(max_workers=2) as pool:
-                f_vi = pool.submit(translate_free_google, item["full_desc_cn"], "zh-CN", "vi") if not item.get("full_desc_vi") else None
-                f_en = pool.submit(translate_free_google, item["full_desc_cn"], "zh-CN", "en") if not item.get("full_desc_en") else None
+                f_vi = pool.submit(translate_free_google, item["full_desc_cn"], "zh-CN", "vi") if need_vi else None
+                f_en = pool.submit(translate_free_google, item["full_desc_cn"], "zh-CN", "en") if need_en else None
                 vi_text = f_vi.result() if f_vi else item.get("full_desc_vi", "")
                 en_text = f_en.result() if f_en else item.get("full_desc_en", "")
-            with db_lock:
-                conn = get_db_connection()
-                conn.execute(
-                    "UPDATE shuku_series SET full_desc_vi = ?, full_desc_en = ? WHERE book_id = ?",
-                    (vi_text, en_text, book_id),
-                )
-                conn.commit()
-                conn.close()
-            item["full_desc_vi"] = vi_text
-            item["full_desc_en"] = en_text
+
+            updates = []
+            params = []
+            if need_vi and vi_text and not is_untranslated_text(vi_text):
+                updates.append("full_desc_vi = ?")
+                params.append(vi_text)
+                item["full_desc_vi"] = vi_text
+            if need_en and en_text and not is_untranslated_text(en_text):
+                updates.append("full_desc_en = ?")
+                params.append(en_text)
+                item["full_desc_en"] = en_text
+
+            if updates:
+                params.append(book_id)
+                with db_lock:
+                    conn = get_db_connection()
+                    conn.execute(
+                        f"UPDATE shuku_series SET {', '.join(updates)} WHERE book_id = ?",
+                        tuple(params),
+                    )
+                    conn.commit()
+                    conn.close()
         return item
 
     url_main = item["url"]
@@ -813,14 +834,20 @@ def fetch_and_cache_shuku_detail(book_id: str, translate_vi: bool = True) -> Opt
 
     full_desc_vi = item.get("full_desc_vi") or ""
     full_desc_en = item.get("full_desc_en") or ""
-    if translate_vi and full_desc_cn and (not full_desc_vi or not full_desc_en):
+    need_vi = is_untranslated_text(full_desc_vi)
+    need_en = is_untranslated_text(full_desc_en)
+    if translate_vi and full_desc_cn and (need_vi or need_en):
         with ThreadPoolExecutor(max_workers=2) as pool:
-            f_vi = pool.submit(translate_free_google, full_desc_cn, "zh-CN", "vi") if not full_desc_vi else None
-            f_en = pool.submit(translate_free_google, full_desc_cn, "zh-CN", "en") if not full_desc_en else None
+            f_vi = pool.submit(translate_free_google, full_desc_cn, "zh-CN", "vi") if need_vi else None
+            f_en = pool.submit(translate_free_google, full_desc_cn, "zh-CN", "en") if need_en else None
             if f_vi:
-                full_desc_vi = f_vi.result()
+                res_vi = f_vi.result()
+                if res_vi and not is_untranslated_text(res_vi):
+                    full_desc_vi = res_vi
             if f_en:
-                full_desc_en = f_en.result()
+                res_en = f_en.result()
+                if res_en and not is_untranslated_text(res_en):
+                    full_desc_en = res_en
 
     with db_lock:
         conn = get_db_connection()
@@ -1037,10 +1064,11 @@ async def api_shuku_list_series(request):
 async def api_shuku_detail(request):
     book_id = request.query_params.get("book_id", "").strip()
     translate_vi = request.query_params.get("tr", "1") == "1"
+    force = request.query_params.get("force", "0") == "1"
     if not book_id:
         return JSONResponse({"error": "Thiếu book_id"}, status_code=400)
     try:
-        item = fetch_and_cache_shuku_detail(book_id, translate_vi=translate_vi)
+        item = fetch_and_cache_shuku_detail(book_id, translate_vi=translate_vi, force=force)
         if not item:
             return JSONResponse({"error": "Không tìm thấy truyện"}, status_code=404)
         item["tags_cn"] = json.loads(item.get("tags_cn_json") or "[]")
