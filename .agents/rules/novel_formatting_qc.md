@@ -19,7 +19,7 @@ Khi thực hiện QC một chương trong bất kỳ dự án nào:
 1. [ ] **Format đoạn văn:** Rà soát toàn bộ file xem các đoạn văn và lời thoại đã cách nhau đúng 1 dòng trống (`\n\n`) chưa.
 2. [ ] **Frontmatter:** Đảm bảo phần đầu file có `--- title: ... ---` đúng chuẩn nếu có yêu cầu.
 3. [ ] **Lời tác giả (Author's Note):** Nếu cuối chương có ghi chú hoặc lời tác giả, phải phân tách bằng đường kẻ ngang `---` và tiêu đề `### Lời tác giả` (hoặc `### Ghi chú`), các đoạn bên dưới cũng cách nhau 1 dòng trống.
-4. [ ] **Glossary & Xưng hô:** Đối chiếu danh xưng, đại từ ngôi 3 và xưng hô đối thoại theo đúng file `AGENTS.md` / `characters.md` của dự án tương ứng (riêng với các bộ trong `novel_projects/**`, áp dụng quy chuẩn phân ngôi `anh`, `cậu`, `y`, `hắn` theo [novel_pronoun_conventions.md](file:///d:/Nhung/RIDI/trans-assistant/.agents/rules/novel_pronoun_conventions.md); các file ngoài `novel_projects` như `input/qc` tuân thủ glossary riêng).
+4. [ ] **Glossary & Xưng hô:** Đối chiếu danh xưng, đại từ ngôi 3 và xưng hô đối thoại theo đúng file `AGENTS.md` / `characters.md` của dự án tương ứng (riêng với các bộ trong `novel_projects/**`, áp dụng quy chuẩn phân ngôi `anh`, `cậu`, `y`, `hắn` theo [novel_pronoun_conventions.md](file:///d:/Nhung/RIDI/trans-assistant/.agents/rules/novel_pronoun_conventions.md); các file ngoài `novel_projects` như `input/qc` tuân thủ glossary riêng). **Đặc biệt trong bối cảnh hiện đại:** Kiểm tra đồng bộ cặp xưng hô đối thoại: nếu người nói xưng "tao" thì bắt buộc chỉ được gọi người nghe là "mày" (cấm đá ngôi xưng `tao` gọi `anh`/`cậu`/`ngươi`).
 5. [ ] **Bảo toàn hậu tố tiếng Hàn:** Tuân thủ tuyệt đối Quy tắc 3 bên dưới, không bắt lỗi lạm dụng hậu tố `-ie`, `-ah`.
 
 ## 3. QUY TẮC HẬU TỐ XƯNG HÔ TIẾNG HÀN KHI QC (-ie, -ah, -yah, ...)

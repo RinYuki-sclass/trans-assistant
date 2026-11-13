@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ngai_so",
+    "name": "Ngải Sơ",
+    "original_name": "艾初",
+    "role": "Công chính Arc 1 (Thế giới ABO)",
+    "pronoun_3rd": "hắn",
+    "faction": "Thế giới ABO / Alpha trà xanh",
+    "description": "Alpha trà xanh tâm cơ hám tiền, nguyên tác là mối tình đầu tệ bạc của thụ chính Omega. Nhắm mục tiêu đào mỏ nhưng nhận nhầm Boss phản diện Thẩm Sách Chi thành nam chính, dẫn đến việc bị cưỡng ép giam giữ."
+  },
+  {
+    "id": "tham_sach_chi",
+    "name": "Thẩm Sách Chi",
+    "original_name": "沈策之",
+    "role": "Thụ chính Arc 1 (Thế giới ABO)",
+    "pronoun_3rd": "y",
+    "faction": "Thế giới ABO / Boss phản diện",
+    "description": "Alpha cấp cao quyền thế ngập trời, tính tình tàn nhẫn, sát phạt quyết đoán, chiếm hữu cực đoan đối với Ngải Sơ."
+  },
+  {
+    "id": "yen_tuu",
+    "name": "Yến Tửu",
+    "original_name": "晏酒",
+    "role": "Công chính Arc 2 (Thế giới Hiện đại)",
+    "pronoun_3rd": "hắn",
+    "faction": "Thế giới Hiện đại / Thiếu gia nhà giàu",
+    "description": "Thiếu gia giàu có bạo kiều, nóng tính, tìm cách đá thụ chính để thoát khỏi kết cục hỏa táng trường nhưng lại bị tử địch Chu Mặc chặn đường."
+  },
+  {
+    "id": "chu_mac",
+    "name": "Chu Mặc",
+    "original_name": "周墨",
+    "role": "Thụ chính Arc 2 (Thế giới Hiện đại)",
+    "pronoun_3rd": "y",
+    "faction": "Thế giới Hiện đại / Tử địch kiêm Boss",
+    "description": "Tử địch của Yến Tửu, bề ngoài lạnh lùng kỳ thị đồng tính nhưng bên trong lại âm thầm theo dõi và muốn độc chiếm Yến Tửu."
+  },
+  {
+    "id": "bach_nhien",
+    "name": "Bạch Nhiên",
+    "original_name": "白燃",
+    "role": "Công chính Arc 3 (Thế giới Mạt thế)",
+    "pronoun_3rd": "hắn",
+    "faction": "Thế giới Mạt thế / Dị năng giả",
+    "description": "Vô tâm vô phế, ra tay tàn nhẫn 'hạ sát' bạn thân để tự cứu mình, ba năm sau bị bắt lại."
+  },
+  {
+    "id": "giang_trieu_du",
+    "name": "Giang Triều Dữ",
+    "original_name": "江潮屿",
+    "role": "Thụ chính Arc 3 (Thế giới Mạt thế)",
+    "pronoun_3rd": "y",
+    "faction": "Thế giới Mạt thế / Nam chính hắc hóa",
+    "description": "Bạn thân của Bạch Nhiên, sau khi thoát chết thì hắc hóa trở thành kẻ săn mồi nguy hiểm, bắt giữ và vây hãm Bạch Nhiên."
+  },
+  {
+    "id": "mac_phi_nhi",
+    "name": "Mạc Phỉ Nhĩ",
+    "original_name": "莫菲尔",
+    "role": "Công chính Arc 4 (Thế giới Trùng tộc)",
+    "pronoun_3rd": "hắn",
+    "faction": "Thế giới Trùng tộc / Hùng trùng quý tộc",
+    "description": "Hùng trùng kiêu ngạo, nuông chiều, trong chuyến đi bị bắt cóc bởi tinh đạo phản diện."
+  },
+  {
+    "id": "gia_loi_ngac",
+    "name": "Già Lợi Ngạc",
+    "original_name": "伽利厄",
+    "role": "Thụ chính Arc 4 (Thế giới Trùng tộc)",
+    "pronoun_3rd": "y",
+    "faction": "Thế giới Trùng tộc / Thủ lĩnh tinh đạo phản diện",
+    "description": "Thư trùng phản diện ngông cuồng bất kham, tóm được Mạc Phỉ Nhĩ và nảy sinh ý muốn thuần phục, độc chiếm."
+  }
+]

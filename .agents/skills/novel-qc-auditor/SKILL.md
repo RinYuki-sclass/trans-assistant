@@ -89,6 +89,13 @@ Character & Pronoun Drift is the most frequent and critical translation defect. 
     - Câu 113: `Ngươi không phải là trùng...` (nhảy sang **ngươi** ➔ **VI PHẠM B6**).
   * *Cách sửa chuẩn:* Bắt buộc đồng bộ xuyên suốt: Hoặc giữ nguyên `"cậu"` cho cả đoạn phán xét, hoặc nếu dùng sắc thái bề trên đanh thép thì phải đồng bộ thành `"ngươi"` ngay từ câu thoại trước đó.
 
+* **Case B7 — Lệch cặp xưng hô đối thoại bối cảnh hiện đại (`tao - mày`):**
+  * *Quy tắc:* Trong lời thoại trực tiếp ở bối cảnh hiện đại (đô thị, showbiz, vườn trường, hào môn...), khi nhân vật tự xưng là `"tao"` (ngôi 1), thì người nghe **BẮT BUỘC VÀ CHỈ ĐƯỢC GỌI LÀ `"mày"` (ngôi 2)**.
+  * *Lỗi bắt:* Bắt mọi trường hợp lai tạp đá ngôi: xưng `"tao"` nhưng lại gọi đối phương là `"anh"`, `"cậu"`, `"ngươi"`, `"hắn"`, `"ông"`, `"chú"`, v.v. trong cùng lời thoại hoặc cùng lượt nói.
+  * *Ví dụ vi phạm:* `“Tao nói cho anh/cậu biết...”` ➔ **VI PHẠM B7**. Bắt buộc sửa thành: `“Tao nói cho mày biết...”`.
+  * *Ví dụ vi phạm:* `“Tao cảnh cáo ngươi...”` (trong bối cảnh hiện đại) ➔ **VI PHẠM B7**. Bắt buộc sửa thành: `“Tao cảnh cáo mày...”`.
+  * *Ví dụ vi phạm:* `“Tao tha cho anh lần này!”` ➔ **VI PHẠM B7**. Bắt buộc sửa thành: `“Tao tha cho mày lần này!”`.
+
 ---
 
 ### 3. NHÓM C: QUY CHUẨN TÊN RIÊNG & DANH XƯNG ĐẶC THÙ

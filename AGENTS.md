@@ -41,8 +41,13 @@ Tài liệu này xác định các quy tắc cốt lõi áp dụng cho AI Code A
 5. **Quản lý Đại từ & Nhân vật (Pronoun Binding):**
    - Tuân thủ nghiêm ngặt ma trận đại từ của từng dự án trong `novel_projects/<slug>/AGENTS.md` và `.agents/rules/novel_pronoun_conventions.md`.
 
-6. **Phân định tuyệt đối giữa Lời thoại trực tiếp vs Trần thuật / Độc thoại nội tâm:**
+6. **Phân định tuyệt đối giữa Lời thoại trực tiếp vs Trần thuật / Độc thoại nội tâm & Cặp xưng hô hiện đại:**
    - **Lời thoại trực tiếp trong ngoặc kép `“...”`:** Tuân thủ ngữ cảnh cảm xúc của nhân vật (khi phẫn nộ, chửi bới có thể dùng `“mày - tao”`, `“ngươi - ta”` theo quy chuẩn từng dự án).
+   - **Quy tắc cặp xưng hô "tao - mày" trong bối cảnh hiện đại:**
+     - Trong bối cảnh hiện đại (đô thị, showbiz, vườn trường, hào môn...), khi nhân vật trong lời thoại đối thoại trực tiếp (`“...”`) tự xưng là **"tao"** (ngôi 1), thì **BẮT BUỘC CHỈ ĐƯỢC GỌI NGƯỜI NGHE LÀ "mày"** (ngôi 2: cặp xưng hô đồng bộ `tao - mày`).
+     - **TUYỆT ĐỐI CẤM** hiện tượng lai tạp, đá ngôi: Xưng `tao` nhưng lại gọi người nghe là `anh`, `cậu`, `hắn`, `ngươi`, `ông`, `chú`, `cô`, v.v.
+     - *Ví dụ sai:* `“Tao cảnh cáo anh/cậu...”`, `“Tao nói cho các người biết...”`, `“Tao tha cho anh lần này...”`.
+     - *Ví dụ đúng:* `“Tao cảnh cáo mày...”`, `“Tao nói cho tụi mày biết...”`, `“Tao tha cho mày lần này...”`.
    - **Trần thuật / Độc thoại nội tâm không ngoặc kép:** **TUYỆT ĐỐI CẤM** đem đại từ đối thoại ngôi 2/ngôi 1 (`mày`, `tao`) vào câu trần thuật hoặc suy nghĩ nội tâm ngôi 3, tránh gây hiện tượng "đá ngôi" phi logic.
    - *Ví dụ sai:* `Mày dựa vào cái thớ gì mà dám ghét cậu chứ!` (lẫn lộn `mày` ngôi 2 và `cậu` ngôi 3).
    - *Ví dụ đúng chuẩn ngôi 3:* `Hắn dựa vào cái thớ gì mà dám ghét cậu chứ!`

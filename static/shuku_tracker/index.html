@@ -1005,6 +1005,9 @@
           <button class="r-btn active" id="focusTab-vi" onclick="switchFocusLang('vi')">🇻🇳 Việt (1)</button>
           <button class="r-btn" id="focusTab-en" onclick="switchFocusLang('en')">🇬🇧 Eng (2)</button>
           <button class="r-btn" id="focusTab-cn" onclick="switchFocusLang('cn')">🇨🇳 Trung (3)</button>
+          <button class="r-btn" onclick="retranslateCurrentBook()" title="Dịch lại văn án (Force re-translate)">
+            <i class="fa fa-refresh"></i> Dịch lại
+          </button>
           <a id="focusReadRawLink" href="#" target="_blank" rel="noopener" class="r-btn" style="background:#059669; color:#fff; border-color:#059669; text-decoration:none;">
             <i class="fa fa-book"></i> Raw
           </a>
@@ -1228,6 +1231,34 @@
       }
     }
 
+    function hasChineseText(str) {
+      if (!str) return false;
+      const m = str.match(/[\u4e00-\u9fff]/g);
+      return m && m.length >= 5;
+    }
+
+    async function retranslateCurrentBook() {
+      if (!activeFocusBookId) return;
+      const viEl = document.getElementById('focusDesc-vi');
+      const enEl = document.getElementById('focusDesc-en');
+      viEl.innerHTML = `<div style="color:#7c2d12; text-align:center; padding:40px;"><i class="fa fa-spinner fa-spin fa-2x"></i><div style="margin-top:10px;">Đang dịch lại văn án (Việt & Anh)...</div></div>`;
+      try {
+        const res = await fetch(`/api/shuku/detail?book_id=${encodeURIComponent(activeFocusBookId)}&tr=1&force=1`);
+        const data = await res.json();
+        if (data.ok && data.item) {
+          const it = data.item;
+          currentItemsMap[activeFocusBookId] = Object.assign(currentItemsMap[activeFocusBookId] || {}, it);
+          viEl.innerHTML = formatParagraphsHtml(it.full_desc_vi);
+          enEl.innerHTML = formatParagraphsHtml(it.full_desc_en);
+          showToast("Đã dịch lại văn án thành công!", "success");
+        } else {
+          showToast("Không thể dịch lại: " + (data.error || "Lỗi không xác định"), "danger");
+        }
+      } catch (e) {
+        showToast("Lỗi dịch lại: " + e.message, "danger");
+      }
+    }
+
     async function openFocusReader(bookId) {
       const modal = document.getElementById('focusReaderModal');
       if (!modal) return;
@@ -1246,7 +1277,8 @@
       const scrollArea = document.querySelector('.focus-modal-content');
       if (scrollArea) scrollArea.scrollTop = 0;
 
-      if (it.full_desc_vi && it.full_desc_en && it.full_desc_cn) {
+      const isReady = it.full_desc_vi && it.full_desc_en && it.full_desc_cn && !hasChineseText(it.full_desc_vi);
+      if (isReady) {
         viEl.innerHTML = formatParagraphsHtml(it.full_desc_vi);
         enEl.innerHTML = formatParagraphsHtml(it.full_desc_en);
         cnEl.innerHTML = formatParagraphsHtml(it.full_desc_cn);

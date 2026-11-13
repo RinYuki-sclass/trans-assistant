@@ -1,15 +1,15 @@
 # 📜 QUY CHUẨN DỊCH THUẬT CHI TIẾT (RULES TRANSLATION)
 ## XUYÊN VÀO PHÁO HÔI CỦA TRUYỆN TỔNG THỤ VÀ CHÍNH BÀI CÔNG 1V1 (《穿进总受文的炮灰和正牌攻1v1了》)
 
-> **Cặp đôi:** Nhiếp Thế Vân (Chủ công) × Địch Bạch Dung (Thụ chính)  
+> **Cặp đôi chính:** Nhiếp Thế Vân (Chủ công / POV chính) × Địch Bạch Dung (Thụ chính / Nguyên chính bài công)  
 > **Bối cảnh:** Cổ đại / Tiên hiệp Tu chân / Xuyên thư / Chủng điền Luyện khí / 1v1  
-> **Quy mô:** 213 chương
+> **Quy mô toàn truyện:** 216 chương (146 chương Chính văn + 70 chương Ngoại truyện)
 
 ---
 
 ## 1. NGUYÊN TẮC CỐT LÕI (CORE PRINCIPLES)
 
-1. **Zero Google API Key Mandate:** Toàn bộ công việc dịch thuật, rà soát, đồng bộ được AI Agent tự thực thi 100%. Không gọi script sử dụng API ngoài.
+1. **Universal Zero Google API Key Mandate:** Toàn bộ công việc biên dịch, phân tích, đối chiếu, kiểm thử do AI Agent tự thân xử lý 100%. Tuyệt đối không gọi tool/script bên ngoài qua Google API.
 2. **Bảo toàn kết cấu 1:1 (Paragraph Alignment):**
    - Mỗi đoạn văn trần thuật hoặc lời thoại trong bản dịch tương ứng chính xác 1:1 với đoạn văn trong bản gốc `source.md`.
    - Tuyệt đối không tự ý gộp hai đoạn thành một, không tự ý chẻ một đoạn thành nhiều đoạn.
@@ -27,8 +27,9 @@
 | **Nhiếp Thế Vân** (Chủ công) | **hắn** | *anh, cậu, gã* | Điểm nhìn tự sự chính (POV). Luôn dùng **"hắn"** để giữ vị thế chủ công và phong thái điềm tĩnh, đĩnh đạc. |
 | **Địch Bạch Dung** (Thụ chính) | **y** (hoặc gọi thẳng tên Địch Bạch Dung) | *hắn, anh, cậu* | **BẮT BUỘC dùng "y"** trong văn kể chuyện trần thuật. Tuyệt đối không dùng "hắn" (tránh lẫn với Nhiếp Thế Vân) và KHÔNG dùng "anh/cậu" (hiện đại hóa vô lý trong tiên hiệp cổ đại). |
 | **Đoạn Minh Ngọc** (Tổng thụ nguyên tác) | **y / hắn** | *cậu, em* | Dùng "y" hoặc "hắn" tùy ngữ cảnh nhằm giữ tính khách quan của góc nhìn thứ 3. |
-| **Nhân vật phụ nam / Kẻ thù** | **y / gã / kẻ đó / tên đó** | *anh, chú, bác* | Phù hợp thân phận tu sĩ tiên môn hoặc tán tu. |
-| **Nhân vật phụ nữ** | **nàng / cô** | *chị, em* | Phù hợp bối cảnh cổ phong. |
+| **Tư Diệp Hoa / Nhung Luật** (Công nguyên tác) | **hắn / gã / kẻ đó** | *anh, chú* | Thể hiện đúng tính cách kiêu căng, ngông nghênh của các đệ tử thiên tài môn phái lớn. |
+| **Nhân vật phụ nam / Tán tu** | **y / gã / kẻ đó / tên đó** | *anh, chú, bác* | Phù hợp thân phận tu sĩ tiên môn hoặc tán tu. |
+| **Nhân vật phụ nữ** (Tề Diệu Hạm, Tề Hiên Nhi, Tưởng Bạch Hương) | **nàng / cô / bà** | *chị, em* | Phù hợp bối cảnh cổ phong tu chân. |
 
 ---
 
@@ -63,6 +64,7 @@
 7. **Hợp Thể** (合体)
 8. **Đại Thừa** (大乘)
 9. **Độ Kiếp** (渡劫) — *Phi thăng tiên giới*
+10. **Phi Thăng** (飞升) — *Thượng Thiên Giới / Tiên giới*
 
 ### 4.2. Thuật ngữ cốt lõi
 - **Linh căn (灵根):** Thiên linh căn, song linh căn, tam linh căn (nguyên chủ mang tam linh căn tương khắc dẫn đến tắc nghẽn).

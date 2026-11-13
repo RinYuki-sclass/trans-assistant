@@ -1,0 +1,26 @@
+[
+  {
+    "source": "ngai_so",
+    "target": "tham_sach_chi",
+    "relation": "Arc 1: Alpha hám tiền × Alpha phản diện quyền lực (Cưỡng chế ái)",
+    "description": "Ngải Sơ đào mỏ nhầm trùm phản diện Thẩm Sách Chi và bị đối phương đè ép giam giữ bên mình."
+  },
+  {
+    "source": "yen_tuu",
+    "target": "chu_mac",
+    "relation": "Arc 2: Thiếu gia bạo kiều × Tử địch cố chấp (Tử địch hóa tình nhân)",
+    "description": "Yến Tửu né hỏa táng trường nhưng lại bị tử địch Chu Mặc chặn đầu bắt giữ."
+  },
+  {
+    "source": "bach_nhien",
+    "target": "giang_trieu_du",
+    "relation": "Arc 3: Vô tâm vô phế × Nam chính hắc hóa (Ân oán mạt thế)",
+    "description": "Bạch Nhiên từng tiễn bạn thân một đòn chí mạng, ba năm sau bị người nọ trở về bắt lại phục thù."
+  },
+  {
+    "source": "mac_phi_nhi",
+    "target": "gia_loi_ngac",
+    "relation": "Arc 4: Hùng trùng kiêu ngạo × Thư trùng phản diện (Bắt cóc thuần phục)",
+    "description": "Mạc Phỉ Nhĩ bị thủ lĩnh tinh đạo phản diện Già Lợi Ngạc bắt giữ và trói buộc quan hệ."
+  }
+]

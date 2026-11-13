@@ -1,0 +1,51 @@
+[
+  {
+    "event_id": "evt_arc1_start",
+    "title": "Arc 1 (ABO): Ngải Sơ câu nhầm Thẩm Sách Chi",
+    "chapter": "Chương 1 - 30",
+    "summary": "Ngải Sơ tính kế đào mỏ công chính nhưng lại nhầm sang phản diện Thẩm Sách Chi, bắt đầu chuỗi ngày bị cưỡng chế ái."
+  },
+  {
+    "event_id": "evt_arc2_start",
+    "title": "Arc 2 (Hiện đại): Yến Tửu né hỏa táng trường gặp Chu Mặc",
+    "chapter": "Chương 31 - 53",
+    "summary": "Yến Tửu cắt đứt với thụ chính để không phải vào hỏa táng trường, nhưng bị tử địch Chu Mặc chặn lại đòi bao dưỡng."
+  },
+  {
+    "event_id": "evt_arc3_ch54_56",
+    "title": "Arc 3 (Mạt thế): Hẹn hò Valentine và đòn đoạt mạng trước mạt thế",
+    "chapter": "Chương 54 - 56",
+    "summary": "Bạch Nhiên biết trước cốt truyện nên chủ động hẹn Giang Triều Dữ vào ngày lễ tình nhân. Sau khi đi xem phim mạt thế và uống rượu tại quán bar, Giang Triều Dữ bất ngờ tỏ tình và cướp mất nụ hôn đầu của Bạch Nhiên. Khi mạt thế bùng nổ và tang thi tràn vào nhà hàng, Bạch Nhiên đã dùng mảnh chai bia vỡ đâm đứt động mạch cổ của Giang Triều Dữ rồi bỏ trốn một mình."
+  },
+  {
+    "event_id": "evt_arc4_start",
+    "title": "Arc 4 (Trùng tộc): Mạc Phỉ Nhĩ rơi vào tay Già Lợi Ngạc",
+    "chapter": "Chương 81 - 105",
+    "summary": "Hùng tử Mạc Phỉ Nhĩ đi tàu vũ trụ bị tinh đạo bắt cóc, rơi vào tay thủ lĩnh thư trùng Già Lợi Ngạc."
+  },
+  {
+    "chapter": 57,
+    "title": "Thời kỳ mạt thế sau 1 năm",
+    "event": "Bạch Nhiên trở thành kỹ sư máy móc tại triển lãm công nghệ, cứu Tề Nghiễn (dị năng thực vật) và kết thành đồng minh sinh tồn."
+  },
+  {
+    "chapter": 58,
+    "title": "Giang Triều Dữ trở lại sau 3 năm",
+    "event": "Giang Triều Dữ trở về với tư cách vua dị năng (lôi điện + khống chế tinh thần bán tang thi), đến căn cứ Hoàn Tinh đòi đích danh Bạch Nhiên."
+  },
+  {
+    "chapter": 59,
+    "title": "Cuộc gặp gỡ trong phòng họp",
+    "event": "Bạch Nhiên một mình bước vào phòng họp, đối mặt với Giang Triều Dữ trong trang phục đen tà mị và kính bảo hộ công nghệ cao."
+  },
+  {
+    "chapter": 60,
+    "title": "Dấu ấn máu và mệnh lệnh quỳ",
+    "event": "Giang Triều Dữ cưỡng hôn và truyền máu dị hóa ép Bạch Nhiên lập liên kết tinh thần, sau đó ra lệnh Bạch Nhiên quỳ xuống."
+  },
+  {
+    "chapter": 61,
+    "title": "Màn đối chất thật lòng và chú chó nhỏ",
+    "event": "Do liên kết máu không thể nói dối, Bạch Nhiên thừa nhận thích Giang Triều Dữ nhưng muốn giết y. Giang Triều Dữ chấn động đứng hình; Bạch Nhiên chủ động dụ dỗ Giang Triều Dữ biến mình thành chú chó nhỏ để bảo toàn tính mạng."
+  }
+]

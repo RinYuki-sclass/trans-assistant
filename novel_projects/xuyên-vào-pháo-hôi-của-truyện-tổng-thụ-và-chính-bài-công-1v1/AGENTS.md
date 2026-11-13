@@ -3,13 +3,13 @@
 > **Tên tác phẩm:** Xuyên Vào Pháo Hôi Của Truyện Tổng Thụ Và Chính Bài Công 1v1 (穿进总受文的炮灰和正牌攻1v1了 / 穿进修真文的炮灰攻)  
 > **Tác giả:** 哼哼 (Hanh Hanh) / 哼哼爱吃家常菜 (Hanh Hanh Ái Cật Gia Thường Thải)  
 > **Slug dự án:** `xuyên-vào-pháo-hôi-của-truyện-tổng-thụ-và-chính-bài-công-1v1`  
-> **Quy mô toàn truyện:** 213 chương (Chính văn + Ngoại truyện)  
+> **Quy mô toàn truyện:** 216 chương (146 chương Chính văn + 70 chương Ngoại truyện/Phiên ngoại)  
 > **Thể loại:** Đam mỹ, Cổ đại, Tiên hiệp tu chân, Xuyên thư, Chủ công, Thăng cấp lưu, Chủng điền làm giàu, Luyện khí, Tiên tố hậu ái (lên giường trước yêu sau), 1v1, HE.  
 > **Cặp đôi chính:** Nhiếp Thế Vân (Chủ công / Xuyên thư) × Địch Bạch Dung (Thụ chính / Nguyên chính bài công)
 
 ---
 
-## ⛔ QUY TẮC TỐI THƯỢNG: TOÀN BỘ SOURCE KHÔNG DÙNG GOOGLE API KEY (ZERO GOOGLE API KEY MANDATE)
+## ⛔ QUY TẮC TỐI THƯỢNG: TOÀN BỘ SOURCE KHÔNG DÙNG GOOGLE API KEY (UNIVERSAL ZERO GOOGLE API KEY MANDATE)
 
 1. **AI Agent Tự Thân Thực Thi Trực Tiếp 100%:**
    - Đọc trực tiếp `source.md` bằng công cụ đọc file (`read_file`).
@@ -24,11 +24,19 @@
 
 | Nhân vật | Hán tự | Vai trò / Thân phận | Đại từ trần thuật ngôi 3 | Quy chuẩn xưng hô & Nguyên tắc dịch |
 | :--- | :--- | :--- | :--- | :--- |
-| **Nhiếp Thế Vân** | 聂世云 | **Công chính / Chủ công (POV chính)** | **hắn** | Xuyên thư, pháo hôi tu nhị đại, thiên phú luyện khí, không gian bí cảnh. Tính cách trầm tĩnh, thấu đáo, thực tế. Đối thoại: xưng **"ta"**, gọi Địch Bạch Dung là **"ngươi"** / **"Bạch Dung"**. |
-| **Địch Bạch Dung** | 翟白容 | **Thụ chính (Chính bài công nguyên tác)** | **y** | Thiên chi kiêu tử, kiếm tu/pháp tu kiệt xuất của Địch gia. Bị cuốn vào duyên phận với Nhiếp Thế Vân, trở thành đạo lữ 1v1 chung thủy. Đối thoại: xưng **"ta"**, gọi Nhiếp Thế Vân là **"ngươi"** / **"Thế Vân"**. **Bắt buộc dùng "y" trong trần thuật** để phân tách hoàn toàn với "hắn" (Nhiếp Thế Vân). |
-| **Đoạn Minh Ngọc** | 段铭玉 | **Tổng thụ nguyên tác (Vạn nhân mê)** | **y / hắn** | Đệ tử Ánh Nguyệt Phái, tính cách bạch liên hoa ngây thơ, nguyên tác thu nạp hậu cung đông đảo. |
-| **Nhiếp Hưng An** | 聂兴安 | Đường huynh Nhiếp Thế Vân | **y / hắn** | Luyện khí sư trẻ tuổi của Vân Thanh Các. |
-| **Nhiếp phó các chủ** | 聂副阁主 | Phụ thân của Nhiếp Thế Vân | **ông / phó các chủ** | Phó các chủ Vân Thanh Các, hậu thuẫn tài nguyên của Nhiếp Thế Vân. |
+| **Nhiếp Thế Vân** | 聂世云 | **Công chính / Chủ công (POV chính)** | **hắn** | Xuyên thư, pháo hôi tu nhị đại, thiên phú luyện khí, không gian bí cảnh. Điềm tĩnh, cơ trí, thực tế. Đối thoại: xưng **"ta"**, gọi Địch Bạch Dung là **"ngươi"** / **"Bạch Dung"**. |
+| **Địch Bạch Dung** | 翟白容 | **Thụ chính (Chính bài công nguyên tác)** | **y** | Thiên chi kiêu tử Địch gia, kiếm tu/pháp tu kiệt xuất, đạo lữ 1v1 chung thủy của Nhiếp Thế Vân. Đối thoại: xưng **"ta"**, gọi Nhiếp Thế Vân là **"ngươi"** / **"Thế Vân"**. **Bắt buộc dùng "y" trong trần thuật** để phân tách hoàn toàn với "hắn" (Nhiếp Thế Vân). |
+| **Đoạn Minh Ngọc** | 段铭玉 | **Tổng thụ nguyên tác (Vạn nhân mê)** | **y / hắn** | Đệ tử Ánh Nguyệt Phái, bạch liên hoa ngây thơ, nguyên tác thu nạp hậu cung đông đảo. |
+| **Tư Diệp Hoa** | 胥烨华 | Công hậu cung nguyên tác | **hắn / gã** | Đệ tử thiên tài môn phái lớn, tính cách ngông cuồng, tùy hứng, chơi bời trăng hoa. |
+| **Nhung Luật** | 戎律 | Công hậu cung nguyên tác | **hắn / gã** | Đệ tử kiếm tu cao ngạo, lạnh lùng nhưng bảo hộ mù quáng cho Đoạn Minh Ngọc. |
+| **Thẩm Duyên** | 沈延 | Bạn thân / Đạo lữ phụ | **y / hắn** | Xuất hiện hỗ trợ mạng lưới tin tức, cp phụ với Huyền Dương. |
+| **Huyền Dương** | 玄阳 | Phượng tộc / Thần thú | **hắn / y** | Thần thú / Yêu tộc liên kết với Nhiếp Thế Vân. |
+| **Tề Diệu Hạm** | 齐妙菡 | Bạn thân của Nhiếp Thế Vân | **nàng / cô** | Đệ tử Phẩm Âm Các, tính tình hoạt bát, thẳng thắn, tỷ muội với Tề Hiên Nhi. |
+| **Tề Hiên Nhi** | 齐轩儿 | Sư muội đồng môn | **nàng / cô** | Đệ tử Vân Thanh Các, muội muội của Tề Diệu Hạm. |
+| **Nhiếp Hưng An** | 聂兴安 | Đường huynh Nhiếp Thế Vân | **y / hắn** | Luyện khí sư trẻ tuổi Vân Thanh Các. |
+| **Nhiếp phó các chủ** | 聂副阁主 | Phụ thân Nhiếp Thế Vân | **ông / phó các chủ** | Phó các chủ Vân Thanh Các, hậu thuẫn tài nguyên của Nhiếp Thế Vân. |
+| **Tưởng Bạch Hương** | 蒋白香 | Chưởng môn Phẩm Âm Các | **bà / chưởng môn** | Nữ tu tiền bối đức cao vọng trọng. |
+| **Đỗ Chấp** | 杜执 | Luyện khí sư đối thủ | **gã / y** | Luyện khí sư trẻ tuổi cùng thi đấu ở Lăng Thiên Thành. |
 
 ---
 
@@ -41,7 +49,7 @@
 2. **Xưng hô đối thoại cổ phong:**
    - Giữa Nhiếp Thế Vân và Địch Bạch Dung: Xưng **"ta - ngươi"** (khi ngọt ngào gọi tên riêng thân mật *"Thế Vân"*, *"Bạch Dung"*).
    - ⚠️ **CẤM DÙNG "mày - tao":** Dù tranh đấu, cướp đoạt cơ duyên hay đối đầu với kẻ thù, tu sĩ xưng hô **"ngươi - ta"**, gọi kẻ địch là *"gã đó / kẻ kia / tên khốn kia"*.
-   - Với sư trưởng / môn phái: Dùng *"sư huynh, sư đệ, sư muội, tiền bối, các chủ, chưởng môn, đạo hữu"*.
+   - Với sư trưởng / môn phái: Dùng *"sư huynh, sư đệ, sư muội, sư tỷ, tiền bối, các chủ, chưởng môn, đạo hữu"*.
 3. **Phân định Thoại trực tiếp `“...”` vs Trần thuật / Suy nghĩ nội tâm:**
    - **Thoại trực tiếp trong ngoặc kép `“...”`:** Thể hiện cảm xúc nhân vật sống động, đúng văn cảnh tu chân.
    - **Trần thuật / Độc thoại không ngoặc kép:** Bắt buộc tuân thủ ngôi thứ 3 chuẩn xác. Tuyệt đối cấm mang đại từ đối thoại (ta, tôi, ngươi, mày) vào làm chủ ngữ trần thuật (hiện tượng đá ngôi).
@@ -51,10 +59,12 @@
 ## 💎 3. THUẬT NGỮ TU TIÊN & LUYỆN KHÍ BẮT BUỘC
 
 - **Hệ thống cảnh giới tu chân:**
-  `Luyện Khí (练气) -> Trúc Cơ (筑基) -> Kim Đan (金丹) -> Nguyên Anh (元婴) -> Hóa Thần (化神) -> Luyện Hư (炼虚) -> Hợp Thể (合体) -> Đại Thừa (大乘) -> Độ Kiếp (渡劫)`
+  `Luyện Khí (练气) -> Trúc Cơ (筑基) -> Kim Đan (金丹) -> Nguyên Anh (元婴) -> Hóa Thần (化神) -> Luyện Hư (炼虚) -> Hợp Thể (合体) -> Đại Thừa (大乘) -> Độ Kiếp (渡劫) -> Phi Thăng (飞升)`
 - **Tông môn & Địa danh:**
   - `Vân Thanh Các (云清阁)`
   - `Ánh Nguyệt Phái (映月派)`
+  - `Phẩm Âm Các (品音阁)`
+  - `Lăng Thiên Thành (陵天城)`
   - `Mê Vụ Bí Cảnh (迷雾秘境)`
 - **Thuật ngữ chuyên ngành:**
   - *linh căn (tam linh căn, dị linh căn), đan điền, thức hải, đạo lữ, cơ duyên, bí cảnh, death flag (cờ tử nạn), tu nhị đại, chính bài công, tổng thụ, túi trữ vật, linh thạch (hạ phẩm, trung phẩm, thượng phẩm, cực phẩm), lò luyện khí, tài liệu luyện khí, phù lục, đan dược*.

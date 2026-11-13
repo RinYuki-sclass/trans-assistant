@@ -57,8 +57,9 @@ graph TD
 * **Công thức chuẩn:** Cặp đôi **`anh` (Công) $\times$ `cậu` (Thụ)**.
 * Công là chỗ dựa, người dẫn dắt; Thụ là nghệ sĩ tài năng bị vùi dập, thiếu gia thất lạc, hoặc thiếu niên trà xanh giả ngoan.
 * Phản diện, tư bản bẩn, tra nam: Dùng **`hắn`**.
+* **Quy tắc xưng hô đối thoại "tao - mày":** Trong lời thoại trực tiếp, khi người nói đã xưng **"tao"** thì **BẮT BUỘC CHỈ ĐƯỢC GỌI NGƯỜI NGHE LÀ "mày"** (cặp `tao - mày` đồng bộ tuyệt đối). Cấm lai tạp xưng `tao` nhưng lại gọi `anh`/`cậu`/`ngươi`/`hắn`.
 * *Ví dụ thực tế:*
-  * `thụ-trà-xanh`: Thẩm Phi Triết = **anh**; Cố Tùy Châu (16-17 tuổi) = **cậu** *(CẤM dùng "hắn" hay "anh" cho Cố Tùy Châu)*.
+  * `thụ-trà-xanh`: Thẩm Phi Triết = **anh**; Cố Tùy Châu (16-17 tuổi) = **cậu** *(CẤM dùng "hắn" hay "anh" cho Cố Tùy Châu)*; Lâm Tùy khi mất bình tĩnh xưng **"tao"** và gọi Cố Tùy Châu là **"mày"**.
   * `phan-dien-truyen-nguoc-dinh-cong-khong-lam-nua` (TG2 - Showbiz): Chương Thừa Dư = **anh**; Ký Hoài = **cậu**.
 
 ### 2.3. Bối cảnh Tinh tế / Cơ giáp / Trùng tộc / Hào môn Cường - Cường
@@ -122,3 +123,13 @@ Tùy thuộc vào thiết lập Thụ là **Cường Thụ (ngang tàng/lạnh l
    - *Ví dụ đúng:* `Hắn dựa vào cái thớ gì mà dám ghét cậu chứ!`
    - *Ví dụ sai:* `Là mày, Tuế Dư An, chính mày đã ép tao bước lên con đường chẳng thẳng chẳng cong...` ➔ **SAI**.
    - *Ví dụ đúng:* `Chính Tuế Dư An hắn đã ép cậu bước lên con đường chẳng thẳng chẳng cong...`
+
+6. **Đồng bộ tuyệt đối cặp xưng hô "tao - mày" trong đối thoại bối cảnh hiện đại (Strict Modern Dialogue Pairing):**
+   - Trong đối thoại trực tiếp (`“...”`) của bối cảnh hiện đại, khi nhân vật nổi giận, chửi bới, khinh miệt hoặc nói chuyện suồng sã mà **đã xưng "tao" (ngôi 1)**, thì **BẮT BUỘC CHỈ ĐƯỢC GỌI NGƯỜI NGHE LÀ "mày" (ngôi 2)**.
+   - **Tuyệt đối nghiêm cấm đá ngôi lai tạp:** Không được xưng `tao` nhưng lại gọi người nghe là `anh`, `cậu`, `hắn`, `ngươi`, `ông`, `chú`, v.v. Cặp đại từ đối thoại phải là một cặp đồng nhất duy nhất: `tao - mày`.
+   - *Ví dụ sai:* `“Tao nói cho anh biết, đừng có mà mơ!”` ➔ **SAI**.
+   - *Ví dụ đúng:* `“Tao nói cho mày biết, đừng có mà mơ!”`
+   - *Ví dụ sai:* `“Tao cảnh cáo cậu, tránh xa Thẩm ca ra!”` ➔ **SAI**.
+   - *Ví dụ đúng:* `“Tao cảnh cáo mày, tránh xa Thẩm ca ra!”`
+   - *Ví dụ sai:* `“Tao tha cho ngươi lần này...”` ➔ **SAI** (lẫn lộn cổ trang/hiện đại).
+   - *Ví dụ đúng:* `“Tao tha cho mày lần này...”`
