@@ -1,0 +1,30 @@
+{
+  "title": "Long Ngạo Thiên Đích Phát Tiểu Hữu Thoại Yếu Thuyết",
+  "chinese_title": "龙傲天的发小有话要说",
+  "author": "Thanh Thủy Thiêu Ngư (清水烧鱼)",
+  "description": "Tiểu thuyết huyền huyễn chủ công, tổng công 1v4, Hải Đường phong cách, thuần phục Long Ngạo Thiên. Đơn Dữ Đao phát hiện 4 người bạn thân từ nhỏ tương lai đều là Long Ngạo Thiên diệt tộc mình, y dùng bí pháp nhìn thấy thanh độ luân hãm và biến cả 4 vị thiên chi kiêu tử thành người của mình.",
+  "slug": "long-ngao-thien-dich-phat-tieu-huu-thoai-yeu-thuyet",
+  "source_lang": "Chinese",
+  "target_lang": "Vietnamese",
+  "genre": [
+    "Đam mỹ",
+    "Chủ công",
+    "Tổng công",
+    "Huyền huyễn",
+    "Hải Đường",
+    "Cường cường",
+    "1v4",
+    "HE"
+  ],
+  "raw_links": {
+    "52shuku": "https://www.52shuku.net/chongsheng/21_b/bjw88.html"
+  },
+  "style_guide": "Chủ công / Tổng công, huyền huyễn, tương phản mãnh liệt, R18 dày.\n1. Định dạng \\n\\n giữa các đoạn văn.\n2. Lời thoại ngoặc kép “...”.\n3. Trần thuật: Đơn Dữ Đao xưng 'y/hắn', các thụ Long Ngạo Thiên xưng 'hắn/y'.",
+  "confidence_threshold": 0.8,
+  "chunk_size": 20,
+  "created_at": "2026-11-14T16:42:32.854201",
+  "chapters_count": 78,
+  "is_completed": false,
+  "is_dropped": false,
+  "drop_reason": ""
+}

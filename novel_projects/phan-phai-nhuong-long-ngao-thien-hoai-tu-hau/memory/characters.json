@@ -1,0 +1,21 @@
+{
+  "project": "phan-phai-nhuong-long-ngao-thien-hoai-tu-hau",
+  "characters": [
+    {
+      "id": "char_1",
+      "name": "Ác nhân công",
+      "chinese_name": "反派攻",
+      "role": "Công chính các thế giới",
+      "narrative_pronoun": "anh / y",
+      "description": "Phản diện thức tỉnh, phúc hắc, chiếm hữu mạnh"
+    },
+    {
+      "id": "char_2",
+      "name": "Long Ngạo Thiên thụ",
+      "chinese_name": "龙傲天受",
+      "role": "Thụ chính các thế giới",
+      "narrative_pronoun": "hắn",
+      "description": "Thiên đạo chi tử, chiến lực đỉnh cao, ngoài cứng trong mềm, sinh tử"
+    }
+  ]
+}

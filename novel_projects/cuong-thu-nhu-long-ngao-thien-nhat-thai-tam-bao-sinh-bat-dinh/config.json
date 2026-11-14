@@ -1,0 +1,30 @@
+{
+  "title": "Cường Thụ Như Long Ngạo Thiên, Nhất Thai Tam Bảo Sinh Bất Đình",
+  "chinese_title": "强受如龙傲天，一胎三宝生不停",
+  "author": "Dương Chi Vị Kim (阳之谓金)",
+  "description": "Tiểu thuyết chủ công, khoái xuyên, sinh tử văn, vạn nhân mê công x các vị Long Ngạo Thiên cường thụ. Thiếu niên mắc bệnh nan y liên kết hệ thống, vì mạng sống phải đi qua các thế giới chinh phục các đại lão Long Ngạo Thiên kiêu ngạo nhất và khiến họ tình nguyện sinh con.",
+  "slug": "cuong-thu-nhu-long-ngao-thien-nhat-thai-tam-bao-sinh-bat-dinh",
+  "source_lang": "Chinese",
+  "target_lang": "Vietnamese",
+  "genre": [
+    "Đam mỹ",
+    "Chủ công",
+    "Khoái xuyên",
+    "Sinh tử",
+    "Vạn nhân mê công",
+    "Cường thụ",
+    "Sảng văn",
+    "HE"
+  ],
+  "raw_links": {
+    "52shuku": "https://www.52shuku.net/chongsheng/16_b/bjk45.html"
+  },
+  "style_guide": "Chủ công, khoái xuyên, vạn nhân mê, sinh tử, tương phản mãnh liệt.\n1. Đoạn văn cách nhau \\n\\n.\n2. Lời thoại ngoặc kép “...”.\n3. Trần thuật: Công dùng 'cậu/anh', Thụ Long Ngạo Thiên dùng 'hắn'.",
+  "confidence_threshold": 0.8,
+  "chunk_size": 20,
+  "created_at": "2026-11-14T16:42:32.848107",
+  "chapters_count": 105,
+  "is_completed": false,
+  "is_dropped": false,
+  "drop_reason": ""
+}

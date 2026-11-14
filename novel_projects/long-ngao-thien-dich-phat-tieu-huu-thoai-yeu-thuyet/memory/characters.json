@@ -1,0 +1,21 @@
+{
+  "project": "long-ngao-thien-dich-phat-tieu-huu-thoai-yeu-thuyet",
+  "characters": [
+    {
+      "id": "char_1",
+      "name": "Đơn Dữ Đao",
+      "chinese_name": "单屿刀",
+      "role": "Công chính",
+      "narrative_pronoun": "y",
+      "description": "Phát tiểu của 4 vị Long Ngạo Thiên, thâm tàng bất lộ"
+    },
+    {
+      "id": "char_2",
+      "name": "4 vị Long Ngạo Thiên",
+      "chinese_name": "四大家族发小受",
+      "role": "Thụ 1v4",
+      "narrative_pronoun": "hắn",
+      "description": "Thiên tài tứ đại gia tộc, dần bị công thu phục"
+    }
+  ]
+}

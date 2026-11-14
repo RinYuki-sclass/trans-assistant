@@ -1,0 +1,21 @@
+{
+  "project": "hoan-ca-tan-lao-ba-tam-ma-lieu",
+  "characters": [
+    {
+      "id": "char_1",
+      "name": "Cố Tích",
+      "chinese_name": "顾迹",
+      "role": "Công chính",
+      "narrative_pronoun": "anh",
+      "description": "Trọng sinh, thanh tỉnh, dứt khoát, dịu dàng kiên định"
+    },
+    {
+      "id": "char_2",
+      "name": "Ngôn Tòng Du",
+      "chinese_name": "言从逾",
+      "role": "Thụ chính mới",
+      "narrative_pronoun": "cậu",
+      "description": "Cao lãnh với người ngoài, ở cạnh Cố Tích là cún bự dính người"
+    }
+  ]
+}

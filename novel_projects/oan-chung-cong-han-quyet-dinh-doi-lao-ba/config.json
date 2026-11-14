@@ -1,0 +1,32 @@
+{
+  "title": "Oan Chủng Công Hắn Quyết Định Đổi Lão Bà",
+  "chinese_title": "冤种攻他决定换个老婆",
+  "author": "Hồ La Bảo (胡萝宝)",
+  "description": "Tiểu thuyết hiện đại đô thị, chủ công, đổi thụ, vả mặt tra thụ, điềm sủng, đơn nguyên văn. Các anh công chân thành nhưng xui xẻo vớ phải kẻ phản bội, quyết định hạ màn dứt khoát và gặp được 'vợ mới' thầm thương trộm nhớ mình bấy lâu, được cưng chiều bù đắp hết mực.",
+  "slug": "oan-chung-cong-han-quyet-dinh-doi-lao-ba",
+  "source_lang": "Chinese",
+  "target_lang": "Vietnamese",
+  "genre": [
+    "Đam mỹ",
+    "Chủ công",
+    "Hiện đại",
+    "Đô thị",
+    "Đổi thụ",
+    "Điềm sủng",
+    "Vả mặt",
+    "Đơn nguyên văn",
+    "HE"
+  ],
+  "raw_links": {
+    "jjwxc": "https://www.jjwxc.net/onebook.php?novelid=8356190",
+    "52shuku": "https://www.52shuku.net/chongsheng/13_b/bjT82.html"
+  },
+  "style_guide": "Chủ công, hiện đại, đổi thụ, ngọt sủng, chữa lành.\n1. Định dạng \\n\\n giữa các đoạn.\n2. Ngoặc kép “...”.\n3. Trần thuật: Công xưng 'anh', Thụ xưng 'cậu' hoặc 'anh' tùy bối cảnh tuổi tác.",
+  "confidence_threshold": 0.8,
+  "chunk_size": 20,
+  "created_at": "2026-11-14T16:42:32.861099",
+  "chapters_count": 86,
+  "is_completed": false,
+  "is_dropped": false,
+  "drop_reason": ""
+}

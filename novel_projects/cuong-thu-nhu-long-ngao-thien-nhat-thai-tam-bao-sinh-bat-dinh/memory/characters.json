@@ -1,0 +1,21 @@
+{
+  "project": "cuong-thu-nhu-long-ngao-thien-nhat-thai-tam-bao-sinh-bat-dinh",
+  "characters": [
+    {
+      "id": "char_1",
+      "name": "Ký chủ công",
+      "chinese_name": "宿主攻",
+      "role": "Công chính vạn nhân mê",
+      "narrative_pronoun": "cậu / anh",
+      "description": "Bệnh nhược nhưng khí chất mị hoặc, trí tuệ đỉnh cao"
+    },
+    {
+      "id": "char_2",
+      "name": "Dàn Long Ngạo Thiên thụ",
+      "chinese_name": "各世界龙傲天受",
+      "role": "Thụ các thế giới",
+      "narrative_pronoun": "hắn",
+      "description": "Chiến thần, ma tôn, trùng vương... sinh tử, sủng công"
+    }
+  ]
+}

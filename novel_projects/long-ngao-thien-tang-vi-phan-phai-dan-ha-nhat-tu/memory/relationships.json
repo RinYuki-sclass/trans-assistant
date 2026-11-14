@@ -1,0 +1,25 @@
+{
+  "project": "long-ngao-thien-tang-vi-phan-phai-dan-ha-nhat-tu",
+  "relationships": [
+    {
+      "source": "Sở Chiêu",
+      "target": "Thẩm Kiến Vân",
+      "type": "Phu thê / Đạo lữ / Túc địch phản phái vs Long Ngạo Thiên",
+      "dialogue_terms": {
+        "Sở Chiêu gọi Thẩm Kiến Vân": "A Vân / nương tử / phu nhân / Thẩm Kiến Vân",
+        "Sở Chiêu xưng": "ta / phu quân / bổn quân / bổn tọa",
+        "Thẩm Kiến Vân gọi Sở Chiêu": "chàng / phu quân / Sở Chiêu / ngươi",
+        "Thẩm Kiến Vân xưng": "ta / thiếp (lúc còn ở phàm trần)"
+      }
+    },
+    {
+      "source": "Sở Chiêu & Thẩm Kiến Vân",
+      "target": "Cưu Cưu",
+      "type": "Phụ tử",
+      "dialogue_terms": {
+        "Cưu Cưu gọi": "nương / cha / phụ thân",
+        "Hai người gọi Cưu Cưu": "Cưu Cưu / con ngoan / nhóc con"
+      }
+    }
+  ]
+}

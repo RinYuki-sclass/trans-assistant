@@ -1,0 +1,34 @@
+{
+  "title": "Long Ngạo Thiên Công Lược Thủ Sách",
+  "chinese_title": "龙傲天攻略手册",
+  "author": "Mỹ Cường Ái Hảo Giả (美强爱好者)",
+  "description": "Tiểu thuyết tiên hiệp Hải Đường, chủ công, xuyên thư, sư huynh đệ, sinh tử văn, cao H / R18 dày, HE. Nhân vật chính xuyên thư trở thành Đại sư huynh của Long Ngạo Thiên tiểu sư đệ thiên phú dị bẩm. Nhờ năng lực áp chế và sự thấu hiểu kịch bản, đại sư huynh từng bước thuần phục tiểu sư đệ hung hăng. Dưới tình cảm sâu đậm xen lẫn sự khống chế của sư huynh, tiểu sư đệ tình nguyện thay đổi thể chất, sinh con nối dõi cho y.",
+  "slug": "long-ngao-thien-cong-luoc-thu-sach",
+  "source_lang": "Chinese",
+  "target_lang": "Vietnamese",
+  "genre": [
+    "Đam mỹ",
+    "Chủ công",
+    "Xuyên thư",
+    "Tiên hiệp",
+    "Sư huynh đệ",
+    "Sinh tử",
+    "Hải Đường",
+    "Cao H",
+    "1v1",
+    "HE"
+  ],
+  "raw_links": {
+    "haitang": "https://www.longmabook.com/books/longaotian",
+    "52shuku": "https://www.52shuku.net/chongsheng/22_b/bjx99.html"
+  },
+  "style_guide": "Chủ công, tiên hiệp Hải Đường, sư huynh đệ, sinh tử, tương phản mãnh liệt.\n1. Định dạng đoạn văn: Bắt buộc cách nhau đúng 1 dòng trống (\\n\\n) giữa các đoạn văn và lời thoại.\n2. Lời thoại ngoặc kép cong “...”.\n3. Ngôi 3 trần thuật:\n   - Đại sư huynh (Công): Dùng 'y/hắn'.\n   - Long Ngạo Thiên tiểu sư đệ (Thụ): Dùng 'hắn/y'.\n4. Đối thoại:\n   - Sư huynh điềm đạm, chiếm hữu, xưng 'ta - đệ'.\n   - Sư đệ ban đầu ngạo mạn bất tuân, sau đó thẹn thùng, ỷ lại phục tùng.",
+  "confidence_threshold": 0.8,
+  "chunk_size": 20,
+  "created_at": "2026-11-15T00:53:41.266878",
+  "chapters_count": 26,
+  "is_completed": false,
+  "is_dropped": false,
+  "drop_reason": "",
+  "status": "raw_ready"
+}

@@ -1,0 +1,21 @@
+{
+  "project": "phan-phai-trong-sinh-hau-hoa-long-ngao-thien-nam-chu-he-lieu",
+  "characters": [
+    {
+      "id": "char_1",
+      "name": "Liễu Ngộ Ngôn",
+      "chinese_name": "柳晤言",
+      "role": "Công chính",
+      "narrative_pronoun": "y",
+      "description": "Bạch thiết hắc, trà xanh tâm cơ, giả thỏ ăn hổ"
+    },
+    {
+      "id": "char_2",
+      "name": "Lăng Phi Độ",
+      "chinese_name": "凌飞度",
+      "role": "Thụ chính (Long Ngạo Thiên)",
+      "narrative_pronoun": "hắn",
+      "description": "Chiến lực bùng nổ, nhan khống sa điêu, bị công đè bẹp"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "project": "oan-chung-cong-han-quyet-dinh-doi-lao-ba",
+  "characters": [
+    {
+      "id": "char_1",
+      "name": "Các vị công",
+      "chinese_name": "单元攻",
+      "role": "Công chính mỗi đơn nguyên",
+      "narrative_pronoun": "anh",
+      "description": "Chân thành, dứt khoát, không tha thứ cho tra thụ"
+    },
+    {
+      "id": "char_2",
+      "name": "Các vị thụ mới",
+      "chinese_name": "新老婆受",
+      "role": "Thụ chính mới",
+      "narrative_pronoun": "cậu / anh",
+      "description": "Học bá, cool boy, nam mama lực lưỡng... thầm thương trộm nhớ công"
+    }
+  ]
+}

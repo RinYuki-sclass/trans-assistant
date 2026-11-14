@@ -1,0 +1,53 @@
+{
+  "project": "long-ngao-thien-tang-vi-phan-phai-dan-ha-nhat-tu",
+  "characters": [
+    {
+      "id": "char_1",
+      "name": "Sở Chiêu",
+      "chinese_name": "楚招",
+      "role": "Công chính (Ma Tôn / Huyết mạch Phượng hoàng)",
+      "narrative_pronoun": "hắn / y / Sở Chiêu / Ma Tôn",
+      "description": "Đại Ma Tôn phản phái, thức tỉnh sau 10 năm làm phu quân dịu dàng ở phàm trần. Miệng cứng lòng mềm, cưng chiều vợ con, tài nấu ăn thượng thừa."
+    },
+    {
+      "id": "char_2",
+      "name": "Thẩm Kiến Vân",
+      "chinese_name": "沈见云",
+      "role": "Thụ chính (Kiếm Tôn Long Ngạo Thiên / Nam thê)",
+      "narrative_pronoun": "hắn / y / Thẩm Kiến Vân / Kiếm Tôn",
+      "description": "Kiếm Tôn Long Ngạo Thiên thiên mệnh của thiên đạo, từng ở phàm trần làm nam thê sinh con cho Sở Chiêu 10 năm. Sau khi thức tỉnh vì quá thẹn thùng mà bỏ trốn."
+    },
+    {
+      "id": "char_3",
+      "name": "Cưu Cưu",
+      "chinese_name": "啾啾",
+      "role": "Con trai chung của Sở Chiêu & Thẩm Kiến Vân",
+      "narrative_pronoun": "bé / Cưu Cưu / Cưu Nhi / nhóc con",
+      "description": "Đứa con trai đầu lòng trắng trẻo, bụ bẫm của hai người, rất quấn cha và phụ thân."
+    },
+    {
+      "id": "char_4",
+      "name": "Quý Cửu",
+      "chinese_name": "季九",
+      "role": "Nhân vật phụ / Tu sĩ gặp gỡ ban đầu",
+      "narrative_pronoun": "hắn / gã / Quý Cửu",
+      "description": "Tu sĩ phàm trần / tiểu môn phái chạm trán Sở Chiêu lúc ban đầu."
+    },
+    {
+      "id": "char_5",
+      "name": "Cố Trần",
+      "chinese_name": "顾尘",
+      "role": "Đệ tử tiên môn",
+      "narrative_pronoun": "hắn / Cố Trần",
+      "description": "Đệ tử tiên môn tham gia vây bắt dị thú và chạm trán Sở Chiêu ở tiên trấn."
+    },
+    {
+      "id": "char_6",
+      "name": "Tần Xích",
+      "chinese_name": "秦赤",
+      "role": "Đệ tử tiên môn",
+      "narrative_pronoun": "hắn / Tần Xích",
+      "description": "Đệ tử tiên môn đi cùng Cố Trần."
+    }
+  ]
+}

@@ -1,0 +1,858 @@
+[
+  {
+    "chapter_id": "ch_001",
+    "chapter_number": 1,
+    "title": "男妻",
+    "start_page": 2,
+    "paragraphs_count": 81,
+    "has_source": true,
+    "has_translation": true,
+    "title_vi": "Nam thê",
+    "status": "completed"
+  },
+  {
+    "chapter_id": "ch_002",
+    "chapter_number": 2,
+    "title": "抛夫弃子",
+    "start_page": 3,
+    "paragraphs_count": 100,
+    "has_source": true,
+    "has_translation": true,
+    "title_vi": "Vứt chồng bỏ con",
+    "status": "completed"
+  },
+  {
+    "chapter_id": "ch_003",
+    "chapter_number": 3,
+    "title": "本座好帅",
+    "start_page": 4,
+    "paragraphs_count": 130,
+    "has_source": true,
+    "has_translation": true,
+    "title_vi": "Bổn tọa thật soái",
+    "status": "completed"
+  },
+  {
+    "chapter_id": "ch_004",
+    "chapter_number": 4,
+    "title": "魔君很苦恼",
+    "start_page": 5,
+    "paragraphs_count": 104,
+    "has_source": true,
+    "has_translation": true,
+    "title_vi": "Ma Quân rất phiền não",
+    "status": "completed"
+  },
+  {
+    "chapter_id": "ch_005",
+    "chapter_number": 5,
+    "title": "断袖癖好",
+    "start_page": 6,
+    "paragraphs_count": 74,
+    "has_source": true,
+    "has_translation": true,
+    "title_vi": "Thói quen đoạn tụ",
+    "status": "completed"
+  },
+  {
+    "chapter_id": "ch_006",
+    "chapter_number": 6,
+    "title": "喂养",
+    "start_page": 7,
+    "paragraphs_count": 98,
+    "has_source": true,
+    "has_translation": true,
+    "title_vi": "Nuôi dưỡng",
+    "status": "completed"
+  },
+  {
+    "chapter_id": "ch_007",
+    "chapter_number": 7,
+    "title": "寻妻第一天",
+    "start_page": 8,
+    "paragraphs_count": 104,
+    "has_source": true,
+    "has_translation": true,
+    "title_vi": "Ngày đầu tiên đi tìm vợ",
+    "status": "completed"
+  },
+  {
+    "chapter_id": "ch_008",
+    "chapter_number": 8,
+    "title": "盈兽",
+    "start_page": 10,
+    "paragraphs_count": 132,
+    "has_source": true,
+    "has_translation": true,
+    "title_vi": "Doanh Thú",
+    "status": "completed"
+  },
+  {
+    "chapter_id": "ch_009",
+    "chapter_number": 9,
+    "title": "撩拨",
+    "start_page": 11,
+    "paragraphs_count": 82,
+    "has_source": true,
+    "has_translation": true,
+    "title_vi": "Trêu chọc",
+    "status": "completed"
+  },
+  {
+    "chapter_id": "ch_010",
+    "chapter_number": 10,
+    "title": "杀心",
+    "start_page": 12,
+    "paragraphs_count": 97,
+    "has_source": true,
+    "has_translation": true,
+    "title_vi": "Sát tâm",
+    "status": "completed"
+  },
+  {
+    "chapter_id": "ch_011",
+    "chapter_number": 11,
+    "title": "抱",
+    "start_page": 13,
+    "paragraphs_count": 97,
+    "has_source": true,
+    "has_translation": true,
+    "title_vi": "Ôm",
+    "status": "completed"
+  },
+  {
+    "chapter_id": "ch_012",
+    "chapter_number": 12,
+    "title": "甜蜜咬痕",
+    "start_page": 14,
+    "paragraphs_count": 94,
+    "has_source": true,
+    "has_translation": true,
+    "title_vi": "Dấu cắn ngọt ngào",
+    "status": "completed"
+  },
+  {
+    "chapter_id": "ch_013",
+    "chapter_number": 13,
+    "title": "成亲",
+    "start_page": 15,
+    "paragraphs_count": 131,
+    "has_source": true,
+    "has_translation": true,
+    "title_vi": "Thành thân",
+    "status": "completed"
+  },
+  {
+    "chapter_id": "ch_014",
+    "chapter_number": 14,
+    "title": "断袖噩梦",
+    "start_page": 16,
+    "paragraphs_count": 102,
+    "has_source": true,
+    "has_translation": true,
+    "title_vi": "Ác mộng đoạn tụ",
+    "status": "completed"
+  },
+  {
+    "chapter_id": "ch_015",
+    "chapter_number": 15,
+    "title": "双修",
+    "start_page": 17,
+    "paragraphs_count": 113,
+    "has_source": true,
+    "has_translation": true,
+    "title_vi": "Song tu",
+    "status": "completed"
+  },
+  {
+    "chapter_id": "ch_016",
+    "chapter_number": 16,
+    "title": "有人亲过你吗",
+    "start_page": 18,
+    "paragraphs_count": 144,
+    "has_source": true,
+    "has_translation": true,
+    "title_vi": "Có ai từng hôn ngươi chưa",
+    "status": "completed"
+  },
+  {
+    "chapter_id": "ch_017",
+    "chapter_number": 17,
+    "title": "沐浴",
+    "start_page": 19,
+    "paragraphs_count": 123,
+    "has_source": true,
+    "has_translation": true,
+    "title_vi": "Tắm rửa",
+    "status": "completed"
+  },
+  {
+    "chapter_id": "ch_018",
+    "chapter_number": 18,
+    "title": "带崽",
+    "start_page": 20,
+    "paragraphs_count": 105,
+    "has_source": true,
+    "has_translation": true,
+    "title_vi": "Dắt con",
+    "status": "completed"
+  },
+  {
+    "chapter_id": "ch_019",
+    "chapter_number": 19,
+    "title": "情毒",
+    "start_page": 22,
+    "paragraphs_count": 118,
+    "has_source": true,
+    "has_translation": true,
+    "title_vi": "Tình độc",
+    "status": "completed"
+  },
+  {
+    "chapter_id": "ch_020",
+    "chapter_number": 20,
+    "title": "又怀孕了？",
+    "start_page": 23,
+    "paragraphs_count": 147,
+    "has_source": true,
+    "has_translation": true,
+    "title_vi": "Lại mang thai rồi?",
+    "status": "completed"
+  },
+  {
+    "chapter_id": "ch_021",
+    "chapter_number": 21,
+    "title": "孕期折磨",
+    "start_page": 24,
+    "paragraphs_count": 125,
+    "has_source": true,
+    "has_translation": true,
+    "title_vi": "Thống khổ thời kỳ mang thai",
+    "status": "completed"
+  },
+  {
+    "chapter_id": "ch_022",
+    "chapter_number": 22,
+    "title": "好想怀宝宝",
+    "start_page": 25,
+    "paragraphs_count": 307,
+    "has_source": true,
+    "has_translation": true,
+    "title_vi": "Rất muốn mang thai bảo bảo",
+    "status": "completed"
+  },
+  {
+    "chapter_id": "ch_023",
+    "chapter_number": 23,
+    "title": "验孕",
+    "start_page": 28,
+    "paragraphs_count": 151,
+    "has_source": true,
+    "has_translation": true,
+    "title_vi": "Thử thai",
+    "status": "completed"
+  },
+  {
+    "chapter_id": "ch_024",
+    "chapter_number": 24,
+    "title": "我也可以当你夫君",
+    "start_page": 29,
+    "paragraphs_count": 133,
+    "has_source": true,
+    "has_translation": true,
+    "title_vi": "Ta cũng có thể làm phu quân của ngươi",
+    "status": "completed"
+  },
+  {
+    "chapter_id": "ch_025",
+    "chapter_number": 25,
+    "title": "被抓包",
+    "start_page": 30,
+    "paragraphs_count": 210,
+    "has_source": true,
+    "has_translation": true,
+    "title_vi": "Bị bắt quả tang",
+    "status": "completed"
+  },
+  {
+    "chapter_id": "ch_026",
+    "chapter_number": 26,
+    "title": "可不可以一起吃",
+    "start_page": 32,
+    "paragraphs_count": 279,
+    "has_source": true,
+    "has_translation": true,
+    "title_vi": "Có thể cùng nhau ăn được không",
+    "status": "completed"
+  },
+  {
+    "chapter_id": "ch_027",
+    "chapter_number": 27,
+    "title": "鱼钩",
+    "start_page": 35,
+    "paragraphs_count": 86,
+    "has_source": true,
+    "has_translation": true,
+    "title_vi": "Lưỡi câu",
+    "status": "completed"
+  },
+  {
+    "chapter_id": "ch_028",
+    "chapter_number": 28,
+    "title": "迷惑",
+    "start_page": 36,
+    "paragraphs_count": 101,
+    "has_source": true,
+    "has_translation": true,
+    "title_vi": "Mê hoặc",
+    "status": "completed"
+  },
+  {
+    "chapter_id": "ch_029",
+    "chapter_number": 29,
+    "title": "鱼水",
+    "start_page": 37,
+    "paragraphs_count": 114,
+    "has_source": true,
+    "has_translation": true,
+    "title_vi": "Ngư thủy",
+    "status": "completed"
+  },
+  {
+    "chapter_id": "ch_030",
+    "chapter_number": 30,
+    "title": "不乖小师兄",
+    "start_page": 38,
+    "paragraphs_count": 120,
+    "has_source": true,
+    "has_translation": true,
+    "title_vi": "Tiểu sư huynh không ngoan",
+    "status": "completed"
+  },
+  {
+    "chapter_id": "ch_031",
+    "chapter_number": 31,
+    "title": "围裙",
+    "start_page": 39,
+    "paragraphs_count": 141,
+    "has_source": true,
+    "has_translation": true,
+    "title_vi": "Tạp dề",
+    "status": "completed"
+  },
+  {
+    "chapter_id": "ch_032",
+    "chapter_number": 32,
+    "title": "心魔纹",
+    "start_page": 41,
+    "paragraphs_count": 238,
+    "has_source": true,
+    "has_translation": true,
+    "title_vi": "Tâm ma văn",
+    "status": "completed"
+  },
+  {
+    "chapter_id": "ch_033",
+    "chapter_number": 33,
+    "title": "吵架",
+    "start_page": 43,
+    "paragraphs_count": 110,
+    "has_source": true,
+    "has_translation": true,
+    "title_vi": "Cãi nhau",
+    "status": "completed"
+  },
+  {
+    "chapter_id": "ch_034",
+    "chapter_number": 34,
+    "title": "烧",
+    "start_page": 44,
+    "paragraphs_count": 133,
+    "has_source": true,
+    "has_translation": true,
+    "title_vi": "Nóng sốt",
+    "status": "completed"
+  },
+  {
+    "chapter_id": "ch_035",
+    "chapter_number": 35,
+    "title": "此间墨城",
+    "start_page": 45,
+    "paragraphs_count": 117,
+    "has_source": true,
+    "has_translation": true,
+    "title_vi": "Nơi này Mặc Thành",
+    "status": "completed"
+  },
+  {
+    "chapter_id": "ch_036",
+    "chapter_number": 36,
+    "title": "测孕",
+    "start_page": 46,
+    "paragraphs_count": 118,
+    "has_source": true,
+    "has_translation": true,
+    "title_vi": "Đo thai",
+    "status": "completed"
+  },
+  {
+    "chapter_id": "ch_037",
+    "chapter_number": 37,
+    "title": "月菱",
+    "start_page": 47,
+    "paragraphs_count": 226,
+    "has_source": true,
+    "has_translation": true,
+    "title_vi": "Nguyệt Lăng",
+    "status": "completed"
+  },
+  {
+    "chapter_id": "ch_038",
+    "chapter_number": 38,
+    "title": "你是不是喜欢我？",
+    "start_page": 49,
+    "paragraphs_count": 221,
+    "has_source": true,
+    "has_translation": true,
+    "title_vi": "Ngươi có phải thích ta không?",
+    "status": "completed"
+  },
+  {
+    "chapter_id": "ch_039",
+    "chapter_number": 39,
+    "title": "比武",
+    "start_page": 51,
+    "paragraphs_count": 107,
+    "has_source": true,
+    "has_translation": true,
+    "title_vi": "Tỉ võ",
+    "status": "completed"
+  },
+  {
+    "chapter_id": "ch_040",
+    "chapter_number": 40,
+    "title": "揪脸颊",
+    "start_page": 52,
+    "paragraphs_count": 140,
+    "has_source": true,
+    "has_translation": true,
+    "title_vi": "Véo má",
+    "status": "completed"
+  },
+  {
+    "chapter_id": "ch_041",
+    "chapter_number": 41,
+    "title": "主动的吻",
+    "start_page": 54,
+    "paragraphs_count": 152,
+    "has_source": true,
+    "has_translation": true,
+    "title_vi": "Nụ hôn chủ động",
+    "status": "completed"
+  },
+  {
+    "chapter_id": "ch_042",
+    "chapter_number": 42,
+    "title": "肚兜",
+    "start_page": 55,
+    "paragraphs_count": 155,
+    "has_source": true,
+    "has_translation": true,
+    "title_vi": "Yếm",
+    "status": "completed"
+  },
+  {
+    "chapter_id": "ch_043",
+    "chapter_number": 43,
+    "title": "穿兜衣",
+    "start_page": 56,
+    "paragraphs_count": 166,
+    "has_source": true,
+    "has_translation": true,
+    "title_vi": "Mặc áo yếm",
+    "status": "completed"
+  },
+  {
+    "chapter_id": "ch_044",
+    "chapter_number": 44,
+    "title": "再怀一个",
+    "start_page": 58,
+    "paragraphs_count": 165,
+    "has_source": true,
+    "has_translation": true,
+    "title_vi": "Lại mang thai thêm một đứa",
+    "status": "completed"
+  },
+  {
+    "chapter_id": "ch_045",
+    "chapter_number": 45,
+    "title": "沐浴",
+    "start_page": 59,
+    "paragraphs_count": 241,
+    "has_source": true,
+    "has_translation": true,
+    "title_vi": "Tắm rửa",
+    "status": "completed"
+  },
+  {
+    "chapter_id": "ch_046",
+    "chapter_number": 46,
+    "title": "偷喂",
+    "start_page": 61,
+    "paragraphs_count": 194,
+    "has_source": true,
+    "has_translation": true,
+    "title_vi": "Lén cho ăn",
+    "status": "completed"
+  },
+  {
+    "chapter_id": "ch_047",
+    "chapter_number": 47,
+    "title": "偷情",
+    "start_page": 63,
+    "paragraphs_count": 239,
+    "has_source": true,
+    "has_translation": true,
+    "title_vi": "Vụng trộm",
+    "status": "completed"
+  },
+  {
+    "chapter_id": "ch_048",
+    "chapter_number": 48,
+    "title": "传统",
+    "start_page": 65,
+    "paragraphs_count": 181,
+    "has_source": true,
+    "has_translation": true,
+    "title_vi": "Truyền thống",
+    "status": "completed"
+  },
+  {
+    "chapter_id": "ch_049",
+    "chapter_number": 49,
+    "title": "哥哥",
+    "start_page": 66,
+    "paragraphs_count": 150,
+    "has_source": true,
+    "has_translation": true,
+    "title_vi": "Ca ca",
+    "status": "completed"
+  },
+  {
+    "chapter_id": "ch_050",
+    "chapter_number": 50,
+    "title": "一夫一妻",
+    "start_page": 68,
+    "paragraphs_count": 142,
+    "has_source": true,
+    "has_translation": true,
+    "title_vi": "Một vợ một chồng",
+    "status": "completed"
+  },
+  {
+    "chapter_id": "ch_051",
+    "chapter_number": 51,
+    "title": "太禽兽",
+    "start_page": 69,
+    "paragraphs_count": 361,
+    "has_source": true,
+    "has_translation": false
+  },
+  {
+    "chapter_id": "ch_052",
+    "chapter_number": 52,
+    "title": "神交",
+    "start_page": 72,
+    "paragraphs_count": 121,
+    "has_source": true,
+    "has_translation": false
+  },
+  {
+    "chapter_id": "ch_053",
+    "chapter_number": 53,
+    "title": "夫妻生活",
+    "start_page": 73,
+    "paragraphs_count": 342,
+    "has_source": true,
+    "has_translation": false
+  },
+  {
+    "chapter_id": "ch_054",
+    "chapter_number": 54,
+    "title": "谣言",
+    "start_page": 76,
+    "paragraphs_count": 221,
+    "has_source": true,
+    "has_translation": false
+  },
+  {
+    "chapter_id": "ch_055",
+    "chapter_number": 55,
+    "title": "生辰日",
+    "start_page": 78,
+    "paragraphs_count": 261,
+    "has_source": true,
+    "has_translation": false
+  },
+  {
+    "chapter_id": "ch_056",
+    "chapter_number": 56,
+    "title": "道侣契",
+    "start_page": 80,
+    "paragraphs_count": 216,
+    "has_source": true,
+    "has_translation": false
+  },
+  {
+    "chapter_id": "ch_057",
+    "chapter_number": 57,
+    "title": "围脖",
+    "start_page": 82,
+    "paragraphs_count": 190,
+    "has_source": true,
+    "has_translation": false
+  },
+  {
+    "chapter_id": "ch_058",
+    "chapter_number": 58,
+    "title": "昏君妖妃？",
+    "start_page": 83,
+    "paragraphs_count": 145,
+    "has_source": true,
+    "has_translation": false
+  },
+  {
+    "chapter_id": "ch_059",
+    "chapter_number": 59,
+    "title": "妻子",
+    "start_page": 84,
+    "paragraphs_count": 155,
+    "has_source": true,
+    "has_translation": false
+  },
+  {
+    "chapter_id": "ch_060",
+    "chapter_number": 60,
+    "title": "葡萄榨汁",
+    "start_page": 86,
+    "paragraphs_count": 138,
+    "has_source": true,
+    "has_translation": false
+  },
+  {
+    "chapter_id": "ch_061",
+    "chapter_number": 61,
+    "title": "掉马前夕",
+    "start_page": 87,
+    "paragraphs_count": 136,
+    "has_source": true,
+    "has_translation": false
+  },
+  {
+    "chapter_id": "ch_062",
+    "chapter_number": 62,
+    "title": "恢复记忆",
+    "start_page": 88,
+    "paragraphs_count": 163,
+    "has_source": true,
+    "has_translation": false
+  },
+  {
+    "chapter_id": "ch_063",
+    "chapter_number": 63,
+    "title": "死别",
+    "start_page": 89,
+    "paragraphs_count": 129,
+    "has_source": true,
+    "has_translation": false
+  },
+  {
+    "chapter_id": "ch_064",
+    "chapter_number": 64,
+    "title": "最后一世",
+    "start_page": 90,
+    "paragraphs_count": 136,
+    "has_source": true,
+    "has_translation": false
+  },
+  {
+    "chapter_id": "ch_065",
+    "chapter_number": 65,
+    "title": "欲",
+    "start_page": 92,
+    "paragraphs_count": 144,
+    "has_source": true,
+    "has_translation": false
+  },
+  {
+    "chapter_id": "ch_066",
+    "chapter_number": 66,
+    "title": "少主夫人",
+    "start_page": 93,
+    "paragraphs_count": 147,
+    "has_source": true,
+    "has_translation": false
+  },
+  {
+    "chapter_id": "ch_067",
+    "chapter_number": 67,
+    "title": "重逢",
+    "start_page": 94,
+    "paragraphs_count": 165,
+    "has_source": true,
+    "has_translation": false
+  },
+  {
+    "chapter_id": "ch_068",
+    "chapter_number": 68,
+    "title": "暖床",
+    "start_page": 95,
+    "paragraphs_count": 151,
+    "has_source": true,
+    "has_translation": false
+  },
+  {
+    "chapter_id": "ch_069",
+    "chapter_number": 69,
+    "title": "锁阳功",
+    "start_page": 96,
+    "paragraphs_count": 123,
+    "has_source": true,
+    "has_translation": false
+  },
+  {
+    "chapter_id": "ch_070",
+    "chapter_number": 70,
+    "title": "橙子",
+    "start_page": 98,
+    "paragraphs_count": 167,
+    "has_source": true,
+    "has_translation": false
+  },
+  {
+    "chapter_id": "ch_071",
+    "chapter_number": 71,
+    "title": "灵液修炼",
+    "start_page": 99,
+    "paragraphs_count": 131,
+    "has_source": true,
+    "has_translation": false
+  },
+  {
+    "chapter_id": "ch_072",
+    "chapter_number": 72,
+    "title": "最喜欢你",
+    "start_page": 100,
+    "paragraphs_count": 147,
+    "has_source": true,
+    "has_translation": false
+  },
+  {
+    "chapter_id": "ch_073",
+    "chapter_number": 73,
+    "title": "桌角",
+    "start_page": 101,
+    "paragraphs_count": 215,
+    "has_source": true,
+    "has_translation": false
+  },
+  {
+    "chapter_id": "ch_074",
+    "chapter_number": 74,
+    "title": "痴迷",
+    "start_page": 103,
+    "paragraphs_count": 151,
+    "has_source": true,
+    "has_translation": false
+  },
+  {
+    "chapter_id": "ch_075",
+    "chapter_number": 75,
+    "title": "道侣",
+    "start_page": 104,
+    "paragraphs_count": 127,
+    "has_source": true,
+    "has_translation": false
+  },
+  {
+    "chapter_id": "ch_076",
+    "chapter_number": 76,
+    "title": "脸颊",
+    "start_page": 105,
+    "paragraphs_count": 136,
+    "has_source": true,
+    "has_translation": false
+  },
+  {
+    "chapter_id": "ch_077",
+    "chapter_number": 77,
+    "title": "离衡",
+    "start_page": 106,
+    "paragraphs_count": 117,
+    "has_source": true,
+    "has_translation": false
+  },
+  {
+    "chapter_id": "ch_078",
+    "chapter_number": 78,
+    "title": "神魂",
+    "start_page": 108,
+    "paragraphs_count": 125,
+    "has_source": true,
+    "has_translation": false
+  },
+  {
+    "chapter_id": "ch_079",
+    "chapter_number": 79,
+    "title": "涅槃之火",
+    "start_page": 109,
+    "paragraphs_count": 134,
+    "has_source": true,
+    "has_translation": false
+  },
+  {
+    "chapter_id": "ch_080",
+    "chapter_number": 80,
+    "title": "归墟之泪",
+    "start_page": 110,
+    "paragraphs_count": 150,
+    "has_source": true,
+    "has_translation": false
+  },
+  {
+    "chapter_id": "ch_081",
+    "chapter_number": 81,
+    "title": "娇纵",
+    "start_page": 111,
+    "paragraphs_count": 146,
+    "has_source": true,
+    "has_translation": false
+  },
+  {
+    "chapter_id": "ch_082",
+    "chapter_number": 82,
+    "title": "不可忤逆夫君",
+    "start_page": 112,
+    "paragraphs_count": 108,
+    "has_source": true,
+    "has_translation": false
+  },
+  {
+    "chapter_id": "ch_083",
+    "chapter_number": 83,
+    "title": "第三子",
+    "start_page": 113,
+    "paragraphs_count": 141,
+    "has_source": true,
+    "has_translation": false
+  },
+  {
+    "chapter_id": "ch_084",
+    "chapter_number": 84,
+    "title": "同心共意",
+    "start_page": 115,
+    "paragraphs_count": 93,
+    "has_source": true,
+    "has_translation": false
+  }
+]

@@ -1,0 +1,34 @@
+{
+  "title": "Công Liễu Na Cá Trực Nam Long Ngạo Thiên",
+  "chinese_title": "攻了那个直男龙傲天",
+  "author": "Phong Lưu Khách (风流客)",
+  "description": "Tiểu thuyết tu chân xuyên thư, chủ công, cường cường, hài hước sảng văn, 1v1, HE. Cố Dương xuyên vào tiểu thuyết tu chân nam tần thành phế sài môn phái, lập chí 'chinh phục kẻ mạnh nhất thiên hạ' — đại sư huynh Tạ Ly Thù tu Vô Tình Đạo kiêm nam chính Long Ngạo Thiên. Cả hai rơi vào bí cảnh tình niệm, Cố Dương mặt dày đè bẹp Tạ sư huynh đến mức mềm chân. Sau trăm năm trùng sinh, Tạ sư huynh đã thành Tiên giới Đế tôn sát phạt, nhưng lại mắc chứng khát khao da thịt sâu sắc, mắt đỏ hoe cầu xin sư đệ ôm ấp.",
+  "slug": "cong-lieu-na-ca-truc-nam-long-ngao-thien",
+  "source_lang": "Chinese",
+  "target_lang": "Vietnamese",
+  "genre": [
+    "Đam mỹ",
+    "Chủ công",
+    "Xuyên thư",
+    "Tiên hiệp",
+    "Tu chân",
+    "Cường cường",
+    "Trọng sinh",
+    "Hài hước",
+    "1v1",
+    "HE"
+  ],
+  "raw_links": {
+    "jjwxc": "https://www.jjwxc.net/onebook.php?novelid=6589324",
+    "52shuku": "https://www.52shuku.net/chongsheng/19_b/bjr77.html"
+  },
+  "style_guide": "Chủ công, tiên hiệp tu chân, lưu manh ngốc cẩu công x ngạo kiều bạo kiều Long Ngạo Thiên thụ nghiện da thịt.\n1. Định dạng đoạn văn: Bắt buộc cách nhau đúng 1 dòng trống (\\n\\n) giữa các đoạn văn và lời thoại.\n2. Lời thoại ngoặc kép cong “...”.\n3. Ngôi 3 trần thuật:\n   - Cố Dương (Công): Dùng 'hắn/y' trong văn trần thuật.\n   - Tạ Ly Thù (Thụ): Dùng 'y/hắn' (ưu tiên dùng 'y' hoặc gọi 'Tạ Ly Thù / Tạ sư huynh').\n4. Đối thoại:\n   - Cố Dương: Mặt dày, trêu chọc, xưng 'đệ/ta', gọi 'Tạ sư huynh / sư huynh'.\n   - Tạ Ly Thù: Ngoài mặt ngạo kiều quát mắng, xưng 'ngươi - ta'; lúc phát tác khát khao da thịt thì xấu hổ, run rẩy cầu xin.",
+  "confidence_threshold": 0.8,
+  "chunk_size": 20,
+  "created_at": "2026-11-15T00:53:41.262497",
+  "chapters_count": 125,
+  "is_completed": false,
+  "is_dropped": false,
+  "drop_reason": "",
+  "status": "raw_ready"
+}

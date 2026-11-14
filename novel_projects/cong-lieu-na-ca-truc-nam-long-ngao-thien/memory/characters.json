@@ -1,0 +1,21 @@
+{
+  "project": "cong-lieu-na-ca-truc-nam-long-ngao-thien",
+  "characters": [
+    {
+      "id": "char_1",
+      "name": "Cố Dương",
+      "chinese_name": "顾扬",
+      "role": "Công chính (Lưu manh ngốc cẩu / Phế sài môn phái)",
+      "narrative_pronoun": "hắn / y",
+      "description": "Mặt dày tâm cơ, da mặt dày như tường thành, thể lực bùng nổ"
+    },
+    {
+      "id": "char_2",
+      "name": "Tạ Ly Thù",
+      "chinese_name": "谢离殊",
+      "role": "Thụ chính (Long Ngạo Thiên / Tiên giới Đế tôn)",
+      "narrative_pronoun": "y / hắn",
+      "description": "Tu Vô Tình Đạo, bề ngoài ngạo kiều hung bạo, nội tâm khát khao da thịt công"
+    }
+  ]
+}

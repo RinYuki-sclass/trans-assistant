@@ -1,0 +1,32 @@
+{
+  "title": "Long Ngạo Thiên Tằng Vi Phản Phái Đản Hạ Nhất Tử",
+  "chinese_title": "龙傲天曾为反派诞下一子",
+  "author": "Phong Lưu Khách (风流客)",
+  "description": "Tiểu thuyết tiên hiệp tu chân, xuyên thư, sinh tử văn, phá kính trùng viên, hài hước sảng văn, chủ công, 1v1, HE. Đại Ma Tôn Chu Chiêu sau khi thức tỉnh phát hiện người vợ sinh con cho mình mười năm qua lại chính là Kiếm tôn Long Ngạo Thiên sát phạt thiên hạ. Sau khi Long Ngạo Thiên bỏ trốn vì thẹn, Ma tôn một nách bế con một nách cầm đao đi tìm vợ.",
+  "slug": "long-ngao-thien-tang-vi-phan-phai-dan-ha-nhat-tu",
+  "source_lang": "Chinese",
+  "target_lang": "Vietnamese",
+  "genre": [
+    "Đam mỹ",
+    "Chủ công",
+    "Tiên hiệp",
+    "Tu chân",
+    "Xuyên thư",
+    "Sinh tử",
+    "Phá kính trùng viên",
+    "Hài hước",
+    "HE"
+  ],
+  "raw_links": {
+    "jjwxc": "https://www.jjwxc.net/onebook.php?novelid=10282492",
+    "52shuku": "https://www.52shuku.net/jiakong/11_b/bkfRt.html"
+  },
+  "style_guide": "Chủ công, tiên hiệp, sinh tử, tương phản manh kiếm tôn thụ.\n1. Đoạn văn chuẩn \\n\\n.\n2. Ngoặc thoại “...”.\n3. Trần thuật: Chu Chiêu (công) xưng 'hắn/y', Thẩm Kiến Vân (thụ) xưng 'hắn/y'.\n4. Đối thoại: Ban đầu là vợ chồng ngọt ngào xưng 'chàng - ta', sau khi lộ thân phận vừa xấu hổ vừa giằng xé.",
+  "confidence_threshold": 0.8,
+  "chunk_size": 20,
+  "created_at": "2026-11-14T16:42:32.858494",
+  "chapters_count": 84,
+  "is_completed": false,
+  "is_dropped": false,
+  "drop_reason": ""
+}

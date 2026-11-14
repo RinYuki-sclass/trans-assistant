@@ -1,0 +1,32 @@
+{
+  "title": "Hoán Cá Tân Lão Bà Tẩm Ma Liễu? [Trọng Sinh]",
+  "chinese_title": "换个新老婆怎么了？[重生]",
+  "author": "Mộ Vũ Vũ (暮雨雨)",
+  "description": "Tiểu thuyết chủ công, trọng sinh, vườn trường hiện đại, đổi thụ, cứu rỗi lẫn nhau, vả mặt tra thụ vạn nhân mê. Cố Tích đời trước hy sinh tàn phế vì thụ chính nguyên tác chỉ để nhận lại sự mập mờ; đời này trọng sinh dứt khoát đá văng kẻ bạc bẽo, gặp được nam thần Ngôn Tòng Du bề ngoài cao lãnh nhưng bên trong cực kỳ dính người.",
+  "slug": "hoan-ca-tan-lao-ba-tam-ma-lieu",
+  "source_lang": "Chinese",
+  "target_lang": "Vietnamese",
+  "genre": [
+    "Đam mỹ",
+    "Chủ công",
+    "Trọng sinh",
+    "Vườn trường",
+    "Hiện đại",
+    "Đổi thụ",
+    "Điềm sủng",
+    "1v1",
+    "HE"
+  ],
+  "raw_links": {
+    "jjwxc": "https://www.jjwxc.net/onebook.php?novelid=8119830",
+    "52shuku": "https://www.52shuku.net/chongsheng/11_b/bjM65.html"
+  },
+  "style_guide": "Chủ công, hiện đại vườn trường, ngọt ngào, cứu rỗi.\n1. Cách nhau đúng 1 dòng trống (\\n\\n).\n2. Ngoặc thoại “...”.\n3. Trần thuật: Cố Tích (công) xưng 'anh', Ngôn Tòng Du (thụ) xưng 'cậu', Lâm Thanh Nhiên (tra thụ) xưng 'cậu ta'.\n4. Đối thoại: Cố Tích xưng 'anh/tôi', Ngôn Tòng Du xưng 'em/tôi' ngoan ngoãn dính người.",
+  "confidence_threshold": 0.8,
+  "chunk_size": 20,
+  "created_at": "2026-11-14T16:42:32.863790",
+  "chapters_count": 95,
+  "is_completed": false,
+  "is_dropped": false,
+  "drop_reason": ""
+}

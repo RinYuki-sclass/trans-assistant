@@ -1,0 +1,32 @@
+{
+  "title": "Phản Phái Trọng Sinh Hậu Hòa Long Ngạo Thiên Nam Chủ HE Liễu",
+  "chinese_title": "反派重生后和龙傲天男主HE了",
+  "author": "Tuyền Tư Trà (泉思茶)",
+  "description": "Tiểu thuyết tiên hiệp tu chân, chủ công, cường cường, trà xanh tâm cơ công x sa điêu thẳng nam nhan khống Long Ngạo Thiên thụ. Phản diện trọng sinh giả vờ yếu đuối cướp cơ duyên của nam chính, ai ngờ nam chính nhan khống si mê nhan sắc của công, cuối cùng bị công đè bẹp trong bí cảnh.",
+  "slug": "phan-phai-trong-sinh-hau-hoa-long-ngao-thien-nam-chu-he-lieu",
+  "source_lang": "Chinese",
+  "target_lang": "Vietnamese",
+  "genre": [
+    "Đam mỹ",
+    "Chủ công",
+    "Tiên hiệp",
+    "Tu chân",
+    "Trọng sinh",
+    "Cường cường",
+    "Hài hước",
+    "1v1",
+    "HE"
+  ],
+  "raw_links": {
+    "jjwxc": "https://www.jjwxc.net/onebook.php?novelid=7889341",
+    "52shuku": "https://www.52shuku.net/chongsheng/07_b/bjA19.html"
+  },
+  "style_guide": "Chủ công, tiên hiệp tu chân, hài hước, giả heo ăn thịt hổ.\n1. Định dạng \\n\\n giữa các đoạn.\n2. Lời thoại “...”.\n3. Trần thuật: Liễu Ngộ Ngôn (công) xưng 'y/hắn', Lăng Phi Độ (Long Ngạo Thiên thụ) xưng 'hắn'.\n4. Đối thoại: Liễu Ngộ Ngôn giả vờ ngoan ngoãn dịu dàng, Lăng Phi Độ bảo bọc cưng chiều rồi bị phản sát.",
+  "confidence_threshold": 0.8,
+  "chunk_size": 20,
+  "created_at": "2026-11-14T16:42:32.866738",
+  "chapters_count": 102,
+  "is_completed": false,
+  "is_dropped": false,
+  "drop_reason": ""
+}

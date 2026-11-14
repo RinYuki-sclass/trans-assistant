@@ -1,0 +1,21 @@
+{
+  "project": "long-ngao-thien-cong-luoc-thu-sach",
+  "characters": [
+    {
+      "id": "char_1",
+      "name": "Đại Sư Huynh",
+      "chinese_name": "大师兄攻",
+      "role": "Công chính",
+      "narrative_pronoun": "y / hắn",
+      "description": "Vững vàng, thâm sâu, chiếm hữu mạnh, người duy nhất chế ngự được Long Ngạo Thiên"
+    },
+    {
+      "id": "char_2",
+      "name": "Long Ngạo Thiên Sư Đệ",
+      "chinese_name": "小师弟受",
+      "role": "Thụ chính (Long Ngạo Thiên)",
+      "narrative_pronoun": "hắn / y",
+      "description": "Kiếm tu thiên tài, ngông cuồng ngạo mạn, cam tâm chuyển đổi thể chất sinh con cho sư huynh"
+    }
+  ]
+}

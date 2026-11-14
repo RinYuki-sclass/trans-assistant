@@ -1,0 +1,31 @@
+{
+  "title": "Phản Phái Nhượng Long Ngạo Thiên Hoài Tử Hậu",
+  "chinese_title": "反派让龙傲天怀崽后",
+  "author": "Lãnh Sơn Nguyệt (冷山月)",
+  "description": "Tiểu thuyết đam mỹ chủ công, cường cường, sinh tử văn, phản sát, sảng văn, đơn nguyên văn nhiều thế giới. Khi những nhân vật phản diện vốn định sẵn làm đá lót đường cho nam chính Long Ngạo Thiên thức tỉnh, họ chọn cách trả thù độc đáo nhất: khiến Long Ngạo Thiên kiêu ngạo mang thai giọt máu của mình và quyến luyến không rời.",
+  "slug": "phan-phai-nhuong-long-ngao-thien-hoai-tu-hau",
+  "source_lang": "Chinese",
+  "target_lang": "Vietnamese",
+  "genre": [
+    "Đam mỹ",
+    "Chủ công",
+    "Cường cường",
+    "Sinh tử",
+    "Xuyên thư",
+    "Phản sáo lộ",
+    "Đơn nguyên văn",
+    "HE"
+  ],
+  "raw_links": {
+    "jjwxc": "https://www.jjwxc.net/onebook.php?novelid=8044709",
+    "52shuku": "https://www.52shuku.net/chongsheng/09_b/bjg38.html"
+  },
+  "style_guide": "Chủ công, cường cường, sảng văn, sinh tử, tương phản manh.\n1. Định dạng đoạn văn: Bắt buộc cách nhau đúng 1 dòng trống (\\n\\n) giữa các đoạn văn và lời thoại.\n2. Dấu ngoặc thoại: Lời thoại dùng ngoặc kép cong “...”.\n3. Ngôi 3 trần thuật: Công xưng 'y/hắn/anh' tùy thế giới; Long Ngạo Thiên thụ dùng 'hắn'.\n4. Phân định rõ ràng trần thuật và lời thoại: Thụ ngoài đời bá đạo ngạo nghễ, trên giường bị áp chế thẹn thùng phục tùng.",
+  "confidence_threshold": 0.8,
+  "chunk_size": 20,
+  "created_at": "2026-11-14T16:42:32.843230",
+  "chapters_count": 80,
+  "is_completed": false,
+  "is_dropped": false,
+  "drop_reason": ""
+}
