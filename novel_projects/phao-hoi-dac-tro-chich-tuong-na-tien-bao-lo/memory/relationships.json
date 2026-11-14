@@ -5,9 +5,53 @@
     "relation_type": "romantic",
     "status": "Cấp trên - Cấp dưới (Ban đầu) -> Người yêu / Bạn đời (Về sau)",
     "dialogue_pattern": {
-      "char1_to_char2": "tôi - ngài / Phó tổng (công việc); tôi - anh (thân mật)",
-      "char2_to_char1": "tôi - cậu (công việc); anh - em / tôi - em (thân mật)"
+      "char1_to_char2": "tôi - ngài / Phó tổng (công việc); tôi - anh (thân mật / nửa đùa nửa thật)",
+      "char2_to_char1": "tôi - cậu (công việc); anh - em / tôi - em (thân mật / dỗ dành)"
     },
-    "notes": "Hạ khắc thượng. Tùy Ứng bề ngoài tận tụy phục vụ sếp nhưng trong lòng chỉ mong gom đủ tiền nhảy việc; Phó Dận An dần nảy sinh ham muốn độc chiếm và tình cảm mãnh liệt với Tùy Ứng."
+    "notes": "Hạ khắc thượng. Tùy Ứng bề ngoài tận tụy phục vụ sếp nhưng trong lòng chỉ mong gom đủ tiền nhảy việc; Phó Dận An dần nảy sinh ham muốn độc chiếm và tiêu chuẩn kép cực cao với Tùy Ứng."
+  },
+  {
+    "char1": "Tùy Ứng",
+    "char2": "Hệ thống",
+    "relation_type": "system_host",
+    "status": "Ký chủ - Hệ thống giao nhiệm vụ",
+    "dialogue_pattern": {
+      "char1_to_char2": "tôi - ngươi / mày (khi cà khịa, chất vấn)",
+      "char2_to_char1": "tôi - Ký chủ đại nhân / ký chủ"
+    },
+    "notes": "Hệ thống thúc giục làm nhiệm vụ đóng vai ác, Tùy Ứng toàn lách luật hoặc đòi tiền thưởng."
+  },
+  {
+    "char1": "Tùy Ứng",
+    "char2": "Tùy Thịnh",
+    "relation_type": "family_rivalry",
+    "status": "Anh em cùng cha khác mẹ ghẻ lạnh",
+    "dialogue_pattern": {
+      "char1_to_char2": "tôi - cậu",
+      "char2_to_char1": "mày - tao (ban đầu) -> anh (sau khi bị dạy dỗ)"
+    },
+    "notes": "Tùy Ứng không thừa nhận tình cảm gia đình, đối đãi lạnh lùng dứt khoát."
+  },
+  {
+    "char1": "Tùy Ứng",
+    "char2": "Tùy Văn Hàn",
+    "relation_type": "family_estranged",
+    "status": "Cha con đoạn tuyệt tình cảm",
+    "dialogue_pattern": {
+      "char1_to_char2": "tôi - Tùy tiên sinh / ông",
+      "char2_to_char1": "tao - mày / ta - ngươi (áp đặt)"
+    },
+    "notes": "Tùy Ứng tuyệt đối không gọi cha/ba thân mật."
+  },
+  {
+    "char1": "Tùy Ứng",
+    "char2": "Tô Thanh Từ",
+    "relation_type": "colleague_protagonist",
+    "status": "Đặc trợ - Nhân vật chính thụ nguyên tác",
+    "dialogue_pattern": {
+      "char1_to_char2": "tôi - cậu / Tô tiên sinh",
+      "char2_to_char1": "tôi - đặc trợ Tùy / anh"
+    },
+    "notes": "Tùy Ứng chỉ muốn duy trì quan hệ công việc đúng mực, né tránh mọi drama tình ái."
   }
 ]

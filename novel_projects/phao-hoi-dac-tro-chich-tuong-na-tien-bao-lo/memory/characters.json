@@ -20,6 +20,46 @@
     "notes": "Alpha đỉnh cấp, ban đầu là nam chính công trong tiểu thuyết kiều thê nguyên tác. Tính tình độc đoán, khắt khe với cả thế giới nhưng lại có tiêu chuẩn kép cực kỳ thiên vị và chiếm hữu đối với Tùy Ứng. Ngôi 3 trần thuật dùng 'anh' hoặc 'Phó Dận An'."
   },
   {
+    "name": "Tô Thanh Từ",
+    "hanviet_name": "Tô Thanh Từ",
+    "original_name": "苏青辞",
+    "pinyin": "Sū Qīngcí",
+    "gender": "Nam (Omega)",
+    "third_person_pronoun": "cậu ta / anh ta",
+    "role": "Thụ chính nguyên tác của tiểu thuyết kiều thê cẩu huyết",
+    "notes": "Tính tình nhút nhát, yếu đuối, bạch liên hoa nguyên tác. Được hệ thống chỉ định là đối tượng Tùy Ứng phải gây khó dễ."
+  },
+  {
+    "name": "Tùy Thịnh",
+    "hanviet_name": "Tùy Thịnh",
+    "original_name": "隋晟",
+    "pinyin": "Suí Shèng",
+    "gender": "Nam",
+    "third_person_pronoun": "cậu ta / nó",
+    "role": "Em trai cùng cha khác mẹ của Tùy Ứng",
+    "notes": "Tính tình kiêu ngạo, nông cạn, hay dựa thế gia tộc nhưng dễ bị Tùy Ứng nắm thóp trị cho một bài học."
+  },
+  {
+    "name": "Tùy Văn Hàn",
+    "hanviet_name": "Tùy Văn Hàn",
+    "original_name": "隋文翰",
+    "pinyin": "Suí Wénhàn",
+    "gender": "Nam",
+    "third_person_pronoun": "ông ta",
+    "role": "Cha ruột của Tùy Ứng, gia chủ Tùy gia",
+    "notes": "Thương nhân ích kỷ, toan tính lợi ích gia tộc, quan hệ lạnh nhạt và căng thẳng với Tùy Ứng."
+  },
+  {
+    "name": "Cố Thiên Diệp",
+    "hanviet_name": "Cố Thiên Diệp",
+    "original_name": "顾天烨",
+    "pinyin": "Gù Tiānyè",
+    "gender": "Nam (Alpha)",
+    "third_person_pronoun": "gã / hắn ta",
+    "role": "Thiếu gia đối thủ trên thương trường, nhân vật phụ gây rắc rối",
+    "notes": "Cố gắng lợi dụng thân phận hoặc dĩ vãng của Tùy Ứng để gây sức ép nhưng bị Phó Dận An và Tùy Ứng nghiền ép."
+  },
+  {
     "name": "Hệ thống",
     "hanviet_name": "Hệ thống",
     "original_name": "系统 / 世界修正系统",
@@ -27,6 +67,6 @@
     "gender": "Vô tính",
     "third_person_pronoun": "nó",
     "role": "Hệ thống sửa chữa/tu chính thế giới",
-    "notes": "Luôn phát thông báo yêu cầu Tùy Ứng đóng vai pháo hôi làm khó nam chính thụ nguyên tác."
+    "notes": "Luôn phát thông báo yêu cầu Tùy Ứng đóng vai pháo hôi làm khó nam chính thụ nguyên tác, thường bị Tùy Ứng bắt chẹt ngược lại."
   }
 ]

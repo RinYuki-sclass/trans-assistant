@@ -12,10 +12,12 @@
       "original_title": "第1章",
       "paragraphs_count": 84,
       "characters_count": 3585,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_001/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T20:46:22.808755+07:00"
+      "translation_path": "chapters/ch_001/translation.md",
+      "has_translation": true,
+      "qc_approved": true,
+      "updated_at": "2026-11-14T08:12:00+07:00"
     },
     {
       "chapter_id": "ch_002",
@@ -24,10 +26,12 @@
       "original_title": "第2章",
       "paragraphs_count": 93,
       "characters_count": 3984,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_002/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T20:46:22.809732+07:00"
+      "translation_path": "chapters/ch_002/translation.md",
+      "has_translation": true,
+      "qc_approved": true,
+      "updated_at": "2026-11-14T08:12:00+07:00"
     },
     {
       "chapter_id": "ch_003",
@@ -36,10 +40,12 @@
       "original_title": "第3章",
       "paragraphs_count": 70,
       "characters_count": 2981,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_003/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T20:46:22.810347+07:00"
+      "translation_path": "chapters/ch_003/translation.md",
+      "has_translation": true,
+      "qc_approved": true,
+      "updated_at": "2026-11-14T08:12:00+07:00"
     },
     {
       "chapter_id": "ch_004",
@@ -48,10 +54,12 @@
       "original_title": "第4章",
       "paragraphs_count": 84,
       "characters_count": 3684,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_004/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T20:46:22.810893+07:00"
+      "translation_path": "chapters/ch_004/translation.md",
+      "has_translation": true,
+      "qc_approved": true,
+      "updated_at": "2026-11-14T08:17:00+07:00"
     },
     {
       "chapter_id": "ch_005",
@@ -60,10 +68,12 @@
       "original_title": "第5章",
       "paragraphs_count": 67,
       "characters_count": 2918,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_005/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T20:46:22.811377+07:00"
+      "translation_path": "chapters/ch_005/translation.md",
+      "has_translation": true,
+      "qc_approved": true,
+      "updated_at": "2026-11-14T08:17:00+07:00"
     },
     {
       "chapter_id": "ch_006",
@@ -72,10 +82,12 @@
       "original_title": "第6章",
       "paragraphs_count": 68,
       "characters_count": 3532,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_006/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T20:46:22.811707+07:00"
+      "translation_path": "chapters/ch_006/translation.md",
+      "has_translation": true,
+      "qc_approved": true,
+      "updated_at": "2026-11-14T08:17:00+07:00"
     },
     {
       "chapter_id": "ch_007",
@@ -84,10 +96,12 @@
       "original_title": "第7章",
       "paragraphs_count": 100,
       "characters_count": 4650,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_007/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T20:46:22.812205+07:00"
+      "translation_path": "chapters/ch_007/translation.md",
+      "has_translation": true,
+      "qc_approved": true,
+      "updated_at": "2026-11-14T08:22:00+07:00"
     },
     {
       "chapter_id": "ch_008",
@@ -96,10 +110,12 @@
       "original_title": "第8章",
       "paragraphs_count": 76,
       "characters_count": 3469,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_008/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T20:46:22.813488+07:00"
+      "translation_path": "chapters/ch_008/translation.md",
+      "has_translation": true,
+      "qc_approved": true,
+      "updated_at": "2026-11-14T08:22:00+07:00"
     },
     {
       "chapter_id": "ch_009",
@@ -108,10 +124,12 @@
       "original_title": "第9章",
       "paragraphs_count": 90,
       "characters_count": 3841,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_009/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T20:46:22.814085+07:00"
+      "translation_path": "chapters/ch_009/translation.md",
+      "has_translation": true,
+      "qc_approved": true,
+      "updated_at": "2026-11-14T08:22:00+07:00"
     },
     {
       "chapter_id": "ch_010",
@@ -120,10 +138,12 @@
       "original_title": "第10章",
       "paragraphs_count": 76,
       "characters_count": 3337,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_010/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T20:46:22.814840+07:00"
+      "translation_path": "chapters/ch_010/translation.md",
+      "has_translation": true,
+      "qc_approved": true,
+      "updated_at": "2026-11-14T08:27:00+07:00"
     },
     {
       "chapter_id": "ch_011",
@@ -132,10 +152,12 @@
       "original_title": "第11章",
       "paragraphs_count": 69,
       "characters_count": 3167,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_011/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T20:46:22.815471+07:00"
+      "translation_path": "chapters/ch_011/translation.md",
+      "has_translation": true,
+      "qc_approved": true,
+      "updated_at": "2026-11-14T08:27:00+07:00"
     },
     {
       "chapter_id": "ch_012",
@@ -144,10 +166,12 @@
       "original_title": "第12章",
       "paragraphs_count": 77,
       "characters_count": 3424,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_012/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T20:46:22.816188+07:00"
+      "translation_path": "chapters/ch_012/translation.md",
+      "has_translation": true,
+      "qc_approved": true,
+      "updated_at": "2026-11-14T08:27:00+07:00"
     },
     {
       "chapter_id": "ch_013",
@@ -156,10 +180,12 @@
       "original_title": "第13章",
       "paragraphs_count": 69,
       "characters_count": 3492,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_013/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T20:46:22.816693+07:00"
+      "translation_path": "chapters/ch_013/translation.md",
+      "has_translation": true,
+      "qc_approved": true,
+      "updated_at": "2026-11-14T08:31:00+07:00"
     },
     {
       "chapter_id": "ch_014",
@@ -168,10 +194,12 @@
       "original_title": "第14章",
       "paragraphs_count": 68,
       "characters_count": 2945,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_014/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T20:46:22.817318+07:00"
+      "translation_path": "chapters/ch_014/translation.md",
+      "has_translation": true,
+      "qc_approved": true,
+      "updated_at": "2026-11-14T08:31:00+07:00"
     },
     {
       "chapter_id": "ch_015",
@@ -180,10 +208,12 @@
       "original_title": "第15章",
       "paragraphs_count": 80,
       "characters_count": 3203,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_015/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T20:46:22.817708+07:00"
+      "translation_path": "chapters/ch_015/translation.md",
+      "has_translation": true,
+      "qc_approved": true,
+      "updated_at": "2026-11-14T08:31:00+07:00"
     },
     {
       "chapter_id": "ch_016",
@@ -192,10 +222,12 @@
       "original_title": "第16章",
       "paragraphs_count": 76,
       "characters_count": 3481,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_016/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T20:46:22.818097+07:00"
+      "translation_path": "chapters/ch_016/translation.md",
+      "has_translation": true,
+      "qc_approved": true,
+      "updated_at": "2026-11-14T08:35:00+07:00"
     },
     {
       "chapter_id": "ch_017",
@@ -204,10 +236,12 @@
       "original_title": "第17章",
       "paragraphs_count": 56,
       "characters_count": 2622,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_017/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T20:46:22.818438+07:00"
+      "translation_path": "chapters/ch_017/translation.md",
+      "has_translation": true,
+      "qc_approved": true,
+      "updated_at": "2026-11-14T08:35:00+07:00"
     },
     {
       "chapter_id": "ch_018",
@@ -216,10 +250,12 @@
       "original_title": "第18章",
       "paragraphs_count": 46,
       "characters_count": 2297,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_018/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T20:46:22.818859+07:00"
+      "translation_path": "chapters/ch_018/translation.md",
+      "has_translation": true,
+      "qc_approved": true,
+      "updated_at": "2026-11-14T08:35:00+07:00"
     },
     {
       "chapter_id": "ch_019",
@@ -228,10 +264,12 @@
       "original_title": "第19章",
       "paragraphs_count": 52,
       "characters_count": 2228,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_019/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T20:46:22.819399+07:00"
+      "translation_path": "chapters/ch_019/translation.md",
+      "has_translation": true,
+      "qc_approved": true,
+      "updated_at": "2026-11-14T08:39:00+07:00"
     },
     {
       "chapter_id": "ch_020",
@@ -240,10 +278,12 @@
       "original_title": "第20章",
       "paragraphs_count": 49,
       "characters_count": 2066,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_020/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T20:46:22.819939+07:00"
+      "translation_path": "chapters/ch_020/translation.md",
+      "has_translation": true,
+      "qc_approved": true,
+      "updated_at": "2026-11-14T08:39:00+07:00"
     },
     {
       "chapter_id": "ch_021",
@@ -252,10 +292,12 @@
       "original_title": "第21章",
       "paragraphs_count": 235,
       "characters_count": 11178,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_021/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T20:46:22.820382+07:00"
+      "translation_path": "chapters/ch_021/translation.md",
+      "has_translation": true,
+      "qc_approved": true,
+      "updated_at": "2026-11-14T08:44:00+07:00"
     },
     {
       "chapter_id": "ch_022",
@@ -264,10 +306,12 @@
       "original_title": "第22章",
       "paragraphs_count": 75,
       "characters_count": 3372,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_022/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T20:46:22.820724+07:00"
+      "translation_path": "chapters/ch_022/translation.md",
+      "has_translation": true,
+      "qc_approved": true,
+      "updated_at": "2026-11-14T08:43:00+07:00"
     },
     {
       "chapter_id": "ch_023",
@@ -276,10 +320,12 @@
       "original_title": "第23章",
       "paragraphs_count": 74,
       "characters_count": 3332,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_023/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T20:46:22.821003+07:00"
+      "translation_path": "chapters/ch_023/translation.md",
+      "has_translation": true,
+      "qc_approved": true,
+      "updated_at": "2026-11-14T08:44:00+07:00"
     },
     {
       "chapter_id": "ch_024",
@@ -288,10 +334,12 @@
       "original_title": "第24章",
       "paragraphs_count": 70,
       "characters_count": 3329,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_024/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T20:46:22.821337+07:00"
+      "translation_path": "chapters/ch_024/translation.md",
+      "has_translation": true,
+      "qc_approved": true,
+      "updated_at": "2026-11-14T08:47:00+07:00"
     },
     {
       "chapter_id": "ch_025",
@@ -300,10 +348,12 @@
       "original_title": "第25章",
       "paragraphs_count": 94,
       "characters_count": 4371,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_025/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T20:46:22.821637+07:00"
+      "translation_path": "chapters/ch_025/translation.md",
+      "has_translation": true,
+      "qc_approved": true,
+      "updated_at": "2026-11-14T08:50:00+07:00"
     },
     {
       "chapter_id": "ch_026",
@@ -312,10 +362,12 @@
       "original_title": "第26章",
       "paragraphs_count": 67,
       "characters_count": 3304,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_026/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T20:46:22.821968+07:00"
+      "translation_path": "chapters/ch_026/translation.md",
+      "has_translation": true,
+      "qc_approved": true,
+      "updated_at": "2026-11-14T08:50:00+07:00"
     },
     {
       "chapter_id": "ch_027",
@@ -324,10 +376,12 @@
       "original_title": "第27章",
       "paragraphs_count": 71,
       "characters_count": 3206,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_027/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T20:46:22.822248+07:00"
+      "translation_path": "chapters/ch_027/translation.md",
+      "has_translation": true,
+      "qc_approved": true,
+      "updated_at": "2026-11-14T08:51:00+07:00"
     },
     {
       "chapter_id": "ch_028",
@@ -336,10 +390,12 @@
       "original_title": "第28章",
       "paragraphs_count": 81,
       "characters_count": 3544,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_028/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T20:46:22.822617+07:00"
+      "translation_path": "chapters/ch_028/translation.md",
+      "has_translation": true,
+      "qc_approved": true,
+      "updated_at": "2026-11-14T08:53:00+07:00"
     },
     {
       "chapter_id": "ch_029",
@@ -348,10 +404,12 @@
       "original_title": "第29章",
       "paragraphs_count": 67,
       "characters_count": 3337,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_029/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T20:46:22.822931+07:00"
+      "translation_path": "chapters/ch_029/translation.md",
+      "has_translation": true,
+      "qc_approved": true,
+      "updated_at": "2026-11-14T08:54:00+07:00"
     },
     {
       "chapter_id": "ch_030",
@@ -360,10 +418,12 @@
       "original_title": "第30章",
       "paragraphs_count": 71,
       "characters_count": 3275,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_030/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T20:46:22.823300+07:00"
+      "translation_path": "chapters/ch_030/translation.md",
+      "has_translation": true,
+      "qc_approved": true,
+      "updated_at": "2026-11-14T08:55:00+07:00"
     },
     {
       "chapter_id": "ch_031",
@@ -372,10 +432,12 @@
       "original_title": "第31章",
       "paragraphs_count": 66,
       "characters_count": 3135,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_031/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T20:46:22.823595+07:00"
+      "translation_path": "chapters/ch_031/translation.md",
+      "has_translation": true,
+      "qc_approved": true,
+      "updated_at": "2026-11-14T09:00:00+07:00"
     },
     {
       "chapter_id": "ch_032",
@@ -384,10 +446,12 @@
       "original_title": "第32章",
       "paragraphs_count": 61,
       "characters_count": 3308,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_032/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T20:46:22.823933+07:00"
+      "translation_path": "chapters/ch_032/translation.md",
+      "has_translation": true,
+      "qc_approved": true,
+      "updated_at": "2026-11-14T09:00:00+07:00"
     },
     {
       "chapter_id": "ch_033",
@@ -396,10 +460,12 @@
       "original_title": "第33章",
       "paragraphs_count": 70,
       "characters_count": 3146,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_033/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T20:46:22.824250+07:00"
+      "translation_path": "chapters/ch_033/translation.md",
+      "has_translation": true,
+      "qc_approved": true,
+      "updated_at": "2026-11-14T09:00:00+07:00"
     },
     {
       "chapter_id": "ch_034",
@@ -408,10 +474,12 @@
       "original_title": "第34章",
       "paragraphs_count": 78,
       "characters_count": 3234,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_034/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T20:46:22.824591+07:00"
+      "translation_path": "chapters/ch_034/translation.md",
+      "has_translation": true,
+      "qc_approved": true,
+      "updated_at": "2026-11-14T09:05:00+07:00"
     },
     {
       "chapter_id": "ch_035",
@@ -420,10 +488,12 @@
       "original_title": "第35章",
       "paragraphs_count": 74,
       "characters_count": 3318,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_035/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T20:46:22.824876+07:00"
+      "translation_path": "chapters/ch_035/translation.md",
+      "has_translation": true,
+      "qc_approved": true,
+      "updated_at": "2026-11-14T09:05:00+07:00"
     },
     {
       "chapter_id": "ch_036",
@@ -432,10 +502,12 @@
       "original_title": "第36章",
       "paragraphs_count": 73,
       "characters_count": 3327,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_036/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T20:46:22.825817+07:00"
+      "translation_path": "chapters/ch_036/translation.md",
+      "has_translation": true,
+      "qc_approved": true,
+      "updated_at": "2026-11-14T09:05:00+07:00"
     },
     {
       "chapter_id": "ch_037",
@@ -444,10 +516,12 @@
       "original_title": "第37章",
       "paragraphs_count": 72,
       "characters_count": 3148,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_037/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T20:46:22.826138+07:00"
+      "translation_path": "chapters/ch_037/translation.md",
+      "has_translation": true,
+      "qc_approved": true,
+      "updated_at": "2026-11-14T09:10:00+07:00"
     },
     {
       "chapter_id": "ch_038",
@@ -456,10 +530,12 @@
       "original_title": "第38章",
       "paragraphs_count": 68,
       "characters_count": 3364,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_038/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T20:46:22.826641+07:00"
+      "translation_path": "chapters/ch_038/translation.md",
+      "has_translation": true,
+      "qc_approved": true,
+      "updated_at": "2026-11-14T09:10:00+07:00"
     },
     {
       "chapter_id": "ch_039",
@@ -468,10 +544,12 @@
       "original_title": "第39章",
       "paragraphs_count": 74,
       "characters_count": 3182,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_039/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T20:46:22.827037+07:00"
+      "translation_path": "chapters/ch_039/translation.md",
+      "has_translation": true,
+      "qc_approved": true,
+      "updated_at": "2026-11-14T09:10:00+07:00"
     },
     {
       "chapter_id": "ch_040",
@@ -480,10 +558,12 @@
       "original_title": "第40章",
       "paragraphs_count": 69,
       "characters_count": 3199,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_040/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T20:46:22.828028+07:00"
+      "translation_path": "chapters/ch_040/translation.md",
+      "has_translation": true,
+      "qc_approved": true,
+      "updated_at": "2026-11-14T09:15:00+07:00"
     },
     {
       "chapter_id": "ch_041",
@@ -492,10 +572,12 @@
       "original_title": "第41章",
       "paragraphs_count": 67,
       "characters_count": 3187,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_041/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T20:46:22.828416+07:00"
+      "translation_path": "chapters/ch_041/translation.md",
+      "has_translation": true,
+      "qc_approved": true,
+      "updated_at": "2026-11-14T09:15:00+07:00"
     },
     {
       "chapter_id": "ch_042",
@@ -504,10 +586,12 @@
       "original_title": "第42章",
       "paragraphs_count": 60,
       "characters_count": 3137,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_042/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T20:46:22.829406+07:00"
+      "translation_path": "chapters/ch_042/translation.md",
+      "has_translation": true,
+      "qc_approved": true,
+      "updated_at": "2026-11-14T09:15:00+07:00"
     },
     {
       "chapter_id": "ch_043",
@@ -516,10 +600,12 @@
       "original_title": "第43章",
       "paragraphs_count": 75,
       "characters_count": 3153,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_043/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T20:46:22.829923+07:00"
+      "translation_path": "chapters/ch_043/translation.md",
+      "has_translation": true,
+      "qc_approved": true,
+      "updated_at": "2026-11-14T09:20:00+07:00"
     },
     {
       "chapter_id": "ch_044",
@@ -528,10 +614,12 @@
       "original_title": "第44章",
       "paragraphs_count": 64,
       "characters_count": 3180,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_044/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T20:46:22.830928+07:00"
+      "translation_path": "chapters/ch_044/translation.md",
+      "has_translation": true,
+      "qc_approved": true,
+      "updated_at": "2026-11-14T09:20:00+07:00"
     },
     {
       "chapter_id": "ch_045",
@@ -540,10 +628,12 @@
       "original_title": "第45章",
       "paragraphs_count": 72,
       "characters_count": 3187,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_045/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T20:46:22.831333+07:00"
+      "translation_path": "chapters/ch_045/translation.md",
+      "has_translation": true,
+      "qc_approved": true,
+      "updated_at": "2026-11-14T09:20:00+07:00"
     },
     {
       "chapter_id": "ch_046",
@@ -552,10 +642,12 @@
       "original_title": "第46章",
       "paragraphs_count": 69,
       "characters_count": 3176,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_046/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T20:46:22.831733+07:00"
+      "translation_path": "chapters/ch_046/translation.md",
+      "has_translation": true,
+      "qc_approved": true,
+      "updated_at": "2026-11-14T09:25:00+07:00"
     },
     {
       "chapter_id": "ch_047",
@@ -564,10 +656,12 @@
       "original_title": "第47章",
       "paragraphs_count": 59,
       "characters_count": 3159,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_047/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T20:46:22.832035+07:00"
+      "translation_path": "chapters/ch_047/translation.md",
+      "has_translation": true,
+      "qc_approved": true,
+      "updated_at": "2026-11-14T09:25:00+07:00"
     },
     {
       "chapter_id": "ch_048",
@@ -576,10 +670,12 @@
       "original_title": "第48章",
       "paragraphs_count": 66,
       "characters_count": 3231,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_048/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T20:46:22.832386+07:00"
+      "translation_path": "chapters/ch_048/translation.md",
+      "has_translation": true,
+      "qc_approved": true,
+      "updated_at": "2026-11-14T09:25:00+07:00"
     },
     {
       "chapter_id": "ch_049",
@@ -588,10 +684,12 @@
       "original_title": "第49章",
       "paragraphs_count": 72,
       "characters_count": 3222,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_049/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T20:46:22.832709+07:00"
+      "translation_path": "chapters/ch_049/translation.md",
+      "has_translation": true,
+      "qc_approved": true,
+      "updated_at": "2026-11-14T09:30:00+07:00"
     },
     {
       "chapter_id": "ch_050",
@@ -600,10 +698,12 @@
       "original_title": "第50章",
       "paragraphs_count": 73,
       "characters_count": 3367,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_050/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T20:46:22.833052+07:00"
+      "translation_path": "chapters/ch_050/translation.md",
+      "has_translation": true,
+      "qc_approved": true,
+      "updated_at": "2026-11-14T09:30:00+07:00"
     },
     {
       "chapter_id": "ch_051",
@@ -612,10 +712,12 @@
       "original_title": "第51章",
       "paragraphs_count": 65,
       "characters_count": 3156,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_051/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T20:46:22.833328+07:00"
+      "translation_path": "chapters/ch_051/translation.md",
+      "has_translation": true,
+      "qc_approved": true,
+      "updated_at": "2026-11-14T09:30:00+07:00"
     },
     {
       "chapter_id": "ch_052",
@@ -624,10 +726,12 @@
       "original_title": "第52章",
       "paragraphs_count": 74,
       "characters_count": 3214,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_052/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T20:46:22.833667+07:00"
+      "translation_path": "chapters/ch_052/translation.md",
+      "has_translation": true,
+      "qc_approved": true,
+      "updated_at": "2026-11-14T09:35:00+07:00"
     },
     {
       "chapter_id": "ch_053",
@@ -636,10 +740,12 @@
       "original_title": "第53章",
       "paragraphs_count": 67,
       "characters_count": 3210,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_053/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T20:46:22.834077+07:00"
+      "translation_path": "chapters/ch_053/translation.md",
+      "has_translation": true,
+      "qc_approved": true,
+      "updated_at": "2026-11-14T09:35:00+07:00"
     },
     {
       "chapter_id": "ch_054",
@@ -648,10 +754,12 @@
       "original_title": "第54章",
       "paragraphs_count": 68,
       "characters_count": 3162,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_054/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T20:46:22.834471+07:00"
+      "translation_path": "chapters/ch_054/translation.md",
+      "has_translation": true,
+      "qc_approved": true,
+      "updated_at": "2026-11-14T09:35:00+07:00"
     },
     {
       "chapter_id": "ch_055",
@@ -660,10 +768,12 @@
       "original_title": "第55章",
       "paragraphs_count": 78,
       "characters_count": 3434,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_055/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T20:46:22.834836+07:00"
+      "translation_path": "chapters/ch_055/translation.md",
+      "has_translation": true,
+      "qc_approved": true,
+      "updated_at": "2026-11-14T09:40:00+07:00"
     },
     {
       "chapter_id": "ch_056",
@@ -672,10 +782,12 @@
       "original_title": "第56章",
       "paragraphs_count": 70,
       "characters_count": 3169,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_056/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T20:46:22.835126+07:00"
+      "translation_path": "chapters/ch_056/translation.md",
+      "has_translation": true,
+      "qc_approved": true,
+      "updated_at": "2026-11-14T09:40:00+07:00"
     },
     {
       "chapter_id": "ch_057",
@@ -684,10 +796,12 @@
       "original_title": "第57章",
       "paragraphs_count": 77,
       "characters_count": 3179,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_057/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T20:46:22.835490+07:00"
+      "translation_path": "chapters/ch_057/translation.md",
+      "has_translation": true,
+      "qc_approved": true,
+      "updated_at": "2026-11-14T09:40:00+07:00"
     },
     {
       "chapter_id": "ch_058",
@@ -696,10 +810,12 @@
       "original_title": "第58章",
       "paragraphs_count": 73,
       "characters_count": 3150,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_058/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T20:46:22.835788+07:00"
+      "translation_path": "chapters/ch_058/translation.md",
+      "has_translation": true,
+      "qc_approved": true,
+      "updated_at": "2026-11-14T09:45:00+07:00"
     },
     {
       "chapter_id": "ch_059",
@@ -708,22 +824,26 @@
       "original_title": "第59章",
       "paragraphs_count": 74,
       "characters_count": 3583,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_059/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T20:46:22.836143+07:00"
+      "translation_path": "chapters/ch_059/translation.md",
+      "has_translation": true,
+      "qc_approved": true,
+      "updated_at": "2026-11-14T09:45:00+07:00"
     },
     {
       "chapter_id": "ch_060",
       "chapter_num": 60,
-      "title": "Chương 60: 第60章",
+      "title": "Chương 60: 第60章 (Đại Kết Cục)",
       "original_title": "第60章",
       "paragraphs_count": 48,
       "characters_count": 1866,
-      "status": "raw_ready",
+      "status": "completed",
       "source_path": "chapters/ch_060/source.md",
-      "has_translation": false,
-      "updated_at": "2026-11-09T20:46:22.836424+07:00"
+      "translation_path": "chapters/ch_060/translation.md",
+      "has_translation": true,
+      "qc_approved": true,
+      "updated_at": "2026-11-14T09:45:00+07:00"
     }
   ]
 }

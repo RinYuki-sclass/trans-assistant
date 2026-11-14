@@ -1,4 +1,305 @@
 {
-  "events": [],
-  "current_status": "Project initialized, awaiting raw chapters."
+  "events": [
+    {
+      "chapter": "ch_001",
+      "chapter_num": 1,
+      "event": "Tùy Ứng thức tỉnh Hệ thống điều chỉnh thế giới lúc 2h sáng khi đang pha cà phê cho Phó Dận An. Hắn biết mình là pháo hôi đặc trợ trong tiểu thuyết cẩu huyết và lập kế hoạch cày tiền bồi thường hợp đồng để chuồn."
+    },
+    {
+      "chapter": "ch_002",
+      "chapter_num": 2,
+      "event": "Tùy Ứng đón Tô Thanh Từ tại sân bay Tinh Cảng, giải cứu sự cố pheromone của đối phương bằng bình xịt và pheromone matcha. Khi về công ty, Phó Dận An chạm mặt cả hai ở thang máy, khiển trách Tô Thanh Từ và bắt đầu để ý mùi hương trên người Tùy Ứng."
+    },
+    {
+      "chapter": "ch_003",
+      "chapter_num": 3,
+      "event": "Phó Dận An chất vấn Tùy Ứng về việc giải phóng pheromone xoa dịu cho Tô Thanh Từ. Tùy Ứng đối đáp công sở chuẩn mực, bình thản chịu trừ lương. Phó Dận An đổi ý, gạt phăng Tô Thanh Từ khỏi văn phòng tổng tài, chỉ giữ lại Tùy Ứng."
+    },
+    {
+      "chapter": "ch_004",
+      "chapter_num": 4,
+      "event": "Trợ lý Lâm tháp tùng Phó Dận An đi tiệc từ thiện, Bùi Tiềm đùa đòi đào đặc trợ Tùy với lương gấp đôi khiến Phó Dận An khó chịu uống quá chén. Tùy Ứng đi ăn cá nướng ven vịnh Tinh Hà, nghe tin sếp say rượu liền bình tĩnh chỉ đạo đưa về nhà, né sạch drama đấu giá."
+    },
+    {
+      "chapter": "ch_005",
+      "chapter_num": 5,
+      "event": "Sáng sớm, Tùy Ứng mang cháo cá lóc tự nấu và làm mì dương xuân phục vụ Phó Dận An và Bùi Tiềm tại penthouse. Hệ thống yêu cầu cô lập Tô Thanh Từ, Tùy Ứng lách luật bằng cách điều Tô Thanh Từ vào dự án Vịnh Tinh Hà."
+    },
+    {
+      "chapter": "ch_006",
+      "chapter_num": 6,
+      "event": "Tùy Ứng hướng dẫn Tô Thanh Từ về dự án Vịnh Tinh Hà và đỡ lời cho Tô Thanh Từ trong cuộc họp ban lãnh đạo. Sau cuộc họp, Tùy Ứng mát-xa thái dương cho Phó tổng và xin phép chiều mai cùng Tô Thanh Từ đi khảo sát thực tế."
+    },
+    {
+      "chapter": "ch_007",
+      "chapter_num": 7,
+      "event": "Tùy Ứng đeo vòng cổ da đen đưa Tô Thanh Từ đi khảo sát thực tế tại khu phế tích Vịnh Tinh Hà. Sau đó hắn đưa Tô Thanh Từ về chung cư và gọi video cho em trai Tùy Thịnh, phát hiện xe của Phó Dận An đang đỗ bên ngoài."
+    },
+    {
+      "chapter": "ch_008",
+      "chapter_num": 8,
+      "event": "Phó Dận An gõ cửa xe Tùy Ứng, muốn đi câu lạc bộ Lưu Sa theo lời hẹn Bùi Tiềm. Tùy Ứng nhanh trí gọi Tô Thanh Từ đi cùng để gán ghép. Tại Lưu Sa, Cố Dĩnh xuất hiện nhắm vào Tùy Ứng."
+    },
+    {
+      "chapter": "ch_009",
+      "chapter_num": 9,
+      "event": "Cố Dĩnh khiêu khích Tùy Ứng và Tô Thanh Từ tại Lưu Sa nhưng bị Tùy Ứng phản đòn điềm tĩnh. Trên phòng VIP, Phó Dận An theo dõi với sắc mặt âm trầm ghen tuông. Khi Tô Thanh Từ bị ép rượu, Tùy Ứng đỡ rượu thay, thanh tiến độ HE nhảy vọt 2%!"
+    },
+    {
+      "chapter": "ch_010",
+      "chapter_num": 10,
+      "event": "Bùi Tiềm đỡ rượu giải vây cho Tùy Ứng. Trên xe về, Phó tổng ghen tuông hỏi sao không tiễn Tô Thanh Từ; Tùy Ứng khéo léo nịnh sếp. Cố Dĩnh bị đánh gãy chân gọi về mách cha là Cố Chấn; Tiềm Uyên đổi người đàm phán thành Cố Dĩnh và chỉ đích danh Tùy Ứng."
+    },
+    {
+      "chapter": "ch_011",
+      "chapter_num": 11,
+      "event": "Tùy Ứng cùng Tô Thanh Từ sang Tiềm Uyên đàm phán; Cố Dĩnh ngồi xe lăn giở trò sàm sỡ, nhét thẻ phòng ép quy tắc ngầm nhưng bị Tùy Ứng dằn mặt đanh thép. Tô Thanh Từ về báo cáo khiến Phó tổng tối sầm mặt, mở camera giám sát xem lại."
+    },
+    {
+      "chapter": "ch_012",
+      "chapter_num": 12,
+      "event": "Bùi Tiềm đòi Phó Dận An nhượng đất và đổi đặc trợ Tùy nhưng bị cự tuyệt; Phó Dận An thu mua bản ghi hình giám sát. Khi Tùy Ứng vào báo cáo, Phó tổng thò tay vào túi áo ngực Tùy Ứng tịch thu thẻ phòng và tuyên bố chủ quyền. Tiến độ HE tăng vọt 3% khiến Tùy Ứng nghi ngờ hệ thống nhiễm virus!"
+    },
+    {
+      "chapter": "ch_013",
+      "chapter_num": 13,
+      "event": "Tùy Ứng bắt gặp Tô Thanh Từ bị chú ruột ép tiếp cận lãnh đạo Quân Chính để trả nợ. Hệ thống yêu cầu đẩy thụ chính tiếp cận Phó tổng; Tùy Ứng dùng sữa nóng khéo léo động viên, dẫn dắt tâm lý Tô Thanh Từ mà bản thân không tỳ vết."
+    },
+    {
+      "chapter": "ch_014",
+      "chapter_num": 14,
+      "event": "Tùy Ứng từ chối về ăn tết sớm theo yêu cầu gia đình. Tại Cố gia, Cố Chấn tức giận nghe file ghi âm Cố Thiên Diệp quấy rối người của Quân Chính. Tại Quân Chính, Tùy Ứng tăng ca phân tách chuỗi cung ứng, tiến độ HE bất ngờ tăng lên 19% và bị paparazzi chụp lén."
+    },
+    {
+      "chapter": "ch_015",
+      "chapter_num": 15,
+      "event": "Bài báo bôi nhọ Tùy Ứng giải tỏa Vịnh Tinh Hà bùng nổ Tinh mạng. Phó Dận An hứa trả lương gấp đôi gọi Tùy Ứng về công ty. Khi Tùy Ứng trấn an rằng Tô Thanh Từ sẽ không bị vạ lây, Phó tổng đen mặt ghen tuông, thanh HE tăng chạm mốc 20%! Hoàn tất Batch 1."
+    },
+    {
+      "chapter": "ch_016",
+      "chapter_num": 16,
+      "event": "Hashtag nhan sắc thần tiên của Tùy Ứng bùng nổ Tinh mạng; Phó tổng ngắm vóc dáng Tùy Ứng rồi gạt phăng ý định dùng nhan sắc dập sóng gió. Tùy Ứng nghỉ trưa 20 phút, hệ thống tự động gạt một tin nhắn bí mật từ ngoại tinh cầu; tiến độ HE tăng lên 22%."
+    },
+    {
+      "chapter": "ch_017",
+      "chapter_num": 17,
+      "event": "Họp báo công bố quỹ bảo tồn văn hóa, phóng viên Tiềm Uyên cài vào gây sự. Cần cẩu máy quay hàng tấn đứt cáp rơi xuống; Phó Dận An ôm chặt Tùy Ứng hứng đòn thay hắn. Tùy Ứng chấn thương trán chảy máu, hôn mê gục vào lòng sếp."
+    },
+    {
+      "chapter": "ch_018",
+      "chapter_num": 18,
+      "event": "Trên xe cấp cứu, Phó Dận An quên sạch tật sạch sẽ, dùng tay lau máu cho Tùy Ứng, cảm nhận nốt ruồi son khóe môi hắn. Tại bệnh viện, sếp khâu tay không thuốc tê, giật máy cam kết viện trợ cấp cứu trước Tùy Thịnh và điều tinh hạm riêng rước Tùy Thịnh về."
+    },
+    {
+      "chapter": "ch_019",
+      "chapter_num": 19,
+      "event": "Tùy Ứng tỉnh lại trong buồng bệnh VIP sau 24h hôn mê. Phó Dận An thức trắng đêm túc trực bên cạnh, đích thân nâng giường và cắm ống hút dâng nước cho hắn; tiến độ HE tăng vọt 20% chạm mốc 44%!"
+    },
+    {
+      "chapter": "ch_020",
+      "chapter_num": 20,
+      "event": "Phó Dận An gặp Tùy Thịnh ở hành lang bệnh viện. Tùy Thịnh sốt ruột vào thăm anh trai, cố giấu chuyện Cố Thiên Diệp giật dây dư luận Tinh Võng. Hệ thống cảnh báo Tô Thanh Từ sắp xin từ chức sớm."
+    },
+    {
+      "chapter": "ch_021",
+      "chapter_num": 21,
+      "event": "Phó Hoành Nhất định tước quyền Tùy Ứng nhưng bị Phó Dận An đuổi thẳng cổ; Tùy Ứng giữ chân Tô Thanh Từ dự dạ tiệc Phó thị. Phó Dận An đích thân đến bệnh viện đón Tùy Ứng xuất viện, giao thiệp mời và yêu cầu chuẩn bị quà cho ông nội lẫn chính mình."
+    },
+    {
+      "chapter": "ch_022",
+      "chapter_num": 22,
+      "event": "Dạ tiệc tại lão trạch Phó thị, Tam thúc Phó Hoành Nhất định dùng vệ sĩ chặn Tùy Ứng nhưng bị gạt phăng. Phó Dận An đối chất đanh thép với Tam thúc trước mặt Phó Lão gia tử, dập tắt ý đồ ép hôn với Tô Thanh Từ rồi lao xuống sảnh tìm Tùy Ứng."
+    },
+    {
+      "chapter": "ch_023",
+      "chapter_num": 23,
+      "event": "Phó Dận An chặn Tùy Ứng và Tô Thanh Từ tại sảnh phụ với vẻ ghen tuông. Tùy Ứng vào phòng tiếp khách đối đáp giọt nước không lọt trước Phó Chính Đình; Bùi Tiềm lấy nhầm đạo cụ cốt truyện và khoác vai kéo Tùy Ứng đi uống rượu."
+    },
+    {
+      "chapter": "ch_024",
+      "chapter_num": 24,
+      "event": "Tại phòng nghỉ cánh Tây lão trạch, Phó Dận An phục kích Tùy Ứng trong cơn ghen dữ dội; kỳ mẫn cảm của Tùy Ứng bùng nổ, hắn tháo kính dâng hoa linh lan. Phó tổng xé miếng dán cách ly, cắn ngập tuyến thể Tùy Ứng và ép hắn gọi tên mình. Hệ thống sập nguồn!"
+    },
+    {
+      "chapter": "ch_025",
+      "chapter_num": 25,
+      "event": "Sáng hôm sau trong suite của Phó Dận An, Tùy Ứng thắt cà vạt nửa Windsor cho sếp; Phó tổng chuẩn bị áo sơ mi đôi và sánh vai cùng hắn. Hệ thống rớt mạng đêm qua sáng nay thức dậy hò reo vì HE tăng vọt lên 65%!"
+    },
+    {
+      "chapter": "ch_026",
+      "chapter_num": 26,
+      "event": "Tùy Ứng hiến kế trung hòa xung đột PR Vịnh Tinh Hà; Phó Thành Huy sấn tới mỉa mai Tùy Ứng tại sân thượng liền bị Phó Dận An bẻ tay răn đe đuổi cổ; sếp ngượng ngùng khi nhìn thấy vết băng cá nhân trên cổ Tùy Ứng."
+    },
+    {
+      "chapter": "ch_027",
+      "chapter_num": 27,
+      "event": "Tùy Ứng động viên Tô Thanh Từ kiên trì đam mê viết lách; sếp Phó tự tay nộp phạt đỗ xe rồi theo Tùy Ứng lên tận căn hộ, phủ tay lên tay hắn trầm giọng hỏi dồn dập về tuyến thể!"
+    },
+    {
+      "chapter": "ch_028",
+      "chapter_num": 28,
+      "event": "Phó Dận An đích thân bóc băng cá nhân kiểm tra tuyến thể cho Tùy Ứng tại căn hộ rồi bôi thuốc mỡ; hôm sau tại công ty Bùi Tiềm cảnh báo sếp Phó chuyện dính líu tình cảm với đặc trợ, Tùy Ứng mang điểm tâm tới liền bị Phó tổng nắm chặt cổ tay giữ lại trước mặt bạn thân."
+    },
+    {
+      "chapter": "ch_029",
+      "chapter_num": 29,
+      "event": "Tùy Ứng đi công tác Tinh khu 37 khảo sát xưởng sản xuất của học trưởng Ninh Chi Viễn; Phó Dận An tới sớm nửa tiếng, tỏa khí lạnh ghen tuông ngấm ngầm, giành mở khăn ướt cho Tùy Ứng và uống cạn chén rượu thay hắn."
+    },
+    {
+      "chapter": "ch_030",
+      "chapter_num": 30,
+      "event": "Tàn tiệc tại Tinh khu 37, Ninh Chi Viễn rủ Tùy Ứng đi tăng hai liền bị Phó Dận An chặn họng đưa về; tại khách sạn sếp Phó ghé phòng thấy Tùy Ứng mặc áo choàng tắm, ghen ngầm với quá khứ ở Tiềm Uyên, rồi áp sát bên người Tùy Ứng giữa lúc họp trực tuyến chưa tắt mic."
+    },
+    {
+      "chapter": "ch_031",
+      "chapter_num": 31,
+      "event": "Tùy Ứng đi suối nước nóng Cảng Ốc Đảo cùng sếp Phó và đối tác; sếp Phó nhận xét Tùy Ứng giải thích hạng mục rất chu đáo và dặn không cần quá gắng gượng; Tùy Thịnh gọi video khoe chó con mới nuôi."
+    },
+    {
+      "chapter": "ch_032",
+      "chapter_num": 32,
+      "event": "Tùy Ứng gọi video ngắm cún Chiu Chiu của Tùy Thịnh; hôm sau tham quan nhà kính thực vật Cảng Lục Châu, đối tác được tặng hoa hợp màu cà vạt, Phó Dận An bất ngờ tách đám đông mang đóa hoa đỏ rực tới tặng riêng cho Tùy Ứng với ánh mắt quấn quít."
+    },
+    {
+      "chapter": "ch_033",
+      "chapter_num": 33,
+      "event": "Tùy Ứng ngâm mình trong suối nước nóng, vóc dáng bạch ngọc tuyệt mỹ khiến Hệ thống ngây ngất; Phó Dận An bất ngờ xuất hiện bên bờ hồ tắt chuông báo thức trên quang não của hắn."
+    },
+    {
+      "chapter": "ch_034",
+      "chapter_num": 34,
+      "event": "Bên hồ suối nước nóng, Phó Dận An ngầm ý muốn cất nhắc Tùy Ứng đứng đầu công ty con nhưng Tùy Ứng khéo léo từ chối; đai lưng áo tắm bị gấu mèo tha mất, Tùy Ứng ra tìm thì chú gấu mèo bám gối xin ăn và phía sau có tiếng chân tới gần."
+    },
+    {
+      "chapter": "ch_035",
+      "chapter_num": 35,
+      "event": "Tùy Ứng bị chú gấu mèo cào xước mu bàn tay khi bảo vệ tuyến thể; Phó Dận An gọi bác sĩ đến tiêm vắc-xin dại khẩn cấp và đích thân cùng Tùy Ứng ăn cơm chan nước súp sau khi xử lý vết thương."
+    },
+    {
+      "chapter": "ch_036",
+      "chapter_num": 36,
+      "event": "Tùy Ứng cởi áo tiêm phòng vắc-xin dại khiến sếp Phó ghen ngầm trước lời khen của bác sĩ; đêm khuya gấu mèo tha camera siêu nhỏ tới, Tùy Ứng nhắn thoại cảnh cáo Cố Thiên Diệp; trên chuyến bay về nhà, Tùy Ứng phát hiện thêm thiết bị định vị mini và tin nhắn chất vấn từ Cố Thiên Diệp."
+    },
+    {
+      "chapter": "ch_037",
+      "chapter_num": 37,
+      "event": "Tùy Thịnh đón Tùy Ứng cùng cún cưng đi tắm rửa; sếp Phó bí mật đi theo Tùy Ứng và ngượng ngùng hỏi Bùi Tiềm quà gặp mặt; Tùy Ứng cùng em trai dự bữa cơm gia đình, mẹ kế Lý Tình mưu toan mai mối."
+    },
+    {
+      "chapter": "ch_038",
+      "chapter_num": 38,
+      "event": "Tại bữa ăn gia đình, Tùy Văn Hàn và Lý Tình đòi Tùy Ứng bỏ tiền góp vốn logistics liền bị hắn khéo léo từ chối; Tùy Thịnh đưa Tùy Ứng về khách sạn, phát hiện người quen của sếp Phó lén lút dưới hầm xe."
+    },
+    {
+      "chapter": "ch_039",
+      "chapter_num": 39,
+      "event": "Mưa bão ngập lụt, Tùy Ứng xem phim ở khách sạn thì sếp Phó cầm cà phê 7 viên đá tới ngồi cạnh và đỡ tay khi hắn ngủ gật; sau đó Tùy Thịnh sốt ruột lái xe giữa bão đi cứu cún cưng Chiu Chiu khi tiệm thú cưng mất liên lạc."
+    },
+    {
+      "chapter": "ch_040",
+      "chapter_num": 40,
+      "event": "Tùy Ứng cấm Tùy Thịnh mạo hiểm lái xe trong bão, quyết định tự mình đi đón cún Chiu Chiu; Phó Dận An kiên quyết đi cùng, đổi lái xe giúp Tùy Ứng và xắn tay áo trèo ống thông gió tầng hai cứu cún."
+    },
+    {
+      "chapter": "ch_041",
+      "chapter_num": 41,
+      "event": "Phó Dận An thành công giải cứu cún Chiu Chiu từ trong tiệm thú cưng; Tùy Thịnh tới đón cún và cảm ơn sếp Phó; trên xe về khách sạn Tùy Ứng hứa sẽ tự tay xuống bếp nấu một bữa thịnh soạn cảm ơn sếp."
+    },
+    {
+      "chapter": "ch_042",
+      "chapter_num": 42,
+      "event": "Tùy Ứng nấu bữa ăn 5 người tại khách sạn, dùng lời lẽ sắc bén chặn đứng ý đồ tống tiền của Tùy Văn Hàn; sau bữa ăn Tùy Ứng dắt chó đi dạo bị người lạ bắt chuyện, sếp Phó liền xuất hiện cắt ngang giải vây và đưa nước soda."
+    },
+    {
+      "chapter": "ch_043",
+      "chapter_num": 43,
+      "event": "Tùy Ứng cùng sếp Phó dắt cún đi dạo đêm, vào quán bar thưởng thức cocktail Aeternum Lacrimae; Tùy Thịnh diễn xong liền chạy vội ra đón anh trai dưới bóng đêm."
+    },
+    {
+      "chapter": "ch_044",
+      "chapter_num": 44,
+      "event": "Tùy Thịnh bôi xấu sếp Phó trên xe liền bị Tùy Ứng răn đe; sếp Phó cảnh cáo Tùy Thịnh không được làm trò khiến Tùy Ứng phiền lòng rồi đích thân mang canh giải rượu tới phòng khách sạn cho Tùy Ứng."
+    },
+    {
+      "chapter": "ch_045",
+      "chapter_num": 45,
+      "event": "Sếp Phó tỉ mỉ lau kính giúp Tùy Ứng trong phòng; sáng hôm sau Tùy Văn Hàn gọi điện đòi tiền gỡ gạc nợ nần, sếp Phó đã cho điều tra báo cáo tín dụng và bảo vệ Tùy Ứng trên xe."
+    },
+    {
+      "chapter": "ch_046",
+      "chapter_num": 46,
+      "event": "Tùy Ứng hôn phớt khóe môi Phó Dận An trên xe xem như 'trả góp'; sếp Phó ra tay dứt khoát hạ gục côn đồ tại cổng biệt thự Tùy gia, cứu Tùy Thịnh bị bầm dập trong phòng ngủ."
+    },
+    {
+      "chapter": "ch_047",
+      "chapter_num": 47,
+      "event": "Tùy Ứng điều tra ra Cố Thiên Diệp giật dây đám đòi nợ thuê; đội an ninh sếp Phó tóm gọn tay chân của Cố Thiên Diệp trong hẻm tối; Tùy Ứng răn đe Tùy Thịnh và cùng sếp Phó ăn tối ở quán quen."
+    },
+    {
+      "chapter": "ch_048",
+      "chapter_num": 48,
+      "event": "Sếp Phó xử lý Ninh Chi Viễn và xem hồ sơ tuổi thơ cơ cực của Tùy Ứng; hai ngày sau Tùy Ứng tới khu biệt thự ký hợp đồng thì bị Lý Tình và Cố Thiên Diệp gài bẫy đánh thuốc mê bắt cóc."
+    },
+    {
+      "chapter": "ch_049",
+      "chapter_num": 49,
+      "event": "Cố Thiên Diệp giam giữ Tùy Ứng trong căn phòng tối, tỏa pheromone Vodka cuồng bạo chất vấn quá khứ; Tùy Ứng điềm tĩnh lật tẩy và chuẩn bị phản kích thì tiếng súng nổ vang trời giải vây."
+    },
+    {
+      "chapter": "ch_050",
+      "chapter_num": 50,
+      "event": "Phó Dận An kịp thời xông vào giải cứu Tùy Ứng đang bùng phát kỳ mẫn cảm; hai người quấn quít trên phi thuyền; trở về Thủ đô tinh Tùy Ứng tiếp nhận công ty con, Tô Thanh Từ từ chức, thanh tiến độ HE đạt 100%!"
+    },
+    {
+      "chapter": "ch_051",
+      "chapter_num": 51,
+      "event": "Tùy Ứng nhậm chức Tùy tổng, cùng sếp Phó ăn cá nướng ở Tinh Hà Loan; Phó Dận An đưa thiệp cưới Bùi Tiềm và hạ giọng nhận sai dỗ dành khi Tùy Ứng giả vờ dỗi về công việc cố vấn."
+    },
+    {
+      "chapter": "ch_052",
+      "chapter_num": 52,
+      "event": "Sếp Phó đợi sẵn trong phòng làm việc của Tùy Ứng đưa hắn đi dự tiệc đính hôn của Bùi Tiềm; trên ban công ngắm cảnh sếp Phó thân mật kéo Tùy Ứng vào lòng bị Bùi Tiềm vô tình bắt gặp."
+    },
+    {
+      "chapter": "ch_053",
+      "chapter_num": 53,
+      "event": "Bùi Tiềm đính hôn cùng Tống Doanh; sếp Phó ghen tuông khi Tống Doanh xin liên lạc của Tùy Ứng; dưới hầm xe sếp Phó đè Tùy Ứng lên ghế xe ép hỏi, Tùy Ứng khẳng định chỉ hứng thú với riêng anh."
+    },
+    {
+      "chapter": "ch_054",
+      "chapter_num": 54,
+      "event": "Nụ hôn mãnh liệt trong xe và màn trêu đùa đòi lại cà vạt hiệu C; sếp Phó lén lút lập tài khoản follow lưu ảnh chibi Tùy Ứng, báo tin Cố Thiên Diệp đã bị Cố Chấn cưỡng chế quản thúc 3-5 năm."
+    },
+    {
+      "chapter": "ch_055",
+      "chapter_num": 55,
+      "event": "Sếp Phó dùng tiền mua đứt đơn tranh CP Tùy Ứng từ họa sĩ; ông nội Phó đe dọa chê Tùy Ứng là Alpha không thể sinh con thì sếp Phó khen ảnh đẹp đòi file gốc rồi dứt khoát bỏ về đón Tùy Ứng."
+    },
+    {
+      "chapter": "ch_056",
+      "chapter_num": 56,
+      "event": "Dạ tiệc từ thiện trên du thuyền, thiên kim Cố Nhụy nhận hoa quả tiếp đãi từ sếp Phó vì Tùy Ứng dặn phải lịch sự; sếp Phó cho trực thăng chở hoa tươi và chocolate đến du thuyền cho Tùy Ứng."
+    },
+    {
+      "chapter": "ch_057",
+      "chapter_num": 57,
+      "event": "Đấu giá từ thiện trên du thuyền: sếp Phó chi chục triệu thắng cặp khuy sapphire Kashmir để Tùy Ứng cài lên cổ tay áo anh; sau đó Tùy Ứng giữ tay sếp Phó lại thì thầm 'tôi xót tiền của ngài' khiến đối thủ bị gài bẫy giá trên trời."
+    },
+    {
+      "chapter": "ch_058",
+      "chapter_num": 58,
+      "event": "Đêm sinh nhật trên du thuyền: Phó Dận An bí mật tổ chức sinh nhật cho Tùy Ứng với bánh mousse matcha dưa lưới, chu đáo cắm nến chúc mừng; sếp Phó ghen tuông vì Tùy Ứng tặng bàn cờ ngọc cho Cố lão gia nên đòi trả lại, Tùy Ứng bật cười dỗ dành sếp Phó."
+    },
+    {
+      "chapter": "ch_059",
+      "chapter_num": 59,
+      "event": "Du thuyền cập cảng, Cố Dĩnh đích thân mang quà đến tạ lỗi thay cho Cố gia; Tùy Ứng thu xếp xong công việc, cùng sếp Phó ngắm hoàng hôn bên bờ biển và bàn chuyện dọn về sống chung."
+    },
+    {
+      "chapter": "ch_060",
+      "chapter_num": 60,
+      "event": "Đại Kết Cục: Tùy Ứng chính thức dọn đồ sang căn hộ cao cấp của Phó Dận An; căn phòng tràn ngập mùi pheromone linh sam tuyết và tuyết tùng hòa quyện ấm áp; khép lại trọn vẹn hành trình từ pháo hôi đặc trợ muốn ôm tiền chạy lấy người thành bạn đời định mệnh hạnh phúc bên tổng tài."
+    }
+  ],
+  "current_status": "Project completed (60/60 chapters, 100% QC approved)."
 }
