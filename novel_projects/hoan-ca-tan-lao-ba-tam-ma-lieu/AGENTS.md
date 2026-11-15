@@ -1,7 +1,7 @@
-# AGENT RULES: HOÁN CÁ TÂN LÃO BÀ TẨM MA LIỄU? [TRỌNG SINH] (换个新老婆怎么了？[重生])
+# AGENT RULES: ĐỔI VỢ MỚI THÌ ĐÃ SAO? [TRỌNG SINH] (换个新老婆怎么了？[重生])
 
 ## 1. THÔNG TIN DỰ ÁN & BỐI CẢNH
-- **Tên truyện:** Hoán Cá Tân Lão Bà Tẩm Ma Liễu? [Trọng Sinh] (换个新老婆怎么了？[重生])
+- **Tên truyện:** Đổi Vợ Mới Thì Đã Sao? [Trọng Sinh] (换个新老婆怎么了？[重生]).
 - **Tác giả:** Mộ Vũ Vũ (暮雨雨)
 - **Slug dự án:** `hoan-ca-tan-lao-ba-tam-ma-lieu`
 - **Thể loại:** Đam mỹ, Chủ công, Trọng sinh, Vườn trường, Hiện đại, Đổi thụ, Điềm sủng, 1v1, HE

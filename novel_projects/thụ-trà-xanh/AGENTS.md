@@ -1,7 +1,7 @@
-# AGENT RULES: THỤ TRÀ XANH (绿茶受)
+# AGENT RULES: THỤ TRÀ XANH PHÂN HÓA THÀNH ALPHA ĐỈNH CẤP (绿茶受)
 
 ## 1. THÔNG TIN DỰ ÁN & BỐI CẢNH
-- **Tên truyện:** Thụ trà xanh (slug: `thụ-trà-xanh`).
+- **Tên truyện:** Thụ Trà Xanh Phân Hóa Thành Alpha Đỉnh Cấp (slug: `thụ-trà-xanh`).
 - **Thể loại:** Đam mỹ Trung Quốc, hào môn thế gia, ABO (Alpha - Beta - Omega) tinh tế / hiện đại, xuyên sách.
 - **Phong cách dịch:** Mượt mà, thuần Việt kết hợp từ ngữ đam mỹ hiện đại, giàu cảm xúc, không dịch máy (MTL) thô ráp.
 

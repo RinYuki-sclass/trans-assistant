@@ -1,9 +1,17 @@
 {
+  "chapter_id": "ch_073",
   "chapter": 73,
-  "title": "Chương 73: 桌角",
-  "raw_title": "第七十三章 桌角",
-  "source_word_count": 5550,
-  "paragraphs_count": 215,
-  "status": "pending",
-  "has_translation": false
+  "title": "Chương 73: Góc bàn",
+  "title_vi": "Chương 73: Góc bàn",
+  "raw_title": "第 73 章 桌角",
+  "source_word_count": 5561,
+  "translation_word_count": 4894,
+  "paragraph_count": 216,
+  "paragraphs_count": 216,
+  "status": "completed",
+  "has_translation": true,
+  "qc_approved": true,
+  "qc_passed": true,
+  "qc_score": 100,
+  "updated_at": "2026-11-15"
 }

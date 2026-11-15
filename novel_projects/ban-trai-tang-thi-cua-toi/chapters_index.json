@@ -1,0 +1,324 @@
+{
+  "ch_001": {
+    "chapter_number": 1,
+    "title": "一见钟情",
+    "status": "completed",
+    "has_source": true,
+    "has_translation": true
+  },
+  "ch_002": {
+    "chapter_number": 2,
+    "title": "再见倾心",
+    "status": "completed",
+    "has_source": true,
+    "has_translation": true
+  },
+  "ch_003": {
+    "chapter_number": 3,
+    "title": "小心翼翼",
+    "status": "completed",
+    "has_source": true,
+    "has_translation": true
+  },
+  "ch_004": {
+    "chapter_number": 4,
+    "title": "打包扛走",
+    "status": "completed",
+    "has_source": true,
+    "has_translation": true
+  },
+  "ch_005": {
+    "chapter_number": 5,
+    "title": "投怀送抱",
+    "status": "completed",
+    "has_source": true,
+    "has_translation": true
+  },
+  "ch_006": {
+    "chapter_number": 6,
+    "title": "表白表白",
+    "status": "completed",
+    "has_source": true,
+    "has_translation": true
+  },
+  "ch_007": {
+    "chapter_number": 7,
+    "title": "大起大落",
+    "status": "completed",
+    "has_source": true,
+    "has_translation": true
+  },
+  "ch_008": {
+    "chapter_number": 8,
+    "title": "漫长时光",
+    "status": "completed",
+    "has_source": true,
+    "has_translation": true
+  },
+  "ch_009": {
+    "chapter_number": 9,
+    "title": "互相在乎",
+    "status": "completed",
+    "has_source": true,
+    "has_translation": true
+  },
+  "ch_010": {
+    "chapter_number": 10,
+    "title": "决定离开",
+    "status": "completed",
+    "has_source": true,
+    "has_translation": true
+  },
+  "ch_011": {
+    "chapter_number": 11,
+    "title": "掉牙风波",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_012": {
+    "chapter_number": 12,
+    "title": "送上门的",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_013": {
+    "chapter_number": 13,
+    "title": "清汤寡水",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_014": {
+    "chapter_number": 14,
+    "title": "谋杀亲夫",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_015": {
+    "chapter_number": 15,
+    "title": "秦唯故人",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_016": {
+    "chapter_number": 16,
+    "title": "煽风点火",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_017": {
+    "chapter_number": 17,
+    "title": "过往记忆",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_018": {
+    "chapter_number": 18,
+    "title": "归来重逢[VIP]",
+    "status": "pending_source",
+    "has_source": false,
+    "has_translation": false
+  },
+  "ch_019": {
+    "chapter_number": 19,
+    "title": "新的开始[VIP]",
+    "status": "pending_source",
+    "has_source": false,
+    "has_translation": false
+  },
+  "ch_020": {
+    "chapter_number": 20,
+    "title": "大秀恩爱[VIP]",
+    "status": "pending_source",
+    "has_source": false,
+    "has_translation": false
+  },
+  "ch_021": {
+    "chapter_number": 21,
+    "title": "碧水蓝天[VIP]",
+    "status": "pending_source",
+    "has_source": false,
+    "has_translation": false
+  },
+  "ch_022": {
+    "chapter_number": 22,
+    "title": "前往南极[VIP]",
+    "status": "pending_source",
+    "has_source": false,
+    "has_translation": false
+  },
+  "ch_023": {
+    "chapter_number": 23,
+    "title": "久别重逢[VIP]",
+    "status": "pending_source",
+    "has_source": false,
+    "has_translation": false
+  },
+  "ch_024": {
+    "chapter_number": 24,
+    "title": "双狼与兔[VIP]",
+    "status": "pending_source",
+    "has_source": false,
+    "has_translation": false
+  },
+  "ch_025": {
+    "chapter_number": 25,
+    "title": "他不是人[VIP]",
+    "status": "pending_source",
+    "has_source": false,
+    "has_translation": false
+  },
+  "ch_026": {
+    "chapter_number": 26,
+    "title": "双攻会谈[VIP]",
+    "status": "pending_source",
+    "has_source": false,
+    "has_translation": false
+  },
+  "ch_027": {
+    "chapter_number": 27,
+    "title": "修罗之场[VIP]",
+    "status": "pending_source",
+    "has_source": false,
+    "has_translation": false
+  },
+  "ch_028": {
+    "chapter_number": 28,
+    "title": "逃离南极[VIP]",
+    "status": "pending_source",
+    "has_source": false,
+    "has_translation": false
+  },
+  "ch_029": {
+    "chapter_number": 29,
+    "title": "言默失踪[VIP]",
+    "status": "pending_source",
+    "has_source": false,
+    "has_translation": false
+  },
+  "ch_030": {
+    "chapter_number": 30,
+    "title": "脱离轨迹[VIP]",
+    "status": "pending_source",
+    "has_source": false,
+    "has_translation": false
+  },
+  "ch_031": {
+    "chapter_number": 31,
+    "title": "快叫爸爸[VIP]",
+    "status": "pending_source",
+    "has_source": false,
+    "has_translation": false
+  },
+  "ch_032": {
+    "chapter_number": 32,
+    "title": "医生番外[VIP]",
+    "status": "pending_source",
+    "has_source": false,
+    "has_translation": false
+  },
+  "ch_033": {
+    "chapter_number": 33,
+    "title": "忠犬大黑[VIP]",
+    "status": "pending_source",
+    "has_source": false,
+    "has_translation": false
+  },
+  "ch_034": {
+    "chapter_number": 34,
+    "title": "鲜红花朵[VIP]",
+    "status": "pending_source",
+    "has_source": false,
+    "has_translation": false
+  },
+  "ch_035": {
+    "chapter_number": 35,
+    "title": "黑白双子[VIP]",
+    "status": "pending_source",
+    "has_source": false,
+    "has_translation": false
+  },
+  "ch_036": {
+    "chapter_number": 36,
+    "title": "丧尸藤蔓[VIP]",
+    "status": "pending_source",
+    "has_source": false,
+    "has_translation": false
+  },
+  "ch_037": {
+    "chapter_number": 37,
+    "title": "拔根手术[VIP]",
+    "status": "pending_source",
+    "has_source": false,
+    "has_translation": false
+  },
+  "ch_038": {
+    "chapter_number": 38,
+    "title": "我爱你呀[VIP]",
+    "status": "pending_source",
+    "has_source": false,
+    "has_translation": false
+  },
+  "ch_039": {
+    "chapter_number": 39,
+    "title": "不欠人情[VIP]",
+    "status": "pending_source",
+    "has_source": false,
+    "has_translation": false
+  },
+  "ch_040": {
+    "chapter_number": 40,
+    "title": "平安归来[VIP]",
+    "status": "pending_source",
+    "has_source": false,
+    "has_translation": false
+  },
+  "ch_041": {
+    "chapter_number": 41,
+    "title": "正文完结[VIP]",
+    "status": "pending_source",
+    "has_source": false,
+    "has_translation": false
+  },
+  "ch_042": {
+    "chapter_number": 42,
+    "title": "番外：十三年前（上）[VIP]",
+    "status": "pending_source",
+    "has_source": false,
+    "has_translation": false
+  },
+  "ch_043": {
+    "chapter_number": 43,
+    "title": "番外：十三年前（中）[VIP]",
+    "status": "pending_source",
+    "has_source": false,
+    "has_translation": false
+  },
+  "ch_044": {
+    "chapter_number": 44,
+    "title": "番外：十三年前（下）[VIP]",
+    "status": "pending_source",
+    "has_source": false,
+    "has_translation": false
+  },
+  "ch_045": {
+    "chapter_number": 45,
+    "title": "番外：幼儿园[VIP]",
+    "status": "pending_source",
+    "has_source": false,
+    "has_translation": false
+  },
+  "ch_046": {
+    "chapter_number": 46,
+    "title": "番外：梦境[VIP]",
+    "status": "pending_source",
+    "has_source": false,
+    "has_translation": false
+  }
+}

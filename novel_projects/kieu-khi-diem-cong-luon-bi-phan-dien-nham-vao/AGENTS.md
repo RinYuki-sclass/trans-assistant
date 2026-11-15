@@ -1,7 +1,7 @@
-# AGENT RULES: KIỀU KHÍ ĐIỀM CÔNG LUÔN BỊ PHẢN DIỆN NHẮM VÀO [KHOÁI XUYÊN] (《娇气甜攻总被反派盯上[快穿]》)
+# AGENT RULES: CHÀNG CÔNG KIÊU KỲ NGỌT NGÀO LUÔN BỊ PHẢN DIỆN NHẮM ĐẾN [XUYÊN NHANH] (《娇气甜攻总被反派盯上[快穿]》)
 
 ## 1. THÔNG TIN DỰ ÁN & BỐI CẢNH
-- **Tên truyện:** Kiều Khí Điềm Công Luôn Bị Phản Diện Nhắm Vào [Khoái Xuyên]
+- **Tên truyện:** Chàng Công Kiêu Kỳ Ngọt Ngào Luôn Bị Phản Diện Nhắm Đến [Xuyên Nhanh].
 - **Tên gốc (Tiếng Trung):** 《娇气甜攻总被反派盯上[快穿]》
 - **Tên tiếng Anh (NovelUpdates):** *Delicate Sweet Attack Always Targeted by the Villain [Quick Wear]*
 - **Tác giả:** Điềm Đáo Manh Nha (甜到萌芽) *(trên một số trang mạng có tên "Nguyên Lai Thị Lạc Lạc")*

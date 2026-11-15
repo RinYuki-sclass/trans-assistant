@@ -1,7 +1,7 @@
-# AGENT RULES: TRA NAM NÀY KHÔNG ĐÁNG ĐƯỢC TẨY TRẮNG (《渣男不配洗白[快穿]》)
+# AGENT RULES: TRA NAM NÀY KHÔNG ĐÁNG ĐƯỢC TẨY TRẮNG [XUYÊN NHANH] (《渣男不配洗白[快穿]》)
 
 ## 1. THÔNG TIN DỰ ÁN & BỐI CẢNH
-- **Tên truyện:** Tra Nam Này Không Đáng Được Tẩy Trắng [Khoái Xuyên] (《渣男不配洗白[快穿]》 / 《这个渣男不配被洗白》).
+- **Tên truyện:** Tra Nam Này Không Đáng Được Tẩy Trắng [Xuyên Nhanh] (《渣男不配洗白[快穿]》 / 《这个渣男不配被洗白》).
 - **Tên tiếng Anh:** This Scum Is Not Worthy Of White Washing.
 - **Tác giả:** 流光闪腰 (Lưu Quang Thiểm Yêu).
 - **Slug dự án:** `tra-nam-này-không-đáng-được-tẩy-trắng`.

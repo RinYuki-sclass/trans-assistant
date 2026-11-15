@@ -1,7 +1,7 @@
-# AGENT RULES: KHI ĐẠI LÃO PHẢN DIỆN SẮM VAI NHÂN VẬT CHÍNH [KHOÁI XUYÊN] (当反派大佬扮演主角后)
+# AGENT RULES: KHI TRÙM PHẢN DIỆN VÀO VAI NHÂN VẬT CHÍNH [XUYÊN NHANH] (当反派大佬扮演主角后)
 
 ## 1. THÔNG TIN DỰ ÁN & BỐI CẢNH
-- **Tên truyện:** Khi Đại Lão Phản Diện Sắm Vai Nhân Vật Chính [Khoái Xuyên] (当反派大佬扮演主角后(快穿) / 當反派大佬扮演主角後(快穿)).
+- **Tên truyện:** Khi Trùm Phản Diện Vào Vai Nhân Vật Chính [Xuyên Nhanh] (当反派大佬扮演主角后(快穿).
 - **Tác giả:** 眠柒 (Miên Thất).
 - **Slug dự án:** `khi-đại-lão-phản-diện-sắm-vai-nhân-vật-chính-kho`.
 - **Thể loại:** Đam mỹ, Xuyên nhanh (Khoái xuyên), Trùng tộc, Hào môn, Giới giải trí, Sảng văn, Cường cường.

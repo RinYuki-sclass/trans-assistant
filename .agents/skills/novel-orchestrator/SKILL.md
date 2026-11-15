@@ -79,7 +79,9 @@ Khi người dùng yêu cầu chạy batch nhanh hoặc yêu cầu chạy subage
 2. **Universal Zero Google API Key Mandate:**
    - 100% dịch thuật và xử lý do Agent và Subagent tự thân thực hiện in-context.
    - Cấm chạy bất kỳ script Python nào gọi API qua `GEMINI_API_KEY` hoặc `GOOGLE_API_KEY`.
-3. **Circuit Breaker duy nhất:**
+3. **Pure Vietnamese Novel Titling Mandate (Đổi tên thuần Việt khi thêm mới dự án):**
+   - Khi khởi tạo hoặc tiếp nhận một bộ tiểu thuyết mới vào `novel_projects/`, Orchestrator bắt buộc chuyển đổi tên truyện sang tiếng Việt thuần thục, tự nhiên, hấp dẫn theo [.agents/rules/novel_naming_conventions.md](file:///d:/Nhung/trans-tool/.agents/rules/novel_naming_conventions.md). Tuyệt đối cấm để nguyên tên convert Hán Việt thô, pinyin hoặc ngữ pháp Trung Quốc.
+4. **Circuit Breaker duy nhất:**
    - Chỉ dừng khi: File raw rỗng/thiếu; Lệch đoạn nghiêm trọng `abs(len(src) - len(trans)) > 3`; hoặc Xung đột tên nhân vật chí mạng không thể phân giải.
 
 ---

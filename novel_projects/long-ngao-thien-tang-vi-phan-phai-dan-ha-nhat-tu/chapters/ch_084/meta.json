@@ -1,9 +1,13 @@
 {
   "chapter": 84,
-  "title": "Chương 84: 同心共意",
-  "raw_title": "第八十四章 同心共意",
-  "source_word_count": 2275,
-  "paragraphs_count": 93,
-  "status": "pending",
-  "has_translation": false
+  "chapter_id": "ch_084",
+  "title": "Chương 84: Đồng tâm cộng ý",
+  "title_vi": "Chương 84: Đồng tâm cộng ý",
+  "raw_title": "第 84 章 同心共意",
+  "source_word_count": 2268,
+  "paragraph_count": 94,
+  "paragraphs_count": 94,
+  "status": "completed",
+  "has_translation": true,
+  "qc_passed": true
 }

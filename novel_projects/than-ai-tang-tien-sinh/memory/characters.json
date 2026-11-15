@@ -1,0 +1,32 @@
+{
+  "characters": [
+    {
+      "id": "char_tan_tram",
+      "name": "Tần Trạm",
+      "original_name": "秦湛",
+      "role": "Công chính (Tang thi vương, niên hạ trung khuyển)",
+      "aliases": [
+        "Tiểu Trạm",
+        "Tang tiên sinh"
+      ],
+      "gender": "Nam",
+      "status": "Nhiễm thể cao cấp / Tang thi vương",
+      "first_appearance": "Chương 1",
+      "description": "Nhiễm thể cao cấp có ý thức, yêu thầm Phàm Độ đến tận lúc chết ở kiếp trước, kiếp này được Phàm Độ nhận nuôi và hết mực trung thành bảo vệ cậu."
+    },
+    {
+      "id": "char_pham_do",
+      "name": "Phàm Độ",
+      "original_name": "凡度",
+      "role": "Thụ chính (Cường thụ trùng sinh, thủ lĩnh căn cứ)",
+      "aliases": [
+        "Độ ca",
+        "Thủ lĩnh Phàm"
+      ],
+      "gender": "Nam",
+      "status": "Nhân loại trùng sinh / Thủ lĩnh liên minh sinh tồn",
+      "first_appearance": "Chương 1",
+      "description": "Nhân loại trọng sinh, thâm trầm phúc hắc, bản lĩnh cao cường, chủ động thuần dưỡng Tần Trạm và xây dựng căn cứ mạt thế thịnh vượng."
+    }
+  ]
+}

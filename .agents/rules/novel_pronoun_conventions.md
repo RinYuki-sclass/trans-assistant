@@ -133,3 +133,9 @@ Tùy thuộc vào thiết lập Thụ là **Cường Thụ (ngang tàng/lạnh l
    - *Ví dụ đúng:* `“Tao cảnh cáo mày, tránh xa Thẩm ca ra!”`
    - *Ví dụ sai:* `“Tao tha cho ngươi lần này...”` ➔ **SAI** (lẫn lộn cổ trang/hiện đại).
    - *Ví dụ đúng:* `“Tao tha cho mày lần này...”`
+
+7. **Nguyên tắc "Đơn Tôn - Đơn Nghĩa" Xưng Hô Đối Thoại (Deterministic Single-Option Pronoun Rule):**
+   - **Tuyệt đối cấm quy ước đại từ tự xưng ở dạng đa lựa chọn tùy nghi** (như `tôi / em`, `tôi / ta`, `anh / ta`) trong cùng một giai đoạn hay phân cảnh quan hệ.
+   - Mỗi giai đoạn cốt truyện / quan hệ bắt buộc **chốt cứng duy nhất 1 đại từ tự xưng** cho từng nhân vật (ví dụ: giai đoạn đầu mới quen chỉ xưng `tôi`; giai đoạn yêu đương chỉ xưng `em`).
+   - **Ngăn chặn triệt để hiện tượng Nhảy Đại Từ Tự Xưng (Self-Pronoun Flipping):** Cảnh trước vừa xưng `em`, cảnh sau lại quay về xưng `tôi` với cùng một người nghe, hoặc câu trước xưng `tôi`, câu sau tự xưng `em`.
+   - Khi thiết lập quy tắc trong `AGENTS.md`, `RULES.md` hoặc `memory/relationships.json` cho bất kỳ novel project nào, bắt buộc phải phân định mốc chương/sự kiện chuyển đổi rõ ràng. Trong phạm vi của giai đoạn đó, Agent chỉ được sử dụng đúng đại từ duy nhất đã quy ước.

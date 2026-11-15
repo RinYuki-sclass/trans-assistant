@@ -1,7 +1,7 @@
-# AGENT RULES: CÔNG RỒI VAI CHÍNH CÔNG PHONG PHÊ! [KHOÁI XUYÊN] (《攻了疯批主角攻！[快穿]》)
+# AGENT RULES: ĐÈ LUÔN NAM CHÍNH CÔNG ĐIÊN CUỒNG! [XUYÊN NHANH] (《攻了疯批主角攻！[快穿]》)
 
 ## 1. THÔNG TIN DỰ ÁN & BỐI CẢNH
-- **Tên truyện:** Công Rồi Vai Chính Công Phong Phê! [Khoái Xuyên] (《攻了疯批主角攻！[快穿]》).
+- **Tên truyện:** Đè Luôn Nam Chính Công Điên Cuồng! [Xuyên Nhanh] (《攻了疯批主角攻！[快穿]》).
 - **Tác giả:** Mộc Cẩn Chi (沐瑾枝).
 - **Slug dự án:** `công-rồi-vai-chính-công-phong-phê`.
 - **Nền tảng gốc:** Tấn Giang (JJWXC).

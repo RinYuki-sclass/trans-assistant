@@ -1,9 +1,16 @@
 {
   "chapter": 69,
-  "title": "Chương 69: 锁阳功",
+  "chapter_id": "ch_069",
+  "title": "Chương 69: Tỏa Dương Công",
+  "title_vi": "Chương 69: Tỏa Dương Công",
   "raw_title": "第六十九章 锁阳功",
   "source_word_count": 3040,
+  "translation_word_count": 2690,
   "paragraphs_count": 123,
-  "status": "pending",
-  "has_translation": false
+  "status": "completed",
+  "has_translation": true,
+  "qc_passed": true,
+  "qc_approved": true,
+  "qc_score": 100,
+  "updated_at": "2026-11-15"
 }

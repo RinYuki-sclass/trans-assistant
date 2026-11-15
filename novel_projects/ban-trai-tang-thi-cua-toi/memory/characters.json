@@ -1,0 +1,36 @@
+{
+  "characters": [
+    {
+      "id": "char_tan_duy",
+      "name": "Tần Duy",
+      "original_name": "秦唯",
+      "role": "Công chính (Tang thi công, niên hạ, em út)",
+      "pronoun_third_person": "cậu / hắn / Tần tang thi",
+      "aliases": [
+        "Tiểu Tần",
+        "Tần tang thi",
+        "Đậu Đậu (tên thuở nhỏ)"
+      ],
+      "gender": "Nam",
+      "status": "Tang thi cấp C -> Vương giả",
+      "first_appearance": "Chương 1",
+      "description": "Niên hạ cún con bám người, nhỏ tuổi hơn Phương Thanh Trúc. Trần thuật ngôi thứ 3 dùng 'cậu'. Yêu Phương ca ngay từ cái nhìn đầu tiên, mở miệng là gọi vợ, thích làm nũng."
+    },
+    {
+      "id": "char_phuong_thanh_truc",
+      "name": "Phương Thanh Trúc",
+      "original_name": "方青竹",
+      "role": "Thụ chính (Nhân loại thụ, niên thượng, Phương ca)",
+      "pronoun_third_person": "anh / hắn",
+      "aliases": [
+        "Phương ca",
+        "Thanh Trúc",
+        "Anh Phương"
+      ],
+      "gender": "Nam",
+      "status": "Nhân loại sống sót / Xạ thủ trụ cột",
+      "first_appearance": "Chương 1",
+      "description": "Niên thượng thanh lãnh, lý trí, lớn tuổi hơn Tần Duy, được cả đội gọi là Phương ca. Trần thuật ngôi thứ 3 dùng 'anh'. Bất đắc dĩ bị tang thi nhỏ theo đuổi, sau đó cưng chiều bạn trai nhỏ."
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-# 📖 MỤC LỤC: Khi Đại Lão Phản Diện Sắm Vai Nhân Vật Chính [Mau Xuyên]
+# 📖 MỤC LỤC: Khi Trùm Phản Diện Vào Vai Nhân Vật Chính [Xuyên Nhanh]
 > **Tác giả:** Miên Thất | **Tiến độ:** 103/103 chương (100.0%) | **Cập nhật:** 27/10/2026
 > **Trạng thái:** 🟢 Đã duyệt QC (64) | 🔵 Đã dịch (39) | ⚪ Chưa dịch (0)
 

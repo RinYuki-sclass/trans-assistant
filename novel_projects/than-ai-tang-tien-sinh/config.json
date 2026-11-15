@@ -1,0 +1,28 @@
+{
+  "title": "Thân Ái Tang Tiên Sinh [Mạt Thế]",
+  "chinese_title": "亲爱的丧先生[末世]",
+  "author": "Giáng Nguyệt Tinh (绛月星)",
+  "slug": "than-ai-tang-tien-sinh",
+  "source_lang": "Chinese",
+  "target_lang": "Vietnamese",
+  "genre": [
+    "Đam mỹ",
+    "Trọng sinh",
+    "Mạt thế phế thổ",
+    "Xây dựng căn cứ",
+    "Dị năng",
+    "Cường cường",
+    "Ngọt sủng",
+    "Tang thi vương trung khuyển công x Cường thụ nhân loại",
+    "1v1",
+    "HE"
+  ],
+  "description": "Tiểu thuyết đam mỹ mạt thế trùng sinh 1v1. Kiếp trước Phàm Độ trải qua muôn vàn gian khổ nơi mạt thế, đến khi chết mới biết người đàn ông luôn âm thầm đứng ngoài cửa bảo vệ mình chính là Tần Trạm – người đã sớm biến thành nhiễm thể cao cấp (tang thi vương) và yêu thầm cậu đến chết. Trọng sinh về ngày đầu mạt thế, Phàm Độ mỉm cười mở rộng cửa 'nhận nuôi' con tang thi trung khuyển này, cùng nhau thu gom tài nguyên, xây dựng căn cứ, khai hoang làm giàu và thống trị mạt thế.",
+  "style_guide": "Trọng sinh, mạt thế xây dựng căn cứ, tang thi niên hạ trung khuyển x cường thụ đại lão.\n1. Định dạng \\n\\n giữa các đoạn văn.\n2. Lời thoại ngoặc kép “...”.\n3. Đại từ: Tần Trạm xưng tôi/hắn/anh, Phàm Độ xưng tôi/cậu/y.",
+  "confidence_threshold": 0.8,
+  "chunk_size": 20,
+  "created_at": "2026-11-15T18:30:00",
+  "chapters_count": 111,
+  "is_completed": false,
+  "is_dropped": false
+}

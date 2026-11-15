@@ -1,4 +1,4 @@
-# MỤC LỤC: TÚC CHỦ, NHẬM VỤ MỘT NHƯỢNG NHĨ ĐÀM LUYẾN ÁI
+# MỤC LỤC: Ký Chủ Ơi, Nhiệm Vụ Đâu Có Bảo Cậu Đi Yêu Đương!
 
 - **Tác giả:** Mặc Ngư Bồ Đào (墨鱼葡萄)
 - **Thể loại:** Đam mỹ, Cổ trang Tiên hiệp, Xuyên thư, Hệ thống, Chủ công, Hài hước sa điêu, Quần tượng, Song khiết, 1v1, HE.

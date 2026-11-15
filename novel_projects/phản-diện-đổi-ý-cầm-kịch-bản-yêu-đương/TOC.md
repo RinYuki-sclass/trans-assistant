@@ -1,4 +1,4 @@
-# 📖 MỤC LỤC: Phản Diện Đổi Ý Cầm Kịch Bản Yêu Đương [Khoái Xuyên]
+# 📖 MỤC LỤC: Phản Diện Đổi Ý Cầm Kịch Bản Yêu Đương [Xuyên Nhanh]
 > **Tác giả:** 什司 (Thập Tư) | **Tiến độ:** 88/88 chương (100.0%) | **Cập nhật:** 27/10/2026
 > **Trạng thái:** 🟢 Đã duyệt QC (88) | 🔵 Đã dịch (0) | ⚪ Chưa dịch (0)
 

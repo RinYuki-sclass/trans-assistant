@@ -1,9 +1,17 @@
 {
   "chapter": 82,
-  "title": "Chương 82: 不可忤逆夫君",
-  "raw_title": "第八十二章 不可忤逆夫君",
-  "source_word_count": 3099,
-  "paragraphs_count": 108,
-  "status": "pending",
-  "has_translation": false
+  "chapter_id": "ch_082",
+  "title": "Chương 82: Không Được Làm Trái Lời Phu Quân",
+  "title_vi": "Chương 82: Không Được Làm Trái Lời Phu Quân",
+  "raw_title": "第 82 章 不可忤逆夫君",
+  "source_word_count": 3333,
+  "translation_word_count": 2776,
+  "paragraphs_count": 109,
+  "paragraph_count": 109,
+  "status": "completed",
+  "has_translation": true,
+  "qc_passed": true,
+  "qc_approved": true,
+  "qc_score": 100,
+  "updated_at": "2026-11-15"
 }

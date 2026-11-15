@@ -1,9 +1,12 @@
 {
   "chapter": 78,
-  "title": "Chương 78: 神魂",
-  "raw_title": "第七十八章 神魂",
-  "source_word_count": 3013,
-  "paragraphs_count": 125,
-  "status": "pending",
-  "has_translation": false
+  "chapter_id": "ch_078",
+  "title": "Chương 78: Thần hồn",
+  "title_vi": "Chương 78: Thần hồn",
+  "raw_title": "第 78 章 神魂",
+  "paragraph_count": 126,
+  "paragraphs_count": 126,
+  "status": "completed",
+  "has_translation": true,
+  "qc_passed": true
 }

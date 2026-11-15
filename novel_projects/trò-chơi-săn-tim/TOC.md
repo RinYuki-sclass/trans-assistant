@@ -1,4 +1,4 @@
-# 📖 MỤC LỤC: Trò Chơi Săn Tim [Khoái Xuyên]
+# 📖 MỤC LỤC: Trò Chơi Săn Tim [Xuyên Nhanh]
 > **Tác giả:** 碉堡堡 (Điêu Bảo Bảo / Bunker) | **Tiến độ:** 0/338 chương (0.0%) | **Cập nhật:** 27/10/2026
 > **Trạng thái:** 🟢 Đã duyệt QC (0) | 🔵 Đã dịch (0) | ⚪ Chưa dịch (338)
 

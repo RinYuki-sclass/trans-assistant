@@ -1,4 +1,4 @@
-# 📖 MỤC LỤC: Công Tên Phản Phái Điên Phê Kia [Khoái Xuyên]
+# 📖 MỤC LỤC: Chinh Phục Tên Phản Diện Điên Cuồng Kia [Xuyên Nhanh] (攻了那个疯批反派[快穿])
 > **Tác giả:** Hương Thái Tại Tại (香菜在在) | **Tiến độ:** 117/170 chương (68.8%) | **Cập nhật:** 27/10/2026
 > **Trạng thái:** 🟢 Đã duyệt QC (0) | 🔵 Đã dịch (117) | ⚪ Chưa dịch (53)
 

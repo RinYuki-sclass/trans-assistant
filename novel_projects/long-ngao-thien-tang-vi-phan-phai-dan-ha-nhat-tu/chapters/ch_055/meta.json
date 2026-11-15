@@ -1,9 +1,13 @@
 {
   "chapter": 55,
-  "title": "Chương 55: 生辰日",
+  "title": "Chương 55: Ngày sinh thần",
   "raw_title": "第五十五章 生辰日",
   "source_word_count": 6105,
-  "paragraphs_count": 261,
-  "status": "pending",
-  "has_translation": false
+  "translation_word_count": 5589,
+  "paragraphs_count": 262,
+  "status": "completed",
+  "has_translation": true,
+  "qc_approved": true,
+  "qc_score": 100,
+  "updated_at": "2026-11-15"
 }

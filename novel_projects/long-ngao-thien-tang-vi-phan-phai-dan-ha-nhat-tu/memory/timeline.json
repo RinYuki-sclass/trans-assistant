@@ -1,41 +1,37 @@
 {
   "project": "long-ngao-thien-tang-vi-phan-phai-dan-ha-nhat-tu",
-  "timeline_events": [
+  "status": "completed",
+  "total_chapters": 84,
+  "arcs": [
     {
-      "chapter": "1-10",
-      "event": "Sở Chiêu thức tỉnh ký ức Ma Tôn sau khi ăn tàn hồn đoạt xá. Thẩm Kiến Vân thức tỉnh ký ức Kiếm Tôn rồi thẹn thùng bỏ trốn. Sở Chiêu bế Cưu Cưu lên đường tìm vợ, trấn áp dị thú ở Vấn Tiên trấn và đối đầu đệ tử tiên môn."
+      "arc": "Hồi 1: Tỉnh Lại Sau Giấc Mộng & Vấn Tiên Trấn",
+      "chapters": "1-10",
+      "summary": "Sở Chiêu thôn phệ tàn hồn đoạt xá, thức tỉnh ký ức Ma Tôn. Thẩm Kiến Vân sinh ra trứng phượng hoàng vàng rồi hổ thẹn bỏ trốn. Sở Chiêu ấp nở Cưu Cưu, bế con lên đường gia nhập Hành Vân Tông tìm vợ."
     },
     {
-      "chapter": "11-15",
-      "event": "Sở Chiêu hội ngộ Thẩm Kiến Vân. Dấu cắn và hồi ức thành thân 10 năm trước khiến Kiếm Tôn bối rối giằng xé. Hai người trải qua những phen hiểu lầm, trêu chọc và song tu để ổn định linh lực."
+      "arc": "Hồi 2: Hành Vân Tông & Nút Thắt Tâm Ma",
+      "chapters": "11-25",
+      "summary": "Sở Chiêu làm tạp dịch tiếp cận Kiếm Tôn, dùng dấu cắn và tình yêu phàm trần làm mềm lòng y. Cùng nhau vượt qua bí cảnh Huyền Thiên, song tu đả thông kinh mạch và hàn gắn tình cảm."
     },
     {
-      "chapter": "16-20",
-      "event": "Sở Chiêu cùng Thẩm Kiến Vân chăm sóc Cưu Cưu, giải trừ tình độc. Thẩm Kiến Vân xuất hiện các triệu chứng phản ứng kỳ lạ khiến Sở Chiêu nghi ngờ y lại mang thai lần thứ hai."
+      "arc": "Hồi 3: Thập Phương Ma Vực & Âm Mưu Tiên Môn",
+      "chapters": "26-40",
+      "summary": "Rời khỏi Hành Vân Tông, Sở Chiêu đưa Thẩm Kiến Vân về Thập Phương Ma Vực làm chủ mẫu ma giới. Thẩm Kiến Vân mang thai đứa con thứ hai. Vu Linh tặng vảy rồng cho Cưu Cưu. Phát hiện âm mưu thao túng của Thượng giới."
     },
     {
-      "chapter": "21-25",
-      "event": "Quá trình kiểm tra và xác nhận Thẩm Kiến Vân thực sự mang thai đợt hai. Kiếm Tôn vừa xấu hổ vừa bực tức trước sự quan tâm trêu chọc của Ma Tôn, xảy ra tình huống bị bắt quả tang dở khóc dở cười."
+      "arc": "Hồi 4: Bí Mật Luân Hồi, Nhẫn Ảo Cảnh & 36 Kiếp Sinh Tử",
+      "chapters": "41-65",
+      "summary": "Trụy nhập luân hồi, chứng kiến 36 kiếp yêu hận do Thiên Đạo sắp đặt. Thẩm Kiến Vân sinh hạ con gái Viên Viên. Dư chấn khiến y thoái hóa về năm 10 tuổi. Hai người cùng phá vỡ cấm chế tiến lên Cửu Trọng Thiên."
     },
     {
-      "chapter": "26-30",
-      "event": "Hai người đồng hành tại tiên trấn, cùng ăn uống, tương tác như đôi đạo lữ phu thê. Kiếm Tôn dần mềm lòng trước sự chu đáo của Sở Chiêu."
+      "arc": "Hồi 5: Trùng Phùng Thượng Giới & Phong Tình Tẩy Tuyền Cung",
+      "chapters": "66-75",
+      "summary": "Thẩm Kiến Vân lên làm Tiên Đế, Sở Chiêu cải trang làm nam sủng tái ngộ. Những màn giận dỗi đáng yêu (xích Quy Khư, Tỏa Dương Công, cọ góc bàn). Viên Viên nhận cha; cả nhà cùng thâm nhập Hạc Linh Bí Cảnh."
     },
     {
-      "chapter": "31-35",
-      "event": "Bước vào Mặc Thành, Sở Chiêu đeo tạp dề nấu ăn cho vợ con, phát hiện tâm ma văn và đối phó với tàn hồn Quy Khư Chi Lệ cùng thành chủ Linh Trạch."
-    },
-    {
-      "chapter": "36-40",
-      "event": "Đo linh thai, tham gia đại hội tỉ võ tiên môn, thu thập linh dược Nguyệt Lăng. Thẩm Kiến Vân chủ động bảo vệ gia đình, tình cảm hai người ngày càng gắn kết sâu đậm."
-    },
-    {
-      "chapter": "41-45",
-      "event": "Nụ hôn chủ động của Kiếm Tôn, Sở Chiêu mua áo yếm chăm sóc Thẩm Kiến Vân lúc thai kỳ. Hai người cùng tắm suối nước nóng và xác định tâm ý."
-    },
-    {
-      "chapter": "46-50",
-      "event": "Sở Chiêu lén tẩm bổ cho vợ trước mặt người ngoài. Xảy ra biến cố bị hút vào không gian giới chỉ phong bế, Thẩm Kiến Vân thoái hóa linh lực về hình hài thiếu niên mười tuổi trong ảo cảnh ký ức; Sở Chiêu bảo bọc, trừng trị kẻ ức hiếp và cùng y vượt qua cạm bẫy."
+      "arc": "Hồi 6: Khắc Sâu Chân Tướng, Phá Vỡ Thiên Đạo & Đại Kết Cục",
+      "chapters": "76-84",
+      "summary": "Ký ức tiền kiếp vạn năm giữa Thần quân Ly Hành và Hỏa Phượng Sở Chiêu. Hóa giải tâm ma, kích hoạt Giọt Nước Mắt Quy Khư dung hợp hai cõi trần thế, chém đầu Hạ Khanh. Ký kết Đạo Lữ Khế vĩnh cửu: Đồng tâm cộng ý, đầu bạc mãi sánh đôi."
     }
   ]
 }

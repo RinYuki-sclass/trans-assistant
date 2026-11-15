@@ -1,9 +1,13 @@
 {
   "chapter": 56,
-  "title": "Chương 56: 道侣契",
+  "title": "Chương 56: Đạo lữ khế",
   "raw_title": "第五十六章 道侣契",
   "source_word_count": 5097,
-  "paragraphs_count": 216,
-  "status": "pending",
-  "has_translation": false
+  "translation_word_count": 4464,
+  "paragraphs_count": 217,
+  "status": "completed",
+  "has_translation": true,
+  "qc_approved": true,
+  "qc_score": 100,
+  "updated_at": "2026-11-15"
 }

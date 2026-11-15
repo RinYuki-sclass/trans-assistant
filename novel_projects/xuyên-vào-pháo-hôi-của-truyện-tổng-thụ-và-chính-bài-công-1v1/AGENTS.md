@@ -1,4 +1,4 @@
-# AGENT RULES: XUYÊN VÀO PHÁO HÔI CỦA TRUYỆN TỔNG THỤ VÀ CHÍNH BÀI CÔNG 1V1 (穿进总受文的炮灰和正牌攻1v1了)
+# AGENT RULES: XUYÊN THÀNH PHÁO HÔI TRONG TRUYỆN TỔNG THỤ, THÀNH ĐÔI 1V1 CÙNG NAM CHÍNH ĐÍCH THỰC (穿进总受文的炮灰和正牌攻1v1了)
 
 > **Tên tác phẩm:** Xuyên Vào Pháo Hôi Của Truyện Tổng Thụ Và Chính Bài Công 1v1 (穿进总受文的炮灰和正牌攻1v1了 / 穿进修真文的炮灰攻)  
 > **Tác giả:** 哼哼 (Hanh Hanh) / 哼哼爱吃家常菜 (Hanh Hanh Ái Cật Gia Thường Thải)  

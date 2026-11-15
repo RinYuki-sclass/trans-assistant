@@ -1,0 +1,26 @@
+{
+  "project": "mat-the-ky",
+  "characters": [
+    {
+      "name": "Hầu Dĩnh",
+      "chinese_name": "侯颖",
+      "role": "Công",
+      "aliases": [
+        "Hầu ca",
+        "Đại ca",
+        "Tang Thi Vương"
+      ],
+      "description": "Bạch lĩnh cao cấp thời bình, trầm ổn phúc hắc, IQ đỉnh cao, dị năng biến dị đặc thù, sau tiến hóa thành Tang Thi Vương đại BOSS tối thượng."
+    },
+    {
+      "name": "Lý Hiên Viên",
+      "chinese_name": "李轩辕",
+      "role": "Thụ",
+      "aliases": [
+        "Lý đội",
+        "Hiên Viên"
+      ],
+      "description": "Binh bĩ thiết huyết, nguyên là đặc chủng binh, chiến thần vũ lực MAX của chiến đội, tính tình cộc lốc nam tính nhưng cực kỳ sủng công, giao trọn sinh mạng cho Hầu Dĩnh."
+    }
+  ]
+}

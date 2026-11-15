@@ -58,7 +58,7 @@ Thẩm Kiến Vân sốt ruột đến độ cuống cuồng bứt rứt, rõ r�
 
 Sở Chiêu rủ mắt, như cười như không, lạnh nhạt nói: “Cầu xin ta đi.”
 
-“Cầu xin chàng…… cầu xin chàng……”
+“Cầu xin đệ…… cầu xin đệ……”
 
 Thẩm Kiến Vân chẳng thể kìm lòng được nữa, buông bỏ mọi tôn nghiêm mà khẩn cầu. Sở Chiêu bấy giờ mới trở lại, dâng tràn linh tuyền tưới đẫm, ban cho Thẩm Kiến Vân nguồn linh lực dạt dào.
 
@@ -72,7 +72,7 @@ Vốn dĩ nhóc còn định tiếp tục đâm đầu vào cửa, bỗng nhiên
 
 Cưu Cưu cảm nhận được hơi thở quen thuộc, nhưng nhất thời lại không nhớ ra mảnh nguyên thần này là của ai.
 
-Nhóc kêu lên: “Ngươi, ngươi là ai?!”
+Nhóc kêu lên: “Người, người là ai?!”
 
 Khóe môi nguyên thần của Sở Chiêu giật giật, giơ tay toan mang quả trứng ngốc này đi.
 
@@ -94,9 +94,9 @@ Sở Chiêu thấy nhóc không còn thút thít, vừa định nhấc bổng co
 
 “Oa oa!” một tiếng, Cưu Cưu bên cạnh rốt cuộc không kìm được nữa, cất tiếng khóc vang trời lở đất.
 
-Nhóc uốn éo lắc mông sang trái quẹo sang phải: “Ngươi thả ta ra! Ta còn chưa đi cứu phụ thân mà!”
+Nhóc uốn éo lắc mông sang trái quẹo sang phải: “Người thả con ra! Con còn chưa đi cứu tiểu phụ thân mà!”
 
-“Ngươi là đồ nguyên thần xấu xa, ta muốn tìm phụ thân ta!”
+“Người là đồ nguyên thần xấu xa, con muốn tìm tiểu phụ thân con!”
 
 Nguyên thần của Sở Chiêu suýt chút nữa bị tiếng khóc này làm chấn động đến tan rẽ, hắn nhíu mày, nhìn Cưu Cưu khóc đến đứt từng khúc ruột, bèn bực bội “chậc” một tiếng, đầu ngón tay khẽ chuyển động linh lực, xóa đi đoạn ký ức này cho nhóc.
 

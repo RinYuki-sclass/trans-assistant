@@ -1,4 +1,4 @@
-# 📖 MỤC LỤC: Tra Nam Này Không Đáng Được Tẩy Trắng [Khoái Xuyên]
+# 📖 MỤC LỤC: Tra Nam Này Không Đáng Được Tẩy Trắng [Xuyên Nhanh]
 > **Tác giả:** 流光闪腰 (Lưu Quang Thiểm Yêu / Cửu Mộc) | **Tiến độ:** 0/171 chương (0.0%) | **Cập nhật:** 27/10/2026
 > **Trạng thái:** 🟢 Đã duyệt QC (0) | 🔵 Đã dịch (0) | ⚪ Chưa dịch (171)
 

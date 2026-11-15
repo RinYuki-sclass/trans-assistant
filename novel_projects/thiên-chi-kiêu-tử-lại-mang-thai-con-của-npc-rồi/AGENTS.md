@@ -1,4 +1,4 @@
-# AGENT RULES: THIÊN CHI KIÊU TỬ LẠI MANG THAI CON CỦA NPC RỒI (天之骄子又怀了npc的崽[快穿])
+# AGENT RULES: THIÊN CHI KIÊU TỬ LẠI MANG THAI CON CỦA NPC RỒI [XUYÊN NHANH] (天之骄子又怀了npc的崽[快穿])
 
 Tài liệu này xác định các quy chuẩn nhân vật, bối cảnh, ma trận đại từ, văn phong và quy trình dịch thuật áp dụng riêng cho dự án **Thiên Chi Kiêu Tử Lại Mang Thai Con Của NPC Rồi**.
 

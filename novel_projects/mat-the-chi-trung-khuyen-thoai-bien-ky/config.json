@@ -1,0 +1,26 @@
+{
+  "title": "Mạt Thế: Nhật Ký Lột Xác Của Chàng Cún Trung Thành",
+  "chinese_title": "末世之忠犬蜕变记",
+  "author": "Đang cập nhật",
+  "slug": "mat-the-chi-trung-khuyen-thoai-bien-ky",
+  "source_lang": "Chinese",
+  "target_lang": "Vietnamese",
+  "genre": [
+    "Đam mỹ",
+    "Chủ công",
+    "Trọng sinh",
+    "Mạt thế tang thi",
+    "Dị năng",
+    "Cường cường",
+    "Trung khuyển biến dị công x Lãnh khốc căn cứ trưởng thụ",
+    "1v1",
+    "HE"
+  ],
+  "description": "Tiểu thuyết đam mỹ mạt thế chủ công 1v1. Công kiếp trước là dị năng giả bình thường đi theo đội ngũ của thụ, chết vì cứu thụ. Trọng sinh về ngày đầu mạt thế, công thức tỉnh dị năng biến dị đỉnh phong, nhưng vẫn một lòng trung thành làm lá chắn bảo vệ thụ. Thụ là thủ lĩnh căn cứ Long Ngạo Thiên sắt đá, nhận ra sự tận tụy sủng ái của chú cún trung thành nên rung động và chủ động kéo công vào lòng.",
+  "style_guide": "Chủ công, mạt thế dị năng, trung khuyển công x lãnh khốc cường thụ.\n1. Định dạng \\n\\n giữa các đoạn văn.\n2. Lời thoại ngoặc kép “...”.\n3. Đại từ: Công xưng anh/hắn, Thụ xưng cậu/hắn/y.",
+  "confidence_threshold": 0.8,
+  "chunk_size": 20,
+  "created_at": "2026-11-15T16:48:00",
+  "is_completed": false,
+  "is_dropped": false
+}

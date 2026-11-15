@@ -1,7 +1,7 @@
-# AGENT RULES: BẠCH LIÊN HOA KÝ CHỦ KHÔNG MUỐN LÀM BẠCH NGUYỆT QUANG THÌ KHÔNG PHẢI KÝ CHỦ TỐT (不想当白月光的白莲宿主不是好宿主)
+# AGENT RULES: KÝ CHỦ HOA SEN TRẮNG KHÔNG MUỐN LÀM ÁNH TRĂNG SÁNG THÌ KHÔNG PHẢI KÝ CHỦ GIỎI (不想当白月光的白莲宿主不是好宿主)
 
 ## 1. THÔNG TIN DỰ ÁN & BỐI CẢNH
-- **Tên truyện:** Bạch Liên Hoa Ký Chủ Không Muốn Làm Bạch Nguyệt Quang Thì Không Phải Ký Chủ Tốt (不想当白月光的白莲宿主不是好宿主 / 不想当白月光的白莲花不是好宿主).
+- **Tên truyện:** Ký Chủ Hoa Sen Trắng Không Muốn Làm Ánh Trăng Sáng Thì Không Phải Ký Chủ Giỏi (不想当白月光的白莲宿主不是好宿主 / 不想当白月光的白莲花不是好宿主).
 - **Tên tiếng Anh:** A White Lotus Host Who Does Not Want To Be a White Moonlight is Not a Good Host.
 - **Tác giả:** 慕韶七 (Mộ Thiều Thất / Vị Tri).
 - **Slug dự án:** `bạch-liên-hoa-ký-chủ-không-muốn-làm-bạch-nguyệt-quang`.

@@ -1,0 +1,27 @@
+{
+  "title": "Bạn Trai Tang Thi Của Tôi",
+  "chinese_title": "我的丧尸男友",
+  "author": "Ngã Ký Minh Nguyệt (我寄明月)",
+  "slug": "ban-trai-tang-thi-cua-toi",
+  "source_lang": "Chinese",
+  "target_lang": "Vietnamese",
+  "genre": [
+    "Đam mỹ",
+    "Chủ công",
+    "Niên hạ",
+    "Mạt thế tang thi",
+    "Hài hước ngọt ngào",
+    "Dị năng",
+    "Tang thi cún con công x Nhân loại học trưởng thụ",
+    "1v1",
+    "HE"
+  ],
+  "description": "Tiểu thuyết đam mỹ mạt thế chủ công 1v1. Phương Thanh Trúc là đại biểu nhân loại cần cù nỗ lực sinh tồn trong ngày tận thế. Không ngờ cậu lại liên tục đụng độ cùng một con tang thi 'y phục tề chỉnh, mặt người dạ thú' theo đuổi cuồng nhiệt. Tần Duy tuy biến thành tang thi nhưng vẫn giữ chấp niệm một lòng một dạ theo đuổi học trưởng, bám dính như cún con, nãi hung nãi manh, đối ngoại tàn khốc đối nội ngoan ngoãn nghe lời.",
+  "style_guide": "Chủ công, mạt thế hài hước ngọt ngào, cún con tang thi x học trưởng nhân loại.\n1. Định dạng \\n\\n giữa các đoạn văn.\n2. Lời thoại ngoặc kép “...”.\n3. Đại từ: Tần Duy xưng tôi/anh/em, Phương Thanh Trúc xưng tôi/cậu/anh.",
+  "confidence_threshold": 0.8,
+  "chunk_size": 20,
+  "created_at": "2026-11-15T18:30:00",
+  "chapters_count": 46,
+  "is_completed": false,
+  "is_dropped": false
+}

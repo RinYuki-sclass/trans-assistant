@@ -1,4 +1,4 @@
-# 📖 MỤC LỤC: Pháo Hôi Và Nhân Vật Chính Mới Là Tuyệt Phối [Khoái Xuyên]
+# 📖 MỤC LỤC: Pháo Hôi Và Nhân Vật Chính Mới Là Đôi Trời Sinh [Xuyên Nhanh] (炮灰和主角才是绝配（主攻）)
 > **Tác giả:** Phong Vãn Cuồng Lan (风挽狂澜) | **Tiến độ:** 10/10 chương (100.0%) | **Cập nhật:** 27/10/2026
 > **Trạng thái:** 🟢 Đã duyệt QC (0) | 🔵 Đã dịch (10) | ⚪ Chưa dịch (0)
 

@@ -1,7 +1,7 @@
-# AGENT RULES: CƠ KIẾN VƯƠNG TỌA (基建王座)
+# AGENT RULES: NGAI VÀNG KHAI KHẨN LẬP QUỐC (基建王座)
 
 ## 1. THÔNG TIN DỰ ÁN & BỐI CẢNH
-- **Tên truyện:** Cơ Kiến Vương Tọa (基建王座).
+- **Tên truyện:** Ngai Vàng Khai Khẩn Lập Quốc (基建王座).
 - **Tác giả:** 紫舞玥鸢 (Tử Vũ Nguyệt Uyên).
 - **Slug dự án:** `cơ-kiến-vương-tọa`.
 - **Nền tảng gốc:** Tấn Giang (晋江文学城 - JJWXC: `https://www.jjwxc.net/onebook.php?novelid=3993953`).

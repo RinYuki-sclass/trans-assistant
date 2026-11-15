@@ -1,7 +1,7 @@
-# AGENT RULES: ĐẠI MA ĐẦU NHẬT NHẬT TƯỞNG SÁT NGÃ (大魔头日日想杀我)
+# AGENT RULES: ĐẠI MA ĐẦU NGÀY NÀO CŨNG MUỐN LẤY MẠNG TÔI (大魔头日日想杀我)
 
 ## 1. THÔNG TIN DỰ ÁN & BỐI CẢNH
-- **Tên truyện:** Đại Ma Đầu Nhật Nhật Tưởng Sát Ngã (大魔头日日想杀我 / 大魔頭日日想殺我).
+- **Tên truyện:** Đại Ma Đầu Ngày Nào Cũng Muốn Lấy Mạng Tôi (大魔头日日想杀我 / 大魔頭日日想殺我).
 - **Tên tiếng Anh:** My Dao Companion Wants to Kill Me Every Day.
 - **Tác giả:** 冷山月 (Lãnh Sơn Nguyệt).
 - **Slug dự án:** `đại-ma-đầu-nhật-nhật-tưởng-sát-ngã`.

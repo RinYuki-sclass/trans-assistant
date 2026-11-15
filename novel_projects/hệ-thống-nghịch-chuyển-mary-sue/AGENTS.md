@@ -1,7 +1,7 @@
-# AGENT RULES: HỆ THỐNG NGHỊCH CHUYỂN MARY SUE [KHOÁI XUYÊN] (《玛丽苏扭转系统[快穿]》)
+# AGENT RULES: HỆ THỐNG NGHỊCH CHUYỂN MARY SUE [XUYÊN NHANH] (《玛丽苏扭转系统[快穿]》)
 
 ## 1. THÔNG TIN DỰ ÁN & BỐI CẢNH
-- **Tên truyện:** Hệ Thống Nghịch Chuyển Mary Sue [Khoái Xuyên] (《玛丽苏扭转系统[快穿]》).
+- **Tên truyện:** Hệ Thống Nghịch Chuyển Mary Sue [Xuyên Nhanh] (《玛丽苏扭转系统[快穿]》).
 - **Tên tiếng Anh:** Mary Sue Reversal System.
 - **Tác giả:** 天下天 (Thiên Hạ Thiên).
 - **Slug dự án:** `hệ-thống-nghịch-chuyển-mary-sue`.

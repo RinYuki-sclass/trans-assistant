@@ -1,4 +1,4 @@
-# MỤC LỤC: Phản Phái Trọng Sinh Hậu Hòa Long Ngạo Thiên Nam Chủ HE Liễu (反派重生后和龙傲天男主HE了)
+# MỤC LỤC: Sau Khi Trọng Sinh, Kẻ Phản Diện Thành Đôi Với Nam Chính Long Ngạo Thiên (反派重生后和龙傲天男主HE了)
 
 > Tổng số chương dự kiến: 102 chương.
 

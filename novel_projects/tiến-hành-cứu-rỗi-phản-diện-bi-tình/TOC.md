@@ -1,4 +1,4 @@
-# 📖 MỤC LỤC: Tiến Hành Cứu Rỗi Phản Diện Bi Tình [Khoái Xuyên]
+# 📖 MỤC LỤC: Kế Hoạch Cứu Rỗi Kẻ Phản Diện Bi Thương [Xuyên Nhanh]
 > **Tác giả:** 碉堡堡 (Điêu Bảo Bảo / Bunker) | **Tiến độ:** 34/34 chương (100.0%) | **Cập nhật:** 27/10/2026
 > **Trạng thái:** 🟢 Đã duyệt QC (0) | 🔵 Đã dịch (34) | ⚪ Chưa dịch (0)
 

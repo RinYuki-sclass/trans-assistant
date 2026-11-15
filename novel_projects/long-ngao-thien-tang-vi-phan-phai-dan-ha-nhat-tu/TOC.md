@@ -1,9 +1,9 @@
-# MỤC LỤC: Long Ngạo Thiên Tằng Vi Phản Phái Đản Hạ Nhất Tử (龙傲天曾为反派诞下一子)
+# MỤC LỤC: Long Ngạo Thiên Từng Sinh Con Cho Kẻ Phản Diện (龙傲天曾为反派诞下一子)
 
 - **Tác giả:** Phong Lưu Khách (风流客)
 - **Thể loại:** Đam mỹ, Chủ công, Tiên hiệp, Tu chân, Xuyên thư, Sinh tử văn, Phá kính trùng viên, Hài hước, HE.
 - **Tổng số chương:** 84 chương (Hoàn thành chính văn)
-- **Tiến độ hiện tại:** Đã dịch hoàn tất Chương 1 - Chương 50 (50/84 chương, đạt 59.5%)
+- **Tiến độ hiện tại:** Đã dịch hoàn tất Chương 1 - Chương 65 (65/84 chương, đạt 77.4%)
 
 ---
 
@@ -59,37 +59,37 @@
 - [x] [**Chương 48: Truyền thống** (Raw: 传统)](chapters/ch_048/translation.md) - *Đã dịch & duyệt QC (100/100)*
 - [x] [**Chương 49: Ca ca** (Raw: 哥哥)](chapters/ch_049/translation.md) - *Đã dịch & duyệt QC (100/100)*
 - [x] [**Chương 50: Một vợ một chồng** (Raw: 一夫一妻)](chapters/ch_050/translation.md) - *Đã dịch & duyệt QC (100/100)*
-- [ ] [**Chương 51:** 太禽兽](chapters/ch_051/source.md) (361 đoạn raw)
-- [ ] [**Chương 52:** 神交](chapters/ch_052/source.md) (121 đoạn raw)
-- [ ] [**Chương 53:** 夫妻生活](chapters/ch_053/source.md) (342 đoạn raw)
-- [ ] [**Chương 54:** 谣言](chapters/ch_054/source.md) (221 đoạn raw)
-- [ ] [**Chương 55:** 生辰日](chapters/ch_055/source.md) (261 đoạn raw)
-- [ ] [**Chương 56:** 道侣契](chapters/ch_056/source.md) (216 đoạn raw)
-- [ ] [**Chương 57:** 围脖](chapters/ch_057/source.md) (190 đoạn raw)
-- [ ] [**Chương 58:** 昏君妖妃？](chapters/ch_058/source.md) (145 đoạn raw)
-- [ ] [**Chương 59:** 妻子](chapters/ch_059/source.md) (155 đoạn raw)
-- [ ] [**Chương 60:** 葡萄榨汁](chapters/ch_060/source.md) (138 đoạn raw)
-- [ ] [**Chương 61:** 掉马前夕](chapters/ch_061/source.md) (136 đoạn raw)
-- [ ] [**Chương 62:** 恢复记忆](chapters/ch_062/source.md) (163 đoạn raw)
-- [ ] [**Chương 63:** 死别](chapters/ch_063/source.md) (129 đoạn raw)
-- [ ] [**Chương 64:** 最后一世](chapters/ch_064/source.md) (136 đoạn raw)
-- [ ] [**Chương 65:** 欲](chapters/ch_065/source.md) (144 đoạn raw)
-- [ ] [**Chương 66:** 少主夫人](chapters/ch_066/source.md) (147 đoạn raw)
-- [ ] [**Chương 67:** 重逢](chapters/ch_067/source.md) (165 đoạn raw)
-- [ ] [**Chương 68:** 暖床](chapters/ch_068/source.md) (151 đoạn raw)
-- [ ] [**Chương 69:** 锁阳功](chapters/ch_069/source.md) (123 đoạn raw)
-- [ ] [**Chương 70:** 橙子](chapters/ch_070/source.md) (167 đoạn raw)
-- [ ] [**Chương 71:** 灵液修炼](chapters/ch_071/source.md) (131 đoạn raw)
-- [ ] [**Chương 72:** 最喜欢你](chapters/ch_072/source.md) (147 đoạn raw)
-- [ ] [**Chương 73:** 桌角](chapters/ch_073/source.md) (215 đoạn raw)
-- [ ] [**Chương 74:** 痴迷](chapters/ch_074/source.md) (151 đoạn raw)
-- [ ] [**Chương 75:** 道侣](chapters/ch_075/source.md) (127 đoạn raw)
-- [ ] [**Chương 76:** 脸颊](chapters/ch_076/source.md) (136 đoạn raw)
-- [ ] [**Chương 77:** 离衡](chapters/ch_077/source.md) (117 đoạn raw)
-- [ ] [**Chương 78:** 神魂](chapters/ch_078/source.md) (125 đoạn raw)
-- [ ] [**Chương 79:** 涅槃之火](chapters/ch_079/source.md) (134 đoạn raw)
-- [ ] [**Chương 80:** 归墟之泪](chapters/ch_080/source.md) (150 đoạn raw)
-- [ ] [**Chương 81:** 娇纵](chapters/ch_081/source.md) (146 đoạn raw)
-- [ ] [**Chương 82:** 不可忤逆夫君](chapters/ch_082/source.md) (108 đoạn raw)
-- [ ] [**Chương 83:** 第三子](chapters/ch_083/source.md) (141 đoạn raw)
-- [ ] [**Chương 84:** 同心共意](chapters/ch_084/source.md) (93 đoạn raw)
+- [x] [**Chương 51: Quá cầm thú** (Raw: 太禽兽)](chapters/ch_051/translation.md) - *Đã dịch & duyệt QC (100/100)*
+- [x] [**Chương 52: Thần giao** (Raw: 神交)](chapters/ch_052/translation.md) - *Đã dịch & duyệt QC (100/100)*
+- [x] [**Chương 53: Sinh hoạt phu thê** (Raw: 夫妻生活)](chapters/ch_053/translation.md) - *Đã dịch & duyệt QC (100/100)*
+- [x] [**Chương 54: Lời đồn** (Raw: 谣言)](chapters/ch_054/translation.md) - *Đã dịch & duyệt QC (100/100)*
+- [x] [**Chương 55: Ngày sinh thần** (Raw: 生辰日)](chapters/ch_055/translation.md) - *Đã dịch & duyệt QC (100/100)*
+- [x] [**Chương 56: Đạo lữ khế** (Raw: 道侣契)](chapters/ch_056/translation.md) - *Đã dịch & duyệt QC (100/100)*
+- [x] [**Chương 57: Khăn quàng cổ** (Raw: 围脖)](chapters/ch_057/translation.md) - *Đã dịch & duyệt QC (100/100)*
+- [x] [**Chương 58: Hôn quân yêu phi?** (Raw: 昏君妖妃？)](chapters/ch_058/translation.md) - *Đã dịch & duyệt QC (100/100)*
+- [x] [**Chương 59: Thê tử** (Raw: 妻子)](chapters/ch_059/translation.md) - *Đã dịch & duyệt QC (100/100)*
+- [x] [**Chương 60: Ép nước nho** (Raw: 葡萄榨汁)](chapters/ch_060/translation.md) - *Đã dịch & duyệt QC (100/100)*
+- [x] [**Chương 61: Trước đêm rớt áo choàng** (Raw: 掉马前夕)](chapters/ch_061/translation.md) - *Đã dịch & duyệt QC (100/100)*
+- [x] [**Chương 62: Khôi phục ký ức** (Raw: 恢复记忆)](chapters/ch_062/translation.md) - *Đã dịch & duyệt QC (100/100)*
+- [x] [**Chương 63: Tử biệt** (Raw: 死别)](chapters/ch_063/translation.md) - *Đã dịch & duyệt QC (100/100)*
+- [x] [**Chương 64: Kiếp cuối cùng** (Raw: 最后一世)](chapters/ch_064/translation.md) - *Đã dịch & duyệt QC (100/100)*
+- [x] [**Chương 65: Dục** (Raw: 欲)](chapters/ch_065/translation.md) - *Đã dịch & duyệt QC (100/100)*
+- [x] [**Chương 66: Thiếu chủ phu nhân** (Raw: 少主夫人)](chapters/ch_066/translation.md) - *Đã dịch & duyệt QC (100/100)*
+- [x] [**Chương 67: Trùng Phùng** (Raw: 重逢)](chapters/ch_067/translation.md) - *Đã dịch & duyệt QC (100/100)*
+- [x] [**Chương 68: Làm ấm giường** (Raw: 暖床)](chapters/ch_068/translation.md) - *Đã dịch & duyệt QC (100/100)*
+- [x] [**Chương 69: Tỏa Dương Công** (Raw: 锁阳功)](chapters/ch_069/translation.md) - *Đã dịch & duyệt QC (100/100)*
+- [x] [**Chương 70: Quả cam** (Raw: 橙子)](chapters/ch_070/translation.md) - *Đã dịch & duyệt QC (100/100)*
+- [x] [**Chương 71: Tu Luyện Linh Dịch** (Raw: 灵液修炼)](chapters/ch_071/translation.md) - *Đã dịch & duyệt QC (100/100)*
+- [x] [**Chương 72: Thích ngươi nhất** (Raw: 最喜欢你)](chapters/ch_072/translation.md) - *Đã dịch & duyệt QC (100/100)*
+- [x] [**Chương 73: Góc bàn** (Raw: 桌角)](chapters/ch_073/translation.md) - *Đã dịch & duyệt QC (100/100)*
+- [x] [**Chương 74: Si Mê** (Raw: 痴迷)](chapters/ch_074/translation.md) - *Đã dịch & duyệt QC (100/100)*
+- [x] [**Chương 75: Đạo lữ** (Raw: 道侣)](chapters/ch_075/translation.md) - *Đã dịch & duyệt QC (100/100)*
+- [x] [**Chương 76: Gò má** (Raw: 脸颊)](chapters/ch_076/translation.md) - *Đã dịch & duyệt QC (100/100)*
+- [x] [**Chương 77: Ly Hành** (Raw: 离衡)](chapters/ch_077/translation.md) - *Đã dịch & duyệt QC (100/100)*
+- [x] [**Chương 78: Thần hồn** (Raw: 神魂)](chapters/ch_078/translation.md) - *Đã dịch & duyệt QC (100/100)*
+- [x] [**Chương 79: Lửa Niết Bàn** (Raw: 涅槃之火)](chapters/ch_079/translation.md) - *Đã dịch & duyệt QC (100/100)*
+- [x] [**Chương 80: Giọt Nước Mắt Quy Khư** (Raw: 归墟之泪)](chapters/ch_080/translation.md) - *Đã dịch & duyệt QC (100/100)*
+- [x] [**Chương 81: Nuông Chiều** (Raw: 娇纵)](chapters/ch_081/translation.md) - *Đã dịch & duyệt QC (100/100)*
+- [x] [**Chương 82: Không Được Làm Trái Lời Phu Quân** (Raw: 不可忤逆夫君)](chapters/ch_082/translation.md) - *Đã dịch & duyệt QC (100/100)*
+- [x] [**Chương 83: Đứa Con Thứ Ba** (Raw: 第三子)](chapters/ch_083/translation.md) - *Đã dịch & duyệt QC (100/100)*
+- [x] [**Chương 84: Đồng tâm cộng ý (Đại kết cục)** (Raw: 同心共意)](chapters/ch_084/translation.md) - *Đã dịch & duyệt QC (100/100)*

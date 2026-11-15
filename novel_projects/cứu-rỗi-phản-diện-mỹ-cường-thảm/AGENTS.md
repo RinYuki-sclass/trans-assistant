@@ -1,7 +1,7 @@
-# AGENT RULES: CỨU RỖI PHẢN DIỆN MỸ CƯỜNG THẢM (拯救帅强惨反派[快穿])
+# AGENT RULES: CỨU RỖI PHẢN DIỆN ĐẸP MẠNH BI THẢM [XUYÊN NHANH] (拯救帅强惨反派[快穿])
 
 ## 1. THÔNG TIN DỰ ÁN & BỐI CẢNH
-- **Tên truyện:** Cứu Rỗi Phản Diện Mỹ Cường Thảm [Khoái Xuyên] (拯救帅强惨反派[快穿] / 拯救帥強慘反派[快穿]).
+- **Tên truyện:** Cứu Rỗi Phản Diện Đẹp Mạnh Bi Thảm [Xuyên Nhanh] (拯救帅强惨反派[快穿] / 拯救帥強慘反派[快穿]).
 - **Tên tiếng Anh:** Saving the Handsome, Strong, and Miserable Villain [Quick Transmigration].
 - **Tác giả:** 什司 (Thập Tư).
 - **Slug dự án:** `cứu-rỗi-phản-diện-mỹ-cường-thảm`.

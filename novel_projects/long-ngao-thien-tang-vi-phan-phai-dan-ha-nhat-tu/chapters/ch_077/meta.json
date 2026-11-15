@@ -1,9 +1,13 @@
 {
   "chapter": 77,
-  "title": "Chương 77: 离衡",
-  "raw_title": "第七十七章 离衡",
-  "source_word_count": 3016,
-  "paragraphs_count": 117,
-  "status": "pending",
-  "has_translation": false
+  "chapter_id": "ch_077",
+  "title": "Chương 77: Ly Hành",
+  "title_vi": "Chương 77: Ly Hành",
+  "raw_title": "第 77 章 离衡",
+  "source_word_count": 3027,
+  "paragraph_count": 118,
+  "paragraphs_count": 118,
+  "status": "completed",
+  "has_translation": true,
+  "qc_passed": true
 }

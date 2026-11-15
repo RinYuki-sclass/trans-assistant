@@ -1,7 +1,7 @@
-# AGENT RULES: PHẢN PHÁI NHƯỢNG LONG NGẠO THIÊN HOÀI TỬ HẬU (反派让龙傲天怀崽后)
+# AGENT RULES: SAU KHI KẺ PHẢN DIỆN KHIẾN LONG NGẠO THIÊN MANG THAI (反派让龙傲天怀崽后)
 
 ## 1. THÔNG TIN DỰ ÁN & BỐI CẢNH
-- **Tên truyện:** Phản Phái Nhượng Long Ngạo Thiên Hoài Tử Hậu (反派让龙傲天怀崽后)
+- **Tên truyện:** Sau Khi Kẻ Phản Diện Khiến Long Ngạo Thiên Mang Thai (反派让龙傲天怀崽后).
 - **Tác giả:** Lãnh Sơn Nguyệt (冷山月)
 - **Slug dự án:** `phan-phai-nhuong-long-ngao-thien-hoai-tu-hau`
 - **Thể loại:** Đam mỹ, Chủ công, Cường cường, Sinh tử, Xuyên thư, Phản sáo lộ, Đơn nguyên văn, HE

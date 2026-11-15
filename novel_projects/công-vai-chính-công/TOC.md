@@ -1,4 +1,4 @@
-# 📖 MỤC LỤC: Công vai chính công
+# 📖 MỤC LỤC: Đè Luôn Nam Chính Công
 > **Tác giả:** 冷山月 (Lãnh Sơn Nguyệt) | **Tiến độ:** 45/115 chương (39.1%) | **Cập nhật:** 27/10/2026
 > **Trạng thái:** 🟢 Đã duyệt QC (0) | 🔵 Đã dịch (45) | ⚪ Chưa dịch (70)
 

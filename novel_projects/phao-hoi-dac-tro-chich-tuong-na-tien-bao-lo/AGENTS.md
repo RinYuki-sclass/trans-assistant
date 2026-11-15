@@ -1,4 +1,4 @@
-# AGENT RULES: PHÁO HÔI ĐẶC TRỢ CHÍCH TƯỞNG NÃ TIỀN BÀO LỘ (《炮灰特助只想拿钱跑路》)
+# AGENT RULES: TRỢ LÝ TỐT THÍ CHỈ MUỐN ÔM TIỀN BỎ TRỐN (《炮灰特助只想拿钱跑路》)
 
 Tài liệu này là quy chuẩn tối thượng áp dụng cho toàn bộ quá trình xử lý, phân tích, dịch thuật và biên tập dự án **Pháo Hôi Đặc Trợ Chích Tưởng Nã Tiền Bào Lộ** trong `novel_projects/phao-hoi-dac-tro-chich-tuong-na-tien-bao-lo/`.
 

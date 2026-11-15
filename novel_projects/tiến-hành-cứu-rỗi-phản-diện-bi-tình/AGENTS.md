@@ -1,7 +1,7 @@
-# AGENT RULES: TIẾN HÀNH CỨU RỖI PHẢN DIỆN BI TÌNH [KHOÁI XUYÊN] (《拯救悲情反派进行时！》)
+# AGENT RULES: KẾ HOẠCH CỨU RỖI KẺ PHẢN DIỆN BI THƯƠNG [XUYÊN NHANH] (《拯救悲情反派进行时！》)
 
 ## 1. THÔNG TIN DỰ ÁN & BỐI CẢNH
-- **Tên truyện:** Tiến Hành Cứu Rỗi Phản Diện Bi Tình [Khoái Xuyên]
+- **Tên truyện:** Kế Hoạch Cứu Rỗi Kẻ Phản Diện Bi Thương [Xuyên Nhanh].
 - **Tên gốc chữ Hán:** 《拯救悲情反派进行时！》
 - **Tên tiếng Anh:** The Rescue Of The Tragic Villain Is In Progress
 - **Tác giả:** 碉堡堡 (Điêu Bảo Bảo / Bunker / Chấn Khất)

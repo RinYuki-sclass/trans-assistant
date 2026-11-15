@@ -1,4 +1,4 @@
-# MỤC LỤC: PHÁO HÔI CÔNG DÃ HỘI BỊ CƯỜNG THỦ HÀO ĐOẠT MA
+# MỤC LỤC: Công Pháo Hôi Cũng Bị Cưỡng Ép Chiếm Đoạt Sao?
 
 - **Tác giả:** Mộng Lí Hoàn Hoa Bái (梦里还花呗)
 - **Thể loại:** Đam mỹ, Xuyên thư, Khoái xuyên / Đơn nguyên văn, Chủ công, Cường thủ hào đoạt, Cưỡng chế ái, Điên phê thụ, 1v1, HE.

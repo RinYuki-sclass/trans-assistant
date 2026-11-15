@@ -1,4 +1,4 @@
-# AGENT RULES: XUYÊN THÀNH PHÁO HÔI CÁN ĐIỆU PHẢN PHÁI, BẤT THỊ GIÁ CÁN PHÁP (穿成炮灰干掉反派，不是这干法！)
+# AGENT RULES: XUYÊN THÀNH KẺ LÓT ĐƯỜNG TRỪ KHỬ PHẢN DIỆN, KHÔNG PHẢI LÀM KIỂU NÀY ĐÂU! (穿成炮灰干掉反派，不是这干法！)
 
 > **Tác giả:** Lăng Thần Cản Cảo Linh Cảm Hảo (凌晨赶稿灵感好)  
 > **Thể loại:** Đam mỹ, hiện đại, xuyên thư, hệ thống, chủ công, song cường, cứu rỗi, hào môn thế gia, 1v1 song khiết, HE.  

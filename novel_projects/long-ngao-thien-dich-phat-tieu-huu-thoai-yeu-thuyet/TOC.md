@@ -1,4 +1,4 @@
-# MỤC LỤC: Long Ngạo Thiên Đích Phát Tiểu Hữu Thoại Yếu Thuyết (龙傲天的发小有话要说)
+# MỤC LỤC: Bạn Nối Khố Của Long Ngạo Thiên Có Điều Muốn Nói (龙傲天的发小有话要说)
 
 > Tổng số chương dự kiến: 78 chương.
 

@@ -1,9 +1,13 @@
 {
   "chapter": 62,
-  "title": "Chương 62: 恢复记忆",
+  "title": "Chương 62: Khôi phục ký ức",
   "raw_title": "第六十二章 恢复记忆",
   "source_word_count": 3643,
-  "paragraphs_count": 163,
-  "status": "pending",
-  "has_translation": false
+  "translation_word_count": 3149,
+  "paragraphs_count": 164,
+  "status": "completed",
+  "has_translation": true,
+  "qc_approved": true,
+  "qc_score": 100,
+  "updated_at": "2026-11-15"
 }

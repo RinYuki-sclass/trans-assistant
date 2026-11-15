@@ -1,4 +1,4 @@
-# 📖 MỤC LỤC: Thụ trà xanh phân hóa thành Alpha đỉnh cấp
+# 📖 MỤC LỤC: Thụ Trà Xanh Phân Hóa Thành Alpha Đỉnh Cấp
 > **Tác giả:** Chưa rõ | **Tiến độ:** 71/71 chương (100.0%) | **Cập nhật:** 27/10/2026
 > **Trạng thái:** 🟢 Đã duyệt QC (0) | 🔵 Đã dịch (71) | ⚪ Chưa dịch (0)
 

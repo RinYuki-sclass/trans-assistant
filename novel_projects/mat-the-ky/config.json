@@ -1,0 +1,26 @@
+{
+  "title": "Kỷ Nguyên Mạt Thế",
+  "chinese_title": "末世纪",
+  "author": "Tạ Dịch (谢亦)",
+  "slug": "mat-the-ky",
+  "source_lang": "Chinese",
+  "target_lang": "Vietnamese",
+  "genre": [
+    "Đam mỹ",
+    "Chủ công",
+    "Mạt thế dị năng",
+    "Thăng cấp lưu",
+    "Cường cường",
+    "Tang thi vương công x Binh bĩ thiết huyết quân nhân thụ",
+    "1v1",
+    "HE"
+  ],
+  "description": "Tiểu thuyết mạt thế thăng cấp lưu chủ công 1v1. Hầu Dĩnh thời bình là bạch lĩnh cao cấp, bạn trai lực MAX, tinh thần trách nhiệm và bộ não thông minh kiệt xuất. Mạt thế giáng lâm, anh mất đi ký ức 2 ngày đầu, trên đường truy tìm chân tướng anh gặp gỡ và câu dẫn chàng binh bĩ thiết huyết Lý Hiên Viên. Cả hai cùng lập nên chiến đội mạnh nhất mạt thế, dẫn dắt nhân loại vượt qua vô vàn tử kiếp. Sau đó Hầu Dĩnh mới phát hiện, bản thân mình thế mà lại chính là Tang Thi Vương đại BOSS tối thượng của cả thế giới.",
+  "style_guide": "Chủ công, mạt thế thăng cấp lưu, chiến đội sinh tồn, thiết huyết cường thụ.\n1. Định dạng \\n\\n giữa các đoạn văn.\n2. Lời thoại ngoặc kép “...”.\n3. Đại từ: Hầu Dĩnh xưng anh/hắn, Lý Hiên Viên xưng hắn/cậu.",
+  "confidence_threshold": 0.8,
+  "chunk_size": 20,
+  "created_at": "2026-11-15T17:08:00",
+  "chapters_count": 353,
+  "is_completed": false,
+  "is_dropped": false
+}

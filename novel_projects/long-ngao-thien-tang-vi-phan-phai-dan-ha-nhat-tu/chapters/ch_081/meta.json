@@ -1,9 +1,17 @@
 {
   "chapter": 81,
-  "title": "Chương 81: 娇纵",
-  "raw_title": "第八十一章 娇纵",
-  "source_word_count": 3386,
-  "paragraphs_count": 146,
-  "status": "pending",
-  "has_translation": false
+  "chapter_id": "ch_081",
+  "title": "Chương 81: Nuông Chiều",
+  "title_vi": "Chương 81: Nuông Chiều",
+  "raw_title": "第 81 章 娇纵",
+  "source_word_count": 3692,
+  "translation_word_count": 2967,
+  "paragraphs_count": 147,
+  "paragraph_count": 147,
+  "status": "completed",
+  "has_translation": true,
+  "qc_passed": true,
+  "qc_approved": true,
+  "qc_score": 100,
+  "updated_at": "2026-11-15"
 }

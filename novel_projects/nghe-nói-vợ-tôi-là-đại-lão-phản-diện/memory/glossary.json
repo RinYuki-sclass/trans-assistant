@@ -1,0 +1,62 @@
+[
+  {
+    "term": "暗域",
+    "vietnamese": "Ám Vực",
+    "category": "Địa danh",
+    "notes": "Lãnh thổ nguy hiểm ngoài tầm kiểm soát của Liên Bang, nơi Thẩm Nguyệt Khanh làm Lĩnh Chủ cai trị"
+  },
+  {
+    "term": "污染区",
+    "vietnamese": "khu ô nhiễm",
+    "category": "Địa danh / Bối cảnh",
+    "notes": "Khu vực bị ô nhiễm năng lượng tinh thần và bức xạ nguy hiểm, bao quanh bởi dị thú và dị biến"
+  },
+  {
+    "term": "联邦学院",
+    "vietnamese": "Học viện Liên Bang",
+    "category": "Tổ chức",
+    "notes": "Học viện quân sự hàng đầu của tinh tế, nơi đào tạo nhân tài chiến đấu và chỉ huy"
+  },
+  {
+    "term": "古武星",
+    "vietnamese": "Cổ Võ Tinh",
+    "category": "Địa danh",
+    "notes": "Hành tinh xa xôi bảo tồn truyền thống võ học cổ truyền, quê hương của Cố Kiêu"
+  },
+  {
+    "term": "精神力",
+    "vietnamese": "tinh thần lực",
+    "category": "Thiết lập Tinh tế",
+    "notes": "Năng lượng tinh thần của con người, phân cấp từ F, E, D, C, B, A, S, SS đến SSS"
+  },
+  {
+    "term": "精神力暴乱",
+    "vietnamese": "bạo loạn tinh thần lực",
+    "category": "Thiết lập Tinh tế",
+    "notes": "Tình trạng năng lượng tinh thần mất kiểm soát, gây đau đớn dữ dội và biến bệnh nhân thành cỗ máy giết chóc"
+  },
+  {
+    "term": "疏导",
+    "vietnamese": "sơ đạo",
+    "category": "Y học Tinh tế",
+    "notes": "Biện pháp dùng tinh thần lực tương thích để xoa dịu, giải tỏa bạo loạn tinh thần lực cho bệnh nhân"
+  },
+  {
+    "term": "光脑",
+    "vietnamese": "quang não",
+    "category": "Công nghệ Tinh tế",
+    "notes": "Thiết bị đầu cuối thông minh cá nhân kết nối mạng tinh tế, định vị và truyền tin"
+  },
+  {
+    "term": "星网",
+    "vietnamese": "Tinh Võng",
+    "category": "Công nghệ Tinh tế",
+    "notes": "Mạng thông tin toàn tinh tế"
+  },
+  {
+    "term": "社恐",
+    "vietnamese": "xã khủng (sợ giao tiếp xã hội)",
+    "category": "Tính cách",
+    "notes": "Hội chứng ám ảnh sợ giao tiếp xã hội của Cố Kiêu, sợ bị người khác ghét bỏ"
+  }
+]

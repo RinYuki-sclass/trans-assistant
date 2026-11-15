@@ -1,4 +1,4 @@
-# 📖 MỤC LỤC: Kiều Khí Điềm Công Luôn Bị Phản Diện Nhắm Vào [Khoái Xuyên]
+# 📖 MỤC LỤC: Chàng Công Kiêu Kỳ Ngọt Ngào Luôn Bị Phản Diện Nhắm Đến [Xuyên Nhanh]
 > **Tác giả:** Điềm Đáo Manh Nha (甜到萌芽) | **Tiến độ:** 16/65 chương (24.6%) | **Cập nhật:** 27/10/2026
 > **Trạng thái:** 🟢 Đã duyệt QC (0) | 🔵 Đã dịch (16) | ⚪ Chưa dịch (49)
 

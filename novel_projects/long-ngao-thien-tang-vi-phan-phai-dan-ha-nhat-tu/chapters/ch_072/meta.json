@@ -1,9 +1,17 @@
 {
+  "chapter_id": "ch_072",
   "chapter": 72,
-  "title": "Chương 72: 最喜欢你",
-  "raw_title": "第七十二章 最喜欢你",
-  "source_word_count": 3148,
-  "paragraphs_count": 147,
-  "status": "pending",
-  "has_translation": false
+  "title": "Chương 72: Thích ngươi nhất",
+  "title_vi": "Chương 72: Thích ngươi nhất",
+  "raw_title": "第 72 章 最喜欢你",
+  "source_word_count": 3140,
+  "translation_word_count": 2804,
+  "paragraph_count": 148,
+  "paragraphs_count": 148,
+  "status": "completed",
+  "has_translation": true,
+  "qc_approved": true,
+  "qc_passed": true,
+  "qc_score": 100,
+  "updated_at": "2026-11-15"
 }

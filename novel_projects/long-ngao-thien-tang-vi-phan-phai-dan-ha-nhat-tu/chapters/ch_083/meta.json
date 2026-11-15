@@ -1,9 +1,17 @@
 {
   "chapter": 83,
-  "title": "Chương 83: 第三子",
-  "raw_title": "第八十三章 第三子",
-  "source_word_count": 3346,
-  "paragraphs_count": 141,
-  "status": "pending",
-  "has_translation": false
+  "chapter_id": "ch_083",
+  "title": "Chương 83: Đứa Con Thứ Ba",
+  "title_vi": "Chương 83: Đứa Con Thứ Ba",
+  "raw_title": "第 83 章 第三子",
+  "source_word_count": 3358,
+  "translation_word_count": 3112,
+  "paragraphs_count": 142,
+  "paragraph_count": 142,
+  "status": "completed",
+  "has_translation": true,
+  "qc_passed": true,
+  "qc_approved": true,
+  "qc_score": 100,
+  "updated_at": "2026-11-15"
 }

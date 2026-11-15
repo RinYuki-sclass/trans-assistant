@@ -1,4 +1,4 @@
-# MỤC LỤC: PHÁO HÔI ĐẶC TRỢ CHÍCH TƯỞNG NÃ TIỀN BÀO LỘ (《炮灰特助只想拿钱跑路》)
+# MỤC LỤC: Trợ Lý Tốt Thí Chỉ Muốn Ôm Tiền Bỏ Trốn (《炮灰特助只想拿钱跑路》)
 
 - **Tổng số chương:** 60 (Chính văn hoàn thành)
 - **Tác giả:** Trạch Dược (择药)

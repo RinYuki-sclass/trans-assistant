@@ -96,6 +96,13 @@ Character & Pronoun Drift is the most frequent and critical translation defect. 
   * *Ví dụ vi phạm:* `“Tao cảnh cáo ngươi...”` (trong bối cảnh hiện đại) ➔ **VI PHẠM B7**. Bắt buộc sửa thành: `“Tao cảnh cáo mày...”`.
   * *Ví dụ vi phạm:* `“Tao tha cho anh lần này!”` ➔ **VI PHẠM B7**. Bắt buộc sửa thành: `“Tao tha cho mày lần này!”`.
 
+* **Case B8 — Lỗi Trôi Dạt / Nhảy Đại Từ Tự Xưng Đa Lựa Chọn (Self-Pronoun Flipping & Drift):**
+  * *Quy tắc:* Mỗi giai đoạn quan hệ trong `AGENTS.md` bắt buộc đã chốt duy nhất 1 đại từ tự xưng cho từng nhân vật.
+  * *Lỗi bắt:* Bắt mọi trường hợp:
+    1. Dùng đại từ tự xưng của giai đoạn khác (ví dụ: đang ở giai đoạn 1 chưa yêu mà Cố Kiêu tự xưng `"em"`, hoặc sang giai đoạn 2 yêu đương mà Cố Kiêu lại tự xưng `"tôi"` khi nói chuyện ngọt ngào với Thẩm Nguyệt Khanh).
+    2. Nhảy đại từ tự xưng giữa các cảnh hoặc giữa các câu thoại liên tiếp: Cảnh trước vừa tự xưng `"em"`, cảnh sau quay sang tự xưng `"tôi"` với cùng một người nghe; hoặc câu trước xưng `"tôi"`, câu sau xưng `"em"`.
+  * *Cách sửa:* Buộc sửa về đúng đại từ tự xưng độc tôn đã được định nghĩa trong `AGENTS.md` và `memory/relationships.json` cho giai đoạn đó.
+
 ---
 
 ### 3. NHÓM C: QUY CHUẨN TÊN RIÊNG & DANH XƯNG ĐẶC THÙ

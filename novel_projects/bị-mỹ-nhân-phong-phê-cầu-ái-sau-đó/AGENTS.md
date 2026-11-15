@@ -1,7 +1,7 @@
-# AGENT RULES: BỊ MỸ NHÂN PHONG PHÊ CẦU ÁI SAU ĐÓ (《被疯批美人求爱后》)
+# AGENT RULES: SAU KHI BỊ MỸ NHÂN ĐIÊN CUỒNG TỎ TÌNH (《被疯批美人求爱后》)
 
 ## 1. THÔNG TIN DỰ ÁN & BỐI CẢNH
-- **Tên truyện:** Bị Mỹ Nhân Phong Phê Cầu Ái Sau Đó (《被疯批美人求爱后》).
+- **Tên truyện:** Sau Khi Bị Mỹ Nhân Điên Cuồng Tỏ Tình (《被疯批美人求爱后》).
 - **Tác giả:** Thu Thu Hội Chiu Chiu (秋秋会啾啾).
 - **Slug dự án:** `bị-mỹ-nhân-phong-phê-cầu-ái-sau-đó`.
 - **Nền tảng gốc:** Tấn Giang (JJWXC).

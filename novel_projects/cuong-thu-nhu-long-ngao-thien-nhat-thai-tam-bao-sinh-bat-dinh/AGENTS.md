@@ -1,7 +1,7 @@
-# AGENT RULES: CƯỜNG THỤ NHƯ LONG NGẠO THIÊN, NHẤT THAI TAM BẢO SINH BẤT ĐÌNH (强受如龙傲天，一胎三宝生不停)
+# AGENT RULES: CƯỜNG THỤ NHƯ LONG NGẠO THIÊN, MỘT THAI BA CON SINH KHÔNG NGỪNG (强受如龙傲天，一胎三宝生不停)
 
 ## 1. THÔNG TIN DỰ ÁN & BỐI CẢNH
-- **Tên truyện:** Cường Thụ Như Long Ngạo Thiên, Nhất Thai Tam Bảo Sinh Bất Đình (强受如龙傲天，一胎三宝生不停)
+- **Tên truyện:** Cường Thụ Như Long Ngạo Thiên, Một Thai Ba Con Sinh Không Ngừng (强受如龙傲天，一胎三宝生不停).
 - **Tác giả:** Dương Chi Vị Kim (阳之谓金)
 - **Slug dự án:** `cuong-thu-nhu-long-ngao-thien-nhat-thai-tam-bao-sinh-bat-dinh`
 - **Thể loại:** Đam mỹ, Chủ công, Khoái xuyên, Sinh tử, Vạn nhân mê công, Cường thụ, Sảng văn, HE

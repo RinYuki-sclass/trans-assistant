@@ -1,4 +1,4 @@
-# 📖 MỤC LỤC: Cứu Rỗi Phản Diện Mỹ Cường Thảm [Khoái Xuyên]
+# 📖 MỤC LỤC: Cứu Rỗi Phản Diện Đẹp Mạnh Bi Thảm [Xuyên Nhanh]
 > **Tác giả:** 什司 (Thập Tư) | **Tiến độ:** 124/124 chương (100.0%) | **Cập nhật:** 27/10/2026
 > **Trạng thái:** 🟢 Đã duyệt QC (124) | 🔵 Đã dịch (0) | ⚪ Chưa dịch (0)
 

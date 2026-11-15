@@ -1,7 +1,7 @@
-# AGENT RULES: SỔ TAY TẨY TRẮNG CỦA PHÁO HÔI TRA CÔNG [KHOÁI XUYÊN] (《炮灰渣攻洗白手册》)
+# AGENT RULES: SỔ TAY TẨY TRẮNG CỦA PHÁO HÔI TRA CÔNG [XUYÊN NHANH] (《炮灰渣攻洗白手册》)
 
 ## 1. THÔNG TIN DỰ ÁN & BỐI CẢNH
-- **Tên truyện:** Sổ Tay Tẩy Trắng Của Pháo Hôi Tra Công [Khoái Xuyên] (《炮灰渣攻洗白手册》).
+- **Tên truyện:** Sổ Tay Tẩy Trắng Của Pháo Hôi Tra Công [Xuyên Nhanh] (《炮灰渣攻洗白手册》).
 - **Tên tiếng Anh:** Cannon Fodder Scum Gong’s Whitewashing Manual.
 - **Tác giả:** 期期小风 (Kỳ Kỳ Tiểu Phong / Diệp Tử Khinh).
 - **Slug dự án:** `sổ-tay-tẩy-trắng-của-pháo-hôi-tra-công`.

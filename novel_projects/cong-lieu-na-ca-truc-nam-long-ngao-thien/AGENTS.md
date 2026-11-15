@@ -1,7 +1,7 @@
-# AGENT RULES: CÔNG LIỄU NA CÁ TRỰC NAM LONG NGẠO THIÊN (攻了那个直男龙傲天)
+# AGENT RULES: BẺ CONG TÊN TRAI THẲNG LONG NGẠO THIÊN KIA (攻了那个直男龙傲天)
 
 ## 1. THÔNG TIN DỰ ÁN & BỐI CẢNH
-- **Tên truyện:** Công Liễu Na Cá Trực Nam Long Ngạo Thiên (攻了那个直男龙傲天)
+- **Tên truyện:** Bẻ Cong Tên Trai Thẳng Long Ngạo Thiên Kia (攻了那个直男龙傲天).
 - **Tác giả:** Phong Lưu Khách (风流客)
 - **Slug dự án:** `cong-lieu-na-ca-truc-nam-long-ngao-thien`
 - **Thể loại:** Đam mỹ, Chủ công, Xuyên thư, Tiên hiệp, Tu chân, Cường cường, Trọng sinh, Hài hước, 1v1, HE

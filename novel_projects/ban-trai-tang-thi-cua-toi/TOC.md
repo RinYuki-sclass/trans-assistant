@@ -1,0 +1,48 @@
+# MỤC LỤC: Bạn Trai Tang Thi Của Tôi (我的丧尸男友)
+
+- [Chương 01: Nhất Kiến Chung Tình (一见钟情)](chapters/ch_001/translation.md) - ✅ Đã dịch (1:1 QC Passed)
+- [Chương 02: Tái Kiến Khuynh Tâm (再见倾心)](chapters/ch_002/translation.md) - ✅ Đã dịch (1:1 QC Passed)
+- [Chương 03: Cẩn Thận Dè Dặt (小心翼翼)](chapters/ch_003/translation.md) - ✅ Đã dịch (1:1 QC Passed)
+- [Chương 04: Đóng Gói Vác Đi (打包扛走)](chapters/ch_004/translation.md) - ✅ Đã dịch (1:1 QC Passed)
+- [Chương 05: Tự Ngã Vào Lòng (投怀送抱)](chapters/ch_005/translation.md) - ✅ Đã dịch (1:1 QC Passed)
+- [Chương 06: Tỏ Tình Tỏ Tình (表白表白)](chapters/ch_006/translation.md) - ✅ Đã dịch (1:1 QC Passed)
+- [Chương 07: Thăng Trầm Lên Xuống (大起大落)](chapters/ch_007/translation.md) - ✅ Đã dịch (1:1 QC Passed)
+- [Chương 08: Tháng Ngày Đằng Đẵng (漫长时光)](chapters/ch_008/translation.md) - ✅ Đã dịch (1:1 QC Passed)
+- [Chương 09: Quan Tâm Lẫn Nhau (互相在乎)](chapters/ch_009/translation.md) - ✅ Đã dịch (1:1 QC Passed)
+- [Chương 10: Quyết Định Rời Đi (决定离开)](chapters/ch_010/translation.md) - ✅ Đã dịch (1:1 QC Passed)
+- [Chương 11: 掉牙风波](chapters/ch_011/source.md) - ✅ Đã nạp raw
+- [Chương 12: 送上门的](chapters/ch_012/source.md) - ✅ Đã nạp raw
+- [Chương 13: 清汤寡水](chapters/ch_013/source.md) - ✅ Đã nạp raw
+- [Chương 14: 谋杀亲夫](chapters/ch_014/source.md) - ✅ Đã nạp raw
+- [Chương 15: 秦唯故人](chapters/ch_015/source.md) - ✅ Đã nạp raw
+- [Chương 16: 煽风点火](chapters/ch_016/source.md) - ✅ Đã nạp raw
+- [Chương 17: 过往记忆](chapters/ch_017/source.md) - ✅ Đã nạp raw
+- [Chương 18: 归来重逢[VIP]](chapters/ch_018/source.md) - ⏳ Chờ cập nhật VIP
+- [Chương 19: 新的开始[VIP]](chapters/ch_019/source.md) - ⏳ Chờ cập nhật VIP
+- [Chương 20: 大秀恩爱[VIP]](chapters/ch_020/source.md) - ⏳ Chờ cập nhật VIP
+- [Chương 21: 碧水蓝天[VIP]](chapters/ch_021/source.md) - ⏳ Chờ cập nhật VIP
+- [Chương 22: 前往南极[VIP]](chapters/ch_022/source.md) - ⏳ Chờ cập nhật VIP
+- [Chương 23: 久别重逢[VIP]](chapters/ch_023/source.md) - ⏳ Chờ cập nhật VIP
+- [Chương 24: 双狼与兔[VIP]](chapters/ch_024/source.md) - ⏳ Chờ cập nhật VIP
+- [Chương 25: 他不是人[VIP]](chapters/ch_025/source.md) - ⏳ Chờ cập nhật VIP
+- [Chương 26: 双攻会谈[VIP]](chapters/ch_026/source.md) - ⏳ Chờ cập nhật VIP
+- [Chương 27: 修罗之场[VIP]](chapters/ch_027/source.md) - ⏳ Chờ cập nhật VIP
+- [Chương 28: 逃离南极[VIP]](chapters/ch_028/source.md) - ⏳ Chờ cập nhật VIP
+- [Chương 29: 言默失踪[VIP]](chapters/ch_029/source.md) - ⏳ Chờ cập nhật VIP
+- [Chương 30: 脱离轨迹[VIP]](chapters/ch_030/source.md) - ⏳ Chờ cập nhật VIP
+- [Chương 31: 快叫爸爸[VIP]](chapters/ch_031/source.md) - ⏳ Chờ cập nhật VIP
+- [Chương 32: 医生番外[VIP]](chapters/ch_032/source.md) - ⏳ Chờ cập nhật VIP
+- [Chương 33: 忠犬大黑[VIP]](chapters/ch_033/source.md) - ⏳ Chờ cập nhật VIP
+- [Chương 34: 鲜红花朵[VIP]](chapters/ch_034/source.md) - ⏳ Chờ cập nhật VIP
+- [Chương 35: 黑白双子[VIP]](chapters/ch_035/source.md) - ⏳ Chờ cập nhật VIP
+- [Chương 36: 丧尸藤蔓[VIP]](chapters/ch_036/source.md) - ⏳ Chờ cập nhật VIP
+- [Chương 37: 拔根手术[VIP]](chapters/ch_037/source.md) - ⏳ Chờ cập nhật VIP
+- [Chương 38: 我爱你呀[VIP]](chapters/ch_038/source.md) - ⏳ Chờ cập nhật VIP
+- [Chương 39: 不欠人情[VIP]](chapters/ch_039/source.md) - ⏳ Chờ cập nhật VIP
+- [Chương 40: 平安归来[VIP]](chapters/ch_040/source.md) - ⏳ Chờ cập nhật VIP
+- [Chương 41: 正文完结[VIP]](chapters/ch_041/source.md) - ⏳ Chờ cập nhật VIP
+- [Chương 42: 番外：十三年前（上）[VIP]](chapters/ch_042/source.md) - ⏳ Chờ cập nhật VIP
+- [Chương 43: 番外：十三年前（中）[VIP]](chapters/ch_043/source.md) - ⏳ Chờ cập nhật VIP
+- [Chương 44: 番外：十三年前（下）[VIP]](chapters/ch_044/source.md) - ⏳ Chờ cập nhật VIP
+- [Chương 45: 番外：幼儿园[VIP]](chapters/ch_045/source.md) - ⏳ Chờ cập nhật VIP
+- [Chương 46: 番外：梦境[VIP]](chapters/ch_046/source.md) - ⏳ Chờ cập nhật VIP

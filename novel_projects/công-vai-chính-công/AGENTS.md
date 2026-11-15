@@ -1,7 +1,7 @@
-# AGENT RULES: CÔNG VAI CHÍNH CÔNG (攻了主角攻)
+# AGENT RULES: ĐÈ LUÔN NAM CHÍNH CÔNG (攻了主角攻)
 
 ## 1. THÔNG TIN DỰ ÁN & BỐI CẢNH
-- **Tên truyện:** Công vai chính công (slug: `công-vai-chính-công`).
+- **Tên truyện:** Đè Luôn Nam Chính Công (slug: `công-vai-chính-công`).
 - **Tác giả:** 冷山月 (Lãnh Sơn Nguyệt).
 - **Thể loại:** Đam mỹ Trung Quốc, tinh tế (interstellar), ABO (Alpha x Alpha), cường cường, niên hạ (công nhỏ tuổi hơn thụ), xuyên sách.
 - **Cặp đôi chính:** Quý Thần Hi (Công, nhỏ tuổi hơn) x Trì Chước (Thụ, lớn tuổi hơn).

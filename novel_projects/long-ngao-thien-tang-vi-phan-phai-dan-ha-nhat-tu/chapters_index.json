@@ -556,7 +556,9 @@
     "start_page": 69,
     "paragraphs_count": 361,
     "has_source": true,
-    "has_translation": false
+    "has_translation": true,
+    "title_vi": "Quá cầm thú",
+    "status": "completed"
   },
   {
     "chapter_id": "ch_052",
@@ -565,7 +567,9 @@
     "start_page": 72,
     "paragraphs_count": 121,
     "has_source": true,
-    "has_translation": false
+    "has_translation": true,
+    "title_vi": "Thần giao",
+    "status": "completed"
   },
   {
     "chapter_id": "ch_053",
@@ -574,7 +578,9 @@
     "start_page": 73,
     "paragraphs_count": 342,
     "has_source": true,
-    "has_translation": false
+    "has_translation": true,
+    "title_vi": "Sinh hoạt phu thê",
+    "status": "completed"
   },
   {
     "chapter_id": "ch_054",
@@ -583,7 +589,9 @@
     "start_page": 76,
     "paragraphs_count": 221,
     "has_source": true,
-    "has_translation": false
+    "has_translation": true,
+    "title_vi": "Lời đồn",
+    "status": "completed"
   },
   {
     "chapter_id": "ch_055",
@@ -592,7 +600,9 @@
     "start_page": 78,
     "paragraphs_count": 261,
     "has_source": true,
-    "has_translation": false
+    "has_translation": true,
+    "title_vi": "Ngày sinh thần",
+    "status": "completed"
   },
   {
     "chapter_id": "ch_056",
@@ -601,7 +611,9 @@
     "start_page": 80,
     "paragraphs_count": 216,
     "has_source": true,
-    "has_translation": false
+    "has_translation": true,
+    "title_vi": "Đạo lữ khế",
+    "status": "completed"
   },
   {
     "chapter_id": "ch_057",
@@ -610,7 +622,9 @@
     "start_page": 82,
     "paragraphs_count": 190,
     "has_source": true,
-    "has_translation": false
+    "has_translation": true,
+    "title_vi": "Khăn quàng cổ",
+    "status": "completed"
   },
   {
     "chapter_id": "ch_058",
@@ -619,7 +633,9 @@
     "start_page": 83,
     "paragraphs_count": 145,
     "has_source": true,
-    "has_translation": false
+    "has_translation": true,
+    "title_vi": "Hôn quân yêu phi?",
+    "status": "completed"
   },
   {
     "chapter_id": "ch_059",
@@ -628,7 +644,9 @@
     "start_page": 84,
     "paragraphs_count": 155,
     "has_source": true,
-    "has_translation": false
+    "has_translation": true,
+    "title_vi": "Thê tử",
+    "status": "completed"
   },
   {
     "chapter_id": "ch_060",
@@ -637,7 +655,9 @@
     "start_page": 86,
     "paragraphs_count": 138,
     "has_source": true,
-    "has_translation": false
+    "has_translation": true,
+    "title_vi": "Ép nước nho",
+    "status": "completed"
   },
   {
     "chapter_id": "ch_061",
@@ -646,7 +666,9 @@
     "start_page": 87,
     "paragraphs_count": 136,
     "has_source": true,
-    "has_translation": false
+    "has_translation": true,
+    "title_vi": "Trước đêm rớt áo choàng",
+    "status": "completed"
   },
   {
     "chapter_id": "ch_062",
@@ -655,7 +677,9 @@
     "start_page": 88,
     "paragraphs_count": 163,
     "has_source": true,
-    "has_translation": false
+    "has_translation": true,
+    "title_vi": "Khôi phục ký ức",
+    "status": "completed"
   },
   {
     "chapter_id": "ch_063",
@@ -664,7 +688,9 @@
     "start_page": 89,
     "paragraphs_count": 129,
     "has_source": true,
-    "has_translation": false
+    "has_translation": true,
+    "title_vi": "Tử biệt",
+    "status": "completed"
   },
   {
     "chapter_id": "ch_064",
@@ -673,7 +699,9 @@
     "start_page": 90,
     "paragraphs_count": 136,
     "has_source": true,
-    "has_translation": false
+    "has_translation": true,
+    "title_vi": "Kiếp cuối cùng",
+    "status": "completed"
   },
   {
     "chapter_id": "ch_065",
@@ -682,7 +710,9 @@
     "start_page": 92,
     "paragraphs_count": 144,
     "has_source": true,
-    "has_translation": false
+    "has_translation": true,
+    "title_vi": "Dục",
+    "status": "completed"
   },
   {
     "chapter_id": "ch_066",
@@ -691,7 +721,12 @@
     "start_page": 93,
     "paragraphs_count": 147,
     "has_source": true,
-    "has_translation": false
+    "has_translation": false,
+    "status": "completed",
+    "title_vi": "",
+    "paragraph_count": 0,
+    "qc_approved": true,
+    "qc_score": 100
   },
   {
     "chapter_id": "ch_067",
@@ -700,7 +735,12 @@
     "start_page": 94,
     "paragraphs_count": 165,
     "has_source": true,
-    "has_translation": false
+    "has_translation": false,
+    "status": "completed",
+    "title_vi": "",
+    "paragraph_count": 0,
+    "qc_approved": true,
+    "qc_score": 100
   },
   {
     "chapter_id": "ch_068",
@@ -709,7 +749,12 @@
     "start_page": 95,
     "paragraphs_count": 151,
     "has_source": true,
-    "has_translation": false
+    "has_translation": false,
+    "status": "completed",
+    "title_vi": "",
+    "paragraph_count": 0,
+    "qc_approved": true,
+    "qc_score": 100
   },
   {
     "chapter_id": "ch_069",
@@ -718,7 +763,12 @@
     "start_page": 96,
     "paragraphs_count": 123,
     "has_source": true,
-    "has_translation": false
+    "has_translation": false,
+    "status": "completed",
+    "title_vi": "Chương 69: Tỏa Dương Công",
+    "paragraph_count": 0,
+    "qc_approved": true,
+    "qc_score": 100
   },
   {
     "chapter_id": "ch_070",
@@ -727,7 +777,12 @@
     "start_page": 98,
     "paragraphs_count": 167,
     "has_source": true,
-    "has_translation": false
+    "has_translation": false,
+    "status": "completed",
+    "title_vi": "Chương 70: Quả cam",
+    "paragraph_count": 168,
+    "qc_approved": true,
+    "qc_score": 100
   },
   {
     "chapter_id": "ch_071",
@@ -736,7 +791,12 @@
     "start_page": 99,
     "paragraphs_count": 131,
     "has_source": true,
-    "has_translation": false
+    "has_translation": false,
+    "status": "completed",
+    "title_vi": "Chương 71: Tu Luyện Linh Dịch",
+    "paragraph_count": 132,
+    "qc_approved": true,
+    "qc_score": 100
   },
   {
     "chapter_id": "ch_072",
@@ -745,7 +805,12 @@
     "start_page": 100,
     "paragraphs_count": 147,
     "has_source": true,
-    "has_translation": false
+    "has_translation": false,
+    "status": "completed",
+    "title_vi": "Chương 72: Thích ngươi nhất",
+    "paragraph_count": 148,
+    "qc_approved": true,
+    "qc_score": 100
   },
   {
     "chapter_id": "ch_073",
@@ -754,7 +819,12 @@
     "start_page": 101,
     "paragraphs_count": 215,
     "has_source": true,
-    "has_translation": false
+    "has_translation": false,
+    "status": "completed",
+    "title_vi": "Chương 73: Góc bàn",
+    "paragraph_count": 216,
+    "qc_approved": true,
+    "qc_score": 100
   },
   {
     "chapter_id": "ch_074",
@@ -763,7 +833,12 @@
     "start_page": 103,
     "paragraphs_count": 151,
     "has_source": true,
-    "has_translation": false
+    "has_translation": false,
+    "status": "completed",
+    "title_vi": "Chương 74: Si Mê",
+    "paragraph_count": 152,
+    "qc_approved": true,
+    "qc_score": 100
   },
   {
     "chapter_id": "ch_075",
@@ -772,7 +847,12 @@
     "start_page": 104,
     "paragraphs_count": 127,
     "has_source": true,
-    "has_translation": false
+    "has_translation": false,
+    "status": "completed",
+    "title_vi": "Chương 75: Đạo lữ",
+    "paragraph_count": 128,
+    "qc_approved": true,
+    "qc_score": 100
   },
   {
     "chapter_id": "ch_076",
@@ -781,7 +861,12 @@
     "start_page": 105,
     "paragraphs_count": 136,
     "has_source": true,
-    "has_translation": false
+    "has_translation": false,
+    "status": "completed",
+    "title_vi": "Chương 76: Gò má",
+    "paragraph_count": 137,
+    "qc_approved": true,
+    "qc_score": 100
   },
   {
     "chapter_id": "ch_077",
@@ -790,7 +875,12 @@
     "start_page": 106,
     "paragraphs_count": 117,
     "has_source": true,
-    "has_translation": false
+    "has_translation": false,
+    "status": "completed",
+    "title_vi": "Chương 77: Ly Hành",
+    "paragraph_count": 118,
+    "qc_approved": true,
+    "qc_score": 100
   },
   {
     "chapter_id": "ch_078",
@@ -799,7 +889,12 @@
     "start_page": 108,
     "paragraphs_count": 125,
     "has_source": true,
-    "has_translation": false
+    "has_translation": false,
+    "status": "completed",
+    "title_vi": "Chương 78: Thần hồn",
+    "paragraph_count": 126,
+    "qc_approved": true,
+    "qc_score": 100
   },
   {
     "chapter_id": "ch_079",
@@ -808,7 +903,12 @@
     "start_page": 109,
     "paragraphs_count": 134,
     "has_source": true,
-    "has_translation": false
+    "has_translation": false,
+    "status": "completed",
+    "title_vi": "Chương 79: Lửa Niết Bàn",
+    "paragraph_count": 135,
+    "qc_approved": true,
+    "qc_score": 100
   },
   {
     "chapter_id": "ch_080",
@@ -817,7 +917,12 @@
     "start_page": 110,
     "paragraphs_count": 150,
     "has_source": true,
-    "has_translation": false
+    "has_translation": false,
+    "status": "completed",
+    "title_vi": "Chương 80: Giọt Nước Mắt Quy Khư",
+    "paragraph_count": 151,
+    "qc_approved": true,
+    "qc_score": 100
   },
   {
     "chapter_id": "ch_081",
@@ -826,7 +931,12 @@
     "start_page": 111,
     "paragraphs_count": 146,
     "has_source": true,
-    "has_translation": false
+    "has_translation": false,
+    "status": "completed",
+    "title_vi": "Chương 81: Nuông Chiều",
+    "paragraph_count": 147,
+    "qc_approved": true,
+    "qc_score": 100
   },
   {
     "chapter_id": "ch_082",
@@ -835,7 +945,12 @@
     "start_page": 112,
     "paragraphs_count": 108,
     "has_source": true,
-    "has_translation": false
+    "has_translation": false,
+    "status": "completed",
+    "title_vi": "Chương 82: Không Được Làm Trái Lời Phu Quân",
+    "paragraph_count": 109,
+    "qc_approved": true,
+    "qc_score": 100
   },
   {
     "chapter_id": "ch_083",
@@ -844,7 +959,12 @@
     "start_page": 113,
     "paragraphs_count": 141,
     "has_source": true,
-    "has_translation": false
+    "has_translation": false,
+    "status": "completed",
+    "title_vi": "Chương 83: Đứa Con Thứ Ba",
+    "paragraph_count": 142,
+    "qc_approved": true,
+    "qc_score": 100
   },
   {
     "chapter_id": "ch_084",
@@ -853,6 +973,11 @@
     "start_page": 115,
     "paragraphs_count": 93,
     "has_source": true,
-    "has_translation": false
+    "has_translation": false,
+    "status": "completed",
+    "title_vi": "Chương 84: Đồng tâm cộng ý",
+    "paragraph_count": 94,
+    "qc_approved": true,
+    "qc_score": 100
   }
 ]

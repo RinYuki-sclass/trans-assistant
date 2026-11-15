@@ -1,4 +1,4 @@
-# 📖 MỤC LỤC: Bị Mỹ Nhân Phong Phê Cầu Ái Sau Đó
+# 📖 MỤC LỤC: Sau Khi Bị Mỹ Nhân Điên Cuồng Tỏ Tình (被疯批美人求爱后)
 > **Tác giả:** Thu Thu Hội Chiu Chiu (秋秋会啾啾) | **Tiến độ:** 15/111 chương (13.5%) | **Cập nhật:** 27/10/2026
 > **Trạng thái:** 🟢 Đã duyệt QC (0) | 🔵 Đã dịch (15) | ⚪ Chưa dịch (96)
 

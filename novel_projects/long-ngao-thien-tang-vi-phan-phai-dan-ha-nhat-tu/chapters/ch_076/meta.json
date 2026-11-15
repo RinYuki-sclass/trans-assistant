@@ -1,9 +1,13 @@
 {
   "chapter": 76,
-  "title": "Chương 76: 脸颊",
-  "raw_title": "第七十六章 脸颊",
-  "source_word_count": 3072,
-  "paragraphs_count": 136,
-  "status": "pending",
-  "has_translation": false
+  "chapter_id": "ch_076",
+  "title": "Chương 76: Gò má",
+  "title_vi": "Chương 76: Gò má",
+  "raw_title": "第 76 章 脸颊",
+  "source_word_count": 3063,
+  "paragraph_count": 137,
+  "paragraphs_count": 137,
+  "status": "completed",
+  "has_translation": true,
+  "qc_passed": true
 }

@@ -1,4 +1,4 @@
-# MỤC LỤC: Oan Chủng Công Hắn Quyết Định Đổi Lão Bà (冤种攻他决定换个老婆)
+# MỤC LỤC: Anh Công Xui Xẻo Quyết Định Đổi Vợ (冤种攻他决定换个老婆)
 
 > Tổng số chương dự kiến: 86 chương.
 

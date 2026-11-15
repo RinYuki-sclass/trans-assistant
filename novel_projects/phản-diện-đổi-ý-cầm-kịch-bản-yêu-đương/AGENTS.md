@@ -1,7 +1,7 @@
-# AGENT RULES: PHẢN DIỆN ĐỔI Ý CẦM KỊCH BẢN YÊU ĐƯƠNG (反派改拿恋爱剧本[快穿])
+# AGENT RULES: PHẢN DIỆN ĐỔI Ý CẦM KỊCH BẢN YÊU ĐƯƠNG [XUYÊN NHANH] (反派改拿恋爱剧本[快穿])
 
 ## 1. THÔNG TIN DỰ ÁN & BỐI CẢNH
-- **Tên truyện:** Phản Diện Đổi Ý Cầm Kịch Bản Yêu Đương [Khoái Xuyên] (反派改拿恋爱剧本[快穿] / 反派改拿戀愛劇本[快穿]).
+- **Tên truyện:** Phản Diện Đổi Ý Cầm Kịch Bản Yêu Đương [Xuyên Nhanh] (反派改拿恋爱剧本[快穿] / 反派改拿戀愛劇本[快穿]).
 - **Tên tiếng Anh:** Villain Switches to Romance Script [Quick Transmigration].
 - **Tác giả:** 什司 (Thập Tư).
 - **Slug dự án:** `phản-diện-đổi-ý-cầm-kịch-bản-yêu-đương`.

@@ -1,7 +1,7 @@
-# AGENT RULES: CÔNG TÊN PHẢN PHÁI ĐIÊN PHÊ KIA [KHOÁI XUYÊN] (《攻了那个疯批反派[快穿]》)
+# AGENT RULES: CHINH PHỤC TÊN PHẢN DIỆN ĐIÊN CUỒNG KIA [XUYÊN NHANH] (《攻了那个疯批反派[快穿]》)
 
 ## 1. THÔNG TIN DỰ ÁN & BỐI CẢNH
-- **Tên truyện:** Công Tên Phản Phái Điên Phê Kia [Khoái Xuyên] (《攻了那个疯批反派[快穿]》).
+- **Tên truyện:** Chinh Phục Tên Phản Diện Điên Cuồng Kia [Xuyên Nhanh] (《攻了那个疯批反派[快穿]》).
 - **Tác giả:** Hương Thái Tại Tại (香菜在在).
 - **Slug dự án:** `công-tên-phản-phái-điên-phê-kia`.
 - **Nền tảng gốc:** Tấn Giang (JJWXC - Mã tác phẩm: `9207721`, Tổng số chương: 170 chương, đã hoàn thành).

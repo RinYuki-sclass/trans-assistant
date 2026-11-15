@@ -1,9 +1,17 @@
 {
   "chapter": 80,
-  "title": "Chương 80: 归墟之泪",
-  "raw_title": "第八十章 归墟之泪",
-  "source_word_count": 3436,
-  "paragraphs_count": 150,
-  "status": "pending",
-  "has_translation": false
+  "chapter_id": "ch_080",
+  "title": "Chương 80: Giọt Nước Mắt Quy Khư",
+  "title_vi": "Chương 80: Giọt Nước Mắt Quy Khư",
+  "raw_title": "第 80 章 归墟之泪",
+  "source_word_count": 3449,
+  "translation_word_count": 3388,
+  "paragraphs_count": 151,
+  "paragraph_count": 151,
+  "status": "completed",
+  "has_translation": true,
+  "qc_passed": true,
+  "qc_approved": true,
+  "qc_score": 100,
+  "updated_at": "2026-11-15"
 }

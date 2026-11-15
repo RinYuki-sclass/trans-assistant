@@ -47,6 +47,9 @@ Khi dịch các bộ truyện thuộc `novel_projects/**`, dịch giả AI phả
 * **Cặp Công - Thụ:** Theo đúng quy định của từng bộ trong `AGENTS.md`. CẤM hiện tượng "anh - anh" giữa 2 người nam trong cùng phân cảnh.
 * **Speaker Tracking chủ động:** Luôn xác định ai là người mở miệng nói trước khi chọn đại từ xưng hô trong câu thoại.
 * **Khóa Xưng Hô Phân Cảnh (Scene Pronoun Locking):** Trong cùng một cảnh đối thoại giữa 2 nhân vật, cặp xưng hô phải nhất quán xuyên suốt. CẤM câu trước gọi `"cậu"`, câu sau bỗng đổi thành `"ngươi"`.
+* **Nguyên tắc "Đơn Tôn - Đơn Nghĩa" Xưng Hô (Single-Option Pronoun Mandate):**
+  - Tuyệt đối tuân thủ đại từ tự xưng duy nhất đã chốt cho từng giai đoạn quan hệ trong `AGENTS.md` (ví dụ: giai đoạn 1 chỉ xưng `"tôi"`, giai đoạn 2 chỉ xưng `"em"`).
+  - CẤM TRIỆT ĐỂ hiện tượng nhảy xưng hô tự xưng (Pronoun Flipping): Cảnh trước vừa xưng `"em"`, cảnh sau lại xưng `"tôi"` với cùng một đối tượng; hoặc câu trước xưng `"tôi"`, câu sau xưng `"em"`.
 * **Đồng bộ cặp xưng hô "tao - mày" trong bối cảnh hiện đại:**
   - Trong lời thoại trực tiếp ở bối cảnh hiện đại, khi người nói tự xưng là **"tao"** (ngôi 1), thì **BẮT BUỘC CHỈ ĐƯỢC GỌI NGƯỜI NGHE LÀ "mày"** (ngôi 2: cặp `tao - mày` bất di bất dịch).
   - **TUYỆT ĐỐI CẤM** hiện tượng lai tạp đá ngôi: xưng `tao` nhưng lại gọi đối phương là `anh`, `cậu`, `hắn`, `ngươi`, `ông`, `chú`, v.v. (Ví dụ SAI: `“Tao cảnh cáo anh/cậu...”` ➔ Bắt buộc: `“Tao cảnh cáo mày...”`).

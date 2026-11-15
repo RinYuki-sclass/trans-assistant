@@ -1,0 +1,57 @@
+[
+  {
+    "name": "Cố Kiêu",
+    "hanviet_name": "Cố Kiêu",
+    "original_name": "顾骄",
+    "gender": "Nam",
+    "role": "Công chính (Chủ công, tân sinh viên Học viện Liên Bang, mỹ công niên hạ, cún con ngây thơ)",
+    "narration_pronoun": "cậu",
+    "dialogue_pronoun": "Chương 1-25 (Giai đoạn 1): tôi; Chương 26-122 (Giai đoạn 2+): em (CẤM xưng 'tôi')",
+    "personality": "Bên ngoài nhìn như khốc ca cao ngạo lạnh lùng bất cần, tinh thần lực SSS-grade đỉnh nóc, nhưng thực chất là cún con ngơ ngác, hướng nội sợ giao tiếp (xã khủng), mù đường nặng, sủng vợ, tưởng vợ là người bình thường yếu đuối cần mình bảo vệ",
+    "notes": "Xuất thân từ cổ võ tinh xa xôi thần bí, tóc bạc, khuyên tai obsidian, nhà nghèo không có quang não nên đi lạc vào dinh thự của Ám Vực Lĩnh Chủ."
+  },
+  {
+    "name": "Thẩm Nguyệt Khanh",
+    "hanviet_name": "Thẩm Nguyệt Khanh",
+    "original_name": "沈月卿",
+    "gender": "Nam",
+    "role": "Thụ chính (Ám Vực Lĩnh Chủ, bạo quân vùng ô nhiễm, đại lão phản diện khét tiếng tinh tế, cường thụ)",
+    "narration_pronoun": "hắn",
+    "dialogue_pronoun": "Với Cố Kiêu: Chương 1-25 (Giai đoạn 1): tôi; Chương 26-122 (Giai đoạn 2+): anh (CẤM xưng 'ta/tôi'). Với kẻ thù/thuộc hạ: ta",
+    "personality": "Tàn nhẫn sát phạt, tâm cơ thâm trầm, khống chế dục cực mạnh, bệnh kiều nhân thê, bạo loạn tinh thần lực SSS-grade. Trước mặt Cố Kiêu thì thu hết móng vuốt, sắm vai vợ hiền ôn nhu cưng chiều cún con",
+    "notes": "Lúc đầu lấy tên giả là 'Ôn tiên sinh' để tiếp xúc Cố Kiêu, người người nghe tên đã khiếp đảm nhưng lại tình nguyện để Cố Kiêu đè."
+  },
+  {
+    "name": "Tần Phong",
+    "hanviet_name": "Tần Phong",
+    "original_name": "秦封",
+    "gender": "Nam",
+    "role": "Phụ tá thân cận / Cận vệ của Thẩm Nguyệt Khanh",
+    "narration_pronoun": "anh ta / gã",
+    "dialogue_pronoun": "tôi",
+    "personality": "Nghiêm túc, trung thành, luôn lo lắng cho bệnh tình của Thẩm Nguyệt Khanh",
+    "notes": "Chứng kiến toàn bộ quá trình biến đổi của Ám Vực Lĩnh Chủ từ bạo quân thành thê nô."
+  },
+  {
+    "name": "Hà bác sĩ",
+    "hanviet_name": "Hà y sinh",
+    "original_name": "何医生",
+    "gender": "Nam",
+    "role": "Bác sĩ sơ đạo tinh thần lực A-grade tại Ám Vực",
+    "narration_pronoun": "ông ta",
+    "dialogue_pronoun": "tôi",
+    "personality": "Tận tụy, bất lực trước căn bệnh bạo loạn tinh thần lực SSS-grade của Thẩm Nguyệt Khanh",
+    "notes": "Từng nghĩ rằng trên đời này không ai có thể sơ đạo được cho Thẩm Nguyệt Khanh."
+  },
+  {
+    "name": "Cố Niệm An",
+    "hanviet_name": "Cố Niệm An",
+    "original_name": "顾念安",
+    "gender": "Nam",
+    "role": "Người nhà / thành viên gia đình Cố gia",
+    "narration_pronoun": "cậu ấy / anh ấy",
+    "dialogue_pronoun": "tôi / em",
+    "personality": "Yêu thương gia đình, gắn bó với Cố Kiêu",
+    "notes": "Xuất hiện trong các phần gia đình và bức ảnh gia đình cuối truyện."
+  }
+]

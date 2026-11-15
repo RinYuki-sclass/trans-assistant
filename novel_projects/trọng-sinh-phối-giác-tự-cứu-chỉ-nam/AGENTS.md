@@ -1,8 +1,8 @@
-# AGENT RULES: TRỌNG SINH! PHỐI GIÁC TỰ CỨU CHỈ NAM (《重生！配角自救指南》)
+# AGENT RULES: TRỌNG SINH! CẨM NANG TỰ CỨU CỦA NHÂN VẬT PHỤ (《重生！配角自救指南》)
 *(Tên phụ / Raw phổ biến: 《打倒系统！亲吻我的小怪物》 - Đánh Bại Hệ Thống! Hôn Lấy Tiểu Quái Vật Của Ta)*
 
 ## 1. THÔNG TIN DỰ ÁN & BỐI CẢNH
-- **Tên truyện:** Trọng Sinh! Phối Giác Tự Cứu Chỉ Nam (Cẩm Nang Tự Cứu Của Nhân Vật Phụ Trọng Sinh).
+- **Tên truyện:** Trọng Sinh! Cẩm Nang Tự Cứu Của Nhân Vật Phụ (Cẩm Nang Tự Cứu Của Nhân Vật Phụ Trọng Sinh).
 - **Tên gốc tiếng Trung:** 《重生！配角自救指南》 / 《打倒系统！亲吻我的小怪物》.
 - **Tác giả:** 圆圆圆的园 (Viên Viên Viên Đích Viên / 圆圆圆的圆).
 - **Slug dự án:** `trọng-sinh-phối-giác-tự-cứu-chỉ-nam`.

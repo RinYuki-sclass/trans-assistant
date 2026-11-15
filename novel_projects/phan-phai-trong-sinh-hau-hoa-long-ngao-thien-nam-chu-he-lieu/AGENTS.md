@@ -1,7 +1,7 @@
-# AGENT RULES: PHẢN PHÁI TRỌNG SINH HẬU HÒA LONG NGẠO THIÊN NAM CHỦ HE LIỄU (反派重生后和龙傲天男主HE了)
+# AGENT RULES: SAU KHI TRỌNG SINH, KẺ PHẢN DIỆN THÀNH ĐÔI VỚI NAM CHÍNH LONG NGẠO THIÊN (反派重生后和龙傲天男主HE了)
 
 ## 1. THÔNG TIN DỰ ÁN & BỐI CẢNH
-- **Tên truyện:** Phản Phái Trọng Sinh Hậu Hòa Long Ngạo Thiên Nam Chủ HE Liễu (反派重生后和龙傲天男主HE了)
+- **Tên truyện:** Sau Khi Trọng Sinh, Kẻ Phản Diện Thành Đôi Với Nam Chính Long Ngạo Thiên (反派重生后和龙傲天男主HE了).
 - **Tác giả:** Tuyền Tư Trà (泉思茶)
 - **Slug dự án:** `phan-phai-trong-sinh-hau-hoa-long-ngao-thien-nam-chu-he-lieu`
 - **Thể loại:** Đam mỹ, Chủ công, Tiên hiệp, Tu chân, Trọng sinh, Cường cường, Hài hước, 1v1, HE

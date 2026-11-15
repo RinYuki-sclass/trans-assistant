@@ -1,7 +1,7 @@
-# AGENT RULES: TA CHỈ MUỐN ĐỘC CHIẾM TẤT CẢ [KHOÁI XUYÊN] (《我只想占为己有》 / 《想刚我的都被我刚了》)
+# AGENT RULES: TÔI CHỈ MUỐN ĐỘC CHIẾM TẤT CẢ [XUYÊN NHANH] (《我只想占为己有》 / 《想刚我的都被我刚了》)
 
 ## 1. THÔNG TIN DỰ ÁN & BỐI CẢNH
-- **Tên truyện:** Ta Chỉ Muốn Độc Chiếm Tất Cả [Khoái Xuyên] (《我只想占为己有》 / 《想刚我的都被我刚了》).
+- **Tên truyện:** Tôi Chỉ Muốn Độc Chiếm Tất Cả [Xuyên Nhanh] (《我只想占为己有》 / 《想刚我的都被我刚了》).
 - **Tên tiếng Anh:** I Just Want It All For Myself.
 - **Tác giả:** 常念君 (Thường Niệm Quân / Bunker).
 - **Slug dự án:** `ta-chỉ-muốn-độc-chiếm-tất-cả`.

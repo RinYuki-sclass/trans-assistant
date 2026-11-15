@@ -1,4 +1,4 @@
-# 📖 MỤC LỤC: Thiên Chi Kiêu Tử Lại Mang Thai Con Của NPC Rồi
+# 📖 MỤC LỤC: Thiên Chi Kiêu Tử Lại Mang Thai Con Của NPC Rồi [Xuyên Nhanh] (天之骄子又怀了npc的崽[快穿])
 > **Tác giả:** Thập Ma A Lộ (什么阿路) | **Tiến độ:** 20/20 chương (100.0%) | **Cập nhật:** 02/11/2026
 > **Trạng thái:** 🟢 Đã duyệt QC (20) | 🔵 Đã dịch (0) | ⚪ Chưa dịch (0)
 

@@ -1,9 +1,13 @@
 {
   "chapter": 57,
-  "title": "Chương 57: 围脖",
+  "title": "Chương 57: Khăn quàng cổ",
   "raw_title": "第五十七章 围脖",
   "source_word_count": 4097,
-  "paragraphs_count": 190,
-  "status": "pending",
-  "has_translation": false
+  "translation_word_count": 3432,
+  "paragraphs_count": 191,
+  "status": "completed",
+  "has_translation": true,
+  "qc_approved": true,
+  "qc_score": 100,
+  "updated_at": "2026-11-15"
 }

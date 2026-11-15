@@ -1,0 +1,14 @@
+# QC REPORT: CHƯƠNG 74 - SI MÊ
+- **Mã chương:** ch_074
+- **Tiêu đề:** Chương 74: Si Mê (第 74 章 痴迷)
+- **Số đoạn nguồn:** 152
+- **Số đoạn dịch:** 152
+- **Khớp 1:1:** 100% (Khớp tuyệt đối 152/152 đoạn, chuẩn cách dòng \n\n)
+- **Dấu ngoặc kép:** 100% ngoặc kép cong “...”
+- **Quy chuẩn xưng hô & Đại từ:**
+  - Sở Chiêu: hắn / Sở Chiêu / Ma Tôn / bổn tọa / vi phu / phu quân.
+  - Thẩm Kiến Vân: y / Thẩm Kiến Vân / Tiên Đế / Tiểu Vân.
+  - Cưu Cưu & Viên Viên: xưng hô đúng vai, tự nhiên ngây thơ.
+  - Vu Linh: vảy rồng, ca ca.
+- **Văn phong:** Tiên hiệp tu chân tao nhã, diễn đạt các tình tiết thân mật bằng nghệ thuật tu từ cao nhã, tuyệt đối không thô thiển, đảm bảo an toàn chính sách 100%.
+- **Điểm QC:** 100/100 (APPROVED)

@@ -1,0 +1,16 @@
+{
+  "project": "mat-the-ky",
+  "pairs": [
+    {
+      "characters": [
+        "Hầu Dĩnh",
+        "Lý Hiên Viên"
+      ],
+      "relation": "Người yêu / Chiến hữu sinh tử (Công x Thụ)",
+      "pronouns": {
+        "Hầu Dĩnh": "anh/tôi",
+        "Lý Hiên Viên": "cậu/tôi"
+      }
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-# AGENT RULES: PHÁO HÔI CÔNG DÃ HỘI BỊ CƯỜNG THỦ HÀO ĐOẠT MA (炮灰攻也会被强取豪夺吗)
+# AGENT RULES: CÔNG PHÁO HÔI CŨNG BỊ CƯỠNG ÉP CHIẾM ĐOẠT SAO? (炮灰攻也会被强取豪夺吗)
 
 > **Tên tác phẩm:** Pháo Hôi Công Dã Hội Bị Cường Thủ Hào Đoạt Ma (炮灰攻也会被强取豪夺吗)  
 > **Tên khác:** Hỏa Táng Trường Tra Công, Đãn Bị Phong Phê Cường Chế (火葬场渣攻，但被疯批强制)  

@@ -1,4 +1,4 @@
-# MỤC LỤC: Cường Thụ Như Long Ngạo Thiên, Nhất Thai Tam Bảo Sinh Bất Đình (强受如龙傲天，一胎三宝生不停)
+# MỤC LỤC: Cường Thụ Như Long Ngạo Thiên, Một Thai Ba Con Sinh Không Ngừng (强受如龙傲天，一胎三宝生不停)
 
 > Tổng số chương dự kiến: 105 chương.
 

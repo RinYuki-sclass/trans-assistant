@@ -11,7 +11,8 @@
 > 2. **ZERO ADDITION (Không thêm):** Tuyệt đối không tự suy diễn, không phóng tác, không chèn cảm xúc/lời bình của dịch giả, không tự chế thêm tình tiết để làm văn "bay bổng".  
 > 3. **PARAGRAPH ALIGNMENT (Bảo toàn số đoạn 1:1):** Mỗi đoạn văn trong bản gốc KR/EN phải tương ứng chính xác với 1 đoạn trong bản dịch tiếng Việt. **Không tự ý gộp hai đoạn thành một** và **không tự ý chẻ nhỏ một đoạn**.  
 > 4. **PARAGRAPH SPACING (Cách dòng chuẩn khi Dịch & QC):** Các đoạn văn trần thuật và lời thoại **bắt buộc phải cách nhau đúng 1 dòng trống (`\n\n`)**. Tuyệt đối không để các đoạn dính liền dòng.  
-> 5. **AI CODE AGENT SELF-TRANSLATION (Agent tự dịch trực tiếp):** Khi nhận lệnh dịch từ người dùng trong Antigravity IDE, AI Code Agent **bắt buộc phải tự mình đọc và dịch trực tiếp**. **TUYỆT ĐỐI CẤM** gọi tool hay script bên ngoài sử dụng Google API Key (`GEMINI_API_KEY`) để tránh lỗi nghẽn hạn mức (429), lỗi máy chủ (503) và không hao phí quota của người dùng.
+> 5. **AI CODE AGENT SELF-TRANSLATION (Agent tự dịch trực tiếp):** Khi nhận lệnh dịch từ người dùng trong Antigravity IDE, AI Code Agent **bắt buộc phải tự mình đọc và dịch trực tiếp**. **TUYỆT ĐỐI CẤM** gọi tool hay script bên ngoài sử dụng Google API Key (`GEMINI_API_KEY`) để tránh lỗi nghẽn hạn mức (429), lỗi máy chủ (503) và không hao phí quota của người dùng.  
+> 6. **PURE VIETNAMESE NOVEL TITLING (Đổi tên truyện thuần Việt khi thêm mới):** Khi khởi tạo hoặc nhập dự án tiểu thuyết mới vào `novel_projects/`, bắt buộc chuyển đổi tên truyện sang tiếng Việt thuần thục, tự nhiên, dễ hiểu theo [.agents/rules/novel_naming_conventions.md](file:///d:/Nhung/trans-tool/.agents/rules/novel_naming_conventions.md). Tuyệt đối cấm để nguyên tên convert Hán Việt thô, pinyin hoặc cấu trúc ngữ pháp Trung Quốc.
 
 ---
 

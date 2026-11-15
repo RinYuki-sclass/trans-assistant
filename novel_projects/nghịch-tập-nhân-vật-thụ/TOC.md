@@ -1,4 +1,4 @@
-# 📖 MỤC LỤC: Nghịch Tập Nhân Vật Thụ! [Khoái Xuyên] (Arc 3 & Arc 4)
+# 📖 MỤC LỤC: Màn Phản Đòn Của Nhân Vật Thụ! [Xuyên Nhanh] (Arc 3 & Arc 4)
 > **Tác giả:** 七果茶 (Thất Quả Trà) | **Tổng số chương Arc 3-4:** 46 chương  
 > **Tiến độ:** 13/46 chương đã QC đạt chuẩn (28.3%) | **Cập nhật:** 09/11/2026 00:16
 

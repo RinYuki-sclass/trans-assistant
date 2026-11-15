@@ -1,4 +1,4 @@
-# 📖 MỤC LỤC: Ta Chỉ Muốn Độc Chiếm Tất Cả [Khoái Xuyên]
+# 📖 MỤC LỤC: Tôi Chỉ Muốn Độc Chiếm Tất Cả [Xuyên Nhanh]
 > **Tác giả:** 常念君 (Thường Niệm Quân / Bunker) | **Tiến độ:** 0/0 chương (0.0%) | **Cập nhật:** 27/10/2026
 > **Trạng thái:** ⚪ Chưa cào raw vào hệ thống
 

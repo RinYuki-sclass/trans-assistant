@@ -1,7 +1,7 @@
-# AGENT RULES: XUYÊN THƯ XONG TÔI GIẢ GAY TRONG TRUYỆN BÁ TỔNG (《装弯后霸总自我攻略了[快穿]》)
+# AGENT RULES: XUYÊN SÁCH XONG TÔI GIẢ GAY TRONG TRUYỆN BÁ TỔNG [XUYÊN NHANH] (《装弯后霸总自我攻略了[快穿]》)
 
 ## 1. THÔNG TIN DỰ ÁN & BỐI CẢNH
-- **Tên truyện:** Xuyên Thư Xong Tôi Giả Gay Trong Truyện Bá Tổng [Khoái Xuyên] (《装弯后霸总自我攻略了[快穿]》 / 《在霸总文学里装弯[快穿]》).
+- **Tên truyện:** Xuyên Sách Xong Tôi Giả Gay Trong Truyện Bá Tổng [Xuyên Nhanh] (《装弯后霸总自我攻略了[快穿]》 / 《在霸总文学里装弯[快穿]》).
 - **Tác giả:** 半斤墨水 (Bán Cân Mặc Thủy).
 - **Slug dự án:** `xuyên-thư-xong-tôi-giả-gay-trong-truyện-bá-tổng`.
 - **Tổng số chương:** 116 chương (Gồm 1 chương giới thiệu/văn án + 114 chương chính văn + 2 chương phiên ngoại hoàn chỉnh).

@@ -1,4 +1,4 @@
-# 📖 MỤC LỤC: Cá Mặn Ký Chủ Tổng Đối Vai Ác Nhất Kiến Chung Tình?!
+# 📖 MỤC LỤC: Ký Chủ Lười Biếng Luôn Vừa Gặp Đã Yêu Kẻ Phản Diện?! (反派不能是双标宿主的老婆！(咸鱼宿主总对反派一见钟情？！/ 咸鱼攻救赎反派boss指南[快穿]))
 > **Tác giả:** Mai Tử Thanh Thang (梅子清汤) | **Tiến độ:** 42/42 chương (100.0%) | **Cập nhật:** 27/10/2026
 > **Trạng thái:** 🟢 Đã duyệt QC (0) | 🔵 Đã dịch (42) | ⚪ Chưa dịch (0)
 

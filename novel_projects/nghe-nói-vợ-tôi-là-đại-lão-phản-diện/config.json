@@ -1,0 +1,20 @@
+{
+  "title": "Nghe Nói Vợ Tôi Là Đại Lão Phản Diện",
+  "chinese_title": "听说我老婆是反派大佬",
+  "author": "Đại Bạch Sư (大白狮)",
+  "description": "Học viện Liên Bang vừa nghênh đón một tân sinh viên nhìn bề ngoài cực kỳ khó chọc — Cố Kiêu.\n\nXuất thân từ cổ võ tinh xa xôi thần bí, dáng người cao ráo đĩnh bạt, mái tóc bạc rực rỡ trương dương, tai đeo khuyên đá obsidian ngạo nghễ coi thường nội quy trường học, nhìn người khác lúc nào mi mắt cũng rũ nửa, ánh mắt cao ngạo lạnh lùng, đã vậy còn sở hữu tinh thần lực cấp SSS vô tiền khoáng hậu. Dù dung mạo khốc soái tuyệt mỹ, người thầm mến cậu cũng chỉ dám nhìn từ xa chứ chẳng ai dám tới gần.\n\nNhưng chẳng ai biết được, người bề ngoài nhìn như đại lão khốc ca kia thực chất lại là một cún con ngây thơ siêu sợ giao tiếp (xã khủng), mỗi ngày đều đau lòng vì 'mình lại bị bạn học ghét bỏ rồi'.\n\nNhà nghèo không có tiền mua quang não để định vị dẫn đường, Cố Kiêu vì muốn kiếm tiền mà đi nhận nhiệm vụ sơ đạo tinh thần lực. Kết quả một kẻ mù đường như cậu đi lạc thẳng vào biên giới khu ô nhiễm, gõ nhầm cửa trang viên của Ám Vực Lĩnh Chủ — vị bạo quân phản diện khát máu tàn bạo nhất trong truyền thuyết, người người nghe tên đã hồn phi phách tán!\n\nGặp được Thẩm Nguyệt Khanh xinh đẹp tuyệt trần lại ôn nhu hòa nhã, Cố Kiêu lập tức đinh ninh đây chính là 'đại mỹ nhân cố chủ dịu dàng yếu đuối' của mình, tận tụy chăm sóc, hết lòng bảo vệ.\n\nMà ở bên kia, vị đại lão phản diện bệnh kiều, khống chế dục ngập trời vốn dĩ đang phát cuồng vì bạo loạn tinh thần lực, khi nhìn thấy chú cún ngơ ngác đáng yêu xông vào lòng mình, lập tức thu lại mọi móng vuốt, mỉm cười đóng vai người vợ hiền thục...",
+  "slug": "nghe-nói-vợ-tôi-là-đại-lão-phản-diện",
+  "source_lang": "Chinese",
+  "target_lang": "Vietnamese",
+  "raw_links": {
+    "52shuku": "https://www.52shuku.net/jiakong/01_b/bjYrs.html"
+  },
+  "style_guide": "Đam mỹ tinh tế cơ giáp, chủ công, niên hạ, mỹ công cường thụ / manh công đại lão thụ, hỗ sủng, ngọt ngào hài hước sa điêu phản sáo lộ, 1v1, HE.\n\nQUY TẮC BẮT BUỘC:\n1. Định dạng đoạn văn: Bắt buộc cách nhau đúng 1 dòng trống (\\n\\n) giữa các đoạn văn và lời thoại. Tuyệt đối không dính liền dòng (\\n).\n2. Dấu ngoặc thoại: Lời thoại dùng ngoặc kép cong tiếng Việt “...”, không dùng gạch ngang đầu câu (— ...).\n3. Ngôi 3 trần thuật (Tự sự):\n   - Cố Kiêu (Chủ công niên hạ): Bắt buộc dùng 'cậu' trong văn trần thuật ngôi 3. Cấm dùng 'hắn'.\n   - Thẩm Nguyệt Khanh (Thụ / Ám Vực Lĩnh Chủ / Đại lão phản diện): Bắt buộc dùng 'hắn' trong văn trần thuật ngôi 3. Cấm dùng 'cậu'.\n   Tuyệt đối phân định rạch ròi giữa 'cậu' và 'hắn', không đảo ngược hay dùng lẫn lộn. Các nhân vật phụ khác dùng 'anh ta / gã / ông ta' hoặc gọi tên riêng.\n4. Tuyệt đối phân biệt trần thuật vs lời thoại: Không đem đại từ đối thoại (tôi, em, anh, mày, tao) vào câu trần thuật ngôi 3.\n5. Xưng hô đối thoại Cố Kiêu ↔ Thẩm Nguyệt Khanh:\n   - Ban đầu (khi chưa rõ thân phận / làm việc sơ đạo): Cố Kiêu xưng 'tôi / em', gọi Thẩm Nguyệt Khanh là 'ngài / Ôn tiên sinh / Thẩm tiên sinh'; Thẩm Nguyệt Khanh xưng 'tôi / ta', gọi Cố Kiêu là 'cậu / Cố đồng học / tiểu bằng hữu'.\n   - Khi yêu nhau / thân mật: Cố Kiêu xưng 'em / tôi', gọi Thẩm Nguyệt Khanh là 'anh / Nguyệt Khanh / vợ'; Thẩm Nguyệt Khanh xưng 'anh / ta', gọi Cố Kiêu là 'em / A Kiêu / cún ngốc'.",
+  "confidence_threshold": 0.8,
+  "chunk_size": 20,
+  "created_at": "2026-11-15T20:24:00+07:00",
+  "chapters_count": 122,
+  "is_completed": false,
+  "is_dropped": false,
+  "drop_reason": ""
+}

@@ -1,0 +1,779 @@
+{
+  "ch_001": {
+    "chapter_number": 1,
+    "title": "第1章",
+    "status": "completed",
+    "has_source": true,
+    "has_translation": true
+  },
+  "ch_002": {
+    "chapter_number": 2,
+    "title": "第2章",
+    "status": "completed",
+    "has_source": true,
+    "has_translation": true
+  },
+  "ch_003": {
+    "chapter_number": 3,
+    "title": "第3章",
+    "status": "completed",
+    "has_source": true,
+    "has_translation": true
+  },
+  "ch_004": {
+    "chapter_number": 4,
+    "title": "第4章",
+    "status": "completed",
+    "has_source": true,
+    "has_translation": true
+  },
+  "ch_005": {
+    "chapter_number": 5,
+    "title": "第5章",
+    "status": "completed",
+    "has_source": true,
+    "has_translation": true
+  },
+  "ch_006": {
+    "chapter_number": 6,
+    "title": "第6章",
+    "status": "completed",
+    "has_source": true,
+    "has_translation": true
+  },
+  "ch_007": {
+    "chapter_number": 7,
+    "title": "第7章",
+    "status": "completed",
+    "has_source": true,
+    "has_translation": true
+  },
+  "ch_008": {
+    "chapter_number": 8,
+    "title": "第8章",
+    "status": "completed",
+    "has_source": true,
+    "has_translation": true
+  },
+  "ch_009": {
+    "chapter_number": 9,
+    "title": "第9章",
+    "status": "completed",
+    "has_source": true,
+    "has_translation": true
+  },
+  "ch_010": {
+    "chapter_number": 10,
+    "title": "第10章",
+    "status": "completed",
+    "has_source": true,
+    "has_translation": true
+  },
+  "ch_011": {
+    "chapter_number": 11,
+    "title": "第11章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_012": {
+    "chapter_number": 12,
+    "title": "第12章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_013": {
+    "chapter_number": 13,
+    "title": "第13章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_014": {
+    "chapter_number": 14,
+    "title": "第14章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_015": {
+    "chapter_number": 15,
+    "title": "第15章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_016": {
+    "chapter_number": 16,
+    "title": "第16章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_017": {
+    "chapter_number": 17,
+    "title": "第17章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_018": {
+    "chapter_number": 18,
+    "title": "第18章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_019": {
+    "chapter_number": 19,
+    "title": "第19章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_020": {
+    "chapter_number": 20,
+    "title": "第20章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_021": {
+    "chapter_number": 21,
+    "title": "第21章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_022": {
+    "chapter_number": 22,
+    "title": "第22章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_023": {
+    "chapter_number": 23,
+    "title": "第23章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_024": {
+    "chapter_number": 24,
+    "title": "第24章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_025": {
+    "chapter_number": 25,
+    "title": "第25章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_026": {
+    "chapter_number": 26,
+    "title": "第26章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_027": {
+    "chapter_number": 27,
+    "title": "第27章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_028": {
+    "chapter_number": 28,
+    "title": "第28章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_029": {
+    "chapter_number": 29,
+    "title": "第29章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_030": {
+    "chapter_number": 30,
+    "title": "第30章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_031": {
+    "chapter_number": 31,
+    "title": "第31章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_032": {
+    "chapter_number": 32,
+    "title": "第32章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_033": {
+    "chapter_number": 33,
+    "title": "第33章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_034": {
+    "chapter_number": 34,
+    "title": "第34章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_035": {
+    "chapter_number": 35,
+    "title": "第35章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_036": {
+    "chapter_number": 36,
+    "title": "第36章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_037": {
+    "chapter_number": 37,
+    "title": "第37章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_038": {
+    "chapter_number": 38,
+    "title": "第38章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_039": {
+    "chapter_number": 39,
+    "title": "第39章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_040": {
+    "chapter_number": 40,
+    "title": "第40章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_041": {
+    "chapter_number": 41,
+    "title": "第41章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_042": {
+    "chapter_number": 42,
+    "title": "第42章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_043": {
+    "chapter_number": 43,
+    "title": "第43章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_044": {
+    "chapter_number": 44,
+    "title": "第44章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_045": {
+    "chapter_number": 45,
+    "title": "第45章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_046": {
+    "chapter_number": 46,
+    "title": "第46章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_047": {
+    "chapter_number": 47,
+    "title": "第47章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_048": {
+    "chapter_number": 48,
+    "title": "第48章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_049": {
+    "chapter_number": 49,
+    "title": "第49章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_050": {
+    "chapter_number": 50,
+    "title": "第50章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_051": {
+    "chapter_number": 51,
+    "title": "第51章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_052": {
+    "chapter_number": 52,
+    "title": "第52章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_053": {
+    "chapter_number": 53,
+    "title": "第53章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_054": {
+    "chapter_number": 54,
+    "title": "第54章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_055": {
+    "chapter_number": 55,
+    "title": "第55章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_056": {
+    "chapter_number": 56,
+    "title": "第56章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_057": {
+    "chapter_number": 57,
+    "title": "第57章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_058": {
+    "chapter_number": 58,
+    "title": "第58章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_059": {
+    "chapter_number": 59,
+    "title": "第59章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_060": {
+    "chapter_number": 60,
+    "title": "第60章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_061": {
+    "chapter_number": 61,
+    "title": "第61章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_062": {
+    "chapter_number": 62,
+    "title": "第62章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_063": {
+    "chapter_number": 63,
+    "title": "第63章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_064": {
+    "chapter_number": 64,
+    "title": "第64章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_065": {
+    "chapter_number": 65,
+    "title": "第65章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_066": {
+    "chapter_number": 66,
+    "title": "第66章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_067": {
+    "chapter_number": 67,
+    "title": "第67章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_068": {
+    "chapter_number": 68,
+    "title": "第68章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_069": {
+    "chapter_number": 69,
+    "title": "第69章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_070": {
+    "chapter_number": 70,
+    "title": "第70章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_071": {
+    "chapter_number": 71,
+    "title": "第71章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_072": {
+    "chapter_number": 72,
+    "title": "第72章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_073": {
+    "chapter_number": 73,
+    "title": "第73章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_074": {
+    "chapter_number": 74,
+    "title": "第74章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_075": {
+    "chapter_number": 75,
+    "title": "第75章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_076": {
+    "chapter_number": 76,
+    "title": "第76章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_077": {
+    "chapter_number": 77,
+    "title": "第77章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_078": {
+    "chapter_number": 78,
+    "title": "第78章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_079": {
+    "chapter_number": 79,
+    "title": "第79章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_080": {
+    "chapter_number": 80,
+    "title": "第80章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_081": {
+    "chapter_number": 81,
+    "title": "第81章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_082": {
+    "chapter_number": 82,
+    "title": "第82章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_083": {
+    "chapter_number": 83,
+    "title": "第83章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_084": {
+    "chapter_number": 84,
+    "title": "第84章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_085": {
+    "chapter_number": 85,
+    "title": "第85章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_086": {
+    "chapter_number": 86,
+    "title": "第86章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_087": {
+    "chapter_number": 87,
+    "title": "第87章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_088": {
+    "chapter_number": 88,
+    "title": "第88章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_089": {
+    "chapter_number": 89,
+    "title": "第89章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_090": {
+    "chapter_number": 90,
+    "title": "第90章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_091": {
+    "chapter_number": 91,
+    "title": "第91章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_092": {
+    "chapter_number": 92,
+    "title": "第92章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_093": {
+    "chapter_number": 93,
+    "title": "第93章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_094": {
+    "chapter_number": 94,
+    "title": "第94章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_095": {
+    "chapter_number": 95,
+    "title": "第95章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_096": {
+    "chapter_number": 96,
+    "title": "第96章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_097": {
+    "chapter_number": 97,
+    "title": "第97章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_098": {
+    "chapter_number": 98,
+    "title": "第98章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_099": {
+    "chapter_number": 99,
+    "title": "第99章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_100": {
+    "chapter_number": 100,
+    "title": "第100章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_101": {
+    "chapter_number": 101,
+    "title": "第101章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_102": {
+    "chapter_number": 102,
+    "title": "第102章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_103": {
+    "chapter_number": 103,
+    "title": "第103章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_104": {
+    "chapter_number": 104,
+    "title": "第104章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_105": {
+    "chapter_number": 105,
+    "title": "第105章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_106": {
+    "chapter_number": 106,
+    "title": "第106章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_107": {
+    "chapter_number": 107,
+    "title": "第107章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_108": {
+    "chapter_number": 108,
+    "title": "第108章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_109": {
+    "chapter_number": 109,
+    "title": "第109章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_110": {
+    "chapter_number": 110,
+    "title": "第110章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  },
+  "ch_111": {
+    "chapter_number": 111,
+    "title": "第111章",
+    "status": "ready_to_translate",
+    "has_source": true,
+    "has_translation": false
+  }
+}

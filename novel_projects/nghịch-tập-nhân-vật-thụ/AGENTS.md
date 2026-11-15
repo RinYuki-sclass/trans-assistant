@@ -1,8 +1,8 @@
-# AGENT RULES: NGHỊCH TẬP NHÂN VẬT THỤ! [KHOÁI XUYÊN]
+# AGENT RULES: MÀN PHẢN ĐÒN CỦA NHÂN VẬT THỤ! [XUYÊN NHANH]
 # (《攻成伪受[快穿]》 / 《逆袭反攻！》)
 
 ## 1. THÔNG TIN DỰ ÁN & BỐI CẢNH
-- **Tên truyện:** Nghịch Tập Nhân Vật Thụ! [Khoái Xuyên] (Tên gốc: 《攻成伪受[快穿]》 / 《逆袭反攻！》)
+- **Tên truyện:** Màn Phản Đòn Của Nhân Vật Thụ! [Xuyên Nhanh] (Tên gốc: 《攻成伪受[快穿]》 / 《逆袭反攻！》).
 - **Tên tiếng Anh:** Counterattacking the Submissive Role!
 - **Tác giả:** 七果茶 (Thất Quả Trà)
 - **Slug dự án:** `nghịch-tập-nhân-vật-thụ`

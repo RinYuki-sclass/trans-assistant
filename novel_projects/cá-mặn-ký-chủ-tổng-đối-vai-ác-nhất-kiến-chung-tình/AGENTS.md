@@ -1,7 +1,7 @@
-# AGENT RULES: CÁ MẶN KÝ CHỦ TỔNG ĐỐI VAI ÁC NHẤT KIẾN CHUNG TÌNH?! (《反派不能是双标宿主的老婆！》)
+# AGENT RULES: KÝ CHỦ LƯỜI BIẾNG LUÔN VỪA GẶP ĐÃ YÊU KẺ PHẢN DIỆN?! (《反派不能是双标宿主的老婆！》)
 
 ## 1. THÔNG TIN DỰ ÁN & BỐI CẢNH
-- **Tên truyện:** Cá Mặn Ký Chủ Tổng Đối Vai Ác Nhất Kiến Chung Tình?!
+- **Tên truyện:** Ký Chủ Lười Biếng Luôn Vừa Gặp Đã Yêu Kẻ Phản Diện?! (反派不能是双标宿主的老婆！(咸鱼宿主总对反派一见钟情？！/ 咸鱼攻救赎反派boss指南[快穿])).
 - **Tên gốc / Tên khác:** 
   - 《反派不能是双标宿主的老婆！》 *(Phản Phái Bất Năng Thị Song Tiêu Ký Chủ Đích Lão Bà!)*
   - 《咸鱼宿主总对反派一见钟情？！》 *(Cá Mặn Ký Chủ Tổng Đối Vai Ác Nhất Kiến Chung Tình?!)*

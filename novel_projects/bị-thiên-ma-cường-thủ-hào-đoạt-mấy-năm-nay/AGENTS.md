@@ -1,7 +1,7 @@
-# AGENT RULES: BỊ THIÊN MA CƯỜNG THỦ HÀO ĐOẠT MẤY NĂM NAY (被天魔强取豪夺的那些年)
+# AGENT RULES: NHỮNG NĂM THÁNG BỊ THIÊN MA CƯỠNG ÉP CHIẾM ĐOẠT (被天魔强取豪夺的那些年)
 
 ## 1. THÔNG TIN DỰ ÁN & BỐI CẢNH
-- **Tên truyện:** Bị Thiên Ma Cường Thủ Hào Đoạt Mấy Năm Nay (被天魔强取豪夺的那些年).
+- **Tên truyện:** Những Năm Tháng Bị Thiên Ma Cưỡng Ép Chiếm Đoạt (被天魔强取豪夺的那些年).
 - **Tác giả:** Mộc Cẩn Chi (沐瑾枝).
 - **Slug dự án:** `bị-thiên-ma-cường-thủ-hào-đoạt-mấy-năm-nay`.
 - **Nền tảng gốc:** Tấn Giang (晋江文学城 - JJWXC).

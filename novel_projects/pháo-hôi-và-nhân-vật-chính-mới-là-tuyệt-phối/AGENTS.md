@@ -1,7 +1,7 @@
-# AGENT RULES: PHÁO HÔI VÀ NHÂN VẬT CHÍNH MỚI LÀ TUYỆT PHỐI (《炮灰和主角才是绝配（主攻）》)
+# AGENT RULES: PHÁO HÔI VÀ NHÂN VẬT CHÍNH MỚI LÀ ĐÔI TRỜI SINH [XUYÊN NHANH] (《炮灰和主角才是绝配（主攻）》)
 
 ## 1. THÔNG TIN DỰ ÁN & BỐI CẢNH
-- **Tên truyện:** Pháo Hôi Và Nhân Vật Chính Mới Là Tuyệt Phối [Khoái Xuyên] (《炮灰和主角才是绝配（主攻）》 / 《炮灰与主角绝配》).
+- **Tên truyện:** Pháo Hôi Và Nhân Vật Chính Mới Là Đôi Trời Sinh [Xuyên Nhanh] (《炮灰和主角才是绝配（主攻）》 / 《炮灰与主角绝配》).
 - **Tên tiếng Anh:** Cannon Fodder And The Protagonist Are A Perfect Match.
 - **Tác giả:** Phong Vãn Cuồng Lan (风挽狂澜) *(một số danh sách ghi nhầm thành Thanh Phong - 清风)*.
 - **Slug dự án:** `pháo-hôi-và-nhân-vật-chính-mới-là-tuyệt-phối`.

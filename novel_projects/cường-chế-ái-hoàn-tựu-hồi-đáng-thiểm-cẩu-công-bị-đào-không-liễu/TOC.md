@@ -1,4 +1,4 @@
-# MỤC LỤC: CƯỜNG CHẾ ÁI HOÀN TỰU HỒI ĐÁNG, THIỂM CẨU CÔNG BỊ ĐÀO KHÔNG LIỄU (《强制爱完就回档，舔狗攻被掏空了》)
+# MỤC LỤC: Cưỡng Ép Yêu Xong Lại Quay Về Điểm Lưu, Công Liếm Cẩu Bị Vắt Kiệt Sức (《强制爱完就回档，舔狗攻被掏空了》)
 
 - **Tổng số chương:** 113 chương
 - **Tác giả:** Nãi Cà Đạt Nhân (奶咖达人)

@@ -1,4 +1,4 @@
-# MỤC LỤC: Công Liễu Na Cá Trực Nam Long Ngạo Thiên (攻了那个直男龙傲天)
+# MỤC LỤC: Bẻ Cong Tên Trai Thẳng Long Ngạo Thiên Kia (攻了那个直男龙傲天)
 
 - **Tác giả:** Phong Lưu Khách (风流客)
 - **Thể loại:** Đam mỹ, Chủ công, Xuyên thư, Tiên hiệp, Tu chân, Cường cường, Trọng sinh, Hài hước, 1v1, HE.

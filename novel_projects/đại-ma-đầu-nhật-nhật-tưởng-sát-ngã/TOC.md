@@ -1,4 +1,4 @@
-# 📖 MỤC LỤC: Đại Ma Đầu Nhật Nhật Tưởng Sát Ngã
+# 📖 MỤC LỤC: Đại Ma Đầu Ngày Nào Cũng Muốn Lấy Mạng Tôi
 > **Tác giả:** 冷山月 (Lãnh Sơn Nguyệt) | **Tiến độ:** 126/126 chương (100.0%) | **Cập nhật:** 27/10/2026
 > **Trạng thái:** 🟢 Đã duyệt QC (0) | 🔵 Đã dịch (126) | ⚪ Chưa dịch (0)
 

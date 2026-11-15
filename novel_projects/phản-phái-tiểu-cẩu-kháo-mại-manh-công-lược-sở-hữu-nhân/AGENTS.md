@@ -1,4 +1,4 @@
-# AGENT RULES: PHẢN PHÁI TIỂU CẨU KHÁO MẠI MANH CÔNG LƯỢC SỞ HỮU NHÂN (反派小狗靠卖萌攻略所有人)
+# AGENT RULES: CÚN CON PHẢN DIỆN DỰA VÀO LÀM NŨNG ĐỐN TIM MỌI NGƯỜI (反派小狗靠卖萌攻略所有人)
 
 > **Tác giả:** Nhất Vĩ Hồ Li (一尾狐狸)  
 > **Thể loại:** Đam mỹ, hiện đại giá không, xuyên thư, hệ thống, manh sủng, sa điêu hài hước ngọt sủng, chủ công, mỹ công soái thụ, manh công cường thụ, tình hữu độc chung, 1v1, HE.  

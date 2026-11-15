@@ -1,9 +1,17 @@
 {
+  "chapter_id": "ch_071",
   "chapter": 71,
-  "title": "Chương 71: 灵液修炼",
-  "raw_title": "第七十一章 灵液修炼",
-  "source_word_count": 3031,
-  "paragraphs_count": 131,
-  "status": "pending",
-  "has_translation": false
+  "title": "Chương 71: Tu Luyện Linh Dịch",
+  "title_vi": "Chương 71: Tu Luyện Linh Dịch",
+  "raw_title": "第 71 章 灵液修炼",
+  "source_word_count": 3044,
+  "translation_word_count": 2429,
+  "paragraph_count": 132,
+  "paragraphs_count": 132,
+  "status": "completed",
+  "has_translation": true,
+  "qc_approved": true,
+  "qc_passed": true,
+  "qc_score": 100,
+  "updated_at": "2026-11-15"
 }

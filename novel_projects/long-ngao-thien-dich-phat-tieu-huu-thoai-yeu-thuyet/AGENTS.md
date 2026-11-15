@@ -1,7 +1,7 @@
-# AGENT RULES: LONG NGẠO THIÊN ĐÍCH PHÁT TIỂU HỮU THOẠI YẾU THUYẾT (龙傲天的发小有话要说)
+# AGENT RULES: BẠN NỐI KHỐ CỦA LONG NGẠO THIÊN CÓ ĐIỀU MUỐN NÓI (龙傲天的发小有话要说)
 
 ## 1. THÔNG TIN DỰ ÁN & BỐI CẢNH
-- **Tên truyện:** Long Ngạo Thiên Đích Phát Tiểu Hữu Thoại Yếu Thuyết (龙傲天的发小有话要说)
+- **Tên truyện:** Bạn Nối Khố Của Long Ngạo Thiên Có Điều Muốn Nói (龙傲天的发小有话要说).
 - **Tác giả:** Thanh Thủy Thiêu Ngư (清水烧鱼)
 - **Slug dự án:** `long-ngao-thien-dich-phat-tieu-huu-thoai-yeu-thuyet`
 - **Thể loại:** Đam mỹ, Chủ công, Tổng công, Huyền huyễn, Hải Đường, Cường cường, 1v4, HE

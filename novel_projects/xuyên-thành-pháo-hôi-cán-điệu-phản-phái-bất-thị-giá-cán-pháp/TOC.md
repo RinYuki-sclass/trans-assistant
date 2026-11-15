@@ -1,4 +1,4 @@
-# 📖 MỤC LỤC: Xuyên Thành Pháo Hôi Cán Điệu Phản Phái, Bất Thị Giá Cán Pháp
+# 📖 MỤC LỤC: Xuyên Thành Kẻ Lót Đường Trừ Khử Phản Diện, Không Phải Làm Kiểu Này Đâu! (穿成炮灰干掉反派，不是这干法！)
 > **Tác giả:** Lăng Thần Cản Cảo Linh Cảm Hảo (凌晨赶稿灵感好) | **Tiến độ:** 0/173 chương (0.0%) | **Cập nhật:** 07/11/2026
 > **Trạng thái:** 🟢 Đã duyệt QC (0) | 🔵 Đã dịch (0) | ⚪ Chưa dịch (173)
 

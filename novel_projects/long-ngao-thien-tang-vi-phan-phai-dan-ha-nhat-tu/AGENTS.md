@@ -1,7 +1,7 @@
-# AGENT RULES: LONG NGẠO THIÊN TẰNG VI PHẢN PHÁI ĐẢN HẠ NHẤT TỬ (龙傲天曾为反派诞下一子)
+# AGENT RULES: LONG NGẠO THIÊN TỪNG SINH CON CHO KẺ PHẢN DIỆN (龙傲天曾为反派诞下一子)
 
 ## 1. THÔNG TIN DỰ ÁN & BỐI CẢNH
-- **Tên truyện:** Long Ngạo Thiên Tằng Vi Phản Phái Đản Hạ Nhất Tử (龙傲天曾为反派诞下一子)
+- **Tên truyện:** Long Ngạo Thiên Từng Sinh Con Cho Kẻ Phản Diện (龙傲天曾为反派诞下一子).
 - **Tác giả:** Phong Lưu Khách (风流客)
 - **Slug dự án:** `long-ngao-thien-tang-vi-phan-phai-dan-ha-nhat-tu`
 - **Thể loại:** Đam mỹ, Chủ công, Tiên hiệp, Tu chân, Xuyên thư, Sinh tử văn, Phá kính trùng viên, Hài hước sảng văn, 1v1, HE.

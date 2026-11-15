@@ -1,4 +1,4 @@
-# 📖 MỤC LỤC: Phản Phái Tiểu Cẩu Kháo Mại Manh Công Lược Sở Hữu Nhân
+# 📖 MỤC LỤC: Cún Con Phản Diện Dựa Vào Làm Nũng Đốn Tim Mọi Người (反派小狗靠卖萌攻略所有人)
 > **Tác giả:** Nhất Vĩ Hồ Li (一尾狐狸) | **Tiến độ:** 46/46 chương (100% - HOÀN THÀNH TOÀN BỘ DỰ ÁN) | **Cập nhật:** 08/11/2026
 > **Trạng thái:** 🟢 Đã duyệt QC (46) | 🔵 Đã dịch (0) | ⚪ Chưa dịch (0)
 

@@ -1,4 +1,4 @@
-# AGENT RULES: CƯỜNG CHẾ ÁI HOÀN TỰU HỒI ĐÁNG, THIỂM CẨU CÔNG BỊ ĐÀO KHÔNG LIỄU (强制爱完就回档，舔狗攻被掏空了)
+# AGENT RULES: CƯỠNG ÉP YÊU XONG LẠI QUAY VỀ ĐIỂM LƯU, CÔNG LIẾM CẨU BỊ VẮT KIỆT SỨC (强制爱完就回档，舔狗攻被掏空了)
 
 > **Tên tác phẩm:** Cường Chế Ái Hoàn Tựu Hồi Đáng, Thiểm Cẩu Công Bị Đào Không Liễu (强制爱完就回档，舔狗攻被掏空了)  
 > **Tác giả:** Nãi Cà Đạt Nhân (奶咖达人)  

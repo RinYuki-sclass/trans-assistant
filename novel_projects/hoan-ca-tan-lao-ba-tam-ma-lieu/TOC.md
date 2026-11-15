@@ -1,4 +1,4 @@
-# MỤC LỤC: Hoán Cá Tân Lão Bà Tẩm Ma Liễu? [Trọng Sinh] (换个新老婆怎么了？[重生])
+# MỤC LỤC: Đổi Vợ Mới Thì Đã Sao? [Trọng Sinh] (换个新老婆怎么了？[重生])
 
 > Tổng số chương dự kiến: 95 chương.
 

@@ -1,7 +1,7 @@
-# AGENT RULES: TRÒ CHƠI SĂN TIM [KHOÁI XUYÊN] (《狩心游戏》)
+# AGENT RULES: TRÒ CHƠI SĂN TIM [XUYÊN NHANH] (《狩心游戏》)
 
 ## 1. THÔNG TIN DỰ ÁN & BỐI CẢNH
-- **Tên truyện:** Trò Chơi Săn Tim [Khoái Xuyên] (《狩心游戏》).
+- **Tên truyện:** Trò Chơi Săn Tim [Xuyên Nhanh] (《狩心游戏》).
 - **Tên tiếng Anh:** Heart-Hunting Game.
 - **Tác giả:** 碉堡堡 (Điêu Bảo Bảo / Bunker).
 - **Slug dự án:** `trò-chơi-săn-tim`.

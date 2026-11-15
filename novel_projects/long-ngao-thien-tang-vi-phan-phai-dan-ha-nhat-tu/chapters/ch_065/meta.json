@@ -1,9 +1,13 @@
 {
   "chapter": 65,
-  "title": "Chương 65: 欲",
+  "title": "Chương 65: Dục",
   "raw_title": "第六十五章 欲",
   "source_word_count": 3449,
-  "paragraphs_count": 144,
-  "status": "pending",
-  "has_translation": false
+  "translation_word_count": 3212,
+  "paragraphs_count": 145,
+  "status": "completed",
+  "has_translation": true,
+  "qc_approved": true,
+  "qc_score": 100,
+  "updated_at": "2026-11-15"
 }

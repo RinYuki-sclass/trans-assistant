@@ -1,7 +1,7 @@
-# AGENT RULES: OAN CHỦNG CÔNG HẮN QUYẾT ĐỊNH ĐỔI LÃO BÀ (冤种攻他决定换个老婆)
+# AGENT RULES: ANH CÔNG XUI XẺO QUYẾT ĐỊNH ĐỔI VỢ (冤种攻他决定换个老婆)
 
 ## 1. THÔNG TIN DỰ ÁN & BỐI CẢNH
-- **Tên truyện:** Oan Chủng Công Hắn Quyết Định Đổi Lão Bà (冤种攻他决定换个老婆)
+- **Tên truyện:** Anh Công Xui Xẻo Quyết Định Đổi Vợ (冤种攻他决定换个老婆).
 - **Tác giả:** Hồ La Bảo (胡萝宝)
 - **Slug dự án:** `oan-chung-cong-han-quyet-dinh-doi-lao-ba`
 - **Thể loại:** Đam mỹ, Chủ công, Hiện đại, Đô thị, Đổi thụ, Điềm sủng, Vả mặt, Đơn nguyên văn, HE

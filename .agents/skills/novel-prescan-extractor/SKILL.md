@@ -30,12 +30,13 @@ Pre-scans the raw chapter (`chapters/ch_xxx/source.md`) before any translation s
    - Identify interacting character pairs in the chapter.
    - Retrieve current relationship & pronouns from `memory/characters.json` or `memory/relationships.json`.
    - If there is a new relationship or an ambiguous tone (formal vs. casual, intimate vs. hostile), flag it.
+   - **Deterministic Single-Option Pronoun Rule:** In Table A, propose strictly ONE distinct self-pronoun and calling pronoun for each character in that specific stage/scene. Prohibit ambiguous multi-option lists like `tôi / em` or `anh / ta`.
 
 4. **Generate QA Clarification Report**:
    Output strictly two tables:
 
-   ### 📋 BẢNG A: Thống nhất Xưng hô & Đối thoại trong chương
-   | STT | Cặp nhân vật | Ngữ cảnh trong chương | Đề xuất xưng hô (Tôi - anh / Tôi - cậu...) | Trạng thái / Lựa chọn |
+   ### 📋 BẢNG A: Thống nhất Xưng hô & Đối thoại trong chương (Khóa cứng 1 lựa chọn duy nhất)
+   | STT | Cặp nhân vật | Ngữ cảnh & Giai đoạn | Đề xuất xưng hô chốt cứng (VD: Tôi - Ôn tiên sinh / Em - Anh) | Trạng thái / Lựa chọn |
    | :---: | :--- | :--- | :--- | :---: |
 
    ### 📋 BẢNG B: Thuật ngữ / Thực thể mới xuất hiện

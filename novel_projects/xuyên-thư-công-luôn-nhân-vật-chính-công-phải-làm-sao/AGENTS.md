@@ -1,7 +1,7 @@
-# AGENT RULES: XUYÊN THƯ CÔNG LUÔN NHÂN VẬT CHÍNH CÔNG PHẢI LÀM SAO (穿书攻了主角攻怎么办)
+# AGENT RULES: XUYÊN SÁCH ĐÈ LUÔN NAM CHÍNH CÔNG THÌ PHẢI LÀM SAO? (穿书攻了主角攻怎么办)
 
 ## 1. THÔNG TIN DỰ ÁN & BỐI CẢNH
-- **Tên truyện:** Xuyên Thư Công Luôn Nhân Vật Chính Công Phải Làm Sao (穿书攻了主角攻怎么办).
+- **Tên truyện:** Xuyên Sách Đè Luôn Nam Chính Công Thì Phải Làm Sao? (穿书攻了主角攻怎么办).
 - **Tác giả:** 红罐乌苏 (Hồng Quán Ô Tô).
 - **Slug dự án:** `xuyên-thư-công-luôn-nhân-vật-chính-công-phải-làm-sao`.
 - **Nền tảng:** Tấn Giang (晋江文学城 - JJWXC).

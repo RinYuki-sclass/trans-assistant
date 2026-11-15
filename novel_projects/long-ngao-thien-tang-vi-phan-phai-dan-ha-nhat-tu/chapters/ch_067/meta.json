@@ -1,9 +1,14 @@
 {
   "chapter": 67,
-  "title": "Chương 67: 重逢",
-  "raw_title": "第六十七章 重逢",
-  "source_word_count": 3913,
-  "paragraphs_count": 165,
-  "status": "pending",
-  "has_translation": false
+  "chapter_id": "ch_067",
+  "title": "Chương 67: Trùng Phùng",
+  "raw_title": "第 67 章 重逢",
+  "source_word_count": 3904,
+  "translation_word_count": 3228,
+  "paragraphs_count": 166,
+  "status": "completed",
+  "has_translation": true,
+  "qc_approved": true,
+  "qc_score": 100,
+  "updated_at": "2026-11-15"
 }

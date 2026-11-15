@@ -1,4 +1,4 @@
-# AGENT RULES: TÚC CHỦ, NHẬM VỤ MỘT NHƯỢNG NHĨ ĐÀM LUYẾN ÁI (宿主，任务没让你谈恋爱)
+# AGENT RULES: KÝ CHỦ ƠI, NHIỆM VỤ ĐÂU CÓ BẢO CẬU ĐI YÊU ĐƯƠNG! (宿主，任务没让你谈恋爱)
 
 > **Tên tác phẩm:** Túc Chủ, Nhậm Vụ Một Nhượng Nhĩ Đàm Luyến Ái (宿主，任务没让你谈恋爱)  
 > **Tên dịch:** Ký Chủ, Nhiệm Vụ Đâu Có Bảo Ngươi Đi Yêu Đương  

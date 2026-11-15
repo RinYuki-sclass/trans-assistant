@@ -1,0 +1,25 @@
+{
+  "title": "Mạt Thế: Tuyệt Đối Phục Tùng",
+  "chinese_title": "末世之绝对服从",
+  "author": "Đang cập nhật",
+  "slug": "mat-the-chi-tuyet-doi-phuc-tung",
+  "source_lang": "Chinese",
+  "target_lang": "Vietnamese",
+  "genre": [
+    "Đam mỹ",
+    "Chủ công",
+    "Dị năng quân sự",
+    "Mạt thế phế thổ",
+    "Hạ khắc thượng",
+    "Thâm tình trung khuyển công x Bá đạo quân vương Long Ngạo Thiên thụ",
+    "1v1",
+    "HE"
+  ],
+  "description": "Tiểu thuyết mạt thế quân sự dị năng chủ công 1v1. Công là sĩ quan cận vệ kiêm chiến sĩ tiên phong trầm mặc kiên định, xem mệnh lệnh của thụ là thiên chỉ. Thụ là tư lệnh chiến khu, dị năng giả mạnh nhất thế giới, phong thái ngút trời nhưng bị bạo động tinh thần lực, chỉ có công mới xoa dịu được. Cảnh hạ khắc thượng, trước mặt người ngoài công quỳ gối xưng ngài, sau cánh cửa phòng kín lại ôm chặt dỗ dành và chiếm hữu.",
+  "style_guide": "Chủ công, mạt thế quân sự, hạ khắc thượng, trung khuyển công x bá đạo vương giả thụ.\n1. Định dạng \\n\\n giữa các đoạn văn.\n2. Lời thoại ngoặc kép “...”.\n3. Đại từ: Công xưng anh/hắn, Thụ xưng cậu/hắn/ngài.",
+  "confidence_threshold": 0.8,
+  "chunk_size": 20,
+  "created_at": "2026-11-15T16:48:00",
+  "is_completed": false,
+  "is_dropped": false
+}

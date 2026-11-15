@@ -1,0 +1,21 @@
+{
+  "project": "long-ngao-thien-canh-thi-luyen-ai-nao",
+  "characters": [
+    {
+      "id": "char_1",
+      "name": "Dư Hạc Nhàn",
+      "chinese_name": "余鹤闲",
+      "role": "Công chính (Mỹ công, xuyên thư, lười nhác, IQ cao)",
+      "narrative_pronoun": "anh",
+      "description": "Nhan sắc nghịch thiên, lười biếng nhưng thâm tàng bất lộ, người duy nhất chế ngự được Long Ngạo Thiên"
+    },
+    {
+      "id": "char_2",
+      "name": "Sở Vân Hứa",
+      "chinese_name": "楚云许",
+      "role": "Thụ chính (Long Ngạo Thiên nam chính Khởi Điểm)",
+      "narrative_pronoun": "hắn",
+      "description": "Chiến lực bạo biểu, phong cách thẳng nam thiết huyết, nhưng khi ở cạnh công thì luyến ái não, nghiện da thịt và hơi ấm của công"
+    }
+  ]
+}

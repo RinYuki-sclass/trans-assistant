@@ -1,4 +1,4 @@
-# MỤC LỤC: Phản Phái Nhượng Long Ngạo Thiên Hoài Tử Hậu (反派让龙傲天怀崽后)
+# MỤC LỤC: Sau Khi Kẻ Phản Diện Khiến Long Ngạo Thiên Mang Thai (反派让龙傲天怀崽后)
 
 > Tổng số chương dự kiến: 80 chương.
 

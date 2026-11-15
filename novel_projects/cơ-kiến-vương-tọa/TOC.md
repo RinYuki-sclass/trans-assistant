@@ -1,4 +1,4 @@
-# 📖 MỤC LỤC: Cơ Kiến Vương Tọa
+# 📖 MỤC LỤC: Ngai Vàng Khai Khẩn Lập Quốc (基建王座)
 > **Tác giả:** Tử Vũ Nguyệt Uyên (紫舞玥鸢) | **Tiến độ:** 10/145 chương (6.9%) | **Cập nhật:** 27/10/2026
 > **Trạng thái:** 🟢 Đã duyệt QC (0) | 🔵 Đã dịch (10) | ⚪ Chưa dịch (135)
 

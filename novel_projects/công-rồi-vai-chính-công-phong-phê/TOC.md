@@ -1,4 +1,4 @@
-# 📖 MỤC LỤC: Công Rồi Vai Chính Công Phong Phê! [Khoái Xuyên]
+# 📖 MỤC LỤC: Đè Luôn Nam Chính Công Điên Cuồng! [Xuyên Nhanh] (攻了疯批主角攻！[快穿])
 > **Tác giả:** Mộc Cẩn Chi (沐瑾枝) | **Tiến độ:** 0/0 chương (0.0%) | **Cập nhật:** 27/10/2026
 > **Trạng thái:** 🛑 DROP (Lý do: Chưa xuất bản - Tác phẩm hiện là hố dự thu 0 chữ trên Tấn Giang)
 

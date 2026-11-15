@@ -1,9 +1,13 @@
 {
   "chapter": 52,
-  "title": "Chương 52: 神交",
+  "title": "Chương 52: Thần giao",
   "raw_title": "第五十二章 神交",
-  "source_word_count": 3019,
+  "source_word_count": 2748,
+  "translation_word_count": 3012,
   "paragraphs_count": 121,
-  "status": "pending",
-  "has_translation": false
+  "status": "completed",
+  "has_translation": true,
+  "qc_approved": true,
+  "qc_score": 100,
+  "updated_at": "2026-11-15"
 }
