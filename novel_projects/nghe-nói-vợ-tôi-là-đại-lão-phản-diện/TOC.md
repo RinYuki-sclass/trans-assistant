@@ -1,6 +1,6 @@
 # 📖 MỤC LỤC: Nghe Nói Vợ Tôi Là Đại Lão Phản Diện
-> **Tác giả:** Đại Bạch Sư (大白狮) | **Tiến độ:** 20/122 chương (16.4%) | **Cập nhật:** 15/11/2026
-> **Trạng thái:** 🟢 Đã duyệt QC (20) | 🔵 Đã dịch (0) | ⚪ Chưa dịch (102)
+> **Tác giả:** Đại Bạch Sư (大白狮) | **Tiến độ:** 60/122 chương (49.2%) | **Cập nhật:** 16/11/2026
+> **Trạng thái:** 🟢 Đã duyệt QC (60) | 🔵 Đã dịch (0) | ⚪ Chưa dịch (62)
 
 ---
 
@@ -28,46 +28,46 @@
 | 18 | ch_018 | [Chương 18](chapters/ch_018/translation.md) | 第18章 | 68 | 2254 | 🟢 Đã duyệt QC |
 | 19 | ch_019 | [Chương 19](chapters/ch_019/translation.md) | 第19章 | 87 | 2561 | 🟢 Đã duyệt QC |
 | 20 | ch_020 | [Chương 20](chapters/ch_020/translation.md) | 第20章 | 94 | 2961 | 🟢 Đã duyệt QC |
-| 21 | ch_021 | [Chương 21](chapters/ch_021/source.md) | 第21章 | 63 | 2191 | ⚪ Chưa dịch |
-| 22 | ch_022 | [Chương 22](chapters/ch_022/source.md) | 第22章 | 120 | 3862 | ⚪ Chưa dịch |
-| 23 | ch_023 | [Chương 23](chapters/ch_023/source.md) | 第23章 | 124 | 4268 | ⚪ Chưa dịch |
-| 24 | ch_024 | [Chương 24](chapters/ch_024/source.md) | 第24章 | 266 | 9900 | ⚪ Chưa dịch |
-| 25 | ch_025 | [Chương 25](chapters/ch_025/source.md) | 第25章 | 108 | 3303 | ⚪ Chưa dịch |
-| 26 | ch_026 | [Chương 26](chapters/ch_026/source.md) | 第26章 | 117 | 4233 | ⚪ Chưa dịch |
-| 27 | ch_027 | [Chương 27](chapters/ch_027/source.md) | 第27章 | 126 | 4208 | ⚪ Chưa dịch |
-| 28 | ch_028 | [Chương 28](chapters/ch_028/source.md) | 第28章 | 69 | 2525 | ⚪ Chưa dịch |
-| 29 | ch_029 | [Chương 29](chapters/ch_029/source.md) | 第29章 | 109 | 4167 | ⚪ Chưa dịch |
-| 30 | ch_030 | [Chương 30](chapters/ch_030/source.md) | 第30章 | 96 | 3886 | ⚪ Chưa dịch |
-| 31 | ch_031 | [Chương 31](chapters/ch_031/source.md) | 第31章 | 125 | 4250 | ⚪ Chưa dịch |
-| 32 | ch_032 | [Chương 32](chapters/ch_032/source.md) | 第32章 | 70 | 3117 | ⚪ Chưa dịch |
-| 33 | ch_033 | [Chương 33](chapters/ch_033/source.md) | 第33章 | 58 | 2545 | ⚪ Chưa dịch |
-| 34 | ch_034 | [Chương 34](chapters/ch_034/source.md) | 第34章 | 67 | 3247 | ⚪ Chưa dịch |
-| 35 | ch_035 | [Chương 35](chapters/ch_035/source.md) | 第35章 | 50 | 2038 | ⚪ Chưa dịch |
-| 36 | ch_036 | [Chương 36](chapters/ch_036/source.md) | 第36章 | 107 | 3951 | ⚪ Chưa dịch |
-| 37 | ch_037 | [Chương 37](chapters/ch_037/source.md) | 第37章 | 66 | 2811 | ⚪ Chưa dịch |
-| 38 | ch_038 | [Chương 38](chapters/ch_038/source.md) | 第38章 | 175 | 6463 | ⚪ Chưa dịch |
-| 39 | ch_039 | [Chương 39](chapters/ch_039/source.md) | 第39章 | 87 | 3479 | ⚪ Chưa dịch |
-| 40 | ch_040 | [Chương 40](chapters/ch_040/source.md) | 第40章 | 83 | 3296 | ⚪ Chưa dịch |
-| 41 | ch_041 | [Chương 41](chapters/ch_041/source.md) | 第41章 | 133 | 5108 | ⚪ Chưa dịch |
-| 42 | ch_042 | [Chương 42](chapters/ch_042/source.md) | 第42章 | 88 | 3114 | ⚪ Chưa dịch |
-| 43 | ch_043 | [Chương 43](chapters/ch_043/source.md) | 第43章 | 91 | 3258 | ⚪ Chưa dịch |
-| 44 | ch_044 | [Chương 44](chapters/ch_044/source.md) | 第44章 | 59 | 2156 | ⚪ Chưa dịch |
-| 45 | ch_045 | [Chương 45](chapters/ch_045/source.md) | 第45章 | 72 | 2996 | ⚪ Chưa dịch |
-| 46 | ch_046 | [Chương 46](chapters/ch_046/source.md) | 第46章 | 88 | 3739 | ⚪ Chưa dịch |
-| 47 | ch_047 | [Chương 47](chapters/ch_047/source.md) | 第47章 | 99 | 4259 | ⚪ Chưa dịch |
-| 48 | ch_048 | [Chương 48](chapters/ch_048/source.md) | 第48章 | 59 | 2190 | ⚪ Chưa dịch |
-| 49 | ch_049 | [Chương 49](chapters/ch_049/source.md) | 第49章 | 97 | 3671 | ⚪ Chưa dịch |
-| 50 | ch_050 | [Chương 50](chapters/ch_050/source.md) | 第50章 | 56 | 2556 | ⚪ Chưa dịch |
-| 51 | ch_051 | [Chương 51](chapters/ch_051/source.md) | 第51章 | 51 | 2504 | ⚪ Chưa dịch |
-| 52 | ch_052 | [Chương 52](chapters/ch_052/source.md) | 第52章 | 90 | 4615 | ⚪ Chưa dịch |
-| 53 | ch_053 | [Chương 53](chapters/ch_053/source.md) | 第53章 | 73 | 3202 | ⚪ Chưa dịch |
-| 54 | ch_054 | [Chương 54](chapters/ch_054/source.md) | 第54章 | 51 | 2211 | ⚪ Chưa dịch |
-| 55 | ch_055 | [Chương 55](chapters/ch_055/source.md) | 第55章 | 176 | 7571 | ⚪ Chưa dịch |
-| 56 | ch_056 | [Chương 56](chapters/ch_056/source.md) | 第56章 | 76 | 3445 | ⚪ Chưa dịch |
-| 57 | ch_057 | [Chương 57](chapters/ch_057/source.md) | 第57章 | 123 | 5266 | ⚪ Chưa dịch |
-| 58 | ch_058 | [Chương 58](chapters/ch_058/source.md) | 第58章 | 73 | 3696 | ⚪ Chưa dịch |
-| 59 | ch_059 | [Chương 59](chapters/ch_059/source.md) | 第59章 | 133 | 6086 | ⚪ Chưa dịch |
-| 60 | ch_060 | [Chương 60](chapters/ch_060/source.md) | 第60章 | 36 | 2137 | ⚪ Chưa dịch |
+| 21 | ch_021 | [Chương 21](chapters/ch_021/translation.md) | 第21章 | 64 | 1712 | 🟢 Đã duyệt QC |
+| 22 | ch_022 | [Chương 22](chapters/ch_022/translation.md) | 第22章 | 121 | 2918 | 🟢 Đã duyệt QC |
+| 23 | ch_023 | [Chương 23](chapters/ch_023/translation.md) | 第23章 | 125 | 3085 | 🟢 Đã duyệt QC |
+| 24 | ch_024 | [Chương 24](chapters/ch_024/translation.md) | 第24章 | 267 | 8682 | 🟢 Đã duyệt QC |
+| 25 | ch_025 | [Chương 25](chapters/ch_025/translation.md) | 第25章 | 109 | 2180 | 🟢 Đã duyệt QC |
+| 26 | ch_026 | [Chương 26](chapters/ch_026/translation.md) | 第26章 | 118 | 2784 | 🟢 Đã duyệt QC |
+| 27 | ch_027 | [Chương 27](chapters/ch_027/translation.md) | 第27章 | 127 | 2650 | 🟢 Đã duyệt QC |
+| 28 | ch_028 | [Chương 28](chapters/ch_028/translation.md) | 第28章 | 70 | 1825 | 🟢 Đã duyệt QC |
+| 29 | ch_029 | [Chương 29](chapters/ch_029/translation.md) | 第29章 | 109 | 2465 | 🟢 Đã duyệt QC |
+| 30 | ch_030 | [Chương 30](chapters/ch_030/translation.md) | 第30章 | 97 | 2265 | 🟢 Đã duyệt QC |
+| 31 | ch_031 | [Chương 31](chapters/ch_031/translation.md) | 第31章 | 126 | 2915 | 🟢 Đã duyệt QC |
+| 32 | ch_032 | [Chương 32](chapters/ch_032/translation.md) | 第32章 | 71 | 1912 | 🟢 Đã duyệt QC |
+| 33 | ch_033 | [Chương 33](chapters/ch_033/translation.md) | 第33章 | 59 | 1598 | 🟢 Đã duyệt QC |
+| 34 | ch_034 | [Chương 34](chapters/ch_034/translation.md) | 第34章 | 68 | 2068 | 🟢 Đã duyệt QC |
+| 35 | ch_035 | [Chương 35](chapters/ch_035/translation.md) | 第35章 | 51 | 1358 | 🟢 Đã duyệt QC |
+| 36 | ch_036 | [Chương 36](chapters/ch_036/translation.md) | 第36章 | 108 | 2562 | 🟢 Đã duyệt QC |
+| 37 | ch_037 | [Chương 37](chapters/ch_037/translation.md) | 第37章 | 67 | 1685 | 🟢 Đã duyệt QC |
+| 38 | ch_038 | [Chương 38](chapters/ch_038/translation.md) | 第38章 | 176 | 4385 | 🟢 Đã duyệt QC |
+| 39 | ch_039 | [Chương 39](chapters/ch_039/translation.md) | 第39章 | 88 | 2145 | 🟢 Đã duyệt QC |
+| 40 | ch_040 | [Chương 40](chapters/ch_040/translation.md) | 第40章 | 84 | 1936 | 🟢 Đã duyệt QC |
+| 41 | ch_041 | [Chương 41](chapters/ch_041/translation.md) | 第41章 | 134 | 3128 | 🟢 Đã duyệt QC |
+| 42 | ch_042 | [Chương 42](chapters/ch_042/translation.md) | 第42章 | 89 | 1915 | 🟢 Đã duyệt QC |
+| 43 | ch_043 | [Chương 43](chapters/ch_043/translation.md) | 第43章 | 92 | 2085 | 🟢 Đã duyệt QC |
+| 44 | ch_044 | [Chương 44](chapters/ch_044/translation.md) | 第44章 | 60 | 1396 | 🟢 Đã duyệt QC |
+| 45 | ch_045 | [Chương 45](chapters/ch_045/translation.md) | 第45章 | 73 | 1825 | 🟢 Đã duyệt QC |
+| 46 | ch_046 | [Chương 46](chapters/ch_046/translation.md) | 第46章 | 89 | 2118 | 🟢 Đã duyệt QC |
+| 47 | ch_047 | [Chương 47](chapters/ch_047/translation.md) | 第47章 | 100 | 2385 | 🟢 Đã duyệt QC |
+| 48 | ch_048 | [Chương 48](chapters/ch_048/translation.md) | 第48章 | 60 | 1412 | 🟢 Đã duyệt QC |
+| 49 | ch_049 | [Chương 49](chapters/ch_049/translation.md) | 第49章 | 98 | 2380 | 🟢 Đã duyệt QC |
+| 50 | ch_050 | [Chương 50](chapters/ch_050/translation.md) | 第50章 | 57 | 1352 | 🟢 Đã duyệt QC |
+| 51 | ch_051 | [Chương 51](chapters/ch_051/translation.md) | 第51章 | 52 | 1420 | 🟢 Đã duyệt QC |
+| 52 | ch_052 | [Chương 52](chapters/ch_052/translation.md) | 第52章 | 91 | 4212 | 🟢 Đã duyệt QC |
+| 53 | ch_053 | [Chương 53](chapters/ch_053/translation.md) | 第53章 | 74 | 2796 | 🟢 Đã duyệt QC |
+| 54 | ch_054 | [Chương 54](chapters/ch_054/translation.md) | 第54章 | 52 | 1976 | 🟢 Đã duyệt QC |
+| 55 | ch_055 | [Chương 55](chapters/ch_055/translation.md) | 第55章 | 177 | 6765 | 🟢 Đã duyệt QC |
+| 56 | ch_056 | [Chương 56](chapters/ch_056/translation.md) | 第56章 | 77 | 3152 | 🟢 Đã duyệt QC |
+| 57 | ch_057 | [Chương 57](chapters/ch_057/translation.md) | 第57章 | 124 | 4656 | 🟢 Đã duyệt QC |
+| 58 | ch_058 | [Chương 58](chapters/ch_058/translation.md) | 第58章 | 74 | 3672 | 🟢 Đã duyệt QC |
+| 59 | ch_059 | [Chương 59](chapters/ch_059/translation.md) | 第59章 | 134 | 5563 | 🟢 Đã duyệt QC |
+| 60 | ch_060 | [Chương 60](chapters/ch_060/translation.md) | 第60章 | 37 | 2114 | 🟢 Đã duyệt QC |
 | 61 | ch_061 | [Chương 61](chapters/ch_061/source.md) | 第61章 | 67 | 3634 | ⚪ Chưa dịch |
 | 62 | ch_062 | [Chương 62](chapters/ch_062/source.md) | 第62章 | 71 | 3201 | ⚪ Chưa dịch |
 | 63 | ch_063 | [Chương 63](chapters/ch_063/source.md) | 第63章 | 57 | 2472 | ⚪ Chưa dịch |
