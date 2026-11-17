@@ -2,7 +2,7 @@
 
 > **Tác giả:** Thù Xuyên (酬川)  
 > **Thể loại:** Đam mỹ, tinh tế ABO, xuyên thư, chủ công, Beta công x Alpha thụ, hài hước, ngọt sủng, HE.  
-> **Tiến độ:** Đã hoàn thành dịch và QC 5/48 chương (từ ch_091 đến ch_095).  
+> **Tiến độ:** Đã hoàn thành dịch và QC 7/48 chương (từ ch_091 đến ch_097).  
 
 ---
 
@@ -15,23 +15,23 @@
 | `ch_093` | 第93章 | Chương 93 | 131 | 🟢 completed |
 | `ch_094` | 第94章 | Chương 94 | 119 | 🟢 completed |
 | `ch_095` | 第95章 | Chương 95 | 88 | 🟢 completed |
-| `ch_096` | 第96章 | Chương 96 | 194 | 🟡 raw_ready |
-| `ch_097` | 第97章 | Chương 97 | 142 | 🟡 raw_ready |
-| `ch_098` | 第98章 | Chương 98 | 102 | 🟡 raw_ready |
-| `ch_099` | 第99章 | Chương 99 | 158 | 🟡 raw_ready |
-| `ch_100` | 第100章 | Chương 100 | 103 | 🟡 raw_ready |
-| `ch_101` | 第101章 | Chương 101 | 185 | 🟡 raw_ready |
-| `ch_102` | 第102章 | Chương 102 | 94 | 🟡 raw_ready |
-| `ch_103` | 第103章 | Chương 103 | 115 | 🟡 raw_ready |
-| `ch_104` | 第104章 | Chương 104 | 160 | 🟡 raw_ready |
-| `ch_105` | 第105章 | Chương 105 | 104 | 🟡 raw_ready |
-| `ch_106` | 第106章 | Chương 106 | 112 | 🟡 raw_ready |
-| `ch_107` | 第107章 | Chương 107 | 140 | 🟡 raw_ready |
-| `ch_108` | 第108章 | Chương 108 | 136 | 🟡 raw_ready |
-| `ch_109` | 第109章 | Chương 109 | 127 | 🟡 raw_ready |
-| `ch_110` | 第110章 | Chương 110 | 124 | 🟡 raw_ready |
-| `ch_111` | 第111章 | Chương 111 | 107 | 🟡 raw_ready |
-| `ch_112` | 第112章 | Chương 112 | 181 | 🟡 raw_ready |
+| `ch_096` | 第96章 | Chương 96 | 191 | 🟢 completed |
+| `ch_097` | 第97章 | Chương 97 | 140 | 🟢 completed |
+| `ch_098` | 第98章 | Chương 98 | 101 | 🟢 completed |
+| `ch_099` | 第99章 | Chương 99 | 156 | 🟢 completed |
+| `ch_100` | 第100章 | Chương 100 | 102 | 🟢 completed |
+| `ch_101` | 第101章 | Chương 101 | 183 | 🟢 completed |
+| `ch_102` | 第102章 | Chương 102 | 94 | 🟢 completed |
+| `ch_103` | 第103章 | Chương 103 | 113 | 🟢 completed |
+| `ch_104` | 第104章 | Chương 104 | 158 | 🟢 completed |
+| `ch_105` | 第105章 | Chương 105 | 103 | 🟢 completed |
+| `ch_106` | 第106章 | Chương 106 | 111 | 🟢 completed |
+| `ch_107` | 第107章 | Chương 107 | 138 | 🟢 completed |
+| `ch_108` | 第108章 | Chương 108 | 135 | 🟢 completed |
+| `ch_109` | 第109章 | Chương 109 | 126 | 🟢 completed |
+| `ch_110` | 第110章 | Chương 110 | 123 | 🟢 completed |
+| `ch_111` | 第111章 | Chương 111 | 106 | 🟢 completed |
+| `ch_112` | 第112章 | Chương 112 | 179 | 🟢 completed |
 | `ch_113` | 第113章 番外咸鱼生活有点甜 | Chương 113 : [Phiên ngoại] Cuộc sống cá mặn có chút ngọt | 187 | 🟡 raw_ready |
 | `ch_114` | 第114章 番外咸鱼生活有点甜 | Chương 114 : [Phiên ngoại] Cuộc sống cá mặn có chút ngọt | 147 | 🟡 raw_ready |
 | `ch_115` | 第115章 番外所谓七年之痒的乌龙求婚 | Chương 115 : [Phiên ngoại] Cái gọi là ngứa ngáy năm thứ bảy - cầu hôn oolong | 134 | 🟡 raw_ready |
