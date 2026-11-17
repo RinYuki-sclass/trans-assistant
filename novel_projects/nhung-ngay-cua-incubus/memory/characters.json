@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Raffi",
+    "korean_name": "라피",
+    "role": "Công chính (Top)",
+    "race": "Incubus",
+    "description": "Ác ma thuộc tộc incubus, 500 tuổi nhưng vẫn còn giữ trọn sự trong trắng vì nhút nhát và sợ gần gũi với con người. Mỹ nhân, ngây thơ, mít ướt, dễ bị bắt nạt và trêu chọc.",
+    "pronouns_3rd": "cậu / hắn"
+  },
+  {
+    "name": "Theodore Lucien de Valentian (Todd)",
+    "korean_name": "테오도르 루시엔 드 발렌티안 / 토드",
+    "role": "Thụ chính (Bottom)",
+    "race": "Con người / Hoàng tộc",
+    "description": "Hoàng thái tử đế quốc, tuấn tú, cao lớn, quyền uy, võ lực và bản lĩnh thượng thừa. Cường thụ, chủ động, thích trêu chọc và cưng nựng chàng incubus mít ướt.",
+    "pronouns_3rd": "anh / y"
+  },
+  {
+    "name": "Bell",
+    "korean_name": "벨",
+    "role": "Nhân vật phụ",
+    "race": "Ác ma",
+    "description": "Bạn thân kiêm người bảo bọc của Raffi ở thế giới quỷ.",
+    "pronouns_3rd": "y / hắn"
+  }
+]

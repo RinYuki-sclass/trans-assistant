@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "chapter_dir": "ch_001",
+    "title": "Chương 1: Sao Cái Này Lại Không Được?",
+    "kr_title": "Chapter 1. 이게 왜 안 되냐",
+    "status": "completed",
+    "type": "translated_vi",
+    "word_count": 254
+  },
+  {
+    "id": 2,
+    "chapter_dir": "ch_002",
+    "title": "Chương 2: Không Có Tiền",
+    "kr_title": "Chapter 2. 돈이 없어",
+    "status": "completed",
+    "type": "translated_vi",
+    "word_count": 294
+  },
+  {
+    "id": 3,
+    "chapter_dir": "ch_003",
+    "title": "Chương 3: Làm Thế Này Thì Khó Cho Ta Lắm",
+    "kr_title": "Chapter 3. 이러시면 곤란합니다.",
+    "status": "pending",
+    "type": "raw_kr",
+    "word_count": 0
+  },
+  {
+    "id": 4,
+    "chapter_dir": "ch_004",
+    "title": "Chương 4: Lửa Tắt Vẫn Phải Nhìn Lại",
+    "kr_title": "Chapter 4. 꺼진 불도 다시 보자",
+    "status": "pending",
+    "type": "raw_kr",
+    "word_count": 0
+  },
+  {
+    "id": 5,
+    "chapter_dir": "ch_005",
+    "title": "Chương 5: Hoa Thủy Tiên Mùa Thu",
+    "kr_title": "Chapter 5. 가을의 수선화",
+    "status": "pending",
+    "type": "translated_en",
+    "word_count": 0
+  },
+  {
+    "id": 6,
+    "chapter_dir": "ch_006",
+    "title": "Chương 6: Tà Giáo Và 5 Đồng Vàng",
+    "kr_title": "Chapter 6. 사이비와 5골드",
+    "status": "pending",
+    "type": "raw_kr",
+    "word_count": 0
+  },
+  {
+    "id": 7,
+    "chapter_dir": "ch_007",
+    "title": "Chương 7: Mọi Điều Làm Vì Tình Yêu",
+    "kr_title": "Chapter 7. 사랑으로 한 모든 것",
+    "status": "pending",
+    "type": "raw_kr",
+    "word_count": 0
+  },
+  {
+    "id": 8,
+    "chapter_dir": "ch_008",
+    "title": "Ngoại Truyện",
+    "kr_title": "Epilogue.",
+    "status": "pending",
+    "type": "raw_kr",
+    "word_count": 0
+  }
+]

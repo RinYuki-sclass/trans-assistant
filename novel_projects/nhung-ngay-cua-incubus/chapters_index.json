@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "chapter_dir": "ch_001",
+    "title": "Day 1: Khởi Đầu Của Bài Thi Tốt Nghiệp",
+    "kr_title": "Day 1",
+    "status": "pending",
+    "word_count": 0
+  },
+  {
+    "id": 2,
+    "chapter_dir": "ch_002",
+    "title": "Day 2: Dư Vị Ngọt Ngào & Thử Thách Mới",
+    "kr_title": "Day 2",
+    "status": "pending",
+    "word_count": 0
+  },
+  {
+    "id": 3,
+    "chapter_dir": "ch_003",
+    "title": "Day 3: Bẫy Tình Của Hoàng Thái Tử",
+    "kr_title": "Day 3",
+    "status": "pending",
+    "word_count": 0
+  },
+  {
+    "id": 4,
+    "chapter_dir": "ch_004",
+    "title": "Day 4: Khủng Hoảng Của Chú Incubus",
+    "kr_title": "Day 4",
+    "status": "pending",
+    "word_count": 0
+  },
+  {
+    "id": 5,
+    "chapter_dir": "ch_005",
+    "title": "Day 5: Bài Thi Tốt Nghiệp Định Mệnh & Kết Thúc",
+    "kr_title": "Day 5",
+    "status": "pending",
+    "word_count": 0
+  }
+]

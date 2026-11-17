@@ -1,0 +1,22 @@
+[
+  {
+    "person1": "Raffi",
+    "person2": "Theodore",
+    "nature": "Tình nhân / Định mệnh / Bị đè ngược",
+    "speaker1_pronoun": "tôi / em",
+    "speaker1_call_other": "ngài / Điện hạ / anh",
+    "speaker2_pronoun": "ta / tôi",
+    "speaker2_call_other": "cậu / em / tiểu quỷ",
+    "notes": "Raffi nhát gan, ngượng ngùng, hờn dỗi và hay khóc nhè; Theodore thong dong, áp đảo, trêu chọc và vô cùng cưng chiều Raffi."
+  },
+  {
+    "person1": "Raffi",
+    "person2": "Bell",
+    "nature": "Bạn bè thân thiết / Bảo hộ",
+    "speaker1_pronoun": "tôi / em",
+    "speaker1_call_other": "anh / Bell",
+    "speaker2_pronoun": "ta / tôi",
+    "speaker2_call_other": "nhóc / Raffi",
+    "notes": "Bell luôn lo lắng Raffi sẽ bị trục xuất vì tính nhát gan."
+  }
+]

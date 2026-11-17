@@ -1,0 +1,22 @@
+[
+  {
+    "stage": "Khởi đầu",
+    "event": "Raffi đứng trước nguy cơ trượt bài thi tốt nghiệp của tộc incubus và bị trục xuất khỏi xã hội quỷ.",
+    "chapters": ["ch_001"]
+  },
+  {
+    "stage": "Cuộc gặp gỡ định mệnh",
+    "event": "Raffi xâm nhập vào giấc mơ của Hoàng thái tử Theodore để săn tinh khí nhưng bị Theodore lật ngược thế cờ ăn sạch.",
+    "chapters": ["ch_001"]
+  },
+  {
+    "stage": "Phát triển",
+    "event": "Chuỗi ngày thu thập tinh khí đầy nước mắt và dở khóc dở cười giữa chú incubus ngây thơ và Hoàng thái tử.",
+    "chapters": ["ch_002", "ch_003", "ch_004"]
+  },
+  {
+    "stage": "Kết cục",
+    "event": "Vượt qua bài thi tốt nghiệp và xác lập mối quan hệ định mệnh ngọt ngào, HE.",
+    "chapters": ["ch_005"]
+  }
+]
