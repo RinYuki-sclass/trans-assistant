@@ -1,0 +1,46 @@
+[
+  {
+    "name": "Yang An",
+    "hanviet_name": "Dương Ám",
+    "original_name": "杨黯",
+    "gender": "Nam (Beta)",
+    "role": "Công chính (Xuyên thư, kỹ thuật cơ giáp, Beta bình phàm)",
+    "narration_pronoun": "cậu / anh",
+    "honorifics": "Xưng 'tôi' (hoặc 'em' khi thân mật), gọi Dụ Thanh Yến là 'anh / Thanh Yến'",
+    "speech_style": "Bình tĩnh, thực tế, ấm áp, có trách nhiệm, hay tự kỷ ám thị hài hước",
+    "notes": "Có dị năng chạm vào người khác sẽ nhìn thấy quan hệ tương lai. Thích cuộc sống bình yên nhưng rất yêu chiều và bao dung Dụ Thanh Yến."
+  },
+  {
+    "name": "Yu Qingyan",
+    "hanviet_name": "Dụ Thanh Yến",
+    "original_name": "喻清晏",
+    "gender": "Nam (Alpha)",
+    "role": "Thụ chính (Alpha đại mỹ nhân, tàn tật ngồi xe lăn, đại lão quyền lực)",
+    "narration_pronoun": "anh / hắn",
+    "honorifics": "Xưng 'tôi / anh', gọi Dương Ám là 'cậu / em / tiểu Ám'",
+    "speech_style": "Dịu dàng, ôn nhu, yếu đuối giả vờ nhưng cực kỳ thâm tình, si mê, sẵn sàng nhún nhường làm thụ",
+    "notes": "Từng sống trong viện điều dưỡng, lấy việc lén nhìn Dương Ám làm niềm vui sống. Có xu hướng chiếm hữu âm u nhưng được Dương Ám chữa lành."
+  },
+  {
+    "name": "Chang Ningxi",
+    "hanviet_name": "Thường Ninh Tỉ",
+    "original_name": "常宁玺",
+    "gender": "Nam",
+    "role": "Bạn bè / Cộng sự",
+    "narration_pronoun": "cậu ta / anh ta",
+    "honorifics": "Xưng hô bạn bè đồng trang lứa",
+    "speech_style": "Nhiệt tình, thoải mái",
+    "notes": "Bạn bè giới thiệu các mối làm ăn cơ giáp cho Dương Ám."
+  },
+  {
+    "name": "Aunt Lano",
+    "hanviet_name": "Dì La Nặc",
+    "original_name": "拉诺阿姨",
+    "gender": "Nữ",
+    "role": "Người chăm sóc viện mồ côi tinh tế",
+    "narration_pronoun": "bà / dì",
+    "honorifics": "Xưng 'dì', gọi 'tiểu Ám / các con'",
+    "speech_style": "Hiền hậu, từ ái",
+    "notes": "Người nuôi nấng Dương Ám khôn lớn, là người thân mà Dương Ám dẫn Dụ Thanh Yến về ra mắt."
+  }
+]

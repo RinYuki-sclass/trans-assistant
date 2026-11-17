@@ -1,0 +1,21 @@
+{
+  "title": "Khi Beta Gặp Phải Kẻ Si Tình",
+  "chinese_title": "一个被疯狂求爱的beta",
+  "author": "Thù Xuyên (酬川)",
+  "description": "Tiểu thuyết đam mỹ tinh tế, ABO, xuyên thư, chủ công, Beta công x Alpha thụ (B×A), hài hước ngọt sủng, tình cảm sâu sắc, 1v1, HE. Dương Ám xuyên thư thành một nhân vật Beta làm nền trong cuốn tiểu thuyết ABO tinh tế, vốn dĩ chỉ muốn sống cuộc đời bình yên, làm người ngoài cuộc xem nhân vật chính yêu nhau. Cậu sở hữu dị năng chạm vào người khác là thấy được dòng chữ tiên tri về mối quan hệ tương lai giữa hai người. Một ngày nọ, cậu tốt bụng đỡ một đại mỹ nhân yếu ớt ngồi xe lăn bị ngã giữa đường tên là Dụ Thanh Yến, trên đầu đối phương bỗng hiện lên dòng chữ vàng rực rỡ đến chọc mù mắt: 【Kẻ rình rập trong góc tối, Kẻ cầu ái điên cuồng, Kẻ giam cầm âm u...】. Một đại lão Alpha quyền lực ngập trời, tâm lý u ám chiếm hữu cao ngất ngưởng nhưng trước mặt crush lại ngoan ngoãn, làm nũng, cam chịu 'ở dưới' chỉ để được ở bên cậu!",
+  "slug": "khi-beta-gap-phai-ke-si-tinh",
+  "source_lang": "Chinese",
+  "target_lang": "Vietnamese",
+  "raw_links": {
+    "jjwxc": "https://www.jjwxc.net/onebook.php?novelid=8048231",
+    "52shuku": "https://www.52shuku.net/jiakong/b/bjOBB.html"
+  },
+  "style_guide": "Đam mỹ, tinh tế ABO, xuyên thư, chủ công, Beta công x Alpha thụ, hài hước ngọt sủng, tình hữu độc chung, 1v1, HE.\n\nQUY TẮC BẮT BUỘC:\n1. Định dạng đoạn văn: Bắt buộc cách nhau đúng 1 dòng trống (\\n\\n) giữa các đoạn văn và lời thoại. Tuyệt đối không dính liền dòng (\\n).\n2. Dấu ngoặc thoại: Lời thoại dùng ngoặc kép cong tiếng Việt “...”, không dùng gạch ngang đầu câu (— ...).\n3. Ngôi 3 trần thuật (Tự sự):\n   - Dương Ám (Công chính - Beta): Dùng 'cậu' hoặc 'anh' trong văn trần thuật ngôi 3.\n   - Dụ Thanh Yến (Thụ chính - Alpha mỹ nhân): Dùng 'anh' hoặc 'hắn' trong văn trần thuật ngôi 3.\n4. Tuyệt đối phân biệt trần thuật vs lời thoại: Không đem đại từ mày/tao vào trần thuật ngôi 3.\n5. Xưng hô đối thoại Dương Ám ↔ Dụ Thanh Yến:\n   - Dương Ám: Xưng 'tôi' (hoặc 'em' khi thân mật), gọi Dụ Thanh Yến là 'anh / Thanh Yến'.\n   - Dụ Thanh Yến: Xưng 'tôi' / 'anh', gọi Dương Ám là 'cậu / em / tiểu Ám' (rất dịu dàng, si tình).",
+  "confidence_threshold": 0.8,
+  "chunk_size": 20,
+  "created_at": "2026-11-17T17:10:00+07:00",
+  "chapters_count": 138,
+  "is_completed": false,
+  "is_dropped": false,
+  "drop_reason": ""
+}
