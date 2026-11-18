@@ -3,10 +3,12 @@
     {
       "name": "Liam Carter",
       "kr_name": "리암 카터",
+      "age": 20,
       "role": "Công chính (Niên hạ kính ngữ công 20t / MC xuyên sách)",
-      "description": "Pháp sư Ma Tháp tóc đen mắt xanh. Vốn là công phụ trong nguyên tác, bị kẹt trong vòng lặp hồi quy 42 lần mỗi khi Caden x Ravi tan vỡ. Trong lần 42 say rượu đè Đại Công tước Kayden, sáng dậy phát hiện hết hồi quy và bị Kayden tóm đăng ký kết hôn luôn. Thuộc tuýp niên hạ kính ngữ công, cún bự, mít ướt nhưng rất có bản lĩnh trên giường.",
+      "description": "Pháp sư Ma Tháp tóc đen mắt xanh. Vốn là công phụ trong nguyên tác, bị kẹt trong vòng lặp hồi quy 42 lần mỗi khi Caden x Ravi tan vỡ. Trong lần 42 say rượu đè Đại Công tước Kayden, sáng dậy phát hiện hết hồi quy và bị Kayden tóm đăng ký kết hôn luôn. Thuộc tuýp niên hạ kính ngữ công, cún bự, mít ướt nhưng rất có bản lĩnh trên giường. Nhỏ hơn Kayden 12 tuổi, nhỏ hơn Ravi 6 tuổi.",
       "pronouns_narrative": "tôi (ngôi 1 tự sự)",
       "pronouns_third_person_for_kayden": "Kayden / anh",
+      "pronouns_third_person_for_ravi": "Ravi / anh / anh ấy",
       "pronouns_dialogue": {
         "with_kayden": {
           "normal": { "self": "tôi", "call_other": "ngài / Công tước" },
@@ -14,15 +16,16 @@
         },
         "with_ravi": {
           "self": "tôi",
-          "call_other": "Ravi / cậu"
+          "call_other": "anh / anh Ravi / Ravi"
         }
       }
     },
     {
       "name": "Kayden Amir",
       "kr_name": "케이든 아미르",
+      "age": 32,
       "role": "Thụ chính (Niên thượng cường thụ 32t / Đại Công tước)",
-      "description": "Đại Công tước tóc vàng mắt đỏ hơn Liam 12 tuổi. Nhân vật quyền lực tối cao của đế quốc, đứng đầu triệt phá tổ chức Tribula. Trầm ổn, uy nghiêm, bao dung, cưng chiều Liam. Bị Liam đè một đêm xong quyết định bắt Liam kết hôn để giữ trọn bên mình.",
+      "description": "Đại Công tước tóc vàng mắt đỏ hơn Liam 12 tuổi, hơn Ravi 6 tuổi. Nhân vật quyền lực tối cao của đế quốc, đứng đầu triệt phá tổ chức Tribula. Trầm ổn, uy nghiêm, bao dung, cưng chiều Liam. Bị Liam đè một đêm xong quyết định bắt Liam kết hôn để giữ trọn bên mình.",
       "pronouns_narrative": "Kayden / anh",
       "pronouns_dialogue": {
         "with_liam": {
@@ -34,13 +37,14 @@
     {
       "name": "Ravi Flair",
       "kr_name": "라비 플레어",
-      "role": "Thụ chính nguyên tác",
-      "description": "Điều tra viên chính trực, nghiêm túc, bạn của Liam.",
-      "pronouns_narrative": "anh / cậu",
+      "age": 26,
+      "role": "Thụ chính nguyên tác (Điều tra viên 26t, lớn hơn Liam 6 tuổi)",
+      "description": "Điều tra viên chính trực, nghiêm túc, làm việc chăm chỉ. Lớn hơn Liam 6 tuổi, nhỏ hơn Kayden 6 tuổi. Nhã nhặn, tôn trọng đối phương.",
+      "pronouns_narrative": "anh (khi góc nhìn Ravi) / cậu ta (khi Ravi nghĩ về Liam)",
       "pronouns_dialogue": {
         "with_liam": {
           "self": "tôi",
-          "call_other": "Liam / cậu Liam"
+          "call_other": "cậu / Liam / cậu Liam"
         }
       }
     }

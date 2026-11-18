@@ -3,6 +3,7 @@
 
 > **Tác giả:** Kim Yu-geuk (김유극)  
 > **Cặp đôi chính:** **Liam Carter** (Công chính / Niên hạ kính ngữ công 20t, pháp sư Ma Tháp) × **Kayden Amir** (Thụ chính / Niên thượng cường thụ 32t, Đại Công tước tóc vàng mắt đỏ)  
+> **Nhân vật phụ quan trọng:** **Ravi Flair** (Thụ chính nguyên tác / Điều tra viên cung điện 26t, lớn hơn Liam 6 tuổi)  
 > **Bối cảnh:** Tây phương huyền huyễn / Quý tộc cung đình / Xuyên sách / Hồi quy 42 lần / Hài hước ngọt ngào / 1v1 / HE  
 > **Quy mô dự án:** Trọn bộ 8 chương (Chương 1 - Chương 7 + Ngoại truyện)  
 > **Thư mục dự án:** `novel_projects/toi-tuong-minh-da-hoi-quy`
@@ -29,36 +30,34 @@
 
 ---
 
-## 👥 2. PHÂN VAI & THIẾT LẬP NHÂN VẬT CHÍNH XÁC (USER CHỐT)
+## 👥 2. THIẾT LẬP NHÂN VẬT & ĐỘ TUỔI CHUẨN XÁC
 
-### 2.1. Chuẩn Hóa Tên Riêng
-- **Công chính:** **Liam Carter** (리암 카터) — 20 tuổi, pháp sư Ma Tháp tóc đen mắt xanh lam, người xuyên sách vốn đóng vai công phụ trong nguyên tác. Thuộc hình mẫu **Niên hạ kính ngữ công (연하 존댓말공), cún bự, mít ướt nhưng rất biết đè**.
-- **Thụ chính:** **Kayden Amir** (케이든 아미르 / Công tước Kayden) — 32 tuổi (hơn Liam 12 tuổi), Đại Công tước quyền uy tối thượng, tóc vàng mắt đỏ. Thuộc hình mẫu **Niên thượng cường thụ (연상 강수), bề trên, trầm ổn, cưng chiều người yêu**.
-  - 🚨 **Tên chuẩn hóa duy nhất:** **`Kayden`** (loại bỏ hoàn toàn `Cayden` và `Caden`).
-- **Thụ chính nguyên tác:** **Ravi Flair** (라비 플레어) — Điều tra viên chính trực.
-
-### 2.2. Ngôi Kể & Đại Từ Trần Thuật (Narrative POV)
-- **Góc nhìn thứ nhất (Liam Carter kể chuyện):**
-  - Tự sự về bản thân: Xưng **“tôi”** *(nhất quán)*.
-  - Khi Liam trần thuật / suy nghĩ về Kayden (ngôi thứ 3): Bắt buộc dùng duy nhất **“Kayden”** hoặc **“anh”** *(CẤM dùng "cậu ấy", CẤM dùng "hắn")*.
+| Nhân Vật | Tuổi | Vai Trò | Đặc Điểm & Tính Cách |
+| :--- | :---: | :--- | :--- |
+| **Liam Carter** | **20 tuổi** | **CÔNG CHÍNH (Chủ công)** | Pháp sư Ma Tháp xuyên sách. Niên hạ kính ngữ công, cún bự, mít ướt nhưng rất có bản lĩnh trên giường. Nhỏ hơn Kayden 12 tuổi, nhỏ hơn Ravi 6 tuổi. |
+| **Kayden Amir** | **32 tuổi** | **THỤ CHÍNH (Cường thụ)** | Đại Công tước quyền uy tối thượng của đế quốc, tóc vàng mắt đỏ. Lớn hơn Liam 12 tuổi, hơn Ravi 6 tuổi. Uy nghiêm, bao dung, cưng chiều Liam. |
+| **Ravi Flair** | **26 tuổi** | **Thụ chính nguyên tác** | Điều tra viên cung điện chính trực, mẫn cán. **Lớn hơn Liam 6 tuổi** (đã qua tuổi 20 được 6 năm). |
 
 ---
 
-## 💬 3. MA TRẬN XƯNG HÔ ĐỐI THOẠI TRỰC TIẾP `“...”` (USER CHỈ ĐỊNH CHUẨN XÁC)
+## 💬 3. MA TRẬN XƯNG HÔ ĐỐI THOẠI & TRẦN THUẬT
 
-> 🚨 **QUY TẮC BẮT BUỘC KHÔNG THAY ĐỔI:**
-> - **Liam (Công, 20t):**
->   - Giai đoạn đầu / việc công / thường ngày: Xưng **“tôi”** — Gọi **“ngài”** (hoặc *“Công tước”*).
->   - Khi yêu / thân mật / giường chiếu: Xưng **“em”** — Gọi **“ngài”** *(chuẩn niên hạ kính ngữ công xưng em gọi ngài)*.
-> - **Kayden (Thụ, 32t):**
->   - Giai đoạn đầu / việc công / thường ngày: Xưng **“ta”** — Gọi **“cậu”** (hoặc *“Liam”*).
->   - Khi yêu / thân mật / giường chiếu: Xưng **“ta”** — Gọi **“em”**!
+### 3.1. Cặp Đôi Chính: Liam Carter (Công, 20t) ↔ Kayden Amir (Thụ, 32t)
+* **Liam (Công, 20t):**
+  - Tự sự ngôi 1: Xưng **“tôi”**.
+  - Nhắc về Kayden ngôi 3: Gọi **“Kayden”** hoặc **“anh”** *(CẤM gọi "cậu ấy", CẤM gọi "hắn")*.
+  - Đối thoại thường ngày / việc công: Xưng **“tôi”** — Gọi **“ngài / Công tước”**.
+  - Đối thoại khi yêu / thân mật / giường chiếu: Xưng **“em”** — Gọi **“ngài”** *(chuẩn niên hạ kính ngữ)*.
+* **Kayden (Thụ, 32t):**
+  - Đối thoại thường ngày: Xưng **“ta”** — Gọi **“cậu / Liam”**.
+  - Đối thoại khi yêu / thân mật: Xưng **“ta”** — Gọi **“em”** *(dịu dàng, cưng chiều)*.
 
-### Bảng Tổng Hợp Xưng Hô Chi Tiết:
-
-| Hoàn Cảnh / Phân Đoạn | Người Nói | Đại Từ Tự Xưng | Gọi Đối Phương | Sắc Thái & Ví Dụ |
-| :--- | :--- | :---: | :---: | :--- |
-| **Thường ngày / Công việc** | **Liam** (Công) | **tôi** | **ngài / Công tước** | Lễ phép, chột dạ: *“Tôi đã quá ngạc nhiên nên...”, “Ngài sẽ không mắng tôi nữa chứ?”* |
-| | **Kayden** (Thụ) | **ta** | **cậu / Liam** | Bề trên, uy nghiêm: *“Liam, hãy biện minh xem”, “Dọa dẫm một kẻ mới hai mươi tuổi thì được gì”* |
-| **Yêu đương / Thân mật / Giường chiếu** | **Liam** (Công) | **em** | **ngài** | Ngọt ngào, quyến luyến: *“Ngài có cảm nhận được không?”, “Tình yêu của em. Em yêu ngài.”* |
-| | **Kayden** (Thụ) | **ta** | **em** | Cưng chiều, dịu dàng: *“Đừng khóc. Hễ em khóc là ta lại muốn đáp ứng mọi điều cho em.”, “Ta cũng vậy.”* |
+### 3.2. Cặp Giao Tiếp: Liam Carter (20t) ↔ Ravi Flair (26t - LỚN TUỔI HƠN LIAM)
+* **Liam nói với Ravi:**
+  - Tự xưng: **“tôi”** — Gọi Ravi: **“anh / anh Ravi / Ravi”** *(CẤM gọi "cậu", CẤM gọi "cậu ấy")*.
+  - Liam trần thuật về Ravi: Gọi là **“anh / anh ấy / Ravi”**.
+  - *Ví dụ:* *“Cảm ơn anh, Ravi. Anh nhất định sẽ đến dự lễ chính chứ?”, “Hôm nay rất vui được gặp anh, Ravi.”*
+* **Ravi nói với Liam:**
+  - Tự xưng: **“tôi”** — Gọi Liam: **“cậu / Liam / cậu Liam”** *(CẤM gọi Liam là "anh")*.
+  - Ravi trần thuật / suy nghĩ về Liam: Ravi tự xưng là **“anh”**, gọi Liam là **“cậu ta / Liam Carter”** *(CẤM gọi Liam là "anh ta")*.
+  - *Ví dụ:* *“Liam, chúc mừng đám cưới của cậu.”, “Tôi cũng vậy, Liam. Rất vui được gặp cậu. Chúc cậu một ngày tốt lành.”*

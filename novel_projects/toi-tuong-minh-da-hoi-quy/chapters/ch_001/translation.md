@@ -48,15 +48,15 @@ Cuốn tiểu thuyết mà tôi xuyên vào là một bộ tiểu thuyết BL gi
 
 Trong quá trình điều tra, Ravi Flair đã tình cờ gặp gỡ Kayden, một điều tra viên đã bận rộn suốt một năm qua để nhổ tận gốc Tribula, tổ chức bất hợp pháp tồi tệ nhất vương quốc.
 
-Nhận thấy Ravi Flair sẽ giúp ích cho việc tiêu diệt Tribula, công chính Kayden Amir đã đề nghị cậu cùng hành động, và hai người sớm bắt đầu có những mối liên kết sâu đậm về nhiều mặt.
+Nhận thấy Ravi Flair sẽ giúp ích cho việc tiêu diệt Tribula, công chính Kayden Amir đã đề nghị anh cùng hành động, và hai người sớm bắt đầu có những mối liên kết sâu đậm về nhiều mặt.
 
 Họ đã cùng nhau vượt qua nhiều biến cố và ở chương cuối, đó là câu chuyện về việc giải thể hoàn toàn tổ chức chỉ gây hại cho vương quốc. Happy ending. Happy ending.
 
-Và tên của kẻ mà tôi xuyên vào là Liam Carter, một pháp sư xuất thân từ Ma tháp, có ngoại hình bảnh bao nhưng tính cách thì tồi tệ. Tên này đã bảo vệ Ravi khỏi đám côn đồ trong hẻm nhỏ khi chúng lao vào cậu trong lần đầu gặp mặt.
+Và tên của kẻ mà tôi xuyên vào là Liam Carter, một pháp sư xuất thân từ Ma tháp, có ngoại hình bảnh bao nhưng tính cách thì tồi tệ. Tên này đã bảo vệ Ravi khỏi đám côn đồ trong hẻm nhỏ khi chúng lao vào anh trong lần đầu gặp mặt.
 
-Sau khi cứu Ravi khỏi đám côn đồ, Liam đã khuyên cậu nên dừng việc điều tra đang làm lại vì nó rất nguy hiểm, nhưng dĩ nhiên Ravi không nghe theo lời khuyên đó.
+Sau khi cứu Ravi khỏi đám côn đồ, Liam đã khuyên anh nên dừng việc điều tra đang làm lại vì nó rất nguy hiểm, nhưng dĩ nhiên Ravi không nghe theo lời khuyên đó.
 
-Liam Carter nảy sinh hứng thú với Ravi, người vẫn kiên trì tiếp tục cuộc điều tra dù thực sự đã rơi vào nguy hiểm. Liam lẽo đẽo đi theo cậu, vừa cứu Ravi khỏi nguy hiểm vừa nhận được sự giúp đỡ, và tình cảm dành cho Ravi cứ thế ngày một sâu đậm hơn.
+Liam Carter nảy sinh hứng thú với Ravi, người vẫn kiên trì tiếp tục cuộc điều tra dù thực sự đã rơi vào nguy hiểm. Liam lẽo đẽo đi theo anh, vừa cứu Ravi khỏi nguy hiểm vừa nhận được sự giúp đỡ, và tình cảm dành cho Ravi cứ thế ngày một sâu đậm hơn.
 
 Thế nhưng, vì lòng tự trọng mà Liam cứ luôn khẩy mũi phủ nhận lòng mình, cho rằng bản thân không đời nào lại phải lòng Ravi. Đến khi không thể phủ nhận việc mình đã yêu được nữa thì mọi chuyện đã quá muộn màng, anh ta là một kẻ thảm hại đến mức thật xấu hổ khi gọi là nam phụ.
 
@@ -82,7 +82,7 @@ Khi số lần chuyện tình cảm thậm chí còn chẳng buồn bắt đầu
 
 Nếu Kayden và Ravi không hẹn hò vào Lễ hội Thu hoạch mùa thu? À, vậy thì sáng mai khi mở mắt ra, mình sẽ quay về sáu tháng trước thôi, cứ chuẩn bị tâm lý là vừa.
 
-Và hôm qua chính là ngày Lễ hội Thu hoạch lần thứ bốn mươi hai đầy mong đợi. Tôi đã đến hoàng cung xem thử, để rồi phải khóc thầm trong lòng khi thấy cậu tân công chức gương mẫu Ravi đang làm tăng ca dù đó là ngày nghỉ lễ. À, phải chuẩn bị hồi quy thôi.
+Và hôm qua chính là ngày Lễ hội Thu hoạch lần thứ bốn mươi hai đầy mong đợi. Tôi đã đến hoàng cung xem thử, để rồi phải khóc thầm trong lòng khi thấy vị công chức gương mẫu Ravi đang làm tăng ca dù đó là ngày nghỉ lễ. À, phải chuẩn bị hồi quy thôi.
 
 Cùng lúc đó, một ý nghĩ gian tà chợt lóe lên trong đầu tôi. Dù sao thì mai cũng hồi quy rồi……. …Hay là mình cứ tỏ tình với Kayden nhỉ?
 
@@ -318,9 +318,9 @@ Trước khi tôi kịp suy nghĩ thêm, Ravi đã tiến lại gần tôi, đô
 
 “Liam, chúc mừng đám cưới của cậu.”
 
-“Cảm ơn cậu, Ravi. Cậu nhất định sẽ đến dự lễ chính chứ?”
+“Cảm ơn anh, Ravi. Anh nhất định sẽ đến dự lễ chính chứ?”
 
-Khi tôi cố tình mỉm cười rạng rỡ và nắm lấy tay cậu ấy, Ravi gật đầu như thể tôi đang hỏi một điều hiển nhiên.
+Khi tôi cố tình mỉm cười rạng rỡ và nắm lấy tay anh, Ravi gật đầu như thể tôi đang hỏi một điều hiển nhiên.
 
 “Dĩ nhiên rồi. Dù có chuyện gì xảy ra, tôi nhất định sẽ tham dự.”
 
@@ -328,7 +328,7 @@ Trước thái độ sảng khoái này, sự ghen tuông đang bùng cháy tron
 
 Trong khoảnh khắc, tôi cảm thấy hơi xấu hổ vì đã hành xử như một người thiếp ghen tị với chính thất trong khi Ravi chẳng hề có ý định đó. Nhưng biết sao được! Vì việc Ravi và Kayden thành đôi vốn là nguyên tác mà!
 
-Cảm thấy ngượng ngùng vì một mình phấn khích trước sự thật không ai biết, tôi gãi đầu rồi hỏi Ravi có việc gì mà đến đây, vừa để thỏa mãn trí tò mò vừa để chuyển chủ đề. Cậu ấy nhún vai như thể không có gì to tát rồi hất cằm về phía văn phòng.
+Cảm thấy ngượng ngùng vì một mình phấn khích trước sự thật không ai biết, tôi gãi đầu rồi hỏi Ravi có việc gì mà đến đây, vừa để thỏa mãn trí tò mò vừa để chuyển chủ đề. Anh nhún vai như thể không có gì to tát rồi hất cằm về phía văn phòng.
 
 “Quốc vương bệ hạ đã cử tôi làm người đưa tin để gửi lời chúc mừng đến Công tước. Không có chuyện gì lớn đâu.”
 
@@ -336,37 +336,37 @@ Cảm thấy ngượng ngùng vì một mình phấn khích trước sự thật
 
 Việc Quốc vương Ruben Keshner, chú của Kayden, là người trọng tình cảm gia đình vốn là một câu chuyện quá đỗi nổi tiếng. Vì Kayden đột ngột nộp đơn đăng ký kết hôn nên tôi đã đoán chắc chắn ông ấy sẽ có phản ứng, nhưng việc ông ấy cử Ravi đến thì thật ngoài dự đoán.
 
-Mà chắc chắn lời chúc mừng không phải là tất cả mục đích của chuyến đi, tôi hơi tò mò không biết Kayden đã nghe được những gì. Nếu hỏi Kayden chắc anh ấy sẽ nói cho tôi biết thôi. Tôi nhìn qua lại giữa văn phòng của Kayden và Ravi rồi khẽ gật đầu chào cậu ấy.
+Mà chắc chắn lời chúc mừng không phải là tất cả mục đích của chuyến đi, tôi hơi tò mò không biết Kayden đã nghe được những gì. Nếu hỏi Kayden chắc anh ấy sẽ nói cho tôi biết thôi. Tôi nhìn qua lại giữa văn phòng của Kayden và Ravi rồi khẽ gật đầu chào anh.
 
-“Hôm nay rất vui được gặp cậu, Ravi. Nếu có cơ hội, lần sau chúng ta lại gặp nhé.”
+“Hôm nay rất vui được gặp anh, Ravi. Nếu có cơ hội, lần sau chúng ta lại gặp nhé.”
 
-“Tôi cũng vậy, Liam. Rất vui được gặp anh. Chúc anh một ngày tốt lành.”
+“Tôi cũng vậy, Liam. Rất vui được gặp cậu. Chúc cậu một ngày tốt lành.”
 
 Ngay khi vừa chào Ravi xong, tôi nhanh chóng rảo bước. Tôi sẽ hỏi Kayden xem anh ấy đã nghe được chuyện gì... Hôm nay nên rủ anh ấy làm gì đây nhỉ?
 
 Nhìn người đàn ông đang tự nhiên tiến về phía văn phòng của Công tước Amir, Ravi nheo mắt lại. Liam Carter. Đó là một người đàn ông có quá khứ bất minh, ngoại trừ việc anh ta là một pháp sư tài giỏi xuất thân từ Ma tháp.
 
-Mỗi khi nhìn anh ta, Ravi thường cảm thấy như đang đối mặt với một mê cung không lối thoát. Chắc chắn theo những gì đã trải qua cho đến nay, anh ta là một người hoạt bát và tươi mới, nhưng nếu hỏi liệu có thể hoàn toàn tin tưởng anh ta không thì. Chà? Ravi không thực sự nghĩ Liam Carter là một người đáng tin cậy.
+Mỗi khi nhìn cậu ta, Ravi thường cảm thấy như đang đối mặt với một mê cung không lối thoát. Chắc chắn theo những gì đã trải qua cho đến nay, anh ta là một người hoạt bát và tươi mới, nhưng nếu hỏi liệu có thể hoàn toàn tin tưởng anh ta không thì. Chà? Ravi không thực sự nghĩ Liam Carter là một người đáng tin cậy.
 
-Ravi nhớ những khoảnh khắc thoáng thấy sự điên rồ rò rỉ ra từ anh ta. Liam Carter không coi trọng mạng sống con người cho lắm.
+Ravi nhớ những khoảnh khắc thoáng thấy sự điên rồ rò rỉ ra từ cậu ta. Liam Carter không coi trọng mạng sống con người cho lắm.
 
-Nếu anh ta chỉ coi thường mạng sống của người khác, Ravi có lẽ đã hiểu được phần nào. Vì những người như vậy không hề ít.
+Nếu cậu ta chỉ coi thường mạng sống của người khác, Ravi có lẽ đã hiểu được phần nào. Vì những người như vậy không hề ít.
 
-Nhưng, anh ta thường xem nhẹ ngay cả mạng sống của chính mình như thể nó chẳng là gì cả. Nó khác với việc không biết sợ hãi. Anh ta coi mạng sống của mình như một loại hàng hóa. Loại thứ mà anh ta sẵn lòng chi trả để đạt được điều gì đó.
+Nhưng, cậu ta thường xem nhẹ ngay cả mạng sống của chính mình như thể nó chẳng là gì cả. Nó khác với việc không biết sợ hãi. Anh ta coi mạng sống của mình như một loại hàng hóa. Loại thứ mà cậu ta sẵn lòng chi trả để đạt được điều gì đó.
 
-Những gì Liam Carter mà cậu biết coi trọng, nếu có, chính là Công tước Kayden và Ravi. Không, chính xác mà nói thì đó là ‘Công tước Kayden’ và ‘mạng sống của Ravi’.
+Những gì Liam Carter mà anh biết coi trọng, nếu có, chính là Công tước Kayden và Ravi. Không, chính xác mà nói thì đó là ‘Công tước Kayden’ và ‘mạng sống của Ravi’.
 
 Liam Carter thường nhìn Ravi bằng đôi mắt vô hồn. Mỗi khi nhận lấy ánh mắt như đang kiểm tra tình trạng của một món đồ đó, Ravi lại cảm thấy khó chịu vì thấy mình giống như một món hàng bày bán trên kệ.
 
-Cậu không cất công gặng hỏi tại sao anh ta lại nhìn mình như vậy là vì Liam Carter nhìn hầu hết mọi người bằng ánh mắt đó.
+Anh không cất công gặng hỏi tại sao cậu ta lại nhìn mình như vậy là vì Liam Carter nhìn hầu hết mọi người bằng ánh mắt đó.
 
 Ngoại lệ duy nhất cho ánh mắt đó là Công tước Kayden. Ánh mắt của Liam nhìn anh tràn đầy nhiệt khí và sự dịu dàng đến mức ngay cả một người không biết gì về hai người họ cũng có thể nhận ra.
 
-Nhờ vậy, Ravi không khó để nhận ra rằng Công tước Kayden có ý nghĩa đặc biệt đối với Liam. Nhưng dù vậy, cậu đã không nghĩ rằng Liam sẽ thiết lập một mối quan hệ với Công tước. Bởi vì Liam mà cậu biết là… một người ám ảnh với việc né tránh các mối quan hệ với bất kỳ ai.
+Nhờ vậy, Ravi không khó để nhận ra rằng Công tước Kayden có ý nghĩa đặc biệt đối với Liam. Nhưng dù vậy, anh đã không nghĩ rằng Liam sẽ thiết lập một mối quan hệ với Công tước. Bởi vì Liam mà anh biết là… một người ám ảnh với việc né tránh các mối quan hệ với bất kỳ ai.
 
 Vì vậy, khi nghe tin hai người họ kết hôn, Ravi đã rất ngạc nhiên. Việc một người như Công tước Kayden đột ngột thông báo kết hôn cũng như đối tượng kết hôn đều gây kinh ngạc, nhưng điều đáng ngạc nhiên nhất chính là quyết định của Liam. Liam á? Liam Carter mà lại tạo ra một mối quan hệ mang tên hôn nhân sao?
 
-Sáu tháng không dài nhưng cũng không phải là thời gian quá ngắn để hiểu rõ một ai đó. Quan sát Liam trong suốt thời gian qua, Ravi đã đưa ra một kết luận sơ bộ. Liam Carter sợ hãi các mối quan hệ với con người. Hoặc vì lý do nào đó mà anh ta không muốn tạo dựng chúng.
+Sáu tháng không dài nhưng cũng không phải là thời gian quá ngắn để hiểu rõ một ai đó. Quan sát Liam trong suốt thời gian qua, Ravi đã đưa ra một kết luận sơ bộ. Liam Carter sợ hãi các mối quan hệ với con người. Hoặc vì lý do nào đó mà cậu ta không muốn tạo dựng chúng.
 
 Lý do thì không thể biết được. Cũng không thể đào sâu tìm hiểu. Điều đó đồng nghĩa với việc vượt qua ranh giới mà Liam Carter đã vạch ra cho Ravi. Ravi không muốn cố tình vượt qua ranh giới đó để đào sâu về Liam.
 

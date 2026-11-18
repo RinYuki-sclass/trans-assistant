@@ -24,18 +24,23 @@
 ## 🚨 2. CHỈ THỊ THIẾT LẬP VAI TRÒ & ĐẠI TỪ BẮT BUỘC (USER MANDATE)
 
 > ⚠️ **BẮT BUỘC TUÂN THỦ CHÍNH XÁC:**
-> 1. **Liam Carter = CÔNG (Niên hạ kính ngữ công 20t)**:
+> 1. **Liam Carter (Công, 20t)**:
 >    - Trần thuật ngôi 1: Xưng **“tôi”**.
->    - Nhắc về Kayden ngôi 3: Dùng **“Kayden”** hoặc **“anh”** (CẤM dùng "cậu ấy", CẤM dùng "hắn").
+>    - Nhắc về Kayden (ngôi 3): Dùng **“Kayden”** hoặc **“anh”** (CẤM dùng "cậu ấy", CẤM dùng "hắn").
 >    - Đối thoại với Kayden:
 >      + Thường ngày / việc công: Xưng **“tôi”** — Gọi **“ngài / Công tước”**.
 >      + Khi yêu / thân mật / giường chiếu: Xưng **“em”** — Gọi **“ngài”**.
-> 2. **Kayden Amir = THỤ (Niên thượng cường thụ 32t, Đại Công tước)**:
+>    - Đối thoại với Ravi (Ravi 26t lớn hơn Liam 6t):
+>      + Xưng **“tôi”** — Gọi Ravi là **“anh / anh Ravi / Ravi”** (CẤM gọi "cậu", CẤM gọi "cậu ấy").
+> 2. **Kayden Amir (Thụ, 32t, Đại Công tước)**:
 >    - Tên chuẩn hóa duy nhất: **`Kayden`** (CẤM `Cayden`, CẤM `Caden`).
 >    - Đối thoại với Liam:
 >      + Thường ngày: Xưng **“ta”** — Gọi **“cậu / Liam”**.
 >      + Khi yêu / thân mật: Xưng **“ta”** — Gọi **“em”**!
-> 3. **Xóa bỏ hậu tố Hàn:** Tuyệt đối không để sót `-nim`, `-ssi` (`Công tước-nim` $\rightarrow$ `Công tước`).
+> 3. **Ravi Flair (26t - Lớn hơn Liam 6t)**:
+>    - Đối thoại với Liam: Xưng **“tôi”** — Gọi Liam là **“cậu / Liam / cậu Liam”** (CẤM gọi Liam là "anh").
+>    - Góc nhìn / suy nghĩ của Ravi: Ravi tự xưng là **“anh”**, gọi Liam là **“cậu ta / Liam Carter”** (CẤM gọi Liam là "anh ta").
+> 4. **Xóa bỏ hậu tố Hàn:** Tuyệt đối không để sót `-nim`, `-ssi` (`Công tước-nim` $\rightarrow$ `Công tước`).
 
 ---
 

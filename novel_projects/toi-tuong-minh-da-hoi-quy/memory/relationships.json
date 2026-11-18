@@ -5,6 +5,12 @@
       "status": "Oan gia tình một đêm -> Đã đăng ký kết hôn / Yêu đương",
       "liam_to_kayden": "Bình thường xưng 'tôi' gọi 'ngài', khi yêu xưng 'em' gọi 'ngài'. Nhắc về Kayden ngôi 3 gọi là 'Kayden' hoặc 'anh'. Vừa nể sợ uy quyền của Đại Công tước vừa say mê anh, chủ động đè anh trên giường.",
       "kayden_to_liam": "Bình thường xưng 'ta' gọi 'cậu', khi yêu xưng 'ta' gọi 'em'. Chiếm hữu, cưng chiều, trói chặt Liam bằng giấy đăng ký kết hôn."
+    },
+    {
+      "pair": ["Liam Carter (20t)", "Ravi Flair (26t)"],
+      "status": "Bạn bè / Người quen (Ravi lớn hơn Liam 6 tuổi)",
+      "liam_to_ravi": "Liam xưng 'tôi' gọi Ravi là 'anh / anh Ravi / Ravi'. Nhắc về Ravi ngôi 3 là 'anh / anh ấy / Ravi' (CẤM gọi 'cậu / cậu ấy').",
+      "ravi_to_liam": "Ravi xưng 'tôi' gọi Liam là 'cậu / Liam / cậu Liam'. Nghĩ về Liam là 'cậu ta / Liam Carter' (CẤM gọi 'anh ta')."
     }
   ]
 }
