@@ -80,3 +80,22 @@ Tài liệu này xác định các quy tắc cốt lõi áp dụng cho AI Code A
    - **BẢO TỒN NGUYÊN TÁC ĐÚNG VỊ TRÍ:**
      - Tên truyện thuần Việt được dùng làm trường `"title"` chính thức trong `config.json`, tiêu đề H1 trong `AGENTS.md` và `TOC.md`.
      - Tên tiếng Trung nguyên bản bắt buộc phải được lưu tại trường `"chinese_title"` trong `config.json`, và ghi chú mở ngoặc `(<Tên tiếng Trung>)` tại `AGENTS.md` và `TOC.md` để phục vụ tra cứu và đối chiếu.
+
+11. **Quy tắc Thu thập & Trình bày Văn án Đầy Đủ Chuẩn RIDI (RIDI Full Synopsis & Metadata Mandate):**
+    - Khi thêm hoặc cập nhật các tác phẩm tiểu thuyết Hàn Quốc (RIDI Books) vào `novel_projects/`, Agent **BẮT BUỘC PHẢI THU THẬP VÀ BẢO TOÀN TRỌN VẸN 5 THÀNH PHẦN METADATA** theo đúng [.agents/rules/ridi_novel_synopsis_rules.md](file:///d:/Nhung/RIDI/trans-assistant/.agents/rules/ridi_novel_synopsis_rules.md):
+      1. **Từ khóa tác phẩm (키워드):** Thể loại, thiết lập Công, thiết lập Thụ.
+      2. **Gợi ý thưởng thức (이럴 때 보세요):** Cảm xúc chủ đạo cho độc giả.
+      3. **Giới thiệu nhân vật chính (등장인물):** Hồ sơ Công & Thụ (tên, thân phận, năng lực, tính cách, tình cảm).
+      4. **Nội dung tác phẩm (작품 소개 / 줄거리):** Câu hook mở đầu và toàn bộ cốt truyện trần thuật không cắt xén.
+      5. **Trích đoạn tâm đắc (공감 글귀):** Đoạn trích dẫn đối thoại đắt giá nhất.
+    - Toàn bộ nội dung văn án chuẩn mực này phải được lưu vào trường `"description"` trong `config.json` để phục vụ việc xem nhanh qua Popup Dialog Văn án trên giao diện Web, đồng thời lưu trữ vào `AGENTS.md` và khởi tạo sẵn hồ sơ Công/Thụ trong `memory/characters.json`.
+
+12. **Quy tắc Tự động Thu thập Ảnh Bìa & Trạng thái Khởi tạo Novel Project (Cover Image & Initialization Mandate):**
+    - **Tự động lưu ảnh bìa (`cover_url`):**
+      - Đối với truyện RIDI: Trích xuất Book ID từ URL và tự động nạp cấu trúc CDN chất lượng cao: `https://img.ridicdn.net/cover/<book_id>/xxlarge` vào trường `"cover_url"` trong `config.json`.
+      - Đối với truyện offline hoặc nguồn khác: Cho phép nạp file ảnh local bằng cách đặt tên file là `cover.jpg`, `cover.png` hoặc `cover.webp` ngay tại thư mục gốc của project (`novel_projects/<slug>/cover.<ext>`). Giao diện sẽ tự động quét và hiển thị lên Thẻ Kệ Sách và Popup Văn Án.
+    - **Trạng thái Thư viện khi khởi tạo (`is_completed`, `is_dropped`):**
+      - Khi thêm mới hoặc crawl một dự án tiểu thuyết, Agent **BẮT BUỘC KHỞI TẠO MẶC ĐỊNH**: `"is_completed": false` và `"is_dropped": false` để truyện luôn xuất hiện ngay trong tab chính **"📚 Đang Theo Dõi"** trên Kệ Sách.
+      - Tuyệt đối không set `"is_completed": true` khi tạo mới vì sẽ khiến truyện bị ẩn vào tab "Đã Đọc Xong".
+    - **Chuẩn hóa ngôn ngữ gốc (`source_lang`):**
+      - Mọi project bắt buộc phải có giá trị `"source_lang"` rõ ràng (`"Korean"`, `"Chinese"`, v.v.) để bộ lọc Quick Pills trên web hoạt động chính xác 100%.

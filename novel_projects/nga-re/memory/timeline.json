@@ -1,0 +1,22 @@
+[
+  {
+    "stage": "Chiến tranh & Bắt giữ",
+    "event": "Go Yoon-gun chinh phạt nước Tây Lô, bắt Ngoại vương Seo Hwi về giam lỏng nơi thâm cung.",
+    "chapters": ["ch_001"]
+  },
+  {
+    "stage": "Cuộc hội ngộ sau một năm",
+    "event": "Yoon-gun tìm đến Seo Hwi, bàng hoàng trước khí phách bất khuất và thân thể hao mòn của chàng vương tử trẻ.",
+    "chapters": ["ch_001", "ch_002"]
+  },
+  {
+    "stage": "Day dứt & Chuyển biến tình cảm",
+    "event": "Sự giằng xé giữa hận thù diệt quốc và tình yêu nhen nhóm; Yoon-gun tìm cách bù đắp và bảo bọc Seo Hwi.",
+    "chapters": ["ch_003"]
+  },
+  {
+    "stage": "Đại kết cục",
+    "event": "Vượt qua ranh giới thù hận, cả hai trở thành chốn nương tựa duy nhất của nhau, HE.",
+    "chapters": ["ch_004"]
+  }
+]

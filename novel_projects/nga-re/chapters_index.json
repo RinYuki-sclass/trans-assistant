@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "chapter_dir": "ch_001",
+    "title": "Tập 1: Chiến Thắng Chinh Phạt & Tù Binh Nơi Thâm Cung",
+    "kr_title": "1권",
+    "status": "pending",
+    "word_count": 0
+  },
+  {
+    "id": 2,
+    "chapter_dir": "ch_002",
+    "title": "Tập 2: Nhuệ Khí Bất Khuất & Cơn Sóng Lòng Quân Vương",
+    "kr_title": "2권",
+    "status": "pending",
+    "word_count": 0
+  },
+  {
+    "id": 3,
+    "chapter_dir": "ch_003",
+    "title": "Tập 3: Giữa Lằn Ranh Hận Thù Và Chuộc Lỗi",
+    "kr_title": "3권",
+    "status": "pending",
+    "word_count": 0
+  },
+  {
+    "id": 4,
+    "chapter_dir": "ch_004",
+    "title": "Tập 4: Ngã Rẽ Định Mệnh & Bến Đỗ Cứu Rỗi",
+    "kr_title": "4권",
+    "status": "pending",
+    "word_count": 0
+  }
+]

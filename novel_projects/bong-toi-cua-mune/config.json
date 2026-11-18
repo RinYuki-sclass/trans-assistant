@@ -1,0 +1,22 @@
+{
+  "title": "Bóng Tối Của Mune",
+  "korean_title": "뮨의 그늘",
+  "author": "소림 (Solim) / RIDI",
+  "description": "Tiểu thuyết đam mỹ Tây phương kỳ huyễn, cung đình, hồi quy, hài hước ngọt ngào, chữa lành, 1v1, HE. Đại ma pháp sư trẻ tuổi nhất lịch sử Hebe Mune từng dùng cấm thuật cứu thế giới rồi chết đi trong cô độc. Nào ngờ cái chết của cậu lại khiến vị anh hùng trẻ tuổi Teyden phát điên vì cuồng si mà đồ sát hủy diệt cả thế giới. Đấng Sáng Tạo cho Hebe hồi quy với điều kiện oái oăm: phải làm cho Teyden không còn yêu mình nữa để cứu thế giới. Thế nhưng trong mắt chú cún bự niên hạ Teyden, mọi hành động cố tình tỏ ra đáng ghét của Hebe lại hóa thành những cử chỉ đáng yêu không lối thoát!",
+  "slug": "bong-toi-cua-mune",
+  "source_lang": "Korean",
+  "target_lang": "Vietnamese",
+  "raw_links": {
+    "ridibooks": "https://ridibooks.com/books/2847001426"
+  },
+  "style_guide": "Đam mỹ Tây phương kỳ huyễn, cung đình, hồi quy, niên hạ cún bự phúc hắc x đại ma pháp sư tự ti thụ, hài hước ngọt ngào, chữa lành, 1v1, HE.\n\nQUY TẮC BẮT BUỘC:\n1. Định dạng đoạn văn: Bắt buộc cách nhau đúng 1 dòng trống (\\n\\n) giữa các đoạn văn và lời thoại. Tuyệt đối không dính liền dòng (\\n).\n2. Dấu ngoặc thoại: Sử dụng ngoặc kép cong tiếng Việt “...”, không dùng gạch ngang đầu câu (— ...).\n3. Ngôi 3 trần thuật (Tự sự):\n   - Teyden (Công chính - Niên hạ cún bự hắc ám): Dùng 'hắn' hoặc 'cậu' trong văn trần thuật ngôi 3.\n   - Hebe (Thụ chính - Đại ma pháp sư tự ti): Dùng 'cậu' hoặc 'anh' trong văn trần thuật ngôi 3.\n4. Xưng hô đối thoại Teyden ↔ Hebe:\n   - Teyden: Xưng 'em / tôi', gọi Hebe là 'anh / ngài Hebe' (rất ngoan ngoãn, kính cẩn, làm nũng).\n   - Hebe: Xưng 'tôi / ta', gọi Teyden là 'cậu / Teyden' (cố tỏ vẻ nghiêm khắc, lạnh lùng nhưng hay bối rối).",
+  "confidence_threshold": 0.8,
+  "chunk_size": 20,
+  "created_at": "2026-11-18T10:50:00+07:00",
+  "chapters_count": 5,
+  "is_completed": false,
+  "is_dropped": false,
+  "drop_reason": "",
+  "cover_url": "https://img.ridicdn.net/cover/2336006278/xxlarge",
+  "ridi_url": "https://ridibooks.com/books/2336006278"
+}

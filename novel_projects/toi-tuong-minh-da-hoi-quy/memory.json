@@ -1,0 +1,41 @@
+{
+  "characters": [
+    {
+      "name": "Liam Carter",
+      "original_name": "리암 카터",
+      "hanviet_name": "Liam Carter",
+      "gender": "Nam",
+      "role": "Công chính (Main Top)",
+      "age": "20 tuổi",
+      "pronoun": "tôi",
+      "third_person_pronoun": "cậu",
+      "aliases": ["Liam", "nhóc con gây chuyện", "chồng nhỏ"],
+      "speech_style": "Kính cẩn, lanh lợi, dính người, mít ướt khi ở bên Kayden",
+      "notes": "Xuyên sách thành nam phụ (sub-top). Đã trải qua 42 lần hồi quy. Tỏ tình và lăn giường với Kayden vì ngỡ sẽ hồi quy tiếp."
+    },
+    {
+      "name": "Kayden Amir",
+      "original_name": "케이든 아미르",
+      "hanviet_name": "Kayden Amir",
+      "gender": "Nam",
+      "role": "Thụ chính (Main Bottom)",
+      "age": "32 tuổi",
+      "pronoun": "ta",
+      "third_person_pronoun": "anh",
+      "aliases": ["Kayden", "Đại Công tước Amir", "Công tước"],
+      "speech_style": "Trầm ổn, uy quyền, điềm tĩnh, sủng nịnh và bao dung nhóc Liam",
+      "notes": "Đại Công tước đế quốc, vốn là nam chính nguyên tác. Đưa ra lời cầu hôn và cưới Liam sau đêm định mệnh."
+    }
+  ],
+  "relationships": [
+    {
+      "pair": "Liam Carter → Kayden Amir",
+      "address": "tôi / em → ngài / Công tước"
+    },
+    {
+      "pair": "Kayden Amir → Liam Carter",
+      "address": "ta → cậu / em / Liam"
+    }
+  ],
+  "glossary": []
+}

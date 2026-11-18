@@ -1,0 +1,22 @@
+{
+  "title": "Ngã Rẽ",
+  "korean_title": "기로",
+  "author": "조용한시간 / RIDI",
+  "description": "Tiểu thuyết đam mỹ cung đình, chiến tranh chính trị, cường cường, cứu rỗi, 1v1, HE. Go Yoon-gun là vị Thái vương ngạo nghễ của đế quốc Thanh Nguyệt Mộc hùng mạnh. Sau bốn tháng chinh chiến tàn khốc, y tiêu diệt nước Tây Lô và bắt vị Ngoại vương trẻ tuổi Seo Hwi về làm tù binh giam lỏng nơi hậu cung. Một năm sau, khi quay lại tìm Seo Hwi với ý định bẻ gãy nhuệ khí của kẻ bại trận, Yoon-gun bàng hoàng nhận ra Seo Hwi dù bị giam cầm hao mòn nhưng sống lưng vẫn thẳng tắp, ánh mắt kiêu hãnh bất khuất không hề cúi đầu. Giữa hận thù diệt quốc và sợi dây duyên nợ nghiệt ngã, sự kiên cường của Seo Hwi dần khơi dậy sự day dứt, xót xa và tình cảm sâu sắc nơi vị quân vương chinh phạt.",
+  "slug": "nga-re",
+  "source_lang": "Korean",
+  "target_lang": "Vietnamese",
+  "raw_links": {
+    "ridibooks": "https://ridibooks.com/books/2847000780"
+  },
+  "style_guide": "Đam mỹ cung đình, chiến tranh chính trị, cường cường, niên hạ mỹ nhân công x thái vương cường thụ, 1v1, HE.\n\nQUY TẮC BẮT BUỘC:\n1. Định dạng đoạn văn: Bắt buộc cách nhau đúng 1 dòng trống (\\n\\n) giữa các đoạn văn và lời thoại. Tuyệt đối không dính liền dòng (\\n).\n2. Dấu ngoặc thoại: Sử dụng ngoặc kép cong tiếng Việt “...”, không dùng gạch ngang đầu câu (— ...).\n3. Ngôi 3 trần thuật (Tự sự):\n   - Seo Hwi (Công chính - Niên hạ mỹ nhân, cựu vương kiêu hãnh): Dùng 'hắn' hoặc 'chàng' trong văn trần thuật ngôi 3.\n   - Go Yoon-gun (Thụ chính - Thái vương quyền uy, cường thụ): Dùng 'y' hoặc 'hắn' trong văn trần thuật ngôi 3.\n4. Xưng hô đối thoại Seo Hwi ↔ Go Yoon-gun:\n   - Seo Hwi: Xưng 'ta / tôi', gọi Yoon-gun là 'Thái vương / bệ hạ / người' (lạnh lùng, bất khuất, tự tôn cao).\n   - Go Yoon-gun: Xưng 'trẫm / ta', gọi Seo Hwi là 'ngươi / Seo Hwi' (phong thái quân vương áp đảo nhưng dần dằn vặt, xót xa).",
+  "confidence_threshold": 0.8,
+  "chunk_size": 20,
+  "created_at": "2026-11-18T10:50:00+07:00",
+  "chapters_count": 4,
+  "is_completed": false,
+  "is_dropped": false,
+  "drop_reason": "",
+  "cover_url": "https://img.ridicdn.net/cover/2107158607/xxlarge",
+  "ridi_url": "https://ridibooks.com/books/2107158607"
+}

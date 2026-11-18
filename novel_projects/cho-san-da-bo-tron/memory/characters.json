@@ -1,0 +1,26 @@
+{
+  "Felix Capor": {
+    "role": "Công chính (Main Top)",
+    "korean_name": "펠릭스 카포르",
+    "aliases": ["Felix", "Tam hoàng tử", "Điện hạ"],
+    "description": "Tam hoàng tử từng bị giam cầm và lãng quên trong biệt cung, sau thức tỉnh thành ma pháp sư vĩ đại. Dịu dàng, thâm tình, yêu thầm Ian từ thuở ấu thơ.",
+    "pronouns_narrative": "hắn / anh",
+    "dialogue_first_person": "ta / tôi",
+    "dialogue_second_person": "em / Ian"
+  },
+  "Ian Dessette": {
+    "role": "Thụ chính (Main Bottom)",
+    "korean_name": "이안 데세트",
+    "aliases": ["Ian", "Chó săn Dessette"],
+    "description": "Con ngoài giá thú của Hầu tước Dessette. Kiếp trước làm chó săn cho Nhị hoàng tử và bị phản bội giết chết. Kiếp này trùng sinh về năm 12 tuổi, quyết tâm thay đổi số phận và bỏ trốn.",
+    "pronouns_narrative": "cậu",
+    "dialogue_first_person": "tôi / thần",
+    "dialogue_second_person": "Điện hạ / ngài Felix"
+  },
+  "Helio": {
+    "role": "Phản diện tiền kiếp",
+    "korean_name": "헬리오",
+    "aliases": ["Nhị hoàng tử Helio", "Tân hoàng đế"],
+    "description": "Nhị hoàng tử kiếp trước lợi dụng Ian làm mọi việc dơ bẩn rồi ra lệnh xử tử để bịt đầu mối."
+  }
+}

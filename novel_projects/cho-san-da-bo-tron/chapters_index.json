@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "chapter_dir": "ch_001",
+    "title": "Tập 1: Chén Rượu Độc & Lần Tái Sinh Năm Mười Tuổi",
+    "kr_title": "1권",
+    "status": "pending",
+    "word_count": 0
+  },
+  {
+    "id": 2,
+    "chapter_dir": "ch_002",
+    "title": "Tập 2: Kế Hoạch Trốn Chạy Của Chú Chó Săn",
+    "kr_title": "2권",
+    "status": "pending",
+    "word_count": 0
+  },
+  {
+    "id": 3,
+    "chapter_dir": "ch_003",
+    "title": "Tập 3: Sự Xuất Hiện Bất Thường Của Hoàng Tử",
+    "kr_title": "3권",
+    "status": "pending",
+    "word_count": 0
+  },
+  {
+    "id": 4,
+    "chapter_dir": "ch_004",
+    "title": "Tập 4: Âm Mưu Hầu Tước Phủ & Lời Thề Bảo Hộ",
+    "kr_title": "4권",
+    "status": "pending",
+    "word_count": 0
+  },
+  {
+    "id": 5,
+    "chapter_dir": "ch_005",
+    "title": "Tập 5: Thoát Khỏi Gông Cùm & Bến Đỗ Bình Yên",
+    "kr_title": "5권",
+    "status": "pending",
+    "word_count": 0
+  }
+]

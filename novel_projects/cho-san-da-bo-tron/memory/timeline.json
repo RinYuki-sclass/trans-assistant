@@ -1,0 +1,22 @@
+[
+  {
+    "stage": "Bi kịch kiếp trước",
+    "event": "Ian phò tá Helio lên ngôi hoàng đế nhưng nhận lại chén rượu độc; nghe thấy tiếng khóc xé lòng của Helio trước khi chết.",
+    "chapters": ["ch_001"]
+  },
+  {
+    "stage": "Tái sinh & Kế hoạch trốn chạy",
+    "event": "Ian tỉnh lại năm 10 tuổi tại Hầu tước phủ, quyết tâm rời xa vòng xoáy quyền lực.",
+    "chapters": ["ch_001", "ch_002"]
+  },
+  {
+    "stage": "Sự xuất hiện của Helio",
+    "event": "Helio kiếp này xuất hiện với sự bảo bọc khác thường, từng bước che chở và giữ chặt lấy Ian.",
+    "chapters": ["ch_003", "ch_004"]
+  },
+  {
+    "stage": "Hóa giải hiểu lầm & Tự do",
+    "event": "Cả hai đập tan âm mưu gia tộc, hóa giải bi kịch kiếp trước và cùng nhau hưởng trọn hạnh phúc, HE.",
+    "chapters": ["ch_005"]
+  }
+]

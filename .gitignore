@@ -50,3 +50,10 @@ data/cache_series/
 !data/shuku_tracker.db
 !data/nu_tracker.db
 cache/
+
+# Photoshop Scripts Temp Artifacts
+photoshop_scripts/temp_crop.png
+photoshop_scripts/crop_*.png
+photoshop_scripts/style_result.json
+photoshop_scripts/batch_result.json
+

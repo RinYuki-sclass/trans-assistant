@@ -36,12 +36,33 @@
   - HJ gọi YJ: Tôi – Cậu (*Han Yoojin-gun*).
   - YJ gọi HJ: Tôi – Anh (*Sung Hyunjae-ssi / Sungmo-ssi*).
 - **Park Yerim (YR):**
-  - YR ↔ Han Yoojin (YJ): Tôi/Bọn mình – Chú/Ahjussi.
+  - **YR ↔ Han Yoojin (YJ):**
+    - **Đại từ tự xưng:** Yerim **BẮT BUỘC tự xưng là "Tôi"** (hoặc "Bọn mình" khi nói chung), **TUYỆT ĐỐI KHÔNG dùng "cháu"** với Yoojin.
+    - **Danh xưng gọi Yoojin (`아저씨`):** Dùng linh hoạt giữa **"Ahjussi"** và **"chú"**:
+      - Khi gọi giật giọng, gọi như tên riêng / đứng đầu câu cảm thán gọi đích danh: dùng **"Ahjussi"** (ví dụ: `아저씨! 이거 봐요` -> *“Ahjussi! Nhìn cái này này”*).
+      - Khi nằm ở giữa câu hoặc trong câu trần thuật: dùng **"chú"** (ví dụ: *“Tôi đã bảo với chú rồi mà”*).
+      - **CHỈ DÙNG khi bản gốc KR có nhắc đến `아저씨`:** Tuyệt đối không tự ý thêm "chú" / "Ahjussi" nếu raw không có (ví dụ: `저기 봐요!` -> *“Nhìn đằng kia kìa!”*, KHÔNG dịch *“Xem kìa chú”*).
   - YR ↔ Han Yoohyun (YH): Tôi – Anh (*Hội trưởng / Han Yoohyun*). YH gọi YR: Tôi – Cô (*Park Yerim*).
   - YR ↔ Sung Hyunjae (HJ): Cháu – Chú (*chú Hội trưởng / ngài Hội trưởng*).
 - **Song Taewon (TW) ↔ Han Yoojin (YJ):** Tôi – Cậu (TW gọi YJ: *Han Yoojin-ssi*) & Tôi – Anh (YJ gọi TW).
 - **Yoo Myungwoo (YMW):** Độc thoại tự xưng "Tôi".
+- **Shishio (Amaterasu):** Gọi nhóm Yoojin là **“các cậu”** (TUYỆT ĐỐI KHÔNG dùng *"các ngươi"*).
 
-## 6. Quy tắc thực thi từ Coding Agent (Zero Google API Key Mandate)
+## 6. Quy chuẩn Thứ tự Text nhỏ & Ngữ điệu Đối thoại Manhwa
+- **Thứ tự Text nhỏ / Viết tay (Floating & Handwritten Texts):**
+  - Luôn quét và xếp thứ tự đọc hợp lý theo bố cục khung tranh (từ trên xuống dưới, theo ngữ cảnh hội thoại).
+  - Text nhỏ phụ họa, lẩm bẩm (ví dụ: `그래서 사자왕인가?`, `형 괜찮아?`) phải đặt đúng diễn biến trước/sau bóng thoại chính, không ngắt đôi luồng suy nghĩ độc thoại của nhân vật khác.
+- **Quy tắc chống lặp đuôi cảm thán:**
+  - Hạn chế tối đa việc lặp lại các đuôi cảm thán như *"sao"*, *"hả"*, *"mà"*, *"á"*.
+  - **Cấm kỵ:** Không dùng cùng 1 đuôi cảm thán trong 2 câu liên tiếp. Đa dạng hóa câu thoại tự nhiên (*...thế nào?*, *...chứ!*, *...chăng?!*, *...đấy à?*, *...phải không?*).
+- **Văn phong tự nhiên & Sắc thái biểu cảm:**
+  - Chuyển ngữ mượt mà theo văn nói, tránh dịch thô hoặc làm trầm trọng hóa cảm xúc (ví dụ: `당황스럽네` thể hiện sự bối rối, dở khóc dở cười $\rightarrow$ dịch nhẹ nhàng *“Bối rối thật đấy...”*, không dịch gay gắt như *"Đúng là cạn lời với tên..."*).
+  - Cảnh tương tác anh em Yoojin - Yoohyun mang sắc thái cưng chiều, bất lực đời thường hài hước, không dịch gắt gỏng căng thẳng.
+- **Chuẩn hóa Thuật ngữ:**
+  - `화염뿔사자` (Linh thú sư tử lửa 1 sừng của Yoojin / Shishio) $\rightarrow$ Chốt thống nhất duy nhất là **“Độc Giác Hỏa Sư”** (không dùng Hỏa Giác Sư hay Hỏa Sư).
+- **Đối chiếu người nói qua thị giác (Speaker Attribution):**
+  - Luôn quan sát kỹ nhân vật mở miệng, cử chỉ và phụ kiện trong khung hình để không nhầm lẫn nhân vật (chú ý phân biệt: Noah tóc vàng nhút nhát $\neq$ Kang Soyoung; Han Yoojin chủ trì $\neq$ Moon Hyuna nâng ly rượu).
+
+## 7. Quy tắc thực thi từ Coding Agent (Zero Google API Key Mandate)
 - **Tự thân OCR & Dịch trực tiếp:** Khi người dùng yêu cầu Coding Agent xử lý ảnh manhwa, Agent tự đọc ảnh và dịch trực tiếp bằng năng lực multimodal in-context.
 - **Nghiêm cấm gọi Google API Key:** Tuyệt đối không chạy script Python trung gian gọi API ngoài qua `GEMINI_API_KEY` hay Google GenAI để tránh lỗi 429 quota và 503 high demand.

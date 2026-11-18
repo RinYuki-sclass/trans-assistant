@@ -1,0 +1,22 @@
+[
+  {
+    "stage": "Tiền truyện",
+    "event": "Hebe hi sinh diệt ma vật; Teyden phát điên hủy diệt cả thế giới.",
+    "chapters": ["ch_001"]
+  },
+  {
+    "stage": "Hồi quy",
+    "event": "Hebe quay lại quá khứ, bắt đầu kế hoạch khiến Teyden chán ghét mình.",
+    "chapters": ["ch_001", "ch_002"]
+  },
+  {
+    "stage": "Hiểu lầm ngọt ngào",
+    "event": "Teyden coi mọi hành động của Hebe là sự đáng yêu, lộ bản chất thật và theo đuổi thụ.",
+    "chapters": ["ch_003", "ch_004"]
+  },
+  {
+    "stage": "Chữa lành & Kết thúc",
+    "event": "Cả hai thấu hiểu lòng nhau, Hebe trút bỏ tự ti, cùng Teyden sống hạnh phúc, HE.",
+    "chapters": ["ch_005"]
+  }
+]

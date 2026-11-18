@@ -1,7 +1,7 @@
 {
   "title": "Những Ngày Của Incubus",
   "korean_title": "인큐버스의 나날",
-  "author": "Bopuragi (보푸라기)",
+  "author": "보푸라기 / RIDI",
   "description": "Tiểu thuyết đam mỹ Tây phương kỳ huyễn, hài hước, ngọt ngào, 1v1, HE. Chàng ác ma Incubus Raffi vì quá nhát gan và sợ hãi chuyện giường chiếu mà giữ gìn sự trong trắng suốt 500 năm. Để không bị trục xuất khỏi tộc, cậu phải vượt qua bài thi tốt nghiệp: thu thập 5 phần tinh khí con người trong 3 ngày. Thế nhưng con mồi đầu tiên trong giấc mơ lại chính là Theodore — vị Hoàng thái tử quyền uy, tuấn tú và dũng mãnh của đế quốc, người che giấu bí mật thích nam giới. Chàng Incubus ngây thơ tưởng mình là thợ săn, ai ngờ bị Hoàng thái tử lột sạch và đè ngược lại ăn sạch sẽ, tạo nên chuỗi ngày thi tốt nghiệp đầy nước mắt và dở khóc dở cười.",
   "slug": "nhung-ngay-cua-incubus",
   "source_lang": "Korean",
@@ -14,7 +14,9 @@
   "chunk_size": 20,
   "created_at": "2026-11-17T23:10:00+07:00",
   "chapters_count": 5,
-  "is_completed": true,
+  "is_completed": false,
   "is_dropped": false,
-  "drop_reason": ""
+  "drop_reason": "",
+  "cover_url": "https://img.ridicdn.net/cover/1632010506/xxlarge",
+  "ridi_url": "https://ridibooks.com/books/1632010506"
 }

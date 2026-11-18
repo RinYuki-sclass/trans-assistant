@@ -2135,7 +2135,7 @@ if tabs.is_active(5):
             sessions = sorted([d for d in os.listdir(mh_hist_dir) if os.path.isdir(os.path.join(mh_hist_dir, d))], reverse=True)
         
             st.divider()
-            c_sess1, c_sess2 = st.columns([3, 1])
+            c_sess1, c_sess2 = st.columns([5, 3])
             with c_sess1:
                 opts = ["+ TẠO PHIÊN BẢN MỚI"] + sessions
                 # Retrieve default index from session_state if it exists
@@ -2150,17 +2150,24 @@ if tabs.is_active(5):
             with c_sess2:
                 st.write(" ")
                 if sess_choice != "+ TẠO PHIÊN BẢN MỚI":
-                    # Create two small columns for Rename and Delete
-                    cr1, cr2 = st.columns(2)
+                    # Create small columns for Refresh, Rename, Delete
+                    cr_ref, cr1, cr2 = st.columns([1.2, 1, 1])
+                    with cr_ref:
+                        if st.button("🔄 Nạp lại", use_container_width=True, key=f"btn_refresh_top_bar_{sess_choice}", help="Nạp lại text từ file script.txt trên ổ đĩa (trong trường hợp vừa sửa thẳng trong code)"):
+                            for k in list(st.session_state.keys()):
+                                if k.startswith(f"mh_edit_{sess_choice}_") or k == f"mh_raw_edit_{sess_choice}":
+                                    del st.session_state[k]
+                            st.session_state[f'_mh_refreshed_{sess_choice}'] = True
+                            st.rerun()
+                    with cr1:
+                        if st.button("✏️ Đổi tên", use_container_width=True):
+                            st.session_state['mh_rename_mode'] = sess_choice
                     with cr2:
                         if st.button("🗑️ Xóa", use_container_width=True, help="Xóa vĩnh viễn phiên bản này"):
                             import shutil
                             shutil.rmtree(os.path.join(mh_hist_dir, sess_choice))
                             st.success("✅ Đã xóa!")
                             st.rerun()
-                    with cr1:
-                        if st.button("✏️ Đổi tên", use_container_width=True):
-                            st.session_state['mh_rename_mode'] = sess_choice
 
             st.divider()
 
@@ -2475,6 +2482,10 @@ if tabs.is_active(5):
                 sess_script_path = os.path.join(sess_dir, "script.txt")
                 sess_img_dir = os.path.join(sess_dir, "images")
             
+                if st.session_state.get(f'_mh_refreshed_{sess_choice}'):
+                    del st.session_state[f'_mh_refreshed_{sess_choice}']
+                    st.toast("🔄 Đã nạp lại toàn bộ text mới nhất từ file script.txt!", icon="✅")
+
                 mh_content = load_file(sess_script_path)
             
                 # Helper: Parse master script into a dict of {filename: content}
@@ -2487,7 +2498,25 @@ if tabs.is_active(5):
                         text = parts[i+1].strip() if i+1 < len(parts) else ""
                         parsed_data[fname] = text
             
-                st.markdown(f"#### 📑 Biên tập Chapter: {sess_choice}")
+                # Lấy thời gian sửa đổi gần nhất của script.txt để người dùng tiện đối chiếu
+                script_mtime_str = ""
+                if os.path.exists(sess_script_path):
+                    mtime = os.path.getmtime(sess_script_path)
+                    dt = datetime.fromtimestamp(mtime, tz=timezone(timedelta(hours=7)))
+                    script_mtime_str = dt.strftime("%H:%M:%S (%d/%m/%Y)")
+
+                col_title, col_ref_btn = st.columns([3, 1.2])
+                with col_title:
+                    st.markdown(f"#### 📑 Biên tập Chapter: {sess_choice}")
+                    if script_mtime_str:
+                        st.caption(f"🕒 File `script.txt` cập nhật lần cuối: **{script_mtime_str}**")
+                with col_ref_btn:
+                    if st.button("🔄 Nạp lại text (Refresh)", key=f"btn_refresh_header_{sess_choice}", use_container_width=True, help="Tải lại toàn bộ kịch bản từ file script.txt trên ổ đĩa (trong trường hợp vừa sửa trực tiếp trong code/file)."):
+                        for k in list(st.session_state.keys()):
+                            if k.startswith(f"mh_edit_{sess_choice}_") or k == f"mh_raw_edit_{sess_choice}":
+                                del st.session_state[k]
+                        st.session_state[f'_mh_refreshed_{sess_choice}'] = True
+                        st.rerun()
 
                 # Danh sách ảnh: Ưu tiên đọc từ script.txt (bảo toàn trên Git), kết hợp với ảnh cục bộ trên đĩa
                 script_img_names = list(parsed_data.keys())
@@ -2654,19 +2683,28 @@ if tabs.is_active(5):
 
                     # Bottom Actions
                     if _has_gdocs:
-                        col_save, col_dl, col_gdoc = st.columns([1, 1, 1])
+                        col_save, col_ref, col_dl, col_gdoc = st.columns([1, 1, 1, 1])
                     else:
-                        col_save, col_dl = st.columns([1, 1])
+                        col_save, col_ref, col_dl = st.columns([1, 1, 1])
                         col_gdoc = None
 
-                    with col_dl:
-                         st.download_button("⬇️ Tải Kịch bản (.txt)", reconstructed_script, 
-                                           f"{sess_choice}.txt", use_container_width=True)
                     with col_save:
                         if st.button("💾 Lưu tất cả thay đổi", type="primary", use_container_width=True, key="mh_save_all"):
                             save_file(sess_script_path, reconstructed_script)
                             st.success("✅ Đã lưu toàn bộ bản dịch!")
                             st.rerun()
+
+                    with col_ref:
+                        if st.button("🔄 Nạp lại từ file", use_container_width=True, key=f"mh_ref_bottom_{sess_choice}", help="Hủy các sửa đổi trên web chưa lưu và nạp lại text mới nhất từ file script.txt"):
+                            for k in list(st.session_state.keys()):
+                                if k.startswith(f"mh_edit_{sess_choice}_") or k == f"mh_raw_edit_{sess_choice}":
+                                    del st.session_state[k]
+                            st.session_state[f'_mh_refreshed_{sess_choice}'] = True
+                            st.rerun()
+
+                    with col_dl:
+                         st.download_button("⬇️ Tải Kịch bản (.txt)", reconstructed_script, 
+                                           f"{sess_choice}.txt", use_container_width=True)
 
                     if col_gdoc is not None:
                         with col_gdoc:
@@ -2734,10 +2772,18 @@ if tabs.is_active(5):
                 else:
                     st.info("Chưa có danh sách ảnh nào được ghi nhận cho Lịch sử này.")
                     mh_raw_edit = st.text_area("Nội dung kịch bản:", mh_content, height=600, key=f"mh_raw_edit_{sess_choice}")
-                    if st.button("💾 Lưu thay đổi", type="primary", key="mh_raw_save"):
-                        save_file(sess_script_path, mh_raw_edit)
-                        st.success("✅ Đã lưu kịch bản!")
-                        st.rerun()
+                    c_raw_save, c_raw_ref = st.columns([1, 1])
+                    with c_raw_save:
+                        if st.button("💾 Lưu thay đổi", type="primary", key="mh_raw_save", use_container_width=True):
+                            save_file(sess_script_path, mh_raw_edit)
+                            st.success("✅ Đã lưu kịch bản!")
+                            st.rerun()
+                    with c_raw_ref:
+                        if st.button("🔄 Nạp lại text (Refresh)", key=f"mh_raw_refresh_{sess_choice}", use_container_width=True, help="Nạp lại nội dung từ file script.txt"):
+                            if f"mh_raw_edit_{sess_choice}" in st.session_state:
+                                del st.session_state[f"mh_raw_edit_{sess_choice}"]
+                            st.session_state[f'_mh_refreshed_{sess_choice}'] = True
+                            st.rerun()
 
     # =================== TAB 6: TẢI TRUYỆN ===================
 if tabs.is_active(6):
@@ -4084,6 +4130,7 @@ if tabs.is_active(9):
             'slug': slug,
             'title': cfg.get('title') or slug,
             'chinese_title': cfg.get('chinese_title') or '',
+            'korean_title': cfg.get('korean_title') or '',
             'author': author_disp,
             'source_lang': cfg.get('source_lang') or 'Other',
             'target_lang': cfg.get('target_lang') or 'Vietnamese',
@@ -4101,6 +4148,8 @@ if tabs.is_active(9):
             'is_dropped': bool(cfg.get('is_dropped', False)),
             'is_completed': bool(cfg.get('is_completed', False)),
             'drop_reason': cfg.get('drop_reason', ''),
+            'cover_url': cfg.get('cover_url') or '',
+            'ridi_url': cfg.get('ridi_url') or '',
         }
 
     def na_get_all_projects_summary(include_archived: bool = True) -> list[dict]:
@@ -4125,6 +4174,96 @@ if tabs.is_active(9):
             else:
                 counts['Chưa rõ tác giả'] += 1
         return sorted(counts.items(), key=lambda x: (-x[1], x[0].lower()))
+
+    @st.dialog("📖 Văn Án & Giới Thiệu Tiểu Thuyết", width="large")
+    def na_show_synopsis_dialog(p: dict):
+        """Display full novel synopsis (văn án) in a fast, clean modal dialog."""
+        import html as _html
+        title = p.get('title', 'Tiểu thuyết')
+        orig_title = p.get('chinese_title') or p.get('korean_title') or ''
+        author = p.get('author') or 'Chưa rõ tác giả'
+        src_lang = p.get('source_lang', '')
+        tgt_lang = p.get('target_lang', 'Vietnamese')
+        desc = (p.get('description') or '').strip()
+        n_trans = p.get('n_translated', 0)
+        n_ch = p.get('n_chapters', 0)
+        prog_pct = p.get('progress_pct', 0)
+        slug = p.get('slug', '')
+
+        # Header Info
+        st.markdown(
+            f"<div style='margin-bottom:8px;'>"
+            f"<div style='font-size:1.35rem;font-weight:700;color:#0F172A;line-height:1.3;'>{_html.escape(title)}</div>"
+            f"</div>",
+            unsafe_allow_html=True
+        )
+        
+        info_badges = []
+        if orig_title:
+            info_badges.append(f"<b>Nguyên tác:</b> {_html.escape(orig_title)}")
+        info_badges.append(f"✍️ <b>Tác giả:</b> <span style='color:#0D9488;font-weight:600;'>{_html.escape(author)}</span>")
+        info_badges.append(f"🌐 <b>Ngôn ngữ:</b> {src_lang} → {tgt_lang}")
+        info_badges.append(f"📊 <b>Tiến độ:</b> {n_trans}/{n_ch} chương ({prog_pct}%)")
+
+        st.markdown(
+            f"<div style='font-size:0.85rem;color:#475569;margin-bottom:14px;padding:6px 12px;background:#F1F5F9;border-radius:6px;display:flex;flex-wrap:wrap;gap:12px;align-items:center;'>"
+            f"{' &nbsp;•&nbsp; '.join(info_badges)}"
+            f"</div>",
+            unsafe_allow_html=True
+        )
+
+        # Content: Cover Image (nếu có) + Văn án
+        cover_url = p.get('cover_url') or ''
+        # Kiểm tra cover local trong thư mục novel_projects/<slug>/cover.*
+        if not cover_url:
+            p_dir = na_project_dir(slug)
+            for ext in ['jpg', 'jpeg', 'png', 'webp']:
+                loc_c = os.path.join(p_dir, f'cover.{ext}')
+                if os.path.exists(loc_c):
+                    cover_url = loc_c
+                    break
+
+        if cover_url:
+            col_cov, col_desc = st.columns([1, 2.5])
+            with col_cov:
+                try:
+                    st.image(cover_url, use_container_width=True, caption=f"Bìa: {title}")
+                except Exception:
+                    st.caption("🖼️ [Ảnh bìa không khả dụng]")
+            with col_desc:
+                if desc:
+                    st.markdown(
+                        f"<div style='background:#F8FAFC;border:1px solid #E2E8F0;border-left:4px solid #0D9488;border-radius:8px;padding:16px 20px;font-size:0.92rem;line-height:1.75;color:#1E293B;max-height:480px;overflow-y:auto;white-space:pre-wrap;font-family:system-ui, -apple-system, sans-serif;box-shadow:inset 0 1px 2px rgba(0,0,0,0.03);margin-bottom:18px;'>"
+                        f"{_html.escape(desc)}"
+                        f"</div>",
+                        unsafe_allow_html=True
+                    )
+                else:
+                    st.info("💡 Dự án này hiện chưa có nội dung văn án giới thiệu.")
+        else:
+            # Synopsis Content Box (Full width)
+            if desc:
+                st.markdown(
+                    f"<div style='background:#F8FAFC;border:1px solid #E2E8F0;border-left:4px solid #0D9488;border-radius:8px;padding:16px 20px;font-size:0.92rem;line-height:1.75;color:#1E293B;max-height:450px;overflow-y:auto;white-space:pre-wrap;font-family:system-ui, -apple-system, sans-serif;box-shadow:inset 0 1px 2px rgba(0,0,0,0.03);margin-bottom:18px;'>"
+                    f"{_html.escape(desc)}"
+                    f"</div>",
+                    unsafe_allow_html=True
+                )
+            else:
+                st.info("💡 Dự án này hiện chưa có nội dung văn án giới thiệu.")
+
+        # Action Buttons
+        col_act1, col_act2 = st.columns([2, 1])
+        with col_act1:
+            is_active = (st.session_state.get('na_project') == slug)
+            if not is_active:
+                if st.button("🚀 Mở Dự Án Này Làm Việc", key=f"btn_dlg_open_{slug}", type="primary", use_container_width=True):
+                    st.session_state['na_project'] = slug
+                    st.rerun()
+            else:
+                st.success("🎯 Dự án này hiện đang được mở làm việc")
+        with col_act2:
+            st.caption(f"📁 Slug: `{slug}`")
 
     def na_get_address_matrix_data(slug: str) -> dict:
         """
@@ -4857,6 +4996,44 @@ if tabs.is_active(11):
                                          placeholder="Nhập tên truyện, tên tác giả (VD: Nhất Lạc Nhất Khinh, 52Shuku, Tiên Hiệp...)",
                                          key="na_lib_search_input")
 
+            # Language quick counts for the current tab
+            cur_tab_items = completed_summaries if cur_lib_tab == 'completed' else (dropped_summaries if cur_lib_tab == 'dropped' else active_summaries)
+            cnt_cn = sum(1 for p in cur_tab_items if (p.get('source_lang') or '').strip().lower() == 'chinese' or bool(p.get('chinese_title')))
+            cnt_kr = sum(1 for p in cur_tab_items if (p.get('source_lang') or '').strip().lower() == 'korean' or bool(p.get('korean_title')))
+            cnt_all = len(cur_tab_items)
+            cnt_other = cnt_all - cnt_cn - cnt_kr
+            if cnt_other < 0:
+                cnt_other = 0
+
+            # Language quick filter options
+            lang_filter_keys = ["all", "chinese", "korean"]
+            lang_label_map = {
+                "all": f"🌐 Tất cả ({cnt_all})",
+                "chinese": f"🇨🇳 Truyện Trung ({cnt_cn})",
+                "korean": f"🇰🇷 Truyện Hàn ({cnt_kr})"
+            }
+            if cnt_other > 0:
+                lang_filter_keys.append("other")
+                lang_label_map["other"] = f"🌍 Khác ({cnt_other})"
+
+            cur_lang_filter = st.session_state.get('na_filter_lang_code', 'all')
+            if cur_lang_filter not in lang_filter_keys:
+                cur_lang_filter = 'all'
+
+            st.markdown("**Nguồn gốc & Ngôn ngữ truyện:**")
+            sel_lang_code = st.pills(
+                "Lọc theo nguồn truyện:",
+                options=lang_filter_keys,
+                format_func=lambda x: lang_label_map.get(x, x),
+                selection_mode="single",
+                default=cur_lang_filter,
+                key="na_filter_lang_pills",
+                label_visibility="collapsed"
+            )
+            if not sel_lang_code:
+                sel_lang_code = 'all'
+            st.session_state['na_filter_lang_code'] = sel_lang_code
+
             col_flt1, col_flt2 = st.columns([3, 2])
             
             # Author filter options
@@ -4872,14 +5049,23 @@ if tabs.is_active(11):
                 st.session_state['na_filter_author'] = sel_author
 
             with col_flt2:
-                sel_lang = st.selectbox("🌐 Ngôn ngữ gốc:", ["Tất cả ngôn ngữ", "Chinese", "Korean", "English"], key="na_filter_lang")
+                # Supplementary dropdown for specific language precision
+                detailed_lang_options = ["Tất cả ngôn ngữ", "Chinese", "Korean", "English", "Other"]
+                sel_lang_dropdown = st.selectbox("🌐 Chi tiết ngôn ngữ:", detailed_lang_options, key="na_filter_lang_detail")
 
             # Reset filters button
-            has_active_filters = (bool(search_query.strip()) or sel_author != "Tất cả tác giả" or sel_lang != "Tất cả ngôn ngữ")
+            has_active_filters = (
+                bool(search_query.strip()) or 
+                sel_author != "Tất cả tác giả" or 
+                sel_lang_code != "all" or 
+                sel_lang_dropdown != "Tất cả ngôn ngữ"
+            )
             if has_active_filters:
                 if st.button("🧹 Xóa tất cả bộ lọc (Hiện toàn bộ truyện)", key="na_reset_filters_btn"):
                     st.session_state['na_lib_search'] = ''
                     st.session_state['na_filter_author'] = "Tất cả tác giả"
+                    st.session_state['na_filter_lang_code'] = 'all'
+                    st.session_state['na_filter_lang_detail'] = "Tất cả ngôn ngữ"
                     st.rerun()
 
             # --- FILTERING LOGIC ---
@@ -4908,9 +5094,17 @@ if tabs.is_active(11):
                 target_author_name = sel_author.rsplit(' (', 1)[0].strip()
                 filtered = [p for p in filtered if p['author'].strip().lower() == target_author_name.lower()]
 
-            # Language filter
-            if sel_lang != "Tất cả ngôn ngữ":
-                filtered = [p for p in filtered if p['source_lang'].strip().lower() == sel_lang.lower()]
+            # Language filter (Pills: Trung / Hàn / Tất cả)
+            if sel_lang_code == 'chinese':
+                filtered = [p for p in filtered if (p.get('source_lang') or '').strip().lower() == 'chinese' or bool(p.get('chinese_title'))]
+            elif sel_lang_code == 'korean':
+                filtered = [p for p in filtered if (p.get('source_lang') or '').strip().lower() == 'korean' or bool(p.get('korean_title'))]
+            elif sel_lang_code == 'other':
+                filtered = [p for p in filtered if (p.get('source_lang') or '').strip().lower() not in ['chinese', 'korean'] and not p.get('chinese_title') and not p.get('korean_title')]
+
+            # Detailed language dropdown filter (nếu người dùng chọn cụ thể trong dropdown)
+            if sel_lang_dropdown != "Tất cả ngôn ngữ":
+                filtered = [p for p in filtered if (p.get('source_lang') or '').strip().lower() == sel_lang_dropdown.lower()]
 
             # Default Sort: Mới cập nhật
             filtered.sort(key=lambda x: x.get('created_at', ''), reverse=True)
@@ -4963,7 +5157,7 @@ if tabs.is_active(11):
                     st.dataframe(_pd.DataFrame(table_rows), use_container_width=True, hide_index=True)
                     
                     # Quick select / action
-                    col_ts1, col_ts2, col_ts3 = st.columns([3, 1, 1])
+                    col_ts1, col_ts_va, col_ts2, col_ts3 = st.columns([3, 1.2, 1.2, 1])
                     with col_ts1:
                         if cur_lib_tab == 'completed':
                             lbl_tb = "Chọn dự án để đọc lại / khôi phục:"
@@ -4975,6 +5169,11 @@ if tabs.is_active(11):
                         sel_tb_proj = st.selectbox(lbl_tb, [p['slug'] for p in filtered], 
                                                    format_func=lambda s: next((p['title'] for p in filtered if p['slug'] == s), s),
                                                    key="na_tb_quick_sel")
+                    with col_ts_va:
+                        if st.button("📖 Đọc Văn Án", key="na_btn_view_va_tb_proj", help="Mở popup đọc toàn bộ văn án giới thiệu của truyện đang chọn", use_container_width=True):
+                            sel_p_obj = next((x for x in filtered if x['slug'] == sel_tb_proj), None)
+                            if sel_p_obj:
+                                na_show_synopsis_dialog(sel_p_obj)
                     with col_ts2:
                         if cur_lib_tab == 'completed':
                             if st.button("🔄 Đọc Lại Dự Án", key="na_btn_restore_done_tb_proj", type="primary", use_container_width=True):
@@ -5046,19 +5245,40 @@ if tabs.is_active(11):
                                         else:
                                             drop_reason_html = "<div style='margin-bottom:8px;padding:4px 8px;background:#F1F5F9;color:#64748B;border-radius:6px;font-size:0.78rem;font-style:italic;'>💭 Chưa ghi lý do drop</div>"
 
+                                    cover_thumb_html = ""
+                                    c_url = p.get('cover_url') or ''
+                                    if not c_url:
+                                        p_dir = na_project_dir(p['slug'])
+                                        for ext in ['jpg', 'jpeg', 'png', 'webp']:
+                                            loc_c = os.path.join(p_dir, f'cover.{ext}')
+                                            if os.path.exists(loc_c):
+                                                c_url = loc_c
+                                                break
+                                    if c_url:
+                                        cover_thumb_html = (
+                                            f"<div style='flex-shrink:0;width:72px;height:102px;border-radius:6px;overflow:hidden;box-shadow:0 2px 6px rgba(0,0,0,0.12);margin-right:12px;border:1px solid #E2E8F0;background:#F8FAFC;'>"
+                                            f"<img src='{c_url}' style='width:100%;height:100%;object-fit:cover;' />"
+                                            f"</div>"
+                                        )
+
                                     card_html = (
                                         f"<div style='border:1px solid {card_border};border-radius:12px;padding:1.1rem 1.25rem;margin-bottom:0.8rem;background:{card_bg};box-shadow:0 1px 3px rgba(0,0,0,0.03);min-height:175px;display:flex;flex-direction:column;justify-content:space-between;'>"
                                         f"<div>"
+                                        f"<div style='display:flex;align-items:flex-start;'>"
+                                        f"{cover_thumb_html}"
+                                        f"<div style='flex-grow:1;min-width:0;'>"
                                         f"<div style='display:flex;justify-content:space-between;align-items:flex-start;gap:8px;margin-bottom:4px;'>"
                                         f"<div style='font-size:1.05rem;font-weight:700;color:#1E293B;line-height:1.35;'>{p['title']}</div>"
                                         f"<div style='display:flex;align-items:center;gap:6px;'>{badge_top}<span style='background:#F1F5F9;color:#475569;padding:2px 8px;border-radius:6px;font-size:0.74rem;font-weight:600;white-space:nowrap;'>{lang_badge}</span></div>"
                                         f"</div>"
-                                        f"<div style='font-size:0.83rem;color:#64748B;margin-bottom:8px;'>✍️ <b>Tác giả:</b> <span style='color:#0D9488;font-weight:600;'>{p['author']}</span></div>"
+                                        f"<div style='font-size:0.83rem;color:#64748B;margin-bottom:6px;'>✍️ <b>Tác giả:</b> <span style='color:#0D9488;font-weight:600;'>{p['author']}</span></div>"
                                         f"{drop_reason_html}"
-                                        f"<div style='font-size:0.83rem;color:#475569;line-height:1.45;margin-bottom:10px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;'>{desc_snip}</div>"
+                                        f"<div style='font-size:0.83rem;color:#475569;line-height:1.45;margin-bottom:8px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;'>{desc_snip}</div>"
+                                        f"</div>"
+                                        f"</div>"
                                         f"</div>"
                                         f"<div>"
-                                        f"<div style='display:flex;justify-content:space-between;font-size:0.78rem;color:#64748B;margin-bottom:4px;'>"
+                                        f"<div style='display:flex;justify-content:space-between;font-size:0.78rem;color:#64748B;margin-bottom:4px;margin-top:6px;'>"
                                         f"<span>Tiến độ dịch: <b>{p['n_translated']} / {p['n_chapters']}</b> chương</span>"
                                         f"<span style='font-weight:700;color:{prog_bar_color};'>{prog_pct}%</span>"
                                         f"</div>"
@@ -5072,11 +5292,14 @@ if tabs.is_active(11):
                                     
                                     # Card Actions
                                     if cur_lib_tab == 'completed':
-                                        c_btn1, c_btn2, c_btn3, c_btn4 = st.columns([2, 3, 2, 1])
+                                        c_btn1, c_btn_va, c_btn2, c_btn3, c_btn4 = st.columns([1.8, 1.8, 2.6, 1.8, 0.9])
                                         with c_btn1:
                                             if st.button("🔄 Đọc Lại", key=f"na_reopen_grid_{p['slug']}", type="primary", help="Khôi phục lại vào Thư viện chính đang theo dõi", use_container_width=True):
                                                 na_set_project_completed(p['slug'], False)
                                                 st.rerun()
+                                        with c_btn_va:
+                                            if st.button("📖 Văn Án", key=f"na_va_grid_comp_{p['slug']}", help="Xem toàn bộ văn án giới thiệu của truyện", use_container_width=True):
+                                                na_show_synopsis_dialog(p)
                                         with c_btn2:
                                             if p['n_translated'] > 0:
                                                 epub_ready_key = f"na_quick_ep_{p['slug']}"
@@ -5139,11 +5362,14 @@ if tabs.is_active(11):
                                                 st.session_state[f'na_del_confirm_{p["slug"]}'] = True
 
                                     elif cur_lib_tab == 'dropped':
-                                        c_btn1, c_btn2, c_btn3, c_btn4 = st.columns([2, 3, 2, 1])
+                                        c_btn1, c_btn_va, c_btn2, c_btn3, c_btn4 = st.columns([1.8, 1.8, 2.6, 1.8, 0.9])
                                         with c_btn1:
                                             if st.button("🔄 Khôi Phục", key=f"na_rest_grid_{p['slug']}", type="primary", help="Khôi phục lại vào Thư viện chính đang theo dõi", use_container_width=True):
                                                 na_set_project_dropped(p['slug'], False)
                                                 st.rerun()
+                                        with c_btn_va:
+                                            if st.button("📖 Văn Án", key=f"na_va_grid_drop_{p['slug']}", help="Xem toàn bộ văn án giới thiệu của truyện", use_container_width=True):
+                                                na_show_synopsis_dialog(p)
                                         with c_btn2:
                                             if p['n_translated'] > 0:
                                                 epub_ready_key = f"na_quick_ep_{p['slug']}"
@@ -5229,8 +5455,8 @@ if tabs.is_active(11):
                                                 st.rerun()
 
                                     else:
-                                        # Active Projects: Row 1 (Mở, EPUB) + Row 2 (Tác giả, Đọc Xong, Drop, Xóa)
-                                        c_top1, c_top2 = st.columns([2, 3])
+                                        # Active Projects: Row 1 (Mở, Văn Án, EPUB) + Row 2 (Tác giả, Đọc Xong, Drop, Xóa)
+                                        c_top1, c_top_va, c_top2 = st.columns([1.8, 1.8, 2.6])
                                         with c_top1:
                                             if not is_active:
                                                 if st.button("✅ Mở", key=f"na_open_grid_{p['slug']}", type="primary", use_container_width=True):
@@ -5238,6 +5464,9 @@ if tabs.is_active(11):
                                                     st.rerun()
                                             else:
                                                 st.button("🎯 Đang mở", key=f"na_act_lbl_{p['slug']}", disabled=True, use_container_width=True)
+                                        with c_top_va:
+                                            if st.button("📖 Văn Án", key=f"na_va_grid_act_{p['slug']}", help="Xem toàn bộ văn án giới thiệu của truyện", use_container_width=True):
+                                                na_show_synopsis_dialog(p)
                                         with c_top2:
                                             if p['n_translated'] > 0:
                                                 epub_ready_key = f"na_quick_ep_{p['slug']}"
