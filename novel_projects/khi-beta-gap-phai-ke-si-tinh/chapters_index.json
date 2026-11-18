@@ -2,7 +2,7 @@
   "project_slug": "khi-beta-gap-phai-ke-si-tinh",
   "title": "Khi Beta Gặp Phải Kẻ Si Tình",
   "author": "Thù Xuyên (酬川)",
-  "total_chapters": 65,
+  "total_chapters": 66,
   "stats": {
     "pending": 0,
     "raw_ready": 32,
@@ -945,6 +945,14 @@
       "updated_at": "2026-11-17T17:10:00"
     },
     {
+      "id": "ch_073",
+      "chapter_number": 73,
+      "title_raw": "第73章",
+      "title_vi": "Chương 73: Đêm nhạc hội bãi biển, Alpha xa lạ bắt chuyện",
+      "status": "completed",
+      "paragraph_count": 137
+    },
+    {
       "id": "ch_074",
       "chapter_number": 74,
       "title_raw": "第74章",
@@ -953,5 +961,5 @@
       "paragraph_count": 132
     }
   ],
-  "completed_chapters": 39
+  "completed_chapters": 40
 }
