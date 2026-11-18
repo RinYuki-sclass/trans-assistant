@@ -13,7 +13,7 @@
     "published": 0,
     "completed": 22,
     "total_chapters": 54,
-    "completed_chapters": 33
+    "completed_chapters": 36
   },
   "arcs": [
     {
@@ -34,6 +34,56 @@
     }
   ],
   "chapters": [
+    {
+      "id": "ch_075",
+      "title_raw": "第75章",
+      "title_vi": "Chương 75: Lời tỏ tình ở dốc Tình Nhân",
+      "source_file": "chapters/ch_075/source.md",
+      "translation_file": "chapters/ch_075/translation.md",
+      "qc_file": "chapters/ch_075/qc_report.md",
+      "status": "completed",
+      "paragraph_count": 104
+    },
+    {
+      "id": "ch_076",
+      "title_raw": "第76章",
+      "title_vi": "Chương 76: Nụ hôn xác định quan hệ, nụ cười ngọt ngào",
+      "source_file": "chapters/ch_076/source.md",
+      "translation_file": "chapters/ch_076/translation.md",
+      "qc_file": "chapters/ch_076/qc_report.md",
+      "status": "completed",
+      "paragraph_count": 115
+    },
+    {
+      "id": "ch_077",
+      "title_raw": "第77章",
+      "title_vi": "Chương 77: Nhẫn đính ước và bí kíp đè Alpha",
+      "source_file": "chapters/ch_077/source.md",
+      "translation_file": "chapters/ch_077/translation.md",
+      "qc_file": "chapters/ch_077/qc_report.md",
+      "status": "completed",
+      "paragraph_count": 127
+    },
+    {
+      "id": "ch_078",
+      "title_raw": "第78章",
+      "title_vi": "Chương 78: Gửi nhầm link đồ chơi, cuộc gọi video ngọt ngào",
+      "source_file": "chapters/ch_078/source.md",
+      "translation_file": "chapters/ch_078/translation.md",
+      "qc_file": "chapters/ch_078/qc_report.md",
+      "status": "completed",
+      "paragraph_count": 156
+    },
+    {
+      "id": "ch_079",
+      "title_raw": "第79章",
+      "title_vi": "Chương 79: Hẹn hò Vườn treo, chiếc nhẫn đôi nồng nàn",
+      "source_file": "chapters/ch_079/source.md",
+      "translation_file": "chapters/ch_079/translation.md",
+      "qc_file": "chapters/ch_079/qc_report.md",
+      "status": "completed",
+      "paragraph_count": 115
+    },
     {
       "id": "ch_080",
       "title_raw": "第80章",
@@ -894,5 +944,6 @@
       "source_url": "",
       "updated_at": "2026-11-17T17:10:00"
     }
-  ]
+  ],
+  "completed_chapters": 38
 }
