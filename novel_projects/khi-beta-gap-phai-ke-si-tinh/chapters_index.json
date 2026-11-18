@@ -13,7 +13,7 @@
     "published": 0,
     "completed": 22,
     "total_chapters": 54,
-    "completed_chapters": 28
+    "completed_chapters": 33
   },
   "arcs": [
     {
@@ -34,6 +34,56 @@
     }
   ],
   "chapters": [
+    {
+      "id": "ch_080",
+      "title_raw": "第80章",
+      "title_vi": "Chương 80: Thanh mai trúc mã? Cảnh báo nguy hiểm ở Vườn treo",
+      "source_file": "chapters/ch_080/source.md",
+      "translation_file": "chapters/ch_080/translation.md",
+      "qc_file": "chapters/ch_080/qc_report.md",
+      "status": "completed",
+      "paragraph_count": 97
+    },
+    {
+      "id": "ch_081",
+      "title_raw": "第81章",
+      "title_vi": "Chương 81: Vườn treo phát nổ, thức tỉnh thiên phú lần hai",
+      "source_file": "chapters/ch_081/source.md",
+      "translation_file": "chapters/ch_081/translation.md",
+      "qc_file": "chapters/ch_081/qc_report.md",
+      "status": "completed",
+      "paragraph_count": 133
+    },
+    {
+      "id": "ch_082",
+      "title_raw": "第82章",
+      "title_vi": "Chương 82: Cuộc sống an nhàn, bị giam trong phòng tối?",
+      "source_file": "chapters/ch_082/source.md",
+      "translation_file": "chapters/ch_082/translation.md",
+      "qc_file": "chapters/ch_082/qc_report.md",
+      "status": "completed",
+      "paragraph_count": 107
+    },
+    {
+      "id": "ch_083",
+      "title_raw": "第83章",
+      "title_vi": "Chương 83: Tâm sự trong chăn, kỳ mẫn cảm giả tính",
+      "source_file": "chapters/ch_083/source.md",
+      "translation_file": "chapters/ch_083/translation.md",
+      "qc_file": "chapters/ch_083/qc_report.md",
+      "status": "completed",
+      "paragraph_count": 94
+    },
+    {
+      "id": "ch_084",
+      "title_raw": "第84章",
+      "title_vi": "Chương 84: Nhẫn tín hiệu, hạn chót đăng ký ra tiền tuyến",
+      "source_file": "chapters/ch_084/source.md",
+      "translation_file": "chapters/ch_084/translation.md",
+      "qc_file": "chapters/ch_084/qc_report.md",
+      "status": "completed",
+      "paragraph_count": 116
+    },
     {
       "id": "ch_085",
       "order": 1,

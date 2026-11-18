@@ -2,13 +2,18 @@
 
 > **Tác giả:** Thù Xuyên (酬川)  
 > **Thể loại:** Đam mỹ, tinh tế ABO, xuyên thư, chủ công, Beta công x Alpha thụ, hài hước, ngọt sủng, HE.  
+| ch_080 | 第80章 | Chương 80 | 97 | 🟢 completed |
+| ch_081 | 第81章 | Chương 81 | 133 | 🟢 completed |
+| ch_082 | 第82章 | Chương 82 | 107 | 🟢 completed |
+| ch_083 | 第83章 | Chương 83 | 94 | 🟢 completed |
+| ch_084 | 第84章 | Chương 84 | 116 | 🟢 completed |
 | ch_085 | 第85章 | Chương 85 | 102 | 🟢 completed |
 | ch_086 | 第86章 | Chương 86 | 138 | 🟢 completed |
 | ch_087 | 第87章 | Chương 87 | 146 | 🟢 completed |
 | ch_088 | 第88章 | Chương 88 | 110 | 🟢 completed |
 | ch_089 | 第89章 | Chương 89 | 143 | 🟢 completed |
 | ch_090 | 第90章 | Chương 90 | 111 | 🟢 completed |
-> **Tiến độ:** Đã hoàn thành dịch và QC 28 chương Chính văn (ch_085 -> ch_112), raw sẵn sàng từ ch_085 đến ch_138 (tổng 54 chương).  
+> **Tiến độ:** Đã hoàn thành dịch và QC 33 chương Chính văn (ch_080 -> ch_112), raw sẵn sàng từ ch_085 đến ch_138 (tổng 54 chương).  
 
 ---
 
