@@ -3,17 +3,17 @@
     {
       "name": "Liam Carter",
       "kr_name": "리암 카터",
-      "role": "Công chính (Chủ công / MC xuyên sách)",
-      "description": "Pháp sư Ma Tháp tóc đen mắt xanh. Vốn là công phụ trong nguyên tác, bị kẹt trong vòng lặp hồi quy 42 lần mỗi khi Caden x Ravi tan vỡ. Trong lần 42 say rượu đè Đại Công tước Kayden, sáng dậy phát hiện hết hồi quy và bị Kayden tóm đăng ký kết hôn luôn. Tính cách lầy lội, hài hước, mê tiền, sợ chết nhưng rất có bản lĩnh.",
-      "pronouns_narrative": "ta (ngôi 1 tự sự)",
+      "role": "Công chính (Niên hạ kính ngữ công 20t / MC xuyên sách)",
+      "description": "Pháp sư Ma Tháp tóc đen mắt xanh. Vốn là công phụ trong nguyên tác, bị kẹt trong vòng lặp hồi quy 42 lần mỗi khi Caden x Ravi tan vỡ. Trong lần 42 say rượu đè Đại Công tước Kayden, sáng dậy phát hiện hết hồi quy và bị Kayden tóm đăng ký kết hôn luôn. Thuộc tuýp niên hạ kính ngữ công, cún bự, mít ướt nhưng rất có bản lĩnh trên giường.",
+      "pronouns_narrative": "tôi (ngôi 1 tự sự)",
+      "pronouns_third_person_for_kayden": "Kayden / anh",
       "pronouns_dialogue": {
-        "self": "ta",
         "with_kayden": {
-          "self": "ta",
-          "call_other": "Kayden / Công tước / em (CẤM gọi Công tước-nim)"
+          "normal": { "self": "tôi", "call_other": "ngài / Công tước" },
+          "intimate": { "self": "em", "call_other": "ngài" }
         },
         "with_ravi": {
-          "self": "ta",
+          "self": "tôi",
           "call_other": "Ravi / cậu"
         }
       }
@@ -21,13 +21,13 @@
     {
       "name": "Kayden Amir",
       "kr_name": "케이든 아미르",
-      "role": "Thụ chính (Cường thụ / Đại Công tước)",
-      "description": "Đại Công tước tóc vàng mắt đỏ hơn Liam 12 tuổi. Nhân vật quyền lực tối cao của đế quốc, đứng đầu triệt phá tổ chức Tribula. Trầm ổn, chiếm hữu cao, dễ ghen (bóp nát quả táo khi Liam bắt chước xưng hô của Ravi), cực kỳ cưng chiều và bảo bọc Liam. Bị Liam đè một đêm xong quyết định bắt Liam kết hôn để giữ trọn bên mình.",
-      "pronouns_narrative": "ngài / anh / Công tước Kayden",
+      "role": "Thụ chính (Niên thượng cường thụ 32t / Đại Công tước)",
+      "description": "Đại Công tước tóc vàng mắt đỏ hơn Liam 12 tuổi. Nhân vật quyền lực tối cao của đế quốc, đứng đầu triệt phá tổ chức Tribula. Trầm ổn, uy nghiêm, bao dung, cưng chiều Liam. Bị Liam đè một đêm xong quyết định bắt Liam kết hôn để giữ trọn bên mình.",
+      "pronouns_narrative": "Kayden / anh",
       "pronouns_dialogue": {
         "with_liam": {
-          "self": "tôi / em",
-          "call_other": "Liam / anh"
+          "normal": { "self": "ta", "call_other": "cậu / Liam" },
+          "intimate": { "self": "ta", "call_other": "em" }
         }
       }
     },
@@ -35,7 +35,7 @@
       "name": "Ravi Flair",
       "kr_name": "라비 플레어",
       "role": "Thụ chính nguyên tác",
-      "description": "Điều tra viên chính trực, nghiêm túc, làm việc chăm chỉ. Thường đau đầu vì những trò quậy phá của Liam và phong thái khó đoán của Công tước Kayden.",
+      "description": "Điều tra viên chính trực, nghiêm túc, bạn của Liam.",
       "pronouns_narrative": "anh / cậu",
       "pronouns_dialogue": {
         "with_liam": {

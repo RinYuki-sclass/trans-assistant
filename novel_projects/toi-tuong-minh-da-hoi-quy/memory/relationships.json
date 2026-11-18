@@ -1,10 +1,10 @@
 {
   "relationships": [
     {
-      "pair": ["Liam Carter (Công)", "Kayden Amir (Thụ)"],
+      "pair": ["Liam Carter (Công 20t)", "Kayden Amir (Thụ 32t)"],
       "status": "Oan gia tình một đêm -> Đã đăng ký kết hôn / Yêu đương",
-      "liam_to_kayden": "Tự xưng 'ta', gọi Kayden là 'Kayden' hoặc 'Công tước' / 'em'. Vừa nể sợ uy quyền của Đại Công tước vừa tự hào vì đã 'đè' được anh, dần yêu thương và bảo hộ.",
-      "kayden_to_liam": "Tự xưng 'tôi' hoặc 'em', gọi Liam là 'Liam' hoặc 'anh'. Chiếm hữu, cưng chiều, dễ ghen, trói chặt Liam bằng giấy đăng ký kết hôn."
+      "liam_to_kayden": "Bình thường xưng 'tôi' gọi 'ngài', khi yêu xưng 'em' gọi 'ngài'. Nhắc về Kayden ngôi 3 gọi là 'Kayden' hoặc 'anh'. Vừa nể sợ uy quyền của Đại Công tước vừa say mê anh, chủ động đè anh trên giường.",
+      "kayden_to_liam": "Bình thường xưng 'ta' gọi 'cậu', khi yêu xưng 'ta' gọi 'em'. Chiếm hữu, cưng chiều, trói chặt Liam bằng giấy đăng ký kết hôn."
     }
   ]
 }

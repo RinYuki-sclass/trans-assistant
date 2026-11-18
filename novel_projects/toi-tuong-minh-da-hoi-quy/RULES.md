@@ -2,8 +2,8 @@
 ## TÔI TƯỞNG MÌNH ĐÃ HỒI QUY! (《회귀할 줄 알았어요!》 / I THOUGHT I REGRESSED!)
 
 > **Tác giả:** Kim Yu-geuk (김유극)  
-> **Cặp đôi chính:** **Liam Carter** (Công chính / Chủ công / Pháp sư Ma Tháp xuyên sách) × **Kayden Amir** (Thụ chính / Cường thụ / Đại Công tước niên thượng tóc vàng mắt đỏ)  
-> **Bối cảnh:** Tây phương huyền huyễn / Quý tộc cung đình / Xuyên sách / Chủ công / Hồi quy 42 lần / Hài hước ngọt ngào / 1v1 / HE  
+> **Cặp đôi chính:** **Liam Carter** (Công chính / Niên hạ kính ngữ công 20t, pháp sư Ma Tháp) × **Kayden Amir** (Thụ chính / Niên thượng cường thụ 32t, Đại Công tước tóc vàng mắt đỏ)  
+> **Bối cảnh:** Tây phương huyền huyễn / Quý tộc cung đình / Xuyên sách / Hồi quy 42 lần / Hài hước ngọt ngào / 1v1 / HE  
 > **Quy mô dự án:** Trọn bộ 8 chương (Chương 1 - Chương 7 + Ngoại truyện)  
 > **Thư mục dự án:** `novel_projects/toi-tuong-minh-da-hoi-quy`
 
@@ -29,61 +29,36 @@
 
 ---
 
-## 👥 2. PHÂN VAI & THIẾT LẬP NHÂN VẬT
+## 👥 2. PHÂN VAI & THIẾT LẬP NHÂN VẬT CHÍNH XÁC (USER CHỐT)
 
 ### 2.1. Chuẩn Hóa Tên Riêng
-- **Công chính (Chủ công):** **Liam Carter** (리암 카터) — Pháp sư Ma Tháp tóc đen mắt xanh lam, người xuyên sách vốn đóng vai công phụ trong nguyên tác.
-- **Thụ chính (Cường thụ):** **Kayden Amir** (케이든 아미르 / Công tước Kayden) — Đại Công tước quyền uy tối thượng, tóc vàng mắt đỏ, hơn Liam 12 tuổi.
-  - 🚨 **BẮT BUỘC:** Tên chuẩn hóa duy nhất là **Kayden** (loại bỏ hoàn toàn biến thể `Cayden` và `Caden`).
+- **Công chính:** **Liam Carter** (리암 카터) — 20 tuổi, pháp sư Ma Tháp tóc đen mắt xanh lam, người xuyên sách vốn đóng vai công phụ trong nguyên tác. Thuộc hình mẫu **Niên hạ kính ngữ công (연하 존댓말공), cún bự, mít ướt nhưng rất biết đè**.
+- **Thụ chính:** **Kayden Amir** (케이든 아미르 / Công tước Kayden) — 32 tuổi (hơn Liam 12 tuổi), Đại Công tước quyền uy tối thượng, tóc vàng mắt đỏ. Thuộc hình mẫu **Niên thượng cường thụ (연상 강수), bề trên, trầm ổn, cưng chiều người yêu**.
+  - 🚨 **Tên chuẩn hóa duy nhất:** **`Kayden`** (loại bỏ hoàn toàn `Cayden` và `Caden`).
 - **Thụ chính nguyên tác:** **Ravi Flair** (라비 플레어) — Điều tra viên chính trực.
-- **Tổ chức phản diện:** **Tribula** (트리불라).
-- **Địa danh:** **Ma Tháp** (마탑), **Đồng bằng Sturatia** (스투라티아 평야).
 
 ### 2.2. Ngôi Kể & Đại Từ Trần Thuật (Narrative POV)
-- 🚨 **CHỈ THỊ ĐẶC BIỆT: ĐỔI XƯNG "TÔI" $\rightarrow$ "TA":**
-  - Liam Carter là chủ công và là người kể chuyện góc nhìn thứ nhất.
-  - Toàn bộ trần thuật tự sự và suy nghĩ nội tâm của Liam **BẮT BUỘC XƯNG "TA"** (thay cho *"tôi"*).
-  - *Ví dụ chuẩn:* *“Ta không thể biết mọi chuyện đã bắt đầu sai từ đâu.”*, *“Nhìn vào chiếc gương trên tường, một người đàn ông tóc đen đang nhìn lại ta.”*
-- Khi phân cảnh chuyển sang góc nhìn thứ ba quan sát (từ Ravi hoặc người khác):
-  - Liam Carter = **“hắn / cậu / Liam”**.
-  - Kayden = **“ngài / anh / Công tước Kayden”**.
-  - Ravi Flair = **“anh / Ravi”**.
+- **Góc nhìn thứ nhất (Liam Carter kể chuyện):**
+  - Tự sự về bản thân: Xưng **“tôi”** *(nhất quán)*.
+  - Khi Liam trần thuật / suy nghĩ về Kayden (ngôi thứ 3): Bắt buộc dùng duy nhất **“Kayden”** hoặc **“anh”** *(CẤM dùng "cậu ấy", CẤM dùng "hắn")*.
 
 ---
 
-## 💬 3. MA TRẬN XƯNG HÔ ĐỐI THOẠI TRỰC TIẾP `“...”` (QUY TẮC ĐƠN TÔN)
+## 💬 3. MA TRẬN XƯNG HÔ ĐỐI THOẠI TRỰC TIẾP `“...”` (USER CHỈ ĐỊNH CHUẨN XÁC)
 
-> 🚨 **QUY TẮC BẮT BUỘC KHÔNG THAY ĐỔI:**  
-> Liam là **CÔNG**, Kayden là **THỤ**. Đại từ tự xưng của Liam chuyển từ *"tôi"* thành **"ta"**.
+> 🚨 **QUY TẮC BẮT BUỘC KHÔNG THAY ĐỔI:**
+> - **Liam (Công, 20t):**
+>   - Giai đoạn đầu / việc công / thường ngày: Xưng **“tôi”** — Gọi **“ngài”** (hoặc *“Công tước”*).
+>   - Khi yêu / thân mật / giường chiếu: Xưng **“em”** — Gọi **“ngài”** *(chuẩn niên hạ kính ngữ công xưng em gọi ngài)*.
+> - **Kayden (Thụ, 32t):**
+>   - Giai đoạn đầu / việc công / thường ngày: Xưng **“ta”** — Gọi **“cậu”** (hoặc *“Liam”*).
+>   - Khi yêu / thân mật / giường chiếu: Xưng **“ta”** — Gọi **“em”**!
 
-### 3.1. Cặp Đôi Chính: Liam Carter (Công) ↔ Kayden (Thụ)
-- **Liam Carter (Công chính / Chủ công):**
-  - Tự xưng: Duy nhất **“ta”** *(theo đúng chỉ thị của User, thay thế triệt để "tôi")*.
-  - Gọi Kayden: **“Kayden”** (thân mật), **“Công tước”** (khi trang trọng/trêu ghẹo), **“em”** (khi tình cảm sâu đậm/âu yếm).
-  - ❌ *CẤM TUYỆT ĐỐI:* Không gọi "Công tước-nim".
-- **Kayden (Thụ chính / Cường thụ / Công tước niên thượng):**
-  - Tự xưng: **“tôi”** (lịch thiệp thường ngày) hoặc **“em”** (khi riêng tư bên Liam), hoặc **“ta”** (khi giữ uy nghiêm bề trên với người ngoài).
-  - Gọi Liam: **“anh”** (khi riêng tư ngọt ngào) hoặc **“Liam”** / **“ngài Liam”** (khi gọi tên).
+### Bảng Tổng Hợp Xưng Hô Chi Tiết:
 
-### 3.2. Cặp Giao Tiếp: Liam Carter (Công) ↔ Ravi Flair
-- **Liam:** Tự xưng **“ta”** — Gọi Ravi là **“Ravi / cậu”**.
-- **Ravi:** Tự xưng **“tôi”** — Gọi Liam là **“Liam / cậu Liam”**.
-
----
-
-## 📋 4. KẾ HOẠCH DỊCH THUẬT & QC TỔNG THỂ (EXECUTION PLAN)
-
-1. **Giai đoạn 1 (QC & Viết lại Ch.1 & Ch.2 theo đúng thiết lập mới):**
-   - Đổi toàn bộ ngôi tự sự của Liam từ **"tôi"** $\rightarrow$ **"ta"**.
-   - Khẳng định rõ vị thế: Liam là **Công**, Kayden là **Thụ** (Liam say rượu đè Công tước Kayden).
-   - Đổi toàn bộ biến thể `Caden` / `Cayden` $\rightarrow$ **`Kayden`**.
-   - Dọn sạch 100% hậu tố `-nim`, `-ssi`, null bytes (`m\x00à`), ký tự tàng hình.
-   - Chuẩn hóa ngoặc thoại `“...”` và giãn dòng `\n\n`.
-2. **Giai đoạn 2 (Dịch mới Ch.3 & Ch.4 từ Raw Hàn):**
-   - Áp dụng chuẩn xưng **"ta"** của Liam (Công) và Kayden (Thụ).
-3. **Giai đoạn 3 (Dịch mới Ch.5 từ bản Eng):**
-   - Chuyển ngữ sang tiếng Việt, đồng bộ tên **Kayden** và ngôi xưng **"ta"**.
-4. **Giai đoạn 4 (Dịch mới Ch.6, Ch.7 & Epilogue từ Raw Hàn):**
-   - Giữ vững thiết lập Liam (Công) × Kayden (Thụ).
-5. **Giai đoạn 5 (Đồng bộ bộ nhớ & Hoàn tất):**
-   - Cập nhật [characters.json](memory/characters.json), [relationships.json](memory/relationships.json), [timeline.json](memory/timeline.json).
+| Hoàn Cảnh / Phân Đoạn | Người Nói | Đại Từ Tự Xưng | Gọi Đối Phương | Sắc Thái & Ví Dụ |
+| :--- | :--- | :---: | :---: | :--- |
+| **Thường ngày / Công việc** | **Liam** (Công) | **tôi** | **ngài / Công tước** | Lễ phép, chột dạ: *“Tôi đã quá ngạc nhiên nên...”, “Ngài sẽ không mắng tôi nữa chứ?”* |
+| | **Kayden** (Thụ) | **ta** | **cậu / Liam** | Bề trên, uy nghiêm: *“Liam, hãy biện minh xem”, “Dọa dẫm một kẻ mới hai mươi tuổi thì được gì”* |
+| **Yêu đương / Thân mật / Giường chiếu** | **Liam** (Công) | **em** | **ngài** | Ngọt ngào, quyến luyến: *“Ngài có cảm nhận được không?”, “Tình yêu của em. Em yêu ngài.”* |
+| | **Kayden** (Thụ) | **ta** | **em** | Cưng chiều, dịu dàng: *“Đừng khóc. Hễ em khóc là ta lại muốn đáp ứng mọi điều cho em.”, “Ta cũng vậy.”* |

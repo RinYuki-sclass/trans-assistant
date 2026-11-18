@@ -2,7 +2,7 @@
 
 > **Tác giả:** Kim Yu-geuk (김유극)  
 > **Nguyên tác:** 《회귀할 줄 알았어요!》 (I Thought I Regressed!)  
-> **Thể loại:** Đam mỹ, Tây phương huyền huyễn / Quý tộc cung đình, Chủ công, Công phụ xuyên sách x Cường thụ Đại Công tước, Niên thượng (hơn 12 tuổi), Hồi quy 42 lần, Hài hước ngọt ngào, 1v1, HE.  
+> **Thể loại:** Đam mỹ, Tây phương huyền huyễn / Quý tộc cung đình, Niên hạ kính ngữ công (20t) x Niên thượng cường thụ Đại Công tước (32t), Xuyên thư, Hồi quy 42 lần, Hài hước ngọt ngào, 1v1, HE.  
 > **Quy mô dự án:** Trọn bộ 8 chương (Chương 1 - Chương 7 + Ngoại truyện).  
 > **Tài liệu quy chuẩn chi tiết:** Xem tại [RULES.md](RULES.md)
 
@@ -23,12 +23,19 @@
 
 ## 🚨 2. CHỈ THỊ THIẾT LẬP VAI TRÒ & ĐẠI TỪ BẮT BUỘC (USER MANDATE)
 
-> ⚠️ **BẮT BUỘC TUÂN THỦ:**
-> 1. **Liam Carter = CÔNG (Chủ công / Công chính)**: Pháp sư Ma Tháp xuyên sách.
-> 2. **Kayden Amir = THỤ (Cường thụ / Thụ chính)**: Đại Công tước tóc vàng mắt đỏ hơn Liam 12 tuổi.
-> 3. **Tên chuẩn hóa duy nhất:** **`Kayden`** (CẤM dùng `Cayden` hay `Caden`).
-> 4. **Đại từ tự xưng của Liam:** Đổi triệt để từ *"tôi"* $\rightarrow$ **"ta"** (cả trong văn tự sự/nội tâm lẫn lời thoại đối thoại).
-> 5. **Xóa bỏ hậu tố Hàn:** Tuyệt đối không để sót `-nim`, `-ssi` (`Công tước-nim` $\rightarrow$ `Công tước`).
+> ⚠️ **BẮT BUỘC TUÂN THỦ CHÍNH XÁC:**
+> 1. **Liam Carter = CÔNG (Niên hạ kính ngữ công 20t)**:
+>    - Trần thuật ngôi 1: Xưng **“tôi”**.
+>    - Nhắc về Kayden ngôi 3: Dùng **“Kayden”** hoặc **“anh”** (CẤM dùng "cậu ấy", CẤM dùng "hắn").
+>    - Đối thoại với Kayden:
+>      + Thường ngày / việc công: Xưng **“tôi”** — Gọi **“ngài / Công tước”**.
+>      + Khi yêu / thân mật / giường chiếu: Xưng **“em”** — Gọi **“ngài”**.
+> 2. **Kayden Amir = THỤ (Niên thượng cường thụ 32t, Đại Công tước)**:
+>    - Tên chuẩn hóa duy nhất: **`Kayden`** (CẤM `Cayden`, CẤM `Caden`).
+>    - Đối thoại với Liam:
+>      + Thường ngày: Xưng **“ta”** — Gọi **“cậu / Liam”**.
+>      + Khi yêu / thân mật: Xưng **“ta”** — Gọi **“em”**!
+> 3. **Xóa bỏ hậu tố Hàn:** Tuyệt đối không để sót `-nim`, `-ssi` (`Công tước-nim` $\rightarrow$ `Công tước`).
 
 ---
 
@@ -43,24 +50,3 @@
 3. **Dấu Thoại Chuẩn Ngoặc Kép Cong `“...”`:**
    - Sử dụng ngoặc kép cong tiếng Việt `“...”` cho toàn bộ lời thoại trực tiếp của nhân vật.
    - Tuyệt đối không dùng gạch ngang đầu dòng (`- `) hoặc ngoặc kép thẳng thô (`"..."`).
-
----
-
-## 👥 4. THIẾT LẬP NHÂN VẬT & MA TRẬN ĐẠI TỪ
-
-### 4.1. Phân Vai Nhân Vật
-
-| Nhân Vật | Tên Gốc (KR) | Vai Trò & Thiết Lập | Ngôi Tự Sự / Đại Từ |
-| :--- | :--- | :--- | :---: |
-| **Liam Carter** (MC) | 리암 카터 | **CÔNG CHÍNH (Chủ công)**<br>Pháp sư Ma Tháp tóc đen mắt xanh. Vốn là công phụ trong tiểu thuyết gốc, bị reset 42 lần. Trong cơn quẫn trí đã đè Đại Công tước Kayden một đêm, sáng hôm sau phát hiện thế giới ngừng hồi quy và bị Kayden bắt về dinh thự. | **ta (ngôi 1)** / cậu |
-| **Kayden Amir** | 케이든 아미르 | **THỤ CHÍNH (Cường thụ)**<br>Đại Công tước tóc vàng mắt đỏ hơn Liam 12 tuổi, quyền lực tối thượng. Bề ngoài lãnh đạm uy nghiêm, nội tâm chiếm hữu, dễ ghen, bị Liam đè xong quyết định bắt Liam đăng ký kết hôn để giữ chặt bên mình. | anh / ngài / Công tước |
-| **Ravi Flair** | 라비 플레어 | **Thụ chính nguyên tác**<br>Điều tra viên nghiêm túc, bạn của Liam. | anh / cậu |
-
-### 4.2. Ma Trận Xưng Hô Đối Thoại
-
-| Cặp Giao Tiếp | Người Nói | Xưng | Gọi Đối Phương | Ngữ Cảnh & Sắc Thái |
-| :--- | :--- | :---: | :---: | :--- |
-| **Liam ↔ Kayden** | Liam (Công) | **ta** | **Kayden / Công tước / em** | Phong thái chủ công, hài hước, tự tin hoặc trêu chọc; gọi "Kayden" hoặc "Công tước", khi âu yếm gọi "em". CẤM xưng "tôi", CẤM gọi "Công tước-nim". |
-| | Kayden (Thụ) | **tôi / em** | **Liam / anh** | Lịch sự thường ngày xưng "tôi"; khi riêng tư/ngọt ngào xưng "em" gọi "anh" hoặc gọi tên "Liam". |
-| **Liam ↔ Ravi** | Liam (Công) | **ta** | **Ravi / cậu** | Bình đẳng, đồng nghiệp, bạn bè. |
-| | Ravi | **tôi** | **Liam / cậu Liam** | Nhã nhặn, tôn trọng. |

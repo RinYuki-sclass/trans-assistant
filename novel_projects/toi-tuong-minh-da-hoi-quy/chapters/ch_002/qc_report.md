@@ -4,27 +4,19 @@
 > **Mã chương:** `ch_002`  
 > **Tiêu đề:** Chương 2: Không Có Tiền (Chapter 2. 돈이 없어)  
 > **Số đoạn đối ứng:** 294 / 294 đoạn (Khớp 100% 1:1)  
-> **Trạng thái:** ✅ ĐẠT TIÊU CHUẨN XUẤT BẢN  
+> **Trạng thái:** ✅ ĐÃ CẬP NHẬT CHUẨN XƯNG HÔ MỚI  
 
 ---
 
-### 1. Các Hạng Mục Đã Chuẩn Hóa & Biên Tập Theo Chỉ Thị Mới:
-1. **Khẳng định vị thế Chủ công & Thụ chính:**
-   - **Liam Carter:** Công chính (Chủ công). Toàn bộ phân cảnh thân mật giường chiếu cuối chương đã chuẩn hóa: Liam là người chủ động trên giường, đè và xuất tinh sâu bên trong Kayden; trêu chọc và cưng chiều Kayden.
-   - **Kayden Amir:** Thụ chính (Cường thụ / Công tước thụ niên thượng). Chịu sự tiến nhập của Liam, run rẩy đón nhận khoái cảm và đáp lại tình yêu của Liam: `“Em cũng vậy.”`
-2. **Chuyển đổi đại từ tự xưng:**
-   - Đổi 100% ngôi tự sự của Liam từ `"tôi"` sang **`"ta"`** (từ `“‘Ta…… không có tiền.’”` đến cuối chương).
-   - Lời thoại ngọt ngào của Liam: `“Tình yêu của ta. Ta yêu em.”`, `“Ta yêu em. Ta yêu em.”`
-3. **Chuẩn hóa danh xưng & Tên riêng:**
-   - Đổi toàn bộ các biến thể `Caden`, `Cayden` thành **`Kayden`**.
-   - Dọn sạch 100% hậu tố tiếng Hàn (`-nim`, `-ssi`).
-4. **Định dạng & Trình bày:**
-   - Giãn dòng chuẩn `\n\n` giữa tất cả các đoạn văn.
-   - Chuẩn hóa ngoặc kép cong `“...”` và ngoặc suy nghĩ `‘...’`.
-   - Làm sạch toàn bộ ký tự tàng hình và null bytes.
-
----
-
-### 2. Kết Quả Thẩm Định Chi Tiết:
-* **Tính bảo toàn nguyên tác:** 294 / 294 đoạn. Khớp 100% số đoạn gốc.
-* **Độ mượt mà và văn phong:** Hài hước sâu cay trong cảnh nghèo túng tìm tiền mua quà sinh nhật cho Kayden, và cuồng nhiệt, ngọt ngào trong phân cảnh phòng the.
+### 1. Chuẩn Hóa Đại Từ & Xưng Hô (User Chốt):
+* **Liam Carter (Công, 20t):**
+  - Tự sự ngôi 1: Xưng **“tôi”**.
+  - Nhắc về Kayden ngôi 3: Gọi **“Kayden”** hoặc **“anh”** (xóa sạch 100% việc gọi "cậu ấy" trong cảnh giường chiếu).
+  - Đối thoại: Thường ngày xưng **“tôi”** - gọi **“ngài / Công tước”**; khi trên giường và bày tỏ tình cảm xưng **“em”** - gọi **“ngài”**:
+    + *“Kayden… ngài có cảm nhận được không? Bụng của ngài đã bị em lấp đầy rồi.”*
+    + *“Tình yêu của em. Em yêu ngài.”*
+* **Kayden Amir (Thụ, 32t):**
+  - Đối thoại: Thường ngày xưng **“ta”** - gọi **“cậu / Liam”**; khi yêu thương xưng **“ta”** - gọi **“em”**:
+    + Đáp lại lời tỏ tình của Liam: *“Ta cũng vậy.”*
+* **Chuẩn hóa tên gọi:** 100% **`Kayden`**.
+* **Loại bỏ hậu tố Hàn:** Xóa sạch `-nim`, `-ssi`.
