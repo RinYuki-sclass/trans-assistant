@@ -2,7 +2,13 @@
 
 > **Tác giả:** Thù Xuyên (酬川)  
 > **Thể loại:** Đam mỹ, tinh tế ABO, xuyên thư, chủ công, Beta công x Alpha thụ, hài hước, ngọt sủng, HE.  
-> **Tiến độ:** Đã hoàn thành dịch và QC 7/48 chương (từ ch_091 đến ch_097).  
+| ch_085 | 第85章 | Chương 85 | 102 | 🟡 raw_ready |
+| ch_086 | 第86章 | Chương 86 | 138 | 🟡 raw_ready |
+| ch_087 | 第87章 | Chương 87 | 146 | 🟡 raw_ready |
+| ch_088 | 第88章 | Chương 88 | 110 | 🟡 raw_ready |
+| ch_089 | 第89章 | Chương 89 | 143 | 🟡 raw_ready |
+| ch_090 | 第90章 | Chương 90 | 111 | 🟡 raw_ready |
+> **Tiến độ:** Đã hoàn thành dịch và QC 22 chương Chính văn (ch_091 -> ch_112), raw sẵn sàng từ ch_085 đến ch_138 (tổng 54 chương).  
 
 ---
 
