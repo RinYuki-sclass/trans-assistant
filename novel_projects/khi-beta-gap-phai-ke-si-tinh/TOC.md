@@ -2,13 +2,13 @@
 
 > **Tác giả:** Thù Xuyên (酬川)  
 > **Thể loại:** Đam mỹ, tinh tế ABO, xuyên thư, chủ công, Beta công x Alpha thụ, hài hước, ngọt sủng, HE.  
-| ch_085 | 第85章 | Chương 85 | 102 | 🟡 raw_ready |
-| ch_086 | 第86章 | Chương 86 | 138 | 🟡 raw_ready |
-| ch_087 | 第87章 | Chương 87 | 146 | 🟡 raw_ready |
-| ch_088 | 第88章 | Chương 88 | 110 | 🟡 raw_ready |
-| ch_089 | 第89章 | Chương 89 | 143 | 🟡 raw_ready |
-| ch_090 | 第90章 | Chương 90 | 111 | 🟡 raw_ready |
-> **Tiến độ:** Đã hoàn thành dịch và QC 22 chương Chính văn (ch_091 -> ch_112), raw sẵn sàng từ ch_085 đến ch_138 (tổng 54 chương).  
+| ch_085 | 第85章 | Chương 85 | 102 | 🟢 completed |
+| ch_086 | 第86章 | Chương 86 | 138 | 🟢 completed |
+| ch_087 | 第87章 | Chương 87 | 146 | 🟢 completed |
+| ch_088 | 第88章 | Chương 88 | 110 | 🟢 completed |
+| ch_089 | 第89章 | Chương 89 | 143 | 🟢 completed |
+| ch_090 | 第90章 | Chương 90 | 111 | 🟢 completed |
+> **Tiến độ:** Đã hoàn thành dịch và QC 28 chương Chính văn (ch_085 -> ch_112), raw sẵn sàng từ ch_085 đến ch_138 (tổng 54 chương).  
 
 ---
 
@@ -38,29 +38,29 @@
 | `ch_110` | 第110章 | Chương 110 | 123 | 🟢 completed |
 | `ch_111` | 第111章 | Chương 111 | 106 | 🟢 completed |
 | `ch_112` | 第112章 | Chương 112 | 179 | 🟢 completed |
-| `ch_113` | 第113章 番外咸鱼生活有点甜 | Chương 113 : [Phiên ngoại] Cuộc sống cá mặn có chút ngọt | 187 | 🟡 raw_ready |
-| `ch_114` | 第114章 番外咸鱼生活有点甜 | Chương 114 : [Phiên ngoại] Cuộc sống cá mặn có chút ngọt | 147 | 🟡 raw_ready |
-| `ch_115` | 第115章 番外所谓七年之痒的乌龙求婚 | Chương 115 : [Phiên ngoại] Cái gọi là ngứa ngáy năm thứ bảy - cầu hôn oolong | 134 | 🟡 raw_ready |
-| `ch_116` | 第116章 番外所谓七年之痒的乌龙求婚 | Chương 116 : [Phiên ngoại] Cái gọi là ngứa ngáy năm thứ bảy - cầu hôn oolong | 130 | 🟡 raw_ready |
-| `ch_117` | 第117章 番外所谓七年之痒的乌龙求婚 | Chương 117 : [Phiên ngoại] Cái gọi là ngứa ngáy năm thứ bảy - cầu hôn oolong | 203 | 🟡 raw_ready |
-| `ch_118` | 第118章 番外所谓七年之痒的乌龙求婚 | Chương 118 : [Phiên ngoại] Cái gọi là ngứa ngáy năm thứ bảy - cầu hôn oolong | 170 | 🟡 raw_ready |
-| `ch_119` | 第119章 番外戒指·领证·婚礼的二三事 | Chương 119 : [Phiên ngoại] Chuyện nhỏ về nhẫn · đăng ký · đám cưới | 143 | 🟡 raw_ready |
-| `ch_120` | 第120章 番外遇到十八岁的小喻 | Chương 120 : [Phiên ngoại] Gặp gỡ Dụ nhỏ 18 tuổi | 121 | 🟡 raw_ready |
-| `ch_121` | 第121章 番外遇到十八岁的小喻 | Chương 121 : [Phiên ngoại] Gặp gỡ Dụ nhỏ 18 tuổi | 108 | 🟡 raw_ready |
-| `ch_122` | 第122章 番外遇到十八岁的小喻 | Chương 122 : [Phiên ngoại] Gặp gỡ Dụ nhỏ 18 tuổi | 138 | 🟡 raw_ready |
-| `ch_123` | 第123章 番外遇到十八岁的小喻 | Chương 123 : [Phiên ngoại] Gặp gỡ Dụ nhỏ 18 tuổi | 129 | 🟡 raw_ready |
-| `ch_124` | 第124章 番外遇到十八岁的小喻 | Chương 124 : [Phiên ngoại] Gặp gỡ Dụ nhỏ 18 tuổi | 193 | 🟡 raw_ready |
-| `ch_125` | 第125章 番外遇到十八岁的小喻 | Chương 125 : [Phiên ngoại] Gặp gỡ Dụ nhỏ 18 tuổi | 181 | 🟡 raw_ready |
-| `ch_126` | 第126章 番外竹马竹马 | Chương 126 : [Phiên ngoại] Trúc mã trúc mã | 136 | 🟡 raw_ready |
-| `ch_127` | 第127章 番外竹马竹马 | Chương 127 : [Phiên ngoại] Trúc mã trúc mã | 106 | 🟡 raw_ready |
-| `ch_128` | 第128章 番外竹马竹马 | Chương 128 : [Phiên ngoại] Trúc mã trúc mã | 115 | 🟡 raw_ready |
-| `ch_129` | 第129章 番外竹马竹马 | Chương 129 : [Phiên ngoại] Trúc mã trúc mã | 119 | 🟡 raw_ready |
-| `ch_130` | 第130章 番外竹马竹马 | Chương 130 : [Phiên ngoại] Trúc mã trúc mã | 131 | 🟡 raw_ready |
-| `ch_131` | 第131章 番外竹马竹马 | Chương 131 : [Phiên ngoại] Trúc mã trúc mã | 131 | 🟡 raw_ready |
-| `ch_132` | 第132章 番外竹马竹马 | Chương 132 : [Phiên ngoại] Trúc mã trúc mã | 148 | 🟡 raw_ready |
-| `ch_133` | 第133章 番外竹马竹马 | Chương 133 : [Phiên ngoại] Trúc mã trúc mã | 135 | 🟡 raw_ready |
-| `ch_134` | 第134章 番外竹马竹马 | Chương 134 : [Phiên ngoại] Trúc mã trúc mã | 121 | 🟡 raw_ready |
-| `ch_135` | 第135章 番外竹马竹马 | Chương 135 : [Phiên ngoại] Trúc mã trúc mã | 141 | 🟡 raw_ready |
-| `ch_136` | 第136章 番外竹马竹马 | Chương 136 : [Phiên ngoại] Trúc mã trúc mã | 194 | 🟡 raw_ready |
-| `ch_137` | 第137章 番外竹马竹马 | Chương 137 : [Phiên ngoại] Trúc mã trúc mã | 156 | 🟡 raw_ready |
-| `ch_138` | 第138章 番外今朝与未来 | Chương 138 : [Phiên ngoại] Hôm nay và tương lai | 147 | 🟡 raw_ready |
+| `ch_113` | 第113章 番外咸鱼生活有点甜 | Chương 113 : [Phiên ngoại] Cuộc sống cá mặn có chút ngọt | 187 | 🟢 completed |
+| `ch_114` | 第114章 番外咸鱼生活有点甜 | Chương 114 : [Phiên ngoại] Cuộc sống cá mặn có chút ngọt | 147 | 🟢 completed |
+| `ch_115` | 第115章 番外所谓七年之痒的乌龙求婚 | Chương 115 : [Phiên ngoại] Cái gọi là ngứa ngáy năm thứ bảy - cầu hôn oolong | 134 | 🟢 completed |
+| `ch_116` | 第116章 番外所谓七年之痒的乌龙求婚 | Chương 116 : [Phiên ngoại] Cái gọi là ngứa ngáy năm thứ bảy - cầu hôn oolong | 130 | 🟢 completed |
+| `ch_117` | 第117章 番外所谓七年之痒的乌龙求婚 | Chương 117 : [Phiên ngoại] Cái gọi là ngứa ngáy năm thứ bảy - cầu hôn oolong | 203 | 🟢 completed |
+| `ch_118` | 第118章 番外所谓七年之痒的乌龙求婚 | Chương 118 : [Phiên ngoại] Cái gọi là ngứa ngáy năm thứ bảy - cầu hôn oolong | 170 | 🟢 completed |
+| `ch_119` | 第119章 番外戒指·领证·婚礼的二三事 | Chương 119 : [Phiên ngoại] Chuyện nhỏ về nhẫn · đăng ký · đám cưới | 143 | 🟢 completed |
+| `ch_120` | 第120章 番外遇到十八岁的小喻 | Chương 120 : [Phiên ngoại] Gặp gỡ Dụ nhỏ 18 tuổi | 121 | 🟢 completed |
+| `ch_121` | 第121章 番外遇到十八岁的小喻 | Chương 121 : [Phiên ngoại] Gặp gỡ Dụ nhỏ 18 tuổi | 108 | 🟢 completed |
+| `ch_122` | 第122章 番外遇到十八岁的小喻 | Chương 122 : [Phiên ngoại] Gặp gỡ Dụ nhỏ 18 tuổi | 138 | 🟢 completed |
+| `ch_123` | 第123章 番外遇到十八岁的小喻 | Chương 123 : [Phiên ngoại] Gặp gỡ Dụ nhỏ 18 tuổi | 129 | 🟢 completed |
+| `ch_124` | 第124章 番外遇到十八岁的小喻 | Chương 124 : [Phiên ngoại] Gặp gỡ Dụ nhỏ 18 tuổi | 193 | 🟢 completed |
+| `ch_125` | 第125章 番外遇到十八岁的小喻 | Chương 125 : [Phiên ngoại] Gặp gỡ Dụ nhỏ 18 tuổi | 181 | 🟢 completed |
+| `ch_126` | 第126章 番外竹马竹马 | Chương 126 : [Phiên ngoại] Trúc mã trúc mã | 136 | 🟢 completed |
+| `ch_127` | 第127章 番外竹马竹马 | Chương 127 : [Phiên ngoại] Trúc mã trúc mã | 106 | 🟢 completed |
+| `ch_128` | 第128章 番外竹马竹马 | Chương 128 : [Phiên ngoại] Trúc mã trúc mã | 115 | 🟢 completed |
+| `ch_129` | 第129章 番外竹马竹马 | Chương 129 : [Phiên ngoại] Trúc mã trúc mã | 119 | 🟢 completed |
+| `ch_130` | 第130章 番外竹马竹马 | Chương 130 : [Phiên ngoại] Trúc mã trúc mã | 131 | 🟢 completed |
+| `ch_131` | 第131章 番外竹马竹马 | Chương 131 : [Phiên ngoại] Trúc mã trúc mã | 131 | 🟢 completed |
+| `ch_132` | 第132章 番外竹马竹马 | Chương 132 : [Phiên ngoại] Trúc mã trúc mã | 148 | 🟢 completed |
+| `ch_133` | 第133章 番外竹马竹马 | Chương 133 : [Phiên ngoại] Trúc mã trúc mã | 135 | 🟢 completed |
+| `ch_134` | 第134章 番外竹马竹马 | Chương 134 : [Phiên ngoại] Trúc mã trúc mã | 121 | 🟢 completed |
+| `ch_135` | 第135章 番外竹马竹马 | Chương 135 : [Phiên ngoại] Trúc mã trúc mã | 141 | 🟢 completed |
+| `ch_136` | 第136章 番外竹马竹马 | Chương 136 : [Phiên ngoại] Trúc mã trúc mã | 194 | 🟢 completed |
+| `ch_137` | 第137章 番外竹马竹马 | Chương 137 : [Phiên ngoại] Trúc mã trúc mã | 156 | 🟢 completed |
+| `ch_138` | 第138章 番外今朝与未来 | Chương 138 : [Phiên ngoại] Hôm nay và tương lai | 147 | 🟢 completed |
