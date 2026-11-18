@@ -151,6 +151,18 @@ function main() {
     }
 
     // 8. ÁP DỤNG ĐÚNG CÁC HIỆU ỨNG (KHÔNG ÉP BUỘC)
+    if (targetTextLayer && targetTextLayer.kind === LayerKind.TEXT && styleData.fill) {
+        try {
+            var tColor = new SolidColor();
+            var fillHex = styleData.fill.solid_hex || (styleData.fill.is_gradient ? styleData.fill.bottom_hex : "#FFFFFF");
+            var rgbVal = hexToRGB(fillHex);
+            tColor.rgb.red = rgbVal.red;
+            tColor.rgb.green = rgbVal.green;
+            tColor.rgb.blue = rgbVal.blue;
+            targetTextLayer.textItem.color = tColor;
+        } catch (e) {}
+    }
+
     applyExactVFXStyle(styleData);
 }
 
@@ -297,6 +309,54 @@ function applyExactVFXStyle(data) {
         glowDesc.putUnitDouble(stringIDToTypeID("chokeMatte"), stringIDToTypeID("percentUnit"), 10);
         glowDesc.putUnitDouble(stringIDToTypeID("size"), stringIDToTypeID("pixelsUnit"), glowInfo.size_px || 8.0);
         lfxDesc.putObject(stringIDToTypeID("outerGlow"), stringIDToTypeID("outerGlow"), glowDesc);
+
+        // --- 4.5. INNER GLOW (Vết máu / ám màu thẩm thấu nội viền chữ) ---
+        var inGlowInfo = data.inner_glow || {};
+        var hasInGlow = (inGlowInfo.enabled === true);
+
+        var inGlowDesc = new ActionDescriptor();
+        inGlowDesc.putBoolean(stringIDToTypeID("enabled"), hasInGlow);
+        var inMode = (inGlowInfo.blend_mode === "multiply") ? "multiply" : "normal";
+        inGlowDesc.putEnumerated(stringIDToTypeID("mode"), stringIDToTypeID("blendMode"), stringIDToTypeID(inMode));
+        inGlowDesc.putUnitDouble(stringIDToTypeID("opacity"), stringIDToTypeID("percentUnit"), inGlowInfo.opacity_percent || 75);
+
+        var igCol = hexToRGB(inGlowInfo.color_hex || "#8E1B1B");
+        var colInGlow = new ActionDescriptor();
+        colInGlow.putDouble(stringIDToTypeID("red"), igCol.red);
+        colInGlow.putDouble(stringIDToTypeID("green"), igCol.green);
+        colInGlow.putDouble(stringIDToTypeID("blue"), igCol.blue);
+        inGlowDesc.putObject(stringIDToTypeID("color"), stringIDToTypeID("RGBColor"), colInGlow);
+
+        inGlowDesc.putEnumerated(stringIDToTypeID("glowTechnique"), stringIDToTypeID("matteTechnique"), stringIDToTypeID("softMatte"));
+        inGlowDesc.putUnitDouble(stringIDToTypeID("chokeMatte"), stringIDToTypeID("percentUnit"), 0);
+        inGlowDesc.putUnitDouble(stringIDToTypeID("blur"), stringIDToTypeID("pixelsUnit"), inGlowInfo.size_px || 3.5);
+        inGlowDesc.putUnitDouble(stringIDToTypeID("noise"), stringIDToTypeID("percentUnit"), inGlowInfo.noise_percent || 0);
+        lfxDesc.putObject(stringIDToTypeID("innerGlow"), stringIDToTypeID("innerGlow"), inGlowDesc);
+
+        // --- 4.6. INNER SHADOW (Tạo chiều sâu loang lổ và hạt máu đọng bên trong ruột chữ) ---
+        var inShadowInfo = data.inner_shadow || {};
+        var hasInShadow = (inShadowInfo.enabled === true);
+
+        var inShadowDesc = new ActionDescriptor();
+        inShadowDesc.putBoolean(stringIDToTypeID("enabled"), hasInShadow);
+        var inShMode = (inShadowInfo.blend_mode === "colorBurn") ? "colorBurn" : "multiply";
+        inShadowDesc.putEnumerated(stringIDToTypeID("mode"), stringIDToTypeID("blendMode"), stringIDToTypeID(inShMode));
+        inShadowDesc.putUnitDouble(stringIDToTypeID("opacity"), stringIDToTypeID("percentUnit"), inShadowInfo.opacity_percent || 80);
+
+        var isCol = hexToRGB(inShadowInfo.color_hex || "#5E1111");
+        var colInShadow = new ActionDescriptor();
+        colInShadow.putDouble(stringIDToTypeID("red"), isCol.red);
+        colInShadow.putDouble(stringIDToTypeID("green"), isCol.green);
+        colInShadow.putDouble(stringIDToTypeID("blue"), isCol.blue);
+        inShadowDesc.putObject(stringIDToTypeID("color"), stringIDToTypeID("RGBColor"), colInShadow);
+
+        inShadowDesc.putBoolean(stringIDToTypeID("useGlobalAngle"), false);
+        inShadowDesc.putUnitDouble(stringIDToTypeID("localLightingAngle"), stringIDToTypeID("angleUnit"), 90);
+        inShadowDesc.putUnitDouble(stringIDToTypeID("distance"), stringIDToTypeID("pixelsUnit"), inShadowInfo.distance_px || 0.0);
+        inShadowDesc.putUnitDouble(stringIDToTypeID("chokeMatte"), stringIDToTypeID("percentUnit"), inShadowInfo.choke_percent || 10);
+        inShadowDesc.putUnitDouble(stringIDToTypeID("blur"), stringIDToTypeID("pixelsUnit"), inShadowInfo.size_px || 4.0);
+        inShadowDesc.putUnitDouble(stringIDToTypeID("noise"), stringIDToTypeID("percentUnit"), inShadowInfo.noise_percent || 0);
+        lfxDesc.putObject(stringIDToTypeID("innerShadow"), stringIDToTypeID("innerShadow"), inShadowDesc);
 
         // --- 5. DROP SHADOW (CHỈ BẬT KHI AI BẢO CÓ THỰC SỰ) ---
         var shadowInfo = data.drop_shadow || {};

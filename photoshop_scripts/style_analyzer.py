@@ -1,23 +1,18 @@
 ﻿# -*- coding: utf-8 -*-
 """
 style_analyzer.py - High-Precision Manhwa Typography VFX Engine
-Tự động phân tích và trích xuất hiệu ứng chữ (Fill, Gradient, Stroke, Outer Glow, Drop Shadow)
-từ vùng chọn bản raw Webtoon/Manhwa, đặc biệt xử lý CHÍNH XÁC TUYỆT ĐỐI chữ nằm trên BACKGROUND ẢNH.
-
-Kiến trúc:
-1. Computer Vision Core (100% Local, Không phụ thuộc mạng):
-   - Phân đoạn thông minh (Smart Segmentation): Tách ruột chữ, viền ngoài (stroke), quầng sáng (outer glow)
-     và nền ảnh (background artwork) bằng hình thái học và flood-fill.
-   - Trích xuất màu trực tiếp từ các pixel thực của chữ, miễn nhiễm 100% với nhiễu ảnh/nền tranh.
-2. AI Vision Booster (Gemini 2.5 Flash nếu có API key và không bị 503/429):
-   - Bổ trợ nhận diện phong cách nghệ thuật nếu cần.
-   - Luôn neo vào ground-truth pixel color từ CV Core để chống hallucination.
+Tự động phân tích và trích xuất hiệu ứng chữ (Fill, Gradient, Stroke, Inner Glow, Outer Glow, Drop Shadow)
+từ vùng chọn bản raw Webtoon/Manhwa, xử lý CHÍNH XÁC TUYỆT ĐỐI trên mọi loại background:
+  1. Chữ viền sáng trên nền tối/artwork (Action / SFX / Dramatic)
+  2. Chữ trắng loang vết máu trên nền tối (Horror / Traumatic / Blood-Stained Monologue)
+  3. Chữ trắng/sáng trơn trên nền đen/grunge (Monologue / Dark scene)
+  4. Chữ viền đen trên nền sáng/màu
+  5. Chữ thoại thông thường trong bóng bóng trắng (Speech Bubble)
 """
 
 import os
 import sys
 import json
-import math
 import numpy as np
 from PIL import Image, ImageDraw, ImageFilter
 from dotenv import load_dotenv
@@ -54,9 +49,13 @@ def to_hex(rgb):
     return f"#{r:02X}{g:02X}{b:02X}"
 
 
+def delta_e_simple(rgb1, rgb2):
+    return np.sqrt(np.sum((np.array(rgb1, dtype=float) - np.array(rgb2, dtype=float))**2))
+
+
 def analyze_with_local_cv(image_path):
     """
-    Thuật toán thị giác máy tính cục bộ chuyên biệt cho chữ Manhwa trên nền ảnh.
+    Thuật toán thị giác máy tính cục bộ chuyên biệt cho chữ Manhwa.
     Độ chính xác cao, xử lý trong 0.05 giây, không phụ thuộc API key.
     """
     img = Image.open(image_path).convert("RGB")
@@ -65,8 +64,6 @@ def analyze_with_local_cv(image_path):
     
     # Lọc nhẹ giảm nhiễu hạt halftone / grain của truyện scan
     smooth = np.array(img.filter(ImageFilter.MedianFilter(3)))
-    
-    # Tính Luminance (độ sáng chuẩn)
     lum = 0.299 * smooth[:,:,0] + 0.587 * smooth[:,:,1] + 0.114 * smooth[:,:,2]
     
     # 1. Đo màu và độ sáng nền từ 4 góc và rìa ảnh
@@ -84,15 +81,18 @@ def analyze_with_local_cv(image_path):
     result = {
         "fill": {"is_gradient": False, "solid_hex": "#000000", "top_hex": "#000000", "bottom_hex": "#000000", "angle": 90},
         "stroke": {"enabled": False, "color_hex": "#FFFFFF", "size_px": 2.5},
+        "inner_glow": {"enabled": False, "color_hex": "#8E1B1B", "size_px": 3.5, "opacity_percent": 85, "blend_mode": "multiply", "noise_percent": 0},
+        "inner_shadow": {"enabled": False, "color_hex": "#5E1111", "size_px": 4.0, "distance_px": 0.0, "choke_percent": 10, "opacity_percent": 80, "blend_mode": "multiply", "noise_percent": 0},
         "outer_glow": {"enabled": False, "color_hex": "#FFFFFF", "size_px": 5.0, "opacity_percent": 60},
         "drop_shadow": {"enabled": False, "color_hex": "#000000", "distance_px": 4.0, "blur_px": 4.0}
     }
     
-    # 2. PHÁT HIỆN VIỀN SÁNG (Bright Stroke - phổ biến nhất trên nền ảnh manhwa)
-    # Ví dụ: Viền trắng bao quanh chữ đỏ, chữ đen, chữ tím...
-    bright_mask = (lum > 165) & (smooth[:,:,0] > 135) & (smooth[:,:,1] > 125) & (smooth[:,:,2] > 125)
+    # 2. PHÂN TÍCH VÙNG SÁNG (Bright Mask)
+    bright_mask = (lum > 140) & (smooth[:,:,0] > 110) & (smooth[:,:,1] > 100) & (smooth[:,:,2] > 100)
     
-    # Kiểm tra tính bao bọc (enclosure) của viền sáng bằng floodfill từ mép ảnh
+    # Floodfill từ mép ảnh để phân biệt giữa:
+    # - Case A: Viền sáng bao quanh ruột chữ (Enclosed area lớn, màu khác hẳn nền)
+    # - Case B: Chữ trắng/sáng trên nền đen (Enclosed area chỉ là lỗ chữ rỗng nhỏ ㅇ, ㅁ; màu trùng nền)
     padded_h, padded_w = H + 4, W + 4
     padded = np.zeros((padded_h, padded_w), dtype=np.uint8)
     padded[2:-2, 2:-2] = bright_mask.astype(np.uint8) * 255
@@ -100,12 +100,18 @@ def analyze_with_local_cv(image_path):
     im_flood = Image.frombytes("L", (padded_w, padded_h), padded.tobytes())
     ImageDraw.floodfill(im_flood, (0, 0), 128, thresh=10)
     flood_arr = np.array(im_flood)[2:-2, 2:-2]
-    
     enclosed = (flood_arr != 128) & (~bright_mask)
     
-    if enclosed.sum() > 60 and bright_mask.sum() > 150:
-        # => CÓ VIỀN SÁNG CHẮC CHẮN!
-        # Màu viền:
+    ratio_enc = enclosed.sum() / max(1, bright_mask.sum())
+    enc_color = np.median(smooth[enclosed], axis=0) if enclosed.any() else bg_color
+    diff_enc_bg = delta_e_simple(enc_color, bg_color)
+    
+    # Tiêu chuẩn nghiêm ngặt cho Viền sáng thật:
+    # Tỉ lệ diện tích bị bao nhốt phải >= 30% diện tích viền và màu ruột phải khác nền
+    is_true_stroke = (ratio_enc >= 0.30) and (enclosed.sum() > 60) and (diff_enc_bg > 20.0 or bg_lum < 80)
+    
+    if is_true_stroke:
+        # === CASE A: VIỀN SÁNG BAO QUANH RUỘT CHỮ (Action / SFX) ===
         stroke_px = smooth[bright_mask]
         s_med = np.median(stroke_px, axis=0).astype(int)
         if np.std(s_med) < 30 and s_med.mean() > 185:
@@ -113,7 +119,6 @@ def analyze_with_local_cv(image_path):
         else:
             stroke_hex = to_hex(s_med)
             
-        # Tính độ dày viền
         enc_dilated = enclosed.copy()
         for dy in [-1, 0, 1]:
             for dx in [-1, 0, 1]:
@@ -144,7 +149,6 @@ def analyze_with_local_cv(image_path):
         
         color_diff = np.sqrt(np.sum((top_rgb - bot_rgb) ** 2))
         
-        # Nhận diện Gradient
         if color_diff > 25 and y_span > 12:
             result["fill"] = {
                 "is_gradient": True,
@@ -162,7 +166,7 @@ def analyze_with_local_cv(image_path):
                 "angle": 90
             }
             
-        # Phân tích Outer Glow bên ngoài viền sáng
+        # Outer Glow bên ngoài viền sáng
         glyph_all = bright_mask | enclosed
         dil = glyph_all.copy()
         glow_lums = []
@@ -189,7 +193,72 @@ def analyze_with_local_cv(image_path):
             }
         return result
 
-    # 3. PHÁT HIỆN VIỀN TỐI (Dark Stroke - chữ sáng viền đen trên nền sáng/màu)
+    # === CASE B: CHỮ TRẮNG / SÁNG TRÊN NỀN TỐI (Monologue / Dark Scene) ===
+    if bright_mask.sum() > 60 and bg_lum < 150:
+        # Kiểm tra vệt máu / loang lổ đỏ trong thân chữ
+        # Vệt máu có R vượt trội so với G và B
+        text_px = smooth[bright_mask]
+        redness = text_px[:,0].astype(float) - (text_px[:,1].astype(float) + text_px[:,2].astype(float)) / 2.0
+        blood_px_mask = (redness > 14) & (text_px[:,0] > 70)
+        blood_count = blood_px_mask.sum()
+        blood_ratio = blood_count / max(1, len(text_px))
+        
+        has_blood_stains = (blood_ratio >= 0.02) or (blood_count > 60)
+        
+        if has_blood_stains:
+            # => PHÁT HIỆN CHỮ TRẮNG ÁM VỆT MÁU LOANG LỔ (Horror / Traumatic Text)
+            # QUY TẮC BẮT BUỘC: Ruột chữ phải là TRẮNG SÁNG THUẦN (#FFFFFF) trên TOÀN BỘ CÁC DÒNG CHỮ!
+            # TUYỆT ĐỐI KHÔNG áp dụng linear gradient từ trên xuống dưới hộp văn bản
+            # (tránh làm đen/nâu các dòng chữ bên dưới).
+            # Hiệu ứng loang lổ vết máu và hạt máu lấm tấm được phối hợp qua 2 tầng hiệu ứng:
+            # 1. Inner Glow (Multiply, đỏ máu tươi #8E1B1B, noise 55%) thẩm thấu từ viền vào
+            # 2. Inner Shadow (Multiply, đỏ máu thẫm #5E1111, distance 0, size 4.0, choke 10%, noise 65%) tạo chiều sâu và hạt máu lấm chấm bên trong
+            result["fill"] = {
+                "is_gradient": False,
+                "solid_hex": "#FFFFFF",
+                "top_hex": "#FFFFFF",
+                "bottom_hex": "#FFFFFF",
+                "angle": 90
+            }
+            result["inner_glow"] = {
+                "enabled": True,
+                "color_hex": "#8E1B1B",
+                "size_px": 3.5,
+                "opacity_percent": 85,
+                "blend_mode": "multiply",
+                "noise_percent": 55
+            }
+            result["inner_shadow"] = {
+                "enabled": True,
+                "color_hex": "#5E1111",
+                "size_px": 4.0,
+                "distance_px": 0.0,
+                "choke_percent": 10,
+                "opacity_percent": 80,
+                "blend_mode": "multiply",
+                "noise_percent": 65
+            }
+            result["stroke"] = {"enabled": False, "color_hex": "#FFFFFF", "size_px": 2.5}
+            result["outer_glow"] = {"enabled": False, "color_hex": "#FFFFFF", "size_px": 5.0, "opacity_percent": 60}
+            result["drop_shadow"] = {"enabled": False, "color_hex": "#000000", "distance_px": 4.0, "blur_px": 4.0}
+            return result
+        else:
+            # Chữ trắng trơn thông thường
+            t_med = np.median(text_px, axis=0).astype(int)
+            text_hex = "#FFFFFF" if (np.std(t_med) < 30 and t_med.mean() > 180) else to_hex(t_med)
+            result["fill"] = {
+                "is_gradient": False,
+                "solid_hex": text_hex,
+                "top_hex": text_hex,
+                "bottom_hex": text_hex,
+                "angle": 90
+            }
+            result["stroke"] = {"enabled": False, "color_hex": "#FFFFFF", "size_px": 2.5}
+            result["outer_glow"] = {"enabled": False, "color_hex": "#FFFFFF", "size_px": 5.0, "opacity_percent": 60}
+            result["drop_shadow"] = {"enabled": False, "color_hex": "#000000", "distance_px": 4.0, "blur_px": 4.0}
+            return result
+
+    # === CASE C: CHỮ VIỀN ĐEN TRÊN NỀN SÁNG / MÀU ===
     dark_mask = (lum < 55) & (smooth[:,:,0] < 65) & (smooth[:,:,1] < 65) & (smooth[:,:,2] < 65)
     padded = np.zeros((padded_h, padded_w), dtype=np.uint8)
     padded[2:-2, 2:-2] = dark_mask.astype(np.uint8) * 255
@@ -219,7 +288,7 @@ def analyze_with_local_cv(image_path):
         }
         return result
 
-    # 4. CHỮ BÌNH THƯỜNG TRONG BONG BÓNG THOẠI (Speech Bubble)
+    # === CASE D: CHỮ THOẠI BÌNH THƯỜNG TRONG BÓNG TRẮNG (Speech Bubble) ===
     if is_white_bubble:
         text_mask = lum < 120
         if text_mask.sum() > 30:
@@ -234,8 +303,7 @@ def analyze_with_local_cv(image_path):
             result["stroke"]["enabled"] = False
             return result
 
-    # 5. FALLBACK CỤC BỘ DỰA TRÊN TƯƠNG PHẢN ĐỈNH (Peak Contrast)
-    # Tìm vùng chênh lệch độ sáng lớn nhất so với nền
+    # === FALLBACK: TƯƠNG PHẢN ĐỈNH ===
     delta = np.abs(lum - bg_lum)
     fg_mask = delta > np.percentile(delta, 85)
     if fg_mask.sum() > 30:
@@ -256,10 +324,8 @@ def analyze_with_vision_ai(image_path, output_path):
     Kết hợp thị giác máy tính cục bộ (CV Core) và Gemini Vision AI (nếu khả dụng).
     Bảo đảm 100% không bao giờ sinh lỗi làm treo Photoshop!
     """
-    # 1. Tính toán trước kết quả chuẩn từ CV Core
     cv_result = analyze_with_local_cv(image_path)
     
-    # 2. Thử gọi Gemini AI nếu có key và kết nối tốt
     client = get_gemini_client()
     if client is not None:
         try:
@@ -272,13 +338,19 @@ Analyze the stylized text in this comic crop with surgical precision.
 
 CRITICAL RULES:
 1. Ignore background scenery/artwork. Focus ONLY on the text glyphs!
-2. Fill:
-   - Check if text has a vertical gradient (e.g. top is dark/black/maroon, bottom is vibrant red/crimson).
-   - Angle is 90 for vertical gradients.
-3. Stroke:
-   - Look for a crisp solid border hugging the letters (especially white #FFFFFF on dark backgrounds).
-4. Outer Glow:
-   - Look for a soft glowing aura around the letters/stroke.
+2. If text is white text with blood stains/red grunge inside:
+   - fill: is_gradient = true, top_hex = "#FFFFFF", bottom_hex = "#7A2020", angle = 90
+   - inner_glow: enabled = true, color_hex = "#701515", size_px = 3.5, opacity_percent = 75, blend_mode = "multiply"
+   - stroke.enabled = false
+   - outer_glow.enabled = false
+3. If text is solid white/light text directly on dark background without any border/stroke/blood:
+   - fill: solid_hex = "#FFFFFF", is_gradient = false
+   - stroke.enabled = false
+   - outer_glow.enabled = false
+4. If text has a vertical gradient (e.g. top is dark/black/maroon, bottom is vibrant red/crimson):
+   - fill: is_gradient = true, angle = 90
+5. Stroke:
+   - Only enable stroke if there is a distinct border hugging the letters.
 
 Output ONLY valid JSON:
 {
@@ -294,6 +366,13 @@ Output ONLY valid JSON:
     "color_hex": "#RRGGBB",
     "size_px": 2.5
   },
+  "inner_glow": {
+    "enabled": false,
+    "color_hex": "#701515",
+    "size_px": 3.5,
+    "opacity_percent": 75,
+    "blend_mode": "multiply"
+  },
   "outer_glow": {
     "enabled": true/false,
     "color_hex": "#FFFFFF",
@@ -301,7 +380,7 @@ Output ONLY valid JSON:
     "opacity_percent": 60
   },
   "drop_shadow": {
-    "enabled": true/false,
+    "enabled": false,
     "color_hex": "#000000",
     "distance_px": 4.0,
     "blur_px": 4.0
@@ -319,8 +398,20 @@ Output ONLY valid JSON:
             ai_data = json.loads(response.text)
             
             # Neo màu sắc: nếu CV Core đã phát hiện viền sáng và gradient chuẩn từ pixel thực,
-            # ưu tiên thông số kích thước và sự hài hòa, kết hợp cả 2 để ra kết quả đẹp nhất.
-            if cv_result["stroke"]["enabled"]:
+            # hoặc phát hiện chữ trắng trơn không viền, hoặc chữ vết máu:
+            if cv_result.get("inner_glow", {}).get("enabled"):
+                ai_data["inner_glow"] = cv_result["inner_glow"]
+                ai_data["inner_shadow"] = cv_result.get("inner_shadow", {})
+                ai_data["fill"] = cv_result["fill"]
+                ai_data["stroke"]["enabled"] = False
+                ai_data["outer_glow"]["enabled"] = False
+            elif not cv_result["stroke"]["enabled"]:
+                ai_data["stroke"]["enabled"] = False
+                ai_data["fill"]["solid_hex"] = cv_result["fill"]["solid_hex"]
+                ai_data["fill"]["is_gradient"] = cv_result["fill"]["is_gradient"]
+                ai_data["inner_glow"]["enabled"] = False
+                ai_data["inner_shadow"] = {"enabled": False}
+            else:
                 ai_data["stroke"]["enabled"] = True
                 ai_data["stroke"]["color_hex"] = cv_result["stroke"]["color_hex"]
                 if ai_data["stroke"].get("size_px"):
@@ -335,16 +426,16 @@ Output ONLY valid JSON:
                 ai_data["outer_glow"]["enabled"] = True
                 ai_data["outer_glow"]["color_hex"] = cv_result["outer_glow"]["color_hex"]
                 ai_data["outer_glow"]["size_px"] = cv_result["outer_glow"]["size_px"]
+            else:
+                ai_data["outer_glow"]["enabled"] = False
                 
             with open(output_path, "w", encoding="utf-8") as f:
                 json.dump(ai_data, f, indent=2, ensure_ascii=False)
             return
             
-        except Exception as e:
-            # Nếu AI gặp lỗi 503 / 429 / timeout -> Dùng ngay CV Result
+        except Exception:
             pass
             
-    # Ghi kết quả từ CV Core
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(cv_result, f, indent=2, ensure_ascii=False)
 

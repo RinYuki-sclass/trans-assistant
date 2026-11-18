@@ -1,0 +1,128 @@
+{
+  "project": "lau-dai-den-phuc-dam",
+  "total_chapters": 10,
+  "translated_chapters": 10,
+  "qc_passed_chapters": 10,
+  "chapters": [
+    {
+      "id": "ch_001",
+      "chapter_num": 1,
+      "title_cn": "第001章 伏潭名额",
+      "title_vi": "Chương 001: Suất Vào Phục Đàm",
+      "source_exists": true,
+      "translation_exists": true,
+      "qc_exists": true,
+      "paragraphs": 75,
+      "words": 2117,
+      "status": "QC_PASSED"
+    },
+    {
+      "id": "ch_002",
+      "chapter_num": 2,
+      "title_cn": "第002章 捉奸击杀",
+      "title_vi": "Chương 002: Bắt Gian Tiêu Diệt",
+      "source_exists": true,
+      "translation_exists": true,
+      "qc_exists": true,
+      "paragraphs": 72,
+      "words": 1936,
+      "status": "QC_PASSED"
+    },
+    {
+      "id": "ch_003",
+      "chapter_num": 3,
+      "title_cn": "第003章 峡谷劫持",
+      "title_vi": "Chương 003: Phục Kích Hẻm Núi",
+      "source_exists": true,
+      "translation_exists": true,
+      "qc_exists": true,
+      "paragraphs": 64,
+      "words": 2039,
+      "status": "QC_PASSED"
+    },
+    {
+      "id": "ch_004",
+      "chapter_num": 4,
+      "title_cn": "第004章 初次见面",
+      "title_vi": "Chương 004: Cuộc Gặp Đầu Tiên",
+      "source_exists": true,
+      "translation_exists": true,
+      "qc_exists": true,
+      "paragraphs": 72,
+      "words": 2074,
+      "status": "QC_PASSED"
+    },
+    {
+      "id": "ch_005",
+      "chapter_num": 5,
+      "title_cn": "第005章 意外一吻",
+      "title_vi": "Chương 005: Nụ Hôn Bất Ngờ",
+      "source_exists": true,
+      "translation_exists": true,
+      "qc_exists": true,
+      "paragraphs": 72,
+      "words": 1960,
+      "status": "QC_PASSED"
+    },
+    {
+      "id": "ch_006",
+      "chapter_num": 6,
+      "title_cn": "第006章 纪的报复",
+      "title_vi": "Chương 006: Kỷ Báo Thù",
+      "source_exists": true,
+      "translation_exists": true,
+      "qc_exists": true,
+      "paragraphs": 87,
+      "words": 2616,
+      "status": "QC_PASSED"
+    },
+    {
+      "id": "ch_007",
+      "chapter_num": 7,
+      "title_cn": "第007章 伏潭黑堡",
+      "title_vi": "Chương 007: Lâu Đài Đen Phục Đàm",
+      "source_exists": true,
+      "translation_exists": true,
+      "qc_exists": true,
+      "paragraphs": 64,
+      "words": 2085,
+      "status": "QC_PASSED"
+    },
+    {
+      "id": "ch_008",
+      "chapter_num": 8,
+      "title_cn": "第008章 面试成功",
+      "title_vi": "Chương 008: Phỏng Vấn Thành Công",
+      "source_exists": true,
+      "translation_exists": true,
+      "qc_exists": true,
+      "paragraphs": 66,
+      "words": 1907,
+      "status": "QC_PASSED"
+    },
+    {
+      "id": "ch_009",
+      "chapter_num": 9,
+      "title_cn": "第009章 上岗执勤",
+      "title_vi": "Chương 009: Nhận Ca Trực",
+      "source_exists": true,
+      "translation_exists": true,
+      "qc_exists": true,
+      "paragraphs": 71,
+      "words": 2330,
+      "status": "QC_PASSED"
+    },
+    {
+      "id": "ch_010",
+      "chapter_num": 10,
+      "title_cn": "第010章 狗沟街",
+      "title_vi": "Chương 010: Phố Cẩu Câu",
+      "source_exists": true,
+      "translation_exists": true,
+      "qc_exists": true,
+      "paragraphs": 78,
+      "words": 2630,
+      "status": "QC_PASSED"
+    }
+  ]
+}

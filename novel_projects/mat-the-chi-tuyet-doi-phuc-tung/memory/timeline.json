@@ -2,8 +2,14 @@
   "project": "mat-the-chi-tuyet-doi-phuc-tung",
   "events": [
     {
-      "chapter": 0,
-      "summary": "Khởi tạo cấu trúc dự án."
+      "chapter": 1,
+      "title": "Chương 1: Nhiệm vụ cuối cùng (1)",
+      "summary": "0479 thức tỉnh trong khoang dinh dưỡng, chán ghét cảm giác bị thí nghiệm và khao khát tự do. Tiến sĩ phát cuồng vì không tái tạo được dị năng, quyết định chọn 4 người mạnh nhất trong số 100 vật thí nghiệm để thực hiện 'nhiệm vụ cuối cùng'. Trận tàn sát sinh tồn mở màn."
+    },
+    {
+      "chapter": 2,
+      "title": "Chương 2: Nhiệm vụ cuối cùng (2)",
+      "summary": "0479 bẻ khóa kim loại, tham chiến ác liệt. Vật thí nghiệm 1225 tiết lộ sự thật về thân phận bị bắt cóc và âm mưu lừa bịp của tiến sĩ, ép 0479 liên minh. 0479 từ chối và tuyên bố tuyệt đối phục tùng mệnh lệnh tiến sĩ. Còi báo động vang lên, 1225 bị định danh là kẻ phản nghịch và trở thành mục tiêu săn lùng của toàn bộ phòng thí nghiệm."
     }
   ]
 }

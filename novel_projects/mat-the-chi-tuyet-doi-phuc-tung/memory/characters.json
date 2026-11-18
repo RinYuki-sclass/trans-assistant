@@ -1,4 +1,57 @@
 {
   "project": "mat-the-chi-tuyet-doi-phuc-tung",
-  "characters": []
+  "characters": [
+    {
+      "name_cn": "0479",
+      "name_vi": "0479 (Linh Tứ Thất Cửu / Không Bốn Bảy Chín)",
+      "role": "Công chính (Protagonist)",
+      "identity": "Cải tạo nhân đợt 47 / Sĩ quan cận vệ sau này",
+      "pronouns": {
+        "third_person": "hắn / anh",
+        "self": "tôi / thuộc hạ / anh (khi thân mật)",
+        "address_shou": "Tư lệnh / Ngài (công khai), em (riêng tư)"
+      },
+      "personality": "Trầm mặc, nhẫn nại, ý chí sắt đá, khao khát tự do, trung khuyển tuyệt đối phục tùng người mình yêu",
+      "status": "Vừa thức tỉnh và thoát khỏi phòng thí nghiệm"
+    },
+    {
+      "name_cn": "楚凡",
+      "name_vi": "Sở Phàm",
+      "role": "Thụ chính",
+      "identity": "Tư lệnh chiến khu / Dị năng giả đỉnh phong",
+      "pronouns": {
+        "third_person": "hắn / y",
+        "self": "tôi / ta / em (khi thân mật)",
+        "address_gong": "cậu / 0479 / anh (khi thân mật)"
+      },
+      "personality": "Bá đạo, uy quyền, lạnh lùng, quyết đoán; chịu đựng bạo động tinh thần lực",
+      "status": "Chưa xuất hiện trực tiếp trong 2 chương đầu (được giới thiệu qua văn án)"
+    },
+    {
+      "name_cn": "白发狂热博士",
+      "name_vi": "Tiến sĩ tóc hoa râm (Tiến sĩ điên)",
+      "role": "Phản diện ban đầu",
+      "identity": "Nhà khoa học trưởng phụ trách dự án cải tạo gen người",
+      "pronouns": {
+        "third_person": "lão / ông ta",
+        "self": "ta",
+        "address_others": "các ngươi / vật thí nghiệm"
+      },
+      "personality": "Điên cuồng, tàn nhẫn, ám ảnh với virus sao chổi và dị năng",
+      "status": "Đang theo dõi cuộc thanh trừng chọn lọc 4 kẻ sống sót"
+    },
+    {
+      "name_cn": "1225",
+      "name_vi": "1225",
+      "role": "Nhân vật phụ",
+      "identity": "Cải tạo nhân đã nhớ lại ký ức tuổi thơ, phản bội tổ chức",
+      "pronouns": {
+        "third_person": "hắn",
+        "self": "tôi / tao (khi tức giận)",
+        "address_gong": "cậu / mày (khi trở mặt)"
+      },
+      "personality": "Ngụy tạo thiện ý, mưu mô, sắc bén, kích động",
+      "status": "Bị hệ thống phòng thí nghiệm phát lệnh báo động truy bắt toàn diện"
+    }
+  ]
 }

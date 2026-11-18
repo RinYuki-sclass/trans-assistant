@@ -1,0 +1,64 @@
+{
+  "project": "lau-dai-den-phuc-dam",
+  "characters": [
+    {
+      "name_cn": "纪尘晏",
+      "name_vi": "Kỷ Trần Yến",
+      "role": "Thụ chính (Niên thượng)",
+      "identity": "Thống trị đời thứ 2 của Phục Đàm Hắc Bảo / Hình Vương",
+      "pronouns": {
+        "third_person": "hắn (cố định, tuyệt đối không dùng 'y')",
+        "self_early": "ta (khi tức giận/thị uy) / tôi",
+        "address_gong_early": "ngươi (khi tức giận/chửi nhau, cấm dùng 'mày') / cậu",
+        "self_tamed": "anh (khi bị thuần phục, chốt cứng)",
+        "address_gong_tamed": "em (khi bị thuần phục, chốt cứng)"
+      },
+      "personality": "Tóc bạc mắt đỏ, diễm lệ, khát máu, bất an, phong phê, bị trói buộc bởi bóng ma quá khứ tàn khốc",
+      "status": "Bị ấn ký thực vật của Phương Kỳ Hằng tác động sâu sắc, căm ghét nhưng lệ thuộc"
+    },
+    {
+      "name_cn": "方祈恒",
+      "name_vi": "Phương Kỳ Hằng",
+      "role": "Công chính (Niên hạ)",
+      "identity": "Thanh niên biến dị thực vật / Người thuần Đông phương / Sát thủ lạnh lùng",
+      "pronouns": {
+        "third_person": "hắn / anh",
+        "self_early": "tôi / ta (khi đối đầu chửi nhau, cấm dùng 'tao')",
+        "address_shou_early": "anh / ngươi (khi đối đầu chửi nhau, cấm dùng 'mày')",
+        "self_tamed": "em (khi thân mật, dỗ dành)",
+        "address_shou_tamed": "anh (khi thân mật, dỗ dành)"
+      },
+      "personality": "Trầm ổn, ít nói, dứt khoát tàn nhẫn khi bị phản bội, thực lực cận chiến đỉnh cao, tính chiếm hữu mạnh mẽ",
+      "status": "Đã gia nhập và vượt qua vòng phỏng vấn bảo an của Phục Đàm Hắc Bảo"
+    },
+    {
+      "name_cn": "何姐",
+      "name_vi": "Hà tỷ",
+      "role": "Nhân vật phụ",
+      "identity": "Đầu nậu môi giới buôn bán suất vào Khu Quy Hoạch và Phục Đàm",
+      "pronouns": {
+        "third_person": "ả / cô ta / bà ta",
+        "self": "chị / tôi",
+        "address_others": "cậu / em"
+      },
+      "personality": "Lẳng lơ, hám lợi, nhát gan nhưng luồn lách giỏi",
+      "status": "Sống sót sau cuộc tập kích hẻm núi nhờ Phương Kỳ Hằng cứu giúp"
+    },
+    {
+      "name_cn": "尤雅",
+      "name_vi": "Vưu Nhã",
+      "role": "Pháo hôi",
+      "identity": "Bạn gái cũ của Phương Kỳ Hằng",
+      "personality": "Tham lam, phản bội, khinh thường xuất thân của Phương Kỳ Hằng",
+      "status": "Đã bị Phương Kỳ Hằng bắn chết tại chỗ ở Chương 2"
+    },
+    {
+      "name_cn": "姚哥",
+      "name_vi": "Diêu ca",
+      "role": "Pháo hôi",
+      "identity": "Tình nhân gian díu với Vưu Nhã",
+      "personality": "Hèn nhát, ham muốn thể xác",
+      "status": "Đã bị Phương Kỳ Hằng tiêu diệt tại chỗ ở Chương 2"
+    }
+  ]
+}

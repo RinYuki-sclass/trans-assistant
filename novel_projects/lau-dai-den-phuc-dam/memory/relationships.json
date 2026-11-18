@@ -1,0 +1,24 @@
+{
+  "project": "lau-dai-den-phuc-dam",
+  "pairs": [
+    {
+      "character_a": "方祈恒 (Phương Kỳ Hằng)",
+      "character_b": "纪尘晏 (Kỷ Trần Yến)",
+      "type": "Công - Thụ (Tương ái tương sát -> Chiếm hữu cứu rỗi)",
+      "dynamics": "Gặp nhau bằng những cú đấm và đạn lạc, đánh nhau sứt đầu mẻ trán. Sau khi lưu lại ấn ký biến dị, công dần áp chế và lột bỏ lớp gai góc của thụ, thụ vừa bài xích căm giận vừa lệ thuộc vào hơi ấm của công.",
+      "dialogue_rules": {
+        "early_stage_conflict": "Chửi nhau xưng 'ta' - gọi 'ngươi' (TUYỆT ĐỐI CẤM 'tao - mày'). Nói chuyện bình thường: Phương Kỳ Hằng xưng 'tôi' - gọi 'anh'; Kỷ Trần Yến xưng 'tôi' - gọi 'cậu'.",
+        "later_stage_tamed": "Kỷ Trần Yến xưng 'anh' - gọi 'em'; Phương Kỳ Hằng xưng 'em' - gọi 'anh' (chuẩn mực niên thượng thụ x niên hạ công)."
+      }
+    },
+    {
+      "character_a": "方祈恒 (Phương Kỳ Hằng)",
+      "character_b": "何姐 (Hà tỷ)",
+      "type": "Giao dịch buôn bán -> Tương trợ sinh tồn",
+      "dynamics": "Hà tỷ muốn dụ dỗ thân xác Phương Kỳ Hằng để đổi lấy suất nhập cảnh nhưng bị từ chối; trong trận phục kích hẻm núi Phương Kỳ Hằng ra tay cứu mạng khiến Hà tỷ nể phục.",
+      "dialogue_rules": {
+        "standard": "Phương Kỳ Hằng xưng 'tôi' - gọi 'Hà tỷ / chị'; Hà tỷ xưng 'chị / tôi' - gọi 'cậu / em'."
+      }
+    }
+  ]
+}

@@ -79,11 +79,23 @@ Output ONLY valid JSON:
         ai_data = json.loads(response.text)
         
         # Neo màu từ CV Core
-        if cv_data["stroke"]["enabled"]:
+        if cv_data.get("inner_glow", {}).get("enabled"):
+            ai_data["inner_glow"] = cv_data["inner_glow"]
+            ai_data["inner_shadow"] = cv_data.get("inner_shadow", {})
+            ai_data["fill"] = cv_data["fill"]
+            ai_data["stroke"]["enabled"] = False
+            ai_data["outer_glow"]["enabled"] = False
+        elif cv_data["stroke"]["enabled"]:
             ai_data["stroke"]["enabled"] = True
             ai_data["stroke"]["color_hex"] = cv_data["stroke"]["color_hex"]
             if ai_data["stroke"].get("size_px"):
                 ai_data["stroke"]["size_px"] = cv_data["stroke"]["size_px"]
+            ai_data["inner_glow"]["enabled"] = False
+            ai_data["inner_shadow"] = {"enabled": False}
+        else:
+            ai_data["stroke"]["enabled"] = False
+            ai_data["inner_glow"]["enabled"] = False
+            ai_data["inner_shadow"] = {"enabled": False}
         
         if cv_data["fill"]["is_gradient"]:
             ai_data["fill"]["is_gradient"] = True
@@ -94,6 +106,8 @@ Output ONLY valid JSON:
             ai_data["outer_glow"]["enabled"] = True
             ai_data["outer_glow"]["color_hex"] = cv_data["outer_glow"]["color_hex"]
             ai_data["outer_glow"]["size_px"] = cv_data["outer_glow"]["size_px"]
+        else:
+            ai_data["outer_glow"]["enabled"] = False
 
         return ai_data
     except Exception:

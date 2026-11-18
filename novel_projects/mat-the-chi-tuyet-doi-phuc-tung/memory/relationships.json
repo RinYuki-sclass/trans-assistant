@@ -1,4 +1,34 @@
 {
   "project": "mat-the-chi-tuyet-doi-phuc-tung",
-  "pairs": []
+  "pairs": [
+    {
+      "character_a": "0479",
+      "character_b": "楚凡 (Sở Phàm)",
+      "type": "Công - Thụ (Hạ khắc thượng)",
+      "dynamics": "Công tuyệt đối trung thành và phục tùng thụ trước mắt người ngoài; sau cửa phòng lại là chỗ dựa vững chãi, ôm chặt dỗ dành và chiếm hữu khi thụ bị bạo động tinh thần lực.",
+      "dialogue_rules": {
+        "public": "0479 xưng 'thuộc hạ / tôi' - gọi 'Tư lệnh / Ngài'; Sở Phàm xưng 'tôi / ta' - gọi 'cậu / 0479'.",
+        "private": "0479 xưng 'anh' (hoặc 'tôi') - gọi 'em'; Sở Phàm xưng 'em' (hoặc 'tôi') - gọi 'anh'."
+      }
+    },
+    {
+      "character_a": "0479",
+      "character_b": "1225",
+      "type": "Cạnh tranh - Đối đầu trong phòng thí nghiệm",
+      "dynamics": "1225 tìm cách dụ dỗ liên minh nhưng 0479 giữ vững lập trường phục tùng mệnh lệnh tiến sĩ, dẫn đến xung đột sinh tử.",
+      "dialogue_rules": {
+        "standard": "xưng 'tôi' - gọi 'cậu'",
+        "conflict": "xưng 'tao' - gọi 'mày'"
+      }
+    },
+    {
+      "character_a": "0479",
+      "character_b": "白发狂热博士 (Tiến sĩ)",
+      "type": "Chủ nhân độc tài - Vật thí nghiệm công cụ",
+      "dynamics": "Tiến sĩ coi 0479 là vật thí nghiệm tiêu chuẩn; 0479 bề ngoài tuyệt đối phục tùng mệnh lệnh để tìm cơ hội tự do.",
+      "dialogue_rules": {
+        "standard": "Tiến sĩ xưng 'ta' - gọi 'vật thí nghiệm / 0479'; 0479 xưng 'thuộc hạ / tôi' - gọi 'Tiến sĩ / Ngài'."
+      }
+    }
+  ]
 }
