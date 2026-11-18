@@ -2,7 +2,7 @@
   "project_slug": "khi-beta-gap-phai-ke-si-tinh",
   "title": "Khi Beta Gặp Phải Kẻ Si Tình",
   "author": "Thù Xuyên (酬川)",
-  "total_chapters": 48,
+  "total_chapters": 65,
   "stats": {
     "pending": 0,
     "raw_ready": 32,
@@ -943,7 +943,15 @@
       "word_count": 4600,
       "source_url": "",
       "updated_at": "2026-11-17T17:10:00"
+    },
+    {
+      "id": "ch_074",
+      "chapter_number": 74,
+      "title_raw": "第74章",
+      "title_vi": "Chương 74: Nụ hôn đầu bên bờ biển, “kẻ trầm tư tình yêu”",
+      "status": "completed",
+      "paragraph_count": 132
     }
   ],
-  "completed_chapters": 38
+  "completed_chapters": 39
 }

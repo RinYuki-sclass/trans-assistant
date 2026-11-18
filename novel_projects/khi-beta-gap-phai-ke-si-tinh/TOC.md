@@ -2,6 +2,7 @@
 
 > **Tác giả:** Thù Xuyên (酬川)  
 > **Thể loại:** Đam mỹ, tinh tế ABO, xuyên thư, chủ công, Beta công x Alpha thụ, hài hước, ngọt sủng, HE.  
+| ch_074 | 第74章 | Chương 74: Nụ hôn đầu bên bờ biển, “kẻ trầm tư tình yêu” | 132 | 🟢 completed |
 | ch_075 | 第75章 | Chương 75 | 104 | 🟢 completed |
 | ch_076 | 第76章 | Chương 76 | 115 | 🟢 completed |
 | ch_077 | 第77章 | Chương 77 | 127 | 🟢 completed |
@@ -18,7 +19,7 @@
 | ch_088 | 第88章 | Chương 88 | 110 | 🟢 completed |
 | ch_089 | 第89章 | Chương 89 | 143 | 🟢 completed |
 | ch_090 | 第90章 | Chương 90 | 111 | 🟢 completed |
-> **Tiến độ:** Đã hoàn thành dịch và QC 38 chương Chính văn (ch_075 -> ch_112), raw sẵn sàng từ ch_085 đến ch_138 (tổng 54 chương).  
+> **Tiến độ:** Đã hoàn thành dịch và QC 39 chương Chính văn (ch_074 -> ch_112), raw sẵn sàng từ ch_085 đến ch_138 (tổng 54 chương).  
 
 ---
 
