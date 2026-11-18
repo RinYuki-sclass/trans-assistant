@@ -38,7 +38,7 @@ Khoảnh khắc tôi gọi anh bằng một tiếng hét với khuôn mặt kinh
 
 Trong lúc tôi còn đang ngơ ngác với hàng tá dấu chấm hỏi vì không hiểu ý nghĩa của ám hiệu mà người đàn ông gửi tới, một tiếng động lớn vang lên từ phía cửa chính như thể cánh cửa bị phá tan tành. Ngay sau đó, tôi bị những hiệp sĩ ùa vào bắt giữ và ép quỳ xuống đất.
 
-Và trong khoảng thời gian ngắn ngủi đó, người đàn ông đã đi từ tầng một lên đến tận nhà tôi. Khi hắn bước vào bên trong, các hiệp sĩ dạt sang hai bên một cách có trật tự để nhường đường. Ở giữa lối đi đó, nạn nhân của sự việc lần này, cựu công chính của cuốn tiểu thuyết này, đang tiến lại gần với sát khí rợn người.
+Và trong khoảng thời gian ngắn ngủi đó, người đàn ông đã đi từ tầng một lên đến tận nhà tôi. Khi anh bước vào bên trong, các hiệp sĩ dạt sang hai bên một cách có trật tự để nhường đường. Ở giữa lối đi đó, nạn nhân của sự việc lần này, cựu công chính của cuốn tiểu thuyết này, đang tiến lại gần với sát khí rợn người.
 
 Người đàn ông bước đến trước mặt tôi, rút kiếm ra không chút do dự và đặt mũi kiếm ngay trước yết hầu tôi. Tôi run rẩy không dám nuốt nước bọt vì sợ rằng chỉ cần một cử động nhỏ cũng sẽ bị lưỡi kiếm cứa đứt.
 
@@ -202,11 +202,11 @@ Vì lo lắng nên tôi đã hỏi anh.
 
 Nghe tôi hỏi, Kayden quay đầu lại nhìn tôi, rồi khi nhận ra tôi hỏi vậy vì nhìn thấy tư thế của mình, gương mặt anh vặn vẹo như một dạ xoa. Nhưng mà vẫn đẹp trai... Không phải chuyện này. À, là tại mình rồi. Cái miệng này thật là.
 
-Kayden chắc hẳn là lần đầu tiên tiếp nhận đàn ông, nên cái “phía dưới” đã nhận lấy tôi trong cơn say hôm qua chẳng đời nào có thể bình thường được. Trong tình trạng đó mà cậu ta vẫn đi bắt tôi về mà không kịp nghỉ ngơi tử tế... Tôi tự hỏi liệu mình có nên nhổ phăng cái lưỡi suốt ngày dẫm phải mìn này đi không.
+Kayden chắc hẳn là lần đầu tiên tiếp nhận đàn ông, nên cái “phía dưới” đã nhận lấy tôi trong cơn say hôm qua chẳng đời nào có thể bình thường được. Trong tình trạng đó mà anh vẫn đi bắt tôi về mà không kịp nghỉ ngơi tử tế... Tôi tự hỏi liệu mình có nên nhổ phăng cái lưỡi suốt ngày dẫm phải mìn này đi không.
 
 Khi ánh mắt giận dữ của Kayden hướng về phía mình, tôi tự giác cúi gầm mặt như một chú chó bị chủ mắng, khẽ cào vào ghế xe ngựa và ngậm miệng lại.
 
-Kayden chỉ quay đầu nhìn ra ngoài cửa sổ sau khi xác nhận tôi đã hoàn toàn im lặng. ...Nếu tôi bảo sẽ dùng ma pháp để giúp cậu ta thoải mái hơn một chút, chắc tôi sẽ bị đuổi cổ khỏi xe ngựa mất.
+Kayden chỉ quay đầu nhìn ra ngoài cửa sổ sau khi xác nhận tôi đã hoàn toàn im lặng. ...Nếu tôi bảo sẽ dùng ma pháp để giúp anh thoải mái hơn một chút, chắc tôi sẽ bị đuổi cổ khỏi xe ngựa mất.
 
 Theo bản năng mách bảo từ bốn mươi hai lần trọng sinh, tôi im lặng ngồi ngay ngắn, đặt hai tay lên đầu gối. May mắn thay, Kayden không đuổi tôi đi mà đưa tôi về đến tận dinh thự Công tước. Thật là nhẹ cả người.
 
@@ -228,7 +228,7 @@ Dù đã thề thốt bằng cả nhân quyền của mình, các hiệp sĩ v�
 
 Chẳng mấy chốc, một hiệp sĩ quay lại và bảo tôi ra ngoài để dẫn tôi đến gặp Công tước. Tôi hớn hở bước ra khỏi phòng, có một hiệp sĩ đứng trước và một người đứng sau áp giải tôi đi. Dáng vẻ giống như đang bị áp giải hơn là được dẫn đường, nhưng vì bản thân có tội nên tôi quyết định tạm thời cam chịu một cách ngoan ngoãn.
 
-Nơi các hiệp sĩ đưa tôi đến là văn phòng của Kayden. Khi cánh cửa khắc hình gia huy nhà Amir mở ra, Kayden, người đang bận rộn chỉ thị điều gì đó cho trợ lý trong văn phòng, quay đầu nhìn tôi. Cậu ấy mỉm cười rạng rỡ và vẫy tay ra hiệu cho tôi lại gần.
+Nơi các hiệp sĩ đưa tôi đến là văn phòng của Kayden. Khi cánh cửa khắc hình gia huy nhà Amir mở ra, Kayden, người đang bận rộn chỉ thị điều gì đó cho trợ lý trong văn phòng, quay đầu nhìn tôi. Anh mỉm cười rạng rỡ và vẫy tay ra hiệu cho tôi lại gần.
 
 “Đến đúng lúc lắm. Có vài văn kiện cần chữ ký của cậu đấy.”
 
@@ -252,7 +252,7 @@ Tôi vội vàng nắm lấy tay Kayden và hét lên. Trước sự cầu hôn 
 
 “Em vui là tốt rồi. Sau khi Lễ hội Mùa màng kết thúc, ta sẽ nộp giấy tờ lên cung điện.”
 
-“Vâng. Vâng. Tôi phải ký vào những chỗ nào ạ?”
+“Vâng. Vâng. Em phải ký vào những chỗ nào ạ?”
 
 Tôi vội vàng di chuyển sang bên cạnh Kayden, nhận lấy cây bút và ký loẹt xoẹt vào tất cả những chỗ anh ấy chỉ. Đầu óc tôi trắng xóa vì phấn khích.
 
@@ -264,7 +264,7 @@ Khi tôi hỏi với đôi mắt sáng rực rằng liệu còn chỗ nào cần
 
 Tôi nhìn Kayden đưa những tờ tài liệu đã ký xong xuôi cho trợ lý, lúc này mới nhớ ra lý do mình tìm đến anh.
 
-“Công tước. Nhưng chẳng phải căn phòng dành cho bạn đời của Công tước là quá sớm đối với tôi sao?”
+“Công tước. Nhưng chẳng phải căn phòng dành cho bạn đời của Công tước là quá sớm đối với em sao?”
 
 Dù tôi đã nhìn thấy Kayden suốt gần 21 năm vì một lý do nào đó, nhưng thực tế, từ góc độ của Kayden, tôi chỉ là một pháp sư ăn không ngồi rồi hơi đáng nghi mà anh mới quen được 6 tháng. Có lý do khiến tôi suýt ngã ngửa vì ngạc nhiên khi Kayden chấp nhận lời tỏ tình của mình.
 
@@ -420,9 +420,9 @@ Nhìn theo ngài ra ngoài cửa sổ, có thể thấy nhiều chiếc đèn l�
 
 “Vâng. Chẳng phải đó là lễ hội được bắt đầu để an ủi Nữ thần Đất mẹ, người đang đau buồn vì con gái mình phải xuống âm phủ bốn tháng mỗi năm do đã lỡ ăn quả lựu mà Vua âm phủ đưa cho, đồng thời để cầu nguyện cho một mùa màng bội thu sao ạ.”
 
-“Phải. Vua âm phủ đã lừa nữ thần ăn quả lựu để giữ em lại. Và cuối cùng, nữ thần đã bị cầm chân ở âm phủ.”
+“Phải. Vua âm phủ đã lừa nữ thần ăn quả lựu để giữ nàng lại. Và cuối cùng, nữ thần đã bị cầm chân ở âm phủ.”
 
-Không hiểu được ý đồ của ngài khi đột nhiên bắt đầu kể một câu chuyện thần thoại mà ngay cả trẻ con cũng biết, tôi nheo mắt quan sát ngài. Ngài dời tầm mắt khỏi cửa sổ, nhìn tôi và mỉm cười.
+Không hiểu được ý đồ của ngài khi đột nhiên bắt đầu kể một câu chuyện thần thoại mà ngay cả trẻ con cũng biết, Ravi nheo mắt quan sát ngài. Ngài dời tầm mắt khỏi cửa sổ, nhìn anh và mỉm cười.
 
 “Ta không có quả lựu của âm phủ, nên chẳng phải ta nên sử dụng quân bài quý giá nhất mà mình có sao?”
 
@@ -430,9 +430,9 @@ Không hiểu được ý đồ của ngài khi đột nhiên bắt đầu kể 
 
 “Ít nhất là vào lúc này.”
 
-Tôi không hiểu chính xác ý ngài là gì. Có nghĩa là ngài kết hôn với Liam Carter để giữ cậu ta lại bên mình, người có thể rời đi bất cứ lúc nào sao?
+Ravi không hiểu chính xác ý ngài là gì. Có nghĩa là ngài kết hôn với Liam Carter để giữ cậu ta lại bên mình, người có thể rời đi bất cứ lúc nào sao?
 
-Tôi không biết Công tước lại là một người mù quáng đến mức này. Có thể thay đổi một người vốn dĩ lý trí hơn bất cứ ai thành ra thế này, tình yêu quả thực là một cảm xúc đáng kinh ngạc.
+Anh không ngờ Công tước lại là một người mù quáng đến mức này. Có thể thay đổi một người vốn dĩ lý trí hơn bất cứ ai thành ra thế này, tình yêu quả thực là một cảm xúc đáng kinh ngạc.
 
 Trong khi Ravi còn đang cố đoán xem lời của Công tước có ý gì thì ngài ấy đã xua tay. Đó là một lệnh đuổi khách. Với gương mặt thoáng hiện vẻ mệt mỏi, ngài bảo Ravi lui ra và nói.
 

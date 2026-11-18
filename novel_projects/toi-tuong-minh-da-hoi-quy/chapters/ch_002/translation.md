@@ -202,7 +202,7 @@ Tôi vội vàng nhìn quanh, những người cùng biểu diễn đường ph�
 
 “Ở quảng trường, chỉ những người có giấy phép biểu diễn mới được phép biểu diễn. Anh/cô đã nhận được giấy phép từ trước chưa?”
 
-“...저 말고도 공연을 하던 사람들이 많았는데요.”
+“...Nhưng ngoài tôi ra thì ở đây cũng có nhiều người biểu diễn mà ạ.”
 
 Tôi lí nhí đổi giọng biện minh, người lính canh liếc nhìn quanh quảng trường rồi nhún vai. Dường như ông ta đang muốn hỏi lại rằng giờ không có ai ở đây thì biết làm sao. Chết tiệt. Mọi người đều diễn xong rồi biến mất trước khi đội tuần tra đến, chỉ có mình tôi là không biết nhìn trước ngó sau mà ở lại đây sao.
 
@@ -294,7 +294,7 @@ Lời khen như mắng rằng em đẹp một cách vô lý và quá mức đi k
 
 “Dạ…….”
 
-“Nếu cần tiền, em cứ dùng ngân sách dành cho nữ chủ nhân đã được phân bổ cho em là được, tại sao lại phải đi biểu diễn trên đường phố?”
+“Nếu cần tiền, em cứ dùng ngân sách dành cho bạn đời Công tước đã được phân bổ cho em là được, tại sao lại phải đi biểu diễn trên đường phố?”
 
 “Nhưng mà, đó là tiền của Kayden mà.”
 
@@ -308,11 +308,11 @@ Thế nhưng, vì thứ mà tôi mong muốn, tôi không thể dùng tiền c�
 
 Tôi vô thức thấy nghẹn ngào, cắn chặt môi rồi mới lên tiếng. Giọng nói khàn đặc của tôi đượm chút hơi nước.
 
-“Em chỉ là, vì đây là sinh nhật của Kayden mà em được chăm lo lần đầu tiên, nên em muốn tặng anh thứ mà chính tay em đã chuẩn bị trọn vẹn.”
+“Em chỉ là, vì đây là sinh nhật của Kayden mà em được chăm lo lần đầu tiên, nên em muốn tặng ngài thứ mà chính tay em đã chuẩn bị trọn vẹn.”
 
 “Dù em có tặng gì đi chăng nữa, ta cũng sẽ rất vui.”
 
-“Em đã nghĩ anh sẽ nói như vậy. Chỉ là, đó là sự thỏa mãn của cá nhân em thôi. Em muốn chính tay mình tặng cho anh.”
+“Em đã nghĩ ngài sẽ nói như vậy. Chỉ là, đó là sự thỏa mãn của cá nhân em thôi. Em muốn chính tay mình tặng cho ngài.”
 
 Trước câu trả lời của tôi, Kayden mím môi. Anh ấy ngập ngừng một cách không giống thường ngày, lặp đi lặp lại hành động nắm rồi lại xòe tay. Khi tôi đang ngẩn ngơ nhìn theo những đầu ngón tay gọn gàng lộ ra mỗi khi anh nắm rồi xòe tay, anh ấy mới do dự lên tiếng.
 
@@ -338,17 +338,17 @@ Nghe lời tôi, anh cười tinh quái rồi đặt một nụ hôn nhẹ lên 
 
 “Vừa hay có một công việc phù hợp với em đấy.”
 
-“Chờ đã Kayden, em muốn dùng số tiền mình kiếm được để……”
+“Chờ đã ngài, em muốn dùng số tiền mình kiếm được để……”
 
 Anh khoanh tay, nhướng một bên mày, cố tình làm ra vẻ nghiêm nghị. Thấy tôi bĩu môi vì ấm ức trước lời đó, anh chỉ nhún vai. Trước thái độ kiên quyết của anh, những lời lẽ như đang làm nũng cứ thế tuôn ra.
 
-“Nhưng Kayden, đây là công việc em muốn mà. Em cũng có thể làm được đến mức này chứ, phải không? Ngày mai em sẽ đến Ma tháp để lấy giấy chứng minh thân phận, nên sẽ không còn chuyện như hôm nay nữa đâu.”
+“Nhưng ngài ơi, đây là công việc em muốn mà. Em cũng có thể làm được đến mức này chứ, phải không? Ngày mai em sẽ đến Ma tháp để lấy giấy chứng minh thân phận, nên sẽ không còn chuyện như hôm nay nữa đâu.”
 
-“Anh không thể nhượng bộ thêm được nữa. Hy vọng em cũng cân nhắc đến lập trường của anh.”
+“Ta không thể nhượng bộ thêm được nữa. Hy vọng em cũng cân nhắc đến lập trường của ta.”
 
 Trước câu trả lời không cho tôi cơ hội để nài nỉ thêm, tôi mím chặt môi. Nhìn tôi chỉ biết mân mê tay để bày tỏ sự bất mãn, anh giãn gương mặt nghiêm nghị, khẽ cười rồi tiếp lời bằng giọng điệu mềm mỏng như đang dỗ dành.
 
-“Đừng quá buồn lòng. Liam, anh cam đoan là em sẽ thích công việc này.”
+“Đừng quá buồn lòng. Liam, ta cam đoan là em sẽ thích công việc này.”
 
 “…Gì cơ?”
 
@@ -378,13 +378,13 @@ Khi đó, nếu gạt bỏ tính đặc thù của việc hồi quy sang một b
 
 Vì vậy, khi tỉnh dậy sau đêm ngủ với Kayden vì lỡ lời tỏ tình trong cơn say, điều khiến tôi kinh ngạc hơn cả sự bàng hoàng lúc đó chính là việc Kayden đã ngoan ngoãn nhường vị trí ở trên cho tôi. Tôi càng ngạc nhiên hơn vì theo trí nhớ của tôi, anh ấy không hề có sở thích nằm dưới.
 
-Vì thế, sau khi tình hình ổn định hơn một chút, tôi đã cẩn thận hỏi Kayden. Rằng việc chế ngự một pháp sư đang say xỉn vốn chẳng khó khăn gì, vậy lý do gì mà anh lại cho phép tôi được ở trên người anh?
+Vì thế, sau khi tình hình ổn định hơn một chút, tôi đã cẩn thận hỏi Kayden. Rằng việc chế ngự một pháp sư đang say xỉn vốn chẳng khó khăn gì, vậy lý do gì mà ngài lại cho phép tôi được ở trên người ngài?
 
 Nghe câu hỏi của tôi, Kayden mở to mắt nhìn tôi như thể không tin vào những gì mình vừa nghe thấy.
 
 Ngay khi nhận ra tôi đang hỏi một cách nghiêm túc, anh ấy ôm trán cười lớn. Anh cười một hồi lâu, cho đến khi thấy tôi dỗi hờn bĩu môi thì mới dừng lại và trả lời.
 
-“Để làm gì chứ, khi phải thắng một đứa trẻ đang rên rỉ và chuyển động hông trên người ta?”
+“Hơn thua làm gì với một đứa nhóc vừa rên rỉ vừa lắc hông trên người ta chứ?”
 
 Lời nói đầy thong dong của Kayden ùa về khiến mặt tôi nóng bừng lên. Tôi lấy tay quạt lấy quạt để vào khuôn mặt đang nóng ran rồi quay mặt đi. Vừa quay mắt nhìn, một cảnh tượng choáng váng khiến tôi bất chợt nảy sinh những suy nghĩ không đứng đắn giữa đêm khuya liền hiện ra trước mắt.
 
@@ -454,7 +454,7 @@ Tiếng rên nhẹ của anh khiến tôi thỏa mãn, tôi bám lấy ngực an
 
 Cảm nhận được cử chỉ đầy tiếc nuối của tôi, Kayden nheo mắt, vuốt ve sau đầu tôi rồi thì thầm.
 
-“Liam, em biết là anh gần như không cảm nhận được gì ở ngực mà.”
+“Liam, em biết là ta gần như không cảm nhận được gì ở ngực mà.”
 
 “Nhưng mà… thử thêm chút nữa không được sao ạ?”
 
@@ -468,7 +468,7 @@ Thán phục trước dương vật to lớn và có hình dáng đẹp đẽ đ
 
 “Hư, a, Liam. Hư.”
 
-“Thích không? Kayden?”
+“Ngài thích không? Kayden?”
 
 Khi tôi vuốt ve dương vật của anh, Kayden theo phản xạ nắm chặt lấy vai tôi. Cảm nhận được bàn tay gấp gáp đặt trên vai mình, tôi mỉm cười rồi cúi đầu xuống, nhẹ nhàng xoa nắn phần gốc dương vật của anh.
 
@@ -504,7 +504,7 @@ Kayden, người tạm dừng lời nói vì khoái cảm sau khi xuất tinh, n
 
 Vì muốn nhìn thấy khuôn mặt anh ấy, tôi ngẩng đầu lên và mỉm cười. Cùng với nụ cười, thứ tinh dịch chưa kịp nuốt hết chảy ra từ miệng tôi. Nhìn thấy chất lỏng màu trắng kéo dài từ lưỡi tôi đến cơ quan sinh dục của anh ấy, mặt Kayden đỏ bừng lên.
 
-“Anh thấy tốt chứ? Còn tôi thì thấy rất tuyệt.”
+“Ngài thấy thoải mái chứ? Còn em thì thấy rất tuyệt.”
 
 Khi tôi tinh nghịch nheo mắt hỏi, Kayden đưa mu bàn tay lên che mặt. Khuôn mặt lộ ra dưới bàn tay đã đỏ ửng lên từ lúc nào, trông thật đáng yêu.
 
@@ -512,9 +512,9 @@ Nhìn khuôn mặt anh ấy đỏ bừng vì xấu hổ, cộng thêm dư âm kh
 
 Trong khi dùng phép thuật lấy gel ở đầu giường, tôi dùng bàn tay còn lại mơn trớn cửa huyệt của anh ấy, và trước cảm giác đó, tôi vô thức lộ ra vẻ mặt ngẩn ngơ. Cái lỗ đã được nới lỏng mềm mại kia đang phập phồng, sẵn sàng nuốt chửng lấy tay tôi. Khi tôi há miệng nhìn lên Kayden, anh ấy liền tránh ánh mắt của tôi.
 
-“Kayden, chẳng lẽ trong lúc tắm anh đã…?”
+“Kayden, chẳng lẽ trong lúc tắm ngài đã…?”
 
-“Cậu thực sự định chỉ giúp tôi mặc quần áo rồi rời đi thôi sao?”
+“Em thực sự định chỉ giúp ta mặc quần áo rồi rời đi thôi sao?”
 
 Lời nói đáp lại như thể đang trách móc ngược lại tôi khiến mặt tôi nóng bừng lên. À, ra là vậy. Tôi thật thiếu tinh tế quá. Hèn gì Kayden lại tự mình đi tắm mà không cần người phục vụ.
 
@@ -526,7 +526,7 @@ Cảm thấy cửa huyệt đã đủ giãn để đưa thứ của mình vào, 
 
 Khi tôi từ từ đưa dương vật vào trong cửa huyệt của anh ấy, thắt lưng anh ấy cứng đờ vì căng thẳng. Tôi hôn và liếm khắp cơ thể anh ấy để dẫn dụ anh ấy thả lỏng, và tôi có thể cảm nhận được anh ấy đang hít thở sâu.
 
-Tôi từ từ đưa dương vật vào, rồi cắn nhẹ lên ngực cậu ấy và đâm mạnh một hơi đến tận gốc vào bên trong. Cậu ấy ngửa cổ ra sau. Đôi chân quấn quanh hông tôi siết chặt hơn. Những vách thịt bên trong đang co thắt lấy vật của tôi khiến tâm trí tôi quay cuồng.
+Tôi từ từ đưa dương vật vào, rồi cắn nhẹ lên ngực anh và đâm mạnh một hơi đến tận gốc vào bên trong. Anh ngửa cổ ra sau. Đôi chân quấn quanh hông tôi siết chặt hơn. Những vách thịt bên trong đang co thắt lấy vật của tôi khiến tâm trí tôi quay cuồng.
 
 “A……! A ư, hức, hự!”
 
