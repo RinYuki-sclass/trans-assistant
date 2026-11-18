@@ -1,4 +1,4 @@
-/**
+﻿/**
  * AutoStyleFromSelection.jsx - AI Vision VFX Engine (Chỉ bật hiệu ứng THỰC SỰ CÓ)
  * Phím tắt: F6
  */
@@ -28,7 +28,7 @@ function main() {
     }
 
     // 2. Tìm Layer 'raw' và 'Group 1'
-    var rawLayer = findLayer(doc, "raw");
+    var rawLayer = findRawLayer(doc);
     var group1 = findLayer(doc, "Group 1");
 
     var selBounds = doc.selection.bounds;
@@ -59,21 +59,37 @@ function main() {
     }
 
     // 4. Đường dẫn thư mục script
-    var thisFile = new File($.fileName);
-    var scriptFolder = thisFile.parent.fsName;
+    // Ưu tiên thư mục repo do launcher (cài trong Photoshop\Presets\Scripts) truyền vào
+    var scriptFolder = ($.global.AI_TYPESET_DIR) ? new Folder($.global.AI_TYPESET_DIR).fsName : new File($.fileName).parent.fsName;
     var cropPath = scriptFolder + "\\temp_crop.png";
     var resultPath = scriptFolder + "\\style_result.json";
     var pyPath = scriptFolder + "\\style_analyzer.py";
 
     if (!File(pyPath).exists) {
-        pyPath = "d:\\Nhung\\RIDI\\trans-assistant\\photoshop_scripts\\style_analyzer.py";
-        cropPath = "d:\\Nhung\\RIDI\\trans-assistant\\photoshop_scripts\\temp_crop.png";
-        resultPath = "d:\\Nhung\\RIDI\\trans-assistant\\photoshop_scripts\\style_result.json";
+        alert("Không tìm thấy style_analyzer.py tại:\n" + scriptFolder + "\nHãy chạy lại install_to_photoshop.bat.");
+        return;
     }
 
-    // 5. TẠM ẨN GROUP 1 & BẬT RAW ĐỂ LƯU ẢNH CROP NÉT CHỮ GỐC
+    // 5. TẠM ẨN GROUP 1, CÁC LAYER CLEAN/REDRAW & BẬT RAW ĐỂ LƯU ẢNH CROP NÉT CHỮ GỐC
     var prevRawVisible = rawLayer ? rawLayer.visible : true;
     var prevGroup1Visible = group1 ? group1.visible : true;
+
+    // Tạm ẩn các layer clean/redraw nếu có để copy trọn vẹn nét chữ gốc trên raw
+    var hiddenCleanLayers = [];
+    var cleanKeywords = ["clean", "redraw", "xóa chữ", "sửa nền", "paint", "retouch"];
+    for (var i = 0; i < doc.layers.length; i++) {
+        var lyr = doc.layers[i];
+        if (lyr !== rawLayer && lyr !== group1 && lyr.visible) {
+            var lName = lyr.name.toLowerCase();
+            for (var k = 0; k < cleanKeywords.length; k++) {
+                if (lName.indexOf(cleanKeywords[k]) !== -1) {
+                    lyr.visible = false;
+                    hiddenCleanLayers.push(lyr);
+                    break;
+                }
+            }
+        }
+    }
 
     if (group1) group1.visible = false;
     if (rawLayer) {
@@ -101,6 +117,9 @@ function main() {
     app.activeDocument = doc;
     if (group1) group1.visible = true;
     if (rawLayer) rawLayer.visible = prevRawVisible;
+    for (var c = 0; c < hiddenCleanLayers.length; c++) {
+        hiddenCleanLayers[c].visible = true;
+    }
 
     targetTextLayer.visible = true;
     doc.activeLayer = targetTextLayer;
@@ -267,7 +286,7 @@ function applyExactVFXStyle(data) {
         glowDesc.putEnumerated(stringIDToTypeID("mode"), stringIDToTypeID("blendMode"), stringIDToTypeID("normal"));
         glowDesc.putUnitDouble(stringIDToTypeID("opacity"), stringIDToTypeID("percentUnit"), glowInfo.opacity_percent || 80);
 
-        var gCol = hexToRGB(glowInfo.color_hex || "#FFB300");
+        var gCol = hexToRGB(glowInfo.color_hex || "#FFFFFF");
         var colGlow = new ActionDescriptor();
         colGlow.putDouble(stringIDToTypeID("red"), gCol.red);
         colGlow.putDouble(stringIDToTypeID("green"), gCol.green);
@@ -364,6 +383,22 @@ function getAllTextLayers(container, list) {
             getAllTextLayers(item, list);
         }
     }
+}
+
+function findRawLayer(doc) {
+    var names = ["raw", "background", "ảnh gốc", "layer 0", "raw_image", "bg", "gốc"];
+    for (var k = 0; k < names.length; k++) {
+        var lyr = findLayer(doc, names[k]);
+        if (lyr) return lyr;
+    }
+    // Lấy layer dưới cùng không phải text và không phải group
+    for (var i = doc.layers.length - 1; i >= 0; i--) {
+        var l = doc.layers[i];
+        if (l.typename === "ArtLayer" && l.kind !== LayerKind.TEXT) {
+            return l;
+        }
+    }
+    return null;
 }
 
 function findLayer(doc, name) {

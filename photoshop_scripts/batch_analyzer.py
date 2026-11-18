@@ -1,3 +1,10 @@
+# -*- coding: utf-8 -*-
+"""
+batch_analyzer.py - Multi-Select Batch Auto-Style VFX Engine
+Xử lý hàng loạt các vùng chọn crop_0.png, crop_1.png... song song.
+Áp dụng cùng kiến trúc Hybrid thông minh với style_analyzer.py.
+"""
+
 import os
 import sys
 import glob
@@ -6,48 +13,34 @@ from concurrent.futures import ThreadPoolExecutor
 from PIL import Image
 from dotenv import load_dotenv
 
-def get_gemini_client():
-    env_paths = [
-        r"d:\Nhung\RIDI\trans-assistant\.env",
-        os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), ".env")
-    ]
-    for p in env_paths:
-        if os.path.exists(p):
-            load_dotenv(p)
-            break
+# Import trực tiếp thuật toán từ style_analyzer
+from style_analyzer import analyze_with_local_cv, get_gemini_client
 
-    keys = []
-    for k in ["GEMINI_API_KEY_1", "GEMINI_API_KEY_2", "GEMINI_API_KEY_3", "GEMINI_API_KEY_4", "GEMINI_API_KEY", "GOOGLE_API_KEY"]:
-        val = os.environ.get(k)
-        if val and val not in keys:
-            keys.append(val)
-
-    if not keys:
+def analyze_single_crop(client, image_path):
+    if not os.path.exists(image_path):
         return None
+
+    # Luôn có kết quả CV Core chuẩn xác làm nền tảng
+    cv_data = analyze_with_local_cv(image_path)
+    
+    if client is None:
+        return cv_data
 
     try:
-        from google import genai
-        return genai.Client(api_key=keys[0])
-    except Exception:
-        return None
+        from google.genai import types
+        img = Image.open(image_path).convert("RGB")
 
-VFX_PROMPT = """
+        prompt = """
 You are a Master Typography VFX Artist for Webtoons & Manhwa.
-Analyze the stylized text in this comic crop with high precision.
+Analyze the stylized text in this comic crop with surgical precision.
 
-Look closely at the artistic details:
-1. Fill / Gradient:
-   - Does the text have a dramatic color shift from top to bottom?
-   - For example: Top line is deep black/dark charcoal, while the bottom line shifts into blood red/crimson. Or top is bright yellow, bottom is deep orange.
-   - Do NOT blend them into a dull average color! Capture the true high-contrast drama!
-   - If plain/solid single color, set is_gradient = false.
+CRITICAL RULES:
+1. Ignore background scenery/artwork. Focus ONLY on the text glyphs!
+2. Fill: Check for vertical gradient (e.g. dark top, vibrant red bottom).
+3. Stroke: Look for a crisp solid border hugging the letters.
+4. Outer Glow: Look for a soft glowing aura around the letters/stroke.
 
-2. Outline vs Glow:
-   - Is it a hard drawn border/stroke, OR a soft glowing halo/aura (Outer Glow) separating the text from the background?
-   - If it is a soft white/colored halo, set outer_glow.enabled = true, and stroke.enabled = false.
-   - Only enable stroke if there is an actual crisp/sharp solid border.
-
-Output ONLY a valid JSON:
+Output ONLY valid JSON:
 {
   "fill": {
     "is_gradient": true/false,
@@ -65,42 +58,47 @@ Output ONLY a valid JSON:
     "enabled": true/false,
     "color_hex": "#FFFFFF",
     "size_px": 5.0,
-    "opacity_percent": 80
+    "opacity_percent": 60
   },
   "drop_shadow": {
-    "enabled": true/false,
+    "enabled": false,
     "color_hex": "#000000",
     "distance_px": 4.0,
     "blur_px": 4.0
   }
 }
 """
-
-def analyze_single_crop(client, image_path):
-    if not os.path.exists(image_path):
-        return None
-
-    try:
-        from google.genai import types
-        img = Image.open(image_path).convert("RGB")
-
         response = client.models.generate_content(
             model="gemini-2.5-flash",
-            contents=[img, VFX_PROMPT],
+            contents=[img, prompt],
             config=types.GenerateContentConfig(
                 response_mime_type="application/json",
                 temperature=0.1
             )
         )
-        return json.loads(response.text)
-    except Exception as e:
-        return {
-            "fill": {"is_gradient": False, "solid_hex": "#000000", "top_hex": "#000000", "bottom_hex": "#000000", "angle": 90},
-            "stroke": {"enabled": False, "color_hex": "#000000", "size_px": 2.0},
-            "outer_glow": {"enabled": False, "color_hex": "#FFFFFF", "size_px": 5.0, "opacity_percent": 80},
-            "drop_shadow": {"enabled": False, "color_hex": "#000000", "distance_px": 4.0, "blur_px": 4.0},
-            "error": str(e)
-        }
+        ai_data = json.loads(response.text)
+        
+        # Neo màu từ CV Core
+        if cv_data["stroke"]["enabled"]:
+            ai_data["stroke"]["enabled"] = True
+            ai_data["stroke"]["color_hex"] = cv_data["stroke"]["color_hex"]
+            if ai_data["stroke"].get("size_px"):
+                ai_data["stroke"]["size_px"] = cv_data["stroke"]["size_px"]
+        
+        if cv_data["fill"]["is_gradient"]:
+            ai_data["fill"]["is_gradient"] = True
+            ai_data["fill"]["top_hex"] = cv_data["fill"]["top_hex"]
+            ai_data["fill"]["bottom_hex"] = cv_data["fill"]["bottom_hex"]
+            
+        if cv_data["outer_glow"]["enabled"]:
+            ai_data["outer_glow"]["enabled"] = True
+            ai_data["outer_glow"]["color_hex"] = cv_data["outer_glow"]["color_hex"]
+            ai_data["outer_glow"]["size_px"] = cv_data["outer_glow"]["size_px"]
+
+        return ai_data
+    except Exception:
+        return cv_data
+
 
 def run_batch(working_dir):
     client = get_gemini_client()
@@ -123,7 +121,8 @@ def run_batch(working_dir):
 
     out_file = os.path.join(working_dir, "batch_result.json")
     with open(out_file, "w", encoding="utf-8") as out:
-        json.dump(results, out, indent=2)
+        json.dump(results, out, indent=2, ensure_ascii=False)
+
 
 if __name__ == "__main__":
     work_dir = os.path.dirname(os.path.abspath(__file__))

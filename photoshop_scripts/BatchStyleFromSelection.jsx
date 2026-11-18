@@ -1,4 +1,4 @@
-/**
+﻿/**
  * BatchStyleFromSelection.jsx - Multi-Select Batch Auto-Style (Gemini Vision)
  * Phím tắt đề xuất: F7
  * Chức năng: Chọn nhiều Text Layer cùng lúc (mỗi cái style khác nhau) -> AI tự động phân tích và áp style riêng cho từng layer!
@@ -15,7 +15,7 @@ function main() {
     var doc = app.activeDocument;
 
     // 1. Tìm Layer 'raw' và 'Group 1'
-    var rawLayer = findLayer(doc, "raw");
+    var rawLayer = findRawLayer(doc);
     var group1 = findLayer(doc, "Group 1");
 
     // 2. LẤY TẤT CẢ CÁC TEXT LAYER ĐƯỢC CHỌN (MULTI-SELECTION)
@@ -27,23 +27,38 @@ function main() {
     }
 
     // 3. Đường dẫn thư mục script
-    var thisFile = new File($.fileName);
-    var scriptFolder = thisFile.parent.fsName;
+    // Ưu tiên thư mục repo do launcher (cài trong Photoshop\Presets\Scripts) truyền vào
+    var scriptFolder = ($.global.AI_TYPESET_DIR) ? new Folder($.global.AI_TYPESET_DIR).fsName : new File($.fileName).parent.fsName;
     var pyPath = scriptFolder + "\\batch_analyzer.py";
     var resultPath = scriptFolder + "\\batch_result.json";
 
     if (!File(pyPath).exists) {
-        scriptFolder = "d:\\Nhung\\RIDI\\trans-assistant\\photoshop_scripts";
-        pyPath = scriptFolder + "\\batch_analyzer.py";
-        resultPath = scriptFolder + "\\batch_result.json";
+        alert("Không tìm thấy batch_analyzer.py tại:\n" + scriptFolder + "\nHãy chạy lại install_to_photoshop.bat.");
+        return;
     }
 
     // Xóa các file crop cũ và kết quả cũ
     cleanOldCropFiles(scriptFolder);
 
-    // 4. TẠM ẨN GROUP 1 & BẬT RAW ĐỂ CẮT CÁC VÙNG ẢNH TƯƠNG ỨNG
+    // 4. TẠM ẨN GROUP 1, CÁC LAYER CLEAN/REDRAW & BẬT RAW ĐỂ CẮT CÁC VÙNG ẢNH TƯƠNG ỨNG
     var prevRawVisible = rawLayer ? rawLayer.visible : true;
     var prevGroup1Visible = group1 ? group1.visible : true;
+
+    var hiddenCleanLayers = [];
+    var cleanKeywords = ["clean", "redraw", "xóa chữ", "sửa nền", "paint", "retouch"];
+    for (var i = 0; i < doc.layers.length; i++) {
+        var lyr = doc.layers[i];
+        if (lyr !== rawLayer && lyr !== group1 && lyr.visible) {
+            var lName = lyr.name.toLowerCase();
+            for (var k = 0; k < cleanKeywords.length; k++) {
+                if (lName.indexOf(cleanKeywords[k]) !== -1) {
+                    lyr.visible = false;
+                    hiddenCleanLayers.push(lyr);
+                    break;
+                }
+            }
+        }
+    }
 
     if (group1) group1.visible = false;
     if (rawLayer) {
@@ -136,6 +151,9 @@ function main() {
     // 8. KHÔI PHỤC HIỂN THỊ VÀ LẦN LƯỢT ÁP STYLE CHO TỪNG LAYER
     if (group1) group1.visible = true;
     if (rawLayer) rawLayer.visible = prevRawVisible;
+    for (var c = 0; c < hiddenCleanLayers.length; c++) {
+        hiddenCleanLayers[c].visible = true;
+    }
 
     var successCount = 0;
     for (var k = 0; k < targetTextLayers.length; k++) {
@@ -231,6 +249,22 @@ function getAllTextLayers(container, list) {
             getAllTextLayers(item, list);
         }
     }
+}
+
+function findRawLayer(doc) {
+    var names = ["raw", "background", "ảnh gốc", "layer 0", "raw_image", "bg", "gốc"];
+    for (var k = 0; k < names.length; k++) {
+        var lyr = findLayer(doc, names[k]);
+        if (lyr) return lyr;
+    }
+    // Lấy layer dưới cùng không phải text và không phải group
+    for (var i = doc.layers.length - 1; i >= 0; i--) {
+        var l = doc.layers[i];
+        if (l.typename === "ArtLayer" && l.kind !== LayerKind.TEXT) {
+            return l;
+        }
+    }
+    return null;
 }
 
 function findLayer(doc, name) {
@@ -375,7 +409,7 @@ function applyExactVFXStyle(data) {
         glowDesc.putEnumerated(stringIDToTypeID("mode"), stringIDToTypeID("blendMode"), stringIDToTypeID("normal"));
         glowDesc.putUnitDouble(stringIDToTypeID("opacity"), stringIDToTypeID("percentUnit"), glowInfo.opacity_percent || 80);
 
-        var gCol = hexToRGB(glowInfo.color_hex || "#FFB300");
+        var gCol = hexToRGB(glowInfo.color_hex || "#FFFFFF");
         var colGlow = new ActionDescriptor();
         colGlow.putDouble(stringIDToTypeID("red"), gCol.red);
         colGlow.putDouble(stringIDToTypeID("green"), gCol.green);
