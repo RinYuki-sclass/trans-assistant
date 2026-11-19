@@ -1,0 +1,14 @@
+[
+  {
+    "index": 0,
+    "success": true,
+    "method": "isolated_bubble_geometry",
+    "target_center_x": 402.5,
+    "target_center_y": 25934.1,
+    "bubble_w": 598,
+    "bubble_h": 470,
+    "raw_font_size": 70,
+    "recommended_font_size": 74,
+    "scale_factor": 1.24
+  }
+]

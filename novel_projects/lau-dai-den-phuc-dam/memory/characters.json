@@ -7,58 +7,146 @@
       "role": "Thụ chính (Niên thượng)",
       "identity": "Thống trị đời thứ 2 của Phục Đàm Hắc Bảo / Hình Vương",
       "pronouns": {
-        "third_person": "hắn (cố định, tuyệt đối không dùng 'y')",
-        "self_early": "ta (khi tức giận/thị uy) / tôi",
-        "address_gong_early": "ngươi (khi tức giận/chửi nhau, cấm dùng 'mày') / cậu",
-        "self_tamed": "anh (khi bị thuần phục, chốt cứng)",
-        "address_gong_tamed": "em (khi bị thuần phục, chốt cứng)"
+        "third_person": "hắn (cố định, tuyệt đối cấm dùng 'y')",
+        "self_stage1": "tôi / ta (khi tức giận/thị uy, cấm dùng 'tao')",
+        "address_gong_stage1": "cậu / ngươi (khi tức giận/đối đầu, cấm dùng 'mày')",
+        "self_stage2": "ta / tôi",
+        "address_gong_stage2": "ngươi / cậu",
+        "self_stage3": "tôi",
+        "address_gong_stage3": "cậu / Phương Kỳ Hằng",
+        "self_stage4": "anh (khi đã yêu đương nồng nhiệt, chốt cứng)",
+        "address_gong_stage4": "em (khi đã yêu đương nồng nhiệt, chốt cứng)"
       },
-      "personality": "Tóc bạc mắt đỏ, diễm lệ, khát máu, bất an, phong phê, bị trói buộc bởi bóng ma quá khứ tàn khốc",
-      "status": "Bị ấn ký thực vật của Phương Kỳ Hằng tác động sâu sắc, căm ghét nhưng lệ thuộc"
+      "personality": "Tóc bạc mắt đỏ, diễm lệ yêu nghiệt, khát máu, phong phê, bất an vì quá khứ bị hãm hại, khao khát được yêu thương",
+      "status": "Thống lĩnh Hắc Bảo; bị ấn ký thực vật của Phương Kỳ Hằng xâm chiếm thể xác và tinh thần"
     },
     {
       "name_cn": "方祈恒",
+      "alias_cn": "言祈恒",
       "name_vi": "Phương Kỳ Hằng",
+      "alias_vi": "Ngôn Kỳ Hằng",
       "role": "Công chính (Niên hạ)",
-      "identity": "Thanh niên biến dị thực vật / Người thuần Đông phương / Sát thủ lạnh lùng",
+      "identity": "Thanh niên biến dị thực vật / Người thuần Đông phương / Chiến thần cận chiến",
       "pronouns": {
-        "third_person": "hắn / anh",
-        "self_early": "tôi / ta (khi đối đầu chửi nhau, cấm dùng 'tao')",
-        "address_shou_early": "anh / ngươi (khi đối đầu chửi nhau, cấm dùng 'mày')",
-        "self_tamed": "em (khi thân mật, dỗ dành)",
-        "address_shou_tamed": "anh (khi thân mật, dỗ dành)"
+        "third_person": "anh / hắn",
+        "self_stage1": "tôi / ta (khi giao tranh chửi nhau, cấm dùng 'tao')",
+        "address_shou_stage1": "anh / ngươi (khi giao tranh chửi nhau, cấm dùng 'mày')",
+        "self_stage2": "tôi / ta (khi áp chế)",
+        "address_shou_stage2": "anh / Kỷ Trần Yến / ngươi",
+        "self_stage3": "tôi (chăm sóc, dỗ dành)",
+        "address_shou_stage3": "anh / A Yến",
+        "self_stage4": "em (khi yêu đương mặn nồng, chốt cứng)",
+        "address_shou_stage4": "anh / A Yến (chốt cứng)"
       },
-      "personality": "Trầm ổn, ít nói, dứt khoát tàn nhẫn khi bị phản bội, thực lực cận chiến đỉnh cao, tính chiếm hữu mạnh mẽ",
-      "status": "Đã gia nhập và vượt qua vòng phỏng vấn bảo an của Phục Đàm Hắc Bảo"
+      "personality": "Trầm ổn, cơ trí, võ lực cận chiến tuyệt đỉnh, chiếm hữu mạnh mẽ, ôn nhu và bảo bọc người yêu",
+      "status": "Đã gia nhập bảo an Hắc Bảo, đặt ấn ký lên Kỷ Trần Yến"
     },
     {
-      "name_cn": "何姐",
-      "name_vi": "Hà tỷ",
+      "name_cn": "何筱",
+      "alias_cn": "何姐",
+      "name_vi": "Hà Tiêu",
+      "alias_vi": "Hà tỷ",
       "role": "Nhân vật phụ",
       "identity": "Đầu nậu môi giới buôn bán suất vào Khu Quy Hoạch và Phục Đàm",
       "pronouns": {
         "third_person": "ả / cô ta / bà ta",
         "self": "chị / tôi",
-        "address_others": "cậu / em"
+        "address_others": "cậu / em / tiểu tử"
       },
-      "personality": "Lẳng lơ, hám lợi, nhát gan nhưng luồn lách giỏi",
-      "status": "Sống sót sau cuộc tập kích hẻm núi nhờ Phương Kỳ Hằng cứu giúp"
+      "personality": "Lẳng lơ, hám lợi, khôn lanh, kính nể kẻ mạnh",
+      "status": "Được Phương Kỳ Hằng cứu mạng tại Hẻm Núi Hoàng Thạch; sau này gặp biến cố cụt tay tại Phố Cẩu Câu"
+    },
+    {
+      "name_cn": "朱戬",
+      "name_vi": "Chu Tiễn",
+      "role": "Đồng đội Đội Hai",
+      "identity": "Lính mới bảo an Đội Hai Hắc Bảo",
+      "pronouns": {
+        "third_person": "cậu ta / hắn",
+        "self": "tôi",
+        "address_others": "huynh đệ / cậu"
+      },
+      "personality": "Da ngăm, đầu đinh, bộc trực, chân thành, hết lòng vì em gái",
+      "status": "Đang làm nhiệm vụ tuần tra cùng Phương Kỳ Hằng tại Phố Cẩu Câu"
+    },
+    {
+      "name_cn": "宋九思",
+      "name_vi": "Tống Cửu Tư",
+      "role": "Đồng minh quan trọng",
+      "identity": "Nữ chiến binh lai, lính mới bảo an Đội Hai Hắc Bảo",
+      "pronouns": {
+        "third_person": "cô / cô ta",
+        "self": "tôi / em",
+        "address_others": "anh Phương / Phương ca / các anh"
+      },
+      "personality": "Mặt búp bê, lanh lợi, cơ trí, quyết đoán",
+      "status": "Đang tuần tra tại Phố Cẩu Câu, sau này hợp tác làm ăn lớn với Phương Kỳ Hằng"
+    },
+    {
+      "name_cn": "祁连",
+      "name_vi": "Kỳ Liên",
+      "role": "Thuộc hạ thân tín của Kỷ Trần Yến",
+      "identity": "Đội trưởng Đội Một an ninh Hắc Bảo",
+      "pronouns": {
+        "third_person": "hắn / gã",
+        "self": "tôi",
+        "address_others": "các người / cậu"
+      },
+      "personality": "Lạnh lùng, nghiêm cẩn, trung thành tuyệt đối với Hắc Bảo",
+      "status": "Chỉ huy Đội Một bảo an Hắc Bảo"
+    },
+    {
+      "name_cn": "宋尽渊",
+      "name_vi": "Tống Tẫn Uyên",
+      "role": "Phản diện chính",
+      "identity": "Nhân vật chóp bu quyền lực của Liên Minh",
+      "pronouns": {
+        "third_person": "gã / lão / hắn",
+        "self": "ta",
+        "address_others": "ngươi / các ngươi"
+      },
+      "personality": "Xảo quyệt, nham hiểm, kẻ thù truyền kiếp của Kỷ Trần Yến",
+      "status": "Đối đầu ngầm với Hắc Bảo, sau này bị tiêu diệt ở Chương 129"
+    },
+    {
+      "name_cn": "褚老",
+      "name_vi": "Chử Lão",
+      "role": "Nguyên lão",
+      "identity": "Trưởng lão uy tín của Phục Đàm Hắc Bảo",
+      "pronouns": {
+        "third_person": "ông / lão nhân gia",
+        "self": "lão phu / tôi",
+        "address_others": "cậu / Kỷ thành chủ"
+      },
+      "personality": "Trầm ổn, nhìn xa trông rộng, bảo vệ sự ổn định của Hắc Bảo",
+      "status": "Cố vấn cấp cao tại Hắc Bảo"
+    },
+    {
+      "name_cn": "贝瑞",
+      "name_vi": "Berry",
+      "role": "Trợ lý AI",
+      "identity": "Robot cơ khí mini bay lơ lửng bên cạnh Kỷ Trần Yến",
+      "pronouns": {
+        "third_person": "nó / Berry",
+        "self": "Berry",
+        "address_others": "chủ nhân / ngài"
+      },
+      "personality": "Trung thành tuyệt đối, giọng điện tử ngộ nghĩnh",
+      "status": "Luôn đồng hành bên cạnh Kỷ Trần Yến"
     },
     {
       "name_cn": "尤雅",
       "name_vi": "Vưu Nhã",
       "role": "Pháo hôi",
-      "identity": "Bạn gái cũ của Phương Kỳ Hằng",
-      "personality": "Tham lam, phản bội, khinh thường xuất thân của Phương Kỳ Hằng",
-      "status": "Đã bị Phương Kỳ Hằng bắn chết tại chỗ ở Chương 2"
+      "identity": "Bạn gái cũ phản bội của Phương Kỳ Hằng",
+      "status": "Đã bị Phương Kỳ Hằng bắn chết ở Chương 2"
     },
     {
       "name_cn": "姚哥",
       "name_vi": "Diêu ca",
       "role": "Pháo hôi",
       "identity": "Tình nhân gian díu với Vưu Nhã",
-      "personality": "Hèn nhát, ham muốn thể xác",
-      "status": "Đã bị Phương Kỳ Hằng tiêu diệt tại chỗ ở Chương 2"
+      "status": "Đã bị Phương Kỳ Hằng bắn chết ở Chương 2"
     }
   ]
 }

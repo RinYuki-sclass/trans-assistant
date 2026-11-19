@@ -4,20 +4,49 @@
     {
       "character_a": "方祈恒 (Phương Kỳ Hằng)",
       "character_b": "纪尘晏 (Kỷ Trần Yến)",
-      "type": "Công - Thụ (Tương ái tương sát -> Chiếm hữu cứu rỗi)",
-      "dynamics": "Gặp nhau bằng những cú đấm và đạn lạc, đánh nhau sứt đầu mẻ trán. Sau khi lưu lại ấn ký biến dị, công dần áp chế và lột bỏ lớp gai góc của thụ, thụ vừa bài xích căm giận vừa lệ thuộc vào hơi ấm của công.",
+      "type": "Công - Thụ (Tương ái tương sát -> Chiếm hữu, Thuần phục & Cứu rỗi)",
+      "dynamics": "Bắt đầu từ những cú đấm và đạn lạc tại hẻm núi. Ấn ký thực vật khiến Kỷ Trần Yến vừa căm hận vừa nghiện hơi ấm của Phương Kỳ Hằng. Qua từng biến cố bắt cóc, bão tuyết, mù lòa và hé lộ thân phận Ngôn Kỳ Hằng, đôi bên trở thành điểm tựa sinh tử không thể tách rời.",
       "dialogue_rules": {
-        "early_stage_conflict": "Chửi nhau xưng 'ta' - gọi 'ngươi' (TUYỆT ĐỐI CẤM 'tao - mày'). Nói chuyện bình thường: Phương Kỳ Hằng xưng 'tôi' - gọi 'anh'; Kỷ Trần Yến xưng 'tôi' - gọi 'cậu'.",
-        "later_stage_tamed": "Kỷ Trần Yến xưng 'anh' - gọi 'em'; Phương Kỳ Hằng xưng 'em' - gọi 'anh' (chuẩn mực niên thượng thụ x niên hạ công)."
+        "stage1_conflict (Ch 001-028)": "Thường ngày: Phương Kỳ Hằng xưng 'tôi' - gọi 'anh'; Kỷ Trần Yến xưng 'tôi' - gọi 'cậu'. Khi đánh nhau/chửi nhau: bắt buộc xưng 'ta' - gọi 'ngươi' (TUYỆT ĐỐI CẤM 'tao - mày').",
+        "stage2_abduction_reveal (Ch 029-076)": "Phương Kỳ Hằng xưng 'tôi' - gọi 'anh'/'Kỷ Trần Yến'; Kỷ Trần Yến xưng 'ta' - gọi 'ngươi' hoặc 'tôi' - 'cậu'.",
+        "stage3_healing_snow (Ch 077-108)": "Phương Kỳ Hằng xưng 'tôi' - gọi 'anh'/'A Yến'; Kỷ Trần Yến xưng 'tôi' - gọi 'cậu'/'Phương Kỳ Hằng'.",
+        "stage4_loving_he (Ch 109-138)": "Phương Kỳ Hằng CHỐT CỨNG xưng 'em' - gọi 'anh'/'A Yến'; Kỷ Trần Yến CHỐT CỨNG xưng 'anh' - gọi 'em'/'Phương Kỳ Hằng'."
       }
     },
     {
       "character_a": "方祈恒 (Phương Kỳ Hằng)",
-      "character_b": "何姐 (Hà tỷ)",
-      "type": "Giao dịch buôn bán -> Tương trợ sinh tồn",
-      "dynamics": "Hà tỷ muốn dụ dỗ thân xác Phương Kỳ Hằng để đổi lấy suất nhập cảnh nhưng bị từ chối; trong trận phục kích hẻm núi Phương Kỳ Hằng ra tay cứu mạng khiến Hà tỷ nể phục.",
+      "character_b": "何筱 (Hà Tiêu)",
+      "type": "Cứu mạng -> Đối tác tình báo Phố Cẩu Câu",
+      "dynamics": "Hà Tiêu kính nể võ lực của Phương Kỳ Hằng, cung cấp thông tin ngầm.",
       "dialogue_rules": {
-        "standard": "Phương Kỳ Hằng xưng 'tôi' - gọi 'Hà tỷ / chị'; Hà tỷ xưng 'chị / tôi' - gọi 'cậu / em'."
+        "standard": "Phương Kỳ Hằng xưng 'tôi' - gọi 'Hà tỷ / chị'; Hà Tiêu xưng 'chị / tôi' - gọi 'cậu / em'."
+      }
+    },
+    {
+      "character_a": "方祈恒 (Phương Kỳ Hằng)",
+      "character_b": "宋九思 (Tống Cửu Tư)",
+      "type": "Đồng đội bảo an -> Đối tác kinh doanh lương thực",
+      "dynamics": "Hợp tác tin cậy, thông minh phối hợp ăn ý.",
+      "dialogue_rules": {
+        "standard": "Phương Kỳ Hằng xưng 'tôi' - gọi 'cô'; Tống Cửu Tư xưng 'tôi / em' - gọi 'anh Phương / Phương ca'."
+      }
+    },
+    {
+      "character_a": "方祈恒 (Phương Kỳ Hằng)",
+      "character_b": "朱戬 (Chu Tiễn)",
+      "type": "Huynh đệ bảo an chí cốt",
+      "dynamics": "Tình anh em giản dị chân thành nơi đáy xã hội.",
+      "dialogue_rules": {
+        "standard": "Hai bên xưng 'tôi' - gọi 'cậu / huynh đệ'."
+      }
+    },
+    {
+      "character_a": "纪尘晏 (Kỷ Trần Yến)",
+      "character_b": "祁连 (Kỳ Liên)",
+      "type": "Thủ lĩnh - Thuộc hạ thân tín",
+      "dynamics": "Kỷ Trần Yến mệnh lệnh tối cao; Kỳ Liên phục tùng tuyệt đối.",
+      "dialogue_rules": {
+        "standard": "Kỷ Trần Yến xưng 'ta' - gọi 'ngươi / Kỳ Liên'; Kỳ Liên xưng 'thuộc hạ / tôi' - gọi 'Thành chủ / ngài'."
       }
     }
   ]

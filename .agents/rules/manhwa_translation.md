@@ -46,7 +46,9 @@
   - YR ↔ Sung Hyunjae (HJ): Cháu – Chú (*chú Hội trưởng / ngài Hội trưởng*).
 - **Song Taewon (TW) ↔ Han Yoojin (YJ):** Tôi – Cậu (TW gọi YJ: *Han Yoojin-ssi*) & Tôi – Anh (YJ gọi TW).
 - **Yoo Myungwoo (YMW):** Độc thoại tự xưng "Tôi".
-- **Shishio (Amaterasu):** Gọi nhóm Yoojin là **“các cậu”** (TUYỆT ĐỐI KHÔNG dùng *"các ngươi"*).
+- **Shishio (Amaterasu):**
+  - Gọi nhóm Yoojin là **“các cậu”** (TUYỆT ĐỐI KHÔNG dùng *"các ngươi"*).
+  - Cấp dưới thuộc hạ (Iwahata Gakuto, Quân sư...) gọi Shishio: **“Shishio đại nhân”** (`시시오 님` -> **Shishio đại nhân**, không dùng "ngài Shishio" hay "Shishio-sama").
 
 ## 6. Quy chuẩn Thứ tự Text nhỏ & Ngữ điệu Đối thoại Manhwa
 - **Thứ tự Text nhỏ / Viết tay (Floating & Handwritten Texts):**

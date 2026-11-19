@@ -22,7 +22,7 @@ if (-not $isAdmin) {
 }
 
 Write-Host "=====================================================================" -ForegroundColor Cyan
-Write-Host "    CÀI ĐẶT BỘ TOOL PHOTOSHOP AI TYPESET (F6: Đơn lẻ | F7: Multi-Batch)" -ForegroundColor Yellow
+Write-Host "  CÀI ĐẶT BỘ TOOL PHOTOSHOP AI TYPESET (F6: Đơn lẻ | F7: Style Batch | F8: Canh giữa & Fit)" -ForegroundColor Yellow
 Write-Host "=====================================================================" -ForegroundColor Cyan
 Write-Host ""
 
@@ -31,10 +31,10 @@ $scriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path
 $jsDir = ($scriptDir -replace '\\', '/')
 
 # Chỉ cài LAUNCHER (.jsx nhỏ) vào Photoshop. Script thật, file .py, file tạm
-# và .env vẫn nằm ở repo (thư mục ghi được) => không lỗi quyền khi chạy F6/F7.
-$launchers = @("AutoStyleFromSelection.jsx", "BatchStyleFromSelection.jsx")
+# và .env vẫn nằm ở repo (thư mục ghi được) => không lỗi quyền khi chạy F6/F7/F8.
+$launchers = @("AutoStyleFromSelection.jsx", "BatchStyleFromSelection.jsx", "BatchAutoCenterAndFit.jsx")
 # File cũ (bản cài trước copy thẳng vào Photoshop) cần dọn
-$legacyFiles = @("style_analyzer.py", "batch_analyzer.py", "temp_crop.png", "style_result.json", "batch_result.json")
+$legacyFiles = @("style_analyzer.py", "batch_analyzer.py", "layout_analyzer.py", "temp_crop.png", "style_result.json", "batch_result.json", "layout_inputs.json", "layout_results.json")
 
 foreach ($l in $launchers) {
     if (-not (Test-Path (Join-Path $scriptDir $l))) {

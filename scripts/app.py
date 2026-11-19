@@ -2154,8 +2154,9 @@ if tabs.is_active(5):
                     cr_ref, cr1, cr2 = st.columns([1.2, 1, 1])
                     with cr_ref:
                         if st.button("🔄 Nạp lại", use_container_width=True, key=f"btn_refresh_top_bar_{sess_choice}", help="Nạp lại text từ file script.txt trên ổ đĩa (trong trường hợp vừa sửa thẳng trong code)"):
+                            st.session_state[f'_mh_ver_{sess_choice}'] = st.session_state.get(f'_mh_ver_{sess_choice}', 0) + 1
                             for k in list(st.session_state.keys()):
-                                if k.startswith(f"mh_edit_{sess_choice}_") or k == f"mh_raw_edit_{sess_choice}":
+                                if k.startswith(f"mh_edit_{sess_choice}_") or k.startswith(f"mh_raw_edit_{sess_choice}"):
                                     del st.session_state[k]
                             st.session_state[f'_mh_refreshed_{sess_choice}'] = True
                             st.rerun()
@@ -2512,8 +2513,9 @@ if tabs.is_active(5):
                         st.caption(f"🕒 File `script.txt` cập nhật lần cuối: **{script_mtime_str}**")
                 with col_ref_btn:
                     if st.button("🔄 Nạp lại text (Refresh)", key=f"btn_refresh_header_{sess_choice}", use_container_width=True, help="Tải lại toàn bộ kịch bản từ file script.txt trên ổ đĩa (trong trường hợp vừa sửa trực tiếp trong code/file)."):
+                        st.session_state[f'_mh_ver_{sess_choice}'] = st.session_state.get(f'_mh_ver_{sess_choice}', 0) + 1
                         for k in list(st.session_state.keys()):
-                            if k.startswith(f"mh_edit_{sess_choice}_") or k == f"mh_raw_edit_{sess_choice}":
+                            if k.startswith(f"mh_edit_{sess_choice}_") or k.startswith(f"mh_raw_edit_{sess_choice}"):
                                 del st.session_state[k]
                         st.session_state[f'_mh_refreshed_{sess_choice}'] = True
                         st.rerun()
@@ -2663,7 +2665,8 @@ if tabs.is_active(5):
                             st.markdown('<div class="sticky-anchor"></div>', unsafe_allow_html=True)
                             current_val = parsed_data.get(img_name, "")
                             st.markdown('<style>textarea[aria-label="Bản dịch:"] { font-size: 26px !important; line-height: 1.5 !important; }</style>', unsafe_allow_html=True)
-                            input_val = st.text_area("Bản dịch:", current_val, height=500, key=f"mh_edit_{sess_choice}_{img_name}")
+                            ver = st.session_state.get(f'_mh_ver_{sess_choice}', 0)
+                            input_val = st.text_area("Bản dịch:", current_val, height=500, key=f"mh_edit_{sess_choice}_{img_name}_v{ver}")
                             new_parsed_data[img_name] = input_val
                         st.divider()
 
@@ -2696,8 +2699,9 @@ if tabs.is_active(5):
 
                     with col_ref:
                         if st.button("🔄 Nạp lại từ file", use_container_width=True, key=f"mh_ref_bottom_{sess_choice}", help="Hủy các sửa đổi trên web chưa lưu và nạp lại text mới nhất từ file script.txt"):
+                            st.session_state[f'_mh_ver_{sess_choice}'] = st.session_state.get(f'_mh_ver_{sess_choice}', 0) + 1
                             for k in list(st.session_state.keys()):
-                                if k.startswith(f"mh_edit_{sess_choice}_") or k == f"mh_raw_edit_{sess_choice}":
+                                if k.startswith(f"mh_edit_{sess_choice}_") or k.startswith(f"mh_raw_edit_{sess_choice}"):
                                     del st.session_state[k]
                             st.session_state[f'_mh_refreshed_{sess_choice}'] = True
                             st.rerun()
@@ -2771,7 +2775,8 @@ if tabs.is_active(5):
 
                 else:
                     st.info("Chưa có danh sách ảnh nào được ghi nhận cho Lịch sử này.")
-                    mh_raw_edit = st.text_area("Nội dung kịch bản:", mh_content, height=600, key=f"mh_raw_edit_{sess_choice}")
+                    ver = st.session_state.get(f'_mh_ver_{sess_choice}', 0)
+                    mh_raw_edit = st.text_area("Nội dung kịch bản:", mh_content, height=600, key=f"mh_raw_edit_{sess_choice}_v{ver}")
                     c_raw_save, c_raw_ref = st.columns([1, 1])
                     with c_raw_save:
                         if st.button("💾 Lưu thay đổi", type="primary", key="mh_raw_save", use_container_width=True):

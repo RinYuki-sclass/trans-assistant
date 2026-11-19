@@ -28,9 +28,9 @@
   "confidence_threshold": 0.8,
   "chunk_size": 20,
   "created_at": "2026-11-19T00:18:00",
-  "chapters_count": 10,
-  "translated_count": 10,
-  "total_words_vi": 22105,
+  "chapters_count": 138,
+  "translated_count": 65,
+  "total_words_vi": 188940,
   "is_completed": false,
   "is_dropped": false
 }

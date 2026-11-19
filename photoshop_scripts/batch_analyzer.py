@@ -122,7 +122,8 @@ def run_batch(working_dir):
         return
 
     results = {}
-    with ThreadPoolExecutor(max_workers=5) as executor:
+    max_workers = min(12, max(4, (os.cpu_count() or 4) * 2), len(crop_files))
+    with ThreadPoolExecutor(max_workers=max_workers) as executor:
         future_to_file = {executor.submit(analyze_single_crop, client, f): f for f in crop_files}
         for future in future_to_file:
             f = future_to_file[future]

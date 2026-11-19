@@ -14,7 +14,11 @@ function main() {
 
     var doc = app.activeDocument;
 
-    // 1. Tìm Layer 'raw' và 'Group 1'
+    var origDialogMode = app.displayDialogs;
+    app.displayDialogs = DialogModes.NO;
+
+    try {
+        // 1. Tìm Layer 'raw' và 'Group 1'
     var rawLayer = findRawLayer(doc);
     var group1 = findLayer(doc, "Group 1");
 
@@ -100,26 +104,35 @@ function main() {
         ];
         doc.selection.select(selRegion);
 
+        // Tối ưu trang dài: Copy trực tiếp trên rawLayer, không chạy compositing toàn trang
         try {
-            doc.selection.copy(true); // Copy merged
-        } catch (e) {
             doc.selection.copy();
+        } catch (e) {
+            try { doc.selection.copy(true); } catch (e2) {}
         }
 
-        // Tạo temp document và lưu PNG
-        var tempDoc = app.documents.add(cw, ch, doc.resolution, "TempBatchCrop", NewDocumentMode.RGB, DocumentFill.TRANSPARENT);
+        // Tạo temp document ở 72 DPI cố định và lưu PNG không nén để xuất siêu tốc
+        var tempDoc = app.documents.add(cw, ch, 72, "TempBatchCrop", NewDocumentMode.RGB, DocumentFill.TRANSPARENT);
         tempDoc.paste();
         var cropName = "crop_" + i + ".png";
         var cropFilePath = scriptFolder + "\\" + cropName;
         var cropFile = new File(cropFilePath);
         var pngSaveOpts = new PNGSaveOptions();
+        pngSaveOpts.compression = 0;
+        pngSaveOpts.interlaced = false;
         tempDoc.saveAs(cropFile, pngSaveOpts, true, Extension.LOWERCASE);
         tempDoc.close(SaveOptions.DONOTSAVECHANGES);
 
         app.activeDocument = doc;
+
+        // Dọn dẹp cache clipboard mỗi 10 layer để chống tràn RAM trên trang dài
+        if ((i + 1) % 10 === 0) {
+            try { app.purge(PurgeTarget.CLIPBOARDCACHE); } catch (e) {}
+        }
     }
 
     try { doc.selection.deselect(); } catch (e) {}
+    try { app.purge(PurgeTarget.CLIPBOARDCACHE); } catch (e) {}
 
     // 6. GỌI PYTHON BATCH AI ENGINE PHÂN TÍCH SONG SONG
     var cmd = 'cmd /c python "' + pyPath + '" "' + scriptFolder + '"';
@@ -181,6 +194,9 @@ function main() {
     }
 
     alert("Tuyệt vời! Đã hoàn thành phân tích và áp style riêng biệt cho " + successCount + " Text Layer!");
+    } finally {
+        app.displayDialogs = origDialogMode;
+    }
 }
 
 function cleanOldCropFiles(folderPath) {

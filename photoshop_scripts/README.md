@@ -12,9 +12,11 @@ photoshop_scripts/
 ├── install_to_photoshop.bat     # File cài đặt tự động 1-click cho Windows
 ├── install.ps1                  # Script PowerShell quét và copy file vào Photoshop
 ├── AutoStyleFromSelection.jsx   # Script gán phím F6: Xử lý 1 chữ/khung thoại đơn lẻ
-├── BatchStyleFromSelection.jsx  # Script gán phím F7: Xử lý Multi-Select hàng loạt layer
+├── BatchStyleFromSelection.jsx  # Script gán phím F7: Xử lý Multi-Select Style hàng loạt layer
+├── BatchAutoCenterAndFit.jsx    # Script gán phím F8: Tự động canh giữa & fit Font Size theo raw
 ├── style_analyzer.py            # AI Engine phân tích đơn lẻ (F6)
 ├── batch_analyzer.py            # AI Engine phân tích hàng loạt song song (F7)
+├── layout_analyzer.py           # Gemini Vision AI Engine nhận diện bóng thoại & tính tâm/cỡ chữ (F8)
 └── README.md                    # Hướng dẫn cài đặt và sử dụng
 ```
 
@@ -59,7 +61,7 @@ Dán vào thư mục Scripts của Photoshop:
 
 ---
 
-## ⌨️ 4. Gán phím tắt F6 và F7 trong Photoshop (Chỉ làm 1 lần)
+## ⌨️ 4. Gán phím tắt F6, F7 và F8 trong Photoshop (Chỉ làm 1 lần)
 
 1. **Khởi động lại Photoshop** (để Photoshop nạp các script mới).
 2. Nhấn tổ hợp phím: **`Ctrl + Alt + Shift + K`** (Keyboard Shortcuts).
@@ -67,6 +69,7 @@ Dán vào thư mục Scripts của Photoshop:
 4. Mở rộng mục **File** $\rightarrow$ mở rộng tiếp mục **Scripts**:
    * Tìm dòng **`AutoStyleFromSelection`** $\rightarrow$ Bấm phím **`F6`** $\rightarrow$ Bấm **Accept**.
    * Tìm dòng **`BatchStyleFromSelection`** $\rightarrow$ Bấm phím **`F7`** $\rightarrow$ Bấm **Accept**.
+   * Tìm dòng **`BatchAutoCenterAndFit`** $\rightarrow$ Bấm phím **`F8`** $\rightarrow$ Bấm **Accept**.
 5. Nhấn **OK** để lưu lại.
 
 ---
@@ -101,6 +104,18 @@ Dán vào thư mục Scripts của Photoshop:
      - Script tự động đo vị trí từng câu tiếng Việt $\rightarrow$ Tự soi xuống bản raw bên dưới.
      - AI Vision chạy đa luồng phân tích song song toàn bộ các vùng crop.
      - Tự động áp riêng biệt từng style tương ứng vào từng layer!
+
+### 📌 Phím `F8`: Tự động Canh Giữa & Fit Cỡ Chữ (Batch Auto-Center & Fit)
+* **Khi nào dùng?** Sau khi bạn gõ xong các câu thoại tiếng Việt, câu thì quá dài tràn bóng thoại, câu thì bị lệch khỏi tâm bóng thoại, cần căn giữa và thu phóng vừa vặn toàn bộ.
+* **Thao tác**:
+  1. Trên bảng Layers, bạn **giữ phím `Ctrl` click chọn nhiều Text Layer** (hoặc chọn thẳng cả thư mục `Group 1`).
+  2. Bấm **`F8`**:
+     - Script tự động đo vị trí và chụp vùng bóng thoại trên layer `raw` bên dưới.
+     - **Gemini Vision AI Engine** trực tiếp soi tranh, phán đoán chính xác tâm thị giác đối xứng (Center X, Y) và nhận diện các bóng thoại kép/liên hoàn.
+     - Tự động:
+       1. Set **Center Justification** (căn giữa từng dòng).
+       2. Tự điều chỉnh **Font Size** chuẩn tỷ lệ vàng theo chữ Raw của tác giả.
+       3. Tự động **dịch chuyển Text Layer** về khớp 100% tâm bóng thoại!
 
 ---
 
