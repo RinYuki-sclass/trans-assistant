@@ -1,8 +1,8 @@
 {
   "project": "lau-dai-den-phuc-dam",
   "total_chapters": 138,
-  "translated_chapters": 65,
-  "qc_passed_chapters": 65,
+  "translated_chapters": 85,
+  "qc_passed_chapters": 85,
   "chapters": [
     {
       "id": "ch_001",
@@ -790,11 +790,11 @@
       "title_cn": "第066章 标记复苏",
       "title_vi": "Chương 066: Ấn Ký Hồi Sinh",
       "source_exists": true,
-      "translation_exists": false,
-      "qc_exists": false,
-      "paragraphs": 94,
-      "words": 0,
-      "status": "RAW_READY"
+      "translation_exists": true,
+      "qc_exists": true,
+      "paragraphs": 95,
+      "words": 2930,
+      "status": "QC_PASSED"
     },
     {
       "id": "ch_067",
@@ -802,11 +802,11 @@
       "title_cn": "第067章 待嫁新娘",
       "title_vi": "Chương 067: Cô Dâu Chờ Gả",
       "source_exists": true,
-      "translation_exists": false,
-      "qc_exists": false,
-      "paragraphs": 109,
-      "words": 0,
-      "status": "RAW_READY"
+      "translation_exists": true,
+      "qc_exists": true,
+      "paragraphs": 110,
+      "words": 3827,
+      "status": "QC_PASSED"
     },
     {
       "id": "ch_068",
@@ -814,11 +814,11 @@
       "title_cn": "第068章 消失的新娘",
       "title_vi": "Chương 068: Tân Nương Biến Mất",
       "source_exists": true,
-      "translation_exists": false,
-      "qc_exists": false,
-      "paragraphs": 91,
-      "words": 0,
-      "status": "RAW_READY"
+      "translation_exists": true,
+      "qc_exists": true,
+      "paragraphs": 92,
+      "words": 3106,
+      "status": "QC_PASSED"
     },
     {
       "id": "ch_069",
@@ -826,11 +826,11 @@
       "title_cn": "第069章 峡谷轮番轰炸",
       "title_vi": "Chương 069: Oanh Tạc Hẻm Núi Dồn Dập",
       "source_exists": true,
-      "translation_exists": false,
-      "qc_exists": false,
-      "paragraphs": 97,
-      "words": 0,
-      "status": "RAW_READY"
+      "translation_exists": true,
+      "qc_exists": true,
+      "paragraphs": 98,
+      "words": 3083,
+      "status": "QC_PASSED"
     },
     {
       "id": "ch_070",
@@ -838,11 +838,11 @@
       "title_cn": "第070章 纪尘晏发狂",
       "title_vi": "Chương 070: Kỷ Trần Yến Phát Điên",
       "source_exists": true,
-      "translation_exists": false,
-      "qc_exists": false,
-      "paragraphs": 121,
-      "words": 0,
-      "status": "RAW_READY"
+      "translation_exists": true,
+      "qc_exists": true,
+      "paragraphs": 122,
+      "words": 3986,
+      "status": "QC_PASSED"
     },
     {
       "id": "ch_071",
@@ -850,11 +850,11 @@
       "title_cn": "第071章 辐射风暴",
       "title_vi": "Chương 071: Bão Phóng Xạ",
       "source_exists": true,
-      "translation_exists": false,
-      "qc_exists": false,
-      "paragraphs": 110,
-      "words": 0,
-      "status": "RAW_READY"
+      "translation_exists": true,
+      "qc_exists": true,
+      "paragraphs": 111,
+      "words": 3921,
+      "status": "QC_PASSED"
     },
     {
       "id": "ch_072",
@@ -862,11 +862,11 @@
       "title_cn": "第072章 抓住他了",
       "title_vi": "Chương 072: Đã Bắt Được Hắn",
       "source_exists": true,
-      "translation_exists": false,
-      "qc_exists": false,
-      "paragraphs": 141,
-      "words": 0,
-      "status": "RAW_READY"
+      "translation_exists": true,
+      "qc_exists": true,
+      "paragraphs": 142,
+      "words": 3762,
+      "status": "QC_PASSED"
     },
     {
       "id": "ch_073",
@@ -874,11 +874,11 @@
       "title_cn": "第073章 基因编辑",
       "title_vi": "Chương 073: Chỉnh Sửa Gen",
       "source_exists": true,
-      "translation_exists": false,
-      "qc_exists": false,
-      "paragraphs": 98,
-      "words": 0,
-      "status": "RAW_READY"
+      "translation_exists": true,
+      "qc_exists": true,
+      "paragraphs": 99,
+      "words": 3389,
+      "status": "QC_PASSED"
     },
     {
       "id": "ch_074",
@@ -886,11 +886,11 @@
       "title_cn": "第074章 标记根源",
       "title_vi": "Chương 074: Nguồn Cội Ấn Ký",
       "source_exists": true,
-      "translation_exists": false,
-      "qc_exists": false,
-      "paragraphs": 115,
-      "words": 0,
-      "status": "RAW_READY"
+      "translation_exists": true,
+      "qc_exists": true,
+      "paragraphs": 116,
+      "words": 3973,
+      "status": "QC_PASSED"
     },
     {
       "id": "ch_075",
@@ -898,11 +898,11 @@
       "title_cn": "第075章 十指紧扣",
       "title_vi": "Chương 075: Mười Ngón Đan Xen",
       "source_exists": true,
-      "translation_exists": false,
-      "qc_exists": false,
-      "paragraphs": 78,
-      "words": 0,
-      "status": "RAW_READY"
+      "translation_exists": true,
+      "qc_exists": true,
+      "paragraphs": 79,
+      "words": 3032,
+      "status": "QC_PASSED"
     },
     {
       "id": "ch_076",
@@ -910,11 +910,11 @@
       "title_cn": "第076章 方祈恒是言祈恒",
       "title_vi": "Chương 076: Phương Kỳ Hằng Chính Là Ngôn Kỳ Hằng",
       "source_exists": true,
-      "translation_exists": false,
-      "qc_exists": false,
-      "paragraphs": 110,
-      "words": 0,
-      "status": "RAW_READY"
+      "translation_exists": true,
+      "qc_exists": true,
+      "paragraphs": 111,
+      "words": 3788,
+      "status": "QC_PASSED"
     },
     {
       "id": "ch_077",
@@ -922,11 +922,11 @@
       "title_cn": "第077章 驿站休息",
       "title_vi": "Chương 077: Nghỉ Ngơi Tại Trạm Dừng",
       "source_exists": true,
-      "translation_exists": false,
-      "qc_exists": false,
-      "paragraphs": 116,
-      "words": 0,
-      "status": "RAW_READY"
+      "translation_exists": true,
+      "qc_exists": true,
+      "paragraphs": 117,
+      "words": 3996,
+      "status": "QC_PASSED"
     },
     {
       "id": "ch_078",
@@ -934,11 +934,11 @@
       "title_cn": "第078章 冬夜滚雪",
       "title_vi": "Chương 078: Đêm Đông Lăn Tuyết",
       "source_exists": true,
-      "translation_exists": false,
-      "qc_exists": false,
-      "paragraphs": 106,
-      "words": 0,
-      "status": "RAW_READY"
+      "translation_exists": true,
+      "qc_exists": true,
+      "paragraphs": 107,
+      "words": 3953,
+      "status": "QC_PASSED"
     },
     {
       "id": "ch_079",
@@ -946,11 +946,11 @@
       "title_cn": "第079章 色利熏心",
       "title_vi": "Chương 079: Lòng Tham Mờ Mắt",
       "source_exists": true,
-      "translation_exists": false,
-      "qc_exists": false,
-      "paragraphs": 104,
-      "words": 0,
-      "status": "RAW_READY"
+      "translation_exists": true,
+      "qc_exists": true,
+      "paragraphs": 105,
+      "words": 3345,
+      "status": "QC_PASSED"
     },
     {
       "id": "ch_080",
@@ -958,11 +958,11 @@
       "title_cn": "第080章 同床共枕",
       "title_vi": "Chương 080: Chung Chăn Chung Gối",
       "source_exists": true,
-      "translation_exists": false,
-      "qc_exists": false,
-      "paragraphs": 105,
-      "words": 0,
-      "status": "RAW_READY"
+      "translation_exists": true,
+      "qc_exists": true,
+      "paragraphs": 106,
+      "words": 3644,
+      "status": "QC_PASSED"
     },
     {
       "id": "ch_081",
@@ -970,11 +970,11 @@
       "title_cn": "第081章 习惯被伺候",
       "title_vi": "Chương 081: Thói Quen Được Hầu Hạ",
       "source_exists": true,
-      "translation_exists": false,
-      "qc_exists": false,
-      "paragraphs": 86,
-      "words": 0,
-      "status": "RAW_READY"
+      "translation_exists": true,
+      "qc_exists": true,
+      "paragraphs": 87,
+      "words": 3246,
+      "status": "QC_PASSED"
     },
     {
       "id": "ch_082",
@@ -982,11 +982,11 @@
       "title_cn": "第082章 生病发热",
       "title_vi": "Chương 082: Nhiễm Bệnh Phát Sốt",
       "source_exists": true,
-      "translation_exists": false,
-      "qc_exists": false,
-      "paragraphs": 92,
-      "words": 0,
-      "status": "RAW_READY"
+      "translation_exists": true,
+      "qc_exists": true,
+      "paragraphs": 93,
+      "words": 3682,
+      "status": "QC_PASSED"
     },
     {
       "id": "ch_083",
@@ -994,11 +994,11 @@
       "title_cn": "第083章 驿站看病",
       "title_vi": "Chương 083: Khám Bệnh Trạm Dừng",
       "source_exists": true,
-      "translation_exists": false,
-      "qc_exists": false,
-      "paragraphs": 106,
-      "words": 0,
-      "status": "RAW_READY"
+      "translation_exists": true,
+      "qc_exists": true,
+      "paragraphs": 107,
+      "words": 3840,
+      "status": "QC_PASSED"
     },
     {
       "id": "ch_084",
@@ -1006,11 +1006,11 @@
       "title_cn": "第084章 喜欢的颜色",
       "title_vi": "Chương 084: Màu Sắc Ưa Thích",
       "source_exists": true,
-      "translation_exists": false,
-      "qc_exists": false,
-      "paragraphs": 102,
-      "words": 0,
-      "status": "RAW_READY"
+      "translation_exists": true,
+      "qc_exists": true,
+      "paragraphs": 103,
+      "words": 2869,
+      "status": "QC_PASSED"
     },
     {
       "id": "ch_085",
@@ -1018,11 +1018,11 @@
       "title_cn": "第085章 打开了新世界",
       "title_vi": "Chương 085: Mở Ra Thế Giới Mới",
       "source_exists": true,
-      "translation_exists": false,
-      "qc_exists": false,
-      "paragraphs": 107,
-      "words": 0,
-      "status": "RAW_READY"
+      "translation_exists": true,
+      "qc_exists": true,
+      "paragraphs": 108,
+      "words": 3090,
+      "status": "QC_PASSED"
     },
     {
       "id": "ch_086",

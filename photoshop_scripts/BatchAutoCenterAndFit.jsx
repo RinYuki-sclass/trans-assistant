@@ -43,25 +43,46 @@ function main() {
         // Dọn dẹp các file crop cũ
         cleanOldLayoutFiles(scriptFolder);
 
-        // 4. TẠM ẨN GROUP 1 & LAYER CLEAN, BẬT LAYER RAW ĐỂ CHỤP VÙNG THOẠI GỐC
+        // 4. TẠM ẨN TOÀN BỘ CÁC TEXT LAYER & LAYER CLEAN ĐỂ CHỤP VÙNG THOẠI RAW SẠCH 100%
         var prevRawVisible = rawLayer ? rawLayer.visible : true;
         var prevGroup1Visible = group1 ? group1.visible : true;
 
-        var hiddenCleanLayers = [];
+        var hiddenLayers = [];
         var cleanKeywords = ["clean", "redraw", "xóa chữ", "sửa nền", "paint", "retouch"];
-        for (var i = 0; i < doc.layers.length; i++) {
-            var lyr = doc.layers[i];
-            if (lyr !== rawLayer && lyr !== group1 && lyr.visible) {
-                var lName = lyr.name.toLowerCase();
-                for (var k = 0; k < cleanKeywords.length; k++) {
-                    if (lName.indexOf(cleanKeywords[k]) !== -1) {
+
+        // Ẩn tất cả text layer đã chọn để không bao giờ bị chụp dính chữ tiếng Việt vào ảnh crop
+        for (var t = 0; t < targetTextLayers.length; t++) {
+            if (targetTextLayers[t].visible) {
+                targetTextLayers[t].visible = false;
+                hiddenLayers.push(targetTextLayers[t]);
+            }
+        }
+
+        // Đệ quy ẩn tất cả các Text Layer khác và Clean layer trong document
+        function hideAllTextAndClean(container) {
+            for (var i = 0; i < container.layers.length; i++) {
+                var lyr = container.layers[i];
+                if (lyr === rawLayer) continue;
+                if (lyr.typename === "ArtLayer") {
+                    if (lyr.kind === LayerKind.TEXT && lyr.visible) {
                         lyr.visible = false;
-                        hiddenCleanLayers.push(lyr);
-                        break;
+                        hiddenLayers.push(lyr);
+                    } else if (lyr.visible) {
+                        var lName = lyr.name.toLowerCase();
+                        for (var k = 0; k < cleanKeywords.length; k++) {
+                            if (lName.indexOf(cleanKeywords[k]) !== -1) {
+                                lyr.visible = false;
+                                hiddenLayers.push(lyr);
+                                break;
+                            }
+                        }
                     }
+                } else if (lyr.typename === "LayerSet") {
+                    hideAllTextAndClean(lyr);
                 }
             }
         }
+        hideAllTextAndClean(doc);
 
         if (group1) group1.visible = false;
         if (rawLayer) {
@@ -92,10 +113,10 @@ function main() {
             var lh = ly2 - ly1;
 
             // Mở rộng viền xung quanh để chụp trọn vẹn 100% bóng thoại (tránh bị cắt cụt đầu/đáy)
-            var padX = Math.round(Math.max(lw * 0.6, 120));
-            var padY = Math.round(Math.max(lh * 1.2, 160));
-            if (padX > 280) padX = 280;
-            if (padY > 300) padY = 300;
+            var padX = Math.round(Math.max(lw * 0.7, 160));
+            var padY = Math.round(Math.max(lh * 1.3, 180));
+            if (padX > 550) padX = 550;
+            if (padY > 550) padY = 550;
 
             var cropX1 = Math.max(0, lx1 - padX);
             var cropY1 = Math.max(0, ly1 - padY);
@@ -137,6 +158,9 @@ function main() {
             var curSize = 20.0;
             try { curSize = lyr.textItem.size.as('px'); } catch (e) {}
 
+            var curContents = "";
+            try { curContents = lyr.textItem.contents; } catch (e) {}
+
             inputItems.push({
                 index: i,
                 crop_file: cropName,
@@ -146,6 +170,7 @@ function main() {
                 crop_h: ch,
                 text_bounds: [lx1, ly1, lx2, ly2],
                 text_size: curSize,
+                text_content: curContents,
                 current_w: lw,
                 current_h: lh
             });
@@ -197,8 +222,8 @@ function main() {
         // 8. KHÔI PHỤC HIỂN THỊ VÀ CĂN CHỈNH TỪNG TEXT LAYER
         if (group1) group1.visible = true;
         if (rawLayer) rawLayer.visible = prevRawVisible;
-        for (var c = 0; c < hiddenCleanLayers.length; c++) {
-            hiddenCleanLayers[c].visible = true;
+        for (var c = 0; c < hiddenLayers.length; c++) {
+            hiddenLayers[c].visible = true;
         }
 
         var successCount = 0;
@@ -211,12 +236,23 @@ function main() {
 
                 var tItem = targetLyr.textItem;
 
-                // Bật căn giữa từng dòng văn bản (Center Justification)
+                // 0. BẮT BUỘC: Chuyển layer sang POINT TEXT nếu đang là PARAGRAPH TEXT (Area Text)
+                // Giúp triệt tiêu vĩnh viễn lỗi bị bounding box paragraph ép ngắt dòng bừa bãi và lỗi mất chữ cuối
+                convertToPointText(targetLyr);
+
+                // 1. Cập nhật ngắt dòng mới theo form quả trứng (Egg/Oval Typeset Wrap)
+                if (res.reformatted_text && typeof res.reformatted_text === "string" && res.reformatted_text.length > 0) {
+                    try {
+                        tItem.contents = res.reformatted_text;
+                    } catch (e) {}
+                }
+
+                // 2. Bật căn giữa từng dòng văn bản (Center Justification)
                 try {
                     tItem.justification = Justification.CENTER;
                 } catch (e) {}
 
-                // Cập nhật cỡ chữ mới (Auto-fit font size, tự động làm tròn lên thành số nguyên)
+                // 3. Cập nhật cỡ chữ mới (Auto-fit font size, tự động làm tròn lên thành số nguyên)
                 if (res.recommended_font_size && res.recommended_font_size > 6) {
                     try {
                         var finalFontSize = Math.ceil(Number(res.recommended_font_size));
@@ -224,10 +260,10 @@ function main() {
                     } catch (e) {}
                 }
 
-                // Đo lại toạ độ sau khi đổi size & justification để dịch chuyển vào tâm đích
-                var updatedBounds = targetLyr.bounds;
-                var curCenterX = (updatedBounds[0].as('px') + updatedBounds[2].as('px')) / 2.0;
-                var curCenterY = (updatedBounds[1].as('px') + updatedBounds[3].as('px')) / 2.0;
+                // 4. Đo lại toạ độ CHUẨN XÁC sau khi đổi text, size & justification để dịch chuyển vào tâm đích
+                var updatedBounds = getLayerExactBounds(targetLyr);
+                var curCenterX = (updatedBounds[0] + updatedBounds[2]) / 2.0;
+                var curCenterY = (updatedBounds[1] + updatedBounds[3]) / 2.0;
 
                 var deltaX = res.target_center_x - curCenterX;
                 var deltaY = res.target_center_y - curCenterY;
@@ -250,6 +286,7 @@ function itemsToJSONString(items) {
     var parts = [];
     for (var i = 0; i < items.length; i++) {
         var it = items[i];
+        var escapedContent = escapeJSONString(it.text_content || "");
         var s = '{"index":' + it.index +
             ',"crop_file":"' + it.crop_file + '"' +
             ',"crop_x1":' + it.crop_x1 +
@@ -258,11 +295,39 @@ function itemsToJSONString(items) {
             ',"crop_h":' + it.crop_h +
             ',"text_bounds":[' + it.text_bounds.join(",") + ']' +
             ',"text_size":' + it.text_size +
+            ',"text_content":"' + escapedContent + '"' +
             ',"current_w":' + it.current_w +
             ',"current_h":' + it.current_h + '}';
         parts.push(s);
     }
     return "[" + parts.join(",") + "]";
+}
+
+function escapeJSONString(str) {
+    if (!str) return "";
+    return str.replace(/\\/g, "\\\\")
+              .replace(/"/g, '\\"')
+              .replace(/\r/g, "\\r")
+              .replace(/\n/g, "\\n")
+              .replace(/\t/g, "\\t");
+}
+
+function getLayerExactBounds(layer) {
+    try {
+        var ref = new ActionReference();
+        ref.putProperty(charIDToTypeID("Prpr"), stringIDToTypeID("bounds"));
+        ref.putIdentifier(charIDToTypeID("Lyr "), layer.id);
+        var desc = executeActionGet(ref);
+        var boundsDesc = desc.getObjectValue(stringIDToTypeID("bounds"));
+        var l = boundsDesc.getUnitDoubleValue(stringIDToTypeID("left"));
+        var t = boundsDesc.getUnitDoubleValue(stringIDToTypeID("top"));
+        var r = boundsDesc.getUnitDoubleValue(stringIDToTypeID("right"));
+        var b = boundsDesc.getUnitDoubleValue(stringIDToTypeID("bottom"));
+        return [l, t, r, b];
+    } catch (e) {
+        var b = layer.bounds;
+        return [b[0].as('px'), b[1].as('px'), b[2].as('px'), b[3].as('px')];
+    }
 }
 
 function cleanOldLayoutFiles(folderPath) {
@@ -367,6 +432,30 @@ function findLayer(doc, name) {
         }
     }
     return null;
+}
+
+function convertToPointText(layer) {
+    try {
+        if (layer.kind === LayerKind.TEXT) {
+            if (layer.textItem.kind === TextType.PARAGRAPHTEXT) {
+                layer.textItem.kind = TextType.POINTTEXT;
+                return;
+            }
+        }
+    } catch (e) {}
+
+    try {
+        var idset = charIDToTypeID("set ");
+        var desc = new ActionDescriptor();
+        var idnull = charIDToTypeID("null");
+        var ref = new ActionReference();
+        ref.putProperty(charIDToTypeID("Prpr"), stringIDToTypeID("textType"));
+        ref.putIdentifier(charIDToTypeID("Lyr "), layer.id);
+        desc.putReference(idnull, ref);
+        var idto = charIDToTypeID("to  ");
+        desc.putEnumerated(idto, stringIDToTypeID("textType"), stringIDToTypeID("pointText"));
+        executeAction(idset, desc, DialogModes.NO);
+    } catch (e2) {}
 }
 
 app.activeDocument.suspendHistory("Auto Center and Fit Text Batch", "main()");

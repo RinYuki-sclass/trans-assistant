@@ -4,7 +4,7 @@
 - **Thể loại:** Đam mỹ, Chủ công, Niên hạ, Mạt thế phế thổ, Dị năng biến dị, Cường cường, Mỹ cường thảm, Tương ái tương sát, 1v1, HE.
 - **Slug:** `lau-dai-den-phuc-dam`
 - **Nguồn:** 52 Thư Khố (52shuku.net) / Tấn Giang (jjwxc.net)
-- **Tình trạng:** Đã cào trọn bộ 138/138 chương raw (Hoàn kết). Đã dịch & kiểm toán QC 65/138 chương (Batch 1, 2, 3, 4: 100% PASSED). Sẵn sàng dịch tiếp Batch 5 (Chương 66 - 85).
+- **Tình trạng:** Đã cào trọn bộ 138/138 chương raw (Hoàn kết). Đã dịch & kiểm toán QC 85/138 chương (Batch 1, 2, 3, 4, 5: 100% PASSED). Sẵn sàng dịch tiếp Batch 6 (Chương 86 - 105).
 
 ---
 
@@ -77,26 +77,26 @@
 | 063 | 第063章 绿洲遍地能量石 | [Chương 063: Ốc Đảo Đầy Đá Năng Lượng](file:///d:/Nhung/RIDI/trans-assistant/novel_projects/lau-dai-den-phuc-dam/chapters/ch_063/translation.md) | ✅ Sẵn sàng (82 đoạn) | ✅ Hoàn thành | 🟢 QC_PASSED (100/100) |
 | 064 | 第064章 适应能力 | [Chương 064: Năng Lực Thích Nghi](file:///d:/Nhung/RIDI/trans-assistant/novel_projects/lau-dai-den-phuc-dam/chapters/ch_064/translation.md) | ✅ Sẵn sàng (81 đoạn) | ✅ Hoàn thành | 🟢 QC_PASSED (100/100) |
 | 065 | 第065章 公开审判 | [Chương 065: Xét Xử Công Khai](file:///d:/Nhung/RIDI/trans-assistant/novel_projects/lau-dai-den-phuc-dam/chapters/ch_065/translation.md) | ✅ Sẵn sàng (90 đoạn) | ✅ Hoàn thành | 🟢 QC_PASSED (100/100) |
-| 066 | 第066章 标记复苏 | [Chương 066: Ấn Ký Hồi Sinh](file:///d:/Nhung/RIDI/trans-assistant/novel_projects/lau-dai-den-phuc-dam/chapters/ch_066/source.md) | ✅ Sẵn sàng (94 đoạn) | ⚪ Chưa dịch | ⚪ Chờ duyệt |
-| 067 | 第067章 待嫁新娘 | [Chương 067: Cô Dâu Chờ Gả](file:///d:/Nhung/RIDI/trans-assistant/novel_projects/lau-dai-den-phuc-dam/chapters/ch_067/source.md) | ✅ Sẵn sàng (109 đoạn) | ⚪ Chưa dịch | ⚪ Chờ duyệt |
-| 068 | 第068章 消失的新娘 | [Chương 068: Tân Nương Biến Mất](file:///d:/Nhung/RIDI/trans-assistant/novel_projects/lau-dai-den-phuc-dam/chapters/ch_068/source.md) | ✅ Sẵn sàng (91 đoạn) | ⚪ Chưa dịch | ⚪ Chờ duyệt |
-| 069 | 第069章 峡谷轮番轰炸 | [Chương 069: Oanh Tạc Hẻm Núi Dồn Dập](file:///d:/Nhung/RIDI/trans-assistant/novel_projects/lau-dai-den-phuc-dam/chapters/ch_069/source.md) | ✅ Sẵn sàng (97 đoạn) | ⚪ Chưa dịch | ⚪ Chờ duyệt |
-| 070 | 第070章 纪尘晏发狂 | [Chương 070: Kỷ Trần Yến Phát Điên](file:///d:/Nhung/RIDI/trans-assistant/novel_projects/lau-dai-den-phuc-dam/chapters/ch_070/source.md) | ✅ Sẵn sàng (121 đoạn) | ⚪ Chưa dịch | ⚪ Chờ duyệt |
-| 071 | 第071章 辐射风暴 | [Chương 071: Bão Phóng Xạ](file:///d:/Nhung/RIDI/trans-assistant/novel_projects/lau-dai-den-phuc-dam/chapters/ch_071/source.md) | ✅ Sẵn sàng (110 đoạn) | ⚪ Chưa dịch | ⚪ Chờ duyệt |
-| 072 | 第072章 抓住他了 | [Chương 072: Đã Bắt Được Hắn](file:///d:/Nhung/RIDI/trans-assistant/novel_projects/lau-dai-den-phuc-dam/chapters/ch_072/source.md) | ✅ Sẵn sàng (141 đoạn) | ⚪ Chưa dịch | ⚪ Chờ duyệt |
-| 073 | 第073章 基因编辑 | [Chương 073: Chỉnh Sửa Gen](file:///d:/Nhung/RIDI/trans-assistant/novel_projects/lau-dai-den-phuc-dam/chapters/ch_073/source.md) | ✅ Sẵn sàng (98 đoạn) | ⚪ Chưa dịch | ⚪ Chờ duyệt |
-| 074 | 第074章 标记根源 | [Chương 074: Nguồn Cội Ấn Ký](file:///d:/Nhung/RIDI/trans-assistant/novel_projects/lau-dai-den-phuc-dam/chapters/ch_074/source.md) | ✅ Sẵn sàng (115 đoạn) | ⚪ Chưa dịch | ⚪ Chờ duyệt |
-| 075 | 第075章 十指紧扣 | [Chương 075: Mười Ngón Đan Xen](file:///d:/Nhung/RIDI/trans-assistant/novel_projects/lau-dai-den-phuc-dam/chapters/ch_075/source.md) | ✅ Sẵn sàng (78 đoạn) | ⚪ Chưa dịch | ⚪ Chờ duyệt |
-| 076 | 第076章 方祈恒是言祈恒 | [Chương 076: Phương Kỳ Hằng Chính Là Ngôn Kỳ Hằng](file:///d:/Nhung/RIDI/trans-assistant/novel_projects/lau-dai-den-phuc-dam/chapters/ch_076/source.md) | ✅ Sẵn sàng (110 đoạn) | ⚪ Chưa dịch | ⚪ Chờ duyệt |
-| 077 | 第077章 驿站休息 | [Chương 077: Nghỉ Ngơi Tại Trạm Dừng](file:///d:/Nhung/RIDI/trans-assistant/novel_projects/lau-dai-den-phuc-dam/chapters/ch_077/source.md) | ✅ Sẵn sàng (116 đoạn) | ⚪ Chưa dịch | ⚪ Chờ duyệt |
-| 078 | 第078章 冬夜滚雪 | [Chương 078: Đêm Đông Lăn Tuyết](file:///d:/Nhung/RIDI/trans-assistant/novel_projects/lau-dai-den-phuc-dam/chapters/ch_078/source.md) | ✅ Sẵn sàng (106 đoạn) | ⚪ Chưa dịch | ⚪ Chờ duyệt |
-| 079 | 第079章 色利熏心 | [Chương 079: Lòng Tham Mờ Mắt](file:///d:/Nhung/RIDI/trans-assistant/novel_projects/lau-dai-den-phuc-dam/chapters/ch_079/source.md) | ✅ Sẵn sàng (104 đoạn) | ⚪ Chưa dịch | ⚪ Chờ duyệt |
-| 080 | 第080章 同床共枕 | [Chương 080: Chung Chăn Chung Gối](file:///d:/Nhung/RIDI/trans-assistant/novel_projects/lau-dai-den-phuc-dam/chapters/ch_080/source.md) | ✅ Sẵn sàng (105 đoạn) | ⚪ Chưa dịch | ⚪ Chờ duyệt |
-| 081 | 第081章 习惯被伺候 | [Chương 081: Thói Quen Được Hầu Hạ](file:///d:/Nhung/RIDI/trans-assistant/novel_projects/lau-dai-den-phuc-dam/chapters/ch_081/source.md) | ✅ Sẵn sàng (86 đoạn) | ⚪ Chưa dịch | ⚪ Chờ duyệt |
-| 082 | 第082章 生病发热 | [Chương 082: Nhiễm Bệnh Phát Sốt](file:///d:/Nhung/RIDI/trans-assistant/novel_projects/lau-dai-den-phuc-dam/chapters/ch_082/source.md) | ✅ Sẵn sàng (92 đoạn) | ⚪ Chưa dịch | ⚪ Chờ duyệt |
-| 083 | 第083章 驿站看病 | [Chương 083: Khám Bệnh Trạm Dừng](file:///d:/Nhung/RIDI/trans-assistant/novel_projects/lau-dai-den-phuc-dam/chapters/ch_083/source.md) | ✅ Sẵn sàng (106 đoạn) | ⚪ Chưa dịch | ⚪ Chờ duyệt |
-| 084 | 第084章 喜欢的颜色 | [Chương 084: Màu Sắc Ưa Thích](file:///d:/Nhung/RIDI/trans-assistant/novel_projects/lau-dai-den-phuc-dam/chapters/ch_084/source.md) | ✅ Sẵn sàng (102 đoạn) | ⚪ Chưa dịch | ⚪ Chờ duyệt |
-| 085 | 第085章 打开了新世界 | [Chương 085: Mở Ra Thế Giới Mới](file:///d:/Nhung/RIDI/trans-assistant/novel_projects/lau-dai-den-phuc-dam/chapters/ch_085/source.md) | ✅ Sẵn sàng (107 đoạn) | ⚪ Chưa dịch | ⚪ Chờ duyệt |
+| 066 | 第066章 标记复苏 | [Chương 066: Ấn Ký Hồi Sinh](file:///d:/Nhung/RIDI/trans-assistant/novel_projects/lau-dai-den-phuc-dam/chapters/ch_066/translation.md) | ✅ Sẵn sàng (94 đoạn) | ✅ Hoàn thành | 🟢 QC_PASSED (100/100) |
+| 067 | 第067章 待嫁新娘 | [Chương 067: Cô Dâu Chờ Gả](file:///d:/Nhung/RIDI/trans-assistant/novel_projects/lau-dai-den-phuc-dam/chapters/ch_067/translation.md) | ✅ Sẵn sàng (109 đoạn) | ✅ Hoàn thành | 🟢 QC_PASSED (100/100) |
+| 068 | 第068章 消失的新娘 | [Chương 068: Tân Nương Biến Mất](file:///d:/Nhung/RIDI/trans-assistant/novel_projects/lau-dai-den-phuc-dam/chapters/ch_068/translation.md) | ✅ Sẵn sàng (91 đoạn) | ✅ Hoàn thành | 🟢 QC_PASSED (100/100) |
+| 069 | 第069章 峡谷轮番轰炸 | [Chương 069: Oanh Tạc Hẻm Núi Dồn Dập](file:///d:/Nhung/RIDI/trans-assistant/novel_projects/lau-dai-den-phuc-dam/chapters/ch_069/translation.md) | ✅ Sẵn sàng (97 đoạn) | ✅ Hoàn thành | 🟢 QC_PASSED (100/100) |
+| 070 | 第070章 纪尘晏发狂 | [Chương 070: Kỷ Trần Yến Phát Điên](file:///d:/Nhung/RIDI/trans-assistant/novel_projects/lau-dai-den-phuc-dam/chapters/ch_070/translation.md) | ✅ Sẵn sàng (121 đoạn) | ✅ Hoàn thành | 🟢 QC_PASSED (100/100) |
+| 071 | 第071章 辐射风暴 | [Chương 071: Bão Phóng Xạ](file:///d:/Nhung/RIDI/trans-assistant/novel_projects/lau-dai-den-phuc-dam/chapters/ch_071/translation.md) | ✅ Sẵn sàng (110 đoạn) | ✅ Hoàn thành | 🟢 QC_PASSED (100/100) |
+| 072 | 第072章 抓住他了 | [Chương 072: Đã Bắt Được Hắn](file:///d:/Nhung/RIDI/trans-assistant/novel_projects/lau-dai-den-phuc-dam/chapters/ch_072/translation.md) | ✅ Sẵn sàng (141 đoạn) | ✅ Hoàn thành | 🟢 QC_PASSED (100/100) |
+| 073 | 第073章 基因编辑 | [Chương 073: Chỉnh Sửa Gen](file:///d:/Nhung/RIDI/trans-assistant/novel_projects/lau-dai-den-phuc-dam/chapters/ch_073/translation.md) | ✅ Sẵn sàng (98 đoạn) | ✅ Hoàn thành | 🟢 QC_PASSED (100/100) |
+| 074 | 第074章 标记根源 | [Chương 074: Nguồn Cội Ấn Ký](file:///d:/Nhung/RIDI/trans-assistant/novel_projects/lau-dai-den-phuc-dam/chapters/ch_074/translation.md) | ✅ Sẵn sàng (115 đoạn) | ✅ Hoàn thành | 🟢 QC_PASSED (100/100) |
+| 075 | 第075章 十指紧扣 | [Chương 075: Mười Ngón Đan Xen](file:///d:/Nhung/RIDI/trans-assistant/novel_projects/lau-dai-den-phuc-dam/chapters/ch_075/translation.md) | ✅ Sẵn sàng (78 đoạn) | ✅ Hoàn thành | 🟢 QC_PASSED (100/100) |
+| 076 | 第076章 方祈恒是言祈恒 | [Chương 076: Phương Kỳ Hằng Chính Là Ngôn Kỳ Hằng](file:///d:/Nhung/RIDI/trans-assistant/novel_projects/lau-dai-den-phuc-dam/chapters/ch_076/translation.md) | ✅ Sẵn sàng (110 đoạn) | ✅ Hoàn thành | 🟢 QC_PASSED (100/100) |
+| 077 | 第077章 驿站休息 | [Chương 077: Nghỉ Ngơi Tại Trạm Dừng](file:///d:/Nhung/RIDI/trans-assistant/novel_projects/lau-dai-den-phuc-dam/chapters/ch_077/translation.md) | ✅ Sẵn sàng (116 đoạn) | ✅ Hoàn thành | 🟢 QC_PASSED (100/100) |
+| 078 | 第078章 冬夜滚雪 | [Chương 078: Đêm Đông Lăn Tuyết](file:///d:/Nhung/RIDI/trans-assistant/novel_projects/lau-dai-den-phuc-dam/chapters/ch_078/translation.md) | ✅ Sẵn sàng (106 đoạn) | ✅ Hoàn thành | 🟢 QC_PASSED (100/100) |
+| 079 | 第079章 色利熏心 | [Chương 079: Lòng Tham Mờ Mắt](file:///d:/Nhung/RIDI/trans-assistant/novel_projects/lau-dai-den-phuc-dam/chapters/ch_079/translation.md) | ✅ Sẵn sàng (104 đoạn) | ✅ Hoàn thành | 🟢 QC_PASSED (100/100) |
+| 080 | 第080章 同床共枕 | [Chương 080: Chung Chăn Chung Gối](file:///d:/Nhung/RIDI/trans-assistant/novel_projects/lau-dai-den-phuc-dam/chapters/ch_080/translation.md) | ✅ Sẵn sàng (105 đoạn) | ✅ Hoàn thành | 🟢 QC_PASSED (100/100) |
+| 081 | 第081章 习惯被伺候 | [Chương 081: Thói Quen Được Hầu Hạ](file:///d:/Nhung/RIDI/trans-assistant/novel_projects/lau-dai-den-phuc-dam/chapters/ch_081/translation.md) | ✅ Sẵn sàng (86 đoạn) | ✅ Hoàn thành | 🟢 QC_PASSED (100/100) |
+| 082 | 第082章 生病发热 | [Chương 082: Nhiễm Bệnh Phát Sốt](file:///d:/Nhung/RIDI/trans-assistant/novel_projects/lau-dai-den-phuc-dam/chapters/ch_082/translation.md) | ✅ Sẵn sàng (92 đoạn) | ✅ Hoàn thành | 🟢 QC_PASSED (100/100) |
+| 083 | 第083章 驿站看病 | [Chương 083: Khám Bệnh Trạm Dừng](file:///d:/Nhung/RIDI/trans-assistant/novel_projects/lau-dai-den-phuc-dam/chapters/ch_083/translation.md) | ✅ Sẵn sàng (106 đoạn) | ✅ Hoàn thành | 🟢 QC_PASSED (100/100) |
+| 084 | 第084章 喜欢的颜色 | [Chương 084: Màu Sắc Ưa Thích](file:///d:/Nhung/RIDI/trans-assistant/novel_projects/lau-dai-den-phuc-dam/chapters/ch_084/translation.md) | ✅ Sẵn sàng (102 đoạn) | ✅ Hoàn thành | 🟢 QC_PASSED (100/100) |
+| 085 | 第085章 打开了新世界 | [Chương 085: Mở Ra Thế Giới Mới](file:///d:/Nhung/RIDI/trans-assistant/novel_projects/lau-dai-den-phuc-dam/chapters/ch_085/translation.md) | ✅ Sẵn sàng (107 đoạn) | ✅ Hoàn thành | 🟢 QC_PASSED (100/100) |
 | 086 | 第086章 真相揭露 | [Chương 086: Chân Tướng Phơi Bày](file:///d:/Nhung/RIDI/trans-assistant/novel_projects/lau-dai-den-phuc-dam/chapters/ch_086/source.md) | ✅ Sẵn sàng (94 đoạn) | ⚪ Chưa dịch | ⚪ Chờ duyệt |
 | 087 | 第087章 旧人尽逝 | [Chương 087: Người Cũ Đã Khuất](file:///d:/Nhung/RIDI/trans-assistant/novel_projects/lau-dai-den-phuc-dam/chapters/ch_087/source.md) | ✅ Sẵn sàng (89 đoạn) | ⚪ Chưa dịch | ⚪ Chờ duyệt |
 | 088 | 第088章 态度变了 | [Chương 088: Thái Độ Đổi Thay](file:///d:/Nhung/RIDI/trans-assistant/novel_projects/lau-dai-den-phuc-dam/chapters/ch_088/source.md) | ✅ Sẵn sàng (82 đoạn) | ⚪ Chưa dịch | ⚪ Chờ duyệt |

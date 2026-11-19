@@ -5,7 +5,7 @@
 > **Quy mô dự án:** 138 chương (Chương 1 - Chương 138, Hoàn kết)  
 > **Độ dài raw:** ~13.660 đoạn văn (~420.000 chữ Trung)  
 > **Chủ đề chính:** Đam mỹ, Chủ công, Niên hạ, Mạt thế phế thổ, Dị năng biến dị thực vật x Mỹ nhân bạo quân tóc bạc mắt đỏ, Cường cường, Mỹ cường thảm, Tương ái tương sát, Chiếm hữu & Cứu rỗi, 1v1, HE.  
-> **Trạng thái hiện tại:** Đã cào 138/138 chương raw (100%). Đã dịch & duyệt QC 65/138 chương (Batch 1, 2, 3, 4: 100% PASSED). Sẵn sàng triển khai Batch 5 (Chương 66 - 85).
+> **Trạng thái hiện tại:** Đã cào 138/138 chương raw (100%). Đã dịch & duyệt QC 85/138 chương (Batch 1, 2, 3, 4, 5: 100% PASSED). Sẵn sàng triển khai Batch 6 (Chương 86 - 105).
 
 ---
 
@@ -85,7 +85,7 @@ graph TD
 
 ---
 
-### 🔹 BATCH 5: ẤN KÝ HỒI SINH, BÃO PHÓNG XẠ & THÂN PHẬN NGÔN KỲ HẰNG (CHƯƠNG 066 - 085) - [ ] PLANNED
+### 🔹 BATCH 5: ẤN KÝ HỒI SINH, BÃO PHÓNG XẠ & THÂN PHẬN NGÔN KỲ HẰNG (CHƯƠNG 066 - 085) - [x] HOÀN THÀNH 100%
 - **Quy mô:** 20 chương (`ch_066` -> `ch_085`).
 - **Nội dung trọng tâm:**
   - Phiên tòa công khai, ấn ký thức tỉnh mãnh liệt; cuộc giải cứu tân nương biến mất.
