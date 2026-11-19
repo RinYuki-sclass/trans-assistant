@@ -1,8 +1,8 @@
 {
   "project": "lau-dai-den-phuc-dam",
   "total_chapters": 138,
-  "translated_chapters": 85,
-  "qc_passed_chapters": 85,
+  "translated_chapters": 105,
+  "qc_passed_chapters": 105,
   "chapters": [
     {
       "id": "ch_001",
@@ -1030,11 +1030,11 @@
       "title_cn": "第086章 真相揭露",
       "title_vi": "Chương 086: Chân Tướng Phơi Bày",
       "source_exists": true,
-      "translation_exists": false,
-      "qc_exists": false,
-      "paragraphs": 94,
-      "words": 0,
-      "status": "RAW_READY"
+      "translation_exists": true,
+      "qc_exists": true,
+      "paragraphs": 95,
+      "words": 2886,
+      "status": "QC_PASSED"
     },
     {
       "id": "ch_087",
@@ -1042,11 +1042,11 @@
       "title_cn": "第087章 旧人尽逝",
       "title_vi": "Chương 087: Người Cũ Đã Khuất",
       "source_exists": true,
-      "translation_exists": false,
-      "qc_exists": false,
-      "paragraphs": 89,
-      "words": 0,
-      "status": "RAW_READY"
+      "translation_exists": true,
+      "qc_exists": true,
+      "paragraphs": 90,
+      "words": 2631,
+      "status": "QC_PASSED"
     },
     {
       "id": "ch_088",
@@ -1054,11 +1054,11 @@
       "title_cn": "第088章 态度变了",
       "title_vi": "Chương 088: Thái Độ Đổi Thay",
       "source_exists": true,
-      "translation_exists": false,
-      "qc_exists": false,
-      "paragraphs": 82,
-      "words": 0,
-      "status": "RAW_READY"
+      "translation_exists": true,
+      "qc_exists": true,
+      "paragraphs": 83,
+      "words": 2944,
+      "status": "QC_PASSED"
     },
     {
       "id": "ch_089",
@@ -1066,11 +1066,11 @@
       "title_cn": "第089章 方祈恒道歉",
       "title_vi": "Chương 089: Phương Kỳ Hằng Xin Lỗi",
       "source_exists": true,
-      "translation_exists": false,
-      "qc_exists": false,
-      "paragraphs": 96,
-      "words": 0,
-      "status": "RAW_READY"
+      "translation_exists": true,
+      "qc_exists": true,
+      "paragraphs": 97,
+      "words": 2712,
+      "status": "QC_PASSED"
     },
     {
       "id": "ch_090",
@@ -1078,11 +1078,11 @@
       "title_cn": "第090章 四区S级战队",
       "title_vi": "Chương 090: Chiến Đội Cấp S Khu Bốn",
       "source_exists": true,
-      "translation_exists": false,
-      "qc_exists": false,
-      "paragraphs": 141,
-      "words": 0,
-      "status": "RAW_READY"
+      "translation_exists": true,
+      "qc_exists": true,
+      "paragraphs": 142,
+      "words": 3708,
+      "status": "QC_PASSED"
     },
     {
       "id": "ch_091",
@@ -1090,11 +1090,11 @@
       "title_cn": "第091章 驿站交手",
       "title_vi": "Chương 091: Giao Thủ Trạm Dừng",
       "source_exists": true,
-      "translation_exists": false,
-      "qc_exists": false,
-      "paragraphs": 104,
-      "words": 0,
-      "status": "RAW_READY"
+      "translation_exists": true,
+      "qc_exists": true,
+      "paragraphs": 105,
+      "words": 3180,
+      "status": "QC_PASSED"
     },
     {
       "id": "ch_092",
@@ -1102,11 +1102,11 @@
       "title_cn": "第092章 车子失控",
       "title_vi": "Chương 092: Xe Mất Lái",
       "source_exists": true,
-      "translation_exists": false,
-      "qc_exists": false,
-      "paragraphs": 121,
-      "words": 0,
-      "status": "RAW_READY"
+      "translation_exists": true,
+      "qc_exists": true,
+      "paragraphs": 122,
+      "words": 3380,
+      "status": "QC_PASSED"
     },
     {
       "id": "ch_093",
@@ -1114,11 +1114,11 @@
       "title_cn": "第093章 贝瑞的验证",
       "title_vi": "Chương 093: Berry Kiểm Chứng",
       "source_exists": true,
-      "translation_exists": false,
-      "qc_exists": false,
-      "paragraphs": 93,
-      "words": 0,
-      "status": "RAW_READY"
+      "translation_exists": true,
+      "qc_exists": true,
+      "paragraphs": 94,
+      "words": 2833,
+      "status": "QC_PASSED"
     },
     {
       "id": "ch_094",
@@ -1126,11 +1126,11 @@
       "title_cn": "第094章 哈吉隆阿",
       "title_vi": "Chương 094: Haji Longa",
       "source_exists": true,
-      "translation_exists": false,
-      "qc_exists": false,
-      "paragraphs": 89,
-      "words": 0,
-      "status": "RAW_READY"
+      "translation_exists": true,
+      "qc_exists": true,
+      "paragraphs": 90,
+      "words": 2955,
+      "status": "QC_PASSED"
     },
     {
       "id": "ch_095",
@@ -1138,11 +1138,11 @@
       "title_cn": "第095章 区别对待",
       "title_vi": "Chương 095: Đối Xử Phân Biệt",
       "source_exists": true,
-      "translation_exists": false,
-      "qc_exists": false,
-      "paragraphs": 93,
-      "words": 0,
-      "status": "RAW_READY"
+      "translation_exists": true,
+      "qc_exists": true,
+      "paragraphs": 94,
+      "words": 2668,
+      "status": "QC_PASSED"
     },
     {
       "id": "ch_096",
@@ -1150,11 +1150,11 @@
       "title_cn": "第096章 不一样的感觉",
       "title_vi": "Chương 096: Cảm Giác Khác Lạ",
       "source_exists": true,
-      "translation_exists": false,
-      "qc_exists": false,
-      "paragraphs": 88,
-      "words": 0,
-      "status": "RAW_READY"
+      "translation_exists": true,
+      "qc_exists": true,
+      "paragraphs": 89,
+      "words": 2850,
+      "status": "QC_PASSED"
     },
     {
       "id": "ch_097",
@@ -1162,11 +1162,11 @@
       "title_cn": "第097章 极寒中运动",
       "title_vi": "Chương 097: Vận Động Giữa Cực Lạnh",
       "source_exists": true,
-      "translation_exists": false,
-      "qc_exists": false,
-      "paragraphs": 86,
-      "words": 0,
-      "status": "RAW_READY"
+      "translation_exists": true,
+      "qc_exists": true,
+      "paragraphs": 87,
+      "words": 2945,
+      "status": "QC_PASSED"
     },
     {
       "id": "ch_098",
@@ -1174,11 +1174,11 @@
       "title_cn": "第098章 方祈恒高烧",
       "title_vi": "Chương 098: Phương Kỳ Hằng Sốt Cao",
       "source_exists": true,
-      "translation_exists": false,
-      "qc_exists": false,
-      "paragraphs": 94,
-      "words": 0,
-      "status": "RAW_READY"
+      "translation_exists": true,
+      "qc_exists": true,
+      "paragraphs": 95,
+      "words": 3133,
+      "status": "QC_PASSED"
     },
     {
       "id": "ch_099",
@@ -1186,11 +1186,11 @@
       "title_cn": "第099章 又来一队人",
       "title_vi": "Chương 099: Lại Thêm Một Toán Người",
       "source_exists": true,
-      "translation_exists": false,
-      "qc_exists": false,
-      "paragraphs": 110,
-      "words": 0,
-      "status": "RAW_READY"
+      "translation_exists": true,
+      "qc_exists": true,
+      "paragraphs": 111,
+      "words": 3271,
+      "status": "QC_PASSED"
     },
     {
       "id": "ch_100",
@@ -1198,11 +1198,11 @@
       "title_cn": "第100章 抢人大战",
       "title_vi": "Chương 100: Đại Chiến Cướp Người",
       "source_exists": true,
-      "translation_exists": false,
-      "qc_exists": false,
-      "paragraphs": 105,
-      "words": 0,
-      "status": "RAW_READY"
+      "translation_exists": true,
+      "qc_exists": true,
+      "paragraphs": 106,
+      "words": 3284,
+      "status": "QC_PASSED"
     },
     {
       "id": "ch_101",
@@ -1210,11 +1210,11 @@
       "title_cn": "第101章 方祈恒流鼻血",
       "title_vi": "Chương 101: Phương Kỳ Hằng Chảy Máu Cam",
       "source_exists": true,
-      "translation_exists": false,
-      "qc_exists": false,
-      "paragraphs": 98,
-      "words": 0,
-      "status": "RAW_READY"
+      "translation_exists": true,
+      "qc_exists": true,
+      "paragraphs": 99,
+      "words": 3177,
+      "status": "QC_PASSED"
     },
     {
       "id": "ch_102",
@@ -1222,11 +1222,11 @@
       "title_cn": "第102章 痴情派头",
       "title_vi": "Chương 102: Dáng Vẻ Kẻ Si Tình",
       "source_exists": true,
-      "translation_exists": false,
-      "qc_exists": false,
-      "paragraphs": 136,
-      "words": 0,
-      "status": "RAW_READY"
+      "translation_exists": true,
+      "qc_exists": true,
+      "paragraphs": 137,
+      "words": 4784,
+      "status": "QC_PASSED"
     },
     {
       "id": "ch_103",
@@ -1234,11 +1234,11 @@
       "title_cn": "第103章 机械载体",
       "title_vi": "Chương 103: Vật Thể Cơ Khí",
       "source_exists": true,
-      "translation_exists": false,
-      "qc_exists": false,
-      "paragraphs": 92,
-      "words": 0,
-      "status": "RAW_READY"
+      "translation_exists": true,
+      "qc_exists": true,
+      "paragraphs": 93,
+      "words": 3305,
+      "status": "QC_PASSED"
     },
     {
       "id": "ch_104",
@@ -1246,11 +1246,11 @@
       "title_cn": "第104章 作为兄长",
       "title_vi": "Chương 104: Với Tư Cách Người Anh",
       "source_exists": true,
-      "translation_exists": false,
-      "qc_exists": false,
-      "paragraphs": 97,
-      "words": 0,
-      "status": "RAW_READY"
+      "translation_exists": true,
+      "qc_exists": true,
+      "paragraphs": 98,
+      "words": 3792,
+      "status": "QC_PASSED"
     },
     {
       "id": "ch_105",
@@ -1258,11 +1258,11 @@
       "title_cn": "第105章 变异虫袭击",
       "title_vi": "Chương 105: Trùng Biến Dị Tấn Công",
       "source_exists": true,
-      "translation_exists": false,
-      "qc_exists": false,
-      "paragraphs": 142,
-      "words": 0,
-      "status": "RAW_READY"
+      "translation_exists": true,
+      "qc_exists": true,
+      "paragraphs": 143,
+      "words": 4734,
+      "status": "QC_PASSED"
     },
     {
       "id": "ch_106",

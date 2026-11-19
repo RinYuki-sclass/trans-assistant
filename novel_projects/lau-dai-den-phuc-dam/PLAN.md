@@ -5,7 +5,7 @@
 > **Quy mô dự án:** 138 chương (Chương 1 - Chương 138, Hoàn kết)  
 > **Độ dài raw:** ~13.660 đoạn văn (~420.000 chữ Trung)  
 > **Chủ đề chính:** Đam mỹ, Chủ công, Niên hạ, Mạt thế phế thổ, Dị năng biến dị thực vật x Mỹ nhân bạo quân tóc bạc mắt đỏ, Cường cường, Mỹ cường thảm, Tương ái tương sát, Chiếm hữu & Cứu rỗi, 1v1, HE.  
-> **Trạng thái hiện tại:** Đã cào 138/138 chương raw (100%). Đã dịch & duyệt QC 85/138 chương (Batch 1, 2, 3, 4, 5: 100% PASSED). Sẵn sàng triển khai Batch 6 (Chương 86 - 105).
+> **Trạng thái hiện tại:** Đã cào 138/138 chương raw (100%). Đã dịch & duyệt QC 105/138 chương (Batch 1, 2, 3, 4, 5, 6: 100% PASSED). Sẵn sàng triển khai Batch 7 (Chương 106 - 120 / 125).
 
 ---
 
@@ -96,7 +96,9 @@ graph TD
 
 ---
 
-### 🔹 BATCH 6: CHÂN TƯỚNG QUÁ KHỨ, CHIẾN ĐỘI KHU BỐN & TRANH ĐOẠT (CHƯƠNG 086 - 105) - [ ] PLANNED
+### 🔹 BATCH 6: CHÂN TƯỚNG QUÁ KHỨ, CHIẾN ĐỘI KHU BỐN & TRANH ĐOẠT (CHƯƠNG 086 - 105) - [x] HOÀN THÀNH 100%
+- **Quy mô:** 20 chương (ch_086 -> ch_105).
+- **Tiến độ:** 20/20 chương hoàn thành 1:1, kiểm toán QC 100/100, chuẩn \n\n, đồng bộ chapters_index.json & TOC.md.
 - **Quy mô:** 20 chương (`ch_086` -> `ch_105`).
 - **Nội dung trọng tâm:**
   - Chân tướng quá khứ phơi bày toàn diện, người cũ đã khuất; Phương Kỳ Hằng chủ động xin lỗi và thay đổi thái độ với Kỷ Trần Yến.
