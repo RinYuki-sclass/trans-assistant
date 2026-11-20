@@ -2,11 +2,11 @@
 
 [Bình luận viên]
 KR: 경기장은 이미 거대한 물웅덩이!
-Sân đấu đã trở thành một vũng nước khổng lồ!
+Võ đài đã trở thành một vũng nước khổng lồ!
 
 [Bình luận viên]
 KR: 이걸 더 이상 경기장이라고 부를 수 있을지?!
-Liệu còn có thể gọi đây là sân thi đấu được nữa không?!
+Liệu còn có thể gọi đây là võ đài được nữa không?!
 
 [Bình luận viên]
 KR: 관중석은 양국 다 안전히 피신한 상태!
@@ -18,7 +18,7 @@ Và hai Thợ săn thì… Ái chà!
 
 [Bình luận viên]
 KR: 둘 다 경기장을 벗어나 공방을 이어가고 있습니다!
-Cả hai đã rời khỏi sân thi đấu và đang tiếp tục giao tranh kịch liệt!
+Cả hai đã rời khỏi võ đài và đang tiếp tục giao tranh kịch liệt!
 
 
 📄 ẢNH: 2.PNG
@@ -125,7 +125,7 @@ Dạ?
 
 [Shishio]
 KR: 저 둘은 더 이상 던전 관리권이나 이득을 놓고 싸우는 게 아니야.
-Hai đứa trẻ đó không còn chiến đấu vì quyền quản lý hầm ngục hay lợi ích nữa đâu.
+Hai người bọn họ không còn chiến đấu vì quyền quản lý ngục tối hay lợi ích vụn vặt nữa.
 
 [Shishio]
 KR: 그런 계산을 떠나 헌터로서
@@ -133,15 +133,15 @@ Gạt bỏ những toan tính đó, với tư cách là một Thợ săn,
 
 [Shishio]
 KR: 자신의 힘을 한계까지 부딪치는 즐거움!
-Niềm vui sướng khi va chạm và đẩy sức mạnh của bản thân tới tận cùng giới hạn!
+Cảm giác phấn khích khi được dốc trọn toàn lực va chạm đến tận cùng giới hạn!
 
 [Shishio]
 KR: 그걸 느끼고 있는 것이지! 보는 나 또한 피가 끓는구나!
-Chính là cảm giác ấy đấy! Đến cả ta khi chứng kiến cũng thấy sôi sục cả máu nóng!
+Bọn họ đang tận hưởng điều đó đấy! Đến ta nhìn vào mà máu nóng cũng sôi sục cả lên!
 
 [Quân sư]
 KR: 저는 주민 보상금 책정 때문에 애가 끓는데요…
-Tôi thì đang sôi cả ruột gan vì việc định mức tiền bồi thường cho cư dân đây này…
+Tôi thì đang sốt hết cả ruột vì phải đền bù thiệt hại cho dân chúng đây này…
 
 
 📄 ẢNH: 4.PNG
@@ -156,11 +156,11 @@ Không chỉ hai người trực tiếp tham chiến, mà ngay cả những ngư
 
 [Bình luận trực tiếp]
 KR: [ON AIR] S급 헌터 한일전 생중계
-[ON AIR] Phát sóng trực tiếp trận đối đầu Hàn - Nhật của Thợ săn cấp S
+[ON AIR] Phát sóng trực tiếp trận đấu Hàn - Nhật của Thợ săn cấp S
 
 [Bình luận trực tiếp]
 KR: 10.1만 시청 중 · 01:32:07 스트리밍 중
-101.000 người đang xem · Đang phát trực tiếp 01:32:07
+101k đang xem · Đang phát trực tiếp 01:32:07
 
 [Bình luận trực tiếp]
 KR: 주요 채팅
@@ -176,15 +176,11 @@ Oa, nước mình sở hữu Park Yerim thật đấy à!
 
 [Bình luận trực tiếp]
 KR: 내가 뭘 보고 있는 거지
-Tôi đang nhìn thấy cái quái gì thế này?
-
-[Bình luận trực tiếp]
-KR: What's happening in JAPAN
-Chuyện quái gì đang xảy ra ở Nhật Bản vậy?
+Tôi đang xem cái quái gì thế?
 
 [Bình luận trực tiếp]
 KR: 저거 뭐야? 김 피어오르는데
-Kia là cái gì thế? Hơi nước đang bốc lên nghi ngút kìa.
+Kia là cái gì vậy? Hơi nước đang bốc lên nghi ngút kìa.
 
 [Bình luận trực tiếp]
 KR: 온천 터진 듯
@@ -196,30 +192,30 @@ KR: 싸우다가 온천 터지는 거 실화냐
 
 [Bình luận trực tiếp]
 KR: すごいですね
-Đỉnh thật đấy nhỉ.
+Đỉnh thật đấy
 
 [Bình luận trực tiếp]
 KR: My chest got so woongjang
-Ngực tôi thấy rạo rực hào hùng quá.
+Tim tôi đập thình thịch luôn rồi này!
 
 [Bình luận trực tiếp]
 KR: 저기요 사람이 바위를 녹이는데요
-Này mọi người ơi, có người đang làm tan chảy cả đá tảng kìa.
+Ê, có người đang nung chảy luôn cả đá tảng kìa?!
 
 [Bình luận trực tiếp]
 KR: 好想和平 和平真萌
-Thật mong hòa bình, hòa bình đáng yêu ghê.
+Nhớ Peace quá đi, Peace dễ thương xỉu á!
 
 [Narrator]
 KR: 던전이 걸렸다든가 국가전이라든가 하는 걸 넘어
-Vượt qua cả những toan tính như quyền sở hữu hầm ngục hay trận chiến vì thể diện quốc gia,
+Vượt lên trên cả quyền sở hữu ngục tối hay danh dự trận đấu quốc gia,
 
 
 📄 ẢNH: 5.PNG
 
 [Narrator]
 KR: 설마 이 해협을 집어삼키는 건 아니겠지…
-Chẳng lẽ con bé định nuốt chửng cả eo biển này luôn sao…
+Chẳng lẽ cô ấy định nuốt chửng cả eo biển này luôn sao…
 
 [Moon Hyuna]
 KR: 이게…
@@ -227,19 +223,19 @@ KR: 이게…
 
 [Moon Hyuna]
 KR: 인간의 힘으로 가능한 경지인가…
-Cảnh giới mà sức người có thể chạm tới được sao…
+Cảnh giới mà con người có thể chạm tới được sao…
 
 [Bình luận viên]
 KR: 가쿠토 헌터가 빠져나오지 못하도록 내부를 얼어붙였을 겁니다.
-Chắc hẳn cô ấy đã đóng băng bên trong để Thợ săn Gakuto không thể nào thoát ra được.
+Chắc hẳn cô ấy đã đóng băng bên dưới để Thợ săn Gakuto không thể thoát ra được.
 
 [Bình luận viên]
 KR: 물로 공기까지 차단했을 테니 더더욱 버티기 어려워졌지요.
-Lại còn dùng nước chặn kín toàn bộ không khí, nên đối thủ sẽ càng khó mà cầm cự nổi.
+Thậm chí còn dùng nước cắt đứt toàn bộ dưỡng khí, thế này thì đối phương càng khó mà cầm cự.
 
 [Bình luận viên]
-KR: 그렇다면 결과는―
-Nếu vậy thì kết quả sẽ là―
+KR: 그렇다면 결과는...
+Nếu vậy thì kết quả sẽ là...
 
 [Iwahata Gakuto]
 KR: 큭!
@@ -254,7 +250,7 @@ Anh đã vất vả rồi! Thật~ sự rất vui đó!!
 
 [Park Yerim]
 KR: 이렇게 실컷 다 휘둘러본 거 절대 못 잊을 거야!
-Cảm giác được vung tay hết cỡ thỏa thuê thế này em sẽ chẳng bao giờ quên đâu!
+Cảm giác được xả chiêu đã đời hết mức thế này tôi sẽ không bao giờ quên đâu!
 
 [Iwahata Gakuto]
 KR: …훗.
@@ -266,7 +262,7 @@ Xem ra mục đích mang đến cho cô một ký ức khó quên đã đạt đ
 
 [Iwahata Gakuto]
 KR: 패배를 인정한다, 박예림 헌터.
-Tôi thừa nhận thất bại, Thợ săn Park Yerim.
+Tôi nhận thua, Thợ săn Park Yerim.
 
 [Bình luận viên]
 KR: 이로써 승패가 결정되었습니다!
@@ -278,22 +274,22 @@ Người chiến thắng là Park Yerim! Chiến thắng thuộc về Thợ săn
 
 [Bình luận viên]
 KR: 각성한 지 반 년도 안 되어 자신의 존재를 세계에 각인시킵니다!!
-Chưa đầy nửa năm kể từ ngày thức tỉnh, cô ấy đã khắc sâu sự tồn tại của mình lên toàn thế giới!!
+Chưa đầy nửa năm kể từ khi thức tỉnh, cô ấy đã khắc ghi tên tuổi của mình ra toàn thế giới!!
 
 
 📄 ẢNH: 7.PNG
 
 [Han Yoojin]
 KR: 물의 여신이라 해도 부족함이 없을 정도였다.
-Dù có gọi là nữ thần của làn nước thì cũng chẳng hề quá lời chút nào.
+Dù có ca ngợi là "Nữ thần Nước" thì cũng chẳng ngoa chút nào.
 
 [Park Yerim]
 KR: 여신은 무슨 여신.
-Nữ thần cái gì chứ.
+Nữ thần cái gì chứ?
 
 [Park Yerim]
 KR: ‘물의 지배자’!
-Phải là ‘Kẻ Thống Trị Làn Nước’!
+‘Kẻ Trị Thủy’!
 
 [Park Yerim]
 KR: 그거 말곤 안 받아요!
@@ -309,11 +305,11 @@ Yerim-ah, làm tốt lắm!
 
 [Moon Hyuna]
 KR: 물의 지배자님, 승리 축하해!
-Chúc mừng chiến thắng nhé, hỡi Đấng Thống Trị Làn Nước!
+Chúc mừng chiến thắng nhé, Kẻ Trị Thủy!
 
 [Han Yoojin]
-KR: 덕분에 던전 관리권은 우리가―
-Nhờ có em mà quyền quản lý hầm ngục sẽ về tay chúng ta―
+KR: 덕분에 던전 관리권은 우리가...
+Nhờ có nhóc mà quyền quản lý ngục tối sẽ về tay chúng ta...
 
 [Iwahata Gakuto]
 KR: 시시오 니이이임!!!!
@@ -321,11 +317,11 @@ SHISHIO ĐẠI NHÂNNNN!!!!
 
 [Iwahata Gakuto]
 KR: 이 이와하타 가쿠토, 시시오 님의 믿음을 저버린 죄!
-Tội lỗi của kẻ Iwahata Gakuto này khi dám phụ sự kỳ vọng của Shishio đại nhân!
+Iwahata Gakuto này tội tày trời, dám phụ lòng tin của Shishio đại nhân!
 
 [Iwahata Gakuto]
 KR: 죽음으로써 갚겠습니다!
-Tôi xin lấy cái chết để đền tội!
+Tôi xin lấy cái chết để tạ tội!
 
 [Han Yoojin]
 KR: 뭣
@@ -333,7 +329,8 @@ Hả?!
 
 [Park Yerim]
 KR: 지금 무슨 짓을…!
-Anh đang làm cái trò gì thế…!
+Anh
+đang làm cái trò gì thế…!
 
 [Shishio]
 KR: 멍청한 것!!
@@ -345,7 +342,7 @@ Hộc…
 
 [Shishio]
 KR: 내가 몇 번을 말했더냐!
-Ta đã bảo với ngươi bao nhiêu lần rồi hả!
+Ta đã bảo với ngươi bao nhiêu lần rồi hả?!
 
 [Shishio]
 KR: 쉽게 죽음을 택하지 말라고!!
@@ -356,7 +353,7 @@ Không được phép dễ dàng tìm đến cái chết như thế!!
 
 [Shishio]
 KR: 동료를 잃고 게이트석을 쓰더라도 살아만 나온다면 던전은 다시 공략할 수 있으며
-Dù có mất đi đồng đội và phải kích hoạt đá cổng dịch chuyển, chỉ cần sống sót trở về thì hầm ngục vẫn có thể chinh phục lại từ đầu,
+Dù có mất đi đồng đội và phải dùng đến Môn thạch, chỉ cần sống sót trở về thì ngục tối vẫn có thể chinh phục lại từ đầu,
 
 [Shishio]
 KR: 승부에 패해도 살아만 있다면 설욕의 기회는 주어지는 법!
@@ -368,19 +365,23 @@ Shishio đại nhân…
 
 [Shishio]
 KR: 멋진 승부였다. 상대의 힘을 모두 끌어낸 건 대단한 성과야!
-Đó là một trận đấu tuyệt vời. Ép được đối thủ phải tung ra toàn bộ sức mạnh đã là một kỳ tích đáng khen ngợi rồi!
+Đó là một trận đấu tuyệt vời. Ép được đối thủ phải tung ra toàn bộ sức mạnh đã là một chiến công đáng khen ngợi rồi!
 
 [Shishio]
 KR: 향후 당당한 승부를 위해 더욱 실력을 갈고 닦도록.
-Từ nay hãy tiếp tục mài giũa bản lĩnh để có thể đường đường chính chính đối đầu trong tương lai.
+Sau này hãy tiếp tục tôi luyện bản lĩnh để có thể đường đường chính chính tái đấu!
 
 [Iwahata Gakuto]
 KR: 시시오 니이이임~!!
 Shishio đại nhânnnn~!!
 
 [Moon Hyuna]
+KR: 흐오... 멋지구만
+Hô ô... Ngầu ghê
+
+[Han Yoojin]
 KR: 힘을 모두 끌어낸 거… 아니지 않나?
-Tung ra toàn bộ sức mạnh… đâu có phải nhỉ?
+Tung ra toàn bộ sức mạnh… đâu phải đâu nhỉ?
 
 [Han Yoojin]
 KR: 저, 예림아.
@@ -388,39 +389,39 @@ Này, Yerim-ah.
 
 [Han Yoojin]
 KR: 너 [그림자 없는 낮] 왜 안 썼냐?
-Sao em không dùng [Bạch Nhật Vô Ảnh]?
+Sao nhóc không dùng [Vô Ảnh Nhật]?
 
 [Han Yoojin]
 KR: 그거 써서 가쿠토 발 묶고 네 속성 강화하면 더 유리했을 텐데.
-Nếu dùng chiêu đó để trói chân Gakuto rồi cường hóa thuộc tính thì em sẽ nắm chắc phần thắng hơn nhiều mà.
+Dùng chiêu đó để giữ chân Gakuto rồi cường hóa thuộc tính của nhóc thì có phải chiếm thế thượng phong hơn không?
 
 [Park Yerim]
 KR: 어, 눈치 채셨어요?
-Ơ, chú cũng nhận ra rồi ạ?
+Ơ, chú nhận ra rồi à?
 
 [Park Yerim]
 KR: 사실은 그거 쓰면 너무 쉽게 끝날 것 같아서.
-Thật ra là vì nếu em dùng chiêu đó thì trận đấu sẽ kết thúc dễ dàng quá.
+Thật ra là vì nếu tôi dùng chiêu đó thì trận đấu sẽ kết thúc dễ dàng quá.
 
 [Park Yerim]
 KR: S급 상대로 스킬 맘껏 써 볼 기회 흔치 않으니까…
 Hiếm khi mới có cơ hội được xả chiêu thỏa thích lên một đối thủ cấp S mà…
 
 [Han Yoojin]
-KR: 그간 무지막지하게 강해졌구나, 우리 예…
-Dạo này con bé nhà mình mạnh lên một cách đáng sợ thật đấy…
+KR: 그간 무지막지하게 강해졌구나, 우리 애…
+Dạo này con bé nhà mình mạnh lên một cách dã man thật…
 
-[Han Yoojin]
+[Narrator]
 KR: 이렇게 제1회 S급 헌터 개인전이 끝나고,
 Cứ như thế, giải đấu cá nhân dành cho Thợ săn cấp S lần thứ nhất đã khép lại,
 
-[Han Yoojin]
-KR: 곧바로 스테미나 포션 재료를 구하러 던전으로―
-Và chuẩn bị tiến thẳng vào hầm ngục để tìm kiếm nguyên liệu làm thuốc hồi phục thể lực―
+[Narrator]
+KR: 곧바로 스테미나 포션 재료를 구하러 던전으로…
+Và chúng tôi chuẩn bị tiến thẳng vào ngục tối để tìm kiếm nguyên liệu cho thuốc thể lực…
 
 [Park Yerim]
 KR: 잠깐! 진짜 이대로 끝내려고요?
-Khoan đã! Mọi người định cứ thế mà kết thúc thật đấy à?
+Ủa khoan! Mọi người định kết thúc lãng xẹt như thế này thật đấy à?!
 
 [Park Yerim]
 KR: 다들 진짜 중요한 걸 잊고 있잖아요!
@@ -428,11 +429,11 @@ Tất cả mọi người đang quên mất điều quan trọng nhất rồi k�
 
 [Han Yoojin]
 KR: 진짜 중요한 거?
-Điều quan trọng nhất á?
+Điều quan trọng nhất?
 
 [Park Yerim]
 KR: 모처럼 바다에 놀러 왔으니까!
-Hiếm hoi lắm chúng ta mới có dịp ra biển chơi mà!
+Đã cất công ra biển rồi mà!
 
 [Park Yerim]
 KR: 다같이 물놀이 해야죠!!
@@ -448,4 +449,4 @@ Bầu trời lại xanh ngát một màu!
 
 [Narrator]
 KR: 그렇게 해서 다음 화는 물놀이 특별편이 올라옵니다!
-Và thế là, chương tiếp theo sẽ là tập ngoại truyện đặc biệt về chuyến đi chơi biển!
+Và thế là, chương tiếp theo sẽ là ngoại truyện đặc biệt về chuyến đi chơi biển!

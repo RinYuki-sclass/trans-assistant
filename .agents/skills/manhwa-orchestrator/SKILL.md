@@ -26,8 +26,8 @@ graph TD
     Start["Nhận lệnh dịch từ Người dùng"] --> Step1["1. Quét ảnh raw đầu vào"]
     Step1 --> Step2["2. Chạy manhwa_image_processor.py (Stitch & Slice)"]
     Step2 --> Step3["3. Gọi Subagent Model: pro (manhwa-chunk-translator)"]
-    Step3 --> Step4["4. Kiểm tra QC (Dấu câu, khớp bóng thoại)"]
-    Step4 --> Step5["5. Xuất ra output/manhwa_history/<chapter>/"]
+    Step3 --> Step4["4. Kích hoạt Subagent manhwa-qc-refiner (Speaker Attribution, Clean AI notes, Glossary & Pronouns)"]
+    Step4 --> Step5["5. Xuất ra output/manhwa_history/<chapter>/script.txt"]
     Step5 --> Done["✅ Báo cáo & Hướng dẫn xem Web Side-by-Side"]
 ```
 
@@ -83,9 +83,13 @@ Khi người dùng yêu cầu dịch một chapter manhwa:
      - [`.agents/rules/manhwa_characters_visual.md`](file:///d:/Nhung/trans-tool/.agents/rules/manhwa_characters_visual.md)
      - [`glossary/glossary.txt`](file:///d:/Nhung/trans-tool/glossary/glossary.txt) và [`glossary/personal_notes.md`](file:///d:/Nhung/trans-tool/glossary/personal_notes.md)
    - Sử dụng `invoke_subagent` với `Model: "pro"` hoặc xử lý trực tiếp bằng Gemini Pro Multimodal.
-4. **Kiểm tra QC tự động (Automated Audit)**:
-   - Rà soát các câu dịch: số lượng dấu `!` và `?` có khớp 100% với dòng `KR:` không.
-   - Kiểm tra các từ cấm (ví dụ: xưng `anh` thay vì `Hyung` khi Yoohyun nói).
+4. **Hậu kiểm & Tinh chỉnh qua Subagent chuyên trách (`manhwa-qc-refiner`)**:
+   - Tự động gọi Subagent `manhwa-qc-refiner` để thực thi 5 nhiệm vụ then chốt:
+     1. **Nhận diện đúng nhân vật nói**: Phân biệt lời thoại của Han Yoojin, Sung Hyunjae, Han Yoohyun, Park Yerim, Noah Rugir, Yoo Myungwoo, Iwahata Gakuto.
+     2. **Xóa sạch text rác & note AI tự sinh**: Xóa bỏ các placeholder như "Không có văn bản nào trong hình ảnh...", "No Korean text detected...", xóa tiền tố "VI:", dấu "<...>", và triệt tiêu triệt để các vòng lặp lặp từ (hallucination loops).
+     3. **Bổ sung và phục hồi raw thiếu**: Ghép các dòng bị ngắt vụn thành Single Line Rule, sửa lỗi OCR sai ký tự (ví dụ: `쥐 보게` -> `이것 보게`, `참고` dịch đúng là "chịu đựng" thay vì "tham khảo").
+     4. **Chuẩn hóa Glossary**: Ép chuẩn các thuật ngữ Độc Giác Hỏa Sư, ngục tối, võ đài, Môn thạch, Vô Ảnh Nhật, Kẻ Trị Thủy, Haeyeon, Sesung, Amaterasu.
+     5. **Đảm bảo đúng xưng hô & dấu câu**: Yoohyun gọi Yoojin là "Hyung"; Yerim xưng "tôi", gọi Yoojin là "chú/Ahjussi" (không dùng em/cháu, không dùng ạ); Yoojin gọi Yerim là "nhóc"; Sung Hyunjae ↔ Yoojin: "tôi - cậu" / "tôi - anh"; dấu câu khớp 100% với KR.
 5. **Ghi file và Thông báo**:
    - Lưu kết quả vào `output/manhwa_history/<chapter>/script.txt`.
    - Báo cáo số lượng ảnh và số câu thoại đã dịch, đồng thời nhắc người dùng có thể mở Web Streamlit (Tab 5) để rà soát Side-by-Side nếu muốn.
