@@ -1,6 +1,6 @@
-# 📖 MỤC LỤC: Là Trai Thẳng Nhưng Lại Đánh Dấu Anh Em Tốt Long Ngạo Thiên
-> **Tác giả:** Nãi Sa (奶鲨) | **Tiến độ:** 20/98 chương (20.4%) | **Cập nhật:** 20/11/2026
-> **Trạng thái:** 🟢 Đã duyệt QC (0) | 🔵 Đã dịch (20) | ⚪ Chưa dịch (78)
+﻿# 📖 MỤC LỤC: Là Trai Thẳng Nhưng Lại Đánh Dấu Anh Em Tốt Long Ngạo Thiên
+> **Tác giả:** Nãi Sa (奶鲨) | **Tiến độ:** 50/98 chương (51.0%) | **Cập nhật:** 20/11/2026
+> **Trạng thái:** 🟢 Đã duyệt QC (0) | 🔵 Đã dịch (50) | ⚪ Chưa dịch (48)
 
 ---
 
@@ -28,36 +28,36 @@
 | 18 | `ch_018` | [Chương 18](chapters/ch_018/translation.md) | 第18章 | 199 | 🔵 Đã dịch |
 | 19 | `ch_019` | [Chương 19](chapters/ch_019/translation.md) | 第19章 | 218 | 🔵 Đã dịch |
 | 20 | `ch_020` | [Chương 20](chapters/ch_020/translation.md) | 第20章 | 149 | 🔵 Đã dịch |
-| 21 | `ch_021` | [Chương 21](chapters/ch_021/source.md) | 第21章 霍弈川的觉悟 | 321 | ⚪ Đã cào raw |
-| 22 | `ch_022` | [Chương 22](chapters/ch_022/source.md) | 第22章 一同洗澡 | 256 | ⚪ Đã cào raw |
-| 23 | `ch_023` | [Chương 23](chapters/ch_023/source.md) | 第23章 你喜欢白放星吧？ | 268 | ⚪ Đã cào raw |
-| 24 | `ch_024` | [Chương 24](chapters/ch_024/source.md) | 第24章 想贴贴 | 224 | ⚪ Đã cào raw |
-| 25 | `ch_025` | [Chương 25](chapters/ch_025/source.md) | 第25章 他喜欢白放星 | 191 | ⚪ Đã cào raw |
-| 26 | `ch_026` | [Chương 26](chapters/ch_026/source.md) | 第26章 可以舔一舔吗 | 200 | ⚪ Đã cào raw |
-| 27 | `ch_027` | [Chương 27](chapters/ch_027/source.md) | 第27章 如何安抚白放星？ | 200 | ⚪ Đã cào raw |
-| 28 | `ch_028` | [Chương 28](chapters/ch_028/source.md) | 第28章 霍大哥，你好香 | 229 | ⚪ Đã cào raw |
-| 29 | `ch_029` | [Chương 29](chapters/ch_029/source.md) | 第29章 不要乱碰 | 206 | ⚪ Đã cào raw |
-| 30 | `ch_030` | [Chương 30](chapters/ch_030/source.md) | 第30章 让霍大哥爽 | 240 | ⚪ Đã cào raw |
-| 31 | `ch_031` | [Chương 31](chapters/ch_031/source.md) | 第31章 你喜欢霍弈川吧？ | 208 | ⚪ Đã cào raw |
-| 32 | `ch_032` | [Chương 32](chapters/ch_032/source.md) | 第32章 春药 | 229 | ⚪ Đã cào raw |
-| 33 | `ch_033` | [Chương 33](chapters/ch_033/source.md) | 第33章 指检 | 205 | ⚪ Đã cào raw |
-| 34 | `ch_034` | [Chương 34](chapters/ch_034/source.md) | 第34章 异常 | 196 | ⚪ Đã cào raw |
-| 35 | `ch_035` | [Chương 35](chapters/ch_035/source.md) | 第35章 抑制剂失效 | 172 | ⚪ Đã cào raw |
-| 36 | `ch_036` | [Chương 36](chapters/ch_036/source.md) | 第36章 标记（加更二合一） | 309 | ⚪ Đã cào raw |
-| 37 | `ch_037` | [Chương 37](chapters/ch_037/source.md) | 第37章 惩罚 | 202 | ⚪ Đã cào raw |
-| 38 | `ch_038` | [Chương 38](chapters/ch_038/source.md) | 第38章 欺负 | 193 | ⚪ Đã cào raw |
-| 39 | `ch_039` | [Chương 39](chapters/ch_039/source.md) | 第39章 吃醋 | 198 | ⚪ Đã cào raw |
-| 40 | `ch_040` | [Chương 40](chapters/ch_040/source.md) | 第40章 入梦 | 182 | ⚪ Đã cào raw |
-| 41 | `ch_041` | [Chương 41](chapters/ch_041/source.md) | 第41章 红鸾星动 | 197 | ⚪ Đã cào raw |
-| 42 | `ch_042` | [Chương 42](chapters/ch_042/source.md) | 第42章 双修 | 217 | ⚪ Đã cào raw |
-| 43 | `ch_043` | [Chương 43](chapters/ch_043/source.md) | 第43章 心意 | 214 | ⚪ Đã cào raw |
-| 44 | `ch_044` | [Chương 44](chapters/ch_044/source.md) | 第44章 “公主”与骑士 | 194 | ⚪ Đã cào raw |
-| 45 | `ch_045` | [Chương 45](chapters/ch_045/source.md) | 第45章 读心声 | 266 | ⚪ Đã cào raw |
-| 46 | `ch_046` | [Chương 46](chapters/ch_046/source.md) | 第46章 干上坏事 | 200 | ⚪ Đã cào raw |
-| 47 | `ch_047` | [Chương 47](chapters/ch_047/source.md) | 第47章 你喜欢我？ | 203 | ⚪ Đã cào raw |
-| 48 | `ch_048` | [Chương 48](chapters/ch_048/source.md) | 第48章 奖励 | 195 | ⚪ Đã cào raw |
-| 49 | `ch_049` | [Chương 49](chapters/ch_049/source.md) | 第49章 亲生父亲 | 212 | ⚪ Đã cào raw |
-| 50 | `ch_050` | [Chương 50](chapters/ch_050/source.md) | 第50章 白色巨狐 | 160 | ⚪ Đã cào raw |
+| 21 | `ch_021` | [Chương 21](chapters/ch_021/translation.md) | 第21章 霍弈川的觉悟 | 321 | 🔵 Đã dịch |
+| 22 | `ch_022` | [Chương 22](chapters/ch_022/translation.md) | 第22章 一同洗澡 | 256 | 🔵 Đã dịch |
+| 23 | `ch_023` | [Chương 23](chapters/ch_023/translation.md) | 第23章 你喜欢白放星吧？ | 268 | 🔵 Đã dịch |
+| 24 | `ch_024` | [Chương 24](chapters/ch_024/translation.md) | 第24章 想贴贴 | 224 | 🔵 Đã dịch |
+| 25 | `ch_025` | [Chương 25](chapters/ch_025/translation.md) | 第25章 他喜欢白放星 | 191 | 🔵 Đã dịch |
+| 26 | `ch_026` | [Chương 26](chapters/ch_026/translation.md) | 第26章 可以舔一舔吗 | 200 | 🔵 Đã dịch |
+| 27 | `ch_027` | [Chương 27](chapters/ch_027/translation.md) | 第27章 如何安抚白放星？ | 200 | 🔵 Đã dịch |
+| 28 | `ch_028` | [Chương 28](chapters/ch_028/translation.md) | 第28章 霍大哥，你好香 | 229 | 🔵 Đã dịch |
+| 29 | `ch_029` | [Chương 29](chapters/ch_029/translation.md) | 第29章 不要乱碰 | 206 | 🔵 Đã dịch |
+| 30 | `ch_030` | [Chương 30](chapters/ch_030/translation.md) | 第30章 让霍大哥爽 | 240 | 🔵 Đã dịch |
+| 31 | `ch_031` | [Chương 31](chapters/ch_031/translation.md) | 第31章 你喜欢霍弈川吧？ | 208 | 🔵 Đã dịch |
+| 32 | `ch_032` | [Chương 32](chapters/ch_032/translation.md) | 第32章 春药 | 229 | 🔵 Đã dịch |
+| 33 | `ch_033` | [Chương 33](chapters/ch_033/translation.md) | 第33章 指检 | 205 | 🔵 Đã dịch |
+| 34 | `ch_034` | [Chương 34](chapters/ch_034/translation.md) | 第34章 异常 | 196 | 🔵 Đã dịch |
+| 35 | `ch_035` | [Chương 35](chapters/ch_035/translation.md) | 第35章 抑制剂失效 | 172 | 🔵 Đã dịch |
+| 36 | `ch_036` | [Chương 36](chapters/ch_036/translation.md) | 第36章 标记（加更二合一） | 309 | 🔵 Đã dịch |
+| 37 | `ch_037` | [Chương 37](chapters/ch_037/translation.md) | 第37章 惩罚 | 202 | 🔵 Đã dịch |
+| 38 | `ch_038` | [Chương 38](chapters/ch_038/translation.md) | 第38章 欺负 | 193 | 🔵 Đã dịch |
+| 39 | `ch_039` | [Chương 39](chapters/ch_039/translation.md) | 第39章 吃醋 | 198 | 🔵 Đã dịch |
+| 40 | `ch_040` | [Chương 40](chapters/ch_040/translation.md) | 第40章 入梦 | 182 | 🔵 Đã dịch |
+| 41 | `ch_041` | [Chương 41](chapters/ch_041/translation.md) | 第41章 红鸾星动 | 197 | 🔵 Đã dịch |
+| 42 | `ch_042` | [Chương 42](chapters/ch_042/translation.md) | 第42章 双修 | 217 | 🔵 Đã dịch |
+| 43 | `ch_043` | [Chương 43](chapters/ch_043/translation.md) | 第43章 心意 | 214 | 🔵 Đã dịch |
+| 44 | `ch_044` | [Chương 44](chapters/ch_044/translation.md) | 第44章 “公主”与骑士 | 194 | 🔵 Đã dịch |
+| 45 | `ch_045` | [Chương 45](chapters/ch_045/translation.md) | 第45章 读心声 | 266 | 🔵 Đã dịch |
+| 46 | `ch_046` | [Chương 46](chapters/ch_046/translation.md) | 第46章 干上坏事 | 200 | 🔵 Đã dịch |
+| 47 | `ch_047` | [Chương 47](chapters/ch_047/translation.md) | 第47章 你喜欢我？ | 203 | 🔵 Đã dịch |
+| 48 | `ch_048` | [Chương 48](chapters/ch_048/translation.md) | 第48章 奖励 | 195 | 🔵 Đã dịch |
+| 49 | `ch_049` | [Chương 49](chapters/ch_049/translation.md) | 第49章 亲生父亲 | 212 | 🔵 Đã dịch |
+| 50 | `ch_050` | [Chương 50](chapters/ch_050/translation.md) | 第50章 白色巨狐 | 160 | 🔵 Đã dịch |
 | 51 | `ch_051` | [Chương 51](chapters/ch_051/source.md) | 第51章 傻子 | 223 | ⚪ Đã cào raw |
 | 52 | `ch_052` | [Chương 52](chapters/ch_052/source.md) | 第52章 要一个答案 | 189 | ⚪ Đã cào raw |
 | 53 | `ch_053` | [Chương 53](chapters/ch_053/source.md) | 第53章 告白（6k营养液加更二合一） | 255 | ⚪ Đã cào raw |

@@ -72,7 +72,15 @@ VI_COMPOUND_WORDS = {
     ('bây', 'giờ'), ('trước', 'mắt'), ('sau', 'lưng'), ('phía', 'trước'),
     ('chẳng', 'lẽ'), ('toàn', 'bộ'), ('thành', 'viên'), ('tổ', 'đội'),
     ('phải', 'vậy'), ('lý', 'do'), ('bỏ', 'lại'), ('ra', 'ngoài'),
-    ('đối', 'tác'), ('ngục', 'tối'), ('thất', 'vọng')
+    ('đối', 'tác'), ('ngục', 'tối'), ('thất', 'vọng'),
+    ('chỉ', 'để'), ('đến', 'đây'), ('thôi', 'sao'), ('thì', 'sao'),
+    ('sao', 'lại'), ('thế', 'nào'), ('có', 'phải'), ('phải', 'không'),
+    ('chỉ', 'là'), ('thật', 'sự'), ('quả', 'nhiên'), ('ngay', 'cả'),
+    ('không', 'chừng'), ('chẳng', 'phải'), ('được', 'rồi'), ('không', 'sao'),
+    ('đúng', 'vậy'), ('vậy', 'sao'), ('đương', 'nhiên'), ('tất', 'nhiên'),
+    ('ít', 'nhất'), ('nhiều', 'hơn'), ('hơn', 'nữa'), ('thậm', 'chí'),
+    ('cơ', 'mà'), ('lại', 'còn'), ('đồng', 'nghiệp'), ('đối', 'phương'),
+    ('xin', 'lỗi'), ('cảm', 'ơn'), ('tạm', 'biệt')
 }
 
 
@@ -87,16 +95,12 @@ def is_compound_pair(w1, w2):
 def get_egg_profile(K):
     """
     Tạo ma trận tỷ lệ bề rộng chuẩn cho dáng hình quả trứng / elip đứng:
-    Đỉnh hẹp nhẹ -> Thân phình rộng -> Đáy bo gọn mỹ thuật.
+    Đỉnh hẹp nhẹ -> Thân phình rộng cân đối -> Đáy bo gọn mỹ thuật.
     """
     profile = []
     for i in range(K):
         t = ((i + 0.5) / K) * 2.0 - 1.0  # từ -1.0 (đỉnh) tới 1.0 (đáy)
         w = math.sqrt(max(0.12, 1.0 - t * t))
-        if t < 0:
-            w *= (1.0 + 0.05 * t)  # thon nhẹ ở phần đỉnh trứng
-        else:
-            w *= (1.0 + 0.03 * (1.0 - t))  # đẫy đà ở phần thân dưới
         profile.append(w)
     m = max(profile)
     return [p / m for p in profile]
@@ -152,56 +156,66 @@ def format_egg_shaped_text(raw_text, bubble_w=500, bubble_h=500):
     else:
         candidate_Ks = [4, 5, 6]
 
+    MIN_FONT_SIZE = 65
+    safe_w = max(bubble_w * 0.74, 180.0)
+    max_safe_units = safe_w / (MIN_FONT_SIZE * 0.48)
+
+    # Base candidate Ks theo số từ
+    if n < 5:
+        base_Ks = [1, 2] if n <= 3 else [2]
+    elif n == 5:
+        base_Ks = [3]
+    elif n <= 7:
+        base_Ks = [3]
+    elif n <= 11:
+        base_Ks = [3, 4]
+    elif n <= 16:
+        base_Ks = [3, 4, 5]
+    else:
+        base_Ks = [4, 5, 6]
+
+    total_units = estimate_text_width(clean_text)
+    min_k_needed = max(1, int(math.ceil(total_units / max_safe_units)))
+    all_Ks = sorted(list(set(base_Ks + [min_k_needed, min_k_needed + 1, min_k_needed + 2])))
+    all_Ks = [k for k in all_Ks if 1 <= k <= min(n, 12)]
+
+    # =========================================================================
+    # PASS 1: CHẾ ĐỘ QUY TẮC CHUẨN (Strict Rules)
+    # - Cấm từ mồ côi (Zero orphan)
+    # - Bảo vệ từ ghép tiếng Việt (Pair penalty)
+    # - Cấm thắt eo (Waist penalty)
+    # - Form quả trứng / elip mỹ thuật
+    # - BẮT BUỘC KHÔNG ĐƯỢC TRÀN VIỀN (max_w <= max_safe_units)
+    # =========================================================================
     best_score = float('inf')
-    best_lines = [clean_text]
+    best_lines = None
 
-    for K in candidate_Ks:
-        if K > n or K < 1:
-            continue
-        if K == 1:
-            score = 100.0 if n > 3 else 0.0
-            if score < best_score:
-                best_score = score
-                best_lines = [clean_text]
-            continue
-
+    for K in all_Ks:
         profile = get_egg_profile(K)
-
         for cuts in itertools.combinations(range(1, n), K - 1):
             indices = [0] + list(cuts) + [n]
             lines = [' '.join(words[indices[i]:indices[i+1]]) for i in range(K)]
 
-            # 1. STRICT ZERO ORPHAN MANDATE:
-            orphan_penalty = 0.0
-            if n >= 6:
-                if any(len(l.split()) <= 1 for l in lines):
-                    continue
-            elif n == 5:
-                # Với 5 từ: chỉ cho phép 2-2-1 hoặc 1-2-2, cấm dòng giữa 1 từ
-                if len(lines[1].split()) <= 1:
-                    continue
-                orphan_penalty += 3.0
+            # Strict zero orphan:
+            if n >= 6 and any(len(l.split()) <= 1 for l in lines):
+                continue
+            elif n == 5 and len(lines[1].split()) <= 1:
+                continue
 
             widths = [estimate_text_width(l) for l in lines]
             max_w = max(widths)
-            if max_w == 0:
+            if max_w > max_safe_units:
                 continue
+
             norm_widths = [w / max_w for w in widths]
-
-            # 2. Điểm khớp dáng quả trứng (Profile shape error)
             shape_err = sum((norm_widths[i] - profile[i]) ** 2 for i in range(K))
-
-            # 3. Phạt triệt để thắt eo / hourglass (Dòng giữa hẹp hơn các dòng ngoài)
             waist_penalty = 0.0
             if K >= 3:
                 for i in range(1, K - 1):
-                    if widths[i] < min(widths[i-1], widths[i+1]) * 0.95:
-                        waist_penalty += 80.0
+                    if widths[i] < min(widths[i-1], widths[i+1]) * 0.82:
+                        waist_penalty += 120.0
 
-            # 4. Phạt xé đôi từ ghép tiếng Việt
-            pair_penalty = sum(10.0 for c in cuts if is_compound_pair(words[c-1], words[c]))
-
-            # 5. Cân đối độ dài & phương sai dòng
+            pair_penalty = sum(35.0 for c in cuts if is_compound_pair(words[c-1], words[c]))
             length_variance = max(widths) - min(widths)
             cost = shape_err * 4.5 + waist_penalty + pair_penalty + (length_variance / max_w) * 1.5
 
@@ -209,7 +223,47 @@ def format_egg_shaped_text(raw_text, bubble_w=500, bubble_h=500):
                 best_score = cost
                 best_lines = lines
 
-    return '\r'.join(best_lines)
+    if best_lines is not None:
+        return '\r'.join(best_lines)
+
+    # =========================================================================
+    # PASS 2: CASE NGOẠI LỆ (KHI KIỂU GÌ CŨNG TRÀN VIỀN THEO RULE THÔNG THƯỜNG)
+    # Yêu cầu từ User: 'Bổ sung case ngoại lệ, nếu kiểu gì cũng tràn viền thì có thể cắt từ vựng ko cần rule'
+    # - Nới lỏng hoàn toàn các ràng buộc: cho phép cắt từ ghép, cho phép dòng 1 từ
+    # - Mở rộng số dòng K lên tới mức tối đa cần thiết
+    # - ƯU TIÊN SỐ 1: Bề rộng dòng max_w phải nhỏ nhất có thể để không đè border
+    # =========================================================================
+    fallback_score = float('inf')
+    fallback_lines = [clean_text]
+
+    extended_Ks = sorted(list(set(all_Ks + list(range(min_k_needed, min(n, min_k_needed + 4) + 1)))))
+    extended_Ks = [k for k in extended_Ks if 1 <= k <= min(n, 12)]
+
+    for K in extended_Ks:
+        profile = get_egg_profile(K)
+        for cuts in itertools.combinations(range(1, n), K - 1):
+            indices = [0] + list(cuts) + [n]
+            lines = [' '.join(words[indices[i]:indices[i+1]]) for i in range(K)]
+            widths = [estimate_text_width(l) for l in lines]
+            max_w = max(widths)
+
+            # Ưu tiên triệt tiêu tràn viền tuyệt đối
+            overflow = max(0.0, max_w - max_safe_units)
+            overflow_penalty = overflow * 300.0
+
+            norm_widths = [w / max_w for w in widths]
+            shape_err = sum((norm_widths[i] - profile[i]) ** 2 for i in range(K))
+
+            # Cắt từ vựng ko cần rule: không phạt nặng xé từ ghép, không cấm từ 1 chữ
+            pair_penalty = sum(0.5 for c in cuts if is_compound_pair(words[c-1], words[c]))
+            orphan_penalty = sum(5.0 for l in lines if len(l.split()) <= 1)
+
+            cost = overflow_penalty + (max_w / max_safe_units) * 50.0 + shape_err * 2.0 + pair_penalty + orphan_penalty
+            if cost < fallback_score:
+                fallback_score = cost
+                fallback_lines = lines
+
+    return '\r'.join(fallback_lines)
 
 
 def calculate_adaptive_font_size(formatted_text, bubble_w, bubble_h, raw_font_size, cur_text_size=0):
@@ -234,11 +288,11 @@ def calculate_adaptive_font_size(formatted_text, bubble_w, bubble_h, raw_font_si
     if max_line_units == 0:
         return max(MIN_FONT_SIZE, int(round(base_size)))
 
-    safe_w = max(bubble_w * 0.88, 380.0)
-    safe_h = max(bubble_h * 0.85, 260.0)
+    safe_w = max(bubble_w * 0.76, 200.0)
+    safe_h = max(bubble_h * 0.85, 200.0)
 
     est_w = max_line_units * base_size * 0.48
-    est_h = K * base_size * 1.25
+    est_h = K * base_size * 1.20
 
     scale = 1.0
     if est_w > safe_w or est_h > safe_h:
@@ -247,6 +301,13 @@ def calculate_adaptive_font_size(formatted_text, bubble_w, bubble_h, raw_font_si
         scale = min(1.0, scale_w, scale_h)
 
     final_size = int(round(base_size * scale))
+
+    # CASE NGOẠI LỆ: Nếu tại MIN_FONT_SIZE mà vẫn bị tràn viền (est_w > safe_w), 
+    # thì ưu tiên chống tràn viền tuyệt đối bằng cách co chữ vừa vặn an toàn (tránh đè nét stroke viền)
+    if max_line_units * MIN_FONT_SIZE * 0.48 > safe_w:
+        fit_size = int(math.floor(safe_w / (max_line_units * 0.48)))
+        return max(45, fit_size)
+
     return max(MIN_FONT_SIZE, final_size)
 
 
@@ -422,10 +483,37 @@ def analyze_with_comic_text(session, img_bgr, query_x, query_y, cur_w, cur_h, cu
                     best_dist = dist
                     target_center_x = bcx
                     target_center_y = bcy
-                    bubble_w = max(int(blk["box"][2] * 1.35), int(cur_w * 1.15), 350)
-                    bubble_h = max(int(blk["box"][3] * 1.35), int(cur_h * 1.15), 250)
+                    bubble_w = max(int(blk["box"][2] * 1.45), int(cur_w * 1.2), 400)
+                    bubble_h = max(int(blk["box"][3] * 1.55), int(cur_h * 1.2), 350)
                     if blk["num_lines"] > 0:
                         ai_line_h = blk["avg_line_height"]
+
+        # Đo chiều rộng lòng bóng thoại thực tế bằng ray casting từ bên ngoài khối chữ
+        if target_center_x is not None:
+            tcx_int = int(round(target_center_x))
+            tcy_int = int(round(target_center_y))
+            if 0 <= tcx_int < w and 0 <= tcy_int < h:
+                gray_crop = cv2.cvtColor(img_bgr, cv2.COLOR_BGR2GRAY)
+                if gray_crop[tcy_int, tcx_int] > 180:
+                    start_left = int(max(0, target_center_x - cur_w * 0.45))
+                    start_right = int(min(w - 1, target_center_x + cur_w * 0.45))
+                    left_d = 0
+                    for rx in range(start_left, 0, -1):
+                        if gray_crop[tcy_int, rx] < 80:
+                            left_d = target_center_x - rx
+                            break
+                    right_d = 0
+                    for rx in range(start_right, w):
+                        if gray_crop[tcy_int, rx] < 80:
+                            right_d = rx - target_center_x
+                            break
+                    if left_d >= 100 and right_d >= 100:
+                        measured_w = int(round(left_d + right_d))
+                        bubble_w = min(bubble_w, measured_w)
+                    elif left_d >= 100 and right_d == 0:
+                        bubble_w = min(bubble_w, int(round(left_d * 1.8)))
+                    elif right_d >= 100 and left_d == 0:
+                        bubble_w = min(bubble_w, int(round(right_d * 1.8)))
 
         # -------------------------------------------------------------
         # 3. HEAD 'seg': PIXEL-LEVEL TEXT SEGMENTATION MASK (Fallback & Chiều cao chữ)

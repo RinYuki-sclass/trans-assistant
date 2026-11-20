@@ -17,15 +17,16 @@ function main() {
     app.displayDialogs = DialogModes.NO;
 
     try {
-        // 1. Tìm Layer 'raw' và 'Group 1'
+        // 1. Tìm Layer 'raw' và 'Group 1' (hoặc group text bất kỳ)
         var rawLayer = findRawLayer(doc);
         var group1 = findLayer(doc, "Group 1");
+        if (!group1) group1 = findTextGroup(doc);
 
-        // 2. LẤY TẤT CẢ CÁC TEXT LAYER ĐƯỢC CHỌN (MULTI-SELECTION)
+        // 2. LẤY TẤT CẢ CÁC TEXT LAYER (MULTI-SELECTION HOẶC TOÀN BỘ BATCH CỦA FILE)
         var targetTextLayers = getSelectedTextLayers(doc, group1);
 
         if (targetTextLayers.length === 0) {
-            alert("Vui lòng giữ phím Ctrl click chọn các Text Layer (hoặc chọn thư mục Group 1) trước khi bấm F8!");
+            alert("Không tìm thấy Text Layer nào trong tài liệu!\nVui lòng tạo hoặc hiển thị các Text Layer trước khi bấm F8.");
             return;
         }
 
@@ -275,7 +276,52 @@ function main() {
             }
         }
 
-        alert("Hoàn tất! Đã tự động căn giữa & căn cỡ chữ thành công cho " + successCount + " Text Layer!");
+        // 9. TỰ ĐỘNG XUẤT ẢNH PREVIEW KẾT QUẢ (AUTOMATED VISUAL FEEDBACK PREVIEWS)
+        // Giúp AI Agent tự đọc và tự kiểm tra kết quả thị giác trực tiếp mà người dùng KHÔNG CẦN CHỤP ẢNH
+        try {
+            var previewFolder = new Folder(scriptFolder + "\\debug_previews");
+            if (!previewFolder.exists) previewFolder.create();
+
+            for (var p = 0; p < targetTextLayers.length; p++) {
+                var pLyr = targetTextLayers[p];
+                var pb = getLayerExactBounds(pLyr);
+                var padX = 220;
+                var padY = 180;
+                var px1 = Math.max(0, Math.round(pb[0] - padX));
+                var py1 = Math.max(0, Math.round(pb[1] - padY));
+                var px2 = Math.min(docW, Math.round(pb[2] + padX));
+                var py2 = Math.min(docH, Math.round(pb[3] + padY));
+
+                var pW = px2 - px1;
+                var pH = py2 - py1;
+                if (pW < 10 || pH < 10) continue;
+
+                var pSelRegion = [
+                    [px1, py1],
+                    [px2, py1],
+                    [px2, py2],
+                    [px1, py2]
+                ];
+                doc.selection.select(pSelRegion);
+                try {
+                    doc.selection.copy(true); // Copy merged gồm cả nền và chữ đã typeset
+                    var pDoc = app.documents.add(pW, pH, 72, "AutoPreview", NewDocumentMode.RGB, DocumentFill.TRANSPARENT);
+                    pDoc.paste();
+                    var pFile = new File(previewFolder.fsName + "\\preview_" + p + ".png");
+                    pDoc.saveAs(pFile, pngSaveOpts, true, Extension.LOWERCASE);
+                    pDoc.close(SaveOptions.DONOTSAVECHANGES);
+                    app.activeDocument = doc;
+                } catch (eCopy) {}
+
+                // Định kỳ dọn bộ nhớ đệm clipboard mỗi 5 layer để tránh tràn RAM trên trang dài
+                if ((p + 1) % 5 === 0) {
+                    try { app.purge(PurgeTarget.CLIPBOARDCACHE); } catch (ePurge) {}
+                }
+            }
+            try { doc.selection.deselect(); } catch (eDesel) {}
+        } catch (ePrev) {}
+
+        alert("Hoàn tất! Đã tự động căn giữa & căn cỡ chữ thành công cho " + successCount + " Text Layer!\n(Đã tự động lưu ảnh preview vào debug_previews để AI tự động kiểm tra).");
 
     } finally {
         app.displayDialogs = origDialogMode;
@@ -336,6 +382,13 @@ function cleanOldLayoutFiles(folderPath) {
     for (var i = 0; i < files.length; i++) {
         files[i].remove();
     }
+    var prevF = new Folder(folderPath + "\\debug_previews");
+    if (prevF.exists) {
+        var pFiles = prevF.getFiles("preview_*.png");
+        for (var p = 0; p < pFiles.length; p++) {
+            pFiles[p].remove();
+        }
+    }
     var oldIn = new File(folderPath + "\\layout_inputs.json");
     if (oldIn.exists) oldIn.remove();
     var oldRes = new File(folderPath + "\\layout_results.json");
@@ -343,7 +396,10 @@ function cleanOldLayoutFiles(folderPath) {
 }
 
 function getSelectedTextLayers(doc, group1) {
-    var layers = [];
+    var selectedLayers = [];
+    var isMultiSelection = false;
+
+    // 1. Kiểm tra targetLayersIDs (các layer được user chọn trực tiếp trên panel)
     try {
         var ref = new ActionReference();
         ref.putProperty(charIDToTypeID("Prpr"), stringIDToTypeID("targetLayersIDs"));
@@ -352,34 +408,104 @@ function getSelectedTextLayers(doc, group1) {
 
         if (desc.hasKey(stringIDToTypeID("targetLayersIDs"))) {
             var list = desc.getList(stringIDToTypeID("targetLayersIDs"));
+            if (list.count > 1) {
+                isMultiSelection = true;
+            }
             for (var i = 0; i < list.count; i++) {
                 var id = list.getReference(i).getIdentifier();
                 var lyr = getLayerByID(doc, id);
                 if (lyr) {
                     if (lyr.typename === "ArtLayer" && lyr.kind === LayerKind.TEXT) {
-                        layers.push(lyr);
+                        selectedLayers.push(lyr);
                     } else if (lyr.typename === "LayerSet") {
-                        getAllTextLayers(lyr, layers);
+                        // User đã chủ động click chọn thư mục Group -> lấy trọn vẹn toàn bộ text trong group đó
+                        getAllTextLayers(lyr, selectedLayers);
+                        if (selectedLayers.length > 0) {
+                            return sortLayersByTopToBottom(selectedLayers);
+                        }
                     }
                 }
             }
         }
     } catch (e) {}
 
-    if (layers.length === 0) {
-        if (doc.activeLayer) {
-            if (doc.activeLayer.typename === "ArtLayer" && doc.activeLayer.kind === LayerKind.TEXT) {
-                layers.push(doc.activeLayer);
-            } else if (doc.activeLayer.typename === "LayerSet") {
-                getAllTextLayers(doc.activeLayer, layers);
-            }
-        }
-        if (layers.length === 0 && group1 && group1.typename === "LayerSet") {
-            getAllTextLayers(group1, layers);
+    // Nếu user chủ động giữ Ctrl / Shift click chọn NHIỀU layer (> 1) -> Tôn trọng triệt để lựa chọn đó
+    if (isMultiSelection && selectedLayers.length > 1) {
+        return sortLayersByTopToBottom(selectedLayers);
+    }
+
+    // 2. Thu thập tất cả các Text Layer trong toàn bộ tài liệu (hoặc group text)
+    var allDocTextLayers = [];
+    if (group1 && group1.typename === "LayerSet") {
+        getAllTextLayers(group1, allDocTextLayers);
+    }
+
+    if (allDocTextLayers.length === 0) {
+        var textGroup = findTextGroup(doc);
+        if (textGroup && textGroup.typename === "LayerSet") {
+            getAllTextLayers(textGroup, allDocTextLayers);
         }
     }
 
+    if (allDocTextLayers.length === 0) {
+        getAllTextLayers(doc, allDocTextLayers);
+    }
+
+    // 3. XỬ LÝ KHI PHÁT HIỆN NHIỀU LAYER TRONG TÀI LIỆU
+    if (allDocTextLayers.length > 1) {
+        var singleLyr = (selectedLayers.length === 1) ? selectedLayers[0] : doc.activeLayer;
+        var singleName = (singleLyr && singleLyr.name) ? singleLyr.name : "layer hiện tại";
+
+        var promptMsg = "Phát hiện " + allDocTextLayers.length + " Text Layer trong tài liệu!\n\n" +
+            "• Bấm [OK] (Enter): Tự động căn giữa & căn cỡ chữ HÀNG LOẠT cho TOÀN BỘ " + allDocTextLayers.length + " layer.\n" +
+            "• Bấm [Cancel] (Esc): Chỉ căn chỉnh duy nhất 1 layer đang chọn ('" + singleName + "').";
+
+        if (confirm(promptMsg)) {
+            return sortLayersByTopToBottom(allDocTextLayers);
+        } else {
+            return (selectedLayers.length > 0) ? selectedLayers : [singleLyr];
+        }
+    }
+
+    if (allDocTextLayers.length === 1) {
+        return allDocTextLayers;
+    }
+
+    return selectedLayers;
+}
+
+function sortLayersByTopToBottom(layers) {
+    layers.sort(function(a, b) {
+        var ya = 0, yb = 0;
+        try { ya = a.bounds[1].as('px'); } catch (e) {}
+        try { yb = b.bounds[1].as('px'); } catch (e) {}
+        return ya - yb;
+    });
     return layers;
+}
+
+function findTextGroup(container) {
+    var textGroupKeywords = ["group 1", "group", "text", "thoại", "thoai", "type", "typeset", "viet", "dịch", "trans", "sub", "chữ", "dialogue"];
+    for (var k = 0; k < textGroupKeywords.length; k++) {
+        var grp = findLayerByKeyword(container, textGroupKeywords[k]);
+        if (grp && grp.typename === "LayerSet") return grp;
+    }
+    return null;
+}
+
+function findLayerByKeyword(container, keyword) {
+    var kw = keyword.toLowerCase();
+    for (var i = 0; i < container.layers.length; i++) {
+        var lyr = container.layers[i];
+        if (lyr.name.toLowerCase().indexOf(kw) !== -1) {
+            return lyr;
+        }
+        if (lyr.typename === "LayerSet") {
+            var sub = findLayerByKeyword(lyr, keyword);
+            if (sub) return sub;
+        }
+    }
+    return null;
 }
 
 function getLayerByID(doc, id) {
