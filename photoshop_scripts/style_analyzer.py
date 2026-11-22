@@ -13,6 +13,7 @@ từ vùng chọn bản raw Webtoon/Manhwa, xử lý CHÍNH XÁC TUYỆT ĐỐI 
 import os
 import sys
 import json
+import cv2
 import numpy as np
 from PIL import Image, ImageDraw, ImageFilter
 from dotenv import load_dotenv
@@ -55,27 +56,16 @@ def delta_e_simple(rgb1, rgb2):
 
 def analyze_with_local_cv(image_path):
     """
-    Thuật toán thị giác máy tính cục bộ chuyên biệt cho chữ Manhwa.
-    Độ chính xác cao, xử lý trong 0.05 giây, không phụ thuộc API key.
+    Thuật toán thị giác máy tính cục bộ chuyên biệt cho chữ Manhwa/Webtoon.
+    Độ chính xác cao, xử lý trong 0.05 giây, không phụ thuộc API key:
+      1. Tự động nhận diện bong bóng thoại sáng (Speech Bubble) bất kể viền ngoài có chạm nền tranh tối hay không.
+      2. Tách bóc tách chính xác sắc thái màu (tím, đỏ, xanh, cam...) và Gradient top-to-bottom.
+      3. Xử lý chuẩn xác chữ viền sáng trên nền tối (Action/SFX), chữ trắng vết máu (Horror).
     """
     img = Image.open(image_path).convert("RGB")
-    arr = np.array(img)
-    H, W, _ = arr.shape
-    
-    # Lọc nhẹ giảm nhiễu hạt halftone / grain của truyện scan
     smooth = np.array(img.filter(ImageFilter.MedianFilter(3)))
+    H, W, _ = smooth.shape
     lum = 0.299 * smooth[:,:,0] + 0.587 * smooth[:,:,1] + 0.114 * smooth[:,:,2]
-    
-    # 1. Đo màu và độ sáng nền từ 4 góc và rìa ảnh
-    corner_pixels = np.concatenate([
-        smooth[:max(2, H//8), :max(2, W//8)].reshape(-1, 3),
-        smooth[:max(2, H//8), -max(2, W//8):].reshape(-1, 3),
-        smooth[-max(2, H//8):, :max(2, W//8)].reshape(-1, 3),
-        smooth[-max(2, H//8):, -max(2, W//8):].reshape(-1, 3)
-    ])
-    bg_color = np.median(corner_pixels, axis=0)
-    bg_lum = 0.299 * bg_color[0] + 0.587 * bg_color[1] + 0.114 * bg_color[2]
-    is_white_bubble = (bg_lum > 220) and (np.std(corner_pixels) < 20)
     
     # Kết quả mặc định an toàn
     result = {
@@ -86,30 +76,193 @@ def analyze_with_local_cv(image_path):
         "outer_glow": {"enabled": False, "color_hex": "#FFFFFF", "size_px": 5.0, "opacity_percent": 60},
         "drop_shadow": {"enabled": False, "color_hex": "#000000", "distance_px": 4.0, "blur_px": 4.0}
     }
-    
-    # 2. PHÂN TÍCH VÙNG SÁNG (Bright Mask)
+
+    # 1. Đo phân bố độ sáng và kiểm tra Bong bóng thoại sáng (Speech Bubble Detection)
+    bright_ratio = np.mean(lum > 170)
+    bright_pixels = smooth[lum > 170]
+    if len(bright_pixels) > 0:
+        bright_med = np.median(bright_pixels, axis=0)
+        bright_lum = 0.299 * bright_med[0] + 0.587 * bright_med[1] + 0.114 * bright_med[2]
+    else:
+        bright_med = np.array([255, 255, 255])
+        bright_lum = 255.0
+
+    corners = [
+        smooth[:max(2, H//8), :max(2, W//8)].reshape(-1, 3),
+        smooth[:max(2, H//8), -max(2, W//8):].reshape(-1, 3),
+        smooth[-max(2, H//8):, :max(2, W//8)].reshape(-1, 3),
+        smooth[-max(2, H//8):, -max(2, W//8):].reshape(-1, 3)
+    ]
+    corner_medians = [np.median(c, axis=0) for c in corners]
+    bg_color_corners = np.median(corner_medians, axis=0)
+    bg_lum_corners = 0.299 * bg_color_corners[0] + 0.587 * bg_color_corners[1] + 0.114 * bg_color_corners[2]
+
+    # Nhận diện Bong bóng thoại sáng:
+    # Nếu có ít nhất 25% diện tích sáng (> 170) và màu sáng đạt chuẩn, HOẶC 4 góc là nền sáng
+    is_speech_bubble = (bright_ratio >= 0.25 and bright_lum > 180) or (bg_lum_corners > 170)
+
+    # =========================================================================
+    # PHÂN NHÁNH 1: BONG BÓNG THOẠI SÁNG / NỀN TRẮNG (SPEECH BUBBLE & STYLIZED SFX)
+    # =========================================================================
+    if is_speech_bubble:
+        # Kiểm tra xem chữ trên nền sáng có hiệu ứng Viền trắng + Glow/Shadow tối (SFX / Độc thoại cách điệu như preview_0) không
+        core_mask = lum < min(75, bg_lum_corners * 0.45)
+        if core_mask.sum() > 30:
+            kernel = cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (3, 3))
+            d = core_mask.astype(np.uint8)
+            ring_lums = []
+            ring_rgbs = []
+            for step in range(14):
+                d_next = cv2.dilate(d, kernel)
+                ring = (d_next > 0) & (d == 0)
+                if ring.sum() > 0:
+                    ring_lums.append(float(np.median(lum[ring])))
+                    ring_rgbs.append(np.median(smooth[ring], axis=0))
+                d = d_next
+
+            max_early = max(ring_lums[:6]) if len(ring_lums) >= 6 else 0
+            min_late = min(ring_lums[6:]) if len(ring_lums) > 6 else 0
+            dip = max_early - min_late
+
+            # Khi phát hiện đỉnh sáng (viền trắng) và thung lũng tối (vùng đổ bóng / outer glow):
+            if max_early >= 235 and dip >= 20.0:
+                fill_px = smooth[core_mask]
+                y_idx, x_idx = np.where(core_mask)
+                y_min, y_max = y_idx.min(), y_idx.max()
+                y_span = max(1, y_max - y_min)
+
+                top_cut = core_mask & (np.arange(H)[:, None] <= y_min + 0.35 * y_span)
+                bot_cut = core_mask & (np.arange(H)[:, None] >= y_max - 0.35 * y_span)
+
+                top_rgb = np.median(smooth[top_cut], axis=0).astype(int) if top_cut.any() else np.median(fill_px, axis=0).astype(int)
+                bot_rgb = np.median(smooth[bot_cut], axis=0).astype(int) if bot_cut.any() else np.median(fill_px, axis=0).astype(int)
+                mid_rgb = np.median(fill_px, axis=0).astype(int)
+
+                color_diff = delta_e_simple(top_rgb, bot_rgb)
+                lum_diff = abs(float(np.mean(top_rgb)) - float(np.mean(bot_rgb)))
+
+                if (color_diff > 25 or lum_diff > 30) and y_span > 12:
+                    result["fill"] = {
+                        "is_gradient": True,
+                        "solid_hex": to_hex(mid_rgb),
+                        "top_hex": to_hex(top_rgb),
+                        "bottom_hex": to_hex(bot_rgb),
+                        "angle": 90
+                    }
+                else:
+                    solid_hex = to_hex(mid_rgb)
+                    result["fill"] = {
+                        "is_gradient": False,
+                        "solid_hex": solid_hex,
+                        "top_hex": solid_hex,
+                        "bottom_hex": solid_hex,
+                        "angle": 90
+                    }
+
+                # Đo độ dày viền trắng
+                white_rings = sum(1 for v in ring_lums[:7] if v >= 235)
+                stroke_thickness = max(2.5, min(5.5, float(white_rings)))
+
+                result["stroke"] = {
+                    "enabled": True,
+                    "color_hex": "#FFFFFF",
+                    "size_px": stroke_thickness
+                }
+
+                # Outer Glow / Shadow từ trough bao quanh viền trắng
+                trough_idx = 6 + ring_lums[6:].index(min_late)
+                trough_rgb = ring_rgbs[trough_idx]
+                alpha = 0.45
+                c_glow = np.clip((trough_rgb - bg_color_corners * (1 - alpha)) / alpha, 0, 255)
+                glow_hex = to_hex(c_glow)
+
+                result["outer_glow"] = {
+                    "enabled": True,
+                    "color_hex": glow_hex,
+                    "size_px": 10.0,
+                    "opacity_percent": 65
+                }
+                result["drop_shadow"] = {
+                    "enabled": False,
+                    "color_hex": "#000000",
+                    "distance_px": 4.0,
+                    "blur_px": 4.0
+                }
+                return result
+
+        # Lấy các pixel chữ bên trong bóng thoại (tối hơn nền bóng thoại)
+        text_mask = lum < max(120, bright_lum - 38)
+        if text_mask.sum() > 20:
+            y_idx, x_idx = np.where(text_mask)
+            y_min, y_max = y_idx.min(), y_idx.max()
+            y_span = max(1, y_max - y_min)
+
+            top_mask = text_mask & (np.arange(H)[:, None] <= y_min + 0.35 * y_span)
+            bot_mask = text_mask & (np.arange(H)[:, None] >= y_max - 0.35 * y_span)
+
+            top_rgb = np.median(smooth[top_mask], axis=0).astype(int) if top_mask.any() else np.median(smooth[text_mask], axis=0).astype(int)
+            bot_rgb = np.median(smooth[bot_mask], axis=0).astype(int) if bot_mask.any() else np.median(smooth[text_mask], axis=0).astype(int)
+            mid_rgb = np.median(smooth[text_mask], axis=0).astype(int)
+
+            # Đo độ bão hòa màu (Chroma)
+            top_chroma = max(abs(top_rgb[0] - top_rgb[1]), abs(top_rgb[2] - top_rgb[1]), abs(top_rgb[0] - top_rgb[2]))
+            bot_chroma = max(abs(bot_rgb[0] - bot_rgb[1]), abs(bot_rgb[2] - bot_rgb[1]), abs(bot_rgb[0] - bot_rgb[2]))
+            mid_chroma = max(abs(mid_rgb[0] - mid_rgb[1]), abs(mid_rgb[2] - mid_rgb[1]), abs(mid_rgb[0] - mid_rgb[2]))
+
+            color_diff = delta_e_simple(top_rgb, bot_rgb)
+            lum_diff = abs(float(np.mean(top_rgb)) - float(np.mean(bot_rgb)))
+
+            # Nhận diện Gradient: Có sắc thái màu (tím, đỏ, xanh...) và có chênh lệch giữa đỉnh và đáy
+            is_grad = ((top_chroma >= 6 or bot_chroma >= 6 or mid_chroma >= 6) and (color_diff >= 8.0 or lum_diff >= 10.0)) or (lum_diff >= 28.0)
+
+            if is_grad and y_span >= 10:
+                result["fill"] = {
+                    "is_gradient": True,
+                    "solid_hex": to_hex(mid_rgb),
+                    "top_hex": to_hex(top_rgb),
+                    "bottom_hex": to_hex(bot_rgb),
+                    "angle": 90
+                }
+            else:
+                # Nếu không phải gradient: Giữ nguyên sắc thái màu nếu có (chroma >= 6)
+                if mid_chroma >= 6:
+                    solid_hex = to_hex(mid_rgb)
+                elif mid_rgb.mean() < 75:
+                    solid_hex = "#000000"
+                else:
+                    solid_hex = to_hex(mid_rgb)
+
+                result["fill"] = {
+                    "is_gradient": False,
+                    "solid_hex": solid_hex,
+                    "top_hex": solid_hex,
+                    "bottom_hex": solid_hex,
+                    "angle": 90
+                }
+
+            result["stroke"]["enabled"] = False
+            result["outer_glow"]["enabled"] = False
+            result["drop_shadow"]["enabled"] = False
+            return result
+
+    # =========================================================================
+    # PHÂN NHÁNH 2: NỀN TỐI / TRANH VẼ ARTWORK (ACTION / SFX / HORROR)
+    # =========================================================================
     bright_mask = (lum > 140) & (smooth[:,:,0] > 110) & (smooth[:,:,1] > 100) & (smooth[:,:,2] > 100)
-    
-    # Floodfill từ mép ảnh để phân biệt giữa:
-    # - Case A: Viền sáng bao quanh ruột chữ (Enclosed area lớn, màu khác hẳn nền)
-    # - Case B: Chữ trắng/sáng trên nền đen (Enclosed area chỉ là lỗ chữ rỗng nhỏ ㅇ, ㅁ; màu trùng nền)
     padded_h, padded_w = H + 4, W + 4
     padded = np.zeros((padded_h, padded_w), dtype=np.uint8)
     padded[2:-2, 2:-2] = bright_mask.astype(np.uint8) * 255
-    
     im_flood = Image.frombytes("L", (padded_w, padded_h), padded.tobytes())
     ImageDraw.floodfill(im_flood, (0, 0), 128, thresh=10)
     flood_arr = np.array(im_flood)[2:-2, 2:-2]
     enclosed = (flood_arr != 128) & (~bright_mask)
-    
+
     ratio_enc = enclosed.sum() / max(1, bright_mask.sum())
-    enc_color = np.median(smooth[enclosed], axis=0) if enclosed.any() else bg_color
-    diff_enc_bg = delta_e_simple(enc_color, bg_color)
-    
-    # Tiêu chuẩn nghiêm ngặt cho Viền sáng thật:
-    # Tỉ lệ diện tích bị bao nhốt phải >= 30% diện tích viền và màu ruột phải khác nền
-    is_true_stroke = (ratio_enc >= 0.30) and (enclosed.sum() > 60) and (diff_enc_bg > 20.0 or bg_lum < 80)
-    
+    enc_color = np.median(smooth[enclosed], axis=0) if enclosed.any() else bg_color_corners
+    diff_enc_bg = delta_e_simple(enc_color, bg_color_corners)
+
+    is_true_stroke = (ratio_enc >= 0.30) and (enclosed.sum() > 60) and (diff_enc_bg > 20.0 or bg_lum_corners < 80)
+
     if is_true_stroke:
         # === CASE A: VIỀN SÁNG BAO QUANH RUỘT CHỮ (Action / SFX) ===
         stroke_px = smooth[bright_mask]
@@ -118,7 +271,7 @@ def analyze_with_local_cv(image_path):
             stroke_hex = "#FFFFFF"
         else:
             stroke_hex = to_hex(s_med)
-            
+
         enc_dilated = enclosed.copy()
         for dy in [-1, 0, 1]:
             for dx in [-1, 0, 1]:
@@ -127,28 +280,27 @@ def analyze_with_local_cv(image_path):
         perim = (enc_dilated & ~enclosed).sum()
         stroke_thickness = bright_mask.sum() / max(1, perim)
         stroke_thickness = max(1.5, min(5.5, round(stroke_thickness, 1)))
-        
+
         result["stroke"] = {
             "enabled": True,
             "color_hex": stroke_hex,
             "size_px": stroke_thickness
         }
-        
-        # Phân tích ruột chữ bên trong viền sáng
+
         fill_px = smooth[enclosed]
         y_idx, x_idx = np.where(enclosed)
         y_min, y_max = y_idx.min(), y_idx.max()
         y_span = max(1, y_max - y_min)
-        
+
         top_cut = enclosed & (np.arange(H)[:, None] <= y_min + 0.35 * y_span)
         bot_cut = enclosed & (np.arange(H)[:, None] >= y_max - 0.35 * y_span)
-        
+
         top_rgb = np.median(smooth[top_cut], axis=0).astype(int) if top_cut.any() else np.median(fill_px, axis=0).astype(int)
         bot_rgb = np.median(smooth[bot_cut], axis=0).astype(int) if bot_cut.any() else np.median(fill_px, axis=0).astype(int)
         mid_rgb = np.median(fill_px, axis=0).astype(int)
-        
-        color_diff = np.sqrt(np.sum((top_rgb - bot_rgb) ** 2))
-        
+
+        color_diff = delta_e_simple(top_rgb, bot_rgb)
+
         if color_diff > 25 and y_span > 12:
             result["fill"] = {
                 "is_gradient": True,
@@ -165,8 +317,7 @@ def analyze_with_local_cv(image_path):
                 "bottom_hex": to_hex(mid_rgb),
                 "angle": 90
             }
-            
-        # Outer Glow bên ngoài viền sáng
+
         glyph_all = bright_mask | enclosed
         dil = glyph_all.copy()
         glow_lums = []
@@ -178,41 +329,32 @@ def analyze_with_local_cv(image_path):
             ring = dil & ~prev
             if ring.any():
                 glow_lums.append(lum[ring].mean())
-                
-        if len(glow_lums) >= 4 and glow_lums[0] > bg_lum + 12:
+
+        if len(glow_lums) >= 4 and glow_lums[0] > bg_lum_corners + 12:
             glow_radius = 4.0
             for i in range(1, len(glow_lums)):
-                if glow_lums[i] <= bg_lum + 8:
+                if glow_lums[i] <= bg_lum_corners + 8:
                     glow_radius = float(i + 1)
                     break
             result["outer_glow"] = {
                 "enabled": True,
                 "color_hex": "#FFFFFF",
                 "size_px": min(8.0, glow_radius),
-                "opacity_percent": min(85, max(35, int((glow_lums[0] - bg_lum) / 1.4)))
+                "opacity_percent": min(85, max(35, int((glow_lums[0] - bg_lum_corners) / 1.4)))
             }
         return result
 
-    # === CASE B: CHỮ TRẮNG / SÁNG TRÊN NỀN TỐI (Monologue / Dark Scene) ===
-    if bright_mask.sum() > 60 and bg_lum < 150:
-        # Kiểm tra vệt máu / loang lổ đỏ trong thân chữ
-        # Vệt máu có R vượt trội so với G và B
+    # === CASE B: CHỮ TRẮNG / SÁNG TRÊN NỀN TỐI (Monologue / Dark Scene / Horror) ===
+    if bright_mask.sum() > 60 and bg_lum_corners < 100:
         text_px = smooth[bright_mask]
         redness = text_px[:,0].astype(float) - (text_px[:,1].astype(float) + text_px[:,2].astype(float)) / 2.0
         blood_px_mask = (redness > 14) & (text_px[:,0] > 70)
         blood_count = blood_px_mask.sum()
         blood_ratio = blood_count / max(1, len(text_px))
-        
+
         has_blood_stains = (blood_ratio >= 0.02) or (blood_count > 60)
-        
+
         if has_blood_stains:
-            # => PHÁT HIỆN CHỮ TRẮNG ÁM VỆT MÁU LOANG LỔ (Horror / Traumatic Text)
-            # QUY TẮC BẮT BUỘC: Ruột chữ phải là TRẮNG SÁNG THUẦN (#FFFFFF) trên TOÀN BỘ CÁC DÒNG CHỮ!
-            # TUYỆT ĐỐI KHÔNG áp dụng linear gradient từ trên xuống dưới hộp văn bản
-            # (tránh làm đen/nâu các dòng chữ bên dưới).
-            # Hiệu ứng loang lổ vết máu và hạt máu lấm tấm được phối hợp qua 2 tầng hiệu ứng:
-            # 1. Inner Glow (Multiply, đỏ máu tươi #8E1B1B, noise 55%) thẩm thấu từ viền vào
-            # 2. Inner Shadow (Multiply, đỏ máu thẫm #5E1111, distance 0, size 4.0, choke 10%, noise 65%) tạo chiều sâu và hạt máu lấm chấm bên trong
             result["fill"] = {
                 "is_gradient": False,
                 "solid_hex": "#FFFFFF",
@@ -243,7 +385,6 @@ def analyze_with_local_cv(image_path):
             result["drop_shadow"] = {"enabled": False, "color_hex": "#000000", "distance_px": 4.0, "blur_px": 4.0}
             return result
         else:
-            # Chữ trắng trơn thông thường
             t_med = np.median(text_px, axis=0).astype(int)
             text_hex = "#FFFFFF" if (np.std(t_med) < 30 and t_med.mean() > 180) else to_hex(t_med)
             result["fill"] = {
@@ -258,7 +399,7 @@ def analyze_with_local_cv(image_path):
             result["drop_shadow"] = {"enabled": False, "color_hex": "#000000", "distance_px": 4.0, "blur_px": 4.0}
             return result
 
-    # === CASE C: CHỮ VIỀN ĐEN TRÊN NỀN SÁNG / MÀU ===
+    # === CASE C: CHỮ VIỀN ĐEN TRÊN NỀN MÀU / TRANH KHÁC BIỆT ===
     dark_mask = (lum < 55) & (smooth[:,:,0] < 65) & (smooth[:,:,1] < 65) & (smooth[:,:,2] < 65)
     padded = np.zeros((padded_h, padded_w), dtype=np.uint8)
     padded[2:-2, 2:-2] = dark_mask.astype(np.uint8) * 255
@@ -266,12 +407,15 @@ def analyze_with_local_cv(image_path):
     ImageDraw.floodfill(im_flood, (0, 0), 128, thresh=10)
     flood_arr = np.array(im_flood)[2:-2, 2:-2]
     enclosed_dark = (flood_arr != 128) & (~dark_mask)
-    
-    if enclosed_dark.sum() > 60 and dark_mask.sum() > 150:
+
+    enc_color = np.median(smooth[enclosed_dark], axis=0) if enclosed_dark.any() else bg_color_corners
+    diff_enc_bg = delta_e_simple(enc_color, bg_color_corners)
+
+    if enclosed_dark.sum() > 60 and dark_mask.sum() > 150 and diff_enc_bg > 35.0 and bg_lum_corners < 160:
         stroke_px = smooth[dark_mask]
         s_med = np.median(stroke_px, axis=0).astype(int)
         stroke_hex = "#000000" if s_med.mean() < 40 else to_hex(s_med)
-        
+
         result["stroke"] = {
             "enabled": True,
             "color_hex": stroke_hex,
@@ -288,23 +432,8 @@ def analyze_with_local_cv(image_path):
         }
         return result
 
-    # === CASE D: CHỮ THOẠI BÌNH THƯỜNG TRONG BÓNG TRẮNG (Speech Bubble) ===
-    if is_white_bubble:
-        text_mask = lum < 120
-        if text_mask.sum() > 30:
-            fill_rgb = np.median(smooth[text_mask], axis=0).astype(int)
-            result["fill"] = {
-                "is_gradient": False,
-                "solid_hex": to_hex(fill_rgb),
-                "top_hex": to_hex(fill_rgb),
-                "bottom_hex": to_hex(fill_rgb),
-                "angle": 90
-            }
-            result["stroke"]["enabled"] = False
-            return result
-
     # === FALLBACK: TƯƠNG PHẢN ĐỈNH ===
-    delta = np.abs(lum - bg_lum)
+    delta = np.abs(lum - bg_lum_corners)
     fg_mask = delta > np.percentile(delta, 85)
     if fg_mask.sum() > 30:
         fg_rgb = np.median(smooth[fg_mask], axis=0).astype(int)
@@ -315,7 +444,7 @@ def analyze_with_local_cv(image_path):
             "bottom_hex": to_hex(fg_rgb),
             "angle": 90
         }
-    
+
     return result
 
 

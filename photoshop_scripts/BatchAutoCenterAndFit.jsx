@@ -244,7 +244,13 @@ function main() {
                 // 1. Cập nhật ngắt dòng mới theo form quả trứng (Egg/Oval Typeset Wrap)
                 if (res.reformatted_text && typeof res.reformatted_text === "string" && res.reformatted_text.length > 0) {
                     try {
-                        tItem.contents = res.reformatted_text;
+                        tItem.contents = res.reformatted_text.replace(/\u2015/g, "—");
+                    } catch (e) {}
+                } else {
+                    try {
+                        if (tItem.contents && tItem.contents.indexOf("\u2015") !== -1) {
+                            tItem.contents = tItem.contents.replace(/\u2015/g, "—");
+                        }
                     } catch (e) {}
                 }
 

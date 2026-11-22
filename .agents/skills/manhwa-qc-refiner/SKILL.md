@@ -26,7 +26,7 @@ Subagent & Skill chuyên trách hậu kiểm, làm sạch và chuẩn hóa toàn
   - **`[Han Yoohyun]`**: Em trai Yoojin, Hội trưởng Haeyeon. Gọi Yoojin là **`Hyung`** (BẮT BUỘC giữ `Hyung`, không dịch "anh"), xưng "em".
   - **`[Sung Hyunjae]`**: Hội trưởng Sesung. Tóc vàng, mắt hổ phách. Xưng "tôi" - gọi Yoojin là "cậu / Han Yoojin-gun". Văn phong điềm đạm, quý tộc (`~하네`, `~하게`, `~할까`, `~군`).
   - **`[Park Yerim]`**: Thợ săn cấp S Haeyeon (nước/băng). **Tự xưng "tôi"** (hoặc "bọn mình"), **TUYỆT ĐỐI KHÔNG dùng "em" hay "cháu"** với Yoojin. Gọi Yoojin là **"chú" hoặc "Ahjussi"** (chỉ khi raw có `아저씨`). **Bỏ hoàn toàn chữ "ạ"** khi nói chuyện với Yoojin.
-  - **`[Iwahata Gakuto]`**: Kiếm sĩ cấp S Nhật Bản (Hội Amaterasu).
+  - **`[Iwahata Gakuto]`**: Kiếm sĩ cấp S Nhật Bản (Hội Amaterasu). Gọi Park Yerim là **"cô"** (xưng tôi/ta - cô). Yerim gọi Gakuto: *tôi - anh*.
   - **`[Noah Rugir]`**: Thợ săn cấp S mang dòng máu rồng, tóc vàng nhạt, rụt rè.
   - **`[Yoo Myungwoo]`**: Thợ rèn cấp SS, bạn thân cùng tuổi Yoojin.
   - **`[Phát thanh viên]` / `[MC]`**: Người bình luận giải đấu/trận đấu.
@@ -39,7 +39,7 @@ Subagent & Skill chuyên trách hậu kiểm, làm sạch và chuẩn hóa toàn
   - Tiền tố thừa: `VI: `, `KR: ` thừa lặp lại, dấu ngoặc nhọn `<...>`.
 - **Triệt tiêu vòng lặp Hallucination:** Loại bỏ các chuỗi lặp vô tận (ví dụ hàng trăm/nghìn dòng lặp `[Người nói/narrator] KR: 으음… <Ưm…>`).
 - **Xóa văn bản bịa đặt:** Xóa các đoạn trần thuật giả tưởng không có trong ảnh gốc.
-- **Lược bỏ SFX vụn:** Chỉ giữ lại SFX lớn có ý nghĩa cốt truyện (nổ, sấm sét, đổ vỡ).
+- **Lược bỏ toàn bộ SFX (Zero SFX Mandate):** Lược bỏ 100% các khối tiếng động `[SFX]` khỏi file `script.txt`. File kịch bản chỉ lưu trữ lời thoại nhân vật, dẫn chuyện/thuyết minh và suy nghĩ nội tâm để phục vụ tương thích tuyệt đối với Web Streamlit và Photoshop Type Tool.
 
 ### 3. Bổ sung & phục hồi raw thiếu (Single Line Rule)
 - Khắc phục tình trạng một câu nói bị OCR ngắt thành 5-10 dòng vụn. Ghép lại thành **1 dòng đơn duy nhất** ở cả dòng `KR:` và câu dịch tiếng Việt.
@@ -57,6 +57,7 @@ Subagent & Skill chuyên trách hậu kiểm, làm sạch và chuẩn hóa toàn
   - `물의 지배자` $\rightarrow$ **Kẻ Trị Thủy**.
   - `수능` $\rightarrow$ **kỳ thi đại học** (không để CSAT thô).
   - Tên bang hội: **Haeyeon (해연)**, **Sesung (세성)**, **Amaterasu (아마테라스)**.
+- **Quy chuẩn Guild (Công hội / Hội):** Chốt duy nhất **"công hội"** hoặc **"hội"**, TUYỆT ĐỐI CẤM dùng *"bang hội"*.
 - **QC Lỗi Danh từ ghép ngô nghê / Dịch máy móc (Anti-Literal Compound Nouns):**
   - Tuyệt đối không dịch ghép từng chữ tạo ra danh từ không có trong tiếng Việt.
   - `가벽` (假壁) $\rightarrow$ BẮT BUỘC dùng **"vách ngăn"** hoặc **"bức vách"** (CẤM dùng *"tường ngăn"* hay *"tường giả"*).
@@ -69,7 +70,8 @@ Subagent & Skill chuyên trách hậu kiểm, làm sạch và chuẩn hóa toàn
   - `양복` $\rightarrow$ Ưu tiên **"bộ vest"** tự nhiên thay vì lạm dụng từ *"âu phục"*.
 
 ### 5. Đảm bảo đúng Xưng hô & Dấu câu
-- Khớp 100% số lượng và vị trí dấu câu (`!`, `!!`, `?`, `?!`, `~`, `~!!`, `.`, `…`, `,`).
+- Khớp số lượng và vị trí dấu câu (`!`, `!!`, `?`, `?!`, `~`, `~!!`, `.`, `…`, `,`).
+- **Bổ sung Dấu hỏi chấm cho câu hỏi (Question Mark Mandate):** Nếu raw KR không có dấu `?`, nhưng khi dịch sang tiếng Việt mang nghĩa là một câu hỏi / câu nghi vấn thì **BẮT BUỘC KẾT THÚC ĐUÔI BẰNG DẤU `?`** (hoặc `?!` nếu ngạc nhiên/cảm thán).
 - Không để đại từ nhảy lung tung giữa các câu liên tiếp.
 - **Khóa cứng Hậu tố Tên riêng:** BẮT BUỘC giữ nguyên dạng `-ah` / `-yah`. `유현아` **LUÔN CHỐT LÀ `Yoohyun-ah`** (TUYỆT ĐỐI CẤM dịch thành *"Yoohyun à"* hay *"Yoohyun ơi"*), `유진아` $\rightarrow$ `Yoojin-ah`, `예림아` $\rightarrow$ `Yerim-ah`.
 - **Chống lặp từ `참다` (Đa dạng hóa vốn từ nhẫn nại / chịu đựng):** Tuyệt đối không dịch máy móc lặp từ *"chịu đựng"* nhiều lần trong cùng 1 phân cảnh. Phân hóa tinh tế sang: *“cam chịu thiệt thòi”*, *“nén lòng, cắn răng nuốt cay đắng”*, *“gồng mình nén nhịn”*, *“kiên nhẫn chờ đợi”*.

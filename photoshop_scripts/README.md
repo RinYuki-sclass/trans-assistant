@@ -14,9 +14,12 @@ photoshop_scripts/
 ├── AutoStyleFromSelection.jsx   # Script gán phím F6: Xử lý 1 chữ/khung thoại đơn lẻ
 ├── BatchStyleFromSelection.jsx  # Script gán phím F7: Xử lý Multi-Select Style hàng loạt layer
 ├── BatchAutoCenterAndFit.jsx    # Script gán phím F8: Tự động canh giữa & fit Font Size theo raw
+├── BatchAutoCenter.jsx          # Script: Tự động canh giữa hàng loạt (giữ nguyên cỡ chữ của user)
+├── BatchCleanBubbles.jsx        # Script gán phím F9: Tự động Batch Clean bóng thoại, loại trừ 100% SFX
 ├── style_analyzer.py            # AI Engine phân tích đơn lẻ (F6)
 ├── batch_analyzer.py            # AI Engine phân tích hàng loạt song song (F7)
-├── layout_analyzer.py           # Gemini Vision AI Engine nhận diện bóng thoại & tính tâm/cỡ chữ (F8)
+├── layout_analyzer.py           # ComicText & Typeset Engine (F8)
+├── bubble_cleaner.py            # AI Speech Bubble Cleaner & SFX Filter (F9)
 └── README.md                    # Hướng dẫn cài đặt và sử dụng
 ```
 
@@ -70,6 +73,7 @@ Dán vào thư mục Scripts của Photoshop:
    * Tìm dòng **`AutoStyleFromSelection`** $\rightarrow$ Bấm phím **`F6`** $\rightarrow$ Bấm **Accept**.
    * Tìm dòng **`BatchStyleFromSelection`** $\rightarrow$ Bấm phím **`F7`** $\rightarrow$ Bấm **Accept**.
    * Tìm dòng **`BatchAutoCenterAndFit`** $\rightarrow$ Bấm phím **`F8`** $\rightarrow$ Bấm **Accept**.
+   * Tìm dòng **`BatchCleanBubbles`** $\rightarrow$ Bấm phím **`F9`** $\rightarrow$ Bấm **Accept**.
 5. Nhấn **OK** để lưu lại.
 
 ---

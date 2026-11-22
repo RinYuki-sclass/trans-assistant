@@ -58,8 +58,9 @@ Tài liệu này xác định các quy tắc cốt lõi áp dụng cho AI Code A
    - *Ví dụ sai:* `Mày dựa vào cái thớ gì mà dám ghét cậu chứ!` (lẫn lộn `mày` ngôi 2 và `cậu` ngôi 3).
    - *Ví dụ đúng chuẩn ngôi 3:* `Hắn dựa vào cái thớ gì mà dám ghét cậu chứ!`
 
-8. **Định dạng thoại Manhwa:**
-   - Tuân thủ cấu trúc `[Người nói/narrator]` kèm KR: và câu dịch VI theo đúng [.agents/rules/manhwa_translation.md](file:///d:/Nhung/RIDI/trans-assistant/.agents/rules/manhwa_translation.md).
+8. **Định dạng thoại Manhwa & Quy tắc Dấu câu:**
+   - Tuân thủ cấu trúc `[Người nói/narrator]` kèm KR: và câu dịch VI theo đúng [.agents/rules/manhwa_translation.md](file:///d:/Nhung/trans-tool/.agents/rules/manhwa_translation.md).
+   - **Quy tắc Dấu hỏi chấm cho câu hỏi (Question Mark Mandate):** Nếu raw gốc tiếng Hàn không có dấu `?`, nhưng câu dịch tiếng Việt là câu hỏi / câu nghi vấn thì **BẮT BUỘC KẾT THÚC ĐUÔI BẰNG DẤU `?`** (hoặc `?!`). Tuyệt đối không để câu hỏi kết thúc bằng dấu chấm hay câu trần thuật cụt lủn.
 
 9. **Kiến Trúc Subagent Song Song (Parallel Subagent Architecture):**
    - Khi chạy batch lớn, Orchestrator được phân luồng cho nhiều Worker Subagent (`self`) chạy song song độc lập từng chương (Phase 1-3).

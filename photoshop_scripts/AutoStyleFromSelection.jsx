@@ -151,6 +151,14 @@ function main() {
     }
 
     // 8. ÁP DỤNG ĐÚNG CÁC HIỆU ỨNG (KHÔNG ÉP BUỘC)
+    if (targetTextLayer && targetTextLayer.kind === LayerKind.TEXT) {
+        try {
+            if (targetTextLayer.textItem.contents && targetTextLayer.textItem.contents.indexOf("\u2015") !== -1) {
+                targetTextLayer.textItem.contents = targetTextLayer.textItem.contents.replace(/\u2015/g, "—");
+            }
+        } catch (eNorm) {}
+    }
+
     if (targetTextLayer && targetTextLayer.kind === LayerKind.TEXT && styleData.fill) {
         try {
             var tColor = new SolidColor();
@@ -180,208 +188,245 @@ function hexToRGB(hex) {
     };
 }
 
-function applyExactVFXStyle(data) {
+function clearLayerStyle() {
+    var s2t = function (s) { return stringIDToTypeID(s); };
     try {
         var desc = new ActionDescriptor();
         var ref = new ActionReference();
-        ref.putProperty(stringIDToTypeID("property"), stringIDToTypeID("layerEffects"));
-        ref.putEnumerated(stringIDToTypeID("layer"), stringIDToTypeID("ordinal"), stringIDToTypeID("targetEnum"));
-        desc.putReference(stringIDToTypeID("null"), ref);
+        ref.putEnumerated(s2t("layer"), s2t("ordinal"), s2t("targetEnum"));
+        desc.putReference(s2t("null"), ref);
+        executeAction(s2t("disableLayerStyle"), desc, DialogModes.NO);
+    } catch (e) {}
+}
 
-        var lfxDesc = new ActionDescriptor();
-        lfxDesc.putUnitDouble(stringIDToTypeID("scale"), stringIDToTypeID("percentUnit"), 100);
+function applyExactVFXStyle(data) {
+    try {
+        // 1. Luôn dọn sạch toàn bộ layer effects cũ trước để triệt tiêu mọi hiệu ứng dư thừa
+        clearLayerStyle();
 
         var fillInfo = data.fill || {};
         var isGradient = (fillInfo.is_gradient === true);
-
-        // --- 1. RUỘT CHỮ: NẾU LÀ MÀU ĐƠN THUẦN (SOLID COLOR) ---
-        var solidDesc = new ActionDescriptor();
-        solidDesc.putBoolean(stringIDToTypeID("enabled"), !isGradient);
-        solidDesc.putEnumerated(stringIDToTypeID("mode"), stringIDToTypeID("blendMode"), stringIDToTypeID("normal"));
-        solidDesc.putUnitDouble(stringIDToTypeID("opacity"), stringIDToTypeID("percentUnit"), 100);
-
-        var sSolidCol = hexToRGB(fillInfo.solid_hex || "#000000");
-        var colSolid = new ActionDescriptor();
-        colSolid.putDouble(stringIDToTypeID("red"), sSolidCol.red);
-        colSolid.putDouble(stringIDToTypeID("green"), sSolidCol.green);
-        colSolid.putDouble(stringIDToTypeID("blue"), sSolidCol.blue);
-        solidDesc.putObject(stringIDToTypeID("color"), stringIDToTypeID("RGBColor"), colSolid);
-        lfxDesc.putObject(stringIDToTypeID("solidFill"), stringIDToTypeID("solidFill"), solidDesc);
-
-        // --- 2. RUỘT CHỮ: NẾU LÀ GRADIENT OVERLAY ---
-        var gradDesc = new ActionDescriptor();
-        gradDesc.putBoolean(stringIDToTypeID("enabled"), isGradient);
-        gradDesc.putEnumerated(stringIDToTypeID("mode"), stringIDToTypeID("blendMode"), stringIDToTypeID("normal"));
-        gradDesc.putUnitDouble(stringIDToTypeID("opacity"), stringIDToTypeID("percentUnit"), 100);
-        gradDesc.putUnitDouble(stringIDToTypeID("angle"), stringIDToTypeID("angleUnit"), fillInfo.angle || 90);
-        gradDesc.putEnumerated(stringIDToTypeID("type"), stringIDToTypeID("gradientType"), stringIDToTypeID("linear"));
-        gradDesc.putBoolean(stringIDToTypeID("reverse"), false);
-        gradDesc.putBoolean(stringIDToTypeID("align"), true);
-        gradDesc.putUnitDouble(stringIDToTypeID("scale"), stringIDToTypeID("percentUnit"), 100);
-
-        var topColor = hexToRGB(fillInfo.top_hex || "#FFF600");
-        var botColor = hexToRGB(fillInfo.bottom_hex || "#FF8000");
-
-        var grad = new ActionDescriptor();
-        grad.putString(stringIDToTypeID("name"), "AI Gradient");
-        grad.putEnumerated(stringIDToTypeID("gradientForm"), stringIDToTypeID("gradientForm"), stringIDToTypeID("customStops"));
-        grad.putDouble(stringIDToTypeID("interfaceIconFrameDimmed"), 4096);
-
-        var colors = new ActionList();
-        var stop1 = new ActionDescriptor();
-        var col1 = new ActionDescriptor();
-        col1.putDouble(stringIDToTypeID("red"), botColor.red);
-        col1.putDouble(stringIDToTypeID("green"), botColor.green);
-        col1.putDouble(stringIDToTypeID("blue"), botColor.blue);
-        stop1.putObject(stringIDToTypeID("color"), stringIDToTypeID("RGBColor"), col1);
-        stop1.putEnumerated(stringIDToTypeID("type"), stringIDToTypeID("colorStopType"), stringIDToTypeID("userStop"));
-        stop1.putInteger(stringIDToTypeID("location"), 0);
-        stop1.putInteger(stringIDToTypeID("midpoint"), 50);
-        colors.putObject(stringIDToTypeID("colorStop"), stop1);
-
-        var stop2 = new ActionDescriptor();
-        var col2 = new ActionDescriptor();
-        col2.putDouble(stringIDToTypeID("red"), topColor.red);
-        col2.putDouble(stringIDToTypeID("green"), topColor.green);
-        col2.putDouble(stringIDToTypeID("blue"), topColor.blue);
-        stop2.putObject(stringIDToTypeID("color"), stringIDToTypeID("RGBColor"), col2);
-        stop2.putEnumerated(stringIDToTypeID("type"), stringIDToTypeID("colorStopType"), stringIDToTypeID("userStop"));
-        stop2.putInteger(stringIDToTypeID("location"), 4096);
-        stop2.putInteger(stringIDToTypeID("midpoint"), 50);
-        colors.putObject(stringIDToTypeID("colorStop"), stop2);
-
-        grad.putList(stringIDToTypeID("colors"), colors);
-
-        var trans = new ActionList();
-        var tr1 = new ActionDescriptor();
-        tr1.putUnitDouble(stringIDToTypeID("opacity"), stringIDToTypeID("percentUnit"), 100);
-        tr1.putInteger(stringIDToTypeID("location"), 0);
-        tr1.putInteger(stringIDToTypeID("midpoint"), 50);
-        trans.putObject(stringIDToTypeID("transferSpec"), tr1);
-
-        var tr2 = new ActionDescriptor();
-        tr2.putUnitDouble(stringIDToTypeID("opacity"), stringIDToTypeID("percentUnit"), 100);
-        tr2.putInteger(stringIDToTypeID("location"), 4096);
-        tr2.putInteger(stringIDToTypeID("midpoint"), 50);
-        trans.putObject(stringIDToTypeID("transferSpec"), tr2);
-
-        grad.putList(stringIDToTypeID("transparency"), trans);
-        gradDesc.putObject(stringIDToTypeID("gradient"), stringIDToTypeID("gradient"), grad);
-        lfxDesc.putObject(stringIDToTypeID("gradientFill"), stringIDToTypeID("gradientFill"), gradDesc);
-
-        // --- 3. STROKE (CHỈ BẬT KHI AI BẢO CÓ THỰC SỰ) ---
         var strokeInfo = data.stroke || {};
         var hasStroke = (strokeInfo.enabled === true);
-
-        var strokeDesc = new ActionDescriptor();
-        strokeDesc.putBoolean(stringIDToTypeID("enabled"), hasStroke);
-        strokeDesc.putEnumerated(stringIDToTypeID("style"), stringIDToTypeID("frameStyle"), stringIDToTypeID("outsetFrame"));
-        strokeDesc.putEnumerated(stringIDToTypeID("paintType"), stringIDToTypeID("frameFill"), stringIDToTypeID("solidColor"));
-        strokeDesc.putEnumerated(stringIDToTypeID("mode"), stringIDToTypeID("blendMode"), stringIDToTypeID("normal"));
-        strokeDesc.putUnitDouble(stringIDToTypeID("opacity"), stringIDToTypeID("percentUnit"), 100);
-        strokeDesc.putUnitDouble(stringIDToTypeID("size"), stringIDToTypeID("pixelsUnit"), strokeInfo.size_px || 2.5);
-
-        var sCol = hexToRGB(strokeInfo.color_hex || "#000000");
-        var colStroke = new ActionDescriptor();
-        colStroke.putDouble(stringIDToTypeID("red"), sCol.red);
-        colStroke.putDouble(stringIDToTypeID("green"), sCol.green);
-        colStroke.putDouble(stringIDToTypeID("blue"), sCol.blue);
-        strokeDesc.putObject(stringIDToTypeID("color"), stringIDToTypeID("RGBColor"), colStroke);
-        lfxDesc.putObject(stringIDToTypeID("frameFX"), stringIDToTypeID("frameFX"), strokeDesc);
-
-        // --- 4. OUTER GLOW ---
         var glowInfo = data.outer_glow || {};
         var hasGlow = (glowInfo.enabled === true);
-
-        var glowDesc = new ActionDescriptor();
-        glowDesc.putBoolean(stringIDToTypeID("enabled"), hasGlow);
-        glowDesc.putEnumerated(stringIDToTypeID("mode"), stringIDToTypeID("blendMode"), stringIDToTypeID("normal"));
-        glowDesc.putUnitDouble(stringIDToTypeID("opacity"), stringIDToTypeID("percentUnit"), glowInfo.opacity_percent || 80);
-
-        var gCol = hexToRGB(glowInfo.color_hex || "#FFFFFF");
-        var colGlow = new ActionDescriptor();
-        colGlow.putDouble(stringIDToTypeID("red"), gCol.red);
-        colGlow.putDouble(stringIDToTypeID("green"), gCol.green);
-        colGlow.putDouble(stringIDToTypeID("blue"), gCol.blue);
-        glowDesc.putObject(stringIDToTypeID("color"), stringIDToTypeID("RGBColor"), colGlow);
-
-        glowDesc.putEnumerated(stringIDToTypeID("glowTechnique"), stringIDToTypeID("matteTechnique"), stringIDToTypeID("softMatte"));
-        glowDesc.putUnitDouble(stringIDToTypeID("chokeMatte"), stringIDToTypeID("percentUnit"), 10);
-        glowDesc.putUnitDouble(stringIDToTypeID("size"), stringIDToTypeID("pixelsUnit"), glowInfo.size_px || 8.0);
-        lfxDesc.putObject(stringIDToTypeID("outerGlow"), stringIDToTypeID("outerGlow"), glowDesc);
-
-        // --- 4.5. INNER GLOW (Vết máu / ám màu thẩm thấu nội viền chữ) ---
         var inGlowInfo = data.inner_glow || {};
         var hasInGlow = (inGlowInfo.enabled === true);
-
-        var inGlowDesc = new ActionDescriptor();
-        inGlowDesc.putBoolean(stringIDToTypeID("enabled"), hasInGlow);
-        var inMode = (inGlowInfo.blend_mode === "multiply") ? "multiply" : "normal";
-        inGlowDesc.putEnumerated(stringIDToTypeID("mode"), stringIDToTypeID("blendMode"), stringIDToTypeID(inMode));
-        inGlowDesc.putUnitDouble(stringIDToTypeID("opacity"), stringIDToTypeID("percentUnit"), inGlowInfo.opacity_percent || 75);
-
-        var igCol = hexToRGB(inGlowInfo.color_hex || "#8E1B1B");
-        var colInGlow = new ActionDescriptor();
-        colInGlow.putDouble(stringIDToTypeID("red"), igCol.red);
-        colInGlow.putDouble(stringIDToTypeID("green"), igCol.green);
-        colInGlow.putDouble(stringIDToTypeID("blue"), igCol.blue);
-        inGlowDesc.putObject(stringIDToTypeID("color"), stringIDToTypeID("RGBColor"), colInGlow);
-
-        inGlowDesc.putEnumerated(stringIDToTypeID("glowTechnique"), stringIDToTypeID("matteTechnique"), stringIDToTypeID("softMatte"));
-        inGlowDesc.putUnitDouble(stringIDToTypeID("chokeMatte"), stringIDToTypeID("percentUnit"), 0);
-        inGlowDesc.putUnitDouble(stringIDToTypeID("blur"), stringIDToTypeID("pixelsUnit"), inGlowInfo.size_px || 3.5);
-        inGlowDesc.putUnitDouble(stringIDToTypeID("noise"), stringIDToTypeID("percentUnit"), inGlowInfo.noise_percent || 0);
-        lfxDesc.putObject(stringIDToTypeID("innerGlow"), stringIDToTypeID("innerGlow"), inGlowDesc);
-
-        // --- 4.6. INNER SHADOW (Tạo chiều sâu loang lổ và hạt máu đọng bên trong ruột chữ) ---
         var inShadowInfo = data.inner_shadow || {};
         var hasInShadow = (inShadowInfo.enabled === true);
-
-        var inShadowDesc = new ActionDescriptor();
-        inShadowDesc.putBoolean(stringIDToTypeID("enabled"), hasInShadow);
-        var inShMode = (inShadowInfo.blend_mode === "colorBurn") ? "colorBurn" : "multiply";
-        inShadowDesc.putEnumerated(stringIDToTypeID("mode"), stringIDToTypeID("blendMode"), stringIDToTypeID(inShMode));
-        inShadowDesc.putUnitDouble(stringIDToTypeID("opacity"), stringIDToTypeID("percentUnit"), inShadowInfo.opacity_percent || 80);
-
-        var isCol = hexToRGB(inShadowInfo.color_hex || "#5E1111");
-        var colInShadow = new ActionDescriptor();
-        colInShadow.putDouble(stringIDToTypeID("red"), isCol.red);
-        colInShadow.putDouble(stringIDToTypeID("green"), isCol.green);
-        colInShadow.putDouble(stringIDToTypeID("blue"), isCol.blue);
-        inShadowDesc.putObject(stringIDToTypeID("color"), stringIDToTypeID("RGBColor"), colInShadow);
-
-        inShadowDesc.putBoolean(stringIDToTypeID("useGlobalAngle"), false);
-        inShadowDesc.putUnitDouble(stringIDToTypeID("localLightingAngle"), stringIDToTypeID("angleUnit"), 90);
-        inShadowDesc.putUnitDouble(stringIDToTypeID("distance"), stringIDToTypeID("pixelsUnit"), inShadowInfo.distance_px || 0.0);
-        inShadowDesc.putUnitDouble(stringIDToTypeID("chokeMatte"), stringIDToTypeID("percentUnit"), inShadowInfo.choke_percent || 10);
-        inShadowDesc.putUnitDouble(stringIDToTypeID("blur"), stringIDToTypeID("pixelsUnit"), inShadowInfo.size_px || 4.0);
-        inShadowDesc.putUnitDouble(stringIDToTypeID("noise"), stringIDToTypeID("percentUnit"), inShadowInfo.noise_percent || 0);
-        lfxDesc.putObject(stringIDToTypeID("innerShadow"), stringIDToTypeID("innerShadow"), inShadowDesc);
-
-        // --- 5. DROP SHADOW (CHỈ BẬT KHI AI BẢO CÓ THỰC SỰ) ---
         var shadowInfo = data.drop_shadow || {};
         var hasShadow = (shadowInfo.enabled === true);
 
-        var shadowDesc = new ActionDescriptor();
-        shadowDesc.putBoolean(stringIDToTypeID("enabled"), hasShadow);
-        shadowDesc.putEnumerated(stringIDToTypeID("mode"), stringIDToTypeID("blendMode"), stringIDToTypeID("multiply"));
+        var s2t = function (s) { return stringIDToTypeID(s); };
+        var lfxDesc = new ActionDescriptor();
+        lfxDesc.putUnitDouble(s2t("scale"), s2t("percentUnit"), 100);
 
-        var dCol = hexToRGB(shadowInfo.color_hex || "#000000");
-        var colShadow = new ActionDescriptor();
-        colShadow.putDouble(stringIDToTypeID("red"), dCol.red);
-        colShadow.putDouble(stringIDToTypeID("green"), dCol.green);
-        colShadow.putDouble(stringIDToTypeID("blue"), dCol.blue);
-        shadowDesc.putObject(stringIDToTypeID("color"), stringIDToTypeID("RGBColor"), colShadow);
+        var effectCount = 0;
 
-        shadowDesc.putUnitDouble(stringIDToTypeID("opacity"), stringIDToTypeID("percentUnit"), 60);
-        shadowDesc.putBoolean(stringIDToTypeID("useGlobalAngle"), true);
-        shadowDesc.putUnitDouble(stringIDToTypeID("localLightingAngle"), stringIDToTypeID("angleUnit"), 120);
-        shadowDesc.putUnitDouble(stringIDToTypeID("distance"), stringIDToTypeID("pixelsUnit"), shadowInfo.distance_px || 4.0);
-        shadowDesc.putUnitDouble(stringIDToTypeID("blur"), stringIDToTypeID("pixelsUnit"), shadowInfo.blur_px || 4.0);
-        lfxDesc.putObject(stringIDToTypeID("dropShadow"), stringIDToTypeID("dropShadow"), shadowDesc);
+        // --- 1. RUỘT CHỮ: GRADIENT OVERLAY HOẶC COLOR OVERLAY ---
+        if (isGradient) {
+            var gradDesc = new ActionDescriptor();
+            gradDesc.putBoolean(s2t("enabled"), true);
+            gradDesc.putEnumerated(s2t("mode"), s2t("blendMode"), s2t("normal"));
+            gradDesc.putUnitDouble(s2t("opacity"), s2t("percentUnit"), 100);
+            gradDesc.putUnitDouble(s2t("angle"), s2t("angleUnit"), fillInfo.angle || 90);
+            gradDesc.putEnumerated(s2t("type"), s2t("gradientType"), s2t("linear"));
+            gradDesc.putBoolean(s2t("reverse"), false);
+            gradDesc.putBoolean(s2t("align"), true);
+            gradDesc.putUnitDouble(s2t("scale"), s2t("percentUnit"), 100);
 
-        desc.putObject(stringIDToTypeID("to"), stringIDToTypeID("layerEffects"), lfxDesc);
-        executeAction(stringIDToTypeID("set"), desc, DialogModes.NO);
+            var topColor = hexToRGB(fillInfo.top_hex || "#FFF600");
+            var botColor = hexToRGB(fillInfo.bottom_hex || "#FF8000");
+
+            var grad = new ActionDescriptor();
+            grad.putString(s2t("name"), "AI Gradient");
+            grad.putEnumerated(s2t("gradientForm"), s2t("gradientForm"), s2t("customStops"));
+            grad.putDouble(s2t("interfaceIconFrameDimmed"), 4096);
+
+            var colors = new ActionList();
+            var stop1 = new ActionDescriptor();
+            var col1 = new ActionDescriptor();
+            col1.putDouble(s2t("red"), botColor.red);
+            col1.putDouble(s2t("green"), botColor.green);
+            col1.putDouble(s2t("blue"), botColor.blue);
+            stop1.putObject(s2t("color"), s2t("RGBColor"), col1);
+            stop1.putEnumerated(s2t("type"), s2t("colorStopType"), s2t("userStop"));
+            stop1.putInteger(s2t("location"), 0);
+            stop1.putInteger(s2t("midpoint"), 50);
+            colors.putObject(s2t("colorStop"), stop1);
+
+            var stop2 = new ActionDescriptor();
+            var col2 = new ActionDescriptor();
+            col2.putDouble(s2t("red"), topColor.red);
+            col2.putDouble(s2t("green"), topColor.green);
+            col2.putDouble(s2t("blue"), topColor.blue);
+            stop2.putObject(s2t("color"), s2t("RGBColor"), col2);
+            stop2.putEnumerated(s2t("type"), s2t("colorStopType"), s2t("userStop"));
+            stop2.putInteger(s2t("location"), 4096);
+            stop2.putInteger(s2t("midpoint"), 50);
+            colors.putObject(s2t("colorStop"), stop2);
+
+            grad.putList(s2t("colors"), colors);
+
+            var trans = new ActionList();
+            var tr1 = new ActionDescriptor();
+            tr1.putUnitDouble(s2t("opacity"), s2t("percentUnit"), 100);
+            tr1.putInteger(s2t("location"), 0);
+            tr1.putInteger(s2t("midpoint"), 50);
+            trans.putObject(s2t("transferSpec"), tr1);
+
+            var tr2 = new ActionDescriptor();
+            tr2.putUnitDouble(s2t("opacity"), s2t("percentUnit"), 100);
+            tr2.putInteger(s2t("location"), 4096);
+            tr2.putInteger(s2t("midpoint"), 50);
+            trans.putObject(s2t("transferSpec"), tr2);
+
+            grad.putList(s2t("transparency"), trans);
+            gradDesc.putObject(s2t("gradient"), s2t("gradient"), grad);
+            lfxDesc.putObject(s2t("gradientFill"), s2t("gradientFill"), gradDesc);
+            effectCount++;
+
+        } else if (fillInfo.solid_hex && fillInfo.solid_hex !== "#000000") {
+            // Khi là chữ có màu (tím, đỏ, xanh, cam...), gán Color Overlay:
+            var solidDesc = new ActionDescriptor();
+            solidDesc.putBoolean(s2t("enabled"), true);
+            solidDesc.putEnumerated(s2t("mode"), s2t("blendMode"), s2t("normal"));
+            solidDesc.putUnitDouble(s2t("opacity"), s2t("percentUnit"), 100);
+
+            var sSolidCol = hexToRGB(fillInfo.solid_hex);
+            var colSolid = new ActionDescriptor();
+            colSolid.putDouble(s2t("red"), sSolidCol.red);
+            colSolid.putDouble(s2t("green"), sSolidCol.green);
+            colSolid.putDouble(s2t("blue"), sSolidCol.blue);
+            solidDesc.putObject(s2t("color"), s2t("RGBColor"), colSolid);
+            lfxDesc.putObject(s2t("solidFill"), s2t("solidFill"), solidDesc);
+            effectCount++;
+        }
+
+        // --- 2. STROKE (CHỈ THÊM KHI CÓ VIỀN) ---
+        if (hasStroke) {
+            var strokeDesc = new ActionDescriptor();
+            strokeDesc.putBoolean(s2t("enabled"), true);
+            strokeDesc.putEnumerated(s2t("style"), s2t("frameStyle"), s2t("outsetFrame"));
+            strokeDesc.putEnumerated(s2t("paintType"), s2t("frameFill"), s2t("solidColor"));
+            strokeDesc.putEnumerated(s2t("mode"), s2t("blendMode"), s2t("normal"));
+            strokeDesc.putUnitDouble(s2t("opacity"), s2t("percentUnit"), 100);
+            strokeDesc.putUnitDouble(s2t("size"), s2t("pixelsUnit"), strokeInfo.size_px || 2.5);
+
+            var sCol = hexToRGB(strokeInfo.color_hex || "#000000");
+            var colStroke = new ActionDescriptor();
+            colStroke.putDouble(s2t("red"), sCol.red);
+            colStroke.putDouble(s2t("green"), sCol.green);
+            colStroke.putDouble(s2t("blue"), sCol.blue);
+            strokeDesc.putObject(s2t("color"), s2t("RGBColor"), colStroke);
+            lfxDesc.putObject(s2t("frameFX"), s2t("frameFX"), strokeDesc);
+            effectCount++;
+        }
+
+        // --- 3. OUTER GLOW (CHỈ THÊM KHI CÓ GLOW) ---
+        if (hasGlow) {
+            var glowDesc = new ActionDescriptor();
+            glowDesc.putBoolean(s2t("enabled"), true);
+            glowDesc.putEnumerated(s2t("mode"), s2t("blendMode"), s2t("normal"));
+            glowDesc.putUnitDouble(s2t("opacity"), s2t("percentUnit"), glowInfo.opacity_percent || 80);
+
+            var gCol = hexToRGB(glowInfo.color_hex || "#FFFFFF");
+            var colGlow = new ActionDescriptor();
+            colGlow.putDouble(s2t("red"), gCol.red);
+            colGlow.putDouble(s2t("green"), gCol.green);
+            colGlow.putDouble(s2t("blue"), gCol.blue);
+            glowDesc.putObject(s2t("color"), s2t("RGBColor"), colGlow);
+
+            glowDesc.putEnumerated(s2t("glowTechnique"), s2t("matteTechnique"), s2t("softMatte"));
+            glowDesc.putUnitDouble(s2t("chokeMatte"), s2t("percentUnit"), 10);
+            glowDesc.putUnitDouble(s2t("size"), s2t("pixelsUnit"), glowInfo.size_px || 8.0);
+            lfxDesc.putObject(s2t("outerGlow"), s2t("outerGlow"), glowDesc);
+            effectCount++;
+        }
+
+        // --- 4. INNER GLOW (CHỈ THÊM KHI CÓ VẾT MÁU / HORROR) ---
+        if (hasInGlow) {
+            var inGlowDesc = new ActionDescriptor();
+            inGlowDesc.putBoolean(s2t("enabled"), true);
+            inGlowDesc.putEnumerated(s2t("mode"), s2t("blendMode"), s2t(inGlowInfo.blend_mode || "multiply"));
+            inGlowDesc.putUnitDouble(s2t("opacity"), s2t("percentUnit"), inGlowInfo.opacity_percent || 85);
+
+            var igCol = hexToRGB(inGlowInfo.color_hex || "#8E1B1B");
+            var colInGlow = new ActionDescriptor();
+            colInGlow.putDouble(s2t("red"), igCol.red);
+            colInGlow.putDouble(s2t("green"), igCol.green);
+            colInGlow.putDouble(s2t("blue"), igCol.blue);
+            inGlowDesc.putObject(s2t("color"), s2t("RGBColor"), colInGlow);
+
+            inGlowDesc.putEnumerated(s2t("glowTechnique"), s2t("matteTechnique"), s2t("softMatte"));
+            inGlowDesc.putEnumerated(s2t("innerGlowSource"), s2t("innerGlowSource"), s2t("edgeGlow"));
+            inGlowDesc.putUnitDouble(s2t("chokeMatte"), s2t("percentUnit"), 0);
+            inGlowDesc.putUnitDouble(s2t("size"), s2t("pixelsUnit"), inGlowInfo.size_px || 3.5);
+            inGlowDesc.putUnitDouble(s2t("noise"), s2t("percentUnit"), inGlowInfo.noise_percent || 0);
+            lfxDesc.putObject(s2t("innerGlow"), s2t("innerGlow"), inGlowDesc);
+            effectCount++;
+        }
+
+        // --- 5. INNER SHADOW (CHỈ THÊM KHI CÓ INNER SHADOW) ---
+        if (hasInShadow) {
+            var inShadowDesc = new ActionDescriptor();
+            inShadowDesc.putBoolean(s2t("enabled"), true);
+            inShadowDesc.putEnumerated(s2t("mode"), s2t("blendMode"), s2t(inShadowInfo.blend_mode || "multiply"));
+            inShadowDesc.putUnitDouble(s2t("opacity"), s2t("percentUnit"), inShadowInfo.opacity_percent || 80);
+
+            var isCol = hexToRGB(inShadowInfo.color_hex || "#5E1111");
+            var colInShadow = new ActionDescriptor();
+            colInShadow.putDouble(s2t("red"), isCol.red);
+            colInShadow.putDouble(s2t("green"), isCol.green);
+            colInShadow.putDouble(s2t("blue"), isCol.blue);
+            inShadowDesc.putObject(s2t("color"), s2t("RGBColor"), colInShadow);
+
+            inShadowDesc.putUnitDouble(s2t("angle"), s2t("angleUnit"), 90);
+            inShadowDesc.putBoolean(s2t("useGlobalAngle"), false);
+            inShadowDesc.putUnitDouble(s2t("distance"), s2t("pixelsUnit"), inShadowInfo.distance_px || 0.0);
+            inShadowDesc.putUnitDouble(s2t("chokeMatte"), s2t("percentUnit"), inShadowInfo.choke_percent || 10);
+            inShadowDesc.putUnitDouble(s2t("size"), s2t("pixelsUnit"), inShadowInfo.size_px || 4.0);
+            inShadowDesc.putUnitDouble(s2t("noise"), s2t("percentUnit"), inShadowInfo.noise_percent || 0);
+            lfxDesc.putObject(s2t("innerShadow"), s2t("innerShadow"), inShadowDesc);
+            effectCount++;
+        }
+
+        // --- 6. DROP SHADOW (CHỈ THÊM KHI CÓ DROP SHADOW) ---
+        if (hasShadow) {
+            var shadowDesc = new ActionDescriptor();
+            shadowDesc.putBoolean(s2t("enabled"), true);
+            shadowDesc.putEnumerated(s2t("mode"), s2t("blendMode"), s2t("normal"));
+            shadowDesc.putUnitDouble(s2t("opacity"), s2t("percentUnit"), 75);
+
+            var shCol = hexToRGB(shadowInfo.color_hex || "#000000");
+            var colShadow = new ActionDescriptor();
+            colShadow.putDouble(s2t("red"), shCol.red);
+            colShadow.putDouble(s2t("green"), shCol.green);
+            colShadow.putDouble(s2t("blue"), shCol.blue);
+            shadowDesc.putObject(s2t("color"), s2t("RGBColor"), colShadow);
+
+            shadowDesc.putUnitDouble(s2t("angle"), s2t("angleUnit"), 120);
+            shadowDesc.putBoolean(s2t("useGlobalAngle"), false);
+            shadowDesc.putUnitDouble(s2t("distance"), s2t("pixelsUnit"), shadowInfo.distance_px || 4.0);
+            shadowDesc.putUnitDouble(s2t("chokeMatte"), s2t("percentUnit"), 0);
+            shadowDesc.putUnitDouble(s2t("size"), s2t("pixelsUnit"), shadowInfo.blur_px || 4.0);
+            lfxDesc.putObject(s2t("dropShadow"), s2t("dropShadow"), shadowDesc);
+            effectCount++;
+        }
+
+        // Nếu không có hiệu ứng nào cần áp (chữ đen phẳng thông thường):
+        // clearLayerStyle() ở trên đã xóa sạch 100%, layer sạch tinh tươm!
+        if (effectCount === 0) {
+            return;
+        }
+
+        var desc = new ActionDescriptor();
+        var ref = new ActionReference();
+        ref.putProperty(s2t("property"), s2t("layerEffects"));
+        ref.putEnumerated(s2t("layer"), s2t("ordinal"), s2t("targetEnum"));
+        desc.putReference(s2t("null"), ref);
+        desc.putObject(s2t("to"), s2t("layerEffects"), lfxDesc);
+        executeAction(s2t("set"), desc, DialogModes.NO);
     } catch (e) {
         alert("Lỗi khi áp VFX Layer Style: " + e.message);
     }

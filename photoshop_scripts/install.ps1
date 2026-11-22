@@ -22,7 +22,7 @@ if (-not $isAdmin) {
 }
 
 Write-Host "=====================================================================" -ForegroundColor Cyan
-Write-Host "  CÀI ĐẶT BỘ TOOL PHOTOSHOP AI TYPESET (F6: Đơn lẻ | F7: Style Batch | F8: Canh giữa & Fit)" -ForegroundColor Yellow
+Write-Host "  CÀI ĐẶT BỘ TOOL PHOTOSHOP AI TYPESET (F6: Đơn lẻ | F7: Style Batch | F8: Canh giữa & Fit | F9: Batch Clean)" -ForegroundColor Yellow
 Write-Host "=====================================================================" -ForegroundColor Cyan
 Write-Host ""
 
@@ -31,10 +31,10 @@ $scriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path
 $jsDir = ($scriptDir -replace '\\', '/')
 
 # Chỉ cài LAUNCHER (.jsx nhỏ) vào Photoshop. Script thật, file .py, file tạm
-# và .env vẫn nằm ở repo (thư mục ghi được) => không lỗi quyền khi chạy F6/F7/F8.
-$launchers = @("AutoStyleFromSelection.jsx", "BatchStyleFromSelection.jsx", "BatchAutoCenterAndFit.jsx")
+# và .env vẫn nằm ở repo (thư mục ghi được) => không lỗi quyền khi chạy F6/F7/F8/F9.
+$launchers = @("AutoStyleFromSelection.jsx", "BatchStyleFromSelection.jsx", "BatchAutoCenterAndFit.jsx", "BatchAutoCenter.jsx", "BatchCleanBubbles.jsx")
 # File cũ (bản cài trước copy thẳng vào Photoshop) cần dọn
-$legacyFiles = @("style_analyzer.py", "batch_analyzer.py", "layout_analyzer.py", "temp_crop.png", "style_result.json", "batch_result.json", "layout_inputs.json", "layout_results.json")
+$legacyFiles = @("style_analyzer.py", "batch_analyzer.py", "layout_analyzer.py", "bubble_cleaner.py", "temp_crop.png", "style_result.json", "batch_result.json", "layout_inputs.json", "layout_results.json", "clean_inputs.json", "clean_results.json")
 
 foreach ($l in $launchers) {
     if (-not (Test-Path (Join-Path $scriptDir $l))) {
@@ -141,6 +141,8 @@ Write-Host "2. Nhấn Ctrl + Alt + Shift + K (Keyboard Shortcuts)."
 Write-Host "3. Mở File -> Scripts:"
 Write-Host "   - AutoStyleFromSelection   -> Gán phím: F6 (Khoanh 1 chữ đơn lẻ)"
 Write-Host "   - BatchStyleFromSelection  -> Gán phím: F7 (Multi-Select nhiều Text Layer)"
+Write-Host "   - BatchAutoCenterAndFit    -> Gán phím: F8 (Tự động canh giữa & Fit Font Size)"
+Write-Host "   - BatchCleanBubbles        -> Gán phím: F9 (Batch Clean bóng thoại, loại trừ SFX)"
 Write-Host "4. Nhấn Accept -> OK."
 Write-Host "=====================================================================" -ForegroundColor Cyan
 Write-Host ""

@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 """
 layout_analyzer.py - Next-Gen ComicText AI & Ground-Truth Typeset Engine
 Tích hợp ComicTextDetector (Deep Learning ONNX) & Thuật toán Căn Chữ Chuẩn Từng Pixel:
@@ -134,7 +134,8 @@ def format_egg_shaped_text(raw_text, bubble_w=500, bubble_h=500):
     if not raw_text or not isinstance(raw_text, str):
         return raw_text
 
-    clean_text = ' '.join(raw_text.replace('\r', ' ').replace('\n', ' ').split())
+    clean_text = raw_text.replace('\u2015', '—')
+    clean_text = ' '.join(clean_text.replace('\r', ' ').replace('\n', ' ').split())
     words = clean_text.split()
     n = len(words)
     if n <= 2:
@@ -199,7 +200,7 @@ def format_egg_shaped_text(raw_text, bubble_w=500, bubble_h=500):
             # Strict zero orphan:
             if n >= 6 and any(len(l.split()) <= 1 for l in lines):
                 continue
-            elif n == 5 and len(lines[1].split()) <= 1:
+            elif n == 5 and len(lines) > 1 and len(lines[1].split()) <= 1:
                 continue
 
             widths = [estimate_text_width(l) for l in lines]

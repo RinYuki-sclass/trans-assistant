@@ -2487,6 +2487,10 @@ if tabs.is_active(5):
                     del st.session_state[f'_mh_refreshed_{sess_choice}']
                     st.toast("🔄 Đã nạp lại toàn bộ text mới nhất từ file script.txt!", icon="✅")
 
+                if st.session_state.get(f'_mh_saved_{sess_choice}'):
+                    del st.session_state[f'_mh_saved_{sess_choice}']
+                    st.toast("💾 Đã lưu toàn bộ bản dịch thành công!", icon="✅")
+
                 mh_content = load_file(sess_script_path)
             
                 # Helper: Parse master script into a dict of {filename: content}
@@ -2652,7 +2656,8 @@ if tabs.is_active(5):
                 
                     # Individual image-text rows
                     new_parsed_data = {}
-                    for img_name in saved_imgs:
+                    save_clicked = False
+                    for idx, img_name in enumerate(saved_imgs):
                         st.markdown(f"🖼️ **{img_name}**")
                         c1, c2 = st.columns([1, 1])
                         img_path = os.path.join(sess_img_dir, img_name) if os.path.exists(sess_img_dir) else ""
@@ -2668,10 +2673,17 @@ if tabs.is_active(5):
                             ver = st.session_state.get(f'_mh_ver_{sess_choice}', 0)
                             input_val = st.text_area("Bản dịch:", current_val, height=500, key=f"mh_edit_{sess_choice}_{img_name}_v{ver}")
                             new_parsed_data[img_name] = input_val
+                            if st.button("💾 Lưu tất cả thay đổi", type="primary", use_container_width=True, key=f"mh_save_page_{sess_choice}_{idx}", help="Lưu ngay toàn bộ bản dịch của tất cả các page vào file script.txt"):
+                                save_clicked = True
                         st.divider()
 
                     # Reconstruct script for saving/downloading
                     reconstructed_script = "\n\n".join([f"📄 ẢNH: {n}\n\n{new_parsed_data.get(n, '')}\n" for n in saved_imgs])
+
+                    if save_clicked:
+                        save_file(sess_script_path, reconstructed_script)
+                        st.session_state[f'_mh_saved_{sess_choice}'] = True
+                        st.rerun()
 
                     # Check Google API availability
                     try:
@@ -2686,16 +2698,10 @@ if tabs.is_active(5):
 
                     # Bottom Actions
                     if _has_gdocs:
-                        col_save, col_ref, col_dl, col_gdoc = st.columns([1, 1, 1, 1])
+                        col_ref, col_dl, col_gdoc = st.columns([1, 1, 1])
                     else:
-                        col_save, col_ref, col_dl = st.columns([1, 1, 1])
+                        col_ref, col_dl = st.columns([1, 1])
                         col_gdoc = None
-
-                    with col_save:
-                        if st.button("💾 Lưu tất cả thay đổi", type="primary", use_container_width=True, key="mh_save_all"):
-                            save_file(sess_script_path, reconstructed_script)
-                            st.success("✅ Đã lưu toàn bộ bản dịch!")
-                            st.rerun()
 
                     with col_ref:
                         if st.button("🔄 Nạp lại từ file", use_container_width=True, key=f"mh_ref_bottom_{sess_choice}", help="Hủy các sửa đổi trên web chưa lưu và nạp lại text mới nhất từ file script.txt"):

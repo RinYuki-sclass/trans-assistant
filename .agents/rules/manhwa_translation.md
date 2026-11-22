@@ -14,9 +14,12 @@
   - Nhân vật phụ / quần chúng: `[Dân chúng]`, `[Thợ săn]` hoặc `[Người qua đường]`.
   - Trường hợp không rõ nguồn phát ngôn: để mặc định `[Bóng thoại]`.
 
-## 2. Quy tắc Dấu câu (Tối thượng - Punctuation Matching)
-- **Đảm bảo số lượng và vị trí các dấu câu** (`!`, `!!`, `?`, `?!`, `~`, `~!!`, `.`, `…`, `….`, `,`, ngoặc kép `' '`) ở câu dịch tiếng Việt khớp tuyệt đối với câu tiếng Hàn (KR).
-- Nếu dòng KR không có dấu kết thúc câu (ví dụ câu lửng hoặc thoại hét không chấm) thì dòng VI cũng không đặt dấu kết thúc.
+## 2. Quy tắc Dấu câu (Tối thượng - Punctuation Matching & Question Mark Mandate)
+- **Đảm bảo số lượng và vị trí các dấu câu** (`!`, `!!`, `?`, `?!`, `~`, `~!!`, `.`, `…`, `….`, `,`, ngoặc kép `' '`) ở câu dịch tiếng Việt khớp với câu tiếng Hàn (KR).
+- Nếu dòng KR không có dấu kết thúc câu (ví dụ câu lửng hoặc thoại hét không chấm) thì dòng VI cơ bản cũng không đặt dấu kết thúc.
+- **QUY TẮC BỔ SUNG DẤU HỎI CHẤM CHO CÂU HỎI (QUESTION MARK MANDATE):**
+  - Trong tiếng Hàn, rất nhiều câu thoại mang tính chất hỏi, nghi vấn, dò hỏi, thắc mắc (dùng đuôi `~나`, `~가`, `~ㄹ까`, `~냐`, `~니`, `~어/아`, `~죠`, `~는지`, `~할지`, v.v.) nhưng tác giả chỉ đặt dấu chấm `.`, dấu lửng `…` hoặc không đặt dấu.
+  - **Quy tắc bắt buộc:** Nếu bản gốc (raw KR) không có dấu `?`, nhưng **câu dịch tiếng Việt mang nghĩa là một câu hỏi / câu nghi vấn thì BẮT BUỘC PHẢI KẾT THÚC ĐUÔI BẰNG DẤU `?`** (hoặc `?!` nếu mang sắc thái kinh ngạc / cảm thán). Tuyệt đối không để câu hỏi kết thúc bằng dấu chấm `.` hay câu trần thuật cụt lủn.
 
 ## 3. Quy tắc Kính ngữ & Tính Lịch sự (Honorifics & Politeness)
 - **Đuôi `요`:** Không nhất thiết phải luôn chêm từ "ạ"; dùng câu văn tự nhiên, mượt mà và đúng ngữ cảnh.
@@ -49,6 +52,7 @@
       - **CHỈ DÙNG khi bản gốc KR có nhắc đến `아저씨`:** Tuyệt đối không tự ý thêm "chú" / "Ahjussi" nếu raw không có (ví dụ: `저기 봐요!` -> *“Nhìn đằng kia kìa!”*, KHÔNG dịch *“Xem kìa chú”*).
   - YR ↔ Han Yoohyun (YH): Tôi – Anh (*Hội trưởng / Han Yoohyun*). YH gọi YR: Tôi – Cô (*Park Yerim*).
   - YR ↔ Sung Hyunjae (HJ): Cháu – Chú (*chú Hội trưởng / ngài Hội trưởng*).
+  - YR ↔ Iwahata Gakuto: Tôi – Anh (Yerim gọi Gakuto: *tôi - anh*). Gakuto gọi YR: Tôi – Cô (*Gakuto xưng tôi/ta, gọi Yerim là cô*).
 - **Song Taewon (TW) ↔ Han Yoojin (YJ):** Tôi – Cậu (TW gọi YJ: *Han Yoojin-ssi*) & Tôi – Anh (YJ gọi TW).
 - **Yoo Myungwoo (YMW):** Độc thoại tự xưng "Tôi".
 - **Shishio (Amaterasu):**
@@ -89,8 +93,11 @@
     - `허리끈` (Yukata/đồ truyền thống): Dịch là **“đai lưng”** hoặc **“thắt lưng”**. TUYỆT ĐỐI KHÔNG dịch là *"dây đai áo"*.
     - `양복`: Ưu tiên dịch tự nhiên là **“bộ vest”** thay vì lạm dụng từ cổ cứng nhắc *"bộ âu phục"*.
   - **Kinh tế & Giao thương Thợ săn:**
+    - `길드` (Guild): BẮT BUỘC chốt thống nhất thành **“công hội”** hoặc **“hội”** (TUYỆT ĐỐI CẤM dùng *"bang hội"*).
     - `길드 독점`: Dịch là **“các hội lớn độc quyền”** (không dùng *"bang hội độc chiếm"*).
     - `던전을 걸고`: Dịch là **“đặt cược các ngục tối”** (không dịch thành *"tiền cược là các ngục tối"* vì dungeon không phải tiền tệ).
+  - **Quy tắc Bỏ Toàn Bộ SFX (Zero SFX Mandate):**
+    - Trong kịch bản dịch manhwa (`script.txt`), **LƯỢC BỎ HOÀN TOÀN TẤT CẢ KHỐI SFX** (không đưa các tiếng động như `콰앙`, `챙`, `쿵`, `촥`, `덜컥`, `슈우우` vào script). File kịch bản chỉ lưu trữ lời thoại nhân vật, dẫn chuyện/thuyết minh và độc thoại nội tâm để phục vụ trực tiếp cho Photoshop Type Tool và Web Streamlit.
   - **Kiểm duyệt & Meta gag (Phá vỡ bức tường thứ 4):**
     - `심의` (審議 - trong các cảnh che chắn nhân vật nhạy cảm): Nhận diện đúng **`심의`** là **“quy chuẩn kiểm duyệt”** (hoặc *tiêu chuẩn kiểm duyệt / thuần phong mỹ tục*). TUYỆT ĐỐI KHÔNG nhầm OCR thành `샘의` (*suối nguồn*).
 - **Đối chiếu người nói qua thị giác (Speaker Attribution):**
