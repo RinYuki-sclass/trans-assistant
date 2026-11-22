@@ -30,5 +30,6 @@
   "is_completed": false,
   "is_dropped": false,
   "drop_reason": "",
-  "status": "raw_ready"
+  "status": "in_progress",
+  "translated_count": 50
 }

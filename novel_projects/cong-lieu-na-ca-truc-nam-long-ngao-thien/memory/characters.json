@@ -6,15 +6,15 @@
       "name": "Cố Dương",
       "chinese_name": "顾扬",
       "role": "Công chính (Lưu manh ngốc cẩu / Phế sài môn phái)",
-      "narrative_pronoun": "hắn / y",
-      "description": "Mặt dày tâm cơ, da mặt dày như tường thành, thể lực bùng nổ"
+      "narrative_pronoun": "hắn",
+      "description": "Mặt dày tâm cơ, da mặt dày như tường thành, thể lực bùng nổ, xuyên thư"
     },
     {
       "id": "char_2",
       "name": "Tạ Ly Thù",
       "chinese_name": "谢离殊",
       "role": "Thụ chính (Long Ngạo Thiên / Tiên giới Đế tôn)",
-      "narrative_pronoun": "y / hắn",
+      "narrative_pronoun": "y",
       "description": "Tu Vô Tình Đạo, bề ngoài ngạo kiều hung bạo, nội tâm khát khao da thịt công"
     }
   ]

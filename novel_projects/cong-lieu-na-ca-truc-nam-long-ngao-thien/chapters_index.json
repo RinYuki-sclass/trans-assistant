@@ -6,8 +6,8 @@
     "start_page": 2,
     "paragraphs_count": 110,
     "has_source": true,
-    "has_translation": false,
-    "status": "raw_ready"
+    "has_translation": true,
+    "status": "completed"
   },
   {
     "chapter_id": "ch_002",
@@ -16,8 +16,8 @@
     "start_page": 3,
     "paragraphs_count": 143,
     "has_source": true,
-    "has_translation": false,
-    "status": "raw_ready"
+    "has_translation": true,
+    "status": "completed"
   },
   {
     "chapter_id": "ch_003",
@@ -26,8 +26,8 @@
     "start_page": 4,
     "paragraphs_count": 128,
     "has_source": true,
-    "has_translation": false,
-    "status": "raw_ready"
+    "has_translation": true,
+    "status": "completed"
   },
   {
     "chapter_id": "ch_004",
@@ -36,8 +36,8 @@
     "start_page": 6,
     "paragraphs_count": 107,
     "has_source": true,
-    "has_translation": false,
-    "status": "raw_ready"
+    "has_translation": true,
+    "status": "completed"
   },
   {
     "chapter_id": "ch_005",
@@ -46,8 +46,8 @@
     "start_page": 7,
     "paragraphs_count": 61,
     "has_source": true,
-    "has_translation": false,
-    "status": "raw_ready"
+    "has_translation": true,
+    "status": "completed"
   },
   {
     "chapter_id": "ch_006",
@@ -56,8 +56,8 @@
     "start_page": 7,
     "paragraphs_count": 67,
     "has_source": true,
-    "has_translation": false,
-    "status": "raw_ready"
+    "has_translation": true,
+    "status": "completed"
   },
   {
     "chapter_id": "ch_007",
@@ -66,8 +66,8 @@
     "start_page": 8,
     "paragraphs_count": 132,
     "has_source": true,
-    "has_translation": false,
-    "status": "raw_ready"
+    "has_translation": true,
+    "status": "completed"
   },
   {
     "chapter_id": "ch_008",
@@ -76,8 +76,8 @@
     "start_page": 9,
     "paragraphs_count": 126,
     "has_source": true,
-    "has_translation": false,
-    "status": "raw_ready"
+    "has_translation": true,
+    "status": "completed"
   },
   {
     "chapter_id": "ch_009",
@@ -86,8 +86,8 @@
     "start_page": 10,
     "paragraphs_count": 117,
     "has_source": true,
-    "has_translation": false,
-    "status": "raw_ready"
+    "has_translation": true,
+    "status": "completed"
   },
   {
     "chapter_id": "ch_010",
@@ -96,8 +96,8 @@
     "start_page": 12,
     "paragraphs_count": 165,
     "has_source": true,
-    "has_translation": false,
-    "status": "raw_ready"
+    "has_translation": true,
+    "status": "completed"
   },
   {
     "chapter_id": "ch_011",
@@ -106,8 +106,8 @@
     "start_page": 13,
     "paragraphs_count": 111,
     "has_source": true,
-    "has_translation": false,
-    "status": "raw_ready"
+    "has_translation": true,
+    "status": "completed"
   },
   {
     "chapter_id": "ch_012",
@@ -116,8 +116,8 @@
     "start_page": 14,
     "paragraphs_count": 99,
     "has_source": true,
-    "has_translation": false,
-    "status": "raw_ready"
+    "has_translation": true,
+    "status": "completed"
   },
   {
     "chapter_id": "ch_013",
@@ -126,8 +126,8 @@
     "start_page": 15,
     "paragraphs_count": 99,
     "has_source": true,
-    "has_translation": false,
-    "status": "raw_ready"
+    "has_translation": true,
+    "status": "completed"
   },
   {
     "chapter_id": "ch_014",
@@ -136,8 +136,8 @@
     "start_page": 16,
     "paragraphs_count": 133,
     "has_source": true,
-    "has_translation": false,
-    "status": "raw_ready"
+    "has_translation": true,
+    "status": "completed"
   },
   {
     "chapter_id": "ch_015",
@@ -146,8 +146,8 @@
     "start_page": 18,
     "paragraphs_count": 91,
     "has_source": true,
-    "has_translation": false,
-    "status": "raw_ready"
+    "has_translation": true,
+    "status": "completed"
   },
   {
     "chapter_id": "ch_016",
@@ -156,8 +156,8 @@
     "start_page": 18,
     "paragraphs_count": 94,
     "has_source": true,
-    "has_translation": false,
-    "status": "raw_ready"
+    "has_translation": true,
+    "status": "completed"
   },
   {
     "chapter_id": "ch_017",
@@ -166,8 +166,8 @@
     "start_page": 20,
     "paragraphs_count": 56,
     "has_source": true,
-    "has_translation": false,
-    "status": "raw_ready"
+    "has_translation": true,
+    "status": "completed"
   },
   {
     "chapter_id": "ch_018",
@@ -176,8 +176,8 @@
     "start_page": 20,
     "paragraphs_count": 118,
     "has_source": true,
-    "has_translation": false,
-    "status": "raw_ready"
+    "has_translation": true,
+    "status": "completed"
   },
   {
     "chapter_id": "ch_019",
@@ -186,8 +186,8 @@
     "start_page": 21,
     "paragraphs_count": 168,
     "has_source": true,
-    "has_translation": false,
-    "status": "raw_ready"
+    "has_translation": true,
+    "status": "completed"
   },
   {
     "chapter_id": "ch_020",
@@ -196,8 +196,8 @@
     "start_page": 23,
     "paragraphs_count": 168,
     "has_source": true,
-    "has_translation": false,
-    "status": "raw_ready"
+    "has_translation": true,
+    "status": "completed"
   },
   {
     "chapter_id": "ch_021",
@@ -206,8 +206,8 @@
     "start_page": 25,
     "paragraphs_count": 125,
     "has_source": true,
-    "has_translation": false,
-    "status": "raw_ready"
+    "has_translation": true,
+    "status": "completed"
   },
   {
     "chapter_id": "ch_022",
@@ -216,8 +216,8 @@
     "start_page": 26,
     "paragraphs_count": 79,
     "has_source": true,
-    "has_translation": false,
-    "status": "raw_ready"
+    "has_translation": true,
+    "status": "completed"
   },
   {
     "chapter_id": "ch_023",
@@ -226,8 +226,8 @@
     "start_page": 27,
     "paragraphs_count": 95,
     "has_source": true,
-    "has_translation": false,
-    "status": "raw_ready"
+    "has_translation": true,
+    "status": "completed"
   },
   {
     "chapter_id": "ch_024",
@@ -236,8 +236,8 @@
     "start_page": 28,
     "paragraphs_count": 111,
     "has_source": true,
-    "has_translation": false,
-    "status": "raw_ready"
+    "has_translation": true,
+    "status": "completed"
   },
   {
     "chapter_id": "ch_025",
@@ -246,8 +246,8 @@
     "start_page": 29,
     "paragraphs_count": 388,
     "has_source": true,
-    "has_translation": false,
-    "status": "raw_ready"
+    "has_translation": true,
+    "status": "completed"
   },
   {
     "chapter_id": "ch_026",
@@ -256,8 +256,8 @@
     "start_page": 32,
     "paragraphs_count": 106,
     "has_source": true,
-    "has_translation": false,
-    "status": "raw_ready"
+    "has_translation": true,
+    "status": "completed"
   },
   {
     "chapter_id": "ch_027",
@@ -266,8 +266,8 @@
     "start_page": 33,
     "paragraphs_count": 145,
     "has_source": true,
-    "has_translation": false,
-    "status": "raw_ready"
+    "has_translation": true,
+    "status": "completed"
   },
   {
     "chapter_id": "ch_028",
@@ -276,8 +276,8 @@
     "start_page": 35,
     "paragraphs_count": 164,
     "has_source": true,
-    "has_translation": false,
-    "status": "raw_ready"
+    "has_translation": true,
+    "status": "completed"
   },
   {
     "chapter_id": "ch_029",
@@ -286,8 +286,8 @@
     "start_page": 36,
     "paragraphs_count": 245,
     "has_source": true,
-    "has_translation": false,
-    "status": "raw_ready"
+    "has_translation": true,
+    "status": "completed"
   },
   {
     "chapter_id": "ch_030",
@@ -296,8 +296,8 @@
     "start_page": 38,
     "paragraphs_count": 148,
     "has_source": true,
-    "has_translation": false,
-    "status": "raw_ready"
+    "has_translation": true,
+    "status": "completed"
   },
   {
     "chapter_id": "ch_031",
@@ -306,8 +306,8 @@
     "start_page": 40,
     "paragraphs_count": 176,
     "has_source": true,
-    "has_translation": false,
-    "status": "raw_ready"
+    "has_translation": true,
+    "status": "completed"
   },
   {
     "chapter_id": "ch_032",
@@ -316,8 +316,8 @@
     "start_page": 41,
     "paragraphs_count": 147,
     "has_source": true,
-    "has_translation": false,
-    "status": "raw_ready"
+    "has_translation": true,
+    "status": "completed"
   },
   {
     "chapter_id": "ch_033",
@@ -326,8 +326,8 @@
     "start_page": 43,
     "paragraphs_count": 120,
     "has_source": true,
-    "has_translation": false,
-    "status": "raw_ready"
+    "has_translation": true,
+    "status": "completed"
   },
   {
     "chapter_id": "ch_034",
@@ -336,8 +336,8 @@
     "start_page": 44,
     "paragraphs_count": 117,
     "has_source": true,
-    "has_translation": false,
-    "status": "raw_ready"
+    "has_translation": true,
+    "status": "completed"
   },
   {
     "chapter_id": "ch_035",
@@ -346,8 +346,8 @@
     "start_page": 45,
     "paragraphs_count": 122,
     "has_source": true,
-    "has_translation": false,
-    "status": "raw_ready"
+    "has_translation": true,
+    "status": "completed"
   },
   {
     "chapter_id": "ch_036",
@@ -356,8 +356,8 @@
     "start_page": 46,
     "paragraphs_count": 138,
     "has_source": true,
-    "has_translation": false,
-    "status": "raw_ready"
+    "has_translation": true,
+    "status": "completed"
   },
   {
     "chapter_id": "ch_037",
@@ -366,8 +366,8 @@
     "start_page": 47,
     "paragraphs_count": 144,
     "has_source": true,
-    "has_translation": false,
-    "status": "raw_ready"
+    "has_translation": true,
+    "status": "completed"
   },
   {
     "chapter_id": "ch_038",
@@ -376,8 +376,8 @@
     "start_page": 48,
     "paragraphs_count": 137,
     "has_source": true,
-    "has_translation": false,
-    "status": "raw_ready"
+    "has_translation": true,
+    "status": "completed"
   },
   {
     "chapter_id": "ch_039",
@@ -386,8 +386,8 @@
     "start_page": 50,
     "paragraphs_count": 157,
     "has_source": true,
-    "has_translation": false,
-    "status": "raw_ready"
+    "has_translation": true,
+    "status": "completed"
   },
   {
     "chapter_id": "ch_040",
@@ -396,8 +396,8 @@
     "start_page": 51,
     "paragraphs_count": 142,
     "has_source": true,
-    "has_translation": false,
-    "status": "raw_ready"
+    "has_translation": true,
+    "status": "completed"
   },
   {
     "chapter_id": "ch_041",
@@ -406,8 +406,8 @@
     "start_page": 52,
     "paragraphs_count": 128,
     "has_source": true,
-    "has_translation": false,
-    "status": "raw_ready"
+    "has_translation": true,
+    "status": "completed"
   },
   {
     "chapter_id": "ch_042",
@@ -416,8 +416,8 @@
     "start_page": 53,
     "paragraphs_count": 319,
     "has_source": true,
-    "has_translation": false,
-    "status": "raw_ready"
+    "has_translation": true,
+    "status": "completed"
   },
   {
     "chapter_id": "ch_043",
@@ -426,8 +426,8 @@
     "start_page": 56,
     "paragraphs_count": 128,
     "has_source": true,
-    "has_translation": false,
-    "status": "raw_ready"
+    "has_translation": true,
+    "status": "completed"
   },
   {
     "chapter_id": "ch_044",
@@ -436,8 +436,8 @@
     "start_page": 57,
     "paragraphs_count": 150,
     "has_source": true,
-    "has_translation": false,
-    "status": "raw_ready"
+    "has_translation": true,
+    "status": "completed"
   },
   {
     "chapter_id": "ch_045",
@@ -446,8 +446,8 @@
     "start_page": 59,
     "paragraphs_count": 126,
     "has_source": true,
-    "has_translation": false,
-    "status": "raw_ready"
+    "has_translation": true,
+    "status": "completed"
   },
   {
     "chapter_id": "ch_046",
@@ -456,8 +456,8 @@
     "start_page": 60,
     "paragraphs_count": 119,
     "has_source": true,
-    "has_translation": false,
-    "status": "raw_ready"
+    "has_translation": true,
+    "status": "completed"
   },
   {
     "chapter_id": "ch_047",
@@ -466,8 +466,8 @@
     "start_page": 61,
     "paragraphs_count": 112,
     "has_source": true,
-    "has_translation": false,
-    "status": "raw_ready"
+    "has_translation": true,
+    "status": "completed"
   },
   {
     "chapter_id": "ch_048",
@@ -476,8 +476,8 @@
     "start_page": 62,
     "paragraphs_count": 131,
     "has_source": true,
-    "has_translation": false,
-    "status": "raw_ready"
+    "has_translation": true,
+    "status": "completed"
   },
   {
     "chapter_id": "ch_049",
@@ -486,8 +486,8 @@
     "start_page": 63,
     "paragraphs_count": 122,
     "has_source": true,
-    "has_translation": false,
-    "status": "raw_ready"
+    "has_translation": true,
+    "status": "completed"
   },
   {
     "chapter_id": "ch_050",
@@ -496,8 +496,8 @@
     "start_page": 64,
     "paragraphs_count": 123,
     "has_source": true,
-    "has_translation": false,
-    "status": "raw_ready"
+    "has_translation": true,
+    "status": "completed"
   },
   {
     "chapter_id": "ch_051",
