@@ -80,7 +80,11 @@ VI_COMPOUND_WORDS = {
     ('đúng', 'vậy'), ('vậy', 'sao'), ('đương', 'nhiên'), ('tất', 'nhiên'),
     ('ít', 'nhất'), ('nhiều', 'hơn'), ('hơn', 'nữa'), ('thậm', 'chí'),
     ('cơ', 'mà'), ('lại', 'còn'), ('đồng', 'nghiệp'), ('đối', 'phương'),
-    ('xin', 'lỗi'), ('cảm', 'ơn'), ('tạm', 'biệt')
+    ('xin', 'lỗi'), ('cảm', 'ơn'), ('tạm', 'biệt'),
+    ('vất', 'vả'), ('hội', 'thao'), ('sinh', 'nhật'), ('khai', 'giảng'),
+    ('tốt', 'nghiệp'), ('bỏ', 'bê'), ('đàng', 'hoàng'), ('nhật', 'ký'),
+    ('cố', 'tình'), ('phớt', 'lờ'), ('thức', 'tỉnh'), ('chôn', 'giấu'),
+    ('che', 'đậy'), ('cảm', 'xúc'), ('nói', 'chuyện'), ('thời', 'gian')
 }
 
 
@@ -138,32 +142,21 @@ def format_egg_shaped_text(raw_text, bubble_w=500, bubble_h=500):
     clean_text = ' '.join(clean_text.replace('\r', ' ').replace('\n', ' ').split())
     words = clean_text.split()
     n = len(words)
-    if n <= 2:
+    # Quy tắc bắt buộc theo yêu cầu: Câu ngắn từ 1 đến 3 từ bắt buộc hiển thị trên 1 dòng duy nhất!
+    if n <= 3:
         return clean_text
 
     ar = bubble_w / max(1.0, bubble_h)
-
-    # QUY TẮC BẮT BUỘC: Với text có 5 từ trở lên thì BẮT BUỘC cắt xuống từ 3 dòng trở lên!
-    if n < 5:
-        candidate_Ks = [1, 2] if n <= 3 else [2]
-    elif n == 5:
-        candidate_Ks = [3]
-    elif n <= 7:
-        candidate_Ks = [3]
-    elif n <= 11:
-        candidate_Ks = [3, 4]
-    elif n <= 16:
-        candidate_Ks = [3, 4, 5]
-    else:
-        candidate_Ks = [4, 5, 6]
 
     MIN_FONT_SIZE = 65
     safe_w = max(bubble_w * 0.74, 180.0)
     max_safe_units = safe_w / (MIN_FONT_SIZE * 0.48)
 
-    # Base candidate Ks theo số từ
-    if n < 5:
-        base_Ks = [1, 2] if n <= 3 else [2]
+    aspect_ratio = bubble_w / max(1.0, bubble_h)
+
+    # Base candidate Ks theo số từ (khi n >= 4):
+    if n == 4:
+        base_Ks = [2]
     elif n == 5:
         base_Ks = [3]
     elif n <= 7:
@@ -177,7 +170,9 @@ def format_egg_shaped_text(raw_text, bubble_w=500, bubble_h=500):
 
     total_units = estimate_text_width(clean_text)
     min_k_needed = max(1, int(math.ceil(total_units / max_safe_units)))
-    all_Ks = sorted(list(set(base_Ks + [min_k_needed, min_k_needed + 1, min_k_needed + 2])))
+    min_allowed_K = min(base_Ks)
+    needed_K = max(min_allowed_K, min_k_needed)
+    all_Ks = sorted(list(set([k for k in base_Ks if k >= needed_K] + [needed_K])))
     all_Ks = [k for k in all_Ks if 1 <= k <= min(n, 12)]
 
     # =========================================================================
@@ -237,8 +232,8 @@ def format_egg_shaped_text(raw_text, bubble_w=500, bubble_h=500):
     fallback_score = float('inf')
     fallback_lines = [clean_text]
 
-    extended_Ks = sorted(list(set(all_Ks + list(range(min_k_needed, min(n, min_k_needed + 4) + 1)))))
-    extended_Ks = [k for k in extended_Ks if 1 <= k <= min(n, 12)]
+    extended_Ks = sorted(list(set(all_Ks + list(range(needed_K, min(n, needed_K + 4) + 1)))))
+    extended_Ks = [k for k in extended_Ks if min_allowed_K <= k <= min(n, 12)]
 
     for K in extended_Ks:
         profile = get_egg_profile(K)
@@ -581,11 +576,22 @@ def analyze_with_comic_text(session, img_bgr, query_x, query_y, cur_w, cur_h, cu
 
 def analyze_with_geometry(gray, w, h, query_x, query_y, cur_w, cur_h, cur_text_size, raw_text_content=""):
     """
-    TIER 2: Geometric & Distance Transform cho các bóng thoại đã clean trắng sạch sẽ.
+    TIER 2: Geometric & Distance Transform cho các bóng thoại đã clean sạch sẽ (trắng, xám, màu pastel).
     """
     try:
-        white_thresh = ((gray > 185).astype(np.uint8)) * 255
-        filled_white = fill_holes(white_thresh)
+        pad = min(30, max(10, int(min(cur_w, cur_h) * 0.25)))
+        qx_int = int(min(w - 1, max(0, query_x)))
+        qy_int = int(min(h - 1, max(0, query_y)))
+        patch = gray[max(0, qy_int - pad):min(h, qy_int + pad + 1), max(0, qx_int - pad):min(w, qx_int + pad + 1)]
+        base_val = float(np.percentile(patch, 85)) if patch.size > 0 else float(gray[qy_int, qx_int])
+
+        if base_val >= 210:
+            thresh_mask = ((gray > 180).astype(np.uint8)) * 255
+        else:
+            diff = 32
+            thresh_mask = ((np.abs(gray.astype(int) - base_val) <= diff).astype(np.uint8)) * 255
+
+        filled_white = fill_holes(thresh_mask)
 
         # Mở hình thái gọt đuôi nhọn
         kernel = cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (35, 35))
@@ -595,16 +601,19 @@ def analyze_with_geometry(gray, w, h, query_x, query_y, cur_w, cur_h, cur_text_s
         if num_w <= 1:
             return None
 
-        best_dist = float("inf")
-        target_lbl = None
-        for i in range(1, num_w):
-            area = stats_w[i, cv2.CC_STAT_AREA]
-            if area >= 3000:
-                cx, cy = centroids_w[i]
-                dist = (cx - query_x) ** 2 + (cy - query_y) ** 2
-                if dist < best_dist:
-                    best_dist = dist
-                    target_lbl = i
+        # Ưu tiên component chứa trực tiếp điểm query
+        target_lbl = lbl_w[qy_int, qx_int] if qy_int < lbl_w.shape[0] and qx_int < lbl_w.shape[1] else 0
+        if target_lbl == 0 or stats_w[target_lbl, cv2.CC_STAT_AREA] < 3000:
+            best_dist = float("inf")
+            target_lbl = None
+            for i in range(1, num_w):
+                area = stats_w[i, cv2.CC_STAT_AREA]
+                if area >= 3000:
+                    cx, cy = centroids_w[i]
+                    dist = (cx - query_x) ** 2 + (cy - query_y) ** 2
+                    if dist < best_dist:
+                        best_dist = dist
+                        target_lbl = i
 
         if target_lbl is None:
             return None
@@ -638,6 +647,7 @@ def analyze_with_geometry(gray, w, h, query_x, query_y, cur_w, cur_h, cur_text_s
             "reformatted_text": reformatted
         }
     except Exception:
+        return None
         return None
 
 

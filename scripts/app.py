@@ -578,6 +578,112 @@ def save_file(path, content):
     with open(path, 'w', encoding='utf-8') as f:
         f.write(content)
 
+def get_real_lan_ip() -> str:
+    """Detect the true local LAN IP address, prioritizing actual Wi-Fi/Ethernet adapters over virtual VPNs (OpenVPN/WSL/VMware)."""
+    import socket
+    candidates = []
+    try:
+        hostname = socket.gethostname()
+        for item in socket.getaddrinfo(hostname, None):
+            if item[0] == socket.AF_INET:
+                ip = item[4][0]
+                if not ip.startswith('127.') and not ip.startswith('169.254.'):
+                    candidates.append(ip)
+    except Exception:
+        pass
+
+    # Priority 1: 192.168.x.x (standard home/office Wi-Fi or Ethernet LAN)
+    lan_192 = [ip for ip in candidates if ip.startswith('192.168.')]
+    if lan_192:
+        return lan_192[0]
+
+    # Priority 2: 10.x.x.x
+    lan_10 = [ip for ip in candidates if ip.startswith('10.')]
+    if lan_10:
+        return lan_10[0]
+
+    # Priority 3: 172.16-31.x.x
+    for ip in candidates:
+        parts = ip.split('.')
+        if len(parts) == 4 and parts[0] == '172' and parts[1].isdigit() and 16 <= int(parts[1]) <= 31:
+            return ip
+
+    # Priority 4: socket connect test (fallback)
+    try:
+        s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+        s.connect(("8.8.8.8", 80))
+        sock_ip = s.getsockname()[0]
+        s.close()
+        if sock_ip and not sock_ip.startswith("127.") and not sock_ip.startswith("169.254."):
+            return sock_ip
+    except Exception:
+        pass
+
+    if candidates:
+        return candidates[0]
+    return "localhost"
+
+def na_slugify(title: str) -> str:
+    """Slugify Vietnamese or standard text for file names."""
+    import re
+    s = title.strip().lower()
+    s = re.sub(r'[^\w\s-]', '', s)
+    s = re.sub(r'[\s_-]+', '-', s)
+    return s[:48] or 'novel'
+
+def na_find_existing_epub(slug: str, title: str = "") -> tuple[str, str] | None:
+    """Find existing EPUB on disk for a project. Returns (full_path, filename) or None."""
+    output_dir = os.path.join(BASE_DIR, 'output', 'epub')
+    scripts_static = os.path.join(BASE_DIR, 'scripts', 'static', 'epub')
+    if not os.path.exists(output_dir):
+        return None
+
+    # Check 1: expected title slug
+    if title:
+        expected = f"{na_slugify(title)}.epub"
+        for d in [output_dir, scripts_static]:
+            p = os.path.join(d, expected)
+            if os.path.exists(p):
+                return p, expected
+
+    # Check 2: slug.epub
+    expected_slug = f"{slug}.epub"
+    for d in [output_dir, scripts_static]:
+        p = os.path.join(d, expected_slug)
+        if os.path.exists(p):
+            return p, expected_slug
+
+    # Check 3: search for partial match in output_dir
+    files = [f for f in os.listdir(output_dir) if f.lower().endswith('.epub')]
+    clean_slug = slug.strip().lower()
+    for f in files:
+        f_lower = f.lower()
+        if f_lower.startswith(clean_slug) or clean_slug in f_lower:
+            return os.path.join(output_dir, f), f
+    if title:
+        slug_title = na_slugify(title)[:24]
+        for f in files:
+            if slug_title in f.lower():
+                return os.path.join(output_dir, f), f
+
+    # Check 4: check project dir itself (e.g. novel_projects/<slug>/*.epub)
+    proj_dir = os.path.join(BASE_DIR, 'novel_projects', slug)
+    if os.path.exists(proj_dir):
+        p_epubs = [f for f in os.listdir(proj_dir) if f.lower().endswith('.epub')]
+        if p_epubs:
+            p_epubs.sort(key=lambda x: os.path.getmtime(os.path.join(proj_dir, x)), reverse=True)
+            best_f = p_epubs[0]
+            best_p = os.path.join(proj_dir, best_f)
+            try:
+                dest = os.path.join(output_dir, best_f)
+                if not os.path.exists(dest):
+                    shutil.copy2(best_p, dest)
+                return dest, best_f
+            except Exception:
+                return best_p, best_f
+
+    return None
+
 @st.cache_resource
 def start_global_epub_server():
     """Start a lightweight background HTTP file server on port 8088 to serve EPUB files directly."""
@@ -593,11 +699,15 @@ def start_global_epub_server():
             super().__init__(*args, directory=output_dir, **kwargs)
 
         def end_headers(self):
+            import urllib.parse
             self.send_header("Access-Control-Allow-Origin", "*")
-            if self.path.endswith('.epub'):
+            clean_path = self.path.split('?')[0]
+            if clean_path.lower().endswith('.epub'):
                 self.send_header("Content-Type", "application/epub+zip")
-                fname = os.path.basename(self.path)
-                self.send_header("Content-Disposition", f'attachment; filename="{fname}"')
+                fname = urllib.parse.unquote(os.path.basename(clean_path))
+                ascii_fname = urllib.parse.quote(fname.encode('ascii', 'ignore').decode()) or 'novel.epub'
+                encoded_utf8_fname = urllib.parse.quote(fname)
+                self.send_header("Content-Disposition", f'attachment; filename="{ascii_fname}"; filename*=UTF-8\'\'{encoded_utf8_fname}')
             super().end_headers()
 
         def log_message(self, format, *args):
@@ -617,59 +727,71 @@ def start_global_epub_server():
 EPUB_SERVER_PORT = start_global_epub_server()
 
 def na_save_and_get_epub_download_info(filename: str, epub_bytes: bytes = None) -> dict:
-    """Save EPUB bytes to static & output/epub directories and generate LAN / WAN download links & QR Code."""
+    """Save EPUB bytes to output/epub, scripts/static/epub & static/epub directories and generate LAN / WAN download links & QR Code."""
     import urllib.parse
     safe_filename = filename if filename.lower().endswith('.epub') else f"{filename}.epub"
     
-    static_dir = os.path.join(BASE_DIR, 'static', 'epub')
     output_dir = os.path.join(BASE_DIR, 'output', 'epub')
-    os.makedirs(static_dir, exist_ok=True)
-    os.makedirs(output_dir, exist_ok=True)
+    scripts_static_dir = os.path.join(BASE_DIR, 'scripts', 'static', 'epub')
+    root_static_dir = os.path.join(BASE_DIR, 'static', 'epub')
     
-    static_path = os.path.join(static_dir, safe_filename)
+    os.makedirs(output_dir, exist_ok=True)
+    os.makedirs(scripts_static_dir, exist_ok=True)
+    os.makedirs(root_static_dir, exist_ok=True)
+    
     output_path = os.path.join(output_dir, safe_filename)
+    scripts_static_path = os.path.join(scripts_static_dir, safe_filename)
+    root_static_path = os.path.join(root_static_dir, safe_filename)
     
     if epub_bytes is not None:
-        with open(static_path, 'wb') as f:
-            f.write(epub_bytes)
-        with open(output_path, 'wb') as f:
-            f.write(epub_bytes)
-    else:
-        # If epub_bytes not provided but exists in output_dir, ensure static_dir has a copy
-        if os.path.exists(output_path) and not os.path.exists(static_path):
+        for p in [output_path, scripts_static_path, root_static_path]:
             try:
-                shutil.copy2(output_path, static_path)
+                with open(p, 'wb') as f:
+                    f.write(epub_bytes)
             except Exception:
                 pass
+    else:
+        # If epub_bytes not provided, locate existing file from any directory and sync
+        for src in [output_path, scripts_static_path, root_static_path]:
+            if os.path.exists(src):
+                try:
+                    with open(src, 'rb') as f:
+                        epub_bytes = f.read()
+                    break
+                except Exception:
+                    pass
+        if epub_bytes is not None:
+            for p in [output_path, scripts_static_path, root_static_path]:
+                if not os.path.exists(p):
+                    try:
+                        with open(p, 'wb') as f:
+                            f.write(epub_bytes)
+                    except Exception:
+                        pass
         
-    local_ip = "localhost"
-    try:
-        import socket
-        s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-        s.connect(("8.8.8.8", 80))
-        local_ip = s.getsockname()[0]
-        s.close()
-    except Exception:
-        pass
+    local_ip = get_real_lan_ip()
         
     encoded_name = urllib.parse.quote(safe_filename)
     lan_url = f"http://{local_ip}:{EPUB_SERVER_PORT}/{encoded_name}"
     local_url = f"http://localhost:{EPUB_SERVER_PORT}/{encoded_name}"
     streamlit_lan_url = f"http://{local_ip}:8501/app/static/epub/{encoded_name}"
+    streamlit_local_url = f"http://localhost:8501/app/static/epub/{encoded_name}"
     static_rel_url = f"app/static/epub/{encoded_name}"
     qr_url = f"https://api.qrserver.com/v1/create-qr-code/?size=180x180&data={lan_url}"
     
     return {
         'filename': safe_filename,
-        'static_path': static_path,
+        'static_path': scripts_static_path,
         'output_path': output_path,
         'lan_url': lan_url,
         'local_url': local_url,
         'streamlit_lan_url': streamlit_lan_url,
+        'streamlit_local_url': streamlit_local_url,
         'static_rel_url': static_rel_url,
         'qr_url': qr_url,
         'local_ip': local_ip,
-        'port': EPUB_SERVER_PORT
+        'port': EPUB_SERVER_PORT,
+        'bytes': epub_bytes
     }
 
 def render_epub_3rd_party_download(info: dict):
@@ -680,15 +802,15 @@ def render_epub_3rd_party_download(info: dict):
         c_link, c_qr = st.columns([3, 1])
         with c_link:
             st.markdown(f"**🔗 Link Tải Trực Tiếp (Mạng LAN & Thiết bị cùng Wifi):**")
-            st.markdown(f"👉 **[📥 Bấm vào đây để tải trực tiếp file EPUB]({info['lan_url']})**")
+            st.markdown(f"👉 **[📥 Bấm vào đây để tải trực tiếp file EPUB qua LAN]({info['lan_url']})**")
             st.code(info['lan_url'], language=None)
             
             st.markdown(f"**🔗 Link Dự Phòng (Streamlit Web Server):**")
-            st.markdown(f"👉 **[📥 Bấm vào đây để tải qua Streamlit Backup]({info['streamlit_lan_url']})**")
+            st.markdown(f"👉 **[📥 Bấm vào đây để tải qua Streamlit Server]({info['streamlit_lan_url']})**")
             st.code(info['streamlit_lan_url'], language=None)
             
-            if info.get('local_url') and info.get('local_ip') != 'localhost':
-                st.markdown(f"**🔗 Link Localhost (Dành cho máy hiện tại):**")
+            if info.get('local_url'):
+                st.markdown(f"**💻 Link Localhost (Dành cho trình duyệt máy này):**")
                 st.markdown(f"👉 **[📥 Bấm vào đây để tải qua Localhost]({info['local_url']})**")
                 st.code(info['local_url'], language=None)
                 
@@ -700,15 +822,20 @@ def render_epub_3rd_party_download(info: dict):
 
 def render_epub_download_box(filename: str, epub_bytes: bytes, info: dict, key_prefix: str = "epub"):
     """Hiển thị khối download hoàn chỉnh với nút tải, nút link tải trực tiếp, link có thể click và QR code."""
-    if not epub_bytes or not info:
+    if not info:
+        return
+    if not epub_bytes and info.get('bytes'):
+        epub_bytes = info['bytes']
+    if not epub_bytes:
         return
     size_mb = len(epub_bytes) / (1024 * 1024)
     lan_url = info.get('lan_url', '')
+    local_url = info.get('local_url', '')
     
-    c_btn1, c_btn2 = st.columns([1, 1])
+    c_btn1, c_btn2, c_btn3 = st.columns([1.5, 1, 1])
     with c_btn1:
         st.download_button(
-            label=f"📥 Tải Về Máy {filename} ({size_mb:.2f} MB)",
+            label=f"📥 Tải Về Máy ({size_mb:.2f} MB)",
             data=epub_bytes,
             file_name=filename,
             mime="application/epub+zip",
@@ -719,8 +846,17 @@ def render_epub_download_box(filename: str, epub_bytes: bytes, info: dict, key_p
     with c_btn2:
         if lan_url:
             st.link_button(
-                label="🔗 Mở Link Tải Trực Tiếp",
+                label="🔗 Link LAN",
                 url=lan_url,
+                help="Mở link tải trực tiếp qua mạng LAN (hỗ trợ điện thoại, iPad, Kindle cùng Wifi)",
+                use_container_width=True
+            )
+    with c_btn3:
+        if local_url:
+            st.link_button(
+                label="💻 Localhost",
+                url=local_url,
+                help="Mở link tải trực tiếp trên máy hiện tại",
                 use_container_width=True
             )
             
@@ -4111,6 +4247,64 @@ if tabs.is_active(9):
         info = na_save_and_get_epub_download_info(fname, ep_bytes)
         return ep_bytes, fname, info
 
+    def na_render_bookshelf_epub_widget(p: dict, key_suffix: str = ""):
+        """Render standard EPUB download, repack, direct links and QR code widget for bookshelf cards."""
+        if p.get('n_translated', 0) <= 0:
+            st.button("📚 EPUB", key=f"na_gen_ep_dis_{key_suffix}_{p['slug']}", disabled=True, help="Chưa có chương nào được dịch để xuất EPUB", use_container_width=True)
+            return
+
+        epub_ready_key = f"na_quick_ep_{p['slug']}"
+        if epub_ready_key not in st.session_state:
+            found_ep = na_find_existing_epub(p['slug'], p.get('title'))
+            if found_ep:
+                epub_disk_p, expected_slug_fname = found_ep
+                try:
+                    with open(epub_disk_p, 'rb') as _f_ep:
+                        _disk_bytes = _f_ep.read()
+                    _disk_info = na_save_and_get_epub_download_info(expected_slug_fname, _disk_bytes)
+                    st.session_state[epub_ready_key] = (_disk_bytes, expected_slug_fname, _disk_info)
+                except Exception:
+                    pass
+
+        if epub_ready_key in st.session_state:
+            ep_data = st.session_state[epub_ready_key]
+            ep_bytes = ep_data[0]
+            ep_fname = ep_data[1]
+            ep_info = ep_data[2] if len(ep_data) > 2 else na_save_and_get_epub_download_info(ep_fname, ep_bytes)
+            col_dl, col_re = st.columns([1, 1])
+            with col_dl:
+                st.download_button("⬇️ Tải Máy", data=ep_bytes, file_name=ep_fname, mime="application/epub+zip", key=f"na_dl_ep_btn_{key_suffix}_{p['slug']}", use_container_width=True)
+            with col_re:
+                if st.button("🔄 Gói Lại", key=f"na_re_ep_{key_suffix}_{p['slug']}", help="Đóng gói lại toàn bộ các chương đã dịch sang file EPUB mới nhất", use_container_width=True):
+                    with st.spinner("Đang đóng gói lại EPUB..."):
+                        res_ep = na_export_quick_epub_bytes(p['slug'])
+                        if res_ep:
+                            st.session_state[epub_ready_key] = res_ep
+                            st.toast("🎉 Đã đóng gói lại EPUB thành công!", icon="📚")
+                            st.rerun()
+                        else:
+                            st.warning("Không có chương dịch để xuất EPUB")
+            if ep_info:
+                col_l1, col_l2 = st.columns([1, 1])
+                with col_l1:
+                    st.link_button("🔗 LAN", ep_info.get('lan_url', ''), use_container_width=True, help="Tải trực tiếp qua mạng LAN/Wifi cho điện thoại, iPad, Kindle")
+                with col_l2:
+                    st.link_button("💻 Local", ep_info.get('local_url', ''), use_container_width=True, help="Tải trực tiếp trên máy hiện tại")
+                with st.expander("📱 QR & Link Tải", expanded=False):
+                    st.markdown(f"**LAN Link (Wifi/Mobile):**\n`{ep_info.get('lan_url','')}`")
+                    st.markdown(f"**Streamlit Server:**\n`{ep_info.get('streamlit_lan_url','')}`")
+                    st.image(ep_info.get('qr_url',''), width=130, caption="Quét bằng Điện thoại")
+        else:
+            if st.button("📚 EPUB", key=f"na_gen_ep_{key_suffix}_{p['slug']}", help="Đóng gói và tải nhanh EPUB", use_container_width=True):
+                with st.spinner("Đang đóng gói EPUB..."):
+                    res_ep = na_export_quick_epub_bytes(p['slug'])
+                    if res_ep:
+                        st.session_state[epub_ready_key] = res_ep
+                        st.toast("🎉 Đã đóng gói EPUB thành công!", icon="📚")
+                        st.rerun()
+                    else:
+                        st.warning("Không có chương dịch để xuất EPUB")
+
     def na_get_project_summary_stats(slug: str) -> dict:
         """Calculate summary statistics for a project: chapter count, translated count, QC count, characters count, etc."""
         cfg = na_load_config(slug)
@@ -5312,56 +5506,7 @@ if tabs.is_active(11):
                                             if st.button("📖 Văn Án", key=f"na_va_grid_comp_{p['slug']}", help="Xem toàn bộ văn án giới thiệu của truyện", use_container_width=True):
                                                 na_show_synopsis_dialog(p)
                                         with c_btn2:
-                                            if p['n_translated'] > 0:
-                                                epub_ready_key = f"na_quick_ep_{p['slug']}"
-                                                if epub_ready_key not in st.session_state:
-                                                    expected_slug_fname = f"{na_slugify(p.get('title') or p['slug'])}.epub"
-                                                    epub_disk_p = os.path.join(BASE_DIR, 'output', 'epub', expected_slug_fname)
-                                                    if not os.path.exists(epub_disk_p):
-                                                        alt_p = os.path.join(BASE_DIR, 'output', 'epub', f"{p['slug']}.epub")
-                                                        if os.path.exists(alt_p):
-                                                            epub_disk_p = alt_p
-                                                            expected_slug_fname = f"{p['slug']}.epub"
-                                                    if os.path.exists(epub_disk_p):
-                                                        try:
-                                                            with open(epub_disk_p, 'rb') as _f_ep:
-                                                                _disk_bytes = _f_ep.read()
-                                                            _disk_info = na_save_and_get_epub_download_info(expected_slug_fname, _disk_bytes)
-                                                            st.session_state[epub_ready_key] = (_disk_bytes, expected_slug_fname, _disk_info)
-                                                        except Exception:
-                                                            pass
-
-                                                if epub_ready_key in st.session_state:
-                                                    ep_data = st.session_state[epub_ready_key]
-                                                    ep_bytes = ep_data[0]
-                                                    ep_fname = ep_data[1]
-                                                    ep_info = ep_data[2] if len(ep_data) > 2 else na_save_and_get_epub_download_info(ep_fname, ep_bytes)
-                                                    col_dl, col_re = st.columns([1, 1])
-                                                    with col_dl:
-                                                        st.download_button("⬇️ Lưu File", data=ep_bytes, file_name=ep_fname, mime="application/epub+zip", key=f"na_dl_ep_btn_{p['slug']}", use_container_width=True)
-                                                    with col_re:
-                                                        if st.button("🔄 Gói Lại", key=f"na_re_ep_{p['slug']}", help="Đóng gói lại toàn bộ các chương đã dịch sang file EPUB mới nhất", use_container_width=True):
-                                                            with st.spinner("Đang đóng gói lại EPUB..."):
-                                                                res_ep = na_export_quick_epub_bytes(p['slug'])
-                                                                if res_ep:
-                                                                    st.session_state[epub_ready_key] = res_ep
-                                                                    st.toast("🎉 Đã đóng gói lại EPUB thành công!", icon="📚")
-                                                                    st.rerun()
-                                                                else:
-                                                                    st.warning("Không có chương dịch để xuất EPUB")
-                                                    if ep_info and ep_info.get('lan_url'):
-                                                        st.code(ep_info['lan_url'], language=None)
-                                                else:
-                                                    if st.button("📚 EPUB", key=f"na_gen_ep_{p['slug']}", help="Đóng gói và tải nhanh EPUB", use_container_width=True):
-                                                        with st.spinner("Đang đóng gói EPUB..."):
-                                                            res_ep = na_export_quick_epub_bytes(p['slug'])
-                                                            if res_ep:
-                                                                st.session_state[epub_ready_key] = res_ep
-                                                                st.rerun()
-                                                            else:
-                                                                st.warning("Không có chương dịch để xuất EPUB")
-                                            else:
-                                                st.button("📚 EPUB", key=f"na_gen_ep_dis_{p['slug']}", disabled=True, help="Chưa có chương nào được dịch để xuất EPUB", use_container_width=True)
+                                            na_render_bookshelf_epub_widget(p, key_suffix="comp")
                                         with c_btn3:
                                             if st.button("🔍 Tác giả", key=f"na_auth_filter_card_{p['slug']}", help=f"Lọc các truyện của tác giả {p['author']}", use_container_width=True):
                                                 matching_opt = next((opt for opt in author_options if opt.startswith(p['author'])), None)
@@ -5382,56 +5527,7 @@ if tabs.is_active(11):
                                             if st.button("📖 Văn Án", key=f"na_va_grid_drop_{p['slug']}", help="Xem toàn bộ văn án giới thiệu của truyện", use_container_width=True):
                                                 na_show_synopsis_dialog(p)
                                         with c_btn2:
-                                            if p['n_translated'] > 0:
-                                                epub_ready_key = f"na_quick_ep_{p['slug']}"
-                                                if epub_ready_key not in st.session_state:
-                                                    expected_slug_fname = f"{na_slugify(p.get('title') or p['slug'])}.epub"
-                                                    epub_disk_p = os.path.join(BASE_DIR, 'output', 'epub', expected_slug_fname)
-                                                    if not os.path.exists(epub_disk_p):
-                                                        alt_p = os.path.join(BASE_DIR, 'output', 'epub', f"{p['slug']}.epub")
-                                                        if os.path.exists(alt_p):
-                                                            epub_disk_p = alt_p
-                                                            expected_slug_fname = f"{p['slug']}.epub"
-                                                    if os.path.exists(epub_disk_p):
-                                                        try:
-                                                            with open(epub_disk_p, 'rb') as _f_ep:
-                                                                _disk_bytes = _f_ep.read()
-                                                            _disk_info = na_save_and_get_epub_download_info(expected_slug_fname, _disk_bytes)
-                                                            st.session_state[epub_ready_key] = (_disk_bytes, expected_slug_fname, _disk_info)
-                                                        except Exception:
-                                                            pass
-
-                                                if epub_ready_key in st.session_state:
-                                                    ep_data = st.session_state[epub_ready_key]
-                                                    ep_bytes = ep_data[0]
-                                                    ep_fname = ep_data[1]
-                                                    ep_info = ep_data[2] if len(ep_data) > 2 else na_save_and_get_epub_download_info(ep_fname, ep_bytes)
-                                                    col_dl, col_re = st.columns([1, 1])
-                                                    with col_dl:
-                                                        st.download_button("⬇️ Lưu File", data=ep_bytes, file_name=ep_fname, mime="application/epub+zip", key=f"na_dl_ep_btn_{p['slug']}", use_container_width=True)
-                                                    with col_re:
-                                                        if st.button("🔄 Gói Lại", key=f"na_re_ep_{p['slug']}", help="Đóng gói lại toàn bộ các chương đã dịch sang file EPUB mới nhất", use_container_width=True):
-                                                            with st.spinner("Đang đóng gói lại EPUB..."):
-                                                                res_ep = na_export_quick_epub_bytes(p['slug'])
-                                                                if res_ep:
-                                                                    st.session_state[epub_ready_key] = res_ep
-                                                                    st.toast("🎉 Đã đóng gói lại EPUB thành công!", icon="📚")
-                                                                    st.rerun()
-                                                                else:
-                                                                    st.warning("Không có chương dịch để xuất EPUB")
-                                                    if ep_info and ep_info.get('lan_url'):
-                                                        st.code(ep_info['lan_url'], language=None)
-                                                else:
-                                                    if st.button("📚 EPUB", key=f"na_gen_ep_{p['slug']}", help="Đóng gói và tải nhanh EPUB", use_container_width=True):
-                                                        with st.spinner("Đang đóng gói EPUB..."):
-                                                            res_ep = na_export_quick_epub_bytes(p['slug'])
-                                                            if res_ep:
-                                                                st.session_state[epub_ready_key] = res_ep
-                                                                st.rerun()
-                                                            else:
-                                                                st.warning("Không có chương dịch để xuất EPUB")
-                                            else:
-                                                st.button("📚 EPUB", key=f"na_gen_ep_dis_{p['slug']}", disabled=True, help="Chưa có chương nào được dịch để xuất EPUB", use_container_width=True)
+                                            na_render_bookshelf_epub_widget(p, key_suffix="comp")
                                         with c_btn3:
                                             if st.button("🔍 Tác giả", key=f"na_auth_filter_card_{p['slug']}", help=f"Lọc các truyện của tác giả {p['author']}", use_container_width=True):
                                                 matching_opt = next((opt for opt in author_options if opt.startswith(p['author'])), None)
@@ -5479,57 +5575,7 @@ if tabs.is_active(11):
                                             if st.button("📖 Văn Án", key=f"na_va_grid_act_{p['slug']}", help="Xem toàn bộ văn án giới thiệu của truyện", use_container_width=True):
                                                 na_show_synopsis_dialog(p)
                                         with c_top2:
-                                            if p['n_translated'] > 0:
-                                                epub_ready_key = f"na_quick_ep_{p['slug']}"
-                                                if epub_ready_key not in st.session_state:
-                                                    expected_slug_fname = f"{na_slugify(p.get('title') or p['slug'])}.epub"
-                                                    epub_disk_p = os.path.join(BASE_DIR, 'output', 'epub', expected_slug_fname)
-                                                    if not os.path.exists(epub_disk_p):
-                                                        alt_p = os.path.join(BASE_DIR, 'output', 'epub', f"{p['slug']}.epub")
-                                                        if os.path.exists(alt_p):
-                                                            epub_disk_p = alt_p
-                                                            expected_slug_fname = f"{p['slug']}.epub"
-                                                    if os.path.exists(epub_disk_p):
-                                                        try:
-                                                            with open(epub_disk_p, 'rb') as _f_ep:
-                                                                _disk_bytes = _f_ep.read()
-                                                            _disk_info = na_save_and_get_epub_download_info(expected_slug_fname, _disk_bytes)
-                                                            st.session_state[epub_ready_key] = (_disk_bytes, expected_slug_fname, _disk_info)
-                                                        except Exception:
-                                                            pass
-
-                                                if epub_ready_key in st.session_state:
-                                                    ep_data = st.session_state[epub_ready_key]
-                                                    ep_bytes = ep_data[0]
-                                                    ep_fname = ep_data[1]
-                                                    ep_info = ep_data[2] if len(ep_data) > 2 else na_save_and_get_epub_download_info(ep_fname, ep_bytes)
-                                                    col_dl, col_re = st.columns([1, 1])
-                                                    with col_dl:
-                                                        st.download_button("⬇️ Lưu File", data=ep_bytes, file_name=ep_fname, mime="application/epub+zip", key=f"na_dl_ep_btn_{p['slug']}", use_container_width=True)
-                                                    with col_re:
-                                                        if st.button("🔄 Gói Lại", key=f"na_re_ep_{p['slug']}", help="Đóng gói lại toàn bộ các chương đã dịch sang file EPUB mới nhất", use_container_width=True):
-                                                            with st.spinner("Đang đóng gói lại EPUB..."):
-                                                                res_ep = na_export_quick_epub_bytes(p['slug'])
-                                                                if res_ep:
-                                                                    st.session_state[epub_ready_key] = res_ep
-                                                                    st.toast("🎉 Đã đóng gói lại EPUB thành công!", icon="📚")
-                                                                    st.rerun()
-                                                                else:
-                                                                    st.warning("Không có chương dịch để xuất EPUB")
-                                                    if ep_info and ep_info.get('lan_url'):
-                                                        st.code(ep_info['lan_url'], language=None)
-                                                else:
-                                                    if st.button("📚 EPUB", key=f"na_gen_ep_{p['slug']}", help="Đóng gói và tải nhanh EPUB", use_container_width=True):
-                                                        with st.spinner("Đang đóng gói EPUB..."):
-                                                            res_ep = na_export_quick_epub_bytes(p['slug'])
-                                                            if res_ep:
-                                                                st.session_state[epub_ready_key] = res_ep
-                                                                st.toast("🎉 Đã đóng gói EPUB thành công!", icon="📚")
-                                                                st.rerun()
-                                                            else:
-                                                                st.warning("Không có chương dịch để xuất EPUB")
-                                            else:
-                                                st.button("📚 EPUB", key=f"na_gen_ep_dis_{p['slug']}", disabled=True, help="Chưa có chương nào được dịch để xuất EPUB", use_container_width=True)
+                                            na_render_bookshelf_epub_widget(p, key_suffix="act")
 
                                         c_sub1, c_sub2, c_sub3, c_sub4 = st.columns([2, 3, 2, 1])
                                         with c_sub1:
@@ -7214,18 +7260,19 @@ if tabs.is_active(11):
                             with col_sopt3:
                                 na_dir_sum_pos = st.radio("Vị trí phần tóm tắt:", ["Trước các chương (đầu sách)", "Sau các chương (cuối sách)"], key=f"na_d_sp_{na_proj}")
 
-                        expected_fname = f"{na_slugify(na_cfg.get('title', na_proj))}.epub"
-                        existing_epub_path = os.path.join(BASE_DIR, 'output', 'epub', expected_fname)
-                        if 'na_direct_epub_bytes' not in st.session_state and os.path.exists(existing_epub_path):
-                            try:
-                                with open(existing_epub_path, 'rb') as _f_ex:
-                                    _ex_bytes = _f_ex.read()
-                                _ex_info = na_save_and_get_epub_download_info(expected_fname, _ex_bytes)
-                                st.info(f"📁 **Đã có file EPUB đóng gói sẵn**: `{expected_fname}` ({len(_ex_bytes)/(1024*1024):.2f} MB)")
-                                render_epub_download_box(expected_fname, _ex_bytes, _ex_info, key_prefix="na_existing_epub")
-                                st.markdown("<hr style='margin:12px 0; border:none; border-top:1px dashed rgba(0,0,0,0.15);'>", unsafe_allow_html=True)
-                            except Exception:
-                                pass
+                        if 'na_direct_epub_bytes' not in st.session_state:
+                            found_ex = na_find_existing_epub(na_proj, na_cfg.get('title'))
+                            if found_ex:
+                                existing_epub_path, existing_fname = found_ex
+                                try:
+                                    with open(existing_epub_path, 'rb') as _f_ex:
+                                        _ex_bytes = _f_ex.read()
+                                    _ex_info = na_save_and_get_epub_download_info(existing_fname, _ex_bytes)
+                                    st.info(f"📁 **Đã có file EPUB đóng gói sẵn**: `{existing_fname}` ({len(_ex_bytes)/(1024*1024):.2f} MB)")
+                                    render_epub_download_box(existing_fname, _ex_bytes, _ex_info, key_prefix="na_existing_epub")
+                                    st.markdown("<hr style='margin:12px 0; border:none; border-top:1px dashed rgba(0,0,0,0.15);'>", unsafe_allow_html=True)
+                                except Exception:
+                                    pass
 
                         if st.button(f"⚡ Đóng Gói {len(na_tr_chs)} Chương Dịch Sang EPUB", key="na_direct_epub_btn", type="primary"):
                             with st.spinner("Đang đóng gói file EPUB..."):

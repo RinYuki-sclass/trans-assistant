@@ -1,0 +1,29 @@
+{
+  "chapter_id": "ch_017",
+  "chapter_num": 17,
+  "title_raw": "第17章 故人半为鬼",
+  "title_vi": "Chương 17: Cố nhân nửa thành quỷ",
+  "total_paragraphs": 90,
+  "status": "qc_approved",
+  "qc_approved": true,
+  "qc_score": 10,
+  "has_raw": true,
+  "has_trans": true,
+  "has_qc": true,
+  "speaker_rules": {
+    "protagonist_공": "Thẩm Vân Tẫn (hắn)",
+    "shou_수": "Tạ Vi Viễn (y)",
+    "dialogue_matrix": {
+      "Thẩm Vân Tẫn -> Thẩm Giang Lâm": "tôi - ông",
+      "Thẩm Giang Lâm -> Thẩm Vân Tẫn": "ta/cha - con/Vân Tẫn",
+      "Tạ Vi Viễn -> Thẩm Giang Lâm": "ta/bọn ta - ngươi",
+      "Thẩm Giang Lâm -> Tạ Vi Viễn": "ta - ngươi/Lăng Hoa Quân",
+      "Tạ Vi Viễn -> Thẩm Vân Tẫn": "ta - ngươi",
+      "Thẩm Vân Tẫn -> Tạ Vi Viễn": "Ồ / Thật đẹp",
+      "Ký Vân Lan -> Thẩm Giang Lâm": "ngươi",
+      "Khương Nguyên -> mọi người": "các người"
+    }
+  },
+  "created_at": "2026-11-22T19:18:00+07:00",
+  "updated_at": "2026-11-22T19:18:00+07:00"
+}

@@ -1,0 +1,27 @@
+{
+  "chapter_id": "ch_027",
+  "chapter_num": 27,
+  "title_raw": "第27章 师尊洗澡，别看！",
+  "title_vi": "Chương 27: Sư tôn tắm rửa, đừng nhìn!",
+  "total_paragraphs": 113,
+  "status": "qc_approved",
+  "qc_approved": true,
+  "qc_score": 10,
+  "has_raw": true,
+  "has_trans": true,
+  "has_qc": true,
+  "speaker_rules": {
+    "protagonist_공": "Thẩm Vân Tẫn (hắn)",
+    "shou_수": "Tạ Vi Viễn (y)",
+    "dialogue_matrix": {
+      "Thẩm Vân Tẫn -> Tạ Vi Viễn (sư tổ)": "con - sư tổ / người",
+      "Tạ Vi Viễn (sư tổ) -> Thẩm Vân Tẫn": "bản quân - ngươi",
+      "Thẩm Vân Tẫn -> Tạ Vi Viễn (sư tôn)": "con - sư tôn",
+      "Tạ Vi Viễn -> Thẩm Vân Tẫn": "ta - ngươi",
+      "Thiên Nhược Kiếm -> Thẩm Vân Tẫn": "ta - ngươi",
+      "Thẩm Vân Tẫn -> Thiên Nhược Kiếm": "ta - ngươi"
+    }
+  },
+  "created_at": "2026-11-23T00:16:00+07:00",
+  "updated_at": "2026-11-23T00:16:00+07:00"
+}

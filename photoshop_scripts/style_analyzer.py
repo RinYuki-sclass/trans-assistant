@@ -77,9 +77,9 @@ def analyze_with_local_cv(image_path):
         "drop_shadow": {"enabled": False, "color_hex": "#000000", "distance_px": 4.0, "blur_px": 4.0}
     }
 
-    # 1. Đo phân bố độ sáng và kiểm tra Bong bóng thoại sáng (Speech Bubble Detection)
-    bright_ratio = np.mean(lum > 170)
-    bright_pixels = smooth[lum > 170]
+    # 1. Đo phân bố độ sáng và kiểm tra Bong bóng thoại sáng / xám (Speech Bubble Detection)
+    bright_ratio = np.mean(lum > 140)
+    bright_pixels = smooth[lum > 140]
     if len(bright_pixels) > 0:
         bright_med = np.median(bright_pixels, axis=0)
         bright_lum = 0.299 * bright_med[0] + 0.587 * bright_med[1] + 0.114 * bright_med[2]
@@ -97,9 +97,9 @@ def analyze_with_local_cv(image_path):
     bg_color_corners = np.median(corner_medians, axis=0)
     bg_lum_corners = 0.299 * bg_color_corners[0] + 0.587 * bg_color_corners[1] + 0.114 * bg_color_corners[2]
 
-    # Nhận diện Bong bóng thoại sáng:
-    # Nếu có ít nhất 25% diện tích sáng (> 170) và màu sáng đạt chuẩn, HOẶC 4 góc là nền sáng
-    is_speech_bubble = (bright_ratio >= 0.25 and bright_lum > 180) or (bg_lum_corners > 170)
+    # Nhận diện Bong bóng thoại sáng hoặc xám:
+    # Nếu có ít nhất 20% diện tích sáng (> 140) và màu sáng đạt chuẩn, HOẶC 4 góc là nền sáng
+    is_speech_bubble = (bright_ratio >= 0.20 and bright_lum > 145) or (bg_lum_corners > 145)
 
     # =========================================================================
     # PHÂN NHÁNH 1: BONG BÓNG THOẠI SÁNG / NỀN TRẮNG (SPEECH BUBBLE & STYLIZED SFX)
@@ -190,56 +190,47 @@ def analyze_with_local_cv(image_path):
                 }
                 return result
 
+        # Loại bỏ 4 pixel viền ngoài cùng của ảnh crop để không bị dính viền bóng thoại hay viền ô tranh bên ngoài
+        inner_mask = np.zeros((H, W), dtype=bool)
+        pad = min(4, min(H, W) // 4)
+        if pad > 0:
+            inner_mask[pad:-pad, pad:-pad] = True
+        else:
+            inner_mask[:] = True
+
         # Lấy các pixel chữ bên trong bóng thoại (tối hơn nền bóng thoại)
-        text_mask = lum < max(120, bright_lum - 38)
-        if text_mask.sum() > 20:
-            y_idx, x_idx = np.where(text_mask)
-            y_min, y_max = y_idx.min(), y_idx.max()
-            y_span = max(1, y_max - y_min)
-
-            top_mask = text_mask & (np.arange(H)[:, None] <= y_min + 0.35 * y_span)
-            bot_mask = text_mask & (np.arange(H)[:, None] >= y_max - 0.35 * y_span)
-
-            top_rgb = np.median(smooth[top_mask], axis=0).astype(int) if top_mask.any() else np.median(smooth[text_mask], axis=0).astype(int)
-            bot_rgb = np.median(smooth[bot_mask], axis=0).astype(int) if bot_mask.any() else np.median(smooth[text_mask], axis=0).astype(int)
+        text_mask = (lum < max(120, bright_lum - 38)) & inner_mask
+        if text_mask.sum() > 100:
             mid_rgb = np.median(smooth[text_mask], axis=0).astype(int)
-
-            # Đo độ bão hòa màu (Chroma)
-            top_chroma = max(abs(top_rgb[0] - top_rgb[1]), abs(top_rgb[2] - top_rgb[1]), abs(top_rgb[0] - top_rgb[2]))
-            bot_chroma = max(abs(bot_rgb[0] - bot_rgb[1]), abs(bot_rgb[2] - bot_rgb[1]), abs(bot_rgb[0] - bot_rgb[2]))
             mid_chroma = max(abs(mid_rgb[0] - mid_rgb[1]), abs(mid_rgb[2] - mid_rgb[1]), abs(mid_rgb[0] - mid_rgb[2]))
 
-            color_diff = delta_e_simple(top_rgb, bot_rgb)
-            lum_diff = abs(float(np.mean(top_rgb)) - float(np.mean(bot_rgb)))
-
-            # Nhận diện Gradient: Có sắc thái màu (tím, đỏ, xanh...) và có chênh lệch giữa đỉnh và đáy
-            is_grad = ((top_chroma >= 6 or bot_chroma >= 6 or mid_chroma >= 6) and (color_diff >= 8.0 or lum_diff >= 10.0)) or (lum_diff >= 28.0)
-
-            if is_grad and y_span >= 10:
-                result["fill"] = {
-                    "is_gradient": True,
-                    "solid_hex": to_hex(mid_rgb),
-                    "top_hex": to_hex(top_rgb),
-                    "bottom_hex": to_hex(bot_rgb),
-                    "angle": 90
-                }
+            # Trong bóng thoại thường: Tuyệt đối không dùng Gradient Overlay để tránh làm mờ/bẩn chữ thoại
+            # Chỉ giữ màu riêng nếu có độ bão hòa cao rõ rệt (chroma >= 25)
+            if mid_chroma >= 25 and mid_rgb.mean() > 70:
+                solid_hex = to_hex(mid_rgb)
             else:
-                # Nếu không phải gradient: Giữ nguyên sắc thái màu nếu có (chroma >= 6)
-                if mid_chroma >= 6:
-                    solid_hex = to_hex(mid_rgb)
-                elif mid_rgb.mean() < 75:
-                    solid_hex = "#000000"
-                else:
-                    solid_hex = to_hex(mid_rgb)
+                solid_hex = "#000000"
 
-                result["fill"] = {
-                    "is_gradient": False,
-                    "solid_hex": solid_hex,
-                    "top_hex": solid_hex,
-                    "bottom_hex": solid_hex,
-                    "angle": 90
-                }
-
+            result["fill"] = {
+                "is_gradient": False,
+                "solid_hex": solid_hex,
+                "top_hex": solid_hex,
+                "bottom_hex": solid_hex,
+                "angle": 90
+            }
+            result["stroke"]["enabled"] = False
+            result["outer_glow"]["enabled"] = False
+            result["drop_shadow"]["enabled"] = False
+            return result
+        else:
+            # Bóng thoại đã xóa sạch text hoặc chữ rất ít -> mặc định chữ đen solid #000000
+            result["fill"] = {
+                "is_gradient": False,
+                "solid_hex": "#000000",
+                "top_hex": "#000000",
+                "bottom_hex": "#000000",
+                "angle": 90
+            }
             result["stroke"]["enabled"] = False
             result["outer_glow"]["enabled"] = False
             result["drop_shadow"]["enabled"] = False
@@ -437,6 +428,8 @@ def analyze_with_local_cv(image_path):
     fg_mask = delta > np.percentile(delta, 85)
     if fg_mask.sum() > 30:
         fg_rgb = np.median(smooth[fg_mask], axis=0).astype(int)
+        if bg_lum_corners > 150 and np.mean(fg_rgb) > 150:
+            fg_rgb = np.array([0, 0, 0])
         result["fill"] = {
             "is_gradient": False,
             "solid_hex": to_hex(fg_rgb),

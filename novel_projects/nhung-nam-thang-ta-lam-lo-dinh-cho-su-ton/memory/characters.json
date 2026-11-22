@@ -1,0 +1,35 @@
+[
+  {
+    "name_vi": "Thẩm Vân Tẫn",
+    "name_cn": "沈云烬",
+    "role": "Nhân vật chính / Công (Chủ công)",
+    "gender": "Nam",
+    "identity": "Đồ đệ thể chất lô đỉnh -> Đại phản diện hắc hóa -> Hắc liên hoa tâm cơ ngụy trang ngoan ngoãn",
+    "personality": "Âm u, cố chấp, tính chiếm hữu cực cao, bệnh kiều. Bên ngoài giả vờ ngoan hiền, đáng thương để được sư tôn sủng ái, bên trong luôn toan tính giữ chặt lấy đối phương.",
+    "narrative_pronoun": "hắn",
+    "dialogue_pronoun_self": "con / đệ tử / ta",
+    "dialogue_pronoun_to_partner": "sư tôn / người / Tạ Vi Viễn"
+  },
+  {
+    "name_vi": "Tạ Vi Viễn",
+    "name_cn": "谢微远",
+    "role": "Nhân vật chính / Thụ",
+    "gender": "Nam",
+    "identity": "Độc giả hiện đại xuyên thư nhập vào sư tôn phản diện mang theo Hệ thống",
+    "personality": "Thanh lãnh cao quý ngoài mặt nhưng kỳ thực tâm địa thiện lương, mềm lòng, không nỡ thấy Thẩm Vân Tẫn chịu khổ. Vừa hoàn thành nhiệm vụ vừa chân thành cưng chiều, dỗ dành đồ đệ.",
+    "narrative_pronoun": "y",
+    "dialogue_pronoun_self": "ta / vi sư",
+    "dialogue_pronoun_to_partner": "ngươi / Vân Tẫn"
+  },
+  {
+    "name_vi": "Hệ Thống",
+    "name_cn": "系统",
+    "role": "Hỗ trợ / AI",
+    "gender": "Vô tính",
+    "identity": "Hệ thống cứu rỗi phản diện, đưa nhiệm vụ cảm hóa cho Tạ Vi Viễn",
+    "personality": "Máy móc, thúc giục thực hiện nhiệm vụ",
+    "narrative_pronoun": "nó / Hệ thống",
+    "dialogue_pronoun_self": "bản hệ thống",
+    "dialogue_pronoun_to_partner": "ký chủ"
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "chapter_id": "ch_026",
+  "chapter_num": 26,
+  "title_raw": "第26章 师尊赠我玉",
+  "title_vi": "Chương 26: Sư tôn tặng ngọc cho ta",
+  "total_paragraphs": 124,
+  "status": "qc_approved",
+  "qc_approved": true,
+  "qc_score": 10,
+  "has_raw": true,
+  "has_trans": true,
+  "has_qc": true,
+  "speaker_rules": {
+    "protagonist_공": "Thẩm Vân Tẫn (hắn)",
+    "shou_수": "Tạ Vi Viễn (y)",
+    "dialogue_matrix": {
+      "Thẩm Vân Tẫn -> Tạ Vi Viễn": "con - sư tổ (sư tôn)",
+      "Tạ Vi Viễn -> Thẩm Vân Tẫn": "ta / bản quân - ngươi"
+    }
+  },
+  "created_at": "2026-11-23T00:15:00+07:00",
+  "updated_at": "2026-11-23T00:15:00+07:00"
+}

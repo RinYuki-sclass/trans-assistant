@@ -1,0 +1,20 @@
+{
+  "chapter_id": "ch_003",
+  "chapter_number": 3,
+  "title_chinese": "第3章 弑师",
+  "title_vietnamese": "Chương 3: Thí Sư",
+  "total_paragraphs": 105,
+  "status": "qc_approved",
+  "qc_approved": true,
+  "qc_score": 10,
+  "characters": [
+    "Thẩm Vân Tẫn",
+    "Tạ Vi Viễn",
+    "Quý Vân Lan",
+    "Khương Nguyên",
+    "Hệ Thống"
+  ],
+  "alignment_ratio": "105/105",
+  "zero_api_key": true,
+  "updated_at": "2026-11-22T18:55:00+07:00"
+}

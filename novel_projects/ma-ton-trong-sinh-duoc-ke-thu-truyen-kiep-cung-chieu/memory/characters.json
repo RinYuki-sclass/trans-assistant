@@ -1,0 +1,35 @@
+[
+  {
+    "name_vi": "Hoài Ngoan",
+    "name_cn": "怀乖",
+    "role": "Nhân vật chính / Công (Chủ công)",
+    "gender": "Nam",
+    "identity": "Ma tôn kiếp trước -> Trọng sinh nhập xác đồng danh đồng mạo trong Giáng Chân Kính",
+    "personality": "Kiêu ngạo, thích diễn kịch, khẩu thị tâm phi, ngoài mặt vờ không yêu nhưng bên trong là hũ dấm di động, tự ghen tị với chính thân xác mình nhập vào.",
+    "narrative_pronoun": "hắn",
+    "dialogue_pronoun_self": "ta",
+    "dialogue_pronoun_to_partner": "ngươi / Lục Ly / Thần quân"
+  },
+  {
+    "name_vi": "Lục Ly",
+    "name_cn": "陆离",
+    "role": "Nhân vật chính / Thụ",
+    "gender": "Nam",
+    "identity": "Thần quân cao lãnh, người giám hộ của Hoài Ngoan",
+    "personality": "Bề ngoài cao quý lạnh lùng cấm dục, nhưng kỳ thực đối với Hoài Ngoan ôm mối thâm tình khắc cốt ghi tâm. Sau hiểu lầm kiếp trước, kiếp này ra sức cưng chiều, dỗ dành và bù đắp cho Hoài Ngoan.",
+    "narrative_pronoun": "y",
+    "dialogue_pronoun_self": "ta",
+    "dialogue_pronoun_to_partner": "ngươi / Hoài Ngoan"
+  },
+  {
+    "name_vi": "Lục Châu",
+    "name_cn": "陆珠",
+    "role": "Nhân vật phụ",
+    "gender": "Nam / Nữ",
+    "identity": "Đồng môn / Người bên cạnh Lục Ly",
+    "personality": "Nhanh nhẹn, trung thành",
+    "narrative_pronoun": "cậu / cô / y",
+    "dialogue_pronoun_self": "ta",
+    "dialogue_pronoun_to_partner": "ngươi"
+  }
+]
