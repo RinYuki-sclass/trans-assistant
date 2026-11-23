@@ -1,0 +1,27 @@
+{
+  "chapter_id": "ch_043",
+  "chapter_num": 43,
+  "title_raw": "第43章 负心郎",
+  "title_vi": "Chương 43: Kẻ Phụ Lòng",
+  "total_paragraphs": 121,
+  "status": "qc_approved",
+  "qc_approved": true,
+  "qc_score": 10,
+  "has_raw": true,
+  "has_trans": true,
+  "has_qc": true,
+  "speaker_rules": {
+    "protagonist_공": "Thẩm Vân Tẫn (hắn)",
+    "shou_수": "Tạ Vi Viễn (y)",
+    "dialogue_matrix": {
+      "Thẩm Vân Tẫn -> Tạ Vi Viễn": "con - sư tôn",
+      "Tạ Vi Viễn -> Thẩm Vân Tẫn": "ta - ngươi",
+      "Ảo ảnh Tạ Vi Viễn -> Thẩm Vân Tẫn": "ta - phu quân",
+      "Mục Phong -> Tư Thiên Mạch": "ta/sư huynh - sư đệ/ngươi",
+      "Kỳ Chiêu Yến -> Tư Thiên Mạch": "ta - Thiên Mạch",
+      "Lão giả trận đồ -> Thẩm Vân Tẫn": "bổn quân - ngươi"
+    }
+  },
+  "created_at": "2026-11-23T10:05:00+07:00",
+  "updated_at": "2026-11-23T10:05:00+07:00"
+}

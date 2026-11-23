@@ -31,5 +31,27 @@
     "narrative_pronoun": "nó / Hệ thống",
     "dialogue_pronoun_self": "bản hệ thống",
     "dialogue_pronoun_to_partner": "ký chủ"
+  },
+  {
+    "name_vi": "Hạc Nguyệt Quân",
+    "name_cn": "鹤月君",
+    "role": "Nhân vật phụ",
+    "gender": "Nam",
+    "identity": "Chủ nhân Tam Quang Động Phủ tại Đông Hải, bằng hữu tiên môn",
+    "personality": "Thanh nhã, đoan chính, quý phái",
+    "narrative_pronoun": "y / Hạc Nguyệt Quân",
+    "dialogue_pronoun_self": "bản quân / ta",
+    "dialogue_pronoun_to_partner": "Lăng Hoa Quân / các hạ"
+  },
+  {
+    "name_vi": "Phù Linh",
+    "name_cn": "扶灵",
+    "role": "Nhân vật phụ",
+    "gender": "Nữ",
+    "identity": "Nữ tử được hứa gả ở rể danh nghĩa trong sự kiện thành thân tại Đông Hải",
+    "personality": "Dịu dàng, thấu tình đạt lý",
+    "narrative_pronoun": "nàng / Phù Linh",
+    "dialogue_pronoun_self": "tiểu nữ",
+    "dialogue_pronoun_to_partner": "tiên quân / công tử"
   }
 ]

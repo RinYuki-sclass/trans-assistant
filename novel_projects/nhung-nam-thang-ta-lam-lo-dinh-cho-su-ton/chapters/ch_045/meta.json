@@ -1,0 +1,23 @@
+{
+  "chapter_id": "ch_045",
+  "chapter_num": 45,
+  "title_raw": "第45章 他是可以依靠的肩膀",
+  "title_vi": "Chương 45: Bờ vai có thể dựa vào",
+  "total_paragraphs": 121,
+  "status": "qc_approved",
+  "qc_approved": true,
+  "qc_score": 10,
+  "has_raw": true,
+  "has_trans": true,
+  "has_qc": true,
+  "speaker_rules": {
+    "protagonist_공": "Thẩm Vân Tẫn (hắn)",
+    "shou_수": "Tạ Vi Viễn (y)",
+    "dialogue_matrix": {
+      "Thẩm Vân Tẫn -> Tạ Vi Viễn": "con - sư tôn / người",
+      "Tạ Vi Viễn -> Thẩm Vân Tẫn": "ta - ngươi / Vân Tẫn"
+    }
+  },
+  "created_at": "2026-11-23T10:04:00+07:00",
+  "updated_at": "2026-11-23T10:04:00+07:00"
+}

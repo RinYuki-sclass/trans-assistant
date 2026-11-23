@@ -2,7 +2,7 @@
 
 [Narrator]
 KR: 박예림 헌터가 일본에서 열리는 S급 대결을 앞두고 오늘 출국합니다.
-Thợ săn Park Yerim sẽ xuất cảnh hôm nay, trước thềm trận quyết đấu cấp S diễn ra tại Nhật Bản.
+Hôm nay, Thợ săn Park Yerim sẽ chính thức lên đường sang Nhật trước thềm trận quyết đấu cấp S.
 
 [Đám đông]
 KR: 응원합니다, 박예림 헌터~!
@@ -10,64 +10,60 @@ Cổ vũ hết mình cho Thợ săn Park Yerim~!
 
 [Narrator]
 KR: 현장은 응원하는 인파로 인산인해를…
-Biển người hâm mộ đến cổ vũ đông nghịt…
+Nơi đây đang chật kín biển người hâm mộ đến cổ vũ…
 
 [Fan nữ]
 KR: 믿는다, 예림쓰!!
-Chị trông cậy vào em, nhóc Yerim!!
+Trông cậy cả vào em đấy, nhóc Yerim ơi!!
 
 [Park Yerim]
 KR: 응원 감사합니다.이기고 올게요!
-Cảm ơn mọi người đã cổ vũ ạ.
-Tôi sẽ chiến thắng trở về!
+Cảm ơn mọi người đã cổ vũ! Tôi nhất định sẽ chiến thắng trở về!
 
 [Yoo Myungwoo]
 KR: 인파가 대단하네.
-Dòng người đông đúc thật.
+Biển người đông đúc thật đấy.
 
 [Han Yoojin]
 KR: 한일전이니까 아무래도. 게다가…
-Dù sao thì cũng là trận đấu Hàn - Nhật mà.
-Hơn nữa…
+Dù sao cũng là trận quyết đấu Hàn - Nhật mà. Hơn nữa…
 
 [Moon Hyuna]
 KR: 한 소장님, 얼른 와! 출발하기 전에 다같이 찍자고~!
-Giám đốc Han, mau lại đây đi!
-Trước khi khởi hành chúng ta cùng chụp chung một tấm nào~!
+Giám đốc Han, mau lại đây đi! Trước khi xuất phát làm một tấm ảnh chung nào~!
 
 [Han Yoojin]
 KR: 이렇게 각 길드의 S급 헌터들이 모여서 움직이는 건 보기 드물잖냐.
-Việc các Thợ săn cấp S của các hội cùng tề tựu đi chung thế này hiếm thấy lắm.
+Đâu mấy khi các Thợ săn cấp S của từng hội tề tựu đông đủ thế này chứ.
 
 [Han Yoojin - Độc thoại]
 KR: S급 공석이 너무 많아지니 길드 당 한 명씩은 남았지만… 해연은 성한 씨, 세성은 에블린.
-Cơ mà vị trí cấp S vắng bóng quá nhiều nên mỗi hội vẫn phải để lại một người… 
-Haeyeon có Sunghan-ssi
+Nhưng để tránh thiếu hụt nhân lực cấp S ở nhà nên mỗi hội vẫn phải để lại một người… 
+Haeyeon có Sunghan-ssi, 
 Sesung có Evelyn.
 
 [Han Yoojin]
 KR: 그러고 보니 문현아 씨는 자리 비워도 되는 겁니까? 브레이커에는 다른 S급이 없는데
-Nhắc mới nhớ, Moon Hyuna-ssi rời đi thế này có sao không?
-Hình như ở Hội Breaker đâu còn Thợ săn cấp S nào khác?
+Nhắc mới nhớ, Moon Hyuna-ssi vắng mặt thế này có sao không? Hội Breaker đâu còn Thợ săn cấp S nào khác nữa đâu?
 
 [Moon Hyuna]
 KR: 그거라면 걱정 마.
-Nếu là chuyện đó thì khỏi lo.
+Chuyện đó thì khỏi lo!
 
 
 📄 ẢNH: 2.PNG
 
 [Moon Hyuna]
 KR: 리에트를 임시로 고용했거든! 어쨌든 S급이죠?
-Tôi đã thuê Liette tạm thời rồi! Dù sao thì cũng là cấp S mà, đúng không?
+Tôi đã thuê Liette tạm thời rồi! Dù sao thì cũng là cấp S mà lị, đúng không?
 
 [Biển tên Liette]
 KR: 길짱 대리
-Hội trưởng ủy quyền
+Hội trưởng tạm quyền
 
 [Han Yoojin]
 KR: 예?! 그거 괜찮은 겁니까?!
-Hả?! Chuyện đó mà cũng được sao?!
+Hả?! Thế mà cũng được sao?!
 
 [Moon Hyuna]
 KR: 괜찮아. 우리 꽤 친해! 자, 출발~!
@@ -79,32 +75,31 @@ KR: 친하고 말고의 문제가 아니라…!
 
 [Han Yoojin - Độc thoại]
 KR: 브레이커가 이름 그대로 박살나는 거 아냐?
-Hội Breaker khéo lại bị đập nát vụn đúng như cái tên không biết chừng?
+Không khéo Hội Breaker lại bị đập nát vụn đúng như cái tên không biết chừng?!
 
 [Sung Hyunjae]
 KR: 리에트가 날뛰면 날뛰는 대로 좋은 일 아니겠나. 길드 뒷배 자처하며 잔소리하던 영감들도 문현아는 양반으로 보일 테니.
-Liette mà quậy phá thì cứ để cô ta quậy, chẳng phải càng tốt sao.
-Đến cả mấy lão già tự xưng là chỗ dựa cho hội hay cằn nhằn cũng sẽ thấy Moon Hyuna hiền lành chán.
+Liette mà quậy phá thì cứ để cô ta quậy, chẳng phải càng tốt sao. Đến mấy lão già tự xưng là hậu thuẫn của hội suốt ngày cằn nhằn rồi cũng sẽ thấy Moon Hyuna vẫn còn hiền chán.
 
 [Han Yoojin]
 KR: 어… 네...
-À...
-Ờ… Ừm...
+À... Vâng...
 
 [Han Yoojin - Độc thoại]
 KR: 여러 날 동안 연락하지 않은 채
-Nhiều ngày trời không hề liên lạc gì hết
+Bao nhiêu ngày trời không hề liên lạc lấy một lời...
 
+[Sung Hyunjae (Ảo giác của Yoojin)]
 KR: “불안해하는 모습을 보니 파트너 실격이로군~”
 “Thấy cậu bất an thế này, đúng là không đủ tư cách làm đối tác rồi~”
 
 [Sung Hyunjae (Ảo giác của Yoojin)]
 KR: “그 꼴사나운 표정은 뭐지? 불안해하는 모습을 보니 파트너 실격이로군~”
-“Vẻ mặt khó coi đó là sao? Cậu mất tư cách đối tác rồi nhé~”
+“Vẻ mặt khó coi đó là sao? Trông bộ dạng bất an thế này đúng là mất tư cách làm đối tác rồi nhé~”
 
 [Narrator]
 KR: 그날의 기억이 왜곡된 결과…
-Kết quả của việc ký ức ngày hôm ấy bị bóp méo…
+Hậu quả của việc ký ức ngày hôm ấy bị bóp méo…
 
 [Sung Hyunjae (Ảo giác của Yoojin)]
 KR: 이런, 문현아의 속내도 간파하지 못한 건가?
@@ -112,28 +107,27 @@ Chà, đến cả tâm tư của Moon Hyuna mà cũng không nhìn thấu đư�
 
 [Sung Hyunjae (Ảo giác của Yoojin)]
 KR: 허접이군, 가엾게도.
-Kém cỏi thật đấy, đáng thương làm sao.
+Gà mờ thật đấy, đáng thương làm sao.
 
 [Han Yoojin - Độc thoại]
 KR: 이런 의미로밖에 들리지 않는다!!
-Trong tai mình chỉ toàn nghe ra ý tứ đó thôi!!
+Vào tai mình chỉ toàn nghe ra mỗi cái ý đó thôi!!
 
 [Han Yoojin]
 KR: 죄에~송하게 됐습니다… 삐약아, 가자.
-Vô~ cùng xin lỗi được chưa ạ… Chirpie, đi thôi.
+Vâ~ng, xin lỗi được chưa ạ… Chirpie, đi thôi.
 
 
 📄 ẢNH: 3.PNG
 
 [Han Yoojin - Độc thoại]
 KR: 신경 쓰지 말자, 신경 쓰지 말자! 파트너 잘리면 뭐 어때! 지금은 일본행 목적에 집중해야지!!
-Đừng bận tâm, đừng bận tâm nữa! Bị cắt chức đối tác thì đã sao!
-Bây giờ phải tập trung vào mục đích của chuyến đi Nhật Bản này đã!!
+Đừng bận tâm, đừng bận tâm nữa! Bị đuổi khỏi vị trí đối tác thì đã sao! Bây giờ phải tập trung vào mục đích của chuyến đi Nhật Bản này đã!!
 
 [Narrator]
 KR: 그렇다, 예림이와 타국 S급 헌터의 대결 자체도 큰 이벤트지만
 그 목적은 '검은 소의 숲' 던전을 손에 넣는 것.
-Đúng vậy. Bản thân trận quyết đấu giữa Yerim và Thợ săn cấp S nước bạn đã là một sự kiện lớn,
+Đúng vậy, bản thân trận quyết đấu giữa Yerim và Thợ săn cấp S nước bạn đã là một sự kiện lớn,
 nhưng mục đích chính là đoạt lấy ngục tối 'Hắc Ngưu Lâm'.
 
 [Narrator]
@@ -144,7 +138,7 @@ Nếu dùng nguyên liệu từ nơi đó để điều chế thuốc thể lự
 KR: 마수 사육은 물론 던전 공략 효율도 쭉쭉 오를 테니
 세계 멸망을 막기 위해서도 중요한 한걸음인 셈이다.
 Không chỉ việc nuôi dưỡng ma thú mà hiệu suất chinh phục ngục tối cũng sẽ tăng vùn vụt,
-đây cũng xem như một bước tiến quan trọng để ngăn chặn ngày thế giới diệt vong.
+xem như một bước tiến quan trọng để ngăn chặn ngày thế giới diệt vong.
 
 [Han Yoojin]
 KR: …그래서 일정은 대략 이래.
@@ -166,7 +160,7 @@ Khoan đã! Hết rồi sao?
 
 [Park Yerim]
 KR: 첫 공식 해외 여행인데 제대로 뽕 뽑고 놀아야죠!
-Đây là chuyến xuất ngoại chính thức đầu tiên mà, phải quậy cho đã chứ!
+Đây là chuyến xuất ngoại chính thức đầu tiên mà, phải quậy cho đã đời chứ!
 
 [Han Yoohyun]
 KR: 놀러가는 거 아니다, 박예림.
@@ -174,14 +168,14 @@ Không phải đi chơi đâu, Park Yerim.
 
 [Han Yoojin]
 KR: 일본이 지면 분위기 엉망일 텐데 바로 돌아가야지.
-Nếu Nhật Bản thua thì không khí căng thẳng lắm, phải lập tức về nước ngay chứ.
+Nếu Nhật Bản thua thì bầu không khí bên đó sẽ căng thẳng lắm, phải về nước ngay chứ.
 
 
 📄 ẢNH: 4.PNG
 
 [Park Yerim]
 KR: 그치만 맛집을 이렇게나 표시해 놨는데!
-Nhưng tôi đã đánh dấu bao nhiêu quán ngon thế này rồi!
+Nhưng tôi đã đánh dấu cả đống quán ngon thế này rồi cơ mà!
 
 [Bản đồ]
 KR: 다 가기 전엔 안 돌아감
@@ -191,15 +185,15 @@ KR: 총 200군데의 별표 표시!
 
 [Han Yoojin]
 KR: 혹시 대결을 푸드파이트로 할 셈이니…?
-Định biến trận quyết đấu thành cuộc thi ăn đấy à...?
+Bộ nhóc tính biến trận quyết đấu thành thi ăn đấy à…?
 
 [Han Yoojin]
 KR: 들뜬 건 알겠다만 중요한 싸움 앞두고 너무 방심하는 거 아니냐?
-Phấn khích thì hiểu được, nhưng trước trận chiến quan trọng mà lơ là thế này là không xong đâu.
+Hào hứng thì hiểu được, nhưng sắp có trận đấu quan trọng mà nhóc lại lơ là thế này đấy à?
 
 [Park Yerim]
 KR: 우…
-Huhu…
+Hứ…
 
 [Han Yoojin]
 KR: 헌터라면 맛집보다는 싸울 상대에 대해 조사해 둬야지!
@@ -211,11 +205,11 @@ KR: 그게 예의잖아! 상대 길드인 '아르테미스' 에게도!
 
 [Noah]
 KR: '아마테라스' 인데요…
-Là 'Amaterasu' cơ…
+Là 'Amaterasu' cơ ạ…
 
 [Han Yoohyun]
 KR: 형 괜찮아?
-Anh không sao chứ?
+Hyung có sao không?
 
 [Park Yerim]
 KR: 아마테라스?
@@ -227,9 +221,9 @@ KR: 일본 왕가의 시조라고 하는 태양신의 이름입니다.
 
 [Noah]
 KR: 일본은 왕실이 남아 있는 나라라 왕가의 상징을 길드명으로 삼은 것에 불만의 목소리도 있다고는 하지만 실질적으로 아마테라스 길드장이 왕이나 마찬가지인 상황이라서요.
-Nhật Bản là quốc gia vẫn còn hoàng thất,
-dù có những tiếng nói bất mãn về việc lấy biểu tượng của hoàng gia đặt làm tên hội...
-nhưng trên thực tế thì Hội trưởng Hội Amaterasu chẳng khác nào một vị vua cả.
+Nhật Bản vẫn còn hoàng thất,
+dù việc lấy biểu tượng hoàng gia làm tên hội cũng vấp phải nhiều ý kiến bất mãn…
+nhưng trên thực tế thì Hội trưởng Amaterasu chẳng khác nào một vị vua cả.
 
 [Moon Hyuna]
 KR: 던전이 열린 후 일본은 정부보다 길드의 파워가 막강해졌거든.
@@ -237,23 +231,23 @@ Sau khi các ngục tối xuất hiện, quyền lực của các hội thợ s�
 
 [Moon Hyuna]
 KR: 그래서 길드장의 위세가 대단하지. 인기도 많고. 직접 가서 봐. 보는 재미가 있을 걸?
-Thế nên uy thế của tên Hội trưởng đó mới ghê gớm. Danh tiếng cũng lẫy lừng lắm.
-Cứ đến tận nơi xem, đảm bảo sẽ có nhiều trò hay ho đấy.
+Thế nên uy thế của tên Hội trưởng đó mới ghê gớm, người hâm mộ cũng đông đảo lắm.
+Cứ đến tận nơi xem, đảm bảo sẽ có trò vui cho mà xem đấy?
 
 [Park Yerim]
 KR: 보는 재미요?
-Có trò hay để xem sao?
+Có trò vui để xem ạ?
 
 
 📄 ẢNH: 5.PNG
 
 [Moon Hyuna]
 KR: 뭐랄까, 컨셉이 확실하거든!
-Nói sao nhỉ, concept của gã đó rõ ràng lắm!
+Nói sao nhỉ, gã đó theo đuổi concept rõ ràng lắm!
 
 [Han Yoojin - Độc thoại]
 KR: 국빈 대우?!
-Đón tiếp đoàn đại biểu hả?!
+Đãi ngộ cấp nguyên thủ luôn à?!
 
 [Han Yoojin - Độc thoại]
 KR: 위세가 대단하다더니 환영 행사부터 과하잖아!
@@ -264,22 +258,16 @@ KR: 일본에 오신 것을 환영합니다!
 Nhiệt liệt chào mừng quý khách đã đến Nhật Bản!
 
 [Han Yoojin - Độc thoại]
-KR: 게다가 입고 있는 옷이며 깃발이며…
-왜 온통 사자야?
-Hơn nữa từ trang phục đến lá cờ...
-sao toàn là hình sư tử thế này?
+KR: 게다가 입고 있는 옷이며 깃발이며… 왜 온통 사자야?
+Hơn nữa từ trang phục đến cờ quạt… sao toàn là hình sư tử thế này?
 
 [Moon Hyuna]
 KR: 그게 아마테라스 길드장 ‘시시오’가 미는 컨셉이거든. ‘시시오’라는 이름도 사자왕이라는 뜻인데…
 Đó là concept mà Hội trưởng Amaterasu 'Shishio' theo đuổi đấy. Cái tên 'Shishio' vốn cũng có nghĩa là Vua Sư Tử mà...
 
 [Park Yerim]
-KR: 앗,
-Ý,
-
-[Park Yerim]
-KR: 저기 봐요!
-Nhìn đằng kia kìa!
+KR: 앗, 저기 봐요!
+Á, nhìn đằng kia kìa!
 
 
 📄 ẢNH: 6.PNG
@@ -289,12 +277,8 @@ KR: 시시오 님 납시오~!
 Đại nhân Shishio giá lâm~!
 
 [Park Yerim]
-KR: 저거 화염뿔사자 아니에요?
-Kia chẳng phải là Độc Giác Hỏa Sư sao?
-
-[Park Yerim]
-KR: 그래서 사자왕인가?
-Thế nên mới là Vua Sư Tử à?
+KR: 저거 화염뿔사자 아니에요? 그래서 사자왕인가?
+Kia chẳng phải là Độc Giác Hỏa Sư sao? Thế nên mới gọi là Vua Sư Tử à?
 
 [Han Yoojin - Độc thoại]
 KR: 화염뿔사자가 또 한 마리?! 어떻게 된 거지?
@@ -302,7 +286,7 @@ Lại thêm một con Độc Giác Hỏa Sư nữa?! Rốt cuộc là thế nào
 
 [Han Yoojin - Độc thoại]
 KR: 내 스킬 없이 길들이는 건 불가능할 텐데!
-Không có kỹ năng của mình thì sao thuần hóa nổi chứ!
+Không có kỹ năng của mình thì làm sao thuần hóa nổi chứ!
 
 [Han Yoojin - Độc thoại]
 KR: 또 다른 화염뿔사자의 주인… 그래서 사자왕인 건가?!
@@ -310,8 +294,7 @@ Chủ nhân của một con Độc Giác Hỏa Sư khác... Vì thế mới là 
 
 [Shishio]
 KR: 환영하네. 이 몸은 일본 대표 아마테라스 길드장, 시시오! 박예림 헌터, 이렇게 만나게 되어 반갑군.
-Hoan nghênh. Ta là đại diện Nhật Bản, Hội trưởng Hội Amaterasu, Shishio!
-Thợ săn Park Yerim, rất vui được gặp cô.
+Hoan nghênh! Ta đây chính là đại diện Nhật Bản, Hội trưởng Hội Amaterasu, Shishio! Thợ săn Park Yerim, rất vui được gặp cô.
 
 [Park Yerim]
 KR: 어… 네, 환영해 주셔서 감사합니다?
@@ -333,24 +316,20 @@ KR: 엇...? 네, 기승수 사육소 소장 한유진입니다. 환대에 감사
 Ơ...? Vâng, tôi là Han Yoojin, Giám đốc Cơ sở nuôi dưỡng ma thú cưỡi. Cảm ơn vì sự đón tiếp nồng hậu...
 
 [Shishio]
-KR: 그 유명한 화염뿔사자인가?
-어디 한번…
-Đây chính là con Độc Giác Hỏa Sư lừng danh đó sao?
-Để ta xem thử nào…
+KR: 그 유명한 화염뿔사자인가? 어디 한번…
+Đây chính là Độc Giác Hỏa Sư lừng danh đó sao? Để ta xem thử nào…
 
 [Han Yoojin]
 KR: 함부로 만지면…! 피스야, 진정해!
-Tùy tiện chạm vào thì…!
-Peace ơi, bình tĩnh nào!
+Chạm bừa vào là…! Peace ơi, bình tĩnh nào!
 
 [Han Yoojin - Độc thoại]
 KR: 이상한 사람 아니야… 아니, 아직 모르긴 하지만!
-Không phải người xấu đâu… À không, dù vẫn chưa biết rõ lắm!
+Không phải người xấu đâu… À mà, cũng chưa biết được!
 
 [Shishio]
 KR: ...하, 크하하! 아주 좋아! 용맹한 사자 그 자체로군! 정말 최고야! 자, 사진을 찍어 두라고! 성체 자료는 귀하니까.
-...Ha, khà khà khà! Tuyệt lắm! Đúng là hiện thân của một chú sư tử dũng mãnh! Đỉnh thật sự!
-Nào, mau chụp ảnh lại đi! Tư liệu về dạng trưởng thành quý giá lắm đấy.
+...Ha, khà khà khà! Tuyệt lắm! Đúng là hiện thân của một chú sư tử dũng mãnh! Đỉnh thật sự! Nào, mau chụp ảnh lại đi! Tư liệu về dạng trưởng thành hiếm có lắm đấy.
 
 [Thuộc hạ Amaterasu]
 KR: 하, 하잇!
@@ -358,11 +337,11 @@ V-Vâng ạ!
 
 [Shishio]
 KR: 울음소리를 녹음해도 되겠나? 내 화염뿔사자의 목소리를 이걸로 교체해야겠어.
-Ta ghi âm lại tiếng gầm được không? Phải đổi tiếng kêu cho con Độc Giác Hỏa Sư của ta bằng tiếng này mới được.
+Ta ghi âm lại tiếng gầm được chứ? Phải thay tiếng cho con Độc Giác Hỏa Sư của ta bằng âm thanh này mới được.
 
 [Han Yoojin]
 KR: 예? 목소리를…?
-Dạ? Đổi tiếng kêu... ạ?
+Dạ? Thay tiếng gầm… ạ?
 
 [Shishio]
 KR: 성체가 되면 목소리도 변할 줄 미처 몰랐거든. 이로써 내 화염뿔사자도 실물에 완벽히 가까워지겠군.
@@ -381,11 +360,11 @@ Cứ tưởng thuần hóa được Độc Giác Hỏa Sư thật, ai dè chỉ 
 
 [Shishio]
 KR: 사자왕 곁에는 사자가 있어야 하지 않겠나. 분양해 달라고 해연에 요청했지만 매번 안 들어줘서 말이지.
-Bên cạnh Vua Sư Tử thì dĩ nhiên phải có sư tử rồi. Ta đã nhiều lần yêu cầu Haeyeon nhượng lại một con, nhưng lần nào các cậu cũng không chịu đồng ý.
+Bên cạnh Vua Sư Tử thì dĩ nhiên phải có sư tử rồi. Ta đã bao lần ngỏ lời nhờ Haeyeon nhượng lại một con mà các cậu chẳng chịu duyệt cho đấy thôi.
 
 [Shishio]
 KR: 어떤가? 대결에서 지면 내 피규어와 실물을 맞바꾸는 게.
-Thế nào? Nếu thua trong trận quyết đấu, các cậu đổi mô hình của ta lấy hàng thật nhé.
+Thế nào? Hay nếu thua trận quyết đấu, các cậu đem hàng thật đổi lấy con mô hình của ta đi?
 
 [Han Yoojin]
 KR: 피스는 못 준다, 이 라이온 킹 놈아!
@@ -409,7 +388,7 @@ Còn nếu định gây sự thì tôi không từ chối đâu.
 
 [Sung Hyunjae]
 KR: 흐응, 예성까지 갖다 바치기로 했는데도 까다롭게 구는군.
-Hừm, đã dâng cả Lễ Trang kia rồi mà vẫn khó tính gớm nhỉ.
+Hừm, người ta đã chịu cược cả phần lớn thế kia rồi mà vẫn khó tính gớm nhỉ.
 
 [Shishio]
 KR: 음하핫! 머무를 동안 잘 생각해 보라고! 만족할 만큼 최고의 대우를 해 줄 테니!
@@ -417,18 +396,16 @@ A ha ha! Trong thời gian ở lại đây cứ suy nghĩ cho kỹ nhé! Ta sẽ
 
 [Han Yoojin - Độc thoại]
 KR: 당황스럽네, 아마테라스 길드장. 컨셉에 충실하다는 게 이 정도였나. 최고의 대우라는 것도 어째 불안한데…
-Hoang mang thật đấy, Hội trưởng Amaterasu à? Nhập tâm vào concept đến mức này cơ à. Mà cái gọi là đãi ngộ tốt nhất kia cứ thấy bất an sao sao ấy…
+Đúng là cạn lời với gã Hội trưởng Amaterasu này luôn. Nhập vai concept đến mức này cơ à?
+Mà cái gọi là đãi ngộ tốt nhất kia cứ thấy bất an sao sao ấy…
 
 [Park Yerim]
 KR: 꺄악! 아저씨! 이거 봐요, 이거! 사진 찍어 주세요!
-Á á! Ahjussi!
-Nhìn cái này này!
-Chụp ảnh cho tôi với!
+Á á! Ahjussi! Nhìn cái này này! Chụp ảnh cho tôi với!
 
 [Han Yoojin]
 KR: 실물 크기 패널 뭔데?! 이런 대우 필요 없어!! 귀국시켜 줘!
-Cái standee kích thước thật này là cái quái gì thế?!
-Ai cần đãi ngộ kiểu này chứ!! Cho tôi về nước mau!
+Cái standee kích thước thật này là cái quái gì thế?! Ai cần đãi ngộ kiểu này chứ!! Cho tôi về nước mau!
 
 [Han Yoohyun]
 KR: 형, 그럼 이거 챙겨서 돌아갈까?
@@ -448,5 +425,4 @@ Phải. Đối thủ của cậu đấy. Ta trông cậy cả vào cậu.
 
 [Thợ săn Nhật Bản]
 KR: 흥흥, 아무것도 모르고 들떠 있는 것도 지금뿐... 일본에 온 선물로 잊을 수 없는 기억을 선사하도록 하죠…
-He he, chẳng biết trời trăng gì mà hớn hở thì cũng chỉ được lúc này thôi...
-Coi như món quà mừng đến Nhật Bản, tôi sẽ tặng cho bọn chúng một ký ức không thể nào quên…
+Hừ hừ, chẳng biết trời cao đất rộng mà hớn hở thì cũng chỉ được lúc này thôi... Coi như món quà mừng đến Nhật Bản, tôi sẽ tặng cho cô ta một kỷ niệm thật đáng nhớ…

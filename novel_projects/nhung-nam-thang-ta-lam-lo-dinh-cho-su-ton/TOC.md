@@ -1,11 +1,12 @@
-# MỤC LỤC CHI TIẾT (TABLE OF CONTENTS)
+# 📖 MỤC LỤC TRUYỆN (TABLE OF CONTENTS)
+## NHỮNG NĂM THÁNG TA LÀM LÔ ĐỈNH CHO SƯ TÔN (《成为反派师尊炉鼎后》)
+> **Tổng số chương:** 80 chương (77 chương Chính văn + 3 chương Phiên ngoại)  
+> **Tác giả:** Phong Lưu Khách (风流客)  
+> **Tình trạng:** Đang dịch tự hành  
 
-**Tác phẩm:** Những Năm Tháng Ta Làm Lô Đỉnh Cho Sư Tôn (成为反派师尊炉鼎后 / 我给师尊当炉鼎的那些年)
-**Tác giả:** Phong Lưu Khách (风流客)
-**Góc nhìn chính:** Chủ Công (Thẩm Vân Tẫn công × Tạ Vi Viễn thụ)
-**Tổng số chương:** 80 chương (Chính văn + Ngoại truyện hoàn thành)
+---
 
-| Chương | Tên chương gốc | Bản dịch tên chương | Tóm tắt / Trích đoạn | Số chữ | Trạng thái |
+| Mã chương | Tên gốc (Raw) | Tiêu đề dịch (VI) | Điểm nhấn nội dung | Độ dài | Trạng thái |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | [ch_001](chapters/ch_001/source.md) | 恶师 | Chương 1: Ác sư | 却跌入一个温暖的怀抱 | 3364 | 🟢 Hoàn thành QC |
 | [ch_002](chapters/ch_002/source.md) | 行刑 | Chương 2: Hành hình | 感化反派第一步 | 2624 | 🟢 Hoàn thành QC |
@@ -31,37 +32,37 @@
 | [ch_022](chapters/ch_022/source.md) | 天上人间 | Chương 22: Thiên Thượng Nhân Gian | 反派即将贞操不保 | 3071 | 🟢 Hoàn thành QC |
 | [ch_023](chapters/ch_023/source.md) | 师尊变师祖 | Chương 23: Sư tôn biến thành sư tổ | 身后男人的身躯也是那般灼热 | 3030 | 🟢 Hoàn thành QC |
 | [ch_024](chapters/ch_024/source.md) | 他露出一小片锁骨[VIP] | Chương 24: Y để lộ một mảng xương quai xanh | 让人有凌虐的欲望 | 2875 | 🟢 Hoàn thành QC |
-| [ch_025](chapters/ch_025/source.md) | 卿如长夜灯[VIP] | Chương 25: 卿如长夜灯[VIP] | 他也是想有人怜爱他的 | 3014 | ⏳ Chưa có Raw |
-| [ch_026](chapters/ch_026/source.md) | 师尊赠我玉[VIP] | Chương 26: 师尊赠我玉[VIP] | 想咬师尊的脖颈 | 3000 | ⏳ Chưa có Raw |
-| [ch_027](chapters/ch_027/source.md) | 师尊洗澡，别看！[VIP] | Chương 27: 师尊洗澡，别看！[VIP] | 于是慢慢将身上的衣衫褪去 | 3075 | ⏳ Chưa có Raw |
-| [ch_028](chapters/ch_028/source.md) | 师尊你好浪[VIP] | Chương 28: 师尊你好浪[VIP] | 腰部抵着不可言说的东西 | 3154 | ⏳ Chưa có Raw |
-| [ch_029](chapters/ch_029/source.md) | 苍灵现[VIP] | Chương 29: 苍灵现[VIP] | 情人咒 | 3131 | ⏳ Chưa có Raw |
-| [ch_030](chapters/ch_030/source.md) | 黄粱遗梦[VIP] | Chương 30: 黄粱遗梦[VIP] | 画中仙往事 | 3271 | ⏳ Chưa có Raw |
-| [ch_031](chapters/ch_031/source.md) | 黄粱遗梦（二）[VIP] | Chương 31: 黄粱遗梦（二）[VIP] | 西子嗔怒 | 3077 | ⏳ Chưa có Raw |
-| [ch_032](chapters/ch_032/source.md) | 入天州[VIP] | Chương 32: 入天州[VIP] | 黄泉路断，忘川水逆 | 3151 | ⏳ Chưa có Raw |
-| [ch_033](chapters/ch_033/source.md) | 孤男寡男共处一室[VIP] | Chương 33: 孤男寡男共处一室[VIP] | “把衣服脱了” | 3006 | ⏳ Chưa có Raw |
-| [ch_034](chapters/ch_034/source.md) | 神葬之地[VIP] | Chương 34: 神葬之地[VIP] | 在轻轻拨弄他的心弦 | 3072 | ⏳ Chưa có Raw |
-| [ch_035](chapters/ch_035/source.md) | 误君三万年[VIP] | Chương 35: 误君三万年[VIP] | 原是天命不可改 | 3113 | ⏳ Chưa có Raw |
-| [ch_036](chapters/ch_036/source.md) | 入梦来[VIP] | Chương 36: 入梦来[VIP] | 凌华君平生最爱吃人肉 | 3098 | ⏳ Chưa có Raw |
-| [ch_037](chapters/ch_037/source.md) | 魔灵现[VIP] | Chương 37: 魔灵现[VIP] | 一低头，发现自己衣衫解了大半 | 3197 | ⏳ Chưa có Raw |
-| [ch_038](chapters/ch_038/source.md) | 鲛人血[VIP] | Chương 38: 鲛人血[VIP] | 富贵非吾愿，帝乡不可期 | 3332 | ⏳ Chưa có Raw |
-| [ch_039](chapters/ch_039/source.md) | 低徊愧人子[VIP] | Chương 39: 低徊愧人子[VIP] | 师尊，我好像不那么恨你了 | 3368 | ⏳ Chưa có Raw |
-| [ch_040](chapters/ch_040/source.md) | 陪你沉沦[VIP] | Chương 40: 陪你沉沦[VIP] | 他垂眸怜抚，血色染白衣 | 4472 | ⏳ Chưa có Raw |
-| [ch_041](chapters/ch_041/source.md) | 藤蔓……[VIP] | Chương 41: 藤蔓……[VIP] | 即将被亵玩的美人 | 2338 | ⏳ Chưa có Raw |
-| [ch_042](chapters/ch_042/source.md) | 通玄阵[VIP] | Chương 42: 通玄阵[VIP] | 下巴处落下一个吻 | 2247 | ⏳ Chưa có Raw |
-| [ch_043](chapters/ch_043/source.md) | 负心郎[VIP] | Chương 43: 负心郎[VIP] | 你与我已是肌肤相亲，莫非不想负责 | 3001 | ⏳ Chưa có Raw |
-| [ch_044](chapters/ch_044/source.md) | 他为我而来[VIP] | Chương 44: 他为我而来[VIP] | 我来这世间的意义，就是为了你啊 | 3053 | ⏳ Chưa có Raw |
-| [ch_045](chapters/ch_045/source.md) | 他是可以依靠的肩膀[VIP] | Chương 45: 他是可以依靠的肩膀[VIP] | 我会尽我所能，去救你 | 3002 | ⏳ Chưa có Raw |
-| [ch_046](chapters/ch_046/source.md) | 师尊为我捡肥皂[VIP] | Chương 46: 师尊为我捡肥皂[VIP] | 竟然对师尊起了大逆不道的心思 | 3082 | ⏳ Chưa có Raw |
-| [ch_047](chapters/ch_047/source.md) | 成亲（二合一）[VIP] | Chương 47: 成亲（二合一）[VIP] | 师尊竟然要给他指婚？ | 6162 | ⏳ Chưa có Raw |
-| [ch_048](chapters/ch_048/source.md) | 情动[VIP] | Chương 48: 情动[VIP] | 他浑身香汗淋漓，靠在床榻处…… | 4209 | ⏳ Chưa có Raw |
-| [ch_049](chapters/ch_049/source.md) | 欲拒还迎[VIP] | Chương 49: 欲拒还迎[VIP] | 他的指尖攥紧衣袖，死死咬着牙不发出声 | 3026 | ⏳ Chưa có Raw |
-| [ch_050](chapters/ch_050/source.md) | 伤风败俗[VIP] | Chương 50: 伤风败俗[VIP] | 师尊敞开的衣领处近在咫尺，他险些就要得手 | 6052 | ⏳ Chưa có Raw |
-| [ch_051](chapters/ch_051/source.md) | 大婚之日[VIP] | Chương 51: 大婚之日[VIP] | 师尊与我洞房花烛 | 4638 | ⏳ Chưa có Raw |
-| [ch_052](chapters/ch_052/source.md) | 鱼水（文案部分）[VIP] | Chương 52: 鱼水（文案部分）[VIP] | 师尊，你咬得好疼 | 5875 | ⏳ Chưa có Raw |
-| [ch_053](chapters/ch_053/source.md) | 令人不耻[VIP] | Chương 53: 令人不耻[VIP] | 救赎文学怎么就变成无节操脆皮鸭文学？ | 4343 | ⏳ Chưa có Raw |
-| [ch_054](chapters/ch_054/source.md) | 九幽[VIP] | Chương 54: 九幽[VIP] | 窗边的情郎呀怎么还不来 | 3885 | ⏳ Chưa có Raw |
-| [ch_055](chapters/ch_055/source.md) | 青楼[VIP] | Chương 55: 青楼[VIP] | 弟子难道比她们……技术差？ | 3014 | ⏳ Chưa có Raw |
+| [ch_025](chapters/ch_025/source.md) | 卿如长夜灯[VIP] | Chương 25: Chàng như ngọn đèn soi bóng đêm trường | 他也是想有人怜爱他的 | 3014 | 🟢 Hoàn thành QC |
+| [ch_026](chapters/ch_026/source.md) | 师尊赠我玉[VIP] | Chương 26: Sư tôn tặng ngọc cho ta | 想咬师尊的脖颈 | 3000 | 🟢 Hoàn thành QC |
+| [ch_027](chapters/ch_027/source.md) | 师尊洗澡，别看！[VIP] | Chương 27: Sư tôn tắm rửa, đừng nhìn! | 于是慢慢将身上的衣衫褪去 | 3075 | 🟢 Hoàn thành QC |
+| [ch_028](chapters/ch_028/source.md) | 师尊你好浪[VIP] | Chương 28: Sư tôn, người thật lẳng lơ | 腰部抵着不可言说的东西 | 3154 | 🟢 Hoàn thành QC |
+| [ch_029](chapters/ch_029/source.md) | 苍灵现[VIP] | Chương 29: Thương Linh Hiện | 情人咒 | 3131 | 🟢 Hoàn thành QC |
+| [ch_030](chapters/ch_030/source.md) | 黄粱遗梦[VIP] | Chương 30: Giấc mộng Hoàng Lương | 画中仙往事 | 3271 | 🟢 Hoàn thành QC |
+| [ch_031](chapters/ch_031/source.md) | 黄粱遗梦（二）[VIP] | Chương 31: Giấc mộng Hoàng Lương (2) | 西子嗔怒 | 3077 | 🟢 Hoàn thành QC |
+| [ch_032](chapters/ch_032/source.md) | 入天州[VIP] | Chương 32: Đến Thiên Châu | 黄泉路断，忘川水逆 | 3151 | 🟢 Hoàn thành QC |
+| [ch_033](chapters/ch_033/source.md) | 孤男寡男共处一室[VIP] | Chương 33: Cô nam quả nam chung một phòng | “把衣服脱了” | 3006 | 🟢 Hoàn thành QC |
+| [ch_034](chapters/ch_034/source.md) | 神葬之地[VIP] | Chương 34: Vùng đất thần táng | 在轻轻拨弄他的心弦 | 3072 | 🟢 Hoàn thành QC |
+| [ch_035](chapters/ch_035/source.md) | 误君三万年[VIP] | Chương 35: Lỡ Dở Người Ba Vạn Năm | 原是天命不可改 | 3113 | 🟢 Hoàn thành QC |
+| [ch_036](chapters/ch_036/source.md) | 入梦来[VIP] | Chương 36: Bước vào cõi mộng | 凌华君平生最爱吃人肉 | 3098 | 🟢 Hoàn thành QC |
+| [ch_037](chapters/ch_037/source.md) | 魔灵现[VIP] | Chương 37: Ma Linh Xuất Hiện | 一低头，发现自己衣衫解了大半 | 3197 | 🟢 Hoàn thành QC |
+| [ch_038](chapters/ch_038/source.md) | 鲛人血[VIP] | Chương 38: Mộng tỉnh | 富贵非吾愿，帝乡不可期 | 3332 | 🟢 Hoàn thành QC |
+| [ch_039](chapters/ch_039/source.md) | 低徊愧人子[VIP] | Chương 39: Bùi ngùi hổ thẹn phận làm con | 师尊，我好像不那么恨你了 | 3368 | 🟢 Hoàn thành QC |
+| [ch_040](chapters/ch_040/source.md) | 陪你沉沦[VIP] | Chương 40: Cùng ngươi trầm luân | 他垂眸怜抚，血色染白衣 | 4472 | 🟢 Hoàn thành QC |
+| [ch_041](chapters/ch_041/source.md) | 藤蔓……[VIP] | Chương 41: Dây leo... | 即将被亵玩的美人 | 2338 | 🟢 Hoàn thành QC |
+| [ch_042](chapters/ch_042/source.md) | 通玄阵[VIP] | Chương 42: Thông Huyền Trận | 下巴处落下一个吻 | 2247 | 🟢 Hoàn thành QC |
+| [ch_043](chapters/ch_043/source.md) | 负心郎[VIP] | Chương 43: Kẻ Phụ Lòng | 你与我已是肌肤相亲，莫非不想负责 | 3001 | 🟢 Hoàn thành QC |
+| [ch_044](chapters/ch_044/source.md) | 他为我而来[VIP] | Chương 44: Y Vì Ta Mà Đến | 我来这世间的意义，就是为了你啊 | 3053 | 🟢 Hoàn thành QC |
+| [ch_045](chapters/ch_045/source.md) | 他是可以依靠的肩膀[VIP] | Chương 45: Bờ vai có thể dựa vào | 我会尽我所能，去救你 | 3002 | 🟢 Hoàn thành QC |
+| [ch_046](chapters/ch_046/source.md) | 师尊为我捡肥皂[VIP] | Chương 46: Sư tôn “nhặt xà phòng” giúp con | 竟然对师尊起了大逆不道的心思 | 3082 | 🟢 Hoàn thành QC |
+| [ch_047](chapters/ch_047/source.md) | 成亲（二合一）[VIP] | Chương 47: Thành thân (Hai chương hợp một) | 师尊竟然要给他指婚？ | 6162 | 🟢 Hoàn thành QC |
+| [ch_048](chapters/ch_048/source.md) | 情动[VIP] | Chương 48: Tình động | 他浑身香汗淋漓，靠在床榻处…… | 4209 | 🟢 Hoàn thành QC |
+| [ch_049](chapters/ch_049/source.md) | 欲拒还迎[VIP] | Chương 49: Dục cự hoàn nghênh | 他的指尖攥紧衣袖，死死咬着牙不发出声 | 3026 | 🟢 Hoàn thành QC |
+| [ch_050](chapters/ch_050/source.md) | 伤风败俗[VIP] | Chương 50: Đồi phong bại tục | 师尊敞开的衣领处近在咫尺，他险些就要得手 | 6052 | 🟢 Hoàn thành QC |
+| [ch_051](chapters/ch_051/source.md) | 大婚之日[VIP] | Chương 51: Ngày đại hôn | 师尊与我洞房花烛 | 4638 | 🟢 Hoàn thành QC |
+| [ch_052](chapters/ch_052/source.md) | 鱼水（文案部分）[VIP] | Chương 52: Ngư thủy (Phần văn án) | 师尊，你咬得好疼 | 5875 | 🟢 Hoàn thành QC |
+| [ch_053](chapters/ch_053/source.md) | 令人不耻[VIP] | Chương 53: Khiến người thẹn thùng | 救赎文学怎么就变成无节操脆皮鸭文学？ | 4343 | 🟢 Hoàn thành QC |
+| [ch_054](chapters/ch_054/source.md) | 九幽[VIP] | Chương 54: Cửu U | 窗边的情郎呀怎么还不来 | 3885 | 🟢 Hoàn thành QC |
+| [ch_055](chapters/ch_055/source.md) | 青楼[VIP] | Chương 55: Thanh lâu | 弟子难道比她们……技术差？ | 3014 | 🟢 Hoàn thành QC |
 | [ch_056](chapters/ch_056/source.md) | 嗯哼兽[VIP] | Chương 56: 嗯哼兽[VIP] | 他竟然渴望着自己徒弟的安抚 | 6174 | ⏳ Chưa có Raw |
 | [ch_057](chapters/ch_057/source.md) | 珍重[VIP] | Chương 57: 珍重[VIP] | 既想将他占为己有，又怕惊扰那片芳华 | 3086 | ⏳ Chưa có Raw |
 | [ch_058](chapters/ch_058/source.md) | 师尊吃醋[VIP] | Chương 58: 师尊吃醋[VIP] | 掉马前夕～ | 3176 | ⏳ Chưa có Raw |
