@@ -5,7 +5,7 @@
 > **Quy mô dự án:** 138 chương (Chương 1 - Chương 138, Hoàn kết)  
 > **Độ dài raw:** ~13.660 đoạn văn (~420.000 chữ Trung)  
 > **Chủ đề chính:** Đam mỹ, Chủ công, Niên hạ, Mạt thế phế thổ, Dị năng biến dị thực vật x Mỹ nhân bạo quân tóc bạc mắt đỏ, Cường cường, Mỹ cường thảm, Tương ái tương sát, Chiếm hữu & Cứu rỗi, 1v1, HE.  
-> **Trạng thái hiện tại:** Đã cào 138/138 chương raw (100%). Đã dịch & duyệt QC 105/138 chương (Batch 1, 2, 3, 4, 5, 6: 100% PASSED). Sẵn sàng triển khai Batch 7 (Chương 106 - 120 / 125).
+> **Trạng thái hiện tại:** Đã cào 138/138 chương raw (100%). Đã dịch & duyệt QC 138/138 chương (Toàn bộ 8 Batch: 100% HOÀN THÀNH XUẤT SẮC, 0 LỖI). Dự án đã chính thức HOÀN KẾT!
 
 ---
 
@@ -31,13 +31,13 @@
 
 ```mermaid
 graph TD
-    A["Batch 1: Ch 001 - 010<br/>Gặp gỡ & Đột nhập Hắc Bảo<br/>(10 ch - ĐÃ XONG 100%)"] --> B["Batch 2: Ch 011 - 025<br/>Xung đột Phố Cẩu Câu & Ấn ký thành thục<br/>(15 ch - ĐANG CHUẨN BỊ)"]
-    B --> C["Batch 3: Ch 026 - 045<br/>Dạ yến Hắc Bảo, Bắt cóc Kỷ Trần Yến & Bạo loạn<br/>(20 ch)"]
-    C --> D["Batch 4: Ch 046 - 065<br/>Truy sát trạm dừng, Bí mật 10 Khu & Giam cầm Cung Phục Đàm<br/>(20 ch)"]
-    D --> E["Batch 5: Ch 066 - 085<br/>Ấn ký hồi sinh, Bão phóng xạ, Thân phận Ngôn Kỳ Hằng & Đêm đông<br/>(20 ch)"]
-    E --> F["Batch 6: Ch 086 - 105<br/>Chân tướng quá khứ, Chiến đội Khu 4 & Tranh đoạt<br/>(20 ch)"]
-    F --> G["Batch 7: Ch 106 - 125<br/>Ốc đảo nguy hiểm, Tỏ tình nồng nhiệt, Bản thể tiến hóa & Nụ hôn Kỷ Trần Yến<br/>(20 ch)"]
-    G --> H["Batch 8: Ch 126 - 138<br/>Rời ốc đảo, Đại chiến diệt Liên Minh, Hoa nở Phục Đàm & Đoạn kết HE<br/>(13 ch)"]
+    A["Batch 1: Ch 001 - 010<br/>Gặp gỡ & Đột nhập Hắc Bảo<br/>(10 ch - ĐÃ XONG 100%)"] --> B["Batch 2: Ch 011 - 025<br/>Xung đột Phố Cẩu Câu & Ấn ký thành thục<br/>(15 ch - ĐÃ XONG 100%)"]
+    B --> C["Batch 3: Ch 026 - 045<br/>Dạ yến Hắc Bảo, Bắt cóc Kỷ Trần Yến & Bạo loạn<br/>(20 ch - ĐÃ XONG 100%)"]
+    C --> D["Batch 4: Ch 046 - 065<br/>Truy sát trạm dừng, Bí mật 10 Khu & Giam cầm Cung Phục Đàm<br/>(20 ch - ĐÃ XONG 100%)"]
+    D --> E["Batch 5: Ch 066 - 085<br/>Ấn ký hồi sinh, Bão phóng xạ, Thân phận Ngôn Kỳ Hằng & Đêm đông<br/>(20 ch - ĐÃ XONG 100%)"]
+    E --> F["Batch 6: Ch 086 - 105<br/>Chân tướng quá khứ, Chiến đội Khu 4 & Tranh đoạt<br/>(20 ch - ĐÃ XONG 100%)"]
+    F --> G["Batch 7: Ch 106 - 125<br/>Ốc đảo nguy hiểm, Tỏ tình nồng nhiệt, Bản thể tiến hóa & Nụ hôn Kỷ Trần Yến<br/>(20 ch - ĐÃ XONG 100%)"]
+    G --> H["Batch 8: Ch 126 - 138<br/>Rời ốc đảo, Đại chiến diệt Liên Minh, Hoa nở Phục Đàm & Đoạn kết HE<br/>(13 ch - ĐÃ XONG 100%)"]
 ```
 
 ---

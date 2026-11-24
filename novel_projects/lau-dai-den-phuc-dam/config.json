@@ -29,8 +29,8 @@
   "chunk_size": 20,
   "created_at": "2026-11-19T00:18:00",
   "chapters_count": 138,
-  "translated_count": 65,
-  "total_words_vi": 188940,
-  "is_completed": false,
+  "translated_count": 138,
+  "total_words_vi": 434042,
+  "is_completed": true,
   "is_dropped": false
 }
