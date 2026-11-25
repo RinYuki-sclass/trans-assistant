@@ -1,0 +1,69 @@
+{
+  "project": "xuyen-den-tinh-te-lam-co-giap-su-doc-quyen",
+  "characters": [
+    {
+      "name_cn": "叶枭安",
+      "name_vi": "Diệp Kiêu An",
+      "role": "Công chính (Niên hạ)",
+      "identity": "Thanh niên xuyên việt / Con riêng bị Diệp gia ruồng bỏ / Đại sư chế tạo cơ giáp độc quyền",
+      "pronouns": {
+        "third_person": "cậu (cố định trần thuật ngôi 3 niên hạ, tuyệt đối không dùng 'anh')",
+        "self_stage1": "tôi (thường ngày) / ta (khi giao tranh, thị uy)",
+        "address_shou_stage1": "Lăng Thượng tướng / anh / ngươi (khi xung đột)",
+        "self_stage2": "tôi (khi bị phản bội, dứt khoát xa cách)",
+        "address_shou_stage2": "Lăng Bùi / ngài",
+        "self_stage3": "em (khi được chuộc lỗi, thấu hiểu và gắn kết, chốt cứng)",
+        "address_shou_stage3": "anh / Lăng Bùi (chốt cứng)"
+      },
+      "personality": "Cơ trí, thâm trầm, quyết đoán, tài hoa cơ giáp xuất chúng, dám yêu dám hận, thù dai nhưng đối đãi với người thật lòng thì ôn nhu bảo bọc",
+      "status": "Gả thay đến Hải Lam Tinh, quật khởi thành đại sư cơ giáp"
+    },
+    {
+      "name_cn": "凌裴",
+      "name_vi": "Lăng Bùi",
+      "role": "Thụ chính (Niên thượng)",
+      "identity": "Cựu Thượng tướng quân đội đế quốc / Kẻ bị lưu đày tàn phế / Kẻ truy phu hỏa táng tràng",
+      "pronouns": {
+        "third_person": "hắn (cố định, cấm dùng 'y')",
+        "self_stage1": "tôi / ta (khi thị uy, giữ khoảng cách)",
+        "address_gong_stage1": "cậu / Diệp thiếu gia / ngươi (khi tức giận)",
+        "self_stage2": "tôi (khi hối hận van nài, truy phu)",
+        "address_gong_stage2": "Diệp Kiêu An / cậu / em",
+        "self_stage3": "anh (khi đã hàn gắn yêu thương, chốt cứng)",
+        "address_gong_stage3": "em / Diệp Kiêu An (chốt cứng)"
+      },
+      "personality": "Từng uy phong lẫm liệt, tâm cơ thâm sâu, lạnh lùng tàn nhẫn vì thù hận, sau khi mất công thì hóa điên, cố chấp và hèn mọn chuộc lỗi",
+      "status": "Bị lưu đày Hải Lam Tinh, tàn phế hai chân, sau được Diệp Kiêu An chữa khỏi"
+    },
+    {
+      "name_cn": "安黎",
+      "name_vi": "An Lê",
+      "role": "Nhân vật phụ",
+      "identity": "Thuộc hạ / thân cận của Lăng Bùi",
+      "pronouns": {
+        "third_person": "cậu ta / hắn"
+      },
+      "status": "Phục vụ Lăng Bùi tại Hải Lam Tinh"
+    },
+    {
+      "name_cn": "魏威",
+      "name_vi": "Ngụy Uy",
+      "role": "Nhân vật phụ",
+      "identity": "Sĩ quan quân đội",
+      "pronouns": {
+        "third_person": "hắn / anh ta"
+      },
+      "status": "Quân bộ"
+    },
+    {
+      "name_cn": "虫帝",
+      "name_vi": "Trùng Đế",
+      "role": "Phản diện tối cao",
+      "identity": "Thống lĩnh chủng tộc Trùng tộc vũ trụ",
+      "pronouns": {
+        "third_person": "hắn / nó"
+      },
+      "status": "Kẻ đứng sau các thí nghiệm tàn bạo trên Thí Nghiệm Tinh"
+    }
+  ]
+}

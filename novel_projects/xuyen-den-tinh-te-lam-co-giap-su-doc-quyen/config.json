@@ -1,0 +1,38 @@
+{
+  "title": "Xuyên Đến Tinh Tế Làm Cơ Giáp Sư Độc Quyền",
+  "chinese_title": "穿越星际之专属机甲师",
+  "author": "Tất Tu Khoa Mục (必修科目)",
+  "slug": "xuyen-den-tinh-te-lam-co-giap-su-doc-quyen",
+  "source_site": "52书库 (52shuku.net) / 晋江文学城 (jjwxc.net)",
+  "source_url": "https://www.52shuku.net/jiakong/b/bjQtC.html",
+  "source_lang": "Chinese",
+  "target_lang": "Vietnamese",
+  "genre": [
+    "Đam mỹ",
+    "Chủ công",
+    "Niên hạ",
+    "Xuyên việt tinh tế",
+    "Cơ giáp chiến đấu",
+    "Hệ thống",
+    "Cường cường",
+    "Ngược luyến tình thâm",
+    "Thụ truy phu hỏa táng tràng",
+    "Tương hỗ cứu rỗi",
+    "1v1",
+    "HE"
+  ],
+  "protagonists": {
+    "gong": "Diệp Kiêu An (叶枭安 - Niên hạ xuyên việt thiên tài cơ giáp sư x dứt khoát quyết đoán)",
+    "shou": "Lăng Bùi (凌裴 - Niên thượng cựu Thượng tướng tàn phế x tâm cơ thâm trầm truy phu)"
+  },
+  "description": "【Chủ công niên hạ, song khiết HE】Diệp Kiêu An xuyên không đến thế giới tinh tế, trở thành đứa con riêng phế vật bị gia tộc ruồng bỏ. Năm Tinh tế 2023, anh bị ép gả thay cho Lăng Bùi - vị cựu Thượng tướng từng lập vô số chiến công nhưng nay bị tước quyền, tàn phế hai chân và bị lưu đày đến tinh cầu biên cảnh hoang vu Hải Lam Tinh. Một hành trình giữa yêu và không yêu, hối hận và chuộc lỗi chính thức mở màn. Ban đầu Lăng Bùi vì báo thù mà toan tính lợi dụng Diệp Kiêu An, đẩy anh vào chốn luyện ngục Thí Nghiệm Tinh, khiến Diệp Kiêu An tâm tàn ý lạnh dứt khoát buông tay. Đến khi mất đi anh, Lăng Bùi mới thấu suốt tình cảm của mình, bước vào con đường 'truy phu hỏa táng tràng' đầy đau đớn, phát điên tìm kiếm người thương nơi sào huyệt Trùng tộc. Diệp Kiêu An với sự trợ giúp của hệ thống từng bước quật khởi, trở thành đại sư chế tạo cơ giáp độc quyền, chữa lành đôi chân và tâm hồn của vị Thượng tướng, cùng nhau lật đổ chế độ thối nát và sóng bước bên nhau trọn đời.",
+  "style_guide": "Chủ công, tinh tế cơ giáp, niên hạ cường cường, thụ truy phu hỏa táng tràng.\n1. Định dạng \\n\\n giữa các đoạn văn.\n2. Lời thoại ngoặc kép “...”.\n3. 1:1 Paragraph Alignment.\n4. Đại từ đơn tôn - đơn nghĩa, phân định trần thuật vs thoại trực tiếp.",
+  "confidence_threshold": 0.8,
+  "chunk_size": 20,
+  "created_at": "2026-11-25T14:25:00",
+  "chapters_count": 180,
+  "translated_count": 0,
+  "total_words_vi": 0,
+  "is_completed": false,
+  "is_dropped": false
+}

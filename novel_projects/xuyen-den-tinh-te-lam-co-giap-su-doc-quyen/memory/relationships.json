@@ -1,0 +1,17 @@
+{
+  "project": "xuyen-den-tinh-te-lam-co-giap-su-doc-quyen",
+  "pairs": [
+    {
+      "character_a": "叶枭安 (Diệp Kiêu An)",
+      "character_b": "凌裴 (Lăng Bùi)",
+      "type": "Công - Thụ (Thế hôn -> Lợi dụng dối lừa -> Vỡ mộng buông tay -> Thụ truy phu hỏa táng tràng -> Tương hỗ cứu rỗi HE)",
+      "dynamics": "Diệp Kiêu An bị gả thay cho Lăng Bùi tại tinh cầu biên cảnh. Anh đem chân tình đối đãi, nhưng Lăng Bùi vì báo thù đã toan tính đẩy anh vào hiểm cảnh. Khi Diệp Kiêu An dứt khoát quay lưng, Lăng Bùi hối hận phát điên, hạ mình quỳ gối tìm kiếm và chuộc lỗi. Đôi bên cùng vượt qua thù hận để bên nhau trọn đời.",
+      "dialogue_rules": {
+        "stage1_hailan_capital (Ch 001-057)": "Diệp Kiêu An xưng 'tôi' - gọi 'Lăng Thượng tướng / anh'; Lăng Bùi xưng 'tôi' - gọi 'cậu / Diệp thiếu gia'. Khi giao tranh/thị uy: xưng 'ta' - gọi 'ngươi' (TUYỆT ĐỐI CẤM 'tao - mày').",
+        "stage2_betrayal_breakup (Ch 058-081)": "Diệp Kiêu An lạnh lùng xưng 'tôi' - gọi 'ngài / Lăng Bùi'; Lăng Bùi đau đớn cầu xin, xưng 'tôi / anh' - gọi 'Diệp Kiêu An / em'.",
+        "stage3_chasing_repentance (Ch 082-115)": "Lăng Bùi hạ mình chuộc lỗi, cố chấp đi theo; Diệp Kiêu An dần buông bỏ phòng bị.",
+        "stage4_loving_he (Ch 116-180)": "Diệp Kiêu An CHỐT CỨNG xưng 'em' - gọi 'anh'; Lăng Bùi CHỐT CỨNG xưng 'anh' - gọi 'em'/'Diệp Kiêu An'."
+      }
+    }
+  ]
+}

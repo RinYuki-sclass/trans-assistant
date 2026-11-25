@@ -1,0 +1,53 @@
+{
+  "project": "xuyen-den-tinh-te-lam-co-giap-su-doc-quyen",
+  "events": [
+    {
+      "stage": "Quyển 1: Hải Lam Tinh",
+      "chapters": "Ch 001 - 042",
+      "description": "Diệp Kiêu An xuyên vào thân thể con riêng bị bỏ rơi, gả thay cho Lăng Bùi tàn phế. Anh kích hoạt hệ thống, trồng trọt và sửa chữa cơ giáp."
+    },
+    {
+      "stage": "Quyển 2: Thủ Đô Tinh",
+      "chapters": "Ch 043 - 057",
+      "description": "Trở lại Thủ Đô Tinh, Diệp Kiêu An tỏa sáng tài năng cơ giáp nhưng phát hiện Lăng Bùi toan tính dối lừa mình."
+    },
+    {
+      "stage": "Quyển 3: Thí Nghiệm Tinh",
+      "chapters": "Ch 058 - 061",
+      "description": "Lăng Bùi đẩy Diệp Kiêu An vào chốn hiểm cảnh của Trùng Đế; tình cảm đổ vỡ hoàn toàn, Diệp Kiêu An dứt khoát cắt đứt."
+    },
+    {
+      "stage": "Quyển 4: Lục Tinh",
+      "chapters": "Ch 062 - 073",
+      "description": "Diệp Kiêu An tái sinh nơi rừng cổ thụ Lục Tinh, quật khởi thực lực; Lăng Bùi hối hận tột cùng, tìm kiếm điên cuồng."
+    },
+    {
+      "stage": "Quyển 5: Trùng Tinh",
+      "chapters": "Ch 074 - 100",
+      "description": "Lăng Bùi dấn thân vào sào huyệt Trùng tộc truy phu trong đau đớn, phát bệnh tinh thần; Diệp Kiêu An xuất hiện cứu rỗi."
+    },
+    {
+      "stage": "Quyển 6: Hệ Tinh Cầu Elier Venta & HE",
+      "chapters": "Ch 101 - 180",
+      "description": "Đôi bên đồng tâm hiệp lực lật đổ thế lực thối nát và Trùng Đế, chữa lành vết thương, bên nhau trọn đời viên mãn."
+    },
+    {
+      "chapters": "Chương 074 - 100",
+      "title": "Batch 5: Chiến Tranh Tinh Cầu & Đột Phá Thí Nghiệm",
+      "summary": "Diệp Kiêu An giải cứu An Lê, bẻ khóa bí mật virus Hương Giới và thực nghiệm thể S-589; đánh lui Trùng Đế trên chiến trường tinh tế; đối mặt với biến cố tình cảm và vết thương tinh thần lực của Lăng Bùi, chính thức xác lập ấn ký tinh thần lực trọn đời.",
+      "status": "QC_PASSED"
+    },
+    {
+      "chapters": "Chương 101 - 125",
+      "title": "Batch 6: Bầu Không Khí Mới & Xác Lập Địa Vị Cơ Giáp Sư Thần Cấp",
+      "summary": "Diệp Kiêu An thâm nhập giới thượng lưu tinh tế và các thế lực ngầm; cứu viện và chữa trị tinh thần lực cho Lăng Bùi; vạch trần âm mưu buôn lậu độc phẩm và thí nghiệm cơ thể sống; củng cố liên minh vững chắc, chính thức được tôn vinh là Lãnh chúa và Cơ giáp sư độc quyền.",
+      "status": "QC_PASSED"
+    },
+    {
+      "chapters": "Chương 126 - 150",
+      "title": "Batch 7: Lưới Điện Bí Mật, Trùng Đế Thất Thế & Bước Ngoặt Thân Phận",
+      "summary": "Diệp Kiêu An và Trùng Đế Cẩm giao đấu và hợp tác đối phó biến cố tinh tế; Diệp Kiêu An phát hiện mạng lưới mạch điện bí mật Lăng Bùi giấu tại phòng ngủ dẫn tới màn tra hỏi và cưỡng ép rót thuốc đầy kịch tính; Lăng Bùi thổ huyết suy kiệt khiến Diệp Kiêu An bừng tỉnh nhận ra chấp niệm thật sự của mình; tuyến thương mại Lưỡng Tinh và Ngân hàng Tinh An khởi động mạnh mẽ; thân phận và mưu đồ của thế lực Thủ Đô Tinh cùng Lăng gia dần lộ diện.",
+      "status": "QC_PASSED"
+    }
+  ]
+}
