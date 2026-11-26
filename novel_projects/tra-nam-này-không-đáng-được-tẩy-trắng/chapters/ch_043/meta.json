@@ -1,8 +1,12 @@
 {
-  "chapter_id": "ch_043",
-  "title": "渣男不配洗白 第43章",
-  "imported_at": "2026-10-11T20:58:17.491493+07:00",
-  "status": "SOURCE_READY",
-  "n_paragraphs": 98,
-  "source_url": "https://www.dmxs.org/view/6-10452-43.html"
+  "chapter": "ch_043",
+  "title": "Chương 43",
+  "source_paragraphs": 99,
+  "translated_paragraphs": 99,
+  "qc_approved": true,
+  "arcs": [
+    "Arc 3 (Kết thúc: Nghiêm Trần x Hoắc Kỳ)",
+    "Arc 4 (Mở đầu: Võng du - Lâm Thần Dương / Tạ Vân Diệu x Vệ Tu)"
+  ],
+  "notes": "Đã hoàn tất pre-scan QA, dịch 1:1, và kiểm định QC 5 lớp đạt 100%."
 }

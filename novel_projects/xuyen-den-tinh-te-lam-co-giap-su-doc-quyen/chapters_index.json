@@ -1,8 +1,8 @@
 {
   "project": "xuyen-den-tinh-te-lam-co-giap-su-doc-quyen",
   "total_chapters": 180,
-  "translated_chapters": 77,
-  "qc_passed_chapters": 77,
+  "translated_chapters": 107,
+  "qc_passed_chapters": 107,
   "chapters": [
     {
       "id": "ch_001",
@@ -889,7 +889,7 @@
       "translation_exists": true,
       "qc_exists": true,
       "paragraphs": 160,
-      "words": 0,
+      "words": 5453,
       "status": "QC_PASSED"
     },
     {
@@ -901,7 +901,7 @@
       "translation_exists": true,
       "qc_exists": true,
       "paragraphs": 151,
-      "words": 0,
+      "words": 5352,
       "status": "QC_PASSED"
     },
     {
@@ -913,7 +913,7 @@
       "translation_exists": true,
       "qc_exists": true,
       "paragraphs": 172,
-      "words": 0,
+      "words": 6628,
       "status": "QC_PASSED"
     },
     {
@@ -925,7 +925,7 @@
       "translation_exists": true,
       "qc_exists": true,
       "paragraphs": 146,
-      "words": 0,
+      "words": 4862,
       "status": "QC_PASSED"
     },
     {
@@ -937,7 +937,7 @@
       "translation_exists": true,
       "qc_exists": true,
       "paragraphs": 191,
-      "words": 0,
+      "words": 7164,
       "status": "QC_PASSED"
     },
     {
@@ -949,7 +949,7 @@
       "translation_exists": true,
       "qc_exists": true,
       "paragraphs": 134,
-      "words": 0,
+      "words": 5045,
       "status": "QC_PASSED"
     },
     {
@@ -961,7 +961,7 @@
       "translation_exists": true,
       "qc_exists": true,
       "paragraphs": 150,
-      "words": 0,
+      "words": 5877,
       "status": "QC_PASSED"
     },
     {
@@ -973,7 +973,7 @@
       "translation_exists": true,
       "qc_exists": true,
       "paragraphs": 139,
-      "words": 0,
+      "words": 5534,
       "status": "QC_PASSED"
     },
     {
@@ -985,7 +985,7 @@
       "translation_exists": true,
       "qc_exists": true,
       "paragraphs": 169,
-      "words": 0,
+      "words": 6432,
       "status": "QC_PASSED"
     },
     {
@@ -997,7 +997,7 @@
       "translation_exists": true,
       "qc_exists": true,
       "paragraphs": 151,
-      "words": 0,
+      "words": 5552,
       "status": "QC_PASSED"
     },
     {
@@ -1009,7 +1009,7 @@
       "translation_exists": true,
       "qc_exists": true,
       "paragraphs": 94,
-      "words": 0,
+      "words": 3021,
       "status": "QC_PASSED"
     },
     {
@@ -1021,7 +1021,7 @@
       "translation_exists": true,
       "qc_exists": true,
       "paragraphs": 99,
-      "words": 0,
+      "words": 2850,
       "status": "QC_PASSED"
     },
     {
@@ -1033,7 +1033,7 @@
       "translation_exists": true,
       "qc_exists": true,
       "paragraphs": 78,
-      "words": 0,
+      "words": 2872,
       "status": "QC_PASSED"
     },
     {
@@ -1045,7 +1045,7 @@
       "translation_exists": true,
       "qc_exists": true,
       "paragraphs": 92,
-      "words": 0,
+      "words": 3163,
       "status": "QC_PASSED"
     },
     {
@@ -1057,7 +1057,7 @@
       "translation_exists": true,
       "qc_exists": true,
       "paragraphs": 105,
-      "words": 0,
+      "words": 3411,
       "status": "QC_PASSED"
     },
     {
@@ -1069,7 +1069,7 @@
       "translation_exists": true,
       "qc_exists": true,
       "paragraphs": 83,
-      "words": 0,
+      "words": 3017,
       "status": "QC_PASSED"
     },
     {
@@ -1081,7 +1081,7 @@
       "translation_exists": true,
       "qc_exists": true,
       "paragraphs": 90,
-      "words": 0,
+      "words": 3024,
       "status": "QC_PASSED"
     },
     {
@@ -1093,7 +1093,7 @@
       "translation_exists": true,
       "qc_exists": true,
       "paragraphs": 98,
-      "words": 0,
+      "words": 3127,
       "status": "QC_PASSED"
     },
     {
@@ -1105,7 +1105,7 @@
       "translation_exists": true,
       "qc_exists": true,
       "paragraphs": 120,
-      "words": 0,
+      "words": 3353,
       "status": "QC_PASSED"
     },
     {
@@ -1117,7 +1117,7 @@
       "translation_exists": true,
       "qc_exists": true,
       "paragraphs": 87,
-      "words": 0,
+      "words": 3075,
       "status": "QC_PASSED"
     },
     {
@@ -1129,7 +1129,7 @@
       "translation_exists": true,
       "qc_exists": true,
       "paragraphs": 86,
-      "words": 0,
+      "words": 3079,
       "status": "QC_PASSED"
     },
     {
@@ -1141,7 +1141,7 @@
       "translation_exists": true,
       "qc_exists": true,
       "paragraphs": 84,
-      "words": 0,
+      "words": 3231,
       "status": "QC_PASSED"
     },
     {
@@ -1153,7 +1153,7 @@
       "translation_exists": true,
       "qc_exists": true,
       "paragraphs": 95,
-      "words": 0,
+      "words": 3136,
       "status": "QC_PASSED"
     },
     {
@@ -1165,7 +1165,7 @@
       "translation_exists": true,
       "qc_exists": true,
       "paragraphs": 129,
-      "words": 0,
+      "words": 4249,
       "status": "QC_PASSED"
     },
     {
@@ -1177,7 +1177,7 @@
       "translation_exists": true,
       "qc_exists": true,
       "paragraphs": 124,
-      "words": 0,
+      "words": 3933,
       "status": "QC_PASSED"
     },
     {
@@ -1189,7 +1189,7 @@
       "translation_exists": true,
       "qc_exists": true,
       "paragraphs": 115,
-      "words": 0,
+      "words": 3877,
       "status": "QC_PASSED"
     },
     {
@@ -1201,7 +1201,7 @@
       "translation_exists": true,
       "qc_exists": true,
       "paragraphs": 95,
-      "words": 0,
+      "words": 3186,
       "status": "QC_PASSED"
     },
     {
@@ -1213,7 +1213,7 @@
       "translation_exists": true,
       "qc_exists": true,
       "paragraphs": 89,
-      "words": 0,
+      "words": 2880,
       "status": "QC_PASSED"
     },
     {
@@ -1225,7 +1225,7 @@
       "translation_exists": true,
       "qc_exists": true,
       "paragraphs": 80,
-      "words": 0,
+      "words": 2809,
       "status": "QC_PASSED"
     },
     {
@@ -1237,7 +1237,7 @@
       "translation_exists": true,
       "qc_exists": true,
       "paragraphs": 88,
-      "words": 0,
+      "words": 3174,
       "status": "QC_PASSED"
     },
     {
@@ -1249,7 +1249,7 @@
       "translation_exists": true,
       "qc_exists": true,
       "paragraphs": 81,
-      "words": 0,
+      "words": 2946,
       "status": "QC_PASSED"
     },
     {
@@ -1261,7 +1261,7 @@
       "translation_exists": true,
       "qc_exists": true,
       "paragraphs": 120,
-      "words": 0,
+      "words": 4056,
       "status": "QC_PASSED"
     },
     {
@@ -1273,7 +1273,7 @@
       "translation_exists": true,
       "qc_exists": true,
       "paragraphs": 90,
-      "words": 0,
+      "words": 3432,
       "status": "QC_PASSED"
     },
     {
@@ -1285,7 +1285,7 @@
       "translation_exists": true,
       "qc_exists": true,
       "paragraphs": 146,
-      "words": 0,
+      "words": 5210,
       "status": "QC_PASSED"
     },
     {
@@ -1297,7 +1297,7 @@
       "translation_exists": true,
       "qc_exists": true,
       "paragraphs": 107,
-      "words": 0,
+      "words": 3688,
       "status": "QC_PASSED"
     },
     {
@@ -1309,7 +1309,7 @@
       "translation_exists": true,
       "qc_exists": true,
       "paragraphs": 88,
-      "words": 0,
+      "words": 2884,
       "status": "QC_PASSED"
     },
     {
@@ -1321,7 +1321,7 @@
       "translation_exists": true,
       "qc_exists": true,
       "paragraphs": 111,
-      "words": 0,
+      "words": 3668,
       "status": "QC_PASSED"
     },
     {
@@ -1333,7 +1333,7 @@
       "translation_exists": true,
       "qc_exists": true,
       "paragraphs": 100,
-      "words": 0,
+      "words": 3504,
       "status": "QC_PASSED"
     },
     {
@@ -1345,7 +1345,7 @@
       "translation_exists": true,
       "qc_exists": true,
       "paragraphs": 82,
-      "words": 0,
+      "words": 3079,
       "status": "QC_PASSED"
     },
     {
@@ -1357,7 +1357,7 @@
       "translation_exists": true,
       "qc_exists": true,
       "paragraphs": 80,
-      "words": 0,
+      "words": 3128,
       "status": "QC_PASSED"
     },
     {
@@ -1369,7 +1369,7 @@
       "translation_exists": true,
       "qc_exists": true,
       "paragraphs": 72,
-      "words": 0,
+      "words": 3073,
       "status": "QC_PASSED"
     },
     {
@@ -1381,7 +1381,7 @@
       "translation_exists": true,
       "qc_exists": true,
       "paragraphs": 78,
-      "words": 0,
+      "words": 3034,
       "status": "QC_PASSED"
     },
     {
@@ -1393,7 +1393,7 @@
       "translation_exists": true,
       "qc_exists": true,
       "paragraphs": 112,
-      "words": 0,
+      "words": 3348,
       "status": "QC_PASSED"
     },
     {
@@ -1405,7 +1405,7 @@
       "translation_exists": true,
       "qc_exists": true,
       "paragraphs": 95,
-      "words": 0,
+      "words": 2962,
       "status": "QC_PASSED"
     },
     {
@@ -1417,7 +1417,7 @@
       "translation_exists": true,
       "qc_exists": true,
       "paragraphs": 88,
-      "words": 0,
+      "words": 3213,
       "status": "QC_PASSED"
     },
     {
@@ -1429,7 +1429,7 @@
       "translation_exists": true,
       "qc_exists": true,
       "paragraphs": 94,
-      "words": 0,
+      "words": 3363,
       "status": "QC_PASSED"
     },
     {
@@ -1441,7 +1441,7 @@
       "translation_exists": true,
       "qc_exists": true,
       "paragraphs": 131,
-      "words": 0,
+      "words": 4898,
       "status": "QC_PASSED"
     },
     {
@@ -1453,7 +1453,7 @@
       "translation_exists": true,
       "qc_exists": true,
       "paragraphs": 90,
-      "words": 0,
+      "words": 2915,
       "status": "QC_PASSED"
     },
     {
@@ -1465,7 +1465,7 @@
       "translation_exists": true,
       "qc_exists": true,
       "paragraphs": 121,
-      "words": 0,
+      "words": 4117,
       "status": "QC_PASSED"
     },
     {
@@ -1477,7 +1477,7 @@
       "translation_exists": true,
       "qc_exists": true,
       "paragraphs": 83,
-      "words": 0,
+      "words": 3020,
       "status": "QC_PASSED"
     },
     {
@@ -1489,7 +1489,7 @@
       "translation_exists": true,
       "qc_exists": true,
       "paragraphs": 97,
-      "words": 0,
+      "words": 3262,
       "status": "QC_PASSED"
     },
     {
@@ -1501,7 +1501,7 @@
       "translation_exists": true,
       "qc_exists": true,
       "paragraphs": 85,
-      "words": 0,
+      "words": 2903,
       "status": "QC_PASSED"
     },
     {
@@ -1513,7 +1513,7 @@
       "translation_exists": true,
       "qc_exists": true,
       "paragraphs": 89,
-      "words": 0,
+      "words": 3085,
       "status": "QC_PASSED"
     },
     {
@@ -1525,7 +1525,7 @@
       "translation_exists": true,
       "qc_exists": true,
       "paragraphs": 95,
-      "words": 0,
+      "words": 3094,
       "status": "QC_PASSED"
     },
     {
@@ -1537,7 +1537,7 @@
       "translation_exists": true,
       "qc_exists": true,
       "paragraphs": 88,
-      "words": 0,
+      "words": 3084,
       "status": "QC_PASSED"
     },
     {
@@ -1549,7 +1549,7 @@
       "translation_exists": true,
       "qc_exists": true,
       "paragraphs": 134,
-      "words": 0,
+      "words": 4854,
       "status": "QC_PASSED"
     },
     {
@@ -1558,10 +1558,10 @@
       "title_cn": "第130章 跌落神坛",
       "title_vi": "Chương 130: Hệ Tinh Cầu Elier Venta",
       "source_exists": true,
-      "translation_exists": false,
-      "qc_exists": false,
+      "translation_exists": true,
+      "qc_exists": true,
       "paragraphs": 72,
-      "words": 0,
+      "words": 2919,
       "status": "QC_PASSED"
     },
     {
@@ -1570,10 +1570,10 @@
       "title_cn": "第131章 凌家覆灭",
       "title_vi": "Chương 131: Văn Minh Đỉnh Cao",
       "source_exists": true,
-      "translation_exists": false,
-      "qc_exists": false,
+      "translation_exists": true,
+      "qc_exists": true,
       "paragraphs": 103,
-      "words": 0,
+      "words": 2981,
       "status": "QC_PASSED"
     },
     {
@@ -1582,10 +1582,10 @@
       "title_cn": "第132章 凌裴精神力残废",
       "title_vi": "Chương 132: Thử Thách Cuối Cùng",
       "source_exists": true,
-      "translation_exists": false,
-      "qc_exists": false,
+      "translation_exists": true,
+      "qc_exists": true,
       "paragraphs": 133,
-      "words": 0,
+      "words": 4035,
       "status": "QC_PASSED"
     },
     {
@@ -1594,10 +1594,10 @@
       "title_cn": "第133章 剔除精神力",
       "title_vi": "Chương 133: Hồi Sinh Toàn Vẹn",
       "source_exists": true,
-      "translation_exists": false,
-      "qc_exists": false,
+      "translation_exists": true,
+      "qc_exists": true,
       "paragraphs": 112,
-      "words": 0,
+      "words": 3911,
       "status": "QC_PASSED"
     },
     {
@@ -1606,10 +1606,10 @@
       "title_cn": "第134章 叶枭安觉得他在卖惨",
       "title_vi": "Chương 134: Sinh Mệnh Bất Diệt",
       "source_exists": true,
-      "translation_exists": false,
-      "qc_exists": false,
+      "translation_exists": true,
+      "qc_exists": true,
       "paragraphs": 106,
-      "words": 0,
+      "words": 3665,
       "status": "QC_PASSED"
     },
     {
@@ -1618,10 +1618,10 @@
       "title_cn": "第135章 梨花归来",
       "title_vi": "Chương 135: Khúc Hát Chiến Thắng",
       "source_exists": true,
-      "translation_exists": false,
-      "qc_exists": false,
+      "translation_exists": true,
+      "qc_exists": true,
       "paragraphs": 98,
-      "words": 0,
+      "words": 3054,
       "status": "QC_PASSED"
     },
     {
@@ -1630,10 +1630,10 @@
       "title_cn": "第136章 连人带车的展览",
       "title_vi": "Chương 136: Xây Dựng Đế Chế Mới",
       "source_exists": true,
-      "translation_exists": false,
-      "qc_exists": false,
+      "translation_exists": true,
+      "qc_exists": true,
       "paragraphs": 103,
-      "words": 0,
+      "words": 3096,
       "status": "QC_PASSED"
     },
     {
@@ -1642,10 +1642,10 @@
       "title_cn": "第137章 虫帝的心脏",
       "title_vi": "Chương 137: Quyền Lực & Tự Do",
       "source_exists": true,
-      "translation_exists": false,
-      "qc_exists": false,
+      "translation_exists": true,
+      "qc_exists": true,
       "paragraphs": 166,
-      "words": 0,
+      "words": 5276,
       "status": "QC_PASSED"
     },
     {
@@ -1654,10 +1654,10 @@
       "title_cn": "第138章 往枪口上撞",
       "title_vi": "Chương 138: Mở Rộng Không Gian Hệ Thống",
       "source_exists": true,
-      "translation_exists": false,
-      "qc_exists": false,
+      "translation_exists": true,
+      "qc_exists": true,
       "paragraphs": 94,
-      "words": 0,
+      "words": 3230,
       "status": "QC_PASSED"
     },
     {
@@ -1666,10 +1666,10 @@
       "title_cn": "第139章 强灌药剂",
       "title_vi": "Chương 139: Cuộc Sống Điền Viên Nơi Tinh Tế",
       "source_exists": true,
-      "translation_exists": false,
-      "qc_exists": false,
+      "translation_exists": true,
+      "qc_exists": true,
       "paragraphs": 107,
-      "words": 0,
+      "words": 3734,
       "status": "QC_PASSED"
     },
     {
@@ -1678,10 +1678,10 @@
       "title_cn": "第140章 凌裴会死？",
       "title_vi": "Chương 140: Những Ngày Tháng Bình Yên",
       "source_exists": true,
-      "translation_exists": false,
-      "qc_exists": false,
+      "translation_exists": true,
+      "qc_exists": true,
       "paragraphs": 100,
-      "words": 0,
+      "words": 2901,
       "status": "QC_PASSED"
     },
     {
@@ -1690,10 +1690,10 @@
       "title_cn": "第141章 不幸中的万幸",
       "title_vi": "Chương 141: Dư Vị Hạnh Phúc",
       "source_exists": true,
-      "translation_exists": false,
-      "qc_exists": false,
+      "translation_exists": true,
+      "qc_exists": true,
       "paragraphs": 90,
-      "words": 0,
+      "words": 2899,
       "status": "QC_PASSED"
     },
     {
@@ -1702,10 +1702,10 @@
       "title_cn": "第142章 不是让你疼的药",
       "title_vi": "Chương 142: Bồi Dưỡng Thế Hệ Tiếp Theo",
       "source_exists": true,
-      "translation_exists": false,
-      "qc_exists": false,
+      "translation_exists": true,
+      "qc_exists": true,
       "paragraphs": 96,
-      "words": 0,
+      "words": 2844,
       "status": "QC_PASSED"
     },
     {
@@ -1714,10 +1714,10 @@
       "title_cn": "第143章 首都星的老朋友",
       "title_vi": "Chương 143: Học Viện Cơ Giáp Mang Tên Anh",
       "source_exists": true,
-      "translation_exists": false,
-      "qc_exists": false,
+      "translation_exists": true,
+      "qc_exists": true,
       "paragraphs": 194,
-      "words": 0,
+      "words": 5840,
       "status": "QC_PASSED"
     },
     {
@@ -1726,10 +1726,10 @@
       "title_cn": "第144章 精神力具象化触手",
       "title_vi": "Chương 144: Gặp Lại Cố Nhân",
       "source_exists": true,
-      "translation_exists": false,
-      "qc_exists": false,
+      "translation_exists": true,
+      "qc_exists": true,
       "paragraphs": 103,
-      "words": 0,
+      "words": 3125,
       "status": "QC_PASSED"
     },
     {
@@ -1738,10 +1738,10 @@
       "title_cn": "第145章 他想了，等了一天",
       "title_vi": "Chương 145: Ký Ức Xưa Cũ",
       "source_exists": true,
-      "translation_exists": false,
-      "qc_exists": false,
+      "translation_exists": true,
+      "qc_exists": true,
       "paragraphs": 123,
-      "words": 0,
+      "words": 3310,
       "status": "QC_PASSED"
     },
     {
@@ -1750,10 +1750,10 @@
       "title_cn": "第146章 外星智慧体的太空站",
       "title_vi": "Chương 146: Hóa Giải Mọi Ân Oán",
       "source_exists": true,
-      "translation_exists": false,
-      "qc_exists": false,
+      "translation_exists": true,
+      "qc_exists": true,
       "paragraphs": 98,
-      "words": 0,
+      "words": 2975,
       "status": "QC_PASSED"
     },
     {
@@ -1762,10 +1762,10 @@
       "title_cn": "第147章 是合作还是敌人关系",
       "title_vi": "Chương 147: Tình Yêu Sâu Đậm",
       "source_exists": true,
-      "translation_exists": false,
-      "qc_exists": false,
+      "translation_exists": true,
+      "qc_exists": true,
       "paragraphs": 76,
-      "words": 0,
+      "words": 2778,
       "status": "QC_PASSED"
     },
     {
@@ -1774,10 +1774,10 @@
       "title_cn": "第148章 卧室小院爆炸",
       "title_vi": "Chương 148: Đêm Không Ngủ Nơi Tinh Hạm",
       "source_exists": true,
-      "translation_exists": false,
-      "qc_exists": false,
+      "translation_exists": true,
+      "qc_exists": true,
       "paragraphs": 88,
-      "words": 0,
+      "words": 2792,
       "status": "QC_PASSED"
     },
     {
@@ -1786,10 +1786,10 @@
       "title_cn": "第149章 凌裴哭了？",
       "title_vi": "Chương 149: Lời Hứa Dưới Dải Ngân Hà",
       "source_exists": true,
-      "translation_exists": false,
-      "qc_exists": false,
+      "translation_exists": true,
+      "qc_exists": true,
       "paragraphs": 142,
-      "words": 0,
+      "words": 3711,
       "status": "QC_PASSED"
     },
     {
@@ -1798,10 +1798,10 @@
       "title_cn": "第150章 凌裴精神失常",
       "title_vi": "Chương 150: Lăng Bùi Phát Bệnh Tinh Thần",
       "source_exists": true,
-      "translation_exists": false,
-      "qc_exists": false,
+      "translation_exists": true,
+      "qc_exists": true,
       "paragraphs": 90,
-      "words": 0,
+      "words": 2950,
       "status": "QC_PASSED"
     },
     {
@@ -1810,11 +1810,11 @@
       "title_cn": "第151章 对凌裴太苛刻",
       "title_vi": "Chương 151: Quá Khắc Nghiệt Với Lăng Bùi",
       "source_exists": true,
-      "translation_exists": false,
-      "qc_exists": false,
+      "translation_exists": true,
+      "qc_exists": true,
       "paragraphs": 121,
-      "words": 0,
-      "status": "RAW_READY"
+      "words": 3651,
+      "status": "QC_PASSED"
     },
     {
       "id": "ch_152",
@@ -1822,11 +1822,11 @@
       "title_cn": "第152章 入侵虫帝的大脑",
       "title_vi": "Chương 152: Xâm Nhập Bộ Não Trùng Đế",
       "source_exists": true,
-      "translation_exists": false,
-      "qc_exists": false,
+      "translation_exists": true,
+      "qc_exists": true,
       "paragraphs": 88,
-      "words": 0,
-      "status": "RAW_READY"
+      "words": 3028,
+      "status": "QC_PASSED"
     },
     {
       "id": "ch_153",
@@ -1834,11 +1834,11 @@
       "title_cn": "第153章 实验体S—0",
       "title_vi": "Chương 153: Sự Thật Đằng Sau Cuộc Xâm Lăng",
       "source_exists": true,
-      "translation_exists": false,
-      "qc_exists": false,
+      "translation_exists": true,
+      "qc_exists": true,
       "paragraphs": 94,
-      "words": 0,
-      "status": "RAW_READY"
+      "words": 2841,
+      "status": "QC_PASSED"
     },
     {
       "id": "ch_154",
@@ -1846,11 +1846,11 @@
       "title_cn": "第154章 血花绽放",
       "title_vi": "Chương 154: Giải Thoát Cho Trùng Tộc",
       "source_exists": true,
-      "translation_exists": false,
-      "qc_exists": false,
+      "translation_exists": true,
+      "qc_exists": true,
       "paragraphs": 145,
-      "words": 0,
-      "status": "RAW_READY"
+      "words": 5063,
+      "status": "QC_PASSED"
     },
     {
       "id": "ch_155",
@@ -1858,11 +1858,11 @@
       "title_cn": "第155章 仇恨深之入骨",
       "title_vi": "Chương 155: Tái Thiết Tinh Cầu Hoang",
       "source_exists": true,
-      "translation_exists": false,
-      "qc_exists": false,
+      "translation_exists": true,
+      "qc_exists": true,
       "paragraphs": 143,
-      "words": 0,
-      "status": "RAW_READY"
+      "words": 4647,
+      "status": "QC_PASSED"
     },
     {
       "id": "ch_156",
@@ -1870,11 +1870,11 @@
       "title_cn": "第156章 结束精神力入侵",
       "title_vi": "Chương 156: Chữa Khỏi Hoàn Toàn Tinh Thần Vực",
       "source_exists": true,
-      "translation_exists": false,
-      "qc_exists": false,
+      "translation_exists": true,
+      "qc_exists": true,
       "paragraphs": 97,
-      "words": 0,
-      "status": "RAW_READY"
+      "words": 2911,
+      "status": "QC_PASSED"
     },
     {
       "id": "ch_157",
@@ -1882,11 +1882,11 @@
       "title_cn": "第157章 惶恐的凌裴",
       "title_vi": "Chương 157: Lời Tỏ Tình Muộn Màng",
       "source_exists": true,
-      "translation_exists": false,
-      "qc_exists": false,
+      "translation_exists": true,
+      "qc_exists": true,
       "paragraphs": 112,
-      "words": 0,
-      "status": "RAW_READY"
+      "words": 2797,
+      "status": "QC_PASSED"
     },
     {
       "id": "ch_158",
@@ -1894,11 +1894,11 @@
       "title_cn": "第158章 错过的枫树星",
       "title_vi": "Chương 158: Gắn Kết Tâm Hồn",
       "source_exists": true,
-      "translation_exists": false,
-      "qc_exists": false,
+      "translation_exists": true,
+      "qc_exists": true,
       "paragraphs": 95,
-      "words": 0,
-      "status": "RAW_READY"
+      "words": 2727,
+      "status": "QC_PASSED"
     },
     {
       "id": "ch_159",
@@ -1906,11 +1906,11 @@
       "title_cn": "第159章 叶枭安不要他了",
       "title_vi": "Chương 159: Kế Hoạch Cho Tương Lai",
       "source_exists": true,
-      "translation_exists": false,
-      "qc_exists": false,
+      "translation_exists": true,
+      "qc_exists": true,
       "paragraphs": 107,
-      "words": 0,
-      "status": "RAW_READY"
+      "words": 2761,
+      "status": "QC_PASSED"
     },
     {
       "id": "ch_160",
@@ -1918,11 +1918,11 @@
       "title_cn": "第160章 战争前的准备",
       "title_vi": "Chương 160: Chiến Hạm Tuần Du Vũ Trụ",
       "source_exists": true,
-      "translation_exists": false,
-      "qc_exists": false,
+      "translation_exists": true,
+      "qc_exists": true,
       "paragraphs": 94,
-      "words": 0,
-      "status": "RAW_READY"
+      "words": 3055,
+      "status": "QC_PASSED"
     },
     {
       "id": "ch_161",
@@ -1930,11 +1930,11 @@
       "title_cn": "第161章 首都星的优越位置",
       "title_vi": "Chương 161: Điểm Dừng Chân Kỳ Thú",
       "source_exists": true,
-      "translation_exists": false,
-      "qc_exists": false,
+      "translation_exists": true,
+      "qc_exists": true,
       "paragraphs": 115,
-      "words": 0,
-      "status": "RAW_READY"
+      "words": 3682,
+      "status": "QC_PASSED"
     },
     {
       "id": "ch_162",
@@ -1942,11 +1942,11 @@
       "title_cn": "第162章 他一直都想要",
       "title_vi": "Chương 162: Vương Quốc Biển Sâu",
       "source_exists": true,
-      "translation_exists": false,
-      "qc_exists": false,
+      "translation_exists": true,
+      "qc_exists": true,
       "paragraphs": 113,
-      "words": 0,
-      "status": "RAW_READY"
+      "words": 3247,
+      "status": "QC_PASSED"
     },
     {
       "id": "ch_163",
@@ -1954,11 +1954,11 @@
       "title_cn": "第163章 不是为他而来的",
       "title_vi": "Chương 163: Món Quà Bất Ngờ",
       "source_exists": true,
-      "translation_exists": false,
-      "qc_exists": false,
+      "translation_exists": true,
+      "qc_exists": true,
       "paragraphs": 113,
-      "words": 0,
-      "status": "RAW_READY"
+      "words": 3048,
+      "status": "QC_PASSED"
     },
     {
       "id": "ch_164",
@@ -1966,11 +1966,11 @@
       "title_cn": "第164章 什锦月被吸收",
       "title_vi": "Chương 164: Hồi Ức Hải Lam Tinh",
       "source_exists": true,
-      "translation_exists": false,
-      "qc_exists": false,
+      "translation_exists": true,
+      "qc_exists": true,
       "paragraphs": 83,
-      "words": 0,
-      "status": "RAW_READY"
+      "words": 2859,
+      "status": "QC_PASSED"
     },
     {
       "id": "ch_165",
@@ -1978,11 +1978,11 @@
       "title_cn": "第165章 凌裴下落不明",
       "title_vi": "Chương 165: Nơi Tình Yêu Bắt Đầu",
       "source_exists": true,
-      "translation_exists": false,
-      "qc_exists": false,
+      "translation_exists": true,
+      "qc_exists": true,
       "paragraphs": 85,
-      "words": 0,
-      "status": "RAW_READY"
+      "words": 2730,
+      "status": "QC_PASSED"
     },
     {
       "id": "ch_166",
@@ -1990,11 +1990,11 @@
       "title_cn": "第166章 错过的五十七年",
       "title_vi": "Chương 166: Tái Ngộ Thuộc Hạ Cũ",
       "source_exists": true,
-      "translation_exists": false,
-      "qc_exists": false,
+      "translation_exists": true,
+      "qc_exists": true,
       "paragraphs": 93,
-      "words": 0,
-      "status": "RAW_READY"
+      "words": 3158,
+      "status": "QC_PASSED"
     },
     {
       "id": "ch_167",
@@ -2002,11 +2002,11 @@
       "title_cn": "第167章 复仇的狂欢",
       "title_vi": "Chương 167: Sự Tôn Kính Dành Cho Thượng Tướng",
       "source_exists": true,
-      "translation_exists": false,
-      "qc_exists": false,
+      "translation_exists": true,
+      "qc_exists": true,
       "paragraphs": 94,
-      "words": 0,
-      "status": "RAW_READY"
+      "words": 2905,
+      "status": "QC_PASSED"
     },
     {
       "id": "ch_168",
@@ -2014,11 +2014,11 @@
       "title_cn": "第168章 “基因”承载者",
       "title_vi": "Chương 168: Cơ Giáp Sư Độc Quyền Của Riêng Tôi",
       "source_exists": true,
-      "translation_exists": false,
-      "qc_exists": false,
+      "translation_exists": true,
+      "qc_exists": true,
       "paragraphs": 101,
-      "words": 0,
-      "status": "RAW_READY"
+      "words": 2897,
+      "status": "QC_PASSED"
     },
     {
       "id": "ch_169",
@@ -2026,11 +2026,11 @@
       "title_cn": "第169章 叶枭安的怒火",
       "title_vi": "Chương 169: Ghen Tuông Đáng Yêu",
       "source_exists": true,
-      "translation_exists": false,
-      "qc_exists": false,
+      "translation_exists": true,
+      "qc_exists": true,
       "paragraphs": 90,
-      "words": 0,
-      "status": "RAW_READY"
+      "words": 2992,
+      "status": "QC_PASSED"
     },
     {
       "id": "ch_170",
@@ -2038,11 +2038,11 @@
       "title_cn": "第170章 跳梁小丑？",
       "title_vi": "Chương 170: Bảo Bọc Không Rời",
       "source_exists": true,
-      "translation_exists": false,
-      "qc_exists": false,
+      "translation_exists": true,
+      "qc_exists": true,
       "paragraphs": 110,
-      "words": 0,
-      "status": "RAW_READY"
+      "words": 3132,
+      "status": "QC_PASSED"
     },
     {
       "id": "ch_171",
@@ -2050,11 +2050,11 @@
       "title_cn": "第171章 疯癫的凌裴",
       "title_vi": "Chương 171: Dạo Chơi Vườn Hoa Tinh Tế",
       "source_exists": true,
-      "translation_exists": false,
-      "qc_exists": false,
+      "translation_exists": true,
+      "qc_exists": true,
       "paragraphs": 106,
-      "words": 0,
-      "status": "RAW_READY"
+      "words": 2711,
+      "status": "QC_PASSED"
     },
     {
       "id": "ch_172",
@@ -2062,11 +2062,11 @@
       "title_cn": "第172章 被驯服的凌裴",
       "title_vi": "Chương 172: Bình Minh Trên Đỉnh Tinh Cầu",
       "source_exists": true,
-      "translation_exists": false,
-      "qc_exists": false,
+      "translation_exists": true,
+      "qc_exists": true,
       "paragraphs": 92,
-      "words": 0,
-      "status": "RAW_READY"
+      "words": 2858,
+      "status": "QC_PASSED"
     },
     {
       "id": "ch_173",
@@ -2074,11 +2074,11 @@
       "title_cn": "第173章 尘埃落定",
       "title_vi": "Chương 173: Bên Nhau Trọn Đời",
       "source_exists": true,
-      "translation_exists": false,
-      "qc_exists": false,
+      "translation_exists": true,
+      "qc_exists": true,
       "paragraphs": 135,
-      "words": 0,
-      "status": "RAW_READY"
+      "words": 3273,
+      "status": "QC_PASSED"
     },
     {
       "id": "ch_174",
@@ -2086,11 +2086,11 @@
       "title_cn": "第174章 凌裴竟然自杀",
       "title_vi": "Chương 174: Lời Thề Nguyện Vĩnh Cửu",
       "source_exists": true,
-      "translation_exists": false,
-      "qc_exists": false,
+      "translation_exists": true,
+      "qc_exists": true,
       "paragraphs": 101,
-      "words": 0,
-      "status": "RAW_READY"
+      "words": 2759,
+      "status": "QC_PASSED"
     },
     {
       "id": "ch_175",
@@ -2098,11 +2098,11 @@
       "title_cn": "第175章 我们回绿星",
       "title_vi": "Chương 175: Hạnh Phúc Viên Mãn",
       "source_exists": true,
-      "translation_exists": false,
-      "qc_exists": false,
+      "translation_exists": true,
+      "qc_exists": true,
       "paragraphs": 99,
-      "words": 0,
-      "status": "RAW_READY"
+      "words": 2839,
+      "status": "QC_PASSED"
     },
     {
       "id": "ch_176",
@@ -2110,11 +2110,11 @@
       "title_cn": "第176章 余生陪你",
       "title_vi": "Chương 176: Cả Đời Này Bên Em",
       "source_exists": true,
-      "translation_exists": false,
-      "qc_exists": false,
+      "translation_exists": true,
+      "qc_exists": true,
       "paragraphs": 93,
-      "words": 0,
-      "status": "RAW_READY"
+      "words": 2822,
+      "status": "QC_PASSED"
     },
     {
       "id": "ch_177",
@@ -2122,11 +2122,11 @@
       "title_cn": "番外1",
       "title_vi": "Phiên Ngoại 1: Cuộc Sống Thường Nhật Ngọt Ngào",
       "source_exists": true,
-      "translation_exists": false,
-      "qc_exists": false,
+      "translation_exists": true,
+      "qc_exists": true,
       "paragraphs": 59,
-      "words": 0,
-      "status": "RAW_READY"
+      "words": 1918,
+      "status": "QC_PASSED"
     },
     {
       "id": "ch_178",
@@ -2134,11 +2134,11 @@
       "title_cn": "番外2",
       "title_vi": "Phiên Ngoại 2: Hồi Ức Năm Ấy",
       "source_exists": true,
-      "translation_exists": false,
-      "qc_exists": false,
+      "translation_exists": true,
+      "qc_exists": true,
       "paragraphs": 121,
-      "words": 0,
-      "status": "RAW_READY"
+      "words": 2964,
+      "status": "QC_PASSED"
     },
     {
       "id": "ch_179",
@@ -2146,11 +2146,11 @@
       "title_cn": "番外3",
       "title_vi": "Phiên Ngoại 3: Chuyến Du Ngoạn Tinh Hà",
       "source_exists": true,
-      "translation_exists": false,
-      "qc_exists": false,
+      "translation_exists": true,
+      "qc_exists": true,
       "paragraphs": 47,
-      "words": 0,
-      "status": "RAW_READY"
+      "words": 1525,
+      "status": "QC_PASSED"
     },
     {
       "id": "ch_180",
@@ -2158,11 +2158,11 @@
       "title_cn": "番外4",
       "title_vi": "Phiên Ngoại 4: Kết Cục Của Trùng Đế",
       "source_exists": true,
-      "translation_exists": false,
-      "qc_exists": false,
+      "translation_exists": true,
+      "qc_exists": true,
       "paragraphs": 25,
-      "words": 0,
-      "status": "RAW_READY"
+      "words": 1085,
+      "status": "QC_PASSED"
     }
   ]
 }

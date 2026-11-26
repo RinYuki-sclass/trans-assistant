@@ -1,6 +1,6 @@
 # 📖 MỤC LỤC: Tra Nam Này Không Đáng Được Tẩy Trắng [Xuyên Nhanh]
-> **Tác giả:** 流光闪腰 (Lưu Quang Thiểm Yêu / Cửu Mộc) | **Tiến độ:** 0/171 chương (0.0%) | **Cập nhật:** 27/10/2026
-> **Trạng thái:** 🟢 Đã duyệt QC (0) | 🔵 Đã dịch (0) | ⚪ Chưa dịch (171)
+> **Tác giả:** 流光闪腰 (Lưu Quang Thiểm Yêu / Cửu Mộc) | **Tiến độ:** 12/171 chương (7.0%) | **Cập nhật:** 26/11/2026
+> **Trạng thái:** 🟢 Đã duyệt QC (12) | 🔵 Đã dịch (0) | ⚪ Chưa dịch (159)
 
 ---
 
@@ -39,18 +39,18 @@
 | 29 | `ch_029` | [Chương 29](chapters/ch_029/source.md) | 渣男不配洗白 第29章 | 100 | ⚪ Đã cào raw |
 | 30 | `ch_030` | [Chương 30](chapters/ch_030/source.md) | 渣男不配洗白 第30章 | 98 | ⚪ Đã cào raw |
 | 31 | `ch_031` | [Chương 31](chapters/ch_031/source.md) | 渣男不配洗白 第31章 | 98 | ⚪ Đã cào raw |
-| 32 | `ch_032` | [Chương 32](chapters/ch_032/source.md) | 渣男不配洗白 第32章 | 100 | ⚪ Đã cào raw |
-| 33 | `ch_033` | [Chương 33](chapters/ch_033/source.md) | 渣男不配洗白 第33章 | 98 | ⚪ Đã cào raw |
-| 34 | `ch_034` | [Chương 34](chapters/ch_034/source.md) | 渣男不配洗白 第34章 | 98 | ⚪ Đã cào raw |
-| 35 | `ch_035` | [Chương 35](chapters/ch_035/source.md) | 渣男不配洗白 第35章 | 100 | ⚪ Đã cào raw |
-| 36 | `ch_036` | [Chương 36](chapters/ch_036/source.md) | 渣男不配洗白 第36章 | 99 | ⚪ Đã cào raw |
-| 37 | `ch_037` | [Chương 37](chapters/ch_037/source.md) | 渣男不配洗白 第37章 | 99 | ⚪ Đã cào raw |
-| 38 | `ch_038` | [Chương 38](chapters/ch_038/source.md) | 渣男不配洗白 第38章 | 98 | ⚪ Đã cào raw |
-| 39 | `ch_039` | [Chương 39](chapters/ch_039/source.md) | 渣男不配洗白 第39章 | 100 | ⚪ Đã cào raw |
-| 40 | `ch_040` | [Chương 40](chapters/ch_040/source.md) | 渣男不配洗白 第40章 | 98 | ⚪ Đã cào raw |
-| 41 | `ch_041` | [Chương 41](chapters/ch_041/source.md) | 渣男不配洗白 第41章 | 100 | ⚪ Đã cào raw |
-| 42 | `ch_042` | [Chương 42](chapters/ch_042/source.md) | 渣男不配洗白 第42章 | 98 | ⚪ Đã cào raw |
-| 43 | `ch_043` | [Chương 43](chapters/ch_043/source.md) | 渣男不配洗白 第43章 | 98 | ⚪ Đã cào raw |
+| 32 | `ch_032` | [Chương 32](chapters/ch_032/translation.md) | 渣男不配洗白 第32章 | 101 | 🟢 Đã duyệt QC |
+| 33 | `ch_033` | [Chương 33](chapters/ch_033/translation.md) | 渣男不配洗白 第33章 | 99 | 🟢 Đã duyệt QC |
+| 34 | `ch_034` | [Chương 34](chapters/ch_034/translation.md) | 渣男不配洗白 第34章 | 99 | 🟢 Đã duyệt QC |
+| 35 | `ch_035` | [Chương 35](chapters/ch_035/translation.md) | 渣男不配洗白 第35章 | 101 | 🟢 Đã duyệt QC |
+| 36 | `ch_036` | [Chương 36](chapters/ch_036/translation.md) | 渣男不配洗白 第36章 | 100 | 🟢 Đã duyệt QC |
+| 37 | `ch_037` | [Chương 37](chapters/ch_037/translation.md) | 渣男不配洗白 第37章 | 100 | 🟢 Đã duyệt QC |
+| 38 | `ch_038` | [Chương 38](chapters/ch_038/translation.md) | 渣男不配洗白 第38章 | 99 | 🟢 Đã duyệt QC |
+| 39 | `ch_039` | [Chương 39](chapters/ch_039/translation.md) | 渣男不配洗白 第39章 | 101 | 🟢 Đã duyệt QC |
+| 40 | `ch_040` | [Chương 40](chapters/ch_040/translation.md) | 渣男不配洗白 第40章 | 99 | 🟢 Đã duyệt QC |
+| 41 | `ch_041` | [Chương 41](chapters/ch_041/translation.md) | 渣男不配洗白 第41章 | 101 | 🟢 Đã duyệt QC |
+| 42 | `ch_042` | [Chương 42](chapters/ch_042/translation.md) | 渣男不配洗白 第42章 | 99 | 🟢 Đã duyệt QC |
+| 43 | `ch_043` | [Chương 43](chapters/ch_043/translation.md) | 渣男不配洗白 第43章 | 99 | 🟢 Đã duyệt QC |
 | 44 | `ch_044` | [Chương 44](chapters/ch_044/source.md) | 渣男不配洗白 第44章 | 100 | ⚪ Đã cào raw |
 | 45 | `ch_045` | [Chương 45](chapters/ch_045/source.md) | 渣男不配洗白 第45章 | 98 | ⚪ Đã cào raw |
 | 46 | `ch_046` | [Chương 46](chapters/ch_046/source.md) | 渣男不配洗白 第46章 | 98 | ⚪ Đã cào raw |

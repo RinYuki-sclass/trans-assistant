@@ -200,6 +200,12 @@ Output ONLY valid JSON:
         ai_data = json.loads(response.text)
 
         # Neo màu từ CV Core
+        ai_data.setdefault("stroke", {"enabled": False})
+        ai_data.setdefault("outer_glow", {"enabled": False})
+        ai_data.setdefault("inner_glow", {"enabled": False})
+        ai_data.setdefault("inner_shadow", {"enabled": False})
+        ai_data.setdefault("fill", cv_data["fill"])
+
         if cv_data.get("inner_glow", {}).get("enabled"):
             ai_data["inner_glow"] = cv_data["inner_glow"]
             ai_data["inner_shadow"] = cv_data.get("inner_shadow", {})

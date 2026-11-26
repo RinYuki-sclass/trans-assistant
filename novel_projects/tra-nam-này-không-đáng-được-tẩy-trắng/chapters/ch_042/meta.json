@@ -1,8 +1,15 @@
 {
-  "chapter_id": "ch_042",
-  "title": "渣男不配洗白 第42章",
-  "imported_at": "2026-10-11T20:58:17.491493+07:00",
-  "status": "SOURCE_READY",
-  "n_paragraphs": 98,
-  "source_url": "https://www.dmxs.org/view/6-10452-42.html"
+  "chapter": "ch_042",
+  "chapter_number": 42,
+  "title": "Tra Nam Này Không Đáng Được Tẩy Trắng - Chương 42",
+  "arc": "Arc 3 (ABO: Nghiêm Trần x Hoắc Kỳ)",
+  "source_paragraphs": 99,
+  "translated_paragraphs": 99,
+  "qc_approved": true,
+  "files": [
+    "qa_clarifications.md",
+    "translation.md",
+    "qc_report.md",
+    "meta.json"
+  ]
 }

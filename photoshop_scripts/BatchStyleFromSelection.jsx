@@ -15,17 +15,26 @@ function main() {
 
     var doc = app.activeDocument;
     var origDialogMode = app.displayDialogs;
+    var prevRulerUnits = app.preferences.rulerUnits;
     app.displayDialogs = DialogModes.NO;
+    app.preferences.rulerUnits = Units.PIXELS;
+
+    var rawLayer = null;
+    var group1 = null;
+    var prevRawVisible = true;
+    var prevGroup1Visible = true;
+    var hiddenLayers = [];
+    var visibilityRestored = false;
 
     try {
         // 1. Tìm Layer 'raw' và 'Group 1'
-        var rawLayer = findRawLayer(doc);
+        rawLayer = findRawLayer(doc);
         if (!rawLayer) {
             alert("Không tìm thấy layer 'raw' (chứa bản scan gốc)!\nVui lòng đặt tên layer tranh gốc là 'raw'.");
             return;
         }
 
-        var group1 = findLayer(doc, "Group 1");
+        group1 = findLayer(doc, "Group 1");
         if (!group1) group1 = findTextGroup(doc);
 
         // 2. LẤY TẤT CẢ CÁC TEXT LAYER ĐƯỢC CHỌN (MULTI-SELECTION HOẶC TOÀN BỘ BATCH)
@@ -50,10 +59,9 @@ function main() {
         cleanOldBatchFiles(scriptFolder);
 
         // 4. TẠM ẨN CÁC TEXT LAYER & LAYER CLEAN ĐỂ CẮT VÙNG RAW CHUẨN XÁC
-        var prevRawVisible = rawLayer ? rawLayer.visible : true;
-        var prevGroup1Visible = group1 ? group1.visible : true;
+        prevRawVisible = rawLayer ? rawLayer.visible : true;
+        prevGroup1Visible = group1 ? group1.visible : true;
 
-        var hiddenLayers = [];
         var cleanKeywords = ["clean", "redraw", "xóa chữ", "sửa nền", "paint", "retouch"];
 
         // Ẩn tất cả text layer đã chọn để không dính chữ tiếng Việt vào crop
@@ -141,12 +149,12 @@ function main() {
             doc.selection.select(selRegion);
 
             try {
-                doc.selection.copy();
+                doc.selection.copy(true);
             } catch (e) {
-                try { doc.selection.copy(true); } catch (e2) {}
+                try { doc.selection.copy(); } catch (e2) {}
             }
 
-            var tempDoc = app.documents.add(cw, ch, 72, "TempBatchCrop", NewDocumentMode.RGB, DocumentFill.TRANSPARENT);
+            var tempDoc = app.documents.add(cw, ch, doc.resolution, "TempBatchCrop", NewDocumentMode.RGB, DocumentFill.TRANSPARENT);
             tempDoc.paste();
             var cropName = "batch_crop_" + i + ".png";
             var cropFilePath = scriptFolder + "\\" + cropName;
@@ -212,6 +220,7 @@ function main() {
 
         // 8. KHÔI PHỤC HIỂN THỊ VÀ LẦN LƯỢT ÁP STYLE CHO TỪNG LAYER
         restoreVisibility(group1, rawLayer, prevRawVisible, hiddenLayers);
+        visibilityRestored = true;
 
         var successCount = 0;
         for (var k = 0; k < results.length; k++) {
@@ -285,7 +294,7 @@ function main() {
                 doc.selection.select(pSelRegion);
                 try {
                     doc.selection.copy(true); // Copy merged gồm cả nền và chữ đã áp style
-                    var pDoc = app.documents.add(pW, pH, 72, "AutoStylePreview", NewDocumentMode.RGB, DocumentFill.TRANSPARENT);
+                    var pDoc = app.documents.add(pW, pH, doc.resolution, "AutoStylePreview", NewDocumentMode.RGB, DocumentFill.TRANSPARENT);
                     pDoc.paste();
                     var pFile = new File(previewFolder.fsName + "\\preview_" + p + ".png");
                     pDoc.saveAs(pFile, pngSaveOpts, true, Extension.LOWERCASE);
@@ -304,8 +313,12 @@ function main() {
         alert("Tuyệt vời (F7)! Đã phân tích ComicText AI và áp style chính xác cho " + successCount + " Text Layer!\n(Đã tự động lưu ảnh preview vào debug_previews để kiểm tra kết quả trực tiếp).");
 
     } catch (e) {
+        if (!visibilityRestored && hiddenLayers.length > 0) {
+            try { restoreVisibility(group1, rawLayer, prevRawVisible, hiddenLayers); } catch (eRest) {}
+        }
         alert("Lỗi thực thi BatchStyleFromSelection: " + e.message + " (line " + e.line + ")");
     } finally {
+        app.preferences.rulerUnits = prevRulerUnits;
         app.displayDialogs = origDialogMode;
     }
 }
@@ -786,8 +799,8 @@ function applyExactVFXStyle(data) {
             var shCol = hexToRGB(shadowInfo.color_hex || "#000000");
             var colShadow = new ActionDescriptor();
             colShadow.putDouble(s2t("red"), shCol.red);
-            colShadow.putDouble(s2t("green"), colShadow.green);
-            colShadow.putDouble(s2t("blue"), colShadow.blue);
+            colShadow.putDouble(s2t("green"), shCol.green);
+            colShadow.putDouble(s2t("blue"), shCol.blue);
             shadowDesc.putObject(s2t("color"), s2t("RGBColor"), colShadow);
 
             shadowDesc.putUnitDouble(s2t("angle"), s2t("angleUnit"), 120);
